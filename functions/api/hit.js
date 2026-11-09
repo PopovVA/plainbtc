@@ -22,11 +22,22 @@ function clip(v, n) {
   return s.length > n ? s.slice(0, n) : s;
 }
 
+function chicagoDay(d = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/Chicago",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(d);
+  const g = (type) => parts.find((p) => p.type === type)?.value;
+  return `${g("year")}-${g("month")}-${g("day")}`;
+}
+
 async function visitorHash(request) {
-  const day = new Date().toLocaleDateString("en-CA", { timeZone: "America/Chicago" }); // YYYY-MM-DD
+  const day = chicagoDay();
   const ip = request.headers.get("CF-Connecting-IP") || "";
-  const ua = (request.headers.get("User-Agent") || "").slice(0, 120);
-  const raw = `${HASH_SALT}|${day}|${ip}|${ua}`;
+  // IP + calendar day only (UA omitted — proxies/browsers tweak it and inflate uniques)
+  const raw = `${HASH_SALT}|${day}|${ip}`;
   const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(raw));
   return [...new Uint8Array(buf)]
     .map((b) => b.toString(16).padStart(2, "0"))
