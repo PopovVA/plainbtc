@@ -10,6 +10,8 @@ Der Kryptomarkt tat am Wochenende, was er oft tut, wenn die traditionellen Märk
 
 Die Kursschwankungen waren nicht nur Kosmetik. CoinGlass-Daten, die CoinDesk zitiert, zeigten <strong>mehr als 1 Milliarde Dollar</strong> an gehebelten Krypto-Positionen, die innerhalb von 24 Stunden liquidiert wurden. Rund <strong>913 Millionen</strong> davon entfielen auf Long-Positionen – also auf Trader, die auf steigende Kurse gesetzt hatten. Ether trug im Vergleich zu Bitcoin den größeren Anteil der Zwangsverkäufe: etwa <strong>448 Millionen</strong> an Liquidationen gegenüber rund <strong>272 Millionen</strong> bei Bitcoin. Die größte einzelne Liquidation war eine Ethereum-Position im Wert von etwa <strong>48 Millionen Dollar</strong>.
 
+!figure:chart
+
 ## Warum sich der Markt bewegte
 
 Zwei Wochenendgeschichten stachen heraus. Erstens Berichte, wonach Nvidia-Chef Jensen Huang eine Affäre mit einer Frau eingeräumt habe, die nach Einschätzung von US-Beamten möglicherweise Informationen für Peking gesammelt habe. Nvidias Verwaltungsrat erklärte, eine unabhängige Untersuchung eingeleitet zu haben, und sagte, es gebe keinen Grund zu der Annahme, dass die nationale Sicherheit oder Unternehmensgeheimnisse gefährdet worden seien. Dennoch traf die Nachricht auf einen Markt, der ohnehin an der Nachhaltigkeit des KI-Trades zweifelte: Der Nasdaq war in der Vorwoche um fast 5 % gefallen und stand mehrere Wochen in Folge im Minus.
@@ -19,6 +21,8 @@ Krypto-native Stellvertreter reagierten, noch bevor die Wall Street öffnete. Co
 Zweitens sagte US-Außenminister Marco Rubio, die Verhandlungen mit dem Iran stockten, und nannte die iranischen Forderungen „unverschämt“; damit blieb das geopolitische Risiko im Nahen Osten im Fokus. CoinDesk merkte an, dass Bitcoin seit der Zuspitzung des Konflikts Anfang 2026 bei ölbedingten Risk-off-Bewegungen häufig nachgab – trotz der langjährigen Erzählung vom „digitalen Gold“.
 
 !mid_cta
+
+!figure:fact
 
 ## Derivate zeichneten ein Risk-off-Bild
 

@@ -10,6 +10,8 @@ Bitcoin hat am Sonntag erstmals seit acht Wochen unter seinem gleitenden 50-Woch
 
 Der technische Bruch kam zu ohnehin brüchigen Kapitalflüssen hinzu. Die US-Spot-Bitcoin-ETFs verzeichneten laut The Block wöchentliche Netto-Abflüsse von rund <strong>1,28 Milliarden Dollar</strong> – so viel wie seit Ende Juni nicht mehr – und rutschten für 2026 mit etwa <strong>914,1 Millionen Dollar</strong> an Rückgaben seit Jahresbeginn ins Minus. Allein BlackRocks IBIT gab am Freitag rund <strong>403 Millionen Dollar</strong> ab.
 
+!figure:chart
+
 !takeaways
 - BTC schloss nach sieben Wochen darüber unter dem gleitenden 50-Wochen-Durchschnitt (~75.488 Dollar).
 - CoinGlass verzeichnete binnen 24 Stunden mehr als 1,15 Mrd. Dollar an Liquidationen, überwiegend Long-Positionen.
@@ -23,6 +25,8 @@ CoinGlass-Daten, über die The Block berichtete, beziffern die Liquidationen auf
 Für Spot-Halter – Menschen, die Bitcoin ohne geliehenes Geld kaufen – ist der Bruch eines gleitenden Durchschnitts ein Signal, kein automatischer Margin Call. Am stärksten spürten Sonntag und Montag die Trader, die Perpetual Futures und andere gehebelte Produkte handeln. Das ist einer der Gründe, warum Einsteigern oft zu Käufen mit Eigenkapital an einer regulierten Börse statt zu Futures geraten wird: Wer gerade anfängt, für den ist [ein Coinbase-Konto zu eröffnen](REF) eine regulierte US-Option für Spot-Bitcoin ohne die Zwangsliquidations-Mechanik hoher Hebel.
 
 !mid_cta
+
+!figure:fact
 
 ## Was die Geschichte sagt, wenn der 50-Wochen-Durchschnitt nach der Rückeroberung wieder verloren geht
 

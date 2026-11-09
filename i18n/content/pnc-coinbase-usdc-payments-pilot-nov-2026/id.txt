@@ -10,6 +10,8 @@ PNC Bank menyatakan pada Senin bahwa pihaknya membuka penerimaan pembayaran masu
 
 Peluncuran ini berupa <strong>uji coba terbatas</strong>, bukan produk ritel massal. Meski begitu, ini salah satu sinyal paling jelas sejauh ini bahwa bank regional besar di AS ingin memasukkan jalur stablecoin ke alur kerja tresuri sehari-hari, sambil menjaga saldo akhir tetap berupa simpanan bank yang sudah dikenal, bukan membiarkan perusahaan memegang token di pembukuan mereka sendiri.
 
+!figure:chart
+
 !takeaways
 - PNC menguji penerimaan pembayaran USDC untuk klien korporasi dan institusi yang memenuhi syarat.
 - USDC tiba di Ethereum lewat Coinbase Payments, lalu dikonversi 1:1 menjadi USD di rekening simpanan PNC.
@@ -23,6 +25,8 @@ Menurut PNC, klien korporasi menerima pembayaran USDC; infrastruktur pembayaran 
 Tom Lang, kepala Produk dan Operasional Manajemen Tresuri di PNC, mengatakan klien “terus mencari cara baru untuk berinteraksi dan bertransaksi dengan pelanggan, pemasok, dan mitra bisnis”, dan menyebut uji coba ini sebagai kesempatan untuk mendukung kebutuhan tersebut dengan pengalaman manajemen risiko dan perbankan PNC. Alec Lovett, kepala Produk Infrastruktur di Coinbase, mengatakan upaya ini menunjukkan bagaimana bank dan infrastruktur aset digital dapat membuat klien korporasi memanfaatkan teknologi stablecoin.
 
 !mid_cta
+
+!figure:fact
 
 ## Mengapa bank kini melirik penyelesaian dengan USDC
 

@@ -10,6 +10,8 @@ O bitcoin fechou o domingo abaixo da média móvel de 50 semanas pela primeira v
 
 O rompimento técnico veio sobre fluxos que já estavam frágeis. Os ETFs de bitcoin à vista dos EUA registraram cerca de <strong>US$ 1,28 bilhão</strong> em saídas líquidas semanais, as maiores desde o fim de junho, e viraram para o negativo em 2026, com aproximadamente <strong>US$ 914,1 milhões</strong> em resgates acumulados no ano, segundo o The Block. Só o IBIT, da BlackRock, perdeu cerca de <strong>US$ 403 milhões</strong> na sexta-feira.
 
+!figure:chart
+
 !takeaways
 - O BTC fechou abaixo da média móvel de 50 semanas (cerca de US$ 75.488) após sete semanas acima dela.
 - A CoinGlass registrou mais de US$ 1,15 bilhão em liquidações em 24 horas, principalmente posições compradas.
@@ -23,6 +25,8 @@ Dados da CoinGlass divulgados pelo The Block apontaram liquidações totais acim
 Para quem tem bitcoin à vista, isto é, quem compra sem dinheiro emprestado, perder uma média móvel é um sinal, não uma chamada de margem automática. Quem sentiu domingo e segunda-feira com mais força foram os traders de futuros perpétuos e outros produtos alavancados. É um dos motivos pelos quais os iniciantes costumam ser orientados a comprar à vista em uma exchange regulada, e não futuros: se você está começando, [abrir uma conta na Coinbase](REF) é uma opção regulada nos EUA para bitcoin à vista, sem a mecânica de liquidação forçada da alavancagem alta.
 
 !mid_cta
+
+!figure:fact
 
 ## O que a história diz quando a média de 50 semanas falha depois de ser recuperada
 

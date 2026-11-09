@@ -10,6 +10,8 @@ El lunes 9 de noviembre de 2026, la Red de Control de Delitos Financieros (FinCE
 
 Para el lector estadounidense de a pie, el titular práctico es sencillo: la línea de <strong>3.000 dólares</strong> para el registro de operaciones y la Travel Rule, vigente desde hace años, sigue en pie por ahora. Nada de lo presentado el lunes deroga las normas actuales. Lo que desaparece es el camino concreto hacia un umbral de 250 dólares y la redacción propuesta que habría incluido de forma más explícita la moneda virtual convertible en la definición de «dinero» a efectos de esas normas.
 
+!figure:chart
+
 !takeaways
 - FinCEN y la Fed retiraron su propuesta del 27 de octubre de 2020 a fecha de 9 de noviembre de 2026.
 - La propuesta habría rebajado ciertos umbrales transfronterizos de 3.000 a 250 dólares.
@@ -23,6 +25,8 @@ Con el marco actual de la Ley de Secreto Bancario, los bancos y muchas instituci
 Los grupos de defensa de la privacidad y de la industria cripto llevaban tiempo oponiéndose a esa rebaja, con el argumento de que arrastraría remesas corrientes y transferencias pequeñas a una maquinaria de vigilancia más pesada. Las entidades bancarias y de servicios monetarios también advirtieron del coste de cumplimiento. Según el resumen de Bitcoin Magazine sobre el aviso de retirada, las agencias recibieron casi <strong>3.000</strong> comentarios, muchos de ellos cartas modelo parecidas que rechazaban la rebaja.
 
 !mid_cta
+
+!figure:fact
 
 ## Por qué los reguladores dan marcha atrás ahora
 

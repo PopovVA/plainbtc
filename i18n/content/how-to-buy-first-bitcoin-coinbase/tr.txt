@@ -10,6 +10,8 @@ summary: Adım adım bir anlatım: hesap açın, kimliğinizi doğrulayın, öde
 
 Bu rehber pratik sırayı izler: hesap açmak, kimliğinizi doğrulamak, para bağlamak, küçük bir ilk emir vermek ve birkaç yaygın acemi hatasından kaçınmak. Eğitim amaçlıdır; herhangi bir miktarda kripto almanız yönünde bir tavsiye değildir. Süreç ABD’de yaşayanlar için anlatılmıştır; başka ülkelerde kullanılabilirlik, ödeme yöntemleri ve gereksinimler farklı olabilir.
 
+!figure:chart
+
 ## 1. Coinbase hesabınızı oluşturun
 
 Bir tarayıcıdan veya Coinbase mobil uygulamasından kaydolabilirsiniz. Coinbase yardım merkezi olağan akışı şöyle anlatır: e-postanızı girin, bir doğrulama kodunu onaylayın, parola oluşturun, resmî kimliğinizde göründüğü şekliyle yasal adınızı ve soyadınızı girin ve SMS koduyla bir telefon numarasını doğrulayın. Sunulan yerlerde Apple veya Google ile girişle de başlayabilirsiniz.
@@ -23,6 +25,8 @@ ABD’deki finansal platformların kimliği doğrulamak için kişisel bilgi top
 İpucu: adınızı kimliğinizde göründüğü şekliyle yazın. Uyuşmazlıklar, ilk doğrulamaların gecikmesinin en yaygın nedenlerinden biridir.
 
 !mid_cta
+
+!figure:fact
 
 ## 3. Ödeme yöntemi ekleyin
 

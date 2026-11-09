@@ -10,6 +10,8 @@ Buying bitcoin for the first time does not have to feel like learning a new lang
 
 This guide walks through the practical sequence: create an account, verify who you are, connect money, place a small first order, and avoid a few common beginner mistakes. It is educational, not a recommendation to buy any amount of crypto.
 
+!figure:chart
+
 ## 1. Create your Coinbase account
 
 You can sign up in a browser or in the Coinbase mobile app. Coinbase’s help center describes the usual flow: enter your email, confirm a verification code, create a password, enter your legal first and last name as they appear on government ID, and verify a phone number with an SMS code. You can also start with Apple or Google sign-in where offered.
@@ -23,6 +25,8 @@ U.S. financial platforms are required to collect personal information to validat
 Tip: enter your name exactly as it appears on your ID. Mismatches are one of the most common reasons first-time verifications get delayed.
 
 !mid_cta
+
+!figure:fact
 
 ## 3. Add a payment method
 

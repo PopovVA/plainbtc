@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-weekend.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of recent bitcoin prices around the Nov 8–9 weekend selloff",
+      "es": "Gráfico de precios recientes de bitcoin alrededor de la caída del fin de semana del 8–9 de noviembre",
+      "pt": "Gráfico dos preços recentes do bitcoin em torno da queda do fim de semana de 8–9 de novembro",
+      "fr": "Graphique des cours récents du bitcoin autour du sell-off du week-end des 8–9 novembre",
+      "de": "Liniendiagramm der jüngsten Bitcoin-Kurse um den Wochenend-Ausverkauf vom 8.–9. November",
+      "ru": "График недавней цены биткоина вокруг выходной просадки 8–9 ноября",
+      "tr": "8–9 Kasım hafta sonu satış dalgası çevresindeki bitcoin fiyat grafiği",
+      "id": "Grafik harga bitcoin terkini sekitar aksi jual akhir pekan 8–9 November",
+      "ja": "11月8–9日の週末急落前後のビットコイン価格チャート",
+      "ko": "11월 8–9일 주말 급락 전후의 비트코인 가격 차트"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: CoinGecko",
+      "es": "Gráfico: PlainBTC, datos: CoinGecko",
+      "pt": "Gráfico: PlainBTC, dados: CoinGecko",
+      "fr": "Graphique : PlainBTC, données : CoinGecko",
+      "de": "Chart: PlainBTC, Daten: CoinGecko",
+      "ru": "График: PlainBTC, данные: CoinGecko",
+      "tr": "Grafik: PlainBTC, veri: CoinGecko",
+      "id": "Grafik: PlainBTC, data: CoinGecko",
+      "ja": "チャート: PlainBTC、データ: CoinGecko",
+      "ko": "차트: PlainBTC, 데이터: CoinGecko"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-1b-liquidated.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card showing more than $1 billion liquidated in 24 hours, mostly longs",
+      "es": "Tarjeta que muestra más de 1.000 millones de dólares liquidados en 24 horas, sobre todo longs",
+      "pt": "Cartão mostrando mais de US$ 1 bilhão liquidado em 24 horas, sobretudo longs",
+      "fr": "Encadré montrant plus d’1 milliard de dollars liquidés en 24 heures, surtout des longs",
+      "de": "Faktenkarte: über 1 Mrd. $ Liquidationen in 24 Stunden, vor allem Longs",
+      "ru": "Карточка: более $1 млрд ликвидаций за 24 часа, в основном лонги",
+      "tr": "24 saatte 1 milyar dolardan fazla tasfiye — çoğunlukla long pozisyonlar",
+      "id": "Kart fakta lebih dari $1 miliar dilikuidasi dalam 24 jam, sebagian besar long",
+      "ja": "24時間で10億ドル超が清算、大半がロングというファクトカード",
+      "ko": "24시간 동안 10억 달러 이상 청산(대부분 롱) 팩트 카드"
+    },
+    "caption": {
+      "en": "Source: CoinGlass via CoinDesk",
+      "es": "Fuente: CoinGlass via CoinDesk",
+      "pt": "Fonte: CoinGlass via CoinDesk",
+      "fr": "Source : CoinGlass via CoinDesk",
+      "de": "Quelle: CoinGlass via CoinDesk",
+      "ru": "Источник: CoinGlass via CoinDesk",
+      "tr": "Kaynak: CoinGlass via CoinDesk",
+      "id": "Sumber: CoinGlass via CoinDesk",
+      "ja": "出典: CoinGlass via CoinDesk",
+      "ko": "출처: CoinGlass via CoinDesk"
+    }
+  }
+]

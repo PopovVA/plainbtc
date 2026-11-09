@@ -10,6 +10,8 @@ Bitcoin pazar günü, birçok grafik takipçisinin orta vadeli trend çizgisi sa
 
 Teknik kırılma, zaten kırılgan olan fon akışlarının üstüne geldi. The Block’a göre ABD’deki spot bitcoin ETF’leri haziran sonundan bu yana en yüksek seviye olan yaklaşık <strong>1,28 milyar dolarlık</strong> haftalık net çıkış kaydetti ve yıl başından bu yana yaklaşık <strong>914,1 milyon dolarlık</strong> itfayla 2026 için eksiye döndü. Yalnızca BlackRock’ın IBIT’i cuma günü yaklaşık <strong>403 milyon dolar</strong> kaybetti.
 
+!figure:chart
+
 !takeaways
 - BTC, yedi hafta üzerinde kaldıktan sonra 50 haftalık hareketli ortalamasının (~75.488 dolar) altında kapandı.
 - CoinGlass, 24 saatte çoğu long pozisyonlardan olmak üzere 1,15 milyar doları aşan tasfiye kaydetti.
@@ -23,6 +25,8 @@ The Block’un aktardığı CoinGlass verileri, 24 saatte yaklaşık <strong>1,0
 Spot bitcoin tutanlar için — yani borç alınmış fon kullanmadan bitcoin satın alanlar için — hareketli ortalamanın kırılması bir sinyaldir, otomatik bir teminat çağrısı değil. Pazar ve pazartesi günlerini en sert hissedenler, vadesiz vadeli işlemler ve diğer kaldıraçlı ürünlerle işlem yapan traderlar oldu. Yeni başlayanların çoğunlukla vadeli işlemler yerine düzenlemeye tabi bir borsada nakitle alıma yönlendirilmesinin nedenlerinden biri de bu: yeni başlıyorsanız, [bir Coinbase hesabı açmak](REF) yüksek kaldıracın zorunlu tasfiye mekaniği olmadan spot bitcoin için ABD’de düzenlemeye tabi seçeneklerden biridir.
 
 !mid_cta
+
+!figure:fact
 
 ## 50 haftalık ortalama geri alındıktan sonra kaybedilirse tarih ne diyor
 

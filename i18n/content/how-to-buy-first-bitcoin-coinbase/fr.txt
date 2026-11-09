@@ -10,6 +10,8 @@ Acheter du bitcoin pour la première fois ne doit pas ressembler à l’apprenti
 
 Ce guide suit la séquence pratique : créer un compte, vérifier votre identité, connecter de l’argent, passer un premier petit ordre et éviter quelques erreurs classiques de débutant. Il est pédagogique et ne constitue pas une recommandation d’acheter un quelconque montant de cryptomonnaies. Il décrit la procédure pour les résidents américains ; ailleurs, la disponibilité, les moyens de paiement et les exigences peuvent différer.
 
+!figure:chart
+
 ## 1. Créez votre compte Coinbase
 
 Vous pouvez vous inscrire dans un navigateur ou dans l’application mobile Coinbase. Le centre d’aide de Coinbase décrit le parcours habituel : saisir votre e-mail, confirmer un code de vérification, créer un mot de passe, indiquer vos nom et prénom légaux tels qu’ils figurent sur votre pièce d’identité, puis vérifier un numéro de téléphone avec un code par SMS. Vous pouvez aussi commencer avec la connexion Apple ou Google lorsqu’elle est proposée.
@@ -23,6 +25,8 @@ Les plateformes financières américaines sont tenues de collecter des informati
 Astuce : saisissez votre nom exactement comme sur votre pièce d’identité. Les écarts figurent parmi les causes les plus fréquentes de retard lors d’une première vérification.
 
 !mid_cta
+
+!figure:fact
 
 ## 3. Ajoutez un moyen de paiement
 

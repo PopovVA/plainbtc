@@ -10,6 +10,8 @@ Le lundi 9 novembre 2026, le Financial Crimes Enforcement Network (FinCEN) et le
 
 Pour le lecteur américain moyen, l’essentiel est simple : le seuil de <strong>3 000 dollars</strong> pour la conservation des données et la Travel Rule, en vigueur de longue date, reste en place pour l’instant. Rien dans le dépôt de lundi n’abroge les règles existantes. Ce qui disparaît, c’est la voie vers un seuil de 250 dollars, ainsi que la formulation proposée qui aurait inscrit plus explicitement la monnaie virtuelle convertible dans la définition de l’« argent » pour ces règles.
 
+!figure:chart
+
 !takeaways
 - FinCEN et la Fed ont retiré leur projet du 27 octobre 2020 à compter du 9 novembre 2026.
 - La proposition aurait abaissé certains seuils transfrontaliers de 3 000 à 250 dollars.
@@ -23,6 +25,8 @@ Dans le cadre actuel de la loi sur le secret bancaire, les banques et de nombreu
 Les associations de défense de la vie privée et du secteur crypto s’opposaient depuis longtemps à ce seuil plus bas, estimant qu’il ferait entrer les envois d’argent ordinaires et les petits transferts dans un dispositif de surveillance plus lourd. Les représentants des banques et des services de transfert d’argent ont aussi alerté sur les coûts de conformité. D’après le résumé de Bitcoin Magazine sur l’avis de retrait, les agences ont reçu près de <strong>3 000</strong> commentaires, souvent des courriers types similaires s’opposant à la baisse.
 
 !mid_cta
+
+!figure:fact
 
 ## Pourquoi les régulateurs reculent maintenant
 

@@ -10,6 +10,8 @@ Das erste Mal Bitcoin zu kaufen, muss sich nicht anfühlen, als lernte man eine 
 
 Dieser Leitfaden geht die praktische Abfolge durch: Konto erstellen, die eigene Identität verifizieren, Geld verbinden, eine kleine erste Order aufgeben und ein paar typische Anfängerfehler vermeiden. Er dient der Information und ist keine Empfehlung, irgendeinen Betrag in Krypto zu investieren. Er beschreibt den Ablauf für Einwohner der USA; in anderen Ländern können Verfügbarkeit, Zahlungsmethoden und Anforderungen abweichen.
 
+!figure:chart
+
 ## 1. Coinbase-Konto erstellen
 
 Sie können sich im Browser oder in der Coinbase-App registrieren. Das Coinbase-Hilfecenter beschreibt den üblichen Ablauf: E-Mail-Adresse eingeben, einen Bestätigungscode bestätigen, ein Passwort festlegen, Ihren gesetzlichen Vor- und Nachnamen so eingeben, wie er im amtlichen Ausweis steht, und eine Telefonnummer per SMS-Code verifizieren. Wo angeboten, können Sie auch mit der Anmeldung über Apple oder Google beginnen.
@@ -23,6 +25,8 @@ Finanzplattformen in den USA müssen persönliche Daten erheben, um die Identit�
 Tipp: Geben Sie Ihren Namen genau so ein, wie er im Ausweis steht. Abweichungen gehören zu den häufigsten Gründen für Verzögerungen bei der ersten Verifizierung.
 
 !mid_cta
+
+!figure:fact
 
 ## 3. Zahlungsmethode hinzufügen
 

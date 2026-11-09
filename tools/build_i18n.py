@@ -49,6 +49,8 @@ def parse_txt(path: Path):
         first = lines[0]
         if first.startswith("!takeaways"):
             blocks.append({"t": "takeaways", "items": [l[2:] for l in lines[1:] if l.startswith("- ")]})
+        elif first.startswith("!figure:"):
+            blocks.append({"t": "figure", "id": first.split(":", 1)[1].strip()})
         elif first.startswith("!soft:"):
             blocks.append({"t": "soft", "text": first[6:].strip()})
         elif first.startswith("!"):
@@ -147,6 +149,8 @@ def load_content():
             warnings.append(f"no i18n source for article {slug} (run tools/i18n_extract.py {slug})")
             continue
         c = {"meta": load_json(d / "meta.json"), "links": load_json(d / "links.json")}
+        figs = d / "figures.json"
+        c["figures"] = {f["id"]: f for f in load_json(figs)} if figs.exists() else {}
         for l in LANGS:
             f = d / f"{l['code']}.txt"
             if f.exists():
@@ -284,7 +288,8 @@ def head_html(lang, kind, slug, title, desc, og_title, og_desc, typ, image, ld, 
   <meta name="robots" content="index,follow">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS ({esc_attr(a['name'])})" href="/{lang}/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.css?v=20261109c">
+  <link rel="stylesheet" href="/assets/styles.20261109d.css">
+  <link rel="stylesheet" href="/assets/article-media.css?v=20261109a">
   <title>{esc(title)}</title>
   <meta name="description" content="{esc_attr(desc)}">
   <link rel="canonical" href="{url}">
@@ -328,7 +333,7 @@ def footer_html(lang, kind, slug) -> str:
     </div>
 {footer_langs(kind, slug, lang)}
   </footer>
-  <script src="/assets/site.js?v=20261109c" defer></script>
+  <script src="/assets/site.js?v=20261109d" defer></script>
 </body>
 </html>
 '''
@@ -398,6 +403,21 @@ def build_article(lang: str, slug: str):
         if t == "takeaways":
             lis = "\n".join(f"          <li>{pg.inline(i)}</li>" for i in b["items"])
             body.append(f'      <div class="takeaways">\n        <h2>{esc(s["takeaways"])}</h2>\n        <ul>\n{lis}\n        </ul>\n      </div>\n')
+        elif t == "figure":
+            fig = c["figures"].get(b["id"])
+            if not fig:
+                errors.append(f"[{lang}/{slug}] unknown figure id {b['id']!r}")
+            else:
+                alt = fig["alt"].get(lang) or fig["alt"].get("en", "")
+                cap = fig["caption"].get(lang) or fig["caption"].get("en", "")
+                src = f"/assets/img/{slug}/{fig['file']}"
+                body.append(
+                    f'''      <figure class="article-figure">
+        <img src="{src}" width="{fig['w']}" height="{fig['h']}" alt="{esc_attr(alt)}" loading="lazy">
+        <figcaption>{esc(cap)}</figcaption>
+      </figure>
+'''
+                )
         elif t == "mid_cta":
             if mode in ("full", "hedged"):
                 body.append(f'''      <aside class="mid-cta" aria-label="{esc_attr(s['banner_label'])}">
@@ -614,13 +634,20 @@ def patch_en(path: Path, kind: str, slug: str = ""):
     o = h
     h = fix_jsonld(h)
     h = re.sub(
-        r'<link rel="stylesheet" href="[^"]*styles\.css[^"]*">',
-        '<link rel="stylesheet" href="/assets/styles.css?v=20261109c">',
+        r'<link rel="stylesheet" href="[^"]*styles(?:\.[\w-]+)?\.css(?:\?[^"]*)?">',
+        '<link rel="stylesheet" href="/assets/styles.20261109d.css">',
         h,
         count=1,
     )
+    if "article-media.css" not in h:
+        h = h.replace(
+            '<link rel="stylesheet" href="/assets/styles.20261109d.css">',
+            '<link rel="stylesheet" href="/assets/styles.20261109d.css">\n'
+            '  <link rel="stylesheet" href="/assets/article-media.css?v=20261109a">',
+            1,
+        )
     if "/assets/site.js" not in h:
-        h = h.replace("</body>", '  <script src="/assets/site.js?v=20261109c" defer></script>\n</body>', 1)
+        h = h.replace("</body>", '  <script src="/assets/site.js?v=20261109d" defer></script>\n</body>', 1)
     new = hreflang_block(kind, slug, DEFAULT)
     h, ok = replace_marked(h, "hreflang", new)
     if not ok:
@@ -658,10 +685,14 @@ def validate():
             for k in src_head:
                 if not head.get(k):
                     errors.append(f"[{tag}] missing header '{k}'")
-            if [b["t"] for b in blocks] != [b["t"] for b in src_blocks]:
+            def sig(b):
+                return (b["t"], b.get("id", ""))
+            if [sig(b) for b in blocks] != [sig(b) for b in src_blocks]:
                 errors.append(f"[{tag}] block sequence differs: {len(blocks)} vs {len(src_blocks)} blocks")
                 continue
             for i, (a, b) in enumerate(zip(src_blocks, blocks)):
+                if a["t"] == "figure":
+                    continue
                 at = a.get("text") or " ".join(a.get("items", []))
                 bt = b.get("text") or " ".join(b.get("items", []))
                 if "items" in a and len(a["items"]) != len(b["items"]):

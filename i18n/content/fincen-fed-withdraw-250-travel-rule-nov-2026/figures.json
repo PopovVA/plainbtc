@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-thresholds.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart comparing the current $3,000 Travel Rule threshold with the withdrawn $250 proposal",
+      "es": "Gráfico que compara el umbral vigente de 3.000 $ de la Travel Rule con la propuesta retirada de 250 $",
+      "pt": "Gráfico comparando o limiar atual de US$ 3.000 da Travel Rule com a proposta retirada de US$ 250",
+      "fr": "Histogramme comparant le seuil actuel de 3 000 $ de la Travel Rule et la proposition retirée à 250 $",
+      "de": "Balkendiagramm: geltende 3.000-$ Travel-Rule-Schwelle vs. zurückgezogener 250-$ Vorschlag",
+      "ru": "Сравнение действующего порога Travel Rule $3 000 и отозванного предложения $250",
+      "tr": "Yürürlükteki 3.000 $ Travel Rule eşiği ile geri çekilen 250 $ teklifini karşılaştıran grafik",
+      "id": "Grafik membandingkan ambang Travel Rule $3.000 yang berlaku dengan usulan $250 yang ditarik",
+      "ja": "現行のトラベルルールしきい値3000ドルと撤回された250ドル案の比較棒グラフ",
+      "ko": "현행 트래블룰 3,000달러 기준과 철회된 250달러 제안 비교 막대 차트"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: FinCEN / Federal Reserve Federal Register notice",
+      "es": "Gráfico: PlainBTC, datos: FinCEN / Federal Reserve Federal Register notice",
+      "pt": "Gráfico: PlainBTC, dados: FinCEN / Federal Reserve Federal Register notice",
+      "fr": "Graphique : PlainBTC, données : FinCEN / Federal Reserve Federal Register notice",
+      "de": "Chart: PlainBTC, Daten: FinCEN / Federal Reserve Federal Register notice",
+      "ru": "График: PlainBTC, данные: FinCEN / Federal Reserve Federal Register notice",
+      "tr": "Grafik: PlainBTC, veri: FinCEN / Federal Reserve Federal Register notice",
+      "id": "Grafik: PlainBTC, data: FinCEN / Federal Reserve Federal Register notice",
+      "ja": "チャート: PlainBTC、データ: FinCEN / Federal Reserve Federal Register notice",
+      "ko": "차트: PlainBTC, 데이터: FinCEN / Federal Reserve Federal Register notice"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-threshold-stays.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card stating the $3,000 Travel Rule threshold remains after the $250 proposal was withdrawn",
+      "es": "Tarjeta que indica que el umbral de 3.000 $ de la Travel Rule se mantiene tras retirar la propuesta de 250 $",
+      "pt": "Cartão afirmando que o limiar de US$ 3.000 da Travel Rule permanece após a retirada da proposta de US$ 250",
+      "fr": "Encadré : le seuil de 3 000 $ de la Travel Rule reste après le retrait de la proposition à 250 $",
+      "de": "Faktenkarte: 3.000-$ Travel-Rule-Schwelle bleibt nach Rücknahme des 250-$ Vorschlags",
+      "ru": "Карточка: порог Travel Rule $3 000 сохраняется после отзыва предложения $250",
+      "tr": "250 $ teklifi geri çekildikten sonra 3.000 $ Travel Rule eşiğinin kaldığını belirten kart",
+      "id": "Kart fakta ambang Travel Rule $3.000 tetap setelah usulan $250 ditarik",
+      "ja": "250ドル案撤回後もトラベルルールしきい値3000ドルが維持されることを示すカード",
+      "ko": "250달러 제안 철회 후에도 트래블룰 3,000달러 기준이 유지됨을 보여주는 카드"
+    },
+    "caption": {
+      "en": "Source: Federal Register / FinCEN & Federal Reserve",
+      "es": "Fuente: Federal Register / FinCEN & Federal Reserve",
+      "pt": "Fonte: Federal Register / FinCEN & Federal Reserve",
+      "fr": "Source : Federal Register / FinCEN & Federal Reserve",
+      "de": "Quelle: Federal Register / FinCEN & Federal Reserve",
+      "ru": "Источник: Federal Register / FinCEN & Federal Reserve",
+      "tr": "Kaynak: Federal Register / FinCEN & Federal Reserve",
+      "id": "Sumber: Federal Register / FinCEN & Federal Reserve",
+      "ja": "出典: Federal Register / FinCEN & Federal Reserve",
+      "ko": "출처: Federal Register / FinCEN & Federal Reserve"
+    }
+  }
+]

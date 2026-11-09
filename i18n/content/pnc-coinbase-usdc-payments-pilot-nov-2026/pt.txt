@@ -10,6 +10,8 @@ O PNC Bank anunciou na segunda-feira que passa a oferecer pagamentos recebidos e
 
 O lançamento é um <strong>piloto limitado</strong>, não um produto de massa para pessoas físicas. Mesmo assim, é um dos sinais mais claros até agora de que um grande banco regional dos EUA quer levar as stablecoins para a rotina normal de tesouraria, mantendo o saldo final em depósitos bancários conhecidos, em vez de deixar as empresas com tokens nos próprios balanços.
 
+!figure:chart
+
 !takeaways
 - O PNC está testando o recebimento de pagamentos em USDC para clientes corporativos e institucionais elegíveis.
 - O USDC chega pela Ethereum via Coinbase Payments e é convertido 1:1 em dólares em uma conta de depósito no PNC.
@@ -23,6 +25,8 @@ Segundo o PNC, o cliente corporativo recebe um pagamento em USDC; a infraestrutu
 Tom Lang, chefe de Produtos e Operações de Gestão de Tesouraria do PNC, afirmou que os clientes estão «continuamente buscando novas formas de interagir e fazer negócios com clientes, fornecedores e parceiros», e descreveu o piloto como uma oportunidade de atender a essas necessidades com a experiência bancária e de gestão de riscos do PNC. Alec Lovett, chefe de Produtos de Infraestrutura da Coinbase, disse que o trabalho mostra como bancos e a infraestrutura de ativos digitais podem permitir que clientes corporativos usem a tecnologia das stablecoins.
 
 !mid_cta
+
+!figure:fact
 
 ## Por que os bancos olham para a liquidação em USDC agora
 

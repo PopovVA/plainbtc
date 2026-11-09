@@ -10,6 +10,8 @@ summary: ABD’li düzenleyiciler, sınır ötesi eşikleri 250 dolara indirmeyi
 
 ABD’li sıradan okuyucu için pratik başlık basit: Kayıt tutma ve Travel Rule için uzun süredir geçerli olan <strong>3.000 dolar</strong> sınırı şimdilik yerinde duruyor. Pazartesi günkü başvuru mevcut kuralların hiçbirini yürürlükten kaldırmıyor. Ortadan kalkan şey, 250 dolarlık eşiğe giden yol ve bu kurallar bakımından dönüştürülebilir sanal para birimini “para” tanımına daha açık biçimde yazacak olan önerilen ifade.
 
+!figure:chart
+
 !takeaways
 - FinCEN ve Fed, 27 Ekim 2020 tarihli taslaklarını 9 Kasım 2026 itibarıyla geri çekti.
 - Teklif, bazı sınır ötesi eşikleri 3.000 dolardan 250 dolara düşürecekti.
@@ -23,6 +25,8 @@ Bugünkü Banka Gizliliği Yasası çerçevesinde bankalar ve birçok banka dı�
 Gizlilik ve kripto savunuculuğu grupları, daha düşük dolar sınırına uzun süredir karşı çıkıyordu; onlara göre bu, sıradan işçi havalelerini ve küçük transferleri daha ağır bir gözetim düzenine sokacaktı. Bankacılık ve para hizmetleri sektöründen yorum yapanlar da uyum maliyetleri konusunda uyardı. Bitcoin Magazine’in geri çekme bildirimine ilişkin özetine göre kurumlar yaklaşık <strong>3.000</strong> yorum aldı; bunların çoğu indirime karşı çıkan benzer standart mektuplardı.
 
 !mid_cta
+
+!figure:fact
 
 ## Düzenleyiciler neden şimdi geri adım attı
 

@@ -10,6 +10,8 @@ Crypto spent the weekend doing what it often does when traditional markets are c
 
 The price swings were not just cosmetic. CoinGlass data cited by CoinDesk showed <strong>more than $1 billion</strong> in leveraged cryptocurrency positions liquidated within 24 hours. Roughly <strong>$913 million</strong> of that total came from longs— traders betting prices would rise. Ether absorbed the heavier share of forced selling relative to bitcoin, with about <strong>$448 million</strong> in liquidations versus roughly <strong>$272 million</strong> for bitcoin. The single largest liquidation order was an ethereum position worth about <strong>$48 million</strong>.
 
+!figure:chart
+
 ## Why the market moved
 
 Two weekend stories stood out. First, reports that Nvidia CEO Jensen Huang admitted to an affair with a woman U.S. officials believe may have been collecting information for Beijing. Nvidia’s board said it opened an independent investigation and stated it had no reason to believe national security or company secrets had been compromised. Still, the news landed on a market already uneasy about the durability of the AI trade: the Nasdaq had fallen nearly 5% the prior week and was on a multi-week losing streak.
@@ -19,6 +21,8 @@ Crypto-native proxies reacted before Wall Street reopened. CoinDesk reported tha
 Second, U.S. Secretary of State Marco Rubio said negotiations with Iran had stalled and called Iranian demands “outrageous,” keeping Middle East geopolitical risk in focus. CoinDesk noted that bitcoin has frequently declined during oil-related risk-off moves since conflict intensified earlier in 2026, despite the long-running “digital gold” narrative.
 
 !mid_cta
+
+!figure:fact
 
 ## Derivatives painted a risk-off picture
 

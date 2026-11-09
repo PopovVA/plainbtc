@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-etf-outflows.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of spot bitcoin and ether ETF outflows cited for the midterms week",
+      "es": "Gráfico de barras de salidas de ETF spot de bitcoin y ether citadas tras las midterms",
+      "pt": "Gráfico de barras das saídas de ETF spot de bitcoin e ether citadas na semana das midterms",
+      "fr": "Histogramme des sorties d’ETF spot bitcoin et ether citées la semaine des midterms",
+      "de": "Balkendiagramm der Spot-Bitcoin- und Ether-ETF-Abflüsse in der Midterms-Woche",
+      "ru": "Столбчатый график оттоков спотовых ETF биткоина и эфира за неделю midterms",
+      "tr": "Ara seçimler haftasında alıntılanan spot bitcoin ve ether ETF çıkışlarını gösteren çubuk grafik",
+      "id": "Grafik batang arus keluar ETF spot bitcoin dan ether yang dikutip pada pekan midterms",
+      "ja": "中間選挙週に引用されたビットコイン／イーサのスポットETF流出の棒グラフ",
+      "ko": "중간선거 주간에 인용된 비트코인·이더 현물 ETF 유출 막대 차트"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: SoSoValue figures as reported by CoinDesk / SquawkNews",
+      "es": "Gráfico: PlainBTC, datos: SoSoValue figures as reported by CoinDesk / SquawkNews",
+      "pt": "Gráfico: PlainBTC, dados: SoSoValue figures as reported by CoinDesk / SquawkNews",
+      "fr": "Graphique : PlainBTC, données : SoSoValue figures as reported by CoinDesk / SquawkNews",
+      "de": "Chart: PlainBTC, Daten: SoSoValue figures as reported by CoinDesk / SquawkNews",
+      "ru": "График: PlainBTC, данные: SoSoValue figures as reported by CoinDesk / SquawkNews",
+      "tr": "Grafik: PlainBTC, veri: SoSoValue figures as reported by CoinDesk / SquawkNews",
+      "id": "Grafik: PlainBTC, data: SoSoValue figures as reported by CoinDesk / SquawkNews",
+      "ja": "チャート: PlainBTC、データ: SoSoValue figures as reported by CoinDesk / SquawkNews",
+      "ko": "차트: PlainBTC, 데이터: SoSoValue figures as reported by CoinDesk / SquawkNews"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-weekly-outflow.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card highlighting a $1.282 billion weekly spot bitcoin ETF net outflow",
+      "es": "Tarjeta con la cifra de 1.282 millones de dólares de salida semanal neta de ETF spot de bitcoin",
+      "pt": "Cartão destacando saída líquida semanal de US$ 1,282 bilhão em ETF spot de bitcoin",
+      "fr": "Encadré sur une sortie nette hebdomadaire de 1,282 milliard de dollars des ETF spot bitcoin",
+      "de": "Faktenkarte: 1,282 Mrd. $ wöchentlicher Nettoabfluss aus Spot-Bitcoin-ETFs",
+      "ru": "Карточка: недельный чистый отток $1,282 млрд из спотовых ETF биткоина",
+      "tr": "Spot bitcoin ETF’lerinden haftalık 1,282 milyar dolar net çıkışı vurgulayan kart",
+      "id": "Kart fakta arus keluar bersih mingguan $1,282 miliar dari ETF spot bitcoin",
+      "ja": "ビットコインのスポットETFから週次で12.82億ドルの純流出を示すカード",
+      "ko": "비트코인 현물 ETF 주간 순유출 12억 8,200만 달러 팩트 카드"
+    },
+    "caption": {
+      "en": "Source: SoSoValue via CoinDesk",
+      "es": "Fuente: SoSoValue via CoinDesk",
+      "pt": "Fonte: SoSoValue via CoinDesk",
+      "fr": "Source : SoSoValue via CoinDesk",
+      "de": "Quelle: SoSoValue via CoinDesk",
+      "ru": "Источник: SoSoValue via CoinDesk",
+      "tr": "Kaynak: SoSoValue via CoinDesk",
+      "id": "Sumber: SoSoValue via CoinDesk",
+      "ja": "出典: SoSoValue via CoinDesk",
+      "ko": "출처: SoSoValue via CoinDesk"
+    }
+  }
+]

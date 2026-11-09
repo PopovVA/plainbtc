@@ -10,6 +10,8 @@ Les cryptos ont passé le week-end à faire ce qu’elles font souvent quand les
 
 Ces mouvements n’avaient rien de cosmétique. Les données de CoinGlass citées par CoinDesk font état de <strong>plus d’un milliard de dollars</strong> de positions crypto à effet de levier liquidées en 24 heures. Environ <strong>913 millions</strong> de ce total provenaient de positions longues, c’est-à-dire de traders pariant sur la hausse. L’ether a subi la plus grande part des ventes forcées par rapport au bitcoin, avec environ <strong>448 millions</strong> de liquidations contre quelque <strong>272 millions</strong> pour le bitcoin. La plus grosse liquidation individuelle était une position sur l’ethereum d’environ <strong>48 millions de dollars</strong>.
 
+!figure:chart
+
 ## Pourquoi le marché a bougé
 
 Deux informations du week-end ont dominé. D’abord, des informations selon lesquelles le PDG de Nvidia, Jensen Huang, aurait reconnu une liaison avec une femme dont les autorités américaines pensent qu’elle aurait pu recueillir des renseignements pour Pékin. Le conseil d’administration de Nvidia a indiqué avoir ouvert une enquête indépendante et n’avoir aucune raison de croire que la sécurité nationale ou des secrets de l’entreprise auraient été compromis. La nouvelle est tout de même arrivée sur un marché déjà inquiet de la solidité du pari sur l’IA : le Nasdaq avait perdu près de 5 % la semaine précédente et enchaînait plusieurs semaines de baisse.
@@ -19,6 +21,8 @@ Les valeurs de substitution propres au monde crypto ont réagi avant la réouver
 Ensuite, le secrétaire d’État américain Marco Rubio a déclaré que les négociations avec l’Iran étaient au point mort et a qualifié les exigences iraniennes de « scandaleuses », maintenant le risque géopolitique au Moyen-Orient au centre de l’attention. CoinDesk souligne que le bitcoin a souvent reculé lors des mouvements d’aversion au risque liés au pétrole depuis l’intensification du conflit début 2026, malgré le récit de longue date de l’« or numérique ».
 
 !mid_cta
+
+!figure:fact
 
 ## Les produits dérivés dessinent un tableau d’aversion au risque
 

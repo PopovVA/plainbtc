@@ -10,6 +10,8 @@ Na segunda-feira, 9 de novembro de 2026, a Rede de Combate a Crimes Financeiros 
 
 Para o leitor americano comum, a manchete prática é simples: a antiga linha de <strong>US$ 3.000</strong> para registro de operações e para a Travel Rule continua valendo, por enquanto. Nada no documento de segunda-feira revoga as regras existentes. O que desaparece é o caminho específico para um limite de US$ 250 e o texto proposto que incluiria, de forma mais explícita, a moeda virtual conversível na definição de «dinheiro» para essas regras.
 
+!figure:chart
+
 !takeaways
 - FinCEN e Fed retiraram a proposta de 27 de outubro de 2020 a partir de 9 de novembro de 2026.
 - A proposta reduziria determinados limites de operações internacionais de US$ 3.000 para US$ 250.
@@ -23,6 +25,8 @@ No marco atual da Lei de Sigilo Bancário, bancos e muitas instituições financ
 Grupos de defesa da privacidade e do setor cripto se opunham havia tempos ao valor menor, alegando que ele levaria remessas comuns e transferências pequenas para uma máquina de vigilância mais pesada. Representantes de bancos e de empresas de serviços financeiros também alertaram para os custos de conformidade. Segundo o resumo da Bitcoin Magazine sobre o aviso de retirada, as agências receberam quase <strong>3.000</strong> comentários, muitos deles cartas-modelo semelhantes contrárias à redução.
 
 !mid_cta
+
+!figure:fact
 
 ## Por que os reguladores recuaram agora
 

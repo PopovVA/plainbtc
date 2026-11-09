@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-50w.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin price over 90 days with a dashed line at the $75,488 50-week moving average",
+      "es": "Gráfico de la cotización de bitcoin en 90 días con una línea de puntos en la media móvil de 50 semanas de 75.488 $",
+      "pt": "Gráfico do preço do bitcoin em 90 dias com linha tracejada na média móvel de 50 semanas de US$ 75.488",
+      "fr": "Graphique du prix du bitcoin sur 90 jours avec une ligne en pointillés à la moyenne mobile 50 semaines à 75 488 $",
+      "de": "Liniendiagramm des Bitcoin-Kurses über 90 Tage mit gestrichelter 50-Wochen-Durchschnittslinie bei 75.488 $",
+      "ru": "График цены биткоина за 90 дней с пунктирной линией 50-недельной средней около $75 488",
+      "tr": "90 günlük bitcoin fiyat grafiği ve 75.488 $ seviyesindeki 50 haftalık ortalamayı gösteren kesik çizgi",
+      "id": "Grafik harga bitcoin 90 hari dengan garis putus-putus di rata-rata bergerak 50 minggu $75.488",
+      "ja": "ビットコインの90日間価格チャートと5万75488ドルの50週移動平均の破線",
+      "ko": "비트코인 90일 가격 차트와 75,488달러 50주 이동평균 점선"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: CoinGecko; 50-week MA level cited by Galaxy via The Block",
+      "es": "Gráfico: PlainBTC, datos: CoinGecko; 50-week MA level cited by Galaxy via The Block",
+      "pt": "Gráfico: PlainBTC, dados: CoinGecko; 50-week MA level cited by Galaxy via The Block",
+      "fr": "Graphique : PlainBTC, données : CoinGecko; 50-week MA level cited by Galaxy via The Block",
+      "de": "Chart: PlainBTC, Daten: CoinGecko; 50-week MA level cited by Galaxy via The Block",
+      "ru": "График: PlainBTC, данные: CoinGecko; 50-week MA level cited by Galaxy via The Block",
+      "tr": "Grafik: PlainBTC, veri: CoinGecko; 50-week MA level cited by Galaxy via The Block",
+      "id": "Grafik: PlainBTC, data: CoinGecko; 50-week MA level cited by Galaxy via The Block",
+      "ja": "チャート: PlainBTC、データ: CoinGecko; 50-week MA level cited by Galaxy via The Block",
+      "ko": "차트: PlainBTC, 데이터: CoinGecko; 50-week MA level cited by Galaxy via The Block"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-liquidations.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card highlighting $1.15 billion in crypto liquidations over 24 hours",
+      "es": "Tarjeta con la cifra de 1.150 millones de dólares en liquidaciones cripto en 24 horas",
+      "pt": "Cartão destacando US$ 1,15 bilhão em liquidações cripto em 24 horas",
+      "fr": "Encadré mettant en avant 1,15 milliard de dollars de liquidations crypto en 24 heures",
+      "de": "Faktenkarte zu 1,15 Mrd. $ Krypto-Liquidationen in 24 Stunden",
+      "ru": "Карточка с цифрой $1,15 млрд ликвидаций за 24 часа",
+      "tr": "24 saatte 1,15 milyar dolarlık kripto tasfiyesini vurgulayan kart",
+      "id": "Kart fakta $1,15 miliar likuidasi kripto dalam 24 jam",
+      "ja": "24時間で11.5億ドルの暗号資産清算を示すファクトカード",
+      "ko": "24시간 동안 11억 5천만 달러 청산을 강조한 팩트 카드"
+    },
+    "caption": {
+      "en": "Source: CoinGlass via The Block",
+      "es": "Fuente: CoinGlass via The Block",
+      "pt": "Fonte: CoinGlass via The Block",
+      "fr": "Source : CoinGlass via The Block",
+      "de": "Quelle: CoinGlass via The Block",
+      "ru": "Источник: CoinGlass via The Block",
+      "tr": "Kaynak: CoinGlass via The Block",
+      "id": "Sumber: CoinGlass via The Block",
+      "ja": "出典: CoinGlass via The Block",
+      "ko": "출처: CoinGlass via The Block"
+    }
+  }
+]

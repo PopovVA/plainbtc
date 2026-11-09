@@ -10,6 +10,8 @@ summary: Spot-Bitcoin-ETFs verbuchten gerade ihren größten Wochenabfluss seit 
 
 Die Verkäufe fallen mit einem politischen Umschwung zusammen. Nach den Zwischenwahlen der vergangenen Woche werden die Demokraten voraussichtlich sowohl das Repräsentantenhaus als auch den Senat kontrollieren. Die Märkte übersetzen dieses Ergebnis in höhere regulatorische Unsicherheit für digitale Assets – und in einen geringeren Appetit auf Krypto-Engagements über Wall-Street-Hüllen.
 
+!figure:chart
+
 ## Was die ETF-Flussdaten tatsächlich aussagen
 
 CoinDesks Crypto Daily vom 9. November formulierte die Woche unverblümt: Bitcoin-Bullen können sich bis zum Jahresende nicht automatisch auf ETF-Zuflüsse als Rückenwind verlassen. Die Fonds hatten von Anfang August bis zu dem Zeitraum, der die Jahresflüsse am 22. September ins Plus drehte, mehr als <strong>6 Milliarden Dollar</strong> eingesammelt. Dieses Polster ist weg. Eine SquawkNews-Übersicht mit SoSoValue-Zahlen ergänzte Details zum Freitag: Spot-Bitcoin-ETFs verzeichneten allein an diesem Tag Abflüsse von mehr als <strong>411 Millionen Dollar</strong>, wovon rund <strong>403 Millionen Dollar</strong> auf BlackRocks IBIT entfielen, während Fidelitys FBTC mit etwa <strong>42,8 Millionen Dollar</strong> Zuflüssen ein bemerkenswerter Ausreißer war.
@@ -25,6 +27,8 @@ Bitcoin Magazine berichtete am 4. November, dass Demokraten im Repräsentantenha
 Separat berichtete Bitcoin.com News, die SEC habe am 3. November ein vorgeschlagenes Regelpaket für Krypto-Broker-Dealer (RIN 3235-AN48) zur Prüfung an das Weiße Haus übermittelt, das Kapital-, Kundenschutz- und Aufzeichnungsvorschriften wie 15c3-1, 15c3-3, 17a-3 und 17a-4 berührt. Der Entwurfstext wurde nicht veröffentlicht; Anleger sollten die Einreichung daher als Prozesssignal und nicht als fertiges Regelwerk verstehen.
 
 !mid_cta
+
+!figure:fact
 
 ## Warum die Kurse die Politik zu spüren bekamen
 

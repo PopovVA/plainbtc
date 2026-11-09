@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "fact-usdc-1to1.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card showing USDC converts 1-to-1 into a PNC dollar deposit",
+      "es": "Tarjeta que muestra que USDC se convierte 1 a 1 en un depósito en dólares de PNC",
+      "pt": "Cartão mostrando que USDC converte 1 para 1 em depósito em dólares no PNC",
+      "fr": "Encadré : l’USDC est converti 1 pour 1 en dépôt dollar chez PNC",
+      "de": "Faktenkarte: USDC wird 1:1 in eine PNC-Dollar-Einlage umgewandelt",
+      "ru": "Карточка: USDC конвертируется 1 к 1 в долларовый депозит PNC",
+      "tr": "USDC’nin 1’e 1 PNC dolar mevduatına dönüştüğünü gösteren kart",
+      "id": "Kart fakta USDC dikonversi 1:1 menjadi deposito dolar PNC",
+      "ja": "USDCが1対1でPNCのドル預金に換金されることを示すカード",
+      "ko": "USDC가 1:1로 PNC 달러 예금으로 전환됨을 보여주는 카드"
+    },
+    "caption": {
+      "en": "Source: PNC Bank press release",
+      "es": "Fuente: PNC Bank press release",
+      "pt": "Fonte: PNC Bank press release",
+      "fr": "Source : PNC Bank press release",
+      "de": "Quelle: PNC Bank press release",
+      "ru": "Источник: PNC Bank press release",
+      "tr": "Kaynak: PNC Bank press release",
+      "id": "Sumber: PNC Bank press release",
+      "ja": "出典: PNC Bank press release",
+      "ko": "출처: PNC Bank press release"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-corporate-pilot.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card noting the USDC payments launch is a limited pilot for CIB clients",
+      "es": "Tarjeta que indica que el lanzamiento de pagos USDC es un piloto limitado para clientes CIB",
+      "pt": "Cartão notando que o lançamento de pagamentos USDC é um piloto limitado para clientes CIB",
+      "fr": "Encadré : le lancement des paiements USDC est un pilote limité pour les clients CIB",
+      "de": "Faktenkarte: USDC-Zahlungsstart ist ein begrenzter Pilot für CIB-Kunden",
+      "ru": "Карточка: запуск платежей USDC — ограниченный пилот для клиентов CIB",
+      "tr": "USDC ödeme lansmanının CIB müşterileri için sınırlı bir pilot olduğunu belirten kart",
+      "id": "Kart fakta peluncuran pembayaran USDC adalah pilot terbatas untuk klien CIB",
+      "ja": "USDC決済の開始がCIB顧客向けの限定パイロットであることを示すカード",
+      "ko": "USDC 결제 출시가 CIB 고객 대상 제한 파일럿임을 알리는 카드"
+    },
+    "caption": {
+      "en": "Source: PNC Bank press release",
+      "es": "Fuente: PNC Bank press release",
+      "pt": "Fonte: PNC Bank press release",
+      "fr": "Source : PNC Bank press release",
+      "de": "Quelle: PNC Bank press release",
+      "ru": "Источник: PNC Bank press release",
+      "tr": "Kaynak: PNC Bank press release",
+      "id": "Sumber: PNC Bank press release",
+      "ja": "出典: PNC Bank press release",
+      "ko": "출처: PNC Bank press release"
+    }
+  }
+]

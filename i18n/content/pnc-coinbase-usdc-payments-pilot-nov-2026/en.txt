@@ -10,6 +10,8 @@ PNC Bank said Monday it is making incoming <strong>USDC</strong> payments availa
 
 The launch is a <strong>limited pilot</strong>, not a mass-market retail product. Still, it is one of the clearest signals yet that a major U.S. regional bank wants stablecoin rails inside ordinary treasury workflows—while keeping the final balance in familiar bank deposits rather than leaving corporates holding tokens on their own books.
 
+!figure:chart
+
 !takeaways
 - PNC is piloting incoming USDC payments for eligible corporate and institutional clients.
 - USDC arrives on Ethereum via Coinbase Payments, then converts 1:1 into USD in a PNC deposit account.
@@ -23,6 +25,8 @@ According to PNC, the corporate client receives a USDC payment; Coinbase’s pay
 Tom Lang, head of Treasury Management Product and Operations at PNC, said clients are “continually looking at new ways to interact and transact with customers, suppliers and business partners,” and described the pilot as a chance to support those needs with PNC’s risk-management and banking experience. Alec Lovett, head of Infrastructure Products at Coinbase, said the work shows how banks and digital-asset infrastructure can let corporate clients use stablecoin technology.
 
 !mid_cta
+
+!figure:fact
 
 ## Why banks care about USDC settlement now
 

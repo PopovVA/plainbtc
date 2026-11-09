@@ -10,6 +10,8 @@ Bitcoin ditutup pada hari Minggu di bawah rata-rata bergerak 50 minggunya untuk 
 
 Penembusan teknikal ini datang di atas arus dana yang sudah rapuh. ETF bitcoin spot AS mencatat arus keluar bersih mingguan sekitar <strong>US$1,28 miliar</strong> — yang terbesar sejak akhir Juni — dan berbalik negatif untuk 2026 dengan penebusan sekitar <strong>US$914,1 juta</strong> sepanjang tahun berjalan, lapor The Block. IBIT milik BlackRock saja kehilangan sekitar <strong>US$403 juta</strong> pada hari Jumat.
 
+!figure:chart
+
 !takeaways
 - BTC ditutup di bawah rata-rata bergerak 50 minggunya (~US$75.488) setelah tujuh minggu di atasnya.
 - CoinGlass mencatat likuidasi lebih dari US$1,15 miliar dalam 24 jam, sebagian besar posisi long.
@@ -23,6 +25,8 @@ Data CoinGlass yang dilaporkan The Block menempatkan total likuidasi di atas <st
 Bagi pemegang spot — orang yang membeli bitcoin tanpa dana pinjaman — tembusnya rata-rata bergerak adalah sinyal, bukan panggilan margin otomatis. Yang paling terasa pada Minggu dan Senin adalah trader yang memakai kontrak berjangka perpetual dan produk berleverage lainnya. Itu salah satu alasan pemula sering diarahkan membeli secara tunai di bursa teregulasi, bukan futures: jika Anda baru mulai, [membuka akun Coinbase](REF) adalah salah satu opsi teregulasi di AS untuk bitcoin spot tanpa mekanisme likuidasi paksa dari leverage tinggi.
 
 !mid_cta
+
+!figure:fact
 
 ## Apa kata sejarah ketika rata-rata 50 minggu gagal dipertahankan setelah direbut kembali
 

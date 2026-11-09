@@ -10,6 +10,8 @@ On Monday, Nov. 9, 2026, the Financial Crimes Enforcement Network (FinCEN) and t
 
 For everyday U.S. readers, the practical headline is simple: the long-standing <strong>$3,000</strong> recordkeeping and Travel Rule line remains in place for now. Nothing in Monday’s filing repeals existing rules. What disappears is the specific path to a $250 threshold—and proposed language that would have written convertible virtual currency more explicitly into the definition of “money” for those rules.
 
+!figure:chart
+
 !takeaways
 - FinCEN and the Fed withdrew their Oct. 27, 2020 NPRM as of Nov. 9, 2026.
 - The proposal would have cut certain cross-border thresholds from $3,000 to $250.
@@ -23,6 +25,8 @@ Under today’s Bank Secrecy Act framework, banks and many nonbank financial ins
 Privacy and crypto advocacy groups had long opposed the lower dollar line, arguing it would pull ordinary remittances and smaller transfers into heavier surveillance machinery. Banking and money-services commenters also warned about compliance costs. According to Bitcoin Magazine’s summary of the withdrawal notice, the agencies received nearly <strong>3,000</strong> comments, many of them similar form letters opposing the cut.
 
 !mid_cta
+
+!figure:fact
 
 ## Why regulators backed off now
 

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-context.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin’s 90-day price used as market context for first-time buyers",
+      "es": "Gráfico de 90 días del precio de bitcoin como contexto de mercado para compradores primerizos",
+      "pt": "Gráfico de 90 dias do preço do bitcoin como contexto de mercado para iniciantes",
+      "fr": "Graphique sur 90 jours du prix du bitcoin comme contexte pour les premiers acheteurs",
+      "de": "90-Tage-Bitcoin-Kurschart als Marktkontext für Ersteinsteiger",
+      "ru": "График цены биткоина за 90 дней как рыночный контекст для новичков",
+      "tr": "İlk alıcılar için piyasa bağlamı olarak 90 günlük bitcoin fiyat grafiği",
+      "id": "Grafik harga bitcoin 90 hari sebagai konteks pasar bagi pembeli pemula",
+      "ja": "初めての購入者向けの市場コンテキストとしてのビットコイン90日価格チャート",
+      "ko": "첫 구매자를 위한 시장 맥락용 비트코인 90일 가격 차트"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: CoinGecko",
+      "es": "Gráfico: PlainBTC, datos: CoinGecko",
+      "pt": "Gráfico: PlainBTC, dados: CoinGecko",
+      "fr": "Graphique : PlainBTC, données : CoinGecko",
+      "de": "Chart: PlainBTC, Daten: CoinGecko",
+      "ru": "График: PlainBTC, данные: CoinGecko",
+      "tr": "Grafik: PlainBTC, veri: CoinGecko",
+      "id": "Grafik: PlainBTC, data: CoinGecko",
+      "ja": "チャート: PlainBTC、データ: CoinGecko",
+      "ko": "차트: PlainBTC, 데이터: CoinGecko"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-5-steps.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card summarizing the six beginner steps to buy bitcoin on Coinbase",
+      "es": "Tarjeta que resume los seis pasos para comprar bitcoin en Coinbase como principiante",
+      "pt": "Cartão resumindo os seis passos para comprar bitcoin na Coinbase como iniciante",
+      "fr": "Encadré résumant les six étapes pour acheter du bitcoin sur Coinbase en débutant",
+      "de": "Faktenkarte: sechs Einsteiger-Schritte zum Bitcoin-Kauf auf Coinbase",
+      "ru": "Карточка: шесть шагов новичка для покупки биткоина на Coinbase",
+      "tr": "Coinbase’de bitcoin almak için altı başlangıç adımını özetleyen kart",
+      "id": "Kart fakta enam langkah pemula membeli bitcoin di Coinbase",
+      "ja": "Coinbaseでビットコインを買う初心者向け6ステップをまとめたカード",
+      "ko": "코인베이스에서 비트코인을 사는 초보 6단계를 요약한 팩트 카드"
+    },
+    "caption": {
+      "en": "Source: Coinbase help documentation (as cited in guide)",
+      "es": "Fuente: Coinbase help documentation (as cited in guide)",
+      "pt": "Fonte: Coinbase help documentation (as cited in guide)",
+      "fr": "Source : Coinbase help documentation (as cited in guide)",
+      "de": "Quelle: Coinbase help documentation (as cited in guide)",
+      "ru": "Источник: Coinbase help documentation (as cited in guide)",
+      "tr": "Kaynak: Coinbase help documentation (as cited in guide)",
+      "id": "Sumber: Coinbase help documentation (as cited in guide)",
+      "ja": "出典: Coinbase help documentation (as cited in guide)",
+      "ko": "출처: Coinbase help documentation (as cited in guide)"
+    }
+  }
+]

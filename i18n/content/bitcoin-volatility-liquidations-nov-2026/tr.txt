@@ -10,6 +10,8 @@ Kripto piyasası, geleneksel piyasalar kapalıyken sıkça yaptığını yaptı 
 
 Fiyat dalgalanmaları sadece görüntüden ibaret değildi. CoinDesk’in aktardığı CoinGlass verileri, 24 saat içinde <strong>1 milyar doları aşan</strong> kaldıraçlı kripto pozisyonunun tasfiye edildiğini gösterdi. Bu toplamın yaklaşık <strong>913 milyon doları</strong> long pozisyonlardan, yani fiyatların yükseleceğine oynayan traderlardan geldi. Zorunlu satışların daha ağır kısmını bitcoin’e kıyasla ether üstlendi: yaklaşık <strong>448 milyon dolar</strong> ether tasfiyesine karşılık bitcoin’de yaklaşık <strong>272 milyon dolar</strong>. En büyük tekil tasfiye, yaklaşık <strong>48 milyon dolar</strong> değerindeki bir ethereum pozisyonuydu.
 
+!figure:chart
+
 ## Piyasa neden hareket etti
 
 Hafta sonundan iki haber öne çıktı. Birincisi, Nvidia CEO’su Jensen Huang’ın, ABD’li yetkililerin Pekin için bilgi topluyor olabileceğini düşündüğü bir kadınla ilişkisini kabul ettiğine dair haberler. Nvidia yönetim kurulu bağımsız bir soruşturma başlattığını ve ulusal güvenliğin ya da şirket sırlarının tehlikeye girdiğine inanmak için bir neden bulunmadığını belirtti. Yine de haber, yapay zekâ ticaretinin dayanıklılığından zaten kaygı duyan bir piyasaya geldi: Nasdaq bir önceki hafta yaklaşık yüzde 5 düşmüş ve birkaç haftadır üst üste kaybediyordu.
@@ -19,6 +21,8 @@ Kriptoya özgü vekil ürünler Wall Street açılmadan önce tepki verdi. CoinD
 İkincisi, ABD Dışişleri Bakanı Marco Rubio İran ile müzakerelerin tıkandığını söyledi ve İran’ın taleplerini “akıl almaz” diye niteledi; bu da Orta Doğu’daki jeopolitik riski gündemde tuttu. CoinDesk, çatışmanın 2026’nın başında şiddetlenmesinden bu yana, uzun süredir anlatılan “dijital altın” hikâyesine rağmen bitcoin’in petrolle ilgili riskten kaçış hareketlerinde sıkça düştüğünü not etti.
 
 !mid_cta
+
+!figure:fact
 
 ## Türev ürünler riskten kaçış tablosu çizdi
 

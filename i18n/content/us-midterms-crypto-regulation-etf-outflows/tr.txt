@@ -10,6 +10,8 @@ summary: Spot bitcoin ETF’leri haziran ayından bu yana en büyük haftalık �
 
 Satışlar siyasi bir kaymayla birlikte geliyor. Geçen haftaki ara seçimlerin ardından Demokratların hem Temsilciler Meclisi’nin hem de Senato’nun kontrolünü alması bekleniyor. Piyasalar bu sonucu dijital varlıklar için daha yüksek düzenleyici belirsizliğe ve Wall Street sarmalayıcıları üzerinden kripto maruziyetine yönelik daha zayıf iştaha çeviriyor.
 
+!figure:chart
+
 ## ETF akış verileri aslında ne söylüyor
 
 CoinDesk’in 9 Kasım tarihli Crypto Daily bülteni haftayı açık sözlü özetledi: bitcoin boğaları yıl sonuna doğru ETF girişlerine otomatik bir rüzgâr gibi yaslanamaz. Fonlar, ağustos başından yılbaşından bu yana akışları 22 Eylül’de pozitife çeviren döneme kadar <strong>6 milyar dolardan fazla</strong> para toplamıştı. Bu tampon artık yok. SoSoValue rakamlarına dayanan bir SquawkNews özeti cuma gününe dair ayrıntı ekledi: spot bitcoin ETF’leri yalnızca o gün <strong>411 milyon dolardan fazla</strong> çıkış gördü; bunun yaklaşık <strong>403 milyon doları</strong> BlackRock’ın IBIT’inden gelirken, Fidelity’nin FBTC’si yaklaşık <strong>42,8 milyon dolar</strong> ekleyerek dikkat çeken bir istisna oldu.
@@ -25,6 +27,8 @@ Bitcoin Magazine 4 Kasım’da, Meclis’teki Demokratların, Temsilci Maxine Wa
 Ayrıca Bitcoin.com News, SEC’in 3 Kasım’da kripto aracı kurum (broker-dealer) kural paketi önerisini (RIN 3235-AN48) Beyaz Saray incelemesine sunduğunu bildirdi; paket sermaye, müşteri koruması ve kayıt tutma kurallarına (15c3-1, 15c3-3, 17a-3 ve 17a-4 gibi) dokunuyor. Taslak metin yayımlanmadı; bu nedenle yatırımcılar başvuruyu bitmiş bir kural kitabı olarak değil, bir süreç sinyali olarak görmeli.
 
 !mid_cta
+
+!figure:fact
 
 ## Fiyatlar siyaseti neden hissetti
 

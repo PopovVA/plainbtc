@@ -10,6 +10,8 @@ Le bitcoin a clôturé dimanche sous sa moyenne mobile à 50 semaines pour la pr
 
 Cette cassure technique intervient sur des flux déjà fragiles. Les ETF bitcoin au comptant américains ont enregistré environ <strong>1,28 milliard de dollars</strong> de sorties nettes hebdomadaires, soit le plus depuis fin juin, et sont repassés en négatif pour 2026, avec environ <strong>914,1 millions de dollars</strong> de rachats depuis le début de l’année, selon The Block. L’IBIT de BlackRock a à lui seul cédé environ <strong>403 millions de dollars</strong> vendredi.
 
+!figure:chart
+
 !takeaways
 - Le BTC a clôturé sous sa moyenne mobile à 50 semaines (environ 75 488 dollars) après sept semaines au-dessus.
 - CoinGlass a recensé plus de 1,15 milliard de dollars de liquidations en 24 heures, surtout des positions longues.
@@ -23,6 +25,8 @@ Les données de CoinGlass rapportées par The Block font état de plus de <stron
 Pour les détenteurs au comptant — ceux qui achètent du bitcoin sans argent emprunté — la perte d’une moyenne mobile est un signal, pas un appel de marge automatique. Ceux qui ont le plus souffert dimanche et lundi sont les traders de contrats perpétuels et d’autres produits à effet de levier. C’est l’une des raisons pour lesquelles on oriente souvent les débutants vers des achats au comptant sur une plateforme réglementée plutôt que vers les contrats à terme : si vous débutez, [ouvrir un compte Coinbase](REF) est une option réglementée aux États-Unis pour acheter du bitcoin au comptant, sans la mécanique de liquidation forcée d’un fort effet de levier.
 
 !mid_cta
+
+!figure:fact
 
 ## Ce que dit l’histoire quand la moyenne à 50 semaines lâche après avoir été reprise
 

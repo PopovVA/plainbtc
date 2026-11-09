@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "fact-60m-capital.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card highlighting a $60 million Tier 1 capital requirement for Coinbase National Trust Company",
+      "es": "Tarjeta que destaca el requisito de 60 millones de dólares de capital de Nivel 1 para Coinbase National Trust Company",
+      "pt": "Cartão destacando exigência de US$ 60 milhões de capital Nível 1 para a Coinbase National Trust Company",
+      "fr": "Encadré sur l’exigence de 60 millions de dollars de fonds propres de catégorie 1 pour Coinbase National Trust Company",
+      "de": "Faktenkarte: 60 Mio. $ Tier-1-Kapitalanforderung für Coinbase National Trust Company",
+      "ru": "Карточка: требование капитала Tier 1 на $60 млн для Coinbase National Trust Company",
+      "tr": "Coinbase National Trust Company için 60 milyon $ Tier 1 sermaye şartını vurgulayan kart",
+      "id": "Kart fakta persyaratan modal Tier 1 $60 juta untuk Coinbase National Trust Company",
+      "ja": "Coinbase National Trust Companyのティア1自己資本6000万ドル要件を示すカード",
+      "ko": "Coinbase National Trust Company의 티어1 자본 6천만 달러 요건 팩트 카드"
+    },
+    "caption": {
+      "en": "Source: OCC terms as reported in article sources",
+      "es": "Fuente: OCC terms as reported in article sources",
+      "pt": "Fonte: OCC terms as reported in article sources",
+      "fr": "Source : OCC terms as reported in article sources",
+      "de": "Quelle: OCC terms as reported in article sources",
+      "ru": "Источник: OCC terms as reported in article sources",
+      "tr": "Kaynak: OCC terms as reported in article sources",
+      "id": "Sumber: OCC terms as reported in article sources",
+      "ja": "出典: OCC terms as reported in article sources",
+      "ko": "출처: OCC terms as reported in article sources"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-180-days.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card highlighting a 180-day operating-expense liquidity requirement",
+      "es": "Tarjeta que destaca el requisito de liquidez para 180 días de gastos operativos",
+      "pt": "Cartão destacando exigência de liquidez para 180 dias de despesas operacionais",
+      "fr": "Encadré sur l’exigence de liquidités couvrant 180 jours de frais d’exploitation",
+      "de": "Faktenkarte: Liquiditätsanforderung für 180 Tage Betriebskosten",
+      "ru": "Карточка: требование ликвидности на 180 дней операционных расходов",
+      "tr": "180 günlük işletme gideri likidite şartını vurgulayan kart",
+      "id": "Kart fakta persyaratan likuiditas biaya operasional 180 hari",
+      "ja": "180日分の運営費用をカバーする流動性要件を示すカード",
+      "ko": "180일분 운영비용 유동성 요건을 강조한 팩트 카드"
+    },
+    "caption": {
+      "en": "Source: OCC conditional approval terms as reported",
+      "es": "Fuente: OCC conditional approval terms as reported",
+      "pt": "Fonte: OCC conditional approval terms as reported",
+      "fr": "Source : OCC conditional approval terms as reported",
+      "de": "Quelle: OCC conditional approval terms as reported",
+      "ru": "Источник: OCC conditional approval terms as reported",
+      "tr": "Kaynak: OCC conditional approval terms as reported",
+      "id": "Sumber: OCC conditional approval terms as reported",
+      "ja": "出典: OCC conditional approval terms as reported",
+      "ko": "출처: OCC conditional approval terms as reported"
+    }
+  }
+]

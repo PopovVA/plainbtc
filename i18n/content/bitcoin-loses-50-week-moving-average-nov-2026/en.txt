@@ -10,6 +10,8 @@ Bitcoin closed Sunday below its 50-week moving average for the first time in eig
 
 The technical break arrived on top of already fragile flows. U.S. spot bitcoin ETFs posted about <strong>$1.28 billion</strong> in weekly net outflows—the most since late June—and flipped negative for 2026 with roughly <strong>$914.1 million</strong> in year-to-date redemptions, The Block reported. BlackRock’s IBIT alone shed about <strong>$403 million</strong> on Friday.
 
+!figure:chart
+
 !takeaways
 - BTC closed below its 50-week moving average (~$75,488) after seven weeks above it.
 - CoinGlass logged more than $1.15 billion in liquidations over 24 hours, mostly longs.
@@ -23,6 +25,8 @@ CoinGlass data reported by The Block put total liquidations above <strong>$1.15 
 For spot holders—people who buy bitcoin without borrowed funds—a moving-average break is a signal, not an automatic margin call. The people who felt Sunday and Monday most acutely were traders running perpetual futures and other leveraged products. That is one reason beginners are often steered toward cash purchases on a regulated exchange rather than futures: if you are just starting, [opening a Coinbase account](REF) is one regulated U.S. option for spot bitcoin without the forced-liquidation mechanics of high leverage.
 
 !mid_cta
+
+!figure:fact
 
 ## What history says when the 50-week average fails after a reclaim
 

@@ -32,6 +32,36 @@ Labels that look good: `MARKET NEWS`, `REGULATION`, `GUIDE`, `BUSINESS`, `PLAINB
 Requires Python 3 + Pillow (`pip install Pillow`) and DejaVu fonts.
 
 
+
+
+## Mid-article images
+
+Every news/guide article should show the hero/OG image at the top **and two more images in the middle of the body** (after ~paragraph 2–3 and again around the mid-CTA). Prefer:
+
+1. A **chart** from real public data (CoinGecko price series, or bar charts of figures cited in the article’s sources).
+2. A **fact card** highlighting one key number/quote from those sources (Pillow, same navy/orange brand as OG images).
+
+Generate both with:
+
+```bash
+# needs: python3 -m venv .venv && .venv/bin/pip install matplotlib Pillow
+.venv/bin/python tools/make_article_images.py --all
+.venv/bin/python tools/make_article_images.py <slug>
+```
+
+Outputs land in `assets/img/<slug>/` (webp preferred, &lt;200 KB) and `i18n/content/<slug>/figures.json` (per-language `alt` + `caption`).
+
+In every language body (`i18n/content/<slug>/<lang>.txt`) insert markers in the **same places**:
+
+```
+!figure:chart
+!figure:fact
+```
+
+`tools/build_i18n.py` turns those into `<figure class="article-figure">…</figure>` blocks. English HTML under `articles/` is still hand-edited: paste the same two figures (see an existing article for the markup) and keep the hero `<img class="og-hero">`.
+
+Never invent chart numbers. Never hotlink news-outlet photos — only official press-kit assets with credit, or graphics you generate.
+
 ## IndexNow (Bing / Yandex / others)
 
 After publishing or updating pages, ping search engines via IndexNow:

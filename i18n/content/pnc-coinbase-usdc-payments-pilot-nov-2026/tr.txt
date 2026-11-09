@@ -10,6 +10,8 @@ PNC Bank pazartesi günü, Coinbase ile ilişkisini genişleterek Kurumsal ve Ya
 
 Bu girişim, bireylere yönelik bir ürün değil, <strong>sınırlı bir pilot uygulama</strong>. Yine de büyük bir ABD bölge bankasının stabil coin altyapısını olağan hazine süreçlerinin içine almak istediğinin şimdiye kadarki en net işaretlerinden biri; üstelik nihai bakiye şirketlerin kendi defterlerinde token tutması yerine bilindik banka mevduatı olarak kalıyor.
 
+!figure:chart
+
 !takeaways
 - PNC, uygun kurumsal ve yatırım müşterileri için gelen USDC ödemelerini pilot olarak deniyor.
 - USDC, Coinbase Payments üzerinden Ethereum’da ulaşıyor ve bir PNC mevduat hesabında 1:1 oranında ABD dolarına çevriliyor.
@@ -23,6 +25,8 @@ PNC’ye göre kurumsal müşteri USDC ödemesi alıyor; stabil coin ayağını 
 PNC Hazine Yönetimi Ürün ve Operasyonlar Başkanı Tom Lang, müşterilerin “müşterileri, tedarikçileri ve iş ortaklarıyla etkileşim kurmak ve işlem yapmak için sürekli yeni yollar aradığını” belirterek pilotu, bu ihtiyaçları PNC’nin risk yönetimi ve bankacılık deneyimiyle karşılama fırsatı olarak tanımladı. Coinbase Altyapı Ürünleri Başkanı Alec Lovett ise çalışmanın, bankaların ve dijital varlık altyapısının kurumsal müşterilere stabil coin teknolojisini kullanma imkânı nasıl sunabileceğini gösterdiğini söyledi.
 
 !mid_cta
+
+!figure:fact
 
 ## Bankalar neden şimdi USDC takasıyla ilgileniyor
 

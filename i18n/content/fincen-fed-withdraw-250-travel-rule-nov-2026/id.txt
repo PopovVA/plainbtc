@@ -10,6 +10,8 @@ Pada Senin, 9 November 2026, Financial Crimes Enforcement Network (FinCEN) dan D
 
 Bagi pembaca AS pada umumnya, intinya sederhana: batas <strong>US$3.000</strong> yang sudah lama berlaku untuk pencatatan dan Travel Rule tetap berlaku untuk saat ini. Tidak ada dalam dokumen hari Senin yang mencabut aturan yang ada. Yang hilang adalah jalur menuju ambang US$250 — beserta redaksi usulan yang akan memasukkan mata uang virtual yang dapat dikonversi secara lebih eksplisit ke dalam definisi “uang” untuk aturan tersebut.
 
+!figure:chart
+
 !takeaways
 - FinCEN dan The Fed menarik rancangan aturan mereka tertanggal 27 Oktober 2020 per 9 November 2026.
 - Usulan itu akan menurunkan sejumlah ambang lintas negara dari US$3.000 menjadi US$250.
@@ -23,6 +25,8 @@ Di bawah kerangka Bank Secrecy Act saat ini, bank dan banyak lembaga keuangan no
 Kelompok pembela privasi dan kripto sudah lama menentang batas dolar yang lebih rendah, dengan alasan hal itu akan menarik kiriman uang biasa dan transfer kecil ke mesin pengawasan yang lebih berat. Pihak perbankan dan jasa pengiriman uang juga memperingatkan soal biaya kepatuhan. Menurut ringkasan Bitcoin Magazine atas pemberitahuan penarikan itu, lembaga-lembaga tersebut menerima hampir <strong>3.000</strong> komentar, banyak di antaranya surat templat serupa yang menolak penurunan tersebut.
 
 !mid_cta
+
+!figure:fact
 
 ## Mengapa regulator mundur sekarang
 

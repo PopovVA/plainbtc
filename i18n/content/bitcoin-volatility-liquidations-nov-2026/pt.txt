@@ -10,6 +10,8 @@ O mercado cripto passou o fim de semana fazendo o que costuma fazer quando os me
 
 As oscilações de preço não foram apenas cosméticas. Dados da CoinGlass citados pela CoinDesk mostraram <strong>mais de US$ 1 bilhão</strong> em posições alavancadas de criptomoedas liquidadas em 24 horas. Cerca de <strong>US$ 913 milhões</strong> desse total vieram de posições compradas (longs), isto é, de traders que apostavam na alta. O ether absorveu a maior parte das vendas forçadas em relação ao bitcoin, com cerca de <strong>US$ 448 milhões</strong> em liquidações contra aproximadamente <strong>US$ 272 milhões</strong> do bitcoin. A maior liquidação individual foi uma posição em ethereum de cerca de <strong>US$ 48 milhões</strong>.
 
+!figure:chart
+
 ## Por que o mercado se moveu
 
 Duas notícias do fim de semana se destacaram. A primeira: informações de que o presidente-executivo da Nvidia, Jensen Huang, teria admitido um caso com uma mulher que, segundo autoridades dos EUA, pode ter coletado informações para Pequim. O conselho da Nvidia disse ter aberto uma investigação independente e afirmou não ter motivos para acreditar que a segurança nacional ou segredos da empresa tenham sido comprometidos. Mesmo assim, a notícia chegou a um mercado já inquieto com a solidez da aposta em IA: o Nasdaq havia caído quase 5% na semana anterior e acumulava várias semanas de perdas.
@@ -19,6 +21,8 @@ Os substitutos nativos do mundo cripto reagiram antes de Wall Street reabrir. A 
 A segunda: o secretário de Estado dos EUA, Marco Rubio, disse que as negociações com o Irã estavam paradas e chamou as exigências iranianas de «absurdas», mantendo o risco geopolítico no Oriente Médio em foco. A CoinDesk observou que o bitcoin frequentemente recuou em movimentos de aversão a risco ligados ao petróleo desde que o conflito se intensificou, no início de 2026, apesar da antiga narrativa do «ouro digital».
 
 !mid_cta
+
+!figure:fact
 
 ## Os derivativos mostraram um quadro de aversão ao risco
 

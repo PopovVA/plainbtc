@@ -10,6 +10,8 @@ Bitcoin cerró el domingo por debajo de su media móvil de 50 semanas por primer
 
 La ruptura técnica llegó sobre unos flujos ya frágiles. Los ETF de bitcoin al contado de EE. UU. registraron unas salidas netas semanales de unos <strong>1.280 millones de dólares</strong>, las mayores desde finales de junio, y pasaron a terreno negativo en 2026 con unos <strong>914,1 millones</strong> en reembolsos acumulados en el año, según The Block. Solo IBIT, de BlackRock, perdió unos <strong>403 millones</strong> el viernes.
 
+!figure:chart
+
 !takeaways
 - BTC cerró por debajo de su media móvil de 50 semanas (unos 75.488 dólares) tras siete semanas por encima.
 - CoinGlass registró más de 1.150 millones de dólares en liquidaciones en 24 horas, en su mayoría posiciones largas.
@@ -23,6 +25,8 @@ Los datos de CoinGlass recogidos por The Block situaron las liquidaciones totale
 Para quienes tienen bitcoin al contado, es decir, lo compran sin fondos prestados, perder una media móvil es una señal, no una llamada de margen automática. Quienes más lo sintieron el domingo y el lunes fueron los traders con futuros perpetuos y otros productos apalancados. Es una de las razones por las que a los principiantes se les suele orientar hacia compras al contado en un exchange regulado y no hacia los futuros: si estás empezando, [abrir una cuenta en Coinbase](REF) es una opción regulada en EE. UU. para comprar bitcoin al contado sin la mecánica de liquidación forzosa del apalancamiento alto.
 
 !mid_cta
+
+!figure:fact
 
 ## Qué dice la historia cuando la media de 50 semanas falla tras recuperarse
 

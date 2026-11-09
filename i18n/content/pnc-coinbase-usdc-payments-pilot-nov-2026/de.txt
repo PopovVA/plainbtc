@@ -10,6 +10,8 @@ PNC Bank hat am Montag mitgeteilt, dass berechtigte Kunden des Corporate & Insti
 
 Der Start ist ein <strong>begrenzter Pilot</strong> und kein Massenprodukt für Privatkunden. Dennoch ist er eines der deutlichsten Signale bisher, dass eine große regionale US-Bank Stablecoin-Schienen in den normalen Treasury-Alltag holen will – während der Endbestand weiterhin als gewohntes Bankguthaben geführt wird und Unternehmen keine Token in der eigenen Bilanz halten müssen.
 
+!figure:chart
+
 !takeaways
 - PNC testet eingehende USDC-Zahlungen für berechtigte Firmen- und institutionelle Kunden.
 - USDC kommt über Coinbase Payments auf Ethereum an und wird 1:1 in US-Dollar auf einem PNC-Einlagenkonto umgewandelt.
@@ -23,6 +25,8 @@ Laut PNC erhält der Firmenkunde eine USDC-Zahlung; die Zahlungsinfrastruktur vo
 Tom Lang, Leiter Treasury Management Product and Operations bei PNC, sagte, Kunden suchten „ständig nach neuen Wegen, mit Kunden, Lieferanten und Geschäftspartnern zu interagieren und Geschäfte abzuwickeln“, und beschrieb den Pilot als Chance, diese Bedürfnisse mit dem Risikomanagement und der Bankenerfahrung von PNC zu unterstützen. Alec Lovett, Leiter Infrastructure Products bei Coinbase, sagte, die Arbeit zeige, wie Banken und Infrastruktur für digitale Vermögenswerte Firmenkunden die Nutzung von Stablecoin-Technologie ermöglichen können.
 
 !mid_cta
+
+!figure:fact
 
 ## Warum Banken jetzt auf USDC-Abwicklung schauen
 

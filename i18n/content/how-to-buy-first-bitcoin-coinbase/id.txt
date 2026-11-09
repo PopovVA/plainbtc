@@ -10,6 +10,8 @@ Membeli bitcoin untuk pertama kali tidak harus terasa seperti belajar bahasa bar
 
 Panduan ini menelusuri urutan praktisnya: membuat akun, memverifikasi identitas, menghubungkan dana, menempatkan order pertama dalam jumlah kecil, dan menghindari beberapa kesalahan umum pemula. Isinya bersifat edukatif, bukan rekomendasi untuk membeli kripto dalam jumlah berapa pun.
 
+!figure:chart
+
 ## 1. Buat akun Coinbase Anda
 
 Anda dapat mendaftar lewat browser atau aplikasi seluler Coinbase. Pusat bantuan Coinbase menjelaskan alur yang lazim: masukkan email, konfirmasi kode verifikasi, buat kata sandi, masukkan nama depan dan belakang legal Anda sebagaimana tertera di identitas resmi, lalu verifikasi nomor telepon dengan kode SMS. Anda juga dapat memulai dengan login Apple atau Google jika tersedia.
@@ -23,6 +25,8 @@ Platform keuangan AS diwajibkan mengumpulkan informasi pribadi untuk memvalidasi
 Tips: tulis nama Anda persis seperti di kartu identitas. Ketidakcocokan adalah salah satu penyebab paling umum tertundanya verifikasi pertama.
 
 !mid_cta
+
+!figure:fact
 
 ## 3. Tambahkan metode pembayaran
 
