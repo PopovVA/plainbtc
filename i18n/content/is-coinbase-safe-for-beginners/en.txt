@@ -1,0 +1,113 @@
+title: Is Coinbase safe for beginners? What’s protected, what isn’t, and how to lower your risk
+page_title: Is Coinbase safe for beginners?
+description: Is Coinbase safe? A plain-English look at what Coinbase protects, what isn’t insured, the 2025 data breach, and how beginners can lower their risk.
+og_description: What Coinbase protects, what FDIC insurance does and doesn’t cover, and a short checklist to secure your account.
+label: Beginner guide
+summary: A plain-English safety check of Coinbase: how it stores crypto, what is and isn’t insured, what the 2025 data breach was, and a checklist to protect your account.
+===
+
+“Is Coinbase safe?” is one of the first questions new buyers ask, and the honest answer has two parts. Coinbase is a large, publicly traded U.S. company with serious security practices. But “safe” does not mean “risk-free”: crypto is not insured like a bank deposit, prices swing hard, and scammers target beginners. This guide separates what Coinbase protects from what is still up to you.
+
+!takeaways
+- Coinbase says over 99% of customer crypto is kept in offline cold wallets, and it requires 2-step verification to access an account.
+- U.S. dollar cash balances can qualify for FDIC pass-through insurance up to $250,000 per depositor. Crypto itself is not FDIC-insured.
+- A 2025 breach exposed some customers’ personal data through bribed support staff, but Coinbase said passwords, private keys, and funds were not compromised.
+- For most beginners, impersonation scams and price swings are bigger everyday risks than a break-in at Coinbase itself.
+
+## The short answer
+
+For most U.S. beginners, Coinbase is a reasonable place to start if you use it carefully, but it is not risk-free. Coinbase is listed on Nasdaq and files [annual and quarterly reports with the SEC](L1), which forces it to disclose risks publicly. Its custody arm also recently won a federal trust charter, which you can read about in [our report on the OCC charter](/articles/coinbase-occ-national-trust-charter-nov-2026). Note that the charter covers institutional custody, not everyday retail accounts.
+
+It helps to keep three risks apart: <strong>company risk</strong> (Coinbase gets hacked or fails), <strong>account risk</strong> (someone takes over your login or tricks you), and <strong>market risk</strong> (the price drops). Coinbase can reduce the first two. Nobody can remove the third.
+
+## How Coinbase protects your crypto
+
+Coinbase says it uses two kinds of storage. A small share sits in hot wallets so customers can withdraw quickly, while [over 99% of assets stay in cold wallets](L2) that are kept offline. Coinbase also says the private keys for customer assets in cold storage are split into pieces and never put back together in one place, even when a transaction is signed. In theory, that means one stolen laptop or one dishonest employee cannot move customer funds.
+
+On the account side, Coinbase says [2-step verification is required](L3) to access your account, and it recommends security keys or passkeys. These are the company’s own descriptions, so treat them as claims you cannot independently check.
+
+!figure:cold
+
+## What is insured, and what isn’t
+
+Coinbase says plainly that it is <strong>not an FDIC-insured bank</strong>. Here is how it splits:
+
+- <strong>U.S. dollar cash.</strong> Coinbase says customer cash is held in pooled accounts at FDIC-insured banks or NCUSIF-insured credit unions, set up so Coinbase can claim [pass-through insurance](L4) of up to $250,000 per depositor if one of those institutions fails. The coverage depends on Coinbase’s records and on the regulator’s decision at the time. It does not protect you from price drops or from someone getting into your account.
+- <strong>Crypto.</strong> Bitcoin and other crypto are not covered by FDIC, NCUSIF, or SIPC protections. Coinbase has crime insurance for a portion of the digital currency in its storage systems, but its policy [does not cover losses from unauthorized access to your account](L5) caused by a breach or loss of your credentials, and it says total losses may exceed insurance recoveries.
+
+!figure:fdic
+
+!mid_cta
+
+## What if Coinbase itself fails?
+
+Coinbase’s user agreement says title to your crypto stays with you and that it is not Coinbase’s property. But in the risk factors of its [annual report](L6), Coinbase warns that crypto held in custody may be treated as property of a bankruptcy estate, and customers could then be treated as general unsecured creditors. The company says it believes a court would not do that because of a state-law rule called UCC Article 8, but it also says courts have not yet considered the question for custodied crypto.
+
+In plain English: nobody knows for sure how a judge would rule. That uncertainty is one reason people with larger balances look at self-custody, which we explain in our [custodial vs. self-custody wallet guide](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+## What happened in the 2025 data breach
+
+In May 2025, Coinbase told the SEC that criminals had [paid overseas support contractors and employees](L7) to copy customer information from internal systems. The data included names, addresses, phone numbers, emails, the last four digits of Social Security numbers, masked bank-account numbers, government ID images, and account balances and transaction history.
+
+Coinbase said the incident did not involve passwords or private keys, and that no one could access customer funds. It estimated costs of $180 million to $400 million, said it would reimburse customers who were tricked into sending funds, and refused a $20 million ransom demand.
+
+The lesson is not that Coinbase’s vaults were emptied. It is that stolen personal details make convincing scams possible, which brings us to the biggest everyday risk.
+
+## Scams are the real everyday risk
+
+FINRA, the securities industry’s self-regulator, warns that [crypto scams are widespread](L8), including phishing, fake tech support, and fraudsters who pose as a legitimate service. Once crypto is sent, it is generally gone for good.
+
+Coinbase says its staff will never ask for your password or 2-step verification code, never ask for your recovery phrase, never ask for remote access to your device, and never ask you to move funds to a “safe” wallet. If someone calls and claims to be from Coinbase, [Coinbase says it is a scam](L9).
+
+!howto
+
+## How to lock down your Coinbase account
+
+These six steps take about ten minutes and follow Coinbase’s own security advice:
+
+1. <strong>Set up strong 2-step verification.</strong> Coinbase recommends a passkey or security key, plus a backup method in case you lose your phone.
+2. <strong>Use an email address only for Coinbase.</strong> Coinbase notes that email addresses are a common starting point for criminals building profiles of targets.
+3. <strong>Turn on withdrawal allowlisting.</strong> This limits on-chain transfers to wallet addresses you have approved ahead of time.
+4. <strong>Never share codes, passwords, or recovery phrases.</strong> That includes with anyone who says they work at Coinbase.
+5. <strong>Contact Coinbase only through its official website or app.</strong> Hang up on unexpected calls. If something feels wrong, lock your account in the app and email the address on Coinbase’s help page.
+6. <strong>Start small.</strong> Learn the app with an amount you could afford to lose before you move larger sums.
+
+## So, is Coinbase safe for a beginner?
+
+Coinbase has real protections and a long public paper trail, and the 2025 incident it disclosed involved stolen personal data rather than, according to the company, customer funds. Still, crypto carries risks no company can insure away, and FINRA notes that the risk of losing all of an investment is significant. The biggest risk many beginners face is the price itself. See what a rough week looks like in our [bitcoin liquidations recap](/articles/bitcoin-volatility-liquidations-nov-2026), and read our guide on [how much bitcoin a beginner should buy](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+If you decide Coinbase fits you, you can [open an account](REF){{#ref}} through our referral link{{/ref}} and follow our [step-by-step buying guide](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!faq
+
+## FAQ
+
+### Is Coinbase safe to use in 2026?
+
+For most U.S. beginners it is a reasonable choice if you secure your account, but no crypto platform is risk-free. Coinbase is a public company with disclosed risks, and it requires 2-step verification. Price swings and scams remain your biggest risks.
+
+### Is my money FDIC insured on Coinbase?
+
+Only U.S. dollar cash can qualify, through pass-through insurance up to $250,000 per depositor if a partner bank fails. Crypto, including bitcoin, is not FDIC-insured, and the coverage depends on Coinbase’s record-keeping.
+
+### Can Coinbase be hacked or lose my bitcoin?
+
+Any online service can be attacked. Coinbase says it keeps over 99% of customer assets in offline cold storage and splits its keys. Its crime insurance covers only a portion of assets and does not cover account takeovers caused by stolen credentials.
+
+### What happens to my crypto if Coinbase goes bankrupt?
+
+It has not been tested in court. Coinbase says its user agreement and UCC Article 8 should keep your crypto out of its general estate, but its own annual report warns that customers could be treated as unsecured creditors.
+
+### Is Coinbase legit or a scam?
+
+Coinbase is a real, publicly traded company. The scams come from impersonators, fake apps, and fake support lines, so type the web address yourself or use the official app, and never trust unsolicited calls.
+
+### Should I keep my crypto on Coinbase long term?
+
+Many people keep small amounts there while they learn. As balances grow, some move to a self-custody wallet. There are trade-offs both ways, covered in our [wallet guide](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!soft: New to crypto? Start with our [guide to buying your first bitcoin on Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

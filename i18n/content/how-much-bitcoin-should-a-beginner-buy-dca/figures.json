@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-5y-drawdowns.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin’s daily closing price from November 2021 to November 2026, marking a 77% fall and a 53% fall from two peaks",
+      "es": "Gráfico del precio de cierre diario de bitcoin de noviembre de 2021 a noviembre de 2026, con una caída del 77 % y otra del 53 % desde dos máximos",
+      "pt": "Gráfico do preço de fechamento diário do bitcoin de novembro de 2021 a novembro de 2026, com quedas de 77% e 53% a partir de dois picos",
+      "fr": "Graphique du cours de clôture quotidien du bitcoin de novembre 2021 à novembre 2026, avec une baisse de 77 % et une de 53 % depuis deux sommets",
+      "de": "Liniendiagramm des täglichen Bitcoin-Schlusskurses von November 2021 bis November 2026 mit Rückgängen um 77 % und 53 % von zwei Höchstständen",
+      "ru": "График ежедневной цены закрытия биткоина с ноября 2021 по ноябрь 2026 с падениями на 77% и 53% от двух пиков",
+      "tr": "Kasım 2021’den Kasım 2026’ya bitcoin günlük kapanış fiyatı grafiği; iki zirveden %77 ve %53 düşüş işaretli",
+      "id": "Grafik harga penutupan harian bitcoin November 2021 hingga November 2026 dengan penurunan 77% dan 53% dari dua puncak",
+      "ja": "2021年11月から2026年11月までのビットコイン日次終値チャート。2つの高値からの77%と53%の下落を表示",
+      "ko": "2021년 11월부터 2026년 11월까지 비트코인 일간 종가 차트, 두 번의 고점에서 각각 77%와 53% 하락 표시"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Coinbase Exchange (BTC-USD daily candles)",
+      "es": "Gráfico: PlainBTC, datos: Coinbase Exchange (BTC-USD daily candles)",
+      "pt": "Gráfico: PlainBTC, dados: Coinbase Exchange (BTC-USD daily candles)",
+      "fr": "Graphique : PlainBTC, données : Coinbase Exchange (BTC-USD daily candles)",
+      "de": "Chart: PlainBTC, Daten: Coinbase Exchange (BTC-USD daily candles)",
+      "ru": "График: PlainBTC, данные: Coinbase Exchange (BTC-USD daily candles)",
+      "tr": "Grafik: PlainBTC, veri: Coinbase Exchange (BTC-USD daily candles)",
+      "id": "Grafik: PlainBTC, data: Coinbase Exchange (BTC-USD daily candles)",
+      "ja": "チャート: PlainBTC、データ: Coinbase Exchange (BTC-USD daily candles)",
+      "ko": "차트: PlainBTC, 데이터: Coinbase Exchange (BTC-USD daily candles)"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "chart-dca-vs-lump-sum.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart comparing $50 weekly bitcoin buys with a single lump sum over the last 12, 24 and 36 months",
+      "es": "Gráfico de barras que compara compras semanales de 50 $ en bitcoin con una inversión única en los últimos 12, 24 y 36 meses",
+      "pt": "Gráfico de barras comparando compras semanais de US$ 50 em bitcoin com um aporte único nos últimos 12, 24 e 36 meses",
+      "fr": "Histogramme comparant des achats hebdomadaires de 50 $ en bitcoin à un investissement unique sur 12, 24 et 36 mois",
+      "de": "Balkendiagramm: wöchentliche Bitcoin-Käufe von 50 $ im Vergleich zu einer Einmalanlage über 12, 24 und 36 Monate",
+      "ru": "Столбчатая диаграмма: еженедельные покупки биткоина на $50 и разовая покупка за последние 12, 24 и 36 месяцев",
+      "tr": "Son 12, 24 ve 36 ayda haftalık 50 $’lık bitcoin alımlarını tek seferlik alımla karşılaştıran sütun grafiği",
+      "id": "Grafik batang membandingkan pembelian bitcoin US$50 per minggu dengan pembelian sekaligus selama 12, 24, dan 36 bulan terakhir",
+      "ja": "過去12・24・36か月について、毎週50ドルの積立購入と一括購入を比べた棒グラフ",
+      "ko": "최근 12·24·36개월 동안 매주 50달러 분할 매수와 일시 매수를 비교한 막대 차트"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Coinbase Exchange (BTC-USD daily candles)",
+      "es": "Gráfico: PlainBTC, datos: Coinbase Exchange (BTC-USD daily candles)",
+      "pt": "Gráfico: PlainBTC, dados: Coinbase Exchange (BTC-USD daily candles)",
+      "fr": "Graphique : PlainBTC, données : Coinbase Exchange (BTC-USD daily candles)",
+      "de": "Chart: PlainBTC, Daten: Coinbase Exchange (BTC-USD daily candles)",
+      "ru": "График: PlainBTC, данные: Coinbase Exchange (BTC-USD daily candles)",
+      "tr": "Grafik: PlainBTC, veri: Coinbase Exchange (BTC-USD daily candles)",
+      "id": "Grafik: PlainBTC, data: Coinbase Exchange (BTC-USD daily candles)",
+      "ja": "チャート: PlainBTC、データ: Coinbase Exchange (BTC-USD daily candles)",
+      "ko": "차트: PlainBTC, 데이터: Coinbase Exchange (BTC-USD daily candles)"
+    }
+  }
+]

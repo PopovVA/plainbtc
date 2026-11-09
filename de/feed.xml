@@ -5,8 +5,29 @@
     <link>https://plainbtc.com/de/</link>
     <description>Bitcoin- und Krypto-News in einfacher Sprache für Einsteiger</description>
     <language>de</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:50:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/de/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Was ist eine Krypto-Wallet? Custodial vs. Self-Custody, für Einsteiger erklärt</title>
+      <link>https://plainbtc.com/de/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</guid>
+      <pubDate>Mon, 09 Nov 2026 19:50:00 GMT</pubDate>
+      <description>Eine Wallet enthält keine Coins, sondern Schlüssel. Lernen Sie den Unterschied zwischen Custodial- und Self-Custody-Wallets kennen, was eine Wiederherstellungsphrase ist und wie Sie sicher starten.</description>
+    </item>
+    <item>
+      <title>Wie viel Bitcoin sollte ein Anfänger kaufen? Der verständliche Guide zum Cost-Average-Effekt (DCA)</title>
+      <link>https://plainbtc.com/de/articles/how-much-bitcoin-should-a-beginner-buy-dca</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/how-much-bitcoin-should-a-beginner-buy-dca</guid>
+      <pubDate>Mon, 09 Nov 2026 19:48:00 GMT</pubDate>
+      <description>Den richtigen Betrag kann Ihnen niemand nennen, aber Sie können eine sinnvolle Methode wählen. Wir erklären DCA, testen es mit echten Kursen und zeigen, wie man einen wiederkehrenden Kauf einrichtet.</description>
+    </item>
+    <item>
+      <title>Ist Coinbase für Anfänger sicher? Was geschützt ist, was nicht und wie Sie Ihr Risiko senken</title>
+      <link>https://plainbtc.com/de/articles/is-coinbase-safe-for-beginners</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/is-coinbase-safe-for-beginners</guid>
+      <pubDate>Mon, 09 Nov 2026 19:46:00 GMT</pubDate>
+      <description>Ein verständlicher Sicherheitscheck von Coinbase: wie Krypto verwahrt wird, was versichert ist und was nicht, was beim Datenleck 2025 passierte und eine Checkliste zum Schutz Ihres Kontos.</description>
+    </item>
     <item>
       <title>Coinbase erhält volle nationale Trust-Bank-Lizenz der OCC: Was das bedeutet</title>
       <link>https://plainbtc.com/de/articles/coinbase-occ-national-trust-charter-nov-2026</link>

@@ -1,0 +1,123 @@
+title: Berapa banyak Bitcoin yang sebaiknya dibeli pemula? Panduan sederhana dollar-cost averaging (DCA)
+page_title: Berapa banyak Bitcoin yang sebaiknya dibeli pemula? DCA dijelaskan
+description: Berapa banyak Bitcoin yang sebaiknya dibeli pemula? Pelajari dollar-cost averaging dengan data harga nyata, kelebihan dan kekurangannya, serta cara mengatur pembelian berulang di Coinbase.
+og_description: Tidak ada satu jumlah yang pasti benar. Cara memikirkannya, apa yang bisa dan tidak bisa dilakukan DCA, dan cara mulai dari kecil.
+label: Panduan pemula
+summary: Tidak ada yang bisa menyebut jumlah yang tepat, tetapi Anda bisa memilih cara yang masuk akal untuk menentukannya. Kami menjelaskan dollar-cost averaging (DCA), mengujinya pada harga nyata, dan menunjukkan cara mengatur pembelian berulang.
+===
+
+“Berapa banyak Bitcoin yang harus saya beli?” adalah pertanyaan hampir setiap pemula, dan jawaban jujurnya: tidak ada yang bisa menyebut angka tanpa mengetahui kondisi keuangan Anda. Yang bisa kami lakukan adalah menunjukkan cara memikirkan jumlahnya, menjelaskan pendekatan populer bernama dollar-cost averaging (DCA), dan mengujinya dengan riwayat harga nyata. Ini edukasi, bukan nasihat.
+
+!takeaways
+- Tidak ada jumlah “benar” yang resmi. Regulator menyarankan agar tidak pernah berinvestasi lebih dari yang sanggup Anda relakan hilang.
+- Bitcoin sudah dua kali turun lebih dari 50% dari puncaknya sejak 2021, jadi tentukan jumlah pembelian dengan memikirkan hari-hari buruk, bukan hari baik.
+- DCA berarti berinvestasi dalam jumlah yang sama sesuai jadwal. Ini mengurangi risiko salah waktu, tetapi tidak mencegah kerugian dan tidak menjamin hasil lebih baik daripada membeli sekaligus.
+- Pembelian kecil yang rutin adalah cara mudah mempelajari aplikasi dan fluktuasi harga sebelum menaruh dana lebih besar.
+
+## Jawaban jujur: tidak ada angka ajaib
+
+FINRA, lembaga pengatur mandiri industri sekuritas AS, menyatakan aset kripto [sering kali sangat fluktuatif](L1), risiko kehilangan seluruh investasi cukup besar, dan Anda tidak boleh berinvestasi lebih dari yang sanggup Anda relakan hilang. Itulah satu-satunya “aturan” yang punya dasar kuat. Sisanya adalah pilihan pribadi.
+
+Sebelum membeli, banyak orang lebih dulu memastikan punya dana darurat, tidak menanggung utang mahal, dan tidak memakai uang yang sebentar lagi dibutuhkan untuk sewa atau tagihan. Itu nasihat keuangan umum, bukan aturan khusus kripto, tetapi lebih penting ketika asetnya bisa berayun tajam.
+
+## Mengapa fluktuasi harga bitcoin penting untuk jumlah Anda
+
+Grafik di bawah memakai harga penutupan harian dari data publik bursa Coinbase. Harga penutupan bitcoin turun sekitar 77% dari 8 November 2021 hingga 21 November 2022. Belakangan, harganya turun sekitar 53% dari penutupan 6 Oktober 2025 hingga 30 Juni 2026. Liputan terbaru kami menunjukkan [betapa kerasnya satu akhir pekan saja](/articles/bitcoin-volatility-liquidations-nov-2026).
+
+!figure:chart
+
+Pergerakan masa lalu tidak memprediksi masa depan, tetapi menunjukkan apa yang mungkin terjadi. Uji sederhana: jika jumlah yang Anda beli turun separuh, apakah Anda sanggup membiarkannya? Jika tidak, pertimbangkan jumlah yang lebih kecil.
+
+## Tiga cara sederhana menentukan jumlah
+
+Tidak ada rumus resmi, tetapi pemula sering memakai salah satu dari ini:
+
+- <strong>Jumlah dolar tetap yang tidak akan Anda rindukan.</strong> Misalnya cukup kecil sehingga penurunan 50% terasa mengganggu, bukan merugikan.
+- <strong>Porsi kecil dari uang yang Anda investasikan.</strong> Sebagian orang membatasi kripto pada porsi yang wajar dari investasinya. Tidak ada persentase baku, dan FINRA menekankan diversifikasi.
+- <strong>Pembelian “belajar”.</strong> Pembelian pertama yang sangat kecil untuk mempelajari cara kerja order, biaya, dan pengiriman. [Panduan pembelian pertama](/articles/how-to-buy-first-bitcoin-coinbase) kami menjelaskan langkahnya.
+
+Anda juga bisa membeli sebagian kecil bitcoin, jadi tidak perlu membeli satu utuh.
+
+## Apa arti dollar-cost averaging
+
+Investor.gov, situs edukasi investor milik SEC, mendefinisikan [dollar-cost averaging](L2) sebagai menginvestasikan uang Anda dalam porsi yang sama, pada interval teratur, terlepas dari naik turunnya pasar. Anda membeli lebih banyak saat harga rendah dan lebih sedikit saat harga tinggi.
+
+Misalnya, alih-alih membeli bitcoin senilai 520 $ hari ini, Anda bisa membeli 10 $ setiap minggu selama setahun. Biaya rata-rata Anda akan berada di antara harga tertinggi dan terendah saat Anda membeli, dan Anda tidak perlu menebak hari yang “tepat”.
+
+## Apakah benar-benar berhasil? Uji dengan harga nyata
+
+Kami menjalankan uji balik (back-test) sederhana dengan harga penutupan harian Coinbase. Skenarionya membeli bitcoin 50 $ setiap minggu, dibandingkan dengan menginvestasikan total yang sama sekaligus pada hari pertama. Nilai per penutupan 8 November 2026. Biaya dan pajak diabaikan, dan ini hanya ilustrasi.
+
+!figure:fact
+
+!mid_cta
+
+Hasilnya beragam, dan itulah intinya:
+
+- <strong>12 bulan terakhir (53 pembelian mingguan, total 2650 $).</strong> Harga lebih sering turun, sehingga pembeli mingguan berakhir dengan sekitar 2633 $ dibanding sekitar 1892 $ untuk investasi sekaligus.
+- <strong>24 bulan terakhir (105 pembelian, 5250 $).</strong> Sekitar 4562 $ untuk pembelian mingguan dibanding sekitar 5126 $ untuk investasi sekaligus.
+- <strong>36 bulan terakhir (157 pembelian, 7850 $).</strong> Harga naik banyak di awal, sehingga investasi sekaligus, sekitar 15.823 $, mengungguli pembelian mingguan, sekitar 8069 $.
+
+Pada jendela 12 bulan, DCA meredam penurunan tajam. Pada jendela 36 bulan, DCA tertinggal dari kenaikan yang kuat. FINRA mengatakan hal serupa secara umum: menyebar investasi menurunkan risiko tetapi [sering menghasilkan imbal hasil lebih rendah daripada investasi sekaligus](L3).
+
+## Kelebihan dan kekurangan DCA
+
+- <strong>Kelebihan:</strong> menghilangkan tekanan menebak waktu pasar, membangun kebiasaan, menjaga setiap pembelian tetap kecil, dan dapat mengurangi penyesalan serta keputusan panik.
+- <strong>Kekurangan:</strong> uang yang menunggu bisa melewatkan kenaikan, lebih banyak transaksi bisa berarti lebih banyak biaya, dan tidak menjamin untung maupun melindungi dari kerugian.
+
+!howto
+
+## Cara mengatur pembelian berulang di Coinbase
+
+Coinbase memungkinkan Anda [menjadwalkan pembelian berulang](L4) setiap minggu, setiap tanggal 1 dan 15, atau setiap bulan. Tidak semua metode pembayaran memenuhi syarat, jadi periksa di aplikasi. Langkahnya:
+
+1. <strong>Buka Buy & sell</strong> di aplikasi Coinbase, atau panel Buy / Sell di web.
+2. <strong>Pilih Bitcoin</strong> sebagai aset.
+3. <strong>Ganti jenis order</strong> dari Quick Buy ke Recurring buy dan pilih frekuensi.
+4. <strong>Masukkan jumlah</strong> yang ingin dibeli setiap kali.
+5. <strong>Pilih metode pembayaran yang memenuhi syarat.</strong> Anda juga bisa memakai saldo tunai.
+6. <strong>Ketuk Preview buy,</strong> baca biayanya, lalu konfirmasi dengan Buy now.
+
+Dua hal yang perlu diketahui. Pembelian pertama terjadi langsung saat Anda membuat jadwal. Dan Anda tidak bisa mengubah jumlah atau frekuensi nanti: batalkan paket lalu buat yang baru. Jika belum punya akun dan Coinbase tersedia di negara Anda, Anda bisa [membuka akun Coinbase](REF){{#ref}} lewat tautan referral kami{{/ref}}. Periksa dulu [apakah Coinbase aman](/articles/is-coinbase-safe-for-beginners) jika ingin menilai risikonya.
+
+## Aturan praktis untuk pemula
+
+- Mulai dari kecil dan tambah hanya jika Anda nyaman.
+- Gunakan uang yang bisa Anda biarkan selama bertahun-tahun.
+- Periksa biaya di layar pratinjau sebelum setiap pembelian, karena pembelian berulang yang kecil bisa menumpuk.
+- Abaikan hype media sosial dan rasa takut ketinggalan.
+- Simpan catatan. IRS (otoritas pajak AS) memperlakukan aset digital sebagai properti, dan [menjual atau menukarnya dapat menimbulkan keuntungan atau kerugian yang kena pajak](L5).
+
+!faq
+
+## Pertanyaan umum
+
+### Berapa banyak bitcoin yang sebaiknya saya beli dengan 100 $?
+
+Tidak ada yang bisa memastikan. Anda bisa membeli sebagian kecil bitcoin, jadi 100 $ membeli porsi kecil. Pikirkan apakah Anda akan tenang jika nilainya turun separuh, dan baca biaya di layar pratinjau sebelum mengonfirmasi.
+
+### Apakah dollar-cost averaging lebih baik daripada membeli sekaligus?
+
+Tidak selalu. DCA menurunkan risiko salah waktu, tetapi sering menghasilkan imbal hasil lebih rendah daripada investasi sekaligus saat harga naik. Dalam uji balik kami, DCA lebih baik dalam 12 bulan dan lebih buruk dalam 36 bulan.
+
+### Seberapa sering saya sebaiknya membeli bitcoin dengan DCA?
+
+Coinbase menawarkan jadwal mingguan, dua kali sebulan (tanggal 1 dan 15), dan bulanan. Pilih frekuensi yang sesuai dengan penghasilan Anda, dan ingat setiap pembelian bisa dikenai biaya.
+
+### Berapa minimum untuk membeli bitcoin di Coinbase?
+
+Minimum berbeda tergantung aset dan metode pembayaran, dan Coinbase memberi tahu di aplikasi jika Anda di bawahnya. Anda bisa membeli pecahan bitcoin.
+
+### Bisakah saya kehilangan semua uang saya saat membeli bitcoin?
+
+FINRA menyatakan risiko kehilangan seluruh investasi di kripto cukup besar. Karena itu nasihat umumnya adalah jangan berinvestasi lebih dari yang sanggup Anda relakan hilang.
+
+### Apakah saya harus membayar pajak atas bitcoin?
+
+Mungkin. Untuk keperluan pajak, IRS memperlakukan aset digital sebagai properti, sehingga menjual atau menukarnya dapat menghasilkan keuntungan atau kerugian modal. Pertimbangkan bertanya kepada profesional pajak.
+
+!soft: Bingung menyimpan hasil pembelian di mana? Baca [panduan dompet kustodian vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) kami.
+
+!end_cta
+
+!disclosure

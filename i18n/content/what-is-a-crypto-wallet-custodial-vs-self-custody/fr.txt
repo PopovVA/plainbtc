@@ -1,0 +1,107 @@
+title: Qu’est-ce qu’un portefeuille crypto ? Custodial ou auto-conservation, expliqué aux débutants
+page_title: Qu’est-ce qu’un portefeuille crypto ? Custodial vs auto-conservation
+description: Qu’est-ce qu’un portefeuille crypto ? Guide simple sur les portefeuilles custodiaux et en auto-conservation, les phrases de récupération, le stockage chaud et froid, et comment bien débuter.
+og_description: Vos cryptos vivent sur une blockchain ; le portefeuille détient les clés. La différence entre portefeuilles custodiaux et en auto-conservation, et lequel convient à un débutant.
+label: Guide du débutant
+summary: Un portefeuille ne contient pas de pièces, il contient des clés. Découvrez la différence entre portefeuilles custodiaux et en auto-conservation, ce qu’est une phrase de récupération et comment débuter en sécurité.
+===
+
+Si vous avez acheté du bitcoin, on vous a sans doute dit qu’il vous fallait un « portefeuille » (wallet). Le mot prête à confusion, car un portefeuille crypto ne contient pas de pièces comme un portefeuille en cuir contient des billets. Ce guide explique ce qu’est réellement un portefeuille, la différence entre portefeuilles <strong>custodiaux</strong> et en <strong>auto-conservation</strong>, et comment choisir une configuration raisonnable pour débuter.
+
+!takeaways
+- Un portefeuille crypto stocke les clés privées qui vous permettent de dépenser vos pièces. Les pièces elles-mêmes vivent sur la blockchain.
+- Dans un portefeuille custodial, comme un compte Coinbase, l’entreprise détient les clés pour vous et peut vous aider si vous perdez votre mot de passe.
+- Dans un portefeuille en auto-conservation, vous détenez les clés. Personne ne peut les récupérer pour vous : perdre la phrase de récupération peut signifier perdre les fonds.
+- Aucune option n’est sans risque. Beaucoup de débutants commencent en custodial avec de petits montants et envisagent l’auto-conservation à mesure que leur solde grandit.
+
+## Ce qu’est vraiment un portefeuille crypto
+
+La documentation pour développeurs de Bitcoin le résume simplement : les programmes de portefeuille créent des clés publiques pour recevoir des bitcoins et utilisent les clés privées correspondantes pour les dépenser, et [les fichiers de portefeuille stockent des clés privées](L1). Voyez l’adresse publique comme un numéro de compte que vous pouvez partager, et la clé privée comme le mot de passe qui prouve que les fonds sont à vous.
+
+Quand quelqu’un dit « mon bitcoin est dans mon portefeuille », cela veut dire « mon portefeuille détient les clés qui contrôlent mon bitcoin ». Celui qui détient les clés privées contrôle les pièces. Cette seule idée explique tout le débat entre custodial et auto-conservation.
+
+## Portefeuilles custodiaux : quelqu’un d’autre détient les clés
+
+Quand vous achetez des cryptos sur une plateforme comme Coinbase, elles sont stockées sur la plateforme. Coinbase se décrit comme [une plateforme d’échange centralisée qui conserve vos cryptos pour vous](L2) dans un portefeuille hébergé. Vous vous connectez avec un mot de passe et une vérification en deux étapes, et si vous oubliez vos identifiants, l’entreprise peut vous aider à retrouver l’accès.
+
+<strong>Le point fort :</strong> c’est simple, il existe un support et il n’y a pas de phrase de récupération à protéger. <strong>Le point faible :</strong> vous dépendez de l’entreprise. En novembre 2022, la plateforme FTX [a déposé le bilan](L3) et ses clients n’ont pas pu retirer leurs fonds. Le rapport annuel de Coinbase met lui-même en garde : en cas de faillite, les cryptos des clients pourraient être traitées comme des biens de l’entreprise et les clients comme des créanciers chirographaires, même si la société dit croire qu’un tribunal jugerait autrement. Nous l’expliquons dans notre [guide de sécurité de Coinbase](/articles/is-coinbase-safe-for-beginners).
+
+!figure:compare
+
+## Portefeuilles en auto-conservation : vous détenez les clés
+
+Un portefeuille en auto-conservation place les clés privées entre vos mains. L’application de portefeuille distincte de Coinbase en est un exemple : Coinbase indique que les clés sont [stockées directement sur votre appareil](L4) et qu’il n’est pas nécessaire d’avoir un compte Coinbase pour l’utiliser. L’application s’est brièvement appelée Base app avant de redevenir Coinbase Wallet en septembre 2026.
+
+Quand vous configurez un portefeuille en auto-conservation, vous recevez une <strong>phrase de récupération</strong>, aussi appelée phrase mnémonique. La norme courante, BIP-39, crée une phrase de [12 à 24 mots](L5) à partir de laquelle toutes les clés de votre portefeuille peuvent être reconstruites. Coinbase Wallet [génère une phrase de 12 mots](L6) et indique que vous seul y avez accès. Si vous la perdez, vous perdez l’accès aux fonds, et Coinbase ne peut ni déplacer les fonds ni vous aider à les récupérer.
+
+!figure:words
+
+!mid_cta
+
+## Portefeuilles chauds et portefeuilles froids
+
+C’est une question distincte de la conservation. Un <strong>portefeuille chaud</strong> est connecté à internet, comme une application mobile ou une extension de navigateur. Un <strong>portefeuille froid</strong> garde les clés hors ligne. Le portefeuille matériel est l’option froide la plus courante. Bitcoin.org décrit les [portefeuilles matériels](L7) comme l’une des méthodes les plus sûres et adaptées aux montants plus importants, mais prévient que perdre l’appareil sans sauvegarde adéquate peut rendre les fonds irrécupérables. Les portefeuilles mobiles et de bureau sont plus pratiques, mais un téléphone perdu ou un logiciel malveillant peut mettre les fonds en danger.
+
+## Custodial vs auto-conservation en un coup d’œil
+
+- <strong>Qui détient les clés :</strong> un prestataire custodial les détient ; en auto-conservation, c’est vous.
+- <strong>Si vous oubliez votre mot de passe :</strong> un prestataire custodial peut généralement aider ; l’auto-conservation n’a que votre phrase de récupération.
+- <strong>Principaux risques :</strong> en custodial, la défaillance de l’entreprise, le piratage et la prise de contrôle de compte ; en auto-conservation, les phrases perdues, l’hameçonnage et les logiciels malveillants.
+- <strong>Idéal pour :</strong> le custodial convient à la simplicité et aux petits montants ; l’auto-conservation convient à ceux qui acceptent d’assumer la responsabilité.
+
+## Lequel est préférable pour un débutant ?
+
+Il n’y a pas de réponse unique, et ceci n’est pas un conseil. Beaucoup de débutants commencent avec un compte custodial parce qu’il est simple et assorti d’un support, et gardent le montant modeste pendant qu’ils apprennent. À mesure que les soldes augmentent, certains transfèrent une partie de leurs avoirs en auto-conservation, avec un portefeuille matériel ou une application soigneusement sauvegardée. La question clé est : <em>quelle erreur pouvez-vous mieux éviter, faire confiance à une entreprise ou gérer vos propres clés ?</em>
+
+Si vous voulez commencer sur une plateforme d’échange et que Coinbase est disponible dans votre pays, vous pouvez [ouvrir un compte Coinbase](REF){{#ref}} avec notre lien de parrainage{{/ref}} et suivre notre [guide du premier achat](/articles/how-to-buy-first-bitcoin-coinbase). Notre guide sur [combien acheter](/articles/how-much-bitcoin-should-a-beginner-buy-dca) peut vous aider à dimensionner votre achat.
+
+## Arnaques de portefeuille à surveiller
+
+La FINRA avertit que des individus malveillants attirent les gens vers de [faux services crypto](L8), et que certains se font passer pour le support technique de vrais prestataires ou se lient d’amitié avec les victimes pour les pousser à déplacer leurs portefeuilles. Coinbase indique qu’elle ne vous demandera jamais votre phrase de récupération. La règle est simple : <strong>quiconque vous demande votre phrase de récupération est un voleur</strong>, et une fois les cryptos envoyées, elles sont généralement perdues.
+
+!howto
+
+## Comment débuter l’auto-conservation en sécurité
+
+Si vous décidez d’essayer, ces étapes suivent les bonnes pratiques courantes de sécurité, y compris les recommandations de Coinbase et de Bitcoin.org :
+
+1. <strong>Installez le portefeuille depuis le site officiel ou la boutique d’applications.</strong> Vérifiez l’éditeur, car il existe de fausses applications de portefeuille.
+2. <strong>Écrivez la phrase de récupération sur papier.</strong> Coinbase déconseille les captures ou enregistrements d’écran et indique de ne jamais la coller sur un site web.
+3. <strong>Rangez la sauvegarde en lieu sûr.</strong> À l’abri du feu, de l’eau et des regards indiscrets, et envisagez une seconde copie dans un autre endroit.
+4. <strong>Testez d’abord avec un petit montant.</strong> Envoyez un peu, vérifiez que cela arrive, puis entraînez-vous à restaurer le portefeuille.
+5. <strong>Vérifiez chaque adresse deux fois.</strong> Les transactions crypto sont irréversibles : contrôlez l’adresse complète avant d’envoyer.
+6. <strong>Ne partagez jamais la phrase.</strong> Ni avec le support, ni avec des amis, ni avec personne.
+
+!faq
+
+## Questions fréquentes
+
+### Qu’est-ce qu’un portefeuille crypto en termes simples ?
+
+C’est une application ou un appareil qui détient les clés privées permettant de dépenser vos cryptos. Les pièces vivent sur la blockchain. Celui qui contrôle les clés contrôle les pièces.
+
+### Coinbase est-il un portefeuille ?
+
+Un compte Coinbase classique est custodial : Coinbase conserve vos cryptos pour vous. Coinbase Wallet est une application distincte en auto-conservation où vous détenez les clés, et vous n’avez pas besoin d’un compte Coinbase pour l’utiliser.
+
+### Qu’est-ce qu’une phrase mnémonique ou phrase de récupération ?
+
+Une liste de 12 à 24 mots qui peut reconstruire toutes les clés d’un portefeuille en auto-conservation. Quiconque la possède peut prendre vos fonds, et si vous la perdez, personne ne peut la restaurer pour vous.
+
+### Puis-je perdre mes bitcoins si je perds mon téléphone ?
+
+Avec un portefeuille en auto-conservation, pas si vous avez conservé votre phrase de récupération en sécurité, car vous pouvez restaurer le portefeuille sur un nouvel appareil. Sans la phrase, vous pourriez perdre l’accès. Avec un compte custodial, vous pouvez généralement récupérer votre accès auprès du prestataire.
+
+### Un portefeuille matériel vaut-il le coup ?
+
+Bitcoin.org décrit les portefeuilles matériels comme l’une des options les plus sûres, surtout pour de plus gros montants, mais note aussi qu’ils sont moins pratiques en déplacement. Pour un petit solde de départ, beaucoup n’en ont pas encore besoin.
+
+### Quelqu’un peut-il voler mes cryptos s’il connaît mon adresse ?
+
+Une adresse est faite pour être partagée afin qu’on puisse vous envoyer des cryptos. Le danger, c’est votre clé privée ou votre phrase de récupération. Ne les partagez jamais.
+
+!soft: Inquiet pour la sécurité de votre compte ? Consultez notre [liste de contrôle de sécurité de Coinbase](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

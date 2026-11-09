@@ -1,0 +1,123 @@
+title: ¿Cuánto bitcoin debería comprar un principiante? Guía clara sobre el promedio de costo en dólares
+page_title: ¿Cuánto bitcoin debería comprar un principiante? El promedio de costo explicado
+description: ¿Cuánto bitcoin debería comprar un principiante? Aprende el promedio de costo en dólares con datos reales, sus pros y contras y cómo configurar una compra recurrente en Coinbase.
+og_description: No hay una cantidad correcta única. Cómo pensarlo, qué hace y qué no hace el promedio de costo en dólares y cómo empezar con poco.
+label: Guía para principiantes
+summary: Nadie puede decirte la cantidad correcta, pero sí puedes elegir un método sensato para decidirla. Explicamos el promedio de costo en dólares, lo probamos con precios reales y mostramos cómo configurar una compra recurrente.
+===
+
+«¿Cuánto bitcoin debería comprar?» es la pregunta que se hace casi todo principiante, y la respuesta honesta es que nadie puede darte una cifra sin conocer tus finanzas. Lo que sí podemos hacer es mostrarte cómo pensar la cantidad, explicar un enfoque popular llamado promedio de costo en dólares (DCA, por sus siglas en inglés) y ponerlo a prueba con el historial real de precios. Esto es educación, no asesoramiento.
+
+!takeaways
+- No existe una cantidad «correcta» oficial. Los reguladores dicen que nunca inviertas más de lo que puedes permitirte perder.
+- Bitcoin ha caído más de un 50 % desde un máximo en dos ocasiones desde 2021, así que dimensiona tus compras pensando en los días malos, no en los buenos.
+- El promedio de costo en dólares consiste en invertir cantidades iguales según un calendario. Reduce el riesgo de elegir mal el momento, pero no evita pérdidas ni garantiza mejores resultados que comprar todo de una vez.
+- Una compra pequeña y regular es una forma sencilla de aprender la app y las oscilaciones de precio antes de comprometer más.
+
+## La respuesta honesta: no hay un número mágico
+
+FINRA, el organismo autorregulador del sector de valores, dice que los criptoactivos son [a menudo extremadamente volátiles](L1), que el riesgo de perder toda tu inversión es significativo y que nunca debes invertir más de lo que puedes permitirte perder. Esa es la única «regla» con respaldo real. Todo lo demás es una decisión personal.
+
+Antes de comprar, mucha gente comprueba primero que tiene un fondo de emergencia, que no arrastra deudas caras y que no usa dinero que necesitará pronto para el alquiler o las facturas. Son consejos financieros comunes, no reglas específicas de las criptomonedas, pero importan más cuando el activo puede oscilar con tanta fuerza.
+
+## Por qué las oscilaciones de bitcoin importan para tu cantidad
+
+El gráfico siguiente usa precios de cierre diarios de los datos públicos del exchange de Coinbase. El precio de cierre de bitcoin cayó cerca de un 77 % entre el 8 de noviembre de 2021 y el 21 de noviembre de 2022. Más recientemente, cayó cerca de un 53 % desde su cierre del 6 de octubre de 2025 hasta el 30 de junio de 2026. Nuestra cobertura reciente muestra [lo violento que puede ser un solo fin de semana](/articles/bitcoin-volatility-liquidations-nov-2026).
+
+!figure:chart
+
+Los movimientos pasados no predicen los futuros, pero muestran lo que es posible. Una buena prueba: si la cantidad que compras cayera a la mitad, ¿podrías dejarla tranquila? Si no, plantéate una cantidad menor.
+
+## Tres formas sencillas de elegir una cantidad
+
+No hay una fórmula oficial, pero los principiantes suelen usar una de estas:
+
+- <strong>Una cantidad fija en dólares que no echarás de menos.</strong> Por ejemplo, algo tan pequeño que una caída del 50 % sea molesta pero no dañina.
+- <strong>Una pequeña parte del dinero que inviertes.</strong> Algunas personas limitan las criptomonedas a una porción modesta de sus inversiones. No hay un porcentaje estándar, y FINRA insiste en la diversificación.
+- <strong>Una compra de «aprendizaje».</strong> Una primera compra mínima para aprender cómo funcionan las órdenes, las comisiones y los envíos. Nuestra [guía de la primera compra](/articles/how-to-buy-first-bitcoin-coinbase) explica los pasos.
+
+También puedes comprar una fracción de bitcoin, así que nunca necesitas pagar uno entero.
+
+## Qué significa el promedio de costo en dólares
+
+Investor.gov, el sitio de educación para inversores de la SEC, define el [promedio de costo en dólares](L2) como invertir tu dinero en porciones iguales, a intervalos regulares, sin importar los altibajos del mercado. Compras más cuando el precio es bajo y menos cuando es alto.
+
+Por ejemplo, en lugar de comprar 520 $ de bitcoin hoy, podrías comprar 10 $ cada semana durante un año. Tu costo medio quedará entre los máximos y los mínimos a los que compraste, y nunca tienes que adivinar el día «correcto».
+
+## ¿Funciona de verdad? Una prueba con precios reales
+
+Hicimos una prueba retrospectiva sencilla con los precios de cierre diarios de Coinbase. Supone que se compran 50 $ de bitcoin cada semana, frente a invertir el mismo total de una sola vez el primer día. Los valores corresponden al cierre del 8 de noviembre de 2026. Ignora comisiones e impuestos y es solo una ilustración.
+
+!figure:fact
+
+!mid_cta
+
+Los resultados son mixtos, y ese es el punto:
+
+- <strong>Últimos 12 meses (53 compras semanales, 2650 $ en total).</strong> El precio bajó casi todo el tiempo, así que quien compró cada semana terminó con unos 2633 $ frente a unos 1892 $ de quien invirtió todo de una vez.
+- <strong>Últimos 24 meses (105 compras, 5250 $).</strong> Unos 4562 $ comprando cada semana frente a unos 5126 $ con la inversión única.
+- <strong>Últimos 36 meses (157 compras, 7850 $).</strong> El precio subió mucho al principio, así que la inversión única, de unos 15 823 $, superó a la compra semanal, de unos 8069 $.
+
+En la ventana de 12 meses, el promedio de costo en dólares amortiguó una caída fuerte. En la de 36 meses, se quedó atrás en una gran subida. FINRA dice lo mismo en términos generales: repartir las inversiones reduce el riesgo pero [a menudo produce menores rendimientos que invertir todo de una vez](L3).
+
+## Pros y contras del promedio de costo en dólares
+
+- <strong>Pros:</strong> quita la presión de acertar con el momento del mercado, crea un hábito, mantiene cada compra pequeña y puede reducir el arrepentimiento y las decisiones de pánico.
+- <strong>Contras:</strong> el dinero que espera fuera puede perderse subidas, más operaciones pueden suponer más comisiones, y no garantiza beneficios ni protege contra las pérdidas.
+
+!howto
+
+## Cómo configurar una compra recurrente en Coinbase
+
+Coinbase permite [programar compras recurrentes](L4) cada semana, el 1 y el 15 de cada mes, o cada mes. No todos los métodos de pago son válidos, así que revisa la app. Los pasos son:
+
+1. <strong>Abre Buy & sell</strong> en la app de Coinbase, o el panel Buy / Sell en la web.
+2. <strong>Elige Bitcoin</strong> como activo.
+3. <strong>Cambia el tipo de orden</strong> de Quick Buy a Recurring buy y elige una frecuencia.
+4. <strong>Introduce la cantidad</strong> que quieres comprar cada vez.
+5. <strong>Selecciona un método de pago válido.</strong> También puedes usar un saldo en efectivo.
+6. <strong>Toca Preview buy,</strong> lee las comisiones y confirma con Buy now.
+
+Dos cosas que debes saber. La primera compra se ejecuta de inmediato al configurar el calendario. Y no puedes editar la cantidad ni la frecuencia después: cancelas el plan y creas uno nuevo. Si aún no tienes cuenta y Coinbase está disponible en tu país, puedes [abrir una cuenta de Coinbase](REF){{#ref}} con nuestro enlace de referido{{/ref}}. Si quieres evaluar el riesgo primero, mira [si Coinbase es segura](/articles/is-coinbase-safe-for-beginners).
+
+## Reglas prácticas para principiantes
+
+- Empieza con poco y aumenta solo si te sientes cómodo.
+- Usa dinero que podrías dejar quieto durante años.
+- Revisa la comisión en la pantalla de vista previa antes de cada compra, porque las compras recurrentes pequeñas pueden sumar.
+- Ignora el bombo de las redes sociales y el miedo a quedarte fuera.
+- Guarda registros. El IRS trata los activos digitales como propiedad, y [venderlos o intercambiarlos puede generar ganancias o pérdidas sujetas a impuestos](L5).
+
+!faq
+
+## Preguntas frecuentes
+
+### ¿Cuánto bitcoin debería comprar con 100 $?
+
+Nadie puede decirlo. Puedes comprar una fracción de bitcoin, así que 100 $ compran una porción pequeña. Piensa si estarías tranquilo si perdiera la mitad de su valor y lee las comisiones en la pantalla de vista previa antes de confirmar.
+
+### ¿Es mejor el promedio de costo en dólares que comprar todo de una vez?
+
+No siempre. El promedio de costo reduce el riesgo de elegir mal el momento, pero a menudo produce menores rendimientos que invertir de una vez cuando los precios suben. En nuestra prueba retrospectiva, fue mejor a 12 meses y peor a 36.
+
+### ¿Con qué frecuencia debo comprar bitcoin con DCA?
+
+Coinbase ofrece calendarios semanales, quincenales (el 1 y el 15) y mensuales. Elige la frecuencia que encaje con tus ingresos y recuerda que cada compra puede llevar una comisión.
+
+### ¿Cuál es el mínimo para comprar bitcoin en Coinbase?
+
+Los mínimos varían según el activo y el método de pago, y Coinbase te avisa en la app si estás por debajo. Puedes comprar fracciones de bitcoin.
+
+### ¿Puedo perder todo mi dinero comprando bitcoin?
+
+FINRA dice que el riesgo de perder toda tu inversión en criptomonedas es significativo. Por eso el consejo habitual es no invertir nunca más de lo que puedes permitirte perder.
+
+### ¿Debo pagar impuestos por el bitcoin?
+
+Posiblemente. A efectos fiscales, el IRS trata los activos digitales como propiedad, así que venderlos o intercambiarlos puede producir una ganancia o pérdida de capital. Considera consultar a un profesional fiscal.
+
+!soft: ¿No sabes dónde guardar lo que compres? Lee nuestra [guía de carteras custodiadas y de autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

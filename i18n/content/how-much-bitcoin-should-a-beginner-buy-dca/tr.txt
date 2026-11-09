@@ -1,0 +1,123 @@
+title: Yeni başlayan biri ne kadar Bitcoin almalı? Dolar maliyet ortalaması (DCA) için sade bir rehber
+page_title: Yeni başlayan biri ne kadar Bitcoin almalı? Dolar maliyet ortalaması açıklandı
+description: Yeni başlayan biri ne kadar Bitcoin almalı? Gerçek fiyat verileriyle dolar maliyet ortalamasını, artı ve eksilerini ve Coinbase’de düzenli alımın nasıl kurulacağını öğrenin.
+og_description: Tek bir doğru tutar yok. Nasıl düşünmeniz gerektiği, DCA’nın neyi yapıp neyi yapmadığı ve küçük başlamanın yolu.
+label: Yeni başlayanlar için rehber
+summary: Doğru tutarı kimse söyleyemez ama karar vermek için mantıklı bir yöntem seçebilirsiniz. Dolar maliyet ortalamasını (DCA) açıklıyor, gerçek fiyatlarla test ediyor ve düzenli alımın nasıl kurulacağını gösteriyoruz.
+===
+
+“Ne kadar Bitcoin almalıyım?” neredeyse her yeni başlayanın sorduğu sorudur ve dürüst cevap şudur: Finansal durumunuzu bilmeden kimse size bir rakam veremez. Yapabileceğimiz şey, tutarı nasıl düşüneceğinizi göstermek, dolar maliyet ortalaması (DCA, dollar-cost averaging) adlı popüler bir yaklaşımı açıklamak ve bunu gerçek fiyat geçmişiyle test etmektir. Bu yazı eğitim amaçlıdır, tavsiye değildir.
+
+!takeaways
+- Resmî bir “doğru” tutar yoktur. Düzenleyiciler, kaybetmeyi göze alabileceğinizden fazlasını asla yatırmamanızı söylüyor.
+- Bitcoin 2021’den beri bir zirveden iki kez %50’den fazla düştü; bu yüzden alımlarınızı iyi günlere göre değil, kötü günlere göre boyutlandırın.
+- Dolar maliyet ortalaması, bir takvime göre eşit tutarlarda yatırım yapmaktır. Zamanlama riskini azaltır ama zararı önlemez ve tek seferde almaktan daha iyi getiri garanti etmez.
+- Küçük ve düzenli bir alım, daha fazla para koymadan önce uygulamayı ve fiyat dalgalanmalarını öğrenmenin kolay bir yoludur.
+
+## Dürüst cevap: sihirli bir rakam yok
+
+ABD menkul kıymetler sektörünün öz denetim kuruluşu FINRA, kripto varlıkların [çoğu zaman son derece oynak](L1) olduğunu, yatırımın tamamını kaybetme riskinin önemli olduğunu ve kaybetmeyi göze alabileceğinizden fazlasını asla yatırmamanız gerektiğini söylüyor. Gerçek bir dayanağı olan tek “kural” bu. Gerisi kişisel tercihtir.
+
+Satın almadan önce birçok kişi önce acil durum fonu olduğundan, pahalı borç taşımadıklarından ve yakında kira ya da faturalar için ihtiyaç duyacakları parayı kullanmadıklarından emin olur. Bunlar kriptoya özgü kurallar değil, yaygın finans tavsiyeleridir; ancak varlık bu kadar sert dalgalanabildiğinde daha da önemlidir.
+
+## Bitcoin’in fiyat dalgalanmaları tutarınız için neden önemli
+
+Aşağıdaki grafik, Coinbase’in herkese açık borsa verilerindeki günlük kapanış fiyatlarını kullanır. Bitcoin’in kapanış fiyatı 8 Kasım 2021’den 21 Kasım 2022’ye kadar yaklaşık %77 düştü. Daha yakın dönemde, 6 Ekim 2025 kapanışından 30 Haziran 2026’ya kadar yaklaşık %53 düştü. Yakın tarihli haberimiz, [tek bir hafta sonunun ne kadar sert olabileceğini](/articles/bitcoin-volatility-liquidations-nov-2026) gösteriyor.
+
+!figure:chart
+
+Geçmiş hareketler gelecekteki hareketleri tahmin etmez ama nelerin mümkün olduğunu gösterir. Faydalı bir sınama: Aldığınız tutar yarıya düşse ona dokunmadan bekleyebilir misiniz? Cevap hayırsa daha küçük bir tutarı düşünün.
+
+## Tutar seçmenin üç basit yolu
+
+Resmî bir formül yok ama yeni başlayanlar çoğu zaman şunlardan birini kullanır:
+
+- <strong>Yokluğunu hissetmeyeceğiniz sabit bir dolar tutarı.</strong> Örneğin %50’lik bir düşüşün zarar vermek yerine sadece canınızı sıkacağı kadar küçük bir tutar.
+- <strong>Yatırıma ayırdığınız paranın küçük bir payı.</strong> Bazı kişiler kriptoyu yatırımlarının mütevazı bir dilimiyle sınırlar. Standart bir yüzde yoktur ve FINRA çeşitlendirmeyi vurgular.
+- <strong>Bir “öğrenme” alımı.</strong> Emirlerin, ücretlerin ve gönderimin nasıl işlediğini öğrenmek için çok küçük bir ilk alım. [İlk alım rehberimiz](/articles/how-to-buy-first-bitcoin-coinbase) adımları anlatıyor.
+
+Bitcoin’in bir kısmını da alabilirsiniz; yani tamamını almak zorunda değilsiniz.
+
+## Dolar maliyet ortalaması ne demek
+
+SEC’in yatırımcı eğitimi sitesi Investor.gov, [dolar maliyet ortalamasını](L2) paranızı piyasanın inişlerine ve çıkışlarına bakmaksızın düzenli aralıklarla eşit parçalar hâlinde yatırmak olarak tanımlar. Fiyat düşükken daha çok, yüksekken daha az alırsınız.
+
+Örneğin bugün 520 $’lık bitcoin almak yerine bir yıl boyunca her hafta 10 $ alabilirsiniz. Ortalama maliyetiniz, alım yaptığınız zirve ve dip fiyatların arasında bir yere oturur ve “doğru” günü tahmin etmeniz gerekmez.
+
+## Gerçekten işe yarıyor mu? Gerçek fiyatlarla bir test
+
+Coinbase’in günlük kapanış fiyatlarıyla basit bir geriye dönük test yaptık. Haftada 50 $’lık bitcoin alındığını ve aynı toplamın ilk gün tek seferde yatırılmasıyla karşılaştırıldığını varsayar. Değerler 8 Kasım 2026 kapanışı itibarıyladır. Ücretleri ve vergileri yok sayar; yalnızca bir örnektir.
+
+!figure:fact
+
+!mid_cta
+
+Sonuçlar karışık ve mesele de bu:
+
+- <strong>Son 12 ay (53 haftalık alım, toplam 2650 $).</strong> Fiyat çoğunlukla düştü; haftalık alıcı yaklaşık 2633 $ ile bitirirken tek seferlik yatırım yaklaşık 1892 $’da kaldı.
+- <strong>Son 24 ay (105 alım, 5250 $).</strong> Haftalık alımla yaklaşık 4562 $, tek seferlik yatırımla yaklaşık 5126 $.
+- <strong>Son 36 ay (157 alım, 7850 $).</strong> Fiyat başta çok yükseldi; bu yüzden yaklaşık 15.823 $ olan tek seferlik yatırım, yaklaşık 8069 $ olan haftalık alımı geride bıraktı.
+
+12 aylık pencerede DCA sert bir düşüşü yumuşattı. 36 aylık pencerede ise güçlü bir yükselişin gerisinde kaldı. FINRA aynı şeyi genel olarak söylüyor: Yatırımı yaymak riski azaltır ancak [çoğu zaman tek seferlik yatırımdan daha düşük getiri sağlar](L3).
+
+## Dolar maliyet ortalamasının artıları ve eksileri
+
+- <strong>Artıları:</strong> piyasayı zamanlama baskısını kaldırır, alışkanlık oluşturur, her alımı küçük tutar ve pişmanlığı ve panik kararlarını azaltabilir.
+- <strong>Eksileri:</strong> kenarda bekleyen para yükselişleri kaçırabilir, daha çok işlem daha çok ücret demek olabilir ve kâr garantisi vermez, zarara karşı koruma sağlamaz.
+
+!howto
+
+## Coinbase’de düzenli alım nasıl kurulur
+
+Coinbase [düzenli alımları](L4) haftalık, ayın 1’i ve 15’i ya da aylık olarak planlamanıza izin verir. Her ödeme yöntemi uygun değildir; uygulamadan kontrol edin. Adımlar şöyle:
+
+1. <strong>Buy & sell’i açın:</strong> Coinbase uygulamasında ya da web’deki Buy / Sell panelinde.
+2. <strong>Varlık olarak Bitcoin’i seçin.</strong>
+3. <strong>Emir türünü</strong> Quick Buy’dan Recurring buy’a çevirin ve bir sıklık seçin.
+4. <strong>Her seferinde almak istediğiniz tutarı girin.</strong>
+5. <strong>Uygun bir ödeme yöntemi seçin.</strong> Nakit bakiye de kullanabilirsiniz.
+6. <strong>Preview buy’a dokunun,</strong> ücretleri okuyun, ardından Buy now ile onaylayın.
+
+Bilmeniz gereken iki şey var. İlk alım, planı kurduğunuz anda hemen gerçekleşir. Ayrıca tutarı veya sıklığı sonradan düzenleyemezsiniz: planı iptal edip yenisini oluşturursunuz. Henüz hesabınız yoksa ve Coinbase ülkenizde kullanılabiliyorsa [Coinbase hesabı açabilirsiniz](REF){{#ref}} (referans bağlantımızla){{/ref}}. Riski değerlendirmek isterseniz önce [Coinbase’in güvenli olup olmadığına](/articles/is-coinbase-safe-for-beginners) bakın.
+
+## Yeni başlayanlar için pratik kurallar
+
+- Küçük başlayın ve yalnızca rahat hissederseniz artırın.
+- Yıllarca dokunmadan bırakabileceğiniz parayı kullanın.
+- Her alımdan önce önizleme ekranındaki ücreti kontrol edin; küçük düzenli alımlar toplamda artabilir.
+- Sosyal medya cıvıltısını ve fırsatı kaçırma korkusunu görmezden gelin.
+- Kayıt tutun. ABD vergi idaresi IRS dijital varlıkları mal varlığı olarak ele alır ve [bunları satmak ya da takas etmek vergilendirilebilir kazanç veya zarar doğurabilir](L5).
+
+!faq
+
+## Sık sorulan sorular
+
+### 100 $ ile ne kadar bitcoin almalıyım?
+
+Kimse söyleyemez. Bitcoin’in bir kısmını alabilirsiniz; yani 100 $ küçük bir dilim alır. Değerinin yarısını kaybetse rahat olup olmayacağınızı düşünün ve onaylamadan önce önizleme ekranındaki ücretleri okuyun.
+
+### Dolar maliyet ortalaması hepsini bir kerede almaktan daha mı iyi?
+
+Her zaman değil. DCA zamanlama riskini düşürür ama fiyatlar yükselirken çoğu zaman tek seferlik yatırımdan daha düşük getiri sağlar. Geriye dönük testimizde 12 ayda daha iyi, 36 ayda daha kötü sonuç verdi.
+
+### DCA ile ne sıklıkla bitcoin almalıyım?
+
+Coinbase haftalık, ayda iki (1’i ve 15’i) ve aylık takvimler sunuyor. Gelirinize uyan sıklığı seçin ve her alımda ücret olabileceğini unutmayın.
+
+### Coinbase’de bitcoin almak için minimum tutar nedir?
+
+Minimumlar varlığa ve ödeme yöntemine göre değişir; bir minimumun altındaysanız Coinbase uygulamada bunu söyler. Bitcoin’in kesirlerini alabilirsiniz.
+
+### Bitcoin alarak tüm paramı kaybedebilir miyim?
+
+FINRA, kriptoda yatırımın tamamını kaybetme riskinin önemli olduğunu söylüyor. Bu yüzden yaygın tavsiye, kaybetmeyi göze alabileceğinizden fazlasını asla yatırmamaktır.
+
+### Bitcoin için vergi öder miyim?
+
+Muhtemelen. Vergi açısından IRS dijital varlıkları mal varlığı sayar; bu yüzden satmak veya takas etmek sermaye kazancı ya da zararı doğurabilir. Bir vergi uzmanına danışmayı düşünün.
+
+!soft: Aldıklarınızı nerede saklayacağınızı bilmiyor musunuz? [Emanetçi ve kendi saklama cüzdanı rehberimizi](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) okuyun.
+
+!end_cta
+
+!disclosure

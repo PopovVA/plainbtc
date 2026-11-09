@@ -1,0 +1,113 @@
+title: Coinbase est-il sûr pour les débutants ? Ce qui est protégé, ce qui ne l’est pas et comment réduire vos risques
+page_title: Coinbase est-il sûr pour les débutants ?
+description: Coinbase est-il sûr ? Un tour d’horizon clair de ce qui est protégé, de ce qui n’est pas assuré, de la fuite de données de 2025 et des réflexes d’un débutant.
+og_description: Ce que Coinbase protège, ce que l’assurance FDIC couvre ou non, et une courte liste pour sécuriser votre compte.
+label: Guide du débutant
+summary: Un bilan clair de la sécurité de Coinbase : comment la plateforme conserve les cryptos, ce qui est assuré ou non, ce qu’était la fuite de données de 2025 et une liste pour protéger votre compte.
+===
+
+« Coinbase est-il sûr ? » est l’une des premières questions des nouveaux acheteurs, et la réponse honnête comporte deux volets. Coinbase est une grande entreprise américaine cotée en Bourse, aux pratiques de sécurité sérieuses. Mais « sûr » ne veut pas dire « sans risque » : les cryptos ne sont pas assurées comme un dépôt bancaire, les prix varient fortement et les escrocs ciblent les débutants. Ce guide distingue ce que Coinbase protège de ce qui reste à votre charge.
+
+!takeaways
+- Coinbase affirme que plus de 99 % des cryptos de ses clients sont conservées dans des portefeuilles froids hors ligne, et exige une vérification en deux étapes pour accéder à un compte.
+- Les soldes en dollars américains peuvent bénéficier d’une assurance FDIC « pass-through » jusqu’à 250 000 $ par déposant. Les cryptos elles-mêmes ne sont pas assurées par la FDIC.
+- Une fuite en 2025 a exposé des données personnelles de certains clients via des agents de support corrompus, mais Coinbase a indiqué que les mots de passe, les clés privées et les fonds n’avaient pas été compromis.
+- Pour la plupart des débutants, les arnaques par usurpation d’identité et les variations de prix sont des risques quotidiens plus importants qu’une intrusion chez Coinbase elle-même.
+
+## La réponse courte
+
+Pour la plupart des débutants aux États-Unis, Coinbase est un point de départ raisonnable si vous l’utilisez avec prudence, mais elle n’est pas sans risque. Coinbase est cotée au Nasdaq et dépose [des rapports annuels et trimestriels auprès de la SEC](L1), ce qui l’oblige à divulguer publiquement ses risques. Sa branche de conservation a aussi obtenu récemment une charte fédérale de trust, dont nous parlons dans [notre article sur la charte de l’OCC](/articles/coinbase-occ-national-trust-charter-nov-2026). Cette charte concerne la conservation institutionnelle, pas les comptes grand public.
+
+Il est utile de distinguer trois risques : <strong>le risque d’entreprise</strong> (Coinbase est piratée ou fait faillite), <strong>le risque de compte</strong> (quelqu’un prend le contrôle de votre accès ou vous piège) et <strong>le risque de marché</strong> (le prix baisse). Coinbase peut réduire les deux premiers. Personne ne peut supprimer le troisième.
+
+## Comment Coinbase protège vos cryptos
+
+Coinbase indique utiliser deux types de stockage. Une petite part se trouve dans des portefeuilles chauds pour que les clients puissent retirer rapidement, tandis que [plus de 99 % des actifs restent dans des portefeuilles froids](L2) gardés hors ligne. Coinbase précise aussi que les clés privées des actifs clients en stockage froid sont fragmentées et jamais réunies en un seul endroit, même lors de la signature d’une transaction. En théorie, un ordinateur volé ou un employé malhonnête ne peut donc pas déplacer les fonds des clients.
+
+Côté compte, Coinbase indique que [la vérification en deux étapes est obligatoire](L3) pour y accéder et recommande les clés de sécurité ou les passkeys. Ce sont des descriptions de l’entreprise elle-même : considérez-les comme des affirmations que vous ne pouvez pas vérifier de façon indépendante.
+
+!figure:cold
+
+## Ce qui est assuré, et ce qui ne l’est pas
+
+Coinbase dit clairement qu’elle n’est <strong>pas une banque assurée par la FDIC</strong>. Voici la répartition :
+
+- <strong>Les dollars américains en espèces.</strong> Coinbase indique que l’argent des clients est conservé dans des comptes groupés auprès de banques assurées par la FDIC ou de coopératives de crédit assurées par la NCUSIF, conçus pour que Coinbase puisse demander une [assurance « pass-through »](L4) jusqu’à 250 000 $ par déposant si l’un de ces établissements fait faillite. La couverture dépend des registres de Coinbase et de la décision du régulateur à ce moment-là. Elle ne vous protège ni des baisses de prix ni d’une prise de contrôle de votre compte.
+- <strong>Les cryptos.</strong> Le bitcoin et les autres cryptos ne sont couverts ni par la FDIC, ni par la NCUSIF, ni par la SIPC. Coinbase dispose d’une assurance contre la criminalité pour une partie de la monnaie numérique stockée dans ses systèmes, mais sa police [ne couvre pas les pertes dues à un accès non autorisé à votre compte](L5) causé par une fuite ou la perte de vos identifiants, et l’entreprise précise que les pertes totales peuvent dépasser les indemnisations.
+
+!figure:fdic
+
+!mid_cta
+
+## Et si Coinbase elle-même fait faillite ?
+
+Le contrat d’utilisation de Coinbase indique que la propriété de vos cryptos reste la vôtre et qu’elles n’appartiennent pas à Coinbase. Mais dans les facteurs de risque de son [rapport annuel](L6), Coinbase avertit que les cryptos conservées pour des clients pourraient être traitées comme des biens de la masse en cas de faillite, et que les clients pourraient être considérés comme des créanciers chirographaires. L’entreprise estime qu’un tribunal ne le ferait pas grâce à une règle d’État appelée UCC Article 8, mais précise que les tribunaux n’ont pas encore examiné la question pour les cryptos conservées.
+
+En clair : personne ne sait avec certitude ce que déciderait un juge. Cette incertitude est l’une des raisons pour lesquelles les détenteurs de gros soldes s’intéressent à l’auto-conservation, que nous expliquons dans notre [guide des portefeuilles custodiaux et en auto-conservation](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+## Ce qui s’est passé lors de la fuite de données de 2025
+
+En mai 2025, Coinbase a informé la SEC que des criminels avaient [payé des prestataires et des employés du support à l’étranger](L7) pour copier des informations clients depuis des systèmes internes. Les données comprenaient noms, adresses, numéros de téléphone, e-mails, les quatre derniers chiffres du numéro de sécurité sociale, numéros de compte bancaire masqués, images de pièces d’identité, ainsi que soldes et historique des transactions.
+
+Coinbase a déclaré que l’incident n’avait concerné ni les mots de passe ni les clés privées, et que personne n’avait pu accéder aux fonds des clients. Elle a estimé le coût entre 180 et 400 millions de dollars, a dit qu’elle rembourserait les clients incités à envoyer des fonds et a refusé une demande de rançon de 20 millions.
+
+La leçon n’est pas que les coffres de Coinbase ont été vidés. C’est que des données personnelles volées rendent possibles des arnaques très convaincantes, ce qui nous amène au principal risque quotidien.
+
+## Les arnaques, vrai risque du quotidien
+
+La FINRA, l’organisme d’autorégulation du secteur des valeurs mobilières, avertit que [les arnaques aux cryptos sont très répandues](L8) : hameçonnage, faux support technique, fraudeurs se faisant passer pour un service légitime. Une fois envoyées, les cryptos sont en général perdues pour de bon.
+
+Coinbase affirme que son personnel ne vous demandera jamais votre mot de passe ni votre code de vérification en deux étapes, jamais votre phrase de récupération, jamais d’accès à distance à votre appareil et jamais de déplacer vos fonds vers un portefeuille « sécurisé ». Si quelqu’un vous appelle en se disant de Coinbase, [Coinbase affirme que c’est une arnaque](L9).
+
+!howto
+
+## Comment verrouiller votre compte Coinbase
+
+Ces six étapes prennent environ dix minutes et suivent les propres conseils de sécurité de Coinbase :
+
+1. <strong>Configurez une vérification en deux étapes solide.</strong> Coinbase recommande une passkey ou une clé de sécurité, plus une méthode de secours au cas où vous perdriez votre téléphone.
+2. <strong>Utilisez une adresse e-mail dédiée à Coinbase.</strong> Coinbase note que les adresses e-mail sont un point de départ courant pour les criminels qui constituent des profils de cibles.
+3. <strong>Activez la liste d’adresses autorisées pour les retraits.</strong> Elle limite les transferts on-chain aux adresses de portefeuille que vous avez approuvées à l’avance.
+4. <strong>Ne partagez jamais codes, mots de passe ni phrases de récupération.</strong> Même avec quelqu’un qui dit travailler chez Coinbase.
+5. <strong>Ne contactez Coinbase que via son site ou son application officiels.</strong> Raccrochez en cas d’appel inattendu. Si quelque chose vous semble anormal, verrouillez votre compte dans l’application et écrivez à l’adresse indiquée sur la page d’aide de Coinbase.
+6. <strong>Commencez petit.</strong> Apprenez l’application avec un montant que vous pouvez vous permettre de perdre avant de déplacer des sommes plus importantes.
+
+## Alors, Coinbase est-il sûr pour un débutant ?
+
+Coinbase offre de vraies protections et un long historique public, et l’incident de 2025 qu’elle a révélé portait sur des données personnelles et non, selon l’entreprise, sur des fonds de clients. Reste que les cryptos comportent des risques qu’aucune entreprise ne peut assurer, et la FINRA rappelle que le risque de tout perdre est important. Le plus grand risque de nombreux débutants est le prix lui-même. Voyez à quoi ressemble une semaine agitée dans notre [point sur les liquidations de bitcoin](/articles/bitcoin-volatility-liquidations-nov-2026) et lisez notre guide sur [combien de bitcoin un débutant devrait acheter](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+Si vous décidez que Coinbase vous convient et qu’elle est disponible dans votre pays, vous pouvez [ouvrir un compte](REF){{#ref}} avec notre lien de parrainage{{/ref}} et suivre notre [guide d’achat pas à pas](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!faq
+
+## Questions fréquentes
+
+### Coinbase est-il sûr en 2026 ?
+
+Pour la plupart des débutants aux États-Unis, c’est un choix raisonnable si vous sécurisez votre compte, mais aucune plateforme crypto n’est sans risque. Coinbase est une société cotée qui divulgue ses risques et exige la vérification en deux étapes. Les variations de prix et les arnaques restent vos principaux risques.
+
+### Mon argent est-il assuré par la FDIC sur Coinbase ?
+
+Seuls les dollars américains en espèces peuvent l’être, via une assurance « pass-through » jusqu’à 250 000 $ par déposant si une banque partenaire fait faillite. Les cryptos, bitcoin compris, ne sont pas assurées par la FDIC, et la couverture dépend de la tenue des registres de Coinbase.
+
+### Coinbase peut-il être piraté ou perdre mon bitcoin ?
+
+Tout service en ligne peut être attaqué. Coinbase dit conserver plus de 99 % des actifs clients en stockage froid hors ligne et fragmenter ses clés. Son assurance contre la criminalité ne couvre qu’une partie des actifs et pas les prises de contrôle de compte causées par des identifiants volés.
+
+### Que deviennent mes cryptos si Coinbase fait faillite ?
+
+Cela n’a jamais été tranché par un tribunal. Coinbase affirme que son contrat d’utilisation et l’UCC Article 8 devraient garder vos cryptos hors de sa masse générale, mais son propre rapport annuel avertit que les clients pourraient être traités comme des créanciers chirographaires.
+
+### Coinbase est-il légitime ou une arnaque ?
+
+Coinbase est une vraie société cotée. Les arnaques viennent d’imposteurs, de fausses applications et de faux services d’assistance : saisissez vous-même l’adresse du site ou utilisez l’application officielle, et ne faites jamais confiance à un appel non sollicité.
+
+### Dois-je garder mes cryptos sur Coinbase à long terme ?
+
+Beaucoup de gens y gardent de petits montants le temps d’apprendre. Quand les soldes grossissent, certains passent à un portefeuille en auto-conservation. Chaque option a ses avantages et ses inconvénients, détaillés dans notre [guide des portefeuilles](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!soft: Nouveau dans les cryptos ? Commencez par notre [guide pour acheter votre premier bitcoin sur Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

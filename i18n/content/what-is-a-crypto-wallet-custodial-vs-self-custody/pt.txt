@@ -1,0 +1,107 @@
+title: O que é uma carteira cripto? Custódia vs. autocustódia, explicado para iniciantes
+page_title: O que é uma carteira cripto? Custódia vs. autocustódia
+description: O que é uma carteira cripto? Guia claro sobre carteiras custodiais e de autocustódia, frases de recuperação, armazenamento quente e frio e como começar com segurança.
+og_description: Suas criptomoedas vivem em uma blockchain; a carteira guarda as chaves. A diferença entre carteiras custodiais e de autocustódia, e qual combina com um iniciante.
+label: Guia para iniciantes
+summary: Uma carteira não guarda moedas, guarda chaves. Entenda a diferença entre carteiras custodiais e de autocustódia, o que é uma frase de recuperação e como começar com segurança.
+===
+
+Se você comprou bitcoin, provavelmente ouviu que precisa de uma “carteira” (wallet). A palavra confunde, porque uma carteira cripto não guarda moedas como uma carteira de couro guarda dinheiro. Este guia explica o que uma carteira realmente é, a diferença entre carteiras <strong>custodiais</strong> e de <strong>autocustódia</strong> e como escolher uma configuração sensata como iniciante.
+
+!takeaways
+- Uma carteira cripto guarda as chaves privadas que permitem gastar suas moedas. As moedas em si ficam na blockchain.
+- Em uma carteira custodial, como uma conta da Coinbase, a empresa guarda as chaves para você e pode ajudar se você perder a senha.
+- Em uma carteira de autocustódia, as chaves são suas. Ninguém pode recuperá-las por você, então perder a frase de recuperação pode significar perder os fundos.
+- Nenhuma opção está livre de risco. Muitos iniciantes começam com custódia e valores pequenos e consideram a autocustódia conforme o saldo cresce.
+
+## O que uma carteira cripto realmente é
+
+A documentação para desenvolvedores do Bitcoin resume assim: programas de carteira criam chaves públicas para receber bitcoin e usam as chaves privadas correspondentes para gastá-lo, e [arquivos de carteira armazenam chaves privadas](L1). Pense no endereço público como um número de conta que você pode compartilhar e na chave privada como a senha que prova que os fundos são seus.
+
+Então, quando alguém diz “meu bitcoin está na minha carteira”, quer dizer “minha carteira guarda as chaves que controlam meu bitcoin”. Quem tem as chaves privadas controla as moedas. Essa única ideia explica todo o debate entre custódia e autocustódia.
+
+## Carteiras custodiais: outra pessoa guarda as chaves
+
+Quando você compra cripto em uma corretora como a Coinbase, ela fica armazenada na plataforma. A Coinbase se descreve como [uma exchange centralizada que guarda suas criptomoedas para você](L2) em uma carteira hospedada. Você entra com senha e verificação em duas etapas, e, se esquecer o login, a empresa pode ajudar a recuperar o acesso.
+
+<strong>A vantagem:</strong> é simples, há suporte e não existe frase de recuperação para proteger. <strong>A desvantagem:</strong> você depende da empresa. Em novembro de 2022, a exchange FTX [pediu falência](L3) e os clientes não conseguiram sacar seus fundos. O próprio relatório anual da Coinbase alerta que, em uma falência, as criptomoedas dos clientes poderiam ser tratadas como propriedade da empresa e os clientes como credores quirografários, embora a empresa diga acreditar que um tribunal decidiria o contrário. Explicamos isso em nosso [guia de segurança da Coinbase](/articles/is-coinbase-safe-for-beginners).
+
+!figure:compare
+
+## Carteiras de autocustódia: as chaves são suas
+
+Uma carteira de autocustódia coloca as chaves privadas em suas mãos. O app de carteira separado da Coinbase é um exemplo: a Coinbase diz que as chaves ficam [armazenadas diretamente no seu dispositivo](L4) e que você não precisa de uma conta da Coinbase para usá-lo. O app chegou a se chamar Base app por pouco tempo e voltou a ser Coinbase Wallet em setembro de 2026.
+
+Ao configurar uma carteira de autocustódia, você recebe uma <strong>frase de recuperação</strong>, também chamada de frase-semente. O padrão comum, BIP-39, cria uma frase de [12 a 24 palavras](L5) a partir da qual todas as chaves da carteira podem ser reconstruídas. A Coinbase Wallet [gera uma frase de 12 palavras](L6) e diz que só você tem acesso a ela. Se você a perder, perde o acesso aos fundos, e a Coinbase não pode movê-los nem ajudar a recuperá-los.
+
+!figure:words
+
+!mid_cta
+
+## Carteiras quentes vs. carteiras frias
+
+Esta é uma questão separada da custódia. Uma <strong>carteira quente</strong> está conectada à internet, como um app de celular ou uma extensão de navegador. Uma <strong>carteira fria</strong> mantém as chaves offline. A carteira de hardware é a opção fria mais comum. O Bitcoin.org descreve as [carteiras de hardware](L7) como um dos métodos mais seguros e adequados para valores maiores, mas avisa que perder o dispositivo sem um backup adequado pode tornar os fundos irrecuperáveis. Carteiras de celular e de computador são mais práticas, mas um celular perdido ou um malware pode colocar os fundos em risco.
+
+## Custódia vs. autocustódia em resumo
+
+- <strong>Quem guarda as chaves:</strong> um provedor custodial as guarda; na autocustódia, é você.
+- <strong>Se você esquecer a senha:</strong> um provedor custodial geralmente pode ajudar; a autocustódia só tem a sua frase de recuperação.
+- <strong>Maiores riscos:</strong> na custódia, falha da empresa, invasões e roubo de contas; na autocustódia, frases perdidas, phishing e malware.
+- <strong>Ideal para:</strong> a custódia serve para simplicidade e valores pequenos; a autocustódia, para quem aceita assumir a responsabilidade.
+
+## Qual é melhor para um iniciante?
+
+Não há uma única resposta certa, e isto não é aconselhamento. Muitos iniciantes começam com uma conta custodial porque é simples e tem suporte, e mantêm o valor pequeno enquanto aprendem. Conforme os saldos crescem, algumas pessoas movem parte do patrimônio para autocustódia, com uma carteira de hardware ou um app com backup cuidadoso. A pergunta-chave é: <em>qual erro você consegue evitar melhor, confiar em uma empresa ou gerenciar suas próprias chaves?</em>
+
+Se quiser começar em uma exchange e a Coinbase estiver disponível no seu país, você pode [abrir uma conta na Coinbase](REF){{#ref}} pelo nosso link de indicação{{/ref}} e seguir nosso [guia da primeira compra](/articles/how-to-buy-first-bitcoin-coinbase). Nosso guia sobre [quanto comprar](/articles/how-much-bitcoin-should-a-beginner-buy-dca) pode ajudar a definir o valor.
+
+## Golpes de carteira para ficar atento
+
+A FINRA alerta que golpistas atraem pessoas para [serviços cripto falsos](L8), e alguns se passam por suporte técnico de provedores reais ou fazem amizade com as vítimas e as pressionam a mover suas carteiras. A Coinbase diz que nunca pedirá sua frase de recuperação. A regra é simples: <strong>quem pedir sua frase de recuperação é um ladrão</strong>, e, uma vez enviada, a cripto geralmente se perde.
+
+!howto
+
+## Como começar com a autocustódia com segurança
+
+Se decidir experimentar, estes passos seguem as práticas comuns de segurança, incluindo as orientações da Coinbase e do Bitcoin.org:
+
+1. <strong>Instale a carteira pelo site oficial ou pela loja de apps.</strong> Confira o desenvolvedor, pois existem apps de carteira falsos.
+2. <strong>Escreva a frase de recuperação em papel.</strong> A Coinbase desaconselha capturas ou gravações de tela e diz para nunca colá-la em um site.
+3. <strong>Guarde o backup em um lugar seguro.</strong> Onde fogo, água e olhares curiosos não alcancem, e considere uma segunda cópia em outro local.
+4. <strong>Teste primeiro com um valor pequeno.</strong> Envie um pouco, confirme que chegou e pratique restaurar a carteira.
+5. <strong>Confira cada endereço duas vezes.</strong> As transações cripto são irreversíveis, então verifique o endereço completo antes de enviar.
+6. <strong>Nunca compartilhe a frase.</strong> Nem com o suporte, nem com amigos, com ninguém.
+
+!faq
+
+## Perguntas frequentes
+
+### O que é uma carteira cripto em termos simples?
+
+É um app ou dispositivo que guarda as chaves privadas que permitem gastar suas criptomoedas. As moedas ficam na blockchain. Quem controla as chaves controla as moedas.
+
+### A Coinbase é uma carteira?
+
+Uma conta comum da Coinbase é custodial: a Coinbase guarda suas criptomoedas para você. A Coinbase Wallet é um app de autocustódia separado em que as chaves são suas, e você não precisa de uma conta da Coinbase para usá-lo.
+
+### O que é uma frase-semente ou frase de recuperação?
+
+Uma lista de 12 a 24 palavras que pode reconstruir todas as chaves de uma carteira de autocustódia. Quem a tiver pode pegar seus fundos, e, se você a perder, ninguém pode restaurá-la por você.
+
+### Posso perder bitcoin se perder o celular?
+
+Com uma carteira de autocustódia, não, se você guardou a frase de recuperação com segurança, porque pode restaurar a carteira em outro aparelho. Sem a frase, você pode perder o acesso. Com uma conta custodial, normalmente dá para recuperar o login com o provedor.
+
+### Vale a pena ter uma carteira de hardware?
+
+O Bitcoin.org descreve as carteiras de hardware como uma das opções mais seguras, especialmente para valores maiores, mas observa que são mais difíceis de usar na rua. Para um saldo inicial pequeno, muita gente ainda não precisa de uma.
+
+### Alguém pode roubar minhas criptomoedas se souber meu endereço?
+
+Um endereço existe para ser compartilhado, para que as pessoas possam enviar cripto a você. O perigo é a sua chave privada ou frase de recuperação. Nunca as compartilhe.
+
+!soft: Preocupado com a segurança da conta? Veja nossa [lista de segurança da Coinbase](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

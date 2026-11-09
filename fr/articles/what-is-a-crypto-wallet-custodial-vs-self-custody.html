@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (Français)" href="/fr/feed.xml">
+  <link rel="stylesheet" href="/assets/styles.20261109f.css">
+  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
+  <title>Qu’est-ce qu’un portefeuille crypto ? Custodial vs auto-conservation | PlainBTC</title>
+  <meta name="description" content="Qu’est-ce qu’un portefeuille crypto ? Guide simple sur les portefeuilles custodiaux et en auto-conservation, les phrases de récupération, le stockage chaud et froid, et comment bien débuter.">
+  <link rel="canonical" href="https://plainbtc.com/fr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">
+  <!-- i18n:hreflang -->
+  <link rel="alternate" hreflang="en" href="https://plainbtc.com/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">
+  <link rel="alternate" hreflang="es" href="https://plainbtc.com/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">
+  <link rel="alternate" hreflang="pt-BR" href="https://plainbtc.com/pt/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">
+  <link rel="alternate" hreflang="fr" href="https://plainbtc.com/fr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">
+  <link rel="alternate" hreflang="de" href="https://plainbtc.com/de/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">
+  <link rel="alternate" hreflang="ru" href="https://plainbtc.com/ru/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">
+  <link rel="alternate" hreflang="tr" href="https://plainbtc.com/tr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">
+  <link rel="alternate" hreflang="id" href="https://plainbtc.com/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">
+  <link rel="alternate" hreflang="ja" href="https://plainbtc.com/ja/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">
+  <link rel="alternate" hreflang="ko" href="https://plainbtc.com/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">
+  <link rel="alternate" hreflang="x-default" href="https://plainbtc.com/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <!-- /i18n:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Qu’est-ce qu’un portefeuille crypto ? Custodial ou auto-conservation, expliqué aux débutants">
+  <meta property="og:description" content="Vos cryptos vivent sur une blockchain ; le portefeuille détient les clés. La différence entre portefeuilles custodiaux et en auto-conservation, et lequel convient à un débutant.">
+  <meta property="og:url" content="https://plainbtc.com/fr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">
+  <meta property="og:site_name" content="PlainBTC">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="article:published_time" content="2026-11-09">
+  <meta property="og:image" content="https://plainbtc.com/assets/og/what-is-a-crypto-wallet-custodial-vs-self-custody.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Qu’est-ce qu’un portefeuille crypto ? Custodial ou auto-conservation, expliqué aux débutants">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://plainbtc.com/assets/og/what-is-a-crypto-wallet-custodial-vs-self-custody.png">
+  <meta name="twitter:title" content="Qu’est-ce qu’un portefeuille crypto ? Custodial ou auto-conservation, expliqué aux débutants">
+  <meta name="twitter:description" content="Vos cryptos vivent sur une blockchain ; le portefeuille détient les clés. La différence entre portefeuilles custodiaux et en auto-conservation, et lequel convient à un débutant.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Qu’est-ce qu’un portefeuille crypto ? Custodial ou auto-conservation, expliqué aux débutants",
+    "name": "Qu’est-ce qu’un portefeuille crypto ? Custodial vs auto-conservation | PlainBTC",
+    "description": "Qu’est-ce qu’un portefeuille crypto ? Guide simple sur les portefeuilles custodiaux et en auto-conservation, les phrases de récupération, le stockage chaud et froid, et comment bien débuter.",
+    "datePublished": "2026-11-09",
+    "dateModified": "2026-11-09",
+    "author": {
+      "@type": "Organization",
+      "name": "PlainBTC"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/",
+      "sameAs": [
+        "https://discord.gg/EcuGXPDr2d",
+        "https://www.facebook.com/groups/1688106109771364",
+        "https://x.com/lean_redfield"
+      ]
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://plainbtc.com/fr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody"
+    },
+    "url": "https://plainbtc.com/fr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody",
+    "image": "https://plainbtc.com/assets/og/what-is-a-crypto-wallet-custodial-vs-self-custody.png",
+    "inLanguage": "fr"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://plainbtc.com/fr/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Qu’est-ce qu’un portefeuille crypto ? Custodial ou auto-conservation, expliqué aux débutants",
+        "item": "https://plainbtc.com/fr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "Comment débuter l’auto-conservation en sécurité",
+    "inLanguage": "fr",
+    "description": "Si vous décidez d’essayer, ces étapes suivent les bonnes pratiques courantes de sécurité, y compris les recommandations de Coinbase et de Bitcoin.org :",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Installez le portefeuille depuis le site officiel ou la boutique d’applications.",
+        "text": "Installez le portefeuille depuis le site officiel ou la boutique d’applications. Vérifiez l’éditeur, car il existe de fausses applications de portefeuille."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Écrivez la phrase de récupération sur papier.",
+        "text": "Écrivez la phrase de récupération sur papier. Coinbase déconseille les captures ou enregistrements d’écran et indique de ne jamais la coller sur un site web."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Rangez la sauvegarde en lieu sûr.",
+        "text": "Rangez la sauvegarde en lieu sûr. À l’abri du feu, de l’eau et des regards indiscrets, et envisagez une seconde copie dans un autre endroit."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 4,
+        "name": "Testez d’abord avec un petit montant.",
+        "text": "Testez d’abord avec un petit montant. Envoyez un peu, vérifiez que cela arrive, puis entraînez-vous à restaurer le portefeuille."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 5,
+        "name": "Vérifiez chaque adresse deux fois.",
+        "text": "Vérifiez chaque adresse deux fois. Les transactions crypto sont irréversibles : contrôlez l’adresse complète avant d’envoyer."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 6,
+        "name": "Ne partagez jamais la phrase.",
+        "text": "Ne partagez jamais la phrase. Ni avec le support, ni avec des amis, ni avec personne."
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "inLanguage": "fr",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Qu’est-ce qu’un portefeuille crypto en termes simples ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "C’est une application ou un appareil qui détient les clés privées permettant de dépenser vos cryptos. Les pièces vivent sur la blockchain. Celui qui contrôle les clés contrôle les pièces."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Coinbase est-il un portefeuille ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Un compte Coinbase classique est custodial : Coinbase conserve vos cryptos pour vous. Coinbase Wallet est une application distincte en auto-conservation où vous détenez les clés, et vous n’avez pas besoin d’un compte Coinbase pour l’utiliser."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qu’est-ce qu’une phrase mnémonique ou phrase de récupération ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Une liste de 12 à 24 mots qui peut reconstruire toutes les clés d’un portefeuille en auto-conservation. Quiconque la possède peut prendre vos fonds, et si vous la perdez, personne ne peut la restaurer pour vous."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Puis-je perdre mes bitcoins si je perds mon téléphone ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Avec un portefeuille en auto-conservation, pas si vous avez conservé votre phrase de récupération en sécurité, car vous pouvez restaurer le portefeuille sur un nouvel appareil. Sans la phrase, vous pourriez perdre l’accès. Avec un compte custodial, vous pouvez généralement récupérer votre accès auprès du prestataire."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Un portefeuille matériel vaut-il le coup ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bitcoin.org décrit les portefeuilles matériels comme l’une des options les plus sûres, surtout pour de plus gros montants, mais note aussi qu’ils sont moins pratiques en déplacement. Pour un petit solde de départ, beaucoup n’en ont pas encore besoin."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quelqu’un peut-il voler mes cryptos s’il connaît mon adresse ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Une adresse est faite pour être partagée afin qu’on puisse vous envoyer des cryptos. Le danger, c’est votre clé privée ou votre phrase de récupération. Ne les partagez jamais."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap inner">
+      <a class="logo" href="/fr/">Plain<span>BTC</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/fr/">Accueil</a>
+        <a href="/fr/#articles">Articles</a>
+        <a href="/fr/about">À propos</a>
+        <a href="/fr/disclosure">Transparence</a>
+      </nav>
+      <!-- i18n:langmenu -->
+      <details class="lang-menu"><summary aria-label="Langue">🌐 Français</summary><ul><li><a href="/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="fr" hreflang="fr" aria-current="true">Français</a></li><li><a href="/de/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <!-- /i18n:langmenu -->
+    </div>
+  </header>
+
+  <main class="article-page">
+    <article class="content">
+      <a class="back" href="/fr/">← Tous les articles</a>
+      <div class="badge">Guide du débutant</div>
+      <h1>Qu’est-ce qu’un portefeuille crypto ? Custodial ou auto-conservation, expliqué aux débutants</h1>
+      <div class="meta">Publié le 9 novembre 2026 · PlainBTC · États-Unis</div>
+      <img class="og-hero" src="/assets/og/what-is-a-crypto-wallet-custodial-vs-self-custody.png" width="1200" height="630" alt="Qu’est-ce qu’un portefeuille crypto ? Custodial ou auto-conservation, expliqué aux débutants" loading="eager">
+
+      <p>Si vous avez acheté du bitcoin, on vous a sans doute dit qu’il vous fallait un « portefeuille » (wallet). Le mot prête à confusion, car un portefeuille crypto ne contient pas de pièces comme un portefeuille en cuir contient des billets. Ce guide explique ce qu’est réellement un portefeuille, la différence entre portefeuilles <strong>custodiaux</strong> et en <strong>auto-conservation</strong>, et comment choisir une configuration raisonnable pour débuter.</p>
+
+      <div class="takeaways">
+        <h2>L’essentiel</h2>
+        <ul>
+          <li>Un portefeuille crypto stocke les clés privées qui vous permettent de dépenser vos pièces. Les pièces elles-mêmes vivent sur la blockchain.</li>
+          <li>Dans un portefeuille custodial, comme un compte Coinbase, l’entreprise détient les clés pour vous et peut vous aider si vous perdez votre mot de passe.</li>
+          <li>Dans un portefeuille en auto-conservation, vous détenez les clés. Personne ne peut les récupérer pour vous : perdre la phrase de récupération peut signifier perdre les fonds.</li>
+          <li>Aucune option n’est sans risque. Beaucoup de débutants commencent en custodial avec de petits montants et envisagent l’auto-conservation à mesure que leur solde grandit.</li>
+        </ul>
+      </div>
+
+      <h2>Ce qu’est vraiment un portefeuille crypto</h2>
+      <p>La documentation pour développeurs de Bitcoin le résume simplement : les programmes de portefeuille créent des clés publiques pour recevoir des bitcoins et utilisent les clés privées correspondantes pour les dépenser, et <a href="https://developer.bitcoin.org/devguide/wallets.html" target="_blank" rel="noopener">les fichiers de portefeuille stockent des clés privées</a>. Voyez l’adresse publique comme un numéro de compte que vous pouvez partager, et la clé privée comme le mot de passe qui prouve que les fonds sont à vous.</p>
+      <p>Quand quelqu’un dit « mon bitcoin est dans mon portefeuille », cela veut dire « mon portefeuille détient les clés qui contrôlent mon bitcoin ». Celui qui détient les clés privées contrôle les pièces. Cette seule idée explique tout le débat entre custodial et auto-conservation.</p>
+      <h2>Portefeuilles custodiaux : quelqu’un d’autre détient les clés</h2>
+      <p>Quand vous achetez des cryptos sur une plateforme comme Coinbase, elles sont stockées sur la plateforme. Coinbase se décrit comme <a href="https://help.coinbase.com/en/coinbase/other-topics/legal-policies/what-does-coinbase-do-with-my-digital-assets" target="_blank" rel="noopener">une plateforme d’échange centralisée qui conserve vos cryptos pour vous</a> dans un portefeuille hébergé. Vous vous connectez avec un mot de passe et une vérification en deux étapes, et si vous oubliez vos identifiants, l’entreprise peut vous aider à retrouver l’accès.</p>
+      <p><strong>Le point fort :</strong> c’est simple, il existe un support et il n’y a pas de phrase de récupération à protéger. <strong>Le point faible :</strong> vous dépendez de l’entreprise. En novembre 2022, la plateforme FTX <a href="https://www.reuters.com/business/ftx-start-us-bankruptcy-proceedings-ceo-exit-2022-11-11/" target="_blank" rel="noopener">a déposé le bilan</a> et ses clients n’ont pas pu retirer leurs fonds. Le rapport annuel de Coinbase met lui-même en garde : en cas de faillite, les cryptos des clients pourraient être traitées comme des biens de l’entreprise et les clients comme des créanciers chirographaires, même si la société dit croire qu’un tribunal jugerait autrement. Nous l’expliquons dans notre <a href="/fr/articles/is-coinbase-safe-for-beginners">guide de sécurité de Coinbase</a>.</p>
+
+      <figure class="article-figure">
+        <img src="/assets/img/what-is-a-crypto-wallet-custodial-vs-self-custody/compare-custodial-vs-self.webp" width="1200" height="630" alt="Encadré comparatif : portefeuilles custodiaux, où une entreprise détient les clés, et portefeuilles en auto-conservation, où c’est vous" loading="lazy">
+        <figcaption>Source : Coinbase Help, Bitcoin.org, FINRA</figcaption>
+      </figure>
+
+      <h2>Portefeuilles en auto-conservation : vous détenez les clés</h2>
+      <p>Un portefeuille en auto-conservation place les clés privées entre vos mains. L’application de portefeuille distincte de Coinbase en est un exemple : Coinbase indique que les clés sont <a href="https://help.coinbase.com/en/wallet/getting-started/what-s-the-difference-between-coinbase-com-and-wallet" target="_blank" rel="noopener">stockées directement sur votre appareil</a> et qu’il n’est pas nécessaire d’avoir un compte Coinbase pour l’utiliser. L’application s’est brièvement appelée Base app avant de redevenir Coinbase Wallet en septembre 2026.</p>
+      <p>Quand vous configurez un portefeuille en auto-conservation, vous recevez une <strong>phrase de récupération</strong>, aussi appelée phrase mnémonique. La norme courante, BIP-39, crée une phrase de <a href="https://developer.bitcoin.org/devguide/wallets.html#storing-root-seeds" target="_blank" rel="noopener">12 à 24 mots</a> à partir de laquelle toutes les clés de votre portefeuille peuvent être reconstruites. Coinbase Wallet <a href="https://help.coinbase.com/en/wallet/managing-account/wallet-recovery-phrase" target="_blank" rel="noopener">génère une phrase de 12 mots</a> et indique que vous seul y avez accès. Si vous la perdez, vous perdez l’accès aux fonds, et Coinbase ne peut ni déplacer les fonds ni vous aider à les récupérer.</p>
+
+      <figure class="article-figure">
+        <img src="/assets/img/what-is-a-crypto-wallet-custodial-vs-self-custody/fact-12-words.webp" width="1200" height="630" alt="Encadré : la phrase de récupération de Coinbase Wallet compte 12 mots, et Coinbase ne peut pas la restaurer si vous la perdez" loading="lazy">
+        <figcaption>Source : Coinbase Help, BIP-39</figcaption>
+      </figure>
+
+      <aside class="mid-cta" aria-label="Lien d’affiliation">
+        <div class="mid-cta-label">Lien d’affiliation</div>
+        <h2>Débutant en crypto ? Commencez sur Coinbase</h2>
+        <p>Si Coinbase est disponible dans votre pays, vous pouvez ouvrir un compte ici. Tout bonus d’inscription dépend de votre pays et des conditions en vigueur chez Coinbase.</p>
+        <a class="cta-button" href="https://coinbase.com/join/F2XRWRL?src=referral-link" rel="sponsored noopener" target="_blank">Ouvrir Coinbase</a>
+      </aside>
+
+      <h2>Portefeuilles chauds et portefeuilles froids</h2>
+      <p>C’est une question distincte de la conservation. Un <strong>portefeuille chaud</strong> est connecté à internet, comme une application mobile ou une extension de navigateur. Un <strong>portefeuille froid</strong> garde les clés hors ligne. Le portefeuille matériel est l’option froide la plus courante. Bitcoin.org décrit les <a href="https://bitcoin.org/en/choose-your-wallet" target="_blank" rel="noopener">portefeuilles matériels</a> comme l’une des méthodes les plus sûres et adaptées aux montants plus importants, mais prévient que perdre l’appareil sans sauvegarde adéquate peut rendre les fonds irrécupérables. Les portefeuilles mobiles et de bureau sont plus pratiques, mais un téléphone perdu ou un logiciel malveillant peut mettre les fonds en danger.</p>
+      <h2>Custodial vs auto-conservation en un coup d’œil</h2>
+      <ul>
+        <li><strong>Qui détient les clés :</strong> un prestataire custodial les détient ; en auto-conservation, c’est vous.</li>
+        <li><strong>Si vous oubliez votre mot de passe :</strong> un prestataire custodial peut généralement aider ; l’auto-conservation n’a que votre phrase de récupération.</li>
+        <li><strong>Principaux risques :</strong> en custodial, la défaillance de l’entreprise, le piratage et la prise de contrôle de compte ; en auto-conservation, les phrases perdues, l’hameçonnage et les logiciels malveillants.</li>
+        <li><strong>Idéal pour :</strong> le custodial convient à la simplicité et aux petits montants ; l’auto-conservation convient à ceux qui acceptent d’assumer la responsabilité.</li>
+      </ul>
+      <h2>Lequel est préférable pour un débutant ?</h2>
+      <p>Il n’y a pas de réponse unique, et ceci n’est pas un conseil. Beaucoup de débutants commencent avec un compte custodial parce qu’il est simple et assorti d’un support, et gardent le montant modeste pendant qu’ils apprennent. À mesure que les soldes augmentent, certains transfèrent une partie de leurs avoirs en auto-conservation, avec un portefeuille matériel ou une application soigneusement sauvegardée. La question clé est : <em>quelle erreur pouvez-vous mieux éviter, faire confiance à une entreprise ou gérer vos propres clés ?</em></p>
+      <p>Si vous voulez commencer sur une plateforme d’échange et que Coinbase est disponible dans votre pays, vous pouvez <a href="https://coinbase.com/join/F2XRWRL?src=referral-link" rel="sponsored noopener" target="_blank">ouvrir un compte Coinbase</a> avec notre lien de parrainage et suivre notre <a href="/fr/articles/how-to-buy-first-bitcoin-coinbase">guide du premier achat</a>. Notre guide sur <a href="/fr/articles/how-much-bitcoin-should-a-beginner-buy-dca">combien acheter</a> peut vous aider à dimensionner votre achat.</p>
+      <h2>Arnaques de portefeuille à surveiller</h2>
+      <p>La FINRA avertit que des individus malveillants attirent les gens vers de <a href="https://www.finra.org/investors/investing/investment-products/crypto-assets/risks" target="_blank" rel="noopener">faux services crypto</a>, et que certains se font passer pour le support technique de vrais prestataires ou se lient d’amitié avec les victimes pour les pousser à déplacer leurs portefeuilles. Coinbase indique qu’elle ne vous demandera jamais votre phrase de récupération. La règle est simple : <strong>quiconque vous demande votre phrase de récupération est un voleur</strong>, et une fois les cryptos envoyées, elles sont généralement perdues.</p>
+
+      <h2>Comment débuter l’auto-conservation en sécurité</h2>
+      <p>Si vous décidez d’essayer, ces étapes suivent les bonnes pratiques courantes de sécurité, y compris les recommandations de Coinbase et de Bitcoin.org :</p>
+      <ol>
+        <li><strong>Installez le portefeuille depuis le site officiel ou la boutique d’applications.</strong> Vérifiez l’éditeur, car il existe de fausses applications de portefeuille.</li>
+        <li><strong>Écrivez la phrase de récupération sur papier.</strong> Coinbase déconseille les captures ou enregistrements d’écran et indique de ne jamais la coller sur un site web.</li>
+        <li><strong>Rangez la sauvegarde en lieu sûr.</strong> À l’abri du feu, de l’eau et des regards indiscrets, et envisagez une seconde copie dans un autre endroit.</li>
+        <li><strong>Testez d’abord avec un petit montant.</strong> Envoyez un peu, vérifiez que cela arrive, puis entraînez-vous à restaurer le portefeuille.</li>
+        <li><strong>Vérifiez chaque adresse deux fois.</strong> Les transactions crypto sont irréversibles : contrôlez l’adresse complète avant d’envoyer.</li>
+        <li><strong>Ne partagez jamais la phrase.</strong> Ni avec le support, ni avec des amis, ni avec personne.</li>
+      </ol>
+
+      <h2>Questions fréquentes</h2>
+      <h3>Qu’est-ce qu’un portefeuille crypto en termes simples ?</h3>
+      <p>C’est une application ou un appareil qui détient les clés privées permettant de dépenser vos cryptos. Les pièces vivent sur la blockchain. Celui qui contrôle les clés contrôle les pièces.</p>
+      <h3>Coinbase est-il un portefeuille ?</h3>
+      <p>Un compte Coinbase classique est custodial : Coinbase conserve vos cryptos pour vous. Coinbase Wallet est une application distincte en auto-conservation où vous détenez les clés, et vous n’avez pas besoin d’un compte Coinbase pour l’utiliser.</p>
+      <h3>Qu’est-ce qu’une phrase mnémonique ou phrase de récupération ?</h3>
+      <p>Une liste de 12 à 24 mots qui peut reconstruire toutes les clés d’un portefeuille en auto-conservation. Quiconque la possède peut prendre vos fonds, et si vous la perdez, personne ne peut la restaurer pour vous.</p>
+      <h3>Puis-je perdre mes bitcoins si je perds mon téléphone ?</h3>
+      <p>Avec un portefeuille en auto-conservation, pas si vous avez conservé votre phrase de récupération en sécurité, car vous pouvez restaurer le portefeuille sur un nouvel appareil. Sans la phrase, vous pourriez perdre l’accès. Avec un compte custodial, vous pouvez généralement récupérer votre accès auprès du prestataire.</p>
+      <h3>Un portefeuille matériel vaut-il le coup ?</h3>
+      <p>Bitcoin.org décrit les portefeuilles matériels comme l’une des options les plus sûres, surtout pour de plus gros montants, mais note aussi qu’ils sont moins pratiques en déplacement. Pour un petit solde de départ, beaucoup n’en ont pas encore besoin.</p>
+      <h3>Quelqu’un peut-il voler mes cryptos s’il connaît mon adresse ?</h3>
+      <p>Une adresse est faite pour être partagée afin qu’on puisse vous envoyer des cryptos. Le danger, c’est votre clé privée ou votre phrase de récupération. Ne les partagez jamais.</p>
+
+      <p class="soft-guide">Inquiet pour la sécurité de votre compte ? Consultez notre <a href="/fr/articles/is-coinbase-safe-for-beginners">liste de contrôle de sécurité de Coinbase</a>.</p>
+
+      <div class="cta">
+        <h2>Vous envisagez d’ouvrir un compte Coinbase ?</h2>
+        <p>Si vous décidez d’ouvrir un compte, vous pouvez utiliser notre lien de parrainage. Coinbase n’est pas disponible dans tous les pays, et tout bonus dépend de votre lieu de résidence et des conditions en vigueur chez Coinbase : vérifiez-les sur la page d’inscription avant de commencer.</p>
+        <a class="cta-button" href="https://coinbase.com/join/F2XRWRL?src=referral-link" rel="sponsored noopener" target="_blank">M’inscrire sur Coinbase avec ce lien</a>
+      </div>
+
+      <div class="disclosure">
+        <strong>Transparence :</strong> cette page contient un lien de parrainage. Si vous vous inscrivez via ce lien et effectuez un achat éligible, PlainBTC peut percevoir une récompense de Coinbase, sans frais supplémentaires pour vous, là où le programme de Coinbase s’applique dans votre pays. Consultez notre <a href="/fr/disclosure">déclaration d’affiliation complète</a>.<br><br>
+        <strong>Ceci n’est pas un conseil financier.</strong> Ce guide est uniquement pédagogique. Il ne constitue ni un conseil en investissement, ni un conseil de trading, juridique ou fiscal. Les cryptomonnaies sont volatiles et vous pouvez perdre de l’argent. Avant d’agir, vérifiez les étapes, les frais et les conditions d’éligibilité dans le centre d’aide de Coinbase, et envisagez un conseil professionnel adapté à votre situation.
+      </div>
+
+      <aside class="community-box" aria-label="Liens de la communauté">
+        <h2>Rejoindre la communauté</h2>
+        <p>Actus, questions de débutants et sondages—suivez PlainBTC sur Discord, Facebook et X.</p>
+        <div class="community-links"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+      </aside>
+
+      <aside class="related" aria-label="À lire aussi">
+        <h2>À lire aussi</h2>
+        <ul>
+          <li><a href="/fr/articles/is-coinbase-safe-for-beginners">Coinbase est-il sûr pour les débutants ? Ce qui est protégé, ce qui ne l’est pas et comment réduire vos risques</a></li>
+          <li><a href="/fr/articles/how-much-bitcoin-should-a-beginner-buy-dca">Combien de bitcoin un débutant devrait-il acheter ? Le guide simple de l’investissement progressif (DCA)</a></li>
+          <li><a href="/fr/articles/how-to-buy-first-bitcoin-coinbase">Comment acheter votre premier bitcoin sur Coinbase (guide du débutant aux États-Unis)</a></li>
+        </ul>
+      </aside>
+
+      <section class="sources" aria-label="Sources">
+        <h2>Sources</h2>
+        <ol>
+          <li><a href="https://developer.bitcoin.org/devguide/wallets.html" target="_blank" rel="noopener">Bitcoin Developer Guide — Wallets</a></li>
+          <li><a href="https://bitcoin.org/en/choose-your-wallet" target="_blank" rel="noopener">Bitcoin.org — Choose your wallet</a></li>
+          <li><a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki" target="_blank" rel="noopener">BIP-39 — Mnemonic code for generating deterministic keys</a></li>
+          <li><a href="https://help.coinbase.com/en/coinbase/other-topics/legal-policies/what-does-coinbase-do-with-my-digital-assets" target="_blank" rel="noopener">Coinbase Help — What does Coinbase do with my digital assets?</a></li>
+          <li><a href="https://help.coinbase.com/en/wallet/getting-started/what-s-the-difference-between-coinbase-com-and-wallet" target="_blank" rel="noopener">Coinbase Help — Your Coinbase account versus Coinbase Wallet</a></li>
+          <li><a href="https://help.coinbase.com/en/wallet/managing-account/wallet-recovery-phrase" target="_blank" rel="noopener">Coinbase Help — Coinbase wallet recovery phrase</a></li>
+          <li><a href="https://www.theblock.co/news/defi/2026-09-10-coinbase-rebrands-base-app-back-to-coinbase-wallet-after-just-over-a-year-as-social-experiment-falls-short-414115" target="_blank" rel="noopener">The Block — Coinbase rebrands Base App back to Coinbase Wallet</a> (10 septembre 2026)</li>
+          <li><a href="https://www.reuters.com/business/ftx-start-us-bankruptcy-proceedings-ceo-exit-2022-11-11/" target="_blank" rel="noopener">Reuters — Crypto exchange FTX files for bankruptcy</a> (11 novembre 2022)</li>
+          <li><a href="https://www.finra.org/investors/investing/investment-products/crypto-assets/risks" target="_blank" rel="noopener">FINRA — Crypto assets: risks</a></li>
+        </ol>
+        <p class="sources-note">Les titres des sources sont indiqués dans leur langue d’origine.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap inner">
+      <div>© 2026 PlainBTC · l’actualité du bitcoin et des cryptos en langage clair, pour les débutants</div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/fr/">Accueil</a>
+        <a href="/fr/about">À propos</a>
+        <a href="/fr/disclosure">Transparence</a>
+        <a href="/fr/feed.xml">RSS</a>
+      </nav>
+    </div>
+  <!-- i18n:footersocial -->
+  <div class="wrap footer-social" aria-label="Liens de la communauté"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+  <!-- /i18n:footersocial -->
+  <!-- i18n:footerlangs -->
+  <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="en" hreflang="en">English</a> <a href="/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="es" hreflang="es">Español</a> <a href="/pt/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="ko" hreflang="ko">한국어</a></nav></div>
+  <!-- /i18n:footerlangs -->
+  </footer>
+  <script src="/assets/site.js?v=20261109f" defer></script>
+</body>
+</html>

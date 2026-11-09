@@ -5,8 +5,29 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:50:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>暗号資産ウォレットとは？カストディアルとセルフカストディを初心者向けに解説</title>
+      <link>https://plainbtc.com/ja/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</guid>
+      <pubDate>Mon, 09 Nov 2026 19:50:00 GMT</pubDate>
+      <description>ウォレットが持っているのはコインではなく鍵です。カストディアルとセルフカストディの違い、リカバリーフレーズとは何か、安全な始め方を解説します。</description>
+    </item>
+    <item>
+      <title>初心者はビットコインをいくら買うべき？ドルコスト平均法をわかりやすく解説</title>
+      <link>https://plainbtc.com/ja/articles/how-much-bitcoin-should-a-beginner-buy-dca</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/how-much-bitcoin-should-a-beginner-buy-dca</guid>
+      <pubDate>Mon, 09 Nov 2026 19:48:00 GMT</pubDate>
+      <description>正しい金額を教えられる人はいませんが、金額を決める妥当な方法は選べます。ドルコスト平均法を解説し、実際の価格で検証し、定期購入の設定方法を紹介します。</description>
+    </item>
+    <item>
+      <title>Coinbaseは初心者にとって安全？ 守られるもの、守られないもの、リスクの下げ方</title>
+      <link>https://plainbtc.com/ja/articles/is-coinbase-safe-for-beginners</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/is-coinbase-safe-for-beginners</guid>
+      <pubDate>Mon, 09 Nov 2026 19:46:00 GMT</pubDate>
+      <description>Coinbaseの安全性をやさしくチェック。暗号資産の保管方法、保険の対象と対象外、2025年の情報流出とは何だったのか、アカウントを守るチェックリストを紹介します。</description>
+    </item>
     <item>
       <title>Coinbase、OCCから国法信託銀行の正式認可を取得——何が変わるのか</title>
       <link>https://plainbtc.com/ja/articles/coinbase-occ-national-trust-charter-nov-2026</link>

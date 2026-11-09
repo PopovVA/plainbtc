@@ -1,0 +1,107 @@
+title: Apa itu dompet kripto? Kustodian vs. self-custody, penjelasan untuk pemula
+page_title: Apa itu dompet kripto? Kustodian vs. self-custody
+description: Apa itu dompet kripto? Panduan sederhana tentang dompet kustodian dan self-custody, frasa pemulihan, penyimpanan panas dan dingin, serta cara memulai dengan aman.
+og_description: Kripto Anda hidup di blockchain; dompet menyimpan kuncinya. Perbedaan dompet kustodian dan self-custody, dan mana yang cocok untuk pemula.
+label: Panduan pemula
+summary: Dompet tidak menyimpan koin, melainkan kunci. Pelajari perbedaan dompet kustodian dan self-custody, apa itu frasa pemulihan, dan cara memulai dengan aman.
+===
+
+Jika Anda sudah membeli bitcoin, kemungkinan Anda diberi tahu bahwa Anda butuh “dompet” (wallet). Istilah ini membingungkan, karena dompet kripto tidak menyimpan koin seperti dompet kulit menyimpan uang tunai. Panduan ini menjelaskan apa sebenarnya dompet itu, perbedaan dompet <strong>kustodian</strong> dan <strong>self-custody</strong>, dan cara memilih pengaturan yang masuk akal sebagai pemula.
+
+!takeaways
+- Dompet kripto menyimpan kunci privat yang memungkinkan Anda membelanjakan koin. Koin itu sendiri berada di blockchain.
+- Pada dompet kustodian, seperti akun Coinbase, perusahaan memegang kunci untuk Anda dan dapat membantu jika Anda kehilangan kata sandi.
+- Pada dompet self-custody, Anda memegang kuncinya. Tidak ada yang bisa memulihkannya untuk Anda, sehingga frasa pemulihan yang hilang bisa berarti dana hilang.
+- Tidak ada pilihan yang bebas risiko. Banyak pemula memulai dengan kustodian dalam jumlah kecil dan mempertimbangkan self-custody seiring saldo bertambah.
+
+## Apa sebenarnya dompet kripto itu
+
+Dokumentasi pengembang Bitcoin menjelaskannya dengan sederhana: program dompet membuat kunci publik untuk menerima bitcoin dan memakai kunci privat yang cocok untuk membelanjakannya, dan [berkas dompet menyimpan kunci privat](L1). Anggap alamat publik sebagai nomor rekening yang bisa dibagikan, dan kunci privat sebagai kata sandi yang membuktikan dana itu milik Anda.
+
+Jadi ketika seseorang berkata “bitcoin saya ada di dompet saya”, maksudnya “dompet saya menyimpan kunci yang mengendalikan bitcoin saya”. Siapa yang memegang kunci privat mengendalikan koinnya. Satu gagasan itu menjelaskan seluruh perdebatan kustodian vs. self-custody.
+
+## Dompet kustodian: orang lain memegang kunci
+
+Saat Anda membeli kripto di bursa seperti Coinbase, kripto itu disimpan di platform. Coinbase menyebut dirinya [bursa terpusat yang menyimpan kripto Anda untuk Anda](L2) dalam dompet yang dihosting. Anda masuk dengan kata sandi dan verifikasi 2 langkah, dan jika lupa data login, perusahaan dapat membantu Anda masuk kembali.
+
+<strong>Kelebihannya:</strong> sederhana, ada dukungan, dan tidak ada frasa pemulihan yang harus dijaga. <strong>Kekurangannya:</strong> Anda bergantung pada perusahaan. Pada November 2022, bursa FTX [mengajukan kebangkrutan](L3) dan pelanggan tidak dapat menarik dana mereka. Laporan tahunan Coinbase sendiri memperingatkan bahwa dalam kebangkrutan, kripto pelanggan bisa diperlakukan sebagai milik perusahaan dan pelanggan sebagai kreditur tanpa jaminan, meskipun perusahaan menyatakan percaya pengadilan akan memutuskan sebaliknya. Kami menjelaskannya di [panduan keamanan Coinbase](/articles/is-coinbase-safe-for-beginners) kami.
+
+!figure:compare
+
+## Dompet self-custody: Anda memegang kunci
+
+Dompet self-custody menaruh kunci privat di tangan Anda. Aplikasi dompet terpisah dari Coinbase adalah contohnya: Coinbase menyatakan kunci [disimpan langsung di perangkat Anda](L4), dan Anda tidak memerlukan akun Coinbase untuk menggunakannya. Aplikasi ini sempat disebut Base app sebentar dan dinamai kembali menjadi Coinbase Wallet pada September 2026.
+
+Saat menyiapkan dompet self-custody, Anda menerima <strong>frasa pemulihan</strong>, disebut juga seed phrase. Standar umumnya, BIP-39, membuat frasa berisi [12 hingga 24 kata](L5) yang dapat dipakai untuk membangun ulang setiap kunci di dompet Anda. Coinbase Wallet [membuat frasa 12 kata](L6) dan menyatakan hanya Anda yang memiliki akses. Jika hilang, Anda kehilangan akses ke dana, dan Coinbase tidak dapat memindahkan dana atau membantu mengembalikannya.
+
+!figure:words
+
+!mid_cta
+
+## Dompet panas vs. dompet dingin
+
+Ini pertanyaan terpisah dari kustodi. <strong>Dompet panas</strong> terhubung ke internet, seperti aplikasi ponsel atau ekstensi browser. <strong>Dompet dingin</strong> menyimpan kunci secara offline. Dompet perangkat keras adalah opsi dingin yang paling umum. Bitcoin.org menggambarkan [dompet perangkat keras](L7) sebagai salah satu metode paling aman dan cocok untuk jumlah besar, tetapi memperingatkan bahwa kehilangan perangkat tanpa cadangan yang layak dapat membuat dana tidak bisa dipulihkan. Dompet seluler dan desktop lebih praktis, tetapi ponsel yang hilang atau malware dapat membahayakan dana.
+
+## Kustodian vs. self-custody sekilas
+
+- <strong>Siapa yang memegang kunci:</strong> penyedia kustodian memegangnya; pada self-custody, Anda.
+- <strong>Jika lupa kata sandi:</strong> penyedia kustodian biasanya dapat membantu; self-custody hanya punya frasa pemulihan Anda.
+- <strong>Risiko terbesar:</strong> kustodian berarti perusahaan gagal, peretasan, dan pengambilalihan akun; self-custody berarti frasa hilang, phishing, dan malware.
+- <strong>Paling cocok untuk:</strong> kustodian cocok untuk kesederhanaan dan jumlah kecil; self-custody cocok bagi yang siap menanggung tanggung jawab.
+
+## Mana yang lebih baik untuk pemula?
+
+Tidak ada satu jawaban yang benar, dan ini bukan nasihat. Banyak pemula memulai dengan akun kustodian karena sederhana dan ada dukungan, serta menjaga jumlahnya kecil selagi belajar. Seiring saldo bertambah, sebagian orang memindahkan sebagian aset ke self-custody, dengan dompet perangkat keras atau aplikasi yang dicadangkan dengan hati-hati. Pertanyaan kuncinya: <em>kesalahan mana yang lebih bisa Anda hindari, mempercayai perusahaan atau mengelola kunci sendiri?</em>
+
+Jika ingin memulai di bursa dan Coinbase tersedia di negara Anda, Anda bisa [membuka akun Coinbase](REF){{#ref}} lewat tautan referral kami{{/ref}} dan mengikuti [panduan pembelian pertama](/articles/how-to-buy-first-bitcoin-coinbase) kami. Panduan kami tentang [berapa banyak yang sebaiknya dibeli](/articles/how-much-bitcoin-should-a-beginner-buy-dca) dapat membantu menentukan jumlahnya.
+
+## Penipuan dompet yang perlu diwaspadai
+
+FINRA memperingatkan bahwa pelaku kejahatan memancing orang ke [layanan kripto palsu](L8), dan sebagian menyamar sebagai dukungan teknis penyedia asli atau berteman dengan korban lalu mendesak mereka memindahkan dompet. Coinbase menyatakan tidak akan pernah meminta frasa pemulihan Anda. Aturannya sederhana: <strong>siapa pun yang meminta frasa pemulihan Anda adalah pencuri</strong>, dan setelah kripto dikirim, umumnya tidak bisa kembali.
+
+!howto
+
+## Cara memulai self-custody dengan aman
+
+Jika Anda memutuskan mencobanya, langkah-langkah ini mengikuti praktik keamanan umum, termasuk panduan Coinbase dan Bitcoin.org:
+
+1. <strong>Pasang dompet dari situs resmi atau toko aplikasi.</strong> Periksa penerbitnya, karena ada aplikasi dompet palsu.
+2. <strong>Tulis frasa pemulihan di atas kertas.</strong> Coinbase menyarankan agar tidak membuat tangkapan layar atau rekaman layar, dan menyatakan jangan pernah menempelkannya ke situs web.
+3. <strong>Simpan cadangan di tempat aman.</strong> Jauh dari api, air, dan mata yang usil, dan pertimbangkan salinan kedua di tempat terpisah.
+4. <strong>Uji dulu dengan jumlah kecil.</strong> Kirim sedikit, pastikan sampai, lalu latih memulihkan dompet.
+5. <strong>Periksa ulang setiap alamat.</strong> Transaksi kripto tidak dapat dibatalkan, jadi verifikasi alamat lengkap sebelum mengirim.
+6. <strong>Jangan pernah membagikan frasa itu.</strong> Tidak kepada dukungan, teman, atau siapa pun.
+
+!faq
+
+## Pertanyaan umum
+
+### Apa itu dompet kripto dengan bahasa sederhana?
+
+Aplikasi atau perangkat yang menyimpan kunci privat yang memungkinkan Anda membelanjakan kripto. Koin berada di blockchain. Siapa yang mengendalikan kunci, mengendalikan koin.
+
+### Apakah Coinbase itu dompet?
+
+Akun Coinbase biasa bersifat kustodian: Coinbase menyimpan kripto Anda. Coinbase Wallet adalah aplikasi self-custody terpisah tempat Anda memegang kunci, dan Anda tidak memerlukan akun Coinbase untuk menggunakannya.
+
+### Apa itu seed phrase atau frasa pemulihan?
+
+Daftar 12 hingga 24 kata yang dapat membangun ulang semua kunci di dompet self-custody. Siapa pun yang memilikinya dapat mengambil dana Anda, dan jika Anda kehilangannya, tidak ada yang bisa memulihkannya untuk Anda.
+
+### Bisakah saya kehilangan bitcoin jika kehilangan ponsel?
+
+Dengan dompet self-custody, tidak jika Anda menyimpan frasa pemulihan dengan aman, karena Anda dapat memulihkan dompet di perangkat baru. Tanpa frasa itu, Anda bisa kehilangan akses. Dengan akun kustodian, biasanya Anda dapat memulihkan login lewat penyedia.
+
+### Apakah dompet perangkat keras layak dibeli?
+
+Bitcoin.org menggambarkan dompet perangkat keras sebagai salah satu opsi paling aman, terutama untuk jumlah besar, tetapi juga mencatat bahwa lebih sulit dipakai saat bepergian. Untuk saldo awal yang kecil, banyak orang belum membutuhkannya.
+
+### Bisakah seseorang mencuri kripto saya jika tahu alamat saya?
+
+Alamat memang dibuat untuk dibagikan agar orang bisa mengirim kripto kepada Anda. Bahayanya ada pada kunci privat atau frasa pemulihan Anda. Jangan pernah membagikannya.
+
+!soft: Khawatir soal keamanan akun? Lihat [daftar periksa keamanan Coinbase](/articles/is-coinbase-safe-for-beginners) kami.
+
+!end_cta
+
+!disclosure

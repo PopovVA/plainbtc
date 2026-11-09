@@ -1,0 +1,107 @@
+title: Kripto cüzdanı nedir? Emanetçi ve kendi saklama cüzdanı, yeni başlayanlar için anlatım
+page_title: Kripto cüzdanı nedir? Emanetçi ve kendi saklama cüzdanı
+description: Kripto cüzdanı nedir? Emanetçi ve kendi saklama cüzdanları, kurtarma ifadeleri, sıcak ve soğuk saklama ve güvenle başlama üzerine sade bir rehber.
+og_description: Kriptonuz bir blokzincirde yaşar; cüzdan anahtarları tutar. Emanetçi ve kendi saklama cüzdanları arasındaki fark ve hangisinin yeni başlayana uyduğu.
+label: Yeni başlayanlar için rehber
+summary: Cüzdan coin tutmaz, anahtar tutar. Emanetçi ve kendi saklama cüzdanları arasındaki farkı, kurtarma ifadesinin ne olduğunu ve güvenle nasıl başlayacağınızı öğrenin.
+===
+
+Bitcoin aldıysanız muhtemelen bir “cüzdana” ihtiyacınız olduğu söylenmiştir. Bu kelime kafa karıştırıcıdır, çünkü bir kripto cüzdanı, deri bir cüzdanın nakdi tuttuğu gibi coinleri tutmaz. Bu rehber, cüzdanın gerçekte ne olduğunu, <strong>emanetçi</strong> ve <strong>kendi saklama</strong> cüzdanları arasındaki farkı ve yeni başlayan biri olarak mantıklı bir düzenin nasıl seçileceğini açıklıyor.
+
+!takeaways
+- Kripto cüzdanı, coinlerinizi harcamanızı sağlayan özel anahtarları saklar. Coinlerin kendisi blokzincirde yaşar.
+- Coinbase hesabı gibi emanetçi bir cüzdanda anahtarları şirket sizin için tutar ve şifrenizi kaybederseniz yardımcı olabilir.
+- Kendi saklama cüzdanında anahtarları siz tutarsınız. Kimse bunları sizin için kurtaramaz; bu yüzden kaybolan bir kurtarma ifadesi kaybolan para anlamına gelebilir.
+- Hiçbir seçenek risksiz değildir. Birçok yeni başlayan küçük tutarlarla emanetçi olarak başlar ve bakiyesi büyüdükçe kendi saklamayı düşünür.
+
+## Kripto cüzdanı gerçekte nedir
+
+Bitcoin’in geliştirici belgeleri bunu basitçe anlatır: Cüzdan programları bitcoin almak için genel anahtarlar üretir ve harcamak için eşleşen özel anahtarları kullanır; ayrıca [cüzdan dosyaları özel anahtarları saklar](L1). Genel adresi paylaşabileceğiniz bir hesap numarası, özel anahtarı ise paranın sizin olduğunu kanıtlayan şifre gibi düşünün.
+
+Biri “bitcoinim cüzdanımda” dediğinde, aslında “cüzdanım bitcoinimi kontrol eden anahtarları tutuyor” demek istiyordur. Özel anahtarları tutan, coinleri kontrol eder. Emanetçi ve kendi saklama tartışmasının tamamını bu tek fikir açıklar.
+
+## Emanetçi cüzdanlar: anahtarları başkası tutar
+
+Coinbase gibi bir borsadan kripto satın aldığınızda, o platformda saklanır. Coinbase kendini, kriptonuzu sizin için barındırılan bir cüzdanda [tutan merkezî bir borsa](L2) olarak tanımlar. Şifre ve iki adımlı doğrulamayla giriş yaparsınız; giriş bilgilerinizi unutursanız şirket tekrar erişmenize yardımcı olabilir.
+
+<strong>Artısı:</strong> basittir, destek vardır ve korunacak bir kurtarma ifadesi yoktur. <strong>Eksisi:</strong> şirkete bağımlısınız. Kasım 2022’de FTX borsası [iflas başvurusunda bulundu](L3) ve müşteriler paralarını çekemedi. Coinbase’in kendi yıllık raporu, bir iflas durumunda müşteri kriptosunun şirketin mülkü, müşterilerin ise teminatsız alacaklı sayılabileceği konusunda uyarıyor; ancak şirket, bir mahkemenin aksi yönde karar vereceğine inandığını söylüyor. Bunu [Coinbase güvenlik rehberimizde](/articles/is-coinbase-safe-for-beginners) açıklıyoruz.
+
+!figure:compare
+
+## Kendi saklama cüzdanları: anahtarları siz tutarsınız
+
+Kendi saklama cüzdanı özel anahtarları sizin elinize verir. Coinbase’in ayrı cüzdan uygulaması bir örnektir: Coinbase, anahtarların [doğrudan cihazınızda saklandığını](L4) ve kullanmak için Coinbase hesabına gerek olmadığını söylüyor. Uygulama kısa süre Base app olarak adlandırıldı ve Eylül 2026’da yeniden Coinbase Wallet adını aldı.
+
+Kendi saklama cüzdanı kurduğunuzda bir <strong>kurtarma ifadesi</strong> alırsınız; buna tohum ifadesi (seed phrase) de denir. Yaygın standart BIP-39, cüzdanınızdaki her anahtarın yeniden oluşturulabileceği [12 ila 24 kelimelik](L5) bir ifade üretir. Coinbase Wallet [12 kelimelik bir ifade üretir](L6) ve buna yalnızca sizin erişebildiğinizi söyler. Kaybederseniz paraya erişimi kaybedersiniz; Coinbase parayı taşıyamaz ya da geri almanıza yardım edemez.
+
+!figure:words
+
+!mid_cta
+
+## Sıcak cüzdanlar ve soğuk cüzdanlar
+
+Bu, saklama sorusundan ayrı bir konudur. <strong>Sıcak cüzdan</strong> telefon uygulaması veya tarayıcı eklentisi gibi internete bağlıdır. <strong>Soğuk cüzdan</strong> anahtarları çevrimdışı tutar. Donanım cüzdanı en yaygın soğuk seçenektir. Bitcoin.org, [donanım cüzdanlarını](L7) en güvenli yöntemlerden biri ve büyük tutarlar için uygun olarak tanımlar; ancak cihazı uygun bir yedek olmadan kaybetmenin parayı kurtarılamaz hâle getirebileceği konusunda uyarır. Mobil ve masaüstü cüzdanlar daha pratiktir, ama kaybolan bir telefon ya da kötü amaçlı yazılım parayı riske atabilir.
+
+## Emanetçi ve kendi saklama bir bakışta
+
+- <strong>Anahtarları kim tutar:</strong> emanetçi sağlayıcı tutar; kendi saklamada siz tutarsınız.
+- <strong>Şifrenizi unutursanız:</strong> emanetçi sağlayıcı genellikle yardımcı olabilir; kendi saklamada yalnızca kurtarma ifadeniz vardır.
+- <strong>En büyük riskler:</strong> emanetçide şirketin batması, saldırılar ve hesap ele geçirme; kendi saklamada kaybolan ifadeler, kimlik avı ve kötü amaçlı yazılım.
+- <strong>En uygun olduğu kişi:</strong> emanetçi sadelik ve küçük tutarlara uyar; kendi saklama sorumluluk almaya hazır olanlara.
+
+## Yeni başlayan için hangisi daha iyi?
+
+Tek bir doğru cevap yoktur ve bu bir tavsiye değildir. Birçok yeni başlayan, basit ve destekli olduğu için emanetçi bir hesapla başlar ve öğrenirken tutarı küçük tutar. Bakiyeler büyüdükçe bazı kişiler varlıklarının bir kısmını donanım cüzdanı veya dikkatle yedeklenmiş bir uygulamayla kendi saklamaya taşır. Temel soru şu: <em>Hangi hatadan daha iyi kaçınabilirsiniz, bir şirkete güvenmekten mi, yoksa kendi anahtarlarınızı yönetmekten mi?</em>
+
+Bir borsada başlamak istiyorsanız ve Coinbase ülkenizde kullanılabiliyorsa [Coinbase hesabı açabilir](REF){{#ref}} (referans bağlantımızla){{/ref}} ve [ilk alım rehberimizi](/articles/how-to-buy-first-bitcoin-coinbase) izleyebilirsiniz. [Ne kadar alınacağı](/articles/how-much-bitcoin-should-a-beginner-buy-dca) hakkındaki rehberimiz tutarı belirlemenize yardımcı olabilir.
+
+## Dikkat edilmesi gereken cüzdan dolandırıcılıkları
+
+FINRA, kötü niyetli kişilerin insanları [sahte kripto hizmetlerine](L8) çektiği, bazılarının gerçek sağlayıcıların teknik desteği gibi davrandığı ya da mağdurlarla arkadaş olup cüzdanlarını taşımaya yönlendirdiği konusunda uyarıyor. Coinbase, kurtarma ifadenizi asla istemeyeceğini söylüyor. Kural basit: <strong>kurtarma ifadenizi isteyen herkes hırsızdır</strong> ve kripto bir kez gönderildi mi genellikle geri gelmez.
+
+!howto
+
+## Kendi saklamaya güvenle nasıl başlanır
+
+Denemeye karar verirseniz bu adımlar, Coinbase ve Bitcoin.org’un yönlendirmeleri de dahil yaygın güvenlik uygulamalarını izler:
+
+1. <strong>Cüzdanı resmî siteden veya uygulama mağazasından yükleyin.</strong> Yayıncıyı kontrol edin, çünkü sahte cüzdan uygulamaları var.
+2. <strong>Kurtarma ifadesini kâğıda yazın.</strong> Coinbase ekran görüntüsü veya ekran kaydı almamayı önerir ve bir web sitesine asla yapıştırmamanızı söyler.
+3. <strong>Yedeği güvenli bir yerde saklayın.</strong> Yangının, suyun ve meraklı gözlerin ulaşamayacağı bir yerde tutun ve ayrı bir yerde ikinci bir kopya düşünün.
+4. <strong>Önce küçük bir tutarla deneyin.</strong> Biraz gönderin, ulaştığını doğrulayın, sonra cüzdanı geri yüklemeyi deneyin.
+5. <strong>Her adresi iki kez kontrol edin.</strong> Kripto işlemleri geri alınamaz; göndermeden önce adresin tamamını doğrulayın.
+6. <strong>İfadeyi asla paylaşmayın.</strong> Ne destekle, ne arkadaşlarla, ne de kimseyle.
+
+!faq
+
+## Sık sorulan sorular
+
+### Kripto cüzdanı basitçe nedir?
+
+Kriptonuzu harcamanızı sağlayan özel anahtarları tutan bir uygulama veya cihazdır. Coinler blokzincirde yaşar. Anahtarları kontrol eden, coinleri kontrol eder.
+
+### Coinbase bir cüzdan mı?
+
+Normal bir Coinbase hesabı emanetçidir: Coinbase kriptonuzu sizin için saklar. Coinbase Wallet ise anahtarları sizin tuttuğunuz ayrı bir kendi saklama uygulamasıdır ve kullanmak için Coinbase hesabına gerek yoktur.
+
+### Tohum ifadesi ya da kurtarma ifadesi nedir?
+
+Kendi saklama cüzdanındaki tüm anahtarları yeniden oluşturabilen 12 ila 24 kelimelik bir listedir. Ona sahip olan paranızı alabilir; kaybederseniz kimse bunu sizin için geri getiremez.
+
+### Telefonumu kaybedersem bitcoin kaybeder miyim?
+
+Kendi saklama cüzdanında, kurtarma ifadenizi güvenle sakladıysanız hayır; çünkü cüzdanı yeni bir cihazda geri yükleyebilirsiniz. İfade olmadan erişimi kaybedebilirsiniz. Emanetçi bir hesapta genellikle sağlayıcı aracılığıyla girişinizi kurtarabilirsiniz.
+
+### Donanım cüzdanı buna değer mi?
+
+Bitcoin.org donanım cüzdanlarını özellikle büyük tutarlar için en güvenli seçeneklerden biri olarak tanımlar, ancak hareket hâlindeyken kullanmanın daha zor olduğunu da not eder. Küçük bir başlangıç bakiyesi için birçok kişinin henüz buna ihtiyacı yoktur.
+
+### Adresimi bilen biri kriptomu çalabilir mi?
+
+Adres, insanların size kripto gönderebilmesi için paylaşılmak üzere tasarlanmıştır. Tehlike, özel anahtarınız veya kurtarma ifadenizdir. Bunları asla paylaşmayın.
+
+!soft: Hesap güvenliği konusunda endişeli misiniz? [Coinbase güvenlik kontrol listemize](/articles/is-coinbase-safe-for-beginners) göz atın.
+
+!end_cta
+
+!disclosure

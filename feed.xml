@@ -5,8 +5,29 @@
     <link>https://plainbtc.com/</link>
     <description>Plain-English Bitcoin and crypto news for beginners</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:50:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>What is a crypto wallet? Custodial vs. self-custody, explained for beginners</title>
+      <link>https://plainbtc.com/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</guid>
+      <pubDate>Mon, 09 Nov 2026 19:50:00 GMT</pubDate>
+      <description>A wallet doesn’t hold coins, it holds keys. Learn the difference between custodial and self-custody wallets, what a recovery phrase is, and how to start safely.</description>
+    </item>
+    <item>
+      <title>How much Bitcoin should a beginner buy? A plain-English guide to dollar-cost averaging</title>
+      <link>https://plainbtc.com/articles/how-much-bitcoin-should-a-beginner-buy-dca</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/how-much-bitcoin-should-a-beginner-buy-dca</guid>
+      <pubDate>Mon, 09 Nov 2026 19:48:00 GMT</pubDate>
+      <description>No one can tell you the right amount, but you can pick a sensible way to decide. We explain dollar-cost averaging, test it on real price data, and show how to set up a recurring buy.</description>
+    </item>
+    <item>
+      <title>Is Coinbase safe for beginners? What’s protected, what isn’t, and how to lower your risk</title>
+      <link>https://plainbtc.com/articles/is-coinbase-safe-for-beginners</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/is-coinbase-safe-for-beginners</guid>
+      <pubDate>Mon, 09 Nov 2026 19:46:00 GMT</pubDate>
+      <description>A plain-English safety check of Coinbase: how it stores crypto, what is and isn’t insured, what the 2025 data breach was, and a checklist to protect your account.</description>
+    </item>
     <item>
       <title>Coinbase wins a full national trust charter from the OCC: what it means</title>
       <link>https://plainbtc.com/articles/coinbase-occ-national-trust-charter-nov-2026</link>

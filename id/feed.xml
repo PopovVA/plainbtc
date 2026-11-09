@@ -5,8 +5,29 @@
     <link>https://plainbtc.com/id/</link>
     <description>Berita Bitcoin dan kripto dengan bahasa sederhana untuk pemula</description>
     <language>id</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:50:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/id/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Apa itu dompet kripto? Kustodian vs. self-custody, penjelasan untuk pemula</title>
+      <link>https://plainbtc.com/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</guid>
+      <pubDate>Mon, 09 Nov 2026 19:50:00 GMT</pubDate>
+      <description>Dompet tidak menyimpan koin, melainkan kunci. Pelajari perbedaan dompet kustodian dan self-custody, apa itu frasa pemulihan, dan cara memulai dengan aman.</description>
+    </item>
+    <item>
+      <title>Berapa banyak Bitcoin yang sebaiknya dibeli pemula? Panduan sederhana dollar-cost averaging (DCA)</title>
+      <link>https://plainbtc.com/id/articles/how-much-bitcoin-should-a-beginner-buy-dca</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/how-much-bitcoin-should-a-beginner-buy-dca</guid>
+      <pubDate>Mon, 09 Nov 2026 19:48:00 GMT</pubDate>
+      <description>Tidak ada yang bisa menyebut jumlah yang tepat, tetapi Anda bisa memilih cara yang masuk akal untuk menentukannya. Kami menjelaskan dollar-cost averaging (DCA), mengujinya pada harga nyata, dan menunjukkan cara mengatur pembelian berulang.</description>
+    </item>
+    <item>
+      <title>Apakah Coinbase aman untuk pemula? Apa yang dilindungi, apa yang tidak, dan cara menurunkan risiko</title>
+      <link>https://plainbtc.com/id/articles/is-coinbase-safe-for-beginners</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/is-coinbase-safe-for-beginners</guid>
+      <pubDate>Mon, 09 Nov 2026 19:46:00 GMT</pubDate>
+      <description>Pemeriksaan keamanan Coinbase yang mudah dipahami: cara menyimpan kripto, apa yang diasuransikan dan tidak, apa itu kebocoran data 2025, dan daftar periksa untuk melindungi akun Anda.</description>
+    </item>
     <item>
       <title>Coinbase raih piagam penuh bank trust nasional dari OCC: apa artinya</title>
       <link>https://plainbtc.com/id/articles/coinbase-occ-national-trust-charter-nov-2026</link>

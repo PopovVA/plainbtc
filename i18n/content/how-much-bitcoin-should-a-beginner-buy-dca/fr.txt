@@ -1,0 +1,123 @@
+title: Combien de bitcoin un débutant devrait-il acheter ? Le guide simple de l’investissement progressif (DCA)
+page_title: Combien de bitcoin un débutant devrait-il acheter ? Le DCA expliqué
+description: Combien de bitcoin un débutant devrait-il acheter ? Découvrez le DCA avec des données de prix réelles, ses avantages et limites, et comment programmer un achat récurrent sur Coinbase.
+og_description: Il n’existe pas de montant idéal unique. Comment y réfléchir, ce que le DCA fait et ne fait pas, et comment commencer petit.
+label: Guide du débutant
+summary: Personne ne peut vous donner le bon montant, mais vous pouvez choisir une méthode raisonnable pour le décider. Nous expliquons le DCA, le testons sur des prix réels et montrons comment programmer un achat récurrent.
+===
+
+« Combien de bitcoin dois-je acheter ? » est la question que se pose presque tout débutant, et la réponse honnête est que personne ne peut vous donner un chiffre sans connaître vos finances. Ce que nous pouvons faire, c’est vous montrer comment réfléchir au montant, expliquer une approche répandue appelée investissement progressif (DCA, pour dollar-cost averaging) et la tester sur l’historique réel des prix. Il s’agit d’information, pas de conseil.
+
+!takeaways
+- Il n’existe pas de montant « juste » officiel. Les régulateurs disent de ne jamais investir plus que ce que vous pouvez vous permettre de perdre.
+- Le bitcoin a chuté de plus de 50 % depuis un sommet à deux reprises depuis 2021 : dimensionnez vos achats pour les mauvais jours, pas pour les bons.
+- Le DCA consiste à investir des montants égaux selon un calendrier. Il réduit le risque de mauvais timing, mais n’évite pas les pertes et ne garantit pas de meilleurs rendements qu’un achat en une seule fois.
+- Un petit achat régulier est un moyen simple d’apprendre l’application et les variations de prix avant de s’engager davantage.
+
+## La réponse honnête : il n’y a pas de chiffre magique
+
+La FINRA, l’organisme d’autorégulation du secteur des valeurs mobilières, indique que les cryptoactifs sont [souvent extrêmement volatils](L1), que le risque de perdre la totalité de votre investissement est important et que vous ne devez jamais investir plus que ce que vous pouvez vous permettre de perdre. C’est la seule « règle » réellement fondée. Tout le reste relève du choix personnel.
+
+Avant d’acheter, beaucoup de gens vérifient d’abord qu’ils disposent d’un fonds d’urgence, qu’ils n’ont pas de dettes coûteuses et qu’ils n’utilisent pas de l’argent dont ils auront bientôt besoin pour le loyer ou les factures. Ce sont des conseils financiers courants, non des règles propres aux cryptos, mais ils comptent davantage quand l’actif peut varier autant.
+
+## Pourquoi les variations du bitcoin comptent pour votre montant
+
+Le graphique ci-dessous utilise les cours de clôture quotidiens issus des données publiques de la plateforme d’échange de Coinbase. Le cours de clôture du bitcoin a chuté d’environ 77 % entre le 8 novembre 2021 et le 21 novembre 2022. Plus récemment, il a reculé d’environ 53 % entre sa clôture du 6 octobre 2025 et le 30 juin 2026. Notre couverture récente montre [à quel point un seul week-end peut être violent](/articles/bitcoin-volatility-liquidations-nov-2026).
+
+!figure:chart
+
+Les mouvements passés ne prédisent pas les suivants, mais ils montrent ce qui est possible. Un bon test : si le montant que vous achetez perdait la moitié de sa valeur, pourriez-vous n’y pas toucher ? Sinon, envisagez un montant plus petit.
+
+## Trois façons simples de choisir un montant
+
+Il n’existe pas de formule officielle, mais les débutants utilisent souvent l’une de celles-ci :
+
+- <strong>Une somme fixe en dollars qui ne vous manquera pas.</strong> Par exemple, un montant assez petit pour qu’une chute de 50 % soit agaçante plutôt que dommageable.
+- <strong>Une petite part de l’argent que vous investissez.</strong> Certains plafonnent les cryptos à une part modeste de leurs placements. Il n’y a pas de pourcentage standard, et la FINRA insiste sur la diversification.
+- <strong>Un achat « d’apprentissage ».</strong> Un tout premier achat minime pour comprendre les ordres, les frais et les envois. Notre [guide du premier achat](/articles/how-to-buy-first-bitcoin-coinbase) détaille les étapes.
+
+Vous pouvez aussi acheter une fraction de bitcoin : inutile d’en payer un entier.
+
+## Ce que signifie le DCA
+
+Investor.gov, le site d’éducation des investisseurs de la SEC, définit l’[investissement progressif (dollar-cost averaging)](L2) comme le fait d’investir son argent en parts égales, à intervalles réguliers, quels que soient les hauts et les bas du marché. Vous achetez davantage quand le prix est bas et moins quand il est élevé.
+
+Par exemple, au lieu d’acheter 520 $ de bitcoin aujourd’hui, vous pourriez acheter 10 $ chaque semaine pendant un an. Votre coût moyen se situera entre les plus hauts et les plus bas auxquels vous avez acheté, et vous n’avez jamais à deviner le « bon » jour.
+
+## Est-ce que ça marche vraiment ? Un test sur des prix réels
+
+Nous avons réalisé un simple test rétrospectif avec les cours de clôture quotidiens de Coinbase. Il suppose des achats de 50 $ de bitcoin chaque semaine, comparés à un investissement du même total en une seule fois le premier jour. Les valeurs sont celles de la clôture du 8 novembre 2026. Il ignore les frais et les impôts et ne sert que d’illustration.
+
+!figure:fact
+
+!mid_cta
+
+Les résultats sont mitigés, et c’est tout l’intérêt :
+
+- <strong>12 derniers mois (53 achats hebdomadaires, 2650 $ au total).</strong> Le prix a surtout baissé : l’acheteur hebdomadaire termine avec environ 2633 $ contre environ 1892 $ pour l’investissement en une fois.
+- <strong>24 derniers mois (105 achats, 5250 $).</strong> Environ 4562 $ avec des achats hebdomadaires contre environ 5126 $ en une fois.
+- <strong>36 derniers mois (157 achats, 7850 $).</strong> Le prix a beaucoup monté au début : l’investissement unique, avec environ 15 823 $, devance les achats hebdomadaires, avec environ 8069 $.
+
+Sur 12 mois, le DCA a amorti une forte baisse. Sur 36 mois, il a pris du retard face à une forte hausse. La FINRA le dit en termes généraux : étaler ses investissements réduit le risque mais [produit souvent des rendements plus faibles qu’un investissement en une seule fois](L3).
+
+## Avantages et limites du DCA
+
+- <strong>Avantages :</strong> supprime la pression de chronométrer le marché, installe une habitude, garde chaque achat petit et peut réduire les regrets et les décisions de panique.
+- <strong>Limites :</strong> l’argent qui attend peut manquer des hausses, davantage d’opérations peuvent signifier plus de frais, et il ne garantit aucun gain ni ne protège des pertes.
+
+!howto
+
+## Comment programmer un achat récurrent sur Coinbase
+
+Coinbase permet de [programmer des achats récurrents](L4) chaque semaine, le 1er et le 15 du mois, ou chaque mois. Tous les moyens de paiement ne sont pas éligibles : vérifiez dans l’application. Voici les étapes :
+
+1. <strong>Ouvrez Buy & sell</strong> dans l’application Coinbase, ou le panneau Buy / Sell sur le web.
+2. <strong>Choisissez Bitcoin</strong> comme actif.
+3. <strong>Changez le type d’ordre</strong> de Quick Buy à Recurring buy et choisissez une fréquence.
+4. <strong>Saisissez le montant</strong> à acheter à chaque fois.
+5. <strong>Sélectionnez un moyen de paiement éligible.</strong> Vous pouvez aussi utiliser un solde en espèces.
+6. <strong>Touchez Preview buy,</strong> lisez les frais, puis confirmez avec Buy now.
+
+Deux choses à savoir. Le premier achat s’exécute immédiatement lorsque vous définissez le calendrier. Et vous ne pouvez pas modifier le montant ni la fréquence ensuite : vous annulez le plan et en créez un nouveau. Si vous n’avez pas encore de compte et que Coinbase est disponible dans votre pays, vous pouvez [ouvrir un compte Coinbase](REF){{#ref}} avec notre lien de parrainage{{/ref}}. Consultez d’abord [si Coinbase est sûr](/articles/is-coinbase-safe-for-beginners) si vous voulez évaluer le risque.
+
+## Règles simples pour les débutants
+
+- Commencez petit et n’augmentez que si vous êtes à l’aise.
+- Utilisez de l’argent que vous pourriez laisser de côté pendant des années.
+- Vérifiez les frais sur l’écran d’aperçu avant chaque achat : de petits achats récurrents peuvent s’additionner.
+- Ignorez l’effet de mode sur les réseaux sociaux et la peur de rater le coche.
+- Conservez vos justificatifs. L’IRS traite les actifs numériques comme des biens, et [les vendre ou les échanger peut créer des gains ou des pertes imposables](L5).
+
+!faq
+
+## Questions fréquentes
+
+### Combien de bitcoin acheter avec 100 $ ?
+
+Personne ne peut le dire. Vous pouvez acheter une fraction de bitcoin, donc 100 $ achètent une petite part. Demandez-vous si vous seriez à l’aise s’il perdait la moitié de sa valeur et lisez les frais sur l’écran d’aperçu avant de confirmer.
+
+### Le DCA est-il meilleur qu’un achat en une seule fois ?
+
+Pas toujours. Le DCA réduit le risque de mauvais timing, mais produit souvent des rendements plus faibles qu’un investissement unique quand les prix montent. Dans notre test rétrospectif, il a fait mieux sur 12 mois et moins bien sur 36.
+
+### À quelle fréquence acheter du bitcoin en DCA ?
+
+Coinbase propose des calendriers hebdomadaires, bimensuels (le 1er et le 15) et mensuels. Choisissez la fréquence qui correspond à vos revenus et gardez en tête que chaque achat peut entraîner des frais.
+
+### Quel est le minimum pour acheter du bitcoin sur Coinbase ?
+
+Les minimums varient selon l’actif et le moyen de paiement, et Coinbase vous prévient dans l’application si vous êtes en dessous. Vous pouvez acheter des fractions de bitcoin.
+
+### Puis-je perdre tout mon argent en achetant du bitcoin ?
+
+La FINRA indique que le risque de perdre la totalité de votre investissement en cryptos est important. C’est pourquoi le conseil habituel est de ne jamais investir plus que ce que vous pouvez vous permettre de perdre.
+
+### Dois-je payer des impôts sur le bitcoin ?
+
+Possiblement. Sur le plan fiscal, l’IRS traite les actifs numériques comme des biens ; les vendre ou les échanger peut donc produire une plus-value ou une moins-value. Envisagez de demander conseil à un professionnel de la fiscalité.
+
+!soft: Vous ne savez pas où conserver ce que vous achetez ? Lisez notre [guide des portefeuilles custodiaux et en auto-conservation](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

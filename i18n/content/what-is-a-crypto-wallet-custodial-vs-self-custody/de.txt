@@ -1,0 +1,107 @@
+title: Was ist eine Krypto-Wallet? Custodial vs. Self-Custody, für Einsteiger erklärt
+page_title: Was ist eine Krypto-Wallet? Custodial vs. Self-Custody
+description: Was ist eine Krypto-Wallet? Verständlicher Guide zu Custodial- und Self-Custody-Wallets, Wiederherstellungsphrasen, Hot und Cold Storage und zum sicheren Einstieg.
+og_description: Ihre Krypto liegt auf einer Blockchain; die Wallet hält die Schlüssel. Der Unterschied zwischen Custodial- und Self-Custody-Wallets und welche zu Einsteigern passt.
+label: Einsteigerguide
+summary: Eine Wallet enthält keine Coins, sondern Schlüssel. Lernen Sie den Unterschied zwischen Custodial- und Self-Custody-Wallets kennen, was eine Wiederherstellungsphrase ist und wie Sie sicher starten.
+===
+
+Wenn Sie Bitcoin gekauft haben, hat man Ihnen wahrscheinlich gesagt, dass Sie eine „Wallet“ brauchen. Das Wort verwirrt, denn eine Krypto-Wallet enthält keine Coins so, wie ein Portemonnaie Bargeld enthält. Dieser Guide erklärt, was eine Wallet wirklich ist, den Unterschied zwischen <strong>Custodial</strong>- und <strong>Self-Custody</strong>-Wallets und wie Sie als Einsteiger eine sinnvolle Lösung wählen.
+
+!takeaways
+- Eine Krypto-Wallet speichert die privaten Schlüssel, mit denen Sie Ihre Coins ausgeben können. Die Coins selbst liegen auf der Blockchain.
+- Bei einer Custodial-Wallet, etwa einem Coinbase-Konto, hält das Unternehmen die Schlüssel für Sie und kann helfen, wenn Sie Ihr Passwort verlieren.
+- Bei einer Self-Custody-Wallet halten Sie die Schlüssel selbst. Niemand kann sie für Sie wiederherstellen, daher kann eine verlorene Wiederherstellungsphrase verlorenes Guthaben bedeuten.
+- Keine Option ist risikofrei. Viele Einsteiger beginnen mit Custodial und kleinen Beträgen und erwägen Self-Custody, wenn ihr Guthaben wächst.
+
+## Was eine Krypto-Wallet wirklich ist
+
+Die Entwicklerdokumentation von Bitcoin fasst es einfach zusammen: Wallet-Programme erzeugen öffentliche Schlüssel zum Empfangen von Bitcoin und nutzen die passenden privaten Schlüssel zum Ausgeben, und [Wallet-Dateien speichern private Schlüssel](L1). Stellen Sie sich die öffentliche Adresse als Kontonummer vor, die Sie weitergeben können, und den privaten Schlüssel als das Passwort, das beweist, dass das Guthaben Ihnen gehört.
+
+Wenn jemand sagt „mein Bitcoin ist in meiner Wallet“, meint er also „meine Wallet hält die Schlüssel, die meinen Bitcoin kontrollieren“. Wer die privaten Schlüssel hält, kontrolliert die Coins. Diese eine Idee erklärt die ganze Debatte zwischen Custodial und Self-Custody.
+
+## Custodial-Wallets: Jemand anderes hält die Schlüssel
+
+Wenn Sie Krypto an einer Börse wie Coinbase kaufen, wird sie auf der Plattform gespeichert. Coinbase beschreibt sich als [zentralisierte Börse, die Ihre Krypto für Sie verwahrt](L2), in einer gehosteten Wallet. Sie melden sich mit Passwort und Zwei-Schritt-Verifizierung an, und wenn Sie Ihre Zugangsdaten vergessen, kann das Unternehmen Ihnen beim Zugang helfen.
+
+<strong>Der Vorteil:</strong> Es ist einfach, es gibt Support, und es gibt keine Wiederherstellungsphrase zu hüten. <strong>Der Nachteil:</strong> Sie sind vom Unternehmen abhängig. Im November 2022 [meldete die Börse FTX Insolvenz an](L3), und Kunden konnten ihr Guthaben nicht abheben. Coinbases eigener Jahresbericht warnt, dass im Insolvenzfall die Krypto der Kunden als Eigentum des Unternehmens behandelt werden könnte und die Kunden als ungesicherte Gläubiger, obwohl das Unternehmen sagt, es glaube, ein Gericht würde anders entscheiden. Das erklären wir in unserem [Coinbase-Sicherheitsguide](/articles/is-coinbase-safe-for-beginners).
+
+!figure:compare
+
+## Self-Custody-Wallets: Sie halten die Schlüssel
+
+Eine Self-Custody-Wallet legt die privaten Schlüssel in Ihre Hände. Coinbases separate Wallet-App ist ein Beispiel: Coinbase sagt, die Schlüssel seien [direkt auf Ihrem Gerät gespeichert](L4), und Sie brauchen kein Coinbase-Konto, um sie zu nutzen. Die App hieß kurzzeitig Base app und wurde im September 2026 wieder in Coinbase Wallet umbenannt.
+
+Beim Einrichten einer Self-Custody-Wallet erhalten Sie eine <strong>Wiederherstellungsphrase</strong>, auch Seed-Phrase genannt. Der gängige Standard BIP-39 erzeugt eine Phrase aus [12 bis 24 Wörtern](L5), aus der sich jeder Schlüssel Ihrer Wallet neu aufbauen lässt. Coinbase Wallet [erzeugt eine 12-Wörter-Phrase](L6) und sagt, nur Sie hätten Zugriff darauf. Verlieren Sie sie, verlieren Sie den Zugriff auf das Guthaben, und Coinbase kann weder Guthaben bewegen noch helfen, es zurückzubekommen.
+
+!figure:words
+
+!mid_cta
+
+## Hot Wallets vs. Cold Wallets
+
+Das ist eine andere Frage als die der Verwahrung. Eine <strong>Hot Wallet</strong> ist mit dem Internet verbunden, etwa eine Handy-App oder eine Browser-Erweiterung. Eine <strong>Cold Wallet</strong> hält die Schlüssel offline. Die Hardware-Wallet ist die häufigste Cold-Variante. Bitcoin.org beschreibt [Hardware-Wallets](L7) als eine der sichersten Methoden, gut geeignet für größere Beträge, warnt aber, dass der Verlust des Geräts ohne ordentliche Sicherung das Guthaben unwiederbringlich machen kann. Mobile und Desktop-Wallets sind praktischer, aber ein verlorenes Handy oder Schadsoftware kann das Guthaben gefährden.
+
+## Custodial vs. Self-Custody auf einen Blick
+
+- <strong>Wer die Schlüssel hält:</strong> Ein Custodial-Anbieter hält sie; bei Self-Custody Sie.
+- <strong>Wenn Sie Ihr Passwort vergessen:</strong> Ein Custodial-Anbieter kann in der Regel helfen; bei Self-Custody gibt es nur Ihre Wiederherstellungsphrase.
+- <strong>Größte Risiken:</strong> Bei Custodial sind es Firmenausfall, Hacks und Kontoübernahmen; bei Self-Custody verlorene Phrasen, Phishing und Schadsoftware.
+- <strong>Am besten für:</strong> Custodial passt zu Einfachheit und kleinen Beträgen; Self-Custody zu Menschen, die Verantwortung übernehmen wollen.
+
+## Was ist für Einsteiger besser?
+
+Es gibt keine einzig richtige Antwort, und das ist keine Beratung. Viele Einsteiger beginnen mit einem Custodial-Konto, weil es einfach ist und Support bietet, und halten den Betrag beim Lernen klein. Wächst das Guthaben, verlagern manche einen Teil ihrer Bestände in Self-Custody, mit einer Hardware-Wallet oder einer sorgfältig gesicherten App. Die Schlüsselfrage lautet: <em>Welchen Fehler können Sie besser vermeiden: einem Unternehmen zu vertrauen oder Ihre eigenen Schlüssel zu verwalten?</em>
+
+Wenn Sie an einer Börse starten möchten und Coinbase in Ihrem Land verfügbar ist, können Sie [ein Coinbase-Konto eröffnen](REF){{#ref}} über unseren Empfehlungslink{{/ref}} und unserer [Anleitung zum ersten Kauf](/articles/how-to-buy-first-bitcoin-coinbase) folgen. Unser Guide dazu, [wie viel man kaufen sollte](/articles/how-much-bitcoin-should-a-beginner-buy-dca), hilft bei der Bemessung.
+
+## Wallet-Betrug, auf den Sie achten sollten
+
+Die FINRA warnt, dass Betrüger Menschen zu [gefälschten Krypto-Diensten](L8) locken, manche geben sich als technischer Support echter Anbieter aus oder freunden sich mit Opfern an und drängen sie, ihre Wallets zu verschieben. Coinbase sagt, nie nach Ihrer Wiederherstellungsphrase zu fragen. Die Regel ist einfach: <strong>Wer nach Ihrer Wiederherstellungsphrase fragt, ist ein Dieb</strong>, und einmal gesendete Krypto ist in der Regel weg.
+
+!howto
+
+## So starten Sie sicher mit Self-Custody
+
+Wenn Sie es ausprobieren möchten, folgen diese Schritte gängiger Sicherheitspraxis, einschließlich der Hinweise von Coinbase und Bitcoin.org:
+
+1. <strong>Installieren Sie die Wallet von der offiziellen Website oder aus dem App-Store.</strong> Prüfen Sie den Herausgeber, denn es gibt gefälschte Wallet-Apps.
+2. <strong>Schreiben Sie die Wiederherstellungsphrase auf Papier.</strong> Coinbase rät von Screenshots oder Bildschirmaufnahmen ab und sagt, sie nie auf einer Website einzufügen.
+3. <strong>Bewahren Sie die Sicherung sicher auf.</strong> Dort, wo Feuer, Wasser und neugierige Blicke nicht hinkommen, und erwägen Sie eine zweite Kopie an einem anderen Ort.
+4. <strong>Testen Sie zuerst mit einem kleinen Betrag.</strong> Senden Sie etwas, prüfen Sie den Eingang und üben Sie dann die Wiederherstellung der Wallet.
+5. <strong>Prüfen Sie jede Adresse doppelt.</strong> Krypto-Transaktionen sind unumkehrbar, kontrollieren Sie daher die vollständige Adresse vor dem Senden.
+6. <strong>Geben Sie die Phrase nie weiter.</strong> Nicht an den Support, nicht an Freunde, an niemanden.
+
+!faq
+
+## Häufige Fragen
+
+### Was ist eine Krypto-Wallet einfach erklärt?
+
+Eine App oder ein Gerät, das die privaten Schlüssel hält, mit denen Sie Ihre Krypto ausgeben können. Die Coins liegen auf der Blockchain. Wer die Schlüssel kontrolliert, kontrolliert die Coins.
+
+### Ist Coinbase eine Wallet?
+
+Ein normales Coinbase-Konto ist Custodial: Coinbase verwahrt Ihre Krypto für Sie. Coinbase Wallet ist eine separate Self-Custody-App, in der Sie die Schlüssel halten, und Sie brauchen kein Coinbase-Konto, um sie zu nutzen.
+
+### Was ist eine Seed-Phrase oder Wiederherstellungsphrase?
+
+Eine Liste von 12 bis 24 Wörtern, die alle Schlüssel einer Self-Custody-Wallet neu aufbauen kann. Wer sie hat, kann Ihr Guthaben nehmen, und wenn Sie sie verlieren, kann sie niemand für Sie wiederherstellen.
+
+### Kann ich Bitcoin verlieren, wenn ich mein Handy verliere?
+
+Mit einer Self-Custody-Wallet nicht, wenn Sie Ihre Wiederherstellungsphrase sicher aufbewahrt haben, denn Sie können die Wallet auf einem neuen Gerät wiederherstellen. Ohne die Phrase verlieren Sie womöglich den Zugriff. Bei einem Custodial-Konto können Sie Ihren Zugang meist über den Anbieter zurückholen.
+
+### Lohnt sich eine Hardware-Wallet?
+
+Bitcoin.org beschreibt Hardware-Wallets als eine der sichersten Optionen, besonders für größere Beträge, merkt aber auch an, dass sie unterwegs schwerer zu nutzen sind. Für ein kleines Startguthaben brauchen viele noch keine.
+
+### Kann jemand meine Krypto stehlen, wenn er meine Adresse kennt?
+
+Eine Adresse ist dafür gedacht, geteilt zu werden, damit man Ihnen Krypto senden kann. Gefährlich sind Ihr privater Schlüssel oder Ihre Wiederherstellungsphrase. Geben Sie diese nie weiter.
+
+!soft: Sorgen um die Kontosicherheit? Sehen Sie sich unsere [Coinbase-Sicherheits-Checkliste](/articles/is-coinbase-safe-for-beginners) an.
+
+!end_cta
+
+!disclosure

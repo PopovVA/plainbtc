@@ -1,0 +1,25 @@
+{
+ "slug": "is-coinbase-safe-for-beginners",
+ "date": "2026-11-09",
+ "readtime": 8,
+ "related": [
+  "how-to-buy-first-bitcoin-coinbase",
+  "coinbase-occ-national-trust-charter-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {"url": "https://help.coinbase.com/en/coinbase/other-topics/legal-policies/how-is-coinbase-insured", "title": "Coinbase Help — How is Coinbase insured?", "date": ""},
+  {"url": "https://www.coinbase.com/legal/insurance", "title": "Coinbase — Insurance", "date": ""},
+  {"url": "https://help.coinbase.com/en/coinbase/other-topics/other/client-cash", "title": "Coinbase Help — How is U.S. Dollar cash stored at Coinbase?", "date": ""},
+  {"url": "https://www.fdic.gov/financial-institution-employees-guide-deposit-insurance/pass-through-deposit-insurance-coverage", "title": "FDIC — Pass-through deposit insurance coverage", "date": ""},
+  {"url": "https://www.coinbase.com/blog/how-coinbase-protects-customer-assets", "title": "Coinbase blog — How Coinbase protects customer assets", "date": ""},
+  {"url": "https://help.coinbase.com/en/coinbase/getting-started/getting-started-with-coinbase/2-step-verification", "title": "Coinbase Help — Set up your 2-step verification", "date": ""},
+  {"url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000094/coin-20250514.htm", "title": "SEC — Coinbase Form 8-K (material cybersecurity incident)", "date": "May 14, 2025"},
+  {"url": "https://www.coinbase.com/blog/protecting-our-customers-standing-up-to-extortionists", "title": "Coinbase blog — Protecting our customers: standing up to extortionists", "date": "May 2025"},
+  {"url": "https://materials.proxyvote.com/Approved/19260Q/20250421/FO10K_606365/46.html", "title": "Coinbase annual report (Form 10-K) — risk factors on custody and bankruptcy", "date": ""},
+  {"url": "https://help.coinbase.com/en/coinbase/privacy-and-security/avoid-scams/tech-support-scams", "title": "Coinbase Help — Technical support and impersonation scams", "date": ""},
+  {"url": "https://www.finra.org/investors/investing/investment-products/crypto-assets/risks", "title": "FINRA — Crypto assets: risks", "date": ""},
+  {"url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001679788&type=10-K", "title": "SEC EDGAR — Coinbase Global, Inc. filings", "date": ""}
+ ],
+ "disclosure_variant": "guide"
+}

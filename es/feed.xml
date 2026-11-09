@@ -5,8 +5,29 @@
     <link>https://plainbtc.com/es/</link>
     <description>Noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</description>
     <language>es</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:50:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>¿Qué es una cartera cripto? Custodia vs. autocustodia, explicado para principiantes</title>
+      <link>https://plainbtc.com/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</guid>
+      <pubDate>Mon, 09 Nov 2026 19:50:00 GMT</pubDate>
+      <description>Una cartera no guarda monedas, guarda claves. Aprende la diferencia entre carteras custodiadas y de autocustodia, qué es una frase de recuperación y cómo empezar con seguridad.</description>
+    </item>
+    <item>
+      <title>¿Cuánto bitcoin debería comprar un principiante? Guía clara sobre el promedio de costo en dólares</title>
+      <link>https://plainbtc.com/es/articles/how-much-bitcoin-should-a-beginner-buy-dca</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/how-much-bitcoin-should-a-beginner-buy-dca</guid>
+      <pubDate>Mon, 09 Nov 2026 19:48:00 GMT</pubDate>
+      <description>Nadie puede decirte la cantidad correcta, pero sí puedes elegir un método sensato para decidirla. Explicamos el promedio de costo en dólares, lo probamos con precios reales y mostramos cómo configurar una compra recurrente.</description>
+    </item>
+    <item>
+      <title>¿Es seguro Coinbase para principiantes? Qué está protegido, qué no y cómo reducir tu riesgo</title>
+      <link>https://plainbtc.com/es/articles/is-coinbase-safe-for-beginners</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/is-coinbase-safe-for-beginners</guid>
+      <pubDate>Mon, 09 Nov 2026 19:46:00 GMT</pubDate>
+      <description>Un repaso claro de la seguridad de Coinbase: cómo guarda las criptomonedas, qué está y qué no está asegurado, qué fue la filtración de datos de 2025 y una lista para proteger tu cuenta.</description>
+    </item>
     <item>
       <title>Coinbase obtiene una licencia federal completa de banco fiduciario de la OCC: qué significa</title>
       <link>https://plainbtc.com/es/articles/coinbase-occ-national-trust-charter-nov-2026</link>

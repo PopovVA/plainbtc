@@ -1,0 +1,64 @@
+[
+  {
+    "id": "cold",
+    "file": "fact-cold-storage.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: Coinbase says over 99% of customer assets stay in offline cold wallets",
+      "es": "Tarjeta: Coinbase afirma que más del 99 % de los activos de clientes permanece en carteras frías sin conexión",
+      "pt": "Cartão: a Coinbase diz que mais de 99% dos ativos dos clientes ficam em carteiras frias offline",
+      "fr": "Encadré : Coinbase affirme que plus de 99 % des actifs clients restent dans des portefeuilles froids hors ligne",
+      "de": "Faktenkarte: Coinbase gibt an, dass über 99 % der Kundenwerte in Offline-Cold-Wallets liegen",
+      "ru": "Карточка: Coinbase сообщает, что более 99% активов клиентов хранится в офлайн-холодных кошельках",
+      "tr": "Bilgi kartı: Coinbase, müşteri varlıklarının %99’undan fazlasının çevrimdışı soğuk cüzdanlarda durduğunu söylüyor",
+      "id": "Kartu fakta: Coinbase menyatakan lebih dari 99% aset pelanggan disimpan di dompet dingin offline",
+      "ja": "ファクトカード：Coinbaseは顧客資産の99%超をオフラインのコールドウォレットで保管していると説明",
+      "ko": "팩트 카드: 코인베이스는 고객 자산의 99% 이상을 오프라인 콜드 월렛에 보관한다고 밝힘"
+    },
+    "caption": {
+      "en": "Source: Coinbase blog",
+      "es": "Fuente: Coinbase blog",
+      "pt": "Fonte: Coinbase blog",
+      "fr": "Source : Coinbase blog",
+      "de": "Quelle: Coinbase blog",
+      "ru": "Источник: Coinbase blog",
+      "tr": "Kaynak: Coinbase blog",
+      "id": "Sumber: Coinbase blog",
+      "ja": "出典: Coinbase blog",
+      "ko": "출처: Coinbase blog"
+    }
+  },
+  {
+    "id": "fdic",
+    "file": "fact-fdic-250k.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: the $250,000 per-depositor FDIC pass-through limit applies to U.S. dollar cash balances, not crypto",
+      "es": "Tarjeta: el límite de 250 000 $ por depositante de la FDIC se aplica al efectivo en dólares, no a las criptomonedas",
+      "pt": "Cartão: o limite de US$ 250.000 por depositante da FDIC vale para saldo em dólares, não para cripto",
+      "fr": "Encadré : le plafond FDIC de 250 000 $ par déposant s’applique aux dollars en espèces, pas aux cryptos",
+      "de": "Faktenkarte: Die FDIC-Grenze von 250.000 $ pro Einleger gilt für Dollar-Guthaben, nicht für Krypto",
+      "ru": "Карточка: лимит FDIC в $250 000 на вкладчика относится к долларовым остаткам, а не к криптовалюте",
+      "tr": "Bilgi kartı: mudi başına 250.000 $ FDIC sınırı dolar nakit bakiyeler için geçerlidir, kripto için değil",
+      "id": "Kartu fakta: batas FDIC US$250.000 per penyimpan berlaku untuk saldo dolar tunai, bukan kripto",
+      "ja": "ファクトカード：預金者1人あたり25万ドルのFDIC上限は米ドル現金残高が対象で、暗号資産は対象外",
+      "ko": "팩트 카드: 예금자당 25만 달러 FDIC 한도는 미국 달러 현금 잔액에 적용되며 암호화폐에는 적용되지 않음"
+    },
+    "caption": {
+      "en": "Source: Coinbase Help, FDIC",
+      "es": "Fuente: Coinbase Help, FDIC",
+      "pt": "Fonte: Coinbase Help, FDIC",
+      "fr": "Source : Coinbase Help, FDIC",
+      "de": "Quelle: Coinbase Help, FDIC",
+      "ru": "Источник: Coinbase Help, FDIC",
+      "tr": "Kaynak: Coinbase Help, FDIC",
+      "id": "Sumber: Coinbase Help, FDIC",
+      "ja": "出典: Coinbase Help, FDIC",
+      "ko": "출처: Coinbase Help, FDIC"
+    }
+  }
+]

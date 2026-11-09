@@ -5,8 +5,29 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:50:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Что такое криптокошелёк? Кастодиальный и некастодиальный: объяснение для новичков</title>
+      <link>https://plainbtc.com/ru/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</guid>
+      <pubDate>Mon, 09 Nov 2026 19:50:00 GMT</pubDate>
+      <description>Кошелёк хранит не монеты, а ключи. Разберитесь в разнице между кастодиальными и некастодиальными кошельками, что такое фраза восстановления и как безопасно начать.</description>
+    </item>
+    <item>
+      <title>Сколько биткоина стоит купить новичку? Простое руководство по усреднению стоимости (DCA)</title>
+      <link>https://plainbtc.com/ru/articles/how-much-bitcoin-should-a-beginner-buy-dca</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/how-much-bitcoin-should-a-beginner-buy-dca</guid>
+      <pubDate>Mon, 09 Nov 2026 19:48:00 GMT</pubDate>
+      <description>Никто не назовёт вам правильную сумму, но можно выбрать разумный способ её определить. Мы объясняем усреднение стоимости (DCA), проверяем его на реальных ценах и показываем, как настроить регулярную покупку.</description>
+    </item>
+    <item>
+      <title>Безопасна ли Coinbase для новичков? Что защищено, что нет и как снизить риск</title>
+      <link>https://plainbtc.com/ru/articles/is-coinbase-safe-for-beginners</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/is-coinbase-safe-for-beginners</guid>
+      <pubDate>Mon, 09 Nov 2026 19:46:00 GMT</pubDate>
+      <description>Простая проверка безопасности Coinbase: как хранятся криптоактивы, что застраховано, а что нет, что произошло при утечке данных 2025 года и чек-лист защиты аккаунта.</description>
+    </item>
     <item>
       <title>Coinbase получила полную федеральную лицензию трастового банка от OCC: что это значит</title>
       <link>https://plainbtc.com/ru/articles/coinbase-occ-national-trust-charter-nov-2026</link>

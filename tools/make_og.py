@@ -66,6 +66,21 @@ ARTICLES = [
         "After the midterms: ETF outflows and a tougher crypto rulebook ahead?",
         "REGULATION",
     ),
+    (
+        "is-coinbase-safe-for-beginners",
+        "Is Coinbase safe for beginners? What's protected, what isn't",
+        "GUIDE",
+    ),
+    (
+        "how-much-bitcoin-should-a-beginner-buy-dca",
+        "How much Bitcoin should a beginner buy? Dollar-cost averaging explained",
+        "GUIDE",
+    ),
+    (
+        "what-is-a-crypto-wallet-custodial-vs-self-custody",
+        "What is a crypto wallet? Custodial vs. self-custody explained",
+        "GUIDE",
+    ),
 ]
 
 

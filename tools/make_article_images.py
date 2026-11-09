@@ -780,6 +780,262 @@ def build_howto(btc_xs, btc_ys):
     ]
 
 
+# ---------------------------------------------------------------------------
+# Evergreen beginner guides (Coinbase Exchange public candles, Coinbase docs)
+# ---------------------------------------------------------------------------
+
+def fetch_coinbase_daily(start="2020-12-01"):
+    """Daily BTC-USD candles from Coinbase Exchange public API -> list of (date, close)."""
+    import datetime as dt
+    import time
+
+    def get(s, e):
+        u = ("https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400"
+             f"&start={s.isoformat()}Z&end={e.isoformat()}Z")
+        r = urllib.request.Request(u, headers={"User-Agent": "PlainBTC/1.0"})
+        return json.loads(urllib.request.urlopen(r, timeout=30).read())
+
+    cur = dt.datetime.fromisoformat(start)
+    end = dt.datetime.now(dt.UTC).replace(tzinfo=None) + dt.timedelta(days=1)
+    rows = {}
+    while cur < end:
+        nxt = min(cur + dt.timedelta(days=299), end)
+        for c in get(cur, nxt):
+            rows[c[0]] = c
+        cur = nxt
+        time.sleep(0.4)
+    return [(dt.datetime.fromtimestamp(r[0], dt.UTC).date(), r[4]) for r in sorted(rows.values())]
+
+
+def make_compare_card(path: Path, title: str, left: str, right: str, rows, footer="PlainBTC", w=1200, h=630):
+    img = gradient_bg(w, h)
+    draw = ImageDraw.Draw(img)
+    draw.rectangle([0, 0, 10, h], fill=ORANGE)
+    tf, hf = load_font(FONT_BOLD, 34), load_font(FONT_BOLD, 28)
+    rl, cf = load_font(FONT_BOLD, 22), load_font(FONT_REG, 25)
+    ff, brand = load_font(FONT_REG, 22), load_font(FONT_BOLD, 24)
+    draw.text((56, 36), title, font=tf, fill=WHITE)
+    x0, x1, x2 = 56, 400, 800
+    colw = 360
+    draw.rounded_rectangle([x1 - 12, 100, x1 + colw, 150], radius=10, fill=(30, 41, 59))
+    draw.rounded_rectangle([x2 - 12, 100, x2 + colw, 150], radius=10, fill=(120, 70, 10))
+    draw.text((x1, 109), left, font=hf, fill=WHITE)
+    draw.text((x2, 109), right, font=hf, fill=WHITE)
+    y = 172
+    for label, a, b in rows:
+        draw.text((x0, y + 4), label.upper(), font=rl, fill=ORANGE)
+        for x, txt in ((x1, a), (x2, b)):
+            for i, line in enumerate(wrap(draw, txt, cf, colw - 6, max_lines=3)):
+                draw.text((x, y + i * 32), line, font=cf, fill=GRAY if x == x1 else (226, 232, 240))
+        y += 128
+        draw.line([(x0, y - 22), (w - 56, y - 22)], fill=(30, 41, 59), width=2)
+    draw.text((56, h - 46), footer, font=ff, fill=MUTED)
+    draw.text((w - 210, h - 46), "Plain", font=brand, fill=WHITE)
+    pw = draw.textlength("Plain", font=brand)
+    draw.text((w - 210 + pw, h - 46), "BTC", font=brand, fill=ORANGE)
+    return save_image(img, path)
+
+
+def _lang_dict(en, **tr):
+    out = {"en": en}
+    out.update(tr)
+    missing = [l for l in LANGS if l not in out]
+    assert not missing, missing
+    return out
+
+
+def _fig(fid, file, kind, w, h, alt, caption):
+    return {"id": fid, "file": file, "w": w, "h": h, "kind": kind, "alt": alt, "caption": caption}
+
+
+def build_safe():
+    slug = "is-coinbase-safe-for-beginners"
+    d = OUT / slug
+    c1 = make_fact_card(
+        d / "fact-cold-storage", label="Where your crypto sits", big="Over 99%",
+        sub="of customer assets stay in Coinbase’s offline cold wallets, according to Coinbase",
+        footer="Source: Coinbase blog · How Coinbase protects customer assets")
+    c2 = make_fact_card(
+        d / "fact-fdic-250k", label="What is insured", big="$250,000",
+        sub="Per-depositor FDIC / NCUSIF pass-through limit on U.S. dollar cash balances, not on crypto",
+        footer="Source: Coinbase Help · FDIC")
+    cap1 = tr_map(CAPTION_SOURCE, src="Coinbase blog")
+    cap2 = tr_map(CAPTION_SOURCE, src="Coinbase Help, FDIC")
+    return [
+        _fig("cold", c1.name, "fact", 1200, 630, _lang_dict(
+            "Fact card: Coinbase says over 99% of customer assets stay in offline cold wallets",
+            es="Tarjeta: Coinbase afirma que más del 99 % de los activos de clientes permanece en carteras frías sin conexión",
+            pt="Cartão: a Coinbase diz que mais de 99% dos ativos dos clientes ficam em carteiras frias offline",
+            fr="Encadré : Coinbase affirme que plus de 99 % des actifs clients restent dans des portefeuilles froids hors ligne",
+            de="Faktenkarte: Coinbase gibt an, dass über 99 % der Kundenwerte in Offline-Cold-Wallets liegen",
+            ru="Карточка: Coinbase сообщает, что более 99% активов клиентов хранится в офлайн-холодных кошельках",
+            tr="Bilgi kartı: Coinbase, müşteri varlıklarının %99’undan fazlasının çevrimdışı soğuk cüzdanlarda durduğunu söylüyor",
+            id="Kartu fakta: Coinbase menyatakan lebih dari 99% aset pelanggan disimpan di dompet dingin offline",
+            ja="ファクトカード：Coinbaseは顧客資産の99%超をオフラインのコールドウォレットで保管していると説明",
+            ko="팩트 카드: 코인베이스는 고객 자산의 99% 이상을 오프라인 콜드 월렛에 보관한다고 밝힘"), cap1),
+        _fig("fdic", c2.name, "fact", 1200, 630, _lang_dict(
+            "Fact card: the $250,000 per-depositor FDIC pass-through limit applies to U.S. dollar cash balances, not crypto",
+            es="Tarjeta: el límite de 250 000 $ por depositante de la FDIC se aplica al efectivo en dólares, no a las criptomonedas",
+            pt="Cartão: o limite de US$ 250.000 por depositante da FDIC vale para saldo em dólares, não para cripto",
+            fr="Encadré : le plafond FDIC de 250 000 $ par déposant s’applique aux dollars en espèces, pas aux cryptos",
+            de="Faktenkarte: Die FDIC-Grenze von 250.000 $ pro Einleger gilt für Dollar-Guthaben, nicht für Krypto",
+            ru="Карточка: лимит FDIC в $250 000 на вкладчика относится к долларовым остаткам, а не к криптовалюте",
+            tr="Bilgi kartı: mudi başına 250.000 $ FDIC sınırı dolar nakit bakiyeler için geçerlidir, kripto için değil",
+            id="Kartu fakta: batas FDIC US$250.000 per penyimpan berlaku untuk saldo dolar tunai, bukan kripto",
+            ja="ファクトカード：預金者1人あたり25万ドルのFDIC上限は米ドル現金残高が対象で、暗号資産は対象外",
+            ko="팩트 카드: 예금자당 25만 달러 FDIC 한도는 미국 달러 현금 잔액에 적용되며 암호화폐에는 적용되지 않음"), cap2),
+    ]
+
+
+def build_dca():
+    import datetime as dt
+    slug = "how-much-bitcoin-should-a-beginner-buy-dca"
+    d = OUT / slug
+    ASOF = dt.date(2026, 11, 8)  # fixed last full-day close so the article numbers stay reproducible
+    px = [x for x in fetch_coinbase_daily("2020-12-01") if x[0] <= ASOF]
+    last_d, last_p = px[-1]
+    # --- chart: 5 years of closes with two peak-to-trough drops
+    five = [x for x in px if x[0] >= dt.date(2021, 10, 1)]
+    p21 = max((x for x in px if x[0].year == 2021), key=lambda x: x[1])
+    t22 = min((x for x in px if p21[0] < x[0] <= dt.date(2022, 12, 31)), key=lambda x: x[1])
+    ath = max(px, key=lambda x: x[1])
+    low = min((x for x in px if x[0] > ath[0]), key=lambda x: x[1])
+    drop1 = (t22[1] / p21[1] - 1) * 100
+    drop2 = (low[1] / ath[1] - 1) * 100
+    print(f"  peak {p21} -> trough {t22} = {drop1:.1f}%;  ATH {ath} -> low {low} = {drop2:.1f}%")
+    fig, ax = plt.subplots(figsize=(12, 6.75), dpi=100)
+    style_axes(ax, "Bitcoin daily closing price (USD), Nov 2021 – Nov 2026")
+    orange = "#f7931a"
+    xs = [x[0] for x in five]
+    ys = [x[1] for x in five]
+    ax.plot(xs, ys, color=orange, linewidth=1.8)
+    ax.fill_between(xs, ys, 0, color=orange, alpha=0.10)
+    for (a, b, dd) in ((p21, t22, drop1), (ath, low, drop2)):
+        ax.annotate("", xy=(b[0], b[1]), xytext=(a[0], a[1]),
+                    arrowprops=dict(arrowstyle="->", color="#f87171", lw=1.6, linestyle="--"))
+        ax.scatter([a[0], b[0]], [a[1], b[1]], color="#f87171", zorder=5, s=28)
+        mid_x = a[0] + (b[0] - a[0]) / 2 + dt.timedelta(days=45)
+        ax.text(mid_x, (a[1] + b[1]) / 2 * 1.3, f"{dd:.0f}%", color="#f87171",
+                fontsize=16, fontweight="bold", ha="center")
+        ax.text(a[0], a[1] * 1.04, f"${a[1]:,.0f}\n{a[0]:%b %-d, %Y}", color="#e2e8f0", fontsize=9, ha="center")
+        ax.text(b[0], b[1] * 0.55, f"${b[1]:,.0f}\n{b[0]:%b %-d, %Y}", color="#e2e8f0", fontsize=9, ha="center")
+    ax.set_ylim(0, ath[1] * 1.22)
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %Y"))
+    ax.yaxis.set_major_formatter(lambda v, _p: f"${v/1000:,.0f}k")
+    fig.text(0.99, 0.01, "plainbtc.com", color="#64748b", ha="right", fontsize=9)
+    plt.tight_layout(pad=1.2)
+    buf = io.BytesIO()
+    fig.savefig(buf, format="png", dpi=100, facecolor=fig.get_facecolor())
+    plt.close(fig)
+    buf.seek(0)
+    chart = save_image(Image.open(buf).convert("RGB"), d / "chart-btc-5y-drawdowns")
+    # --- DCA vs lump sum bars (weekly $50)
+    def sim(days, amt=50):
+        start = last_d - dt.timedelta(days=days)
+        w = [x for x in px if x[0] >= start and (x[0] - start).days % 7 == 0]
+        inv = amt * len(w)
+        coins = sum(amt / p for _, p in w)
+        return len(w), inv, coins * last_p, inv / w[0][1] * last_p
+    res = [sim(364), sim(730), sim(1092)]
+    for r in res:
+        print(f"  weeks={r[0]} invested=${r[1]:,} dca=${r[2]:,.0f} lump=${r[3]:,.0f}")
+    fig, ax = plt.subplots(figsize=(12, 6.3), dpi=100)
+    style_axes(ax, f"$50 weekly buys vs. one lump sum, valued {last_d:%b %-d, %Y}")
+    labels = ["Last 12 months", "Last 24 months", "Last 36 months"]
+    import numpy as _np
+    xi = _np.arange(3)
+    bw = 0.26
+    series = [([r[1] for r in res], "Total invested", "#64748b"),
+              ([r[2] for r in res], "Weekly $50 buys", orange),
+              ([r[3] for r in res], "Lump sum on day one", "#38bdf8")]
+    for k, (vals, name, col) in enumerate(series):
+        bars = ax.bar(xi + (k - 1) * bw, vals, bw, label=name, color=col, edgecolor="#0b1630")
+        for b, v in zip(bars, vals):
+            ax.text(b.get_x() + b.get_width() / 2, v, f"${v:,.0f}", ha="center", va="bottom",
+                    color="#e2e8f0", fontsize=10, fontweight="bold")
+    ax.set_xticks(xi)
+    ax.set_xticklabels([f"{l}\n({r[0]} buys)" for l, r in zip(labels, res)], color="#cbd5e1", fontsize=11)
+    ax.yaxis.set_major_formatter(lambda v, _p: f"${v:,.0f}")
+    ax.set_ylim(0, max(r[3] for r in res) * 1.15)
+    leg = ax.legend(facecolor="#0b1630", edgecolor="#1e293b", labelcolor="#e2e8f0", loc="upper left")
+    fig.text(0.01, 0.01, "Illustration only: daily closes, no fees or taxes. Past performance is not a guide to the future.",
+             color="#64748b", fontsize=8.5)
+    fig.text(0.99, 0.01, "plainbtc.com", color="#64748b", ha="right", fontsize=9)
+    plt.tight_layout(pad=1.2, rect=(0, 0.03, 1, 1))
+    buf = io.BytesIO()
+    fig.savefig(buf, format="png", dpi=100, facecolor=fig.get_facecolor())
+    plt.close(fig)
+    buf.seek(0)
+    bars_img = save_image(Image.open(buf).convert("RGB"), d / "chart-dca-vs-lump-sum")
+    cap = tr_map(CAPTION_CHART, src="Coinbase Exchange (BTC-USD daily candles)")
+    return [
+        _fig("chart", chart.name, "chart", 1200, 675, _lang_dict(
+            "Line chart of bitcoin’s daily closing price from November 2021 to November 2026, marking a 77% fall and a 53% fall from two peaks",
+            es="Gráfico del precio de cierre diario de bitcoin de noviembre de 2021 a noviembre de 2026, con una caída del 77 % y otra del 53 % desde dos máximos",
+            pt="Gráfico do preço de fechamento diário do bitcoin de novembro de 2021 a novembro de 2026, com quedas de 77% e 53% a partir de dois picos",
+            fr="Graphique du cours de clôture quotidien du bitcoin de novembre 2021 à novembre 2026, avec une baisse de 77 % et une de 53 % depuis deux sommets",
+            de="Liniendiagramm des täglichen Bitcoin-Schlusskurses von November 2021 bis November 2026 mit Rückgängen um 77 % und 53 % von zwei Höchstständen",
+            ru="График ежедневной цены закрытия биткоина с ноября 2021 по ноябрь 2026 с падениями на 77% и 53% от двух пиков",
+            tr="Kasım 2021’den Kasım 2026’ya bitcoin günlük kapanış fiyatı grafiği; iki zirveden %77 ve %53 düşüş işaretli",
+            id="Grafik harga penutupan harian bitcoin November 2021 hingga November 2026 dengan penurunan 77% dan 53% dari dua puncak",
+            ja="2021年11月から2026年11月までのビットコイン日次終値チャート。2つの高値からの77%と53%の下落を表示",
+            ko="2021년 11월부터 2026년 11월까지 비트코인 일간 종가 차트, 두 번의 고점에서 각각 77%와 53% 하락 표시"), cap),
+        _fig("fact", bars_img.name, "chart", 1200, 630, _lang_dict(
+            "Bar chart comparing $50 weekly bitcoin buys with a single lump sum over the last 12, 24 and 36 months",
+            es="Gráfico de barras que compara compras semanales de 50 $ en bitcoin con una inversión única en los últimos 12, 24 y 36 meses",
+            pt="Gráfico de barras comparando compras semanais de US$ 50 em bitcoin com um aporte único nos últimos 12, 24 e 36 meses",
+            fr="Histogramme comparant des achats hebdomadaires de 50 $ en bitcoin à un investissement unique sur 12, 24 et 36 mois",
+            de="Balkendiagramm: wöchentliche Bitcoin-Käufe von 50 $ im Vergleich zu einer Einmalanlage über 12, 24 und 36 Monate",
+            ru="Столбчатая диаграмма: еженедельные покупки биткоина на $50 и разовая покупка за последние 12, 24 и 36 месяцев",
+            tr="Son 12, 24 ve 36 ayda haftalık 50 $’lık bitcoin alımlarını tek seferlik alımla karşılaştıran sütun grafiği",
+            id="Grafik batang membandingkan pembelian bitcoin US$50 per minggu dengan pembelian sekaligus selama 12, 24, dan 36 bulan terakhir",
+            ja="過去12・24・36か月について、毎週50ドルの積立購入と一括購入を比べた棒グラフ",
+            ko="최근 12·24·36개월 동안 매주 50달러 분할 매수와 일시 매수를 비교한 막대 차트"), cap),
+    ]
+
+
+def build_wallet():
+    slug = "what-is-a-crypto-wallet-custodial-vs-self-custody"
+    d = OUT / slug
+    cmp_ = make_compare_card(
+        d / "compare-custodial-vs-self",
+        "Custodial vs. self-custody wallets", "Custodial", "Self-custody",
+        [("Who holds the keys", "The company (e.g. a Coinbase account)", "You (e.g. the Coinbase Wallet app)"),
+         ("Lose your login", "The provider can help you recover access", "Only your recovery phrase can restore it"),
+         ("Main risks", "Company failure, hacks, account takeover", "Lost phrase, phishing scams, malware")],
+        footer="Source: Coinbase Help · Bitcoin.org · FINRA")
+    words = make_fact_card(
+        d / "fact-12-words", label="Self-custody backup", big="12 words",
+        sub="A Coinbase Wallet recovery phrase is 12 words. Lose it and Coinbase can’t restore your funds",
+        footer="Source: Coinbase Help · BIP-39 allows 12–24 words")
+    return [
+        _fig("compare", cmp_.name, "fact", 1200, 630, _lang_dict(
+            "Comparison card: custodial wallets, where a company holds the keys, versus self-custody wallets, where you do",
+            es="Tarjeta comparativa: carteras custodiadas, donde una empresa guarda las claves, frente a carteras de autocustodia, donde las guardas tú",
+            pt="Cartão comparativo: carteiras custodiais, em que uma empresa guarda as chaves, e carteiras de autocustódia, em que você as guarda",
+            fr="Encadré comparatif : portefeuilles custodiaux, où une entreprise détient les clés, et portefeuilles en auto-conservation, où c’est vous",
+            de="Vergleichskarte: Custodial-Wallets, bei denen ein Unternehmen die Schlüssel hält, und Self-Custody-Wallets, bei denen Sie sie halten",
+            ru="Сравнительная карточка: кастодиальные кошельки, где ключи у компании, и некастодиальные, где ключи у вас",
+            tr="Karşılaştırma kartı: anahtarları bir şirketin tuttuğu emanetçi cüzdanlar ile anahtarları sizin tuttuğunuz kendi saklama cüzdanları",
+            id="Kartu perbandingan: dompet kustodian, di mana perusahaan memegang kunci, dan dompet self-custody, di mana Anda memegangnya",
+            ja="比較カード：企業が鍵を保管するカストディアルウォレットと、自分で鍵を管理するセルフカストディウォレット",
+            ko="비교 카드: 회사가 키를 보관하는 수탁형 지갑과 본인이 키를 보관하는 셀프 커스터디 지갑"),
+            tr_map(CAPTION_SOURCE, src="Coinbase Help, Bitcoin.org, FINRA")),
+        _fig("words", words.name, "fact", 1200, 630, _lang_dict(
+            "Fact card: a Coinbase Wallet recovery phrase is 12 words, and Coinbase cannot restore it if you lose it",
+            es="Tarjeta: la frase de recuperación de Coinbase Wallet tiene 12 palabras y Coinbase no puede restaurarla si la pierdes",
+            pt="Cartão: a frase de recuperação da Coinbase Wallet tem 12 palavras, e a Coinbase não consegue restaurá-la se você a perder",
+            fr="Encadré : la phrase de récupération de Coinbase Wallet compte 12 mots, et Coinbase ne peut pas la restaurer si vous la perdez",
+            de="Faktenkarte: Die Wiederherstellungsphrase von Coinbase Wallet hat 12 Wörter; Coinbase kann sie bei Verlust nicht wiederherstellen",
+            ru="Карточка: фраза восстановления Coinbase Wallet состоит из 12 слов, и Coinbase не сможет восстановить её при потере",
+            tr="Bilgi kartı: Coinbase Wallet kurtarma ifadesi 12 kelimedir ve kaybederseniz Coinbase onu geri getiremez",
+            id="Kartu fakta: frasa pemulihan Coinbase Wallet terdiri dari 12 kata, dan Coinbase tidak dapat memulihkannya jika hilang",
+            ja="ファクトカード：Coinbase Walletのリカバリーフレーズは12語で、紛失してもCoinbaseは復元できない",
+            ko="팩트 카드: 코인베이스 월렛 복구 문구는 12단어이며 분실하면 코인베이스도 복구할 수 없음"),
+            tr_map(CAPTION_SOURCE, src="Coinbase Help, BIP-39")),
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -788,6 +1044,9 @@ BUILDERS = {
     "pnc-coinbase-usdc-payments-pilot-nov-2026": "pnc",
     "coinbase-occ-national-trust-charter-nov-2026": "occ",
     "how-to-buy-first-bitcoin-coinbase": "howto",
+    "is-coinbase-safe-for-beginners": "safe",
+    "how-much-bitcoin-should-a-beginner-buy-dca": "dca",
+    "what-is-a-crypto-wallet-custodial-vs-self-custody": "wallet",
 }
 
 
@@ -813,6 +1072,12 @@ def build_slug(slug: str, btc=None):
         figs = build_occ()
     elif key == "howto":
         figs = build_howto(*btc)
+    elif key == "safe":
+        figs = build_safe()
+    elif key == "dca":
+        figs = build_dca()
+    elif key == "wallet":
+        figs = build_wallet()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

@@ -1,0 +1,107 @@
+title: ¿Qué es una cartera cripto? Custodia vs. autocustodia, explicado para principiantes
+page_title: ¿Qué es una cartera cripto? Custodia vs. autocustodia
+description: ¿Qué es una cartera cripto? Guía clara sobre carteras custodiadas y de autocustodia, frases de recuperación, almacenamiento en caliente y en frío, y cómo empezar con seguridad.
+og_description: Tus criptomonedas viven en una blockchain; la cartera guarda las claves. La diferencia entre carteras custodiadas y de autocustodia, y cuál encaja con un principiante.
+label: Guía para principiantes
+summary: Una cartera no guarda monedas, guarda claves. Aprende la diferencia entre carteras custodiadas y de autocustodia, qué es una frase de recuperación y cómo empezar con seguridad.
+===
+
+Si has comprado bitcoin, seguramente te han dicho que necesitas una «cartera» (wallet). La palabra confunde, porque una cartera cripto no guarda monedas como una cartera de cuero guarda efectivo. Esta guía explica qué es realmente una cartera, la diferencia entre carteras <strong>custodiadas</strong> y de <strong>autocustodia</strong>, y cómo elegir una configuración sensata como principiante.
+
+!takeaways
+- Una cartera cripto guarda las claves privadas que te permiten gastar tus monedas. Las monedas en sí viven en la blockchain.
+- En una cartera custodiada, como una cuenta de Coinbase, la empresa guarda las claves por ti y puede ayudarte si pierdes tu contraseña.
+- En una cartera de autocustodia, las claves las tienes tú. Nadie puede recuperarlas por ti, así que perder la frase de recuperación puede significar perder los fondos.
+- Ninguna opción está libre de riesgos. Muchos principiantes empiezan con custodia y cantidades pequeñas, y consideran la autocustodia a medida que crece su saldo.
+
+## Qué es realmente una cartera cripto
+
+La documentación para desarrolladores de Bitcoin lo resume así: los programas de cartera crean claves públicas para recibir bitcoin y usan las claves privadas correspondientes para gastarlo, y [los archivos de cartera almacenan claves privadas](L1). Piensa en la dirección pública como un número de cuenta que puedes compartir, y en la clave privada como la contraseña que demuestra que los fondos son tuyos.
+
+Así que cuando alguien dice «mi bitcoin está en mi cartera», quiere decir «mi cartera guarda las claves que controlan mi bitcoin». Quien tiene las claves privadas controla las monedas. Esa sola idea explica todo el debate entre custodia y autocustodia.
+
+## Carteras custodiadas: otro guarda las claves
+
+Cuando compras criptomonedas en un exchange como Coinbase, quedan almacenadas en la plataforma. Coinbase se describe como [un exchange centralizado que guarda tus criptomonedas por ti](L2) en una cartera alojada. Inicias sesión con una contraseña y verificación en dos pasos, y si olvidas tus datos de acceso, la empresa puede ayudarte a recuperar el acceso.
+
+<strong>La ventaja:</strong> es sencillo, hay soporte y no hay una frase de recuperación que custodiar. <strong>La desventaja:</strong> dependes de la empresa. En noviembre de 2022, el exchange FTX [se declaró en quiebra](L3) y sus clientes no pudieron retirar sus fondos. El propio informe anual de Coinbase advierte de que, en una quiebra, las criptomonedas de los clientes podrían tratarse como propiedad de la empresa y los clientes como acreedores no garantizados, aunque la compañía dice creer que un tribunal dictaminaría lo contrario. Lo explicamos en nuestra [guía de seguridad de Coinbase](/articles/is-coinbase-safe-for-beginners).
+
+!figure:compare
+
+## Carteras de autocustodia: las claves las tienes tú
+
+Una cartera de autocustodia pone las claves privadas en tus manos. La aplicación de cartera independiente de Coinbase es un ejemplo: Coinbase dice que las claves se [almacenan directamente en tu dispositivo](L4) y que no necesitas una cuenta de Coinbase para usarla. La app se llamó brevemente Base app y volvió a llamarse Coinbase Wallet en septiembre de 2026.
+
+Al configurar una cartera de autocustodia recibes una <strong>frase de recuperación</strong>, también llamada frase semilla. El estándar habitual, BIP-39, crea una frase de [12 a 24 palabras](L5) a partir de la cual se pueden reconstruir todas las claves de tu cartera. Coinbase Wallet [genera una frase de 12 palabras](L6) y dice que solo tú tienes acceso a ella. Si la pierdes, pierdes el acceso a los fondos, y Coinbase no puede mover los fondos ni ayudarte a recuperarlos.
+
+!figure:words
+
+!mid_cta
+
+## Carteras calientes vs. carteras frías
+
+Es una cuestión distinta de la custodia. Una <strong>cartera caliente</strong> está conectada a internet, como una app de móvil o una extensión del navegador. Una <strong>cartera fría</strong> guarda las claves sin conexión. La cartera de hardware es la opción fría más común. Bitcoin.org describe las [carteras de hardware](L7) como uno de los métodos más seguros y adecuados para cantidades mayores, pero advierte de que perder el dispositivo sin una copia de seguridad adecuada puede hacer que los fondos sean irrecuperables. Las carteras móviles y de escritorio son más cómodas, pero perder el teléfono o sufrir malware puede poner los fondos en riesgo.
+
+## Custodia vs. autocustodia de un vistazo
+
+- <strong>Quién tiene las claves:</strong> un proveedor custodio las guarda; en la autocustodia, tú.
+- <strong>Si olvidas tu contraseña:</strong> un proveedor custodio normalmente puede ayudarte; la autocustodia solo cuenta con tu frase de recuperación.
+- <strong>Mayores riesgos:</strong> en la custodia, el fallo de la empresa, los hackeos y la usurpación de cuentas; en la autocustodia, frases perdidas, phishing y malware.
+- <strong>Ideal para:</strong> la custodia se adapta a la sencillez y a cantidades pequeñas; la autocustodia, a quien está dispuesto a asumir la responsabilidad.
+
+## ¿Cuál es mejor para un principiante?
+
+No hay una única respuesta correcta, y esto no es asesoramiento. Muchos principiantes empiezan con una cuenta custodiada porque es sencilla y tiene soporte, y mantienen la cantidad pequeña mientras aprenden. A medida que crecen los saldos, algunas personas pasan parte de sus fondos a autocustodia, con una cartera de hardware o una app con copia de seguridad cuidadosa. La pregunta clave es: <em>¿qué error puedes evitar mejor: confiar en una empresa o gestionar tus propias claves?</em>
+
+Si quieres empezar en un exchange y Coinbase está disponible en tu país, puedes [abrir una cuenta de Coinbase](REF){{#ref}} con nuestro enlace de referido{{/ref}} y seguir nuestra [guía de la primera compra](/articles/how-to-buy-first-bitcoin-coinbase). Nuestra guía sobre [cuánto comprar](/articles/how-much-bitcoin-should-a-beginner-buy-dca) puede ayudarte a calcular la cantidad.
+
+## Estafas de carteras a las que prestar atención
+
+FINRA advierte de que los malos actores atraen a la gente hacia [servicios cripto falsos](L8), y algunos se hacen pasar por soporte técnico de proveedores reales o entablan amistad con las víctimas y les instan a mover sus carteras. Coinbase dice que nunca te pedirá tu frase de recuperación. La regla es simple: <strong>quien te pida tu frase de recuperación es un ladrón</strong>, y una vez enviadas las criptomonedas, por lo general se pierden.
+
+!howto
+
+## Cómo empezar con la autocustodia de forma segura
+
+Si decides probarla, estos pasos siguen las prácticas de seguridad habituales, incluidas las recomendaciones de Coinbase y Bitcoin.org:
+
+1. <strong>Instala la cartera desde el sitio oficial o la tienda de aplicaciones.</strong> Comprueba el editor, porque existen apps de cartera falsas.
+2. <strong>Escribe la frase de recuperación en papel.</strong> Coinbase desaconseja las capturas o grabaciones de pantalla y dice que nunca la pegues en un sitio web.
+3. <strong>Guarda la copia en un lugar seguro.</strong> Donde no lleguen el fuego, el agua ni miradas curiosas, y considera una segunda copia en otro sitio.
+4. <strong>Prueba primero con una cantidad pequeña.</strong> Envía un poco, confirma que llega y practica restaurar la cartera.
+5. <strong>Revisa cada dirección dos veces.</strong> Las transacciones cripto son irreversibles, así que verifica la dirección completa antes de enviar.
+6. <strong>Nunca compartas la frase.</strong> Ni con el soporte, ni con amigos, ni con nadie.
+
+!faq
+
+## Preguntas frecuentes
+
+### ¿Qué es una cartera cripto en pocas palabras?
+
+Es una app o dispositivo que guarda las claves privadas que te permiten gastar tus criptomonedas. Las monedas viven en la blockchain. Quien controla las claves controla las monedas.
+
+### ¿Es Coinbase una cartera?
+
+Una cuenta normal de Coinbase es custodiada: Coinbase guarda tus criptomonedas por ti. Coinbase Wallet es una app de autocustodia independiente en la que tú tienes las claves, y no necesitas una cuenta de Coinbase para usarla.
+
+### ¿Qué es una frase semilla o frase de recuperación?
+
+Una lista de 12 a 24 palabras que puede reconstruir todas las claves de una cartera de autocustodia. Quien la tenga puede quedarse con tus fondos, y si la pierdes, nadie puede restaurarla por ti.
+
+### ¿Puedo perder bitcoin si pierdo el teléfono?
+
+Con una cartera de autocustodia, no si guardaste bien tu frase de recuperación, porque puedes restaurar la cartera en un dispositivo nuevo. Sin la frase, podrías perder el acceso. Con una cuenta custodiada, normalmente puedes recuperar el acceso con el proveedor.
+
+### ¿Vale la pena una cartera de hardware?
+
+Bitcoin.org describe las carteras de hardware como una de las opciones más seguras, sobre todo para cantidades mayores, pero también señala que son más difíciles de usar sobre la marcha. Para un saldo inicial pequeño, muchas personas aún no necesitan una.
+
+### ¿Pueden robarme las criptomonedas si conocen mi dirección?
+
+Una dirección está pensada para compartirse, de modo que te puedan enviar criptomonedas. El peligro es tu clave privada o tu frase de recuperación. Nunca las compartas.
+
+!soft: ¿Te preocupa la seguridad de tu cuenta? Consulta nuestra [lista de seguridad de Coinbase](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

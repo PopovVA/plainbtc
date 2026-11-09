@@ -1,0 +1,113 @@
+title: Coinbase yeni başlayanlar için güvenli mi? Nelerin korunduğu, nelerin korunmadığı ve riski nasıl azaltabileceğiniz
+page_title: Coinbase yeni başlayanlar için güvenli mi?
+description: Coinbase güvenli mi? Neyi koruduğuna, neyin sigortalı olmadığına, 2025 veri ihlaline ve yeni başlayanların riski nasıl azaltabileceğine sade bir bakış.
+og_description: Coinbase neyi koruyor, FDIC sigortası neyi kapsıyor ve neyi kapsamıyor; hesabınızı güvenceye almak için kısa bir kontrol listesi.
+label: Yeni başlayanlar rehberi
+summary: Coinbase’in güvenliğine sade bir bakış: kriptoyu nasıl sakladığı, neyin sigortalı olduğu ve olmadığı, 2025 veri ihlalinin ne olduğu ve hesabınızı korumak için bir kontrol listesi.
+===
+
+“Coinbase güvenli mi?” yeni alıcıların sorduğu ilk sorulardan biridir ve dürüst cevabın iki kısmı vardır. Coinbase, ciddi güvenlik uygulamalarına sahip, borsada işlem gören büyük bir ABD şirketidir. Ancak “güvenli” demek “risksiz” demek değildir: kripto bir banka mevduatı gibi sigortalı değildir, fiyatlar sert dalgalanır ve dolandırıcılar yeni başlayanları hedef alır. Bu rehber, Coinbase’in neyi koruduğunu sizin sorumluluğunuzda kalan kısımdan ayırıyor.
+
+!takeaways
+- Coinbase, müşteri kriptosunun %99’undan fazlasının çevrimdışı soğuk cüzdanlarda tutulduğunu söylüyor ve hesaba erişim için iki adımlı doğrulamayı zorunlu tutuyor.
+- ABD doları nakit bakiyeler, mudi başına 250.000 $’a kadar FDIC “pass-through” sigortasından yararlanabilir. Kriptonun kendisi FDIC sigortalı değildir.
+- 2025’te rüşvet verilen destek çalışanları üzerinden bazı müşterilerin kişisel verileri açığa çıktı; ancak Coinbase parolaların, özel anahtarların ve fonların etkilenmediğini söyledi.
+- Çoğu yeni başlayan için kimlik taklidi dolandırıcılıkları ve fiyat dalgalanmaları, Coinbase’in kendisine yönelik bir saldırıdan daha büyük günlük risklerdir.
+
+## Kısa cevap
+
+ABD’deki çoğu yeni başlayan için Coinbase, dikkatli kullanıldığında makul bir başlangıç noktasıdır; ancak risksiz değildir. Coinbase Nasdaq’ta işlem görür ve [SEC’e yıllık ve üç aylık raporlar sunar](L1); bu da riskleri kamuya açıklamasını zorunlu kılar. Saklama kolu da yakın zamanda federal bir trust lisansı aldı; bunu [OCC lisansı haberimizde](/articles/coinbase-occ-national-trust-charter-nov-2026) okuyabilirsiniz. Lisansın kurumsal saklamayı kapsadığını, sıradan bireysel hesapları kapsamadığını unutmayın.
+
+Üç riski birbirinden ayırmak işe yarar: <strong>şirket riski</strong> (Coinbase’in hacklenmesi veya batması), <strong>hesap riski</strong> (birinin girişinizi ele geçirmesi veya sizi kandırması) ve <strong>piyasa riski</strong> (fiyatın düşmesi). Coinbase ilk ikisini azaltabilir. Üçüncüsünü kimse ortadan kaldıramaz.
+
+## Coinbase kriptonuzu nasıl koruyor
+
+Coinbase iki tür saklama kullandığını söylüyor. Küçük bir kısım, müşteriler hızlıca çekim yapabilsin diye sıcak cüzdanlarda durur; [varlıkların %99’undan fazlası ise](L2) çevrimdışı tutulan soğuk cüzdanlarda kalır. Coinbase ayrıca soğuk saklamadaki müşteri varlıklarının özel anahtarlarının parçalara bölündüğünü ve bir işlem imzalanırken bile tek bir yerde birleştirilmediğini belirtiyor. Teoride bu, çalınan bir dizüstü bilgisayarın veya tek bir sahtekâr çalışanın müşteri fonlarını hareket ettirememesi demek.
+
+Hesap tarafında Coinbase, hesaba erişim için [iki adımlı doğrulamanın zorunlu olduğunu](L3) söylüyor ve güvenlik anahtarlarını veya passkey’leri öneriyor. Bunlar şirketin kendi anlatımları; bağımsız olarak doğrulayamayacağınız iddialar olarak değerlendirin.
+
+!figure:cold
+
+## Nelerin sigortalı olduğu, nelerin olmadığı
+
+Coinbase, <strong>FDIC sigortalı bir banka olmadığını</strong> açıkça söylüyor. Dağılım şöyle:
+
+- <strong>ABD doları nakit.</strong> Coinbase, müşteri nakdinin FDIC sigortalı bankalarda veya NCUSIF sigortalı kredi birliklerinde havuzlanmış hesaplarda tutulduğunu ve bu kurumlardan biri iflas ederse Coinbase’in mudi başına 250.000 $’a kadar [pass-through sigortası](L4) talep edebileceği şekilde yapılandırıldığını söylüyor. Teminat, Coinbase’in kayıtlarına ve o sırada düzenleyicinin kararına bağlı. Fiyat düşüşlerine veya birinin hesabınıza girmesine karşı sizi korumaz.
+- <strong>Kripto.</strong> Bitcoin ve diğer kripto varlıklar FDIC, NCUSIF veya SIPC korumasına tabi değildir. Coinbase, depolama sistemlerindeki dijital paranın bir bölümü için suç sigortasına sahip; ancak poliçesi, bir ihlalden veya kimlik bilgilerinizin kaybından kaynaklanan [hesabınıza yetkisiz erişim kayıplarını kapsamıyor](L5) ve şirket toplam kayıpların sigorta tazminatlarını aşabileceğini belirtiyor.
+
+!figure:fdic
+
+!mid_cta
+
+## Coinbase’in kendisi batarsa?
+
+Coinbase’in kullanıcı sözleşmesi, kriptonuzun mülkiyetinin sizde kaldığını ve Coinbase’in malı olmadığını söylüyor. Ancak [yıllık raporunun](L6) risk faktörlerinde Coinbase, saklanan kriptonun iflas durumunda iflas masasının malı sayılabileceği ve müşterilerin genel adi alacaklı gibi değerlendirilebileceği uyarısında bulunuyor. Şirket, UCC Article 8 adlı bir eyalet kuralı nedeniyle bir mahkemenin böyle yapmayacağına inandığını söylüyor, ama mahkemelerin saklanan kripto için bu soruyu henüz ele almadığını da belirtiyor.
+
+Sade dille: bir hâkimin nasıl karar vereceğini kimse kesin bilmiyor. Bu belirsizlik, daha yüksek bakiyesi olanların kendi saklamaya yönelmesinin nedenlerinden biri; bunu [emanetçi ve kendi saklama cüzdanları rehberimizde](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) anlatıyoruz.
+
+## 2025 veri ihlalinde ne oldu
+
+Mayıs 2025’te Coinbase, SEC’e suçluların dahili sistemlerdeki müşteri bilgilerini kopyalamak için [yurt dışındaki destek yüklenicilerine ve çalışanlarına para ödediğini](L7) bildirdi. Veriler arasında ad, adres, telefon numarası, e-posta, sosyal güvenlik numarasının son dört hanesi, maskelenmiş banka hesap numaraları, kimlik belgesi görüntüleri ile hesap bakiyeleri ve işlem geçmişi vardı.
+
+Coinbase, olayda parolaların veya özel anahtarların etkilenmediğini ve hiç kimsenin müşteri fonlarına erişemediğini söyledi. Maliyeti 180 ila 400 milyon dolar olarak tahmin etti, fon göndermeleri için kandırılan müşterilere geri ödeme yapacağını açıkladı ve 20 milyon dolarlık fidye talebini reddetti.
+
+Çıkarılacak ders, Coinbase’in kasalarının boşaltıldığı değil. Çalınan kişisel bilgilerin inandırıcı dolandırıcılıkları mümkün kıldığı; bu da bizi en büyük günlük riske getiriyor.
+
+## Gerçek günlük risk: dolandırıcılıklar
+
+Menkul kıymet sektörünün özdenetim kuruluşu FINRA, [kripto dolandırıcılıklarının yaygın olduğu](L8) konusunda uyarıyor: kimlik avı, sahte teknik destek ve meşru bir hizmet gibi davranan dolandırıcılar. Kripto bir kez gönderildi mi, genellikle sonsuza dek gider.
+
+Coinbase, çalışanlarının sizden asla parolanızı veya iki adımlı doğrulama kodunuzu, asla kurtarma ifadenizi, asla cihazınıza uzaktan erişimi istemeyeceğini ve fonlarınızı “güvenli” bir cüzdana taşımanızı asla istemeyeceğini söylüyor. Biri arayıp Coinbase’den olduğunu söylerse, [Coinbase bunun dolandırıcılık olduğunu söylüyor](L9).
+
+!howto
+
+## Coinbase hesabınızı nasıl sağlamlaştırırsınız
+
+Bu altı adım yaklaşık on dakika sürer ve Coinbase’in kendi güvenlik önerilerini izler:
+
+1. <strong>Güçlü iki adımlı doğrulama kurun.</strong> Coinbase, telefonunuzu kaybetmeniz ihtimaline karşı bir passkey veya güvenlik anahtarının yanı sıra yedek bir yöntem öneriyor.
+2. <strong>Yalnızca Coinbase için bir e-posta adresi kullanın.</strong> Coinbase, e-posta adreslerinin suçluların hedeflerine ilişkin profil oluşturmak için sık kullandığı bir başlangıç noktası olduğunu belirtiyor.
+3. <strong>Çekim izin listesini açın.</strong> Bu, zincir üstü transferleri önceden onayladığınız cüzdan adresleriyle sınırlar.
+4. <strong>Kodları, parolaları veya kurtarma ifadelerini asla paylaşmayın.</strong> Coinbase’de çalıştığını söyleyen biriyle bile.
+5. <strong>Coinbase ile yalnızca resmî web sitesi veya uygulaması üzerinden iletişime geçin.</strong> Beklenmedik aramaları kapatın. Bir şey ters görünürse hesabınızı uygulamadan kilitleyin ve Coinbase yardım sayfasındaki adrese yazın.
+6. <strong>Küçük başlayın.</strong> Daha büyük tutarlar taşımadan önce uygulamayı kaybetmeyi göze alabileceğiniz bir miktarla öğrenin.
+
+## Peki, Coinbase yeni başlayan biri için güvenli mi?
+
+Coinbase’in gerçek korumaları ve uzun bir kamuya açık geçmişi var; açıkladığı 2025 olayı da şirkete göre müşteri fonlarını değil kişisel verileri ilgilendiriyordu. Yine de kriptoda hiçbir şirketin sigortalayamayacağı riskler var ve FINRA, yatırımın tamamını kaybetme riskinin önemli olduğunu belirtiyor. Birçok yeni başlayanın en büyük riski fiyatın kendisi. Zorlu bir haftanın nasıl göründüğünü [bitcoin tasfiyeleri özetimizde](/articles/bitcoin-volatility-liquidations-nov-2026) görün ve [yeni başlayanın ne kadar bitcoin alması gerektiğine](/articles/how-much-bitcoin-should-a-beginner-buy-dca) dair rehberimizi okuyun.
+
+Coinbase’in size uygun olduğuna ve ülkenizde kullanılabildiğine karar verirseniz [hesap açabilirsiniz](REF){{#ref}} (referans bağlantımızla){{/ref}}; ayrıca [adım adım satın alma rehberimizi](/articles/how-to-buy-first-bitcoin-coinbase) izleyebilirsiniz.
+
+!faq
+
+## Sık sorulan sorular
+
+### Coinbase 2026’da kullanmak için güvenli mi?
+
+ABD’deki çoğu yeni başlayan için hesabınızı güvenceye alırsanız makul bir seçimdir, ancak hiçbir kripto platformu risksiz değildir. Coinbase, risklerini açıklayan ve iki adımlı doğrulamayı zorunlu tutan, borsada işlem gören bir şirkettir. Fiyat dalgalanmaları ve dolandırıcılıklar en büyük riskleriniz olmaya devam eder.
+
+### Coinbase’de param FDIC sigortalı mı?
+
+Yalnızca ABD doları nakit, ortak bir banka iflas ederse mudi başına 250.000 $’a kadar “pass-through” sigortası kapsamına girebilir. Bitcoin dahil kripto FDIC sigortalı değildir ve teminat Coinbase’in kayıt tutmasına bağlıdır.
+
+### Coinbase hacklenebilir mi veya bitcoinimi kaybedebilir mi?
+
+Her çevrimiçi hizmete saldırılabilir. Coinbase, müşteri varlıklarının %99’undan fazlasını çevrimdışı soğuk saklamada tuttuğunu ve anahtarlarını böldüğünü söylüyor. Suç sigortası varlıkların yalnızca bir bölümünü kapsar ve çalınan kimlik bilgilerinden kaynaklanan hesap ele geçirmelerini kapsamaz.
+
+### Coinbase iflas ederse kriptoma ne olur?
+
+Bu, mahkemede sınanmış değil. Coinbase, kullanıcı sözleşmesinin ve UCC Article 8’in kriptonuzu genel iflas masasından uzak tutması gerektiğini söylüyor; ancak kendi yıllık raporu müşterilerin adi alacaklı sayılabileceği uyarısını yapıyor.
+
+### Coinbase meşru mu, yoksa dolandırıcılık mı?
+
+Coinbase gerçek, borsada işlem gören bir şirkettir. Dolandırıcılıklar taklitçilerden, sahte uygulamalardan ve sahte destek hatlarından gelir; bu yüzden web adresini kendiniz yazın veya resmî uygulamayı kullanın ve istenmeyen aramalara asla güvenmeyin.
+
+### Kriptomu uzun vadede Coinbase’de tutmalı mıyım?
+
+Pek çok kişi öğrenirken orada küçük tutarlar tutar. Bakiyeler büyüdükçe bazıları kendi saklama cüzdanına geçer. Her iki yolun da artıları ve eksileri var; [cüzdan rehberimizde](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) anlatıyoruz.
+
+!soft: Kriptoya yeni misiniz? [Coinbase’de ilk bitcoininizi alma rehberimizle](/articles/how-to-buy-first-bitcoin-coinbase) başlayın.
+
+!end_cta
+
+!disclosure

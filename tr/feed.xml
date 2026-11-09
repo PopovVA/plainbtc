@@ -5,8 +5,29 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:50:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Kripto cüzdanı nedir? Emanetçi ve kendi saklama cüzdanı, yeni başlayanlar için anlatım</title>
+      <link>https://plainbtc.com/tr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</guid>
+      <pubDate>Mon, 09 Nov 2026 19:50:00 GMT</pubDate>
+      <description>Cüzdan coin tutmaz, anahtar tutar. Emanetçi ve kendi saklama cüzdanları arasındaki farkı, kurtarma ifadesinin ne olduğunu ve güvenle nasıl başlayacağınızı öğrenin.</description>
+    </item>
+    <item>
+      <title>Yeni başlayan biri ne kadar Bitcoin almalı? Dolar maliyet ortalaması (DCA) için sade bir rehber</title>
+      <link>https://plainbtc.com/tr/articles/how-much-bitcoin-should-a-beginner-buy-dca</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/how-much-bitcoin-should-a-beginner-buy-dca</guid>
+      <pubDate>Mon, 09 Nov 2026 19:48:00 GMT</pubDate>
+      <description>Doğru tutarı kimse söyleyemez ama karar vermek için mantıklı bir yöntem seçebilirsiniz. Dolar maliyet ortalamasını (DCA) açıklıyor, gerçek fiyatlarla test ediyor ve düzenli alımın nasıl kurulacağını gösteriyoruz.</description>
+    </item>
+    <item>
+      <title>Coinbase yeni başlayanlar için güvenli mi? Nelerin korunduğu, nelerin korunmadığı ve riski nasıl azaltabileceğiniz</title>
+      <link>https://plainbtc.com/tr/articles/is-coinbase-safe-for-beginners</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/is-coinbase-safe-for-beginners</guid>
+      <pubDate>Mon, 09 Nov 2026 19:46:00 GMT</pubDate>
+      <description>Coinbase’in güvenliğine sade bir bakış: kriptoyu nasıl sakladığı, neyin sigortalı olduğu ve olmadığı, 2025 veri ihlalinin ne olduğu ve hesabınızı korumak için bir kontrol listesi.</description>
+    </item>
     <item>
       <title>Coinbase, OCC’den tam ulusal güven bankası lisansı aldı: Bu ne anlama geliyor?</title>
       <link>https://plainbtc.com/tr/articles/coinbase-occ-national-trust-charter-nov-2026</link>

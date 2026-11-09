@@ -1,0 +1,113 @@
+title: Apakah Coinbase aman untuk pemula? Apa yang dilindungi, apa yang tidak, dan cara menurunkan risiko
+page_title: Apakah Coinbase aman untuk pemula?
+description: Apakah Coinbase aman? Tinjauan sederhana tentang apa yang dilindungi, apa yang tidak diasuransikan, kebocoran data 2025, dan cara pemula menurunkan risiko.
+og_description: Apa yang dilindungi Coinbase, apa yang dicakup dan tidak dicakup asuransi FDIC, serta daftar periksa singkat untuk mengamankan akun Anda.
+label: Panduan pemula
+summary: Pemeriksaan keamanan Coinbase yang mudah dipahami: cara menyimpan kripto, apa yang diasuransikan dan tidak, apa itu kebocoran data 2025, dan daftar periksa untuk melindungi akun Anda.
+===
+
+“Apakah Coinbase aman?” adalah salah satu pertanyaan pertama pembeli baru, dan jawaban jujurnya ada dua bagian. Coinbase adalah perusahaan besar AS yang tercatat di bursa dengan praktik keamanan yang serius. Namun “aman” tidak berarti “tanpa risiko”: kripto tidak diasuransikan seperti simpanan bank, harga bisa berayun tajam, dan penipu menyasar pemula. Panduan ini memisahkan apa yang dilindungi Coinbase dari apa yang tetap menjadi tanggung jawab Anda.
+
+!takeaways
+- Coinbase menyatakan lebih dari 99% kripto nasabah disimpan di dompet dingin offline, dan mewajibkan verifikasi dua langkah untuk mengakses akun.
+- Saldo dolar AS dapat memenuhi syarat asuransi “pass-through” FDIC hingga US$250.000 per penyimpan. Kripto itu sendiri tidak diasuransikan FDIC.
+- Kebocoran pada 2025 membuka data pribadi sebagian nasabah lewat staf dukungan yang disuap, tetapi Coinbase menyatakan kata sandi, kunci pribadi, dan dana tidak terdampak.
+- Bagi kebanyakan pemula, penipuan peniruan identitas dan gejolak harga adalah risiko sehari-hari yang lebih besar daripada pembobolan Coinbase sendiri.
+
+## Jawaban singkat
+
+Bagi kebanyakan pemula di AS, Coinbase adalah tempat awal yang masuk akal jika digunakan dengan hati-hati, tetapi tidak bebas risiko. Coinbase tercatat di Nasdaq dan menyampaikan [laporan tahunan dan kuartalan kepada SEC](L1), yang mewajibkannya mengungkap risiko secara terbuka. Unit kustodiannya juga baru-baru ini mendapat piagam trust federal, yang dapat Anda baca di [laporan kami tentang piagam OCC](/articles/coinbase-occ-national-trust-charter-nov-2026). Perlu dicatat bahwa piagam itu mencakup kustodi institusional, bukan akun ritel biasa.
+
+Ada gunanya memisahkan tiga risiko: <strong>risiko perusahaan</strong> (Coinbase diretas atau gagal), <strong>risiko akun</strong> (seseorang mengambil alih login Anda atau menipu Anda), dan <strong>risiko pasar</strong> (harga turun). Coinbase bisa mengurangi dua yang pertama. Tidak ada yang bisa menghilangkan yang ketiga.
+
+## Bagaimana Coinbase melindungi kripto Anda
+
+Coinbase mengatakan menggunakan dua jenis penyimpanan. Sebagian kecil berada di dompet panas agar nasabah bisa menarik dana dengan cepat, sementara [lebih dari 99% aset tetap berada di dompet dingin](L2) yang disimpan offline. Coinbase juga menyatakan kunci pribadi untuk aset nasabah di penyimpanan dingin dipecah menjadi beberapa bagian dan tidak pernah digabung di satu tempat, bahkan saat menandatangani transaksi. Secara teori, itu berarti satu laptop yang dicuri atau satu karyawan tidak jujur tidak dapat memindahkan dana nasabah.
+
+Dari sisi akun, Coinbase menyatakan [verifikasi dua langkah wajib](L3) untuk mengakses akun, dan merekomendasikan kunci keamanan atau passkey. Ini adalah penjelasan dari perusahaan sendiri, jadi anggaplah sebagai klaim yang tidak dapat Anda periksa secara independen.
+
+!figure:cold
+
+## Apa yang diasuransikan dan apa yang tidak
+
+Coinbase menyatakan dengan jelas bahwa mereka <strong>bukan bank yang diasuransikan FDIC</strong>. Pembagiannya begini:
+
+- <strong>Uang tunai dolar AS.</strong> Coinbase menyatakan uang tunai nasabah disimpan di rekening gabungan pada bank yang diasuransikan FDIC atau koperasi kredit yang diasuransikan NCUSIF, yang disusun agar Coinbase dapat mengajukan [asuransi pass-through](L4) hingga US$250.000 per penyimpan jika salah satu lembaga itu bangkrut. Cakupannya bergantung pada catatan Coinbase dan keputusan regulator saat itu. Ini tidak melindungi Anda dari penurunan harga atau dari orang yang masuk ke akun Anda.
+- <strong>Kripto.</strong> Bitcoin dan kripto lain tidak dicakup perlindungan FDIC, NCUSIF, atau SIPC. Coinbase memiliki asuransi kejahatan untuk sebagian mata uang digital di sistem penyimpanannya, tetapi polisnya [tidak menanggung kerugian akibat akses tidak sah ke akun Anda](L5) yang disebabkan kebocoran atau hilangnya kredensial Anda, dan perusahaan menyatakan total kerugian bisa melebihi klaim asuransi.
+
+!figure:fdic
+
+!mid_cta
+
+## Bagaimana jika Coinbase sendiri gagal?
+
+Perjanjian pengguna Coinbase menyatakan kepemilikan kripto Anda tetap pada Anda dan bukan milik Coinbase. Namun dalam faktor risiko [laporan tahunannya](L6), Coinbase memperingatkan bahwa kripto yang disimpan dapat dianggap bagian dari harta pailit, dan nasabah dapat diperlakukan sebagai kreditur umum tanpa jaminan. Perusahaan yakin pengadilan tidak akan melakukannya karena aturan negara bagian bernama UCC Article 8, tetapi juga menyatakan bahwa pengadilan belum pernah memeriksa pertanyaan ini untuk kripto yang disimpan.
+
+Dengan bahasa sederhana: tidak ada yang tahu pasti bagaimana hakim akan memutuskan. Ketidakpastian itu salah satu alasan orang dengan saldo lebih besar mempertimbangkan penyimpanan mandiri, yang kami jelaskan di [panduan dompet kustodian vs. penyimpanan mandiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+## Apa yang terjadi pada kebocoran data 2025
+
+Pada Mei 2025, Coinbase memberi tahu SEC bahwa penjahat telah [membayar kontraktor dan karyawan dukungan di luar negeri](L7) untuk menyalin informasi nasabah dari sistem internal. Data tersebut mencakup nama, alamat, nomor telepon, email, empat digit terakhir nomor jaminan sosial, nomor rekening bank yang disamarkan, gambar kartu identitas, serta saldo dan riwayat transaksi akun.
+
+Coinbase menyatakan insiden itu tidak melibatkan kata sandi atau kunci pribadi, dan tidak ada yang dapat mengakses dana nasabah. Perusahaan memperkirakan biaya US$180 juta hingga US$400 juta, menyatakan akan mengganti nasabah yang tertipu mengirim dana, dan menolak tuntutan tebusan US$20 juta.
+
+Pelajarannya bukan bahwa brankas Coinbase dikuras. Pelajarannya, data pribadi yang dicuri memungkinkan penipuan yang meyakinkan, dan itu membawa kita ke risiko sehari-hari terbesar.
+
+## Penipuan adalah risiko sehari-hari yang nyata
+
+FINRA, organisasi swa-regulasi industri sekuritas, memperingatkan bahwa [penipuan kripto marak](L8), termasuk phishing, dukungan teknis palsu, dan penipu yang menyamar sebagai layanan sah. Setelah kripto dikirim, biasanya hilang selamanya.
+
+Coinbase menyatakan stafnya tidak akan pernah meminta kata sandi atau kode verifikasi dua langkah Anda, tidak akan pernah meminta frasa pemulihan Anda, tidak akan pernah meminta akses jarak jauh ke perangkat Anda, dan tidak akan pernah meminta Anda memindahkan dana ke dompet yang “aman”. Jika ada yang menelepon mengaku dari Coinbase, [Coinbase menyatakan itu penipuan](L9).
+
+!howto
+
+## Cara mengunci akun Coinbase Anda
+
+Enam langkah ini memakan waktu sekitar sepuluh menit dan mengikuti saran keamanan Coinbase sendiri:
+
+1. <strong>Siapkan verifikasi dua langkah yang kuat.</strong> Coinbase merekomendasikan passkey atau kunci keamanan, ditambah metode cadangan jika Anda kehilangan ponsel.
+2. <strong>Gunakan email khusus untuk Coinbase.</strong> Coinbase mencatat bahwa alamat email adalah titik awal umum bagi penjahat yang menyusun profil target.
+3. <strong>Aktifkan daftar putih alamat penarikan.</strong> Ini membatasi transfer on-chain hanya ke alamat dompet yang sudah Anda setujui sebelumnya.
+4. <strong>Jangan pernah membagikan kode, kata sandi, atau frasa pemulihan.</strong> Termasuk kepada orang yang mengaku bekerja di Coinbase.
+5. <strong>Hubungi Coinbase hanya lewat situs atau aplikasi resminya.</strong> Tutup telepon dari panggilan tak terduga. Jika ada yang terasa janggal, kunci akun Anda di aplikasi dan kirim email ke alamat di halaman bantuan Coinbase.
+6. <strong>Mulai dari yang kecil.</strong> Pelajari aplikasi dengan jumlah yang sanggup Anda relakan sebelum memindahkan jumlah yang lebih besar.
+
+## Jadi, apakah Coinbase aman untuk pemula?
+
+Coinbase memiliki perlindungan nyata dan rekam jejak publik yang panjang, dan insiden 2025 yang diungkapkannya menyangkut data pribadi, bukan, menurut perusahaan, dana nasabah. Namun kripto membawa risiko yang tidak bisa diasuransikan oleh perusahaan mana pun, dan FINRA mencatat bahwa risiko kehilangan seluruh investasi cukup besar. Risiko terbesar bagi banyak pemula adalah harga itu sendiri. Lihat seperti apa pekan yang bergejolak di [rangkuman likuidasi bitcoin](/articles/bitcoin-volatility-liquidations-nov-2026) kami dan baca panduan tentang [berapa banyak bitcoin yang sebaiknya dibeli pemula](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+Jika Anda memutuskan Coinbase cocok untuk Anda dan tersedia di negara Anda, Anda dapat [membuka akun](REF){{#ref}} lewat tautan referral kami{{/ref}} dan mengikuti [panduan pembelian langkah demi langkah](/articles/how-to-buy-first-bitcoin-coinbase) kami.
+
+!faq
+
+## Pertanyaan umum
+
+### Apakah Coinbase aman digunakan pada 2026?
+
+Bagi kebanyakan pemula di AS, ini pilihan yang masuk akal jika Anda mengamankan akun, tetapi tidak ada platform kripto yang bebas risiko. Coinbase adalah perusahaan publik yang mengungkap risikonya dan mewajibkan verifikasi dua langkah. Gejolak harga dan penipuan tetap menjadi risiko terbesar Anda.
+
+### Apakah uang saya diasuransikan FDIC di Coinbase?
+
+Hanya uang tunai dolar AS yang bisa memenuhi syarat, lewat asuransi pass-through hingga US$250.000 per penyimpan jika bank mitra bangkrut. Kripto, termasuk bitcoin, tidak diasuransikan FDIC, dan cakupannya bergantung pada pencatatan Coinbase.
+
+### Bisakah Coinbase diretas atau kehilangan bitcoin saya?
+
+Layanan online mana pun bisa diserang. Coinbase menyatakan menyimpan lebih dari 99% aset nasabah di penyimpanan dingin offline dan memecah kuncinya. Asuransi kejahatannya hanya mencakup sebagian aset dan tidak mencakup pengambilalihan akun akibat kredensial yang dicuri.
+
+### Apa yang terjadi pada kripto saya jika Coinbase bangkrut?
+
+Hal ini belum diuji di pengadilan. Coinbase menyatakan perjanjian penggunanya dan UCC Article 8 seharusnya menjaga kripto Anda di luar harta umum perusahaan, tetapi laporan tahunannya sendiri memperingatkan bahwa nasabah dapat diperlakukan sebagai kreditur tanpa jaminan.
+
+### Apakah Coinbase asli atau penipuan?
+
+Coinbase adalah perusahaan publik yang nyata. Penipuan datang dari peniru, aplikasi palsu, dan jalur dukungan palsu, jadi ketik sendiri alamat situsnya atau gunakan aplikasi resmi, dan jangan pernah percaya panggilan yang tidak diminta.
+
+### Haruskah saya menyimpan kripto di Coinbase dalam jangka panjang?
+
+Banyak orang menyimpan jumlah kecil di sana saat belajar. Ketika saldo bertambah, sebagian beralih ke dompet penyimpanan mandiri. Keduanya punya kelebihan dan kekurangan, yang kami bahas di [panduan dompet](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) kami.
+
+!soft: Baru mengenal kripto? Mulailah dengan [panduan membeli bitcoin pertama Anda di Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

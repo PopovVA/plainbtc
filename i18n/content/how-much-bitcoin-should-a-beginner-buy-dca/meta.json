@@ -1,0 +1,19 @@
+{
+ "slug": "how-much-bitcoin-should-a-beginner-buy-dca",
+ "date": "2026-11-09",
+ "readtime": 8,
+ "related": [
+  "is-coinbase-safe-for-beginners",
+  "how-to-buy-first-bitcoin-coinbase",
+  "bitcoin-volatility-liquidations-nov-2026"
+ ],
+ "sources": [
+  {"url": "https://www.finra.org/investors/investing/investment-products/crypto-assets/risks", "title": "FINRA — Crypto assets: risks", "date": ""},
+  {"url": "https://www.finra.org/investors/insights/dollar-cost-averaging", "title": "FINRA — The benefits and limitations of dollar-cost averaging", "date": "May 19, 2026"},
+  {"url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/dollar-cost-averaging", "title": "Investor.gov (SEC) — Dollar cost averaging", "date": ""},
+  {"url": "https://help.coinbase.com/en/coinbase/trading-and-funding/buying-selling-or-converting-crypto/how-can-i-create-or-cancel-a-recurring-transaction", "title": "Coinbase Help — How to set up recurring buys", "date": ""},
+  {"url": "https://docs.cdp.coinbase.com/exchange/reference/exchangerestapi_getproductcandles", "title": "Coinbase Exchange API — BTC-USD daily candles (price data used for charts)", "date": ""},
+  {"url": "https://www.irs.gov/filing/digital-assets", "title": "IRS — Digital assets", "date": ""}
+ ],
+ "disclosure_variant": "guide"
+}

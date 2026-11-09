@@ -1,0 +1,123 @@
+title: How much Bitcoin should a beginner buy? A plain-English guide to dollar-cost averaging
+page_title: How much Bitcoin should a beginner buy? Dollar-cost averaging explained
+description: How much Bitcoin should a beginner buy? Learn dollar-cost averaging with real price data, its pros and cons, and how to set up a recurring buy on Coinbase.
+og_description: There is no single right amount. Here is how to think about it, what dollar-cost averaging does and doesn’t do, and how to start small.
+label: Beginner guide
+summary: No one can tell you the right amount, but you can pick a sensible way to decide. We explain dollar-cost averaging, test it on real price data, and show how to set up a recurring buy.
+===
+
+“How much Bitcoin should I buy?” is the question almost every beginner asks, and the honest answer is that nobody can tell you a number without knowing your finances. What we can do is show you how to think about the amount, explain a popular approach called dollar-cost averaging, and test it against real price history. This is education, not advice.
+
+!takeaways
+- There is no official “right” amount. Regulators say never to invest more than you can afford to lose.
+- Bitcoin has fallen more than 50% from a peak twice since 2021, so size your buys for the bad days, not the good ones.
+- Dollar-cost averaging means investing equal amounts on a schedule. It reduces timing risk but does not prevent losses or guarantee better returns than buying all at once.
+- A small, regular buy is an easy way to learn the app and the price swings before you commit more.
+
+## The honest answer: there is no magic number
+
+FINRA, the securities industry’s self-regulator, says crypto assets are [often extremely volatile](L1), that the risk of losing all of your investment is significant, and that you should never invest more than you can afford to lose. That is the only “rule” with real backing. Everything else is a personal choice.
+
+Before buying, many people first check that they have an emergency fund, are not carrying expensive debt, and are not using money they will need for rent or bills soon. Those steps are common financial advice rather than crypto-specific rules, but they matter more when the asset can swing wildly.
+
+## Why bitcoin’s price swings matter for your amount
+
+The chart below uses daily closing prices from Coinbase’s public exchange data. Bitcoin’s closing price fell about 77% from November 8, 2021 to November 21, 2022. More recently, it fell about 53% from its October 6, 2025 close to June 30, 2026. Our recent coverage shows [how violent a single weekend can be](/articles/bitcoin-volatility-liquidations-nov-2026).
+
+!figure:chart
+
+Past moves don’t predict future ones, but they show what is possible. A useful gut check: if the amount you buy fell by half, would you be able to leave it alone? If not, consider a smaller amount.
+
+## Three simple ways to pick an amount
+
+There is no official formula, but beginners often use one of these:
+
+- <strong>A fixed dollar amount you will not miss.</strong> For example, something small enough that a 50% drop would be annoying rather than harmful.
+- <strong>A small share of money you’re investing.</strong> Some people cap crypto at a modest slice of their investments. There is no standard percentage, and FINRA stresses diversification.
+- <strong>A “learning” purchase.</strong> A tiny first buy to learn how orders, fees, and sending work. Our [first-buy walkthrough](/articles/how-to-buy-first-bitcoin-coinbase) covers the steps.
+
+You can also buy a fraction of a bitcoin, so you never need to afford a whole one.
+
+## What dollar-cost averaging means
+
+Investor.gov, the SEC’s investor education site, defines [dollar-cost averaging](L2) as investing your money in equal portions, at regular intervals, regardless of the ups and downs in the market. You buy more when the price is low and less when it is high.
+
+For example, instead of buying $520 of bitcoin today, you could buy $10 every week for a year. Your average cost will land somewhere between the highs and lows you bought at, and you never have to guess the “right” day.
+
+## Does it actually work? A test with real prices
+
+We ran a simple back-test using Coinbase’s daily closing prices. It assumes $50 of bitcoin bought each week, compared with investing the same total in a single lump sum on day one. Values are as of the November 8, 2026 close. It ignores fees and taxes, and it is only an illustration.
+
+!figure:fact
+
+!mid_cta
+
+The results are mixed, and that is the point:
+
+- <strong>Last 12 months (53 weekly buys, $2,650 in total).</strong> Price mostly fell, so the weekly buyer ended with about $2,633 versus about $1,892 for the lump sum.
+- <strong>Last 24 months (105 buys, $5,250).</strong> About $4,562 for weekly buying versus about $5,126 for the lump sum.
+- <strong>Last 36 months (157 buys, $7,850).</strong> Price rose a lot early on, so the lump sum, at about $15,823, beat weekly buying, at about $8,069.
+
+In the 12-month window, dollar-cost averaging cushioned a sharp fall. In the 36-month window, it lagged a strong rise. FINRA says the same thing in general terms: spreading out investments lowers risk but [often produces lower returns than lump-sum investing](L3).
+
+## Pros and cons of dollar-cost averaging
+
+- <strong>Pros:</strong> removes the pressure to time the market, builds a habit, keeps each purchase small, and may reduce regret and panic decisions.
+- <strong>Cons:</strong> money waiting on the sidelines may miss gains, more transactions can mean more fees, and it does not guarantee a profit or protect against losses.
+
+!howto
+
+## How to set up a recurring buy on Coinbase
+
+Coinbase lets you [schedule recurring buys](L4) weekly, on the 1st and 15th of the month, or monthly. Not all payment methods qualify, so check the app. The steps are:
+
+1. <strong>Open Buy & sell</strong> in the Coinbase app, or the Buy / Sell panel on the web.
+2. <strong>Choose Bitcoin</strong> as the asset.
+3. <strong>Switch the order type</strong> from Quick Buy to Recurring buy and pick a frequency.
+4. <strong>Enter the amount</strong> you want to buy each time.
+5. <strong>Select an eligible payment method.</strong> You can also use a cash balance.
+6. <strong>Tap Preview buy,</strong> read the fees, then confirm with Buy now.
+
+Two things to know. The first purchase happens immediately when you set the schedule. And you can’t edit the amount or frequency later: you cancel the plan and create a new one. If you don’t have an account yet, you can [open a Coinbase account](REF){{#ref}} through our referral link{{/ref}}. Check [whether Coinbase is safe](/articles/is-coinbase-safe-for-beginners) first if you want a risk check.
+
+## Rules of thumb for beginners
+
+- Start small and increase only if you are comfortable.
+- Use money you could leave alone for years.
+- Check the fee on the preview screen before every buy, since small recurring buys can add up.
+- Ignore social media hype and fear of missing out.
+- Keep records. The IRS treats digital assets as property, and [selling or exchanging them can create taxable gains or losses](L5).
+
+!faq
+
+## FAQ
+
+### How much bitcoin should I buy with $100?
+
+No one can say. You can buy a fraction of a bitcoin, so $100 buys a small slice. Consider whether you would be comfortable if it lost half its value, and read the fees on the preview screen before confirming.
+
+### Is dollar-cost averaging better than buying all at once?
+
+Not always. Dollar-cost averaging lowers timing risk, but often produces lower returns than lump-sum investing when prices rise. In our back-test, it did better over 12 months and worse over 36.
+
+### How often should I buy bitcoin with DCA?
+
+Coinbase offers weekly, twice-monthly (1st and 15th), and monthly schedules. Pick a frequency that matches your income, and remember each buy may carry a fee.
+
+### What is the minimum to buy bitcoin on Coinbase?
+
+Minimums vary by asset and payment method, and Coinbase tells you in the app if you are below one. You can buy fractions of a bitcoin.
+
+### Can I lose all my money buying bitcoin?
+
+FINRA says the risk of losing all of your investment in crypto is significant. That is why the common advice is never to invest more than you can afford to lose.
+
+### Do I owe taxes on bitcoin?
+
+Possibly. For tax purposes, the IRS treats digital assets as property, so selling or exchanging them can produce a capital gain or loss. Consider asking a tax professional.
+
+!soft: Not sure where to store what you buy? Read our [custodial vs. self-custody wallet guide](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "compare",
+    "file": "compare-custodial-vs-self.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Comparison card: custodial wallets, where a company holds the keys, versus self-custody wallets, where you do",
+      "es": "Tarjeta comparativa: carteras custodiadas, donde una empresa guarda las claves, frente a carteras de autocustodia, donde las guardas tú",
+      "pt": "Cartão comparativo: carteiras custodiais, em que uma empresa guarda as chaves, e carteiras de autocustódia, em que você as guarda",
+      "fr": "Encadré comparatif : portefeuilles custodiaux, où une entreprise détient les clés, et portefeuilles en auto-conservation, où c’est vous",
+      "de": "Vergleichskarte: Custodial-Wallets, bei denen ein Unternehmen die Schlüssel hält, und Self-Custody-Wallets, bei denen Sie sie halten",
+      "ru": "Сравнительная карточка: кастодиальные кошельки, где ключи у компании, и некастодиальные, где ключи у вас",
+      "tr": "Karşılaştırma kartı: anahtarları bir şirketin tuttuğu emanetçi cüzdanlar ile anahtarları sizin tuttuğunuz kendi saklama cüzdanları",
+      "id": "Kartu perbandingan: dompet kustodian, di mana perusahaan memegang kunci, dan dompet self-custody, di mana Anda memegangnya",
+      "ja": "比較カード：企業が鍵を保管するカストディアルウォレットと、自分で鍵を管理するセルフカストディウォレット",
+      "ko": "비교 카드: 회사가 키를 보관하는 수탁형 지갑과 본인이 키를 보관하는 셀프 커스터디 지갑"
+    },
+    "caption": {
+      "en": "Source: Coinbase Help, Bitcoin.org, FINRA",
+      "es": "Fuente: Coinbase Help, Bitcoin.org, FINRA",
+      "pt": "Fonte: Coinbase Help, Bitcoin.org, FINRA",
+      "fr": "Source : Coinbase Help, Bitcoin.org, FINRA",
+      "de": "Quelle: Coinbase Help, Bitcoin.org, FINRA",
+      "ru": "Источник: Coinbase Help, Bitcoin.org, FINRA",
+      "tr": "Kaynak: Coinbase Help, Bitcoin.org, FINRA",
+      "id": "Sumber: Coinbase Help, Bitcoin.org, FINRA",
+      "ja": "出典: Coinbase Help, Bitcoin.org, FINRA",
+      "ko": "출처: Coinbase Help, Bitcoin.org, FINRA"
+    }
+  },
+  {
+    "id": "words",
+    "file": "fact-12-words.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: a Coinbase Wallet recovery phrase is 12 words, and Coinbase cannot restore it if you lose it",
+      "es": "Tarjeta: la frase de recuperación de Coinbase Wallet tiene 12 palabras y Coinbase no puede restaurarla si la pierdes",
+      "pt": "Cartão: a frase de recuperação da Coinbase Wallet tem 12 palavras, e a Coinbase não consegue restaurá-la se você a perder",
+      "fr": "Encadré : la phrase de récupération de Coinbase Wallet compte 12 mots, et Coinbase ne peut pas la restaurer si vous la perdez",
+      "de": "Faktenkarte: Die Wiederherstellungsphrase von Coinbase Wallet hat 12 Wörter; Coinbase kann sie bei Verlust nicht wiederherstellen",
+      "ru": "Карточка: фраза восстановления Coinbase Wallet состоит из 12 слов, и Coinbase не сможет восстановить её при потере",
+      "tr": "Bilgi kartı: Coinbase Wallet kurtarma ifadesi 12 kelimedir ve kaybederseniz Coinbase onu geri getiremez",
+      "id": "Kartu fakta: frasa pemulihan Coinbase Wallet terdiri dari 12 kata, dan Coinbase tidak dapat memulihkannya jika hilang",
+      "ja": "ファクトカード：Coinbase Walletのリカバリーフレーズは12語で、紛失してもCoinbaseは復元できない",
+      "ko": "팩트 카드: 코인베이스 월렛 복구 문구는 12단어이며 분실하면 코인베이스도 복구할 수 없음"
+    },
+    "caption": {
+      "en": "Source: Coinbase Help, BIP-39",
+      "es": "Fuente: Coinbase Help, BIP-39",
+      "pt": "Fonte: Coinbase Help, BIP-39",
+      "fr": "Source : Coinbase Help, BIP-39",
+      "de": "Quelle: Coinbase Help, BIP-39",
+      "ru": "Источник: Coinbase Help, BIP-39",
+      "tr": "Kaynak: Coinbase Help, BIP-39",
+      "id": "Sumber: Coinbase Help, BIP-39",
+      "ja": "出典: Coinbase Help, BIP-39",
+      "ko": "출처: Coinbase Help, BIP-39"
+    }
+  }
+]

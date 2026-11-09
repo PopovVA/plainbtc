@@ -1,0 +1,123 @@
+title: Wie viel Bitcoin sollte ein Anfänger kaufen? Der verständliche Guide zum Cost-Average-Effekt (DCA)
+page_title: Wie viel Bitcoin sollte ein Anfänger kaufen? DCA erklärt
+description: Wie viel Bitcoin sollte ein Anfänger kaufen? DCA mit echten Kursdaten, Vor- und Nachteile und die Einrichtung eines Sparplans bei Coinbase.
+og_description: Es gibt keinen einzig richtigen Betrag. So denken Sie darüber nach, was DCA kann und was nicht, und wie Sie klein anfangen.
+label: Einsteigerguide
+summary: Den richtigen Betrag kann Ihnen niemand nennen, aber Sie können eine sinnvolle Methode wählen. Wir erklären DCA, testen es mit echten Kursen und zeigen, wie man einen wiederkehrenden Kauf einrichtet.
+===
+
+„Wie viel Bitcoin soll ich kaufen?“ ist die Frage, die sich fast jeder Einsteiger stellt, und die ehrliche Antwort lautet: Ohne Ihre Finanzen zu kennen, kann Ihnen niemand eine Zahl nennen. Wir können Ihnen aber zeigen, wie Sie über den Betrag nachdenken, einen beliebten Ansatz namens Dollar-Cost-Averaging (DCA, im Deutschen Cost-Average-Effekt) erklären und ihn an echten Kursdaten testen. Das ist Bildung, keine Beratung.
+
+!takeaways
+- Es gibt keinen offiziellen „richtigen“ Betrag. Aufsichtsbehörden sagen, Sie sollten nie mehr investieren, als Sie sich leisten können zu verlieren.
+- Bitcoin ist seit 2021 zweimal um mehr als 50 % von einem Höchststand gefallen. Bemessen Sie Ihre Käufe also an den schlechten Tagen, nicht an den guten.
+- DCA heißt, nach Zeitplan gleich hohe Beträge zu investieren. Es senkt das Timing-Risiko, verhindert aber keine Verluste und garantiert keine besseren Erträge als ein einmaliger Kauf.
+- Ein kleiner, regelmäßiger Kauf ist ein einfacher Weg, die App und die Kursschwankungen kennenzulernen, bevor Sie mehr einsetzen.
+
+## Die ehrliche Antwort: Es gibt keine magische Zahl
+
+Die FINRA, die Selbstregulierungsorganisation der Wertpapierbranche, sagt, Kryptowerte seien [oft extrem volatil](L1), das Risiko eines Totalverlusts sei erheblich, und man solle nie mehr investieren, als man sich leisten kann zu verlieren. Das ist die einzige „Regel“ mit echtem Rückhalt. Alles andere ist eine persönliche Entscheidung.
+
+Vor dem Kauf prüfen viele zuerst, ob sie eine Notfallreserve haben, keine teuren Schulden mit sich tragen und kein Geld verwenden, das sie bald für Miete oder Rechnungen brauchen. Das sind gängige Finanzratschläge und keine Krypto-Sonderregeln, doch sie wiegen schwerer, wenn ein Wert so stark schwanken kann.
+
+## Warum Bitcoins Kursschwankungen für Ihren Betrag wichtig sind
+
+Das Diagramm unten nutzt tägliche Schlusskurse aus den öffentlichen Börsendaten von Coinbase. Bitcoins Schlusskurs fiel vom 8. November 2021 bis zum 21. November 2022 um rund 77 %. Zuletzt fiel er vom Schlusskurs am 6. Oktober 2025 bis zum 30. Juni 2026 um rund 53 %. Unsere aktuelle Berichterstattung zeigt, [wie heftig ein einziges Wochenende sein kann](/articles/bitcoin-volatility-liquidations-nov-2026).
+
+!figure:chart
+
+Vergangene Bewegungen sagen die künftigen nicht voraus, zeigen aber, was möglich ist. Ein guter Test: Wenn der gekaufte Betrag auf die Hälfte fiele, könnten Sie ihn dann in Ruhe liegen lassen? Wenn nicht, erwägen Sie einen kleineren Betrag.
+
+## Drei einfache Wege, einen Betrag festzulegen
+
+Eine offizielle Formel gibt es nicht, aber Einsteiger nutzen oft eine dieser Methoden:
+
+- <strong>Ein fester Dollarbetrag, den Sie nicht vermissen.</strong> Zum Beispiel so klein, dass ein Kursrutsch um 50 % ärgerlich, aber nicht schädlich wäre.
+- <strong>Ein kleiner Anteil des Geldes, das Sie anlegen.</strong> Manche begrenzen Krypto auf einen bescheidenen Teil ihrer Anlagen. Einen Standardprozentsatz gibt es nicht, und die FINRA betont die Diversifikation.
+- <strong>Ein „Lernkauf“.</strong> Ein winziger erster Kauf, um zu verstehen, wie Orders, Gebühren und Überweisungen funktionieren. Unsere [Anleitung zum ersten Kauf](/articles/how-to-buy-first-bitcoin-coinbase) erklärt die Schritte.
+
+Sie können auch einen Bruchteil eines Bitcoins kaufen, müssen sich also nie einen ganzen leisten.
+
+## Was Dollar-Cost-Averaging bedeutet
+
+Investor.gov, die Anlegerbildungsseite der SEC, definiert [Dollar-Cost-Averaging](L2) als Anlage Ihres Geldes in gleichen Teilen in regelmäßigen Abständen, unabhängig von den Höhen und Tiefen des Marktes. Sie kaufen mehr, wenn der Preis niedrig ist, und weniger, wenn er hoch ist.
+
+Statt heute Bitcoin für 520 $ zu kaufen, könnten Sie zum Beispiel ein Jahr lang jede Woche 10 $ kaufen. Ihr Durchschnittspreis liegt dann zwischen den Hoch- und Tiefpunkten Ihrer Käufe, und Sie müssen nie den „richtigen“ Tag erraten.
+
+## Funktioniert es wirklich? Ein Test mit echten Kursen
+
+Wir haben einen einfachen Rückblick-Test mit den täglichen Schlusskursen von Coinbase gemacht. Angenommen werden wöchentliche Käufe von 50 $ in Bitcoin, verglichen mit der Anlage derselben Gesamtsumme in einer Einmalzahlung am ersten Tag. Die Werte gelten zum Schlusskurs vom 8. November 2026. Gebühren und Steuern bleiben unberücksichtigt, und es ist nur eine Veranschaulichung.
+
+!figure:fact
+
+!mid_cta
+
+Die Ergebnisse sind gemischt, und genau das ist der Punkt:
+
+- <strong>Letzte 12 Monate (53 wöchentliche Käufe, insgesamt 2650 $).</strong> Der Kurs fiel überwiegend, daher endete der wöchentliche Käufer bei etwa 2633 $ gegenüber etwa 1892 $ bei der Einmalanlage.
+- <strong>Letzte 24 Monate (105 Käufe, 5250 $).</strong> Etwa 4562 $ beim wöchentlichen Kauf gegenüber etwa 5126 $ bei der Einmalanlage.
+- <strong>Letzte 36 Monate (157 Käufe, 7850 $).</strong> Der Kurs stieg anfangs stark, daher schlug die Einmalanlage mit etwa 15.823 $ den wöchentlichen Kauf mit etwa 8069 $.
+
+Im 12-Monats-Fenster federte DCA einen starken Kursrückgang ab. Im 36-Monats-Fenster hinkte es einem kräftigen Anstieg hinterher. Die FINRA sagt dasselbe in allgemeiner Form: Gestreckte Investitionen senken das Risiko, [bringen aber oft geringere Erträge als eine Einmalanlage](L3).
+
+## Vor- und Nachteile von Dollar-Cost-Averaging
+
+- <strong>Vorteile:</strong> nimmt den Druck, den Markt timen zu müssen, schafft eine Gewohnheit, hält jeden Kauf klein und kann Reue und Panikentscheidungen verringern.
+- <strong>Nachteile:</strong> Geld, das am Rand wartet, verpasst womöglich Gewinne, mehr Transaktionen können mehr Gebühren bedeuten, und es garantiert weder Gewinn noch Schutz vor Verlusten.
+
+!howto
+
+## So richten Sie einen wiederkehrenden Kauf bei Coinbase ein
+
+Bei Coinbase können Sie [wiederkehrende Käufe planen](L4): wöchentlich, am 1. und 15. des Monats oder monatlich. Nicht alle Zahlungsmethoden sind zulässig, prüfen Sie dies in der App. Die Schritte:
+
+1. <strong>Öffnen Sie Buy & sell</strong> in der Coinbase-App oder das Buy / Sell-Feld im Web.
+2. <strong>Wählen Sie Bitcoin</strong> als Asset.
+3. <strong>Stellen Sie die Orderart</strong> von Quick Buy auf Recurring buy um und wählen Sie eine Häufigkeit.
+4. <strong>Geben Sie den Betrag ein,</strong> den Sie jedes Mal kaufen möchten.
+5. <strong>Wählen Sie eine zulässige Zahlungsmethode.</strong> Sie können auch ein Bargeldguthaben nutzen.
+6. <strong>Tippen Sie auf Preview buy,</strong> lesen Sie die Gebühren und bestätigen Sie mit Buy now.
+
+Zwei Dinge sollten Sie wissen. Der erste Kauf erfolgt sofort, wenn Sie den Plan anlegen. Und Betrag oder Häufigkeit lassen sich später nicht ändern: Sie kündigen den Plan und legen einen neuen an. Wenn Sie noch kein Konto haben und Coinbase in Ihrem Land verfügbar ist, können Sie [ein Coinbase-Konto eröffnen](REF){{#ref}} über unseren Empfehlungslink{{/ref}}. Prüfen Sie vorab, [ob Coinbase sicher ist](/articles/is-coinbase-safe-for-beginners), wenn Sie das Risiko abwägen möchten.
+
+## Faustregeln für Einsteiger
+
+- Fangen Sie klein an und steigern Sie nur, wenn Sie sich wohlfühlen.
+- Nutzen Sie Geld, das Sie jahrelang liegen lassen könnten.
+- Prüfen Sie vor jedem Kauf die Gebühr in der Vorschau, denn kleine wiederkehrende Käufe können sich summieren.
+- Ignorieren Sie Hype in sozialen Medien und die Angst, etwas zu verpassen.
+- Führen Sie Aufzeichnungen. Die US-Steuerbehörde IRS behandelt digitale Vermögenswerte als Eigentum, und [Verkauf oder Tausch kann steuerpflichtige Gewinne oder Verluste auslösen](L5).
+
+!faq
+
+## Häufige Fragen
+
+### Wie viel Bitcoin sollte ich mit 100 $ kaufen?
+
+Das kann niemand sagen. Sie können einen Bruchteil eines Bitcoins kaufen, 100 $ kaufen also einen kleinen Anteil. Überlegen Sie, ob Sie ruhig blieben, wenn er die Hälfte seines Werts verlöre, und lesen Sie die Gebühren in der Vorschau, bevor Sie bestätigen.
+
+### Ist Dollar-Cost-Averaging besser als ein einmaliger Kauf?
+
+Nicht immer. DCA senkt das Timing-Risiko, bringt aber bei steigenden Kursen oft geringere Erträge als eine Einmalanlage. In unserem Rückblick-Test schnitt es über 12 Monate besser und über 36 Monate schlechter ab.
+
+### Wie oft sollte ich per DCA Bitcoin kaufen?
+
+Coinbase bietet wöchentliche, halbmonatliche (1. und 15.) und monatliche Pläne. Wählen Sie die Häufigkeit, die zu Ihrem Einkommen passt, und denken Sie daran, dass jeder Kauf Gebühren verursachen kann.
+
+### Was ist der Mindestbetrag für Bitcoin bei Coinbase?
+
+Die Mindestbeträge hängen von Asset und Zahlungsmethode ab, und Coinbase weist Sie in der App darauf hin, wenn Sie darunter liegen. Sie können Bruchteile eines Bitcoins kaufen.
+
+### Kann ich beim Bitcoin-Kauf mein ganzes Geld verlieren?
+
+Die FINRA sagt, das Risiko eines Totalverlusts bei Krypto sei erheblich. Deshalb lautet der gängige Rat, nie mehr zu investieren, als man sich leisten kann zu verlieren.
+
+### Muss ich auf Bitcoin Steuern zahlen?
+
+Möglicherweise. Steuerlich behandelt die IRS digitale Vermögenswerte als Eigentum, ein Verkauf oder Tausch kann also einen Kapitalgewinn oder -verlust ergeben. Ziehen Sie in Betracht, einen Steuerberater zu fragen.
+
+!soft: Unsicher, wo Sie das Gekaufte aufbewahren? Lesen Sie unseren [Guide zu Custodial- und Self-Custody-Wallets](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure
