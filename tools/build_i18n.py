@@ -83,6 +83,47 @@ def community_marker_html(lang: str, *, home: bool = False) -> str:
         + community_box_html(lang, home=home)
         + '  <!-- /i18n:community -->'
     )
+
+def strip_community_boxes(h: str) -> str:
+    """Remove every article/home community box (marked or unmarked). Idempotent cleanup."""
+    h = re.sub(r"[ \t]*<!-- i18n:community -->.*?<!-- /i18n:community -->\s*", "\n", h, flags=re.S)
+    # Unmarked leftovers from older build_article runs (SVG-heavy asides).
+    h = re.sub(
+        r"\s*<aside class=\"community-box(?: home-community)?\"[^>]*>.*?</aside>\s*",
+        "\n",
+        h,
+        flags=re.S,
+    )
+    return h
+
+
+def place_community(h: str, lang: str, *, home: bool, kind: str) -> str:
+    """Ensure exactly one community block. Always strip first, then insert the marked block once."""
+    h = strip_community_boxes(h)
+    new = community_marker_html(lang, home=home)
+    if home or kind == "home":
+        m = re.search(r'(</section>\s*)(<section id="articles")', h, re.S)
+        if m:
+            return h[: m.start(2)] + new + "\n    " + h[m.start(2) :]
+        # fallback: after hero
+        m = re.search(r'(</section>\s*)', h)
+        if m:
+            return h[: m.end(1)] + new + "\n" + h[m.end(1) :]
+        errors.append(f"cannot place home community after strip")
+        return h + "\n" + new
+    m = re.search(r'(?P<pre>\n)(?P<rel>\s*<aside class="related")', h)
+    if m:
+        return h[: m.start("rel")] + "\n" + new + "\n" + h[m.start("rel") :]
+    m = re.search(r'(?P<pre>\n)(?P<src>\s*<section class="sources")', h)
+    if m:
+        return h[: m.start("src")] + "\n" + new + "\n" + h[m.start("src") :]
+    # inside </article> before close as last resort
+    m = re.search(r'(</article>)', h)
+    if m:
+        return h[: m.start(1)] + "\n" + new + "\n    " + h[m.start(1) :]
+    errors.append("cannot place community box after strip")
+    return h
+
 CFG = json.loads((ROOT / "i18n/langs.json").read_text(encoding="utf-8"))
 LANGS = CFG["langs"]
 DEFAULT = CFG["default"]
@@ -577,7 +618,7 @@ def build_article(lang: str, slug: str):
         else:
             errors.append(f"[{lang}/{slug}] unknown block {t}")
     flush()
-    body.append(community_box_html(lang))
+    body.append(community_marker_html(lang))
     rel = [r for r in meta["related"] if r in CONTENT and lang in CONTENT[r]]
     if rel:
         lis = "\n".join(f'          <li><a href="{path_for(lang, "article", r)}">{esc(CONTENT[r][lang][0]["title"])}</a></li>' for r in rel)
@@ -660,7 +701,7 @@ def build_home(lang):
       <p>{esc(s['hero_p'])}</p>
     </section>
 
-{community_box_html(lang, home=True)}
+{community_marker_html(lang, home=True)}
     <section id="articles" class="wrap article-grid" aria-label="{esc_attr(s['nav_articles'])}">
 {article_cards(lang)}
     </section>
@@ -827,29 +868,10 @@ def patch_en(path: Path, kind: str, slug: str = ""):
         else:
             h = h.replace("  </footer>", new + "\n  </footer>", 1)
     if kind == "article":
-        new = community_marker_html(DEFAULT, home=False)
-        h, ok = replace_marked(h, "community", new)
-        if not ok:
-            # after CTA / before related
-            m = re.search(r'(?P<pre>\n)(?P<rel>\s*<aside class="related")', h)
-            if m:
-                h = h[:m.start("rel")] + "\n" + new + "\n" + h[m.start("rel"):]
-            else:
-                # before sources as fallback
-                m = re.search(r'(?P<pre>\n)(?P<src>\s*<section class="sources")', h)
-                if m:
-                    h = h[:m.start("src")] + "\n" + new + "\n" + h[m.start("src"):]
-                else:
-                    errors.append(f"cannot place community box in {path}")
+        # Idempotent: strip any prior marked/unmarked community boxes, then place exactly one.
+        h = place_community(h, DEFAULT, home=False, kind=kind)
     elif kind == "home":
-        new = community_marker_html(DEFAULT, home=True)
-        h, ok = replace_marked(h, "community", new)
-        if not ok:
-            m = re.search(r'(</section>\s*)(<section id="articles")', h, re.S)
-            if m:
-                h = h[:m.start(2)] + new + "\n    " + h[m.start(2):]
-            else:
-                errors.append(f"cannot place home community in {path}")
+        h = place_community(h, DEFAULT, home=True, kind=kind)
         # Regenerate article cards (with thumbnails) between i18n:articles markers
         cards = article_cards(DEFAULT)
         articles_block = (
