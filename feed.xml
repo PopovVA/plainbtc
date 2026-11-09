@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PlainBTC</title>
+    <link>https://plainbtc.com/</link>
+    <description>Plain-English Bitcoin and crypto news for beginners</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://plainbtc.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bitcoin’s weekend whipsaw: $1B liquidated as Nvidia headlines hit risk assets</title>
+      <link>https://plainbtc.com/articles/bitcoin-volatility-liquidations-nov-2026.html</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/bitcoin-volatility-liquidations-nov-2026.html</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>BTC briefly slipped to ~$73,761 before reclaiming $75,000 amid more than $1B in leveraged liquidations.</description>
+    </item>
+    <item>
+      <title>How to buy your first Bitcoin on Coinbase (U.S. beginner guide)</title>
+      <link>https://plainbtc.com/articles/how-to-buy-first-bitcoin-coinbase.html</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/how-to-buy-first-bitcoin-coinbase.html</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Step-by-step U.S. beginner walkthrough: create an account, verify, fund, and place a small first Bitcoin buy on Coinbase.</description>
+    </item>
+    <item>
+      <title>After the midterms: ETF outflows and a tougher crypto rulebook ahead?</title>
+      <link>https://plainbtc.com/articles/us-midterms-crypto-regulation-etf-outflows.html</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/us-midterms-crypto-regulation-etf-outflows.html</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Spot bitcoin ETFs saw about $1.28B in weekly outflows as markets digest a Democratic midterm sweep and talk of a bigger SEC role.</description>
+    </item>
+  </channel>
+</rss>
