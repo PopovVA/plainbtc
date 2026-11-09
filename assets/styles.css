@@ -388,3 +388,62 @@ img {
   font-size: 3rem;
   margin: 0 0 0.5rem;
 }
+
+/* Mid-article affiliate banner */
+.mid-cta {
+  margin: 2rem 0;
+  padding: 1.25rem 1.3rem 1.35rem;
+  background: linear-gradient(155deg, #1a2740, var(--surface));
+  border: 1px solid rgba(59, 130, 246, 0.4);
+  border-radius: var(--radius);
+  position: relative;
+}
+
+.mid-cta-label {
+  display: inline-block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--muted);
+  margin-bottom: 0.45rem;
+}
+
+.mid-cta h2 {
+  margin: 0 0 0.45rem !important;
+  font-size: 1.15rem !important;
+  color: var(--text);
+}
+
+.mid-cta p {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.mid-cta .cta-button {
+  font-size: 0.95rem;
+  padding: 0.6rem 1.05rem;
+}
+
+.soft-guide {
+  margin: 2rem 0 0.5rem;
+  color: var(--muted) !important;
+  font-size: 0.98rem;
+}
+
+.takeaways {
+  margin: 1.5rem 0;
+  padding: 1rem 1.15rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.takeaways h2 {
+  margin-top: 0 !important;
+  font-size: 1.15rem !important;
+}
+
+.takeaways ul {
+  margin: 0.5rem 0 0;
+}
