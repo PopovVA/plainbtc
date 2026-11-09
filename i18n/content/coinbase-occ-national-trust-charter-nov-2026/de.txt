@@ -1,0 +1,56 @@
+title: Coinbase erhält volle nationale Trust-Bank-Lizenz der OCC: Was das bedeutet
+page_title: Coinbase erhält volle nationale Trust-Bank-Lizenz der OCC
+description: Die OCC hat Coinbase National Trust Company am 6. November endgültig genehmigt. Damit steht das Krypto-Verwahrgeschäft unter US-Bundesbankaufsicht. Was die Lizenz erlaubt – und was nicht.
+og_description: Die Verwahrsparte von Coinbase ist jetzt eine bundesweit lizenzierte nationale Trust-Bank. Was sich ändert und was nicht.
+label: Regulierung
+summary: Die OCC hat Coinbase National Trust Company am 6. November genehmigt; die institutionelle Krypto-Verwahrung steht nun unter Bundesbankaufsicht. Das erlaubt die Lizenz.
+===
+
+Coinbase, die größte Kryptobörse der USA, hat am Montag mitgeteilt, dass ihre Verwahrsparte nun eine voll lizenzierte nationale Trust-Bank ist. In einem [Blogbeitrag vom 9. November](L1) schreibt Coinbase, das <strong>Office of the Comptroller of the Currency (OCC)</strong>, die US-Bundesaufsicht für nationale Banken, habe am vergangenen Freitag den Antrag auf Gründung der <strong>Coinbase National Trust Company</strong> genehmigt. Berichten zufolge, die sich auf die Lizenzunterlagen der OCC stützen, wurde das Verfahren am <strong>6. November 2026</strong> abgeschlossen.
+
+Die Entscheidung wandelt die bedingte Genehmigung um, die Coinbase am <strong>2. April</strong> erhalten hatte. Coinbase wird dadurch keine normale Bank, aber das institutionelle Verwahrgeschäft – bei dem Coinbase Kryptowerte für Fonds und andere Großkunden aufbewahrt – steht nun direkt unter Bundesaufsicht.
+
+!takeaways
+- Die OCC hat Coinbase National Trust Company endgültig genehmigt, nach einer bedingten Zusage im April.
+- Die Lizenz deckt die treuhänderische Verwahrung digitaler Vermögenswerte ab, vor allem für institutionelle Kunden.
+- Einlagen von Privatkunden, Kredite und die Ausgabe von Stablecoins sind nicht erlaubt.
+- Coinbase will sein in New York reguliertes Verwahrgeschäft innerhalb von drei Jahren in die nationale Gesellschaft überführen.
+
+## Was eine nationale Trust-Bank-Lizenz ist
+
+Eine nationale Trust-Bank ist eine Bank mit engem Tätigkeitsfeld. Sie darf Vermögenswerte für Kunden als Treuhänder halten und verwalten – also mit der rechtlichen Pflicht, in deren Interesse zu handeln –, ist aber keine vollwertige Geschäftsbank. Laut [Bitcoin Magazine](L2) und crypto.news darf die Coinbase-Gesellschaft keine gewöhnlichen Privatkundeneinlagen annehmen oder Kredite vergeben, und die Lizenz erlaubt nicht die Ausgabe von Stablecoins.
+
+Coinbase bezeichnete die Verwahrung als „grundlegend“ für sein Geschäft und betonte, seit mehr als 14 Jahren digitale Vermögenswerte zu sichern. Die Lizenz bringe „klare und einheitliche bundesweite Standards“ für die Verwahrdienste, so das Unternehmen. Vize-Vorstandschef Ryan VanGrack sagte gegenüber CoinDesk, die Genehmigung sei „ein weiterer großer Schritt, um digitale Vermögenswerte in die Kerninfrastruktur des amerikanischen Finanzsystems zu integrieren“.
+
+!mid_cta
+
+## Die Auflagen
+
+Die OCC-Entscheidung vom April, die die Bedingungen für die endgültige Genehmigung festlegte, enthält Schutzvorkehrungen. Berichten zufolge muss die Trust-Bank mindestens <strong>60 Millionen US-Dollar</strong> an Kernkapital (Tier 1) halten – eine zentrale Kennzahl für den finanziellen Puffer einer Bank – sowie in den ersten drei Jahren genug liquide Mittel, um <strong>180 Tage</strong> Betriebskosten zu decken.
+
+Dienste wie Staking, Prime Trading und Finanzierung laufen weiterhin über andere Coinbase-Gesellschaften, nicht über die Trust-Bank selbst; diese kann Verwahrkunden lediglich als Vermittler Zugang dazu verschaffen. Die Lizenz bringt auch keinen automatischen Zugang zu den Zahlungssystemen der Federal Reserve. Dafür wäre ein gesonderter Antrag nach den Kontozugangsrichtlinien der Fed nötig.
+
+Coinbase betreibt die Verwahrung bereits über die Coinbase Custody Trust Company, eine Treuhandgesellschaft mit begrenztem Zweck, die seit 2018 vom New York State Department of Financial Services beaufsichtigt wird. Dieses Geschäft soll innerhalb von drei Jahren in die neue nationale Gesellschaft wechseln.
+
+## Teil eines größeren Trends – mit Gegenwind
+
+Coinbase ist kein Einzelfall. Ripple erhielt im Oktober eine volle Trust-Lizenz der OCC, und viele weitere Kryptofirmen haben bedingte Trust-Lizenzen beantragt oder erhalten. Der Trend hat sich beschleunigt, seit der GENIUS Act einen bundesweiten Rahmen für Stablecoins geschaffen hat. CoinDesk merkte an, dass die OCC auch World Liberty Financial, dem mit der Familie von Präsident Donald Trump verbundenen Kryptoprojekt, einen bedingten Trust-Status gewährt hat.
+
+Nicht alle traditionellen Banken sind einverstanden. Die Independent Community Bankers of America haben die OCC verklagt; sie argumentieren, die Behörde überschreite ihre Befugnisse, wenn sie Kryptofirmen Trust-Lizenzen erteilt. Der Ausgang des Verfahrens könnte mitbestimmen, wie weit diese Lizenzwelle reicht.
+
+## Was das für normale Nutzer bedeutet
+
+Für die meisten Privatanleger ändert sich vorerst nichts. Die Lizenz zielt auf institutionelle Verwahrung, nicht auf Privatkundenkonten. Indirekt ist sie dennoch relevant: Viele Spot-Bitcoin-ETFs sind auf große Verwahrer angewiesen, und die Bundesaufsicht über einen wichtigen Verwahrer ist ein weiterer Schritt, Krypto in das etablierte Finanzsystem einzubinden. Wer einfach eine kleine Menge Bitcoin kaufen möchte, nutzt weiterhin ein normales Börsenkonto, etwa eines bei [Coinbase](REF), und sollte sich ansehen, wie die Verwahrung auf der gewählten Plattform funktioniert.
+
+## Worauf man achten sollte
+
+- Den Zeitplan für die Überführung des New Yorker Verwahrgeschäfts in die nationale Gesellschaft.
+- Ob Coinbase ein Hauptkonto (Master Account) bei der Federal Reserve beantragt.
+- Den Ausgang der Klage der Gemeinschaftsbanken gegen die OCC.
+- Weitere Kryptofirmen, die bedingte Zusagen in volle Lizenzen umwandeln.
+
+!soft: Neu bei Krypto? Lies unseren [Einsteiger-Ratgeber zum Bitcoin-Kauf bei Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

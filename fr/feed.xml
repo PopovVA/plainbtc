@@ -5,8 +5,15 @@
     <link>https://plainbtc.com/fr/</link>
     <description>L’actualité du bitcoin et des cryptos en langage clair, pour les débutants</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 09 Nov 2026 18:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/fr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Coinbase obtient une licence fédérale complète de banque fiduciaire de l’OCC : ce que cela change</title>
+      <link>https://plainbtc.com/fr/articles/coinbase-occ-national-trust-charter-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/coinbase-occ-national-trust-charter-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 19:30:00 GMT</pubDate>
+      <description>L’OCC a approuvé Coinbase National Trust Company le 6 novembre : sa conservation crypto institutionnelle passe sous supervision bancaire fédérale. Voici ce que permet la licence.</description>
+    </item>
     <item>
       <title>FinCEN et la Fed abandonnent le projet de Travel Rule à 250 dollars — le seuil de 3 000 reste</title>
       <link>https://plainbtc.com/fr/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</link>

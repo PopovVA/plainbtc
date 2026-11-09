@@ -1,0 +1,56 @@
+title: Coinbase obtiene una licencia federal completa de banco fiduciario de la OCC: qué significa
+page_title: Coinbase obtiene licencia federal completa de banco fiduciario de la OCC
+description: La OCC dio la aprobación final a Coinbase National Trust Company el 6 de noviembre, lo que pone su negocio de custodia cripto bajo supervisión bancaria federal. Qué permite la licencia y qué no.
+og_description: El brazo de custodia de Coinbase ya es un banco fiduciario nacional con licencia federal. Qué cambia y qué no.
+label: Regulación
+summary: La OCC aprobó Coinbase National Trust Company el 6 de noviembre y su custodia cripto institucional queda bajo supervisión bancaria federal. Esto es lo que permite la licencia.
+===
+
+Coinbase, el mayor exchange de criptomonedas de EE. UU., anunció el lunes que su división de custodia ya es un banco fiduciario nacional con licencia completa. En una [publicación de su blog del 9 de noviembre](L1), Coinbase explicó que la <strong>Oficina del Contralor de la Moneda (OCC)</strong>, el regulador federal de los bancos nacionales, aprobó el pasado viernes su solicitud para constituir <strong>Coinbase National Trust Company</strong>. Según informes basados en los registros de licencias de la OCC, el proceso se completó el <strong>6 de noviembre de 2026</strong>.
+
+La decisión eleva la aprobación condicional que Coinbase recibió el <strong>2 de abril</strong>. No convierte a Coinbase en un banco tradicional, pero sí coloca su negocio de custodia institucional, donde resguarda criptomonedas de fondos y otros grandes clientes, bajo supervisión federal directa.
+
+!takeaways
+- La OCC dio la aprobación final a Coinbase National Trust Company, tras la aprobación condicional de abril.
+- La licencia cubre la custodia fiduciaria de activos digitales, sobre todo para clientes institucionales.
+- No permite captar depósitos minoristas, conceder préstamos ni emitir stablecoins.
+- Coinbase planea trasladar su negocio de custodia regulado en Nueva York a la entidad nacional en un plazo de tres años.
+
+## Qué es una licencia de banco fiduciario nacional
+
+Un banco fiduciario nacional es un tipo de banco muy acotado. Puede custodiar y administrar activos de sus clientes como fiduciario, es decir, con la obligación legal de actuar en su interés, pero no es un banco comercial completo. Según [Bitcoin Magazine](L2) y crypto.news, la entidad de Coinbase no puede aceptar depósitos minoristas ordinarios ni otorgar préstamos, y la licencia no la autoriza a emitir stablecoins.
+
+Coinbase afirmó que la custodia es “fundamental” para su negocio y que lleva más de 14 años resguardando activos digitales. La empresa escribió que la licencia le permite aportar “uniformidad federal clara y coherente” a sus capacidades de custodia. El vicepresidente del consejo, Ryan VanGrack, dijo a CoinDesk que la aprobación es “otro gran paso para integrar los activos digitales en la infraestructura central del sistema financiero estadounidense”.
+
+!mid_cta
+
+## Condiciones impuestas
+
+La decisión de la OCC de abril, que fijó los términos de la aprobación final, incluye salvaguardas. Según los informes, el banco fiduciario debe mantener al menos <strong>60 millones de dólares</strong> de capital de nivel 1 (Tier 1), una medida clave del colchón financiero de un banco, y suficientes activos líquidos para cubrir <strong>180 días</strong> de gastos operativos durante sus primeros tres años.
+
+Servicios como staking, prime trading y financiación seguirán funcionando a través de otras empresas de Coinbase, no del banco fiduciario; este puede actuar como intermediario que conecta a los clientes de custodia con esos servicios. La licencia tampoco da acceso automático a los sistemas de pago de la Reserva Federal. Para eso haría falta una solicitud aparte según las pautas de acceso a cuentas de la Fed.
+
+Coinbase ya ofrece custodia a través de Coinbase Custody Trust Company, una entidad fiduciaria de propósito limitado supervisada por el Departamento de Servicios Financieros del Estado de Nueva York desde 2018. La empresa planea trasladar ese negocio a la nueva entidad nacional en un plazo de tres años.
+
+## Parte de una tendencia más amplia, con algo de resistencia
+
+Coinbase no es la única. Ripple recibió una licencia fiduciaria completa de la OCC en octubre, y muchas otras empresas cripto han solicitado o recibido licencias condicionales, una tendencia que se aceleró después de que la Ley GENIUS creara un marco federal para las stablecoins. CoinDesk señaló que la OCC también otorgó un estatus fiduciario condicional a World Liberty Financial, el proyecto cripto vinculado a la familia del presidente Donald Trump.
+
+No todos los bancos tradicionales están de acuerdo. La Independent Community Bankers of America ha demandado a la OCC, alegando que la agencia se excede en sus facultades al otorgar licencias fiduciarias a empresas cripto. El resultado de ese caso podría influir en hasta dónde llega esta ola de licencias.
+
+## Qué significa para los usuarios comunes
+
+Para la mayoría de los inversores particulares, nada cambia de inmediato. La licencia está pensada para la custodia institucional, no para cuentas minoristas. Pero de forma indirecta sí importa: muchos ETF de bitcoin al contado dependen de grandes custodios, y la supervisión federal de uno de los principales es un paso más en la integración de las criptomonedas en las finanzas tradicionales. Si solo quieres comprar una pequeña cantidad de bitcoin, seguirías usando una cuenta normal en un exchange, como una abierta en [Coinbase](REF), y vale la pena informarte sobre cómo funciona la custodia en la plataforma que elijas.
+
+## Qué vigilar a continuación
+
+- El calendario para trasladar el negocio de custodia de Coinbase en Nueva York a la entidad nacional.
+- Si Coinbase solicita una cuenta maestra en la Reserva Federal.
+- El resultado de la demanda de los bancos comunitarios contra la OCC.
+- Más empresas cripto que conviertan sus aprobaciones condicionales en licencias completas.
+
+!soft: ¿Nuevo en cripto? Lee nuestra [guía para principiantes sobre cómo comprar bitcoin en Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

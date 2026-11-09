@@ -1,0 +1,56 @@
+title: Coinbase recebe licença federal completa de banco fiduciário da OCC: o que isso significa
+page_title: Coinbase recebe licença federal completa de banco fiduciário da OCC
+description: A OCC deu aprovação final à Coinbase National Trust Company em 6 de novembro, colocando o negócio de custódia cripto da empresa sob supervisão bancária federal. Veja o que a licença permite e o que não permite.
+og_description: O braço de custódia da Coinbase agora é um banco fiduciário nacional com licença federal. O que muda e o que não muda.
+label: Regulação
+summary: A OCC aprovou a Coinbase National Trust Company em 6 de novembro, e a custódia cripto institucional da empresa passa à supervisão bancária federal. Veja o que a licença permite.
+===
+
+A Coinbase, maior corretora de criptomoedas dos EUA, anunciou na segunda-feira que seu braço de custódia agora é um banco fiduciário nacional com licença completa. Em um [post no blog da empresa em 9 de novembro](L1), a Coinbase disse que o <strong>Office of the Comptroller of the Currency (OCC)</strong>, o regulador federal dos bancos nacionais, aprovou na última sexta-feira seu pedido para constituir a <strong>Coinbase National Trust Company</strong>. Reportagens baseadas nos registros de licenciamento da OCC apontam <strong>6 de novembro de 2026</strong> como data de conclusão.
+
+A decisão converte a aprovação condicional que a Coinbase recebeu em <strong>2 de abril</strong>. Ela não transforma a Coinbase em um banco comum, mas coloca seu negócio de custódia institucional, no qual guarda criptomoedas de fundos e outros grandes clientes, sob supervisão federal direta.
+
+!takeaways
+- A OCC deu aprovação final à Coinbase National Trust Company, após a aprovação condicional de abril.
+- A licença cobre a custódia fiduciária de ativos digitais, principalmente para clientes institucionais.
+- Ela não permite captar depósitos de varejo, conceder empréstimos nem emitir stablecoins.
+- A Coinbase planeja transferir seu negócio de custódia regulado em Nova York para a entidade nacional em até três anos.
+
+## O que é uma licença de banco fiduciário nacional
+
+Um banco fiduciário nacional é um tipo restrito de banco. Ele pode guardar e administrar ativos de clientes como fiduciário, ou seja, com o dever legal de agir no interesse deles, mas não é um banco comercial completo. Segundo a [Bitcoin Magazine](L2) e o crypto.news, a entidade da Coinbase não pode receber depósitos comuns de varejo nem fazer empréstimos, e a licença não a autoriza a emitir stablecoins.
+
+A Coinbase disse que a custódia é “fundamental” para seu negócio e que protege ativos digitais há mais de 14 anos. A empresa escreveu que a licença traz “uniformidade federal clara e consistente” às suas capacidades de custódia. O vice-presidente do conselho, Ryan VanGrack, disse ao CoinDesk que a aprovação é “mais um grande passo para integrar os ativos digitais à infraestrutura central do sistema financeiro americano”.
+
+!mid_cta
+
+## Condições impostas
+
+A decisão de abril da OCC, que definiu os termos da aprovação final, vem com salvaguardas. Segundo as reportagens, o banco fiduciário precisa manter pelo menos <strong>US$ 60 milhões</strong> em capital de nível 1 (Tier 1), uma medida central da reserva financeira de um banco, e ativos líquidos suficientes para cobrir <strong>180 dias</strong> de despesas operacionais nos primeiros três anos.
+
+Serviços como staking, prime trading e financiamento continuarão sendo oferecidos por outras empresas da Coinbase, e não pelo banco fiduciário; ele pode atuar como intermediário que conecta os clientes de custódia a esses serviços. A licença também não dá acesso automático aos sistemas de pagamento do Federal Reserve. Isso exigiria um pedido separado sob as diretrizes de acesso a contas do Fed.
+
+A Coinbase já oferece custódia por meio da Coinbase Custody Trust Company, uma entidade fiduciária de propósito limitado supervisionada pelo Departamento de Serviços Financeiros do Estado de Nova York desde 2018. A empresa planeja transferir esse negócio para a nova entidade nacional em até três anos.
+
+## Parte de uma tendência maior, com alguma resistência
+
+A Coinbase não está sozinha. A Ripple recebeu uma licença fiduciária completa da OCC em outubro, e muitas outras empresas cripto pediram ou receberam licenças condicionais, tendência que acelerou depois que o GENIUS Act criou um marco federal para stablecoins. O CoinDesk observou que a OCC também concedeu status fiduciário condicional à World Liberty Financial, o projeto cripto ligado à família do presidente Donald Trump.
+
+Nem todos os bancos tradicionais concordam. A Independent Community Bankers of America processou a OCC, argumentando que a agência extrapola sua autoridade ao conceder licenças fiduciárias a empresas cripto. O desfecho desse caso pode influenciar até onde vai essa onda de licenças.
+
+## O que muda para o usuário comum
+
+Para a maioria dos investidores pessoa física, nada muda da noite para o dia. A licença é voltada à custódia institucional, não a contas de varejo. Indiretamente, porém, ela importa: muitos ETFs de bitcoin à vista dependem de grandes custodiantes, e a supervisão federal de um custodiante importante é mais um passo na integração das criptomoedas ao sistema financeiro tradicional. Se você só quer comprar uma pequena quantia de bitcoin, continuaria usando uma conta comum em uma corretora, como uma aberta na [Coinbase](REF), e vale entender como funciona a custódia na plataforma que você escolher.
+
+## O que acompanhar
+
+- O cronograma para transferir o negócio de custódia da Coinbase em Nova York para a entidade nacional.
+- Se a Coinbase vai pedir uma conta master no Federal Reserve.
+- O resultado do processo dos bancos comunitários contra a OCC.
+- Mais empresas cripto transformando aprovações condicionais em licenças completas.
+
+!soft: Novo em cripto? Veja o nosso [guia para iniciantes sobre como comprar bitcoin na Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

@@ -5,8 +5,15 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 09 Nov 2026 18:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Coinbase、OCCから国法信託銀行の正式認可を取得——何が変わるのか</title>
+      <link>https://plainbtc.com/ja/articles/coinbase-occ-national-trust-charter-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/coinbase-occ-national-trust-charter-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 19:30:00 GMT</pubDate>
+      <description>OCCは11月6日にCoinbase National Trust Companyを承認し、同社の機関投資家向け暗号資産カストディは連邦の銀行監督下に入りました。認可の中身を解説します。</description>
+    </item>
     <item>
       <title>FinCENとFRB、トラベルルール「250ドル」案を撤回——3,000ドルの基準は維持</title>
       <link>https://plainbtc.com/ja/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</link>

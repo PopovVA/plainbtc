@@ -1,0 +1,56 @@
+title: Coinbase obtient une licence fédérale complète de banque fiduciaire de l’OCC : ce que cela change
+page_title: Coinbase obtient une licence fédérale complète de banque fiduciaire
+description: L’OCC a donné son feu vert définitif à Coinbase National Trust Company le 6 novembre, plaçant son activité de conservation crypto sous supervision bancaire fédérale. Ce que la licence permet, et ce qu’elle ne permet pas.
+og_description: La branche de conservation de Coinbase est désormais une banque fiduciaire nationale agréée au niveau fédéral. Ce qui change, et ce qui ne change pas.
+label: Réglementation
+summary: L’OCC a approuvé Coinbase National Trust Company le 6 novembre : sa conservation crypto institutionnelle passe sous supervision bancaire fédérale. Voici ce que permet la licence.
+===
+
+Coinbase, la plus grande plateforme d’échange de cryptomonnaies aux États-Unis, a annoncé lundi que sa branche de conservation est désormais une banque fiduciaire nationale pleinement agréée. Dans un [billet de blog du 9 novembre](L1), Coinbase indique que l’<strong>Office of the Comptroller of the Currency (OCC)</strong>, le régulateur fédéral des banques nationales, a approuvé vendredi dernier sa demande de création de <strong>Coinbase National Trust Company</strong>. Selon des médias citant les registres d’agrément de l’OCC, la procédure s’est achevée le <strong>6 novembre 2026</strong>.
+
+Cette décision transforme l’approbation conditionnelle obtenue par Coinbase le <strong>2 avril</strong>. Elle ne fait pas de Coinbase une banque classique, mais elle place son activité de conservation institutionnelle, où elle garde des cryptomonnaies pour des fonds et d’autres grands clients, sous la supervision fédérale directe.
+
+!takeaways
+- L’OCC a donné son approbation définitive à Coinbase National Trust Company, après une approbation conditionnelle en avril.
+- La licence couvre la conservation fiduciaire d’actifs numériques, principalement pour des clients institutionnels.
+- Elle n’autorise ni les dépôts de particuliers, ni les prêts, ni l’émission de stablecoins.
+- Coinbase prévoit de transférer son activité de conservation réglementée à New York vers l’entité nationale sur trois ans.
+
+## Qu’est-ce qu’une licence de banque fiduciaire nationale ?
+
+Une banque fiduciaire nationale est une banque au périmètre restreint. Elle peut détenir et gérer des actifs pour ses clients en tant que fiduciaire, c’est-à-dire avec l’obligation légale d’agir dans leur intérêt, mais ce n’est pas une banque commerciale à part entière. Selon [Bitcoin Magazine](L2) et crypto.news, l’entité de Coinbase ne peut ni recevoir de dépôts ordinaires de particuliers ni accorder de prêts, et la licence ne l’autorise pas à émettre des stablecoins.
+
+Coinbase affirme que la conservation est « fondamentale » pour son activité et qu’elle protège des actifs numériques depuis plus de 14 ans. L’entreprise écrit que la licence lui permet d’apporter une « uniformité fédérale claire et cohérente » à ses capacités de conservation. Le vice-président du conseil, Ryan VanGrack, a déclaré à CoinDesk que cette approbation est « une nouvelle étape majeure dans l’intégration des actifs numériques au cœur de l’infrastructure du système financier américain ».
+
+!mid_cta
+
+## Les conditions imposées
+
+La décision d’avril de l’OCC, qui fixait les conditions de l’approbation définitive, s’accompagne de garde-fous. Selon les médias, la banque fiduciaire doit détenir au moins <strong>60 millions de dollars</strong> de fonds propres de catégorie 1 (Tier 1), une mesure clé du coussin financier d’une banque, ainsi que suffisamment d’actifs liquides pour couvrir <strong>180 jours</strong> de frais de fonctionnement pendant ses trois premières années.
+
+Les services comme le staking, le prime trading et le financement continueront d’être fournis par d’autres sociétés de Coinbase, et non par la banque fiduciaire ; celle-ci peut servir d’intermédiaire pour y donner accès aux clients de conservation. La licence ne donne pas non plus automatiquement accès aux systèmes de paiement de la Réserve fédérale. Il faudrait pour cela une demande distincte au titre des règles d’accès aux comptes de la Fed.
+
+Coinbase assure déjà la conservation via Coinbase Custody Trust Company, une société fiduciaire à objet limité supervisée par le Département des services financiers de l’État de New York depuis 2018. L’entreprise prévoit de transférer cette activité vers la nouvelle entité nationale sur trois ans.
+
+## Une tendance plus large, mais contestée
+
+Coinbase n’est pas seule. Ripple a obtenu une licence fiduciaire complète de l’OCC en octobre, et de nombreuses autres entreprises crypto ont demandé ou obtenu des licences conditionnelles, une tendance qui s’est accélérée après que le GENIUS Act a créé un cadre fédéral pour les stablecoins. CoinDesk note que l’OCC a aussi accordé un statut fiduciaire conditionnel à World Liberty Financial, le projet crypto lié à la famille du président Donald Trump.
+
+Les banques traditionnelles ne sont pas toutes d’accord. L’Independent Community Bankers of America a attaqué l’OCC en justice, estimant que l’agence outrepasse ses pouvoirs en accordant des licences fiduciaires à des entreprises crypto. L’issue de cette affaire pourrait déterminer jusqu’où ira cette vague de licences.
+
+## Ce que cela change pour les particuliers
+
+Pour la plupart des investisseurs particuliers, rien ne change du jour au lendemain. La licence vise la conservation institutionnelle, pas les comptes de particuliers. Indirectement, elle compte pourtant : de nombreux ETF bitcoin au comptant s’appuient sur de grands dépositaires, et la supervision fédérale d’un dépositaire majeur est une étape de plus dans l’intégration des cryptomonnaies à la finance traditionnelle. Si vous voulez simplement acheter un peu de bitcoin, vous utiliseriez toujours un compte classique sur une plateforme d’échange, par exemple ouvert sur [Coinbase](REF), et il vaut la peine de comprendre comment fonctionne la conservation sur la plateforme choisie.
+
+## À surveiller
+
+- Le calendrier de transfert de l’activité de conservation new-yorkaise de Coinbase vers l’entité nationale.
+- Une éventuelle demande de compte principal (master account) auprès de la Réserve fédérale.
+- L’issue de la plainte des banques communautaires contre l’OCC.
+- D’autres entreprises crypto transformant leurs approbations conditionnelles en licences complètes.
+
+!soft: Débutant en crypto ? Lisez notre [guide pour acheter du bitcoin sur Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

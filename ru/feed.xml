@@ -5,8 +5,15 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 09 Nov 2026 18:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Coinbase получила полную федеральную лицензию трастового банка от OCC: что это значит</title>
+      <link>https://plainbtc.com/ru/articles/coinbase-occ-national-trust-charter-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/coinbase-occ-national-trust-charter-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 19:30:00 GMT</pubDate>
+      <description>6 ноября OCC одобрило Coinbase National Trust Company: институциональное хранение криптовалют компании теперь под федеральным банковским надзором. Что разрешает лицензия.</description>
+    </item>
     <item>
       <title>FinCEN и ФРС отказались от плана снизить порог Travel Rule до $250 — порог $3000 сохраняется</title>
       <link>https://plainbtc.com/ru/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</link>

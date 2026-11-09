@@ -1,0 +1,56 @@
+title: Coinbase raih piagam penuh bank trust nasional dari OCC: apa artinya
+page_title: Coinbase raih piagam penuh bank trust nasional dari OCC
+description: OCC memberi persetujuan final kepada Coinbase National Trust Company pada 6 November, sehingga bisnis kustodi kripto Coinbase kini diawasi regulator bank federal AS. Ini yang diizinkan dan yang tidak.
+og_description: Unit kustodi Coinbase kini menjadi bank trust nasional berizin federal. Apa yang berubah dan apa yang tidak.
+label: Regulasi
+summary: OCC menyetujui Coinbase National Trust Company pada 6 November; layanan kustodi kripto institusional Coinbase kini di bawah pengawasan bank federal. Ini cakupan piagamnya.
+===
+
+Coinbase, bursa kripto terbesar di AS, mengumumkan pada hari Senin bahwa unit kustodinya kini menjadi bank trust nasional dengan piagam penuh. Dalam [tulisan blog perusahaan pada 9 November](L1), Coinbase menyebut <strong>Office of the Comptroller of the Currency (OCC)</strong>, regulator federal untuk bank nasional, telah menyetujui permohonannya untuk mendirikan <strong>Coinbase National Trust Company</strong> pada Jumat lalu. Laporan yang mengutip catatan perizinan OCC menyebut proses itu rampung pada <strong>6 November 2026</strong>.
+
+Keputusan ini meningkatkan persetujuan bersyarat yang diterima Coinbase pada <strong>2 April</strong>. Coinbase tidak berubah menjadi bank biasa, tetapi bisnis kustodi institusionalnya, yaitu penyimpanan kripto untuk dana investasi dan klien besar lainnya, kini berada di bawah pengawasan federal langsung.
+
+!takeaways
+- OCC memberi persetujuan final kepada Coinbase National Trust Company setelah persetujuan bersyarat pada April.
+- Piagam ini mencakup kustodi fidusia aset digital, terutama untuk klien institusional.
+- Piagam ini tidak mengizinkan penerimaan simpanan ritel, pemberian pinjaman, atau penerbitan stablecoin.
+- Coinbase berencana memindahkan bisnis kustodi yang diatur di New York ke entitas nasional dalam tiga tahun.
+
+## Apa itu piagam bank trust nasional
+
+Bank trust nasional adalah jenis bank dengan cakupan sempit. Bank ini boleh menyimpan dan mengelola aset klien sebagai fidusia, artinya punya kewajiban hukum untuk bertindak demi kepentingan klien, tetapi bukan bank komersial penuh. Menurut [Bitcoin Magazine](L2) dan crypto.news, entitas trust Coinbase tidak boleh menerima simpanan ritel biasa atau memberi pinjaman, dan piagam ini tidak memberi wewenang untuk menerbitkan stablecoin.
+
+Coinbase mengatakan kustodi adalah “fondasi” bisnisnya dan perusahaan telah mengamankan aset digital selama lebih dari 14 tahun. Perusahaan menulis bahwa piagam ini membawa “keseragaman federal yang jelas dan konsisten” bagi layanan kustodinya. Wakil Ketua Ryan VanGrack mengatakan kepada CoinDesk bahwa persetujuan ini adalah “langkah besar lain dalam mengintegrasikan aset digital ke infrastruktur inti sistem keuangan Amerika.”
+
+!mid_cta
+
+## Syarat yang menyertai
+
+Keputusan OCC pada April, yang menetapkan syarat persetujuan final, disertai sejumlah pengaman. Menurut laporan, bank trust ini wajib memiliki modal Tier 1 minimal <strong>60 juta dolar AS</strong>, ukuran utama bantalan keuangan sebuah bank, serta aset likuid yang cukup untuk menutup biaya operasional <strong>180 hari</strong> selama tiga tahun pertama.
+
+Layanan seperti staking, prime trading, dan pembiayaan tetap dijalankan oleh perusahaan Coinbase lainnya, bukan oleh bank trust itu sendiri; bank trust hanya dapat menjadi perantara yang menghubungkan klien kustodi dengan layanan tersebut. Piagam ini juga tidak otomatis memberi akses ke sistem pembayaran Federal Reserve. Untuk itu diperlukan permohonan terpisah berdasarkan pedoman akses rekening The Fed.
+
+Coinbase sudah menjalankan kustodi melalui Coinbase Custody Trust Company, perusahaan trust bertujuan terbatas yang diawasi Departemen Layanan Keuangan Negara Bagian New York sejak 2018. Perusahaan berencana memindahkan bisnis itu ke entitas nasional yang baru dalam tiga tahun.
+
+## Bagian dari tren lebih luas, dan ada penolakan
+
+Coinbase tidak sendirian. Ripple menerima piagam trust penuh dari OCC pada Oktober, dan banyak perusahaan kripto lain telah mengajukan atau menerima piagam trust bersyarat. Tren ini semakin cepat setelah GENIUS Act membentuk kerangka federal untuk stablecoin. CoinDesk mencatat OCC juga memberi status trust bersyarat kepada World Liberty Financial, usaha kripto yang terkait dengan keluarga Presiden Donald Trump.
+
+Tidak semua bank tradisional setuju. Independent Community Bankers of America menggugat OCC dengan alasan lembaga itu melampaui kewenangannya saat memberi piagam trust kepada perusahaan kripto. Hasil perkara ini bisa memengaruhi seberapa jauh gelombang piagam ini berlanjut.
+
+## Apa artinya bagi pengguna biasa
+
+Bagi sebagian besar investor ritel, tidak ada yang langsung berubah. Piagam ini ditujukan untuk kustodi institusional, bukan akun ritel. Namun secara tidak langsung, hal ini penting: banyak ETF bitcoin spot bergantung pada kustodian besar, dan pengawasan federal atas salah satu kustodian utama adalah satu langkah lagi dalam menyatukan kripto dengan keuangan arus utama. Jika Anda hanya ingin membeli sedikit bitcoin, Anda tetap memakai akun bursa biasa, misalnya akun di [Coinbase](REF), dan ada baiknya memahami cara kerja kustodi di platform yang Anda pilih.
+
+## Yang perlu dipantau
+
+- Jadwal pemindahan bisnis kustodi Coinbase di New York ke entitas nasional.
+- Apakah Coinbase akan mengajukan master account di Federal Reserve.
+- Hasil gugatan bank komunitas terhadap OCC.
+- Perusahaan kripto lain yang mengubah persetujuan bersyarat menjadi piagam penuh.
+
+!soft: Baru mengenal kripto? Baca [panduan pemula membeli bitcoin di Coinbase](/articles/how-to-buy-first-bitcoin-coinbase) kami.
+
+!end_cta
+
+!disclosure

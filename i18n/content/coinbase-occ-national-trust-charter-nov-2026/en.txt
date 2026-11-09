@@ -1,0 +1,56 @@
+title: Coinbase wins a full national trust charter from the OCC: what it means
+page_title: Coinbase wins full federal trust charter from the OCC
+description: The OCC gave Coinbase National Trust Company final approval on Nov. 6, putting its crypto custody business under federal bank supervision. Here’s what the charter does and doesn’t allow.
+og_description: Coinbase’s custody arm is now a federally chartered national trust bank. What changes, and what doesn’t.
+label: Regulation
+summary: The OCC approved Coinbase National Trust Company on Nov. 6, putting its institutional crypto custody under federal bank supervision. Here’s what the charter allows.
+===
+
+Coinbase, the largest U.S. crypto exchange, said Monday that its custody arm is now a fully chartered national trust bank. In a [Nov. 9 company blog post](L1), Coinbase said the <strong>Office of the Comptroller of the Currency (OCC)</strong>, the federal regulator for national banks, approved its application to charter <strong>Coinbase National Trust Company</strong> last Friday. Reports citing OCC licensing records put the completion date at <strong>Nov. 6, 2026</strong>.
+
+The decision upgrades the conditional approval Coinbase received on <strong>April 2</strong>. It does not turn Coinbase into a regular bank, but it does put its institutional custody business, where it safeguards crypto for funds and other large clients, under direct federal supervision.
+
+!takeaways
+- The OCC gave Coinbase National Trust Company final approval, upgrading an April conditional approval.
+- The charter covers fiduciary custody of digital assets, mainly for institutional clients.
+- It does not allow ordinary retail deposits, lending, or stablecoin issuance.
+- Coinbase plans to move its New York-regulated custody business into the national trust over three years.
+
+## What a national trust charter is
+
+A national trust bank is a narrow kind of bank. It can hold and manage assets for clients as a fiduciary, meaning it has a legal duty to act in their interest, but it is not a full-service commercial bank. According to [Bitcoin Magazine](L2) and crypto.news, the Coinbase trust cannot take ordinary retail deposits or make loans, and the charter does not authorize it to issue stablecoins.
+
+Coinbase said custody is “foundational” to its business and that it has safeguarded digital assets for more than 14 years. The company wrote that the charter “allows us to bring clear and consistent federal uniformity to our industry-leading custody capabilities.” Vice Chairman Ryan VanGrack told CoinDesk the approval is “another major step in integrating digital assets into the core infrastructure of the American financial system.”
+
+!mid_cta
+
+## Conditions attached
+
+The OCC’s April decision, which set the terms for the final approval, comes with guardrails. Reports say the trust bank must hold at least <strong>$60 million</strong> in Tier 1 capital, a core measure of a bank’s financial cushion, and keep enough liquid assets to cover <strong>180 days</strong> of operating expenses during its first three years.
+
+Services such as staking, prime trading and financing will keep running through other Coinbase companies, not the trust itself; the trust can act as an intermediary that connects custody clients to them. The charter also does not automatically plug Coinbase into Federal Reserve payment systems. That would require a separate application under the Fed’s account access guidelines.
+
+Coinbase already runs custody through Coinbase Custody Trust Company, a limited-purpose trust overseen by the New York State Department of Financial Services since 2018. The company plans to shift that business into the new national entity over three years.
+
+## Part of a wider trend, and some pushback
+
+Coinbase is not alone. Ripple received a full OCC trust charter in October, and many other crypto firms have applied for or received conditional trust charters, a trend that sped up after the GENIUS Act created a federal framework for stablecoins. CoinDesk noted that the OCC also granted conditional trust status to World Liberty Financial, the crypto venture linked to President Donald Trump’s family.
+
+Traditional banks are not all on board. The Independent Community Bankers of America has sued the OCC, arguing the agency is overstepping its authority by granting trust charters to crypto companies. How that case plays out could affect how far this wave of charters goes.
+
+## What it means for everyday users
+
+For most individual investors, nothing changes overnight. The charter is aimed at institutional custody, not retail accounts. Indirectly, though, it matters: many spot bitcoin ETFs rely on large custodians, and federal oversight of a major custodian is one more step in blending crypto into mainstream finance. If you simply want to buy a small amount of bitcoin, you would still use a regular exchange account, such as one opened on [Coinbase](REF), and it’s worth reading how custody works on whatever platform you choose.
+
+## What to watch next
+
+- The timeline for moving Coinbase’s New York custody business into the national trust.
+- Whether Coinbase applies for a Federal Reserve master account.
+- The outcome of the community bankers’ lawsuit against the OCC.
+- More crypto firms turning conditional trust approvals into full charters.
+
+!soft: New to crypto? Our [beginner guide to buying bitcoin on Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

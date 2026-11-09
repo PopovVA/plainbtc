@@ -1,0 +1,56 @@
+title: Coinbase, OCC’den tam ulusal güven bankası lisansı aldı: Bu ne anlama geliyor?
+page_title: Coinbase, OCC’den tam ulusal güven bankası lisansı aldı
+description: OCC, 6 Kasım’da Coinbase National Trust Company’ye nihai onay verdi ve şirketin kripto saklama işi federal banka denetimine girdi. Lisansın neye izin verip neye vermediğini anlatıyoruz.
+og_description: Coinbase’in saklama birimi artık federal lisanslı bir ulusal güven bankası. Neler değişiyor, neler değişmiyor?
+label: Düzenleme
+summary: OCC, 6 Kasım’da Coinbase National Trust Company’yi onayladı; şirketin kurumsal kripto saklama hizmeti artık federal banka denetiminde. Lisansın kapsamı.
+===
+
+ABD’nin en büyük kripto borsası Coinbase, pazartesi günü saklama biriminin artık tam lisanslı bir ulusal güven bankası (trust bank) olduğunu açıkladı. Coinbase, [9 Kasım tarihli blog yazısında](L1), ulusal bankaların federal düzenleyicisi olan <strong>Office of the Comptroller of the Currency (OCC)</strong> kurumunun geçen cuma günü <strong>Coinbase National Trust Company</strong> kuruluş başvurusunu onayladığını belirtti. OCC lisans kayıtlarına dayanan haberlere göre süreç <strong>6 Kasım 2026</strong> tarihinde tamamlandı.
+
+Bu karar, Coinbase’in <strong>2 Nisan</strong>’da aldığı koşullu onayı kesinleştiriyor. Coinbase sıradan bir bankaya dönüşmüyor; ancak fonlar ve diğer büyük müşteriler için kripto varlık sakladığı kurumsal saklama işi artık doğrudan federal denetim altında.
+
+!takeaways
+- OCC, Nisan’daki koşullu onayın ardından Coinbase National Trust Company’ye nihai onay verdi.
+- Lisans, başta kurumsal müşteriler olmak üzere dijital varlıkların emanet olarak saklanmasını kapsıyor.
+- Bireysel mevduat kabul etmeye, kredi vermeye veya stablecoin çıkarmaya izin vermiyor.
+- Coinbase, New York’ta düzenlenen saklama işini üç yıl içinde ulusal kuruluşa taşımayı planlıyor.
+
+## Ulusal güven bankası lisansı nedir?
+
+Ulusal güven bankası, faaliyet alanı dar bir banka türüdür. Müşterilerin varlıklarını emanetçi (fiduciary) olarak, yani onların çıkarına hareket etme yasal yükümlülüğüyle tutabilir ve yönetebilir; ancak tam kapsamlı bir ticari banka değildir. [Bitcoin Magazine](L2) ve crypto.news’e göre Coinbase’in bu kuruluşu sıradan bireysel mevduat kabul edemez, kredi veremez ve lisans ona stablecoin çıkarma yetkisi vermez.
+
+Coinbase, saklama hizmetinin işinin “temeli” olduğunu ve 14 yılı aşkın süredir dijital varlıkları koruduğunu söyledi. Şirket, lisansın saklama hizmetlerine “net ve tutarlı federal bir standart” getirdiğini yazdı. Yönetim kurulu başkan yardımcısı Ryan VanGrack, CoinDesk’e onayın “dijital varlıkları Amerikan finans sisteminin temel altyapısına entegre etmede bir başka büyük adım” olduğunu söyledi.
+
+!mid_cta
+
+## Getirilen şartlar
+
+Nihai onayın koşullarını belirleyen OCC’nin Nisan kararı bazı güvenceler içeriyor. Haberlere göre güven bankası en az <strong>60 milyon dolar</strong> birinci kuşak (Tier 1) sermaye tutmalı ve ilk üç yılında <strong>180 günlük</strong> işletme giderini karşılayacak kadar likit varlık bulundurmalı. Tier 1 sermaye, bir bankanın mali tamponunun temel ölçüsüdür.
+
+Staking, prime trading ve finansman gibi hizmetler güven bankasının kendisi değil, diğer Coinbase şirketleri üzerinden sunulmaya devam edecek; güven bankası yalnızca saklama müşterilerini bu hizmetlere bağlayan bir aracı rolü üstlenebilecek. Lisans ayrıca Federal Reserve ödeme sistemlerine otomatik erişim sağlamıyor. Bunun için Fed’in hesap erişim kuralları kapsamında ayrı bir başvuru gerekiyor.
+
+Coinbase, saklama hizmetini halihazırda 2018’den beri New York Eyaleti Finansal Hizmetler Departmanı tarafından denetlenen sınırlı amaçlı bir güven şirketi olan Coinbase Custody Trust Company üzerinden yürütüyor. Şirket bu işi üç yıl içinde yeni ulusal kuruluşa taşımayı planlıyor.
+
+## Daha geniş bir eğilimin parçası ve itirazlar
+
+Coinbase yalnız değil. Ripple, Ekim ayında OCC’den tam güven lisansı aldı; pek çok başka kripto şirketi de koşullu güven lisansı için başvurdu ya da bu lisansı aldı. Bu eğilim, GENIUS Act’in stablecoin’ler için federal bir çerçeve oluşturmasının ardından hız kazandı. CoinDesk, OCC’nin Başkan Donald Trump’ın ailesiyle bağlantılı kripto girişimi World Liberty Financial’a da koşullu güven statüsü verdiğini hatırlattı.
+
+Geleneksel bankaların hepsi bu gelişmeden memnun değil. Independent Community Bankers of America, kripto şirketlerine güven lisansı vererek yetkisini aştığını savunarak OCC’ye dava açtı. Davanın sonucu, bu lisans dalgasının ne kadar ileri gidebileceğini etkileyebilir.
+
+## Sıradan kullanıcılar için ne anlama geliyor?
+
+Bireysel yatırımcıların çoğu için bir anda hiçbir şey değişmiyor. Lisans bireysel hesaplara değil, kurumsal saklamaya yönelik. Yine de dolaylı bir önemi var: Pek çok spot bitcoin ETF’si büyük saklama kuruluşlarına dayanıyor ve büyük bir saklayıcının federal denetime girmesi, kriptonun ana akım finansa entegrasyonunda bir adım daha. Sadece az miktarda bitcoin almak istiyorsanız yine [Coinbase](REF) gibi bir borsada açılmış normal bir hesap kullanırsınız; seçtiğiniz platformda saklamanın nasıl işlediğini öğrenmekte fayda var.
+
+## Bundan sonra izlenecekler
+
+- Coinbase’in New York’taki saklama işini ulusal kuruluşa taşıma takvimi.
+- Coinbase’in Federal Reserve’de ana hesap (master account) için başvurup başvurmayacağı.
+- Yerel bankaların OCC’ye karşı açtığı davanın sonucu.
+- Koşullu onaylarını tam lisansa dönüştüren yeni kripto şirketleri.
+
+!soft: Kriptoya yeni mi başlıyorsunuz? [Coinbase’te bitcoin satın alma konusundaki yeni başlayanlar rehberimize](/articles/how-to-buy-first-bitcoin-coinbase) göz atın.
+
+!end_cta
+
+!disclosure

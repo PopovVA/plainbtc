@@ -32,6 +32,11 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "coinbase-occ-national-trust-charter-nov-2026",
+        "Coinbase wins a full national trust charter from the OCC",
+        "REGULATION",
+    ),
+    (
         "bitcoin-loses-50-week-moving-average-nov-2026",
         "Bitcoin loses its 50-week moving average as long liquidations top $1 billion",
         "MARKET NEWS",
