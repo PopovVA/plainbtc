@@ -206,6 +206,17 @@ img {
   margin-bottom: 1.75rem;
 }
 
+.article-page .og-hero {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  margin: 0 0 1.75rem;
+  background: #0b1630;
+}
+
+
 .article-page h2 {
   font-size: 1.3rem;
   margin: 2rem 0 0.75rem;
