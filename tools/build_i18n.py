@@ -396,7 +396,7 @@ def footer_html(lang, kind, slug) -> str:
 {footer_social_html(lang)}
 {footer_langs(kind, slug, lang)}
   </footer>
-  <script src="/assets/site.js?v=20261109g" defer></script>
+  <script src="/assets/site.20261109g.js" defer></script>
 </body>
 </html>
 '''
@@ -800,10 +800,10 @@ def patch_en(path: Path, kind: str, slug: str = ""):
         )
     else:
         h = re.sub(r'(article-media\.css\?v=)[^"\s]+', r'\g<1>20261109f', h, count=1)
-    if "/assets/site.js" not in h:
-        h = h.replace("</body>", '  <script src="/assets/site.js?v=20261109g" defer></script>\n</body>', 1)
+    if "/assets/site." not in h and "/assets/site.js" not in h:
+        h = h.replace("</body>", '  <script src="/assets/site.20261109g.js" defer></script>\n</body>', 1)
     else:
-        h = re.sub(r'(site\.js\?v=)[^"\s]+', r'\g<1>20261109g', h, count=1)
+        h = re.sub(r'/assets/site(?:\.\d+)?\.js(?:\?v=[^"\s]+)?', '/assets/site.20261109g.js', h, count=1)
     new = hreflang_block(kind, slug, DEFAULT)
     h, ok = replace_marked(h, "hreflang", new)
     if not ok:

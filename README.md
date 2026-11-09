@@ -188,7 +188,7 @@ Reasoning: Coinbase's own international-referral page lists Poland and Portugal 
 
 ## Visit analytics (cookieless)
 
-PlainBTC records pageviews with a tiny beacon in `assets/site.js` → Cloudflare Pages Function `POST /api/hit` (`functions/api/hit.js`) → Supabase table `public.pageviews`.
+PlainBTC records pageviews with a tiny beacon in `assets/site.js` (served fingerprinted as `/assets/site.20261109g.js`) → Cloudflare Pages Function `POST /api/hit` (`functions/api/hit.js`) → Supabase table `public.pageviews`.
 
 Privacy:
 - No cookies, no `localStorage`, no raw IP stored.
