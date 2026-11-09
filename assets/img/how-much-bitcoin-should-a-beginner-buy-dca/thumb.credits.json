@@ -1,0 +1,21 @@
+{
+  "kind": "figure-fallback",
+  "sources": [
+    {
+      "file": "assets/img/how-much-bitcoin-should-a-beginner-buy-dca/chart-btc-5y-drawdowns.webp",
+      "license": "See article figures",
+      "url": "",
+      "credit": "Derived from mid-article figure"
+    }
+  ],
+  "slug": "how-much-bitcoin-should-a-beginner-buy-dca",
+  "generated": "2026-11-09T19:58Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

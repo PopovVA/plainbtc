@@ -606,8 +606,17 @@ def build_article(lang: str, slug: str):
     return "\n".join(parts)
 
 
+def card_thumb_src(slug: str) -> tuple[str, int, int]:
+    """Prefer topical 640×360 thumb.webp (or .jpg); fall back to OG PNG."""
+    d = ROOT / "assets" / "img" / slug
+    for name, w, h in (("thumb.webp", 640, 360), ("thumb.jpg", 640, 360)):
+        if (d / name).exists():
+            return f"/assets/img/{slug}/{name}", w, h
+    return f"/assets/og/{slug}.png", 1200, 630
+
+
 def article_cards(lang):
-    """Home-page article cards with OG thumbnail. Future articles get a thumb automatically."""
+    """Home-page article cards with topical thumbnails. Future articles get a thumb automatically."""
     s = STR[lang]
     cards = []
     for slug in SLUGS:
@@ -617,11 +626,11 @@ def article_cards(lang):
         meta = CONTENT[slug]["meta"]
         href = path_for(lang, "article", slug)
         m = f"{head['label']} · {fmt_date(lang, meta['date'])} · {s['readtime'].format(n=meta['readtime'])}"
-        thumb = f"/assets/og/{slug}.png"
+        thumb, tw, th = card_thumb_src(slug)
         title = esc(head["title"])
         cards.append(f'''      <article class="card">
         <a class="card-thumb" href="{href}" tabindex="-1" aria-hidden="true">
-          <img src="{thumb}" width="1200" height="630" alt="{esc_attr(head['title'])}" loading="lazy" decoding="async">
+          <img src="{thumb}" width="{tw}" height="{th}" alt="{esc_attr(head['title'])}" loading="lazy" decoding="async">
         </a>
         <div class="card-body">
           <div class="meta">{esc(m)}</div>

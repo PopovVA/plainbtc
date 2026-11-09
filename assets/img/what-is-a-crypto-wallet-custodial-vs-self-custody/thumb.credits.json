@@ -1,0 +1,21 @@
+{
+  "kind": "figure-fallback",
+  "sources": [
+    {
+      "file": "assets/img/what-is-a-crypto-wallet-custodial-vs-self-custody/compare-custodial-vs-self.webp",
+      "license": "See article figures",
+      "url": "",
+      "credit": "Derived from mid-article figure"
+    }
+  ],
+  "slug": "what-is-a-crypto-wallet-custodial-vs-self-custody",
+  "generated": "2026-11-09T19:58Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

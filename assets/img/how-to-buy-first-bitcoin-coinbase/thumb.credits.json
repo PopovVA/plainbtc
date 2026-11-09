@@ -1,0 +1,33 @@
+{
+  "kind": "illustration",
+  "sources": [
+    {
+      "file": "Coinbase_Icon.png",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Coinbase_Icon.png",
+      "credit": "Coinbase"
+    },
+    {
+      "file": "Bitcoin_logo_clean.svg",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bitcoin_logo_clean.svg",
+      "credit": "Bitcoin logo"
+    },
+    {
+      "file": "UI illustration",
+      "license": "PlainBTC original",
+      "url": "",
+      "credit": "Stylized buy-flow mockup — not an official Coinbase screenshot"
+    }
+  ],
+  "slug": "how-to-buy-first-bitcoin-coinbase",
+  "generated": "2026-11-09T19:58Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

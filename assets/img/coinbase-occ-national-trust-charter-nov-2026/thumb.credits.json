@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Seal_of_the_Office_of_the_Comptroller_of_the_Currency.svg",
+      "license": "Public domain (U.S. government)",
+      "url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Office_of_the_Comptroller_of_the_Currency.svg",
+      "credit": "OCC"
+    },
+    {
+      "file": "Treasury_Building_(1).jpg",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Treasury_Building_(1).jpg",
+      "credit": "AutoErich / Wikimedia Commons"
+    },
+    {
+      "file": "Coinbase_Icon.png",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Coinbase_Icon.png",
+      "credit": "Coinbase"
+    }
+  ],
+  "note": "Editorial composite; trademarks belong to their owners.",
+  "slug": "coinbase-occ-national-trust-charter-nov-2026",
+  "generated": "2026-11-09T19:58Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

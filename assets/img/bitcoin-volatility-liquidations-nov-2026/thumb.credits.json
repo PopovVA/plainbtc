@@ -1,0 +1,21 @@
+{
+  "kind": "chart",
+  "sources": [
+    {
+      "file": "Kraken OHLC XBTUSD interval=60",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Hourly BTC/USD from Kraken; $1B+ liquidations from CoinGlass as cited in article"
+    }
+  ],
+  "slug": "bitcoin-volatility-liquidations-nov-2026",
+  "generated": "2026-11-09T19:58Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

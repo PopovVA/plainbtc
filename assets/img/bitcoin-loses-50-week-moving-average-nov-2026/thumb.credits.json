@@ -1,0 +1,21 @@
+{
+  "kind": "chart",
+  "sources": [
+    {
+      "file": "Kraken OHLC XBTUSD interval=10080",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Weekly BTC/USD from Kraken; 50-week SMA by PlainBTC"
+    }
+  ],
+  "slug": "bitcoin-loses-50-week-moving-average-nov-2026",
+  "generated": "2026-11-09T19:58Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

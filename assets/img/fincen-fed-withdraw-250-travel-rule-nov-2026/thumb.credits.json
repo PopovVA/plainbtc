@@ -1,0 +1,33 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "US-FinancialCrimesEnforcementNetwork-Seal.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:US-FinancialCrimesEnforcementNetwork-Seal.svg",
+      "credit": "FinCEN"
+    },
+    {
+      "file": "Seal_of_the_United_States_Federal_Reserve_Board.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Federal_Reserve_Board.svg",
+      "credit": "Federal Reserve Board"
+    },
+    {
+      "file": "Eccles_Building_(26088200676).jpg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+      "credit": "Federal Reserve / Wikimedia"
+    }
+  ],
+  "slug": "fincen-fed-withdraw-250-travel-rule-nov-2026",
+  "generated": "2026-11-09T19:58Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

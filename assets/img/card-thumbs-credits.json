@@ -1,0 +1,274 @@
+[
+  {
+    "kind": "chart",
+    "sources": [
+      {
+        "file": "Kraken OHLC XBTUSD interval=10080",
+        "license": "Kraken public API",
+        "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+        "credit": "Weekly BTC/USD from Kraken; 50-week SMA by PlainBTC"
+      }
+    ],
+    "slug": "bitcoin-loses-50-week-moving-average-nov-2026",
+    "generated": "2026-11-09T19:58Z",
+    "size": [
+      640,
+      360
+    ],
+    "files": [
+      "thumb.webp",
+      "thumb.jpg"
+    ]
+  },
+  {
+    "kind": "chart",
+    "sources": [
+      {
+        "file": "Kraken OHLC XBTUSD interval=60",
+        "license": "Kraken public API",
+        "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+        "credit": "Hourly BTC/USD from Kraken; $1B+ liquidations from CoinGlass as cited in article"
+      }
+    ],
+    "slug": "bitcoin-volatility-liquidations-nov-2026",
+    "generated": "2026-11-09T19:58Z",
+    "size": [
+      640,
+      360
+    ],
+    "files": [
+      "thumb.webp",
+      "thumb.jpg"
+    ]
+  },
+  {
+    "kind": "composite",
+    "sources": [
+      {
+        "file": "Seal_of_the_Office_of_the_Comptroller_of_the_Currency.svg",
+        "license": "Public domain (U.S. government)",
+        "url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Office_of_the_Comptroller_of_the_Currency.svg",
+        "credit": "OCC"
+      },
+      {
+        "file": "Treasury_Building_(1).jpg",
+        "license": "CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Treasury_Building_(1).jpg",
+        "credit": "AutoErich / Wikimedia Commons"
+      },
+      {
+        "file": "Coinbase_Icon.png",
+        "license": "Logo",
+        "url": "https://commons.wikimedia.org/wiki/File:Coinbase_Icon.png",
+        "credit": "Coinbase"
+      }
+    ],
+    "note": "Editorial composite; trademarks belong to their owners.",
+    "slug": "coinbase-occ-national-trust-charter-nov-2026",
+    "generated": "2026-11-09T19:58Z",
+    "size": [
+      640,
+      360
+    ],
+    "files": [
+      "thumb.webp",
+      "thumb.jpg"
+    ]
+  },
+  {
+    "kind": "composite",
+    "sources": [
+      {
+        "file": "US-FinancialCrimesEnforcementNetwork-Seal.svg",
+        "license": "Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:US-FinancialCrimesEnforcementNetwork-Seal.svg",
+        "credit": "FinCEN"
+      },
+      {
+        "file": "Seal_of_the_United_States_Federal_Reserve_Board.svg",
+        "license": "Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Federal_Reserve_Board.svg",
+        "credit": "Federal Reserve Board"
+      },
+      {
+        "file": "Eccles_Building_(26088200676).jpg",
+        "license": "Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+        "credit": "Federal Reserve / Wikimedia"
+      }
+    ],
+    "slug": "fincen-fed-withdraw-250-travel-rule-nov-2026",
+    "generated": "2026-11-09T19:58Z",
+    "size": [
+      640,
+      360
+    ],
+    "files": [
+      "thumb.webp",
+      "thumb.jpg"
+    ]
+  },
+  {
+    "kind": "figure-fallback",
+    "sources": [
+      {
+        "file": "assets/img/how-much-bitcoin-should-a-beginner-buy-dca/chart-btc-5y-drawdowns.webp",
+        "license": "See article figures",
+        "url": "",
+        "credit": "Derived from mid-article figure"
+      }
+    ],
+    "slug": "how-much-bitcoin-should-a-beginner-buy-dca",
+    "generated": "2026-11-09T19:58Z",
+    "size": [
+      640,
+      360
+    ],
+    "files": [
+      "thumb.webp",
+      "thumb.jpg"
+    ]
+  },
+  {
+    "kind": "illustration",
+    "sources": [
+      {
+        "file": "Coinbase_Icon.png",
+        "license": "Logo",
+        "url": "https://commons.wikimedia.org/wiki/File:Coinbase_Icon.png",
+        "credit": "Coinbase"
+      },
+      {
+        "file": "Bitcoin_logo_clean.svg",
+        "license": "CC0",
+        "url": "https://commons.wikimedia.org/wiki/File:Bitcoin_logo_clean.svg",
+        "credit": "Bitcoin logo"
+      },
+      {
+        "file": "UI illustration",
+        "license": "PlainBTC original",
+        "url": "",
+        "credit": "Stylized buy-flow mockup — not an official Coinbase screenshot"
+      }
+    ],
+    "slug": "how-to-buy-first-bitcoin-coinbase",
+    "generated": "2026-11-09T19:58Z",
+    "size": [
+      640,
+      360
+    ],
+    "files": [
+      "thumb.webp",
+      "thumb.jpg"
+    ]
+  },
+  {
+    "kind": "figure-fallback",
+    "sources": [
+      {
+        "file": "assets/img/is-coinbase-safe-for-beginners/fact-cold-storage.webp",
+        "license": "See article figures",
+        "url": "",
+        "credit": "Derived from mid-article figure"
+      }
+    ],
+    "slug": "is-coinbase-safe-for-beginners",
+    "generated": "2026-11-09T19:58Z",
+    "size": [
+      640,
+      360
+    ],
+    "files": [
+      "thumb.webp",
+      "thumb.jpg"
+    ]
+  },
+  {
+    "kind": "composite",
+    "sources": [
+      {
+        "file": "PNClogo.svg",
+        "license": "Logo",
+        "url": "https://commons.wikimedia.org/wiki/File:PNClogo.svg",
+        "credit": "PNC"
+      },
+      {
+        "file": "USD_Coin_logo_(2024).png",
+        "license": "Logo",
+        "url": "https://commons.wikimedia.org/wiki/File:USD_Coin_logo_(2024).png",
+        "credit": "Circle/USDC"
+      },
+      {
+        "file": "Coinbase_Icon.png",
+        "license": "Logo",
+        "url": "https://commons.wikimedia.org/wiki/File:Coinbase_Icon.png",
+        "credit": "Coinbase"
+      },
+      {
+        "file": "PNC_Firstside_Center,_Pittsburgh.jpg",
+        "license": "CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:PNC_Firstside_Center,_Pittsburgh.jpg",
+        "credit": "Wikimedia Commons"
+      }
+    ],
+    "note": "Editorial composite; trademarks belong to their owners.",
+    "slug": "pnc-coinbase-usdc-payments-pilot-nov-2026",
+    "generated": "2026-11-09T19:58Z",
+    "size": [
+      640,
+      360
+    ],
+    "files": [
+      "thumb.webp",
+      "thumb.jpg"
+    ]
+  },
+  {
+    "kind": "composite",
+    "sources": [
+      {
+        "file": "United_States_Capitol_-_west_front.jpg",
+        "license": "Public domain (Architect of the Capitol)",
+        "url": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_-_west_front.jpg",
+        "credit": "Architect of the Capitol"
+      },
+      {
+        "file": "ETF flow schematic",
+        "license": "PlainBTC chart",
+        "url": "",
+        "credit": "Schematic bars for Nov 2026 large weekly outflow; see article sources"
+      }
+    ],
+    "slug": "us-midterms-crypto-regulation-etf-outflows",
+    "generated": "2026-11-09T19:58Z",
+    "size": [
+      640,
+      360
+    ],
+    "files": [
+      "thumb.webp",
+      "thumb.jpg"
+    ]
+  },
+  {
+    "kind": "figure-fallback",
+    "sources": [
+      {
+        "file": "assets/img/what-is-a-crypto-wallet-custodial-vs-self-custody/compare-custodial-vs-self.webp",
+        "license": "See article figures",
+        "url": "",
+        "credit": "Derived from mid-article figure"
+      }
+    ],
+    "slug": "what-is-a-crypto-wallet-custodial-vs-self-custody",
+    "generated": "2026-11-09T19:58Z",
+    "size": [
+      640,
+      360
+    ],
+    "files": [
+      "thumb.webp",
+      "thumb.jpg"
+    ]
+  }
+]

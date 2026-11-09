@@ -1,0 +1,27 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "United_States_Capitol_-_west_front.jpg",
+      "license": "Public domain (Architect of the Capitol)",
+      "url": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_-_west_front.jpg",
+      "credit": "Architect of the Capitol"
+    },
+    {
+      "file": "ETF flow schematic",
+      "license": "PlainBTC chart",
+      "url": "",
+      "credit": "Schematic bars for Nov 2026 large weekly outflow; see article sources"
+    }
+  ],
+  "slug": "us-midterms-crypto-regulation-etf-outflows",
+  "generated": "2026-11-09T19:58Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

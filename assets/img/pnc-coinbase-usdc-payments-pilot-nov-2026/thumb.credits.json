@@ -1,0 +1,40 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "PNClogo.svg",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:PNClogo.svg",
+      "credit": "PNC"
+    },
+    {
+      "file": "USD_Coin_logo_(2024).png",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:USD_Coin_logo_(2024).png",
+      "credit": "Circle/USDC"
+    },
+    {
+      "file": "Coinbase_Icon.png",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Coinbase_Icon.png",
+      "credit": "Coinbase"
+    },
+    {
+      "file": "PNC_Firstside_Center,_Pittsburgh.jpg",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:PNC_Firstside_Center,_Pittsburgh.jpg",
+      "credit": "Wikimedia Commons"
+    }
+  ],
+  "note": "Editorial composite; trademarks belong to their owners.",
+  "slug": "pnc-coinbase-usdc-payments-pilot-nov-2026",
+  "generated": "2026-11-09T19:58Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}
