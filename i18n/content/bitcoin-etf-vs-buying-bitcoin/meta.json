@@ -1,0 +1,19 @@
+{
+ "slug": "bitcoin-etf-vs-buying-bitcoin",
+ "date": "2026-11-09",
+ "readtime": 9,
+ "related": [
+  "how-to-buy-first-bitcoin-coinbase",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody",
+  "how-to-cash-out-bitcoin-coinbase-to-bank"
+ ],
+ "sources": [
+  {"url": "https://www.sec.gov/newsroom/press-releases/2024-17", "title": "SEC — Statement on the approval of spot bitcoin exchange-traded products (Jan. 10, 2024)", "date": "Jan 10, 2024"},
+  {"url": "https://www.fidelity.com/learning-center/trading-investing/spot-bitcoin-ETP", "title": "Fidelity — What is a spot bitcoin ETP?", "date": ""},
+  {"url": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets", "title": "IRS — Digital assets", "date": ""},
+  {"url": "https://www.irs.gov/instructions/i8949", "title": "IRS — Instructions for Form 8949", "date": ""},
+  {"url": "https://www.finra.org/investors/investing/investment-products/crypto-assets/risks", "title": "FINRA — Crypto assets: risks", "date": ""},
+  {"url": "https://help.coinbase.com/en/coinbase/trading-and-funding/pricing-and-fees/fees", "title": "Coinbase Help — Pricing and fees disclosures", "date": ""}
+ ],
+ "disclosure_variant": "guide"
+}

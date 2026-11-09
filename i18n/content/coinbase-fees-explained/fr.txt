@@ -1,0 +1,124 @@
+title: Les frais de base expliqués : spread, fabricant/preneur avancé et ce qu'un débutant paie réellement
+page_title: Les frais de Coinbase expliqués
+description: Les frais de Coinbase expliqués pour les débutants américains : comment fonctionne le spread simple-app, les taux de maker/taker avancés, Coinbase One et comment lire l'écran de prévisualisation avant d'acheter.
+og_description: Quels sont les frais de Coinbase sur les transactions simples par rapport aux transactions avancées, et comment vérifier le coût réel avant de confirmer.
+label: Guide du Débutant
+summary: Une ventilation en anglais simple des frais de Coinbase : le spread variable sur les achats et les ventes simples, les niveaux avancés de maker/taker, Coinbase One et comment comparer les coûts sur l'écran de prévisualisation.
+===
+
+Coinbase ne publie pas de « frais fixes » pour le bitcoin. « Ce que vous payez dépend de si vous utilisez le simple écran Acheter/Vendre ou Coinbase Advanced, de votre mode de paiement, de la taille de votre commande, des conditions du marché et de votre emplacement. Ce guide passe en revue les types de frais divulgués par Coinbase, montre les taux d'entrée avancés publiés aux États-Unis et explique comment lire l'écran d'aperçu afin que vous ne soyez pas surpris après avoir appuyé sur Acheter.
+
+!takeaways
+- Les achats et les ventes simples incluent un  spread <strong> </strong> à  l'intérieur du prix indiqué. Coinbase ne publie pas un seul pourcentage de spread fixe ; vous le voyez dans l'aperçu de la commande.
+- Coinbase Advanced n'a  pas de propagation <strong> </strong> . Vous payez des frais de fabricant ou de preneur par niveau de volume. Le tableau VIP avancé public de Coinbase répertorie le niveau d'introduction chez  <strong> 0,50 % maker / 0,90 % taker </strong>  pour spot.
+- Les ordres à cours limité simples ajoutent des frais d'exécution distincts de 1 % <strong> </strong>, et Coinbase peut également facturer des frais de mode de paiement Coinbase (sa page d'aide cite 1,875 % à titre d'exemple qui varie selon la méthode).
+- Comparez toujours le  total <strong> sur l'écran d'aperçu </strong>  avant de confirmer. Les frais changent, et Coinbase dit qu'il teste occasionnellement les frais et répartit les changements par région et par type de commande.
+
+## La réponse courte 
+
+Pour la plupart des débutants américains qui achètent une petite quantité de bitcoin, la simple application Coinbase est la plus facile, mais ce n'est généralement pas le chemin le moins cher. Le prix indiqué intègre déjà un spread, et d'autres frais peuvent s'accumuler en fonction de la façon dont vous payez. Si vous êtes à l'aise pour passer un ordre à cours limité, [Coinbase Advanced](L2) supprime l'écart et facture plutôt un calendrier de fabricant/preneur publié.
+
+Rien de tout cela n'est un conseil financier. Les barèmes de frais changent. Faites confiance aux chiffres que Coinbase vous montre dans l'application le jour de votre transaction.
+
+## Type de frais 1 : le spread simple-app
+
+Sur les ordres d'achat, de vente et de conversion simples, Coinbase  [inclut un écart dans le prix coté](L1) . L'écart est l'écart entre le prix du marché et le prix qui vous est proposé. Coinbase dit que l'écart l'aide à verrouiller votre prix coté pendant que vous examinez l'ordre, qu'il peut conserver tout écart excédentaire et que l'écart peut varier pour des transactions similaires.
+
+Vous pouvez voir la propagation avant de confirmer :
+
+- Pour les ordres d'achat et de vente, appuyez sur l'info-bulle à côté de la ligne de prix de l'actif.
+- Pour convertir des commandes, appuyez sur l'info-bulle à côté du taux de change indiqué.
+
+Étant donné que Coinbase ne publie pas de pourcentage d'écart fixe sur cette page d'aide, les tables tierces « Coinbase fee is X% » sont souvent périmées. Le seul numéro qui compte pour votre commande est celui qui se trouve sur l'écran d'aperçu <strong> de votre </strong>.
+
+!figure:spread
+
+## Type de frais 2 : Frais de base et ordres à cours limité simples
+
+Au-delà de l'écart, Coinbase affirme que les frais de négociation dépendent du mode de paiement, de la taille des ordres, des conditions du marché, de l'emplacement, de l'actif et des autres coûts qu'il encourt. Ces frais sont affichés sur l'aperçu des transactions avant que vous ne les soumettiez.
+
+Pour  les ordres à cours limité simples <strong> </strong>, Coinbase dévoile deux pièces supplémentaires :
+
+1. Une commission d'exécution d'ordre à cours limité <strong> de 1 % </strong> distincte sur chaque achat à cours limité ou vente à cours limité.
+2. Des frais supplémentaires éventuels de Coinbase que <strong>  varient selon le mode de paiement </strong>  (la page d'aide donne 1,875 % à titre d'exemple).
+
+Les deux apparaissent dans le détail des frais sur l'écran d'aperçu et dans l'historique de vos transactions. L'avantage zéro frais de négociation de Coinbase One ne  <strong> pas </strong> renonce à ces frais de commande à cours limité simples de 1 %.
+
+## Type de frais 3 : Coinbase Advanced maker and taker
+
+Coinbase Advanced se négocie contre le carnet d'ordres, donc  [aucun spread n'est ajouté](L1) . Au lieu de cela, vous payez des frais de fabricant ou des frais de preneur :
+
+- <strong> Preneur : </strong>  un ordre qui remplit immédiatement (par exemple un ordre au marché) paie le taux preneur le plus élevé.
+- <strong> Maker : </strong> un ordre de limite de repos qui attend sur le livre paie le taux de fabricant inférieur lorsqu'il est rempli.
+- Une commande partiellement exécutée peut payer les deux : preneur sur la partie immédiate, fabricant sur le reste.
+
+Votre niveau est basé sur des critères récents de volume ou de solde USDC, selon ce qui vous convient. Coinbase dit de vérifier vos tarifs en direct dans Advanced. Pour un point de référence public, le [Page VIP avancée](L3) de  Coinbase  répertorie un niveau au comptant <strong> Intro </strong> de <strong> 0,50 % fabricant et 0,90 % preneur </strong>, avec des taux plus bas à mesure que le volume ou le solde USDC augmente, jusqu'à 0 % fabricant / 0,02 % preneur au niveau VIP supérieur. Les taux sont régionaux ; ignorez les citations de l'UE ou d'un autre marché si vous négociez depuis les États-Unis.
+
+!figure:advanced
+
+!mid_cta
+
+## Coinbase One, frais de réseau et coûts d'encaissement
+
+[Coinbase One](L4)  est un abonnement payant qui peut renoncer aux frais de négociation sur les achats simples admissibles et se vend jusqu'à un plafond mensuel. Coinbase note toujours qu'un écart peut subsister dans les prix cotés pour certaines transactions, et que les frais de service DEX et les frais de commande à cours limité simples de 1 % ne sont pas couverts par l'avantage zéro frais.
+
+Séparé des frais de négociation :
+
+- <strong> Les frais de réseau </strong>  s'appliquent lorsque vous envoyez des cryptos hors de Coinbase. Coinbase facture sur la base de son estimation des frais de réseau en vigueur et divulgue le montant au moment de l'envoi. Les envois de bitcoins Lightning comportent des frais de traitement <strong> divulgués de 0,2 % </strong>.
+- <strong> L'ajout d'espèces ou l'encaissement de </strong>  peut entraîner des frais de méthode de paiement. Vérifiez cette ligne avant de confirmer. Les virements bancaires ACH standard sont généralement gratuits du côté de Coinbase, tandis que les [encaissements instantanés](L5)  vers des cartes éligibles ou des banques compatibles RTP peuvent coûter plus cher pour la vitesse.
+- La vente de crypto dans votre solde en USD est une transaction (donc un écart/des frais s'appliquent) ; le transfert de cet USD vers votre banque est une étape de retrait distincte. Voir notre  [guide d'encaissement](/articles/how-to-cash-out-bitcoin-coinbase-to-bank) .
+
+## À quoi pourrait ressembler un achat de 1 000 $ pour débutant
+
+Imaginez que vous voulez environ 1 000 $ de bitcoin.
+
+1. <strong> Simple Acheter avec une carte de débit. </strong>  L'aperçu peut afficher un spread plus des frais de Coinbase liés à la carte. Le bitcoin que vous recevrez sera inférieur à 1 000 $ ÷ prix au comptant, car les deux pièces proviennent de ce que vous payez. Les achats par carte sont pratiques et font souvent partie des options les plus chères.
+2. <strong> Simple Buy financé par votre solde Coinbase USD (dépôt ACH en premier). </strong>  Vous payez toujours l'écart/les frais de transaction simple, mais vous évitez les frais de carte. Les dépôts ACH prennent généralement quelques jours ouvrables pour être entièrement effacés.
+3. <strong> Coinbase Ordre limite avancé en tant que fabricant. </strong>  Au taux d'Intro maker publié de 0,50 %, un ordre notionnel de 1 000 $ afficherait environ 5 $ de frais de négociation s'il se repose et se remplit en tant que maker, sans spread. Vous devez définir vous-même le prix limite et attendre un remplissage.
+
+Ce sont des illustrations, pas des citations. Coinbase calcule le total en direct au moment de la commande. Lisez toujours l'aperçu.
+
+## Comment réduire les frais sans trop compliquer les choses
+
+1. Préférez ACH à votre solde en USD par rapport à une carte de crédit ou de débit lorsque vous pouvez attendre.
+2. Ouvrez l'info-bulle des frais sur chaque aperçu et comparez simple et avancé pour la même taille.
+3. Sur Avancé, utilisez les ordres à cours limité que vous êtes prêt à attendre si vous voulez le taux du fabricant.
+4. Évitez les conversions inutiles (crypto → crypto) lorsque vous n'avez besoin que de USD ou de bitcoin ; chaque conversion peut intégrer un spread.
+5. Si vous tradez souvent, vérifiez si les frais mensuels de Coinbase One sont inférieurs aux frais de trading que vous payez réellement.
+6. Pour les achats récurrents plus importants, consultez nos notes sur [les achats périodiques par sommes fixes](/articles/how-much-bitcoin-should-a-beginner-buy-dca)  afin  que les frais ne mangent pas de petits achats.
+
+## Résultat net
+
+Les frais de base de pièces sont transparents sur l'écran de prévisualisation même s'il ne s'agit pas d'un seul pourcentage publié. Les débutants paient généralement trop cher en achetant avec une carte sur l'écran simple sans consulter l'infobulle. Advanced Trade est plus de travail, mais son calendrier fabricant/preneur publié et son manque de spread facilitent la comparaison des coûts. Commencez avec un montant que vous pouvez vous permettre d'apprendre, lisez chaque ligne d'aperçu, puis passez à l'échelle.
+
+Si vous êtes prêt à ouvrir un compte, vous pouvez  [s'inscrire sur Coinbase](REF)  {{#ref}}via notre lien de parrainage{{/ref}}  et suivre notre  [guide étape par étape du premier bitcoin](/articles/how-to-buy-first-bitcoin-coinbase) . Pour les bases de sécurité, lisez d'abord [Coinbase est-il sûr pour les débutants ?](/articles/is-coinbase-safe-for-beginners) .
+
+!faq
+
+## FAQ
+
+### Coinbase facture-t-il des frais fixes pour acheter du bitcoin ?
+
+Non. Les achats simples utilisent un écart variable à l'intérieur du prix indiqué plus les frais de Coinbase indiqués sur l'aperçu. Advanced Trade utilise des pourcentages de maker/taker par niveau au lieu d'un spread.
+
+### Quels sont les frais de Coinbase Advanced pour les débutants ?
+
+Le tableau VIP avancé public de Coinbase répertorie le niveau d'introduction au comptant à 0,50 % pour le fabricant et à 0,90 % pour le preneur. Votre niveau en direct dans l'application fait autorité et les taux chutent avec un volume de 30 jours plus élevé ou des soldes USDC éligibles.
+
+### Coinbase One vaut-il la peine d'être payé ?
+
+Cela peut être le cas si vos frais mensuels de transaction simple dépassent le coût de l'abonnement. Il ne supprime pas tous les coûts : les spreads peuvent toujours apparaître, et les frais de commande à limite simple de 1 % et les frais de service DEX sont exclus de l'avantage zéro frais.
+
+### Pourquoi mes frais Coinbase sont-ils différents de ceux d'un ami ?
+
+Coinbase indique que les frais peuvent varier en fonction du mode de paiement, de la taille de la commande, des conditions du marché, de l'emplacement, de l'actif et des tests effectués par région. Deux commandes similaires peuvent afficher des totaux différents.
+
+### Dois-je payer des frais pour retirer des USD à ma banque ?
+
+Les retraits ACH sont souvent gratuits du côté de Coinbase, mais prennent plusieurs jours ouvrables. Les encaissements instantanés aux cartes admissibles ou aux banques RTP peuvent entraîner des frais pour la vitesse. Vérifiez toujours l'aperçu de l'encaissement.
+
+!soft: Ensuite, apprenez les étapes exactes de  [vendez du bitcoin et transférez l'USD vers votre banque](/articles/how-to-cash-out-bitcoin-coinbase-to-bank) .
+
+!end_cta
+
+!disclosure

@@ -22,3 +22,13 @@
 
 /*.html
   Cache-Control: public, max-age=300
+
+/sitemap.xml
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/robots.txt
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/feed.xml
+  Cache-Control: public, max-age=1800, must-revalidate
+

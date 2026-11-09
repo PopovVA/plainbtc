@@ -1,0 +1,64 @@
+[
+  {
+    "id": "compare",
+    "file": "fact-etf-shares.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: a spot bitcoin ETF means you own fund shares that hold bitcoin, not coins in your wallet",
+      "es": "Tarjeta: un ETF spot de bitcoin significa que posees participaciones del fondo, no monedas en tu cartera",
+      "pt": "Cartão: um ETF spot de bitcoin significa que você possui cotas do fundo, não moedas na sua carteira",
+      "fr": "Encadré : un ETF bitcoin spot signifie que vous détenez des parts de fonds, pas des pièces dans un portefeuille",
+      "de": "Faktenkarte: Ein Spot-Bitcoin-ETF bedeutet Fondsanteile — keine Coins in Ihrer Wallet",
+      "ru": "Карточка: спотовый bitcoin-ETF — это доли фонда, а не монеты в вашем кошельке",
+      "tr": "Bilgi kartı: spot bitcoin ETF, cüzdanınızdaki coinler değil fon payları demektir",
+      "id": "Kartu fakta: ETF bitcoin spot berarti Anda memiliki unit dana, bukan koin di dompet",
+      "ja": "ファクトカード：スポットビットコインETFはウォレット内のコインではなく、ファンドの受益証券を保有する",
+      "ko": "팩트 카드: 현물 비트코인 ETF는 지갑의 코인이 아니라 펀드 주식을 보유하는 것"
+    },
+    "caption": {
+      "en": "Source: SEC, Fidelity",
+      "es": "Fuente: SEC, Fidelity",
+      "pt": "Fonte: SEC, Fidelity",
+      "fr": "Source : SEC, Fidelity",
+      "de": "Quelle: SEC, Fidelity",
+      "ru": "Источник: SEC, Fidelity",
+      "tr": "Kaynak: SEC, Fidelity",
+      "id": "Sumber: SEC, Fidelity",
+      "ja": "出典: SEC, Fidelity",
+      "ko": "출처: SEC, Fidelity"
+    }
+  },
+  {
+    "id": "custody",
+    "file": "fact-direct-keys.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: buying bitcoin means holding BTC on an exchange or in self-custody with keys you control",
+      "es": "Tarjeta: comprar bitcoin implica tener BTC en un exchange o en autocustodia con claves que controlas",
+      "pt": "Cartão: comprar bitcoin significa ter BTC em uma exchange ou em autocustódia com chaves sob seu controle",
+      "fr": "Encadré : acheter du bitcoin, c’est détenir du BTC sur une plateforme ou en auto-conservation avec vos clés",
+      "de": "Faktenkarte: Bitcoin kaufen heißt BTC an einer Börse oder in Self-Custody mit eigenen Schlüsseln halten",
+      "ru": "Карточка: покупка биткоина — это BTC на бирже или в самокастоди с ключами под вашим контролем",
+      "tr": "Bilgi kartı: bitcoin almak, borsada veya kendi saklamanızda kontrol ettiğiniz anahtarlarla BTC tutmak demektir",
+      "id": "Kartu fakta: membeli bitcoin berarti memegang BTC di bursa atau self-custody dengan kunci yang Anda kendalikan",
+      "ja": "ファクトカード：ビットコイン購入とは、取引所または自分で管理する鍵によるセルフカストディでBTCを保有すること",
+      "ko": "팩트 카드: 비트코인 구매는 거래소 또는 본인이 키를 통제하는 셀프 커스터디로 BTC를 보유하는 것"
+    },
+    "caption": {
+      "en": "Source: Coinbase Help, FINRA",
+      "es": "Fuente: Coinbase Help, FINRA",
+      "pt": "Fonte: Coinbase Help, FINRA",
+      "fr": "Source : Coinbase Help, FINRA",
+      "de": "Quelle: Coinbase Help, FINRA",
+      "ru": "Источник: Coinbase Help, FINRA",
+      "tr": "Kaynak: Coinbase Help, FINRA",
+      "id": "Sumber: Coinbase Help, FINRA",
+      "ja": "出典: Coinbase Help, FINRA",
+      "ko": "출처: Coinbase Help, FINRA"
+    }
+  }
+]

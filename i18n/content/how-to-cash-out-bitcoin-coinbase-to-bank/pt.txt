@@ -1,0 +1,115 @@
+title: Como transferir bitcoins na Coinbase para o seu banco (etapas, prazos e impostos dos EUA)
+page_title: Como transferir bitcoin na Coinbase para o seu banco
+description: Como vender bitcoin na Coinbase e sacar USD para um banco dos EUA: tempo ACH, saques instantâneos, taxas para assistir e os princípios básicos do IRS que os iniciantes perdem.
+og_description: Venda BTC para o seu saldo em USD da Coinbase e, em seguida, retire para o seu banco — com tempo, taxas e uma pequena lista de verificação fiscal.
+label: Guia para Iniciantes
+summary: Passo a passo para usuários dos EUA: venda bitcoin para seu saldo de caixa da Coinbase, faça saques em um banco vinculado via ACH ou saque instantâneo e observe os princípios básicos de relatórios fiscais.
+===
+
+Sacar bitcoin na Coinbase é duas ações separadas: primeiro você <strong>  vende </strong> bitcoin em dólares americanos dentro da Coinbase, depois você  <strong> saca </strong>  esses dólares para uma conta bancária vinculada. Os iniciantes muitas vezes misturam os dois e se perguntam por que "vender" ainda não colocou dinheiro em sua conta corrente. Este guia aborda as etapas da Coinbase para usuários dos EUA, o tempo típico, as taxas a serem observadas e os pontos do IRS que se aplicam quando você vende.
+
+!takeaways
+- A venda de bitcoin na Coinbase move o valor para o  seu saldo em dinheiro <strong> Coinbase USD </strong> . Ele por si só não deposita dinheiro no seu banco.
+- Um saque bancário padrão dos EUA usa  <strong> ACH </strong>  e normalmente leva <strong>  3-5 dias úteis </strong> depois de iniciá-lo, de acordo com a Ajuda da Coinbase.
+- Os usuários elegíveis podem usar  os saques instantâneos <strong> </strong>  para determinados cartões ou bancos habilitados para RTP por uma taxa e uma chegada mais rápida.
+- Para impostos dos EUA, o IRS trata os ativos digitais como  propriedade <strong> </strong> . Vender bitcoin por USD geralmente é uma disposição tributável que você pode precisar relatar.
+
+## Antes de começar
+
+1. Conclua a verificação de identidade e vincule uma conta bancária dos EUA nas formas de pagamento da Coinbase.
+2. Atualize o aplicativo Coinbase ou use o site oficial que você mesmo digitou.
+3. Confirme se o saldo de bitcoin que você planeja vender está disponível (não está retido para um depósito pendente).
+4. Decida se precisa de dólares no seu banco esta semana (ACH) ou mais cedo (levantamento imediato, se elegível).
+
+Se você ainda não tem uma conta, você pode [abrir Coinbase](REF)  {{#ref}}com nosso link de indicação{{/ref}}  e aprender o lado de compra em nosso  [guia first-bitcoin](/articles/how-to-buy-first-bitcoin-coinbase) .
+
+## Etapa 1: Venda bitcoin por USD (não USDC)
+
+A Coinbase diz que você pode  [vender criptomoedas para o seu saldo de caixa a qualquer momento](L1) . No site: escolha Vender, escolha bitcoin e o valor, defina o destino para o saldo em moeda local (USD), revise o pedido e confirme. No aplicativo móvel, o caminho é Comprar e Vender → Vender, com a mesma tela de revisão.
+
+Detalhes importantes: venda para  <strong> USD </strong>  se o seu objetivo for um depósito bancário. Vender em USDC deixa você com uma stablecoin, que seu banco não receberá como um crédito ACH normal. Após a conclusão da venda, os dólares ficam no seu saldo de caixa da Coinbase.
+
+A venda é uma negociação, portanto, o  [spread e qualquer taxa da Coinbase](L4)  mostrado na visualização se aplica. Para obter uma descrição completa da taxa, consulte  [Taxas da Coinbase explicadas](/articles/coinbase-fees-explained) .
+
+!howto
+
+## Passo 2: Levante USD para o seu banco
+
+A partir do seu saldo em USD, escolha Levantar ou Levantar, introduza o montante e selecione a sua conta bancária verificada.
+
+<strong> ACH padrão (a maioria dos iniciantes):  </strong> Coinbase explica que os clientes dos EUA usam o sistema ACH para transferências bancárias e que o ACH normalmente leva <strong> 3–5 dias úteis  </strong> depois de iniciar a retirada. Os dias úteis são de segunda a sexta-feira no horário bancário normal; noites, fins de semana e feriados bancários não contam. A Coinbase observa que está sediada em São Francisco, e as transferências ACH geralmente são concluídas até o final do dia útil do horário do Pacífico. Normalmente, não há taxa da Coinbase <strong> para ACH </strong>  no caminho de saque do consumidor, mas sempre confirme a visualização.
+
+<strong> Saques instantâneos (se elegíveis): </strong> Coinbase  [página de ajuda para saque instantâneo](L3) diz que os clientes elegíveis dos EUA podem enviar USD ou USDC para um banco habilitado para RTP (limite citado em $ 100.000 por transação) ou sacar para certos cartões Visa Fast Funds / Mastercard Send. Os levantamentos instantâneos de bancos ou cartões podem demorar cerca de 30 minutos e até 24 horas, dependendo do banco ou da rede de cartões, e aplicam-se taxas de transação padrão.
+
+!figure:timing
+
+!mid_cta
+
+## Por que uma venda ou retirada pode parecer "travada"
+
+A Coinbase publica uma nota separada no  [por que as vendas podem levar tempo](L2) . Para os usuários dos EUA, o ACH é o caminho usual para um banco, e a janela de 3 a 5 dias úteis é normal, não uma conta congelada. Os pedidos feitos à noite não podem começar a ACH até o próximo dia útil. Os detalhes da sua transação mostram uma data de conclusão estimada que já considera fins de semana e feriados.
+
+Se os fundos não tiverem chegado após essa janela, verifique se a conta bancária ainda está verificada, se o nome corresponde ao seu perfil da Coinbase e entre em contato com o suporte da Coinbase apenas através do aplicativo ou site oficial.
+
+## Taxas a serem observadas ao sacar
+
+1. <strong> Custo de negociação do lado de venda. </strong>  A prévia da venda de bitcoin → USD inclui spread e qualquer taxa da Coinbase.
+2. <strong> Taxa de método de levantamento. O  </strong> ACH geralmente é gratuito do lado da Coinbase; cartões instantâneos ou saques RTP podem cobrar pela velocidade.
+3. <strong> Seu banco. </strong>  A maioria dos bancos dos EUA não cobra para receber ACH, mas transferências ou pagamentos instantâneos recebidos podem. Verifique com o seu banco.
+4. <strong> Pequenos saldos de sobras. </strong>  Deixar alguns dólares na Coinbase é bom se você planeja comprar novamente; caso contrário, retire o que você precisa após a liquidação da venda.
+
+## Noções básicas de impostos dos EUA que os iniciantes perdem
+
+Isso é educação, não consultoria tributária. Converse com um contador sobre sua situação.
+
+O IRS diz  [ativos digitais são propriedade, não moeda](L5) . Quando você vende bitcoin por USD, geralmente tem um ganho ou perda de capital igual à diferença entre o que recebe e sua base de custo (o que pagou, incluindo certas taxas). Segurar bitcoin sem vender geralmente não cria ganho por si só. Mover criptomoedas entre carteiras que você controla geralmente não é uma venda, a menos que você pague uma taxa de rede em criptomoedas que o IRS trata como uma alienação.
+
+Se você vendeu ou trocou ativos digitais que detinha como um ativo de capital, o IRS aponta para  [Formulário 8949](L6)  e relatórios relacionados ao Anexo D. As corretoras devem relatar certos recursos de ativos digitais no Formulário 1099-DA para transações em ou após 1º de janeiro de 2025, com relatórios de base em fase de algumas vendas de ativos adquiridos em ou após 1º de janeiro de 2026. Mantenha seus próprios registros de datas de compra, valores e receitas, mesmo que você espere um formulário.
+
+Responda honestamente à pergunta sobre ativos digitais no Formulário 1040 para o ano fiscal. Comprar bitcoin com dólares e apenas mantê-lo pode significar responder Não para aquele ano; vendê-lo, trocá-lo ou gastá-lo geralmente significa Sim.
+
+!figure:tax
+
+## Erros comuns
+
+- Esperando que o botão Vender deposite no seu banco em uma etapa.
+- Vender para USDC quando você precisar de USD para ACH.
+- Usar uma compra com cartão de débito semanas antes e, em seguida, ser surpreendido pelo spread de venda na saída — os custos de ida e volta aumentam (consulte o nosso  [guia de taxas](/articles/coinbase-fees-explained) ).
+- Ignorar lotes de impostos em uma venda lucrativa.
+- Apaixonar-se pelo "suporte" por telefone que pede que você envie bitcoin para uma "carteira segura" enquanto saca — a Coinbase não pedirá isso.
+
+## Conclusão 
+
+Para iniciantes nos EUA, o caminho confiável é: vender bitcoin para o seu saldo em USD da Coinbase, depois sacar até ACH e esperar vários dias úteis. Use o saque instantâneo apenas quando precisar de velocidade e aceite a taxa. Leia cada visualização, mantenha registros de impostos e trate o risco de preço separadamente do tempo de retirada.
+
+Pronto para praticar com uma pequena quantidade primeiro?  [Crie uma conta na Coinbase](REF)  {{#ref}}através do nosso link de indicação{{/ref}} e, em seguida, revisite esta página quando estiver pronto para vender. Se você ainda está decidindo entre moedas e um fundo, leia  [eTF de bitcoin vs compra de bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin) .
+
+!faq
+
+## Perguntas frequentes
+
+### Quanto tempo a Coinbase leva para enviar dinheiro para o meu banco?
+
+Depois de sacar USD, a Coinbase diz que o ACH normalmente leva de 3 a 5 dias úteis. Os saques instantâneos para bancos ou cartões elegíveis podem ser muito mais rápidos, mas podem custar uma taxa.
+
+### Posso sacar bitcoins diretamente para minha conta bancária?
+
+Não. Os bancos recebem dólares (ou às vezes outras moedas fiduciárias), não bitcoin. Vender BTC para USD na Coinbase primeiro, depois retirar o USD.
+
+### O saque de bitcoins é tributável nos EUA?
+
+Vender bitcoin por USD é geralmente uma alienação tributável de propriedade. Seu ganho ou perda depende de sua base e prossegue. Confirme os detalhes com a página de ativos digitais do IRS e um profissional de impostos.
+
+### Por que meu saldo da Coinbase está disponível para venda, mas não para saque?
+
+Depósitos pendentes, retenções de segurança ou regras de liquidação podem limitar os saques mesmo quando um saldo está visível. Verifique a data de disponibilidade da transação e os limites da Coinbase para sua conta.
+
+### Devo vender tudo de uma vez ou em partes?
+
+Essa é uma decisão pessoal e tributária. A venda de peças pode criar vários lotes e várias taxas de pré-visualização. O  nosso  [Guia DCA](/articles/how-much-bitcoin-should-a-beginner-buy-dca)  abrange a compra de peças; a estratégia de venda depende dos seus objetivos e situação fiscal.
+
+!soft: Compare os custos de negociação antes de vender em  [Taxas da Coinbase explicadas](/articles/coinbase-fees-explained) .
+
+!end_cta
+
+!disclosure

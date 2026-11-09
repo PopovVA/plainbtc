@@ -1,0 +1,124 @@
+title: Coinbase ücretleri açıklandı: spread, Advanced maker/taker ve yeni başlayan birinin gerçekte ne ödediği
+page_title: Coinbase ücretleri açıklandı
+description: ABD'li yeni başlayanlar için Coinbase ücretleri açıklandı: basit uygulama yayılımı nasıl çalışır, Gelişmiş yapıcı/alıcı oranları, Coinbase One ve satın almadan önce önizleme ekranını nasıl okuyacağınız.
+og_description: Coinbase'in basit işlemlerde Advanced Trade'e göre aldığı ücretler ve onaylamadan önce gerçek maliyeti nasıl kontrol edeceğiniz.
+label: Başlangıç kılavuzu
+summary: Coinbase ücretlerinin sade bir İngilizce dökümü: basit alım satımlara yayılan değişken, Gelişmiş yapıcı/alıcı katmanları, Coinbase One ve önizleme ekranında maliyetlerin nasıl karşılaştırılacağı.
+===
+
+Coinbase, Bitcoin için sabit bir "ücret" yayınlamıyor. "Ödemeniz, basit Al/Sat ekranını mı yoksa Coinbase Advanced'i mi kullandığınıza, ödeme yönteminize, emir büyüklüğünüze, piyasa koşullarına ve konumunuza bağlıdır. Bu kılavuz, Coinbase'in açıkladığı ücret türlerini gözden geçirir, yayınlanan ABD Gelişmiş giriş oranlarını gösterir ve önizleme ekranını nasıl okuyacağınızı açıklar, böylece Satın Al'a dokunduktan sonra şaşırmazsınız.
+
+!takeaways
+- Basit alış ve satışlar, teklif edilen fiyatın içinde bir <strong> spread </strong> içerir. Coinbase tek bir sabit spread yüzdesi yayınlamaz; bunu sipariş önizlemesinde görürsünüz.
+- Coinbase Advanced'in <strong> yayılımı yoktur </strong> . Yapıcı veya alıcı ücretlerini hacim seviyesine göre ödersiniz. Coinbase'in halka açık Gelişmiş VIP tablosu, spot için <strong> % 0,50 yapıcı /% 0,90 alıcı </strong>'deki Giriş katmanını listeler.
+- Basit limit emirleri ayrı bir <strong> % 1 yürütme ücreti </strong> ekler ve Coinbase ayrıca bir ödeme yöntemi Coinbase ücreti talep edebilir (yardım sayfası yönteme göre değişen bir örnek olarak % 1,875 'i belirtir).
+- Onaylamadan önce her zaman <strong> toplamını </strong> önizleme ekranında karşılaştırın. Ücretler değişiyor ve Coinbase zaman zaman ücreti test ettiğini ve değişiklikleri bölgeye ve sipariş türüne göre yaydığını söylüyor.
+
+## Kısa Cevap 
+
+ABD'li yeni başlayanların çoğu için az miktarda bitcoin satın almak, basit Coinbase uygulaması en kolay olanıdır, ancak genellikle en ucuz yol değildir. Teklif edilen fiyat zaten bir spread içerir ve diğer ücretler nasıl ödeme yaptığınıza bağlı olarak üst üste yığılabilir. Limit emri verirken rahatsanız, [Coinbase Advanced](L2) spread'i kaldırır ve bunun yerine yayınlanmış bir piyasa yapıcı/alıcı programından ücret alır.
+
+Bunların hiçbiri finansal tavsiye değildir. Ücret programları değişir. Coinbase'in işlem yaptığınız gün uygulamada size gösterdiği sayılara güvenin.
+
+## Ücret türü 1: basit uygulama farkı
+
+Basit alış, satış ve dönüştürme emirlerinde Coinbase  [teklif edilen fiyatta bir spread içerir](L1) . Spread, piyasa fiyatı ile size sunulan fiyat arasındaki boşluktur. Coinbase, siz emri incelerken spread'in teklif edilen fiyatınızı sabitlemesine yardımcı olduğunu, fazla spread'i tutabileceğini ve spread'in benzer işlemler için değişebileceğini söylüyor.
+
+Onaylamadan önce spread'i görebilirsiniz:
+
+- Alış ve satış emirlerinde, varlığın fiyat çizgisinin yanındaki araç ipucuna dokunun.
+- Dönüştürme emirlerinde, teklif edilen döviz kurunun yanındaki araç ipucuna dokunun.
+
+Coinbase bu yardım sayfasında sabit bir spread yüzdesi yayınlamadığından, üçüncü taraf "Coinbase ücreti %X" tabloları genellikle eskidir. Siparişiniz için önemli olan tek numara, <strong> </strong> önizleme ekranınızdaki numaradır.
+
+!figure:spread
+
+## Ücret türü 2: Coinbase ücretleri ve basit limit emirleri
+
+Coinbase, spread'in ötesinde işlem ücretlerinin ödeme yöntemine, emir büyüklüğüne, piyasa koşullarına, konuma, varlığa ve maruz kaldığı diğer maliyetlere bağlı olduğunu söylüyor. Bu ücretler, göndermeden önce işlem önizlemesinde gösterilir.
+
+<strong> basit limit emirleri için </strong> , Coinbase iki ekstra parça açıklar:
+
+1. Her limit alış veya limit satışında ayrı bir <strong> % 1 limit emri yürütme ücreti </strong>.
+2. <strong>'nin </strong> ödeme yöntemine göre değiştiği olası bir ek Coinbase ücreti (yardım sayfası örnek olarak % 1,875 verir).
+
+Her ikisi de önizleme ekranındaki ücret dökümünde ve işlem geçmişinizde görünür. Coinbase One'ın sıfır işlem ücreti avantajı <strong> değil, </strong> % 1 basit limit sipariş ücretinden feragat ediyor.
+
+## Ücret türü 3: Coinbase Advanced yapıcı ve alıcı
+
+Coinbase Advanced, emir defterine karşı işlem yapar, bu nedenle  [spread eklenmez](L1) . Bunun yerine bir piyasa yapıcı ücreti veya alıcı ücreti ödersiniz:
+
+- <strong> Alıcı: </strong> hemen yerine getiren bir emir (örneğin bir piyasa emri) daha yüksek alıcı oranını öder.
+- <strong> Maker: </strong> defterde bekleyen bir istirahat limit emri, dolduğunda daha düşük maker oranını öder.
+- Kısmen doldurulmuş bir emir her ikisini de ödeyebilir: İlk kısımda alıcı, geri kalan kısımda yapıcı.
+
+Seviyeniz, hangisi sizin lehinize olursa olsun, son hacim veya USDC bakiye kriterlerine dayanmaktadır. Coinbase, Advanced içindeki canlı fiyatlarınızı kontrol etmenizi söylüyor. Halka açık bir referans noktası için, Coinbase'in [Gelişmiş VIP sayfası](L3)'si, <strong> % 0,50 yapıcı ve % 0,90 alıcı </strong>'nin bir <strong> Intro </strong> spot katmanını listeler; hacim veya USDC bakiyesi arttıkça daha düşük oranlar, en üst VIP seviyesinde % 0 yapıcı /% 0,02 alıcıya kadar düşer. Oranlar bölgeseldir; ABD'den işlem yapıyorsanız AB veya diğer piyasa fiyatlarını dikkate almayın
+
+!figure:advanced
+
+!mid_cta
+
+## Coinbase One, ağ ücretleri ve nakde çevirme maliyetleri
+
+[Coinbase One](L4), aylık üst sınıra kadar nitelikli basit alım ve satımlarda işlem ücretlerinden feragat edebilen ücretli bir aboneliktir. Coinbase, bazı işlemler için bir spread'in kote fiyatlarda kalabileceğini ve DEX hizmet ücretlerinin ve % 1 basit limit sipariş ücretinin sıfır ücret avantajı kapsamında olmadığını belirtmektedir.
+
+İşlem ücretlerinden ayrı olarak:
+
+- <strong> Ağ ücretleri  </strong>, Coinbase'den kripto gönderdiğinizde geçerlidir. Coinbase, geçerli ağ ücretlerine ilişkin tahminine dayanarak ücretlendirir ve gönderim sırasındaki tutarı açıklar. Lightning bitcoin gönderimleri, açıklanan bir <strong> % 0,2 </strong>  işlem ücreti taşır.
+- <strong> Nakit ekleme veya </strong>'yi nakde çevirme, bir ödeme yöntemi ücreti taşıyabilir. Onaylamadan önce bu satırı gözden geçirin. Standart ACH banka havaleleri Coinbase tarafında genellikle ücretsizdir, [anında para transferi](L5) ise uygun kartlara veya RTP özellikli bankalara hız için daha pahalıya mal olabilir.
+- Kripto parayı USD bakiyenize satmak bir işlemdir (bu nedenle spread/ücretler uygulanır); bu USD'yi bankanıza taşımak ayrı bir nakde çevirme adımıdır. [nakde çevirme kılavuzu](/articles/how-to-cash-out-bitcoin-coinbase-to-bank)'ye bakın .
+
+## Yeni başlayanlar için 1.000 $ 'lık bir satın alma işlemi nasıl görünebilir?
+
+Yaklaşık 1.000 $ bitcoin istediğinizi hayal edin.
+
+1. <strong> Banka kartı ile Simple Buy. </strong> Önizleme, bir spread artı karta bağlı bir Coinbase ücreti gösterebilir. Aldığınız bitcoin 1.000 $ ÷ spot fiyattan daha az olacaktır, çünkü her iki parça da ödediğiniz miktardan gelir. Kart alımları uygundur ve genellikle daha pahalı seçenekler arasındadır.
+2. <strong> Basit Alış, Coinbase USD bakiyenizden finanse edilir (önce ACH para yatırma). </strong> Yine de basit işlem spread/ücretini ödersiniz, ancak kart ücretinden kaçınırsınız. ACH para yatırma işlemlerinin tamamen silinmesi genellikle birkaç iş günü sürer.
+3. <strong> Coinbase Üretici olarak gelişmiş limit emri. </strong> Yayınlanan % 0,50 Intro maker oranında, 1.000 $ 'lık bir nosyonel emir, maker olarak kalır ve dolarsa, spread olmadan yaklaşık 5 $ işlem ücreti gösterir. Limit fiyatını kendiniz belirlemeli ve dolum için beklemelisiniz.
+
+Bunlar alıntılar değil, illüstrasyonlardır. Coinbase, sipariş sırasındaki canlı toplamı hesaplar. Her zaman önizlemeyi okuyun.
+
+## İşleri aşırı karmaşıklaştırmadan ücretler nasıl düşük tutulur?
+
+1. Bekleyebileceğiniz zaman kredi veya banka kartı yerine ACH'yi USD bakiyenize tercih edin.
+2. Her önizlemede ücret araç ipucunu açın ve aynı boyut için basit ile Gelişmiş'i karşılaştırın.
+3. Advanced'de, piyasa yapıcı oranını istiyorsanız beklemek istediğiniz limit emirlerini kullanın.
+4. Yalnızca USD veya bitcoin'e ihtiyacınız olduğunda gereksiz dönüştürmelerden (→kripto para) kaçının; her dönüştürme bir spread yerleştirebilir.
+5. Sık sık işlem yapıyorsanız, Coinbase One'ın aylık ücretinin gerçekte ödediğiniz işlem ücretlerinden düşük olup olmadığını kontrol edin.
+6. Daha büyük tekrarlayan alımlar için, [dolar - maliyet ortalaması](/articles/how-much-bitcoin-should-a-beginner-buy-dca)'deki notlarımıza bakın, böylece ücretler küçük alımları yemez.
+
+## Sözün özü
+
+Coinbase ücretleri, yayınlanan tek bir yüzde olmasa bile önizleme ekranında şeffaftır. Yeni başlayanlar genellikle araç ipucunu kontrol etmeden basit ekranda bir kartla satın alarak fazla ödeme yaparlar. Gelişmiş Ticaret daha fazla iştir, ancak yayınlanmış piyasa yapıcı/alıcı programı ve spread eksikliği maliyetleri karşılaştırmayı kolaylaştırır. Öğrenmeyi göze alabileceğiniz bir miktarla başlayın, her önizleme satırını okuyun ve yalnızca daha sonra ölçeklendirin.
+
+Hesap açmaya hazırsanız [coinbase'e kaydolun](REF) {{#ref}}referans bağlantımız aracılığıyla{{/ref}} ve [adım adım ilk bitcoin kılavuzu](/articles/how-to-buy-first-bitcoin-coinbase) takip edebilirsiniz . Önce güvenlikle ilgili temel bilgiler için [Coinbase yeni başlayanlar için güvenli mi?](/articles/is-coinbase-safe-for-beginners)'yi  okuyun .
+
+!faq
+
+## SSS
+
+### Coinbase, bitcoin satın almak için sabit bir ücret alıyor mu?
+
+Hayır. Basit alımlar, teklif edilen fiyatın içinde bir değişken spread artı önizlemede gösterilen herhangi bir Coinbase ücretini kullanır. Gelişmiş İşlem, maker/taker yüzdelerini spread yerine kademeye göre kullanır.
+
+### Yeni başlayanlar için Coinbase Advanced ücreti nedir?
+
+Coinbase'in halka açık Gelişmiş VIP tablosu, % 0,50 yapıcı ve % 0,90 alıcıdaki Giriş spot katmanını listeler. Uygulama içindeki canlı seviyeniz yetkilidir ve fiyatlar daha yüksek 30 günlük hacim veya uygun USDC bakiyeleri ile düşer.
+
+### Coinbase One ücretler için buna değer mi?
+
+Aylık basit işlem ücretleriniz abonelik maliyetini aşarsa olabilir. Her maliyeti ortadan kaldırmaz: spreadler hala görünebilir ve % 1 basit limit sipariş ücreti ve DEX hizmet ücretleri sıfır ücret avantajından hariç tutulur.
+
+### Coinbase ücretim neden bir arkadaşımınkinden farklı?
+
+Coinbase, ücretlerin ödeme yöntemine, emir büyüklüğüne, piyasa koşullarına, konuma, varlığa ve bölgeye göre yürüttüğü testlere göre değişebileceğini söylüyor. İki benzer sipariş farklı toplamlar gösterebilir.
+
+### Bankama USD çekmek için ücret ödüyor muyum?
+
+ACH para çekme işlemleri genellikle Coinbase tarafında ücretsizdir, ancak birkaç iş günü sürer. Uygun kartlara veya RTP bankalarına anında para transferi, hız için bir ücret taşıyabilir. Her zaman nakde çevirme önizlemesini kontrol edin.
+
+!soft: Ardından, [bitcoin sat ve USD'yi bankana taşı](/articles/how-to-cash-out-bitcoin-coinbase-to-bank)'ye giden adımları tam olarak öğrenin .
+
+!end_cta
+
+!disclosure

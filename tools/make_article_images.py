@@ -208,7 +208,7 @@ def make_line_chart(path: Path, xs, ys, title: str, hline=None, hlabel=None,
 
 
 def make_bar_chart(path: Path, labels, values, title: str, ylabel="",
-                   colors=None, w=1200, h=675) -> Path:
+                   colors=None, w=1200, h=675, value_fmt=None) -> Path:
     fig, ax = plt.subplots(figsize=(w / 100, h / 100), dpi=100)
     style_axes(ax, title)
     cols = colors or [f"#{ORANGE[0]:02x}{ORANGE[1]:02x}{ORANGE[2]:02x}"] * len(values)
@@ -217,7 +217,7 @@ def make_bar_chart(path: Path, labels, values, title: str, ylabel="",
         ax.text(
             bar.get_x() + bar.get_width() / 2,
             bar.get_height(),
-            f"${v:,.0f}M" if abs(v) >= 1 else f"${v:.1f}M",
+            (value_fmt(v) if value_fmt else (f"${v:,.0f}M" if abs(v) >= 1 else f"${v:.1f}M")),
             ha="center",
             va="bottom",
             color="#e2e8f0",
@@ -1036,6 +1036,148 @@ def build_wallet():
     ]
 
 
+
+def build_fees():
+    slug = "coinbase-fees-explained"
+    d = OUT / slug
+    d.mkdir(parents=True, exist_ok=True)
+    # Bar chart of published Advanced Intro maker/taker (public VIP table)
+    chart = make_bar_chart(
+        d / "chart-advanced-intro",
+        ["Maker\n(Intro)", "Taker\n(Intro)"],
+        [0.50, 0.90],
+        title="Coinbase Advanced spot — Intro tier (U.S.)",
+        ylabel="Fee %",
+        value_fmt=lambda v: f"{v:.2f}%",
+    )
+    card = make_fact_card(
+        d / "fact-spread-preview",
+        label="Simple trades",
+        big="Preview",
+        sub="Spread sits inside the quoted price — Coinbase does not publish one fixed %; check the tooltip before you buy",
+        footer="Source: Coinbase Help · Pricing and fees",
+    )
+    return [
+        _fig("advanced", chart.name, "chart", 1200, 630, _lang_dict(
+            "Bar chart of Coinbase Advanced Intro spot maker 0.50% and taker 0.90% fees",
+            es="Gráfico de barras: comisiones Intro de Coinbase Advanced al contado, maker 0,50 % y taker 0,90 %",
+            pt="Gráfico de barras: taxas Intro da Coinbase Advanced à vista, maker 0,50% e taker 0,90%",
+            fr="Graphique en barres : frais Intro Coinbase Advanced au comptant, maker 0,50 % et taker 0,90 %",
+            de="Balkendiagramm: Coinbase-Advanced-Intro-Spotgebühren Maker 0,50 % und Taker 0,90 %",
+            ru="Столбчатый график: комиссии Intro Coinbase Advanced на споте — maker 0,50% и taker 0,90%",
+            tr="Çubuk grafik: Coinbase Advanced Intro spot maker %0,50 ve taker %0,90 ücretleri",
+            id="Grafik batang: biaya Intro Coinbase Advanced spot maker 0,50% dan taker 0,90%",
+            ja="棒グラフ：Coinbase AdvancedのIntroスポット手数料（メイカー0.50%、テイカー0.90%）",
+            ko="막대 차트: 코인베이스 어드밴스드 Intro 현물 메이커 0.50%·테이커 0.90% 수수료"),
+            tr_map(CAPTION_CHART, src="Coinbase Advanced VIP table")),
+        _fig("spread", card.name, "fact", 1200, 630, _lang_dict(
+            "Fact card: on simple Coinbase trades the spread is inside the quoted price — check the preview tooltip",
+            es="Tarjeta: en operaciones simples de Coinbase el diferencial va en el precio cotizado; mira el tooltip de la vista previa",
+            pt="Cartão: nas operações simples da Coinbase o spread está no preço cotado; veja o tooltip da prévia",
+            fr="Encadré : sur les ordres simples Coinbase, le spread est dans le prix affiché — regardez l’infobulle de l’aperçu",
+            de="Faktenkarte: Bei einfachen Coinbase-Trades steckt der Spread im Kurs — Tooltip in der Vorschau prüfen",
+            ru="Карточка: в простых сделках Coinbase спред уже в котировке — смотрите подсказку на экране предпросмотра",
+            tr="Bilgi kartı: basit Coinbase işlemlerinde spread fiyatın içindedir — önizleme ipucunu kontrol edin",
+            id="Kartu fakta: pada perdagangan sederhana Coinbase, spread ada di harga yang dikutip — cek tooltip pratinjau",
+            ja="ファクトカード：Coinbaseのシンプル取引ではスプレッドが提示価格に含まれる。プレビューのツールチップを確認",
+            ko="팩트 카드: 코인베이스 단순 거래에서는 스프레드가 호가에 포함됨 — 미리보기 툴팁을 확인하세요"),
+            tr_map(CAPTION_SOURCE, src="Coinbase Help")),
+    ]
+
+
+def build_cashout():
+    slug = "how-to-cash-out-bitcoin-coinbase-to-bank"
+    d = OUT / slug
+    d.mkdir(parents=True, exist_ok=True)
+    chart = make_bar_chart(
+        d / "chart-ach-days",
+        ["ACH\nbank out", "Instant\n(eligible)"],
+        [4, 0.5],
+        title="Typical U.S. cash-out timing (illustrative)",
+        ylabel="Business days (approx.)",
+        value_fmt=lambda v: f"~{v:g}d",
+    )
+    tax = make_fact_card(
+        d / "fact-irs-property",
+        label="U.S. taxes",
+        big="Property",
+        sub="The IRS treats digital assets as property — selling bitcoin for USD is generally a taxable disposal",
+        footer="Source: IRS · Digital assets",
+    )
+    return [
+        _fig("timing", chart.name, "chart", 1200, 630, _lang_dict(
+            "Bar chart comparing typical ACH cash-out timing of several business days versus faster instant cashouts",
+            es="Gráfico que compara el plazo típico ACH de varios días hábiles con los cashouts instantáneos más rápidos",
+            pt="Gráfico que compara o prazo típico ACH de vários dias úteis com cashouts instantâneos mais rápidos",
+            fr="Graphique comparant le délai ACH typique de plusieurs jours ouvrés aux cashouts instantanés plus rapides",
+            de="Diagramm: typische ACH-Auszahlung über mehrere Werktage vs. schnellere Instant-Cashouts",
+            ru="График: типичные сроки ACH в несколько рабочих дней против более быстрых мгновенных выводов",
+            tr="Çubuk grafik: birkaç iş günü süren tipik ACH çıkışı ile daha hızlı anlık cashout karşılaştırması",
+            id="Grafik batang membandingkan waktu cash-out ACH tipikal beberapa hari kerja vs cashout instan yang lebih cepat",
+            ja="棒グラフ：数営業日かかる一般的なACH出金と、より速いインスタントキャッシュアウトの比較",
+            ko="막대 차트: 영업일 수일이 걸리는 일반 ACH 출금과 더 빠른 즉시 캐시아웃 비교"),
+            tr_map(CAPTION_CHART, src="Coinbase Help (ACH 3–5 business days)")),
+        _fig("tax", tax.name, "fact", 1200, 630, _lang_dict(
+            "Fact card: the IRS treats digital assets as property, so selling bitcoin for USD is generally taxable",
+            es="Tarjeta: el IRS trata los activos digitales como propiedad; vender bitcoin por USD suele ser un hecho imponible",
+            pt="Cartão: a IRS trata ativos digitais como propriedade; vender bitcoin por USD geralmente é tributável",
+            fr="Encadré : l’IRS traite les actifs numériques comme des biens — vendre du bitcoin contre des USD est en général imposable",
+            de="Faktenkarte: Der IRS behandelt Digital Assets als Eigentum — BTC-Verkauf gegen USD ist in der Regel steuerpflichtig",
+            ru="Карточка: IRS считает цифровые активы имуществом — продажа биткоина за USD обычно налогооблагаема",
+            tr="Bilgi kartı: IRS dijital varlıkları mülk sayar — bitcoin’i USD’ye satmak genellikle vergilendirilir",
+            id="Kartu fakta: IRS memperlakukan aset digital sebagai properti — menjual bitcoin ke USD umumnya kena pajak",
+            ja="ファクトカード：IRSはデジタル資産を財産として扱うため、ビットコインのUSD売却は一般に課税対象",
+            ko="팩트 카드: IRS는 디지털 자산을 재산으로 취급 — 비트코인을 USD로 파는 것은 일반적으로 과세 대상"),
+            tr_map(CAPTION_SOURCE, src="IRS Digital assets")),
+    ]
+
+
+def build_etf():
+    slug = "bitcoin-etf-vs-buying-bitcoin"
+    d = OUT / slug
+    d.mkdir(parents=True, exist_ok=True)
+    cmp_ = make_fact_card(
+        d / "fact-etf-shares",
+        label="Spot bitcoin ETF",
+        big="Shares",
+        sub="You own fund shares that hold bitcoin — not on-chain coins you can send to a wallet",
+        footer="Source: SEC (Jan 10, 2024) · Fidelity Learning Center",
+    )
+    keys = make_fact_card(
+        d / "fact-direct-keys",
+        label="Buying bitcoin",
+        big="BTC",
+        sub="You hold bitcoin on an exchange or in self-custody — keys and withdrawals are part of the product",
+        footer="Source: Coinbase Help · FINRA crypto risks",
+    )
+    return [
+        _fig("compare", cmp_.name, "fact", 1200, 630, _lang_dict(
+            "Fact card: a spot bitcoin ETF means you own fund shares that hold bitcoin, not coins in your wallet",
+            es="Tarjeta: un ETF spot de bitcoin significa que posees participaciones del fondo, no monedas en tu cartera",
+            pt="Cartão: um ETF spot de bitcoin significa que você possui cotas do fundo, não moedas na sua carteira",
+            fr="Encadré : un ETF bitcoin spot signifie que vous détenez des parts de fonds, pas des pièces dans un portefeuille",
+            de="Faktenkarte: Ein Spot-Bitcoin-ETF bedeutet Fondsanteile — keine Coins in Ihrer Wallet",
+            ru="Карточка: спотовый bitcoin-ETF — это доли фонда, а не монеты в вашем кошельке",
+            tr="Bilgi kartı: spot bitcoin ETF, cüzdanınızdaki coinler değil fon payları demektir",
+            id="Kartu fakta: ETF bitcoin spot berarti Anda memiliki unit dana, bukan koin di dompet",
+            ja="ファクトカード：スポットビットコインETFはウォレット内のコインではなく、ファンドの受益証券を保有する",
+            ko="팩트 카드: 현물 비트코인 ETF는 지갑의 코인이 아니라 펀드 주식을 보유하는 것"),
+            tr_map(CAPTION_SOURCE, src="SEC, Fidelity")),
+        _fig("custody", keys.name, "fact", 1200, 630, _lang_dict(
+            "Fact card: buying bitcoin means holding BTC on an exchange or in self-custody with keys you control",
+            es="Tarjeta: comprar bitcoin implica tener BTC en un exchange o en autocustodia con claves que controlas",
+            pt="Cartão: comprar bitcoin significa ter BTC em uma exchange ou em autocustódia com chaves sob seu controle",
+            fr="Encadré : acheter du bitcoin, c’est détenir du BTC sur une plateforme ou en auto-conservation avec vos clés",
+            de="Faktenkarte: Bitcoin kaufen heißt BTC an einer Börse oder in Self-Custody mit eigenen Schlüsseln halten",
+            ru="Карточка: покупка биткоина — это BTC на бирже или в самокастоди с ключами под вашим контролем",
+            tr="Bilgi kartı: bitcoin almak, borsada veya kendi saklamanızda kontrol ettiğiniz anahtarlarla BTC tutmak demektir",
+            id="Kartu fakta: membeli bitcoin berarti memegang BTC di bursa atau self-custody dengan kunci yang Anda kendalikan",
+            ja="ファクトカード：ビットコイン購入とは、取引所または自分で管理する鍵によるセルフカストディでBTCを保有すること",
+            ko="팩트 카드: 비트코인 구매는 거래소 또는 본인이 키를 통제하는 셀프 커스터디로 BTC를 보유하는 것"),
+            tr_map(CAPTION_SOURCE, src="Coinbase Help, FINRA")),
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -1047,6 +1189,9 @@ BUILDERS = {
     "is-coinbase-safe-for-beginners": "safe",
     "how-much-bitcoin-should-a-beginner-buy-dca": "dca",
     "what-is-a-crypto-wallet-custodial-vs-self-custody": "wallet",
+    "coinbase-fees-explained": "fees",
+    "how-to-cash-out-bitcoin-coinbase-to-bank": "cashout",
+    "bitcoin-etf-vs-buying-bitcoin": "etf",
 }
 
 
@@ -1078,6 +1223,12 @@ def build_slug(slug: str, btc=None):
         figs = build_dca()
     elif key == "wallet":
         figs = build_wallet()
+    elif key == "fees":
+        figs = build_fees()
+    elif key == "cashout":
+        figs = build_cashout()
+    elif key == "etf":
+        figs = build_etf()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

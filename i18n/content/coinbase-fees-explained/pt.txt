@@ -1,0 +1,124 @@
+title: Taxas da Coinbase explicadas: spread, Advanced maker/taker e o que um iniciante realmente paga
+page_title: Taxas da Coinbase explicadas
+description: As taxas da Coinbase explicaram para iniciantes nos EUA: como funciona o spread do aplicativo simples, taxas avançadas de maker/taker, Coinbase One e como ler a tela de visualização antes de comprar.
+og_description: O que a Coinbase cobra em negociações simples versus Negociação Avançada e como verificar o custo real antes de confirmar.
+label: Guia para Iniciantes
+summary: Uma análise simples das taxas da Coinbase: o spread variável em compras e vendas simples, níveis avançados de maker/taker, Coinbase One e como comparar custos na tela de visualização.
+===
+
+A Coinbase não publica uma taxa fixa para bitcoin. "O que você paga depende se você usa a tela simples de Compra/Venda ou o Coinbase Advanced, seu método de pagamento, tamanho da ordem, condições de mercado e sua localização. Este guia percorre os tipos de taxas que a Coinbase divulga, mostra as taxas de entrada avançadas dos EUA publicadas e explica como ler a tela de visualização para que você não fique surpreso depois de tocar em Comprar.
+
+!takeaways
+- As compras e vendas simples incluem um spread <strong> </strong>  dentro do preço cotado. A Coinbase não publica uma única porcentagem fixa de spread; você a vê na visualização do pedido.
+- A Coinbase Advanced tem  <strong> sem spread </strong> . Você paga taxas de criador ou tomador por nível de volume. A tabela VIP Avançada pública da Coinbase lista o nível Intro na  <strong> 0,50% maker / 0,90% taker </strong>  para spot.
+- Ordens de limite simples adicionam uma taxa de execução separada de <strong> 1% </strong>, e a Coinbase também pode cobrar uma taxa de Coinbase de método de pagamento (sua página de ajuda cita 1,875% como um exemplo que varia de acordo com o método).
+- Sempre compare o  total de <strong> na tela de visualização </strong>  antes de confirmar. As taxas mudam, e a Coinbase diz que ocasionalmente testa as alterações de taxa e spread por região e tipo de pedido.
+
+## A resposta curta? 
+
+Para a maioria dos iniciantes dos EUA que compram uma pequena quantidade de bitcoin, o simples aplicativo Coinbase é mais fácil, mas geralmente não é o caminho mais barato. O preço cotado já incorpora um spread e outras taxas podem ser acumuladas, dependendo de como você paga. Se você se sentir confortável em fazer uma ordem limitada, o [Coinbase Advanced](L2) remove o spread e cobra um cronograma de criador/tomador publicado.
+
+Nada disso é aconselhamento financeiro. As tabelas de taxas mudam. Confie nos números que a Coinbase mostra no aplicativo no dia em que você negocia.
+
+## Taxa tipo 1: o spread do aplicativo simples
+
+Em ordens simples de compra, venda e conversão, Coinbase  [inclui um spread no preço cotado](L1) . O spread é a diferença entre o preço de mercado e o preço que lhe é oferecido. A Coinbase diz que o spread ajuda a bloquear seu preço cotado enquanto você revisa a ordem, que ele pode manter qualquer spread em excesso e que o spread pode variar para transações semelhantes.
+
+Você pode ver o spread antes de confirmar:
+
+- Nas ordens de compra e venda, toque na dica de ferramenta ao lado da linha de preço do ativo.
+- Ao converter pedidos, toque na dica de ferramenta ao lado da taxa de câmbio cotada.
+
+Como a Coinbase não publica uma porcentagem fixa de spread nessa página de ajuda, as tabelas "A taxa da Coinbase é X%" de terceiros geralmente são obsoletas. O único número que importa para o seu pedido é o da sua tela de visualização  <strong> </strong>.
+
+!figure:spread
+
+## Tipo de taxa 2: taxas da Coinbase e ordens com limite simples
+
+Além do spread, a Coinbase diz que as taxas de negociação dependem do método de pagamento, tamanho do pedido, condições de mercado, localização, ativos e outros custos incorridos. Essas taxas são mostradas na pré-visualização da negociação antes do envio.
+
+Para  ordens de limite simples <strong> </strong> , a Coinbase divulga duas peças extras:
+
+1. Uma taxa de execução de ordem limite <strong> 1% separada </strong> em cada compra ou venda limite.
+2. Uma possível taxa adicional da Coinbase que  <strong> varia de acordo com o método de pagamento </strong> (a página de ajuda fornece 1,875% como exemplo).
+
+Ambos aparecem no detalhamento da taxa na tela de visualização e no seu histórico de transações. O benefício de taxa de negociação zero da Coinbase One faz com que a <strong> não  a </strong> renuncie a essa taxa de ordem limite simples de 1%.
+
+## Tipo de taxa 3: Criador e tomador avançado da Coinbase
+
+A Coinbase Advanced negocia contra o livro de ordens, então  [nenhum spread é adicionado](L1) . Em vez disso, você paga uma taxa de maker ou uma taxa de taker:
+
+- <strong> Tomador: </strong> uma ordem que preenche imediatamente (por exemplo, uma ordem a mercado) paga a taxa de tomador mais alta.
+- <strong> Criador: </strong> uma ordem de limite de descanso que aguarda o livro pagar a taxa de criador mais baixa quando ele for preenchido.
+- Um pedido parcialmente preenchido pode pagar ambos: o tomador na parte imediata e o fabricante no restante.
+
+Sua modalidade é baseada em critérios recentes de volume ou saldo em USDC, o que favorecer você. A Coinbase diz para verificar suas taxas ao vivo dentro do Advanced. Para um ponto de referência público, o [Página VIP avançada](L3) da Coinbase lista um nível spot <strong> Intro </strong> do fabricante <strong> 0,50% e do tomador </strong> 0,90%, com taxas mais baixas à medida que o volume ou o saldo em USDC aumenta, até 0% do fabricante / 0,02% do tomador no nível VIP superior. As taxas são regionais; ignore as cotações da UE ou de outros mercados se você negociar nos EUA
+
+!figure:advanced
+
+!mid_cta
+
+## Coinbase One, taxas de rede e custos de saque
+
+[Coinbase One](L4)  é uma assinatura paga que pode renunciar às taxas de negociação em compras e vendas simples qualificadas até um limite mensal. A Coinbase ainda observa que um spread pode permanecer nos preços cotados para algumas negociações, e que as taxas de serviço de DES e a taxa de ordem de limite simples de 1% não são cobertas pelo benefício de taxa zero.
+
+Separado das taxas de negociação:
+
+- <strong> Taxas de rede </strong>  se aplicam quando você envia criptomoedas da Coinbase. A Coinbase cobra com base em sua estimativa das taxas de rede vigentes e divulga o valor no momento do envio. Os envios de bitcoins relâmpago carregam uma taxa de processamento <strong> divulgada de 0,2% </strong>.
+- <strong> Adicionar dinheiro ou sacar </strong> pode acarretar uma taxa de método de pagamento. Revise essa linha antes de confirmar. As transferências bancárias ACH padrão são geralmente gratuitas do lado da Coinbase, enquanto [saques instantâneos](L5)  para cartões elegíveis ou bancos habilitados para RTP podem custar mais pela velocidade.
+- A venda de criptomoedas no seu saldo em USD é uma negociação (portanto, spread/taxas se aplicam); mover esse USD para o seu banco é uma etapa de saque separada. Veja o nosso  [guia de saque](/articles/how-to-cash-out-bitcoin-coinbase-to-bank) .
+
+## Como pode ser uma compra de $ 1.000 para iniciantes
+
+Imagine que você quer cerca de $ 1.000 em bitcoins.
+
+1. <strong> Compra Simples com cartão de débito. </strong>  A visualização pode mostrar um spread mais uma taxa da Coinbase vinculada ao cartão. O bitcoin que você recebe será inferior a $ 1.000 ÷ preço à vista porque ambas as peças saem do que você paga. As compras com cartão são convenientes e muitas vezes estão entre as opções mais caras.
+2. <strong> Compra Simples financiada a partir do seu saldo em USD da Coinbase (primeiro depósito em ACH). </strong>  Você ainda paga o spread/taxa de negociação simples, mas evita uma taxa de cartão. Os depósitos ACH geralmente levam alguns dias úteis para serem totalmente compensados.
+3. <strong> Coinbase Advanced limit order como um criador. </strong>  Na taxa de criador de introdução publicada de 0,50%, uma ordem nocional de $ 1.000 mostraria cerca de $ 5 em taxa de negociação se ela permanecesse e fosse preenchida como um criador, sem spread. Você mesmo deve definir o preço limite e aguardar o preenchimento.
+
+Estas são ilustrações, não citações. A Coinbase calcula o total ao vivo no momento do pedido. Leia sempre a pré-visualização.
+
+## Como manter as taxas baixas sem complicar demais as coisas
+
+1. Prefira ACH no seu saldo em USD a um cartão de crédito ou débito quando puder esperar.
+2. Abra a dica de taxa em cada visualização e compare o simples com o avançado para o mesmo tamanho.
+3. No Advanced, use as ordens de limite que você está disposto a esperar se quiser a taxa do criador.
+4. Evite conversões desnecessárias (→criptomoedas) quando você só precisa de USD ou bitcoin; cada conversão pode incorporar um spread.
+5. Se você negocia com frequência, verifique se a taxa mensal da Coinbase One é menor do que as taxas de negociação que você realmente paga.
+6. Para compras recorrentes maiores, consulte nossas notas sobre [Preço médio](/articles/how-much-bitcoin-should-a-beginner-buy-dca)  para que as taxas não consumam pequenas compras.
+
+## Conclusão 
+
+As taxas da Coinbase são transparentes na tela de visualização, mesmo quando não são uma única porcentagem publicada. Os iniciantes geralmente pagam a mais comprando com um cartão na tela simples sem verificar a dica de ferramenta. O Comércio Avançado é mais trabalhoso, mas seu cronograma de fabricante/tomador publicado e a falta de spread tornam os custos mais fáceis de comparar. Comece com uma quantia que você pode aprender, leia cada linha de pré-visualização e só então aumente a escala.
+
+Se você estiver pronto para abrir uma conta, você pode  [cadastre-se na Coinbase](REF)  {{#ref}}através do nosso link de indicação{{/ref}}  e siga nosso  [guia passo a passo do primeiro bitcoin](/articles/how-to-buy-first-bitcoin-coinbase) . Para noções básicas de segurança primeiro, leia  [A Coinbase é segura para iniciantes?](/articles/is-coinbase-safe-for-beginners) .
+
+!faq
+
+## Perguntas frequentes
+
+### A Coinbase cobra uma taxa fixa para comprar bitcoin?
+
+Não. As compras simples usam um spread variável dentro do preço cotado mais qualquer taxa da Coinbase mostrada na visualização. A Advanced Trade usa porcentagens de maker/taker por nível em vez de um spread.
+
+### Qual é a taxa do Coinbase Advanced para iniciantes?
+
+A tabela VIP Avançada pública da Coinbase lista o nível Intro spot em 0,50% maker e 0,90% taker. Sua modalidade ao vivo dentro do aplicativo é autorizada e as taxas caem com um volume maior de 30 dias ou saldos qualificados em USDC.
+
+### O Coinbase One vale a pena pelas taxas?
+
+Pode ser se suas taxas mensais de negociação simples excederem o custo da assinatura. Ele não remove todos os custos: os spreads ainda podem aparecer, e a taxa de ordem limite simples de 1% e as taxas de serviço de DES são excluídas do benefício de taxa zero.
+
+### Por que minha taxa da Coinbase é diferente da de um amigo?
+
+A Coinbase diz que as taxas podem variar de acordo com o método de pagamento, tamanho do pedido, condições de mercado, localização, ativo e testes executados por região. Dois pedidos semelhantes podem mostrar totais diferentes.
+
+### Pago taxas para sacar USD para o meu banco?
+
+As retiradas de ACH geralmente são gratuitas do lado da Coinbase, mas levam vários dias úteis. Levantamentos instantâneos para cartões elegíveis ou bancos RTP podem implicar uma taxa de velocidade. Verifique sempre a pré-visualização do levantamento.
+
+!soft: Em seguida, aprenda as etapas exatas para  [vender bitcoin e mover USD para o seu banco](/articles/how-to-cash-out-bitcoin-coinbase-to-bank) .
+
+!end_cta
+
+!disclosure

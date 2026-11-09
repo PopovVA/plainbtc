@@ -1,0 +1,125 @@
+title: ETF de Bitcoin vs compra de bitcoin: o que faz sentido para um iniciante nos EUA?
+page_title: ETF de Bitcoin vs compra de bitcoin
+description: Spot bitcoin ETF vs compra de bitcoin na Coinbase: custódia, taxas, acesso ao IRA, impostos e quando cada caminho se encaixa em um iniciante dos EUA — sem exagero.
+og_description: Uma comparação clara entre ETFs spot de bitcoin e possuir bitcoin diretamente: controle, custos, contas de aposentadoria e impostos.
+label: Guia para Iniciantes
+summary: Os ETFs spot de bitcoin expõem o preço dentro de uma conta de corretagem. Comprar bitcoin lhe dá o próprio ativo. Veja como os iniciantes dos EUA podem comparar custódia, taxas, IRAs e impostos.
+===
+
+Desde janeiro de 2024, os investidores dos EUA podem comprar [produtos spot negociados em bolsa de bitcoin](L1)  em uma conta de corretagem normal. Isso criou uma nova pergunta para iniciantes: você deve comprar um ETF de bitcoin ou comprar o próprio bitcoin em uma exchange como a Coinbase? Ambos acompanham o preço do bitcoin em traços largos. Eles não são o mesmo produto. Este guia compara custódia, taxas, tipos de conta, impostos e compensações práticas para que você possa escolher deliberadamente.
+
+!takeaways
+- Um  <strong> spot bitcoin ETF </strong> (muitas vezes chamado de ETP) detém bitcoin dentro de um fundo. Você possui cotas de fundos, não as moedas.
+- <strong> Comprar bitcoin </strong> na Coinbase (ou em outro lugar) significa que você mantém o BTC em uma conta de custódia ou o retira para sua própria carteira.
+- Os ETFs geralmente são mais fáceis dentro de IRAs e corretoras tributáveis; o bitcoin direto é o caminho se você quiser auto-custódia ou uso on-chain.
+- Nenhum dos produtos elimina o risco de mercado. A FINRA adverte que os preços das criptomoedas podem cair drasticamente e que você pode perder dinheiro.
+
+## O que é um ETF spot de bitcoin
+
+Em 10 de janeiro de 2024, a Comissão de Valores Mobiliários dos EUA aprovou a listagem de vários produtos negociados em bolsa de bitcoins à vista. Em inglês simples, o fundo compra e detém bitcoin; você compra ações do fundo por meio de uma corretora durante o horário de mercado. O preço da ação visa rastrear o valor do bitcoin que o fundo detém, menos as despesas do fundo e as diferenças de rastreamento.
+
+O explicador da Fidelity observa que os ETPs de bitcoin à vista dão exposição ao portfólio sem que você segure carteiras ou chaves, e que as taxas, o reequilíbrio e outros atritos significam que o produto não rastreará o preço do bitcoin perfeitamente um por um.
+
+Você não pode enviar ações de ETF na rede bitcoin, gastá-las como bitcoin ou movê-las para uma carteira de hardware. Você vende ações em sua corretora quando quer sair.
+
+!figure:compare
+
+## O que significa "comprar bitcoin"
+
+Quando você compra bitcoin na Coinbase, você compra o próprio ativo. No início, geralmente fica na carteira de custódia da Coinbase (a Coinbase detém as chaves). Você pode deixá-lo lá ou retirá-lo para uma carteira de auto-custódia que você controla. Essa segunda etapa é abordada em nosso  [guia da carteira](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) .
+
+Propriedade direta é o que as pessoas querem dizer com “possuir bitcoin." Isso também significa que você assume o risco da conta de câmbio, as taxas da rede de saque e — se você se auto-custodiar - a responsabilidade da frase-semente.
+
+## Comparação lado a lado
+
+| Tópico | Spot Bitcoin ETF | Comprar bitcoin (por exemplo, na Coinbase) |
+| --- | --- | --- |
+| O que você possui | Cotas de Fundos | Bitcoin (custódia ou autocustódia) |
+| Quem detém as chaves | Custodiante DO fundo | Troque ou você |
+| Onde mora | Corretagem / ira / 401(k) se oferecido | Conta de câmbio ou carteira pessoal |
+| Horários de negociação | Horas no mercado de ações | 24 horas por dia, 7 dias por semana, em locais |
+| Taxa contínua | Índice de despesas do fundo (consulte o prospecto) | Normalmente, $ 0 para manter; você pagou taxas de negociação / rede para chegar lá |
+| Uso na cadeia | Não | Sim, após a retirada |
+| Formulários de impostos típicos | Relatório de estilo da corretora 1099-B para vendas de ações | Relatórios de ativos digitais; as corretoras usam o Formulário 1099-DA para muitas vendas a partir de 2025 |
+
+Os índices de despesas mudam. Sempre leia o prospecto atual para qualquer ticker que você considere (exemplos que os investidores costumam comparar incluem produtos spot grandes, como os da BlackRock, Fidelity ou Ark/21Shares). Não confie em uma taxa que você memorizou no ano passado.
+
+!figure:custody
+
+!mid_cta
+
+## Taxas: formas diferentes, mesma necessidade de comparar totais
+
+Caminho do ETF <strong>. </strong>  Você paga principalmente o índice de despesas anuais do fundo (retirado dos ativos do fundo) mais qualquer comissão de corretagem ou spread bid-ask ao negociar ações. Muitas grandes corretoras dos EUA cobram comissões online de $ 0 em negociações de ETF, mas o índice de despesas ainda aumenta silenciosamente a cada ano que você mantém.
+
+<strong> Caminho direto de bitcoin. </strong>  Coinbase cobra taxas de compra e venda via spread e/ou taxas de maker-taker, conforme explicado em  [Taxas da Coinbase explicadas](/articles/coinbase-fees-explained)  e [divulgações de taxas](L6) da  Coinbase . Manter bitcoin na Coinbase não cobra uma taxa de custódia diária para saldos padrão, mas sacar on-chain custa uma taxa de rede e vender custos posteriores novamente.
+
+Intuição grosseira: compras frequentes de pequenos ETFs em uma conta de aposentadoria podem ser mais simples; uma compra única de bitcoin que você planeja auto-custodiar por anos evita uma taxa de fundo recorrente, mas precisa de gerenciamento seguro de chaves.
+
+## Impostos e tipos de conta (EUA)
+
+O IRS trata  [ativos digitais como propriedade](L3) . Vender bitcoin ou vender ações de ETF que você detinha como ativos de capital pode criar ganhos ou perdas de capital que você relata (geralmente via  [Formulário 8949](L4) ). Manter qualquer um sem vender geralmente não cria ganho por si só.
+
+Diferenças práticas que os iniciantes sentem:
+
+- Contas de aposentadoria <strong>. Os ETFs de Bitcoin Spot </strong> estão amplamente disponíveis dentro de IRAs e alguns menus 401(k). Comprar bitcoins reais dentro de um invólucro de aposentadoria geralmente precisa de um custodiante especializado e é mais complexo.
+- <strong> Contas tributáveis. As vendas de ETFs </strong> normalmente aparecem em formulários de corretagem familiares. As vendas diretas de bitcoin envolvem cada vez mais o Formulário 1099-DA de corretores de custódia para transações em ou após 1º de janeiro de 2025, com relatórios de base sendo introduzidos mais tarde para alguns lotes. Mantenha seus próprios registros de compra de qualquer maneira.
+- <strong> Mesmo risco de mercado. As taxas preferenciais de ganhos de capital de longo prazo da </strong> podem ser aplicadas a ambos após um período de detenção de mais de um ano, quando são ativos de capital — o ETF não é automaticamente "mais eficiente em termos fiscais" apenas porque é um ETF.
+
+Este não é um conselho fiscal. Confirme com um profissional e as páginas do IRS vinculadas acima.
+
+## Quem se encaixa em cada caminho
+
+<strong> Considere um ETF spot de bitcoin se você: </strong>
+
+- Já investe em uma corretora ou ira e quer exposição ao preço do bitcoin ao lado de ações e títulos.
+- Não quero gerenciar carteiras, propagar frases ou trocar saques.
+- Prefira extratos de corretagem padrão e botões de venda familiares.
+
+<strong> Considere comprar bitcoin se você: </strong>
+
+- Quer a opção de auto-custódia ou transferências on-chain.
+- Preocupe-se em manter o ativo em si, não uma participação no fundo.
+- São taxas de intercâmbio de aprendizagem confortáveis, configurações de segurança e backups de carteira (posteriores).
+
+<strong> Muitos iniciantes fazem as duas coisas ao longo do tempo:  </strong> uma pequena posição de ETF dentro de um ira e uma pequena compra da Coinbase que eles usam para aprender como o bitcoin se move — então leia nossa lista de verificação de segurança em  [A Coinbase é segura para iniciantes?](/articles/is-coinbase-safe-for-beginners) .
+
+## Riscos que se aplicam a ambos
+
+A FINRA lembra aos investidores que [os preços dos criptoativos são voláteis](L5), que você pode perder o principal e que golpes são comuns. Um ETF não remove o risco de preço. O bitcoin direto adiciona riscos operacionais (chaves perdidas, phishing, incidentes de câmbio). O FDIC também não está segurado contra uma queda no preço do bitcoin.
+
+## Conclusão 
+
+Um ETF spot de bitcoin geralmente é o caminho mais simples para iniciantes nos EUA para “Eu quero o preço do bitcoin na minha corretora ou ira." Comprar bitcoin é o caminho para "Eu quero o próprio bitcoin e vou aprender a custódia." Compare as taxas durante o período de retenção pretendido, combine o produto com a conta que você usará e invista apenas o dinheiro que você pode pagar para ver o swing.
+
+Se você escolher a rota direta, você pode  [abrir uma conta na Coinbase](REF)  {{#ref}}através do nosso link de indicação{{/ref}}  e seguir  [como comprar seu primeiro bitcoin](/articles/how-to-buy-first-bitcoin-coinbase) . Se mais tarde vender moedas por dólares, use o nosso  [guia de saque](/articles/how-to-cash-out-bitcoin-coinbase-to-bank) .
+
+!faq
+
+## Perguntas frequentes
+
+### Um ETF de bitcoin é o mesmo que possuir bitcoin?
+
+Não. Você possui ações de um fundo que detém bitcoin. Você não controla bitcoin on-chain ou uma frase semente.
+
+### A SEC aprovou ETFs spot de bitcoin?
+
+Sim. Em 10 de janeiro de 2024, a SEC aprovou listagens de vários produtos negociados em bolsa de bitcoin à vista. Isso não é um endosso do bitcoin como um investimento.
+
+### Qual tem taxas mais baixas: ETF ou Coinbase?
+
+Depende do período de espera e do tamanho da negociação. Os ETFs cobram uma taxa de despesa contínua; A Coinbase cobra quando você negocia (e para envios on-chain). Compare suas próprias telas de visualização e o prospecto do fundo.
+
+### Posso manter um ETF de bitcoin em um Roth ira?
+
+Muitas corretoras dos EUA permitem ações spot de ETF de bitcoin dentro de IRAs, incluindo Roth IRAs, sujeitas à lista de produtos da empresa. Verifique seu custodiante. Comprar bitcoin real dentro de um ira é uma configuração diferente, muitas vezes mais limitada.
+
+### E se eu quiser exposição de preço e auto-custódia?
+
+Algumas pessoas mantêm um ETF em uma conta de aposentadoria e compram separadamente uma quantidade menor de bitcoin que retiram para uma carteira. Isso divide os objetivos; também duplica o trabalho operacional.
+
+!soft: Novo na própria Coinbase? Comece com  [como comprar seu primeiro bitcoin na Coinbase](/articles/how-to-buy-first-bitcoin-coinbase) .
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,115 @@
+title: Cara mencairkan bitcoin di Coinbase ke bank Anda (langkah, waktu, dan pajak AS)
+page_title: Cara mencairkan bitcoin di Coinbase ke bank Anda
+description: Cara menjual bitcoin di Coinbase dan menarik USD ke bank AS: waktu ACH, pencairan instan, biaya yang harus diperhatikan, dan dasar - dasar IRS yang terlewatkan oleh pemula.
+og_description: Jual BTC ke saldo Coinbase USD Anda, lalu tarik ke bank Anda — dengan waktu, biaya, dan daftar periksa pajak singkat.
+label: Panduan pemula
+summary: Langkah demi langkah untuk pengguna AS: jual bitcoin ke saldo tunai Coinbase Anda, tarik ke bank yang terhubung melalui ACH atau pencairan instan, dan catat dasar - dasar pelaporan pajak.
+===
+
+Mencairkan bitcoin di Coinbase adalah dua tindakan terpisah: pertama Anda <strong>  menjual bitcoin </strong> ke dolar AS di dalam Coinbase, kemudian Anda  <strong> menarik </strong> dolar tersebut ke rekening bank yang terhubung. Pemula sering mencampuradukkan keduanya dan bertanya - tanya mengapa "jual" belum memasukkan uang ke rekening giro mereka. Panduan ini mencakup langkah - langkah Coinbase untuk pengguna AS, waktu biasa, biaya untuk menonton, dan poin IRS yang berlaku saat Anda menjual.
+
+!takeaways
+- Menjual bitcoin di Coinbase memindahkan nilai ke saldo  tunai <strong> Coinbase USD Anda </strong> . Itu tidak dengan sendirinya menyetor uang di bank Anda.
+- Penarikan standar bank AS menggunakan <strong>  ACH </strong> dan biasanya membutuhkan waktu  <strong> 3 -5 hari kerja  </strong> setelah Anda memulainya, per Bantuan Coinbase.
+- Pengguna yang memenuhi syarat dapat menggunakan pencairan instan <strong> </strong>  ke kartu tertentu atau bank yang mendukung RTP dengan biaya tertentu dan kedatangan yang lebih cepat.
+- Untuk pajak AS, IRS memperlakukan aset digital sebagai  properti <strong> </strong> . Menjual bitcoin seharga USD umumnya merupakan pembuangan kena pajak yang mungkin perlu Anda laporkan.
+
+## Sebelum memulai
+
+1. Selesaikan verifikasi identitas dan tautkan rekening bank AS dengan metode pembayaran Coinbase.
+2. Perbarui aplikasi Coinbase atau gunakan situs web resmi yang Anda ketik sendiri.
+3. Konfirmasikan saldo bitcoin yang Anda rencanakan untuk dijual tersedia (tidak ditahan untuk deposit tertunda).
+4. Putuskan apakah Anda membutuhkan dolar di bank Anda minggu ini (ACH) atau lebih cepat (pencairan instan, jika memenuhi syarat).
+
+Jika Anda belum memiliki akun, Anda dapat [buka Coinbase](REF)  {{#ref}}dengan tautan referal kami{{/ref}}  dan mempelajari sisi beli di [panduan bitcoin pertama](/articles/how-to-buy-first-bitcoin-coinbase)  kami .
+
+## Langkah 1: Jual bitcoin seharga USD (bukan USDC)
+
+Coinbase mengatakan Anda bisa  [jual kripto ke saldo tunai Anda kapan saja](L1) . Di situs web: pilih Jual, pilih bitcoin dan jumlahnya, atur tujuan ke saldo mata uang lokal Anda (USD), tinjau pesanan, lalu konfirmasi. Di aplikasi seluler, jalurnya adalah Beli & Jual → Jual, dengan layar ulasan yang sama.
+
+Detail penting: jual ke  <strong> USD  </strong> jika tujuan Anda adalah deposit bank. Menjual ke USDC membuat Anda memegang stablecoin, yang tidak akan diterima bank Anda sebagai kredit ACH normal. Setelah penjualan selesai, dolar berada di saldo tunai Coinbase Anda.
+
+Jual adalah perdagangan, jadi [spread dan biaya Coinbase](L4) yang  ditampilkan pada pratinjau berlaku. Untuk perincian biaya lengkap, lihat  [Biaya Coinbase dijelaskan](/articles/coinbase-fees-explained) .
+
+!howto
+
+## Langkah 2: Tarik USD ke bank Anda
+
+Dari saldo USD Anda, pilih Tunai keluar atau Tarik, masukkan jumlahnya, dan pilih rekening bank terverifikasi Anda.
+
+<strong> ACH Standar (kebanyakan pemula): </strong> Coinbase menjelaskan bahwa pelanggan AS menggunakan sistem ACH untuk transfer bank, dan ACH biasanya membutuhkan waktu 3 -5 hari kerja <strong> ZZ setelah Anda memulai penarikan. Hari kerja adalah Senin - Jumat di jam bank normal; malam hari, akhir pekan, dan hari libur bank tidak dihitung. Coinbase mencatatnya berbasis di San Francisco, dan transfer ACH biasanya selesai pada akhir hari kerja Waktu Pasifik. Biasanya ada <strong>  tanpa biaya Coinbase untuk ACH </strong> di jalur cash - out konsumen, tetapi selalu konfirmasikan pratinjau.
+
+<strong> Pencairan instan (jika memenuhi syarat): </strong>  Coinbase [halaman bantuan pencairan instan](L3) mengatakan pelanggan AS yang memenuhi syarat dapat mengirim USD atau USDC ke bank yang mengaktifkan RTP (batas yang disebutkan sebesar $ 100.000 per transaksi) atau mencairkan ke Dana Cepat Visa/kartu Mastercard Kirim tertentu. Pencairan bank atau kartu instan bisa memakan waktu sekitar 30 menit dan hingga 24 jam tergantung pada jaringan bank atau kartu, dan biaya transaksi standar berlaku.
+
+!figure:timing
+
+!mid_cta
+
+## Mengapa penjualan atau penarikan dapat terasa "macet"
+
+Coinbase menerbitkan catatan terpisah tentang  [mengapa penjualan bisa memakan waktu](L2) . Untuk pengguna AS, ACH adalah jalur biasa menuju bank, dan rentang waktu 3 -5 hari kerja adalah normal, bukan akun yang dibekukan. Pesanan yang dilakukan di malam hari mungkin tidak dimulai ACH sampai hari kerja berikutnya. Detail transaksi Anda menunjukkan perkiraan tanggal penyelesaian yang sudah memperhitungkan akhir pekan dan hari libur.
+
+Jika dana belum tiba setelah jendela itu, periksa apakah rekening bank masih diverifikasi, apakah namanya cocok dengan profil Coinbase Anda, dan hubungi dukungan Coinbase hanya melalui aplikasi atau situs web resmi.
+
+## Biaya yang harus diperhatikan saat Anda mencairkan
+
+1. <strong> Biaya perdagangan sisi jual. </strong>  Pratinjau untuk penjualan bitcoin → USD mencakup spread dan biaya Coinbase.
+2. <strong> Biaya metode pencairan. </strong>  ACH biasanya gratis di sisi Coinbase; pembayaran kartu instan atau RTP dapat dikenakan biaya untuk kecepatan.
+3. <strong> Bank Anda. </strong>  Sebagian besar bank AS tidak mengenakan biaya untuk menerima ACH, tetapi kabel atau pembayaran instan yang masuk bisa. Periksa dengan bank Anda.
+4. <strong> Saldo sisa kecil. </strong>  Meninggalkan beberapa dolar di Coinbase baik - baik saja jika Anda berencana untuk membeli lagi; jika tidak, tarik apa yang Anda butuhkan setelah penjualan selesai.
+
+## Dasar - dasar perpajakan AS yang terlewatkan
+
+Ini adalah pendidikan, bukan nasihat pajak. Bicaralah dengan profesional pajak mengenai situasi Anda.
+
+IRS mengatakan  [aset digital adalah properti, bukan mata uang](L5) . Ketika Anda menjual bitcoin seharga USD, Anda biasanya memiliki keuntungan atau kerugian modal yang sama dengan selisih antara apa yang Anda terima dan basis biaya Anda (apa yang Anda bayarkan, termasuk biaya tertentu). Memegang bitcoin tanpa menjual biasanya tidak menciptakan keuntungan dengan sendirinya. Memindahkan kripto antar dompet yang Anda kendalikan umumnya bukan penjualan, kecuali Anda membayar biaya jaringan dalam kripto yang IRS anggap sebagai pembuangan.
+
+Jika Anda menjual atau menukar aset digital yang Anda pegang sebagai aset modal, IRS mengarahkan Anda ke  [Formulir 8949](L6)  dan pelaporan Jadwal D terkait. Pialang harus melaporkan hasil aset digital tertentu pada Formulir 1099 - DA untuk transaksi pada atau setelah 1 Januari 2025, dengan dasar pelaporan bertahap untuk beberapa penjualan aset yang diperoleh pada atau setelah 1 Januari 2026. Simpan catatan tanggal, jumlah, dan hasil pembelian Anda sendiri meskipun Anda mengharapkan formulir.
+
+Jawab pertanyaan aset digital pada Formulir 1040 dengan jujur untuk tahun pajak. Membeli bitcoin dengan dolar dan hanya memegangnya dapat berarti menjawab Tidak untuk tahun itu; menjual, menukar, atau membelanjakannya biasanya berarti Ya.
+
+!figure:tax
+
+## Kesalahan umum
+
+- Mengharapkan tombol Jual untuk menyetor ke bank Anda dalam satu langkah.
+- Menjual ke USDC saat Anda membutuhkan USD untuk ACH.
+- Menggunakan kartu debit beli beberapa minggu sebelumnya, kemudian dikejutkan oleh spread jual saat keluar — biaya pulang pergi bertambah (lihat [panduan biaya](/articles/coinbase-fees-explained) kami).
+- Mengabaikan lot pajak pada penjualan yang menguntungkan.
+- Jatuh untuk "dukungan" telepon yang meminta Anda mengirim bitcoin ke "dompet aman" sambil menguangkan — Coinbase tidak akan memintanya.
+
+## Garis bawah
+
+Untuk pemula AS, jalur yang dapat diandalkan adalah: menjual bitcoin ke saldo Coinbase USD Anda, kemudian tarik dengan ACH dan tunggu beberapa hari kerja. Gunakan pencairan instan hanya jika Anda membutuhkan kecepatan dan menerima biayanya. Baca setiap pratinjau, catat pajak, dan perlakukan risiko harga secara terpisah dari waktu penarikan.
+
+Siap berlatih dengan jumlah kecil terlebih dahulu?  [Buat akun Coinbase](REF)  {{#ref}}melalui tautan referal kami{{/ref}} , lalu kunjungi kembali halaman ini saat Anda siap untuk menjual. Jika Anda masih memutuskan antara koin dan dana, baca  [bitcoin ETF vs membeli bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin) .
+
+!faq
+
+## Pertanyaan Umum
+
+### Berapa lama waktu yang dibutuhkan Coinbase untuk mengirim uang ke bank saya?
+
+Setelah Anda menarik USD, Coinbase mengatakan ACH biasanya membutuhkan waktu 3 -5 hari kerja. Pencairan instan ke bank atau kartu yang memenuhi syarat bisa jauh lebih cepat tetapi mungkin dikenakan biaya.
+
+### Bisakah saya menarik bitcoin langsung ke rekening bank saya?
+
+Tidak. Bank menerima dolar (atau terkadang fiat lainnya), bukan bitcoin. Jual BTC ke USD di Coinbase terlebih dahulu, lalu tarik USD.
+
+### Apakah mencairkan bitcoin dapat dikenakan pajak di AS?
+
+Menjual bitcoin untuk USD umumnya merupakan pelepasan properti kena pajak. Keuntungan atau kerugian Anda tergantung pada dasar dan hasil Anda. Konfirmasikan detail dengan halaman aset digital IRS dan seorang profesional pajak.
+
+### Mengapa saldo Coinbase saya tersedia untuk dijual tetapi tidak untuk ditarik?
+
+Deposito tertunda, penangguhan jaminan, atau aturan penyelesaian dapat membatasi penarikan bahkan ketika saldo terlihat. Periksa tanggal transaksi yang tersedia dan batas Coinbase untuk akun Anda.
+
+### Haruskah saya menjual sekaligus atau sebagian?
+
+Itu adalah keputusan pribadi dan pajak. Menjual suku cadang dapat menghasilkan banyak lot dan beberapa biaya pratinjau. [Panduan DCA](/articles/how-much-bitcoin-should-a-beginner-buy-dca)  kami  mencakup pembelian sebagian; strategi penjualan tergantung pada tujuan dan situasi pajak Anda.
+
+!soft: Bandingkan biaya perdagangan sebelum Anda menjual di  [Biaya Coinbase dijelaskan](/articles/coinbase-fees-explained) .
+
+!end_cta
+
+!disclosure

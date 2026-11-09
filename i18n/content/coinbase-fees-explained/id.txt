@@ -1,0 +1,124 @@
+title: Biaya Coinbase dijelaskan: spread, Advanced maker/taker, dan apa yang sebenarnya dibayar oleh pemula
+page_title: Biaya Coinbase dijelaskan
+description: Biaya Coinbase dijelaskan untuk pemula AS: cara kerja spread aplikasi sederhana, tarif pembuat/pengambil tingkat lanjut, Coinbase One, dan cara membaca layar pratinjau sebelum Anda membeli.
+og_description: Biaya Coinbase untuk perdagangan sederhana vs Perdagangan Lanjutan, dan cara memeriksa biaya riil sebelum Anda mengonfirmasi.
+label: Panduan pemula
+summary: Perincian biaya Coinbase dalam bahasa Inggris sederhana: spread variabel pada pembelian dan penjualan sederhana, tingkatan pembuat/pengambil tingkat lanjut, Coinbase One, dan cara membandingkan biaya di layar pratinjau.
+===
+
+Coinbase tidak menerbitkan satu “biaya tetap” untuk bitcoin. ”Apa yang Anda bayar tergantung pada apakah Anda menggunakan layar Beli/Jual sederhana atau Coinbase Advanced, metode pembayaran Anda, ukuran pesanan, kondisi pasar, dan lokasi Anda. Panduan ini menjelaskan jenis biaya yang diungkapkan Coinbase, menunjukkan tarif masuk Tingkat Lanjut AS yang dipublikasikan, dan menjelaskan cara membaca layar pratinjau sehingga Anda tidak terkejut setelah Anda mengetuk Beli.
+
+!takeaways
+- Pembelian dan penjualan sederhana termasuk spread <strong> </strong> di  dalam harga yang dikutip. Coinbase tidak memublikasikan satu persentase spread tetap; Anda melihatnya di pratinjau pesanan.
+- Coinbase Advanced memiliki  <strong> tanpa spread </strong> . Anda membayar biaya pembuat atau pengambil berdasarkan tingkatan volume. Tabel VIP Lanjutan publik Coinbase mencantumkan tingkat Intro di <strong>  0,50% maker / 0,90% taker </strong>  untuk spot.
+- Perintah batas sederhana menambahkan biaya eksekusi <strong> 1% terpisah </strong> , dan Coinbase juga dapat mengenakan biaya Coinbase metode pembayaran (halaman bantuannya mengutip 1,875% sebagai contoh yang bervariasi menurut metode).
+- Selalu bandingkan total <strong> di layar pratinjau </strong> sebelum Anda mengonfirmasi. Biaya berubah, dan Coinbase mengatakan kadang - kadang menguji biaya dan menyebarkan perubahan berdasarkan wilayah dan jenis pesanan.
+
+## Jawaban singkat
+
+Bagi sebagian besar pemula AS yang membeli bitcoin dalam jumlah kecil, aplikasi Coinbase sederhana paling mudah, tetapi biasanya bukan jalur termurah. Harga yang dikutip sudah menyematkan spread, dan biaya lainnya dapat menumpuk di atas tergantung pada cara Anda membayar. Jika Anda merasa nyaman menempatkan limit order, [Coinbase Advanced](L2)  menghapus spread dan menagih jadwal pembuat/pengambil yang dipublikasikan sebagai gantinya.
+
+Semua ini bukan nasihat keuangan. Jadwal biaya berubah. Percayai angka - angka yang ditunjukkan Coinbase di aplikasi pada hari Anda berdagang.
+
+## Jenis biaya 1: spread aplikasi sederhana
+
+Untuk pesanan beli, jual, dan konversi sederhana, Coinbase  [termasuk spread dalam harga kuotasi](L1) . Spread adalah selisih antara harga pasar dan harga yang Anda tawarkan. Coinbase mengatakan spread membantunya mengunci harga penawaran Anda saat Anda meninjau pesanan, bahwa ia dapat menyimpan spread berlebih, dan bahwa spread dapat bervariasi untuk transaksi serupa.
+
+Anda dapat melihat spread sebelum mengonfirmasi:
+
+- Pada pesanan beli dan jual, ketuk tooltip di sebelah garis harga aset.
+- Pada pesanan konversi, ketuk tooltip di samping nilai tukar yang dikutip.
+
+Karena Coinbase tidak mempublikasikan persentase spread tetap pada halaman bantuan itu, tabel "Biaya Coinbase adalah X%" pihak ketiga sering basi. Satu - satunya nomor yang penting untuk pesanan Anda adalah nomor di  <strong> layar pratinjau  </strong> Anda.
+
+!figure:spread
+
+## Jenis biaya 2: Biaya Coinbase dan pesanan batas sederhana
+
+Di luar spread, Coinbase mengatakan biaya perdagangan tergantung pada metode pembayaran, ukuran pesanan, kondisi pasar, lokasi, aset, dan biaya lain yang ditimbulkannya. Biaya tersebut ditampilkan pada pratinjau perdagangan sebelum Anda mengirimkannya.
+
+Untuk  pesanan batas sederhana <strong> </strong> , Coinbase mengungkapkan dua bagian tambahan:
+
+1. Biaya eksekusi limit - order <strong> 1% terpisah </strong>  pada setiap limit beli atau limit jual.
+2. Kemungkinan biaya Coinbase tambahan yang  <strong> bervariasi menurut metode pembayaran  </strong> (halaman bantuan memberikan 1,875% sebagai contoh).
+
+Keduanya muncul di perincian biaya di layar pratinjau dan di riwayat transaksi Anda. Manfaat tanpa biaya perdagangan Coinbase One adalah <strong> bukan </strong> membebaskan biaya limit - order sederhana 1% tersebut.
+
+## Jenis biaya 3: Pembuat dan pengambil Coinbase Advanced
+
+Coinbase Advanced diperdagangkan terhadap buku pesanan, jadi  [tidak ada spread yang ditambahkan](L1) . Sebaliknya, Anda membayar biaya pembuat atau biaya pengambil:
+
+- <strong> Taker: </strong>  pesanan yang segera terisi (misalnya pesanan pasar) membayar tarif taker yang lebih tinggi.
+- <strong> Maker: </strong> pesanan batas istirahat yang menunggu di buku membayar tarif pembuat yang lebih rendah saat diisi.
+- Pesanan yang terisi sebagian dapat membayar keduanya: pengambil di bagian langsung, pembuat di bagian lainnya.
+
+Tingkat kamu didasarkan pada kriteria saldo volume atau USDC terbaru, mana pun yang menguntungkanmu. Coinbase mengatakan untuk memeriksa tarif langsung Anda di Advanced. Untuk titik referensi publik, [Halaman VIP tingkat lanjut](L3) Coinbase mencantumkan tingkat spot <strong> Intro </strong> dari pembuat <strong>  0,50% dan pengambil 0,90% </strong>, dengan tingkat yang lebih rendah karena volume atau saldo USDC naik, turun menjadi pembuat 0%/pengambil 0,02% di level VIP teratas. Tarif bersifat regional; abaikan kutipan Uni Eropa atau pasar lainnya jika Anda melakukan perdagangan dari AS
+
+!figure:advanced
+
+!mid_cta
+
+## Coinbase One, biaya jaringan, dan biaya pencairan
+
+[Coinbase One](L4)  adalah langganan berbayar yang dapat membebaskan biaya perdagangan pada pembelian sederhana yang memenuhi syarat dan menjual hingga batas bulanan. Coinbase masih mencatat bahwa spread mungkin tetap dalam harga kuotasi untuk beberapa perdagangan, dan bahwa biaya layanan DEX dan biaya limit - order sederhana 1% tidak tercakup oleh manfaat biaya nol.
+
+Terpisah dari biaya perdagangan:
+
+- <strong> Biaya jaringan </strong>  berlaku saat Anda mengirim kripto dari Coinbase. Biaya Coinbase berdasarkan perkiraan biaya jaringan yang berlaku dan mengungkapkan jumlahnya pada waktu pengiriman. Pengiriman bitcoin petir membawa biaya pemrosesan <strong> 0,2% </strong> yang diungkapkan.
+- <strong> Menambahkan uang tunai atau mencairkan </strong>  dapat dikenakan biaya metode pembayaran. Tinjau baris tersebut sebelum Anda mengonfirmasi. Transfer bank ACH standar umumnya gratis di sisi Coinbase, sementara [pencairan instan](L5) ke kartu yang memenuhi syarat atau bank yang mendukung RTP dapat dikenakan biaya lebih untuk kecepatan.
+- Menjual kripto ke saldo USD Anda adalah perdagangan (jadi spread/biaya berlaku); memindahkan USD itu ke bank Anda adalah langkah pencairan terpisah. Lihat [panduan cash - out](/articles/how-to-cash-out-bitcoin-coinbase-to-bank)  kami .
+
+## Seperti apa pembelian pemula senilai $ 1.000
+
+Bayangkan Anda menginginkan sekitar $ 1.000 bitcoin.
+
+1. <strong> Simple Buy dengan kartu debit. </strong>  Pratinjau mungkin menunjukkan spread ditambah biaya Coinbase yang terkait dengan kartu. Bitcoin yang Anda terima akan kurang dari $ 1.000 ÷ harga spot karena kedua bagian berasal dari apa yang Anda bayar. Pembelian kartu nyaman dan sering kali merupakan salah satu opsi yang lebih mahal.
+2. <strong> Simple Buy didanai dari saldo Coinbase USD Anda (deposit ACH terlebih dahulu). </strong>  Anda masih membayar spread/biaya perdagangan sederhana, tetapi Anda menghindari biaya kartu. Deposit ACH biasanya membutuhkan waktu beberapa hari kerja untuk sepenuhnya dihapus.
+3. <strong> Coinbase Limit order lanjutan sebagai pembuat. </strong>  Pada tingkat pembuat Intro yang dipublikasikan sebesar 0,50%, pesanan nosional $ 1.000 akan menunjukkan sekitar $ 5 dalam biaya perdagangan jika bertumpu dan terisi sebagai pembuat, tanpa spread. Anda harus menetapkan sendiri harga batas dan menunggu pengisian.
+
+Ini adalah ilustrasi, bukan kutipan. Coinbase menghitung total live pada waktu pesanan. Selalu baca pratinjau.
+
+## Cara menekan biaya tanpa memperumit masalah
+
+1. Lebih suka ACH ke saldo USD Anda daripada kartu kredit atau debit saat Anda bisa menunggu.
+2. Buka tooltip biaya pada setiap pratinjau dan bandingkan simple vs Advanced untuk ukuran yang sama.
+3. Pada Lanjutan, gunakan limit order yang bersedia Anda tunggu jika Anda menginginkan tarif pembuat.
+4. Hindari konversi yang tidak perlu (→kripto kripto) ketika Anda hanya membutuhkan USD atau bitcoin; setiap konversi dapat menyematkan spread.
+5. Jika Anda sering melakukan perdagangan, periksa apakah biaya bulanan Coinbase One lebih rendah dari biaya perdagangan yang sebenarnya Anda bayar.
+6. Untuk pembelian berulang yang lebih besar, lihat catatan kami tentang  [rata - rata biaya dolar](/articles/how-much-bitcoin-should-a-beginner-buy-dca) sehingga biaya tidak memakan pembelian kecil.
+
+## Garis bawah
+
+Biaya Coinbase transparan di layar pratinjau meskipun tidak satu pun persentase yang dipublikasikan. Pemula biasanya membayar lebih dengan membeli dengan kartu di layar sederhana tanpa memeriksa tooltip. Perdagangan Tingkat Lanjut lebih banyak pekerjaan, tetapi jadwal pembuat/pengambil yang dipublikasikan dan kurangnya spread membuat biaya lebih mudah dibandingkan. Mulailah dengan jumlah yang bisa Anda pelajari, baca setiap baris pratinjau, dan baru kemudian tingkatkan.
+
+Jika Anda siap untuk membuka akun, Anda dapat [daftar di Coinbase](REF)  {{#ref}}melalui tautan referal kami{{/ref}}  dan mengikuti [panduan langkah demi langkah bitcoin pertama](/articles/how-to-buy-first-bitcoin-coinbase)  kami . Untuk dasar - dasar keselamatan terlebih dahulu, baca  [Apakah Coinbase aman untuk pemula?](/articles/is-coinbase-safe-for-beginners) .
+
+!faq
+
+## Pertanyaan Umum
+
+### Apakah Coinbase mengenakan biaya tetap untuk membeli bitcoin?
+
+Tidak. Pembelian sederhana menggunakan spread variabel di dalam harga yang dikutip ditambah biaya Coinbase yang ditampilkan pada pratinjau. Advanced Trade menggunakan persentase pembuat/pengambil berdasarkan tingkatan, bukan spread.
+
+### Berapa biaya Coinbase Advanced untuk pemula?
+
+Tabel VIP Lanjutan publik Coinbase mencantumkan tingkat spot Intro di pembuat 0,50% dan pengambil 0,90%. Tingkat live Anda di dalam aplikasi bersifat otoritatif, dan harga turun dengan volume 30 hari yang lebih tinggi atau saldo USDC yang memenuhi syarat.
+
+### Apakah Coinbase One sepadan dengan biayanya?
+
+Bisa jadi jika biaya perdagangan sederhana bulanan Anda akan melebihi biaya berlangganan. Ini tidak menghapus setiap biaya: spread masih dapat muncul, dan biaya limit - order sederhana 1% dan biaya layanan DEX dikecualikan dari manfaat biaya nol.
+
+### Mengapa biaya Coinbase saya berbeda dari teman?
+
+Coinbase mengatakan biaya dapat bervariasi sesuai metode pembayaran, ukuran pesanan, kondisi pasar, lokasi, aset, dan tes yang dijalankan berdasarkan wilayah. Dua pesanan serupa dapat menunjukkan total yang berbeda.
+
+### Apakah saya membayar biaya untuk menarik USD ke bank saya?
+
+Penarikan ACH sering kali gratis di pihak Coinbase tetapi membutuhkan beberapa hari kerja. Pencairan instan ke kartu yang memenuhi syarat atau bank RTP dapat dikenakan biaya untuk kecepatan. Selalu periksa pratinjau pencairan.
+
+!soft: Selanjutnya, pelajari langkah - langkah yang tepat untuk  [jual bitcoin dan pindahkan USD ke bank Anda](/articles/how-to-cash-out-bitcoin-coinbase-to-bank) .
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "advanced",
+    "file": "chart-advanced-intro.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of Coinbase Advanced Intro spot maker 0.50% and taker 0.90% fees",
+      "es": "Gráfico de barras: comisiones Intro de Coinbase Advanced al contado, maker 0,50 % y taker 0,90 %",
+      "pt": "Gráfico de barras: taxas Intro da Coinbase Advanced à vista, maker 0,50% e taker 0,90%",
+      "fr": "Graphique en barres : frais Intro Coinbase Advanced au comptant, maker 0,50 % et taker 0,90 %",
+      "de": "Balkendiagramm: Coinbase-Advanced-Intro-Spotgebühren Maker 0,50 % und Taker 0,90 %",
+      "ru": "Столбчатый график: комиссии Intro Coinbase Advanced на споте — maker 0,50% и taker 0,90%",
+      "tr": "Çubuk grafik: Coinbase Advanced Intro spot maker %0,50 ve taker %0,90 ücretleri",
+      "id": "Grafik batang: biaya Intro Coinbase Advanced spot maker 0,50% dan taker 0,90%",
+      "ja": "棒グラフ：Coinbase AdvancedのIntroスポット手数料（メイカー0.50%、テイカー0.90%）",
+      "ko": "막대 차트: 코인베이스 어드밴스드 Intro 현물 메이커 0.50%·테이커 0.90% 수수료"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Coinbase Advanced VIP table",
+      "es": "Gráfico: PlainBTC, datos: Coinbase Advanced VIP table",
+      "pt": "Gráfico: PlainBTC, dados: Coinbase Advanced VIP table",
+      "fr": "Graphique : PlainBTC, données : Coinbase Advanced VIP table",
+      "de": "Chart: PlainBTC, Daten: Coinbase Advanced VIP table",
+      "ru": "График: PlainBTC, данные: Coinbase Advanced VIP table",
+      "tr": "Grafik: PlainBTC, veri: Coinbase Advanced VIP table",
+      "id": "Grafik: PlainBTC, data: Coinbase Advanced VIP table",
+      "ja": "チャート: PlainBTC、データ: Coinbase Advanced VIP table",
+      "ko": "차트: PlainBTC, 데이터: Coinbase Advanced VIP table"
+    }
+  },
+  {
+    "id": "spread",
+    "file": "fact-spread-preview.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: on simple Coinbase trades the spread is inside the quoted price — check the preview tooltip",
+      "es": "Tarjeta: en operaciones simples de Coinbase el diferencial va en el precio cotizado; mira el tooltip de la vista previa",
+      "pt": "Cartão: nas operações simples da Coinbase o spread está no preço cotado; veja o tooltip da prévia",
+      "fr": "Encadré : sur les ordres simples Coinbase, le spread est dans le prix affiché — regardez l’infobulle de l’aperçu",
+      "de": "Faktenkarte: Bei einfachen Coinbase-Trades steckt der Spread im Kurs — Tooltip in der Vorschau prüfen",
+      "ru": "Карточка: в простых сделках Coinbase спред уже в котировке — смотрите подсказку на экране предпросмотра",
+      "tr": "Bilgi kartı: basit Coinbase işlemlerinde spread fiyatın içindedir — önizleme ipucunu kontrol edin",
+      "id": "Kartu fakta: pada perdagangan sederhana Coinbase, spread ada di harga yang dikutip — cek tooltip pratinjau",
+      "ja": "ファクトカード：Coinbaseのシンプル取引ではスプレッドが提示価格に含まれる。プレビューのツールチップを確認",
+      "ko": "팩트 카드: 코인베이스 단순 거래에서는 스프레드가 호가에 포함됨 — 미리보기 툴팁을 확인하세요"
+    },
+    "caption": {
+      "en": "Source: Coinbase Help",
+      "es": "Fuente: Coinbase Help",
+      "pt": "Fonte: Coinbase Help",
+      "fr": "Source : Coinbase Help",
+      "de": "Quelle: Coinbase Help",
+      "ru": "Источник: Coinbase Help",
+      "tr": "Kaynak: Coinbase Help",
+      "id": "Sumber: Coinbase Help",
+      "ja": "出典: Coinbase Help",
+      "ko": "출처: Coinbase Help"
+    }
+  }
+]

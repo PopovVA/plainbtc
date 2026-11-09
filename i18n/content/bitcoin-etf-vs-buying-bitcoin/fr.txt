@@ -1,0 +1,125 @@
+title: FNB Bitcoin vs achat de bitcoin : qu'est-ce qui a du sens pour un débutant américain ?
+page_title: FNB Bitcoin vs achat de bitcoin
+description: Repérer l'ETF bitcoin par rapport à l'achat de bitcoin sur Coinbase : garde, frais, accès IRA, taxes et quand chaque chemin convient à un débutant américain — sans battage médiatique.
+og_description: Une comparaison claire des FNB bitcoin au comptant et de la possession directe de bitcoin : contrôle, coûts, comptes de retraite et impôts.
+label: Guide du Débutant
+summary: Les ETF de bitcoin au comptant donnent une exposition aux prix à l'intérieur d'un compte de courtage. L'achat de bitcoin vous donne l'actif lui-même. Voici comment les débutants américains peuvent comparer la garde, les frais, les ira et les taxes.
+===
+
+Depuis janvier 2024, les investisseurs américains peuvent acheter [produits négociés en bourse bitcoin spot](L1)  dans un compte de courtage normal. Cela a créé une nouvelle question pour les débutants : devriez-vous acheter un ETF bitcoin ou acheter bitcoin lui-même sur un échange comme Coinbase ? Les deux suivent le prix du bitcoin en gros traits. Ce n'est pas le même produit. Ce guide compare la garde, les frais, les types de compte, les taxes et les compromis pratiques afin que vous puissiez choisir délibérément.
+
+!takeaways
+- Un  <strong> spot bitcoin ETF </strong>  (souvent appelé ETP) détient des bitcoins dans un fonds. Vous possédez des actions de fonds, pas les pièces.
+- <strong> Acheter du bitcoin </strong>  sur Coinbase (ou ailleurs) signifie que vous détenez du BTC sur un compte de dépôt ou que vous le retirez dans votre propre portefeuille.
+- Les FNB sont généralement plus faciles à l'intérieur des ira et des maisons de courtage imposables ; le bitcoin direct est la voie à suivre si vous souhaitez une utilisation en autoconservation ou en chaîne.
+- Aucun des deux produits ne supprime le risque de marché. La FINRA prévient que les prix des crypto-monnaies peuvent chuter fortement et que vous pouvez perdre de l'argent.
+
+## Qu'est-ce qu'un ETF bitcoin spot ?
+
+Le 10 janvier 2024, la Securities and Exchange Commission des États-Unis a approuvé la cotation de plusieurs produits négociés en bourse au comptant. En clair, le fonds achète et détient des bitcoins ; vous achetez des actions du fonds par l'intermédiaire d'un courtier pendant les heures de marché. Le cours de l'action vise à suivre la valeur du bitcoin détenu par le fonds, moins les dépenses du fonds et les différences de suivi.
+
+L'explicatif de Fidelity note que les ETP bitcoin au comptant donnent une exposition au portefeuille sans que vous déteniez de portefeuilles ou de clés, et que les frais, le rééquilibrage et d'autres frictions signifient que le produit ne suivra pas parfaitement le prix du bitcoin.
+
+Vous ne pouvez pas envoyer d'actions ETF sur le réseau bitcoin, les dépenser sous forme de bitcoin ou les déplacer dans un portefeuille matériel. Vous vendez des actions de votre maison de courtage quand vous le souhaitez.
+
+!figure:compare
+
+## Ce que « acheter du bitcoin » signifie
+
+Lorsque vous achetez du bitcoin sur Coinbase, vous achetez l'actif lui-même. Au début, il se trouve généralement dans le portefeuille de garde de Coinbase (Coinbase détient les clés). Vous pouvez le laisser là ou le retirer dans un portefeuille d'auto-conservation que vous contrôlez. Cette deuxième étape est couverte dans notre  [guide du portefeuille](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) .
+
+La propriété directe est ce que les gens entendent par « détenir du bitcoin. « Cela signifie également que vous prenez en charge le risque de compte de change, les frais de réseau de retrait et, si vous en avez la garde, la responsabilité de la phrase de départ.
+
+## Comparaison
+
+| Sujet | FNB adossé au bitcoin | Achat de bitcoin (par exemple sur Coinbase) |
+| --- | --- | --- |
+| Sachez ce que vous possédez | Actions du fonds | Bitcoin (gardien ou autoconservateur) |
+| Qui détient les clés | Dépositaire du fonds | Échangez ou vous |
+| Où il vit | Courtage / ira / 401(k) si offert | Compte Exchange ou portefeuille personnel |
+| Heures de négociation | Heures de marché boursier | 24h/24 et 7j/7 sur les sites |
+| Frais continus | Ratio des frais du fonds (consulter le prospectus) | Habituellement $ 0 à conserver ; vous avez payé des frais de trading / réseau pour vous y rendre |
+| Utilisation sur la chaîne | Non | Oui, après le retrait |
+| Formulaires fiscaux typiques | Rapports de type Broker 1099-B pour les ventes d'actions | Rapports sur les actifs numériques ; les courtiers utilisent le formulaire 1099-DA pour de nombreuses ventes à partir de 2025 |
+
+Les ratios de dépenses changent. Lisez toujours le prospectus actuel pour tout ticker que vous considérez (les exemples que les investisseurs comparent souvent incluent les produits au comptant tels que ceux de BlackRock, Fidelity ou Ark/21Shares). Ne comptez pas sur des frais que vous avez mémorisés l'année dernière.
+
+!figure:custody
+
+!mid_cta
+
+## Frais : différentes formes, même besoin de comparer les totaux
+
+<strong> Chemin du FNB. </strong>  Vous payez principalement le ratio des frais annuels du fonds (tiré des actifs du fonds) plus toute commission de courtage ou écart acheteur-vendeur lorsque vous négociez des actions. De nombreux grands courtiers américains facturent des commissions en ligne de 0 $ sur les transactions sur les FNB, mais le ratio des frais augmente encore discrètement chaque année que vous détenez.
+
+<strong> Chemin bitcoin direct. </strong>  Coinbase facture les achats et les ventes via des frais de spread et/ou de maker-taker, comme expliqué dans  [Les frais de Coinbase expliqués](/articles/coinbase-fees-explained) et [INFORMATIONS À FOURNIR](L6) de  Coinbase . La détention de bitcoin sur Coinbase ne facture pas de frais de garde quotidiens pour les soldes standard, mais le retrait en chaîne coûte des frais de réseau et la vente ultérieure coûte à nouveau.
+
+Intuition grossière : les achats fréquents de petits ETF dans un compte de retraite peuvent être plus simples ; un achat unique de bitcoin que vous prévoyez de conserver vous-même pendant des années évite des frais de fonds récurrents mais nécessite une gestion sécurisée des clés.
+
+## Taxes et types de compte (États-Unis)
+
+L'IRS traite  [actifs numériques en tant que propriété](L3) . La vente de bitcoins ou la vente d'actions de FNB que vous déteniez en tant qu'immobilisations peut créer des gains ou des pertes en capital que vous déclarez (souvent via [Formulaire 8949](L4)). Le fait de détenir l'un ou l'autre sans vendre ne crée généralement pas de gain en soi.
+
+Différences pratiques que les débutants ressentent :
+
+- <strong> Comptes de retraite. Les FNB </strong> Spot bitcoin sont largement disponibles dans les ira et certains menus 401(k). L'achat de bitcoins réels dans un emballage de retraite nécessite généralement un dépositaire spécialisé et est plus complexe.
+- <strong> Comptes imposables. Les ventes de FNB </strong> apparaissent généralement sur des formulaires de courtage familiers. Les ventes directes de bitcoins impliquent de plus en plus le formulaire 1099-DA des courtiers dépositaires pour les transactions à compter du 1er janvier 2025, avec une mise en place progressive des rapports de base plus tard pour certains lots. Gardez vos propres registres d'achat de toute façon.
+- <strong> Même risque de marché. </strong> Les taux préférentiels de plus-values à long terme peuvent s'appliquer aux deux après une période de détention de plus d'un an lorsqu'il s'agit d'immobilisations — le FNB n'est pas automatiquement « plus avantageux sur le plan fiscal » simplement parce qu'il s'agit d'un FNB.
+
+Ce n'est pas un conseil fiscal. Confirmez avec un professionnel et les pages IRS liées ci-dessus.
+
+## Qui correspond à chaque chemin
+
+<strong> Envisagez un ETF bitcoin au comptant si vous : </strong>
+
+- Investissez déjà dans une maison de courtage ou un ira et souhaitez une exposition au prix du bitcoin à côté des actions et des obligations.
+- Je ne veux pas gérer les portefeuilles, les phrases de départ ou les retraits d'échange.
+- Préférez les relevés de courtage standard et les boutons de vente familiers.
+
+<strong> Envisagez d'acheter du bitcoin si vous : </strong>
+
+- Vous voulez l'option de l'autoconservation ou des transferts en chaîne.
+- Veillez à détenir l'actif lui-même, et non une part du fonds.
+- Sont à l'aise avec les frais d'échange d'apprentissage, les paramètres de sécurité et (plus tard) les sauvegardes de portefeuille.
+
+<strong> De nombreux débutants font les deux au fil du temps : </strong>  une petite position d'ETF à l'intérieur d'un ira, et un petit achat Coinbase qu'ils utilisent pour apprendre comment le bitcoin se déplace — puis lisez notre liste de contrôle de sécurité dans  [Coinbase est-il sûr pour les débutants ?](/articles/is-coinbase-safe-for-beginners) .
+
+## Risques qui s'appliquent aux deux
+
+La FINRA rappelle aux investisseurs que [les prix des crypto-actifs sont volatils](L5), que vous pouvez perdre du capital et que les escroqueries sont courantes. Un FNB ne supprime pas le risque de prix. Le bitcoin direct ajoute des risques opérationnels (clés perdues, hameçonnage, incidents d'échange). La FDIC n'est pas non plus assurée contre une baisse du prix du bitcoin.
+
+## Résultat net
+
+Un ETF bitcoin au comptant est généralement le chemin de débutant américain le plus simple pour « Je veux le prix du bitcoin dans mon courtage ou mon ira. » L'achat de bitcoin est la voie à suivre pour « Je veux le bitcoin lui-même, et j'en apprendrai la garde. » Comparez les frais sur votre période de détention prévue, associez le produit au compte que vous utiliserez et n'investissez que de l'argent que vous pouvez vous permettre de voir évoluer.
+
+Si vous choisissez l'itinéraire direct, vous pouvez  [ouvrir un compte Coinbase](REF)  {{#ref}}via notre lien de parrainage{{/ref}}  et suivre  [comment acheter votre premier bitcoin](/articles/how-to-buy-first-bitcoin-coinbase) . Si vous vendez plus tard des pièces de monnaie pour des dollars, utilisez notre  [guide d'encaissement](/articles/how-to-cash-out-bitcoin-coinbase-to-bank) .
+
+!faq
+
+## FAQ
+
+### Un ETF bitcoin est-il le même que posséder du bitcoin ?
+
+Non. Vous possédez des actions d'un fonds qui détient des bitcoins. Vous ne contrôlez pas le bitcoin en chaîne ou une phrase de départ.
+
+### La SEC a-t-elle approuvé les ETF bitcoin au comptant ?
+
+Oui. Le 10 janvier 2024, la SEC a approuvé les inscriptions de plusieurs produits négociés en bourse bitcoin au comptant. Ce n'est pas une approbation du bitcoin en tant qu'investissement.
+
+### Qui a des frais moins élevés : ETF ou Coinbase ?
+
+Cela dépend de la période de détention et de la taille du commerce. Les FNB facturent un ratio de dépenses continu ; les frais de Coinbase lorsque vous négociez (et pour les envois en chaîne). Comparez vos propres écrans d'aperçu et le prospectus du fonds.
+
+### Puis-je détenir un ETF bitcoin dans un Roth ira ?
+
+De nombreuses maisons de courtage américaines autorisent les actions d'ETF bitcoin au comptant à l'intérieur des ira, y compris les Roth ira, sous réserve de la liste des produits de la société. Vérifiez votre dépositaire. L'achat de bitcoins réels à l'intérieur d'un ira est une configuration différente, souvent plus limitée.
+
+### Que se passe-t-il si je veux à la fois une exposition aux prix et une garde personnelle ?
+
+Certaines personnes détiennent un FNB dans un compte de retraite et achètent séparément une plus petite quantité de bitcoin qu'elles retirent dans un portefeuille. Cela divise les objectifs ; cela double également le travail opérationnel.
+
+!soft: Nouveau sur Coinbase lui-même ? Commencez par  [comment acheter votre premier bitcoin sur Coinbase](/articles/how-to-buy-first-bitcoin-coinbase) .
+
+!end_cta
+
+!disclosure

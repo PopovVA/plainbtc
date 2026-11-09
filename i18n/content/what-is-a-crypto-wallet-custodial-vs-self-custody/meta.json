@@ -5,18 +5,55 @@
  "related": [
   "is-coinbase-safe-for-beginners",
   "how-much-bitcoin-should-a-beginner-buy-dca",
-  "how-to-buy-first-bitcoin-coinbase"
+  "how-to-buy-first-bitcoin-coinbase",
+  "bitcoin-etf-vs-buying-bitcoin"
  ],
  "sources": [
-  {"url": "https://developer.bitcoin.org/devguide/wallets.html", "title": "Bitcoin Developer Guide — Wallets", "date": ""},
-  {"url": "https://bitcoin.org/en/choose-your-wallet", "title": "Bitcoin.org — Choose your wallet", "date": ""},
-  {"url": "https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki", "title": "BIP-39 — Mnemonic code for generating deterministic keys", "date": ""},
-  {"url": "https://help.coinbase.com/en/coinbase/other-topics/legal-policies/what-does-coinbase-do-with-my-digital-assets", "title": "Coinbase Help — What does Coinbase do with my digital assets?", "date": ""},
-  {"url": "https://help.coinbase.com/en/wallet/getting-started/what-s-the-difference-between-coinbase-com-and-wallet", "title": "Coinbase Help — Your Coinbase account versus Coinbase Wallet", "date": ""},
-  {"url": "https://help.coinbase.com/en/wallet/managing-account/wallet-recovery-phrase", "title": "Coinbase Help — Coinbase wallet recovery phrase", "date": ""},
-  {"url": "https://www.theblock.co/news/defi/2026-09-10-coinbase-rebrands-base-app-back-to-coinbase-wallet-after-just-over-a-year-as-social-experiment-falls-short-414115", "title": "The Block — Coinbase rebrands Base App back to Coinbase Wallet", "date": "Sep 10, 2026"},
-  {"url": "https://www.reuters.com/business/ftx-start-us-bankruptcy-proceedings-ceo-exit-2022-11-11/", "title": "Reuters — Crypto exchange FTX files for bankruptcy", "date": "Nov 11, 2022"},
-  {"url": "https://www.finra.org/investors/investing/investment-products/crypto-assets/risks", "title": "FINRA — Crypto assets: risks", "date": ""}
+  {
+   "url": "https://developer.bitcoin.org/devguide/wallets.html",
+   "title": "Bitcoin Developer Guide — Wallets",
+   "date": ""
+  },
+  {
+   "url": "https://bitcoin.org/en/choose-your-wallet",
+   "title": "Bitcoin.org — Choose your wallet",
+   "date": ""
+  },
+  {
+   "url": "https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki",
+   "title": "BIP-39 — Mnemonic code for generating deterministic keys",
+   "date": ""
+  },
+  {
+   "url": "https://help.coinbase.com/en/coinbase/other-topics/legal-policies/what-does-coinbase-do-with-my-digital-assets",
+   "title": "Coinbase Help — What does Coinbase do with my digital assets?",
+   "date": ""
+  },
+  {
+   "url": "https://help.coinbase.com/en/wallet/getting-started/what-s-the-difference-between-coinbase-com-and-wallet",
+   "title": "Coinbase Help — Your Coinbase account versus Coinbase Wallet",
+   "date": ""
+  },
+  {
+   "url": "https://help.coinbase.com/en/wallet/managing-account/wallet-recovery-phrase",
+   "title": "Coinbase Help — Coinbase wallet recovery phrase",
+   "date": ""
+  },
+  {
+   "url": "https://www.theblock.co/news/defi/2026-09-10-coinbase-rebrands-base-app-back-to-coinbase-wallet-after-just-over-a-year-as-social-experiment-falls-short-414115",
+   "title": "The Block — Coinbase rebrands Base App back to Coinbase Wallet",
+   "date": "Sep 10, 2026"
+  },
+  {
+   "url": "https://www.reuters.com/business/ftx-start-us-bankruptcy-proceedings-ceo-exit-2022-11-11/",
+   "title": "Reuters — Crypto exchange FTX files for bankruptcy",
+   "date": "Nov 11, 2022"
+  },
+  {
+   "url": "https://www.finra.org/investors/investing/investment-products/crypto-assets/risks",
+   "title": "FINRA — Crypto assets: risks",
+   "date": ""
+  }
  ],
  "disclosure_variant": "guide"
 }

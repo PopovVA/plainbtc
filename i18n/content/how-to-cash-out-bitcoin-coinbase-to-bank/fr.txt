@@ -1,0 +1,115 @@
+title: Comment encaisser des bitcoins sur Coinbase à votre banque (étapes américaines, calendrier et taxes)
+page_title: Comment encaisser des bitcoins sur Coinbase à votre banque
+description: Comment vendre des bitcoins sur Coinbase et retirer des USD à une banque américaine : le timing ACH, les encaissements instantanés, les frais à regarder et les basiques de l'IRS que les débutants manquent.
+og_description: Vendez du BTC à votre solde Coinbase en USD, puis retirez-le à votre banque — avec le calendrier, les frais et une courte liste de contrôle fiscal.
+label: Guide du Débutant
+summary: Étape par étape pour les utilisateurs américains : vendez du bitcoin à votre solde de trésorerie Coinbase, retirez-le à une banque liée via ACH ou encaissement instantané, et notez les bases de la déclaration fiscale.
+===
+
+L'encaissement de bitcoin sur Coinbase est deux actions distinctes : d'abord vous  <strong> vendez </strong>  bitcoin en dollars américains à l'intérieur de Coinbase, puis vous <strong> retirez  </strong> ces dollars sur un compte bancaire lié. Les débutants mélangent souvent les deux et se demandent pourquoi « vendre » n'a pas encore mis d'argent sur leur compte courant. Ce guide couvre les étapes de Coinbase pour les utilisateurs américains, le calendrier typique, les frais à regarder et les points IRS qui s'appliquent lorsque vous vendez.
+
+!takeaways
+- La vente de bitcoin sur Coinbase déplace la valeur dans votre solde en espèces <strong> Coinbase USD </strong> . Il ne dépose pas d'argent à lui seul à votre banque.
+- Un retrait bancaire américain standard utilise <strong> ACH </strong> et prend généralement <strong> 3 à 5 jours ouvrables </strong> après que vous l'ayez initié, conformément à l'aide de Coinbase.
+- Les utilisateurs éligibles peuvent utiliser  les encaissements instantanés <strong> </strong> sur certaines cartes ou banques compatibles RTP moyennant des frais et une arrivée plus rapide.
+- Pour les impôts américains, l'IRS traite les actifs numériques comme  la propriété <strong> </strong> . La vente de bitcoin pour USD est généralement une cession imposable que vous devrez peut-être déclarer.
+
+## Avant de commencer
+
+1. Terminez la vérification de l'identité et associez un compte bancaire américain aux modes de paiement Coinbase.
+2. Mettez à jour l'application Coinbase ou utilisez le site Web officiel que vous avez vous-même saisi.
+3. Confirmez que le solde en bitcoins que vous prévoyez de vendre est disponible (non retenu pour un dépôt en attente).
+4. Décidez si vous avez besoin d'argent dans votre banque cette semaine (ACH) ou plus tôt (encaissement instantané, si admissible).
+
+Si vous n'avez pas encore de compte, vous pouvez  [open Coinbase](REF)  {{#ref}}avec notre lien de parrainage{{/ref}}  et apprendre le côté achat dans notre  [guide du premier bitcoin](/articles/how-to-buy-first-bitcoin-coinbase) .
+
+## Étape 1 : Vendez du bitcoin pour USD (pas USDC)
+
+Coinbase dit que vous pouvez  [vendez des crypto-monnaies à votre solde de trésorerie à tout moment](L1) . Sur le site Web : choisissez Vendre, choisissez Bitcoin et le montant, définissez la destination sur votre solde en devise locale (USD), vérifiez la commande, puis confirmez. Dans l'application mobile, le chemin est Acheter et Vendre → Vendre, avec le même écran d'évaluation.
+
+Détail important : vendez en  <strong> USD </strong>  si votre objectif est un dépôt bancaire. La vente en USDC vous permet de détenir un stablecoin, que votre banque ne recevra pas en tant que crédit ACH normal. Une fois la vente terminée, les dollars se trouvent dans votre solde de trésorerie Coinbase.
+
+La vente est un commerce, de sorte que les  [spread et tous les frais de Coinbase](L4)  affichés sur l'aperçu s'appliquent. Pour une ventilation complète des frais, voir  [Les frais de Coinbase expliqués](/articles/coinbase-fees-explained) .
+
+!howto
+
+## Étape 2 : retirez l'USD à votre banque
+
+Dans votre solde en USD, choisissez Encaisser ou Retirer, saisissez le montant et sélectionnez votre compte bancaire vérifié.
+
+<strong> Standard ACH (la plupart des débutants) :  </strong> Coinbase explique que les clients américains utilisent le système ACH pour les virements bancaires, et que ACH prend  généralement <strong> 3–5 jours ouvrables  </strong> après le début du retrait. Les jours ouvrables sont du lundi au vendredi pendant les heures bancaires normales ; les soirs, les week-ends et les jours fériés ne comptent pas. Coinbase note qu'elle est basée à San Francisco et que les transferts ACH sont généralement terminés à la fin du jour ouvrable, heure du Pacifique. Il n'y a généralement pas de frais de base pour ACH  </strong> sur le chemin de retrait des consommateurs, mais confirmez toujours l'aperçu.
+
+<strong> Encaissements instantanés (si éligibles) : </strong> [page d'aide pour l'encaissement instantané](L3) de Coinbase indique  que les clients américains éligibles peuvent envoyer des USD ou des USDC à une banque compatible RTP (limite citée à 100 000 $ par transaction) ou encaisser certaines cartes Visa Fast Funds / Mastercard Send. Les retraits bancaires ou par carte instantanés peuvent prendre environ 30 minutes et jusqu'à 24 heures selon la banque ou le réseau de cartes, et des frais de transaction standard s'appliquent.
+
+!figure:timing
+
+!mid_cta
+
+## Pourquoi une vente ou un retrait peut sembler « bloqué »
+
+Coinbase publie une note séparée sur  [pourquoi les ventes peuvent prendre du temps](L2) . Pour les utilisateurs américains, ACH est le chemin habituel vers une banque, et la fenêtre de 3 à 5 jours ouvrables est normale, pas un compte gelé. Les commandes passées le soir ne peuvent pas commencer ACH avant le jour ouvrable suivant. Les détails de votre transaction indiquent une date d'achèvement estimée qui tient déjà compte des week-ends et des jours fériés.
+
+Si les fonds ne sont pas arrivés après cette période, vérifiez que le compte bancaire est toujours vérifié, que le nom correspond à votre profil Coinbase et contactez l'assistance Coinbase uniquement via l'application ou le site Web officiel.
+
+## Frais à surveiller lorsque vous encaissez
+
+1. <strong> Coût de négociation côté vente. </strong>  L'aperçu de la vente de bitcoin → USD comprend le spread et les frais de Coinbase.
+2. <strong> Frais de méthode d'encaissement. L'ACH  </strong> est généralement gratuit du côté de Coinbase ; les encaissements par carte instantanée ou RTP peuvent facturer la vitesse.
+3. <strong> Votre banque. </strong> La  plupart des banques américaines ne facturent pas l'ACH, mais les virements ou les paiements instantanés entrants peuvent le faire. Vérifiez auprès de votre banque.
+4. <strong> Petits reliquats. </strong>  Laisser quelques dollars dans Coinbase est très bien si vous envisagez d'acheter à nouveau ; sinon, retirez ce dont vous avez besoin après le règlement de la vente.
+
+## Les débutants des bases fiscales américaines manquent
+
+C'est de l'éducation, pas des conseils fiscaux. Parlez de votre situation à un fiscaliste.
+
+L'IRS dit  [les actifs numériques sont la propriété, pas la monnaie](L5) . Lorsque vous vendez du bitcoin pour USD, vous avez généralement un gain ou une perte en capital égal à la différence entre ce que vous recevez et votre base de coût (ce que vous avez payé, y compris certains frais). La détention de bitcoin sans vente ne crée généralement pas de gain en soi. Le transfert de crypto entre les portefeuilles que vous contrôlez n'est généralement pas une vente, à moins que vous ne payiez des frais de réseau en crypto que l'IRS traite comme une cession.
+
+Si vous avez vendu ou échangé des actifs numériques que vous déteniez en tant qu'immobilisation, l'IRS vous indique [Formulaire 8949](L6)  et  les rapports connexes de l'annexe D. Les courtiers doivent déclarer certains produits d'actifs numériques sur le formulaire 1099-DA pour les transactions effectuées le 1er janvier 2025 ou après, et déclarer de manière progressive certaines ventes d'actifs acquis le 1er janvier 2026 ou après. Conservez vos propres registres des dates d'achat, des montants et des produits, même si vous vous attendez à recevoir un formulaire.
+
+Répondez honnêtement à la question sur les actifs numériques sur le formulaire 1040 pour l'année d'imposition. Acheter du bitcoin avec des dollars et ne le détenir que peut signifier répondre Non pour cette année ; le vendre, l'échanger ou le dépenser signifie généralement Oui.
+
+!figure:tax
+
+## Les erreurs courantes 
+
+- Attendez-vous à ce que le bouton Vendre dépose à votre banque en une seule étape.
+- Vendre à USDC lorsque vous aviez besoin de USD pour ACH.
+- Utiliser un achat par carte de débit des semaines plus tôt, puis être surpris par l'écart de vente à la sortie — les coûts aller-retour s'additionnent (voir notre  [GUIDE DES TARIFS](/articles/coinbase-fees-explained) ).
+- Ignorer les lots fiscaux sur une vente rentable.
+- Vous recherchez un « support » téléphonique qui vous demande d'envoyer du bitcoin dans un « portefeuille sécurisé » tout en encaissant — Coinbase ne vous le demandera pas.
+
+## Résultat net
+
+Pour les débutants américains, la voie fiable est la suivante : vendez du bitcoin à votre solde Coinbase USD, puis retirez-le par ACH et attendez plusieurs jours ouvrables. Utilisez l'encaissement instantané uniquement lorsque vous avez besoin de rapidité et acceptez les frais. Lisez chaque aperçu, enregistrez les taxes et traitez le risque de prix séparément du moment du retrait.
+
+Prêt à vous entraîner avec une petite quantité d'abord ?  [Créer un compte Coinbase](REF)  {{#ref}}via notre lien de parrainage{{/ref}} , puis revisitez cette page lorsque vous êtes prêt à vendre. Si vous êtes toujours en train de choisir entre les pièces et un fonds, lisez  [bitcoin ETF vs achat de bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin) .
+
+!faq
+
+## FAQ
+
+### Combien de temps faut-il à Coinbase pour envoyer de l'argent à ma banque ?
+
+Une fois que vous avez retiré des USD, Coinbase indique qu'ACH prend généralement 3 à 5 jours ouvrables. Les encaissements instantanés vers des banques ou des cartes éligibles peuvent être beaucoup plus rapides, mais peuvent coûter des frais.
+
+### Puis-je retirer des bitcoins directement sur mon compte bancaire ?
+
+Non. Les banques reçoivent des dollars (ou parfois d'autres monnaies fiduciaires), pas des bitcoins. Vendez d'abord du BTC à l'USD sur Coinbase, puis retirez l'USD.
+
+### L'encaissement de bitcoins est-il imposable aux États-Unis ?
+
+La vente de bitcoins pour l'USD est généralement une cession imposable de biens. Votre gain ou votre perte dépend de votre base et de votre produit. Confirmez les détails avec la page des actifs numériques de l'IRS et un professionnel de la fiscalité.
+
+### Pourquoi mon solde Coinbase est-il disponible à la vente mais pas au retrait ?
+
+Les dépôts en attente, les retenues de garantie ou les règles de règlement peuvent limiter les retraits même lorsqu'un solde est visible. Vérifiez la date de disponibilité de la transaction et les limites de Coinbase pour votre compte.
+
+### Dois-je vendre tout à la fois ou en partie ?
+
+C'est une décision personnelle et fiscale. La vente de pièces peut créer plusieurs lots et plusieurs frais de prévisualisation. Notre  [Guide DCA](/articles/how-much-bitcoin-should-a-beginner-buy-dca)  couvre l'achat de pièces ; la stratégie de vente dépend de vos objectifs et de votre situation fiscale.
+
+!soft: Comparez les coûts de négociation avant de vendre à  [Les frais de Coinbase expliqués](/articles/coinbase-fees-explained) .
+
+!end_cta
+
+!disclosure

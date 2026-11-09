@@ -1,0 +1,125 @@
+title: Bitcoin ETF vs buying bitcoin: which makes sense for a U.S. beginner?
+page_title: Bitcoin ETF vs buying bitcoin
+description: Spot bitcoin ETF vs buying bitcoin on Coinbase: custody, fees, IRA access, taxes, and when each path fits a U.S. beginner — without hype.
+og_description: A clear comparison of spot bitcoin ETFs and owning bitcoin directly: control, costs, retirement accounts, and taxes.
+label: Beginner guide
+summary: Spot bitcoin ETFs give price exposure inside a brokerage account. Buying bitcoin gives you the asset itself. Here is how U.S. beginners can compare custody, fees, IRAs, and taxes.
+===
+
+Since January 2024, U.S. investors have been able to buy [spot bitcoin exchange-traded products](L1) in a normal brokerage account. That created a new beginner question: should you buy a bitcoin ETF, or buy bitcoin itself on an exchange like Coinbase? Both track bitcoin’s price in broad strokes. They are not the same product. This guide compares custody, fees, account types, taxes, and practical trade-offs so you can choose deliberately.
+
+!takeaways
+- A <strong>spot bitcoin ETF</strong> (often called an ETP) holds bitcoin inside a fund. You own fund shares, not the coins.
+- <strong>Buying bitcoin</strong> on Coinbase (or elsewhere) means you hold BTC in a custodial account or withdraw it to your own wallet.
+- ETFs are usually easier inside IRAs and taxable brokerages; direct bitcoin is the path if you want self-custody or on-chain use.
+- Neither product removes market risk. FINRA warns that crypto prices can fall sharply and that you can lose money.
+
+## What a spot bitcoin ETF actually is
+
+On January 10, 2024, the U.S. Securities and Exchange Commission approved listings of several spot bitcoin exchange-traded products. In plain English, the fund buys and holds bitcoin; you buy shares of the fund through a broker during market hours. The share price aims to track the value of the bitcoin the fund holds, minus fund expenses and tracking differences.
+
+Fidelity’s explainer notes that spot bitcoin ETPs give portfolio exposure without you holding wallets or keys, and that fees, rebalancing, and other frictions mean the product will not track bitcoin’s price perfectly one-for-one.
+
+You cannot send ETF shares on the bitcoin network, spend them as bitcoin, or move them into a hardware wallet. You sell shares in your brokerage when you want out.
+
+!figure:compare
+
+## What “buying bitcoin” means
+
+When you buy bitcoin on Coinbase, you purchase the asset itself. At first it usually sits in Coinbase’s custodial wallet (Coinbase holds the keys). You can leave it there or withdraw it to a self-custody wallet you control. That second step is covered in our [wallet guide](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+Direct ownership is what people mean by “holding bitcoin.” It also means you take on exchange account risk, withdrawal network fees, and — if you self-custody — seed-phrase responsibility.
+
+## Side-by-side comparison
+
+| Topic | Spot bitcoin ETF | Buying bitcoin (e.g. on Coinbase) |
+| --- | --- | --- |
+| What you own | Fund shares | Bitcoin (custodial or self-custody) |
+| Who holds keys | Fund custodian | Exchange or you |
+| Where it lives | Brokerage / IRA / 401(k) if offered | Exchange account or personal wallet |
+| Trading hours | Stock-market hours | 24/7 on crypto venues |
+| Ongoing fee | Fund expense ratio (check the prospectus) | Usually $0 to hold; you paid trading / network fees to get there |
+| On-chain use | No | Yes, after withdrawal |
+| Typical tax forms | Broker 1099-B style reporting for share sales | Digital-asset reporting; brokers use Form 1099-DA for many sales from 2025 onward |
+
+Expense ratios change. Always read the current prospectus for any ticker you consider (examples investors often compare include large spot products such as those from BlackRock, Fidelity, or Ark/21Shares). Do not rely on a fee you memorized last year.
+
+!figure:custody
+
+!mid_cta
+
+## Fees: different shapes, same need to compare totals
+
+<strong>ETF path.</strong> You mainly pay the fund’s annual expense ratio (taken from fund assets) plus any brokerage commission or bid-ask spread when you trade shares. Many large U.S. brokers charge $0 online commissions on ETF trades, but the expense ratio still compounds quietly every year you hold.
+
+<strong>Direct bitcoin path.</strong> Coinbase charges on buys and sells via spread and/or maker-taker fees, as explained in [Coinbase fees explained](/articles/coinbase-fees-explained) and Coinbase’s [fee disclosures](L6). Holding bitcoin on Coinbase does not charge a daily custody fee for standard balances, but withdrawing on-chain costs a network fee, and selling later costs again.
+
+Rough intuition: frequent small ETF purchases in a retirement account can be simpler; a one-time bitcoin buy you plan to self-custody for years avoids a recurring fund fee but needs secure key management.
+
+## Taxes and account types (U.S.)
+
+The IRS treats [digital assets as property](L3). Selling bitcoin or selling ETF shares that you held as capital assets can create capital gains or losses you report (often via [Form 8949](L4)). Holding either without selling usually does not by itself create gain.
+
+Practical differences beginners feel:
+
+- <strong>Retirement accounts.</strong> Spot bitcoin ETFs are widely available inside IRAs and some 401(k) menus. Buying actual bitcoin inside a retirement wrapper usually needs a specialized custodian and is more complex.
+- <strong>Taxable accounts.</strong> ETF sales typically show up on familiar brokerage forms. Direct bitcoin sales increasingly involve Form 1099-DA from custodial brokers for transactions on or after January 1, 2025, with basis reporting phasing in later for some lots. Keep your own purchase records either way.
+- <strong>Same market risk.</strong> Preferential long-term capital-gains rates can apply to both after a more-than-one-year holding period when they are capital assets — the ETF is not automatically “more tax-efficient” just because it is an ETF.
+
+This is not tax advice. Confirm with a professional and the IRS pages linked above.
+
+## Who each path fits
+
+<strong>Consider a spot bitcoin ETF if you:</strong>
+
+- Already invest in a brokerage or IRA and want bitcoin price exposure next to stocks and bonds.
+- Do not want to manage wallets, seed phrases, or exchange withdrawals.
+- Prefer standard brokerage statements and familiar sell buttons.
+
+<strong>Consider buying bitcoin if you:</strong>
+
+- Want the option of self-custody or on-chain transfers.
+- Care about holding the asset itself, not a fund share.
+- Are comfortable learning exchange fees, security settings, and (later) wallet backups.
+
+<strong>Many beginners do both over time:</strong> a small ETF position inside an IRA, and a small Coinbase purchase they use to learn how bitcoin moves — then read our safety checklist in [Is Coinbase safe for beginners?](/articles/is-coinbase-safe-for-beginners).
+
+## Risks that apply to both
+
+FINRA reminds investors that [crypto-asset prices are volatile](L5), that you can lose principal, and that scams are common. An ETF does not remove price risk. Direct bitcoin adds operational risks (lost keys, phishing, exchange incidents). Neither is FDIC-insured against a drop in bitcoin’s price.
+
+## Bottom line
+
+A spot bitcoin ETF is usually the simpler U.S. beginner path for “I want bitcoin’s price in my brokerage or IRA.” Buying bitcoin is the path for “I want bitcoin itself, and I will learn custody.” Compare fees over your intended holding period, match the product to the account you will use, and only invest money you can afford to see swing.
+
+If you choose the direct route, you can [open a Coinbase account](REF){{#ref}} through our referral link{{/ref}} and follow [how to buy your first bitcoin](/articles/how-to-buy-first-bitcoin-coinbase). If you later sell coins for dollars, use our [cash-out guide](/articles/how-to-cash-out-bitcoin-coinbase-to-bank).
+
+!faq
+
+## FAQ
+
+### Is a bitcoin ETF the same as owning bitcoin?
+
+No. You own shares of a fund that holds bitcoin. You do not control on-chain bitcoin or a seed phrase.
+
+### Did the SEC approve spot bitcoin ETFs?
+
+Yes. On January 10, 2024, the SEC approved listings of several spot bitcoin exchange-traded products. That is not an endorsement of bitcoin as an investment.
+
+### Which has lower fees: ETF or Coinbase?
+
+It depends on holding period and trade size. ETFs charge an ongoing expense ratio; Coinbase charges when you trade (and for on-chain sends). Compare your own preview screens and the fund prospectus.
+
+### Can I hold a bitcoin ETF in a Roth IRA?
+
+Many U.S. brokerages allow spot bitcoin ETF shares inside IRAs, including Roth IRAs, subject to the firm’s product list. Check your custodian. Buying actual bitcoin inside an IRA is a different, often more limited setup.
+
+### What if I want both price exposure and self-custody?
+
+Some people hold an ETF in a retirement account and separately buy a smaller amount of bitcoin they withdraw to a wallet. That splits goals; it also doubles operational work.
+
+!soft: New to Coinbase itself? Start with [how to buy your first bitcoin on Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

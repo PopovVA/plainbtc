@@ -1,0 +1,21 @@
+{
+  "kind": "figure-fallback",
+  "sources": [
+    {
+      "file": "assets/img/coinbase-fees-explained/chart-advanced-intro.webp",
+      "license": "See article figures",
+      "url": "",
+      "credit": "Derived from mid-article figure"
+    }
+  ],
+  "slug": "coinbase-fees-explained",
+  "generated": "2026-11-09T21:38Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

@@ -1,0 +1,125 @@
+title: Bitcoin ETF vs membeli bitcoin: mana yang masuk akal untuk pemula AS?
+page_title: Bitcoin ETF vs membeli bitcoin
+description: Spot bitcoin ETF vs membeli bitcoin di Coinbase: penahanan, biaya, akses IRA, pajak, dan ketika setiap jalur sesuai dengan pemula AS — tanpa hype.
+og_description: Perbandingan yang jelas antara ETF bitcoin spot dan memiliki bitcoin secara langsung: kontrol, biaya, akun pensiun, dan pajak.
+label: Panduan pemula
+summary: ETF bitcoin spot memberikan eksposur harga di dalam akun broker. Membeli bitcoin memberi Anda aset itu sendiri. Berikut cara pemula AS dapat membandingkan hak asuh, biaya, Ira, dan pajak.
+===
+
+Sejak Januari 2024, investor AS telah dapat membeli  [produk spot bitcoin yang diperdagangkan di bursa](L1)  di akun broker normal. Itu menciptakan pertanyaan pemula baru: haruskah Anda membeli ETF bitcoin, atau membeli bitcoin itu sendiri di bursa seperti Coinbase? Keduanya melacak harga bitcoin secara luas. Mereka bukan produk yang sama. Panduan ini membandingkan hak asuh, biaya, jenis akun, pajak, dan pertukaran praktis sehingga Anda dapat memilih dengan sengaja.
+
+!takeaways
+- Bitcoin spot <strong> ETF </strong>  (sering disebut ETP) menyimpan bitcoin di dalam dana. Anda memiliki saham dana, bukan koin.
+- <strong> Membeli bitcoin </strong>  di Coinbase (atau di tempat lain) berarti Anda memegang BTC di akun kustodian atau menariknya ke dompet Anda sendiri.
+- ETF biasanya lebih mudah di dalam Ira dan pialang kena pajak; bitcoin langsung adalah jalan jika Anda ingin menjaga diri atau menggunakan on - chain.
+- Produk tidak menghilangkan risiko pasar. FINRA memperingatkan bahwa harga kripto dapat turun tajam dan Anda dapat kehilangan uang.
+
+## Apa sebenarnya ETF bitcoin spot
+
+Pada 10 Januari 2024, Komisi Sekuritas dan Bursa AS menyetujui daftar beberapa produk yang diperdagangkan di bursa bitcoin spot. Dalam bahasa Inggris sederhana, dana membeli dan menyimpan bitcoin; Anda membeli saham dana melalui broker selama jam pasar. Harga saham bertujuan untuk melacak nilai bitcoin yang dimiliki dana, dikurangi biaya dana dan melacak perbedaan.
+
+Penjelasan Fidelity mencatat bahwa ETP bitcoin spot memberikan eksposur portofolio tanpa Anda memegang dompet atau kunci, dan bahwa biaya, penyeimbangan kembali, dan gesekan lainnya berarti produk tidak akan melacak harga bitcoin dengan sempurna satu per satu.
+
+Anda tidak dapat mengirim saham ETF di jaringan bitcoin, membelanjakannya sebagai bitcoin, atau memindahkannya ke dompet perangkat keras. Anda menjual saham di broker Anda saat Anda ingin keluar.
+
+!figure:compare
+
+## Apa arti "membeli bitcoin"
+
+Ketika Anda membeli bitcoin di Coinbase, Anda membeli aset itu sendiri. Pada awalnya biasanya berada di dompet kustodian Coinbase (Coinbase memegang kuncinya). Anda dapat meninggalkannya di sana atau menariknya ke dompet penitipan diri yang Anda kendalikan. Langkah kedua tercakup dalam [panduan dompet](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) kami .
+
+Kepemilikan langsung adalah apa yang orang maksud dengan “memegang bitcoin.” Ini juga berarti Anda mengambil risiko akun pertukaran, biaya jaringan penarikan, dan — jika Anda menjaga sendiri — tanggung jawab frase benih.
+
+## Perbandingan berdampingan
+
+| Topik | Spot bitcoin ETF | Membeli bitcoin (misalnya di Coinbase) |
+| --- | --- | --- |
+| Apa yang Anda miliki | Saham dana | Bitcoin (kustodian atau penitipan sendiri) |
+| Siapa yang memegang kunci | Penjaga dana | Tukar atau Anda |
+| Tempat tinggalnya | Pialang / Ira / 401(k) jika ditawarkan | Akun pertukaran atau dompet pribadi |
+| Jam perdagangan | Jam pasar saham | 24/7 di tempat kripto |
+| Biaya berkelanjutan | Rasio pengeluaran dana (periksa prospektus) | Biasanya $ 0 untuk ditahan; Anda membayar biaya perdagangan / jaringan untuk sampai ke sana |
+| Penggunaan on - chain | Tidak | Ya, setelah penarikan |
+| Formulir pajak umum | Pelaporan gaya broker 1099 - B untuk penjualan saham | Pelaporan aset digital; pialang menggunakan Formulir 1099 - DA untuk banyak penjualan mulai tahun 2025 dan seterusnya |
+
+Rasio pengeluaran berubah. Selalu baca prospektus saat ini untuk setiap ticker yang Anda pertimbangkan (contoh yang sering dibandingkan investor termasuk produk spot besar seperti dari BlackRock, Fidelity, atau Ark/21Shares). Jangan mengandalkan biaya yang Anda hafal tahun lalu.
+
+!figure:custody
+
+!mid_cta
+
+## Biaya: bentuk yang berbeda, kebutuhan yang sama untuk membandingkan total
+
+<strong> ETF path. </strong>  Anda terutama membayar rasio pengeluaran tahunan dana (diambil dari aset dana) ditambah komisi broker atau spread bid - ask ketika Anda memperdagangkan saham. Banyak pialang besar AS membebankan komisi online $ 0 pada perdagangan ETF, tetapi rasio pengeluaran masih tenang setiap tahun yang Anda pegang.
+
+<strong> Jalur bitcoin langsung. </strong>  Coinbase membebankan biaya pembelian dan penjualan melalui spread dan/atau biaya maker - taker, sebagaimana dijelaskan dalam  [Biaya Coinbase dijelaskan](/articles/coinbase-fees-explained) dan [pengungkapan biaya](L6)  Coinbase . Memegang bitcoin di Coinbase tidak membebankan biaya penahanan harian untuk saldo standar, tetapi menarik on - chain membutuhkan biaya jaringan, dan menjual kembali biaya di kemudian hari.
+
+Intuisi kasar: pembelian ETF kecil yang sering di akun pensiun bisa lebih sederhana; bitcoin satu kali membeli Anda berencana untuk menjaga diri sendiri selama bertahun - tahun menghindari biaya dana berulang tetapi membutuhkan manajemen kunci yang aman.
+
+## Pajak dan jenis akun (AS)
+
+IRS memperlakukan  [aset digital sebagai properti](L3) . Menjual bitcoin atau menjual saham ETF yang Anda pegang sebagai aset modal dapat menciptakan keuntungan atau kerugian modal yang Anda laporkan (sering melalui [Formulir 8949](L4)). Memegang tanpa menjual biasanya tidak dengan sendirinya menghasilkan keuntungan.
+
+Perbedaan praktis yang dirasakan pemula:
+
+- Akun Pensiun <strong>. ETF bitcoin </strong> Spot tersedia secara luas di dalam Ira dan beberapa menu 401(k). Membeli bitcoin aktual di dalam pembungkus pensiun biasanya membutuhkan kustodian khusus dan lebih kompleks.
+- Akun Kena Pajak <strong>. Penjualan  ETF </strong> biasanya muncul di formulir broker yang sudah dikenal. Penjualan bitcoin langsung semakin melibatkan Formulir 1099 - DA dari pialang kustodian untuk transaksi pada atau setelah 1 Januari 2025, dengan dasar pelaporan bertahap di kemudian hari untuk beberapa lot. Simpan catatan pembelian Anda sendiri dengan cara apa pun.
+- <strong> Risiko pasar yang sama. </strong> Tingkat keuntungan modal jangka panjang preferensial dapat berlaku untuk keduanya setelah periode holding lebih dari satu tahun ketika mereka adalah aset modal — ETF tidak secara otomatis "lebih efisien pajak" hanya karena ETF.
+
+Ini bukan saran pajak. Konfirmasikan dengan profesional dan halaman IRS yang tertaut di atas.
+
+## Siapa yang cocok untuk setiap jalur
+
+<strong> Pertimbangkan ETF bitcoin spot jika Anda: </strong>
+
+- Sudah berinvestasi di broker atau Ira dan menginginkan eksposur harga bitcoin di samping saham dan obligasi.
+- Tidak ingin mengelola dompet, seed phrase, atau penarikan pertukaran.
+- Lebih suka pernyataan broker standar dan tombol jual yang sudah dikenal.
+
+<strong> Pertimbangkan untuk membeli bitcoin jika Anda: </strong>
+
+- Ingin opsi self - custody atau transfer on - chain.
+- Peduli memegang aset itu sendiri, bukan saham dana.
+- Adalah biaya pertukaran pembelajaran yang nyaman, pengaturan keamanan, dan pencadangan dompet (nanti).
+
+<strong> Banyak pemula melakukan keduanya dari waktu ke waktu: </strong> posisi ETF kecil di dalam Ira, dan pembelian Coinbase kecil yang mereka gunakan untuk mempelajari bagaimana bitcoin bergerak — kemudian baca daftar periksa keselamatan kami di  [Apakah Coinbase aman untuk pemula?](/articles/is-coinbase-safe-for-beginners) .
+
+## Risiko yang berlaku untuk keduanya
+
+FINRA mengingatkan investor bahwa [harga aset kripto bergejolak](L5), bahwa Anda dapat kehilangan prinsipal, dan bahwa penipuan adalah hal yang umum. ETF tidak menghilangkan risiko harga. Bitcoin langsung menambahkan risiko operasional (kunci hilang, phishing, insiden pertukaran). FDIC juga tidak diasuransikan terhadap penurunan harga bitcoin.
+
+## Garis bawah
+
+ETF bitcoin spot biasanya merupakan jalur pemula AS yang lebih sederhana untuk “Saya ingin harga bitcoin di broker atau Ira saya." Membeli bitcoin adalah jalan untuk "Saya ingin bitcoin itu sendiri, dan saya akan belajar hak asuh.” Bandingkan biaya selama periode penahanan yang Anda inginkan, cocokkan produk dengan akun yang akan Anda gunakan, dan hanya investasikan uang yang Anda mampu untuk melihat ayunan.
+
+Jika Anda memilih rute langsung, Anda dapat  [buka akun Coinbase](REF)  {{#ref}}melalui tautan referal kami{{/ref}}  dan mengikuti  [cara membeli bitcoin pertama Anda](/articles/how-to-buy-first-bitcoin-coinbase) . Jika nanti Anda menjual koin seharga dolar, gunakan [panduan cash - out](/articles/how-to-cash-out-bitcoin-coinbase-to-bank)  kami .
+
+!faq
+
+## Pertanyaan Umum
+
+### Apakah ETF bitcoin sama dengan memiliki bitcoin?
+
+Tidak. Anda memiliki saham dari dana yang menyimpan bitcoin. Anda tidak mengontrol bitcoin on - chain atau seed phrase.
+
+### Apakah SEC menyetujui ETF bitcoin spot?
+
+Ya. Pada 10 Januari 2024, SEC menyetujui daftar beberapa produk yang diperdagangkan di bursa bitcoin spot. Itu bukan dukungan bitcoin sebagai investasi.
+
+### Yang memiliki biaya lebih rendah: ETF atau Coinbase?
+
+Itu tergantung pada periode penahanan dan ukuran perdagangan. ETF membebankan rasio pengeluaran yang sedang berlangsung; Coinbase membebankan biaya saat Anda melakukan perdagangan (dan untuk pengiriman on - chain). Bandingkan layar pratinjau Anda sendiri dan prospektus dana.
+
+### Bisakah saya memegang ETF bitcoin di Roth Ira?
+
+Banyak pialang AS mengizinkan saham ETF bitcoin spot di dalam Ira, termasuk Roth Ira, tunduk pada daftar produk perusahaan. Periksa kustodian Anda. Membeli bitcoin aktual di dalam Ira adalah pengaturan yang berbeda, seringkali lebih terbatas.
+
+### Bagaimana jika saya menginginkan eksposur harga dan penitipan diri?
+
+Beberapa orang memegang ETF di akun pensiun dan secara terpisah membeli bitcoin dalam jumlah yang lebih kecil yang mereka tarik ke dompet. Itu membagi tujuan; itu juga menggandakan pekerjaan operasional.
+
+!soft: Baru mengenal Coinbase itu sendiri? Mulailah dengan  [cara membeli bitcoin pertama Anda di Coinbase](/articles/how-to-buy-first-bitcoin-coinbase) .
+
+!end_cta
+
+!disclosure

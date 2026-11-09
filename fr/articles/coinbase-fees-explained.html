@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (Français)" href="/fr/feed.xml">
+  <link rel="stylesheet" href="/assets/styles.20261109f.css">
+  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
+  <title>Les frais de Coinbase expliqués | PlainBTC</title>
+  <meta name="description" content="Les frais de Coinbase expliqués pour les débutants américains : comment fonctionne le spread simple-app, les taux de maker/taker avancés, Coinbase One et comment lire l&#x27;écran de prévisualisation avant d&#x27;acheter.">
+  <link rel="canonical" href="https://plainbtc.com/fr/articles/coinbase-fees-explained">
+  <!-- i18n:hreflang -->
+  <link rel="alternate" hreflang="en" href="https://plainbtc.com/articles/coinbase-fees-explained">
+  <link rel="alternate" hreflang="es" href="https://plainbtc.com/es/articles/coinbase-fees-explained">
+  <link rel="alternate" hreflang="pt-BR" href="https://plainbtc.com/pt/articles/coinbase-fees-explained">
+  <link rel="alternate" hreflang="fr" href="https://plainbtc.com/fr/articles/coinbase-fees-explained">
+  <link rel="alternate" hreflang="de" href="https://plainbtc.com/de/articles/coinbase-fees-explained">
+  <link rel="alternate" hreflang="ru" href="https://plainbtc.com/ru/articles/coinbase-fees-explained">
+  <link rel="alternate" hreflang="tr" href="https://plainbtc.com/tr/articles/coinbase-fees-explained">
+  <link rel="alternate" hreflang="id" href="https://plainbtc.com/id/articles/coinbase-fees-explained">
+  <link rel="alternate" hreflang="ja" href="https://plainbtc.com/ja/articles/coinbase-fees-explained">
+  <link rel="alternate" hreflang="ko" href="https://plainbtc.com/ko/articles/coinbase-fees-explained">
+  <link rel="alternate" hreflang="x-default" href="https://plainbtc.com/articles/coinbase-fees-explained">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <!-- /i18n:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Les frais de base expliqués : spread, fabricant/preneur avancé et ce qu&#x27;un débutant paie réellement">
+  <meta property="og:description" content="Quels sont les frais de Coinbase sur les transactions simples par rapport aux transactions avancées, et comment vérifier le coût réel avant de confirmer.">
+  <meta property="og:url" content="https://plainbtc.com/fr/articles/coinbase-fees-explained">
+  <meta property="og:site_name" content="PlainBTC">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="article:published_time" content="2026-11-09">
+  <meta property="og:image" content="https://plainbtc.com/assets/og/coinbase-fees-explained.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Les frais de base expliqués : spread, fabricant/preneur avancé et ce qu&#x27;un débutant paie réellement">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://plainbtc.com/assets/og/coinbase-fees-explained.png">
+  <meta name="twitter:title" content="Les frais de base expliqués : spread, fabricant/preneur avancé et ce qu&#x27;un débutant paie réellement">
+  <meta name="twitter:description" content="Quels sont les frais de Coinbase sur les transactions simples par rapport aux transactions avancées, et comment vérifier le coût réel avant de confirmer.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Les frais de base expliqués : spread, fabricant/preneur avancé et ce qu'un débutant paie réellement",
+    "name": "Les frais de Coinbase expliqués | PlainBTC",
+    "description": "Les frais de Coinbase expliqués pour les débutants américains : comment fonctionne le spread simple-app, les taux de maker/taker avancés, Coinbase One et comment lire l'écran de prévisualisation avant d'acheter.",
+    "datePublished": "2026-11-09",
+    "dateModified": "2026-11-09",
+    "author": {
+      "@type": "Organization",
+      "name": "PlainBTC"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/",
+      "sameAs": [
+        "https://discord.gg/EcuGXPDr2d",
+        "https://www.facebook.com/groups/1688106109771364",
+        "https://x.com/lean_redfield"
+      ]
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://plainbtc.com/fr/articles/coinbase-fees-explained"
+    },
+    "url": "https://plainbtc.com/fr/articles/coinbase-fees-explained",
+    "image": "https://plainbtc.com/assets/og/coinbase-fees-explained.png",
+    "inLanguage": "fr"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://plainbtc.com/fr/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Les frais de base expliqués : spread, fabricant/preneur avancé et ce qu'un débutant paie réellement",
+        "item": "https://plainbtc.com/fr/articles/coinbase-fees-explained"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "inLanguage": "fr",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Coinbase facture-t-il des frais fixes pour acheter du bitcoin ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Non. Les achats simples utilisent un écart variable à l'intérieur du prix indiqué plus les frais de Coinbase indiqués sur l'aperçu. Advanced Trade utilise des pourcentages de maker/taker par niveau au lieu d'un spread."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quels sont les frais de Coinbase Advanced pour les débutants ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Le tableau VIP avancé public de Coinbase répertorie le niveau d'introduction au comptant à 0,50 % pour le fabricant et à 0,90 % pour le preneur. Votre niveau en direct dans l'application fait autorité et les taux chutent avec un volume de 30 jours plus élevé ou des soldes USDC éligibles."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Coinbase One vaut-il la peine d'être payé ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cela peut être le cas si vos frais mensuels de transaction simple dépassent le coût de l'abonnement. Il ne supprime pas tous les coûts : les spreads peuvent toujours apparaître, et les frais de commande à limite simple de 1 % et les frais de service DEX sont exclus de l'avantage zéro frais."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Pourquoi mes frais Coinbase sont-ils différents de ceux d'un ami ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Coinbase indique que les frais peuvent varier en fonction du mode de paiement, de la taille de la commande, des conditions du marché, de l'emplacement, de l'actif et des tests effectués par région. Deux commandes similaires peuvent afficher des totaux différents."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Dois-je payer des frais pour retirer des USD à ma banque ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les retraits ACH sont souvent gratuits du côté de Coinbase, mais prennent plusieurs jours ouvrables. Les encaissements instantanés aux cartes admissibles ou aux banques RTP peuvent entraîner des frais pour la vitesse. Vérifiez toujours l'aperçu de l'encaissement."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap inner">
+      <a class="logo" href="/fr/">Plain<span>BTC</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/fr/">Accueil</a>
+        <a href="/fr/#articles">Articles</a>
+        <a href="/fr/about">À propos</a>
+        <a href="/fr/disclosure">Transparence</a>
+      </nav>
+      <!-- i18n:langmenu -->
+      <details class="lang-menu"><summary aria-label="Langue">🌐 Français</summary><ul><li><a href="/articles/coinbase-fees-explained" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/coinbase-fees-explained" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/coinbase-fees-explained" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/coinbase-fees-explained" lang="fr" hreflang="fr" aria-current="true">Français</a></li><li><a href="/de/articles/coinbase-fees-explained" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/coinbase-fees-explained" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/coinbase-fees-explained" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/coinbase-fees-explained" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/coinbase-fees-explained" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/coinbase-fees-explained" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <!-- /i18n:langmenu -->
+    </div>
+  </header>
+
+  <main class="article-page">
+    <article class="content">
+      <a class="back" href="/fr/">← Tous les articles</a>
+      <div class="badge">Guide du Débutant</div>
+      <h1>Les frais de base expliqués : spread, fabricant/preneur avancé et ce qu'un débutant paie réellement</h1>
+      <div class="meta">Publié le 9 novembre 2026 · PlainBTC · États-Unis</div>
+      <img class="og-hero" src="/assets/og/coinbase-fees-explained.png" width="1200" height="630" alt="Les frais de base expliqués : spread, fabricant/preneur avancé et ce qu&#x27;un débutant paie réellement" loading="eager">
+
+      <p>Coinbase ne publie pas de « frais fixes » pour le bitcoin. « Ce que vous payez dépend de si vous utilisez le simple écran Acheter/Vendre ou Coinbase Advanced, de votre mode de paiement, de la taille de votre commande, des conditions du marché et de votre emplacement. Ce guide passe en revue les types de frais divulgués par Coinbase, montre les taux d'entrée avancés publiés aux États-Unis et explique comment lire l'écran d'aperçu afin que vous ne soyez pas surpris après avoir appuyé sur Acheter.</p>
+
+      <div class="takeaways">
+        <h2>L’essentiel</h2>
+        <ul>
+          <li>Les achats et les ventes simples incluent un  spread <strong> </strong> à  l'intérieur du prix indiqué. Coinbase ne publie pas un seul pourcentage de spread fixe ; vous le voyez dans l'aperçu de la commande.</li>
+          <li>Coinbase Advanced n'a  pas de propagation <strong> </strong> . Vous payez des frais de fabricant ou de preneur par niveau de volume. Le tableau VIP avancé public de Coinbase répertorie le niveau d'introduction chez  <strong> 0,50 % maker / 0,90 % taker </strong>  pour spot.</li>
+          <li>Les ordres à cours limité simples ajoutent des frais d'exécution distincts de 1 % <strong> </strong>, et Coinbase peut également facturer des frais de mode de paiement Coinbase (sa page d'aide cite 1,875 % à titre d'exemple qui varie selon la méthode).</li>
+          <li>Comparez toujours le  total <strong> sur l'écran d'aperçu </strong>  avant de confirmer. Les frais changent, et Coinbase dit qu'il teste occasionnellement les frais et répartit les changements par région et par type de commande.</li>
+        </ul>
+      </div>
+
+      <h2>La réponse courte</h2>
+      <p>Pour la plupart des débutants américains qui achètent une petite quantité de bitcoin, la simple application Coinbase est la plus facile, mais ce n'est généralement pas le chemin le moins cher. Le prix indiqué intègre déjà un spread, et d'autres frais peuvent s'accumuler en fonction de la façon dont vous payez. Si vous êtes à l'aise pour passer un ordre à cours limité, <a href="https://help.coinbase.com/en/coinbase/trading-and-funding/advanced-trade/advanced-trade-fees" target="_blank" rel="noopener">Coinbase Advanced</a> supprime l'écart et facture plutôt un calendrier de fabricant/preneur publié.</p>
+      <p>Rien de tout cela n'est un conseil financier. Les barèmes de frais changent. Faites confiance aux chiffres que Coinbase vous montre dans l'application le jour de votre transaction.</p>
+      <h2>Type de frais 1 : le spread simple-app</h2>
+      <p>Sur les ordres d'achat, de vente et de conversion simples, Coinbase  <a href="https://help.coinbase.com/en/coinbase/trading-and-funding/pricing-and-fees/fees" target="_blank" rel="noopener">inclut un écart dans le prix coté</a> . L'écart est l'écart entre le prix du marché et le prix qui vous est proposé. Coinbase dit que l'écart l'aide à verrouiller votre prix coté pendant que vous examinez l'ordre, qu'il peut conserver tout écart excédentaire et que l'écart peut varier pour des transactions similaires.</p>
+      <p>Vous pouvez voir la propagation avant de confirmer :</p>
+      <ul>
+        <li>Pour les ordres d'achat et de vente, appuyez sur l'info-bulle à côté de la ligne de prix de l'actif.</li>
+        <li>Pour convertir des commandes, appuyez sur l'info-bulle à côté du taux de change indiqué.</li>
+      </ul>
+      <p>Étant donné que Coinbase ne publie pas de pourcentage d'écart fixe sur cette page d'aide, les tables tierces « Coinbase fee is X% » sont souvent périmées. Le seul numéro qui compte pour votre commande est celui qui se trouve sur l'écran d'aperçu <strong> de votre </strong>.</p>
+
+      <figure class="article-figure">
+        <img src="/assets/img/coinbase-fees-explained/fact-spread-preview.webp" width="1200" height="630" alt="Encadré : sur les ordres simples Coinbase, le spread est dans le prix affiché — regardez l’infobulle de l’aperçu" loading="lazy">
+        <figcaption>Source : Coinbase Help</figcaption>
+      </figure>
+
+      <h2>Type de frais 2 : Frais de base et ordres à cours limité simples</h2>
+      <p>Au-delà de l'écart, Coinbase affirme que les frais de négociation dépendent du mode de paiement, de la taille des ordres, des conditions du marché, de l'emplacement, de l'actif et des autres coûts qu'il encourt. Ces frais sont affichés sur l'aperçu des transactions avant que vous ne les soumettiez.</p>
+      <p>Pour  les ordres à cours limité simples <strong> </strong>, Coinbase dévoile deux pièces supplémentaires :</p>
+      <ol>
+        <li>Une commission d'exécution d'ordre à cours limité <strong> de 1 % </strong> distincte sur chaque achat à cours limité ou vente à cours limité.</li>
+        <li>Des frais supplémentaires éventuels de Coinbase que <strong>  varient selon le mode de paiement </strong>  (la page d'aide donne 1,875 % à titre d'exemple).</li>
+      </ol>
+      <p>Les deux apparaissent dans le détail des frais sur l'écran d'aperçu et dans l'historique de vos transactions. L'avantage zéro frais de négociation de Coinbase One ne  <strong> pas </strong> renonce à ces frais de commande à cours limité simples de 1 %.</p>
+      <h2>Type de frais 3 : Coinbase Advanced maker and taker</h2>
+      <p>Coinbase Advanced se négocie contre le carnet d'ordres, donc  <a href="https://help.coinbase.com/en/coinbase/trading-and-funding/pricing-and-fees/fees" target="_blank" rel="noopener">aucun spread n'est ajouté</a> . Au lieu de cela, vous payez des frais de fabricant ou des frais de preneur :</p>
+      <ul>
+        <li><strong> Preneur : </strong>  un ordre qui remplit immédiatement (par exemple un ordre au marché) paie le taux preneur le plus élevé.</li>
+        <li><strong> Maker : </strong> un ordre de limite de repos qui attend sur le livre paie le taux de fabricant inférieur lorsqu'il est rempli.</li>
+        <li>Une commande partiellement exécutée peut payer les deux : preneur sur la partie immédiate, fabricant sur le reste.</li>
+      </ul>
+      <p>Votre niveau est basé sur des critères récents de volume ou de solde USDC, selon ce qui vous convient. Coinbase dit de vérifier vos tarifs en direct dans Advanced. Pour un point de référence public, le <a href="https://www.coinbase.com/advanced-vip" target="_blank" rel="noopener">Page VIP avancée</a> de  Coinbase  répertorie un niveau au comptant <strong> Intro </strong> de <strong> 0,50 % fabricant et 0,90 % preneur </strong>, avec des taux plus bas à mesure que le volume ou le solde USDC augmente, jusqu'à 0 % fabricant / 0,02 % preneur au niveau VIP supérieur. Les taux sont régionaux ; ignorez les citations de l'UE ou d'un autre marché si vous négociez depuis les États-Unis.</p>
+
+      <figure class="article-figure">
+        <img src="/assets/img/coinbase-fees-explained/chart-advanced-intro.webp" width="1200" height="630" alt="Graphique en barres : frais Intro Coinbase Advanced au comptant, maker 0,50 % et taker 0,90 %" loading="lazy">
+        <figcaption>Graphique : PlainBTC, données : Coinbase Advanced VIP table</figcaption>
+      </figure>
+
+      <aside class="mid-cta" aria-label="Lien d’affiliation">
+        <div class="mid-cta-label">Lien d’affiliation</div>
+        <h2>Débutant en crypto ? Commencez sur Coinbase</h2>
+        <p>Si Coinbase est disponible dans votre pays, vous pouvez ouvrir un compte ici. Tout bonus d’inscription dépend de votre pays et des conditions en vigueur chez Coinbase.</p>
+        <a class="cta-button" href="https://coinbase.com/join/F2XRWRL?src=referral-link" rel="sponsored noopener" target="_blank">Ouvrir Coinbase</a>
+      </aside>
+
+      <h2>Coinbase One, frais de réseau et coûts d'encaissement</h2>
+      <p><a href="https://www.coinbase.com/one" target="_blank" rel="noopener">Coinbase One</a>  est un abonnement payant qui peut renoncer aux frais de négociation sur les achats simples admissibles et se vend jusqu'à un plafond mensuel. Coinbase note toujours qu'un écart peut subsister dans les prix cotés pour certaines transactions, et que les frais de service DEX et les frais de commande à cours limité simples de 1 % ne sont pas couverts par l'avantage zéro frais.</p>
+      <p>Séparé des frais de négociation :</p>
+      <ul>
+        <li><strong> Les frais de réseau </strong>  s'appliquent lorsque vous envoyez des cryptos hors de Coinbase. Coinbase facture sur la base de son estimation des frais de réseau en vigueur et divulgue le montant au moment de l'envoi. Les envois de bitcoins Lightning comportent des frais de traitement <strong> divulgués de 0,2 % </strong>.</li>
+        <li><strong> L'ajout d'espèces ou l'encaissement de </strong>  peut entraîner des frais de méthode de paiement. Vérifiez cette ligne avant de confirmer. Les virements bancaires ACH standard sont généralement gratuits du côté de Coinbase, tandis que les <a href="https://help.coinbase.com/en/coinbase/getting-started/add-a-payment-method/instant-cashout" target="_blank" rel="noopener">encaissements instantanés</a>  vers des cartes éligibles ou des banques compatibles RTP peuvent coûter plus cher pour la vitesse.</li>
+        <li>La vente de crypto dans votre solde en USD est une transaction (donc un écart/des frais s'appliquent) ; le transfert de cet USD vers votre banque est une étape de retrait distincte. Voir notre  <a href="/fr/articles/how-to-cash-out-bitcoin-coinbase-to-bank">guide d'encaissement</a> .</li>
+      </ul>
+      <h2>À quoi pourrait ressembler un achat de 1 000 $ pour débutant</h2>
+      <p>Imaginez que vous voulez environ 1 000 $ de bitcoin.</p>
+      <ol>
+        <li><strong> Simple Acheter avec une carte de débit. </strong>  L'aperçu peut afficher un spread plus des frais de Coinbase liés à la carte. Le bitcoin que vous recevrez sera inférieur à 1 000 $ ÷ prix au comptant, car les deux pièces proviennent de ce que vous payez. Les achats par carte sont pratiques et font souvent partie des options les plus chères.</li>
+        <li><strong> Simple Buy financé par votre solde Coinbase USD (dépôt ACH en premier). </strong>  Vous payez toujours l'écart/les frais de transaction simple, mais vous évitez les frais de carte. Les dépôts ACH prennent généralement quelques jours ouvrables pour être entièrement effacés.</li>
+        <li><strong> Coinbase Ordre limite avancé en tant que fabricant. </strong>  Au taux d'Intro maker publié de 0,50 %, un ordre notionnel de 1 000 $ afficherait environ 5 $ de frais de négociation s'il se repose et se remplit en tant que maker, sans spread. Vous devez définir vous-même le prix limite et attendre un remplissage.</li>
+      </ol>
+      <p>Ce sont des illustrations, pas des citations. Coinbase calcule le total en direct au moment de la commande. Lisez toujours l'aperçu.</p>
+      <h2>Comment réduire les frais sans trop compliquer les choses</h2>
+      <ol>
+        <li>Préférez ACH à votre solde en USD par rapport à une carte de crédit ou de débit lorsque vous pouvez attendre.</li>
+        <li>Ouvrez l'info-bulle des frais sur chaque aperçu et comparez simple et avancé pour la même taille.</li>
+        <li>Sur Avancé, utilisez les ordres à cours limité que vous êtes prêt à attendre si vous voulez le taux du fabricant.</li>
+        <li>Évitez les conversions inutiles (crypto → crypto) lorsque vous n'avez besoin que de USD ou de bitcoin ; chaque conversion peut intégrer un spread.</li>
+        <li>Si vous tradez souvent, vérifiez si les frais mensuels de Coinbase One sont inférieurs aux frais de trading que vous payez réellement.</li>
+        <li>Pour les achats récurrents plus importants, consultez nos notes sur <a href="/fr/articles/how-much-bitcoin-should-a-beginner-buy-dca">les achats périodiques par sommes fixes</a>  afin  que les frais ne mangent pas de petits achats.</li>
+      </ol>
+      <h2>Résultat net</h2>
+      <p>Les frais de base de pièces sont transparents sur l'écran de prévisualisation même s'il ne s'agit pas d'un seul pourcentage publié. Les débutants paient généralement trop cher en achetant avec une carte sur l'écran simple sans consulter l'infobulle. Advanced Trade est plus de travail, mais son calendrier fabricant/preneur publié et son manque de spread facilitent la comparaison des coûts. Commencez avec un montant que vous pouvez vous permettre d'apprendre, lisez chaque ligne d'aperçu, puis passez à l'échelle.</p>
+      <p>Si vous êtes prêt à ouvrir un compte, vous pouvez  <a href="https://coinbase.com/join/F2XRWRL?src=referral-link" rel="sponsored noopener" target="_blank">s'inscrire sur Coinbase</a>  via notre lien de parrainage  et suivre notre  <a href="/fr/articles/how-to-buy-first-bitcoin-coinbase">guide étape par étape du premier bitcoin</a> . Pour les bases de sécurité, lisez d'abord <a href="/fr/articles/is-coinbase-safe-for-beginners">Coinbase est-il sûr pour les débutants ?</a> .</p>
+
+      <h2>FAQ</h2>
+      <h3>Coinbase facture-t-il des frais fixes pour acheter du bitcoin ?</h3>
+      <p>Non. Les achats simples utilisent un écart variable à l'intérieur du prix indiqué plus les frais de Coinbase indiqués sur l'aperçu. Advanced Trade utilise des pourcentages de maker/taker par niveau au lieu d'un spread.</p>
+      <h3>Quels sont les frais de Coinbase Advanced pour les débutants ?</h3>
+      <p>Le tableau VIP avancé public de Coinbase répertorie le niveau d'introduction au comptant à 0,50 % pour le fabricant et à 0,90 % pour le preneur. Votre niveau en direct dans l'application fait autorité et les taux chutent avec un volume de 30 jours plus élevé ou des soldes USDC éligibles.</p>
+      <h3>Coinbase One vaut-il la peine d'être payé ?</h3>
+      <p>Cela peut être le cas si vos frais mensuels de transaction simple dépassent le coût de l'abonnement. Il ne supprime pas tous les coûts : les spreads peuvent toujours apparaître, et les frais de commande à limite simple de 1 % et les frais de service DEX sont exclus de l'avantage zéro frais.</p>
+      <h3>Pourquoi mes frais Coinbase sont-ils différents de ceux d'un ami ?</h3>
+      <p>Coinbase indique que les frais peuvent varier en fonction du mode de paiement, de la taille de la commande, des conditions du marché, de l'emplacement, de l'actif et des tests effectués par région. Deux commandes similaires peuvent afficher des totaux différents.</p>
+      <h3>Dois-je payer des frais pour retirer des USD à ma banque ?</h3>
+      <p>Les retraits ACH sont souvent gratuits du côté de Coinbase, mais prennent plusieurs jours ouvrables. Les encaissements instantanés aux cartes admissibles ou aux banques RTP peuvent entraîner des frais pour la vitesse. Vérifiez toujours l'aperçu de l'encaissement.</p>
+
+      <p class="soft-guide">Ensuite, apprenez les étapes exactes de  <a href="/fr/articles/how-to-cash-out-bitcoin-coinbase-to-bank">vendez du bitcoin et transférez l'USD vers votre banque</a> .</p>
+
+      <div class="cta">
+        <h2>Vous envisagez d’ouvrir un compte Coinbase ?</h2>
+        <p>Si vous décidez d’ouvrir un compte, vous pouvez utiliser notre lien de parrainage. Coinbase n’est pas disponible dans tous les pays, et tout bonus dépend de votre lieu de résidence et des conditions en vigueur chez Coinbase : vérifiez-les sur la page d’inscription avant de commencer.</p>
+        <a class="cta-button" href="https://coinbase.com/join/F2XRWRL?src=referral-link" rel="sponsored noopener" target="_blank">M’inscrire sur Coinbase avec ce lien</a>
+      </div>
+
+      <div class="disclosure">
+        <strong>Transparence :</strong> cette page contient un lien de parrainage. Si vous vous inscrivez via ce lien et effectuez un achat éligible, PlainBTC peut percevoir une récompense de Coinbase, sans frais supplémentaires pour vous, là où le programme de Coinbase s’applique dans votre pays. Consultez notre <a href="/fr/disclosure">déclaration d’affiliation complète</a>.<br><br>
+        <strong>Ceci n’est pas un conseil financier.</strong> Ce guide est uniquement pédagogique. Il ne constitue ni un conseil en investissement, ni un conseil de trading, juridique ou fiscal. Les cryptomonnaies sont volatiles et vous pouvez perdre de l’argent. Avant d’agir, vérifiez les étapes, les frais et les conditions d’éligibilité dans le centre d’aide de Coinbase, et envisagez un conseil professionnel adapté à votre situation.
+      </div>
+
+      <aside class="community-box" aria-label="Liens de la communauté">
+        <h2>Rejoindre la communauté</h2>
+        <p>Actus, questions de débutants et sondages—suivez PlainBTC sur Discord, Facebook et X.</p>
+        <div class="community-links"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+      </aside>
+
+      <aside class="related" aria-label="À lire aussi">
+        <h2>À lire aussi</h2>
+        <ul>
+          <li><a href="/fr/articles/how-to-buy-first-bitcoin-coinbase">Comment acheter votre premier bitcoin sur Coinbase (guide du débutant aux États-Unis)</a></li>
+          <li><a href="/fr/articles/how-to-cash-out-bitcoin-coinbase-to-bank">Comment encaisser des bitcoins sur Coinbase à votre banque (étapes américaines, calendrier et taxes)</a></li>
+          <li><a href="/fr/articles/is-coinbase-safe-for-beginners">Coinbase est-il sûr pour les débutants ? Ce qui est protégé, ce qui ne l’est pas et comment réduire vos risques</a></li>
+        </ul>
+      </aside>
+
+      <section class="sources" aria-label="Sources">
+        <h2>Sources</h2>
+        <ol>
+          <li><a href="https://help.coinbase.com/en/coinbase/trading-and-funding/pricing-and-fees/fees" target="_blank" rel="noopener">Coinbase Help — Pricing and fees disclosures</a></li>
+          <li><a href="https://help.coinbase.com/en/coinbase/trading-and-funding/advanced-trade/advanced-trade-fees" target="_blank" rel="noopener">Coinbase Help — Coinbase Advanced fees</a></li>
+          <li><a href="https://www.coinbase.com/advanced-vip" target="_blank" rel="noopener">Coinbase — Advanced VIP fee levels (public table)</a></li>
+          <li><a href="https://help.coinbase.com/en/coinbase/trading-and-funding/buying-selling-or-converting-crypto/how-do-i-sell-or-cash-out-my-digital-currency" target="_blank" rel="noopener">Coinbase Help — Sell crypto for cash</a></li>
+          <li><a href="https://help.coinbase.com/en/coinbase/getting-started/add-a-payment-method/instant-cashout" target="_blank" rel="noopener">Coinbase Help — Instant cashouts</a></li>
+          <li><a href="https://www.coinbase.com/one" target="_blank" rel="noopener">Coinbase One</a></li>
+        </ol>
+        <p class="sources-note">Les titres des sources sont indiqués dans leur langue d’origine.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap inner">
+      <div>© 2026 PlainBTC · l’actualité du bitcoin et des cryptos en langage clair, pour les débutants</div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/fr/">Accueil</a>
+        <a href="/fr/about">À propos</a>
+        <a href="/fr/disclosure">Transparence</a>
+        <a href="/fr/feed.xml">RSS</a>
+      </nav>
+    </div>
+  <!-- i18n:footersocial -->
+  <div class="wrap footer-social" aria-label="Liens de la communauté"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+  <!-- /i18n:footersocial -->
+  <!-- i18n:footerlangs -->
+  <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/coinbase-fees-explained" lang="en" hreflang="en">English</a> <a href="/es/articles/coinbase-fees-explained" lang="es" hreflang="es">Español</a> <a href="/pt/articles/coinbase-fees-explained" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/coinbase-fees-explained" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/coinbase-fees-explained" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/coinbase-fees-explained" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/coinbase-fees-explained" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/coinbase-fees-explained" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/coinbase-fees-explained" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/coinbase-fees-explained" lang="ko" hreflang="ko">한국어</a></nav></div>
+  <!-- /i18n:footerlangs -->
+  </footer>
+  <script src="/assets/site.20261109g.js" defer></script>
+</body>
+</html>

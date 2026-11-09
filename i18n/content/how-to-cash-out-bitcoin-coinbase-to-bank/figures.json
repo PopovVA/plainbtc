@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timing",
+    "file": "chart-ach-days.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart comparing typical ACH cash-out timing of several business days versus faster instant cashouts",
+      "es": "Gráfico que compara el plazo típico ACH de varios días hábiles con los cashouts instantáneos más rápidos",
+      "pt": "Gráfico que compara o prazo típico ACH de vários dias úteis com cashouts instantâneos mais rápidos",
+      "fr": "Graphique comparant le délai ACH typique de plusieurs jours ouvrés aux cashouts instantanés plus rapides",
+      "de": "Diagramm: typische ACH-Auszahlung über mehrere Werktage vs. schnellere Instant-Cashouts",
+      "ru": "График: типичные сроки ACH в несколько рабочих дней против более быстрых мгновенных выводов",
+      "tr": "Çubuk grafik: birkaç iş günü süren tipik ACH çıkışı ile daha hızlı anlık cashout karşılaştırması",
+      "id": "Grafik batang membandingkan waktu cash-out ACH tipikal beberapa hari kerja vs cashout instan yang lebih cepat",
+      "ja": "棒グラフ：数営業日かかる一般的なACH出金と、より速いインスタントキャッシュアウトの比較",
+      "ko": "막대 차트: 영업일 수일이 걸리는 일반 ACH 출금과 더 빠른 즉시 캐시아웃 비교"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Coinbase Help (ACH 3–5 business days)",
+      "es": "Gráfico: PlainBTC, datos: Coinbase Help (ACH 3–5 business days)",
+      "pt": "Gráfico: PlainBTC, dados: Coinbase Help (ACH 3–5 business days)",
+      "fr": "Graphique : PlainBTC, données : Coinbase Help (ACH 3–5 business days)",
+      "de": "Chart: PlainBTC, Daten: Coinbase Help (ACH 3–5 business days)",
+      "ru": "График: PlainBTC, данные: Coinbase Help (ACH 3–5 business days)",
+      "tr": "Grafik: PlainBTC, veri: Coinbase Help (ACH 3–5 business days)",
+      "id": "Grafik: PlainBTC, data: Coinbase Help (ACH 3–5 business days)",
+      "ja": "チャート: PlainBTC、データ: Coinbase Help (ACH 3–5 business days)",
+      "ko": "차트: PlainBTC, 데이터: Coinbase Help (ACH 3–5 business days)"
+    }
+  },
+  {
+    "id": "tax",
+    "file": "fact-irs-property.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: the IRS treats digital assets as property, so selling bitcoin for USD is generally taxable",
+      "es": "Tarjeta: el IRS trata los activos digitales como propiedad; vender bitcoin por USD suele ser un hecho imponible",
+      "pt": "Cartão: a IRS trata ativos digitais como propriedade; vender bitcoin por USD geralmente é tributável",
+      "fr": "Encadré : l’IRS traite les actifs numériques comme des biens — vendre du bitcoin contre des USD est en général imposable",
+      "de": "Faktenkarte: Der IRS behandelt Digital Assets als Eigentum — BTC-Verkauf gegen USD ist in der Regel steuerpflichtig",
+      "ru": "Карточка: IRS считает цифровые активы имуществом — продажа биткоина за USD обычно налогооблагаема",
+      "tr": "Bilgi kartı: IRS dijital varlıkları mülk sayar — bitcoin’i USD’ye satmak genellikle vergilendirilir",
+      "id": "Kartu fakta: IRS memperlakukan aset digital sebagai properti — menjual bitcoin ke USD umumnya kena pajak",
+      "ja": "ファクトカード：IRSはデジタル資産を財産として扱うため、ビットコインのUSD売却は一般に課税対象",
+      "ko": "팩트 카드: IRS는 디지털 자산을 재산으로 취급 — 비트코인을 USD로 파는 것은 일반적으로 과세 대상"
+    },
+    "caption": {
+      "en": "Source: IRS Digital assets",
+      "es": "Fuente: IRS Digital assets",
+      "pt": "Fonte: IRS Digital assets",
+      "fr": "Source : IRS Digital assets",
+      "de": "Quelle: IRS Digital assets",
+      "ru": "Источник: IRS Digital assets",
+      "tr": "Kaynak: IRS Digital assets",
+      "id": "Sumber: IRS Digital assets",
+      "ja": "出典: IRS Digital assets",
+      "ko": "출처: IRS Digital assets"
+    }
+  }
+]

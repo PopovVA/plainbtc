@@ -1,0 +1,115 @@
+title: How to cash out bitcoin on Coinbase to your bank (U.S. steps, timing, and taxes)
+page_title: How to cash out bitcoin on Coinbase to your bank
+description: How to sell bitcoin on Coinbase and withdraw USD to a U.S. bank: ACH timing, instant cashouts, fees to watch, and the IRS basics beginners miss.
+og_description: Sell BTC to your Coinbase USD balance, then withdraw to your bank — with timing, fees, and a short tax checklist.
+label: Beginner guide
+summary: Step-by-step for U.S. users: sell bitcoin to your Coinbase cash balance, withdraw to a linked bank via ACH or instant cashout, and note the tax reporting basics.
+===
+
+Cashing out bitcoin on Coinbase is two separate actions: first you <strong>sell</strong> bitcoin into U.S. dollars inside Coinbase, then you <strong>withdraw</strong> those dollars to a linked bank account. Beginners often mix the two up and wonder why “sell” did not put money in their checking account yet. This guide covers the Coinbase steps for U.S. users, typical timing, fees to watch, and the IRS points that apply when you sell.
+
+!takeaways
+- Selling bitcoin on Coinbase moves value into your <strong>Coinbase USD cash balance</strong>. It does not by itself deposit money at your bank.
+- A standard U.S. bank withdrawal uses <strong>ACH</strong> and typically takes <strong>3–5 business days</strong> after you initiate it, per Coinbase Help.
+- Eligible users can use <strong>instant cashouts</strong> to certain cards or RTP-enabled banks for a fee and faster arrival.
+- For U.S. taxes, the IRS treats digital assets as <strong>property</strong>. Selling bitcoin for USD is generally a taxable disposal you may need to report.
+
+## Before you start
+
+1. Finish identity verification and link a U.S. bank account in Coinbase payment methods.
+2. Update the Coinbase app or use the official website you typed yourself.
+3. Confirm the bitcoin balance you plan to sell is available (not held for a pending deposit).
+4. Decide whether you need dollars in your bank this week (ACH) or sooner (instant cashout, if eligible).
+
+If you do not have an account yet, you can [open Coinbase](REF){{#ref}} with our referral link{{/ref}} and learn the buy side in our [first-bitcoin guide](/articles/how-to-buy-first-bitcoin-coinbase).
+
+## Step 1: Sell bitcoin for USD (not USDC)
+
+Coinbase says you can [sell crypto to your cash balance at any time](L1). On the website: choose Sell, pick bitcoin and the amount, set the destination to your local currency balance (USD), review the order, then confirm. In the mobile app the path is Buy & Sell → Sell, with the same review screen.
+
+Important detail: sell into <strong>USD</strong> if your goal is a bank deposit. Selling into USDC leaves you holding a stablecoin, which your bank will not receive as a normal ACH credit. After the sale completes, the dollars sit in your Coinbase cash balance.
+
+The sell is a trade, so the [spread and any Coinbase fee](L4) shown on the preview apply. For a full fee breakdown, see [Coinbase fees explained](/articles/coinbase-fees-explained).
+
+!howto
+
+## Step 2: Withdraw USD to your bank
+
+From your USD balance, choose Cash out or Withdraw, enter the amount, and select your verified bank account.
+
+<strong>Standard ACH (most beginners):</strong> Coinbase explains that U.S. customers use the ACH system for bank transfers, and that ACH typically takes <strong>3–5 business days</strong> after you start the withdrawal. Business days are Monday–Friday in normal bank hours; evenings, weekends, and bank holidays do not count. Coinbase notes it is based in San Francisco, and ACH transfers usually complete by the end of the business day Pacific Time. There is typically <strong>no Coinbase fee for ACH</strong> on the consumer cash-out path, but always confirm the preview.
+
+<strong>Instant cashouts (if eligible):</strong> Coinbase’s [instant cashout help page](L3) says eligible U.S. customers may send USD or USDC to an RTP-enabled bank (limit cited at $100,000 per transaction) or cash out to certain Visa Fast Funds / Mastercard Send cards. Instant bank or card cashouts can take around 30 minutes and up to 24 hours depending on the bank or card network, and standard transaction fees apply.
+
+!figure:timing
+
+!mid_cta
+
+## Why a sell or withdrawal can feel “stuck”
+
+Coinbase publishes a separate note on [why sells can take time](L2). For U.S. users, ACH is the usual path to a bank, and the 3–5 business-day window is normal, not a frozen account. Orders placed in the evening may not start ACH until the next business day. Your transaction details show an estimated completion date that already factors weekends and holidays.
+
+If funds have not arrived after that window, check that the bank account is still verified, that the name matches your Coinbase profile, and contact Coinbase support only through the official app or website.
+
+## Fees to watch when you cash out
+
+1. <strong>Sell-side trading cost.</strong> The preview for the bitcoin → USD sale includes spread and any Coinbase fee.
+2. <strong>Cash-out method fee.</strong> ACH is usually free on Coinbase’s side; instant card or RTP cashouts can charge for speed.
+3. <strong>Your bank.</strong> Most U.S. banks do not charge to receive ACH, but wires or incoming instant payments can. Check with your bank.
+4. <strong>Small leftover balances.</strong> Leaving a few dollars in Coinbase is fine if you plan to buy again; otherwise withdraw what you need after the sale settles.
+
+## U.S. tax basics beginners miss
+
+This is education, not tax advice. Talk to a tax professional about your situation.
+
+The IRS says [digital assets are property, not currency](L5). When you sell bitcoin for USD, you generally have a capital gain or loss equal to the difference between what you receive and your cost basis (what you paid, including certain fees). Holding bitcoin without selling usually does not create gain by itself. Moving crypto between wallets you control is generally not a sale, unless you pay a network fee in crypto that the IRS treats as a disposal.
+
+If you sold or exchanged digital assets you held as a capital asset, the IRS points you to [Form 8949](L6) and related Schedule D reporting. Brokers must report certain digital-asset proceeds on Form 1099-DA for transactions on or after January 1, 2025, with basis reporting phasing in for some sales of assets acquired on or after January 1, 2026. Keep your own records of purchase dates, amounts, and proceeds even if you expect a form.
+
+Answer the digital-assets question on Form 1040 honestly for the tax year. Buying bitcoin with dollars and only holding it can mean answering No for that year; selling, exchanging, or spending it usually means Yes.
+
+!figure:tax
+
+## Common mistakes
+
+- Expecting the Sell button to deposit to your bank in one step.
+- Selling to USDC when you needed USD for ACH.
+- Using a debit-card buy weeks earlier, then being surprised by sell spread on the way out — round-trip costs add up (see our [fees guide](/articles/coinbase-fees-explained)).
+- Ignoring tax lots on a profitable sale.
+- Falling for phone “support” that asks you to send bitcoin to a “safe wallet” while cashing out — Coinbase will not ask for that.
+
+## Bottom line
+
+For U.S. beginners, the reliable path is: sell bitcoin to your Coinbase USD balance, then withdraw by ACH and wait several business days. Use instant cashout only when you need speed and accept the fee. Read every preview, keep records for taxes, and treat price risk separately from withdrawal timing.
+
+Ready to practice with a small amount first? [Create a Coinbase account](REF){{#ref}} through our referral link{{/ref}}, then revisit this page when you are ready to sell. If you are still deciding between coins and a fund, read [bitcoin ETF vs buying bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!faq
+
+## FAQ
+
+### How long does Coinbase take to send money to my bank?
+
+After you withdraw USD, Coinbase says ACH typically takes 3–5 business days. Instant cashouts to eligible banks or cards can be much faster but may cost a fee.
+
+### Can I withdraw bitcoin straight to my bank account?
+
+No. Banks receive dollars (or sometimes other fiat), not bitcoin. Sell BTC to USD on Coinbase first, then withdraw the USD.
+
+### Is cashing out bitcoin taxable in the U.S.?
+
+Selling bitcoin for USD is generally a taxable disposal of property. Your gain or loss depends on your basis and proceeds. Confirm details with the IRS digital-assets page and a tax professional.
+
+### Why is my Coinbase balance available to sell but not to withdraw?
+
+Pending deposits, security holds, or settlement rules can limit withdrawals even when a balance is visible. Check the transaction’s available-on date and Coinbase’s limits for your account.
+
+### Should I sell all at once or in parts?
+
+That is a personal and tax decision. Selling in parts can create multiple lots and multiple preview fees. Our [DCA guide](/articles/how-much-bitcoin-should-a-beginner-buy-dca) covers buying in parts; selling strategy depends on your goals and tax situation.
+
+!soft: Compare trading costs before you sell in [Coinbase fees explained](/articles/coinbase-fees-explained).
+
+!end_cta
+
+!disclosure

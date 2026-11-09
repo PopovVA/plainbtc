@@ -1,0 +1,115 @@
+title: Wie Sie Bitcoin auf Coinbase an Ihre Bank auszahlen können (US-Schritte, Timing und Steuern)
+page_title: Wie Sie Bitcoin auf Coinbase an Ihre Bank auszahlen können
+description: Wie man Bitcoin auf Coinbase verkauft und USD an eine US-Bank abhebt: Ach Timing, sofortige Auszahlungen, zu beobachtende Gebühren und die IRS-Grundlagen, die Anfänger verpassen.
+og_description: Verkaufen Sie BTC auf Ihr Coinbase USD-Guthaben und ziehen Sie es dann an Ihre Bank ab — mit Timing, Gebühren und einer kurzen Steuer-Checkliste.
+label: Anleitung für Anfänger
+summary: Schritt-für-Schritt für US-Nutzer: Verkaufe Bitcoin an dein Coinbase-Guthaben, ziehe über Ach oder Instant Cashout an eine verknüpfte Bank ab und beachte die Grundlagen der Steuerberichterstattung.
+===
+
+Die Auszahlung von Bitcoin auf Coinbase besteht aus zwei getrennten Aktionen: Zuerst verkaufen Sie <strong>  </strong> Bitcoin in US-Dollar innerhalb von Coinbase, dann ziehen Sie <strong> </strong>  diese Dollar auf ein verknüpftes Bankkonto ab. Anfänger verwechseln oft die beiden und fragen sich, warum "verkaufen" noch kein Geld auf ihr Girokonto eingezahlt hat. Dieser Leitfaden behandelt die Coinbase-Schritte für US-Nutzer, das typische Timing, die zu beobachtenden Gebühren und die IRS-Punkte, die beim Verkauf gelten.
+
+!takeaways
+- Der Verkauf von Bitcoin auf Coinbase verschiebt den Wert in Ihr <strong> Coinbase USD Barguthaben </strong> . Es hinterlegt selbst kein Geld bei Ihrer Bank.
+- Eine Standard-Bankauszahlung in den USA verwendet <strong>  Ach </strong> und dauert in der Regel <strong> 3–5 Werktage </strong>,  nachdem Sie sie initiiert haben, gemäß der Coinbase-Hilfe.
+- Berechtigte Benutzer können <strong>  Instant Cashouts </strong> an bestimmte Karten oder RTP-fähige Banken gegen eine Gebühr und eine schnellere Ankunft verwenden.
+- Für US-Steuern behandelt der IRS digitale Vermögenswerte als  <strong>-Immobilie </strong> . Der Verkauf von Bitcoin für USD ist im Allgemeinen eine steuerpflichtige Veräußerung, die Sie möglicherweise melden müssen.
+
+## Bevor Sie beginnen
+
+1. Schließe die Identitätsprüfung ab und verknüpfe ein US-Bankkonto mit den Coinbase-Zahlungsmethoden.
+2. Aktualisieren Sie die Coinbase-App oder nutzen Sie die offizielle Website, die Sie selbst eingegeben haben.
+3. Bestätigen Sie, dass das Bitcoin-Guthaben, das Sie verkaufen möchten, verfügbar ist (nicht für eine ausstehende Einzahlung gehalten wird).
+4. Entscheide, ob du diese Woche (Ach) oder früher Geld bei deiner Bank brauchst (sofortige Auszahlung, falls berechtigt).
+
+Wenn Sie noch kein Konto haben, können Sie [coinbase öffnen](REF)  {{#ref}}mit unserem Empfehlungslink{{/ref}}  und die Kaufseite in unserem [first-bitcoin guide](/articles/how-to-buy-first-bitcoin-coinbase)  lernen .
+
+## Schritt 1: Bitcoin für USD (nicht USDC) verkaufen
+
+Coinbase sagt, Sie können  [jederzeit Krypto auf Ihr Guthaben zu verkaufen](L1) . Auf der Website: Wählen Sie Verkaufen, wählen Sie Bitcoin und den Betrag aus, setzen Sie das Ziel auf Ihr lokales Währungsguthaben (USD), überprüfen Sie die Bestellung und bestätigen Sie. In der mobilen App lautet der Pfad Kaufen & → Verkaufen Verkaufen mit demselben Bewertungsbildschirm.
+
+Wichtiges Detail: Verkaufen Sie in <strong> USD </strong>, wenn Ihr Ziel eine Bankeinzahlung ist. Wenn Sie in USDC verkaufen, halten Sie eine Stablecoin, die Ihre Bank nicht als normales ACH-Guthaben erhält. Nachdem der Verkauf abgeschlossen ist, befinden sich die Dollars auf Ihrem Coinbase-Guthaben.
+
+Der Verkauf ist ein Trade, daher gelten die  in der Vorschau angezeigten [spread und alle Coinbase-Gebühren](L4). Eine vollständige Gebührenaufschlüsselung finden Sie unter  [Coinbase-Gebühren erklärt](/articles/coinbase-fees-explained) .
+
+!howto
+
+## Schritt 2: Überweisen Sie USD an Ihre Bank
+
+Wähle von deinem USD-Guthaben Auszahlung oder Auszahlung aus, gib den Betrag ein und wähle dein verifiziertes Bankkonto aus.
+
+<strong> Standard Ach (die meisten Anfänger): </strong> Coinbase erklärt, dass US-Kunden das ACH-System für Banküberweisungen verwenden und dass ACH in der Regel <strong> 3–5 Werktage </strong>  nach Beginn der Auszahlung benötigt. Werktage sind Montag bis Freitag zu den üblichen Bankzeiten; Abende, Wochenenden und Feiertage zählen nicht. Coinbase merkt an, dass es seinen Sitz in San Francisco hat und ACH-Transfers in der Regel bis zum Ende des Geschäftstages Pacific Time abgeschlossen sind. Es gibt in  der Regel <strong> keine Coinbase-Gebühr für Ach </strong>  auf dem Auszahlungspfad des Verbrauchers, aber bestätigen Sie immer die Vorschau.
+
+<strong> Sofortige Auszahlungen (falls berechtigt): </strong> Coinbase's  [sofortauszahlungs-Hilfeseite](L3)  sagt, dass berechtigte US-Kunden USD oder USDC an eine RTP-fähige Bank senden können (Limit wird auf 100.000 $ pro Transaktion angegeben) oder sich auf bestimmte Visa Fast Funds / Mastercard-Karten auszahlen lassen können. Sofortige Bank- oder Kartenauszahlungen können je nach Bank- oder Kartennetzwerk etwa 30 Minuten und bis zu 24 Stunden dauern. Es fallen Standardtransaktionsgebühren an.
+
+!figure:timing
+
+!mid_cta
+
+## Warum sich ein Verkauf oder eine Auszahlung „festgefahren“ anfühlen kann
+
+Coinbase veröffentlicht einen separaten Hinweis auf  [warum Verkäufe Zeit brauchen können](L2) . Für US-Benutzer ist Ach der übliche Weg zu einer Bank, und das 3-5-Werktage-Fenster ist normal, kein eingefrorenes Konto. Bestellungen, die am Abend aufgegeben werden, dürfen erst am nächsten Werktag mit Ach beginnen. Ihre Transaktionsdetails zeigen ein geschätztes Abschlussdatum an, das bereits Wochenenden und Feiertage berücksichtigt.
+
+Wenn das Geld nach diesem Fenster nicht angekommen ist, überprüfen Sie, ob das Bankkonto noch verifiziert ist, ob der Name mit Ihrem Coinbase-Profil übereinstimmt, und wenden Sie sich nur über die offizielle App oder Website an den Coinbase-Support.
+
+## Gebühren, die du bei der Auszahlung beachten solltest
+
+1. <strong> Verkaufsseitige Handelskosten. </strong>  Die Vorschau für den Bitcoin → USD-Verkauf beinhaltet den Spread und jede Coinbase-Gebühr.
+2. <strong> Auszahlungsmethode Gebühr. </strong>  Ach ist auf der Seite von Coinbase in der Regel kostenlos. Sofortige Karten- oder RTP-Auszahlungen können für die Geschwindigkeit berechnet werden.
+3. <strong> Ihre Bank. </strong>  Die meisten US-Banken berechnen keine Gebühren für den Erhalt von Ach, aber Überweisungen oder eingehende Sofortzahlungen können es. Erkundigen Sie sich bei Ihrer Bank.
+4. <strong> Kleine Restguthaben. </strong>  Ein paar Dollar in Coinbase zu lassen ist in Ordnung, wenn Sie planen, wieder zu kaufen. Andernfalls ziehen Sie ab, was Sie brauchen, nachdem der Verkauf abgeschlossen ist.
+
+## US-Steuergrundlagen Anfänger verpassen
+
+Das ist Bildung, keine Steuerberatung. Sprechen Sie mit einem Steuerberater über Ihre Situation.
+
+Das IRS sagt  [digitale Assets sind Eigentum, keine Währung](L5) . Wenn Sie Bitcoin für USD verkaufen, haben Sie in der Regel einen Kapitalgewinn oder -verlust in Höhe der Differenz zwischen dem, was Sie erhalten, und Ihrer Kostenbasis (was Sie bezahlt haben, einschließlich bestimmter Gebühren). Das Halten von Bitcoin ohne Verkauf schafft in der Regel keinen Gewinn für sich. Das Verschieben von Krypto zwischen Wallets, die Sie kontrollieren, ist im Allgemeinen kein Verkauf, es sei denn, Sie zahlen eine Netzwerkgebühr in Krypto, die der IRS als Entsorgung behandelt.
+
+Wenn Sie digitale Vermögenswerte, die Sie als Kapitalvermögen gehalten haben, verkauft oder ausgetauscht haben, weist Sie der IRS auf [Formular 8949](L6) und die damit verbundene Berichterstattung nach Anhang D hin. Broker müssen bestimmte Erlöse aus digitalen Vermögenswerten auf Formular 1099-DA für Transaktionen am oder nach dem 1. Januar 2025 melden, wobei die Grundlage für einige Verkäufe von Vermögenswerten, die am oder nach dem 1. Januar 2026 erworben wurden, schrittweise eingeführt wird. Bewahren Sie Ihre eigenen Aufzeichnungen über Kaufdaten, Beträge und Erlöse auf, auch wenn Sie ein Formular erwarten.
+
+Beantworten Sie die Frage zu digitalen Vermögenswerten auf Formular 1040 ehrlich für das Steuerjahr. Bitcoin mit Dollar zu kaufen und es nur zu halten, kann bedeuten, für dieses Jahr mit Nein zu antworten. Verkaufen, Tauschen oder Ausgeben bedeutet normalerweise Ja.
+
+!figure:tax
+
+## Häufige Fehler
+
+- Es wird erwartet, dass die Schaltfläche „Verkaufen“ in einem Schritt bei Ihrer Bank eingezahlt wird.
+- Verkauf an USDC, wenn Sie USD für Ach benötigen.
+- Verwenden Sie eine Debitkarte, die Wochen zuvor gekauft wurde, und werden Sie dann auf dem Weg nach draußen von der Verkaufsspanne überrascht — die Hin- und Rückreisekosten summieren sich (siehe unsere  [gebührenleitfaden](/articles/coinbase-fees-explained) ).
+- Ignorieren von Steuerlosen bei einem profitablen Verkauf.
+- Falling for phone "support" that asks you to send bitcoin to a "safe wallet" while cashing out — Coinbase will not ask for that.
+
+## Fazit
+
+Für US-Einsteiger ist der zuverlässige Weg: Bitcoin auf Ihr Coinbase USD-Guthaben verkaufen, dann per Ach abheben und mehrere Werktage warten. Nutze die sofortige Auszahlung nur, wenn du Geschwindigkeit benötigst, und akzeptiere die Gebühr. Lesen Sie jede Vorschau, führen Sie Aufzeichnungen über Steuern und behandeln Sie das Preisrisiko getrennt vom Zeitpunkt der Auszahlung.
+
+Bereit, zuerst mit einer kleinen Menge zu üben?  [Coinbase-Konto erstellen](REF)  {{#ref}}über unseren Empfehlungslink{{/ref}} , dann besuchen Sie diese Seite erneut, wenn Sie zum Verkauf bereit sind. Wenn Sie sich immer noch zwischen Münzen und einem Fonds entscheiden, lesen Sie  [bitcoin-ETF vs. Bitcoin-Kauf](/articles/bitcoin-etf-vs-buying-bitcoin) .
+
+!faq
+
+## FAQ
+
+### Wie lange dauert es, bis Coinbase Geld an meine Bank sendet?
+
+Nachdem Sie USD abgehoben haben, sagt Coinbase, dass Ach in der Regel 3–5 Werktage dauert. Sofortige Auszahlungen an berechtigte Banken oder Karten können viel schneller erfolgen, können aber eine Gebühr kosten.
+
+### Kann ich Bitcoin direkt auf mein Bankkonto abbuchen?
+
+Nein. Banken erhalten Dollar (oder manchmal andere Fiat), nicht Bitcoin. Verkaufen Sie zuerst BTC an USD auf Coinbase und ziehen Sie dann den USD ab.
+
+### Ist die Auszahlung von Bitcoin in den USA steuerpflichtig?
+
+Der Verkauf von Bitcoin für USD ist in der Regel eine steuerpflichtige Veräußerung von Immobilien. Ihr Gewinn oder Verlust hängt von Ihrer Basis und Ihrem Erlös ab. Bestätigen Sie die Details mit der IRS-Seite für digitale Vermögenswerte und einem Steuerfachmann.
+
+### Warum kann ich mein Coinbase-Guthaben verkaufen, aber nicht abheben?
+
+Ausstehende Einzahlungen, Sicherheitsbeträge oder Abrechnungsregeln können Auszahlungen einschränken, auch wenn ein Guthaben sichtbar ist. Überprüfen Sie das verfügbare Datum der Transaktion und die Limits von Coinbase für Ihr Konto.
+
+### Soll ich alles auf einmal oder in Teilen verkaufen?
+
+Das ist eine persönliche und steuerliche Entscheidung. Durch den Verkauf von Teilen können mehrere Lose und mehrere Vorschaugebühren entstehen. Unser  [DCA-Leitfaden](/articles/how-much-bitcoin-should-a-beginner-buy-dca)  deckt den Kauf von Teilen ab; die Verkaufsstrategie hängt von Ihren Zielen und Ihrer Steuersituation ab.
+
+!soft: Vergleichen Sie die Handelskosten, bevor Sie in [Coinbase-Gebühren erklärt](/articles/coinbase-fees-explained)  verkaufen .
+
+!end_cta
+
+!disclosure

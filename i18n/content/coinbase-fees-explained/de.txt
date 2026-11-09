@@ -1,0 +1,124 @@
+title: Coinbase-Gebühren erklärt: Spread, Advanced Maker/Taker und was ein Anfänger tatsächlich bezahlt
+page_title: Coinbase-Gebühren erklärt
+description: Coinbase-Gebühren für US-Einsteiger erklärt: wie die einfache App-Spread funktioniert, fortgeschrittene Maker/Taker-Raten, Coinbase One und wie man den Vorschaubildschirm liest, bevor man kauft.
+og_description: Was Coinbase bei einfachen Trades im Vergleich zu Advanced Trade berechnet und wie Sie die tatsächlichen Kosten überprüfen können, bevor Sie dies bestätigen.
+label: Anleitung für Anfänger
+summary: Eine einfache englische Aufschlüsselung der Coinbase-Gebühren: der variable Spread bei einfachen Käufen und Verkäufen, Advanced Maker/Taker-Tiers, Coinbase One und wie man die Kosten auf dem Vorschaubildschirm vergleicht.
+===
+
+Coinbase veröffentlicht keine feste "Gebühr" für Bitcoin. "Was Sie bezahlen, hängt davon ab, ob Sie den einfachen Kauf-/Verkaufsbildschirm oder Coinbase Advanced verwenden, Ihre Zahlungsmethode, Auftragsgröße, Marktbedingungen und Ihren Standort. Dieser Leitfaden geht durch die von Coinbase offengelegten Gebührentypen, zeigt die veröffentlichten US Advanced Entry Rates und erklärt, wie Sie den Vorschaubildschirm lesen, damit Sie nicht überrascht sind, nachdem Sie auf Kaufen getippt haben.
+
+!takeaways
+- Einfache Käufe und Verkäufe beinhalten einen <strong>-Spread </strong>  innerhalb des notierten Preises. Coinbase veröffentlicht keinen einzigen festen Spread-Prozentsatz; Sie sehen ihn in der Bestellvorschau.
+- Coinbase Advanced hat  <strong> keinen Spread </strong> . Du zahlst Maker- oder Taker-Gebühren nach Volumenstufe. Der öffentliche Advanced VIP-Tisch von Coinbase listet die Intro-Stufe bei <strong> 0,50 % Maker / 0,90 % Taker </strong> für Spot auf.
+- Einfache Limit-Orders fügen eine separate <strong>  1% Ausführungsgebühr </strong> hinzu, und Coinbase kann auch eine Gebühr für die Zahlungsmethode Coinbase erheben (die Hilfeseite nennt 1,875% als Beispiel, das je nach Methode variiert).
+- Vergleichen Sie immer den <strong>-Gesamtwert auf dem Vorschaubildschirm </strong>,  bevor Sie bestätigen. Gebühren ändern sich, und Coinbase sagt, dass es gelegentlich Gebühren- und Spread-Änderungen nach Region und Auftragstyp testet.
+
+## Die kurze Antwort?
+
+Für die meisten US-Anfänger, die eine kleine Menge Bitcoin kaufen, ist die einfache Coinbase-App am einfachsten, aber es ist normalerweise nicht der billigste Weg. Der angegebene Preis enthält bereits einen Spread. Je nachdem, wie du zahlst, können weitere Gebühren hinzukommen. Wenn Sie eine Limit-Order platzieren möchten, entfernt [Coinbase Advanced](L2) den Spread und berechnet stattdessen einen veröffentlichten Maker-/Taker-Zeitplan.
+
+Nichts davon ist eine Finanzberatung. Gebührenpläne ändern sich. Vertrauen Sie den Zahlen, die Coinbase Ihnen an dem Tag, an dem Sie handeln, in der App anzeigt.
+
+## Gebührentyp 1: der Simple-App-Spread
+
+Bei einfachen Kauf-, Verkaufs- und Konvertierungsaufträgen, Coinbase  [enthält einen Spread im Angebotspreis](L1) . Der Spread ist die Lücke zwischen dem Marktpreis und dem Preis, der Ihnen angeboten wird. Coinbase sagt, dass der Spread dazu beiträgt, Ihren notierten Preis zu sichern, während Sie die Bestellung überprüfen, dass er einen überschüssigen Spread behalten kann und dass der Spread für ähnliche Transaktionen variieren kann.
+
+Sie können den Spread sehen, bevor Sie bestätigen:
+
+- Tippen Sie bei Kauf- und Verkaufsaufträgen auf den Tooltip neben der Preislinie des Vermögenswerts.
+- Tippe bei Convert-Bestellungen auf den Tooltip neben dem angegebenen Wechselkurs.
+
+Da Coinbase auf dieser Hilfeseite keinen festen Spread-Prozentsatz veröffentlicht, sind die „Coinbase-Gebühr beträgt X%“ -Tabellen von Drittanbietern oft veraltet. Die einzige Nummer, die für Ihre Bestellung zählt, ist die Nummer auf dem <strong> Ihrem  </strong> Vorschaubildschirm.
+
+!figure:spread
+
+## Gebührentyp 2: Coinbase-Gebühren und einfache Limit-Bestellungen
+
+Über den Spread hinaus sagt Coinbase, dass die Handelsgebühren von der Zahlungsmethode, der Auftragsgröße, den Marktbedingungen, dem Standort, dem Vermögenswert und anderen Kosten abhängen. Diese Gebühren werden in der Handelsvorschau angezeigt, bevor Sie sie einreichen.
+
+Für  <strong> Simple Limit Orders </strong> legt Coinbase zwei zusätzliche Stücke offen:
+
+1. Eine separate <strong> 1% Limit-Order Ausführungsgebühr  </strong> für jeden Limit-Kauf oder Limit-Verkauf.
+2. Eine mögliche zusätzliche Coinbase-Gebühr, die  <strong> je nach Zahlungsmethode </strong> variiert (die Hilfeseite gibt als Beispiel 1,875% an).
+
+Beide werden in der Gebührenaufschlüsselung auf dem Vorschaubildschirm und in Ihrem Transaktionsverlauf angezeigt. Der Zero-Trading-Fee-Vorteil von Coinbase One verzichtet <strong> und nicht </strong>  auf diese einfache Limit-Order-Gebühr von 1%.
+
+## Gebührentyp 3: Coinbase Advanced Maker und Nehmer
+
+Coinbase Advanced handelt gegen das Orderbuch, also  [es wird kein Spread hinzugefügt](L1) . Stattdessen zahlen Sie eine Maker-Gebühr oder eine Taker-Gebühr:
+
+- <strong> Abnehmer: </strong>  ein Auftrag, der sofort ausgeführt wird (z. B. ein Marktauftrag), zahlt den höheren Abnehmersatz.
+- <strong> Maker: </strong>  a resting limit order that waits on the book pays the lower maker rate when it fills.
+- Eine teilweise ausgefüllte Bestellung kann beides bezahlen: Abnehmer auf der unmittelbaren Seite, Hersteller auf dem Rest.
+
+Dein Level basiert auf den letzten Volumen- oder USDC-Guthabenkriterien, je nachdem, was dich bevorzugt. Coinbase sagt, dass Sie Ihre Live-Kurse in Advanced überprüfen sollten. Für einen öffentlichen Bezugspunkt listet Coinbase's  [Erweiterte VIP-Seite](L3) eine <strong> Intro </strong> Spot-Stufe von <strong> 0,50% Maker und 0,90% Taker </strong> auf, mit niedrigeren Raten, wenn das Volumen oder der USDC-Saldo steigt, bis auf 0% Maker / 0,02% Taker auf der obersten VIP-Stufe. Die Preise sind regional; ignorieren Sie EU- oder andere Marktnotierungen, wenn Sie aus den USA handeln
+
+!figure:advanced
+
+!mid_cta
+
+## Coinbase One, Netzwerkgebühren und Auszahlungskosten
+
+[Coinbase One](L4)  ist ein kostenpflichtiges Abonnement, das auf Handelsgebühren für qualifizierende einfache Käufe und Verkäufe bis zu einer monatlichen Obergrenze verzichten kann. Coinbase weist immer noch darauf hin, dass ein Spread bei einigen Trades in den notierten Preisen verbleiben kann und dass die Dex-Servicegebühren und die einfache Limit-Order-Gebühr von 1 % nicht durch den Null-Gebühren-Vorteil abgedeckt sind.
+
+Getrennt von Handelsgebühren:
+
+- <strong> Netzwerkgebühren </strong> fallen an, wenn Sie Krypto außerhalb von Coinbase versenden. Coinbase berechnet die Gebühren auf der Grundlage seiner Schätzung der geltenden Netzwerkgebühren und gibt den Betrag zum Zeitpunkt des Versands an. Lightning-Bitcoin-Sendungen tragen eine offengelegte <strong>-Bearbeitungsgebühr  von 0,2 % </strong>.
+- <strong> Das Hinzufügen von Bargeld oder die Auszahlung von </strong> kann  mit einer Gebühr für die Zahlungsmethode verbunden sein. Überprüfen Sie diese Zeile, bevor Sie sie bestätigen. Standard-ACH-Banküberweisungen sind auf Coinbase-Seite in der Regel kostenlos, während [sofortige Auszahlungen](L5) an berechtigte Karten oder RTP-fähige Banken mehr für die Geschwindigkeit kosten kann.
+- Der Verkauf von Krypto auf Ihr USD-Guthaben ist ein Handel (daher fallen Spreads/Gebühren an). Der Umzug dieses USD auf Ihre Bank ist ein separater Auszahlungsschritt. Siehe unser  [auszahlungsleitfaden](/articles/how-to-cash-out-bitcoin-coinbase-to-bank) .
+
+## Wie ein Kauf für Anfänger im Wert von $ 1.000 aussehen könnte
+
+Stellen Sie sich vor, Sie wollen etwa 1.000 $ Bitcoin.
+
+1. <strong> Simple Kaufen Sie mit einer Debitkarte. </strong>  In der Vorschau kann ein Spread plus eine Coinbase-Gebühr angezeigt werden, die an die Karte gebunden ist. Der Bitcoin, den Sie erhalten, beträgt weniger als 1.000 $ ÷ Spotpreis, da beide Teile aus dem herauskommen, was Sie bezahlen. Kartenkäufe sind bequem und gehören oft zu den teureren Optionen.
+2. <strong> Simple Buy wird von Ihrem Coinbase USD-Guthaben finanziert (ACH-Einzahlung zuerst). </strong>  Sie zahlen immer noch den Spread/die Gebühr für den einfachen Handel, vermeiden jedoch eine Kartengebühr. ACH-Einlagen benötigen in der Regel einige Werktage, um vollständig gecleart zu werden.
+3. <strong> Coinbase Advanced Limit Order als Hersteller. </strong>  Bei der veröffentlichten Intro-Maker-Rate von 0,50 % würde ein fiktiver Auftrag von 1.000 $ etwa 5 $ an Handelsgebühr anzeigen, wenn er als Maker ohne Spread ruht und ausfüllt. Sie müssen den Grenzpreis selbst festlegen und auf eine Füllung warten.
+
+Dies sind Illustrationen, keine Zitate. Coinbase berechnet die Live-Summe zur Bestellzeit. Lesen Sie immer die Vorschau.
+
+## So halten Sie die Gebühren niedrig, ohne die Dinge zu kompliziert zu machen
+
+1. Bevorzugen Sie Ach auf Ihr USD-Guthaben gegenüber einer Kredit- oder Debitkarte, wenn Sie warten können.
+2. Öffnen Sie den Gebühren-Tooltip in jeder Vorschau und vergleichen Sie einfach mit Erweitert für die gleiche Größe.
+3. Verwenden Sie im erweiterten Modus Limitbestellungen, auf die Sie warten möchten, wenn Sie den Herstellerpreis wünschen.
+4. Vermeiden Sie unnötige Konvertierungen (→Krypto-Krypto), wenn Sie nur USD oder Bitcoin benötigen; jede Konvertierung kann einen Spread einbetten.
+5. Wenn Sie häufig handeln, überprüfen Sie, ob die monatliche Gebühr von Coinbase One niedriger ist als die Handelsgebühren, die Sie tatsächlich zahlen.
+6. Größere wiederkehrende Einkäufe finden Sie in unseren Hinweisen zu [Dollar-Kosten-Mittelwertbildung](/articles/how-much-bitcoin-should-a-beginner-buy-dca),  damit die Gebühren keine kleinen Einkäufe verzehren.
+
+## Fazit
+
+Coinbase-Gebühren sind auf dem Vorschaubildschirm transparent, auch wenn es sich nicht um einen einzigen veröffentlichten Prozentsatz handelt. Anfänger zahlen in der Regel zu viel, indem sie mit einer Karte auf dem einfachen Bildschirm kaufen, ohne den Tooltip zu überprüfen. Advanced Trade ist mehr Arbeit, aber sein veröffentlichter Maker/Taker-Zeitplan und der Mangel an Spread machen die Kosten einfacher zu vergleichen. Beginnen Sie mit einem Betrag, den Sie sich leisten können, lesen Sie jede Vorschauzeile und skalieren Sie erst dann.
+
+Wenn Sie bereit sind, ein Konto zu eröffnen, können Sie [melden Sie sich bei Coinbase an](REF)  {{#ref}}über unseren Empfehlungslink{{/ref}}  und unserem [schritt-für-Schritt-Anleitung für den ersten Bitcoin](/articles/how-to-buy-first-bitcoin-coinbase)  folgen . Für die Sicherheitsgrundlagen lesen Sie zuerst [Ist Coinbase für Anfänger sicher?](/articles/is-coinbase-safe-for-beginners) .
+
+!faq
+
+## FAQ
+
+### Erhebt Coinbase eine Pauschalgebühr für den Kauf von Bitcoin?
+
+Nein. Einfache Käufe verwenden einen variablen Spread innerhalb des angegebenen Preises zuzüglich der Coinbase-Gebühr, die in der Vorschau angezeigt wird. Advanced Trade verwendet Maker-/Taker-Prozentsätze pro Stufe anstelle eines Spreads.
+
+### Was ist die Coinbase Advanced-Gebühr für Anfänger?
+
+Der öffentliche Advanced-VIP-Tisch von Coinbase listet die Intro-Spot-Stufe mit 0,50 % Maker und 0,90 % Taker auf. Dein Live-Level in der App ist maßgeblich, und die Preise fallen mit höherem 30-Tage-Volumen oder qualifizierten USDC-Guthaben.
+
+### Lohnt sich Coinbase One für Gebühren?
+
+Dies kann der Fall sein, wenn Ihre monatlichen einfachen Handelsgebühren die Abonnementkosten übersteigen würden. Es werden nicht alle Kosten beseitigt: Spreads können immer noch angezeigt werden, und die einfache Limit-Order-Gebühr von 1 % und die Dex-Service-Gebühren sind vom Null-Gebühren-Vorteil ausgeschlossen.
+
+### Warum unterscheidet sich meine Coinbase-Gebühr von der eines Freundes?
+
+Coinbase sagt, dass die Gebühren je nach Zahlungsmethode, Auftragsgröße, Marktbedingungen, Standort, Vermögenswert und Tests, die je nach Region durchgeführt werden, variieren können. Zwei ähnliche Bestellungen können unterschiedliche Summen anzeigen.
+
+### Zahle ich Gebühren, um USD an meine Bank abzuheben?
+
+ACH-Abhebungen sind auf Seiten von Coinbase oft kostenlos, dauern aber mehrere Werktage. Sofortige Auszahlungen an berechtigte Karten oder RTP-Banken können mit einer Geschwindigkeitsgebühr verbunden sein. Überprüfen Sie immer die Auszahlungsvorschau.
+
+!soft: Als nächstes lernen Sie die genauen Schritte zu  [bitcoin verkaufen und USD auf Ihre Bank überweisen](/articles/how-to-cash-out-bitcoin-coinbase-to-bank) .
+
+!end_cta
+
+!disclosure

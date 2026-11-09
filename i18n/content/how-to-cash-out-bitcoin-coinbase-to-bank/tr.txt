@@ -1,0 +1,115 @@
+title: Coinbase'de Bitcoin'i bankanıza nasıl nakde çevirirsiniz (ABD adımları, zamanlama ve vergiler)
+page_title: Coinbase'de Bitcoin'i bankanıza nasıl nakde çevirirsiniz?
+description: Coinbase'de bitcoin nasıl satılır ve bir ABD bankasına USD nasıl çekilir: ACH zamanlaması, anında para çekme, izlenmesi gereken ücretler ve IRS temelleri yeni başlayanlar tarafından kaçırılır.
+og_description: BTC'yi Coinbase USD bakiyenize satın, ardından zamanlama, ücretler ve kısa bir vergi kontrol listesi ile bankanıza çekin.
+label: Başlangıç kılavuzu
+summary: ABD'li kullanıcılar için adım adım: Coinbase nakit bakiyenize bitcoin satın, ACH veya anında para çekme yoluyla bağlantılı bir bankaya para çekin ve vergi bildiriminin temellerine dikkat edin.
+===
+
+Coinbase'de bitcoin bozdurmak iki ayrı eylemdir: önce <strong>, </strong> bitcoin'i Coinbase içinde ABD dolarına satar, sonra <strong> bu dolarları bağlı bir banka hesabına çeker. Yeni başlayanlar genellikle ikisini karıştırır ve neden "satmanın" çek hesaplarına henüz para yatırmadığını merak eder. Bu kılavuz, ABD'li kullanıcılar için Coinbase adımlarını, tipik zamanlamayı, izlenecek ücretleri ve satış yaptığınızda geçerli olan IRS noktalarını kapsar.
+
+!takeaways
+- Coinbase'de bitcoin satmak, <strong> Coinbase USD nakit bakiyenize değer katar. Kendi başına bankanıza para yatırmaz.
+- Standart bir ABD bankası para çekme işlemi <strong> ACH </strong> kullanır ve genellikle başlattıktan sonra <strong> 3 -5 iş günü sürer </strong>, Coinbase Yardımı başına.
+- Uygun kullanıcılar, <strong> anında para transferi </strong>'yi belirli kartlara veya RTP özellikli bankalara ücret karşılığında ve daha hızlı varış için kullanabilir.
+- ABD vergileri için IRS, dijital varlıkları <strong> mülk </strong> olarak ele almaktadır. USD karşılığında bitcoin satmak genellikle bildirmeniz gereken vergilendirilebilir bir elden çıkarmadır.
+
+## Başlamadan önce
+
+1. Kimlik doğrulamasını tamamlayın ve Coinbase ödeme yöntemlerinde bir ABD banka hesabını bağlayın.
+2. Coinbase uygulamasını güncelleyin veya kendi yazdığınız resmi web sitesini kullanın.
+3. Satmayı planladığınız bitcoin bakiyesinin mevcut olduğunu onaylayın (bekleyen bir para yatırma işlemi için tutulmaz).
+4. Bu hafta (ACH) veya daha erken (uygunsa anında nakde çevirme) bankanızda dolara ihtiyacınız olup olmadığına karar verin.
+
+Henüz bir hesabınız yoksa, [coinbase'i aç](REF) {{#ref}}referans bağlantımızla{{/ref}} ve [ilk bitcoin rehberi](/articles/how-to-buy-first-bitcoin-coinbase)'de satın alma tarafını öğrenebilirsiniz.
+
+## 1. Adım: Bitcoin'i USD'ye (USDC'ye değil) satın
+
+Coinbase, [istediğiniz zaman nakit bakiyenize kripto para satabilirsiniz](L1) yapabileceğini  söylüyor . Web sitesinde: Sat'ı seçin, Bitcoin'i ve tutarı seçin, varış noktasını yerel para birimi bakiyenize (USD) ayarlayın, siparişi inceleyin ve ardından onaylayın. Mobil uygulamada yol, aynı inceleme ekranına sahip → Al ve Sat'dır.
+
+Önemli bilgi: Amacınız banka havalesi ise <strong> USD </strong> olarak satın. USDC'ye satış yapmak, bankanızın normal bir ACH kredisi olarak almayacağı bir stablecoin'e sahip olmanızı sağlar. Satış tamamlandıktan sonra, dolarlar Coinbase nakit bakiyenizde yer alır.
+
+Satış bir işlemdir, bu nedenle önizlemede  gösterilen [spread ve herhangi bir Coinbase ücreti](L4) geçerlidir. Tam ücret dökümü için bkz. [Coinbase ücretleri açıklandı](/articles/coinbase-fees-explained) .
+
+!howto
+
+## 2. adım: USD'yi bankanıza çekin
+
+USD bakiyenizden Nakde Çevir veya Para Çek'i seçin, tutarı girin ve doğrulanmış banka hesabınızı seçin.
+
+<strong> Standart ACH (çoğu yeni başlayanlar): </strong> Coinbase, ABD'li müşterilerin banka havaleleri için ACH sistemini kullandığını ve ACH'nin para çekmeye başladıktan sonra genellikle <strong> 3 -5 iş günü içinde </strong> aldığını açıklar. İş günleri normal banka saatlerinde Pazartesi - Cuma'dır; akşamlar, hafta sonları ve resmi tatiller sayılmaz. Coinbase, şirketin San Francisco merkezli olduğunu ve ACH transferlerinin genellikle Pasifik Saati iş gününün sonunda tamamlandığını belirtiyor. Tüketici nakde çevirme yolunda ACH </strong> için genellikle <strong> Coinbase ücreti yoktur, ancak her zaman önizlemeyi onaylayın.
+
+<strong> Anında para transferi (uygunsa): </strong> Coinbase'den [anında para transferi yardım sayfası](L3), uygun ABD'li müşterilerin RTP özellikli bir bankaya USD veya USDC gönderebileceğini (işlem başına 100.000 $ olarak belirtilen limit) veya belirli Visa Fast Funds / Mastercard Send kartlarına para transferi yapabileceğini söylüyor. Anında banka veya kartla para transferi, banka veya kart ağına bağlı olarak yaklaşık 30 dakika ve 24 saate kadar sürebilir ve standart işlem ücretleri uygulanır.
+
+!figure:timing
+
+!mid_cta
+
+## Bir satış veya geri çekilme neden "sıkışmış" hissedebilir?
+
+Coinbase, [satışlar neden zaman alabilir?](L2)'de ayrı bir not yayınlıyor . ABD'li kullanıcılar için ACH, bir bankaya giden olağan yoldur ve 3 -5 iş günü aralığı normaldir, dondurulmuş bir hesap değildir. Akşam verilen siparişler bir sonraki iş gününe kadar ACH'ye başlamayabilir. İşlem bilgileriniz, hafta sonlarını ve tatilleri zaten hesaba katan tahmini bir tamamlanma tarihini gösterir.
+
+Bu süreden sonra para gelmediyse, banka hesabının hala doğrulanıp doğrulanmadığını, adın Coinbase profilinizle eşleşip eşleşmediğini kontrol edin ve yalnızca resmi uygulama veya web sitesi aracılığıyla Coinbase desteğiyle iletişime geçin.
+
+## Nakde çevirdiğinizde izlenecek ücretler
+
+1. <strong> Satış tarafı işlem maliyeti. </strong> Bitcoin → USD satışının önizlemesine spread ve herhangi bir Coinbase ücreti dahildir.
+2. <strong> Nakde çevirme yöntemi ücreti. </strong>  ACH genellikle Coinbase tarafında ücretsizdir; anlık kart veya RTP para çekme işlemleri hız için ücret alabilir.
+3. <strong> Bankanız. </strong> Çoğu ABD bankası ACH almak için ücret almaz, ancak havale veya gelen anlık ödemeler alabilir. Bankanızla görüşün.
+4. <strong> Küçük bakiyeler. </strong> Coinbase'de birkaç dolar bırakmak, tekrar satın almayı planlıyorsanız sorun değil; aksi takdirde satış tamamlandıktan sonra ihtiyacınız olanı çekin.
+
+## Yeni başlayanların kaçırdığı ABD vergi temelleri
+
+Bu eğitimdir, vergi tavsiyesi değil. Durumunuz hakkında bir vergi uzmanıyla konuşun.
+
+IRS [dijital varlıklar para birimi değil mülktür](L5) diyor . Bitcoin'i USD karşılığında sattığınızda, genellikle aldığınız ile maliyet temeliniz (belirli ücretler de dahil olmak üzere ödediğiniz) arasındaki farka eşit bir sermaye kazancınız veya kaybınız olur. Bitcoin'i satmadan tutmak genellikle tek başına kazanç sağlamaz. Kriptoyu kontrol ettiğiniz cüzdanlar arasında taşımak, IRS'nin elden çıkarma olarak kabul ettiği kriptoda bir ağ ücreti ödemediğiniz sürece genellikle bir satış değildir.
+
+Sermaye varlığı olarak tuttuğunuz dijital varlıkları sattıysanız veya takas ettiyseniz, IRS sizi [Form 8949](L6) ve ilgili Çizelge D raporlamasına yönlendirir. Komisyoncular, 1 Ocak 2025 'te veya sonrasında yapılan işlemler için Form 1099 - DA'da belirli dijital varlık gelirlerini bildirmeli ve 1 Ocak 2026' da veya sonrasında edinilen varlıkların bazı satışları için aşamalı olarak raporlama yapmalıdır. Bir form bekleseniz bile satın alma tarihleri, tutarları ve gelirleri ile ilgili kendi kayıtlarınızı tutun.
+
+Form 1040 'taki dijital varlıklar sorusunu vergi yılı için dürüstçe yanıtlayın. Bitcoin'i dolar ile satın almak ve sadece elinde tutmak, o yıl için Hayır cevabı vermek anlamına gelebilir; satmak, takas etmek veya harcamak genellikle Evet anlamına gelir.
+
+!figure:tax
+
+## Yaygın Hatalar
+
+- Sat düğmesinin tek adımda bankanıza para yatırması bekleniyor.
+- ACH için USD'ye ihtiyacınız olduğunda USDC'ye satış.
+- Haftalar önce bir bankamatik kartı alımı kullanmak, ardından çıkışta spread satışına şaşırmak — gidiş — dönüş maliyetleri artar (bkz. [ücretler rehberi](/articles/coinbase-fees-explained)).
+- Kârlı bir satışta vergi lotlarını göz ardı etmek.
+- Nakde çevirirken "güvenli bir cüzdana" bitcoin göndermenizi isteyen telefon "desteğine" kapılan Coinbase bunu istemeyecektir.
+
+## Sözün özü
+
+ABD'li yeni başlayanlar için güvenilir yol şudur: Coinbase USD bakiyenize bitcoin satmak, ardından ACH ile para çekmek ve birkaç iş günü beklemek. Anında para transferi özelliğini yalnızca hıza ihtiyacınız olduğunda kullanın ve ücreti kabul edin. Her önizlemeyi okuyun, vergiler için kayıt tutun ve fiyat riskini para çekme zamanlamasından ayrı olarak ele alın.
+
+Önce küçük bir miktarla pratik yapmaya hazır mısınız?  [Coinbase hesabı oluşturun](REF)  {{#ref}}referans bağlantımız aracılığıyla{{/ref}} , ardından satmaya hazır olduğunuzda bu sayfayı tekrar ziyaret edin. Hala coin ve fon arasında karar veriyorsanız, [bitcoin ETF vs bitcoin satın alma](/articles/bitcoin-etf-vs-buying-bitcoin)'yi okuyun .
+
+!faq
+
+## SSS
+
+### Coinbase'in bankama para göndermesi ne kadar sürer?
+
+Coinbase, USD çektikten sonra ACH'nin genellikle 3 -5 iş günü sürdüğünü söylüyor. Gerekli şartları karşılayan bankalara veya kartlara anında para transferi yapmak çok daha hızlı olabilir ancak bir ücrete mal olabilir.
+
+### Bitcoin'i doğrudan banka hesabıma çekebilir miyim?
+
+Hayır. Bankalar bitcoin değil dolar (veya bazen başka bir fiat) alırlar. Önce Coinbase'de BTC'yi USD'ye satın, ardından USD'yi çekin.
+
+### Bitcoin'i nakde çevirmek ABD'de vergilendirilebilir mi?
+
+Bitcoin'i USD karşılığında satmak genellikle vergilendirilebilir bir mülk imhasıdır. Kazancınız veya kaybınız, temelinize ve kazancınıza bağlıdır. IRS dijital varlıklar sayfası ve bir vergi uzmanıyla ayrıntıları onaylayın.
+
+### Coinbase bakiyem neden satılabilir ancak çekilemez?
+
+Bekleyen para yatırma, menkul kıymet bekletme veya ödeme kuralları, bir bakiye göründüğünde bile para çekme işlemlerini sınırlayabilir. Hesabınız için işlemin mevcut tarihini ve Coinbase'in limitlerini kontrol edin.
+
+### Hepsini tek seferde mi yoksa parça parça mı satmalıyım?
+
+Bu kişisel ve vergisel bir karardır. Parçalar halinde satış yapmak, birden fazla lot ve birden fazla önizleme ücreti oluşturabilir. [DCA kılavuzu](/articles/how-much-bitcoin-should-a-beginner-buy-dca), parça parça satın almayı kapsar; satış stratejisi hedeflerinize ve vergi durumunuza bağlıdır.
+
+!soft: [Coinbase ücretleri açıklandı](/articles/coinbase-fees-explained)'de satış yapmadan önce işlem maliyetlerini karşılaştırın .
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,125 @@
+title: Bitcoin ETF ve bitcoin satın alma karşılaştırması: ABD'de yeni başlayanlar için hangisi mantıklı?
+page_title: Bitcoin ETF ve bitcoin satın alma karşılaştırması
+description: Bitcoin ETF'sini Coinbase'de satın almakla karşılaştırın: saklama, ücretler, IRA erişimi, vergiler ve her yol ABD'de yeni başlayanlara uygun olduğunda — yutturmaca olmadan.
+og_description: Spot bitcoin ETF'lerinin ve doğrudan bitcoin sahibi olmanın net bir karşılaştırması: kontrol, maliyetler, emeklilik hesapları ve vergiler.
+label: Başlangıç kılavuzu
+summary: Spot bitcoin ETF'leri, bir aracı kurum hesabında fiyat riski verir. Bitcoin satın almak size varlığın kendisini verir. ABD'li yeni başlayanlar velayet, ücretler, IRA'lar ve vergileri nasıl karşılaştırabilir?
+===
+
+Ocak 2024 'ten bu yana, ABD'li yatırımcılar normal bir aracı kurum hesabından [spot bitcoin borsada işlem gören ürünler](L1) satın alabiliyorlar. Bu yeni bir başlangıç sorusu yarattı: Bitcoin ETF'si mi yoksa Coinbase gibi bir borsada bitcoin mi satın almalısınız? Her ikisi de Bitcoin'in fiyatını geniş aralıklarla takip ediyor. Bunlar aynı ürün değildir. Bu kılavuz, kasıtlı olarak seçim yapabilmeniz için velayet, ücretler, hesap türleri, vergiler ve pratik takasları karşılaştırır.
+
+!takeaways
+- <strong> spot bitcoin ETF </strong> (genellikle ETP olarak adlandırılır), bitcoin'i bir fonun içinde tutar. Paralara değil, fon hisselerine sahipsiniz.
+- <strong> Coinbase'de (veya başka bir yerde) Bitcoin </strong> satın almak, BTC'yi bir saklama hesabında tuttuğunuz veya kendi cüzdanınıza çektiğiniz anlamına gelir.
+- ETF'ler genellikle IRA'larda ve vergilendirilebilir aracı kurumlarda daha kolaydır; doğrudan bitcoin, öz gözetim veya zincir içi kullanım istiyorsanız yoldur.
+- Hiçbir ürün piyasa riskini ortadan kaldırmaz. FINRA, kripto fiyatlarının keskin bir şekilde düşebileceği ve para kaybedebileceğiniz konusunda uyarıyor.
+
+## Bitcoin ETF aslında bir spot nedir?
+
+10 Ocak 2024 'te ABD Menkul Kıymetler ve Borsa Komisyonu, birkaç spot bitcoin borsasında işlem gören ürünün listelenmesini onayladı. Sade bir İngilizceyle, fon bitcoin satın alır ve tutar; piyasa saatlerinde bir broker aracılığıyla fonun hisselerini satın alırsınız. Hisse fiyatı, fonun sahip olduğu bitcoin değerini, eksi fon giderlerini ve takip farklılıklarını takip etmeyi amaçlamaktadır.
+
+Fidelity'nin açıklayıcısı, spot bitcoin ETP'lerinin siz cüzdan veya anahtar tutmadan portföye maruz kaldığını ve ücretlerin, yeniden dengelemenin ve diğer sürtüşmelerin, ürünün bitcoin fiyatını bire bir mükemmel bir şekilde takip etmeyeceği anlamına geldiğini belirtiyor.
+
+Bitcoin ağında ETF hisseleri gönderemez, bunları bitcoin olarak harcayamaz veya bir donanım cüzdanına taşıyamazsınız. Ayrılmak istediğinizde aracılığınızdaki hisseleri satarsınız.
+
+!figure:compare
+
+## “Bitcoin satın almak” ne anlama gelir?
+
+Coinbase'den bitcoin satın aldığınızda, varlığın kendisini satın alırsınız. İlk başta genellikle Coinbase'in saklama cüzdanında bulunur (Coinbase anahtarları tutar). Orada bırakabilir veya kontrol ettiğiniz bir öz gözetim cüzdanına çekebilirsiniz. Bu ikinci adım [cüzdan rehberi](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)'de ele alınmıştır .
+
+Doğrudan mülkiyet, insanların “bitcoin tutmak” ile kastettiği şeydir. "Aynı zamanda borsa hesabı riskini, para çekme ağı ücretlerini ve öz gözetiminiz varsa tohum cümle sorumluluğunu üstlendiğiniz anlamına gelir.
+
+## Yan yana karşılaştırma
+
+| Konu | Spot bitcoin ETF | Bitcoin satın alma (örneğin Coinbase'de) |
+| --- | --- | --- |
+| Sahip olduklarınız | Fon payları | Bitcoin (vesayet veya öz gözetim) |
+| Anahtarları kim tutar | Sandık emini | Takas veya siz |
+| Yaşadığı yer | Aracılık / Ira / 401(k) teklif edilirse | Borsa hesabı veya kişisel cüzdan |
+| İşlem saatleri | Borsa saatleri | Kripto mekanlarında 7/24 |
+| Devam eden ücret | Fon gider oranı (izahnameyi kontrol ediniz) | Tutmak için genellikle 0 $ ödersiniz; oraya ulaşmak için işlem / ağ ücretleri ödediniz |
+| Zincir içi kullanım | Hayır | Evet, çekildikten sonra |
+| Tipik vergi formları | Hisse satışları için Broker 1099 - B tarzı raporlama | Dijital varlık raporlama; brokerler 2025 'ten itibaren birçok satış için Form 1099 - DA'yı kullanır |
+
+Gider oranları değişir. Her zaman dikkate aldığınız herhangi bir gösterge için mevcut izahnameyi okuyun (yatırımcıların sıklıkla karşılaştırdığı örnekler arasında BlackRock, Fidelity veya Ark/21Shares gibi büyük spot ürünler bulunur). Geçen yıl ezberlediğiniz bir ücrete güvenmeyin.
+
+!figure:custody
+
+!mid_cta
+
+## Ücretler: farklı şekiller, toplamları karşılaştırmak için aynı ihtiyaç
+
+<strong> ETF yolu. </strong> Hisse senedi alım satımı yaptığınızda esas olarak fonun yıllık gider oranını (fon varlıklarından alınan) ve ayrıca herhangi bir aracılık komisyonunu veya alış - satış marjını ödersiniz. Birçok büyük ABD'li broker, ETF işlemlerinde 0 $ çevrimiçi komisyon alır, ancak masraf oranı her yıl sessizce artar.
+
+<strong> Doğrudan bitcoin yolu. [Coinbase ücretleri açıklandı](/articles/coinbase-fees-explained) ve Coinbase'in [ücret açıklamaları](L6) belgelerinde açıklandığı gibi, </strong> Coinbase alış ve satışları spread ve/veya maker - taker ücretleri üzerinden ücretlendirir. Bitcoin'i Coinbase'de tutmak, standart bakiyeler için günlük bir saklama ücreti talep etmez, ancak zincirden para çekmek bir ağ ücretine ve daha sonra tekrar satmaya mal olur.
+
+Kaba bir sezgi: Bir emeklilik hesabında sık sık küçük ETF satın alımları daha basit olabilir; tek seferlik bir bitcoin satın alma işlemi, yıllarca kendi kendini gözetim altında tutmayı planlamanızı sağlar, tekrarlayan bir fon ücretinden kaçınır, ancak güvenli anahtar yönetimine ihtiyaç duyar.
+
+## Vergiler ve hesap türleri (ABD)
+
+IRS, [mülk olarak dijital varlıklar](L3)'yi  değerlendirir . Bitcoin satmak veya sermaye varlığı olarak sahip olduğunuz ETF hisselerini satmak, bildirdiğiniz sermaye kazançları veya kayıpları yaratabilir (genellikle [Form 8949](L4) aracılığıyla). Her ikisini de satmadan tutmak genellikle kendi başına kazanç yaratmaz.
+
+Yeni başlayanların hissettiği pratik farklılıklar:
+
+- <strong> Emeklilik hesapları. </strong>  Spot bitcoin ETF'leri IRA'larda ve bazı 401(k) menülerde yaygın olarak bulunur. Emeklilik paketi içinde gerçek bitcoin satın almak genellikle özel bir emanetçiye ihtiyaç duyar ve daha karmaşıktır.
+- <strong> Vergilendirilebilir hesaplar. </strong>  ETF satışları genellikle tanıdık aracı kurum formlarında görünür. Doğrudan bitcoin satışları, 1 Ocak 2025 'te veya sonrasında işlemler için saklama brokerlerinden gelen Form 1099 - DA'yı giderek daha fazla içerir ve bazı lotlar için daha sonra aşamalı olarak raporlama yapılır. Her halükarda kendi satın alma kayıtlarınızı tutun.
+- <strong> Aynı piyasa riski. </strong>  Tercihli uzun vadeli sermaye kazançları oranları, hem sermaye varlıkları oldukları bir yıldan fazla bir bekletme süresinden sonra uygulanabilir — ETF, sadece bir ETF olduğu için otomatik olarak "daha vergi açısından verimli" değildir.
+
+Bu vergi tavsiyesi değildir. Bir uzmanla ve yukarıda bağlantısı verilen IRS sayfalarıyla onaylayın.
+
+## Her yolun uyduğu kişi
+
+<strong> Eğer: </strong>
+
+- Zaten bir aracı kuruma veya IRA'ya yatırım yapın ve hisse senetleri ve tahvillerin yanında bitcoin fiyat riskinin olmasını isteyin.
+- Cüzdanları, tohum ifadelerini yönetmek veya para çekme işlemlerini takas etmek istemiyorum.
+- Standart aracı kurum beyanlarını ve tanıdık satış düğmelerini tercih edin.
+
+<strong> Bitcoin satın almayı düşünün: </strong>
+
+- Öz gözetim veya zincir içi transferler seçeneğini tercih edin.
+- Bir fon payını değil, varlığın kendisini elinizde tutmayı önemseyin.
+- Rahat öğrenme değişim ücretleri, güvenlik ayarları ve (daha sonra) cüzdan yedeklemeleridir.
+
+<strong> Birçok yeni başlayan, zaman içinde her ikisini de yapar: </strong>, bir IRA'da küçük bir ETF pozisyonu ve Bitcoin'in nasıl hareket ettiğini öğrenmek için kullandıkları küçük bir Coinbase satın alımı — ardından [Coinbase yeni başlayanlar için güvenli mi?](/articles/is-coinbase-safe-for-beginners)'deki güvenlik kontrol listemizi okuyun.
+
+## Her ikisi için de geçerli olan riskler
+
+FINRA, yatırımcılara [kripto varlık fiyatları değişken](L5)'yi, anaparayı kaybedebileceğinizi ve dolandırıcılıkların yaygın olduğunu hatırlatır. ETF, fiyat riskini ortadan kaldırmaz. Doğrudan bitcoin operasyonel riskler (kayıp anahtarlar, kimlik avı, borsa olayları) ekler. Bitcoin'in fiyatındaki düşüşe karşı FDIC de sigortalı değil.
+
+## Sözün özü
+
+Spot bitcoin ETF'si genellikle "Aracı kurumumda veya IRA'mda bitcoin'in fiyatını istiyorum" ifadeleri için daha basit bir ABD başlangıç yoludur. ”Bitcoin satın almak,“ Bitcoin'in kendisini istiyorum ve velayeti öğreneceğim. "Bekletme sürenizdeki ücretleri karşılaştırın, ürünü kullanacağınız hesapla eşleştirin ve yalnızca SWING'i görmek için karşılayabileceğiniz parayı yatırın.
+
+Doğrudan rotayı seçerseniz, [coinbase hesabı açın](REF) {{#ref}}referans bağlantımız aracılığıyla{{/ref}}'yi takip edebilir ve [ilk bitcoininizi nasıl satın alabilirsiniz?](/articles/how-to-buy-first-bitcoin-coinbase)'yi takip edebilirsiniz. Daha sonra dolar karşılığında coin satarsanız, [nakde çevirme kılavuzu](/articles/how-to-cash-out-bitcoin-coinbase-to-bank)'yi  kullanın .
+
+!faq
+
+## SSS
+
+### Bitcoin ETF'si, bitcoin sahibi olmakla aynı şey midir?
+
+Hayır. Bitcoin tutan bir fonun hisselerine sahipsiniz. Zincir içi bitcoin'i veya bir tohum ifadesini kontrol edemezsiniz.
+
+### SEC, spot Bitcoin ETF'lerini onayladı mı?
+
+Evet. 10 Ocak 2024 'te SEC, borsada işlem gören birkaç spot bitcoin ürününün listelemesini onayladı. Bu, bitcoin'in bir yatırım olarak onaylanması değildir.
+
+### Hangisinde daha düşük ücretler var: ETF mi yoksa Coinbase mi?
+
+Bekletme süresine ve işlem büyüklüğüne bağlıdır. ETF'ler devam eden bir gider oranı talep eder; Coinbase işlem yaptığınızda (ve zincir içi gönderimler için) ücret alır. Kendi önizleme ekranlarınızı ve fon prospektüsünüzü karşılaştırın.
+
+### Roth IRA'da bitcoin ETF tutabilir miyim?
+
+Birçok ABD aracı kurumu, firmanın ürün listesine tabi olarak Roth IRA'lar da dahil olmak üzere IRA'lar içinde spot bitcoin ETF hisselerine izin verir. Koruyucunuzu kontrol edin. Bir IRA'da gerçek bitcoin satın almak farklı, genellikle daha sınırlı bir kurulumdur.
+
+### Hem fiyat gösterimi hem de öz gözetim istersem ne olur?
+
+Bazı insanlar bir emeklilik hesabında ETF tutar ve ayrı olarak bir cüzdana çektikleri daha az miktarda bitcoin satın alırlar. Bu, hedefleri böler; aynı zamanda operasyonel çalışmayı da ikiye katlar.
+
+!soft: Coinbase'de yeni misiniz? [coinbase'de ilk bitcoininizi nasıl satın alabilirsiniz?](/articles/how-to-buy-first-bitcoin-coinbase) ile  başlayın .
+
+!end_cta
+
+!disclosure
