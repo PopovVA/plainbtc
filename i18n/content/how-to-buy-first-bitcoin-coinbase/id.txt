@@ -1,0 +1,62 @@
+title: Cara membeli bitcoin pertama Anda di Coinbase (panduan pemula di AS)
+page_title: Cara membeli bitcoin pertama Anda di Coinbase
+description: Panduan pemula di AS: buat akun Coinbase, verifikasi identitas, tambahkan metode pembayaran, dan beli bitcoin pertama Anda langkah demi langkah.
+og_description: Panduan jelas untuk mendaftar, verifikasi, mengisi dana, dan melakukan pembelian bitcoin pertama dalam jumlah kecil di Coinbase.
+label: Panduan pemula
+summary: Panduan langkah demi langkah: buat akun, verifikasi identitas, tambahkan metode pembayaran, lakukan pembelian pertama dalam jumlah kecil, dan perhatikan biaya serta keamanan.
+===
+
+Membeli bitcoin untuk pertama kali tidak harus terasa seperti belajar bahasa baru. Panduan ini menjelaskan prosesnya untuk warga yang tinggal di Amerika Serikat: jika Anda ingin bursa teregulasi dengan verifikasi identitas, [Coinbase](REF) adalah salah satu titik awal yang paling umum, tetapi ketersediaan layanan, metode pembayaran, dan persyaratannya berbeda di tiap negara. Bitcoin tersedia untuk dibeli di bursa terpusat Coinbase, dan pembelian dapat didanai dengan metode yang disetujui seperti rekening bank, kartu debit, atau transfer kawat (ketersediaan bergantung pada akun dan wilayah Anda).{{#ref}} Tautan Coinbase di atas adalah tautan referral.{{/ref}}
+
+Panduan ini menelusuri urutan praktisnya: membuat akun, memverifikasi identitas, menghubungkan dana, menempatkan order pertama dalam jumlah kecil, dan menghindari beberapa kesalahan umum pemula. Isinya bersifat edukatif, bukan rekomendasi untuk membeli kripto dalam jumlah berapa pun.
+
+## 1. Buat akun Coinbase Anda
+
+Anda dapat mendaftar lewat browser atau aplikasi seluler Coinbase. Pusat bantuan Coinbase menjelaskan alur yang lazim: masukkan email, konfirmasi kode verifikasi, buat kata sandi, masukkan nama depan dan belakang legal Anda sebagaimana tertera di identitas resmi, lalu verifikasi nomor telepon dengan kode SMS. Anda juga dapat memulai dengan login Apple atau Google jika tersedia.
+
+Gunakan alamat email yang akan Anda kuasai dalam jangka panjang. Aktifkan autentikasi dua faktor segera setelah produk memintanya — email saja tidak cukup aman untuk akun yang akan menyimpan uang atau kripto.
+
+## 2. Selesaikan verifikasi identitas
+
+Platform keuangan AS diwajibkan mengumpulkan informasi pribadi untuk memvalidasi identitas. Coinbase meminta Anda mengonfirmasi bahwa Anda memenuhi persyaratan usia (18+ di AS), memilih kewarganegaraan, memberikan data identitas (termasuk informasi nomor Jaminan Sosial sesuai permintaan), dan memastikan informasi pribadi Anda cocok dengan kartu identitas berfoto yang diterbitkan pemerintah. Siapkan dokumen itu; verifikasi dapat memakan waktu beberapa menit atau lebih lama, tergantung antrean peninjauan dan kualitas dokumen.
+
+Tips: tulis nama Anda persis seperti di kartu identitas. Ketidakcocokan adalah salah satu penyebab paling umum tertundanya verifikasi pertama.
+
+!mid_cta
+
+## 3. Tambahkan metode pembayaran
+
+Setelah Anda bisa bertransaksi, hubungkan sumber dana. Panduan pembelian Coinbase mencantumkan rekening bank, kartu debit, dan transfer kawat di antara opsi yang disetujui. Bagi banyak pemula di AS, menautkan rekening bank (ACH) berguna untuk pembelian yang lebih besar atau berulang, sedangkan kartu debit bisa lebih cepat untuk pembelian pertama dalam jumlah kecil — sering kali dengan biaya lebih tinggi. Coinbase menampilkan rincian biaya di layar pratinjau order sebelum Anda mengonfirmasi.
+
+Catatan dari halaman cara membeli Bitcoin di Coinbase: saat ini, kartu kredit tidak dapat digunakan untuk membeli bitcoin di Coinbase. Pelanggan di AS mungkin punya opsi tambahan seperti PayPal untuk aset yang didukung; ketersediaan bergantung pada wilayah dan aturan produk.
+
+## 4. Lakukan pembelian bitcoin pertama Anda
+
+Di situs web, dokumentasi bantuan Coinbase menguraikan jalur yang lugas:
+
+1. Pilih <strong>Buy</strong> (Beli) di beranda Coinbase (atau Buy & Sell di aplikasi).
+2. Masukkan jumlah yang ingin dibelanjakan dalam dolar — atau beralih ke jumlah dalam bitcoin.
+3. Pilih atau konfirmasi metode pembayaran Anda.
+4. Pilih Bitcoin (BTC) sebagai aset.
+5. Buka <strong>Review order</strong> (Tinjau order) dan periksa harga, jumlah, dan biaya.
+6. Jika semuanya sudah benar, pilih <strong>Buy now</strong> (Beli sekarang).
+
+Jumlah pembelian minimum bervariasi menurut aset dan metode pembayaran. Jika di bawah minimum, Coinbase akan memberi tahu Anda. Untuk transaksi pertama, banyak orang sengaja membeli dalam jumlah kecil agar bisa mempelajari antarmuka sebelum menambah nominal.
+
+## 5. Pahami biaya sebelum mengonfirmasi
+
+Coinbase menyatakan bahwa biaya dihitung saat Anda menempatkan order dan dapat bergantung pada lokasi, metode pembayaran, ukuran order, serta kondisi pasar seperti volatilitas dan likuiditas. Kebiasaan penting bagi pemula itu sederhana: selalu baca layar pratinjau. Di situlah Anda melihat total biaya sebelum dana berpindah.
+
+## 6. Setelah membeli: dasar-dasar penyimpanan dan keamanan
+
+Bitcoin Anda akan muncul di akun Coinbase setelah order diselesaikan. Untuk jumlah awal yang kecil, banyak orang menyimpan dana di bursa selagi belajar. Jika kepemilikan Anda bertambah, pelajari perbedaan antara kustodi di bursa dan kustodi mandiri (dompet perangkat keras, seed phrase, dan pemulihan). Jangan pernah membagikan kata sandi, kode 2FA, atau seed phrase Anda. Coinbase menyatakan hanya mengirim email konfirmasi dari alamat Coinbase yang valid — bersikaplah skeptis terhadap email “verifikasi akun Anda” yang tak terduga dan buka sendiri aplikasi atau situsnya alih-alih mengeklik tautan.
+
+## Cara tenang memulai di pekan yang bergejolak
+
+Pasar bergejolak hingga awal November 2026, dengan bitcoin diperdagangkan di sekitar pertengahan US$70.000-an setelah pergerakan tajam di akhir pekan. Volatilitas inilah alasan pemula sebaiknya memisahkan <em>mempelajari produk</em> dari <em>menentukan besar taruhan</em>. Gunakan jumlah yang sanggup Anda lihat naik-turun. Pertimbangkan apakah pembelian sekali atau pembelian berulang sesuai dengan rencana Anda. Dan ingat: membeli bitcoin spot di bursa tidak sama dengan memperdagangkan futures berleverage — tempat likuidasi menghapus lebih dari US$1 miliar posisi dalam kurun 24 jam terakhir.
+
+!soft: Ingin konteks pasar dulu? Baca [rangkuman hari ini tentang bitcoin yang jatuh di bawah rata-rata bergerak 50 minggu](/articles/bitcoin-loses-50-week-moving-average-nov-2026).
+
+!end_cta
+
+!disclosure

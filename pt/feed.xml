@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PlainBTC</title>
+    <link>https://plainbtc.com/pt/</link>
+    <description>Notícias de Bitcoin e criptomoedas em linguagem simples para iniciantes</description>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 09 Nov 2026 18:00:00 GMT</lastBuildDate>
+    <atom:link href="https://plainbtc.com/pt/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FinCEN e Fed abandonam o plano de reduzir a Travel Rule para US$ 250 — limite de US$ 3.000 continua</title>
+      <link>https://plainbtc.com/pt/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/pt/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+      <description>Reguladores dos EUA retiraram uma proposta de 2020 que reduziria para US$ 250 os limites de transferências internacionais e tiraria o texto específico sobre cripto. O que mudou — e o que não mudou.</description>
+    </item>
+    <item>
+      <title>Bitcoin perde a média móvel de 50 semanas enquanto liquidações de posições compradas passam de US$ 1 bilhão</title>
+      <link>https://plainbtc.com/pt/articles/bitcoin-loses-50-week-moving-average-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/pt/articles/bitcoin-loses-50-week-moving-average-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 17:45:00 GMT</pubDate>
+      <description>O BTC fechou abaixo de cerca de US$ 75.488 após sete semanas acima da linha, e a CoinGlass registrou US$ 1,15 bilhão em liquidações. O que significa o ponto de controle da Galaxy.</description>
+    </item>
+    <item>
+      <title>PNC Bank testa pagamentos em USDC com a Coinbase para clientes corporativos</title>
+      <link>https://plainbtc.com/pt/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/pt/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 17:30:00 GMT</pubDate>
+      <description>Empresas elegíveis podem receber USDC na Ethereum via Coinbase Payments, com conversão automática 1:1 para um depósito em dólares no PNC.</description>
+    </item>
+    <item>
+      <title>A gangorra do bitcoin no fim de semana: US$ 1 bi liquidados enquanto manchetes sobre a Nvidia atingem ativos de risco</title>
+      <link>https://plainbtc.com/pt/articles/bitcoin-volatility-liquidations-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/pt/articles/bitcoin-volatility-liquidations-nov-2026</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>O BTC chegou a cair para ~US$ 73.761 antes de retomar os US$ 75.000. O que provocou o movimento, quem foi liquidado e o que os traders acompanham agora.</description>
+    </item>
+    <item>
+      <title>Como comprar seu primeiro bitcoin na Coinbase (guia para iniciantes nos EUA)</title>
+      <link>https://plainbtc.com/pt/articles/how-to-buy-first-bitcoin-coinbase</link>
+      <guid isPermaLink="true">https://plainbtc.com/pt/articles/how-to-buy-first-bitcoin-coinbase</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Um passo a passo: crie uma conta, verifique sua identidade, adicione uma forma de pagamento, faça uma primeira compra pequena e fique de olho em taxas e segurança.</description>
+    </item>
+    <item>
+      <title>Depois das eleições de meio de mandato: saídas dos ETFs e regras cripto mais duras à frente?</title>
+      <link>https://plainbtc.com/pt/articles/us-midterms-crypto-regulation-etf-outflows</link>
+      <guid isPermaLink="true">https://plainbtc.com/pt/articles/us-midterms-crypto-regulation-etf-outflows</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Os ETFs de bitcoin à vista acabam de registrar sua maior saída semanal desde junho. Os mercados precificam incerteza regulatória enquanto os democratas se preparam para comandar o Congresso.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PlainBTC</title>
+    <link>https://plainbtc.com/ja/</link>
+    <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
+    <language>ja</language>
+    <lastBuildDate>Mon, 09 Nov 2026 18:00:00 GMT</lastBuildDate>
+    <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FinCENとFRB、トラベルルール「250ドル」案を撤回——3,000ドルの基準は維持</title>
+      <link>https://plainbtc.com/ja/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+      <description>米規制当局は、国際送金の基準額を250ドルに引き下げ、暗号資産に特化した文言を削除するという2020年の提案を撤回しました。何が変わり、何が変わらないのか。</description>
+    </item>
+    <item>
+      <title>ビットコインが50週移動平均線を割り込み、ロング清算は10億ドル超</title>
+      <link>https://plainbtc.com/ja/articles/bitcoin-loses-50-week-moving-average-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/bitcoin-loses-50-week-moving-average-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 17:45:00 GMT</pubDate>
+      <description>BTCは7週間上回っていた線を下回り、約7万5,488ドル未満で終えました。CoinGlassは11億5,000万ドルの清算を記録。Galaxyの「確認ライン」の意味を解説します。</description>
+    </item>
+    <item>
+      <title>PNC銀行、法人顧客向けにCoinbaseと組んでUSDC入金のパイロットを開始</title>
+      <link>https://plainbtc.com/ja/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 17:30:00 GMT</pubDate>
+      <description>対象企業はCoinbase Payments経由でEthereum上のUSDCを受け取れ、1対1でPNCのドル預金に自動換算されます。</description>
+    </item>
+    <item>
+      <title>ビットコイン、週末の乱高下：Nvidiaの報道がリスク資産を直撃し、10億ドルが清算</title>
+      <link>https://plainbtc.com/ja/articles/bitcoin-volatility-liquidations-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/bitcoin-volatility-liquidations-nov-2026</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>BTCは一時約7万3,761ドルまで下げた後、7万5,000ドルを回復しました。値動きの要因、清算された人たち、トレーダーが注目する点を解説します。</description>
+    </item>
+    <item>
+      <title>Coinbaseで初めてのビットコインを買う方法（米国の初心者向けガイド）</title>
+      <link>https://plainbtc.com/ja/articles/how-to-buy-first-bitcoin-coinbase</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/how-to-buy-first-bitcoin-coinbase</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>ステップごとの解説：アカウント作成、本人確認、支払い方法の追加、少額での初回購入、そして手数料とセキュリティの注意点。</description>
+    </item>
+    <item>
+      <title>中間選挙のあと：ETFの資金流出と、より厳しい暗号資産ルールが待っているのか？</title>
+      <link>https://plainbtc.com/ja/articles/us-midterms-crypto-regulation-etf-outflows</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/us-midterms-crypto-regulation-etf-outflows</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>現物ビットコインETFは、6月以来最大の週間流出を記録しました。民主党が議会を主導する見通しとなる中、市場は規制の不透明感を織り込んでいます。</description>
+    </item>
+  </channel>
+</rss>

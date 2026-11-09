@@ -1,0 +1,50 @@
+title: Bitcoin kehilangan rata-rata bergerak 50 minggu saat likuidasi posisi long tembus US$1 miliar
+page_title: Bitcoin kehilangan rata-rata bergerak 50 minggu
+description: Bitcoin ditutup di bawah rata-rata bergerak 50 minggunya untuk pertama kali dalam delapan minggu. CoinGlass mencatat likuidasi US$1,15 miliar; Galaxy mengingatkan bagaimana kegagalan merebut kembali level ini berakhir di masa lalu.
+og_description: BTC ditutup di bawah rata-rata 50 minggu sekitar US$75.488 setelah tujuh minggu berada di atasnya.
+label: Pasar
+summary: BTC ditutup di bawah sekitar US$75.488 setelah tujuh minggu di atas garis itu, sementara CoinGlass mencatat likuidasi US$1,15 miliar. Apa arti titik pantau Galaxy selanjutnya.
+===
+
+Bitcoin ditutup pada hari Minggu di bawah rata-rata bergerak 50 minggunya untuk pertama kali dalam delapan minggu, mengakhiri rentetan tujuh minggu di atas level yang oleh banyak pengamat grafik dianggap sebagai garis tren jangka menengah. The Block, mengutip riset Galaxy, menempatkan rata-rata itu di dekat <strong>US$75.488</strong>, dengan bitcoin menutup pekan sekitar <strong>0,7%</strong> di bawahnya. Memasuki Senin pagi, pasar sempat diperdagangkan di bawah <strong>US$74.000</strong> ketika posisi long berleverage kembali terhapus.
+
+Penembusan teknikal ini datang di atas arus dana yang sudah rapuh. ETF bitcoin spot AS mencatat arus keluar bersih mingguan sekitar <strong>US$1,28 miliar</strong> — yang terbesar sejak akhir Juni — dan berbalik negatif untuk 2026 dengan penebusan sekitar <strong>US$914,1 juta</strong> sepanjang tahun berjalan, lapor The Block. IBIT milik BlackRock saja kehilangan sekitar <strong>US$403 juta</strong> pada hari Jumat.
+
+!takeaways
+- BTC ditutup di bawah rata-rata bergerak 50 minggunya (~US$75.488) setelah tujuh minggu di atasnya.
+- CoinGlass mencatat likuidasi lebih dari US$1,15 miliar dalam 24 jam, sebagian besar posisi long.
+- Sekitar 167.764 trader terlikuidasi dalam periode itu; satu order terbesar adalah posisi long ETH sekitar US$48,2 juta di Binance.
+- Alex Thorn dari Galaxy mengatakan skenario bullish yang ia sampaikan pada Oktober tetap berlaku jika BTC merebut kembali rata-rata itu dalam sebulan.
+
+## Likuidasi menunjukkan bagaimana leverage memperbesar penembusan teknikal
+
+Data CoinGlass yang dilaporkan The Block menempatkan total likuidasi di atas <strong>US$1,15 miliar</strong> dalam 24 jam, termasuk sekitar <strong>US$1,04 miliar</strong> posisi long dan <strong>US$117 juta</strong> posisi short. Trader ether menyumbang lebih dari <strong>US$500 juta</strong> penjualan paksa, dibandingkan sekitar <strong>US$309 juta</strong> untuk bitcoin. Order tunggal terbesar adalah posisi long ETH-USDT senilai <strong>US$48,2 juta</strong> di Binance. CoinGlass menghitung <strong>167.764</strong> trader terlikuidasi pada periode tersebut. The Block mengingatkan bahwa data likuidasi tidak sempurna dan totalnya kemungkinan lebih rendah dari kenyataan ketika bursa melaporkan lonjakan secara tidak lengkap.
+
+Bagi pemegang spot — orang yang membeli bitcoin tanpa dana pinjaman — tembusnya rata-rata bergerak adalah sinyal, bukan panggilan margin otomatis. Yang paling terasa pada Minggu dan Senin adalah trader yang memakai kontrak berjangka perpetual dan produk berleverage lainnya. Itu salah satu alasan pemula sering diarahkan membeli secara tunai di bursa teregulasi, bukan futures: jika Anda baru mulai, [membuka akun Coinbase](REF) adalah salah satu opsi teregulasi di AS untuk bitcoin spot tanpa mekanisme likuidasi paksa dari leverage tinggi.
+
+!mid_cta
+
+## Apa kata sejarah ketika rata-rata 50 minggu gagal dipertahankan setelah direbut kembali
+
+Alex Thorn, kepala riset Galaxy, membandingkan level ini dengan siklus-siklus sebelumnya. Bitcoin merebut kembali rata-rata 50 minggu pada 20 September dan menahannya selama tujuh minggu sebelum penutupan hari Minggu. Dalam pemulihan pasar bearish 2011–2012 dan 2019–2020, kata Thorn, bitcoin juga kehilangan rata-rata itu setelah sempat kembali di atasnya. Pada kasus pertama, harga bertahan 20 minggu lagi di bawah garis dan jatuh hingga <strong>35%</strong> di bawahnya. Pada 2019–2020, harga jatuh kembali di bawah rata-rata lima kali, termasuk periode delapan minggu saat kejatuhan akibat Covid. Pada kedua sampel, ujarnya, dasar pasar bearish sebelumnya tetap bertahan berdasarkan penutupan mingguan.
+
+Thorn juga menekankan keterbatasan sampel: hanya lima kali perebutan kembali, dan titik dasar baru diketahui setelah kejadian. Galaxy berargumen pada Oktober bahwa dasar siklus sudah terbentuk, merujuk pada titik terendah sebelumnya di <strong>US$59.517</strong> pada 28 Juni. Pada Senin, Thorn mengatakan skenario bullish teknikal Oktober itu tetap berlaku jika bitcoin merebut kembali rata-rata 50 minggu dalam sebulan — titik pantau jangka pendek yang eksplisit, bukan jaminan.
+
+## Bagaimana ini cocok dengan pasar secara keseluruhan
+
+Hilangnya rata-rata bergerak ini bersanding dengan dua titik tekanan lain yang sudah dilihat pembaca AS pekan ini: penebusan ETF yang besar dan sentimen menghindari risiko di saham teknologi. Crypto Daily CoinDesk mencatat ETF bitcoin spot membukukan arus keluar bersih mingguan <strong>US$1,282 miliar</strong> — yang terbesar sejak pekan 22–28 Juni — dan turun sekitar <strong>US$914 juta</strong> sepanjang tahun berjalan setelah sempat positif untuk 2026 pada 22 September. Lemahnya permintaan ETF tidak dengan sendirinya menyebabkan penembusan di grafik mingguan, tetapi menghilangkan pembeli pamungkas yang diandalkan banyak bull hingga akhir tahun.
+
+Risiko dari kalender makro juga masih penting. Para trader mencermati indeks harga konsumen AS pada hari Selasa. Angka yang lebih dingin dapat meredakan imbal hasil dan membantu aset berisiko; angka yang panas dapat memperpanjang tekanan yang sudah mendorong bitcoin menembus garis 50 minggu.
+
+## Yang perlu dipantau berikutnya
+
+- Apakah bitcoin mampu merebut kembali dan menahan rata-rata 50 minggu di sekitar US$75.488 dalam sebulan ke depan (titik pantau Galaxy).
+- Data arus ETF spot harian dan mingguan setelah arus keluar US$1,28 miliar pekan lalu.
+- Rilis IHK hari Selasa dan kelanjutannya di futures Nasdaq serta funding kontrak perpetual kripto.
+- Apakah open interest cepat pulih setelah pembersihan posisi long lebih dari US$1 miliar — atau tetap lesu.
+
+!soft: Baru mengenal kripto? Baca [panduan pemula membeli bitcoin di Coinbase](/articles/how-to-buy-first-bitcoin-coinbase) kami.
+
+!end_cta
+
+!disclosure

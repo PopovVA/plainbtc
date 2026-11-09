@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+# One sitemap covers all 10 language versions (xhtml:link hreflang alternates inside).
 Sitemap: https://plainbtc.com/sitemap.xml

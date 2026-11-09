@@ -1,0 +1,47 @@
+title: After the midterms: ETF outflows and a tougher crypto rulebook ahead?
+page_title: After the midterms: ETF outflows and crypto rules
+description: Spot bitcoin ETFs saw about $1.28B in weekly outflows as markets digest a Democratic midterm sweep and talk of a bigger SEC role in crypto market structure.
+og_description: What $1.28B in weekly bitcoin ETF outflows and Democratic market-structure talks mean for U.S. crypto investors.
+label: Regulation & markets
+summary: Spot bitcoin ETFs just posted their largest weekly outflow since June. Markets are pricing regulatory uncertainty as Democrats prepare to lead Congress.
+===
+
+For much of 2024 and 2025, the U.S. crypto story for mainstream investors was simple: spot bitcoin exchange-traded funds gave institutions an easy on-ramp, and that bid helped frame bitcoin as a maturing asset class. That narrative is under stress this week. Spot bitcoin ETFs just recorded a net outflow of about <strong>$1.282 billion</strong> in a single week—the largest weekly outflow since the week of June 22–28—according to SoSoValue data reported by CoinDesk. Four of the five trading days were red, and the funds are now down about <strong>$914 million</strong> year-to-date after briefly turning positive for 2026 in late September.
+
+The selling is arriving alongside a political shift. After last week’s midterm elections, Democrats are set to take control of both the House and the Senate. Markets are translating that outcome into higher regulatory uncertainty for digital assets—and into weaker appetite for crypto exposure through Wall Street wrappers.
+
+## What the ETF flow data actually says
+
+CoinDesk’s Nov. 9 Crypto Daily framed the week bluntly: bitcoin bulls cannot lean on ETF inflows as an automatic tailwind into year-end. The funds had taken in more than <strong>$6 billion</strong> from early August through the period that flipped year-to-date flows positive on Sept. 22. That cushion is gone. A SquawkNews roundup of SoSoValue figures added Friday color: spot bitcoin ETFs saw more than <strong>$411 million</strong> in outflows that day alone, with BlackRock’s IBIT accounting for about <strong>$403 million</strong> of the move, while Fidelity’s FBTC was a notable outlier adding roughly <strong>$42.8 million</strong>.
+
+Ethereum funds have been soft as well. Reports citing SoSoValue put November ether ETF outflows around <strong>$365 million</strong> for the month-to-date window covered in those roundups, after a much larger drawdown the prior month. Solana ETF products also saw additional redemptions in November after larger October outflows. None of this proves a permanent institutional exit—but it does show that the “always-on ETF bid” many bulls relied on can reverse quickly.
+
+## Washington: from Clarity Act hopes to a bigger SEC role?
+
+The market-structure debate is the other half of the story. The House-passed Clarity Act had directed the CFTC to supervise much of digital commodity trading and offered a path that many industry groups preferred. That bill passed the House <strong>294–134</strong> in July 2025 and failed a Senate cloture vote <strong>49–50</strong> on Sept. 15, 2026. A motion to reconsider preserved another vote option, but the bill dies when this Congress ends on Jan. 3 unless the lame-duck session revives it.
+
+Bitcoin Magazine reported Nov. 4 that House Democrats are discussing a plan to turn Rep. Maxine Waters’ Crypto Investor and Consumer Bill of Rights into their own crypto market structure package next Congress—ideas that include a larger SEC role and a smaller CFTC role. Reporting attributed to industry sources (not released bill text) also pointed to ethics provisions restricting crypto activities of the president and other federal officials. Republicans have called the Democratic approach a “messaging bill.” Importantly, no official Democratic market-structure text has been released yet; today’s picture is still based on staff-level discussions reported by journalists.
+
+Separately, Bitcoin.com News reported that the SEC submitted a proposed crypto broker-dealer rule package (RIN 3235-AN48) to White House review on Nov. 3, touching capital, customer protection, and recordkeeping rules such as 15c3-1, 15c3-3, 17a-3, and 17a-4. The draft language has not been published, so investors should treat the filing as a process signal rather than a finished rulebook.
+
+!mid_cta
+
+## Why prices felt the politics
+
+Investing.com / Yahoo Finance coverage on Nov. 9 linked bitcoin’s slip toward the mid-$74,000s to a souring regulatory outlook after the Democratic sweep, alongside the ETF redemptions. CoinDesk also connected the renewed exodus to jitters in AI and tech stocks—the Nasdaq had notched a five-week losing streak—undercutting the hope that money would simply rotate from AI into bitcoin when the tech trade cooled.
+
+Sentiment gauges lined up with the flows. SquawkNews noted the Crypto Fear and Greed Index falling to <strong>32</strong>, inside the fear zone, as ETF outflows continued.
+
+## What this means for everyday U.S. investors
+
+If you already hold bitcoin or ether through an ETF or an exchange account, the week’s lesson is less “abandon crypto” and more “flows and politics can dominate short-term prices.” Spot ETF outflows do not automatically mean the asset is broken; they do mean one important buyer group is net selling. Legislative talk about SEC versus CFTC jurisdiction can drag on for months, and bills still need enough votes—and, in many scenarios, a presidential signature—to become law.
+
+For newcomers, a practical approach is to separate three decisions: (1) whether you want long-term exposure at all, (2) whether you prefer an ETF brokerage account or buying spot crypto on an exchange, and (3) how much volatility you can tolerate while Washington debates market structure. None of those decisions require leverage. The weekend’s roughly $1 billion in futures liquidations was a costly reminder that borrowed bets amplify political and market shocks. If you choose the exchange route and are just starting, [opening a Coinbase account](REF) is one regulated U.S. option.
+
+Near term, CoinDesk flagged Tuesday’s U.S. CPI print as a catalyst that could move yields and risk appetite. Even a friendly inflation number may not restore ETF inflows overnight—but it is one of the cleanest macro data points on this week’s calendar.
+
+!soft: New to crypto? Our [beginner guide to buying bitcoin on Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

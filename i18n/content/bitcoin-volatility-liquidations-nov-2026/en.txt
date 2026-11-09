@@ -1,0 +1,41 @@
+title: Bitcoin’s weekend whipsaw: $1B liquidated as Nvidia headlines hit risk assets
+page_title: Bitcoin’s weekend whipsaw: $1B liquidated
+description: Bitcoin fell to about $73,761 then rebounded above $75,000 as more than $1 billion in leveraged crypto positions were liquidated. What happened and what to watch next.
+og_description: BTC briefly slipped to ~$73,761 before reclaiming $75,000. A look at liquidations, Nvidia headlines, and what traders are watching Monday.
+label: Market recap
+summary: BTC briefly slipped to ~$73,761 before reclaiming $75,000. Here’s what drove the move, who got liquidated, and what traders are watching next.
+===
+
+Crypto spent the weekend doing what it often does when traditional markets are closed: absorbing every headline and punishing traders who lean too hard on leverage. Bitcoin fell to about <strong>$73,761</strong> late Sunday—its lowest level since August— before recovering to trade above <strong>$75,000</strong>, according to CoinDesk. Ether slid below <strong>$2,100</strong> and later bounced back near <strong>$2,144</strong>.
+
+The price swings were not just cosmetic. CoinGlass data cited by CoinDesk showed <strong>more than $1 billion</strong> in leveraged cryptocurrency positions liquidated within 24 hours. Roughly <strong>$913 million</strong> of that total came from longs— traders betting prices would rise. Ether absorbed the heavier share of forced selling relative to bitcoin, with about <strong>$448 million</strong> in liquidations versus roughly <strong>$272 million</strong> for bitcoin. The single largest liquidation order was an ethereum position worth about <strong>$48 million</strong>.
+
+## Why the market moved
+
+Two weekend stories stood out. First, reports that Nvidia CEO Jensen Huang admitted to an affair with a woman U.S. officials believe may have been collecting information for Beijing. Nvidia’s board said it opened an independent investigation and stated it had no reason to believe national security or company secrets had been compromised. Still, the news landed on a market already uneasy about the durability of the AI trade: the Nasdaq had fallen nearly 5% the prior week and was on a multi-week losing streak.
+
+Crypto-native proxies reacted before Wall Street reopened. CoinDesk reported that NVDAX, a tokenized Nvidia share product, dropped about <strong>3.55%</strong> to <strong>$180.42</strong> over 24 hours, while the underlying Nvidia equity had closed Friday at <strong>$186.64</strong>—a discount that suggested crypto traders were pricing a weaker open for Monday.
+
+Second, U.S. Secretary of State Marco Rubio said negotiations with Iran had stalled and called Iranian demands “outrageous,” keeping Middle East geopolitical risk in focus. CoinDesk noted that bitcoin has frequently declined during oil-related risk-off moves since conflict intensified earlier in 2026, despite the long-running “digital gold” narrative.
+
+!mid_cta
+
+## Derivatives painted a risk-off picture
+
+A separate CoinDesk markets wrap on Nov. 9 added more texture. Futures trading volume jumped more than <strong>200%</strong> to about <strong>$180 billion</strong> as the weekend lull ended, while open interest fell about <strong>3%</strong> to roughly <strong>$127 billion</strong>—a combination consistent with traders closing positions rather than adding fresh leverage. Liquidations in that broader snapshot reached about <strong>$1.1 billion</strong>. Options markets also showed rising demand for downside protection: bitcoin one-week implied volatility climbed to about <strong>43%</strong> from around <strong>33%</strong> on Thursday, while ether’s rose to about <strong>60%</strong> from around <strong>46%</strong>.
+
+Only five of the top 100 cryptocurrencies by market value were up 1% or more over 24 hours in that wrap—underscoring how broad the risk-off tone was across majors including bitcoin, ether, XRP, and solana.
+
+## What U.S. readers should watch next
+
+The rebound above $75,000 was welcome for holders, but CoinDesk cautioned that the bounce had already stalled at the time of writing. Near-term technical levels it flagged included the 200-day average near <strong>$73,150</strong> as support and the 100-day average near <strong>$77,430</strong> as resistance.
+
+Practically, Monday’s traditional-market open matters because weekend crypto moves often get confirmed—or reversed—once Nasdaq futures and cash equities price the Nvidia news. Separately, CoinDesk’s Crypto Daily noted that traders are watching Tuesday’s U.S. consumer price index: a softer print could ease bond yields and help risk assets, but sustained upside may still be hard without stronger demand from spot bitcoin ETFs.
+
+If you are a long-term holder rather than a leveraged trader, the weekend was a reminder of a simple rule: volatility is normal, and forced liquidations mostly hit people who borrowed to amplify a directional bet. Spot ownership on a regulated U.S. exchange is a different risk profile from perpetual futures. If you are just starting, [opening a Coinbase account](REF) is one regulated U.S. option for buying bitcoin without futures leverage.
+
+!soft: New to crypto? Our [beginner guide to buying bitcoin on Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

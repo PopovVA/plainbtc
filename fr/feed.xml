@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PlainBTC</title>
+    <link>https://plainbtc.com/fr/</link>
+    <description>L’actualité du bitcoin et des cryptos en langage clair, pour les débutants</description>
+    <language>fr</language>
+    <lastBuildDate>Mon, 09 Nov 2026 18:00:00 GMT</lastBuildDate>
+    <atom:link href="https://plainbtc.com/fr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FinCEN et la Fed abandonnent le projet de Travel Rule à 250 dollars — le seuil de 3 000 reste</title>
+      <link>https://plainbtc.com/fr/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+      <description>Les régulateurs américains ont retiré une proposition de 2020 qui aurait ramené les seuils transfrontaliers à 250 dollars et supprimé la mention des cryptos. Ce qui change, et ce qui ne change pas.</description>
+    </item>
+    <item>
+      <title>Le bitcoin perd sa moyenne mobile à 50 semaines alors que les liquidations de positions longues dépassent 1 milliard de dollars</title>
+      <link>https://plainbtc.com/fr/articles/bitcoin-loses-50-week-moving-average-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/bitcoin-loses-50-week-moving-average-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 17:45:00 GMT</pubDate>
+      <description>Le BTC a clôturé sous environ 75 488 dollars après sept semaines au-dessus de cette ligne, et CoinGlass recense 1,15 milliard de dollars de liquidations. Ce que signifie le point de contrôle de Galaxy.</description>
+    </item>
+    <item>
+      <title>PNC Bank teste les paiements en USDC avec Coinbase pour ses clients entreprises</title>
+      <link>https://plainbtc.com/fr/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 17:30:00 GMT</pubDate>
+      <description>Les entreprises éligibles peuvent recevoir des USDC sur Ethereum via Coinbase Payments, avec conversion automatique 1:1 en un dépôt en dollars chez PNC.</description>
+    </item>
+    <item>
+      <title>Les montagnes russes du bitcoin ce week-end : 1 milliard liquidé alors que les titres sur Nvidia frappent les actifs risqués</title>
+      <link>https://plainbtc.com/fr/articles/bitcoin-volatility-liquidations-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/bitcoin-volatility-liquidations-nov-2026</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Le BTC est brièvement tombé vers 73 761 dollars avant de reprendre 75 000. Ce qui a provoqué le mouvement, qui a été liquidé et ce que les traders surveillent ensuite.</description>
+    </item>
+    <item>
+      <title>Comment acheter votre premier bitcoin sur Coinbase (guide du débutant aux États-Unis)</title>
+      <link>https://plainbtc.com/fr/articles/how-to-buy-first-bitcoin-coinbase</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/how-to-buy-first-bitcoin-coinbase</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Un pas-à-pas : créer un compte, vérifier son identité, ajouter un moyen de paiement, passer un premier petit achat, sans perdre de vue les frais et la sécurité.</description>
+    </item>
+    <item>
+      <title>Après les élections de mi-mandat : sorties des ETF et règles crypto plus strictes à venir ?</title>
+      <link>https://plainbtc.com/fr/articles/us-midterms-crypto-regulation-etf-outflows</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/us-midterms-crypto-regulation-etf-outflows</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Les ETF bitcoin au comptant viennent d’enregistrer leur plus forte sortie hebdomadaire depuis juin. Les marchés intègrent une incertitude réglementaire alors que les démocrates s’apprêtent à diriger le Congrès.</description>
+    </item>
+  </channel>
+</rss>

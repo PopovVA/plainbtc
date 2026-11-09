@@ -1,0 +1,52 @@
+title: PNC Bank lanza un piloto de pagos en USDC con Coinbase para clientes corporativos
+page_title: PNC Bank prueba pagos en USDC con Coinbase
+description: PNC Bank puso en marcha un piloto limitado que permite a clientes corporativos elegibles recibir USDC en Ethereum a través de Coinbase Payments, con conversión automática 1:1 a dólares.
+og_description: PNC y Coinbase abren un piloto de cobros en USDC para clientes corporativos elegibles.
+label: Empresas
+summary: Las empresas elegibles pueden recibir USDC en Ethereum mediante Coinbase Payments, con conversión automática 1:1 a un depósito en dólares en PNC.
+===
+
+PNC Bank anunció el lunes que habilita los pagos entrantes en <strong>USDC</strong> para clientes elegibles de su división de Banca Corporativa e Institucional, con lo que amplía su relación con Coinbase. En un [comunicado del 9 de noviembre](L1), el banco, con sede en Pittsburgh, explicó que los clientes pueden recibir la stablecoin respaldada en dólares en la blockchain de <strong>Ethereum</strong> a través de los productos de pago de Coinbase; después, los fondos se convierten automáticamente <strong>1 a 1</strong> en dólares estadounidenses y se depositan en una cuenta designada de PNC.
+
+El lanzamiento es un <strong>piloto limitado</strong>, no un producto masivo para particulares. Aun así, es una de las señales más claras hasta ahora de que un gran banco regional de EE. UU. quiere incorporar las vías de las stablecoins a los flujos habituales de tesorería, y a la vez dejar el saldo final en depósitos bancarios conocidos, en lugar de que las empresas acaben con tokens en sus propios libros.
+
+!takeaways
+- PNC está probando pagos entrantes en USDC para clientes corporativos e institucionales elegibles.
+- El USDC llega por Ethereum a través de Coinbase Payments y se convierte 1:1 en dólares en una cuenta de depósito de PNC.
+- El banco presenta el producto como un complemento de las opciones de pago rápido que ya existen, no como un sustituto.
+- La alianza se apoya en un acuerdo de Crypto-as-a-Service de julio de 2025 y en la operativa previa con bitcoin para algunos clientes de banca privada.
+
+## Cómo funciona el piloto
+
+Según PNC, el cliente corporativo recibe un pago en USDC; la infraestructura de pagos de Coinbase se ocupa del tramo en stablecoins; y PNC convierte los tokens a dólares a la par y abona el importe en una cuenta de depósito designada. El banco indicó que el diseño busca un acceso más rápido a los fondos y una liquidación transfronteriza más eficiente, sin que los clientes pierdan el acceso a los servicios bancarios y de gestión de tesorería más amplios de PNC.
+
+Tom Lang, responsable de Producto y Operaciones de Gestión de Tesorería en PNC, dijo que los clientes «buscan constantemente nuevas formas de interactuar y operar con sus clientes, proveedores y socios comerciales», y describió el piloto como una oportunidad para atender esas necesidades con la experiencia de PNC en gestión de riesgos y banca. Alec Lovett, responsable de Productos de Infraestructura en Coinbase, afirmó que este trabajo muestra cómo los bancos y la infraestructura de activos digitales pueden permitir que los clientes corporativos aprovechen la tecnología de las stablecoins.
+
+!mid_cta
+
+## Por qué a los bancos les interesa ahora la liquidación en USDC
+
+Las stablecoins en dólares se han convertido en un activo de liquidación práctico para los mercados cripto y, cada vez más, en un terreno de pruebas para los pagos entre empresas. El piloto de PNC no exige que un tesorero corporativo se convierta en operador de criptomonedas: el resultado final para el cliente sigue siendo un depósito en dólares. Ese formato importa a los equipos de cumplimiento que quieren probar la velocidad de los pagos en blockchain, pero necesitan que el resultado contable se parezca a un abono por transferencia o por ACH convencional.
+
+The Block señaló que PNC anunció su primera alianza con Coinbase en julio de 2025, al acordar usar la plataforma Crypto-as-a-Service de Coinbase y prestar determinados servicios bancarios a la empresa. En diciembre de 2025, PNC empezó a ofrecer operaciones de bitcoin al contado a clientes elegibles de banca privada a través de sus cuentas de inversión existentes. El piloto de USDC del lunes es, por tanto, una ampliación en el terreno de los pagos de una relación que ya abarca varios productos, no un primer contacto entre ambas compañías.
+
+Para el inversor particular que mira desde fuera, la noticia tiene menos que ver con una nueva aplicación de consumo y más con la infraestructura: cuando los grandes bancos canalizan los cobros en stablecoins hacia cuentas de depósito aseguradas, se reduce la fricción entre los dólares en la cadena de bloques y el sistema bancario tradicional. Quien simplemente quiere comprar o mantener criptomonedas sigue empezando, por lo general, en un exchange; [Coinbase](REF) es una de las plataformas reguladas de EE. UU. para ese uso distinto.
+
+## Límites y preguntas abiertas
+
+PNC subrayó que el servicio arranca de forma limitada para clientes elegibles. Ni PNC ni Coinbase publicaron en los materiales del lunes un calendario para el público general en todo el país. La cobertura de Reuters también presentó la medida como una prueba más de los tokens respaldados en dólares por parte de entidades financieras, y no como un estándar de la industria ya consolidado. Entre las dudas que quedan para las empresas que quieran adoptarlo figuran los criterios de alta, los corredores de pago admitidos, las comisiones frente a las transferencias bancarias, las herramientas de conciliación y cómo se aplican los controles de sanciones y de la «travel rule» al tramo en stablecoins antes de que se abone el dólar.
+
+El contexto regulatorio también cuenta. La legislación estadounidense sobre stablecoins, bajo la ley GENIUS, empuja a emisores y bancos hacia expectativas de supervisión más claras. La retirada, el lunes, por parte de FinCEN y la Reserva Federal de una propuesta de 2020 sobre el umbral de la Travel Rule, que no guarda relación con este asunto, no reescribe las normas de las stablecoins, pero deja claro que los marcos contra el blanqueo de capitales aplicables a los dólares digitales se siguen redefiniendo pieza a pieza.
+
+## Qué vigilar a partir de ahora
+
+- Si PNC amplía el piloto más allá del grupo inicial de clientes corporativos elegibles.
+- Las tarifas y la comparación de plazos de liquidación frente a las transferencias bancarias y otras vías de pago rápido.
+- Productos similares de cobro en USDC u otras stablecoins de otros bancos de EE. UU. que usen Coinbase o infraestructuras rivales.
+- Cómo encajarán las normas de desarrollo de la ley GENIUS con los flujos de pago con stablecoins alojados en bancos.
+
+!soft: ¿Nuevo en cripto? Lee nuestra [guía para principiantes sobre cómo comprar bitcoin en Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

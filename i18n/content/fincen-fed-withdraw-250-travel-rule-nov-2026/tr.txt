@@ -1,0 +1,50 @@
+title: FinCEN ve Fed, 250 dolarlık Travel Rule planından vazgeçti — 3.000 dolar eşiği korunuyor
+page_title: FinCEN ve Fed 250 dolarlık Travel Rule planını geri çekti
+description: ABD’li düzenleyiciler, sınır ötesi Travel Rule eşiğini 3.000 dolardan 250 dolara indirmeyi ve kriptoya özgü ifadeyi çıkarmayı öngören 2020 tarihli teklifi geri çekti. Bankalar ve kripto kullanıcıları için ne değişiyor?
+og_description: FinCEN ve Fed, Travel Rule eşiğini 250 dolara indiren 2020 tarihli planı geri çekti.
+label: Düzenleme
+summary: ABD’li düzenleyiciler, sınır ötesi eşikleri 250 dolara indirmeyi ve kriptoya özgü ifadeyi kaldırmayı öngören 2020 tarihli teklifi geri çekti. Ne değişti, ne değişmedi?
+===
+
+9 Kasım 2026 Pazartesi günü Mali Suçları Denetleme Ağı (FinCEN) ve Federal Rezerv Kurulu, birçok sınır ötesi para transferi için Banka Gizliliği Yasası eşiğini <strong>3.000 dolardan 250 dolara</strong> indirecek olan 2020 tarihli ortak teklifi resmen geri çekti. [Federal Register](L1)’da yayımlanan bildirim, kurumların bu kural taslağı üzerinde “başka bir işlem yapmayacağını” belirtiyor.
+
+ABD’li sıradan okuyucu için pratik başlık basit: Kayıt tutma ve Travel Rule için uzun süredir geçerli olan <strong>3.000 dolar</strong> sınırı şimdilik yerinde duruyor. Pazartesi günkü başvuru mevcut kuralların hiçbirini yürürlükten kaldırmıyor. Ortadan kalkan şey, 250 dolarlık eşiğe giden yol ve bu kurallar bakımından dönüştürülebilir sanal para birimini “para” tanımına daha açık biçimde yazacak olan önerilen ifade.
+
+!takeaways
+- FinCEN ve Fed, 27 Ekim 2020 tarihli taslaklarını 9 Kasım 2026 itibarıyla geri çekti.
+- Teklif, bazı sınır ötesi eşikleri 3.000 dolardan 250 dolara düşürecekti.
+- Ayrıca kuralların dönüştürülebilir sanal parayı ve yasal ödeme aracı statüsüne sahip bazı dijital varlıkları kapsadığını netleştirmeyi amaçlıyordu.
+- Mevcut 3.000 dolarlık eşik korunuyor; kurumlar, benzer bir değişiklikten önce yeniden kamuoyu görüşü almayı taahhüt etti.
+
+## 2020 teklifi ne yapacaktı
+
+Bugünkü Banka Gizliliği Yasası çerçevesinde bankalar ve birçok banka dışı finans kuruluşu, ABD dışında başlayan veya biten, <strong>3.000 dolar</strong> ve üzerindeki para transferlerine ilişkin kimlik bilgilerini toplamak, saklamak ve Travel Rule kapsamındaki durumlarda iletmek zorunda. 2020 taslağı, kapsanan sınır ötesi işlemler için bu eşiği <strong>250 dolara</strong> indirmeyi ve “para” tanımının dönüştürülebilir sanal para birimini (CVC) ve alıcı için yasal ödeme aracı statüsü taşıyan dijital varlıkları da içerdiğini netleştirmeyi hedefliyordu.
+
+Gizlilik ve kripto savunuculuğu grupları, daha düşük dolar sınırına uzun süredir karşı çıkıyordu; onlara göre bu, sıradan işçi havalelerini ve küçük transferleri daha ağır bir gözetim düzenine sokacaktı. Bankacılık ve para hizmetleri sektöründen yorum yapanlar da uyum maliyetleri konusunda uyardı. Bitcoin Magazine’in geri çekme bildirimine ilişkin özetine göre kurumlar yaklaşık <strong>3.000</strong> yorum aldı; bunların çoğu indirime karşı çıkan benzer standart mektuplardı.
+
+!mid_cta
+
+## Düzenleyiciler neden şimdi geri adım attı
+
+Federal Register bildirimi iki ana neden veriyor. Birincisi, tekliften bu yana beş yıldan fazla zaman geçti ve kurumlar benzer bir şeyi kabul etmeden önce ek kamuoyu görüşü almak istiyor; dolayısıyla geri çekme, yeni bir yorum dönemi olmadan nihai bir kural çıkmayacağına dair kesinlik sağlıyor. İkincisi, kripto piyasaları ve hukuki çerçeveler değişti. Bildirim, 18 Temmuz 2025’te yürürlüğe giren GENIUS Yasası’nı, CVC ile ilgili gelecekteki herhangi bir Travel Rule revizyonunun değişikliklerin “amaca uygun” olması için dikkate alması gereken yeni çerçevelere örnek olarak anıyor.
+
+Pazartesi günkü adım, Hazine’nin yakın zamandaki geri dönüşleri dizisine de uyuyor. The Block’un haberine göre FinCEN daha önce 2020’deki “barındırılmayan cüzdan” teklifini ve uluslararası kripto karıştırmayı birincil kara para aklama endişesi olarak nitelendirmeyi öngören 2023 planını geri çekmişti. Bir teklifin geri çekilmesi, uygulamanın yumuşaması anlamına gelmiyor: ayrı araçlar yine belirli platformları hedef alabilir. Bitcoin Magazine, FinCEN’in kısa süre önce yaptırımdan kaçınma iddiasıyla MEXC borsasını ABD finans sisteminden kısıtladığını da not etti.
+
+## Kripto kullanıcıları için bu neyi değiştiriyor — neyi değiştirmiyor
+
+Bir ABD borsası veya kapsama giren başka bir kurum üzerinden bitcoin ya da dolar stabil coinleri gönderiyor veya alıyorsanız, pazartesi günkü bildirim müşterini tanı kontrollerini, yaptırım taramasını veya mevcut Travel Rule uygulamasını birden gevşetmiyor. Bu yükümlülükler güncel kurallar ve rehberlik uyarınca geçerliliğini koruyor. Bildirimin ortadan kaldırdığı şey, nihai bir 250 dolarlık sınır ötesi eşiğin ve o paketteki kripto ifadesinin yeni bir kural yapım süreci olmadan yürürlüğe girmesi gibi daha yakın bir risk.
+
+Denetimsiz eşler arası yollar yerine düzenlemeye tabi bir ABD borsası hesabını tercih edenler için, [Coinbase](REF) gibi platformlar bu geri çekmeden bağımsız olarak BSA/kara para aklamayı önleme programlarına tabi olmaya devam ediyor. Politika mücadelesi artık FinCEN ve Fed’in stabil coin mevzuatını, sektörün mesajlaşma standartlarını ve havale gerçeklerini yansıtan yeni bir teklif yazıp yazmayacağına — ya da 3.000 dolarlık sınıra daha uzun süre dokunmayacağına — kayıyor.
+
+## Sırada neler izlenmeli
+
+- FinCEN veya Fed’den Travel Rule eşiklerini ya da kripto tanımlarını yeniden ele alan yeni bir kural önerisi.
+- GENIUS Yasası’nın uygulama takvimine bağlı stabil coin kara para aklamayı önleme ve müşteri tanımlama teklifleri.
+- Geniş kapsamlı teklifler geri çekilse bile sürebilen, adı geçen platformlara yönelik vaka bazlı yaptırım işlemleri.
+- Bankaların ve borsaların, 2020 paketinin yazıldığı haliyle sonuçlandırılmayacağı kesinleştikten sonra uyum el kitaplarını nasıl güncelleyeceği.
+
+!soft: Kriptoya yeni mi başlıyorsunuz? [Coinbase’te bitcoin satın alma konusundaki yeni başlayanlar rehberimize](/articles/how-to-buy-first-bitcoin-coinbase) göz atın.
+
+!end_cta
+
+!disclosure

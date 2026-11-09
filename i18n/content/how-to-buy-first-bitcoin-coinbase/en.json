@@ -1,0 +1,129 @@
+{
+ "slug": "how-to-buy-first-bitcoin-coinbase",
+ "date": "2026-11-09",
+ "title": "How to buy your first Bitcoin on Coinbase (U.S. beginner guide)",
+ "page_title": "How to buy your first Bitcoin on Coinbase",
+ "description": "U.S. beginner guide: create a Coinbase account, verify identity, add a payment method, and buy your first Bitcoin step by step.",
+ "og_description": "A clear walkthrough of signing up, verifying, funding, and placing a small first Bitcoin purchase on Coinbase.",
+ "label": "Beginner guide",
+ "readtime": 8,
+ "summary": "A step-by-step walkthrough: create an account, verify your identity, add a payment method, place a small first buy, and keep fees and security in mind.",
+ "body": [
+  {
+   "p": "Buying bitcoin for the first time does not have to feel like learning a new language. If you live in the United States and want a regulated exchange with identity checks, Coinbase is one of the most common starting points—you can begin by <a href=\"{{REF}}\" rel=\"sponsored noopener\" target=\"_blank\">opening a Coinbase account</a> through our referral link. Bitcoin is available to buy on Coinbase’s centralized exchange, and you can fund purchases with approved methods such as a bank account, debit card, or wire (availability depends on your account and region)."
+  },
+  {
+   "p": "This guide walks through the practical sequence: create an account, verify who you are, connect money, place a small first order, and avoid a few common beginner mistakes. It is educational, not a recommendation to buy any amount of crypto."
+  },
+  {
+   "h2": "1. Create your Coinbase account"
+  },
+  {
+   "p": "You can sign up in a browser or in the Coinbase mobile app. Coinbase’s help center describes the usual flow: enter your email, confirm a verification code, create a password, enter your legal first and last name as they appear on government ID, and verify a phone number with an SMS code. You can also start with Apple or Google sign-in where offered."
+  },
+  {
+   "p": "Use an email address you control long-term. Enable two-factor authentication as soon as the product prompts you—email alone is not enough security for an account that will hold money or crypto."
+  },
+  {
+   "h2": "2. Complete identity verification"
+  },
+  {
+   "p": "U.S. financial platforms are required to collect personal information to validate identity. Coinbase asks you to confirm you meet the age requirement (18+ in the U.S.), select citizenship, provide identifying details (including Social Security number information as requested), and make sure your personal information matches your government-issued photo ID. Have that ID ready; verification can take minutes or longer depending on review queues and document quality."
+  },
+  {
+   "p": "Tip: enter your name exactly as it appears on your ID. Mismatches are one of the most common reasons first-time verifications get delayed."
+  },
+  {
+   "mid_cta": true
+  },
+  {
+   "h2": "3. Add a payment method"
+  },
+  {
+   "p": "After you can trade, connect a funding source. Coinbase’s buy guides list bank account, debit card, and wire among approved options. For many U.S. beginners, linking a bank account (ACH) is useful for larger or recurring buys, while a debit card can be faster for a small first purchase—often at a higher fee. Coinbase shows fee details on the order preview screen before you confirm."
+  },
+  {
+   "p": "Note from Coinbase’s Bitcoin how-to page: at this time, credit cards cannot be used to purchase bitcoin on Coinbase. U.S. customers may have additional options such as PayPal for supported assets; availability depends on region and product rules."
+  },
+  {
+   "h2": "4. Place your first Bitcoin buy"
+  },
+  {
+   "p": "On the website, Coinbase’s help documentation outlines a straightforward path:"
+  },
+  {
+   "ol": [
+    "Select <strong>Buy</strong> on the Coinbase homepage (or Buy & Sell in the app).",
+    "Enter the amount you want to spend in dollars—or switch to a bitcoin amount.",
+    "Choose or confirm your payment method.",
+    "Select Bitcoin (BTC) as the asset.",
+    "Open <strong>Review order</strong> and check price, quantity, and fees.",
+    "If everything looks right, select <strong>Buy now</strong>."
+   ]
+  },
+  {
+   "p": "Minimum purchase amounts vary by asset and payment method. If you are below the minimum, Coinbase will notify you. For a first trade, many people intentionally buy a small dollar amount so they can learn the interface before scaling up."
+  },
+  {
+   "h2": "5. Understand fees before you confirm"
+  },
+  {
+   "p": "Coinbase states that fees are calculated when you place an order and can depend on location, payment method, order size, and market conditions such as volatility and liquidity. The important beginner habit is simple: always read the preview screen. That screen is where you see the all-in cost before funds move."
+  },
+  {
+   "h2": "6. After you buy: storage and security basics"
+  },
+  {
+   "p": "Your bitcoin will appear in your Coinbase account once the order settles. For small starter amounts, many people keep funds on the exchange while they learn. If your holdings grow, learn the difference between exchange custody and self-custody (hardware wallets, seed phrases, and recovery). Never share your password, 2FA codes, or seed phrase. Coinbase notes that it only sends confirmation emails from valid Coinbase addresses—treat unexpected “verify your account” emails with skepticism and open the app or site yourself instead of clicking links."
+  },
+  {
+   "h2": "A calm way to start in a volatile week"
+  },
+  {
+   "p": "Markets have been jumpy into early November 2026, with bitcoin trading near the mid $70,000s after a sharp weekend move. Volatility is exactly why beginners should separate <em>learning the product</em> from <em>sizing a bet</em>. Use an amount you can afford to see fluctuate. Consider whether a one-time buy or a recurring purchase fits your plan. And remember: buying spot bitcoin on an exchange is not the same as trading leveraged futures—where liquidations wiped out more than $1 billion in positions over a recent 24-hour stretch."
+  },
+  {
+   "soft_guide": "Want market context first? See today’s <a href=\"/articles/bitcoin-loses-50-week-moving-average-nov-2026\">recap of bitcoin’s 50-week moving average break</a>."
+  },
+  {
+   "end_cta": true
+  },
+  {
+   "disclosure": true
+  }
+ ],
+ "related": [
+  "bitcoin-loses-50-week-moving-average-nov-2026",
+  "pnc-coinbase-usdc-payments-pilot-nov-2026",
+  "fincen-fed-withdraw-250-travel-rule-nov-2026"
+ ],
+ "sources": [
+  {
+   "url": "https://www.coinbase.com/how-to-buy/bitcoin",
+   "title": "Coinbase — How to Buy Bitcoin (BTC) in United States",
+   "note": ""
+  },
+  {
+   "url": "https://help.coinbase.com/en/coinbase/trading-and-funding/buying-selling-or-converting-crypto/how-do-i-buy-digital-currency",
+   "title": "Coinbase Help — How do I buy cryptocurrency?",
+   "note": ""
+  },
+  {
+   "url": "https://help.coinbase.com/en/coinbase/getting-started/getting-started-with-coinbase/create-a-coinbase-account",
+   "title": "Coinbase Help — Create a Coinbase account",
+   "note": ""
+  },
+  {
+   "url": "https://help.coinbase.com/en/coinbase/getting-started/getting-started-with-coinbase/new-customer-incentive",
+   "title": "Coinbase Help — New user incentive / referral terms",
+   "note": ""
+  },
+  {
+   "url": "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility",
+   "title": "CoinDesk — Bitcoin weekend volatility and liquidations",
+   "note": "(Nov 9, 2026)"
+  }
+ ],
+ "disclosure_variant": "guide",
+ "card_title": "How to buy your first Bitcoin on Coinbase (U.S. beginner guide)"
+}

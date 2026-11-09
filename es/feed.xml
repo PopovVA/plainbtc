@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PlainBTC</title>
+    <link>https://plainbtc.com/es/</link>
+    <description>Noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</description>
+    <language>es</language>
+    <lastBuildDate>Mon, 09 Nov 2026 18:00:00 GMT</lastBuildDate>
+    <atom:link href="https://plainbtc.com/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FinCEN y la Fed retiran el plan de bajar la Travel Rule a 250 dólares: el umbral de 3.000 se mantiene</title>
+      <link>https://plainbtc.com/es/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+      <description>Los reguladores de EE. UU. retiraron una propuesta de 2020 para rebajar a 250 dólares los umbrales transfronterizos y quitar la redacción específica sobre criptomonedas. Qué cambia y qué no.</description>
+    </item>
+    <item>
+      <title>Bitcoin pierde su media móvil de 50 semanas mientras las liquidaciones de largos superan los 1.000 millones de dólares</title>
+      <link>https://plainbtc.com/es/articles/bitcoin-loses-50-week-moving-average-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/bitcoin-loses-50-week-moving-average-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 17:45:00 GMT</pubDate>
+      <description>BTC cerró por debajo de 75.488 dólares tras siete semanas por encima de esa línea, y CoinGlass registró 1.150 millones en liquidaciones. Qué significa el punto de control de Galaxy.</description>
+    </item>
+    <item>
+      <title>PNC Bank lanza un piloto de pagos en USDC con Coinbase para clientes corporativos</title>
+      <link>https://plainbtc.com/es/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 17:30:00 GMT</pubDate>
+      <description>Las empresas elegibles pueden recibir USDC en Ethereum mediante Coinbase Payments, con conversión automática 1:1 a un depósito en dólares en PNC.</description>
+    </item>
+    <item>
+      <title>El vaivén de bitcoin en el fin de semana: 1.000 millones liquidados mientras los titulares de Nvidia golpean a los activos de riesgo</title>
+      <link>https://plainbtc.com/es/articles/bitcoin-volatility-liquidations-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/bitcoin-volatility-liquidations-nov-2026</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>BTC cayó brevemente hasta unos 73.761 dólares antes de recuperar los 75.000. Qué impulsó el movimiento, a quién liquidaron y qué vigilan los traders.</description>
+    </item>
+    <item>
+      <title>Cómo comprar tu primer bitcoin en Coinbase (guía para principiantes en EE. UU.)</title>
+      <link>https://plainbtc.com/es/articles/how-to-buy-first-bitcoin-coinbase</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/how-to-buy-first-bitcoin-coinbase</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Un recorrido paso a paso: crea una cuenta, verifica tu identidad, añade un método de pago, haz una primera compra pequeña y ten presentes las comisiones y la seguridad.</description>
+    </item>
+    <item>
+      <title>Tras las elecciones de mitad de mandato: ¿salidas de los ETF y un reglamento cripto más duro?</title>
+      <link>https://plainbtc.com/es/articles/us-midterms-crypto-regulation-etf-outflows</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/us-midterms-crypto-regulation-etf-outflows</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Los ETF de bitcoin al contado acaban de registrar su mayor salida semanal desde junio. Los mercados descuentan incertidumbre regulatoria mientras los demócratas se preparan para liderar el Congreso.</description>
+    </item>
+  </channel>
+</rss>

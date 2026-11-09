@@ -458,3 +458,39 @@ img {
 .takeaways ul {
   margin: 0.5rem 0 0;
 }
+
+/* Language switcher (header) and language list (footer) */
+.site-header .inner { flex-wrap: wrap; }
+.lang-menu { position: relative; font-size: 0.9rem; }
+.lang-menu summary {
+  cursor: pointer;
+  list-style: none;
+  color: var(--muted);
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  white-space: nowrap;
+}
+.lang-menu summary::-webkit-details-marker { display: none; }
+.lang-menu[open] summary, .lang-menu summary:hover { color: var(--text); border-color: var(--accent); }
+.lang-menu ul {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.4rem);
+  margin: 0;
+  padding: 0.4rem;
+  list-style: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  min-width: 12rem;
+  z-index: 20;
+}
+.lang-menu li a { display: block; padding: 0.35rem 0.6rem; color: var(--text); border-radius: 6px; }
+.lang-menu li a:hover { background: var(--surface-2); text-decoration: none; }
+.lang-menu li a[aria-current] { color: var(--accent); font-weight: 600; }
+.footer-langs { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+.footer-langs nav { display: flex; flex-wrap: wrap; gap: 0.5rem 1.1rem; }
+.footer-langs a { color: var(--muted); }
+.footer-langs a:hover { color: var(--text); }
+.sources-note { color: var(--muted); font-size: 0.85rem; margin: 0.5rem 0 0; }

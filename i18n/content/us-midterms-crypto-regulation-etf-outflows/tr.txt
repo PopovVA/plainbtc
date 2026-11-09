@@ -1,0 +1,47 @@
+title: Ara seçimlerin ardından: ETF çıkışları ve sırada daha sert bir kripto kural kitabı mı var?
+page_title: Ara seçimlerden sonra: ETF çıkışları ve kripto kuralları
+description: Spot bitcoin ETF’leri haftalık yaklaşık 1,28 milyar dolar çıkış gördü; piyasalar Demokratların ara seçim zaferini ve kripto piyasa yapısında SEC’e daha büyük bir rol verilmesi konuşmalarını sindiriyor.
+og_description: Haftalık 1,28 milyar dolarlık bitcoin ETF çıkışı ve Demokratların piyasa yapısı görüşmeleri, ABD’li kripto yatırımcıları için ne anlama geliyor?
+label: Düzenleme ve piyasalar
+summary: Spot bitcoin ETF’leri haziran ayından bu yana en büyük haftalık çıkışı kaydetti. Demokratlar Kongre’yi yönetmeye hazırlanırken piyasalar düzenleyici belirsizliği fiyatlıyor.
+===
+
+2024 ve 2025’in büyük bölümünde, ana akım yatırımcılar için ABD kripto hikâyesi basitti: spot bitcoin borsa yatırım fonları (ETF’ler) kurumlara kolay bir giriş kapısı sunuyor ve bu talep bitcoin’i olgunlaşan bir varlık sınıfı olarak konumlandırmaya yardımcı oluyordu. Bu anlatı bu hafta baskı altında. CoinDesk’in aktardığı SoSoValue verilerine göre spot bitcoin ETF’leri tek haftada yaklaşık <strong>1,282 milyar dolarlık</strong> net çıkış kaydetti; bu, 22–28 Haziran haftasından bu yana en büyük haftalık çıkış. Beş işlem gününden dördü kırmızıydı ve fonlar eylül sonunda 2026 için kısa süreliğine pozitife döndükten sonra yılbaşından bu yana yaklaşık <strong>914 milyon dolar</strong> eksiye geçti.
+
+Satışlar siyasi bir kaymayla birlikte geliyor. Geçen haftaki ara seçimlerin ardından Demokratların hem Temsilciler Meclisi’nin hem de Senato’nun kontrolünü alması bekleniyor. Piyasalar bu sonucu dijital varlıklar için daha yüksek düzenleyici belirsizliğe ve Wall Street sarmalayıcıları üzerinden kripto maruziyetine yönelik daha zayıf iştaha çeviriyor.
+
+## ETF akış verileri aslında ne söylüyor
+
+CoinDesk’in 9 Kasım tarihli Crypto Daily bülteni haftayı açık sözlü özetledi: bitcoin boğaları yıl sonuna doğru ETF girişlerine otomatik bir rüzgâr gibi yaslanamaz. Fonlar, ağustos başından yılbaşından bu yana akışları 22 Eylül’de pozitife çeviren döneme kadar <strong>6 milyar dolardan fazla</strong> para toplamıştı. Bu tampon artık yok. SoSoValue rakamlarına dayanan bir SquawkNews özeti cuma gününe dair ayrıntı ekledi: spot bitcoin ETF’leri yalnızca o gün <strong>411 milyon dolardan fazla</strong> çıkış gördü; bunun yaklaşık <strong>403 milyon doları</strong> BlackRock’ın IBIT’inden gelirken, Fidelity’nin FBTC’si yaklaşık <strong>42,8 milyon dolar</strong> ekleyerek dikkat çeken bir istisna oldu.
+
+Ethereum fonları da zayıf. SoSoValue’yu aktaran haberler, bu özetlerin kapsadığı ay içi dönemde kasım ayı ether ETF çıkışlarını yaklaşık <strong>365 milyon dolar</strong> olarak veriyor; bir önceki ay çok daha büyük bir düşüş yaşanmıştı. Solana ETF ürünleri de ekim ayındaki daha büyük çıkışların ardından kasımda ek itfalar gördü. Bunların hiçbiri kalıcı bir kurumsal çıkışı kanıtlamıyor, ancak birçok boğanın güvendiği “her zaman açık ETF talebi”nin hızla tersine dönebileceğini gösteriyor.
+
+## Washington: Clarity Yasası umutlarından daha büyük bir SEC rolüne mi?
+
+Piyasa yapısı tartışması hikâyenin diğer yarısı. Temsilciler Meclisi’nde kabul edilen Clarity Yasası, CFTC’yi dijital emtia işlemlerinin büyük bölümünü denetlemekle görevlendirmiş ve birçok sektör grubunun tercih ettiği bir yol sunmuştu. Tasarı Temmuz 2025’te Temsilciler Meclisi’nden <strong>294’e 134</strong> oyla geçti ve 15 Eylül 2026’da Senato’daki görüşmeyi sonlandırma oylamasında (cloture) <strong>49’a 50</strong> ile başarısız oldu. Yeniden değerlendirme önergesi bir oylama seçeneğini korudu, ancak tasarı, bu Kongre 3 Ocak’ta sona erdiğinde, yeni seçilenlerin devri dönemindeki oturum (lame-duck) onu canlandırmadıkça düşecek.
+
+Bitcoin Magazine 4 Kasım’da, Meclis’teki Demokratların, Temsilci Maxine Waters’ın Kripto Yatırımcı ve Tüketici Haklar Bildirgesi’ni önümüzdeki Kongre’de kendi kripto piyasa yapısı paketlerine dönüştürmeyi tartıştığını bildirdi; fikirler arasında SEC’e daha büyük ve CFTC’ye daha küçük bir rol veriliyor. Sektör kaynaklarına atfedilen haberler (yayımlanmış bir tasarı metnine değil), başkanın ve diğer federal yetkililerin kripto faaliyetlerini kısıtlayan etik hükümlerine de işaret etti. Cumhuriyetçiler Demokratların yaklaşımına “mesaj tasarısı” dedi. Önemli olan: resmî bir Demokrat piyasa yapısı metni henüz yayımlanmadı; bugünkü tablo hâlâ gazetecilerin aktardığı personel düzeyindeki görüşmelere dayanıyor.
+
+Ayrıca Bitcoin.com News, SEC’in 3 Kasım’da kripto aracı kurum (broker-dealer) kural paketi önerisini (RIN 3235-AN48) Beyaz Saray incelemesine sunduğunu bildirdi; paket sermaye, müşteri koruması ve kayıt tutma kurallarına (15c3-1, 15c3-3, 17a-3 ve 17a-4 gibi) dokunuyor. Taslak metin yayımlanmadı; bu nedenle yatırımcılar başvuruyu bitmiş bir kural kitabı olarak değil, bir süreç sinyali olarak görmeli.
+
+!mid_cta
+
+## Fiyatlar siyaseti neden hissetti
+
+Investing.com / Yahoo Finance’in 9 Kasım tarihli haberleri, bitcoin’in 74.000 dolar bandının ortalarına doğru gerilemesini ETF itfalarının yanı sıra Demokratların zaferinin ardından bozulan düzenleyici görünüme bağladı. CoinDesk ayrıca yeni çıkışı yapay zekâ ve teknoloji hisselerindeki huzursuzlukla ilişkilendirdi — Nasdaq beş haftalık bir kayıp serisi yaşamıştı —; bu da teknoloji ticareti soğuduğunda paranın yapay zekâdan bitcoin’e kayacağı umudunu zayıflatıyor.
+
+Duygu göstergeleri akışlarla örtüştü. SquawkNews, ETF çıkışları sürerken Kripto Korku ve Açgözlülük Endeksi’nin <strong>32</strong>’ye, yani korku bölgesine gerilediğini kaydetti.
+
+## Bu, sıradan ABD’li yatırımcılar için ne anlama geliyor
+
+Zaten bir ETF veya borsa hesabı üzerinden bitcoin ya da ether tutuyorsanız, haftanın dersi “kriptoyu bırakın”dan çok “akışlar ve siyaset kısa vadeli fiyatlara hâkim olabilir” şeklinde. Spot ETF çıkışları varlığın bozulduğu anlamına otomatik olarak gelmez; önemli bir alıcı grubunun net satıcı olduğu anlamına gelir. SEC ile CFTC yetki alanı üzerine yasama görüşmeleri aylarca sürebilir ve tasarıların yasalaşması için hâlâ yeterli oya ve birçok senaryoda başkanın imzasına ihtiyaç var.
+
+Yeni başlayanlar için pratik bir yaklaşım üç kararı birbirinden ayırmaktır: (1) uzun vadeli maruziyet isteyip istemediğiniz, (2) ETF’li bir aracı kurum hesabını mı yoksa bir borsada spot kripto almayı mı tercih ettiğiniz ve (3) Washington piyasa yapısını tartışırken ne kadar oynaklığa katlanabileceğiniz. Bu kararların hiçbiri kaldıraç gerektirmez. Hafta sonundaki yaklaşık 1 milyar dolarlık vadeli işlem tasfiyesi, borçlanılmış bahislerin siyasi ve piyasa şoklarını büyüttüğünü gösteren pahalı bir hatırlatmaydı. Borsa yolunu seçerseniz ve yeni başlıyorsanız, [bir Coinbase hesabı açmak](REF) ABD’de düzenlenmiş seçeneklerden biridir.
+
+Kısa vadede CoinDesk, salı günkü ABD TÜFE verisini getirileri ve risk iştahını oynatabilecek bir katalizör olarak işaret etti. Olumlu bir enflasyon rakamı bile ETF girişlerini bir gecede geri getirmeyebilir, ancak bu haftanın takviminde en net makro veri noktalarından biri.
+
+!soft: Kriptoya yeni mi başlıyorsunuz? [Coinbase’te bitcoin satın alma konusundaki yeni başlayanlar rehberimiz](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

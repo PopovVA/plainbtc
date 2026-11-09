@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PlainBTC</title>
+    <link>https://plainbtc.com/tr/</link>
+    <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
+    <language>tr</language>
+    <lastBuildDate>Mon, 09 Nov 2026 18:00:00 GMT</lastBuildDate>
+    <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FinCEN ve Fed, 250 dolarlık Travel Rule planından vazgeçti — 3.000 dolar eşiği korunuyor</title>
+      <link>https://plainbtc.com/tr/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+      <description>ABD’li düzenleyiciler, sınır ötesi eşikleri 250 dolara indirmeyi ve kriptoya özgü ifadeyi kaldırmayı öngören 2020 tarihli teklifi geri çekti. Ne değişti, ne değişmedi?</description>
+    </item>
+    <item>
+      <title>Bitcoin 50 haftalık hareketli ortalamasını kaybetti; long tasfiyeleri 1 milyar doları aştı</title>
+      <link>https://plainbtc.com/tr/articles/bitcoin-loses-50-week-moving-average-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/bitcoin-loses-50-week-moving-average-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 17:45:00 GMT</pubDate>
+      <description>BTC, çizginin yedi hafta üzerinde kaldıktan sonra yaklaşık 75.488 doların altında kapandı; CoinGlass 1,15 milyar dolarlık tasfiye kaydetti. Galaxy’nin kontrol noktası ne anlama geliyor?</description>
+    </item>
+    <item>
+      <title>PNC Bank, kurumsal müşteriler için Coinbase ile USDC ödemeleri pilotu başlattı</title>
+      <link>https://plainbtc.com/tr/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 17:30:00 GMT</pubDate>
+      <description>Uygun şirketler Coinbase Payments üzerinden Ethereum’da USDC alabiliyor; tutar otomatik olarak 1:1 oranında PNC’deki bir dolar mevduatına çevriliyor.</description>
+    </item>
+    <item>
+      <title>Bitcoin’in hafta sonu çalkantısı: Nvidia haberleri riskli varlıkları vururken 1 milyar dolar tasfiye edildi</title>
+      <link>https://plainbtc.com/tr/articles/bitcoin-volatility-liquidations-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/bitcoin-volatility-liquidations-nov-2026</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>BTC kısa süreliğine ~73.761 dolara gerileyip 75.000 doları geri aldı. Hareketi ne tetikledi, kimler tasfiye edildi ve traderlar sırada neyi izliyor?</description>
+    </item>
+    <item>
+      <title>Coinbase’te ilk bitcoin’inizi nasıl alırsınız (ABD’li yeni başlayanlar için rehber)</title>
+      <link>https://plainbtc.com/tr/articles/how-to-buy-first-bitcoin-coinbase</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/how-to-buy-first-bitcoin-coinbase</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Adım adım bir anlatım: hesap açın, kimliğinizi doğrulayın, ödeme yöntemi ekleyin, küçük bir ilk alım yapın ve ücretleri ile güvenliği aklınızda tutun.</description>
+    </item>
+    <item>
+      <title>Ara seçimlerin ardından: ETF çıkışları ve sırada daha sert bir kripto kural kitabı mı var?</title>
+      <link>https://plainbtc.com/tr/articles/us-midterms-crypto-regulation-etf-outflows</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/us-midterms-crypto-regulation-etf-outflows</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Spot bitcoin ETF’leri haziran ayından bu yana en büyük haftalık çıkışı kaydetti. Demokratlar Kongre’yi yönetmeye hazırlanırken piyasalar düzenleyici belirsizliği fiyatlıyor.</description>
+    </item>
+  </channel>
+</rss>

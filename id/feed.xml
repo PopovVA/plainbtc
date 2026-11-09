@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PlainBTC</title>
+    <link>https://plainbtc.com/id/</link>
+    <description>Berita Bitcoin dan kripto dengan bahasa sederhana untuk pemula</description>
+    <language>id</language>
+    <lastBuildDate>Mon, 09 Nov 2026 18:00:00 GMT</lastBuildDate>
+    <atom:link href="https://plainbtc.com/id/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FinCEN dan The Fed batalkan rencana Travel Rule US$250 — ambang US$3.000 tetap berlaku</title>
+      <link>https://plainbtc.com/id/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+      <description>Regulator AS menarik usulan tahun 2020 yang akan menurunkan ambang lintas negara menjadi US$250 dan menghapus redaksi khusus kripto. Apa yang berubah — dan apa yang tidak.</description>
+    </item>
+    <item>
+      <title>Bitcoin kehilangan rata-rata bergerak 50 minggu saat likuidasi posisi long tembus US$1 miliar</title>
+      <link>https://plainbtc.com/id/articles/bitcoin-loses-50-week-moving-average-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/bitcoin-loses-50-week-moving-average-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 17:45:00 GMT</pubDate>
+      <description>BTC ditutup di bawah sekitar US$75.488 setelah tujuh minggu di atas garis itu, sementara CoinGlass mencatat likuidasi US$1,15 miliar. Apa arti titik pantau Galaxy selanjutnya.</description>
+    </item>
+    <item>
+      <title>PNC Bank uji coba pembayaran USDC bersama Coinbase untuk klien korporasi</title>
+      <link>https://plainbtc.com/id/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 17:30:00 GMT</pubDate>
+      <description>Korporasi yang memenuhi syarat bisa menerima USDC di Ethereum lewat Coinbase Payments, dengan konversi otomatis 1:1 menjadi simpanan dolar di PNC.</description>
+    </item>
+    <item>
+      <title>Ayunan bitcoin di akhir pekan: US$1 miliar terlikuidasi saat berita Nvidia menekan aset berisiko</title>
+      <link>https://plainbtc.com/id/articles/bitcoin-volatility-liquidations-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/bitcoin-volatility-liquidations-nov-2026</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>BTC sempat turun ke ~US$73.761 sebelum kembali ke US$75.000. Apa yang mendorong pergerakan ini, siapa yang terlikuidasi, dan apa yang dipantau trader.</description>
+    </item>
+    <item>
+      <title>Cara membeli bitcoin pertama Anda di Coinbase (panduan pemula di AS)</title>
+      <link>https://plainbtc.com/id/articles/how-to-buy-first-bitcoin-coinbase</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/how-to-buy-first-bitcoin-coinbase</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Panduan langkah demi langkah: buat akun, verifikasi identitas, tambahkan metode pembayaran, lakukan pembelian pertama dalam jumlah kecil, dan perhatikan biaya serta keamanan.</description>
+    </item>
+    <item>
+      <title>Setelah pemilu paruh waktu: arus keluar ETF dan aturan kripto yang lebih ketat di depan?</title>
+      <link>https://plainbtc.com/id/articles/us-midterms-crypto-regulation-etf-outflows</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/us-midterms-crypto-regulation-etf-outflows</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>ETF bitcoin spot baru saja mencatat arus keluar mingguan terbesar sejak Juni. Pasar memperhitungkan ketidakpastian regulasi ketika Demokrat bersiap memimpin Kongres.</description>
+    </item>
+  </channel>
+</rss>

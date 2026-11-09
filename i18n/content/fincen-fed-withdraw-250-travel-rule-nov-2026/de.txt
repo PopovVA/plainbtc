@@ -1,0 +1,50 @@
+title: FinCEN und Fed kippen Travel-Rule-Plan über 250 Dollar – Schwelle von 3.000 Dollar bleibt
+page_title: FinCEN und Fed kippen den 250-Dollar-Plan zur Travel Rule
+description: US-Aufsichtsbehörden haben einen Vorschlag von 2020 zurückgezogen, die grenzüberschreitende Travel-Rule-Schwelle von 3.000 auf 250 Dollar zu senken und die krypto-spezifische Formulierung zu streichen. Was sich für Banken und Krypto-Nutzer ändert.
+og_description: FinCEN und die Fed haben einen Plan von 2020 zurückgezogen, die Travel-Rule-Schwelle auf 250 Dollar zu senken.
+label: Regulierung
+summary: US-Aufsichtsbehörden haben einen Vorschlag von 2020 zurückgezogen, der die grenzüberschreitenden Schwellen auf 250 Dollar gesenkt und die krypto-spezifische Formulierung gestrichen hätte. Was sich ändert – und was nicht.
+===
+
+Am Montag, dem 9. November 2026, haben das Financial Crimes Enforcement Network (FinCEN) und das Board of Governors der Federal Reserve einen gemeinsamen Vorschlag von 2020 offiziell zurückgezogen, der die Schwelle des Bank Secrecy Act für viele grenzüberschreitende Geldüberweisungen von <strong>3.000</strong> auf <strong>250 Dollar</strong> gesenkt hätte. Die Mitteilung erschien im [Federal Register](L1) und besagt, dass die Behörden zu diesem Regelungsentwurf „keine weiteren Schritte unternehmen“ werden.
+
+Für den normalen US-Leser lautet die praktische Schlagzeile schlicht: Die seit Langem geltende Grenze von <strong>3.000 Dollar</strong> für Aufzeichnungspflichten und die Travel Rule bleibt vorerst bestehen. Nichts in der Einreichung vom Montag hebt geltende Regeln auf. Entfallen ist der konkrete Weg zu einer 250-Dollar-Schwelle – und die vorgeschlagene Formulierung, die konvertible virtuelle Währung ausdrücklicher in die Definition von „Geld“ für diese Vorschriften aufgenommen hätte.
+
+!takeaways
+- FinCEN und die Fed haben ihren Entwurf vom 27. Oktober 2020 mit Wirkung vom 9. November 2026 zurückgezogen.
+- Der Vorschlag hätte bestimmte grenzüberschreitende Schwellen von 3.000 auf 250 Dollar gesenkt.
+- Außerdem sollte klargestellt werden, dass die Regeln konvertible virtuelle Währungen und einige digitale Vermögenswerte mit gesetzlichem Zahlungsmittelstatus umfassen.
+- Die bestehende Schwelle von 3.000 Dollar bleibt; die Behörden sagten zu, vor einer ähnlichen Neufassung erneut die Öffentlichkeit anzuhören.
+
+## Was der Vorschlag von 2020 bewirkt hätte
+
+Nach dem geltenden Bank Secrecy Act müssen Banken und viele Nichtbank-Finanzinstitute bei Überweisungen ab <strong>3.000 Dollar</strong>, die außerhalb der USA beginnen oder enden, Identifikationsdaten erheben, aufbewahren und – in Travel-Rule-Fällen – weitergeben. Der Entwurf von 2020 wollte diese Schwelle für die erfassten grenzüberschreitenden Vorgänge auf <strong>250 Dollar</strong> senken und klarstellen, dass „Geld“ konvertible virtuelle Währungen (CVC) und digitale Vermögenswerte einschließt, die für den Empfänger gesetzliches Zahlungsmittel sind.
+
+Datenschutz- und Krypto-Interessenverbände hatten sich lange gegen die niedrigere Grenze gewehrt: Sie würde gewöhnliche Rücküberweisungen von Migranten und kleinere Transfers in einen aufwendigeren Überwachungsapparat ziehen. Auch Stimmen aus dem Banken- und Zahlungsdienstleistersektor warnten vor Compliance-Kosten. Laut der Zusammenfassung von Bitcoin Magazine zur Rücknahme erhielten die Behörden knapp <strong>3.000</strong> Stellungnahmen, viele davon ähnliche Standardschreiben gegen die Absenkung.
+
+!mid_cta
+
+## Warum die Behörden jetzt zurückrudern
+
+Die Mitteilung im Federal Register nennt zwei Hauptgründe. Erstens liegt der Vorschlag über fünf Jahre zurück, und die Behörden wollen weitere Rückmeldungen der Öffentlichkeit einholen, bevor sie etwas Ähnliches beschließen – die Rücknahme schafft also Gewissheit, dass keine endgültige Regel ohne eine weitere Kommentierungsphase kommt. Zweitens haben sich Kryptomärkte und rechtliche Rahmenbedingungen verändert. Die Mitteilung nennt das am 18. Juli 2025 in Kraft getretene Stablecoin-Gesetz GENIUS Act als Beispiel für neue Rahmenwerke, die eine künftige CVC-bezogene Überarbeitung der Travel Rule berücksichtigen sollte, damit Änderungen „zweckmäßig“ sind.
+
+Der Schritt vom Montag passt zudem in ein jüngeres Muster von Kehrtwenden des Finanzministeriums. The Block berichtete, FinCEN habe zuvor schon seinen Vorschlag von 2020 zu „unhosted Wallets“ und einen Plan von 2023 zurückgenommen, internationales Krypto-Mixing als Hauptbedenken bei der Geldwäsche einzustufen. Die Rücknahme eines Vorschlags ist nicht dasselbe wie lockerere Durchsetzung: Andere Instrumente können weiter gezielt gegen einzelne Plattformen eingesetzt werden. Bitcoin Magazine wies darauf hin, dass FinCEN kürzlich die Börse MEXC wegen mutmaßlicher Sanktionsumgehung vom US-Finanzsystem ausgeschlossen hat.
+
+## Was sich für Krypto-Nutzer ändert – und was nicht
+
+Wer über eine US-Börse oder ein anderes verpflichtetes Institut Bitcoin oder Dollar-Stablecoins sendet oder empfängt, spürt durch die Mitteilung vom Montag keine plötzliche Lockerung bei Identitätsprüfungen, Sanktionsabgleich oder der bisherigen Travel-Rule-Praxis. Diese Pflichten gelten weiter nach den derzeitigen Regeln und Leitlinien. Entfallen ist das näherliegende Risiko, dass eine endgültige grenzüberschreitende Schwelle von 250 Dollar – samt der Krypto-Formulierung dieses Pakets – ohne neues Rechtsetzungsverfahren in Kraft getreten wäre.
+
+Wer lieber ein Konto bei einer regulierten US-Börse hat als unbeaufsichtigte Peer-to-Peer-Wege, für den gilt: Plattformen wie [Coinbase](REF) unterliegen unabhängig von dieser Rücknahme weiterhin den Programmen nach Bank Secrecy Act und Geldwäschebekämpfung. Der politische Streit dreht sich nun darum, ob FinCEN und die Fed einen neuen Vorschlag vorlegen, der die Stablecoin-Gesetzgebung, Messaging-Standards der Branche und die Realität von Rücküberweisungen berücksichtigt – oder die 3.000-Dollar-Grenze länger unangetastet lassen.
+
+## Was als Nächstes zu beobachten ist
+
+- Jeder neue Regelungsentwurf von FinCEN oder der Fed, der Travel-Rule-Schwellen oder Krypto-Definitionen erneut aufgreift.
+- Stablecoin-Vorschläge zu Geldwäscheprävention und Kundenidentifizierung im Zusammenhang mit dem Umsetzungsfahrplan des GENIUS Act.
+- Einzelfall-Durchsetzungsmaßnahmen gegen namentlich genannte Plattformen, die auch bei zurückgezogenen Grundsatzvorschlägen weiterlaufen können.
+- Wie Banken und Börsen ihre Compliance-Handbücher anpassen, nachdem seit Montag feststeht, dass das Paket von 2020 nicht wie geschrieben verabschiedet wird.
+
+!soft: Neu bei Krypto? Lies unseren [Einsteiger-Ratgeber zum Bitcoin-Kauf bei Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

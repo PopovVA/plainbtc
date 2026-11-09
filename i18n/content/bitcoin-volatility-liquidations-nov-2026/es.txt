@@ -1,0 +1,41 @@
+title: El vaivén de bitcoin en el fin de semana: 1.000 millones liquidados mientras los titulares de Nvidia golpean a los activos de riesgo
+page_title: El vaivén de bitcoin en el fin de semana: 1.000 millones liquidados
+description: Bitcoin cayó hasta unos 73.761 dólares y luego rebotó por encima de los 75.000, mientras se liquidaban más de 1.000 millones de dólares en posiciones apalancadas. Qué pasó y qué vigilar ahora.
+og_description: BTC cayó brevemente a unos 73.761 dólares antes de recuperar los 75.000. Un repaso a las liquidaciones, los titulares de Nvidia y lo que vigilan los traders el lunes.
+label: Resumen del mercado
+summary: BTC cayó brevemente hasta unos 73.761 dólares antes de recuperar los 75.000. Qué impulsó el movimiento, a quién liquidaron y qué vigilan los traders.
+===
+
+El mercado cripto pasó el fin de semana haciendo lo que suele hacer cuando los mercados tradicionales están cerrados: absorber cada titular y castigar a quienes se apoyan demasiado en el apalancamiento. Bitcoin cayó hasta unos <strong>73.761 dólares</strong> a última hora del domingo, su nivel más bajo desde agosto, antes de recuperarse y cotizar por encima de los <strong>75.000 dólares</strong>, según CoinDesk. Ether se hundió por debajo de los <strong>2.100 dólares</strong> y luego rebotó hasta cerca de los <strong>2.144</strong>.
+
+Las oscilaciones de precio no fueron solo cosméticas. Los datos de CoinGlass citados por CoinDesk mostraron <strong>más de 1.000 millones de dólares</strong> en posiciones apalancadas de criptomonedas liquidadas en 24 horas. Alrededor de <strong>913 millones</strong> de ese total correspondieron a posiciones largas, es decir, a traders que apostaban por una subida de precios. Ether absorbió la mayor parte de las ventas forzosas en comparación con bitcoin: unos <strong>448 millones</strong> en liquidaciones frente a unos <strong>272 millones</strong> de bitcoin. La mayor liquidación individual fue una posición en ethereum de unos <strong>48 millones de dólares</strong>.
+
+## Por qué se movió el mercado
+
+Destacaron dos noticias del fin de semana. La primera, las informaciones según las cuales el consejero delegado de Nvidia, Jensen Huang, habría admitido una aventura con una mujer que, según las autoridades estadounidenses, podría haber estado recopilando información para Pekín. El consejo de administración de Nvidia dijo que abrió una investigación independiente y que no tiene motivos para creer que se hayan visto comprometidos la seguridad nacional ni secretos de la empresa. Aun así, la noticia llegó a un mercado ya inquieto por la solidez de la apuesta por la IA: el Nasdaq había caído casi un 5 % la semana anterior y acumulaba varias semanas de pérdidas.
+
+Los sustitutos nativos del mundo cripto reaccionaron antes de que Wall Street reabriera. CoinDesk informó de que NVDAX, un producto tokenizado de acciones de Nvidia, cayó cerca de un <strong>3,55 %</strong> hasta los <strong>180,42 dólares</strong> en 24 horas, mientras que la acción subyacente de Nvidia había cerrado el viernes en <strong>186,64 dólares</strong>: un descuento que sugería que los traders cripto descontaban una apertura más débil el lunes.
+
+La segunda, el secretario de Estado de EE. UU., Marco Rubio, dijo que las negociaciones con Irán estaban estancadas y calificó de «escandalosas» las exigencias iraníes, lo que mantiene en el foco el riesgo geopolítico en Oriente Medio. CoinDesk señaló que bitcoin ha caído con frecuencia durante los movimientos de aversión al riesgo ligados al petróleo desde que el conflicto se intensificó a principios de 2026, pese a la vieja narrativa del «oro digital».
+
+!mid_cta
+
+## Los derivados dibujaron un panorama de aversión al riesgo
+
+Otro resumen de mercado de CoinDesk del 9 de noviembre aportó más matices. El volumen de negociación de futuros se disparó más de un <strong>200 %</strong>, hasta unos <strong>180.000 millones de dólares</strong>, al terminar la calma del fin de semana, mientras que el interés abierto cayó cerca de un <strong>3 %</strong>, hasta unos <strong>127.000 millones</strong>: una combinación coherente con traders que cierran posiciones en lugar de añadir apalancamiento nuevo. Las liquidaciones en esa instantánea más amplia alcanzaron unos <strong>1.100 millones de dólares</strong>. Los mercados de opciones también mostraron una demanda creciente de protección a la baja: la volatilidad implícita de bitcoin a una semana subió hasta cerca del <strong>43 %</strong> desde alrededor del <strong>33 %</strong> del jueves, y la de ether pasó a cerca del <strong>60 %</strong> desde alrededor del <strong>46 %</strong>.
+
+Solo cinco de las 100 principales criptomonedas por capitalización subieron un 1 % o más en 24 horas en ese resumen, lo que da idea de lo generalizado que fue el tono de aversión al riesgo entre las grandes, incluidas bitcoin, ether, XRP y solana.
+
+## Qué deben vigilar los lectores de EE. UU.
+
+El rebote por encima de los 75.000 dólares fue bienvenido para quienes mantienen sus posiciones, pero CoinDesk advirtió de que, en el momento de redactar el artículo, el repunte ya se había estancado. Entre los niveles técnicos a corto plazo que señaló figuraban la media de 200 días, cerca de <strong>73.150 dólares</strong>, como soporte, y la media de 100 días, cerca de <strong>77.430</strong>, como resistencia.
+
+En la práctica, la apertura del lunes en los mercados tradicionales importa porque los movimientos cripto del fin de semana a menudo se confirman, o se revierten, cuando los futuros del Nasdaq y las acciones al contado descuentan la noticia de Nvidia. Por otro lado, el Crypto Daily de CoinDesk señaló que los traders vigilan el índice de precios al consumo de EE. UU. del martes: un dato más suave podría aliviar los rendimientos de los bonos y ayudar a los activos de riesgo, aunque sostener las subidas puede seguir siendo difícil sin una demanda más fuerte de los ETF de bitcoin al contado.
+
+Si eres un inversor a largo plazo y no un trader apalancado, el fin de semana fue un recordatorio de una regla sencilla: la volatilidad es normal, y las liquidaciones forzosas afectan sobre todo a quienes pidieron prestado para amplificar una apuesta direccional. Tener bitcoin al contado en un exchange regulado de EE. UU. implica un perfil de riesgo distinto al de los futuros perpetuos. Si estás empezando, [abrir una cuenta en Coinbase](REF) es una opción regulada en EE. UU. para comprar bitcoin sin el apalancamiento de los futuros.
+
+!soft: ¿Nuevo en cripto? Lee nuestra [guía para principiantes sobre cómo comprar bitcoin en Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

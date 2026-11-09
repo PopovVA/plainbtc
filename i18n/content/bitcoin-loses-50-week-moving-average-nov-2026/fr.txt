@@ -1,0 +1,50 @@
+title: Le bitcoin perd sa moyenne mobile à 50 semaines alors que les liquidations de positions longues dépassent 1 milliard de dollars
+page_title: Le bitcoin perd sa moyenne mobile à 50 semaines
+description: Le bitcoin a clôturé sous sa moyenne mobile à 50 semaines pour la première fois en huit semaines. CoinGlass recense 1,15 milliard de dollars de liquidations, et Galaxy rappelle comment ont fini d’autres tentatives de reconquête ratées.
+og_description: Le BTC a clôturé sous sa moyenne à 50 semaines, autour de 75 488 dollars, après sept semaines au-dessus.
+label: Marchés
+summary: Le BTC a clôturé sous environ 75 488 dollars après sept semaines au-dessus de cette ligne, et CoinGlass recense 1,15 milliard de dollars de liquidations. Ce que signifie le point de contrôle de Galaxy.
+===
+
+Le bitcoin a clôturé dimanche sous sa moyenne mobile à 50 semaines pour la première fois en huit semaines, mettant fin à une série de sept semaines au-dessus d’un niveau que beaucoup d’analystes graphiques considèrent comme une ligne de tendance à moyen terme. The Block, citant une étude de Galaxy, situe cette moyenne près de <strong>75 488 dollars</strong>, le bitcoin terminant la semaine environ <strong>0,7 %</strong> en dessous. Lundi matin, le marché est brièvement passé sous <strong>74 000 dollars</strong>, tandis que les positions longues à effet de levier étaient de nouveau balayées.
+
+Cette cassure technique intervient sur des flux déjà fragiles. Les ETF bitcoin au comptant américains ont enregistré environ <strong>1,28 milliard de dollars</strong> de sorties nettes hebdomadaires, soit le plus depuis fin juin, et sont repassés en négatif pour 2026, avec environ <strong>914,1 millions de dollars</strong> de rachats depuis le début de l’année, selon The Block. L’IBIT de BlackRock a à lui seul cédé environ <strong>403 millions de dollars</strong> vendredi.
+
+!takeaways
+- Le BTC a clôturé sous sa moyenne mobile à 50 semaines (environ 75 488 dollars) après sept semaines au-dessus.
+- CoinGlass a recensé plus de 1,15 milliard de dollars de liquidations en 24 heures, surtout des positions longues.
+- Environ 167 764 traders ont été liquidés sur cette période ; le plus gros ordre était une position longue sur l’ETH d’environ 48,2 millions de dollars sur Binance.
+- Alex Thorn, de Galaxy, estime que son scénario haussier d’octobre reste valable si le BTC reprend la moyenne dans un délai d’un mois.
+
+## Les liquidations montrent comment l’effet de levier amplifie une cassure technique
+
+Les données de CoinGlass rapportées par The Block font état de plus de <strong>1,15 milliard de dollars</strong> de liquidations en 24 heures, dont environ <strong>1,04 milliard</strong> de positions longues et <strong>117 millions</strong> de positions courtes. Les traders d’ether représentent plus de <strong>500 millions</strong> des ventes forcées, contre environ <strong>309 millions</strong> pour le bitcoin. Le plus gros ordre individuel était une position longue ETH-USDT de <strong>48,2 millions de dollars</strong> sur Binance. CoinGlass a compté <strong>167 764</strong> traders liquidés sur la période. The Block précise que les flux de liquidations sont imparfaits et que les totaux sont probablement sous-estimés lorsque les plateformes déclarent des rafales de façon incomplète.
+
+Pour les détenteurs au comptant — ceux qui achètent du bitcoin sans argent emprunté — la perte d’une moyenne mobile est un signal, pas un appel de marge automatique. Ceux qui ont le plus souffert dimanche et lundi sont les traders de contrats perpétuels et d’autres produits à effet de levier. C’est l’une des raisons pour lesquelles on oriente souvent les débutants vers des achats au comptant sur une plateforme réglementée plutôt que vers les contrats à terme : si vous débutez, [ouvrir un compte Coinbase](REF) est une option réglementée aux États-Unis pour acheter du bitcoin au comptant, sans la mécanique de liquidation forcée d’un fort effet de levier.
+
+!mid_cta
+
+## Ce que dit l’histoire quand la moyenne à 50 semaines lâche après avoir été reprise
+
+Alex Thorn, responsable de la recherche chez Galaxy, a replacé ce niveau dans les cycles précédents. Le bitcoin avait repris la moyenne à 50 semaines le 20 septembre et l’avait conservée pendant sept semaines avant la clôture de dimanche. Lors des reprises de marchés baissiers de 2011-2012 et de 2019-2020, rappelle Thorn, le bitcoin avait aussi perdu la moyenne après être repassé au-dessus. Dans le premier cas, il est resté encore 20 semaines sous la ligne et a chuté jusqu’à <strong>35 %</strong> en dessous. En 2019-2020, il est retombé cinq fois sous la moyenne, dont une période de huit semaines pendant le krach du Covid. Dans les deux échantillons, dit-il, le point bas précédent du marché baissier a tenu en clôture hebdomadaire.
+
+Thorn souligne aussi les limites de l’échantillon : seulement cinq reprises, et les creux ne sont connus qu’après coup. Galaxy soutenait en octobre que le point bas du cycle était derrière nous, en s’appuyant sur le creux précédent de <strong>59 517 dollars</strong>, le 28 juin. Lundi, Thorn a indiqué que ce scénario technique haussier d’octobre resterait valable si le bitcoin reprenait la moyenne à 50 semaines dans le mois — un point de contrôle explicite à court terme, pas une garantie.
+
+## Comment cela s’inscrit dans le marché
+
+La perte de la moyenne mobile s’ajoute à deux autres points de pression que les lecteurs américains avaient déjà vus cette semaine : de lourds rachats d’ETF et un ton d’aversion au risque sur les valeurs technologiques. Le Crypto Daily de CoinDesk note que les ETF bitcoin au comptant ont enregistré une sortie nette hebdomadaire de <strong>1,282 milliard de dollars</strong> — la plus forte depuis la semaine du 22 au 28 juin — et affichent environ <strong>914 millions</strong> de sorties depuis le début de l’année, après être passés en positif pour 2026 le 22 septembre. Une demande d’ETF molle ne provoque pas à elle seule une cassure du graphique hebdomadaire, mais elle supprime un acheteur en dernier ressort sur lequel beaucoup de haussiers comptaient d’ici la fin de l’année.
+
+Le calendrier macroéconomique pèse toujours. Les traders surveillent l’indice des prix à la consommation américain de mardi. Un chiffre plus doux pourrait détendre les rendements et aider les actifs risqués ; un chiffre élevé pourrait prolonger la pression qui a déjà fait passer le bitcoin sous la ligne des 50 semaines.
+
+## À surveiller ensuite
+
+- Le bitcoin parviendra-t-il à reprendre et à conserver la moyenne à 50 semaines, vers 75 488 dollars, dans le mois à venir (le point de contrôle de Galaxy) ?
+- Les flux quotidiens et hebdomadaires des ETF au comptant après les 1,28 milliard de dollars de sorties de la semaine dernière.
+- La publication de l’indice des prix de mardi et ses répercussions sur les contrats à terme Nasdaq et le financement des perpétuels crypto.
+- L’intérêt ouvert se reconstitue-t-il vite après la purge de plus d’un milliard de positions longues, ou reste-t-il faible ?
+
+!soft: Débutant en crypto ? Lisez notre [guide pour acheter du bitcoin sur Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

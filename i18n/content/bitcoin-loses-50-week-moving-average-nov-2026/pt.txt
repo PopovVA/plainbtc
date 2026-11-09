@@ -1,0 +1,50 @@
+title: Bitcoin perde a média móvel de 50 semanas enquanto liquidações de posições compradas passam de US$ 1 bilhão
+page_title: Bitcoin perde a média móvel de 50 semanas
+description: O bitcoin fechou abaixo da média móvel de 50 semanas pela primeira vez em oito semanas. A CoinGlass registrou US$ 1,15 bilhão em liquidações, e a Galaxy lembrou como terminaram outras recuperações que falharam.
+og_description: O BTC fechou abaixo da média de 50 semanas, perto de US$ 75.488, após sete semanas acima.
+label: Mercados
+summary: O BTC fechou abaixo de cerca de US$ 75.488 após sete semanas acima da linha, e a CoinGlass registrou US$ 1,15 bilhão em liquidações. O que significa o ponto de controle da Galaxy.
+===
+
+O bitcoin fechou o domingo abaixo da média móvel de 50 semanas pela primeira vez em oito semanas, encerrando uma sequência de sete semanas acima de um nível que muitos analistas gráficos tratam como linha de tendência de médio prazo. O The Block, citando um relatório da Galaxy, situou essa média perto de <strong>US$ 75.488</strong>, com o bitcoin terminando a semana cerca de <strong>0,7%</strong> abaixo dela. Na manhã de segunda-feira, o mercado chegou a negociar brevemente abaixo de <strong>US$ 74.000</strong>, enquanto posições compradas alavancadas eram novamente liquidadas.
+
+O rompimento técnico veio sobre fluxos que já estavam frágeis. Os ETFs de bitcoin à vista dos EUA registraram cerca de <strong>US$ 1,28 bilhão</strong> em saídas líquidas semanais, as maiores desde o fim de junho, e viraram para o negativo em 2026, com aproximadamente <strong>US$ 914,1 milhões</strong> em resgates acumulados no ano, segundo o The Block. Só o IBIT, da BlackRock, perdeu cerca de <strong>US$ 403 milhões</strong> na sexta-feira.
+
+!takeaways
+- O BTC fechou abaixo da média móvel de 50 semanas (cerca de US$ 75.488) após sete semanas acima dela.
+- A CoinGlass registrou mais de US$ 1,15 bilhão em liquidações em 24 horas, principalmente posições compradas.
+- Cerca de 167.764 traders foram liquidados nesse período; a maior ordem foi uma posição comprada em ETH de cerca de US$ 48,2 milhões na Binance.
+- Alex Thorn, da Galaxy, disse que a tese de alta que ele apresentou em outubro continua válida se o BTC recuperar a média em até um mês.
+
+## As liquidações mostram como a alavancagem amplifica um rompimento técnico
+
+Dados da CoinGlass divulgados pelo The Block apontaram liquidações totais acima de <strong>US$ 1,15 bilhão</strong> em 24 horas, incluindo cerca de <strong>US$ 1,04 bilhão</strong> em posições compradas e <strong>US$ 117 milhões</strong> em vendidas. Os traders de ether responderam por mais de <strong>US$ 500 milhões</strong> das vendas forçadas, contra cerca de <strong>US$ 309 milhões</strong> do bitcoin. A maior ordem individual foi uma posição comprada de ETH-USDT de <strong>US$ 48,2 milhões</strong> na Binance. A CoinGlass contou <strong>167.764</strong> traders liquidados no período. O The Block alertou que os feeds de liquidação são imperfeitos e que os totais provavelmente ficam subestimados quando as corretoras informam rajadas incompletas.
+
+Para quem tem bitcoin à vista, isto é, quem compra sem dinheiro emprestado, perder uma média móvel é um sinal, não uma chamada de margem automática. Quem sentiu domingo e segunda-feira com mais força foram os traders de futuros perpétuos e outros produtos alavancados. É um dos motivos pelos quais os iniciantes costumam ser orientados a comprar à vista em uma exchange regulada, e não futuros: se você está começando, [abrir uma conta na Coinbase](REF) é uma opção regulada nos EUA para bitcoin à vista, sem a mecânica de liquidação forçada da alavancagem alta.
+
+!mid_cta
+
+## O que a história diz quando a média de 50 semanas falha depois de ser recuperada
+
+Alex Thorn, chefe de pesquisa da Galaxy, comparou esse nível com ciclos anteriores. O bitcoin havia recuperado a média de 50 semanas em 20 de setembro e a manteve por sete semanas até o fechamento de domingo. Nas recuperações dos mercados de baixa de 2011-2012 e de 2019-2020, observou Thorn, o bitcoin também perdeu a média depois de voltar a ficar acima dela. No primeiro caso, passou mais 20 semanas abaixo da linha e chegou a cair <strong>35%</strong> abaixo dela. Em 2019-2020, voltou para baixo da média cinco vezes, incluindo um período de oito semanas durante a queda da Covid. Nas duas amostras, disse ele, a mínima anterior do mercado de baixa se manteve no fechamento semanal.
+
+Thorn também destacou os limites da amostra: apenas cinco recuperações, e fundos só são conhecidos em retrospectiva. A Galaxy havia defendido em outubro que a mínima do ciclo já tinha ficado para trás, apontando a mínima anterior de <strong>US$ 59.517</strong>, em 28 de junho. Na segunda-feira, Thorn disse que essa tese técnica de alta de outubro continuaria válida se o bitcoin retomasse a média de 50 semanas em até um mês — um ponto de controle explícito de curto prazo, não uma garantia.
+
+## Como isso se encaixa no restante do mercado
+
+A perda da média móvel soma-se a dois outros pontos de pressão que os leitores dos EUA já viram nesta semana: resgates pesados nos ETFs e um tom de aversão a risco nas ações de tecnologia. O Crypto Daily da CoinDesk observou que os ETFs de bitcoin à vista registraram saída líquida semanal de <strong>US$ 1,282 bilhão</strong>, a maior desde a semana de 22 a 28 de junho, e acumulam queda de cerca de <strong>US$ 914 milhões</strong> no ano, depois de terem virado positivos em 2026 em 22 de setembro. A demanda fraca por ETFs não causa sozinha um rompimento no gráfico semanal, mas elimina um comprador de última instância com o qual muitos otimistas contavam até o fim do ano.
+
+O calendário macroeconômico continua pesando. Os traders acompanham o índice de preços ao consumidor dos EUA na terça-feira. Um número mais fraco pode aliviar os juros e ajudar ativos de risco; um número forte pode prolongar a pressão que já empurrou o bitcoin para baixo da linha de 50 semanas.
+
+## O que acompanhar daqui para a frente
+
+- Se o bitcoin consegue recuperar e manter a média de 50 semanas, perto de US$ 75.488, no próximo mês (o ponto de controle da Galaxy).
+- Os dados diários e semanais de fluxo dos ETFs à vista depois da saída de US$ 1,28 bilhão na semana passada.
+- A divulgação do IPC na terça-feira e qualquer desdobramento nos futuros da Nasdaq e no funding dos perpétuos de cripto.
+- Se o interesse em aberto se reconstrói rápido depois da limpeza de mais de US$ 1 bilhão em posições compradas ou se segue contido.
+
+!soft: Novo em cripto? Veja o nosso [guia para iniciantes sobre como comprar bitcoin na Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,28 @@
+h1: Affiliate & referral disclosure
+page_title: Affiliate disclosure — PlainBTC
+og_title: Affiliate disclosure — PlainBTC
+description: FTC-compliant affiliate disclosure for PlainBTC: Coinbase referral links, how we may be compensated, and not financial advice.
+og_description: How PlainBTC uses Coinbase referral links and what that means for you.
+===
+
+In accordance with the U.S. Federal Trade Commission’s endorsement guides, PlainBTC discloses material connections with advertisers and referral programs.
+
+## Coinbase referral links
+
+Some pages on this site include a Coinbase referral link ([https://coinbase.com/join/F2XRWRL?src=referral-link](REFD)). If you create a <strong>new</strong> Coinbase account through that link and complete a qualifying trade, Coinbase may provide a bonus to eligible new users, and PlainBTC may receive a referral reward. Eligible new users may receive a bonus after a qualifying trade; terms vary by country and can change. Always check the offer shown on Coinbase’s signup page and Coinbase’s current referral terms.
+
+Using our link does not cost you extra. We are not affiliated with Coinbase beyond participation in Coinbase’s standard referral program.
+
+## How we mark links
+
+Referral links on this site use <code>rel="sponsored"</code> (and open in a new tab). Article pages also include an on-page disclosure next to the call-to-action.
+
+## Not financial advice
+
+Content on PlainBTC is for informational and educational purposes only. It is not investment, trading, legal, tax, or financial advice. Cryptocurrency is volatile and you can lose money. Do your own research and consider consulting a qualified professional before making financial decisions.
+
+## Independence
+
+Editorial descriptions of products and market events are our own. Compensation from referral programs does not change disclosed facts sourced from public reporting, but it is a material connection you should know about when evaluating our content.
+
+Last updated: November 9, 2026.

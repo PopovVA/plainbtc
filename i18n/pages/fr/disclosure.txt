@@ -1,0 +1,30 @@
+h1: Déclaration d’affiliation et de parrainage
+page_title: Déclaration d’affiliation — PlainBTC
+og_title: Déclaration d’affiliation — PlainBTC
+description: Déclaration d’affiliation de PlainBTC conforme aux règles de la FTC : liens de parrainage Coinbase, rémunération éventuelle et absence de conseil financier.
+og_description: Comment PlainBTC utilise les liens de parrainage Coinbase et ce que cela signifie pour vous.
+===
+
+Conformément aux lignes directrices de la Federal Trade Commission (FTC) américaine sur les recommandations commerciales, PlainBTC déclare ses liens d’intérêt avec des annonceurs et des programmes de parrainage.
+
+## Liens de parrainage Coinbase
+
+Certaines pages de ce site contiennent un lien de parrainage Coinbase ([https://coinbase.com/join/F2XRWRL?src=referral-link](REFD)). Si vous créez un <strong>nouveau</strong> compte Coinbase via ce lien et effectuez un achat éligible, Coinbase peut accorder un bonus aux nouveaux utilisateurs éligibles et PlainBTC peut recevoir une récompense de parrainage. Les conditions varient selon les pays et peuvent changer. Vérifiez toujours l’offre affichée sur la page d’inscription de Coinbase ainsi que ses conditions de parrainage en vigueur.
+
+Où cela s’applique : d’après les conditions publiées par Coinbase, son programme de parrainage international mentionne actuellement la Pologne et le Portugal, et Coinbase gère un programme distinct aux États-Unis. Coinbase n’est pas disponible dans tous les pays et nous ne promettons aucun bonus : consultez l’offre sur la page d’inscription.
+
+Utiliser notre lien ne vous coûte rien de plus. Nous n’avons aucun lien avec Coinbase en dehors de notre participation à son programme de parrainage standard.
+
+## Comment nous signalons les liens
+
+Les liens de parrainage de ce site utilisent <code>rel="sponsored"</code> et s’ouvrent dans un nouvel onglet. Les pages d’articles comportent aussi une mention de transparence à côté de l’appel à l’action.
+
+## Pas de conseil financier
+
+Le contenu de PlainBTC est fourni à titre purement informatif et pédagogique. Il ne constitue ni un conseil en investissement, ni un conseil de trading, juridique, fiscal ou financier. Les cryptomonnaies sont volatiles et vous pouvez perdre de l’argent. Faites vos propres recherches et envisagez de consulter un professionnel qualifié avant toute décision financière.
+
+## Indépendance
+
+Les descriptions éditoriales des produits et des événements de marché sont les nôtres. La rémunération issue des programmes de parrainage ne modifie pas les faits issus de sources publiques, mais c’est un lien d’intérêt que vous devez connaître pour évaluer notre contenu.
+
+Dernière mise à jour : 9 novembre 2026.

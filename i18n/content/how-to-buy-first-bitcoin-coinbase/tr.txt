@@ -1,0 +1,62 @@
+title: Coinbase’te ilk bitcoin’inizi nasıl alırsınız (ABD’li yeni başlayanlar için rehber)
+page_title: Coinbase’te ilk bitcoin’inizi nasıl alırsınız
+description: ABD’li yeni başlayanlar için rehber: Coinbase hesabı açın, kimliğinizi doğrulayın, ödeme yöntemi ekleyin ve ilk bitcoin’inizi adım adım alın.
+og_description: Coinbase’te kaydolmaktan doğrulamaya, para yatırmaya ve küçük bir ilk bitcoin alımı yapmaya kadar net bir yol haritası.
+label: Yeni başlayanlar rehberi
+summary: Adım adım bir anlatım: hesap açın, kimliğinizi doğrulayın, ödeme yöntemi ekleyin, küçük bir ilk alım yapın ve ücretleri ile güvenliği aklınızda tutun.
+===
+
+İlk kez bitcoin almak, yeni bir dil öğrenmek gibi hissettirmek zorunda değil. Amerika Birleşik Devletleri’nde yaşıyorsanız ve kimlik doğrulaması yapan düzenlenmiş bir borsa istiyorsanız, Coinbase en yaygın başlangıç noktalarından biridir; [bir Coinbase hesabı açarak](REF){{#ref}} başlayabilirsiniz{{/ref}}. Bitcoin, Coinbase’in merkezî borsasında satın alınabilir ve alımlarınızı banka hesabı, banka kartı veya havale gibi onaylı yöntemlerle finanse edebilirsiniz (kullanılabilirlik hesabınıza ve bölgenize bağlıdır).
+
+Bu rehber pratik sırayı izler: hesap açmak, kimliğinizi doğrulamak, para bağlamak, küçük bir ilk emir vermek ve birkaç yaygın acemi hatasından kaçınmak. Eğitim amaçlıdır; herhangi bir miktarda kripto almanız yönünde bir tavsiye değildir. Süreç ABD’de yaşayanlar için anlatılmıştır; başka ülkelerde kullanılabilirlik, ödeme yöntemleri ve gereksinimler farklı olabilir.
+
+## 1. Coinbase hesabınızı oluşturun
+
+Bir tarayıcıdan veya Coinbase mobil uygulamasından kaydolabilirsiniz. Coinbase yardım merkezi olağan akışı şöyle anlatır: e-postanızı girin, bir doğrulama kodunu onaylayın, parola oluşturun, resmî kimliğinizde göründüğü şekliyle yasal adınızı ve soyadınızı girin ve SMS koduyla bir telefon numarasını doğrulayın. Sunulan yerlerde Apple veya Google ile girişle de başlayabilirsiniz.
+
+Uzun vadede kontrol edeceğiniz bir e-posta adresi kullanın. Ürün sizi yönlendirir yönlendirmez iki faktörlü kimlik doğrulamayı etkinleştirin; para ya da kripto tutacak bir hesap için yalnızca e-posta yeterli güvenlik değildir.
+
+## 2. Kimlik doğrulamasını tamamlayın
+
+ABD’deki finansal platformların kimliği doğrulamak için kişisel bilgi toplaması zorunludur. Coinbase sizden yaş koşulunu (ABD’de 18+) karşıladığınızı onaylamanızı, vatandaşlığınızı seçmenizi, kimlik bilgilerini (istendiği şekilde Sosyal Güvenlik numarası bilgileri dahil) vermenizi ve kişisel bilgilerinizin devletin verdiği fotoğraflı kimliğinizle eşleştiğinden emin olmanızı ister. O kimliği hazır bulundurun; doğrulama, inceleme kuyruklarına ve belge kalitesine bağlı olarak dakikalar veya daha uzun sürebilir.
+
+İpucu: adınızı kimliğinizde göründüğü şekliyle yazın. Uyuşmazlıklar, ilk doğrulamaların gecikmesinin en yaygın nedenlerinden biridir.
+
+!mid_cta
+
+## 3. Ödeme yöntemi ekleyin
+
+İşlem yapabilir hale geldikten sonra bir finansman kaynağı bağlayın. Coinbase’in satın alma rehberleri banka hesabı, banka kartı ve havaleyi onaylı seçenekler arasında sayar. Birçok ABD’li yeni başlayan için banka hesabı bağlamak (ACH) daha büyük veya düzenli alımlarda işe yararken, banka kartı küçük bir ilk alım için daha hızlı olabilir; çoğunlukla daha yüksek ücretle. Coinbase, onaylamadan önce emir önizleme ekranında ücret ayrıntılarını gösterir.
+
+Coinbase’in Bitcoin nasıl alınır sayfasından not: şu an için Coinbase’te bitcoin satın almak için kredi kartı kullanılamaz. ABD’li müşterilerin desteklenen varlıklar için PayPal gibi ek seçenekleri olabilir; kullanılabilirlik bölgeye ve ürün kurallarına bağlıdır.
+
+## 4. İlk bitcoin alımınızı yapın
+
+Web sitesinde Coinbase’in yardım belgeleri basit bir yol tarif eder:
+
+1. Coinbase ana sayfasında <strong>Buy</strong>’ı (Al) seçin (uygulamada Buy & Sell).
+2. Harcamak istediğiniz tutarı dolar olarak girin ya da bitcoin miktarına geçin.
+3. Ödeme yönteminizi seçin veya onaylayın.
+4. Varlık olarak Bitcoin’i (BTC) seçin.
+5. <strong>Review order</strong>’ı (Emri gözden geçir) açın ve fiyatı, miktarı ve ücretleri kontrol edin.
+6. Her şey doğru görünüyorsa <strong>Buy now</strong>’ı (Şimdi al) seçin.
+
+Asgari alım tutarları varlığa ve ödeme yöntemine göre değişir. Asgarinin altındaysanız Coinbase sizi bilgilendirir. İlk işlemde birçok kişi, arayüzü öğrenmek için bilerek küçük bir dolar tutarı alır ve sonra artırır.
+
+## 5. Onaylamadan önce ücretleri anlayın
+
+Coinbase, ücretlerin emir verilirken hesaplandığını ve konuma, ödeme yöntemine, emir büyüklüğüne ve oynaklık ile likidite gibi piyasa koşullarına bağlı olabileceğini belirtir. Yeni başlayanlar için önemli alışkanlık basit: önizleme ekranını her zaman okuyun. Para hareket etmeden önce toplam maliyeti orada görürsünüz.
+
+## 6. Aldıktan sonra: saklama ve güvenlik temelleri
+
+Emir gerçekleştiğinde bitcoin’iniz Coinbase hesabınızda görünür. Küçük başlangıç tutarlarında birçok kişi öğrenirken fonları borsada tutar. Varlıklarınız büyürse borsada saklama ile kendi saklamanız (donanım cüzdanları, kurtarma ifadeleri ve geri yükleme) arasındaki farkı öğrenin. Parolanızı, 2FA kodlarınızı veya kurtarma ifadenizi asla paylaşmayın. Coinbase, onay e-postalarını yalnızca geçerli Coinbase adreslerinden gönderdiğini belirtir; beklenmedik “hesabınızı doğrulayın” e-postalarına şüpheyle yaklaşın ve bağlantılara tıklamak yerine uygulamayı veya siteyi kendiniz açın.
+
+## Çalkantılı bir haftada sakin bir başlangıç
+
+Piyasalar 2026 Kasım başına kadar diken üstündeydi; bitcoin, hafta sonu sert bir hareketin ardından 70.000 dolar bandının ortalarında işlem gördü. Oynaklık tam da yeni başlayanların <em>ürünü öğrenmeyi</em> <em>bahis büyüklüğünü belirlemekten</em> ayırması gerektiğinin nedenidir. Dalgalanmasını görmeyi göze alabileceğiniz bir tutar kullanın. Tek seferlik bir alımın mı yoksa düzenli bir alımın mı planınıza uyduğunu düşünün. Ve unutmayın: bir borsada spot bitcoin almak, kaldıraçlı vadeli işlemlerde işlem yapmakla aynı şey değildir; orada yakın zamandaki 24 saatlik bir dilimde tasfiyeler 1 milyar dolardan fazla pozisyonu sildi.
+
+!soft: Önce piyasa bağlamını mı istiyorsunuz? Bugünkü [bitcoin’in 50 haftalık hareketli ortalamayı kaybetmesi özetine](/articles/bitcoin-loses-50-week-moving-average-nov-2026) bakın.
+
+!end_cta
+
+!disclosure

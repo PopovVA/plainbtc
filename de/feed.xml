@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PlainBTC</title>
+    <link>https://plainbtc.com/de/</link>
+    <description>Bitcoin- und Krypto-News in einfacher Sprache für Einsteiger</description>
+    <language>de</language>
+    <lastBuildDate>Mon, 09 Nov 2026 18:00:00 GMT</lastBuildDate>
+    <atom:link href="https://plainbtc.com/de/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FinCEN und Fed kippen Travel-Rule-Plan über 250 Dollar – Schwelle von 3.000 Dollar bleibt</title>
+      <link>https://plainbtc.com/de/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+      <description>US-Aufsichtsbehörden haben einen Vorschlag von 2020 zurückgezogen, der die grenzüberschreitenden Schwellen auf 250 Dollar gesenkt und die krypto-spezifische Formulierung gestrichen hätte. Was sich ändert – und was nicht.</description>
+    </item>
+    <item>
+      <title>Bitcoin verliert den 50-Wochen-Durchschnitt – Liquidationen von Long-Positionen übersteigen 1 Milliarde Dollar</title>
+      <link>https://plainbtc.com/de/articles/bitcoin-loses-50-week-moving-average-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/bitcoin-loses-50-week-moving-average-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 17:45:00 GMT</pubDate>
+      <description>BTC schloss nach sieben Wochen über der Linie unter rund 75.488 Dollar, während CoinGlass 1,15 Mrd. Dollar an Liquidationen verzeichnete. Was der Prüfpunkt von Galaxy bedeutet.</description>
+    </item>
+    <item>
+      <title>PNC Bank testet USDC-Zahlungen mit Coinbase für Firmenkunden</title>
+      <link>https://plainbtc.com/de/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</guid>
+      <pubDate>Mon, 09 Nov 2026 17:30:00 GMT</pubDate>
+      <description>Berechtigte Unternehmen können über Coinbase Payments USDC auf Ethereum empfangen; sie werden automatisch 1:1 in eine Dollar-Einlage bei PNC umgewandelt.</description>
+    </item>
+    <item>
+      <title>Bitcoins Achterbahn am Wochenende: 1 Mrd. Dollar liquidiert, Nvidia-Schlagzeilen belasten Risikoanlagen</title>
+      <link>https://plainbtc.com/de/articles/bitcoin-volatility-liquidations-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/bitcoin-volatility-liquidations-nov-2026</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>BTC rutschte kurz auf ~73.761 Dollar, bevor es die 75.000 Dollar zurückeroberte. Was die Bewegung auslöste, wer liquidiert wurde und was Trader als Nächstes beobachten.</description>
+    </item>
+    <item>
+      <title>So kaufen Sie Ihren ersten Bitcoin bei Coinbase (Einsteigerleitfaden für die USA)</title>
+      <link>https://plainbtc.com/de/articles/how-to-buy-first-bitcoin-coinbase</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/how-to-buy-first-bitcoin-coinbase</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Eine Schritt-für-Schritt-Anleitung: Konto erstellen, Identität verifizieren, Zahlungsmethode hinzufügen, einen kleinen ersten Kauf tätigen und Gebühren sowie Sicherheit im Blick behalten.</description>
+    </item>
+    <item>
+      <title>Nach den Zwischenwahlen: ETF-Abflüsse und ein härteres Krypto-Regelwerk in Sicht?</title>
+      <link>https://plainbtc.com/de/articles/us-midterms-crypto-regulation-etf-outflows</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/us-midterms-crypto-regulation-etf-outflows</guid>
+      <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Spot-Bitcoin-ETFs verbuchten gerade ihren größten Wochenabfluss seit Juni. Die Märkte preisen regulatorische Unsicherheit ein, während sich die Demokraten auf die Führung des Kongresses vorbereiten.</description>
+    </item>
+  </channel>
+</rss>

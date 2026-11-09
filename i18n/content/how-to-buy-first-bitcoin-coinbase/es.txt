@@ -1,0 +1,62 @@
+title: Cómo comprar tu primer bitcoin en Coinbase (guía para principiantes en EE. UU.)
+page_title: Cómo comprar tu primer bitcoin en Coinbase
+description: Guía para principiantes en EE. UU.: crea una cuenta de Coinbase, verifica tu identidad, añade un método de pago y compra tu primer bitcoin paso a paso.
+og_description: Una guía clara para registrarte, verificarte, financiar tu cuenta y hacer una primera compra pequeña de bitcoin en Coinbase.
+label: Guía para principiantes
+summary: Un recorrido paso a paso: crea una cuenta, verifica tu identidad, añade un método de pago, haz una primera compra pequeña y ten presentes las comisiones y la seguridad.
+===
+
+Comprar bitcoin por primera vez no tiene por qué parecer aprender un idioma nuevo. Si vives en Estados Unidos y buscas un exchange regulado con verificación de identidad, Coinbase es uno de los puntos de partida más habituales: puedes empezar [abriendo una cuenta de Coinbase](REF){{#ref}} con nuestro enlace de referido{{/ref}}. Bitcoin está disponible para comprar en el exchange centralizado de Coinbase, y puedes financiar las compras con métodos aprobados como cuenta bancaria, tarjeta de débito o transferencia bancaria (la disponibilidad depende de tu cuenta y tu región).
+
+Esta guía recorre la secuencia práctica: crear una cuenta, verificar quién eres, conectar dinero, hacer una primera orden pequeña y evitar algunos errores habituales de principiante. Es contenido educativo, no una recomendación de comprar ninguna cantidad de criptomonedas. Describe el proceso para residentes en EE. UU.; en otros países, la disponibilidad, los métodos de pago y los requisitos pueden ser distintos.
+
+## 1. Crea tu cuenta de Coinbase
+
+Puedes registrarte desde el navegador o desde la app móvil de Coinbase. El centro de ayuda de Coinbase describe el flujo habitual: introduces tu correo, confirmas un código de verificación, creas una contraseña, escribes tu nombre y apellidos legales tal como aparecen en tu documento oficial y verificas un número de teléfono con un código por SMS. También puedes empezar con el inicio de sesión de Apple o Google donde esté disponible.
+
+Usa un correo electrónico que controles a largo plazo. Activa la autenticación en dos pasos en cuanto el producto te lo proponga: el correo por sí solo no basta como seguridad para una cuenta que va a guardar dinero o criptomonedas.
+
+## 2. Completa la verificación de identidad
+
+Las plataformas financieras de EE. UU. están obligadas a recopilar datos personales para validar la identidad. Coinbase te pide confirmar que cumples el requisito de edad (18 años o más en EE. UU.), elegir tu ciudadanía, aportar datos identificativos (incluida la información del número de la Seguridad Social, según se solicite) y comprobar que tus datos personales coinciden con tu documento de identidad oficial con foto. Ten ese documento a mano; la verificación puede tardar minutos o más, según las colas de revisión y la calidad del documento.
+
+Consejo: escribe tu nombre exactamente como aparece en el documento. Las discrepancias son una de las causas más comunes de retraso en las primeras verificaciones.
+
+!mid_cta
+
+## 3. Añade un método de pago
+
+Cuando ya puedas operar, conecta una fuente de fondos. Las guías de compra de Coinbase incluyen la cuenta bancaria, la tarjeta de débito y la transferencia bancaria entre los métodos aprobados. Para muchos principiantes en EE. UU., vincular una cuenta bancaria (ACH) resulta útil para compras mayores o recurrentes, mientras que una tarjeta de débito puede ser más rápida para una primera compra pequeña, aunque a menudo con una comisión más alta. Coinbase muestra el detalle de comisiones en la pantalla de vista previa de la orden antes de que confirmes.
+
+Nota de la página de Coinbase sobre cómo comprar bitcoin: por el momento, no se pueden usar tarjetas de crédito para comprar bitcoin en Coinbase. Los clientes de EE. UU. pueden tener opciones adicionales, como PayPal para los activos compatibles; la disponibilidad depende de la región y de las normas de cada producto.
+
+## 4. Haz tu primera compra de bitcoin
+
+En la web, la documentación de ayuda de Coinbase plantea un camino sencillo:
+
+1. Selecciona <strong>Buy</strong> (Comprar) en la página de inicio de Coinbase (o Buy & Sell en la app).
+2. Introduce la cantidad que quieres gastar en dólares, o cambia a una cantidad en bitcoin.
+3. Elige o confirma tu método de pago.
+4. Selecciona Bitcoin (BTC) como activo.
+5. Abre <strong>Review order</strong> (Revisar orden) y comprueba el precio, la cantidad y las comisiones.
+6. Si todo está correcto, selecciona <strong>Buy now</strong> (Comprar ahora).
+
+Los importes mínimos de compra varían según el activo y el método de pago. Si estás por debajo del mínimo, Coinbase te lo notificará. En una primera operación, mucha gente compra a propósito una cantidad pequeña en dólares para aprender la interfaz antes de aumentar el importe.
+
+## 5. Entiende las comisiones antes de confirmar
+
+Coinbase indica que las comisiones se calculan al realizar la orden y pueden depender de la ubicación, el método de pago, el tamaño de la orden y las condiciones de mercado, como la volatilidad y la liquidez. El hábito clave para un principiante es sencillo: lee siempre la pantalla de vista previa. Ahí ves el coste total antes de que el dinero se mueva.
+
+## 6. Después de comprar: conceptos básicos de custodia y seguridad
+
+Tu bitcoin aparecerá en tu cuenta de Coinbase una vez que se liquide la orden. Con importes pequeños para empezar, muchas personas dejan los fondos en el exchange mientras aprenden. Si tus tenencias crecen, aprende la diferencia entre la custodia en el exchange y la autocustodia (carteras físicas, frases semilla y recuperación). No compartas nunca tu contraseña, tus códigos 2FA ni tu frase semilla. Coinbase señala que solo envía correos de confirmación desde direcciones válidas de Coinbase: desconfía de los correos inesperados de «verifica tu cuenta» y abre tú mismo la app o el sitio en lugar de hacer clic en los enlaces.
+
+## Una forma serena de empezar en una semana volátil
+
+Los mercados han estado nerviosos a comienzos de noviembre de 2026, con el bitcoin cotizando en torno a la mitad de los 70.000 dólares tras un fuerte movimiento durante el fin de semana. La volatilidad es justo la razón por la que los principiantes deberían separar <em>aprender el producto</em> de <em>dimensionar una apuesta</em>. Usa una cantidad cuya fluctuación puedas permitirte ver. Valora si te conviene más una compra única o una compra recurrente. Y recuerda: comprar bitcoin al contado en un exchange no es lo mismo que operar futuros apalancados, donde las liquidaciones borraron más de 1.000 millones de dólares en posiciones durante un periodo reciente de 24 horas.
+
+!soft: ¿Quieres contexto de mercado primero? Lee el [resumen de hoy sobre la ruptura de la media móvil de 50 semanas del bitcoin](/articles/bitcoin-loses-50-week-moving-average-nov-2026).
+
+!end_cta
+
+!disclosure

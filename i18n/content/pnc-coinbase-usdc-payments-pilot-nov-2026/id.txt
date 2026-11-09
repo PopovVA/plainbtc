@@ -1,0 +1,52 @@
+title: PNC Bank uji coba pembayaran USDC bersama Coinbase untuk klien korporasi
+page_title: PNC Bank menguji pembayaran USDC bersama Coinbase
+description: PNC Bank meluncurkan uji coba terbatas yang memungkinkan klien korporasi yang memenuhi syarat menerima USDC di Ethereum lewat Coinbase Payments, dengan konversi otomatis 1:1 ke dolar.
+og_description: PNC dan Coinbase membuka uji coba penerimaan pembayaran USDC untuk klien korporasi yang memenuhi syarat.
+label: Bisnis
+summary: Korporasi yang memenuhi syarat bisa menerima USDC di Ethereum lewat Coinbase Payments, dengan konversi otomatis 1:1 menjadi simpanan dolar di PNC.
+===
+
+PNC Bank menyatakan pada Senin bahwa pihaknya membuka penerimaan pembayaran masuk dalam <strong>USDC</strong> bagi klien Corporate & Institutional Banking yang memenuhi syarat, sekaligus memperluas hubungannya dengan Coinbase. Dalam [siaran pers 9 November](L1), bank yang berbasis di Pittsburgh itu menyebut klien dapat menerima stablecoin berpatokan dolar di blockchain <strong>Ethereum</strong> melalui produk pembayaran Coinbase, lalu dana otomatis dikonversi <strong>1 banding 1</strong> ke dolar AS dan disetor ke rekening PNC yang ditunjuk.
+
+Peluncuran ini berupa <strong>uji coba terbatas</strong>, bukan produk ritel massal. Meski begitu, ini salah satu sinyal paling jelas sejauh ini bahwa bank regional besar di AS ingin memasukkan jalur stablecoin ke alur kerja tresuri sehari-hari, sambil menjaga saldo akhir tetap berupa simpanan bank yang sudah dikenal, bukan membiarkan perusahaan memegang token di pembukuan mereka sendiri.
+
+!takeaways
+- PNC menguji penerimaan pembayaran USDC untuk klien korporasi dan institusi yang memenuhi syarat.
+- USDC tiba di Ethereum lewat Coinbase Payments, lalu dikonversi 1:1 menjadi USD di rekening simpanan PNC.
+- Bank menyebut produk ini pelengkap opsi pembayaran cepat yang sudah ada, bukan pengganti.
+- Kemitraan ini dibangun di atas kesepakatan Crypto-as-a-Service pada Juli 2025 dan layanan perdagangan bitcoin yang sebelumnya dibuka untuk sebagian klien private banking.
+
+## Cara kerja uji coba
+
+Menurut PNC, klien korporasi menerima pembayaran USDC; infrastruktur pembayaran Coinbase menangani bagian stablecoin; PNC menukar token ke dolar dengan nilai tukar setara lalu mengkreditkannya ke rekening simpanan yang ditunjuk. Bank menyatakan desain ini ditujukan untuk akses dana yang lebih cepat dan penyelesaian lintas negara yang lebih efisien, sementara klien tetap bisa memakai layanan perbankan dan manajemen tresuri PNC yang lebih luas.
+
+Tom Lang, kepala Produk dan Operasional Manajemen Tresuri di PNC, mengatakan klien “terus mencari cara baru untuk berinteraksi dan bertransaksi dengan pelanggan, pemasok, dan mitra bisnis”, dan menyebut uji coba ini sebagai kesempatan untuk mendukung kebutuhan tersebut dengan pengalaman manajemen risiko dan perbankan PNC. Alec Lovett, kepala Produk Infrastruktur di Coinbase, mengatakan upaya ini menunjukkan bagaimana bank dan infrastruktur aset digital dapat membuat klien korporasi memanfaatkan teknologi stablecoin.
+
+!mid_cta
+
+## Mengapa bank kini melirik penyelesaian dengan USDC
+
+Stablecoin dolar telah menjadi aset penyelesaian yang praktis bagi pasar kripto dan, semakin sering, bagi percobaan pembayaran antarbisnis. Uji coba PNC tidak menuntut bendahara perusahaan menjadi trader kripto: hasil akhir bagi klien tetap berupa simpanan dolar. Kemasan seperti ini penting bagi tim kepatuhan yang bersedia menjajal kecepatan pembayaran blockchain, tetapi ingin hasil pembukuannya tampak seperti kredit transfer kawat atau ACH biasa.
+
+The Block mencatat bahwa PNC pertama kali mengumumkan kemitraan dengan Coinbase pada Juli 2025, dengan sepakat memakai platform Crypto-as-a-Service milik Coinbase sambil menyediakan layanan perbankan tertentu bagi Coinbase. Pada Desember 2025, PNC mulai menawarkan perdagangan bitcoin spot kepada klien private banking yang memenuhi syarat melalui rekening investasi yang sudah ada. Uji coba USDC pada Senin ini karenanya adalah perluasan sisi pembayaran dari hubungan yang sudah mencakup banyak produk, bukan perkenalan pertama kedua perusahaan.
+
+Bagi investor individu yang menonton dari pinggir, kabar ini kurang soal aplikasi konsumen baru dan lebih soal infrastruktur: ketika bank besar mengalirkan penerimaan stablecoin ke rekening simpanan yang diasuransikan, gesekan antara dolar on-chain dan sistem perbankan tradisional berkurang. Pengguna ritel yang hanya ingin membeli atau menyimpan kripto biasanya tetap memulai dari bursa; [Coinbase](REF) tetap menjadi salah satu platform teregulasi di AS untuk kebutuhan yang terpisah itu.
+
+## Batasan dan pertanyaan yang belum terjawab
+
+PNC menekankan bahwa layanan ini dimulai secara terbatas untuk klien yang memenuhi syarat. Baik PNC maupun Coinbase tidak menerbitkan jadwal untuk ritel secara nasional dalam materi hari Senin. Pemberitaan Reuters juga menggambarkan langkah ini sebagai kelanjutan uji coba token berpatokan dolar oleh lembaga keuangan, bukan standar industri yang sudah final. Pertanyaan yang tersisa bagi korporasi yang ingin mengadopsinya mencakup kriteria pendaftaran, koridor yang didukung, biaya dibandingkan transfer kawat, perangkat rekonsiliasi, serta bagaimana penyaringan sanksi dan travel rule berlaku pada bagian stablecoin sebelum kredit dolar dicatat.
+
+Konteks kebijakan juga penting. Regulasi stablecoin AS di bawah GENIUS Act mendorong penerbit dan bank menuju ekspektasi pengawasan yang lebih jelas. Penarikan usulan ambang batas Travel Rule tahun 2020 oleh FinCEN dan The Fed pada hari Senin, yang tidak terkait, memang tidak menulis ulang aturan stablecoin, tetapi menegaskan bahwa kerangka anti pencucian uang untuk dolar digital masih dibentuk ulang sepotong demi sepotong.
+
+## Yang perlu dipantau berikutnya
+
+- Apakah PNC memperluas uji coba melampaui kelompok awal klien korporasi yang memenuhi syarat.
+- Tarif biaya dan perbandingan waktu penyelesaian dengan transfer kawat dan jalur pembayaran cepat lainnya.
+- Produk penerimaan USDC atau stablecoin serupa dari bank-bank AS lain yang memakai Coinbase atau infrastruktur pesaing.
+- Bagaimana aturan pelaksanaan GENIUS Act berinteraksi dengan alur pembayaran stablecoin yang dihosting bank.
+
+!soft: Baru mengenal kripto? Baca [panduan pemula membeli bitcoin di Coinbase](/articles/how-to-buy-first-bitcoin-coinbase) kami.
+
+!end_cta
+
+!disclosure

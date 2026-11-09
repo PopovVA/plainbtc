@@ -1,0 +1,50 @@
+title: FinCEN dan The Fed batalkan rencana Travel Rule US$250 — ambang US$3.000 tetap berlaku
+page_title: FinCEN dan The Fed batalkan rencana Travel Rule US$250
+description: Regulator AS menarik usulan tahun 2020 untuk menurunkan ambang Travel Rule lintas negara dari US$3.000 menjadi US$250 dan menghapus redaksi khusus kripto. Apa yang berubah bagi bank dan pengguna kripto.
+og_description: FinCEN dan The Fed menarik rencana tahun 2020 untuk menurunkan ambang Travel Rule menjadi US$250.
+label: Regulasi
+summary: Regulator AS menarik usulan tahun 2020 yang akan menurunkan ambang lintas negara menjadi US$250 dan menghapus redaksi khusus kripto. Apa yang berubah — dan apa yang tidak.
+===
+
+Pada Senin, 9 November 2026, Financial Crimes Enforcement Network (FinCEN) dan Dewan Gubernur Federal Reserve secara resmi menarik usulan bersama tahun 2020 yang akan menurunkan ambang Bank Secrecy Act untuk banyak transfer dana lintas negara dari <strong>US$3.000</strong> menjadi <strong>US$250</strong>. Pemberitahuan itu dimuat di [Federal Register](L1) dan menyatakan bahwa lembaga-lembaga tersebut “tidak akan mengambil tindakan lebih lanjut” atas rancangan aturan tersebut.
+
+Bagi pembaca AS pada umumnya, intinya sederhana: batas <strong>US$3.000</strong> yang sudah lama berlaku untuk pencatatan dan Travel Rule tetap berlaku untuk saat ini. Tidak ada dalam dokumen hari Senin yang mencabut aturan yang ada. Yang hilang adalah jalur menuju ambang US$250 — beserta redaksi usulan yang akan memasukkan mata uang virtual yang dapat dikonversi secara lebih eksplisit ke dalam definisi “uang” untuk aturan tersebut.
+
+!takeaways
+- FinCEN dan The Fed menarik rancangan aturan mereka tertanggal 27 Oktober 2020 per 9 November 2026.
+- Usulan itu akan menurunkan sejumlah ambang lintas negara dari US$3.000 menjadi US$250.
+- Usulan itu juga ingin menegaskan bahwa aturan mencakup mata uang virtual yang dapat dikonversi dan sebagian aset digital berstatus alat pembayaran sah.
+- Ambang US$3.000 yang ada tetap berlaku; lembaga-lembaga itu berkomitmen membuka konsultasi publik baru sebelum perombakan serupa.
+
+## Apa yang akan dilakukan usulan 2020
+
+Di bawah kerangka Bank Secrecy Act saat ini, bank dan banyak lembaga keuangan nonbank wajib mengumpulkan, menyimpan, dan — dalam kasus Travel Rule — meneruskan informasi identitas atas transfer dana senilai <strong>US$3.000</strong> atau lebih yang dimulai atau berakhir di luar Amerika Serikat. Rancangan 2020 bertujuan menurunkan ambang itu menjadi <strong>US$250</strong> untuk aktivitas lintas negara yang tercakup dan menegaskan bahwa “uang” mencakup mata uang virtual yang dapat dikonversi (CVC) serta aset digital yang berstatus alat pembayaran sah bagi penerimanya.
+
+Kelompok pembela privasi dan kripto sudah lama menentang batas dolar yang lebih rendah, dengan alasan hal itu akan menarik kiriman uang biasa dan transfer kecil ke mesin pengawasan yang lebih berat. Pihak perbankan dan jasa pengiriman uang juga memperingatkan soal biaya kepatuhan. Menurut ringkasan Bitcoin Magazine atas pemberitahuan penarikan itu, lembaga-lembaga tersebut menerima hampir <strong>3.000</strong> komentar, banyak di antaranya surat templat serupa yang menolak penurunan tersebut.
+
+!mid_cta
+
+## Mengapa regulator mundur sekarang
+
+Pemberitahuan Federal Register menyebut dua alasan utama. Pertama, lebih dari lima tahun telah berlalu sejak usulan itu, dan lembaga-lembaga tersebut ingin masukan publik tambahan sebelum mengadopsi sesuatu yang serupa — sehingga penarikan ini memberi kepastian bahwa tidak akan ada aturan final tanpa masa komentar lagi. Kedua, pasar kripto dan kerangka hukum sudah berubah. Pemberitahuan itu menyebut undang-undang stablecoin GENIUS Act, yang diberlakukan pada 18 Juli 2025, sebagai contoh kerangka baru yang harus dipertimbangkan dalam setiap perombakan Travel Rule terkait CVC di masa depan agar perubahannya “sesuai tujuan”.
+
+Langkah hari Senin juga sejalan dengan pola pembatalan Departemen Keuangan belakangan ini. The Block melaporkan bahwa FinCEN sebelumnya mencabut usulan “dompet tak terhosting” tahun 2020 dan rencana tahun 2023 untuk menetapkan pencampuran kripto internasional sebagai perhatian utama pencucian uang. Menarik sebuah usulan tidak sama dengan penegakan yang lebih lunak: perangkat lain tetap bisa menyasar platform tertentu. Bitcoin Magazine mencatat bahwa FinCEN belum lama ini membatasi bursa MEXC dari sistem keuangan AS atas dugaan penghindaran sanksi.
+
+## Apa yang berubah — dan tidak — bagi pengguna kripto
+
+Jika Anda mengirim atau menerima bitcoin atau stablecoin dolar melalui bursa AS atau lembaga lain yang tercakup, pemberitahuan hari Senin tidak serta-merta melonggarkan pemeriksaan kenali-pelanggan-Anda, penyaringan sanksi, atau praktik Travel Rule yang berlaku. Kewajiban itu tetap berlaku menurut aturan dan panduan saat ini. Yang dihapus adalah risiko jangka dekat bahwa ambang lintas negara final sebesar US$250 — beserta redaksi kripto dalam paket itu — berlaku tanpa proses penyusunan aturan baru.
+
+Bagi mereka yang lebih memilih akun di bursa AS yang diatur daripada jalur peer-to-peer tanpa pengawasan, platform seperti [Coinbase](REF) tetap tunduk pada program BSA/anti pencucian uang terlepas dari penarikan ini. Perdebatan kebijakan kini beralih ke apakah FinCEN dan The Fed akan menulis usulan baru yang mencerminkan legislasi stablecoin, standar pesan industri, dan realitas pengiriman uang — atau membiarkan batas US$3.000 lebih lama.
+
+## Yang perlu dipantau berikutnya
+
+- Rancangan aturan baru dari FinCEN atau The Fed yang meninjau kembali ambang Travel Rule atau definisi kripto.
+- Usulan anti pencucian uang dan identifikasi pelanggan untuk stablecoin yang terkait dengan jadwal pelaksanaan GENIUS Act.
+- Tindakan penegakan kasus per kasus terhadap platform tertentu, yang bisa berlanjut meskipun usulan yang luas ditarik.
+- Bagaimana bank dan bursa memperbarui panduan kepatuhan mereka setelah kepastian hari Senin bahwa paket 2020 tidak akan difinalkan sebagaimana ditulis.
+
+!soft: Baru mengenal kripto? Baca [panduan pemula membeli bitcoin di Coinbase](/articles/how-to-buy-first-bitcoin-coinbase) kami.
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,50 @@
+title: FinCEN y la Fed retiran el plan de bajar la Travel Rule a 250 dólares: el umbral de 3.000 se mantiene
+page_title: FinCEN y la Fed retiran el plan de la Travel Rule de 250 dólares
+description: Los reguladores de EE. UU. retiraron una propuesta de 2020 para rebajar de 3.000 a 250 dólares el umbral transfronterizo de la Travel Rule y eliminar la redacción específica sobre criptomonedas. Qué cambia para bancos y usuarios de cripto.
+og_description: FinCEN y la Fed retiraron un plan de 2020 para bajar a 250 dólares el umbral de la Travel Rule.
+label: Regulación
+summary: Los reguladores de EE. UU. retiraron una propuesta de 2020 para rebajar a 250 dólares los umbrales transfronterizos y quitar la redacción específica sobre criptomonedas. Qué cambia y qué no.
+===
+
+El lunes 9 de noviembre de 2026, la Red de Control de Delitos Financieros (FinCEN) y la Junta de la Reserva Federal retiraron formalmente una propuesta conjunta de 2020 que habría rebajado de <strong>3.000</strong> a <strong>250 dólares</strong> el umbral de la Ley de Secreto Bancario aplicable a muchas transferencias de fondos internacionales. El aviso se publicó en el [Federal Register](L1) y establece que las agencias «no tomarán ninguna otra medida» sobre esa propuesta de normativa.
+
+Para el lector estadounidense de a pie, el titular práctico es sencillo: la línea de <strong>3.000 dólares</strong> para el registro de operaciones y la Travel Rule, vigente desde hace años, sigue en pie por ahora. Nada de lo presentado el lunes deroga las normas actuales. Lo que desaparece es el camino concreto hacia un umbral de 250 dólares y la redacción propuesta que habría incluido de forma más explícita la moneda virtual convertible en la definición de «dinero» a efectos de esas normas.
+
+!takeaways
+- FinCEN y la Fed retiraron su propuesta del 27 de octubre de 2020 a fecha de 9 de noviembre de 2026.
+- La propuesta habría rebajado ciertos umbrales transfronterizos de 3.000 a 250 dólares.
+- También pretendía aclarar que las normas abarcan la moneda virtual convertible y algunos activos digitales con curso legal.
+- El umbral actual de 3.000 dólares se mantiene; las agencias se comprometieron a abrir un nuevo periodo de comentarios públicos antes de cualquier reforma similar.
+
+## Qué habría hecho la propuesta de 2020
+
+Con el marco actual de la Ley de Secreto Bancario, los bancos y muchas instituciones financieras no bancarias deben recopilar, conservar y, en los casos de la Travel Rule, transmitir información identificativa sobre las transferencias de fondos de <strong>3.000 dólares</strong> o más que empiecen o terminen fuera de Estados Unidos. La propuesta de 2020 pretendía bajar ese umbral a <strong>250 dólares</strong> para la actividad transfronteriza cubierta y aclarar que el «dinero» incluye la moneda virtual convertible (CVC) y los activos digitales que tienen curso legal para el destinatario.
+
+Los grupos de defensa de la privacidad y de la industria cripto llevaban tiempo oponiéndose a esa rebaja, con el argumento de que arrastraría remesas corrientes y transferencias pequeñas a una maquinaria de vigilancia más pesada. Las entidades bancarias y de servicios monetarios también advirtieron del coste de cumplimiento. Según el resumen de Bitcoin Magazine sobre el aviso de retirada, las agencias recibieron casi <strong>3.000</strong> comentarios, muchos de ellos cartas modelo parecidas que rechazaban la rebaja.
+
+!mid_cta
+
+## Por qué los reguladores dan marcha atrás ahora
+
+El aviso del Federal Register ofrece dos motivos principales. Primero, han pasado más de cinco años desde la propuesta y las agencias quieren más opiniones del público antes de adoptar algo parecido; con la retirada, el público tiene la certeza de que no habrá norma definitiva sin otro periodo de comentarios. Segundo, los mercados cripto y los marcos legales han cambiado. El aviso cita como ejemplo la ley de stablecoins GENIUS, promulgada el 18 de julio de 2025, entre los nuevos marcos que cualquier futura reforma de la Travel Rule relacionada con la CVC debería tener en cuenta para que las modificaciones sean «adecuadas a su finalidad».
+
+El movimiento del lunes encaja además en una pauta reciente de reversiones del Tesoro. The Block informó de que FinCEN ya había retirado antes su propuesta de 2020 sobre las «carteras no alojadas» y un plan de 2023 para calificar la mezcla internacional de criptomonedas como una preocupación principal de blanqueo de capitales. Retirar una propuesta no equivale a una aplicación más laxa de las normas: otras herramientas pueden seguir apuntando a plataformas concretas. Bitcoin Magazine recordó que FinCEN restringió hace poco el acceso del exchange MEXC al sistema financiero de EE. UU. por presunta evasión de sanciones.
+
+## Qué cambia —y qué no— para los usuarios de cripto
+
+Si envías o recibes bitcoin o stablecoins en dólares a través de un exchange estadounidense u otra entidad obligada, el aviso del lunes no relaja de golpe los controles de identificación del cliente, el filtrado de sanciones ni la práctica actual de la Travel Rule. Esas obligaciones siguen vigentes según las normas y la guía actuales. Lo que elimina es el riesgo, más inmediato, de que un umbral transfronterizo definitivo de 250 dólares, junto con la redacción sobre cripto de ese paquete, entrara en vigor sin una nueva tramitación normativa.
+
+Para quienes prefieren una cuenta en un exchange regulado de EE. UU. antes que vías entre particulares sin supervisión, plataformas como [Coinbase](REF) siguen sujetas a programas de la Ley de Secreto Bancario y de prevención del blanqueo de capitales, con independencia de esta retirada. La disputa política se traslada ahora a si FinCEN y la Fed redactan una propuesta nueva que refleje la legislación sobre stablecoins, los estándares de mensajería del sector y la realidad de las remesas, o si dejan la línea de 3.000 dólares como está durante más tiempo.
+
+## Qué vigilar a partir de ahora
+
+- Cualquier nueva propuesta de FinCEN o de la Fed que vuelva a plantear los umbrales de la Travel Rule o las definiciones relativas a las criptomonedas.
+- Propuestas de prevención del blanqueo e identificación de clientes para stablecoins, ligadas al calendario de aplicación de la ley GENIUS.
+- Acciones de aplicación caso por caso contra plataformas concretas, que pueden continuar aunque se retiren propuestas de alcance general.
+- Cómo actualizan bancos y exchanges sus manuales de cumplimiento tras la certeza del lunes de que el paquete de 2020 no se aprobará tal como estaba.
+
+!soft: ¿Nuevo en cripto? Lee nuestra [guía para principiantes sobre cómo comprar bitcoin en Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

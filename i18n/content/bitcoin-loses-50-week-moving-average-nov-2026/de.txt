@@ -1,0 +1,50 @@
+title: Bitcoin verliert den 50-Wochen-Durchschnitt – Liquidationen von Long-Positionen übersteigen 1 Milliarde Dollar
+page_title: Bitcoin verliert den 50-Wochen-Durchschnitt
+description: Bitcoin hat erstmals seit acht Wochen unter dem gleitenden 50-Wochen-Durchschnitt geschlossen. CoinGlass meldete 1,15 Mrd. Dollar an Liquidationen; Galaxy erinnerte daran, wie frühere gescheiterte Rückeroberungen ausgingen.
+og_description: BTC schloss nach sieben Wochen darüber unter dem 50-Wochen-Durchschnitt von rund 75.488 Dollar.
+label: Märkte
+summary: BTC schloss nach sieben Wochen über der Linie unter rund 75.488 Dollar, während CoinGlass 1,15 Mrd. Dollar an Liquidationen verzeichnete. Was der Prüfpunkt von Galaxy bedeutet.
+===
+
+Bitcoin hat am Sonntag erstmals seit acht Wochen unter seinem gleitenden 50-Wochen-Durchschnitt geschlossen und damit eine Serie von sieben Wochen oberhalb einer Marke beendet, die viele Chartanalysten als mittelfristige Trendlinie betrachten. The Block nannte unter Berufung auf Galaxy-Research einen Durchschnitt von rund <strong>75.488 Dollar</strong>; Bitcoin beendete die Woche etwa <strong>0,7 %</strong> darunter. Am Montagmorgen notierte der Markt kurzzeitig unter <strong>74.000 Dollar</strong>, als gehebelte Long-Positionen erneut ausgespült wurden.
+
+Der technische Bruch kam zu ohnehin brüchigen Kapitalflüssen hinzu. Die US-Spot-Bitcoin-ETFs verzeichneten laut The Block wöchentliche Netto-Abflüsse von rund <strong>1,28 Milliarden Dollar</strong> – so viel wie seit Ende Juni nicht mehr – und rutschten für 2026 mit etwa <strong>914,1 Millionen Dollar</strong> an Rückgaben seit Jahresbeginn ins Minus. Allein BlackRocks IBIT gab am Freitag rund <strong>403 Millionen Dollar</strong> ab.
+
+!takeaways
+- BTC schloss nach sieben Wochen darüber unter dem gleitenden 50-Wochen-Durchschnitt (~75.488 Dollar).
+- CoinGlass verzeichnete binnen 24 Stunden mehr als 1,15 Mrd. Dollar an Liquidationen, überwiegend Long-Positionen.
+- Rund 167.764 Trader wurden in diesem Zeitraum liquidiert; die größte Einzelorder war ein ETH-Long von ca. 48,2 Mio. Dollar auf Binance.
+- Alex Thorn von Galaxy sagte, sein bullisches Szenario vom Oktober bleibe gültig, wenn BTC den Durchschnitt innerhalb eines Monats zurückerobert.
+
+## Liquidationen zeigen, wie Hebel einen technischen Bruch verstärkt
+
+CoinGlass-Daten, über die The Block berichtete, beziffern die Liquidationen auf mehr als <strong>1,15 Milliarden Dollar</strong> in 24 Stunden – davon etwa <strong>1,04 Milliarden</strong> Long- und <strong>117 Millionen</strong> Short-Positionen. Auf Ether-Trader entfielen über <strong>500 Millionen</strong> der Zwangsverkäufe, auf Bitcoin rund <strong>309 Millionen</strong>. Die größte Einzelorder war ein ETH-USDT-Long über <strong>48,2 Millionen Dollar</strong> auf Binance. CoinGlass zählte im Zeitraum <strong>167.764</strong> liquidierte Trader. The Block wies darauf hin, dass Liquidationsdaten unvollständig sind und die Summen vermutlich zu niedrig ausfallen, wenn Börsen Ausschläge nur teilweise melden.
+
+Für Spot-Halter – Menschen, die Bitcoin ohne geliehenes Geld kaufen – ist der Bruch eines gleitenden Durchschnitts ein Signal, kein automatischer Margin Call. Am stärksten spürten Sonntag und Montag die Trader, die Perpetual Futures und andere gehebelte Produkte handeln. Das ist einer der Gründe, warum Einsteigern oft zu Käufen mit Eigenkapital an einer regulierten Börse statt zu Futures geraten wird: Wer gerade anfängt, für den ist [ein Coinbase-Konto zu eröffnen](REF) eine regulierte US-Option für Spot-Bitcoin ohne die Zwangsliquidations-Mechanik hoher Hebel.
+
+!mid_cta
+
+## Was die Geschichte sagt, wenn der 50-Wochen-Durchschnitt nach der Rückeroberung wieder verloren geht
+
+Alex Thorn, Leiter der Research-Abteilung bei Galaxy, ordnete die Marke in frühere Zyklen ein. Bitcoin hatte den 50-Wochen-Durchschnitt am 20. September zurückerobert und bis zum Schluss am Sonntag sieben Wochen lang gehalten. In den Erholungen der Bärenmärkte 2011–2012 und 2019–2020, so Thorn, verlor Bitcoin den Durchschnitt ebenfalls, nachdem es ihn zuvor zurückerobert hatte. Im ersten Fall blieb es weitere 20 Wochen unter der Linie und fiel bis zu <strong>35 %</strong> darunter. 2019–2020 rutschte es fünfmal wieder unter den Durchschnitt, darunter eine achtwöchige Phase während des Corona-Crashs. In beiden Stichproben habe das frühere Bärenmarkt-Tief auf Wochenschlussbasis gehalten.
+
+Thorn betonte auch die Grenzen der Stichprobe: nur fünf Rückeroberungen, und Tiefpunkte kennt man erst im Nachhinein. Galaxy hatte im Oktober argumentiert, das Zyklustief sei erreicht, und auf das vorherige Tief von <strong>59.517 Dollar</strong> am 28. Juni verwiesen. Am Montag sagte Thorn, dieses bullische technische Szenario vom Oktober bleibe gültig, wenn Bitcoin den 50-Wochen-Durchschnitt innerhalb eines Monats zurückgewinne – ein ausdrücklicher kurzfristiger Prüfpunkt, keine Garantie.
+
+## Wie das ins Marktbild passt
+
+Der Verlust des Durchschnitts reiht sich neben zwei weitere Druckpunkte, die US-Leser diese Woche schon gesehen haben: hohe ETF-Rückgaben und eine risikoscheue Stimmung bei Tech-Aktien. Der Crypto Daily von CoinDesk vermerkte, dass Spot-Bitcoin-ETFs einen wöchentlichen Netto-Abfluss von <strong>1,282 Milliarden Dollar</strong> verbuchten – den größten seit der Woche vom 22. bis 28. Juni – und seit Jahresbeginn rund <strong>914 Millionen</strong> im Minus liegen, nachdem sie am 22. September für 2026 ins Plus gedreht waren. Schwache ETF-Nachfrage verursacht allein keinen Bruch im Wochenchart, nimmt aber einen Käufer letzter Instanz weg, auf den viele Bullen bis zum Jahresende gezählt hatten.
+
+Auch der Makrokalender zählt weiter. Händler schauen auf den US-Verbraucherpreisindex am Dienstag. Eine mildere Zahl könnte die Renditen entlasten und Risikoanlagen helfen; eine heiße Zahl könnte den Druck verlängern, der Bitcoin bereits unter die 50-Wochen-Linie gedrückt hat.
+
+## Was als Nächstes zu beobachten ist
+
+- Ob Bitcoin den 50-Wochen-Durchschnitt von rund 75.488 Dollar innerhalb des nächsten Monats zurückerobern und halten kann (Galaxys Prüfpunkt).
+- Die täglichen und wöchentlichen Zuflusszahlen der Spot-ETFs nach den Abflüssen von 1,28 Mrd. Dollar in der Vorwoche.
+- Die Veröffentlichung der US-Inflationsdaten am Dienstag und eine mögliche Fortsetzung bei Nasdaq-Futures und Funding-Raten der Krypto-Perpetuals.
+- Ob sich das Open Interest nach der Bereinigung von mehr als 1 Mrd. Dollar an Longs schnell wieder aufbaut – oder gedämpft bleibt.
+
+!soft: Neu bei Krypto? Lies unseren [Einsteiger-Ratgeber zum Bitcoin-Kauf bei Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

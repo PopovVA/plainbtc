@@ -1,0 +1,50 @@
+title: Bitcoin loses its 50-week moving average as long liquidations top $1 billion
+page_title: Bitcoin loses its 50-week moving average
+description: Bitcoin closed below its 50-week moving average for the first time in eight weeks. CoinGlass showed $1.15B in liquidations; Galaxy flagged what past reclaim failures looked like.
+og_description: BTC closed below its ~$75,488 50-week average after seven weeks above it.
+label: Markets
+summary: BTC closed below ~$75,488 after seven weeks above the line, while CoinGlass logged $1.15B in liquidations. What Galaxy’s checkpoint means next.
+===
+
+Bitcoin closed Sunday below its 50-week moving average for the first time in eight weeks, ending a seven-week streak above a level many chart watchers treat as a medium-term trend line. The Block, citing Galaxy research, put that average near <strong>$75,488</strong>, with bitcoin finishing the week about <strong>0.7%</strong> beneath it. Into Monday morning the market briefly traded under <strong>$74,000</strong> as leveraged longs were flushed again.
+
+The technical break arrived on top of already fragile flows. U.S. spot bitcoin ETFs posted about <strong>$1.28 billion</strong> in weekly net outflows—the most since late June—and flipped negative for 2026 with roughly <strong>$914.1 million</strong> in year-to-date redemptions, The Block reported. BlackRock’s IBIT alone shed about <strong>$403 million</strong> on Friday.
+
+!takeaways
+- BTC closed below its 50-week moving average (~$75,488) after seven weeks above it.
+- CoinGlass logged more than $1.15 billion in liquidations over 24 hours, mostly longs.
+- About 167,764 traders were liquidated in that window; the largest single order was a ~$48.2M ETH long on Binance.
+- Galaxy’s Alex Thorn said his October bullish case stays valid if BTC reclaims the average within a month.
+
+## Liquidations show how leverage amplifies a technical break
+
+CoinGlass data reported by The Block put total liquidations above <strong>$1.15 billion</strong> over 24 hours, including about <strong>$1.04 billion</strong> in longs and <strong>$117 million</strong> in shorts. Ether traders accounted for more than <strong>$500 million</strong> of the forced selling, versus roughly <strong>$309 million</strong> for bitcoin. The largest individual order was a <strong>$48.2 million</strong> ETH-USDT long on Binance. CoinGlass counted <strong>167,764</strong> traders liquidated in the period. The Block cautioned that liquidation feeds are imperfect and totals are likely understated when venues report incomplete bursts.
+
+For spot holders—people who buy bitcoin without borrowed funds—a moving-average break is a signal, not an automatic margin call. The people who felt Sunday and Monday most acutely were traders running perpetual futures and other leveraged products. That is one reason beginners are often steered toward cash purchases on a regulated exchange rather than futures: if you are just starting, [opening a Coinbase account](REF) is one regulated U.S. option for spot bitcoin without the forced-liquidation mechanics of high leverage.
+
+!mid_cta
+
+## What history says when the 50-week average fails after a reclaim
+
+Alex Thorn, head of firmwide research at Galaxy, framed the level against earlier cycles. Bitcoin had reclaimed the 50-week average on Sept. 20 and held it for seven weeks before Sunday’s close. In the 2011–2012 and 2019–2020 bear-market recoveries, Thorn noted, bitcoin also lost the average after first getting back above it. In the earlier case it spent another 20 weeks below the line and fell as much as <strong>35%</strong> beneath it. In 2019–2020 it slipped back below the average five times, including an eight-week stretch during the Covid crash. In both samples, he said, the earlier bear-market low still held on a weekly closing basis.
+
+Thorn also stressed the limits of the sample: only five reclaims, and bottoms are known only in hindsight. Galaxy had argued in October that the cycle low was in, pointing to the prior low of <strong>$59,517</strong> on June 28. On Monday, Thorn said that October bullish technical case would remain valid if bitcoin regained the 50-week average within a month—an explicit near-term checkpoint rather than a guarantee.
+
+## How this fits the wider market tape
+
+The moving-average loss sits beside two other pressure points U.S. readers already saw this week: heavy ETF redemptions and a risk-off tone in tech equities. CoinDesk’s Crypto Daily noted that spot bitcoin ETFs recorded a <strong>$1.282 billion</strong> weekly net outflow—the largest since the week of June 22–28—and are down about <strong>$914 million</strong> year-to-date after turning positive for 2026 on Sept. 22. Soft ETF demand does not cause a weekly chart break by itself, but it removes a buyer of last resort that many bulls had counted on into year-end.
+
+Macro calendar risk still matters. Traders are watching Tuesday’s U.S. consumer price index. A cooler print could ease yields and help risk assets; a hot print could extend the pressure that already knocked bitcoin through the 50-week line.
+
+## What to watch next
+
+- Whether bitcoin can reclaim and hold the ~$75,488 50-week average within the next month (Galaxy’s checkpoint).
+- Daily and weekly spot ETF flow prints after last week’s $1.28B outflow.
+- Tuesday’s CPI release and any follow-through in Nasdaq futures and crypto perpetual funding.
+- Whether open interest rebuilds quickly after the $1B+ long flush—or stays subdued.
+
+!soft: New to crypto? Our [beginner guide to buying bitcoin on Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

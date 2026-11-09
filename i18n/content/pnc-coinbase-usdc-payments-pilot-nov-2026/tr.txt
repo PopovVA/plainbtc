@@ -1,0 +1,52 @@
+title: PNC Bank, kurumsal müşteriler için Coinbase ile USDC ödemeleri pilotu başlattı
+page_title: PNC Bank, Coinbase ile USDC ödemelerini deniyor
+description: PNC Bank, uygun kurumsal müşterilerin Coinbase Payments üzerinden Ethereum ağında USDC almasına ve bunun otomatik olarak 1:1 dolara çevrilmesine imkân tanıyan sınırlı bir pilot uygulama başlattı.
+og_description: PNC ve Coinbase, uygun kurumsal müşteriler için gelen USDC ödemeleri pilotunu başlattı.
+label: İş dünyası
+summary: Uygun şirketler Coinbase Payments üzerinden Ethereum’da USDC alabiliyor; tutar otomatik olarak 1:1 oranında PNC’deki bir dolar mevduatına çevriliyor.
+===
+
+PNC Bank pazartesi günü, Coinbase ile ilişkisini genişleterek Kurumsal ve Yatırım Bankacılığı müşterilerinden uygun olanlara gelen <strong>USDC</strong> ödemelerini sunmaya başladığını duyurdu. Pittsburgh merkezli banka, [9 Kasım tarihli basın bülteninde](L1) müşterilerin dolar destekli stabil coini Coinbase ödeme ürünleri üzerinden <strong>Ethereum</strong> blokzincirinde alabileceğini, ardından fonların otomatik olarak <strong>1’e 1</strong> oranında ABD dolarına çevrilip belirlenen bir PNC hesabına yatırılacağını açıkladı.
+
+Bu girişim, bireylere yönelik bir ürün değil, <strong>sınırlı bir pilot uygulama</strong>. Yine de büyük bir ABD bölge bankasının stabil coin altyapısını olağan hazine süreçlerinin içine almak istediğinin şimdiye kadarki en net işaretlerinden biri; üstelik nihai bakiye şirketlerin kendi defterlerinde token tutması yerine bilindik banka mevduatı olarak kalıyor.
+
+!takeaways
+- PNC, uygun kurumsal ve yatırım müşterileri için gelen USDC ödemelerini pilot olarak deniyor.
+- USDC, Coinbase Payments üzerinden Ethereum’da ulaşıyor ve bir PNC mevduat hesabında 1:1 oranında ABD dolarına çevriliyor.
+- Banka ürünü mevcut hızlı ödeme seçeneklerinin yerine değil, onları tamamlayan bir çözüm olarak konumluyor.
+- İşbirliği, Temmuz 2025’teki bir Crypto-as-a-Service anlaşmasına ve bazı özel bankacılık müşterilerine daha önce sunulan bitcoin işlemlerine dayanıyor.
+
+## Pilot nasıl çalışıyor
+
+PNC’ye göre kurumsal müşteri USDC ödemesi alıyor; stabil coin ayağını Coinbase’in ödeme altyapısı yürütüyor; PNC token’ları başabaş oranla dolara çevirip belirlenen bir mevduat hesabına aktarıyor. Banka, tasarımın fonlara daha hızlı erişimi ve sınır ötesi takasın daha verimli olmasını hedeflediğini, müşterilerin ise PNC’nin diğer bankacılık ve hazine yönetimi hizmetlerine erişmeye devam ettiğini söyledi.
+
+PNC Hazine Yönetimi Ürün ve Operasyonlar Başkanı Tom Lang, müşterilerin “müşterileri, tedarikçileri ve iş ortaklarıyla etkileşim kurmak ve işlem yapmak için sürekli yeni yollar aradığını” belirterek pilotu, bu ihtiyaçları PNC’nin risk yönetimi ve bankacılık deneyimiyle karşılama fırsatı olarak tanımladı. Coinbase Altyapı Ürünleri Başkanı Alec Lovett ise çalışmanın, bankaların ve dijital varlık altyapısının kurumsal müşterilere stabil coin teknolojisini kullanma imkânı nasıl sunabileceğini gösterdiğini söyledi.
+
+!mid_cta
+
+## Bankalar neden şimdi USDC takasıyla ilgileniyor
+
+Dolar stabil coinleri kripto piyasaları için pratik bir takas varlığına ve giderek şirketler arası ödeme denemelerinin de aracına dönüştü. PNC’nin pilotu, bir şirket haznedarının kripto yatırımcısı olmasını gerektirmiyor: müşterinin eline geçen sonuç hâlâ bir dolar mevduatı. Bu kurgu, blokzincir ödeme hızını denemeye istekli ama muhasebe sonucunun olağan bir havale veya ACH alacağına benzemesini isteyen uyum ekipleri için önemli.
+
+The Block, PNC’nin Coinbase ile ilk ortaklığını Temmuz 2025’te duyurduğunu, bu kapsamda Coinbase’in Crypto-as-a-Service platformunu kullanmayı ve karşılığında Coinbase’e bazı bankacılık hizmetleri sunmayı kabul ettiğini hatırlattı. Aralık 2025’te PNC, uygun özel bankacılık müşterilerine mevcut yatırım hesapları üzerinden spot bitcoin alım satımı sunmaya başladı. Pazartesi günkü USDC pilotu bu nedenle iki şirketin ilk teması değil, zaten birden fazla ürünü kapsayan bir ilişkinin ödeme tarafındaki genişlemesi.
+
+Kenardan izleyen bireysel yatırımcılar için haber, yeni bir tüketici uygulamasından çok altyapıyla ilgili: büyük bankalar stabil coin tahsilatlarını sigortalı mevduat hesaplarına yönlendirdiğinde zincir üstü dolarlar ile geleneksel bankacılık sistemi arasındaki sürtünme azalıyor. Sadece kripto almak veya tutmak isteyen bireyler ise hâlâ genellikle bir borsayla başlıyor; [Coinbase](REF) bu ayrı kullanım için ABD’deki düzenlemeye tabi platformlardan biri olmayı sürdürüyor.
+
+## Sınırlar ve cevapsız sorular
+
+PNC, hizmetin uygun müşteriler için sınırlı ölçekte başladığını vurguladı. Ne PNC ne de Coinbase, pazartesi günkü materyallerde ülke genelinde bireysel müşterilere yönelik bir takvim paylaştı. Reuters haberi de adımı, bitmiş bir sektör standardı olarak değil, finans kuruluşlarının dolar destekli token’ları denemeye devam etmesi olarak sundu. Kurumsal kullanıcılar için hâlâ yanıt bekleyen sorular arasında katılım kriterleri, desteklenen ödeme koridorları, havalelere kıyasla ücretler, mutabakat araçları ve dolar alacağı kaydedilmeden önce yaptırım ve Travel Rule taramasının stabil coin ayağına nasıl uygulanacağı var.
+
+Politika bağlamı da önemli. ABD’nin GENIUS Yasası kapsamındaki stabil coin düzenlemesi, ihraççıları ve bankaları daha net denetim beklentilerine yöneltiyor. FinCEN ve Fed’in pazartesi günü 2020’den kalma ilgisiz bir Travel Rule eşik teklifini geri çekmesi stabil coin kurallarını yeniden yazmıyor; ama dijital dolarlara ilişkin kara para aklamayı önleme çerçevesinin hâlâ parça parça şekillendirildiğini gösteriyor.
+
+## Sırada neler izlenmeli
+
+- PNC’nin pilotu ilk uygun kurumsal müşteri grubunun ötesine taşıyıp taşımayacağı.
+- Ücret tarifeleri ve takas sürelerinin havalelerle ve diğer hızlı ödeme sistemleriyle karşılaştırması.
+- Coinbase’i veya rakip altyapıları kullanan diğer ABD bankalarından benzer USDC ya da stabil coin tahsilat ürünleri.
+- GENIUS Yasası’nın uygulama kurallarının banka eliyle yürütülen stabil coin ödeme akışlarıyla nasıl etkileşeceği.
+
+!soft: Kriptoya yeni mi başlıyorsunuz? [Coinbase’te bitcoin satın alma konusundaki yeni başlayanlar rehberimize](/articles/how-to-buy-first-bitcoin-coinbase) göz atın.
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,50 @@
+title: Bitcoin pierde su media móvil de 50 semanas mientras las liquidaciones de largos superan los 1.000 millones de dólares
+page_title: Bitcoin pierde su media móvil de 50 semanas
+description: Bitcoin cerró por debajo de su media móvil de 50 semanas por primera vez en ocho semanas. CoinGlass registró 1.150 millones de dólares en liquidaciones y Galaxy recordó cómo acabaron otras recuperaciones fallidas.
+og_description: BTC cerró por debajo de su media de 50 semanas, en torno a 75.488 dólares, tras siete semanas por encima.
+label: Mercados
+summary: BTC cerró por debajo de 75.488 dólares tras siete semanas por encima de esa línea, y CoinGlass registró 1.150 millones en liquidaciones. Qué significa el punto de control de Galaxy.
+===
+
+Bitcoin cerró el domingo por debajo de su media móvil de 50 semanas por primera vez en ocho semanas, y puso fin a una racha de siete semanas por encima de un nivel que muchos analistas gráficos consideran una línea de tendencia a medio plazo. The Block, citando un informe de Galaxy, situó esa media en torno a <strong>75.488 dólares</strong>, con bitcoin cerrando la semana alrededor de un <strong>0,7 %</strong> por debajo. En la mañana del lunes, el mercado llegó a cotizar brevemente por debajo de los <strong>74.000 dólares</strong>, mientras las posiciones largas apalancadas volvían a ser liquidadas.
+
+La ruptura técnica llegó sobre unos flujos ya frágiles. Los ETF de bitcoin al contado de EE. UU. registraron unas salidas netas semanales de unos <strong>1.280 millones de dólares</strong>, las mayores desde finales de junio, y pasaron a terreno negativo en 2026 con unos <strong>914,1 millones</strong> en reembolsos acumulados en el año, según The Block. Solo IBIT, de BlackRock, perdió unos <strong>403 millones</strong> el viernes.
+
+!takeaways
+- BTC cerró por debajo de su media móvil de 50 semanas (unos 75.488 dólares) tras siete semanas por encima.
+- CoinGlass registró más de 1.150 millones de dólares en liquidaciones en 24 horas, en su mayoría posiciones largas.
+- Unos 167.764 traders fueron liquidados en ese periodo; la mayor orden fue un largo de ETH de unos 48,2 millones de dólares en Binance.
+- Alex Thorn, de Galaxy, dijo que su tesis alcista de octubre sigue vigente si BTC recupera la media en el plazo de un mes.
+
+## Las liquidaciones muestran cómo el apalancamiento amplifica una ruptura técnica
+
+Los datos de CoinGlass recogidos por The Block situaron las liquidaciones totales por encima de los <strong>1.150 millones de dólares</strong> en 24 horas: unos <strong>1.040 millones</strong> en posiciones largas y <strong>117 millones</strong> en cortas. Los traders de ether concentraron más de <strong>500 millones</strong> de las ventas forzadas, frente a unos <strong>309 millones</strong> de bitcoin. La mayor orden individual fue un largo ETH-USDT de <strong>48,2 millones de dólares</strong> en Binance. CoinGlass contabilizó <strong>167.764</strong> traders liquidados en el periodo. The Block advirtió de que los datos de liquidaciones son imperfectos y que los totales probablemente se quedan cortos cuando las plataformas informan de ráfagas incompletas.
+
+Para quienes tienen bitcoin al contado, es decir, lo compran sin fondos prestados, perder una media móvil es una señal, no una llamada de margen automática. Quienes más lo sintieron el domingo y el lunes fueron los traders con futuros perpetuos y otros productos apalancados. Es una de las razones por las que a los principiantes se les suele orientar hacia compras al contado en un exchange regulado y no hacia los futuros: si estás empezando, [abrir una cuenta en Coinbase](REF) es una opción regulada en EE. UU. para comprar bitcoin al contado sin la mecánica de liquidación forzosa del apalancamiento alto.
+
+!mid_cta
+
+## Qué dice la historia cuando la media de 50 semanas falla tras recuperarse
+
+Alex Thorn, responsable de investigación de Galaxy, situó este nivel frente a ciclos anteriores. Bitcoin había recuperado la media de 50 semanas el 20 de septiembre y la mantuvo durante siete semanas antes del cierre del domingo. En las recuperaciones de los mercados bajistas de 2011-2012 y 2019-2020, señaló Thorn, bitcoin también perdió la media después de haber vuelto a situarse por encima. En el primer caso pasó otras 20 semanas por debajo de la línea y llegó a caer hasta un <strong>35 %</strong> por debajo. En 2019-2020 volvió a caer por debajo de la media cinco veces, incluido un tramo de ocho semanas durante el desplome del covid. En ambas muestras, dijo, el mínimo anterior del mercado bajista se mantuvo en términos de cierre semanal.
+
+Thorn subrayó también los límites de la muestra: solo cinco recuperaciones, y los suelos solo se conocen a posteriori. Galaxy había defendido en octubre que el mínimo del ciclo ya estaba hecho, señalando el mínimo anterior de <strong>59.517 dólares</strong> del 28 de junio. El lunes, Thorn dijo que esa tesis técnica alcista de octubre seguiría siendo válida si bitcoin recuperaba la media de 50 semanas en el plazo de un mes: un punto de control explícito a corto plazo, no una garantía.
+
+## Cómo encaja con el resto del mercado
+
+La pérdida de la media móvil se suma a otros dos focos de presión que los lectores de EE. UU. ya vieron esta semana: los fuertes reembolsos de los ETF y un tono de aversión al riesgo en las acciones tecnológicas. El Crypto Daily de CoinDesk señaló que los ETF de bitcoin al contado registraron una salida neta semanal de <strong>1.282 millones de dólares</strong>, la mayor desde la semana del 22 al 28 de junio, y acumulan unos <strong>914 millones</strong> de pérdida en el año tras haber pasado a positivo en 2026 el 22 de septiembre. La débil demanda de los ETF no provoca por sí sola una ruptura en el gráfico semanal, pero elimina a un comprador de último recurso con el que muchos alcistas contaban de cara al cierre del año.
+
+El calendario macroeconómico sigue pesando. Los traders vigilan el índice de precios al consumo de EE. UU. del martes. Un dato más suave podría aliviar los rendimientos y ayudar a los activos de riesgo; uno caliente podría prolongar la presión que ya empujó a bitcoin por debajo de la línea de 50 semanas.
+
+## Qué vigilar a partir de ahora
+
+- Si bitcoin puede recuperar y mantener la media de 50 semanas, de unos 75.488 dólares, en el plazo de un mes (el punto de control de Galaxy).
+- Los datos diarios y semanales de flujos de los ETF al contado tras las salidas de 1.280 millones de la semana pasada.
+- La publicación del IPC del martes y cualquier continuidad en los futuros del Nasdaq y en la financiación de los perpetuos cripto.
+- Si el interés abierto se reconstruye rápido tras la purga de más de 1.000 millones en largos o se mantiene bajo.
+
+!soft: ¿Nuevo en cripto? Lee nuestra [guía para principiantes sobre cómo comprar bitcoin en Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

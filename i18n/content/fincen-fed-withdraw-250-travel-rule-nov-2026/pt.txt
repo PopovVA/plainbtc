@@ -1,0 +1,50 @@
+title: FinCEN e Fed abandonam o plano de reduzir a Travel Rule para US$ 250 — limite de US$ 3.000 continua
+page_title: FinCEN e Fed abandonam o plano da Travel Rule de US$ 250
+description: Reguladores dos EUA retiraram uma proposta de 2020 para reduzir de US$ 3.000 para US$ 250 o limite internacional da Travel Rule e retirar o texto específico sobre criptomoedas. O que muda para bancos e usuários de cripto.
+og_description: FinCEN e Fed retiraram um plano de 2020 para reduzir o limite da Travel Rule para US$ 250.
+label: Regulação
+summary: Reguladores dos EUA retiraram uma proposta de 2020 que reduziria para US$ 250 os limites de transferências internacionais e tiraria o texto específico sobre cripto. O que mudou — e o que não mudou.
+===
+
+Na segunda-feira, 9 de novembro de 2026, a Rede de Combate a Crimes Financeiros (FinCEN) e o Conselho do Federal Reserve retiraram formalmente uma proposta conjunta de 2020 que teria reduzido de <strong>US$ 3.000</strong> para <strong>US$ 250</strong> o limite da Lei de Sigilo Bancário para muitas transferências internacionais de fundos. O aviso foi publicado no [Federal Register](L1) e afirma que as agências «não tomarão nenhuma outra medida» sobre essa proposta de regulamentação.
+
+Para o leitor americano comum, a manchete prática é simples: a antiga linha de <strong>US$ 3.000</strong> para registro de operações e para a Travel Rule continua valendo, por enquanto. Nada no documento de segunda-feira revoga as regras existentes. O que desaparece é o caminho específico para um limite de US$ 250 e o texto proposto que incluiria, de forma mais explícita, a moeda virtual conversível na definição de «dinheiro» para essas regras.
+
+!takeaways
+- FinCEN e Fed retiraram a proposta de 27 de outubro de 2020 a partir de 9 de novembro de 2026.
+- A proposta reduziria determinados limites de operações internacionais de US$ 3.000 para US$ 250.
+- Ela também buscava esclarecer que as regras abrangem a moeda virtual conversível e alguns ativos digitais com curso legal.
+- O limite atual de US$ 3.000 permanece; as agências se comprometeram a abrir nova consulta pública antes de qualquer reescrita parecida.
+
+## O que a proposta de 2020 faria
+
+No marco atual da Lei de Sigilo Bancário, bancos e muitas instituições financeiras não bancárias precisam coletar, guardar e, nos casos da Travel Rule, transmitir informações de identificação sobre transferências de fundos de <strong>US$ 3.000</strong> ou mais que comecem ou terminem fora dos Estados Unidos. A proposta de 2020 pretendia reduzir esse limite para <strong>US$ 250</strong> nas operações internacionais abrangidas e esclarecer que «dinheiro» inclui a moeda virtual conversível (CVC) e ativos digitais que tenham curso legal para o destinatário.
+
+Grupos de defesa da privacidade e do setor cripto se opunham havia tempos ao valor menor, alegando que ele levaria remessas comuns e transferências pequenas para uma máquina de vigilância mais pesada. Representantes de bancos e de empresas de serviços financeiros também alertaram para os custos de conformidade. Segundo o resumo da Bitcoin Magazine sobre o aviso de retirada, as agências receberam quase <strong>3.000</strong> comentários, muitos deles cartas-modelo semelhantes contrárias à redução.
+
+!mid_cta
+
+## Por que os reguladores recuaram agora
+
+O aviso do Federal Register dá dois motivos principais. Primeiro, passaram-se mais de cinco anos desde a proposta, e as agências querem mais contribuições do público antes de adotar algo parecido; assim, a retirada dá ao público a certeza de que nenhuma regra final sairá sem outro período de comentários. Segundo, os mercados cripto e os marcos legais mudaram. O aviso cita a lei de stablecoins GENIUS, sancionada em 18 de julho de 2025, como exemplo de novos marcos que qualquer futura revisão da Travel Rule relacionada à CVC deve considerar, para que as alterações sejam «adequadas à finalidade».
+
+A decisão de segunda-feira também se encaixa em um padrão recente de recuos do Tesouro. O The Block informou que a FinCEN já havia retirado antes a proposta de 2020 sobre «carteiras não custodiadas» e um plano de 2023 para classificar a mistura internacional de criptomoedas como uma preocupação principal de lavagem de dinheiro. Retirar uma proposta não é o mesmo que fiscalizar com menos rigor: outros instrumentos ainda podem mirar plataformas específicas. A Bitcoin Magazine lembrou que a FinCEN restringiu recentemente a exchange MEXC no sistema financeiro dos EUA, sob alegação de evasão de sanções.
+
+## O que isso muda — e o que não muda — para usuários de cripto
+
+Se você envia ou recebe bitcoin ou stablecoins em dólar por meio de uma exchange americana ou de outra instituição obrigada, o aviso de segunda-feira não afrouxa de repente as verificações de identificação do cliente, a checagem de sanções nem a prática atual da Travel Rule. Essas obrigações continuam valendo pelas regras e orientações atuais. O que o aviso elimina é o risco, mais próximo, de que um limite internacional definitivo de US$ 250, junto com o texto sobre cripto desse pacote, entrasse em vigor sem uma nova rodada de regulamentação.
+
+Para quem prefere uma conta em uma exchange regulada dos EUA a trilhas ponto a ponto sem supervisão, plataformas como a [Coinbase](REF) continuam sujeitas a programas de Lei de Sigilo Bancário e de prevenção à lavagem de dinheiro, com ou sem essa retirada. A disputa política agora passa a ser se a FinCEN e o Fed vão escrever uma nova proposta que reflita a legislação de stablecoins, os padrões de mensagens do setor e a realidade das remessas, ou deixar a linha de US$ 3.000 como está por mais tempo.
+
+## O que acompanhar daqui para a frente
+
+- Qualquer nova proposta da FinCEN ou do Fed que volte a tratar dos limites da Travel Rule ou das definições de cripto.
+- Propostas de prevenção à lavagem de dinheiro e de identificação de clientes para stablecoins, ligadas ao cronograma de implementação da lei GENIUS.
+- Ações de fiscalização caso a caso contra plataformas específicas, que podem continuar mesmo com a retirada de propostas amplas.
+- Como bancos e exchanges atualizam seus manuais de conformidade depois da certeza, desde segunda-feira, de que o pacote de 2020 não será finalizado como foi escrito.
+
+!soft: Novo em cripto? Veja o nosso [guia para iniciantes sobre como comprar bitcoin na Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

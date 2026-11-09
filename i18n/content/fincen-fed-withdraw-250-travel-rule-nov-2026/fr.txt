@@ -1,0 +1,50 @@
+title: FinCEN et la Fed abandonnent le projet de Travel Rule à 250 dollars — le seuil de 3 000 reste
+page_title: FinCEN et la Fed abandonnent le projet de Travel Rule à 250 dollars
+description: Les régulateurs américains ont retiré une proposition de 2020 visant à abaisser de 3 000 à 250 dollars le seuil transfrontalier de la Travel Rule et à supprimer la mention spécifique aux cryptos. Ce qui change pour les banques et les utilisateurs de cryptos.
+og_description: FinCEN et la Fed ont retiré un projet de 2020 visant à abaisser le seuil de la Travel Rule à 250 dollars.
+label: Réglementation
+summary: Les régulateurs américains ont retiré une proposition de 2020 qui aurait ramené les seuils transfrontaliers à 250 dollars et supprimé la mention des cryptos. Ce qui change, et ce qui ne change pas.
+===
+
+Le lundi 9 novembre 2026, le Financial Crimes Enforcement Network (FinCEN) et le Conseil des gouverneurs de la Réserve fédérale ont officiellement retiré une proposition conjointe de 2020 qui aurait abaissé de <strong>3 000</strong> à <strong>250 dollars</strong> le seuil de la loi sur le secret bancaire applicable à de nombreux transferts de fonds internationaux. L’avis, publié au [Federal Register](L1), précise que les agences « ne donneront aucune autre suite » à ce projet de réglementation.
+
+Pour le lecteur américain moyen, l’essentiel est simple : le seuil de <strong>3 000 dollars</strong> pour la conservation des données et la Travel Rule, en vigueur de longue date, reste en place pour l’instant. Rien dans le dépôt de lundi n’abroge les règles existantes. Ce qui disparaît, c’est la voie vers un seuil de 250 dollars, ainsi que la formulation proposée qui aurait inscrit plus explicitement la monnaie virtuelle convertible dans la définition de l’« argent » pour ces règles.
+
+!takeaways
+- FinCEN et la Fed ont retiré leur projet du 27 octobre 2020 à compter du 9 novembre 2026.
+- La proposition aurait abaissé certains seuils transfrontaliers de 3 000 à 250 dollars.
+- Elle visait aussi à préciser que les règles couvrent la monnaie virtuelle convertible et certains actifs numériques ayant cours légal.
+- Le seuil actuel de 3 000 dollars est maintenu ; les agences se sont engagées à rouvrir une consultation publique avant toute réécriture comparable.
+
+## Ce qu’aurait changé la proposition de 2020
+
+Dans le cadre actuel de la loi sur le secret bancaire, les banques et de nombreux établissements financiers non bancaires doivent recueillir, conserver et, dans les cas relevant de la Travel Rule, transmettre des informations d’identification sur les transferts de fonds d’au moins <strong>3 000 dollars</strong> qui commencent ou se terminent hors des États-Unis. Le projet de 2020 voulait ramener ce seuil à <strong>250 dollars</strong> pour les opérations transfrontalières concernées et préciser que l’« argent » inclut la monnaie virtuelle convertible (CVC) et les actifs numériques ayant cours légal pour le bénéficiaire.
+
+Les associations de défense de la vie privée et du secteur crypto s’opposaient depuis longtemps à ce seuil plus bas, estimant qu’il ferait entrer les envois d’argent ordinaires et les petits transferts dans un dispositif de surveillance plus lourd. Les représentants des banques et des services de transfert d’argent ont aussi alerté sur les coûts de conformité. D’après le résumé de Bitcoin Magazine sur l’avis de retrait, les agences ont reçu près de <strong>3 000</strong> commentaires, souvent des courriers types similaires s’opposant à la baisse.
+
+!mid_cta
+
+## Pourquoi les régulateurs reculent maintenant
+
+L’avis du Federal Register avance deux raisons principales. D’abord, plus de cinq ans se sont écoulés depuis la proposition et les agences veulent recueillir de nouveaux avis du public avant d’adopter quoi que ce soit de comparable : le retrait garantit donc qu’aucune règle définitive ne sortira sans nouvelle période de consultation. Ensuite, les marchés crypto et les cadres juridiques ont évolué. L’avis cite la loi sur les stablecoins GENIUS, promulguée le 18 juillet 2025, comme exemple de nouveaux cadres dont toute réécriture future de la Travel Rule touchant la CVC devrait tenir compte pour que les modifications soient « adaptées à leur objet ».
+
+La décision de lundi s’inscrit aussi dans une série récente de revirements du Trésor. The Block rappelle que FinCEN avait déjà retiré sa proposition de 2020 sur les « portefeuilles non hébergés » ainsi qu’un projet de 2023 visant à qualifier le brassage international de cryptos de préoccupation principale en matière de blanchiment. Retirer une proposition ne revient pas à assouplir l’application des règles : d’autres outils peuvent toujours viser des plateformes précises. Bitcoin Magazine a noté que FinCEN a récemment exclu la plateforme MEXC du système financier américain pour contournement présumé de sanctions.
+
+## Ce que cela change — et ne change pas — pour les utilisateurs de cryptos
+
+Si vous envoyez ou recevez des bitcoins ou des stablecoins en dollars via une plateforme américaine ou un autre établissement assujetti, l’avis de lundi n’assouplit pas d’un coup les contrôles d’identité, le filtrage des sanctions ni la pratique actuelle de la Travel Rule. Ces obligations s’appliquent toujours selon les règles et les orientations en vigueur. Ce que l’avis écarte, c’est le risque, plus proche, qu’un seuil transfrontalier définitif de 250 dollars — et la mention des cryptos de ce paquet — n’entrent en vigueur sans nouvelle procédure de réglementation.
+
+Pour ceux qui préfèrent un compte sur une plateforme américaine réglementée plutôt que des échanges de pair à pair non supervisés, des acteurs comme [Coinbase](REF) restent soumis aux programmes de conformité à la loi sur le secret bancaire et à la lutte contre le blanchiment, retrait ou non. Le débat politique se déplace maintenant vers la question de savoir si FinCEN et la Fed rédigeront une nouvelle proposition tenant compte de la législation sur les stablecoins, des normes de messagerie du secteur et de la réalité des envois d’argent, ou s’ils laisseront le seuil de 3 000 dollars en l’état plus longtemps.
+
+## À surveiller ensuite
+
+- Toute nouvelle proposition de FinCEN ou de la Fed revenant sur les seuils de la Travel Rule ou sur les définitions relatives aux cryptos.
+- Les propositions de lutte contre le blanchiment et d’identification des clients pour les stablecoins, liées au calendrier de mise en œuvre de la loi GENIUS.
+- Les actions de contrôle au cas par cas contre des plateformes nommément visées, qui peuvent continuer même quand des propositions générales sont retirées.
+- La façon dont banques et plateformes mettent à jour leurs manuels de conformité, maintenant qu’il est acquis que le paquet de 2020 ne sera pas finalisé tel quel.
+
+!soft: Débutant en crypto ? Lisez notre [guide pour acheter du bitcoin sur Coinbase](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure
