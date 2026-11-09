@@ -29,7 +29,7 @@ COMMUNITY = [
     ("x", "https://x.com/lean_redfield", "community_x"),
 ]
 SAME_AS = [u for _, u, _ in COMMUNITY]
-STYLES_CSS = "/assets/styles.20261109e.css"
+STYLES_CSS = "/assets/styles.20261109f.css"
 
 ICON_SVG = {
     "discord": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>',
@@ -188,7 +188,8 @@ def en_articles_order() -> list[str]:
     """Slugs in the order the English home page lists them (newest first)."""
     idx = (ROOT / "index.html").read_text(encoding="utf-8")
     seen = []
-    for m in re.finditer(r'href="(?:articles/)?([a-z0-9-]+)\.html"', idx):
+    # Match both pretty URLs (/articles/<slug>) and legacy .html links.
+    for m in re.finditer(r'href="(?:/articles/|articles/)([a-z0-9-]+)(?:\.html)?"', idx):
         s = m.group(1)
         if (ROOT / "articles" / f"{s}.html").exists() and s not in seen:
             seen.append(s)
@@ -349,8 +350,8 @@ def head_html(lang, kind, slug, title, desc, og_title, og_desc, typ, image, ld, 
   <meta name="robots" content="index,follow">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS ({esc_attr(a['name'])})" href="/{lang}/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109e.css">
-  <link rel="stylesheet" href="/assets/article-media.css?v=20261109e">
+  <link rel="stylesheet" href="{STYLES_CSS}">
+  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
   <title>{esc(title)}</title>
   <meta name="description" content="{esc_attr(desc)}">
   <link rel="canonical" href="{url}">
@@ -395,7 +396,7 @@ def footer_html(lang, kind, slug) -> str:
 {footer_social_html(lang)}
 {footer_langs(kind, slug, lang)}
   </footer>
-  <script src="/assets/site.js?v=20261109e" defer></script>
+  <script src="/assets/site.js?v=20261109f" defer></script>
 </body>
 </html>
 '''
@@ -413,6 +414,72 @@ def render_blocks(pg: Page, blocks: list[dict], indent="      ") -> str:
         else:
             raise ValueError(f"unexpected block {t}")
     return "\n".join(out)
+
+
+def plain_text(pg, text: str) -> str:
+    """Render an inline-markup string as plain text (for JSON-LD)."""
+    h = pg.inline(text)
+    h = re.sub(r"<br\s*/?>", " ", h)
+    h = re.sub(r"<[^>]+>", "", h)
+    return re.sub(r"\s+", " ", _html.unescape(h)).strip()
+
+
+def extra_jsonld(pg, head: dict, blocks: list[dict], url: str, lang: str) -> list[dict]:
+    """FAQPage / HowTo JSON-LD from `!faq` / `!howto` markers.
+
+    `!faq`   -> placed right before the FAQ `##` heading; each following `###` is a question and the
+               paragraphs/lists until the next `###`/`##`/`!` block are its answer.
+    `!howto` -> placed right before the `##` heading of the how-to section; that heading is the name,
+               the first `ol` after it holds the steps (leading <strong>..</strong> = step name).
+    """
+    out = []
+    for i, b in enumerate(blocks):
+        if b["t"] == "faq":
+            qa, q, ans, seen_h2 = [], None, [], False
+            for nb in blocks[i + 1:]:
+                t = nb["t"]
+                if t == "h2" and not seen_h2:
+                    seen_h2 = True
+                    continue
+                if t == "h3":
+                    if q is not None and ans:
+                        qa.append((q, " ".join(ans)))
+                    q, ans = plain_text(pg, nb["text"]), []
+                elif t in ("p", "ul", "ol") and q is not None:
+                    if t == "p":
+                        ans.append(plain_text(pg, nb["text"]))
+                    else:
+                        ans.extend(plain_text(pg, x) for x in nb["items"])
+                else:
+                    break
+            if q is not None and ans:
+                qa.append((q, " ".join(ans)))
+            if qa:
+                out.append({"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": LANG[lang]["hreflang"],
+                            "mainEntity": [{"@type": "Question", "name": a,
+                                            "acceptedAnswer": {"@type": "Answer", "text": r}} for a, r in qa]})
+        elif b["t"] == "howto":
+            name, steps, intro = None, [], []
+            for nb in blocks[i + 1:]:
+                t = nb["t"]
+                if t == "h2" and name is None:
+                    name = plain_text(pg, nb["text"])
+                elif t == "p" and name is not None and not steps:
+                    intro.append(plain_text(pg, nb["text"]))
+                elif t == "ol" and name is not None:
+                    for k, item in enumerate(nb["items"], 1):
+                        m = re.match(r"\s*<strong>(.*?)</strong>\s*(.*)", item, re.S)
+                        sname = plain_text(pg, m.group(1)) if m else plain_text(pg, item)
+                        stext = plain_text(pg, item)
+                        steps.append({"@type": "HowToStep", "position": k, "name": sname, "text": stext})
+                    break
+                elif t in ("faq", "howto", "end_cta", "figure", "mid_cta", "takeaways"):
+                    break
+            if name and steps:
+                d = {"@context": "https://schema.org", "@type": "HowTo", "name": name, "inLanguage": LANG[lang]["hreflang"],
+                     "description": " ".join(intro) or head["description"], "step": steps}
+                out.append(d)
+    return out
 
 
 # ---------------------------------------------------------------- page builders
@@ -439,6 +506,8 @@ def build_article(lang: str, slug: str):
         "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": s["nav_home"], "item": abs_url(path_for(lang, "home"))},
             {"@type": "ListItem", "position": 2, "name": head["title"], "item": url}]})
+    for x in extra_jsonld(pg, head, blocks, url, lang):
+        ld += "\n" + jsonld(x)
     parts = [head_html(lang, "article", slug, ptitle, head["description"], head["title"], head["og_description"],
                        "article", img, ld, meta["date"])]
     parts.append(header_html(lang, "article", slug))
@@ -462,6 +531,8 @@ def build_article(lang: str, slug: str):
         if t in ("p", "h2", "h3", "blockquote", "ul", "ol"):
             run.append(b); continue
         flush()
+        if t in ("faq", "howto"):
+            continue   # structural markers for JSON-LD only
         if t == "takeaways":
             lis = "\n".join(f"          <li>{pg.inline(i)}</li>" for i in b["items"])
             body.append(f'      <div class="takeaways">\n        <h2>{esc(s["takeaways"])}</h2>\n        <ul>\n{lis}\n        </ul>\n      </div>\n')
@@ -536,6 +607,7 @@ def build_article(lang: str, slug: str):
 
 
 def article_cards(lang):
+    """Home-page article cards with OG thumbnail. Future articles get a thumb automatically."""
     s = STR[lang]
     cards = []
     for slug in SLUGS:
@@ -545,11 +617,18 @@ def article_cards(lang):
         meta = CONTENT[slug]["meta"]
         href = path_for(lang, "article", slug)
         m = f"{head['label']} · {fmt_date(lang, meta['date'])} · {s['readtime'].format(n=meta['readtime'])}"
+        thumb = f"/assets/og/{slug}.png"
+        title = esc(head["title"])
         cards.append(f'''      <article class="card">
-        <div class="meta">{esc(m)}</div>
-        <h2><a href="{href}">{esc(head['title'])}</a></h2>
-        <p>{esc(head['summary'])}</p>
-        <a class="read-more" href="{href}">{esc(s['read_article'])}</a>
+        <a class="card-thumb" href="{href}" tabindex="-1" aria-hidden="true">
+          <img src="{thumb}" width="1200" height="630" alt="{esc_attr(head['title'])}" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta">{esc(m)}</div>
+          <h2><a href="{href}">{title}</a></h2>
+          <p>{esc(head['summary'])}</p>
+          <a class="read-more" href="{href}">{esc(s['read_article'])}</a>
+        </div>
       </article>''')
     return "\n\n".join(cards)
 
@@ -699,19 +778,23 @@ def patch_en(path: Path, kind: str, slug: str = ""):
     h = fix_jsonld(h)
     h = re.sub(
         r'<link rel="stylesheet" href="[^"]*styles(?:\.[\w-]+)?\.css(?:\?[^"]*)?">',
-        '<link rel="stylesheet" href="/assets/styles.20261109e.css">',
+        f'<link rel="stylesheet" href="{STYLES_CSS}">',
         h,
         count=1,
     )
     if "article-media.css" not in h:
         h = h.replace(
-            '<link rel="stylesheet" href="/assets/styles.20261109e.css">',
-            '<link rel="stylesheet" href="/assets/styles.20261109e.css">\n'
-            '  <link rel="stylesheet" href="/assets/article-media.css?v=20261109e">',
+            f'<link rel="stylesheet" href="{STYLES_CSS}">',
+            f'<link rel="stylesheet" href="{STYLES_CSS}">\n'
+            '  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">',
             1,
         )
+    else:
+        h = re.sub(r'(article-media\.css\?v=)[^"\s]+', r'\g<1>20261109f', h, count=1)
     if "/assets/site.js" not in h:
-        h = h.replace("</body>", '  <script src="/assets/site.js?v=20261109e" defer></script>\n</body>', 1)
+        h = h.replace("</body>", '  <script src="/assets/site.js?v=20261109f" defer></script>\n</body>', 1)
+    else:
+        h = re.sub(r'(site\.js\?v=)[^"\s]+', r'\g<1>20261109f', h, count=1)
     new = hreflang_block(kind, slug, DEFAULT)
     h, ok = replace_marked(h, "hreflang", new)
     if not ok:
@@ -758,6 +841,25 @@ def patch_en(path: Path, kind: str, slug: str = ""):
                 h = h[:m.start(2)] + new + "\n    " + h[m.start(2):]
             else:
                 errors.append(f"cannot place home community in {path}")
+        # Regenerate article cards (with thumbnails) between i18n:articles markers
+        cards = article_cards(DEFAULT)
+        articles_block = (
+            '  <!-- i18n:articles -->\n'
+            f'{cards}\n'
+            '  <!-- /i18n:articles -->'
+        )
+        h, ok = replace_marked(h, "articles", articles_block)
+        if not ok:
+            # Wrap existing grid contents once, then replace
+            m = re.search(
+                r'(<section id="articles"[^>]*>)\s*(.*?)\s*(</section>)',
+                h,
+                re.S,
+            )
+            if m:
+                h = h[:m.start(2)] + "\n" + articles_block + "\n    " + h[m.start(3):]
+            else:
+                errors.append(f"cannot place articles grid in {path}")
     # Ensure Organization JSON-LD includes sameAs
     def add_same_as(m):
         block = m.group(0)
