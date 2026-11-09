@@ -275,7 +275,82 @@ def thumb_howto():
         {"file":"UI illustration","license":"PlainBTC original","url":"","credit":"Stylized buy-flow mockup — not an official Coinbase screenshot"},
     ]}
 
+
+def thumb_coinbase_safe():
+    coinbase = fetch("https://upload.wikimedia.org/wikipedia/commons/5/5c/Coinbase_Icon.png", CACHE/"coinbase-icon.png")
+    # US Treasury / banking vibe optional — use lock illustration + Coinbase
+    base = gradient_bg()
+    d = ImageDraw.Draw(base)
+    # large shield
+    d.rounded_rectangle([40, 50, 280, 310], radius=24, fill=(26, 35, 50), outline=(45, 58, 79), width=2)
+    # lock body
+    d.rounded_rectangle([110, 150, 210, 250], radius=16, fill=ACCENT)
+    d.arc([120, 95, 200, 175], start=0, end=180, fill=ORANGE, width=10)
+    d.ellipse([145, 185, 175, 215], fill=WHITE)
+    d.rectangle([156, 210, 164, 235], fill=WHITE)
+    paste_contain(base, Image.open(coinbase).convert("RGBA"), (320, 70, 140, 140), pad=4)
+    d = ImageDraw.Draw(base)
+    d.text((320, 220), "Cold storage", font=font(FONT_B, 18), fill=WHITE)
+    d.text((320, 248), "Coinbase holds >99% of", font=font(FONT_R, 12), fill=MUTED)
+    d.text((320, 268), "customer assets offline", font=font(FONT_R, 12), fill=MUTED)
+    d.text((320, 288), "(per Coinbase)", font=font(FONT_R, 11), fill=MUTED)
+    label_chip(base, "Is Coinbase safe?")
+    return base, {"kind":"illustration","sources":[
+        {"file":"Coinbase_Icon.png","license":"Logo","url":"https://commons.wikimedia.org/wiki/File:Coinbase_Icon.png","credit":"Coinbase"},
+        {"file":"cold-storage illustration","license":"PlainBTC original","url":"","credit":">99% cold-storage figure from Coinbase blog as cited in article"},
+    ]}
+
+
+def thumb_dca():
+    # Real weekly BTC chart + DCA annotation
+    xs, closes = kraken_ohlc(10080); xs, closes = xs[-104:], closes[-104:]  # ~2y weekly
+    fig, ax = plt.subplots(figsize=(6.4, 3.6), dpi=100); fig.patch.set_facecolor("#0f1419")
+    style_ax(ax, "BTC weekly — why DCA smooths entries")
+    ax.plot(xs, closes, color="#f7931a", linewidth=1.7)
+    # mark a few equal-spaced buy dots
+    idxs = list(range(0, len(closes), max(1, len(closes)//8)))[:8]
+    ax.scatter([xs[i] for i in idxs], [closes[i] for i in idxs], color="#60a5fa", s=28, zorder=5, label="Example weekly buys")
+    ax.legend(loc="upper left", facecolor="#1a2332", edgecolor="#2d3a4f", labelcolor="white", fontsize=8)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v,_: f"${v/1000:.0f}k"))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %y"))
+    im = chart_to_image(fig)
+    d = ImageDraw.Draw(im)
+    d.rounded_rectangle([im.width-200, 14, im.width-12, 70], radius=10, fill=(30, 58, 138))
+    d.text((im.width-188, 22), "DCA", font=font(FONT_B, 16), fill=WHITE)
+    d.text((im.width-188, 44), "small regular buys", font=font(FONT_R, 10), fill=(191, 219, 254))
+    return im, {"kind":"chart","sources":[
+        {"file":"Kraken OHLC XBTUSD interval=10080","license":"Kraken public API","url":"https://docs.kraken.com/api/docs/rest-api/get-ohlc-data","credit":"Weekly BTC/USD from Kraken; DCA markers illustrative"},
+    ]}
+
+
+def thumb_wallet():
+    base = gradient_bg()
+    d = ImageDraw.Draw(base)
+    # two columns
+    for i, (title, color, lines) in enumerate([
+        ("Custodial", (59, 130, 246), ["Exchange holds keys", "Login recovery OK", "Counterparty risk"]),
+        ("Self-custody", (247, 147, 26), ["You hold the keys", "Seed phrase = access", "No company bailout"]),
+    ]):
+        x0 = 30 + i * 310
+        d.rounded_rectangle([x0, 55, x0+280, 310], radius=18, fill=(26, 35, 50), outline=color, width=3)
+        d.rounded_rectangle([x0+16, 70, x0+264, 110], radius=10, fill=color)
+        bb = d.textbbox((0,0), title, font=font(FONT_B, 16)); tw=bb[2]-bb[0]
+        d.text((x0 + (280-tw)//2, 80), title, font=font(FONT_B, 16), fill=(15,20,28) if i==1 else WHITE)
+        # key icon circle
+        d.ellipse([x0+105, 130, x0+175, 200], outline=color, width=4)
+        d.rectangle([x0+135, 195, x0+145, 240], fill=color)
+        for j, line in enumerate(lines):
+            d.text((x0+28, 250+j*18), "• "+line, font=font(FONT_R, 12), fill=WHITE)
+    label_chip(base, "Crypto wallets")
+    return base, {"kind":"illustration","sources":[
+        {"file":"wallet comparison illustration","license":"PlainBTC original","url":"","credit":"Concepts from Coinbase Help / Bitcoin.org / FINRA as cited in article"},
+    ]}
+
+
 BUILDERS = {
+    "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
+    "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
+    "what-is-a-crypto-wallet-custodial-vs-self-custody": thumb_wallet,
     "coinbase-occ-national-trust-charter-nov-2026": thumb_occ,
     "fincen-fed-withdraw-250-travel-rule-nov-2026": thumb_fincen,
     "bitcoin-loses-50-week-moving-average-nov-2026": thumb_btc_50w,

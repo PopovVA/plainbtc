@@ -1,15 +1,21 @@
 {
-  "kind": "figure-fallback",
+  "kind": "illustration",
   "sources": [
     {
-      "file": "assets/img/is-coinbase-safe-for-beginners/fact-cold-storage.webp",
-      "license": "See article figures",
+      "file": "Coinbase_Icon.png",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Coinbase_Icon.png",
+      "credit": "Coinbase"
+    },
+    {
+      "file": "cold-storage illustration",
+      "license": "PlainBTC original",
       "url": "",
-      "credit": "Derived from mid-article figure"
+      "credit": ">99% cold-storage figure from Coinbase blog as cited in article"
     }
   ],
   "slug": "is-coinbase-safe-for-beginners",
-  "generated": "2026-11-09T19:58Z",
+  "generated": "2026-11-09T20:00Z",
   "size": [
     640,
     360

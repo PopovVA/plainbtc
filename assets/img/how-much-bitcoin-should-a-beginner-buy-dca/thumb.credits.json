@@ -1,15 +1,15 @@
 {
-  "kind": "figure-fallback",
+  "kind": "chart",
   "sources": [
     {
-      "file": "assets/img/how-much-bitcoin-should-a-beginner-buy-dca/chart-btc-5y-drawdowns.webp",
-      "license": "See article figures",
-      "url": "",
-      "credit": "Derived from mid-article figure"
+      "file": "Kraken OHLC XBTUSD interval=10080",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Weekly BTC/USD from Kraken; DCA markers illustrative"
     }
   ],
   "slug": "how-much-bitcoin-should-a-beginner-buy-dca",
-  "generated": "2026-11-09T19:58Z",
+  "generated": "2026-11-09T20:00Z",
   "size": [
     640,
     360
