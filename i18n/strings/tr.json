@@ -14,7 +14,20 @@
   "readtime": "~{n} dk okuma",
   "read_article": "Makaleyi oku →",
   "date_fmt": "{d} {month} {y}",
-  "months": ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"],
+  "months": [
+    "Ocak",
+    "Şubat",
+    "Mart",
+    "Nisan",
+    "Mayıs",
+    "Haziran",
+    "Temmuz",
+    "Ağustos",
+    "Eylül",
+    "Ekim",
+    "Kasım",
+    "Aralık"
+  ],
   "takeaways": "Öne çıkanlar",
   "related": "İlgili yazılar",
   "sources": "Kaynaklar",
@@ -28,5 +41,11 @@
   "hero_badge": "ABD piyasası · {date}",
   "hero_h1": "Gürültüsüz kripto haberleri",
   "hero_p": "PlainBTC; Bitcoin’i, düzenlemeleri ve pratik adımları ABD piyasasına odaklanarak, herkesin anlayacağı bir dille anlatır.",
-  "about_box": "<strong>Bu site hakkında.</strong> PlainBTC bağımsız bir bilgilendirme blogudur. Bu dil sürümünde herhangi bir yönlendirme (referans) bağlantısı bulunmaz. Buradaki hiçbir içerik finansal, yatırım, hukuki veya vergi tavsiyesi değildir. [Hakkında](/about) ve [Şeffaflık](/disclosure) sayfalarımızı okuyun."
+  "about_box": "<strong>Bu site hakkında.</strong> PlainBTC bağımsız bir bilgilendirme blogudur. Bu dil sürümünde herhangi bir yönlendirme (referans) bağlantısı bulunmaz. Buradaki hiçbir içerik finansal, yatırım, hukuki veya vergi tavsiyesi değildir. [Hakkında](/about) ve [Şeffaflık](/disclosure) sayfalarımızı okuyun.",
+  "community_title": "Topluluğa katılın",
+  "community_text": "Haberler, yeni başlayan soruları ve anketler—PlainBTC’yi Discord, Facebook ve X’te takip edin.",
+  "community_discord": "Discord",
+  "community_facebook": "Facebook",
+  "community_x": "X",
+  "community_aria": "Topluluk bağlantıları"
 }

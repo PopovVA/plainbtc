@@ -14,7 +14,20 @@
   "readtime": "~{n} min",
   "read_article": "Read article →",
   "date_fmt": "{month} {d}, {y}",
-  "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+  "months": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
   "takeaways": "Key takeaways",
   "related": "Related reading",
   "sources": "Sources",
@@ -36,5 +49,11 @@
   "hero_badge": "U.S. market · {date}",
   "hero_h1": "Crypto news without the noise",
   "hero_p": "PlainBTC covers bitcoin, regulation, and practical how-tos for American readers—in plain English.",
-  "about_box": "<strong>About this site.</strong> PlainBTC is an independent informational blog. Some pages include referral links to Coinbase. We are not affiliated with Coinbase beyond the standard referral program. Nothing here is financial, investment, legal, or tax advice. Read our [About](/about) and [Disclosure](/disclosure) pages."
+  "about_box": "<strong>About this site.</strong> PlainBTC is an independent informational blog. Some pages include referral links to Coinbase. We are not affiliated with Coinbase beyond the standard referral program. Nothing here is financial, investment, legal, or tax advice. Read our [About](/about) and [Disclosure](/disclosure) pages.",
+  "community_title": "Join the community",
+  "community_text": "News, beginner Q&A, and polls—follow PlainBTC on Discord, Facebook, and X.",
+  "community_discord": "Discord",
+  "community_facebook": "Facebook",
+  "community_x": "X",
+  "community_aria": "Community links"
 }

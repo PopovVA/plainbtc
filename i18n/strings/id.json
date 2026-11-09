@@ -14,7 +14,20 @@
   "readtime": "~{n} menit baca",
   "read_article": "Baca artikel →",
   "date_fmt": "{d} {month} {y}",
-  "months": ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"],
+  "months": [
+    "Januari",
+    "Februari",
+    "Maret",
+    "April",
+    "Mei",
+    "Juni",
+    "Juli",
+    "Agustus",
+    "September",
+    "Oktober",
+    "November",
+    "Desember"
+  ],
   "takeaways": "Poin penting",
   "related": "Bacaan terkait",
   "sources": "Sumber",
@@ -32,5 +45,11 @@
   "hero_badge": "Pasar AS · {date}",
   "hero_h1": "Berita kripto tanpa kebisingan",
   "hero_p": "PlainBTC mengulas Bitcoin, regulasi, dan langkah-langkah praktis dengan fokus pada pasar AS, memakai bahasa yang mudah dipahami.",
-  "about_box": "<strong>Tentang situs ini.</strong> PlainBTC adalah blog informasi independen. Beberapa halaman memuat tautan referral Coinbase. Kami tidak berafiliasi dengan Coinbase selain melalui program referral standar. Tidak ada yang di sini merupakan nasihat keuangan, investasi, hukum, atau pajak. Baca halaman [Tentang](/about) dan [Keterbukaan](/disclosure) kami."
+  "about_box": "<strong>Tentang situs ini.</strong> PlainBTC adalah blog informasi independen. Beberapa halaman memuat tautan referral Coinbase. Kami tidak berafiliasi dengan Coinbase selain melalui program referral standar. Tidak ada yang di sini merupakan nasihat keuangan, investasi, hukum, atau pajak. Baca halaman [Tentang](/about) dan [Keterbukaan](/disclosure) kami.",
+  "community_title": "Gabung komunitas",
+  "community_text": "Berita, tanya jawab pemula, dan polling—ikuti PlainBTC di Discord, Facebook, dan X.",
+  "community_discord": "Discord",
+  "community_facebook": "Facebook",
+  "community_x": "X",
+  "community_aria": "Tautan komunitas"
 }

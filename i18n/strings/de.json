@@ -14,7 +14,20 @@
   "readtime": "~{n} Min. Lesezeit",
   "read_article": "Artikel lesen →",
   "date_fmt": "{d}. {month} {y}",
-  "months": ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
+  "months": [
+    "Januar",
+    "Februar",
+    "März",
+    "April",
+    "Mai",
+    "Juni",
+    "Juli",
+    "August",
+    "September",
+    "Oktober",
+    "November",
+    "Dezember"
+  ],
   "takeaways": "Das Wichtigste in Kürze",
   "related": "Weiterlesen",
   "sources": "Quellen",
@@ -36,5 +49,11 @@
   "hero_badge": "US-Markt · {date}",
   "hero_h1": "Krypto-News ohne Rauschen",
   "hero_p": "PlainBTC erklärt Bitcoin, Regulierung und praktische Schritte – mit Blick auf den US-Markt und in Worten, die jeder versteht.",
-  "about_box": "<strong>Über diese Seite.</strong> PlainBTC ist ein unabhängiger Informationsblog. Einige Seiten enthalten Empfehlungslinks zu Coinbase. Über das übliche Empfehlungsprogramm hinaus bestehen keine Verbindungen zu Coinbase. Nichts hier ist Finanz-, Anlage-, Rechts- oder Steuerberatung. Lies unsere Seiten [Über uns](/about) und [Offenlegung](/disclosure)."
+  "about_box": "<strong>Über diese Seite.</strong> PlainBTC ist ein unabhängiger Informationsblog. Einige Seiten enthalten Empfehlungslinks zu Coinbase. Über das übliche Empfehlungsprogramm hinaus bestehen keine Verbindungen zu Coinbase. Nichts hier ist Finanz-, Anlage-, Rechts- oder Steuerberatung. Lies unsere Seiten [Über uns](/about) und [Offenlegung](/disclosure).",
+  "community_title": "Zur Community",
+  "community_text": "News, Einsteigerfragen und Umfragen—folge PlainBTC auf Discord, Facebook und X.",
+  "community_discord": "Discord",
+  "community_facebook": "Facebook",
+  "community_x": "X",
+  "community_aria": "Community-Links"
 }

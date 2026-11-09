@@ -14,7 +14,20 @@
   "readtime": "約{n}分で読めます",
   "read_article": "記事を読む →",
   "date_fmt": "{y}年{M}月{d}日",
-  "months": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+  "months": [
+    "1月",
+    "2月",
+    "3月",
+    "4月",
+    "5月",
+    "6月",
+    "7月",
+    "8月",
+    "9月",
+    "10月",
+    "11月",
+    "12月"
+  ],
   "takeaways": "この記事のポイント",
   "related": "関連記事",
   "sources": "出典",
@@ -32,5 +45,11 @@
   "hero_badge": "米国市場 · {date}",
   "hero_h1": "ノイズのない暗号資産ニュース",
   "hero_p": "PlainBTCは、ビットコイン、規制、実践的な手順を、米国市場を軸にやさしい言葉で解説します。",
-  "about_box": "<strong>このサイトについて。</strong>PlainBTCは独立した情報提供ブログです。一部のページにはCoinbaseの紹介リンクが含まれています。標準の紹介プログラム以外に、Coinbaseとの関係はありません。ここに掲載する内容は、金融・投資・法律・税務に関する助言ではありません。[PlainBTCについて](/about)と[開示事項](/disclosure)のページもご覧ください。"
+  "about_box": "<strong>このサイトについて。</strong>PlainBTCは独立した情報提供ブログです。一部のページにはCoinbaseの紹介リンクが含まれています。標準の紹介プログラム以外に、Coinbaseとの関係はありません。ここに掲載する内容は、金融・投資・法律・税務に関する助言ではありません。[PlainBTCについて](/about)と[開示事項](/disclosure)のページもご覧ください。",
+  "community_title": "コミュニティに参加",
+  "community_text": "ニュース、初心者向けQ&A、アンケート——PlainBTCをDiscord・Facebook・Xでフォロー。",
+  "community_discord": "Discord",
+  "community_facebook": "Facebook",
+  "community_x": "X",
+  "community_aria": "コミュニティリンク"
 }

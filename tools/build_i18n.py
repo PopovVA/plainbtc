@@ -22,6 +22,67 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://plainbtc.com"
 REF_URL = "https://coinbase.com/join/F2XRWRL?src=referral-link"
+
+COMMUNITY = [
+    ("discord", "https://discord.gg/EcuGXPDr2d", "community_discord"),
+    ("facebook", "https://www.facebook.com/groups/1688106109771364", "community_facebook"),
+    ("x", "https://x.com/lean_redfield", "community_x"),
+]
+SAME_AS = [u for _, u, _ in COMMUNITY]
+STYLES_CSS = "/assets/styles.20261109e.css"
+
+ICON_SVG = {
+    "discord": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>',
+    "facebook": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg>',
+    "x": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>',
+}
+
+
+def org_publisher() -> dict:
+    return {"@type": "Organization", "name": "PlainBTC", "url": SITE + "/", "sameAs": list(SAME_AS)}
+
+
+def community_links_html(lang: str, *, compact: bool = False) -> str:
+    s = STR[lang]
+    bits = []
+    for key, url, label_k in COMMUNITY:
+        raw = s.get(label_k, key)
+        bits.append(
+            f'<a class="community-link" href="{esc_attr(url)}" target="_blank" rel="noopener" '
+            f'title="{esc_attr(raw)}">{ICON_SVG[key]}<span>{esc(raw)}</span></a>'
+        )
+    return "".join(bits)
+
+
+def community_box_html(lang: str, *, home: bool = False) -> str:
+    s = STR[lang]
+    cls = "community-box home-community" if home else "community-box"
+    aria = esc_attr(s.get("community_aria", "Community links"))
+    return (
+        f'      <aside class="{cls}" aria-label="{aria}">\n'
+        f'        <h2>{esc(s["community_title"])}</h2>\n'
+        f'        <p>{esc(s["community_text"])}</p>\n'
+        f'        <div class="community-links">{community_links_html(lang)}</div>\n'
+        f'      </aside>\n'
+    )
+
+
+def footer_social_html(lang: str) -> str:
+    s = STR[lang]
+    aria = esc_attr(s.get("community_aria", "Community links"))
+    return (
+        '  <!-- i18n:footersocial -->\n'
+        f'  <div class="wrap footer-social" aria-label="{aria}">{community_links_html(lang)}</div>\n'
+        '  <!-- /i18n:footersocial -->'
+    )
+
+
+def community_marker_html(lang: str, *, home: bool = False) -> str:
+    return (
+        '  <!-- i18n:community -->\n'
+        + community_box_html(lang, home=home)
+        + '  <!-- /i18n:community -->'
+    )
 CFG = json.loads((ROOT / "i18n/langs.json").read_text(encoding="utf-8"))
 LANGS = CFG["langs"]
 DEFAULT = CFG["default"]
@@ -288,8 +349,8 @@ def head_html(lang, kind, slug, title, desc, og_title, og_desc, typ, image, ld, 
   <meta name="robots" content="index,follow">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS ({esc_attr(a['name'])})" href="/{lang}/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109d.css">
-  <link rel="stylesheet" href="/assets/article-media.css?v=20261109a">
+  <link rel="stylesheet" href="/assets/styles.20261109e.css">
+  <link rel="stylesheet" href="/assets/article-media.css?v=20261109e">
   <title>{esc(title)}</title>
   <meta name="description" content="{esc_attr(desc)}">
   <link rel="canonical" href="{url}">
@@ -331,9 +392,10 @@ def footer_html(lang, kind, slug) -> str:
         <a href="{p}/feed.xml">{esc(s['rss'])}</a>
       </nav>
     </div>
+{footer_social_html(lang)}
 {footer_langs(kind, slug, lang)}
   </footer>
-  <script src="/assets/site.js?v=20261109d" defer></script>
+  <script src="/assets/site.js?v=20261109e" defer></script>
 </body>
 </html>
 '''
@@ -369,7 +431,7 @@ def build_article(lang: str, slug: str):
         "headline": head["title"], "name": ptitle, "description": head["description"],
         "datePublished": meta["date"], "dateModified": meta["date"],
         "author": {"@type": "Organization", "name": "PlainBTC"},
-        "publisher": {"@type": "Organization", "name": "PlainBTC", "url": SITE + "/"},
+        "publisher": org_publisher(),
         "mainEntityOfPage": {"@type": "WebPage", "@id": url}, "url": url, "image": img,
         "inLanguage": LANG[lang]["hreflang"],
     }) + "\n" + jsonld({
@@ -444,6 +506,7 @@ def build_article(lang: str, slug: str):
         else:
             errors.append(f"[{lang}/{slug}] unknown block {t}")
     flush()
+    body.append(community_box_html(lang))
     rel = [r for r in meta["related"] if r in CONTENT and lang in CONTENT[r]]
     if rel:
         lis = "\n".join(f'          <li><a href="{path_for(lang, "article", r)}">{esc(CONTENT[r][lang][0]["title"])}</a></li>' for r in rel)
@@ -499,7 +562,7 @@ def build_home(lang):
     latest = max((CONTENT[x]["meta"]["date"] for x in CONTENT if lang in CONTENT[x]), default=date.today().isoformat())
     ld = jsonld({"@context": "https://schema.org", "@type": "WebSite", "name": "PlainBTC", "url": url,
                  "description": s["tagline"], "inLanguage": LANG[lang]["hreflang"],
-                 "publisher": {"@type": "Organization", "name": "PlainBTC", "url": SITE + "/"}})
+                 "publisher": org_publisher()})
     h = head_html(lang, "home", "", s["home_title"], s["home_description"], s["home_title"], s["home_og_description"], "website", img, ld)
     mode_box = s["about_box"]
     return "\n".join([h, header_html(lang, "home", ""), f'''  <main>
@@ -509,6 +572,7 @@ def build_home(lang):
       <p>{esc(s['hero_p'])}</p>
     </section>
 
+{community_box_html(lang, home=True)}
     <section id="articles" class="wrap article-grid" aria-label="{esc_attr(s['nav_articles'])}">
 {article_cards(lang)}
     </section>
@@ -635,19 +699,19 @@ def patch_en(path: Path, kind: str, slug: str = ""):
     h = fix_jsonld(h)
     h = re.sub(
         r'<link rel="stylesheet" href="[^"]*styles(?:\.[\w-]+)?\.css(?:\?[^"]*)?">',
-        '<link rel="stylesheet" href="/assets/styles.20261109d.css">',
+        '<link rel="stylesheet" href="/assets/styles.20261109e.css">',
         h,
         count=1,
     )
     if "article-media.css" not in h:
         h = h.replace(
-            '<link rel="stylesheet" href="/assets/styles.20261109d.css">',
-            '<link rel="stylesheet" href="/assets/styles.20261109d.css">\n'
-            '  <link rel="stylesheet" href="/assets/article-media.css?v=20261109a">',
+            '<link rel="stylesheet" href="/assets/styles.20261109e.css">',
+            '<link rel="stylesheet" href="/assets/styles.20261109e.css">\n'
+            '  <link rel="stylesheet" href="/assets/article-media.css?v=20261109e">',
             1,
         )
     if "/assets/site.js" not in h:
-        h = h.replace("</body>", '  <script src="/assets/site.js?v=20261109d" defer></script>\n</body>', 1)
+        h = h.replace("</body>", '  <script src="/assets/site.js?v=20261109e" defer></script>\n</body>', 1)
     new = hreflang_block(kind, slug, DEFAULT)
     h, ok = replace_marked(h, "hreflang", new)
     if not ok:
@@ -662,6 +726,61 @@ def patch_en(path: Path, kind: str, slug: str = ""):
     h, ok = replace_marked(h, "footerlangs", new)
     if not ok:
         h = h.replace("  </footer>", new + "\n  </footer>", 1)
+    new = footer_social_html(DEFAULT)
+    h, ok = replace_marked(h, "footersocial", new)
+    if not ok:
+        # insert before footerlangs or before </footer>
+        if "<!-- i18n:footerlangs -->" in h:
+            h = h.replace("  <!-- i18n:footerlangs -->", new + "\n  <!-- i18n:footerlangs -->", 1)
+        else:
+            h = h.replace("  </footer>", new + "\n  </footer>", 1)
+    if kind == "article":
+        new = community_marker_html(DEFAULT, home=False)
+        h, ok = replace_marked(h, "community", new)
+        if not ok:
+            # after CTA / before related
+            m = re.search(r'(?P<pre>\n)(?P<rel>\s*<aside class="related")', h)
+            if m:
+                h = h[:m.start("rel")] + "\n" + new + "\n" + h[m.start("rel"):]
+            else:
+                # before sources as fallback
+                m = re.search(r'(?P<pre>\n)(?P<src>\s*<section class="sources")', h)
+                if m:
+                    h = h[:m.start("src")] + "\n" + new + "\n" + h[m.start("src"):]
+                else:
+                    errors.append(f"cannot place community box in {path}")
+    elif kind == "home":
+        new = community_marker_html(DEFAULT, home=True)
+        h, ok = replace_marked(h, "community", new)
+        if not ok:
+            m = re.search(r'(</section>\s*)(<section id="articles")', h, re.S)
+            if m:
+                h = h[:m.start(2)] + new + "\n    " + h[m.start(2):]
+            else:
+                errors.append(f"cannot place home community in {path}")
+    # Ensure Organization JSON-LD includes sameAs
+    def add_same_as(m):
+        block = m.group(0)
+        if '"sameAs"' in block:
+            return block
+        # insert into Organization objects that look like publisher / site org
+        def org_fix(om):
+            body = om.group(1)
+            if '"sameAs"' in body:
+                return om.group(0)
+            if '"name": "PlainBTC"' not in body and '"name":"PlainBTC"' not in body:
+                return om.group(0)
+            # add sameAs before closing
+            insert = ',\n      "sameAs": ' + json.dumps(SAME_AS, ensure_ascii=False)
+            # place before final }
+            return om.group(0)[:-1] + insert + "\n    }"
+        return re.sub(
+            r'\{\s*"@type":\s*"Organization",(.*?)}',
+            org_fix,
+            block,
+            flags=re.S,
+        )
+    h = re.sub(r'<script type="application/ld\+json">.*?</script>', add_same_as, h, flags=re.S)
     if h != o:
         path.write_text(h, encoding="utf-8")
 
