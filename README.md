@@ -185,3 +185,53 @@ The block sequence (headings, paragraphs, lists, `!` blocks), link keys and numb
 * `none` (tr): no referral links at all; disclosure page explains this.
 
 Reasoning: Coinbase's own international-referral page lists Poland and Portugal as the only eligible non-US referral countries; Coinbase does not serve Russia. Change a language's mode in `langs.json` and rebuild to adjust the policy. Never invent bonus amounts in any language.
+
+## Visit analytics (cookieless)
+
+PlainBTC records pageviews with a tiny beacon in `assets/site.js` → Cloudflare Pages Function `POST /api/hit` (`functions/api/hit.js`) → Supabase table `public.pageviews`.
+
+Privacy:
+- No cookies, no `localStorage`, no raw IP stored.
+- `visitor_hash` is a **daily salted** SHA-256 of IP+UA (America/Chicago day boundary) truncated to 16 hex chars — used only for a rough unique-visitor estimate.
+- Country comes from the Cloudflare `CF-IPCountry` header inside the Pages Function.
+- Obvious bots (`navigator.webdriver`, common bot UAs) are skipped client- and server-side.
+- RLS: `anon` may **INSERT** only; no SELECT/UPDATE/DELETE via the Data API.
+
+Data lives in the existing free Supabase project **foliata** (ref `ygilpnmqkduzhdkxdyxj`), table `public.pageviews`. (A dedicated project was blocked by the free-tier 2-project limit.)
+
+### Query daily stats (America/Chicago)
+
+In the Supabase SQL editor (service role / dashboard):
+
+```sql
+-- Yesterday (Chicago)
+SELECT * FROM public.plainbtc_daily_stats(
+  (timezone('America/Chicago', now())::date - 1)
+);
+
+-- A specific day
+SELECT * FROM public.plainbtc_daily_stats('2026-11-09');
+
+-- Raw recent hits
+SELECT ts, path, lang, referrer_host, utm_source, country, device, visitor_hash
+FROM public.pageviews
+ORDER BY ts DESC
+LIMIT 50;
+```
+
+`plainbtc_daily_stats` returns: `pageviews`, `uniques`, `top_paths`, `top_referrers`, `top_utm_sources`, `by_lang`, `by_country`, `by_device` (JSON arrays of `{k,c}`).
+
+
+## UTM conventions for social / referral traffic
+
+Tag outbound links to the site so morning reports can attribute channels:
+
+| Channel   | Example |
+|-----------|---------|
+| X / Twitter | `https://plainbtc.com/articles/<slug>?utm_source=x&utm_medium=social&utm_campaign=<yyyy-mm-dd>` |
+| Facebook group | `...?utm_source=facebook&utm_medium=social&utm_campaign=<yyyy-mm-dd>` |
+| Reddit | `...?utm_source=reddit&utm_medium=social&utm_campaign=<yyyy-mm-dd>` |
+| Discord | `...?utm_source=discord&utm_medium=social&utm_campaign=<yyyy-mm-dd>` |
+| Coinbase referral landing mentions | keep the Coinbase join URL as-is; site CTAs already use the referral link |
+
+Also accepted: `utm_medium=organic` / `email` / `bio`. Keep `utm_*` values lowercase, no spaces.
