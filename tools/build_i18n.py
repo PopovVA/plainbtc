@@ -284,7 +284,7 @@ def head_html(lang, kind, slug, title, desc, og_title, og_desc, typ, image, ld, 
   <meta name="robots" content="index,follow">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS ({esc_attr(a['name'])})" href="/{lang}/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="/assets/styles.css?v=20261109c">
   <title>{esc(title)}</title>
   <meta name="description" content="{esc_attr(desc)}">
   <link rel="canonical" href="{url}">
@@ -328,6 +328,7 @@ def footer_html(lang, kind, slug) -> str:
     </div>
 {footer_langs(kind, slug, lang)}
   </footer>
+  <script src="/assets/site.js?v=20261109c" defer></script>
 </body>
 </html>
 '''
@@ -612,6 +613,14 @@ def patch_en(path: Path, kind: str, slug: str = ""):
     h = path.read_text(encoding="utf-8")
     o = h
     h = fix_jsonld(h)
+    h = re.sub(
+        r'<link rel="stylesheet" href="[^"]*styles\.css[^"]*">',
+        '<link rel="stylesheet" href="/assets/styles.css?v=20261109c">',
+        h,
+        count=1,
+    )
+    if "/assets/site.js" not in h:
+        h = h.replace("</body>", '  <script src="/assets/site.js?v=20261109c" defer></script>\n</body>', 1)
     new = hreflang_block(kind, slug, DEFAULT)
     h, ok = replace_marked(h, "hreflang", new)
     if not ok:
