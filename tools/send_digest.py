@@ -22,7 +22,7 @@ Usage
   python3 tools/send_digest.py --baseline                # mark every current article as already sent (no mail)
   python3 tools/send_digest.py --stats                   # subscriber counts
   python3 tools/send_digest.py --send-pending-confirmations   # (re)send confirmation mails stuck without a send
-Options: --days N (first run without state: only articles from the last N days, default 7), --max-articles N (default 5)
+Options: --days N (first run without state: only articles from the last N days, default 1 = last 24h), --max-articles N (default 5)
 """
 from __future__ import annotations
 import argparse, json, os, sys, time, urllib.error, urllib.request
@@ -189,7 +189,7 @@ def main():
     ap.add_argument("--baseline", action="store_true")
     ap.add_argument("--stats", action="store_true")
     ap.add_argument("--send-pending-confirmations", action="store_true")
-    ap.add_argument("--days", type=int, default=7)
+    ap.add_argument("--days", type=int, default=1)
     ap.add_argument("--max-articles", type=int, default=5)
     ap.add_argument("--slugs", help="comma-separated slugs to force (test/dry-run only)")
     a = ap.parse_args()
