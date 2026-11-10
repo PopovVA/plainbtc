@@ -6,7 +6,9 @@ label: Beginner guide
 summary: An educational walkthrough of River’s published referral rewards — up to $100 in bitcoin each, in tiers after $100, $1,000, and $10,000 of qualifying bitcoin buys — and the 180-day rules on River’s help center.
 ===
 
-River is a U.S. bitcoin service that also runs a refer-a-friend program. This short guide quotes River’s own help center and marketing pages so you can see how the official reward is structured. It is not a signup offer from PlainBTC: this page does <strong>not</strong> include a River referral link.
+River is a U.S. bitcoin service that also runs a refer-a-friend program. This short guide quotes River’s own help center and marketing pages so you can see how the official reward is structured.
+
+This page includes PlainBTC’s [River referral link](LREF). If you create a new account through that link and meet River’s current terms, PlainBTC may earn a referral reward at no extra cost to you. That is a material connection, and it does not change the official figures quoted below.
 
 Offers change. If you already have a River account, the figures that matter are the ones River shows you in the app and on its help pages.
 
@@ -29,6 +31,8 @@ River says you can reach those thresholds with one purchase or with several buys
 
 !figure:tiers
 
+!mid_cta
+
 ## The 180-day window and what does not count
 
 The same help article lists conditions that trip people up:
@@ -48,7 +52,7 @@ River’s [referrals landing page](L2) tells clients they can “share your refe
 
 If you only want to understand the standard refer-a-friend offer, the help center article is the document to read. If River later publishes a formal legal PDF that disagrees with the help article, trust the legal terms.
 
-This PlainBTC page does not include a River signup or referral link. If we add one later, it will be marked with <code>rel="sponsored"</code> and disclosed on the page.
+The River referral link on this page is marked with <code>rel="sponsored"</code> and disclosed in the call to action and at the bottom of the page. If River is offered where you live and you decide to open an account, use that link and then read the live offer in River’s app and help pages.
 
 ## Is this for you?
 
@@ -72,7 +76,7 @@ According to the same help article, only bitcoin bought with cash from a linked 
 
 ### Does PlainBTC have a River referral link on this page?
 
-No. This is an educational summary of River’s published program. There is no River referral link here.
+Yes. This page includes PlainBTC’s River referral link, marked with <code>rel="sponsored"</code>. If you sign up through it and meet River’s current terms, PlainBTC may earn a referral reward at no extra cost to you.
 
 ### Is River’s partner program the same thing?
 

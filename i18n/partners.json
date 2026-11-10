@@ -42,8 +42,8 @@
     {
       "id": "river",
       "name": "River",
-      "url": "",
-      "enabled": false,
+      "url": "https://river.com/invite?r=6N7R4N6F7M",
+      "enabled": true,
       "share_policy": "allowed",
       "languages": [
         "en"
@@ -57,7 +57,8 @@
       },
       "disclosure": {
         "en": "<strong>Disclosure:</strong> This page contains a River referral link. If you sign up through it and meet River’s current terms, PlainBTC may earn a referral reward at no extra cost to you. See our [full affiliate disclosure](/disclosure)."
-      }
+      },
+      "notes": "Personal River referral, English pages only. Official help center allows sharing the link with your community. Partner program (fee share) is separate and is not used here."
     },
     {
       "id": "gemini",

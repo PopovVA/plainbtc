@@ -1,8 +1,8 @@
 h1: Affiliate & referral disclosure
 page_title: Affiliate disclosure — PlainBTC
 og_title: Affiliate disclosure — PlainBTC
-description: FTC-compliant affiliate disclosure for PlainBTC: Coinbase and Gemini referral links on English pages, Uphold on Spanish and Portuguese pages, and not financial advice.
-og_description: How PlainBTC uses Coinbase, Gemini, and Uphold referral links and what that means for you.
+description: FTC-compliant affiliate disclosure for PlainBTC: Coinbase, Gemini, and River referral links on English pages, Uphold on Spanish and Portuguese pages, and not financial advice.
+og_description: How PlainBTC uses Coinbase, Gemini, River, and Uphold referral links and what that means for you.
 ===
 
 In accordance with the U.S. Federal Trade Commission’s endorsement guides, PlainBTC discloses material connections with advertisers and referral programs.
@@ -20,7 +20,14 @@ Using our link does not cost you extra. We are not affiliated with Coinbase beyo
 
 Some English pages on this site include a Gemini referral link ([https://exchange.gemini.com/register?referral=m6n6q7kh7&type=referral](https://exchange.gemini.com/register?referral=m6n6q7kh7&type=referral)). If you create a <strong>new</strong> Gemini account through that link and meet Gemini’s current terms, PlainBTC may receive a referral reward at no extra cost to you. Gemini is not available in every country. Effective 6 April 2026, Gemini closed all customer accounts in the United Kingdom, the European Economic Area, and Australia, according to Gemini’s official areas of availability page and its Gemini 2.0 blog post (5 February 2026). Check Gemini’s current terms and areas of availability. This Gemini link appears only on some English pages; it is not used on Spanish, Portuguese, or other language editions.
 
-Each English article usually features <strong>one</strong> primary partner in the end-of-article call to action (Coinbase or Gemini, depending on the article). See our [Gemini referral bonus guide](/articles/gemini-referral-bonus) for a reading of the official terms.
+Each English article usually features <strong>one</strong> primary partner in the end-of-article call to action (Coinbase, Gemini, or River, depending on the article). See our [Gemini referral bonus guide](/articles/gemini-referral-bonus) and [River referral bonus guide](/articles/river-referral-bonus) for a reading of the official terms.
+
+
+## River referral links
+
+<!-- partner:river -->
+
+Some English pages on this site include a River referral link ([https://river.com/invite?r=6N7R4N6F7M](https://river.com/invite?r=6N7R4N6F7M)). If you create a <strong>new</strong> River account through that link and meet River’s current terms, PlainBTC may receive a referral reward at no extra cost to you. River is a U.S. bitcoin service; check whether it is offered where you live and read River’s current terms. This River link appears only on some English pages; it is not used on Spanish, Portuguese, or other language editions.
 
 ## How we mark links
 

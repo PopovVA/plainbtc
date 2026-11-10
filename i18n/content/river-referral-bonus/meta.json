@@ -2,16 +2,28 @@
   "slug": "river-referral-bonus",
   "date": "2026-11-09",
   "readtime": 6,
-  "primary_partner": "none",
+  "primary_partner": "river",
   "related": [
     "how-much-bitcoin-should-a-beginner-buy-dca",
     "bitcoin-etf-vs-buying-bitcoin",
     "what-is-a-crypto-wallet-custodial-vs-self-custody"
   ],
   "sources": [
-    {"url": "https://support.river.com/hc/en-us/articles/45490369477267-How-do-I-refer-friends-to-River", "title": "River Help Center — How do I refer friends to River?", "date": ""},
-    {"url": "https://river.com/referrals", "title": "River — Referral Program", "date": ""},
-    {"url": "https://river.com/partner", "title": "River — Partner Program", "date": ""}
+    {
+      "url": "https://support.river.com/hc/en-us/articles/45490369477267-How-do-I-refer-friends-to-River",
+      "title": "River Help Center — How do I refer friends to River?",
+      "date": ""
+    },
+    {
+      "url": "https://river.com/referrals",
+      "title": "River — Referral Program",
+      "date": ""
+    },
+    {
+      "url": "https://river.com/partner",
+      "title": "River — Partner Program",
+      "date": ""
+    }
   ],
   "disclosure_variant": "guide"
 }

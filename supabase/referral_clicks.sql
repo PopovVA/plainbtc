@@ -66,5 +66,6 @@ $$;
 comment on function public.plainbtc_click_stats(date) is
   'Referral click counts for one America/Chicago calendar day, grouped by partner and page path.';
 
-revoke all on function public.plainbtc_click_stats(date) from public, anon;
-grant execute on function public.plainbtc_click_stats(date) to authenticated;
+revoke all on function public.plainbtc_click_stats(date) from public;
+-- Aggregate counts only (no table SELECT, no IP). Granted to anon so tools/click_stats.py and routines can report using the existing public anon key.
+grant execute on function public.plainbtc_click_stats(date) to anon, authenticated;

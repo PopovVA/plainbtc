@@ -191,13 +191,13 @@ Disclosure pages must stay accurate: English pages may contain Coinbase and/or G
 
 Additional partners (River, Gemini, Uphold, and reserved slots for Public and SoFi) are configured in `i18n/partners.json`. **Live as of 9 November 2026:**
 
-* `en` — Coinbase and Gemini. River stays dark until a referral URL is filled in. Public personal referrals are forbidden for the blog; SoFi is affiliate-only (Impact).
+* `en` — Coinbase, Gemini, and River. Public personal referrals are forbidden for the blog; SoFi is affiliate-only (Impact).
 * `es`, `pt` — Uphold only. Gemini is **not** enabled here: official Gemini pages state that effective 6 April 2026 Gemini closed all customer accounts in the UK, the EEA, and Australia.
 * `fr`, `de`, `ru`, `tr`, `id`, `ja`, `ko` — none.
 
 **CTA rotation:** each article’s mid-article banner and end CTA feature **one** primary partner, chosen deterministically from the partners live for that language (hash of `slug|lang`, plus topic hints). Bitcoin-only / savings / DCA topics prefer River when River is live; general exchange / altcoin topics prefer Gemini or Coinbase. The Coinbase beginner / product guides (`how-to-buy-first-bitcoin-coinbase`, `coinbase-fees-explained`, `how-to-cash-out-bitcoin-coinbase-to-bank`, `is-coinbase-safe-for-beginners`) stay on Coinbase. An article can pin a partner with `primary_partner` in `meta.json` (`"none"` suppresses the referral CTA). The build prints the per-language distribution. Click tracking records which partner was clicked (`data-partner` on every referral anchor).
 
-Planned map if a partner later becomes available: `en` can add River; do not add Gemini to `es`/`pt`/`fr`/`de` unless Gemini officially reopens those markets.
+Do not add Gemini to `es`/`pt`/`fr`/`de` unless Gemini officially reopens those markets.
 
 A partner is **live on the site only when all of the following are true**:
 
@@ -228,7 +228,14 @@ Referral clicks (Coinbase, Gemini, River, Uphold) are recorded the same way: a c
 SELECT * FROM public.plainbtc_click_stats((timezone('America/Chicago', now()))::date);
 ```
 
-The function is not granted to `anon` (no public read of click totals). Run it in the Supabase SQL editor or as a role that may execute it (`authenticated` is granted).
+`anon` may execute this aggregate function only (no table SELECT). For a Chicago-day report from the repo, use:
+
+```bash
+python3 tools/click_stats.py
+python3 tools/click_stats.py --date 2026-11-09
+```
+
+It uses the same Supabase project and anon key as `POST /api/hit` and `tools/send_digest.py`, calls `plainbtc_click_stats`, and prints clicks per partner and per page. Default date is today in America/Chicago.
 
 Privacy:
 - No cookies, no `localStorage`, no raw IP stored.

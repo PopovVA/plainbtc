@@ -747,21 +747,28 @@ def place_partners(h: str, lang: str, kind: str, slug: str = "") -> str:
         meta = _meta_for(slug)
         part = primary_partner(slug, lang, meta)
         if part and part["id"] == "coinbase":
-            # Keep existing Coinbase copy on EN hand-written pages; tag the boxes.
-            h = re.sub(
-                r'(<aside class="mid-cta")(?![^>]*data-partner-cta=)',
-                r'\1 data-partner-cta="coinbase"',
-                h,
-                count=1,
+            has_other = bool(
+                re.search(r'data-partner-cta="(?!coinbase)[^"]+"', h)
+                or re.search(r'exchange\.gemini\.com|river\.com/invite|wallet\.uphold\.com', h)
             )
-            h = re.sub(
-                r'(<div class="cta")(?![^>]*data-partner-cta=)',
-                r'\1 data-partner-cta="coinbase"',
-                h,
-                count=1,
-            )
-            h = add_data_partner_attrs(h)
-            return h
+            has_cb = bool(re.search(r'data-partner-cta="coinbase"|coinbase\.com/join', h))
+            if has_cb and not has_other:
+                # Keep existing Coinbase copy on EN hand-written pages; tag the boxes.
+                h = re.sub(
+                    r'(<aside class="mid-cta")(?![^>]*data-partner-cta=)',
+                    r'\1 data-partner-cta="coinbase"',
+                    h,
+                    count=1,
+                )
+                h = re.sub(
+                    r'(<div class="cta")(?![^>]*data-partner-cta=)',
+                    r'\1 data-partner-cta="coinbase"',
+                    h,
+                    count=1,
+                )
+                h = add_data_partner_attrs(h)
+                return h
+            # Previously another partner: fall through and rewrite as Coinbase.
         h = unlink_nonprimary_referrals(h, part["id"] if part else None)
         if part:
             mid = single_partner_mid_html(pg, lang, part)
