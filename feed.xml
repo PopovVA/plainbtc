@@ -3,16 +3,30 @@
   <channel>
     <title>PlainBTC</title>
     <link>https://plainbtc.com/</link>
-    <description>Plain-English Bitcoin and crypto news for beginners</description>
-    <language>en-us</language>
+    <description>Plain-English Bitcoin &amp; crypto news for beginners</description>
+    <language>en</language>
     <lastBuildDate>Tue, 10 Nov 2026 00:40:00 GMT</lastBuildDate>
-    <atom:link href="https://plainbtc.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://plainbtc.com/en/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>North Korea is minting meme coins to launder the $6.4 billion Binance hack, Elliptic says</title>
       <link>https://plainbtc.com/articles/binance-hack-north-korea-memecoin-laundering-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/articles/binance-hack-north-korea-memecoin-laundering-nov-2026</guid>
       <pubDate>Tue, 10 Nov 2026 00:40:00 GMT</pubDate>
-      <description>Elliptic says North Korean launderers created six throwaway meme tokens on NEAR to move about $430,000 of Binance hack funds. Here is where the $6.4 billion stands.</description>
+      <description>Elliptic traced stolen Binance funds through six home-made meme tokens on NEAR, while about $2.85 billion of the loot stays frozen.</description>
+    </item>
+    <item>
+      <title>Gemini referral bonus: how it works (2026)</title>
+      <link>https://plainbtc.com/articles/gemini-referral-bonus</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/gemini-referral-bonus</guid>
+      <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>A plain-English reading of Gemini’s official Recruit referral terms as of 2026: the $50-each offer in listed markets, the 30-day qualifying trade, payout timing, and the markets Gemini closed in April 2026.</description>
+    </item>
+    <item>
+      <title>River referral bonus: how it works (2026)</title>
+      <link>https://plainbtc.com/articles/river-referral-bonus</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/river-referral-bonus</guid>
+      <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>An educational walkthrough of River’s published referral rewards — up to $100 in bitcoin each, in tiers after $100, $1,000, and $10,000 of qualifying bitcoin buys — and the 180-day rules on River’s help center.</description>
     </item>
     <item>
       <title>What is a crypto wallet? Custodial vs. self-custody, explained for beginners</title>
@@ -40,49 +54,70 @@
       <link>https://plainbtc.com/articles/coinbase-occ-national-trust-charter-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/articles/coinbase-occ-national-trust-charter-nov-2026</guid>
       <pubDate>Mon, 09 Nov 2026 19:30:00 GMT</pubDate>
-      <description>The OCC gave Coinbase National Trust Company final approval, putting its institutional crypto custody under federal supervision.</description>
+      <description>The OCC approved Coinbase National Trust Company on Nov. 6, putting its institutional crypto custody under federal bank supervision. Here’s what the charter allows.</description>
     </item>
     <item>
       <title>FinCEN and the Fed scrap the $250 Travel Rule plan—$3,000 threshold stays</title>
       <link>https://plainbtc.com/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/articles/fincen-fed-withdraw-250-travel-rule-nov-2026</guid>
       <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
-      <description>FinCEN and the Fed withdrew a 2020 proposal to cut the cross-border Travel Rule threshold from $3,000 to $250.</description>
+      <description>U.S. regulators withdrew a 2020 proposal to cut cross-border thresholds to $250 and drop crypto-specific wording. Here’s what changed—and what did not.</description>
     </item>
     <item>
       <title>Bitcoin loses its 50-week moving average as long liquidations top $1 billion</title>
       <link>https://plainbtc.com/articles/bitcoin-loses-50-week-moving-average-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/articles/bitcoin-loses-50-week-moving-average-nov-2026</guid>
       <pubDate>Mon, 09 Nov 2026 17:45:00 GMT</pubDate>
-      <description>Bitcoin closed below its ~$75,488 50-week average after seven weeks above it, as liquidations topped $1.15B.</description>
+      <description>BTC closed below ~$75,488 after seven weeks above the line, while CoinGlass logged $1.15B in liquidations. What Galaxy’s checkpoint means next.</description>
     </item>
     <item>
       <title>PNC Bank pilots USDC payments with Coinbase for corporate clients</title>
       <link>https://plainbtc.com/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/articles/pnc-coinbase-usdc-payments-pilot-nov-2026</guid>
       <pubDate>Mon, 09 Nov 2026 17:30:00 GMT</pubDate>
-      <description>PNC launched a limited USDC incoming-payments pilot with Coinbase for eligible corporate clients.</description>
+      <description>Eligible corporates can receive USDC on Ethereum via Coinbase Payments, with automatic 1:1 conversion into a PNC dollar deposit.</description>
     </item>
     <item>
       <title>Bitcoin’s weekend whipsaw: $1B liquidated as Nvidia headlines hit risk assets</title>
       <link>https://plainbtc.com/articles/bitcoin-volatility-liquidations-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/articles/bitcoin-volatility-liquidations-nov-2026</guid>
       <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
-      <description>BTC briefly slipped to ~$73,761 before reclaiming $75,000 amid more than $1B in leveraged liquidations.</description>
+      <description>BTC briefly slipped to ~$73,761 before reclaiming $75,000. Here’s what drove the move, who got liquidated, and what traders are watching next.</description>
     </item>
     <item>
       <title>How to buy your first Bitcoin on Coinbase (U.S. beginner guide)</title>
       <link>https://plainbtc.com/articles/how-to-buy-first-bitcoin-coinbase</link>
       <guid isPermaLink="true">https://plainbtc.com/articles/how-to-buy-first-bitcoin-coinbase</guid>
       <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
-      <description>Step-by-step U.S. beginner walkthrough: create an account, verify, fund, and place a small first Bitcoin buy on Coinbase.</description>
+      <description>A step-by-step walkthrough: create an account, verify your identity, add a payment method, place a small first buy, and keep fees and security in mind.</description>
     </item>
     <item>
       <title>After the midterms: ETF outflows and a tougher crypto rulebook ahead?</title>
       <link>https://plainbtc.com/articles/us-midterms-crypto-regulation-etf-outflows</link>
       <guid isPermaLink="true">https://plainbtc.com/articles/us-midterms-crypto-regulation-etf-outflows</guid>
       <pubDate>Sun, 09 Nov 2026 12:00:00 GMT</pubDate>
-      <description>Spot bitcoin ETFs saw about $1.28B in weekly outflows as markets digest a Democratic midterm sweep and talk of a bigger SEC role.</description>
+      <description>Spot bitcoin ETFs just posted their largest weekly outflow since June. Markets are pricing regulatory uncertainty as Democrats prepare to lead Congress.</description>
+    </item>
+    <item>
+      <title>Bitcoin ETF vs buying bitcoin: which makes sense for a U.S. beginner?</title>
+      <link>https://plainbtc.com/articles/bitcoin-etf-vs-buying-bitcoin</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/bitcoin-etf-vs-buying-bitcoin</guid>
+      <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Spot bitcoin ETFs give price exposure inside a brokerage account. Buying bitcoin gives you the asset itself. Here is how U.S. beginners can compare custody, fees, IRAs, and taxes.</description>
+    </item>
+    <item>
+      <title>Coinbase fees explained: spread, Advanced maker/taker, and what a beginner actually pays</title>
+      <link>https://plainbtc.com/articles/coinbase-fees-explained</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/coinbase-fees-explained</guid>
+      <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>A plain-English breakdown of Coinbase fees: the variable spread on simple buys and sells, Advanced maker/taker tiers, Coinbase One, and how to compare costs on the preview screen.</description>
+    </item>
+    <item>
+      <title>How to cash out bitcoin on Coinbase to your bank (U.S. steps, timing, and taxes)</title>
+      <link>https://plainbtc.com/articles/how-to-cash-out-bitcoin-coinbase-to-bank</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/how-to-cash-out-bitcoin-coinbase-to-bank</guid>
+      <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Step-by-step for U.S. users: sell bitcoin to your Coinbase cash balance, withdraw to a linked bank via ACH or instant cashout, and note the tax reporting basics.</description>
     </item>
   </channel>
 </rss>

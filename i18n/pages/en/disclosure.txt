@@ -1,17 +1,26 @@
 h1: Affiliate & referral disclosure
 page_title: Affiliate disclosure — PlainBTC
 og_title: Affiliate disclosure — PlainBTC
-description: FTC-compliant affiliate disclosure for PlainBTC: Coinbase referral links, how we may be compensated, and not financial advice.
-og_description: How PlainBTC uses Coinbase referral links and what that means for you.
+description: FTC-compliant affiliate disclosure for PlainBTC: Coinbase and Gemini referral links on English pages, Uphold on Spanish and Portuguese pages, and not financial advice.
+og_description: How PlainBTC uses Coinbase, Gemini, and Uphold referral links and what that means for you.
 ===
 
 In accordance with the U.S. Federal Trade Commission’s endorsement guides, PlainBTC discloses material connections with advertisers and referral programs.
 
 ## Coinbase referral links
 
-Some English pages on this site include a Coinbase referral link ([https://coinbase.com/join/F2XRWRL?src=referral-link](REFD)). If you create a <strong>new</strong> Coinbase account through that link and complete a qualifying trade, PlainBTC may receive a referral reward. Offer for new U.S. customers; not available in Washington state; terms on Coinbase’s site. We do not state bonus amounts here; always check the offer shown on Coinbase’s signup page and Coinbase’s current referral terms. Only our English pages contain this referral link; other language versions of PlainBTC do not. According to Coinbase’s official invite page (https://www.coinbase.com/invite), the offer is for new U.S. customers except Washington state, the referred friend’s first trade must meet Coinbase’s stated minimum, and a referrer can invite only a limited number of users. Those figures can change; rely on Coinbase’s current terms.
+Some English pages on this site include a Coinbase referral link ([https://coinbase.com/join/F2XRWRL?src=referral-link](REFD)). If you create a <strong>new</strong> Coinbase account through that link and complete a qualifying trade, PlainBTC may receive a referral reward. Offer for new U.S. customers; not available in Washington state; terms on Coinbase’s site. We do not state bonus amounts here; always check the offer shown on Coinbase’s signup page and Coinbase’s current referral terms. This Coinbase link appears only on some English pages; other language versions of PlainBTC do not include it. Spanish and Portuguese editions may include a separate Uphold referral link, described on those disclosure pages. According to Coinbase’s official invite page (https://www.coinbase.com/invite), the offer is for new U.S. customers except Washington state, the referred friend’s first trade must meet Coinbase’s stated minimum, and a referrer can invite only a limited number of users. Those figures can change; rely on Coinbase’s current terms.
 
 Using our link does not cost you extra. We are not affiliated with Coinbase beyond participation in Coinbase’s standard referral program.
+
+
+## Gemini referral links
+
+<!-- partner:gemini -->
+
+Some English pages on this site include a Gemini referral link ([https://exchange.gemini.com/register?referral=m6n6q7kh7&type=referral](https://exchange.gemini.com/register?referral=m6n6q7kh7&type=referral)). If you create a <strong>new</strong> Gemini account through that link and meet Gemini’s current terms, PlainBTC may receive a referral reward at no extra cost to you. Gemini is not available in every country. Effective 6 April 2026, Gemini closed all customer accounts in the United Kingdom, the European Economic Area, and Australia, according to Gemini’s official areas of availability page and its Gemini 2.0 blog post (5 February 2026). Check Gemini’s current terms and areas of availability. This Gemini link appears only on some English pages; it is not used on Spanish, Portuguese, or other language editions.
+
+Each English article usually features <strong>one</strong> primary partner in the end-of-article call to action (Coinbase or Gemini, depending on the article). See our [Gemini referral bonus guide](/articles/gemini-referral-bonus) for a reading of the official terms.
 
 ## How we mark links
 
@@ -29,6 +38,6 @@ Editorial descriptions of products and market events are our own. Compensation f
 
 If you subscribe to our email newsletter, we store your email address, the language and page you signed up from, and the dates you signed up, confirmed and unsubscribed. We use it only to send you PlainBTC article updates and never sell or share it. It is processed by our database host (Supabase) and our email delivery provider solely to deliver those emails. We use double opt-in: nothing is sent until you confirm, and every email contains an unsubscribe link. After you unsubscribe we keep only a suppression record so you are not emailed again; to have your address erased completely, contact us using the details on the About page.
 
-Separately, our visit statistics are cookieless: we do not store IP addresses, only a daily-rotating anonymous hash and the visitor’s country.
+Separately, our visit statistics are cookieless: we do not store IP addresses, only a daily-rotating anonymous hash and the visitor’s country. Referral-click statistics are also cookieless: we record the partner name, the page path, the language, and a referrer host or utm_source, with no cookies and no IP addresses.
 
 Last updated: November 9, 2026.

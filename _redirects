@@ -8,3 +8,6 @@
 /:lang/about.html                    /:lang/about                    301
 /:lang/disclosure.html               /:lang/disclosure               301
 /:lang/articles/:slug.html           /:lang/articles/:slug           301
+
+/gemini-referral-bonus                 /articles/gemini-referral-bonus      301
+/river-referral-bonus                  /articles/river-referral-bonus       301

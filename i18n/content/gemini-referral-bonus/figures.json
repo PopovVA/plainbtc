@@ -1,0 +1,28 @@
+[
+  {
+    "id": "reward",
+    "file": "fact-reward-50.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: Gemini’s Recruit referral terms list a $50 reward each for referrer and referee in the United States, Hong Kong, and New Zealand after identity verification and a $100 qualifying trade"
+    },
+    "caption": {
+      "en": "Source: Gemini Referral Program Terms, last stated as updated January 20, 2026"
+    }
+  },
+  {
+    "id": "window",
+    "file": "fact-30-days.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: the qualifying trade of at least $100 must be completed within 30 days of signup, and Gemini says the reward is paid 32 days after signup"
+    },
+    "caption": {
+      "en": "Source: Gemini Referral Program Terms, last stated as updated January 20, 2026"
+    }
+  }
+]

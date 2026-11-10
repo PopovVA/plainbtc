@@ -1,0 +1,21 @@
+{
+  "kind": "figure-fallback",
+  "sources": [
+    {
+      "file": "assets/img/gemini-referral-bonus/fact-reward-50.webp",
+      "license": "See article figures",
+      "url": "",
+      "credit": "Derived from mid-article figure"
+    }
+  ],
+  "slug": "gemini-referral-bonus",
+  "generated": "2026-11-10T04:51Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

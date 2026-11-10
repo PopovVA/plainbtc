@@ -16,7 +16,7 @@ See README ("Multilingual site").
 """
 from __future__ import annotations
 import html as _html
-import json, re, sys
+import hashlib, json, re, sys
 from datetime import date, datetime
 from pathlib import Path
 
@@ -31,7 +31,7 @@ COMMUNITY = [
 ]
 SAME_AS = [u for _, u, _ in COMMUNITY]
 STYLES_CSS = "/assets/styles.20261109g.css"
-SITE_JS = "/assets/site.20261109h.js"
+SITE_JS = "/assets/site.20261109i.js"
 
 ICON_SVG = {
     "discord": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>',
@@ -305,6 +305,281 @@ def extra_partners(lang: str) -> list[dict]:
     return [p for p in live_partners(lang) if p.get("id") != "coinbase"]
 
 
+def _slug_hash(slug: str, lang: str) -> int:
+    return int(hashlib.sha256(f"{slug}|{lang}|plainbtc-cta-v1".encode()).hexdigest()[:8], 16)
+
+
+# Coinbase-specific beginner / product guides stay on Coinbase when that partner is live.
+COINBASE_PINNED_SLUGS = frozenset({
+    "how-to-buy-first-bitcoin-coinbase",
+    "coinbase-fees-explained",
+    "how-to-cash-out-bitcoin-coinbase-to-bank",
+    "is-coinbase-safe-for-beginners",
+})
+# Bitcoin-only / savings / DCA topics prefer River when River is live.
+RIVER_HINT_SLUGS = frozenset({
+    "how-much-bitcoin-should-a-beginner-buy-dca",
+    "bitcoin-etf-vs-buying-bitcoin",
+    "bitcoin-loses-50-week-moving-average-nov-2026",
+    "bitcoin-volatility-liquidations-nov-2026",
+    "river-referral-bonus",
+    "will-bitcoin-hit-a-new-all-time-high-in-2026",
+    "what-happens-if-you-only-buy-bitcoin-and-never-sell",
+    "how-to-keep-bitcoin-safe-after-you-buy",
+})
+EXCHANGE_HINT_SLUGS = frozenset({
+    "gemini-referral-bonus",
+    "coinbase-fees-explained",
+    "how-to-buy-first-bitcoin-coinbase",
+    "how-to-cash-out-bitcoin-coinbase-to-bank",
+    "is-coinbase-safe-for-beginners",
+    "binance-hack-october-2022",
+})
+
+_PRIMARY_CACHE: dict[tuple[str, str], str | None] = {}
+_PRIMARY_MAPS: dict[str, dict[str, str]] = {}
+
+
+def article_slugs_for_lang(lang: str) -> list[str]:
+    slugs = []
+    seen = set()
+    for slug in SLUGS:
+        if slug in seen:
+            continue
+        if lang == DEFAULT:
+            if slug in CONTENT or (ROOT / "articles" / f"{slug}.html").exists():
+                slugs.append(slug)
+                seen.add(slug)
+        elif slug in CONTENT and lang in CONTENT[slug]:
+            slugs.append(slug)
+            seen.add(slug)
+    return slugs
+
+
+def _meta_for(slug: str) -> dict:
+    return (CONTENT.get(slug, {}).get("meta") or {}) if slug in CONTENT else {}
+
+
+def assign_primary_ids(lang: str) -> dict[str, str]:
+    """One primary partner per article, deterministic and balanced among live partners."""
+    if lang in _PRIMARY_MAPS:
+        return _PRIMARY_MAPS[lang]
+    live = live_partners(lang)
+    ids = [p["id"] for p in live]
+    slugs = article_slugs_for_lang(lang)
+    assigned: dict[str, str] = {}
+    if not ids:
+        _PRIMARY_MAPS[lang] = assigned
+        return assigned
+
+    for slug in slugs:
+        meta = _meta_for(slug)
+        ov = meta.get("primary_partner")
+        if ov == "none":
+            continue
+        if isinstance(ov, str) and ov in ids:
+            assigned[slug] = ov
+            continue
+        if slug == "gemini-referral-bonus" and "gemini" in ids:
+            assigned[slug] = "gemini"
+        elif slug == "river-referral-bonus" and "river" in ids:
+            assigned[slug] = "river"
+        elif slug in COINBASE_PINNED_SLUGS and "coinbase" in ids:
+            assigned[slug] = "coinbase"
+        elif (slug in RIVER_HINT_SLUGS or _looks_river_topic(slug)) and "river" in ids:
+            assigned[slug] = "river"
+
+    remaining = [
+        s for s in slugs
+        if s not in assigned and _meta_for(s).get("primary_partner") != "none"
+    ]
+
+    from collections import Counter
+    counts: Counter[str] = Counter(assigned.values())
+    for i in ids:
+        counts.setdefault(i, 0)
+
+    exchange_ids = [i for i in ("gemini", "coinbase") if i in ids] or list(ids)
+
+    def pick(slug: str, prefer: list[str]) -> str:
+        cand = [i for i in prefer if i in ids] or ids
+        minc = min(counts[c] for c in cand)
+        tied = [c for c in ids if c in cand and counts[c] == minc]
+        choice = tied[_slug_hash(slug, lang) % len(tied)]
+        counts[choice] += 1
+        return choice
+
+    remaining_sorted = sorted(remaining, key=lambda s: (_slug_hash(s, lang), s))
+    for slug in remaining_sorted:
+        prefer = exchange_ids if (slug in EXCHANGE_HINT_SLUGS or _looks_exchange_topic(slug)) else ids
+        assigned[slug] = pick(slug, prefer)
+
+    _PRIMARY_MAPS[lang] = assigned
+    return assigned
+
+
+def _looks_river_topic(slug: str) -> bool:
+    tokens = slug.replace("-", " ")
+    if "coinbase" in slug or "gemini" in slug or "uphold" in slug:
+        return False
+    hints = ("dca", "savings", "never-sell", "keep-bitcoin-safe", "etf-vs-buying", "only-buy-bitcoin")
+    return any(h in slug for h in hints)
+
+
+def _looks_exchange_topic(slug: str) -> bool:
+    hints = ("coinbase", "gemini", "binance", "exchange", "fees", "cash-out", "altcoin")
+    return any(h in slug for h in hints)
+
+
+def primary_partner_id(slug: str, lang: str) -> str | None:
+    key = (lang, slug)
+    if lang not in _PRIMARY_MAPS:
+        assign_primary_ids(lang)
+    if key not in _PRIMARY_CACHE:
+        _PRIMARY_CACHE[key] = _PRIMARY_MAPS.get(lang, {}).get(slug)
+    return _PRIMARY_CACHE.get(key)
+
+
+def primary_partner(slug: str, lang: str, meta: dict | None = None) -> dict | None:
+    if meta and meta.get("primary_partner") == "none":
+        return None
+    if meta and meta.get("primary_partner") in {p["id"] for p in live_partners(lang)}:
+        pid = meta["primary_partner"]
+    else:
+        pid = primary_partner_id(slug, lang)
+    if not pid:
+        return None
+    return next((p for p in live_partners(lang) if p["id"] == pid), None)
+
+
+def partner_cta_copy(p: dict, lang: str) -> tuple[str, str, str, str]:
+    """title, text, button, url for a live partner (Coinbase uses string catalog)."""
+    s = STR[lang]
+    url = _partner_url(p) if p["id"] != "coinbase" else REF_URL
+    if p["id"] == "coinbase":
+        return s["cta_title"], s["cta_text"], s["cta_button"], url
+    cta = (p.get("cta") or {}).get(lang) or {}
+    return (
+        cta.get("title") or p.get("name") or p["id"],
+        cta.get("text") or "",
+        cta.get("button") or p.get("name") or p["id"],
+        url,
+    )
+
+
+def partner_mid_copy(p: dict, lang: str) -> tuple[str, str, str, str]:
+    s = STR[lang]
+    url = _partner_url(p) if p["id"] != "coinbase" else REF_URL
+    if p["id"] == "coinbase":
+        return s["banner_title"], s["banner_text"], s["banner_button"], url
+    cta = (p.get("cta") or {}).get(lang) or {}
+    return (
+        cta.get("title") or p.get("name") or p["id"],
+        cta.get("text") or "",
+        cta.get("button") or p.get("name") or p["id"],
+        url,
+    )
+
+
+def single_partner_mid_html(pg: Page, lang: str, p: dict) -> str:
+    s = STR[lang]
+    title, text, button, url = partner_mid_copy(p, lang)
+    label = s.get("banner_label", "Affiliate link")
+    pid = esc_attr(p["id"])
+    return (
+        f'      <aside class="mid-cta" aria-label="{esc_attr(label)}" data-partner-cta="{pid}">\n'
+        f'        <div class="mid-cta-label">{esc(label)}</div>\n'
+        f'        <h2>{esc(title)}</h2>\n'
+        f'        <p>{pg.inline(text)}</p>\n'
+        f'        <a class="cta-button" href="{esc_attr(url)}" rel="sponsored noopener" target="_blank" data-partner="{pid}">{esc(button)}</a>\n'
+        "      </aside>\n"
+    )
+
+
+def single_partner_end_cta_html(pg: Page, lang: str, p: dict) -> str:
+    title, text, button, url = partner_cta_copy(p, lang)
+    pid = esc_attr(p["id"])
+    return (
+        f'      <div class="cta" data-partner-cta="{pid}">\n'
+        f"        <h2>{esc(title)}</h2>\n"
+        f"        <p>{pg.inline(text)}</p>\n"
+        f'        <a class="cta-button" href="{esc_attr(url)}" rel="sponsored noopener" target="_blank" data-partner="{pid}">{esc(button)}</a>\n'
+        "      </div>\n"
+    )
+
+
+def partner_disclosure_line(pg: Page, p: dict, lang: str) -> str:
+    if p["id"] == "coinbase":
+        return pg.inline(STR[lang].get("disc_affiliate") or "")
+    raw = (p.get("disclosure") or {}).get(lang) or ""
+    return pg.inline(raw) if raw else ""
+
+
+
+def _partner_id_from_url(href: str) -> str | None:
+    h = (href or "").lower()
+    if "coinbase.com/join" in h:
+        return "coinbase"
+    if "exchange.gemini.com" in h:
+        return "gemini"
+    if "wallet.uphold.com" in h or "uphold.com/signup" in h:
+        return "uphold"
+    if "river.com/invite" in h or "/river.com/r/" in h:
+        return "river"
+    return None
+
+
+def add_data_partner_attrs(h: str) -> str:
+    """Add data-partner on referral anchors that do not already have it."""
+    rules = (
+        ("coinbase.com/join", "coinbase"),
+        ("exchange.gemini.com", "gemini"),
+        ("wallet.uphold.com", "uphold"),
+        ("uphold.com/signup", "uphold"),
+        ("river.com/invite", "river"),
+        ("river.com/r/", "river"),
+    )
+
+    def inject(html: str, needle: str, pid: str) -> str:
+        def repl(m: re.Match[str]) -> str:
+            tag = m.group(0)
+            if re.search(r"\bdata-partner=", tag, re.I):
+                return tag
+            if tag.endswith("/>"):
+                return tag[:-2] + f' data-partner="{pid}"/>'
+            return tag[:-1] + f' data-partner="{pid}">'
+
+        return re.sub(
+            rf'<a\b[^>]*href="[^"]*{re.escape(needle)}[^"]*"[^>]*>',
+            repl,
+            html,
+            flags=re.I,
+        )
+
+    for needle, pid in rules:
+        h = inject(h, needle, pid)
+    return h
+
+
+def cta_distribution(lang: str) -> dict[str, int]:
+    from collections import Counter
+    return dict(Counter(assign_primary_ids(lang).values()))
+
+
+def format_cta_distribution() -> str:
+    lines = ["CTA rotation (primary partner per article):"]
+    for lang in (l["code"] for l in LANGS):
+        dist = cta_distribution(lang)
+        assigned = assign_primary_ids(lang)
+        if not dist and not live_partners(lang):
+            lines.append(f"  {lang}: none")
+            continue
+        bits = ", ".join(f"{k}={v}" for k, v in sorted(dist.items()))
+        lines.append(f"  {lang}: {bits}  (n={len(assigned)})")
+    return "\n".join(lines)
+
+
+
 def partner_cta_slot_html(pg: Page, p: dict, lang: str) -> str:
     cta = (p.get("cta") or {}).get(lang) or {}
     url = esc_attr(_partner_url(p))
@@ -335,6 +610,23 @@ def partners_end_cta_html(pg: Page, lang: str) -> str:
         f"        <p>{pg.inline(intro)}</p>\n"
         f"{slots}"
         "      </div>\n"
+    )
+
+
+def partner_mid_cta_html(pg: Page, p: dict, lang: str) -> str:
+    s = STR[lang]
+    cta = (p.get("cta") or {}).get(lang) or {}
+    url = esc_attr(_partner_url(p))
+    label = s.get("banner_label", "Affiliate link")
+    title = cta.get("title") or p.get("name") or p["id"]
+    button = cta.get("button") or title
+    return (
+        f'      <aside class="mid-cta" aria-label="{esc_attr(label)}">\n'
+        f'        <div class="mid-cta-label">{esc(label)}</div>\n'
+        f'        <h2>{esc(title)}</h2>\n'
+        f'        <p>{pg.inline(cta.get("text") or "")}</p>\n'
+        f'        <a class="cta-button" href="{url}" rel="sponsored noopener" target="_blank" data-partner="{esc_attr(p["id"])}">{esc(button)}</a>\n'
+        "      </aside>\n"
     )
 
 
@@ -377,50 +669,159 @@ def strip_partners(h: str) -> str:
     return h
 
 
-def place_partners(h: str, lang: str, kind: str) -> str:
-    """Inject extra-partner CTAs/disclosure only when a non-Coinbase partner is live. No-op otherwise."""
-    h = strip_partners(h)
-    extras = extra_partners(lang)
-    if not extras:
+
+def unlink_nonprimary_referrals(h: str, primary_id: str | None) -> str:
+    """Drop leftover referral anchors that are not this article's primary partner."""
+    def repl(m: re.Match[str]) -> str:
+        tag, inner = m.group(0), m.group(1)
+        href_m = re.search(r'href="([^"]+)"', tag, re.I)
+        href = href_m.group(1) if href_m else ""
+        pid_m = re.search(r'\bdata-partner="([^"]+)"', tag, re.I)
+        pid = (pid_m.group(1) if pid_m else _partner_id_from_url(href) or "")
+        if primary_id and pid == primary_id:
+            return tag
+        return inner
+
+    h = re.sub(
+        r'<a\b[^>]*href="[^"]*(?:coinbase\.com/join|exchange\.gemini\.com|wallet\.uphold\.com|uphold\.com/signup|river\.com/invite|river\.com/r/)[^"]*"[^>]*>(.*?)</a>',
+        repl,
+        h,
+        flags=re.I | re.S,
+    )
+    h = re.sub(r"\s+through our referral link", "", h)
+    return h
+
+
+
+def related_slugs(lang: str, meta: dict) -> list[str]:
+    out = []
+    for r in meta.get("related") or []:
+        if r not in CONTENT:
+            continue
+        if lang in CONTENT[r] or DEFAULT in CONTENT[r] or has_page(DEFAULT, "article", r):
+            out.append(r)
+    return out
+
+
+def related_href_title(lang: str, slug: str) -> tuple[str, str]:
+    href = path_for(lang if has_page(lang, "article", slug) else DEFAULT, "article", slug)
+    if lang in CONTENT.get(slug, {}):
+        title = CONTENT[slug][lang][0]["title"]
+    else:
+        title = CONTENT[slug][DEFAULT][0]["title"]
+    return href, title
+
+
+def place_related(h: str, lang: str, slug: str) -> str:
+    meta = _meta_for(slug)
+    rel = related_slugs(lang, meta)
+    if not rel:
         return h
+    s = STR[lang]
+    lis = "\n".join(
+        f'          <li><a href="{href}">{esc(title)}</a></li>'
+        for href, title in (related_href_title(lang, r) for r in rel)
+    )
+    block = (
+        f'      <aside class="related" aria-label="{esc_attr(s["related"])}">\n'
+        f"        <h2>{esc(s['related'])}</h2>\n"
+        "        <ul>\n"
+        f"{lis}\n"
+        "        </ul>\n"
+        "      </aside>\n"
+    )
+    if re.search(r'<aside class="related"', h):
+        return re.sub(r'\s*<aside class="related"[^>]*>.*?</aside>', "\n" + block, h, count=1, flags=re.S)
+    m = re.search(r'(<section class="sources")', h)
+    if m:
+        return h[: m.start()] + block + "\n      " + h[m.start() :]
+    return h
+
+
+def place_partners(h: str, lang: str, kind: str, slug: str = "") -> str:
+    """Place the single primary partner CTA on English pages; list partners on the disclosure page."""
+    h = strip_partners(h)
+    h = add_data_partner_attrs(h)
     pg = Page(lang)
     if kind == "article":
-        block = (
-            "  <!-- i18n:partners -->\n"
-            + partners_end_cta_html(pg, lang)
-            + "  <!-- /i18n:partners -->"
-        )
-        m = re.search(r'(<div class="cta">.*?</div>)', h, flags=re.S)
-        if m:
-            h = h[: m.end()] + "\n" + block + h[m.end() :]
+        meta = _meta_for(slug)
+        part = primary_partner(slug, lang, meta)
+        if part and part["id"] == "coinbase":
+            # Keep existing Coinbase copy on EN hand-written pages; tag the boxes.
+            h = re.sub(
+                r'(<aside class="mid-cta")(?![^>]*data-partner-cta=)',
+                r'\1 data-partner-cta="coinbase"',
+                h,
+                count=1,
+            )
+            h = re.sub(
+                r'(<div class="cta")(?![^>]*data-partner-cta=)',
+                r'\1 data-partner-cta="coinbase"',
+                h,
+                count=1,
+            )
+            h = add_data_partner_attrs(h)
+            return h
+        h = unlink_nonprimary_referrals(h, part["id"] if part else None)
+        if part:
+            mid = single_partner_mid_html(pg, lang, part)
+            end = single_partner_end_cta_html(pg, lang, part)
+        else:
+            mid = ""
+            s = STR[lang]
+            end = (
+                f'      <div class="cta">\n'
+                f"        <h2>{esc(s['alt_cta_title'])}</h2>\n"
+                f"        <p>{pg.inline(s['alt_cta_text'])}</p>\n"
+                "      </div>\n"
+            )
+        if re.search(r'<aside class="mid-cta"', h):
+            if mid:
+                h = re.sub(r'\s*<aside class="mid-cta"[^>]*>.*?</aside>', "\n" + mid, h, count=1, flags=re.S)
+            else:
+                h = re.sub(r'\s*<aside class="mid-cta"[^>]*>.*?</aside>', "", h, count=1, flags=re.S)
+        elif mid:
+            m = re.search(r'(<div class="cta"[^>]*>)', h)
+            if m:
+                h = h[: m.start()] + mid + "\n" + h[m.start() :]
+        if re.search(r'<div class="cta"', h):
+            h = re.sub(r'\s*<div class="cta(?: partners-cta)?"[^>]*>.*?</div>', "\n" + end, h, count=1, flags=re.S)
         else:
             m = re.search(r'(<div class="disclosure">)', h)
             if m:
-                h = h[: m.start()] + block + "\n      " + h[m.start() :]
+                h = h[: m.start()] + end + "\n      " + h[m.start() :]
             else:
-                errors.append(f"cannot place partners CTA ({lang}/{kind})")
-        extra_disc = partners_article_disclosure_html(pg, lang)
-        if extra_disc:
-            def _inject_disc(m):
-                inner = m.group(1)
-                if extra_disc in inner:
-                    return m.group(0)
-                if "<br><br>" in inner:
-                    head, sep, tail = inner.partition("<br><br>")
-                    rebuilt = head + "<br><br>\n        " + extra_disc + sep + tail
-                else:
-                    rebuilt = extra_disc + "<br><br>\n        " + inner
-                return '<div class="disclosure">\n        ' + rebuilt + "\n      </div>"
-            h2, n = re.subn(
-                r'<div class="disclosure">\s*(.*?)\s*</div>',
-                _inject_disc,
-                h,
-                count=1,
-                flags=re.S,
-            )
-            if n:
-                h = h2
+                errors.append(f"cannot place partner CTA ({lang}/{slug or kind})")
+        # Replace any existing affiliate sentence with the primary partner's disclosure.
+        if part:
+            disc = partner_disclosure_line(pg, part, lang)
+            if disc:
+                def _inject_disc(m):
+                    inner = m.group(1)
+                    # Drop previous Coinbase/affiliate lead sentence(s) before the advice line.
+                    # Keep the not-advice paragraph, which follows the last <br><br> on EN pages.
+                    if "<br><br>" in inner:
+                        _, _, tail = inner.rpartition("<br><br>")
+                        rebuilt = disc + "<br><br>\n        " + tail.strip()
+                    else:
+                        rebuilt = disc + "<br><br>\n        " + inner
+                    return '<div class="disclosure">\n        ' + rebuilt + "\n      </div>"
+                h2, n = re.subn(
+                    r'<div class="disclosure">\s*(.*?)\s*</div>',
+                    _inject_disc,
+                    h,
+                    count=1,
+                    flags=re.S,
+                )
+                if n:
+                    h = h2
     elif kind == "disclosure":
+        extras = extra_partners(lang)
+        if not extras:
+            return h
+        already = [x for x in extras if f'id="partner-{x["id"]}"' in h or f'<!-- partner:{x["id"]} -->' in h]
+        if len(already) == len(extras):
+            return h
         block = (
             "  <!-- i18n:partners -->\n"
             + partners_page_html(pg, lang)
@@ -435,6 +836,7 @@ def place_partners(h: str, lang: str, kind: str) -> str:
         else:
             errors.append(f"cannot place partners disclosure list ({lang})")
     return h
+
 
 
 # ---------------------------------------------------------------- text format
@@ -515,12 +917,20 @@ class Page:
             on = self.mode in ("full", "hedged") if key == "REF" else self.mode != "none"
             if not on:
                 return inner
-            return f'<a href="{REF_URL}" rel="sponsored noopener" target="_blank">{inner}</a>'
+            return f'<a href="{REF_URL}" rel="sponsored noopener" target="_blank" data-partner="coinbase">{inner}</a>'
         if key.startswith("/"):
             return f'<a href="{internal(self.lang, key)}">{inner}</a>'
         href = self.links.get(key, key)
         if not href.startswith("http"):
             errors.append(f"[{self.lang}] unknown link key {key!r}")
+        pid = _partner_id_from_url(href)
+        if pid:
+            if not any(p["id"] == pid for p in live_partners(self.lang)):
+                return inner
+            return (
+                f'<a href="{esc_attr(href)}" rel="sponsored noopener" target="_blank" '
+                f'data-partner="{esc_attr(pid)}">{inner}</a>'
+            )
         return f'<a href="{esc_attr(href)}" target="_blank" rel="noopener">{inner}</a>'
 
 
@@ -902,28 +1312,16 @@ def build_article(lang: str, slug: str):
 '''
                 )
         elif t == "mid_cta":
-            if mode in ("full", "hedged"):
-                body.append(f'''      <aside class="mid-cta" aria-label="{esc_attr(s['banner_label'])}">
-        <div class="mid-cta-label">{esc(s['banner_label'])}</div>
-        <h2>{esc(s['banner_title'])}</h2>
-        <p>{pg.inline(s['banner_text'])}</p>
-        <a class="cta-button" href="{REF_URL}" rel="sponsored noopener" target="_blank">{esc(s['banner_button'])}</a>
-      </aside>
-''')
+            part = primary_partner(slug, lang, meta)
+            if part:
+                body.append(single_partner_mid_html(pg, lang, part))
         elif t == "soft":
             body.append(f'      <p class="soft-guide">{pg.inline(b["text"])}</p>\n')
         elif t == "end_cta":
-            if mode != "none":
-                body.append(f'''      <div class="cta">
-        <h2>{esc(s['cta_title'])}</h2>
-        <p>{pg.inline(s['cta_text'])}</p>
-        <a class="cta-button" href="{REF_URL}" rel="sponsored noopener" target="_blank">{esc(s['cta_button'])}</a>
-      </div>
-''')
-            extras = partners_end_cta_html(pg, lang)
-            if extras:
-                body.append(extras)
-            elif mode == "none":
+            part = primary_partner(slug, lang, meta)
+            if part:
+                body.append(single_partner_end_cta_html(pg, lang, part))
+            else:
                 # Non-affiliate closer: newsletter + community sit just below; related guides follow.
                 body.append(f'''      <div class="cta">
         <h2>{esc(s['alt_cta_title'])}</h2>
@@ -931,22 +1329,25 @@ def build_article(lang: str, slug: str):
       </div>
 ''')
         elif t == "disclosure":
+            part = primary_partner(slug, lang, meta)
             adv = s["not_advice_" + meta.get("disclosure_variant", "std")]
             aff_parts = []
-            if mode != "none":
-                aff_parts.append(pg.inline(s["disc_affiliate"]))
-            extra_aff = partners_article_disclosure_html(pg, lang)
-            if extra_aff:
-                aff_parts.append(extra_aff)
+            if part:
+                line = partner_disclosure_line(pg, part, lang)
+                if line:
+                    aff_parts.append(line)
             aff = ("<br><br>\n        ".join(aff_parts) + "<br><br>\n        ") if aff_parts else ""
             body.append(f'      <div class="disclosure">\n        {aff}{pg.inline(adv)}\n      </div>\n')
         else:
             errors.append(f"[{lang}/{slug}] unknown block {t}")
     flush()
     body.append(community_marker_html(lang))
-    rel = [r for r in meta["related"] if r in CONTENT and lang in CONTENT[r]]
+    rel = related_slugs(lang, meta)
     if rel:
-        lis = "\n".join(f'          <li><a href="{path_for(lang, "article", r)}">{esc(CONTENT[r][lang][0]["title"])}</a></li>' for r in rel)
+        lis = "\n".join(
+            f'          <li><a href="{href}">{esc(title)}</a></li>'
+            for href, title in (related_href_title(lang, r) for r in rel)
+        )
         body.append(f'''      <aside class="related" aria-label="{esc_attr(s['related'])}">
         <h2>{esc(s['related'])}</h2>
         <ul>
@@ -1241,7 +1642,9 @@ def patch_en(path: Path, kind: str, slug: str = ""):
     h = re.sub(r'<script type="application/ld\+json">.*?</script>', add_same_as, h, flags=re.S)
     h = place_newsletter(h, DEFAULT, kind, path_for(DEFAULT, kind, slug))
     if kind in ("article", "disclosure"):
-        h = place_partners(h, DEFAULT, kind)
+        h = place_partners(h, DEFAULT, kind, slug)
+        if kind == "article":
+            h = place_related(h, DEFAULT, slug)
     if h != o:
         path.write_text(h, encoding="utf-8")
 
@@ -1310,8 +1713,55 @@ def validate_strings():
 # ---------------------------------------------------------------- main
 def write(path: Path, content: str):
     path.parent.mkdir(parents=True, exist_ok=True)
+    if path.suffix.lower() in {".html", ".htm"}:
+        content = add_data_partner_attrs(content)
     if not path.exists() or path.read_text(encoding="utf-8") != content:
         path.write_text(content, encoding="utf-8")
+
+
+
+def _llms_desc(text: str) -> str:
+    text = re.sub(r"<[^>]+>", "", text or "")
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def _llms_item(title: str, url: str, desc: str) -> str:
+    d = _llms_desc(desc)
+    return f"- [{title}]({url}): {d}" if d else f"- [{title}]({url})"
+
+
+def build_llms_txt() -> str:
+    """llmstxt.org-style index: key pages + every article, grouped by language."""
+    lines = [
+        "# PlainBTC",
+        "",
+        f"> {STR[DEFAULT]['tagline']}",
+        "",
+        "Plain-English Bitcoin and crypto news and beginner guides. Official site: https://plainbtc.com",
+        "",
+    ]
+    for l in LANGS:
+        code = l["code"]
+        if code not in STR:
+            continue
+        lines.append(f"## {l['name']}")
+        lines.append("")
+        st = STR[code]
+        lines.append(_llms_item("PlainBTC", abs_url(path_for(code, "home")), st.get("home_description") or st["tagline"]))
+        for kind in ("about", "disclosure"):
+            src = ROOT / "i18n" / "pages" / code / f"{kind}.txt"
+            if src.exists():
+                head, _blocks = parse_txt(src)
+                title = head.get("h1") or head.get("page_title") or kind
+                desc = head.get("description") or head.get("og_description") or ""
+                lines.append(_llms_item(title, abs_url(path_for(code, kind)), desc))
+        for slug in SLUGS:
+            if slug in CONTENT and code in CONTENT[slug]:
+                head = CONTENT[slug][code][0]
+                desc = head.get("summary") or head.get("description") or ""
+                lines.append(_llms_item(head["title"], abs_url(path_for(code, "article", slug)), desc))
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
 
 
 def main():
@@ -1322,6 +1772,7 @@ def main():
     validate()
     if errors:
         print("\n".join("ERROR " + e for e in errors)); sys.exit(1)
+    print(format_cta_distribution())
     if check_only:
         print("\n".join("warn  " + w for w in warnings)); print("check OK"); return
     n = 0
@@ -1343,8 +1794,10 @@ def main():
     patch_en(ROOT / "disclosure.html", "disclosure")
     for slug in SLUGS:
         patch_en(ROOT / "articles" / f"{slug}.html", "article", slug)
+    write(ROOT / "feed.xml", build_feed(DEFAULT))
     write(ROOT / "sitemap.xml", build_sitemap())
-    print(f"built {n} non-English pages; {len(SLUGS)} articles")
+    write(ROOT / "llms.txt", build_llms_txt())
+    print(f"built {n} non-English pages; {len(SLUGS)} articles; wrote llms.txt")
     if errors:
         print("\n".join("ERROR " + e for e in errors)); sys.exit(1)
     print("\n".join("warn  " + w for w in warnings))

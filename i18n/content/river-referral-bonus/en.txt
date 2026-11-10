@@ -1,0 +1,85 @@
+title: River referral bonus: how it works (2026)
+page_title: River referral bonus (2026)
+description: How River’s official referral program works: up to $100 in bitcoin per referral in $5, $15, and $80 tiers, a 180-day window, and how that differs from River’s partner program.
+og_description: A plain-English reading of River’s official referral help page: the $100 cap, buy tiers, 180-day window, and what does not count.
+label: Beginner guide
+summary: An educational walkthrough of River’s published referral rewards — up to $100 in bitcoin each, in tiers after $100, $1,000, and $10,000 of qualifying bitcoin buys — and the 180-day rules on River’s help center.
+===
+
+River is a U.S. bitcoin service that also runs a refer-a-friend program. This short guide quotes River’s own help center and marketing pages so you can see how the official reward is structured. It is not a signup offer from PlainBTC: this page does <strong>not</strong> include a River referral link.
+
+Offers change. If you already have a River account, the figures that matter are the ones River shows you in the app and on its help pages.
+
+!takeaways
+- River’s [help article on referring friends](L1) says both the referrer and the new client can earn <strong>up to $100 in bitcoin</strong> per successful referral.
+- The same article describes three tiers: <strong>$5</strong> after a $100 bitcoin buy, an additional <strong>$15</strong> after $1,000, and an additional <strong>$80</strong> after $10,000 (so $100 in total if all tiers are reached).
+- The eligibility window lasts <strong>180 days</strong> from account creation. Only bitcoin bought with cash from a linked bank account counts; cash from sold bitcoin does not.
+- Rewards are described as depositing <strong>three business days</strong> after a qualifying purchase settles. River’s [referrals page](L2) also says you can share your link with your community.
+- River’s separate [Partner Program](L3) (a share of trading fees, aimed at people who can refer a large number of clients) is not the same as the personal referral program described here.
+
+## What River’s help center says
+
+River’s article “[How do I refer friends to River?](L1)” is the clearest official description of the personal referral program. It says you can earn up to a total of <strong>$100 in bitcoin</strong> when you refer friends, with both sides receiving the same tiered amounts:
+
+- After the new client buys <strong>$100</strong> in bitcoin, both receive <strong>$5</strong> in bitcoin.
+- After the new client buys <strong>$1,000</strong> in bitcoin, both receive an additional <strong>$15</strong> (a running total of $20).
+- After the new client buys <strong>$10,000</strong> in bitcoin, both receive an additional <strong>$80</strong> (a running total of $100).
+
+River says you can reach those thresholds with one purchase or with several buys, that the bitcoin exchange rate is set when the buy minimum is reached (not at payout), and that no reward is earned until the purchased bitcoin has settled.
+
+!figure:tiers
+
+## The 180-day window and what does not count
+
+The same help article lists conditions that trip people up:
+
+- The window starts at account creation and lasts <strong>180 days</strong>. If a reward minimum is not met in that window, neither side is paid for that tier.
+- Rewards apply only to bitcoin bought with <strong>cash from a linked bank account</strong>. Cash from sold bitcoin does not count.
+- The new client must create a <strong>new</strong> River account through the unique referral link, opening the link and signing up directly afterward.
+- You cannot refer your own account, or an entity in which you have a stake. Duplicate or fraudulent accounts can be disqualified.
+- River says referral rewards for bitcoin purchases are deposited <strong>three business days</strong> after the purchase.
+- The article says these purchase rewards apply to clients referred on or after August 7, 2023.
+
+!figure:window
+
+## Sharing a link versus the partner program
+
+River’s [referrals landing page](L2) tells clients they can “share your referral link with your community.” That is the personal program described above. It is different from River’s [Partner Program](L3), which is aimed at people who can refer a large volume of clients (River’s partner page cites examples such as 50 or more clients, or $5 million or more in bitcoin buys) and which is described as a share of trading fees, not the $5 / $15 / $80 schedule.
+
+If you only want to understand the standard refer-a-friend offer, the help center article is the document to read. If River later publishes a formal legal PDF that disagrees with the help article, trust the legal terms.
+
+This PlainBTC page does not include a River signup or referral link. If we add one later, it will be marked with <code>rel="sponsored"</code> and disclosed on the page.
+
+## Is this for you?
+
+River is a bitcoin-focused product, not a general altcoin exchange. Whether that is a better fit than a broader exchange depends on where you live, how you want to buy, and how you plan to store bitcoin. This article does not recommend opening an account. Cryptocurrency is volatile, and you can lose money.
+
+!faq
+
+## FAQ
+
+### How much is the River referral bonus?
+
+River’s help center says both sides can receive up to $100 in bitcoin per referral: $5 after $100 of qualifying bitcoin buys, an additional $15 after $1,000, and an additional $80 after $10,000. Check that article for the current wording.
+
+### How long do I have to qualify?
+
+River says the eligibility window lasts 180 days from account creation.
+
+### What purchases count?
+
+According to the same help article, only bitcoin bought with cash from a linked bank account. Cash from sold bitcoin does not count, and buys must settle.
+
+### Does PlainBTC have a River referral link on this page?
+
+No. This is an educational summary of River’s published program. There is no River referral link here.
+
+### Is River’s partner program the same thing?
+
+No. The partner program is a separate, higher-volume arrangement described on River’s partner page as a share of fees. It is not the $100-per-referral schedule in the help article.
+
+!soft: For a slower way to buy bitcoin over time, see [how much bitcoin a beginner might buy with dollar-cost averaging](/articles/how-much-bitcoin-should-a-beginner-buy-dca). To compare an exchange purchase with an ETF, see [Bitcoin ETF vs buying bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

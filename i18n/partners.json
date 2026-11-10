@@ -34,7 +34,9 @@
       "url": "https://coinbase.com/join/F2XRWRL?src=referral-link",
       "enabled": true,
       "share_policy": "allowed",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "notes": "Existing English-only Coinbase referral. Inline [text](REF) links, mid-article banner and end CTA still use i18n/strings plus langs.json referral mode. This entry is the URL source of truth and is listed on the English disclosure page."
     },
     {
@@ -43,7 +45,9 @@
       "url": "",
       "enabled": false,
       "share_policy": "allowed",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "cta": {
         "en": {
           "title": "If you buy bitcoin through River",
@@ -58,14 +62,16 @@
     {
       "id": "gemini",
       "name": "Gemini",
-      "url": "",
-      "enabled": false,
+      "url": "https://exchange.gemini.com/register?referral=m6n6q7kh7&type=referral",
+      "enabled": true,
       "share_policy": "allowed",
-      "languages": ["en", "es", "pt", "fr", "de"],
+      "languages": [
+        "en"
+      ],
       "cta": {
         "en": {
           "title": "If you open a Gemini account",
-          "text": "Gemini is not available in every country. If it is offered where you live and you decide to sign up, you can use our referral link. Check Gemini’s current terms on their signup page. This is not investment advice.",
+          "text": "Gemini is not available in every country. As of 6 April 2026, Gemini closed customer accounts in the United Kingdom, the European Economic Area, and Australia, according to Gemini’s official availability page. If Gemini is offered where you live and you decide to sign up, you can use our referral link. Check Gemini’s current terms and areas of availability. This is not investment advice.",
           "button": "Gemini signup page (referral link)"
         },
         "es": {
@@ -95,31 +101,36 @@
         "pt": "<strong>Divulgação:</strong> esta página contém um link de indicação da Gemini. Se você se cadastrar por ele e cumprir os termos atuais da Gemini, a PlainBTC pode receber uma recompensa de indicação sem custo extra para você. Veja nossa [divulgação completa de afiliados](/disclosure).",
         "fr": "<strong>Transparence :</strong> cette page contient un lien de parrainage Gemini. Si vous vous inscrivez via ce lien et remplissez les conditions en vigueur chez Gemini, PlainBTC peut percevoir une récompense, sans frais supplémentaires pour vous. Consultez notre [déclaration d’affiliation complète](/disclosure).",
         "de": "<strong>Offenlegung:</strong> Diese Seite enthält einen Gemini-Empfehlungslink. Wenn Sie sich darüber anmelden und die aktuellen Gemini-Bedingungen erfüllen, kann PlainBTC eine Empfehlungsprämie erhalten, ohne Mehrkosten für Sie. Siehe unsere [vollständige Affiliate-Offenlegung](/disclosure)."
-      }
+      },
+      "notes": "Personal Gemini referral, English pages only. Official Gemini pages state that effective 6 April 2026 Gemini closed all customer accounts in the United Kingdom, the European Economic Area, and Australia (areas of availability + Gemini 2.0 blog, 5 Feb 2026). Do not enable es/pt/fr/de unless Gemini officially reopens those markets."
     },
     {
       "id": "uphold",
       "name": "Uphold",
-      "url": "",
-      "enabled": false,
+      "url": "https://wallet.uphold.com/signup?referral=91676790e3&campaign=uw_p_d_w_acq_raf&utm_source=raf&utm_medium=referafriend",
+      "enabled": true,
       "share_policy": "allowed",
-      "languages": ["es", "pt"],
+      "languages": [
+        "es",
+        "pt"
+      ],
       "cta": {
         "es": {
           "title": "Si abres una cuenta en Uphold",
-          "text": "Uphold no está disponible en todos los países (y, en EE. UU., no en el estado de Nueva York). Si el servicio se ofrece donde vives y decides registrarte, puedes usar nuestro enlace de referido. Comprueba las condiciones vigentes en la página de registro de Uphold. Esto no es asesoramiento de inversión.",
+          "text": "Uphold no está disponible en Europa ni, en EE. UU., en el estado de Nueva York. El programa de referidos cubre, entre otros, Brasil y varios países de América Latina, según las condiciones vigentes de Uphold. Si el servicio se ofrece donde vives y decides registrarte, puedes usar nuestro enlace de referido. Comprueba las condiciones en la página de registro de Uphold. Esto no es asesoramiento de inversión.",
           "button": "Página de registro de Uphold (enlace de referido)"
         },
         "pt": {
           "title": "Se você abrir uma conta na Uphold",
-          "text": "A Uphold não está disponível em todos os países (e, nos EUA, não no estado de Nova York). Se o serviço for oferecido onde você mora e você decidir se cadastrar, pode usar nosso link de indicação. Confira os termos atuais na página de cadastro da Uphold. Isto não é aconselhamento de investimento.",
+          "text": "A Uphold não está disponível na Europa nem, nos EUA, no estado de Nova York. O programa de indicação cobre, entre outros, o Brasil e vários países da América Latina, conforme os termos atuais da Uphold. Se o serviço for oferecido onde você mora e você decidir se cadastrar, pode usar nosso link de indicação. Confira as condições na página de cadastro da Uphold. Isto não é aconselhamento de investimento.",
           "button": "Página de cadastro da Uphold (link de indicação)"
         }
       },
       "disclosure": {
         "es": "<strong>Divulgación:</strong> esta página contiene un enlace de referido de Uphold. Si te registras a través de él y cumples las condiciones vigentes de Uphold, PlainBTC puede recibir una recompensa de referido sin coste adicional para ti. Consulta nuestra [divulgación de afiliados completa](/disclosure).",
         "pt": "<strong>Divulgação:</strong> esta página contém um link de indicação da Uphold. Se você se cadastrar por ele e cumprir os termos atuais da Uphold, a PlainBTC pode receber uma recompensa de indicação sem custo extra para você. Veja nossa [divulgação completa de afiliados](/disclosure)."
-      }
+      },
+      "notes": "Personal Uphold referral, Spanish and Portuguese pages only (LatAm/Brazil). Official terms: not available in Europe; US excludes New York. Dashboard/terms: both sides may receive US$20 in bitcoin after the friend verifies, deposits at least US$100, and trades at least US$100 (fiat to crypto) within 30 days. Do not enable fr/de (Europe)."
     },
     {
       "id": "public",
@@ -127,7 +138,9 @@
       "url": "",
       "enabled": false,
       "share_policy": "forbidden",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "notes": "Public’s official referral terms limit the program to personal friends and family and forbid commercial advertising, commercial use, and creating websites that use Public’s name. Do not paste a personal Public referral URL here. If Public later provides an approved affiliate link, change share_policy only after re-reading the official terms.",
       "cta": {
         "en": {
@@ -147,7 +160,9 @@
       "url_type": "",
       "enabled": false,
       "share_policy": "affiliate_only",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "notes": "Do not publish a personal SoFi referral link on the blog. Use an approved SoFi affiliate (Impact) URL, set url_type to affiliate, then enable. SoFi’s official referral rules also require a clear disclosure of the specific compensation — confirm wording against current SoFi terms before going live, and still avoid inventing amounts.",
       "cta": {
         "en": {

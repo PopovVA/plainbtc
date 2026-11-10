@@ -1,19 +1,21 @@
 h1: Divulgación de afiliados y referidos
 page_title: Divulgación de afiliados — PlainBTC
 og_title: Divulgación de afiliados — PlainBTC
-description: Divulgación de afiliados de PlainBTC conforme a las normas de la FTC: la versión en español no contiene enlaces de referido; no es asesoramiento financiero.
-og_description: Cómo maneja PlainBTC los enlaces de referido y qué significa para ti.
+description: Divulgación de afiliados de PlainBTC conforme a las normas de la FTC: la edición en español puede incluir un enlace de referido de Uphold; no es asesoramiento financiero.
+og_description: Cómo maneja PlainBTC los enlaces de referido de Uphold, Coinbase y Gemini, y qué significa para ti.
 ===
 
 De acuerdo con las guías de la Comisión Federal de Comercio de EE. UU. (FTC) sobre testimonios y recomendaciones, PlainBTC declara sus vínculos materiales con anunciantes y programas de referidos.
 
-## Enlaces de referido
+## Enlaces de referido de Uphold
 
-Las páginas en inglés de PlainBTC pueden incluir un enlace de referido de Coinbase (oferta solo para nuevos clientes de EE. UU.). <strong>La versión en español no contiene ningún enlace de referido ni de afiliado</strong>, y no recibimos ninguna comisión ni recompensa por estas páginas. Las menciones a Coinbase u otras empresas en nuestras noticias son solo informativas.
+Algunas páginas en español de este sitio incluyen un enlace de referido de Uphold ([https://wallet.uphold.com/signup?referral=91676790e3&campaign=uw_p_d_w_acq_raf&utm_source=raf&utm_medium=referafriend](https://wallet.uphold.com/signup?referral=91676790e3&campaign=uw_p_d_w_acq_raf&utm_source=raf&utm_medium=referafriend)). Si abres una cuenta <strong>nueva</strong> a través de ese enlace y cumples las condiciones vigentes de Uphold, PlainBTC puede recibir una recompensa de referido sin coste adicional para ti. Según las condiciones oficiales de Uphold, el programa no está disponible en Europa ni, en EE. UU., en el estado de Nueva York; sí cubre, entre otros, Brasil y varios países de América Latina. Comprueba las condiciones en la página de registro de Uphold. Esto no es asesoramiento de inversión.
+
+Las páginas en inglés de PlainBTC pueden incluir un enlace de referido de Coinbase (oferta para nuevos clientes de EE. UU.) o de Gemini. Esos enlaces no aparecen en esta edición en español. Gemini cerró las cuentas de clientes en el Reino Unido, el Espacio Económico Europeo y Australia el 6 de abril de 2026, según las páginas oficiales de Gemini.
 
 ## Cómo marcamos los enlaces
 
-En las páginas en inglés, los enlaces de referido usan <code>rel="sponsored"</code> y se abren en una pestaña nueva. <strong>En esta versión en español no hay enlaces de referido.</strong>
+Los enlaces de referido en este sitio usan <code>rel="sponsored"</code> y se abren en una pestaña nueva. Las páginas de artículos también incluyen una divulgación junto a la llamada a la acción.
 
 ## No es asesoramiento financiero
 

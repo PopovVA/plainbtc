@@ -4,16 +4,41 @@
  "readtime": 9,
  "related": [
   "how-to-buy-first-bitcoin-coinbase",
+  "gemini-referral-bonus",
   "how-to-cash-out-bitcoin-coinbase-to-bank",
   "is-coinbase-safe-for-beginners"
  ],
  "sources": [
-  {"url": "https://help.coinbase.com/en/coinbase/trading-and-funding/pricing-and-fees/fees", "title": "Coinbase Help — Pricing and fees disclosures", "date": ""},
-  {"url": "https://help.coinbase.com/en/coinbase/trading-and-funding/advanced-trade/advanced-trade-fees", "title": "Coinbase Help — Coinbase Advanced fees", "date": ""},
-  {"url": "https://www.coinbase.com/advanced-vip", "title": "Coinbase — Advanced VIP fee levels (public table)", "date": ""},
-  {"url": "https://help.coinbase.com/en/coinbase/trading-and-funding/buying-selling-or-converting-crypto/how-do-i-sell-or-cash-out-my-digital-currency", "title": "Coinbase Help — Sell crypto for cash", "date": ""},
-  {"url": "https://help.coinbase.com/en/coinbase/getting-started/add-a-payment-method/instant-cashout", "title": "Coinbase Help — Instant cashouts", "date": ""},
-  {"url": "https://www.coinbase.com/one", "title": "Coinbase One", "date": ""}
+  {
+   "url": "https://help.coinbase.com/en/coinbase/trading-and-funding/pricing-and-fees/fees",
+   "title": "Coinbase Help — Pricing and fees disclosures",
+   "date": ""
+  },
+  {
+   "url": "https://help.coinbase.com/en/coinbase/trading-and-funding/advanced-trade/advanced-trade-fees",
+   "title": "Coinbase Help — Coinbase Advanced fees",
+   "date": ""
+  },
+  {
+   "url": "https://www.coinbase.com/advanced-vip",
+   "title": "Coinbase — Advanced VIP fee levels (public table)",
+   "date": ""
+  },
+  {
+   "url": "https://help.coinbase.com/en/coinbase/trading-and-funding/buying-selling-or-converting-crypto/how-do-i-sell-or-cash-out-my-digital-currency",
+   "title": "Coinbase Help — Sell crypto for cash",
+   "date": ""
+  },
+  {
+   "url": "https://help.coinbase.com/en/coinbase/getting-started/add-a-payment-method/instant-cashout",
+   "title": "Coinbase Help — Instant cashouts",
+   "date": ""
+  },
+  {
+   "url": "https://www.coinbase.com/one",
+   "title": "Coinbase One",
+   "date": ""
+  }
  ],
  "disclosure_variant": "guide"
 }
