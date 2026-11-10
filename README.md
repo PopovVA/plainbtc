@@ -235,3 +235,11 @@ Tag outbound links to the site so morning reports can attribute channels:
 | Coinbase referral landing mentions | keep the Coinbase join URL as-is; site CTAs already use the referral link |
 
 Also accepted: `utm_medium=organic` / `email` / `bio`. Keep `utm_*` values lowercase, no spaces.
+
+
+## Newsletter (email subscription)
+
+* **Form**: one `<aside class="newsletter-box">` per page (home, every article, about, disclosure; all 10 languages), texts in `i18n/newsletter.json`. Injected by `tools/build_i18n.py` (`place_newsletter()`): strip-then-place between `<!-- i18n:newsletter -->` markers, so re-running the build always leaves exactly one form. New articles get it automatically via the normal workflow (`gen_en_article.py` → `build_i18n.py`). JS handler lives in `assets/site.js` (fingerprinted copy `assets/site.20261109h.js`, name set by `SITE_JS` in build_i18n.py); CSS at the end of `assets/styles.20261109g.css`. Honeypot field `website`.
+* **Backend**: Pages Functions `POST /api/subscribe`, `GET /api/confirm?token=`, `GET|POST /api/unsubscribe?token=` (`functions/api/*.js`, helpers `functions/_lib/`; `nl_strings.js` is generated). They call SECURITY DEFINER RPCs in Supabase project foliata (`supabase/newsletter.sql`); tables `newsletter_subscribers` (email unique lowercased, lang, source, status pending/confirmed/unsubscribed, tokens, timestamps), `newsletter_signup_log`, `newsletter_state`, `newsletter_admin`, `newsletter_templates` have RLS on and no anon grants. No secret is needed in Cloudflare.
+* **Double opt-in mail**: sent from inside Postgres (`pg_net`) through the Resend API with the key stored in Supabase Vault (`plainbtc_resend_key`); localized templates are rows in `newsletter_templates`. After editing `i18n/newsletter.json` run `python3 tools/newsletter_sync.py` and apply `supabase/newsletter_templates.sql` to the project.
+* **Digest**: `python3 tools/send_digest.py --dry-run | --test-to ADDR | --send | --baseline | --stats` (see the docstring). Needs `RESEND_API_KEY` (or `/workspace/private/resend_api_key`) and `NEWSLETTER_ADMIN_TOKEN` (or `/workspace/private/plainbtc_newsletter_admin.token`; only its SHA-256 is in the database).
