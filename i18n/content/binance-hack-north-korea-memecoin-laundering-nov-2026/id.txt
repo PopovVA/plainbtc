@@ -1,0 +1,64 @@
+title: Korea Utara membuat memecoin untuk mencuci hasil peretasan Binance senilai US$6,4 miliar, kata Elliptic
+page_title: Peretasan Binance: Korea Utara mencuci dana lewat memecoin
+description: Elliptic menyebut pencuci uang Korea Utara membuat enam token sekali pakai di NEAR untuk memindahkan sekitar US$430.000 hasil peretasan Binance. Begini posisi dana US$6,4 miliar itu.
+og_description: Enam token sekali pakai, sekitar US$430.000 dipindahkan, dan US$2,85 miliar dibekukan: kabar terbaru jejak uang peretasan Binance.
+label: Keamanan
+summary: Elliptic melacak dana curian dari Binance melalui enam memecoin buatan sendiri di NEAR, sementara sekitar US$2,85 miliar hasil curian masih dibekukan.
+===
+
+Para pencuci uang hasil curian dari Binance menemukan trik baru: mereka membuat memecoin sendiri. Dalam [laporan yang terbit 9 November](L1), perusahaan analitik blockchain <strong>Elliptic</strong> mengatakan pencuci uang yang terkait Korea Utara membuat sedikitnya <strong>enam token sekali pakai</strong> di blockchain NEAR antara 5 dan 7 November dan memakainya untuk memindahkan sekitar <strong>117.000 NEAR</strong>, senilai kira-kira <strong>US$430.000</strong>, tanpa mengirim dana langsung dari satu dompet ke dompet lain.
+
+Jumlah itu sangat kecil dibanding skala pencuriannya. Binance mengatakan sekitar US$6,34 miliar aset terdampak ketika penyerang menembus sistem dompetnya pada 29 Oktober; Elliptic menghitung totalnya US$6,43 miliar dan menyebutnya pencurian kripto terbesar yang pernah tercatat. Namun laporan ini menunjukkan bagaimana pencucian uang berkembang, dan mengapa para penyelidik mengatakan jejaknya masih terlihat di on-chain.
+
+!figure:chart
+
+!takeaways
+- Elliptic mengatakan pencuci uang Korea Utara membuat enam memecoin di NEAR dan memindahkan sekitar US$430.000 dana curian melaluinya.
+- Setiap token menghabiskan biaya sekitar 25 NEAR, atau kira-kira US$90, untuk dibuat dan ditinggalkan dalam beberapa hari.
+- Sekitar US$2,85 miliar aset curian telah dibekukan atau dicegat, sementara sekitar US$3,11 miliar masih berada di alamat terkait per 6 November.
+- Circle mengatakan telah membekukan sekitar US$1,1 miliar USDC yang terkait insiden tersebut, berkoordinasi dengan penegak hukum.
+
+## Cara kerja trik memecoin
+
+Siapa pun bisa meluncurkan token baru, dan ribuan token muncul setiap hari. Menurut Elliptic, para pencuci uang memanfaatkannya dalam empat langkah. Mereka membuat token dengan alat peluncuran publik, memasangkannya dengan NEAR asli di pool likuiditas sebuah exchange terdesentralisasi, membeli token itu dengan NEAR curian dari satu kelompok dompet, lalu menjualnya kembali ke pool yang sama dari kelompok dompet kedua untuk mengambil NEAR.
+
+Karena pool berada di tengah, uang curian tidak pernah berpindah langsung dari dompet pembeli ke dompet penerima. Bagi pengamat sekilas, dompet penerima tampak seperti trader biasa yang menjual memecoin dengan untung. Enam token bernama FUK, OLCCL, MEILI, MMLI, DABI, dan SINU itu bahkan memakai logo bergaya kartun agar berbaur dengan banjir memecoin sungguhan.
+
+Elliptic mengatakan tiga tanda membongkarnya. Dompet dalam jaringan pencucian melakukan semua penjualan keenam token, pembeli dari luar nyaris tidak ada, dan NEAR yang masuk ke setiap pool sama dengan yang keluar. Tidak satu pun token diperdagangkan sejak 8 November, dan sore itu pembuat empat token menarik sisa likuiditas di pool mereka.
+
+!mid_cta
+
+!figure:fact
+
+## Di mana sisa uangnya
+
+Ini bukan taktik baru. Elliptic mengatakan pertama kali melihat token buatan sendiri dalam pencucian dana curian Bybit pada 2025, ketika setidaknya US$24 juta dipindahkan dengan cara ini di Tron. Dalam kasus Binance, metode yang sama terlihat di Tron dan NEAR, ditambah varian serupa di Solana.
+
+Aliran yang lebih besar ada di tempat lain. Dalam pembaruan yang diberitakan The Block pada 6 November, Elliptic mengatakan penyerang telah menukar sekitar US$124 juta altcoin curian menjadi bitcoin, sekitar 1.650 BTC, menggunakan lebih dari 20.000 dompet di 16 blockchain dan sekitar 65.000 transaksi. Sekitar US$50 juta XRP curian telah ditukar, sebagian besar lewat THORChain, dengan sekitar US$226 juta masih menunggu. Elliptic memperkirakan sejauh ini kemungkinan hanya "jumlah yang tidak berarti" yang sudah dicairkan.
+
+Penerbit stablecoin bergerak cepat. Dalam [unggahan blog 5 November](L2), Circle mengatakan telah membekukan sekitar US$1,1 miliar USDC yang terkait insiden itu bekerja sama dengan penegak hukum, dan bahwa FBI mengaitkan serangan tersebut dengan aktor yang terhubung dengan Korea Utara. Circle menegaskan pembekuan hanya menghentikan pergerakan token; pengadilan dan aparat yang memutuskan siapa pemiliknya.
+
+## Reaksi bank dan Binance
+
+Dampaknya merambat ke keuangan tradisional. The Paypers, mengutip sumber yang mengetahui masalah ini, melaporkan pada 9 November bahwa pengawas dari Federal Reserve dan Office of the Comptroller of the Currency (OCC) menghubungi bank untuk menanyakan apakah sistem mereka memiliki celah atau aktivitas tidak biasa setelah serangan. The Fed dan OCC menolak berkomentar.
+
+Di internal Binance, co-CEO Yi He mengumumkan pada hari Sabtu bahwa direktur keuangan Kaiser Ng mundur untuk mengejar usaha baru dan akan digantikan oleh Justin Yek, mantan wakil presiden keuangan Airwallex. Yi He mengatakan rencana transisi sudah berjalan enam bulan, sebelum pencurian terjadi.
+
+## Artinya bagi pengguna biasa
+
+Bagi pemula, pelajarannya bukan soal Korea Utara, melainkan kebiasaan dasar yang aman. Token yang baru dibuat dengan hampir tanpa trader dari luar adalah tanda bahaya, dan laporan Elliptic mengingatkan bahwa grafik sebuah koin bisa direkayasa oleh segelintir dompet. Sebelum membeli apa pun, ada baiknya bertanya siapa lagi yang benar-benar memperdagangkannya.
+
+Laporan ini juga mengingatkan bahwa tidak ada exchange yang bebas risiko. Saat memilih tempat membeli, periksa rekam jejak keamanan exchange, aktifkan autentikasi dua faktor yang kuat, dan pertimbangkan apakah tabungan jangka panjang sebaiknya disimpan di dompet yang Anda kendalikan sendiri. Jika Anda membandingkan pilihan, [Coinbase](REF) adalah exchange teregulasi yang banyak dipakai pemula untuk memulai, dan panduan kami di bawah menjelaskan untung-ruginya.
+
+## Yang perlu dipantau selanjutnya
+
+- Apakah penyerang terus menukar ether ke bitcoin dalam jumlah kecil, seperti perkiraan Elliptic, sebelum mencoba mencairkannya lewat broker OTC.
+- Langkah hukum apa pun atas USDC dan token lain yang dibekukan setelah pencurian.
+- Temuan lanjutan regulator perbankan AS tentang paparan terhadap insiden ini.
+- Pembaruan Binance berikutnya soal dana yang dipulihkan dan penarikan yang dibuka kembali.
+
+!soft: Baru mengenal kripto? Baca penjelasan kami tentang [dompet kustodian dan dompet mandiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

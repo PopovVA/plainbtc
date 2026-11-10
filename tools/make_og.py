@@ -57,6 +57,11 @@ ARTICLES = [
         "GUIDE",
     ),
     (
+        "binance-hack-north-korea-memecoin-laundering-nov-2026",
+        "North Korea is minting meme coins to launder the Binance hack",
+        "SECURITY",
+    ),
+    (
         "pnc-coinbase-usdc-payments-pilot-nov-2026",
         "PNC Bank pilots USDC payments with Coinbase for corporate clients",
         "BUSINESS",

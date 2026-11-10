@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Binance_Logo.svg",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Binance_Logo.svg",
+      "credit": "Binance"
+    },
+    {
+      "file": "Circle_USDC_Logo.svg",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Circle_USDC_Logo.svg",
+      "credit": "Circle/USDC"
+    },
+    {
+      "file": "wallet-trail illustration",
+      "license": "PlainBTC original",
+      "url": "",
+      "credit": "PlainBTC"
+    }
+  ],
+  "note": "Editorial composite; trademarks belong to their owners.",
+  "slug": "binance-hack-north-korea-memecoin-laundering-nov-2026",
+  "generated": "2026-11-10T00:11Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

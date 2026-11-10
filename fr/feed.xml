@@ -5,8 +5,15 @@
     <link>https://plainbtc.com/fr/</link>
     <description>L’actualité du bitcoin et des cryptos en langage clair, pour les débutants</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/fr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>La Corée du Nord crée des memecoins pour blanchir le piratage de 6,4 milliards de dollars de Binance, selon Elliptic</title>
+      <link>https://plainbtc.com/fr/articles/binance-hack-north-korea-memecoin-laundering-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/binance-hack-north-korea-memecoin-laundering-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 00:40:00 GMT</pubDate>
+      <description>Elliptic a suivi des fonds volés à Binance à travers six memecoins maison sur NEAR, tandis qu’environ 2,85 milliards de dollars du butin restent gelés.</description>
+    </item>
     <item>
       <title>Qu’est-ce qu’un portefeuille crypto ? Custodial ou auto-conservation, expliqué aux débutants</title>
       <link>https://plainbtc.com/fr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</link>

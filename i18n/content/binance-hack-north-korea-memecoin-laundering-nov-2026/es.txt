@@ -1,0 +1,64 @@
+title: Corea del Norte crea memecoins para lavar el hackeo de 6.400 millones de dólares a Binance, según Elliptic
+page_title: Hackeo de Binance: Corea del Norte lava fondos con memecoins
+description: Elliptic afirma que lavadores norcoreanos crearon seis tokens desechables en NEAR para mover unos 430.000 $ del hackeo de Binance. Así está el caso de los 6.400 millones.
+og_description: Seis tokens desechables, unos 430.000 $ movidos y 2.850 millones congelados: lo último sobre el rastro del dinero del hackeo de Binance.
+label: Seguridad
+summary: Elliptic rastreó fondos robados a Binance a través de seis memecoins caseras en NEAR, mientras unos 2.850 millones de dólares del botín siguen congelados.
+===
+
+Quienes lavan el dinero robado a Binance han encontrado un truco nuevo: crean sus propias memecoins. En un [informe publicado el 9 de noviembre](L1), la firma de análisis blockchain <strong>Elliptic</strong> dijo que lavadores vinculados a Corea del Norte crearon al menos <strong>seis tokens desechables</strong> en la blockchain NEAR entre el 5 y el 7 de noviembre y los usaron para mover unos <strong>117.000 NEAR</strong>, equivalentes a cerca de <strong>430.000 $</strong>, sin enviar fondos directamente de una billetera a otra.
+
+La cifra es diminuta frente al tamaño del robo. Binance dice que unos 6.340 millones de dólares en activos se vieron afectados cuando los atacantes accedieron a sus sistemas de billeteras el 29 de octubre; Elliptic sitúa el total en 6.430 millones y lo considera el mayor robo cripto registrado. Pero el informe muestra cómo evoluciona el lavado y por qué los investigadores dicen que el rastro sigue siendo visible en la cadena.
+
+!figure:chart
+
+!takeaways
+- Elliptic dice que los lavadores de Corea del Norte crearon seis memecoins en NEAR y movieron a través de ellas unos 430.000 $ en fondos robados.
+- Crear cada token costó unos 25 NEAR, aproximadamente 90 $, y todos fueron abandonados en pocos días.
+- Unos 2.850 millones de dólares de los activos robados han sido congelados o interceptados, mientras que unos 3.110 millones seguían en direcciones vinculadas al 6 de noviembre.
+- Circle dice que congeló unos 1.100 millones de dólares en USDC relacionados con el incidente, en coordinación con las fuerzas del orden.
+
+## Cómo funciona el truco de las memecoins
+
+Cualquiera puede lanzar un token nuevo, y cada día aparecen miles. Según Elliptic, los lavadores lo aprovecharon en cuatro pasos. Crearon un token con una herramienta pública de lanzamiento, lo emparejaron con NEAR real en un pool de liquidez de un exchange descentralizado, compraron el token con NEAR robado desde un grupo de billeteras y luego lo vendieron de vuelta al mismo pool desde un segundo grupo para cobrar los NEAR.
+
+Como el pool está en medio, el dinero robado nunca pasa directamente de una billetera compradora a una receptora. Para un observador casual, las billeteras receptoras parecen operadores normales que vendieron una memecoin con ganancia. Los seis tokens, llamados FUK, OLCCL, MEILI, MMLI, DABI y SINU, incluso tenían logotipos de estilo caricaturesco para camuflarse entre la avalancha de memecoins reales.
+
+Elliptic dijo que tres señales los delataron. Billeteras de la red de lavado hicieron todas las ventas de los seis tokens, los compradores externos fueron casi inexistentes y los NEAR que entraron en cada pool coincidían con los que salieron. Ninguno de los tokens se ha negociado desde el 8 de noviembre, y esa misma tarde los creadores de cuatro de ellos retiraron la liquidez que quedaba.
+
+!mid_cta
+
+!figure:fact
+
+## Dónde está el resto del dinero
+
+No es una táctica nueva. Elliptic dijo que vio por primera vez tokens caseros en el lavado de los fondos robados a Bybit en 2025, cuando al menos 24 millones de dólares se movieron así en Tron. En el caso de Binance ha detectado el mismo método en Tron y NEAR, además de una variante cercana en Solana.
+
+Los flujos más grandes están en otra parte. En una actualización que The Block publicó el 6 de noviembre, Elliptic dijo que los atacantes habían cambiado unos 124 millones de dólares en altcoins robadas por bitcoin, unos 1.650 BTC, usando más de 20.000 billeteras en 16 blockchains y unas 65.000 transacciones. Se habían intercambiado unos 50 millones de dólares en XRP robado, sobre todo a través de THORChain, y quedaban unos 226 millones por mover. Elliptic estimó que hasta ahora probablemente solo se había cobrado en efectivo una "cantidad insignificante".
+
+Los emisores de stablecoins actuaron rápido. En una [publicación del 5 de noviembre](L2), Circle dijo que congeló aproximadamente 1.100 millones de dólares en USDC asociados al incidente en coordinación con las fuerzas del orden, y que el FBI atribuyó el ataque a actores vinculados a Corea del Norte. Circle subrayó que una congelación solo impide que los tokens se muevan; son los tribunales y las autoridades quienes deciden a quién pertenecen.
+
+## La reacción de los bancos y de Binance
+
+Las consecuencias llegan a las finanzas tradicionales. The Paypers, citando a personas familiarizadas con el asunto, informó el 9 de noviembre de que supervisores de la Reserva Federal y de la Oficina del Contralor de la Moneda (OCC) contactaron a bancos para preguntar si sus sistemas tenían vulnerabilidades o actividad inusual tras el ataque. La Fed y la OCC declinaron hacer comentarios.
+
+Dentro de Binance, la codirectora ejecutiva Yi He anunció el sábado que el director financiero Kaiser Ng deja la empresa para emprender un nuevo proyecto y será reemplazado por Justin Yek, exvicepresidente de finanzas de Airwallex. Yi He dijo que el plan de transición llevaba seis meses en marcha, antes del robo.
+
+## Qué significa para los usuarios comunes
+
+Para los principiantes, la lección tiene menos que ver con Corea del Norte y más con la higiene básica. Los tokens recién creados casi sin operadores externos son una señal de alerta, y el informe de Elliptic recuerda que el gráfico de una moneda puede fabricarse con un puñado de billeteras. Antes de comprar algo, conviene preguntarse quién más lo está negociando de verdad.
+
+También recuerda que ningún exchange está libre de riesgo. Si estás eligiendo dónde comprar, revisa el historial de seguridad del exchange, activa una autenticación de dos factores sólida y piensa si tus ahorros a largo plazo deberían estar en una billetera que tú controlas. Si comparas opciones en EE. UU., [Coinbase](REF) es un exchange regulado con el que empiezan muchos principiantes, y nuestras guías de abajo explican los pros y contras.
+
+## Qué vigilar ahora
+
+- Si los atacantes siguen convirtiendo ether en bitcoin en pequeños lotes, como espera Elliptic, antes de intentar cobrar a través de brókeres OTC.
+- Cualquier acción judicial sobre los USDC y otros tokens congelados tras el robo.
+- Nuevas conclusiones de los reguladores bancarios de EE. UU. sobre la exposición al incidente.
+- Las próximas actualizaciones de Binance sobre fondos recuperados y retiros reabiertos.
+
+!soft: ¿Nuevo en cripto? Lee nuestra explicación sobre [billeteras custodiadas y de autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

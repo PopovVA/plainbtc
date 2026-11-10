@@ -1,0 +1,64 @@
+title: North Korea is minting meme coins to launder the $6.4 billion Binance hack, Elliptic says
+page_title: Binance hack: North Korea launders funds through meme coins
+description: Elliptic says North Korean launderers created six throwaway meme tokens on NEAR to move about $430,000 of Binance hack funds. Here is where the $6.4 billion stands.
+og_description: Six throwaway tokens, about $430,000 moved, and $2.85 billion frozen: the latest on the Binance hack money trail.
+label: Security
+summary: Elliptic traced stolen Binance funds through six home-made meme tokens on NEAR, while about $2.85 billion of the loot stays frozen.
+===
+
+The people laundering the money stolen from Binance have found a new trick: they are creating their own meme coins. In a [report published Nov. 9](L1), blockchain analytics firm <strong>Elliptic</strong> said launderers linked to North Korea created at least <strong>six throwaway tokens</strong> on the NEAR blockchain between Nov. 5 and 7 and used them to move about <strong>117,000 NEAR</strong>, worth around <strong>$430,000</strong>, without sending funds directly from one wallet to the next.
+
+The amount is tiny next to the size of the theft. Binance says roughly $6.34 billion in assets was affected when attackers reached its wallet systems on Oct. 29; Elliptic puts the total at $6.43 billion and calls it the largest crypto theft on record. But the report shows how the laundering is evolving, and why investigators say the trail is still visible on-chain.
+
+!figure:chart
+
+!takeaways
+- Elliptic says North Korea's launderers created six meme tokens on NEAR and moved about $430,000 of stolen funds through them.
+- Each token cost about 25 NEAR, or roughly $90, to create and was abandoned within days.
+- About $2.85 billion of the stolen assets has been frozen or intercepted, while about $3.11 billion still sat in linked addresses as of Nov. 6.
+- Circle says it froze about $1.1 billion in USDC tied to the incident in coordination with law enforcement.
+
+## How the meme coin trick works
+
+Anyone can launch a new token, and thousands appear every day. According to Elliptic, the launderers used that to their advantage in four steps. They created a new token with a public launch tool, paired it with real NEAR in a liquidity pool on a decentralized exchange, bought the token with stolen NEAR from one set of wallets, and then sold it back into the same pool from a second set of wallets to collect the NEAR.
+
+Because the pool sits in the middle, stolen money never moves straight from a buying wallet to a collecting wallet. To a casual observer, the collecting wallets look like ordinary traders who sold a meme coin at a profit. The six tokens, named FUK, OLCCL, MEILI, MMLI, DABI and SINU, even carried cartoon-style logos to blend in with the flood of real meme coins.
+
+Elliptic said three signs gave them away. Wallets in the laundering network made every sale of all six tokens, outside buyers were almost nonexistent, and the NEAR that went into each pool matched the NEAR that came out. None of the tokens has traded since Nov. 8, and the creators of four of them pulled their remaining liquidity that afternoon.
+
+!mid_cta
+
+!figure:fact
+
+## Where the rest of the money is
+
+This is not a new playbook. Elliptic said it first saw home-made tokens used in the laundering of funds stolen from Bybit in 2025, when at least $24 million moved this way on Tron. In the Binance case it has spotted the same method on Tron and NEAR, plus a close variant on Solana.
+
+The bigger flows are elsewhere. In an update reported by The Block on Nov. 6, Elliptic said the attackers had swapped about $124 million of stolen altcoins into bitcoin, about 1,650 BTC, using more than 20,000 wallets across 16 blockchains and some 65,000 transactions. Around $50 million of stolen XRP had been swapped, mostly through THORChain, with about $226 million still waiting. Elliptic estimated that only a "negligible amount" had likely been cashed out so far.
+
+Stablecoin issuers moved fast. In a [Nov. 5 blog post](L2), Circle said it froze approximately $1.1 billion in USDC associated with the incident in coordination with law enforcement, and that the FBI has attributed the attack to actors connected to North Korea. Circle stressed that a freeze only stops tokens from moving; courts and law enforcement decide who owns them.
+
+## Banks and Binance react
+
+The fallout is reaching traditional finance. The Paypers, citing people familiar with the matter, reported on Nov. 9 that supervisors from the Federal Reserve and the Office of the Comptroller of the Currency contacted banks to ask whether their systems had vulnerabilities or unusual activity after the breach. The Fed and the OCC declined to comment.
+
+Inside Binance, co-CEO Yi He announced on Saturday that chief financial officer Kaiser Ng is leaving to pursue a new venture and will be replaced by Justin Yek, a former vice president of finance at Airwallex. Yi He said the transition plan had been in place for six months, before the theft.
+
+## What it means for regular users
+
+For beginners, the lesson is less about North Korea and more about basic hygiene. Brand-new tokens with almost no outside traders are a red flag, and Elliptic's report is a reminder that a coin's chart can be manufactured by a handful of wallets. Before you buy anything, it is worth asking who else is actually trading it.
+
+It is also a reminder that no exchange is risk-free. If you are choosing where to buy, look at an exchange's security record, turn on strong two-factor authentication, and think about whether long-term savings belong in a wallet you control. If you are comparing U.S. options, [Coinbase](REF) is one regulated exchange many beginners start with, and our guides below walk through the trade-offs.
+
+## What to watch next
+
+- Whether the attackers keep converting ether into bitcoin in small batches, as Elliptic expects, before trying to cash out through OTC brokers.
+- Any court action on the USDC and other tokens frozen after the theft.
+- Further findings from U.S. bank regulators about exposure to the incident.
+- Binance's next updates on recovered funds and reopened withdrawals.
+
+!soft: New to crypto? Read our explainer on [custodial vs. self-custody wallets](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

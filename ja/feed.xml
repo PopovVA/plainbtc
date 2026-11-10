@@ -5,8 +5,15 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>北朝鮮、Binanceから盗んだ64億ドルの洗浄にミームコインを自作　Elliptic報告</title>
+      <link>https://plainbtc.com/ja/articles/binance-hack-north-korea-memecoin-laundering-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/binance-hack-north-korea-memecoin-laundering-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 00:40:00 GMT</pubDate>
+      <description>EllipticはBinanceから盗まれた資金がNEAR上の自作ミームコイン6種を経由したことを追跡。一方、盗難資金のうち約28.5億ドルは凍結されたままだ。</description>
+    </item>
     <item>
       <title>暗号資産ウォレットとは？カストディアルとセルフカストディを初心者向けに解説</title>
       <link>https://plainbtc.com/ja/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</link>

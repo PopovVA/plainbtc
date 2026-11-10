@@ -1178,6 +1178,54 @@ def build_etf():
     ]
 
 
+def build_binance_hack():
+    slug = "binance-hack-north-korea-memecoin-laundering-nov-2026"
+    d = OUT / slug
+    chart = make_bar_chart(
+        d / "chart-binance-hack-funds",
+        ["Total stolen", "Frozen or intercepted", "Still in linked addresses"],
+        [6430, 2850, 3110],
+        "Binance hack: where the money stood on Nov. 6 (Elliptic, $ millions)",
+        colors=["#f87171", "#34d399", "#f7931a"],
+        value_fmt=lambda v: f"${v/1000:.2f}B",
+    )
+    card = make_fact_card(
+        d / "fact-near-memecoins",
+        label="Laundering trick",
+        big="~$430,000",
+        sub="Stolen NEAR moved through six home-made meme tokens, Nov 5-7; each cost about $90 to create (Elliptic)",
+        footer="Elliptic research · Nov 9, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart: $6.43B stolen from Binance, $2.85B frozen or intercepted, $3.11B still in linked addresses", {
+            "es": "Gráfico de barras: 6.430 M$ robados a Binance, 2.850 M$ congelados o interceptados, 3.110 M$ aún en direcciones vinculadas",
+            "pt": "Gráfico de barras: US$ 6,43 bi roubados da Binance, US$ 2,85 bi congelados ou interceptados, US$ 3,11 bi ainda em endereços ligados",
+            "fr": "Graphique : 6,43 Md$ volés à Binance, 2,85 Md$ gelés ou interceptés, 3,11 Md$ encore sur des adresses liées",
+            "de": "Balkendiagramm: 6,43 Mrd. $ bei Binance gestohlen, 2,85 Mrd. $ eingefroren oder abgefangen, 3,11 Mrd. $ noch auf verknüpften Adressen",
+            "ru": "Диаграмма: у Binance украдено $6,43 млрд, заморожено или перехвачено $2,85 млрд, $3,11 млрд всё ещё на связанных адресах",
+            "tr": "Grafik: Binance'ten 6,43 milyar $ çalındı, 2,85 milyar $ donduruldu veya durduruldu, 3,11 milyar $ hâlâ bağlantılı adreslerde",
+            "id": "Grafik batang: US$6,43 miliar dicuri dari Binance, US$2,85 miliar dibekukan atau dicegat, US$3,11 miliar masih di alamat terkait",
+            "ja": "棒グラフ：Binanceから64.3億ドルが盗まれ、28.5億ドルが凍結・差し止め、31.1億ドルが関連アドレスに残存",
+            "ko": "막대 차트: 바이낸스에서 64.3억 달러 도난, 28.5억 달러 동결·차단, 31.1억 달러는 연관 주소에 잔존",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Elliptic via The Block, Nov 6, 2026")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: about $430,000 of stolen NEAR moved through six home-made meme tokens", {
+            "es": "Tarjeta: unos 430.000 $ en NEAR robados pasaron por seis memecoins creadas a medida",
+            "pt": "Cartão: cerca de US$ 430 mil em NEAR roubados passaram por seis memecoins caseiras",
+            "fr": "Encadré : environ 430 000 $ de NEAR volés ont transité par six memecoins maison",
+            "de": "Faktenkarte: rund 430.000 $ gestohlene NEAR liefen über sechs selbst erstellte Memecoins",
+            "ru": "Карточка: около $430 000 украденных NEAR прошли через шесть самодельных мемкоинов",
+            "tr": "Kart: çalınan yaklaşık 430.000 $ değerinde NEAR, kendi üretilmiş altı memecoin üzerinden aktarıldı",
+            "id": "Kart fakta: sekitar US$430.000 NEAR curian dialirkan lewat enam memecoin buatan sendiri",
+            "ja": "カード：盗まれた約43万ドル相当のNEARが自作のミームコイン6種を経由",
+            "ko": "카드: 도난당한 약 43만 달러어치 NEAR가 자체 제작 밈코인 6개를 거쳐 이동",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Elliptic")},
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -1192,6 +1240,7 @@ BUILDERS = {
     "coinbase-fees-explained": "fees",
     "how-to-cash-out-bitcoin-coinbase-to-bank": "cashout",
     "bitcoin-etf-vs-buying-bitcoin": "etf",
+    "binance-hack-north-korea-memecoin-laundering-nov-2026": "bnbhack",
 }
 
 
@@ -1229,6 +1278,8 @@ def build_slug(slug: str, btc=None):
         figs = build_cashout()
     elif key == "etf":
         figs = build_etf()
+    elif key == "bnbhack":
+        figs = build_binance_hack()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

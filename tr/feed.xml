@@ -5,8 +5,15 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Elliptic: Kuzey Kore, Binance'ten çalınan 6,4 milyar doları aklamak için memecoin üretiyor</title>
+      <link>https://plainbtc.com/tr/articles/binance-hack-north-korea-memecoin-laundering-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/binance-hack-north-korea-memecoin-laundering-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 00:40:00 GMT</pubDate>
+      <description>Elliptic, Binance'ten çalınan fonları NEAR'daki altı ev yapımı memecoin üzerinden izledi; ganimetin yaklaşık 2,85 milyar doları ise dondurulmuş durumda.</description>
+    </item>
     <item>
       <title>Kripto cüzdanı nedir? Emanetçi ve kendi saklama cüzdanı, yeni başlayanlar için anlatım</title>
       <link>https://plainbtc.com/tr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</link>

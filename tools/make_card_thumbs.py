@@ -347,6 +347,36 @@ def thumb_wallet():
     ]}
 
 
+def thumb_binance_hack():
+    binance = fetch("https://upload.wikimedia.org/wikipedia/commons/e/e8/Binance_Logo.svg", CACHE/"binance-logo.svg")
+    usdc = fetch("https://upload.wikimedia.org/wikipedia/commons/4/4a/Circle_USDC_Logo.svg", CACHE/"circle-usdc-logo.svg")
+    base = gradient_bg()
+    d = ImageDraw.Draw(base)
+    # schematic wallet trail: dots joined by lines across the bottom
+    pts = [(40,300),(130,270),(220,310),(310,262),(400,300),(490,268),(600,296)]
+    for a,b in zip(pts,pts[1:]):
+        d.line([a,b], fill=(247,147,26), width=3)
+    for x,y in pts:
+        d.ellipse([x-9,y-9,x+9,y+9], fill=(26,35,50), outline=(247,147,26), width=3)
+    logos=[(Image.open(binance).convert("RGBA"),"Binance"),(Image.open(usdc).convert("RGBA"),"USDC")]
+    card_w, card_h, gap = 210, 180, 24; total = 2*card_w+gap; x0,y0=(W-total)//2, 56
+    for i,(logo,name) in enumerate(logos):
+        x=x0+i*(card_w+gap)
+        card=Image.new("RGBA",(card_w,card_h),(26,35,50,235))
+        ImageDraw.Draw(card).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, outline=(45,58,79,255), width=2)
+        mask=Image.new("L",(card_w,card_h),0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
+        base.paste(card.convert("RGB"), (x,y0), mask)
+        paste_contain(base, logo, (x,y0+8,card_w,125), pad=16)
+        d=ImageDraw.Draw(base); f=font(FONT_B,14); bb=d.textbbox((0,0),name,font=f); tw=bb[2]-bb[0]
+        d.text((x+(card_w-tw)//2, y0+145), name, font=f, fill=WHITE)
+    label_chip(base, "Binance hack · laundering trail")
+    return base, {"kind":"composite","sources":[
+        {"file":"Binance_Logo.svg","license":"Logo","url":"https://commons.wikimedia.org/wiki/File:Binance_Logo.svg","credit":"Binance"},
+        {"file":"Circle_USDC_Logo.svg","license":"Logo","url":"https://commons.wikimedia.org/wiki/File:Circle_USDC_Logo.svg","credit":"Circle/USDC"},
+        {"file":"wallet-trail illustration","license":"PlainBTC original","url":"","credit":"PlainBTC"},
+    ],"note":"Editorial composite; trademarks belong to their owners."}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -358,6 +388,7 @@ BUILDERS = {
     "pnc-coinbase-usdc-payments-pilot-nov-2026": thumb_pnc_usdc,
     "us-midterms-crypto-regulation-etf-outflows": thumb_midterms,
     "how-to-buy-first-bitcoin-coinbase": thumb_howto,
+    "binance-hack-north-korea-memecoin-laundering-nov-2026": thumb_binance_hack,
 }
 
 def first_figure_source(slug: str) -> Path | None:

@@ -5,8 +5,15 @@
     <link>https://plainbtc.com/ko/</link>
     <description>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ko/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>북한, 바이낸스 해킹 64억 달러 세탁 위해 밈코인 직접 발행… 엘립틱 보고서</title>
+      <link>https://plainbtc.com/ko/articles/binance-hack-north-korea-memecoin-laundering-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/binance-hack-north-korea-memecoin-laundering-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 00:40:00 GMT</pubDate>
+      <description>엘립틱은 바이낸스에서 도난된 자금이 NEAR의 자체 제작 밈코인 6개를 거친 흔적을 추적했으며, 도난 자금 중 약 28.5억 달러는 여전히 동결돼 있다.</description>
+    </item>
     <item>
       <title>암호화폐 지갑이란? 수탁형과 자기 수탁형, 초보자를 위한 설명</title>
       <link>https://plainbtc.com/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody</link>

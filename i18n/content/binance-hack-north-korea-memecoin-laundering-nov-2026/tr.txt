@@ -1,0 +1,64 @@
+title: Elliptic: Kuzey Kore, Binance'ten çalınan 6,4 milyar doları aklamak için memecoin üretiyor
+page_title: Binance hack'i: Kuzey Kore fonları memecoin'lerle aklıyor
+description: Elliptic'e göre Kuzey Koreli aklayıcılar, Binance hack'inden yaklaşık 430.000 $'ı taşımak için NEAR üzerinde altı tek kullanımlık token oluşturdu. 6,4 milyar dolarda son durum.
+og_description: Altı tek kullanımlık token, yaklaşık 430.000 $ ve dondurulan 2,85 milyar dolar: Binance hack'indeki para izinde son durum.
+label: Güvenlik
+summary: Elliptic, Binance'ten çalınan fonları NEAR'daki altı ev yapımı memecoin üzerinden izledi; ganimetin yaklaşık 2,85 milyar doları ise dondurulmuş durumda.
+===
+
+Binance'ten çalınan parayı aklayanlar yeni bir yöntem buldu: kendi memecoin'lerini oluşturuyorlar. Blokzincir analiz şirketi <strong>Elliptic</strong>, [9 Kasım'da yayımladığı raporda](L1) Kuzey Kore bağlantılı aklayıcıların 5-7 Kasım arasında NEAR blokzincirinde en az <strong>altı tek kullanımlık token</strong> oluşturduğunu ve bunlarla yaklaşık <strong>117.000 NEAR</strong>, yani yaklaşık <strong>430.000 $</strong> değerinde fonu bir cüzdandan diğerine doğrudan göndermeden taşıdığını söyledi.
+
+Bu tutar, hırsızlığın büyüklüğü yanında çok küçük. Binance, saldırganların 29 Ekim'de cüzdan sistemlerine eriştiğinde yaklaşık 6,34 milyar dolarlık varlığın etkilendiğini söylüyor; Elliptic toplamı 6,43 milyar dolar olarak hesaplıyor ve bunu kayıtlardaki en büyük kripto hırsızlığı olarak nitelendiriyor. Ancak rapor, aklamanın nasıl evrildiğini ve araştırmacıların izin neden hâlâ zincir üzerinde görülebildiğini söylediğini gösteriyor.
+
+!figure:chart
+
+!takeaways
+- Elliptic'e göre Kuzey Kore'nin aklayıcıları NEAR'da altı memecoin oluşturdu ve bunlar üzerinden yaklaşık 430.000 $ çalıntı fon taşıdı.
+- Her token'ın oluşturulması yaklaşık 25 NEAR, yani kabaca 90 $ tuttu ve birkaç gün içinde terk edildi.
+- Çalınan varlıkların yaklaşık 2,85 milyar doları donduruldu veya durduruldu; 6 Kasım itibarıyla yaklaşık 3,11 milyar dolar hâlâ bağlantılı adreslerdeydi.
+- Circle, kolluk kuvvetleriyle koordineli olarak olayla bağlantılı yaklaşık 1,1 milyar dolarlık USDC'yi dondurduğunu söylüyor.
+
+## Memecoin hilesi nasıl işliyor
+
+Herkes yeni bir token çıkarabilir ve her gün binlercesi ortaya çıkıyor. Elliptic'e göre aklayıcılar bunu dört adımda kullandı. Herkese açık bir başlatma aracıyla token oluşturdular, bunu merkeziyetsiz bir borsadaki likidite havuzunda gerçek NEAR ile eşleştirdiler, bir grup cüzdandan çalıntı NEAR ile token'ı satın aldılar ve ardından ikinci bir grup cüzdandan aynı havuza geri satarak NEAR'ı topladılar.
+
+Havuz arada durduğu için çalıntı para hiçbir zaman alıcı cüzdandan toplayıcı cüzdana doğrudan geçmiyor. Dikkatsiz bir gözlemciye toplayıcı cüzdanlar, bir memecoin'i kârla satmış sıradan yatırımcılar gibi görünüyor. FUK, OLCCL, MEILI, MMLI, DABI ve SINU adlı altı token, gerçek memecoin kalabalığına karışmak için çizgi film tarzı logolar bile taşıyordu.
+
+Elliptic, üç işaretin onları ele verdiğini söyledi. Altı token'ın tüm satışlarını aklama ağındaki cüzdanlar yaptı, dışarıdan alıcı neredeyse hiç yoktu ve her havuza giren NEAR, çıkan NEAR ile örtüşüyordu. Token'ların hiçbiri 8 Kasım'dan beri işlem görmedi ve o gün öğleden sonra dördünün yaratıcıları havuzlarda kalan likiditeyi çekti.
+
+!mid_cta
+
+!figure:fact
+
+## Paranın geri kalanı nerede
+
+Bu yeni bir yöntem değil. Elliptic, ev yapımı token'ları ilk kez 2025'te Bybit'ten çalınan fonların aklanmasında gördüğünü, o dönemde Tron'da bu şekilde en az 24 milyon dolar taşındığını söyledi. Binance vakasında aynı yöntemi Tron ve NEAR'da, ayrıca Solana'da yakın bir varyantını tespit etti.
+
+Daha büyük akışlar başka yerde. The Block'un 6 Kasım'da aktardığı bir güncellemede Elliptic, saldırganların çalınan altcoin'lerin yaklaşık 124 milyon dolarlık kısmını, yani yaklaşık 1.650 BTC'yi bitcoin'e çevirdiğini; bunun için 16 blokzincirde 20.000'den fazla cüzdan ve yaklaşık 65.000 işlem kullandığını söyledi. Çalınan XRP'nin yaklaşık 50 milyon dolarlık kısmı çoğunlukla THORChain üzerinden takas edilmişti, yaklaşık 226 milyon dolar ise hâlâ bekliyordu. Elliptic, şu ana kadar muhtemelen yalnızca "ihmal edilebilir bir miktarın" nakde çevrildiğini tahmin etti.
+
+Stablecoin ihraççıları hızlı davrandı. Circle, [5 Kasım tarihli blog yazısında](L2) kolluk kuvvetleriyle koordineli olarak olayla ilişkili yaklaşık 1,1 milyar dolarlık USDC'yi dondurduğunu ve FBI'ın saldırıyı Kuzey Kore bağlantılı aktörlere atfettiğini söyledi. Circle, dondurmanın yalnızca token'ların hareket etmesini engellediğini, kime ait olduklarına mahkemelerin ve yetkililerin karar verdiğini vurguladı.
+
+## Bankalar ve Binance'in tepkisi
+
+Etkiler geleneksel finansa da ulaşıyor. The Paypers, konuya yakın kişilere dayanarak 9 Kasım'da, Federal Rezerv ve Office of the Comptroller of the Currency (OCC) denetçilerinin saldırının ardından sistemlerinde açık veya olağandışı faaliyet olup olmadığını sormak için bankalarla temasa geçtiğini bildirdi. Fed ve OCC yorum yapmadı.
+
+Binance'te ise eş CEO Yi He cumartesi günü, finans direktörü Kaiser Ng'nin yeni bir girişime yönelmek için ayrıldığını ve yerine daha önce Airwallex'te finans başkan yardımcısı olan Justin Yek'in geleceğini açıkladı. Yi He, geçiş planının hırsızlıktan önce, altı aydır uygulamada olduğunu söyledi.
+
+## Sıradan kullanıcılar için ne anlama geliyor
+
+Yeni başlayanlar için ders, Kuzey Kore'den çok temel dikkatle ilgili. Dışarıdan neredeyse hiç alıcısı olmayan yepyeni token'lar bir uyarı işaretidir ve Elliptic'in raporu, bir coin'in grafiğinin bir avuç cüzdanla üretilebileceğini hatırlatıyor. Bir şey almadan önce onu gerçekten başka kimlerin alıp sattığını sormaya değer.
+
+Rapor, hiçbir borsanın risksiz olmadığını da hatırlatıyor. Nereden alacağınızı seçerken borsanın güvenlik geçmişine bakın, güçlü iki faktörlü kimlik doğrulamayı açın ve uzun vadeli birikimlerinizin kendi kontrolünüzdeki bir cüzdanda durması gerekip gerekmediğini düşünün. Seçenekleri karşılaştırıyorsanız, [Coinbase](REF) birçok yeni başlayanın tercih ettiği düzenlemeye tabi bir borsadır; aşağıdaki rehberlerimiz artılarını ve eksilerini anlatıyor.
+
+## Bundan sonra neler izlenmeli
+
+- Saldırganların, Elliptic'in beklediği gibi, OTC aracılarla nakde çevirmeyi denemeden önce ether'i küçük partiler hâlinde bitcoin'e çevirmeye devam edip etmeyeceği.
+- Hırsızlık sonrası dondurulan USDC ve diğer token'larla ilgili olası yargı süreçleri.
+- ABD bankacılık düzenleyicilerinden olaydan etkilenme durumuna dair yeni bulgular.
+- Binance'in geri kazanılan fonlar ve yeniden açılan para çekme işlemleriyle ilgili sonraki güncellemeleri.
+
+!soft: Kriptoda yeni misiniz? [Emanetçi ve kendi saklamalı cüzdanlar](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) hakkındaki rehberimizi okuyun.
+
+!end_cta
+
+!disclosure

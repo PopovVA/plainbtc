@@ -1,0 +1,64 @@
+title: Nordkorea erstellt Memecoins, um den 6,4-Milliarden-Dollar-Hack bei Binance zu waschen, so Elliptic
+page_title: Binance-Hack: Nordkorea wäscht Gelder über Memecoins
+description: Laut Elliptic haben nordkoreanische Geldwäscher sechs Wegwerf-Token auf NEAR erstellt, um rund 430.000 $ aus dem Binance-Hack zu bewegen. So steht es um die 6,4 Milliarden.
+og_description: Sechs Wegwerf-Token, rund 430.000 $ bewegt und 2,85 Milliarden eingefroren: der neueste Stand zur Geldspur des Binance-Hacks.
+label: Sicherheit
+summary: Elliptic verfolgte gestohlene Binance-Gelder durch sechs selbst erstellte Memecoins auf NEAR, während rund 2,85 Milliarden Dollar der Beute eingefroren bleiben.
+===
+
+Wer das bei Binance gestohlene Geld wäscht, hat einen neuen Trick gefunden: eigene Memecoins. In einem [am 9. November veröffentlichten Bericht](L1) schreibt die Blockchain-Analysefirma <strong>Elliptic</strong>, dass mit Nordkorea verbundene Geldwäscher zwischen dem 5. und 7. November mindestens <strong>sechs Wegwerf-Token</strong> auf der NEAR-Blockchain erstellt und damit rund <strong>117.000 NEAR</strong> im Wert von etwa <strong>430.000 $</strong> bewegt haben, ohne Gelder direkt von einer Wallet zur nächsten zu schicken.
+
+Gemessen am Ausmaß des Diebstahls ist der Betrag winzig. Binance zufolge waren rund 6,34 Milliarden Dollar an Vermögenswerten betroffen, als Angreifer am 29. Oktober in die Wallet-Systeme der Börse gelangten; Elliptic beziffert die Summe auf 6,43 Milliarden und spricht vom größten Krypto-Diebstahl der Geschichte. Der Bericht zeigt aber, wie sich die Geldwäsche weiterentwickelt und warum Ermittler die Spur auf der Blockchain weiterhin sehen.
+
+!figure:chart
+
+!takeaways
+- Laut Elliptic haben Nordkoreas Geldwäscher sechs Memecoins auf NEAR erstellt und rund 430.000 $ gestohlener Gelder darüber bewegt.
+- Jeder Token kostete etwa 25 NEAR, also rund 90 $, und wurde nach wenigen Tagen aufgegeben.
+- Rund 2,85 Milliarden Dollar der gestohlenen Vermögenswerte wurden eingefroren oder abgefangen, während am 6. November noch etwa 3,11 Milliarden auf verknüpften Adressen lagen.
+- Circle hat nach eigenen Angaben in Abstimmung mit Strafverfolgungsbehörden rund 1,1 Milliarden Dollar in USDC eingefroren, die mit dem Vorfall in Verbindung stehen.
+
+## So funktioniert der Memecoin-Trick
+
+Jeder kann einen neuen Token starten, täglich erscheinen Tausende. Laut Elliptic nutzten die Geldwäscher das in vier Schritten. Sie erstellten einen Token mit einem öffentlichen Launch-Tool, paarten ihn in einem Liquiditätspool einer dezentralen Börse mit echten NEAR, kauften den Token mit gestohlenen NEAR über eine Gruppe von Wallets und verkauften ihn dann über eine zweite Gruppe zurück in denselben Pool, um die NEAR einzusammeln.
+
+Weil der Pool dazwischenliegt, fließt gestohlenes Geld nie direkt von einer Käufer-Wallet zu einer Empfänger-Wallet. Für einen flüchtigen Beobachter wirken die Empfänger-Wallets wie gewöhnliche Trader, die einen Memecoin mit Gewinn verkauft haben. Die sechs Token mit den Namen FUK, OLCCL, MEILI, MMLI, DABI und SINU trugen sogar Logos im Cartoon-Stil, um in der Flut echter Memecoins nicht aufzufallen.
+
+Elliptic zufolge verrieten drei Anzeichen die Token. Wallets aus dem Geldwäsche-Netzwerk tätigten sämtliche Verkäufe aller sechs Token, externe Käufer gab es so gut wie keine, und die NEAR, die in jeden Pool hineinflossen, entsprachen denen, die wieder herauskamen. Seit dem 8. November wurde keiner der Token mehr gehandelt, und an diesem Nachmittag zogen die Ersteller von vier Token die verbliebene Liquidität ab.
+
+!mid_cta
+
+!figure:fact
+
+## Wo der Rest des Geldes ist
+
+Neu ist die Masche nicht. Elliptic sah selbst erstellte Token nach eigenen Angaben erstmals bei der Wäsche der 2025 bei Bybit gestohlenen Gelder, als auf Tron mindestens 24 Millionen Dollar auf diese Weise bewegt wurden. Im Fall Binance entdeckte die Firma dieselbe Methode auf Tron und NEAR sowie eine eng verwandte Variante auf Solana.
+
+Die größeren Ströme laufen anderswo. In einem von The Block am 6. November gemeldeten Update erklärte Elliptic, die Angreifer hätten rund 124 Millionen Dollar an gestohlenen Altcoins in Bitcoin getauscht, etwa 1.650 BTC, und dabei mehr als 20.000 Wallets auf 16 Blockchains und rund 65.000 Transaktionen genutzt. Etwa 50 Millionen Dollar an gestohlenem XRP waren getauscht worden, überwiegend über THORChain, rund 226 Millionen warteten noch. Elliptic schätzte, dass bislang vermutlich nur ein „vernachlässigbarer Betrag“ ausgezahlt wurde.
+
+Stablecoin-Emittenten reagierten schnell. In einem [Blogbeitrag vom 5. November](L2) erklärte Circle, in Abstimmung mit Strafverfolgungsbehörden rund 1,1 Milliarden Dollar in USDC eingefroren zu haben, die mit dem Vorfall in Verbindung stehen, und dass das FBI den Angriff mit Nordkorea verbundenen Akteuren zuschreibt. Circle betonte, dass ein Einfrieren nur verhindert, dass Token bewegt werden; wem sie gehören, entscheiden Gerichte und Behörden.
+
+## Banken und Binance reagieren
+
+Die Folgen erreichen die klassische Finanzwelt. The Paypers berichtete am 9. November unter Berufung auf mit der Sache vertraute Personen, dass Aufseher der Federal Reserve und des Office of the Comptroller of the Currency (OCC) Banken kontaktiert hätten, um zu erfragen, ob ihre Systeme nach dem Angriff Schwachstellen oder ungewöhnliche Aktivitäten zeigten. Fed und OCC wollten sich nicht äußern.
+
+Bei Binance gab Co-CEO Yi He am Samstag bekannt, dass Finanzchef Kaiser Ng das Unternehmen für ein neues Vorhaben verlässt und durch Justin Yek ersetzt wird, zuvor Vice President Finance bei Airwallex. Yi He sagte, der Übergangsplan habe bereits seit sechs Monaten bestanden, also schon vor dem Diebstahl.
+
+## Was das für normale Nutzer bedeutet
+
+Für Einsteiger geht es weniger um Nordkorea als um grundlegende Vorsicht. Brandneue Token fast ohne externe Händler sind ein Warnsignal, und der Elliptic-Bericht erinnert daran, dass sich der Kursverlauf einer Kryptowährung mit einer Handvoll Wallets erzeugen lässt. Bevor Sie etwas kaufen, lohnt sich die Frage, wer es eigentlich sonst noch handelt.
+
+Er erinnert auch daran, dass keine Börse risikofrei ist. Wenn Sie entscheiden, wo Sie kaufen, prüfen Sie die Sicherheitsbilanz der Börse, aktivieren Sie eine starke Zwei-Faktor-Authentifizierung und überlegen Sie, ob langfristige Ersparnisse in eine Wallet gehören, die Sie selbst kontrollieren. Wenn Sie Optionen vergleichen: [Coinbase](REF) ist eine regulierte Börse, mit der viele Einsteiger beginnen, und unsere Ratgeber unten erklären die Vor- und Nachteile.
+
+## Worauf jetzt zu achten ist
+
+- Ob die Angreifer weiter Ether in kleinen Tranchen in Bitcoin tauschen, wie Elliptic erwartet, bevor sie über OTC-Broker auszuzahlen versuchen.
+- Gerichtliche Schritte zu den nach dem Diebstahl eingefrorenen USDC und anderen Token.
+- Weitere Erkenntnisse der US-Bankenaufsicht zur Betroffenheit durch den Vorfall.
+- Die nächsten Updates von Binance zu zurückgeholten Geldern und wieder geöffneten Auszahlungen.
+
+!soft: Neu bei Krypto? Lesen Sie unseren Ratgeber zu [verwahrten Wallets und Selbstverwahrung](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure
