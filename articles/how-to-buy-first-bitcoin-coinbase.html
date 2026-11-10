@@ -3,11 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
-  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS" href="../feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109g.css">
-  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="preload" href="/assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.68d4081cdd.css">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
+  <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS" href="/feed.xml">
   <title>How to buy your first Bitcoin on Coinbase | PlainBTC</title>
   <meta name="description" content="U.S. beginner guide: create a Coinbase account, verify identity, add a payment method, and buy your first Bitcoin step by step.">
   <link rel="canonical" href="https://plainbtc.com/articles/how-to-buy-first-bitcoin-coinbase">
@@ -19,39 +28,60 @@
   <meta property="og:locale" content="en_US">
   <meta property="article:published_time" content="2026-11-09">
   <meta property="og:image" content="https://plainbtc.com/assets/og/how-to-buy-first-bitcoin-coinbase.png">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="How to buy your first Bitcoin on Coinbase (U.S. beginner guide)">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
   <meta name="twitter:image" content="https://plainbtc.com/assets/og/how-to-buy-first-bitcoin-coinbase.png">
   <meta name="twitter:title" content="How to buy your first Bitcoin on Coinbase | PlainBTC">
   <meta name="twitter:description" content="U.S. beginner guide to buying Bitcoin on Coinbase without the jargon.">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "NewsArticle",
+    "@type": "Article",
     "headline": "How to buy your first Bitcoin on Coinbase (U.S. beginner guide)",
     "name": "How to buy your first Bitcoin on Coinbase | PlainBTC",
     "description": "U.S. beginner guide: create a Coinbase account, verify identity, add a payment method, and buy your first Bitcoin step by step.",
-    "datePublished": "2026-11-09",
-    "dateModified": "2026-11-09",
-    "author": { "@type": "Organization", "name": "PlainBTC" ,
-      "sameAs": ["https://discord.gg/EcuGXPDr2d", "https://www.facebook.com/groups/1688106109771364", "https://x.com/lean_redfield"]
-    },
-    "publisher": {
+    "datePublished": "2026-11-09T12:00:00+00:00",
+    "dateModified": "2026-11-09T12:00:00+00:00",
+    "author": {
       "@type": "Organization",
       "name": "PlainBTC",
       "url": "https://plainbtc.com/"
-    ,
-      "sameAs": ["https://discord.gg/EcuGXPDr2d", "https://www.facebook.com/groups/1688106109771364", "https://x.com/lean_redfield"]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://plainbtc.com/#organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://plainbtc.com/assets/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://discord.gg/EcuGXPDr2d",
+        "https://www.facebook.com/groups/1688106109771364",
+        "https://x.com/lean_redfield"
+      ]
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://plainbtc.com/articles/how-to-buy-first-bitcoin-coinbase"
     },
     "url": "https://plainbtc.com/articles/how-to-buy-first-bitcoin-coinbase",
-    "image": "https://plainbtc.com/assets/og/how-to-buy-first-bitcoin-coinbase.png",
-    "inLanguage": "en-US"
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/og/how-to-buy-first-bitcoin-coinbase.png",
+      "width": 1200,
+      "height": 630
+    },
+    "inLanguage": "en-US",
+    "articleSection": "Beginner guide",
+    "isAccessibleForFree": true
   }
   </script>
   <script type="application/ld+json">
@@ -59,8 +89,18 @@
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://plainbtc.com/" },
-      { "@type": "ListItem", "position": 2, "name": "How to buy your first Bitcoin on Coinbase (U.S. beginner guide)", "item": "https://plainbtc.com/articles/how-to-buy-first-bitcoin-coinbase" }
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://plainbtc.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How to buy your first Bitcoin on Coinbase (U.S. beginner guide)",
+        "item": "https://plainbtc.com/articles/how-to-buy-first-bitcoin-coinbase"
+      }
     ]
   }
   </script>
@@ -88,28 +128,47 @@
   <!-- /i18n:hreflang -->
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap inner">
-      <a class="logo" href="../index.html">Plain<span>BTC</span></a>
+      <a class="logo" href="/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Menu">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
       <nav class="nav" aria-label="Primary">
-        <a href="../index.html">Home</a>
-        <a href="../index.html#articles">Articles</a>
-        <a href="../about.html">About</a>
-        <a href="../disclosure.html">Disclosure</a>
+        <a href="/#articles">Articles</a>
+        <a href="/#guides">Guides</a>
+        <a href="/about">About</a>
+        <a href="/disclosure">Disclosure</a>
       </nav>
+      <div class="header-tools">
       <!-- i18n:langmenu -->
-      <details class="lang-menu"><summary aria-label="Language">🌐 English</summary><ul><li><a href="/articles/how-to-buy-first-bitcoin-coinbase" lang="en" hreflang="en" aria-current="true">English</a></li><li><a href="/es/articles/how-to-buy-first-bitcoin-coinbase" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/how-to-buy-first-bitcoin-coinbase" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/how-to-buy-first-bitcoin-coinbase" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/how-to-buy-first-bitcoin-coinbase" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/how-to-buy-first-bitcoin-coinbase" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/how-to-buy-first-bitcoin-coinbase" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/how-to-buy-first-bitcoin-coinbase" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/how-to-buy-first-bitcoin-coinbase" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/how-to-buy-first-bitcoin-coinbase" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <details class="lang-menu"><summary aria-label="Language"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">English</span><span class="lang-code" aria-hidden="true">EN</span></summary><ul><li><a href="/articles/how-to-buy-first-bitcoin-coinbase" lang="en" hreflang="en" aria-current="true">English</a></li><li><a href="/es/articles/how-to-buy-first-bitcoin-coinbase" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/how-to-buy-first-bitcoin-coinbase" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/how-to-buy-first-bitcoin-coinbase" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/how-to-buy-first-bitcoin-coinbase" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/how-to-buy-first-bitcoin-coinbase" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/how-to-buy-first-bitcoin-coinbase" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/how-to-buy-first-bitcoin-coinbase" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/how-to-buy-first-bitcoin-coinbase" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/how-to-buy-first-bitcoin-coinbase" lang="ko" hreflang="ko">한국어</a></li></ul></details>
       <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="Switch between light and dark theme" title="Switch between light and dark theme" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
     </div>
   </header>
 
-  <main class="article-page">
+  <main class="article-page" id="main" data-toc="On this page" data-nl="Get new articles by email" data-nl-cta="Subscribe" data-close="Close">
     <article class="content">
-      <a class="back" href="../index.html">← All articles</a>
-      <div class="badge">Beginner guide</div>
-      <h1>How to buy your first Bitcoin on Coinbase (U.S. beginner guide)</h1>
-      <div class="meta">Published Nov 9, 2026 · PlainBTC · United States</div>
-      <img class="og-hero" src="../assets/og/how-to-buy-first-bitcoin-coinbase.png" width="1200" height="630" alt="How to buy your first Bitcoin on Coinbase (U.S. beginner guide)" loading="eager">
+      <!-- i18n:arthead -->
+      <header class="article-head">
+        <!-- i18n:crumbs -->
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/#articles">Articles</a></nav>
+        <!-- /i18n:crumbs -->
+        <div class="badge">Beginner guide</div>
+        <h1>How to buy your first Bitcoin on Coinbase (U.S. beginner guide)</h1>
+        <div class="meta">Published <time datetime="2026-11-09">Nov 9, 2026</time> · PlainBTC · United States<span class="meta-read"> · ~8 min</span></div>
+        <div class="share" role="group" aria-label="Share">
+          <span class="share-label">Share</span>
+          <a class="share-btn" href="https://x.com/intent/post?url=https%3A%2F%2Fplainbtc.com%2Farticles%2Fhow-to-buy-first-bitcoin-coinbase%3Futm_source%3Dx%26utm_medium%3Dsocial&amp;text=How%20to%20buy%20your%20first%20Bitcoin%20on%20Coinbase%20%28U.S.%20beginner%20guide%29" target="_blank" rel="noopener nofollow" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplainbtc.com%2Farticles%2Fhow-to-buy-first-bitcoin-coinbase%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noopener nofollow" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+          <button class="share-btn share-copy" type="button" data-url="https://plainbtc.com/articles/how-to-buy-first-bitcoin-coinbase" data-copied="Link copied" aria-label="Copy link" title="Copy link" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/><path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg></button>
+          <span class="share-status" role="status" aria-live="polite"></span>
+        </div>
+      </header>
+      <img class="og-hero" src="/assets/og/how-to-buy-first-bitcoin-coinbase.png" width="1200" height="630" alt="How to buy your first Bitcoin on Coinbase (U.S. beginner guide)" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->
 
       <p>
         Buying bitcoin for the first time does not have to feel like learning a new language.
@@ -128,7 +187,6 @@
         <img src="/assets/img/how-to-buy-first-bitcoin-coinbase/chart-btc-context.webp" width="1200" height="675" alt="Line chart of bitcoin’s 90-day price used as market context for first-time buyers" loading="lazy">
         <figcaption>Chart: PlainBTC, data: CoinGecko</figcaption>
       </figure>
-
 
       <h2>1. Create your Coinbase account</h2>
       <p>
@@ -158,7 +216,6 @@
         common reasons first-time verifications get delayed.
       </p>
 
-
       <aside class="mid-cta" data-partner-cta="coinbase" aria-label="Affiliate offer">
         <div class="mid-cta-label">Affiliate link</div>
         <h2>New to crypto? Start on Coinbase</h2>
@@ -170,7 +227,6 @@
         <img src="/assets/img/how-to-buy-first-bitcoin-coinbase/fact-5-steps.webp" width="1200" height="630" alt="Fact card summarizing the six beginner steps to buy bitcoin on Coinbase" loading="lazy">
         <figcaption>Source: Coinbase help documentation (as cited in guide)</figcaption>
       </figure>
-
 
       <h2>3. Add a payment method</h2>
       <p>
@@ -232,8 +288,7 @@
         a recent 24-hour stretch.
       </p>
 
-
-      <p class="soft-guide">Want market context first? See today’s <a href="bitcoin-loses-50-week-moving-average-nov-2026.html">recap of bitcoin’s 50-week moving average break</a>.</p>
+      <p class="soft-guide">Want market context first? See today’s <a href="/articles/bitcoin-loses-50-week-moving-average-nov-2026">recap of bitcoin’s 50-week moving average break</a>.</p>
       <div class="cta" data-partner-cta="coinbase">
         <h2>Start on Coinbase with this referral link</h2>
         <p>
@@ -248,7 +303,7 @@
       <div class="disclosure">
         <strong>Disclosure:</strong> This post contains a referral link. If you sign up and complete
         a qualifying purchase through it, PlainBTC may earn a referral reward from Coinbase
-        at no extra cost to you. Offer for new U.S. customers; not available in Washington state. See our <a href="../disclosure.html">full affiliate disclosure</a>.
+        at no extra cost to you. Offer for new U.S. customers; not available in Washington state. See our <a href="/disclosure">full affiliate disclosure</a>.
         <br><br>
         <strong>Not financial advice.</strong> This guide is educational only. It is not
         investment, trading, legal, or tax advice. Cryptocurrency is volatile and you can lose
@@ -289,10 +344,6 @@
         </ul>
       </aside>
 
-
-
-
-
       <section class="sources" aria-label="Sources">
         <h2>Sources</h2>
         <ol>
@@ -307,13 +358,17 @@
   </main>
 
   <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
     <div class="wrap inner">
-      <div>© 2026 PlainBTC · plain-English Bitcoin &amp; crypto news for beginners</div>
+      <div class="footer-brand">
+        <a class="logo" href="/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · plain-English Bitcoin &amp; crypto news for beginners</p>
+      </div>
       <nav class="footer-nav" aria-label="Footer">
-        <a href="../index.html">Home</a>
-        <a href="../about.html">About</a>
-        <a href="../disclosure.html">Disclosure</a>
-        <a href="../feed.xml">RSS</a>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/disclosure">Disclosure</a>
+        <a href="/feed.xml">RSS</a>
       </nav>
     </div>
   <!-- i18n:footersocial -->
@@ -322,7 +377,8 @@
   <!-- i18n:footerlangs -->
   <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/how-to-buy-first-bitcoin-coinbase" lang="en" hreflang="en">English</a> <a href="/es/articles/how-to-buy-first-bitcoin-coinbase" lang="es" hreflang="es">Español</a> <a href="/pt/articles/how-to-buy-first-bitcoin-coinbase" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/how-to-buy-first-bitcoin-coinbase" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/how-to-buy-first-bitcoin-coinbase" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/how-to-buy-first-bitcoin-coinbase" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/how-to-buy-first-bitcoin-coinbase" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/how-to-buy-first-bitcoin-coinbase" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/how-to-buy-first-bitcoin-coinbase" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/how-to-buy-first-bitcoin-coinbase" lang="ko" hreflang="ko">한국어</a></nav></div>
   <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a></div>
   </footer>
-  <script src="/assets/site.20261109i.js" defer></script>
+  <script src="/assets/site.7c90358c6e.js" defer></script>
 </body>
 </html>

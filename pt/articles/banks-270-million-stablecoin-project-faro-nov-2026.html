@@ -3,11 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="preload" href="/assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.68d4081cdd.css">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (Português (BR))" href="/pt/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109g.css">
-  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
   <title>Bancos comprometem US$ 270 milhões com stablecoin conjunta | PlainBTC</title>
   <meta name="description" content="Goldman Sachs, Citi, Santander, Deutsche Bank e outros comprometeram cerca de US$ 270 milhões com o Project Faro, uma stablecoin em dólar administrada por bancos com lançamento previsto para 2027, segundo a Bloomberg.">
   <link rel="canonical" href="https://plainbtc.com/pt/articles/banks-270-million-stablecoin-project-faro-nov-2026">
@@ -40,11 +49,15 @@
   <meta property="og:site_name" content="PlainBTC">
   <meta property="og:locale" content="pt_BR">
   <meta property="article:published_time" content="2026-11-10">
+  <meta property="article:modified_time" content="2026-11-10">
+  <meta property="article:section" content="Negócios">
   <meta property="og:image" content="https://plainbtc.com/assets/og/banks-270-million-stablecoin-project-faro-nov-2026.png">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Goldman Sachs, Citi e outros bancos comprometem cerca de US$ 270 milhões com uma stablecoin conjunta em dólar, diz Bloomberg">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
   <meta name="twitter:image" content="https://plainbtc.com/assets/og/banks-270-million-stablecoin-project-faro-nov-2026.png">
   <meta name="twitter:title" content="Goldman Sachs, Citi e outros bancos comprometem cerca de US$ 270 milhões com uma stablecoin conjunta em dólar, diz Bloomberg">
   <meta name="twitter:description" content="Um grupo de 21 instituições financia cinco anos de uma emissora de stablecoin sediada nos EUA. Tether e Circle detêm hoje cerca de 84% do mercado de stablecoins em dólar, de US$ 293 bilhões.">
@@ -55,16 +68,24 @@
     "headline": "Goldman Sachs, Citi e outros bancos comprometem cerca de US$ 270 milhões com uma stablecoin conjunta em dólar, diz Bloomberg",
     "name": "Bancos comprometem US$ 270 milhões com stablecoin conjunta | PlainBTC",
     "description": "Goldman Sachs, Citi, Santander, Deutsche Bank e outros comprometeram cerca de US$ 270 milhões com o Project Faro, uma stablecoin em dólar administrada por bancos com lançamento previsto para 2027, segundo a Bloomberg.",
-    "datePublished": "2026-11-10",
-    "dateModified": "2026-11-10",
+    "datePublished": "2026-11-10T19:35:00+00:00",
+    "dateModified": "2026-11-10T19:35:00+00:00",
     "author": {
       "@type": "Organization",
-      "name": "PlainBTC"
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/"
     },
     "publisher": {
       "@type": "Organization",
+      "@id": "https://plainbtc.com/#organization",
       "name": "PlainBTC",
       "url": "https://plainbtc.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://plainbtc.com/assets/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
       "sameAs": [
         "https://discord.gg/EcuGXPDr2d",
         "https://www.facebook.com/groups/1688106109771364",
@@ -76,7 +97,14 @@
       "@id": "https://plainbtc.com/pt/articles/banks-270-million-stablecoin-project-faro-nov-2026"
     },
     "url": "https://plainbtc.com/pt/articles/banks-270-million-stablecoin-project-faro-nov-2026",
-    "image": "https://plainbtc.com/assets/og/banks-270-million-stablecoin-project-faro-nov-2026.png",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/og/banks-270-million-stablecoin-project-faro-nov-2026.png",
+      "width": 1200,
+      "height": 630
+    },
+    "articleSection": "Negócios",
+    "isAccessibleForFree": true,
     "inLanguage": "pt-BR"
   }
   </script>
@@ -102,28 +130,47 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
   <header class="site-header">
     <div class="wrap inner">
-      <a class="logo" href="/pt/">Plain<span>BTC</span></a>
+      <a class="logo" href="/pt/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Menu">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
       <nav class="nav" aria-label="Primary">
-        <a href="/pt/">Início</a>
         <a href="/pt/#articles">Artigos</a>
+        <a href="/pt/#guides">Guias</a>
         <a href="/pt/about">Sobre</a>
         <a href="/pt/disclosure">Divulgação</a>
       </nav>
+      <div class="header-tools">
       <!-- i18n:langmenu -->
-      <details class="lang-menu"><summary aria-label="Idioma">🌐 Português (BR)</summary><ul><li><a href="/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="pt-BR" hreflang="pt-BR" aria-current="true">Português (BR)</a></li><li><a href="/fr/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <details class="lang-menu"><summary aria-label="Idioma"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">Português (BR)</span><span class="lang-code" aria-hidden="true">PT</span></summary><ul><li><a href="/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="pt-BR" hreflang="pt-BR" aria-current="true">Português (BR)</a></li><li><a href="/fr/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="ko" hreflang="ko">한국어</a></li></ul></details>
       <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="Alternar entre tema claro e escuro" title="Alternar entre tema claro e escuro" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
     </div>
   </header>
 
-  <main class="article-page">
+  <main class="article-page" id="main" data-toc="Nesta página" data-nl="Receba novos artigos por e-mail" data-nl-cta="Inscrever-se" data-close="Fechar">
     <article class="content">
-      <a class="back" href="/pt/">← Todos os artigos</a>
-      <div class="badge">Negócios</div>
-      <h1>Goldman Sachs, Citi e outros bancos comprometem cerca de US$ 270 milhões com uma stablecoin conjunta em dólar, diz Bloomberg</h1>
-      <div class="meta">Publicado em 10 de novembro de 2026 · PlainBTC · Estados Unidos</div>
-      <img class="og-hero" src="/assets/og/banks-270-million-stablecoin-project-faro-nov-2026.png" width="1200" height="630" alt="Goldman Sachs, Citi e outros bancos comprometem cerca de US$ 270 milhões com uma stablecoin conjunta em dólar, diz Bloomberg" loading="eager">
+      <!-- i18n:arthead -->
+      <header class="article-head">
+        <!-- i18n:crumbs -->
+        <nav class="crumbs" aria-label="Trilha de navegação"><a href="/pt/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/pt/#articles">Artigos</a></nav>
+        <!-- /i18n:crumbs -->
+        <div class="badge">Negócios</div>
+        <h1>Goldman Sachs, Citi e outros bancos comprometem cerca de US$ 270 milhões com uma stablecoin conjunta em dólar, diz Bloomberg</h1>
+        <div class="meta">Publicado em <time datetime="2026-11-10">10 de novembro de 2026</time> · PlainBTC · Estados Unidos<span class="meta-read"> · ~4 min de leitura</span></div>
+        <div class="share" role="group" aria-label="Compartilhar">
+          <span class="share-label">Compartilhar</span>
+          <a class="share-btn" href="https://x.com/intent/post?url=https%3A%2F%2Fplainbtc.com%2Fpt%2Farticles%2Fbanks-270-million-stablecoin-project-faro-nov-2026%3Futm_source%3Dx%26utm_medium%3Dsocial&amp;text=Goldman%20Sachs%2C%20Citi%20e%20outros%20bancos%20comprometem%20cerca%20de%20US%24%20270%20milh%C3%B5es%20com%20uma%20stablecoin%20conjunta%20em%20d%C3%B3lar%2C%20diz%20Bloomberg" target="_blank" rel="noopener nofollow" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplainbtc.com%2Fpt%2Farticles%2Fbanks-270-million-stablecoin-project-faro-nov-2026%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noopener nofollow" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+          <button class="share-btn share-copy" type="button" data-url="https://plainbtc.com/pt/articles/banks-270-million-stablecoin-project-faro-nov-2026" data-copied="Link copiado" aria-label="Copiar link" title="Copiar link" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/><path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg></button>
+          <span class="share-status" role="status" aria-live="polite"></span>
+        </div>
+      </header>
+      <img class="og-hero" src="/assets/og/banks-270-million-stablecoin-project-faro-nov-2026.png" width="1200" height="630" alt="Goldman Sachs, Citi e outros bancos comprometem cerca de US$ 270 milhões com uma stablecoin conjunta em dólar, diz Bloomberg" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->
 
       <p>Alguns dos maiores bancos do mundo estão colocando dinheiro de verdade no seu próprio dólar digital. Goldman Sachs, Citigroup, Banco Santander, Deutsche Bank e outras empresas financeiras comprometeram cerca de <strong>US$ 270 milhões</strong> com uma empresa conjunta de stablecoin, informou a <a href="https://news.bloomberglaw.com/banking-law/goldman-citi-among-banks-in-270-million-stablecoin-backing" target="_blank" rel="noopener">Bloomberg</a> na terça-feira, 10 de novembro, citando pessoas a par do assunto.</p>
       <p>Segundo a reportagem, o dinheiro deve cobrir <strong>cinco anos</strong> de custos operacionais de uma nova empresa que vai emitir uma stablecoin em dólar e deve ser constituída nos Estados Unidos. O projeto é chamado internamente de Project Faro, ainda não tem nome oficial e continua procurando um CEO. O CoinDesk disse que os bancos participantes não responderam de imediato aos pedidos de comentário.</p>
@@ -145,7 +192,7 @@
       <p>O grupo disse que a moeda vai começar em dólar americano, com um plano de longo prazo de adicionar stablecoins em outras moedas do G7 e uma versão em euro como prioridade. A ideia é usá-la nos mercados de atacado, institucional e varejo, incluindo pagamentos internacionais e liquidação de negociações com ativos digitais. Os bancos disseram que pretendem cumprir o GENIUS Act, a lei federal americana de stablecoins aprovada em 2025, e as regras europeias do MiCA, quando aplicáveis.</p>
 
       <figure class="article-figure">
-        <img src="/assets/img/banks-270-million-stablecoin-project-faro-nov-2026/chart-usd-stablecoin-supply.webp" width="1200" height="675" alt="Gráfico de barras das stablecoins em dólar em circulação em 10 de novembro de 2026: USDT US$ 176,3 bi, USDC US$ 70,1 bi, USDS US$ 5,3 bi, USDe US$ 4,9 bi, DAI US$ 4,7 bi e as demais US$ 32,1 bi; total de cerca de US$ 293,4 bi" loading="lazy">
+        <img src="/assets/img/banks-270-million-stablecoin-project-faro-nov-2026/chart-usd-stablecoin-supply.webp" width="1200" height="675" alt="Gráfico de barras das stablecoins em dólar em circulação em 10 de novembro de 2026: USDT US$ 176,3 bi, USDC US$ 70,1 bi, USDS US$ 5,3 bi, USDe US$ 4,9 bi, DAI US$ 4,7 bi e as demais US$ 32,1 bi; total de cerca de US$ 293,4 bi" loading="lazy" decoding="async">
         <figcaption>Gráfico: PlainBTC, dados: DefiLlama</figcaption>
       </figure>
 
@@ -163,7 +210,7 @@
       <p>Os bancos não são os únicos grandes nomes tentando entrar. O <a href="https://www.coindesk.com/business/2026/11/10/goldman-sachs-citi-among-banks-said-to-commit-usd270-million-to-stablecoin-venture" target="_blank" rel="noopener">CoinDesk</a> lembrou que mais de 140 empresas, entre elas Stripe, Visa, Mastercard e BlackRock, se uniram em junho em outro projeto de stablecoin em dólar. Os bancos esperam que seus clientes e redes de pagamento atuais lhes deem vantagem.</p>
 
       <figure class="article-figure">
-        <img src="/assets/img/banks-270-million-stablecoin-project-faro-nov-2026/fact-faro-270m.webp" width="1200" height="630" alt="Cartão: cerca de US$ 270 milhões comprometidos por Goldman Sachs, Citi, Santander, Deutsche Bank e outras empresas para financiar cinco anos de operação da empresa de stablecoin" loading="lazy">
+        <img src="/assets/img/banks-270-million-stablecoin-project-faro-nov-2026/fact-faro-270m.webp" width="1200" height="630" alt="Cartão: cerca de US$ 270 milhões comprometidos por Goldman Sachs, Citi, Santander, Deutsche Bank e outras empresas para financiar cinco anos de operação da empresa de stablecoin" loading="lazy" decoding="async">
         <figcaption>Fonte: Bloomberg via CoinDesk</figcaption>
       </figure>
 
@@ -237,8 +284,12 @@
   </main>
 
   <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
     <div class="wrap inner">
-      <div>© 2026 PlainBTC · notícias de Bitcoin e criptomoedas em linguagem simples para iniciantes</div>
+      <div class="footer-brand">
+        <a class="logo" href="/pt/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · notícias de Bitcoin e criptomoedas em linguagem simples para iniciantes</p>
+      </div>
       <nav class="footer-nav" aria-label="Footer">
         <a href="/pt/">Início</a>
         <a href="/pt/about">Sobre</a>
@@ -252,7 +303,8 @@
   <!-- i18n:footerlangs -->
   <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="en" hreflang="en">English</a> <a href="/es/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="es" hreflang="es">Español</a> <a href="/pt/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/banks-270-million-stablecoin-project-faro-nov-2026" lang="ko" hreflang="ko">한국어</a></nav></div>
   <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">Voltar ao topo <span aria-hidden="true">↑</span></a></div>
   </footer>
-  <script src="/assets/site.20261109i.js" defer></script>
+  <script src="/assets/site.7c90358c6e.js" defer></script>
 </body>
 </html>

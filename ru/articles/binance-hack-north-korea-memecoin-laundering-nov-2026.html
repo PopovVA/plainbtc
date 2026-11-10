@@ -3,11 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="preload" href="/assets/fonts/source-serif-4-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.68d4081cdd.css">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (Русский)" href="/ru/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109g.css">
-  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
   <title>Взлом Binance: Северная Корея отмывает деньги через мемкоины | PlainBTC</title>
   <meta name="description" content="По данным Elliptic, северокорейские отмывщики создали шесть одноразовых токенов в сети NEAR и провели через них около $430 000 из взлома Binance. Что сейчас с $6,4 млрд.">
   <link rel="canonical" href="https://plainbtc.com/ru/articles/binance-hack-north-korea-memecoin-laundering-nov-2026">
@@ -40,11 +50,15 @@
   <meta property="og:site_name" content="PlainBTC">
   <meta property="og:locale" content="ru_RU">
   <meta property="article:published_time" content="2026-11-09">
+  <meta property="article:modified_time" content="2026-11-09">
+  <meta property="article:section" content="Безопасность">
   <meta property="og:image" content="https://plainbtc.com/assets/og/binance-hack-north-korea-memecoin-laundering-nov-2026.png">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Северная Корея выпускает мемкоины, чтобы отмыть $6,4 млрд, украденные у Binance, — Elliptic">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
   <meta name="twitter:image" content="https://plainbtc.com/assets/og/binance-hack-north-korea-memecoin-laundering-nov-2026.png">
   <meta name="twitter:title" content="Северная Корея выпускает мемкоины, чтобы отмыть $6,4 млрд, украденные у Binance, — Elliptic">
   <meta name="twitter:description" content="Шесть одноразовых токенов, около $430 000 и $2,85 млрд замороженных средств: свежие данные о следе денег после взлома Binance.">
@@ -55,16 +69,24 @@
     "headline": "Северная Корея выпускает мемкоины, чтобы отмыть $6,4 млрд, украденные у Binance, — Elliptic",
     "name": "Взлом Binance: Северная Корея отмывает деньги через мемкоины | PlainBTC",
     "description": "По данным Elliptic, северокорейские отмывщики создали шесть одноразовых токенов в сети NEAR и провели через них около $430 000 из взлома Binance. Что сейчас с $6,4 млрд.",
-    "datePublished": "2026-11-09",
-    "dateModified": "2026-11-09",
+    "datePublished": "2026-11-10T00:40:00+00:00",
+    "dateModified": "2026-11-10T00:40:00+00:00",
     "author": {
       "@type": "Organization",
-      "name": "PlainBTC"
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/"
     },
     "publisher": {
       "@type": "Organization",
+      "@id": "https://plainbtc.com/#organization",
       "name": "PlainBTC",
       "url": "https://plainbtc.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://plainbtc.com/assets/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
       "sameAs": [
         "https://discord.gg/EcuGXPDr2d",
         "https://www.facebook.com/groups/1688106109771364",
@@ -76,7 +98,14 @@
       "@id": "https://plainbtc.com/ru/articles/binance-hack-north-korea-memecoin-laundering-nov-2026"
     },
     "url": "https://plainbtc.com/ru/articles/binance-hack-north-korea-memecoin-laundering-nov-2026",
-    "image": "https://plainbtc.com/assets/og/binance-hack-north-korea-memecoin-laundering-nov-2026.png",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/og/binance-hack-north-korea-memecoin-laundering-nov-2026.png",
+      "width": 1200,
+      "height": 630
+    },
+    "articleSection": "Безопасность",
+    "isAccessibleForFree": true,
     "inLanguage": "ru"
   }
   </script>
@@ -102,34 +131,53 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
   <header class="site-header">
     <div class="wrap inner">
-      <a class="logo" href="/ru/">Plain<span>BTC</span></a>
+      <a class="logo" href="/ru/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Меню">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
       <nav class="nav" aria-label="Primary">
-        <a href="/ru/">Главная</a>
         <a href="/ru/#articles">Статьи</a>
+        <a href="/ru/#guides">Руководства</a>
         <a href="/ru/about">О сайте</a>
         <a href="/ru/disclosure">Раскрытие информации</a>
       </nav>
+      <div class="header-tools">
       <!-- i18n:langmenu -->
-      <details class="lang-menu"><summary aria-label="Язык">🌐 Русский</summary><ul><li><a href="/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="ru" hreflang="ru" aria-current="true">Русский</a></li><li><a href="/tr/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <details class="lang-menu"><summary aria-label="Язык"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">Русский</span><span class="lang-code" aria-hidden="true">RU</span></summary><ul><li><a href="/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="ru" hreflang="ru" aria-current="true">Русский</a></li><li><a href="/tr/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="ko" hreflang="ko">한국어</a></li></ul></details>
       <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="Переключить светлую и тёмную тему" title="Переключить светлую и тёмную тему" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
     </div>
   </header>
 
-  <main class="article-page">
+  <main class="article-page" id="main" data-toc="На этой странице" data-nl="Новые статьи на почту" data-nl-cta="Подписаться" data-close="Закрыть">
     <article class="content">
-      <a class="back" href="/ru/">← Все статьи</a>
-      <div class="badge">Безопасность</div>
-      <h1>Северная Корея выпускает мемкоины, чтобы отмыть $6,4 млрд, украденные у Binance, — Elliptic</h1>
-      <div class="meta">Опубликовано 9 ноября 2026 г. · PlainBTC · США</div>
-      <img class="og-hero" src="/assets/og/binance-hack-north-korea-memecoin-laundering-nov-2026.png" width="1200" height="630" alt="Северная Корея выпускает мемкоины, чтобы отмыть $6,4 млрд, украденные у Binance, — Elliptic" loading="eager">
+      <!-- i18n:arthead -->
+      <header class="article-head">
+        <!-- i18n:crumbs -->
+        <nav class="crumbs" aria-label="Навигационная цепочка"><a href="/ru/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/ru/#articles">Статьи</a></nav>
+        <!-- /i18n:crumbs -->
+        <div class="badge">Безопасность</div>
+        <h1>Северная Корея выпускает мемкоины, чтобы отмыть $6,4 млрд, украденные у Binance, — Elliptic</h1>
+        <div class="meta">Опубликовано <time datetime="2026-11-09">9 ноября 2026 г.</time> · PlainBTC · США<span class="meta-read"> · ~6 мин чтения</span></div>
+        <div class="share" role="group" aria-label="Поделиться">
+          <span class="share-label">Поделиться</span>
+          <a class="share-btn" href="https://x.com/intent/post?url=https%3A%2F%2Fplainbtc.com%2Fru%2Farticles%2Fbinance-hack-north-korea-memecoin-laundering-nov-2026%3Futm_source%3Dx%26utm_medium%3Dsocial&amp;text=%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F%20%D0%9A%D0%BE%D1%80%D0%B5%D1%8F%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B0%D0%B5%D1%82%20%D0%BC%D0%B5%D0%BC%D0%BA%D0%BE%D0%B8%D0%BD%D1%8B%2C%20%D1%87%D1%82%D0%BE%D0%B1%D1%8B%20%D0%BE%D1%82%D0%BC%D1%8B%D1%82%D1%8C%20%246%2C4%20%D0%BC%D0%BB%D1%80%D0%B4%2C%20%D1%83%D0%BA%D1%80%D0%B0%D0%B4%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%83%20Binance%2C%20%E2%80%94%20Elliptic" target="_blank" rel="noopener nofollow" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplainbtc.com%2Fru%2Farticles%2Fbinance-hack-north-korea-memecoin-laundering-nov-2026%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noopener nofollow" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+          <button class="share-btn share-copy" type="button" data-url="https://plainbtc.com/ru/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" data-copied="Ссылка скопирована" aria-label="Скопировать ссылку" title="Скопировать ссылку" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/><path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg></button>
+          <span class="share-status" role="status" aria-live="polite"></span>
+        </div>
+      </header>
+      <img class="og-hero" src="/assets/og/binance-hack-north-korea-memecoin-laundering-nov-2026.png" width="1200" height="630" alt="Северная Корея выпускает мемкоины, чтобы отмыть $6,4 млрд, украденные у Binance, — Elliptic" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->
 
       <p>Те, кто отмывает деньги, украденные у Binance, нашли новый приём: они выпускают собственные мемкоины. В <a href="https://www.elliptic.co/insights/north-korea-meme-coins-binance-hack/" target="_blank" rel="noopener">отчёте от 9 ноября</a> аналитическая компания <strong>Elliptic</strong> сообщила, что связанные с Северной Кореей отмывщики с 5 по 7 ноября создали в блокчейне NEAR как минимум <strong>шесть одноразовых токенов</strong> и провели через них около <strong>117 000 NEAR</strong>, или примерно <strong>$430 000</strong>, не отправляя средства напрямую с одного кошелька на другой.</p>
       <p>На фоне масштаба кражи это крошечная сумма. По словам Binance, 29 октября, когда злоумышленники добрались до её систем кошельков, пострадали активы примерно на $6,34 млрд; Elliptic оценивает общий объём в $6,43 млрд и называет это крупнейшей кражей криптовалюты в истории. Но отчёт показывает, как меняются схемы отмывания и почему следователи говорят, что след по-прежнему виден в блокчейне.</p>
 
       <figure class="article-figure">
-        <img src="/assets/img/binance-hack-north-korea-memecoin-laundering-nov-2026/chart-binance-hack-funds.webp" width="1200" height="675" alt="Диаграмма: у Binance украдено $6,43 млрд, заморожено или перехвачено $2,85 млрд, $3,11 млрд всё ещё на связанных адресах" loading="lazy">
+        <img src="/assets/img/binance-hack-north-korea-memecoin-laundering-nov-2026/chart-binance-hack-funds.webp" width="1200" height="675" alt="Диаграмма: у Binance украдено $6,43 млрд, заморожено или перехвачено $2,85 млрд, $3,11 млрд всё ещё на связанных адресах" loading="lazy" decoding="async">
         <figcaption>График: PlainBTC, данные: Elliptic via The Block, Nov 6, 2026</figcaption>
       </figure>
 
@@ -149,7 +197,7 @@
       <p>Elliptic называет три признака, которые их выдали. Все продажи всех шести токенов совершили кошельки из сети отмывания, сторонних покупателей почти не было, а количество NEAR, вошедших в каждый пул, совпало с вышедшим. С 8 ноября ни один из токенов не торговался, а днём создатели четырёх из них вывели оставшуюся ликвидность.</p>
 
       <figure class="article-figure">
-        <img src="/assets/img/binance-hack-north-korea-memecoin-laundering-nov-2026/fact-near-memecoins.webp" width="1200" height="630" alt="Карточка: около $430 000 украденных NEAR прошли через шесть самодельных мемкоинов" loading="lazy">
+        <img src="/assets/img/binance-hack-north-korea-memecoin-laundering-nov-2026/fact-near-memecoins.webp" width="1200" height="630" alt="Карточка: около $430 000 украденных NEAR прошли через шесть самодельных мемкоинов" loading="lazy" decoding="async">
         <figcaption>Источник: Elliptic</figcaption>
       </figure>
 
@@ -230,8 +278,12 @@
   </main>
 
   <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
     <div class="wrap inner">
-      <div>© 2026 PlainBTC · новости о биткоине и криптовалютах простым языком для новичков</div>
+      <div class="footer-brand">
+        <a class="logo" href="/ru/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · новости о биткоине и криптовалютах простым языком для новичков</p>
+      </div>
       <nav class="footer-nav" aria-label="Footer">
         <a href="/ru/">Главная</a>
         <a href="/ru/about">О сайте</a>
@@ -245,7 +297,8 @@
   <!-- i18n:footerlangs -->
   <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="en" hreflang="en">English</a> <a href="/es/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="es" hreflang="es">Español</a> <a href="/pt/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" lang="ko" hreflang="ko">한국어</a></nav></div>
   <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">Наверх <span aria-hidden="true">↑</span></a></div>
   </footer>
-  <script src="/assets/site.20261109i.js" defer></script>
+  <script src="/assets/site.7c90358c6e.js" defer></script>
 </body>
 </html>

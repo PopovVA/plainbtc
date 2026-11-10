@@ -14,6 +14,18 @@
 /assets/*.js
   Cache-Control: public, max-age=3600, must-revalidate
 
+# Webfonts never change under the same name.
+/assets/fonts/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/site.webmanifest
+  Content-Type: application/manifest+json
+  Cache-Control: public, max-age=86400
+
+/favicon.ico
+  Cache-Control: public, max-age=604800
+
 /*.svg
   Cache-Control: public, max-age=604800
 

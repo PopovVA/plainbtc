@@ -6,8 +6,9 @@ Reads  i18n/langs.json, i18n/partners.json, i18n/strings/<lang>.json,
        i18n/content/<slug>/{meta.json,links.json,<lang>.txt}
 Writes <lang>/index.html, <lang>/about.html, <lang>/disclosure.html, <lang>/articles/<slug>.html,
        <lang>/feed.xml, sitemap.xml (with hreflang alternates)
-Patches the hand-written English pages in place (hreflang block, language menu, footer language list,
-valid JSON-LD) between <!-- i18n:... --> markers, so it is safe to run repeatedly.
+Patches the hand-written English pages in place (head assets, site header and footer, hreflang block,
+home <main>, article head, JSON-LD), so it is safe to run repeatedly.
+Publishes content-hashed copies of assets/styles.css and assets/site.js.
 
 Usage:
   python3 tools/build_i18n.py            # build everything
@@ -16,7 +17,7 @@ See README ("Multilingual site").
 """
 from __future__ import annotations
 import html as _html
-import hashlib, json, re, sys
+import hashlib, json, re, shutil, sys
 from datetime import date, datetime
 from pathlib import Path
 
@@ -30,8 +31,34 @@ COMMUNITY = [
     ("x", "https://x.com/lean_redfield", "community_x"),
 ]
 SAME_AS = [u for _, u, _ in COMMUNITY]
-STYLES_CSS = "/assets/styles.20261109g.css"
-SITE_JS = "/assets/site.20261109i.js"
+ASSET_DIR = ROOT / "assets"
+TWITTER_SITE = "@lean_redfield"
+LOGO_PNG = SITE + "/assets/logo-512.png"
+HOME_VISIBLE = 13      # cards shown on a home page before the "older articles" expander (1 lead + 4 rows of 3)
+
+
+def _asset_url(name: str) -> str:
+    """/assets/<stem>.<content hash>.<ext> for a source file in assets/ (cache-busting, see sync_assets())."""
+    stem, ext = name.rsplit(".", 1)
+    digest = hashlib.sha256((ASSET_DIR / name).read_bytes()).hexdigest()[:10]
+    return f"/assets/{stem}.{digest}.{ext}"
+
+
+# Edit assets/styles.css and assets/site.js; the build publishes hashed copies and points every page at them.
+STYLES_CSS = _asset_url("styles.css")
+SITE_JS = _asset_url("site.js")
+
+
+def sync_assets() -> None:
+    """Write the hashed copies of styles.css / site.js and delete stale ones."""
+    for name, url in (("styles.css", STYLES_CSS), ("site.js", SITE_JS)):
+        dst = ROOT / url.lstrip("/")
+        if not dst.exists():
+            shutil.copyfile(ASSET_DIR / name, dst)
+        stem, ext = name.rsplit(".", 1)
+        for old in ASSET_DIR.glob(f"{stem}.*.{ext}"):
+            if old != dst:
+                old.unlink()
 
 ICON_SVG = {
     "discord": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>',
@@ -41,7 +68,9 @@ ICON_SVG = {
 
 
 def org_publisher() -> dict:
-    return {"@type": "Organization", "name": "PlainBTC", "url": SITE + "/", "sameAs": list(SAME_AS)}
+    return {"@type": "Organization", "@id": SITE + "/#organization", "name": "PlainBTC", "url": SITE + "/",
+            "logo": {"@type": "ImageObject", "url": LOGO_PNG, "width": 512, "height": 512},
+            "sameAs": list(SAME_AS)}
 
 
 def community_links_html(lang: str, *, compact: bool = False) -> str:
@@ -949,6 +978,11 @@ def load_json(p: Path):
 def en_articles_order() -> list[str]:
     """Slugs in the order the English home page lists them (newest first)."""
     idx = (ROOT / "index.html").read_text(encoding="utf-8")
+    # The cards between the i18n:articles markers are the source of truth; other links (ticker, guide list)
+    # are generated from that order and must not influence it.
+    blk = re.search(r"<!-- i18n:articles -->(.*?)<!-- /i18n:articles -->", idx, re.S)
+    if blk:
+        idx = blk.group(1) + idx
     seen = []
     # Match both pretty URLs (/articles/<slug>) and legacy .html links.
     for m in re.finditer(r'href="(?:/articles/|articles/)([a-z0-9-]+)(?:\.html)?"', idx):
@@ -1040,6 +1074,36 @@ def fmt_src_date(lang: str, raw: str) -> str:
 
 
 # ---------------------------------------------------------------- shared fragments
+def pre(lang: str) -> str:
+    """URL prefix of a language ('' for the default language)."""
+    return "" if lang == DEFAULT else f"/{lang}"
+
+
+def strip_tags(h: str) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", h)).strip()
+
+
+def article_kind(slug: str) -> str:
+    """'guide' (evergreen) or 'news'. Set "kind" in meta.json to override."""
+    meta = _meta_for(slug)
+    return meta.get("kind") or ("guide" if meta.get("disclosure_variant") == "guide" else "news")
+
+
+_PUB_CACHE: dict[str, str] = {}
+
+
+def pub_iso(slug: str) -> str:
+    """Publication time as ISO 8601. Uses the precise pubDate kept in feed.xml, else the meta.json date."""
+    if not _PUB_CACHE:
+        for k, v in en_feed_dates().items():
+            try:
+                _PUB_CACHE[k] = datetime.strptime(v, "%a, %d %b %Y %H:%M:%S GMT").strftime("%Y-%m-%dT%H:%M:%S+00:00")
+            except ValueError:
+                pass
+        _PUB_CACHE.setdefault("", "")
+    return _PUB_CACHE.get(slug) or _meta_for(slug).get("date", "")
+
+
 def alternates(kind: str, slug: str = "") -> list[tuple[str, str]]:
     out = [(l["hreflang"], abs_url(path_for(l["code"], kind, slug))) for l in LANGS if has_page(l["code"], kind, slug)]
     return out
@@ -1054,6 +1118,23 @@ def hreflang_block(kind: str, slug: str, cur: str) -> str:
     return "  <!-- i18n:hreflang -->\n" + "\n".join(lines) + "\n  <!-- /i18n:hreflang -->"
 
 
+ICON_GLOBE = ('<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/>'
+              '<path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg>')
+ICON_THEME = ('<svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/>'
+              '<path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg>'
+              '<svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg>')
+ICON_LINK = ('<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/>'
+             '<path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg>')
+# The brand mark: noise on the left resolves into one plain line.
+LOGO_MARK = ('<svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true">'
+             '<path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg>')
+
+
+def logo_html(lang: str) -> str:
+    return (f'<a class="logo" href="{pre(lang)}/" aria-label="PlainBTC">{LOGO_MARK}'
+            '<span class="logo-word">Plain<span>BTC</span></span></a>')
+
+
 def lang_menu(kind: str, slug: str, cur: str) -> str:
     items = []
     for l in LANGS:
@@ -1065,7 +1146,9 @@ def lang_menu(kind: str, slug: str, cur: str) -> str:
         items.append(f'<li><a href="{target}" lang="{l["hreflang"]}" hreflang="{l["hreflang"]}"{aria}>{esc(l["name"])}</a></li>')
     label = STR.get(cur, STR.get(DEFAULT, {})).get("lang_label", "Language")
     return (f'      <!-- i18n:langmenu -->\n      <details class="lang-menu"><summary aria-label="{esc_attr(label)}">'
-            f'🌐 {esc(LANG[cur]["name"])}</summary><ul>' + "".join(items) + "</ul></details>\n      <!-- /i18n:langmenu -->")
+            f'{ICON_GLOBE}<span class="lang-name">{esc(LANG[cur]["name"])}</span>'
+            f'<span class="lang-code" aria-hidden="true">{esc(cur.upper())}</span></summary><ul>'
+            + "".join(items) + "</ul></details>\n      <!-- /i18n:langmenu -->")
 
 
 def footer_langs(kind: str, slug: str, cur: str) -> str:
@@ -1077,20 +1160,28 @@ def footer_langs(kind: str, slug: str, cur: str) -> str:
             + " ".join(links) + "</nav></div>\n  <!-- /i18n:footerlangs -->")
 
 
-def og_tags(lang: str, title: str, desc: str, url: str, typ: str, image: str, alt: str, published: str = "") -> str:
+def og_tags(lang: str, title: str, desc: str, url: str, typ: str, image: str, alt: str, published: str = "",
+            section: str = "") -> str:
     a = LANG[lang]
-    pub = f'\n  <meta property="article:published_time" content="{published}">' if published else ""
+    extra = ""
+    if published:
+        extra += (f'\n  <meta property="article:published_time" content="{published}">'
+                  f'\n  <meta property="article:modified_time" content="{published}">')
+    if section:
+        extra += f'\n  <meta property="article:section" content="{esc_attr(section)}">'
     return f'''  <meta property="og:type" content="{typ}">
   <meta property="og:title" content="{esc_attr(title)}">
   <meta property="og:description" content="{esc_attr(desc)}">
   <meta property="og:url" content="{url}">
   <meta property="og:site_name" content="PlainBTC">
-  <meta property="og:locale" content="{a['locale']}">{pub}
+  <meta property="og:locale" content="{a['locale']}">{extra}
   <meta property="og:image" content="{image}">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="{esc_attr(alt)}">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="{TWITTER_SITE}">
   <meta name="twitter:image" content="{image}">
   <meta name="twitter:title" content="{esc_attr(title)}">
   <meta name="twitter:description" content="{esc_attr(desc)}">'''
@@ -1101,7 +1192,33 @@ def jsonld(obj) -> str:
     return "  <script type=\"application/ld+json\">\n" + "\n".join("  " + l for l in body.splitlines()) + "\n  </script>"
 
 
-def head_html(lang, kind, slug, title, desc, og_title, og_desc, typ, image, ld, published="") -> str:
+ROBOTS = "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+# Runs before first paint: marks JS as available and applies a saved light/dark choice (no flash).
+THEME_BOOT = ("(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');"
+              "if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()")
+# Webfont subset that covers the above-the-fold text of each language (ja/ko use system fonts).
+FONT_PRELOAD = {"ru": ["cyrillic", "latin"], "ja": [], "ko": []}
+
+
+def assets_block(lang: str) -> str:
+    """Theme boot script, font preloads, stylesheet and icons. Identical on every page of a language."""
+    fonts = "".join(
+        f'  <link rel="preload" href="/assets/fonts/source-serif-4-{sub}.woff2" as="font" type="font/woff2" crossorigin>\n'
+        for sub in FONT_PRELOAD.get(lang, ["latin"]))
+    return f'''  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>{THEME_BOOT}</script>
+{fonts}  <link rel="stylesheet" href="{STYLES_CSS}">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->'''
+
+
+def head_html(lang, kind, slug, title, desc, og_title, og_desc, typ, image, ld, published="", section="") -> str:
     url = abs_url(path_for(lang, kind, slug))
     a = LANG[lang]
     return f'''<!DOCTYPE html>
@@ -1109,45 +1226,63 @@ def head_html(lang, kind, slug, title, desc, og_title, og_desc, typ, image, ld, 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-  <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS ({esc_attr(a['name'])})" href="/{lang}/feed.xml">
-  <link rel="stylesheet" href="{STYLES_CSS}">
-  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
+  <meta name="robots" content="{ROBOTS}">
+{assets_block(lang)}
+  <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS ({esc_attr(a['name'])})" href="{pre(lang)}/feed.xml">
   <title>{esc(title)}</title>
   <meta name="description" content="{esc_attr(desc)}">
   <link rel="canonical" href="{url}">
 {hreflang_block(kind, slug, lang)}
-{og_tags(lang, og_title, og_desc, url, typ, image, og_title, published)}
+{og_tags(lang, og_title, og_desc, url, typ, image, og_title, published, section)}
 {ld}
 </head>'''
 
 
+def site_header_html(lang, kind, slug) -> str:
+    s = STR[lang]
+    p = pre(lang)
+    cur = lambda k: ' aria-current="page"' if k == kind else ""
+    return f'''  <header class="site-header">
+    <div class="wrap inner">
+      {logo_html(lang)}
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="{esc_attr(s['menu'])}">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
+      <nav class="nav" aria-label="Primary">
+        <a href="{p}/#articles">{esc(s['nav_articles'])}</a>
+        <a href="{p}/#guides">{esc(s['nav_guides'])}</a>
+        <a href="{p}/about"{cur('about')}>{esc(s['nav_about'])}</a>
+        <a href="{p}/disclosure"{cur('disclosure')}>{esc(s['nav_disclosure'])}</a>
+      </nav>
+      <div class="header-tools">
+{lang_menu(kind, slug, lang)}
+        <button class="theme-toggle" type="button" aria-label="{esc_attr(s['theme_toggle'])}" title="{esc_attr(s['theme_toggle'])}" hidden>{ICON_THEME}</button>
+      </div>
+    </div>
+  </header>'''
+
+
 def header_html(lang, kind, slug) -> str:
     s = STR[lang]
-    p = f"/{lang}"
     return f'''<body>
-  <header class="site-header">
-    <div class="wrap inner">
-      <a class="logo" href="{p}/">Plain<span>BTC</span></a>
-      <nav class="nav" aria-label="Primary">
-        <a href="{p}/">{esc(s['nav_home'])}</a>
-        <a href="{p}/#articles">{esc(s['nav_articles'])}</a>
-        <a href="{p}/about">{esc(s['nav_about'])}</a>
-        <a href="{p}/disclosure">{esc(s['nav_disclosure'])}</a>
-      </nav>
-{lang_menu(kind, slug, lang)}
-    </div>
-  </header>
+  <a class="skip-link" href="#main">{esc(s['skip_link'])}</a>
+{site_header_html(lang, kind, slug)}
 '''
 
 
-def footer_html(lang, kind, slug) -> str:
+FOOTER_WAVE = ('<svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true">'
+               '<path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>')
+
+
+def site_footer_html(lang, kind, slug) -> str:
     s = STR[lang]
-    p = f"/{lang}"
+    p = pre(lang)
     return f'''  <footer class="site-footer">
+    {FOOTER_WAVE}
     <div class="wrap inner">
-      <div>{esc(s['footer'])}</div>
+      <div class="footer-brand">
+        {logo_html(lang)}
+        <p>{esc(s['footer'])}</p>
+      </div>
       <nav class="footer-nav" aria-label="Footer">
         <a href="{p}/">{esc(s['nav_home'])}</a>
         <a href="{p}/about">{esc(s['nav_about'])}</a>
@@ -1157,11 +1292,100 @@ def footer_html(lang, kind, slug) -> str:
     </div>
 {footer_social_html(lang)}
 {footer_langs(kind, slug, lang)}
-  </footer>
+    <div class="wrap footer-base"><a class="back-top" href="#top">{esc(s['back_top'])} <span aria-hidden="true">↑</span></a></div>
+  </footer>'''
+
+
+def footer_html(lang, kind, slug) -> str:
+    return f'''{site_footer_html(lang, kind, slug)}
   <script src="{SITE_JS}" defer></script>
 </body>
 </html>
 '''
+
+
+def crumbs_html(lang: str, trail: list[tuple[str, str]], current: str = "") -> str:
+    """Visible breadcrumb trail: [(label, href), ...] plus an optional unlinked current item."""
+    s = STR[lang]
+    sep = '<span class="crumb-sep" aria-hidden="true">/</span>'
+    bits = [f'<a href="{href}">{esc(label)}</a>' for label, href in trail]
+    if current:
+        bits.append(f'<span aria-current="page">{esc(current)}</span>')
+    return (f'      <!-- i18n:crumbs -->\n      <nav class="crumbs" aria-label="{esc_attr(s["crumbs_aria"])}">'
+            + sep.join(bits) + "</nav>\n      <!-- /i18n:crumbs -->")
+
+
+def share_html(lang: str, url: str, title: str) -> str:
+    s = STR[lang]
+    from urllib.parse import quote
+    def tagged(src: str) -> str:
+        return quote(f"{url}?utm_source={src}&utm_medium=social", safe="")
+    x = f"https://x.com/intent/post?url={tagged('x')}&text={quote(title, safe='')}"
+    fb = f"https://www.facebook.com/sharer/sharer.php?u={tagged('facebook')}"
+    return (f'        <div class="share" role="group" aria-label="{esc_attr(s["share"])}">\n'
+            f'          <span class="share-label">{esc(s["share"])}</span>\n'
+            f'          <a class="share-btn" href="{esc_attr(x)}" target="_blank" rel="noopener nofollow" aria-label="X">{ICON_SVG["x"]}</a>\n'
+            f'          <a class="share-btn" href="{esc_attr(fb)}" target="_blank" rel="noopener nofollow" aria-label="Facebook">{ICON_SVG["facebook"]}</a>\n'
+            f'          <button class="share-btn share-copy" type="button" data-url="{esc_attr(url)}" data-copied="{esc_attr(s["share_copied"])}" '
+            f'aria-label="{esc_attr(s["share_copy"])}" title="{esc_attr(s["share_copy"])}" hidden>{ICON_LINK}</button>\n'
+            f'          <span class="share-status" role="status" aria-live="polite"></span>\n'
+            '        </div>\n')
+
+
+def article_head_html(lang: str, slug: str, label: str, h1_html: str, meta_html: str) -> str:
+    """Top of an article: breadcrumbs, label, headline, byline, share row and the hero image."""
+    s = STR[lang]
+    url = abs_url(path_for(lang, "article", slug))
+    crumbs = crumbs_html(lang, [("PlainBTC", pre(lang) + "/"), (s["nav_articles"], pre(lang) + "/#articles")])
+    crumbs = crumbs.replace("\n      ", "\n        ").replace("      <!--", "        <!--", 1)
+    return f'''      <!-- i18n:arthead -->
+      <header class="article-head">
+{crumbs}
+        <div class="badge">{esc(label)}</div>
+        <h1>{h1_html}</h1>
+        <div class="meta">{meta_html}</div>
+{share_html(lang, url, strip_tags(h1_html))}      </header>
+      <img class="og-hero" src="/assets/og/{slug}.png" width="1200" height="630" alt="{esc_attr(_html.unescape(strip_tags(h1_html)))}" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->'''
+
+
+def article_main_open(lang: str) -> str:
+    """<main> of an article page; the data attributes carry the localized strings site.js needs."""
+    s, n = STR[lang], NLS[lang]
+    return (f'<main class="article-page" id="main" data-toc="{esc_attr(s["toc"])}" data-nl="{esc_attr(n["form_title"])}" '
+            f'data-nl-cta="{esc_attr(n["button"])}" data-close="{esc_attr(s["close"])}">')
+
+
+def readtime_html(lang: str, slug: str) -> str:
+    n = _meta_for(slug).get("readtime")
+    if not n:
+        return ""
+    return f'<span class="meta-read"> · {esc(STR[lang]["readtime"].format(n=n))}</span>'
+
+
+def article_ld(lang: str, slug: str, head: dict, ptitle: str, extra: list[dict]) -> str:
+    s = STR[lang]
+    url = abs_url(path_for(lang, "article", slug))
+    img = f"{SITE}/assets/og/{slug}.png"
+    when = pub_iso(slug)
+    ld = jsonld({
+        "@context": "https://schema.org", "@type": "Article" if article_kind(slug) == "guide" else "NewsArticle",
+        "headline": head["title"], "name": ptitle, "description": head["description"],
+        "datePublished": when, "dateModified": when,
+        "author": {"@type": "Organization", "name": "PlainBTC", "url": SITE + "/"},
+        "publisher": org_publisher(),
+        "mainEntityOfPage": {"@type": "WebPage", "@id": url}, "url": url,
+        "image": {"@type": "ImageObject", "url": img, "width": 1200, "height": 630},
+        "articleSection": head["label"], "isAccessibleForFree": True,
+        "inLanguage": LANG[lang]["hreflang"],
+    }) + "\n" + jsonld({
+        "@context": "https://schema.org", "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": s["nav_home"], "item": abs_url(path_for(lang, "home"))},
+            {"@type": "ListItem", "position": 2, "name": head["title"], "item": url}]})
+    for x in extra:
+        ld += "\n" + jsonld(x)
+    return ld
 
 
 def render_blocks(pg: Page, blocks: list[dict], indent="      ") -> str:
@@ -1255,36 +1479,18 @@ def build_article(lang: str, slug: str):
     head, blocks = c[lang]
     meta = c["meta"]
     pg = Page(lang, c["links"])
-    mode = pg.mode
     url = abs_url(path_for(lang, "article", slug))
     img = f"{SITE}/assets/og/{slug}.png"
-    pub = s["published"].format(date=fmt_date(lang, meta["date"]), country=s["country"])
     ptitle = f"{head['page_title']} | PlainBTC"
-    ld = jsonld({
-        "@context": "https://schema.org", "@type": "NewsArticle",
-        "headline": head["title"], "name": ptitle, "description": head["description"],
-        "datePublished": meta["date"], "dateModified": meta["date"],
-        "author": {"@type": "Organization", "name": "PlainBTC"},
-        "publisher": org_publisher(),
-        "mainEntityOfPage": {"@type": "WebPage", "@id": url}, "url": url, "image": img,
-        "inLanguage": LANG[lang]["hreflang"],
-    }) + "\n" + jsonld({
-        "@context": "https://schema.org", "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": s["nav_home"], "item": abs_url(path_for(lang, "home"))},
-            {"@type": "ListItem", "position": 2, "name": head["title"], "item": url}]})
-    for x in extra_jsonld(pg, head, blocks, url, lang):
-        ld += "\n" + jsonld(x)
+    ld = article_ld(lang, slug, head, ptitle, extra_jsonld(pg, head, blocks, url, lang))
     parts = [head_html(lang, "article", slug, ptitle, head["description"], head["title"], head["og_description"],
-                       "article", img, ld, meta["date"])]
+                       "article", img, ld, meta["date"], head["label"])]
     parts.append(header_html(lang, "article", slug))
-    body = [f'''  <main class="article-page">
+    time_html = f'<time datetime="{meta["date"]}">{esc(fmt_date(lang, meta["date"]))}</time>'
+    pub = esc(s["published"]).format(date=time_html, country=esc(s["country"]))
+    body = [f'''  {article_main_open(lang)}
     <article class="content">
-      <a class="back" href="/{lang}/">{esc(s['back_all'])}</a>
-      <div class="badge">{esc(head['label'])}</div>
-      <h1>{esc(head['title'])}</h1>
-      <div class="meta">{esc(pub)}</div>
-      <img class="og-hero" src="/assets/og/{slug}.png" width="1200" height="630" alt="{esc_attr(head['title'])}" loading="eager">
+{article_head_html(lang, slug, head['label'], esc(head['title']), pub + readtime_html(lang, slug))}
 ''']
     run: list[dict] = []
 
@@ -1313,7 +1519,7 @@ def build_article(lang: str, slug: str):
                 src = f"/assets/img/{slug}/{fig['file']}"
                 body.append(
                     f'''      <figure class="article-figure">
-        <img src="{src}" width="{fig['w']}" height="{fig['h']}" alt="{esc_attr(alt)}" loading="lazy">
+        <img src="{src}" width="{fig['w']}" height="{fig['h']}" alt="{esc_attr(alt)}" loading="lazy" decoding="async">
         <figcaption>{esc(cap)}</figcaption>
       </figure>
 '''
@@ -1389,63 +1595,173 @@ def card_thumb_src(slug: str) -> tuple[str, int, int]:
     return f"/assets/og/{slug}.png", 1200, 630
 
 
+def visible_slugs(lang: str) -> list[str]:
+    """Articles listed on this language's home page, newest first."""
+    return [x for x in SLUGS if x in CONTENT and lang in CONTENT[x]]
+
+
+def card_html(lang: str, slug: str, *, lead: bool = False) -> str:
+    s = STR[lang]
+    head = CONTENT[slug][lang][0]
+    meta = CONTENT[slug]["meta"]
+    href = path_for(lang, "article", slug)
+    thumb, tw, th = card_thumb_src(slug)
+    sep = '<span class="sep" aria-hidden="true"> · </span>'
+    m = (f'<span class="kicker">{esc(head["label"])}</span>{sep}'
+         f'<time datetime="{meta["date"]}">{esc(fmt_date(lang, meta["date"]))}</time>{sep}'
+         f'<span>{esc(s["readtime"].format(n=meta["readtime"]))}</span>')
+    # The lead story is above the fold: load its image eagerly. Everything else is lazy.
+    load = 'loading="eager" fetchpriority="high"' if lead else 'loading="lazy"'
+    cls = "card card-lead" if lead else "card"
+    return f'''      <article class="{cls}" data-kind="{article_kind(slug)}">
+        <a class="card-thumb" href="{href}" tabindex="-1" aria-hidden="true">
+          <img src="{thumb}" width="{tw}" height="{th}" alt="{esc_attr(head['title'])}" {load} decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta">{m}</div>
+          <h3><a href="{href}">{esc(head["title"])}</a></h3>
+          <p>{esc(head['summary'])}</p>
+          <a class="read-more" href="{href}" tabindex="-1" aria-hidden="true">{esc(s['read_article'])}</a>
+        </div>
+      </article>'''
+
+
 def article_cards(lang):
     """Home-page article cards with topical thumbnails. Future articles get a thumb automatically."""
     s = STR[lang]
-    cards = []
-    for slug in SLUGS:
-        if slug not in CONTENT or lang not in CONTENT[slug]:
-            continue
-        head = CONTENT[slug][lang][0]
-        meta = CONTENT[slug]["meta"]
-        href = path_for(lang, "article", slug)
-        m = f"{head['label']} · {fmt_date(lang, meta['date'])} · {s['readtime'].format(n=meta['readtime'])}"
-        thumb, tw, th = card_thumb_src(slug)
-        title = esc(head["title"])
-        cards.append(f'''      <article class="card">
-        <a class="card-thumb" href="{href}" tabindex="-1" aria-hidden="true">
-          <img src="{thumb}" width="{tw}" height="{th}" alt="{esc_attr(head['title'])}" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">{esc(m)}</div>
-          <h2><a href="{href}">{title}</a></h2>
-          <p>{esc(head['summary'])}</p>
-          <a class="read-more" href="{href}">{esc(s['read_article'])}</a>
+    cards = [card_html(lang, slug, lead=(i == 0)) for i, slug in enumerate(visible_slugs(lang))]
+    out = "\n\n".join(cards[:HOME_VISIBLE])
+    if cards[HOME_VISIBLE:]:
+        out += (f'\n\n      <details class="older">\n        <summary>{esc(s["older_articles"])}</summary>\n'
+                '        <div class="article-grid">\n' + "\n\n".join(cards[HOME_VISIBLE:]) + "\n        </div>\n      </details>")
+    return out
+
+
+def split_words(text: str) -> str:
+    """Wrap each word for the staggered headline reveal (pure CSS; the text stays readable without it)."""
+    words = text.split(" ")
+    last = len(words) - 1
+    return " ".join(
+        f'<span class="w{" w-last" if i == last and last > 0 else ""}" style="--i:{i}"><span>{esc(w)}</span></span>'
+        for i, w in enumerate(words))
+
+
+def hero_art_html() -> str:
+    """Static 'noise becomes a plain line' graphic. site.js animates it; without JS this drawing stays."""
+    seed, pts, lens = 20261110, [], 700
+    for x in range(0, lens + 1, 10):
+        seed = (seed * 1103515245 + 12345) % 2147483648
+        n = seed / 2147483648 * 2 - 1
+        amp = 86 * min(1.0, (lens - x) / 300) ** 1.4
+        pts.append(f"{x} {120 + n * amp:.1f}")
+    return f'''      <div class="hero-art" aria-hidden="true">
+        <svg class="wave" viewBox="0 0 1200 240" preserveAspectRatio="none" focusable="false">
+          <path class="wave-noise" vector-effect="non-scaling-stroke" d="M{' L'.join(pts)}"/>
+          <path class="wave-plain" vector-effect="non-scaling-stroke" d="M{lens} 120H1200"/>
+        </svg>
+        <span class="wave-lens"><span class="wave-chip">plain</span></span>
+      </div>'''
+
+
+def ticker_html(lang: str, slugs: list[str]) -> str:
+    s = STR[lang]
+    lis = "".join(
+        f'<li><a href="{path_for(lang, "article", x)}">{esc(CONTENT[x][lang][0]["title"])}</a></li>' for x in slugs)
+    return f'''    <div class="ticker" role="region" aria-label="{esc_attr(s['ticker_label'])}">
+      <span class="ticker-label">{esc(s['ticker_label'])}</span>
+      <div class="ticker-viewport"><ul class="ticker-track">{lis}</ul></div>
+    </div>'''
+
+
+def home_main(lang: str, h1_text: str, lead_html: str, about_html: str) -> str:
+    """<main> of a home page. Used for every language; the English hero copy comes from index.html itself."""
+    s = STR[lang]
+    p = pre(lang)
+    slugs = visible_slugs(lang)
+    latest = max((CONTENT[x]["meta"]["date"] for x in slugs), default=date.today().isoformat())
+    n_sources = sum(len(CONTENT[x]["meta"].get("sources") or []) for x in slugs)
+    stats = "".join(
+        f'<div class="stat"><dt>{esc(s[k])}</dt><dd data-count="{n}">{n}</dd></div>'
+        for k, n in (("stat_articles", len(slugs)), ("stat_langs", len(LANGS)), ("stat_sources", n_sources)))
+    guides = [x for x in slugs if article_kind(x) == "guide"]
+    guides_html = ""
+    if guides:
+        lis = "\n".join(
+            f'        <li><a href="{path_for(lang, "article", x)}"><span class="guide-n" aria-hidden="true">{i:02d}</span>'
+            f'<span class="guide-t">{esc(CONTENT[x][lang][0]["title"])}</span>'
+            f'<span class="guide-m">{esc(s["readtime"].format(n=CONTENT[x]["meta"]["readtime"]))}</span></a></li>'
+            for i, x in enumerate(guides, 1))
+        guides_html = f'''
+    <section id="guides" class="wrap section" aria-labelledby="guides-title">
+      <div class="section-head"><h2 id="guides-title">{esc(s['guides_title'])}</h2></div>
+      <ul class="guide-list">
+{lis}
+      </ul>
+    </section>
+'''
+    return f'''  <main id="main">
+{ticker_html(lang, slugs[:8])}
+    <section class="hero">
+      <div class="wrap hero-copy">
+        <div class="badge">{esc(s['hero_badge'].format(date=fmt_date(lang, latest)))}</div>
+        <h1>{split_words(h1_text)}</h1>
+        <p class="hero-lead">{lead_html}</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#articles">{esc(s['hero_cta_latest'])}</a>
+          <a class="btn btn-ghost" href="#guides">{esc(s['hero_cta_guides'])}</a>
         </div>
-      </article>''')
-    return "\n\n".join(cards)
+      </div>
+{hero_art_html()}
+      <dl class="wrap stats" aria-label="{esc_attr(s['stats_aria'])}">{stats}</dl>
+    </section>
+
+    <section id="articles" class="wrap section" aria-labelledby="articles-title">
+      <div class="section-head"><h2 id="articles-title">{esc(s['section_latest'])}</h2><a class="section-link" href="{p}/feed.xml">{esc(s['rss'])}</a></div>
+      <div class="article-grid">
+  <!-- i18n:articles -->
+{article_cards(lang)}
+  <!-- /i18n:articles -->
+      </div>
+    </section>
+{guides_html}
+    <section class="wrap loop">
+{community_marker_html(lang, home=True)}
+{newsletter_box_html(lang, path_for(lang, "home"))}
+    </section>
+
+    <section id="about" class="wrap about-box">
+      <div class="disclosure">
+        {about_html}
+      </div>
+    </section>
+  </main>'''
+
+
+def home_ld(lang: str) -> str:
+    s = STR[lang]
+    url = abs_url(path_for(lang, "home"))
+    hl = LANG[lang]["hreflang"]
+    items = [{"@type": "ListItem", "position": i, "url": abs_url(path_for(lang, "article", x)),
+              "name": CONTENT[x][lang][0]["title"]} for i, x in enumerate(visible_slugs(lang)[:10], 1)]
+    out = [jsonld({"@context": "https://schema.org", "@type": "WebSite", "@id": url + "#website", "name": "PlainBTC",
+                   "url": url, "description": s["tagline"], "inLanguage": hl,
+                   "publisher": {"@id": SITE + "/#organization"}}),
+           jsonld({"@context": "https://schema.org", **org_publisher()})]
+    if items:
+        out.append(jsonld({"@context": "https://schema.org", "@type": "ItemList", "name": s["section_latest"],
+                           "itemListElement": items}))
+    return "\n".join(out)
 
 
 def build_home(lang):
     s = STR[lang]
     pg = Page(lang)
-    url = abs_url(path_for(lang, "home"))
     img = f"{SITE}/assets/og/default.png"
-    latest = max((CONTENT[x]["meta"]["date"] for x in CONTENT if lang in CONTENT[x]), default=date.today().isoformat())
-    ld = jsonld({"@context": "https://schema.org", "@type": "WebSite", "name": "PlainBTC", "url": url,
-                 "description": s["tagline"], "inLanguage": LANG[lang]["hreflang"],
-                 "publisher": org_publisher()})
-    h = head_html(lang, "home", "", s["home_title"], s["home_description"], s["home_title"], s["home_og_description"], "website", img, ld)
-    mode_box = s["about_box"]
-    return "\n".join([h, header_html(lang, "home", ""), f'''  <main>
-    <section class="hero wrap">
-      <div class="badge">{esc(s['hero_badge'].format(date=fmt_date(lang, latest)))}</div>
-      <h1>{esc(s['hero_h1'])}</h1>
-      <p>{esc(s['hero_p'])}</p>
-    </section>
-
-{community_marker_html(lang, home=True)}
-    <section id="articles" class="wrap article-grid" aria-label="{esc_attr(s['nav_articles'])}">
-{article_cards(lang)}
-    </section>
-
-    <section id="about" class="wrap" style="padding-bottom:3rem;">
-      <div class="disclosure">
-        {pg.inline(mode_box)}
-      </div>
-    </section>
-  </main>
-''', footer_html(lang, "home", "")])
+    h = head_html(lang, "home", "", s["home_title"], s["home_description"], s["home_title"], s["home_og_description"],
+                  "website", img, home_ld(lang))
+    return "\n".join([h, header_html(lang, "home", ""),
+                      home_main(lang, s["hero_h1"], esc(s["hero_p"]), pg.inline(s["about_box"])) + "\n",
+                      footer_html(lang, "home", "")])
 
 
 def build_simple(lang, kind):
@@ -1459,9 +1775,9 @@ def build_simple(lang, kind):
                  "isPartOf": {"@type": "WebSite", "name": "PlainBTC", "url": SITE + "/"}})
     h = head_html(lang, kind, "", head["page_title"], head["description"], head["og_title"], head["og_description"], "website", img, ld)
     tag = f'\n      <p class="tagline">{esc(head["tagline"])}</p>' if head.get("tagline") else ""
-    return "\n".join([h, header_html(lang, kind, ""), f'''  <main class="prose-page">
+    return "\n".join([h, header_html(lang, kind, ""), f'''  <main class="prose-page" id="main">
     <div class="content">
-      <a class="back" href="/{lang}/">{esc(s['back_home'])}</a>
+{crumbs_html(lang, [("PlainBTC", pre(lang) + "/")], s["nav_" + kind])}
       <h1>{esc(head['h1'])}</h1>{tag}
 {render_blocks(pg, blocks)}
     </div>
@@ -1488,7 +1804,8 @@ def build_feed(lang):
             u = abs_url(path_for(lang, "article", slug))
             pd = dates.get(slug) or datetime.strptime(CONTENT[slug]["meta"]["date"], "%Y-%m-%d").strftime("%a, %d %b %Y 12:00:00 GMT")
             items.append(f"    <item>\n      <title>{esc(h['title'])}</title>\n      <link>{u}</link>\n      <guid isPermaLink=\"true\">{u}</guid>\n"
-                         f"      <pubDate>{pd}</pubDate>\n      <description>{esc(h['summary'])}</description>\n    </item>")
+                         f"      <pubDate>{pd}</pubDate>\n      <category>{esc(h['label'])}</category>\n"
+                         f"      <description>{esc(h['summary'])}</description>\n    </item>")
     last = max(dates.values(), key=lambda x: datetime.strptime(x, "%a, %d %b %Y %H:%M:%S GMT")) if dates else "Mon, 09 Nov 2026 12:00:00 GMT"
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -1498,7 +1815,7 @@ def build_feed(lang):
     <description>{esc(s['tagline'])}</description>
     <language>{LANG[lang]['hreflang'].lower()}</language>
     <lastBuildDate>{last}</lastBuildDate>
-    <atom:link href="{SITE}/{lang}/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="{SITE}{pre(lang)}/feed.xml" rel="self" type="application/rss+xml"/>
 {chr(10).join(items)}
   </channel>
 </rss>
@@ -1527,15 +1844,15 @@ def build_sitemap():
         alts = alternates(kind, slug)
         alt_xml = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{h}" href="{u}"/>' for h, u in alts)
         alt_xml += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{en_loc}"/>'
+        if kind == "article":
+            alt_xml += f"\n    <image:image>\n      <image:loc>{SITE}/assets/og/{slug}.png</image:loc>\n    </image:image>"
         for l in LANGS:
             if has_page(l["code"], kind, slug):
                 loc = abs_url(path_for(l["code"], kind, slug))
                 urls.append(f"  <url>\n    <loc>{loc}</loc>\n    <lastmod>{lm}</lastmod>\n    <changefreq>{cf}</changefreq>\n    <priority>{pr}</priority>{alt_xml}\n  </url>")
-    feeds = [f"{SITE}/feed.xml"] + [f"{SITE}/{l['code']}/feed.xml" for l in LANGS if l["code"] != DEFAULT and l["code"] in STR]
-    for f in feeds:
-        urls.append(f"  <url>\n    <loc>{f}</loc>\n    <lastmod>{latest}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.3</priority>\n  </url>")
     return ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
-            'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' + "\n".join(urls) + "\n</urlset>\n")
+            'xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'
+            + "\n".join(urls) + "\n</urlset>\n")
 
 
 # ---------------------------------------------------------------- English patching
@@ -1555,103 +1872,189 @@ def replace_marked(h: str, name: str, new: str) -> tuple[str, bool]:
     return h, False
 
 
+LD_BLOCK = re.compile(r'[ \t]*<script type="application/ld\+json">(.*?)</script>', re.S)
+
+
+def normalize_en_links(h: str) -> str:
+    """Hand-written English pages used relative *.html links; point them at the canonical pretty URLs."""
+    h = re.sub(r'href="(?:\.\./|/)?index\.html(#[^"]*)?"', lambda m: f'href="/{m.group(1) or ""}"', h)
+    h = re.sub(r'href="(?:\.\./|/)?(about|disclosure)\.html"', r'href="/\1"', h)
+    h = re.sub(r'href="(?:\.\./|/)?feed\.xml"', 'href="/feed.xml"', h)
+    h = re.sub(r'href="(?:\.\./|/)?(?:articles/)?([a-z0-9-]+)\.html"',
+               lambda m: f'href="/articles/{m.group(1)}"' if (ROOT / "articles" / f"{m.group(1)}.html").exists() else m.group(0), h)
+    return h
+
+
+def replace_shell(h: str, lang: str, kind: str, slug: str, *, robots: str = ROBOTS) -> str:
+    """Head assets, site header, footer and script tag of a hand-written page (same markup as generated pages)."""
+    h = normalize_en_links(h)
+    # <head>: one assets block instead of loose icon / stylesheet links
+    h = re.sub(r'[ \t]*<!-- i18n:assets -->.*?<!-- /i18n:assets -->\n?', "", h, flags=re.S)
+    h = re.sub(r'[ \t]*<link rel="(?:icon|stylesheet|apple-touch-icon|manifest|preload)"[^>]*>\n?', "", h)
+    h = re.sub(r'[ \t]*<meta name="(?:color-scheme|theme-color)"[^>]*>\n?', "", h)
+    h, n = re.subn(r'(<meta name="robots" content=")[^"]*(">\n)', lambda m: m.group(1) + robots + m.group(2) + assets_block(lang) + "\n", h, count=1)
+    if not n:
+        h, n = re.subn(r'(<meta name="viewport"[^>]*>\n)',
+                       lambda m: m.group(1) + f'  <meta name="robots" content="{robots}">\n' + assets_block(lang) + "\n", h, count=1)
+    if not n:
+        errors.append(f"cannot place head assets ({kind}/{slug})")
+    if 'name="twitter:site"' not in h:
+        h = re.sub(r'([ \t]*<meta name="twitter:card"[^>]*>\n)',
+                   lambda m: m.group(1) + f'  <meta name="twitter:site" content="{TWITTER_SITE}">\n', h, count=1)
+    if 'property="og:locale"' not in h:
+        h = re.sub(r'([ \t]*<meta property="og:site_name"[^>]*>\n)',
+                   lambda m: m.group(1) + f'  <meta property="og:locale" content="{LANG[lang]["locale"]}">\n', h, count=1)
+    if 'property="og:image:type"' not in h:
+        h = re.sub(r'([ \t]*<meta property="og:image" content="[^"]*\.png">\n)',
+                   lambda m: m.group(1) + '  <meta property="og:image:type" content="image/png">\n', h, count=1)
+    # <body>: skip link + header, footer, script
+    hk = "home" if kind == "404" else kind
+    top = f'  <a class="skip-link" href="#main">{esc(STR[lang]["skip_link"])}</a>\n' + site_header_html(lang, hk, slug)
+    h, n = re.subn(r'[ \t]*(?:<a class="skip-link"[^>]*>.*?</a>\s*)?<header class="site-header">.*?</header>', lambda m: top, h, count=1, flags=re.S)
+    if not n:
+        errors.append(f"cannot place site header ({kind}/{slug})")
+    h, n = re.subn(r'[ \t]*<footer class="site-footer">.*?</footer>', lambda m: site_footer_html(lang, hk, slug), h, count=1, flags=re.S)
+    if not n:
+        errors.append(f"cannot place site footer ({kind}/{slug})")
+    script = f'<script src="{SITE_JS}" defer></script>'
+    h, n = re.subn(r'<script src="/assets/site[^"]*"[^>]*></script>', script, h, count=1)
+    if not n:
+        h = h.replace("</body>", f"  {script}\n</body>", 1)
+    h = re.sub(r"<main(?![^>]*\bid=)", '<main id="main"', h, count=1)
+    return h
+
+
+def patch_article_head(h: str, slug: str) -> str:
+    """Rebuild the top of a hand-written English article (breadcrumbs, label, h1, byline, share, hero image).
+
+    The label, headline and byline text are read back from the page, so hand edits to them survive."""
+    m = re.search(r'<article class="content">\s*', h)
+    if not m:
+        errors.append(f"no <article class=\"content\"> in articles/{slug}.html")
+        return h
+    blk = re.search(r"[ \t]*<!-- i18n:arthead -->.*?<!-- /i18n:arthead -->", h, re.S)
+    if blk:
+        a, b = blk.span()
+    else:
+        a = m.end()
+        meta_m = re.compile(r'<div class="meta">.*?</div>', re.S).search(h, a)
+        img_m = re.compile(r'<img class="og-hero"[^>]*>').search(h, a)
+        if not meta_m:
+            errors.append(f"no byline (.meta) in articles/{slug}.html")
+            return h
+        b = img_m.end() if img_m and img_m.start() - meta_m.end() < 200 else meta_m.end()
+    region = h[a:b]
+    badge = re.search(r'<div class="badge">(.*?)</div>', region, re.S)
+    h1 = re.search(r"<h1[^>]*>(.*?)</h1>", region, re.S)
+    meta = re.search(r'<div class="meta">(.*?)</div>', region, re.S)
+    if not (badge and h1 and meta):
+        errors.append(f"cannot read label/h1/byline in articles/{slug}.html")
+        return h
+    byline = re.sub(r'<span class="meta-read">.*?</span>', "", meta.group(1)).strip()
+    iso = _meta_for(slug).get("date") or ""
+    if iso and "<time" not in byline:
+        shown = fmt_date(DEFAULT, iso)
+        byline = byline.replace(shown, f'<time datetime="{iso}">{shown}</time>', 1)
+    new = article_head_html(DEFAULT, slug, _html.unescape(strip_tags(badge.group(1))), h1.group(1).strip(),
+                            byline + readtime_html(DEFAULT, slug))
+    # Without a marker block the regex above already consumed the indentation after <article>.
+    return h[:a] + (new if blk else new.lstrip()) + h[b:]
+
+
+def upgrade_article_jsonld(h: str, slug: str) -> str:
+    """Bring hand-written English JSON-LD in line with the generated pages (publisher logo, type, section)."""
+    label = (CONTENT.get(slug, {}).get(DEFAULT) or [{}])[0].get("label", "")
+
+    def fix(m):
+        try:
+            obj = json.loads(m.group(1))
+        except ValueError:
+            warnings.append(f"invalid JSON-LD left as is in articles/{slug}.html")
+            return m.group(0)
+        if isinstance(obj, dict) and obj.get("@type") in ("NewsArticle", "Article", "BlogPosting"):
+            obj["@type"] = "Article" if article_kind(slug) == "guide" else "NewsArticle"
+            when = pub_iso(slug)
+            if when:
+                if obj.get("dateModified") in (None, obj.get("datePublished")):
+                    obj["dateModified"] = when
+                obj["datePublished"] = when
+            obj["author"] = {"@type": "Organization", "name": "PlainBTC", "url": SITE + "/"}
+            obj["publisher"] = org_publisher()
+            if isinstance(obj.get("image"), str):
+                obj["image"] = {"@type": "ImageObject", "url": obj["image"], "width": 1200, "height": 630}
+            if label:
+                obj["articleSection"] = label
+            obj["isAccessibleForFree"] = True
+        return jsonld(obj)
+
+    return LD_BLOCK.sub(fix, h)
+
+
+def patch_home(h: str) -> str:
+    """Rebuild <main> and JSON-LD of the English home page; the hero headline, lead and about text are kept."""
+    m = re.search(r"[ \t]*<main\b[^>]*>.*</main>", h, re.S)
+    if not m:
+        errors.append("no <main> in index.html")
+        return h
+    main = m.group(0)
+    hero = re.search(r'<section class="hero[^"]*"[^>]*>(.*?)</section>', main, re.S)
+    h1 = hero and re.search(r"<h1[^>]*>(.*?)</h1>", hero.group(1), re.S)
+    lead = hero and re.search(r"<p[^>]*>(.*?)</p>", hero.group(1), re.S)
+    about = re.search(r'<section id="about"[^>]*>\s*<div class="disclosure">(.*?)</div>', main, re.S)
+    if not (h1 and lead and about):
+        errors.append("cannot read hero headline / lead / about box in index.html")
+        return h
+    squash = lambda x: re.sub(r"\s+", " ", x).strip()
+    h = h[:m.start()] + home_main(DEFAULT, _html.unescape(strip_tags(h1.group(1))), squash(lead.group(1)),
+                                  squash(about.group(1))) + h[m.end():]
+    h = re.sub(r'[ \t]*<script type="application/ld\+json">.*?</script>\n?', "", h, flags=re.S)
+    return h.replace("</head>", home_ld(DEFAULT) + "\n</head>", 1)
+
+
 def patch_en(path: Path, kind: str, slug: str = ""):
     h = path.read_text(encoding="utf-8")
     o = h
     h = fix_jsonld(h)
-    h = re.sub(
-        r'<link rel="stylesheet" href="[^"]*styles(?:\.[\w-]+)?\.css(?:\?[^"]*)?">',
-        f'<link rel="stylesheet" href="{STYLES_CSS}">',
-        h,
-        count=1,
-    )
-    if "article-media.css" not in h:
-        h = h.replace(
-            f'<link rel="stylesheet" href="{STYLES_CSS}">',
-            f'<link rel="stylesheet" href="{STYLES_CSS}">\n'
-            '  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">',
-            1,
-        )
-    else:
-        h = re.sub(r'(article-media\.css\?v=)[^"\s]+', r'\g<1>20261109f', h, count=1)
-    if "/assets/site." not in h and "/assets/site.js" not in h:
-        h = h.replace("</body>", f'  <script src="{SITE_JS}" defer></script>\n</body>', 1)
-    else:
-        h = re.sub(r'/assets/site(?:\.\w+)?\.js(?:\?v=[^"\s]+)?', SITE_JS, h, count=1)
+    h = replace_shell(h, DEFAULT, kind, slug)
     new = hreflang_block(kind, slug, DEFAULT)
     h, ok = replace_marked(h, "hreflang", new)
     if not ok:
         h = h.replace("</head>", new + "\n</head>", 1)
-    new = lang_menu(kind, slug, DEFAULT)
-    h, ok = replace_marked(h, "langmenu", new)
-    if not ok:
-        h, n = re.subn(r"(</nav>)(\n    </div>\n  </header>)", lambda m: m.group(1) + "\n" + new + m.group(2), h, count=1)
-        if not n:
-            errors.append(f"cannot place langmenu in {path}")
-    new = footer_langs(kind, slug, DEFAULT)
-    h, ok = replace_marked(h, "footerlangs", new)
-    if not ok:
-        h = h.replace("  </footer>", new + "\n  </footer>", 1)
-    new = footer_social_html(DEFAULT)
-    h, ok = replace_marked(h, "footersocial", new)
-    if not ok:
-        # insert before footerlangs or before </footer>
-        if "<!-- i18n:footerlangs -->" in h:
-            h = h.replace("  <!-- i18n:footerlangs -->", new + "\n  <!-- i18n:footerlangs -->", 1)
-        else:
-            h = h.replace("  </footer>", new + "\n  </footer>", 1)
     if kind == "article":
+        h = re.sub(r'<main\b[^>]*class="article-page"[^>]*>', lambda m: article_main_open(DEFAULT), h, count=1)
+        h = patch_article_head(h, slug)
         # Idempotent: strip any prior marked/unmarked community boxes, then place exactly one.
         h = place_community(h, DEFAULT, home=False, kind=kind)
-    elif kind == "home":
-        h = place_community(h, DEFAULT, home=True, kind=kind)
-        # Regenerate article cards (with thumbnails) between i18n:articles markers
-        cards = article_cards(DEFAULT)
-        articles_block = (
-            '  <!-- i18n:articles -->\n'
-            f'{cards}\n'
-            '  <!-- /i18n:articles -->'
-        )
-        h, ok = replace_marked(h, "articles", articles_block)
-        if not ok:
-            # Wrap existing grid contents once, then replace
-            m = re.search(
-                r'(<section id="articles"[^>]*>)\s*(.*?)\s*(</section>)',
-                h,
-                re.S,
-            )
-            if m:
-                h = h[:m.start(2)] + "\n" + articles_block + "\n    " + h[m.start(3):]
-            else:
-                errors.append(f"cannot place articles grid in {path}")
-    # Ensure Organization JSON-LD includes sameAs
-    def add_same_as(m):
-        block = m.group(0)
-        if '"sameAs"' in block:
-            return block
-        # insert into Organization objects that look like publisher / site org
-        def org_fix(om):
-            body = om.group(1)
-            if '"sameAs"' in body:
-                return om.group(0)
-            if '"name": "PlainBTC"' not in body and '"name":"PlainBTC"' not in body:
-                return om.group(0)
-            # add sameAs before closing
-            insert = ',\n      "sameAs": ' + json.dumps(SAME_AS, ensure_ascii=False)
-            # place before final }
-            return om.group(0)[:-1] + insert + "\n    }"
-        return re.sub(
-            r'\{\s*"@type":\s*"Organization",(.*?)}',
-            org_fix,
-            block,
-            flags=re.S,
-        )
-    h = re.sub(r'<script type="application/ld\+json">.*?</script>', add_same_as, h, flags=re.S)
-    h = place_newsletter(h, DEFAULT, kind, path_for(DEFAULT, kind, slug))
-    if kind in ("article", "disclosure"):
+        h = place_newsletter(h, DEFAULT, kind, path_for(DEFAULT, kind, slug))
         h = place_partners(h, DEFAULT, kind, slug)
-        if kind == "article":
-            h = place_related(h, DEFAULT, slug)
+        h = place_related(h, DEFAULT, slug)
+        h = upgrade_article_jsonld(h, slug)
+    elif kind == "home":
+        h = patch_home(h)
+    else:  # about / disclosure
+        crumbs = crumbs_html(DEFAULT, [("PlainBTC", "/")], STR[DEFAULT]["nav_" + kind])
+        h, ok = replace_marked(h, "crumbs", crumbs)
+        if not ok:
+            h, n = re.subn(r'[ \t]*<a class="back"[^>]*>.*?</a>', lambda m: crumbs, h, count=1, flags=re.S)
+            if not n:
+                errors.append(f"cannot place breadcrumbs in {path.name}")
+        h = place_newsletter(h, DEFAULT, kind, path_for(DEFAULT, kind, slug))
+        if kind == "disclosure":
+            h = place_partners(h, DEFAULT, kind, slug)
+    h = re.sub(r"\n{3,}", "\n\n", h)   # repeated strip-and-place passes must not pile up blank lines
+    if h != o:
+        path.write_text(h, encoding="utf-8")
+
+
+def patch_404():
+    """404.html is hand-written; keep its head assets, header and footer in step with the rest of the site."""
+    path = ROOT / "404.html"
+    if not path.exists():
+        return
+    o = path.read_text(encoding="utf-8")
+    h = replace_shell(o, DEFAULT, "404", "", robots="noindex,follow")
+    art = "    <!-- i18n:heroart -->\n" + hero_art_html().replace("\n      ", "\n  ")[2:] + "\n    <!-- /i18n:heroart -->"
+    h, _ = replace_marked(h, "heroart", art)
     if h != o:
         path.write_text(h, encoding="utf-8")
 
@@ -1782,12 +2185,13 @@ def main():
     print(format_cta_distribution())
     if check_only:
         print("\n".join("warn  " + w for w in warnings)); print("check OK"); return
+    sync_assets()
     n = 0
     for l in LANGS:
         code = l["code"]
         if code == DEFAULT or code not in STR:
             continue
-        write(file_for(code, "home"), place_newsletter(build_home(code), code, "home", path_for(code, "home"))); n += 1
+        write(file_for(code, "home"), build_home(code)); n += 1
         for kind in ("about", "disclosure"):
             if has_page(code, kind):
                 write(file_for(code, kind), place_newsletter(build_simple(code, kind), code, kind, path_for(code, kind))); n += 1
@@ -1801,6 +2205,7 @@ def main():
     patch_en(ROOT / "disclosure.html", "disclosure")
     for slug in SLUGS:
         patch_en(ROOT / "articles" / f"{slug}.html", "article", slug)
+    patch_404()
     write(ROOT / "feed.xml", build_feed(DEFAULT))
     write(ROOT / "sitemap.xml", build_sitemap())
     write(ROOT / "llms.txt", build_llms_txt())

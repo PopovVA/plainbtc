@@ -3,11 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="preload" href="/assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.68d4081cdd.css">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (Bahasa Indonesia)" href="/id/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109g.css">
-  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
   <title>PlainBTC — Berita Bitcoin dan kripto dengan bahasa sederhana</title>
   <meta name="description" content="Berita Bitcoin dan kripto dengan bahasa sederhana, ringkasan pasar, dan panduan untuk pemula, dengan fokus pada pasar AS. Diperbarui November 2026.">
   <link rel="canonical" href="https://plainbtc.com/id/">
@@ -40,10 +49,12 @@
   <meta property="og:site_name" content="PlainBTC">
   <meta property="og:locale" content="id_ID">
   <meta property="og:image" content="https://plainbtc.com/assets/og/default.png">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="PlainBTC — Berita Bitcoin dan kripto dengan bahasa sederhana">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
   <meta name="twitter:image" content="https://plainbtc.com/assets/og/default.png">
   <meta name="twitter:title" content="PlainBTC — Berita Bitcoin dan kripto dengan bahasa sederhana">
   <meta name="twitter:description" content="Berita Bitcoin dan kripto dengan bahasa sederhana, ringkasan pasar, dan panduan untuk pemula.">
@@ -51,46 +62,383 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": "https://plainbtc.com/id/#website",
     "name": "PlainBTC",
     "url": "https://plainbtc.com/id/",
     "description": "Berita Bitcoin dan kripto dengan bahasa sederhana untuk pemula",
     "inLanguage": "id",
     "publisher": {
-      "@type": "Organization",
-      "name": "PlainBTC",
-      "url": "https://plainbtc.com/",
-      "sameAs": [
-        "https://discord.gg/EcuGXPDr2d",
-        "https://www.facebook.com/groups/1688106109771364",
-        "https://x.com/lean_redfield"
-      ]
+      "@id": "https://plainbtc.com/#organization"
     }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://plainbtc.com/#organization",
+    "name": "PlainBTC",
+    "url": "https://plainbtc.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/logo-512.png",
+      "width": 512,
+      "height": 512
+    },
+    "sameAs": [
+      "https://discord.gg/EcuGXPDr2d",
+      "https://www.facebook.com/groups/1688106109771364",
+      "https://x.com/lean_redfield"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Artikel terbaru",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://plainbtc.com/id/articles/binance-blocks-mexc-fincen-order-nov-2026",
+        "name": "Binance memblokir transfer dengan MEXC setelah perintah Departemen Keuangan AS soal dugaan aliran dana ilegal US$16,7 miliar"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://plainbtc.com/id/articles/banks-270-million-stablecoin-project-faro-nov-2026",
+        "name": "Goldman Sachs, Citi, dan bank lain dikabarkan menyiapkan US$270 juta untuk stablecoin dolar bersama"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://plainbtc.com/id/articles/bitcoin-hot-cpi-etf-outflows-nov-2026",
+        "name": "Bitcoin turun ke arah US$73.400 setelah inflasi Oktober lebih tinggi dari perkiraan"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "url": "https://plainbtc.com/id/articles/binance-hack-north-korea-memecoin-laundering-nov-2026",
+        "name": "Korea Utara membuat memecoin untuk mencuci hasil peretasan Binance senilai US$6,4 miliar, kata Elliptic"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "url": "https://plainbtc.com/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody",
+        "name": "Apa itu dompet kripto? Kustodian vs. self-custody, penjelasan untuk pemula"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "url": "https://plainbtc.com/id/articles/how-much-bitcoin-should-a-beginner-buy-dca",
+        "name": "Berapa banyak Bitcoin yang sebaiknya dibeli pemula? Panduan sederhana dollar-cost averaging (DCA)"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "url": "https://plainbtc.com/id/articles/is-coinbase-safe-for-beginners",
+        "name": "Apakah Coinbase aman untuk pemula? Apa yang dilindungi, apa yang tidak, dan cara menurunkan risiko"
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "url": "https://plainbtc.com/id/articles/coinbase-occ-national-trust-charter-nov-2026",
+        "name": "Coinbase raih piagam penuh bank trust nasional dari OCC: apa artinya"
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "url": "https://plainbtc.com/id/articles/fincen-fed-withdraw-250-travel-rule-nov-2026",
+        "name": "FinCEN dan The Fed batalkan rencana Travel Rule US$250 — ambang US$3.000 tetap berlaku"
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "url": "https://plainbtc.com/id/articles/bitcoin-loses-50-week-moving-average-nov-2026",
+        "name": "Bitcoin kehilangan rata-rata bergerak 50 minggu saat likuidasi posisi long tembus US$1 miliar"
+      }
+    ]
   }
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Lewati ke konten</a>
   <header class="site-header">
     <div class="wrap inner">
-      <a class="logo" href="/id/">Plain<span>BTC</span></a>
+      <a class="logo" href="/id/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Menu">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
       <nav class="nav" aria-label="Primary">
-        <a href="/id/">Beranda</a>
         <a href="/id/#articles">Artikel</a>
+        <a href="/id/#guides">Panduan</a>
         <a href="/id/about">Tentang</a>
         <a href="/id/disclosure">Keterbukaan</a>
       </nav>
+      <div class="header-tools">
       <!-- i18n:langmenu -->
-      <details class="lang-menu"><summary aria-label="Bahasa">🌐 Bahasa Indonesia</summary><ul><li><a href="/" lang="en" hreflang="en">English</a></li><li><a href="/es/" lang="es" hreflang="es">Español</a></li><li><a href="/pt/" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/" lang="id" hreflang="id" aria-current="true">Bahasa Indonesia</a></li><li><a href="/ja/" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <details class="lang-menu"><summary aria-label="Bahasa"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">Bahasa Indonesia</span><span class="lang-code" aria-hidden="true">ID</span></summary><ul><li><a href="/" lang="en" hreflang="en">English</a></li><li><a href="/es/" lang="es" hreflang="es">Español</a></li><li><a href="/pt/" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/" lang="id" hreflang="id" aria-current="true">Bahasa Indonesia</a></li><li><a href="/ja/" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko">한국어</a></li></ul></details>
       <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="Ganti antara tema terang dan gelap" title="Ganti antara tema terang dan gelap" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
     </div>
   </header>
 
-  <main>
-    <section class="hero wrap">
-      <div class="badge">Pasar AS · 10 November 2026</div>
-      <h1>Berita kripto tanpa kebisingan</h1>
-      <p>PlainBTC mengulas Bitcoin, regulasi, dan langkah-langkah praktis dengan fokus pada pasar AS, memakai bahasa yang mudah dipahami.</p>
+  <main id="main">
+    <div class="ticker" role="region" aria-label="Terbaru">
+      <span class="ticker-label">Terbaru</span>
+      <div class="ticker-viewport"><ul class="ticker-track"><li><a href="/id/articles/binance-blocks-mexc-fincen-order-nov-2026">Binance memblokir transfer dengan MEXC setelah perintah Departemen Keuangan AS soal dugaan aliran dana ilegal US$16,7 miliar</a></li><li><a href="/id/articles/banks-270-million-stablecoin-project-faro-nov-2026">Goldman Sachs, Citi, dan bank lain dikabarkan menyiapkan US$270 juta untuk stablecoin dolar bersama</a></li><li><a href="/id/articles/bitcoin-hot-cpi-etf-outflows-nov-2026">Bitcoin turun ke arah US$73.400 setelah inflasi Oktober lebih tinggi dari perkiraan</a></li><li><a href="/id/articles/binance-hack-north-korea-memecoin-laundering-nov-2026">Korea Utara membuat memecoin untuk mencuci hasil peretasan Binance senilai US$6,4 miliar, kata Elliptic</a></li><li><a href="/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">Apa itu dompet kripto? Kustodian vs. self-custody, penjelasan untuk pemula</a></li><li><a href="/id/articles/how-much-bitcoin-should-a-beginner-buy-dca">Berapa banyak Bitcoin yang sebaiknya dibeli pemula? Panduan sederhana dollar-cost averaging (DCA)</a></li><li><a href="/id/articles/is-coinbase-safe-for-beginners">Apakah Coinbase aman untuk pemula? Apa yang dilindungi, apa yang tidak, dan cara menurunkan risiko</a></li><li><a href="/id/articles/coinbase-occ-national-trust-charter-nov-2026">Coinbase raih piagam penuh bank trust nasional dari OCC: apa artinya</a></li></ul></div>
+    </div>
+    <section class="hero">
+      <div class="wrap hero-copy">
+        <div class="badge">Pasar AS · 10 November 2026</div>
+        <h1><span class="w" style="--i:0"><span>Berita</span></span> <span class="w" style="--i:1"><span>kripto</span></span> <span class="w" style="--i:2"><span>tanpa</span></span> <span class="w w-last" style="--i:3"><span>kebisingan</span></span></h1>
+        <p class="hero-lead">PlainBTC mengulas Bitcoin, regulasi, dan langkah-langkah praktis dengan fokus pada pasar AS, memakai bahasa yang mudah dipahami.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#articles">Baca yang terbaru</a>
+          <a class="btn btn-ghost" href="#guides">Mulai dari dasar</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg class="wave" viewBox="0 0 1200 240" preserveAspectRatio="none" focusable="false">
+          <path class="wave-noise" vector-effect="non-scaling-stroke" d="M0 155.4 L10 83.7 L20 49.9 L30 189.9 L40 162.4 L50 191.4 L60 181.7 L70 47.5 L80 129.0 L90 184.8 L100 109.0 L110 191.9 L120 87.1 L130 195.7 L140 78.1 L150 49.9 L160 53.4 L170 35.7 L180 61.4 L190 162.6 L200 187.5 L210 93.6 L220 129.5 L230 196.2 L240 173.0 L250 96.3 L260 75.8 L270 102.8 L280 94.7 L290 179.6 L300 180.4 L310 62.7 L320 185.0 L330 200.0 L340 98.0 L350 82.9 L360 163.2 L370 183.9 L380 163.8 L390 43.3 L400 184.9 L410 83.9 L420 46.1 L430 46.3 L440 161.0 L450 165.1 L460 172.6 L470 75.9 L480 69.7 L490 135.7 L500 114.8 L510 122.3 L520 88.6 L530 142.1 L540 115.8 L550 152.5 L560 123.8 L570 99.9 L580 118.6 L590 129.5 L600 121.7 L610 116.1 L620 110.3 L630 122.1 L640 122.8 L650 122.1 L660 117.5 L670 118.6 L680 118.2 L690 119.7 L700 120.0"/>
+          <path class="wave-plain" vector-effect="non-scaling-stroke" d="M700 120H1200"/>
+        </svg>
+        <span class="wave-lens"><span class="wave-chip">plain</span></span>
+      </div>
+      <dl class="wrap stats" aria-label="PlainBTC dalam angka"><div class="stat"><dt>Artikel</dt><dd data-count="17">17</dd></div><div class="stat"><dt>Bahasa</dt><dd data-count="10">10</dd></div><div class="stat"><dt>Sumber yang dikutip</dt><dd data-count="91">91</dd></div></dl>
     </section>
 
+    <section id="articles" class="wrap section" aria-labelledby="articles-title">
+      <div class="section-head"><h2 id="articles-title">Artikel terbaru</h2><a class="section-link" href="/id/feed.xml">RSS</a></div>
+      <div class="article-grid">
+  <!-- i18n:articles -->
+      <article class="card card-lead" data-kind="news">
+        <a class="card-thumb" href="/id/articles/binance-blocks-mexc-fincen-order-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/binance-blocks-mexc-fincen-order-nov-2026/thumb.webp" width="640" height="360" alt="Binance memblokir transfer dengan MEXC setelah perintah Departemen Keuangan AS soal dugaan aliran dana ilegal US$16,7 miliar" loading="eager" fetchpriority="high" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Regulasi</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-10">10 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~5 menit baca</span></div>
+          <h3><a href="/id/articles/binance-blocks-mexc-fincen-order-nov-2026">Binance memblokir transfer dengan MEXC setelah perintah Departemen Keuangan AS soal dugaan aliran dana ilegal US$16,7 miliar</a></h3>
+          <p>Binance akan menolak pengiriman ke MEXC dan menahan setoran dari sana untuk ditinjau, setelah perintah FinCEN yang memutus MEXC dari perusahaan AS mulai 10 Desember.</p>
+          <a class="read-more" href="/id/articles/binance-blocks-mexc-fincen-order-nov-2026" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/id/articles/banks-270-million-stablecoin-project-faro-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/banks-270-million-stablecoin-project-faro-nov-2026/thumb.webp" width="640" height="360" alt="Goldman Sachs, Citi, dan bank lain dikabarkan menyiapkan US$270 juta untuk stablecoin dolar bersama" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Bisnis</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-10">10 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~4 menit baca</span></div>
+          <h3><a href="/id/articles/banks-270-million-stablecoin-project-faro-nov-2026">Goldman Sachs, Citi, dan bank lain dikabarkan menyiapkan US$270 juta untuk stablecoin dolar bersama</a></h3>
+          <p>Bank-bank besar dikabarkan menyiapkan sekitar US$270 juta untuk Project Faro, stablecoin dolar bersama yang ditargetkan meluncur pada paruh pertama 2027 untuk menyaingi Tether dan Circle.</p>
+          <a class="read-more" href="/id/articles/banks-270-million-stablecoin-project-faro-nov-2026" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/id/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/bitcoin-hot-cpi-etf-outflows-nov-2026/thumb.webp" width="640" height="360" alt="Bitcoin turun ke arah US$73.400 setelah inflasi Oktober lebih tinggi dari perkiraan" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Pasar</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-10">10 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~5 menit baca</span></div>
+          <h3><a href="/id/articles/bitcoin-hot-cpi-etf-outflows-nov-2026">Bitcoin turun ke arah US$73.400 setelah inflasi Oktober lebih tinggi dari perkiraan</a></h3>
+          <p>CPI Oktober naik 0,4%, di atas perkiraan. Bitcoin turun ke sekitar US$73.400 karena pelaku pasar bertaruh The Fed menaikkan suku bunga pada Desember dan arus keluar ETF berlanjut.</p>
+          <a class="read-more" href="/id/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/id/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/binance-hack-north-korea-memecoin-laundering-nov-2026/thumb.webp" width="640" height="360" alt="Korea Utara membuat memecoin untuk mencuci hasil peretasan Binance senilai US$6,4 miliar, kata Elliptic" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Keamanan</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~6 menit baca</span></div>
+          <h3><a href="/id/articles/binance-hack-north-korea-memecoin-laundering-nov-2026">Korea Utara membuat memecoin untuk mencuci hasil peretasan Binance senilai US$6,4 miliar, kata Elliptic</a></h3>
+          <p>Elliptic melacak dana curian dari Binance melalui enam memecoin buatan sendiri di NEAR, sementara sekitar US$2,85 miliar hasil curian masih dibekukan.</p>
+          <a class="read-more" href="/id/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/what-is-a-crypto-wallet-custodial-vs-self-custody/thumb.webp" width="640" height="360" alt="Apa itu dompet kripto? Kustodian vs. self-custody, penjelasan untuk pemula" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Panduan pemula</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~8 menit baca</span></div>
+          <h3><a href="/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">Apa itu dompet kripto? Kustodian vs. self-custody, penjelasan untuk pemula</a></h3>
+          <p>Dompet tidak menyimpan koin, melainkan kunci. Pelajari perbedaan dompet kustodian dan self-custody, apa itu frasa pemulihan, dan cara memulai dengan aman.</p>
+          <a class="read-more" href="/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/id/articles/how-much-bitcoin-should-a-beginner-buy-dca" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/how-much-bitcoin-should-a-beginner-buy-dca/thumb.webp" width="640" height="360" alt="Berapa banyak Bitcoin yang sebaiknya dibeli pemula? Panduan sederhana dollar-cost averaging (DCA)" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Panduan pemula</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~8 menit baca</span></div>
+          <h3><a href="/id/articles/how-much-bitcoin-should-a-beginner-buy-dca">Berapa banyak Bitcoin yang sebaiknya dibeli pemula? Panduan sederhana dollar-cost averaging (DCA)</a></h3>
+          <p>Tidak ada yang bisa menyebut jumlah yang tepat, tetapi Anda bisa memilih cara yang masuk akal untuk menentukannya. Kami menjelaskan dollar-cost averaging (DCA), mengujinya pada harga nyata, dan menunjukkan cara mengatur pembelian berulang.</p>
+          <a class="read-more" href="/id/articles/how-much-bitcoin-should-a-beginner-buy-dca" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/id/articles/is-coinbase-safe-for-beginners" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/is-coinbase-safe-for-beginners/thumb.webp" width="640" height="360" alt="Apakah Coinbase aman untuk pemula? Apa yang dilindungi, apa yang tidak, dan cara menurunkan risiko" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Panduan pemula</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~8 menit baca</span></div>
+          <h3><a href="/id/articles/is-coinbase-safe-for-beginners">Apakah Coinbase aman untuk pemula? Apa yang dilindungi, apa yang tidak, dan cara menurunkan risiko</a></h3>
+          <p>Pemeriksaan keamanan Coinbase yang mudah dipahami: cara menyimpan kripto, apa yang diasuransikan dan tidak, apa itu kebocoran data 2025, dan daftar periksa untuk melindungi akun Anda.</p>
+          <a class="read-more" href="/id/articles/is-coinbase-safe-for-beginners" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/id/articles/coinbase-occ-national-trust-charter-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/coinbase-occ-national-trust-charter-nov-2026/thumb.webp" width="640" height="360" alt="Coinbase raih piagam penuh bank trust nasional dari OCC: apa artinya" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Regulasi</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~6 menit baca</span></div>
+          <h3><a href="/id/articles/coinbase-occ-national-trust-charter-nov-2026">Coinbase raih piagam penuh bank trust nasional dari OCC: apa artinya</a></h3>
+          <p>OCC menyetujui Coinbase National Trust Company pada 6 November; layanan kustodi kripto institusional Coinbase kini di bawah pengawasan bank federal. Ini cakupan piagamnya.</p>
+          <a class="read-more" href="/id/articles/coinbase-occ-national-trust-charter-nov-2026" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/id/articles/fincen-fed-withdraw-250-travel-rule-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/fincen-fed-withdraw-250-travel-rule-nov-2026/thumb.webp" width="640" height="360" alt="FinCEN dan The Fed batalkan rencana Travel Rule US$250 — ambang US$3.000 tetap berlaku" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Regulasi</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~7 menit baca</span></div>
+          <h3><a href="/id/articles/fincen-fed-withdraw-250-travel-rule-nov-2026">FinCEN dan The Fed batalkan rencana Travel Rule US$250 — ambang US$3.000 tetap berlaku</a></h3>
+          <p>Regulator AS menarik usulan tahun 2020 yang akan menurunkan ambang lintas negara menjadi US$250 dan menghapus redaksi khusus kripto. Apa yang berubah — dan apa yang tidak.</p>
+          <a class="read-more" href="/id/articles/fincen-fed-withdraw-250-travel-rule-nov-2026" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/id/articles/bitcoin-loses-50-week-moving-average-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/bitcoin-loses-50-week-moving-average-nov-2026/thumb.webp" width="640" height="360" alt="Bitcoin kehilangan rata-rata bergerak 50 minggu saat likuidasi posisi long tembus US$1 miliar" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Pasar</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~7 menit baca</span></div>
+          <h3><a href="/id/articles/bitcoin-loses-50-week-moving-average-nov-2026">Bitcoin kehilangan rata-rata bergerak 50 minggu saat likuidasi posisi long tembus US$1 miliar</a></h3>
+          <p>BTC ditutup di bawah sekitar US$75.488 setelah tujuh minggu di atas garis itu, sementara CoinGlass mencatat likuidasi US$1,15 miliar. Apa arti titik pantau Galaxy selanjutnya.</p>
+          <a class="read-more" href="/id/articles/bitcoin-loses-50-week-moving-average-nov-2026" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/id/articles/pnc-coinbase-usdc-payments-pilot-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/pnc-coinbase-usdc-payments-pilot-nov-2026/thumb.webp" width="640" height="360" alt="PNC Bank uji coba pembayaran USDC bersama Coinbase untuk klien korporasi" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Bisnis</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~7 menit baca</span></div>
+          <h3><a href="/id/articles/pnc-coinbase-usdc-payments-pilot-nov-2026">PNC Bank uji coba pembayaran USDC bersama Coinbase untuk klien korporasi</a></h3>
+          <p>Korporasi yang memenuhi syarat bisa menerima USDC di Ethereum lewat Coinbase Payments, dengan konversi otomatis 1:1 menjadi simpanan dolar di PNC.</p>
+          <a class="read-more" href="/id/articles/pnc-coinbase-usdc-payments-pilot-nov-2026" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/id/articles/bitcoin-volatility-liquidations-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/bitcoin-volatility-liquidations-nov-2026/thumb.webp" width="640" height="360" alt="Ayunan bitcoin di akhir pekan: US$1 miliar terlikuidasi saat berita Nvidia menekan aset berisiko" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Rangkuman pasar</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~7 menit baca</span></div>
+          <h3><a href="/id/articles/bitcoin-volatility-liquidations-nov-2026">Ayunan bitcoin di akhir pekan: US$1 miliar terlikuidasi saat berita Nvidia menekan aset berisiko</a></h3>
+          <p>BTC sempat turun ke ~US$73.761 sebelum kembali ke US$75.000. Apa yang mendorong pergerakan ini, siapa yang terlikuidasi, dan apa yang dipantau trader.</p>
+          <a class="read-more" href="/id/articles/bitcoin-volatility-liquidations-nov-2026" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/id/articles/how-to-buy-first-bitcoin-coinbase" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/how-to-buy-first-bitcoin-coinbase/thumb.webp" width="640" height="360" alt="Cara membeli bitcoin pertama Anda di Coinbase (panduan pemula di AS)" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Panduan pemula</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~8 menit baca</span></div>
+          <h3><a href="/id/articles/how-to-buy-first-bitcoin-coinbase">Cara membeli bitcoin pertama Anda di Coinbase (panduan pemula di AS)</a></h3>
+          <p>Panduan langkah demi langkah: buat akun, verifikasi identitas, tambahkan metode pembayaran, lakukan pembelian pertama dalam jumlah kecil, dan perhatikan biaya serta keamanan.</p>
+          <a class="read-more" href="/id/articles/how-to-buy-first-bitcoin-coinbase" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <details class="older">
+        <summary>Artikel sebelumnya</summary>
+        <div class="article-grid">
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/id/articles/us-midterms-crypto-regulation-etf-outflows" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/us-midterms-crypto-regulation-etf-outflows/thumb.webp" width="640" height="360" alt="Setelah pemilu paruh waktu: arus keluar ETF dan aturan kripto yang lebih ketat di depan?" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Regulasi &amp; pasar</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~8 menit baca</span></div>
+          <h3><a href="/id/articles/us-midterms-crypto-regulation-etf-outflows">Setelah pemilu paruh waktu: arus keluar ETF dan aturan kripto yang lebih ketat di depan?</a></h3>
+          <p>ETF bitcoin spot baru saja mencatat arus keluar mingguan terbesar sejak Juni. Pasar memperhitungkan ketidakpastian regulasi ketika Demokrat bersiap memimpin Kongres.</p>
+          <a class="read-more" href="/id/articles/us-midterms-crypto-regulation-etf-outflows" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/id/articles/bitcoin-etf-vs-buying-bitcoin" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/bitcoin-etf-vs-buying-bitcoin/thumb.webp" width="640" height="360" alt="Bitcoin ETF vs membeli bitcoin: mana yang masuk akal untuk pemula AS?" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Panduan pemula</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~9 menit baca</span></div>
+          <h3><a href="/id/articles/bitcoin-etf-vs-buying-bitcoin">Bitcoin ETF vs membeli bitcoin: mana yang masuk akal untuk pemula AS?</a></h3>
+          <p>ETF bitcoin spot memberikan eksposur harga di dalam akun broker. Membeli bitcoin memberi Anda aset itu sendiri. Berikut cara pemula AS dapat membandingkan hak asuh, biaya, Ira, dan pajak.</p>
+          <a class="read-more" href="/id/articles/bitcoin-etf-vs-buying-bitcoin" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/id/articles/coinbase-fees-explained" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/coinbase-fees-explained/thumb.webp" width="640" height="360" alt="Biaya Coinbase dijelaskan: spread, Advanced maker/taker, dan apa yang sebenarnya dibayar oleh pemula" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Panduan pemula</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~9 menit baca</span></div>
+          <h3><a href="/id/articles/coinbase-fees-explained">Biaya Coinbase dijelaskan: spread, Advanced maker/taker, dan apa yang sebenarnya dibayar oleh pemula</a></h3>
+          <p>Perincian biaya Coinbase dalam bahasa Inggris sederhana: spread variabel pada pembelian dan penjualan sederhana, tingkatan pembuat/pengambil tingkat lanjut, Coinbase One, dan cara membandingkan biaya di layar pratinjau.</p>
+          <a class="read-more" href="/id/articles/coinbase-fees-explained" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/id/articles/how-to-cash-out-bitcoin-coinbase-to-bank" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/how-to-cash-out-bitcoin-coinbase-to-bank/thumb.webp" width="640" height="360" alt="Cara mencairkan bitcoin di Coinbase ke bank Anda (langkah, waktu, dan pajak AS)" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Panduan pemula</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 November 2026</time><span class="sep" aria-hidden="true"> · </span><span>~9 menit baca</span></div>
+          <h3><a href="/id/articles/how-to-cash-out-bitcoin-coinbase-to-bank">Cara mencairkan bitcoin di Coinbase ke bank Anda (langkah, waktu, dan pajak AS)</a></h3>
+          <p>Langkah demi langkah untuk pengguna AS: jual bitcoin ke saldo tunai Coinbase Anda, tarik ke bank yang terhubung melalui ACH atau pencairan instan, dan catat dasar - dasar pelaporan pajak.</p>
+          <a class="read-more" href="/id/articles/how-to-cash-out-bitcoin-coinbase-to-bank" tabindex="-1" aria-hidden="true">Baca artikel →</a>
+        </div>
+      </article>
+        </div>
+      </details>
+  <!-- /i18n:articles -->
+      </div>
+    </section>
+
+    <section id="guides" class="wrap section" aria-labelledby="guides-title">
+      <div class="section-head"><h2 id="guides-title">Panduan pemula</h2></div>
+      <ul class="guide-list">
+        <li><a href="/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody"><span class="guide-n" aria-hidden="true">01</span><span class="guide-t">Apa itu dompet kripto? Kustodian vs. self-custody, penjelasan untuk pemula</span><span class="guide-m">~8 menit baca</span></a></li>
+        <li><a href="/id/articles/how-much-bitcoin-should-a-beginner-buy-dca"><span class="guide-n" aria-hidden="true">02</span><span class="guide-t">Berapa banyak Bitcoin yang sebaiknya dibeli pemula? Panduan sederhana dollar-cost averaging (DCA)</span><span class="guide-m">~8 menit baca</span></a></li>
+        <li><a href="/id/articles/is-coinbase-safe-for-beginners"><span class="guide-n" aria-hidden="true">03</span><span class="guide-t">Apakah Coinbase aman untuk pemula? Apa yang dilindungi, apa yang tidak, dan cara menurunkan risiko</span><span class="guide-m">~8 menit baca</span></a></li>
+        <li><a href="/id/articles/how-to-buy-first-bitcoin-coinbase"><span class="guide-n" aria-hidden="true">04</span><span class="guide-t">Cara membeli bitcoin pertama Anda di Coinbase (panduan pemula di AS)</span><span class="guide-m">~8 menit baca</span></a></li>
+        <li><a href="/id/articles/bitcoin-etf-vs-buying-bitcoin"><span class="guide-n" aria-hidden="true">05</span><span class="guide-t">Bitcoin ETF vs membeli bitcoin: mana yang masuk akal untuk pemula AS?</span><span class="guide-m">~9 menit baca</span></a></li>
+        <li><a href="/id/articles/coinbase-fees-explained"><span class="guide-n" aria-hidden="true">06</span><span class="guide-t">Biaya Coinbase dijelaskan: spread, Advanced maker/taker, dan apa yang sebenarnya dibayar oleh pemula</span><span class="guide-m">~9 menit baca</span></a></li>
+        <li><a href="/id/articles/how-to-cash-out-bitcoin-coinbase-to-bank"><span class="guide-n" aria-hidden="true">07</span><span class="guide-t">Cara mencairkan bitcoin di Coinbase ke bank Anda (langkah, waktu, dan pajak AS)</span><span class="guide-m">~9 menit baca</span></a></li>
+      </ul>
+    </section>
+
+    <section class="wrap loop">
   <!-- i18n:community -->
       <aside class="community-box home-community" aria-label="Tautan komunitas">
         <h2>Gabung komunitas</h2>
@@ -98,212 +446,6 @@
         <div class="community-links"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
       </aside>
   <!-- /i18n:community -->
-    <section id="articles" class="wrap article-grid" aria-label="Artikel">
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/binance-blocks-mexc-fincen-order-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/binance-blocks-mexc-fincen-order-nov-2026/thumb.webp" width="640" height="360" alt="Binance memblokir transfer dengan MEXC setelah perintah Departemen Keuangan AS soal dugaan aliran dana ilegal US$16,7 miliar" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Regulasi · 10 November 2026 · ~5 menit baca</div>
-          <h2><a href="/id/articles/binance-blocks-mexc-fincen-order-nov-2026">Binance memblokir transfer dengan MEXC setelah perintah Departemen Keuangan AS soal dugaan aliran dana ilegal US$16,7 miliar</a></h2>
-          <p>Binance akan menolak pengiriman ke MEXC dan menahan setoran dari sana untuk ditinjau, setelah perintah FinCEN yang memutus MEXC dari perusahaan AS mulai 10 Desember.</p>
-          <a class="read-more" href="/id/articles/binance-blocks-mexc-fincen-order-nov-2026">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/banks-270-million-stablecoin-project-faro-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/banks-270-million-stablecoin-project-faro-nov-2026/thumb.webp" width="640" height="360" alt="Goldman Sachs, Citi, dan bank lain dikabarkan menyiapkan US$270 juta untuk stablecoin dolar bersama" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Bisnis · 10 November 2026 · ~4 menit baca</div>
-          <h2><a href="/id/articles/banks-270-million-stablecoin-project-faro-nov-2026">Goldman Sachs, Citi, dan bank lain dikabarkan menyiapkan US$270 juta untuk stablecoin dolar bersama</a></h2>
-          <p>Bank-bank besar dikabarkan menyiapkan sekitar US$270 juta untuk Project Faro, stablecoin dolar bersama yang ditargetkan meluncur pada paruh pertama 2027 untuk menyaingi Tether dan Circle.</p>
-          <a class="read-more" href="/id/articles/banks-270-million-stablecoin-project-faro-nov-2026">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/bitcoin-hot-cpi-etf-outflows-nov-2026/thumb.webp" width="640" height="360" alt="Bitcoin turun ke arah US$73.400 setelah inflasi Oktober lebih tinggi dari perkiraan" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Pasar · 10 November 2026 · ~5 menit baca</div>
-          <h2><a href="/id/articles/bitcoin-hot-cpi-etf-outflows-nov-2026">Bitcoin turun ke arah US$73.400 setelah inflasi Oktober lebih tinggi dari perkiraan</a></h2>
-          <p>CPI Oktober naik 0,4%, di atas perkiraan. Bitcoin turun ke sekitar US$73.400 karena pelaku pasar bertaruh The Fed menaikkan suku bunga pada Desember dan arus keluar ETF berlanjut.</p>
-          <a class="read-more" href="/id/articles/bitcoin-hot-cpi-etf-outflows-nov-2026">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/binance-hack-north-korea-memecoin-laundering-nov-2026/thumb.webp" width="640" height="360" alt="Korea Utara membuat memecoin untuk mencuci hasil peretasan Binance senilai US$6,4 miliar, kata Elliptic" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Keamanan · 9 November 2026 · ~6 menit baca</div>
-          <h2><a href="/id/articles/binance-hack-north-korea-memecoin-laundering-nov-2026">Korea Utara membuat memecoin untuk mencuci hasil peretasan Binance senilai US$6,4 miliar, kata Elliptic</a></h2>
-          <p>Elliptic melacak dana curian dari Binance melalui enam memecoin buatan sendiri di NEAR, sementara sekitar US$2,85 miliar hasil curian masih dibekukan.</p>
-          <a class="read-more" href="/id/articles/binance-hack-north-korea-memecoin-laundering-nov-2026">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/what-is-a-crypto-wallet-custodial-vs-self-custody/thumb.webp" width="640" height="360" alt="Apa itu dompet kripto? Kustodian vs. self-custody, penjelasan untuk pemula" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Panduan pemula · 9 November 2026 · ~8 menit baca</div>
-          <h2><a href="/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">Apa itu dompet kripto? Kustodian vs. self-custody, penjelasan untuk pemula</a></h2>
-          <p>Dompet tidak menyimpan koin, melainkan kunci. Pelajari perbedaan dompet kustodian dan self-custody, apa itu frasa pemulihan, dan cara memulai dengan aman.</p>
-          <a class="read-more" href="/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/how-much-bitcoin-should-a-beginner-buy-dca" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/how-much-bitcoin-should-a-beginner-buy-dca/thumb.webp" width="640" height="360" alt="Berapa banyak Bitcoin yang sebaiknya dibeli pemula? Panduan sederhana dollar-cost averaging (DCA)" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Panduan pemula · 9 November 2026 · ~8 menit baca</div>
-          <h2><a href="/id/articles/how-much-bitcoin-should-a-beginner-buy-dca">Berapa banyak Bitcoin yang sebaiknya dibeli pemula? Panduan sederhana dollar-cost averaging (DCA)</a></h2>
-          <p>Tidak ada yang bisa menyebut jumlah yang tepat, tetapi Anda bisa memilih cara yang masuk akal untuk menentukannya. Kami menjelaskan dollar-cost averaging (DCA), mengujinya pada harga nyata, dan menunjukkan cara mengatur pembelian berulang.</p>
-          <a class="read-more" href="/id/articles/how-much-bitcoin-should-a-beginner-buy-dca">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/is-coinbase-safe-for-beginners" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/is-coinbase-safe-for-beginners/thumb.webp" width="640" height="360" alt="Apakah Coinbase aman untuk pemula? Apa yang dilindungi, apa yang tidak, dan cara menurunkan risiko" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Panduan pemula · 9 November 2026 · ~8 menit baca</div>
-          <h2><a href="/id/articles/is-coinbase-safe-for-beginners">Apakah Coinbase aman untuk pemula? Apa yang dilindungi, apa yang tidak, dan cara menurunkan risiko</a></h2>
-          <p>Pemeriksaan keamanan Coinbase yang mudah dipahami: cara menyimpan kripto, apa yang diasuransikan dan tidak, apa itu kebocoran data 2025, dan daftar periksa untuk melindungi akun Anda.</p>
-          <a class="read-more" href="/id/articles/is-coinbase-safe-for-beginners">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/coinbase-occ-national-trust-charter-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/coinbase-occ-national-trust-charter-nov-2026/thumb.webp" width="640" height="360" alt="Coinbase raih piagam penuh bank trust nasional dari OCC: apa artinya" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Regulasi · 9 November 2026 · ~6 menit baca</div>
-          <h2><a href="/id/articles/coinbase-occ-national-trust-charter-nov-2026">Coinbase raih piagam penuh bank trust nasional dari OCC: apa artinya</a></h2>
-          <p>OCC menyetujui Coinbase National Trust Company pada 6 November; layanan kustodi kripto institusional Coinbase kini di bawah pengawasan bank federal. Ini cakupan piagamnya.</p>
-          <a class="read-more" href="/id/articles/coinbase-occ-national-trust-charter-nov-2026">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/fincen-fed-withdraw-250-travel-rule-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/fincen-fed-withdraw-250-travel-rule-nov-2026/thumb.webp" width="640" height="360" alt="FinCEN dan The Fed batalkan rencana Travel Rule US$250 — ambang US$3.000 tetap berlaku" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Regulasi · 9 November 2026 · ~7 menit baca</div>
-          <h2><a href="/id/articles/fincen-fed-withdraw-250-travel-rule-nov-2026">FinCEN dan The Fed batalkan rencana Travel Rule US$250 — ambang US$3.000 tetap berlaku</a></h2>
-          <p>Regulator AS menarik usulan tahun 2020 yang akan menurunkan ambang lintas negara menjadi US$250 dan menghapus redaksi khusus kripto. Apa yang berubah — dan apa yang tidak.</p>
-          <a class="read-more" href="/id/articles/fincen-fed-withdraw-250-travel-rule-nov-2026">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/bitcoin-loses-50-week-moving-average-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/bitcoin-loses-50-week-moving-average-nov-2026/thumb.webp" width="640" height="360" alt="Bitcoin kehilangan rata-rata bergerak 50 minggu saat likuidasi posisi long tembus US$1 miliar" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Pasar · 9 November 2026 · ~7 menit baca</div>
-          <h2><a href="/id/articles/bitcoin-loses-50-week-moving-average-nov-2026">Bitcoin kehilangan rata-rata bergerak 50 minggu saat likuidasi posisi long tembus US$1 miliar</a></h2>
-          <p>BTC ditutup di bawah sekitar US$75.488 setelah tujuh minggu di atas garis itu, sementara CoinGlass mencatat likuidasi US$1,15 miliar. Apa arti titik pantau Galaxy selanjutnya.</p>
-          <a class="read-more" href="/id/articles/bitcoin-loses-50-week-moving-average-nov-2026">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/pnc-coinbase-usdc-payments-pilot-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/pnc-coinbase-usdc-payments-pilot-nov-2026/thumb.webp" width="640" height="360" alt="PNC Bank uji coba pembayaran USDC bersama Coinbase untuk klien korporasi" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Bisnis · 9 November 2026 · ~7 menit baca</div>
-          <h2><a href="/id/articles/pnc-coinbase-usdc-payments-pilot-nov-2026">PNC Bank uji coba pembayaran USDC bersama Coinbase untuk klien korporasi</a></h2>
-          <p>Korporasi yang memenuhi syarat bisa menerima USDC di Ethereum lewat Coinbase Payments, dengan konversi otomatis 1:1 menjadi simpanan dolar di PNC.</p>
-          <a class="read-more" href="/id/articles/pnc-coinbase-usdc-payments-pilot-nov-2026">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/bitcoin-volatility-liquidations-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/bitcoin-volatility-liquidations-nov-2026/thumb.webp" width="640" height="360" alt="Ayunan bitcoin di akhir pekan: US$1 miliar terlikuidasi saat berita Nvidia menekan aset berisiko" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Rangkuman pasar · 9 November 2026 · ~7 menit baca</div>
-          <h2><a href="/id/articles/bitcoin-volatility-liquidations-nov-2026">Ayunan bitcoin di akhir pekan: US$1 miliar terlikuidasi saat berita Nvidia menekan aset berisiko</a></h2>
-          <p>BTC sempat turun ke ~US$73.761 sebelum kembali ke US$75.000. Apa yang mendorong pergerakan ini, siapa yang terlikuidasi, dan apa yang dipantau trader.</p>
-          <a class="read-more" href="/id/articles/bitcoin-volatility-liquidations-nov-2026">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/how-to-buy-first-bitcoin-coinbase" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/how-to-buy-first-bitcoin-coinbase/thumb.webp" width="640" height="360" alt="Cara membeli bitcoin pertama Anda di Coinbase (panduan pemula di AS)" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Panduan pemula · 9 November 2026 · ~8 menit baca</div>
-          <h2><a href="/id/articles/how-to-buy-first-bitcoin-coinbase">Cara membeli bitcoin pertama Anda di Coinbase (panduan pemula di AS)</a></h2>
-          <p>Panduan langkah demi langkah: buat akun, verifikasi identitas, tambahkan metode pembayaran, lakukan pembelian pertama dalam jumlah kecil, dan perhatikan biaya serta keamanan.</p>
-          <a class="read-more" href="/id/articles/how-to-buy-first-bitcoin-coinbase">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/us-midterms-crypto-regulation-etf-outflows" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/us-midterms-crypto-regulation-etf-outflows/thumb.webp" width="640" height="360" alt="Setelah pemilu paruh waktu: arus keluar ETF dan aturan kripto yang lebih ketat di depan?" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Regulasi &amp; pasar · 9 November 2026 · ~8 menit baca</div>
-          <h2><a href="/id/articles/us-midterms-crypto-regulation-etf-outflows">Setelah pemilu paruh waktu: arus keluar ETF dan aturan kripto yang lebih ketat di depan?</a></h2>
-          <p>ETF bitcoin spot baru saja mencatat arus keluar mingguan terbesar sejak Juni. Pasar memperhitungkan ketidakpastian regulasi ketika Demokrat bersiap memimpin Kongres.</p>
-          <a class="read-more" href="/id/articles/us-midterms-crypto-regulation-etf-outflows">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/bitcoin-etf-vs-buying-bitcoin" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/bitcoin-etf-vs-buying-bitcoin/thumb.webp" width="640" height="360" alt="Bitcoin ETF vs membeli bitcoin: mana yang masuk akal untuk pemula AS?" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Panduan pemula · 9 November 2026 · ~9 menit baca</div>
-          <h2><a href="/id/articles/bitcoin-etf-vs-buying-bitcoin">Bitcoin ETF vs membeli bitcoin: mana yang masuk akal untuk pemula AS?</a></h2>
-          <p>ETF bitcoin spot memberikan eksposur harga di dalam akun broker. Membeli bitcoin memberi Anda aset itu sendiri. Berikut cara pemula AS dapat membandingkan hak asuh, biaya, Ira, dan pajak.</p>
-          <a class="read-more" href="/id/articles/bitcoin-etf-vs-buying-bitcoin">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/coinbase-fees-explained" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/coinbase-fees-explained/thumb.webp" width="640" height="360" alt="Biaya Coinbase dijelaskan: spread, Advanced maker/taker, dan apa yang sebenarnya dibayar oleh pemula" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Panduan pemula · 9 November 2026 · ~9 menit baca</div>
-          <h2><a href="/id/articles/coinbase-fees-explained">Biaya Coinbase dijelaskan: spread, Advanced maker/taker, dan apa yang sebenarnya dibayar oleh pemula</a></h2>
-          <p>Perincian biaya Coinbase dalam bahasa Inggris sederhana: spread variabel pada pembelian dan penjualan sederhana, tingkatan pembuat/pengambil tingkat lanjut, Coinbase One, dan cara membandingkan biaya di layar pratinjau.</p>
-          <a class="read-more" href="/id/articles/coinbase-fees-explained">Baca artikel →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/id/articles/how-to-cash-out-bitcoin-coinbase-to-bank" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/how-to-cash-out-bitcoin-coinbase-to-bank/thumb.webp" width="640" height="360" alt="Cara mencairkan bitcoin di Coinbase ke bank Anda (langkah, waktu, dan pajak AS)" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Panduan pemula · 9 November 2026 · ~9 menit baca</div>
-          <h2><a href="/id/articles/how-to-cash-out-bitcoin-coinbase-to-bank">Cara mencairkan bitcoin di Coinbase ke bank Anda (langkah, waktu, dan pajak AS)</a></h2>
-          <p>Langkah demi langkah untuk pengguna AS: jual bitcoin ke saldo tunai Coinbase Anda, tarik ke bank yang terhubung melalui ACH atau pencairan instan, dan catat dasar - dasar pelaporan pajak.</p>
-          <a class="read-more" href="/id/articles/how-to-cash-out-bitcoin-coinbase-to-bank">Baca artikel →</a>
-        </div>
-      </article>
-    </section>
-
   <!-- i18n:newsletter -->
       <aside class="newsletter-box" aria-labelledby="nl-title">
         <h2 id="nl-title">Dapatkan artikel baru lewat email</h2>
@@ -320,8 +462,9 @@
         <p class="nl-note">Kami hanya memakai email Anda untuk mengirim pembaruan artikel PlainBTC. Perlu konfirmasi. <a href="/id/disclosure">Detail privasi</a></p>
       </aside>
   <!-- /i18n:newsletter -->
+    </section>
 
-    <section id="about" class="wrap" style="padding-bottom:3rem;">
+    <section id="about" class="wrap about-box">
       <div class="disclosure">
         <strong>Tentang situs ini.</strong> PlainBTC adalah blog informasi independen. Pada versi bahasa Indonesia ini tidak ada tautan referral. Tidak ada yang di sini merupakan nasihat keuangan, investasi, hukum, atau pajak. Baca halaman <a href="/id/about">Tentang</a> dan <a href="/id/disclosure">Keterbukaan</a> kami.
       </div>
@@ -329,8 +472,12 @@
   </main>
 
   <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
     <div class="wrap inner">
-      <div>© 2026 PlainBTC · berita Bitcoin dan kripto dengan bahasa sederhana untuk pemula</div>
+      <div class="footer-brand">
+        <a class="logo" href="/id/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · berita Bitcoin dan kripto dengan bahasa sederhana untuk pemula</p>
+      </div>
       <nav class="footer-nav" aria-label="Footer">
         <a href="/id/">Beranda</a>
         <a href="/id/about">Tentang</a>
@@ -344,7 +491,8 @@
   <!-- i18n:footerlangs -->
   <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/" lang="en" hreflang="en">English</a> <a href="/es/" lang="es" hreflang="es">Español</a> <a href="/pt/" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/" lang="fr" hreflang="fr">Français</a> <a href="/de/" lang="de" hreflang="de">Deutsch</a> <a href="/ru/" lang="ru" hreflang="ru">Русский</a> <a href="/tr/" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/" lang="ja" hreflang="ja">日本語</a> <a href="/ko/" lang="ko" hreflang="ko">한국어</a></nav></div>
   <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">Kembali ke atas <span aria-hidden="true">↑</span></a></div>
   </footer>
-  <script src="/assets/site.20261109i.js" defer></script>
+  <script src="/assets/site.7c90358c6e.js" defer></script>
 </body>
 </html>

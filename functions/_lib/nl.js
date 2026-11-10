@@ -39,17 +39,21 @@ export async function ipHash(request) {
 
 const escH = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-/** Small standalone localized status page (inline styles; matches the site's dark theme). */
+/** Small standalone localized status page (inline styles; same paper / ink / orange look as the site). */
 export function statusPage(lang, title, text, ok, status = 200) {
   const L = pickLang(lang);
   const s = NL[L];
   const html = `<!doctype html><html lang="${L}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow"><title>${escH(title)} — PlainBTC</title>
-<style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0f1419;color:#e8eef6;font:17px/1.6 "Segoe UI",system-ui,-apple-system,sans-serif;padding:1rem}
-.box{max-width:480px;width:100%;background:#1a2332;border:1px solid #2d3a4f;border-radius:12px;padding:1.75rem}
-h1{margin:0 0 .6rem;font-size:1.35rem}p{margin:0 0 1.2rem;color:#9aa8bc}.i{font-size:2rem;margin-bottom:.4rem}
-a.b{display:inline-block;background:#3b82f6;color:#fff;font-weight:650;padding:.65rem 1.1rem;border-radius:8px;text-decoration:none}a.b:hover{background:#60a5fa}</style></head>
-<body><main class="box"><div class="i" aria-hidden="true">${ok ? "✅" : "⚠️"}</div><h1>${escH(title)}</h1><p>${escH(text)}</p>
+<meta name="robots" content="noindex,nofollow"><meta name="color-scheme" content="light dark"><title>${escH(title)} — PlainBTC</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<style>:root{--p:#f4efe4;--c:#fbf8f1;--i:#0b1630;--m:#636c82;--l:rgba(11,22,48,.14)}
+@media (prefers-color-scheme:dark){:root{--p:#080e1d;--c:#0f1930;--i:#f3eee2;--m:#8f98ae;--l:rgba(243,238,226,.13)}}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--p);color:var(--i);font:18px/1.6 Georgia,"Times New Roman",serif;padding:1rem}
+.box{max-width:500px;width:100%;background:var(--c);border:1px solid var(--l);border-top:4px solid ${ok ? "#f7931a" : "#b3261e"};border-radius:14px;padding:2rem}
+.k{font:700 11px/1 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--m);margin-bottom:1rem}
+h1{margin:0 0 .6rem;font-size:1.7rem;line-height:1.1;letter-spacing:-.02em}p{margin:0 0 1.4rem;color:var(--m)}
+a.b{display:inline-block;background:#f7931a;color:#0b1630;font:700 12px/1.2 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.07em;text-transform:uppercase;padding:.95rem 1.3rem;border-radius:999px;text-decoration:none}a.b:hover{background:#ffa63a}</style></head>
+<body><main class="box"><div class="k">PlainBTC</div><h1>${escH(title)}</h1><p>${escH(text)}</p>
 <a class="b" href="${escH(s.home)}">${escH(s.page_home)}</a></main></body></html>`;
   return new Response(html, {
     status,

@@ -3,11 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="preload" href="/assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.68d4081cdd.css">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (English)" href="/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109g.css">
-  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
   <title>How much Bitcoin should a beginner buy? Dollar-cost averaging explained | PlainBTC</title>
   <meta name="description" content="How much Bitcoin should a beginner buy? Learn dollar-cost averaging with real price data, its pros and cons, and how to set up a recurring buy on Coinbase.">
   <link rel="canonical" href="https://plainbtc.com/articles/how-much-bitcoin-should-a-beginner-buy-dca">
@@ -41,30 +50,40 @@
   <meta property="og:locale" content="en_US">
   <meta property="article:published_time" content="2026-11-09">
   <meta property="og:image" content="https://plainbtc.com/assets/og/how-much-bitcoin-should-a-beginner-buy-dca.png">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="How much Bitcoin should a beginner buy? A plain-English guide to dollar-cost averaging">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
   <meta name="twitter:image" content="https://plainbtc.com/assets/og/how-much-bitcoin-should-a-beginner-buy-dca.png">
   <meta name="twitter:title" content="How much Bitcoin should a beginner buy? A plain-English guide to dollar-cost averaging">
   <meta name="twitter:description" content="There is no single right amount. Here is how to think about it, what dollar-cost averaging does and doesn’t do, and how to start small.">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "NewsArticle",
+    "@type": "Article",
     "headline": "How much Bitcoin should a beginner buy? A plain-English guide to dollar-cost averaging",
     "name": "How much Bitcoin should a beginner buy? Dollar-cost averaging explained | PlainBTC",
     "description": "How much Bitcoin should a beginner buy? Learn dollar-cost averaging with real price data, its pros and cons, and how to set up a recurring buy on Coinbase.",
-    "datePublished": "2026-11-09",
-    "dateModified": "2026-11-09",
+    "datePublished": "2026-11-09T19:48:00+00:00",
+    "dateModified": "2026-11-09T19:48:00+00:00",
     "author": {
       "@type": "Organization",
-      "name": "PlainBTC"
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/"
     },
     "publisher": {
       "@type": "Organization",
+      "@id": "https://plainbtc.com/#organization",
       "name": "PlainBTC",
       "url": "https://plainbtc.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://plainbtc.com/assets/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
       "sameAs": [
         "https://discord.gg/EcuGXPDr2d",
         "https://www.facebook.com/groups/1688106109771364",
@@ -76,8 +95,15 @@
       "@id": "https://plainbtc.com/articles/how-much-bitcoin-should-a-beginner-buy-dca"
     },
     "url": "https://plainbtc.com/articles/how-much-bitcoin-should-a-beginner-buy-dca",
-    "image": "https://plainbtc.com/assets/og/how-much-bitcoin-should-a-beginner-buy-dca.png",
-    "inLanguage": "en"
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/og/how-much-bitcoin-should-a-beginner-buy-dca.png",
+      "width": 1200,
+      "height": 630
+    },
+    "inLanguage": "en",
+    "articleSection": "Beginner guide",
+    "isAccessibleForFree": true
   }
   </script>
   <script type="application/ld+json">
@@ -206,28 +232,47 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap inner">
-      <a class="logo" href="/">Plain<span>BTC</span></a>
+      <a class="logo" href="/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Menu">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
       <nav class="nav" aria-label="Primary">
-        <a href="/">Home</a>
         <a href="/#articles">Articles</a>
+        <a href="/#guides">Guides</a>
         <a href="/about">About</a>
         <a href="/disclosure">Disclosure</a>
       </nav>
+      <div class="header-tools">
       <!-- i18n:langmenu -->
-      <details class="lang-menu"><summary aria-label="Language">🌐 English</summary><ul><li><a href="/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="en" hreflang="en" aria-current="true">English</a></li><li><a href="/es/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <details class="lang-menu"><summary aria-label="Language"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">English</span><span class="lang-code" aria-hidden="true">EN</span></summary><ul><li><a href="/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="en" hreflang="en" aria-current="true">English</a></li><li><a href="/es/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="ko" hreflang="ko">한국어</a></li></ul></details>
       <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="Switch between light and dark theme" title="Switch between light and dark theme" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
     </div>
   </header>
 
-  <main class="article-page">
+  <main class="article-page" id="main" data-toc="On this page" data-nl="Get new articles by email" data-nl-cta="Subscribe" data-close="Close">
     <article class="content">
-      <a class="back" href="/">← All articles</a>
-      <div class="badge">Beginner guide</div>
-      <h1>How much Bitcoin should a beginner buy? A plain-English guide to dollar-cost averaging</h1>
-      <div class="meta">Published Nov 9, 2026 · PlainBTC · United States</div>
-      <img class="og-hero" src="/assets/og/how-much-bitcoin-should-a-beginner-buy-dca.png" width="1200" height="630" alt="How much Bitcoin should a beginner buy? A plain-English guide to dollar-cost averaging" loading="eager">
+      <!-- i18n:arthead -->
+      <header class="article-head">
+        <!-- i18n:crumbs -->
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/#articles">Articles</a></nav>
+        <!-- /i18n:crumbs -->
+        <div class="badge">Beginner guide</div>
+        <h1>How much Bitcoin should a beginner buy? A plain-English guide to dollar-cost averaging</h1>
+        <div class="meta">Published <time datetime="2026-11-09">Nov 9, 2026</time> · PlainBTC · United States<span class="meta-read"> · ~8 min</span></div>
+        <div class="share" role="group" aria-label="Share">
+          <span class="share-label">Share</span>
+          <a class="share-btn" href="https://x.com/intent/post?url=https%3A%2F%2Fplainbtc.com%2Farticles%2Fhow-much-bitcoin-should-a-beginner-buy-dca%3Futm_source%3Dx%26utm_medium%3Dsocial&amp;text=How%20much%20Bitcoin%20should%20a%20beginner%20buy%3F%20A%20plain-English%20guide%20to%20dollar-cost%20averaging" target="_blank" rel="noopener nofollow" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplainbtc.com%2Farticles%2Fhow-much-bitcoin-should-a-beginner-buy-dca%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noopener nofollow" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+          <button class="share-btn share-copy" type="button" data-url="https://plainbtc.com/articles/how-much-bitcoin-should-a-beginner-buy-dca" data-copied="Link copied" aria-label="Copy link" title="Copy link" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/><path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg></button>
+          <span class="share-status" role="status" aria-live="polite"></span>
+        </div>
+      </header>
+      <img class="og-hero" src="/assets/og/how-much-bitcoin-should-a-beginner-buy-dca.png" width="1200" height="630" alt="How much Bitcoin should a beginner buy? A plain-English guide to dollar-cost averaging" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->
 
       <p>“How much Bitcoin should I buy?” is the question almost every beginner asks, and the honest answer is that nobody can tell you a number without knowing your finances. What we can do is show you how to think about the amount, explain a popular approach called dollar-cost averaging, and test it against real price history. This is education, not advice.</p>
 
@@ -277,12 +322,6 @@
         <p>River is a U.S. bitcoin service. If it is available where you live and you decide to open an account, you can use our referral link. Check River’s current terms on their site. This is not investment advice.</p>
         <a class="cta-button" href="https://river.com/invite?r=6N7R4N6F7M" rel="sponsored noopener" target="_blank" data-partner="river">River signup page (referral link)</a>
       </aside>
-
-
-
-
-
-
 
       <p>The results are mixed, and that is the point:</p>
       <ul>
@@ -338,12 +377,6 @@
         <a class="cta-button" href="https://river.com/invite?r=6N7R4N6F7M" rel="sponsored noopener" target="_blank" data-partner="river">River signup page (referral link)</a>
       </div>
 
-
-
-
-
-
-
       <div class="disclosure">
         <strong>Disclosure:</strong> This page contains a River referral link. If you sign up through it and meet River’s current terms, PlainBTC may earn a referral reward at no extra cost to you. See our <a href="/disclosure">full affiliate disclosure</a>.<br><br>
         <strong>Not financial advice.</strong> This guide is educational only. It is not investment, trading, legal, or tax advice. Cryptocurrency is volatile and you can lose money. Confirm current steps, fees, and eligibility in Coinbase’s own help center before acting, and consider professional advice for your situation.
@@ -382,10 +415,6 @@
         </ul>
       </aside>
 
-
-
-
-
       <section class="sources" aria-label="Sources">
         <h2>Sources</h2>
         <ol>
@@ -401,8 +430,12 @@
   </main>
 
   <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
     <div class="wrap inner">
-      <div>© 2026 PlainBTC · plain-English Bitcoin &amp; crypto news for beginners</div>
+      <div class="footer-brand">
+        <a class="logo" href="/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · plain-English Bitcoin &amp; crypto news for beginners</p>
+      </div>
       <nav class="footer-nav" aria-label="Footer">
         <a href="/">Home</a>
         <a href="/about">About</a>
@@ -416,7 +449,8 @@
   <!-- i18n:footerlangs -->
   <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="en" hreflang="en">English</a> <a href="/es/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="es" hreflang="es">Español</a> <a href="/pt/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/how-much-bitcoin-should-a-beginner-buy-dca" lang="ko" hreflang="ko">한국어</a></nav></div>
   <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a></div>
   </footer>
-  <script src="/assets/site.20261109i.js" defer></script>
+  <script src="/assets/site.7c90358c6e.js" defer></script>
 </body>
 </html>

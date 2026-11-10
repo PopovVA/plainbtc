@@ -3,11 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="preload" href="/assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.68d4081cdd.css">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (Bahasa Indonesia)" href="/id/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109g.css">
-  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
   <title>Bitcoin turun setelah CPI Oktober lebih tinggi dari perkiraan | PlainBTC</title>
   <meta name="description" content="Harga konsumen AS naik 0,4% pada Oktober, di atas perkiraan 0,3%. Bitcoin turun ke sekitar US$73.400 seiring menguatnya taruhan kenaikan suku bunga dan berlanjutnya arus keluar ETF.">
   <link rel="canonical" href="https://plainbtc.com/id/articles/bitcoin-hot-cpi-etf-outflows-nov-2026">
@@ -40,11 +49,15 @@
   <meta property="og:site_name" content="PlainBTC">
   <meta property="og:locale" content="id_ID">
   <meta property="article:published_time" content="2026-11-10">
+  <meta property="article:modified_time" content="2026-11-10">
+  <meta property="article:section" content="Pasar">
   <meta property="og:image" content="https://plainbtc.com/assets/og/bitcoin-hot-cpi-etf-outflows-nov-2026.png">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Bitcoin turun ke arah US$73.400 setelah inflasi Oktober lebih tinggi dari perkiraan">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
   <meta name="twitter:image" content="https://plainbtc.com/assets/og/bitcoin-hot-cpi-etf-outflows-nov-2026.png">
   <meta name="twitter:title" content="Bitcoin turun ke arah US$73.400 setelah inflasi Oktober lebih tinggi dari perkiraan">
   <meta name="twitter:description" content="CPI naik 0,4% dibanding perkiraan 0,3%, bitcoin menyentuh US$73.400, dan ETF bitcoin spot telah kehilangan sekitar US$1,5 miliar sejak 2 November.">
@@ -55,16 +68,24 @@
     "headline": "Bitcoin turun ke arah US$73.400 setelah inflasi Oktober lebih tinggi dari perkiraan",
     "name": "Bitcoin turun setelah CPI Oktober lebih tinggi dari perkiraan | PlainBTC",
     "description": "Harga konsumen AS naik 0,4% pada Oktober, di atas perkiraan 0,3%. Bitcoin turun ke sekitar US$73.400 seiring menguatnya taruhan kenaikan suku bunga dan berlanjutnya arus keluar ETF.",
-    "datePublished": "2026-11-10",
-    "dateModified": "2026-11-10",
+    "datePublished": "2026-11-10T14:30:00+00:00",
+    "dateModified": "2026-11-10T14:30:00+00:00",
     "author": {
       "@type": "Organization",
-      "name": "PlainBTC"
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/"
     },
     "publisher": {
       "@type": "Organization",
+      "@id": "https://plainbtc.com/#organization",
       "name": "PlainBTC",
       "url": "https://plainbtc.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://plainbtc.com/assets/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
       "sameAs": [
         "https://discord.gg/EcuGXPDr2d",
         "https://www.facebook.com/groups/1688106109771364",
@@ -76,7 +97,14 @@
       "@id": "https://plainbtc.com/id/articles/bitcoin-hot-cpi-etf-outflows-nov-2026"
     },
     "url": "https://plainbtc.com/id/articles/bitcoin-hot-cpi-etf-outflows-nov-2026",
-    "image": "https://plainbtc.com/assets/og/bitcoin-hot-cpi-etf-outflows-nov-2026.png",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/og/bitcoin-hot-cpi-etf-outflows-nov-2026.png",
+      "width": 1200,
+      "height": 630
+    },
+    "articleSection": "Pasar",
+    "isAccessibleForFree": true,
     "inLanguage": "id"
   }
   </script>
@@ -102,28 +130,47 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Lewati ke konten</a>
   <header class="site-header">
     <div class="wrap inner">
-      <a class="logo" href="/id/">Plain<span>BTC</span></a>
+      <a class="logo" href="/id/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Menu">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
       <nav class="nav" aria-label="Primary">
-        <a href="/id/">Beranda</a>
         <a href="/id/#articles">Artikel</a>
+        <a href="/id/#guides">Panduan</a>
         <a href="/id/about">Tentang</a>
         <a href="/id/disclosure">Keterbukaan</a>
       </nav>
+      <div class="header-tools">
       <!-- i18n:langmenu -->
-      <details class="lang-menu"><summary aria-label="Bahasa">🌐 Bahasa Indonesia</summary><ul><li><a href="/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="id" hreflang="id" aria-current="true">Bahasa Indonesia</a></li><li><a href="/ja/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <details class="lang-menu"><summary aria-label="Bahasa"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">Bahasa Indonesia</span><span class="lang-code" aria-hidden="true">ID</span></summary><ul><li><a href="/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="id" hreflang="id" aria-current="true">Bahasa Indonesia</a></li><li><a href="/ja/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="ko" hreflang="ko">한국어</a></li></ul></details>
       <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="Ganti antara tema terang dan gelap" title="Ganti antara tema terang dan gelap" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
     </div>
   </header>
 
-  <main class="article-page">
+  <main class="article-page" id="main" data-toc="Di halaman ini" data-nl="Dapatkan artikel baru lewat email" data-nl-cta="Berlangganan" data-close="Tutup">
     <article class="content">
-      <a class="back" href="/id/">← Semua artikel</a>
-      <div class="badge">Pasar</div>
-      <h1>Bitcoin turun ke arah US$73.400 setelah inflasi Oktober lebih tinggi dari perkiraan</h1>
-      <div class="meta">Terbit 10 November 2026 · PlainBTC · Amerika Serikat</div>
-      <img class="og-hero" src="/assets/og/bitcoin-hot-cpi-etf-outflows-nov-2026.png" width="1200" height="630" alt="Bitcoin turun ke arah US$73.400 setelah inflasi Oktober lebih tinggi dari perkiraan" loading="eager">
+      <!-- i18n:arthead -->
+      <header class="article-head">
+        <!-- i18n:crumbs -->
+        <nav class="crumbs" aria-label="Jejak navigasi"><a href="/id/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/id/#articles">Artikel</a></nav>
+        <!-- /i18n:crumbs -->
+        <div class="badge">Pasar</div>
+        <h1>Bitcoin turun ke arah US$73.400 setelah inflasi Oktober lebih tinggi dari perkiraan</h1>
+        <div class="meta">Terbit <time datetime="2026-11-10">10 November 2026</time> · PlainBTC · Amerika Serikat<span class="meta-read"> · ~5 menit baca</span></div>
+        <div class="share" role="group" aria-label="Bagikan">
+          <span class="share-label">Bagikan</span>
+          <a class="share-btn" href="https://x.com/intent/post?url=https%3A%2F%2Fplainbtc.com%2Fid%2Farticles%2Fbitcoin-hot-cpi-etf-outflows-nov-2026%3Futm_source%3Dx%26utm_medium%3Dsocial&amp;text=Bitcoin%20turun%20ke%20arah%20US%2473.400%20setelah%20inflasi%20Oktober%20lebih%20tinggi%20dari%20perkiraan" target="_blank" rel="noopener nofollow" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplainbtc.com%2Fid%2Farticles%2Fbitcoin-hot-cpi-etf-outflows-nov-2026%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noopener nofollow" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+          <button class="share-btn share-copy" type="button" data-url="https://plainbtc.com/id/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" data-copied="Tautan disalin" aria-label="Salin tautan" title="Salin tautan" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/><path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg></button>
+          <span class="share-status" role="status" aria-live="polite"></span>
+        </div>
+      </header>
+      <img class="og-hero" src="/assets/og/bitcoin-hot-cpi-etf-outflows-nov-2026.png" width="1200" height="630" alt="Bitcoin turun ke arah US$73.400 setelah inflasi Oktober lebih tinggi dari perkiraan" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->
 
       <p>Bitcoin melemah pada Selasa pagi setelah data inflasi AS terbaru keluar lebih tinggi dari perkiraan para ekonom. Menurut <a href="https://www.bls.gov/news.release/cpi.nr0.htm" target="_blank" rel="noopener">Biro Statistik Tenaga Kerja AS (BLS)</a>, Indeks Harga Konsumen (CPI) naik <strong>0,4%</strong> pada Oktober, dibanding perkiraan <strong>0,3%</strong> dari para ekonom yang disurvei Dow Jones. CPI inti, yang tidak memasukkan makanan dan energi, naik <strong>0,3%</strong> dibanding perkiraan 0,2%.</p>
       <p>Bitcoin sudah melemah sebelum rilis pukul 08.30 waktu New York. Di Kraken, bitcoin membuka hari (tengah malam UTC) di dekat <strong>US$75.250</strong>, sempat menyentuh <strong>US$73.400</strong> pada jam rilis laporan, lalu diperdagangkan di dekat <strong>US$73.800</strong> tak lama setelah pukul 09.00 waktu New York. Kontrak berjangka saham juga turun: CoinDesk melaporkan kontrak berjangka Nasdaq 100 turun sekitar 1,15% dan S&amp;P 500 sekitar 0,5% setelah data keluar.</p>
@@ -146,7 +193,7 @@
       <p>Ekspektasi suku bunga sudah bergeser sebelum laporan keluar. CoinDesk melaporkan bahwa Gubernur The Fed Christopher Waller mendukung kenaikan suku bunga pada Desember meski inflasi mereda, dan data yang panas bisa membenarkan langkah lebih besar, yaitu setengah poin persentase. Setelah data keluar, imbal hasil obligasi Treasury 2 tahun naik sekitar 14 basis poin menjadi 4,69% dan imbal hasil 10 tahun naik ke 4,93%, menurut CoinDesk.</p>
 
       <figure class="article-figure">
-        <img src="/assets/img/bitcoin-hot-cpi-etf-outflows-nov-2026/chart-btc-etf-flows-nov-2-9.webp" width="1200" height="675" alt="Grafik batang arus bersih harian ETF bitcoin spot AS: -US$398,6 juta 2 Nov, -US$115,6 juta 3 Nov, +US$74,6 juta 4 Nov, -US$430,2 juta 5 Nov, -US$411,9 juta 6 Nov, -US$201,0 juta 9 Nov" loading="lazy">
+        <img src="/assets/img/bitcoin-hot-cpi-etf-outflows-nov-2026/chart-btc-etf-flows-nov-2-9.webp" width="1200" height="675" alt="Grafik batang arus bersih harian ETF bitcoin spot AS: -US$398,6 juta 2 Nov, -US$115,6 juta 3 Nov, +US$74,6 juta 4 Nov, -US$430,2 juta 5 Nov, -US$411,9 juta 6 Nov, -US$201,0 juta 9 Nov" loading="lazy" decoding="async">
         <figcaption>Grafik: PlainBTC, data: Farside Investors</figcaption>
       </figure>
 
@@ -159,7 +206,7 @@
       <p>Sebagai gambaran, MARA menyebut memegang 34.012 BTC pada akhir September. CoinDesk juga mengutip data Santiment yang menunjukkan jumlah dompet bitcoin bersaldo berkurang sekitar 108.700 sejak 16 Oktober, tanda bahwa minat investor ritel mendingin.</p>
 
       <figure class="article-figure">
-        <img src="/assets/img/bitcoin-hot-cpi-etf-outflows-nov-2026/fact-mara-13597-btc.webp" width="1200" height="630" alt="Kart fakta: MARA Holdings menjual 13.597 BTC setelah kuartal ketiga di harga sekitar US$81.039 per koin, senilai sekitar US$1,1 miliar" loading="lazy">
+        <img src="/assets/img/bitcoin-hot-cpi-etf-outflows-nov-2026/fact-mara-13597-btc.webp" width="1200" height="630" alt="Kart fakta: MARA Holdings menjual 13.597 BTC setelah kuartal ketiga di harga sekitar US$81.039 per koin, senilai sekitar US$1,1 miliar" loading="lazy" decoding="async">
         <figcaption>Sumber: MARA Holdings Q3 2026 shareholder letter</figcaption>
       </figure>
 
@@ -234,8 +281,12 @@
   </main>
 
   <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
     <div class="wrap inner">
-      <div>© 2026 PlainBTC · berita Bitcoin dan kripto dengan bahasa sederhana untuk pemula</div>
+      <div class="footer-brand">
+        <a class="logo" href="/id/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · berita Bitcoin dan kripto dengan bahasa sederhana untuk pemula</p>
+      </div>
       <nav class="footer-nav" aria-label="Footer">
         <a href="/id/">Beranda</a>
         <a href="/id/about">Tentang</a>
@@ -249,7 +300,8 @@
   <!-- i18n:footerlangs -->
   <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="en" hreflang="en">English</a> <a href="/es/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="es" hreflang="es">Español</a> <a href="/pt/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" lang="ko" hreflang="ko">한국어</a></nav></div>
   <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">Kembali ke atas <span aria-hidden="true">↑</span></a></div>
   </footer>
-  <script src="/assets/site.20261109i.js" defer></script>
+  <script src="/assets/site.7c90358c6e.js" defer></script>
 </body>
 </html>

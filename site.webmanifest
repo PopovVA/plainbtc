@@ -1,0 +1,14 @@
+{
+  "name": "PlainBTC",
+  "short_name": "PlainBTC",
+  "description": "Plain-English Bitcoin & crypto news for beginners",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f4efe4",
+  "theme_color": "#0b1630",
+  "icons": [
+    { "src": "/assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/logo-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/assets/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -3,11 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="preload" href="/assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.68d4081cdd.css">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (Türkçe)" href="/tr/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109g.css">
-  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
   <title>Binance, FinCEN kararı sonrası MEXC transferlerini engelliyor | PlainBTC</title>
   <meta name="description" content="Binance 10 Kasım&#x27;da MEXC&#x27;ye gönderimleri reddedeceğini ve oradan gelen yatırımları incelemeye alacağını duyurdu. FinCEN, ABD&#x27;li kurumlara 10 Aralık 2026&#x27;dan itibaren MEXC ile bağlarını kesmelerini emretmişti.">
   <link rel="canonical" href="https://plainbtc.com/tr/articles/binance-blocks-mexc-fincen-order-nov-2026">
@@ -40,11 +49,15 @@
   <meta property="og:site_name" content="PlainBTC">
   <meta property="og:locale" content="tr_TR">
   <meta property="article:published_time" content="2026-11-10">
+  <meta property="article:modified_time" content="2026-11-10">
+  <meta property="article:section" content="Düzenleme">
   <meta property="og:image" content="https://plainbtc.com/assets/og/binance-blocks-mexc-fincen-order-nov-2026.png">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Binance, ABD Hazinesinin 16,7 milyar dolarlık yasa dışı olduğu iddia edilen akışlarla ilgili kararı sonrası MEXC transferlerini engelliyor">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
   <meta name="twitter:image" content="https://plainbtc.com/assets/og/binance-blocks-mexc-fincen-order-nov-2026.png">
   <meta name="twitter:title" content="Binance, ABD Hazinesinin 16,7 milyar dolarlık yasa dışı olduğu iddia edilen akışlarla ilgili kararı sonrası MEXC transferlerini engelliyor">
   <meta name="twitter:description" content="FinCEN&#x27;e göre MEXC, yaptırım ihlali ve siber suçla bağlantılı 16,7 milyar $ aktardı. Karar 10 Aralık&#x27;ta yürürlüğe giriyor ve Binance MEXC transferlerini şimdiden engelliyor.">
@@ -55,16 +68,24 @@
     "headline": "Binance, ABD Hazinesinin 16,7 milyar dolarlık yasa dışı olduğu iddia edilen akışlarla ilgili kararı sonrası MEXC transferlerini engelliyor",
     "name": "Binance, FinCEN kararı sonrası MEXC transferlerini engelliyor | PlainBTC",
     "description": "Binance 10 Kasım'da MEXC'ye gönderimleri reddedeceğini ve oradan gelen yatırımları incelemeye alacağını duyurdu. FinCEN, ABD'li kurumlara 10 Aralık 2026'dan itibaren MEXC ile bağlarını kesmelerini emretmişti.",
-    "datePublished": "2026-11-10",
-    "dateModified": "2026-11-10",
+    "datePublished": "2026-11-10T19:40:00+00:00",
+    "dateModified": "2026-11-10T19:40:00+00:00",
     "author": {
       "@type": "Organization",
-      "name": "PlainBTC"
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/"
     },
     "publisher": {
       "@type": "Organization",
+      "@id": "https://plainbtc.com/#organization",
       "name": "PlainBTC",
       "url": "https://plainbtc.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://plainbtc.com/assets/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
       "sameAs": [
         "https://discord.gg/EcuGXPDr2d",
         "https://www.facebook.com/groups/1688106109771364",
@@ -76,7 +97,14 @@
       "@id": "https://plainbtc.com/tr/articles/binance-blocks-mexc-fincen-order-nov-2026"
     },
     "url": "https://plainbtc.com/tr/articles/binance-blocks-mexc-fincen-order-nov-2026",
-    "image": "https://plainbtc.com/assets/og/binance-blocks-mexc-fincen-order-nov-2026.png",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/og/binance-blocks-mexc-fincen-order-nov-2026.png",
+      "width": 1200,
+      "height": 630
+    },
+    "articleSection": "Düzenleme",
+    "isAccessibleForFree": true,
     "inLanguage": "tr"
   }
   </script>
@@ -102,28 +130,47 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">İçeriğe geç</a>
   <header class="site-header">
     <div class="wrap inner">
-      <a class="logo" href="/tr/">Plain<span>BTC</span></a>
+      <a class="logo" href="/tr/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Menü">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
       <nav class="nav" aria-label="Primary">
-        <a href="/tr/">Ana sayfa</a>
         <a href="/tr/#articles">Makaleler</a>
+        <a href="/tr/#guides">Kılavuzlar</a>
         <a href="/tr/about">Hakkında</a>
         <a href="/tr/disclosure">Şeffaflık</a>
       </nav>
+      <div class="header-tools">
       <!-- i18n:langmenu -->
-      <details class="lang-menu"><summary aria-label="Dil">🌐 Türkçe</summary><ul><li><a href="/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="tr" hreflang="tr" aria-current="true">Türkçe</a></li><li><a href="/id/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <details class="lang-menu"><summary aria-label="Dil"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">Türkçe</span><span class="lang-code" aria-hidden="true">TR</span></summary><ul><li><a href="/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="tr" hreflang="tr" aria-current="true">Türkçe</a></li><li><a href="/id/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="ko" hreflang="ko">한국어</a></li></ul></details>
       <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="Açık ve koyu tema arasında geçiş yap" title="Açık ve koyu tema arasında geçiş yap" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
     </div>
   </header>
 
-  <main class="article-page">
+  <main class="article-page" id="main" data-toc="Bu sayfada" data-nl="Yeni yazıları e-postayla alın" data-nl-cta="Abone ol" data-close="Kapat">
     <article class="content">
-      <a class="back" href="/tr/">← Tüm makaleler</a>
-      <div class="badge">Düzenleme</div>
-      <h1>Binance, ABD Hazinesinin 16,7 milyar dolarlık yasa dışı olduğu iddia edilen akışlarla ilgili kararı sonrası MEXC transferlerini engelliyor</h1>
-      <div class="meta">Yayın tarihi: 10 Kasım 2026 · PlainBTC · ABD</div>
-      <img class="og-hero" src="/assets/og/binance-blocks-mexc-fincen-order-nov-2026.png" width="1200" height="630" alt="Binance, ABD Hazinesinin 16,7 milyar dolarlık yasa dışı olduğu iddia edilen akışlarla ilgili kararı sonrası MEXC transferlerini engelliyor" loading="eager">
+      <!-- i18n:arthead -->
+      <header class="article-head">
+        <!-- i18n:crumbs -->
+        <nav class="crumbs" aria-label="Sayfa yolu"><a href="/tr/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/tr/#articles">Makaleler</a></nav>
+        <!-- /i18n:crumbs -->
+        <div class="badge">Düzenleme</div>
+        <h1>Binance, ABD Hazinesinin 16,7 milyar dolarlık yasa dışı olduğu iddia edilen akışlarla ilgili kararı sonrası MEXC transferlerini engelliyor</h1>
+        <div class="meta">Yayın tarihi: <time datetime="2026-11-10">10 Kasım 2026</time> · PlainBTC · ABD<span class="meta-read"> · ~5 dk okuma</span></div>
+        <div class="share" role="group" aria-label="Paylaş">
+          <span class="share-label">Paylaş</span>
+          <a class="share-btn" href="https://x.com/intent/post?url=https%3A%2F%2Fplainbtc.com%2Ftr%2Farticles%2Fbinance-blocks-mexc-fincen-order-nov-2026%3Futm_source%3Dx%26utm_medium%3Dsocial&amp;text=Binance%2C%20ABD%20Hazinesinin%2016%2C7%20milyar%20dolarl%C4%B1k%20yasa%20d%C4%B1%C5%9F%C4%B1%20oldu%C4%9Fu%20iddia%20edilen%20ak%C4%B1%C5%9Flarla%20ilgili%20karar%C4%B1%20sonras%C4%B1%20MEXC%20transferlerini%20engelliyor" target="_blank" rel="noopener nofollow" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplainbtc.com%2Ftr%2Farticles%2Fbinance-blocks-mexc-fincen-order-nov-2026%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noopener nofollow" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+          <button class="share-btn share-copy" type="button" data-url="https://plainbtc.com/tr/articles/binance-blocks-mexc-fincen-order-nov-2026" data-copied="Bağlantı kopyalandı" aria-label="Bağlantıyı kopyala" title="Bağlantıyı kopyala" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/><path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg></button>
+          <span class="share-status" role="status" aria-live="polite"></span>
+        </div>
+      </header>
+      <img class="og-hero" src="/assets/og/binance-blocks-mexc-fincen-order-nov-2026.png" width="1200" height="630" alt="Binance, ABD Hazinesinin 16,7 milyar dolarlık yasa dışı olduğu iddia edilen akışlarla ilgili kararı sonrası MEXC transferlerini engelliyor" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->
 
       <p>Dünyanın en büyük kripto borsalarından Binance, 10 Kasım Salı günü rakip borsa MEXC'yi içeren işlemleri artık gerçekleştirmeyeceğini duyurdu. Binance <a href="https://www.binance.com/en/support/announcement/9ef6e347da924cdc90f53577ab483b1f" target="_blank" rel="noopener">müşterilerine yaptığı duyuruda</a>, bir Binance hesabından MEXC'ye veya listelenen bağlı şirketlerine fon gönderme taleplerinin <strong>reddedileceğini</strong>, bunlardan gelen yatırımların ise uyum incelemesi için <strong>geçici olarak bekletileceğini</strong> açıkladı.</p>
       <p>Bu adım, ABD Hazine Bakanlığı'na bağlı Mali Suçlarla Mücadele Ağı'nın (FinCEN) 6 Kasım Cuma günü duyurduğu bir kararın ardından geldi. <a href="https://home.treasury.gov/news/press-releases/sb0685" target="_blank" rel="noopener">Hazine Bakanlığı'na</a> göre karar, MEXC Global'i fiilen ABD finans sisteminden koparıyor. Karar 10 Kasım'da <a href="https://www.federalregister.gov/documents/2026/11/10/2026-22962/imposition-of-special-measure-prohibiting-the-transmittal-of-funds-involving-mexc-global" target="_blank" rel="noopener">Federal Register'da</a> yayımlandı ve bitiş tarihi olmadan <strong>10 Aralık 2026'da</strong> yürürlüğe giriyor.</p>
@@ -153,7 +200,7 @@
       </ul>
 
       <figure class="article-figure">
-        <img src="/assets/img/binance-blocks-mexc-fincen-order-nov-2026/chart-fincen-mexc-findings.webp" width="1200" height="675" alt="FinCEN&#x27;in MEXC Global hakkındaki bazı bulgularını gösteren grafik, Mayıs 2021 - Mayıs 2026: kimlik doğrulaması yapmayan borsalarla yaklaşık 2,9 milyar $, siber suçlularla bağlantılı 1,99 milyar $, İran bağlantılı 1,87 milyar $ ve Rusya yaptırımlarından kaçınmayla bağlantılı yaklaşık 1,5 milyar $" loading="lazy">
+        <img src="/assets/img/binance-blocks-mexc-fincen-order-nov-2026/chart-fincen-mexc-findings.webp" width="1200" height="675" alt="FinCEN&#x27;in MEXC Global hakkındaki bazı bulgularını gösteren grafik, Mayıs 2021 - Mayıs 2026: kimlik doğrulaması yapmayan borsalarla yaklaşık 2,9 milyar $, siber suçlularla bağlantılı 1,99 milyar $, İran bağlantılı 1,87 milyar $ ve Rusya yaptırımlarından kaçınmayla bağlantılı yaklaşık 1,5 milyar $" loading="lazy" decoding="async">
         <figcaption>Grafik: PlainBTC, veri: FinCEN order on MEXC Global (categories can overlap)</figcaption>
       </figure>
 
@@ -166,7 +213,7 @@
       <p>CoinDesk'e göre MEXC 7 Kasım'da kararı hukuk ve uyum ekipleriyle incelediğini, işlemlerin normal devam ettiğini ve müşteri varlıklarının güvende olduğunu söyledi. Borsa ayrıca kara para aklamayla mücadele ve yaptırım kontrollerinin bağımsız bir incelemesini başlattığını açıkladı. MEXC ekim ayında Rusya ve Belarus'taki kullanıcılara hizmeti durduracağını duyurmuştu.</p>
 
       <figure class="article-figure">
-        <img src="/assets/img/binance-blocks-mexc-fincen-order-nov-2026/fact-mexc-dec-10.webp" width="1200" height="630" alt="Kart: FinCEN kararı 10 Aralık 2026&#x27;da yürürlüğe giriyor; o tarihten itibaren ABD finans kuruluşları MEXC Global&#x27;e para gönderemeyecek ve oradan para alamayacak" loading="lazy">
+        <img src="/assets/img/binance-blocks-mexc-fincen-order-nov-2026/fact-mexc-dec-10.webp" width="1200" height="630" alt="Kart: FinCEN kararı 10 Aralık 2026&#x27;da yürürlüğe giriyor; o tarihten itibaren ABD finans kuruluşları MEXC Global&#x27;e para gönderemeyecek ve oradan para alamayacak" loading="lazy" decoding="async">
         <figcaption>Kaynak: FinCEN order, Federal Register (91 FR 72420)</figcaption>
       </figure>
 
@@ -239,8 +286,12 @@
   </main>
 
   <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
     <div class="wrap inner">
-      <div>© 2026 PlainBTC · yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</div>
+      <div class="footer-brand">
+        <a class="logo" href="/tr/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</p>
+      </div>
       <nav class="footer-nav" aria-label="Footer">
         <a href="/tr/">Ana sayfa</a>
         <a href="/tr/about">Hakkında</a>
@@ -254,7 +305,8 @@
   <!-- i18n:footerlangs -->
   <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="en" hreflang="en">English</a> <a href="/es/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="es" hreflang="es">Español</a> <a href="/pt/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/binance-blocks-mexc-fincen-order-nov-2026" lang="ko" hreflang="ko">한국어</a></nav></div>
   <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">Başa dön <span aria-hidden="true">↑</span></a></div>
   </footer>
-  <script src="/assets/site.20261109i.js" defer></script>
+  <script src="/assets/site.7c90358c6e.js" defer></script>
 </body>
 </html>

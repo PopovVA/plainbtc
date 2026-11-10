@@ -3,11 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="stylesheet" href="/assets/styles.68d4081cdd.css">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (한국어)" href="/ko/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109g.css">
-  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
   <title>PlainBTC — 쉬운 말로 읽는 비트코인·암호화폐 뉴스</title>
   <meta name="description" content="쉬운 말로 전하는 비트코인·암호화폐 뉴스, 시장 요약, 초보자 가이드. 미국 시장에 초점을 맞췄습니다. 2026년 11월 업데이트.">
   <link rel="canonical" href="https://plainbtc.com/ko/">
@@ -40,10 +48,12 @@
   <meta property="og:site_name" content="PlainBTC">
   <meta property="og:locale" content="ko_KR">
   <meta property="og:image" content="https://plainbtc.com/assets/og/default.png">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="PlainBTC — 쉬운 말로 읽는 비트코인·암호화폐 뉴스">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
   <meta name="twitter:image" content="https://plainbtc.com/assets/og/default.png">
   <meta name="twitter:title" content="PlainBTC — 쉬운 말로 읽는 비트코인·암호화폐 뉴스">
   <meta name="twitter:description" content="쉬운 말로 전하는 비트코인·암호화폐 뉴스, 시장 요약, 초보자 가이드.">
@@ -51,46 +61,383 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": "https://plainbtc.com/ko/#website",
     "name": "PlainBTC",
     "url": "https://plainbtc.com/ko/",
     "description": "초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스",
     "inLanguage": "ko",
     "publisher": {
-      "@type": "Organization",
-      "name": "PlainBTC",
-      "url": "https://plainbtc.com/",
-      "sameAs": [
-        "https://discord.gg/EcuGXPDr2d",
-        "https://www.facebook.com/groups/1688106109771364",
-        "https://x.com/lean_redfield"
-      ]
+      "@id": "https://plainbtc.com/#organization"
     }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://plainbtc.com/#organization",
+    "name": "PlainBTC",
+    "url": "https://plainbtc.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/logo-512.png",
+      "width": 512,
+      "height": 512
+    },
+    "sameAs": [
+      "https://discord.gg/EcuGXPDr2d",
+      "https://www.facebook.com/groups/1688106109771364",
+      "https://x.com/lean_redfield"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "최신 기사",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://plainbtc.com/ko/articles/binance-blocks-mexc-fincen-order-nov-2026",
+        "name": "바이낸스, 미 재무부의 167억 달러 불법 자금 의혹 명령 이후 MEXC 송금 차단"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://plainbtc.com/ko/articles/banks-270-million-stablecoin-project-faro-nov-2026",
+        "name": "골드만삭스·씨티 등 은행들, 공동 달러 스테이블코인에 2억 7,000만 달러 약정 — 블룸버그"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://plainbtc.com/ko/articles/bitcoin-hot-cpi-etf-outflows-nov-2026",
+        "name": "10월 미국 인플레이션 예상 웃돌자 비트코인 73,400달러 부근까지 하락"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "url": "https://plainbtc.com/ko/articles/binance-hack-north-korea-memecoin-laundering-nov-2026",
+        "name": "북한, 바이낸스 해킹 64억 달러 세탁 위해 밈코인 직접 발행… 엘립틱 보고서"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "url": "https://plainbtc.com/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody",
+        "name": "암호화폐 지갑이란? 수탁형과 자기 수탁형, 초보자를 위한 설명"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "url": "https://plainbtc.com/ko/articles/how-much-bitcoin-should-a-beginner-buy-dca",
+        "name": "초보자는 비트코인을 얼마나 사야 할까? 적립식 투자(DCA) 쉬운 가이드"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "url": "https://plainbtc.com/ko/articles/is-coinbase-safe-for-beginners",
+        "name": "코인베이스는 초보자에게 안전할까? 보호되는 것, 보호되지 않는 것, 위험을 줄이는 방법"
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "url": "https://plainbtc.com/ko/articles/coinbase-occ-national-trust-charter-nov-2026",
+        "name": "코인베이스, OCC로부터 국법 신탁은행 정식 인가 획득…무엇이 달라지나"
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "url": "https://plainbtc.com/ko/articles/fincen-fed-withdraw-250-travel-rule-nov-2026",
+        "name": "FinCEN·연준, 트래블룰 250달러 기준 인하안 철회…3,000달러 기준은 유지"
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "url": "https://plainbtc.com/ko/articles/bitcoin-loses-50-week-moving-average-nov-2026",
+        "name": "비트코인, 50주 이동평균선 이탈…롱 청산 10억 달러 돌파"
+      }
+    ]
   }
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
   <header class="site-header">
     <div class="wrap inner">
-      <a class="logo" href="/ko/">Plain<span>BTC</span></a>
+      <a class="logo" href="/ko/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="메뉴">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
       <nav class="nav" aria-label="Primary">
-        <a href="/ko/">홈</a>
         <a href="/ko/#articles">기사</a>
+        <a href="/ko/#guides">가이드</a>
         <a href="/ko/about">소개</a>
         <a href="/ko/disclosure">공시</a>
       </nav>
+      <div class="header-tools">
       <!-- i18n:langmenu -->
-      <details class="lang-menu"><summary aria-label="언어">🌐 한국어</summary><ul><li><a href="/" lang="en" hreflang="en">English</a></li><li><a href="/es/" lang="es" hreflang="es">Español</a></li><li><a href="/pt/" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" aria-current="true">한국어</a></li></ul></details>
+      <details class="lang-menu"><summary aria-label="언어"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">한국어</span><span class="lang-code" aria-hidden="true">KO</span></summary><ul><li><a href="/" lang="en" hreflang="en">English</a></li><li><a href="/es/" lang="es" hreflang="es">Español</a></li><li><a href="/pt/" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" aria-current="true">한국어</a></li></ul></details>
       <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="라이트/다크 테마 전환" title="라이트/다크 테마 전환" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
     </div>
   </header>
 
-  <main>
-    <section class="hero wrap">
-      <div class="badge">미국 시장 · 2026년 11월 10일</div>
-      <h1>소음 없는 암호화폐 뉴스</h1>
-      <p>PlainBTC는 비트코인, 규제, 실전 가이드를 미국 시장을 중심으로 쉬운 말로 풀어 드립니다.</p>
+  <main id="main">
+    <div class="ticker" role="region" aria-label="최신">
+      <span class="ticker-label">최신</span>
+      <div class="ticker-viewport"><ul class="ticker-track"><li><a href="/ko/articles/binance-blocks-mexc-fincen-order-nov-2026">바이낸스, 미 재무부의 167억 달러 불법 자금 의혹 명령 이후 MEXC 송금 차단</a></li><li><a href="/ko/articles/banks-270-million-stablecoin-project-faro-nov-2026">골드만삭스·씨티 등 은행들, 공동 달러 스테이블코인에 2억 7,000만 달러 약정 — 블룸버그</a></li><li><a href="/ko/articles/bitcoin-hot-cpi-etf-outflows-nov-2026">10월 미국 인플레이션 예상 웃돌자 비트코인 73,400달러 부근까지 하락</a></li><li><a href="/ko/articles/binance-hack-north-korea-memecoin-laundering-nov-2026">북한, 바이낸스 해킹 64억 달러 세탁 위해 밈코인 직접 발행… 엘립틱 보고서</a></li><li><a href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">암호화폐 지갑이란? 수탁형과 자기 수탁형, 초보자를 위한 설명</a></li><li><a href="/ko/articles/how-much-bitcoin-should-a-beginner-buy-dca">초보자는 비트코인을 얼마나 사야 할까? 적립식 투자(DCA) 쉬운 가이드</a></li><li><a href="/ko/articles/is-coinbase-safe-for-beginners">코인베이스는 초보자에게 안전할까? 보호되는 것, 보호되지 않는 것, 위험을 줄이는 방법</a></li><li><a href="/ko/articles/coinbase-occ-national-trust-charter-nov-2026">코인베이스, OCC로부터 국법 신탁은행 정식 인가 획득…무엇이 달라지나</a></li></ul></div>
+    </div>
+    <section class="hero">
+      <div class="wrap hero-copy">
+        <div class="badge">미국 시장 · 2026년 11월 10일</div>
+        <h1><span class="w" style="--i:0"><span>소음</span></span> <span class="w" style="--i:1"><span>없는</span></span> <span class="w" style="--i:2"><span>암호화폐</span></span> <span class="w w-last" style="--i:3"><span>뉴스</span></span></h1>
+        <p class="hero-lead">PlainBTC는 비트코인, 규제, 실전 가이드를 미국 시장을 중심으로 쉬운 말로 풀어 드립니다.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#articles">최신 기사 읽기</a>
+          <a class="btn btn-ghost" href="#guides">기초부터 시작하기</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg class="wave" viewBox="0 0 1200 240" preserveAspectRatio="none" focusable="false">
+          <path class="wave-noise" vector-effect="non-scaling-stroke" d="M0 155.4 L10 83.7 L20 49.9 L30 189.9 L40 162.4 L50 191.4 L60 181.7 L70 47.5 L80 129.0 L90 184.8 L100 109.0 L110 191.9 L120 87.1 L130 195.7 L140 78.1 L150 49.9 L160 53.4 L170 35.7 L180 61.4 L190 162.6 L200 187.5 L210 93.6 L220 129.5 L230 196.2 L240 173.0 L250 96.3 L260 75.8 L270 102.8 L280 94.7 L290 179.6 L300 180.4 L310 62.7 L320 185.0 L330 200.0 L340 98.0 L350 82.9 L360 163.2 L370 183.9 L380 163.8 L390 43.3 L400 184.9 L410 83.9 L420 46.1 L430 46.3 L440 161.0 L450 165.1 L460 172.6 L470 75.9 L480 69.7 L490 135.7 L500 114.8 L510 122.3 L520 88.6 L530 142.1 L540 115.8 L550 152.5 L560 123.8 L570 99.9 L580 118.6 L590 129.5 L600 121.7 L610 116.1 L620 110.3 L630 122.1 L640 122.8 L650 122.1 L660 117.5 L670 118.6 L680 118.2 L690 119.7 L700 120.0"/>
+          <path class="wave-plain" vector-effect="non-scaling-stroke" d="M700 120H1200"/>
+        </svg>
+        <span class="wave-lens"><span class="wave-chip">plain</span></span>
+      </div>
+      <dl class="wrap stats" aria-label="숫자로 보는 PlainBTC"><div class="stat"><dt>기사</dt><dd data-count="17">17</dd></div><div class="stat"><dt>언어</dt><dd data-count="10">10</dd></div><div class="stat"><dt>인용한 출처</dt><dd data-count="91">91</dd></div></dl>
     </section>
 
+    <section id="articles" class="wrap section" aria-labelledby="articles-title">
+      <div class="section-head"><h2 id="articles-title">최신 기사</h2><a class="section-link" href="/ko/feed.xml">RSS</a></div>
+      <div class="article-grid">
+  <!-- i18n:articles -->
+      <article class="card card-lead" data-kind="news">
+        <a class="card-thumb" href="/ko/articles/binance-blocks-mexc-fincen-order-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/binance-blocks-mexc-fincen-order-nov-2026/thumb.webp" width="640" height="360" alt="바이낸스, 미 재무부의 167억 달러 불법 자금 의혹 명령 이후 MEXC 송금 차단" loading="eager" fetchpriority="high" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">규제</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-10">2026년 11월 10일</time><span class="sep" aria-hidden="true"> · </span><span>약 5분 소요</span></div>
+          <h3><a href="/ko/articles/binance-blocks-mexc-fincen-order-nov-2026">바이낸스, 미 재무부의 167억 달러 불법 자금 의혹 명령 이후 MEXC 송금 차단</a></h3>
+          <p>바이낸스가 MEXC로의 송금을 거부하고 MEXC발 입금을 심사를 위해 보류한다. FinCEN 명령으로 MEXC는 12월 10일부터 미국 금융기관과 거래할 수 없게 된다.</p>
+          <a class="read-more" href="/ko/articles/binance-blocks-mexc-fincen-order-nov-2026" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/ko/articles/banks-270-million-stablecoin-project-faro-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/banks-270-million-stablecoin-project-faro-nov-2026/thumb.webp" width="640" height="360" alt="골드만삭스·씨티 등 은행들, 공동 달러 스테이블코인에 2억 7,000만 달러 약정 — 블룸버그" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">비즈니스</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-10">2026년 11월 10일</time><span class="sep" aria-hidden="true"> · </span><span>약 4분 소요</span></div>
+          <h3><a href="/ko/articles/banks-270-million-stablecoin-project-faro-nov-2026">골드만삭스·씨티 등 은행들, 공동 달러 스테이블코인에 2억 7,000만 달러 약정 — 블룸버그</a></h3>
+          <p>대형 은행들이 테더·서클에 맞설 공동 달러 스테이블코인 'Project Faro'에 약 2억 7,000만 달러를 약정한 것으로 전해졌다. 출시 목표는 2027년 상반기다.</p>
+          <a class="read-more" href="/ko/articles/banks-270-million-stablecoin-project-faro-nov-2026" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/ko/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/bitcoin-hot-cpi-etf-outflows-nov-2026/thumb.webp" width="640" height="360" alt="10월 미국 인플레이션 예상 웃돌자 비트코인 73,400달러 부근까지 하락" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">시장</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-10">2026년 11월 10일</time><span class="sep" aria-hidden="true"> · </span><span>약 5분 소요</span></div>
+          <h3><a href="/ko/articles/bitcoin-hot-cpi-etf-outflows-nov-2026">10월 미국 인플레이션 예상 웃돌자 비트코인 73,400달러 부근까지 하락</a></h3>
+          <p>10월 CPI가 예상보다 높은 0.4% 올랐습니다. 12월 연준 금리 인상 전망과 계속되는 ETF 자금 유출 속에 비트코인은 약 73,400달러까지 하락했습니다.</p>
+          <a class="read-more" href="/ko/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/ko/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/binance-hack-north-korea-memecoin-laundering-nov-2026/thumb.webp" width="640" height="360" alt="북한, 바이낸스 해킹 64억 달러 세탁 위해 밈코인 직접 발행… 엘립틱 보고서" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">보안</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">2026년 11월 9일</time><span class="sep" aria-hidden="true"> · </span><span>약 6분 소요</span></div>
+          <h3><a href="/ko/articles/binance-hack-north-korea-memecoin-laundering-nov-2026">북한, 바이낸스 해킹 64억 달러 세탁 위해 밈코인 직접 발행… 엘립틱 보고서</a></h3>
+          <p>엘립틱은 바이낸스에서 도난된 자금이 NEAR의 자체 제작 밈코인 6개를 거친 흔적을 추적했으며, 도난 자금 중 약 28.5억 달러는 여전히 동결돼 있다.</p>
+          <a class="read-more" href="/ko/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/what-is-a-crypto-wallet-custodial-vs-self-custody/thumb.webp" width="640" height="360" alt="암호화폐 지갑이란? 수탁형과 자기 수탁형, 초보자를 위한 설명" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">초보자 가이드</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">2026년 11월 9일</time><span class="sep" aria-hidden="true"> · </span><span>약 8분 소요</span></div>
+          <h3><a href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">암호화폐 지갑이란? 수탁형과 자기 수탁형, 초보자를 위한 설명</a></h3>
+          <p>지갑이 보관하는 것은 코인이 아니라 키입니다. 수탁형과 자기 수탁형 지갑의 차이, 복구 문구란 무엇인지, 안전하게 시작하는 방법을 알아보세요.</p>
+          <a class="read-more" href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/ko/articles/how-much-bitcoin-should-a-beginner-buy-dca" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/how-much-bitcoin-should-a-beginner-buy-dca/thumb.webp" width="640" height="360" alt="초보자는 비트코인을 얼마나 사야 할까? 적립식 투자(DCA) 쉬운 가이드" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">초보자 가이드</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">2026년 11월 9일</time><span class="sep" aria-hidden="true"> · </span><span>약 8분 소요</span></div>
+          <h3><a href="/ko/articles/how-much-bitcoin-should-a-beginner-buy-dca">초보자는 비트코인을 얼마나 사야 할까? 적립식 투자(DCA) 쉬운 가이드</a></h3>
+          <p>정답 금액을 알려줄 수 있는 사람은 없지만, 금액을 정하는 합리적인 방법은 고를 수 있습니다. 적립식 투자(DCA)를 설명하고, 실제 가격으로 검증하고, 정기 구매 설정 방법을 보여드립니다.</p>
+          <a class="read-more" href="/ko/articles/how-much-bitcoin-should-a-beginner-buy-dca" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/ko/articles/is-coinbase-safe-for-beginners" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/is-coinbase-safe-for-beginners/thumb.webp" width="640" height="360" alt="코인베이스는 초보자에게 안전할까? 보호되는 것, 보호되지 않는 것, 위험을 줄이는 방법" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">초보자 가이드</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">2026년 11월 9일</time><span class="sep" aria-hidden="true"> · </span><span>약 8분 소요</span></div>
+          <h3><a href="/ko/articles/is-coinbase-safe-for-beginners">코인베이스는 초보자에게 안전할까? 보호되는 것, 보호되지 않는 것, 위험을 줄이는 방법</a></h3>
+          <p>코인베이스의 안전성을 쉽게 점검합니다. 암호화폐 보관 방식, 보험 대상과 비대상, 2025년 정보 유출의 실체, 계정을 지키는 체크리스트를 담았습니다.</p>
+          <a class="read-more" href="/ko/articles/is-coinbase-safe-for-beginners" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/ko/articles/coinbase-occ-national-trust-charter-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/coinbase-occ-national-trust-charter-nov-2026/thumb.webp" width="640" height="360" alt="코인베이스, OCC로부터 국법 신탁은행 정식 인가 획득…무엇이 달라지나" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">규제</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">2026년 11월 9일</time><span class="sep" aria-hidden="true"> · </span><span>약 6분 소요</span></div>
+          <h3><a href="/ko/articles/coinbase-occ-national-trust-charter-nov-2026">코인베이스, OCC로부터 국법 신탁은행 정식 인가 획득…무엇이 달라지나</a></h3>
+          <p>OCC가 11월 6일 Coinbase National Trust Company를 승인하면서 코인베이스의 기관용 암호화폐 수탁 사업이 연방 은행 감독 아래 놓였습니다. 인가 범위를 정리했습니다.</p>
+          <a class="read-more" href="/ko/articles/coinbase-occ-national-trust-charter-nov-2026" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/ko/articles/fincen-fed-withdraw-250-travel-rule-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/fincen-fed-withdraw-250-travel-rule-nov-2026/thumb.webp" width="640" height="360" alt="FinCEN·연준, 트래블룰 250달러 기준 인하안 철회…3,000달러 기준은 유지" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">규제</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">2026년 11월 9일</time><span class="sep" aria-hidden="true"> · </span><span>약 7분 소요</span></div>
+          <h3><a href="/ko/articles/fincen-fed-withdraw-250-travel-rule-nov-2026">FinCEN·연준, 트래블룰 250달러 기준 인하안 철회…3,000달러 기준은 유지</a></h3>
+          <p>미국 규제 당국이 국경 간 기준 금액을 250달러로 낮추고 암호화폐 관련 문구를 없애려던 2020년 제안을 철회했습니다. 무엇이 달라지고 무엇이 그대로인지 살펴봅니다.</p>
+          <a class="read-more" href="/ko/articles/fincen-fed-withdraw-250-travel-rule-nov-2026" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/ko/articles/bitcoin-loses-50-week-moving-average-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/bitcoin-loses-50-week-moving-average-nov-2026/thumb.webp" width="640" height="360" alt="비트코인, 50주 이동평균선 이탈…롱 청산 10억 달러 돌파" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">시장</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">2026년 11월 9일</time><span class="sep" aria-hidden="true"> · </span><span>약 7분 소요</span></div>
+          <h3><a href="/ko/articles/bitcoin-loses-50-week-moving-average-nov-2026">비트코인, 50주 이동평균선 이탈…롱 청산 10억 달러 돌파</a></h3>
+          <p>BTC가 7주간 웃돌던 선 아래, 약 7만 5,488달러 미만에서 마감했고 CoinGlass는 11억 5,000만 달러의 청산을 집계했습니다. Galaxy가 제시한 확인 구간의 의미를 살펴봅니다.</p>
+          <a class="read-more" href="/ko/articles/bitcoin-loses-50-week-moving-average-nov-2026" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/ko/articles/pnc-coinbase-usdc-payments-pilot-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/pnc-coinbase-usdc-payments-pilot-nov-2026/thumb.webp" width="640" height="360" alt="PNC은행, 법인 고객 대상으로 Coinbase와 USDC 결제 시범 서비스 시작" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">비즈니스</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">2026년 11월 9일</time><span class="sep" aria-hidden="true"> · </span><span>약 7분 소요</span></div>
+          <h3><a href="/ko/articles/pnc-coinbase-usdc-payments-pilot-nov-2026">PNC은행, 법인 고객 대상으로 Coinbase와 USDC 결제 시범 서비스 시작</a></h3>
+          <p>자격을 갖춘 기업은 Coinbase Payments를 통해 이더리움 기반 USDC를 받을 수 있으며, 1:1로 자동 전환되어 PNC의 달러 예금으로 들어갑니다.</p>
+          <a class="read-more" href="/ko/articles/pnc-coinbase-usdc-payments-pilot-nov-2026" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/ko/articles/bitcoin-volatility-liquidations-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/bitcoin-volatility-liquidations-nov-2026/thumb.webp" width="640" height="360" alt="비트코인 주말 급등락: 엔비디아 악재에 위험자산 흔들리며 10억 달러 청산" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">시황 정리</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">2026년 11월 9일</time><span class="sep" aria-hidden="true"> · </span><span>약 7분 소요</span></div>
+          <h3><a href="/ko/articles/bitcoin-volatility-liquidations-nov-2026">비트코인 주말 급등락: 엔비디아 악재에 위험자산 흔들리며 10억 달러 청산</a></h3>
+          <p>BTC가 잠시 약 7만 3,761달러까지 밀렸다가 7만 5,000달러를 되찾았습니다. 무엇이 움직임을 이끌었는지, 누가 청산됐는지, 트레이더들이 무엇을 지켜보는지 정리합니다.</p>
+          <a class="read-more" href="/ko/articles/bitcoin-volatility-liquidations-nov-2026" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/ko/articles/how-to-buy-first-bitcoin-coinbase" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/how-to-buy-first-bitcoin-coinbase/thumb.webp" width="640" height="360" alt="Coinbase에서 첫 비트코인 사는 방법(미국 초보자 가이드)" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">초보자 가이드</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">2026년 11월 9일</time><span class="sep" aria-hidden="true"> · </span><span>약 8분 소요</span></div>
+          <h3><a href="/ko/articles/how-to-buy-first-bitcoin-coinbase">Coinbase에서 첫 비트코인 사는 방법(미국 초보자 가이드)</a></h3>
+          <p>단계별 안내: 계정 만들기, 신원 인증, 결제 수단 추가, 소액 첫 구매, 그리고 수수료와 보안에서 유의할 점.</p>
+          <a class="read-more" href="/ko/articles/how-to-buy-first-bitcoin-coinbase" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <details class="older">
+        <summary>이전 기사</summary>
+        <div class="article-grid">
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/ko/articles/us-midterms-crypto-regulation-etf-outflows" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/us-midterms-crypto-regulation-etf-outflows/thumb.webp" width="640" height="360" alt="중간선거 이후: ETF 자금 유출, 더 까다로운 암호화폐 규정이 다가오나?" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">규제와 시장</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">2026년 11월 9일</time><span class="sep" aria-hidden="true"> · </span><span>약 8분 소요</span></div>
+          <h3><a href="/ko/articles/us-midterms-crypto-regulation-etf-outflows">중간선거 이후: ETF 자금 유출, 더 까다로운 암호화폐 규정이 다가오나?</a></h3>
+          <p>현물 비트코인 ETF가 6월 이후 최대 주간 순유출을 기록했습니다. 민주당이 의회를 이끌 준비를 하면서 시장은 규제 불확실성을 가격에 반영하고 있습니다.</p>
+          <a class="read-more" href="/ko/articles/us-midterms-crypto-regulation-etf-outflows" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/ko/articles/bitcoin-etf-vs-buying-bitcoin" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/bitcoin-etf-vs-buying-bitcoin/thumb.webp" width="640" height="360" alt="비트코인 ETF vs 비트코인 구매: 미국 초보자에게 어떤 것이 합리적인가요?" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">초보자 가이드</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">2026년 11월 9일</time><span class="sep" aria-hidden="true"> · </span><span>약 9분 소요</span></div>
+          <h3><a href="/ko/articles/bitcoin-etf-vs-buying-bitcoin">비트코인 ETF vs 비트코인 구매: 미국 초보자에게 어떤 것이 합리적인가요?</a></h3>
+          <p>현물 비트코인 ETF는 중개 계좌 내에서 가격 노출을 제공합니다. 비트코인을 구매하면 자산 자체를 얻을 수 있습니다. 미국 초보자가 양육권, 수수료, IRA, 세금을 비교하는 방법은 다음과 같습니다.</p>
+          <a class="read-more" href="/ko/articles/bitcoin-etf-vs-buying-bitcoin" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/ko/articles/coinbase-fees-explained" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/coinbase-fees-explained/thumb.webp" width="640" height="360" alt="코인베이스 수수료 설명: 스프레드, 고급 메이커/테이커, 초보자가 실제로 지불하는 것" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">초보자 가이드</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">2026년 11월 9일</time><span class="sep" aria-hidden="true"> · </span><span>약 9분 소요</span></div>
+          <h3><a href="/ko/articles/coinbase-fees-explained">코인베이스 수수료 설명: 스프레드, 고급 메이커/테이커, 초보자가 실제로 지불하는 것</a></h3>
+          <p>코인베이스 수수료에 대한 일반 영어 분석: 단순 매수 및 매도에 대한 변수 스프레드, 고급 메이커/테이커 계층, 코인베이스 원, 미리보기 화면에서 비용을 비교하는 방법.</p>
+          <a class="read-more" href="/ko/articles/coinbase-fees-explained" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/ko/articles/how-to-cash-out-bitcoin-coinbase-to-bank" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/how-to-cash-out-bitcoin-coinbase-to-bank/thumb.webp" width="640" height="360" alt="Coinbase에서 비트코인을 은행으로 출금하는 방법 (미국 절차, 시기 및 세금)" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">초보자 가이드</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">2026년 11월 9일</time><span class="sep" aria-hidden="true"> · </span><span>약 9분 소요</span></div>
+          <h3><a href="/ko/articles/how-to-cash-out-bitcoin-coinbase-to-bank">Coinbase에서 비트코인을 은행으로 출금하는 방법 (미국 절차, 시기 및 세금)</a></h3>
+          <p>미국 사용자를 위한 단계별: 비트코인을 코인베이스 현금 잔액에 판매하고, ACH 또는 즉시 출금을 통해 연결된 은행으로 인출하고, 세금 보고 기본 사항을 기록하세요.</p>
+          <a class="read-more" href="/ko/articles/how-to-cash-out-bitcoin-coinbase-to-bank" tabindex="-1" aria-hidden="true">기사 읽기 →</a>
+        </div>
+      </article>
+        </div>
+      </details>
+  <!-- /i18n:articles -->
+      </div>
+    </section>
+
+    <section id="guides" class="wrap section" aria-labelledby="guides-title">
+      <div class="section-head"><h2 id="guides-title">초보자 가이드</h2></div>
+      <ul class="guide-list">
+        <li><a href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody"><span class="guide-n" aria-hidden="true">01</span><span class="guide-t">암호화폐 지갑이란? 수탁형과 자기 수탁형, 초보자를 위한 설명</span><span class="guide-m">약 8분 소요</span></a></li>
+        <li><a href="/ko/articles/how-much-bitcoin-should-a-beginner-buy-dca"><span class="guide-n" aria-hidden="true">02</span><span class="guide-t">초보자는 비트코인을 얼마나 사야 할까? 적립식 투자(DCA) 쉬운 가이드</span><span class="guide-m">약 8분 소요</span></a></li>
+        <li><a href="/ko/articles/is-coinbase-safe-for-beginners"><span class="guide-n" aria-hidden="true">03</span><span class="guide-t">코인베이스는 초보자에게 안전할까? 보호되는 것, 보호되지 않는 것, 위험을 줄이는 방법</span><span class="guide-m">약 8분 소요</span></a></li>
+        <li><a href="/ko/articles/how-to-buy-first-bitcoin-coinbase"><span class="guide-n" aria-hidden="true">04</span><span class="guide-t">Coinbase에서 첫 비트코인 사는 방법(미국 초보자 가이드)</span><span class="guide-m">약 8분 소요</span></a></li>
+        <li><a href="/ko/articles/bitcoin-etf-vs-buying-bitcoin"><span class="guide-n" aria-hidden="true">05</span><span class="guide-t">비트코인 ETF vs 비트코인 구매: 미국 초보자에게 어떤 것이 합리적인가요?</span><span class="guide-m">약 9분 소요</span></a></li>
+        <li><a href="/ko/articles/coinbase-fees-explained"><span class="guide-n" aria-hidden="true">06</span><span class="guide-t">코인베이스 수수료 설명: 스프레드, 고급 메이커/테이커, 초보자가 실제로 지불하는 것</span><span class="guide-m">약 9분 소요</span></a></li>
+        <li><a href="/ko/articles/how-to-cash-out-bitcoin-coinbase-to-bank"><span class="guide-n" aria-hidden="true">07</span><span class="guide-t">Coinbase에서 비트코인을 은행으로 출금하는 방법 (미국 절차, 시기 및 세금)</span><span class="guide-m">약 9분 소요</span></a></li>
+      </ul>
+    </section>
+
+    <section class="wrap loop">
   <!-- i18n:community -->
       <aside class="community-box home-community" aria-label="커뮤니티 링크">
         <h2>커뮤니티에 참여하세요</h2>
@@ -98,212 +445,6 @@
         <div class="community-links"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
       </aside>
   <!-- /i18n:community -->
-    <section id="articles" class="wrap article-grid" aria-label="기사">
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/binance-blocks-mexc-fincen-order-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/binance-blocks-mexc-fincen-order-nov-2026/thumb.webp" width="640" height="360" alt="바이낸스, 미 재무부의 167억 달러 불법 자금 의혹 명령 이후 MEXC 송금 차단" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">규제 · 2026년 11월 10일 · 약 5분 소요</div>
-          <h2><a href="/ko/articles/binance-blocks-mexc-fincen-order-nov-2026">바이낸스, 미 재무부의 167억 달러 불법 자금 의혹 명령 이후 MEXC 송금 차단</a></h2>
-          <p>바이낸스가 MEXC로의 송금을 거부하고 MEXC발 입금을 심사를 위해 보류한다. FinCEN 명령으로 MEXC는 12월 10일부터 미국 금융기관과 거래할 수 없게 된다.</p>
-          <a class="read-more" href="/ko/articles/binance-blocks-mexc-fincen-order-nov-2026">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/banks-270-million-stablecoin-project-faro-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/banks-270-million-stablecoin-project-faro-nov-2026/thumb.webp" width="640" height="360" alt="골드만삭스·씨티 등 은행들, 공동 달러 스테이블코인에 2억 7,000만 달러 약정 — 블룸버그" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">비즈니스 · 2026년 11월 10일 · 약 4분 소요</div>
-          <h2><a href="/ko/articles/banks-270-million-stablecoin-project-faro-nov-2026">골드만삭스·씨티 등 은행들, 공동 달러 스테이블코인에 2억 7,000만 달러 약정 — 블룸버그</a></h2>
-          <p>대형 은행들이 테더·서클에 맞설 공동 달러 스테이블코인 'Project Faro'에 약 2억 7,000만 달러를 약정한 것으로 전해졌다. 출시 목표는 2027년 상반기다.</p>
-          <a class="read-more" href="/ko/articles/banks-270-million-stablecoin-project-faro-nov-2026">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/bitcoin-hot-cpi-etf-outflows-nov-2026/thumb.webp" width="640" height="360" alt="10월 미국 인플레이션 예상 웃돌자 비트코인 73,400달러 부근까지 하락" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">시장 · 2026년 11월 10일 · 약 5분 소요</div>
-          <h2><a href="/ko/articles/bitcoin-hot-cpi-etf-outflows-nov-2026">10월 미국 인플레이션 예상 웃돌자 비트코인 73,400달러 부근까지 하락</a></h2>
-          <p>10월 CPI가 예상보다 높은 0.4% 올랐습니다. 12월 연준 금리 인상 전망과 계속되는 ETF 자금 유출 속에 비트코인은 약 73,400달러까지 하락했습니다.</p>
-          <a class="read-more" href="/ko/articles/bitcoin-hot-cpi-etf-outflows-nov-2026">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/binance-hack-north-korea-memecoin-laundering-nov-2026/thumb.webp" width="640" height="360" alt="북한, 바이낸스 해킹 64억 달러 세탁 위해 밈코인 직접 발행… 엘립틱 보고서" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">보안 · 2026년 11월 9일 · 약 6분 소요</div>
-          <h2><a href="/ko/articles/binance-hack-north-korea-memecoin-laundering-nov-2026">북한, 바이낸스 해킹 64억 달러 세탁 위해 밈코인 직접 발행… 엘립틱 보고서</a></h2>
-          <p>엘립틱은 바이낸스에서 도난된 자금이 NEAR의 자체 제작 밈코인 6개를 거친 흔적을 추적했으며, 도난 자금 중 약 28.5억 달러는 여전히 동결돼 있다.</p>
-          <a class="read-more" href="/ko/articles/binance-hack-north-korea-memecoin-laundering-nov-2026">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/what-is-a-crypto-wallet-custodial-vs-self-custody/thumb.webp" width="640" height="360" alt="암호화폐 지갑이란? 수탁형과 자기 수탁형, 초보자를 위한 설명" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">초보자 가이드 · 2026년 11월 9일 · 약 8분 소요</div>
-          <h2><a href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">암호화폐 지갑이란? 수탁형과 자기 수탁형, 초보자를 위한 설명</a></h2>
-          <p>지갑이 보관하는 것은 코인이 아니라 키입니다. 수탁형과 자기 수탁형 지갑의 차이, 복구 문구란 무엇인지, 안전하게 시작하는 방법을 알아보세요.</p>
-          <a class="read-more" href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/how-much-bitcoin-should-a-beginner-buy-dca" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/how-much-bitcoin-should-a-beginner-buy-dca/thumb.webp" width="640" height="360" alt="초보자는 비트코인을 얼마나 사야 할까? 적립식 투자(DCA) 쉬운 가이드" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">초보자 가이드 · 2026년 11월 9일 · 약 8분 소요</div>
-          <h2><a href="/ko/articles/how-much-bitcoin-should-a-beginner-buy-dca">초보자는 비트코인을 얼마나 사야 할까? 적립식 투자(DCA) 쉬운 가이드</a></h2>
-          <p>정답 금액을 알려줄 수 있는 사람은 없지만, 금액을 정하는 합리적인 방법은 고를 수 있습니다. 적립식 투자(DCA)를 설명하고, 실제 가격으로 검증하고, 정기 구매 설정 방법을 보여드립니다.</p>
-          <a class="read-more" href="/ko/articles/how-much-bitcoin-should-a-beginner-buy-dca">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/is-coinbase-safe-for-beginners" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/is-coinbase-safe-for-beginners/thumb.webp" width="640" height="360" alt="코인베이스는 초보자에게 안전할까? 보호되는 것, 보호되지 않는 것, 위험을 줄이는 방법" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">초보자 가이드 · 2026년 11월 9일 · 약 8분 소요</div>
-          <h2><a href="/ko/articles/is-coinbase-safe-for-beginners">코인베이스는 초보자에게 안전할까? 보호되는 것, 보호되지 않는 것, 위험을 줄이는 방법</a></h2>
-          <p>코인베이스의 안전성을 쉽게 점검합니다. 암호화폐 보관 방식, 보험 대상과 비대상, 2025년 정보 유출의 실체, 계정을 지키는 체크리스트를 담았습니다.</p>
-          <a class="read-more" href="/ko/articles/is-coinbase-safe-for-beginners">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/coinbase-occ-national-trust-charter-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/coinbase-occ-national-trust-charter-nov-2026/thumb.webp" width="640" height="360" alt="코인베이스, OCC로부터 국법 신탁은행 정식 인가 획득…무엇이 달라지나" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">규제 · 2026년 11월 9일 · 약 6분 소요</div>
-          <h2><a href="/ko/articles/coinbase-occ-national-trust-charter-nov-2026">코인베이스, OCC로부터 국법 신탁은행 정식 인가 획득…무엇이 달라지나</a></h2>
-          <p>OCC가 11월 6일 Coinbase National Trust Company를 승인하면서 코인베이스의 기관용 암호화폐 수탁 사업이 연방 은행 감독 아래 놓였습니다. 인가 범위를 정리했습니다.</p>
-          <a class="read-more" href="/ko/articles/coinbase-occ-national-trust-charter-nov-2026">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/fincen-fed-withdraw-250-travel-rule-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/fincen-fed-withdraw-250-travel-rule-nov-2026/thumb.webp" width="640" height="360" alt="FinCEN·연준, 트래블룰 250달러 기준 인하안 철회…3,000달러 기준은 유지" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">규제 · 2026년 11월 9일 · 약 7분 소요</div>
-          <h2><a href="/ko/articles/fincen-fed-withdraw-250-travel-rule-nov-2026">FinCEN·연준, 트래블룰 250달러 기준 인하안 철회…3,000달러 기준은 유지</a></h2>
-          <p>미국 규제 당국이 국경 간 기준 금액을 250달러로 낮추고 암호화폐 관련 문구를 없애려던 2020년 제안을 철회했습니다. 무엇이 달라지고 무엇이 그대로인지 살펴봅니다.</p>
-          <a class="read-more" href="/ko/articles/fincen-fed-withdraw-250-travel-rule-nov-2026">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/bitcoin-loses-50-week-moving-average-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/bitcoin-loses-50-week-moving-average-nov-2026/thumb.webp" width="640" height="360" alt="비트코인, 50주 이동평균선 이탈…롱 청산 10억 달러 돌파" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">시장 · 2026년 11월 9일 · 약 7분 소요</div>
-          <h2><a href="/ko/articles/bitcoin-loses-50-week-moving-average-nov-2026">비트코인, 50주 이동평균선 이탈…롱 청산 10억 달러 돌파</a></h2>
-          <p>BTC가 7주간 웃돌던 선 아래, 약 7만 5,488달러 미만에서 마감했고 CoinGlass는 11억 5,000만 달러의 청산을 집계했습니다. Galaxy가 제시한 확인 구간의 의미를 살펴봅니다.</p>
-          <a class="read-more" href="/ko/articles/bitcoin-loses-50-week-moving-average-nov-2026">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/pnc-coinbase-usdc-payments-pilot-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/pnc-coinbase-usdc-payments-pilot-nov-2026/thumb.webp" width="640" height="360" alt="PNC은행, 법인 고객 대상으로 Coinbase와 USDC 결제 시범 서비스 시작" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">비즈니스 · 2026년 11월 9일 · 약 7분 소요</div>
-          <h2><a href="/ko/articles/pnc-coinbase-usdc-payments-pilot-nov-2026">PNC은행, 법인 고객 대상으로 Coinbase와 USDC 결제 시범 서비스 시작</a></h2>
-          <p>자격을 갖춘 기업은 Coinbase Payments를 통해 이더리움 기반 USDC를 받을 수 있으며, 1:1로 자동 전환되어 PNC의 달러 예금으로 들어갑니다.</p>
-          <a class="read-more" href="/ko/articles/pnc-coinbase-usdc-payments-pilot-nov-2026">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/bitcoin-volatility-liquidations-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/bitcoin-volatility-liquidations-nov-2026/thumb.webp" width="640" height="360" alt="비트코인 주말 급등락: 엔비디아 악재에 위험자산 흔들리며 10억 달러 청산" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">시황 정리 · 2026년 11월 9일 · 약 7분 소요</div>
-          <h2><a href="/ko/articles/bitcoin-volatility-liquidations-nov-2026">비트코인 주말 급등락: 엔비디아 악재에 위험자산 흔들리며 10억 달러 청산</a></h2>
-          <p>BTC가 잠시 약 7만 3,761달러까지 밀렸다가 7만 5,000달러를 되찾았습니다. 무엇이 움직임을 이끌었는지, 누가 청산됐는지, 트레이더들이 무엇을 지켜보는지 정리합니다.</p>
-          <a class="read-more" href="/ko/articles/bitcoin-volatility-liquidations-nov-2026">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/how-to-buy-first-bitcoin-coinbase" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/how-to-buy-first-bitcoin-coinbase/thumb.webp" width="640" height="360" alt="Coinbase에서 첫 비트코인 사는 방법(미국 초보자 가이드)" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">초보자 가이드 · 2026년 11월 9일 · 약 8분 소요</div>
-          <h2><a href="/ko/articles/how-to-buy-first-bitcoin-coinbase">Coinbase에서 첫 비트코인 사는 방법(미국 초보자 가이드)</a></h2>
-          <p>단계별 안내: 계정 만들기, 신원 인증, 결제 수단 추가, 소액 첫 구매, 그리고 수수료와 보안에서 유의할 점.</p>
-          <a class="read-more" href="/ko/articles/how-to-buy-first-bitcoin-coinbase">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/us-midterms-crypto-regulation-etf-outflows" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/us-midterms-crypto-regulation-etf-outflows/thumb.webp" width="640" height="360" alt="중간선거 이후: ETF 자금 유출, 더 까다로운 암호화폐 규정이 다가오나?" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">규제와 시장 · 2026년 11월 9일 · 약 8분 소요</div>
-          <h2><a href="/ko/articles/us-midterms-crypto-regulation-etf-outflows">중간선거 이후: ETF 자금 유출, 더 까다로운 암호화폐 규정이 다가오나?</a></h2>
-          <p>현물 비트코인 ETF가 6월 이후 최대 주간 순유출을 기록했습니다. 민주당이 의회를 이끌 준비를 하면서 시장은 규제 불확실성을 가격에 반영하고 있습니다.</p>
-          <a class="read-more" href="/ko/articles/us-midterms-crypto-regulation-etf-outflows">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/bitcoin-etf-vs-buying-bitcoin" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/bitcoin-etf-vs-buying-bitcoin/thumb.webp" width="640" height="360" alt="비트코인 ETF vs 비트코인 구매: 미국 초보자에게 어떤 것이 합리적인가요?" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">초보자 가이드 · 2026년 11월 9일 · 약 9분 소요</div>
-          <h2><a href="/ko/articles/bitcoin-etf-vs-buying-bitcoin">비트코인 ETF vs 비트코인 구매: 미국 초보자에게 어떤 것이 합리적인가요?</a></h2>
-          <p>현물 비트코인 ETF는 중개 계좌 내에서 가격 노출을 제공합니다. 비트코인을 구매하면 자산 자체를 얻을 수 있습니다. 미국 초보자가 양육권, 수수료, IRA, 세금을 비교하는 방법은 다음과 같습니다.</p>
-          <a class="read-more" href="/ko/articles/bitcoin-etf-vs-buying-bitcoin">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/coinbase-fees-explained" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/coinbase-fees-explained/thumb.webp" width="640" height="360" alt="코인베이스 수수료 설명: 스프레드, 고급 메이커/테이커, 초보자가 실제로 지불하는 것" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">초보자 가이드 · 2026년 11월 9일 · 약 9분 소요</div>
-          <h2><a href="/ko/articles/coinbase-fees-explained">코인베이스 수수료 설명: 스프레드, 고급 메이커/테이커, 초보자가 실제로 지불하는 것</a></h2>
-          <p>코인베이스 수수료에 대한 일반 영어 분석: 단순 매수 및 매도에 대한 변수 스프레드, 고급 메이커/테이커 계층, 코인베이스 원, 미리보기 화면에서 비용을 비교하는 방법.</p>
-          <a class="read-more" href="/ko/articles/coinbase-fees-explained">기사 읽기 →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/ko/articles/how-to-cash-out-bitcoin-coinbase-to-bank" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/how-to-cash-out-bitcoin-coinbase-to-bank/thumb.webp" width="640" height="360" alt="Coinbase에서 비트코인을 은행으로 출금하는 방법 (미국 절차, 시기 및 세금)" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">초보자 가이드 · 2026년 11월 9일 · 약 9분 소요</div>
-          <h2><a href="/ko/articles/how-to-cash-out-bitcoin-coinbase-to-bank">Coinbase에서 비트코인을 은행으로 출금하는 방법 (미국 절차, 시기 및 세금)</a></h2>
-          <p>미국 사용자를 위한 단계별: 비트코인을 코인베이스 현금 잔액에 판매하고, ACH 또는 즉시 출금을 통해 연결된 은행으로 인출하고, 세금 보고 기본 사항을 기록하세요.</p>
-          <a class="read-more" href="/ko/articles/how-to-cash-out-bitcoin-coinbase-to-bank">기사 읽기 →</a>
-        </div>
-      </article>
-    </section>
-
   <!-- i18n:newsletter -->
       <aside class="newsletter-box" aria-labelledby="nl-title">
         <h2 id="nl-title">새 글을 이메일로 받아보세요</h2>
@@ -320,8 +461,9 @@
         <p class="nl-note">이메일 주소는 PlainBTC 새 글 알림 발송에만 사용합니다. 확인 절차가 필요합니다. <a href="/ko/disclosure">개인정보 안내</a></p>
       </aside>
   <!-- /i18n:newsletter -->
+    </section>
 
-    <section id="about" class="wrap" style="padding-bottom:3rem;">
+    <section id="about" class="wrap about-box">
       <div class="disclosure">
         <strong>이 사이트에 대하여.</strong> PlainBTC는 독립적인 정보 제공 블로그입니다. 이 한국어 버전에는 추천 링크가 없습니다. 이곳의 어떤 내용도 금융, 투자, 법률 또는 세무 조언이 아닙니다. <a href="/ko/about">소개</a>와 <a href="/ko/disclosure">공시</a> 페이지를 읽어 보세요.
       </div>
@@ -329,8 +471,12 @@
   </main>
 
   <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
     <div class="wrap inner">
-      <div>© 2026 PlainBTC · 초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</div>
+      <div class="footer-brand">
+        <a class="logo" href="/ko/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · 초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</p>
+      </div>
       <nav class="footer-nav" aria-label="Footer">
         <a href="/ko/">홈</a>
         <a href="/ko/about">소개</a>
@@ -344,7 +490,8 @@
   <!-- i18n:footerlangs -->
   <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/" lang="en" hreflang="en">English</a> <a href="/es/" lang="es" hreflang="es">Español</a> <a href="/pt/" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/" lang="fr" hreflang="fr">Français</a> <a href="/de/" lang="de" hreflang="de">Deutsch</a> <a href="/ru/" lang="ru" hreflang="ru">Русский</a> <a href="/tr/" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/" lang="ja" hreflang="ja">日本語</a> <a href="/ko/" lang="ko" hreflang="ko">한국어</a></nav></div>
   <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">맨 위로 <span aria-hidden="true">↑</span></a></div>
   </footer>
-  <script src="/assets/site.20261109i.js" defer></script>
+  <script src="/assets/site.7c90358c6e.js" defer></script>
 </body>
 </html>

@@ -3,11 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="preload" href="/assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.68d4081cdd.css">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (Deutsch)" href="/de/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109g.css">
-  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
   <title>Über PlainBTC — Bitcoin- und Krypto-News in einfacher Sprache</title>
   <meta name="description" content="Was PlainBTC ist: Bitcoin- und Krypto-News in einfacher Sprache für Einsteiger, mit klaren Offenlegungen und ohne Finanzberatung.">
   <link rel="canonical" href="https://plainbtc.com/de/about">
@@ -40,10 +49,12 @@
   <meta property="og:site_name" content="PlainBTC">
   <meta property="og:locale" content="de_DE">
   <meta property="og:image" content="https://plainbtc.com/assets/og/default.png">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Über PlainBTC">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
   <meta name="twitter:image" content="https://plainbtc.com/assets/og/default.png">
   <meta name="twitter:title" content="Über PlainBTC">
   <meta name="twitter:description" content="Bitcoin- und Krypto-News in einfacher Sprache für Einsteiger.">
@@ -63,24 +74,32 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
   <header class="site-header">
     <div class="wrap inner">
-      <a class="logo" href="/de/">Plain<span>BTC</span></a>
+      <a class="logo" href="/de/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Menü">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
       <nav class="nav" aria-label="Primary">
-        <a href="/de/">Start</a>
         <a href="/de/#articles">Artikel</a>
-        <a href="/de/about">Über uns</a>
+        <a href="/de/#guides">Anleitungen</a>
+        <a href="/de/about" aria-current="page">Über uns</a>
         <a href="/de/disclosure">Offenlegung</a>
       </nav>
+      <div class="header-tools">
       <!-- i18n:langmenu -->
-      <details class="lang-menu"><summary aria-label="Sprache">🌐 Deutsch</summary><ul><li><a href="/about" lang="en" hreflang="en">English</a></li><li><a href="/es/about" lang="es" hreflang="es">Español</a></li><li><a href="/pt/about" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/about" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/about" lang="de" hreflang="de" aria-current="true">Deutsch</a></li><li><a href="/ru/about" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/about" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/about" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/about" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/about" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <details class="lang-menu"><summary aria-label="Sprache"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">Deutsch</span><span class="lang-code" aria-hidden="true">DE</span></summary><ul><li><a href="/about" lang="en" hreflang="en">English</a></li><li><a href="/es/about" lang="es" hreflang="es">Español</a></li><li><a href="/pt/about" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/about" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/about" lang="de" hreflang="de" aria-current="true">Deutsch</a></li><li><a href="/ru/about" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/about" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/about" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/about" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/about" lang="ko" hreflang="ko">한국어</a></li></ul></details>
       <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="Zwischen hellem und dunklem Design wechseln" title="Zwischen hellem und dunklem Design wechseln" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
     </div>
   </header>
 
-  <main class="prose-page">
+  <main class="prose-page" id="main">
     <div class="content">
-      <a class="back" href="/de/">← Start</a>
+      <!-- i18n:crumbs -->
+      <nav class="crumbs" aria-label="Navigationspfad"><a href="/de/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><span aria-current="page">Über uns</span></nav>
+      <!-- /i18n:crumbs -->
       <h1>Über PlainBTC</h1>
       <p class="tagline">Bitcoin- und Krypto-News in einfacher Sprache für Einsteiger</p>
       <p>PlainBTC ist eine unabhängige Informationsseite für Leserinnen und Leser, die klare Krypto-Berichterstattung ohne Hype wollen – mit Schwerpunkt auf dem US-Markt. Wir veröffentlichen kurze Marktrückblicke, Erklärstücke zur Regulierung und Einsteiger-Anleitungen, damit du Nachrichten und praktische Schritte nachvollziehen kannst, ohne ein Handelsraum-Lexikon zu brauchen.</p>
@@ -109,8 +128,12 @@
   </main>
 
   <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
     <div class="wrap inner">
-      <div>© 2026 PlainBTC · Bitcoin- und Krypto-News in einfacher Sprache für Einsteiger</div>
+      <div class="footer-brand">
+        <a class="logo" href="/de/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · Bitcoin- und Krypto-News in einfacher Sprache für Einsteiger</p>
+      </div>
       <nav class="footer-nav" aria-label="Footer">
         <a href="/de/">Start</a>
         <a href="/de/about">Über uns</a>
@@ -124,7 +147,8 @@
   <!-- i18n:footerlangs -->
   <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/about" lang="en" hreflang="en">English</a> <a href="/es/about" lang="es" hreflang="es">Español</a> <a href="/pt/about" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/about" lang="fr" hreflang="fr">Français</a> <a href="/de/about" lang="de" hreflang="de">Deutsch</a> <a href="/ru/about" lang="ru" hreflang="ru">Русский</a> <a href="/tr/about" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/about" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/about" lang="ja" hreflang="ja">日本語</a> <a href="/ko/about" lang="ko" hreflang="ko">한국어</a></nav></div>
   <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">Nach oben <span aria-hidden="true">↑</span></a></div>
   </footer>
-  <script src="/assets/site.20261109i.js" defer></script>
+  <script src="/assets/site.7c90358c6e.js" defer></script>
 </body>
 </html>

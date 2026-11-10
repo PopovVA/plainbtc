@@ -3,11 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="preload" href="/assets/fonts/source-serif-4-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.68d4081cdd.css">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (Русский)" href="/ru/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109g.css">
-  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
   <title>Что такое криптокошелёк? Кастодиальный и некастодиальный | PlainBTC</title>
   <meta name="description" content="Что такое криптокошелёк? Простое руководство по кастодиальным и некастодиальным кошелькам, фразам восстановления, горячему и холодному хранению и безопасному началу.">
   <link rel="canonical" href="https://plainbtc.com/ru/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">
@@ -40,31 +50,43 @@
   <meta property="og:site_name" content="PlainBTC">
   <meta property="og:locale" content="ru_RU">
   <meta property="article:published_time" content="2026-11-09">
+  <meta property="article:modified_time" content="2026-11-09">
+  <meta property="article:section" content="Руководство для новичков">
   <meta property="og:image" content="https://plainbtc.com/assets/og/what-is-a-crypto-wallet-custodial-vs-self-custody.png">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Что такое криптокошелёк? Кастодиальный и некастодиальный: объяснение для новичков">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
   <meta name="twitter:image" content="https://plainbtc.com/assets/og/what-is-a-crypto-wallet-custodial-vs-self-custody.png">
   <meta name="twitter:title" content="Что такое криптокошелёк? Кастодиальный и некастодиальный: объяснение для новичков">
   <meta name="twitter:description" content="Ваша криптовалюта живёт в блокчейне, а кошелёк хранит ключи. Чем отличаются кастодиальные и некастодиальные кошельки и что подойдёт новичку.">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "NewsArticle",
+    "@type": "Article",
     "headline": "Что такое криптокошелёк? Кастодиальный и некастодиальный: объяснение для новичков",
     "name": "Что такое криптокошелёк? Кастодиальный и некастодиальный | PlainBTC",
     "description": "Что такое криптокошелёк? Простое руководство по кастодиальным и некастодиальным кошелькам, фразам восстановления, горячему и холодному хранению и безопасному началу.",
-    "datePublished": "2026-11-09",
-    "dateModified": "2026-11-09",
+    "datePublished": "2026-11-09T19:50:00+00:00",
+    "dateModified": "2026-11-09T19:50:00+00:00",
     "author": {
       "@type": "Organization",
-      "name": "PlainBTC"
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/"
     },
     "publisher": {
       "@type": "Organization",
+      "@id": "https://plainbtc.com/#organization",
       "name": "PlainBTC",
       "url": "https://plainbtc.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://plainbtc.com/assets/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
       "sameAs": [
         "https://discord.gg/EcuGXPDr2d",
         "https://www.facebook.com/groups/1688106109771364",
@@ -76,7 +98,14 @@
       "@id": "https://plainbtc.com/ru/articles/what-is-a-crypto-wallet-custodial-vs-self-custody"
     },
     "url": "https://plainbtc.com/ru/articles/what-is-a-crypto-wallet-custodial-vs-self-custody",
-    "image": "https://plainbtc.com/assets/og/what-is-a-crypto-wallet-custodial-vs-self-custody.png",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/og/what-is-a-crypto-wallet-custodial-vs-self-custody.png",
+      "width": 1200,
+      "height": 630
+    },
+    "articleSection": "Руководство для новичков",
+    "isAccessibleForFree": true,
     "inLanguage": "ru"
   }
   </script>
@@ -206,28 +235,47 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
   <header class="site-header">
     <div class="wrap inner">
-      <a class="logo" href="/ru/">Plain<span>BTC</span></a>
+      <a class="logo" href="/ru/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Меню">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
       <nav class="nav" aria-label="Primary">
-        <a href="/ru/">Главная</a>
         <a href="/ru/#articles">Статьи</a>
+        <a href="/ru/#guides">Руководства</a>
         <a href="/ru/about">О сайте</a>
         <a href="/ru/disclosure">Раскрытие информации</a>
       </nav>
+      <div class="header-tools">
       <!-- i18n:langmenu -->
-      <details class="lang-menu"><summary aria-label="Язык">🌐 Русский</summary><ul><li><a href="/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="ru" hreflang="ru" aria-current="true">Русский</a></li><li><a href="/tr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <details class="lang-menu"><summary aria-label="Язык"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">Русский</span><span class="lang-code" aria-hidden="true">RU</span></summary><ul><li><a href="/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="ru" hreflang="ru" aria-current="true">Русский</a></li><li><a href="/tr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="ko" hreflang="ko">한국어</a></li></ul></details>
       <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="Переключить светлую и тёмную тему" title="Переключить светлую и тёмную тему" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
     </div>
   </header>
 
-  <main class="article-page">
+  <main class="article-page" id="main" data-toc="На этой странице" data-nl="Новые статьи на почту" data-nl-cta="Подписаться" data-close="Закрыть">
     <article class="content">
-      <a class="back" href="/ru/">← Все статьи</a>
-      <div class="badge">Руководство для новичков</div>
-      <h1>Что такое криптокошелёк? Кастодиальный и некастодиальный: объяснение для новичков</h1>
-      <div class="meta">Опубликовано 9 ноября 2026 г. · PlainBTC · США</div>
-      <img class="og-hero" src="/assets/og/what-is-a-crypto-wallet-custodial-vs-self-custody.png" width="1200" height="630" alt="Что такое криптокошелёк? Кастодиальный и некастодиальный: объяснение для новичков" loading="eager">
+      <!-- i18n:arthead -->
+      <header class="article-head">
+        <!-- i18n:crumbs -->
+        <nav class="crumbs" aria-label="Навигационная цепочка"><a href="/ru/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/ru/#articles">Статьи</a></nav>
+        <!-- /i18n:crumbs -->
+        <div class="badge">Руководство для новичков</div>
+        <h1>Что такое криптокошелёк? Кастодиальный и некастодиальный: объяснение для новичков</h1>
+        <div class="meta">Опубликовано <time datetime="2026-11-09">9 ноября 2026 г.</time> · PlainBTC · США<span class="meta-read"> · ~8 мин чтения</span></div>
+        <div class="share" role="group" aria-label="Поделиться">
+          <span class="share-label">Поделиться</span>
+          <a class="share-btn" href="https://x.com/intent/post?url=https%3A%2F%2Fplainbtc.com%2Fru%2Farticles%2Fwhat-is-a-crypto-wallet-custodial-vs-self-custody%3Futm_source%3Dx%26utm_medium%3Dsocial&amp;text=%D0%A7%D1%82%D0%BE%20%D1%82%D0%B0%D0%BA%D0%BE%D0%B5%20%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%91%D0%BA%3F%20%D0%9A%D0%B0%D1%81%D1%82%D0%BE%D0%B4%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B8%20%D0%BD%D0%B5%D0%BA%D0%B0%D1%81%D1%82%D0%BE%D0%B4%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%3A%20%D0%BE%D0%B1%D1%8A%D1%8F%D1%81%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2" target="_blank" rel="noopener nofollow" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplainbtc.com%2Fru%2Farticles%2Fwhat-is-a-crypto-wallet-custodial-vs-self-custody%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noopener nofollow" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+          <button class="share-btn share-copy" type="button" data-url="https://plainbtc.com/ru/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" data-copied="Ссылка скопирована" aria-label="Скопировать ссылку" title="Скопировать ссылку" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/><path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg></button>
+          <span class="share-status" role="status" aria-live="polite"></span>
+        </div>
+      </header>
+      <img class="og-hero" src="/assets/og/what-is-a-crypto-wallet-custodial-vs-self-custody.png" width="1200" height="630" alt="Что такое криптокошелёк? Кастодиальный и некастодиальный: объяснение для новичков" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->
 
       <p>Если вы купили биткоин, вам, скорее всего, сказали, что нужен «кошелёк». Слово сбивает с толку: криптокошелёк не хранит монеты так, как кожаный бумажник хранит наличные. В этом руководстве объясняется, что такое кошелёк на самом деле, чем <strong>кастодиальные</strong> кошельки отличаются от <strong>некастодиальных</strong> (самостоятельное хранение) и как новичку выбрать разумную схему.</p>
 
@@ -249,7 +297,7 @@
       <p><strong>Плюс:</strong> это просто, есть поддержка, и не нужно беречь фразу восстановления. <strong>Минус:</strong> вы зависите от компании. В ноябре 2022 года биржа FTX <a href="https://www.reuters.com/business/ftx-start-us-bankruptcy-proceedings-ceo-exit-2022-11-11/" target="_blank" rel="noopener">подала на банкротство</a>, и клиенты не смогли вывести свои средства. В собственном годовом отчёте Coinbase предупреждает, что при банкротстве криптовалюта клиентов могла бы считаться имуществом компании, а клиенты — необеспеченными кредиторами, хотя компания говорит, что, по её мнению, суд решил бы иначе. Мы объясняем это в нашем <a href="/ru/articles/is-coinbase-safe-for-beginners">руководстве по безопасности Coinbase</a>.</p>
 
       <figure class="article-figure">
-        <img src="/assets/img/what-is-a-crypto-wallet-custodial-vs-self-custody/compare-custodial-vs-self.webp" width="1200" height="630" alt="Сравнительная карточка: кастодиальные кошельки, где ключи у компании, и некастодиальные, где ключи у вас" loading="lazy">
+        <img src="/assets/img/what-is-a-crypto-wallet-custodial-vs-self-custody/compare-custodial-vs-self.webp" width="1200" height="630" alt="Сравнительная карточка: кастодиальные кошельки, где ключи у компании, и некастодиальные, где ключи у вас" loading="lazy" decoding="async">
         <figcaption>Источник: Coinbase Help, Bitcoin.org, FINRA</figcaption>
       </figure>
 
@@ -258,7 +306,7 @@
       <p>При настройке некастодиального кошелька вы получаете <strong>фразу восстановления</strong>, её также называют сид-фразой. Распространённый стандарт BIP-39 создаёт фразу из <a href="https://developer.bitcoin.org/devguide/wallets.html#storing-root-seeds" target="_blank" rel="noopener">12–24 слов</a>, из которой можно воссоздать все ключи кошелька. Coinbase Wallet <a href="https://help.coinbase.com/en/wallet/managing-account/wallet-recovery-phrase" target="_blank" rel="noopener">создаёт фразу из 12 слов</a> и сообщает, что доступ к ней есть только у вас. Если вы её потеряете, вы потеряете доступ к средствам, а Coinbase не сможет ни переместить средства, ни помочь их вернуть.</p>
 
       <figure class="article-figure">
-        <img src="/assets/img/what-is-a-crypto-wallet-custodial-vs-self-custody/fact-12-words.webp" width="1200" height="630" alt="Карточка: фраза восстановления Coinbase Wallet состоит из 12 слов, и Coinbase не сможет восстановить её при потере" loading="lazy">
+        <img src="/assets/img/what-is-a-crypto-wallet-custodial-vs-self-custody/fact-12-words.webp" width="1200" height="630" alt="Карточка: фраза восстановления Coinbase Wallet состоит из 12 слов, и Coinbase не сможет восстановить её при потере" loading="lazy" decoding="async">
         <figcaption>Источник: Coinbase Help, BIP-39</figcaption>
       </figure>
 
@@ -366,8 +414,12 @@
   </main>
 
   <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
     <div class="wrap inner">
-      <div>© 2026 PlainBTC · новости о биткоине и криптовалютах простым языком для новичков</div>
+      <div class="footer-brand">
+        <a class="logo" href="/ru/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · новости о биткоине и криптовалютах простым языком для новичков</p>
+      </div>
       <nav class="footer-nav" aria-label="Footer">
         <a href="/ru/">Главная</a>
         <a href="/ru/about">О сайте</a>
@@ -381,7 +433,8 @@
   <!-- i18n:footerlangs -->
   <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="en" hreflang="en">English</a> <a href="/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="es" hreflang="es">Español</a> <a href="/pt/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" lang="ko" hreflang="ko">한국어</a></nav></div>
   <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">Наверх <span aria-hidden="true">↑</span></a></div>
   </footer>
-  <script src="/assets/site.20261109i.js" defer></script>
+  <script src="/assets/site.7c90358c6e.js" defer></script>
 </body>
 </html>

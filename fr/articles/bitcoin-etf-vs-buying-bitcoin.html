@@ -3,11 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="preload" href="/assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.68d4081cdd.css">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (Français)" href="/fr/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109g.css">
-  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
   <title>FNB Bitcoin vs achat de bitcoin | PlainBTC</title>
   <meta name="description" content="Repérer l&#x27;ETF bitcoin par rapport à l&#x27;achat de bitcoin sur Coinbase : garde, frais, accès IRA, taxes et quand chaque chemin convient à un débutant américain — sans battage médiatique.">
   <link rel="canonical" href="https://plainbtc.com/fr/articles/bitcoin-etf-vs-buying-bitcoin">
@@ -40,31 +49,43 @@
   <meta property="og:site_name" content="PlainBTC">
   <meta property="og:locale" content="fr_FR">
   <meta property="article:published_time" content="2026-11-09">
+  <meta property="article:modified_time" content="2026-11-09">
+  <meta property="article:section" content="Guide du Débutant">
   <meta property="og:image" content="https://plainbtc.com/assets/og/bitcoin-etf-vs-buying-bitcoin.png">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="FNB Bitcoin vs achat de bitcoin : qu&#x27;est-ce qui a du sens pour un débutant américain ?">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
   <meta name="twitter:image" content="https://plainbtc.com/assets/og/bitcoin-etf-vs-buying-bitcoin.png">
   <meta name="twitter:title" content="FNB Bitcoin vs achat de bitcoin : qu&#x27;est-ce qui a du sens pour un débutant américain ?">
   <meta name="twitter:description" content="Une comparaison claire des FNB bitcoin au comptant et de la possession directe de bitcoin : contrôle, coûts, comptes de retraite et impôts.">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "NewsArticle",
+    "@type": "Article",
     "headline": "FNB Bitcoin vs achat de bitcoin : qu'est-ce qui a du sens pour un débutant américain ?",
     "name": "FNB Bitcoin vs achat de bitcoin | PlainBTC",
     "description": "Repérer l'ETF bitcoin par rapport à l'achat de bitcoin sur Coinbase : garde, frais, accès IRA, taxes et quand chaque chemin convient à un débutant américain — sans battage médiatique.",
-    "datePublished": "2026-11-09",
-    "dateModified": "2026-11-09",
+    "datePublished": "2026-11-09T12:00:00+00:00",
+    "dateModified": "2026-11-09T12:00:00+00:00",
     "author": {
       "@type": "Organization",
-      "name": "PlainBTC"
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/"
     },
     "publisher": {
       "@type": "Organization",
+      "@id": "https://plainbtc.com/#organization",
       "name": "PlainBTC",
       "url": "https://plainbtc.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://plainbtc.com/assets/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
       "sameAs": [
         "https://discord.gg/EcuGXPDr2d",
         "https://www.facebook.com/groups/1688106109771364",
@@ -76,7 +97,14 @@
       "@id": "https://plainbtc.com/fr/articles/bitcoin-etf-vs-buying-bitcoin"
     },
     "url": "https://plainbtc.com/fr/articles/bitcoin-etf-vs-buying-bitcoin",
-    "image": "https://plainbtc.com/assets/og/bitcoin-etf-vs-buying-bitcoin.png",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/og/bitcoin-etf-vs-buying-bitcoin.png",
+      "width": 1200,
+      "height": 630
+    },
+    "articleSection": "Guide du Débutant",
+    "isAccessibleForFree": true,
     "inLanguage": "fr"
   }
   </script>
@@ -151,28 +179,47 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
   <header class="site-header">
     <div class="wrap inner">
-      <a class="logo" href="/fr/">Plain<span>BTC</span></a>
+      <a class="logo" href="/fr/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Menu">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
       <nav class="nav" aria-label="Primary">
-        <a href="/fr/">Accueil</a>
         <a href="/fr/#articles">Articles</a>
+        <a href="/fr/#guides">Guides</a>
         <a href="/fr/about">À propos</a>
         <a href="/fr/disclosure">Transparence</a>
       </nav>
+      <div class="header-tools">
       <!-- i18n:langmenu -->
-      <details class="lang-menu"><summary aria-label="Langue">🌐 Français</summary><ul><li><a href="/articles/bitcoin-etf-vs-buying-bitcoin" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/bitcoin-etf-vs-buying-bitcoin" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/bitcoin-etf-vs-buying-bitcoin" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/bitcoin-etf-vs-buying-bitcoin" lang="fr" hreflang="fr" aria-current="true">Français</a></li><li><a href="/de/articles/bitcoin-etf-vs-buying-bitcoin" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/bitcoin-etf-vs-buying-bitcoin" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/bitcoin-etf-vs-buying-bitcoin" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/bitcoin-etf-vs-buying-bitcoin" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/bitcoin-etf-vs-buying-bitcoin" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/bitcoin-etf-vs-buying-bitcoin" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <details class="lang-menu"><summary aria-label="Langue"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">Français</span><span class="lang-code" aria-hidden="true">FR</span></summary><ul><li><a href="/articles/bitcoin-etf-vs-buying-bitcoin" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/bitcoin-etf-vs-buying-bitcoin" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/bitcoin-etf-vs-buying-bitcoin" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/bitcoin-etf-vs-buying-bitcoin" lang="fr" hreflang="fr" aria-current="true">Français</a></li><li><a href="/de/articles/bitcoin-etf-vs-buying-bitcoin" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/bitcoin-etf-vs-buying-bitcoin" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/bitcoin-etf-vs-buying-bitcoin" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/bitcoin-etf-vs-buying-bitcoin" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/bitcoin-etf-vs-buying-bitcoin" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/bitcoin-etf-vs-buying-bitcoin" lang="ko" hreflang="ko">한국어</a></li></ul></details>
       <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="Basculer entre thème clair et thème sombre" title="Basculer entre thème clair et thème sombre" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
     </div>
   </header>
 
-  <main class="article-page">
+  <main class="article-page" id="main" data-toc="Sur cette page" data-nl="Recevez les nouveaux articles par e-mail" data-nl-cta="S’abonner" data-close="Fermer">
     <article class="content">
-      <a class="back" href="/fr/">← Tous les articles</a>
-      <div class="badge">Guide du Débutant</div>
-      <h1>FNB Bitcoin vs achat de bitcoin : qu'est-ce qui a du sens pour un débutant américain ?</h1>
-      <div class="meta">Publié le 9 novembre 2026 · PlainBTC · États-Unis</div>
-      <img class="og-hero" src="/assets/og/bitcoin-etf-vs-buying-bitcoin.png" width="1200" height="630" alt="FNB Bitcoin vs achat de bitcoin : qu&#x27;est-ce qui a du sens pour un débutant américain ?" loading="eager">
+      <!-- i18n:arthead -->
+      <header class="article-head">
+        <!-- i18n:crumbs -->
+        <nav class="crumbs" aria-label="Fil d’Ariane"><a href="/fr/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/fr/#articles">Articles</a></nav>
+        <!-- /i18n:crumbs -->
+        <div class="badge">Guide du Débutant</div>
+        <h1>FNB Bitcoin vs achat de bitcoin : qu'est-ce qui a du sens pour un débutant américain ?</h1>
+        <div class="meta">Publié le <time datetime="2026-11-09">9 novembre 2026</time> · PlainBTC · États-Unis<span class="meta-read"> · ~9 min de lecture</span></div>
+        <div class="share" role="group" aria-label="Partager">
+          <span class="share-label">Partager</span>
+          <a class="share-btn" href="https://x.com/intent/post?url=https%3A%2F%2Fplainbtc.com%2Ffr%2Farticles%2Fbitcoin-etf-vs-buying-bitcoin%3Futm_source%3Dx%26utm_medium%3Dsocial&amp;text=FNB%20Bitcoin%20vs%20achat%20de%20bitcoin%20%3A%20qu%27est-ce%20qui%20a%20du%20sens%20pour%20un%20d%C3%A9butant%20am%C3%A9ricain%20%3F" target="_blank" rel="noopener nofollow" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplainbtc.com%2Ffr%2Farticles%2Fbitcoin-etf-vs-buying-bitcoin%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noopener nofollow" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+          <button class="share-btn share-copy" type="button" data-url="https://plainbtc.com/fr/articles/bitcoin-etf-vs-buying-bitcoin" data-copied="Lien copié" aria-label="Copier le lien" title="Copier le lien" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/><path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg></button>
+          <span class="share-status" role="status" aria-live="polite"></span>
+        </div>
+      </header>
+      <img class="og-hero" src="/assets/og/bitcoin-etf-vs-buying-bitcoin.png" width="1200" height="630" alt="FNB Bitcoin vs achat de bitcoin : qu&#x27;est-ce qui a du sens pour un débutant américain ?" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->
 
       <p>Depuis janvier 2024, les investisseurs américains peuvent acheter <a href="https://www.sec.gov/newsroom/press-releases/2024-17" target="_blank" rel="noopener">produits négociés en bourse bitcoin spot</a>  dans un compte de courtage normal. Cela a créé une nouvelle question pour les débutants : devriez-vous acheter un ETF bitcoin ou acheter bitcoin lui-même sur un échange comme Coinbase ? Les deux suivent le prix du bitcoin en gros traits. Ce n'est pas le même produit. Ce guide compare la garde, les frais, les types de compte, les taxes et les compromis pratiques afin que vous puissiez choisir délibérément.</p>
 
@@ -192,7 +239,7 @@
       <p>Vous ne pouvez pas envoyer d'actions ETF sur le réseau bitcoin, les dépenser sous forme de bitcoin ou les déplacer dans un portefeuille matériel. Vous vendez des actions de votre maison de courtage quand vous le souhaitez.</p>
 
       <figure class="article-figure">
-        <img src="/assets/img/bitcoin-etf-vs-buying-bitcoin/fact-etf-shares.webp" width="1200" height="630" alt="Encadré : un ETF bitcoin spot signifie que vous détenez des parts de fonds, pas des pièces dans un portefeuille" loading="lazy">
+        <img src="/assets/img/bitcoin-etf-vs-buying-bitcoin/fact-etf-shares.webp" width="1200" height="630" alt="Encadré : un ETF bitcoin spot signifie que vous détenez des parts de fonds, pas des pièces dans un portefeuille" loading="lazy" decoding="async">
         <figcaption>Source : SEC, Fidelity</figcaption>
       </figure>
 
@@ -204,7 +251,7 @@
       <p>Les ratios de dépenses changent. Lisez toujours le prospectus actuel pour tout ticker que vous considérez (les exemples que les investisseurs comparent souvent incluent les produits au comptant tels que ceux de BlackRock, Fidelity ou Ark/21Shares). Ne comptez pas sur des frais que vous avez mémorisés l'année dernière.</p>
 
       <figure class="article-figure">
-        <img src="/assets/img/bitcoin-etf-vs-buying-bitcoin/fact-direct-keys.webp" width="1200" height="630" alt="Encadré : acheter du bitcoin, c’est détenir du BTC sur une plateforme ou en auto-conservation avec vos clés" loading="lazy">
+        <img src="/assets/img/bitcoin-etf-vs-buying-bitcoin/fact-direct-keys.webp" width="1200" height="630" alt="Encadré : acheter du bitcoin, c’est détenir du BTC sur une plateforme ou en auto-conservation avec vos clés" loading="lazy" decoding="async">
         <figcaption>Source : Coinbase Help, FINRA</figcaption>
       </figure>
 
@@ -314,8 +361,12 @@
   </main>
 
   <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
     <div class="wrap inner">
-      <div>© 2026 PlainBTC · l’actualité du bitcoin et des cryptos en langage clair, pour les débutants</div>
+      <div class="footer-brand">
+        <a class="logo" href="/fr/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · l’actualité du bitcoin et des cryptos en langage clair, pour les débutants</p>
+      </div>
       <nav class="footer-nav" aria-label="Footer">
         <a href="/fr/">Accueil</a>
         <a href="/fr/about">À propos</a>
@@ -329,7 +380,8 @@
   <!-- i18n:footerlangs -->
   <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/bitcoin-etf-vs-buying-bitcoin" lang="en" hreflang="en">English</a> <a href="/es/articles/bitcoin-etf-vs-buying-bitcoin" lang="es" hreflang="es">Español</a> <a href="/pt/articles/bitcoin-etf-vs-buying-bitcoin" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/bitcoin-etf-vs-buying-bitcoin" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/bitcoin-etf-vs-buying-bitcoin" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/bitcoin-etf-vs-buying-bitcoin" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/bitcoin-etf-vs-buying-bitcoin" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/bitcoin-etf-vs-buying-bitcoin" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/bitcoin-etf-vs-buying-bitcoin" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/bitcoin-etf-vs-buying-bitcoin" lang="ko" hreflang="ko">한국어</a></nav></div>
   <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">Haut de page <span aria-hidden="true">↑</span></a></div>
   </footer>
-  <script src="/assets/site.20261109i.js" defer></script>
+  <script src="/assets/site.7c90358c6e.js" defer></script>
 </body>
 </html>

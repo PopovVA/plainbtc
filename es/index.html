@@ -3,11 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="preload" href="/assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.68d4081cdd.css">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (Español)" href="/es/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109g.css">
-  <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
   <title>PlainBTC — Noticias de Bitcoin y criptomonedas en lenguaje sencillo</title>
   <meta name="description" content="Noticias de Bitcoin y criptomonedas en lenguaje sencillo, resúmenes del mercado y guías para principiantes. Con foco en el mercado de EE. UU. Actualizado en noviembre de 2026.">
   <link rel="canonical" href="https://plainbtc.com/es/">
@@ -40,10 +49,12 @@
   <meta property="og:site_name" content="PlainBTC">
   <meta property="og:locale" content="es_ES">
   <meta property="og:image" content="https://plainbtc.com/assets/og/default.png">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="PlainBTC — Noticias de Bitcoin y criptomonedas en lenguaje sencillo">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
   <meta name="twitter:image" content="https://plainbtc.com/assets/og/default.png">
   <meta name="twitter:title" content="PlainBTC — Noticias de Bitcoin y criptomonedas en lenguaje sencillo">
   <meta name="twitter:description" content="Noticias de Bitcoin y criptomonedas en lenguaje sencillo, resúmenes del mercado y guías para principiantes.">
@@ -51,46 +62,383 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": "https://plainbtc.com/es/#website",
     "name": "PlainBTC",
     "url": "https://plainbtc.com/es/",
     "description": "Noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes",
     "inLanguage": "es",
     "publisher": {
-      "@type": "Organization",
-      "name": "PlainBTC",
-      "url": "https://plainbtc.com/",
-      "sameAs": [
-        "https://discord.gg/EcuGXPDr2d",
-        "https://www.facebook.com/groups/1688106109771364",
-        "https://x.com/lean_redfield"
-      ]
+      "@id": "https://plainbtc.com/#organization"
     }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://plainbtc.com/#organization",
+    "name": "PlainBTC",
+    "url": "https://plainbtc.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/logo-512.png",
+      "width": 512,
+      "height": 512
+    },
+    "sameAs": [
+      "https://discord.gg/EcuGXPDr2d",
+      "https://www.facebook.com/groups/1688106109771364",
+      "https://x.com/lean_redfield"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Últimos artículos",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://plainbtc.com/es/articles/binance-blocks-mexc-fincen-order-nov-2026",
+        "name": "Binance bloquea las transferencias con MEXC tras una orden del Tesoro de EE. UU. por 16.700 M$ en flujos presuntamente ilícitos"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://plainbtc.com/es/articles/banks-270-million-stablecoin-project-faro-nov-2026",
+        "name": "Goldman Sachs, Citi y otros bancos comprometen unos 270 M$ para una stablecoin conjunta en dólares, según Bloomberg"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://plainbtc.com/es/articles/bitcoin-hot-cpi-etf-outflows-nov-2026",
+        "name": "El bitcoin cae hacia 73.400 $ tras un dato de inflación de octubre más alto de lo esperado"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "url": "https://plainbtc.com/es/articles/binance-hack-north-korea-memecoin-laundering-nov-2026",
+        "name": "Corea del Norte crea memecoins para lavar el hackeo de 6.400 millones de dólares a Binance, según Elliptic"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "url": "https://plainbtc.com/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody",
+        "name": "¿Qué es una cartera cripto? Custodia vs. autocustodia, explicado para principiantes"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "url": "https://plainbtc.com/es/articles/how-much-bitcoin-should-a-beginner-buy-dca",
+        "name": "¿Cuánto bitcoin debería comprar un principiante? Guía clara sobre el promedio de costo en dólares"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "url": "https://plainbtc.com/es/articles/is-coinbase-safe-for-beginners",
+        "name": "¿Es seguro Coinbase para principiantes? Qué está protegido, qué no y cómo reducir tu riesgo"
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "url": "https://plainbtc.com/es/articles/coinbase-occ-national-trust-charter-nov-2026",
+        "name": "Coinbase obtiene una licencia federal completa de banco fiduciario de la OCC: qué significa"
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "url": "https://plainbtc.com/es/articles/fincen-fed-withdraw-250-travel-rule-nov-2026",
+        "name": "FinCEN y la Fed retiran el plan de bajar la Travel Rule a 250 dólares: el umbral de 3.000 se mantiene"
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "url": "https://plainbtc.com/es/articles/bitcoin-loses-50-week-moving-average-nov-2026",
+        "name": "Bitcoin pierde su media móvil de 50 semanas mientras las liquidaciones de largos superan los 1.000 millones de dólares"
+      }
+    ]
   }
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
   <header class="site-header">
     <div class="wrap inner">
-      <a class="logo" href="/es/">Plain<span>BTC</span></a>
+      <a class="logo" href="/es/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Menú">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
       <nav class="nav" aria-label="Primary">
-        <a href="/es/">Inicio</a>
         <a href="/es/#articles">Artículos</a>
+        <a href="/es/#guides">Guías</a>
         <a href="/es/about">Acerca de</a>
         <a href="/es/disclosure">Divulgación</a>
       </nav>
+      <div class="header-tools">
       <!-- i18n:langmenu -->
-      <details class="lang-menu"><summary aria-label="Idioma">🌐 Español</summary><ul><li><a href="/" lang="en" hreflang="en">English</a></li><li><a href="/es/" lang="es" hreflang="es" aria-current="true">Español</a></li><li><a href="/pt/" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <details class="lang-menu"><summary aria-label="Idioma"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">Español</span><span class="lang-code" aria-hidden="true">ES</span></summary><ul><li><a href="/" lang="en" hreflang="en">English</a></li><li><a href="/es/" lang="es" hreflang="es" aria-current="true">Español</a></li><li><a href="/pt/" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko">한국어</a></li></ul></details>
       <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="Cambiar entre tema claro y oscuro" title="Cambiar entre tema claro y oscuro" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
     </div>
   </header>
 
-  <main>
-    <section class="hero wrap">
-      <div class="badge">Mercado de EE. UU. · 10 de noviembre de 2026</div>
-      <h1>Noticias cripto sin ruido</h1>
-      <p>PlainBTC cuenta lo que pasa con bitcoin, la regulación y los trámites prácticos, con el foco en el mercado estadounidense y en un lenguaje que se entiende a la primera.</p>
+  <main id="main">
+    <div class="ticker" role="region" aria-label="Lo último">
+      <span class="ticker-label">Lo último</span>
+      <div class="ticker-viewport"><ul class="ticker-track"><li><a href="/es/articles/binance-blocks-mexc-fincen-order-nov-2026">Binance bloquea las transferencias con MEXC tras una orden del Tesoro de EE. UU. por 16.700 M$ en flujos presuntamente ilícitos</a></li><li><a href="/es/articles/banks-270-million-stablecoin-project-faro-nov-2026">Goldman Sachs, Citi y otros bancos comprometen unos 270 M$ para una stablecoin conjunta en dólares, según Bloomberg</a></li><li><a href="/es/articles/bitcoin-hot-cpi-etf-outflows-nov-2026">El bitcoin cae hacia 73.400 $ tras un dato de inflación de octubre más alto de lo esperado</a></li><li><a href="/es/articles/binance-hack-north-korea-memecoin-laundering-nov-2026">Corea del Norte crea memecoins para lavar el hackeo de 6.400 millones de dólares a Binance, según Elliptic</a></li><li><a href="/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">¿Qué es una cartera cripto? Custodia vs. autocustodia, explicado para principiantes</a></li><li><a href="/es/articles/how-much-bitcoin-should-a-beginner-buy-dca">¿Cuánto bitcoin debería comprar un principiante? Guía clara sobre el promedio de costo en dólares</a></li><li><a href="/es/articles/is-coinbase-safe-for-beginners">¿Es seguro Coinbase para principiantes? Qué está protegido, qué no y cómo reducir tu riesgo</a></li><li><a href="/es/articles/coinbase-occ-national-trust-charter-nov-2026">Coinbase obtiene una licencia federal completa de banco fiduciario de la OCC: qué significa</a></li></ul></div>
+    </div>
+    <section class="hero">
+      <div class="wrap hero-copy">
+        <div class="badge">Mercado de EE. UU. · 10 de noviembre de 2026</div>
+        <h1><span class="w" style="--i:0"><span>Noticias</span></span> <span class="w" style="--i:1"><span>cripto</span></span> <span class="w" style="--i:2"><span>sin</span></span> <span class="w w-last" style="--i:3"><span>ruido</span></span></h1>
+        <p class="hero-lead">PlainBTC cuenta lo que pasa con bitcoin, la regulación y los trámites prácticos, con el foco en el mercado estadounidense y en un lenguaje que se entiende a la primera.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#articles">Leer lo último</a>
+          <a class="btn btn-ghost" href="#guides">Empezar por lo básico</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg class="wave" viewBox="0 0 1200 240" preserveAspectRatio="none" focusable="false">
+          <path class="wave-noise" vector-effect="non-scaling-stroke" d="M0 155.4 L10 83.7 L20 49.9 L30 189.9 L40 162.4 L50 191.4 L60 181.7 L70 47.5 L80 129.0 L90 184.8 L100 109.0 L110 191.9 L120 87.1 L130 195.7 L140 78.1 L150 49.9 L160 53.4 L170 35.7 L180 61.4 L190 162.6 L200 187.5 L210 93.6 L220 129.5 L230 196.2 L240 173.0 L250 96.3 L260 75.8 L270 102.8 L280 94.7 L290 179.6 L300 180.4 L310 62.7 L320 185.0 L330 200.0 L340 98.0 L350 82.9 L360 163.2 L370 183.9 L380 163.8 L390 43.3 L400 184.9 L410 83.9 L420 46.1 L430 46.3 L440 161.0 L450 165.1 L460 172.6 L470 75.9 L480 69.7 L490 135.7 L500 114.8 L510 122.3 L520 88.6 L530 142.1 L540 115.8 L550 152.5 L560 123.8 L570 99.9 L580 118.6 L590 129.5 L600 121.7 L610 116.1 L620 110.3 L630 122.1 L640 122.8 L650 122.1 L660 117.5 L670 118.6 L680 118.2 L690 119.7 L700 120.0"/>
+          <path class="wave-plain" vector-effect="non-scaling-stroke" d="M700 120H1200"/>
+        </svg>
+        <span class="wave-lens"><span class="wave-chip">plain</span></span>
+      </div>
+      <dl class="wrap stats" aria-label="PlainBTC en cifras"><div class="stat"><dt>Artículos</dt><dd data-count="17">17</dd></div><div class="stat"><dt>Idiomas</dt><dd data-count="10">10</dd></div><div class="stat"><dt>Fuentes citadas</dt><dd data-count="91">91</dd></div></dl>
     </section>
 
+    <section id="articles" class="wrap section" aria-labelledby="articles-title">
+      <div class="section-head"><h2 id="articles-title">Últimos artículos</h2><a class="section-link" href="/es/feed.xml">RSS</a></div>
+      <div class="article-grid">
+  <!-- i18n:articles -->
+      <article class="card card-lead" data-kind="news">
+        <a class="card-thumb" href="/es/articles/binance-blocks-mexc-fincen-order-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/binance-blocks-mexc-fincen-order-nov-2026/thumb.webp" width="640" height="360" alt="Binance bloquea las transferencias con MEXC tras una orden del Tesoro de EE. UU. por 16.700 M$ en flujos presuntamente ilícitos" loading="eager" fetchpriority="high" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Regulación</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-10">10 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~5 min de lectura</span></div>
+          <h3><a href="/es/articles/binance-blocks-mexc-fincen-order-nov-2026">Binance bloquea las transferencias con MEXC tras una orden del Tesoro de EE. UU. por 16.700 M$ en flujos presuntamente ilícitos</a></h3>
+          <p>Binance rechazará envíos a MEXC y retendrá sus depósitos para revisión, tras una orden de FinCEN que aísla a MEXC de las firmas de EE. UU. a partir del 10 de diciembre.</p>
+          <a class="read-more" href="/es/articles/binance-blocks-mexc-fincen-order-nov-2026" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/es/articles/banks-270-million-stablecoin-project-faro-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/banks-270-million-stablecoin-project-faro-nov-2026/thumb.webp" width="640" height="360" alt="Goldman Sachs, Citi y otros bancos comprometen unos 270 M$ para una stablecoin conjunta en dólares, según Bloomberg" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Empresas</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-10">10 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~4 min de lectura</span></div>
+          <h3><a href="/es/articles/banks-270-million-stablecoin-project-faro-nov-2026">Goldman Sachs, Citi y otros bancos comprometen unos 270 M$ para una stablecoin conjunta en dólares, según Bloomberg</a></h3>
+          <p>Grandes bancos habrían comprometido unos 270 M$ para Project Faro, una stablecoin conjunta en dólares prevista para el primer semestre de 2027 que competiría con Tether y Circle.</p>
+          <a class="read-more" href="/es/articles/banks-270-million-stablecoin-project-faro-nov-2026" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/es/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/bitcoin-hot-cpi-etf-outflows-nov-2026/thumb.webp" width="640" height="360" alt="El bitcoin cae hacia 73.400 $ tras un dato de inflación de octubre más alto de lo esperado" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Mercado</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-10">10 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~5 min de lectura</span></div>
+          <h3><a href="/es/articles/bitcoin-hot-cpi-etf-outflows-nov-2026">El bitcoin cae hacia 73.400 $ tras un dato de inflación de octubre más alto de lo esperado</a></h3>
+          <p>El IPC de octubre subió un 0,4%, más de lo previsto. El bitcoin bajó a unos 73.400 $ ante las apuestas de una subida de tipos de la Fed en diciembre y nuevas salidas de los ETF.</p>
+          <a class="read-more" href="/es/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/es/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/binance-hack-north-korea-memecoin-laundering-nov-2026/thumb.webp" width="640" height="360" alt="Corea del Norte crea memecoins para lavar el hackeo de 6.400 millones de dólares a Binance, según Elliptic" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Seguridad</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~6 min de lectura</span></div>
+          <h3><a href="/es/articles/binance-hack-north-korea-memecoin-laundering-nov-2026">Corea del Norte crea memecoins para lavar el hackeo de 6.400 millones de dólares a Binance, según Elliptic</a></h3>
+          <p>Elliptic rastreó fondos robados a Binance a través de seis memecoins caseras en NEAR, mientras unos 2.850 millones de dólares del botín siguen congelados.</p>
+          <a class="read-more" href="/es/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/what-is-a-crypto-wallet-custodial-vs-self-custody/thumb.webp" width="640" height="360" alt="¿Qué es una cartera cripto? Custodia vs. autocustodia, explicado para principiantes" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Guía para principiantes</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~8 min de lectura</span></div>
+          <h3><a href="/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">¿Qué es una cartera cripto? Custodia vs. autocustodia, explicado para principiantes</a></h3>
+          <p>Una cartera no guarda monedas, guarda claves. Aprende la diferencia entre carteras custodiadas y de autocustodia, qué es una frase de recuperación y cómo empezar con seguridad.</p>
+          <a class="read-more" href="/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/es/articles/how-much-bitcoin-should-a-beginner-buy-dca" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/how-much-bitcoin-should-a-beginner-buy-dca/thumb.webp" width="640" height="360" alt="¿Cuánto bitcoin debería comprar un principiante? Guía clara sobre el promedio de costo en dólares" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Guía para principiantes</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~8 min de lectura</span></div>
+          <h3><a href="/es/articles/how-much-bitcoin-should-a-beginner-buy-dca">¿Cuánto bitcoin debería comprar un principiante? Guía clara sobre el promedio de costo en dólares</a></h3>
+          <p>Nadie puede decirte la cantidad correcta, pero sí puedes elegir un método sensato para decidirla. Explicamos el promedio de costo en dólares, lo probamos con precios reales y mostramos cómo configurar una compra recurrente.</p>
+          <a class="read-more" href="/es/articles/how-much-bitcoin-should-a-beginner-buy-dca" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/es/articles/is-coinbase-safe-for-beginners" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/is-coinbase-safe-for-beginners/thumb.webp" width="640" height="360" alt="¿Es seguro Coinbase para principiantes? Qué está protegido, qué no y cómo reducir tu riesgo" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Guía para principiantes</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~8 min de lectura</span></div>
+          <h3><a href="/es/articles/is-coinbase-safe-for-beginners">¿Es seguro Coinbase para principiantes? Qué está protegido, qué no y cómo reducir tu riesgo</a></h3>
+          <p>Un repaso claro de la seguridad de Coinbase: cómo guarda las criptomonedas, qué está y qué no está asegurado, qué fue la filtración de datos de 2025 y una lista para proteger tu cuenta.</p>
+          <a class="read-more" href="/es/articles/is-coinbase-safe-for-beginners" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/es/articles/coinbase-occ-national-trust-charter-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/coinbase-occ-national-trust-charter-nov-2026/thumb.webp" width="640" height="360" alt="Coinbase obtiene una licencia federal completa de banco fiduciario de la OCC: qué significa" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Regulación</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~6 min de lectura</span></div>
+          <h3><a href="/es/articles/coinbase-occ-national-trust-charter-nov-2026">Coinbase obtiene una licencia federal completa de banco fiduciario de la OCC: qué significa</a></h3>
+          <p>La OCC aprobó Coinbase National Trust Company el 6 de noviembre y su custodia cripto institucional queda bajo supervisión bancaria federal. Esto es lo que permite la licencia.</p>
+          <a class="read-more" href="/es/articles/coinbase-occ-national-trust-charter-nov-2026" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/es/articles/fincen-fed-withdraw-250-travel-rule-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/fincen-fed-withdraw-250-travel-rule-nov-2026/thumb.webp" width="640" height="360" alt="FinCEN y la Fed retiran el plan de bajar la Travel Rule a 250 dólares: el umbral de 3.000 se mantiene" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Regulación</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~7 min de lectura</span></div>
+          <h3><a href="/es/articles/fincen-fed-withdraw-250-travel-rule-nov-2026">FinCEN y la Fed retiran el plan de bajar la Travel Rule a 250 dólares: el umbral de 3.000 se mantiene</a></h3>
+          <p>Los reguladores de EE. UU. retiraron una propuesta de 2020 para rebajar a 250 dólares los umbrales transfronterizos y quitar la redacción específica sobre criptomonedas. Qué cambia y qué no.</p>
+          <a class="read-more" href="/es/articles/fincen-fed-withdraw-250-travel-rule-nov-2026" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/es/articles/bitcoin-loses-50-week-moving-average-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/bitcoin-loses-50-week-moving-average-nov-2026/thumb.webp" width="640" height="360" alt="Bitcoin pierde su media móvil de 50 semanas mientras las liquidaciones de largos superan los 1.000 millones de dólares" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Mercados</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~7 min de lectura</span></div>
+          <h3><a href="/es/articles/bitcoin-loses-50-week-moving-average-nov-2026">Bitcoin pierde su media móvil de 50 semanas mientras las liquidaciones de largos superan los 1.000 millones de dólares</a></h3>
+          <p>BTC cerró por debajo de 75.488 dólares tras siete semanas por encima de esa línea, y CoinGlass registró 1.150 millones en liquidaciones. Qué significa el punto de control de Galaxy.</p>
+          <a class="read-more" href="/es/articles/bitcoin-loses-50-week-moving-average-nov-2026" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/es/articles/pnc-coinbase-usdc-payments-pilot-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/pnc-coinbase-usdc-payments-pilot-nov-2026/thumb.webp" width="640" height="360" alt="PNC Bank lanza un piloto de pagos en USDC con Coinbase para clientes corporativos" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Empresas</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~7 min de lectura</span></div>
+          <h3><a href="/es/articles/pnc-coinbase-usdc-payments-pilot-nov-2026">PNC Bank lanza un piloto de pagos en USDC con Coinbase para clientes corporativos</a></h3>
+          <p>Las empresas elegibles pueden recibir USDC en Ethereum mediante Coinbase Payments, con conversión automática 1:1 a un depósito en dólares en PNC.</p>
+          <a class="read-more" href="/es/articles/pnc-coinbase-usdc-payments-pilot-nov-2026" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/es/articles/bitcoin-volatility-liquidations-nov-2026" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/bitcoin-volatility-liquidations-nov-2026/thumb.webp" width="640" height="360" alt="El vaivén de bitcoin en el fin de semana: 1.000 millones liquidados mientras los titulares de Nvidia golpean a los activos de riesgo" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Resumen del mercado</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~7 min de lectura</span></div>
+          <h3><a href="/es/articles/bitcoin-volatility-liquidations-nov-2026">El vaivén de bitcoin en el fin de semana: 1.000 millones liquidados mientras los titulares de Nvidia golpean a los activos de riesgo</a></h3>
+          <p>BTC cayó brevemente hasta unos 73.761 dólares antes de recuperar los 75.000. Qué impulsó el movimiento, a quién liquidaron y qué vigilan los traders.</p>
+          <a class="read-more" href="/es/articles/bitcoin-volatility-liquidations-nov-2026" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/es/articles/how-to-buy-first-bitcoin-coinbase" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/how-to-buy-first-bitcoin-coinbase/thumb.webp" width="640" height="360" alt="Cómo comprar tu primer bitcoin en Coinbase (guía para principiantes en EE. UU.)" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Guía para principiantes</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~8 min de lectura</span></div>
+          <h3><a href="/es/articles/how-to-buy-first-bitcoin-coinbase">Cómo comprar tu primer bitcoin en Coinbase (guía para principiantes en EE. UU.)</a></h3>
+          <p>Un recorrido paso a paso: crea una cuenta, verifica tu identidad, añade un método de pago, haz una primera compra pequeña y ten presentes las comisiones y la seguridad.</p>
+          <a class="read-more" href="/es/articles/how-to-buy-first-bitcoin-coinbase" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <details class="older">
+        <summary>Artículos anteriores</summary>
+        <div class="article-grid">
+      <article class="card" data-kind="news">
+        <a class="card-thumb" href="/es/articles/us-midterms-crypto-regulation-etf-outflows" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/us-midterms-crypto-regulation-etf-outflows/thumb.webp" width="640" height="360" alt="Tras las elecciones de mitad de mandato: ¿salidas de los ETF y un reglamento cripto más duro?" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Regulación y mercados</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~8 min de lectura</span></div>
+          <h3><a href="/es/articles/us-midterms-crypto-regulation-etf-outflows">Tras las elecciones de mitad de mandato: ¿salidas de los ETF y un reglamento cripto más duro?</a></h3>
+          <p>Los ETF de bitcoin al contado acaban de registrar su mayor salida semanal desde junio. Los mercados descuentan incertidumbre regulatoria mientras los demócratas se preparan para liderar el Congreso.</p>
+          <a class="read-more" href="/es/articles/us-midterms-crypto-regulation-etf-outflows" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/es/articles/bitcoin-etf-vs-buying-bitcoin" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/bitcoin-etf-vs-buying-bitcoin/thumb.webp" width="640" height="360" alt="ETF de Bitcoin frente a la compra de bitcoin: ¿qué tiene sentido para un principiante de EE. UU.?" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Guía para principiantes</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~9 min de lectura</span></div>
+          <h3><a href="/es/articles/bitcoin-etf-vs-buying-bitcoin">ETF de Bitcoin frente a la compra de bitcoin: ¿qué tiene sentido para un principiante de EE. UU.?</a></h3>
+          <p>Los ETF de bitcoin al contado dan exposición al precio dentro de una cuenta de corretaje. Comprar bitcoin te da el activo en sí. Así es como los principiantes de EE. UU. pueden comparar la custodia, las tarifas, las cuentas ira y los impuestos.</p>
+          <a class="read-more" href="/es/articles/bitcoin-etf-vs-buying-bitcoin" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/es/articles/coinbase-fees-explained" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/coinbase-fees-explained/thumb.webp" width="640" height="360" alt="Explicación de las tarifas de Coinbase: spread, creador/tomador avanzado y lo que realmente paga un principiante" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Guía para principiantes</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~9 min de lectura</span></div>
+          <h3><a href="/es/articles/coinbase-fees-explained">Explicación de las tarifas de Coinbase: spread, creador/tomador avanzado y lo que realmente paga un principiante</a></h3>
+          <p>Un desglose sencillo en inglés de las tarifas de Coinbase: el diferencial variable en compras y ventas simples, niveles avanzados de creador/receptor, Coinbase One y cómo comparar los costes en la pantalla de vista previa.</p>
+          <a class="read-more" href="/es/articles/coinbase-fees-explained" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+
+      <article class="card" data-kind="guide">
+        <a class="card-thumb" href="/es/articles/how-to-cash-out-bitcoin-coinbase-to-bank" tabindex="-1" aria-hidden="true">
+          <img src="/assets/img/how-to-cash-out-bitcoin-coinbase-to-bank/thumb.webp" width="640" height="360" alt="Cómo retirar bitcoin en Coinbase a su banco (pasos, plazos e impuestos de EE. UU.)" loading="lazy" decoding="async">
+        </a>
+        <div class="card-body">
+          <div class="meta"><span class="kicker">Guía para principiantes</span><span class="sep" aria-hidden="true"> · </span><time datetime="2026-11-09">9 de noviembre de 2026</time><span class="sep" aria-hidden="true"> · </span><span>~9 min de lectura</span></div>
+          <h3><a href="/es/articles/how-to-cash-out-bitcoin-coinbase-to-bank">Cómo retirar bitcoin en Coinbase a su banco (pasos, plazos e impuestos de EE. UU.)</a></h3>
+          <p>Paso a paso para los usuarios de EE. UU.: venda bitcoins a su saldo de efectivo de Coinbase, retire a un banco vinculado a través de ACH o retiro de efectivo instantáneo, y tenga en cuenta los conceptos básicos de la declaración de impuestos.</p>
+          <a class="read-more" href="/es/articles/how-to-cash-out-bitcoin-coinbase-to-bank" tabindex="-1" aria-hidden="true">Leer artículo →</a>
+        </div>
+      </article>
+        </div>
+      </details>
+  <!-- /i18n:articles -->
+      </div>
+    </section>
+
+    <section id="guides" class="wrap section" aria-labelledby="guides-title">
+      <div class="section-head"><h2 id="guides-title">Guías para principiantes</h2></div>
+      <ul class="guide-list">
+        <li><a href="/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody"><span class="guide-n" aria-hidden="true">01</span><span class="guide-t">¿Qué es una cartera cripto? Custodia vs. autocustodia, explicado para principiantes</span><span class="guide-m">~8 min de lectura</span></a></li>
+        <li><a href="/es/articles/how-much-bitcoin-should-a-beginner-buy-dca"><span class="guide-n" aria-hidden="true">02</span><span class="guide-t">¿Cuánto bitcoin debería comprar un principiante? Guía clara sobre el promedio de costo en dólares</span><span class="guide-m">~8 min de lectura</span></a></li>
+        <li><a href="/es/articles/is-coinbase-safe-for-beginners"><span class="guide-n" aria-hidden="true">03</span><span class="guide-t">¿Es seguro Coinbase para principiantes? Qué está protegido, qué no y cómo reducir tu riesgo</span><span class="guide-m">~8 min de lectura</span></a></li>
+        <li><a href="/es/articles/how-to-buy-first-bitcoin-coinbase"><span class="guide-n" aria-hidden="true">04</span><span class="guide-t">Cómo comprar tu primer bitcoin en Coinbase (guía para principiantes en EE. UU.)</span><span class="guide-m">~8 min de lectura</span></a></li>
+        <li><a href="/es/articles/bitcoin-etf-vs-buying-bitcoin"><span class="guide-n" aria-hidden="true">05</span><span class="guide-t">ETF de Bitcoin frente a la compra de bitcoin: ¿qué tiene sentido para un principiante de EE. UU.?</span><span class="guide-m">~9 min de lectura</span></a></li>
+        <li><a href="/es/articles/coinbase-fees-explained"><span class="guide-n" aria-hidden="true">06</span><span class="guide-t">Explicación de las tarifas de Coinbase: spread, creador/tomador avanzado y lo que realmente paga un principiante</span><span class="guide-m">~9 min de lectura</span></a></li>
+        <li><a href="/es/articles/how-to-cash-out-bitcoin-coinbase-to-bank"><span class="guide-n" aria-hidden="true">07</span><span class="guide-t">Cómo retirar bitcoin en Coinbase a su banco (pasos, plazos e impuestos de EE. UU.)</span><span class="guide-m">~9 min de lectura</span></a></li>
+      </ul>
+    </section>
+
+    <section class="wrap loop">
   <!-- i18n:community -->
       <aside class="community-box home-community" aria-label="Enlaces de la comunidad">
         <h2>Únete a la comunidad</h2>
@@ -98,212 +446,6 @@
         <div class="community-links"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
       </aside>
   <!-- /i18n:community -->
-    <section id="articles" class="wrap article-grid" aria-label="Artículos">
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/binance-blocks-mexc-fincen-order-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/binance-blocks-mexc-fincen-order-nov-2026/thumb.webp" width="640" height="360" alt="Binance bloquea las transferencias con MEXC tras una orden del Tesoro de EE. UU. por 16.700 M$ en flujos presuntamente ilícitos" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Regulación · 10 de noviembre de 2026 · ~5 min de lectura</div>
-          <h2><a href="/es/articles/binance-blocks-mexc-fincen-order-nov-2026">Binance bloquea las transferencias con MEXC tras una orden del Tesoro de EE. UU. por 16.700 M$ en flujos presuntamente ilícitos</a></h2>
-          <p>Binance rechazará envíos a MEXC y retendrá sus depósitos para revisión, tras una orden de FinCEN que aísla a MEXC de las firmas de EE. UU. a partir del 10 de diciembre.</p>
-          <a class="read-more" href="/es/articles/binance-blocks-mexc-fincen-order-nov-2026">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/banks-270-million-stablecoin-project-faro-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/banks-270-million-stablecoin-project-faro-nov-2026/thumb.webp" width="640" height="360" alt="Goldman Sachs, Citi y otros bancos comprometen unos 270 M$ para una stablecoin conjunta en dólares, según Bloomberg" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Empresas · 10 de noviembre de 2026 · ~4 min de lectura</div>
-          <h2><a href="/es/articles/banks-270-million-stablecoin-project-faro-nov-2026">Goldman Sachs, Citi y otros bancos comprometen unos 270 M$ para una stablecoin conjunta en dólares, según Bloomberg</a></h2>
-          <p>Grandes bancos habrían comprometido unos 270 M$ para Project Faro, una stablecoin conjunta en dólares prevista para el primer semestre de 2027 que competiría con Tether y Circle.</p>
-          <a class="read-more" href="/es/articles/banks-270-million-stablecoin-project-faro-nov-2026">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/bitcoin-hot-cpi-etf-outflows-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/bitcoin-hot-cpi-etf-outflows-nov-2026/thumb.webp" width="640" height="360" alt="El bitcoin cae hacia 73.400 $ tras un dato de inflación de octubre más alto de lo esperado" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Mercado · 10 de noviembre de 2026 · ~5 min de lectura</div>
-          <h2><a href="/es/articles/bitcoin-hot-cpi-etf-outflows-nov-2026">El bitcoin cae hacia 73.400 $ tras un dato de inflación de octubre más alto de lo esperado</a></h2>
-          <p>El IPC de octubre subió un 0,4%, más de lo previsto. El bitcoin bajó a unos 73.400 $ ante las apuestas de una subida de tipos de la Fed en diciembre y nuevas salidas de los ETF.</p>
-          <a class="read-more" href="/es/articles/bitcoin-hot-cpi-etf-outflows-nov-2026">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/binance-hack-north-korea-memecoin-laundering-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/binance-hack-north-korea-memecoin-laundering-nov-2026/thumb.webp" width="640" height="360" alt="Corea del Norte crea memecoins para lavar el hackeo de 6.400 millones de dólares a Binance, según Elliptic" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Seguridad · 9 de noviembre de 2026 · ~6 min de lectura</div>
-          <h2><a href="/es/articles/binance-hack-north-korea-memecoin-laundering-nov-2026">Corea del Norte crea memecoins para lavar el hackeo de 6.400 millones de dólares a Binance, según Elliptic</a></h2>
-          <p>Elliptic rastreó fondos robados a Binance a través de seis memecoins caseras en NEAR, mientras unos 2.850 millones de dólares del botín siguen congelados.</p>
-          <a class="read-more" href="/es/articles/binance-hack-north-korea-memecoin-laundering-nov-2026">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/what-is-a-crypto-wallet-custodial-vs-self-custody/thumb.webp" width="640" height="360" alt="¿Qué es una cartera cripto? Custodia vs. autocustodia, explicado para principiantes" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Guía para principiantes · 9 de noviembre de 2026 · ~8 min de lectura</div>
-          <h2><a href="/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">¿Qué es una cartera cripto? Custodia vs. autocustodia, explicado para principiantes</a></h2>
-          <p>Una cartera no guarda monedas, guarda claves. Aprende la diferencia entre carteras custodiadas y de autocustodia, qué es una frase de recuperación y cómo empezar con seguridad.</p>
-          <a class="read-more" href="/es/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/how-much-bitcoin-should-a-beginner-buy-dca" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/how-much-bitcoin-should-a-beginner-buy-dca/thumb.webp" width="640" height="360" alt="¿Cuánto bitcoin debería comprar un principiante? Guía clara sobre el promedio de costo en dólares" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Guía para principiantes · 9 de noviembre de 2026 · ~8 min de lectura</div>
-          <h2><a href="/es/articles/how-much-bitcoin-should-a-beginner-buy-dca">¿Cuánto bitcoin debería comprar un principiante? Guía clara sobre el promedio de costo en dólares</a></h2>
-          <p>Nadie puede decirte la cantidad correcta, pero sí puedes elegir un método sensato para decidirla. Explicamos el promedio de costo en dólares, lo probamos con precios reales y mostramos cómo configurar una compra recurrente.</p>
-          <a class="read-more" href="/es/articles/how-much-bitcoin-should-a-beginner-buy-dca">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/is-coinbase-safe-for-beginners" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/is-coinbase-safe-for-beginners/thumb.webp" width="640" height="360" alt="¿Es seguro Coinbase para principiantes? Qué está protegido, qué no y cómo reducir tu riesgo" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Guía para principiantes · 9 de noviembre de 2026 · ~8 min de lectura</div>
-          <h2><a href="/es/articles/is-coinbase-safe-for-beginners">¿Es seguro Coinbase para principiantes? Qué está protegido, qué no y cómo reducir tu riesgo</a></h2>
-          <p>Un repaso claro de la seguridad de Coinbase: cómo guarda las criptomonedas, qué está y qué no está asegurado, qué fue la filtración de datos de 2025 y una lista para proteger tu cuenta.</p>
-          <a class="read-more" href="/es/articles/is-coinbase-safe-for-beginners">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/coinbase-occ-national-trust-charter-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/coinbase-occ-national-trust-charter-nov-2026/thumb.webp" width="640" height="360" alt="Coinbase obtiene una licencia federal completa de banco fiduciario de la OCC: qué significa" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Regulación · 9 de noviembre de 2026 · ~6 min de lectura</div>
-          <h2><a href="/es/articles/coinbase-occ-national-trust-charter-nov-2026">Coinbase obtiene una licencia federal completa de banco fiduciario de la OCC: qué significa</a></h2>
-          <p>La OCC aprobó Coinbase National Trust Company el 6 de noviembre y su custodia cripto institucional queda bajo supervisión bancaria federal. Esto es lo que permite la licencia.</p>
-          <a class="read-more" href="/es/articles/coinbase-occ-national-trust-charter-nov-2026">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/fincen-fed-withdraw-250-travel-rule-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/fincen-fed-withdraw-250-travel-rule-nov-2026/thumb.webp" width="640" height="360" alt="FinCEN y la Fed retiran el plan de bajar la Travel Rule a 250 dólares: el umbral de 3.000 se mantiene" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Regulación · 9 de noviembre de 2026 · ~7 min de lectura</div>
-          <h2><a href="/es/articles/fincen-fed-withdraw-250-travel-rule-nov-2026">FinCEN y la Fed retiran el plan de bajar la Travel Rule a 250 dólares: el umbral de 3.000 se mantiene</a></h2>
-          <p>Los reguladores de EE. UU. retiraron una propuesta de 2020 para rebajar a 250 dólares los umbrales transfronterizos y quitar la redacción específica sobre criptomonedas. Qué cambia y qué no.</p>
-          <a class="read-more" href="/es/articles/fincen-fed-withdraw-250-travel-rule-nov-2026">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/bitcoin-loses-50-week-moving-average-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/bitcoin-loses-50-week-moving-average-nov-2026/thumb.webp" width="640" height="360" alt="Bitcoin pierde su media móvil de 50 semanas mientras las liquidaciones de largos superan los 1.000 millones de dólares" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Mercados · 9 de noviembre de 2026 · ~7 min de lectura</div>
-          <h2><a href="/es/articles/bitcoin-loses-50-week-moving-average-nov-2026">Bitcoin pierde su media móvil de 50 semanas mientras las liquidaciones de largos superan los 1.000 millones de dólares</a></h2>
-          <p>BTC cerró por debajo de 75.488 dólares tras siete semanas por encima de esa línea, y CoinGlass registró 1.150 millones en liquidaciones. Qué significa el punto de control de Galaxy.</p>
-          <a class="read-more" href="/es/articles/bitcoin-loses-50-week-moving-average-nov-2026">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/pnc-coinbase-usdc-payments-pilot-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/pnc-coinbase-usdc-payments-pilot-nov-2026/thumb.webp" width="640" height="360" alt="PNC Bank lanza un piloto de pagos en USDC con Coinbase para clientes corporativos" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Empresas · 9 de noviembre de 2026 · ~7 min de lectura</div>
-          <h2><a href="/es/articles/pnc-coinbase-usdc-payments-pilot-nov-2026">PNC Bank lanza un piloto de pagos en USDC con Coinbase para clientes corporativos</a></h2>
-          <p>Las empresas elegibles pueden recibir USDC en Ethereum mediante Coinbase Payments, con conversión automática 1:1 a un depósito en dólares en PNC.</p>
-          <a class="read-more" href="/es/articles/pnc-coinbase-usdc-payments-pilot-nov-2026">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/bitcoin-volatility-liquidations-nov-2026" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/bitcoin-volatility-liquidations-nov-2026/thumb.webp" width="640" height="360" alt="El vaivén de bitcoin en el fin de semana: 1.000 millones liquidados mientras los titulares de Nvidia golpean a los activos de riesgo" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Resumen del mercado · 9 de noviembre de 2026 · ~7 min de lectura</div>
-          <h2><a href="/es/articles/bitcoin-volatility-liquidations-nov-2026">El vaivén de bitcoin en el fin de semana: 1.000 millones liquidados mientras los titulares de Nvidia golpean a los activos de riesgo</a></h2>
-          <p>BTC cayó brevemente hasta unos 73.761 dólares antes de recuperar los 75.000. Qué impulsó el movimiento, a quién liquidaron y qué vigilan los traders.</p>
-          <a class="read-more" href="/es/articles/bitcoin-volatility-liquidations-nov-2026">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/how-to-buy-first-bitcoin-coinbase" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/how-to-buy-first-bitcoin-coinbase/thumb.webp" width="640" height="360" alt="Cómo comprar tu primer bitcoin en Coinbase (guía para principiantes en EE. UU.)" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Guía para principiantes · 9 de noviembre de 2026 · ~8 min de lectura</div>
-          <h2><a href="/es/articles/how-to-buy-first-bitcoin-coinbase">Cómo comprar tu primer bitcoin en Coinbase (guía para principiantes en EE. UU.)</a></h2>
-          <p>Un recorrido paso a paso: crea una cuenta, verifica tu identidad, añade un método de pago, haz una primera compra pequeña y ten presentes las comisiones y la seguridad.</p>
-          <a class="read-more" href="/es/articles/how-to-buy-first-bitcoin-coinbase">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/us-midterms-crypto-regulation-etf-outflows" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/us-midterms-crypto-regulation-etf-outflows/thumb.webp" width="640" height="360" alt="Tras las elecciones de mitad de mandato: ¿salidas de los ETF y un reglamento cripto más duro?" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Regulación y mercados · 9 de noviembre de 2026 · ~8 min de lectura</div>
-          <h2><a href="/es/articles/us-midterms-crypto-regulation-etf-outflows">Tras las elecciones de mitad de mandato: ¿salidas de los ETF y un reglamento cripto más duro?</a></h2>
-          <p>Los ETF de bitcoin al contado acaban de registrar su mayor salida semanal desde junio. Los mercados descuentan incertidumbre regulatoria mientras los demócratas se preparan para liderar el Congreso.</p>
-          <a class="read-more" href="/es/articles/us-midterms-crypto-regulation-etf-outflows">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/bitcoin-etf-vs-buying-bitcoin" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/bitcoin-etf-vs-buying-bitcoin/thumb.webp" width="640" height="360" alt="ETF de Bitcoin frente a la compra de bitcoin: ¿qué tiene sentido para un principiante de EE. UU.?" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Guía para principiantes · 9 de noviembre de 2026 · ~9 min de lectura</div>
-          <h2><a href="/es/articles/bitcoin-etf-vs-buying-bitcoin">ETF de Bitcoin frente a la compra de bitcoin: ¿qué tiene sentido para un principiante de EE. UU.?</a></h2>
-          <p>Los ETF de bitcoin al contado dan exposición al precio dentro de una cuenta de corretaje. Comprar bitcoin te da el activo en sí. Así es como los principiantes de EE. UU. pueden comparar la custodia, las tarifas, las cuentas ira y los impuestos.</p>
-          <a class="read-more" href="/es/articles/bitcoin-etf-vs-buying-bitcoin">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/coinbase-fees-explained" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/coinbase-fees-explained/thumb.webp" width="640" height="360" alt="Explicación de las tarifas de Coinbase: spread, creador/tomador avanzado y lo que realmente paga un principiante" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Guía para principiantes · 9 de noviembre de 2026 · ~9 min de lectura</div>
-          <h2><a href="/es/articles/coinbase-fees-explained">Explicación de las tarifas de Coinbase: spread, creador/tomador avanzado y lo que realmente paga un principiante</a></h2>
-          <p>Un desglose sencillo en inglés de las tarifas de Coinbase: el diferencial variable en compras y ventas simples, niveles avanzados de creador/receptor, Coinbase One y cómo comparar los costes en la pantalla de vista previa.</p>
-          <a class="read-more" href="/es/articles/coinbase-fees-explained">Leer artículo →</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card-thumb" href="/es/articles/how-to-cash-out-bitcoin-coinbase-to-bank" tabindex="-1" aria-hidden="true">
-          <img src="/assets/img/how-to-cash-out-bitcoin-coinbase-to-bank/thumb.webp" width="640" height="360" alt="Cómo retirar bitcoin en Coinbase a su banco (pasos, plazos e impuestos de EE. UU.)" loading="lazy" decoding="async">
-        </a>
-        <div class="card-body">
-          <div class="meta">Guía para principiantes · 9 de noviembre de 2026 · ~9 min de lectura</div>
-          <h2><a href="/es/articles/how-to-cash-out-bitcoin-coinbase-to-bank">Cómo retirar bitcoin en Coinbase a su banco (pasos, plazos e impuestos de EE. UU.)</a></h2>
-          <p>Paso a paso para los usuarios de EE. UU.: venda bitcoins a su saldo de efectivo de Coinbase, retire a un banco vinculado a través de ACH o retiro de efectivo instantáneo, y tenga en cuenta los conceptos básicos de la declaración de impuestos.</p>
-          <a class="read-more" href="/es/articles/how-to-cash-out-bitcoin-coinbase-to-bank">Leer artículo →</a>
-        </div>
-      </article>
-    </section>
-
   <!-- i18n:newsletter -->
       <aside class="newsletter-box" aria-labelledby="nl-title">
         <h2 id="nl-title">Recibe los nuevos artículos por email</h2>
@@ -320,8 +462,9 @@
         <p class="nl-note">Solo usamos tu correo para enviarte novedades de PlainBTC. Hace falta confirmarlo. <a href="/es/disclosure">Detalles de privacidad</a></p>
       </aside>
   <!-- /i18n:newsletter -->
+    </section>
 
-    <section id="about" class="wrap" style="padding-bottom:3rem;">
+    <section id="about" class="wrap about-box">
       <div class="disclosure">
         <strong>Sobre este sitio.</strong> PlainBTC es un blog informativo independiente. En esta versión en español no hay enlaces de referido. Nada de lo que publicamos es asesoramiento financiero, de inversión, legal ni fiscal. Lee nuestras páginas <a href="/es/about">Acerca de</a> y <a href="/es/disclosure">Divulgación</a>.
       </div>
@@ -329,8 +472,12 @@
   </main>
 
   <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
     <div class="wrap inner">
-      <div>© 2026 PlainBTC · noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</div>
+      <div class="footer-brand">
+        <a class="logo" href="/es/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</p>
+      </div>
       <nav class="footer-nav" aria-label="Footer">
         <a href="/es/">Inicio</a>
         <a href="/es/about">Acerca de</a>
@@ -344,7 +491,8 @@
   <!-- i18n:footerlangs -->
   <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/" lang="en" hreflang="en">English</a> <a href="/es/" lang="es" hreflang="es">Español</a> <a href="/pt/" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/" lang="fr" hreflang="fr">Français</a> <a href="/de/" lang="de" hreflang="de">Deutsch</a> <a href="/ru/" lang="ru" hreflang="ru">Русский</a> <a href="/tr/" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/" lang="ja" hreflang="ja">日本語</a> <a href="/ko/" lang="ko" hreflang="ko">한국어</a></nav></div>
   <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">Volver arriba <span aria-hidden="true">↑</span></a></div>
   </footer>
-  <script src="/assets/site.20261109i.js" defer></script>
+  <script src="/assets/site.7c90358c6e.js" defer></script>
 </body>
 </html>

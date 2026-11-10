@@ -25,10 +25,12 @@ class Ctx:
         m = re.match(r"^(?:\.\./)?(?:articles/)?([a-z0-9-]+)\.html$", href)
         if m and m.group(1) not in ("index", "about", "disclosure"):
             return "/articles/" + m.group(1)
-        if href in ("../disclosure.html", "disclosure.html"):
+        if href in ("../disclosure.html", "disclosure.html", "/disclosure"):
             return "/disclosure"
-        if href in ("../about.html", "about.html"):
+        if href in ("../about.html", "about.html", "/about"):
             return "/about"
+        if re.match(r"^/articles/[a-z0-9-]+$", href):   # pretty URL (what the build writes back into the page)
+            return href
         for k, v in self.links.items():
             if v == href:
                 return k
@@ -70,15 +72,18 @@ def extract(slug: str):
             "disclosure_variant": "std"}
     idx = BeautifulSoup((ROOT / "index.html").read_text(encoding="utf-8"), "html.parser")
     for card in idx.select("article.card"):
-        if slug in card.h2.a["href"]:
+        title = card.find(["h2", "h3"])
+        if title and title.a and title.a["href"].rstrip("/").split("/")[-1].removesuffix(".html") == slug:
             head["summary"] = card.find("p").get_text(strip=True)
             m = re.search(r"~(\d+)\s*min", card.select_one(".meta").get_text())
             meta["readtime"] = int(m.group(1)) if m else 7
     blocks: list[str] = []
     for el in art.find_all(recursive=False):
         cls = el.get("class") or []
-        if el.name in ("a", "img", "h1") or "badge" in cls or "meta" in cls:
-            continue
+        if el.name in ("a", "img", "h1", "header", "nav") or "badge" in cls or "meta" in cls:
+            continue   # article head (breadcrumbs, label, headline, byline, share row, hero image)
+        if el.name == "aside" and ("community-box" in cls or "newsletter-box" in cls):
+            continue   # placed by the build on every page
         if el.name == "aside" and "mid-cta" in cls:
             blocks.append("!mid_cta")
         elif el.name == "div" and "cta" in cls:
@@ -90,7 +95,7 @@ def extract(slug: str):
             meta["disclosure_variant"] = "political" if "political advice" in t else ("guide" if "educational only" in t else "std")
             blocks.append("!disclosure")
         elif el.name == "aside" and "related" in cls:
-            meta["related"] = [re.search(r"([a-z0-9-]+)\.html", a["href"]).group(1) for a in el.find_all("a")]
+            meta["related"] = [a["href"].rstrip("/").split("/")[-1].removesuffix(".html") for a in el.find_all("a")]
         elif el.name == "section" and "sources" in cls:
             for li in el.find_all("li"):
                 a = li.find("a")
