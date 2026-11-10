@@ -41,7 +41,9 @@
       root.style.setProperty("--vt-x", `${r.left + r.width / 2}px`);
       root.style.setProperty("--vt-y", `${r.top + r.height / 2}px`);
       root.classList.add("theme-vt");
-      document.startViewTransition(() => apply(next)).finished.finally(() => root.classList.remove("theme-vt"));
+      const vt = document.startViewTransition(() => apply(next));
+      vt.ready.catch(() => {});   // a second click skips the running transition; that is not an error
+      vt.finished.catch(() => {}).finally(() => root.classList.remove("theme-vt"));
     });
   }
 
@@ -61,7 +63,8 @@
       copy.setAttribute("aria-hidden", "true");
       $$("a", copy).forEach((a) => { a.tabIndex = -1; });
       track.after(copy);
-      ticker.style.setProperty("--ticker-time", `${Math.max(30, Math.round(track.scrollWidth / 45))}s`);
+      // Reading pace: about 20px per second, so a headline can be read before it leaves.
+      ticker.style.setProperty("--ticker-time", `${Math.max(60, Math.round(track.scrollWidth / 20))}s`);
       ticker.classList.add("is-live");
     }
   }
