@@ -1,15 +1,75 @@
 {
   "default": "en",
   "langs": [
-    {"code": "en", "hreflang": "en",    "locale": "en_US", "name": "English",          "referral": "full"},
-    {"code": "es", "hreflang": "es",    "locale": "es_ES", "name": "Español",          "referral": "hedged"},
-    {"code": "pt", "hreflang": "pt-BR", "locale": "pt_BR", "name": "Português (BR)",   "referral": "hedged"},
-    {"code": "fr", "hreflang": "fr",    "locale": "fr_FR", "name": "Français",         "referral": "hedged"},
-    {"code": "de", "hreflang": "de",    "locale": "de_DE", "name": "Deutsch",          "referral": "hedged"},
-    {"code": "ru", "hreflang": "ru",    "locale": "ru_RU", "name": "Русский",          "referral": "soft"},
-    {"code": "tr", "hreflang": "tr",    "locale": "tr_TR", "name": "Türkçe",           "referral": "none"},
-    {"code": "id", "hreflang": "id",    "locale": "id_ID", "name": "Bahasa Indonesia", "referral": "soft"},
-    {"code": "ja", "hreflang": "ja",    "locale": "ja_JP", "name": "日本語",             "referral": "soft"},
-    {"code": "ko", "hreflang": "ko",    "locale": "ko_KR", "name": "한국어",             "referral": "soft"}
+    {
+      "code": "en",
+      "hreflang": "en",
+      "locale": "en_US",
+      "name": "English",
+      "referral": "full"
+    },
+    {
+      "code": "es",
+      "hreflang": "es",
+      "locale": "es_ES",
+      "name": "Español",
+      "referral": "none"
+    },
+    {
+      "code": "pt",
+      "hreflang": "pt-BR",
+      "locale": "pt_BR",
+      "name": "Português (BR)",
+      "referral": "none"
+    },
+    {
+      "code": "fr",
+      "hreflang": "fr",
+      "locale": "fr_FR",
+      "name": "Français",
+      "referral": "none"
+    },
+    {
+      "code": "de",
+      "hreflang": "de",
+      "locale": "de_DE",
+      "name": "Deutsch",
+      "referral": "none"
+    },
+    {
+      "code": "ru",
+      "hreflang": "ru",
+      "locale": "ru_RU",
+      "name": "Русский",
+      "referral": "none"
+    },
+    {
+      "code": "tr",
+      "hreflang": "tr",
+      "locale": "tr_TR",
+      "name": "Türkçe",
+      "referral": "none"
+    },
+    {
+      "code": "id",
+      "hreflang": "id",
+      "locale": "id_ID",
+      "name": "Bahasa Indonesia",
+      "referral": "none"
+    },
+    {
+      "code": "ja",
+      "hreflang": "ja",
+      "locale": "ja_JP",
+      "name": "日本語",
+      "referral": "none"
+    },
+    {
+      "code": "ko",
+      "hreflang": "ko",
+      "locale": "ko_KR",
+      "name": "한국어",
+      "referral": "none"
+    }
   ]
 }

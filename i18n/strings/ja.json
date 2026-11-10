@@ -45,11 +45,13 @@
   "hero_badge": "米国市場 · {date}",
   "hero_h1": "ノイズのない暗号資産ニュース",
   "hero_p": "PlainBTCは、ビットコイン、規制、実践的な手順を、米国市場を軸にやさしい言葉で解説します。",
-  "about_box": "<strong>このサイトについて。</strong>PlainBTCは独立した情報提供ブログです。一部のページにはCoinbaseの紹介リンクが含まれています。標準の紹介プログラム以外に、Coinbaseとの関係はありません。ここに掲載する内容は、金融・投資・法律・税務に関する助言ではありません。[PlainBTCについて](/about)と[開示事項](/disclosure)のページもご覧ください。",
+  "about_box": "<strong>このサイトについて。</strong>PlainBTCは独立した情報提供ブログです。この日本語版には紹介リンクは含まれていません。ここに掲載する内容は、金融・投資・法律・税務に関する助言ではありません。[PlainBTCについて](/about)と[開示事項](/disclosure)のページもご覧ください。",
   "community_title": "コミュニティに参加",
   "community_text": "ニュース、初心者向けQ&A、アンケート——PlainBTCをDiscord・Facebook・Xでフォロー。",
   "community_discord": "Discord",
   "community_facebook": "Facebook",
   "community_x": "X",
-  "community_aria": "コミュニティリンク"
+  "community_aria": "コミュニティリンク",
+  "alt_cta_title": "初心者向けのガイドをもっと読む",
+  "alt_cta_text": "このページのニュースレターに登録するか、下のPlainBTCコミュニティに参加してください。関連記事はその下にあります。"
 }

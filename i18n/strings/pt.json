@@ -49,11 +49,13 @@
   "hero_badge": "Mercado dos EUA · {date}",
   "hero_h1": "Notícias cripto sem ruído",
   "hero_p": "A PlainBTC explica o que acontece com o bitcoin, a regulação e os passos práticos, com foco no mercado americano e numa linguagem que dá para entender de primeira.",
-  "about_box": "<strong>Sobre este site.</strong> A PlainBTC é um blog informativo independente. Algumas páginas trazem links de indicação da Coinbase. Não temos nenhum vínculo com a Coinbase além do programa de indicação padrão. Nada aqui é aconselhamento financeiro, de investimento, jurídico ou tributário. Leia as páginas [Sobre](/about) e [Divulgação](/disclosure).",
+  "about_box": "<strong>Sobre este site.</strong> A PlainBTC é um blog informativo independente. Nesta versão em português não há links de indicação. Nada aqui é aconselhamento financeiro, de investimento, jurídico ou tributário. Leia as páginas [Sobre](/about) e [Divulgação](/disclosure).",
   "community_title": "Participe da comunidade",
   "community_text": "Notícias, dúvidas de iniciantes e enquetes—siga o PlainBTC no Discord, Facebook e X.",
   "community_discord": "Discord",
   "community_facebook": "Facebook",
   "community_x": "X",
-  "community_aria": "Links da comunidade"
+  "community_aria": "Links da comunidade",
+  "alt_cta_title": "Quer mais guias para iniciantes?",
+  "alt_cta_text": "Assine o boletim nesta página ou entre na comunidade da PlainBTC abaixo. Em seguida listamos artigos relacionados."
 }

@@ -49,11 +49,13 @@
   "hero_badge": "Marché américain · {date}",
   "hero_h1": "L’actualité crypto, sans le bruit",
   "hero_p": "PlainBTC décrypte le bitcoin, la réglementation et les démarches pratiques, avec un regard centré sur le marché américain et des mots que tout le monde comprend.",
-  "about_box": "<strong>À propos de ce site.</strong> PlainBTC est un blog d’information indépendant. Certaines pages contiennent des liens de parrainage Coinbase. Nous n’avons aucun lien avec Coinbase en dehors de son programme de parrainage standard. Rien ici ne constitue un conseil financier, en investissement, juridique ou fiscal. Consultez nos pages [À propos](/about) et [Transparence](/disclosure).",
+  "about_box": "<strong>À propos de ce site.</strong> PlainBTC est un blog d’information indépendant. Cette version en français ne contient aucun lien de parrainage. Rien ici ne constitue un conseil financier, en investissement, juridique ou fiscal. Consultez nos pages [À propos](/about) et [Transparence](/disclosure).",
   "community_title": "Rejoindre la communauté",
   "community_text": "Actus, questions de débutants et sondages—suivez PlainBTC sur Discord, Facebook et X.",
   "community_discord": "Discord",
   "community_facebook": "Facebook",
   "community_x": "X",
-  "community_aria": "Liens de la communauté"
+  "community_aria": "Liens de la communauté",
+  "alt_cta_title": "Envie d’autres guides pour débutants ?",
+  "alt_cta_text": "Abonnez-vous à la newsletter sur cette page, ou rejoignez la communauté PlainBTC ci-dessous. Des articles connexes sont listés ensuite."
 }

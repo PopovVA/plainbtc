@@ -1,23 +1,19 @@
 h1: Keterbukaan afiliasi dan referral
 page_title: Keterbukaan afiliasi — PlainBTC
 og_title: Keterbukaan afiliasi — PlainBTC
-description: Keterbukaan afiliasi PlainBTC sesuai aturan FTC AS: tautan referral Coinbase, bagaimana kami dapat memperoleh imbalan, dan mengapa ini bukan nasihat keuangan.
-og_description: Bagaimana PlainBTC memakai tautan referral Coinbase dan apa artinya bagi Anda.
+description: Keterbukaan afiliasi PlainBTC sesuai aturan FTC AS: versi bahasa Indonesia tidak memuat tautan referral; bukan nasihat keuangan.
+og_description: Bagaimana PlainBTC menangani tautan referral dan apa artinya bagi Anda.
 ===
 
 Sesuai pedoman endorsement Komisi Perdagangan Federal AS (FTC), PlainBTC mengungkapkan hubungan material dengan pengiklan dan program referral.
 
-## Tautan referral Coinbase
+## Tautan referral
 
-Beberapa halaman di situs ini memuat tautan referral Coinbase ([https://coinbase.com/join/F2XRWRL?src=referral-link](REFD)). Jika Anda membuat akun Coinbase <strong>baru</strong> melalui tautan tersebut dan menyelesaikan transaksi yang memenuhi syarat, Coinbase dapat memberikan bonus kepada pengguna baru yang memenuhi syarat, dan PlainBTC dapat menerima imbalan referral. Ketentuan berbeda di tiap negara dan dapat berubah. Selalu periksa penawaran di halaman pendaftaran Coinbase serta ketentuan referral terbarunya.
-
-Di mana berlaku: menurut ketentuan yang dipublikasikan Coinbase, program referral internasionalnya saat ini mencantumkan Polandia dan Portugal, sedangkan di Amerika Serikat Coinbase menjalankan program terpisah. Coinbase tidak tersedia di semua negara dan kami tidak menjanjikan bonus apa pun: periksa penawaran di halaman pendaftaran.
-
-Memakai tautan kami tidak menambah biaya apa pun bagi Anda. Kami tidak berafiliasi dengan Coinbase selain lewat program referral standarnya.
+Halaman berbahasa Inggris PlainBTC dapat memuat tautan referral Coinbase (penawaran khusus nasabah baru di AS). <strong>Versi bahasa Indonesia tidak memuat tautan referral atau afiliasi apa pun</strong>, dan kami tidak menerima komisi atau imbalan dari halaman-halaman ini. Penyebutan Coinbase atau perusahaan lain dalam berita kami hanya bersifat informatif.
 
 ## Cara kami menandai tautan
 
-Tautan referral di situs ini memakai <code>rel="sponsored"</code> dan terbuka di tab baru. Halaman artikel juga memuat keterangan di samping ajakan bertindak.
+Pada halaman berbahasa Inggris, tautan referral memakai <code>rel="sponsored"</code> dan terbuka di tab baru. <strong>Versi bahasa Indonesia ini tidak memuat tautan referral.</strong>
 
 ## Bukan nasihat keuangan
 

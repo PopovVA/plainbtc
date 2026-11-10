@@ -1,23 +1,19 @@
 h1: Divulgación de afiliados y referidos
 page_title: Divulgación de afiliados — PlainBTC
 og_title: Divulgación de afiliados — PlainBTC
-description: Divulgación de afiliados de PlainBTC conforme a las normas de la FTC: enlaces de referido de Coinbase, cómo podemos recibir una compensación y por qué no es asesoramiento financiero.
-og_description: Cómo usa PlainBTC los enlaces de referido de Coinbase y qué significa para ti.
+description: Divulgación de afiliados de PlainBTC conforme a las normas de la FTC: la versión en español no contiene enlaces de referido; no es asesoramiento financiero.
+og_description: Cómo maneja PlainBTC los enlaces de referido y qué significa para ti.
 ===
 
 De acuerdo con las guías de la Comisión Federal de Comercio de EE. UU. (FTC) sobre testimonios y recomendaciones, PlainBTC declara sus vínculos materiales con anunciantes y programas de referidos.
 
-## Enlaces de referido de Coinbase
+## Enlaces de referido
 
-Algunas páginas de este sitio incluyen un enlace de referido de Coinbase ([https://coinbase.com/join/F2XRWRL?src=referral-link](REFD)). Si creas una cuenta <strong>nueva</strong> en Coinbase a través de ese enlace y completas una operación que cumpla los requisitos, Coinbase puede ofrecer un bono a los nuevos usuarios elegibles y PlainBTC puede recibir una recompensa por referido. Las condiciones varían según el país y pueden cambiar. Consulta siempre la oferta que aparece en la página de registro de Coinbase y sus condiciones de referidos vigentes.
-
-Dónde se aplica: según las condiciones publicadas por Coinbase, su programa internacional de referidos figura actualmente para Polonia y Portugal, y Coinbase mantiene un programa aparte en Estados Unidos. Coinbase no está disponible en todos los países y no prometemos ningún bono: revisa la oferta en la página de registro.
-
-Usar nuestro enlace no te cuesta nada extra. No tenemos ninguna relación con Coinbase más allá de participar en su programa de referidos estándar.
+Las páginas en inglés de PlainBTC pueden incluir un enlace de referido de Coinbase (oferta solo para nuevos clientes de EE. UU.). <strong>La versión en español no contiene ningún enlace de referido ni de afiliado</strong>, y no recibimos ninguna comisión ni recompensa por estas páginas. Las menciones a Coinbase u otras empresas en nuestras noticias son solo informativas.
 
 ## Cómo marcamos los enlaces
 
-Los enlaces de referido de este sitio usan <code>rel="sponsored"</code> y se abren en una pestaña nueva. Las páginas de artículos incluyen además un aviso junto a la llamada a la acción.
+En las páginas en inglés, los enlaces de referido usan <code>rel="sponsored"</code> y se abren en una pestaña nueva. <strong>En esta versión en español no hay enlaces de referido.</strong>
 
 ## No es asesoramiento financiero
 

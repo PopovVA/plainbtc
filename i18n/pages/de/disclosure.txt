@@ -1,23 +1,19 @@
 h1: Offenlegung zu Affiliate- und Empfehlungslinks
 page_title: Affiliate-Offenlegung — PlainBTC
 og_title: Affiliate-Offenlegung — PlainBTC
-description: Affiliate-Offenlegung von PlainBTC nach den Regeln der US-Handelsbehörde FTC: Coinbase-Empfehlungslinks, mögliche Vergütung und warum es keine Finanzberatung ist.
-og_description: Wie PlainBTC Coinbase-Empfehlungslinks einsetzt und was das für dich bedeutet.
+description: Affiliate-Offenlegung von PlainBTC nach den Regeln der FTC: Die deutsche Fassung enthält keine Empfehlungslinks; keine Finanzberatung.
+og_description: Wie PlainBTC mit Empfehlungslinks umgeht und was das für dich bedeutet.
 ===
 
 Entsprechend den Endorsement-Richtlinien der US-Handelsbehörde Federal Trade Commission (FTC) legt PlainBTC wesentliche Verbindungen zu Werbepartnern und Empfehlungsprogrammen offen.
 
-## Coinbase-Empfehlungslinks
+## Empfehlungslinks
 
-Einige Seiten enthalten einen Coinbase-Empfehlungslink ([https://coinbase.com/join/F2XRWRL?src=referral-link](REFD)). Wenn du über diesen Link ein <strong>neues</strong> Coinbase-Konto erstellst und einen qualifizierenden Kauf abschließt, kann Coinbase berechtigten Neukunden einen Bonus gewähren, und PlainBTC kann eine Empfehlungsprämie erhalten. Die Bedingungen unterscheiden sich je nach Land und können sich ändern. Prüfe immer das Angebot auf der Coinbase-Anmeldeseite und die aktuellen Empfehlungsbedingungen von Coinbase.
-
-Wo das gilt: Nach den von Coinbase veröffentlichten Bedingungen nennt das internationale Empfehlungsprogramm derzeit Polen und Portugal; in den USA betreibt Coinbase ein separates Programm. Coinbase ist nicht in jedem Land verfügbar, und wir versprechen keinen Bonus – prüfe das Angebot auf der Anmeldeseite.
-
-Die Nutzung unseres Links kostet dich nichts extra. Über die Teilnahme am üblichen Empfehlungsprogramm von Coinbase hinaus bestehen keine Verbindungen.
+Englische Seiten von PlainBTC können einen Coinbase-Empfehlungslink enthalten (Angebot nur für neue US-Kunden). <strong>Die deutsche Fassung enthält keine Empfehlungs- oder Affiliate-Links</strong>, und wir erhalten für diese Seiten keine Provision oder Prämie. Erwähnungen von Coinbase oder anderen Unternehmen in unseren Nachrichten dienen nur der Information.
 
 ## Wie wir Links kennzeichnen
 
-Empfehlungslinks auf dieser Seite tragen <code>rel="sponsored"</code> und öffnen sich in einem neuen Tab. Artikelseiten enthalten zusätzlich einen Hinweis direkt neben dem Call-to-Action.
+Auf den englischen Seiten tragen Empfehlungslinks <code>rel="sponsored"</code> und öffnen sich in einem neuen Tab. <strong>Diese deutsche Fassung enthält keine Empfehlungslinks.</strong>
 
 ## Keine Finanzberatung
 

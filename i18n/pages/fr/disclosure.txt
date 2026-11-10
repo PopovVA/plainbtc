@@ -1,23 +1,19 @@
 h1: Déclaration d’affiliation et de parrainage
 page_title: Déclaration d’affiliation — PlainBTC
 og_title: Déclaration d’affiliation — PlainBTC
-description: Déclaration d’affiliation de PlainBTC conforme aux règles de la FTC : liens de parrainage Coinbase, rémunération éventuelle et absence de conseil financier.
-og_description: Comment PlainBTC utilise les liens de parrainage Coinbase et ce que cela signifie pour vous.
+description: Déclaration d’affiliation de PlainBTC conforme aux règles de la FTC : la version française ne contient aucun lien de parrainage ; pas de conseil financier.
+og_description: Comment PlainBTC gère les liens de parrainage et ce que cela signifie pour vous.
 ===
 
 Conformément aux lignes directrices de la Federal Trade Commission (FTC) américaine sur les recommandations commerciales, PlainBTC déclare ses liens d’intérêt avec des annonceurs et des programmes de parrainage.
 
-## Liens de parrainage Coinbase
+## Liens de parrainage
 
-Certaines pages de ce site contiennent un lien de parrainage Coinbase ([https://coinbase.com/join/F2XRWRL?src=referral-link](REFD)). Si vous créez un <strong>nouveau</strong> compte Coinbase via ce lien et effectuez un achat éligible, Coinbase peut accorder un bonus aux nouveaux utilisateurs éligibles et PlainBTC peut recevoir une récompense de parrainage. Les conditions varient selon les pays et peuvent changer. Vérifiez toujours l’offre affichée sur la page d’inscription de Coinbase ainsi que ses conditions de parrainage en vigueur.
+Les pages en anglais de PlainBTC peuvent contenir un lien de parrainage Coinbase (offre réservée aux nouveaux clients américains). <strong>La version française ne contient aucun lien de parrainage ni d’affiliation</strong>, et nous ne percevons aucune commission ni récompense pour ces pages. Les mentions de Coinbase ou d’autres entreprises dans nos actualités sont purement informatives.
 
-Où cela s’applique : d’après les conditions publiées par Coinbase, son programme de parrainage international mentionne actuellement la Pologne et le Portugal, et Coinbase gère un programme distinct aux États-Unis. Coinbase n’est pas disponible dans tous les pays et nous ne promettons aucun bonus : consultez l’offre sur la page d’inscription.
+## Comment nous marquons les liens
 
-Utiliser notre lien ne vous coûte rien de plus. Nous n’avons aucun lien avec Coinbase en dehors de notre participation à son programme de parrainage standard.
-
-## Comment nous signalons les liens
-
-Les liens de parrainage de ce site utilisent <code>rel="sponsored"</code> et s’ouvrent dans un nouvel onglet. Les pages d’articles comportent aussi une mention de transparence à côté de l’appel à l’action.
+Sur les pages en anglais, les liens de parrainage portent <code>rel="sponsored"</code> et s’ouvrent dans un nouvel onglet. <strong>Cette version française ne contient aucun lien de parrainage.</strong>
 
 ## Pas de conseil financier
 

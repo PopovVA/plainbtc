@@ -159,15 +159,15 @@ label: ...            # category label on cards
 summary: ...          # card / home-page blurb
 ===
 Paragraph blocks are separated by blank lines. Allowed inline HTML: <strong> <em> <code> <br>.
-Links: [text](L1)  -> URL from links.json key L1;   [text](REF) -> Coinbase referral link (handled per language mode)
-{{#ref}} through our referral link{{/ref}}   -> only shown in languages with referral mode full/hedged
+Links: [text](L1)  -> URL from links.json key L1;   [text](REF) -> Coinbase referral link (English/`full` only; plain text in other languages)
+{{#ref}} through our referral link{{/ref}}   -> only shown in languages with referral mode `full` (currently English only)
 ## Heading
 !takeaways
 - bullet
 - bullet
-!mid_cta            # mid-article Coinbase banner (rendered only in full/hedged modes)
+!mid_cta            # mid-article Coinbase banner (rendered only in `full` / `hedged`; currently English only)
 !soft: Text with [link](/articles/other-slug).   # soft internal-link CTA
-!end_cta            # end-of-article Coinbase CTA (text depends on referral mode)
+!end_cta            # end-of-article CTA: Coinbase referral in `full`/`hedged`; non-affiliate closer in `none`
 !disclosure         # standard disclosure box for this article's disclosure_variant
 ```
 The block sequence (headings, paragraphs, lists, `!` blocks), link keys and numbers must match `en.txt`; `--check` reports mismatches (a few benign warnings, e.g. `ja`/`ko` number grouping, are expected).
@@ -179,12 +179,13 @@ The block sequence (headings, paragraphs, lists, `!` blocks), link keys and numb
 
 ### Coinbase referral per language (`referral` in `i18n/langs.json`)
 
-* `full` (en): inline referral link, mid-article banner, end CTA.
-* `hedged` (es, pt, fr, de): same placements, but the CTA/banner is worded "if Coinbase is available in your country"; the disclosure explains eligibility varies.
-* `soft` (ru, id, ja, ko): no banner; a single hedged end CTA; inline `[Coinbase](REF)` mentions are plain text.
-* `none` (tr): no referral links at all; disclosure page explains this.
+Policy (9 November 2026): the Coinbase referral (`https://coinbase.com/join/F2XRWRL?src=referral-link`, inline `[text](REF)` links, mid-article banner, end CTA, and per-article affiliate disclosure) appears **only on English pages** (the site root, no language prefix).
 
-Reasoning: Coinbase's own international-referral page lists Poland and Portugal as the only eligible non-US referral countries; Coinbase does not serve Russia. Change a language's mode in `langs.json` and rebuild to adjust the policy. Never invent bonus amounts in any language.
+* `full` (en only): inline referral link, mid-article banner, end CTA, and affiliate disclosure. CTA and disclosure wording must stay accurate to Coinbase’s official invite terms: the offer is for new U.S. customers and is not available in Washington state; point readers to Coinbase’s site for current terms. Do not state bonus amounts.
+* `hedged` / `soft`: still supported by the builder for a future local referral, but **not used**. Do not turn these on for Coinbase.
+* `none` (es, pt, fr, de, ru, tr, id, ja, ko): no referral URL, no banner, no affiliate disclosure line. Inline `[text](REF)` and `{{#ref}}…{{/ref}}` render as plain text (or are omitted). The end-of-article `!end_cta` becomes a non-affiliate box (`alt_cta_title` / `alt_cta_text` in `i18n/strings/<lang>.json`) pointing to the newsletter, community, and related guides. Neutral mentions of Coinbase as a company in news copy are fine.
+
+Disclosure pages in the nine non-English languages must say clearly that **English pages** may contain a Coinbase affiliate link, and that **this language edition does not**. Never put `coinbase.com/join` or the referral code on a non-English page (including disclosure and newsletter templates). Change a language’s mode in `langs.json` and rebuild to adjust the policy. Never invent bonus amounts in any language.
 
 ## Visit analytics (cookieless)
 

@@ -18,12 +18,12 @@ b = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(b)
 
 EN_OVERRIDES = {
-    "banner_text": "Eligible new users may get a bitcoin bonus after a qualifying trade. Terms vary.",
+    "banner_text": "Offer for new U.S. customers; not available in Washington state; terms on Coinbase’s site.",
     "banner_button": "Open Coinbase",
     "cta_title": "Start on Coinbase with this referral link",
-    "cta_text": "Open a new Coinbase account through the link below if you are ready to begin. Eligible new users may receive a bonus after a qualifying trade; terms vary by country and Coinbase’s current terms.",
+    "cta_text": "Open a new Coinbase account through the link below if you are ready to begin. Offer for new U.S. customers; not available in Washington state; terms on Coinbase’s site.",
     "cta_button": "Sign up on Coinbase with this link",
-    "disc_affiliate": "<strong>Disclosure:</strong> This post contains a referral link. If you sign up and complete a qualifying purchase through it, PlainBTC may earn a referral reward from Coinbase at no extra cost to you. See our [full affiliate disclosure](/disclosure).",
+    "disc_affiliate": "<strong>Disclosure:</strong> This post contains a referral link. If you sign up and complete a qualifying purchase through it, PlainBTC may earn a referral reward from Coinbase at no extra cost to you. Offer for new U.S. customers; not available in Washington state. See our [full affiliate disclosure](/disclosure).",
 }
 
 

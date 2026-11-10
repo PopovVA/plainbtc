@@ -674,6 +674,13 @@ def build_article(lang: str, slug: str):
         <a class="cta-button" href="{REF_URL}" rel="sponsored noopener" target="_blank">{esc(s['cta_button'])}</a>
       </div>
 ''')
+            else:
+                # Non-affiliate closer: newsletter + community sit just below; related guides follow.
+                body.append(f'''      <div class="cta">
+        <h2>{esc(s['alt_cta_title'])}</h2>
+        <p>{pg.inline(s['alt_cta_text'])}</p>
+      </div>
+''')
         elif t == "disclosure":
             adv = s["not_advice_" + meta.get("disclosure_variant", "std")]
             aff = (pg.inline(s["disc_affiliate"]) + "<br><br>\n        ") if mode != "none" else ""

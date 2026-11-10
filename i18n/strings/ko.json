@@ -45,11 +45,13 @@
   "hero_badge": "미국 시장 · {date}",
   "hero_h1": "소음 없는 암호화폐 뉴스",
   "hero_p": "PlainBTC는 비트코인, 규제, 실전 가이드를 미국 시장을 중심으로 쉬운 말로 풀어 드립니다.",
-  "about_box": "<strong>이 사이트에 대하여.</strong> PlainBTC는 독립적인 정보 제공 블로그입니다. 일부 페이지에는 Coinbase 추천 링크가 포함되어 있습니다. 표준 추천 프로그램 외에는 Coinbase와 아무런 관계가 없습니다. 이곳의 어떤 내용도 금융, 투자, 법률 또는 세무 조언이 아닙니다. [소개](/about)와 [공시](/disclosure) 페이지를 읽어 보세요.",
+  "about_box": "<strong>이 사이트에 대하여.</strong> PlainBTC는 독립적인 정보 제공 블로그입니다. 이 한국어 버전에는 추천 링크가 없습니다. 이곳의 어떤 내용도 금융, 투자, 법률 또는 세무 조언이 아닙니다. [소개](/about)와 [공시](/disclosure) 페이지를 읽어 보세요.",
   "community_title": "커뮤니티에 참여하세요",
   "community_text": "뉴스, 초보 질문, 설문——Discord·Facebook·X에서 PlainBTC를 팔로우하세요.",
   "community_discord": "Discord",
   "community_facebook": "Facebook",
   "community_x": "X",
-  "community_aria": "커뮤니티 링크"
+  "community_aria": "커뮤니티 링크",
+  "alt_cta_title": "초보자를 위한 가이드를 더 보시겠어요?",
+  "alt_cta_text": "이 페이지에서 뉴스레터를 구독하거나 아래 PlainBTC 커뮤니티에 참여해 보세요. 관련 기사는 그 아래에 있습니다."
 }
