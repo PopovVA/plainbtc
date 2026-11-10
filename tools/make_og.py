@@ -57,6 +57,11 @@ ARTICLES = [
         "GUIDE",
     ),
     (
+        "bitcoin-hot-cpi-etf-outflows-nov-2026",
+        "Bitcoin slips after a hotter-than-expected October CPI",
+        "MARKET NEWS",
+    ),
+    (
         "binance-hack-north-korea-memecoin-laundering-nov-2026",
         "North Korea is minting meme coins to launder the Binance hack",
         "SECURITY",

@@ -1,0 +1,66 @@
+title: Bitcoin rutscht Richtung 73.400 $ nach überraschend hoher Inflation im Oktober
+page_title: Bitcoin fällt nach höherem Oktober-CPI
+description: Die US-Verbraucherpreise stiegen im Oktober um 0,4 %, mehr als die erwarteten 0,3 %. Bitcoin fiel auf rund 73.400 $, während Wetten auf eine Zinserhöhung zunahmen und ETF-Abflüsse anhielten.
+og_description: Der CPI stieg um 0,4 % statt 0,3 %, Bitcoin berührte 73.400 $, und US-Spot-Bitcoin-ETFs haben seit dem 2. November rund 1,5 Mrd. $ verloren.
+label: Markt
+summary: Der Oktober-CPI stieg um 0,4 % und damit stärker als erwartet. Bitcoin fiel auf rund 73.400 $, weil Anleger auf eine Fed-Zinserhöhung im Dezember setzen und ETF-Abflüsse weitergehen.
+===
+
+Bitcoin hat am Dienstagmorgen nachgegeben, nachdem neue US-Inflationsdaten höher ausfielen als von Ökonomen erwartet. Laut dem [Bureau of Labor Statistics (BLS)](L1) stieg der Verbraucherpreisindex (CPI) im Oktober um <strong>0,4 %</strong>, während von Dow Jones befragte Ökonomen <strong>0,3 %</strong> erwartet hatten. Die Kernrate ohne Lebensmittel und Energie legte um <strong>0,3 %</strong> zu, erwartet waren 0,2 %.
+
+Bitcoin war schon vor der Veröffentlichung um 8:30 Uhr New Yorker Zeit gefallen. Auf Kraken eröffnete er den Tag (Mitternacht UTC) bei rund <strong>75.250 $</strong>, berührte in der Stunde des Berichts kurz <strong>73.400 $</strong> und notierte kurz nach 9 Uhr New Yorker Zeit bei etwa <strong>73.800 $</strong>. Auch Aktien-Futures gaben nach: Laut CoinDesk lagen die Nasdaq-100-Futures nach den Daten rund 1,15 % und die S&P-500-Futures etwa 0,5 % im Minus.
+
+!takeaways
+- Der Oktober-CPI stieg um 0,4 % (Prognose: 0,3 %), die Kernrate um 0,3 % (Prognose: 0,2 %).
+- Bitcoin fiel rund um die Veröffentlichung auf Kraken kurz auf etwa 73.400 $.
+- Laut CoinDesk preisen Händler inzwischen eine Zinserhöhung der Federal Reserve bei der Dezember-Sitzung ein.
+- US-Spot-Bitcoin-ETFs verloren vom 2. bis 9. November rund 1,5 Mrd. $, wie Daten von Farside Investors zeigen.
+
+## Was der Inflationsbericht zeigt
+
+Die Preise stiegen dennoch langsamer als im September, als der CPI um 0,6 % zulegte. Das BLS meldete, dass die Wohnkosten um 0,3 % stiegen und mehr als 30 % des Anstiegs im Oktober ausmachten. Lebensmittel verteuerten sich um 0,5 %, Energie um 0,7 % nach einem Sprung von 5,2 % im Vormonat.
+
+Eine Besonderheit: Das BLS veröffentlichte keine übliche Jahresrate. Wegen des Regierungsstillstands 2025 wurden die Daten für Oktober 2025 nie erhoben, daher fehlt ein sauberer Vergleichswert. Anleger achteten deshalb auf die Monatswerte, und die lagen über den Prognosen.
+
+## Warum Inflation für Bitcoin wichtig ist
+
+Inflationsdaten wirken auf Bitcoin vor allem über die Zinsen. Ist die Inflation hoch, steigt die Wahrscheinlichkeit, dass die Federal Reserve die Zinsen anhebt. Höhere Zinsen lassen Bargeld und Anleihen mehr abwerfen, was riskantere Anlagen wie Aktien und Kryptowährungen für manche Anleger weniger attraktiv machen kann.
+
+Die Zinserwartungen hatten sich schon vor dem Bericht verschoben. CoinDesk berichtete, Fed-Gouverneur Christopher Waller sprach sich für eine Zinserhöhung im Dezember aus, selbst wenn die Inflation nachlassen sollte, und ein hoher Wert könne sogar einen größeren Schritt um einen halben Prozentpunkt rechtfertigen. Nach den Daten stieg die Rendite zweijähriger US-Staatsanleihen laut CoinDesk um etwa 14 Basispunkte auf 4,69 %, die zehnjährige Rendite kletterte auf 4,93 %.
+
+!figure:chart
+
+## ETF-Anleger ziehen weiter Geld ab
+
+Der Inflationsbericht traf auf einen Markt, der bereits unter Druck stand. Daten von [Farside Investors](L2) zeigen, dass US-Spot-Bitcoin-ETFs am Montag, dem 9. November, Nettoabflüsse von rund <strong>201 Mio. $</strong> verzeichneten, angeführt von etwa 213 Mio. $, die aus BlackRocks IBIT abflossen. In den sechs Handelstagen vom 2. bis 9. November verloren die Fonds insgesamt rund <strong>1,5 Mrd. $</strong>, mit nur einem Tag mit Nettozuflüssen. Beim IBIT gab es nun sieben Handelstage in Folge Abflüsse.
+
+Diese Verkäufe erklären mit, was CoinDesk am Montag hervorhob: US-Aktien erlebten einen ihrer besten Tage seit Monaten, doch Bitcoin bewegte sich kaum.
+
+!mid_cta
+
+## Auch ein großer Miner verkauft
+
+Das Angebot der Miner ist ein weiterer Faktor. In seinem [Aktionärsbrief zum dritten Quartal](L3) gab der Bitcoin-Miner MARA Holdings an, nach Quartalsende <strong>13.597 BTC</strong> zu einem Durchschnittspreis von rund 81.039 $ verkauft und damit etwa 1,1 Mrd. $ erlöst zu haben. MARA nutzte nach eigenen Angaben 750 Mio. $ davon, um durch Bitcoin besicherte Kredite vollständig zu tilgen, und erwartet, je nach Marktlage weiter Bitcoin zu verkaufen, um seine Pläne zu finanzieren.
+
+Zum Vergleich: MARA hielt Ende September 34.012 BTC. CoinDesk verwies zudem auf Santiment-Daten, wonach es seit dem 16. Oktober rund 108.700 Bitcoin-Wallets mit Guthaben weniger gibt, ein Zeichen für nachlassendes Interesse von Privatanlegern.
+
+!figure:fact
+
+## Was das für Einsteiger bedeutet
+
+Nichts davon sagt, wohin sich Bitcoin als Nächstes bewegt. Inflationsdaten, Fed-Sitzungen und ETF-Flüsse können den Kurs für einige Stunden oder Tage stark bewegen, und diese Bewegungen drehen sich oft wieder. Wer neu ist, fährt womöglich besser mit einem vorab festgelegten Plan, etwa regelmäßig kleine, feste Beträge zu kaufen, statt auf jede Schlagzeile zu reagieren.
+
+Wenn Sie Bitcoin kaufen möchten, nutzen Sie einen regulierten Anbieter und starten Sie mit kleinen Beträgen, während Sie lernen. [River](L4) ist ein reiner Bitcoin-Anbieter für Kunden in den USA; prüfen Sie vor der Anmeldung die aktuellen Bedingungen und Gebühren auf der Website. Dies ist keine Anlageberatung.
+
+## Worauf jetzt zu achten ist
+
+- Die Dezember-Sitzung der Federal Reserve und Aussagen von Fed-Vertretern davor.
+- Die täglichen Flüsse der Spot-Bitcoin-ETFs, vor allem ob die Abflussserie beim IBIT endet.
+- Weitere Bitcoin-Verkäufe großer Miner wie MARA.
+- Der nächste CPI-Bericht, den das BLS am 10. Dezember 2026 veröffentlichen will.
+
+!soft: ETF oder Bitcoin direkt? Lesen Sie unseren Ratgeber [Bitcoin-ETF oder Bitcoin direkt kaufen](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

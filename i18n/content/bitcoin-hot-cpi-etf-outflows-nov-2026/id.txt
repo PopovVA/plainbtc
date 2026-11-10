@@ -1,0 +1,66 @@
+title: Bitcoin turun ke arah US$73.400 setelah inflasi Oktober lebih tinggi dari perkiraan
+page_title: Bitcoin turun setelah CPI Oktober lebih tinggi dari perkiraan
+description: Harga konsumen AS naik 0,4% pada Oktober, di atas perkiraan 0,3%. Bitcoin turun ke sekitar US$73.400 seiring menguatnya taruhan kenaikan suku bunga dan berlanjutnya arus keluar ETF.
+og_description: CPI naik 0,4% dibanding perkiraan 0,3%, bitcoin menyentuh US$73.400, dan ETF bitcoin spot telah kehilangan sekitar US$1,5 miliar sejak 2 November.
+label: Pasar
+summary: CPI Oktober naik 0,4%, di atas perkiraan. Bitcoin turun ke sekitar US$73.400 karena pelaku pasar bertaruh The Fed menaikkan suku bunga pada Desember dan arus keluar ETF berlanjut.
+===
+
+Bitcoin melemah pada Selasa pagi setelah data inflasi AS terbaru keluar lebih tinggi dari perkiraan para ekonom. Menurut [Biro Statistik Tenaga Kerja AS (BLS)](L1), Indeks Harga Konsumen (CPI) naik <strong>0,4%</strong> pada Oktober, dibanding perkiraan <strong>0,3%</strong> dari para ekonom yang disurvei Dow Jones. CPI inti, yang tidak memasukkan makanan dan energi, naik <strong>0,3%</strong> dibanding perkiraan 0,2%.
+
+Bitcoin sudah melemah sebelum rilis pukul 08.30 waktu New York. Di Kraken, bitcoin membuka hari (tengah malam UTC) di dekat <strong>US$75.250</strong>, sempat menyentuh <strong>US$73.400</strong> pada jam rilis laporan, lalu diperdagangkan di dekat <strong>US$73.800</strong> tak lama setelah pukul 09.00 waktu New York. Kontrak berjangka saham juga turun: CoinDesk melaporkan kontrak berjangka Nasdaq 100 turun sekitar 1,15% dan S&P 500 sekitar 0,5% setelah data keluar.
+
+!takeaways
+- CPI Oktober naik 0,4% (perkiraan 0,3%); CPI inti naik 0,3% (perkiraan 0,2%).
+- Bitcoin sempat turun ke sekitar US$73.400 di Kraken saat rilis data.
+- Menurut CoinDesk, pasar kini memperhitungkan kenaikan suku bunga Federal Reserve pada rapat Desember.
+- ETF bitcoin spot AS kehilangan sekitar US$1,5 miliar dari 2 hingga 9 November, menurut data Farside Investors.
+
+## Isi laporan inflasi
+
+Meski begitu, harga naik lebih lambat dibanding September, ketika CPI melonjak 0,6%. BLS menyebut biaya tempat tinggal naik 0,3% dan menyumbang lebih dari 30% kenaikan Oktober. Harga makanan naik 0,5%, sementara energi naik 0,7% setelah melonjak 5,2% pada bulan sebelumnya.
+
+Ada satu hal yang tidak biasa: BLS tidak menerbitkan angka inflasi tahunan seperti biasa. Karena penutupan pemerintahan pada 2025, data Oktober 2025 tidak pernah dikumpulkan, sehingga tidak ada angka pembanding yang bersih. Karena itu investor berfokus pada angka bulanan, dan angka tersebut melampaui perkiraan.
+
+## Mengapa inflasi penting bagi bitcoin
+
+Data inflasi memengaruhi bitcoin terutama lewat suku bunga. Saat inflasi tinggi, Federal Reserve lebih mungkin menaikkan suku bunga. Suku bunga yang lebih tinggi membuat uang tunai dan obligasi memberi imbal hasil lebih besar, sehingga aset yang lebih berisiko seperti saham dan kripto bisa terlihat kurang menarik bagi sebagian investor.
+
+Ekspektasi suku bunga sudah bergeser sebelum laporan keluar. CoinDesk melaporkan bahwa Gubernur The Fed Christopher Waller mendukung kenaikan suku bunga pada Desember meski inflasi mereda, dan data yang panas bisa membenarkan langkah lebih besar, yaitu setengah poin persentase. Setelah data keluar, imbal hasil obligasi Treasury 2 tahun naik sekitar 14 basis poin menjadi 4,69% dan imbal hasil 10 tahun naik ke 4,93%, menurut CoinDesk.
+
+!figure:chart
+
+## Investor ETF terus menarik dana
+
+Laporan ini datang saat pasar sudah tertekan. Data [Farside Investors](L2) menunjukkan ETF bitcoin spot AS mencatat arus keluar bersih sekitar <strong>US$201 juta</strong> pada Senin, 9 November, dipimpin sekitar US$213 juta yang keluar dari IBIT milik BlackRock. Selama enam hari perdagangan dari 2 hingga 9 November, dana-dana ini kehilangan total sekitar <strong>US$1,5 miliar</strong>, dengan hanya satu hari arus masuk bersih. IBIT kini mencatat arus keluar selama tujuh sesi berturut-turut.
+
+Penjualan itu membantu menjelaskan pola yang disorot CoinDesk pada Senin: saham AS mencatat salah satu hari terbaiknya dalam beberapa bulan, tetapi bitcoin nyaris tidak bergerak.
+
+!mid_cta
+
+## Penambang besar juga menjual
+
+Pasokan dari penambang menjadi faktor lain. Dalam [surat pemegang saham kuartal ketiga](L3), penambang bitcoin MARA Holdings menyatakan telah menjual <strong>13.597 BTC</strong> setelah kuartal berakhir, dengan harga rata-rata sekitar US$81.039, senilai kira-kira US$1,1 miliar. MARA mengatakan US$750 juta dari dana itu dipakai untuk melunasi seluruh pinjaman berjaminan bitcoin, dan perusahaan memperkirakan akan terus menjual bitcoin untuk mendanai rencananya, tergantung kondisi pasar.
+
+Sebagai gambaran, MARA menyebut memegang 34.012 BTC pada akhir September. CoinDesk juga mengutip data Santiment yang menunjukkan jumlah dompet bitcoin bersaldo berkurang sekitar 108.700 sejak 16 Oktober, tanda bahwa minat investor ritel mendingin.
+
+!figure:fact
+
+## Artinya bagi pemula
+
+Semua ini tidak memberi tahu ke mana bitcoin akan bergerak. Data inflasi, rapat The Fed, dan arus ETF bisa menggerakkan harga dengan tajam selama beberapa jam atau hari, dan gerakan itu sering berbalik. Jika Anda baru mulai, menentukan rencana sejak awal, misalnya membeli dalam jumlah kecil dan tetap secara berkala, bisa lebih membantu daripada bereaksi terhadap setiap berita utama.
+
+Jika Anda memutuskan membeli bitcoin, gunakan layanan yang diatur dan mulai dengan jumlah kecil sambil belajar. [River](L4) adalah layanan khusus bitcoin untuk nasabah di AS; periksa syarat dan biaya terbarunya di situs resmi sebelum mendaftar. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau berikutnya
+
+- Rapat Federal Reserve bulan Desember dan pernyataan pejabat The Fed sebelum rapat itu.
+- Arus harian ETF bitcoin spot, terutama apakah rangkaian arus keluar IBIT berakhir.
+- Penjualan bitcoin lanjutan oleh penambang besar seperti MARA.
+- Laporan CPI berikutnya, yang dijadwalkan BLS terbit pada 10 Desember 2026.
+
+!soft: Bingung memilih ETF atau bitcoin langsung? Baca panduan kami tentang [ETF bitcoin vs. membeli bitcoin langsung](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

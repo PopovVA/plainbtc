@@ -1,0 +1,66 @@
+title: Ekim enflasyonu beklentiyi aşınca bitcoin 73.400 dolara doğru geriledi
+page_title: Beklentiyi aşan Ekim TÜFE'si sonrası bitcoin geriledi
+description: ABD'de tüketici fiyatları Ekim'de yüzde 0,3 beklentiye karşı yüzde 0,4 arttı. Faiz artışı beklentileri güçlenip ETF çıkışları sürerken bitcoin yaklaşık 73.400 dolara indi.
+og_description: TÜFE beklenen yüzde 0,3 yerine yüzde 0,4 arttı, bitcoin 73.400 doları gördü ve spot bitcoin ETF'leri 2 Kasım'dan bu yana yaklaşık 1,5 milyar dolar kaybetti.
+label: Piyasa
+summary: Ekim TÜFE'si beklentilerin üzerinde yüzde 0,4 arttı. Yatırımcılar Fed'in Aralık'ta faiz artıracağını fiyatlarken ve ETF çıkışları sürerken bitcoin yaklaşık 73.400 dolara geriledi.
+===
+
+ABD'nin yeni enflasyon verileri ekonomistlerin beklentisinin üzerinde gelince bitcoin salı sabahı değer kaybetti. [ABD Çalışma İstatistikleri Bürosu'na (BLS)](L1) göre tüketici fiyat endeksi (TÜFE) Ekim'de yüzde <strong>0,4</strong> arttı; Dow Jones'un anket yaptığı ekonomistler yüzde <strong>0,3</strong> bekliyordu. Gıda ve enerjiyi dışarıda bırakan çekirdek TÜFE yüzde 0,2 beklentiye karşı yüzde <strong>0,3</strong> yükseldi.
+
+Bitcoin, New York saatiyle 8.30'daki açıklamadan önce de düşüyordu. Kraken'de güne (UTC gece yarısı) yaklaşık <strong>75.250 dolardan</strong> başladı, raporun açıklandığı saatte kısa süreliğine <strong>73.400 dolara</strong> indi ve New York saatiyle 9.00'dan kısa süre sonra yaklaşık <strong>73.800 dolardan</strong> işlem gördü. Hisse vadelileri de düştü: CoinDesk'e göre veriden sonra Nasdaq 100 vadelileri yaklaşık yüzde 1,15, S&P 500 vadelileri ise yaklaşık yüzde 0,5 ekside.
+
+!takeaways
+- Ekim TÜFE'si yüzde 0,4 arttı (beklenti yüzde 0,3); çekirdek TÜFE yüzde 0,3 arttı (beklenti yüzde 0,2).
+- Bitcoin açıklama sırasında Kraken'de kısa süreliğine yaklaşık 73.400 dolara düştü.
+- CoinDesk'e göre piyasa artık Fed'in Aralık toplantısında faiz artıracağını fiyatlıyor.
+- Farside Investors verilerine göre ABD spot bitcoin ETF'leri 2-9 Kasım arasında yaklaşık 1,5 milyar dolar kaybetti.
+
+## Enflasyon raporu ne dedi
+
+Yine de fiyatlar, TÜFE'nin yüzde 0,6 sıçradığı Eylül'e göre daha yavaş arttı. BLS'ye göre konut maliyetleri yüzde 0,3 yükseldi ve Ekim'deki artışın yüzde 30'undan fazlasını oluşturdu. Gıda yüzde 0,5, enerji ise bir önceki aydaki yüzde 5,2'lik sıçramanın ardından yüzde 0,7 arttı.
+
+Sıra dışı bir ayrıntı: BLS her zamanki yıllık enflasyon oranını yayımlamadı. 2025'teki hükümet kapanması nedeniyle Ekim 2025 verileri hiç toplanmadığı için sağlıklı bir karşılaştırma rakamı yok. Bu yüzden yatırımcılar aylık rakamlara odaklandı ve bu rakamlar beklentileri aştı.
+
+## Enflasyon bitcoin için neden önemli
+
+Enflasyon verileri bitcoini çoğunlukla faiz oranları üzerinden etkiler. Enflasyon yüksek seyrettiğinde Fed'in faiz artırma ihtimali yükselir. Faizler yükselince nakit ve tahviller daha fazla getiri sağlar; bu da hisse senetleri ve kripto paralar gibi daha riskli varlıkları bazı yatırımcılar için daha az cazip hale getirebilir.
+
+Faiz beklentileri rapordan önce de değişiyordu. CoinDesk'in aktardığına göre Fed Yönetim Kurulu üyesi Christopher Waller, enflasyon yavaşlasa bile Aralık'ta faiz artırılmasından yana olduğunu ve yüksek bir verinin yarım puanlık daha büyük bir adımı haklı çıkarabileceğini söyledi. CoinDesk'e göre verinin ardından 2 yıllık ABD Hazine tahvili faizi yaklaşık 14 baz puan artarak yüzde 4,69'a, 10 yıllık tahvil faizi de yüzde 4,93'e çıktı.
+
+!figure:chart
+
+## ETF yatırımcıları para çekmeyi sürdürüyor
+
+Rapor, zaten baskı altındaki bir piyasaya denk geldi. [Farside Investors](L2) verileri, ABD spot bitcoin ETF'lerinin 9 Kasım pazartesi günü yaklaşık <strong>201 milyon dolar</strong> net çıkış yaşadığını gösteriyor; bunun başını BlackRock'ın IBIT fonundan çıkan yaklaşık 213 milyon dolar çekti. 2-9 Kasım arasındaki altı işlem gününde fonlar toplamda yaklaşık <strong>1,5 milyar dolar</strong> kaybetti ve yalnızca bir gün net giriş oldu. IBIT'te art arda yedi seanstır çıkış yaşanıyor.
+
+Bu satışlar, CoinDesk'in pazartesi günü dikkat çektiği tabloyu açıklamaya yardımcı oluyor: ABD hisseleri aylardır en iyi günlerinden birini yaşadı ama bitcoin neredeyse hiç kıpırdamadı.
+
+!mid_cta
+
+## Büyük bir madenci de satıyor
+
+Madencilerden gelen arz da bir etken. Bitcoin madencisi MARA Holdings, [üçüncü çeyrek hissedar mektubunda](L3) çeyrek bittikten sonra ortalama yaklaşık 81.039 dolardan <strong>13.597 BTC</strong> sattığını ve yaklaşık 1,1 milyar dolar elde ettiğini açıkladı. MARA bu tutarın 750 milyon dolarını bitcoin teminatlı kredilerini tamamen kapatmak için kullandığını ve piyasa koşullarına bağlı olarak planlarını finanse etmek için bitcoin satmaya devam etmeyi beklediğini belirtti.
+
+Karşılaştırma için MARA, Eylül sonunda 34.012 BTC tuttuğunu söyledi. CoinDesk ayrıca Santiment verilerine dayanarak bakiyesi olan bitcoin cüzdanı sayısının 16 Ekim'den bu yana yaklaşık 108.700 azaldığını aktardı; bu, bireysel yatırımcı ilgisinin soğuduğuna işaret ediyor.
+
+!figure:fact
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Bunların hiçbiri bitcoinin bundan sonra nereye gideceğini söylemiyor. Enflasyon verileri, Fed toplantıları ve ETF akışları fiyatı birkaç saat ya da birkaç gün boyunca sert şekilde oynatabilir ve bu hareketler çoğu zaman tersine döner. Yeniyseniz her manşete tepki vermek yerine önceden bir plan belirlemek, örneğin düzenli aralıklarla küçük ve sabit tutarlarda alım yapmak işinize yarayabilir.
+
+Bitcoin almaya karar verirseniz düzenlemeye tabi bir hizmet kullanın ve öğrenirken küçük tutarlarla başlayın. [River](L4), ABD'deki müşterilere yönelik yalnızca bitcoin sunan bir seçenektir; kaydolmadan önce güncel koşullarını ve ücretlerini sitesinden kontrol edin. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Fed'in Aralık toplantısı ve öncesinde Fed yetkililerinden gelecek açıklamalar.
+- Spot bitcoin ETF'lerinin günlük akışları, özellikle IBIT'teki çıkış serisinin bitip bitmeyeceği.
+- MARA gibi büyük madencilerin yeni bitcoin satışları.
+- BLS'nin 10 Aralık 2026'da yayımlamayı planladığı bir sonraki TÜFE raporu.
+
+!soft: ETF mi, doğrudan bitcoin mi? [Bitcoin ETF'si ile doğrudan bitcoin almak](/articles/bitcoin-etf-vs-buying-bitcoin) üzerine rehberimizi okuyun.
+
+!end_cta
+
+!disclosure

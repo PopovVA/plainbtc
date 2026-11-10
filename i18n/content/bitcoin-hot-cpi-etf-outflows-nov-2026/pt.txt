@@ -1,0 +1,66 @@
+title: Bitcoin cai rumo a US$ 73.400 após inflação de outubro acima do esperado
+page_title: Bitcoin cai após CPI de outubro acima do esperado
+description: Os preços ao consumidor nos EUA subiram 0,4% em outubro, acima da previsão de 0,3%. O bitcoin caiu para cerca de US$ 73.400 com o aumento das apostas em alta de juros e novas saídas dos ETFs.
+og_description: O CPI subiu 0,4% contra 0,3% esperado, o bitcoin tocou US$ 73.400 e os ETFs de bitcoin à vista perderam cerca de US$ 1,5 bilhão desde 2 de novembro.
+label: Mercado
+summary: O CPI de outubro subiu 0,4%, acima das previsões. O bitcoin caiu para cerca de US$ 73.400 com apostas de alta de juros do Fed em dezembro e saídas contínuas dos ETFs.
+===
+
+O bitcoin perdeu terreno na manhã desta terça-feira depois que novos dados de inflação dos EUA vieram acima do que os economistas esperavam. Segundo o [Bureau of Labor Statistics (BLS)](L1), o índice de preços ao consumidor (CPI) subiu <strong>0,4%</strong> em outubro, contra uma previsão de <strong>0,3%</strong> dos economistas consultados pela Dow Jones. O núcleo do CPI, que exclui alimentos e energia, subiu <strong>0,3%</strong>, contra 0,2% previsto.
+
+O bitcoin já vinha recuando antes da divulgação, às 8h30 no horário de Nova York. Na Kraken, ele abriu o dia (meia-noite UTC) perto de <strong>US$ 75.250</strong>, chegou brevemente a <strong>US$ 73.400</strong> na hora do relatório e era negociado perto de <strong>US$ 73.800</strong> pouco depois das 9h, horário de Nova York. Os futuros de ações também caíram: segundo o CoinDesk, os futuros do Nasdaq 100 recuavam cerca de 1,15% e os do S&P 500 cerca de 0,5% após o dado.
+
+!takeaways
+- O CPI de outubro subiu 0,4% (previsão: 0,3%); o núcleo subiu 0,3% (previsão: 0,2%).
+- O bitcoin caiu brevemente para cerca de US$ 73.400 na Kraken perto da divulgação.
+- Segundo o CoinDesk, o mercado já precifica uma alta de juros do Federal Reserve na reunião de dezembro.
+- Os ETFs de bitcoin à vista dos EUA perderam cerca de US$ 1,5 bilhão entre 2 e 9 de novembro, segundo dados da Farside Investors.
+
+## O que disse o relatório de inflação
+
+Mesmo assim, os preços subiram mais devagar do que em setembro, quando o CPI saltou 0,6%. O BLS informou que os custos de moradia subiram 0,3% e responderam por mais de 30% do aumento de outubro. Os alimentos subiram 0,5% e a energia, 0,7%, depois de um salto de 5,2% no mês anterior.
+
+Um detalhe incomum: o BLS não divulgou a taxa anual de costume. Por causa da paralisação do governo em 2025, os dados de outubro de 2025 nunca foram coletados, então não há um número limpo para comparar. Por isso, os investidores olharam para os números mensais, que vieram acima das previsões.
+
+## Por que a inflação importa para o bitcoin
+
+A inflação afeta o bitcoin principalmente por meio dos juros. Quando a inflação sobe, aumenta a chance de o Federal Reserve elevar os juros. Juros mais altos fazem o dinheiro em caixa e os títulos renderem mais, o que pode deixar ativos mais arriscados, como ações e criptomoedas, menos atraentes para alguns investidores.
+
+As expectativas já vinham mudando antes do relatório. O CoinDesk informou que o diretor do Fed Christopher Waller defendeu uma alta de juros em dezembro mesmo que a inflação esfriasse, e que um dado forte poderia justificar um movimento maior, de meio ponto. Após o dado, o rendimento do título do Tesouro de 2 anos subiu cerca de 14 pontos-base, para 4,69%, e o de 10 anos chegou a 4,93%, segundo o CoinDesk.
+
+!figure:chart
+
+## Investidores de ETF continuam tirando dinheiro
+
+O relatório chegou num mercado que já estava sob pressão. Dados da [Farside Investors](L2) mostram que os ETFs de bitcoin à vista dos EUA tiveram saídas líquidas de cerca de <strong>US$ 201 milhões</strong> na segunda-feira, 9 de novembro, lideradas por cerca de US$ 213 milhões que saíram do IBIT, da BlackRock. Nos seis pregões de 2 a 9 de novembro, os fundos perderam ao todo cerca de <strong>US$ 1,5 bilhão</strong>, com apenas um dia de entradas líquidas. O IBIT já soma sete pregões seguidos de saídas.
+
+Essas vendas ajudam a explicar algo que o CoinDesk apontou na segunda-feira: as ações americanas tiveram um dos melhores dias em meses, mas o bitcoin quase não se mexeu.
+
+!mid_cta
+
+## Uma grande mineradora também está vendendo
+
+A oferta das mineradoras é outro fator. Em sua [carta aos acionistas do terceiro trimestre](L3), a mineradora MARA Holdings disse que vendeu <strong>13.597 BTC</strong> após o fim do trimestre, a um preço médio de cerca de US$ 81.039, por aproximadamente US$ 1,1 bilhão. A MARA disse que usou US$ 750 milhões desse valor para quitar totalmente empréstimos garantidos pelos seus bitcoins e que espera continuar vendendo bitcoin para financiar seus planos, conforme as condições de mercado.
+
+Para comparação, a MARA disse que tinha 34.012 BTC no fim de setembro. O CoinDesk também citou dados da Santiment mostrando cerca de 108.700 carteiras de bitcoin com saldo a menos desde 16 de outubro, um sinal de que o interesse do investidor comum esfriou.
+
+!figure:fact
+
+## O que isso significa para iniciantes
+
+Nada disso diz para onde o bitcoin vai. Dados de inflação, reuniões do Fed e fluxos de ETFs podem mexer muito com o preço por algumas horas ou dias, e esses movimentos muitas vezes se revertem. Se você está começando, pode ajudar definir um plano com antecedência, como comprar valores pequenos e fixos com regularidade, em vez de reagir a cada manchete.
+
+Se decidir comprar bitcoin, use um serviço regulamentado e comece com valores pequenos enquanto aprende. A [River](L4) é uma opção só de bitcoin para clientes dos EUA; confira as condições e taxas atuais no site antes de se cadastrar. Isto não é recomendação de investimento.
+
+## O que acompanhar agora
+
+- A reunião de dezembro do Federal Reserve e os comentários de seus dirigentes antes dela.
+- Os fluxos diários dos ETFs de bitcoin à vista, principalmente se a sequência de saídas do IBIT termina.
+- Novas vendas de bitcoin por grandes mineradoras como a MARA.
+- O próximo relatório do CPI, que o BLS planeja divulgar em 10 de dezembro de 2026.
+
+!soft: Em dúvida entre ETF e bitcoin? Leia nosso guia sobre [ETF de bitcoin versus comprar bitcoin diretamente](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

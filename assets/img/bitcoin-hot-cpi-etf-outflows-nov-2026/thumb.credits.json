@@ -1,0 +1,21 @@
+{
+  "kind": "chart",
+  "sources": [
+    {
+      "file": "Kraken OHLC XBTUSD interval=60",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Hourly BTC/USD closes from Kraken; CPI release time from BLS"
+    }
+  ],
+  "slug": "bitcoin-hot-cpi-etf-outflows-nov-2026",
+  "generated": "2026-11-10T14:13Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

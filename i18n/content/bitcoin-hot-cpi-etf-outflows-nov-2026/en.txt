@@ -1,0 +1,66 @@
+title: Bitcoin slips toward $73,400 after a hotter-than-expected October inflation report
+page_title: Bitcoin slips after hot October CPI
+description: U.S. consumer prices rose 0.4% in October, more than the 0.3% forecast. Bitcoin dipped to about $73,400 as rate-hike bets grew and spot bitcoin ETFs extended outflows.
+og_description: CPI rose 0.4% vs. 0.3% expected, bitcoin touched $73,400, and spot bitcoin ETFs have lost about $1.5 billion since Nov. 2.
+label: Market news
+summary: October CPI rose 0.4%, above forecasts. Bitcoin dipped to about $73,400 as traders bet on a December Fed hike and ETF outflows continued.
+===
+
+Bitcoin lost ground on Tuesday morning after new U.S. inflation numbers came in hotter than economists expected. According to the [Bureau of Labor Statistics](L1), the Consumer Price Index rose <strong>0.4%</strong> in October, compared with a <strong>0.3%</strong> forecast from economists polled by Dow Jones. Core CPI, which leaves out food and energy, rose <strong>0.3%</strong> against a 0.2% forecast.
+
+Bitcoin had already been drifting lower before the 8:30 a.m. Eastern release. On Kraken, it opened the day (midnight UTC) near <strong>$75,250</strong>, briefly touched <strong>$73,400</strong> in the hour of the report, and traded near <strong>$73,800</strong> shortly after 9 a.m. Eastern. Stock futures fell too: CoinDesk reported Nasdaq 100 futures down about 1.15% and S&P 500 futures down about 0.5% after the data.
+
+!takeaways
+- October CPI rose 0.4% (forecast 0.3%); core CPI rose 0.3% (forecast 0.2%).
+- Bitcoin briefly fell to about $73,400 on Kraken around the release.
+- Traders now price a Federal Reserve rate increase at the December meeting, according to CoinDesk.
+- U.S. spot bitcoin ETFs lost about $1.5 billion from Nov. 2 to Nov. 9, per Farside Investors data.
+
+## What the inflation report said
+
+Prices still rose more slowly than in September, when CPI jumped 0.6%. The BLS said shelter costs rose 0.3% and made up more than 30% of October's increase. Food prices rose 0.5%, and energy rose 0.7% after a 5.2% jump the month before.
+
+One unusual detail: the BLS did not publish a normal year-over-year inflation rate. Because of the 2025 government shutdown, October 2025 data was never collected, so there is no clean figure to compare against. Investors therefore focused on the monthly numbers, and those beat forecasts.
+
+## Why bitcoin cares about inflation
+
+Inflation data matters for bitcoin mostly through interest rates. When inflation runs hot, the Federal Reserve is more likely to raise rates. Higher rates make cash and bonds pay more, which can make riskier assets such as stocks and crypto less attractive to some investors.
+
+Rate expectations were already shifting before the report. CoinDesk reported that Fed Governor Christopher Waller said he favored a rate increase in December even if inflation cooled, and that a hot reading could justify a larger half-point move. After the data, the 2-year Treasury yield rose about 14 basis points to 4.69% and the 10-year yield climbed to 4.93%, according to CoinDesk.
+
+!figure:chart
+
+## ETF investors keep pulling money
+
+The inflation report landed on a market that was already under pressure. Data from [Farside Investors](L2) shows U.S. spot bitcoin ETFs had net outflows of about <strong>$201 million</strong> on Monday, Nov. 9, led by about $213 million leaving BlackRock's IBIT. Over the six trading days from Nov. 2 to Nov. 9, the funds lost roughly <strong>$1.5 billion</strong> in total, with only one day of net inflows. IBIT has now seen outflows for seven sessions in a row.
+
+That selling helps explain a pattern CoinDesk pointed out on Monday: U.S. stocks had one of their best days in months, but bitcoin barely moved.
+
+!mid_cta
+
+## A big miner is selling, too
+
+Supply from miners is another factor. In its [third-quarter shareholder letter](L3), bitcoin miner MARA Holdings said it sold <strong>13,597 BTC</strong> after the quarter ended, at an average price of about $81,039, for roughly $1.1 billion. MARA said it used $750 million of that to fully repay loans backed by its bitcoin, and that it expects to keep selling bitcoin to fund its plans, depending on market conditions.
+
+For context, MARA said it held 34,012 BTC at the end of September. CoinDesk also cited Santiment data showing about 108,700 fewer bitcoin wallets with a balance since Oct. 16, a sign that retail interest has cooled.
+
+!figure:fact
+
+## What it means for beginners
+
+None of this tells you where bitcoin goes next. Inflation reports, Fed meetings and ETF flows can move prices sharply for a few hours or days, and those moves often reverse. If you are new, it may help to decide on a plan in advance, such as buying small, fixed amounts on a schedule, instead of reacting to each headline.
+
+If you decide to buy bitcoin, use a regulated U.S. service and keep your amounts small while you learn. [River](L4) is one bitcoin-only option for U.S. customers; check its current terms and fees on its site before you sign up. This is not investment advice.
+
+## What to watch next
+
+- The Federal Reserve's December meeting and any comments from Fed officials before it.
+- Daily spot bitcoin ETF flows, especially whether IBIT's streak of outflows ends.
+- Further bitcoin sales by large miners such as MARA.
+- The next CPI report, which the BLS plans to publish on Dec. 10, 2026.
+
+!soft: New to the ETF debate? Read our explainer on [a bitcoin ETF vs. buying bitcoin directly](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

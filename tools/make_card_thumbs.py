@@ -377,6 +377,24 @@ def thumb_binance_hack():
     ],"note":"Editorial composite; trademarks belong to their owners."}
 
 
+def thumb_hot_cpi():
+    xs, closes = kraken_ohlc(60); xs, closes = xs[-48:], closes[-48:]
+    fig, ax = plt.subplots(figsize=(6.4,3.6), dpi=100); fig.patch.set_facecolor("#0f1419")
+    style_ax(ax, "")
+    ax.plot(xs, closes, color="#f7931a", linewidth=1.8)
+    cpi = datetime(2026, 11, 10, 13, 30, tzinfo=timezone.utc)
+    ax.axvline(cpi, color="#60a5fa", linestyle="--", linewidth=1.4)
+    ax.text(cpi, max(closes), " CPI 8:30 ET", color="#93c5fd", fontsize=8, va="top", ha="right")
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v,_: f"${v/1000:.1f}k"))
+    ax.xaxis.set_major_locator(mdates.HourLocator(byhour=[0, 12]))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %d %H:%M"))
+    im = chart_to_image(fig)
+    label_chip(im, "BTC/USD hourly (Kraken, UTC) · CPI day")
+    return im, {"kind":"chart","sources":[
+        {"file":"Kraken OHLC XBTUSD interval=60","license":"Kraken public API","url":"https://docs.kraken.com/api/docs/rest-api/get-ohlc-data","credit":"Hourly BTC/USD closes from Kraken; CPI release time from BLS"}
+    ]}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -389,6 +407,7 @@ BUILDERS = {
     "us-midterms-crypto-regulation-etf-outflows": thumb_midterms,
     "how-to-buy-first-bitcoin-coinbase": thumb_howto,
     "binance-hack-north-korea-memecoin-laundering-nov-2026": thumb_binance_hack,
+    "bitcoin-hot-cpi-etf-outflows-nov-2026": thumb_hot_cpi,
 }
 
 def first_figure_source(slug: str) -> Path | None:

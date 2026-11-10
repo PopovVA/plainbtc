@@ -1,0 +1,66 @@
+title: Le bitcoin glisse vers 73 400 $ après une inflation d'octobre plus forte que prévu
+page_title: Le bitcoin recule après un CPI d'octobre plus fort que prévu
+description: Les prix à la consommation américains ont augmenté de 0,4 % en octobre, au-dessus des 0,3 % attendus. Le bitcoin est tombé vers 73 400 $ sur fond de paris de hausse des taux et de sorties des ETF.
+og_description: Le CPI a progressé de 0,4 % contre 0,3 % attendu, le bitcoin a touché 73 400 $ et les ETF bitcoin au comptant ont perdu environ 1,5 milliard de dollars depuis le 2 novembre.
+label: Marchés
+summary: Le CPI d'octobre a augmenté de 0,4 %, plus que prévu. Le bitcoin est tombé vers 73 400 $ alors que les investisseurs misent sur une hausse des taux de la Fed en décembre et que les ETF continuent de perdre des capitaux.
+===
+
+Le bitcoin a reculé mardi matin après la publication de chiffres d'inflation américains plus élevés que ne l'attendaient les économistes. Selon le [Bureau of Labor Statistics (BLS)](L1), l'indice des prix à la consommation (CPI) a augmenté de <strong>0,4 %</strong> en octobre, contre une prévision de <strong>0,3 %</strong> des économistes interrogés par Dow Jones. Le CPI de base, qui exclut l'alimentation et l'énergie, a progressé de <strong>0,3 %</strong>, contre 0,2 % attendu.
+
+Le bitcoin baissait déjà avant la publication de 8 h 30, heure de New York. Sur Kraken, il a ouvert la journée (minuit UTC) vers <strong>75 250 $</strong>, a brièvement touché <strong>73 400 $</strong> dans l'heure du rapport et s'échangeait vers <strong>73 800 $</strong> peu après 9 h, heure de New York. Les contrats à terme sur actions ont aussi reculé : selon CoinDesk, ceux du Nasdaq 100 perdaient environ 1,15 % et ceux du S&P 500 environ 0,5 % après les chiffres.
+
+!takeaways
+- Le CPI d'octobre a augmenté de 0,4 % (prévision : 0,3 %) ; le CPI de base de 0,3 % (prévision : 0,2 %).
+- Le bitcoin est brièvement tombé vers 73 400 $ sur Kraken au moment de la publication.
+- Selon CoinDesk, les marchés anticipent désormais une hausse des taux de la Réserve fédérale lors de la réunion de décembre.
+- Les ETF bitcoin au comptant américains ont perdu environ 1,5 milliard de dollars entre le 2 et le 9 novembre, d'après les données de Farside Investors.
+
+## Ce que dit le rapport sur l'inflation
+
+Les prix ont tout de même augmenté moins vite qu'en septembre, quand le CPI avait bondi de 0,6 %. Le BLS indique que le logement a progressé de 0,3 % et représente plus de 30 % de la hausse d'octobre. L'alimentation a augmenté de 0,5 % et l'énergie de 0,7 %, après un bond de 5,2 % le mois précédent.
+
+Détail inhabituel : le BLS n'a pas publié le taux annuel habituel. À cause de la paralysie de l'administration fédérale en 2025, les données d'octobre 2025 n'ont jamais été collectées, il n'existe donc pas de point de comparaison fiable. Les investisseurs se sont donc concentrés sur les chiffres mensuels, qui ont dépassé les prévisions.
+
+## Pourquoi l'inflation compte pour le bitcoin
+
+L'inflation pèse sur le bitcoin surtout via les taux d'intérêt. Quand l'inflation est forte, la Réserve fédérale a plus de chances de relever ses taux. Des taux plus élevés rendent les liquidités et les obligations plus rémunératrices, ce qui peut rendre les actifs plus risqués, comme les actions et les cryptomonnaies, moins attractifs pour certains investisseurs.
+
+Les anticipations évoluaient déjà avant le rapport. CoinDesk rapporte que le gouverneur de la Fed Christopher Waller s'est dit favorable à une hausse en décembre même si l'inflation ralentissait, et qu'un chiffre élevé pourrait justifier un geste plus fort, d'un demi-point. Après la publication, le rendement des bons du Trésor à 2 ans a pris environ 14 points de base, à 4,69 %, et celui à 10 ans est monté à 4,93 %, selon CoinDesk.
+
+!figure:chart
+
+## Les investisseurs en ETF continuent de retirer leurs fonds
+
+Le rapport est tombé sur un marché déjà sous pression. Les données de [Farside Investors](L2) montrent que les ETF bitcoin au comptant américains ont enregistré des sorties nettes d'environ <strong>201 millions de dollars</strong> le lundi 9 novembre, menées par quelque 213 millions sortis de l'IBIT de BlackRock. Sur les six séances du 2 au 9 novembre, les fonds ont perdu au total environ <strong>1,5 milliard de dollars</strong>, avec une seule journée d'entrées nettes. L'IBIT en est à sept séances de sorties d'affilée.
+
+Ces ventes aident à comprendre ce que CoinDesk soulignait lundi : les actions américaines ont connu l'une de leurs meilleures journées depuis des mois, mais le bitcoin a à peine bougé.
+
+!mid_cta
+
+## Un grand mineur vend aussi
+
+L'offre des mineurs est un autre facteur. Dans sa [lettre aux actionnaires du troisième trimestre](L3), le mineur MARA Holdings indique avoir vendu <strong>13 597 BTC</strong> après la clôture du trimestre, à un prix moyen d'environ 81 039 $, pour près de 1,1 milliard de dollars. MARA précise avoir utilisé 750 millions de dollars pour rembourser intégralement des prêts garantis par ses bitcoins, et prévoit de continuer à vendre du bitcoin pour financer ses projets, selon les conditions de marché.
+
+Pour situer, MARA détenait 34 012 BTC fin septembre. CoinDesk cite aussi des données de Santiment montrant environ 108 700 portefeuilles bitcoin non vides de moins depuis le 16 octobre, signe d'un intérêt des particuliers en baisse.
+
+!figure:fact
+
+## Ce que cela signifie pour les débutants
+
+Rien de tout cela n'indique où ira le bitcoin. Les chiffres de l'inflation, les réunions de la Fed et les flux des ETF peuvent faire fortement bouger le prix pendant quelques heures ou quelques jours, et ces mouvements s'inversent souvent. Si vous débutez, il peut être utile de fixer un plan à l'avance, par exemple acheter de petits montants fixes à intervalles réguliers, plutôt que de réagir à chaque gros titre.
+
+Si vous décidez d'acheter du bitcoin, passez par un service réglementé et commencez avec de petits montants le temps d'apprendre. [River](L4) est une option 100 % bitcoin réservée aux clients américains ; vérifiez ses conditions et ses frais actuels sur son site avant de vous inscrire. Ceci n'est pas un conseil en investissement.
+
+## À surveiller ensuite
+
+- La réunion de décembre de la Réserve fédérale et les déclarations de ses responsables d'ici là.
+- Les flux quotidiens des ETF bitcoin au comptant, notamment la fin éventuelle de la série de sorties de l'IBIT.
+- De nouvelles ventes de bitcoin par de grands mineurs comme MARA.
+- Le prochain rapport CPI, que le BLS prévoit de publier le 10 décembre 2026.
+
+!soft: ETF ou bitcoin en direct ? Lisez notre guide [ETF bitcoin ou achat direct de bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

@@ -1226,6 +1226,56 @@ def build_binance_hack():
     ]
 
 
+def build_hot_cpi():
+    slug = "bitcoin-hot-cpi-etf-outflows-nov-2026"
+    d = OUT / slug
+    # Farside Investors, U.S. spot bitcoin ETF daily net flows (US$ millions), Nov 2-9, 2026
+    days = ["Nov 2", "Nov 3", "Nov 4", "Nov 5", "Nov 6", "Nov 9"]
+    flows = [-398.6, -115.6, 74.6, -430.2, -411.9, -201.0]
+    chart = make_bar_chart(
+        d / "chart-btc-etf-flows-nov-2-9",
+        days, flows,
+        "U.S. spot bitcoin ETF daily net flows, Nov 2-9, 2026 ($ millions)",
+        colors=["#34d399" if v > 0 else "#f87171" for v in flows],
+        value_fmt=lambda v: f"{'+' if v > 0 else '-'}${abs(v):,.1f}M",
+    )
+    card = make_fact_card(
+        d / "fact-mara-13597-btc",
+        label="Miner selling",
+        big="13,597 BTC",
+        sub="Sold by MARA Holdings after Q3 ended, at about $81,039 each, for roughly $1.1 billion",
+        footer="MARA Q3 2026 shareholder letter · Nov 9, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of U.S. spot bitcoin ETF daily net flows: -$398.6M Nov 2, -$115.6M Nov 3, +$74.6M Nov 4, -$430.2M Nov 5, -$411.9M Nov 6, -$201.0M Nov 9", {
+            "es": "Gráfico de barras de los flujos netos diarios de los ETF de bitcoin al contado en EE. UU.: -398,6 M$ el 2 de nov., -115,6 M$ el 3, +74,6 M$ el 4, -430,2 M$ el 5, -411,9 M$ el 6 y -201,0 M$ el 9",
+            "pt": "Gráfico de barras dos fluxos líquidos diários dos ETFs de bitcoin à vista nos EUA: -US$ 398,6 mi em 2/11, -US$ 115,6 mi em 3/11, +US$ 74,6 mi em 4/11, -US$ 430,2 mi em 5/11, -US$ 411,9 mi em 6/11 e -US$ 201,0 mi em 9/11",
+            "fr": "Graphique des flux nets quotidiens des ETF bitcoin au comptant américains : -398,6 M$ le 2 nov., -115,6 M$ le 3, +74,6 M$ le 4, -430,2 M$ le 5, -411,9 M$ le 6 et -201,0 M$ le 9",
+            "de": "Balkendiagramm der täglichen Nettozuflüsse von US-Spot-Bitcoin-ETFs: -398,6 Mio. $ am 2. Nov., -115,6 Mio. $ am 3., +74,6 Mio. $ am 4., -430,2 Mio. $ am 5., -411,9 Mio. $ am 6. und -201,0 Mio. $ am 9. Nov.",
+            "ru": "Диаграмма ежедневных чистых потоков спотовых биткоин-ETF в США: -$398,6 млн 2 ноября, -$115,6 млн 3-го, +$74,6 млн 4-го, -$430,2 млн 5-го, -$411,9 млн 6-го и -$201,0 млн 9 ноября",
+            "tr": "ABD spot bitcoin ETF'lerinin günlük net akışları: 2 Kasım -398,6 milyon $, 3 Kasım -115,6 milyon $, 4 Kasım +74,6 milyon $, 5 Kasım -430,2 milyon $, 6 Kasım -411,9 milyon $, 9 Kasım -201,0 milyon $",
+            "id": "Grafik batang arus bersih harian ETF bitcoin spot AS: -US$398,6 juta 2 Nov, -US$115,6 juta 3 Nov, +US$74,6 juta 4 Nov, -US$430,2 juta 5 Nov, -US$411,9 juta 6 Nov, -US$201,0 juta 9 Nov",
+            "ja": "米国の現物ビットコインETFの日次純流出入を示す棒グラフ：11月2日-3億9860万ドル、3日-1億1560万ドル、4日+7460万ドル、5日-4億3020万ドル、6日-4億1190万ドル、9日-2億100万ドル",
+            "ko": "미국 현물 비트코인 ETF 일별 순유출입 막대 차트: 11월 2일 -3억 9,860만 달러, 3일 -1억 1,560만 달러, 4일 +7,460만 달러, 5일 -4억 3,020만 달러, 6일 -4억 1,190만 달러, 9일 -2억 100만 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Farside Investors")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: MARA Holdings sold 13,597 BTC after the third quarter at about $81,039 each, for roughly $1.1 billion", {
+            "es": "Tarjeta: MARA Holdings vendió 13.597 BTC tras el tercer trimestre, a unos 81.039 $ cada uno, por cerca de 1.100 M$",
+            "pt": "Cartão: a MARA Holdings vendeu 13.597 BTC após o terceiro trimestre, a cerca de US$ 81.039 cada, por cerca de US$ 1,1 bilhão",
+            "fr": "Encadré : MARA Holdings a vendu 13 597 BTC après le troisième trimestre, à environ 81 039 $ l'unité, pour près de 1,1 Md$",
+            "de": "Faktenkarte: MARA Holdings verkaufte nach dem dritten Quartal 13.597 BTC zu je rund 81.039 $, für etwa 1,1 Mrd. $",
+            "ru": "Карточка: MARA Holdings продала 13 597 BTC после третьего квартала примерно по $81 039 за монету, выручив около $1,1 млрд",
+            "tr": "Kart: MARA Holdings üçüncü çeyrekten sonra tanesi yaklaşık 81.039 $'dan 13.597 BTC sattı ve yaklaşık 1,1 milyar $ elde etti",
+            "id": "Kart fakta: MARA Holdings menjual 13.597 BTC setelah kuartal ketiga di harga sekitar US$81.039 per koin, senilai sekitar US$1,1 miliar",
+            "ja": "カード：MARA Holdingsは第3四半期後に13,597 BTCを1枚あたり約81,039ドルで売却し、約11億ドルを得た",
+            "ko": "카드: MARA 홀딩스는 3분기 이후 13,597 BTC를 개당 약 81,039달러에 팔아 약 11억 달러를 확보했다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="MARA Holdings Q3 2026 shareholder letter")},
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -1241,6 +1291,7 @@ BUILDERS = {
     "how-to-cash-out-bitcoin-coinbase-to-bank": "cashout",
     "bitcoin-etf-vs-buying-bitcoin": "etf",
     "binance-hack-north-korea-memecoin-laundering-nov-2026": "bnbhack",
+    "bitcoin-hot-cpi-etf-outflows-nov-2026": "hotcpi",
 }
 
 
@@ -1280,6 +1331,8 @@ def build_slug(slug: str, btc=None):
         figs = build_etf()
     elif key == "bnbhack":
         figs = build_binance_hack()
+    elif key == "hotcpi":
+        figs = build_hot_cpi()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

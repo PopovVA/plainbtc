@@ -1,0 +1,66 @@
+title: El bitcoin cae hacia 73.400 $ tras un dato de inflación de octubre más alto de lo esperado
+page_title: El bitcoin cae tras un IPC de octubre más alto de lo esperado
+description: Los precios al consumo en EE. UU. subieron un 0,4% en octubre, por encima del 0,3% previsto. El bitcoin bajó a unos 73.400 $ mientras crecían las apuestas de subida de tipos y seguían las salidas de los ETF.
+og_description: El IPC subió un 0,4% frente al 0,3% esperado, el bitcoin tocó 73.400 $ y los ETF de bitcoin al contado han perdido unos 1.500 M$ desde el 2 de noviembre.
+label: Mercado
+summary: El IPC de octubre subió un 0,4%, más de lo previsto. El bitcoin bajó a unos 73.400 $ ante las apuestas de una subida de tipos de la Fed en diciembre y nuevas salidas de los ETF.
+===
+
+El bitcoin perdió terreno el martes por la mañana después de que los nuevos datos de inflación de EE. UU. salieran más altos de lo que esperaban los economistas. Según la [Oficina de Estadísticas Laborales (BLS)](L1), el índice de precios al consumo (IPC) subió un <strong>0,4%</strong> en octubre, frente al <strong>0,3%</strong> que pronosticaban los economistas consultados por Dow Jones. El IPC subyacente, que excluye alimentos y energía, subió un <strong>0,3%</strong>, frente a un 0,2% previsto.
+
+El bitcoin ya venía bajando antes de la publicación de las 8:30 (hora del Este de EE. UU.). En Kraken abrió el día (medianoche UTC) cerca de <strong>75.250 $</strong>, tocó brevemente <strong>73.400 $</strong> en la hora del informe y cotizaba cerca de <strong>73.800 $</strong> poco después de las 9:00, hora del Este. Los futuros bursátiles también cayeron: CoinDesk informó de que los futuros del Nasdaq 100 bajaban un 1,15% y los del S&P 500 alrededor de un 0,5% tras el dato.
+
+!takeaways
+- El IPC de octubre subió un 0,4% (previsión: 0,3%); el subyacente subió un 0,3% (previsión: 0,2%).
+- El bitcoin cayó brevemente a unos 73.400 $ en Kraken en torno a la publicación.
+- Según CoinDesk, los operadores ya descuentan una subida de tipos de la Reserva Federal en la reunión de diciembre.
+- Los ETF de bitcoin al contado de EE. UU. perdieron unos 1.500 M$ entre el 2 y el 9 de noviembre, según datos de Farside Investors.
+
+## Qué dijo el informe de inflación
+
+Los precios subieron aun así más despacio que en septiembre, cuando el IPC saltó un 0,6%. La BLS indicó que la vivienda subió un 0,3% y supuso más del 30% del aumento de octubre. Los alimentos subieron un 0,5% y la energía un 0,7%, tras un salto del 5,2% el mes anterior.
+
+Un detalle poco habitual: la BLS no publicó la tasa interanual de siempre. Por el cierre del Gobierno de 2025 nunca se recogieron los datos de octubre de 2025, así que no hay una cifra limpia con la que comparar. Por eso los inversores se fijaron en las cifras mensuales, y estas superaron las previsiones.
+
+## Por qué al bitcoin le importa la inflación
+
+Los datos de inflación afectan al bitcoin sobre todo a través de los tipos de interés. Cuando la inflación aprieta, es más probable que la Reserva Federal suba los tipos. Con tipos más altos, el efectivo y los bonos rinden más, y eso puede hacer que activos más arriesgados, como las acciones y las criptomonedas, resulten menos atractivos para algunos inversores.
+
+Las expectativas ya estaban cambiando antes del informe. CoinDesk informó de que el gobernador de la Fed Christopher Waller se mostró a favor de subir los tipos en diciembre aunque la inflación se moderara, y de que un dato alto podría justificar un movimiento mayor, de medio punto. Tras el dato, el rendimiento del bono del Tesoro a 2 años subió unos 14 puntos básicos, hasta el 4,69%, y el del bono a 10 años llegó al 4,93%, según CoinDesk.
+
+!figure:chart
+
+## Los inversores en ETF siguen retirando dinero
+
+El informe llegó a un mercado que ya estaba bajo presión. Los datos de [Farside Investors](L2) muestran que los ETF de bitcoin al contado de EE. UU. registraron salidas netas de unos <strong>201 M$</strong> el lunes 9 de noviembre, encabezadas por unos 213 M$ que salieron del IBIT de BlackRock. En las seis sesiones del 2 al 9 de noviembre, los fondos perdieron en total cerca de <strong>1.500 M$</strong>, con un solo día de entradas netas. El IBIT acumula ya siete sesiones seguidas de salidas.
+
+Esas ventas ayudan a explicar algo que CoinDesk señaló el lunes: la bolsa estadounidense vivió uno de sus mejores días en meses, pero el bitcoin apenas se movió.
+
+!mid_cta
+
+## Un gran minero también está vendiendo
+
+La oferta de los mineros es otro factor. En su [carta a los accionistas del tercer trimestre](L3), la minera MARA Holdings dijo que vendió <strong>13.597 BTC</strong> después del cierre del trimestre, a un precio medio de unos 81.039 $, por cerca de 1.100 M$. MARA explicó que usó 750 M$ de esa cantidad para devolver por completo préstamos garantizados con sus bitcoins y que prevé seguir vendiendo bitcoin para financiar sus planes, según las condiciones del mercado.
+
+Como referencia, MARA dijo que tenía 34.012 BTC a finales de septiembre. CoinDesk citó además datos de Santiment según los cuales hay unas 108.700 carteras de bitcoin con saldo menos que el 16 de octubre, una señal de que el interés minorista se ha enfriado.
+
+!figure:fact
+
+## Qué significa para los principiantes
+
+Nada de esto dice hacia dónde irá el bitcoin. Los datos de inflación, las reuniones de la Fed y los flujos de los ETF pueden mover mucho el precio durante unas horas o días, y esos movimientos a menudo se revierten. Si estás empezando, puede ayudarte decidir un plan por adelantado, por ejemplo comprar cantidades pequeñas y fijas de forma periódica, en lugar de reaccionar a cada titular.
+
+Si decides comprar bitcoin, usa un servicio regulado y empieza con cantidades pequeñas mientras aprendes. [River](L4) es una opción solo de bitcoin para clientes de EE. UU.; revisa sus condiciones y comisiones actuales en su web antes de registrarte. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- La reunión de diciembre de la Reserva Federal y los comentarios de sus responsables antes de ella.
+- Los flujos diarios de los ETF de bitcoin al contado, sobre todo si se corta la racha de salidas del IBIT.
+- Nuevas ventas de bitcoin por parte de grandes mineros como MARA.
+- El próximo informe del IPC, que la BLS prevé publicar el 10 de diciembre de 2026.
+
+!soft: ¿Dudas entre un ETF y comprar bitcoin? Lee nuestra guía sobre [un ETF de bitcoin frente a comprar bitcoin directamente](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure
