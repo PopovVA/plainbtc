@@ -63,8 +63,8 @@
       copy.setAttribute("aria-hidden", "true");
       $$("a", copy).forEach((a) => { a.tabIndex = -1; });
       track.after(copy);
-      // Reading pace: about 20px per second, so a headline can be read before it leaves.
-      ticker.style.setProperty("--ticker-time", `${Math.max(60, Math.round(track.scrollWidth / 20))}s`);
+      // Calm reading pace: about 12px per second, so a headline can be read before it leaves.
+      ticker.style.setProperty("--ticker-time", `${Math.max(90, Math.round(track.scrollWidth / 12))}s`);
       ticker.classList.add("is-live");
     }
   }
