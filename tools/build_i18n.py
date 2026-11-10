@@ -29,7 +29,8 @@ COMMUNITY = [
     ("x", "https://x.com/lean_redfield", "community_x"),
 ]
 SAME_AS = [u for _, u, _ in COMMUNITY]
-STYLES_CSS = "/assets/styles.20261109f.css"
+STYLES_CSS = "/assets/styles.20261109g.css"
+SITE_JS = "/assets/site.20261109h.js"
 
 ICON_SVG = {
     "discord": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>',
@@ -99,12 +100,12 @@ def strip_community_boxes(h: str) -> str:
 
 def place_community(h: str, lang: str, *, home: bool, kind: str) -> str:
     """Ensure exactly one community block. Always strip first, then insert the marked block once."""
-    h = strip_community_boxes(h)
+    h = strip_newsletter(strip_community_boxes(h))  # newsletter is re-placed afterwards by place_newsletter
     new = community_marker_html(lang, home=home)
     if home or kind == "home":
-        m = re.search(r'(</section>\s*)(<section id="articles")', h, re.S)
+        m = re.search(r'(</section>)\s*(<section id="articles")', h, re.S)
         if m:
-            return h[: m.start(2)] + new + "\n    " + h[m.start(2) :]
+            return h[: m.end(1)] + "\n\n" + new + "\n    " + h[m.start(2) :]
         # fallback: after hero
         m = re.search(r'(</section>\s*)', h)
         if m:
@@ -123,6 +124,68 @@ def place_community(h: str, lang: str, *, home: bool, kind: str) -> str:
         return h[: m.start(1)] + "\n" + new + "\n    " + h[m.start(1) :]
     errors.append("cannot place community box after strip")
     return h
+
+# ---------------------------------------------------------------- newsletter signup form
+NLS = json.loads((ROOT / "i18n/newsletter.json").read_text(encoding="utf-8"))
+
+
+def newsletter_box_html(lang: str, source: str) -> str:
+    n = NLS[lang]
+    dis = "/disclosure" if lang == DEFAULT else f"/{lang}/disclosure"
+    da = lambda k: esc_attr(n[k])
+    return (
+        '  <!-- i18n:newsletter -->\n'
+        '      <aside class="newsletter-box" aria-labelledby="nl-title">\n'
+        f'        <h2 id="nl-title">{esc(n["form_title"])}</h2>\n'
+        f'        <p>{esc(n["form_text"])}</p>\n'
+        f'        <form class="newsletter-form" method="post" action="/api/subscribe" novalidate '
+        f'data-ok="{da("msg_ok")}" data-invalid="{da("msg_invalid")}" data-rate="{da("msg_rate")}" '
+        f'data-error="{da("msg_error")}" data-sending="{da("sending")}">\n'
+        f'          <input type="hidden" name="lang" value="{lang}">\n'
+        f'          <input type="hidden" name="source" value="{esc_attr(source)}">\n'
+        '          <div class="nl-hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>\n'
+        f'          <label class="nl-label" for="nl-email">{esc(n["email_label"])}</label>\n'
+        f'          <div class="nl-row"><input id="nl-email" type="email" name="email" required maxlength="254" '
+        f'autocomplete="email" inputmode="email" placeholder="{da("placeholder")}">\n'
+        f'          <button type="submit">{esc(n["button"])}</button></div>\n'
+        '        </form>\n'
+        '        <p class="nl-status" role="status" aria-live="polite"></p>\n'
+        f'        <p class="nl-note">{esc(n["consent"])} <a href="{dis}">{esc(n["privacy_link"])}</a></p>\n'
+        '      </aside>\n'
+        '  <!-- /i18n:newsletter -->'
+    )
+
+
+def strip_newsletter(h: str) -> str:
+    h = re.sub(r"[ \t]*<!-- i18n:newsletter -->.*?<!-- /i18n:newsletter -->\s*", "\n", h, flags=re.S)
+    h = re.sub(r"\s*<aside class=\"newsletter-box\"[^>]*>.*?</aside>\s*", "\n", h, flags=re.S)  # unmarked leftovers
+    return h
+
+
+def place_newsletter(h: str, lang: str, kind: str, source: str) -> str:
+    """Idempotent: strip every newsletter block (marked or not), then insert exactly one marked block."""
+    h = strip_newsletter(h)
+    new = newsletter_box_html(lang, source)
+    if kind == "article":
+        m = re.search(r"<!-- /i18n:community -->\s*", h)
+        if m:
+            tail = h[m.end():]
+            return h[: m.start()] + "<!-- /i18n:community -->\n" + new + "\n\n" + (tail if tail.startswith(("<", " ")) else tail)
+        m = re.search(r'\n(\s*<aside class="related")', h)
+        if m:
+            return h[: m.start(1)] + new + "\n\n" + h[m.start(1):]
+    elif kind == "home":
+        m = re.search(r'\s*(<section id="about")', h)
+        if m:
+            return h[: m.start()] + "\n\n" + new + "\n\n    " + h[m.start(1):]
+    else:  # about / disclosure (prose pages)
+        ms = list(re.finditer(r"\n(\s*</div>\s*</main>)", h))
+        if ms:
+            m = ms[-1]
+            return h[: m.start()] + "\n\n" + new + h[m.start():]
+    errors.append(f"cannot place newsletter form ({lang}/{kind}/{source})")
+    return h
+
 
 CFG = json.loads((ROOT / "i18n/langs.json").read_text(encoding="utf-8"))
 LANGS = CFG["langs"]
@@ -437,7 +500,7 @@ def footer_html(lang, kind, slug) -> str:
 {footer_social_html(lang)}
 {footer_langs(kind, slug, lang)}
   </footer>
-  <script src="/assets/site.20261109g.js" defer></script>
+  <script src="{SITE_JS}" defer></script>
 </body>
 </html>
 '''
@@ -842,9 +905,9 @@ def patch_en(path: Path, kind: str, slug: str = ""):
     else:
         h = re.sub(r'(article-media\.css\?v=)[^"\s]+', r'\g<1>20261109f', h, count=1)
     if "/assets/site." not in h and "/assets/site.js" not in h:
-        h = h.replace("</body>", '  <script src="/assets/site.20261109g.js" defer></script>\n</body>', 1)
+        h = h.replace("</body>", f'  <script src="{SITE_JS}" defer></script>\n</body>', 1)
     else:
-        h = re.sub(r'/assets/site(?:\.\d+)?\.js(?:\?v=[^"\s]+)?', '/assets/site.20261109g.js', h, count=1)
+        h = re.sub(r'/assets/site(?:\.\w+)?\.js(?:\?v=[^"\s]+)?', SITE_JS, h, count=1)
     new = hreflang_block(kind, slug, DEFAULT)
     h, ok = replace_marked(h, "hreflang", new)
     if not ok:
@@ -914,6 +977,7 @@ def patch_en(path: Path, kind: str, slug: str = ""):
             flags=re.S,
         )
     h = re.sub(r'<script type="application/ld\+json">.*?</script>', add_same_as, h, flags=re.S)
+    h = place_newsletter(h, DEFAULT, kind, path_for(DEFAULT, kind, slug))
     if h != o:
         path.write_text(h, encoding="utf-8")
 
@@ -1000,13 +1064,13 @@ def main():
         code = l["code"]
         if code == DEFAULT or code not in STR:
             continue
-        write(file_for(code, "home"), build_home(code)); n += 1
+        write(file_for(code, "home"), place_newsletter(build_home(code), code, "home", path_for(code, "home"))); n += 1
         for kind in ("about", "disclosure"):
             if has_page(code, kind):
-                write(file_for(code, kind), build_simple(code, kind)); n += 1
+                write(file_for(code, kind), place_newsletter(build_simple(code, kind), code, kind, path_for(code, kind))); n += 1
         for slug in SLUGS:
             if has_page(code, "article", slug):
-                write(file_for(code, "article", slug), build_article(code, slug)); n += 1
+                write(file_for(code, "article", slug), place_newsletter(build_article(code, slug), code, "article", path_for(code, "article", slug))); n += 1
         write(ROOT / code / "feed.xml", build_feed(code))
     # English pages: patch in place
     patch_en(ROOT / "index.html", "home")

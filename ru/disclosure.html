@@ -6,7 +6,7 @@
   <meta name="robots" content="index,follow">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (Русский)" href="/ru/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109f.css">
+  <link rel="stylesheet" href="/assets/styles.20261109g.css">
   <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
   <title>Раскрытие партнёрских связей — PlainBTC</title>
   <meta name="description" content="Раскрытие партнёрских связей PlainBTC по правилам FTC: реферальные ссылки Coinbase, возможное вознаграждение и почему это не финансовая консультация.">
@@ -93,7 +93,27 @@
       <p>Материалы PlainBTC носят исключительно информационный и образовательный характер. Они не являются инвестиционной, торговой, юридической, налоговой или финансовой рекомендацией. Криптовалюты волатильны, и вы можете потерять деньги. Изучайте вопрос самостоятельно и перед финансовыми решениями при необходимости проконсультируйтесь с квалифицированным специалистом.</p>
       <h2>Независимость</h2>
       <p>Редакционные описания продуктов и событий рынка принадлежат нам. Вознаграждение от реферальных программ не меняет фактов, взятых из открытых публикаций, но это существенная связь, о которой стоит знать, оценивая наши материалы.</p>
+      <h2>Рассылка и статистика посещений</h2>
+      <p>Если вы подписываетесь на нашу рассылку, мы храним ваш адрес электронной почты, язык и страницу, с которой вы подписались, а также даты подписки, подтверждения и отписки. Мы используем их только для отправки новых статей PlainBTC и никогда не продаём и не передаём их. Их обрабатывают наш хостинг базы данных (Supabase) и сервис отправки писем, только чтобы доставить эти письма. Мы используем двойное подтверждение: пока вы не подтвердите подписку, ничего не отправляется, а в каждом письме есть ссылка для отписки. После отписки мы оставляем только запись, чтобы вам больше не писали; чтобы адрес был удалён полностью, свяжитесь с нами по контактам на странице «О сайте».</p>
+      <p>Отдельно: статистика посещений у нас без cookie. Мы не храним IP-адреса, только ежедневно меняющийся анонимный хеш и страну посетителя.</p>
       <p>Последнее обновление: 9 ноября 2026 г.</p>
+
+  <!-- i18n:newsletter -->
+      <aside class="newsletter-box" aria-labelledby="nl-title">
+        <h2 id="nl-title">Новые статьи на почту</h2>
+        <p>Новости про биткоин и крипту простым языком для новичков: письмо приходит, когда мы публикуем статью. Без спама, отписаться можно в любой момент.</p>
+        <form class="newsletter-form" method="post" action="/api/subscribe" novalidate data-ok="Почти готово: проверьте почту и нажмите на ссылку подтверждения." data-invalid="Введите корректный адрес электронной почты." data-rate="Слишком много попыток. Попробуйте чуть позже." data-error="Что-то пошло не так. Попробуйте ещё раз." data-sending="Отправляем…">
+          <input type="hidden" name="lang" value="ru">
+          <input type="hidden" name="source" value="/ru/disclosure">
+          <div class="nl-hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <label class="nl-label" for="nl-email">Адрес электронной почты</label>
+          <div class="nl-row"><input id="nl-email" type="email" name="email" required maxlength="254" autocomplete="email" inputmode="email" placeholder="you@example.com">
+          <button type="submit">Подписаться</button></div>
+        </form>
+        <p class="nl-status" role="status" aria-live="polite"></p>
+        <p class="nl-note">Мы используем ваш адрес только для рассылки новых статей PlainBTC. Нужно подтверждение. <a href="/ru/disclosure">О хранении данных</a></p>
+      </aside>
+  <!-- /i18n:newsletter -->
     </div>
   </main>
 
@@ -114,6 +134,6 @@
   <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/disclosure" lang="en" hreflang="en">English</a> <a href="/es/disclosure" lang="es" hreflang="es">Español</a> <a href="/pt/disclosure" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/disclosure" lang="fr" hreflang="fr">Français</a> <a href="/de/disclosure" lang="de" hreflang="de">Deutsch</a> <a href="/ru/disclosure" lang="ru" hreflang="ru">Русский</a> <a href="/tr/disclosure" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/disclosure" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/disclosure" lang="ja" hreflang="ja">日本語</a> <a href="/ko/disclosure" lang="ko" hreflang="ko">한국어</a></nav></div>
   <!-- /i18n:footerlangs -->
   </footer>
-  <script src="/assets/site.20261109g.js" defer></script>
+  <script src="/assets/site.20261109h.js" defer></script>
 </body>
 </html>

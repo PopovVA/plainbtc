@@ -27,4 +27,10 @@ O conteúdo da PlainBTC tem finalidade exclusivamente informativa e educacional.
 
 As descrições editoriais de produtos e de eventos do mercado são nossas. A remuneração de programas de indicação não altera os fatos extraídos de reportagens públicas, mas é um vínculo material que você deve conhecer ao avaliar o nosso conteúdo.
 
+## Newsletter e estatísticas de visitas
+
+Se você assinar nossa newsletter por e-mail, guardamos seu endereço de e-mail, o idioma e a página de onde você se inscreveu, e as datas de inscrição, confirmação e cancelamento. Usamos esses dados apenas para enviar novidades do PlainBTC e nunca os vendemos ou compartilhamos. Eles são processados pelo nosso provedor de banco de dados (Supabase) e pelo provedor de envio de e-mail somente para entregar essas mensagens. Usamos dupla confirmação: nada é enviado até você confirmar, e todo e-mail traz um link de cancelamento. Depois de cancelar, mantemos apenas um registro de supressão para não escrever de novo; para apagar seu endereço por completo, fale conosco pelos dados da página Sobre.
+
+Separadamente, nossas estatísticas de visitas não usam cookies: não guardamos endereços IP, apenas um identificador anônimo que muda todo dia e o país do visitante.
+
 Última atualização: 9 de novembro de 2026.

@@ -21,4 +21,10 @@ PlainBTC içeriği yalnızca bilgilendirme ve eğitim amaçlıdır. Yatırım, a
 
 Ürünlere ve piyasa olaylarına ilişkin editoryal açıklamalar bize aittir ve kamuya açık haberlere dayanır.
 
+## Bülten ve ziyaret istatistikleri
+
+E-posta bültenimize abone olursanız e-posta adresinizi, kaydolduğunuz dili ve sayfayı, ayrıca kayıt, onay ve abonelikten çıkış tarihlerini saklarız. Bunları yalnızca size PlainBTC yazı bildirimleri göndermek için kullanırız ve asla satmaz veya paylaşmayız. Veriler yalnızca bu e-postaları iletmek amacıyla veritabanı sağlayıcımız (Supabase) ve e-posta gönderim sağlayıcımız tarafından işlenir. Çift onay kullanırız: siz onaylamadan hiçbir şey gönderilmez ve her e-postada abonelikten çıkma bağlantısı bulunur. Abonelikten çıktıktan sonra yalnızca size tekrar yazmamak için bir engelleme kaydı tutarız; adresinizin tamamen silinmesi için Hakkında sayfasındaki bilgilerle bize ulaşın.
+
+Ayrıca ziyaret istatistiklerimiz çerezsizdir: IP adreslerini saklamayız, yalnızca günlük değişen anonim bir kimlik ve ziyaretçinin ülkesini tutarız.
+
 Son güncelleme: 9 Kasım 2026.

@@ -25,4 +25,10 @@ Content on PlainBTC is for informational and educational purposes only. It is no
 
 Editorial descriptions of products and market events are our own. Compensation from referral programs does not change disclosed facts sourced from public reporting, but it is a material connection you should know about when evaluating our content.
 
+## Newsletter and visit statistics
+
+If you subscribe to our email newsletter, we store your email address, the language and page you signed up from, and the dates you signed up, confirmed and unsubscribed. We use it only to send you PlainBTC article updates and never sell or share it. It is processed by our database host (Supabase) and our email delivery provider solely to deliver those emails. We use double opt-in: nothing is sent until you confirm, and every email contains an unsubscribe link. After you unsubscribe we keep only a suppression record so you are not emailed again; to have your address erased completely, contact us using the details on the About page.
+
+Separately, our visit statistics are cookieless: we do not store IP addresses, only a daily-rotating anonymous hash and the visitor’s country.
+
 Last updated: November 9, 2026.

@@ -6,7 +6,7 @@
   <meta name="robots" content="index,follow">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (日本語)" href="/ja/feed.xml">
-  <link rel="stylesheet" href="/assets/styles.20261109f.css">
+  <link rel="stylesheet" href="/assets/styles.20261109g.css">
   <link rel="stylesheet" href="/assets/article-media.css?v=20261109f">
   <title>アフィリエイト開示 — PlainBTC</title>
   <meta name="description" content="米国FTCの基準に沿ったPlainBTCのアフィリエイト開示：Coinbaseの紹介リンク、報酬を受け取る可能性、そして投資助言ではないことについて。">
@@ -93,7 +93,27 @@
       <p>PlainBTCの内容は、情報提供と教育のみを目的としています。投資・取引・法律・税務・金融に関する助言ではありません。暗号資産は価格変動が大きく、資金を失う可能性があります。ご自身で調べたうえで、金融に関する判断をする前に、必要に応じて資格のある専門家にご相談ください。</p>
       <h2>独立性</h2>
       <p>商品や市場の出来事に関する編集上の記述は当サイト独自のものです。紹介プログラムからの報酬は、公開報道に基づく事実を変えるものではありませんが、当サイトの内容を評価するうえで知っておくべき利害関係です。</p>
+      <h2>ニュースレターとアクセス統計</h2>
+      <p>メールのニュースレターを購読されると、メールアドレス、登録時の言語とページ、登録・確認・配信停止の日時を保存します。これらは PlainBTC の記事更新をお送りする目的にのみ使用し、販売や第三者への共有は行いません。メールの配信のためだけに、データベースの提供元（Supabase）とメール配信事業者が処理します。ダブルオプトインを採用しており、確認いただくまで何も送信せず、すべてのメールに配信停止リンクを付けています。配信停止後は、再送しないための抑止記録のみ保持します。アドレスを完全に削除したい場合は、About ページの連絡先からご連絡ください。</p>
+      <p>なお、アクセス統計は Cookie を使いません。IP アドレスは保存せず、毎日変わる匿名ハッシュと訪問者の国のみを記録します。</p>
       <p>最終更新日：2026年11月9日</p>
+
+  <!-- i18n:newsletter -->
+      <aside class="newsletter-box" aria-labelledby="nl-title">
+        <h2 id="nl-title">新着記事をメールで受け取る</h2>
+        <p>初心者向けにやさしい言葉で書いたビットコイン・暗号資産ニュースを、公開のたびにメールでお届けします。スパムなし、いつでも配信停止できます。</p>
+        <form class="newsletter-form" method="post" action="/api/subscribe" novalidate data-ok="あと少しです。受信トレイを確認し、確認リンクをクリックしてください。" data-invalid="有効なメールアドレスを入力してください。" data-rate="試行回数が多すぎます。しばらくしてからもう一度お試しください。" data-error="問題が発生しました。もう一度お試しください。" data-sending="送信中…">
+          <input type="hidden" name="lang" value="ja">
+          <input type="hidden" name="source" value="/ja/disclosure">
+          <div class="nl-hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <label class="nl-label" for="nl-email">メールアドレス</label>
+          <div class="nl-row"><input id="nl-email" type="email" name="email" required maxlength="254" autocomplete="email" inputmode="email" placeholder="you@example.com">
+          <button type="submit">購読する</button></div>
+        </form>
+        <p class="nl-status" role="status" aria-live="polite"></p>
+        <p class="nl-note">メールアドレスは PlainBTC の記事更新の配信のみに使用します。確認が必要です。 <a href="/ja/disclosure">プライバシーの詳細</a></p>
+      </aside>
+  <!-- /i18n:newsletter -->
     </div>
   </main>
 
@@ -114,6 +134,6 @@
   <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/disclosure" lang="en" hreflang="en">English</a> <a href="/es/disclosure" lang="es" hreflang="es">Español</a> <a href="/pt/disclosure" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/disclosure" lang="fr" hreflang="fr">Français</a> <a href="/de/disclosure" lang="de" hreflang="de">Deutsch</a> <a href="/ru/disclosure" lang="ru" hreflang="ru">Русский</a> <a href="/tr/disclosure" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/disclosure" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/disclosure" lang="ja" hreflang="ja">日本語</a> <a href="/ko/disclosure" lang="ko" hreflang="ko">한국어</a></nav></div>
   <!-- /i18n:footerlangs -->
   </footer>
-  <script src="/assets/site.20261109g.js" defer></script>
+  <script src="/assets/site.20261109h.js" defer></script>
 </body>
 </html>

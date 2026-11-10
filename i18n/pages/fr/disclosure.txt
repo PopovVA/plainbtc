@@ -27,4 +27,10 @@ Le contenu de PlainBTC est fourni à titre purement informatif et pédagogique. 
 
 Les descriptions éditoriales des produits et des événements de marché sont les nôtres. La rémunération issue des programmes de parrainage ne modifie pas les faits issus de sources publiques, mais c’est un lien d’intérêt que vous devez connaître pour évaluer notre contenu.
 
+## Newsletter et statistiques de visites
+
+Si vous vous abonnez à notre newsletter, nous conservons votre adresse e-mail, la langue et la page depuis laquelle vous vous êtes inscrit, ainsi que les dates d’inscription, de confirmation et de désabonnement. Nous l’utilisons uniquement pour vous envoyer les nouveautés de PlainBTC et ne la vendons ni ne la partageons jamais. Elle est traitée par notre hébergeur de base de données (Supabase) et notre prestataire d’envoi d’e-mails, uniquement pour acheminer ces messages. Nous utilisons la double confirmation : rien n’est envoyé avant votre confirmation, et chaque e-mail contient un lien de désabonnement. Après votre désabonnement, nous ne gardons qu’une trace de suppression pour ne plus vous écrire ; pour faire effacer totalement votre adresse, contactez-nous via les coordonnées de la page À propos.
+
+Par ailleurs, nos statistiques de visites n’utilisent pas de cookies : nous ne stockons pas d’adresses IP, seulement un identifiant anonyme renouvelé chaque jour et le pays du visiteur.
+
 Dernière mise à jour : 9 novembre 2026.

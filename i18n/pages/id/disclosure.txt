@@ -27,4 +27,10 @@ Konten PlainBTC hanya untuk tujuan informasi dan edukasi. Isinya bukan nasihat i
 
 Deskripsi editorial tentang produk dan peristiwa pasar adalah milik kami. Imbalan dari program referral tidak mengubah fakta yang bersumber dari pemberitaan publik, tetapi ini adalah hubungan material yang perlu Anda ketahui saat menilai konten kami.
 
+## Buletin dan statistik kunjungan
+
+Jika Anda berlangganan buletin email kami, kami menyimpan alamat email Anda, bahasa dan halaman tempat Anda mendaftar, serta tanggal pendaftaran, konfirmasi, dan berhenti berlangganan. Data ini hanya kami gunakan untuk mengirim pembaruan artikel PlainBTC dan tidak pernah kami jual atau bagikan. Data diproses oleh penyedia basis data kami (Supabase) dan penyedia pengiriman email hanya untuk mengantarkan email tersebut. Kami memakai konfirmasi ganda: tidak ada yang dikirim sebelum Anda mengonfirmasi, dan setiap email memuat tautan berhenti berlangganan. Setelah Anda berhenti, kami hanya menyimpan catatan penekanan agar tidak mengirim email lagi; untuk menghapus alamat Anda sepenuhnya, hubungi kami lewat informasi di halaman Tentang.
+
+Terpisah dari itu, statistik kunjungan kami tanpa cookie: kami tidak menyimpan alamat IP, hanya hash anonim yang berganti setiap hari dan negara pengunjung.
+
 Terakhir diperbarui: 9 November 2026.
