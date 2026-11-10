@@ -1,0 +1,38 @@
+{
+ "slug": "binance-blocks-mexc-fincen-order-nov-2026",
+ "date": "2026-11-10",
+ "readtime": 5,
+ "related": [
+  "binance-hack-north-korea-memecoin-laundering-nov-2026",
+  "fincen-fed-withdraw-250-travel-rule-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {
+   "url": "https://www.binance.com/en/support/announcement/9ef6e347da924cdc90f53577ab483b1f",
+   "title": "Binance — Important: Transactions with Certain Crypto Platforms",
+   "date": "Nov 10, 2026"
+  },
+  {
+   "url": "https://home.treasury.gov/news/press-releases/sb0685",
+   "title": "U.S. Treasury — Operation Economic Outcast Severs MEXC Global’s Access to the U.S. Financial System",
+   "date": "Nov 6, 2026"
+  },
+  {
+   "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22962/imposition-of-special-measure-prohibiting-the-transmittal-of-funds-involving-mexc-global",
+   "title": "Federal Register — FinCEN order: Imposition of Special Measure Prohibiting the Transmittal of Funds Involving MEXC Global",
+   "date": "Nov 10, 2026"
+  },
+  {
+   "url": "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
+   "title": "CoinDesk — U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
+   "date": "Nov 7, 2026"
+  },
+  {
+   "url": "https://crypto.news/binance-blocks-mexc-transfers-after-fincens-16b-crackdown/",
+   "title": "crypto.news — Binance blocks MEXC transfers after FinCEN’s $16B crackdown",
+   "date": "Nov 10, 2026"
+  }
+ ],
+ "disclosure_variant": "std"
+}

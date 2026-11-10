@@ -5,8 +5,22 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Tue, 10 Nov 2026 14:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 19:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Binance блокирует переводы с MEXC после приказа Минфина США о $16,7 млрд предположительно незаконных средств</title>
+      <link>https://plainbtc.com/ru/articles/binance-blocks-mexc-fincen-order-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/binance-blocks-mexc-fincen-order-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 19:40:00 GMT</pubDate>
+      <description>Binance будет отклонять переводы на MEXC и задерживать поступления оттуда для проверки после приказа FinCEN, который с 10 декабря отрезает MEXC от компаний США.</description>
+    </item>
+    <item>
+      <title>Goldman Sachs, Citi и другие банки выделяют $270 млн на совместный долларовый стейблкоин, сообщает Bloomberg</title>
+      <link>https://plainbtc.com/ru/articles/banks-270-million-stablecoin-project-faro-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/banks-270-million-stablecoin-project-faro-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 19:35:00 GMT</pubDate>
+      <description>Крупные банки, по данным СМИ, выделили около $270 млн на Project Faro — совместный долларовый стейблкоин, запуск которого намечен на первое полугодие 2027 года, в пику Tether и Circle.</description>
+    </item>
     <item>
       <title>Биткоин опустился к $73 400 после неожиданно высокой инфляции в октябре</title>
       <link>https://plainbtc.com/ru/articles/bitcoin-hot-cpi-etf-outflows-nov-2026</link>

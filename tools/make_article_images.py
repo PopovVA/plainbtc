@@ -208,7 +208,7 @@ def make_line_chart(path: Path, xs, ys, title: str, hline=None, hlabel=None,
 
 
 def make_bar_chart(path: Path, labels, values, title: str, ylabel="",
-                   colors=None, w=1200, h=675, value_fmt=None) -> Path:
+                   colors=None, w=1200, h=675, value_fmt=None, axis_fmt=None) -> Path:
     fig, ax = plt.subplots(figsize=(w / 100, h / 100), dpi=100)
     style_axes(ax, title)
     cols = colors or [f"#{ORANGE[0]:02x}{ORANGE[1]:02x}{ORANGE[2]:02x}"] * len(values)
@@ -224,7 +224,7 @@ def make_bar_chart(path: Path, labels, values, title: str, ylabel="",
             fontsize=11,
             fontweight="bold",
         )
-    ax.yaxis.set_major_formatter(lambda x, _p: f"${x:,.0f}M")
+    ax.yaxis.set_major_formatter(axis_fmt or (lambda x, _p: f"${x:,.0f}M"))
     if ylabel:
         ax.set_ylabel(ylabel, color="#94a3b8")
     fig.text(0.99, 0.01, "plainbtc.com", color="#64748b", ha="right", fontsize=9)
@@ -250,8 +250,6 @@ def make_fact_card(
     # left accent
     draw.rectangle([0, 0, 10, h], fill=ORANGE)
     # subtle grid
-    for x in range(0, w, 48):
-        draw.line([(x, 0), (x, h)], fill=(255, 255, 255, 0))
     overlay = Image.new("RGBA", (w, h), (0, 0, 0, 0))
     od = ImageDraw.Draw(overlay)
     for x in range(0, w, 48):
@@ -1276,6 +1274,108 @@ def build_hot_cpi():
     ]
 
 
+def build_mexc():
+    slug = "binance-blocks-mexc-fincen-order-nov-2026"
+    d = OUT / slug
+    # FinCEN order on MEXC Global (91 FR 72420, Nov 10, 2026), selected findings, May 2021-May 2026, US$ billions.
+    labels = ["Exchanges without\nID checks", "Cybercrime\nactors", "Iran-linked\nexposure", "Russian sanctions\nevasion"]
+    vals = [2.9, 1.99, 1.87, 1.5]
+    chart = make_bar_chart(
+        d / "chart-fincen-mexc-findings",
+        labels, vals,
+        "MEXC Global: selected FinCEN findings, May 2021 - May 2026 ($ billions)",
+        colors=["#f7931a", "#f87171", "#fbbf24", "#60a5fa"],
+        value_fmt=lambda v: f"${v:.2f}B" if v not in (2.9, 1.5) else f"~${v:.1f}B",
+        axis_fmt=lambda x, _p: f"${x:,.1f}B",
+    )
+    card = make_fact_card(
+        d / "fact-mexc-dec-10",
+        label="FinCEN order takes effect",
+        big="Dec. 10, 2026",
+        sub="From that date, U.S. financial institutions may not send funds to or receive funds from MEXC Global",
+        footer="FinCEN order · Federal Register, Nov 10, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of selected FinCEN findings on MEXC Global, May 2021 to May 2026: about $2.9B with exchanges that skip ID checks, $1.99B tied to cybercrime actors, $1.87B with exposure to Iran and nearly $1.5B linked to Russian sanctions evasion", {
+            "es": "Gráfico de barras con hallazgos de FinCEN sobre MEXC Global, de mayo de 2021 a mayo de 2026: unos 2.900 M$ con exchanges sin verificación de identidad, 1.990 M$ ligados a ciberdelincuentes, 1.870 M$ con exposición a Irán y casi 1.500 M$ vinculados a la evasión de sanciones rusas",
+            "pt": "Gráfico de barras com conclusões da FinCEN sobre a MEXC Global, de maio de 2021 a maio de 2026: cerca de US$ 2,9 bi com corretoras sem verificação de identidade, US$ 1,99 bi ligados a cibercriminosos, US$ 1,87 bi com exposição ao Irã e quase US$ 1,5 bi ligados à evasão de sanções russas",
+            "fr": "Graphique des conclusions de FinCEN sur MEXC Global, de mai 2021 à mai 2026 : environ 2,9 Md$ avec des plateformes sans vérification d'identité, 1,99 Md$ liés à des cybercriminels, 1,87 Md$ exposés à l'Iran et près de 1,5 Md$ liés au contournement des sanctions russes",
+            "de": "Balkendiagramm mit ausgewählten FinCEN-Erkenntnissen zu MEXC Global, Mai 2021 bis Mai 2026: rund 2,9 Mrd. $ mit Börsen ohne Identitätsprüfung, 1,99 Mrd. $ mit Bezug zu Cyberkriminellen, 1,87 Mrd. $ mit Iran-Bezug und fast 1,5 Mrd. $ im Zusammenhang mit der Umgehung von Russland-Sanktionen",
+            "ru": "Диаграмма выводов FinCEN о MEXC Global за май 2021 — май 2026: около $2,9 млрд с биржами без проверки личности, $1,99 млрд, связанных с киберпреступниками, $1,87 млрд с привязкой к Ирану и почти $1,5 млрд, связанных с обходом российских санкций",
+            "tr": "FinCEN'in MEXC Global hakkındaki bazı bulgularını gösteren grafik, Mayıs 2021 - Mayıs 2026: kimlik doğrulaması yapmayan borsalarla yaklaşık 2,9 milyar $, siber suçlularla bağlantılı 1,99 milyar $, İran bağlantılı 1,87 milyar $ ve Rusya yaptırımlarından kaçınmayla bağlantılı yaklaşık 1,5 milyar $",
+            "id": "Grafik batang temuan FinCEN tentang MEXC Global, Mei 2021 hingga Mei 2026: sekitar US$2,9 miliar dengan bursa tanpa verifikasi identitas, US$1,99 miliar terkait pelaku kejahatan siber, US$1,87 miliar terkait Iran, dan hampir US$1,5 miliar terkait penghindaran sanksi Rusia",
+            "ja": "FinCENによるMEXC Globalの主な認定額（2021年5月〜2026年5月）を示す棒グラフ：本人確認をしない取引所との取引約29億ドル、サイバー犯罪関連19.9億ドル、イラン関連18.7億ドル、ロシア制裁回避関連約15億ドル",
+            "ko": "FinCEN이 밝힌 MEXC Global 관련 주요 수치(2021년 5월~2026년 5월) 막대 차트: 신원 확인 없는 거래소와의 거래 약 29억 달러, 사이버 범죄 관련 19.9억 달러, 이란 관련 18.7억 달러, 러시아 제재 회피 관련 약 15억 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="FinCEN order on MEXC Global (categories can overlap)")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: the FinCEN order takes effect Dec. 10, 2026; from then U.S. financial institutions may not send funds to or receive funds from MEXC Global", {
+            "es": "Tarjeta: la orden de FinCEN entra en vigor el 10 de diciembre de 2026; desde entonces las instituciones financieras de EE. UU. no podrán enviar ni recibir fondos de MEXC Global",
+            "pt": "Cartão: a ordem da FinCEN entra em vigor em 10 de dezembro de 2026; a partir daí instituições financeiras dos EUA não poderão enviar nem receber fundos da MEXC Global",
+            "fr": "Encadré : l'ordonnance de FinCEN entre en vigueur le 10 décembre 2026 ; dès lors, les institutions financières américaines ne pourront plus envoyer ni recevoir de fonds de MEXC Global",
+            "de": "Faktenkarte: Die FinCEN-Anordnung gilt ab dem 10. Dezember 2026; danach dürfen US-Finanzinstitute keine Gelder mehr an MEXC Global senden oder von dort empfangen",
+            "ru": "Карточка: приказ FinCEN вступает в силу 10 декабря 2026 года; с этой даты финансовые учреждения США не могут отправлять средства в MEXC Global или получать их оттуда",
+            "tr": "Kart: FinCEN kararı 10 Aralık 2026'da yürürlüğe giriyor; o tarihten itibaren ABD finans kuruluşları MEXC Global'e para gönderemeyecek ve oradan para alamayacak",
+            "id": "Kart fakta: perintah FinCEN berlaku 10 Desember 2026; sejak itu lembaga keuangan AS tidak boleh mengirim dana ke atau menerima dana dari MEXC Global",
+            "ja": "カード：FinCENの命令は2026年12月10日に発効し、以後米国の金融機関はMEXC Globalとの資金の送受信を禁じられる",
+            "ko": "카드: FinCEN 명령은 2026년 12월 10일 발효되며, 이후 미국 금융기관은 MEXC Global과 자금을 주고받을 수 없다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="FinCEN order, Federal Register (91 FR 72420)")},
+    ]
+
+
+def build_faro():
+    slug = "banks-270-million-stablecoin-project-faro-nov-2026"
+    d = OUT / slug
+    # DefiLlama stablecoins API snapshot, Nov 10, 2026: circulating USD-pegged supply, US$ billions.
+    labels = ["USDT\n(Tether)", "USDC\n(Circle)", "USDS", "USDe", "DAI", "All other\nUSD coins"]
+    vals = [176.3, 70.1, 5.3, 4.9, 4.7, 32.1]
+    chart = make_bar_chart(
+        d / "chart-usd-stablecoin-supply",
+        labels, vals,
+        r"Dollar stablecoins in circulation, Nov. 10, 2026 (\$ billions; total ~\$293.4B)",
+        colors=["#34d399", "#60a5fa", "#f7931a", "#f7931a", "#f7931a", "#94a3b8"],
+        value_fmt=lambda v: f"${v:,.1f}B",
+        axis_fmt=lambda x, _p: f"${x:,.0f}B",
+    )
+    card = make_fact_card(
+        d / "fact-faro-270m",
+        label="Bank stablecoin venture",
+        big="$270 million",
+        sub="Committed by Goldman Sachs, Citi, Santander, Deutsche Bank and other firms to fund five years of operations",
+        footer="Bloomberg, as reported by CoinDesk · Nov 10, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of dollar stablecoins in circulation on Nov. 10, 2026: USDT $176.3B, USDC $70.1B, USDS $5.3B, USDe $4.9B, DAI $4.7B, all others $32.1B, total about $293.4B", {
+            "es": "Gráfico de barras de las stablecoins en dólares en circulación el 10 de noviembre de 2026: USDT 176.300 M$, USDC 70.100 M$, USDS 5.300 M$, USDe 4.900 M$, DAI 4.700 M$ y el resto 32.100 M$; total de unos 293.400 M$",
+            "pt": "Gráfico de barras das stablecoins em dólar em circulação em 10 de novembro de 2026: USDT US$ 176,3 bi, USDC US$ 70,1 bi, USDS US$ 5,3 bi, USDe US$ 4,9 bi, DAI US$ 4,7 bi e as demais US$ 32,1 bi; total de cerca de US$ 293,4 bi",
+            "fr": "Graphique des stablecoins en dollars en circulation au 10 novembre 2026 : USDT 176,3 Md$, USDC 70,1 Md$, USDS 5,3 Md$, USDe 4,9 Md$, DAI 4,7 Md$, autres 32,1 Md$, soit environ 293,4 Md$ au total",
+            "de": "Balkendiagramm der umlaufenden Dollar-Stablecoins am 10. November 2026: USDT 176,3 Mrd. $, USDC 70,1 Mrd. $, USDS 5,3 Mrd. $, USDe 4,9 Mrd. $, DAI 4,7 Mrd. $, übrige 32,1 Mrd. $, insgesamt rund 293,4 Mrd. $",
+            "ru": "Диаграмма долларовых стейблкоинов в обращении на 10 ноября 2026 года: USDT $176,3 млрд, USDC $70,1 млрд, USDS $5,3 млрд, USDe $4,9 млрд, DAI $4,7 млрд, остальные $32,1 млрд, всего около $293,4 млрд",
+            "tr": "10 Kasım 2026 itibarıyla dolaşımdaki dolar stablecoin'leri: USDT 176,3 milyar $, USDC 70,1 milyar $, USDS 5,3 milyar $, USDe 4,9 milyar $, DAI 4,7 milyar $, diğerleri 32,1 milyar $; toplam yaklaşık 293,4 milyar $",
+            "id": "Grafik batang stablecoin dolar yang beredar pada 10 November 2026: USDT US$176,3 miliar, USDC US$70,1 miliar, USDS US$5,3 miliar, USDe US$4,9 miliar, DAI US$4,7 miliar, lainnya US$32,1 miliar, total sekitar US$293,4 miliar",
+            "ja": "2026年11月10日時点で流通するドル建てステーブルコインの棒グラフ：USDT 1763億ドル、USDC 701億ドル、USDS 53億ドル、USDe 49億ドル、DAI 47億ドル、その他321億ドル、合計約2934億ドル",
+            "ko": "2026년 11월 10일 기준 유통 중인 달러 스테이블코인 막대 차트: USDT 1,763억 달러, USDC 701억 달러, USDS 53억 달러, USDe 49억 달러, DAI 47억 달러, 기타 321억 달러, 합계 약 2,934억 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="DefiLlama")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: about $270 million committed by Goldman Sachs, Citi, Santander, Deutsche Bank and other firms to fund five years of the stablecoin venture's operations", {
+            "es": "Tarjeta: unos 270 M$ comprometidos por Goldman Sachs, Citi, Santander, Deutsche Bank y otras firmas para financiar cinco años de operaciones de la empresa de stablecoin",
+            "pt": "Cartão: cerca de US$ 270 milhões comprometidos por Goldman Sachs, Citi, Santander, Deutsche Bank e outras empresas para financiar cinco anos de operação da empresa de stablecoin",
+            "fr": "Encadré : environ 270 M$ engagés par Goldman Sachs, Citi, Santander, Deutsche Bank et d'autres pour financer cinq ans d'activité de la coentreprise de stablecoin",
+            "de": "Faktenkarte: rund 270 Mio. $ von Goldman Sachs, Citi, Santander, Deutsche Bank und weiteren Häusern zugesagt, um fünf Jahre Betrieb des Stablecoin-Gemeinschaftsunternehmens zu finanzieren",
+            "ru": "Карточка: около $270 млн выделили Goldman Sachs, Citi, Santander, Deutsche Bank и другие компании, чтобы профинансировать пять лет работы совместного стейблкоин-проекта",
+            "tr": "Kart: Goldman Sachs, Citi, Santander, Deutsche Bank ve diğer kurumlar stablecoin girişiminin beş yıllık faaliyetini finanse etmek için yaklaşık 270 milyon $ taahhüt etti",
+            "id": "Kart fakta: sekitar US$270 juta dijanjikan Goldman Sachs, Citi, Santander, Deutsche Bank, dan perusahaan lain untuk mendanai lima tahun operasi usaha stablecoin itu",
+            "ja": "カード：Goldman Sachs、Citi、Santander、Deutsche Bankなどが、ステーブルコイン合弁会社の5年分の運営資金として約2億7000万ドルを拠出",
+            "ko": "카드: 골드만삭스, 씨티, 산탄데르, 도이체방크 등이 스테이블코인 합작사의 5년 운영비로 약 2억 7,000만 달러를 약정",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Bloomberg via CoinDesk")},
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -1292,6 +1392,8 @@ BUILDERS = {
     "bitcoin-etf-vs-buying-bitcoin": "etf",
     "binance-hack-north-korea-memecoin-laundering-nov-2026": "bnbhack",
     "bitcoin-hot-cpi-etf-outflows-nov-2026": "hotcpi",
+    "binance-blocks-mexc-fincen-order-nov-2026": "mexc",
+    "banks-270-million-stablecoin-project-faro-nov-2026": "faro",
 }
 
 
@@ -1333,6 +1435,10 @@ def build_slug(slug: str, btc=None):
         figs = build_binance_hack()
     elif key == "hotcpi":
         figs = build_hot_cpi()
+    elif key == "mexc":
+        figs = build_mexc()
+    elif key == "faro":
+        figs = build_faro()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

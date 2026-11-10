@@ -1,0 +1,71 @@
+title: Binance memblokir transfer dengan MEXC setelah perintah Departemen Keuangan AS soal dugaan aliran dana ilegal US$16,7 miliar
+page_title: Binance memblokir transfer MEXC setelah perintah FinCEN
+description: Binance mengumumkan pada 10 November bahwa mereka akan menolak pengiriman ke MEXC dan menahan setoran dari sana untuk ditinjau, setelah FinCEN memerintahkan perusahaan AS memutus MEXC mulai 10 Desember 2026.
+og_description: FinCEN menyebut MEXC memindahkan US$16,7 miliar terkait penghindaran sanksi dan kejahatan siber. Perintahnya berlaku 10 Desember, dan Binance sudah memblokir transfer dengan MEXC.
+label: Regulasi
+summary: Binance akan menolak pengiriman ke MEXC dan menahan setoran dari sana untuk ditinjau, setelah perintah FinCEN yang memutus MEXC dari perusahaan AS mulai 10 Desember.
+===
+
+Binance, salah satu bursa kripto terbesar di dunia, mengumumkan pada Selasa, 10 November, bahwa mereka berhenti memproses transaksi yang melibatkan bursa pesaing MEXC. Dalam [pemberitahuan kepada pelanggan](L1), Binance menyatakan setiap permintaan mengirim dana dari akun Binance ke MEXC atau afiliasinya yang tercantum akan <strong>ditolak</strong>, dan setiap setoran yang datang dari mereka akan <strong>ditahan sementara</strong> untuk pemeriksaan kepatuhan.
+
+Langkah ini menyusul perintah dari Financial Crimes Enforcement Network (FinCEN), unit intelijen keuangan Departemen Keuangan AS, yang diumumkan pada Jumat, 6 November. Menurut [Departemen Keuangan](L2), perintah itu pada praktiknya memutus akses MEXC Global ke sistem keuangan AS. Perintah ini dimuat di [Federal Register](L3) pada 10 November dan berlaku mulai <strong>10 Desember 2026</strong>, tanpa tanggal berakhir.
+
+!takeaways
+- Binance akan menolak penarikan ke MEXC dan menahan setoran dari MEXC untuk pemeriksaan kepatuhan.
+- FinCEN menyimpulkan MEXC memfasilitasi aktivitas yang kemungkinan ilegal senilai US$16,7 miliar antara Mei 2021 dan Mei 2026.
+- Mulai 10 Desember 2026, lembaga keuangan AS tidak boleh mengirim dana ke atau menerima dana dari MEXC Global.
+- MEXC mengatakan sedang meninjau perintah itu, beroperasi normal, dan telah memulai tinjauan independen atas kontrolnya.
+
+## Apa yang dilakukan Binance
+
+Binance meminta pelanggan untuk tidak mengirim, menerima, atau bertransaksi dengan cara lain "secara langsung maupun tidak langsung" melalui Binance dengan MEXC dan daftar nama terkait, termasuk MEXC Global Limited, MEXC Estonia OÜ, GIDA Technology AG, dan afiliasi MEXC. Pengguna yang setorannya ditandai bisa dikenai pembatasan lanjutan berdasarkan ketentuan penggunaan Binance, termasuk penutupan akun. Binance tidak menyebutkan berapa lama pemeriksaan akan berlangsung.
+
+Binance tidak sendirian. crypto.news melaporkan bahwa CEO OKX, Star Xu, juga memperingatkan pelanggan agar tidak mengirim kripto langsung dari MEXC setelah pengumuman FinCEN.
+
+## Apa tuduhan FinCEN terhadap MEXC
+
+MEXC Global didirikan pada 2018 dan terdaftar di Seychelles. Menurut FinCEN, bursa ini memproses transaksi lebih dari US$1 miliar per hari dan memegang cadangan sekitar US$5 miliar, sehingga termasuk 20 bursa kripto terbesar di dunia.
+
+Menurut perintah tersebut, MEXC memfasilitasi setidaknya <strong>US$16,7 miliar</strong> aktivitas yang kemungkinan ilegal antara Mei 2021 dan Mei 2026. Siaran pers Departemen Keuangan membulatkannya menjadi "setidaknya US$16 miliar". Di antara temuannya:
+
+- Hampir US$1,5 miliar terkait penghindaran sanksi terhadap Rusia, termasuk US$232 juta transaksi langsung dengan entitas yang terkena sanksi.
+- Transaksi dengan bursa Rusia yang terkena sanksi, Garantex, dan penerusnya Grinex hingga Juni 2026.
+- Sekitar US$1,87 miliar terkait Iran, termasuk lebih dari US$1 miliar transaksi langsung dengan lebih dari 40 bursa kripto Iran.
+- Sekitar US$22 juta terkait Bank Sentral Iran dan Garda Revolusi Iran.
+- Setidaknya US$1,99 miliar yang dikirim ke atau diterima dari pelaku kejahatan siber, seperti kelompok ransomware dan penipuan.
+
+!figure:chart
+
+"Lembaga keuangan tidak bisa berdiri di dua kaki," kata Menteri Keuangan Scott Bessent dalam siaran pers itu. "Anda mendukung rezim Iran, atau Anda punya akses ke sistem keuangan AS."
+
+## Mengapa memakai undang-undang soal Rusia
+
+Perintah ini dikeluarkan berdasarkan Pasal 9714 Combating Russian Money Laundering Act, undang-undang untuk melawan pencucian uang terkait Rusia. Undang-undang itu hanya bisa dipakai terhadap lembaga asing yang terkait keuangan ilegal Rusia, sehingga perintah ini bertumpu pada dugaan hubungan MEXC dengan Rusia, meski Departemen Keuangan menyajikannya sebagai bagian dari kampanye melawan Iran bernama Operation Economic Outcast. [CoinDesk](L4) melaporkan MEXC adalah bursa kripto terbesar yang dijerat dengan undang-undang ini; sasaran sebelumnya antara lain Bitzlato pada 2023 dan PM2BTC pada 2024.
+
+Ini bukan pencantuman dalam daftar sanksi OFAC. Perintah ini melarang "lembaga keuangan yang tercakup", kelompok yang mencakup bursa kripto AS dan penyedia transfer uang lain, untuk mengirim dana ke atau menerima dana dari MEXC Global. Kantor MEXC yang berada di Amerika Serikat dikecualikan dari perintah ini.
+
+!mid_cta
+
+## Apa kata MEXC
+
+MEXC menyatakan pada 7 November bahwa mereka sedang meninjau perintah itu bersama tim hukum dan kepatuhan, perdagangan berjalan normal, dan aset pelanggan aman, menurut CoinDesk. Bursa itu juga mengatakan telah memulai tinjauan independen atas kontrol antipencucian uang dan sanksinya. Pada Oktober, MEXC mengumumkan akan berhenti melayani pengguna di Rusia dan Belarus.
+
+!figure:fact
+
+## Apa artinya bagi pemula
+
+Jika Anda belum pernah memakai MEXC, berita ini terutama menunjukkan betapa seriusnya regulator AS kini memandang kepatuhan bursa luar negeri. Jika Anda punya dana di sana, ketahuilah bahwa platform AS tidak boleh menerima transfer dari MEXC setelah perintah berlaku, dan bursa internasional besar seperti Binance sudah menahannya untuk ditinjau. Memindahkan koin lebih dulu lewat dompet pribadi mungkin tidak membantu, karena pemberitahuan Binance juga mencakup transaksi tidak langsung.
+
+Bagi sebagian besar pemula, jalan yang lebih sederhana adalah bursa yang diatur di negaranya dan, untuk tabungan jangka panjang, dompet yang Anda kendalikan sendiri. Hindari platform yang tidak berizin di tempat Anda tinggal. Ini bukan nasihat hukum maupun investasi.
+
+## Yang perlu dipantau
+
+- Apakah bursa besar lain mengikuti Binance dan OKX dengan pembatasan MEXC mereka sendiri.
+- Tanggapan resmi MEXC kepada FinCEN sebelum 10 Desember.
+- Berapa lama pemeriksaan kepatuhan Binance atas setoran yang ditahan.
+
+!soft: Bingung di mana menyimpan koin Anda? Baca panduan kami tentang [dompet kripto kustodian dan swakelola](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

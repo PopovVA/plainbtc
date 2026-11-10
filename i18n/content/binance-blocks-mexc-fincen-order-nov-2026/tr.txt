@@ -1,0 +1,71 @@
+title: Binance, ABD Hazinesinin 16,7 milyar dolarlık yasa dışı olduğu iddia edilen akışlarla ilgili kararı sonrası MEXC transferlerini engelliyor
+page_title: Binance, FinCEN kararı sonrası MEXC transferlerini engelliyor
+description: Binance 10 Kasım'da MEXC'ye gönderimleri reddedeceğini ve oradan gelen yatırımları incelemeye alacağını duyurdu. FinCEN, ABD'li kurumlara 10 Aralık 2026'dan itibaren MEXC ile bağlarını kesmelerini emretmişti.
+og_description: FinCEN'e göre MEXC, yaptırım ihlali ve siber suçla bağlantılı 16,7 milyar $ aktardı. Karar 10 Aralık'ta yürürlüğe giriyor ve Binance MEXC transferlerini şimdiden engelliyor.
+label: Düzenleme
+summary: Binance, MEXC'ye gönderimleri reddedecek ve oradan gelen yatırımları incelemeye alacak. FinCEN kararı MEXC'yi 10 Aralık'tan itibaren ABD'li kurumlardan koparıyor.
+===
+
+Dünyanın en büyük kripto borsalarından Binance, 10 Kasım Salı günü rakip borsa MEXC'yi içeren işlemleri artık gerçekleştirmeyeceğini duyurdu. Binance [müşterilerine yaptığı duyuruda](L1), bir Binance hesabından MEXC'ye veya listelenen bağlı şirketlerine fon gönderme taleplerinin <strong>reddedileceğini</strong>, bunlardan gelen yatırımların ise uyum incelemesi için <strong>geçici olarak bekletileceğini</strong> açıkladı.
+
+Bu adım, ABD Hazine Bakanlığı'na bağlı Mali Suçlarla Mücadele Ağı'nın (FinCEN) 6 Kasım Cuma günü duyurduğu bir kararın ardından geldi. [Hazine Bakanlığı'na](L2) göre karar, MEXC Global'i fiilen ABD finans sisteminden koparıyor. Karar 10 Kasım'da [Federal Register'da](L3) yayımlandı ve bitiş tarihi olmadan <strong>10 Aralık 2026'da</strong> yürürlüğe giriyor.
+
+!takeaways
+- Binance, MEXC'ye çekimleri reddedecek ve MEXC'den gelen yatırımları uyum incelemesi için bekletecek.
+- FinCEN, MEXC'nin Mayıs 2021 ile Mayıs 2026 arasında muhtemelen yasa dışı 16,7 milyar dolarlık faaliyete aracılık ettiği sonucuna vardı.
+- 10 Aralık 2026'dan itibaren ABD finans kuruluşları MEXC Global'e para gönderemeyecek ve oradan para alamayacak.
+- MEXC, kararı incelediğini, normal şekilde çalıştığını ve kontrollerinin bağımsız bir incelemesini başlattığını söyledi.
+
+## Binance ne yapıyor
+
+Binance müşterilerinden, Binance üzerinden MEXC ve bağlantılı isimlerden oluşan bir listeyle "doğrudan veya dolaylı olarak" para göndermemelerini, para almamalarını ya da başka şekilde işlem yapmamalarını istedi. Listede MEXC Global Limited, MEXC Estonia OÜ, GIDA Technology AG ve MEXC'nin bağlı şirketleri yer alıyor. Yatırımları işaretlenen kullanıcılar, Binance kullanım koşulları kapsamında hesabın kapatılması dahil ek kısıtlamalarla karşılaşabilir. Binance incelemelerin ne kadar süreceğini açıklamadı.
+
+Binance yalnız değil. crypto.news'e göre OKX CEO'su Star Xu da FinCEN duyurusunun ardından müşterilerini MEXC'den doğrudan kripto göndermemeleri konusunda uyardı.
+
+## FinCEN MEXC'yi neyle suçluyor
+
+MEXC Global 2018'de kuruldu ve Seyşeller'de kayıtlı. FinCEN'e göre borsa günde 1 milyar dolardan fazla işlem yapıyor ve yaklaşık 5 milyar dolar rezerv tutuyordu; bu da onu dünyanın en büyük 20 kripto borsası arasına sokuyor.
+
+Karara göre MEXC, Mayıs 2021 ile Mayıs 2026 arasında en az <strong>16,7 milyar dolarlık</strong> muhtemelen yasa dışı faaliyete aracılık etti. Hazine'nin basın açıklaması bu rakamı "en az 16 milyar dolar" olarak yuvarlıyor. Bulgular arasında şunlar var:
+
+- Rusya yaptırımlarından kaçınmayla bağlantılı yaklaşık 1,5 milyar dolar; bunun 232 milyon doları yaptırım listesindeki kuruluşlarla doğrudan işlem.
+- Yaptırım altındaki Rus borsası Garantex ve halefi Grinex ile Haziran 2026'ya kadar süren işlemler.
+- İran bağlantılı yaklaşık 1,87 milyar dolar; bunun 1 milyar dolardan fazlası 40'tan fazla İranlı kripto borsasıyla doğrudan işlem.
+- İran Merkez Bankası ve İran Devrim Muhafızları ile bağlantılı yaklaşık 22 milyon dolar.
+- Fidye yazılımı ve dolandırıcılık çeteleri gibi siber suçlulara giden veya onlardan gelen en az 1,99 milyar dolar.
+
+!figure:chart
+
+Hazine Bakanı Scott Bessent açıklamada "Finans kuruluşları iki tarafı birden idare edemez" dedi. "Ya İran rejimini desteklersiniz ya da ABD finans sistemine erişiminiz olur."
+
+## Neden bir Rusya yasası kullanılıyor
+
+Karar, Rus Kara Parasıyla Mücadele Yasası'nın (Combating Russian Money Laundering Act) 9714. bölümüne dayanıyor. Bu yasa yalnızca Rusya kaynaklı yasa dışı finansla bağlantılı yabancı kurumlara uygulanabildiği için karar, MEXC'nin iddia edilen Rusya bağlantılarına dayanıyor; ancak Hazine kararı İran'a karşı Operation Economic Outcast adlı kampanyanın parçası olarak sundu. [CoinDesk](L4), MEXC'nin bu yasayla hedef alınan en büyük kripto borsası olduğunu bildirdi; daha önce 2023'te Bitzlato ve 2024'te PM2BTC hedef alınmıştı.
+
+Bu bir OFAC yaptırım listesine alınma değil. Karar, ABD'li kripto borsaları ve diğer para transferi şirketlerini de kapsayan "kapsamdaki finans kuruluşlarının" MEXC Global'e para göndermesini veya oradan para almasını yasaklıyor. MEXC'nin ABD'deki ofisleri kararın dışında tutuluyor.
+
+!mid_cta
+
+## MEXC ne diyor
+
+CoinDesk'e göre MEXC 7 Kasım'da kararı hukuk ve uyum ekipleriyle incelediğini, işlemlerin normal devam ettiğini ve müşteri varlıklarının güvende olduğunu söyledi. Borsa ayrıca kara para aklamayla mücadele ve yaptırım kontrollerinin bağımsız bir incelemesini başlattığını açıkladı. MEXC ekim ayında Rusya ve Belarus'taki kullanıcılara hizmeti durduracağını duyurmuştu.
+
+!figure:fact
+
+## Yeni başlayanlar için ne anlama geliyor
+
+MEXC'yi hiç kullanmadıysanız bu haber, ABD'li düzenleyicilerin offshore borsaların uyumunu artık ne kadar ciddiye aldığını gösteriyor. Orada fonunuz varsa şunu bilin: karar yürürlüğe girdiğinde ABD platformları MEXC'den gelen transferleri kabul edemeyecek; Binance gibi büyük uluslararası borsalar ise bu transferleri şimdiden incelemeye alıyor. Coinleri önce kişisel bir cüzdandan geçirmek işe yaramayabilir, çünkü Binance duyurusu dolaylı işlemleri de kapsıyor.
+
+Yeni başlayanların çoğu için daha basit yol, kendi ülkesinde düzenlenen bir borsa ve uzun vadeli birikim için kontrolü kendisinde olan bir cüzdandır. Yaşadığınız yerde lisansı olmayan platformlardan uzak durun. Bu hukuki veya yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Diğer büyük borsaların Binance ve OKX'i izleyip kendi MEXC kısıtlamalarını getirip getirmeyeceği.
+- MEXC'nin 10 Aralık'tan önce FinCEN'e resmî bir yanıt verip vermeyeceği.
+- Binance'in bekletilen yatırımlarla ilgili uyum incelemelerinin ne kadar süreceği.
+
+!soft: Coinlerinizi nerede tutacağınızdan emin değil misiniz? [Emanetçi ve kendi kontrolünüzdeki kripto cüzdanları](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) rehberimizi okuyun.
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "US-FinancialCrimesEnforcementNetwork-Seal.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:US-FinancialCrimesEnforcementNetwork-Seal.svg",
+      "credit": "FinCEN"
+    },
+    {
+      "file": "Binance_Logo.svg",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Binance_Logo.svg",
+      "credit": "Binance"
+    },
+    {
+      "file": "Treasury_Building_(1).jpg",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Treasury_Building_(1).jpg",
+      "credit": "AutoErich / Wikimedia Commons"
+    }
+  ],
+  "note": "Editorial composite; trademarks belong to their owners.",
+  "slug": "binance-blocks-mexc-fincen-order-nov-2026",
+  "generated": "2026-11-10T19:11Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

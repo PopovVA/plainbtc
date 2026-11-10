@@ -5,8 +5,22 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 10 Nov 2026 14:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 19:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Binance、MEXCとの送金を停止　米財務省が167億ドルの不正資金関与を認定</title>
+      <link>https://plainbtc.com/ja/articles/binance-blocks-mexc-fincen-order-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/binance-blocks-mexc-fincen-order-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 19:40:00 GMT</pubDate>
+      <description>BinanceはMEXCへの送金を拒否し、MEXCからの入金を審査のため保留へ。FinCENの命令により、MEXCは12月10日から米国の金融機関と取引できなくなります。</description>
+    </item>
+    <item>
+      <title>ゴールドマン、シティなど銀行連合、共同のドル建てステーブルコインに2億7000万ドル拠出へ　ブルームバーグ報道</title>
+      <link>https://plainbtc.com/ja/articles/banks-270-million-stablecoin-project-faro-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/banks-270-million-stablecoin-project-faro-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 19:35:00 GMT</pubDate>
+      <description>大手銀行が、TetherやCircleに対抗する共同のドル建てステーブルコイン「Project Faro」に約2億7000万ドルを拠出すると報じられました。発行目標は2027年上半期です。</description>
+    </item>
     <item>
       <title>10月の米インフレが予想上回り、ビットコインは73,400ドル近辺まで下落</title>
       <link>https://plainbtc.com/ja/articles/bitcoin-hot-cpi-etf-outflows-nov-2026</link>

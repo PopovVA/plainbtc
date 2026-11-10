@@ -1,0 +1,71 @@
+title: Binance bloqueia transferências com a MEXC após ordem do Tesouro dos EUA sobre US$ 16,7 bilhões em fluxos supostamente ilícitos
+page_title: Binance bloqueia transferências com a MEXC após ordem da FinCEN
+description: A Binance anunciou em 10 de novembro que vai recusar envios para a MEXC e reter depósitos vindos dela para análise, depois que a FinCEN mandou empresas dos EUA cortarem a MEXC a partir de 10 de dezembro de 2026.
+og_description: A FinCEN diz que a MEXC movimentou US$ 16,7 bilhões ligados a evasão de sanções e crimes cibernéticos. A ordem vale a partir de 10 de dezembro, e a Binance já bloqueia transferências com a MEXC.
+label: Regulação
+summary: A Binance vai recusar envios para a MEXC e reter depósitos vindos dela para análise, após uma ordem da FinCEN que isola a MEXC das empresas dos EUA a partir de 10 de dezembro.
+===
+
+A Binance, uma das maiores corretoras de criptomoedas do mundo, anunciou na terça-feira, 10 de novembro, que vai parar de processar transações que envolvam a rival MEXC. Em um [aviso aos clientes](L1), a Binance informou que qualquer pedido de envio de fundos de uma conta Binance para a MEXC ou suas afiliadas listadas será <strong>recusado</strong>, e que qualquer depósito vindo delas ficará <strong>retido temporariamente</strong> para uma análise de conformidade.
+
+A medida vem depois de uma ordem da Rede de Combate a Crimes Financeiros (FinCEN), do Departamento do Tesouro dos EUA, anunciada na sexta-feira, 6 de novembro. Segundo o [Tesouro](L2), a ordem praticamente corta o acesso da MEXC Global ao sistema financeiro americano. Ela foi publicada no [Federal Register](L3) em 10 de novembro e entra em vigor em <strong>10 de dezembro de 2026</strong>, sem data de término.
+
+!takeaways
+- A Binance vai recusar saques para a MEXC e reter depósitos vindos da MEXC para uma análise de conformidade.
+- A FinCEN concluiu que a MEXC facilitou US$ 16,7 bilhões em atividades provavelmente ilícitas entre maio de 2021 e maio de 2026.
+- A partir de 10 de dezembro de 2026, instituições financeiras dos EUA não poderão enviar fundos para a MEXC Global nem receber fundos dela.
+- A MEXC disse que está analisando a ordem, que opera normalmente e que iniciou uma revisão independente dos seus controles.
+
+## O que a Binance está fazendo
+
+A Binance pediu que os clientes não enviem, recebam ou façam de outra forma transações "direta ou indiretamente" pela Binance com a MEXC e uma lista de nomes ligados a ela, entre eles MEXC Global Limited, MEXC Estonia OÜ, GIDA Technology AG e afiliadas da MEXC. Usuários com depósitos sinalizados podem sofrer novas restrições pelos termos de uso da Binance, incluindo o encerramento da conta. A Binance não informou quanto tempo as análises vão levar.
+
+A Binance não está sozinha. O crypto.news informou que o CEO da OKX, Star Xu, também alertou os clientes para não enviarem criptomoedas diretamente da MEXC após o anúncio da FinCEN.
+
+## O que a FinCEN diz que a MEXC fez
+
+A MEXC Global foi fundada em 2018 e é registrada nas Seychelles. Segundo a FinCEN, ela processava mais de US$ 1 bilhão em transações por dia e mantinha cerca de US$ 5 bilhões em reservas, o que a coloca entre as 20 maiores corretoras de cripto do mundo.
+
+De acordo com a ordem, a MEXC facilitou pelo menos <strong>US$ 16,7 bilhões</strong> em atividades provavelmente ilícitas entre maio de 2021 e maio de 2026. O comunicado do Tesouro arredonda o valor para "pelo menos US$ 16 bilhões". Entre as conclusões:
+
+- Quase US$ 1,5 bilhão ligados à evasão de sanções russas, incluindo US$ 232 milhões em transações diretas com entidades sancionadas.
+- Negócios com a corretora russa sancionada Garantex e sua sucessora Grinex até junho de 2026.
+- Cerca de US$ 1,87 bilhão com exposição ao Irã, incluindo mais de US$ 1 bilhão em transações diretas com mais de 40 corretoras de cripto iranianas.
+- Cerca de US$ 22 milhões ligados ao Banco Central do Irã e à Guarda Revolucionária iraniana.
+- Pelo menos US$ 1,99 bilhão enviados a cibercriminosos ou recebidos deles, como grupos de ransomware e golpes.
+
+!figure:chart
+
+"As instituições financeiras não podem ter as duas coisas", disse o secretário do Tesouro, Scott Bessent, no comunicado. "Ou vocês apoiam o regime iraniano, ou têm acesso ao sistema financeiro dos EUA."
+
+## Por que uma lei sobre a Rússia
+
+A ordem foi emitida com base na Seção 9714 da Lei de Combate à Lavagem de Dinheiro Russa (Combating Russian Money Laundering Act). Essa lei só pode ser usada contra instituições estrangeiras ligadas a finanças ilícitas russas, por isso a ordem se apoia nos supostos negócios russos da MEXC, embora o Tesouro a tenha apresentado como parte de uma campanha contra o Irã chamada Operation Economic Outcast. O [CoinDesk](L4) informou que a MEXC é a maior corretora de cripto atingida por essa lei; alvos anteriores incluíram a Bitzlato em 2023 e a PM2BTC em 2024.
+
+Não se trata de uma inclusão na lista de sanções da OFAC. A ordem proíbe as "instituições financeiras cobertas", grupo que inclui corretoras de cripto dos EUA e outros transmissores de dinheiro, de enviar fundos para a MEXC Global ou receber fundos dela. Escritórios da MEXC localizados nos Estados Unidos ficam fora da ordem.
+
+!mid_cta
+
+## O que diz a MEXC
+
+A MEXC afirmou em 7 de novembro que está analisando a ordem com suas equipes jurídica e de conformidade, que as negociações seguem normalmente e que os ativos dos clientes estão seguros, segundo o CoinDesk. A empresa também disse que iniciou uma revisão independente dos seus controles contra lavagem de dinheiro e de sanções. Em outubro, a MEXC anunciou que deixaria de atender usuários na Rússia e em Belarus.
+
+!figure:fact
+
+## O que isso significa para iniciantes
+
+Se você nunca usou a MEXC, a notícia mostra sobretudo como os reguladores dos EUA levam a sério hoje a conformidade de corretoras offshore. Se você tem fundos lá, saiba que plataformas dos EUA não poderão aceitar transferências da MEXC quando a ordem entrar em vigor, e que grandes corretoras internacionais como a Binance já estão retendo esses valores para análise. Passar as moedas antes por uma carteira pessoal pode não resolver, porque o aviso da Binance também cobre transações indiretas.
+
+Para a maioria dos iniciantes, um caminho mais simples é uma corretora regulamentada no seu país e, para guardar a longo prazo, uma carteira que você mesmo controla. Evite plataformas sem licença onde você mora. Isto não é aconselhamento jurídico nem de investimento.
+
+## O que acompanhar
+
+- Se outras grandes corretoras seguirão a Binance e a OKX com suas próprias restrições à MEXC.
+- Qualquer resposta formal da MEXC à FinCEN antes de 10 de dezembro.
+- Quanto tempo levarão as análises de conformidade da Binance sobre os depósitos retidos.
+
+!soft: Não sabe onde guardar suas moedas? Leia nosso guia sobre [carteiras de cripto custodiais e de autocustódia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

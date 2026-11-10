@@ -1,0 +1,71 @@
+title: Binance blocks MEXC transfers after a U.S. Treasury order over $16.7 billion in alleged illicit flows
+page_title: Binance blocks MEXC transfers after FinCEN order
+description: Binance said on Nov. 10 it will decline transfers to MEXC and hold deposits from it for review, after FinCEN ordered U.S. firms to cut off MEXC from Dec. 10, 2026.
+og_description: FinCEN says MEXC moved $16.7 billion tied to sanctions evasion and cybercrime. Its order takes effect Dec. 10, and Binance is already blocking MEXC transfers.
+label: Regulation
+summary: Binance will decline transfers to MEXC and hold deposits from it for review, after a FinCEN order that cuts MEXC off from U.S. firms on Dec. 10.
+===
+
+Binance, one of the world's biggest crypto exchanges, said on Tuesday, Nov. 10, that it will stop processing transactions involving rival exchange MEXC. In a [notice to customers](L1), Binance said any request to send funds from a Binance account to MEXC or its listed affiliates will be <strong>declined</strong>, and any deposit arriving from them will be <strong>temporarily withheld</strong> for a compliance review.
+
+The move follows an order from the U.S. Treasury's Financial Crimes Enforcement Network (FinCEN), announced on Friday, Nov. 6. According to the [Treasury](L2), the order effectively cuts MEXC Global off from the U.S. financial system. It was published in the [Federal Register](L3) on Nov. 10 and takes effect on <strong>Dec. 10, 2026</strong>, with no end date.
+
+!takeaways
+- Binance will decline withdrawals to MEXC and hold incoming MEXC deposits for a compliance review.
+- FinCEN found that MEXC facilitated $16.7 billion in likely illicit activity between May 2021 and May 2026.
+- From Dec. 10, 2026, U.S. financial institutions may not send funds to or receive funds from MEXC Global.
+- MEXC said it is reviewing the order, is operating normally and has launched an independent review of its controls.
+
+## What Binance is doing
+
+Binance said customers should not "directly or indirectly" send funds to, receive funds from, or otherwise transact through Binance with MEXC and a list of related names, including MEXC Global Limited, MEXC Estonia OÜ, GIDA Technology AG and MEXC affiliates. Users whose deposits are flagged may face further restrictions under Binance's terms of use, including being offboarded. Binance did not say how long reviews will take.
+
+Binance is not alone. crypto.news reported that OKX chief executive Star Xu also warned customers against sending crypto directly from MEXC after the FinCEN announcement.
+
+## What FinCEN says MEXC did
+
+MEXC Global was founded in 2018 and is incorporated in the Seychelles. FinCEN said it processed more than $1 billion in transactions a day and held about $5 billion in reserves, making it one of the 20 largest crypto exchanges in the world.
+
+According to the order, MEXC facilitated at least <strong>$16.7 billion</strong> in likely illicit activity between May 2021 and May 2026. The Treasury's press release rounds this to "at least $16 billion." Among the findings:
+
+- Nearly $1.5 billion linked to Russian sanctions evasion, including $232 million in direct transactions with sanctioned entities.
+- Dealings with the sanctioned Russian exchange Garantex and its successor Grinex as recently as June 2026.
+- About $1.87 billion with exposure to Iran, including more than $1 billion in direct transactions with over 40 Iranian crypto exchanges.
+- About $22 million tied to the Central Bank of Iran and Iran's Revolutionary Guard Corps.
+- At least $1.99 billion moving to or from cybercrime actors, such as ransomware and scam operations.
+
+!figure:chart
+
+"Financial institutions cannot have it both ways," Treasury Secretary Scott Bessent said in the press release. "Either you support the Iranian regime, or you have access to the U.S. financial system."
+
+## Why a Russia law is being used
+
+The order was issued under Section 9714 of the Combating Russian Money Laundering Act. That law can only be used against foreign institutions tied to Russian illicit finance, so the order rests on MEXC's alleged Russian dealings, even though the Treasury presented it as part of a campaign against Iran called Operation Economic Outcast. [CoinDesk](L4) reported that MEXC is the largest crypto exchange hit under this law; earlier targets included Bitzlato in 2023 and PM2BTC in 2024.
+
+This is not an OFAC sanctions listing. Instead, it bans "covered financial institutions," a group that includes U.S. crypto exchanges and other money transmitters, from sending funds to or receiving funds from MEXC Global. Any MEXC offices located in the United States are excluded from the order.
+
+!mid_cta
+
+## What MEXC says
+
+MEXC said on Nov. 7 that it is reviewing the order with its legal and compliance teams, that trading continues normally and that customer assets are secure, according to CoinDesk. It also said it has started an independent review of its anti-money-laundering and sanctions controls. MEXC announced in October that it would stop serving users in Russia and Belarus.
+
+!figure:fact
+
+## What it means for beginners
+
+If you have never used MEXC, this news mostly shows how seriously U.S. regulators now treat compliance at offshore exchanges. If you do hold funds there, be aware that U.S. platforms will be barred from accepting transfers from MEXC once the order takes effect, and big offshore exchanges like Binance are already holding them for review. Moving coins through a personal wallet first may not help, because Binance's notice also covers indirect transactions.
+
+For most U.S. beginners, a simpler path is a regulated U.S. exchange and, for long-term savings, a wallet you control. Avoid platforms that are not licensed where you live. This is not legal or investment advice.
+
+## What to watch next
+
+- Whether other large exchanges follow Binance and OKX with their own MEXC restrictions.
+- Any formal response from MEXC to FinCEN before Dec. 10.
+- How long Binance's compliance reviews of withheld deposits take.
+
+!soft: Not sure where your coins should live? Read our guide to [custodial vs. self-custody crypto wallets](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

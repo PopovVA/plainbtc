@@ -1,0 +1,40 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Goldman_Sachs.svg",
+      "license": "Public domain (logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:Goldman_Sachs.svg",
+      "credit": "Goldman Sachs"
+    },
+    {
+      "file": "Citi.svg",
+      "license": "Public domain (logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:Citi.svg",
+      "credit": "Citigroup"
+    },
+    {
+      "file": "Banco_Santander_Logotipo.svg",
+      "license": "Public domain (logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:Banco_Santander_Logotipo.svg",
+      "credit": "Banco Santander"
+    },
+    {
+      "file": "Deutsche_Bank_logo_without_wordmark.svg",
+      "license": "Public domain (logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:Deutsche_Bank_logo_without_wordmark.svg",
+      "credit": "Deutsche Bank"
+    }
+  ],
+  "note": "Editorial composite; trademarks belong to their owners.",
+  "slug": "banks-270-million-stablecoin-project-faro-nov-2026",
+  "generated": "2026-11-10T19:11Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

@@ -5,8 +5,22 @@
     <link>https://plainbtc.com/es/</link>
     <description>Noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</description>
     <language>es</language>
-    <lastBuildDate>Tue, 10 Nov 2026 14:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 19:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Binance bloquea las transferencias con MEXC tras una orden del Tesoro de EE. UU. por 16.700 M$ en flujos presuntamente ilícitos</title>
+      <link>https://plainbtc.com/es/articles/binance-blocks-mexc-fincen-order-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/binance-blocks-mexc-fincen-order-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 19:40:00 GMT</pubDate>
+      <description>Binance rechazará envíos a MEXC y retendrá sus depósitos para revisión, tras una orden de FinCEN que aísla a MEXC de las firmas de EE. UU. a partir del 10 de diciembre.</description>
+    </item>
+    <item>
+      <title>Goldman Sachs, Citi y otros bancos comprometen unos 270 M$ para una stablecoin conjunta en dólares, según Bloomberg</title>
+      <link>https://plainbtc.com/es/articles/banks-270-million-stablecoin-project-faro-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/banks-270-million-stablecoin-project-faro-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 19:35:00 GMT</pubDate>
+      <description>Grandes bancos habrían comprometido unos 270 M$ para Project Faro, una stablecoin conjunta en dólares prevista para el primer semestre de 2027 que competiría con Tether y Circle.</description>
+    </item>
     <item>
       <title>El bitcoin cae hacia 73.400 $ tras un dato de inflación de octubre más alto de lo esperado</title>
       <link>https://plainbtc.com/es/articles/bitcoin-hot-cpi-etf-outflows-nov-2026</link>

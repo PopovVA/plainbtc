@@ -1,0 +1,59 @@
+title: Goldman Sachs, Citi, dan bank lain dikabarkan menyiapkan US$270 juta untuk stablecoin dolar bersama
+page_title: Bank menyiapkan US$270 juta untuk stablecoin bersama
+description: Goldman Sachs, Citi, Santander, Deutsche Bank, dan lainnya menyiapkan sekitar US$270 juta untuk Project Faro, stablecoin dolar yang dikelola bank dan ditargetkan meluncur pada 2027, menurut Bloomberg.
+og_description: Kelompok 21 lembaga keuangan mendanai lima tahun operasi penerbit stablecoin yang berbasis di AS. Tether dan Circle kini menguasai sekitar 84% pasar stablecoin dolar senilai US$293 miliar.
+label: Bisnis
+summary: Bank-bank besar dikabarkan menyiapkan sekitar US$270 juta untuk Project Faro, stablecoin dolar bersama yang ditargetkan meluncur pada paruh pertama 2027 untuk menyaingi Tether dan Circle.
+===
+
+Sejumlah bank terbesar di dunia menaruh uang sungguhan di balik dolar digital mereka sendiri. Goldman Sachs, Citigroup, Banco Santander, Deutsche Bank, dan perusahaan keuangan lain telah menyiapkan sekitar <strong>US$270 juta</strong> untuk usaha patungan stablecoin, lapor [Bloomberg](L1) pada Selasa, 10 November, mengutip sumber yang mengetahui hal tersebut.
+
+Menurut laporan itu, dana tersebut akan menutup <strong>lima tahun</strong> biaya operasional perusahaan baru yang akan menerbitkan stablecoin berdenominasi dolar dan diperkirakan didirikan di Amerika Serikat. Proyek ini dikenal secara internal sebagai Project Faro, belum punya nama resmi, dan masih mencari CEO. CoinDesk menyebut bank-bank peserta belum segera menanggapi permintaan komentarnya.
+
+!takeaways
+- Sekitar US$270 juta dikabarkan disiapkan untuk mendanai lima tahun perusahaan stablecoin milik bank.
+- Kelompok 21 lembaga keuangan mengumumkan rencana ini pada 1 September 2026 dan menargetkan peluncuran pada paruh pertama 2027.
+- Tahap awal berupa stablecoin dolar AS, lalu mata uang G7 lain, dengan token euro sebagai prioritas.
+- USDT milik Tether dan USDC milik Circle menguasai sekitar 84% dari sekitar US$293 miliar stablecoin dolar, menurut DefiLlama.
+
+## Apa itu stablecoin?
+
+Stablecoin adalah token kripto yang dirancang agar nilainya tetap, biasanya satu dolar AS. Penerbit menyimpan cadangan, seperti uang tunai dan surat utang Treasury jangka pendek, untuk menjamin setiap token. Orang memakai stablecoin untuk memindahkan dolar antaraplikasi kripto, membayar lintas negara, dan menyimpan uang di sela transaksi tanpa mengembalikannya ke rekening bank.
+
+## Siapa saja anggota kelompok ini
+
+Inisiatif ini pertama kali diumumkan pada 1 September 2026. Dalam [siaran pers bersama](L2), 21 lembaga menyatakan telah berkomitmen mendirikan perusahaan baru pada paruh kedua 2026, dengan syarat penutupan tertentu, dan menargetkan stablecoin mereka masuk pasar pada paruh pertama 2027. Anggota dari Amerika Utara adalah Bank of America, Capital One, Citi, Fidelity Investments, Goldman Sachs, PNC Financial Services, Scotiabank, TD Bank Group, Wells Fargo, dan WisdomTree. Anggota dari Eropa antara lain Santander, BBVA, Deutsche Bank, Lloyds, dan UBS, ditambah MUFG Bank, Sirius International Holding, dan Standard Bank.
+
+Kelompok itu menyatakan koin ini akan dimulai dalam dolar AS, dengan rencana jangka panjang menambah stablecoin dalam mata uang G7 lain dan versi euro sebagai prioritas. Koin ini ditujukan untuk pasar grosir, institusional, dan ritel, termasuk pembayaran lintas negara dan penyelesaian transaksi aset digital. Bank-bank itu berniat mematuhi GENIUS Act, undang-undang federal AS tentang stablecoin yang disahkan pada 2025, serta aturan MiCA di Eropa bila berlaku.
+
+!figure:chart
+
+## Menghadapi Tether dan Circle
+
+Bank-bank ini masuk ke pasar yang sudah dikuasai dua perusahaan kripto. Data [DefiLlama](L3) pada 10 November menunjukkan sekitar <strong>US$293,4 miliar</strong> stablecoin berpatokan dolar yang beredar. USDT milik Tether mencakup sekitar US$176,3 miliar atau 60%, dan USDC milik Circle sekitar US$70,1 miliar atau 24%. Tidak ada koin dolar lain yang melebihi US$6 miliar.
+
+Stablecoin euro sangat kecil jika dibandingkan: DefiLlama mencatat totalnya jauh di bawah US$1 miliar, yang membantu menjelaskan mengapa kelompok ini melihat peluang untuk token euro yang didukung bank.
+
+!mid_cta
+
+Bank bukan satu-satunya pemain besar yang mencoba masuk. [CoinDesk](L4) mencatat bahwa lebih dari 140 perusahaan, termasuk Stripe, Visa, Mastercard, dan BlackRock, bergabung pada Juni dalam proyek stablecoin dolar yang terpisah. Bank berharap nasabah dan jaringan pembayaran yang sudah mereka miliki akan memberi keunggulan.
+
+!figure:fact
+
+## Apa artinya bagi pemula
+
+Tidak ada yang berubah bagi Anda hari ini. Koinnya belum ada, belum bernama, dan target peluncurannya masih berbulan-bulan lagi. Jika terwujud, bank yang sudah Anda pakai mungkin memungkinkan Anda menyimpan atau mengirim dolar digital, kemungkinan dengan pemeriksaan kepatuhan seperti transfer biasa.
+
+Ingat, stablecoin bukan simpanan bank. Bahkan di bawah GENIUS Act, stablecoin tidak dijamin FDIC, dan keamanannya bergantung pada cadangan dan aturan penerbitnya. Jika Anda sudah memakai stablecoin, pilih koin yang dikenal luas di platform yang diatur. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Nama resmi, CEO, dan tanggal penutupan untuk perusahaan baru tersebut.
+- Blockchain mana yang akan dipakai koin ini dan apakah nasabah ritel bisa membelinya langsung.
+- Apakah pangsa USDT dan USDC mulai menyusut setelah bank masuk.
+
+!soft: Bank sudah menguji pembayaran dengan stablecoin. Baca bagaimana [PNC menguji pembayaran USDC bersama Coinbase](/articles/pnc-coinbase-usdc-payments-pilot-nov-2026).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-usd-stablecoin-supply.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of dollar stablecoins in circulation on Nov. 10, 2026: USDT $176.3B, USDC $70.1B, USDS $5.3B, USDe $4.9B, DAI $4.7B, all others $32.1B, total about $293.4B",
+      "es": "Gráfico de barras de las stablecoins en dólares en circulación el 10 de noviembre de 2026: USDT 176.300 M$, USDC 70.100 M$, USDS 5.300 M$, USDe 4.900 M$, DAI 4.700 M$ y el resto 32.100 M$; total de unos 293.400 M$",
+      "pt": "Gráfico de barras das stablecoins em dólar em circulação em 10 de novembro de 2026: USDT US$ 176,3 bi, USDC US$ 70,1 bi, USDS US$ 5,3 bi, USDe US$ 4,9 bi, DAI US$ 4,7 bi e as demais US$ 32,1 bi; total de cerca de US$ 293,4 bi",
+      "fr": "Graphique des stablecoins en dollars en circulation au 10 novembre 2026 : USDT 176,3 Md$, USDC 70,1 Md$, USDS 5,3 Md$, USDe 4,9 Md$, DAI 4,7 Md$, autres 32,1 Md$, soit environ 293,4 Md$ au total",
+      "de": "Balkendiagramm der umlaufenden Dollar-Stablecoins am 10. November 2026: USDT 176,3 Mrd. $, USDC 70,1 Mrd. $, USDS 5,3 Mrd. $, USDe 4,9 Mrd. $, DAI 4,7 Mrd. $, übrige 32,1 Mrd. $, insgesamt rund 293,4 Mrd. $",
+      "ru": "Диаграмма долларовых стейблкоинов в обращении на 10 ноября 2026 года: USDT $176,3 млрд, USDC $70,1 млрд, USDS $5,3 млрд, USDe $4,9 млрд, DAI $4,7 млрд, остальные $32,1 млрд, всего около $293,4 млрд",
+      "tr": "10 Kasım 2026 itibarıyla dolaşımdaki dolar stablecoin'leri: USDT 176,3 milyar $, USDC 70,1 milyar $, USDS 5,3 milyar $, USDe 4,9 milyar $, DAI 4,7 milyar $, diğerleri 32,1 milyar $; toplam yaklaşık 293,4 milyar $",
+      "id": "Grafik batang stablecoin dolar yang beredar pada 10 November 2026: USDT US$176,3 miliar, USDC US$70,1 miliar, USDS US$5,3 miliar, USDe US$4,9 miliar, DAI US$4,7 miliar, lainnya US$32,1 miliar, total sekitar US$293,4 miliar",
+      "ja": "2026年11月10日時点で流通するドル建てステーブルコインの棒グラフ：USDT 1763億ドル、USDC 701億ドル、USDS 53億ドル、USDe 49億ドル、DAI 47億ドル、その他321億ドル、合計約2934億ドル",
+      "ko": "2026년 11월 10일 기준 유통 중인 달러 스테이블코인 막대 차트: USDT 1,763억 달러, USDC 701억 달러, USDS 53억 달러, USDe 49억 달러, DAI 47억 달러, 기타 321억 달러, 합계 약 2,934억 달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: DefiLlama",
+      "es": "Gráfico: PlainBTC, datos: DefiLlama",
+      "pt": "Gráfico: PlainBTC, dados: DefiLlama",
+      "fr": "Graphique : PlainBTC, données : DefiLlama",
+      "de": "Chart: PlainBTC, Daten: DefiLlama",
+      "ru": "График: PlainBTC, данные: DefiLlama",
+      "tr": "Grafik: PlainBTC, veri: DefiLlama",
+      "id": "Grafik: PlainBTC, data: DefiLlama",
+      "ja": "チャート: PlainBTC、データ: DefiLlama",
+      "ko": "차트: PlainBTC, 데이터: DefiLlama"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-faro-270m.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: about $270 million committed by Goldman Sachs, Citi, Santander, Deutsche Bank and other firms to fund five years of the stablecoin venture's operations",
+      "es": "Tarjeta: unos 270 M$ comprometidos por Goldman Sachs, Citi, Santander, Deutsche Bank y otras firmas para financiar cinco años de operaciones de la empresa de stablecoin",
+      "pt": "Cartão: cerca de US$ 270 milhões comprometidos por Goldman Sachs, Citi, Santander, Deutsche Bank e outras empresas para financiar cinco anos de operação da empresa de stablecoin",
+      "fr": "Encadré : environ 270 M$ engagés par Goldman Sachs, Citi, Santander, Deutsche Bank et d'autres pour financer cinq ans d'activité de la coentreprise de stablecoin",
+      "de": "Faktenkarte: rund 270 Mio. $ von Goldman Sachs, Citi, Santander, Deutsche Bank und weiteren Häusern zugesagt, um fünf Jahre Betrieb des Stablecoin-Gemeinschaftsunternehmens zu finanzieren",
+      "ru": "Карточка: около $270 млн выделили Goldman Sachs, Citi, Santander, Deutsche Bank и другие компании, чтобы профинансировать пять лет работы совместного стейблкоин-проекта",
+      "tr": "Kart: Goldman Sachs, Citi, Santander, Deutsche Bank ve diğer kurumlar stablecoin girişiminin beş yıllık faaliyetini finanse etmek için yaklaşık 270 milyon $ taahhüt etti",
+      "id": "Kart fakta: sekitar US$270 juta dijanjikan Goldman Sachs, Citi, Santander, Deutsche Bank, dan perusahaan lain untuk mendanai lima tahun operasi usaha stablecoin itu",
+      "ja": "カード：Goldman Sachs、Citi、Santander、Deutsche Bankなどが、ステーブルコイン合弁会社の5年分の運営資金として約2億7000万ドルを拠出",
+      "ko": "카드: 골드만삭스, 씨티, 산탄데르, 도이체방크 등이 스테이블코인 합작사의 5년 운영비로 약 2억 7,000만 달러를 약정"
+    },
+    "caption": {
+      "en": "Source: Bloomberg via CoinDesk",
+      "es": "Fuente: Bloomberg via CoinDesk",
+      "pt": "Fonte: Bloomberg via CoinDesk",
+      "fr": "Source : Bloomberg via CoinDesk",
+      "de": "Quelle: Bloomberg via CoinDesk",
+      "ru": "Источник: Bloomberg via CoinDesk",
+      "tr": "Kaynak: Bloomberg via CoinDesk",
+      "id": "Sumber: Bloomberg via CoinDesk",
+      "ja": "出典: Bloomberg via CoinDesk",
+      "ko": "출처: Bloomberg via CoinDesk"
+    }
+  }
+]

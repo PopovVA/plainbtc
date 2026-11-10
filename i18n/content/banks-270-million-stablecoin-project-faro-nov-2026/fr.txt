@@ -1,0 +1,59 @@
+title: Goldman Sachs, Citi et d'autres banques engageraient 270 millions de dollars dans un stablecoin commun en dollars
+page_title: Des banques engagent 270 M$ dans un stablecoin commun
+description: Goldman Sachs, Citi, Santander, Deutsche Bank et d'autres ont engagé environ 270 millions de dollars dans Project Faro, un stablecoin en dollars géré par des banques visant un lancement en 2027, selon Bloomberg.
+og_description: Un groupe de 21 institutions finance cinq ans d'activité d'un émetteur de stablecoin basé aux États-Unis. Tether et Circle détiennent environ 84 % des 293 Md$ de stablecoins en dollars.
+label: Entreprises
+summary: De grandes banques auraient engagé environ 270 M$ dans Project Faro, un stablecoin commun en dollars prévu pour le premier semestre 2027, qui concurrencerait Tether et Circle.
+===
+
+Certaines des plus grandes banques du monde mettent de l'argent réel derrière leur propre dollar numérique. Goldman Sachs, Citigroup, Banco Santander, Deutsche Bank et d'autres sociétés financières ont engagé environ <strong>270 millions de dollars</strong> dans une coentreprise de stablecoin, a rapporté [Bloomberg](L1) le mardi 10 novembre, citant des sources proches du dossier.
+
+Selon l'article, cette somme doit couvrir <strong>cinq ans</strong> de frais de fonctionnement d'une nouvelle société qui émettra un stablecoin libellé en dollars et devrait être immatriculée aux États-Unis. Le projet porte en interne le nom de Project Faro, n'a pas encore de nom officiel et cherche toujours un directeur général. CoinDesk précise que les banques participantes n'ont pas répondu dans l'immédiat à ses demandes de commentaire.
+
+!takeaways
+- Environ 270 millions de dollars auraient été engagés pour financer cinq ans d'une société de stablecoin détenue par des banques.
+- Le groupe de 21 institutions financières a annoncé le projet le 1er septembre 2026 et vise un lancement au premier semestre 2027.
+- Il commencera par un stablecoin en dollars, puis ajoutera d'autres devises du G7, en priorité un jeton en euros.
+- L'USDT de Tether et l'USDC de Circle représentent environ 84 % des quelque 293 milliards de dollars de stablecoins en dollars, selon DefiLlama.
+
+## Qu'est-ce qu'un stablecoin ?
+
+Un stablecoin est un jeton crypto conçu pour garder une valeur fixe, généralement un dollar américain. L'émetteur détient des réserves, comme des liquidités et des bons du Trésor à court terme, pour adosser chaque jeton. On utilise les stablecoins pour déplacer des dollars entre applications crypto, pour payer à l'international et pour garder de l'argent entre deux transactions sans repasser par un compte bancaire.
+
+## Qui fait partie du groupe
+
+L'initiative a été rendue publique le 1er septembre 2026. Dans un [communiqué commun](L2), 21 institutions ont indiqué s'être engagées à créer une nouvelle société au second semestre 2026, sous réserve de conditions de réalisation, et viser une mise sur le marché de leur stablecoin au premier semestre 2027. Les membres nord-américains sont Bank of America, Capital One, Citi, Fidelity Investments, Goldman Sachs, PNC Financial Services, Scotiabank, TD Bank Group, Wells Fargo et WisdomTree. Côté européen figurent notamment Santander, BBVA, Deutsche Bank, Lloyds et UBS, aux côtés de MUFG Bank, Sirius International Holding et Standard Bank.
+
+Le groupe précise que le jeton commencera en dollars américains, avec à plus long terme des stablecoins dans d'autres devises du G7 et une version en euros en priorité. Il vise des usages sur les marchés de gros, institutionnels et de détail, notamment les paiements transfrontaliers et le règlement d'opérations sur actifs numériques. Les banques comptent respecter le GENIUS Act, la loi fédérale américaine sur les stablecoins adoptée en 2025, ainsi que le règlement européen MiCA lorsqu'il s'applique.
+
+!figure:chart
+
+## Face à Tether et Circle
+
+Les banques arrivent sur un marché déjà dominé par deux sociétés crypto. Les données de [DefiLlama](L3) au 10 novembre montrent environ <strong>293,4 milliards de dollars</strong> de stablecoins indexés sur le dollar en circulation. L'USDT de Tether en représente environ 176,3 milliards, soit 60 %, et l'USDC de Circle environ 70,1 milliards, soit 24 %. Aucun autre jeton en dollars ne dépasse 6 milliards.
+
+Les stablecoins en euros sont minuscules en comparaison : DefiLlama les évalue tous ensemble à bien moins de 1 milliard de dollars, ce qui explique en partie pourquoi le groupe voit de la place pour un jeton en euros adossé à des banques.
+
+!mid_cta
+
+Les banques ne sont pas les seuls grands acteurs à tenter leur chance. [CoinDesk](L4) rappelle que plus de 140 entreprises, dont Stripe, Visa, Mastercard et BlackRock, se sont associées en juin autour d'un autre projet de stablecoin en dollars. Les banques espèrent que leur clientèle et leurs réseaux de paiement existants leur donneront un avantage.
+
+!figure:fact
+
+## Ce que cela signifie pour les débutants
+
+Rien ne change pour vous aujourd'hui. Le jeton n'existe pas encore, il n'a pas de nom et le lancement visé est encore à plusieurs mois. S'il voit le jour, la banque que vous utilisez déjà pourrait vous permettre de détenir ou d'envoyer des dollars numériques, sans doute avec les mêmes contrôles de conformité qu'un virement classique.
+
+Gardez en tête qu'un stablecoin n'est pas un dépôt bancaire. Même avec le GENIUS Act, les stablecoins ne sont pas assurés par la FDIC, et leur sécurité dépend des réserves et des règles de l'émetteur. Si vous utilisez déjà des stablecoins, restez sur des jetons connus et des plateformes régulées. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Un nom officiel, un directeur général et une date de finalisation pour la nouvelle société.
+- Les blockchains sur lesquelles le jeton fonctionnera et la possibilité pour les particuliers de l'acheter directement.
+- Un éventuel recul de la part de l'USDT et de l'USDC une fois les banques entrées sur le marché.
+
+!soft: Les banques testent déjà des paiements en stablecoins. Découvrez comment [PNC teste des paiements en USDC avec Coinbase](/articles/pnc-coinbase-usdc-payments-pilot-nov-2026).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,59 @@
+title: Bloomberg'e göre Goldman Sachs, Citi ve diğer bankalar ortak bir dolar stablecoin'i için 270 milyon dolar taahhüt etti
+page_title: Bankalar ortak stablecoin için 270 milyon $ taahhüt etti
+description: Bloomberg'e göre Goldman Sachs, Citi, Santander, Deutsche Bank ve diğerleri, 2027'de piyasaya çıkması hedeflenen ve bankalarca yönetilecek dolar stablecoin'i Project Faro için yaklaşık 270 milyon dolar taahhüt etti.
+og_description: 21 kurumdan oluşan bir grup, ABD merkezli bir stablecoin ihraççısının beş yıllık faaliyetini finanse ediyor. Tether ve Circle bugün 293 milyar dolarlık dolar stablecoin piyasasının yaklaşık %84'ünü elinde tutuyor.
+label: İş dünyası
+summary: Büyük bankaların, Tether ve Circle'a rakip olacak ve 2027'nin ilk yarısında çıkması planlanan ortak dolar stablecoin'i Project Faro için yaklaşık 270 milyon $ taahhüt ettiği bildirildi.
+===
+
+Dünyanın en büyük bankalarından bazıları kendi dijital dolarlarının arkasına gerçek para koyuyor. [Bloomberg](L1), konuya yakın kişilere dayanarak 10 Kasım Salı günü Goldman Sachs, Citigroup, Banco Santander, Deutsche Bank ve diğer finans kuruluşlarının ortak bir stablecoin girişimi için yaklaşık <strong>270 milyon dolar</strong> taahhüt ettiğini bildirdi.
+
+Habere göre bu para, dolar cinsinden bir stablecoin çıkaracak ve ABD'de kurulması beklenen yeni bir şirketin <strong>beş yıllık</strong> faaliyet giderlerini karşılayacak. Proje şirket içinde Project Faro olarak biliniyor, henüz resmî bir adı yok ve hâlâ bir CEO arıyor. CoinDesk, katılımcı bankaların yorum taleplerine hemen yanıt vermediğini belirtti.
+
+!takeaways
+- Bankalara ait bir stablecoin şirketinin beş yılını finanse etmek için yaklaşık 270 milyon dolar taahhüt edildiği bildirildi.
+- 21 finans kuruluşundan oluşan grup planı 1 Eylül 2026'da duyurdu ve 2027'nin ilk yarısında piyasaya çıkmayı hedefliyor.
+- Önce ABD doları cinsinden bir stablecoin çıkacak, ardından öncelik euro olmak üzere diğer G7 para birimleri eklenecek.
+- DefiLlama'ya göre Tether'in USDT'si ve Circle'ın USDC'si, yaklaşık 293 milyar dolarlık dolar stablecoin'lerinin yaklaşık %84'ünü oluşturuyor.
+
+## Stablecoin nedir?
+
+Stablecoin, genellikle bir ABD doları gibi sabit bir değerde kalmak üzere tasarlanmış bir kripto token'dır. İhraççı, her token'ı desteklemek için nakit ve kısa vadeli Hazine bonosu gibi rezervler tutar. İnsanlar stablecoin'leri kripto uygulamaları arasında dolar taşımak, sınır ötesi ödeme yapmak ve parayı banka hesabına geri çevirmeden işlemler arasında bekletmek için kullanır.
+
+## Grupta kimler var
+
+Girişim 1 Eylül 2026'da kamuoyuna duyuruldu. [Ortak basın açıklamasında](L2) 21 kurum, kapanış koşullarına bağlı olarak 2026'nın ikinci yarısında yeni bir şirket kurmayı taahhüt ettiklerini ve stablecoin'lerini 2027'nin ilk yarısında piyasaya sürmeyi hedeflediklerini söyledi. Kuzey Amerikalı üyeler Bank of America, Capital One, Citi, Fidelity Investments, Goldman Sachs, PNC Financial Services, Scotiabank, TD Bank Group, Wells Fargo ve WisdomTree. Avrupalı üyeler arasında Santander, BBVA, Deutsche Bank, Lloyds, UBS ve diğerleri bulunuyor; bunlara MUFG Bank, Sirius International Holding ve Standard Bank da ekleniyor.
+
+Grup, coin'in ABD dolarıyla başlayacağını, daha uzun vadede diğer G7 para birimlerinde de stablecoin'ler ekleneceğini ve önceliğin euro versiyonu olacağını açıkladı. Coin'in toptan, kurumsal ve bireysel piyasalarda, sınır ötesi ödemeler ve dijital varlık işlemlerinin takası dahil çeşitli alanlarda kullanılması bekleniyor. Bankalar, 2025'te kabul edilen ABD federal stablecoin yasası GENIUS Act'e ve geçerli olduğu yerlerde Avrupa'nın MiCA kurallarına uymayı amaçladıklarını söyledi.
+
+!figure:chart
+
+## Tether ve Circle'a karşı
+
+Bankalar, zaten iki kripto şirketinin hâkim olduğu bir piyasaya giriyor. [DefiLlama'nın](L3) 10 Kasım verilerine göre dolaşımda yaklaşık <strong>293,4 milyar dolar</strong> değerinde dolara endeksli stablecoin var. Tether'in USDT'si yaklaşık 176,3 milyar dolarla %60'lık, Circle'ın USDC'si yaklaşık 70,1 milyar dolarla %24'lük paya sahip. Başka hiçbir dolar coin'i 6 milyar doları geçmiyor.
+
+Euro stablecoin'leri ise bunlarla kıyaslandığında çok küçük: DefiLlama hepsinin toplamını 1 milyar doların epey altında gösteriyor. Bu da grubun banka destekli bir euro token'ı için neden alan gördüğünü açıklıyor.
+
+!mid_cta
+
+Bu piyasaya girmeye çalışan büyük oyuncular yalnızca bankalar değil. [CoinDesk](L4), haziran ayında Stripe, Visa, Mastercard ve BlackRock dahil 140'tan fazla şirketin ayrı bir dolar stablecoin projesinde güç birliği yaptığını hatırlattı. Bankalar, mevcut müşterilerinin ve ödeme ağlarının kendilerine avantaj sağlamasını umuyor.
+
+!figure:fact
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Bugün sizin için hiçbir şey değişmiyor. Coin henüz yok, adı yok ve hedeflenen çıkış tarihine daha aylar var. Hayata geçerse, zaten kullandığınız banka dijital dolar tutmanıza veya göndermenize izin verebilir; büyük olasılıkla normal bir havaledeki gibi uyum kontrolleriyle.
+
+Unutmayın, stablecoin bir banka mevduatı değildir. GENIUS Act kapsamında bile stablecoin'ler FDIC sigortasına sahip değildir ve güvenlikleri ihraççının rezervlerine ve kurallarına bağlıdır. Şimdiden stablecoin kullanıyorsanız, düzenlemeye tabi platformlarda tanınmış coin'leri tercih edin. Bu yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Yeni şirket için resmî bir isim, bir CEO ve bir kapanış tarihi.
+- Coin'in hangi blokzincirlerde çalışacağı ve bireysel müşterilerin onu doğrudan alıp alamayacağı.
+- Bankalar piyasaya girdiğinde USDT ve USDC'nin payının azalmaya başlayıp başlamayacağı.
+
+!soft: Bankalar stablecoin ödemelerini şimdiden test ediyor. [PNC'nin Coinbase ile USDC ödemelerini nasıl denediğini](/articles/pnc-coinbase-usdc-payments-pilot-nov-2026) okuyun.
+
+!end_cta
+
+!disclosure

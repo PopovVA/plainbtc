@@ -395,6 +395,76 @@ def thumb_hot_cpi():
     ]}
 
 
+def _logo_cards(base, logos, card_w, card_h, gap, y0, logo_h, name_y, pad=14):
+    total = len(logos)*card_w + (len(logos)-1)*gap; x0 = (W-total)//2
+    for i,(logo,name) in enumerate(logos):
+        x=x0+i*(card_w+gap)
+        card=Image.new("RGBA",(card_w,card_h),(26,35,50,235))
+        ImageDraw.Draw(card).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, outline=(45,58,79,255), width=2)
+        mask=Image.new("L",(card_w,card_h),0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
+        base.paste(card.convert("RGB"), (x,y0), mask)
+        paste_contain(base, logo, (x,y0+8,card_w,logo_h), pad=pad)
+        d=ImageDraw.Draw(base); f=font(FONT_B,13); bb=d.textbbox((0,0),name,font=f); tw=bb[2]-bb[0]
+        d.text((x+(card_w-tw)//2, y0+name_y), name, font=f, fill=WHITE)
+    return x0, total
+
+def thumb_mexc():
+    fincen = fetch("https://upload.wikimedia.org/wikipedia/commons/c/ce/US-FinancialCrimesEnforcementNetwork-Seal.svg", CACHE/"fincen-seal.svg")
+    binance = fetch("https://upload.wikimedia.org/wikipedia/commons/e/e8/Binance_Logo.svg", CACHE/"binance-logo.svg")
+    treasury = fetch("https://upload.wikimedia.org/wikipedia/commons/0/0d/Treasury_Building_%281%29.jpg", CACHE/"treasury.jpg")
+    base = darken(cover_fit(open_rgb(treasury), cy=0.4), 150)
+    card_w, card_h, gap, y0 = 200, 190, 120, 60
+    x0, total = _logo_cards(base, [(Image.open(fincen).convert("RGBA"),"FinCEN"),(Image.open(binance).convert("RGBA"),"Binance")], card_w, card_h, gap, y0, 140, 160)
+    # blocked-transfer symbol between the cards
+    d = ImageDraw.Draw(base); cx, cy = x0+card_w+gap//2, y0+card_h//2
+    d.line([(cx-44,cy),(cx+44,cy)], fill=(148,163,184), width=4)
+    d.ellipse([cx-24,cy-24,cx+24,cy+24], outline=(248,113,113), width=5)
+    d.line([(cx-17,cy+17),(cx+17,cy-17)], fill=(248,113,113), width=5)
+    f = font(FONT_B, 15); t = "Transfers with MEXC blocked"; bb = d.textbbox((0,0),t,font=f)
+    d.text(((W-(bb[2]-bb[0]))//2, y0+card_h+26), t, font=f, fill=(254,202,202))
+    label_chip(base, "FinCEN order · MEXC")
+    return base, {"kind":"composite","sources":[
+        {"file":"US-FinancialCrimesEnforcementNetwork-Seal.svg","license":"Public domain","url":"https://commons.wikimedia.org/wiki/File:US-FinancialCrimesEnforcementNetwork-Seal.svg","credit":"FinCEN"},
+        {"file":"Binance_Logo.svg","license":"Logo","url":"https://commons.wikimedia.org/wiki/File:Binance_Logo.svg","credit":"Binance"},
+        {"file":"Treasury_Building_(1).jpg","license":"CC BY-SA 3.0","url":"https://commons.wikimedia.org/wiki/File:Treasury_Building_(1).jpg","credit":"AutoErich / Wikimedia Commons"},
+    ],"note":"Editorial composite; trademarks belong to their owners."}
+
+def thumb_faro():
+    gs = fetch("https://upload.wikimedia.org/wikipedia/commons/6/61/Goldman_Sachs.svg", CACHE/"goldman-sachs.svg")
+    citi = fetch("https://upload.wikimedia.org/wikipedia/commons/1/1b/Citi.svg", CACHE/"citi.svg")
+    san = fetch("https://upload.wikimedia.org/wikipedia/commons/b/b8/Banco_Santander_Logotipo.svg", CACHE/"santander.svg")
+    db = fetch("https://upload.wikimedia.org/wikipedia/commons/7/7b/Deutsche_Bank_logo_without_wordmark.svg", CACHE/"deutsche-bank.svg")
+    base = gradient_bg()
+    d = ImageDraw.Draw(base)
+    # dollar-coin motif along the bottom
+    for i,x in enumerate(range(60, W, 104)):
+        y = 300 + (8 if i % 2 else 0)
+        d.ellipse([x-22,y-22,x+22,y+22], fill=(26,35,50), outline=(52,211,153), width=3)
+        fb = font(FONT_B, 20); bb = d.textbbox((0,0),"$",font=fb)
+        d.text((x-(bb[2]-bb[0])//2, y-(bb[3]-bb[1])//2-4), "$", font=fb, fill=(52,211,153))
+    logos=[(Image.open(gs).convert("RGBA"),"Goldman Sachs"),(Image.open(citi).convert("RGBA"),"Citi"),
+           (Image.open(san).convert("RGBA"),"Santander"),(Image.open(db).convert("RGBA"),"Deutsche Bank")]
+    # white tiles so dark logos stay visible
+    card_w, card_h, gap, y0 = 132, 160, 14, 60
+    total = 4*card_w+3*gap; x0=(W-total)//2
+    for i,(logo,name) in enumerate(logos):
+        x=x0+i*(card_w+gap)
+        tile=Image.new("RGBA",(card_w,card_h),(255,255,255,255))
+        mask=Image.new("L",(card_w,card_h),0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
+        base.paste(tile.convert("RGB"), (x,y0), mask)
+        lg = logo.copy(); bgw = Image.new("RGBA", lg.size, (255,255,255,255)); bgw.paste(lg,(0,0),lg)
+        paste_contain(base, bgw, (x,y0+6,card_w,112), pad=14)
+        dd=ImageDraw.Draw(base); f=font(FONT_B,12); bb=dd.textbbox((0,0),name,font=f); tw=bb[2]-bb[0]
+        dd.text((x+(card_w-tw)//2, y0+128), name, font=f, fill=(15,23,42))
+    label_chip(base, "Bank stablecoin venture")
+    return base, {"kind":"composite","sources":[
+        {"file":"Goldman_Sachs.svg","license":"Public domain (logo)","url":"https://commons.wikimedia.org/wiki/File:Goldman_Sachs.svg","credit":"Goldman Sachs"},
+        {"file":"Citi.svg","license":"Public domain (logo)","url":"https://commons.wikimedia.org/wiki/File:Citi.svg","credit":"Citigroup"},
+        {"file":"Banco_Santander_Logotipo.svg","license":"Public domain (logo)","url":"https://commons.wikimedia.org/wiki/File:Banco_Santander_Logotipo.svg","credit":"Banco Santander"},
+        {"file":"Deutsche_Bank_logo_without_wordmark.svg","license":"Public domain (logo)","url":"https://commons.wikimedia.org/wiki/File:Deutsche_Bank_logo_without_wordmark.svg","credit":"Deutsche Bank"},
+    ],"note":"Editorial composite; trademarks belong to their owners."}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -408,6 +478,8 @@ BUILDERS = {
     "how-to-buy-first-bitcoin-coinbase": thumb_howto,
     "binance-hack-north-korea-memecoin-laundering-nov-2026": thumb_binance_hack,
     "bitcoin-hot-cpi-etf-outflows-nov-2026": thumb_hot_cpi,
+    "binance-blocks-mexc-fincen-order-nov-2026": thumb_mexc,
+    "banks-270-million-stablecoin-project-faro-nov-2026": thumb_faro,
 }
 
 def first_figure_source(slug: str) -> Path | None:

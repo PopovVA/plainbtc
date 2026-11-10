@@ -1,0 +1,59 @@
+title: Goldman Sachs, Citi und andere Banken sagen laut Bericht 270 Millionen Dollar für einen gemeinsamen Dollar-Stablecoin zu
+page_title: Banken sagen 270 Mio. $ für gemeinsamen Stablecoin zu
+description: Goldman Sachs, Citi, Santander, Deutsche Bank und weitere haben laut Bloomberg rund 270 Millionen Dollar für Project Faro zugesagt, einen von Banken betriebenen Dollar-Stablecoin mit geplantem Start 2027.
+og_description: Eine Gruppe von 21 Instituten finanziert fünf Jahre eines in den USA ansässigen Stablecoin-Emittenten. Tether und Circle halten heute rund 84 % des 293 Mrd. $ großen Markts für Dollar-Stablecoins.
+label: Unternehmen
+summary: Großbanken sollen rund 270 Mio. $ für Project Faro zugesagt haben, einen gemeinsamen Dollar-Stablecoin für das erste Halbjahr 2027, der Tether und Circle Konkurrenz machen soll.
+===
+
+Einige der größten Banken der Welt stecken echtes Geld in ihren eigenen digitalen Dollar. Goldman Sachs, Citigroup, Banco Santander, Deutsche Bank und weitere Finanzhäuser haben rund <strong>270 Millionen Dollar</strong> für ein gemeinsames Stablecoin-Unternehmen zugesagt, berichtete [Bloomberg](L1) am Dienstag, dem 10. November, unter Berufung auf mit der Sache vertraute Personen.
+
+Dem Bericht zufolge soll das Geld <strong>fünf Jahre</strong> Betriebskosten einer neuen Gesellschaft decken, die einen auf Dollar lautenden Stablecoin ausgeben und voraussichtlich in den USA gegründet werden soll. Das Projekt läuft intern unter dem Namen Project Faro, hat noch keinen offiziellen Namen und sucht noch einen Vorstandschef. Laut CoinDesk reagierten die beteiligten Banken zunächst nicht auf Anfragen.
+
+!takeaways
+- Rund 270 Millionen Dollar wurden laut Bericht zugesagt, um fünf Jahre einer bankeigenen Stablecoin-Gesellschaft zu finanzieren.
+- Die Gruppe aus 21 Finanzinstituten kündigte den Plan am 1. September 2026 an und will im ersten Halbjahr 2027 starten.
+- Zuerst kommt ein US-Dollar-Stablecoin, später weitere G7-Währungen, mit einem Euro-Token als Priorität.
+- Tethers USDT und Circles USDC halten laut DefiLlama rund 84 % der etwa 293 Milliarden Dollar an Dollar-Stablecoins.
+
+## Was ist ein Stablecoin?
+
+Ein Stablecoin ist ein Krypto-Token, der einen festen Wert halten soll, meist einen US-Dollar. Der Emittent hält Reserven wie Bargeld und kurzlaufende Staatsanleihen, um jeden Token zu decken. Stablecoins dienen dazu, Dollar zwischen Krypto-Apps zu bewegen, grenzüberschreitend zu zahlen und Geld zwischen zwei Trades zu parken, ohne es zurück aufs Bankkonto zu überweisen.
+
+## Wer zur Gruppe gehört
+
+Das Vorhaben wurde am 1. September 2026 öffentlich. In einer [gemeinsamen Pressemitteilung](L2) erklärten 21 Institute, sie hätten sich verpflichtet, im zweiten Halbjahr 2026 vorbehaltlich der Vollzugsbedingungen eine neue Gesellschaft zu gründen, und wollten ihren Stablecoin im ersten Halbjahr 2027 auf den Markt bringen. Die nordamerikanischen Mitglieder sind Bank of America, Capital One, Citi, Fidelity Investments, Goldman Sachs, PNC Financial Services, Scotiabank, TD Bank Group, Wells Fargo und WisdomTree. Aus Europa sind unter anderem Santander, BBVA, Deutsche Bank, Lloyds und UBS dabei, außerdem MUFG Bank, Sirius International Holding und Standard Bank.
+
+Die Gruppe teilte mit, der Coin starte in US-Dollar; längerfristig sollen Stablecoins in weiteren G7-Währungen folgen, vorrangig eine Euro-Version. Geplant sind Anwendungen im Großkunden-, institutionellen und Privatkundengeschäft, darunter grenzüberschreitende Zahlungen und die Abwicklung von Geschäften mit digitalen Vermögenswerten. Die Banken wollen den GENIUS Act, das 2025 verabschiedete US-Bundesgesetz für Stablecoins, und – wo anwendbar – die europäische MiCA-Verordnung einhalten.
+
+!figure:chart
+
+## Gegen Tether und Circle
+
+Die Banken betreten einen Markt, den bereits zwei Kryptofirmen beherrschen. Daten von [DefiLlama](L3) vom 10. November zeigen rund <strong>293,4 Milliarden Dollar</strong> an dollargebundenen Stablecoins im Umlauf. Tethers USDT kommt auf rund 176,3 Milliarden Dollar oder 60 %, Circles USDC auf rund 70,1 Milliarden Dollar oder 24 %. Kein anderer Dollar-Coin liegt über 6 Milliarden Dollar.
+
+Euro-Stablecoins sind im Vergleich winzig: DefiLlama beziffert sie zusammen auf deutlich unter 1 Milliarde Dollar. Das erklärt, warum die Gruppe Platz für einen bankgestützten Euro-Token sieht.
+
+!mid_cta
+
+Die Banken sind nicht die einzigen Großen, die einsteigen wollen. [CoinDesk](L4) erinnerte daran, dass sich im Juni mehr als 140 Unternehmen, darunter Stripe, Visa, Mastercard und BlackRock, zu einem separaten Dollar-Stablecoin-Projekt zusammengeschlossen haben. Die Banken hoffen, dass ihnen ihre bestehenden Kunden und Zahlungsnetze einen Vorteil verschaffen.
+
+!figure:fact
+
+## Was das für Einsteiger bedeutet
+
+Für Sie ändert sich heute nichts. Den Coin gibt es noch nicht, er hat keinen Namen, und der geplante Start liegt noch Monate entfernt. Kommt er, könnte Ihre bisherige Bank Ihnen ermöglichen, digitale Dollar zu halten oder zu senden – vermutlich mit ähnlichen Compliance-Prüfungen wie bei einer normalen Überweisung.
+
+Denken Sie daran: Ein Stablecoin ist keine Bankeinlage. Auch unter dem GENIUS Act sind Stablecoins nicht durch die FDIC versichert, und ihre Sicherheit hängt von den Reserven und Regeln des Emittenten ab. Wenn Sie schon Stablecoins nutzen, bleiben Sie bei bekannten Coins auf regulierten Plattformen. Dies ist keine Anlageberatung.
+
+## Worauf man achten sollte
+
+- Ein offizieller Name, ein Vorstandschef und ein Abschlussdatum für die neue Gesellschaft.
+- Auf welchen Blockchains der Coin laufen wird und ob Privatkunden ihn direkt kaufen können.
+- Ob der Anteil von USDT und USDC sinkt, sobald die Banken einsteigen.
+
+!soft: Banken testen bereits Zahlungen mit Stablecoins. Lesen Sie, wie [PNC USDC-Zahlungen mit Coinbase erprobt](/articles/pnc-coinbase-usdc-payments-pilot-nov-2026).
+
+!end_cta
+
+!disclosure

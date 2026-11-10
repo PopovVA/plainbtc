@@ -5,8 +5,22 @@
     <link>https://plainbtc.com/ko/</link>
     <description>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 10 Nov 2026 14:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 19:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ko/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>바이낸스, 미 재무부의 167억 달러 불법 자금 의혹 명령 이후 MEXC 송금 차단</title>
+      <link>https://plainbtc.com/ko/articles/binance-blocks-mexc-fincen-order-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/binance-blocks-mexc-fincen-order-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 19:40:00 GMT</pubDate>
+      <description>바이낸스가 MEXC로의 송금을 거부하고 MEXC발 입금을 심사를 위해 보류한다. FinCEN 명령으로 MEXC는 12월 10일부터 미국 금융기관과 거래할 수 없게 된다.</description>
+    </item>
+    <item>
+      <title>골드만삭스·씨티 등 은행들, 공동 달러 스테이블코인에 2억 7,000만 달러 약정 — 블룸버그</title>
+      <link>https://plainbtc.com/ko/articles/banks-270-million-stablecoin-project-faro-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/banks-270-million-stablecoin-project-faro-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 19:35:00 GMT</pubDate>
+      <description>대형 은행들이 테더·서클에 맞설 공동 달러 스테이블코인 'Project Faro'에 약 2억 7,000만 달러를 약정한 것으로 전해졌다. 출시 목표는 2027년 상반기다.</description>
+    </item>
     <item>
       <title>10월 미국 인플레이션 예상 웃돌자 비트코인 73,400달러 부근까지 하락</title>
       <link>https://plainbtc.com/ko/articles/bitcoin-hot-cpi-etf-outflows-nov-2026</link>

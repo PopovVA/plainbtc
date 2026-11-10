@@ -32,6 +32,16 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "binance-blocks-mexc-fincen-order-nov-2026",
+        "Binance blocks MEXC transfers after a U.S. Treasury order",
+        "REGULATION",
+    ),
+    (
+        "banks-270-million-stablecoin-project-faro-nov-2026",
+        "Banks reportedly commit $270 million to a joint dollar stablecoin",
+        "BUSINESS",
+    ),
+    (
         "coinbase-occ-national-trust-charter-nov-2026",
         "Coinbase wins a full national trust charter from the OCC",
         "REGULATION",

@@ -5,8 +5,22 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Tue, 10 Nov 2026 14:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 19:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Binance, ABD Hazinesinin 16,7 milyar dolarlık yasa dışı olduğu iddia edilen akışlarla ilgili kararı sonrası MEXC transferlerini engelliyor</title>
+      <link>https://plainbtc.com/tr/articles/binance-blocks-mexc-fincen-order-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/binance-blocks-mexc-fincen-order-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 19:40:00 GMT</pubDate>
+      <description>Binance, MEXC'ye gönderimleri reddedecek ve oradan gelen yatırımları incelemeye alacak. FinCEN kararı MEXC'yi 10 Aralık'tan itibaren ABD'li kurumlardan koparıyor.</description>
+    </item>
+    <item>
+      <title>Bloomberg'e göre Goldman Sachs, Citi ve diğer bankalar ortak bir dolar stablecoin'i için 270 milyon dolar taahhüt etti</title>
+      <link>https://plainbtc.com/tr/articles/banks-270-million-stablecoin-project-faro-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/banks-270-million-stablecoin-project-faro-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 19:35:00 GMT</pubDate>
+      <description>Büyük bankaların, Tether ve Circle'a rakip olacak ve 2027'nin ilk yarısında çıkması planlanan ortak dolar stablecoin'i Project Faro için yaklaşık 270 milyon $ taahhüt ettiği bildirildi.</description>
+    </item>
     <item>
       <title>Ekim enflasyonu beklentiyi aşınca bitcoin 73.400 dolara doğru geriledi</title>
       <link>https://plainbtc.com/tr/articles/bitcoin-hot-cpi-etf-outflows-nov-2026</link>
