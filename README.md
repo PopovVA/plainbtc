@@ -179,13 +179,41 @@ The block sequence (headings, paragraphs, lists, `!` blocks), link keys and numb
 
 ### Coinbase referral per language (`referral` in `i18n/langs.json`)
 
-Policy (9 November 2026): the Coinbase referral (`https://coinbase.com/join/F2XRWRL?src=referral-link`, inline `[text](REF)` links, mid-article banner, end CTA, and per-article affiliate disclosure) appears **only on English pages** (the site root, no language prefix).
+Policy (9 November 2026): the Coinbase referral (`https://coinbase.com/join/F2XRWRL?src=referral-link`, inline `[text](REF)` links, mid-article banner, end CTA, and per-article affiliate disclosure) appears **only on English pages** (the site root, no language prefix). The URL itself lives in `i18n/partners.json` (`id: coinbase`).
 
 * `full` (en only): inline referral link, mid-article banner, end CTA, and affiliate disclosure. CTA and disclosure wording must stay accurate to Coinbase’s official invite terms: the offer is for new U.S. customers and is not available in Washington state; point readers to Coinbase’s site for current terms. Do not state bonus amounts.
 * `hedged` / `soft`: still supported by the builder for a future local referral, but **not used**. Do not turn these on for Coinbase.
-* `none` (es, pt, fr, de, ru, tr, id, ja, ko): no referral URL, no banner, no affiliate disclosure line. Inline `[text](REF)` and `{{#ref}}…{{/ref}}` render as plain text (or are omitted). The end-of-article `!end_cta` becomes a non-affiliate box (`alt_cta_title` / `alt_cta_text` in `i18n/strings/<lang>.json`) pointing to the newsletter, community, and related guides. Neutral mentions of Coinbase as a company in news copy are fine.
+* `none` (es, pt, fr, de, ru, tr, id, ja, ko): no Coinbase referral URL, no Coinbase banner, no Coinbase affiliate disclosure line. Inline `[text](REF)` and `{{#ref}}…{{/ref}}` render as plain text (or are omitted). The end-of-article `!end_cta` becomes a non-affiliate box (`alt_cta_title` / `alt_cta_text` in `i18n/strings/<lang>.json`) pointing to the newsletter, community, and related guides — unless another partner is live for that language (see below). Neutral mentions of Coinbase as a company in news copy are fine.
 
-Disclosure pages in the nine non-English languages must say clearly that **English pages** may contain a Coinbase affiliate link, and that **this language edition does not**. Never put `coinbase.com/join` or the referral code on a non-English page (including disclosure and newsletter templates). Change a language’s mode in `langs.json` and rebuild to adjust the policy. Never invent bonus amounts in any language.
+Disclosure pages in the nine non-English languages must say clearly that **English pages** may contain a Coinbase affiliate link, and that **this language edition does not**, until a non-Coinbase partner is actually switched on for that language. Never put `coinbase.com/join` or the referral code on a non-English page (including disclosure and newsletter templates). Change a language’s mode in `langs.json` and rebuild to adjust the Coinbase policy. Never invent bonus amounts in any language.
+
+### Other referral partners (`i18n/partners.json`)
+
+Additional partners (River, Gemini, Uphold, and reserved slots for Public and SoFi) are configured in `i18n/partners.json`. Planned language map, once URLs are filled:
+
+* `en` — Coinbase (already live) + River + Gemini (Public / SoFi only if official terms allow a website link)
+* `es`, `pt` — Uphold and Gemini
+* `fr`, `de` — Gemini
+* `ru`, `tr`, `id`, `ja`, `ko` — none for now
+
+A partner is **live on the site only when all of the following are true**:
+
+1. `enabled` is `true`
+2. `url` is a non-empty `https://` link (no placeholder URLs)
+3. `share_policy` allows it: `allowed` can go live; `forbidden` is rejected by the builder even if a URL is pasted; `affiliate_only` requires `url_type` to be `"affiliate"` (an approved affiliate link, not a personal referral link)
+
+Until then the slot stays dark: the builder emits no HTML, no links, and no new disclosure lines. CTA copy and per-language disclosure text can be prepared in the JSON in advance.
+
+**How to activate a partner once the referral or affiliate URL arrives:**
+
+1. Confirm official terms still allow posting the link on a blog (re-read `share_policy` and the program’s current terms). Do not activate `public` (commercial use is forbidden) or a personal SoFi referral (`sofi` is `affiliate_only`).
+2. In `i18n/partners.json`, paste the real `https://` URL into that partner’s `url` field and set `enabled` to `true`. For SoFi, also set `url_type` to `"affiliate"`.
+3. Keep CTA/disclosure wording hedged and accurate. Do not invent or state bonus amounts (except where a program’s official rules require disclosing the specific compensation — then quote the current official figure and date, and point to the official terms).
+4. On each language disclosure page that will now carry the link (`i18n/pages/<lang>/disclosure.txt`), insert a `!partners` block in the referral section and rewrite any sentence that said this language edition has **no** referral links. English `disclosure.html` is patched automatically when extra English partners go live.
+5. Run `python3 tools/build_i18n.py --check` then `python3 tools/build_i18n.py`. The end-of-article partner box and a disclosure line appear only on the languages listed for that partner. Community and newsletter blocks are unchanged.
+6. Commit, push, and spot-check the live pages (and `rel="sponsored"`).
+
+To turn a partner off, clear `url` or set `enabled` to `false` and rebuild.
 
 ## Visit analytics (cookieless)
 

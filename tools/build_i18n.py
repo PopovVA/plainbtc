@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """PlainBTC multilingual builder.
 
-Reads  i18n/langs.json, i18n/strings/<lang>.json, i18n/pages/<lang>/{about,disclosure}.txt,
+Reads  i18n/langs.json, i18n/partners.json, i18n/strings/<lang>.json,
+       i18n/pages/<lang>/{about,disclosure}.txt,
        i18n/content/<slug>/{meta.json,links.json,<lang>.txt}
 Writes <lang>/index.html, <lang>/about.html, <lang>/disclosure.html, <lang>/articles/<slug>.html,
        <lang>/feed.xml, sitemap.xml (with hreflang alternates)
@@ -194,6 +195,246 @@ LANG = {l["code"]: l for l in LANGS}
 ALLOWED = r"(</?(?:strong|em|code)>|<br>)"
 errors: list[str] = []
 warnings: list[str] = []
+
+
+# ---------------------------------------------------------------- partners (i18n/partners.json)
+# A partner is live only when enabled is true, url is a non-empty https:// link,
+# and share_policy allows publishing it. Empty urls must not appear in HTML.
+PARTNERS_CFG = json.loads((ROOT / "i18n/partners.json").read_text(encoding="utf-8"))
+PARTNERS = PARTNERS_CFG.get("partners", [])
+PARTNER_UI = PARTNERS_CFG.get("ui", {})
+
+
+def _partner_url(p: dict) -> str:
+    return (p.get("url") or "").strip()
+
+
+def partner_by_id(pid: str) -> dict | None:
+    for p in PARTNERS:
+        if p.get("id") == pid:
+            return p
+    return None
+
+
+def _apply_coinbase_url() -> None:
+    """Use partners.json as the Coinbase URL source of truth (same default if unset)."""
+    global REF_URL
+    cb = partner_by_id("coinbase")
+    if cb and _partner_url(cb).startswith("https://"):
+        REF_URL = _partner_url(cb)
+
+
+_apply_coinbase_url()
+
+
+def partner_activation_error(p: dict) -> str | None:
+    """Blocking error if a partner is marked live incorrectly; None if it stays dark or is valid."""
+    url = _partner_url(p)
+    if not p.get("enabled") or not url:
+        return None
+    pid = p.get("id") or "?"
+    if not url.startswith("https://"):
+        return f"partner {pid}: url must start with https://"
+    policy = p.get("share_policy") or "allowed"
+    if policy == "forbidden":
+        return (
+            f"partner {pid}: share_policy is forbidden — official terms do not allow "
+            "publishing this referral link on a website. Leave url empty and enabled false."
+        )
+    if policy == "affiliate_only" and p.get("url_type") != "affiliate":
+        return (
+            f"partner {pid}: share_policy is affiliate_only. Use an approved affiliate URL "
+            "and set url_type to 'affiliate' (do not publish a personal referral link)."
+        )
+    langs = p.get("languages") or []
+    if not langs:
+        return f"partner {pid}: languages must be a non-empty list"
+    if pid == "coinbase":
+        return None
+    for lang in langs:
+        cta = (p.get("cta") or {}).get(lang) or {}
+        if not all(cta.get(k) for k in ("title", "text", "button")):
+            return f"partner {pid}: missing cta title/text/button for language '{lang}'"
+        if not (p.get("disclosure") or {}).get(lang):
+            return f"partner {pid}: missing disclosure text for language '{lang}'"
+        if lang not in PARTNER_UI:
+            return f"partner {pid}: missing ui strings for language '{lang}' in partners.json"
+    return None
+
+
+def validate_partners() -> None:
+    seen: list[str] = []
+    for p in PARTNERS:
+        pid = p.get("id")
+        if not pid:
+            errors.append("partners.json: a partner is missing id")
+            continue
+        if pid in seen:
+            errors.append(f"partners.json: duplicate id {pid}")
+        seen.append(pid)
+        err = partner_activation_error(p)
+        if err:
+            errors.append(err)
+        # Even while dark, require CTA copy for every listed language so activation is url+enabled only.
+        if pid == "coinbase":
+            continue
+        for lang in p.get("languages") or []:
+            cta = (p.get("cta") or {}).get(lang) or {}
+            if not all(cta.get(k) for k in ("title", "text", "button")):
+                errors.append(f"partner {pid}: prepare cta title/text/button for language '{lang}' before it can be enabled")
+            if not (p.get("disclosure") or {}).get(lang):
+                errors.append(f"partner {pid}: prepare disclosure text for language '{lang}' before it can be enabled")
+            if lang not in PARTNER_UI:
+                errors.append(f"partners.json: missing ui.{lang} strings used by partner {pid}")
+
+
+def live_partners(lang: str) -> list[dict]:
+    out = []
+    for p in PARTNERS:
+        if partner_activation_error(p):
+            continue
+        if not p.get("enabled") or not _partner_url(p).startswith("https://"):
+            continue
+        if lang in (p.get("languages") or []):
+            out.append(p)
+    return out
+
+
+def extra_partners(lang: str) -> list[dict]:
+    """Live partners other than Coinbase (Coinbase still uses the existing CTA path)."""
+    return [p for p in live_partners(lang) if p.get("id") != "coinbase"]
+
+
+def partner_cta_slot_html(pg: Page, p: dict, lang: str) -> str:
+    cta = (p.get("cta") or {}).get(lang) or {}
+    url = esc_attr(_partner_url(p))
+    name = p.get("name") or p.get("id") or "partner"
+    title = cta.get("title") or name
+    text = cta.get("text") or ""
+    button = cta.get("button") or name
+    return (
+        f'        <div class="partner-slot" data-partner="{esc_attr(p["id"])}">\n'
+        f"          <h3>{esc(title)}</h3>\n"
+        f"          <p>{pg.inline(text)}</p>\n"
+        f'          <a class="cta-button" href="{url}" rel="sponsored noopener" target="_blank">{esc(button)}</a>\n'
+        "        </div>\n"
+    )
+
+
+def partners_end_cta_html(pg: Page, lang: str) -> str:
+    extras = extra_partners(lang)
+    if not extras:
+        return ""
+    ui = PARTNER_UI.get(lang) or PARTNER_UI.get("en") or {}
+    slots = "".join(partner_cta_slot_html(pg, p, lang) for p in extras)
+    title = ui.get("box_title") or "If you decide to open an account"
+    intro = ui.get("box_intro") or ""
+    return (
+        '      <div class="cta partners-cta">\n'
+        f"        <h2>{esc(title)}</h2>\n"
+        f"        <p>{pg.inline(intro)}</p>\n"
+        f"{slots}"
+        "      </div>\n"
+    )
+
+
+def partners_article_disclosure_html(pg: Page, lang: str) -> str:
+    bits = []
+    for p in extra_partners(lang):
+        raw = (p.get("disclosure") or {}).get(lang) or ""
+        if raw:
+            bits.append(pg.inline(raw))
+    return "<br><br>\n        ".join(bits)
+
+
+def partners_page_html(pg: Page, lang: str) -> str:
+    """Disclosure-page list of extra live partners. Empty when none are live (Coinbase stays in static English copy)."""
+    extras = extra_partners(lang)
+    if not extras:
+        return ""
+    ui = PARTNER_UI.get(lang) or PARTNER_UI.get("en") or {}
+    items = []
+    for p in extras:
+        disc = (p.get("disclosure") or {}).get(lang) or ""
+        if disc:
+            items.append(f"        <li>{pg.inline(disc)}</li>")
+    intro = ui.get("page_intro") or ""
+    parts = ['      <div class="partner-list">']
+    if intro:
+        parts.append(f"        <p>{pg.inline(intro)}</p>")
+    if items:
+        parts.append("        <ul>")
+        parts.extend(items)
+        parts.append("        </ul>")
+    parts.append("      </div>")
+    return "\n".join(parts) + "\n"
+
+
+def strip_partners(h: str) -> str:
+    h = re.sub(r"[ \t]*<!-- i18n:partners -->.*?<!-- /i18n:partners -->\s*", "\n", h, flags=re.S)
+    h = re.sub(r'\s*<div class="cta partners-cta"[^>]*>.*?</div>\s*', "\n", h, flags=re.S)
+    h = re.sub(r'\s*<div class="partner-list"[^>]*>.*?</div>\s*', "\n", h, flags=re.S)
+    return h
+
+
+def place_partners(h: str, lang: str, kind: str) -> str:
+    """Inject extra-partner CTAs/disclosure only when a non-Coinbase partner is live. No-op otherwise."""
+    h = strip_partners(h)
+    extras = extra_partners(lang)
+    if not extras:
+        return h
+    pg = Page(lang)
+    if kind == "article":
+        block = (
+            "  <!-- i18n:partners -->\n"
+            + partners_end_cta_html(pg, lang)
+            + "  <!-- /i18n:partners -->"
+        )
+        m = re.search(r'(<div class="cta">.*?</div>)', h, flags=re.S)
+        if m:
+            h = h[: m.end()] + "\n" + block + h[m.end() :]
+        else:
+            m = re.search(r'(<div class="disclosure">)', h)
+            if m:
+                h = h[: m.start()] + block + "\n      " + h[m.start() :]
+            else:
+                errors.append(f"cannot place partners CTA ({lang}/{kind})")
+        extra_disc = partners_article_disclosure_html(pg, lang)
+        if extra_disc:
+            def _inject_disc(m):
+                inner = m.group(1)
+                if extra_disc in inner:
+                    return m.group(0)
+                if "<br><br>" in inner:
+                    head, sep, tail = inner.partition("<br><br>")
+                    rebuilt = head + "<br><br>\n        " + extra_disc + sep + tail
+                else:
+                    rebuilt = extra_disc + "<br><br>\n        " + inner
+                return '<div class="disclosure">\n        ' + rebuilt + "\n      </div>"
+            h2, n = re.subn(
+                r'<div class="disclosure">\s*(.*?)\s*</div>',
+                _inject_disc,
+                h,
+                count=1,
+                flags=re.S,
+            )
+            if n:
+                h = h2
+    elif kind == "disclosure":
+        block = (
+            "  <!-- i18n:partners -->\n"
+            + partners_page_html(pg, lang)
+            + "  <!-- /i18n:partners -->"
+        )
+        m = re.search(
+            r"(<h2>(?:How we mark links|Cómo marcamos los enlaces|Como marcamos os links|Comment nous marquons les liens|Wie wir Links kennzeichnen)</h2>)",
+            h,
+        )
+        if m:
+            h = h[: m.start()] + block + "\n      " + h[m.start() :]
+        else:
+            errors.append(f"cannot place partners disclosure list ({lang})")
+    return h
 
 
 # ---------------------------------------------------------------- text format
@@ -515,6 +756,11 @@ def render_blocks(pg: Page, blocks: list[dict], indent="      ") -> str:
         elif t in ("ul", "ol"):
             lis = "\n".join(f"{indent}  <li>{pg.inline(i)}</li>" for i in b["items"])
             out.append(f"{indent}<{t}>\n{lis}\n{indent}</{t}>")
+        elif t == "partners":
+            # Extra live partners on a disclosure page. Renders nothing until a URL is filled.
+            html = partners_page_html(pg, pg.lang).rstrip()
+            if html:
+                out.append(html)
         else:
             raise ValueError(f"unexpected block {t}")
     return "\n".join(out)
@@ -674,7 +920,10 @@ def build_article(lang: str, slug: str):
         <a class="cta-button" href="{REF_URL}" rel="sponsored noopener" target="_blank">{esc(s['cta_button'])}</a>
       </div>
 ''')
-            else:
+            extras = partners_end_cta_html(pg, lang)
+            if extras:
+                body.append(extras)
+            elif mode == "none":
                 # Non-affiliate closer: newsletter + community sit just below; related guides follow.
                 body.append(f'''      <div class="cta">
         <h2>{esc(s['alt_cta_title'])}</h2>
@@ -683,7 +932,13 @@ def build_article(lang: str, slug: str):
 ''')
         elif t == "disclosure":
             adv = s["not_advice_" + meta.get("disclosure_variant", "std")]
-            aff = (pg.inline(s["disc_affiliate"]) + "<br><br>\n        ") if mode != "none" else ""
+            aff_parts = []
+            if mode != "none":
+                aff_parts.append(pg.inline(s["disc_affiliate"]))
+            extra_aff = partners_article_disclosure_html(pg, lang)
+            if extra_aff:
+                aff_parts.append(extra_aff)
+            aff = ("<br><br>\n        ".join(aff_parts) + "<br><br>\n        ") if aff_parts else ""
             body.append(f'      <div class="disclosure">\n        {aff}{pg.inline(adv)}\n      </div>\n')
         else:
             errors.append(f"[{lang}/{slug}] unknown block {t}")
@@ -985,6 +1240,8 @@ def patch_en(path: Path, kind: str, slug: str = ""):
         )
     h = re.sub(r'<script type="application/ld\+json">.*?</script>', add_same_as, h, flags=re.S)
     h = place_newsletter(h, DEFAULT, kind, path_for(DEFAULT, kind, slug))
+    if kind in ("article", "disclosure"):
+        h = place_partners(h, DEFAULT, kind)
     if h != o:
         path.write_text(h, encoding="utf-8")
 
@@ -1061,6 +1318,7 @@ def main():
     check_only = "--check" in sys.argv
     load_content()
     validate_strings()
+    validate_partners()
     validate()
     if errors:
         print("\n".join("ERROR " + e for e in errors)); sys.exit(1)

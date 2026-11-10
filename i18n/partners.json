@@ -1,0 +1,164 @@
+{
+  "_doc": "Per-language referral/affiliate partner slots. A partner appears on the live site only when enabled is true AND url is a non-empty https:// link AND share_policy allows it. Leave url empty to keep the slot dark. Do not invent bonus amounts in CTA or disclosure text. Activation steps are in the README (Referral partners).",
+  "ui": {
+    "en": {
+      "box_title": "If you decide to open an account",
+      "box_intro": "If a service below is available where you live and you decide to sign up, you can use our referral link. Any offer depends on your country and the provider’s current terms — check them on the signup page. This is not investment advice.",
+      "page_intro": "This language edition may include the referral links listed below. Availability and rewards are set by each provider; always check their current terms. Mentions of other companies in news articles are informational only."
+    },
+    "es": {
+      "box_title": "Si decides abrir una cuenta",
+      "box_intro": "Si el servicio está disponible donde vives y decides registrarte, puedes usar nuestro enlace de referido. Cualquier oferta depende de tu país y de las condiciones vigentes del proveedor: compruébalas en la página de registro. Esto no es asesoramiento de inversión.",
+      "page_intro": "Esta versión en español puede incluir los enlaces de referido que se indican a continuación. La disponibilidad y las recompensas las fija cada proveedor; revisa siempre sus condiciones vigentes. Las menciones a otras empresas en las noticias son solo informativas. Las páginas en inglés también pueden incluir un enlace de Coinbase (oferta para nuevos clientes de EE. UU.)."
+    },
+    "pt": {
+      "box_title": "Se você decidir abrir uma conta",
+      "box_intro": "Se o serviço estiver disponível onde você mora e você decidir se cadastrar, pode usar nosso link de indicação. Qualquer oferta depende do seu país e dos termos atuais do provedor — confira na página de cadastro. Isto não é aconselhamento de investimento.",
+      "page_intro": "Esta versão em português pode incluir os links de indicação listados abaixo. A disponibilidade e as recompensas são definidas por cada provedor; verifique sempre os termos atuais. Menções a outras empresas nas notícias são apenas informativas. As páginas em inglês também podem incluir um link da Coinbase (oferta para novos clientes dos EUA)."
+    },
+    "fr": {
+      "box_title": "Si vous décidez d’ouvrir un compte",
+      "box_intro": "Si le service est disponible là où vous vivez et que vous décidez de vous inscrire, vous pouvez utiliser notre lien de parrainage. Toute offre dépend de votre pays et des conditions en vigueur chez le prestataire : vérifiez-les sur la page d’inscription. Ceci n’est pas un conseil en investissement.",
+      "page_intro": "Cette version française peut contenir les liens de parrainage listés ci-dessous. La disponibilité et les récompenses sont fixées par chaque prestataire ; consultez toujours ses conditions en vigueur. Les mentions d’autres entreprises dans nos actualités sont purement informatives. Les pages en anglais peuvent aussi contenir un lien Coinbase (offre pour les nouveaux clients américains)."
+    },
+    "de": {
+      "box_title": "Wenn Sie ein Konto eröffnen möchten",
+      "box_intro": "Wenn der Dienst an Ihrem Wohnort verfügbar ist und Sie sich anmelden möchten, können Sie unseren Empfehlungslink nutzen. Ob es ein Angebot gibt, hängt von Ihrem Land und den jeweils geltenden Bedingungen des Anbieters ab — prüfen Sie diese auf der Anmeldeseite. Dies ist keine Anlageberatung.",
+      "page_intro": "Diese deutsche Fassung kann die unten genannten Empfehlungslinks enthalten. Verfügbarkeit und Prämien legt jeder Anbieter fest; prüfen Sie stets die aktuellen Bedingungen. Erwähnungen anderer Unternehmen in den Nachrichten dienen nur der Information. Englische Seiten können außerdem einen Coinbase-Empfehlungslink enthalten (Angebot für neue US-Kunden)."
+    }
+  },
+  "partners": [
+    {
+      "id": "coinbase",
+      "name": "Coinbase",
+      "url": "https://coinbase.com/join/F2XRWRL?src=referral-link",
+      "enabled": true,
+      "share_policy": "allowed",
+      "languages": ["en"],
+      "notes": "Existing English-only Coinbase referral. Inline [text](REF) links, mid-article banner and end CTA still use i18n/strings plus langs.json referral mode. This entry is the URL source of truth and is listed on the English disclosure page."
+    },
+    {
+      "id": "river",
+      "name": "River",
+      "url": "",
+      "enabled": false,
+      "share_policy": "allowed",
+      "languages": ["en"],
+      "cta": {
+        "en": {
+          "title": "If you buy bitcoin through River",
+          "text": "River is a U.S. bitcoin service. If it is available where you live and you decide to open an account, you can use our referral link. Check River’s current terms on their site. This is not investment advice.",
+          "button": "River signup page (referral link)"
+        }
+      },
+      "disclosure": {
+        "en": "<strong>Disclosure:</strong> This page contains a River referral link. If you sign up through it and meet River’s current terms, PlainBTC may earn a referral reward at no extra cost to you. See our [full affiliate disclosure](/disclosure)."
+      }
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "url": "",
+      "enabled": false,
+      "share_policy": "allowed",
+      "languages": ["en", "es", "pt", "fr", "de"],
+      "cta": {
+        "en": {
+          "title": "If you open a Gemini account",
+          "text": "Gemini is not available in every country. If it is offered where you live and you decide to sign up, you can use our referral link. Check Gemini’s current terms on their signup page. This is not investment advice.",
+          "button": "Gemini signup page (referral link)"
+        },
+        "es": {
+          "title": "Si abres una cuenta en Gemini",
+          "text": "Gemini no está disponible en todos los países. Si el servicio se ofrece donde vives y decides registrarte, puedes usar nuestro enlace de referido. Comprueba las condiciones vigentes en la página de registro de Gemini. Esto no es asesoramiento de inversión.",
+          "button": "Página de registro de Gemini (enlace de referido)"
+        },
+        "pt": {
+          "title": "Se você abrir uma conta na Gemini",
+          "text": "A Gemini não está disponível em todos os países. Se o serviço for oferecido onde você mora e você decidir se cadastrar, pode usar nosso link de indicação. Confira os termos atuais na página de cadastro da Gemini. Isto não é aconselhamento de investimento.",
+          "button": "Página de cadastro da Gemini (link de indicação)"
+        },
+        "fr": {
+          "title": "Si vous ouvrez un compte Gemini",
+          "text": "Gemini n’est pas disponible dans tous les pays. Si le service est proposé là où vous vivez et que vous décidez de vous inscrire, vous pouvez utiliser notre lien de parrainage. Vérifiez les conditions en vigueur sur la page d’inscription de Gemini. Ceci n’est pas un conseil en investissement.",
+          "button": "Page d’inscription Gemini (lien de parrainage)"
+        },
+        "de": {
+          "title": "Wenn Sie ein Gemini-Konto eröffnen",
+          "text": "Gemini ist nicht in jedem Land verfügbar. Wenn der Dienst an Ihrem Wohnort angeboten wird und Sie sich anmelden möchten, können Sie unseren Empfehlungslink nutzen. Prüfen Sie die aktuellen Bedingungen auf der Gemini-Anmeldeseite. Dies ist keine Anlageberatung.",
+          "button": "Gemini-Anmeldeseite (Empfehlungslink)"
+        }
+      },
+      "disclosure": {
+        "en": "<strong>Disclosure:</strong> This page contains a Gemini referral link. If you sign up through it and meet Gemini’s current terms, PlainBTC may earn a referral reward at no extra cost to you. See our [full affiliate disclosure](/disclosure).",
+        "es": "<strong>Divulgación:</strong> esta página contiene un enlace de referido de Gemini. Si te registras a través de él y cumples las condiciones vigentes de Gemini, PlainBTC puede recibir una recompensa de referido sin coste adicional para ti. Consulta nuestra [divulgación de afiliados completa](/disclosure).",
+        "pt": "<strong>Divulgação:</strong> esta página contém um link de indicação da Gemini. Se você se cadastrar por ele e cumprir os termos atuais da Gemini, a PlainBTC pode receber uma recompensa de indicação sem custo extra para você. Veja nossa [divulgação completa de afiliados](/disclosure).",
+        "fr": "<strong>Transparence :</strong> cette page contient un lien de parrainage Gemini. Si vous vous inscrivez via ce lien et remplissez les conditions en vigueur chez Gemini, PlainBTC peut percevoir une récompense, sans frais supplémentaires pour vous. Consultez notre [déclaration d’affiliation complète](/disclosure).",
+        "de": "<strong>Offenlegung:</strong> Diese Seite enthält einen Gemini-Empfehlungslink. Wenn Sie sich darüber anmelden und die aktuellen Gemini-Bedingungen erfüllen, kann PlainBTC eine Empfehlungsprämie erhalten, ohne Mehrkosten für Sie. Siehe unsere [vollständige Affiliate-Offenlegung](/disclosure)."
+      }
+    },
+    {
+      "id": "uphold",
+      "name": "Uphold",
+      "url": "",
+      "enabled": false,
+      "share_policy": "allowed",
+      "languages": ["es", "pt"],
+      "cta": {
+        "es": {
+          "title": "Si abres una cuenta en Uphold",
+          "text": "Uphold no está disponible en todos los países (y, en EE. UU., no en el estado de Nueva York). Si el servicio se ofrece donde vives y decides registrarte, puedes usar nuestro enlace de referido. Comprueba las condiciones vigentes en la página de registro de Uphold. Esto no es asesoramiento de inversión.",
+          "button": "Página de registro de Uphold (enlace de referido)"
+        },
+        "pt": {
+          "title": "Se você abrir uma conta na Uphold",
+          "text": "A Uphold não está disponível em todos os países (e, nos EUA, não no estado de Nova York). Se o serviço for oferecido onde você mora e você decidir se cadastrar, pode usar nosso link de indicação. Confira os termos atuais na página de cadastro da Uphold. Isto não é aconselhamento de investimento.",
+          "button": "Página de cadastro da Uphold (link de indicação)"
+        }
+      },
+      "disclosure": {
+        "es": "<strong>Divulgación:</strong> esta página contiene un enlace de referido de Uphold. Si te registras a través de él y cumples las condiciones vigentes de Uphold, PlainBTC puede recibir una recompensa de referido sin coste adicional para ti. Consulta nuestra [divulgación de afiliados completa](/disclosure).",
+        "pt": "<strong>Divulgação:</strong> esta página contém um link de indicação da Uphold. Se você se cadastrar por ele e cumprir os termos atuais da Uphold, a PlainBTC pode receber uma recompensa de indicação sem custo extra para você. Veja nossa [divulgação completa de afiliados](/disclosure)."
+      }
+    },
+    {
+      "id": "public",
+      "name": "Public",
+      "url": "",
+      "enabled": false,
+      "share_policy": "forbidden",
+      "languages": ["en"],
+      "notes": "Public’s official referral terms limit the program to personal friends and family and forbid commercial advertising, commercial use, and creating websites that use Public’s name. Do not paste a personal Public referral URL here. If Public later provides an approved affiliate link, change share_policy only after re-reading the official terms.",
+      "cta": {
+        "en": {
+          "title": "If you open a Public account",
+          "text": "Public is a U.S. investing app. If it is available where you live and you decide to open an account, you can use our link. Check Public’s current terms on their site. This is not investment advice.",
+          "button": "Public signup page"
+        }
+      },
+      "disclosure": {
+        "en": "<strong>Disclosure:</strong> This page contains a Public link. If you sign up through it and meet Public’s current terms, PlainBTC may earn a reward at no extra cost to you. See our [full affiliate disclosure](/disclosure)."
+      }
+    },
+    {
+      "id": "sofi",
+      "name": "SoFi",
+      "url": "",
+      "url_type": "",
+      "enabled": false,
+      "share_policy": "affiliate_only",
+      "languages": ["en"],
+      "notes": "Do not publish a personal SoFi referral link on the blog. Use an approved SoFi affiliate (Impact) URL, set url_type to affiliate, then enable. SoFi’s official referral rules also require a clear disclosure of the specific compensation — confirm wording against current SoFi terms before going live, and still avoid inventing amounts.",
+      "cta": {
+        "en": {
+          "title": "If you open a SoFi Crypto account",
+          "text": "SoFi offers crypto to eligible U.S. customers. If the service is available where you live and you decide to open an account, you can use our affiliate link. Check SoFi’s current terms on their site. This is not investment advice.",
+          "button": "SoFi Crypto page (affiliate link)"
+        }
+      },
+      "disclosure": {
+        "en": "<strong>Disclosure:</strong> This page contains a SoFi affiliate link. If you sign up through it and meet SoFi’s current terms, PlainBTC may earn a commission at no extra cost to you. See our [full affiliate disclosure](/disclosure)."
+      }
+    }
+  ]
+}
