@@ -465,7 +465,6 @@ p { text-wrap: pretty; }
   width: 100%; border-radius: var(--radius); border: 1px solid var(--line); background: #0b1630;
   margin: 0 0 clamp(22px, 3.4vw, 40px); box-shadow: var(--shadow);
 }
-@media (min-width: 960px) { .og-hero { width: calc(100% + 120px); max-width: none; margin-inline: -60px; } }
 .tagline { margin: -0.3rem 0 1.6rem; font-size: 1.2rem; color: var(--muted); font-style: italic; }
 
 .content p { margin: 0 0 1.25em; }
@@ -498,7 +497,6 @@ p { text-wrap: pretty; }
 .takeaways li::before { content: ""; position: absolute; left: 0.1em; top: 1.15em; width: 0.85em; height: 2px; background: var(--accent); }
 
 .article-figure { margin: 2em 0; padding: 0; }
-@media (min-width: 960px) { .article-figure { margin-inline: -60px; } }
 .article-figure img { width: 100%; border-radius: var(--radius); border: 1px solid var(--line); background: #0b1630; }
 .article-figure figcaption { margin-top: 0.7rem; font: 500 0.7rem/1.5 var(--mono); letter-spacing: 0.04em; color: var(--muted); text-align: center; }
 
