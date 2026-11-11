@@ -1,0 +1,60 @@
+title: Le bitcoin passe sous 73 000 $ pour la première fois depuis août, sur fond de flambée des rendements obligataires
+page_title: Le bitcoin passe sous 73 000 $, plus bas depuis août
+description: Le bitcoin est tombé vers 72 585 $ le 10 novembre, son plus bas depuis le 20 août, alors que les rendements du Trésor bondissaient et que les marchés pariaient sur une hausse des taux de la Fed en décembre.
+og_description: Le bitcoin a touché environ 72 585 $, son plus bas depuis le 20 août. Le rendement du Trésor à 10 ans est monté à 4,98 % et environ 716 M$ de paris crypto ont été liquidés.
+label: Marchés
+summary: Le bitcoin a glissé mardi vers 72 585 $, son plus bas depuis le 20 août, avec des rendements du Trésor en hausse et 716 M$ de paris crypto liquidés.
+===
+
+Le bitcoin a poursuivi sa baisse après le chiffre d'inflation publié mardi matin et est passé sous <strong>73 000 $</strong> pour la première fois depuis août. Sur Kraken, le prix est descendu à environ <strong>72 585 $</strong> peu après midi, heure de New York, le 10 novembre, son plus bas niveau depuis le 20 août. Il s'est ensuite un peu repris et a terminé la journée UTC vers <strong>73 700 $</strong>, en recul d'environ 2,1 % par rapport à son prix d'ouverture d'environ 75 250 $.
+
+Ce repli est intervenu quelques heures après une hausse plus forte que prévu des prix à la consommation américains en octobre. [CoinDesk](L1) a indiqué que le passage sous 73 000 $ marquait un nouveau plus bas pour le cycle actuel, tandis que les actions américaines reculaient elles aussi en cours de séance.
+
+!takeaways
+- Le bitcoin a touché environ 72 585 $ sur Kraken, son plus bas depuis le 20 août, avant de finir la journée UTC vers 73 700 $.
+- Le rendement du Trésor à 10 ans est monté à 4,98 %, contre 4,88 % la veille, selon les données officielles du Trésor.
+- Environ 716 M$ de positions sur contrats à terme crypto ont été liquidées en 24 heures, dont 589 M$ de paris à la hausse, selon des données de CoinGlass citées par FXStreet.
+- La société de trading Wintermute voit la zone des 73 000 $ comme un support clé et estime qu'une clôture quotidienne en dessous pourrait ouvrir la voie vers 68 000 $.
+
+## Les obligations ont mené la danse
+
+La pression est venue surtout du marché obligataire. Les données officielles du [Trésor américain](L2) montrent que le rendement à 10 ans a clôturé mardi à <strong>4,98 %</strong>, contre 4,88 % lundi, tandis que le 2 ans est passé de 4,56 % à 4,73 %. Selon CoinDesk, le 10 ans a brièvement dépassé 5 % en cours de journée.
+
+Les rendements ont grimpé parce que les investisseurs s'attendent désormais à ce que la Réserve fédérale relève ses taux lors de sa réunion de décembre. Le gouverneur de la Fed Christopher Waller avait déclaré la veille au soir qu'un chiffre d'inflation élevé pourrait justifier une hausse plus forte, d'un demi-point. D'après CoinDesk, les données CME FedWatch de mardi matin donnaient 85 % de chances d'une hausse d'un quart de point et 15 % d'une hausse d'un demi-point. Des taux plus élevés rendent l'épargne et les obligations plus rémunératrices, ce qui peut détourner l'argent des actifs plus risqués comme les actions et les cryptomonnaies.
+
+!figure:chart
+
+## Actions et altcoins aussi en baisse
+
+Les ventes ne se sont pas limitées au bitcoin. CoinDesk a rapporté un recul d'environ 1,1 % du Nasdaq en fin de matinée, entraîné par une chute d'environ 6 % de Nvidia à ce moment-là ; CoinDesk a ensuite fait état d'une baisse de 5 % de Nvidia sur la journée, sous les 170 $ par action. D'autres grandes cryptomonnaies ont reculé davantage que le bitcoin. Sur Kraken, l'ether est descendu jusqu'à environ 2 002 $ avant de finir la journée UTC vers 2 051 $, en baisse de près de 4 %.
+
+La baisse des prix a forcé de nombreux traders à solder leurs paris à effet de levier. [FXStreet](L3), citant CoinGlass, a fait état d'environ <strong>716 M$</strong> de liquidations sur les contrats à terme crypto en 24 heures, dont <strong>589 M$</strong> sur des positions longues, c'est-à-dire des paris sur la hausse.
+
+!mid_cta
+
+## Pourquoi 73 000 $ compte pour les traders
+
+Wintermute considère 73 000 $ comme un support important, car ce niveau correspond à la moyenne mobile à 200 jours du bitcoin, une ligne de tendance de long terme suivie par de nombreux traders. « Une clôture quotidienne en dessous, et la 200 jours ouvre la voie vers 68 000 $ », a écrit la société dans une note citée par FXStreet. Selon le calcul de PlainBTC à partir des cours de clôture quotidiens de Kraken, la moyenne à 200 jours se situait mardi vers 73 137 $ : le bitcoin a donc terminé la journée UTC à peine au-dessus.
+
+Le bitcoin se trouve désormais environ 17 % sous son sommet de septembre, d'environ 87 450 $ sur Kraken. Mardi marquait aussi les cinq ans du premier passage du bitcoin à 69 000 $, le 10 novembre 2021. CoinDesk a relevé que le prix actuel ne dépasse cet ancien sommet que d'environ 4 500 $.
+
+!figure:fact
+
+## Ce que cela signifie pour les débutants
+
+Tomber à un plus bas de trois mois peut inquiéter, mais des variations de cette ampleur sont courantes pour le bitcoin. Personne ne sait si le prix tiendra autour de 73 000 $ ou baissera encore, et les supports ne sont que des repères, pas des garanties. Si vous débutez, envisagez de vous limiter à une somme que vous pouvez laisser de côté pendant des années, et évitez l'argent emprunté ou le trading à effet de levier, à l'origine des liquidations de mardi.
+
+Si vous préférez acheter du bitcoin petit à petit plutôt qu'en une seule fois, un service 100 % bitcoin comme [River](L4) permet aux clients américains de programmer des achats récurrents ; vérifiez d'abord ses frais et conditions actuels sur son site. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Une éventuelle clôture quotidienne du bitcoin sous sa moyenne à 200 jours, vers 73 000 $.
+- Les flux des ETF bitcoin au comptant de mardi, que Farside Investors n'avait pas encore publiés au moment de la rédaction.
+- Les déclarations des responsables de la Fed avant la décision sur les taux du 9 décembre.
+- L'évolution du rendement du Trésor à 10 ans autour de 5 %.
+
+!soft: Vous envisagez d'acheter petit à petit ? Lisez notre guide sur [l'investissement programmé (DCA) pour débutants](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

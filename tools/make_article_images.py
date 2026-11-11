@@ -173,7 +173,7 @@ def style_axes(ax, title: str):
 
 
 def make_line_chart(path: Path, xs, ys, title: str, hline=None, hlabel=None,
-                    ylabel="USD", w=1200, h=675) -> Path:
+                    ylabel="USD", w=1200, h=675, date_fmt="%b %d") -> Path:
     fig, ax = plt.subplots(figsize=(w / 100, h / 100), dpi=100)
     style_axes(ax, title)
     import datetime as dt
@@ -193,7 +193,7 @@ def make_line_chart(path: Path, xs, ys, title: str, hline=None, hlabel=None,
                 fontsize=10,
                 fontweight="bold",
             )
-    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %d"))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter(date_fmt))
     ax.yaxis.set_major_formatter(lambda x, _p: f"${x:,.0f}")
     fig.autofmt_xdate(rotation=0, ha="center")
     plt.tight_layout(pad=1.2)
@@ -1376,6 +1376,152 @@ def build_faro():
     ]
 
 
+def fetch_kraken_hourly(start_ts: int, end_ts: int, pair="XBTUSD"):
+    url = f"https://api.kraken.com/0/public/OHLC?pair={pair}&interval=60"
+    req = urllib.request.Request(url, headers={"User-Agent": "PlainBTC/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read().decode())
+    rows = next(v for k, v in data["result"].items() if k != "last")
+    xs, ys = [], []
+    for r in rows:
+        if start_ts <= int(r[0]) < end_ts:
+            xs.append(float(r[0]))
+            ys.append(float(r[4]))
+    return np.array(xs), np.array(ys)
+
+
+def build_btc_below_73k():
+    slug = "bitcoin-below-73000-lowest-since-august-nov-2026"
+    d = OUT / slug
+    # Kraken XBTUSD hourly closes, Nov 9 00:00 UTC - Nov 11 00:00 UTC; 200-day SMA of Kraken daily closes to Nov 10 = $73,137.
+    xs, ys = fetch_kraken_hourly(1794182400, 1794355200)
+    chart = make_line_chart(
+        d / "chart-btc-hourly-nov-9-10",
+        xs, ys,
+        title="Bitcoin hourly price, Nov. 9-10, 2026 (Kraken, UTC)",
+        hline=73137,
+        hlabel="200-day average ≈ $73,137 (Kraken daily closes)",
+        date_fmt="%b %d %H:%M",
+    )
+    card = make_fact_card(
+        d / "fact-liquidations-716m",
+        label="Forced selling",
+        big="$716 million",
+        sub="Crypto futures liquidated in 24 hours on Nov. 10, including $589 million of long bets",
+        footer="CoinGlass data via FXStreet · Nov 10, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's hourly price on Kraken on Nov. 9 and 10, 2026, falling from about $75,250 to below $73,000 before ending near $73,700, with a dashed line at the 200-day average of about $73,137", {
+            "es": "Gráfico de líneas del precio horario de bitcoin en Kraken el 9 y 10 de noviembre de 2026: cae de unos 75.250 $ por debajo de 73.000 $ y termina cerca de 73.700 $, con una línea discontinua en la media de 200 días de unos 73.137 $",
+            "pt": "Gráfico de linha do preço horário do bitcoin na Kraken em 9 e 10 de novembro de 2026: cai de cerca de US$ 75.250 para menos de US$ 73.000 e termina perto de US$ 73.700, com linha tracejada na média de 200 dias de cerca de US$ 73.137",
+            "fr": "Courbe du prix horaire du bitcoin sur Kraken les 9 et 10 novembre 2026 : baisse d'environ 75 250 $ sous 73 000 $, puis clôture vers 73 700 $, avec une ligne pointillée sur la moyenne à 200 jours d'environ 73 137 $",
+            "de": "Liniendiagramm des stündlichen Bitcoin-Kurses bei Kraken am 9. und 10. November 2026: Rückgang von rund 75.250 $ auf unter 73.000 $, Schluss bei etwa 73.700 $, gestrichelte Linie beim 200-Tage-Durchschnitt von rund 73.137 $",
+            "ru": "Линейный график почасовой цены биткоина на Kraken 9 и 10 ноября 2026 года: падение примерно с $75 250 ниже $73 000 и закрытие около $73 700; пунктир — 200-дневная средняя около $73 137",
+            "tr": "Kraken'de 9-10 Kasım 2026 saatlik bitcoin fiyatı: yaklaşık 75.250 $'dan 73.000 $'ın altına düşüş ve 73.700 $ civarında kapanış; kesikli çizgi yaklaşık 73.137 $'lık 200 günlük ortalama",
+            "id": "Grafik garis harga bitcoin per jam di Kraken pada 9 dan 10 November 2026: turun dari sekitar US$75.250 ke bawah US$73.000 lalu ditutup dekat US$73.700, dengan garis putus-putus di rata-rata 200 hari sekitar US$73.137",
+            "ja": "2026年11月9〜10日のKrakenにおけるビットコイン1時間足の折れ線グラフ：約75,250ドルから73,000ドルを割り込み約73,700ドルで終了。破線は約73,137ドルの200日平均",
+            "ko": "2026년 11월 9~10일 크라켄 비트코인 시간별 가격 선 차트: 약 75,250달러에서 73,000달러 아래로 하락한 뒤 약 73,700달러로 마감, 점선은 약 73,137달러인 200일 평균",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken BTC/USD hourly closes; 200-day average calculated by PlainBTC")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: about $716 million in crypto futures liquidated in 24 hours on Nov. 10, including $589 million of long bets", {
+            "es": "Tarjeta: unos 716 M$ en futuros cripto liquidados en 24 horas el 10 de noviembre, de ellos 589 M$ en apuestas alcistas",
+            "pt": "Cartão: cerca de US$ 716 milhões em futuros cripto liquidados em 24 horas em 10 de novembro, sendo US$ 589 milhões em apostas de alta",
+            "fr": "Encadré : environ 716 M$ de contrats à terme crypto liquidés en 24 heures le 10 novembre, dont 589 M$ de paris à la hausse",
+            "de": "Faktenkarte: rund 716 Mio. $ an Krypto-Futures innerhalb von 24 Stunden am 10. November liquidiert, davon 589 Mio. $ Long-Wetten",
+            "ru": "Карточка: около $716 млн ликвидаций криптофьючерсов за 24 часа 10 ноября, из них $589 млн — длинные позиции",
+            "tr": "Kart: 10 Kasım'da 24 saatte yaklaşık 716 milyon $ kripto vadeli pozisyon tasfiye edildi; bunun 589 milyon $'ı yükseliş pozisyonuydu",
+            "id": "Kart fakta: sekitar US$716 juta kontrak berjangka kripto dilikuidasi dalam 24 jam pada 10 November, termasuk US$589 juta posisi long",
+            "ja": "カード：11月10日の24時間で約7億1600万ドルの暗号資産先物が清算され、うち5億8900万ドルが買いポジション",
+            "ko": "카드: 11월 10일 24시간 동안 약 7억 1,600만 달러 규모 암호화폐 선물이 청산됐고, 그중 5억 8,900만 달러가 롱 포지션",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="CoinGlass via FXStreet")},
+    ]
+
+
+def make_timeline_card(path: Path, label: str, steps, footer: str, w=1200, h=630) -> Path:
+    img = gradient_bg(w, h)
+    draw = ImageDraw.Draw(img)
+    draw.rectangle([0, 0, 10, h], fill=ORANGE)
+    lf = load_font(FONT_BOLD, 28)
+    df = load_font(FONT_BOLD, 34)
+    tf = load_font(FONT_REG, 25)
+    ff = load_font(FONT_REG, 22)
+    brand = load_font(FONT_BOLD, 24)
+    draw.text((56, 48), label.upper(), font=lf, fill=ORANGE)
+    lw = draw.textlength(label.upper(), font=lf)
+    draw.rectangle([56, 86, 56 + max(48, int(lw * 0.4)), 90], fill=ORANGE)
+    n = len(steps)
+    x0, x1, ly = 220, w - 220, 210
+    draw.line([(x0, ly), (x1, ly)], fill=(51, 65, 85), width=6)
+    colw = (x1 - x0) / max(n - 1, 1)
+    for i, (date, text, col) in enumerate(steps):
+        cx = int(x0 + i * colw)
+        draw.ellipse([cx - 18, ly - 18, cx + 18, ly + 18], fill=col, outline=WHITE, width=3)
+        dw = draw.textlength(date, font=df)
+        draw.text((cx - dw / 2, ly - 80), date, font=df, fill=WHITE)
+        lines = wrap(draw, text, tf, 300, max_lines=6)
+        for j, line in enumerate(lines):
+            tw = draw.textlength(line, font=tf)
+            draw.text((cx - tw / 2, ly + 46 + j * 34), line, font=tf, fill=GRAY)
+    draw.text((56, h - 56), footer, font=ff, fill=MUTED)
+    draw.text((w - 210, h - 56), "Plain", font=brand, fill=WHITE)
+    pw = draw.textlength("Plain", font=brand)
+    draw.text((w - 210 + pw, h - 56), "BTC", font=brand, fill=ORANGE)
+    return save_image(img, path)
+
+
+def build_ios_flaw():
+    slug = "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026"
+    d = OUT / slug
+    tl = make_timeline_card(
+        d / "timeline-worse-query",
+        "How the warning unfolded",
+        [
+            ("Nov. 8", "Researcher publishes the worse_query sandbox escape on GitHub", (248, 113, 113)),
+            ("Nov. 9", "Apple ships iOS 27.2.1 and 26.7.3; notes do not mention worse_query", (96, 165, 250)),
+            ("Nov. 10", "Binance warns that seed phrases and keys could be exposed", ORANGE),
+        ],
+        footer="The Hacker News · Apple security releases · Binance on X",
+    )
+    card = make_fact_card(
+        d / "fact-ios-versions",
+        label="Versions Binance named",
+        big="iOS 26.7.1 · 27.0.1 · 27.2",
+        sub="Binance: \u201cThis is an iOS-level issue, not unique to Binance.\u201d No thefts have been reported.",
+        footer="Binance on X, via Bitcoin Magazine · Nov 10, 2026",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: Nov. 8, a researcher publishes the worse_query sandbox escape; Nov. 9, Apple ships iOS 27.2.1 and 26.7.3 without mentioning it; Nov. 10, Binance warns that seed phrases and keys could be exposed", {
+            "es": "Cronología: 8 de nov., un investigador publica el escape de sandbox worse_query; 9 de nov., Apple lanza iOS 27.2.1 y 26.7.3 sin mencionarlo; 10 de nov., Binance advierte que frases semilla y claves podrían quedar expuestas",
+            "pt": "Linha do tempo: 8 de nov., um pesquisador publica a fuga de sandbox worse_query; 9 de nov., a Apple lança o iOS 27.2.1 e o 26.7.3 sem mencioná-la; 10 de nov., a Binance alerta que frases-semente e chaves podem ficar expostas",
+            "fr": "Chronologie : 8 nov., un chercheur publie l'évasion de sandbox worse_query ; 9 nov., Apple publie iOS 27.2.1 et 26.7.3 sans la mentionner ; 10 nov., Binance avertit que des phrases de récupération et des clés pourraient être exposées",
+            "de": "Zeitleiste: 8. Nov., ein Forscher veröffentlicht den Sandbox-Ausbruch worse_query; 9. Nov., Apple veröffentlicht iOS 27.2.1 und 26.7.3 ohne Erwähnung; 10. Nov., Binance warnt, dass Seed-Phrasen und Schlüssel offengelegt werden könnten",
+            "ru": "Хронология: 8 ноября исследователь публикует обход песочницы worse_query; 9 ноября Apple выпускает iOS 27.2.1 и 26.7.3, не упоминая его; 10 ноября Binance предупреждает, что сид-фразы и ключи могут оказаться под угрозой",
+            "tr": "Zaman çizelgesi: 8 Kasım'da bir araştırmacı worse_query korumalı alan kaçışını yayımlıyor; 9 Kasım'da Apple, ondan söz etmeden iOS 27.2.1 ve 26.7.3'ü çıkarıyor; 10 Kasım'da Binance kurtarma ifadelerinin ve anahtarların açığa çıkabileceği uyarısını yapıyor",
+            "id": "Linimasa: 8 Nov, peneliti merilis celah sandbox worse_query; 9 Nov, Apple merilis iOS 27.2.1 dan 26.7.3 tanpa menyebutnya; 10 Nov, Binance memperingatkan bahwa frasa pemulihan dan kunci bisa terekspos",
+            "ja": "時系列：11月8日、研究者がサンドボックス回避「worse_query」を公開。11月9日、AppleがiOS 27.2.1と26.7.3を配信（言及なし）。11月10日、Binanceがシードフレーズや鍵が漏れるおそれを警告",
+            "ko": "타임라인: 11월 8일 연구자가 샌드박스 탈출 기법 worse_query 공개, 11월 9일 애플이 이를 언급하지 않은 채 iOS 27.2.1·26.7.3 배포, 11월 10일 바이낸스가 시드 문구와 키 노출 가능성 경고",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="The Hacker News; Apple security releases; Binance")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: Binance named iOS 26.7.1, 27.0.1 and 27.2 as affected and said it is an iOS-level issue, not unique to Binance; no thefts have been reported", {
+            "es": "Tarjeta: Binance señaló iOS 26.7.1, 27.0.1 y 27.2 como afectados y dijo que es un problema de iOS, no exclusivo de Binance; no se han reportado robos",
+            "pt": "Cartão: a Binance apontou o iOS 26.7.1, 27.0.1 e 27.2 como afetados e disse que o problema é do iOS, não exclusivo da Binance; nenhum roubo foi relatado",
+            "fr": "Encadré : Binance cite iOS 26.7.1, 27.0.1 et 27.2 comme concernés et parle d'un problème propre à iOS, pas à Binance ; aucun vol n'a été signalé",
+            "de": "Faktenkarte: Binance nennt iOS 26.7.1, 27.0.1 und 27.2 als betroffen und spricht von einem iOS-Problem, das nicht nur Binance betrifft; Diebstähle wurden nicht gemeldet",
+            "ru": "Карточка: Binance назвала затронутыми iOS 26.7.1, 27.0.1 и 27.2 и подчеркнула, что это проблема iOS, а не только Binance; краж пока не зафиксировано",
+            "tr": "Kart: Binance etkilenen sürümler olarak iOS 26.7.1, 27.0.1 ve 27.2'yi gösterdi ve sorunun yalnızca Binance'e değil iOS'a ait olduğunu söyledi; bildirilen bir hırsızlık yok",
+            "id": "Kart fakta: Binance menyebut iOS 26.7.1, 27.0.1, dan 27.2 terdampak dan mengatakan ini masalah iOS, bukan khusus Binance; belum ada laporan pencurian",
+            "ja": "カード：BinanceはiOS 26.7.1、27.0.1、27.2が影響を受けるとし、Binance固有ではなくiOSの問題だと説明。盗難の報告はない",
+            "ko": "카드: 바이낸스는 iOS 26.7.1, 27.0.1, 27.2가 영향을 받는다며 바이낸스만의 문제가 아닌 iOS 차원의 문제라고 밝혔다. 도난 보고는 없다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Binance on X, via Bitcoin Magazine")},
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -1394,6 +1540,8 @@ BUILDERS = {
     "bitcoin-hot-cpi-etf-outflows-nov-2026": "hotcpi",
     "binance-blocks-mexc-fincen-order-nov-2026": "mexc",
     "banks-270-million-stablecoin-project-faro-nov-2026": "faro",
+    "bitcoin-below-73000-lowest-since-august-nov-2026": "btc73k",
+    "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026": "iosflaw",
 }
 
 
@@ -1439,6 +1587,10 @@ def build_slug(slug: str, btc=None):
         figs = build_mexc()
     elif key == "faro":
         figs = build_faro()
+    elif key == "btc73k":
+        figs = build_btc_below_73k()
+    elif key == "iosflaw":
+        figs = build_ios_flaw()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

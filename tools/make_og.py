@@ -32,6 +32,16 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "bitcoin-below-73000-lowest-since-august-nov-2026",
+        "Bitcoin drops below $73,000 for the first time since August",
+        "MARKET NEWS",
+    ),
+    (
+        "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026",
+        "Binance warns an iOS flaw could expose crypto wallet seed phrases",
+        "SECURITY",
+    ),
+    (
         "binance-blocks-mexc-fincen-order-nov-2026",
         "Binance blocks MEXC transfers after a U.S. Treasury order",
         "REGULATION",

@@ -1,0 +1,65 @@
+title: Binance advierte a los usuarios de iPhone de que un fallo de iOS podría exponer las frases semilla de sus wallets
+page_title: Binance alerta de un fallo de iOS que podría exponer claves de wallets
+description: Binance advirtió el 10 de noviembre de que un fallo público de iOS llamado worse_query podría permitir a apps maliciosas leer frases semilla y claves. Quién está en riesgo y qué hacer.
+og_description: Un escape de sandbox público de iOS llamado worse_query podría permitir a una app maliciosa leer archivos de otras apps. Binance aconseja borrar apps no fiables y actualizar iOS. No hay robos reportados.
+label: Seguridad
+summary: Binance dice que un fallo público de iOS, worse_query, podría permitir a apps maliciosas leer frases semilla. No hay robos reportados; borra apps no fiables y actualiza.
+===
+
+Binance, uno de los mayores exchanges de criptomonedas del mundo, advirtió el martes 10 de noviembre a los usuarios de iPhone sobre un fallo en el iOS de Apple que podría permitir a una app maliciosa leer archivos de otras apps. En una publicación en X citada por [Bitcoin Magazine](L1), el exchange dijo que el fallo, apodado <strong>worse_query</strong>, pone "en riesgo frases semilla, claves privadas y credenciales de acceso en todo el ecosistema".
+
+Binance señaló como afectadas las versiones de iOS <strong>26.7.1, 27.0.1 y 27.2</strong> y subrayó que "es un problema de iOS, no exclusivo de Binance". Ni Binance ni el investigador que descubrió el fallo han informado de robos de criptomonedas relacionados con él.
+
+!takeaways
+- Una prueba de concepto pública llamada worse_query puede saltarse el "sandbox" de las apps del iPhone y leer archivos de otras apps.
+- Binance dice que afecta a iOS 26.7.1, 27.0.1 y 27.2; el investigador menciona un rango más amplio de versiones de iOS 26 y 27.
+- Apple publicó iOS 27.2.1 y 26.7.3 el 9 de noviembre, pero sus notas de seguridad no mencionan worse_query.
+- No hay robos reportados. Binance recomienda borrar apps no fiables, actualizar iOS y mover los fondos si sospechas de una intrusión.
+
+## Qué hace el fallo
+
+En un iPhone, cada app vive normalmente en su propio contenedor aislado, llamado sandbox, para que otras apps no puedan leer sus archivos. worse_query es un "escape de sandbox": un código que se salta esas barreras. Según [The Hacker News](L2), un investigador conocido como forcequit lo publicó en GitHub el domingo 8 de noviembre junto con un segundo investigador, 0xjohnny. El código puede llegar a las carpetas de datos de todas las apps del teléfono y, en iOS 27, a algunas carpetas del sistema.
+
+El investigador lo describe como una prueba de concepto para desarrolladores que "no es útil por sí sola". No es un jailbreak, y para usarlo alguien tiene que integrarlo en una app. Eso ya ha ocurrido: un desarrollador publicó una app de gestión de archivos basada en worse_query que se instala mediante herramientas de sideloading como AltStore y SideStore, informó The Hacker News.
+
+!figure:timeline
+
+## Quién corre riesgo realmente
+
+El peligro depende de dos cosas. Primero, tiene que haber una app dañina instalada en tu teléfono. Los casos conocidos hasta ahora implican apps instaladas fuera de la App Store, y nadie ha dicho si una app de la App Store podría aprovechar el fallo. Segundo, tu app de wallet tiene que guardar datos sensibles en archivos que el escape pueda leer.
+
+La firma de seguridad blockchain SlowMist dijo que el fallo no robará fondos por sí solo, según Bitcoin Magazine. El riesgo solo aparece si el usuario ejecuta una app no fiable y una wallet guarda frases de recuperación, archivos de claves o cachés del navegador en texto plano en el dispositivo. Las wallets que guardan sus secretos en almacenamiento cifrado y protegido por hardware no están expuestas del mismo modo, y las hardware wallets mantienen las claves privadas fuera del teléfono.
+
+!figure:fact
+
+## Qué ha dicho Apple
+
+Apple lanzó iOS 27.2.1 e iOS 26.7.3 el 9 de noviembre, un día después de que worse_query se hiciera público, según su [página de actualizaciones de seguridad](L3). Las notas de esas versiones incluyen correcciones de problemas como fallos de Bluetooth e iMessage, pero no mencionan worse_query ni un escape de sandbox. Apple no comenta problemas de seguridad hasta haberlos investigado, así que no está claro si las nuevas versiones bloquean la técnica. Aun así, el jefe de seguridad de SlowMist, que publica como 23pds, instó a actualizar a iOS 27.2.1 y afirmó que bloquearía el escape, informó [Decrypt](L4).
+
+!mid_cta
+
+## Qué hacer ahora
+
+El consejo de Binance es sencillo y sirve para cualquiera que guarde criptomonedas en un iPhone:
+
+- Borra cualquier app que hayas instalado desde una fuente no fiable, como archivos de apps instalados por sideloading o firmados manualmente.
+- Actualiza iOS y todas tus apps a sus últimas versiones oficiales mediante el proceso de actualización normal de Apple.
+- Si crees que tu teléfono puede estar comprometido, crea una wallet nueva en un dispositivo limpio, mueve allí tus fondos y cierra todas las sesiones activas.
+
+## Qué significa para los principiantes
+
+Tu frase semilla es la llave maestra de una wallet de autocustodia: quien la vea puede llevarse las monedas. Por eso nunca debe escribirse en apps cualquiera, guardarse en capturas de pantalla ni almacenarse en notas. Si tienes algo más que una cantidad pequeña, una hardware wallet mantiene las claves fuera de tu teléfono.
+
+Algunos principiantes prefieren empezar con un exchange regulado que guarda las claves por ellos. [Coinbase](REF), por ejemplo, dice que mantiene más del 99% de los activos de sus clientes en almacenamiento sin conexión, según Cointelegraph. Eso cambia un riesgo por otro, ya que pasas a depender de la seguridad de la empresa. Esto no es asesoramiento de inversión.
+
+## Qué vigilar a continuación
+
+- Si Apple confirma que iOS 27.2.1 o una actualización posterior corrige worse_query.
+- Comunicados de las principales apps de wallets sobre cómo guardan las claves en el iPhone.
+- Cualquier informe confirmado de criptomonedas robadas mediante el fallo.
+
+!soft: ¿No sabes qué tipo de wallet te conviene? Lee nuestra guía sobre [wallets custodiales y de autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

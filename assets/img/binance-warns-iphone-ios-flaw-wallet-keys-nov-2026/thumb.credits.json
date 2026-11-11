@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Front_of_iPhone_15_Pro_Max.jpg",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Front_of_iPhone_15_Pro_Max.jpg",
+      "credit": "Ayamano2021 / Wikimedia Commons"
+    },
+    {
+      "file": "Binance_Logo.svg",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Binance_Logo.svg",
+      "credit": "Binance"
+    }
+  ],
+  "note": "Editorial composite; trademarks belong to their owners.",
+  "slug": "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026",
+  "generated": "2026-11-11T00:09Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

@@ -465,6 +465,51 @@ def thumb_faro():
     ],"note":"Editorial composite; trademarks belong to their owners."}
 
 
+def thumb_btc_below_73k():
+    xs, closes = kraken_ohlc(1440); xs, closes = xs[-120:], closes[-120:]
+    fig, ax = plt.subplots(figsize=(6.4,3.6), dpi=100); fig.patch.set_facecolor("#0f1419")
+    style_ax(ax, "")
+    ax.plot(xs, closes, color="#f7931a", linewidth=1.8)
+    ax.axhline(73000, color="#f87171", linestyle="--", linewidth=1.3)
+    ax.text(xs[2], 73000, " $73,000", color="#fca5a5", fontsize=8, va="bottom")
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v,_: f"${v/1000:.0f}k"))
+    ax.xaxis.set_major_locator(mdates.MonthLocator())
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
+    im = chart_to_image(fig)
+    label_chip(im, "BTC/USD daily closes (Kraken), last 120 days")
+    return im, {"kind":"chart","sources":[
+        {"file":"Kraken OHLC XBTUSD interval=1440","license":"Kraken public API","url":"https://docs.kraken.com/api/docs/rest-api/get-ohlc-data","credit":"Daily BTC/USD closes from Kraken"}
+    ]}
+
+def thumb_ios_flaw():
+    phone = fetch("https://upload.wikimedia.org/wikipedia/commons/4/42/Front_of_iPhone_15_Pro_Max.jpg", CACHE/"iphone15promax-front.jpg")
+    binance = fetch("https://upload.wikimedia.org/wikipedia/commons/e/e8/Binance_Logo.svg", CACHE/"binance-logo.svg")
+    base = gradient_bg()
+    ph = Image.open(phone).convert("RGB")
+    pw, phh = ph.size
+    ph = ph.crop((int(pw*0.04), int(phh*0.02), int(pw*0.96), int(phh*0.965)))   # trim white photo margins
+    ph.thumbnail((10000, 290), Image.Resampling.LANCZOS)
+    base.paste(ph, (80, 56))
+    d = ImageDraw.Draw(base)
+    # warning triangle between phone and logo
+    cx, cy = 320, 196
+    d.polygon([(cx, cy-46), (cx-52, cy+42), (cx+52, cy+42)], fill=(247,147,26))
+    fb = font(FONT_B, 54); bb = d.textbbox((0,0),"!",font=fb)
+    d.text((cx-(bb[2]-bb[0])//2-2, cy-34), "!", font=fb, fill=(15,20,28))
+    cw, ch, x, y = 210, 180, 400, 106
+    card = Image.new("RGB", (cw, ch), (26,35,50))
+    mask = Image.new("L", (cw, ch), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,cw-1,ch-1], radius=14, fill=255)
+    base.paste(card, (x, y), mask)
+    paste_contain(base, Image.open(binance).convert("RGBA"), (x, y+8, cw, 130), pad=16)
+    d = ImageDraw.Draw(base); f = font(FONT_B, 13); t = "Security warning"; bb = d.textbbox((0,0),t,font=f)
+    d.text((x+(cw-(bb[2]-bb[0]))//2, y+148), t, font=f, fill=WHITE)
+    label_chip(base, "iOS flaw · wallet security")
+    return base, {"kind":"composite","sources":[
+        {"file":"Front_of_iPhone_15_Pro_Max.jpg","license":"CC BY 4.0","url":"https://commons.wikimedia.org/wiki/File:Front_of_iPhone_15_Pro_Max.jpg","credit":"Ayamano2021 / Wikimedia Commons"},
+        {"file":"Binance_Logo.svg","license":"Logo","url":"https://commons.wikimedia.org/wiki/File:Binance_Logo.svg","credit":"Binance"},
+    ],"note":"Editorial composite; trademarks belong to their owners."}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -480,6 +525,8 @@ BUILDERS = {
     "bitcoin-hot-cpi-etf-outflows-nov-2026": thumb_hot_cpi,
     "binance-blocks-mexc-fincen-order-nov-2026": thumb_mexc,
     "banks-270-million-stablecoin-project-faro-nov-2026": thumb_faro,
+    "bitcoin-below-73000-lowest-since-august-nov-2026": thumb_btc_below_73k,
+    "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026": thumb_ios_flaw,
 }
 
 def first_figure_source(slug: str) -> Path | None:

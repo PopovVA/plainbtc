@@ -1,0 +1,65 @@
+title: Binance warns iPhone users that an iOS flaw could expose crypto wallet seed phrases
+page_title: Binance warns of iOS flaw that could expose wallet keys
+description: Binance warned on Nov. 10 that a public iOS bug called worse_query could let malicious apps read wallet seed phrases and keys. Here is who is at risk and what to do.
+og_description: A public iOS sandbox escape called worse_query could let a malicious app read other apps' files. Binance says delete untrusted apps and update iOS. No thefts reported.
+label: Security
+summary: Binance says a public iOS bug, worse_query, could let malicious apps read wallet seed phrases. No thefts are reported; delete untrusted apps and update.
+===
+
+Binance, one of the world's largest crypto exchanges, warned iPhone users on Tuesday, Nov. 10, about a flaw in Apple's iOS that could let a malicious app read files belonging to other apps. In a post on X quoted by [Bitcoin Magazine](L1), the exchange said the bug, nicknamed <strong>worse_query</strong>, puts "seed phrases, private keys, and login credentials at risk across the entire ecosystem."
+
+Binance named iOS versions <strong>26.7.1, 27.0.1 and 27.2</strong> as affected and stressed that "this is an iOS-level issue, not unique to Binance." Neither Binance nor the researcher behind the flaw has reported any crypto thefts linked to it.
+
+!takeaways
+- A public proof of concept called worse_query can break out of the iPhone app "sandbox" and read other apps' files.
+- Binance says it affects iOS 26.7.1, 27.0.1 and 27.2; the researcher lists a wider range of iOS 26 and 27 versions.
+- Apple released iOS 27.2.1 and 26.7.3 on Nov. 9, but its security notes do not mention worse_query.
+- No thefts have been reported. Binance advises deleting untrusted apps, updating iOS and moving funds if you suspect a breach.
+
+## What the flaw does
+
+On an iPhone, each app normally lives in its own walled-off container, called a sandbox, so other apps cannot read its files. worse_query is a "sandbox escape": code that gets around those walls. According to [The Hacker News](L2), a researcher known as forcequit released it on GitHub on Sunday, Nov. 8, together with a second researcher, 0xjohnny. The code can reach the data folders of every app on the phone, and some system folders on iOS 27.
+
+The researcher describes it as a proof of concept for developers that "isn't useful by itself." It is not a jailbreak, and to use it someone must build it into an app. That has already happened: a developer released a file manager app based on worse_query that installs through sideloading tools such as AltStore and SideStore, The Hacker News reported.
+
+!figure:timeline
+
+## Who is actually at risk
+
+The danger depends on two things. First, a harmful app has to be installed on your phone. Reports so far involve apps installed from outside the App Store, and no one involved has said whether an App Store app could use the flaw. Second, your wallet app must keep sensitive data in files the escape can read.
+
+Blockchain security firm SlowMist said the flaw will not steal assets on its own, according to Bitcoin Magazine. The risk appears only if a user runs an untrusted app and a wallet stores recovery phrases, key files or browser caches in plain text on the device. Wallets that keep secrets in encrypted, hardware-backed storage are not exposed in the same way, and hardware wallets keep private keys off the phone entirely.
+
+!figure:fact
+
+## What Apple has said
+
+Apple shipped iOS 27.2.1 and iOS 26.7.3 on Nov. 9, a day after worse_query went public, according to its [security releases page](L3). The notes for those updates list fixes for issues such as Bluetooth and iMessage bugs, but do not mention worse_query or a sandbox escape. Apple does not discuss security issues until it has investigated them, so it is unclear whether the new versions block the technique. SlowMist's security chief, who posts as 23pds, still urged users to update to iOS 27.2.1, saying it would block the escape, [Decrypt](L4) reported.
+
+!mid_cta
+
+## What to do now
+
+Binance's advice is simple, and it applies to anyone who keeps crypto on an iPhone:
+
+- Delete any app you installed from an untrusted source, such as sideloaded or manually signed app files.
+- Update iOS and all your apps to the latest official versions through Apple's normal update process.
+- If you think your phone may have been compromised, create a new wallet on a clean device, move your funds to it and sign out of all active login sessions.
+
+## What it means for beginners
+
+Your seed phrase is the master key to a self-custody wallet: anyone who sees it can take the coins. That is why it should never be typed into random apps, saved in screenshots or stored in notes. If you hold more than a small amount, a hardware wallet keeps the keys off your phone.
+
+Some beginners prefer to start with a regulated exchange that holds the keys for them. [Coinbase](REF), for example, says it keeps more than 99% of customer assets in offline storage, according to Cointelegraph. That trades one risk for another, since you then rely on the company's security. This is not investment advice.
+
+## What to watch next
+
+- Whether Apple confirms that iOS 27.2.1 or a later update fixes worse_query.
+- Statements from major wallet apps about how they store keys on iPhones.
+- Any confirmed reports of crypto stolen through the flaw.
+
+!soft: Not sure which type of wallet fits you? Read our guide to [custodial vs. self-custody crypto wallets](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

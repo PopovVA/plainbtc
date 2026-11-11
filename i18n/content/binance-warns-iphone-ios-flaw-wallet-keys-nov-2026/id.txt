@@ -1,0 +1,65 @@
+title: Binance memperingatkan pengguna iPhone: celah iOS bisa membocorkan frasa pemulihan dompet kripto
+page_title: Binance peringatkan celah iOS yang bisa membocorkan kunci dompet
+description: Binance memperingatkan pada 10 November bahwa celah iOS publik bernama worse_query bisa membuat aplikasi jahat membaca frasa pemulihan dan kunci. Siapa yang berisiko dan apa yang harus dilakukan.
+og_description: Celah sandbox iOS publik bernama worse_query bisa membuat aplikasi jahat membaca file aplikasi lain. Binance menyarankan menghapus aplikasi tak tepercaya dan memperbarui iOS. Belum ada laporan pencurian.
+label: Keamanan
+summary: Binance menyebut celah iOS publik, worse_query, bisa membuat aplikasi jahat membaca frasa pemulihan. Belum ada laporan pencurian; hapus aplikasi tak tepercaya dan lakukan pembaruan.
+===
+
+Binance, salah satu bursa kripto terbesar di dunia, pada Selasa, 10 November, memperingatkan pengguna iPhone tentang celah di iOS milik Apple yang bisa membuat aplikasi jahat membaca file milik aplikasi lain. Dalam unggahan di X yang dikutip [Bitcoin Magazine](L1), bursa itu mengatakan bug yang dijuluki <strong>worse_query</strong> ini menempatkan "frasa pemulihan, kunci privat, dan kredensial login dalam risiko di seluruh ekosistem."
+
+Binance menyebut iOS versi <strong>26.7.1, 27.0.1, dan 27.2</strong> terdampak dan menegaskan bahwa "ini masalah di tingkat iOS, bukan khusus Binance." Baik Binance maupun peneliti di balik celah ini belum melaporkan pencurian kripto yang terkait dengannya.
+
+!takeaways
+- Sebuah bukti konsep publik bernama worse_query bisa keluar dari "sandbox" aplikasi iPhone dan membaca file aplikasi lain.
+- Binance menyebut celah ini memengaruhi iOS 26.7.1, 27.0.1, dan 27.2; peneliti menyebut rentang versi iOS 26 dan 27 yang lebih luas.
+- Apple merilis iOS 27.2.1 dan 26.7.3 pada 9 November, tetapi catatan keamanannya tidak menyebut worse_query.
+- Belum ada laporan pencurian. Binance menyarankan menghapus aplikasi tak tepercaya, memperbarui iOS, dan memindahkan dana jika Anda curiga ada pembobolan.
+
+## Apa yang dilakukan celah ini
+
+Di iPhone, setiap aplikasi biasanya berjalan di wadah terisolasi sendiri yang disebut sandbox, sehingga aplikasi lain tidak bisa membaca filenya. worse_query adalah "pelarian sandbox": kode yang menembus sekat tersebut. Menurut [The Hacker News](L2), seorang peneliti yang dikenal sebagai forcequit merilisnya di GitHub pada Minggu, 8 November, bersama peneliti kedua, 0xjohnny. Kode ini bisa menjangkau folder data semua aplikasi di ponsel, dan beberapa folder sistem di iOS 27.
+
+Peneliti itu menyebutnya bukti konsep untuk pengembang yang "tidak berguna dengan sendirinya." Ini bukan jailbreak, dan untuk memakainya seseorang harus memasukkannya ke dalam aplikasi. Hal itu sudah terjadi: seorang pengembang merilis aplikasi pengelola file berbasis worse_query yang dipasang lewat alat sideloading seperti AltStore dan SideStore, lapor The Hacker News.
+
+!figure:timeline
+
+## Siapa yang benar-benar berisiko
+
+Bahayanya bergantung pada dua hal. Pertama, harus ada aplikasi berbahaya yang terpasang di ponsel Anda. Kasus yang dilaporkan sejauh ini melibatkan aplikasi yang dipasang dari luar App Store, dan belum ada yang menyatakan apakah aplikasi dari App Store bisa memakai celah ini. Kedua, aplikasi dompet Anda harus menyimpan data sensitif di file yang bisa dibaca lewat celah ini.
+
+Perusahaan keamanan blockchain SlowMist mengatakan celah ini tidak akan mencuri aset dengan sendirinya, menurut Bitcoin Magazine. Risiko baru muncul jika pengguna menjalankan aplikasi tak tepercaya dan dompet menyimpan frasa pemulihan, file kunci, atau cache browser dalam teks biasa di perangkat. Dompet yang menyimpan rahasianya di penyimpanan terenkripsi berbasis perangkat keras tidak terpapar dengan cara yang sama, dan dompet perangkat keras menyimpan kunci privat sepenuhnya di luar ponsel.
+
+!figure:fact
+
+## Apa kata Apple
+
+Apple merilis iOS 27.2.1 dan iOS 26.7.3 pada 9 November, sehari setelah worse_query dipublikasikan, menurut [halaman rilis keamanannya](L3). Catatan untuk versi tersebut mencantumkan perbaikan untuk masalah seperti bug Bluetooth dan iMessage, tetapi tidak menyebut worse_query atau pelarian sandbox. Apple tidak membahas masalah keamanan sebelum menyelidikinya, jadi belum jelas apakah versi baru memblokir teknik ini. Meski begitu, kepala keamanan SlowMist yang memakai nama 23pds tetap mendesak pengguna memperbarui ke iOS 27.2.1 dan menyebut pembaruan itu akan memblokir celah tersebut, lapor [Decrypt](L4).
+
+!mid_cta
+
+## Apa yang harus dilakukan sekarang
+
+Saran Binance sederhana dan berlaku bagi siapa pun yang menyimpan kripto di iPhone:
+
+- Hapus aplikasi apa pun yang Anda pasang dari sumber tak tepercaya, seperti file aplikasi hasil sideloading atau yang ditandatangani secara manual.
+- Perbarui iOS dan semua aplikasi Anda ke versi resmi terbaru melalui proses pembaruan normal dari Apple.
+- Jika Anda menduga ponsel Anda sudah dibobol, buat dompet baru di perangkat yang bersih, pindahkan dana Anda ke sana, dan keluar dari semua sesi login yang aktif.
+
+## Apa artinya bagi pemula
+
+Frasa pemulihan adalah kunci utama dompet swakelola: siapa pun yang melihatnya bisa mengambil koin Anda. Karena itu, frasa ini tidak boleh diketik di sembarang aplikasi, disimpan sebagai tangkapan layar, atau dicatat di aplikasi catatan. Jika Anda memegang lebih dari jumlah kecil, dompet perangkat keras menjaga kunci tetap di luar ponsel.
+
+Sebagian pemula memilih memulai dengan bursa teregulasi yang menyimpan kunci untuk mereka. [Coinbase](REF), misalnya, mengatakan menyimpan lebih dari 99% aset nasabah di penyimpanan offline, menurut Cointelegraph. Itu berarti menukar satu risiko dengan risiko lain, karena Anda lalu bergantung pada keamanan perusahaan. Ini bukan saran investasi.
+
+## Yang perlu dipantau selanjutnya
+
+- Apakah Apple mengonfirmasi bahwa iOS 27.2.1 atau pembaruan berikutnya memperbaiki worse_query.
+- Pernyataan aplikasi dompet besar tentang cara mereka menyimpan kunci di iPhone.
+- Laporan terkonfirmasi tentang kripto yang dicuri lewat celah ini.
+
+!soft: Bingung memilih jenis dompet? Baca panduan kami tentang [dompet kustodian vs. swakelola](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

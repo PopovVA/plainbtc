@@ -1,0 +1,65 @@
+title: Binance alerta usuários de iPhone de que uma falha no iOS pode expor frases-semente de carteiras cripto
+page_title: Binance alerta para falha no iOS que pode expor chaves de carteiras
+description: A Binance alertou em 10 de novembro que uma falha pública do iOS chamada worse_query pode permitir que apps maliciosos leiam frases-semente e chaves. Veja quem corre risco e o que fazer.
+og_description: Uma fuga de sandbox pública do iOS chamada worse_query pode permitir que um app malicioso leia arquivos de outros apps. A Binance recomenda apagar apps não confiáveis e atualizar o iOS. Nenhum roubo relatado.
+label: Segurança
+summary: A Binance diz que uma falha pública do iOS, a worse_query, pode permitir que apps maliciosos leiam frases-semente. Nenhum roubo relatado; apague apps não confiáveis e atualize.
+===
+
+A Binance, uma das maiores corretoras de criptomoedas do mundo, alertou usuários de iPhone na terça-feira, 10 de novembro, sobre uma falha no iOS da Apple que pode permitir que um app malicioso leia arquivos de outros apps. Em uma publicação no X citada pela [Bitcoin Magazine](L1), a corretora disse que o bug, apelidado de <strong>worse_query</strong>, coloca "frases-semente, chaves privadas e credenciais de login em risco em todo o ecossistema".
+
+A Binance apontou as versões <strong>26.7.1, 27.0.1 e 27.2</strong> do iOS como afetadas e destacou que "este é um problema do iOS, não exclusivo da Binance". Nem a Binance nem o pesquisador por trás da falha relataram roubos de cripto ligados a ela.
+
+!takeaways
+- Uma prova de conceito pública chamada worse_query consegue escapar do "sandbox" dos apps do iPhone e ler arquivos de outros apps.
+- A Binance diz que ela afeta o iOS 26.7.1, 27.0.1 e 27.2; o pesquisador cita uma faixa maior de versões do iOS 26 e 27.
+- A Apple lançou o iOS 27.2.1 e o 26.7.3 em 9 de novembro, mas as notas de segurança não mencionam a worse_query.
+- Nenhum roubo foi relatado. A Binance recomenda apagar apps não confiáveis, atualizar o iOS e mover os fundos se você suspeitar de invasão.
+
+## O que a falha faz
+
+No iPhone, cada app normalmente fica em seu próprio contêiner isolado, chamado sandbox, para que outros apps não leiam seus arquivos. A worse_query é uma "fuga de sandbox": um código que contorna essas barreiras. Segundo o [The Hacker News](L2), um pesquisador conhecido como forcequit a publicou no GitHub no domingo, 8 de novembro, junto com um segundo pesquisador, 0xjohnny. O código alcança as pastas de dados de todos os apps do aparelho e, no iOS 27, algumas pastas do sistema.
+
+O pesquisador a descreve como uma prova de conceito para desenvolvedores que "não é útil sozinha". Não é um jailbreak, e para usá-la alguém precisa incorporá-la a um app. Isso já aconteceu: um desenvolvedor lançou um app gerenciador de arquivos baseado na worse_query que é instalado por ferramentas de sideloading como AltStore e SideStore, informou o The Hacker News.
+
+!figure:timeline
+
+## Quem realmente corre risco
+
+O perigo depende de duas coisas. Primeiro, um app nocivo precisa estar instalado no seu celular. Os casos relatados até agora envolvem apps instalados fora da App Store, e ninguém disse se um app da App Store poderia usar a falha. Segundo, seu app de carteira precisa guardar dados sensíveis em arquivos que a fuga consiga ler.
+
+A empresa de segurança blockchain SlowMist disse que a falha não rouba ativos sozinha, segundo a Bitcoin Magazine. O risco só aparece se o usuário rodar um app não confiável e a carteira guardar frases de recuperação, arquivos de chaves ou caches do navegador em texto simples no aparelho. Carteiras que guardam segredos em armazenamento criptografado e protegido por hardware não ficam expostas da mesma forma, e carteiras de hardware mantêm as chaves privadas totalmente fora do celular.
+
+!figure:fact
+
+## O que a Apple disse
+
+A Apple lançou o iOS 27.2.1 e o iOS 26.7.3 em 9 de novembro, um dia depois de a worse_query se tornar pública, segundo sua [página de atualizações de segurança](L3). As notas dessas versões listam correções para problemas como bugs de Bluetooth e iMessage, mas não mencionam a worse_query nem uma fuga de sandbox. A Apple não comenta problemas de segurança antes de investigá-los, então não está claro se as novas versões bloqueiam a técnica. Mesmo assim, o chefe de segurança da SlowMist, que publica como 23pds, recomendou atualizar para o iOS 27.2.1, dizendo que isso bloquearia a fuga, informou o [Decrypt](L4).
+
+!mid_cta
+
+## O que fazer agora
+
+A orientação da Binance é simples e vale para quem guarda cripto em um iPhone:
+
+- Apague qualquer app instalado de uma fonte não confiável, como arquivos de apps instalados por sideloading ou assinados manualmente.
+- Atualize o iOS e todos os seus apps para as versões oficiais mais recentes pelo processo normal de atualização da Apple.
+- Se achar que seu celular pode ter sido comprometido, crie uma carteira nova em um aparelho limpo, transfira seus fundos para ela e encerre todas as sessões ativas.
+
+## O que isso significa para iniciantes
+
+Sua frase-semente é a chave mestra de uma carteira de autocustódia: quem a vir pode levar as moedas. Por isso ela nunca deve ser digitada em apps aleatórios, salva em capturas de tela ou guardada em notas. Se você tem mais do que um valor pequeno, uma carteira de hardware mantém as chaves fora do celular.
+
+Alguns iniciantes preferem começar por uma corretora regulamentada que guarda as chaves por eles. A [Coinbase](REF), por exemplo, diz manter mais de 99% dos ativos dos clientes em armazenamento offline, segundo o Cointelegraph. Isso troca um risco por outro, já que você passa a depender da segurança da empresa. Isto não é recomendação de investimento.
+
+## O que acompanhar a seguir
+
+- Se a Apple confirma que o iOS 27.2.1 ou uma atualização posterior corrige a worse_query.
+- Comunicados dos principais apps de carteira sobre como guardam chaves no iPhone.
+- Qualquer relato confirmado de cripto roubada por meio da falha.
+
+!soft: Não sabe qual tipo de carteira combina com você? Leia nosso guia sobre [carteiras custodiais e de autocustódia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

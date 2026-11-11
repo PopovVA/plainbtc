@@ -1,0 +1,65 @@
+title: Binance, iPhone kullanıcılarını uyardı: Bir iOS açığı kripto cüzdanların kurtarma ifadelerini açığa çıkarabilir
+page_title: Binance, cüzdan anahtarlarını açığa çıkarabilecek iOS açığına karşı uyardı
+description: Binance 10 Kasım'da, worse_query adlı herkese açık bir iOS açığının kötü amaçlı uygulamaların kurtarma ifadelerini ve anahtarları okumasına izin verebileceği uyarısında bulundu. Kimler risk altında, ne yapmalı?
+og_description: worse_query adlı herkese açık bir iOS korumalı alan kaçışı, kötü amaçlı bir uygulamanın diğer uygulamaların dosyalarını okumasına izin verebilir. Binance güvenilmeyen uygulamaları silmeyi ve iOS'u güncellemeyi öneriyor. Bildirilen hırsızlık yok.
+label: Güvenlik
+summary: Binance'e göre herkese açık bir iOS açığı olan worse_query, kötü amaçlı uygulamaların kurtarma ifadelerini okumasına izin verebilir. Bildirilen hırsızlık yok; güvenilmeyen uygulamaları silip güncelleyin.
+===
+
+Dünyanın en büyük kripto para borsalarından Binance, 10 Kasım salı günü iPhone kullanıcılarını Apple'ın iOS işletim sistemindeki, kötü amaçlı bir uygulamanın diğer uygulamalara ait dosyaları okumasına olanak tanıyabilecek bir açık konusunda uyardı. [Bitcoin Magazine](L1)'in aktardığı X paylaşımında borsa, <strong>worse_query</strong> adı verilen hatanın "tüm ekosistemde kurtarma ifadelerini, özel anahtarları ve giriş bilgilerini risk altına soktuğunu" söyledi.
+
+Binance, etkilenen sürümler olarak iOS <strong>26.7.1, 27.0.1 ve 27.2</strong>'yi gösterdi ve "bu, yalnızca Binance'e özgü değil, iOS düzeyinde bir sorun" vurgusunu yaptı. Ne Binance ne de açığı ortaya çıkaran araştırmacı, bununla bağlantılı bir kripto hırsızlığı bildirdi.
+
+!takeaways
+- worse_query adlı herkese açık bir kavram kanıtı, iPhone uygulamalarının "korumalı alanından" çıkıp diğer uygulamaların dosyalarını okuyabiliyor.
+- Binance'e göre açık iOS 26.7.1, 27.0.1 ve 27.2'yi etkiliyor; araştırmacı daha geniş bir iOS 26 ve 27 sürüm aralığı veriyor.
+- Apple 9 Kasım'da iOS 27.2.1 ve 26.7.3'ü yayımladı, ancak güvenlik notlarında worse_query'den söz edilmiyor.
+- Bildirilen bir hırsızlık yok. Binance güvenilmeyen uygulamaları silmeyi, iOS'u güncellemeyi ve ihlalden şüpheleniyorsanız fonları taşımayı öneriyor.
+
+## Açık ne yapıyor
+
+iPhone'da her uygulama normalde, diğer uygulamaların dosyalarını okuyamaması için sandbox adı verilen kendi yalıtılmış alanında çalışır. worse_query bir "korumalı alan kaçışı", yani bu duvarları aşan bir kod. [The Hacker News](L2)'e göre forcequit adıyla bilinen bir araştırmacı, ikinci bir araştırmacı olan 0xjohnny ile birlikte kodu 8 Kasım pazar günü GitHub'da yayımladı. Kod, telefondaki tüm uygulamaların veri klasörlerine ve iOS 27'de bazı sistem klasörlerine erişebiliyor.
+
+Araştırmacı bunu geliştiriciler için "tek başına işe yaramayan" bir kavram kanıtı olarak tanımlıyor. Bu bir jailbreak değil; kullanmak için birinin onu bir uygulamaya yerleştirmesi gerekiyor. Bu zaten oldu: The Hacker News'in bildirdiğine göre bir geliştirici, AltStore ve SideStore gibi yan yükleme (sideloading) araçlarıyla kurulan, worse_query tabanlı bir dosya yöneticisi uygulaması yayımladı.
+
+!figure:timeline
+
+## Gerçekte kimler risk altında
+
+Tehlike iki şeye bağlı. Birincisi, telefonunuzda zararlı bir uygulamanın yüklü olması gerekiyor. Şimdiye kadarki örnekler App Store dışından yüklenen uygulamaları kapsıyor ve App Store'daki bir uygulamanın bu açığı kullanıp kullanamayacağını kimse söylemedi. İkincisi, cüzdan uygulamanızın hassas verileri bu kaçışın okuyabileceği dosyalarda saklaması gerekiyor.
+
+Bitcoin Magazine'e göre blokzincir güvenlik şirketi SlowMist, açığın tek başına varlık çalmayacağını söyledi. Risk ancak kullanıcı güvenilmeyen bir uygulama çalıştırırsa ve cüzdan kurtarma ifadelerini, anahtar dosyalarını veya tarayıcı önbelleklerini cihazda düz metin olarak saklıyorsa ortaya çıkıyor. Sırlarını şifreli, donanım destekli depolamada tutan cüzdanlar aynı şekilde açıkta değil; donanım cüzdanları ise özel anahtarları tamamen telefonun dışında tutuyor.
+
+!figure:fact
+
+## Apple ne dedi
+
+Apple, [güvenlik güncellemeleri sayfasına](L3) göre worse_query'nin yayımlanmasından bir gün sonra, 9 Kasım'da iOS 27.2.1 ve iOS 26.7.3'ü yayımladı. Bu sürümlerin notlarında Bluetooth ve iMessage hataları gibi sorunlara yönelik düzeltmeler yer alıyor, ancak worse_query'den ya da bir korumalı alan kaçışından söz edilmiyor. Apple güvenlik sorunlarını araştırmadan yorum yapmadığı için yeni sürümlerin bu tekniği engelleyip engellemediği belirsiz. Yine de [Decrypt](L4)'in bildirdiğine göre SlowMist'in 23pds adıyla paylaşım yapan güvenlik sorumlusu, kullanıcıları iOS 27.2.1'e güncellemeye çağırdı ve bunun kaçışı engelleyeceğini söyledi.
+
+!mid_cta
+
+## Şimdi ne yapmalı
+
+Binance'in tavsiyeleri basit ve iPhone'da kripto tutan herkes için geçerli:
+
+- Yan yüklenmiş ya da elle imzalanmış uygulama dosyaları gibi güvenilmeyen bir kaynaktan yüklediğiniz her uygulamayı silin.
+- iOS'u ve tüm uygulamalarınızı Apple'ın normal güncelleme yöntemiyle en son resmî sürümlere güncelleyin.
+- Telefonunuzun ele geçirilmiş olabileceğini düşünüyorsanız temiz bir cihazda yeni bir cüzdan oluşturun, fonlarınızı oraya taşıyın ve tüm aktif oturumlardan çıkış yapın.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Kurtarma ifadeniz, kendi saklamanızdaki bir cüzdanın ana anahtarıdır: onu gören herkes coin'leri alabilir. Bu yüzden asla rastgele uygulamalara yazılmamalı, ekran görüntüsüyle kaydedilmemeli ya da notlarda saklanmamalı. Küçük bir tutardan fazlasını tutuyorsanız, donanım cüzdanı anahtarları telefonunuzun dışında tutar.
+
+Bazı yeni başlayanlar anahtarları kendileri adına saklayan düzenlemeye tabi bir borsayla başlamayı tercih ediyor. Örneğin [Coinbase](REF), Cointelegraph'a göre müşteri varlıklarının %99'undan fazlasını çevrimdışı depolamada tuttuğunu söylüyor. Bu bir riski başka bir riskle değiştirmek demek, çünkü artık şirketin güvenliğine güvenirsiniz. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra izlenecekler
+
+- Apple'ın iOS 27.2.1'in veya sonraki bir güncellemenin worse_query'yi düzelttiğini doğrulayıp doğrulamayacağı.
+- Büyük cüzdan uygulamalarının anahtarları iPhone'da nasıl sakladıklarına dair açıklamaları.
+- Açık üzerinden kripto çalındığına dair doğrulanmış herhangi bir rapor.
+
+!soft: Hangi cüzdan türünün size uygun olduğundan emin değil misiniz? [Emanetçi ve kendi kendine saklama cüzdanları](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) rehberimizi okuyun.
+
+!end_cta
+
+!disclosure

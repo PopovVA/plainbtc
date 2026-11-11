@@ -1,0 +1,60 @@
+title: Bitcoin drops below $73,000 for the first time since August as bond yields jump
+page_title: Bitcoin drops below $73,000, lowest since August
+description: Bitcoin fell to about $72,585 on Nov. 10, its lowest price since Aug. 20, as Treasury yields jumped and traders bet on a December Fed rate hike. Here is what happened.
+og_description: Bitcoin hit about $72,585, its lowest since Aug. 20. The 10-year Treasury yield rose to 4.98%, and about $716 million in crypto bets were liquidated.
+label: Market news
+summary: Bitcoin slid to about $72,585 on Tuesday, its lowest since Aug. 20, as Treasury yields jumped and $716 million in crypto bets were liquidated.
+===
+
+Bitcoin kept falling after Tuesday morning's inflation report and slipped below <strong>$73,000</strong> for the first time since August. On Kraken, the price dropped to about <strong>$72,585</strong> shortly after noon Eastern time on Nov. 10, its lowest level since Aug. 20. It then recovered a little and ended the UTC day near <strong>$73,700</strong>, down about 2.1% from its opening price of roughly $75,250.
+
+The slide came a few hours after U.S. consumer prices rose more than expected in October. [CoinDesk](L1) reported that the drop below $73,000 took out another low for the current cycle, as U.S. stocks also turned lower during the session.
+
+!takeaways
+- Bitcoin touched about $72,585 on Kraken, its lowest price since Aug. 20, before closing the UTC day near $73,700.
+- The 10-year Treasury yield rose to 4.98% from 4.88% a day earlier, according to official Treasury data.
+- About $716 million in crypto futures positions were liquidated in 24 hours, $589 million of them long bets, per CoinGlass data cited by FXStreet.
+- Trading firm Wintermute flagged the $73,000 area as key support and said a daily close below it could open a move toward $68,000.
+
+## Bond yields drove the move
+
+The main pressure came from the bond market. Official [U.S. Treasury](L2) data shows the 10-year yield closed Tuesday at <strong>4.98%</strong>, up from 4.88% on Monday, while the 2-year yield rose to 4.73% from 4.56%. CoinDesk reported that the 10-year yield briefly traded above 5% during the day.
+
+Yields rose because traders now expect the Federal Reserve to raise interest rates at its December meeting. Fed Governor Christopher Waller said overnight that a strong inflation reading could justify a larger half-point increase. According to CoinDesk, CME FedWatch data on Tuesday morning showed an 85% chance of a quarter-point hike and a 15% chance of a half-point move. Higher rates make cash and bonds pay more, which can pull money away from riskier assets such as stocks and crypto.
+
+!figure:chart
+
+## Stocks and altcoins fell too
+
+The selling was not limited to bitcoin. CoinDesk reported that the Nasdaq was down about 1.1% by late morning, led by a roughly 6% drop in Nvidia at that point; CoinDesk later reported Nvidia down 5% for the day and below $170 a share. Other large cryptocurrencies fell harder than bitcoin. On Kraken, ether dropped as low as about $2,002 before ending the UTC day near $2,051, down nearly 4%.
+
+Falling prices forced many traders out of leveraged bets. [FXStreet](L3), citing CoinGlass, reported about <strong>$716 million</strong> in crypto futures liquidations over 24 hours, with <strong>$589 million</strong> coming from long positions, meaning traders who had bet on prices rising.
+
+!mid_cta
+
+## Why $73,000 matters to traders
+
+Trading firm Wintermute pointed to $73,000 as an important support level because it lines up with bitcoin's 200-day moving average, a long-term trend line many traders watch. "A daily close below it and the 200-day opens $68K," the firm wrote in a note quoted by FXStreet. By PlainBTC's own calculation from Kraken daily closing prices, the 200-day average was about $73,137 on Tuesday, so bitcoin finished the UTC day only slightly above it.
+
+Bitcoin is now about 17% below its September high of roughly $87,450 on Kraken. Tuesday also marked five years since bitcoin first touched $69,000, on Nov. 10, 2021. CoinDesk noted that the price today is only about $4,500 higher than that old peak.
+
+!figure:fact
+
+## What it means for beginners
+
+A drop to a three-month low can feel alarming, but price swings of this size are common in bitcoin. Nobody knows whether the price will hold near $73,000 or fall further, and support levels are only guides, not guarantees. If you are new, consider sticking to an amount you can afford to leave untouched for years, and avoid borrowed money or leveraged trading, which is what drove Tuesday's liquidations.
+
+If you want to buy bitcoin slowly over time instead of all at once, a bitcoin-only service such as [River](L4) lets U.S. customers set up recurring purchases; check its current fees and terms on its site first. This is not investment advice.
+
+## What to watch next
+
+- Whether bitcoin closes a day below its 200-day average near $73,000.
+- Spot bitcoin ETF flows for Tuesday, which Farside Investors had not yet published at the time of writing.
+- Comments from Fed officials ahead of the Dec. 9 rate decision.
+- Moves in the 10-year Treasury yield around the 5% mark.
+
+!soft: Thinking about buying a little at a time? Read our guide to [dollar-cost averaging for beginners](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-worse-query.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline: Nov. 8, a researcher publishes the worse_query sandbox escape; Nov. 9, Apple ships iOS 27.2.1 and 26.7.3 without mentioning it; Nov. 10, Binance warns that seed phrases and keys could be exposed",
+      "es": "Cronología: 8 de nov., un investigador publica el escape de sandbox worse_query; 9 de nov., Apple lanza iOS 27.2.1 y 26.7.3 sin mencionarlo; 10 de nov., Binance advierte que frases semilla y claves podrían quedar expuestas",
+      "pt": "Linha do tempo: 8 de nov., um pesquisador publica a fuga de sandbox worse_query; 9 de nov., a Apple lança o iOS 27.2.1 e o 26.7.3 sem mencioná-la; 10 de nov., a Binance alerta que frases-semente e chaves podem ficar expostas",
+      "fr": "Chronologie : 8 nov., un chercheur publie l'évasion de sandbox worse_query ; 9 nov., Apple publie iOS 27.2.1 et 26.7.3 sans la mentionner ; 10 nov., Binance avertit que des phrases de récupération et des clés pourraient être exposées",
+      "de": "Zeitleiste: 8. Nov., ein Forscher veröffentlicht den Sandbox-Ausbruch worse_query; 9. Nov., Apple veröffentlicht iOS 27.2.1 und 26.7.3 ohne Erwähnung; 10. Nov., Binance warnt, dass Seed-Phrasen und Schlüssel offengelegt werden könnten",
+      "ru": "Хронология: 8 ноября исследователь публикует обход песочницы worse_query; 9 ноября Apple выпускает iOS 27.2.1 и 26.7.3, не упоминая его; 10 ноября Binance предупреждает, что сид-фразы и ключи могут оказаться под угрозой",
+      "tr": "Zaman çizelgesi: 8 Kasım'da bir araştırmacı worse_query korumalı alan kaçışını yayımlıyor; 9 Kasım'da Apple, ondan söz etmeden iOS 27.2.1 ve 26.7.3'ü çıkarıyor; 10 Kasım'da Binance kurtarma ifadelerinin ve anahtarların açığa çıkabileceği uyarısını yapıyor",
+      "id": "Linimasa: 8 Nov, peneliti merilis celah sandbox worse_query; 9 Nov, Apple merilis iOS 27.2.1 dan 26.7.3 tanpa menyebutnya; 10 Nov, Binance memperingatkan bahwa frasa pemulihan dan kunci bisa terekspos",
+      "ja": "時系列：11月8日、研究者がサンドボックス回避「worse_query」を公開。11月9日、AppleがiOS 27.2.1と26.7.3を配信（言及なし）。11月10日、Binanceがシードフレーズや鍵が漏れるおそれを警告",
+      "ko": "타임라인: 11월 8일 연구자가 샌드박스 탈출 기법 worse_query 공개, 11월 9일 애플이 이를 언급하지 않은 채 iOS 27.2.1·26.7.3 배포, 11월 10일 바이낸스가 시드 문구와 키 노출 가능성 경고"
+    },
+    "caption": {
+      "en": "Source: The Hacker News; Apple security releases; Binance",
+      "es": "Fuente: The Hacker News; Apple security releases; Binance",
+      "pt": "Fonte: The Hacker News; Apple security releases; Binance",
+      "fr": "Source : The Hacker News; Apple security releases; Binance",
+      "de": "Quelle: The Hacker News; Apple security releases; Binance",
+      "ru": "Источник: The Hacker News; Apple security releases; Binance",
+      "tr": "Kaynak: The Hacker News; Apple security releases; Binance",
+      "id": "Sumber: The Hacker News; Apple security releases; Binance",
+      "ja": "出典: The Hacker News; Apple security releases; Binance",
+      "ko": "출처: The Hacker News; Apple security releases; Binance"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-ios-versions.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: Binance named iOS 26.7.1, 27.0.1 and 27.2 as affected and said it is an iOS-level issue, not unique to Binance; no thefts have been reported",
+      "es": "Tarjeta: Binance señaló iOS 26.7.1, 27.0.1 y 27.2 como afectados y dijo que es un problema de iOS, no exclusivo de Binance; no se han reportado robos",
+      "pt": "Cartão: a Binance apontou o iOS 26.7.1, 27.0.1 e 27.2 como afetados e disse que o problema é do iOS, não exclusivo da Binance; nenhum roubo foi relatado",
+      "fr": "Encadré : Binance cite iOS 26.7.1, 27.0.1 et 27.2 comme concernés et parle d'un problème propre à iOS, pas à Binance ; aucun vol n'a été signalé",
+      "de": "Faktenkarte: Binance nennt iOS 26.7.1, 27.0.1 und 27.2 als betroffen und spricht von einem iOS-Problem, das nicht nur Binance betrifft; Diebstähle wurden nicht gemeldet",
+      "ru": "Карточка: Binance назвала затронутыми iOS 26.7.1, 27.0.1 и 27.2 и подчеркнула, что это проблема iOS, а не только Binance; краж пока не зафиксировано",
+      "tr": "Kart: Binance etkilenen sürümler olarak iOS 26.7.1, 27.0.1 ve 27.2'yi gösterdi ve sorunun yalnızca Binance'e değil iOS'a ait olduğunu söyledi; bildirilen bir hırsızlık yok",
+      "id": "Kart fakta: Binance menyebut iOS 26.7.1, 27.0.1, dan 27.2 terdampak dan mengatakan ini masalah iOS, bukan khusus Binance; belum ada laporan pencurian",
+      "ja": "カード：BinanceはiOS 26.7.1、27.0.1、27.2が影響を受けるとし、Binance固有ではなくiOSの問題だと説明。盗難の報告はない",
+      "ko": "카드: 바이낸스는 iOS 26.7.1, 27.0.1, 27.2가 영향을 받는다며 바이낸스만의 문제가 아닌 iOS 차원의 문제라고 밝혔다. 도난 보고는 없다"
+    },
+    "caption": {
+      "en": "Source: Binance on X, via Bitcoin Magazine",
+      "es": "Fuente: Binance on X, via Bitcoin Magazine",
+      "pt": "Fonte: Binance on X, via Bitcoin Magazine",
+      "fr": "Source : Binance on X, via Bitcoin Magazine",
+      "de": "Quelle: Binance on X, via Bitcoin Magazine",
+      "ru": "Источник: Binance on X, via Bitcoin Magazine",
+      "tr": "Kaynak: Binance on X, via Bitcoin Magazine",
+      "id": "Sumber: Binance on X, via Bitcoin Magazine",
+      "ja": "出典: Binance on X, via Bitcoin Magazine",
+      "ko": "출처: Binance on X, via Bitcoin Magazine"
+    }
+  }
+]

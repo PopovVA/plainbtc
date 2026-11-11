@@ -1,0 +1,65 @@
+title: Binance warnt iPhone-Nutzer: Eine iOS-Lücke könnte Seed-Phrasen von Krypto-Wallets offenlegen
+page_title: Binance warnt vor iOS-Lücke, die Wallet-Schlüssel offenlegen könnte
+description: Binance warnte am 10. November, dass eine öffentliche iOS-Lücke namens worse_query bösartigen Apps erlauben könnte, Seed-Phrasen und Schlüssel zu lesen. Wer betroffen ist und was zu tun ist.
+og_description: Ein öffentlicher iOS-Sandbox-Ausbruch namens worse_query könnte einer bösartigen App erlauben, Dateien anderer Apps zu lesen. Binance rät: unsichere Apps löschen und iOS aktualisieren. Keine Diebstähle gemeldet.
+label: Sicherheit
+summary: Laut Binance könnte die öffentliche iOS-Lücke worse_query bösartigen Apps erlauben, Seed-Phrasen zu lesen. Keine Diebstähle gemeldet; unsichere Apps löschen und aktualisieren.
+===
+
+Binance, eine der größten Kryptobörsen der Welt, hat iPhone-Nutzer am Dienstag, dem 10. November, vor einer Lücke in Apples iOS gewarnt, durch die eine bösartige App Dateien anderer Apps lesen könnte. In einem von [Bitcoin Magazine](L1) zitierten Beitrag auf X schrieb die Börse, der Fehler mit dem Spitznamen <strong>worse_query</strong> gefährde „Seed-Phrasen, private Schlüssel und Zugangsdaten im gesamten Ökosystem“.
+
+Binance nannte die iOS-Versionen <strong>26.7.1, 27.0.1 und 27.2</strong> als betroffen und betonte: „Dies ist ein Problem auf iOS-Ebene, nicht nur bei Binance.“ Weder Binance noch der Forscher hinter der Lücke haben bisher Krypto-Diebstähle in diesem Zusammenhang gemeldet.
+
+!takeaways
+- Ein öffentlicher Proof of Concept namens worse_query kann aus der „Sandbox“ von iPhone-Apps ausbrechen und Dateien anderer Apps lesen.
+- Laut Binance sind iOS 26.7.1, 27.0.1 und 27.2 betroffen; der Forscher nennt einen größeren Bereich von iOS-26- und iOS-27-Versionen.
+- Apple veröffentlichte am 9. November iOS 27.2.1 und 26.7.3, doch die Sicherheitshinweise erwähnen worse_query nicht.
+- Diebstähle sind nicht bekannt. Binance rät, unsichere Apps zu löschen, iOS zu aktualisieren und bei Verdacht Guthaben zu verschieben.
+
+## Was die Lücke bewirkt
+
+Auf einem iPhone läuft jede App normalerweise in einem eigenen, abgeschotteten Bereich, der Sandbox, damit andere Apps ihre Dateien nicht lesen können. worse_query ist ein „Sandbox-Ausbruch“: Code, der diese Abschottung umgeht. Laut [The Hacker News](L2) veröffentlichte ein Forscher mit dem Namen forcequit ihn am Sonntag, dem 8. November, auf GitHub, gemeinsam mit einem zweiten Forscher, 0xjohnny. Der Code erreicht die Datenordner aller Apps auf dem Telefon und unter iOS 27 auch einige Systemordner.
+
+Der Forscher beschreibt ihn als Proof of Concept für Entwickler, der „für sich allein nicht nützlich“ sei. Es handelt sich nicht um einen Jailbreak; um ihn zu nutzen, muss jemand ihn in eine App einbauen. Das ist bereits geschehen: Ein Entwickler hat eine Dateimanager-App auf Basis von worse_query veröffentlicht, die sich über Sideloading-Werkzeuge wie AltStore und SideStore installieren lässt, berichtete The Hacker News.
+
+!figure:timeline
+
+## Wer tatsächlich gefährdet ist
+
+Die Gefahr hängt von zwei Dingen ab. Erstens muss eine schädliche App auf Ihrem Telefon installiert sein. Die bisher bekannten Fälle betreffen Apps, die außerhalb des App Store installiert wurden, und niemand hat gesagt, ob eine App aus dem App Store die Lücke nutzen könnte. Zweitens muss Ihre Wallet-App sensible Daten in Dateien speichern, die der Ausbruch lesen kann.
+
+Das Blockchain-Sicherheitsunternehmen SlowMist erklärte laut Bitcoin Magazine, die Lücke stehle für sich genommen keine Vermögenswerte. Das Risiko entstehe nur, wenn ein Nutzer eine unsichere App ausführt und eine Wallet Wiederherstellungsphrasen, Schlüsseldateien oder Browser-Caches im Klartext auf dem Gerät speichert. Wallets, die Geheimnisse in verschlüsseltem, hardwaregestütztem Speicher ablegen, sind nicht auf die gleiche Weise gefährdet, und Hardware-Wallets halten private Schlüssel ganz vom Telefon fern.
+
+!figure:fact
+
+## Was Apple gesagt hat
+
+Apple veröffentlichte iOS 27.2.1 und iOS 26.7.3 am 9. November, einen Tag nachdem worse_query öffentlich wurde, wie aus der [Übersicht der Sicherheitsupdates](L3) hervorgeht. Die Hinweise zu diesen Versionen nennen Korrekturen etwa für Bluetooth- und iMessage-Fehler, erwähnen aber weder worse_query noch einen Sandbox-Ausbruch. Apple äußert sich zu Sicherheitsproblemen erst nach einer Untersuchung, daher ist unklar, ob die neuen Versionen die Technik blockieren. Der Sicherheitschef von SlowMist, der als 23pds postet, riet dennoch zum Update auf iOS 27.2.1 und erklärte, es blockiere den Ausbruch, berichtete [Decrypt](L4).
+
+!mid_cta
+
+## Was Sie jetzt tun sollten
+
+Die Empfehlungen von Binance sind einfach und gelten für alle, die Kryptowährungen auf einem iPhone aufbewahren:
+
+- Löschen Sie jede App, die Sie aus einer unsicheren Quelle installiert haben, etwa per Sideloading oder manuell signierte App-Dateien.
+- Aktualisieren Sie iOS und alle Apps über Apples normalen Update-Weg auf die neuesten offiziellen Versionen.
+- Wenn Sie vermuten, dass Ihr Telefon kompromittiert sein könnte, erstellen Sie auf einem sauberen Gerät eine neue Wallet, übertragen Sie Ihr Guthaben dorthin und melden Sie alle aktiven Sitzungen ab.
+
+## Was das für Einsteiger bedeutet
+
+Ihre Seed-Phrase ist der Generalschlüssel zu einer Wallet in Eigenverwahrung: Wer sie sieht, kann die Coins nehmen. Deshalb sollte sie nie in beliebige Apps eingetippt, als Screenshot gespeichert oder in Notizen abgelegt werden. Wenn Sie mehr als einen kleinen Betrag halten, hält eine Hardware-Wallet die Schlüssel von Ihrem Telefon fern.
+
+Manche Einsteiger beginnen lieber bei einer regulierten Börse, die die Schlüssel für sie verwahrt. [Coinbase](REF) etwa gibt laut Cointelegraph an, mehr als 99 % der Kundenvermögen offline zu lagern. Damit tauscht man ein Risiko gegen ein anderes, denn man verlässt sich dann auf die Sicherheit des Unternehmens. Dies ist keine Anlageberatung.
+
+## Worauf jetzt zu achten ist
+
+- Ob Apple bestätigt, dass iOS 27.2.1 oder ein späteres Update worse_query behebt.
+- Stellungnahmen großer Wallet-Apps dazu, wie sie Schlüssel auf iPhones speichern.
+- Bestätigte Berichte über Kryptowährungen, die über die Lücke gestohlen wurden.
+
+!soft: Unsicher, welche Wallet-Art zu Ihnen passt? Lesen Sie unseren Leitfaden zu [verwahrten Wallets und Eigenverwahrung](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

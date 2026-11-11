@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-hourly-nov-9-10.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin's hourly price on Kraken on Nov. 9 and 10, 2026, falling from about $75,250 to below $73,000 before ending near $73,700, with a dashed line at the 200-day average of about $73,137",
+      "es": "Gráfico de líneas del precio horario de bitcoin en Kraken el 9 y 10 de noviembre de 2026: cae de unos 75.250 $ por debajo de 73.000 $ y termina cerca de 73.700 $, con una línea discontinua en la media de 200 días de unos 73.137 $",
+      "pt": "Gráfico de linha do preço horário do bitcoin na Kraken em 9 e 10 de novembro de 2026: cai de cerca de US$ 75.250 para menos de US$ 73.000 e termina perto de US$ 73.700, com linha tracejada na média de 200 dias de cerca de US$ 73.137",
+      "fr": "Courbe du prix horaire du bitcoin sur Kraken les 9 et 10 novembre 2026 : baisse d'environ 75 250 $ sous 73 000 $, puis clôture vers 73 700 $, avec une ligne pointillée sur la moyenne à 200 jours d'environ 73 137 $",
+      "de": "Liniendiagramm des stündlichen Bitcoin-Kurses bei Kraken am 9. und 10. November 2026: Rückgang von rund 75.250 $ auf unter 73.000 $, Schluss bei etwa 73.700 $, gestrichelte Linie beim 200-Tage-Durchschnitt von rund 73.137 $",
+      "ru": "Линейный график почасовой цены биткоина на Kraken 9 и 10 ноября 2026 года: падение примерно с $75 250 ниже $73 000 и закрытие около $73 700; пунктир — 200-дневная средняя около $73 137",
+      "tr": "Kraken'de 9-10 Kasım 2026 saatlik bitcoin fiyatı: yaklaşık 75.250 $'dan 73.000 $'ın altına düşüş ve 73.700 $ civarında kapanış; kesikli çizgi yaklaşık 73.137 $'lık 200 günlük ortalama",
+      "id": "Grafik garis harga bitcoin per jam di Kraken pada 9 dan 10 November 2026: turun dari sekitar US$75.250 ke bawah US$73.000 lalu ditutup dekat US$73.700, dengan garis putus-putus di rata-rata 200 hari sekitar US$73.137",
+      "ja": "2026年11月9〜10日のKrakenにおけるビットコイン1時間足の折れ線グラフ：約75,250ドルから73,000ドルを割り込み約73,700ドルで終了。破線は約73,137ドルの200日平均",
+      "ko": "2026년 11월 9~10일 크라켄 비트코인 시간별 가격 선 차트: 약 75,250달러에서 73,000달러 아래로 하락한 뒤 약 73,700달러로 마감, 점선은 약 73,137달러인 200일 평균"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken BTC/USD hourly closes; 200-day average calculated by PlainBTC",
+      "es": "Gráfico: PlainBTC, datos: Kraken BTC/USD hourly closes; 200-day average calculated by PlainBTC",
+      "pt": "Gráfico: PlainBTC, dados: Kraken BTC/USD hourly closes; 200-day average calculated by PlainBTC",
+      "fr": "Graphique : PlainBTC, données : Kraken BTC/USD hourly closes; 200-day average calculated by PlainBTC",
+      "de": "Chart: PlainBTC, Daten: Kraken BTC/USD hourly closes; 200-day average calculated by PlainBTC",
+      "ru": "График: PlainBTC, данные: Kraken BTC/USD hourly closes; 200-day average calculated by PlainBTC",
+      "tr": "Grafik: PlainBTC, veri: Kraken BTC/USD hourly closes; 200-day average calculated by PlainBTC",
+      "id": "Grafik: PlainBTC, data: Kraken BTC/USD hourly closes; 200-day average calculated by PlainBTC",
+      "ja": "チャート: PlainBTC、データ: Kraken BTC/USD hourly closes; 200-day average calculated by PlainBTC",
+      "ko": "차트: PlainBTC, 데이터: Kraken BTC/USD hourly closes; 200-day average calculated by PlainBTC"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-liquidations-716m.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: about $716 million in crypto futures liquidated in 24 hours on Nov. 10, including $589 million of long bets",
+      "es": "Tarjeta: unos 716 M$ en futuros cripto liquidados en 24 horas el 10 de noviembre, de ellos 589 M$ en apuestas alcistas",
+      "pt": "Cartão: cerca de US$ 716 milhões em futuros cripto liquidados em 24 horas em 10 de novembro, sendo US$ 589 milhões em apostas de alta",
+      "fr": "Encadré : environ 716 M$ de contrats à terme crypto liquidés en 24 heures le 10 novembre, dont 589 M$ de paris à la hausse",
+      "de": "Faktenkarte: rund 716 Mio. $ an Krypto-Futures innerhalb von 24 Stunden am 10. November liquidiert, davon 589 Mio. $ Long-Wetten",
+      "ru": "Карточка: около $716 млн ликвидаций криптофьючерсов за 24 часа 10 ноября, из них $589 млн — длинные позиции",
+      "tr": "Kart: 10 Kasım'da 24 saatte yaklaşık 716 milyon $ kripto vadeli pozisyon tasfiye edildi; bunun 589 milyon $'ı yükseliş pozisyonuydu",
+      "id": "Kart fakta: sekitar US$716 juta kontrak berjangka kripto dilikuidasi dalam 24 jam pada 10 November, termasuk US$589 juta posisi long",
+      "ja": "カード：11月10日の24時間で約7億1600万ドルの暗号資産先物が清算され、うち5億8900万ドルが買いポジション",
+      "ko": "카드: 11월 10일 24시간 동안 약 7억 1,600만 달러 규모 암호화폐 선물이 청산됐고, 그중 5억 8,900만 달러가 롱 포지션"
+    },
+    "caption": {
+      "en": "Source: CoinGlass via FXStreet",
+      "es": "Fuente: CoinGlass via FXStreet",
+      "pt": "Fonte: CoinGlass via FXStreet",
+      "fr": "Source : CoinGlass via FXStreet",
+      "de": "Quelle: CoinGlass via FXStreet",
+      "ru": "Источник: CoinGlass via FXStreet",
+      "tr": "Kaynak: CoinGlass via FXStreet",
+      "id": "Sumber: CoinGlass via FXStreet",
+      "ja": "出典: CoinGlass via FXStreet",
+      "ko": "출처: CoinGlass via FXStreet"
+    }
+  }
+]

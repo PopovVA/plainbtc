@@ -1,0 +1,65 @@
+title: Binance avertit les utilisateurs d'iPhone qu'une faille d'iOS pourrait exposer les phrases de récupération de leurs portefeuilles
+page_title: Binance alerte sur une faille iOS qui pourrait exposer des clés crypto
+description: Binance a averti le 10 novembre qu'une faille publique d'iOS baptisée worse_query pourrait permettre à des apps malveillantes de lire phrases de récupération et clés. Qui est concerné et que faire.
+og_description: Une évasion de sandbox iOS publique, worse_query, pourrait permettre à une app malveillante de lire les fichiers d'autres apps. Binance conseille de supprimer les apps douteuses et de mettre à jour iOS. Aucun vol signalé.
+label: Sécurité
+summary: Selon Binance, une faille publique d'iOS, worse_query, pourrait permettre à des apps malveillantes de lire des phrases de récupération. Aucun vol signalé ; supprimez les apps douteuses et mettez à jour.
+===
+
+Binance, l'une des plus grandes plateformes d'échange de cryptomonnaies au monde, a averti mardi 10 novembre les utilisateurs d'iPhone d'une faille dans iOS d'Apple qui pourrait permettre à une app malveillante de lire les fichiers d'autres apps. Dans une publication sur X citée par [Bitcoin Magazine](L1), la plateforme indique que ce bug, surnommé <strong>worse_query</strong>, met « en danger les phrases de récupération, les clés privées et les identifiants de connexion dans tout l'écosystème ».
+
+Binance cite les versions <strong>26.7.1, 27.0.1 et 27.2</strong> d'iOS comme concernées et souligne qu'il s'agit « d'un problème propre à iOS, pas spécifique à Binance ». Ni Binance ni le chercheur à l'origine de la découverte n'ont signalé de vol de cryptomonnaies lié à cette faille.
+
+!takeaways
+- Une preuve de concept publique, worse_query, permet de sortir du « bac à sable » des apps de l'iPhone et de lire les fichiers d'autres apps.
+- Selon Binance, elle touche iOS 26.7.1, 27.0.1 et 27.2 ; le chercheur évoque une plage plus large de versions d'iOS 26 et 27.
+- Apple a publié iOS 27.2.1 et 26.7.3 le 9 novembre, mais ses notes de sécurité ne mentionnent pas worse_query.
+- Aucun vol n'a été signalé. Binance conseille de supprimer les apps douteuses, de mettre à jour iOS et de déplacer ses fonds en cas de doute.
+
+## Ce que fait la faille
+
+Sur un iPhone, chaque app vit normalement dans son propre conteneur isolé, appelé bac à sable (sandbox), afin que les autres apps ne puissent pas lire ses fichiers. worse_query est une « évasion de sandbox » : un code qui contourne ces cloisons. Selon [The Hacker News](L2), un chercheur connu sous le nom de forcequit l'a publiée sur GitHub le dimanche 8 novembre, avec un second chercheur, 0xjohnny. Le code peut atteindre les dossiers de données de toutes les apps du téléphone et, sous iOS 27, certains dossiers système.
+
+Le chercheur la présente comme une preuve de concept destinée aux développeurs, qui « n'est pas utile en soi ». Ce n'est pas un jailbreak, et pour l'utiliser, il faut l'intégrer dans une app. C'est déjà arrivé : un développeur a publié un gestionnaire de fichiers basé sur worse_query, qui s'installe via des outils de sideloading comme AltStore et SideStore, a rapporté The Hacker News.
+
+!figure:timeline
+
+## Qui est réellement exposé
+
+Le danger dépend de deux conditions. D'abord, une app malveillante doit être installée sur votre téléphone. Les cas évoqués jusqu'ici concernent des apps installées hors de l'App Store, et personne n'a dit si une app de l'App Store pourrait exploiter la faille. Ensuite, votre app de portefeuille doit conserver des données sensibles dans des fichiers que l'évasion peut lire.
+
+La société de sécurité blockchain SlowMist estime que la faille ne volera pas d'actifs à elle seule, selon Bitcoin Magazine. Le risque n'apparaît que si l'utilisateur lance une app douteuse et si un portefeuille stocke des phrases de récupération, des fichiers de clés ou des caches de navigateur en clair sur l'appareil. Les portefeuilles qui gardent leurs secrets dans un stockage chiffré et protégé par le matériel ne sont pas exposés de la même façon, et les portefeuilles matériels gardent les clés privées entièrement hors du téléphone.
+
+!figure:fact
+
+## Ce qu'a dit Apple
+
+Apple a publié iOS 27.2.1 et iOS 26.7.3 le 9 novembre, au lendemain de la publication de worse_query, selon sa [page des mises à jour de sécurité](L3). Les notes de ces versions mentionnent des corrections, par exemple pour des bugs Bluetooth et iMessage, mais ni worse_query ni une évasion de sandbox. Apple ne commente pas les problèmes de sécurité avant d'avoir enquêté, si bien qu'on ignore si les nouvelles versions bloquent la technique. Le responsable de la sécurité de SlowMist, qui publie sous le nom 23pds, a tout de même recommandé de passer à iOS 27.2.1, estimant que cela bloquerait l'évasion, a rapporté [Decrypt](L4).
+
+!mid_cta
+
+## Que faire maintenant
+
+Les conseils de Binance sont simples et valent pour toute personne qui garde des cryptomonnaies sur un iPhone :
+
+- Supprimez toute app installée depuis une source non fiable, comme des fichiers d'apps installés par sideloading ou signés manuellement.
+- Mettez à jour iOS et toutes vos apps vers leurs dernières versions officielles via le processus de mise à jour habituel d'Apple.
+- Si vous pensez que votre téléphone a pu être compromis, créez un nouveau portefeuille sur un appareil sain, transférez-y vos fonds et déconnectez toutes les sessions actives.
+
+## Ce que cela signifie pour les débutants
+
+Votre phrase de récupération est la clé maîtresse d'un portefeuille en auto-garde : quiconque la voit peut emporter les cryptos. C'est pourquoi il ne faut jamais la saisir dans n'importe quelle app, la conserver en capture d'écran ou la noter dans une app de notes. Si vous détenez plus qu'une petite somme, un portefeuille matériel garde les clés hors de votre téléphone.
+
+Certains débutants préfèrent commencer par une plateforme réglementée qui conserve les clés pour eux. [Coinbase](REF), par exemple, affirme garder plus de 99 % des actifs de ses clients hors ligne, selon Cointelegraph. On échange alors un risque contre un autre, puisque l'on dépend de la sécurité de l'entreprise. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Une confirmation par Apple qu'iOS 27.2.1 ou une version ultérieure corrige worse_query.
+- Les déclarations des principales apps de portefeuille sur la façon dont elles stockent les clés sur iPhone.
+- Tout cas confirmé de cryptomonnaies volées grâce à cette faille.
+
+!soft: Vous ne savez pas quel type de portefeuille vous convient ? Lisez notre guide sur [les portefeuilles custodial et en auto-garde](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,60 @@
+title: El bitcoin cae por debajo de 73.000 $ por primera vez desde agosto mientras se disparan los rendimientos de los bonos
+page_title: El bitcoin cae por debajo de 73.000 $, mínimo desde agosto
+description: El bitcoin bajó a unos 72.585 $ el 10 de noviembre, su precio más bajo desde el 20 de agosto, mientras subían los rendimientos del Tesoro y crecían las apuestas de una subida de tipos de la Fed en diciembre.
+og_description: El bitcoin tocó unos 72.585 $, su mínimo desde el 20 de agosto. El rendimiento del bono del Tesoro a 10 años subió al 4,98% y se liquidaron unos 716 M$ en apuestas cripto.
+label: Mercado
+summary: El bitcoin cayó el martes a unos 72.585 $, su mínimo desde el 20 de agosto, con los rendimientos del Tesoro al alza y 716 M$ en apuestas cripto liquidadas.
+===
+
+El bitcoin siguió cayendo tras el dato de inflación del martes por la mañana y bajó de <strong>73.000 $</strong> por primera vez desde agosto. En Kraken, el precio llegó a unos <strong>72.585 $</strong> poco después del mediodía (hora del este de EE. UU.) del 10 de noviembre, su nivel más bajo desde el 20 de agosto. Después se recuperó un poco y cerró el día UTC cerca de <strong>73.700 $</strong>, alrededor de un 2,1% por debajo de su precio de apertura, de unos 75.250 $.
+
+La caída llegó pocas horas después de que los precios al consumo en EE. UU. subieran en octubre más de lo esperado. [CoinDesk](L1) informó de que la bajada por debajo de 73.000 $ marcó un nuevo mínimo del ciclo actual, mientras las bolsas estadounidenses también giraban a la baja durante la sesión.
+
+!takeaways
+- El bitcoin tocó unos 72.585 $ en Kraken, su precio más bajo desde el 20 de agosto, antes de cerrar el día UTC cerca de 73.700 $.
+- El rendimiento del bono del Tesoro a 10 años subió al 4,98% desde el 4,88% del día anterior, según datos oficiales del Tesoro.
+- Se liquidaron unos 716 M$ en posiciones de futuros cripto en 24 horas, 589 M$ de ellos en apuestas alcistas, según datos de CoinGlass citados por FXStreet.
+- La firma de trading Wintermute señaló la zona de 73.000 $ como soporte clave y dijo que un cierre diario por debajo podría abrir el camino hacia 68.000 $.
+
+## Los bonos impulsaron el movimiento
+
+La presión principal vino del mercado de bonos. Los datos oficiales del [Tesoro de EE. UU.](L2) muestran que el rendimiento a 10 años cerró el martes en el <strong>4,98%</strong>, frente al 4,88% del lunes, mientras que el de 2 años subió al 4,73% desde el 4,56%. CoinDesk informó de que el rendimiento a 10 años llegó a superar brevemente el 5% durante el día.
+
+Los rendimientos subieron porque los operadores ahora esperan que la Reserva Federal suba los tipos de interés en su reunión de diciembre. El gobernador de la Fed Christopher Waller dijo la noche anterior que un dato de inflación fuerte podría justificar una subida mayor, de medio punto. Según CoinDesk, los datos de CME FedWatch del martes por la mañana mostraban un 85% de probabilidad de una subida de un cuarto de punto y un 15% de una de medio punto. Unos tipos más altos hacen que el efectivo y los bonos rindan más, lo que puede alejar dinero de activos más arriesgados como las acciones y las criptomonedas.
+
+!figure:chart
+
+## También cayeron las bolsas y las altcoins
+
+Las ventas no se limitaron al bitcoin. CoinDesk informó de que el Nasdaq caía alrededor de un 1,1% a media mañana, arrastrado por un descenso de cerca del 6% de Nvidia en ese momento; más tarde CoinDesk indicó que Nvidia perdía un 5% en el día y quedaba por debajo de 170 $ por acción. Otras criptomonedas grandes cayeron más que el bitcoin. En Kraken, el ether bajó hasta unos 2.002 $ antes de cerrar el día UTC cerca de 2.051 $, con una caída de casi el 4%.
+
+La bajada de precios obligó a muchos operadores a cerrar apuestas apalancadas. [FXStreet](L3), citando a CoinGlass, informó de unos <strong>716 M$</strong> en liquidaciones de futuros cripto en 24 horas, de los cuales <strong>589 M$</strong> correspondían a posiciones largas, es decir, operadores que habían apostado a que el precio subiría.
+
+!mid_cta
+
+## Por qué los 73.000 $ importan a los operadores
+
+La firma de trading Wintermute señaló los 73.000 $ como un soporte importante porque coinciden con la media móvil de 200 días del bitcoin, una línea de tendencia de largo plazo que muchos operadores vigilan. "Un cierre diario por debajo y la media de 200 días abre la puerta a los 68.000 $", escribió la firma en una nota citada por FXStreet. Según el cálculo propio de PlainBTC con los precios de cierre diarios de Kraken, la media de 200 días estaba el martes en unos 73.137 $, así que el bitcoin terminó el día UTC solo ligeramente por encima.
+
+El bitcoin está ahora alrededor de un 17% por debajo de su máximo de septiembre, de unos 87.450 $ en Kraken. El martes también se cumplieron cinco años desde que el bitcoin tocó por primera vez los 69.000 $, el 10 de noviembre de 2021. CoinDesk señaló que el precio actual está solo unos 4.500 $ por encima de aquel antiguo máximo.
+
+!figure:fact
+
+## Qué significa para los principiantes
+
+Una caída a mínimos de tres meses puede asustar, pero oscilaciones de este tamaño son habituales en el bitcoin. Nadie sabe si el precio se mantendrá cerca de 73.000 $ o seguirá bajando, y los soportes son solo referencias, no garantías. Si estás empezando, plantéate limitarte a una cantidad que puedas dejar quieta durante años y evita el dinero prestado o el trading apalancado, que fue lo que provocó las liquidaciones del martes.
+
+Si quieres comprar bitcoin poco a poco en lugar de todo de una vez, un servicio solo de bitcoin como [River](L4) permite a los clientes de EE. UU. programar compras periódicas; revisa antes sus comisiones y condiciones actuales en su web. Esto no es asesoramiento de inversión.
+
+## Qué vigilar a continuación
+
+- Si el bitcoin cierra algún día por debajo de su media de 200 días, cerca de 73.000 $.
+- Los flujos de los ETF de bitcoin al contado del martes, que Farside Investors aún no había publicado al cierre de esta nota.
+- Los comentarios de los responsables de la Fed antes de la decisión de tipos del 9 de diciembre.
+- Los movimientos del rendimiento a 10 años del Tesoro en torno al 5%.
+
+!soft: ¿Pensando en comprar poco a poco? Lee nuestra guía sobre [compras periódicas (DCA) para principiantes](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

@@ -8,6 +8,22 @@
     <lastBuildDate>Tue, 10 Nov 2026 19:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Bitcoin drops below $73,000 for the first time since August as bond yields jump</title>
+      <link>https://plainbtc.com/articles/bitcoin-below-73000-lowest-since-august-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/bitcoin-below-73000-lowest-since-august-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Market news</category>
+      <description>Bitcoin slid to about $72,585 on Tuesday, its lowest since Aug. 20, as Treasury yields jumped and $716 million in crypto bets were liquidated.</description>
+    </item>
+    <item>
+      <title>Binance warns iPhone users that an iOS flaw could expose crypto wallet seed phrases</title>
+      <link>https://plainbtc.com/articles/binance-warns-iphone-ios-flaw-wallet-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/binance-warns-iphone-ios-flaw-wallet-keys-nov-2026</guid>
+      <pubDate>Tue, 10 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Security</category>
+      <description>Binance says a public iOS bug, worse_query, could let malicious apps read wallet seed phrases. No thefts are reported; delete untrusted apps and update.</description>
+    </item>
+    <item>
       <title>Binance blocks MEXC transfers after a U.S. Treasury order over $16.7 billion in alleged illicit flows</title>
       <link>https://plainbtc.com/articles/binance-blocks-mexc-fincen-order-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/articles/binance-blocks-mexc-fincen-order-nov-2026</guid>

@@ -1,0 +1,60 @@
+title: Bitcoin fällt erstmals seit August unter 73.000 $, während die Anleiherenditen steigen
+page_title: Bitcoin fällt unter 73.000 $, tiefster Stand seit August
+description: Bitcoin fiel am 10. November auf rund 72.585 $, den tiefsten Stand seit dem 20. August, während die Renditen von US-Staatsanleihen stiegen und Händler auf eine Zinserhöhung der Fed im Dezember setzten.
+og_description: Bitcoin erreichte rund 72.585 $, den tiefsten Stand seit dem 20. August. Die Rendite 10-jähriger US-Staatsanleihen stieg auf 4,98 %, und etwa 716 Mio. $ an Krypto-Wetten wurden liquidiert.
+label: Markt
+summary: Bitcoin rutschte am Dienstag auf rund 72.585 $, den tiefsten Stand seit dem 20. August, bei steigenden Anleiherenditen und 716 Mio. $ an liquidierten Krypto-Wetten.
+===
+
+Bitcoin ist nach den Inflationsdaten vom Dienstagmorgen weiter gefallen und erstmals seit August unter <strong>73.000 $</strong> gerutscht. Bei Kraken sank der Kurs am 10. November kurz nach Mittag New Yorker Zeit auf rund <strong>72.585 $</strong>, den tiefsten Stand seit dem 20. August. Danach erholte er sich etwas und beendete den UTC-Tag bei etwa <strong>73.700 $</strong>, rund 2,1 % unter dem Eröffnungskurs von etwa 75.250 $.
+
+Der Rückgang folgte wenige Stunden nachdem die US-Verbraucherpreise im Oktober stärker gestiegen waren als erwartet. [CoinDesk](L1) berichtete, dass der Fall unter 73.000 $ ein weiteres Tief im aktuellen Zyklus markierte, während auch die US-Aktienmärkte im Tagesverlauf ins Minus drehten.
+
+!takeaways
+- Bitcoin erreichte bei Kraken rund 72.585 $, den tiefsten Kurs seit dem 20. August, und schloss den UTC-Tag bei etwa 73.700 $.
+- Die Rendite 10-jähriger US-Staatsanleihen stieg laut offiziellen Daten des Finanzministeriums auf 4,98 %, nach 4,88 % am Vortag.
+- Innerhalb von 24 Stunden wurden rund 716 Mio. $ an Krypto-Futures-Positionen liquidiert, davon 589 Mio. $ Long-Wetten, so CoinGlass-Daten, die FXStreet zitiert.
+- Das Handelshaus Wintermute sieht den Bereich um 73.000 $ als wichtige Unterstützung und warnt, dass ein Tagesschluss darunter den Weg Richtung 68.000 $ öffnen könnte.
+
+## Anleihen trieben die Bewegung
+
+Der Hauptdruck kam vom Anleihemarkt. Offizielle Daten des [US-Finanzministeriums](L2) zeigen, dass die 10-jährige Rendite am Dienstag bei <strong>4,98 %</strong> schloss, nach 4,88 % am Montag, während die zweijährige Rendite von 4,56 % auf 4,73 % stieg. Laut CoinDesk lag die 10-jährige Rendite im Tagesverlauf kurzzeitig über 5 %.
+
+Die Renditen stiegen, weil Händler nun erwarten, dass die Federal Reserve die Zinsen auf ihrer Sitzung im Dezember anhebt. Fed-Gouverneur Christopher Waller hatte in der Nacht gesagt, starke Inflationsdaten könnten eine größere Erhöhung um einen halben Prozentpunkt rechtfertigen. Laut CoinDesk zeigten die CME-FedWatch-Daten am Dienstagmorgen eine Wahrscheinlichkeit von 85 % für eine Erhöhung um einen Viertelpunkt und 15 % für einen halben Punkt. Höhere Zinsen machen Bargeld und Anleihen attraktiver, was Geld aus riskanteren Anlagen wie Aktien und Kryptowährungen abziehen kann.
+
+!figure:chart
+
+## Auch Aktien und Altcoins fielen
+
+Der Ausverkauf beschränkte sich nicht auf Bitcoin. CoinDesk berichtete, der Nasdaq habe am späten Vormittag rund 1,1 % im Minus gelegen, angeführt von einem Rückgang von Nvidia um etwa 6 % zu diesem Zeitpunkt; später meldete CoinDesk für Nvidia ein Tagesminus von 5 % und einen Kurs unter 170 $ je Aktie. Andere große Kryptowährungen fielen stärker als Bitcoin. Bei Kraken sank Ether bis auf rund 2.002 $ und beendete den UTC-Tag bei etwa 2.051 $, ein Minus von fast 4 %.
+
+Die fallenden Kurse zwangen viele Händler aus gehebelten Wetten. [FXStreet](L3) berichtete unter Berufung auf CoinGlass von rund <strong>716 Mio. $</strong> an Liquidationen bei Krypto-Futures innerhalb von 24 Stunden, davon <strong>589 Mio. $</strong> bei Long-Positionen, also Wetten auf steigende Kurse.
+
+!mid_cta
+
+## Warum 73.000 $ für Händler wichtig sind
+
+Wintermute verweist auf 73.000 $ als wichtige Unterstützung, weil dieses Niveau mit dem gleitenden 200-Tage-Durchschnitt von Bitcoin zusammenfällt, einer langfristigen Trendlinie, die viele Händler beobachten. „Ein Tagesschluss darunter, und der 200-Tage-Durchschnitt öffnet den Weg zu 68.000 $“, schrieb das Unternehmen in einer von FXStreet zitierten Notiz. Nach eigener Berechnung von PlainBTC auf Basis der täglichen Schlusskurse bei Kraken lag der 200-Tage-Durchschnitt am Dienstag bei etwa 73.137 $; Bitcoin beendete den UTC-Tag also nur knapp darüber.
+
+Bitcoin liegt nun rund 17 % unter seinem Septemberhoch von etwa 87.450 $ bei Kraken. Am Dienstag jährte sich zudem zum fünften Mal der Tag, an dem Bitcoin erstmals 69.000 $ erreichte, am 10. November 2021. CoinDesk merkte an, dass der Kurs heute nur etwa 4.500 $ über diesem alten Hoch liegt.
+
+!figure:fact
+
+## Was das für Einsteiger bedeutet
+
+Ein Rückgang auf ein Dreimonatstief kann beunruhigen, doch Schwankungen dieser Größe sind bei Bitcoin üblich. Niemand weiß, ob sich der Kurs um 73.000 $ hält oder weiter fällt, und Unterstützungsmarken sind nur Orientierungspunkte, keine Garantien. Wenn Sie neu sind, beschränken Sie sich am besten auf einen Betrag, den Sie jahrelang liegen lassen können, und meiden Sie geliehenes Geld oder gehebelten Handel, der die Liquidationen am Dienstag ausgelöst hat.
+
+Wer Bitcoin lieber nach und nach statt auf einmal kaufen möchte: Ein reiner Bitcoin-Anbieter wie [River](L4) ermöglicht Kunden in den USA regelmäßige Sparkäufe; prüfen Sie vorher die aktuellen Gebühren und Bedingungen auf der Website. Dies ist keine Anlageberatung.
+
+## Worauf jetzt zu achten ist
+
+- Ob Bitcoin einen Tag unter seinem 200-Tage-Durchschnitt nahe 73.000 $ schließt.
+- Die Zuflüsse und Abflüsse der Spot-Bitcoin-ETFs vom Dienstag, die Farside Investors bei Redaktionsschluss noch nicht veröffentlicht hatte.
+- Äußerungen von Fed-Vertretern vor dem Zinsentscheid am 9. Dezember.
+- Die Entwicklung der 10-jährigen US-Rendite um die Marke von 5 %.
+
+!soft: Sie überlegen, nach und nach zu kaufen? Lesen Sie unseren Leitfaden zum [Cost-Average-Effekt (DCA) für Einsteiger](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

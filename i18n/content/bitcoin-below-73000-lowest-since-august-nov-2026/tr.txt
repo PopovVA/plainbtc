@@ -1,0 +1,60 @@
+title: Bitcoin, tahvil getirileri fırlarken ağustostan bu yana ilk kez 73.000 $'ın altına indi
+page_title: Bitcoin 73.000 $'ın altında, ağustostan beri en düşük seviye
+description: Bitcoin 10 Kasım'da yaklaşık 72.585 $'a gerileyerek 20 Ağustos'tan bu yana en düşük fiyatını gördü; ABD Hazine getirileri yükselirken yatırımcılar Fed'in aralıkta faiz artıracağına oynadı.
+og_description: Bitcoin yaklaşık 72.585 $ ile 20 Ağustos'tan bu yana en düşük seviyeyi gördü. 10 yıllık Hazine getirisi %4,98'e çıktı ve yaklaşık 716 milyon $'lık kripto pozisyonu tasfiye edildi.
+label: Piyasa
+summary: Bitcoin salı günü yaklaşık 72.585 $'a, 20 Ağustos'tan bu yana en düşük seviyeye indi; Hazine getirileri yükseldi ve 716 milyon $'lık kripto pozisyonu tasfiye edildi.
+===
+
+Bitcoin, salı sabahı açıklanan enflasyon verisinin ardından düşmeye devam etti ve ağustostan bu yana ilk kez <strong>73.000 $</strong>'ın altına indi. Kraken'de fiyat 10 Kasım'da New York saatiyle öğleden kısa süre sonra yaklaşık <strong>72.585 $</strong>'a geriledi; bu, 20 Ağustos'tan bu yana en düşük seviye. Ardından biraz toparlanan bitcoin UTC gününü yaklaşık <strong>73.700 $</strong>'dan kapattı; bu, yaklaşık 75.250 $'lık açılış fiyatına göre yaklaşık %2,1'lik düşüş demek.
+
+Düşüş, ABD'de tüketici fiyatlarının ekimde beklenenden fazla artmasından birkaç saat sonra geldi. [CoinDesk](L1), 73.000 $'ın altına inişin mevcut döngüde yeni bir dip anlamına geldiğini ve ABD hisselerinin de seans içinde düşüşe geçtiğini bildirdi.
+
+!takeaways
+- Bitcoin Kraken'de yaklaşık 72.585 $'ı görerek 20 Ağustos'tan bu yana en düşük fiyata indi, UTC gününü ise yaklaşık 73.700 $'dan kapattı.
+- Resmî Hazine verilerine göre 10 yıllık Hazine getirisi bir önceki günkü %4,88'den %4,98'e yükseldi.
+- FXStreet'in aktardığı CoinGlass verilerine göre 24 saatte yaklaşık 716 milyon $'lık kripto vadeli pozisyonu tasfiye edildi; bunun 589 milyon $'ı yükseliş pozisyonuydu.
+- Alım satım şirketi Wintermute, 73.000 $ bölgesini kilit destek olarak gördü ve bunun altında bir günlük kapanışın 68.000 $'a doğru yol açabileceğini söyledi.
+
+## Hareketi tahviller yönlendirdi
+
+Asıl baskı tahvil piyasasından geldi. [ABD Hazinesi](L2)'nin resmî verileri, 10 yıllık getirinin salı gününü pazartesi günkü %4,88'den <strong>%4,98</strong>'e yükselerek kapattığını, 2 yıllık getirinin ise %4,56'dan %4,73'e çıktığını gösteriyor. CoinDesk'e göre 10 yıllık getiri gün içinde kısa süreliğine %5'in üzerine çıktı.
+
+Getiriler, yatırımcılar artık Federal Rezerv'in aralık toplantısında faiz artırmasını beklediği için yükseldi. Fed Guvernörü Christopher Waller önceki gece güçlü bir enflasyon verisinin yarım puanlık daha büyük bir artışı haklı çıkarabileceğini söylemişti. CoinDesk'e göre salı sabahı CME FedWatch verileri çeyrek puanlık artış için %85, yarım puanlık artış için %15 olasılık gösteriyordu. Yüksek faizler nakit ve tahvillerin getirisini artırır; bu da parayı hisse senetleri ve kripto paralar gibi daha riskli varlıklardan uzaklaştırabilir.
+
+!figure:chart
+
+## Hisseler ve altcoin'ler de düştü
+
+Satışlar yalnızca bitcoin'le sınırlı kalmadı. CoinDesk, Nasdaq'ın öğleye doğru yaklaşık %1,1 düştüğünü ve buna o sırada yaklaşık %6 gerileyen Nvidia'nın öncülük ettiğini bildirdi; CoinDesk daha sonra Nvidia'nın günü %5 düşüşle ve hisse başına 170 $'ın altında tamamladığını aktardı. Diğer büyük kripto paralar bitcoin'den daha sert düştü. Kraken'de ether yaklaşık 2.002 $'a kadar geriledi ve UTC gününü yaklaşık 2.051 $'dan, yaklaşık %4 düşüşle kapattı.
+
+Düşen fiyatlar birçok yatırımcıyı kaldıraçlı pozisyonlarından çıkmaya zorladı. [FXStreet](L3), CoinGlass'a dayanarak 24 saatte yaklaşık <strong>716 milyon $</strong>'lık kripto vadeli işlem tasfiyesi yaşandığını, bunun <strong>589 milyon $</strong>'ının uzun pozisyonlardan, yani fiyatların yükseleceğine oynayanlardan geldiğini bildirdi.
+
+!mid_cta
+
+## 73.000 $ yatırımcılar için neden önemli
+
+Wintermute, 73.000 $'ı önemli bir destek olarak görüyor çünkü bu seviye bitcoin'in 200 günlük hareketli ortalamasıyla, yani pek çok yatırımcının izlediği uzun vadeli trend çizgisiyle örtüşüyor. Şirket, FXStreet'in aktardığı notunda "Bunun altında bir günlük kapanış olursa 200 günlük ortalama 68 bin $'ın yolunu açar" diye yazdı. PlainBTC'nin Kraken günlük kapanış fiyatlarıyla yaptığı kendi hesaplamaya göre 200 günlük ortalama salı günü yaklaşık 73.137 $'dı; yani bitcoin UTC gününü bu seviyenin yalnızca biraz üzerinde bitirdi.
+
+Bitcoin şu anda Kraken'deki yaklaşık 87.450 $'lık eylül zirvesinin yaklaşık %17 altında. Salı aynı zamanda bitcoin'in 10 Kasım 2021'de ilk kez 69.000 $'a ulaşmasının beşinci yıl dönümüydü. CoinDesk, bugünkü fiyatın o eski zirvenin yalnızca yaklaşık 4.500 $ üzerinde olduğuna dikkat çekti.
+
+!figure:fact
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Üç ayın en düşük seviyesine iniş korkutucu görünebilir, ancak bu büyüklükteki dalgalanmalar bitcoin'de olağan. Fiyatın 73.000 $ civarında tutunup tutunmayacağını ya da daha da düşüp düşmeyeceğini kimse bilmiyor; destek seviyeleri garanti değil, yalnızca yol göstericidir. Yeniyseniz, yıllarca dokunmadan bırakabileceğiniz bir tutarla sınırlı kalmayı düşünün ve salı günkü tasfiyelere yol açan borç para ya da kaldıraçlı işlemlerden uzak durun.
+
+Bitcoin'i bir seferde değil zamanla almak isterseniz, [River](L4) gibi yalnızca bitcoin'e odaklanan bir hizmet ABD'deki müşterilerin düzenli alım ayarlamasına olanak tanıyor; önce sitesinde güncel ücret ve koşulları kontrol edin. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra izlenecekler
+
+- Bitcoin'in 73.000 $ civarındaki 200 günlük ortalamasının altında bir günlük kapanış yapıp yapmayacağı.
+- Farside Investors'ın yazının yayımlandığı sırada henüz açıklamadığı salı günkü spot bitcoin ETF akışları.
+- 9 Aralık faiz kararı öncesinde Fed yetkililerinden gelecek açıklamalar.
+- 10 yıllık Hazine getirisinin %5 civarındaki hareketleri.
+
+!soft: Azar azar almayı mı düşünüyorsunuz? [Yeni başlayanlar için düzenli alım (DCA)](/articles/how-much-bitcoin-should-a-beginner-buy-dca) rehberimizi okuyun.
+
+!end_cta
+
+!disclosure

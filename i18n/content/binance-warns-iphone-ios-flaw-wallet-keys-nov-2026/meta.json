@@ -1,0 +1,44 @@
+{
+ "slug": "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026",
+ "date": "2026-11-10",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "what-is-a-crypto-wallet-custodial-vs-self-custody",
+  "is-coinbase-safe-for-beginners",
+  "binance-hack-north-korea-memecoin-laundering-nov-2026"
+ ],
+ "sources": [
+  {
+   "url": "https://bitcoinmagazine.com/news/binance-warns-ios-flaw-wallet-seed-phrases",
+   "title": "Bitcoin Magazine — Binance warns iOS flaw could expose wallet seed phrases as Apple's latest iPhone patch stays silent",
+   "date": "Nov 10, 2026"
+  },
+  {
+   "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+   "title": "The Hacker News — Binance warns of iOS sandbox escape that could expose crypto wallet keys, no fix confirmed",
+   "date": "Nov 10, 2026"
+  },
+  {
+   "url": "https://support.apple.com/en-us/100100",
+   "title": "Apple — Apple security releases",
+   "date": "Nov 10, 2026"
+  },
+  {
+   "url": "https://decrypt.co/382928/binance-warns-of-apple-ios-flaw-that-could-expose-iphone-users-private-keys",
+   "title": "Decrypt — Binance warns of Apple iOS flaw that could expose iPhone users' private keys",
+   "date": "Nov 10, 2026"
+  },
+  {
+   "url": "https://github.com/forcequitOS/worse_query",
+   "title": "GitHub — forcequitOS/worse_query (researcher's proof of concept)",
+   "date": "Nov 8, 2026"
+  },
+  {
+   "url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+   "title": "Cointelegraph — Today in Crypto: US Inflation, Coinbase-Kalshi CFTC Fight, Wallet Security",
+   "date": "Nov 10, 2026"
+  }
+ ],
+ "disclosure_variant": "std"
+}
