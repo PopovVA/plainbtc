@@ -32,6 +32,11 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "stablecoin-supply-shrinks-usdt-tether-nov-2026",
+        "Stablecoin supply shrinks at the fastest pace since 2022",
+        "MARKETS",
+    ),
+    (
         "across-protocol-domain-hijack-phishing-nov-2026",
         "Hackers hijack crypto bridge Across's website; about $350,000 drained",
         "SECURITY",

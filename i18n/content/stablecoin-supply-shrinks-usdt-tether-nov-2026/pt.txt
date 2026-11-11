@@ -1,0 +1,63 @@
+title: Oferta de stablecoins encolhe no ritmo mais rápido desde 2022 e o USDT da Tether perde US$ 6,6 bilhões
+page_title: Oferta de stablecoins cai US$ 14,2 bi, maior queda desde 2022
+description: A oferta das principais stablecoins caiu US$ 14,2 bilhões em 30 dias, a maior queda desde o mercado de baixa de 2022, e o USDT da Tether encolheu US$ 6,6 bilhões em 60 dias. O que isso significa para o bitcoin e para iniciantes.
+og_description: A Glassnode diz que as principais stablecoins encolheram US$ 14,2 bilhões em 30 dias, e a CryptoQuant diz que o USDT perdeu US$ 6,6 bilhões em 60 dias, mais que o dobro da queda após a FTX. Analistas veem menos combustível para uma alta.
+label: Mercados
+summary: A oferta de stablecoins encolhe no ritmo mais rápido desde 2022, com o USDT da Tether em queda de US$ 6,6 bilhões em 60 dias. Analistas dizem que isso deixa menos poder de compra para o bitcoin.
+===
+
+O estoque de stablecoins, os dólares digitais em que os traders de cripto estacionam seu dinheiro, está encolhendo no ritmo mais rápido em mais de quatro anos. Um relatório divulgado na quarta-feira pela empresa de análise Glassnode concluiu que a oferta das principais stablecoins caiu <strong>US$ 14,2 bilhões</strong> nos últimos 30 dias, a maior queda desde o mercado de baixa de 2022, segundo o [The Block](L1).
+
+A maior stablecoin lidera o recuo. A CryptoQuant afirmou que o valor de mercado do USDT da Tether caiu <strong>US$ 6,6 bilhões</strong> nos 60 dias até 7 de novembro, mais que o dobro da queda de US$ 3,2 bilhões registrada após o colapso da corretora FTX em dezembro de 2022.
+
+!takeaways
+- A oferta das principais stablecoins caiu US$ 14,2 bilhões em 30 dias, a maior contração desde o mercado de baixa de 2022, segundo a Glassnode.
+- O USDT da Tether encolheu US$ 6,6 bilhões em 60 dias até 7 de novembro, segundo a CryptoQuant, mais que o dobro da queda pós-FTX.
+- A oferta total de stablecoins está agora pouco abaixo de US$ 280 bilhões pelas contas do The Block, nível não visto desde setembro de 2025.
+- Analistas interpretam a queda como menos dinheiro à espera para comprar bitcoin. USDT e USDC mantiveram o preço de US$ 1.
+
+## O que é uma stablecoin e por que a oferta importa
+
+Uma stablecoin é um token cripto feito para valer sempre US$ 1. Empresas como a Tether (USDT) e a Circle (USDC) criam novos tokens quando os clientes depositam dólares e destroem tokens quando os clientes sacam. Por isso, a oferta total é uma medida aproximada de quanto dinheiro em dólares está parado dentro do mercado cripto, pronto para ser usado na compra de bitcoin ou de outras moedas.
+
+Quando a oferta cresce, geralmente está entrando dinheiro novo. Quando encolhe, os detentores estão trocando stablecoins de volta por dólares comuns. "Uma oferta em queda significa que os detentores estão resgatando stablecoins por dólares e tirando esse dinheiro do mercado, o que deixa menos combustível para uma alta", escreveu a Glassnode, citada pelo The Block.
+
+!figure:chart
+
+## Qual o tamanho da queda?
+
+Dados da [DefiLlama](L5) mostram que a oferta de USDT atingiu o pico de cerca de US$ 184,4 bilhões em 9 de outubro e estava em cerca de US$ 175,9 bilhões em 11 de novembro. O USDT responde por cerca de 62,8% de todas as stablecoins, seguido pelo USDC com 25,1%, segundo o The Block.
+
+Mas o contexto importa. O USDT hoje é cerca de 2,7 vezes maior do que no fim de 2022, então a queda recente equivale a cerca de 3,5% da sua oferta, contra cerca de 4,6% após a FTX, calculou o [InvestIn.News](L2) com dados da DefiLlama. A comparação da CryptoQuant também cobre apenas dados desde 2022. Em junho de 2022, após o colapso da Terra, a queda de 30 dias na oferta de stablecoins chegou perto de US$ 30 bilhões.
+
+Também não há sinal de corrida contra os próprios tokens. Os números mostram quantas moedas existem, não que alguém tenha deixado de receber seus dólares de volta, e tanto o USDT quanto o USDC mantiveram a paridade de US$ 1.
+
+!mid_cta
+
+## Por que isso importa para o bitcoin
+
+A queda acontece enquanto o bitcoin enfrenta dificuldades. O preço caiu para cerca de US$ 72.700 na terça-feira, após dados de inflação dos EUA acima do esperado, e era negociado perto de US$ 74.400 na tarde de quarta-feira. Os ETFs de bitcoin à vista dos EUA já registram quatro dias seguidos de saídas líquidas, informou o [CoinDesk](L4).
+
+A CryptoQuant também disse que a "demanda aparente" por bitcoin caiu 284.000 BTC nos últimos 30 dias e que o prêmio da Coinbase, um indicador do interesse comprador nos EUA, está negativo há 30 dias seguidos, segundo o [Bloomingbit](L3). A empresa alertou que o bitcoin corre um risco significativo de nova correção, mesmo que se recupere no curto prazo.
+
+!figure:fact
+
+Nem todos leem os dados como um veredito final. A Glassnode disse que a volta do crescimento da oferta de stablecoins seria o "primeiro sinal de que dinheiro novo está entrando", enquanto a CryptoQuant afirmou que um fundo local do bitcoin pode se formar antes de a oferta de USDT voltar ao terreno positivo.
+
+## O que isso significa para iniciantes
+
+Para quem está começando, uma oferta de stablecoins em queda é sinal de traders cautelosos, não motivo para pânico nem para comprar às pressas. Os preços podem continuar caindo quando há menos dinheiro pronto para comprar, por isso muitos iniciantes preferem comprar valores pequenos e fixos de forma programada, em vez de tudo de uma vez.
+
+Se decidir comprar, uma grande corretora regulada como a [Coinbase](REF) permite começar com uma conta bancária e um valor pequeno. Invista apenas o que você pode perder. Isto não é recomendação de investimento.
+
+## O que acompanhar a seguir
+
+- Se a oferta total de stablecoins volta a crescer, o que analistas veem como o primeiro sinal de dinheiro novo.
+- Os fluxos diários dos ETFs de bitcoin à vista dos EUA após quatro dias seguidos de saídas.
+- A reunião do Federal Reserve de 8 e 9 de dezembro, na qual os traders agora esperam uma alta de juros.
+
+!soft: Começando a comprar cripto? Leia nosso guia sobre [como comprar seu primeiro bitcoin](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

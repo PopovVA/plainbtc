@@ -1,0 +1,21 @@
+{
+  "kind": "chart",
+  "sources": [
+    {
+      "file": "DefiLlama stablecoincharts/all",
+      "license": "DefiLlama public API",
+      "url": "https://defillama.com/stablecoins",
+      "credit": "Total USD-pegged stablecoin supply from DefiLlama"
+    }
+  ],
+  "slug": "stablecoin-supply-shrinks-usdt-tether-nov-2026",
+  "generated": "2026-11-11T19:00Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

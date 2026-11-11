@@ -1,0 +1,63 @@
+title: L'offre de stablecoins recule au rythme le plus rapide depuis 2022, l'USDT de Tether perd 6,6 milliards de dollars
+page_title: L'offre de stablecoins chute de 14,2 Md$, plus forte baisse depuis 2022
+description: L'offre des principaux stablecoins a reculé de 14,2 milliards de dollars en 30 jours, la plus forte baisse depuis le marché baissier de 2022, et l'USDT de Tether a fondu de 6,6 milliards en 60 jours. Ce que cela signifie pour le bitcoin et les débutants.
+og_description: Selon Glassnode, les principaux stablecoins ont perdu 14,2 milliards de dollars en 30 jours ; selon CryptoQuant, l'USDT a perdu 6,6 milliards en 60 jours, plus du double de la baisse après FTX. Les analystes y voient moins de carburant pour un rebond.
+label: Marchés
+summary: L'offre de stablecoins se contracte au rythme le plus rapide depuis 2022, l'USDT de Tether ayant perdu 6,6 milliards de dollars en 60 jours. Selon les analystes, cela laisse moins de pouvoir d'achat pour le bitcoin.
+===
+
+La réserve de stablecoins, ces dollars numériques dans lesquels les traders crypto garent leurs liquidités, se contracte à son rythme le plus rapide depuis plus de quatre ans. Un rapport publié mercredi par la société d'analyse Glassnode indique que l'offre des principaux stablecoins a reculé de <strong>14,2 milliards de dollars</strong> sur les 30 derniers jours, la plus forte baisse depuis le marché baissier de 2022, selon [The Block](L1).
+
+Le plus grand stablecoin mène le mouvement. CryptoQuant indique que la valeur de marché de l'USDT de Tether a reculé de <strong>6,6 milliards de dollars</strong> sur les 60 jours jusqu'au 7 novembre, plus du double de la baisse de 3,2 milliards enregistrée après l'effondrement de la plateforme FTX en décembre 2022.
+
+!takeaways
+- L'offre des principaux stablecoins a reculé de 14,2 milliards de dollars en 30 jours, la plus forte contraction depuis le marché baissier de 2022, selon Glassnode.
+- L'USDT de Tether a perdu 6,6 milliards de dollars en 60 jours jusqu'au 7 novembre, selon CryptoQuant, plus du double de la baisse après FTX.
+- L'offre totale de stablecoins se situe désormais juste sous 280 milliards de dollars selon The Block, un niveau inédit depuis septembre 2025.
+- Les analystes y voient moins de liquidités prêtes à acheter du bitcoin. L'USDT et l'USDC ont conservé leur prix de 1 dollar.
+
+## Qu'est-ce qu'un stablecoin et pourquoi son offre compte
+
+Un stablecoin est un jeton crypto conçu pour valoir 1 dollar. Des sociétés comme Tether (USDT) et Circle (USDC) créent de nouveaux jetons quand des clients déposent des dollars et en détruisent quand des clients retirent leur argent. L'offre totale donne donc une idée approximative de la quantité de dollars présents dans le marché crypto, prêts à être dépensés en bitcoin ou en autres cryptos.
+
+Quand l'offre augmente, de l'argent frais arrive généralement. Quand elle diminue, les détenteurs échangent leurs stablecoins contre des dollars classiques. « Une offre qui se contracte signifie que les détenteurs rachètent leurs stablecoins contre des dollars et retirent ces liquidités du marché, ce qui laisse moins de carburant pour un rebond », écrit Glassnode, cité par The Block.
+
+!figure:chart
+
+## Quelle est l'ampleur de la baisse ?
+
+Les données de [DefiLlama](L5) montrent que l'offre d'USDT a culminé à environ 184,4 milliards de dollars le 9 octobre et s'élevait à environ 175,9 milliards le 11 novembre. L'USDT représente environ 62,8 % de tous les stablecoins, devant l'USDC à 25,1 %, selon The Block.
+
+Le contexte compte toutefois. L'USDT est aujourd'hui environ 2,7 fois plus gros qu'à fin 2022 : la baisse récente représente donc environ 3,5 % de son offre, contre environ 4,6 % après FTX, a calculé [InvestIn.News](L2) à partir des données de DefiLlama. La comparaison de CryptoQuant ne couvre par ailleurs que les données depuis 2022. En juin 2022, après l'effondrement de Terra, la baisse sur 30 jours de l'offre de stablecoins avait frôlé 30 milliards de dollars.
+
+Rien n'indique non plus une ruée sur les jetons eux-mêmes. Les chiffres mesurent le nombre de jetons en circulation, pas un défaut de remboursement, et l'USDT comme l'USDC ont conservé leur parité de 1 dollar.
+
+!mid_cta
+
+## Pourquoi c'est important pour le bitcoin
+
+Ce recul intervient alors que le bitcoin peine. Son prix est tombé à environ 72 700 dollars mardi après des chiffres d'inflation américains plus élevés que prévu, et il s'échangeait près de 74 400 dollars mercredi après-midi. Les ETF bitcoin au comptant américains enchaînent quatre jours consécutifs de sorties nettes, rapporte [CoinDesk](L4).
+
+CryptoQuant indique aussi que la « demande apparente » de bitcoin a reculé de 284 000 BTC sur les 30 derniers jours et que la prime Coinbase, un indicateur de l'intérêt acheteur aux États-Unis, est négative depuis 30 jours d'affilée, selon [Bloomingbit](L3). La société avertit que le bitcoin court un risque important de nouvelle correction, même en cas de rebond à court terme.
+
+!figure:fact
+
+Tout le monde n'y voit pas un verdict définitif. Glassnode estime qu'un retour à la croissance de l'offre de stablecoins serait le « premier signe de l'arrivée d'argent frais », tandis que CryptoQuant juge qu'un creux local du bitcoin pourrait se former avant que l'offre d'USDT ne redevienne positive.
+
+## Ce que cela signifie pour les débutants
+
+Pour un débutant, une offre de stablecoins en baisse traduit la prudence des traders ; ce n'est ni une raison de paniquer ni une raison de se précipiter. Les prix peuvent continuer de baisser quand moins de liquidités sont prêtes à acheter, c'est pourquoi beaucoup de débutants préfèrent acheter de petits montants fixes à intervalles réguliers plutôt que tout d'un coup.
+
+Si vous décidez d'acheter, une grande plateforme régulée comme [Coinbase](REF) permet de commencer avec un compte bancaire et une petite somme. N'investissez que ce que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil en investissement.
+
+## À surveiller ensuite
+
+- Un retour à la hausse de l'offre totale de stablecoins, que les analystes considèrent comme le premier signe d'argent frais.
+- Les flux quotidiens des ETF bitcoin au comptant américains après quatre jours consécutifs de sorties.
+- La réunion de la Réserve fédérale des 8 et 9 décembre, où les traders anticipent désormais une hausse des taux.
+
+!soft: Vous débutez dans l'achat de cryptos ? Lisez notre guide pour [acheter votre premier bitcoin](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

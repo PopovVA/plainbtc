@@ -1,0 +1,63 @@
+title: La oferta de stablecoins cae al ritmo más rápido desde 2022 y el USDT de Tether pierde 6.600 millones de dólares
+page_title: La oferta de stablecoins cae 14.200 M$, la mayor caída desde 2022
+description: La oferta de las principales stablecoins cayó 14.200 millones de dólares en 30 días, la mayor caída desde el mercado bajista de 2022, y el USDT de Tether se redujo 6.600 millones en 60 días. Qué significa para bitcoin y para principiantes.
+og_description: Glassnode dice que las principales stablecoins se redujeron 14.200 millones de dólares en 30 días, y CryptoQuant que el USDT perdió 6.600 millones en 60 días, más del doble que tras FTX. Los analistas lo ven como menos combustible para un repunte.
+label: Mercados
+summary: La oferta de stablecoins se reduce al ritmo más rápido desde 2022 y el USDT de Tether cae 6.600 millones de dólares en 60 días. Los analistas dicen que eso deja menos poder de compra para bitcoin.
+===
+
+La reserva de stablecoins, los dólares digitales en los que los traders de cripto aparcan su efectivo, se está reduciendo al ritmo más rápido en más de cuatro años. Un informe publicado el miércoles por la firma de análisis Glassnode concluyó que la oferta de las principales stablecoins cayó <strong>14.200 millones de dólares</strong> en los últimos 30 días, la mayor caída desde el mercado bajista de 2022, según [The Block](L1).
+
+La stablecoin más grande encabeza el descenso. CryptoQuant afirmó que el valor de mercado del USDT de Tether cayó <strong>6.600 millones de dólares</strong> en los 60 días hasta el 7 de noviembre, más del doble que la caída de 3.200 millones que registró tras el colapso del exchange FTX en diciembre de 2022.
+
+!takeaways
+- La oferta de las principales stablecoins cayó 14.200 millones de dólares en 30 días, la mayor contracción desde el mercado bajista de 2022, según Glassnode.
+- El USDT de Tether se redujo 6.600 millones de dólares en 60 días hasta el 7 de noviembre, según CryptoQuant, más del doble que tras FTX.
+- La oferta total de stablecoins está ahora justo por debajo de 280.000 millones de dólares según The Block, un nivel no visto desde septiembre de 2025.
+- Los analistas interpretan la caída como menos efectivo a la espera de comprar bitcoin. USDT y USDC han mantenido su precio de 1 dólar.
+
+## Qué es una stablecoin y por qué importa su oferta
+
+Una stablecoin es un token cripto diseñado para valer siempre 1 dólar. Empresas como Tether (USDT) y Circle (USDC) crean tokens nuevos cuando los clientes depositan dólares y los destruyen cuando los clientes retiran su dinero. Por eso la oferta total es una medida aproximada de cuánto dinero en dólares hay dentro del mercado cripto, listo para gastarse en bitcoin u otras monedas.
+
+Cuando la oferta crece, normalmente está entrando dinero nuevo. Cuando se reduce, los tenedores están cambiando stablecoins por dólares normales. «Una oferta menguante significa que los tenedores canjean stablecoins por dólares y sacan ese efectivo del mercado, lo que deja menos combustible para un repunte», escribió Glassnode, según cita The Block.
+
+!figure:chart
+
+## ¿De qué tamaño es la caída?
+
+Los datos de [DefiLlama](L5) muestran que la oferta de USDT alcanzó un máximo de unos 184.400 millones de dólares el 9 de octubre y se situaba en unos 175.900 millones el 11 de noviembre. El USDT representa aproximadamente el 62,8% de todas las stablecoins, seguido del USDC con el 25,1%, según The Block.
+
+Pero el contexto importa. El USDT es hoy unas 2,7 veces más grande que a finales de 2022, así que la caída reciente equivale a cerca del 3,5% de su oferta, frente a cerca del 4,6% tras FTX, calculó [InvestIn.News](L2) con datos de DefiLlama. Además, la comparación de CryptoQuant solo abarca datos desde 2022. En junio de 2022, tras el colapso de Terra, la caída a 30 días de la oferta de stablecoins rozó los 30.000 millones de dólares.
+
+Tampoco hay señales de una corrida contra los propios tokens. Las cifras muestran cuántas monedas existen, no que alguien no haya podido recuperar sus dólares, y tanto USDT como USDC han mantenido su paridad de 1 dólar.
+
+!mid_cta
+
+## Por qué importa para bitcoin
+
+El retroceso llega mientras bitcoin atraviesa dificultades. El precio bajó a unos 72.700 dólares el martes tras unos datos de inflación de EE. UU. más altos de lo esperado y cotizaba cerca de 74.400 dólares el miércoles por la tarde. Los ETF de bitcoin al contado de EE. UU. acumulan ya cuatro días seguidos de salidas netas, informó [CoinDesk](L4).
+
+CryptoQuant también dijo que la «demanda aparente» de bitcoin cayó 284.000 BTC en los últimos 30 días y que la prima de Coinbase, un indicador del interés comprador en EE. UU., lleva 30 días seguidos en negativo, según [Bloomingbit](L3). La firma advirtió que bitcoin corre un riesgo significativo de una corrección mayor aunque rebote a corto plazo.
+
+!figure:fact
+
+No todos leen los datos como un veredicto final. Glassnode dijo que una vuelta al crecimiento de la oferta de stablecoins sería la «primera señal de que entra dinero nuevo», mientras que CryptoQuant señaló que podría formarse un suelo local de bitcoin antes de que la oferta de USDT vuelva a terreno positivo.
+
+## Qué significa para los principiantes
+
+Para quien está empezando, una oferta de stablecoins en descenso es señal de traders prudentes, no un motivo para entrar en pánico ni para lanzarse a comprar. Los precios pueden seguir cayendo cuando hay menos efectivo listo para comprar, por eso muchos principiantes prefieren comprar cantidades pequeñas y fijas de forma periódica en lugar de todo de una vez.
+
+Si decides comprar, un exchange grande y regulado como [Coinbase](REF) permite empezar con una cuenta bancaria y una cantidad pequeña. Invierte solo lo que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar a continuación
+
+- Si la oferta total de stablecoins vuelve a crecer, algo que los analistas ven como la primera señal de dinero nuevo.
+- Los flujos diarios de los ETF de bitcoin al contado de EE. UU. tras cuatro días seguidos de salidas.
+- La reunión de la Reserva Federal del 8 y 9 de diciembre, en la que los traders esperan ahora una subida de tipos.
+
+!soft: ¿Nuevo en la compra de cripto? Lee nuestra guía sobre [cómo comprar tu primer bitcoin](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

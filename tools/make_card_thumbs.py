@@ -572,6 +572,28 @@ def thumb_okxice():
     ],"note":"Editorial composite; trademarks belong to their owners. Candlestick motif is decorative, not market data."}
 
 
+def thumb_stablecoin_supply():
+    """Total USD-pegged stablecoin supply since Jan 1, 2026 (DefiLlama public API)."""
+    url = "https://stablecoins.llama.fi/stablecoincharts/all"
+    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60, context=CTX) as r:
+        rows = json.load(r)
+    start = datetime(2026, 1, 1, tzinfo=timezone.utc).timestamp()
+    rows = [r for r in rows if int(r["date"]) >= start]
+    xs = [datetime.fromtimestamp(int(r["date"]), tz=timezone.utc) for r in rows]
+    ys = [r["totalCirculatingUSD"]["peggedUSD"] / 1e9 for r in rows]
+    fig, ax = plt.subplots(figsize=(6.4,3.6), dpi=100); fig.patch.set_facecolor("#0f1419")
+    style_ax(ax, "")
+    ax.plot(xs, ys, color="#34d399", linewidth=1.9)
+    ax.fill_between(xs, ys, min(ys) * 0.99, color="#34d399", alpha=0.12)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v,_: f"${v:.0f}B"))
+    ax.xaxis.set_major_locator(mdates.MonthLocator(interval=2))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
+    im = chart_to_image(fig)
+    label_chip(im, "Total stablecoin supply in 2026 (DefiLlama)")
+    return im, {"kind":"chart","sources":[
+        {"file":"DefiLlama stablecoincharts/all","license":"DefiLlama public API","url":"https://defillama.com/stablecoins","credit":"Total USD-pegged stablecoin supply from DefiLlama"}
+    ]}
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -591,6 +613,7 @@ BUILDERS = {
     "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026": thumb_ios_flaw,
     "across-protocol-domain-hijack-phishing-nov-2026": thumb_across,
     "okxice-tokenized-stocks-launch-nov-23-2026": thumb_okxice,
+    "stablecoin-supply-shrinks-usdt-tether-nov-2026": thumb_stablecoin_supply,
 }
 
 def first_figure_source(slug: str) -> Path | None:

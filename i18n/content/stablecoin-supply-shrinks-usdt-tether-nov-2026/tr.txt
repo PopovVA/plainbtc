@@ -1,0 +1,63 @@
+title: Stablecoin arzı 2022'den bu yana en hızlı tempoyla daralıyor, Tether'in USDT'si 6,6 milyar dolar kaybetti
+page_title: Stablecoin arzı 14,2 milyar $ düştü, 2022'den beri en sert düşüş
+description: Büyük stablecoin'lerin arzı 30 günde 14,2 milyar dolar azaldı; bu, 2022 ayı piyasasından bu yana en büyük düşüş. Tether'in USDT'si ise 60 günde 6,6 milyar dolar küçüldü. Bitcoin ve yeni başlayanlar için ne anlama geliyor?
+og_description: Glassnode'a göre büyük stablecoin'ler 30 günde 14,2 milyar dolar küçüldü; CryptoQuant'a göre USDT 60 günde 6,6 milyar dolar kaybetti, bu FTX sonrasındaki düşüşün iki katından fazla. Analistler bunu yükseliş için daha az yakıt olarak görüyor.
+label: Piyasalar
+summary: Stablecoin arzı 2022'den bu yana en hızlı tempoyla daralıyor; Tether'in USDT'si 60 günde 6,6 milyar dolar geriledi. Analistler bunun bitcoin için daha az alım gücü bıraktığını söylüyor.
+===
+
+Kripto yatırımcılarının nakitlerini park ettiği dijital dolarlar olan stablecoin'lerin toplam miktarı, dört yılı aşkın sürenin en hızlı temposuyla küçülüyor. [The Block](L1)'un aktardığına göre analiz şirketi Glassnode'un çarşamba günü yayımladığı rapor, büyük stablecoin'lerin arzının son 30 günde <strong>14,2 milyar dolar</strong> azaldığını ortaya koydu. Bu, 2022 ayı piyasasından bu yana görülen en büyük düşüş.
+
+Düşüşe en büyük stablecoin öncülük ediyor. CryptoQuant'a göre Tether'in USDT'sinin piyasa değeri 7 Kasım'a kadarki 60 günde <strong>6,6 milyar dolar</strong> azaldı. Bu, FTX borsasının Aralık 2022'de çöküşünün ardından kaydedilen 3,2 milyar dolarlık düşüşün iki katından fazla.
+
+!takeaways
+- Glassnode'a göre büyük stablecoin'lerin arzı 30 günde 14,2 milyar dolar azaldı; bu, 2022 ayı piyasasından bu yana en büyük daralma.
+- CryptoQuant'a göre Tether'in USDT'si 7 Kasım'a kadarki 60 günde 6,6 milyar dolar küçüldü; bu, FTX sonrasındaki düşüşün iki katından fazla.
+- The Block'un hesabına göre toplam stablecoin arzı şu anda 280 milyar doların hemen altında; bu seviye en son Eylül 2025'te görülmüştü.
+- Analistler düşüşü, bitcoin almayı bekleyen nakdin azalması olarak yorumluyor. USDT ve USDC 1 dolarlık fiyatlarını korudu.
+
+## Stablecoin nedir ve arzı neden önemlidir?
+
+Stablecoin, her zaman 1 dolar değerinde kalacak şekilde tasarlanmış bir kripto tokendır. Tether (USDT) ve Circle (USDC) gibi şirketler, müşteriler dolar yatırdığında yeni token basar, müşteriler para çektiğinde ise tokenları yakar. Bu yüzden toplam arz, kripto piyasasında bitcoin veya başka coin'lere harcanmaya hazır bekleyen dolar miktarının kaba bir göstergesidir.
+
+Arz büyüdüğünde genellikle piyasaya yeni para giriyordur. Küçüldüğünde ise sahipler stablecoin'lerini normal dolara geri çeviriyordur. The Block'un aktardığına göre Glassnode, "Küçülen arz, sahiplerin stablecoin'leri dolara çevirip bu nakdi piyasadan çektiği ve bir yükseliş için daha az yakıt kaldığı anlamına gelir" diye yazdı.
+
+!figure:chart
+
+## Düşüş ne kadar büyük?
+
+[DefiLlama](L5) verileri, USDT arzının 9 Ekim'de yaklaşık 184,4 milyar dolarla zirve yaptığını ve 11 Kasım'da yaklaşık 175,9 milyar dolar olduğunu gösteriyor. The Block'a göre USDT tüm stablecoin'lerin yaklaşık yüzde 62,8'ini oluşturuyor, onu yüzde 25,1 ile USDC izliyor.
+
+Yine de bağlam önemli. USDT bugün 2022 sonundakinin yaklaşık 2,7 katı büyüklükte; bu nedenle son düşüş arzının yaklaşık yüzde 3,5'ine denk geliyor, FTX sonrasında bu oran yaklaşık yüzde 4,6'ydı. Bu hesabı [InvestIn.News](L2) DefiLlama verileriyle yaptı. CryptoQuant'ın karşılaştırması da yalnızca 2022'den bu yana olan verileri kapsıyor. Haziran 2022'de, Terra'nın çöküşünün ardından, stablecoin arzındaki 30 günlük düşüş neredeyse 30 milyar dolara ulaşmıştı.
+
+Tokenların kendisine yönelik bir hücum belirtisi de yok. Rakamlar kaç coin bulunduğunu gösteriyor; kimsenin dolarını geri alamadığını değil. USDT ve USDC 1 dolarlık sabitlerini korudu.
+
+!mid_cta
+
+## Bitcoin için neden önemli?
+
+Daralma, bitcoin'in zorlandığı bir döneme denk geliyor. Fiyat salı günü beklentilerden yüksek gelen ABD enflasyon verisinin ardından yaklaşık 72.700 dolara geriledi ve çarşamba öğleden sonra 74.400 dolar civarında işlem görüyordu. [CoinDesk](L4)'in bildirdiğine göre ABD'deki spot bitcoin ETF'leri art arda dört gündür net çıkış kaydediyor.
+
+[Bloomingbit](L3)'in aktardığına göre CryptoQuant ayrıca bitcoin'e yönelik "görünür talebin" son 30 günde 284.000 BTC azaldığını ve ABD'deki alım ilgisini ölçen Coinbase priminin 30 gündür üst üste negatif olduğunu söyledi. Şirket, kısa vadede toparlansa bile bitcoin'in ciddi bir ek düzeltme riskiyle karşı karşıya olduğu uyarısında bulundu.
+
+!figure:fact
+
+Herkes verileri kesin bir hüküm olarak okumuyor. Glassnode, stablecoin arzının yeniden büyümeye başlamasının "yeni paranın geldiğinin ilk işareti" olacağını söylerken CryptoQuant, USDT arzı yeniden pozitife dönmeden önce bitcoin'de yerel bir dip oluşabileceğini belirtti.
+
+## Yeni başlayanlar için ne anlama geliyor?
+
+Yeni başlayan biri için küçülen stablecoin arzı, temkinli yatırımcıların işaretidir; panik yapmak ya da aceleyle alım yapmak için bir neden değildir. Alıma hazır nakit azaldığında fiyatlar düşmeye devam edebilir. Bu yüzden birçok yeni başlayan, tek seferde almak yerine düzenli aralıklarla küçük ve sabit tutarlarda almayı tercih ediyor.
+
+Almaya karar verirseniz, [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsa banka hesabı ve küçük bir tutarla başlamanıza imkân tanır. Yalnızca kaybetmeyi göze alabileceğiniz kadar yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Sırada neyi izlemeli?
+
+- Analistlerin yeni paranın ilk işareti olarak gördüğü toplam stablecoin arzının yeniden büyüyüp büyümeyeceği.
+- Art arda dört günlük çıkışın ardından ABD spot bitcoin ETF'lerinin günlük akışları.
+- Yatırımcıların artık faiz artırımı beklediği 8-9 Aralık Fed toplantısı.
+
+!soft: Kripto almaya yeni mi başlıyorsunuz? [İlk bitcoin'inizi nasıl alacağınızı](/articles/how-to-buy-first-bitcoin-coinbase) anlatan rehberimizi okuyun.
+
+!end_cta
+
+!disclosure

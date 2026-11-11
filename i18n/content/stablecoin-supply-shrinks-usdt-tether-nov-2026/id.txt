@@ -1,0 +1,63 @@
+title: Pasokan stablecoin menyusut paling cepat sejak 2022, USDT milik Tether kehilangan US$6,6 miliar
+page_title: Pasokan stablecoin turun US$14,2 miliar, penurunan terbesar sejak 2022
+description: Pasokan stablecoin utama turun US$14,2 miliar dalam 30 hari, penurunan terbesar sejak pasar bearish 2022, dan USDT milik Tether menyusut US$6,6 miliar dalam 60 hari. Apa artinya bagi bitcoin dan pemula.
+og_description: Glassnode menyebut stablecoin utama menyusut US$14,2 miliar dalam 30 hari, dan CryptoQuant menyebut USDT kehilangan US$6,6 miliar dalam 60 hari, lebih dari dua kali lipat penurunan setelah FTX. Analis melihatnya sebagai berkurangnya bahan bakar untuk reli.
+label: Pasar
+summary: Pasokan stablecoin menyusut paling cepat sejak 2022, dengan USDT milik Tether turun US$6,6 miliar dalam 60 hari. Analis mengatakan hal itu menyisakan daya beli yang lebih kecil untuk bitcoin.
+===
+
+Kumpulan stablecoin, dolar digital tempat para trader kripto memarkir uang tunai mereka, menyusut dengan laju tercepat dalam lebih dari empat tahun. Laporan perusahaan analitik Glassnode yang terbit Rabu menemukan bahwa pasokan stablecoin utama turun <strong>US$14,2 miliar</strong> dalam 30 hari terakhir, penurunan terbesar sejak pasar bearish 2022, menurut [The Block](L1).
+
+Stablecoin terbesar memimpin penurunan. CryptoQuant mengatakan nilai pasar USDT milik Tether turun <strong>US$6,6 miliar</strong> dalam 60 hari hingga 7 November, lebih dari dua kali lipat penurunan US$3,2 miliar yang tercatat setelah bursa FTX runtuh pada Desember 2022.
+
+!takeaways
+- Pasokan stablecoin utama turun US$14,2 miliar dalam 30 hari, kontraksi terbesar sejak pasar bearish 2022, kata Glassnode.
+- USDT milik Tether menyusut US$6,6 miliar dalam 60 hari hingga 7 November, kata CryptoQuant, lebih dari dua kali lipat penurunan pasca-FTX.
+- Total pasokan stablecoin kini sedikit di bawah US$280 miliar menurut hitungan The Block, level yang terakhir terlihat pada September 2025.
+- Analis membaca penurunan ini sebagai berkurangnya uang tunai yang menunggu untuk membeli bitcoin. USDT dan USDC tetap bertahan di harga US$1.
+
+## Apa itu stablecoin, dan mengapa pasokannya penting?
+
+Stablecoin adalah token kripto yang dirancang agar selalu bernilai US$1. Perusahaan seperti Tether (USDT) dan Circle (USDC) mencetak token baru saat nasabah menyetor dolar dan memusnahkan token saat nasabah menarik uangnya. Karena itu, total pasokan menjadi ukuran kasar berapa banyak uang dolar yang ada di dalam pasar kripto dan siap dibelanjakan untuk bitcoin atau koin lain.
+
+Saat pasokan tumbuh, biasanya ada uang baru yang masuk. Saat menyusut, para pemegang menukar stablecoin kembali ke dolar biasa. "Pasokan yang menyusut berarti pemegang menukarkan stablecoin ke dolar dan menarik uang tunai itu dari pasar, sehingga bahan bakar untuk reli berkurang," tulis Glassnode, seperti dikutip The Block.
+
+!figure:chart
+
+## Seberapa besar penurunannya?
+
+Data [DefiLlama](L5) menunjukkan pasokan USDT mencapai puncak sekitar US$184,4 miliar pada 9 Oktober dan berada di sekitar US$175,9 miliar pada 11 November. USDT menguasai sekitar 62,8% dari seluruh stablecoin, disusul USDC dengan 25,1%, menurut The Block.
+
+Namun konteks tetap penting. USDT kini sekitar 2,7 kali lebih besar dibanding akhir 2022, sehingga penurunan terbaru setara sekitar 3,5% dari pasokannya, dibandingkan sekitar 4,6% setelah FTX, menurut perhitungan [InvestIn.News](L2) dari data DefiLlama. Perbandingan CryptoQuant juga hanya mencakup data sejak 2022. Pada Juni 2022, setelah Terra runtuh, penurunan pasokan stablecoin dalam 30 hari hampir mencapai US$30 miliar.
+
+Tidak ada pula tanda penarikan massal terhadap token itu sendiri. Angka-angka ini menunjukkan berapa banyak koin yang beredar, bukan bahwa ada orang yang gagal mendapatkan dolarnya kembali, dan baik USDT maupun USDC tetap mempertahankan patokan US$1.
+
+!mid_cta
+
+## Mengapa ini penting bagi bitcoin
+
+Penyusutan ini terjadi saat bitcoin sedang tertekan. Harganya turun ke sekitar US$72.700 pada Selasa setelah data inflasi AS lebih tinggi dari perkiraan, dan diperdagangkan di dekat US$74.400 pada Rabu sore. ETF bitcoin spot AS kini mencatat arus keluar bersih empat hari berturut-turut, lapor [CoinDesk](L4).
+
+CryptoQuant juga mengatakan "permintaan nyata" bitcoin turun 284.000 BTC dalam 30 hari terakhir dan premi Coinbase, ukuran minat beli di AS, sudah negatif selama 30 hari berturut-turut, menurut [Bloomingbit](L3). Perusahaan itu memperingatkan bahwa bitcoin menghadapi risiko koreksi lanjutan yang signifikan meski sempat memantul dalam jangka pendek.
+
+!figure:fact
+
+Tidak semua pihak membaca data ini sebagai vonis akhir. Glassnode mengatakan kembalinya pertumbuhan pasokan stablecoin akan menjadi "tanda pertama bahwa uang baru masuk", sementara CryptoQuant mengatakan dasar lokal bitcoin bisa terbentuk sebelum pasokan USDT kembali positif.
+
+## Apa artinya bagi pemula
+
+Bagi yang baru mulai, pasokan stablecoin yang menyusut adalah tanda trader sedang berhati-hati, bukan alasan untuk panik atau buru-buru membeli. Harga bisa terus turun saat uang tunai yang siap membeli berkurang, sehingga banyak pemula memilih membeli dalam jumlah kecil dan tetap secara terjadwal daripada sekaligus.
+
+Jika Anda memutuskan membeli, bursa besar yang teregulasi seperti [Coinbase](REF) memungkinkan Anda memulai dengan rekening bank dan jumlah kecil. Investasikan hanya dana yang sanggup Anda rugikan. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau berikutnya
+
+- Apakah total pasokan stablecoin mulai tumbuh lagi, yang dianggap analis sebagai tanda pertama uang baru.
+- Arus harian ETF bitcoin spot AS setelah empat hari berturut-turut arus keluar.
+- Rapat Federal Reserve pada 8-9 Desember, saat trader kini memperkirakan kenaikan suku bunga.
+
+!soft: Baru mulai membeli kripto? Baca panduan kami tentang [cara membeli bitcoin pertama Anda](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

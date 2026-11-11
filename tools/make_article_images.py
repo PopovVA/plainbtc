@@ -173,7 +173,7 @@ def style_axes(ax, title: str):
 
 
 def make_line_chart(path: Path, xs, ys, title: str, hline=None, hlabel=None,
-                    ylabel="USD", w=1200, h=675, date_fmt="%b %d") -> Path:
+                    ylabel="USD", w=1200, h=675, date_fmt="%b %d", yfmt=None) -> Path:
     fig, ax = plt.subplots(figsize=(w / 100, h / 100), dpi=100)
     style_axes(ax, title)
     import datetime as dt
@@ -194,7 +194,7 @@ def make_line_chart(path: Path, xs, ys, title: str, hline=None, hlabel=None,
                 fontweight="bold",
             )
     ax.xaxis.set_major_formatter(mdates.DateFormatter(date_fmt))
-    ax.yaxis.set_major_formatter(lambda x, _p: f"${x:,.0f}")
+    ax.yaxis.set_major_formatter(yfmt or (lambda x, _p: f"${x:,.0f}"))
     fig.autofmt_xdate(rotation=0, ha="center")
     plt.tight_layout(pad=1.2)
     # brand footer
@@ -1623,6 +1623,66 @@ def build_okxice():
     ]
 
 
+def fetch_usdt_supply(days: int = 90):
+    """Daily USDT circulating supply (USD billions) from DefiLlama's public stablecoins API."""
+    url = "https://stablecoins.llama.fi/stablecoin/1"
+    req = urllib.request.Request(url, headers={"User-Agent": "PlainBTC/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read().decode())
+    rows = data["tokens"][-(days + 1):]
+    xs = np.array([float(r["date"]) for r in rows])
+    ys = np.array([r["circulating"]["peggedUSD"] / 1e9 for r in rows])
+    return xs, ys
+
+
+def build_stablecoin_shrink():
+    slug = "stablecoin-supply-shrinks-usdt-tether-nov-2026"
+    d = OUT / slug
+    # DefiLlama USDT circulating supply, daily, Aug 13 - Nov 11, 2026: peak $184.4B (Oct 9), $175.9B on Nov 11.
+    xs, ys = fetch_usdt_supply(90)
+    chart = make_line_chart(
+        d / "chart-usdt-supply-90d",
+        xs, ys,
+        title="Tether (USDT) supply in circulation, last 90 days (DefiLlama)",
+        yfmt=lambda x, _p: f"${x:,.0f}B",
+    )
+    card = make_fact_card(
+        d / "fact-usdt-6-6b",
+        label="USDT shrinking",
+        big="-$6.6 billion",
+        sub="Drop in Tether's USDT market cap over 60 days to Nov. 7, more than double the $3.2 billion fall after FTX collapsed in 2022",
+        footer="CryptoQuant, via The Block · Nov 10-11, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of Tether's USDT supply over the last 90 days: it climbs to a peak of about $184.4 billion on Oct. 9, 2026, then falls to about $175.9 billion by Nov. 11", {
+            "es": "Gráfico de líneas del suministro de USDT de Tether en los últimos 90 días: sube hasta un máximo de unos 184.400 millones de dólares el 9 de octubre de 2026 y cae a unos 175.900 millones el 11 de noviembre",
+            "pt": "Gráfico de linha da oferta de USDT da Tether nos últimos 90 dias: sobe até um pico de cerca de US$ 184,4 bilhões em 9 de outubro de 2026 e cai para cerca de US$ 175,9 bilhões em 11 de novembro",
+            "fr": "Courbe de l'offre d'USDT de Tether sur 90 jours : elle grimpe jusqu'à un pic d'environ 184,4 milliards de dollars le 9 octobre 2026, puis recule à environ 175,9 milliards le 11 novembre",
+            "de": "Liniendiagramm des USDT-Umlaufs von Tether in den letzten 90 Tagen: Anstieg auf einen Höchststand von rund 184,4 Mrd. $ am 9. Oktober 2026, danach Rückgang auf rund 175,9 Mrd. $ bis zum 11. November",
+            "ru": "Линейный график предложения USDT от Tether за последние 90 дней: рост до пика около $184,4 млрд 9 октября 2026 года, затем снижение примерно до $175,9 млрд к 11 ноября",
+            "tr": "Tether'in USDT arzının son 90 günlük çizgi grafiği: 9 Ekim 2026'da yaklaşık 184,4 milyar $ ile zirveye çıkıyor, ardından 11 Kasım'a kadar yaklaşık 175,9 milyar $'a geriliyor",
+            "id": "Grafik garis pasokan USDT Tether dalam 90 hari terakhir: naik ke puncak sekitar US$184,4 miliar pada 9 Oktober 2026, lalu turun ke sekitar US$175,9 miliar pada 11 November",
+            "ja": "過去90日間のテザー（USDT）流通量の折れ線グラフ：2026年10月9日に約1844億ドルでピークを付けた後、11月11日には約1759億ドルに減少",
+            "ko": "최근 90일간 테더(USDT) 유통량 선 차트: 2026년 10월 9일 약 1,844억 달러로 정점을 찍은 뒤 11월 11일 약 1,759억 달러로 감소",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="DefiLlama stablecoins data (USDT circulating supply)")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: Tether's USDT market cap fell $6.6 billion over 60 days to Nov. 7, more than double the $3.2 billion drop after FTX collapsed in 2022, according to CryptoQuant", {
+            "es": "Tarjeta: la capitalización de USDT de Tether cayó 6.600 millones de dólares en 60 días hasta el 7 de noviembre, más del doble que la caída de 3.200 millones tras el colapso de FTX en 2022, según CryptoQuant",
+            "pt": "Cartão: o valor de mercado do USDT da Tether caiu US$ 6,6 bilhões em 60 dias até 7 de novembro, mais que o dobro da queda de US$ 3,2 bilhões após o colapso da FTX em 2022, segundo a CryptoQuant",
+            "fr": "Encadré : la capitalisation de l'USDT de Tether a reculé de 6,6 milliards de dollars en 60 jours jusqu'au 7 novembre, plus du double de la baisse de 3,2 milliards après la faillite de FTX en 2022, selon CryptoQuant",
+            "de": "Faktenkarte: Die Marktkapitalisierung von Tethers USDT sank in 60 Tagen bis zum 7. November um 6,6 Mrd. $, mehr als doppelt so stark wie der Rückgang um 3,2 Mrd. $ nach dem FTX-Zusammenbruch 2022, so CryptoQuant",
+            "ru": "Карточка: по данным CryptoQuant, капитализация USDT от Tether за 60 дней до 7 ноября снизилась на $6,6 млрд — более чем вдвое сильнее, чем падение на $3,2 млрд после краха FTX в 2022 году",
+            "tr": "Kart: CryptoQuant'a göre Tether'in USDT piyasa değeri 7 Kasım'a kadarki 60 günde 6,6 milyar $ düştü; bu, 2022'de FTX'in çöküşünün ardından görülen 3,2 milyar $'lık düşüşün iki katından fazla",
+            "id": "Kart fakta: kapitalisasi pasar USDT Tether turun US$6,6 miliar dalam 60 hari hingga 7 November, lebih dari dua kali lipat penurunan US$3,2 miliar setelah FTX runtuh pada 2022, menurut CryptoQuant",
+            "ja": "カード：CryptoQuantによると、テザーのUSDT時価総額は11月7日までの60日間で66億ドル減少。2022年のFTX破綻後の32億ドル減の2倍を超える",
+            "ko": "카드: 크립토퀀트에 따르면 테더 USDT 시가총액은 11월 7일까지 60일간 66억 달러 감소해, 2022년 FTX 붕괴 이후 32억 달러 감소의 두 배를 넘었다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="CryptoQuant, via The Block")},
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -1645,6 +1705,7 @@ BUILDERS = {
     "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026": "iosflaw",
     "across-protocol-domain-hijack-phishing-nov-2026": "across",
     "okxice-tokenized-stocks-launch-nov-23-2026": "okxice",
+    "stablecoin-supply-shrinks-usdt-tether-nov-2026": "usdt",
 }
 
 
@@ -1698,6 +1759,8 @@ def build_slug(slug: str, btc=None):
         figs = build_across()
     elif key == "okxice":
         figs = build_okxice()
+    elif key == "usdt":
+        figs = build_stablecoin_shrink()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

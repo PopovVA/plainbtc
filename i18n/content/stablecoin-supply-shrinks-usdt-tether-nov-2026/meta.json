@@ -1,0 +1,39 @@
+{
+ "slug": "stablecoin-supply-shrinks-usdt-tether-nov-2026",
+ "date": "2026-11-11",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-hot-cpi-etf-outflows-nov-2026",
+  "banks-270-million-stablecoin-project-faro-nov-2026",
+  "bitcoin-below-73000-lowest-since-august-nov-2026"
+ ],
+ "sources": [
+  {
+   "url": "https://www.theblock.co/news/ecosystems/2026-11-11-stablecoin-supply-drops-14-2-billion-largest-contraction-since-2022-bear-market-437907",
+   "title": "The Block — Stablecoin supply drops $14.2 billion in largest contraction since 2022 bear market",
+   "date": "Nov 11, 2026"
+  },
+  {
+   "url": "https://investin.news/originals/cryptoquant-usdt-market-cap-6-6-billion-december-2022",
+   "title": "InvestIn.News — CryptoQuant says USDT market cap is down $6.6 billion in 60 days",
+   "date": "Nov 10, 2026"
+  },
+  {
+   "url": "https://en.bloomingbit.io/feed/news/124150",
+   "title": "Bloomingbit — Tether market cap falls $6.6 billion in 60 days, raising risk of further bitcoin declines",
+   "date": "Nov 10, 2026"
+  },
+  {
+   "url": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows",
+   "title": "CoinDesk — Bitcoin barely flinches at hot CPI as ETF selling slows",
+   "date": "Nov 11, 2026"
+  },
+  {
+   "url": "https://defillama.com/stablecoins",
+   "title": "DefiLlama — Stablecoins data (USDT and total supply)",
+   "date": "Nov 11, 2026"
+  }
+ ],
+ "disclosure_variant": "std"
+}

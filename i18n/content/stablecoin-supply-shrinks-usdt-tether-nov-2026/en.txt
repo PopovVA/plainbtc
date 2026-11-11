@@ -1,0 +1,63 @@
+title: Stablecoin supply shrinks at the fastest pace since 2022 as Tether's USDT loses $6.6 billion
+page_title: Stablecoin supply falls $14.2B, fastest drop since 2022
+description: The supply of major stablecoins fell $14.2 billion in 30 days, the biggest drop since the 2022 bear market, and Tether's USDT shrank $6.6 billion in 60 days. What it means for bitcoin and beginners.
+og_description: Glassnode says major stablecoins shrank $14.2 billion in 30 days, and CryptoQuant says USDT lost $6.6 billion in 60 days, more than double the drop after FTX. Analysts call it less fuel for a rally.
+label: Markets
+summary: Stablecoin supply is shrinking at its fastest pace since 2022, with Tether's USDT down $6.6 billion in 60 days. Analysts say that leaves less buying power for bitcoin.
+===
+
+The pool of stablecoins, the digital dollars that crypto traders park their cash in, is shrinking at its fastest pace in more than four years. A Wednesday report from analytics firm Glassnode found that the supply of major stablecoins fell by <strong>$14.2 billion</strong> over the past 30 days, the biggest drop since the 2022 bear market, according to [The Block](L1).
+
+The largest stablecoin is leading the decline. CryptoQuant said the market value of Tether's USDT fell <strong>$6.6 billion</strong> over the 60 days through Nov. 7, more than double the $3.2 billion drop it recorded after the FTX exchange collapsed in December 2022.
+
+!takeaways
+- Major stablecoin supply fell $14.2 billion in 30 days, the largest contraction since the 2022 bear market, Glassnode said.
+- Tether's USDT shrank $6.6 billion in 60 days to Nov. 7, CryptoQuant said, more than double the post-FTX drop.
+- Total stablecoin supply now sits just below $280 billion by The Block's count, a level last seen in September 2025.
+- Analysts read the drop as less cash waiting on the sidelines to buy bitcoin. USDT and USDC have kept their $1 price.
+
+## What is a stablecoin, and why does supply matter?
+
+A stablecoin is a crypto token built to stay worth $1. Companies like Tether (USDT) and Circle (USDC) create new tokens when customers deposit dollars and destroy tokens when customers cash out. That makes the total supply a rough gauge of how much dollar money is sitting inside the crypto market, ready to be spent on bitcoin or other coins.
+
+When supply grows, new money is usually coming in. When it shrinks, holders are trading stablecoins back for regular dollars. "A shrinking supply means holders are redeeming stablecoins for dollars and taking that cash out of the market, which leaves less fuel for a rally," Glassnode wrote, as quoted by The Block.
+
+!figure:chart
+
+## How big is the drop?
+
+Data from [DefiLlama](L5) shows USDT's supply peaked at about $184.4 billion on Oct. 9 and stood at about $175.9 billion on Nov. 11. USDT accounts for roughly 62.8% of all stablecoins, followed by USDC at 25.1%, according to The Block.
+
+Context matters, though. USDT is now about 2.7 times bigger than at the end of 2022, so the recent fall is about 3.5% of its supply, compared with about 4.6% after FTX, [InvestIn.News](L2) calculated from DefiLlama data. CryptoQuant's comparison also only covers data since 2022. In June 2022, after the Terra collapse, the 30-day drop in stablecoin supply nearly reached $30 billion.
+
+There is also no sign of a run on the tokens themselves. The numbers show how many coins exist, not that anyone failed to get their dollars back, and both USDT and USDC have held their $1 peg.
+
+!mid_cta
+
+## Why it matters for bitcoin
+
+The slide comes as bitcoin struggles. The price dipped to about $72,700 on Tuesday after hotter-than-expected U.S. inflation data and was trading near $74,400 on Wednesday afternoon. U.S. spot bitcoin ETFs have now posted four straight days of net outflows, [CoinDesk](L4) reported.
+
+CryptoQuant also said bitcoin's "apparent demand" fell by 284,000 BTC over the past 30 days and that the Coinbase premium, a measure of U.S. buying interest, has been negative for 30 straight days, according to [Bloomingbit](L3). The firm warned that bitcoin faces a significant risk of further correction even if it bounces in the short term.
+
+!figure:fact
+
+Not everyone reads the data as a final verdict. Glassnode said a return to stablecoin supply growth would be the "first sign that new money is coming in," while CryptoQuant said a local bitcoin bottom could form before USDT supply turns positive again.
+
+## What it means for beginners
+
+For someone just starting out, a shrinking stablecoin supply is a sign of cautious traders, not a reason to panic or to rush in. Prices can keep falling when less cash is ready to buy, so many beginners prefer to buy small, fixed amounts on a schedule rather than all at once.
+
+If you decide to buy, a large regulated U.S. exchange such as [Coinbase](REF) lets you start with a bank account and a small amount. Only invest what you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Whether total stablecoin supply starts growing again, which analysts see as the first sign of new money.
+- Daily flows for U.S. spot bitcoin ETFs after four straight days of outflows.
+- The Federal Reserve's Dec. 8-9 meeting, where traders now expect a rate increase.
+
+!soft: New to buying crypto? Read our guide on [how to buy your first bitcoin](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure
