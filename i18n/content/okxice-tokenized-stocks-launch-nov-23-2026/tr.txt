@@ -1,0 +1,62 @@
+title: OKX ve NYSE'nin sahibi ICE, ABD'de 7/24 tokenize hisse işlemleri için 23 Kasım'ı lansman tarihi olarak belirledi
+page_title: OKXICE tokenize hisse işlemlerini 23 Kasım'da başlatıyor
+description: OKX ile NYSE'nin sahibi ICE'ın ortak girişimi OKXICE, blokzincir tabanlı hisse platformunun 23 Kasım'da Coinbase, Circle ve Strategy dahil 70'ten fazla varlıkla açılacağını söylüyor. Nasıl işliyor?
+og_description: OKXICE, ilk önerdiği 62 şirketten 56'sının itirazının ardından 23 Kasım'da ABD Doğu saatiyle 09.00'da 70'ten fazla varlıkla tokenize ABD hisselerinde 7/24 işlemleri başlatacak.
+label: İş dünyası
+summary: OKX ve NYSE'nin sahibi ICE, 23 Kasım'da tokenize ABD hisselerinde 7/24 işlemleri başlatıyor; 70'ten fazla varlık arasında Coinbase, Circle, Strategy ve 59 Direxion ETF'i var.
+===
+
+Kripto borsası OKX ile New York Borsası'nın sahibi Intercontinental Exchange (ICE), <strong>23 Kasım Pazartesi</strong> günü ABD'de blokzincir tabanlı bir hisse alım satım platformu açacak. [Unchained](L2)'in aktardığına göre iki şirketin ortak girişimi OKXICE, çarşamba günü Tokenized Securities Venue'nun <strong>ABD Doğu saatiyle 09.00'da</strong> işlemlere başlayacağını duyurdu.
+
+OKXICE, aralarında Coinbase, Circle, Robinhood ve Strategy'nin tokenize hisseleri ile Direxion'ın <strong>59</strong> borsa yatırım fonunun (ETF) bulunduğu <strong>70'ten fazla varlığın</strong> 7/24 işlem için onaylandığını söylüyor. [CoinDesk](L1)'in haberine göre bir sözcü, bunların hepsinin ilk gün kullanılabilir olmayacağını belirtti.
+
+!takeaways
+- ICE ile OKX'in ABD holding şirketine yarı yarıya, yani 50/50, ait olan OKXICE, tokenize hisse platformunu 23 Kasım'da ABD Doğu saatiyle 09.00'da açıyor.
+- Coinbase, Circle, Robinhood, Strategy, BitGo, Securitize, Better.com ve 59 Direxion ETF'i dahil 70'ten fazla varlık onaylandı.
+- CoinDesk'in sayımına göre OKXICE'ın başta önerdiği 62 şirketten 56'sı itiraz etti; toplam itiraz sayısı Apple, Microsoft, Nvidia, Amazon ve Tesla dahil 67'ye ulaştı.
+- Başlangıçta yalnızca kimlik doğrulamasını geçen uygun ABD'li OKX Inc. müşterileri işlem yapabilecek ve tokenler kendi cüzdanlarında kalacak.
+
+## Tokenize hisse nedir
+
+Tokenize hisse, gerçek bir hisseyi temsil eden, blokzincir üzerindeki dijital bir tokendir. Girişimin kasım tarihli kamuya açık bildirimine göre burada her token, bir ABD hissesiyle bire bir desteklenen bir "menkul kıymet hakkı" (security entitlement). Tokenizasyonu Securitize üstleniyor ve şirketlerin açıklamasına göre sahipler temettü, oy hakkı ve şirket işlemlerine katılım gibi pay sahipliği haklarını koruyor.
+
+İşlemler klasik bir emir defteri üzerinden yapılmayacak. Bunun yerine alım satımlar, OKX'in Ethereum üzerine kurulu ağı X Layer'da çalışan Uniswap v4'teki otomatik token ve stablecoin havuzları aracılığıyla gerçekleşecek. Yalnızca onaylı cüzdanlar işlem yapabilecek ya da havuzlara para ekleyebilecek. OKXICE, müşterilerin varlıklarını ve özel anahtarlarını saklamayacağını söyledi.
+
+!figure:chart
+
+## Lansman neden şimdi mümkün
+
+OKXICE, SEC'in "inovasyon muafiyeti" kapsamında faaliyet gösteriyor. 17 Eylül'de çıkarılan beş yıllık bu karar, bu tür platformların geleneksel borsa olarak kayıt yaptırmadan tokenize hisse işlemi yapmasına izin veriyor. CoinDesk'e göre OKXICE, bu ayın başında açılan Canton tabanlı bir platformun ardından programda faaliyete geçen ikinci platform olacak.
+
+[The Block](L3)'un aktardığına göre OKXICE eş başkanı ve eski New York Valisi Andrew Cuomo, "Finansın geleceği zincir üstünde ve bunu burada, Amerika'da, yatırımcıların beklediği standartlar, güvenceler ve hedeflerle inşa etme fırsatımız var" dedi.
+
+!mid_cta
+
+## Pek çok büyük şirket hayır dedi
+
+Kurallar, ilgisiz bir firma hissesini tokenize etmek istediğinde şirkete itiraz için 30 takvim günü tanıyor. Birçoğu itiraz etti. CoinDesk'e göre OKXICE'ın ilk listesindeki 62 şirketten 56'sı, yani yaklaşık %90'ı itiraz etti. Girişimin 5 Kasım tarihli [kamuya açık bildirimi](L4), o tarihe kadar itiraz eden ve bazıları ilk listede yer almayan 67 ihraççıyı sıralıyor.
+
+The Block'un haberine göre katılmamayı seçen şirketlerden Applied Optoelectronics, Wall Street Journal'a tokenizasyonun hisse fiyatını, likiditesini ve oynaklığını nasıl etkileyeceğinden emin olmadığını söyledi. Kraken ile kendi tokenizasyon planları üzerinde çalışan Nasdaq ise kendi hissesini bu tür platformların dışında tutacağını açıkladı. Nasdaq'ın hukuk direktörü John Zecca, muafiyetin tokenize hisselerin düzenlenmiş ulusal piyasa sisteminin dışında işlem görmesine izin verdiği uyarısında bulundu.
+
+Bu nedenle açılış listesi ağırlıklı olarak kriptoyla bağlantılı şirketlerden ve Direxion'ın fonlarından oluşuyor. CoinDesk'e göre Direxion yaklaşık 70 milyar dolarlık varlık yönetiyor.
+
+!figure:fact
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Bu, bitcoin almakla aynı şey değil. Tokenize hisse, olağan hisse riskleri taşıyan bir hisse olmaya devam ediyor; yalnızca blokzincir üzerinde ve normal piyasa saatleri dışında işlem görüyor. Yeni platformlarda alıcı ve satıcı sayısı da daha az olabilir, bu da fiyat farklarını açabilir. Erişim başlangıçta sınırlı ve kendi cüzdanınızı yönetmeniz gerekir.
+
+Amacınız yalnızca biraz bitcoin sahibi olmaksa, [Coinbase](REF) gibi düzenlenmiş bir borsa ABD'li müşterilerin banka hesabıyla alım yapmasına imkân tanıyor; önce güncel ücretleri ve koşulları kontrol edin. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra izlenecekler
+
+- 70'ten fazla varlıktan kaçının 23 Kasım'da gerçekten işlem göreceği.
+- Aynı hisselerin normal borsalardaki durumuna kıyasla işlem hacmi ve fiyat farkları.
+- Önümüzdeki haftalarda daha fazla şirketin itiraz edip etmeyeceği ya da katılıp katılmayacağı.
+- İlk lansmanların ardından SEC'in inovasyon muafiyetinde yapabileceği değişiklikler.
+
+!soft: Kriptonun bir aracı kurum hesabına nasıl uyduğunu mu merak ediyorsunuz? [Bitcoin ETF'leri ile bitcoin satın almak](/articles/bitcoin-etf-vs-buying-bitcoin) rehberimizi okuyun.
+
+!end_cta
+
+!disclosure

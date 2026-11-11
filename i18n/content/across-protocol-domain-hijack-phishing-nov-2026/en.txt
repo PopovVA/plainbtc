@@ -1,0 +1,67 @@
+title: Hackers hijack crypto bridge Across's website through its domain registrar; about $350,000 drained
+page_title: Across Protocol website hijacked, about $350K drained
+description: Attackers took over the across.to domain on Nov. 10 and swapped in a fake site that drained an estimated $350,000 from users' wallets. Across says victims will be made whole. Here is what to check.
+og_description: A social engineering attack on registrar Namecheap let hackers point across.to at a phishing page. GoPlus estimates $350,000 in losses; Across says all affected users will be repaid.
+label: Security
+summary: Hackers hijacked crypto bridge Across's website through its domain registrar and drained an estimated $350,000. Across says affected users will be made whole.
+===
+
+Across Protocol, one of the busiest crypto "bridges" for moving tokens between blockchains, lost control of its website for several hours on Tuesday, Nov. 10. Attackers took over its web address, <strong>across.to</strong>, and replaced the real site with a fake one built to empty visitors' wallets. Security firm GoPlus estimates users lost about <strong>$350,000</strong>, according to [The Block](L1).
+
+On Wednesday, Across said the domain was back under its control and all systems were working normally. "All affected users will be made whole. We'll share a full post-mortem in the coming days," the team said on X, as reported by [Cointelegraph](L2).
+
+!takeaways
+- At about 18:45 UTC on Nov. 10, attackers gained control of across.to through a social engineering attack on domain registrar Namecheap, Across said.
+- The fake site asked visitors to sign token approvals and permits that let attackers move their tokens.
+- GoPlus estimates losses at about $350,000 on Ethereum, Arbitrum, Base, BNB Chain, Ink and Plasma. Across has not confirmed a total.
+- The attack hit the website's domain, not the bridge's smart contracts. Across says third-party integrations and API users were not affected, and it promises to repay victims.
+
+## What happened
+
+The attackers did not break the bridge's code. Instead, they went after the company that registers the across.to name. Across said a social engineering attack on its registrar, Namecheap, gave the attacker control of the domain at about 18:45 UTC, or 12:45 p.m. Central time. Whoever controls a domain decides which server it points to, so visitors typing the correct address landed on a phishing page that looked like the real app.
+
+Across said it was alerted within 15 minutes and moved to shut the site down. The security response group SEAL911 helped get across.to flagged as a phishing site in major wallets, and Cloudflare marked the domain as risky and later removed its DNS records, which made the fake site unreachable. Across later thanked Namecheap founder Richard Kirkendall for helping it recover the account and opening an investigation, [crypto.news](L3) reported.
+
+!figure:timeline
+
+## How the money was taken
+
+According to GoPlus, the fake page tricked people into signing token approvals or "permits." An approval is a permission you give a smart contract to move a certain token from your wallet. Real apps ask for them all the time, which is why they are easy to fake. Once signed, an approval can let the attacker pull tokens later without asking again.
+
+Before the domain was recovered, several users posted on X about their losses. One said they lost $9,000 in USDC, and another reported losing 7,053 USDT0 on the Plasma network, according to [Cointelegraph](L4), which said it had not verified the claims. Across has not disclosed how many people were affected.
+
+!mid_cta
+
+## Why this matters
+
+Across is not a small project. It ranked third among cross-chain bridges by 30-day transfer volume, behind Circle and LayerZero, having processed about $5.9 billion over that period, according to DefiLlama data cited by Cointelegraph. The attack shows that even when an app's code is sound, the plain web address in front of it can be a weak point.
+
+It also adds to a costly year. DefiLlama data shows about $8.78 billion lost across 341 crypto hacks and exploits so far in 2026, led by a $6.36 billion breach at Binance, The Block reported.
+
+!figure:fact
+
+## What to do if you used across.to on Nov. 10
+
+Across's guidance applies to anyone who connected a wallet, approved a token, signed a message or sent a transaction on across.to that day:
+
+- Review the token approvals your wallet granted on Nov. 10 and revoke any you do not recognize. Across pointed users to the approval checker Revoke.cash.
+- Remember that revoking stops future transfers but cannot undo ones that already happened.
+- Send transaction details only to Across's official accounts, and ignore direct messages from people claiming to be its support team.
+
+## What it means for beginners
+
+Most beginners never use a bridge. Still, the lesson applies to every crypto app: a familiar address is not proof that a site is safe, and a wallet pop-up that asks for "approval" deserves a careful read. Bookmark the sites you use, take wallet warnings seriously, and never sign a request you do not understand.
+
+Some newcomers prefer to start with a large regulated exchange such as [Coinbase](REF), where you buy crypto with a bank account and do not sign smart contract approvals. That trades one risk for another, since the company then holds your coins. This is not investment advice.
+
+## What to watch next
+
+- Across's promised post-mortem on how the domain was taken over.
+- A confirmed loss total and details of how victims will be repaid.
+- Whether Namecheap explains how the social engineering attack worked.
+
+!soft: New to wallets? Read our guide to [custodial vs. self-custody wallets](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

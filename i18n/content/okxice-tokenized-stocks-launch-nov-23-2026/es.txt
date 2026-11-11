@@ -1,0 +1,62 @@
+title: OKX e ICE, dueña de la Bolsa de Nueva York, fijan el 23 de noviembre para lanzar el trading 24/7 de acciones tokenizadas en EE. UU.
+page_title: OKXICE lanzará el trading de acciones tokenizadas el 23 de noviembre
+description: OKXICE, empresa conjunta de OKX y de ICE, dueña de la NYSE, dice que su plataforma de acciones en blockchain abre el 23 de noviembre con más de 70 activos, entre ellos Coinbase, Circle y Strategy. Así funciona.
+og_description: OKXICE abrirá el trading 24 horas de acciones estadounidenses tokenizadas a las 9 a. m. (hora del Este) del 23 de noviembre con más de 70 activos, después de que 56 de las 62 empresas que propuso al principio se opusieran.
+label: Empresas
+summary: OKX e ICE, dueña de la NYSE, abrirán el 23 de noviembre el trading 24/7 de acciones tokenizadas de EE. UU., con Coinbase, Circle, Strategy y 59 ETF de Direxion entre más de 70 activos.
+===
+
+El exchange cripto OKX e Intercontinental Exchange (ICE), la empresa dueña de la Bolsa de Nueva York, abrirán en EE. UU. una plataforma de negociación de acciones basada en blockchain el <strong>lunes 23 de noviembre</strong>. Su empresa conjunta, OKXICE, anunció el miércoles que su Tokenized Securities Venue empezará a operar a las <strong>9 a. m., hora del Este</strong>, según [Unchained](L2).
+
+OKXICE dice haber confirmado <strong>más de 70 activos</strong> para negociar a todas horas, entre ellos acciones tokenizadas de Coinbase, Circle, Robinhood y Strategy, además de <strong>59</strong> fondos cotizados (ETF) de Direxion. Un portavoz indicó que no todos estarán disponibles el primer día, informó [CoinDesk](L1).
+
+!takeaways
+- OKXICE, propiedad al 50 % de ICE y de la sociedad estadounidense de OKX, abre su plataforma de acciones tokenizadas a las 9 a. m. (hora del Este) del 23 de noviembre.
+- Hay más de 70 activos confirmados, entre ellos Coinbase, Circle, Robinhood, Strategy, BitGo, Securitize, Better.com y 59 ETF de Direxion.
+- De las 62 empresas que OKXICE propuso al principio, 56 se opusieron, según el recuento de CoinDesk; las objeciones totales llegaron a 67, incluidas Apple, Microsoft, Nvidia, Amazon y Tesla.
+- Al principio solo podrán operar clientes elegibles de OKX Inc. en EE. UU. que superen la verificación de identidad, y los tokens quedarán en sus propias billeteras.
+
+## Qué es una acción tokenizada
+
+Una acción tokenizada es un token digital en una blockchain que representa una acción real. En este caso, cada token es un "derecho sobre un valor" (security entitlement) respaldado uno a uno por una acción estadounidense, según el aviso público de noviembre de la empresa. Securitize se encarga de la tokenización y los tenedores conservan derechos de accionista como dividendos, voto y participación en operaciones corporativas, dijeron las compañías.
+
+Las operaciones no pasarán por un libro de órdenes clásico. Se harán mediante fondos automatizados de tokens y stablecoins en Uniswap v4, sobre X Layer, la red de OKX construida encima de Ethereum. Solo las billeteras aprobadas podrán operar o aportar dinero a esos fondos. OKXICE dijo que no custodiará los activos ni las claves privadas de los clientes.
+
+!figure:chart
+
+## Por qué puede lanzarse ahora
+
+OKXICE opera bajo la "exención de innovación" de la SEC, una orden de cinco años emitida el 17 de septiembre que permite a estas plataformas negociar acciones tokenizadas sin registrarse como bolsas tradicionales. Según CoinDesk, OKXICE será la segunda plataforma en lanzarse dentro del programa, después de una basada en Canton a principios de este mes.
+
+"El futuro de las finanzas es onchain, y tenemos la oportunidad de construirlo aquí, en Estados Unidos, con los estándares, las salvaguardas y la ambición que esperan los inversores", dijo el copresidente de OKXICE y exgobernador de Nueva York Andrew Cuomo, citado por [The Block](L3).
+
+!mid_cta
+
+## Muchas grandes empresas dijeron que no
+
+Las reglas dan a una empresa 30 días naturales para oponerse cuando una firma ajena quiere tokenizar sus acciones. Muchas lo hicieron. De las 62 empresas de la lista original de OKXICE, 56, alrededor del 90 %, se opusieron, según CoinDesk. El [aviso público](L4) de la empresa fechado el 5 de noviembre recoge 67 emisores que se habían opuesto hasta entonces, algunos fuera de la primera lista.
+
+Una de las compañías que se excluyó, Applied Optoelectronics, dijo al Wall Street Journal que no tenía claro cómo afectaría la tokenización al precio, la liquidez y la volatilidad de sus acciones, informó The Block. Nasdaq, que prepara sus propios planes de tokenización con Kraken, dijo que excluirá sus propias acciones de este tipo de plataformas. Su director jurídico, John Zecca, advirtió de que la exención permite negociar acciones tokenizadas fuera del sistema nacional de mercado regulado.
+
+Por eso, la oferta inicial se inclina hacia empresas ya ligadas al mundo cripto, más los fondos de Direxion. Direxion gestiona unos 70.000 millones de dólares en activos, según CoinDesk.
+
+!figure:fact
+
+## Qué significa para principiantes
+
+Esto no es lo mismo que comprar bitcoin. Una acción tokenizada sigue siendo una acción, con los riesgos habituales, solo que se negocia sobre una blockchain y fuera del horario normal de mercado. Las plataformas nuevas también pueden tener menos compradores y vendedores, lo que puede ampliar las diferencias de precio. El acceso es limitado al principio y tendrías que gestionar tu propia billetera.
+
+Si tu objetivo es simplemente tener un poco de bitcoin, un exchange regulado como [Coinbase](REF) permite a clientes de EE. UU. comprar con una cuenta bancaria; revisa antes las comisiones y condiciones vigentes. Esto no es asesoramiento de inversión.
+
+## Qué vigilar
+
+- Cuántos de los más de 70 activos se negocian realmente el 23 de noviembre.
+- El volumen y las diferencias de precio frente a las mismas acciones en las bolsas habituales.
+- Si más empresas se oponen, o se suman, en las próximas semanas.
+- Cualquier cambio de la SEC en la exención de innovación tras los primeros lanzamientos.
+
+!soft: ¿Te preguntas cómo encaja lo cripto en una cuenta de bolsa? Lee nuestra guía sobre [ETF de bitcoin frente a comprar bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

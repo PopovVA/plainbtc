@@ -1,0 +1,62 @@
+title: OKX dan ICE, pemilik NYSE, tetapkan 23 November untuk peluncuran perdagangan saham tokenisasi 24/7 di AS
+page_title: OKXICE luncurkan perdagangan saham tokenisasi pada 23 November
+description: OKXICE, usaha patungan OKX dan ICE pemilik NYSE, mengatakan platform saham berbasis blockchain-nya dibuka 23 November dengan lebih dari 70 aset, termasuk Coinbase, Circle, dan Strategy. Begini cara kerjanya.
+og_description: OKXICE akan membuka perdagangan 24 jam saham AS yang ditokenisasi pada 23 November pukul 09.00 waktu Timur AS dengan lebih dari 70 aset, setelah 56 dari 62 perusahaan yang awalnya diusulkan menyatakan keberatan.
+label: Bisnis
+summary: OKX dan ICE, pemilik NYSE, membuka perdagangan 24/7 saham AS yang ditokenisasi pada 23 November, dengan Coinbase, Circle, Strategy, dan 59 ETF Direxion di antara lebih dari 70 aset.
+===
+
+Bursa kripto OKX dan Intercontinental Exchange (ICE), perusahaan pemilik Bursa Efek New York, akan membuka platform perdagangan saham berbasis blockchain di AS pada <strong>Senin, 23 November</strong>. Usaha patungan keduanya, OKXICE, mengatakan pada Rabu bahwa Tokenized Securities Venue miliknya akan mulai beroperasi pukul <strong>9 pagi waktu Timur AS</strong>, menurut [Unchained](L2).
+
+OKXICE mengatakan telah mengonfirmasi <strong>lebih dari 70 aset</strong> untuk diperdagangkan sepanjang waktu, termasuk saham tokenisasi Coinbase, Circle, Robinhood, dan Strategy, ditambah <strong>59</strong> reksa dana yang diperdagangkan di bursa (ETF) dari Direxion. Seorang juru bicara mengatakan tidak semuanya tersedia di hari pertama, lapor [CoinDesk](L1).
+
+!takeaways
+- OKXICE, yang dimiliki 50/50 oleh ICE dan perusahaan induk OKX di AS, membuka platform saham tokenisasinya pada 23 November pukul 9 pagi waktu Timur AS.
+- Lebih dari 70 aset telah dikonfirmasi, termasuk Coinbase, Circle, Robinhood, Strategy, BitGo, Securitize, Better.com, dan 59 ETF Direxion.
+- Dari 62 perusahaan yang awalnya diusulkan OKXICE, 56 menyatakan keberatan menurut hitungan CoinDesk; total keberatan mencapai 67, termasuk Apple, Microsoft, Nvidia, Amazon, dan Tesla.
+- Pada awalnya, hanya nasabah OKX Inc. di AS yang memenuhi syarat dan lolos verifikasi identitas yang bisa berdagang, dan token tetap berada di dompet mereka sendiri.
+
+## Apa itu saham tokenisasi
+
+Saham tokenisasi adalah token digital di blockchain yang mewakili saham sungguhan. Di sini, setiap token adalah "hak atas efek" (security entitlement) yang dijamin satu banding satu oleh saham AS, menurut pemberitahuan publik usaha patungan itu pada November. Securitize menangani tokenisasi, dan pemegang tetap memiliki hak pemegang saham seperti dividen, hak suara, dan ikut serta dalam aksi korporasi, kata perusahaan-perusahaan tersebut.
+
+Perdagangan tidak akan berjalan lewat buku pesanan klasik. Transaksi dilakukan melalui kumpulan (pool) token dan stablecoin otomatis di Uniswap v4 yang berjalan di X Layer, jaringan OKX yang dibangun di atas Ethereum. Hanya dompet yang disetujui yang bisa berdagang atau menambahkan dana ke pool. OKXICE mengatakan tidak akan menyimpan aset atau kunci privat nasabah.
+
+!figure:chart
+
+## Mengapa peluncuran bisa dilakukan sekarang
+
+OKXICE beroperasi di bawah "pengecualian inovasi" SEC, perintah lima tahun yang diterbitkan 17 September yang memungkinkan platform semacam ini memperdagangkan saham tokenisasi tanpa mendaftar sebagai bursa tradisional. Menurut CoinDesk, OKXICE akan menjadi platform kedua yang diluncurkan dalam program ini, setelah platform berbasis Canton awal bulan ini.
+
+"Masa depan keuangan ada di onchain, dan kita punya kesempatan membangunnya di sini, di Amerika, dengan standar, perlindungan, dan ambisi yang diharapkan investor," kata salah satu ketua OKXICE sekaligus mantan Gubernur New York Andrew Cuomo, seperti dikutip [The Block](L3).
+
+!mid_cta
+
+## Banyak perusahaan besar menolak
+
+Aturan memberi perusahaan waktu 30 hari kalender untuk menyatakan keberatan jika firma yang tidak terkait ingin menokenisasi sahamnya. Banyak yang melakukannya. Dari 62 perusahaan di daftar awal OKXICE, 56 atau sekitar 90% menyatakan keberatan, menurut CoinDesk. [Pemberitahuan publik](L4) usaha patungan itu tertanggal 5 November mencantumkan 67 emiten yang telah keberatan hingga saat itu, termasuk beberapa di luar daftar pertama.
+
+Salah satu perusahaan yang memilih keluar, Applied Optoelectronics, mengatakan kepada Wall Street Journal bahwa mereka tidak yakin bagaimana tokenisasi akan memengaruhi harga, likuiditas, dan volatilitas sahamnya, lapor The Block. Nasdaq, yang menyiapkan rencana tokenisasi sendiri bersama Kraken, mengatakan akan mengecualikan sahamnya sendiri dari platform semacam itu. Kepala bagian hukumnya, John Zecca, memperingatkan bahwa pengecualian itu memungkinkan saham tokenisasi diperdagangkan di luar sistem pasar nasional yang diatur.
+
+Akibatnya, daftar peluncuran condong ke perusahaan yang sudah terkait kripto, ditambah reksa dana Direxion. Direxion mengelola aset sekitar US$70 miliar, menurut CoinDesk.
+
+!figure:fact
+
+## Artinya bagi pemula
+
+Ini tidak sama dengan membeli bitcoin. Saham tokenisasi tetap saham dengan risiko saham pada umumnya, hanya saja diperdagangkan di atas blockchain dan di luar jam pasar normal. Platform baru juga bisa punya lebih sedikit pembeli dan penjual, sehingga selisih harga bisa melebar. Akses masih terbatas di awal, dan Anda harus mengelola dompet sendiri.
+
+Jika tujuan Anda hanya memiliki sedikit bitcoin, bursa teregulasi seperti [Coinbase](REF) memungkinkan nasabah AS membeli dengan rekening bank; periksa dulu biaya dan ketentuan terbaru. Ini bukan saran investasi.
+
+## Yang perlu dipantau
+
+- Berapa banyak dari lebih dari 70 aset yang benar-benar diperdagangkan pada 23 November.
+- Volume perdagangan dan selisih harga dibanding saham yang sama di bursa biasa.
+- Apakah lebih banyak perusahaan keberatan, atau justru bergabung, dalam beberapa minggu ke depan.
+- Perubahan apa pun dari SEC pada pengecualian inovasi setelah peluncuran awal.
+
+!soft: Penasaran bagaimana kripto masuk ke rekening efek? Baca panduan kami tentang [ETF bitcoin vs. membeli bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

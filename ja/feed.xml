@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 10 Nov 2026 19:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>暗号資産ブリッジAcrossのサイトがドメイン登録業者経由で乗っ取られ、約35万ドルが流出</title>
+      <link>https://plainbtc.com/ja/articles/across-protocol-domain-hijack-phishing-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/across-protocol-domain-hijack-phishing-nov-2026</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+      <category>セキュリティ</category>
+      <description>暗号資産ブリッジAcrossのサイトがドメイン登録業者経由で乗っ取られ、推定35万ドルが流出。Acrossは被害者に全額補償するとしています。</description>
+    </item>
+    <item>
+      <title>OKXとNYSE親会社ICE、米国でのトークン化株式の24時間取引を11月23日に開始へ</title>
+      <link>https://plainbtc.com/ja/articles/okxice-tokenized-stocks-launch-nov-23-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/okxice-tokenized-stocks-launch-nov-23-2026</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+      <category>ビジネス</category>
+      <description>OKXとNYSE親会社ICEが11月23日、米国株のトークン化版の24時間取引を開始。70超の銘柄にはCoinbase、Circle、StrategyやDirexionのETF59本が含まれます。</description>
+    </item>
     <item>
       <title>ビットコイン、8月以来初めて73,000ドルを割り込む　米国債利回りが急上昇</title>
       <link>https://plainbtc.com/ja/articles/bitcoin-below-73000-lowest-since-august-nov-2026</link>

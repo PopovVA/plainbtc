@@ -32,6 +32,16 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "across-protocol-domain-hijack-phishing-nov-2026",
+        "Hackers hijack crypto bridge Across's website; about $350,000 drained",
+        "SECURITY",
+    ),
+    (
+        "okxice-tokenized-stocks-launch-nov-23-2026",
+        "OKX and NYSE owner ICE set Nov. 23 launch for tokenized stock trading",
+        "BUSINESS",
+    ),
+    (
         "bitcoin-below-73000-lowest-since-august-nov-2026",
         "Bitcoin drops below $73,000 for the first time since August",
         "MARKET NEWS",

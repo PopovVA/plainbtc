@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/fr/</link>
     <description>L’actualité du bitcoin et des cryptos en langage clair, pour les débutants</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 10 Nov 2026 19:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/fr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Des pirates détournent le site du pont crypto Across via son registraire de noms de domaine ; environ 350 000 $ siphonnés</title>
+      <link>https://plainbtc.com/fr/articles/across-protocol-domain-hijack-phishing-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/across-protocol-domain-hijack-phishing-nov-2026</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Sécurité</category>
+      <description>Des pirates ont détourné le site du pont crypto Across via son registraire et siphonné environ 350 000 $. Across promet d'indemniser les utilisateurs touchés.</description>
+    </item>
+    <item>
+      <title>OKX et ICE, propriétaire du NYSE, fixent au 23 novembre le lancement du trading 24 h/24 d'actions tokenisées aux États-Unis</title>
+      <link>https://plainbtc.com/fr/articles/okxice-tokenized-stocks-launch-nov-23-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/okxice-tokenized-stocks-launch-nov-23-2026</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Entreprises</category>
+      <description>OKX et ICE, propriétaire du NYSE, ouvriront le 23 novembre le trading 24 h/24 d'actions américaines tokenisées, avec Coinbase, Circle, Strategy et 59 ETF Direxion parmi plus de 70 actifs.</description>
+    </item>
     <item>
       <title>Le bitcoin passe sous 73 000 $ pour la première fois depuis août, sur fond de flambée des rendements obligataires</title>
       <link>https://plainbtc.com/fr/articles/bitcoin-below-73000-lowest-since-august-nov-2026</link>

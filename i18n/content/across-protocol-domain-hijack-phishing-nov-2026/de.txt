@@ -1,0 +1,67 @@
+title: Hacker kapern Website der Krypto-Bridge Across über ihren Domain-Registrar; rund 350.000 $ abgezogen
+page_title: Website von Across Protocol gekapert, rund 350.000 $ abgezogen
+description: Angreifer übernahmen am 10. November die Domain across.to und schalteten eine gefälschte Seite, die geschätzt 350.000 $ aus Nutzer-Wallets abzog. Across will die Opfer entschädigen. Das sollten Sie prüfen.
+og_description: Ein Social-Engineering-Angriff auf den Registrar Namecheap ließ across.to auf eine Phishing-Seite zeigen. GoPlus schätzt den Schaden auf 350.000 $; Across will alle Betroffenen entschädigen.
+label: Sicherheit
+summary: Hacker kaperten die Website der Krypto-Bridge Across über ihren Domain-Registrar und zogen geschätzt 350.000 $ ab. Across will Betroffene vollständig entschädigen.
+===
+
+Across Protocol, eine der meistgenutzten Krypto-„Bridges“ zum Übertragen von Token zwischen Blockchains, verlor am Dienstag, dem 10. November, für mehrere Stunden die Kontrolle über seine Website. Angreifer übernahmen die Webadresse <strong>across.to</strong> und ersetzten die echte Seite durch eine Fälschung, die die Wallets der Besucher leeren sollte. Die Sicherheitsfirma GoPlus schätzt die Verluste der Nutzer auf rund <strong>350.000 $</strong>, berichtet [The Block](L1).
+
+Am Mittwoch teilte Across mit, die Domain sei wieder unter eigener Kontrolle und alle Systeme liefen normal. „Alle betroffenen Nutzer werden entschädigt. Eine vollständige Analyse veröffentlichen wir in den kommenden Tagen“, schrieb das Team laut [Cointelegraph](L2) auf X.
+
+!takeaways
+- Gegen 18:45 UTC am 10. November übernahmen Angreifer across.to durch einen Social-Engineering-Angriff auf den Domain-Registrar Namecheap, so Across.
+- Die gefälschte Seite forderte Besucher auf, Token-Freigaben und Permits zu signieren, mit denen die Angreifer ihre Token bewegen konnten.
+- GoPlus schätzt die Verluste auf rund 350.000 $ auf Ethereum, Arbitrum, Base, BNB Chain, Ink und Plasma. Across hat keine Gesamtsumme bestätigt.
+- Der Angriff traf die Domain der Website, nicht die Smart Contracts der Bridge. Laut Across waren Drittanbieter-Integrationen und API-Nutzer nicht betroffen; die Opfer sollen entschädigt werden.
+
+## Was passiert ist
+
+Die Angreifer knackten nicht den Code der Bridge. Sie nahmen sich das Unternehmen vor, bei dem der Name across.to registriert ist. Laut Across verschaffte ein Social-Engineering-Angriff auf den Registrar Namecheap dem Angreifer gegen 18:45 UTC die Kontrolle über die Domain, also um 12:45 Uhr US-Central-Time. Wer eine Domain kontrolliert, bestimmt, auf welchen Server sie zeigt. Wer die korrekte Adresse eintippte, landete deshalb auf einer Phishing-Seite, die wie die echte App aussah.
+
+Across erklärte, innerhalb von 15 Minuten alarmiert worden zu sein und sofort versucht zu haben, die Seite abzuschalten. Die Sicherheitsgruppe SEAL911 half dabei, across.to in den großen Wallets als Phishing-Seite markieren zu lassen, und Cloudflare stufte die Domain als gefährlich ein und entfernte später ihre DNS-Einträge, wodurch die Fälschung nicht mehr erreichbar war. Später dankte Across Namecheap-Gründer Richard Kirkendall dafür, beim Zurückholen des Kontos geholfen und eine Untersuchung eingeleitet zu haben, berichtete [crypto.news](L3).
+
+!figure:timeline
+
+## Wie das Geld abgezogen wurde
+
+Laut GoPlus verleitete die gefälschte Seite Menschen dazu, Token-Freigaben oder „Permits“ zu signieren. Eine Freigabe ist eine Erlaubnis für einen Smart Contract, einen bestimmten Token aus Ihrer Wallet zu bewegen. Echte Apps fragen ständig danach, deshalb lassen sie sich leicht fälschen. Einmal signiert, kann eine Freigabe dem Angreifer erlauben, später Token abzuziehen, ohne erneut zu fragen.
+
+Bevor die Domain zurückgeholt wurde, berichteten mehrere Nutzer auf X von Verlusten. Einer gab an, 9.000 $ in USDC verloren zu haben, ein anderer 7.053 USDT0 im Plasma-Netzwerk, so [Cointelegraph](L4); das Portal konnte die Angaben nicht überprüfen. Wie viele Menschen betroffen sind, hat Across nicht mitgeteilt.
+
+!mid_cta
+
+## Warum das wichtig ist
+
+Across ist kein kleines Projekt. Gemessen am Transfervolumen über 30 Tage lag es unter den Cross-Chain-Bridges auf Platz drei hinter Circle und LayerZero und wickelte in diesem Zeitraum rund 5,9 Milliarden Dollar ab, laut DefiLlama-Daten, die Cointelegraph zitiert. Der Angriff zeigt: Selbst wenn der Code einer App solide ist, kann die schlichte Webadresse davor eine Schwachstelle sein.
+
+Zudem reiht er sich in ein teures Jahr ein. DefiLlama-Daten zufolge gingen 2026 bisher rund 8,78 Milliarden Dollar bei 341 Krypto-Hacks und Exploits verloren, angeführt von einem Einbruch bei Binance über 6,36 Milliarden, berichtete The Block.
+
+!figure:fact
+
+## Was tun, wenn Sie across.to am 10. November genutzt haben
+
+Die Hinweise von Across gelten für alle, die an diesem Tag auf across.to eine Wallet verbunden, einen Token freigegeben, eine Nachricht signiert oder eine Transaktion gesendet haben:
+
+- Prüfen Sie die Token-Freigaben, die Ihre Wallet am 10. November erteilt hat, und widerrufen Sie alle, die Sie nicht kennen. Across verwies auf das Prüfwerkzeug Revoke.cash.
+- Denken Sie daran: Ein Widerruf stoppt künftige Transfers, macht aber bereits erfolgte nicht rückgängig.
+- Schicken Sie Transaktionsdetails nur an offizielle Across-Konten und ignorieren Sie Direktnachrichten angeblicher Support-Mitarbeiter.
+
+## Was das für Einsteiger bedeutet
+
+Die meisten Einsteiger nutzen nie eine Bridge. Die Lehre gilt trotzdem für jede Krypto-App: Eine vertraute Adresse beweist nicht, dass eine Seite sicher ist, und ein Wallet-Fenster, das eine „Freigabe“ verlangt, verdient genaues Lesen. Speichern Sie genutzte Seiten als Lesezeichen, nehmen Sie Wallet-Warnungen ernst und signieren Sie nie eine Anfrage, die Sie nicht verstehen.
+
+Manche Neulinge starten lieber bei einer großen regulierten Börse wie [Coinbase](REF), wo man Krypto per Bankkonto kauft und keine Smart-Contract-Freigaben signiert. Damit tauscht man ein Risiko gegen ein anderes, denn dann verwahrt das Unternehmen die Coins. Dies ist keine Anlageberatung.
+
+## Worauf man achten sollte
+
+- Die angekündigte Analyse von Across, wie die Domain übernommen wurde.
+- Eine bestätigte Schadenssumme und Details zur Entschädigung der Opfer.
+- Ob Namecheap erklärt, wie der Social-Engineering-Angriff ablief.
+
+!soft: Neu bei Wallets? Lesen Sie unseren Leitfaden zu [verwahrten und selbstverwahrten Wallets](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

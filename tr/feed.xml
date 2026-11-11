@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Tue, 10 Nov 2026 19:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Hackerlar kripto köprüsü Across'un sitesini alan adı kayıt şirketi üzerinden ele geçirdi; yaklaşık 350.000 $ çalındı</title>
+      <link>https://plainbtc.com/tr/articles/across-protocol-domain-hijack-phishing-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/across-protocol-domain-hijack-phishing-nov-2026</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Güvenlik</category>
+      <description>Hackerlar kripto köprüsü Across'un sitesini alan adı kayıt şirketi üzerinden ele geçirip tahminen 350.000 $ çaldı. Across etkilenenlerin zararını karşılayacağını söylüyor.</description>
+    </item>
+    <item>
+      <title>OKX ve NYSE'nin sahibi ICE, ABD'de 7/24 tokenize hisse işlemleri için 23 Kasım'ı lansman tarihi olarak belirledi</title>
+      <link>https://plainbtc.com/tr/articles/okxice-tokenized-stocks-launch-nov-23-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/okxice-tokenized-stocks-launch-nov-23-2026</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+      <category>İş dünyası</category>
+      <description>OKX ve NYSE'nin sahibi ICE, 23 Kasım'da tokenize ABD hisselerinde 7/24 işlemleri başlatıyor; 70'ten fazla varlık arasında Coinbase, Circle, Strategy ve 59 Direxion ETF'i var.</description>
+    </item>
     <item>
       <title>Bitcoin, tahvil getirileri fırlarken ağustostan bu yana ilk kez 73.000 $'ın altına indi</title>
       <link>https://plainbtc.com/tr/articles/bitcoin-below-73000-lowest-since-august-nov-2026</link>

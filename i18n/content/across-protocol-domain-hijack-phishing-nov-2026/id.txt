@@ -1,0 +1,67 @@
+title: Peretas membajak situs jembatan kripto Across lewat registrar domainnya; sekitar US$350.000 dikuras
+page_title: Situs Across Protocol dibajak, sekitar US$350.000 dikuras
+description: Penyerang mengambil alih domain across.to pada 10 November dan memasang situs palsu yang menguras sekitar US$350.000 dari dompet pengguna. Across berjanji mengganti kerugian korban. Ini yang perlu dicek.
+og_description: Serangan rekayasa sosial terhadap registrar Namecheap membuat across.to diarahkan ke halaman phishing. GoPlus memperkirakan kerugian US$350.000; Across berjanji mengganti dana semua korban.
+label: Keamanan
+summary: Peretas membajak situs jembatan kripto Across lewat registrar domainnya dan menguras sekitar US$350.000. Across berjanji mengganti kerugian pengguna yang terdampak.
+===
+
+Across Protocol, salah satu "jembatan" kripto tersibuk untuk memindahkan token antar-blockchain, kehilangan kendali atas situs webnya selama beberapa jam pada Selasa, 10 November. Penyerang mengambil alih alamat webnya, <strong>across.to</strong>, dan mengganti situs asli dengan situs palsu yang dirancang untuk mengosongkan dompet pengunjung. Firma keamanan GoPlus memperkirakan pengguna kehilangan sekitar <strong>US$350.000</strong>, menurut [The Block](L1).
+
+Pada Rabu, Across mengatakan domain itu sudah kembali di bawah kendalinya dan semua sistem berjalan normal. "Semua pengguna yang terdampak akan mendapat penggantian penuh. Kami akan membagikan laporan lengkap dalam beberapa hari ke depan," tulis tim di X, seperti dilaporkan [Cointelegraph](L2).
+
+!takeaways
+- Sekitar pukul 18.45 UTC pada 10 November, penyerang menguasai across.to lewat serangan rekayasa sosial terhadap registrar domain Namecheap, kata Across.
+- Situs palsu meminta pengunjung menandatangani persetujuan token dan izin (permit) yang membuat penyerang bisa memindahkan token mereka.
+- GoPlus memperkirakan kerugian sekitar US$350.000 di Ethereum, Arbitrum, Base, BNB Chain, Ink, dan Plasma. Across belum mengonfirmasi totalnya.
+- Serangan menyasar domain situs, bukan kontrak pintar jembatan. Menurut Across, integrasi pihak ketiga dan pengguna API tidak terdampak, dan korban akan mendapat penggantian.
+
+## Apa yang terjadi
+
+Penyerang tidak membobol kode jembatan. Mereka mengincar perusahaan yang mendaftarkan nama across.to. Across mengatakan serangan rekayasa sosial terhadap registrarnya, Namecheap, memberi penyerang kendali atas domain sekitar pukul 18.45 UTC, atau 12.45 waktu Central AS. Siapa pun yang menguasai domain menentukan server tujuannya, sehingga pengunjung yang mengetik alamat yang benar justru mendarat di halaman phishing yang mirip aplikasi aslinya.
+
+Across mengatakan menerima peringatan dalam 15 menit dan segera berupaya mematikan situs. Kelompok respons keamanan SEAL911 membantu agar across.to ditandai sebagai situs phishing di dompet-dompet besar, sementara Cloudflare menandai domain itu berisiko lalu menghapus catatan DNS-nya sehingga situs palsu tak bisa diakses. Belakangan Across berterima kasih kepada pendiri Namecheap, Richard Kirkendall, yang membantu memulihkan akun dan membuka penyelidikan, lapor [crypto.news](L3).
+
+!figure:timeline
+
+## Bagaimana dana diambil
+
+Menurut GoPlus, halaman palsu itu mengelabui orang agar menandatangani persetujuan token atau "permit". Persetujuan adalah izin yang Anda berikan kepada kontrak pintar untuk memindahkan token tertentu dari dompet Anda. Aplikasi asli memintanya setiap saat, karena itu mudah dipalsukan. Setelah ditandatangani, persetujuan bisa memungkinkan penyerang menarik token di kemudian hari tanpa meminta izin lagi.
+
+Sebelum domain dipulihkan, beberapa pengguna menceritakan kerugian mereka di X. Seorang pengguna mengaku kehilangan US$9.000 dalam USDC, dan yang lain melaporkan kehilangan 7.053 USDT0 di jaringan Plasma, menurut [Cointelegraph](L4), yang menyatakan belum memverifikasi klaim tersebut. Across belum mengungkap berapa orang yang terdampak.
+
+!mid_cta
+
+## Mengapa ini penting
+
+Across bukan proyek kecil. Jembatan ini berada di peringkat ketiga di antara jembatan lintas-chain berdasarkan volume transfer 30 hari, di belakang Circle dan LayerZero, dengan sekitar US$5,9 miliar diproses dalam periode itu, menurut data DefiLlama yang dikutip Cointelegraph. Serangan ini menunjukkan bahwa meski kode aplikasi kuat, alamat web di depannya bisa menjadi titik lemah.
+
+Insiden ini juga menambah panjang tahun yang mahal. Data DefiLlama menunjukkan sekitar US$8,78 miliar hilang dalam 341 peretasan dan eksploitasi kripto sepanjang 2026, dipimpin pembobolan Binance senilai US$6,36 miliar, lapor The Block.
+
+!figure:fact
+
+## Yang perlu dilakukan jika Anda memakai across.to pada 10 November
+
+Panduan Across berlaku bagi siapa pun yang pada hari itu menghubungkan dompet, menyetujui token, menandatangani pesan, atau mengirim transaksi di across.to:
+
+- Periksa persetujuan token yang diberikan dompet Anda pada 10 November dan cabut yang tidak Anda kenali. Across mengarahkan pengguna ke alat pemeriksa persetujuan Revoke.cash.
+- Ingat bahwa pencabutan menghentikan transfer berikutnya, tetapi tidak membatalkan yang sudah terjadi.
+- Kirim detail transaksi hanya ke akun resmi Across, dan abaikan pesan pribadi dari orang yang mengaku tim dukungan.
+
+## Artinya bagi pemula
+
+Kebanyakan pemula tidak pernah memakai jembatan. Namun pelajarannya berlaku untuk setiap aplikasi kripto: alamat yang familier bukan bukti bahwa situs aman, dan jendela dompet yang meminta "persetujuan" perlu dibaca dengan saksama. Simpan situs yang Anda pakai di bookmark, tanggapi serius peringatan dompet, dan jangan pernah menandatangani permintaan yang tidak Anda pahami.
+
+Sebagian pendatang baru memilih memulai di bursa besar yang teregulasi seperti [Coinbase](REF), tempat Anda membeli kripto dengan rekening bank tanpa menandatangani persetujuan kontrak pintar. Itu berarti menukar satu risiko dengan risiko lain, karena perusahaan yang menyimpan koin Anda. Ini bukan saran investasi.
+
+## Yang perlu dipantau
+
+- Laporan yang dijanjikan Across tentang cara domain diambil alih.
+- Total kerugian yang terkonfirmasi dan rincian cara korban akan diganti.
+- Apakah Namecheap menjelaskan cara kerja serangan rekayasa sosial itu.
+
+!soft: Baru mengenal dompet? Baca panduan kami tentang [dompet kustodian dan swakelola](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

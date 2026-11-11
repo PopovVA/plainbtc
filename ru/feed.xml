@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Tue, 10 Nov 2026 19:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Хакеры захватили сайт криптомоста Across через регистратора доменов и увели около $350 000</title>
+      <link>https://plainbtc.com/ru/articles/across-protocol-domain-hijack-phishing-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/across-protocol-domain-hijack-phishing-nov-2026</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Безопасность</category>
+      <description>Хакеры захватили сайт криптомоста Across через регистратора доменов и украли около $350 000. Across обещает полностью компенсировать потери пострадавшим.</description>
+    </item>
+    <item>
+      <title>OKX и владелец NYSE компания ICE назначили на 23 ноября запуск круглосуточной торговли токенизированными акциями в США</title>
+      <link>https://plainbtc.com/ru/articles/okxice-tokenized-stocks-launch-nov-23-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/okxice-tokenized-stocks-launch-nov-23-2026</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Бизнес</category>
+      <description>OKX и владелец NYSE компания ICE 23 ноября откроют круглосуточную торговлю токенизированными акциями США: среди более чем 70 активов — Coinbase, Circle, Strategy и 59 ETF Direxion.</description>
+    </item>
     <item>
       <title>Биткоин впервые с августа опустился ниже $73 000 на фоне скачка доходности облигаций</title>
       <link>https://plainbtc.com/ru/articles/bitcoin-below-73000-lowest-since-august-nov-2026</link>

@@ -510,6 +510,68 @@ def thumb_ios_flaw():
     ],"note":"Editorial composite; trademarks belong to their owners."}
 
 
+def thumb_across():
+    """Generated graphic: a browser window on across.to swapped for a fake approval prompt (no third-party imagery)."""
+    base = gradient_bg()
+    d = ImageDraw.Draw(base)
+    # browser window
+    bx, by, bw, bh = 70, 58, 500, 250
+    d.rounded_rectangle([bx, by, bx+bw, by+bh], radius=16, fill=(26,35,50), outline=(45,58,79), width=2)
+    d.rounded_rectangle([bx, by, bx+bw, by+44], radius=16, fill=(36,48,68))
+    d.rectangle([bx, by+28, bx+bw, by+44], fill=(36,48,68))
+    for i,c in enumerate([(248,113,113),(251,191,36),(52,211,153)]):
+        d.ellipse([bx+16+i*20, by+16, bx+28+i*20, by+28], fill=c)
+    # address bar with warning
+    ax0 = bx+90; d.rounded_rectangle([ax0, by+10, bx+bw-16, by+36], radius=12, fill=(15,20,28))
+    d.polygon([(ax0+16, by+15), (ax0+6, by+32), (ax0+26, by+32)], fill=(248,113,113))
+    d.text((ax0+13, by+16), "!", font=font(FONT_B, 13), fill=(15,20,28))
+    d.text((ax0+36, by+14), "across.to", font=font(FONT_B, 15), fill=WHITE)
+    # fake approval prompt
+    px, py = bx+110, by+76
+    d.rounded_rectangle([px, py, px+280, py+150], radius=12, fill=(15,23,42), outline=(248,113,113), width=3)
+    d.text((px+20, py+16), "Signature request", font=font(FONT_B, 17), fill=WHITE)
+    d.text((px+20, py+46), "Approve unlimited token access?", font=font(FONT_R, 13), fill=MUTED)
+    d.rounded_rectangle([px+20, py+86, px+130, py+126], radius=10, fill=(45,58,79))
+    d.text((px+44, py+97), "Reject", font=font(FONT_B, 14), fill=WHITE)
+    d.rounded_rectangle([px+150, py+86, px+260, py+126], radius=10, fill=(248,113,113))
+    d.text((px+168, py+97), "Approve", font=font(FONT_B, 14), fill=(15,20,28))
+    label_chip(base, "Domain hijack · phishing")
+    return base, {"kind":"generated","sources":[
+        {"file":"(generated)","license":"PlainBTC original graphic","url":"","credit":"PlainBTC illustration; no third-party imagery"}
+    ]}
+
+def thumb_okxice():
+    okx = fetch("https://upload.wikimedia.org/wikipedia/commons/2/2c/OKX_logo.svg", CACHE/"okx-logo.svg")
+    ice = fetch("https://upload.wikimedia.org/wikipedia/commons/a/a7/Intercontinental_Exchange_logo.svg", CACHE/"ice-logo.svg")
+    base = gradient_bg()
+    d = ImageDraw.Draw(base)
+    # faint candlestick motif along the bottom
+    import random
+    rnd = random.Random(23); y = 300
+    for x in range(30, W, 26):
+        o = y; y = max(270, min(330, y + rnd.randint(-12, 12))); c = (52,211,153) if y < o else (248,113,113)
+        d.line([(x+6, min(o,y)-8), (x+6, max(o,y)+8)], fill=c, width=1)
+        d.rectangle([x, min(o,y), x+12, max(o,y)+2], fill=c)
+    card_w, card_h, gap, y0 = 220, 170, 60, 56
+    total = 2*card_w+gap; x0 = (W-total)//2
+    for i,(logo,name) in enumerate([(Image.open(okx).convert("RGBA"),"OKX"),(Image.open(ice).convert("RGBA"),"Intercontinental Exchange")]):
+        x = x0+i*(card_w+gap)
+        tile = Image.new("RGB",(card_w,card_h),(255,255,255))
+        mask = Image.new("L",(card_w,card_h),0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
+        base.paste(tile,(x,y0),mask)
+        lg = logo.copy(); bgw = Image.new("RGBA", lg.size, (255,255,255,255)); bgw.paste(lg,(0,0),lg)
+        paste_contain(base, bgw, (x, y0+6, card_w, 122), pad=18)
+        dd = ImageDraw.Draw(base); f = font(FONT_B, 12); bb = dd.textbbox((0,0),name,font=f)
+        dd.text((x+(card_w-(bb[2]-bb[0]))//2, y0+140), name, font=f, fill=(15,23,42))
+    d = ImageDraw.Draw(base); fb = font(FONT_B, 34); bb = d.textbbox((0,0),"+",font=fb)
+    d.text((x0+card_w+(gap-(bb[2]-bb[0]))//2, y0+card_h//2-24), "+", font=fb, fill=ORANGE)
+    label_chip(base, "Tokenized stocks · OKXICE")
+    return base, {"kind":"composite","sources":[
+        {"file":"OKX_logo.svg","license":"Public domain (logo)","url":"https://commons.wikimedia.org/wiki/File:OKX_logo.svg","credit":"OKX"},
+        {"file":"Intercontinental_Exchange_logo.svg","license":"Public domain (logo)","url":"https://commons.wikimedia.org/wiki/File:Intercontinental_Exchange_logo.svg","credit":"Intercontinental Exchange"},
+    ],"note":"Editorial composite; trademarks belong to their owners. Candlestick motif is decorative, not market data."}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -527,6 +589,8 @@ BUILDERS = {
     "banks-270-million-stablecoin-project-faro-nov-2026": thumb_faro,
     "bitcoin-below-73000-lowest-since-august-nov-2026": thumb_btc_below_73k,
     "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026": thumb_ios_flaw,
+    "across-protocol-domain-hijack-phishing-nov-2026": thumb_across,
+    "okxice-tokenized-stocks-launch-nov-23-2026": thumb_okxice,
 }
 
 def first_figure_source(slug: str) -> Path | None:

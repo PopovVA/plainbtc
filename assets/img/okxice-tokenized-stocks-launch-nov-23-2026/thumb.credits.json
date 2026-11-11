@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "OKX_logo.svg",
+      "license": "Public domain (logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:OKX_logo.svg",
+      "credit": "OKX"
+    },
+    {
+      "file": "Intercontinental_Exchange_logo.svg",
+      "license": "Public domain (logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:Intercontinental_Exchange_logo.svg",
+      "credit": "Intercontinental Exchange"
+    }
+  ],
+  "note": "Editorial composite; trademarks belong to their owners. Candlestick motif is decorative, not market data.",
+  "slug": "okxice-tokenized-stocks-launch-nov-23-2026",
+  "generated": "2026-11-11T14:04Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

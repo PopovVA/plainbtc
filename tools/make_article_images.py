@@ -1522,6 +1522,107 @@ def build_ios_flaw():
     ]
 
 
+def build_across():
+    slug = "across-protocol-domain-hijack-phishing-nov-2026"
+    d = OUT / slug
+    tl = make_timeline_card(
+        d / "timeline-across-hijack",
+        "How the hijack unfolded",
+        [
+            ("18:45 UTC", "Attacker takes over across.to via social engineering at registrar Namecheap", (248, 113, 113)),
+            ("+15 min", "Across alerted; SEAL911 and Cloudflare get the fake site flagged and blocked", (96, 165, 250)),
+            ("Nov. 11", "Domain back under Across's control; affected users to be made whole", ORANGE),
+        ],
+        footer="Across on X, via The Block and Cointelegraph · Nov 10-11, 2026",
+    )
+    card = make_fact_card(
+        d / "fact-across-350k",
+        label="Estimated user losses",
+        big="~$350,000",
+        sub="Drained through fake token approvals and permits on Ethereum, Arbitrum, Base, BNB Chain, Ink and Plasma",
+        footer="GoPlus estimate, via The Block · Nov 11, 2026",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: at 18:45 UTC on Nov. 10 an attacker takes over across.to through social engineering at registrar Namecheap; within 15 minutes Across is alerted and SEAL911 and Cloudflare get the fake site flagged and blocked; on Nov. 11 the domain is back under Across's control and affected users are promised repayment", {
+            "es": "Cronología: a las 18:45 UTC del 10 de noviembre un atacante toma across.to mediante ingeniería social en el registrador Namecheap; en 15 minutos Across recibe la alerta y SEAL911 y Cloudflare marcan y bloquean el sitio falso; el 11 de noviembre el dominio vuelve a manos de Across, que promete compensar a los afectados",
+            "pt": "Linha do tempo: às 18:45 UTC de 10 de novembro um invasor assume o across.to por engenharia social na registradora Namecheap; em 15 minutos a Across é alertada e SEAL911 e Cloudflare sinalizam e bloqueiam o site falso; em 11 de novembro o domínio volta ao controle da Across, que promete ressarcir os afetados",
+            "fr": "Chronologie : à 18 h 45 UTC le 10 novembre, un attaquant prend le contrôle d'across.to par ingénierie sociale chez le registraire Namecheap ; en 15 minutes, Across est alerté et SEAL911 et Cloudflare signalent et bloquent le faux site ; le 11 novembre, Across récupère le domaine et promet d'indemniser les victimes",
+            "de": "Zeitleiste: Um 18:45 UTC am 10. November übernimmt ein Angreifer across.to per Social Engineering beim Registrar Namecheap; innerhalb von 15 Minuten wird Across alarmiert, SEAL911 und Cloudflare lassen die gefälschte Seite markieren und sperren; am 11. November ist die Domain wieder unter Kontrolle von Across, Betroffene sollen entschädigt werden",
+            "ru": "Хронология: в 18:45 UTC 10 ноября злоумышленник захватывает across.to с помощью социальной инженерии у регистратора Namecheap; в течение 15 минут Across получает сигнал, а SEAL911 и Cloudflare помечают и блокируют фальшивый сайт; 11 ноября домен снова под контролем Across, пострадавшим обещана компенсация",
+            "tr": "Zaman çizelgesi: 10 Kasım 18:45 UTC'de bir saldırgan, alan adı kayıt şirketi Namecheap'e yönelik sosyal mühendislikle across.to'yu ele geçiriyor; 15 dakika içinde Across uyarı alıyor, SEAL911 ve Cloudflare sahte siteyi işaretleyip engelliyor; 11 Kasım'da alan adı yeniden Across'un kontrolünde ve etkilenenlere tazminat sözü veriliyor",
+            "id": "Linimasa: pukul 18.45 UTC pada 10 November penyerang mengambil alih across.to lewat rekayasa sosial di registrar Namecheap; dalam 15 menit Across menerima peringatan, SEAL911 dan Cloudflare menandai dan memblokir situs palsu; pada 11 November domain kembali dikuasai Across, yang berjanji mengganti kerugian pengguna",
+            "ja": "時系列：11月10日18:45（UTC）、攻撃者がレジストラNamecheapへのソーシャルエンジニアリングでacross.toを乗っ取る。15分以内にAcrossが検知し、SEAL911とCloudflareが偽サイトを警告・遮断。11月11日、ドメインはAcrossの管理下に戻り、被害者への全額補償を表明",
+            "ko": "타임라인: 11월 10일 18:45(UTC) 공격자가 도메인 등록업체 Namecheap을 노린 사회공학 공격으로 across.to를 장악, 15분 안에 Across가 경보를 받고 SEAL911과 Cloudflare가 가짜 사이트를 경고·차단, 11월 11일 도메인이 Across 관리로 돌아오고 피해자 전액 보상 약속",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Across on X, via The Block and Cointelegraph")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: an estimated $350,000 drained through fake token approvals and permits on Ethereum, Arbitrum, Base, BNB Chain, Ink and Plasma, according to GoPlus", {
+            "es": "Tarjeta: unos 350.000 $ robados mediante aprobaciones de tokens y permisos falsos en Ethereum, Arbitrum, Base, BNB Chain, Ink y Plasma, según GoPlus",
+            "pt": "Cartão: cerca de US$ 350.000 drenados por aprovações de tokens e permissões falsas em Ethereum, Arbitrum, Base, BNB Chain, Ink e Plasma, segundo a GoPlus",
+            "fr": "Encadré : environ 350 000 $ siphonnés via de fausses approbations de jetons et signatures « permit » sur Ethereum, Arbitrum, Base, BNB Chain, Ink et Plasma, selon GoPlus",
+            "de": "Faktenkarte: geschätzt rund 350.000 $ über gefälschte Token-Freigaben und Permits auf Ethereum, Arbitrum, Base, BNB Chain, Ink und Plasma abgezogen, laut GoPlus",
+            "ru": "Карточка: по оценке GoPlus, около $350 000 украдено через поддельные разрешения на токены и подписи permit в сетях Ethereum, Arbitrum, Base, BNB Chain, Ink и Plasma",
+            "tr": "Kart: GoPlus'a göre Ethereum, Arbitrum, Base, BNB Chain, Ink ve Plasma ağlarında sahte token onayları ve izinlerle tahminen yaklaşık 350.000 $ çalındı",
+            "id": "Kart fakta: sekitar US$350.000 dikuras lewat persetujuan token dan izin palsu di Ethereum, Arbitrum, Base, BNB Chain, Ink, dan Plasma, menurut GoPlus",
+            "ja": "カード：GoPlusの推計では、Ethereum、Arbitrum、Base、BNB Chain、Ink、Plasma上で偽のトークン承認や署名を通じて約35万ドルが流出",
+            "ko": "카드: GoPlus 추정에 따르면 이더리움, 아비트럼, 베이스, BNB 체인, 잉크, 플라즈마에서 가짜 토큰 승인과 퍼밋 서명으로 약 35만 달러가 탈취됐다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="GoPlus estimate, via The Block")},
+    ]
+
+
+def build_okxice():
+    slug = "okxice-tokenized-stocks-launch-nov-23-2026"
+    d = OUT / slug
+    # CoinDesk tally / OKXICE Nov 5 public notice / OKXICE announcement Nov 11, 2026.
+    labels = ["Companies on\noriginal list", "Of those,\nobjected", "Total issuer\nobjections", "Assets confirmed\nfor launch", "Direxion\nETFs"]
+    vals = [62, 56, 67, 70, 59]
+    chart = make_bar_chart(
+        d / "chart-okxice-numbers",
+        labels, vals,
+        "OKXICE tokenized stock venue: the numbers before launch",
+        colors=["#94a3b8", "#f87171", "#f87171", "#f7931a", "#60a5fa"],
+        value_fmt=lambda v: "70+" if v == 70 else f"{v:.0f}",
+        axis_fmt=lambda x, _p: f"{x:.0f}",
+    )
+    card = make_fact_card(
+        d / "fact-okxice-nov-23",
+        label="Launch date",
+        big="Nov. 23, 9 a.m. ET",
+        sub="OKXICE opens 24/7 tokenized stock trading to eligible U.S. OKX customers, with more than 70 assets confirmed",
+        footer="OKXICE announcement, via Unchained and CoinDesk · Nov 11, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of OKXICE figures before launch: 62 companies on the original list, 56 of them objected, 67 total issuer objections, more than 70 assets confirmed for launch and 59 Direxion ETFs", {
+            "es": "Gráfico de barras con las cifras de OKXICE antes del lanzamiento: 62 empresas en la lista original, 56 de ellas se opusieron, 67 objeciones de emisores en total, más de 70 activos confirmados y 59 ETF de Direxion",
+            "pt": "Gráfico de barras com os números da OKXICE antes do lançamento: 62 empresas na lista original, 56 delas se opuseram, 67 objeções de emissores no total, mais de 70 ativos confirmados e 59 ETFs da Direxion",
+            "fr": "Graphique des chiffres d'OKXICE avant le lancement : 62 entreprises sur la liste initiale, dont 56 se sont opposées, 67 objections d'émetteurs au total, plus de 70 actifs confirmés et 59 ETF de Direxion",
+            "de": "Balkendiagramm mit OKXICE-Zahlen vor dem Start: 62 Unternehmen auf der ursprünglichen Liste, 56 davon widersprachen, insgesamt 67 Einsprüche von Emittenten, mehr als 70 bestätigte Werte und 59 Direxion-ETFs",
+            "ru": "Диаграмма с цифрами OKXICE перед запуском: 62 компании в исходном списке, 56 из них возразили, всего 67 возражений эмитентов, более 70 подтверждённых активов и 59 ETF Direxion",
+            "tr": "OKXICE'ın lansman öncesi rakamlarını gösteren grafik: ilk listede 62 şirket, bunlardan 56'sı itiraz etti, toplam 67 ihraççı itirazı, 70'ten fazla onaylı varlık ve 59 Direxion ETF'i",
+            "id": "Grafik batang angka OKXICE sebelum peluncuran: 62 perusahaan di daftar awal, 56 di antaranya keberatan, total 67 keberatan emiten, lebih dari 70 aset dikonfirmasi, dan 59 ETF Direxion",
+            "ja": "OKXICEのローンチ前の数字を示す棒グラフ：当初リストの企業62社、うち56社が異議、発行体の異議は計67件、確定した銘柄は70超、DirexionのETFは59本",
+            "ko": "OKXICE 출시 전 수치 막대 차트: 최초 목록 기업 62곳, 그중 56곳 반대, 발행사 반대 총 67건, 확정 자산 70개 이상, 디렉시온 ETF 59개",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="CoinDesk tally; OKXICE public notice (Nov. 5) and announcement (Nov. 11)")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: OKXICE opens 24/7 tokenized stock trading at 9 a.m. ET on Nov. 23 to eligible U.S. OKX customers, with more than 70 assets confirmed", {
+            "es": "Tarjeta: OKXICE abre el trading 24/7 de acciones tokenizadas el 23 de noviembre a las 9 a. m. (hora del Este) para clientes elegibles de OKX en EE. UU., con más de 70 activos confirmados",
+            "pt": "Cartão: a OKXICE abre a negociação 24/7 de ações tokenizadas em 23 de novembro, às 9h (horário do Leste dos EUA), para clientes elegíveis da OKX nos EUA, com mais de 70 ativos confirmados",
+            "fr": "Encadré : OKXICE ouvre le 23 novembre à 9 h (heure de l'Est) le trading 24 h/24 d'actions tokenisées aux clients américains éligibles d'OKX, avec plus de 70 actifs confirmés",
+            "de": "Faktenkarte: OKXICE startet am 23. November um 9 Uhr (US-Ostküstenzeit) den Rund-um-die-Uhr-Handel mit tokenisierten Aktien für berechtigte US-Kunden von OKX; mehr als 70 Werte sind bestätigt",
+            "ru": "Карточка: OKXICE откроет круглосуточную торговлю токенизированными акциями 23 ноября в 9:00 по восточному времени для подходящих клиентов OKX в США; подтверждено более 70 активов",
+            "tr": "Kart: OKXICE, 23 Kasım'da ABD Doğu saatiyle 09.00'da uygun ABD'li OKX müşterilerine 7/24 tokenize hisse işlemlerini açıyor; 70'ten fazla varlık onaylandı",
+            "id": "Kart fakta: OKXICE membuka perdagangan saham tokenisasi 24/7 pada 23 November pukul 09.00 waktu Timur AS untuk nasabah OKX AS yang memenuhi syarat, dengan lebih dari 70 aset dikonfirmasi",
+            "ja": "カード：OKXICEは11月23日午前9時（米東部時間）、対象となる米国のOKX顧客向けにトークン化株式の24時間取引を開始。確定銘柄は70超",
+            "ko": "카드: OKXICE는 11월 23일 오전 9시(미 동부시간) 자격을 갖춘 미국 OKX 고객에게 토큰화 주식 24시간 거래를 개시하며, 확정 자산은 70개 이상",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="OKXICE announcement, via Unchained and CoinDesk")},
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -1542,6 +1643,8 @@ BUILDERS = {
     "banks-270-million-stablecoin-project-faro-nov-2026": "faro",
     "bitcoin-below-73000-lowest-since-august-nov-2026": "btc73k",
     "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026": "iosflaw",
+    "across-protocol-domain-hijack-phishing-nov-2026": "across",
+    "okxice-tokenized-stocks-launch-nov-23-2026": "okxice",
 }
 
 
@@ -1591,6 +1694,10 @@ def build_slug(slug: str, btc=None):
         figs = build_btc_below_73k()
     elif key == "iosflaw":
         figs = build_ios_flaw()
+    elif key == "across":
+        figs = build_across()
+    elif key == "okxice":
+        figs = build_okxice()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

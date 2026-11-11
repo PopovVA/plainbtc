@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/es/</link>
     <description>Noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</description>
     <language>es</language>
-    <lastBuildDate>Tue, 10 Nov 2026 19:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Hackers secuestran la web del puente cripto Across a través de su registrador de dominios; unos 350.000 $ robados</title>
+      <link>https://plainbtc.com/es/articles/across-protocol-domain-hijack-phishing-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/across-protocol-domain-hijack-phishing-nov-2026</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Seguridad</category>
+      <description>Hackers secuestraron la web del puente cripto Across a través de su registrador de dominios y robaron unos 350.000 $. Across promete compensar a los afectados.</description>
+    </item>
+    <item>
+      <title>OKX e ICE, dueña de la Bolsa de Nueva York, fijan el 23 de noviembre para lanzar el trading 24/7 de acciones tokenizadas en EE. UU.</title>
+      <link>https://plainbtc.com/es/articles/okxice-tokenized-stocks-launch-nov-23-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/okxice-tokenized-stocks-launch-nov-23-2026</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Empresas</category>
+      <description>OKX e ICE, dueña de la NYSE, abrirán el 23 de noviembre el trading 24/7 de acciones tokenizadas de EE. UU., con Coinbase, Circle, Strategy y 59 ETF de Direxion entre más de 70 activos.</description>
+    </item>
     <item>
       <title>El bitcoin cae por debajo de 73.000 $ por primera vez desde agosto mientras se disparan los rendimientos de los bonos</title>
       <link>https://plainbtc.com/es/articles/bitcoin-below-73000-lowest-since-august-nov-2026</link>

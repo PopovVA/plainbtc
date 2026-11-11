@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/</link>
     <description>Plain-English Bitcoin &amp; crypto news for beginners</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 19:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Hackers hijack crypto bridge Across's website through its domain registrar; about $350,000 drained</title>
+      <link>https://plainbtc.com/articles/across-protocol-domain-hijack-phishing-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/across-protocol-domain-hijack-phishing-nov-2026</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Security</category>
+      <description>Hackers hijacked crypto bridge Across's website through its domain registrar and drained an estimated $350,000. Across says affected users will be made whole.</description>
+    </item>
+    <item>
+      <title>OKX and NYSE owner ICE set Nov. 23 launch for 24/7 tokenized stock trading in the U.S.</title>
+      <link>https://plainbtc.com/articles/okxice-tokenized-stocks-launch-nov-23-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/okxice-tokenized-stocks-launch-nov-23-2026</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Business</category>
+      <description>OKX and NYSE owner ICE will open 24/7 trading of tokenized U.S. stocks on Nov. 23, with Coinbase, Circle, Strategy and 59 Direxion ETFs among 70+ assets.</description>
+    </item>
     <item>
       <title>Bitcoin drops below $73,000 for the first time since August as bond yields jump</title>
       <link>https://plainbtc.com/articles/bitcoin-below-73000-lowest-since-august-nov-2026</link>

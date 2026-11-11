@@ -1,0 +1,67 @@
+title: Hackers secuestran la web del puente cripto Across a través de su registrador de dominios; unos 350.000 $ robados
+page_title: Secuestran la web de Across Protocol: unos 350.000 $ robados
+description: Unos atacantes tomaron el dominio across.to el 10 de noviembre y pusieron un sitio falso que vació unos 350.000 $ de las billeteras de los usuarios. Across promete compensar a las víctimas. Qué revisar.
+og_description: Un ataque de ingeniería social contra el registrador Namecheap permitió redirigir across.to a una página de phishing. GoPlus estima pérdidas de 350.000 $; Across dice que devolverá el dinero a todos los afectados.
+label: Seguridad
+summary: Hackers secuestraron la web del puente cripto Across a través de su registrador de dominios y robaron unos 350.000 $. Across promete compensar a los afectados.
+===
+
+Across Protocol, uno de los "puentes" cripto más usados para mover tokens entre blockchains, perdió el control de su sitio web durante varias horas el martes 10 de noviembre. Los atacantes se hicieron con su dirección web, <strong>across.to</strong>, y sustituyeron el sitio real por uno falso diseñado para vaciar las billeteras de los visitantes. La firma de seguridad GoPlus calcula que los usuarios perdieron unos <strong>350.000 $</strong>, según [The Block](L1).
+
+El miércoles, Across informó de que el dominio volvía a estar bajo su control y que todos sus sistemas funcionaban con normalidad. "Todos los usuarios afectados serán compensados. Publicaremos un análisis completo en los próximos días", escribió el equipo en X, según [Cointelegraph](L2).
+
+!takeaways
+- Hacia las 18:45 UTC del 10 de noviembre, los atacantes tomaron el control de across.to mediante un ataque de ingeniería social contra el registrador de dominios Namecheap, según Across.
+- El sitio falso pedía a los visitantes firmar aprobaciones de tokens y permisos que dejaban a los atacantes mover sus tokens.
+- GoPlus estima pérdidas de unos 350.000 $ en Ethereum, Arbitrum, Base, BNB Chain, Ink y Plasma. Across no ha confirmado una cifra total.
+- El ataque afectó al dominio del sitio web, no a los contratos inteligentes del puente. Across dice que las integraciones de terceros y los usuarios de su API no se vieron afectados, y promete devolver el dinero a las víctimas.
+
+## Qué pasó
+
+Los atacantes no rompieron el código del puente. Fueron a por la empresa que registra el nombre across.to. Across explicó que un ataque de ingeniería social contra su registrador, Namecheap, dio al atacante el control del dominio hacia las 18:45 UTC, es decir, las 12:45 hora del centro de EE. UU. Quien controla un dominio decide a qué servidor apunta, así que los visitantes que escribían la dirección correcta acababan en una página de phishing idéntica a la aplicación real.
+
+Across dijo que recibió la alerta en menos de 15 minutos y actuó para cerrar el sitio. El grupo de respuesta de seguridad SEAL911 ayudó a que las principales billeteras marcaran across.to como sitio de phishing, y Cloudflare lo señaló como peligroso y después eliminó sus registros DNS, lo que dejó inaccesible el sitio falso. Más tarde, Across agradeció al fundador de Namecheap, Richard Kirkendall, su ayuda para recuperar la cuenta y la apertura de una investigación, informó [crypto.news](L3).
+
+!figure:timeline
+
+## Cómo se robó el dinero
+
+Según GoPlus, la página falsa engañaba a la gente para que firmara aprobaciones de tokens o "permits". Una aprobación es un permiso que das a un contrato inteligente para mover un token concreto de tu billetera. Las aplicaciones legítimas las piden constantemente, y por eso son fáciles de falsificar. Una vez firmada, una aprobación puede permitir al atacante retirar tokens más tarde sin volver a pedir permiso.
+
+Antes de que se recuperara el dominio, varios usuarios contaron sus pérdidas en X. Uno dijo haber perdido 9.000 $ en USDC y otro afirmó haber perdido 7.053 USDT0 en la red Plasma, según [Cointelegraph](L4), que aclaró que no había verificado esas afirmaciones. Across no ha revelado cuántas personas se vieron afectadas.
+
+!mid_cta
+
+## Por qué importa
+
+Across no es un proyecto pequeño. Era el tercer puente entre blockchains por volumen de transferencias en 30 días, por detrás de Circle y LayerZero, con unos 5,9 mil millones de dólares procesados en ese periodo, según datos de DefiLlama citados por Cointelegraph. El ataque demuestra que, aunque el código de una aplicación sea sólido, la simple dirección web que hay delante puede ser un punto débil.
+
+Además, se suma a un año costoso. Los datos de DefiLlama muestran unos 8,78 mil millones de dólares perdidos en 341 hackeos y exploits cripto en lo que va de 2026, encabezados por una brecha de 6,36 mil millones en Binance, informó The Block.
+
+!figure:fact
+
+## Qué hacer si usaste across.to el 10 de noviembre
+
+Las indicaciones de Across se aplican a cualquiera que ese día conectara una billetera, aprobara un token, firmara un mensaje o enviara una transacción en across.to:
+
+- Revisa las aprobaciones de tokens que tu billetera concedió el 10 de noviembre y revoca las que no reconozcas. Across recomendó la herramienta de revisión de aprobaciones Revoke.cash.
+- Recuerda que revocar impide transferencias futuras, pero no deshace las que ya se hicieron.
+- Envía los datos de tus transacciones solo a las cuentas oficiales de Across e ignora los mensajes directos de quien diga ser su equipo de soporte.
+
+## Qué significa para principiantes
+
+La mayoría de los principiantes nunca usa un puente. Aun así, la lección vale para cualquier aplicación cripto: una dirección conocida no prueba que un sitio sea seguro, y una ventana de la billetera que pide una "aprobación" merece una lectura atenta. Guarda en marcadores los sitios que usas, toma en serio los avisos de tu billetera y nunca firmes una solicitud que no entiendas.
+
+Algunos recién llegados prefieren empezar en un gran exchange regulado como [Coinbase](REF), donde se compra cripto con una cuenta bancaria y no se firman aprobaciones de contratos inteligentes. Eso cambia un riesgo por otro, porque entonces la empresa guarda tus monedas. Esto no es asesoramiento de inversión.
+
+## Qué vigilar
+
+- El análisis prometido por Across sobre cómo se tomó el dominio.
+- Una cifra de pérdidas confirmada y detalles de cómo se compensará a las víctimas.
+- Si Namecheap explica cómo funcionó el ataque de ingeniería social.
+
+!soft: ¿Eres nuevo con las billeteras? Lee nuestra guía sobre [billeteras custodiadas y de autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

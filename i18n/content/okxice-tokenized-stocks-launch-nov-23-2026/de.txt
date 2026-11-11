@@ -1,0 +1,62 @@
+title: OKX und NYSE-Eigentümer ICE starten am 23. November den Rund-um-die-Uhr-Handel mit tokenisierten Aktien in den USA
+page_title: OKXICE startet Handel mit tokenisierten Aktien am 23. November
+description: OKXICE, ein Gemeinschaftsunternehmen von OKX und NYSE-Eigentümer ICE, eröffnet seine Blockchain-Aktienplattform am 23. November mit mehr als 70 Werten, darunter Coinbase, Circle und Strategy. So funktioniert sie.
+og_description: OKXICE startet am 23. November um 9 Uhr US-Ostküstenzeit den Rund-um-die-Uhr-Handel mit tokenisierten US-Aktien und mehr als 70 Werten, nachdem 56 der 62 ursprünglich vorgesehenen Unternehmen widersprochen hatten.
+label: Unternehmen
+summary: OKX und NYSE-Eigentümer ICE starten am 23. November den Rund-um-die-Uhr-Handel mit tokenisierten US-Aktien, mit Coinbase, Circle, Strategy und 59 Direxion-ETFs unter mehr als 70 Werten.
+===
+
+Die Kryptobörse OKX und Intercontinental Exchange (ICE), das Unternehmen hinter der New York Stock Exchange, eröffnen am <strong>Montag, dem 23. November</strong>, in den USA eine Blockchain-basierte Handelsplattform für Aktien. Ihr Gemeinschaftsunternehmen OKXICE teilte am Mittwoch mit, dass seine Tokenized Securities Venue um <strong>9 Uhr US-Ostküstenzeit</strong> den Handel aufnimmt, berichtet [Unchained](L2).
+
+OKXICE hat nach eigenen Angaben <strong>mehr als 70 Werte</strong> für den Rund-um-die-Uhr-Handel bestätigt, darunter tokenisierte Aktien von Coinbase, Circle, Robinhood und Strategy sowie <strong>59</strong> börsengehandelte Fonds (ETFs) von Direxion. Laut einem Sprecher werden nicht alle schon am ersten Tag verfügbar sein, so [CoinDesk](L1).
+
+!takeaways
+- OKXICE, je zur Hälfte, also 50/50, im Besitz von ICE und der US-Holding von OKX, eröffnet seine Plattform für tokenisierte Aktien am 23. November um 9 Uhr US-Ostküstenzeit.
+- Mehr als 70 Werte sind bestätigt, darunter Coinbase, Circle, Robinhood, Strategy, BitGo, Securitize, Better.com und 59 Direxion-ETFs.
+- Von den 62 Unternehmen, die OKXICE zunächst vorgesehen hatte, widersprachen laut CoinDesk-Zählung 56; insgesamt gab es 67 Einsprüche, darunter Apple, Microsoft, Nvidia, Amazon und Tesla.
+- Zunächst können nur berechtigte US-Kunden von OKX Inc. handeln, die eine Identitätsprüfung bestanden haben; die Token bleiben in ihren eigenen Wallets.
+
+## Was eine tokenisierte Aktie ist
+
+Eine tokenisierte Aktie ist ein digitaler Token auf einer Blockchain, der für eine echte Aktie steht. Hier ist jeder Token laut der öffentlichen Bekanntmachung des Unternehmens vom November ein „Wertpapieranspruch“ (security entitlement), der eins zu eins durch eine US-Aktie gedeckt ist. Securitize übernimmt die Tokenisierung, und Inhaber behalten Aktionärsrechte wie Dividenden, Stimmrecht und die Teilnahme an Kapitalmaßnahmen, erklärten die Unternehmen.
+
+Der Handel läuft nicht über ein klassisches Orderbuch. Stattdessen werden Geschäfte über automatisierte Pools aus Token und Stablecoins auf Uniswap v4 abgewickelt, die auf X Layer laufen, dem auf Ethereum aufbauenden Netzwerk von OKX. Nur zugelassene Wallets dürfen handeln oder Geld in die Pools einbringen. OKXICE erklärte, weder Vermögenswerte noch private Schlüssel der Kunden zu verwahren.
+
+!figure:chart
+
+## Warum der Start jetzt möglich ist
+
+OKXICE arbeitet unter der „Innovationsausnahme“ der SEC, einer am 17. September erlassenen Anordnung mit fünf Jahren Laufzeit, die solchen Plattformen den Handel mit tokenisierten Aktien erlaubt, ohne sich als klassische Börse registrieren zu müssen. Laut CoinDesk ist OKXICE die zweite Plattform, die unter diesem Programm startet, nach einer Canton-basierten Plattform Anfang dieses Monats.
+
+„Die Zukunft der Finanzwelt ist onchain, und wir haben die Chance, sie hier in Amerika aufzubauen, mit den Standards, Schutzvorkehrungen und dem Ehrgeiz, die Anleger erwarten“, sagte OKXICE-Co-Vorsitzender und Ex-Gouverneur von New York Andrew Cuomo laut [The Block](L3).
+
+!mid_cta
+
+## Viele große Unternehmen sagten Nein
+
+Die Regeln geben einem Unternehmen 30 Kalendertage Zeit für einen Widerspruch, wenn eine fremde Firma seine Aktie tokenisieren will. Viele machten davon Gebrauch. Von den 62 Unternehmen auf der ursprünglichen Liste von OKXICE widersprachen laut CoinDesk 56, also rund 90 %. Die [öffentliche Bekanntmachung](L4) des Unternehmens vom 5. November führt 67 Emittenten auf, die bis dahin widersprochen hatten, darunter einige außerhalb der ersten Liste.
+
+Eines der Unternehmen, die sich ausklinkten, Applied Optoelectronics, sagte dem Wall Street Journal, es sei unklar, wie sich die Tokenisierung auf Kurs, Liquidität und Volatilität seiner Aktie auswirken würde, berichtete The Block. Nasdaq, das mit Kraken an eigenen Tokenisierungsplänen arbeitet, will die eigene Aktie von solchen Plattformen ausnehmen. Chefjurist John Zecca warnte, die Ausnahme erlaube den Handel tokenisierter Aktien außerhalb des regulierten nationalen Marktsystems.
+
+Deshalb besteht das Startangebot vor allem aus Unternehmen mit Kryptobezug sowie den Fonds von Direxion. Direxion verwaltet laut CoinDesk rund 70 Milliarden Dollar.
+
+!figure:fact
+
+## Was das für Einsteiger bedeutet
+
+Das ist nicht dasselbe wie Bitcoin zu kaufen. Eine tokenisierte Aktie bleibt eine Aktie mit den üblichen Aktienrisiken, sie wird nur auf Blockchain-Schienen und außerhalb der normalen Handelszeiten gehandelt. Neue Plattformen haben zudem oft weniger Käufer und Verkäufer, was zu größeren Preisunterschieden führen kann. Der Zugang ist anfangs begrenzt, und Sie müssten Ihre eigene Wallet verwalten.
+
+Wenn Sie einfach etwas Bitcoin besitzen möchten, können US-Kunden bei einer regulierten Börse wie [Coinbase](REF) per Bankkonto kaufen; prüfen Sie vorher die aktuellen Gebühren und Bedingungen. Dies ist keine Anlageberatung.
+
+## Worauf man achten sollte
+
+- Wie viele der mehr als 70 Werte am 23. November tatsächlich gehandelt werden.
+- Handelsvolumen und Preisabstände im Vergleich zu denselben Aktien an regulären Börsen.
+- Ob in den kommenden Wochen weitere Unternehmen widersprechen oder sich anschließen.
+- Mögliche Änderungen der SEC an der Innovationsausnahme nach den ersten Starts.
+
+!soft: Sie fragen sich, wie Krypto ins Depot passt? Lesen Sie unseren Leitfaden [Bitcoin-ETF oder Bitcoin kaufen](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

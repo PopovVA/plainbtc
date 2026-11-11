@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-across-hijack.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline: at 18:45 UTC on Nov. 10 an attacker takes over across.to through social engineering at registrar Namecheap; within 15 minutes Across is alerted and SEAL911 and Cloudflare get the fake site flagged and blocked; on Nov. 11 the domain is back under Across's control and affected users are promised repayment",
+      "es": "Cronología: a las 18:45 UTC del 10 de noviembre un atacante toma across.to mediante ingeniería social en el registrador Namecheap; en 15 minutos Across recibe la alerta y SEAL911 y Cloudflare marcan y bloquean el sitio falso; el 11 de noviembre el dominio vuelve a manos de Across, que promete compensar a los afectados",
+      "pt": "Linha do tempo: às 18:45 UTC de 10 de novembro um invasor assume o across.to por engenharia social na registradora Namecheap; em 15 minutos a Across é alertada e SEAL911 e Cloudflare sinalizam e bloqueiam o site falso; em 11 de novembro o domínio volta ao controle da Across, que promete ressarcir os afetados",
+      "fr": "Chronologie : à 18 h 45 UTC le 10 novembre, un attaquant prend le contrôle d'across.to par ingénierie sociale chez le registraire Namecheap ; en 15 minutes, Across est alerté et SEAL911 et Cloudflare signalent et bloquent le faux site ; le 11 novembre, Across récupère le domaine et promet d'indemniser les victimes",
+      "de": "Zeitleiste: Um 18:45 UTC am 10. November übernimmt ein Angreifer across.to per Social Engineering beim Registrar Namecheap; innerhalb von 15 Minuten wird Across alarmiert, SEAL911 und Cloudflare lassen die gefälschte Seite markieren und sperren; am 11. November ist die Domain wieder unter Kontrolle von Across, Betroffene sollen entschädigt werden",
+      "ru": "Хронология: в 18:45 UTC 10 ноября злоумышленник захватывает across.to с помощью социальной инженерии у регистратора Namecheap; в течение 15 минут Across получает сигнал, а SEAL911 и Cloudflare помечают и блокируют фальшивый сайт; 11 ноября домен снова под контролем Across, пострадавшим обещана компенсация",
+      "tr": "Zaman çizelgesi: 10 Kasım 18:45 UTC'de bir saldırgan, alan adı kayıt şirketi Namecheap'e yönelik sosyal mühendislikle across.to'yu ele geçiriyor; 15 dakika içinde Across uyarı alıyor, SEAL911 ve Cloudflare sahte siteyi işaretleyip engelliyor; 11 Kasım'da alan adı yeniden Across'un kontrolünde ve etkilenenlere tazminat sözü veriliyor",
+      "id": "Linimasa: pukul 18.45 UTC pada 10 November penyerang mengambil alih across.to lewat rekayasa sosial di registrar Namecheap; dalam 15 menit Across menerima peringatan, SEAL911 dan Cloudflare menandai dan memblokir situs palsu; pada 11 November domain kembali dikuasai Across, yang berjanji mengganti kerugian pengguna",
+      "ja": "時系列：11月10日18:45（UTC）、攻撃者がレジストラNamecheapへのソーシャルエンジニアリングでacross.toを乗っ取る。15分以内にAcrossが検知し、SEAL911とCloudflareが偽サイトを警告・遮断。11月11日、ドメインはAcrossの管理下に戻り、被害者への全額補償を表明",
+      "ko": "타임라인: 11월 10일 18:45(UTC) 공격자가 도메인 등록업체 Namecheap을 노린 사회공학 공격으로 across.to를 장악, 15분 안에 Across가 경보를 받고 SEAL911과 Cloudflare가 가짜 사이트를 경고·차단, 11월 11일 도메인이 Across 관리로 돌아오고 피해자 전액 보상 약속"
+    },
+    "caption": {
+      "en": "Source: Across on X, via The Block and Cointelegraph",
+      "es": "Fuente: Across on X, via The Block and Cointelegraph",
+      "pt": "Fonte: Across on X, via The Block and Cointelegraph",
+      "fr": "Source : Across on X, via The Block and Cointelegraph",
+      "de": "Quelle: Across on X, via The Block and Cointelegraph",
+      "ru": "Источник: Across on X, via The Block and Cointelegraph",
+      "tr": "Kaynak: Across on X, via The Block and Cointelegraph",
+      "id": "Sumber: Across on X, via The Block and Cointelegraph",
+      "ja": "出典: Across on X, via The Block and Cointelegraph",
+      "ko": "출처: Across on X, via The Block and Cointelegraph"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-across-350k.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: an estimated $350,000 drained through fake token approvals and permits on Ethereum, Arbitrum, Base, BNB Chain, Ink and Plasma, according to GoPlus",
+      "es": "Tarjeta: unos 350.000 $ robados mediante aprobaciones de tokens y permisos falsos en Ethereum, Arbitrum, Base, BNB Chain, Ink y Plasma, según GoPlus",
+      "pt": "Cartão: cerca de US$ 350.000 drenados por aprovações de tokens e permissões falsas em Ethereum, Arbitrum, Base, BNB Chain, Ink e Plasma, segundo a GoPlus",
+      "fr": "Encadré : environ 350 000 $ siphonnés via de fausses approbations de jetons et signatures « permit » sur Ethereum, Arbitrum, Base, BNB Chain, Ink et Plasma, selon GoPlus",
+      "de": "Faktenkarte: geschätzt rund 350.000 $ über gefälschte Token-Freigaben und Permits auf Ethereum, Arbitrum, Base, BNB Chain, Ink und Plasma abgezogen, laut GoPlus",
+      "ru": "Карточка: по оценке GoPlus, около $350 000 украдено через поддельные разрешения на токены и подписи permit в сетях Ethereum, Arbitrum, Base, BNB Chain, Ink и Plasma",
+      "tr": "Kart: GoPlus'a göre Ethereum, Arbitrum, Base, BNB Chain, Ink ve Plasma ağlarında sahte token onayları ve izinlerle tahminen yaklaşık 350.000 $ çalındı",
+      "id": "Kart fakta: sekitar US$350.000 dikuras lewat persetujuan token dan izin palsu di Ethereum, Arbitrum, Base, BNB Chain, Ink, dan Plasma, menurut GoPlus",
+      "ja": "カード：GoPlusの推計では、Ethereum、Arbitrum、Base、BNB Chain、Ink、Plasma上で偽のトークン承認や署名を通じて約35万ドルが流出",
+      "ko": "카드: GoPlus 추정에 따르면 이더리움, 아비트럼, 베이스, BNB 체인, 잉크, 플라즈마에서 가짜 토큰 승인과 퍼밋 서명으로 약 35만 달러가 탈취됐다"
+    },
+    "caption": {
+      "en": "Source: GoPlus estimate, via The Block",
+      "es": "Fuente: GoPlus estimate, via The Block",
+      "pt": "Fonte: GoPlus estimate, via The Block",
+      "fr": "Source : GoPlus estimate, via The Block",
+      "de": "Quelle: GoPlus estimate, via The Block",
+      "ru": "Источник: GoPlus estimate, via The Block",
+      "tr": "Kaynak: GoPlus estimate, via The Block",
+      "id": "Sumber: GoPlus estimate, via The Block",
+      "ja": "出典: GoPlus estimate, via The Block",
+      "ko": "출처: GoPlus estimate, via The Block"
+    }
+  }
+]

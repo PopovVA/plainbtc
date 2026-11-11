@@ -1,0 +1,67 @@
+title: Des pirates détournent le site du pont crypto Across via son registraire de noms de domaine ; environ 350 000 $ siphonnés
+page_title: Le site d'Across Protocol détourné, environ 350 000 $ siphonnés
+description: Des attaquants ont pris le contrôle du domaine across.to le 10 novembre et l'ont remplacé par un faux site qui a vidé environ 350 000 $ des portefeuilles. Across promet d'indemniser les victimes. Ce qu'il faut vérifier.
+og_description: Une attaque d'ingénierie sociale visant le registraire Namecheap a permis de rediriger across.to vers une page d'hameçonnage. GoPlus estime les pertes à 350 000 $ ; Across promet de rembourser toutes les victimes.
+label: Sécurité
+summary: Des pirates ont détourné le site du pont crypto Across via son registraire et siphonné environ 350 000 $. Across promet d'indemniser les utilisateurs touchés.
+===
+
+Across Protocol, l'un des « ponts » crypto les plus utilisés pour transférer des jetons d'une blockchain à l'autre, a perdu le contrôle de son site pendant plusieurs heures le mardi 10 novembre. Des attaquants se sont emparés de son adresse web, <strong>across.to</strong>, et ont remplacé le vrai site par un faux conçu pour vider les portefeuilles des visiteurs. La société de sécurité GoPlus estime les pertes des utilisateurs à environ <strong>350 000 $</strong>, selon [The Block](L1).
+
+Mercredi, Across a indiqué avoir repris le contrôle du domaine et que tous ses systèmes fonctionnaient normalement. « Tous les utilisateurs touchés seront indemnisés. Nous publierons une analyse complète dans les prochains jours », a écrit l'équipe sur X, rapporte [Cointelegraph](L2).
+
+!takeaways
+- Vers 18 h 45 UTC le 10 novembre, des attaquants ont pris le contrôle d'across.to grâce à une attaque d'ingénierie sociale visant le registraire Namecheap, selon Across.
+- Le faux site demandait aux visiteurs de signer des approbations de jetons et des autorisations permettant aux attaquants de déplacer leurs jetons.
+- GoPlus estime les pertes à environ 350 000 $ sur Ethereum, Arbitrum, Base, BNB Chain, Ink et Plasma. Across n'a pas confirmé de total.
+- L'attaque a visé le nom de domaine du site, pas les contrats intelligents du pont. Selon Across, les intégrations tierces et les utilisateurs de l'API n'ont pas été touchés, et les victimes seront remboursées.
+
+## Ce qui s'est passé
+
+Les attaquants n'ont pas cassé le code du pont. Ils ont visé l'entreprise qui enregistre le nom across.to. Across explique qu'une attaque d'ingénierie sociale contre son registraire, Namecheap, a donné à l'attaquant le contrôle du domaine vers 18 h 45 UTC, soit 12 h 45, heure du Centre des États-Unis. Celui qui contrôle un domaine décide vers quel serveur il pointe : les visiteurs qui tapaient la bonne adresse arrivaient donc sur une page d'hameçonnage imitant la vraie application.
+
+Across dit avoir été alerté en moins de 15 minutes et avoir aussitôt cherché à fermer le site. Le groupe d'intervention SEAL911 a aidé à faire signaler across.to comme site d'hameçonnage dans les principaux portefeuilles, et Cloudflare a classé le domaine comme dangereux avant de supprimer ses enregistrements DNS, rendant le faux site inaccessible. Across a ensuite remercié le fondateur de Namecheap, Richard Kirkendall, de l'avoir aidé à récupérer le compte et d'avoir ouvert une enquête, rapporte [crypto.news](L3).
+
+!figure:timeline
+
+## Comment l'argent a été dérobé
+
+Selon GoPlus, la fausse page incitait les gens à signer des approbations de jetons ou des « permits ». Une approbation est une permission accordée à un contrat intelligent pour déplacer un jeton donné depuis votre portefeuille. Les vraies applications en demandent sans arrêt, d'où la facilité à les imiter. Une fois signée, une approbation peut permettre à l'attaquant de retirer des jetons plus tard sans redemander l'accord.
+
+Avant la récupération du domaine, plusieurs utilisateurs ont fait état de pertes sur X. L'un a dit avoir perdu 9 000 $ en USDC, un autre 7 053 USDT0 sur le réseau Plasma, selon [Cointelegraph](L4), qui précise ne pas avoir vérifié ces affirmations. Across n'a pas indiqué combien de personnes ont été touchées.
+
+!mid_cta
+
+## Pourquoi c'est important
+
+Across n'est pas un petit projet. Il se classait troisième parmi les ponts inter-blockchains par volume de transferts sur 30 jours, derrière Circle et LayerZero, avec environ 5,9 milliards de dollars traités sur la période, selon des données de DefiLlama citées par Cointelegraph. L'attaque montre que même lorsque le code d'une application est solide, la simple adresse web qui y mène peut être un point faible.
+
+Elle s'ajoute aussi à une année coûteuse. Les données de DefiLlama font état d'environ 8,78 milliards de dollars perdus dans 341 piratages et exploits crypto depuis le début de 2026, la plus grosse brèche étant celle de Binance, à 6,36 milliards, selon The Block.
+
+!figure:fact
+
+## Que faire si vous avez utilisé across.to le 10 novembre
+
+Les consignes d'Across s'adressent à toute personne qui, ce jour-là, a connecté un portefeuille, approuvé un jeton, signé un message ou envoyé une transaction sur across.to :
+
+- Passez en revue les approbations de jetons accordées par votre portefeuille le 10 novembre et révoquez celles que vous ne reconnaissez pas. Across a renvoyé vers l'outil de vérification Revoke.cash.
+- Gardez en tête que révoquer bloque les transferts futurs, mais n'annule pas ceux déjà effectués.
+- N'envoyez vos détails de transaction qu'aux comptes officiels d'Across et ignorez les messages privés de prétendus membres de son support.
+
+## Ce que cela signifie pour les débutants
+
+La plupart des débutants n'utilisent jamais de pont. La leçon vaut pourtant pour toute application crypto : une adresse familière ne prouve pas qu'un site est sûr, et une fenêtre de portefeuille qui demande une « approbation » mérite une lecture attentive. Enregistrez vos sites habituels en favoris, prenez au sérieux les alertes de votre portefeuille et ne signez jamais une demande que vous ne comprenez pas.
+
+Certains nouveaux venus préfèrent commencer sur une grande plateforme régulée comme [Coinbase](REF), où l'on achète des cryptos avec un compte bancaire sans signer d'approbations de contrats intelligents. On échange alors un risque contre un autre, puisque l'entreprise détient vos coins. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- L'analyse promise par Across sur la façon dont le domaine a été pris.
+- Un montant de pertes confirmé et les modalités d'indemnisation des victimes.
+- Les explications éventuelles de Namecheap sur le déroulement de l'attaque d'ingénierie sociale.
+
+!soft: Vous découvrez les portefeuilles ? Lisez notre guide sur les [portefeuilles avec ou sans dépositaire](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

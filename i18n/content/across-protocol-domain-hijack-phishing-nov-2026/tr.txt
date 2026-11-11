@@ -1,0 +1,67 @@
+title: Hackerlar kripto köprüsü Across'un sitesini alan adı kayıt şirketi üzerinden ele geçirdi; yaklaşık 350.000 $ çalındı
+page_title: Across Protocol'ün sitesi ele geçirildi, yaklaşık 350.000 $ çalındı
+description: Saldırganlar 10 Kasım'da across.to alan adını ele geçirip kullanıcıların cüzdanlarından tahminen 350.000 $ boşaltan sahte bir site koydu. Across mağdurları tazmin edeceğini söylüyor. Kontrol etmeniz gerekenler.
+og_description: Kayıt şirketi Namecheap'e yönelik bir sosyal mühendislik saldırısı, across.to'nun bir oltalama sayfasına yönlendirilmesine yol açtı. GoPlus kaybı 350.000 $ olarak tahmin ediyor; Across tüm mağdurlara ödeme yapacağını söylüyor.
+label: Güvenlik
+summary: Hackerlar kripto köprüsü Across'un sitesini alan adı kayıt şirketi üzerinden ele geçirip tahminen 350.000 $ çaldı. Across etkilenenlerin zararını karşılayacağını söylüyor.
+===
+
+Tokenleri blokzincirler arasında taşımak için en yoğun kullanılan kripto "köprülerinden" biri olan Across Protocol, 10 Kasım Salı günü birkaç saatliğine web sitesinin kontrolünü kaybetti. Saldırganlar sitenin adresini, <strong>across.to</strong>'yu ele geçirdi ve gerçek siteyi ziyaretçilerin cüzdanlarını boşaltmak için hazırlanmış sahte bir siteyle değiştirdi. [The Block](L1)'un aktardığına göre güvenlik şirketi GoPlus, kullanıcıların yaklaşık <strong>350.000 $</strong> kaybettiğini tahmin ediyor.
+
+Across çarşamba günü alan adının yeniden kontrolüne geçtiğini ve tüm sistemlerin normal çalıştığını açıkladı. [Cointelegraph](L2)'ın aktardığına göre ekip X'te "Etkilenen tüm kullanıcıların zararı karşılanacak. Önümüzdeki günlerde ayrıntılı bir olay sonrası rapor paylaşacağız" dedi.
+
+!takeaways
+- Across'a göre saldırganlar 10 Kasım'da 18:45 UTC civarında, alan adı kayıt şirketi Namecheap'e yönelik bir sosyal mühendislik saldırısıyla across.to'nun kontrolünü ele geçirdi.
+- Sahte site, ziyaretçilerden saldırganların tokenlerini taşımasına izin veren token onayları ve izin (permit) imzaları istedi.
+- GoPlus, Ethereum, Arbitrum, Base, BNB Chain, Ink ve Plasma ağlarında kaybın yaklaşık 350.000 $ olduğunu tahmin ediyor. Across bir toplam rakam doğrulamadı.
+- Saldırı köprünün akıllı sözleşmelerini değil, sitenin alan adını hedef aldı. Across, üçüncü taraf entegrasyonların ve API kullanıcılarının etkilenmediğini ve mağdurlara ödeme yapacağını söylüyor.
+
+## Ne oldu
+
+Saldırganlar köprünün kodunu kırmadı. Bunun yerine across.to adını kaydeden şirketi hedef aldılar. Across'a göre kayıt şirketi Namecheap'e yönelik bir sosyal mühendislik saldırısı, saldırgana 18:45 UTC civarında, yani ABD Merkez saatiyle 12:45'te alan adının kontrolünü verdi. Bir alan adını kim kontrol ediyorsa hangi sunucuya yönleneceğine o karar verir; bu yüzden doğru adresi yazan ziyaretçiler gerçek uygulamaya benzeyen bir oltalama sayfasına düştü.
+
+Across, 15 dakika içinde uyarı aldığını ve siteyi kapatmak için harekete geçtiğini söyledi. Güvenlik müdahale grubu SEAL911, across.to'nun büyük cüzdanlarda oltalama sitesi olarak işaretlenmesine yardım etti; Cloudflare de alan adını riskli olarak işaretledi ve ardından DNS kayıtlarını kaldırarak sahte siteyi erişilemez hale getirdi. [crypto.news](L3)'in haberine göre Across daha sonra hesabı geri almasına yardım ettiği ve soruşturma başlattığı için Namecheap'in kurucusu Richard Kirkendall'a teşekkür etti.
+
+!figure:timeline
+
+## Para nasıl alındı
+
+GoPlus'a göre sahte sayfa insanları token onayları ya da "permit" imzaları vermeye kandırdı. Onay, bir akıllı sözleşmeye cüzdanınızdan belirli bir tokeni taşıması için verdiğiniz izindir. Gerçek uygulamalar bunu sürekli istediği için taklit etmek kolaydır. İmzalandıktan sonra bir onay, saldırganın daha sonra yeniden sormadan token çekmesine imkân tanıyabilir.
+
+Alan adı geri alınmadan önce birkaç kullanıcı X'te kayıplarını paylaştı. [Cointelegraph](L4)'a göre bir kullanıcı USDC cinsinden 9.000 $ kaybettiğini, bir diğeri Plasma ağında 7.053 USDT0 kaybettiğini söyledi; site bu iddiaları doğrulamadığını belirtti. Across kaç kişinin etkilendiğini açıklamadı.
+
+!mid_cta
+
+## Neden önemli
+
+Across küçük bir proje değil. Cointelegraph'ın aktardığı DefiLlama verilerine göre 30 günlük transfer hacminde Circle ve LayerZero'nun ardından zincirler arası köprüler arasında üçüncü sıradaydı ve bu dönemde yaklaşık 5,9 milyar dolar işlem yapmıştı. Saldırı, bir uygulamanın kodu sağlam olsa bile önündeki sıradan web adresinin zayıf nokta olabileceğini gösteriyor.
+
+Olay maliyetli bir yıla da ekleniyor. The Block'un aktardığına göre DefiLlama verileri, 2026'da şu ana kadar 341 kripto hack ve istismarında yaklaşık 8,78 milyar dolar kaybedildiğini, bunun başında da Binance'teki 6,36 milyar dolarlık ihlalin geldiğini gösteriyor.
+
+!figure:fact
+
+## 10 Kasım'da across.to'yu kullandıysanız ne yapmalısınız
+
+Across'un önerileri, o gün across.to'da cüzdan bağlayan, token onaylayan, mesaj imzalayan ya da işlem gönderen herkes için geçerli:
+
+- Cüzdanınızın 10 Kasım'da verdiği token onaylarını gözden geçirin ve tanımadıklarınızı iptal edin. Across, kullanıcıları onay kontrol aracı Revoke.cash'e yönlendirdi.
+- İptal etmenin gelecekteki transferleri durdurduğunu ama yapılmış olanları geri almadığını unutmayın.
+- İşlem ayrıntılarını yalnızca Across'un resmi hesaplarına gönderin ve destek ekibinden olduğunu söyleyen kişilerin özel mesajlarını görmezden gelin.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Yeni başlayanların çoğu hiç köprü kullanmaz. Yine de ders her kripto uygulaması için geçerli: tanıdık bir adres, sitenin güvenli olduğunu kanıtlamaz ve "onay" isteyen bir cüzdan penceresi dikkatle okunmayı hak eder. Kullandığınız siteleri yer imlerine ekleyin, cüzdan uyarılarını ciddiye alın ve anlamadığınız bir isteği asla imzalamayın.
+
+Bazı yeni kullanıcılar, banka hesabıyla kripto alınan ve akıllı sözleşme onayı imzalanmayan [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsayla başlamayı tercih ediyor. Bu bir riski başka bir riskle değiştirmek demektir, çünkü coinlerinizi şirket saklar. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra izlenecekler
+
+- Across'un alan adının nasıl ele geçirildiğine dair söz verdiği rapor.
+- Doğrulanmış bir kayıp tutarı ve mağdurlara nasıl ödeme yapılacağına dair ayrıntılar.
+- Namecheap'in sosyal mühendislik saldırısının nasıl işlediğini açıklayıp açıklamayacağı.
+
+!soft: Cüzdanlarda yeni misiniz? [Emanetli ve kendi saklamalı cüzdanlar](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) rehberimizi okuyun.
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,62 @@
+title: OKX et ICE, propriétaire du NYSE, fixent au 23 novembre le lancement du trading 24 h/24 d'actions tokenisées aux États-Unis
+page_title: OKXICE lancera le trading d'actions tokenisées le 23 novembre
+description: OKXICE, coentreprise d'OKX et d'ICE, propriétaire du NYSE, annonce l'ouverture le 23 novembre de sa plateforme d'actions sur blockchain avec plus de 70 actifs, dont Coinbase, Circle et Strategy. Fonctionnement.
+og_description: OKXICE ouvrira le trading 24 h/24 d'actions américaines tokenisées le 23 novembre à 9 h (heure de l'Est) avec plus de 70 actifs, après l'opposition de 56 des 62 entreprises proposées au départ.
+label: Entreprises
+summary: OKX et ICE, propriétaire du NYSE, ouvriront le 23 novembre le trading 24 h/24 d'actions américaines tokenisées, avec Coinbase, Circle, Strategy et 59 ETF Direxion parmi plus de 70 actifs.
+===
+
+La plateforme crypto OKX et Intercontinental Exchange (ICE), la société propriétaire de la Bourse de New York, ouvriront aux États-Unis une plateforme de négociation d'actions sur blockchain le <strong>lundi 23 novembre</strong>. Leur coentreprise, OKXICE, a annoncé mercredi que sa Tokenized Securities Venue démarrera à <strong>9 h, heure de l'Est</strong>, selon [Unchained](L2).
+
+OKXICE dit avoir confirmé <strong>plus de 70 actifs</strong> négociables en continu, dont des actions tokenisées de Coinbase, Circle, Robinhood et Strategy, ainsi que <strong>59</strong> fonds indiciels cotés (ETF) de Direxion. Un porte-parole a précisé qu'ils ne seront pas tous disponibles dès le premier jour, rapporte [CoinDesk](L1).
+
+!takeaways
+- OKXICE, détenue à 50/50 par ICE et la holding américaine d'OKX, ouvre sa plateforme d'actions tokenisées le 23 novembre à 9 h (heure de l'Est).
+- Plus de 70 actifs sont confirmés, dont Coinbase, Circle, Robinhood, Strategy, BitGo, Securitize, Better.com et 59 ETF Direxion.
+- Sur les 62 entreprises proposées au départ par OKXICE, 56 se sont opposées, selon le décompte de CoinDesk ; le total des objections a atteint 67, dont Apple, Microsoft, Nvidia, Amazon et Tesla.
+- Au début, seuls les clients américains éligibles d'OKX Inc. ayant passé la vérification d'identité pourront négocier, et les jetons resteront dans leurs propres portefeuilles.
+
+## Qu'est-ce qu'une action tokenisée ?
+
+Une action tokenisée est un jeton numérique sur une blockchain qui représente une action réelle. Ici, chaque jeton est un « droit sur un titre » (security entitlement) adossé à une action américaine, à raison d'un pour un, selon l'avis public de novembre de la coentreprise. Securitize se charge de la tokenisation, et les détenteurs conservent leurs droits d'actionnaire, comme les dividendes, le vote et la participation aux opérations sur titres, ont indiqué les sociétés.
+
+Les échanges ne passeront pas par un carnet d'ordres classique. Ils se feront via des réserves automatisées de jetons et de stablecoins sur Uniswap v4, déployées sur X Layer, le réseau d'OKX bâti sur Ethereum. Seuls les portefeuilles agréés pourront négocier ou apporter des fonds à ces réserves. OKXICE affirme qu'elle ne détiendra ni les actifs ni les clés privées des clients.
+
+!figure:chart
+
+## Pourquoi le lancement est possible maintenant
+
+OKXICE fonctionne dans le cadre de l'« exemption d'innovation » de la SEC, une décision de cinq ans publiée le 17 septembre qui permet à ces plateformes de négocier des actions tokenisées sans s'enregistrer comme Bourses traditionnelles. Selon CoinDesk, OKXICE sera la deuxième plateforme lancée dans ce cadre, après une plateforme basée sur Canton plus tôt ce mois-ci.
+
+« L'avenir de la finance est on-chain, et nous avons l'occasion de le construire ici, en Amérique, avec les normes, les garde-fous et l'ambition qu'attendent les investisseurs », a déclaré le coprésident d'OKXICE et ancien gouverneur de New York Andrew Cuomo, cité par [The Block](L3).
+
+!mid_cta
+
+## Beaucoup de grandes entreprises ont dit non
+
+Les règles donnent à une entreprise 30 jours calendaires pour s'opposer lorsqu'une société tierce veut tokeniser ses actions. Beaucoup l'ont fait. Sur les 62 entreprises de la liste initiale d'OKXICE, 56, soit environ 90 %, se sont opposées, selon CoinDesk. L'[avis public](L4) de la coentreprise daté du 5 novembre recense 67 émetteurs opposés à cette date, dont certains hors de la première liste.
+
+L'une des entreprises qui se sont retirées, Applied Optoelectronics, a confié au Wall Street Journal ne pas savoir comment la tokenisation affecterait le cours, la liquidité et la volatilité de son action, rapporte The Block. Nasdaq, qui prépare ses propres projets de tokenisation avec Kraken, a indiqué qu'il exclurait sa propre action de ces plateformes. Son directeur juridique, John Zecca, a averti que l'exemption permet de négocier des actions tokenisées en dehors du système de marché national réglementé.
+
+Résultat : l'offre de lancement penche vers des entreprises déjà liées à la crypto, plus les fonds de Direxion. Direxion gère environ 70 milliards de dollars d'actifs, selon CoinDesk.
+
+!figure:fact
+
+## Ce que cela signifie pour les débutants
+
+Ce n'est pas la même chose qu'acheter du bitcoin. Une action tokenisée reste une action, avec les risques habituels, simplement négociée sur une blockchain et en dehors des heures de marché normales. Les nouvelles plateformes peuvent aussi compter moins d'acheteurs et de vendeurs, ce qui peut creuser les écarts de prix. L'accès est limité au début, et il faudrait gérer votre propre portefeuille.
+
+Si votre objectif est simplement de détenir un peu de bitcoin, une plateforme régulée comme [Coinbase](REF) permet aux clients américains d'acheter avec un compte bancaire ; vérifiez d'abord les frais et conditions en vigueur. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Combien des plus de 70 actifs seront réellement négociés le 23 novembre.
+- Les volumes et les écarts de prix par rapport aux mêmes actions sur les Bourses classiques.
+- Si d'autres entreprises s'opposent, ou se rallient, dans les semaines à venir.
+- D'éventuels changements de la SEC à l'exemption d'innovation après les premiers lancements.
+
+!soft: Vous vous demandez comment la crypto s'intègre à un compte-titres ? Lisez notre guide [ETF bitcoin ou achat de bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

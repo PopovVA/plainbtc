@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-okxice-numbers.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of OKXICE figures before launch: 62 companies on the original list, 56 of them objected, 67 total issuer objections, more than 70 assets confirmed for launch and 59 Direxion ETFs",
+      "es": "Gráfico de barras con las cifras de OKXICE antes del lanzamiento: 62 empresas en la lista original, 56 de ellas se opusieron, 67 objeciones de emisores en total, más de 70 activos confirmados y 59 ETF de Direxion",
+      "pt": "Gráfico de barras com os números da OKXICE antes do lançamento: 62 empresas na lista original, 56 delas se opuseram, 67 objeções de emissores no total, mais de 70 ativos confirmados e 59 ETFs da Direxion",
+      "fr": "Graphique des chiffres d'OKXICE avant le lancement : 62 entreprises sur la liste initiale, dont 56 se sont opposées, 67 objections d'émetteurs au total, plus de 70 actifs confirmés et 59 ETF de Direxion",
+      "de": "Balkendiagramm mit OKXICE-Zahlen vor dem Start: 62 Unternehmen auf der ursprünglichen Liste, 56 davon widersprachen, insgesamt 67 Einsprüche von Emittenten, mehr als 70 bestätigte Werte und 59 Direxion-ETFs",
+      "ru": "Диаграмма с цифрами OKXICE перед запуском: 62 компании в исходном списке, 56 из них возразили, всего 67 возражений эмитентов, более 70 подтверждённых активов и 59 ETF Direxion",
+      "tr": "OKXICE'ın lansman öncesi rakamlarını gösteren grafik: ilk listede 62 şirket, bunlardan 56'sı itiraz etti, toplam 67 ihraççı itirazı, 70'ten fazla onaylı varlık ve 59 Direxion ETF'i",
+      "id": "Grafik batang angka OKXICE sebelum peluncuran: 62 perusahaan di daftar awal, 56 di antaranya keberatan, total 67 keberatan emiten, lebih dari 70 aset dikonfirmasi, dan 59 ETF Direxion",
+      "ja": "OKXICEのローンチ前の数字を示す棒グラフ：当初リストの企業62社、うち56社が異議、発行体の異議は計67件、確定した銘柄は70超、DirexionのETFは59本",
+      "ko": "OKXICE 출시 전 수치 막대 차트: 최초 목록 기업 62곳, 그중 56곳 반대, 발행사 반대 총 67건, 확정 자산 70개 이상, 디렉시온 ETF 59개"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: CoinDesk tally; OKXICE public notice (Nov. 5) and announcement (Nov. 11)",
+      "es": "Gráfico: PlainBTC, datos: CoinDesk tally; OKXICE public notice (Nov. 5) and announcement (Nov. 11)",
+      "pt": "Gráfico: PlainBTC, dados: CoinDesk tally; OKXICE public notice (Nov. 5) and announcement (Nov. 11)",
+      "fr": "Graphique : PlainBTC, données : CoinDesk tally; OKXICE public notice (Nov. 5) and announcement (Nov. 11)",
+      "de": "Chart: PlainBTC, Daten: CoinDesk tally; OKXICE public notice (Nov. 5) and announcement (Nov. 11)",
+      "ru": "График: PlainBTC, данные: CoinDesk tally; OKXICE public notice (Nov. 5) and announcement (Nov. 11)",
+      "tr": "Grafik: PlainBTC, veri: CoinDesk tally; OKXICE public notice (Nov. 5) and announcement (Nov. 11)",
+      "id": "Grafik: PlainBTC, data: CoinDesk tally; OKXICE public notice (Nov. 5) and announcement (Nov. 11)",
+      "ja": "チャート: PlainBTC、データ: CoinDesk tally; OKXICE public notice (Nov. 5) and announcement (Nov. 11)",
+      "ko": "차트: PlainBTC, 데이터: CoinDesk tally; OKXICE public notice (Nov. 5) and announcement (Nov. 11)"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-okxice-nov-23.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: OKXICE opens 24/7 tokenized stock trading at 9 a.m. ET on Nov. 23 to eligible U.S. OKX customers, with more than 70 assets confirmed",
+      "es": "Tarjeta: OKXICE abre el trading 24/7 de acciones tokenizadas el 23 de noviembre a las 9 a. m. (hora del Este) para clientes elegibles de OKX en EE. UU., con más de 70 activos confirmados",
+      "pt": "Cartão: a OKXICE abre a negociação 24/7 de ações tokenizadas em 23 de novembro, às 9h (horário do Leste dos EUA), para clientes elegíveis da OKX nos EUA, com mais de 70 ativos confirmados",
+      "fr": "Encadré : OKXICE ouvre le 23 novembre à 9 h (heure de l'Est) le trading 24 h/24 d'actions tokenisées aux clients américains éligibles d'OKX, avec plus de 70 actifs confirmés",
+      "de": "Faktenkarte: OKXICE startet am 23. November um 9 Uhr (US-Ostküstenzeit) den Rund-um-die-Uhr-Handel mit tokenisierten Aktien für berechtigte US-Kunden von OKX; mehr als 70 Werte sind bestätigt",
+      "ru": "Карточка: OKXICE откроет круглосуточную торговлю токенизированными акциями 23 ноября в 9:00 по восточному времени для подходящих клиентов OKX в США; подтверждено более 70 активов",
+      "tr": "Kart: OKXICE, 23 Kasım'da ABD Doğu saatiyle 09.00'da uygun ABD'li OKX müşterilerine 7/24 tokenize hisse işlemlerini açıyor; 70'ten fazla varlık onaylandı",
+      "id": "Kart fakta: OKXICE membuka perdagangan saham tokenisasi 24/7 pada 23 November pukul 09.00 waktu Timur AS untuk nasabah OKX AS yang memenuhi syarat, dengan lebih dari 70 aset dikonfirmasi",
+      "ja": "カード：OKXICEは11月23日午前9時（米東部時間）、対象となる米国のOKX顧客向けにトークン化株式の24時間取引を開始。確定銘柄は70超",
+      "ko": "카드: OKXICE는 11월 23일 오전 9시(미 동부시간) 자격을 갖춘 미국 OKX 고객에게 토큰화 주식 24시간 거래를 개시하며, 확정 자산은 70개 이상"
+    },
+    "caption": {
+      "en": "Source: OKXICE announcement, via Unchained and CoinDesk",
+      "es": "Fuente: OKXICE announcement, via Unchained and CoinDesk",
+      "pt": "Fonte: OKXICE announcement, via Unchained and CoinDesk",
+      "fr": "Source : OKXICE announcement, via Unchained and CoinDesk",
+      "de": "Quelle: OKXICE announcement, via Unchained and CoinDesk",
+      "ru": "Источник: OKXICE announcement, via Unchained and CoinDesk",
+      "tr": "Kaynak: OKXICE announcement, via Unchained and CoinDesk",
+      "id": "Sumber: OKXICE announcement, via Unchained and CoinDesk",
+      "ja": "出典: OKXICE announcement, via Unchained and CoinDesk",
+      "ko": "출처: OKXICE announcement, via Unchained and CoinDesk"
+    }
+  }
+]

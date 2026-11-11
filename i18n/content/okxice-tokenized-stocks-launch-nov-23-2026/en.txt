@@ -1,0 +1,62 @@
+title: OKX and NYSE owner ICE set Nov. 23 launch for 24/7 tokenized stock trading in the U.S.
+page_title: OKXICE sets Nov. 23 launch for tokenized stock trading
+description: OKXICE, a joint venture of OKX and NYSE owner ICE, says its blockchain stock venue opens Nov. 23 with more than 70 assets, including Coinbase, Circle and Strategy. Here is how it works.
+og_description: OKXICE will open round-the-clock trading of tokenized U.S. stocks at 9 a.m. ET on Nov. 23 with 70+ assets, after 56 of the 62 companies it first proposed objected.
+label: Business
+summary: OKX and NYSE owner ICE will open 24/7 trading of tokenized U.S. stocks on Nov. 23, with Coinbase, Circle, Strategy and 59 Direxion ETFs among 70+ assets.
+===
+
+Crypto exchange OKX and Intercontinental Exchange (ICE), the company that owns the New York Stock Exchange, will open a blockchain-based stock trading venue in the U.S. on <strong>Monday, Nov. 23</strong>. Their joint venture, OKXICE, said on Wednesday that its Tokenized Securities Venue will start trading at <strong>9 a.m. Eastern time</strong>, according to [Unchained](L2).
+
+OKXICE says it has confirmed <strong>more than 70 assets</strong> for round-the-clock trading, including tokenized shares of Coinbase, Circle, Robinhood and Strategy, plus <strong>59</strong> exchange-traded funds (ETFs) from Direxion. A spokesperson said not all of them will be available on day one, [CoinDesk](L1) reported.
+
+!takeaways
+- OKXICE, owned 50/50 by ICE and OKX's U.S. holding company, opens its tokenized stock venue at 9 a.m. ET on Nov. 23.
+- More than 70 assets are confirmed, including Coinbase, Circle, Robinhood, Strategy, BitGo, Securitize, Better.com and 59 Direxion ETFs.
+- Of the 62 companies OKXICE first proposed, 56 objected, by CoinDesk's tally; total objections reached 67, including Apple, Microsoft, Nvidia, Amazon and Tesla.
+- At first, only eligible U.S. customers of OKX Inc. who pass identity checks can trade, and the tokens stay in their own wallets.
+
+## What a tokenized stock is
+
+A tokenized stock is a digital token on a blockchain that stands for a real share. Here, each token is a "security entitlement" backed one-for-one by a U.S. share, according to the venture's November public notice. Securitize handles the tokenization, and holders keep shareholder rights such as dividends, voting and taking part in corporate actions, the companies said.
+
+Trading will not run through a classic order book. Instead, trades go through automated pools of tokens and stablecoins on Uniswap v4, running on X Layer, OKX's network built on top of Ethereum. Only approved wallets can trade or add money to the pools. OKXICE said it will not hold customers' assets or private keys.
+
+!figure:chart
+
+## Why it can launch now
+
+OKXICE operates under the SEC's "innovation exemption," a five-year order issued Sept. 17 that lets such venues trade tokenized stocks without registering as traditional exchanges. CoinDesk said OKXICE will be the second venue to launch under the program, after a Canton-based venue earlier this month.
+
+"The future of finance is onchain, and we have an opportunity to build it here in America, with the standards, safeguards and ambition that investors expect," said OKXICE co-chair and former New York Governor Andrew Cuomo, as quoted by [The Block](L3).
+
+!mid_cta
+
+## Many big companies said no
+
+The rules give a company 30 calendar days to object when an unrelated firm wants to tokenize its stock. Many did. Of the 62 companies on OKXICE's original list, 56, or about 90%, objected, according to CoinDesk. The venture's [public notice](L4) dated Nov. 5 lists 67 issuers that had objected by then, including some outside the first list.
+
+One company that opted out, Applied Optoelectronics, told the Wall Street Journal it was unsure how tokenization would affect its stock price, liquidity and volatility, The Block reported. Nasdaq, which is working on its own tokenization plans with Kraken, said it will opt its own stock out of such venues. Its chief legal officer, John Zecca, warned that the exemption lets tokenized stocks trade outside the regulated national market system.
+
+As a result, the launch lineup leans toward companies already tied to crypto, plus Direxion's funds. Direxion manages about $70 billion in assets, CoinDesk said.
+
+!figure:fact
+
+## What it means for beginners
+
+This is not the same as buying bitcoin. A tokenized share is still a stock with the usual stock risks, just traded on blockchain rails and outside normal market hours. Early venues may also have fewer buyers and sellers, which can mean wider price gaps. Access is limited at first, and you would need to manage your own wallet.
+
+If your goal is simply to own a little bitcoin, a regulated exchange such as [Coinbase](REF) lets U.S. customers buy with a bank account; check current fees and terms first. This is not investment advice.
+
+## What to watch next
+
+- How many of the 70+ assets actually trade on Nov. 23.
+- Trading volume and price gaps compared with the same stocks on regular exchanges.
+- Whether more companies object, or sign up, in the coming weeks.
+- Any SEC changes to the innovation exemption after early launches.
+
+!soft: Curious how crypto fits into a brokerage account? Read our guide to [bitcoin ETFs vs. buying bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

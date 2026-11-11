@@ -1,0 +1,62 @@
+title: OKX e ICE, dona da Bolsa de Nova York, marcam para 23 de novembro o lançamento da negociação 24/7 de ações tokenizadas nos EUA
+page_title: OKXICE lança negociação de ações tokenizadas em 23 de novembro
+description: A OKXICE, joint venture da OKX com a ICE, dona da NYSE, diz que sua plataforma de ações em blockchain abre em 23 de novembro com mais de 70 ativos, incluindo Coinbase, Circle e Strategy. Veja como funciona.
+og_description: A OKXICE vai abrir a negociação 24 horas de ações americanas tokenizadas às 9h (horário do Leste dos EUA) de 23 de novembro, com mais de 70 ativos, depois que 56 das 62 empresas propostas inicialmente se opuseram.
+label: Negócios
+summary: OKX e ICE, dona da NYSE, abrem em 23 de novembro a negociação 24/7 de ações americanas tokenizadas, com Coinbase, Circle, Strategy e 59 ETFs da Direxion entre mais de 70 ativos.
+===
+
+A corretora de cripto OKX e a Intercontinental Exchange (ICE), empresa dona da Bolsa de Nova York, vão abrir nos EUA uma plataforma de negociação de ações baseada em blockchain na <strong>segunda-feira, 23 de novembro</strong>. A joint venture das duas, OKXICE, disse na quarta-feira que sua Tokenized Securities Venue começará a operar às <strong>9h no horário do Leste dos EUA</strong>, segundo o [Unchained](L2).
+
+A OKXICE diz ter confirmado <strong>mais de 70 ativos</strong> para negociação 24 horas, incluindo ações tokenizadas de Coinbase, Circle, Robinhood e Strategy, além de <strong>59</strong> fundos negociados em bolsa (ETFs) da Direxion. Um porta-voz disse que nem todos estarão disponíveis no primeiro dia, informou o [CoinDesk](L1).
+
+!takeaways
+- A OKXICE, controlada em partes iguais, 50% cada, pela ICE e pela holding americana da OKX, abre sua plataforma de ações tokenizadas às 9h (horário do Leste) de 23 de novembro.
+- Mais de 70 ativos estão confirmados, incluindo Coinbase, Circle, Robinhood, Strategy, BitGo, Securitize, Better.com e 59 ETFs da Direxion.
+- Das 62 empresas que a OKXICE propôs no início, 56 se opuseram, pela contagem do CoinDesk; o total de objeções chegou a 67, incluindo Apple, Microsoft, Nvidia, Amazon e Tesla.
+- No início, só clientes elegíveis da OKX Inc. nos EUA que passarem pela verificação de identidade poderão negociar, e os tokens ficam nas próprias carteiras deles.
+
+## O que é uma ação tokenizada
+
+Uma ação tokenizada é um token digital numa blockchain que representa uma ação real. Aqui, cada token é um "direito sobre um valor mobiliário" (security entitlement) lastreado um para um por uma ação americana, segundo o aviso público de novembro da empresa. A Securitize cuida da tokenização, e os detentores mantêm direitos de acionista como dividendos, voto e participação em eventos corporativos, disseram as empresas.
+
+As negociações não passarão por um livro de ofertas tradicional. Elas acontecerão em pools automatizados de tokens e stablecoins na Uniswap v4, rodando na X Layer, a rede da OKX construída sobre o Ethereum. Só carteiras aprovadas poderão negociar ou colocar dinheiro nos pools. A OKXICE disse que não vai guardar os ativos nem as chaves privadas dos clientes.
+
+!figure:chart
+
+## Por que o lançamento é possível agora
+
+A OKXICE opera sob a "isenção de inovação" da SEC, uma ordem de cinco anos emitida em 17 de setembro que permite a essas plataformas negociar ações tokenizadas sem se registrar como bolsas tradicionais. Segundo o CoinDesk, a OKXICE será a segunda plataforma a estrear no programa, depois de uma baseada na Canton no início deste mês.
+
+"O futuro das finanças é onchain, e temos a oportunidade de construí-lo aqui nos Estados Unidos, com os padrões, as salvaguardas e a ambição que os investidores esperam", disse o copresidente da OKXICE e ex-governador de Nova York Andrew Cuomo, citado pelo [The Block](L3).
+
+!mid_cta
+
+## Muitas grandes empresas disseram não
+
+As regras dão a uma empresa 30 dias corridos para se opor quando uma firma sem relação com ela quer tokenizar suas ações. Muitas fizeram isso. Das 62 empresas da lista original da OKXICE, 56, ou cerca de 90%, se opuseram, segundo o CoinDesk. O [aviso público](L4) da empresa datado de 5 de novembro lista 67 emissores que haviam se oposto até então, incluindo alguns fora da primeira lista.
+
+Uma das empresas que ficaram de fora, a Applied Optoelectronics, disse ao Wall Street Journal que não sabia como a tokenização afetaria o preço, a liquidez e a volatilidade de suas ações, informou o The Block. A Nasdaq, que trabalha em seus próprios planos de tokenização com a Kraken, disse que vai excluir as próprias ações dessas plataformas. Seu diretor jurídico, John Zecca, alertou que a isenção permite negociar ações tokenizadas fora do sistema nacional de mercado regulado.
+
+Por isso, a lista de estreia pende para empresas já ligadas a cripto, mais os fundos da Direxion. A Direxion administra cerca de US$ 70 bilhões em ativos, segundo o CoinDesk.
+
+!figure:fact
+
+## O que isso significa para iniciantes
+
+Isso não é o mesmo que comprar bitcoin. Uma ação tokenizada continua sendo uma ação, com os riscos de sempre, só que negociada em blockchain e fora do horário normal do mercado. Plataformas novas também podem ter menos compradores e vendedores, o que pode abrir diferenças maiores de preço. O acesso é limitado no início, e você precisaria cuidar da sua própria carteira.
+
+Se o seu objetivo é só ter um pouco de bitcoin, uma corretora regulada como a [Coinbase](REF) permite que clientes nos EUA comprem com conta bancária; confira antes as taxas e condições atuais. Isto não é recomendação de investimento.
+
+## O que acompanhar
+
+- Quantos dos mais de 70 ativos vão de fato ser negociados em 23 de novembro.
+- Volume e diferenças de preço em relação às mesmas ações nas bolsas tradicionais.
+- Se mais empresas vão se opor, ou aderir, nas próximas semanas.
+- Qualquer mudança da SEC na isenção de inovação depois das primeiras estreias.
+
+!soft: Quer entender como cripto entra numa conta de corretora? Leia nosso guia sobre [ETFs de bitcoin versus comprar bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

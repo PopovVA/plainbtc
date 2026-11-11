@@ -1,0 +1,34 @@
+{
+ "slug": "across-protocol-domain-hijack-phishing-nov-2026",
+ "date": "2026-11-11",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody",
+  "binance-hack-north-korea-memecoin-laundering-nov-2026"
+ ],
+ "sources": [
+  {
+   "url": "https://www.theblock.co/news/defi/2026-11-11-crosschain-protocol-across-restores-systems-after-domain-hijack-437843",
+   "title": "The Block — Crosschain protocol Across restores systems after domain hijack",
+   "date": "Nov 11, 2026"
+  },
+  {
+   "url": "https://cointelegraph.com/news/across-protocol-restores-website-after-hackers-hijack-domain",
+   "title": "Cointelegraph — Across Protocol restores website after hackers hijack domain",
+   "date": "Nov 11, 2026"
+  },
+  {
+   "url": "https://crypto.news/across-protocol-domain-hijack-phishing-350k-losses/",
+   "title": "crypto.news — Across Protocol restores website after phishing attack, $350K in estimated losses",
+   "date": "Nov 11, 2026"
+  },
+  {
+   "url": "https://cointelegraph.com/news/across-protocol-warns-avoid-app-drained-wallets",
+   "title": "Cointelegraph — Across Protocol investigates security incident amid user fund loss reports",
+   "date": "Nov 10, 2026"
+  }
+ ],
+ "disclosure_variant": "std"
+}
