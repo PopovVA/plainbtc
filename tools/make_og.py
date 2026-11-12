@@ -32,6 +32,11 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "sec-backs-cftc-stock-perps-crypto-etf-options-nov-2026",
+        "SEC backs the CFTC on stock perps and clears options on more crypto ETFs",
+        "REGULATION",
+    ),
+    (
         "stablecoin-supply-shrinks-usdt-tether-nov-2026",
         "Stablecoin supply shrinks at the fastest pace since 2022",
         "MARKETS",

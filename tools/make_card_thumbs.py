@@ -594,6 +594,23 @@ def thumb_stablecoin_supply():
         {"file":"DefiLlama stablecoincharts/all","license":"DefiLlama public API","url":"https://defillama.com/stablecoins","credit":"Total USD-pegged stablecoin supply from DefiLlama"}
     ]}
 
+def thumb_sec_perps():
+    sec = fetch("https://upload.wikimedia.org/wikipedia/commons/1/1c/Seal_of_the_United_States_Securities_and_Exchange_Commission.svg", CACHE/"sec-seal.svg")
+    cftc = fetch("https://upload.wikimedia.org/wikipedia/commons/3/3e/Commodity_Futures_Trading_Commission_seal.svg", CACHE/"cftc-seal.svg")
+    hq = fetch("https://upload.wikimedia.org/wikipedia/commons/1/19/U.S._Securities_and_Exchange_Commission_headquarters.JPG", CACHE/"sec-hq.jpg")
+    base = darken(cover_fit(open_rgb(hq), cy=0.45), 110)
+    panel = Image.new("RGBA", base.size, (0,0,0,0)); ImageDraw.Draw(panel).rounded_rectangle([36,40,W-36,H-40], radius=18, fill=(15,23,42,190))
+    base = Image.alpha_composite(base.convert("RGBA"), panel).convert("RGB")
+    paste_contain(base, Image.open(sec).convert("RGBA"), (80,60,220,240), pad=10)
+    paste_contain(base, Image.open(cftc).convert("RGBA"), (340,60,220,240), pad=10)
+    label_chip(base, "SEC · CFTC")
+    return base, {"kind":"composite","sources":[
+        {"file":"Seal_of_the_United_States_Securities_and_Exchange_Commission.svg","license":"Public domain (U.S. government)","url":"https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Securities_and_Exchange_Commission.svg","credit":"SEC"},
+        {"file":"Commodity_Futures_Trading_Commission_seal.svg","license":"Public domain (U.S. government)","url":"https://commons.wikimedia.org/wiki/File:Commodity_Futures_Trading_Commission_seal.svg","credit":"CFTC"},
+        {"file":"U.S._Securities_and_Exchange_Commission_headquarters.JPG","license":"CC BY-SA 3.0","url":"https://commons.wikimedia.org/wiki/File:U.S._Securities_and_Exchange_Commission_headquarters.JPG","credit":"AgnosticPreachersKid / Wikimedia Commons"},
+    ],"note":"Editorial composite."}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -614,6 +631,7 @@ BUILDERS = {
     "across-protocol-domain-hijack-phishing-nov-2026": thumb_across,
     "okxice-tokenized-stocks-launch-nov-23-2026": thumb_okxice,
     "stablecoin-supply-shrinks-usdt-tether-nov-2026": thumb_stablecoin_supply,
+    "sec-backs-cftc-stock-perps-crypto-etf-options-nov-2026": thumb_sec_perps,
 }
 
 def first_figure_source(slug: str) -> Path | None:

@@ -1,0 +1,61 @@
+title: SEC backs the CFTC on stock perpetuals and clears options on more crypto ETFs
+page_title: SEC backs CFTC on stock perps, clears more crypto ETF options
+description: The SEC told a court not to halt stock perpetual futures from Coinbase, Kalshi and Kraken-owned Bitnomial, a day after clearing Nasdaq ISE to list options on crypto ETFs beyond bitcoin and ether.
+og_description: Two SEC moves in two days: a court brief siding with the CFTC on stock "perps," and a rule that lets Nasdaq ISE list options on qualifying crypto ETFs without a new filing for each one.
+label: Regulation
+summary: The SEC sided with the CFTC in a court fight over stock perpetual futures and cleared Nasdaq ISE to list options on crypto ETFs that hold assets beyond bitcoin and ether.
+===
+
+The U.S. Securities and Exchange Commission made two crypto-friendly moves in two days. On Tuesday, Nov. 10, it approved a rule that lets the Nasdaq ISE options exchange list options on qualifying crypto exchange-traded products without asking the SEC each time. On Wednesday, it emerged that the agency had filed a court brief backing the Commodity Futures Trading Commission in a lawsuit over new "perpetual" futures tied to individual U.S. stocks, [The Block](L3) reported.
+
+Neither step changes what beginners can buy today. Both show the two market regulators working together on crypto-style products instead of fighting over them.
+
+!takeaways
+- The SEC filed a friend-of-the-court brief opposing a bid to halt stock perpetual futures approved for Coinbase, Kalshi and Kraken-owned Bitnomial.
+- The SEC did not say whether the products are futures or swaps, and it has until Dec. 31 to decide whether to overturn the exchanges' rules.
+- A separate SEC order lets Nasdaq ISE list options on crypto ETFs that hold "digital commodities," if each asset averages at least $700 million in daily market value.
+- Bitcoin traded around $74,000 on Wednesday, down about 5% over seven days, per CoinGecko data cited by Cointelegraph.
+
+## The fight over stock "perps"
+
+A perpetual future, or "perp," is a leveraged bet on a price that has no expiry date. Perps are hugely popular on offshore crypto exchanges. In early November, the CFTC let its 45-day review clock run out on applications from Kalshi, Coinbase and Bitnomial to list perps on single U.S. stocks, so the contracts were deemed approved on Nov. 2, according to [Ledger Insights](L4) and The Block.
+
+Within a day, the Capital Markets Alliance, a new group representing Cboe, Citadel Securities and the Healthy Markets Association, sued the CFTC in New York. It argues the contracts are really security-based swaps that belong under the SEC, and it asked the court to "vacate the approvals." A judge refused an emergency order but said the group would probably win on the law, Ledger Insights reported.
+
+!figure:timeline
+
+## What the SEC told the court
+
+The SEC's brief backs the CFTC against an injunction. "The SEC's amicus brief addresses why that depiction—of a CFTC gone rogue, and an SEC gone missing—is mistaken," the agency wrote, according to The Block. It said the exchanges' rules for these products are also subject to SEC review and that the two agencies cooperate closely.
+
+The brief stops short of the key legal question. It does not say whether the products are futures or swaps, and the SEC still has until Dec. 31 to decide whether to overturn the Kalshi, Coinbase and Bitnomial rules. It gave no hint about that decision.
+
+Coinbase, Kalshi and Kraken parent Payward filed their own joint brief on the CFTC's side, together with trading firms DRW, Jump Trading and Paradigm. On the other side, the advocacy group Better Markets and former SEC Commissioner Allison Herren Lee argue the contracts need the stronger investor protections of securities law. Better Markets warned that such products "pose an unreasonably high risk of causing total losses to retail investors."
+
+!mid_cta
+
+## Options on more crypto ETFs
+
+The second move is quieter but could matter for long-term investors. The SEC's order, Release No. 34-106863 on the agency's [exchange rule filings page](L1), approves Nasdaq ISE's proposal SR-ISE-2026-42. It lets the exchange list options on a qualifying crypto trust without filing a new request for each product. Until now, options on crypto ETFs arrived one approval at a time.
+
+To qualify, every "digital commodity" in a trust must have averaged at least $700 million in daily market value over the prior 12 months, and at least 85% of the trust's assets must have related derivatives on markets the exchange can monitor. [Genfinity](L2) counts 19 assets that the SEC and its staff have identified as digital commodities, including bitcoin, ether, solana, XRP, dogecoin and cardano. The order does not approve any specific fund, and options can only follow once a qualifying ETF is trading.
+
+!figure:fact
+
+## What it means for beginners
+
+Options and perps are advanced, leveraged tools, and losses can happen fast. You do not need either to own crypto. Listed options are mainly hedging tools; Nasdaq ISE argued in its filing that they add competition and hedging choices for investors.
+
+If you just want to own a small amount of bitcoin, a regulated exchange such as [Coinbase](REF) lets U.S. customers buy with a bank account; check current fees and terms first. This is not investment advice.
+
+## What to watch next
+
+- A court ruling on the request to halt stock perps, and the SEC's Dec. 31 decision on the exchanges' rules.
+- New crypto ETF filings that meet the $700 million test, and the first options listed under the new rule.
+- Whether more assets are added to the SEC's list of digital commodities.
+
+!soft: New to funds that hold crypto? Read our guide to [bitcoin ETFs vs. buying bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

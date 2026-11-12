@@ -1440,7 +1440,7 @@ def build_btc_below_73k():
     ]
 
 
-def make_timeline_card(path: Path, label: str, steps, footer: str, w=1200, h=630) -> Path:
+def make_timeline_card(path: Path, label: str, steps, footer: str, w=1200, h=630, margin=220, wrap_w=300) -> Path:
     img = gradient_bg(w, h)
     draw = ImageDraw.Draw(img)
     draw.rectangle([0, 0, 10, h], fill=ORANGE)
@@ -1453,7 +1453,7 @@ def make_timeline_card(path: Path, label: str, steps, footer: str, w=1200, h=630
     lw = draw.textlength(label.upper(), font=lf)
     draw.rectangle([56, 86, 56 + max(48, int(lw * 0.4)), 90], fill=ORANGE)
     n = len(steps)
-    x0, x1, ly = 220, w - 220, 210
+    x0, x1, ly = margin, w - margin, 210
     draw.line([(x0, ly), (x1, ly)], fill=(51, 65, 85), width=6)
     colw = (x1 - x0) / max(n - 1, 1)
     for i, (date, text, col) in enumerate(steps):
@@ -1461,7 +1461,7 @@ def make_timeline_card(path: Path, label: str, steps, footer: str, w=1200, h=630
         draw.ellipse([cx - 18, ly - 18, cx + 18, ly + 18], fill=col, outline=WHITE, width=3)
         dw = draw.textlength(date, font=df)
         draw.text((cx - dw / 2, ly - 80), date, font=df, fill=WHITE)
-        lines = wrap(draw, text, tf, 300, max_lines=6)
+        lines = wrap(draw, text, tf, wrap_w, max_lines=6)
         for j, line in enumerate(lines):
             tw = draw.textlength(line, font=tf)
             draw.text((cx - tw / 2, ly + 46 + j * 34), line, font=tf, fill=GRAY)
@@ -1683,6 +1683,63 @@ def build_stablecoin_shrink():
     ]
 
 
+TL_ALTS = {
+    "es": "Cronología: 2 de nov., la CFTC da por aprobados los futuros perpetuos sobre acciones de Coinbase, Kalshi y Bitnomial; 3 de nov., un grupo respaldado por Cboe y Citadel demanda y se rechaza una suspensión de emergencia; 10 de nov., el tribunal acepta un escrito de la SEC que respalda a la CFTC; 31 de dic., plazo de la SEC para decidir sobre las reglas de las bolsas",
+    "pt": "Linha do tempo: 2 de nov., futuros perpétuos de ações da Coinbase, Kalshi e Bitnomial são considerados aprovados pela CFTC; 3 de nov., um grupo apoiado por Cboe e Citadel processa e uma suspensão de emergência é negada; 10 de nov., o tribunal aceita um parecer da SEC a favor da CFTC; 31 de dez., prazo da SEC para decidir sobre as regras das bolsas",
+    "fr": "Chronologie : 2 nov., les contrats perpétuels sur actions de Coinbase, Kalshi et Bitnomial sont réputés approuvés par la CFTC ; 3 nov., un groupe soutenu par Cboe et Citadel porte plainte et une suspension d'urgence est refusée ; 10 nov., le tribunal accepte un mémoire de la SEC favorable à la CFTC ; 31 déc., date limite de la SEC pour se prononcer sur les règles des plateformes",
+    "de": "Zeitleiste: 2. Nov., Aktien-Perpetuals von Coinbase, Kalshi und Bitnomial gelten bei der CFTC als genehmigt; 3. Nov., eine von Cboe und Citadel unterstützte Gruppe klagt, ein Eilstopp wird abgelehnt; 10. Nov., das Gericht nimmt einen SEC-Schriftsatz zugunsten der CFTC an; 31. Dez., Frist der SEC für ihre Entscheidung über die Börsenregeln",
+    "ru": "Хронология: 2 ноября бессрочные фьючерсы на акции от Coinbase, Kalshi и Bitnomial считаются одобренными CFTC; 3 ноября группа при поддержке Cboe и Citadel подаёт иск, экстренную остановку суд отклоняет; 10 ноября суд принимает записку SEC в поддержку CFTC; 31 декабря — срок, до которого SEC должна решить судьбу правил бирж",
+    "tr": "Zaman çizelgesi: 2 Kasım'da Coinbase, Kalshi ve Bitnomial'ın hisse perpetual vadeli işlemleri CFTC tarafından onaylanmış sayılıyor; 3 Kasım'da Cboe ve Citadel destekli bir grup dava açıyor, acil durdurma talebi reddediliyor; 10 Kasım'da mahkeme CFTC'yi destekleyen SEC görüşünü kabul ediyor; 31 Aralık, SEC'in borsa kuralları hakkında karar vermesi için son tarih",
+    "id": "Linimasa: 2 Nov, kontrak berjangka perpetual saham dari Coinbase, Kalshi, dan Bitnomial dianggap disetujui CFTC; 3 Nov, kelompok yang didukung Cboe dan Citadel menggugat dan permintaan penghentian darurat ditolak; 10 Nov, pengadilan menerima amicus brief SEC yang mendukung CFTC; 31 Des, batas waktu SEC untuk memutuskan aturan bursa",
+    "ja": "時系列：11月2日、Coinbase、Kalshi、Bitnomialの個別株無期限先物がCFTCにより承認とみなされる。11月3日、CboeとCitadelが支援する団体が提訴し、緊急差し止めは却下。11月10日、裁判所がCFTCを支持するSECの意見書を受理。12月31日、取引所規則に関するSECの判断期限",
+    "ko": "타임라인: 11월 2일 코인베이스·칼시·비트노미얼의 개별 주식 무기한 선물이 CFTC 승인으로 간주됨, 11월 3일 Cboe·시타델 지원 단체가 소송을 제기했으나 긴급 중단 요청은 기각, 11월 10일 법원이 CFTC를 지지하는 SEC 의견서 수리, 12월 31일 거래소 규칙에 대한 SEC 결정 시한",
+}
+
+FACT_ALTS = {
+    "es": "Tarjeta: cada materia prima digital de un fondo debe promediar al menos 700 millones de dólares de valor de mercado diario durante 12 meses antes de que Nasdaq ISE pueda listar opciones sobre ese fondo",
+    "pt": "Cartão: cada commodity digital de um fundo precisa ter valor de mercado diário médio de pelo menos US$ 700 milhões em 12 meses antes que a Nasdaq ISE possa listar opções sobre esse fundo",
+    "fr": "Encadré : chaque matière première numérique d'un fonds doit afficher une valeur de marché quotidienne moyenne d'au moins 700 millions de dollars sur 12 mois avant que Nasdaq ISE puisse coter des options sur ce fonds",
+    "de": "Faktenkarte: Jeder digitale Rohstoff in einem Fonds muss über 12 Monate im Schnitt mindestens 700 Mio. $ täglichen Marktwert haben, bevor Nasdaq ISE Optionen auf den Fonds listen darf",
+    "ru": "Карточка: каждый цифровой товар в фонде должен иметь среднюю дневную рыночную стоимость не менее $700 млн за 12 месяцев, прежде чем Nasdaq ISE сможет листинговать опционы на этот фонд",
+    "tr": "Kart: Nasdaq ISE'ın bir fon üzerinde opsiyon listeleyebilmesi için fondaki her dijital emtianın 12 ay boyunca ortalama günlük piyasa değeri en az 700 milyon $ olmalı",
+    "id": "Kart fakta: setiap komoditas digital dalam sebuah dana harus memiliki rata-rata nilai pasar harian minimal US$700 juta selama 12 bulan sebelum Nasdaq ISE dapat mencatatkan opsi atas dana tersebut",
+    "ja": "カード：Nasdaq ISEがファンドのオプションを上場するには、組み入れる各デジタル・コモディティの過去12カ月の1日平均時価が7億ドル以上である必要がある",
+    "ko": "카드: 나스닥 ISE가 펀드 옵션을 상장하려면 펀드에 담긴 각 디지털 상품의 최근 12개월 일평균 시장가치가 7억 달러 이상이어야 한다",
+}
+
+
+def build_sec_perps_options():
+    slug = "sec-backs-cftc-stock-perps-crypto-etf-options-nov-2026"
+    d = OUT / slug
+    tl = make_timeline_card(
+        d / "timeline-stock-perps",
+        "The stock perps fight",
+        [
+            ("Nov. 2", "Stock perps from Coinbase, Kalshi and Bitnomial deemed approved by the CFTC", (96, 165, 250)),
+            ("Nov. 3", "Cboe- and Citadel-backed group sues; emergency halt denied", (248, 113, 113)),
+            ("Nov. 10", "Court accepts SEC brief backing the CFTC", ORANGE),
+            ("Dec. 31", "SEC deadline to decide on the exchanges' rules", (52, 211, 153)),
+        ],
+        footer="The Block · Ledger Insights · court docket · Nov 11, 2026",
+        margin=160, wrap_w=250,
+    )
+    card = make_fact_card(
+        d / "fact-ise-700m",
+        label="New crypto ETF options test",
+        big="$700 million",
+        sub="Minimum 12-month average daily market value for each digital commodity in a trust before Nasdaq ISE can list its options",
+        footer="SEC Release No. 34-106863 · Nov 10, 2026",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: Nov. 2, stock perpetual futures from Coinbase, Kalshi and Bitnomial are deemed approved by the CFTC; Nov. 3, a Cboe- and Citadel-backed group sues and an emergency halt is denied; Nov. 10, the court accepts an SEC brief backing the CFTC; Dec. 31, the SEC's deadline to decide on the exchanges' rules", TL_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="The Block; Ledger Insights")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: each digital commodity in a trust must average at least $700 million in daily market value over 12 months before Nasdaq ISE can list options on the trust", FACT_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="SEC Release No. 34-106863")},
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -1706,6 +1763,7 @@ BUILDERS = {
     "across-protocol-domain-hijack-phishing-nov-2026": "across",
     "okxice-tokenized-stocks-launch-nov-23-2026": "okxice",
     "stablecoin-supply-shrinks-usdt-tether-nov-2026": "usdt",
+    "sec-backs-cftc-stock-perps-crypto-etf-options-nov-2026": "secperps",
 }
 
 
@@ -1761,6 +1819,8 @@ def build_slug(slug: str, btc=None):
         figs = build_okxice()
     elif key == "usdt":
         figs = build_stablecoin_shrink()
+    elif key == "secperps":
+        figs = build_sec_perps_options()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

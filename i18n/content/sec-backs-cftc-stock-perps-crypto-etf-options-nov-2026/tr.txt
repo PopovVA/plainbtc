@@ -1,0 +1,61 @@
+title: SEC, hisse perpetual vadeli işlemlerinde CFTC'nin yanında durdu ve daha fazla kripto ETF'ine opsiyonun önünü açtı
+page_title: SEC, CFTC'yi destekledi ve daha fazla kripto ETF opsiyonunun önünü açtı
+description: SEC, Coinbase, Kalshi ve Kraken'e ait Bitnomial'ın hisse perpetual vadeli işlemlerinin durdurulmaması için mahkemeye görüş sundu; bundan bir gün önce de Nasdaq ISE'a bitcoin ve ether dışındaki kripto ETF'lerine opsiyon izni verdi.
+og_description: İki günde iki SEC adımı: hisse "perp"leri konusunda CFTC'yi destekleyen bir mahkeme görüşü ve Nasdaq ISE'ın uygun kripto ETF'lerine her biri için ayrı başvuru yapmadan opsiyon listelemesine izin veren bir kural.
+label: Düzenleme
+summary: SEC, hisse perpetual vadeli işlemleri konusundaki davada CFTC'nin yanında yer aldı ve Nasdaq ISE'ın bitcoin ve ether dışındaki varlıkları tutan kripto ETF'lerine opsiyon listelemesine izin verdi.
+===
+
+ABD Menkul Kıymetler ve Borsa Komisyonu (SEC), iki gün içinde kripto dostu iki adım attı. 10 Kasım Salı günü, opsiyon borsası Nasdaq ISE'ın uygun kripto borsa yatırım ürünleri üzerinde her seferinde SEC'e sormadan opsiyon listelemesine izin veren bir kuralı onayladı. Çarşamba günü ise kurumun, ABD'deki tek tek hisselere bağlı yeni "perpetual" vadeli işlemlere karşı açılan davada Emtia Vadeli İşlemler Ticaret Komisyonu'nu (CFTC) destekleyen bir mahkeme görüşü sunduğu ortaya çıktı, [The Block](L3) bildirdi.
+
+Bu adımların hiçbiri yeni başlayanların bugün satın alabileceklerini değiştirmiyor. Ama ikisi de iki piyasa düzenleyicisinin kripto tarzı ürünler konusunda kavga etmek yerine birlikte çalıştığını gösteriyor.
+
+!takeaways
+- SEC, Coinbase, Kalshi ve Kraken'e ait Bitnomial için onaylanan hisse perpetual vadeli işlemlerini durdurma girişimine karşı bir amicus görüşü sundu.
+- SEC, bu ürünlerin vadeli işlem mi yoksa swap mı olduğunu söylemedi; borsa kurallarını iptal edip etmeyeceğine karar vermek için 31 Aralık'a kadar süresi var.
+- Ayrı bir SEC kararı, her varlığın ortalama günlük piyasa değeri en az 700 milyon $ olması şartıyla, Nasdaq ISE'ın "dijital emtia" tutan kripto ETF'lerine opsiyon listelemesine izin veriyor.
+- Cointelegraph'ın aktardığı CoinGecko verilerine göre bitcoin çarşamba günü 74.000 $ civarında işlem gördü ve yedi günde yaklaşık %5 geriledi.
+
+## Hisse "perp"leri kavgası
+
+Perpetual vadeli işlem ya da kısaca "perp", vade tarihi olmayan, kaldıraçlı bir fiyat bahsidir. Perp'ler offshore kripto borsalarında çok popüler. Kasım başında CFTC, Kalshi, Coinbase ve Bitnomial'ın tek tek ABD hisseleri üzerinde perp listeleme başvuruları için 45 günlük inceleme süresinin dolmasına izin verdi; böylece sözleşmeler 2 Kasım'da onaylanmış sayıldı, [Ledger Insights](L4) ve The Block'a göre.
+
+Bir gün geçmeden Cboe, Citadel Securities ve Healthy Markets Association'ı temsil eden yeni bir grup olan Capital Markets Alliance, CFTC'ye New York'ta dava açtı. Grup, sözleşmelerin aslında SEC'in yetki alanındaki menkul kıymete dayalı swap'lar olduğunu savunuyor ve mahkemeden "onayların iptalini" istedi. Ledger Insights'a göre bir hâkim acil durdurma kararını reddetti, ancak grubun hukuken büyük olasılıkla kazanacağını söyledi.
+
+!figure:timeline
+
+## SEC mahkemeye ne dedi?
+
+SEC'in görüşü, ihtiyati tedbire karşı CFTC'yi destekliyor. The Block'a göre kurum, "SEC'in amicus görüşü, kontrolden çıkmış bir CFTC ve ortada olmayan bir SEC tablosunun neden yanlış olduğunu ele alıyor" diye yazdı. SEC, bu ürünlere ilişkin borsa kurallarının da kendi incelemesine tabi olduğunu ve iki kurumun yakın işbirliği yaptığını ekledi.
+
+Görüş, asıl hukuki soruya girmiyor. Ürünlerin vadeli işlem mi swap mı olduğunu söylemiyor ve SEC'in Kalshi, Coinbase ve Bitnomial kurallarını iptal edip etmeyeceğine karar vermek için hâlâ 31 Aralık'a kadar süresi var. Kurum bu karar hakkında hiçbir ipucu vermedi.
+
+Coinbase, Kalshi ve Kraken'in ana şirketi Payward, alım satım firmaları DRW, Jump Trading ve Paradigm ile birlikte CFTC'nin yanında kendi ortak görüşlerini sundu. Karşı tarafta ise savunuculuk grubu Better Markets ve eski SEC komiseri Allison Herren Lee, sözleşmelerin menkul kıymetler hukukunun daha güçlü yatırımcı korumalarına ihtiyaç duyduğunu savunuyor. Better Markets, bu tür ürünlerin "bireysel yatırımcılar için makul olmayan ölçüde yüksek bir tam kayıp riski taşıdığı" uyarısında bulundu.
+
+!mid_cta
+
+## Daha fazla kripto ETF'ine opsiyon
+
+İkinci adım daha sessiz ama uzun vadeli yatırımcılar için önemli olabilir. SEC'in [borsa kuralları sayfasında](L1) yer alan Release No. 34-106863 sayılı karar, Nasdaq ISE'ın SR-ISE-2026-42 önerisini onaylıyor. Böylece borsa, uygun bir kripto fonu için her ürüne yeni başvuru yapmadan opsiyon listeleyebilecek. Şimdiye kadar kripto ETF opsiyonları tek tek onaylarla piyasaya geliyordu.
+
+Uygun sayılmak için bir fondaki her "dijital emtianın" önceki 12 ayda ortalama günlük piyasa değeri en az 700 milyon $ olmalı ve fon varlıklarının en az %85'inin, borsanın izleyebildiği piyasalarda türevleri bulunmalı. [Genfinity](L2), SEC ve personelinin dijital emtia olarak tanımladığı 19 varlık sayıyor; bunlar arasında bitcoin, ether, solana, XRP, dogecoin ve cardano var. Karar belirli bir fonu onaylamıyor; opsiyonlar ancak uygun bir ETF işlem görmeye başladıktan sonra gelebilir.
+
+!figure:fact
+
+## Yeni başlayanlar için ne anlama geliyor?
+
+Opsiyonlar ve perp'ler ileri düzey, kaldıraçlı araçlardır ve kayıplar hızlı gelebilir. Kripto sahibi olmak için ikisine de ihtiyacınız yok. Listelenen opsiyonlar esas olarak korunma araçlarıdır; Nasdaq ISE başvurusunda bunların yatırımcılara rekabet ve daha fazla korunma seçeneği sağladığını savundu.
+
+Yalnızca biraz bitcoin sahibi olmak istiyorsanız, [Coinbase](REF) gibi düzenlenmiş bir borsa banka hesabıyla alım yapmanıza olanak tanır; önce güncel ücretleri ve koşulları kontrol edin. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli?
+
+- Hisse perp'lerini durdurma talebi hakkında mahkeme kararı ve SEC'in borsa kurallarına ilişkin 31 Aralık kararı.
+- 700 milyon $ testini geçen yeni kripto ETF başvuruları ve yeni kurala göre listelenen ilk opsiyonlar.
+- SEC'in dijital emtia listesine yeni varlıkların eklenip eklenmeyeceği.
+
+!soft: Kripto tutan fonlarda yeni misiniz? [Bitcoin ETF'i mi, doğrudan bitcoin mi](/articles/bitcoin-etf-vs-buying-bitcoin) rehberimizi okuyun.
+
+!end_cta
+
+!disclosure

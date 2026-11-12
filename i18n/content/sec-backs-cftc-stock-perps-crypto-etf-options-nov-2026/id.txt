@@ -1,0 +1,61 @@
+title: SEC mendukung CFTC soal kontrak perpetual saham dan membuka jalan opsi untuk lebih banyak ETF kripto
+page_title: SEC dukung CFTC dan buka jalan opsi untuk lebih banyak ETF kripto
+description: SEC meminta pengadilan tidak menghentikan kontrak berjangka perpetual saham dari Coinbase, Kalshi, dan Bitnomial milik Kraken, sehari setelah mengizinkan Nasdaq ISE mencatatkan opsi atas ETF kripto di luar bitcoin dan ether.
+og_description: Dua langkah SEC dalam dua hari: amicus brief yang mendukung CFTC soal "perp" saham, dan aturan yang memungkinkan Nasdaq ISE mencatatkan opsi atas ETF kripto yang memenuhi syarat tanpa pengajuan baru untuk masing-masing.
+label: Regulasi
+summary: SEC memihak CFTC dalam sengketa pengadilan soal kontrak berjangka perpetual saham dan mengizinkan Nasdaq ISE mencatatkan opsi atas ETF kripto yang memegang aset di luar bitcoin dan ether.
+===
+
+Komisi Sekuritas dan Bursa AS (SEC) mengambil dua langkah yang ramah kripto dalam dua hari. Pada Selasa, 10 November, SEC menyetujui aturan yang memungkinkan bursa opsi Nasdaq ISE mencatatkan opsi atas produk kripto yang diperdagangkan di bursa dan memenuhi syarat tanpa harus meminta izin SEC setiap kali. Pada Rabu, terungkap bahwa lembaga itu telah mengajukan dokumen ke pengadilan untuk mendukung Komisi Perdagangan Berjangka Komoditas (CFTC) dalam gugatan terkait kontrak berjangka "perpetual" baru yang terkait dengan saham individual AS, lapor [The Block](L3).
+
+Tidak satu pun dari langkah ini mengubah apa yang bisa dibeli pemula hari ini. Keduanya menunjukkan dua regulator pasar bekerja sama dalam produk bergaya kripto alih-alih saling berebut.
+
+!takeaways
+- SEC mengajukan amicus brief yang menentang upaya menghentikan kontrak berjangka perpetual saham yang disetujui untuk Coinbase, Kalshi, dan Bitnomial milik Kraken.
+- SEC tidak menyatakan apakah produk itu kontrak berjangka atau swap, dan punya waktu hingga 31 Desember untuk memutuskan apakah akan membatalkan aturan bursa.
+- Perintah SEC yang terpisah mengizinkan Nasdaq ISE mencatatkan opsi atas ETF kripto yang memegang "komoditas digital", asalkan rata-rata nilai pasar harian setiap aset minimal US$700 juta.
+- Bitcoin diperdagangkan di sekitar US$74.000 pada Rabu, turun sekitar 5% dalam tujuh hari, menurut data CoinGecko yang dikutip Cointelegraph.
+
+## Pertarungan soal "perp" saham
+
+Kontrak berjangka perpetual, atau "perp", adalah taruhan dengan leverage atas harga tanpa tanggal jatuh tempo. Perp sangat populer di bursa kripto luar negeri. Pada awal November, CFTC membiarkan masa tinjauan 45 hari berakhir untuk pengajuan Kalshi, Coinbase, dan Bitnomial yang ingin mencatatkan perp atas saham individual AS, sehingga kontrak itu dianggap disetujui pada 2 November, menurut [Ledger Insights](L4) dan The Block.
+
+Dalam waktu kurang dari sehari, Capital Markets Alliance, kelompok baru yang mewakili Cboe, Citadel Securities, dan Healthy Markets Association, menggugat CFTC di New York. Kelompok itu berpendapat kontrak tersebut sebenarnya adalah swap berbasis sekuritas yang menjadi wewenang SEC, dan meminta pengadilan untuk "membatalkan persetujuan". Seorang hakim menolak perintah darurat, tetapi mengatakan kelompok itu kemungkinan besar akan menang secara hukum, lapor Ledger Insights.
+
+!figure:timeline
+
+## Apa yang disampaikan SEC ke pengadilan
+
+Amicus brief SEC mendukung CFTC dalam menolak perintah penghentian. "Amicus brief SEC menjelaskan mengapa gambaran itu — CFTC yang bertindak liar dan SEC yang menghilang — keliru," tulis lembaga itu, menurut The Block. SEC menambahkan bahwa aturan bursa untuk produk ini juga tunduk pada tinjauan SEC dan kedua lembaga bekerja sama erat.
+
+Dokumen itu tidak menyentuh pertanyaan hukum utama. Isinya tidak menyebut apakah produk itu kontrak berjangka atau swap, dan SEC masih punya waktu hingga 31 Desember untuk memutuskan apakah akan membatalkan aturan Kalshi, Coinbase, dan Bitnomial. SEC tidak memberi petunjuk apa pun soal keputusan itu.
+
+Coinbase, Kalshi, dan Payward, induk Kraken, mengajukan amicus brief bersama yang mendukung CFTC, bersama perusahaan trading DRW, Jump Trading, dan Paradigm. Di pihak lain, kelompok advokasi Better Markets dan mantan komisioner SEC Allison Herren Lee berpendapat kontrak itu memerlukan perlindungan investor yang lebih kuat dari hukum sekuritas. Better Markets memperingatkan bahwa produk semacam itu "menimbulkan risiko yang terlalu tinggi menyebabkan kerugian total bagi investor ritel".
+
+!mid_cta
+
+## Opsi untuk lebih banyak ETF kripto
+
+Langkah kedua lebih senyap, tetapi bisa berarti bagi investor jangka panjang. Perintah SEC, Release No. 34-106863 di [halaman aturan bursa](L1) milik SEC, menyetujui usulan SR-ISE-2026-42 dari Nasdaq ISE. Aturan ini memungkinkan bursa mencatatkan opsi atas dana kripto yang memenuhi syarat tanpa pengajuan baru untuk setiap produk. Selama ini, opsi atas ETF kripto hadir satu persetujuan demi satu persetujuan.
+
+Agar memenuhi syarat, setiap "komoditas digital" dalam sebuah dana harus memiliki rata-rata nilai pasar harian minimal US$700 juta selama 12 bulan sebelumnya, dan minimal 85% aset dana harus memiliki derivatif di pasar yang dapat dipantau bursa. [Genfinity](L2) mencatat 19 aset yang telah diidentifikasi SEC dan stafnya sebagai komoditas digital, termasuk bitcoin, ether, solana, XRP, dogecoin, dan cardano. Perintah ini tidak menyetujui dana tertentu, dan opsi baru bisa menyusul setelah ETF yang memenuhi syarat diperdagangkan.
+
+!figure:fact
+
+## Artinya bagi pemula
+
+Opsi dan perp adalah instrumen lanjutan dengan leverage, dan kerugian bisa datang cepat. Anda tidak memerlukan keduanya untuk memiliki kripto. Opsi yang tercatat di bursa terutama berfungsi sebagai alat lindung nilai; Nasdaq ISE berargumen dalam pengajuannya bahwa opsi menambah persaingan dan pilihan lindung nilai bagi investor.
+
+Jika Anda hanya ingin memiliki sedikit bitcoin, bursa teregulasi seperti [Coinbase](REF) memungkinkan pembelian dengan rekening bank; periksa dulu biaya dan ketentuan terbaru. Ini bukan saran investasi.
+
+## Yang perlu dipantau
+
+- Putusan pengadilan atas permintaan menghentikan perp saham, dan keputusan SEC paling lambat 31 Desember soal aturan bursa.
+- Pengajuan ETF kripto baru yang lolos uji US$700 juta, dan opsi pertama yang dicatatkan di bawah aturan baru.
+- Apakah lebih banyak aset ditambahkan ke daftar komoditas digital SEC.
+
+!soft: Baru mengenal dana yang memegang kripto? Baca panduan kami [ETF bitcoin vs membeli bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,61 @@
+title: La SEC soutient la CFTC sur les contrats perpétuels sur actions et ouvre la voie aux options sur davantage d'ETF crypto
+page_title: La SEC soutient la CFTC et ouvre la voie à plus d'options sur ETF crypto
+description: La SEC a demandé à un tribunal de ne pas suspendre les contrats perpétuels sur actions de Coinbase, Kalshi et Bitnomial (groupe Kraken), au lendemain de son feu vert à Nasdaq ISE pour des options sur des ETF crypto au-delà du bitcoin et de l'ether.
+og_description: Deux décisions de la SEC en deux jours : un mémoire en justice favorable à la CFTC sur les « perps » sur actions, et une règle qui permet à Nasdaq ISE de coter des options sur les ETF crypto éligibles sans nouvelle demande pour chacun.
+label: Régulation
+summary: La SEC s'est rangée du côté de la CFTC dans un litige sur les contrats perpétuels sur actions et a autorisé Nasdaq ISE à coter des options sur des ETF crypto détenant d'autres actifs que le bitcoin et l'ether.
+===
+
+Le gendarme boursier américain, la SEC, a pris deux décisions favorables aux cryptos en deux jours. Le mardi 10 novembre, il a approuvé une règle qui permet à la bourse d'options Nasdaq ISE de coter des options sur des produits cotés crypto éligibles sans demander l'accord de la SEC à chaque fois. Mercredi, on a appris que l'agence avait déposé un mémoire en justice pour soutenir la Commodity Futures Trading Commission (CFTC), le régulateur des marchés dérivés, dans un procès visant de nouveaux contrats à terme « perpétuels » sur des actions américaines, selon [The Block](L3).
+
+Aucune de ces deux décisions ne change ce qu'un débutant peut acheter aujourd'hui. Elles montrent toutes deux les deux régulateurs des marchés travaillant ensemble sur des produits de style crypto au lieu de se les disputer.
+
+!takeaways
+- La SEC a déposé un mémoire d'amicus curiae contre la demande de suspension des contrats perpétuels sur actions approuvés pour Coinbase, Kalshi et Bitnomial, propriété de Kraken.
+- La SEC n'a pas dit si ces produits sont des contrats à terme ou des swaps, et elle a jusqu'au 31 décembre pour décider d'annuler ou non les règles des plateformes.
+- Une autre décision de la SEC permet à Nasdaq ISE de coter des options sur des ETF crypto détenant des « matières premières numériques », si chaque actif affiche en moyenne au moins 700 millions de dollars de valeur de marché quotidienne.
+- Le bitcoin s'échangeait autour de 74 000 dollars mercredi, en baisse d'environ 5 % sur sept jours, selon des données de CoinGecko citées par Cointelegraph.
+
+## La bataille des « perps » sur actions
+
+Un contrat perpétuel, ou « perp », est un pari à effet de levier sur un prix, sans date d'échéance. Les perps sont très populaires sur les plateformes crypto offshore. Début novembre, la CFTC a laissé expirer son délai d'examen de 45 jours pour les demandes de Kalshi, Coinbase et Bitnomial visant à coter des perps sur des actions américaines individuelles : les contrats ont donc été réputés approuvés le 2 novembre, selon [Ledger Insights](L4) et The Block.
+
+En moins d'une journée, la Capital Markets Alliance, un nouveau groupe représentant Cboe, Citadel Securities et la Healthy Markets Association, a attaqué la CFTC en justice à New York. Elle estime que ces contrats sont en réalité des swaps sur titres qui relèvent de la SEC, et a demandé au tribunal d'« annuler les approbations ». Un juge a refusé une mesure d'urgence, tout en estimant que le groupe l'emporterait probablement sur le fond du droit, a rapporté Ledger Insights.
+
+!figure:timeline
+
+## Ce que la SEC a dit au tribunal
+
+Le mémoire de la SEC soutient la CFTC contre une injonction. « Le mémoire d'amicus de la SEC explique pourquoi cette description — celle d'une CFTC devenue incontrôlable et d'une SEC aux abonnés absents — est erronée », a écrit l'agence, selon The Block. Elle a ajouté que les règles des plateformes pour ces produits sont aussi soumises à son examen et que les deux agences coopèrent étroitement.
+
+Le mémoire ne tranche pas la question juridique centrale. Il ne dit pas si ces produits sont des contrats à terme ou des swaps, et la SEC a encore jusqu'au 31 décembre pour décider d'annuler ou non les règles de Kalshi, Coinbase et Bitnomial. Elle n'a donné aucun indice sur sa décision.
+
+Coinbase, Kalshi et Payward, la maison mère de Kraken, ont déposé leur propre mémoire commun en faveur de la CFTC, avec les sociétés de trading DRW, Jump Trading et Paradigm. En face, l'association Better Markets et l'ancienne commissaire de la SEC Allison Herren Lee estiment que ces contrats doivent bénéficier des protections plus fortes du droit boursier. Better Markets a averti que ces produits « présentent un risque déraisonnablement élevé de pertes totales pour les investisseurs particuliers ».
+
+!mid_cta
+
+## Des options sur davantage d'ETF crypto
+
+La seconde décision est plus discrète, mais elle pourrait compter pour les investisseurs de long terme. La décision de la SEC, la Release No. 34-106863 publiée sur sa [page des règles des bourses](L1), approuve la proposition SR-ISE-2026-42 de Nasdaq ISE. Elle permet à la bourse de coter des options sur un fonds crypto éligible sans déposer une nouvelle demande pour chaque produit. Jusqu'ici, les options sur ETF crypto arrivaient une autorisation à la fois.
+
+Pour être éligible, chaque « matière première numérique » d'un fonds doit avoir affiché une valeur de marché quotidienne moyenne d'au moins 700 millions de dollars sur les 12 mois précédents, et au moins 85 % des actifs du fonds doivent avoir des dérivés sur des marchés que la bourse peut surveiller. [Genfinity](L2) recense 19 actifs que la SEC et ses services ont identifiés comme matières premières numériques, dont le bitcoin, l'ether, solana, XRP, dogecoin et cardano. La décision n'approuve aucun fonds précis, et les options ne pourront arriver qu'une fois un ETF éligible coté.
+
+!figure:fact
+
+## Ce que cela signifie pour les débutants
+
+Les options et les perps sont des outils avancés à effet de levier, et les pertes peuvent être rapides. Vous n'avez besoin ni des uns ni des autres pour détenir des cryptos. Les options cotées servent surtout à se couvrir ; Nasdaq ISE a fait valoir dans sa demande qu'elles apportent de la concurrence et davantage de choix de couverture aux investisseurs.
+
+Si vous voulez simplement détenir un peu de bitcoin, une plateforme régulée comme [Coinbase](REF) permet d'acheter depuis un compte bancaire ; vérifiez d'abord les frais et conditions en vigueur. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Une décision du tribunal sur la demande de suspension des perps sur actions, et la décision de la SEC, d'ici le 31 décembre, sur les règles des plateformes.
+- De nouveaux dossiers d'ETF crypto qui passent le test des 700 millions de dollars, et les premières options cotées selon la nouvelle règle.
+- L'ajout éventuel d'autres actifs à la liste des matières premières numériques de la SEC.
+
+!soft: Les fonds qui détiennent des cryptos sont nouveaux pour vous ? Lisez notre guide [ETF bitcoin ou achat de bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

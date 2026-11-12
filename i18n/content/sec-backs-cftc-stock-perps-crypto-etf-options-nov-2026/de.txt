@@ -1,0 +1,61 @@
+title: SEC stellt sich bei Aktien-Perpetuals hinter die CFTC und ebnet Optionen auf weitere Krypto-ETFs den Weg
+page_title: SEC stützt CFTC und ebnet Optionen auf mehr Krypto-ETFs den Weg
+description: Die SEC hat ein Gericht gebeten, Aktien-Perpetual-Futures von Coinbase, Kalshi und der Kraken-Tochter Bitnomial nicht zu stoppen – einen Tag nachdem sie Nasdaq ISE Optionen auf Krypto-ETFs jenseits von Bitcoin und Ether erlaubt hatte.
+og_description: Zwei SEC-Schritte in zwei Tagen: ein Schriftsatz zugunsten der CFTC im Streit um Aktien-„Perps“ und eine Regel, nach der Nasdaq ISE Optionen auf geeignete Krypto-ETFs ohne neuen Antrag für jeden einzelnen listen darf.
+label: Regulierung
+summary: Die SEC hat sich im Gerichtsstreit um Aktien-Perpetual-Futures auf die Seite der CFTC gestellt und Nasdaq ISE erlaubt, Optionen auf Krypto-ETFs mit Coins jenseits von Bitcoin und Ether zu listen.
+===
+
+Die US-Börsenaufsicht SEC hat binnen zwei Tagen zwei kryptofreundliche Schritte gemacht. Am Dienstag, dem 10. November, genehmigte sie eine Regel, nach der die Optionsbörse Nasdaq ISE Optionen auf geeignete börsengehandelte Kryptoprodukte listen darf, ohne jedes Mal die SEC zu fragen. Am Mittwoch wurde bekannt, dass die Behörde einen Schriftsatz zur Unterstützung der Commodity Futures Trading Commission (CFTC), der Aufsicht für Terminmärkte, eingereicht hat – in einer Klage gegen neue „Perpetual“-Futures auf einzelne US-Aktien, wie [The Block](L3) berichtete.
+
+Keiner der beiden Schritte ändert, was Einsteiger heute kaufen können. Beide zeigen aber, dass die zwei Marktaufseher bei kryptoähnlichen Produkten zusammenarbeiten, statt sich darum zu streiten.
+
+!takeaways
+- Die SEC reichte einen Amicus-Schriftsatz gegen den Versuch ein, Aktien-Perpetual-Futures zu stoppen, die für Coinbase, Kalshi und die Kraken-Tochter Bitnomial genehmigt wurden.
+- Die SEC ließ offen, ob es sich um Futures oder Swaps handelt, und hat bis zum 31. Dezember Zeit, über eine Aufhebung der Börsenregeln zu entscheiden.
+- Eine weitere SEC-Verfügung erlaubt Nasdaq ISE Optionen auf Krypto-ETFs mit „digitalen Rohstoffen“, wenn jeder Wert im Schnitt mindestens 700 Mio. $ täglichen Marktwert hat.
+- Bitcoin notierte am Mittwoch bei rund 74.000 $, etwa 5 % weniger als vor sieben Tagen, laut CoinGecko-Daten, die Cointelegraph zitiert.
+
+## Der Streit um Aktien-„Perps“
+
+Ein Perpetual Future, kurz „Perp“, ist eine gehebelte Wette auf einen Kurs ohne Verfallsdatum. Perps sind auf Offshore-Kryptobörsen äußerst beliebt. Anfang November ließ die CFTC ihre 45-tägige Prüffrist für Anträge von Kalshi, Coinbase und Bitnomial verstreichen, Perps auf einzelne US-Aktien zu listen. Damit galten die Kontrakte am 2. November als genehmigt, berichten [Ledger Insights](L4) und The Block.
+
+Binnen eines Tages verklagte die Capital Markets Alliance, eine neue Gruppe, die Cboe, Citadel Securities und die Healthy Markets Association vertritt, die CFTC in New York. Sie argumentiert, die Kontrakte seien in Wahrheit wertpapierbasierte Swaps, für die die SEC zuständig sei, und forderte das Gericht auf, „die Genehmigungen aufzuheben“. Ein Richter lehnte eine Eilanordnung ab, erklärte aber, die Gruppe werde rechtlich wohl gewinnen, so Ledger Insights.
+
+!figure:timeline
+
+## Was die SEC dem Gericht mitteilte
+
+Der Schriftsatz der SEC unterstützt die CFTC gegen eine einstweilige Verfügung. „Der Amicus-Schriftsatz der SEC legt dar, warum dieses Bild – einer außer Kontrolle geratenen CFTC und einer abwesenden SEC – falsch ist“, schrieb die Behörde laut The Block. Die Börsenregeln für diese Produkte unterlägen ebenfalls der Prüfung durch die SEC, und beide Behörden arbeiteten eng zusammen.
+
+Die entscheidende Rechtsfrage lässt der Schriftsatz offen. Er sagt nicht, ob die Produkte Futures oder Swaps sind, und die SEC hat noch bis zum 31. Dezember Zeit, über eine Aufhebung der Regeln von Kalshi, Coinbase und Bitnomial zu entscheiden. Einen Hinweis auf diese Entscheidung gab sie nicht.
+
+Coinbase, Kalshi und die Kraken-Mutter Payward reichten gemeinsam mit den Handelsfirmen DRW, Jump Trading und Paradigm einen eigenen Schriftsatz zugunsten der CFTC ein. Auf der Gegenseite argumentieren die Interessengruppe Better Markets und die frühere SEC-Kommissarin Allison Herren Lee, die Kontrakte bräuchten den stärkeren Anlegerschutz des Wertpapierrechts. Better Markets warnte, solche Produkte „bergen ein unvertretbar hohes Risiko von Totalverlusten für Privatanleger“.
+
+!mid_cta
+
+## Optionen auf mehr Krypto-ETFs
+
+Der zweite Schritt ist leiser, könnte aber für langfristige Anleger wichtig sein. Die SEC-Verfügung Release No. 34-106863 auf ihrer [Seite zu Börsenregeln](L1) genehmigt den Antrag SR-ISE-2026-42 von Nasdaq ISE. Damit darf die Börse Optionen auf einen geeigneten Krypto-Fonds listen, ohne für jedes Produkt einen neuen Antrag zu stellen. Bisher kamen Optionen auf Krypto-ETFs nur mit Einzelgenehmigung an den Markt.
+
+Um sich zu qualifizieren, muss jeder „digitale Rohstoff“ in einem Fonds in den vorangegangenen 12 Monaten im Schnitt mindestens 700 Mio. $ täglichen Marktwert gehabt haben, und für mindestens 85 % des Fondsvermögens muss es Derivate an Märkten geben, die die Börse überwachen kann. [Genfinity](L2) zählt 19 Werte, die die SEC und ihre Mitarbeiter als digitale Rohstoffe eingestuft haben, darunter Bitcoin, Ether, Solana, XRP, Dogecoin und Cardano. Die Verfügung genehmigt keinen bestimmten Fonds; Optionen können erst folgen, wenn ein geeigneter ETF gehandelt wird.
+
+!figure:fact
+
+## Was das für Einsteiger bedeutet
+
+Optionen und Perps sind fortgeschrittene, gehebelte Instrumente, und Verluste können schnell entstehen. Um Krypto zu besitzen, brauchen Sie keins von beiden. Börsengehandelte Optionen dienen vor allem der Absicherung; Nasdaq ISE argumentierte in ihrem Antrag, sie brächten mehr Wettbewerb und Absicherungsmöglichkeiten für Anleger.
+
+Wenn Sie nur eine kleine Menge Bitcoin besitzen möchten, können Sie bei einer regulierten Börse wie [Coinbase](REF) per Bankkonto kaufen; prüfen Sie vorher die aktuellen Gebühren und Bedingungen. Dies ist keine Anlageberatung.
+
+## Worauf jetzt zu achten ist
+
+- Ein Gerichtsurteil zum Antrag, Aktien-Perps zu stoppen, und die SEC-Entscheidung bis zum 31. Dezember über die Börsenregeln.
+- Neue Krypto-ETF-Anträge, die den 700-Mio.-$-Test bestehen, und die ersten nach der neuen Regel gelisteten Optionen.
+- Ob weitere Werte auf die SEC-Liste digitaler Rohstoffe kommen.
+
+!soft: Neu bei Fonds, die Krypto halten? Lesen Sie unseren Ratgeber [Bitcoin-ETF oder Bitcoin direkt kaufen](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure
