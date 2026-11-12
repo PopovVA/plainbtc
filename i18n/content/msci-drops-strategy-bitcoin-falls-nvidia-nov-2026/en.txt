@@ -1,0 +1,63 @@
+title: MSCI will drop Strategy from its indexes as bitcoin slides to its lowest price since August
+page_title: MSCI drops Strategy; bitcoin hits lowest since August
+description: MSCI will remove Strategy, the biggest corporate bitcoin holder, from its global indexes after Nov. 30. Bitcoin fell near $72,200 as Nvidia's CEO resigned and ETF outflows hit a fifth day.
+og_description: Index provider MSCI confirmed it will drop Strategy, Metaplanet and Upexi from its indexes after the Nov. 30 close. JPMorgan had estimated about $2.8 billion of forced selling. Bitcoin slid to about $72,200.
+label: Markets
+summary: MSCI confirmed it will remove Strategy, the largest corporate bitcoin holder, from its global indexes after Nov. 30, as bitcoin slid to its lowest price since August.
+===
+
+Index provider MSCI has confirmed that Strategy, the company that owns more bitcoin than any other public company, will be removed from its global stock indexes after the market close on <strong>Nov. 30</strong>. The final list from MSCI's November index review marks "STRATEGY A" as deleted, along with Japan's Metaplanet and crypto treasury firm Upexi, according to [Cointelegraph](L1).
+
+The news landed on a rough morning for crypto. Bitcoin fell to about <strong>$72,200</strong> on Thursday, its lowest price since August on Kraken data, after Nvidia announced that CEO Jensen Huang had resigned and U.S. spot bitcoin ETFs logged a fifth straight day of outflows.
+
+!takeaways
+- MSCI will delete Strategy, Metaplanet and Upexi from its indexes after the Nov. 30 close. Ether treasury firm Sharplink is on a watchlist.
+- JPMorgan previously estimated the removal could trigger about $2.8 billion of selling, and up to $8.8 billion if other index providers follow, Reuters reported.
+- Strategy says MSCI-linked funds hold about 13 million of its shares, or 3.1% of its basic shares outstanding.
+- Bitcoin slid to about $72,200 on Thursday after Nvidia's CEO resigned and spot bitcoin ETFs lost about $300 million on Wednesday.
+
+## Why is MSCI removing Strategy?
+
+MSCI builds stock indexes that trillions of dollars in index funds follow. In October it adopted new rules for what it calls "non-operating" companies: firms whose value comes mainly from holding assets rather than running a business. Funds of that kind are excluded from its benchmarks, and MSCI decided that Strategy and the other two firms look more like investment funds than operating companies, [Reuters](L3) reported.
+
+The rules check a company's operating assets and five financial measures. They replaced a temporary restriction on firms that held at least half of their assets in crypto, according to [The Block](L2). MSCI's review documents did not explain each removal.
+
+Strategy fought the change. Executive Chairman Michael Saylor and CEO Phong Le called the treatment of bitcoin treasury companies "discriminatory." The company had already said in its third-quarter filing that it expected its Class A stock to be dropped in this review.
+
+!figure:fact
+
+## How much selling could it cause?
+
+When a stock leaves an index, funds that copy that index have to sell it. JPMorgan earlier estimated that MSCI's decision alone could lead to about $2.8 billion in sales of Strategy stock, and as much as $8.8 billion if other index providers do the same, according to Reuters.
+
+Strategy plays down the impact. In its response to MSCI, the company said MSCI-linked funds held about 13 million of its shares, or 3.1% of its basic shares outstanding and less than one day's trading volume. Its shares fell 2.6% in after-hours trading on Wednesday to $119.06, The Block reported, and were down about 4% before Thursday's open, according to [CoinDesk](L4).
+
+Why it matters for bitcoin: Strategy has been the steadiest corporate buyer of the coin, and it pays for new purchases largely by selling stock. Fewer automatic index buyers for its shares could make raising that money harder.
+
+!mid_cta
+
+## Nvidia and ETF outflows add pressure
+
+Bitcoin has been trading closely with big tech stocks this year. On Thursday, Nvidia said Jensen Huang had resigned as CEO and board member, effective immediately, after weeks of scandal, with finance chief Colette Kress named interim CEO, [CNBC](L5) reported. Nvidia shares fell about 10% before the market opened, and bitcoin dropped to roughly $72,400, CoinDesk said.
+
+The funds that hold bitcoin for stock investors keep shrinking too. U.S. spot bitcoin ETFs lost about $300 million on Wednesday, nearly $270 million of it from BlackRock's IBIT, according to SoSoValue data cited by CoinDesk. Even so, the funds still hold about $55 billion of net inflows since they launched in January 2024.
+
+!figure:chart
+
+## What it means for beginners
+
+You do not need to own Strategy stock for this news to matter, but you also do not need to act on it. Index changes are mechanical: funds sell because the rules say so, not because the price of bitcoin itself was judged. Bitcoin has now fallen from a daily close of about $86,600 in September to the low $70,000s.
+
+If you are thinking about buying, a large regulated U.S. exchange such as [Coinbase](REF) lets you start with a bank account and a small amount. Many beginners spread purchases out over time instead of buying all at once on a volatile day. Only invest what you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Nov. 30: the MSCI deletions take effect after the close, so index funds are likely to sell before then.
+- Whether other index providers follow MSCI, which JPMorgan said could raise the selling to $8.8 billion.
+- Daily flows for U.S. spot bitcoin ETFs after five straight days of outflows.
+
+!soft: Not sure whether to buy bitcoin directly or through a fund? Read our guide on [bitcoin ETFs vs. buying bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

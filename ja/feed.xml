@@ -5,8 +5,16 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 11 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MSCIがストラテジーを指数から除外へ、ビットコインは8月以来の安値に</title>
+      <link>https://plainbtc.com/ja/articles/msci-drops-strategy-bitcoin-falls-nvidia-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/msci-drops-strategy-bitcoin-falls-nvidia-nov-2026</guid>
+      <pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+      <category>マーケット</category>
+      <description>MSCIは、企業として最大のビットコイン保有者であるストラテジーを11月30日以降に世界株指数から除外すると確認した。同じ頃、ビットコインは8月以来の安値に下落した。</description>
+    </item>
     <item>
       <title>SEC、個別株の無期限先物でCFTCを支持　より多くの暗号資産ETFのオプションにも道</title>
       <link>https://plainbtc.com/ja/articles/sec-backs-cftc-stock-perps-crypto-etf-options-nov-2026</link>

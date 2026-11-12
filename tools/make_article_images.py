@@ -1740,6 +1740,66 @@ def build_sec_perps_options():
     ]
 
 
+def build_msci_strategy():
+    slug = "msci-drops-strategy-bitcoin-falls-nvidia-nov-2026"
+    d = OUT / slug
+    # Kraken XBTUSD daily closes, Aug 14 - Nov 11, 2026 (90 days): peak close $86,594 (Sep 21), $73,928 on Nov 11.
+    # Nov 12 intraday low on Kraken: $72,178.1 (lowest since Aug 20).
+    url = "https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=1440&since=1786579200"
+    req = urllib.request.Request(url, headers={"User-Agent": "PlainBTC/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read().decode())
+    rows = next(v for k, v in data["result"].items() if k != "last")
+    rows = [r for r in rows if 1786665600 <= int(r[0]) < 1794441600]
+    xs = np.array([float(r[0]) for r in rows]); ys = np.array([float(r[4]) for r in rows])
+    chart = make_line_chart(
+        d / "chart-btc-daily-90d",
+        xs, ys,
+        title="Bitcoin daily closing price, Aug. 14 - Nov. 11, 2026 (Kraken)",
+        hline=72178,
+        hlabel="Nov. 12 intraday low ≈ $72,178 (Kraken)",
+    )
+    card = make_fact_card(
+        d / "fact-msci-2-8b",
+        label="Index exit",
+        big="~$2.8 billion",
+        sub="Selling of Strategy stock JPMorgan estimated MSCI's removal could trigger; up to $8.8 billion if other index providers follow",
+        footer="JPMorgan estimate, via Reuters and Cointelegraph · Nov 11-12, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's daily closing price on Kraken from Aug. 14 to Nov. 11, 2026: it rises to a peak close of about $86,600 on Sep. 21, then falls to about $73,900 on Nov. 11, with a dashed line at the Nov. 12 intraday low of about $72,178", MSCI_CHART_ALTS),
+         "caption": tr_map(CAPTION_CHART, src="Kraken BTC/USD daily closes and Nov. 12 intraday low")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: JPMorgan estimated MSCI's removal of Strategy could trigger about $2.8 billion of selling of its stock, and up to $8.8 billion if other index providers follow", MSCI_FACT_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="JPMorgan estimate, via Reuters and Cointelegraph")},
+    ]
+
+
+MSCI_CHART_ALTS = {
+    "es": "Gráfico de líneas del precio de cierre diario de bitcoin en Kraken del 14 de agosto al 11 de noviembre de 2026: sube hasta un cierre máximo de unos 86.600 dólares el 21 de septiembre y cae a unos 73.900 dólares el 11 de noviembre, con una línea discontinua en el mínimo intradía del 12 de noviembre, de unos 72.178 dólares",
+    "pt": "Gráfico de linha do preço de fechamento diário do bitcoin na Kraken de 14 de agosto a 11 de novembro de 2026: sobe até um fechamento máximo de cerca de US$ 86.600 em 21 de setembro e cai para cerca de US$ 73.900 em 11 de novembro, com uma linha tracejada na mínima intradiária de 12 de novembro, de cerca de US$ 72.178",
+    "fr": "Courbe du cours de clôture quotidien du bitcoin sur Kraken du 14 août au 11 novembre 2026 : il grimpe jusqu'à une clôture record d'environ 86 600 dollars le 21 septembre, puis recule à environ 73 900 dollars le 11 novembre, avec une ligne pointillée au plus bas intrajournalier du 12 novembre, environ 72 178 dollars",
+    "de": "Liniendiagramm des täglichen Bitcoin-Schlusskurses bei Kraken vom 14. August bis 11. November 2026: Anstieg auf einen Höchstschlusskurs von rund 86.600 $ am 21. September, danach Rückgang auf rund 73.900 $ am 11. November; gestrichelte Linie beim Tagestief vom 12. November von rund 72.178 $",
+    "ru": "Линейный график дневных цен закрытия биткоина на Kraken с 14 августа по 11 ноября 2026 года: рост до максимального закрытия около $86 600 21 сентября, затем снижение примерно до $73 900 11 ноября; пунктирная линия — внутридневной минимум 12 ноября, около $72 178",
+    "tr": "Bitcoin'in 14 Ağustos - 11 Kasım 2026 arasında Kraken'deki günlük kapanış fiyatının çizgi grafiği: 21 Eylül'de yaklaşık 86.600 $ ile en yüksek kapanışa çıkıyor, 11 Kasım'da yaklaşık 73.900 $'a geriliyor; kesikli çizgi 12 Kasım'daki yaklaşık 72.178 $'lık gün içi dibi gösteriyor",
+    "id": "Grafik garis harga penutupan harian bitcoin di Kraken dari 14 Agustus hingga 11 November 2026: naik ke penutupan tertinggi sekitar US$86.600 pada 21 September, lalu turun ke sekitar US$73.900 pada 11 November, dengan garis putus-putus di level terendah intrahari 12 November sekitar US$72.178",
+    "ja": "2026年8月14日〜11月11日のKrakenにおけるビットコイン日次終値の折れ線グラフ：9月21日に約8万6600ドルの最高終値を付けた後、11月11日には約7万3900ドルに下落。破線は11月12日の日中安値（約7万2178ドル）",
+    "ko": "2026년 8월 14일~11월 11일 크라켄 비트코인 일일 종가 선 차트: 9월 21일 약 86,600달러로 최고 종가를 기록한 뒤 11월 11일 약 73,900달러로 하락, 점선은 11월 12일 장중 저점 약 72,178달러",
+}
+MSCI_FACT_ALTS = {
+    "es": "Tarjeta: JPMorgan estimó que la salida de Strategy de los índices MSCI podría provocar ventas de sus acciones por unos 2.800 millones de dólares, y hasta 8.800 millones si otros proveedores de índices hacen lo mismo",
+    "pt": "Cartão: o JPMorgan estimou que a saída da Strategy dos índices MSCI pode gerar vendas de cerca de US$ 2,8 bilhões em suas ações, e até US$ 8,8 bilhões se outros provedores de índices fizerem o mesmo",
+    "fr": "Encadré : JPMorgan estimait que la sortie de Strategy des indices MSCI pourrait entraîner environ 2,8 milliards de dollars de ventes de ses actions, et jusqu'à 8,8 milliards si d'autres fournisseurs d'indices suivent",
+    "de": "Faktenkarte: JPMorgan schätzte, dass die Streichung von Strategy aus den MSCI-Indizes Verkäufe der Aktie von rund 2,8 Mrd. $ auslösen könnte, bis zu 8,8 Mrd. $, falls andere Indexanbieter folgen",
+    "ru": "Карточка: по оценке JPMorgan, исключение Strategy из индексов MSCI может вызвать продажи её акций примерно на $2,8 млрд, а если последуют другие провайдеры индексов — до $8,8 млрд",
+    "tr": "Kart: JPMorgan, Strategy'nin MSCI endekslerinden çıkarılmasının hisselerinde yaklaşık 2,8 milyar $'lık satışa yol açabileceğini, diğer endeks sağlayıcıları da aynı adımı atarsa bunun 8,8 milyar $'a çıkabileceğini tahmin etmişti",
+    "id": "Kart fakta: JPMorgan memperkirakan penghapusan Strategy dari indeks MSCI dapat memicu penjualan sahamnya sekitar US$2,8 miliar, dan hingga US$8,8 miliar jika penyedia indeks lain ikut melakukannya",
+    "ja": "カード：JPMorganは、MSCI指数からのストラテジー除外で同社株に約28億ドルの売りが出る可能性があり、他の指数会社も追随すれば最大88億ドルになると試算していた",
+    "ko": "카드: JP모건은 MSCI 지수 제외로 스트래티지 주식에 약 28억 달러의 매도가 나올 수 있으며, 다른 지수 회사들도 따를 경우 최대 88억 달러에 이를 수 있다고 추정했다",
+}
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -1764,6 +1824,7 @@ BUILDERS = {
     "okxice-tokenized-stocks-launch-nov-23-2026": "okxice",
     "stablecoin-supply-shrinks-usdt-tether-nov-2026": "usdt",
     "sec-backs-cftc-stock-perps-crypto-etf-options-nov-2026": "secperps",
+    "msci-drops-strategy-bitcoin-falls-nvidia-nov-2026": "msci",
 }
 
 
@@ -1821,6 +1882,8 @@ def build_slug(slug: str, btc=None):
         figs = build_stablecoin_shrink()
     elif key == "secperps":
         figs = build_sec_perps_options()
+    elif key == "msci":
+        figs = build_msci_strategy()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

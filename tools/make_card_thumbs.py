@@ -611,6 +611,25 @@ def thumb_sec_perps():
     ],"note":"Editorial composite."}
 
 
+def thumb_msci_strategy():
+    logo = fetch("https://upload.wikimedia.org/wikipedia/commons/2/2f/MSCI_logo.svg", CACHE/"msci-logo.svg")
+    base = Image.new("RGB", (W, H), (15, 20, 25))
+    d = ImageDraw.Draw(base)
+    for i in range(0, W, 32):
+        d.line([(i, 0), (i, H)], fill=(24, 32, 42))
+    for j in range(0, H, 32):
+        d.line([(0, j), (W, j)], fill=(24, 32, 42))
+    card = Image.new("RGBA", (360, 180), (255, 255, 255, 255))
+    mask = Image.new("L", card.size, 0); ImageDraw.Draw(mask).rounded_rectangle([0, 0, 359, 179], radius=16, fill=255)
+    x0, y0 = (W - 360) // 2, (H - 180) // 2 - 10
+    base.paste(card, (x0, y0), mask)
+    paste_contain(base, Image.open(logo).convert("RGBA"), (x0, y0, 360, 180), pad=34)
+    label_chip(base, "Index review · Strategy (MSTR)")
+    return base, {"kind":"composite","sources":[
+        {"file":"MSCI_logo.svg","license":"Public domain (logo)","url":"https://commons.wikimedia.org/wiki/File:MSCI_logo.svg","credit":"MSCI"},
+    ],"note":"Editorial use of the MSCI logo for identification; trademark belongs to its owner."}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -632,6 +651,7 @@ BUILDERS = {
     "okxice-tokenized-stocks-launch-nov-23-2026": thumb_okxice,
     "stablecoin-supply-shrinks-usdt-tether-nov-2026": thumb_stablecoin_supply,
     "sec-backs-cftc-stock-perps-crypto-etf-options-nov-2026": thumb_sec_perps,
+    "msci-drops-strategy-bitcoin-falls-nvidia-nov-2026": thumb_msci_strategy,
 }
 
 def first_figure_source(slug: str) -> Path | None:

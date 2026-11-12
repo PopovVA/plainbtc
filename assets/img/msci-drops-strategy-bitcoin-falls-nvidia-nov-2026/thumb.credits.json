@@ -1,0 +1,22 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "MSCI_logo.svg",
+      "license": "Public domain (logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:MSCI_logo.svg",
+      "credit": "MSCI"
+    }
+  ],
+  "note": "Editorial use of the MSCI logo for identification; trademark belongs to its owner.",
+  "slug": "msci-drops-strategy-bitcoin-falls-nvidia-nov-2026",
+  "generated": "2026-11-12T14:06Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

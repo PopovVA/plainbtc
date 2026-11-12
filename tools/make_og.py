@@ -32,6 +32,11 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "msci-drops-strategy-bitcoin-falls-nvidia-nov-2026",
+        "MSCI will drop Strategy from its indexes as bitcoin slides",
+        "MARKETS",
+    ),
+    (
         "sec-backs-cftc-stock-perps-crypto-etf-options-nov-2026",
         "SEC backs the CFTC on stock perps and clears options on more crypto ETFs",
         "REGULATION",
