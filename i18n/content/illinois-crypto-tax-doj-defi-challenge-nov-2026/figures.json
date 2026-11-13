@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-illinois-tax-challenge.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline: in July the Digital Chamber sued Illinois officials; in August the Blockchain Association and Crypto Council for Innovation filed a second challenge; in October Illinois agreed to pause the tax until July 1, 2027; on Nov. 6 the DOJ, U.S. Chamber of Commerce and SIFMA backed the challenge; on Nov. 11 a DeFi coalition led by a16z, Paradigm and Uniswap filed a brief",
+      "es": "Cronología: en julio la Digital Chamber demandó a funcionarios de Illinois; en agosto la Blockchain Association y el Crypto Council for Innovation presentaron una segunda impugnación; en octubre Illinois aceptó suspender el impuesto hasta el 1 de julio de 2027; el 6 de noviembre el DOJ, la Cámara de Comercio de EE. UU. y SIFMA respaldaron la demanda; el 11 de noviembre una coalición DeFi liderada por a16z, Paradigm y Uniswap presentó un escrito",
+      "pt": "Linha do tempo: em julho a Digital Chamber processou autoridades de Illinois; em agosto a Blockchain Association e o Crypto Council for Innovation abriram uma segunda ação; em outubro Illinois aceitou suspender o imposto até 1º de julho de 2027; em 6 de novembro o DOJ, a Câmara de Comércio dos EUA e a SIFMA apoiaram a ação; em 11 de novembro uma coalizão DeFi liderada por a16z, Paradigm e Uniswap apresentou um parecer",
+      "fr": "Chronologie : en juillet, la Digital Chamber attaque des responsables de l'Illinois ; en août, la Blockchain Association et le Crypto Council for Innovation déposent un second recours ; en octobre, l'Illinois accepte de suspendre la taxe jusqu'au 1er juillet 2027 ; le 6 novembre, le DOJ, la Chambre de commerce américaine et la SIFMA soutiennent le recours ; le 11 novembre, une coalition DeFi menée par a16z, Paradigm et Uniswap dépose un mémoire",
+      "de": "Zeitleiste: Im Juli verklagt die Digital Chamber Beamte in Illinois; im August reichen Blockchain Association und Crypto Council for Innovation eine zweite Klage ein; im Oktober setzt Illinois die Steuer bis zum 1. Juli 2027 aus; am 6. November unterstützen DOJ, US-Handelskammer und SIFMA die Klage; am 11. November reicht eine DeFi-Koalition unter Führung von a16z, Paradigm und Uniswap einen Schriftsatz ein",
+      "ru": "Хронология: в июле Digital Chamber подала иск против чиновников Иллинойса; в августе Blockchain Association и Crypto Council for Innovation подали второй иск; в октябре Иллинойс согласился приостановить налог до 1 июля 2027 года; 6 ноября Минюст США, Торговая палата США и SIFMA поддержали иск; 11 ноября DeFi-коалиция во главе с a16z, Paradigm и Uniswap подала свою записку",
+      "tr": "Zaman çizelgesi: Temmuz'da Digital Chamber Illinois yetkililerine dava açtı; Ağustos'ta Blockchain Association ve Crypto Council for Innovation ikinci bir dava açtı; Ekim'de Illinois vergiyi 1 Temmuz 2027'ye kadar askıya almayı kabul etti; 6 Kasım'da ABD Adalet Bakanlığı, ABD Ticaret Odası ve SIFMA davayı destekledi; 11 Kasım'da a16z, Paradigm ve Uniswap liderliğindeki bir DeFi koalisyonu görüş sundu",
+      "id": "Linimasa: Juli, Digital Chamber menggugat pejabat Illinois; Agustus, Blockchain Association dan Crypto Council for Innovation mengajukan gugatan kedua; Oktober, Illinois setuju menunda pajak hingga 1 Juli 2027; 6 November, DOJ, Kamar Dagang AS, dan SIFMA mendukung gugatan; 11 November, koalisi DeFi yang dipimpin a16z, Paradigm, dan Uniswap mengajukan berkas",
+      "ja": "時系列：7月、Digital Chamberがイリノイ州当局を提訴。8月、Blockchain AssociationとCrypto Council for Innovationが2件目の訴訟。10月、州が2027年7月1日まで課税停止に同意。11月6日、米司法省、米商工会議所、SIFMAが訴訟を支持。11月11日、a16z、Paradigm、Uniswapが主導するDeFi連合が意見書を提出",
+      "ko": "타임라인: 7월 디지털 챔버가 일리노이주 당국자를 제소, 8월 블록체인 협회와 크립토 카운슬 포 이노베이션이 두 번째 소송 제기, 10월 일리노이주가 2027년 7월 1일까지 세금 유예에 동의, 11월 6일 미 법무부·미 상공회의소·SIFMA가 소송 지지, 11월 11일 a16z·패러다임·유니스왑이 이끄는 디파이 연합이 의견서 제출"
+    },
+    "caption": {
+      "en": "Source: Cointelegraph; Decrypt; Blockchain Association",
+      "es": "Fuente: Cointelegraph; Decrypt; Blockchain Association",
+      "pt": "Fonte: Cointelegraph; Decrypt; Blockchain Association",
+      "fr": "Source : Cointelegraph; Decrypt; Blockchain Association",
+      "de": "Quelle: Cointelegraph; Decrypt; Blockchain Association",
+      "ru": "Источник: Cointelegraph; Decrypt; Blockchain Association",
+      "tr": "Kaynak: Cointelegraph; Decrypt; Blockchain Association",
+      "id": "Sumber: Cointelegraph; Decrypt; Blockchain Association",
+      "ja": "出典: Cointelegraph; Decrypt; Blockchain Association",
+      "ko": "출처: Cointelegraph; Decrypt; Blockchain Association"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-illinois-holders.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: an estimated 2.64 million Illinois residents hold digital assets, the fifth-highest total of any state, according to the DeFi coalition's brief; the tax is 0.2% of an asset's full value",
+      "es": "Tarjeta: se estima que 2,64 millones de residentes de Illinois tienen activos digitales, la quinta cifra más alta de cualquier estado, según el escrito de la coalición DeFi; el impuesto es del 0,2% del valor total del activo",
+      "pt": "Cartão: estima-se que 2,64 milhões de moradores de Illinois tenham ativos digitais, o quinto maior total entre os estados, segundo o parecer da coalizão DeFi; o imposto é de 0,2% do valor total do ativo",
+      "fr": "Encadré : environ 2,64 millions d'habitants de l'Illinois détiendraient des actifs numériques, le cinquième total le plus élevé des États, selon le mémoire de la coalition DeFi ; la taxe est de 0,2 % de la valeur totale de l'actif",
+      "de": "Faktenkarte: Schätzungsweise 2,64 Millionen Einwohner von Illinois besitzen digitale Vermögenswerte, die fünfthöchste Zahl aller Bundesstaaten, so der Schriftsatz der DeFi-Koalition; die Steuer beträgt 0,2 % des vollen Werts",
+      "ru": "Карточка: по оценке из записки DeFi-коалиции, цифровыми активами владеют около 2,64 млн жителей Иллинойса, это пятый показатель среди штатов; налог составляет 0,2% от полной стоимости актива",
+      "tr": "Kart: DeFi koalisyonunun görüşüne göre tahminen 2,64 milyon Illinois sakini dijital varlık tutuyor, bu eyaletler arasında beşinci en yüksek sayı; vergi, varlığın tam değerinin %0,2'si",
+      "id": "Kartu fakta: diperkirakan 2,64 juta penduduk Illinois memegang aset digital, tertinggi kelima di antara negara bagian, menurut berkas koalisi DeFi; pajaknya 0,2% dari nilai penuh aset",
+      "ja": "カード：DeFi連合の意見書によると、デジタル資産を保有するイリノイ州民は推定264万人で全米5位。税率は資産の全額の0.2%",
+      "ko": "카드: 디파이 연합 의견서에 따르면 디지털 자산을 보유한 일리노이 주민은 약 264만 명으로 주별 5위이며, 세금은 자산 전체 가치의 0.2%"
+    },
+    "caption": {
+      "en": "Source: DeFi coalition brief, via Decrypt",
+      "es": "Fuente: DeFi coalition brief, via Decrypt",
+      "pt": "Fonte: DeFi coalition brief, via Decrypt",
+      "fr": "Source : DeFi coalition brief, via Decrypt",
+      "de": "Quelle: DeFi coalition brief, via Decrypt",
+      "ru": "Источник: DeFi coalition brief, via Decrypt",
+      "tr": "Kaynak: DeFi coalition brief, via Decrypt",
+      "id": "Sumber: DeFi coalition brief, via Decrypt",
+      "ja": "出典: DeFi coalition brief, via Decrypt",
+      "ko": "출처: DeFi coalition brief, via Decrypt"
+    }
+  }
+]

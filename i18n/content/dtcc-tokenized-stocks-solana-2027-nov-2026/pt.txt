@@ -1,0 +1,58 @@
+title: DTCC planeja levar ações, ETFs e títulos do Tesouro tokenizados à Solana em 2027
+page_title: DTCC levará ações e títulos tokenizados à Solana
+description: A Depository Trust & Clearing Corporation, que guarda US$ 114 trilhões em valores mobiliários, vai conectar seu serviço de tokenização à Solana no segundo semestre de 2027. Entenda o que isso significa.
+og_description: A DTCC vai permitir que ações, ETFs de índices e títulos do Tesouro dos EUA elegíveis custodiados na DTC virem tokens na Solana no segundo semestre de 2027, com os mesmos direitos de propriedade dos títulos tradicionais.
+label: Negócios
+summary: A DTCC, gigante da liquidação de Wall Street, vai conectar seu serviço de tokenização à Solana no segundo semestre de 2027, levando ações, ETFs e títulos do Tesouro tokenizados à rede.
+===
+
+A empresa no centro da infraestrutura do mercado de ações dos EUA está adicionando mais uma blockchain pública aos seus planos. A Depository Trust & Clearing Corporation (<strong>DTCC</strong>) anunciou na quinta-feira, 12 de novembro, que vai conectar seu serviço de tokenização à <strong>Solana</strong>, com ativos tokenizados previstos na rede no <strong>segundo semestre de 2027</strong>, segundo seu [comunicado](L1).
+
+Com a conexão, os títulos elegíveis custodiados pela subsidiária Depository Trust Company (DTC) poderão virar tokens na Solana. Pela carta de não objeção que a SEC concedeu em dezembro passado, a lista inclui ações do Russell 1000, ETFs que acompanham os principais índices de ações dos EUA e letras, notas e títulos do Tesouro americano, informou o [The Block](L3).
+
+!takeaways
+- A DTCC planeja conectar seu serviço de tokenização à Solana no segundo semestre de 2027.
+- Os ativos elegíveis incluem ações do Russell 1000, ETFs dos principais índices e títulos do Tesouro dos EUA custodiados na DTC.
+- A DTCC diz que os tokens mantêm os mesmos direitos de propriedade e proteções ao investidor dos títulos tradicionais.
+- O serviço foi lançado em 28 de outubro na Canton Network e na rede privada Besu da DTCC; Stellar e a Arc, da Circle, também estão previstas para 2027.
+
+## O que a DTCC faz e o que está construindo
+
+Pouca gente conhece a DTCC, mas ela está por trás de boa parte das negociações de valores mobiliários nos EUA. Por meio da DTC, guarda cerca de <strong>US$ 114 trilhões</strong> em títulos para bancos e corretoras, informou o [CoinDesk](L2). Quando você compra uma ação por uma corretora, o registro dessa ação geralmente vai parar na DTC.
+
+O serviço de tokenização da DTCC (DTS) entrou no ar em 28 de outubro. Ele cria "gêmeos digitais" tokenizados de títulos custodiados na DTC, e os usuários podem convertê-los de volta em ações comuns. O serviço começou com 34 títulos elegíveis, que somam cerca de US$ 30 trilhões, informou o CoinDesk. Esse valor é o que pode ser tokenizado, não o que já está em uma blockchain.
+
+!figure:chart
+
+As primeiras operações reais limitadas ocorreram em julho na Canton e na Besu, e o JPMorgan tokenizou parte de suas posições no Invesco QQQ Trust no teste, informou o The Block. No lançamento, a DTCC citou 20 empresas que assinaram para usar o serviço, entre elas Bank of America, Citi, JPMorgan, Morgan Stanley e UBS.
+
+## Por que a Solana
+
+A Solana já abriga cerca de US$ 600 milhões em ações tokenizadas, atrás apenas da BNB Chain e do Ethereum, segundo dados da RWA.xyz citados pelo CoinDesk. Mas a maior parte dessa atividade é de tokens sintéticos, que acompanham o preço de uma ação sem dar aos detentores os direitos de acionistas de verdade.
+
+A DTCC diz que sua versão é diferente. Os ativos tokenizados pela DTC na Solana "manterão as mesmas proteções ao investidor, direitos de propriedade e salvaguardas regulatórias que se aplicam aos títulos mantidos de forma tradicional", disse Brian Steele, presidente da DTCC Clearing & Securities Services.
+
+!mid_cta
+
+"As instituições escolhem a Solana porque ela já processa atividade financeira real em grande escala", disse Nick Ducoff, gerente-geral da área institucional da Solana Foundation. Segundo o [Decrypt](L4), a Solana se junta à Stellar e à blockchain Arc, da Circle, no roteiro da DTCC para 2027.
+
+!figure:timeline
+
+## O que isso significa para iniciantes
+
+Nada muda na sua conta na corretora hoje. O DTS foi criado para bancos, corretoras e outras instituições, e a conexão com a Solana ainda está a mais de meio ano. No longo prazo, títulos tokenizados podem facilitar a movimentação de ações e títulos fora do horário normal do mercado ou o seu uso como garantia. O Citi estima que o mercado de ativos tokenizados, incluindo ações, pode chegar a US$ 5,5 trilhões até 2030, informou o CoinDesk.
+
+Para quem investe em cripto, a notícia mostra que grandes instituições financeiras estão construindo sobre blockchains públicas. Ela não garante nada sobre o preço do SOL, o token da Solana, que caiu junto com o resto do mercado cripto na sexta-feira. Se você quer comprar SOL ou bitcoin, use uma plataforma regulamentada disponível no seu país (nos EUA, por exemplo, a [Coinbase](REF)) e confira condições e taxas antes de se cadastrar. Invista apenas o que pode perder. Isto não é recomendação de investimento.
+
+## O que acompanhar
+
+- Quais corretoras e bancos vão começar a emitir ativos tokenizados pela DTC na Solana quando a conexão entrar no ar.
+- O avanço das outras redes previstas pela DTCC, Stellar e a Arc, da Circle.
+- Se a SEC amplia a lista de títulos que podem ser tokenizados.
+- Como as plataformas de ações tokenizadas para clientes nos EUA evoluem enquanto isso.
+
+!soft: Veja como as ações tokenizadas já chegam aos investidores dos EUA: [OKX e ICE, dona da Bolsa de Nova York, marcam para 23 de novembro o lançamento da negociação 24/7 de ações tokenizadas nos EUA](/articles/okxice-tokenized-stocks-launch-nov-23-2026).
+
+!end_cta
+
+!disclosure

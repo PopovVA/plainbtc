@@ -32,6 +32,16 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "illinois-crypto-tax-doj-defi-challenge-nov-2026",
+        "DOJ, Wall Street and DeFi firms back lawsuit against Illinois' 0.2% crypto tax",
+        "REGULATION",
+    ),
+    (
+        "dtcc-tokenized-stocks-solana-2027-nov-2026",
+        "DTCC plans to bring tokenized stocks, ETFs and Treasuries to Solana in 2027",
+        "BUSINESS",
+    ),
+    (
         "trump-nominates-sec-cftc-commissioners-peirce-nov-2026",
         "Trump names four SEC and CFTC nominees, including a Peirce successor",
         "REGULATION",
@@ -155,6 +165,14 @@ ARTICLES = [
 # used for identification only). Each entry: (image URL, tile background RGB).
 WIKI = "https://upload.wikimedia.org/wikipedia/commons/"
 OG_LOGOS: dict[str, list[tuple[str, tuple[int, int, int]]]] = {
+    "illinois-crypto-tax-doj-defi-challenge-nov-2026": [
+        (WIKI + "e/e7/Seal_of_Illinois.svg", (255, 255, 255)),
+        (WIKI + "5/54/Seal_of_the_United_States_Department_of_Justice.svg", (255, 255, 255)),
+    ],
+    "dtcc-tokenized-stocks-solana-2027-nov-2026": [
+        (WIKI + "7/73/Depository_Trust_%26_Clearing_Corporation_logo.svg", (255, 255, 255)),
+        ("https://cryptologos.cc/logos/solana-sol-logo.svg", (0, 0, 0)),
+    ],
     "trump-nominates-sec-cftc-commissioners-peirce-nov-2026": [
         (WIKI + "1/1c/Seal_of_the_United_States_Securities_and_Exchange_Commission.svg", (255, 255, 255)),
         (WIKI + "3/3e/Commodity_Futures_Trading_Commission_seal.svg", (255, 255, 255)),

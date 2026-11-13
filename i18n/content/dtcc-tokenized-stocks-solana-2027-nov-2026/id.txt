@@ -1,0 +1,58 @@
+title: DTCC berencana membawa saham, ETF, dan obligasi Treasury tokenisasi ke Solana pada 2027
+page_title: DTCC bawa saham dan obligasi tokenisasi ke Solana
+description: Depository Trust & Clearing Corporation, yang menyimpan efek senilai US$114 triliun, akan menghubungkan layanan tokenisasinya ke Solana pada paruh kedua 2027. Inilah artinya dalam bahasa sederhana.
+og_description: DTCC akan memungkinkan saham, ETF indeks, dan obligasi Treasury AS yang memenuhi syarat dan disimpan di DTC menjadi token di Solana pada paruh kedua 2027, dengan hak kepemilikan yang sama seperti efek biasa.
+label: Bisnis
+summary: Raksasa penyelesaian transaksi Wall Street, DTCC, akan menghubungkan layanan tokenisasinya ke Solana pada paruh kedua 2027 dan membawa saham, ETF, serta obligasi Treasury tokenisasi ke jaringan itu.
+===
+
+Perusahaan yang menjadi pusat infrastruktur pasar saham AS menambah satu blockchain publik lagi ke dalam rencananya. Depository Trust & Clearing Corporation (<strong>DTCC</strong>) mengumumkan pada Kamis, 12 November, bahwa mereka akan menghubungkan layanan tokenisasinya ke <strong>Solana</strong>, dengan aset tokenisasi diharapkan hadir di jaringan itu pada <strong>paruh kedua 2027</strong>, menurut [siaran persnya](L1).
+
+Setelah terhubung, efek yang memenuhi syarat dan disimpan di anak usahanya, Depository Trust Company (DTC), bisa diubah menjadi token di Solana. Berdasarkan surat no-action yang diberikan SEC Desember lalu, daftarnya mencakup saham Russell 1000, ETF yang melacak indeks saham utama AS, serta surat utang, note, dan obligasi Treasury AS, lapor [The Block](L3).
+
+!takeaways
+- DTCC berencana menghubungkan layanan tokenisasinya ke Solana pada paruh kedua 2027.
+- Aset yang memenuhi syarat mencakup saham Russell 1000, ETF indeks utama, dan obligasi Treasury AS yang disimpan di DTC.
+- Menurut DTCC, token tersebut mempertahankan hak kepemilikan dan perlindungan investor yang sama dengan efek biasa.
+- Layanan ini diluncurkan 28 Oktober di Canton Network dan jaringan privat Besu milik DTCC; Stellar dan Arc milik Circle juga direncanakan untuk 2027.
+
+## Apa yang dilakukan DTCC dan apa yang dibangunnya
+
+Tidak banyak orang mengenal DTCC, padahal perusahaan ini berada di balik sebagian besar perdagangan efek di AS. Melalui DTC, DTCC menyimpan efek senilai sekitar <strong>US$114 triliun</strong> untuk bank dan broker, lapor [CoinDesk](L2). Saat Anda membeli saham lewat broker, catatan saham itu biasanya berakhir di DTC.
+
+Layanan Tokenisasi DTCC (DTS) mulai beroperasi pada 28 Oktober. Layanan ini membuat "kembaran digital" tokenisasi dari efek yang disimpan di DTC, dan pengguna bisa mengubahnya kembali menjadi saham biasa. Layanan ini dimulai dengan 34 efek yang memenuhi syarat senilai sekitar US$30 triliun, lapor CoinDesk. Angka itu adalah nilai yang bisa ditokenisasi, bukan yang sudah ada di blockchain.
+
+!figure:chart
+
+Transaksi nyata terbatas pertama berlangsung pada Juli di Canton dan Besu, dan JPMorgan menokenisasi sebagian kepemilikannya di Invesco QQQ Trust dalam uji coba itu, lapor The Block. Saat peluncuran, DTCC menyebut 20 perusahaan yang telah menandatangani perjanjian untuk memakai layanan ini, termasuk Bank of America, Citi, JPMorgan, Morgan Stanley, dan UBS.
+
+## Mengapa Solana
+
+Solana sudah menampung saham tokenisasi senilai sekitar US$600 juta, hanya kalah dari BNB Chain dan Ethereum, menurut data RWA.xyz yang dikutip CoinDesk. Namun sebagian besar aktivitas itu berupa token saham sintetis, yang mengikuti harga saham tanpa memberi pemegangnya hak pemegang saham sungguhan.
+
+DTCC menyatakan versinya berbeda. Aset tokenisasi DTC di Solana "akan mempertahankan perlindungan investor, hak kepemilikan, dan pengaman regulasi yang sama dengan yang berlaku untuk efek yang dipegang secara tradisional," kata Brian Steele, presiden DTCC Clearing & Securities Services.
+
+!mid_cta
+
+"Institusi memilih Solana karena jaringan ini sudah menjalankan aktivitas keuangan nyata dalam skala besar," kata Nick Ducoff, manajer umum bisnis institusional di Solana Foundation. Menurut [Decrypt](L4), Solana bergabung dengan Stellar dan blockchain Arc milik Circle dalam peta jalan DTCC untuk 2027.
+
+!figure:timeline
+
+## Apa artinya bagi pemula
+
+Tidak ada yang berubah di akun broker Anda hari ini. DTS dirancang untuk bank, broker, dan institusi lain, dan koneksi ke Solana masih lebih dari setengah tahun lagi. Dalam jangka panjang, efek tokenisasi bisa memudahkan pemindahan saham dan obligasi di luar jam pasar normal atau pemakaiannya sebagai jaminan. Citi memperkirakan pasar aset tokenisasi, termasuk saham, bisa mencapai US$5,5 triliun pada 2030, lapor CoinDesk.
+
+Bagi investor kripto, kabar ini menunjukkan bahwa perusahaan keuangan besar sedang membangun di atas blockchain publik. Namun kabar ini tidak menjamin apa pun soal harga SOL, token Solana, yang turun bersama pasar kripto lainnya pada Jumat. Jika ingin membeli SOL atau bitcoin sendiri, gunakan platform yang diatur di negara Anda (di AS misalnya [Coinbase](REF)) dan periksa ketentuan serta biayanya sebelum mendaftar. Hanya investasikan dana yang siap Anda tanggung kerugiannya. Ini bukan nasihat investasi.
+
+## Yang perlu dicermati
+
+- Broker dan bank mana yang mulai menerbitkan aset tokenisasi DTC di Solana setelah koneksi aktif.
+- Kemajuan jaringan lain yang direncanakan DTCC, yaitu Stellar dan Arc milik Circle.
+- Apakah SEC memperluas daftar efek yang boleh ditokenisasi.
+- Bagaimana platform saham tokenisasi untuk nasabah AS berkembang sementara itu.
+
+!soft: Lihat bagaimana saham tokenisasi kini menjangkau investor AS: [OKX dan ICE, pemilik NYSE, tetapkan 23 November untuk peluncuran perdagangan saham tokenisasi 24/7 di AS](/articles/okxice-tokenized-stocks-launch-nov-23-2026).
+
+!end_cta
+
+!disclosure

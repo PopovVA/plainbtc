@@ -2042,6 +2042,116 @@ SECNOM_FACT_ALTS = {
 }
 
 
+def build_illinois_tax():
+    slug = "illinois-crypto-tax-doj-defi-challenge-nov-2026"
+    d = OUT / slug
+    # Cointelegraph (Nov 12, 2026), Decrypt (Nov 12, 2026), Blockchain Association release (Nov 4, 2026).
+    tl = make_timeline_card(
+        d / "timeline-illinois-tax-challenge",
+        "The fight over Illinois' crypto tax",
+        [
+            ("July", "Digital Chamber sues Illinois officials", (96, 165, 250)),
+            ("Aug.", "Blockchain Association and CCI file a second challenge", (96, 165, 250)),
+            ("Oct.", "Illinois agrees to pause the tax until July 1, 2027", (52, 211, 153)),
+            ("Nov. 6", "DOJ, U.S. Chamber and SIFMA back the challenge", ORANGE),
+            ("Nov. 11", "DeFi coalition led by a16z, Paradigm, Uniswap files a brief", ORANGE),
+        ],
+        footer="Cointelegraph; Decrypt; Blockchain Association · Nov. 2026",
+        margin=130, wrap_w=200,
+    )
+    card = make_fact_card(
+        d / "fact-illinois-holders",
+        label="Who it could reach",
+        big="2.64 million",
+        sub="Illinois residents estimated to hold digital assets, the fifth-highest total of any state, per the DeFi coalition's brief. The tax: 0.2% of an asset's full value.",
+        footer="DeFi coalition brief, via Decrypt · Nov. 11, 2026",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: in July the Digital Chamber sued Illinois officials; in August the Blockchain Association and Crypto Council for Innovation filed a second challenge; in October Illinois agreed to pause the tax until July 1, 2027; on Nov. 6 the DOJ, U.S. Chamber of Commerce and SIFMA backed the challenge; on Nov. 11 a DeFi coalition led by a16z, Paradigm and Uniswap filed a brief", {
+            "es": "Cronología: en julio la Digital Chamber demandó a funcionarios de Illinois; en agosto la Blockchain Association y el Crypto Council for Innovation presentaron una segunda impugnación; en octubre Illinois aceptó suspender el impuesto hasta el 1 de julio de 2027; el 6 de noviembre el DOJ, la Cámara de Comercio de EE. UU. y SIFMA respaldaron la demanda; el 11 de noviembre una coalición DeFi liderada por a16z, Paradigm y Uniswap presentó un escrito",
+            "pt": "Linha do tempo: em julho a Digital Chamber processou autoridades de Illinois; em agosto a Blockchain Association e o Crypto Council for Innovation abriram uma segunda ação; em outubro Illinois aceitou suspender o imposto até 1º de julho de 2027; em 6 de novembro o DOJ, a Câmara de Comércio dos EUA e a SIFMA apoiaram a ação; em 11 de novembro uma coalizão DeFi liderada por a16z, Paradigm e Uniswap apresentou um parecer",
+            "fr": "Chronologie : en juillet, la Digital Chamber attaque des responsables de l'Illinois ; en août, la Blockchain Association et le Crypto Council for Innovation déposent un second recours ; en octobre, l'Illinois accepte de suspendre la taxe jusqu'au 1er juillet 2027 ; le 6 novembre, le DOJ, la Chambre de commerce américaine et la SIFMA soutiennent le recours ; le 11 novembre, une coalition DeFi menée par a16z, Paradigm et Uniswap dépose un mémoire",
+            "de": "Zeitleiste: Im Juli verklagt die Digital Chamber Beamte in Illinois; im August reichen Blockchain Association und Crypto Council for Innovation eine zweite Klage ein; im Oktober setzt Illinois die Steuer bis zum 1. Juli 2027 aus; am 6. November unterstützen DOJ, US-Handelskammer und SIFMA die Klage; am 11. November reicht eine DeFi-Koalition unter Führung von a16z, Paradigm und Uniswap einen Schriftsatz ein",
+            "ru": "Хронология: в июле Digital Chamber подала иск против чиновников Иллинойса; в августе Blockchain Association и Crypto Council for Innovation подали второй иск; в октябре Иллинойс согласился приостановить налог до 1 июля 2027 года; 6 ноября Минюст США, Торговая палата США и SIFMA поддержали иск; 11 ноября DeFi-коалиция во главе с a16z, Paradigm и Uniswap подала свою записку",
+            "tr": "Zaman çizelgesi: Temmuz'da Digital Chamber Illinois yetkililerine dava açtı; Ağustos'ta Blockchain Association ve Crypto Council for Innovation ikinci bir dava açtı; Ekim'de Illinois vergiyi 1 Temmuz 2027'ye kadar askıya almayı kabul etti; 6 Kasım'da ABD Adalet Bakanlığı, ABD Ticaret Odası ve SIFMA davayı destekledi; 11 Kasım'da a16z, Paradigm ve Uniswap liderliğindeki bir DeFi koalisyonu görüş sundu",
+            "id": "Linimasa: Juli, Digital Chamber menggugat pejabat Illinois; Agustus, Blockchain Association dan Crypto Council for Innovation mengajukan gugatan kedua; Oktober, Illinois setuju menunda pajak hingga 1 Juli 2027; 6 November, DOJ, Kamar Dagang AS, dan SIFMA mendukung gugatan; 11 November, koalisi DeFi yang dipimpin a16z, Paradigm, dan Uniswap mengajukan berkas",
+            "ja": "時系列：7月、Digital Chamberがイリノイ州当局を提訴。8月、Blockchain AssociationとCrypto Council for Innovationが2件目の訴訟。10月、州が2027年7月1日まで課税停止に同意。11月6日、米司法省、米商工会議所、SIFMAが訴訟を支持。11月11日、a16z、Paradigm、Uniswapが主導するDeFi連合が意見書を提出",
+            "ko": "타임라인: 7월 디지털 챔버가 일리노이주 당국자를 제소, 8월 블록체인 협회와 크립토 카운슬 포 이노베이션이 두 번째 소송 제기, 10월 일리노이주가 2027년 7월 1일까지 세금 유예에 동의, 11월 6일 미 법무부·미 상공회의소·SIFMA가 소송 지지, 11월 11일 a16z·패러다임·유니스왑이 이끄는 디파이 연합이 의견서 제출",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Cointelegraph; Decrypt; Blockchain Association")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: an estimated 2.64 million Illinois residents hold digital assets, the fifth-highest total of any state, according to the DeFi coalition's brief; the tax is 0.2% of an asset's full value", {
+            "es": "Tarjeta: se estima que 2,64 millones de residentes de Illinois tienen activos digitales, la quinta cifra más alta de cualquier estado, según el escrito de la coalición DeFi; el impuesto es del 0,2% del valor total del activo",
+            "pt": "Cartão: estima-se que 2,64 milhões de moradores de Illinois tenham ativos digitais, o quinto maior total entre os estados, segundo o parecer da coalizão DeFi; o imposto é de 0,2% do valor total do ativo",
+            "fr": "Encadré : environ 2,64 millions d'habitants de l'Illinois détiendraient des actifs numériques, le cinquième total le plus élevé des États, selon le mémoire de la coalition DeFi ; la taxe est de 0,2 % de la valeur totale de l'actif",
+            "de": "Faktenkarte: Schätzungsweise 2,64 Millionen Einwohner von Illinois besitzen digitale Vermögenswerte, die fünfthöchste Zahl aller Bundesstaaten, so der Schriftsatz der DeFi-Koalition; die Steuer beträgt 0,2 % des vollen Werts",
+            "ru": "Карточка: по оценке из записки DeFi-коалиции, цифровыми активами владеют около 2,64 млн жителей Иллинойса, это пятый показатель среди штатов; налог составляет 0,2% от полной стоимости актива",
+            "tr": "Kart: DeFi koalisyonunun görüşüne göre tahminen 2,64 milyon Illinois sakini dijital varlık tutuyor, bu eyaletler arasında beşinci en yüksek sayı; vergi, varlığın tam değerinin %0,2'si",
+            "id": "Kartu fakta: diperkirakan 2,64 juta penduduk Illinois memegang aset digital, tertinggi kelima di antara negara bagian, menurut berkas koalisi DeFi; pajaknya 0,2% dari nilai penuh aset",
+            "ja": "カード：DeFi連合の意見書によると、デジタル資産を保有するイリノイ州民は推定264万人で全米5位。税率は資産の全額の0.2%",
+            "ko": "카드: 디파이 연합 의견서에 따르면 디지털 자산을 보유한 일리노이 주민은 약 264만 명으로 주별 5위이며, 세금은 자산 전체 가치의 0.2%",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="DeFi coalition brief, via Decrypt")},
+    ]
+
+
+def build_dtcc_solana():
+    slug = "dtcc-tokenized-stocks-solana-2027-nov-2026"
+    d = OUT / slug
+    # CoinDesk (Nov 12, 2026): DTC holds $114 trillion in securities; DTS debuted with 34 eligible securities worth ~$30 trillion.
+    chart = make_bar_chart(
+        d / "chart-dtc-custody-vs-eligible",
+        ["Securities held at DTC", "Eligible for tokenization\n(34 securities)"],
+        [114, 30],
+        "DTCC's scale: custody vs. assets eligible for its tokenization service",
+        colors=["#60a5fa", "#f7931a"],
+        value_fmt=lambda v: f"${v:g} trillion" if v != 30 else "about $30 trillion",
+        axis_fmt=lambda x, _p: f"${x:g}T",
+    )
+    # DTCC press release (Nov 12, 2026); The Block; CoinDesk.
+    tl = make_timeline_card(
+        d / "timeline-dtcc-tokenization",
+        "DTCC's road to Solana",
+        [
+            ("July", "First limited tokenized trades on Canton and Besu", (96, 165, 250)),
+            ("Oct. 28", "DTCC Tokenization Service launches", (52, 211, 153)),
+            ("Nov. 12", "DTCC announces plans to connect to Solana", ORANGE),
+            ("H2 2027", "DTC-tokenized assets expected on Solana", ORANGE),
+        ],
+        footer="DTCC press release; The Block; CoinDesk · Nov. 12, 2026",
+        margin=170, wrap_w=240,
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart: DTC holds $114 trillion in securities, while the 34 securities eligible for DTCC's tokenization service represent about $30 trillion", {
+            "es": "Gráfico de barras: DTC custodia 114 billones de dólares en valores, mientras que los 34 valores elegibles para el servicio de tokenización de DTCC suman unos 30 billones",
+            "pt": "Gráfico de barras: a DTC guarda US$ 114 trilhões em valores mobiliários, enquanto os 34 títulos elegíveis ao serviço de tokenização da DTCC somam cerca de US$ 30 trilhões",
+            "fr": "Graphique en barres : la DTC conserve 114 000 milliards de dollars de titres, tandis que les 34 titres éligibles au service de tokenisation de la DTCC représentent environ 30 000 milliards",
+            "de": "Balkendiagramm: Die DTC verwahrt Wertpapiere im Wert von 114 Billionen $, die 34 für den Tokenisierungsdienst der DTCC zugelassenen Wertpapiere stehen für rund 30 Billionen $",
+            "ru": "Столбчатая диаграмма: DTC хранит ценные бумаги на $114 трлн, а 34 бумаги, допущенные к токенизации в сервисе DTCC, стоят около $30 трлн",
+            "tr": "Çubuk grafik: DTC 114 trilyon dolarlık menkul kıymet saklıyor; DTCC'nin tokenizasyon hizmetine uygun 34 menkul kıymet ise yaklaşık 30 trilyon dolar değerinde",
+            "id": "Grafik batang: DTC menyimpan efek senilai US$114 triliun, sedangkan 34 efek yang memenuhi syarat untuk layanan tokenisasi DTCC bernilai sekitar US$30 triliun",
+            "ja": "棒グラフ：DTCが保管する証券は114兆ドル、DTCCのトークン化サービスの対象となる34銘柄は約30兆ドル",
+            "ko": "막대 차트: DTC가 보관하는 증권은 114조 달러, DTCC 토큰화 서비스 대상 34개 종목은 약 30조 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="CoinDesk, DTCC")},
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: in July, first limited tokenized trades on Canton and Besu; on Oct. 28, the DTCC Tokenization Service launched; on Nov. 12, DTCC announced plans to connect to Solana; in the second half of 2027, DTC-tokenized assets are expected on Solana", {
+            "es": "Cronología: en julio, primeras operaciones tokenizadas limitadas en Canton y Besu; el 28 de octubre se lanzó el servicio de tokenización de DTCC; el 12 de noviembre DTCC anunció su conexión con Solana; en el segundo semestre de 2027 se esperan activos tokenizados de DTC en Solana",
+            "pt": "Linha do tempo: em julho, primeiras operações tokenizadas limitadas na Canton e na Besu; em 28 de outubro, lançamento do serviço de tokenização da DTCC; em 12 de novembro, a DTCC anunciou a conexão com a Solana; no segundo semestre de 2027, ativos tokenizados da DTC devem chegar à Solana",
+            "fr": "Chronologie : en juillet, premières transactions tokenisées limitées sur Canton et Besu ; le 28 octobre, lancement du service de tokenisation de la DTCC ; le 12 novembre, la DTCC annonce sa connexion à Solana ; au second semestre 2027, des actifs tokenisés de la DTC sont attendus sur Solana",
+            "de": "Zeitleiste: Im Juli erste begrenzte tokenisierte Geschäfte auf Canton und Besu; am 28. Oktober Start des DTCC-Tokenisierungsdienstes; am 12. November kündigt die DTCC die Anbindung an Solana an; in der zweiten Jahreshälfte 2027 sollen DTC-tokenisierte Werte auf Solana verfügbar sein",
+            "ru": "Хронология: в июле первые ограниченные сделки с токенизированными бумагами в Canton и Besu; 28 октября запущен сервис токенизации DTCC; 12 ноября DTCC объявила о подключении к Solana; во второй половине 2027 года токенизированные активы DTC должны появиться в Solana",
+            "tr": "Zaman çizelgesi: Temmuz'da Canton ve Besu'da ilk sınırlı tokenize işlemler; 28 Ekim'de DTCC Tokenizasyon Hizmeti başladı; 12 Kasım'da DTCC Solana bağlantısını duyurdu; 2027'nin ikinci yarısında DTC tokenize varlıklarının Solana'da olması bekleniyor",
+            "id": "Linimasa: Juli, transaksi tokenisasi terbatas pertama di Canton dan Besu; 28 Oktober, Layanan Tokenisasi DTCC diluncurkan; 12 November, DTCC mengumumkan rencana terhubung ke Solana; paruh kedua 2027, aset tokenisasi DTC diharapkan hadir di Solana",
+            "ja": "時系列：7月、CantonとBesuで初の限定的なトークン化取引。10月28日、DTCCトークン化サービス開始。11月12日、DTCCがSolanaへの接続計画を発表。2027年後半、DTCのトークン化資産がSolanaで利用可能になる見通し",
+            "ko": "타임라인: 7월 캔턴과 베수에서 첫 제한적 토큰화 거래, 10월 28일 DTCC 토큰화 서비스 출시, 11월 12일 DTCC가 솔라나 연결 계획 발표, 2027년 하반기 DTC 토큰화 자산이 솔라나에 나올 예정",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="DTCC press release; The Block; CoinDesk")},
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -2070,6 +2180,8 @@ BUILDERS = {
     "doj-seizes-1-2-billion-binance-hack-north-korea-nov-2026": "dojseize",
     "bitcoin-below-70000-200-week-average-nov-2026": "btc70k",
     "trump-nominates-sec-cftc-commissioners-peirce-nov-2026": "secnom",
+    "illinois-crypto-tax-doj-defi-challenge-nov-2026": "iltax",
+    "dtcc-tokenized-stocks-solana-2027-nov-2026": "dtccsol",
 }
 
 
@@ -2135,6 +2247,10 @@ def build_slug(slug: str, btc=None):
         figs = build_btc_below_70k()
     elif key == "secnom":
         figs = build_sec_cftc_nominees()
+    elif key == "iltax":
+        figs = build_illinois_tax()
+    elif key == "dtccsol":
+        figs = build_dtcc_solana()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

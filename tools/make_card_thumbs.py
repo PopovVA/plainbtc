@@ -692,6 +692,50 @@ def thumb_sec_cftc_nominees():
     ],"note":"Editorial composite for identification; no endorsement implied."}
 
 
+def thumb_illinois_tax():
+    il = fetch("https://upload.wikimedia.org/wikipedia/commons/e/e7/Seal_of_Illinois.svg", CACHE/"illinois-seal.svg")
+    doj = fetch("https://upload.wikimedia.org/wikipedia/commons/5/54/Seal_of_the_United_States_Department_of_Justice.svg", CACHE/"doj-seal.svg")
+    cap = fetch("https://upload.wikimedia.org/wikipedia/commons/7/70/State_Capitol_in_Springfield%2C_Illinois.jpg", CACHE/"illinois-capitol.jpg")
+    base = darken(cover_fit(ImageOps.exif_transpose(Image.open(cap)).convert("RGB"), cy=0.4), 140)
+    for logo, x in [(il, 130), (doj, 340)]:
+        disc = Image.new("RGBA", (170, 170), (0, 0, 0, 0))
+        ImageDraw.Draw(disc).ellipse([0, 0, 169, 169], fill=(255, 255, 255, 255))
+        base.paste(disc.convert("RGB"), (x, 70), disc)
+        paste_contain(base, Image.open(logo).convert("RGBA"), (x, 70, 170, 170), pad=8)
+    d = ImageDraw.Draw(base); f = font(FONT_B, 18); t = "0.2% digital asset tax challenged in court"
+    bb = d.textbbox((0,0), t, font=f); d.text(((W-(bb[2]-bb[0]))//2, 268), t, font=f, fill=WHITE)
+    label_chip(base, "Illinois crypto tax")
+    return base, {"kind":"composite","sources":[
+        {"file":"Seal_of_Illinois.svg","license":"Public domain","url":"https://commons.wikimedia.org/wiki/File:Seal_of_Illinois.svg","credit":"State of Illinois"},
+        {"file":"Seal_of_the_United_States_Department_of_Justice.svg","license":"Public domain (U.S. government)","url":"https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Department_of_Justice.svg","credit":"U.S. Department of Justice"},
+        {"file":"State_Capitol_in_Springfield,_Illinois.jpg","license":"CC0","url":"https://commons.wikimedia.org/wiki/File:State_Capitol_in_Springfield,_Illinois.jpg","credit":"PhilDaBirdMan / Wikimedia Commons"},
+    ],"note":"Editorial composite for identification; no endorsement implied."}
+
+
+def thumb_dtcc_solana():
+    dtcc = fetch("https://upload.wikimedia.org/wikipedia/commons/7/73/Depository_Trust_%26_Clearing_Corporation_logo.svg", CACHE/"dtcc-logo.svg")
+    sol = fetch("https://cryptologos.cc/logos/solana-sol-logo.svg", CACHE/"solana-logo.svg")
+    base = gradient_bg()
+    card_w, card_h, gap, y0 = 220, 170, 110, 70
+    x0 = (W - (2*card_w + gap))//2
+    for i, (logo, bg) in enumerate([(dtcc, (255,255,255)), (sol, (0,0,0))]):
+        x = x0 + i*(card_w+gap)
+        tile = Image.new("RGBA", (card_w, card_h), bg+(255,))
+        mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+        base.paste(tile.convert("RGB"), (x, y0), mask)
+        lg = Image.open(logo).convert("RGBA"); bgimg = Image.new("RGBA", lg.size, bg+(255,)); bgimg.paste(lg, (0,0), lg)
+        paste_contain(base, bgimg, (x, y0, card_w, card_h), pad=26)
+    d = ImageDraw.Draw(base); cx, cy = x0+card_w+gap//2, y0+card_h//2
+    d.line([(cx-36,cy),(cx+30,cy)], fill=ORANGE, width=5); d.polygon([(cx+30,cy-11),(cx+46,cy),(cx+30,cy+11)], fill=ORANGE)
+    f = font(FONT_B, 17); t = "Stocks, ETFs and Treasuries as tokens, 2H 2027"
+    bb = d.textbbox((0,0), t, font=f); d.text(((W-(bb[2]-bb[0]))//2, y0+card_h+34), t, font=f, fill=WHITE)
+    label_chip(base, "Tokenization · DTCC")
+    return base, {"kind":"composite","sources":[
+        {"file":"Depository_Trust_&_Clearing_Corporation_logo.svg","license":"Public domain (text logo)","url":"https://commons.wikimedia.org/wiki/File:Depository_Trust_%26_Clearing_Corporation_logo.svg","credit":"DTCC"},
+        {"file":"solana-sol-logo.svg","license":"Logo","url":"https://cryptologos.cc/solana","credit":"Solana Foundation"},
+    ],"note":"Editorial composite; trademarks belong to their owners."}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -717,6 +761,8 @@ BUILDERS = {
     "doj-seizes-1-2-billion-binance-hack-north-korea-nov-2026": thumb_doj_binance_seizure,
     "bitcoin-below-70000-200-week-average-nov-2026": thumb_btc_etf_outflows_nov,
     "trump-nominates-sec-cftc-commissioners-peirce-nov-2026": thumb_sec_cftc_nominees,
+    "illinois-crypto-tax-doj-defi-challenge-nov-2026": thumb_illinois_tax,
+    "dtcc-tokenized-stocks-solana-2027-nov-2026": thumb_dtcc_solana,
 }
 
 def first_figure_source(slug: str) -> Path | None:

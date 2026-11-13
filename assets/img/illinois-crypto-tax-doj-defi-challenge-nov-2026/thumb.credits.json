@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Seal_of_Illinois.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Seal_of_Illinois.svg",
+      "credit": "State of Illinois"
+    },
+    {
+      "file": "Seal_of_the_United_States_Department_of_Justice.svg",
+      "license": "Public domain (U.S. government)",
+      "url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Department_of_Justice.svg",
+      "credit": "U.S. Department of Justice"
+    },
+    {
+      "file": "State_Capitol_in_Springfield,_Illinois.jpg",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:State_Capitol_in_Springfield,_Illinois.jpg",
+      "credit": "PhilDaBirdMan / Wikimedia Commons"
+    }
+  ],
+  "note": "Editorial composite for identification; no endorsement implied.",
+  "slug": "illinois-crypto-tax-doj-defi-challenge-nov-2026",
+  "generated": "2026-11-13T19:00Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

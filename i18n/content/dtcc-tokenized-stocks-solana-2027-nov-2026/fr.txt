@@ -1,0 +1,58 @@
+title: La DTCC prévoit d'amener actions, ETF et bons du Trésor tokenisés sur Solana en 2027
+page_title: La DTCC amènera actions et bons tokenisés sur Solana
+description: La Depository Trust & Clearing Corporation, qui conserve 114 000 milliards de dollars de titres, connectera son service de tokenisation à Solana au second semestre 2027. Ce que cela signifie, en termes simples.
+og_description: La DTCC permettra aux actions, ETF indiciels et bons du Trésor américain éligibles conservés à la DTC de devenir des jetons sur Solana au second semestre 2027, avec les mêmes droits de propriété que les titres classiques.
+label: Entreprises
+summary: La DTCC, géant du règlement-livraison de Wall Street, connectera son service de tokenisation à Solana au second semestre 2027 et y amènera actions, ETF et bons du Trésor tokenisés.
+===
+
+L'entreprise au cœur de la tuyauterie des marchés d'actions américains ajoute une nouvelle blockchain publique à ses projets. La Depository Trust & Clearing Corporation (<strong>DTCC</strong>) a annoncé le jeudi 12 novembre qu'elle connecterait son service de tokenisation à <strong>Solana</strong>, avec des actifs tokenisés attendus sur le réseau au <strong>second semestre 2027</strong>, selon son [communiqué](L1).
+
+Une fois la connexion établie, les titres éligibles conservés par sa filiale Depository Trust Company (DTC) pourront être transformés en jetons sur Solana. En vertu d'une lettre de non-action accordée par la SEC en décembre dernier, la liste couvre les actions du Russell 1000, les ETF qui suivent les grands indices boursiers américains ainsi que les bons, notes et obligations du Trésor américain, rapporte [The Block](L3).
+
+!takeaways
+- La DTCC prévoit de connecter son service de tokenisation à Solana au second semestre 2027.
+- Les actifs éligibles comprennent les actions du Russell 1000, les ETF des grands indices et les bons du Trésor américain conservés à la DTC.
+- Selon la DTCC, les jetons conservent les mêmes droits de propriété et protections des investisseurs que les titres classiques.
+- Le service a été lancé le 28 octobre sur Canton Network et sur le réseau privé Besu de la DTCC ; Stellar et Arc, de Circle, sont aussi prévus pour 2027.
+
+## Ce que fait la DTCC, et ce qu'elle construit
+
+Peu de gens en ont entendu parler, mais la DTCC est derrière une grande partie des échanges de titres aux États-Unis. Via la DTC, elle conserve environ <strong>114 000 milliards de dollars</strong> de titres pour des banques et des courtiers, rapporte [CoinDesk](L2). Quand vous achetez une action chez un courtier, la trace de cette action finit généralement à la DTC.
+
+Le service de tokenisation de la DTCC (DTS) a été lancé le 28 octobre. Il crée des « jumeaux numériques » tokenisés de titres conservés à la DTC, que les utilisateurs peuvent reconvertir en actions classiques. Le service a démarré avec 34 titres éligibles représentant environ 30 000 milliards de dollars, selon CoinDesk. Ce chiffre correspond à ce qui peut être tokenisé, pas à ce qui est déjà sur une blockchain.
+
+!figure:chart
+
+Les premières transactions réelles limitées ont eu lieu en juillet sur Canton et Besu, JPMorgan tokenisant une partie de ses parts de l'Invesco QQQ Trust lors du test, rapporte The Block. Au lancement, la DTCC a cité 20 établissements ayant signé pour utiliser le service, dont Bank of America, Citi, JPMorgan, Morgan Stanley et UBS.
+
+## Pourquoi Solana
+
+Solana héberge déjà environ 600 millions de dollars d'actions tokenisées, derrière seulement BNB Chain et Ethereum, selon des données de RWA.xyz citées par CoinDesk. Mais l'essentiel de cette activité concerne des jetons synthétiques, qui suivent le cours d'une action sans donner à leurs détenteurs les droits d'un véritable actionnaire.
+
+La DTCC affirme que sa version est différente. Les actifs tokenisés par la DTC sur Solana « conserveront les mêmes protections des investisseurs, droits de propriété et garanties réglementaires que les titres détenus de manière traditionnelle », a déclaré Brian Steele, président de DTCC Clearing & Securities Services.
+
+!mid_cta
+
+« Les institutions choisissent Solana parce qu'elle fait déjà tourner une véritable activité financière à grande échelle », a déclaré Nick Ducoff, directeur général de l'activité institutionnelle de la Solana Foundation. Selon [Decrypt](L4), Solana rejoint Stellar et la blockchain Arc de Circle dans la feuille de route 2027 de la DTCC.
+
+!figure:timeline
+
+## Ce que cela signifie pour les débutants
+
+Rien ne change aujourd'hui sur votre compte-titres. Le DTS est conçu pour les banques, les courtiers et les autres institutions, et la connexion à Solana est encore à plus de six mois. À terme, les titres tokenisés pourraient faciliter le transfert d'actions et d'obligations en dehors des heures de marché ou leur utilisation comme garantie. Citi estime que le marché des actifs tokenisés, actions comprises, pourrait atteindre 5 500 milliards de dollars d'ici 2030, rapporte CoinDesk.
+
+Pour les investisseurs crypto, l'annonce montre que de grandes institutions financières construisent sur des blockchains publiques. Elle ne garantit rien sur le cours du SOL, le jeton de Solana, qui a reculé avec le reste du marché crypto vendredi. Si vous voulez acheter du SOL ou du bitcoin, passez par une plateforme régulée disponible dans votre pays (aux États-Unis, par exemple [Coinbase](REF)) et vérifiez conditions et frais avant de vous inscrire. N'investissez que ce que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Les courtiers et banques qui commenceront à émettre des actifs tokenisés par la DTC sur Solana une fois la connexion active.
+- L'avancée des autres réseaux prévus par la DTCC, Stellar et Arc, de Circle.
+- Un éventuel élargissement par la SEC de la liste des titres pouvant être tokenisés.
+- L'évolution, d'ici là, des plateformes d'actions tokenisées pour les clients américains.
+
+!soft: Voyez comment les actions tokenisées arrivent déjà chez les investisseurs américains : [OKX et ICE, propriétaire du NYSE, fixent au 23 novembre le lancement du trading 24 h/24 d'actions tokenisées aux États-Unis](/articles/okxice-tokenized-stocks-launch-nov-23-2026).
+
+!end_cta
+
+!disclosure

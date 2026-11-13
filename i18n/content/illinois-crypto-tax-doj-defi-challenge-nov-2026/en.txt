@@ -1,0 +1,58 @@
+title: DOJ, Wall Street and DeFi firms back lawsuit against Illinois' 0.2% crypto tax
+page_title: DOJ and DeFi firms back challenge to Illinois crypto tax
+description: The Justice Department, the U.S. Chamber of Commerce, SIFMA and a DeFi coalition led by a16z, Paradigm and Uniswap back a lawsuit to strike down Illinois' 0.2% tax on crypto transactions. Here is what the tax does and what comes next.
+og_description: Illinois' Digital Asset Tax Act charges 0.2% of a crypto asset's full value each time it is traded, transferred or stored through a broker, even with no profit. Now the DOJ and a broad coalition want it struck down.
+label: Regulation
+summary: The DOJ, Wall Street's biggest lobby and top DeFi firms back a lawsuit against Illinois' 0.2% tax on crypto trades, transfers and storage. The tax is paused until July 2027.
+===
+
+An unusual alliance has lined up against a first-of-its-kind state crypto tax. The U.S. Justice Department, the U.S. Chamber of Commerce, the Wall Street lobby SIFMA and a group of crypto companies led by Andreessen Horowitz (a16z), Paradigm and Uniswap have filed court papers supporting a lawsuit to strike down Illinois' <strong>Digital Asset Tax Act</strong>, [Decrypt](L1) reported.
+
+The law charges <strong>0.2% of a digital asset's full value</strong> each time an Illinois customer trades, transfers or stores it through a broker. It applies even when there is no sale, no profit and no change in who owns the asset. Illinois agreed in October to pause the tax until <strong>July 1, 2027</strong> while the court fight plays out.
+
+!takeaways
+- Illinois' Digital Asset Tax Act would charge 0.2% of the full value of crypto each time it is traded, transferred or stored through a broker.
+- The Justice Department filed a statement of interest on Nov. 6 calling the tax vague and discriminatory.
+- The U.S. Chamber of Commerce and SIFMA, plus a DeFi coalition including a16z, Paradigm, Uniswap, Aave Labs and Chainlink Labs, filed briefs backing the lawsuit.
+- The tax is paused until July 1, 2027, so nobody pays it today.
+
+## What the Illinois tax does
+
+The law was enacted in June. Unlike an income tax, which you pay on profits, this levy is based on the value of the asset itself. As a simple example, 0.2% of a $1,000 bitcoin purchase is $2, and the same rate would apply again if you later moved those coins to another account through a broker.
+
+Illinois has no comparable tax on dollars, gold or stocks, and no other state has a tax like it, according to the [Blockchain Association](L3). The governor's budget office projected the tax would raise $60 million in fiscal year 2027, [Cointelegraph](L2) reported. Illinois House Speaker Emanuel "Chris" Welch promoted it as part of a push to make "big tech companies and crypto billionaires pay their fair share," the Chicago Tribune reported in July, according to Cointelegraph.
+
+!figure:timeline
+
+## Who is fighting it, and why
+
+The legal challenge started in summer. The Digital Chamber sued Illinois Attorney General Kwame Raoul and state revenue official David Harris in July. The Blockchain Association and the Crypto Council for Innovation (CCI) filed a separate challenge in August in Sangamon County Circuit Court. On Nov. 4, they asked the judge to decide the case and strike the tax down for good.
+
+On Nov. 6, the Justice Department filed a statement of interest. It argued the tax undermines federal policy on digital assets and pointed to the Strategic Bitcoin Reserve and the GENIUS Act stablecoin law, Cointelegraph reported. The same day, the [U.S. Chamber of Commerce](L4) and SIFMA, which represents broker-dealers, banks and asset managers, filed a brief warning that the tax would also hit traditional banks and custodians that offer crypto. "This means that a customer who loses money owes the same tax as a customer who earns a profit," their filing said.
+
+!mid_cta
+
+On Nov. 11, a coalition led by the DeFi Education Fund, a16z, Paradigm and Uniswap filed its own brief. Its members include Aave Labs, Chainlink Labs, the Solana Policy Institute, Phantom, Jito Labs, Multicoin Capital and Stand With Crypto. They argue the law's definitions are so vague that they could reach software developers and decentralized protocols that never hold customer funds.
+
+!figure:fact
+
+The challengers say the tax breaks the federal Internet Tax Freedom Act and the U.S. Constitution's limits on state taxes that burden interstate commerce. "This tax is unclear, discriminatory, unconstitutional, and harmful to the future of finance," CCI CEO Ji Hun Kim and Blockchain Association executive Ashok Pinto said in a joint statement.
+
+## What it means for beginners
+
+If you live outside Illinois, this tax does not apply to you. If you live in Illinois, nothing is charged today, because the tax is paused until July 1, 2027. The bigger question is whether other states copy the idea. A ruling against Illinois would make that less likely; a ruling for the state could encourage similar proposals.
+
+Taxes are one more reason to keep track of every buy, sell and transfer you make. If you are starting out, a regulated U.S. exchange such as [Coinbase](REF) shows your transaction history and fees in one place, which makes tax time easier. Check current terms on its site before you sign up, and only invest what you can afford to lose. This is not tax or investment advice.
+
+## What to watch next
+
+- How the Sangamon County court rules on the motion for summary judgment.
+- Whether Illinois lawmakers change or repeal the tax before July 1, 2027.
+- Final state rules on which brokers and platforms would have to collect it.
+- Whether other states propose similar transaction taxes on crypto.
+
+!soft: Read how Washington is reshaping crypto oversight: [Trump names four SEC and CFTC nominees, including a replacement for crypto advocate Hester Peirce](/articles/trump-nominates-sec-cftc-commissioners-peirce-nov-2026).
+
+!end_cta
+
+!disclosure

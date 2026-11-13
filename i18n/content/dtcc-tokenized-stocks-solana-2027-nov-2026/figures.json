@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-dtc-custody-vs-eligible.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart: DTC holds $114 trillion in securities, while the 34 securities eligible for DTCC's tokenization service represent about $30 trillion",
+      "es": "Gráfico de barras: DTC custodia 114 billones de dólares en valores, mientras que los 34 valores elegibles para el servicio de tokenización de DTCC suman unos 30 billones",
+      "pt": "Gráfico de barras: a DTC guarda US$ 114 trilhões em valores mobiliários, enquanto os 34 títulos elegíveis ao serviço de tokenização da DTCC somam cerca de US$ 30 trilhões",
+      "fr": "Graphique en barres : la DTC conserve 114 000 milliards de dollars de titres, tandis que les 34 titres éligibles au service de tokenisation de la DTCC représentent environ 30 000 milliards",
+      "de": "Balkendiagramm: Die DTC verwahrt Wertpapiere im Wert von 114 Billionen $, die 34 für den Tokenisierungsdienst der DTCC zugelassenen Wertpapiere stehen für rund 30 Billionen $",
+      "ru": "Столбчатая диаграмма: DTC хранит ценные бумаги на $114 трлн, а 34 бумаги, допущенные к токенизации в сервисе DTCC, стоят около $30 трлн",
+      "tr": "Çubuk grafik: DTC 114 trilyon dolarlık menkul kıymet saklıyor; DTCC'nin tokenizasyon hizmetine uygun 34 menkul kıymet ise yaklaşık 30 trilyon dolar değerinde",
+      "id": "Grafik batang: DTC menyimpan efek senilai US$114 triliun, sedangkan 34 efek yang memenuhi syarat untuk layanan tokenisasi DTCC bernilai sekitar US$30 triliun",
+      "ja": "棒グラフ：DTCが保管する証券は114兆ドル、DTCCのトークン化サービスの対象となる34銘柄は約30兆ドル",
+      "ko": "막대 차트: DTC가 보관하는 증권은 114조 달러, DTCC 토큰화 서비스 대상 34개 종목은 약 30조 달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: CoinDesk, DTCC",
+      "es": "Gráfico: PlainBTC, datos: CoinDesk, DTCC",
+      "pt": "Gráfico: PlainBTC, dados: CoinDesk, DTCC",
+      "fr": "Graphique : PlainBTC, données : CoinDesk, DTCC",
+      "de": "Chart: PlainBTC, Daten: CoinDesk, DTCC",
+      "ru": "График: PlainBTC, данные: CoinDesk, DTCC",
+      "tr": "Grafik: PlainBTC, veri: CoinDesk, DTCC",
+      "id": "Grafik: PlainBTC, data: CoinDesk, DTCC",
+      "ja": "チャート: PlainBTC、データ: CoinDesk, DTCC",
+      "ko": "차트: PlainBTC, 데이터: CoinDesk, DTCC"
+    }
+  },
+  {
+    "id": "timeline",
+    "file": "timeline-dtcc-tokenization.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline: in July, first limited tokenized trades on Canton and Besu; on Oct. 28, the DTCC Tokenization Service launched; on Nov. 12, DTCC announced plans to connect to Solana; in the second half of 2027, DTC-tokenized assets are expected on Solana",
+      "es": "Cronología: en julio, primeras operaciones tokenizadas limitadas en Canton y Besu; el 28 de octubre se lanzó el servicio de tokenización de DTCC; el 12 de noviembre DTCC anunció su conexión con Solana; en el segundo semestre de 2027 se esperan activos tokenizados de DTC en Solana",
+      "pt": "Linha do tempo: em julho, primeiras operações tokenizadas limitadas na Canton e na Besu; em 28 de outubro, lançamento do serviço de tokenização da DTCC; em 12 de novembro, a DTCC anunciou a conexão com a Solana; no segundo semestre de 2027, ativos tokenizados da DTC devem chegar à Solana",
+      "fr": "Chronologie : en juillet, premières transactions tokenisées limitées sur Canton et Besu ; le 28 octobre, lancement du service de tokenisation de la DTCC ; le 12 novembre, la DTCC annonce sa connexion à Solana ; au second semestre 2027, des actifs tokenisés de la DTC sont attendus sur Solana",
+      "de": "Zeitleiste: Im Juli erste begrenzte tokenisierte Geschäfte auf Canton und Besu; am 28. Oktober Start des DTCC-Tokenisierungsdienstes; am 12. November kündigt die DTCC die Anbindung an Solana an; in der zweiten Jahreshälfte 2027 sollen DTC-tokenisierte Werte auf Solana verfügbar sein",
+      "ru": "Хронология: в июле первые ограниченные сделки с токенизированными бумагами в Canton и Besu; 28 октября запущен сервис токенизации DTCC; 12 ноября DTCC объявила о подключении к Solana; во второй половине 2027 года токенизированные активы DTC должны появиться в Solana",
+      "tr": "Zaman çizelgesi: Temmuz'da Canton ve Besu'da ilk sınırlı tokenize işlemler; 28 Ekim'de DTCC Tokenizasyon Hizmeti başladı; 12 Kasım'da DTCC Solana bağlantısını duyurdu; 2027'nin ikinci yarısında DTC tokenize varlıklarının Solana'da olması bekleniyor",
+      "id": "Linimasa: Juli, transaksi tokenisasi terbatas pertama di Canton dan Besu; 28 Oktober, Layanan Tokenisasi DTCC diluncurkan; 12 November, DTCC mengumumkan rencana terhubung ke Solana; paruh kedua 2027, aset tokenisasi DTC diharapkan hadir di Solana",
+      "ja": "時系列：7月、CantonとBesuで初の限定的なトークン化取引。10月28日、DTCCトークン化サービス開始。11月12日、DTCCがSolanaへの接続計画を発表。2027年後半、DTCのトークン化資産がSolanaで利用可能になる見通し",
+      "ko": "타임라인: 7월 캔턴과 베수에서 첫 제한적 토큰화 거래, 10월 28일 DTCC 토큰화 서비스 출시, 11월 12일 DTCC가 솔라나 연결 계획 발표, 2027년 하반기 DTC 토큰화 자산이 솔라나에 나올 예정"
+    },
+    "caption": {
+      "en": "Source: DTCC press release; The Block; CoinDesk",
+      "es": "Fuente: DTCC press release; The Block; CoinDesk",
+      "pt": "Fonte: DTCC press release; The Block; CoinDesk",
+      "fr": "Source : DTCC press release; The Block; CoinDesk",
+      "de": "Quelle: DTCC press release; The Block; CoinDesk",
+      "ru": "Источник: DTCC press release; The Block; CoinDesk",
+      "tr": "Kaynak: DTCC press release; The Block; CoinDesk",
+      "id": "Sumber: DTCC press release; The Block; CoinDesk",
+      "ja": "出典: DTCC press release; The Block; CoinDesk",
+      "ko": "출처: DTCC press release; The Block; CoinDesk"
+    }
+  }
+]

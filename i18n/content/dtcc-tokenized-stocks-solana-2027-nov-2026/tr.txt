@@ -1,0 +1,58 @@
+title: DTCC, tokenize hisseleri, ETF'leri ve ABD Hazine tahvillerini 2027'de Solana'ya getirmeyi planlıyor
+page_title: DTCC tokenize hisse ve tahvilleri Solana'ya getiriyor
+description: 114 trilyon dolarlık menkul kıymet saklayan Depository Trust & Clearing Corporation, tokenizasyon hizmetini 2027'nin ikinci yarısında Solana'ya bağlayacak. Bunun ne anlama geldiğini sade bir dille anlatıyoruz.
+og_description: DTCC, DTC'de saklanan uygun hisselerin, endeks ETF'lerinin ve ABD Hazine tahvillerinin 2027'nin ikinci yarısında Solana'da token'a dönüştürülmesine izin verecek; token'lar geleneksel menkul kıymetlerle aynı mülkiyet haklarını taşıyacak.
+label: İş dünyası
+summary: Wall Street'in takas devi DTCC, tokenizasyon hizmetini 2027'nin ikinci yarısında Solana'ya bağlayarak tokenize hisseleri, ETF'leri ve Hazine tahvillerini ağa getirecek.
+===
+
+ABD borsa altyapısının merkezindeki şirket, planlarına bir halka açık blokzinciri daha ekliyor. Depository Trust & Clearing Corporation (<strong>DTCC</strong>), 12 Kasım Perşembe günü tokenizasyon hizmetini <strong>Solana</strong>'ya bağlayacağını ve tokenize varlıkların ağda <strong>2027'nin ikinci yarısında</strong> yer almasını beklediğini [basın açıklamasında](L1) duyurdu.
+
+Bağlantı kurulduğunda, şirketin yan kuruluşu Depository Trust Company'de (DTC) saklanan uygun menkul kıymetler Solana'da token'a dönüştürülebilecek. [The Block](L3)'un haberine göre SEC'in geçen Aralık'ta verdiği yaptırım uygulamama mektubu kapsamında liste Russell 1000 hisselerini, büyük ABD hisse endekslerini izleyen ETF'leri ve ABD Hazine bonolarını, notlarını ve tahvillerini kapsıyor.
+
+!takeaways
+- DTCC, tokenizasyon hizmetini 2027'nin ikinci yarısında Solana'ya bağlamayı planlıyor.
+- Uygun varlıklar arasında DTC'de saklanan Russell 1000 hisseleri, büyük endeks ETF'leri ve ABD Hazine tahvilleri var.
+- DTCC'ye göre token'lar geleneksel menkul kıymetlerle aynı mülkiyet haklarını ve yatırımcı korumalarını koruyor.
+- Hizmet 28 Ekim'de Canton Network ve DTCC'nin özel Besu ağında başladı; Stellar ve Circle'ın Arc'ı da 2027 için planlanıyor.
+
+## DTCC ne yapıyor, ne inşa ediyor
+
+Pek az kişi DTCC'yi duymuştur, ancak şirket ABD'deki menkul kıymet işlemlerinin büyük bölümünün arka planında yer alıyor. [CoinDesk](L2)'in haberine göre DTC aracılığıyla bankalar ve aracı kurumlar için yaklaşık <strong>114 trilyon dolarlık</strong> menkul kıymet saklıyor. Bir aracı kurumdan hisse aldığınızda, o hissenin kaydı genellikle DTC'de son bulur.
+
+DTCC Tokenizasyon Hizmeti (DTS) 28 Ekim'de devreye girdi. DTC'de saklanan menkul kıymetlerin tokenize "dijital ikizlerini" oluşturuyor ve kullanıcılar bunları yeniden normal hisselere çevirebiliyor. CoinDesk'e göre hizmet, değeri yaklaşık 30 trilyon dolar olan 34 uygun menkul kıymetle başladı. Bu rakam tokenize edilebilecek miktarı gösteriyor, şu an blokzincirinde olanı değil.
+
+!figure:chart
+
+The Block'un haberine göre ilk sınırlı gerçek işlemler Temmuz'da Canton ve Besu'da yapıldı; JPMorgan denemede Invesco QQQ Trust'taki varlıklarının bir kısmını tokenize etti. DTCC lansmanda hizmeti kullanmak için sözleşme imzalayan 20 kuruluşu açıkladı; aralarında Bank of America, Citi, JPMorgan, Morgan Stanley ve UBS var.
+
+## Neden Solana
+
+CoinDesk'in aktardığı RWA.xyz verilerine göre Solana'da zaten yaklaşık 600 milyon dolarlık tokenize hisse bulunuyor ve bu alanda yalnızca BNB Chain ile Ethereum'un gerisinde. Ancak bu hareketliliğin çoğu, hisse fiyatını takip eden ama sahiplerine gerçek hissedar hakları vermeyen sentetik hisse token'larından oluşuyor.
+
+DTCC kendi versiyonunun farklı olduğunu söylüyor. DTCC Clearing & Securities Services Başkanı Brian Steele, Solana'daki DTC tokenize varlıklarının "geleneksel olarak tutulan menkul kıymetler için geçerli olan yatırımcı korumalarını, mülkiyet haklarını ve düzenleyici güvenceleri aynen koruyacağını" söyledi.
+
+!mid_cta
+
+Solana Foundation'ın kurumsal iş genel müdürü Nick Ducoff, "Kurumlar Solana'yı seçiyor çünkü Solana zaten büyük ölçekte gerçek finansal faaliyet yürütüyor" dedi. [Decrypt](L4)'e göre Solana, DTCC'nin 2027 yol haritasında Stellar ve Circle'ın Arc blokzincirine katılıyor.
+
+!figure:timeline
+
+## Yeni başlayanlar için anlamı
+
+Aracı kurum hesabınızda bugün hiçbir şey değişmiyor. DTS bankalar, aracı kurumlar ve diğer kurumlar için tasarlandı ve Solana bağlantısına daha altı aydan fazla var. Uzun vadede tokenize menkul kıymetler, hisse ve tahvillerin normal piyasa saatleri dışında taşınmasını ya da teminat olarak kullanılmasını kolaylaştırabilir. CoinDesk'e göre Citi, hisseler dahil tokenize varlık piyasasının 2030'a kadar 5,5 trilyon dolara ulaşabileceğini tahmin ediyor.
+
+Kripto yatırımcıları için haber, büyük finans kuruluşlarının halka açık blokzincirleri üzerine inşa ettiğinin bir işareti. Ancak Cuma günü kripto piyasasının geri kalanıyla birlikte düşen Solana'nın token'ı SOL'un fiyatı hakkında hiçbir şeyi garanti etmiyor. Kendiniz SOL ya da bitcoin almak istiyorsanız, ülkenizde düzenlemeye tabi bir platform kullanın (ABD'de örneğin [Coinbase](REF)) ve kaydolmadan önce koşulları ve ücretleri kontrol edin. Yalnızca kaybetmeyi göze alabileceğiniz kadar yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra izlenecekler
+
+- Bağlantı devreye girdiğinde hangi aracı kurumların ve bankaların Solana'da DTC tokenize varlıkları çıkarmaya başlayacağı.
+- DTCC'nin planladığı diğer ağlar olan Stellar ve Circle'ın Arc'ındaki ilerleme.
+- SEC'in tokenize edilebilecek menkul kıymetler listesini genişletip genişletmeyeceği.
+- Bu arada ABD'li müşterilere yönelik tokenize hisse platformlarının nasıl gelişeceği.
+
+!soft: Tokenize hisselerin bugün ABD'li yatırımcılara nasıl ulaştığını görün: [OKX ve NYSE'nin sahibi ICE, ABD'de 7/24 tokenize hisse işlemleri için 23 Kasım'ı lansman tarihi olarak belirledi](/articles/okxice-tokenized-stocks-launch-nov-23-2026).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,58 @@
+title: DOJ, Wall Street e empresas DeFi apoiam ação contra o imposto cripto de 0,2% de Illinois
+page_title: DOJ e DeFi apoiam ação contra imposto cripto de Illinois
+description: O Departamento de Justiça, a Câmara de Comércio dos EUA, a SIFMA e uma coalizão DeFi liderada por a16z, Paradigm e Uniswap apoiam uma ação para derrubar o imposto de 0,2% de Illinois sobre transações cripto. Veja o que o imposto faz e o que vem a seguir.
+og_description: A lei de imposto sobre ativos digitais de Illinois cobra 0,2% do valor total de um criptoativo toda vez que ele é negociado, transferido ou guardado por meio de uma corretora, mesmo sem lucro. Agora o DOJ e uma ampla coalizão querem derrubá-la.
+label: Regulação
+summary: O DOJ, o maior lobby de Wall Street e grandes empresas DeFi apoiam uma ação contra o imposto de 0,2% de Illinois sobre negociação, transferência e custódia de cripto. O imposto está suspenso até julho de 2027.
+===
+
+Uma aliança incomum se formou contra um imposto estadual sobre criptomoedas sem precedentes. O Departamento de Justiça dos EUA, a Câmara de Comércio dos EUA, o lobby de Wall Street SIFMA e um grupo de empresas cripto liderado por Andreessen Horowitz (a16z), Paradigm e Uniswap apresentaram documentos à Justiça em apoio a uma ação para derrubar a <strong>Lei de Imposto sobre Ativos Digitais</strong> de Illinois, informou o [Decrypt](L1).
+
+A lei cobra <strong>0,2% do valor total de um ativo digital</strong> toda vez que um cliente de Illinois o negocia, transfere ou guarda por meio de uma corretora. Ela vale mesmo quando não há venda, lucro ou troca de dono. Em outubro, Illinois aceitou suspender o imposto até <strong>1º de julho de 2027</strong> enquanto a disputa judicial avança.
+
+!takeaways
+- A lei de Illinois cobraria 0,2% do valor total das criptos cada vez que forem negociadas, transferidas ou guardadas por meio de uma corretora.
+- O Departamento de Justiça apresentou em 6 de novembro uma declaração de interesse chamando o imposto de vago e discriminatório.
+- A Câmara de Comércio dos EUA e a SIFMA, além de uma coalizão DeFi com a16z, Paradigm, Uniswap, Aave Labs e Chainlink Labs, apresentaram pareceres em apoio à ação.
+- O imposto está suspenso até 1º de julho de 2027, então ninguém o paga hoje.
+
+## O que o imposto de Illinois faz
+
+A lei foi aprovada em junho. Diferentemente do imposto de renda, pago sobre o lucro, essa cobrança é baseada no valor do próprio ativo. Um exemplo simples: 0,2% de uma compra de US$ 1.000 em bitcoin dá US$ 2, e a mesma alíquota voltaria a valer se você depois movesse essas moedas para outra conta por meio de uma corretora.
+
+Illinois não tem imposto parecido sobre dólares, ouro ou ações, e nenhum outro estado tem um imposto assim, segundo a [Blockchain Association](L3). O escritório de orçamento do governador projetou que o imposto arrecadaria US$ 60 milhões no ano fiscal de 2027, informou o [Cointelegraph](L2). O presidente da Câmara de Illinois, Emanuel "Chris" Welch, apresentou a medida como parte de um esforço para fazer "as big techs e os bilionários das criptos pagarem sua parte justa", segundo o Chicago Tribune em julho, citado pelo Cointelegraph.
+
+!figure:timeline
+
+## Quem está contestando e por quê
+
+A disputa judicial começou no meio do ano. A Digital Chamber processou em julho o procurador-geral de Illinois, Kwame Raoul, e o funcionário da receita estadual David Harris. A Blockchain Association e o Crypto Council for Innovation (CCI) abriram outra ação em agosto no tribunal do condado de Sangamon. Em 4 de novembro, pediram ao juiz que decidisse o caso e derrubasse o imposto de vez.
+
+Em 6 de novembro, o Departamento de Justiça apresentou uma declaração de interesse. Argumentou que o imposto enfraquece a política federal para ativos digitais e citou a Reserva Estratégica de Bitcoin e a lei GENIUS sobre stablecoins, informou o Cointelegraph. No mesmo dia, a [Câmara de Comércio dos EUA](L4) e a SIFMA, que representa corretoras, bancos e gestoras, apresentaram um parecer alertando que o imposto também atingiria bancos e custodiantes tradicionais que oferecem cripto. "Isso significa que um cliente que perde dinheiro deve o mesmo imposto que um cliente que tem lucro", dizia o documento.
+
+!mid_cta
+
+Em 11 de novembro, uma coalizão liderada pelo DeFi Education Fund, a16z, Paradigm e Uniswap apresentou seu próprio parecer. Entre os membros estão Aave Labs, Chainlink Labs, Solana Policy Institute, Phantom, Jito Labs, Multicoin Capital e Stand With Crypto. Eles argumentam que as definições da lei são tão vagas que poderiam alcançar desenvolvedores de software e protocolos descentralizados que nunca guardam fundos de clientes.
+
+!figure:fact
+
+Os autores da ação dizem que o imposto viola a lei federal Internet Tax Freedom Act e os limites que a Constituição dos EUA impõe a impostos estaduais que prejudicam o comércio entre estados. "Este imposto é confuso, discriminatório, inconstitucional e prejudicial ao futuro das finanças", disseram em nota conjunta o CEO do CCI, Ji Hun Kim, e Ashok Pinto, da Blockchain Association.
+
+## O que isso significa para iniciantes
+
+Se você não mora em Illinois, esse imposto não se aplica a você. Se mora lá, nada é cobrado hoje, porque o imposto está suspenso até 1º de julho de 2027. A grande questão é se outros estados vão copiar a ideia. Uma decisão contra Illinois tornaria isso menos provável; uma decisão a favor do estado poderia incentivar propostas parecidas.
+
+Impostos são mais um motivo para registrar cada compra, venda e transferência que você faz. Se está começando, uma plataforma regulamentada, como a [Coinbase](REF) nos EUA, mostra seu histórico de transações e taxas em um só lugar, o que facilita a declaração. Confira as condições atuais no site antes de se cadastrar e invista apenas o que pode perder. Isto não é aconselhamento fiscal nem de investimento.
+
+## O que acompanhar
+
+- Como o tribunal do condado de Sangamon decide o pedido de julgamento antecipado.
+- Se os legisladores de Illinois mudam ou revogam o imposto antes de 1º de julho de 2027.
+- As regras estaduais finais sobre quais corretoras e plataformas teriam de cobrá-lo.
+- Se outros estados propõem impostos parecidos sobre transações cripto.
+
+!soft: Veja como Washington está mudando a supervisão das criptos: [Trump indica quatro nomes para a SEC e a CFTC, incluindo um substituto para a defensora das criptos Hester Peirce](/articles/trump-nominates-sec-cftc-commissioners-peirce-nov-2026).
+
+!end_cta
+
+!disclosure

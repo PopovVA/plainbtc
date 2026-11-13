@@ -1,0 +1,58 @@
+title: DTCC plans to bring tokenized stocks, ETFs and Treasuries to Solana in 2027
+page_title: DTCC to bring tokenized stocks and Treasuries to Solana
+description: The Depository Trust & Clearing Corporation, which holds $114 trillion in securities, will connect its tokenization service to Solana in the second half of 2027. Here is what that means in plain English.
+og_description: DTCC will let eligible stocks, index ETFs and U.S. Treasuries held at DTC become tokens on Solana in the second half of 2027, with the same ownership rights as regular securities.
+label: Business
+summary: Wall Street's settlement giant DTCC will connect its tokenization service to Solana in the second half of 2027, bringing tokenized stocks, ETFs and Treasuries to the network.
+===
+
+The company at the center of U.S. stock market plumbing is adding another public blockchain to its plans. The Depository Trust & Clearing Corporation (<strong>DTCC</strong>) said on Thursday, Nov. 12, that it will connect its tokenization service to <strong>Solana</strong>, with tokenized assets expected on the network in the <strong>second half of 2027</strong>, according to its [press release](L1).
+
+Once connected, eligible securities held at DTCC's Depository Trust Company (DTC) subsidiary can be turned into tokens on Solana. Under a no-action letter the SEC granted last December, that list covers Russell 1000 stocks, ETFs that track major U.S. stock indexes and U.S. Treasury bills, notes and bonds, [The Block](L3) reported.
+
+!takeaways
+- DTCC plans to connect its tokenization service to Solana in the second half of 2027.
+- Eligible assets include Russell 1000 stocks, major index ETFs and U.S. Treasuries held at DTC.
+- DTCC says the tokens keep the same ownership rights and investor protections as regular securities.
+- The service launched Oct. 28 on Canton Network and DTCC's private Besu network; Stellar and Circle's Arc are also planned for 2027.
+
+## What DTCC does, and what it is building
+
+Most people never hear about DTCC, but it sits behind much of U.S. securities trading. Through DTC it holds about <strong>$114 trillion</strong> in securities for banks and brokerages, [CoinDesk](L2) reported. When you buy a share through a broker, the record of that share usually ends up at DTC.
+
+The DTCC Tokenization Service (DTS) went live on Oct. 28. It creates tokenized "digital twins" of securities held at DTC, and users can convert them back into regular shares. The service started with 34 eligible securities worth roughly $30 trillion, CoinDesk reported. That figure is what is eligible for tokenization, not what is already on a blockchain.
+
+!figure:chart
+
+The first limited production trades ran in July on Canton and Besu, with JPMorgan tokenizing part of its Invesco QQQ Trust holdings in the trial, The Block reported. At launch, DTCC named 20 firms that had signed up to use the service, including Bank of America, Citi, JPMorgan, Morgan Stanley and UBS.
+
+## Why Solana
+
+Solana already hosts about $600 million worth of tokenized stocks, trailing only BNB Chain and Ethereum, according to RWA.xyz data cited by CoinDesk. But most of that activity is in synthetic stock tokens, which track a share price without giving holders the rights of real shareholders.
+
+DTCC says its version is different. DTC-tokenized assets on Solana "will retain the same investor protections, ownership rights and regulatory safeguards that apply to traditionally held securities," said Brian Steele, president of DTCC Clearing & Securities Services.
+
+!mid_cta
+
+"Institutions choose Solana because it already runs real financial activity at scale," said Nick Ducoff, general manager for institutional business at the Solana Foundation. According to [Decrypt](L4), Solana joins Stellar and Circle's Arc blockchain on DTCC's 2027 roadmap.
+
+!figure:timeline
+
+## What it means for beginners
+
+Nothing changes in your brokerage account today. DTS is built for banks, brokers and other institutions, and the Solana connection is still more than half a year away. In the long run, tokenized securities could make it easier to move stocks and bonds outside normal market hours or use them as collateral. Citi estimates the tokenized asset market, including stocks, could reach $5.5 trillion by 2030, CoinDesk reported.
+
+For crypto investors, the news is a sign that big financial firms are building on public blockchains. It does not guarantee anything about the price of SOL, Solana's token, which fell along with the rest of the crypto market on Friday. If you want to buy SOL or bitcoin yourself, a regulated U.S. exchange such as [Coinbase](REF) lists both; check its current terms and fees before you sign up. Only invest what you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Which brokers and banks start issuing DTC-tokenized assets on Solana once the link goes live.
+- Progress on DTCC's other planned networks, Stellar and Circle's Arc.
+- Whether the SEC widens the list of securities that can be tokenized.
+- How tokenized stock venues for U.S. customers develop in the meantime.
+
+!soft: See how tokenized stocks are reaching U.S. traders today: [OKX and NYSE owner ICE set Nov. 23 launch for 24/7 tokenized stock trading in the U.S.](/articles/okxice-tokenized-stocks-launch-nov-23-2026).
+
+!end_cta
+
+!disclosure

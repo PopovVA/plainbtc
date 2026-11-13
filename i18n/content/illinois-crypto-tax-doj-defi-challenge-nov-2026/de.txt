@@ -1,0 +1,58 @@
+title: US-Justizministerium, Wall Street und DeFi-Firmen unterstützen Klage gegen Illinois' 0,2-Prozent-Kryptosteuer
+page_title: DOJ und DeFi-Firmen gegen Kryptosteuer in Illinois
+description: Das US-Justizministerium, die US-Handelskammer, SIFMA und eine DeFi-Koalition um a16z, Paradigm und Uniswap unterstützen eine Klage gegen die 0,2-Prozent-Steuer von Illinois auf Krypto-Transaktionen. Was die Steuer bewirkt und wie es weitergeht.
+og_description: Das Digital-Asset-Steuergesetz von Illinois verlangt 0,2 % des vollen Werts eines Krypto-Assets bei jedem Handel, jeder Übertragung oder Verwahrung über einen Broker, auch ohne Gewinn. Nun wollen das DOJ und eine breite Koalition es kippen.
+label: Regulierung
+summary: Das US-Justizministerium, die größte Wall-Street-Lobby und führende DeFi-Firmen unterstützen eine Klage gegen die 0,2-Prozent-Steuer von Illinois auf Krypto-Handel, -Übertragung und -Verwahrung. Die Steuer ist bis Juli 2027 ausgesetzt.
+===
+
+Eine ungewöhnliche Allianz hat sich gegen eine bislang einzigartige Kryptosteuer eines US-Bundesstaats formiert. Das US-Justizministerium, die US-Handelskammer, die Wall-Street-Lobby SIFMA und eine Gruppe von Kryptofirmen um Andreessen Horowitz (a16z), Paradigm und Uniswap haben Schriftsätze eingereicht, die eine Klage gegen das <strong>Digital-Asset-Steuergesetz</strong> von Illinois unterstützen, berichtete [Decrypt](L1).
+
+Das Gesetz verlangt <strong>0,2 % des vollen Werts eines digitalen Vermögenswerts</strong>, wann immer ein Kunde aus Illinois ihn über einen Broker handelt, überträgt oder verwahren lässt. Das gilt auch, wenn weder ein Verkauf noch ein Gewinn noch ein Eigentümerwechsel vorliegt. Im Oktober erklärte sich Illinois bereit, die Steuer bis zum <strong>1. Juli 2027</strong> auszusetzen, solange der Rechtsstreit läuft.
+
+!takeaways
+- Das Gesetz in Illinois würde bei jedem Handel, jeder Übertragung oder Verwahrung über einen Broker 0,2 % des vollen Krypto-Werts verlangen.
+- Das Justizministerium reichte am 6. November eine Stellungnahme ein und nannte die Steuer vage und diskriminierend.
+- Die US-Handelskammer und SIFMA sowie eine DeFi-Koalition mit a16z, Paradigm, Uniswap, Aave Labs und Chainlink Labs reichten Schriftsätze zur Unterstützung der Klage ein.
+- Die Steuer ist bis zum 1. Juli 2027 ausgesetzt, heute zahlt sie also niemand.
+
+## Was die Steuer in Illinois bewirkt
+
+Das Gesetz wurde im Juni beschlossen. Anders als die Einkommensteuer, die auf Gewinne anfällt, bemisst sich diese Abgabe am Wert des Vermögenswerts selbst. Ein einfaches Beispiel: 0,2 % eines Bitcoin-Kaufs über 1.000 $ sind 2 $, und derselbe Satz würde erneut fällig, wenn Sie die Coins später über einen Broker auf ein anderes Konto verschieben.
+
+Illinois erhebt keine vergleichbare Steuer auf Dollar, Gold oder Aktien, und kein anderer Bundesstaat hat eine solche Steuer, so die [Blockchain Association](L3). Das Haushaltsbüro des Gouverneurs rechnete im Haushaltsjahr 2027 mit Einnahmen von 60 Millionen $, berichtete [Cointelegraph](L2). Der Sprecher des Repräsentantenhauses von Illinois, Emanuel „Chris“ Welch, warb dafür als Teil eines Vorhabens, „große Tech-Konzerne und Krypto-Milliardäre ihren fairen Anteil zahlen zu lassen“, wie die Chicago Tribune im Juli laut Cointelegraph berichtete.
+
+!figure:timeline
+
+## Wer dagegen vorgeht und warum
+
+Der Rechtsstreit begann im Sommer. Die Digital Chamber verklagte im Juli den Generalstaatsanwalt von Illinois, Kwame Raoul, und den Finanzbeamten David Harris. Die Blockchain Association und der Crypto Council for Innovation (CCI) reichten im August eine eigene Klage beim Bezirksgericht von Sangamon County ein. Am 4. November beantragten sie, dass der Richter den Fall entscheidet und die Steuer endgültig kippt.
+
+Am 6. November reichte das Justizministerium eine Stellungnahme ein. Es argumentierte, die Steuer untergrabe die Bundespolitik zu digitalen Vermögenswerten, und verwies auf die Strategische Bitcoin-Reserve und das Stablecoin-Gesetz GENIUS Act, berichtete Cointelegraph. Am selben Tag reichten die [US-Handelskammer](L4) und SIFMA, die Broker, Banken und Vermögensverwalter vertritt, einen Schriftsatz ein. Darin warnen sie, die Steuer treffe auch traditionelle Banken und Verwahrer, die Krypto anbieten. „Das bedeutet, dass ein Kunde, der Geld verliert, dieselbe Steuer schuldet wie ein Kunde, der Gewinn macht“, heißt es darin.
+
+!mid_cta
+
+Am 11. November reichte eine Koalition um den DeFi Education Fund, a16z, Paradigm und Uniswap einen eigenen Schriftsatz ein. Zu ihr gehören auch Aave Labs, Chainlink Labs, das Solana Policy Institute, Phantom, Jito Labs, Multicoin Capital und Stand With Crypto. Sie argumentieren, die Definitionen des Gesetzes seien so vage, dass sie Softwareentwickler und dezentrale Protokolle erfassen könnten, die nie Kundengelder halten.
+
+!figure:fact
+
+Die Kläger sagen, die Steuer verstoße gegen das Bundesgesetz Internet Tax Freedom Act und gegen die Grenzen, die die US-Verfassung Steuern von Bundesstaaten setzt, die den Handel zwischen den Staaten belasten. „Diese Steuer ist unklar, diskriminierend, verfassungswidrig und schädlich für die Zukunft der Finanzwelt“, erklärten CCI-Chef Ji Hun Kim und Ashok Pinto von der Blockchain Association gemeinsam.
+
+## Was das für Einsteiger bedeutet
+
+Wenn Sie nicht in Illinois leben, betrifft Sie diese Steuer nicht. Wenn Sie dort leben, wird heute nichts erhoben, denn die Steuer ist bis zum 1. Juli 2027 ausgesetzt. Die größere Frage ist, ob andere Bundesstaaten die Idee übernehmen. Ein Urteil gegen Illinois würde das unwahrscheinlicher machen; ein Urteil für den Staat könnte ähnliche Vorschläge fördern.
+
+Steuern sind ein weiterer Grund, jeden Kauf, Verkauf und Transfer festzuhalten. Für den Einstieg zeigt eine regulierte Plattform, etwa [Coinbase](REF) in den USA, Ihren Transaktionsverlauf und Ihre Gebühren an einem Ort, was die Steuererklärung erleichtert. Prüfen Sie vor der Anmeldung die aktuellen Bedingungen auf der Website und investieren Sie nur, was Sie verlieren können. Dies ist keine Steuer- oder Anlageberatung.
+
+## Worauf es jetzt ankommt
+
+- Wie das Gericht in Sangamon County über den Antrag auf ein Urteil ohne Hauptverhandlung entscheidet.
+- Ob die Abgeordneten in Illinois die Steuer vor dem 1. Juli 2027 ändern oder abschaffen.
+- Die endgültigen Regeln des Staats dazu, welche Broker und Plattformen sie einziehen müssten.
+- Ob andere Bundesstaaten ähnliche Transaktionssteuern auf Krypto vorschlagen.
+
+!soft: So verändert Washington die Krypto-Aufsicht: [Trump nominiert vier Kandidaten für SEC und CFTC, darunter einen Nachfolger für Krypto-Befürworterin Hester Peirce](/articles/trump-nominates-sec-cftc-commissioners-peirce-nov-2026).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,58 @@
+title: DOJ, Wall Street, dan perusahaan DeFi dukung gugatan terhadap pajak kripto 0,2% Illinois
+page_title: DOJ dan DeFi dukung gugatan pajak kripto Illinois
+description: Departemen Kehakiman AS, Kamar Dagang AS, SIFMA, dan koalisi DeFi yang dipimpin a16z, Paradigm, dan Uniswap mendukung gugatan untuk membatalkan pajak 0,2% Illinois atas transaksi kripto. Inilah cara kerja pajaknya dan apa selanjutnya.
+og_description: Undang-undang pajak aset digital Illinois memungut 0,2% dari nilai penuh aset kripto setiap kali diperdagangkan, ditransfer, atau disimpan melalui broker, meski tanpa keuntungan. Kini DOJ dan koalisi luas ingin undang-undang itu dibatalkan.
+label: Regulasi
+summary: DOJ, lobi terbesar Wall Street, dan perusahaan DeFi besar mendukung gugatan terhadap pajak 0,2% Illinois atas perdagangan, transfer, dan penyimpanan kripto. Pajak ini ditunda hingga Juli 2027.
+===
+
+Aliansi yang tidak biasa terbentuk untuk melawan pajak kripto tingkat negara bagian yang pertama dari jenisnya. Departemen Kehakiman AS, Kamar Dagang AS, lobi Wall Street SIFMA, dan sekelompok perusahaan kripto yang dipimpin Andreessen Horowitz (a16z), Paradigm, dan Uniswap mengajukan berkas ke pengadilan untuk mendukung gugatan pembatalan <strong>Undang-Undang Pajak Aset Digital</strong> Illinois, lapor [Decrypt](L1).
+
+Undang-undang ini memungut <strong>0,2% dari nilai penuh aset digital</strong> setiap kali nasabah di Illinois memperdagangkan, mentransfer, atau menyimpannya melalui broker. Pajak tetap berlaku meski tidak ada penjualan, keuntungan, atau perubahan kepemilikan. Pada Oktober, Illinois setuju menunda pajak hingga <strong>1 Juli 2027</strong> selama proses pengadilan berjalan.
+
+!takeaways
+- Undang-undang Illinois akan memungut 0,2% dari nilai penuh kripto setiap kali diperdagangkan, ditransfer, atau disimpan melalui broker.
+- Departemen Kehakiman mengajukan pernyataan kepentingan pada 6 November yang menyebut pajak itu kabur dan diskriminatif.
+- Kamar Dagang AS dan SIFMA, ditambah koalisi DeFi yang mencakup a16z, Paradigm, Uniswap, Aave Labs, dan Chainlink Labs, mengajukan berkas pendukung gugatan.
+- Pajak ditunda hingga 1 Juli 2027, jadi saat ini belum ada yang membayarnya.
+
+## Cara kerja pajak Illinois
+
+Undang-undang ini disahkan pada Juni. Berbeda dengan pajak penghasilan yang dibayar atas keuntungan, pungutan ini dihitung dari nilai aset itu sendiri. Contoh sederhana: 0,2% dari pembelian bitcoin senilai US$1.000 adalah US$2, dan tarif yang sama berlaku lagi jika Anda kemudian memindahkan koin tersebut ke akun lain melalui broker.
+
+Illinois tidak punya pajak serupa atas dolar, emas, atau saham, dan tidak ada negara bagian lain yang punya pajak seperti ini, menurut [Blockchain Association](L3). Kantor anggaran gubernur memproyeksikan pajak ini menghasilkan US$60 juta pada tahun fiskal 2027, lapor [Cointelegraph](L2). Ketua DPR Illinois Emanuel "Chris" Welch mempromosikannya sebagai bagian dari upaya membuat "perusahaan teknologi besar dan miliarder kripto membayar bagian yang adil", seperti dilaporkan Chicago Tribune pada Juli dan dikutip Cointelegraph.
+
+!figure:timeline
+
+## Siapa yang menentangnya dan mengapa
+
+Gugatan hukum dimulai pada pertengahan tahun. Digital Chamber menggugat Jaksa Agung Illinois Kwame Raoul dan pejabat pendapatan negara bagian David Harris pada Juli. Blockchain Association dan Crypto Council for Innovation (CCI) mengajukan gugatan terpisah pada Agustus di Pengadilan Sangamon County. Pada 4 November, mereka meminta hakim memutus perkara dan membatalkan pajak itu untuk selamanya.
+
+Pada 6 November, Departemen Kehakiman mengajukan pernyataan kepentingan. Lembaga itu berpendapat pajak ini merusak kebijakan federal soal aset digital dan menyinggung Cadangan Bitcoin Strategis serta UU GENIUS tentang stablecoin, lapor Cointelegraph. Pada hari yang sama, [Kamar Dagang AS](L4) dan SIFMA, yang mewakili broker-dealer, bank, dan manajer aset, mengajukan berkas yang memperingatkan bahwa pajak ini juga akan memukul bank dan kustodian tradisional yang menawarkan kripto. "Artinya, nasabah yang merugi berutang pajak yang sama dengan nasabah yang untung," tulis berkas mereka.
+
+!mid_cta
+
+Pada 11 November, koalisi yang dipimpin DeFi Education Fund, a16z, Paradigm, dan Uniswap mengajukan berkasnya sendiri. Anggotanya antara lain Aave Labs, Chainlink Labs, Solana Policy Institute, Phantom, Jito Labs, Multicoin Capital, dan Stand With Crypto. Mereka berpendapat definisi dalam undang-undang ini begitu kabur sehingga bisa menjangkau pengembang perangkat lunak dan protokol terdesentralisasi yang tidak pernah memegang dana nasabah.
+
+!figure:fact
+
+Para penggugat menyatakan pajak ini melanggar undang-undang federal Internet Tax Freedom Act dan batasan Konstitusi AS terhadap pajak negara bagian yang membebani perdagangan antarnegara bagian. "Pajak ini tidak jelas, diskriminatif, inkonstitusional, dan merugikan masa depan keuangan," kata CEO CCI Ji Hun Kim dan Ashok Pinto dari Blockchain Association dalam pernyataan bersama.
+
+## Apa artinya bagi pemula
+
+Jika Anda tidak tinggal di Illinois, pajak ini tidak berlaku bagi Anda. Jika tinggal di sana, saat ini belum ada yang dipungut, karena pajak ditunda hingga 1 Juli 2027. Pertanyaan besarnya adalah apakah negara bagian lain akan meniru gagasan ini. Putusan yang menolak Illinois akan membuatnya kecil kemungkinan; putusan yang memenangkan negara bagian bisa mendorong usulan serupa.
+
+Pajak adalah satu alasan lagi untuk mencatat setiap pembelian, penjualan, dan transfer Anda. Jika baru memulai, platform yang diatur, seperti [Coinbase](REF) di AS, menampilkan riwayat transaksi dan biaya di satu tempat sehingga urusan pajak lebih mudah. Periksa ketentuan terbaru di situsnya sebelum mendaftar dan hanya investasikan dana yang siap Anda tanggung kerugiannya. Ini bukan nasihat pajak atau investasi.
+
+## Yang perlu dicermati
+
+- Bagaimana pengadilan Sangamon County memutus permohonan putusan ringkas (summary judgment).
+- Apakah anggota parlemen Illinois mengubah atau mencabut pajak sebelum 1 Juli 2027.
+- Aturan final negara bagian tentang broker dan platform mana yang wajib memungutnya.
+- Apakah negara bagian lain mengusulkan pajak serupa atas transaksi kripto.
+
+!soft: Simak bagaimana Washington membentuk ulang pengawasan kripto: [Trump mengajukan empat calon untuk SEC dan CFTC, termasuk pengganti pendukung kripto Hester Peirce](/articles/trump-nominates-sec-cftc-commissioners-peirce-nov-2026).
+
+!end_cta
+
+!disclosure

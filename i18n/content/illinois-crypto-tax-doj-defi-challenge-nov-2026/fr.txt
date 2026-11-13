@@ -1,0 +1,58 @@
+title: Le DOJ, Wall Street et des acteurs DeFi soutiennent le recours contre la taxe crypto de 0,2 % de l'Illinois
+page_title: Le DOJ et la DeFi contre la taxe crypto de l'Illinois
+description: Le ministère américain de la Justice, la Chambre de commerce des États-Unis, la SIFMA et une coalition DeFi menée par a16z, Paradigm et Uniswap soutiennent un recours visant à annuler la taxe de 0,2 % de l'Illinois sur les transactions crypto. Ce que fait la taxe et la suite.
+og_description: La loi de l'Illinois sur la taxation des actifs numériques prélève 0,2 % de la valeur totale d'un crypto-actif à chaque échange, transfert ou conservation via un courtier, même sans gain. Le DOJ et une large coalition veulent la faire annuler.
+label: Réglementation
+summary: Le DOJ, le premier lobby de Wall Street et de grands acteurs DeFi soutiennent un recours contre la taxe de 0,2 % de l'Illinois sur les échanges, transferts et la conservation de cryptos. La taxe est suspendue jusqu'en juillet 2027.
+===
+
+Une alliance inhabituelle s'est formée contre une taxe crypto inédite au niveau d'un État. Le ministère américain de la Justice, la Chambre de commerce des États-Unis, le lobby de Wall Street SIFMA et un groupe d'entreprises crypto mené par Andreessen Horowitz (a16z), Paradigm et Uniswap ont déposé des mémoires en soutien à un recours visant à annuler la <strong>loi sur la taxation des actifs numériques</strong> de l'Illinois, rapporte [Decrypt](L1).
+
+La loi prélève <strong>0,2 % de la valeur totale d'un actif numérique</strong> chaque fois qu'un client de l'Illinois l'échange, le transfère ou le fait conserver par un courtier. Elle s'applique même sans vente, sans gain et sans changement de propriétaire. En octobre, l'Illinois a accepté de suspendre la taxe jusqu'au <strong>1er juillet 2027</strong> le temps de la bataille judiciaire.
+
+!takeaways
+- La loi de l'Illinois prélèverait 0,2 % de la valeur totale des cryptos à chaque échange, transfert ou conservation via un courtier.
+- Le ministère de la Justice a déposé le 6 novembre une déclaration d'intérêt qualifiant la taxe de floue et discriminatoire.
+- La Chambre de commerce des États-Unis et la SIFMA, ainsi qu'une coalition DeFi comprenant a16z, Paradigm, Uniswap, Aave Labs et Chainlink Labs, ont déposé des mémoires en soutien au recours.
+- La taxe est suspendue jusqu'au 1er juillet 2027 : personne ne la paie aujourd'hui.
+
+## Ce que fait la taxe de l'Illinois
+
+La loi a été adoptée en juin. Contrairement à l'impôt sur le revenu, payé sur les gains, ce prélèvement porte sur la valeur de l'actif lui-même. Exemple simple : 0,2 % d'un achat de bitcoin de 1 000 dollars représente 2 dollars, et le même taux s'appliquerait de nouveau si vous transfériez ensuite ces bitcoins vers un autre compte via un courtier.
+
+L'Illinois n'a aucune taxe comparable sur les dollars, l'or ou les actions, et aucun autre État n'a de taxe de ce type, selon la [Blockchain Association](L3). Le bureau du budget du gouverneur prévoyait 60 millions de dollars de recettes sur l'exercice 2027, rapporte [Cointelegraph](L2). Le président de la Chambre de l'Illinois, Emanuel « Chris » Welch, l'a présentée comme un moyen de faire « payer leur juste part aux géants de la tech et aux milliardaires de la crypto », selon le Chicago Tribune en juillet, cité par Cointelegraph.
+
+!figure:timeline
+
+## Qui la conteste, et pourquoi
+
+La bataille juridique a commencé cet été. La Digital Chamber a attaqué en juillet le procureur général de l'Illinois, Kwame Raoul, et le responsable fiscal de l'État David Harris. La Blockchain Association et le Crypto Council for Innovation (CCI) ont déposé un autre recours en août devant le tribunal du comté de Sangamon. Le 4 novembre, ils ont demandé au juge de trancher l'affaire et d'annuler définitivement la taxe.
+
+Le 6 novembre, le ministère de la Justice a déposé une déclaration d'intérêt. Il estime que la taxe va à l'encontre de la politique fédérale sur les actifs numériques et cite la réserve stratégique de bitcoins et la loi GENIUS sur les stablecoins, rapporte Cointelegraph. Le même jour, la [Chambre de commerce des États-Unis](L4) et la SIFMA, qui représente courtiers, banques et gestionnaires d'actifs, ont déposé un mémoire avertissant que la taxe toucherait aussi les banques et dépositaires traditionnels qui proposent des cryptos. « Cela signifie qu'un client qui perd de l'argent doit la même taxe qu'un client qui réalise un gain », indique leur mémoire.
+
+!mid_cta
+
+Le 11 novembre, une coalition menée par le DeFi Education Fund, a16z, Paradigm et Uniswap a déposé son propre mémoire. Elle compte notamment Aave Labs, Chainlink Labs, le Solana Policy Institute, Phantom, Jito Labs, Multicoin Capital et Stand With Crypto. Selon elle, les définitions de la loi sont si floues qu'elles pourraient viser des développeurs de logiciels et des protocoles décentralisés qui ne détiennent jamais les fonds des clients.
+
+!figure:fact
+
+Les requérants affirment que la taxe viole la loi fédérale Internet Tax Freedom Act et les limites que la Constitution américaine impose aux taxes d'État qui entravent le commerce entre États. « Cette taxe est floue, discriminatoire, inconstitutionnelle et nuisible à l'avenir de la finance », ont déclaré dans un communiqué commun le PDG du CCI, Ji Hun Kim, et Ashok Pinto, de la Blockchain Association.
+
+## Ce que cela signifie pour les débutants
+
+Si vous ne vivez pas en Illinois, cette taxe ne vous concerne pas. Si vous y vivez, rien n'est prélevé aujourd'hui, car la taxe est suspendue jusqu'au 1er juillet 2027. La vraie question est de savoir si d'autres États copieront l'idée. Une décision contre l'Illinois rendrait cela moins probable ; une décision en sa faveur pourrait encourager des projets similaires.
+
+La fiscalité est une raison de plus de garder une trace de chaque achat, vente et transfert. Si vous débutez, une plateforme régulée, comme [Coinbase](REF) aux États-Unis, affiche votre historique de transactions et vos frais au même endroit, ce qui simplifie la déclaration. Vérifiez les conditions en vigueur sur son site avant de vous inscrire et n'investissez que ce que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil fiscal ni en investissement.
+
+## À surveiller
+
+- La décision du tribunal du comté de Sangamon sur la demande de jugement sommaire.
+- Une éventuelle modification ou abrogation de la taxe par les élus de l'Illinois avant le 1er juillet 2027.
+- Les règles définitives de l'État sur les courtiers et plateformes chargés de la collecter.
+- D'éventuels projets de taxes similaires sur les transactions crypto dans d'autres États.
+
+!soft: Voyez comment Washington remodèle la supervision des cryptos : [Trump désigne quatre candidats à la SEC et à la CFTC, dont un successeur à Hester Peirce, défenseure des cryptos](/articles/trump-nominates-sec-cftc-commissioners-peirce-nov-2026).
+
+!end_cta
+
+!disclosure

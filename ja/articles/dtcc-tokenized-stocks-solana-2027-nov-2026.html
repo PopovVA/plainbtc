@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="stylesheet" href="/assets/styles.f4f50576aa.css">
+  <link rel="icon" href="/favicon.ico?v=2" sizes="48x48">
+  <link rel="icon" href="/assets/favicon.svg?v=2" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=2">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
+  <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (日本語)" href="/ja/feed.xml">
+  <title>DTCC、トークン化株式と国債をSolanaへ | PlainBTC</title>
+  <meta name="description" content="114兆ドルの証券を保管するDepository Trust &amp; Clearing Corporation（DTCC）が、2027年後半にトークン化サービスをSolanaに接続します。その意味をわかりやすく解説します。">
+  <link rel="canonical" href="https://plainbtc.com/ja/articles/dtcc-tokenized-stocks-solana-2027-nov-2026">
+  <!-- i18n:hreflang -->
+  <link rel="alternate" hreflang="en" href="https://plainbtc.com/articles/dtcc-tokenized-stocks-solana-2027-nov-2026">
+  <link rel="alternate" hreflang="es" href="https://plainbtc.com/es/articles/dtcc-tokenized-stocks-solana-2027-nov-2026">
+  <link rel="alternate" hreflang="pt-BR" href="https://plainbtc.com/pt/articles/dtcc-tokenized-stocks-solana-2027-nov-2026">
+  <link rel="alternate" hreflang="fr" href="https://plainbtc.com/fr/articles/dtcc-tokenized-stocks-solana-2027-nov-2026">
+  <link rel="alternate" hreflang="de" href="https://plainbtc.com/de/articles/dtcc-tokenized-stocks-solana-2027-nov-2026">
+  <link rel="alternate" hreflang="ru" href="https://plainbtc.com/ru/articles/dtcc-tokenized-stocks-solana-2027-nov-2026">
+  <link rel="alternate" hreflang="tr" href="https://plainbtc.com/tr/articles/dtcc-tokenized-stocks-solana-2027-nov-2026">
+  <link rel="alternate" hreflang="id" href="https://plainbtc.com/id/articles/dtcc-tokenized-stocks-solana-2027-nov-2026">
+  <link rel="alternate" hreflang="ja" href="https://plainbtc.com/ja/articles/dtcc-tokenized-stocks-solana-2027-nov-2026">
+  <link rel="alternate" hreflang="ko" href="https://plainbtc.com/ko/articles/dtcc-tokenized-stocks-solana-2027-nov-2026">
+  <link rel="alternate" hreflang="x-default" href="https://plainbtc.com/articles/dtcc-tokenized-stocks-solana-2027-nov-2026">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <!-- /i18n:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="DTCC、トークン化した株式・ETF・米国債を2027年にSolanaへ">
+  <meta property="og:description" content="DTCCは2027年後半から、DTCが保管する対象の株式、指数ETF、米国債をSolana上のトークンにできるようにします。トークンは従来の証券と同じ所有権を保ちます。">
+  <meta property="og:url" content="https://plainbtc.com/ja/articles/dtcc-tokenized-stocks-solana-2027-nov-2026">
+  <meta property="og:site_name" content="PlainBTC">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="article:published_time" content="2026-11-13">
+  <meta property="article:modified_time" content="2026-11-13">
+  <meta property="article:section" content="ビジネス">
+  <meta property="og:image" content="https://plainbtc.com/assets/og/dtcc-tokenized-stocks-solana-2027-nov-2026.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="DTCC、トークン化した株式・ETF・米国債を2027年にSolanaへ">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
+  <meta name="twitter:image" content="https://plainbtc.com/assets/og/dtcc-tokenized-stocks-solana-2027-nov-2026.png">
+  <meta name="twitter:title" content="DTCC、トークン化した株式・ETF・米国債を2027年にSolanaへ">
+  <meta name="twitter:description" content="DTCCは2027年後半から、DTCが保管する対象の株式、指数ETF、米国債をSolana上のトークンにできるようにします。トークンは従来の証券と同じ所有権を保ちます。">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "DTCC、トークン化した株式・ETF・米国債を2027年にSolanaへ",
+    "name": "DTCC、トークン化株式と国債をSolanaへ | PlainBTC",
+    "description": "114兆ドルの証券を保管するDepository Trust & Clearing Corporation（DTCC）が、2027年後半にトークン化サービスをSolanaに接続します。その意味をわかりやすく解説します。",
+    "datePublished": "2026-11-13T12:00:00+00:00",
+    "dateModified": "2026-11-13T12:00:00+00:00",
+    "author": {
+      "@type": "Organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://plainbtc.com/#organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://plainbtc.com/assets/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://discord.gg/EcuGXPDr2d",
+        "https://www.facebook.com/groups/1688106109771364",
+        "https://x.com/lean_redfield"
+      ]
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://plainbtc.com/ja/articles/dtcc-tokenized-stocks-solana-2027-nov-2026"
+    },
+    "url": "https://plainbtc.com/ja/articles/dtcc-tokenized-stocks-solana-2027-nov-2026",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/og/dtcc-tokenized-stocks-solana-2027-nov-2026.png",
+      "width": 1200,
+      "height": 630
+    },
+    "articleSection": "ビジネス",
+    "isAccessibleForFree": true,
+    "inLanguage": "ja"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "ホーム",
+        "item": "https://plainbtc.com/ja/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "DTCC、トークン化した株式・ETF・米国債を2027年にSolanaへ",
+        "item": "https://plainbtc.com/ja/articles/dtcc-tokenized-stocks-solana-2027-nov-2026"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へスキップ</a>
+  <header class="site-header">
+    <div class="wrap inner">
+      <a class="logo" href="/ja/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="メニュー">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
+      <nav class="nav" aria-label="Primary">
+        <a href="/ja/#articles">記事</a>
+        <a href="/ja/#guides">ガイド</a>
+        <a href="/ja/about">PlainBTCについて</a>
+        <a href="/ja/disclosure">開示事項</a>
+      </nav>
+      <div class="header-tools">
+      <!-- i18n:langmenu -->
+      <details class="lang-menu"><summary aria-label="言語"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">日本語</span><span class="lang-code" aria-hidden="true">JA</span></summary><ul><li><a href="/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="ja" hreflang="ja" aria-current="true">日本語</a></li><li><a href="/ko/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="ライト／ダークテーマを切り替える" title="ライト／ダークテーマを切り替える" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="article-page" id="main" data-toc="このページの内容" data-nl="新着記事をメールで受け取る" data-nl-cta="購読する" data-close="閉じる">
+    <article class="content">
+      <!-- i18n:arthead -->
+      <header class="article-head">
+        <!-- i18n:crumbs -->
+        <nav class="crumbs" aria-label="パンくずリスト"><a href="/ja/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/ja/#articles">記事</a></nav>
+        <!-- /i18n:crumbs -->
+        <div class="badge">ビジネス</div>
+        <h1>DTCC、トークン化した株式・ETF・米国債を2027年にSolanaへ</h1>
+        <div class="meta">公開日：<time datetime="2026-11-13">2026年11月13日</time> · PlainBTC · 米国<span class="meta-read"> · 約5分で読めます</span></div>
+        <div class="share" role="group" aria-label="共有">
+          <span class="share-label">共有</span>
+          <a class="share-btn" href="https://x.com/intent/post?url=https%3A%2F%2Fplainbtc.com%2Fja%2Farticles%2Fdtcc-tokenized-stocks-solana-2027-nov-2026%3Futm_source%3Dx%26utm_medium%3Dsocial&amp;text=DTCC%E3%80%81%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E5%8C%96%E3%81%97%E3%81%9F%E6%A0%AA%E5%BC%8F%E3%83%BBETF%E3%83%BB%E7%B1%B3%E5%9B%BD%E5%82%B5%E3%82%922027%E5%B9%B4%E3%81%ABSolana%E3%81%B8" target="_blank" rel="noopener nofollow" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplainbtc.com%2Fja%2Farticles%2Fdtcc-tokenized-stocks-solana-2027-nov-2026%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noopener nofollow" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+          <button class="share-btn share-copy" type="button" data-url="https://plainbtc.com/ja/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" data-copied="リンクをコピーしました" aria-label="リンクをコピー" title="リンクをコピー" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/><path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg></button>
+          <span class="share-status" role="status" aria-live="polite"></span>
+        </div>
+      </header>
+      <img class="og-hero" src="/assets/og/dtcc-tokenized-stocks-solana-2027-nov-2026.png" width="1200" height="630" alt="DTCC、トークン化した株式・ETF・米国債を2027年にSolanaへ" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->
+
+      <p>米国株式市場のインフラの中心にいる企業が、計画にもうひとつパブリックブロックチェーンを加えました。<a href="https://www.dtcc.com/press-releases/2026/dtcc-tokenization-service-to-connect-with-solana" target="_blank" rel="noopener">プレスリリース</a>によると、Depository Trust &amp; Clearing Corporation（<strong>DTCC</strong>）は11月12日（木）、トークン化サービスを<strong>Solana</strong>に接続すると発表しました。トークン化資産は<strong>2027年後半</strong>にSolanaで利用可能になる見通しです。</p>
+      <p>接続後は、子会社のDepository Trust Company（DTC）が保管する対象証券をSolana上でトークンに変換できるようになります。<a href="https://www.theblock.co/news/business/2026-11-12-dtcc-plans-bring-tokenized-securities-solana-second-half-of-2027-438559" target="_blank" rel="noopener">The Block</a>によると、SECが昨年12月に出したノーアクションレターに基づき、対象はラッセル1000の株式、主要な米国株価指数に連動するETF、米国の短期・中期・長期国債です。</p>
+
+      <div class="takeaways">
+        <h2>この記事のポイント</h2>
+        <ul>
+          <li>DTCCは2027年後半にトークン化サービスをSolanaに接続する計画です。</li>
+          <li>対象資産には、DTCが保管するラッセル1000の株式、主要指数ETF、米国債が含まれます。</li>
+          <li>DTCCによると、トークンは従来の証券と同じ所有権と投資家保護を維持します。</li>
+          <li>サービスは10月28日にCanton NetworkとDTCCのプライベートネットワークBesuで始まり、StellarとCircleのArcも2027年に予定されています。</li>
+        </ul>
+      </div>
+
+      <h2>DTCCとは何か、何を作っているのか</h2>
+      <p>DTCCの名前を知る人は多くありませんが、米国の証券取引の大部分を裏で支えています。<a href="https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout" target="_blank" rel="noopener">CoinDesk</a>によると、DTCを通じて銀行や証券会社のために約<strong>114兆ドル</strong>の証券を保管しています。証券会社で株を買うと、その株の記録は通常、最終的にDTCに行き着きます。</p>
+      <p>DTCCトークン化サービス（DTS）は10月28日に稼働しました。DTCが保管する証券のトークン化された「デジタルツイン」を作り、利用者は通常の株式に戻すこともできます。CoinDeskによると、サービスは約30兆ドル相当の34銘柄を対象に始まりました。この金額はトークン化が可能な規模で、すでにブロックチェーン上にある額ではありません。</p>
+
+      <figure class="article-figure">
+        <img src="/assets/img/dtcc-tokenized-stocks-solana-2027-nov-2026/chart-dtc-custody-vs-eligible.webp" width="1200" height="675" alt="棒グラフ：DTCが保管する証券は114兆ドル、DTCCのトークン化サービスの対象となる34銘柄は約30兆ドル" loading="lazy" decoding="async">
+        <figcaption>チャート: PlainBTC、データ: CoinDesk, DTCC</figcaption>
+      </figure>
+
+      <p>The Blockによると、最初の限定的な本番取引は7月にCantonとBesuで行われ、JPMorganが試験でInvesco QQQ Trustの保有分の一部をトークン化しました。DTCCはサービス開始時に、利用契約を結んだ20社を公表しており、Bank of America、Citi、JPMorgan、Morgan Stanley、UBSが含まれます。</p>
+      <h2>なぜSolanaなのか</h2>
+      <p>CoinDeskが引用したRWA.xyzのデータによると、Solanaにはすでに約6億ドル相当のトークン化株式があり、BNB ChainとEthereumに次ぐ規模です。ただし、その大半は株価に連動するだけで、保有者に本物の株主の権利を与えない合成株式トークンです。</p>
+      <p>DTCCは自社の仕組みは違うと説明しています。DTCCクリアリング&amp;セキュリティーズ・サービシズのブライアン・スティール社長は、Solana上のDTCトークン化資産は「従来の形で保有される証券と同じ投資家保護、所有権、規制上の安全措置を維持する」と述べました。</p>
+
+      <p>Solana財団で機関投資家向け事業を統括するニック・デュコフ氏は「機関がSolanaを選ぶのは、すでに大規模な実際の金融活動が行われているからだ」と述べました。<a href="https://decrypt.co/383132/dtcc-to-bring-tokenized-stocks-and-treasuries-to-solana-in-2027" target="_blank" rel="noopener">Decrypt</a>によると、SolanaはStellar、CircleのブロックチェーンArcとともに、DTCCの2027年のロードマップに加わります。</p>
+
+      <figure class="article-figure">
+        <img src="/assets/img/dtcc-tokenized-stocks-solana-2027-nov-2026/timeline-dtcc-tokenization.webp" width="1200" height="630" alt="時系列：7月、CantonとBesuで初の限定的なトークン化取引。10月28日、DTCCトークン化サービス開始。11月12日、DTCCがSolanaへの接続計画を発表。2027年後半、DTCのトークン化資産がSolanaで利用可能になる見通し" loading="lazy" decoding="async">
+        <figcaption>出典: DTCC press release; The Block; CoinDesk</figcaption>
+      </figure>
+
+      <h2>初心者にとっての意味</h2>
+      <p>今日の時点で、あなたの証券口座に変化はありません。DTSは銀行、証券会社などの機関向けで、Solanaとの接続もまだ半年以上先です。長い目で見れば、トークン化証券によって株式や債券を通常の取引時間外に移したり、担保として使ったりしやすくなる可能性があります。CoinDeskによると、Citiは株式を含むトークン化資産の市場が2030年までに5.5兆ドルに達する可能性があると見ています。</p>
+      <p>暗号資産の投資家にとって、このニュースは大手金融機関がパブリックブロックチェーン上で事業を築き始めている兆しです。ただし、金曜日にほかの暗号資産と同様に下落したSolanaのトークン、SOLの価格を保証するものではありません。SOLやビットコインを自分で買う場合は、お住まいの国で規制を受けている取引所（米国なら例えばCoinbase）を使い、登録前に条件と手数料を確認してください。失っても困らない金額だけを投資しましょう。これは投資助言ではありません。</p>
+      <h2>今後の注目点</h2>
+      <ul>
+        <li>接続開始後、どの証券会社や銀行がSolana上でDTCトークン化資産の発行を始めるか。</li>
+        <li>DTCCが計画するほかのネットワーク、StellarとCircleのArcの進み具合。</li>
+        <li>SECがトークン化できる証券の範囲を広げるかどうか。</li>
+        <li>その間に、米国の顧客向けトークン化株式の取引の場がどう発展するか。</li>
+      </ul>
+
+      <p class="soft-guide">トークン化株式がすでに米国の投資家に届き始めている様子はこちら：<a href="/ja/articles/okxice-tokenized-stocks-launch-nov-23-2026">OKXとNYSE親会社ICE、米国でのトークン化株式の24時間取引を11月23日に開始へ</a></p>
+
+      <div class="cta">
+        <h2>初心者向けのガイドをもっと読む</h2>
+        <p>このページのニュースレターに登録するか、下のPlainBTCコミュニティに参加してください。関連記事はその下にあります。</p>
+      </div>
+
+      <div class="disclosure">
+        <strong>投資助言ではありません。</strong>この記事は情報提供と教育のみを目的としています。投資・取引・法律・税務に関する助言ではありません。暗号資産は価格変動が大きく、資金を失う可能性があります。ご自身で調べたうえで、金融に関する判断をする前に、必要に応じて資格のある専門家にご相談ください。
+      </div>
+
+  <!-- i18n:community -->
+      <aside class="community-box" aria-label="コミュニティリンク">
+        <h2>コミュニティに参加</h2>
+        <p>ニュース、初心者向けQ&amp;A、アンケート——PlainBTCをDiscord・Facebook・Xでフォロー。</p>
+        <div class="community-links"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+      </aside>
+  <!-- /i18n:community -->
+  <!-- i18n:newsletter -->
+      <aside class="newsletter-box" aria-labelledby="nl-title">
+        <h2 id="nl-title">新着記事をメールで受け取る</h2>
+        <p>初心者向けにやさしい言葉で書いたビットコイン・暗号資産ニュースを、公開のたびにメールでお届けします。スパムなし、いつでも配信停止できます。</p>
+        <form class="newsletter-form" method="post" action="/api/subscribe" novalidate data-ok="あと少しです。受信トレイを確認し、確認リンクをクリックしてください。" data-invalid="有効なメールアドレスを入力してください。" data-rate="試行回数が多すぎます。しばらくしてからもう一度お試しください。" data-error="問題が発生しました。もう一度お試しください。" data-sending="送信中…">
+          <input type="hidden" name="lang" value="ja">
+          <input type="hidden" name="source" value="/ja/articles/dtcc-tokenized-stocks-solana-2027-nov-2026">
+          <div class="nl-hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <label class="nl-label" for="nl-email">メールアドレス</label>
+          <div class="nl-row"><input id="nl-email" type="email" name="email" required maxlength="254" autocomplete="email" inputmode="email" placeholder="you@example.com">
+          <button type="submit">購読する</button></div>
+        </form>
+        <p class="nl-status" role="status" aria-live="polite"></p>
+        <p class="nl-note">メールアドレスは PlainBTC の記事更新の配信のみに使用します。確認が必要です。 <a href="/ja/disclosure">プライバシーの詳細</a></p>
+      </aside>
+  <!-- /i18n:newsletter -->
+
+<aside class="related" aria-label="関連記事">
+        <h2>関連記事</h2>
+        <ul>
+          <li><a href="/ja/articles/okxice-tokenized-stocks-launch-nov-23-2026">OKXとNYSE親会社ICE、米国でのトークン化株式の24時間取引を11月23日に開始へ</a></li>
+          <li><a href="/ja/articles/sec-backs-cftc-stock-perps-crypto-etf-options-nov-2026">SEC、個別株の無期限先物でCFTCを支持　より多くの暗号資産ETFのオプションにも道</a></li>
+          <li><a href="/ja/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">暗号資産ウォレットとは？カストディアルとセルフカストディを初心者向けに解説</a></li>
+        </ul>
+      </aside>
+
+      <section class="sources" aria-label="出典">
+        <h2>出典</h2>
+        <ol>
+          <li><a href="https://www.dtcc.com/press-releases/2026/dtcc-tokenization-service-to-connect-with-solana" target="_blank" rel="noopener">DTCC: DTCC Tokenization Service to Connect with Solana</a> (2026年11月12日)</li>
+          <li><a href="https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout" target="_blank" rel="noopener">CoinDesk: DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout</a> (2026年11月12日)</li>
+          <li><a href="https://www.theblock.co/news/business/2026-11-12-dtcc-plans-bring-tokenized-securities-solana-second-half-of-2027-438559" target="_blank" rel="noopener">The Block: DTCC plans to bring tokenized securities to Solana in second half of 2027</a> (2026年11月12日)</li>
+          <li><a href="https://decrypt.co/383132/dtcc-to-bring-tokenized-stocks-and-treasuries-to-solana-in-2027" target="_blank" rel="noopener">Decrypt: DTCC to Bring Tokenized Stocks and Treasuries to Solana in 2027</a> (2026年11月12日)</li>
+        </ol>
+        <p class="sources-note">出典のタイトルは原文の言語のまま表示しています。</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
+    <div class="wrap inner">
+      <div class="footer-brand">
+        <a class="logo" href="/ja/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · 初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/ja/">ホーム</a>
+        <a href="/ja/about">PlainBTCについて</a>
+        <a href="/ja/disclosure">開示事項</a>
+        <a href="/ja/feed.xml">RSS</a>
+      </nav>
+    </div>
+  <!-- i18n:footersocial -->
+  <div class="wrap footer-social" aria-label="コミュニティリンク"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+  <!-- /i18n:footersocial -->
+  <!-- i18n:footerlangs -->
+  <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="en" hreflang="en">English</a> <a href="/es/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="es" hreflang="es">Español</a> <a href="/pt/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/dtcc-tokenized-stocks-solana-2027-nov-2026" lang="ko" hreflang="ko">한국어</a></nav></div>
+  <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">ページの先頭へ <span aria-hidden="true">↑</span></a></div>
+  </footer>
+  <script src="/assets/site.a911afff6c.js" defer></script>
+</body>
+</html>

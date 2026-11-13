@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Depository_Trust_&_Clearing_Corporation_logo.svg",
+      "license": "Public domain (text logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:Depository_Trust_%26_Clearing_Corporation_logo.svg",
+      "credit": "DTCC"
+    },
+    {
+      "file": "solana-sol-logo.svg",
+      "license": "Logo",
+      "url": "https://cryptologos.cc/solana",
+      "credit": "Solana Foundation"
+    }
+  ],
+  "note": "Editorial composite; trademarks belong to their owners.",
+  "slug": "dtcc-tokenized-stocks-solana-2027-nov-2026",
+  "generated": "2026-11-13T19:00Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

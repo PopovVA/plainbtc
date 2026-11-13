@@ -1,0 +1,58 @@
+title: ABD Adalet Bakanlığı, Wall Street ve DeFi şirketleri Illinois'in %0,2'lik kripto vergisine karşı açılan davayı destekliyor
+page_title: Adalet Bakanlığı ve DeFi, Illinois kripto vergisine karşı
+description: ABD Adalet Bakanlığı, ABD Ticaret Odası, SIFMA ve a16z, Paradigm ile Uniswap liderliğindeki bir DeFi koalisyonu, Illinois'in kripto işlemlerine uyguladığı %0,2'lik verginin iptali için açılan davayı destekliyor. Verginin ne yaptığı ve bundan sonra ne olacağı.
+og_description: Illinois'in Dijital Varlık Vergisi Yasası, bir kripto varlığın bir aracı kurum üzerinden her alım satımında, transferinde veya saklanmasında tam değerinin %0,2'sini alıyor, kâr olmasa bile. Şimdi Adalet Bakanlığı ve geniş bir koalisyon yasanın iptalini istiyor.
+label: Düzenleme
+summary: ABD Adalet Bakanlığı, Wall Street'in en büyük lobisi ve önde gelen DeFi şirketleri, Illinois'in kripto alım satımı, transferi ve saklamasına uyguladığı %0,2'lik vergiye karşı davayı destekliyor. Vergi Temmuz 2027'ye kadar askıda.
+===
+
+Bir eyaletin ilk kez uyguladığı türden bir kripto vergisine karşı alışılmadık bir ittifak oluştu. ABD Adalet Bakanlığı, ABD Ticaret Odası, Wall Street lobisi SIFMA ve Andreessen Horowitz (a16z), Paradigm ile Uniswap'ın öncülük ettiği bir grup kripto şirketi, Illinois'in <strong>Dijital Varlık Vergisi Yasası</strong>'nın iptali için açılan davayı destekleyen belgeleri mahkemeye sundu, diye bildirdi [Decrypt](L1).
+
+Yasa, Illinois'teki bir müşteri bir dijital varlığı bir aracı kurum üzerinden her alıp sattığında, transfer ettiğinde veya sakladığında <strong>varlığın tam değerinin %0,2'sini</strong> alıyor. Satış, kâr ya da sahiplik değişikliği olmasa bile uygulanıyor. Illinois, Ekim'de dava sürerken vergiyi <strong>1 Temmuz 2027</strong>'ye kadar askıya almayı kabul etti.
+
+!takeaways
+- Illinois yasası, kripto bir aracı kurum üzerinden her alınıp satıldığında, transfer edildiğinde veya saklandığında tam değerin %0,2'sini alacak.
+- Adalet Bakanlığı 6 Kasım'da sunduğu görüşte vergiyi belirsiz ve ayrımcı olarak nitelendirdi.
+- ABD Ticaret Odası ve SIFMA ile a16z, Paradigm, Uniswap, Aave Labs ve Chainlink Labs'in yer aldığı bir DeFi koalisyonu davayı destekleyen görüşler sundu.
+- Vergi 1 Temmuz 2027'ye kadar askıda olduğu için bugün kimse ödemiyor.
+
+## Illinois vergisi ne yapıyor
+
+Yasa Haziran'da çıkarıldı. Kâr üzerinden ödenen gelir vergisinin aksine, bu vergi varlığın kendi değerine dayanıyor. Basit bir örnek: 1.000 dolarlık bir bitcoin alımının %0,2'si 2 dolar eder ve bu coinleri daha sonra bir aracı kurum üzerinden başka bir hesaba taşırsanız aynı oran yeniden uygulanır.
+
+[Blockchain Association](L3)'a göre Illinois'te dolar, altın veya hisse senedi için benzer bir vergi yok ve başka hiçbir eyalette böyle bir vergi bulunmuyor. [Cointelegraph](L2)'ın haberine göre valilik bütçe ofisi verginin 2027 mali yılında 60 milyon dolar gelir getireceğini öngörmüştü. Illinois Temsilciler Meclisi Başkanı Emanuel "Chris" Welch, vergiyi "büyük teknoloji şirketlerine ve kripto milyarderlerine adil paylarını ödetme" çabasının parçası olarak tanıtmıştı; bunu Temmuz'da Chicago Tribune yazmış, Cointelegraph aktarmıştı.
+
+!figure:timeline
+
+## Kim karşı çıkıyor ve neden
+
+Hukuki mücadele yaz aylarında başladı. Digital Chamber, Temmuz'da Illinois Başsavcısı Kwame Raoul'a ve eyalet gelir yetkilisi David Harris'e dava açtı. Blockchain Association ve Crypto Council for Innovation (CCI), Ağustos'ta Sangamon County mahkemesinde ayrı bir dava açtı. 4 Kasım'da hâkimden davayı karara bağlamasını ve vergiyi kalıcı olarak iptal etmesini istediler.
+
+Adalet Bakanlığı 6 Kasım'da bir görüş sundu. Verginin dijital varlıklara ilişkin federal politikayı baltaladığını savundu ve Stratejik Bitcoin Rezervi ile stablecoin'lere ilişkin GENIUS Yasası'nı örnek gösterdi, diye bildirdi Cointelegraph. Aynı gün [ABD Ticaret Odası](L4) ve aracı kurumları, bankaları ve varlık yöneticilerini temsil eden SIFMA, verginin kripto sunan geleneksel bankaları ve saklama kuruluşlarını da etkileyeceği uyarısında bulunan bir görüş sundu. "Bu, para kaybeden bir müşterinin kâr eden bir müşteriyle aynı vergiyi borçlanması demektir" ifadesi belgede yer aldı.
+
+!mid_cta
+
+11 Kasım'da DeFi Education Fund, a16z, Paradigm ve Uniswap liderliğindeki bir koalisyon kendi görüşünü sundu. Üyeleri arasında Aave Labs, Chainlink Labs, Solana Policy Institute, Phantom, Jito Labs, Multicoin Capital ve Stand With Crypto da var. Yasanın tanımlarının o kadar belirsiz olduğunu, müşteri fonlarını hiç tutmayan yazılım geliştiricilerini ve merkeziyetsiz protokolleri bile kapsayabileceğini savunuyorlar.
+
+!figure:fact
+
+Davacılar, verginin federal Internet Tax Freedom Act yasasını ve ABD Anayasası'nın eyaletler arası ticareti zorlaştıran eyalet vergilerine koyduğu sınırları ihlal ettiğini söylüyor. CCI CEO'su Ji Hun Kim ve Blockchain Association'dan Ashok Pinto ortak açıklamalarında "Bu vergi belirsiz, ayrımcı, anayasaya aykırı ve finansın geleceğine zararlı" dedi.
+
+## Yeni başlayanlar için anlamı
+
+Illinois'te yaşamıyorsanız bu vergi sizi ilgilendirmiyor. Orada yaşıyorsanız da bugün hiçbir şey alınmıyor, çünkü vergi 1 Temmuz 2027'ye kadar askıda. Asıl soru başka eyaletlerin bu fikri kopyalayıp kopyalamayacağı. Illinois aleyhine bir karar bunu daha az olası kılar; eyalet lehine bir karar benzer teklifleri cesaretlendirebilir.
+
+Vergiler, yaptığınız her alım, satım ve transferin kaydını tutmak için bir neden daha. Yeni başlıyorsanız, ABD'de [Coinbase](REF) gibi düzenlemeye tabi bir platform işlem geçmişinizi ve ücretlerinizi tek yerde gösterir, bu da vergi dönemini kolaylaştırır. Kaydolmadan önce sitedeki güncel koşulları kontrol edin ve yalnızca kaybetmeyi göze alabileceğiniz kadar yatırım yapın. Bu bir vergi ya da yatırım tavsiyesi değildir.
+
+## Bundan sonra izlenecekler
+
+- Sangamon County mahkemesinin özet karar talebi hakkında nasıl hüküm vereceği.
+- Illinois milletvekillerinin vergiyi 1 Temmuz 2027'den önce değiştirip değiştirmeyeceği ya da kaldırıp kaldırmayacağı.
+- Hangi aracı kurumların ve platformların vergiyi tahsil etmesi gerektiğine dair nihai eyalet kuralları.
+- Başka eyaletlerin kripto işlemlerine benzer vergiler önerip önermeyeceği.
+
+!soft: Washington'ın kripto denetimini nasıl yeniden şekillendirdiğini okuyun: [Trump SEC ve CFTC için dört aday gösterdi, aralarında kripto savunucusu Hester Peirce'ün yerine geçecek isim de var](/articles/trump-nominates-sec-cftc-commissioners-peirce-nov-2026).
+
+!end_cta
+
+!disclosure
