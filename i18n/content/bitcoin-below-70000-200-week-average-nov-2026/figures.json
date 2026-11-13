@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-daily-aug-nov.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin's daily closing price on Kraken from Aug. 15 to Nov. 12, 2026: it rises from about $63,000 to a peak close of about $86,600 on Sep. 21, then falls to about $71,400 on Nov. 12, with a dashed line at the Nov. 13 intraday low of about $67,500",
+      "es": "Gráfico de líneas del precio de cierre diario de bitcoin en Kraken del 15 de agosto al 12 de noviembre de 2026: sube de unos 63.000 dólares a un cierre máximo de unos 86.600 dólares el 21 de septiembre y cae a unos 71.400 dólares el 12 de noviembre, con una línea discontinua en el mínimo intradía del 13 de noviembre, de unos 67.500 dólares",
+      "pt": "Gráfico de linha do preço de fechamento diário do bitcoin na Kraken de 15 de agosto a 12 de novembro de 2026: sobe de cerca de US$ 63.000 para um fechamento máximo de cerca de US$ 86.600 em 21 de setembro e cai para cerca de US$ 71.400 em 12 de novembro, com uma linha tracejada na mínima intradiária de 13 de novembro, de cerca de US$ 67.500",
+      "fr": "Courbe du cours de clôture quotidien du bitcoin sur Kraken du 15 août au 12 novembre 2026 : il passe d'environ 63 000 dollars à une clôture record d'environ 86 600 dollars le 21 septembre, puis recule à environ 71 400 dollars le 12 novembre, avec une ligne pointillée au plus bas intrajournalier du 13 novembre, environ 67 500 dollars",
+      "de": "Liniendiagramm des täglichen Bitcoin-Schlusskurses bei Kraken vom 15. August bis 12. November 2026: Anstieg von rund 63.000 $ auf einen Höchstschlusskurs von rund 86.600 $ am 21. September, danach Rückgang auf rund 71.400 $ am 12. November; gestrichelte Linie beim Tagestief vom 13. November von rund 67.500 $",
+      "ru": "Линейный график дневных цен закрытия биткоина на Kraken с 15 августа по 12 ноября 2026 года: рост примерно с $63 000 до максимального закрытия около $86 600 21 сентября, затем снижение примерно до $71 400 12 ноября; пунктирная линия показывает внутридневной минимум 13 ноября, около $67 500",
+      "tr": "Bitcoin'in 15 Ağustos - 12 Kasım 2026 arasında Kraken'deki günlük kapanış fiyatının çizgi grafiği: yaklaşık 63.000 $'dan 21 Eylül'de yaklaşık 86.600 $ ile en yüksek kapanışa çıkıyor, 12 Kasım'da yaklaşık 71.400 $'a geriliyor; kesikli çizgi 13 Kasım'daki yaklaşık 67.500 $'lık gün içi dibi gösteriyor",
+      "id": "Grafik garis harga penutupan harian bitcoin di Kraken dari 15 Agustus hingga 12 November 2026: naik dari sekitar US$63.000 ke penutupan tertinggi sekitar US$86.600 pada 21 September, lalu turun ke sekitar US$71.400 pada 12 November, dengan garis putus-putus di level terendah intrahari 13 November sekitar US$67.500",
+      "ja": "2026年8月15日〜11月12日のKrakenにおけるビットコイン日次終値の折れ線グラフ：約6万3000ドルから9月21日の最高終値約8万6600ドルまで上昇し、11月12日には約7万1400ドルに下落。破線は11月13日の日中安値（約6万7500ドル）",
+      "ko": "2026년 8월 15일~11월 12일 크라켄 비트코인 일일 종가 선 차트: 약 63,000달러에서 9월 21일 약 86,600달러로 최고 종가를 기록한 뒤 11월 12일 약 71,400달러로 하락, 점선은 11월 13일 장중 저점 약 67,500달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken BTC/USD daily closes and Nov. 13 intraday low",
+      "es": "Gráfico: PlainBTC, datos: cierres diarios BTC/USD de Kraken y mínimo intradía del 13 de noviembre",
+      "pt": "Gráfico: PlainBTC, dados: fechamentos diários BTC/USD da Kraken e mínima intradiária de 13 de novembro",
+      "fr": "Graphique : PlainBTC, données : clôtures quotidiennes BTC/USD de Kraken et plus bas intrajournalier du 13 novembre",
+      "de": "Chart: PlainBTC, Daten: BTC/USD-Tagesschlusskurse bei Kraken und Tagestief vom 13. November",
+      "ru": "График: PlainBTC, данные: дневные закрытия BTC/USD на Kraken и внутридневной минимум 13 ноября",
+      "tr": "Grafik: PlainBTC, veri: Kraken BTC/USD günlük kapanışları ve 13 Kasım gün içi dibi",
+      "id": "Grafik: PlainBTC, data: harga penutupan harian BTC/USD Kraken dan level terendah intrahari 13 November",
+      "ja": "チャート: PlainBTC、データ: KrakenのBTC/USD日次終値と11月13日の日中安値",
+      "ko": "차트: PlainBTC, 데이터: 크라켄 BTC/USD 일일 종가 및 11월 13일 장중 저점"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-liquidations-1-64b.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: about $1.64 billion in crypto futures were liquidated in the 24 hours to Nov. 13; long bets made up 88.7%, and bitcoin futures accounted for $916 million",
+      "es": "Tarjeta: en las 24 horas hasta el 13 de noviembre se liquidaron unos 1.640 millones de dólares en futuros cripto; el 88,7% eran apuestas alcistas y los futuros de bitcoin sumaron 916 millones",
+      "pt": "Cartão: nas 24 horas até 13 de novembro, cerca de US$ 1,64 bilhão em futuros cripto foram liquidados; 88,7% eram apostas de alta, e os futuros de bitcoin somaram US$ 916 milhões",
+      "fr": "Encadré : environ 1,64 milliard de dollars de contrats à terme crypto ont été liquidés dans les 24 heures précédant le 13 novembre ; 88,7 % étaient des paris à la hausse, et les contrats sur le bitcoin représentaient 916 millions de dollars",
+      "de": "Faktenkarte: In den 24 Stunden bis zum 13. November wurden rund 1,64 Mrd. $ an Krypto-Futures liquidiert; 88,7 % davon waren Long-Wetten, auf Bitcoin-Futures entfielen 916 Mio. $",
+      "ru": "Карточка: за 24 часа до 13 ноября ликвидировано около $1,64 млрд в криптофьючерсах; 88,7% пришлось на длинные позиции, на фьючерсы на биткоин пришлось $916 млн",
+      "tr": "Kart: 13 Kasım'a kadar 24 saatte yaklaşık 1,64 milyar $'lık kripto vadeli pozisyon tasfiye edildi; bunun %88,7'si yükseliş pozisyonuydu, bitcoin vadelileri 916 milyon $'ı oluşturdu",
+      "id": "Kartu fakta: sekitar US$1,64 miliar kontrak berjangka kripto dilikuidasi dalam 24 jam hingga 13 November; 88,7% di antaranya posisi long, dan kontrak bitcoin mencapai US$916 juta",
+      "ja": "カード：11月13日までの24時間で約16億4000万ドルの暗号資産先物が清算され、88.7%が買いポジション。ビットコイン先物は9億1600万ドル",
+      "ko": "카드: 11월 13일까지 24시간 동안 약 16억 4,000만 달러 규모 암호화폐 선물이 청산됐고, 88.7%가 롱 포지션이었고 비트코인 선물이 9억 1,600만 달러를 차지"
+    },
+    "caption": {
+      "en": "Source: CoinGlass via CoinDesk",
+      "es": "Fuente: CoinGlass, citado por CoinDesk",
+      "pt": "Fonte: CoinGlass, citado pelo CoinDesk",
+      "fr": "Source : CoinGlass, cité par CoinDesk",
+      "de": "Quelle: CoinGlass, zitiert von CoinDesk",
+      "ru": "Источник: CoinGlass, по данным CoinDesk",
+      "tr": "Kaynak: CoinDesk'in aktardığı CoinGlass verileri",
+      "id": "Sumber: CoinGlass, dikutip CoinDesk",
+      "ja": "出典: CoinGlass（CoinDesk経由）",
+      "ko": "출처: CoinGlass(CoinDesk 인용)"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "kind": "chart",
+  "sources": [
+    {
+      "file": "Farside Investors Bitcoin ETF Flow table",
+      "license": "Public data, cited",
+      "url": "https://farside.co.uk/btc/",
+      "credit": "Daily U.S. spot bitcoin ETF net flows, Nov 2-12, 2026, from Farside Investors"
+    }
+  ],
+  "slug": "bitcoin-below-70000-200-week-average-nov-2026",
+  "generated": "2026-11-13T14:08Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

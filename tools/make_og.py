@@ -32,6 +32,16 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "trump-nominates-sec-cftc-commissioners-peirce-nov-2026",
+        "Trump names four SEC and CFTC nominees, including a Peirce successor",
+        "REGULATION",
+    ),
+    (
+        "bitcoin-below-70000-200-week-average-nov-2026",
+        "Bitcoin falls below $70,000 as traders bet on a Fed rate hike",
+        "MARKET NEWS",
+    ),
+    (
         "msci-drops-strategy-bitcoin-falls-nvidia-nov-2026",
         "MSCI will drop Strategy from its indexes as bitcoin slides",
         "MARKETS",
@@ -139,6 +149,67 @@ ARTICLES = [
 ]
 
 
+# Topic-specific previews: slugs listed here get official logos / seals of the
+# organizations in the story (white tiles on the right) instead of the generic bitcoin mark.
+# Sources are Wikimedia Commons files (U.S. government seals are public domain; logos are
+# used for identification only). Each entry: (image URL, tile background RGB).
+WIKI = "https://upload.wikimedia.org/wikipedia/commons/"
+OG_LOGOS: dict[str, list[tuple[str, tuple[int, int, int]]]] = {
+    "trump-nominates-sec-cftc-commissioners-peirce-nov-2026": [
+        (WIKI + "1/1c/Seal_of_the_United_States_Securities_and_Exchange_Commission.svg", (255, 255, 255)),
+        (WIKI + "3/3e/Commodity_Futures_Trading_Commission_seal.svg", (255, 255, 255)),
+    ],
+    "bitcoin-below-70000-200-week-average-nov-2026": [
+        (WIKI + "7/73/Seal_of_the_United_States_Federal_Reserve_Board.svg", (255, 255, 255)),
+        (WIKI + "4/46/Bitcoin.svg", (255, 255, 255)),
+    ],
+}
+LOGO_CACHE = Path("/tmp/og-logo-src")
+
+
+def fetch_logo(url: str) -> Image.Image:
+    """Download (and cache) a logo; SVGs are rasterized with cairosvg."""
+    import hashlib
+    import urllib.request
+
+    LOGO_CACHE.mkdir(parents=True, exist_ok=True)
+    dest = LOGO_CACHE / (hashlib.sha1(url.encode()).hexdigest()[:16] + ".png")
+    if not dest.exists():
+        req = urllib.request.Request(url, headers={"User-Agent": "PlainBTCOgBot/1.0 (https://plainbtc.com)"})
+        with urllib.request.urlopen(req, timeout=90) as r:
+            data = r.read()
+        if url.lower().endswith(".svg") or b"<svg" in data[:400].lower():
+            import cairosvg  # only needed for SVG logos (.venv has it)
+
+            cairosvg.svg2png(bytestring=data, write_to=str(dest), output_width=900)
+        else:
+            dest.write_bytes(data)
+    return Image.open(dest).convert("RGBA")
+
+
+def draw_logo_tiles(base: Image.Image, logos) -> Image.Image:
+    """Stack 1-3 rounded logo tiles in the right-hand column."""
+    img = base.convert("RGBA")
+    n = len(logos)
+    tile_w, gap = 330, 24
+    tile_h = min(220, (470 - gap * (n - 1)) // n) if n > 1 else 300
+    total = n * tile_h + (n - 1) * gap
+    x0, y0 = 1200 - 56 - tile_w, (630 - total) // 2 - 10
+    for i, (url, bg) in enumerate(logos):
+        y = y0 + i * (tile_h + gap)
+        tile = Image.new("RGBA", (tile_w, tile_h), bg + (255,))
+        mask = Image.new("L", (tile_w, tile_h), 0)
+        ImageDraw.Draw(mask).rounded_rectangle([0, 0, tile_w - 1, tile_h - 1], radius=22, fill=255)
+        img.paste(tile, (x0, y), mask)
+        logo = fetch_logo(url)
+        pad = 22
+        scale = min((tile_w - 2 * pad) / logo.width, (tile_h - 2 * pad) / logo.height)
+        lw, lh = max(1, int(logo.width * scale)), max(1, int(logo.height * scale))
+        logo = logo.resize((lw, lh), Image.Resampling.LANCZOS)
+        img.alpha_composite(logo, (x0 + (tile_w - lw) // 2, y + (tile_h - lh) // 2))
+    return img
+
+
 def load_font(path: str, size: int) -> ImageFont.FreeTypeFont:
     try:
         return ImageFont.truetype(path, size)
@@ -241,7 +312,10 @@ def make_image(slug: str, title: str, label: str) -> Path:
     od.rectangle([0, 0, 8, H], fill=ORANGE + (255,))
 
     img = Image.alpha_composite(img.convert("RGBA"), overlay)
-    img = draw_bitcoin_mark(img, cx=980, cy=300, radius=170, alpha=90)
+    if slug in OG_LOGOS:
+        img = draw_logo_tiles(img, OG_LOGOS[slug])
+    else:
+        img = draw_bitcoin_mark(img, cx=980, cy=300, radius=170, alpha=90)
     img = img.convert("RGB")
     draw = ImageDraw.Draw(img)
 
@@ -256,7 +330,7 @@ def make_image(slug: str, title: str, label: str) -> Path:
     )
 
     title_font = load_font(FONT_BOLD, 52)
-    max_title_width = 700
+    max_title_width = 700 if slug not in OG_LOGOS else 680
     lines = wrap_text(title, title_font, max_title_width, draw, max_lines=4)
     if len(lines) >= 4:
         title_font = load_font(FONT_BOLD, 46)

@@ -1,0 +1,64 @@
+title: Bitcoin falls below $70,000 and its 200-week average as traders bet on a Fed rate hike
+page_title: Bitcoin falls below $70,000, lowest since August
+description: Bitcoin dropped to about $67,500 on Kraken overnight, its lowest price since Aug. 19, as the dollar jumped, traders priced in a December Fed hike and $1.64 billion in crypto bets were liquidated.
+og_description: Bitcoin slipped below $70,000 and its 200-week moving average. About $1.64 billion in crypto futures were liquidated in 24 hours, and bitcoin ETFs logged a sixth straight day of outflows.
+label: Market news
+summary: Bitcoin fell below $70,000 for the first time since August and dipped under its 200-week average as traders priced in a December Fed rate hike.
+===
+
+Bitcoin fell below <strong>$70,000</strong> overnight for the first time since August. On Kraken, the price dropped as low as <strong>$67,500</strong> around midnight Eastern time on Friday, Nov. 13, its lowest level since Aug. 19. By about 9 a.m. Eastern time it had bounced to roughly <strong>$69,400</strong>, still down about 2.7% from where the UTC day opened near $71,370.
+
+The slide also pushed bitcoin under its <strong>200-week moving average</strong>, a long-term trend line that [CoinDesk](L2) put at around $68,000. Ether, the second-largest cryptocurrency, touched $1,900, its lowest price since Aug. 18, according to [CoinDesk](L1).
+
+!takeaways
+- Bitcoin hit about $67,500 on Kraken, its lowest price since Aug. 19, before recovering to around $69,400.
+- Traders now see an 88% chance of a quarter-point Fed rate hike in December and a 12% chance of a half-point hike, according to CME FedWatch data cited by CoinDesk.
+- About $1.64 billion in crypto futures were liquidated in 24 hours, 88.7% of them bets on rising prices, per CoinGlass data.
+- U.S. spot bitcoin ETFs had net outflows of $284.1 million on Thursday, a sixth straight trading day of withdrawals, Farside data shows.
+
+## A stronger dollar and higher rates
+
+The main pressure came from interest rates. After hotter-than-expected inflation data earlier this week, traders now expect the Federal Reserve to <em>raise</em> rates when it meets on Dec. 8-9. CoinDesk reported that CME FedWatch showed an 88% chance of a 25-basis-point increase and a 12% chance of a 50-basis-point move.
+
+That outlook lifted the U.S. dollar. The Dollar Index, which tracks the dollar against other major currencies, rose above 103, its highest level since April 2025. The 10-year Treasury yield climbed to about 5.15% and was on track for its worst week since April 2025, CoinDesk reported. When cash and bonds pay more, riskier assets such as stocks and crypto often lose some appeal.
+
+Friday morning's producer price report did not change the picture much. Wholesale prices rose 0.3% in October, a bit less than the 0.4% economists expected, but were still up 6.5% from a year earlier. Bitcoin edged up after the release.
+
+!figure:chart
+
+## Leveraged traders took the hit
+
+Falling prices forced many traders out of borrowed bets. CoinGlass data cited by CoinDesk showed <strong>$1.64 billion</strong> in crypto futures liquidations over 24 hours. Long positions, meaning bets that prices would rise, made up 88.7% of the total. Bitcoin futures accounted for $916 million of the liquidations and ether futures for $289 million.
+
+Sentiment also turned gloomy. The Crypto Fear and Greed Index stood at 19, a level labeled "extreme fear." Glassnode data showed bitcoin's average funding rate on perpetual futures turned negative for the first time in a month, meaning traders betting on falling prices were paying those betting on a rise. CoinDesk noted that such readings sometimes show up near short-term bottoms, but they are no guarantee of a rebound.
+
+!mid_cta
+
+## ETF investors keep pulling money
+
+Big funds have been selling too. According to [Farside Investors](L3), U.S. spot bitcoin ETFs had net outflows of <strong>$284.1 million</strong> on Thursday, Nov. 12, led by $203.8 million from BlackRock's IBIT. That made six trading days in a row of withdrawals, totaling about $1.72 billion. Thursday's selling also came as Nvidia CEO Jensen Huang resigned, which hit tech stocks that bitcoin often moves with, as we covered [yesterday](/articles/msci-drops-strategy-bitcoin-falls-nvidia-nov-2026).
+
+!figure:fact
+
+## Why the 200-week average matters
+
+The 200-week moving average is the average weekly closing price over roughly the last four years. Many long-term investors watch it because bitcoin has often found a floor near this line in past downturns. By PlainBTC's own calculation from Kraken weekly closing prices, it sits roughly between $68,100 and $68,400, so bitcoin is trading close to it. Many chart watchers would see a weekly close well below it as a bearish sign, while a recovery above it would ease some pressure. Nobody knows which will happen.
+
+## What it means for beginners
+
+Bitcoin is down about 16% over the past month, CoinDesk reported, and moves like this are common in crypto. Most of the forced selling hit traders using borrowed money, so avoiding leverage is one of the simplest ways to stay out of trouble. Only invest what you can afford to leave untouched for a long time.
+
+If you prefer to buy small amounts on a schedule instead of guessing the bottom, a bitcoin-only service such as [River](L4) lets U.S. customers set up recurring purchases; check its current fees and terms on its site first. This is not investment advice.
+
+## What to watch next
+
+- Whether bitcoin closes the week above or below its 200-week average near $68,000.
+- Spot bitcoin ETF flows for Friday, due from Farside Investors after the U.S. market close.
+- Comments from Fed officials ahead of the Dec. 8-9 meeting.
+- Moves in the Dollar Index and the 10-year Treasury yield.
+
+!soft: Thinking about buying a little at a time? Read our guide to [dollar-cost averaging for beginners](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

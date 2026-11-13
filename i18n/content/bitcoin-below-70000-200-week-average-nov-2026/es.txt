@@ -1,0 +1,64 @@
+title: El bitcoin cae por debajo de 70.000 $ y de su media de 200 semanas ante las apuestas de una subida de tipos de la Fed
+page_title: El bitcoin cae por debajo de 70.000 $, mínimo desde agosto
+description: El bitcoin bajó a unos 67.500 $ en Kraken durante la noche, su precio más bajo desde el 19 de agosto, con el dólar al alza, el mercado descontando una subida de la Fed en diciembre y 1.640 M$ en apuestas cripto liquidadas.
+og_description: El bitcoin cayó por debajo de 70.000 $ y de su media móvil de 200 semanas. Se liquidaron unos 1.640 M$ en futuros cripto en 24 horas y los ETF de bitcoin sumaron su sexto día seguido de salidas.
+label: Mercado
+summary: El bitcoin cayó por debajo de 70.000 $ por primera vez desde agosto y perforó su media de 200 semanas mientras el mercado descuenta una subida de tipos de la Fed en diciembre.
+===
+
+El bitcoin cayó durante la noche por debajo de <strong>70.000 $</strong> por primera vez desde agosto. En Kraken, el precio llegó a bajar hasta <strong>67.500 $</strong> hacia la medianoche (hora del este de EE. UU.) del viernes 13 de noviembre, su nivel más bajo desde el 19 de agosto. Hacia las 9 de la mañana, hora del este, había rebotado hasta unos <strong>69.400 $</strong>, todavía alrededor de un 2,7% por debajo de la apertura del día UTC, cerca de 71.370 $.
+
+La caída también llevó al bitcoin por debajo de su <strong>media móvil de 200 semanas</strong>, una línea de tendencia a largo plazo que [CoinDesk](L2) situó en torno a 68.000 $. El ether, la segunda criptomoneda más grande, tocó 1.900 $, su precio más bajo desde el 18 de agosto, según [CoinDesk](L1).
+
+!takeaways
+- El bitcoin tocó unos 67.500 $ en Kraken, su precio más bajo desde el 19 de agosto, antes de recuperarse hasta unos 69.400 $.
+- Los operadores ven ahora un 88% de probabilidad de una subida de un cuarto de punto de la Fed en diciembre y un 12% de una de medio punto, según datos de CME FedWatch citados por CoinDesk.
+- Se liquidaron unos 1.640 M$ en futuros cripto en 24 horas; el 88,7% eran apuestas a que los precios subirían, según datos de CoinGlass.
+- Los ETF al contado de bitcoin en EE. UU. registraron salidas netas de 284,1 M$ el jueves, su sexta sesión seguida de retiradas, según datos de Farside.
+
+## Un dólar más fuerte y tipos más altos
+
+La presión principal vino de los tipos de interés. Tras unos datos de inflación más altos de lo esperado a principios de semana, los operadores esperan ahora que la Reserva Federal <em>suba</em> los tipos en su reunión del 8 y 9 de diciembre. CoinDesk informó de que CME FedWatch mostraba un 88% de probabilidad de una subida de 25 puntos básicos y un 12% de una de 50 puntos básicos.
+
+Esa perspectiva impulsó al dólar estadounidense. El índice del dólar, que mide la divisa frente a otras monedas principales, superó 103, su nivel más alto desde abril de 2025. El rendimiento del bono del Tesoro a 10 años subió a alrededor del 5,15% y se encaminaba a su peor semana desde abril de 2025, según CoinDesk. Cuando el efectivo y los bonos rinden más, los activos más arriesgados como las acciones y las criptomonedas suelen perder parte de su atractivo.
+
+El informe de precios de producción del viernes por la mañana no cambió mucho el panorama. Los precios mayoristas subieron un 0,3% en octubre, algo menos que el 0,4% que esperaban los economistas, pero seguían un 6,5% por encima de hace un año. El bitcoin subió ligeramente tras la publicación.
+
+!figure:chart
+
+## Los operadores apalancados se llevaron el golpe
+
+La caída de los precios obligó a muchos operadores a cerrar apuestas hechas con dinero prestado. Los datos de CoinGlass citados por CoinDesk mostraron <strong>1.640 M$</strong> en liquidaciones de futuros cripto en 24 horas. Las posiciones largas, es decir, apuestas a que los precios subirían, supusieron el 88,7% del total. Los futuros de bitcoin acumularon 916 M$ de las liquidaciones y los de ether, 289 M$.
+
+El ánimo del mercado también se ensombreció. El índice Crypto Fear and Greed marcaba 19, un nivel calificado de "miedo extremo". Los datos de Glassnode mostraron que la tasa de financiación media de los futuros perpetuos de bitcoin se volvió negativa por primera vez en un mes, lo que significa que quienes apuestan a la baja pagaban a quienes apuestan al alza. CoinDesk señaló que estas lecturas a veces aparecen cerca de suelos a corto plazo, pero no garantizan un rebote.
+
+!mid_cta
+
+## Los inversores en ETF siguen retirando dinero
+
+Los grandes fondos también han estado vendiendo. Según [Farside Investors](L3), los ETF al contado de bitcoin en EE. UU. registraron salidas netas de <strong>284,1 M$</strong> el jueves 12 de noviembre, encabezadas por 203,8 M$ del IBIT de BlackRock. Son seis sesiones seguidas de retiradas, por un total de unos 1.720 M$. Las ventas del jueves coincidieron además con la dimisión del CEO de Nvidia, Jensen Huang, que golpeó a las tecnológicas con las que el bitcoin suele moverse, como contamos [ayer](/articles/msci-drops-strategy-bitcoin-falls-nvidia-nov-2026).
+
+!figure:fact
+
+## Por qué importa la media de 200 semanas
+
+La media móvil de 200 semanas es el precio medio de cierre semanal de aproximadamente los últimos cuatro años. Muchos inversores a largo plazo la vigilan porque, en caídas anteriores, el bitcoin a menudo encontró un suelo cerca de esta línea. Según el cálculo propio de PlainBTC con los cierres semanales de Kraken, se sitúa aproximadamente entre 68.100 $ y 68.400 $, así que el bitcoin cotiza muy cerca de ella. Muchos analistas técnicos verían un cierre semanal claramente por debajo como una señal bajista, mientras que una recuperación por encima aliviaría algo la presión. Nadie sabe qué ocurrirá.
+
+## Qué significa para quienes empiezan
+
+El bitcoin ha bajado alrededor de un 16% en el último mes, según CoinDesk, y movimientos así son habituales en el mundo cripto. La mayor parte de las ventas forzadas afectó a operadores que usaban dinero prestado, así que evitar el apalancamiento es una de las formas más sencillas de no meterse en problemas. Invierte solo lo que puedas dejar sin tocar durante mucho tiempo.
+
+Si prefieres comprar pequeñas cantidades de forma periódica en lugar de intentar adivinar el suelo, un servicio solo de bitcoin como [River](L4) permite a los clientes de EE. UU. programar compras recurrentes; revisa antes sus comisiones y condiciones actuales en su web. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Si el bitcoin cierra la semana por encima o por debajo de su media de 200 semanas, cerca de 68.000 $.
+- Los flujos de los ETF al contado de bitcoin del viernes, que Farside Investors publicará tras el cierre del mercado estadounidense.
+- Los comentarios de los responsables de la Fed antes de la reunión del 8 y 9 de diciembre.
+- Los movimientos del índice del dólar y del rendimiento del bono del Tesoro a 10 años.
+
+!soft: ¿Te planteas comprar poco a poco? Lee nuestra guía sobre [la compra periódica (DCA) para principiantes](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

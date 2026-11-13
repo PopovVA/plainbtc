@@ -1,0 +1,34 @@
+{
+ "slug": "bitcoin-below-70000-200-week-average-nov-2026",
+ "date": "2026-11-13",
+ "readtime": 5,
+ "primary_partner": "river",
+ "related": [
+  "msci-drops-strategy-bitcoin-falls-nvidia-nov-2026",
+  "bitcoin-below-73000-lowest-since-august-nov-2026",
+  "how-much-bitcoin-should-a-beginner-buy-dca"
+ ],
+ "sources": [
+  {
+   "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
+   "title": "CoinDesk: Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
+   "date": "Nov 13, 2026"
+  },
+  {
+   "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
+   "title": "CoinDesk: Live news: Bitcoin plunges back towards bear market lows, wiping out late summer rally",
+   "date": "Nov 13, 2026"
+  },
+  {
+   "url": "https://farside.co.uk/btc/",
+   "title": "Farside Investors: Bitcoin ETF Flow (US$m)",
+   "date": "Nov 13, 2026"
+  },
+  {
+   "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+   "title": "Kraken: BTC/USD OHLC market data (public API)",
+   "date": "Nov 13, 2026"
+  }
+ ],
+ "disclosure_variant": "std"
+}

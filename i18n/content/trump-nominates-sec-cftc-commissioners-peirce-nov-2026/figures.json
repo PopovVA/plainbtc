@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-sec-cftc-seats.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of commissioner seats filled out of five: the SEC has 2 today and would have 4 if both nominees are confirmed; the CFTC has 1 today and would have 3",
+      "es": "Gráfico de barras de los puestos de comisionado ocupados de un total de cinco: la SEC tiene 2 hoy y tendría 4 si se confirman sus dos candidatos; la CFTC tiene 1 hoy y tendría 3",
+      "pt": "Gráfico de barras dos assentos de comissário ocupados de um total de cinco: a SEC tem 2 hoje e teria 4 se os dois indicados forem confirmados; a CFTC tem 1 hoje e teria 3",
+      "fr": "Graphique en barres des sièges de commissaire pourvus sur cinq : la SEC en compte 2 aujourd'hui et en aurait 4 si ses deux candidats sont confirmés ; la CFTC en compte 1 et en aurait 3",
+      "de": "Balkendiagramm der besetzten Kommissarsposten von fünf: Die SEC hat heute 2 und hätte 4, wenn beide Kandidaten bestätigt werden; die CFTC hat heute 1 und hätte 3",
+      "ru": "Столбчатая диаграмма занятых мест комиссаров из пяти: в SEC сейчас 2, а после утверждения обоих кандидатов будет 4; в CFTC сейчас 1, будет 3",
+      "tr": "Beş komisyon üyeliğinden dolu olanların çubuk grafiği: SEC'te bugün 2 üye var, iki aday da onaylanırsa 4 olacak; CFTC'de bugün 1 üye var, 3 olacak",
+      "id": "Grafik batang kursi komisioner yang terisi dari lima: SEC kini punya 2 dan akan menjadi 4 jika kedua calon dikonfirmasi; CFTC kini punya 1 dan akan menjadi 3",
+      "ja": "定員5人のうち埋まっている委員ポストの棒グラフ：SECは現在2人で、2人の候補が承認されれば4人に。CFTCは現在1人で、承認されれば3人に",
+      "ko": "정원 5명 중 채워진 위원 자리 막대 차트: SEC는 현재 2명이며 두 후보가 인준되면 4명, CFTC는 현재 1명이며 인준되면 3명"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: The White House, CoinDesk, Cointelegraph",
+      "es": "Gráfico: PlainBTC, datos: Casa Blanca, CoinDesk, Cointelegraph",
+      "pt": "Gráfico: PlainBTC, dados: Casa Branca, CoinDesk, Cointelegraph",
+      "fr": "Graphique : PlainBTC, données : Maison Blanche, CoinDesk, Cointelegraph",
+      "de": "Chart: PlainBTC, Daten: Weißes Haus, CoinDesk, Cointelegraph",
+      "ru": "График: PlainBTC, данные: Белый дом, CoinDesk, Cointelegraph",
+      "tr": "Grafik: PlainBTC, veri: Beyaz Saray, CoinDesk, Cointelegraph",
+      "id": "Grafik: PlainBTC, data: Gedung Putih, CoinDesk, Cointelegraph",
+      "ja": "チャート: PlainBTC、データ: ホワイトハウス、CoinDesk、Cointelegraph",
+      "ko": "차트: PlainBTC, 데이터: 백악관, CoinDesk, Cointelegraph"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-four-nominees.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: four nominees. SEC: Steven Levine, Republican, and Kristin Johnson, Democrat. CFTC: Nathan Anonick, Republican, and Matthew Rowland, Democrat. All need Senate confirmation",
+      "es": "Tarjeta: cuatro candidatos. SEC: Steven Levine, republicano, y Kristin Johnson, demócrata. CFTC: Nathan Anonick, republicano, y Matthew Rowland, demócrata. Todos necesitan la confirmación del Senado",
+      "pt": "Cartão: quatro indicados. SEC: Steven Levine, republicano, e Kristin Johnson, democrata. CFTC: Nathan Anonick, republicano, e Matthew Rowland, democrata. Todos precisam de confirmação do Senado",
+      "fr": "Encadré : quatre candidats. SEC : Steven Levine, républicain, et Kristin Johnson, démocrate. CFTC : Nathan Anonick, républicain, et Matthew Rowland, démocrate. Tous doivent être confirmés par le Sénat",
+      "de": "Faktenkarte: vier Kandidaten. SEC: Steven Levine, Republikaner, und Kristin Johnson, Demokratin. CFTC: Nathan Anonick, Republikaner, und Matthew Rowland, Demokrat. Alle brauchen die Bestätigung des Senats",
+      "ru": "Карточка: четыре кандидата. SEC: республиканец Стивен Левин и демократ Кристин Джонсон. CFTC: республиканец Натан Аноник и демократ Мэтью Роуленд. Всех должен утвердить Сенат",
+      "tr": "Kart: dört aday. SEC: Cumhuriyetçi Steven Levine ve Demokrat Kristin Johnson. CFTC: Cumhuriyetçi Nathan Anonick ve Demokrat Matthew Rowland. Hepsinin Senato onayı alması gerekiyor",
+      "id": "Kartu fakta: empat calon. SEC: Steven Levine (Republik) dan Kristin Johnson (Demokrat). CFTC: Nathan Anonick (Republik) dan Matthew Rowland (Demokrat). Semuanya perlu konfirmasi Senat",
+      "ja": "カード：候補は4人。SECは共和党のスティーブン・レバイン氏と民主党のクリスティン・ジョンソン氏、CFTCは共和党のネイサン・アノニック氏と民主党のマシュー・ローランド氏。全員に上院の承認が必要",
+      "ko": "카드: 후보 4명. SEC는 공화당 스티븐 레바인과 민주당 크리스틴 존슨, CFTC는 공화당 네이선 아노닉과 민주당 매슈 롤런드. 모두 상원 인준이 필요하다"
+    },
+    "caption": {
+      "en": "Source: The White House; Reuters",
+      "es": "Fuente: Casa Blanca; Reuters",
+      "pt": "Fonte: Casa Branca; Reuters",
+      "fr": "Source : Maison Blanche ; Reuters",
+      "de": "Quelle: Weißes Haus; Reuters",
+      "ru": "Источник: Белый дом; Reuters",
+      "tr": "Kaynak: Beyaz Saray; Reuters",
+      "id": "Sumber: Gedung Putih; Reuters",
+      "ja": "出典: ホワイトハウス、ロイター",
+      "ko": "출처: 백악관, 로이터"
+    }
+  }
+]

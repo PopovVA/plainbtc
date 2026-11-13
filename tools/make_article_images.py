@@ -1879,6 +1879,169 @@ DOJ_FACT_ALTS = {
 }
 
 
+def build_btc_below_70k():
+    slug = "bitcoin-below-70000-200-week-average-nov-2026"
+    d = OUT / slug
+    # Kraken XBTUSD daily closes, Aug 15 - Nov 12, 2026 (90 days): $63,024 on Aug 15, peak close $86,594 (Sep 21),
+    # $71,371 on Nov 12. Nov 13 intraday low on Kraken: $67,500.0 (05:00 UTC hour), lowest since Aug 19.
+    url = "https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=1440&since=1786579200"
+    req = urllib.request.Request(url, headers={"User-Agent": "PlainBTC/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read().decode())
+    rows = next(v for k, v in data["result"].items() if k != "last")
+    rows = [r for r in rows if 1786752000 <= int(r[0]) < 1794528000]
+    xs = np.array([float(r[0]) for r in rows]); ys = np.array([float(r[4]) for r in rows])
+    chart = make_line_chart(
+        d / "chart-btc-daily-aug-nov",
+        xs, ys,
+        title="Bitcoin daily closing price, Aug. 15 - Nov. 12, 2026 (Kraken)",
+        hline=67500,
+        hlabel="Nov. 13 intraday low ≈ $67,500 (Kraken)",
+    )
+    card = make_fact_card(
+        d / "fact-liquidations-1-64b",
+        label="Liquidations",
+        big="$1.64 billion",
+        sub="Crypto futures liquidated in 24 hours to Nov. 13. Long bets made up 88.7%; bitcoin futures accounted for $916 million.",
+        footer="CoinGlass data via CoinDesk · Nov. 13, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's daily closing price on Kraken from Aug. 15 to Nov. 12, 2026: it rises from about $63,000 to a peak close of about $86,600 on Sep. 21, then falls to about $71,400 on Nov. 12, with a dashed line at the Nov. 13 intraday low of about $67,500", BTC70_CHART_ALTS),
+         "caption": {l: CAPTION_CHART[l].format(src=BTC70_CHART_SRC[l]) for l in LANGS}},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: about $1.64 billion in crypto futures were liquidated in the 24 hours to Nov. 13; long bets made up 88.7%, and bitcoin futures accounted for $916 million", BTC70_FACT_ALTS),
+         "caption": {l: CAPTION_SOURCE[l].format(src=BTC70_FACT_SRC[l]) for l in LANGS}},
+    ]
+
+
+BTC70_CHART_SRC = {
+    "en": "Kraken BTC/USD daily closes and Nov. 13 intraday low",
+    "es": "cierres diarios BTC/USD de Kraken y mínimo intradía del 13 de noviembre",
+    "pt": "fechamentos diários BTC/USD da Kraken e mínima intradiária de 13 de novembro",
+    "fr": "clôtures quotidiennes BTC/USD de Kraken et plus bas intrajournalier du 13 novembre",
+    "de": "BTC/USD-Tagesschlusskurse bei Kraken und Tagestief vom 13. November",
+    "ru": "дневные закрытия BTC/USD на Kraken и внутридневной минимум 13 ноября",
+    "tr": "Kraken BTC/USD günlük kapanışları ve 13 Kasım gün içi dibi",
+    "id": "harga penutupan harian BTC/USD Kraken dan level terendah intrahari 13 November",
+    "ja": "KrakenのBTC/USD日次終値と11月13日の日中安値",
+    "ko": "크라켄 BTC/USD 일일 종가 및 11월 13일 장중 저점",
+}
+BTC70_FACT_SRC = {
+    "en": "CoinGlass via CoinDesk",
+    "es": "CoinGlass, citado por CoinDesk",
+    "pt": "CoinGlass, citado pelo CoinDesk",
+    "fr": "CoinGlass, cité par CoinDesk",
+    "de": "CoinGlass, zitiert von CoinDesk",
+    "ru": "CoinGlass, по данным CoinDesk",
+    "tr": "CoinDesk'in aktardığı CoinGlass verileri",
+    "id": "CoinGlass, dikutip CoinDesk",
+    "ja": "CoinGlass（CoinDesk経由）",
+    "ko": "CoinGlass(CoinDesk 인용)",
+}
+BTC70_CHART_ALTS = {
+    "es": "Gráfico de líneas del precio de cierre diario de bitcoin en Kraken del 15 de agosto al 12 de noviembre de 2026: sube de unos 63.000 dólares a un cierre máximo de unos 86.600 dólares el 21 de septiembre y cae a unos 71.400 dólares el 12 de noviembre, con una línea discontinua en el mínimo intradía del 13 de noviembre, de unos 67.500 dólares",
+    "pt": "Gráfico de linha do preço de fechamento diário do bitcoin na Kraken de 15 de agosto a 12 de novembro de 2026: sobe de cerca de US$ 63.000 para um fechamento máximo de cerca de US$ 86.600 em 21 de setembro e cai para cerca de US$ 71.400 em 12 de novembro, com uma linha tracejada na mínima intradiária de 13 de novembro, de cerca de US$ 67.500",
+    "fr": "Courbe du cours de clôture quotidien du bitcoin sur Kraken du 15 août au 12 novembre 2026 : il passe d'environ 63 000 dollars à une clôture record d'environ 86 600 dollars le 21 septembre, puis recule à environ 71 400 dollars le 12 novembre, avec une ligne pointillée au plus bas intrajournalier du 13 novembre, environ 67 500 dollars",
+    "de": "Liniendiagramm des täglichen Bitcoin-Schlusskurses bei Kraken vom 15. August bis 12. November 2026: Anstieg von rund 63.000 $ auf einen Höchstschlusskurs von rund 86.600 $ am 21. September, danach Rückgang auf rund 71.400 $ am 12. November; gestrichelte Linie beim Tagestief vom 13. November von rund 67.500 $",
+    "ru": "Линейный график дневных цен закрытия биткоина на Kraken с 15 августа по 12 ноября 2026 года: рост примерно с $63 000 до максимального закрытия около $86 600 21 сентября, затем снижение примерно до $71 400 12 ноября; пунктирная линия показывает внутридневной минимум 13 ноября, около $67 500",
+    "tr": "Bitcoin'in 15 Ağustos - 12 Kasım 2026 arasında Kraken'deki günlük kapanış fiyatının çizgi grafiği: yaklaşık 63.000 $'dan 21 Eylül'de yaklaşık 86.600 $ ile en yüksek kapanışa çıkıyor, 12 Kasım'da yaklaşık 71.400 $'a geriliyor; kesikli çizgi 13 Kasım'daki yaklaşık 67.500 $'lık gün içi dibi gösteriyor",
+    "id": "Grafik garis harga penutupan harian bitcoin di Kraken dari 15 Agustus hingga 12 November 2026: naik dari sekitar US$63.000 ke penutupan tertinggi sekitar US$86.600 pada 21 September, lalu turun ke sekitar US$71.400 pada 12 November, dengan garis putus-putus di level terendah intrahari 13 November sekitar US$67.500",
+    "ja": "2026年8月15日〜11月12日のKrakenにおけるビットコイン日次終値の折れ線グラフ：約6万3000ドルから9月21日の最高終値約8万6600ドルまで上昇し、11月12日には約7万1400ドルに下落。破線は11月13日の日中安値（約6万7500ドル）",
+    "ko": "2026년 8월 15일~11월 12일 크라켄 비트코인 일일 종가 선 차트: 약 63,000달러에서 9월 21일 약 86,600달러로 최고 종가를 기록한 뒤 11월 12일 약 71,400달러로 하락, 점선은 11월 13일 장중 저점 약 67,500달러",
+}
+BTC70_FACT_ALTS = {
+    "es": "Tarjeta: en las 24 horas hasta el 13 de noviembre se liquidaron unos 1.640 millones de dólares en futuros cripto; el 88,7% eran apuestas alcistas y los futuros de bitcoin sumaron 916 millones",
+    "pt": "Cartão: nas 24 horas até 13 de novembro, cerca de US$ 1,64 bilhão em futuros cripto foram liquidados; 88,7% eram apostas de alta, e os futuros de bitcoin somaram US$ 916 milhões",
+    "fr": "Encadré : environ 1,64 milliard de dollars de contrats à terme crypto ont été liquidés dans les 24 heures précédant le 13 novembre ; 88,7 % étaient des paris à la hausse, et les contrats sur le bitcoin représentaient 916 millions de dollars",
+    "de": "Faktenkarte: In den 24 Stunden bis zum 13. November wurden rund 1,64 Mrd. $ an Krypto-Futures liquidiert; 88,7 % davon waren Long-Wetten, auf Bitcoin-Futures entfielen 916 Mio. $",
+    "ru": "Карточка: за 24 часа до 13 ноября ликвидировано около $1,64 млрд в криптофьючерсах; 88,7% пришлось на длинные позиции, на фьючерсы на биткоин пришлось $916 млн",
+    "tr": "Kart: 13 Kasım'a kadar 24 saatte yaklaşık 1,64 milyar $'lık kripto vadeli pozisyon tasfiye edildi; bunun %88,7'si yükseliş pozisyonuydu, bitcoin vadelileri 916 milyon $'ı oluşturdu",
+    "id": "Kartu fakta: sekitar US$1,64 miliar kontrak berjangka kripto dilikuidasi dalam 24 jam hingga 13 November; 88,7% di antaranya posisi long, dan kontrak bitcoin mencapai US$916 juta",
+    "ja": "カード：11月13日までの24時間で約16億4000万ドルの暗号資産先物が清算され、88.7%が買いポジション。ビットコイン先物は9億1600万ドル",
+    "ko": "카드: 11월 13일까지 24시간 동안 약 16억 4,000만 달러 규모 암호화폐 선물이 청산됐고, 88.7%가 롱 포지션이었고 비트코인 선물이 9억 1,600만 달러를 차지",
+}
+
+
+def build_sec_cftc_nominees():
+    slug = "trump-nominates-sec-cftc-commissioners-peirce-nov-2026"
+    d = OUT / slug
+    # Seats: SEC has 2 of 5 filled (Atkins, Uyeda), CFTC 1 of 5 (Selig), per CoinDesk / Cointelegraph, Nov 12-13, 2026.
+    # White House nominations sent to the Senate, Nov 12, 2026: 2 SEC (Levine, Johnson), 2 CFTC (Anonick, Rowland).
+    chart = make_bar_chart(
+        d / "chart-sec-cftc-seats",
+        ["SEC today", "SEC if all\nconfirmed", "CFTC today", "CFTC if all\nconfirmed"],
+        [2, 4, 1, 3],
+        "Commissioner seats filled (of 5) at the SEC and CFTC",
+        colors=["#60a5fa", "#f7931a", "#60a5fa", "#f7931a"],
+        value_fmt=lambda v: f"{v:g} of 5",
+        axis_fmt=lambda x, _p: f"{x:g}",
+    )
+    card = make_fact_card(
+        d / "fact-four-nominees",
+        label="Nominees",
+        big="4 nominees",
+        sub="SEC: Steven Levine (R), Kristin Johnson (D). CFTC: Nathan Anonick (R), Matthew Rowland (D). All need Senate confirmation.",
+        footer="The White House; Reuters · Nov. 12, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of commissioner seats filled out of five: the SEC has 2 today and would have 4 if both nominees are confirmed; the CFTC has 1 today and would have 3", SECNOM_CHART_ALTS),
+         "caption": {l: CAPTION_CHART[l].format(src=SECNOM_CHART_SRC[l]) for l in LANGS}},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: four nominees. SEC: Steven Levine, Republican, and Kristin Johnson, Democrat. CFTC: Nathan Anonick, Republican, and Matthew Rowland, Democrat. All need Senate confirmation", SECNOM_FACT_ALTS),
+         "caption": {l: CAPTION_SOURCE[l].format(src=SECNOM_FACT_SRC[l]) for l in LANGS}},
+    ]
+
+
+SECNOM_CHART_SRC = {
+    "en": "The White House, CoinDesk, Cointelegraph",
+    "es": "Casa Blanca, CoinDesk, Cointelegraph",
+    "pt": "Casa Branca, CoinDesk, Cointelegraph",
+    "fr": "Maison Blanche, CoinDesk, Cointelegraph",
+    "de": "Weißes Haus, CoinDesk, Cointelegraph",
+    "ru": "Белый дом, CoinDesk, Cointelegraph",
+    "tr": "Beyaz Saray, CoinDesk, Cointelegraph",
+    "id": "Gedung Putih, CoinDesk, Cointelegraph",
+    "ja": "ホワイトハウス、CoinDesk、Cointelegraph",
+    "ko": "백악관, CoinDesk, Cointelegraph",
+}
+SECNOM_FACT_SRC = {
+    "en": "The White House; Reuters",
+    "es": "Casa Blanca; Reuters",
+    "pt": "Casa Branca; Reuters",
+    "fr": "Maison Blanche ; Reuters",
+    "de": "Weißes Haus; Reuters",
+    "ru": "Белый дом; Reuters",
+    "tr": "Beyaz Saray; Reuters",
+    "id": "Gedung Putih; Reuters",
+    "ja": "ホワイトハウス、ロイター",
+    "ko": "백악관, 로이터",
+}
+SECNOM_CHART_ALTS = {
+    "es": "Gráfico de barras de los puestos de comisionado ocupados de un total de cinco: la SEC tiene 2 hoy y tendría 4 si se confirman sus dos candidatos; la CFTC tiene 1 hoy y tendría 3",
+    "pt": "Gráfico de barras dos assentos de comissário ocupados de um total de cinco: a SEC tem 2 hoje e teria 4 se os dois indicados forem confirmados; a CFTC tem 1 hoje e teria 3",
+    "fr": "Graphique en barres des sièges de commissaire pourvus sur cinq : la SEC en compte 2 aujourd'hui et en aurait 4 si ses deux candidats sont confirmés ; la CFTC en compte 1 et en aurait 3",
+    "de": "Balkendiagramm der besetzten Kommissarsposten von fünf: Die SEC hat heute 2 und hätte 4, wenn beide Kandidaten bestätigt werden; die CFTC hat heute 1 und hätte 3",
+    "ru": "Столбчатая диаграмма занятых мест комиссаров из пяти: в SEC сейчас 2, а после утверждения обоих кандидатов будет 4; в CFTC сейчас 1, будет 3",
+    "tr": "Beş komisyon üyeliğinden dolu olanların çubuk grafiği: SEC'te bugün 2 üye var, iki aday da onaylanırsa 4 olacak; CFTC'de bugün 1 üye var, 3 olacak",
+    "id": "Grafik batang kursi komisioner yang terisi dari lima: SEC kini punya 2 dan akan menjadi 4 jika kedua calon dikonfirmasi; CFTC kini punya 1 dan akan menjadi 3",
+    "ja": "定員5人のうち埋まっている委員ポストの棒グラフ：SECは現在2人で、2人の候補が承認されれば4人に。CFTCは現在1人で、承認されれば3人に",
+    "ko": "정원 5명 중 채워진 위원 자리 막대 차트: SEC는 현재 2명이며 두 후보가 인준되면 4명, CFTC는 현재 1명이며 인준되면 3명",
+}
+SECNOM_FACT_ALTS = {
+    "es": "Tarjeta: cuatro candidatos. SEC: Steven Levine, republicano, y Kristin Johnson, demócrata. CFTC: Nathan Anonick, republicano, y Matthew Rowland, demócrata. Todos necesitan la confirmación del Senado",
+    "pt": "Cartão: quatro indicados. SEC: Steven Levine, republicano, e Kristin Johnson, democrata. CFTC: Nathan Anonick, republicano, e Matthew Rowland, democrata. Todos precisam de confirmação do Senado",
+    "fr": "Encadré : quatre candidats. SEC : Steven Levine, républicain, et Kristin Johnson, démocrate. CFTC : Nathan Anonick, républicain, et Matthew Rowland, démocrate. Tous doivent être confirmés par le Sénat",
+    "de": "Faktenkarte: vier Kandidaten. SEC: Steven Levine, Republikaner, und Kristin Johnson, Demokratin. CFTC: Nathan Anonick, Republikaner, und Matthew Rowland, Demokrat. Alle brauchen die Bestätigung des Senats",
+    "ru": "Карточка: четыре кандидата. SEC: республиканец Стивен Левин и демократ Кристин Джонсон. CFTC: республиканец Натан Аноник и демократ Мэтью Роуленд. Всех должен утвердить Сенат",
+    "tr": "Kart: dört aday. SEC: Cumhuriyetçi Steven Levine ve Demokrat Kristin Johnson. CFTC: Cumhuriyetçi Nathan Anonick ve Demokrat Matthew Rowland. Hepsinin Senato onayı alması gerekiyor",
+    "id": "Kartu fakta: empat calon. SEC: Steven Levine (Republik) dan Kristin Johnson (Demokrat). CFTC: Nathan Anonick (Republik) dan Matthew Rowland (Demokrat). Semuanya perlu konfirmasi Senat",
+    "ja": "カード：候補は4人。SECは共和党のスティーブン・レバイン氏と民主党のクリスティン・ジョンソン氏、CFTCは共和党のネイサン・アノニック氏と民主党のマシュー・ローランド氏。全員に上院の承認が必要",
+    "ko": "카드: 후보 4명. SEC는 공화당 스티븐 레바인과 민주당 크리스틴 존슨, CFTC는 공화당 네이선 아노닉과 민주당 매슈 롤런드. 모두 상원 인준이 필요하다",
+}
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -1905,6 +2068,8 @@ BUILDERS = {
     "sec-backs-cftc-stock-perps-crypto-etf-options-nov-2026": "secperps",
     "msci-drops-strategy-bitcoin-falls-nvidia-nov-2026": "msci",
     "doj-seizes-1-2-billion-binance-hack-north-korea-nov-2026": "dojseize",
+    "bitcoin-below-70000-200-week-average-nov-2026": "btc70k",
+    "trump-nominates-sec-cftc-commissioners-peirce-nov-2026": "secnom",
 }
 
 
@@ -1966,6 +2131,10 @@ def build_slug(slug: str, btc=None):
         figs = build_msci_strategy()
     elif key == "dojseize":
         figs = build_doj_binance_seizure()
+    elif key == "btc70k":
+        figs = build_btc_below_70k()
+    elif key == "secnom":
+        figs = build_sec_cftc_nominees()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

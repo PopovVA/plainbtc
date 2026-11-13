@@ -1,0 +1,64 @@
+title: Bitcoin 70.000 $'ın ve 200 haftalık ortalamasının altına indi, piyasa Fed'den faiz artışı bekliyor
+page_title: Bitcoin 70.000 $'ın altında, ağustostan beri en düşük seviyede
+description: Bitcoin gece Kraken'de yaklaşık 67.500 $'a gerileyerek 19 Ağustos'tan bu yana en düşük fiyatını gördü. Dolar yükseldi, piyasa aralıkta Fed faiz artışını fiyatladı ve 1,64 milyar $'lık kripto pozisyonu tasfiye edildi.
+og_description: Bitcoin 70.000 $'ın ve 200 haftalık hareketli ortalamasının altına düştü. 24 saatte yaklaşık 1,64 milyar $'lık kripto vadeli pozisyon tasfiye edildi, bitcoin ETF'leri art arda altıncı gün çıkış gördü.
+label: Piyasa
+summary: Bitcoin ağustostan bu yana ilk kez 70.000 $'ın altına inerek 200 haftalık ortalamasını kırdı; piyasa aralıkta Fed'den faiz artışı bekliyor.
+===
+
+Bitcoin gece saatlerinde ağustostan bu yana ilk kez <strong>70.000 $</strong>'ın altına indi. Kraken'de fiyat, 13 Kasım Cuma günü ABD Doğu saatiyle gece yarısı civarında <strong>67.500 $</strong>'a kadar düştü; bu, 19 Ağustos'tan bu yana en düşük seviye. Doğu saatiyle sabah 9 civarında fiyat yaklaşık <strong>69.400 $</strong>'a toparlanmıştı, ancak UTC gününün yaklaşık 71.370 $'lık açılışının hâlâ yaklaşık %2,7 altındaydı.
+
+Düşüş bitcoin'i aynı zamanda <strong>200 haftalık hareketli ortalamasının</strong> altına itti. [CoinDesk](L2) bu uzun vadeli trend çizgisini yaklaşık 68.000 $ olarak gösterdi. [CoinDesk](L1)'e göre en büyük ikinci kripto para olan ether de 1.900 $'a inerek 18 Ağustos'tan bu yana en düşük fiyatını gördü.
+
+!takeaways
+- Bitcoin Kraken'de yaklaşık 67.500 $'a inerek 19 Ağustos'tan bu yana en düşük fiyatını gördü, ardından yaklaşık 69.400 $'a toparlandı.
+- CoinDesk'in aktardığı CME FedWatch verilerine göre yatırımcılar Fed'in aralıkta faizi çeyrek puan artırma ihtimalini %88, yarım puan artırma ihtimalini %12 görüyor.
+- CoinGlass verilerine göre 24 saatte yaklaşık 1,64 milyar $'lık kripto vadeli pozisyon tasfiye edildi; bunların %88,7'si fiyatların yükseleceğine dair pozisyonlardı.
+- Farside verilerine göre ABD'deki spot bitcoin ETF'leri perşembe günü 284,1 milyon $ net çıkış gördü; bu, art arda altıncı işlem günü çıkış anlamına geliyor.
+
+## Güçlenen dolar ve yükselen faizler
+
+Asıl baskı faizlerden geldi. Hafta başında beklenenden yüksek gelen enflasyon verilerinin ardından yatırımcılar artık Federal Rezerv'in 8-9 Aralık'taki toplantısında faizi <em>artırmasını</em> bekliyor. CoinDesk'e göre CME FedWatch, 25 baz puanlık artış için %88, 50 baz puanlık artış için %12 olasılık gösteriyordu.
+
+Bu beklenti doları güçlendirdi. Doları diğer büyük para birimlerine karşı ölçen Dolar Endeksi 103'ün üzerine çıkarak Nisan 2025'ten bu yana en yüksek seviyesine ulaştı. CoinDesk'e göre 10 yıllık ABD Hazine tahvili faizi yaklaşık %5,15'e yükseldi ve Nisan 2025'ten bu yana en kötü haftasına gidiyordu. Nakit ve tahviller daha fazla getiri sağladığında, hisse senetleri ve kripto paralar gibi riskli varlıklar genellikle cazibesini bir miktar kaybeder.
+
+Cuma sabahı açıklanan üretici fiyatları raporu tabloyu pek değiştirmedi. Toptan fiyatlar ekimde %0,3 arttı; bu, ekonomistlerin beklediği %0,4'ün biraz altındaydı, ancak fiyatlar bir yıl öncesine göre hâlâ %6,5 yüksekti. Bitcoin veri sonrasında hafifçe yükseldi.
+
+!figure:chart
+
+## Kaldıraçlı yatırımcılar darbeyi yedi
+
+Düşen fiyatlar, birçok yatırımcıyı borçla açtıkları pozisyonları kapatmaya zorladı. CoinDesk'in aktardığı CoinGlass verileri, 24 saatte <strong>1,64 milyar $</strong>'lık kripto vadeli işlem tasfiyesi gösterdi. Uzun pozisyonlar, yani fiyatların yükseleceğine dair pozisyonlar toplamın %88,7'sini oluşturdu. Tasfiyelerin 916 milyon $'ı bitcoin vadelilerinde, 289 milyon $'ı ether vadelilerinde gerçekleşti.
+
+Piyasa havası da karardı. Crypto Fear and Greed Endeksi "aşırı korku" olarak tanımlanan 19 seviyesindeydi. Glassnode verilerine göre bitcoin süresiz vadeli işlemlerindeki ortalama fonlama oranı bir aydır ilk kez negatife döndü; yani düşüşe oynayanlar yükselişe oynayanlara ödeme yapıyordu. CoinDesk, bu tür göstergelerin bazen kısa vadeli diplerin yakınında görüldüğünü, ancak toparlanmayı garanti etmediğini belirtti.
+
+!mid_cta
+
+## ETF yatırımcıları para çekmeye devam ediyor
+
+Büyük fonlar da satış yapıyor. [Farside Investors](L3)'a göre ABD'deki spot bitcoin ETF'leri 12 Kasım Perşembe günü <strong>284,1 milyon $</strong> net çıkış gördü; bunun 203,8 milyon $'ı BlackRock'ın IBIT fonundan geldi. Böylece art arda altı işlem günü çıkış yaşandı ve toplam yaklaşık 1,72 milyar $'a ulaştı. Perşembe günkü satışlar, Nvidia CEO'su Jensen Huang'ın istifasıyla da aynı güne denk geldi. Bu istifa, bitcoin'in sık sık birlikte hareket ettiği teknoloji hisselerini vurdu; konuyu [dün](/articles/msci-drops-strategy-bitcoin-falls-nvidia-nov-2026) ele almıştık.
+
+!figure:fact
+
+## 200 haftalık ortalama neden önemli
+
+200 haftalık hareketli ortalama, yaklaşık son dört yılın ortalama haftalık kapanış fiyatıdır. Birçok uzun vadeli yatırımcı bu çizgiyi izler, çünkü bitcoin geçmişteki düşüşlerde sıklıkla bu çizginin yakınında dip bulmuştur. PlainBTC'nin Kraken haftalık kapanış fiyatlarıyla yaptığı hesaplamaya göre ortalama kabaca 68.100 $ ile 68.400 $ arasında; yani bitcoin bu seviyeye çok yakın işlem görüyor. Birçok teknik analist, bu seviyenin belirgin biçimde altında bir haftalık kapanışı olumsuz bir işaret olarak görür; üzerine geri dönüş ise baskıyı bir miktar hafifletir. Ne olacağını kimse bilmiyor.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+CoinDesk'e göre bitcoin son bir ayda yaklaşık %16 değer kaybetti ve kriptoda bu tür hareketler sık görülür. Zorunlu satışların çoğu borç parayla işlem yapanları vurdu; bu yüzden kaldıraçtan uzak durmak, başı belaya sokmamanın en basit yollarından biri. Yalnızca uzun süre dokunmadan bırakabileceğiniz kadar yatırım yapın.
+
+Dibi tahmin etmeye çalışmak yerine düzenli aralıklarla küçük miktarlar almayı tercih ediyorsanız, [River](L4) gibi yalnızca bitcoin'e odaklanan bir hizmet ABD'deki müşterilerin düzenli alım ayarlamasına olanak tanır; önce sitesinde güncel ücretleri ve koşulları kontrol edin. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Bitcoin'in haftayı yaklaşık 68.000 $'daki 200 haftalık ortalamasının üzerinde mi altında mı kapatacağı.
+- Farside Investors'ın ABD piyasası kapandıktan sonra yayımlayacağı cuma günkü spot bitcoin ETF akışları.
+- 8-9 Aralık toplantısı öncesinde Fed yetkililerinin açıklamaları.
+- Dolar Endeksi ve 10 yıllık Hazine tahvili faizindeki hareketler.
+
+!soft: Yavaş yavaş almayı mı düşünüyorsunuz? [Yeni başlayanlar için düzenli alım (DCA)](/articles/how-much-bitcoin-should-a-beginner-buy-dca) rehberimizi okuyun.
+
+!end_cta
+
+!disclosure

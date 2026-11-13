@@ -1,0 +1,64 @@
+title: Bitcoin jatuh di bawah US$70.000 dan rata-rata 200 minggunya saat pasar bertaruh pada kenaikan suku bunga Fed
+page_title: Bitcoin jatuh di bawah US$70.000, terendah sejak Agustus
+description: Bitcoin turun ke sekitar US$67.500 di Kraken semalam, harga terendah sejak 19 Agustus, karena dolar menguat, pasar memperhitungkan kenaikan suku bunga Fed pada Desember, dan taruhan kripto senilai US$1,64 miliar dilikuidasi.
+og_description: Bitcoin tergelincir di bawah US$70.000 dan rata-rata pergerakan 200 minggunya. Sekitar US$1,64 miliar kontrak berjangka kripto dilikuidasi dalam 24 jam, dan ETF bitcoin mencatat arus keluar enam hari berturut-turut.
+label: Pasar
+summary: Bitcoin jatuh di bawah US$70.000 untuk pertama kalinya sejak Agustus dan menembus rata-rata 200 minggunya saat pasar memperhitungkan kenaikan suku bunga Fed pada Desember.
+===
+
+Bitcoin jatuh di bawah <strong>US$70.000</strong> semalam untuk pertama kalinya sejak Agustus. Di Kraken, harganya sempat turun hingga <strong>US$67.500</strong> sekitar tengah malam waktu Timur AS pada Jumat, 13 November, level terendah sejak 19 Agustus. Sekitar pukul 9 pagi waktu Timur, harganya memantul ke kisaran <strong>US$69.400</strong>, tetapi masih sekitar 2,7% di bawah pembukaan hari UTC di dekat US$71.370.
+
+Penurunan ini juga membuat bitcoin berada di bawah <strong>rata-rata pergerakan 200 minggu</strong>, garis tren jangka panjang yang menurut [CoinDesk](L2) berada di sekitar US$68.000. Ether, kripto terbesar kedua, menyentuh US$1.900, harga terendah sejak 18 Agustus, menurut [CoinDesk](L1).
+
+!takeaways
+- Bitcoin menyentuh sekitar US$67.500 di Kraken, harga terendah sejak 19 Agustus, sebelum pulih ke sekitar US$69.400.
+- Pelaku pasar kini melihat peluang 88% kenaikan suku bunga Fed seperempat poin pada Desember dan peluang 12% kenaikan setengah poin, menurut data CME FedWatch yang dikutip CoinDesk.
+- Sekitar US$1,64 miliar kontrak berjangka kripto dilikuidasi dalam 24 jam, 88,7% di antaranya taruhan pada kenaikan harga, menurut data CoinGlass.
+- ETF bitcoin spot AS mencatat arus keluar bersih US$284,1 juta pada Kamis, hari perdagangan keenam berturut-turut dengan penarikan dana, menurut data Farside.
+
+## Dolar menguat, suku bunga naik
+
+Tekanan utama datang dari suku bunga. Setelah data inflasi yang lebih panas dari perkiraan awal pekan ini, pelaku pasar kini memperkirakan Federal Reserve akan <em>menaikkan</em> suku bunga dalam rapat 8-9 Desember. CoinDesk melaporkan bahwa CME FedWatch menunjukkan peluang 88% kenaikan 25 basis poin dan peluang 12% kenaikan 50 basis poin.
+
+Prospek itu mendorong dolar AS. Indeks Dolar, yang mengukur dolar terhadap mata uang utama lainnya, naik di atas 103, level tertinggi sejak April 2025. Imbal hasil obligasi Treasury 10 tahun naik ke sekitar 5,15% dan menuju pekan terburuknya sejak April 2025, lapor CoinDesk. Ketika uang tunai dan obligasi memberi imbal hasil lebih tinggi, aset berisiko seperti saham dan kripto sering kehilangan sebagian daya tariknya.
+
+Laporan harga produsen Jumat pagi tidak banyak mengubah gambaran. Harga grosir naik 0,3% pada Oktober, sedikit di bawah perkiraan ekonom sebesar 0,4%, tetapi masih 6,5% lebih tinggi dibanding setahun sebelumnya. Bitcoin sedikit naik setelah rilis tersebut.
+
+!figure:chart
+
+## Trader dengan leverage paling terpukul
+
+Harga yang turun memaksa banyak trader menutup taruhan yang dibiayai pinjaman. Data CoinGlass yang dikutip CoinDesk menunjukkan likuidasi kontrak berjangka kripto senilai <strong>US$1,64 miliar</strong> dalam 24 jam. Posisi long, yaitu taruhan bahwa harga akan naik, mencakup 88,7% dari total. Kontrak bitcoin menyumbang US$916 juta dari likuidasi dan kontrak ether US$289 juta.
+
+Sentimen pasar juga memburuk. Indeks Crypto Fear and Greed berada di 19, level yang disebut "ketakutan ekstrem". Data Glassnode menunjukkan rata-rata funding rate kontrak perpetual bitcoin berubah negatif untuk pertama kalinya dalam sebulan, artinya trader yang bertaruh pada penurunan harga membayar mereka yang bertaruh pada kenaikan. CoinDesk mencatat bahwa angka seperti ini kadang muncul di dekat titik terendah jangka pendek, tetapi tidak menjamin harga akan pulih.
+
+!mid_cta
+
+## Investor ETF terus menarik dana
+
+Dana besar juga menjual. Menurut [Farside Investors](L3), ETF bitcoin spot AS mencatat arus keluar bersih <strong>US$284,1 juta</strong> pada Kamis, 12 November, dipimpin US$203,8 juta dari IBIT milik BlackRock. Ini berarti enam hari perdagangan berturut-turut dengan penarikan, total sekitar US$1,72 miliar. Penjualan hari Kamis juga bertepatan dengan pengunduran diri CEO Nvidia Jensen Huang, yang menekan saham teknologi yang sering bergerak seiring bitcoin, seperti kami bahas [kemarin](/articles/msci-drops-strategy-bitcoin-falls-nvidia-nov-2026).
+
+!figure:fact
+
+## Mengapa rata-rata 200 minggu penting
+
+Rata-rata pergerakan 200 minggu adalah rata-rata harga penutupan mingguan selama kira-kira empat tahun terakhir. Banyak investor jangka panjang memantaunya karena pada penurunan sebelumnya bitcoin sering menemukan titik dasar di dekat garis ini. Menurut perhitungan PlainBTC sendiri dari harga penutupan mingguan Kraken, rata-rata ini berada kira-kira antara US$68.100 dan US$68.400, jadi bitcoin diperdagangkan sangat dekat dengannya. Banyak pengamat grafik akan menganggap penutupan mingguan jauh di bawahnya sebagai sinyal bearish, sementara pemulihan di atasnya akan sedikit meredakan tekanan. Tidak ada yang tahu mana yang akan terjadi.
+
+## Apa artinya bagi pemula
+
+Bitcoin turun sekitar 16% dalam sebulan terakhir, menurut CoinDesk, dan pergerakan seperti ini biasa terjadi di kripto. Sebagian besar penjualan paksa menimpa trader yang memakai uang pinjaman, jadi menghindari leverage adalah salah satu cara paling sederhana agar tidak terjebak masalah. Investasikan hanya dana yang bisa Anda diamkan dalam waktu lama.
+
+Jika Anda lebih suka membeli sedikit demi sedikit secara terjadwal daripada menebak titik terendah, layanan khusus bitcoin seperti [River](L4) memungkinkan nasabah di AS mengatur pembelian rutin; periksa dulu biaya dan ketentuan terbarunya di situsnya. Ini bukan saran investasi.
+
+## Yang perlu dipantau selanjutnya
+
+- Apakah bitcoin menutup pekan di atas atau di bawah rata-rata 200 minggunya di sekitar US$68.000.
+- Arus dana ETF bitcoin spot hari Jumat, yang akan dirilis Farside Investors setelah pasar AS tutup.
+- Komentar pejabat Fed menjelang rapat 8-9 Desember.
+- Pergerakan Indeks Dolar dan imbal hasil Treasury 10 tahun.
+
+!soft: Ingin membeli sedikit demi sedikit? Baca panduan kami tentang [pembelian rutin (DCA) untuk pemula](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

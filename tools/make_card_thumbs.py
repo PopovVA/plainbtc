@@ -653,6 +653,45 @@ def thumb_doj_binance_seizure():
     ],"note":"Editorial composite for identification; no endorsement by DOJ or FBI implied."}
 
 
+def thumb_btc_etf_outflows_nov():
+    """U.S. spot bitcoin ETF daily net flows, Nov 2-12, 2026 (US$m), as published by Farside Investors."""
+    days = ["Nov 2", "Nov 3", "Nov 4", "Nov 5", "Nov 6", "Nov 9", "Nov 10", "Nov 11", "Nov 12"]
+    flows = [-398.6, -115.6, 74.6, -430.2, -411.9, -201.0, -95.0, -299.8, -284.1]   # farside.co.uk/btc, read Nov 13, 2026
+    fig, ax = plt.subplots(figsize=(6.4,3.6), dpi=100); fig.patch.set_facecolor("#0f1419")
+    style_ax(ax, "")
+    cols = ["#34d399" if v > 0 else "#f87171" for v in flows]
+    ax.bar(days, flows, color=cols, width=0.6)
+    ax.axhline(0, color="#9aa8bc", linewidth=0.8)
+    ax.set_ylim(min(flows) * 1.08, 230)   # headroom so the label chip does not cover the Nov 4 inflow bar
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v,_: f"${v:,.0f}M"))
+    ax.tick_params(axis="x", labelsize=7)
+    im = chart_to_image(fig)
+    label_chip(im, "Spot bitcoin ETF net flows, US$m (Farside)")
+    return im, {"kind":"chart","sources":[
+        {"file":"Farside Investors Bitcoin ETF Flow table","license":"Public data, cited","url":"https://farside.co.uk/btc/","credit":"Daily U.S. spot bitcoin ETF net flows, Nov 2-12, 2026, from Farside Investors"}
+    ]}
+
+
+def thumb_sec_cftc_nominees():
+    sec = fetch("https://upload.wikimedia.org/wikipedia/commons/1/1c/Seal_of_the_United_States_Securities_and_Exchange_Commission.svg", CACHE/"sec-seal.svg")
+    cftc = fetch("https://upload.wikimedia.org/wikipedia/commons/3/3e/Commodity_Futures_Trading_Commission_seal.svg", CACHE/"cftc-seal.svg")
+    capitol = fetch("https://upload.wikimedia.org/wikipedia/commons/b/b2/United_States_Capitol_-_west_front.jpg", CACHE/"capitol.jpg")
+    base = darken(cover_fit(open_rgb(capitol), cy=0.5), 135)
+    for i, (logo, x) in enumerate([(sec, 130), (cftc, 350)]):
+        disc = Image.new("RGBA", (170, 170), (0, 0, 0, 0))
+        ImageDraw.Draw(disc).ellipse([0, 0, 169, 169], fill=(255, 255, 255, 255))
+        base.paste(disc.convert("RGB"), (x, 70), disc)
+        paste_contain(base, Image.open(logo).convert("RGBA"), (x, 70, 170, 170), pad=8)
+    d = ImageDraw.Draw(base); f = font(FONT_B, 16); t = "4 nominees await Senate confirmation"
+    bb = d.textbbox((0,0), t, font=f); d.text(((W-(bb[2]-bb[0]))//2, 268), t, font=f, fill=WHITE)
+    label_chip(base, "SEC · CFTC nominations")
+    return base, {"kind":"composite","sources":[
+        {"file":"Seal_of_the_United_States_Securities_and_Exchange_Commission.svg","license":"Public domain (U.S. government)","url":"https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Securities_and_Exchange_Commission.svg","credit":"SEC"},
+        {"file":"Commodity_Futures_Trading_Commission_seal.svg","license":"Public domain (U.S. government)","url":"https://commons.wikimedia.org/wiki/File:Commodity_Futures_Trading_Commission_seal.svg","credit":"CFTC"},
+        {"file":"United_States_Capitol_-_west_front.jpg","license":"Public domain (Architect of the Capitol)","url":"https://commons.wikimedia.org/wiki/File:United_States_Capitol_-_west_front.jpg","credit":"Architect of the Capitol"},
+    ],"note":"Editorial composite for identification; no endorsement implied."}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -676,6 +715,8 @@ BUILDERS = {
     "sec-backs-cftc-stock-perps-crypto-etf-options-nov-2026": thumb_sec_perps,
     "msci-drops-strategy-bitcoin-falls-nvidia-nov-2026": thumb_msci_strategy,
     "doj-seizes-1-2-billion-binance-hack-north-korea-nov-2026": thumb_doj_binance_seizure,
+    "bitcoin-below-70000-200-week-average-nov-2026": thumb_btc_etf_outflows_nov,
+    "trump-nominates-sec-cftc-commissioners-peirce-nov-2026": thumb_sec_cftc_nominees,
 }
 
 def first_figure_source(slug: str) -> Path | None:

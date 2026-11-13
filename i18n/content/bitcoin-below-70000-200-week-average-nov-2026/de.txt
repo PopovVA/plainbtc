@@ -1,0 +1,64 @@
+title: Bitcoin fällt unter 70.000 $ und unter seinen 200-Wochen-Durchschnitt, Anleger setzen auf eine Zinserhöhung der Fed
+page_title: Bitcoin fällt unter 70.000 $, tiefster Stand seit August
+description: Bitcoin fiel über Nacht bei Kraken auf rund 67.500 $, den tiefsten Kurs seit dem 19. August. Der Dollar zog an, Händler preisten eine Zinserhöhung der Fed im Dezember ein, und Krypto-Wetten über 1,64 Mrd. $ wurden liquidiert.
+og_description: Bitcoin rutschte unter 70.000 $ und unter seinen gleitenden 200-Wochen-Durchschnitt. Rund 1,64 Mrd. $ an Krypto-Futures wurden in 24 Stunden liquidiert, und Bitcoin-ETFs verzeichneten den sechsten Abflusstag in Folge.
+label: Märkte
+summary: Bitcoin fiel erstmals seit August unter 70.000 $ und unter seinen 200-Wochen-Durchschnitt, während Händler eine Zinserhöhung der Fed im Dezember einpreisen.
+===
+
+Bitcoin ist über Nacht erstmals seit August unter <strong>70.000 $</strong> gefallen. Bei Kraken sank der Kurs gegen Mitternacht (US-Ostküstenzeit) am Freitag, dem 13. November, bis auf <strong>67.500 $</strong>, den tiefsten Stand seit dem 19. August. Gegen 9 Uhr Ostküstenzeit hatte er sich auf rund <strong>69.400 $</strong> erholt, lag aber immer noch etwa 2,7 % unter dem Eröffnungskurs des UTC-Tages von rund 71.370 $.
+
+Der Rückgang drückte Bitcoin auch unter seinen <strong>gleitenden 200-Wochen-Durchschnitt</strong>, eine langfristige Trendlinie, die [CoinDesk](L2) bei rund 68.000 $ verortete. Ether, die zweitgrößte Kryptowährung, fiel auf 1.900 $, den tiefsten Kurs seit dem 18. August, wie [CoinDesk](L1) berichtete.
+
+!takeaways
+- Bitcoin fiel bei Kraken auf rund 67.500 $, den tiefsten Kurs seit dem 19. August, und erholte sich danach auf etwa 69.400 $.
+- Händler sehen nun eine Wahrscheinlichkeit von 88 % für eine Zinserhöhung der Fed um einen Viertelpunkt im Dezember und von 12 % für einen halben Punkt, so CME-FedWatch-Daten laut CoinDesk.
+- Rund 1,64 Mrd. $ an Krypto-Futures wurden in 24 Stunden liquidiert, 88,7 % davon Wetten auf steigende Kurse, laut Daten von CoinGlass.
+- US-Spot-Bitcoin-ETFs verzeichneten am Donnerstag Nettoabflüsse von 284,1 Mio. $, den sechsten Handelstag mit Abflüssen in Folge, wie Daten von Farside zeigen.
+
+## Stärkerer Dollar, höhere Zinsen
+
+Der Hauptdruck kam von den Zinsen. Nach überraschend hohen Inflationsdaten Anfang der Woche erwarten Händler nun, dass die Federal Reserve die Zinsen bei ihrer Sitzung am 8. und 9. Dezember <em>anhebt</em>. Laut CoinDesk zeigte CME FedWatch eine Wahrscheinlichkeit von 88 % für eine Erhöhung um 25 Basispunkte und von 12 % für 50 Basispunkte.
+
+Diese Aussicht trieb den US-Dollar an. Der Dollar-Index, der den Dollar mit anderen wichtigen Währungen vergleicht, stieg über 103 und damit auf den höchsten Stand seit April 2025. Die Rendite zehnjähriger US-Staatsanleihen kletterte auf etwa 5,15 % und steuerte auf ihre schlechteste Woche seit April 2025 zu, berichtete CoinDesk. Wenn Bargeld und Anleihen mehr abwerfen, verlieren riskantere Anlagen wie Aktien und Krypto oft an Reiz.
+
+Der Erzeugerpreisbericht am Freitagmorgen änderte wenig am Bild. Die Großhandelspreise stiegen im Oktober um 0,3 %, etwas weniger als die von Ökonomen erwarteten 0,4 %, lagen aber immer noch 6,5 % über dem Vorjahr. Bitcoin legte nach der Veröffentlichung leicht zu.
+
+!figure:chart
+
+## Gehebelte Trader traf es am härtesten
+
+Die fallenden Kurse zwangen viele Trader, Wetten auf Kredit aufzulösen. CoinGlass-Daten, die CoinDesk zitierte, zeigten <strong>1,64 Mrd. $</strong> an Liquidationen von Krypto-Futures in 24 Stunden. Long-Positionen, also Wetten auf steigende Kurse, machten 88,7 % davon aus. Auf Bitcoin-Futures entfielen 916 Mio. $ der Liquidationen, auf Ether-Futures 289 Mio. $.
+
+Auch die Stimmung trübte sich ein. Der Crypto Fear and Greed Index lag bei 19, einem Wert, der als „extreme Angst“ gilt. Laut Glassnode-Daten drehte die durchschnittliche Finanzierungsrate für Bitcoin-Perpetual-Futures erstmals seit einem Monat ins Negative: Wer auf fallende Kurse setzte, zahlte an diejenigen, die auf steigende Kurse setzten. CoinDesk merkte an, dass solche Werte manchmal in der Nähe kurzfristiger Tiefpunkte auftreten, eine Erholung aber nicht garantieren.
+
+!mid_cta
+
+## ETF-Anleger ziehen weiter Geld ab
+
+Auch große Fonds verkaufen. Laut [Farside Investors](L3) verzeichneten US-Spot-Bitcoin-ETFs am Donnerstag, dem 12. November, Nettoabflüsse von <strong>284,1 Mio. $</strong>, angeführt von 203,8 Mio. $ beim IBIT von BlackRock. Damit gab es sechs Handelstage in Folge Abflüsse, insgesamt rund 1,72 Mrd. $. Die Verkäufe am Donnerstag fielen zudem mit dem Rücktritt von Nvidia-Chef Jensen Huang zusammen, der Techwerte belastete, mit denen sich Bitcoin oft bewegt, wie wir [gestern](/articles/msci-drops-strategy-bitcoin-falls-nvidia-nov-2026) berichteten.
+
+!figure:fact
+
+## Warum der 200-Wochen-Durchschnitt wichtig ist
+
+Der gleitende 200-Wochen-Durchschnitt ist der durchschnittliche wöchentliche Schlusskurs der vergangenen rund vier Jahre. Viele langfristige Anleger beobachten ihn, weil Bitcoin in früheren Abschwüngen oft in der Nähe dieser Linie einen Boden gefunden hat. Nach eigener Berechnung von PlainBTC auf Basis der Wochenschlusskurse bei Kraken liegt er etwa zwischen 68.100 $ und 68.400 $, Bitcoin notiert also ganz in der Nähe. Viele Chartbeobachter würden einen Wochenschluss deutlich darunter als negatives Signal werten, während eine Erholung darüber etwas Druck herausnehmen würde. Niemand weiß, was passieren wird.
+
+## Was das für Einsteiger bedeutet
+
+Bitcoin hat laut CoinDesk im vergangenen Monat rund 16 % verloren, und solche Bewegungen sind bei Krypto üblich. Die meisten Zwangsverkäufe trafen Trader, die mit geliehenem Geld handelten. Auf Hebel zu verzichten, ist daher einer der einfachsten Wege, Ärger zu vermeiden. Investieren Sie nur, was Sie lange Zeit unangetastet lassen können.
+
+Wer lieber regelmäßig kleine Beträge kauft, statt den Tiefpunkt erraten zu wollen: Ein reiner Bitcoin-Dienst wie [River](L4) ermöglicht US-Kunden wiederkehrende Käufe; prüfen Sie vorher die aktuellen Gebühren und Bedingungen auf der Website. Dies ist keine Anlageberatung.
+
+## Worauf jetzt zu achten ist
+
+- Ob Bitcoin die Woche über oder unter seinem 200-Wochen-Durchschnitt nahe 68.000 $ schließt.
+- Die Flüsse der Spot-Bitcoin-ETFs vom Freitag, die Farside Investors nach US-Börsenschluss veröffentlicht.
+- Äußerungen von Fed-Vertretern vor der Sitzung am 8. und 9. Dezember.
+- Die Entwicklung des Dollar-Index und der Rendite zehnjähriger US-Staatsanleihen.
+
+!soft: Sie überlegen, nach und nach zu kaufen? Lesen Sie unseren Leitfaden zum [Cost-Average-Effekt (Sparplan) für Einsteiger](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

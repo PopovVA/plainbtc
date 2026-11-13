@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ko/</link>
     <description>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 12 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ko/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>비트코인, 7만 달러와 200주 이동평균 아래로 하락… 연준 금리 인상 베팅 확산</title>
+      <link>https://plainbtc.com/ko/articles/bitcoin-below-70000-200-week-average-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/bitcoin-below-70000-200-week-average-nov-2026</guid>
+      <pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
+      <category>시장</category>
+      <description>비트코인이 8월 이후 처음으로 7만 달러 아래로 떨어지며 200주 이동평균을 하회했다. 시장은 12월 연준 금리 인상을 반영하고 있다.</description>
+    </item>
+    <item>
+      <title>트럼프, SEC·CFTC 위원 후보 4명 지명… 친암호화폐 인사 헤스터 피어스 후임 포함</title>
+      <link>https://plainbtc.com/ko/articles/trump-nominates-sec-cftc-commissioners-peirce-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/trump-nominates-sec-cftc-commissioners-peirce-nov-2026</guid>
+      <pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
+      <category>규제</category>
+      <description>트럼프가 SEC와 CFTC에 각각 2명씩 위원 후보를 지명했다. 친암호화폐 인사 헤스터 피어스의 후임으로는 스티븐 레바인을 골랐다. 4명 모두 상원 인준이 필요하다.</description>
+    </item>
     <item>
       <title>미국, 바이낸스 해킹 도난 자금 12억 달러 압수 법원 승인 확보… 북한의 가짜 화상통화 사기도 차단</title>
       <link>https://plainbtc.com/ko/articles/doj-seizes-1-2-billion-binance-hack-north-korea-nov-2026</link>

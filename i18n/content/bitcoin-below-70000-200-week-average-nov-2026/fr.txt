@@ -1,0 +1,64 @@
+title: Le bitcoin passe sous 70 000 $ et sous sa moyenne sur 200 semaines, le marché parie sur une hausse des taux de la Fed
+page_title: Le bitcoin passe sous 70 000 $, au plus bas depuis août
+description: Le bitcoin est tombé à environ 67 500 $ sur Kraken pendant la nuit, son plus bas depuis le 19 août, sur fond de dollar en hausse, de paris sur une hausse des taux de la Fed en décembre et de 1,64 milliard de dollars de positions liquidées.
+og_description: Le bitcoin est passé sous 70 000 $ et sous sa moyenne mobile sur 200 semaines. Environ 1,64 milliard de dollars de contrats à terme crypto ont été liquidés en 24 heures, et les ETF bitcoin ont enchaîné un sixième jour de sorties.
+label: Marchés
+summary: Le bitcoin est passé sous 70 000 $ pour la première fois depuis août et sous sa moyenne sur 200 semaines, alors que le marché anticipe une hausse des taux de la Fed en décembre.
+===
+
+Le bitcoin est passé sous la barre des <strong>70 000 $</strong> pendant la nuit, une première depuis août. Sur Kraken, le cours est descendu jusqu'à <strong>67 500 $</strong> vers minuit, heure de l'Est américain, le vendredi 13 novembre, son plus bas niveau depuis le 19 août. Vers 9 h, heure de l'Est, il était remonté à environ <strong>69 400 $</strong>, encore en baisse d'environ 2,7 % par rapport à l'ouverture de la journée UTC, proche de 71 370 $.
+
+Cette chute a aussi fait passer le bitcoin sous sa <strong>moyenne mobile sur 200 semaines</strong>, une ligne de tendance de long terme que [CoinDesk](L2) situait autour de 68 000 $. L'ether, deuxième cryptomonnaie du marché, a touché 1 900 $, son plus bas depuis le 18 août, selon [CoinDesk](L1).
+
+!takeaways
+- Le bitcoin a touché environ 67 500 $ sur Kraken, son plus bas depuis le 19 août, avant de remonter vers 69 400 $.
+- Les investisseurs voient désormais 88 % de chances d'une hausse d'un quart de point des taux de la Fed en décembre et 12 % de chances d'une hausse d'un demi-point, selon les données CME FedWatch citées par CoinDesk.
+- Environ 1,64 milliard de dollars de contrats à terme crypto ont été liquidés en 24 heures, dont 88,7 % de paris à la hausse, d'après les données de CoinGlass.
+- Les ETF bitcoin au comptant américains ont enregistré 284,1 millions de dollars de sorties nettes jeudi, un sixième jour de bourse consécutif de retraits, selon les données de Farside.
+
+## Un dollar plus fort et des taux plus élevés
+
+La pression est surtout venue des taux d'intérêt. Après des chiffres d'inflation plus élevés que prévu en début de semaine, les investisseurs s'attendent désormais à ce que la Réserve fédérale <em>relève</em> ses taux lors de sa réunion des 8 et 9 décembre. Selon CoinDesk, l'outil CME FedWatch affichait 88 % de chances d'une hausse de 25 points de base et 12 % de chances d'une hausse de 50 points de base.
+
+Cette perspective a fait grimper le dollar. Le Dollar Index, qui mesure le dollar face aux autres grandes devises, a dépassé 103, son plus haut niveau depuis avril 2025. Le rendement du bon du Trésor à 10 ans est monté à environ 5,15 % et se dirigeait vers sa pire semaine depuis avril 2025, d'après CoinDesk. Quand les liquidités et les obligations rapportent davantage, les actifs plus risqués comme les actions et les cryptomonnaies perdent souvent de leur attrait.
+
+L'indice des prix à la production publié vendredi matin n'a pas beaucoup changé la donne. Les prix de gros ont augmenté de 0,3 % en octobre, un peu moins que les 0,4 % attendus par les économistes, mais restaient en hausse de 6,5 % sur un an. Le bitcoin a légèrement progressé après la publication.
+
+!figure:chart
+
+## Les traders à effet de levier ont encaissé le choc
+
+La baisse des prix a forcé de nombreux traders à solder des paris financés par emprunt. Les données de CoinGlass citées par CoinDesk font état de <strong>1,64 milliard de dollars</strong> de liquidations de contrats à terme crypto en 24 heures. Les positions longues, c'est-à-dire les paris sur une hausse des prix, représentaient 88,7 % du total. Les contrats sur le bitcoin pesaient 916 millions de dollars de ces liquidations et ceux sur l'ether 289 millions.
+
+Le moral du marché s'est aussi assombri. L'indice Crypto Fear and Greed s'établissait à 19, un niveau qualifié de « peur extrême ». Selon les données de Glassnode, le taux de financement moyen des contrats perpétuels sur le bitcoin est devenu négatif pour la première fois depuis un mois : les traders qui parient sur une baisse payaient ceux qui parient sur une hausse. CoinDesk a rappelé que ce type de signal apparaît parfois près de points bas à court terme, sans garantir un rebond.
+
+!mid_cta
+
+## Les investisseurs continuent de sortir des ETF
+
+Les grands fonds vendent eux aussi. D'après [Farside Investors](L3), les ETF bitcoin au comptant américains ont enregistré <strong>284,1 millions de dollars</strong> de sorties nettes le jeudi 12 novembre, dont 203,8 millions pour l'IBIT de BlackRock. Cela fait six jours de bourse consécutifs de retraits, pour un total d'environ 1,72 milliard de dollars. Les ventes de jeudi ont aussi coïncidé avec la démission du PDG de Nvidia, Jensen Huang, qui a pesé sur les valeurs technologiques auxquelles le bitcoin est souvent lié, comme nous l'avons expliqué [hier](/articles/msci-drops-strategy-bitcoin-falls-nvidia-nov-2026).
+
+!figure:fact
+
+## Pourquoi la moyenne sur 200 semaines compte
+
+La moyenne mobile sur 200 semaines correspond au cours de clôture hebdomadaire moyen sur environ quatre ans. Beaucoup d'investisseurs de long terme la surveillent, car lors de précédentes baisses le bitcoin a souvent trouvé un plancher près de cette ligne. Selon le calcul de PlainBTC à partir des clôtures hebdomadaires de Kraken, elle se situe à peu près entre 68 100 $ et 68 400 $ : le bitcoin évolue donc tout près. Beaucoup d'analystes techniques verraient une clôture hebdomadaire nettement en dessous comme un signal baissier, tandis qu'un retour au-dessus allégerait un peu la pression. Personne ne sait ce qui va se passer.
+
+## Ce que cela signifie pour les débutants
+
+Le bitcoin a perdu environ 16 % sur un mois, selon CoinDesk, et des mouvements de cette ampleur sont fréquents dans la crypto. L'essentiel des ventes forcées a touché des traders qui utilisaient de l'argent emprunté : éviter l'effet de levier est l'un des moyens les plus simples de ne pas se mettre en difficulté. N'investissez que ce que vous pouvez laisser de côté longtemps.
+
+Si vous préférez acheter de petites sommes à intervalles réguliers plutôt que de chercher le point bas, un service 100 % bitcoin comme [River](L4) permet aux clients américains de programmer des achats récurrents ; vérifiez d'abord ses frais et conditions actuels sur son site. Ceci n'est pas un conseil en investissement.
+
+## Ce qu'il faut surveiller
+
+- Si le bitcoin termine la semaine au-dessus ou en dessous de sa moyenne sur 200 semaines, vers 68 000 $.
+- Les flux des ETF bitcoin au comptant de vendredi, publiés par Farside Investors après la clôture de Wall Street.
+- Les déclarations des responsables de la Fed avant la réunion des 8 et 9 décembre.
+- L'évolution du Dollar Index et du rendement du Trésor à 10 ans.
+
+!soft: Vous envisagez d'acheter petit à petit ? Lisez notre guide sur [l'investissement programmé (DCA) pour débutants](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure
