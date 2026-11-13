@@ -156,7 +156,7 @@ def main() -> int:
         for l in d.links:
             href = l.get("href", "")
             if l.get("rel") in ("stylesheet", "preload", "icon", "apple-touch-icon", "manifest") and href.startswith("/"):
-                if not (ROOT / href.lstrip("/")).is_file():
+                if not (ROOT / href.split("?",1)[0].lstrip("/")).is_file():
                     err(f"missing asset {href}")
         if is_404:
             if "noindex" not in robots:

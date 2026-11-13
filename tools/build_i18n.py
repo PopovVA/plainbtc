@@ -1261,9 +1261,9 @@ def assets_block(lang: str) -> str:
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
   <script>{THEME_BOOT}</script>
 {fonts}  <link rel="stylesheet" href="{STYLES_CSS}">
-  <link rel="icon" href="/favicon.ico" sizes="48x48">
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico?v=2" sizes="48x48">
+  <link rel="icon" href="/assets/favicon.svg?v=2" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=2">
   <link rel="manifest" href="/site.webmanifest">
   <!-- /i18n:assets -->'''
 
