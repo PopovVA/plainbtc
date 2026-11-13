@@ -631,3 +631,19 @@ p { text-wrap: pretty; }
   body { background: #fff; color: #000; }
   .content { max-width: none; font-size: 11pt; }
 }
+
+/* Compact referral card: one benefit line, one button, one tiny disclosure line. */
+.mid-cta.ref-card, .cta.ref-card {
+  display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 0.55rem 1.4rem;
+  margin: 1.8em 0; padding: 16px 20px; border-left: 4px solid var(--accent);
+}
+.ref-card .ref-benefit { grid-column: 1; margin: 0; font-size: 0.95em; font-weight: 600; line-height: 1.45; color: var(--ink); }
+.ref-card .ref-label { display: inline-block; margin-right: 0.45rem; padding: 0.22rem 0.45rem; border-radius: 4px; background: var(--ink); color: var(--paper); font: 700 0.6rem/1 var(--mono); letter-spacing: 0.12em; text-transform: uppercase; vertical-align: 0.15em; }
+.ref-card .ref-button { grid-column: 2; grid-row: 1 / span 2; justify-self: end; max-width: 280px; font-size: 0.8rem; padding: 0.85rem 1.25rem; box-shadow: 0 6px 18px -8px color-mix(in srgb, var(--accent) 70%, transparent); }
+.ref-card .ref-note { grid-column: 1; margin: 0; font-size: 0.74em; line-height: 1.4; color: var(--muted); }
+.content .ref-card .ref-note a { color: var(--muted); }
+@media (max-width: 640px) {
+  .mid-cta.ref-card, .cta.ref-card { grid-template-columns: 1fr; padding: 16px; }
+  .ref-card .ref-button { grid-column: 1; grid-row: auto; justify-self: stretch; max-width: none; justify-content: center; text-align: center; white-space: normal; }
+  .ref-card .ref-note { grid-row: auto; }
+}

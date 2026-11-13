@@ -305,6 +305,13 @@ def validate_partners() -> None:
         if err:
             errors.append(err)
         # Even while dark, require CTA copy for every listed language so activation is url+enabled only.
+        for lang in p.get("languages") or []:
+            card = (p.get("card") or {}).get(lang) or {}
+            if p.get("enabled") and not (card.get("button") and card.get("benefit")):
+                errors.append(f"partner {pid}: missing card button/benefit for language '{lang}'")
+            for k, v in card.items():
+                if isinstance(v, str) and ("\u2014" in v or "--" in v.replace("://", "")):
+                    errors.append(f"partner {pid}: card.{lang}.{k} contains an em dash or double dash")
         if pid == "coinbase":
             continue
         for lang in p.get("languages") or []:
@@ -510,31 +517,97 @@ def partner_mid_copy(p: dict, lang: str) -> tuple[str, str, str, str]:
     )
 
 
-def single_partner_mid_html(pg: Page, lang: str, p: dict) -> str:
+def _bitcoin_topic(slug: str) -> bool:
+    return "bitcoin" in slug or "btc" in slug.split("-")
+
+
+def secondary_partner(slug: str, lang: str, meta: dict | None, first: dict | None) -> dict | None:
+    """A second, different live partner for the end card (None when only one partner is live).
+
+    meta["secondary_partner"] pins it; Bitcoin-topic articles prefer River; otherwise rotate by slug."""
+    if not first:
+        return None
+    live = [p for p in live_partners(lang) if p["id"] != first["id"]]
+    if not live:
+        return None
+    ov = (meta or {}).get("secondary_partner")
+    if ov == "none":
+        return None
+    if isinstance(ov, str):
+        hit = next((p for p in live if p["id"] == ov), None)
+        if hit:
+            return hit
+    if _bitcoin_topic(slug):
+        hit = next((p for p in live if p["id"] == "river"), None)
+        if hit:
+            return hit
+    return live[_slug_hash(slug, lang + "|second") % len(live)]
+
+
+def partner_pair(slug: str, lang: str, meta: dict | None) -> tuple[dict | None, dict | None]:
+    """(lead card partner, second card partner). Lead is the primary partner; on Bitcoin-topic
+    articles without a manual primary_partner pin, River leads when it is in the pair."""
+    first = primary_partner(slug, lang, meta)
+    second = secondary_partner(slug, lang, meta, first)
+    pinned = bool(meta and meta.get("primary_partner")) or slug in COINBASE_PINNED_SLUGS or slug in (
+        "gemini-referral-bonus", "river-referral-bonus")
+    if (not pinned and second and second["id"] == "river" and _bitcoin_topic(slug)):
+        first, second = second, first
+    return first, second
+
+
+def partner_card_copy(p: dict, lang: str, variant: int = 1) -> tuple[str, str, str]:
+    """button, benefit line, url for the compact referral card. variant 2 is the alternate pitch."""
+    card = (p.get("card") or {}).get(lang) or {}
+    url = REF_URL if p["id"] == "coinbase" else _partner_url(p)
+    sfx = "2" if variant == 2 else ""
+    button = card.get("button" + sfx) or card.get("button") or p.get("name") or p["id"]
+    benefit = card.get("benefit" + sfx) or card.get("benefit") or ""
+    return button, benefit, url
+
+
+def referral_card_html(pg: Page, lang: str, p: dict, *, where: str, variant: int = 1) -> str:
+    """Compact referral card: one CTA button, one benefit line, one tiny disclosure line.
+
+    where="mid" renders <aside class="mid-cta ...">, where="end" renders <div class="cta ...">.
+    The card holds no nested <div>/<aside> so the strip-and-replace regexes stay safe."""
     s = STR[lang]
-    title, text, button, url = partner_mid_copy(p, lang)
-    label = s.get("banner_label", "Affiliate link")
+    button, benefit, url = partner_card_copy(p, lang, variant)
     pid = esc_attr(p["id"])
+    label = s.get("ref_label") or "Partner offer"
+    note = s.get("ref_note") or "Referral link, we may earn a bonus."
+    details = s.get("ref_details") or "Details"
+    disc_href = internal(lang, "/disclosure")
+    tag, cls = ("aside", "mid-cta") if where == "mid" else ("div", "cta")
+    aria = f' aria-label="{esc_attr(label)}"' if where == "mid" else ""
     return (
-        f'      <aside class="mid-cta" aria-label="{esc_attr(label)}" data-partner-cta="{pid}">\n'
-        f'        <div class="mid-cta-label">{esc(label)}</div>\n'
-        f'        <h2>{esc(title)}</h2>\n'
-        f'        <p>{pg.inline(text)}</p>\n'
-        f'        <a class="cta-button" href="{esc_attr(url)}" rel="sponsored noopener" target="_blank" data-partner="{pid}">{esc(button)}</a>\n'
-        "      </aside>\n"
+        f'      <{tag} class="{cls} ref-card"{aria} data-partner-cta="{pid}">\n'
+        f'        <p class="ref-benefit"><span class="ref-label">{esc(label)}</span> {esc(benefit)}</p>\n'
+        f'        <a class="cta-button ref-button" href="{esc_attr(url)}" rel="sponsored noopener" target="_blank" data-partner="{pid}">{esc(button)}</a>\n'
+        f'        <p class="ref-note">{esc(note)} <a href="{disc_href}">{esc(details)}</a></p>\n'
+        f"      </{tag}>\n"
     )
+
+
+def article_cards_html(pg: Page, lang: str, slug: str, meta: dict | None) -> tuple[str, str, list[dict]]:
+    """(mid card, end card, partners used). Two different offers when possible."""
+    first, second = partner_pair(slug, lang, meta)
+    if not first:
+        return "", "", []
+    mid = referral_card_html(pg, lang, first, where="mid", variant=1)
+    if second:
+        end = referral_card_html(pg, lang, second, where="end", variant=1)
+        return mid, end, [first, second]
+    end = referral_card_html(pg, lang, first, where="end", variant=2)
+    return mid, end, [first]
+
+
+def single_partner_mid_html(pg: Page, lang: str, p: dict) -> str:
+    return referral_card_html(pg, lang, p, where="mid", variant=1)
 
 
 def single_partner_end_cta_html(pg: Page, lang: str, p: dict) -> str:
-    title, text, button, url = partner_cta_copy(p, lang)
-    pid = esc_attr(p["id"])
-    return (
-        f'      <div class="cta" data-partner-cta="{pid}">\n'
-        f"        <h2>{esc(title)}</h2>\n"
-        f"        <p>{pg.inline(text)}</p>\n"
-        f'        <a class="cta-button" href="{esc_attr(url)}" rel="sponsored noopener" target="_blank" data-partner="{pid}">{esc(button)}</a>\n'
-        "      </div>\n"
-    )
+    return referral_card_html(pg, lang, p, where="end", variant=2)
 
 
 def partner_disclosure_line(pg: Page, p: dict, lang: str) -> str:
@@ -543,6 +616,16 @@ def partner_disclosure_line(pg: Page, p: dict, lang: str) -> str:
     raw = (p.get("disclosure") or {}).get(lang) or ""
     return pg.inline(raw) if raw else ""
 
+
+
+def partners_disclosure_text(pg: Page, used: list[dict], lang: str) -> str:
+    """One disclosure sentence for the card partners on an article (combined when there are two)."""
+    ui = PARTNER_UI.get(lang) or {}
+    if len(used) > 1 and ui.get("disc_multi"):
+        names = [p.get("name") or p["id"] for p in used]
+        joined = ", ".join(names[:-1]) + f" {ui.get('and', 'and')} " + names[-1]
+        return pg.inline(ui["disc_multi"].replace("{names}", joined))
+    return "<br><br>\n        ".join(x for x in (partner_disclosure_line(pg, p, lang) for p in used) if x)
 
 
 def _partner_id_from_url(href: str) -> str | None:
@@ -643,20 +726,7 @@ def partners_end_cta_html(pg: Page, lang: str) -> str:
 
 
 def partner_mid_cta_html(pg: Page, p: dict, lang: str) -> str:
-    s = STR[lang]
-    cta = (p.get("cta") or {}).get(lang) or {}
-    url = esc_attr(_partner_url(p))
-    label = s.get("banner_label", "Affiliate link")
-    title = cta.get("title") or p.get("name") or p["id"]
-    button = cta.get("button") or title
-    return (
-        f'      <aside class="mid-cta" aria-label="{esc_attr(label)}">\n'
-        f'        <div class="mid-cta-label">{esc(label)}</div>\n'
-        f'        <h2>{esc(title)}</h2>\n'
-        f'        <p>{pg.inline(cta.get("text") or "")}</p>\n'
-        f'        <a class="cta-button" href="{url}" rel="sponsored noopener" target="_blank" data-partner="{esc_attr(p["id"])}">{esc(button)}</a>\n'
-        "      </aside>\n"
-    )
+    return referral_card_html(pg, lang, p, where="mid", variant=1)
 
 
 def partners_article_disclosure_html(pg: Page, lang: str) -> str:
@@ -699,16 +769,21 @@ def strip_partners(h: str) -> str:
 
 
 
-def unlink_nonprimary_referrals(h: str, primary_id: str | None) -> str:
-    """Drop leftover referral anchors that are not this article's primary partner."""
+def unlink_nonprimary_referrals(h: str, primary_id: "str | set[str] | None") -> str:
+    """Drop leftover referral anchors that are not one of this article's card partners."""
+    keep = {primary_id} if isinstance(primary_id, str) else set(primary_id or ())
+    dropped = 0
+
     def repl(m: re.Match[str]) -> str:
+        nonlocal dropped
         tag, inner = m.group(0), m.group(1)
         href_m = re.search(r'href="([^"]+)"', tag, re.I)
         href = href_m.group(1) if href_m else ""
         pid_m = re.search(r'\bdata-partner="([^"]+)"', tag, re.I)
         pid = (pid_m.group(1) if pid_m else _partner_id_from_url(href) or "")
-        if primary_id and pid == primary_id:
+        if pid and pid in keep:
             return tag
+        dropped += 1
         return inner
 
     h = re.sub(
@@ -717,7 +792,8 @@ def unlink_nonprimary_referrals(h: str, primary_id: str | None) -> str:
         h,
         flags=re.I | re.S,
     )
-    h = re.sub(r"\s+through our referral link", "", h)
+    if dropped:
+        h = re.sub(r"\s+through our referral link", "", h)
     return h
 
 
@@ -775,35 +851,9 @@ def place_partners(h: str, lang: str, kind: str, slug: str = "") -> str:
     if kind == "article":
         meta = _meta_for(slug)
         part = primary_partner(slug, lang, meta)
-        if part and part["id"] == "coinbase":
-            has_other = bool(
-                re.search(r'data-partner-cta="(?!coinbase)[^"]+"', h)
-                or re.search(r'exchange\.gemini\.com|river\.com/invite|wallet\.uphold\.com', h)
-            )
-            has_cb = bool(re.search(r'data-partner-cta="coinbase"|coinbase\.com/join', h))
-            if has_cb and not has_other:
-                # Keep existing Coinbase copy on EN hand-written pages; tag the boxes.
-                h = re.sub(
-                    r'(<aside class="mid-cta")(?![^>]*data-partner-cta=)',
-                    r'\1 data-partner-cta="coinbase"',
-                    h,
-                    count=1,
-                )
-                h = re.sub(
-                    r'(<div class="cta")(?![^>]*data-partner-cta=)',
-                    r'\1 data-partner-cta="coinbase"',
-                    h,
-                    count=1,
-                )
-                h = add_data_partner_attrs(h)
-                return h
-            # Previously another partner: fall through and rewrite as Coinbase.
-        h = unlink_nonprimary_referrals(h, part["id"] if part else None)
-        if part:
-            mid = single_partner_mid_html(pg, lang, part)
-            end = single_partner_end_cta_html(pg, lang, part)
-        else:
-            mid = ""
+        mid, end, used = article_cards_html(pg, lang, slug, meta)
+        h = unlink_nonprimary_referrals(h, {p["id"] for p in used})
+        if not part:
             s = STR[lang]
             end = (
                 f'      <div class="cta">\n'
@@ -811,17 +861,17 @@ def place_partners(h: str, lang: str, kind: str, slug: str = "") -> str:
                 f"        <p>{pg.inline(s['alt_cta_text'])}</p>\n"
                 "      </div>\n"
             )
-        if re.search(r'<aside class="mid-cta"', h):
+        if re.search(r'<aside class="mid-cta(?: [^"]*)?"', h):
             if mid:
-                h = re.sub(r'\s*<aside class="mid-cta"[^>]*>.*?</aside>', "\n" + mid, h, count=1, flags=re.S)
+                h = re.sub(r'\s*<aside class="mid-cta(?: [^"]*)?"[^>]*>.*?</aside>', "\n" + mid, h, count=1, flags=re.S)
             else:
-                h = re.sub(r'\s*<aside class="mid-cta"[^>]*>.*?</aside>', "", h, count=1, flags=re.S)
+                h = re.sub(r'\s*<aside class="mid-cta(?: [^"]*)?"[^>]*>.*?</aside>', "", h, count=1, flags=re.S)
         elif mid:
-            m = re.search(r'(<div class="cta"[^>]*>)', h)
+            m = re.search(r'(<div class="cta(?: [^"]*)?"[^>]*>)', h)
             if m:
                 h = h[: m.start()] + mid + "\n" + h[m.start() :]
-        if re.search(r'<div class="cta"', h):
-            h = re.sub(r'\s*<div class="cta(?: partners-cta)?"[^>]*>.*?</div>', "\n" + end, h, count=1, flags=re.S)
+        if re.search(r'<div class="cta(?: [^"]*)?"', h):
+            h = re.sub(r'\s*<div class="cta(?: [^"]*)?"[^>]*>.*?</div>', "\n" + end, h, count=1, flags=re.S)
         else:
             m = re.search(r'(<div class="disclosure">)', h)
             if m:
@@ -829,8 +879,8 @@ def place_partners(h: str, lang: str, kind: str, slug: str = "") -> str:
             else:
                 errors.append(f"cannot place partner CTA ({lang}/{slug or kind})")
         # Replace any existing affiliate sentence with the primary partner's disclosure.
-        if part:
-            disc = partner_disclosure_line(pg, part, lang)
+        if used:
+            disc = partners_disclosure_text(pg, used, lang)
             if disc:
                 def _inject_disc(m):
                     inner = m.group(1)
@@ -1525,15 +1575,15 @@ def build_article(lang: str, slug: str):
 '''
                 )
         elif t == "mid_cta":
-            part = primary_partner(slug, lang, meta)
-            if part:
-                body.append(single_partner_mid_html(pg, lang, part))
+            mid_html, _end_html, _used = article_cards_html(pg, lang, slug, meta)
+            if mid_html:
+                body.append(mid_html)
         elif t == "soft":
             body.append(f'      <p class="soft-guide">{pg.inline(b["text"])}</p>\n')
         elif t == "end_cta":
-            part = primary_partner(slug, lang, meta)
-            if part:
-                body.append(single_partner_end_cta_html(pg, lang, part))
+            _mid_html, end_html, _used = article_cards_html(pg, lang, slug, meta)
+            if end_html:
+                body.append(end_html)
             else:
                 # Non-affiliate closer: newsletter + community sit just below; related guides follow.
                 body.append(f'''      <div class="cta">
@@ -1542,13 +1592,12 @@ def build_article(lang: str, slug: str):
       </div>
 ''')
         elif t == "disclosure":
-            part = primary_partner(slug, lang, meta)
+            _m, _e, used = article_cards_html(pg, lang, slug, meta)
             adv = s["not_advice_" + meta.get("disclosure_variant", "std")]
             aff_parts = []
-            if part:
-                line = partner_disclosure_line(pg, part, lang)
-                if line:
-                    aff_parts.append(line)
+            line = partners_disclosure_text(pg, used, lang)
+            if line:
+                aff_parts.append(line)
             aff = ("<br><br>\n        ".join(aff_parts) + "<br><br>\n        ") if aff_parts else ""
             body.append(f'      <div class="disclosure">\n        {aff}{pg.inline(adv)}\n      </div>\n')
         else:

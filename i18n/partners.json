@@ -4,7 +4,9 @@
     "en": {
       "box_title": "If you decide to open an account",
       "box_intro": "If a service below is available where you live and you decide to sign up, you can use our referral link. Any offer depends on your country and the provider’s current terms — check them on the signup page. This is not investment advice.",
-      "page_intro": "This language edition may include the referral links listed below. Availability and rewards are set by each provider; always check their current terms. Mentions of other companies in news articles are informational only."
+      "page_intro": "This language edition may include the referral links listed below. Availability and rewards are set by each provider; always check their current terms. Mentions of other companies in news articles are informational only.",
+      "disc_multi": "<strong>Disclosure:</strong> This page contains {names} referral links. If you sign up through one of them and meet that provider’s current terms, PlainBTC may earn a referral reward at no extra cost to you. See our [full affiliate disclosure](/disclosure).",
+      "and": "and"
     },
     "es": {
       "box_title": "Si decides abrir una cuenta",
@@ -37,7 +39,17 @@
       "languages": [
         "en"
       ],
-      "notes": "Existing English-only Coinbase referral. Inline [text](REF) links, mid-article banner and end CTA still use i18n/strings plus langs.json referral mode. This entry is the URL source of truth and is listed on the English disclosure page."
+      "notes": "Existing English-only Coinbase referral. Inline [text](REF) links, mid-article banner and end CTA still use i18n/strings plus langs.json referral mode. This entry is the URL source of truth and is listed on the English disclosure page.",
+      "card": {
+        "en": {
+          "button": "Sign up on Coinbase",
+          "benefit": "Referral bonus after your first qualifying buy within 90 days of verifying your ID. Amount varies by country.",
+          "button2": "Start on Coinbase",
+          "benefit2": "Buy your first crypto with a bank transfer or card. Referral bonus amount varies by country.",
+          "source": "https://help.coinbase.com/en/coinbase/getting-started/getting-started-with-coinbase/new-customer-incentive",
+          "checked": "2026-11-13"
+        }
+      }
     },
     {
       "id": "river",
@@ -58,7 +70,17 @@
       "disclosure": {
         "en": "<strong>Disclosure:</strong> This page contains a River referral link. If you sign up through it and meet River’s current terms, PlainBTC may earn a referral reward at no extra cost to you. See our [full affiliate disclosure](/disclosure)."
       },
-      "notes": "Personal River referral, English pages only. Official help center allows sharing the link with your community. Partner program (fee share) is separate and is not used here."
+      "notes": "Personal River referral, English pages only. Official help center allows sharing the link with your community. Partner program (fee share) is separate and is not used here.",
+      "card": {
+        "en": {
+          "button": "Get up to $100 in bitcoin on River",
+          "benefit": "$5 in bitcoin after your first $100 of bitcoin, up to $100 as you buy more within 180 days. U.S. only.",
+          "button2": "Start stacking bitcoin on River",
+          "benefit2": "Bitcoin-only app for U.S. buyers. Buy $100 within 180 days of signup and get $5 in bitcoin.",
+          "source": "https://support.river.com/hc/en-us/articles/45490369477267-How-do-I-refer-friends-to-River",
+          "checked": "2026-11-13"
+        }
+      }
     },
     {
       "id": "gemini",
@@ -103,7 +125,17 @@
         "fr": "<strong>Transparence :</strong> cette page contient un lien de parrainage Gemini. Si vous vous inscrivez via ce lien et remplissez les conditions en vigueur chez Gemini, PlainBTC peut percevoir une récompense, sans frais supplémentaires pour vous. Consultez notre [déclaration d’affiliation complète](/disclosure).",
         "de": "<strong>Offenlegung:</strong> Diese Seite enthält einen Gemini-Empfehlungslink. Wenn Sie sich darüber anmelden und die aktuellen Gemini-Bedingungen erfüllen, kann PlainBTC eine Empfehlungsprämie erhalten, ohne Mehrkosten für Sie. Siehe unsere [vollständige Affiliate-Offenlegung](/disclosure)."
       },
-      "notes": "Personal Gemini referral, English pages only. Official Gemini pages state that effective 6 April 2026 Gemini closed all customer accounts in the United Kingdom, the European Economic Area, and Australia (areas of availability + Gemini 2.0 blog, 5 Feb 2026). Do not enable es/pt/fr/de unless Gemini officially reopens those markets."
+      "notes": "Personal Gemini referral, English pages only. Official Gemini pages state that effective 6 April 2026 Gemini closed all customer accounts in the United Kingdom, the European Economic Area, and Australia (areas of availability + Gemini 2.0 blog, 5 Feb 2026). Do not enable es/pt/fr/de unless Gemini officially reopens those markets.",
+      "card": {
+        "en": {
+          "button": "Get $50 in crypto on Gemini",
+          "benefit": "Verify your ID and trade at least $100 within 30 days of signup. U.S. users, paid about 32 days after signup.",
+          "button2": "Open a Gemini account",
+          "benefit2": "New U.S. users get $50 in crypto after trading $100 in their first 30 days.",
+          "source": "https://www.gemini.com/legal/gemini-referral-rewards-program-terms/",
+          "checked": "2026-11-13"
+        }
+      }
     },
     {
       "id": "uphold",
@@ -131,7 +163,25 @@
         "es": "<strong>Divulgación:</strong> esta página contiene un enlace de referido de Uphold. Si te registras a través de él y cumples las condiciones vigentes de Uphold, PlainBTC puede recibir una recompensa de referido sin coste adicional para ti. Consulta nuestra [divulgación de afiliados completa](/disclosure).",
         "pt": "<strong>Divulgação:</strong> esta página contém um link de indicação da Uphold. Se você se cadastrar por ele e cumprir os termos atuais da Uphold, a PlainBTC pode receber uma recompensa de indicação sem custo extra para você. Veja nossa [divulgação completa de afiliados](/disclosure)."
       },
-      "notes": "Personal Uphold referral, Spanish and Portuguese pages only (LatAm/Brazil). Official terms: not available in Europe; US excludes New York. Dashboard/terms: both sides may receive US$20 in bitcoin after the friend verifies, deposits at least US$100, and trades at least US$100 (fiat to crypto) within 30 days. Do not enable fr/de (Europe)."
+      "notes": "Personal Uphold referral, Spanish and Portuguese pages only (LatAm/Brazil). Official terms: not available in Europe; US excludes New York. Dashboard/terms: both sides may receive US$20 in bitcoin after the friend verifies, deposits at least US$100, and trades at least US$100 (fiat to crypto) within 30 days. Do not enable fr/de (Europe).",
+      "card": {
+        "es": {
+          "button": "Recibe US$20 en bitcoin con Uphold",
+          "benefit": "Deposita y compra al menos US$100 en cripto en tus primeros 30 días. Latinoamérica y EE. UU. (excepto Nueva York).",
+          "button2": "Abre tu cuenta en Uphold",
+          "benefit2": "Tu primera compra de US$100 en cripto te da US$20 en bitcoin. Oferta vigente hasta el 31/12/2026.",
+          "source": "https://uphold.com/en-us/legal/uphold-referral-program-terms",
+          "checked": "2026-11-13"
+        },
+        "pt": {
+          "button": "Ganhe US$20 em bitcoin na Uphold",
+          "benefit": "Deposite e compre pelo menos US$100 em cripto nos primeiros 30 dias. Brasil, América Latina e EUA (exceto Nova York).",
+          "button2": "Abra sua conta na Uphold",
+          "benefit2": "Sua primeira compra de US$100 em cripto rende US$20 em bitcoin. Oferta válida até 31/12/2026.",
+          "source": "https://uphold.com/en-us/legal/uphold-referral-program-terms",
+          "checked": "2026-11-13"
+        }
+      }
     },
     {
       "id": "public",
@@ -176,5 +226,6 @@
         "en": "<strong>Disclosure:</strong> This page contains a SoFi affiliate link. If you sign up through it and meet SoFi’s current terms, PlainBTC may earn a commission at no extra cost to you. See our [full affiliate disclosure](/disclosure)."
       }
     }
-  ]
+  ],
+  "_doc_card": "card.<lang>: compact article CTA. button + benefit = lead pitch; button2 + benefit2 = alternate pitch used when only one partner is live for a language. Every amount must match the partner's official page in 'source' (re-check and update 'checked'). No em dashes or double dashes."
 }
