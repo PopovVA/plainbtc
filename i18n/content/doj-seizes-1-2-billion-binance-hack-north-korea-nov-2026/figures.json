@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-binance-hack-doj-seizure.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of Binance hack funds according to the U.S. Justice Department: more than $6 billion stolen, more than $2.7 billion frozen so far, and more than $1.2 billion covered by court approval to seize or restrain",
+      "es": "Gráfico de barras de los fondos del hackeo de Binance según el Departamento de Justicia de EE. UU.: más de 6.000 millones de dólares robados, más de 2.700 millones congelados hasta ahora y más de 1.200 millones cubiertos por la autorización judicial de incautación o inmovilización",
+      "pt": "Gráfico de barras dos fundos do hack da Binance segundo o Departamento de Justiça dos EUA: mais de US$ 6 bilhões roubados, mais de US$ 2,7 bilhões congelados até agora e mais de US$ 1,2 bilhão cobertos pela autorização judicial de apreensão ou bloqueio",
+      "fr": "Graphique en barres des fonds du piratage de Binance selon le ministère américain de la Justice : plus de 6 milliards de dollars volés, plus de 2,7 milliards gelés à ce jour et plus de 1,2 milliard couverts par l'autorisation judiciaire de saisie ou de blocage",
+      "de": "Balkendiagramm der Gelder aus dem Binance-Hack laut US-Justizministerium: mehr als 6 Mrd. $ gestohlen, mehr als 2,7 Mrd. $ bisher eingefroren und mehr als 1,2 Mrd. $ von der gerichtlichen Genehmigung zur Beschlagnahme oder Sperrung erfasst",
+      "ru": "Столбчатая диаграмма средств со взлома Binance по данным Минюста США: украдено более $6 млрд, заморожено более $2,7 млрд, разрешение суда на изъятие или блокировку получено для более чем $1,2 млрд",
+      "tr": "ABD Adalet Bakanlığı'na göre Binance saldırısındaki fonların çubuk grafiği: 6 milyar dolardan fazlası çalındı, şimdiye kadar 2,7 milyar dolardan fazlası donduruldu, 1,2 milyar dolardan fazlası için el koyma veya dondurma yönünde mahkeme izni alındı",
+      "id": "Grafik batang dana peretasan Binance menurut Departemen Kehakiman AS: lebih dari US$6 miliar dicuri, lebih dari US$2,7 miliar dibekukan sejauh ini, dan lebih dari US$1,2 miliar tercakup izin pengadilan untuk disita atau dibekukan",
+      "ja": "米司法省によるBinanceハッキング資金の棒グラフ：盗まれた額は60億ドル超、これまでに凍結されたのは27億ドル超、裁判所が押収・保全を認めたのは12億ドル超",
+      "ko": "미국 법무부 기준 바이낸스 해킹 자금 막대 차트: 도난 60억 달러 이상, 지금까지 동결 27억 달러 이상, 법원이 압수 또는 동결을 승인한 금액 12억 달러 이상"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: U.S. Department of Justice, Nov. 12, 2026",
+      "es": "Gráfico: PlainBTC, datos: Departamento de Justicia de EE. UU., 12 de noviembre de 2026",
+      "pt": "Gráfico: PlainBTC, dados: Departamento de Justiça dos EUA, 12 de novembro de 2026",
+      "fr": "Graphique : PlainBTC, données : ministère américain de la Justice, 12 novembre 2026",
+      "de": "Chart: PlainBTC, Daten: US-Justizministerium, 12. November 2026",
+      "ru": "График: PlainBTC, данные: Министерство юстиции США, 12 ноября 2026 г.",
+      "tr": "Grafik: PlainBTC, veri: ABD Adalet Bakanlığı, 12 Kasım 2026",
+      "id": "Grafik: PlainBTC, data: Departemen Kehakiman AS, 12 November 2026",
+      "ja": "チャート: PlainBTC、データ: 米司法省（2026年11月12日）",
+      "ko": "차트: PlainBTC, 데이터: 미국 법무부, 2026년 11월 12일"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-facestealer-400m.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: the FBI says North Korean hackers stole more than $400 million in 18 months with the FaceStealer fake video call scheme, and agents seized more than 900 recorded victim videos",
+      "es": "Tarjeta: según el FBI, hackers norcoreanos robaron más de 400 millones de dólares en 18 meses con el esquema FaceStealer de videollamadas falsas, y los agentes se incautaron de más de 900 videos grabados de víctimas",
+      "pt": "Cartão: segundo o FBI, hackers norte-coreanos roubaram mais de US$ 400 milhões em 18 meses com o esquema FaceStealer de videochamadas falsas, e os agentes apreenderam mais de 900 vídeos gravados de vítimas",
+      "fr": "Encadré : selon le FBI, des pirates nord-coréens ont volé plus de 400 millions de dollars en 18 mois avec le stratagème FaceStealer de fausses visioconférences, et les agents ont saisi plus de 900 vidéos enregistrées de victimes",
+      "de": "Faktenkarte: Laut FBI erbeuteten nordkoreanische Hacker mit der FaceStealer-Masche gefälschter Videocalls in 18 Monaten mehr als 400 Mio. $; die Ermittler beschlagnahmten mehr als 900 aufgezeichnete Opfervideos",
+      "ru": "Карточка: по данным ФБР, северокорейские хакеры за 18 месяцев украли более $400 млн с помощью схемы FaceStealer с фальшивыми видеозвонками, а агенты изъяли более 900 записанных видео жертв",
+      "tr": "Kart: FBI'a göre Kuzey Koreli hackerlar sahte görüntülü aramalara dayanan FaceStealer düzeniyle 18 ayda 400 milyon dolardan fazla çaldı; ekipler kurbanlara ait 900'den fazla kayıtlı videoya el koydu",
+      "id": "Kartu fakta: menurut FBI, peretas Korea Utara mencuri lebih dari US$400 juta dalam 18 bulan lewat modus panggilan video palsu FaceStealer, dan petugas menyita lebih dari 900 video rekaman korban",
+      "ja": "カード：FBIによると、北朝鮮のハッカーは偽ビデオ通話の手口FaceStealerで18か月間に4億ドル超を盗んだ。捜査当局は被害者を録画した動画900本超を押収した",
+      "ko": "카드: FBI에 따르면 북한 해커들은 가짜 화상통화 수법 FaceStealer로 18개월 동안 4억 달러 이상을 훔쳤고, 수사 당국은 녹화된 피해자 영상 900개 이상을 압수했다"
+    },
+    "caption": {
+      "en": "Source: FBI FLASH and U.S. Department of Justice",
+      "es": "Fuente: alerta FLASH del FBI y Departamento de Justicia de EE. UU.",
+      "pt": "Fonte: alerta FLASH do FBI e Departamento de Justiça dos EUA",
+      "fr": "Source : alerte FLASH du FBI et ministère américain de la Justice",
+      "de": "Quelle: FBI-FLASH-Warnung und US-Justizministerium",
+      "ru": "Источник: предупреждение FBI FLASH и Министерство юстиции США",
+      "tr": "Kaynak: FBI FLASH uyarısı ve ABD Adalet Bakanlığı",
+      "id": "Sumber: peringatan FLASH FBI dan Departemen Kehakiman AS",
+      "ja": "出典: FBIのFLASH警告、米司法省",
+      "ko": "출처: FBI FLASH 경보, 미국 법무부"
+    }
+  }
+]

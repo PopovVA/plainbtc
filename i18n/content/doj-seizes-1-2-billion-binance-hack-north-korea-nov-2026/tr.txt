@@ -1,0 +1,69 @@
+title: ABD, Binance saldırısında çalınan 1,2 milyar doları el koymak için mahkeme izni aldı ve Kuzey Kore'nin sahte görüntülü arama tuzağını çökertti
+page_title: ABD Adalet Bakanlığı Binance'ten çalınan 1,2 milyar $'a el koyuyor
+description: ABD Adalet Bakanlığı, Binance'ten çalınan 1,2 milyar dolardan fazlasına el koymak veya bunu dondurmak için mahkeme izni aldı. FBI de Kuzey Kore'nin sahte görüntülü arama tuzağı FaceStealer'ın sunucularını çökertti.
+og_description: Binance saldırısında çalınan paranın 2,7 milyar dolardan fazlası donduruldu ve Adalet Bakanlığı artık bunun 1,2 milyar dolardan fazlasına el koyabilir. FBI ayrıca sahte Zoom ve Teams aramalarıyla 400 milyon dolardan fazla çalan FaceStealer'ı çökertti.
+label: Güvenlik
+summary: ABD Adalet Bakanlığı artık Binance saldırısında çalınan 1,2 milyar dolardan fazlasına el koyabilir veya bunu dondurabilir. FBI de Kuzey Kore'nin sahte görüntülü arama tuzağı FaceStealer'ı çökertti.
+===
+
+ABD Adalet Bakanlığı 12 Kasım Perşembe günü, geçen ay rekor kıran saldırıda Binance'ten çalınan kripto paralardan <strong>1,2 milyar dolardan</strong> fazlasına el koymak veya bunları dondurmak için mahkeme izni aldığını açıkladı. Bakanlığın [duyurusuna](L1) göre bu para, toplamda 6 milyar dolardan fazla çalınan fonlardan ABD makamları ve özel şirketlerin şimdiye kadar dondurduğu <strong>2,7 milyar dolardan</strong> fazlasının bir parçası.
+
+Aynı duyuruda Los Angeles savcılığı, FBI'ın Kuzey Koreli hackerların <strong>"FaceStealer"</strong> adını verdiği bir düzende kullandığı bulut sunucularına el koyduğunu bildirdi. Bu düzende kurbanlar sahte Zoom ve Microsoft Teams aramalarına çekiliyor. FBI'a göre bu yöntemle son 18 ayda <strong>400 milyon dolardan</strong> fazla çalındı.
+
+!takeaways
+- Adalet Bakanlığı, Binance'ten çalınan kripto paraların 1,2 milyar dolardan fazlasına el koymak veya bunları dondurmak için mahkeme izni aldı.
+- Kamu ve özel sektörün ortak çabasıyla çalınan fonların 2,7 milyar dolardan fazlası şimdiye kadar donduruldu.
+- FBI, 29 Ekim'de 6 milyar dolardan fazlasının çalınmasından "TraderTraitor" adını verdiği Kuzey Koreli askeri hackerları sorumlu tutuyor.
+- Ekipler ayrıca FaceStealer'ın bulut altyapısına ve kurbanların gizlice kaydedilmiş 900'den fazla web kamerası videosuna el koydu.
+
+!figure:chart
+
+## Adalet Bakanlığı ne açıkladı
+
+Binance'teki hırsızlık 29 Ekim'de veya o tarihlerde gerçekleşti. İki gün sonra FBI, yayımladığı bir [siber uyarıda](L4) Kuzey Kore'yi açıkça sorumlu tuttu ve borsalarla diğer kripto hizmetlerinden hackerların kullandığı adreslerle bağlantılı işlemleri engellemelerini istedi. [The Block'un](L5) aktardığına göre Binance kaybını yaklaşık 6,3 milyar dolar olarak açıklamıştı.
+
+O zamandan beri federal savcılar ve FBI, çalınan coinleri nakde çevrilmeden durdurmak için kripto şirketleriyle birlikte çalışıyor. Bakanlığın Ceza Dairesi’nden sorumlu A. Tysen Duva, bu çabayla "bu tarihi ihlalin yaklaşık yarısının anında durdurulduğunu" söyledi. Dava henüz bitmedi: Bakanlık, hackerlar parayı kripto köprüleri, karıştırıcılar ve borsalar üzerinden taşımaya devam ettiği için takip, dondurma, el koyma ve müsadere çalışmalarının sürdüğünü belirtti.
+
+## FaceStealer nasıl işliyor
+
+Aynı gün yayımlanan bir [FBI uyarısına](L2) göre hackerlar önce bir kurbanın Telegram, LinkedIn, Slack veya Discord hesabını ele geçiriyor. Ardından bu kişinin tanıdıklarına yazarak "hasret gidermek" ya da "bir iş birliğini konuşmak" için görüşme teklif ediyor. Toplantı bağlantısı, hackerların kontrolündeki sahte bir Zoom veya Teams sayfasına çıkıyor. Hedef katıldığında, aramanın gerçek görünmesi için tanıdığı kişilerin kaydedilmiş web kamerası görüntülerini ve bazen kripto dünyasının tanınmış isimlerinin yapay zekâyla üretilmiş deepfake videolarını oynatıyorlar.
+
+Sonra tuzak geliyor. Sahte bir katılımcı, hedefin sesinin duyulmadığını söyleyip bir çözüm sunuyor: bir "güncelleme" bağlantısı, bir betik ya da bilgisayarın terminaline yapıştırılacak bir kod satırı. Bu "çözüm", kripto para çalabilen ve bir sonraki saldırı turu için hedefin web kamerasını kaydedebilen kötü amaçlı bir yazılım kuruyor. FBI, grubun giderek daha fazla açık kaynak yazılım geliştiricilerini de hedef aldığını söylüyor ve ayrıntılar için bir [FaceStealer sayfası](L3) hazırladı.
+
+!mid_cta
+
+!figure:fact
+
+## Sahte iş görüşmeleri de var
+
+Sahte toplantılar tek yem değil. The Block'un aktardığına göre Binance'in olay raporu, 29 Ekim ihlalinin aylar önce başladığını ortaya koydu: saldırganlar sahte bir işe alım sürecinde şirket yöneticisi kılığına girdi ve bir çalışanı zararlı bir kodlama ödevi indirmeye ikna etti. Binance, 2026'da Kuzey Kore bağlantılı olduğundan şüphelenilen 57 saldırıyı tespit edip durdurduğunu, bunların çoğunda sahte mülakatlar ve zararlı geliştirici araçları kullanıldığını açıkladı.
+
+## Yeni başlayanlar için güvenlik ipuçları
+
+FBI'ın tavsiyeleri ve Binance vakasındaki örüntü birkaç alışkanlığa indirgenebilir:
+
+- Görüntülü aramalara biri size bağlantı gönderdiğinde değil, resmi Zoom veya Teams uygulamasından toplantı kimliğiyle katılın.
+- Bir aramada sizden betik çalıştırmanız, terminale kod yapıştırmanız veya sesi düzeltmek için bir "güncelleme" kurmanız istenirse durun. Uygulamayı ayrıca güncelleyin.
+- Beklenmedik toplantı davetlerini telefon araması veya SMS gibi başka bir kanaldan doğrulayın.
+- Tanımadığınız kişilerden gelen kodları asla çalıştırmayın ve dosyaları açmayın; doğrulamadığınız işe alımcıların "test ödevleri" de buna dahil.
+- Telegram, WhatsApp ve diğer mesajlaşma uygulamalarında iki adımlı doğrulamayı ve giriş uyarılarını açın.
+- Kurtarma ifadelerini ve özel anahtarları bilgisayarınızda veya telefonunuzda saklamayın.
+
+FBI, mağdurlardan IC3.gov'a "FaceStealer" anahtar kelimesiyle şikâyette bulunmalarını istiyor. Benzer dersler, [Across web sitesinin ele geçirilmesi](/articles/across-protocol-domain-hijack-phishing-nov-2026) ve [Binance'in uyardığı iPhone açığı](/articles/binance-warns-iphone-ios-flaw-wallet-keys-nov-2026) haberlerimizde de öne çıkmıştı.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Bu el koyma, çalınan kripto paraların açık blokzincirlerde bazen izlenip dondurulabildiğini gösteriyor; ancak geri almak zaman alıyor ve paranın kime ait olduğuna mahkemeler karar veriyor. The Block'a göre Binance bu ayın başında etkilenen varlıkların %98'ini zaten yerine koyduğunu açıklamıştı.
+
+Yeni başlıyorsanız, [Coinbase](REF) gibi ABD'de düzenlenen büyük bir borsa banka hesabıyla kripto almanıza imkân tanır; ancak hiçbir platform saldırılara veya dolandırıcılığa karşı tamamen korunaklı değildir, bu yüzden yukarıdaki alışkanlıklar yine önemlidir. Yalnızca kaybetmeyi göze alabileceğiniz kadar yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neler izlenmeli
+
+- Mahkemenin onayladığı el koymaların resmi müsadere davalarına dönüşüp dönüşmeyeceği ve çalınan paranın ne kadarının daha dondurulacağı.
+- FBI ve Adalet Bakanlığı'nın TraderTraitor'a ve FaceStealer'ın arkasındaki hackerlara karşı atacağı yeni adımlar.
+
+!soft: Çalınan paranın nasıl hareket ettiğini görün: [Kuzey Kore, Binance ganimetini aklamak için memecoin üretiyor](/articles/binance-hack-north-korea-memecoin-laundering-nov-2026).
+
+!end_cta
+
+!disclosure

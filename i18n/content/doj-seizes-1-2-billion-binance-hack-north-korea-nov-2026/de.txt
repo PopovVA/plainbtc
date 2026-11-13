@@ -1,0 +1,69 @@
+title: USA erhalten gerichtliche Erlaubnis, 1,2 Milliarden Dollar aus dem Binance-Hack zu beschlagnahmen, und legen nordkoreanische Masche mit gefälschten Videocalls lahm
+page_title: DOJ will 1,2 Mrd. $ aus dem Binance-Hack beschlagnahmen
+description: Das US-Justizministerium darf laut Gericht mehr als 1,2 Milliarden Dollar aus dem Binance-Hack beschlagnahmen oder sperren, und das FBI hat die Server von FaceStealer abgeschaltet, einer nordkoreanischen Masche mit gefälschten Videocalls.
+og_description: Mehr als 2,7 Milliarden Dollar der Binance-Beute sind eingefroren, und das DOJ darf nun mehr als 1,2 Milliarden davon beschlagnahmen oder sperren. Das FBI hat außerdem FaceStealer zerschlagen, eine Masche mit falschen Zoom- und Teams-Calls, die über 400 Millionen erbeutete.
+label: Sicherheit
+summary: Das US-Justizministerium darf nun mehr als 1,2 Milliarden Dollar aus dem Binance-Hack beschlagnahmen oder sperren, und das FBI hat FaceStealer zerschlagen, Nordkoreas Masche mit gefälschten Videocalls.
+===
+
+Das US-Justizministerium (DOJ) hat am Donnerstag, dem 12. November, mitgeteilt, dass es eine gerichtliche Genehmigung hat, mehr als <strong>1,2 Milliarden Dollar</strong> an Kryptowährungen zu beschlagnahmen oder zu sperren, die beim Rekord-Hack auf Binance im vergangenen Monat gestohlen wurden. Das Geld ist Teil von mehr als <strong>2,7 Milliarden Dollar</strong>, die US-Behörden und private Unternehmen bislang eingefroren haben, bei insgesamt mehr als 6 Milliarden gestohlenen Dollar, wie aus der [Mitteilung](L1) des Ministeriums hervorgeht.
+
+In derselben Mitteilung erklärte die Staatsanwaltschaft in Los Angeles, das FBI habe Cloud-Server beschlagnahmt, die nordkoreanische Hacker für eine Masche namens <strong>„FaceStealer“</strong> nutzten. Dabei werden Opfer in gefälschte Zoom- und Microsoft-Teams-Calls gelockt. Laut FBI wurden so in den vergangenen 18 Monaten mehr als <strong>400 Millionen Dollar</strong> erbeutet.
+
+!takeaways
+- Das Justizministerium darf laut Gericht mehr als 1,2 Milliarden Dollar der bei Binance gestohlenen Kryptowährungen beschlagnahmen oder sperren.
+- Mehr als 2,7 Milliarden Dollar der gestohlenen Gelder sind dank Behörden und Privatwirtschaft bereits eingefroren.
+- Das FBI macht nordkoreanische Militärhacker, die es „TraderTraitor“ nennt, für den Diebstahl von mehr als 6 Milliarden Dollar am 29. Oktober verantwortlich.
+- Die Ermittler beschlagnahmten außerdem die Cloud-Infrastruktur von FaceStealer und mehr als 900 heimlich aufgenommene Webcam-Videos von Opfern.
+
+!figure:chart
+
+## Was das Justizministerium bekannt gab
+
+Der Diebstahl bei Binance geschah am oder um den 29. Oktober. Zwei Tage später machte das FBI in einer [Cyber-Warnung](L4) öffentlich Nordkorea verantwortlich und forderte Börsen und andere Kryptodienste auf, Transaktionen mit einer Liste von Adressen der Hacker zu blockieren. Binance selbst bezifferte den Schaden auf rund 6,3 Milliarden Dollar, berichtete [The Block](L5).
+
+Seitdem arbeiten Bundesstaatsanwälte und das FBI mit Kryptofirmen zusammen, um die gestohlenen Coins zu stoppen, bevor sie zu Bargeld gemacht werden können. A. Tysen Duva, Leiter der Strafrechtsabteilung des Ministeriums, sagte, so sei es gelungen, „etwa die Hälfte dieses historischen Einbruchs sofort zu stoppen“. Abgeschlossen ist der Fall nicht: Laut Ministerium geht die Arbeit weiter, das Geld zu verfolgen, einzufrieren, zu beschlagnahmen und einzuziehen, denn die Hacker schieben es weiter über Krypto-Bridges, Mixer und Börsen.
+
+## So funktioniert FaceStealer
+
+Laut einer am selben Tag veröffentlichten [FBI-Warnung](L2) übernehmen die Hacker zunächst das Telegram-, LinkedIn-, Slack- oder Discord-Konto eines Opfers. Dann schreiben sie dessen Kontakte an und schlagen einen Call vor, um „sich mal wieder auszutauschen“ oder „über eine Zusammenarbeit zu sprechen“. Der Meeting-Link führt zu einer von den Hackern kontrollierten Kopie von Zoom oder Teams. Sobald das Ziel beitritt, spielen sie aufgezeichnete Webcam-Videos von Bekannten ab, manchmal auch KI-Deepfakes bekannter Krypto-Persönlichkeiten, damit der Call echt wirkt.
+
+Dann folgt der Trick. Ein falscher Teilnehmer behauptet, man könne das Ziel nicht hören, und bietet eine Lösung an: einen „Update“-Link, ein Skript oder eine Codezeile, die man ins Terminal des Computers einfügen soll. Dieser „Fix“ installiert Schadsoftware, die Kryptowährungen stehlen und die Webcam des Ziels für die nächste Angriffsrunde aufzeichnen kann. Laut FBI nimmt die Gruppe zunehmend auch Open-Source-Entwickler ins Visier. Das FBI hat eine [Seite zu FaceStealer](L3) mit weiteren Details eingerichtet.
+
+!mid_cta
+
+!figure:fact
+
+## Auch gefälschte Vorstellungsgespräche
+
+Gefälschte Meetings sind nicht der einzige Köder. Laut dem Vorfallbericht von Binance begann der Einbruch vom 29. Oktober Monate früher: Die Angreifer gaben sich in einem gefälschten Bewerbungsverfahren als Führungskräfte des Unternehmens aus und brachten einen Mitarbeiter dazu, eine präparierte Programmieraufgabe herunterzuladen, wie The Block berichtete. Binance erklärte, 2026 bereits 57 mutmaßlich nordkoreanische Angriffe erkannt und gestoppt zu haben, viele davon mit betrügerischen Vorstellungsgesprächen und schädlichen Entwicklerwerkzeugen.
+
+## Sicherheitstipps für Einsteiger
+
+Die Ratschläge des FBI und die Lehren aus dem Binance-Fall lassen sich auf ein paar Gewohnheiten herunterbrechen:
+
+- Treten Sie Videocalls über die offizielle Zoom- oder Teams-App mit der Meeting-ID bei, nicht über einen Link, den Ihnen jemand schickt.
+- Wenn Sie in einem Call ein Skript ausführen, Code ins Terminal einfügen oder ein „Update“ für den Ton installieren sollen: aufhören. Aktualisieren Sie die App separat.
+- Bestätigen Sie unerwartete Einladungen über einen anderen Kanal, etwa per Telefonanruf oder SMS.
+- Führen Sie niemals Code aus und öffnen Sie keine Dateien von Fremden, auch keine „Testaufgaben“ von Recruitern, die Sie nicht überprüft haben.
+- Aktivieren Sie Zwei-Faktor-Authentifizierung und Login-Benachrichtigungen für Telegram, WhatsApp und andere Messenger.
+- Speichern Sie keine Seed-Phrasen oder privaten Schlüssel auf Computer oder Smartphone.
+
+Das FBI bittet Opfer, auf IC3.gov eine Meldung mit dem Stichwort „FaceStealer“ zu machen. Ähnliche Lehren zogen wir bereits beim [gekaperten Webauftritt von Across](/articles/across-protocol-domain-hijack-phishing-nov-2026) und bei der [iPhone-Lücke, vor der Binance warnte](/articles/binance-warns-iphone-ios-flaw-wallet-keys-nov-2026).
+
+## Was das für Einsteiger bedeutet
+
+Die Beschlagnahme zeigt, dass gestohlene Kryptowährungen auf öffentlichen Blockchains manchmal verfolgt und eingefroren werden können. Die Rückgewinnung dauert jedoch, und Gerichte entscheiden, wem das Geld am Ende zusteht. Binance erklärte Anfang des Monats, bereits 98 % der betroffenen Vermögenswerte wieder aufgefüllt zu haben, so The Block.
+
+Wer gerade anfängt, kann bei einer großen, regulierten US-Börse wie [Coinbase](REF) Krypto mit einem Bankkonto kaufen. Doch keine Plattform ist vor Hacks oder Betrug gefeit, daher bleiben die Gewohnheiten oben wichtig. Investieren Sie nur, was Sie verlieren können. Dies ist keine Anlageberatung.
+
+## Worauf man jetzt achten sollte
+
+- Ob aus den gerichtlich genehmigten Beschlagnahmen förmliche Einziehungsverfahren werden und wie viel des gestohlenen Geldes noch eingefroren wird.
+- Weitere Schritte von FBI und Justizministerium gegen TraderTraitor und die Hacker hinter FaceStealer.
+
+!soft: So wurde das gestohlene Geld bewegt: [Nordkorea erstellt Memecoins, um die Binance-Beute zu waschen](/articles/binance-hack-north-korea-memecoin-laundering-nov-2026).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,69 @@
+title: Les États-Unis obtiennent le feu vert de la justice pour saisir 1,2 milliard de dollars volés lors du piratage de Binance et démantèlent une arnaque nord-coréenne aux fausses visioconférences
+page_title: Le DOJ veut saisir 1,2 Md$ du piratage de Binance
+description: Le ministère américain de la Justice a l'autorisation d'un tribunal pour saisir ou geler plus de 1,2 milliard de dollars volés à Binance, et le FBI a neutralisé les serveurs de FaceStealer, une arnaque nord-coréenne aux fausses visios.
+og_description: Plus de 2,7 milliards de dollars issus du piratage de Binance sont gelés, et le DOJ peut désormais en saisir ou bloquer plus de 1,2 milliard. Le FBI a aussi démantelé FaceStealer, une arnaque aux faux appels Zoom et Teams qui a volé plus de 400 millions.
+label: Sécurité
+summary: Le ministère américain de la Justice peut désormais saisir ou bloquer plus de 1,2 milliard de dollars volés lors du piratage de Binance, et le FBI a démantelé FaceStealer, l'arnaque nord-coréenne aux fausses visioconférences.
+===
+
+Le ministère américain de la Justice (DOJ) a annoncé jeudi 12 novembre avoir obtenu l'autorisation d'un tribunal pour saisir ou bloquer plus de <strong>1,2 milliard de dollars</strong> de cryptomonnaies volées à Binance lors du piratage record du mois dernier. Cette somme fait partie des plus de <strong>2,7 milliards de dollars</strong> gelés jusqu'ici par les autorités américaines et des entreprises privées, sur plus de 6 milliards dérobés, selon le [communiqué](L1) du ministère.
+
+Dans le même communiqué, le parquet de Los Angeles indique que le FBI a saisi des serveurs cloud utilisés par des pirates nord-coréens dans un stratagème qu'il appelle <strong>« FaceStealer »</strong>, qui attire les victimes dans de faux appels Zoom et Microsoft Teams. Selon le FBI, ce stratagème a permis de voler plus de <strong>400 millions de dollars</strong> au cours des 18 derniers mois.
+
+!takeaways
+- Le ministère de la Justice a l'autorisation d'un tribunal pour saisir ou bloquer plus de 1,2 milliard de dollars de cryptomonnaies volées à Binance.
+- Plus de 2,7 milliards de dollars des fonds volés ont déjà été gelés grâce aux efforts conjoints de l'État et du secteur privé.
+- Le FBI attribue le vol de plus de 6 milliards de dollars du 29 octobre à des pirates militaires nord-coréens qu'il appelle « TraderTraitor ».
+- Les agents ont aussi saisi l'infrastructure cloud de FaceStealer et plus de 900 vidéos de webcam de victimes enregistrées à leur insu.
+
+!figure:chart
+
+## Ce que le ministère de la Justice a annoncé
+
+Le vol chez Binance a eu lieu le 29 octobre ou aux alentours. Deux jours plus tard, le FBI a publiquement accusé la Corée du Nord dans une [alerte cyber](L4) et demandé aux plateformes d'échange et autres services crypto de bloquer les transactions liées à une liste d'adresses utilisées par les pirates. Binance a de son côté chiffré la perte à environ 6,3 milliards de dollars, selon [The Block](L5).
+
+Depuis, les procureurs fédéraux et le FBI travaillent avec des entreprises crypto pour bloquer les fonds volés avant qu'ils ne puissent être encaissés. Le procureur général adjoint A. Tysen Duva a déclaré que cet effort avait permis de « stopper immédiatement environ la moitié de cette brèche historique ». L'affaire n'est pas close : le ministère précise que le travail pour tracer, geler, saisir et confisquer l'argent se poursuit, car les pirates continuent de le faire transiter par des bridges, des mixeurs et des plateformes d'échange.
+
+## Comment fonctionne FaceStealer
+
+D'après une [alerte du FBI](L2) publiée le même jour, les pirates prennent d'abord le contrôle du compte Telegram, LinkedIn, Slack ou Discord d'une victime. Ils écrivent ensuite aux contacts de cette personne pour proposer un appel afin de « prendre des nouvelles » ou de « parler d'une collaboration ». Le lien de la réunion mène à une copie de Zoom ou de Teams contrôlée par les pirates. Une fois la cible connectée, ils diffusent des vidéos de webcam enregistrées de personnes qu'elle connaît, et parfois des deepfakes générés par IA de figures connues de la crypto, pour que l'appel paraisse authentique.
+
+Vient alors le piège. Un faux participant explique qu'on n'entend pas la cible et propose une solution : un lien de « mise à jour », un script ou une ligne de code à coller dans le terminal de l'ordinateur. Cette « solution » installe un logiciel malveillant capable de voler des cryptomonnaies et d'enregistrer la webcam de la cible pour la prochaine vague d'attaques. Le FBI indique que le groupe vise de plus en plus aussi des développeurs de logiciels open source, et il a créé une [page consacrée à FaceStealer](L3) avec plus de détails.
+
+!mid_cta
+
+!figure:fact
+
+## De faux entretiens d'embauche aussi
+
+Les fausses réunions ne sont pas le seul appât. Le rapport d'incident de Binance indique que la brèche du 29 octobre a commencé des mois plus tôt, lorsque les attaquants se sont fait passer pour des dirigeants de l'entreprise lors d'un faux recrutement et ont piégé un employé en lui faisant télécharger un exercice de programmation malveillant, selon The Block. Binance affirme avoir détecté et bloqué 57 attaques présumées liées à la Corée du Nord en 2026, dont beaucoup reposaient sur de faux entretiens et des outils de développement piégés.
+
+## Conseils de sécurité pour débutants
+
+Les recommandations du FBI, ajoutées aux leçons du cas Binance, se résument à quelques réflexes :
+
+- Rejoignez les visioconférences depuis l'application officielle Zoom ou Teams avec l'identifiant de la réunion, pas via un lien qu'on vous envoie.
+- Si, pendant un appel, on vous demande d'exécuter un script, de coller du code dans un terminal ou d'installer une « mise à jour » pour régler le son, arrêtez tout. Mettez l'application à jour séparément.
+- Confirmez toute invitation inattendue par un autre canal, comme un appel téléphonique ou un SMS.
+- N'exécutez jamais de code et n'ouvrez jamais de fichiers venant d'inconnus, y compris des « tests techniques » envoyés par des recruteurs que vous n'avez pas vérifiés.
+- Activez la double authentification et les alertes de connexion sur Telegram, WhatsApp et vos autres messageries.
+- Ne conservez ni phrase de récupération ni clé privée sur votre ordinateur ou votre téléphone.
+
+Le FBI demande aux victimes de faire un signalement sur IC3.gov avec le mot-clé « FaceStealer ». Des leçons similaires ressortaient de nos articles sur le [détournement du site d'Across](/articles/across-protocol-domain-hijack-phishing-nov-2026) et sur la [faille de l'iPhone signalée par Binance](/articles/binance-warns-iphone-ios-flaw-wallet-keys-nov-2026).
+
+## Ce que cela change pour les débutants
+
+Cette saisie montre que des cryptomonnaies volées peuvent parfois être tracées et gelées sur des blockchains publiques, même si leur récupération prend du temps et que ce sont les tribunaux qui décident à qui revient l'argent. Binance a indiqué début novembre avoir déjà reconstitué 98 % des actifs touchés, selon The Block.
+
+Si vous débutez, une grande plateforme d'échange régulée aux États-Unis comme [Coinbase](REF) permet d'acheter des cryptos avec un compte bancaire, mais aucune plateforme n'est à l'abri des piratages ou des arnaques : les réflexes ci-dessus restent donc essentiels. N'investissez que ce que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Si les saisies autorisées par le tribunal débouchent sur des procédures formelles de confiscation, et quelle part supplémentaire de l'argent volé sera gelée.
+- De nouvelles actions du FBI et du ministère de la Justice contre TraderTraitor et les pirates derrière FaceStealer.
+
+!soft: Voyez comment l'argent volé a circulé : [la Corée du Nord crée des memecoins pour blanchir le butin du piratage de Binance](/articles/binance-hack-north-korea-memecoin-laundering-nov-2026).
+
+!end_cta
+
+!disclosure

@@ -630,6 +630,29 @@ def thumb_msci_strategy():
     ],"note":"Editorial use of the MSCI logo for identification; trademark belongs to its owner."}
 
 
+def thumb_doj_binance_seizure():
+    doj = fetch("https://upload.wikimedia.org/wikipedia/commons/5/54/Seal_of_the_United_States_Department_of_Justice.svg", CACHE/"doj-seal.svg")
+    fbi = fetch("https://upload.wikimedia.org/wikipedia/commons/d/da/Seal_of_the_Federal_Bureau_of_Investigation.svg", CACHE/"fbi-seal.svg")
+    base = gradient_bg()
+    d = ImageDraw.Draw(base)
+    # schematic "frozen" trail: wallet dots, the last ones locked behind a bar
+    pts = [(60,318),(150,296),(240,322),(330,298),(420,320),(510,300),(590,318)]
+    for a,b in zip(pts,pts[1:]):
+        d.line([a,b], fill=(247,147,26), width=3)
+    for i,(x,y) in enumerate(pts):
+        col = (52,211,153) if i >= 4 else (247,147,26)
+        d.ellipse([x-9,y-9,x+9,y+9], fill=(26,35,50), outline=col, width=3)
+    d.line([(375,280),(375,340)], fill=(52,211,153), width=4)
+    paste_contain(base, Image.open(doj).convert("RGBA"), (120,48,190,210), pad=6)
+    paste_contain(base, Image.open(fbi).convert("RGBA"), (330,48,190,210), pad=6)
+    label_chip(base, "DOJ · FBI · Binance hack funds")
+    return base, {"kind":"composite","sources":[
+        {"file":"Seal_of_the_United_States_Department_of_Justice.svg","license":"Public domain (U.S. government insignia)","url":"https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Department_of_Justice.svg","credit":"U.S. Department of Justice"},
+        {"file":"Seal_of_the_Federal_Bureau_of_Investigation.svg","license":"Public domain (U.S. government insignia)","url":"https://commons.wikimedia.org/wiki/File:Seal_of_the_Federal_Bureau_of_Investigation.svg","credit":"FBI"},
+        {"file":"wallet-trail illustration","license":"PlainBTC original","url":"","credit":"PlainBTC"},
+    ],"note":"Editorial composite for identification; no endorsement by DOJ or FBI implied."}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -652,6 +675,7 @@ BUILDERS = {
     "stablecoin-supply-shrinks-usdt-tether-nov-2026": thumb_stablecoin_supply,
     "sec-backs-cftc-stock-perps-crypto-etf-options-nov-2026": thumb_sec_perps,
     "msci-drops-strategy-bitcoin-falls-nvidia-nov-2026": thumb_msci_strategy,
+    "doj-seizes-1-2-billion-binance-hack-north-korea-nov-2026": thumb_doj_binance_seizure,
 }
 
 def first_figure_source(slug: str) -> Path | None:

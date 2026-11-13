@@ -1,0 +1,44 @@
+{
+ "slug": "doj-seizes-1-2-billion-binance-hack-north-korea-nov-2026",
+ "date": "2026-11-12",
+ "readtime": 5,
+ "related": [
+  "binance-hack-north-korea-memecoin-laundering-nov-2026",
+  "across-protocol-domain-hijack-phishing-nov-2026",
+  "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026"
+ ],
+ "sources": [
+  {
+   "url": "https://www.justice.gov/opa/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency",
+   "title": "U.S. Department of Justice: Justice Department Announces Actions to Disrupt North Korea's Massive Theft of Cryptocurrency",
+   "date": "Nov 12, 2026"
+  },
+  {
+   "url": "https://www.ic3.gov/CSA/2026/261112.pdf",
+   "title": "FBI FLASH: North Korean Hackers Use Secretly Recorded Webcam Library of 900+ Tech Workers in $400M \"FaceStealer\" Crypto Theft Scheme",
+   "date": "Nov 12, 2026"
+  },
+  {
+   "url": "https://www.fbi.gov/investigate/cyber/facestealer-cryptocurrency-theft-scheme",
+   "title": "FBI: FaceStealer Cryptocurrency Theft Scheme",
+   "date": "Nov 12, 2026"
+  },
+  {
+   "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+   "title": "FBI Cyber Alert: North Korea Responsible for $6 Billion+ Binance Attack",
+   "date": "Oct 31, 2026"
+  },
+  {
+   "url": "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto",
+   "title": "CoinDesk: North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
+   "date": "Nov 12, 2026"
+  },
+  {
+   "url": "https://www.theblock.co/news/business/2026-11-03-binance-hack-incident-report-north-korea-fake-job-interview-ai-tool-432406",
+   "title": "The Block: Binance says hackers used fake job interview, internal AI tool in $6.3 billion breach",
+   "date": "Nov 3, 2026"
+  }
+ ],
+ "disclosure_variant": "std",
+ "primary_partner": "coinbase"
+}

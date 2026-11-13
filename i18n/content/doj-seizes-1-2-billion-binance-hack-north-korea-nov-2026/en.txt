@@ -1,0 +1,69 @@
+title: U.S. gets court approval to seize $1.2 billion stolen in the Binance hack and disrupts a North Korean fake video call scheme
+page_title: DOJ moves to seize $1.2B from the Binance hack
+description: The Justice Department says it has court approval to seize or restrain more than $1.2 billion stolen from Binance, and the FBI took down servers behind North Korea's FaceStealer fake video call scam.
+og_description: More than $2.7 billion of the Binance hack loot is frozen, and DOJ can now seize or restrain over $1.2 billion of it. The FBI also disrupted FaceStealer, a fake Zoom and Teams scam that stole over $400 million.
+label: Security
+summary: The Justice Department can now seize or restrain more than $1.2 billion stolen in the Binance hack, and the FBI disrupted North Korea's FaceStealer fake video call scheme.
+===
+
+The U.S. Justice Department said on Thursday, Nov. 12, that it has court authorization to seize or restrain more than <strong>$1.2 billion</strong> in cryptocurrency stolen from Binance in last month's record hack. That money is part of more than <strong>$2.7 billion</strong> that U.S. authorities and private companies have frozen so far, out of more than $6 billion taken, according to the department's [announcement](L1).
+
+In the same release, prosecutors in Los Angeles said the FBI had seized cloud servers used by North Korean hackers in a scheme it calls <strong>"FaceStealer,"</strong> which lures people into fake Zoom and Microsoft Teams calls. The FBI says that scheme has stolen more than <strong>$400 million</strong> in the last 18 months.
+
+!takeaways
+- The Justice Department has court approval to seize or restrain more than $1.2 billion of the crypto stolen from Binance.
+- More than $2.7 billion of the stolen funds has been frozen so far through government and private sector efforts.
+- The FBI blames the Oct. 29 theft of more than $6 billion on North Korean military hackers it calls "TraderTraitor."
+- Agents also seized cloud infrastructure behind FaceStealer and more than 900 secretly recorded webcam videos of victims.
+
+!figure:chart
+
+## What the Justice Department announced
+
+The Binance theft happened on or about Oct. 29. Two days later the FBI publicly blamed North Korea in a [cyber alert](L4) and asked exchanges and other crypto services to block transactions linked to a list of addresses used by the hackers. Binance itself has put the loss at about $6.3 billion, [The Block](L5) reported.
+
+Since then, federal prosecutors and the FBI have worked with crypto companies to stop the stolen coins before they could be cashed out. Assistant Attorney General A. Tysen Duva said the effort managed to "immediately halt about half of this historic breach." The case is not over: the department said the work to trace, freeze, seize and forfeit the money is ongoing, because the hackers keep moving it through crypto bridges, mixers and exchanges.
+
+## How FaceStealer works
+
+According to an [FBI alert](L2) published the same day, the hackers first take over a victim's Telegram, LinkedIn, Slack or Discord account. They then message that person's contacts to set up a call to "catch up" or "discuss collaboration." The meeting link leads to a look-alike of Zoom or Teams run by the hackers. Once the target joins, they play recorded webcam video of people the target knows, and sometimes AI-made deepfakes of well-known crypto figures, so the call looks real.
+
+Then comes the trick. A fake participant says the target cannot be heard and offers a fix: an "update" link, a script, or a line of code to paste into the computer's terminal. That "fix" installs malware that can steal crypto and record the target's webcam for the next round of attacks. The FBI says the group has increasingly targeted open-source software developers too, and it has set up a [FaceStealer page](L3) with more details.
+
+!mid_cta
+
+!figure:fact
+
+## Fake job interviews, too
+
+Fake meetings are not the only lure. Binance's own incident report said the Oct. 29 breach started months earlier, when attackers posed as company executives in a fake hiring process and tricked an employee into downloading a malicious coding assignment, according to The Block. Binance said it detected and stopped 57 suspected North Korea-linked attacks in 2026, many involving fraudulent interviews and malicious developer tools.
+
+## Security tips for beginners
+
+The FBI's advice, plus the pattern in the Binance case, comes down to a few habits:
+
+- Join video calls from the official Zoom or Teams app with a meeting ID, not through a link someone sends you.
+- If a call asks you to run a script, paste code into a terminal or install an "update" to fix your audio, stop. Update the app separately instead.
+- Confirm unexpected meeting invites through a different channel, such as a phone call or text message.
+- Never run code or open files from strangers, including "test assignments" from recruiters you have not verified.
+- Turn on two-factor authentication and login alerts for Telegram, WhatsApp and other chat apps.
+- Do not keep seed phrases or private keys stored on your computer or phone.
+
+The FBI asks victims to file a report at IC3.gov with the keyword "FaceStealer." Similar lessons came up in our coverage of the [Across website hijack](/articles/across-protocol-domain-hijack-phishing-nov-2026) and the [iPhone flaw Binance warned about](/articles/binance-warns-iphone-ios-flaw-wallet-keys-nov-2026).
+
+## What it means for beginners
+
+The seizure shows that stolen crypto can sometimes be traced and frozen on public blockchains, although getting it back takes time and courts decide who ends up with the money. Binance said earlier this month that it had already replenished 98% of the affected assets, according to The Block.
+
+If you are just starting out, a large regulated U.S. exchange such as [Coinbase](REF) lets you buy crypto with a bank account, but no platform is immune to hacks or scams, so the habits above still matter. Only invest what you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Whether the court-authorized seizures lead to formal forfeiture cases, and how much more of the stolen money gets frozen.
+- Further FBI and Justice Department action against TraderTraitor and the hackers behind FaceStealer.
+
+!soft: See how the stolen money has been moving: [North Korea is minting meme coins to launder the Binance hack](/articles/binance-hack-north-korea-memecoin-laundering-nov-2026).
+
+!end_cta
+
+!disclosure

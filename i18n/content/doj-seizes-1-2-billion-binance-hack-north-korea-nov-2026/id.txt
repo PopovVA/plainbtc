@@ -1,0 +1,69 @@
+title: AS dapat izin pengadilan untuk menyita US$1,2 miliar hasil peretasan Binance dan membongkar modus panggilan video palsu Korea Utara
+page_title: DOJ bergerak sita US$1,2 miliar dari peretasan Binance
+description: Departemen Kehakiman AS mendapat izin pengadilan untuk menyita atau membekukan lebih dari US$1,2 miliar yang dicuri dari Binance, dan FBI melumpuhkan server FaceStealer, modus penipuan panggilan video palsu Korea Utara.
+og_description: Lebih dari US$2,7 miliar hasil peretasan Binance telah dibekukan, dan DOJ kini dapat menyita atau menahan lebih dari US$1,2 miliar di antaranya. FBI juga membongkar FaceStealer, penipuan lewat panggilan Zoom dan Teams palsu yang mencuri lebih dari US$400 juta.
+label: Keamanan
+summary: Departemen Kehakiman AS kini dapat menyita atau membekukan lebih dari US$1,2 miliar yang dicuri dalam peretasan Binance, dan FBI membongkar FaceStealer, modus panggilan video palsu Korea Utara.
+===
+
+Departemen Kehakiman AS mengumumkan pada Kamis, 12 November, bahwa mereka telah mendapat izin pengadilan untuk menyita atau membekukan lebih dari <strong>US$1,2 miliar</strong> kripto yang dicuri dari Binance dalam peretasan terbesar sepanjang sejarah bulan lalu. Dana itu merupakan bagian dari lebih dari <strong>US$2,7 miliar</strong> yang sejauh ini telah dibekukan oleh otoritas AS dan perusahaan swasta, dari total lebih dari US$6 miliar yang dicuri, menurut [pengumuman](L1) departemen tersebut.
+
+Dalam pengumuman yang sama, kejaksaan di Los Angeles menyatakan FBI telah menyita server cloud yang dipakai peretas Korea Utara dalam modus yang disebut <strong>"FaceStealer"</strong>, yang memancing korban ke panggilan Zoom dan Microsoft Teams palsu. Menurut FBI, modus ini telah mencuri lebih dari <strong>US$400 juta</strong> dalam 18 bulan terakhir.
+
+!takeaways
+- Departemen Kehakiman mendapat izin pengadilan untuk menyita atau membekukan lebih dari US$1,2 miliar kripto yang dicuri dari Binance.
+- Lebih dari US$2,7 miliar dana curian sejauh ini telah dibekukan berkat upaya pemerintah dan sektor swasta.
+- FBI menuding peretas militer Korea Utara yang disebutnya "TraderTraitor" berada di balik pencurian lebih dari US$6 miliar pada 29 Oktober.
+- Petugas juga menyita infrastruktur cloud FaceStealer dan lebih dari 900 video webcam korban yang direkam diam-diam.
+
+!figure:chart
+
+## Apa yang diumumkan Departemen Kehakiman
+
+Pencurian di Binance terjadi sekitar 29 Oktober. Dua hari kemudian, FBI secara terbuka menuding Korea Utara dalam sebuah [peringatan siber](L4) dan meminta bursa serta layanan kripto lain memblokir transaksi yang terkait dengan daftar alamat milik para peretas. Binance sendiri memperkirakan kerugiannya sekitar US$6,3 miliar, lapor [The Block](L5).
+
+Sejak itu, jaksa federal dan FBI bekerja sama dengan perusahaan kripto untuk menghentikan koin curian sebelum dicairkan. Asisten Jaksa Agung A. Tysen Duva mengatakan upaya itu berhasil "segera menghentikan sekitar separuh dari pembobolan bersejarah ini". Kasusnya belum selesai: departemen tersebut menyatakan upaya melacak, membekukan, menyita, dan merampas dana itu masih berjalan, karena para peretas terus memindahkannya lewat bridge kripto, mixer, dan bursa.
+
+## Cara kerja FaceStealer
+
+Menurut [peringatan FBI](L2) yang terbit pada hari yang sama, peretas pertama-tama mengambil alih akun Telegram, LinkedIn, Slack, atau Discord milik korban. Mereka lalu menghubungi kontak orang itu untuk mengajak panggilan video, entah untuk "ngobrol santai" atau "membahas kolaborasi". Tautan rapatnya mengarah ke tiruan Zoom atau Teams yang dikendalikan peretas. Begitu target bergabung, mereka memutar rekaman webcam orang yang dikenal target, dan kadang deepfake buatan AI dari tokoh kripto terkenal, agar panggilan tampak nyata.
+
+Lalu datang jebakannya. Seorang peserta palsu mengatakan suara target tidak terdengar dan menawarkan solusi: tautan "pembaruan", sebuah skrip, atau sebaris kode untuk ditempel di terminal komputer. "Solusi" itu memasang malware yang bisa mencuri kripto dan merekam webcam target untuk serangan berikutnya. FBI mengatakan kelompok ini juga semakin sering menyasar pengembang perangkat lunak open source, dan telah membuat [halaman khusus FaceStealer](L3) berisi detail lebih lanjut.
+
+!mid_cta
+
+!figure:fact
+
+## Wawancara kerja palsu juga
+
+Rapat palsu bukan satu-satunya umpan. Laporan insiden Binance menyebut pembobolan 29 Oktober dimulai berbulan-bulan sebelumnya, ketika penyerang menyamar sebagai eksekutif perusahaan dalam proses rekrutmen palsu dan menipu seorang karyawan agar mengunduh tugas coding berbahaya, menurut The Block. Binance mengatakan telah mendeteksi dan menghentikan 57 dugaan serangan terkait Korea Utara sepanjang 2026, banyak di antaranya memakai wawancara palsu dan alat pengembang berbahaya.
+
+## Tips keamanan untuk pemula
+
+Saran FBI, ditambah pola dalam kasus Binance, bisa diringkas menjadi beberapa kebiasaan:
+
+- Masuk ke panggilan video lewat aplikasi resmi Zoom atau Teams dengan ID rapat, bukan lewat tautan yang dikirim seseorang.
+- Jika dalam panggilan Anda diminta menjalankan skrip, menempel kode di terminal, atau memasang "pembaruan" untuk memperbaiki audio, berhenti. Perbarui aplikasinya secara terpisah.
+- Konfirmasi undangan rapat yang tidak terduga lewat saluran lain, misalnya telepon atau SMS.
+- Jangan pernah menjalankan kode atau membuka file dari orang asing, termasuk "tugas tes" dari perekrut yang belum Anda verifikasi.
+- Aktifkan autentikasi dua faktor dan notifikasi login di Telegram, WhatsApp, dan aplikasi chat lainnya.
+- Jangan menyimpan frasa pemulihan atau kunci privat di komputer atau ponsel.
+
+FBI meminta korban melapor ke IC3.gov dengan kata kunci "FaceStealer". Pelajaran serupa juga muncul dalam liputan kami tentang [pembajakan situs Across](/articles/across-protocol-domain-hijack-phishing-nov-2026) dan [celah iPhone yang diperingatkan Binance](/articles/binance-warns-iphone-ios-flaw-wallet-keys-nov-2026).
+
+## Artinya bagi pemula
+
+Penyitaan ini menunjukkan bahwa kripto curian kadang bisa dilacak dan dibekukan di blockchain publik, meski memulihkannya butuh waktu dan pengadilanlah yang memutuskan siapa yang berhak atas uang itu. Binance mengatakan awal bulan ini bahwa mereka sudah mengganti 98% aset yang terdampak, menurut The Block.
+
+Jika Anda baru mulai, bursa besar yang teregulasi di AS seperti [Coinbase](REF) memungkinkan Anda membeli kripto dengan rekening bank, tetapi tidak ada platform yang kebal dari peretasan atau penipuan, jadi kebiasaan di atas tetap penting. Investasikan hanya dana yang sanggup Anda relakan hilang. Ini bukan saran investasi.
+
+## Yang perlu dipantau selanjutnya
+
+- Apakah penyitaan yang disetujui pengadilan berlanjut menjadi perkara perampasan resmi, dan berapa banyak lagi dana curian yang dibekukan.
+- Langkah lanjutan FBI dan Departemen Kehakiman terhadap TraderTraitor dan peretas di balik FaceStealer.
+
+!soft: Lihat bagaimana uang curian itu berpindah: [Korea Utara mencetak memecoin untuk mencuci hasil peretasan Binance](/articles/binance-hack-north-korea-memecoin-laundering-nov-2026).
+
+!end_cta
+
+!disclosure

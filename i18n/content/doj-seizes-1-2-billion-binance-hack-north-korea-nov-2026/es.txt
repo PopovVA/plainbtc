@@ -1,0 +1,69 @@
+title: EE. UU. obtiene permiso judicial para incautar 1.200 millones de dólares robados en el hackeo de Binance y desmantela una estafa norcoreana de videollamadas falsas
+page_title: El DOJ va a por 1.200 millones del hackeo de Binance
+description: El Departamento de Justicia de EE. UU. tiene autorización judicial para incautar o inmovilizar más de 1.200 millones de dólares robados a Binance, y el FBI tumbó los servidores de FaceStealer, una estafa norcoreana con videollamadas falsas.
+og_description: Más de 2.700 millones de dólares del botín del hackeo de Binance están congelados, y el DOJ ya puede incautar o inmovilizar más de 1.200 millones. El FBI también desarticuló FaceStealer, una estafa con falsas llamadas de Zoom y Teams que robó más de 400 millones.
+label: Seguridad
+summary: El Departamento de Justicia ya puede incautar o inmovilizar más de 1.200 millones de dólares robados en el hackeo de Binance, y el FBI desarticuló FaceStealer, la estafa norcoreana de videollamadas falsas.
+===
+
+El Departamento de Justicia de EE. UU. informó el jueves 12 de noviembre de que cuenta con autorización judicial para incautar o inmovilizar más de <strong>1.200 millones de dólares</strong> en criptomonedas robadas a Binance en el hackeo récord del mes pasado. Ese dinero forma parte de los más de <strong>2.700 millones de dólares</strong> que las autoridades estadounidenses y empresas privadas han congelado hasta ahora, de un total robado de más de 6.000 millones, según el [comunicado](L1) del departamento.
+
+En el mismo comunicado, la fiscalía de Los Ángeles explicó que el FBI se incautó de servidores en la nube usados por hackers norcoreanos en un esquema al que llama <strong>"FaceStealer"</strong>, que atrae a sus víctimas a falsas llamadas de Zoom y Microsoft Teams. Según el FBI, ese esquema ha robado más de <strong>400 millones de dólares</strong> en los últimos 18 meses.
+
+!takeaways
+- El Departamento de Justicia tiene autorización judicial para incautar o inmovilizar más de 1.200 millones de dólares de las criptomonedas robadas a Binance.
+- Hasta ahora se han congelado más de 2.700 millones de dólares de los fondos robados gracias al trabajo conjunto del Gobierno y el sector privado.
+- El FBI atribuye el robo de más de 6.000 millones de dólares del 29 de octubre a hackers militares de Corea del Norte a los que llama "TraderTraitor".
+- Los agentes también se incautaron de la infraestructura en la nube de FaceStealer y de más de 900 videos de webcam de víctimas grabados en secreto.
+
+!figure:chart
+
+## Qué anunció el Departamento de Justicia
+
+El robo a Binance ocurrió el 29 de octubre o en torno a esa fecha. Dos días después, el FBI culpó públicamente a Corea del Norte en una [alerta de ciberseguridad](L4) y pidió a exchanges y otros servicios cripto que bloquearan las transacciones vinculadas a una lista de direcciones usadas por los hackers. La propia Binance ha cifrado la pérdida en unos 6.300 millones de dólares, informó [The Block](L5).
+
+Desde entonces, fiscales federales y el FBI han trabajado con empresas cripto para frenar las monedas robadas antes de que pudieran convertirse en efectivo. El fiscal general adjunto A. Tysen Duva dijo que el esfuerzo logró "frenar de inmediato cerca de la mitad de esta brecha histórica". El caso no ha terminado: el departamento indicó que sigue el trabajo para rastrear, congelar, incautar y decomisar el dinero, porque los hackers siguen moviéndolo a través de puentes cripto, mezcladores y exchanges.
+
+## Cómo funciona FaceStealer
+
+Según una [alerta del FBI](L2) publicada el mismo día, los hackers primero toman el control de la cuenta de Telegram, LinkedIn, Slack o Discord de una víctima. Después escriben a los contactos de esa persona para proponer una llamada para "ponerse al día" o "hablar de una colaboración". El enlace de la reunión lleva a una imitación de Zoom o Teams controlada por los hackers. Cuando el objetivo entra, reproducen videos grabados de webcam de personas que conoce, y a veces deepfakes creados con IA de figuras conocidas del mundo cripto, para que la llamada parezca real.
+
+Entonces llega el truco. Un participante falso dice que no se oye al objetivo y ofrece una solución: un enlace de "actualización", un script o una línea de código para pegar en la terminal del ordenador. Esa "solución" instala malware capaz de robar criptomonedas y de grabar la webcam del objetivo para la siguiente ronda de ataques. El FBI dice que el grupo apunta cada vez más también a desarrolladores de software de código abierto, y ha creado una [página sobre FaceStealer](L3) con más detalles.
+
+!mid_cta
+
+!figure:fact
+
+## También entrevistas de trabajo falsas
+
+Las reuniones falsas no son el único anzuelo. El propio informe de incidentes de Binance señaló que la brecha del 29 de octubre empezó meses antes, cuando los atacantes se hicieron pasar por directivos de la empresa en un proceso de selección falso y engañaron a un empleado para que descargara una prueba de programación maliciosa, según The Block. Binance dijo que detectó y detuvo 57 presuntos ataques vinculados a Corea del Norte en 2026, muchos con entrevistas fraudulentas y herramientas de desarrollo maliciosas.
+
+## Consejos de seguridad para principiantes
+
+Los consejos del FBI, junto con lo que enseña el caso de Binance, se resumen en unos pocos hábitos:
+
+- Únete a las videollamadas desde la aplicación oficial de Zoom o Teams con el ID de la reunión, no desde un enlace que alguien te envía.
+- Si en una llamada te piden ejecutar un script, pegar código en una terminal o instalar una "actualización" para arreglar el audio, detente. Actualiza la aplicación por separado.
+- Confirma las invitaciones inesperadas por otro canal, como una llamada telefónica o un mensaje de texto.
+- Nunca ejecutes código ni abras archivos de desconocidos, incluidas las "pruebas técnicas" de reclutadores que no hayas verificado.
+- Activa la verificación en dos pasos y las alertas de inicio de sesión en Telegram, WhatsApp y otras apps de mensajería.
+- No guardes frases semilla ni claves privadas en tu ordenador o tu teléfono.
+
+El FBI pide a las víctimas que presenten una denuncia en IC3.gov con la palabra clave "FaceStealer". Lecciones parecidas surgieron en nuestra cobertura del [secuestro del sitio web de Across](/articles/across-protocol-domain-hijack-phishing-nov-2026) y del [fallo de iPhone sobre el que advirtió Binance](/articles/binance-warns-iphone-ios-flaw-wallet-keys-nov-2026).
+
+## Qué significa para los principiantes
+
+La incautación demuestra que las criptomonedas robadas a veces pueden rastrearse y congelarse en blockchains públicas, aunque recuperarlas lleva tiempo y son los tribunales quienes deciden a quién corresponde el dinero. Binance dijo a principios de este mes que ya había repuesto el 98% de los activos afectados, según The Block.
+
+Si estás empezando, un exchange grande y regulado en EE. UU. como [Coinbase](REF) permite comprar criptomonedas con una cuenta bancaria, pero ninguna plataforma es inmune a hackeos o estafas, así que los hábitos anteriores siguen siendo importantes. Invierte solo lo que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Si las incautaciones autorizadas por el tribunal dan lugar a procesos formales de decomiso, y cuánto más del dinero robado se congela.
+- Nuevas acciones del FBI y del Departamento de Justicia contra TraderTraitor y los hackers detrás de FaceStealer.
+
+!soft: Mira cómo se ha movido el dinero robado: [Corea del Norte crea memecoins para lavar el botín del hackeo de Binance](/articles/binance-hack-north-korea-memecoin-laundering-nov-2026).
+
+!end_cta
+
+!disclosure
