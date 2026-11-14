@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-payward-adjusted-ebitda.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of Payward's adjusted EBITDA: $178.6 million in Q3 2025, $23 million in Q2 2026 and $60 million in Q3 2026",
+      "es": "Gráfico de barras del EBITDA ajustado de Payward: 178,6 millones de dólares en el tercer trimestre de 2025, 23 millones en el segundo trimestre de 2026 y 60 millones en el tercer trimestre de 2026",
+      "pt": "Gráfico de barras do EBITDA ajustado da Payward: US$ 178,6 milhões no 3º trimestre de 2025, US$ 23 milhões no 2º trimestre de 2026 e US$ 60 milhões no 3º trimestre de 2026",
+      "fr": "Graphique en barres de l'EBITDA ajusté de Payward : 178,6 millions de dollars au 3e trimestre 2025, 23 millions au 2e trimestre 2026 et 60 millions au 3e trimestre 2026",
+      "de": "Balkendiagramm des bereinigten EBITDA von Payward: 178,6 Mio. $ im 3. Quartal 2025, 23 Mio. $ im 2. Quartal 2026 und 60 Mio. $ im 3. Quartal 2026",
+      "ru": "Столбчатая диаграмма скорректированной EBITDA Payward: $178,6 млн в третьем квартале 2025 года, $23 млн во втором квартале 2026 года и $60 млн в третьем квартале 2026 года",
+      "tr": "Payward'ın düzeltilmiş FAVÖK'ünün çubuk grafiği: 2025'in 3. çeyreğinde 178,6 milyon $, 2026'nın 2. çeyreğinde 23 milyon $ ve 2026'nın 3. çeyreğinde 60 milyon $",
+      "id": "Grafik batang EBITDA yang disesuaikan Payward: US$178,6 juta pada kuartal III 2025, US$23 juta pada kuartal II 2026, dan US$60 juta pada kuartal III 2026",
+      "ja": "Paywardの調整後EBITDAの棒グラフ：2025年第3四半期は1億7860万ドル、2026年第2四半期は2300万ドル、2026年第3四半期は6000万ドル",
+      "ko": "페이워드 조정 EBITDA 막대 차트: 2025년 3분기 1억 7,860만 달러, 2026년 2분기 2,300만 달러, 2026년 3분기 6,000만 달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Payward, The Block",
+      "es": "Gráfico: PlainBTC, datos: Payward, The Block",
+      "pt": "Gráfico: PlainBTC, dados: Payward, The Block",
+      "fr": "Graphique : PlainBTC, données : Payward, The Block",
+      "de": "Chart: PlainBTC, Daten: Payward, The Block",
+      "ru": "График: PlainBTC, данные: Payward, The Block",
+      "tr": "Grafik: PlainBTC, veri: Payward, The Block",
+      "id": "Grafik: PlainBTC, data: Payward, The Block",
+      "ja": "チャート: PlainBTC、データ: Payward, The Block",
+      "ko": "차트: PlainBTC, 데이터: Payward, The Block"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-payward-funded-accounts.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: Kraken parent Payward had 7.1 million funded accounts at the end of September 2026, up 37% from a year earlier; trading volume was $353 billion, down 30% from a year earlier",
+      "es": "Tarjeta: Payward, matriz de Kraken, tenía 7,1 millones de cuentas con fondos a finales de septiembre de 2026, un 37% más que un año antes; el volumen negociado fue de 353.000 millones de dólares, un 30% menos que un año antes",
+      "pt": "Cartão: a Payward, controladora da Kraken, tinha 7,1 milhões de contas com saldo no fim de setembro de 2026, 37% a mais que um ano antes; o volume negociado foi de US$ 353 bilhões, 30% menor que um ano antes",
+      "fr": "Encadré : Payward, maison mère de Kraken, comptait 7,1 millions de comptes approvisionnés fin septembre 2026, soit 37 % de plus qu'un an plus tôt ; le volume de transactions a atteint 353 milliards de dollars, en baisse de 30 % sur un an",
+      "de": "Faktenkarte: Die Kraken-Mutter Payward hatte Ende September 2026 7,1 Millionen Konten mit Guthaben, 37 % mehr als ein Jahr zuvor; das Handelsvolumen lag bei 353 Mrd. $, 30 % weniger als ein Jahr zuvor",
+      "ru": "Карточка: у Payward, материнской компании Kraken, на конец сентября 2026 года было 7,1 млн пополненных счетов, на 37% больше, чем годом ранее; объем операций составил $353 млрд, на 30% меньше, чем годом ранее",
+      "tr": "Kart: Kraken'in ana şirketi Payward'ın Eylül 2026 sonunda 7,1 milyon bakiyeli hesabı vardı, bir yıl öncesine göre %37 fazla; işlem hacmi 353 milyar $ ile bir yıl öncesine göre %30 düştü",
+      "id": "Kartu fakta: Payward, induk Kraken, memiliki 7,1 juta akun berdana pada akhir September 2026, naik 37% dari setahun sebelumnya; volume transaksi US$353 miliar, turun 30% dari setahun sebelumnya",
+      "ja": "カード：Kraken親会社Paywardの残高のある口座数は2026年9月末で710万件、前年比37%増。取引高は3530億ドルで前年比30%減",
+      "ko": "카드: 크라켄 모회사 페이워드의 잔고 보유 계좌는 2026년 9월 말 710만 개로 1년 전보다 37% 증가, 거래량은 3,530억 달러로 1년 전보다 30% 감소"
+    },
+    "caption": {
+      "en": "Source: Payward Q3 2026 financial highlights",
+      "es": "Fuente: Payward Q3 2026 financial highlights",
+      "pt": "Fonte: Payward Q3 2026 financial highlights",
+      "fr": "Source : Payward Q3 2026 financial highlights",
+      "de": "Quelle: Payward Q3 2026 financial highlights",
+      "ru": "Источник: Payward Q3 2026 financial highlights",
+      "tr": "Kaynak: Payward Q3 2026 financial highlights",
+      "id": "Sumber: Payward Q3 2026 financial highlights",
+      "ja": "出典: Payward Q3 2026 financial highlights",
+      "ko": "출처: Payward Q3 2026 financial highlights"
+    }
+  }
+]

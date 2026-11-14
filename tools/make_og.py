@@ -32,6 +32,16 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "kraken-payward-q3-2026-results-nov-2026",
+        "Kraken parent Payward's earnings drop two-thirds as crypto trading cools",
+        "BUSINESS",
+    ),
+    (
+        "crypto-treasury-firms-loans-nakamoto-btcs-nov-2026",
+        "Falling prices squeeze crypto treasury firms Nakamoto and BTCS",
+        "MARKETS",
+    ),
+    (
         "illinois-crypto-tax-doj-defi-challenge-nov-2026",
         "DOJ, Wall Street and DeFi firms back lawsuit against Illinois' 0.2% crypto tax",
         "REGULATION",
@@ -165,6 +175,14 @@ ARTICLES = [
 # used for identification only). Each entry: (image URL, tile background RGB).
 WIKI = "https://upload.wikimedia.org/wikipedia/commons/"
 OG_LOGOS: dict[str, list[tuple[str, tuple[int, int, int]]]] = {
+    # Kraken "by Payward" wordmark from Kraken's official press image page (kraken.com/press/kraken-images).
+    "kraken-payward-q3-2026-results-nov-2026": [
+        ("https://assets-cms.kraken.com/images/51n36hrp/facade/4d67f3f4eac6aa0702c6ae62b1e0b1abc41b10cd-650x155.svg", (255, 255, 255)),
+    ],
+    "crypto-treasury-firms-loans-nakamoto-btcs-nov-2026": [
+        ("https://assets-cms.kraken.com/images/51n36hrp/facade/4d67f3f4eac6aa0702c6ae62b1e0b1abc41b10cd-650x155.svg", (255, 255, 255)),
+        (WIKI + "6/6a/Aave_logo_%282024%29.png", (255, 255, 255)),
+    ],
     "illinois-crypto-tax-doj-defi-challenge-nov-2026": [
         (WIKI + "e/e7/Seal_of_Illinois.svg", (255, 255, 255)),
         (WIKI + "5/54/Seal_of_the_United_States_Department_of_Justice.svg", (255, 255, 255)),

@@ -1,0 +1,58 @@
+title: Harga yang turun menekan perusahaan treasury kripto: Nakamoto berutang US$165 juta ke Kraken, BTCS jual ether demi lindungi pinjaman
+page_title: Perusahaan treasury kripto tertekan pinjaman: Nakamoto dan BTCS
+description: Perusahaan bitcoin Nakamoto berutang 165 juta USDT ke Kraken, lebih besar dari nilai pasar sahamnya, dan perusahaan treasury Ethereum BTCS menjual ether dengan rugi untuk melindungi pinjaman US$64 juta di Aave. Begini cara kerja pinjaman berjaminan kripto.
+og_description: Dengan bitcoin di sekitar US$68.000 dan ether di bawah US$2.000, dua perusahaan treasury kripto yang tercatat di bursa mengelola pinjaman yang dijamin koin mereka. Nakamoto menunda utangnya ke 2027; BTCS menjual ether di bawah harga beli untuk menjauh dari likuidasi.
+label: Pasar
+summary: Nakamoto berutang US$165 juta ke Kraken dengan jaminan bitcoin dan menunda pembayaran ke 2027, sementara BTCS menjual ether dengan rugi untuk mengamankan pinjaman US$64 juta di Aave.
+===
+
+Aksi jual kripto sedang menguji perusahaan yang meminjam dengan menjaminkan koin mereka. Dua perusahaan "treasury" yang tercatat di bursa AS, yaitu perusahaan yang bisnis utamanya memegang kripto, minggu ini mengungkap cara mereka mengelola pinjaman berjaminan bitcoin dan ether saat harga turun. Bitcoin diperdagangkan di sekitar <strong>US$68.000</strong> pada Jumat sore dan ether di sekitar <strong>US$1.920</strong>, keduanya turun lebih dari 4% dalam 24 jam.
+
+<strong>Nakamoto</strong> (NAKA), perusahaan bitcoin yang dipimpin David Bailey, berutang kepada bursa Kraken sebesar <strong>165 juta USDT</strong>, stablecoin yang dipatok ke dolar. Jumlah itu lebih besar dari sekitar US$104 juta nilai sahamnya pada penutupan Kamis, lapor [CoinDesk](L1). Secara terpisah, perusahaan treasury Ethereum <strong>BTCS</strong> mengatakan menjual ether di bawah harga belinya untuk menjauhkan pinjaman sekitar <strong>US$64 juta</strong> di aplikasi pinjaman Aave dari likuidasi, lapor [CoinDesk](L3).
+
+!takeaways
+- Nakamoto berutang 165 juta USDT ke Kraken, dijamin 3.030 dari 4.283 bitcoin miliknya per akhir September.
+- Perusahaan memindahkan 60 juta USDT utang dari 4 Desember 2026 ke 4 Desember 2027, sehingga tidak ada pokok utang yang jatuh tempo tahun ini.
+- BTCS berutang sekitar US$64,1 juta di Aave per 9 November, dijamin 46.676 ETH.
+- Menurut perhitungan CoinDesk, pinjaman BTCS bisa dilikuidasi jika ether turun ke sekitar US$1.717, dengan asumsi tidak ada hal lain yang berubah.
+
+## Nakamoto mengulur waktu
+
+Nakamoto mengambil pinjaman dari Kraken pada Desember lalu. Awalnya US$210 juta dengan bunga 8% per tahun, lapor CoinDesk. Sejak itu perusahaan menjual sebagian bitcoin dan melunasi sebagian utang, sehingga tersisa 165 juta USDT.
+
+Pada Kamis, Nakamoto [mengumumkan](L2) telah mengubah perjanjiannya. Dari total utang, 60 juta USDT yang jatuh tempo pada 4 Desember 2026 kini jatuh tempo pada <strong>4 Desember 2027</strong>. Sisanya, 105 juta USDT, tetap jatuh tempo pada 30 Juni 2027. "Perubahan ini memperpanjang ruang gerak kami dan membuat posisi jaminan kami lebih tangguh," kata Tyler Evans, kepala investasi Nakamoto.
+
+!figure:chart
+
+Bantalannya kini lebih tipis. Laporan kuartalan Nakamoto menunjukkan 3.030 bitcoin dijaminkan ke Kraken pada akhir September. Pada harga sedikit di bawah US$69.000, koin itu bernilai sekitar <strong>US$208 juta</strong>, atau kira-kira 126% dari utang, menurut hitungan CoinDesk. Jika nilai itu turun di bawah level tertentu, Nakamoto harus melunasi sebagian pinjaman, menambah bitcoin sebagai jaminan, atau keduanya. Perusahaan masih memiliki sekitar 1.253 bitcoin yang tidak dijaminkan. Berdasarkan ketentuan baru, Kraken juga akan menghitung nilai bersih opsi bitcoin dan derivatif lain milik Nakamoto sebagai jaminan, tetapi tidak pernah di bawah nol.
+
+## BTCS menjual ether dengan rugi
+
+BTCS meminjam di <strong>Aave</strong>, aplikasi pinjaman terdesentralisasi yang berjalan dengan kode, bukan petugas kredit. Aave memberi setiap pinjaman "faktor kesehatan" yang membandingkan jaminan dengan utang. Jika skor itu turun di bawah 1, protokol dapat otomatis menjual sebagian jaminan untuk melunasi pinjaman. Penjualan paksa itu disebut likuidasi.
+
+!mid_cta
+
+Menurut laporan kuartalannya, BTCS berutang sekitar US$64,1 juta, termasuk bunga, per 9 November. Utang itu dijamin 46.676 ETH senilai US$99,3 juta dengan harga ether yang dipakai perusahaan, US$2.127. BTCS mengatakan menjual ether "pada harga di bawah biaya perolehan awal" untuk mengelola kesehatan pinjamannya, tetapi tidak menyebut jumlahnya. Perusahaan tidak melaporkan likuidasi hingga 11 November, lapor [crypto.news](L4).
+
+!figure:fact
+
+CoinDesk menghitung bahwa, berdasarkan angka 9 November, likuidasi bisa dimulai di dekat <strong>US$1.717 per ether</strong>, sekitar 12% di bawah harga ether pada Jumat pagi. Posisi perusahaan mungkin sudah berubah sejak itu. BTCS juga hanya memiliki sekitar US$463.000 kas pada akhir September, lapor CoinDesk.
+
+## Artinya bagi pemula
+
+Kedua kisah ini memberi pelajaran yang sama: meminjam dengan jaminan kripto menambah risiko kedua di atas naik turunnya harga. Saat harga turun, pemberi pinjaman bisa meminta jaminan tambahan atau menjual koin Anda, sering kali pada saat terburuk. Perusahaan bisa bernegosiasi ulang dengan pemberi pinjaman atau membeli opsi sebagai lindung nilai, seperti yang dilakukan Nakamoto. Sebagian besar individu tidak bisa.
+
+Jika Anda baru mulai, cara paling sederhana adalah membeli hanya sebanyak yang bisa Anda simpan tanpa meminjam. Bursa AS yang teregulasi seperti [Coinbase](REF) memungkinkan pembelian dalam jumlah kecil dengan rekening bank; periksa dulu biaya dan ketentuan terbarunya. Ini bukan saran investasi.
+
+## Yang perlu dipantau
+
+- Apakah bitcoin bertahan di sekitar US$68.000, yang menentukan seberapa besar bantalan dari koin yang dijaminkan Nakamoto.
+- Harga ether dibandingkan level sekitar US$1.717 yang disorot CoinDesk untuk BTCS.
+- Laporan baru dari perusahaan treasury kripto lain soal pinjaman, penjualan koin, atau permintaan tambahan jaminan.
+- Tanggal jatuh tempo Nakamoto berikutnya, 30 Juni 2027, untuk 105 juta USDT.
+
+!soft: Lebih suka membeli sedikit demi sedikit daripada meminjam? Baca panduan kami tentang [pembelian rutin (DCA) untuk pemula](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

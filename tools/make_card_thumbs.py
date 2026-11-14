@@ -736,6 +736,52 @@ def thumb_dtcc_solana():
     ],"note":"Editorial composite; trademarks belong to their owners."}
 
 
+KRAKEN_ICON = "https://assets-cms.kraken.com/images/51n36hrp/facade/c8a90889d470969a2f7864a0bfa1814c28b21310-1024x1024.svg"
+
+def thumb_payward_q3():
+    icon = fetch(KRAKEN_ICON, CACHE/"kraken-app-icon-purple.svg")
+    base = gradient_bg()
+    d = ImageDraw.Draw(base)
+    paste_contain(base, Image.open(icon).convert("RGBA"), (60, 80, 200, 200), pad=0)
+    # Payward Q3 2026 financial highlights (Nov 13, 2026)
+    rows = [("Volume", "$353B", "-30% vs. Q3 2025"), ("Funded accounts", "7.1M", "+37% vs. Q3 2025"), ("Adj. EBITDA", "$60M", "vs. $178.6M a year ago")]
+    fb, fs = font(FONT_B, 30), font(FONT_R, 15)
+    for i, (k, v, sub) in enumerate(rows):
+        y = 74 + i * 72
+        d.text((300, y), k.upper(), font=font(FONT_B, 13), fill=MUTED)
+        d.text((300, y + 16), v, font=fb, fill=WHITE)
+        vw = d.textlength(v, font=fb)
+        d.text((300 + vw + 14, y + 28), sub, font=fs, fill=ORANGE if sub.startswith("+") else (248, 113, 113) if sub.startswith("-") else MUTED)
+    label_chip(base, "Kraken · Q3 2026 results")
+    return base, {"kind":"composite","sources":[
+        {"file":"Kraken app icon (SVG)","license":"Official press asset","url":"https://www.kraken.com/press/kraken-images","credit":"Kraken / Payward"},
+        {"file":"Payward Q3 2026 financial highlights","license":"Figures cited","url":"https://www.payward.com/press-release/payward-q3-2026-financial-highlights","credit":"Payward"},
+    ],"note":"Editorial composite; trademarks belong to their owners."}
+
+
+def thumb_treasury_loans():
+    btc = fetch("https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg", CACHE/"bitcoin-logo.svg")
+    eth = fetch("https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg", CACHE/"ethereum-logo-2014.svg")
+    base = gradient_bg()
+    d = ImageDraw.Draw(base)
+    for logo, x in [(btc, 120), (eth, 350)]:
+        disc = Image.new("RGBA", (170, 170), (0, 0, 0, 0))
+        ImageDraw.Draw(disc).ellipse([0, 0, 169, 169], fill=(255, 255, 255, 255))
+        base.paste(disc.convert("RGB"), (x, 62), disc)
+        paste_contain(base, Image.open(logo).convert("RGBA"), (x, 62, 170, 170), pad=22)
+    # padlock-style chain between the coins
+    cx, cy = 320, 147
+    for k in (-14, 14):
+        d.ellipse([cx + k - 16, cy - 10, cx + k + 16, cy + 10], outline=ORANGE, width=4)
+    f = font(FONT_B, 18); t = "Coins pledged as loan collateral"
+    bb = d.textbbox((0, 0), t, font=f); d.text(((W - (bb[2] - bb[0])) // 2, 262), t, font=f, fill=WHITE)
+    label_chip(base, "Crypto treasury firms")
+    return base, {"kind":"composite","sources":[
+        {"file":"Bitcoin.svg","license":"Public domain","url":"https://commons.wikimedia.org/wiki/File:Bitcoin.svg","credit":"Bitcoin logo"},
+        {"file":"Ethereum_logo_2014.svg","license":"CC BY 3.0","url":"https://commons.wikimedia.org/wiki/File:Ethereum_logo_2014.svg","credit":"Ethereum Foundation"},
+    ],"note":"Editorial composite; trademarks belong to their owners."}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -763,6 +809,8 @@ BUILDERS = {
     "trump-nominates-sec-cftc-commissioners-peirce-nov-2026": thumb_sec_cftc_nominees,
     "illinois-crypto-tax-doj-defi-challenge-nov-2026": thumb_illinois_tax,
     "dtcc-tokenized-stocks-solana-2027-nov-2026": thumb_dtcc_solana,
+    "kraken-payward-q3-2026-results-nov-2026": thumb_payward_q3,
+    "crypto-treasury-firms-loans-nakamoto-btcs-nov-2026": thumb_treasury_loans,
 }
 
 def first_figure_source(slug: str) -> Path | None:

@@ -1,0 +1,62 @@
+title: Kraken parent Payward's earnings drop two-thirds from a year ago as crypto trading cools
+page_title: Kraken parent Payward Q3 2026 results explained
+description: Payward, the company behind the Kraken crypto exchange, reported $60 million in third-quarter adjusted EBITDA, down about two-thirds from a year earlier, as trading volume fell 30%. Here is what the numbers mean.
+og_description: Kraken's parent company earned $60 million in adjusted EBITDA in Q3 2026, down from $178.6 million a year earlier. Trading volume fell 30% from a year ago, but funded accounts grew 37% to 7.1 million.
+label: Business
+summary: Kraken's parent Payward said Q3 adjusted EBITDA fell to $60 million from $178.6 million a year earlier as trading slowed, while funded accounts rose 37% to 7.1 million.
+===
+
+Payward, the private company that owns the <strong>Kraken</strong> crypto exchange, released its third-quarter results on Friday, Nov. 13. The headline: a quieter crypto market hit its earnings hard. Adjusted EBITDA, a common measure of operating profit, came in at <strong>$60 million</strong>, down from <strong>$178.6 million</strong> a year earlier, a drop of about two-thirds, [The Block](L2) reported.
+
+There was a bright spot. Compared with the second quarter, most numbers improved. Adjusted EBITDA was up from $23 million in Q2, and the company's main income measure grew 12% from the previous quarter, according to Payward's [financial highlights](L1).
+
+!takeaways
+- Payward's adjusted EBITDA was $60 million in Q3 2026, up from $23 million in Q2 but down from $178.6 million a year earlier.
+- Total platform margin, its new headline income measure, was $487 million, down 12% from a year ago and up 12% from Q2.
+- Customers traded $353 billion across its platforms, 30% less than a year earlier.
+- Funded accounts grew 37% from a year earlier to 7.1 million.
+
+## The numbers in plain English
+
+Payward changed how it reports this quarter. Instead of "adjusted revenue," it now leads with <strong>total platform margin</strong> (TPM). In simple terms, TPM is the money Payward keeps after paying out trading costs and the staking rewards it passes on to customers. TPM was <strong>$487 million</strong> in the quarter, down 12% from a year earlier but up from $436 million in the second quarter.
+
+Trading activity is the main reason for the drop. Customers traded <strong>$353 billion</strong> across Payward's platforms in the quarter. That was up 22% from the second quarter but down 30% from the same period last year. When prices are calm or falling, fewer people trade, and exchanges earn fewer fees.
+
+!figure:chart
+
+Kraken is not alone. [CoinDesk](L3) noted that Coinbase's third-quarter revenue fell 35% from a year earlier and that Gemini reported a 19% revenue decline, a sign of how much the whole exchange business depends on trading.
+
+## More customers, less trading
+
+The customer numbers moved the other way. Payward said it had <strong>7.1 million funded accounts</strong> at the end of September, meaning accounts with a balance above zero. That is up 37% from a year earlier. One person can hold more than one account, so this is not a count of unique customers.
+
+Payward is also trying to earn more money that does not depend on trading. Income earned over time on assets customers keep with Payward, plus fees for access to products, data and services, made up 52% of TPM, up from 46% a year earlier. Assets held on its platforms averaged $43 billion during the quarter, down 21% from a year earlier, largely because crypto prices are lower.
+
+!mid_cta
+
+## What Kraken plans next
+
+The company listed a long to-do list. For U.S. customers, it plans to offer <strong>prediction markets</strong>, though it gave no launch date, The Block reported. It also wants to offer stock perpetual futures through its own regulator-approved futures exchange and broker, settle U.S. dollar wires through its own Federal Reserve master account and test a U.S. credit card.
+
+Its tokenized stock product, xStocks, passed $1 billion in assets in October and now offers more than 700 tokenized stocks, Payward said. It also plans a <strong>personal finance AI agent</strong>. Payward said the agent will act only within limits set by the customer, and customers will have to approve a trade or workflow before it runs.
+
+!figure:fact
+
+## What it means for beginners
+
+For people who simply hold crypto on Kraken, these results do not change anything day to day. Payward also said it completed its latest quarterly proof of reserves as of Sept. 30, a report meant to show that customer assets are backed. Still, it is a reminder that crypto exchanges are businesses whose profits rise and fall with the market.
+
+When choosing where to buy, beginners can look at things like regulation, fees and security features rather than headlines about earnings. If you are comparing U.S. platforms, [Coinbase](REF) is another regulated option; check its current fees and terms before you sign up. Only invest what you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Whether crypto trading volumes keep recovering in the fourth quarter after a weak start to November.
+- Launch dates for Kraken's planned U.S. prediction markets and stock perpetual futures, which need regulatory approval.
+- Updates on the personal finance AI agent and the agent tools Payward expects to start offering early next year.
+- Fourth-quarter results from Coinbase and Gemini for comparison.
+
+!soft: Not sure how exchanges keep your coins? Read our explainer on [custodial vs. self-custody wallets](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

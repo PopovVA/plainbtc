@@ -1,0 +1,62 @@
+title: Kraken'in ana şirketi Payward'ın kârı, kripto işlemleri yavaşlarken bir yılda üçte iki düştü
+page_title: Kraken'in ana şirketi Payward'ın 2026 3. çeyrek sonuçları
+description: Kraken kripto borsasının arkasındaki şirket Payward, üçüncü çeyrekte 60 milyon $ düzeltilmiş FAVÖK açıkladı. Bu, bir yıl öncesine göre yaklaşık üçte iki daha az; işlem hacmi de %30 düştü. Rakamların ne anlama geldiğini anlatıyoruz.
+og_description: Kraken'in ana şirketi 2026'nın 3. çeyreğinde 60 milyon $ düzeltilmiş FAVÖK elde etti; bir yıl önce bu rakam 178,6 milyon $ idi. İşlem hacmi yıllık %30 düştü, ancak bakiyeli hesaplar %37 artarak 7,1 milyona çıktı.
+label: İş dünyası
+summary: Kraken'in ana şirketi Payward, işlemlerin azalmasıyla 3. çeyrek düzeltilmiş FAVÖK'ünün bir yıl önceki 178,6 milyon $'dan 60 milyon $'a düştüğünü, bakiyeli hesapların ise %37 artarak 7,1 milyona çıktığını açıkladı.
+===
+
+<strong>Kraken</strong> kripto borsasının sahibi olan halka açık olmayan şirket Payward, 13 Kasım Cuma günü üçüncü çeyrek sonuçlarını yayımladı. Öne çıkan nokta: daha sakin bir kripto piyasası kârı sert biçimde vurdu. Faaliyet kârının yaygın bir ölçüsü olan düzeltilmiş FAVÖK, bir yıl önceki <strong>178,6 milyon $</strong> seviyesinden <strong>60 milyon $</strong>'a geriledi. [The Block](L2)'un aktardığına göre bu, yaklaşık üçte ikilik bir düşüş.
+
+Olumlu bir taraf da vardı. İkinci çeyrekle karşılaştırıldığında rakamların çoğu iyileşti. Payward'ın [finansal özetine](L1) göre düzeltilmiş FAVÖK ikinci çeyrekteki 23 milyon $'dan yükseldi ve şirketin ana gelir ölçüsü bir önceki çeyreğe göre %12 arttı.
+
+!takeaways
+- Payward'ın 2026 3. çeyrek düzeltilmiş FAVÖK'ü 60 milyon $ oldu; bu, 2. çeyrekteki 23 milyon $'ın üzerinde ama bir yıl önceki 178,6 milyon $'ın çok altında.
+- Yeni ana gelir ölçüsü olan toplam platform marjı 487 milyon $ oldu; bir yıl öncesine göre %12 düştü, 2. çeyreğe göre %12 arttı.
+- Müşteriler şirketin platformlarında 353 milyar $'lık işlem yaptı; bu, bir yıl öncesinden %30 az.
+- Bakiyeli hesap sayısı bir yılda %37 artarak 7,1 milyona ulaştı.
+
+## Rakamlar sade bir dille
+
+Payward bu çeyrekte raporlama biçimini değiştirdi. Artık "düzeltilmiş gelir" yerine <strong>toplam platform marjını</strong> (TPM) öne çıkarıyor. Basitçe söylemek gerekirse TPM, işlem maliyetleri ve müşterilere aktarılan staking ödülleri ödendikten sonra Payward'da kalan para. TPM çeyrekte <strong>487 milyon $</strong> oldu; bir yıl öncesinden %12 düşük ama ikinci çeyrekteki 436 milyon $'ın üzerinde.
+
+Düşüşün ana nedeni işlem hareketliliği. Müşteriler çeyrek boyunca Payward platformlarında <strong>353 milyar $</strong>'lık işlem yaptı. Bu, ikinci çeyreğe göre %22 fazla ama geçen yılın aynı dönemine göre %30 az. Fiyatlar durgun olduğunda ya da düştüğünde insanlar daha az işlem yapar ve borsalar daha az komisyon kazanır.
+
+!figure:chart
+
+Bu durum yalnızca Kraken'e özgü değil. [CoinDesk](L3), Coinbase'in üçüncü çeyrek gelirinin yıllık %35 düştüğünü ve Gemini'nin gelirinde %19'luk bir düşüş bildirdiğini belirtti. Bu da tüm borsa işinin işlem hacmine ne kadar bağlı olduğunu gösteriyor.
+
+## Daha fazla müşteri, daha az işlem
+
+Müşteri rakamları ise ters yönde ilerledi. Payward, eylül sonunda <strong>7,1 milyon bakiyeli hesabı</strong>, yani bakiyesi sıfırın üzerinde olan hesabı bulunduğunu söyledi. Bu, bir yıl öncesine göre %37 fazla. Bir kişinin birden fazla hesabı olabileceği için bu sayı tekil müşteri sayısı değil.
+
+Payward işlem hacmine bağlı olmayan gelirlerini de artırmaya çalışıyor. Müşterilerin Payward'da tuttuğu varlıklardan zaman içinde elde edilen gelir ile ürünlere, verilere ve hizmetlere erişim ücretleri TPM'nin %52'sini oluşturdu; bir yıl önce bu oran %46 idi. Platformlardaki varlıklar çeyrekte ortalama 43 milyar $ oldu. Bu, büyük ölçüde kripto fiyatlarının düşmesi nedeniyle bir yıl öncesine göre %21 daha az.
+
+!mid_cta
+
+## Kraken'in sıradaki planları
+
+Şirket uzun bir yapılacaklar listesi paylaştı. The Block'a göre ABD'li müşteriler için <strong>tahmin piyasaları</strong> sunmayı planlıyor, ancak bir başlangıç tarihi vermedi. Ayrıca düzenleyici onaylı kendi vadeli işlem borsası ve aracı kurumu üzerinden hisse senedi vadesiz vadeli işlemleri sunmak, ABD doları havalelerini Federal Rezerv'deki kendi ana hesabı üzerinden yapmak ve ABD'de bir kredi kartını test etmek istiyor.
+
+Payward'a göre tokenize hisse ürünü xStocks, ekimde 1 milyar $ varlığı aştı ve şu anda 700'den fazla tokenize hisse sunuyor. Şirket ayrıca bir <strong>kişisel finans yapay zekâ ajanı</strong> planlıyor. Payward, ajanın yalnızca müşterinin belirlediği sınırlar içinde hareket edeceğini ve müşterilerin bir işlemi ya da iş akışını çalışmadan önce onaylaması gerekeceğini söyledi.
+
+!figure:fact
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Kripto varlıklarını yalnızca Kraken'de tutanlar için bu sonuçlar günlük hayatta hiçbir şeyi değiştirmiyor. Payward ayrıca 30 Eylül itibarıyla son üç aylık rezerv kanıtını tamamladığını söyledi. Bu rapor, müşteri varlıklarının karşılığının bulunduğunu göstermeyi amaçlıyor. Yine de sonuçlar, kripto borsalarının kârı piyasayla birlikte inip çıkan şirketler olduğunu hatırlatıyor.
+
+Nereden alım yapacaklarını seçerken yeni başlayanlar kâr haberlerinden çok düzenlemeye, ücretlere ve güvenlik özelliklerine bakabilir. ABD platformları arasında [Coinbase](REF) de düzenlemeye tabi bir seçenek; kaydolmadan önce güncel ücretlerini ve koşullarını kontrol edin. Yalnızca kaybetmeyi göze alabileceğiniz kadar yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Nelere dikkat etmeli
+
+- Kasım ayının zayıf başlangıcının ardından kripto işlem hacimlerinin 4. çeyrekte toparlanmaya devam edip etmeyeceği.
+- Kraken'in ABD'de planladığı ve düzenleyici onayı gerektiren tahmin piyasaları ile hisse vadesiz vadeli işlemlerinin başlangıç tarihleri.
+- Kişisel finans yapay zekâ ajanı ve Payward'ın gelecek yılın başında sunmaya başlamayı beklediği ajan araçlarıyla ilgili gelişmeler.
+- Karşılaştırma için Coinbase ve Gemini'nin 4. çeyrek sonuçları.
+
+!soft: Borsaların coinlerinizi nasıl sakladığından emin değil misiniz? [Emanetli cüzdanlar ve kendi kendine saklama](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) rehberimizi okuyun.
+
+!end_cta
+
+!disclosure

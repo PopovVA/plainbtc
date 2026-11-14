@@ -1,0 +1,62 @@
+title: Gewinn der Kraken-Mutter Payward sinkt binnen eines Jahres um zwei Drittel, weil der Kryptohandel abkühlt
+page_title: Kraken-Mutter Payward: Zahlen zum dritten Quartal 2026
+description: Payward, das Unternehmen hinter der Kryptobörse Kraken, meldet für das dritte Quartal ein bereinigtes EBITDA von 60 Mio. $, rund zwei Drittel weniger als ein Jahr zuvor, bei 30 % weniger Handelsvolumen. Das bedeuten die Zahlen.
+og_description: Die Kraken-Mutter erzielte im 3. Quartal 2026 ein bereinigtes EBITDA von 60 Mio. $ nach 178,6 Mio. $ ein Jahr zuvor. Das Handelsvolumen sank im Jahresvergleich um 30 %, die Zahl der Konten mit Guthaben stieg aber um 37 % auf 7,1 Millionen.
+label: Unternehmen
+summary: Die Kraken-Mutter Payward meldet ein bereinigtes EBITDA von 60 Mio. $ im 3. Quartal nach 178,6 Mio. $ ein Jahr zuvor, weil weniger gehandelt wurde. Die Zahl der Konten mit Guthaben stieg um 37 % auf 7,1 Millionen.
+===
+
+Payward, das nicht börsennotierte Unternehmen hinter der Kryptobörse <strong>Kraken</strong>, hat am Freitag, dem 13. November, seine Zahlen für das dritte Quartal vorgelegt. Die Kernaussage: Ein ruhigerer Kryptomarkt hat den Gewinn stark belastet. Das bereinigte EBITDA, ein gängiges Maß für den operativen Gewinn, lag bei <strong>60 Mio. $</strong> nach <strong>178,6 Mio. $</strong> ein Jahr zuvor, ein Rückgang um rund zwei Drittel, wie [The Block](L2) berichtete.
+
+Es gab aber auch Lichtblicke. Im Vergleich zum zweiten Quartal haben sich die meisten Kennzahlen verbessert. Das bereinigte EBITDA stieg von 23 Mio. $ im zweiten Quartal, und die wichtigste Ertragskennzahl des Unternehmens wuchs gegenüber dem Vorquartal um 12 %, wie aus Paywards [Finanzübersicht](L1) hervorgeht.
+
+!takeaways
+- Paywards bereinigtes EBITDA betrug im 3. Quartal 2026 60 Mio. $, mehr als die 23 Mio. $ im 2. Quartal, aber deutlich weniger als die 178,6 Mio. $ ein Jahr zuvor.
+- Die gesamte Plattformmarge, die neue zentrale Ertragskennzahl, lag bei 487 Mio. $, 12 % weniger als vor einem Jahr und 12 % mehr als im 2. Quartal.
+- Kunden handelten auf den Plattformen 353 Mrd. $, 30 % weniger als ein Jahr zuvor.
+- Die Zahl der Konten mit Guthaben stieg im Jahresvergleich um 37 % auf 7,1 Millionen.
+
+## Die Zahlen einfach erklärt
+
+Payward hat in diesem Quartal seine Berichterstattung umgestellt. Statt „bereinigter Umsatz“ steht nun die <strong>gesamte Plattformmarge</strong> (Total Platform Margin, TPM) im Vordergrund. Vereinfacht gesagt ist die TPM das Geld, das Payward behält, nachdem Handelskosten und die an Kunden weitergegebenen Staking-Belohnungen bezahlt sind. Die TPM lag im Quartal bei <strong>487 Mio. $</strong>, 12 % weniger als ein Jahr zuvor, aber mehr als die 436 Mio. $ im zweiten Quartal.
+
+Hauptgrund für den Rückgang ist die Handelsaktivität. Kunden handelten im Quartal <strong>353 Mrd. $</strong> auf Paywards Plattformen. Das waren 22 % mehr als im zweiten Quartal, aber 30 % weniger als im Vorjahreszeitraum. Wenn die Kurse ruhig sind oder fallen, wird weniger gehandelt, und Börsen verdienen weniger Gebühren.
+
+!figure:chart
+
+Kraken ist damit nicht allein. [CoinDesk](L3) wies darauf hin, dass der Umsatz von Coinbase im dritten Quartal im Jahresvergleich um 35 % sank und Gemini einen Umsatzrückgang von 19 % meldete, ein Zeichen dafür, wie stark die gesamte Börsenbranche vom Handel abhängt.
+
+## Mehr Kunden, weniger Handel
+
+Die Kundenzahlen entwickelten sich in die andere Richtung. Payward meldete Ende September <strong>7,1 Millionen Konten mit Guthaben</strong>, also Konten mit einem Saldo über null. Das sind 37 % mehr als ein Jahr zuvor. Eine Person kann mehrere Konten haben, es handelt sich also nicht um die Zahl einzelner Kunden.
+
+Payward will außerdem mehr Geld verdienen, das nicht vom Handel abhängt. Erträge, die mit der Zeit auf die bei Payward gehaltenen Kundenvermögen anfallen, sowie Gebühren für den Zugang zu Produkten, Daten und Dienstleistungen machten 52 % der TPM aus, nach 46 % ein Jahr zuvor. Das Vermögen auf den Plattformen lag im Quartal im Schnitt bei 43 Mrd. $, 21 % weniger als ein Jahr zuvor, vor allem weil die Kryptokurse niedriger sind.
+
+!mid_cta
+
+## Was Kraken als Nächstes plant
+
+Das Unternehmen nannte eine lange Liste an Vorhaben. Für US-Kunden plant es <strong>Prognosemärkte</strong>, nannte laut The Block aber kein Startdatum. Außerdem will es unbefristete Futures auf Aktien über eine eigene, behördlich zugelassene Terminbörse und einen eigenen Broker anbieten, US-Dollar-Überweisungen über ein eigenes Hauptkonto bei der Federal Reserve abwickeln und eine US-Kreditkarte testen.
+
+Das Produkt für tokenisierte Aktien, xStocks, überschritt im Oktober 1 Mrd. $ an verwaltetem Vermögen und umfasst inzwischen mehr als 700 tokenisierte Aktien, so Payward. Geplant ist zudem ein <strong>KI-Agent für persönliche Finanzen</strong>. Laut Payward soll der Agent nur innerhalb der vom Kunden gesetzten Grenzen handeln, und Kunden müssen einen Trade oder Arbeitsablauf genehmigen, bevor er ausgeführt wird.
+
+!figure:fact
+
+## Was das für Einsteiger bedeutet
+
+Wer Krypto einfach bei Kraken aufbewahrt, für den ändern diese Zahlen im Alltag nichts. Payward erklärte außerdem, seinen jüngsten vierteljährlichen Reservennachweis zum 30. September abgeschlossen zu haben, einen Bericht, der zeigen soll, dass Kundenvermögen gedeckt sind. Dennoch erinnern die Zahlen daran, dass Kryptobörsen Unternehmen sind, deren Gewinne mit dem Markt steigen und fallen.
+
+Bei der Wahl einer Plattform können Einsteiger eher auf Regulierung, Gebühren und Sicherheitsfunktionen achten als auf Schlagzeilen über Gewinne. Unter den US-Plattformen ist [Coinbase](REF) eine weitere regulierte Option; prüfen Sie vor der Anmeldung die aktuellen Gebühren und Bedingungen. Investieren Sie nur, was Sie sich leisten können zu verlieren. Dies ist keine Anlageberatung.
+
+## Worauf man achten sollte
+
+- Ob sich die Handelsvolumina im 4. Quartal nach einem schwachen Novemberstart weiter erholen.
+- Startdaten für Krakens geplante US-Prognosemärkte und unbefristete Aktien-Futures, die eine behördliche Genehmigung brauchen.
+- Neuigkeiten zum KI-Agenten für persönliche Finanzen und zu den Agenten-Werkzeugen, die Payward Anfang nächsten Jahres anbieten will.
+- Die Zahlen von Coinbase und Gemini für das 4. Quartal zum Vergleich.
+
+!soft: Sie wissen nicht genau, wie Börsen Ihre Coins verwahren? Lesen Sie unseren Ratgeber zu [verwahrten Wallets und Selbstverwahrung](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

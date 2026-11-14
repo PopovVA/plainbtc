@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 00:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Düşen fiyatlar kripto hazine şirketlerini sıkıştırıyor: Nakamoto'nun Kraken'e 165 milyon $ borcu var, BTCS bir krediyi korumak için ether satıyor</title>
+      <link>https://plainbtc.com/tr/articles/crypto-treasury-firms-loans-nakamoto-btcs-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/crypto-treasury-firms-loans-nakamoto-btcs-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 00:30:00 GMT</pubDate>
+      <category>Piyasalar</category>
+      <description>Nakamoto'nun bitcoin teminatlı 165 milyon $'lık Kraken borcu var ve ödemeleri 2027'ye erteledi; BTCS ise Aave'deki 64 milyon $'lık kredisini güvene almak için zararına ether sattı.</description>
+    </item>
+    <item>
+      <title>Kraken'in ana şirketi Payward'ın kârı, kripto işlemleri yavaşlarken bir yılda üçte iki düştü</title>
+      <link>https://plainbtc.com/tr/articles/kraken-payward-q3-2026-results-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/kraken-payward-q3-2026-results-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 00:30:00 GMT</pubDate>
+      <category>İş dünyası</category>
+      <description>Kraken'in ana şirketi Payward, işlemlerin azalmasıyla 3. çeyrek düzeltilmiş FAVÖK'ünün bir yıl önceki 178,6 milyon $'dan 60 milyon $'a düştüğünü, bakiyeli hesapların ise %37 artarak 7,1 milyona çıktığını açıkladı.</description>
+    </item>
     <item>
       <title>ABD Adalet Bakanlığı, Wall Street ve DeFi şirketleri Illinois'in %0,2'lik kripto vergisine karşı açılan davayı destekliyor</title>
       <link>https://plainbtc.com/tr/articles/illinois-crypto-tax-doj-defi-challenge-nov-2026</link>

@@ -1,0 +1,58 @@
+title: Fallende Kurse setzen Krypto-Treasury-Firmen unter Druck: Nakamoto schuldet Kraken 165 Mio. $, BTCS verkauft Ether zum Schutz eines Kredits
+page_title: Krypto-Treasury-Firmen unter Kreditdruck: Nakamoto und BTCS
+description: Die Bitcoin-Firma Nakamoto schuldet Kraken 165 Mio. USDT, mehr als ihr Börsenwert, und die Ethereum-Treasury-Firma BTCS verkaufte Ether mit Verlust, um einen Aave-Kredit über 64 Mio. $ zu schützen. So funktionieren kryptobesicherte Kredite.
+og_description: Mit Bitcoin bei rund 68.000 $ und Ether unter 2.000 $ managen zwei börsennotierte Krypto-Treasury-Firmen Kredite, die mit ihren Coins besichert sind. Nakamoto schob seine Schulden ins Jahr 2027; BTCS verkaufte Ether unter Einstandspreis, um Abstand zur Liquidation zu halten.
+label: Märkte
+summary: Nakamoto schuldet Kraken 165 Mio. $, besichert mit Bitcoin, und hat Rückzahlungen ins Jahr 2027 verschoben, während BTCS Ether mit Verlust verkaufte, um einen Aave-Kredit über 64 Mio. $ abzusichern.
+===
+
+Der Krypto-Ausverkauf stellt Unternehmen auf die Probe, die sich gegen ihre Coins Geld geliehen haben. Zwei in den USA börsennotierte „Treasury“-Firmen, also Unternehmen, deren Hauptgeschäft das Halten von Kryptowährungen ist, legten diese Woche offen, wie sie mit Bitcoin und Ether besicherte Kredite bei fallenden Kursen managen. Bitcoin notierte am Freitagnachmittag bei rund <strong>68.000 $</strong> und Ether bei rund <strong>1.920 $</strong>, beide mehr als 4 % tiefer als 24 Stunden zuvor.
+
+<strong>Nakamoto</strong> (NAKA), die von David Bailey geführte Bitcoin-Firma, schuldet der Börse Kraken <strong>165 Mio. USDT</strong>, einen an den Dollar gekoppelten Stablecoin. Das ist mehr als die rund 104 Mio. $, die ihre Aktien zum Handelsschluss am Donnerstag wert waren, wie [CoinDesk](L1) berichtete. Unabhängig davon erklärte die Ethereum-Treasury-Firma <strong>BTCS</strong>, sie habe Ether unter Einstandspreis verkauft, um einen Kredit über rund <strong>64 Mio. $</strong> bei der Kredit-App Aave von der Liquidation fernzuhalten, so [CoinDesk](L3).
+
+!takeaways
+- Nakamoto schuldet Kraken 165 Mio. USDT, besichert mit 3.030 seiner 4.283 Bitcoin (Stand Ende September).
+- Die Firma verschob 60 Mio. USDT der Schulden vom 4. Dezember 2026 auf den 4. Dezember 2027, sodass in diesem Jahr keine Tilgung fällig ist.
+- BTCS schuldete Aave am 9. November rund 64,1 Mio. $, besichert mit 46.676 ETH.
+- Laut CoinDesk-Berechnung könnte der BTCS-Kredit liquidiert werden, wenn Ether auf rund 1.717 $ fällt, sofern sich sonst nichts ändert.
+
+## Nakamoto verschafft sich Zeit
+
+Nakamoto nahm den Kredit bei Kraken im vergangenen Dezember auf. Er begann laut CoinDesk mit 210 Mio. $ und 8 % Zinsen pro Jahr. Seitdem verkaufte die Firma einige Bitcoin und zahlte einen Teil der Schulden zurück, sodass noch 165 Mio. USDT offen sind.
+
+Am Donnerstag [gab Nakamoto bekannt](L2), die Vereinbarung geändert zu haben. Von der Gesamtsumme werden 60 Mio. USDT, die am 4. Dezember 2026 fällig waren, nun erst am <strong>4. Dezember 2027</strong> fällig. Die übrigen 105 Mio. USDT sind weiterhin am 30. Juni 2027 fällig. „Diese Änderung verlängert unseren finanziellen Spielraum und macht unsere Sicherheitenposition widerstandsfähiger“, sagte Tyler Evans, Chief Investment Officer von Nakamoto.
+
+!figure:chart
+
+Das Polster ist dünner geworden. Laut Nakamotos Quartalsbericht waren Ende September 3.030 Bitcoin an Kraken verpfändet. Bei einem Kurs knapp unter 69.000 $ sind diese Coins rund <strong>208 Mio. $</strong> wert, also etwa 126 % der Schulden, so die Rechnung von CoinDesk. Fällt dieser Wert unter eine festgelegte Grenze, muss Nakamoto einen Teil des Kredits zurückzahlen, mehr Bitcoin hinterlegen oder beides. Die Firma hat noch rund 1.253 unverpfändete Bitcoin. Nach den neuen Bedingungen rechnet Kraken auch den Nettowert von Nakamotos Bitcoin-Optionen und anderen Derivaten als Sicherheit an, aber nie unter null.
+
+## BTCS verkauft Ether mit Verlust
+
+BTCS hat sich bei <strong>Aave</strong> Geld geliehen, einer dezentralen Kredit-App, die mit Code statt mit Kreditberatern arbeitet. Aave vergibt für jeden Kredit einen „Health Factor“, der die Sicherheiten mit den Schulden vergleicht. Fällt dieser Wert unter 1, kann das Protokoll automatisch einen Teil der Sicherheiten verkaufen, um den Kredit zu tilgen. Dieser Zwangsverkauf heißt Liquidation.
+
+!mid_cta
+
+Laut Quartalsbericht schuldete BTCS am 9. November rund 64,1 Mio. $ einschließlich Zinsen. Die Schulden waren mit 46.676 ETH besichert, die beim von der Firma angesetzten Etherpreis von 2.127 $ 99,3 Mio. $ wert waren. BTCS erklärte, Ether „zu Preisen unter den ursprünglichen Anschaffungskosten“ verkauft zu haben, um die Gesundheit des Kredits zu steuern, nannte aber keine Menge. Bis zum 11. November meldete die Firma keine Liquidationen, berichtete [crypto.news](L4).
+
+!figure:fact
+
+CoinDesk berechnete, dass die Liquidation auf Basis der Zahlen vom 9. November bei rund <strong>1.717 $ je Ether</strong> beginnen könnte, etwa 12 % unter dem Etherkurs vom Freitagmorgen. Die Position der Firma kann sich seitdem verändert haben. BTCS hatte Ende September zudem nur rund 463.000 $ an Barmitteln, so CoinDesk.
+
+## Was das für Einsteiger bedeutet
+
+Beide Fälle zeigen dieselbe Lektion: Wer gegen Krypto Kredite aufnimmt, trägt zusätzlich zu den Kursschwankungen ein zweites Risiko. Fallen die Kurse, kann ein Kreditgeber mehr Sicherheiten verlangen oder Ihre Coins verkaufen, oft zum ungünstigsten Zeitpunkt. Unternehmen können mit Kreditgebern nachverhandeln oder Optionen zur Absicherung kaufen, wie Nakamoto es getan hat. Die meisten Privatpersonen können das nicht.
+
+Wer gerade anfängt, fährt am einfachsten, wenn er nur so viel kauft, wie er ohne Kredit halten kann. Eine regulierte US-Börse wie [Coinbase](REF) ermöglicht den Kauf kleiner Beträge per Bankkonto; prüfen Sie vorher die aktuellen Gebühren und Bedingungen. Dies ist keine Anlageberatung.
+
+## Worauf man achten sollte
+
+- Ob sich Bitcoin bei rund 68.000 $ hält, denn davon hängt das Polster der verpfändeten Nakamoto-Coins ab.
+- Den Etherkurs im Vergleich zu der von CoinDesk genannten Marke von rund 1.717 $ für BTCS.
+- Neue Pflichtmitteilungen anderer Krypto-Treasury-Firmen zu Krediten, Coin-Verkäufen oder Nachschussforderungen.
+- Nakamotos nächster Rückzahlungstermin am 30. Juni 2027 über 105 Mio. USDT.
+
+!soft: Lieber schrittweise kaufen statt Kredite aufnehmen? Lesen Sie unseren Ratgeber zum [Durchschnittskosteneffekt (DCA) für Einsteiger](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

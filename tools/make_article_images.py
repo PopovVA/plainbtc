@@ -2152,6 +2152,109 @@ def build_dtcc_solana():
     ]
 
 
+def build_payward_q3():
+    slug = "kraken-payward-q3-2026-results-nov-2026"
+    d = OUT / slug
+    # The Block (Nov 13, 2026): adjusted EBITDA $178.6M in Q3 2025, $23M in Q2 2026, $60M in Q3 2026 (Payward highlights).
+    chart = make_bar_chart(
+        d / "chart-payward-adjusted-ebitda",
+        ["Q3 2025", "Q2 2026", "Q3 2026"],
+        [178.6, 23, 60],
+        "Payward (Kraken) adjusted EBITDA by quarter, $ millions",
+        colors=["#60a5fa", "#94a3b8", "#f7931a"],
+        value_fmt=lambda v: f"${v:g}M",
+        axis_fmt=lambda x, _p: f"${x:,.0f}M",
+    )
+    # Payward Q3 2026 financial highlights (Nov 13, 2026).
+    card = make_fact_card(
+        d / "fact-payward-funded-accounts",
+        label="Kraken parent Payward, Q3 2026",
+        big="7.1 million",
+        sub="Funded accounts at the end of September, up 37% from a year earlier. Trading volume: $353 billion, down 30% from a year earlier.",
+        footer="Payward Q3 2026 financial highlights · Nov. 13, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of Payward's adjusted EBITDA: $178.6 million in Q3 2025, $23 million in Q2 2026 and $60 million in Q3 2026", {
+            "es": "Gráfico de barras del EBITDA ajustado de Payward: 178,6 millones de dólares en el tercer trimestre de 2025, 23 millones en el segundo trimestre de 2026 y 60 millones en el tercer trimestre de 2026",
+            "pt": "Gráfico de barras do EBITDA ajustado da Payward: US$ 178,6 milhões no 3º trimestre de 2025, US$ 23 milhões no 2º trimestre de 2026 e US$ 60 milhões no 3º trimestre de 2026",
+            "fr": "Graphique en barres de l'EBITDA ajusté de Payward : 178,6 millions de dollars au 3e trimestre 2025, 23 millions au 2e trimestre 2026 et 60 millions au 3e trimestre 2026",
+            "de": "Balkendiagramm des bereinigten EBITDA von Payward: 178,6 Mio. $ im 3. Quartal 2025, 23 Mio. $ im 2. Quartal 2026 und 60 Mio. $ im 3. Quartal 2026",
+            "ru": "Столбчатая диаграмма скорректированной EBITDA Payward: $178,6 млн в третьем квартале 2025 года, $23 млн во втором квартале 2026 года и $60 млн в третьем квартале 2026 года",
+            "tr": "Payward'ın düzeltilmiş FAVÖK'ünün çubuk grafiği: 2025'in 3. çeyreğinde 178,6 milyon $, 2026'nın 2. çeyreğinde 23 milyon $ ve 2026'nın 3. çeyreğinde 60 milyon $",
+            "id": "Grafik batang EBITDA yang disesuaikan Payward: US$178,6 juta pada kuartal III 2025, US$23 juta pada kuartal II 2026, dan US$60 juta pada kuartal III 2026",
+            "ja": "Paywardの調整後EBITDAの棒グラフ：2025年第3四半期は1億7860万ドル、2026年第2四半期は2300万ドル、2026年第3四半期は6000万ドル",
+            "ko": "페이워드 조정 EBITDA 막대 차트: 2025년 3분기 1억 7,860만 달러, 2026년 2분기 2,300만 달러, 2026년 3분기 6,000만 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Payward, The Block")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: Kraken parent Payward had 7.1 million funded accounts at the end of September 2026, up 37% from a year earlier; trading volume was $353 billion, down 30% from a year earlier", {
+            "es": "Tarjeta: Payward, matriz de Kraken, tenía 7,1 millones de cuentas con fondos a finales de septiembre de 2026, un 37% más que un año antes; el volumen negociado fue de 353.000 millones de dólares, un 30% menos que un año antes",
+            "pt": "Cartão: a Payward, controladora da Kraken, tinha 7,1 milhões de contas com saldo no fim de setembro de 2026, 37% a mais que um ano antes; o volume negociado foi de US$ 353 bilhões, 30% menor que um ano antes",
+            "fr": "Encadré : Payward, maison mère de Kraken, comptait 7,1 millions de comptes approvisionnés fin septembre 2026, soit 37 % de plus qu'un an plus tôt ; le volume de transactions a atteint 353 milliards de dollars, en baisse de 30 % sur un an",
+            "de": "Faktenkarte: Die Kraken-Mutter Payward hatte Ende September 2026 7,1 Millionen Konten mit Guthaben, 37 % mehr als ein Jahr zuvor; das Handelsvolumen lag bei 353 Mrd. $, 30 % weniger als ein Jahr zuvor",
+            "ru": "Карточка: у Payward, материнской компании Kraken, на конец сентября 2026 года было 7,1 млн пополненных счетов, на 37% больше, чем годом ранее; объем операций составил $353 млрд, на 30% меньше, чем годом ранее",
+            "tr": "Kart: Kraken'in ana şirketi Payward'ın Eylül 2026 sonunda 7,1 milyon bakiyeli hesabı vardı, bir yıl öncesine göre %37 fazla; işlem hacmi 353 milyar $ ile bir yıl öncesine göre %30 düştü",
+            "id": "Kartu fakta: Payward, induk Kraken, memiliki 7,1 juta akun berdana pada akhir September 2026, naik 37% dari setahun sebelumnya; volume transaksi US$353 miliar, turun 30% dari setahun sebelumnya",
+            "ja": "カード：Kraken親会社Paywardの残高のある口座数は2026年9月末で710万件、前年比37%増。取引高は3530億ドルで前年比30%減",
+            "ko": "카드: 크라켄 모회사 페이워드의 잔고 보유 계좌는 2026년 9월 말 710만 개로 1년 전보다 37% 증가, 거래량은 3,530억 달러로 1년 전보다 30% 감소",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Payward Q3 2026 financial highlights")},
+    ]
+
+
+def build_treasury_loans():
+    slug = "crypto-treasury-firms-loans-nakamoto-btcs-nov-2026"
+    d = OUT / slug
+    # CoinDesk (Nov 13, 2026): Nakamoto owes Kraken 165M USDT; pledged 3,030 BTC worth ~$208M at <$69K;
+    # market value ~$104M at Thursday close ($5.79/share).
+    chart = make_bar_chart(
+        d / "chart-nakamoto-loan-vs-collateral",
+        ["Owed to Kraken\n(165M USDT)", "Pledged bitcoin\n(3,030 BTC, approx.)", "Nakamoto stock\nmarket value (approx.)"],
+        [165, 208, 104],
+        "Nakamoto: loan vs. pledged bitcoin vs. company value, $ millions",
+        colors=["#f87171", "#f7931a", "#60a5fa"],
+        value_fmt=lambda v: f"${v:g}M" if v == 165 else f"about ${v:g}M",
+        axis_fmt=lambda x, _p: f"${x:,.0f}M",
+    )
+    # CoinDesk (Nov 13, 2026) calculation from BTCS's Nov. 9 figures.
+    card = make_fact_card(
+        d / "fact-btcs-aave-liquidation-line",
+        label="BTCS Aave loan",
+        big="About $1,717",
+        sub="Ether price near which BTCS's $64.1 million Aave loan could face liquidation, per CoinDesk's math from Nov. 9 data (46,676 ETH as collateral).",
+        footer="BTCS filing via CoinDesk · Nov. 13, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart: Nakamoto owes Kraken 165 million USDT, its 3,030 pledged bitcoin are worth about $208 million, and its stock market value is about $104 million", {
+            "es": "Gráfico de barras: Nakamoto debe a Kraken 165 millones de USDT, sus 3.030 bitcoins pignorados valen unos 208 millones de dólares y su valor en bolsa ronda los 104 millones",
+            "pt": "Gráfico de barras: a Nakamoto deve à Kraken 165 milhões de USDT, seus 3.030 bitcoins dados em garantia valem cerca de US$ 208 milhões e seu valor de mercado na bolsa é de cerca de US$ 104 milhões",
+            "fr": "Graphique en barres : Nakamoto doit 165 millions d'USDT à Kraken, ses 3 030 bitcoins nantis valent environ 208 millions de dollars et sa capitalisation boursière avoisine 104 millions",
+            "de": "Balkendiagramm: Nakamoto schuldet Kraken 165 Mio. USDT, die 3.030 verpfändeten Bitcoin sind rund 208 Mio. $ wert, der Börsenwert liegt bei rund 104 Mio. $",
+            "ru": "Столбчатая диаграмма: Nakamoto должна Kraken 165 млн USDT, 3030 заложенных биткоинов стоят около $208 млн, а рыночная капитализация компании около $104 млн",
+            "tr": "Çubuk grafik: Nakamoto'nun Kraken'e 165 milyon USDT borcu var, rehin verdiği 3.030 bitcoin yaklaşık 208 milyon $ değerinde, şirketin piyasa değeri ise yaklaşık 104 milyon $",
+            "id": "Grafik batang: Nakamoto berutang 165 juta USDT kepada Kraken, 3.030 bitcoin yang dijaminkan bernilai sekitar US$208 juta, dan nilai pasar sahamnya sekitar US$104 juta",
+            "ja": "棒グラフ：NakamotoのKrakenへの債務は1億6500万USDT、担保の3030BTCは約2億800万ドル、株式時価総額は約1億400万ドル",
+            "ko": "막대 차트: 나카모토가 크라켄에 진 빚은 1억 6,500만 USDT, 담보로 잡힌 비트코인 3,030개의 가치는 약 2억 800만 달러, 시가총액은 약 1억 400만 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="CoinDesk, Nakamoto")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: BTCS's $64.1 million Aave loan, backed by 46,676 ETH, could face liquidation if ether falls to about $1,717, according to CoinDesk's calculation from Nov. 9 data", {
+            "es": "Tarjeta: el préstamo de 64,1 millones de dólares de BTCS en Aave, respaldado por 46.676 ETH, podría ser liquidado si el ether cae a unos 1.717 dólares, según el cálculo de CoinDesk con datos del 9 de noviembre",
+            "pt": "Cartão: o empréstimo de US$ 64,1 milhões da BTCS no Aave, garantido por 46.676 ETH, pode ser liquidado se o ether cair para cerca de US$ 1.717, segundo cálculo do CoinDesk com dados de 9 de novembro",
+            "fr": "Encadré : le prêt de 64,1 millions de dollars de BTCS sur Aave, garanti par 46 676 ETH, pourrait être liquidé si l'ether tombe vers 1 717 dollars, selon le calcul de CoinDesk à partir des données du 9 novembre",
+            "de": "Faktenkarte: Der Aave-Kredit von BTCS über 64,1 Mio. $, besichert mit 46.676 ETH, könnte liquidiert werden, wenn Ether auf rund 1.717 $ fällt, so die Berechnung von CoinDesk mit Daten vom 9. November",
+            "ru": "Карточка: кредит BTCS в Aave на $64,1 млн под залог 46 676 ETH может быть ликвидирован, если эфир упадет примерно до $1717, по расчету CoinDesk на основе данных на 9 ноября",
+            "tr": "Kart: BTCS'nin 46.676 ETH teminatlı 64,1 milyon $'lık Aave kredisi, CoinDesk'in 9 Kasım verilerine dayanan hesabına göre ether yaklaşık 1.717 $'a düşerse tasfiye edilebilir",
+            "id": "Kartu fakta: pinjaman Aave BTCS senilai US$64,1 juta dengan jaminan 46.676 ETH bisa dilikuidasi jika ether turun ke sekitar US$1.717, menurut perhitungan CoinDesk dari data 9 November",
+            "ja": "カード：46,676ETHを担保とするBTCSのAaveでの6410万ドルの借り入れは、イーサが約1717ドルまで下がると清算の恐れ（11月9日のデータに基づくCoinDeskの計算）",
+            "ko": "카드: 46,676 ETH를 담보로 한 BTCS의 6,410만 달러 에이브 대출은 이더가 약 1,717달러까지 떨어지면 청산될 수 있다(11월 9일 자료 기준 CoinDesk 계산)",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="BTCS filing via CoinDesk")},
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -2182,6 +2285,8 @@ BUILDERS = {
     "trump-nominates-sec-cftc-commissioners-peirce-nov-2026": "secnom",
     "illinois-crypto-tax-doj-defi-challenge-nov-2026": "iltax",
     "dtcc-tokenized-stocks-solana-2027-nov-2026": "dtccsol",
+    "kraken-payward-q3-2026-results-nov-2026": "payward",
+    "crypto-treasury-firms-loans-nakamoto-btcs-nov-2026": "treasuryloans",
 }
 
 
@@ -2251,6 +2356,10 @@ def build_slug(slug: str, btc=None):
         figs = build_illinois_tax()
     elif key == "dtccsol":
         figs = build_dtcc_solana()
+    elif key == "payward":
+        figs = build_payward_q3()
+    elif key == "treasuryloans":
+        figs = build_treasury_loans()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

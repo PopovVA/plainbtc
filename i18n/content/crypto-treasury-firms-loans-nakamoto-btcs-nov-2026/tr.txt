@@ -1,0 +1,58 @@
+title: Düşen fiyatlar kripto hazine şirketlerini sıkıştırıyor: Nakamoto'nun Kraken'e 165 milyon $ borcu var, BTCS bir krediyi korumak için ether satıyor
+page_title: Kripto hazine şirketlerinde kredi baskısı: Nakamoto ve BTCS
+description: Bitcoin şirketi Nakamoto'nun Kraken'e borcu 165 milyon USDT ile piyasa değerini aşıyor; Ethereum hazine şirketi BTCS ise Aave'deki 64 milyon $'lık kredisini korumak için zararına ether sattı. Kripto teminatlı kredilerin nasıl işlediğini anlatıyoruz.
+og_description: Bitcoin 68.000 $ civarında ve ether 2.000 $'ın altındayken borsada işlem gören iki kripto hazine şirketi, coinleriyle teminatlandırılmış kredileri yönetiyor. Nakamoto borcunu 2027'ye erteledi; BTCS tasfiyeden uzak durmak için maliyetinin altında ether sattı.
+label: Piyasalar
+summary: Nakamoto'nun bitcoin teminatlı 165 milyon $'lık Kraken borcu var ve ödemeleri 2027'ye erteledi; BTCS ise Aave'deki 64 milyon $'lık kredisini güvene almak için zararına ether sattı.
+===
+
+Kripto satış dalgası, coinlerini teminat göstererek borç alan şirketleri sınıyor. Ana işi kripto para tutmak olan ve ABD'de borsada işlem gören iki "hazine" şirketi, fiyatlar düşerken bitcoin ve ether teminatlı kredilerini nasıl yönettiklerini bu hafta açıkladı. Bitcoin cuma öğleden sonra <strong>68.000 $</strong>, ether ise <strong>1.920 $</strong> civarında işlem gördü; ikisi de 24 saatte %4'ten fazla düştü.
+
+David Bailey'nin yönettiği bitcoin şirketi <strong>Nakamoto</strong> (NAKA), Kraken borsasına dolara sabitlenmiş bir stablecoin olan <strong>165 milyon USDT</strong> borçlu. [CoinDesk](L1)'in aktardığına göre bu, şirketin hisselerinin perşembe kapanışındaki yaklaşık 104 milyon $'lık değerinden fazla. Ayrıca Ethereum hazine şirketi <strong>BTCS</strong>, kredi uygulaması Aave'deki yaklaşık <strong>64 milyon $</strong>'lık kredisini tasfiyeden uzak tutmak için ether'i aldığı fiyatın altında sattığını açıkladı. Bunu da [CoinDesk](L3) bildirdi.
+
+!takeaways
+- Nakamoto'nun Kraken'e 165 milyon USDT borcu var; eylül sonu itibarıyla 4.283 bitcoin'inin 3.030'u teminatta.
+- Şirket borcun 60 milyon USDT'lik kısmının vadesini 4 Aralık 2026'dan 4 Aralık 2027'ye kaydırdı; böylece bu yıl ana para ödemesi yok.
+- BTCS'nin 9 Kasım itibarıyla Aave'ye yaklaşık 64,1 milyon $ borcu vardı ve bu borç 46.676 ETH ile teminatlandırılmıştı.
+- CoinDesk'in hesabına göre, başka hiçbir şey değişmezse BTCS'nin kredisi ether yaklaşık 1.717 $'a düşerse tasfiye edilebilir.
+
+## Nakamoto zaman kazanıyor
+
+Nakamoto, Kraken'den krediyi geçen aralıkta aldı. CoinDesk'e göre kredi 210 milyon $ ve yıllık %8 faizle başladı. O zamandan beri şirket bir miktar bitcoin satıp borcun bir kısmını ödedi; geriye 165 milyon USDT kaldı.
+
+Nakamoto perşembe günü anlaşmayı değiştirdiğini [duyurdu](L2). Toplamın 4 Aralık 2026'da vadesi dolacak 60 milyon USDT'lik kısmı artık <strong>4 Aralık 2027</strong>'de ödenecek. Kalan 105 milyon USDT'nin vadesi yine 30 Haziran 2027. Nakamoto'nun yatırım direktörü Tyler Evans, "Bu değişiklik bize daha fazla zaman tanıyor ve teminat pozisyonumuzu daha dayanıklı hale getiriyor" dedi.
+
+!figure:chart
+
+Güvenlik payı eskisinden ince. Nakamoto'nun çeyrek raporuna göre eylül sonunda 3.030 bitcoin Kraken'e rehin verilmişti. 69.000 $'ın biraz altındaki bir fiyatla bu coinler yaklaşık <strong>208 milyon $</strong> ediyor; CoinDesk'in hesabına göre bu, borcun yaklaşık %126'sı. Bu değer belirlenmiş bir seviyenin altına inerse Nakamoto kredinin bir kısmını ödemek, daha fazla bitcoin yatırmak ya da ikisini birden yapmak zorunda. Şirketin elinde rehin verilmemiş yaklaşık 1.253 bitcoin kaldı. Yeni koşullara göre Kraken, Nakamoto'nun bitcoin opsiyonları ve diğer türev ürünlerinin net değerini de teminat olarak sayacak, ancak bu değer hiçbir zaman sıfırın altında sayılmayacak.
+
+## BTCS zararına ether satıyor
+
+BTCS, kredi yetkilisi yerine kodla çalışan merkeziyetsiz bir kredi uygulaması olan <strong>Aave</strong>'den borç aldı. Aave her krediye teminatı borçla karşılaştıran bir "sağlık faktörü" verir. Bu puan 1'in altına düşerse protokol krediyi ödemek için teminatın bir kısmını otomatik olarak satabilir. Bu zorunlu satışa tasfiye (likidasyon) denir.
+
+!mid_cta
+
+Çeyrek raporuna göre BTCS'nin 9 Kasım itibarıyla faiz dahil yaklaşık 64,1 milyon $ borcu vardı. Borç, şirketin kullandığı 2.127 $'lık ether fiyatıyla 99,3 milyon $ değerindeki 46.676 ETH ile teminatlandırılmıştı. BTCS, kredisinin sağlığını yönetmek için ether'i "ilk maliyetlerinin altındaki fiyatlarla" sattığını söyledi, ancak ne kadar sattığını açıklamadı. [crypto.news](L4)'e göre şirket 11 Kasım itibarıyla herhangi bir tasfiye bildirmedi.
+
+!figure:fact
+
+CoinDesk, 9 Kasım rakamlarına göre tasfiyenin <strong>ether başına 1.717 $</strong> civarında başlayabileceğini hesapladı; bu, ether'in cuma sabahki fiyatının yaklaşık %12 altında. Şirketin pozisyonu o zamandan bu yana değişmiş olabilir. CoinDesk'e göre BTCS'nin eylül sonunda yalnızca yaklaşık 463.000 $ nakdi vardı.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+İki hikâye de aynı dersi veriyor: kriptoyu teminat göstererek borç almak, fiyat dalgalanmalarının üzerine ikinci bir risk ekler. Fiyatlar düştüğünde borç veren daha fazla teminat isteyebilir ya da coinlerinizi, çoğu zaman en kötü anda, satabilir. Şirketler borç verenlerle yeniden pazarlık yapabilir ya da Nakamoto'nun yaptığı gibi korunmak için opsiyon alabilir. Çoğu birey bunu yapamaz.
+
+Yeni başlıyorsanız en basit yol, yalnızca borç almadan tutabileceğiniz kadarını almaktır. [Coinbase](REF) gibi düzenlemeye tabi bir ABD borsası, banka hesabıyla küçük miktarlarda alım yapmanıza izin verir; önce güncel ücretleri ve koşulları kontrol edin. Bu bir yatırım tavsiyesi değildir.
+
+## Nelere dikkat etmeli
+
+- Bitcoin'in 68.000 $ civarında tutunup tutunamayacağı; bu, Nakamoto'nun rehindeki coinlerinin sağladığı güvenlik payını belirliyor.
+- Ether fiyatının, CoinDesk'in BTCS için işaret ettiği yaklaşık 1.717 $ seviyesine göre konumu.
+- Diğer kripto hazine şirketlerinden krediler, coin satışları veya ek teminat talepleriyle ilgili yeni açıklamalar.
+- Nakamoto'nun 105 milyon USDT'lik bir sonraki ödeme tarihi olan 30 Haziran 2027.
+
+!soft: Borç almak yerine yavaş yavaş almayı mı tercih edersiniz? [Yeni başlayanlar için düzenli alım (DCA)](/articles/how-much-bitcoin-should-a-beginner-buy-dca) rehberimizi okuyun.
+
+!end_cta
+
+!disclosure

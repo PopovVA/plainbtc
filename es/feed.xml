@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/es/</link>
     <description>Noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</description>
     <language>es</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 00:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>La caída de precios aprieta a las empresas de tesorería cripto: Nakamoto debe 165 M$ a Kraken y BTCS vende ether para proteger un préstamo</title>
+      <link>https://plainbtc.com/es/articles/crypto-treasury-firms-loans-nakamoto-btcs-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/crypto-treasury-firms-loans-nakamoto-btcs-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 00:30:00 GMT</pubDate>
+      <category>Mercados</category>
+      <description>Nakamoto debe 165 M$ a Kraken con su bitcoin como garantía y aplazó los pagos a 2027, mientras BTCS vendió ether con pérdidas para proteger un préstamo de 64 M$ en Aave.</description>
+    </item>
+    <item>
+      <title>Las ganancias de Payward, matriz de Kraken, caen dos tercios en un año mientras se enfría el trading cripto</title>
+      <link>https://plainbtc.com/es/articles/kraken-payward-q3-2026-results-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/kraken-payward-q3-2026-results-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 00:30:00 GMT</pubDate>
+      <category>Negocios</category>
+      <description>Payward, matriz de Kraken, informó que su EBITDA ajustado del tercer trimestre bajó a 60 M$ desde 178,6 M$ un año antes por la menor actividad, mientras las cuentas con fondos subieron un 37% hasta 7,1 millones.</description>
+    </item>
     <item>
       <title>El DOJ, Wall Street y empresas DeFi respaldan la demanda contra el impuesto cripto del 0,2% de Illinois</title>
       <link>https://plainbtc.com/es/articles/illinois-crypto-tax-doj-defi-challenge-nov-2026</link>

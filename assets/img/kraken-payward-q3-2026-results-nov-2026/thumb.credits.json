@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Kraken app icon (SVG)",
+      "license": "Official press asset",
+      "url": "https://www.kraken.com/press/kraken-images",
+      "credit": "Kraken / Payward"
+    },
+    {
+      "file": "Payward Q3 2026 financial highlights",
+      "license": "Figures cited",
+      "url": "https://www.payward.com/press-release/payward-q3-2026-financial-highlights",
+      "credit": "Payward"
+    }
+  ],
+  "note": "Editorial composite; trademarks belong to their owners.",
+  "slug": "kraken-payward-q3-2026-results-nov-2026",
+  "generated": "2026-11-14T00:04Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

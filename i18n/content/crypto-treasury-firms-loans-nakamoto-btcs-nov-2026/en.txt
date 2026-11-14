@@ -1,0 +1,58 @@
+title: Falling prices squeeze crypto treasury firms: Nakamoto owes Kraken $165 million, BTCS sells ether to protect a loan
+page_title: Crypto treasury firms under loan pressure: Nakamoto, BTCS
+description: Bitcoin firm Nakamoto owes Kraken 165 million USDT, more than its stock market value, and Ethereum treasury firm BTCS sold ether at a loss to protect a $64 million Aave loan. Here is how crypto-backed loans work.
+og_description: With bitcoin near $68,000 and ether below $2,000, two public crypto treasury companies are managing loans backed by their coins. Nakamoto pushed its debt into 2027; BTCS sold ether below cost to stay clear of liquidation.
+label: Markets
+summary: Nakamoto owes Kraken $165 million against its bitcoin and pushed repayment into 2027, while BTCS sold ether at a loss to keep a $64 million Aave loan safe.
+===
+
+The crypto sell-off is testing companies that borrowed against their coins. Two U.S.-listed "treasury" companies, firms whose main business is holding crypto, disclosed this week how they are managing loans backed by bitcoin and ether as prices fall. Bitcoin traded near <strong>$68,000</strong> on Friday afternoon and ether near <strong>$1,920</strong>, both down more than 4% in 24 hours.
+
+<strong>Nakamoto</strong> (NAKA), the bitcoin company led by David Bailey, owes the exchange Kraken <strong>165 million USDT</strong>, a dollar-pegged stablecoin. That is more than the roughly $104 million its shares were worth at Thursday's close, [CoinDesk](L1) reported. Separately, Ethereum treasury firm <strong>BTCS</strong> said it sold ether for less than it paid to keep a roughly <strong>$64 million</strong> loan on the lending app Aave away from liquidation, [CoinDesk](L3) reported.
+
+!takeaways
+- Nakamoto owes Kraken 165 million USDT, backed by 3,030 of its 4,283 bitcoin as of the end of September.
+- It moved 60 million USDT of the debt from Dec. 4, 2026, to Dec. 4, 2027, so no principal is due this year.
+- BTCS owed about $64.1 million on Aave as of Nov. 9, backed by 46,676 ETH.
+- By CoinDesk's calculation, BTCS's loan could face liquidation if ether falls to around $1,717, assuming nothing else changes.
+
+## Nakamoto buys itself time
+
+Nakamoto took out the loan from Kraken last December. It started at $210 million with 8% annual interest, CoinDesk reported. Since then the company sold some bitcoin and repaid part of the debt, leaving 165 million USDT outstanding.
+
+On Thursday, Nakamoto [announced](L2) that it had amended the deal. Of the total, 60 million USDT that was due on Dec. 4, 2026, now matures on <strong>Dec. 4, 2027</strong>. The other 105 million USDT is still due on June 30, 2027. "This amendment extends our runway and makes our collateral position more resilient," said Tyler Evans, Nakamoto's chief investment officer.
+
+!figure:chart
+
+The cushion is thinner than it was. Nakamoto's quarterly report shows 3,030 bitcoin pledged to Kraken at the end of September. At a price just under $69,000, those coins are worth about <strong>$208 million</strong>, or roughly 126% of the debt, according to CoinDesk's math. If that value falls below a set level, Nakamoto must repay part of the loan, add more bitcoin or both. It has about 1,253 unpledged bitcoin left. Under the new terms, Kraken will also count the net value of Nakamoto's bitcoin options and other derivatives as collateral, but never below zero.
+
+## BTCS sells ether at a loss
+
+BTCS borrowed on <strong>Aave</strong>, a decentralized lending app that runs on code instead of loan officers. Aave gives each loan a "health factor" that compares the collateral with the debt. If the score falls below 1, the protocol can automatically sell part of the collateral to repay the loan. That forced sale is called a liquidation.
+
+!mid_cta
+
+According to its quarterly filing, BTCS owed about $64.1 million, including interest, as of Nov. 9. The debt was backed by 46,676 ETH, worth $99.3 million at the ether price the company used, $2,127. BTCS said it sold ether "at prices below their original cost basis" to manage its loan health, but did not say how much. It reported no liquidations as of Nov. 11, [crypto.news](L4) reported.
+
+!figure:fact
+
+CoinDesk calculated that, based on the Nov. 9 numbers, liquidation could start near <strong>$1,717 per ether</strong>, about 12% below where ether traded on Friday morning. The company's position may have changed since then. BTCS also had only about $463,000 in cash at the end of September, CoinDesk reported.
+
+## What it means for beginners
+
+Both stories show the same lesson: borrowing against crypto adds a second risk on top of price swings. When prices fall, a lender can demand more collateral or sell your coins, often at the worst time. Companies can renegotiate with lenders or buy options as a hedge, as Nakamoto did. Most individuals cannot.
+
+If you are just starting out, the simplest approach is to buy only what you can afford to hold without borrowing. A regulated U.S. exchange such as [Coinbase](REF) lets you buy small amounts with a bank account; check its current fees and terms first. This is not investment advice.
+
+## What to watch next
+
+- Whether bitcoin holds near $68,000, which affects how much cushion Nakamoto's pledged coins provide.
+- Ether's price relative to the roughly $1,717 level CoinDesk flagged for BTCS.
+- New filings from other crypto treasury companies about loans, coin sales or collateral calls.
+- Nakamoto's next repayment date, June 30, 2027, for 105 million USDT.
+
+!soft: Prefer buying slowly instead of borrowing? Read our guide to [dollar-cost averaging for beginners](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

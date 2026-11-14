@@ -1,0 +1,58 @@
+title: Queda dos preços aperta empresas de tesouraria cripto: Nakamoto deve US$ 165 milhões à Kraken e BTCS vende ether para proteger empréstimo
+page_title: Empresas de tesouraria cripto sob pressão de empréstimos: Nakamoto e BTCS
+description: A empresa de bitcoin Nakamoto deve 165 milhões de USDT à Kraken, mais do que seu valor de mercado na bolsa, e a empresa de tesouraria de Ethereum BTCS vendeu ether com prejuízo para proteger um empréstimo de US$ 64 milhões no Aave. Veja como funcionam empréstimos com cripto como garantia.
+og_description: Com o bitcoin perto de US$ 68.000 e o ether abaixo de US$ 2.000, duas empresas de tesouraria cripto listadas na bolsa administram empréstimos garantidos por suas moedas. A Nakamoto adiou a dívida para 2027; a BTCS vendeu ether abaixo do custo para se afastar da liquidação.
+label: Mercados
+summary: A Nakamoto deve US$ 165 milhões à Kraken com seus bitcoins como garantia e adiou os pagamentos para 2027, enquanto a BTCS vendeu ether com prejuízo para proteger um empréstimo de US$ 64 milhões no Aave.
+===
+
+A queda do mercado cripto está testando empresas que pegaram empréstimos dando suas moedas como garantia. Duas empresas de "tesouraria" listadas nos EUA, companhias cujo negócio principal é manter criptomoedas, revelaram nesta semana como estão administrando empréstimos garantidos por bitcoin e ether enquanto os preços caem. O bitcoin era negociado perto de <strong>US$ 68.000</strong> na tarde de sexta-feira e o ether perto de <strong>US$ 1.920</strong>, ambos com queda de mais de 4% em 24 horas.
+
+A <strong>Nakamoto</strong> (NAKA), empresa de bitcoin comandada por David Bailey, deve à corretora Kraken <strong>165 milhões de USDT</strong>, uma stablecoin atrelada ao dólar. Isso é mais do que os cerca de US$ 104 milhões que suas ações valiam no fechamento de quinta-feira, segundo o [CoinDesk](L1). Em outro caso, a empresa de tesouraria de Ethereum <strong>BTCS</strong> disse que vendeu ether por menos do que pagou para manter um empréstimo de cerca de <strong>US$ 64 milhões</strong> no aplicativo de empréstimos Aave longe da liquidação, segundo o [CoinDesk](L3).
+
+!takeaways
+- A Nakamoto deve 165 milhões de USDT à Kraken, garantidos por 3.030 de seus 4.283 bitcoins no fim de setembro.
+- A empresa transferiu 60 milhões de USDT da dívida de 4 de dezembro de 2026 para 4 de dezembro de 2027, e assim não há principal a pagar neste ano.
+- A BTCS devia cerca de US$ 64,1 milhões no Aave em 9 de novembro, com garantia de 46.676 ETH.
+- Pelo cálculo do CoinDesk, o empréstimo da BTCS pode ser liquidado se o ether cair para cerca de US$ 1.717, supondo que nada mais mude.
+
+## A Nakamoto ganha tempo
+
+A Nakamoto tomou o empréstimo da Kraken em dezembro passado. Ele começou em US$ 210 milhões, com juros de 8% ao ano, segundo o CoinDesk. Desde então a empresa vendeu parte dos bitcoins e pagou parte da dívida, restando 165 milhões de USDT em aberto.
+
+Na quinta-feira, a Nakamoto [anunciou](L2) que alterou o contrato. Do total, 60 milhões de USDT que venciam em 4 de dezembro de 2026 agora vencem em <strong>4 de dezembro de 2027</strong>. Os outros 105 milhões de USDT continuam com vencimento em 30 de junho de 2027. "Esta alteração amplia nosso fôlego e torna nossa posição de garantias mais resistente", disse Tyler Evans, diretor de investimentos da Nakamoto.
+
+!figure:chart
+
+A margem de segurança está mais fina. O relatório trimestral da Nakamoto mostra 3.030 bitcoins dados em garantia à Kraken no fim de setembro. Com o preço um pouco abaixo de US$ 69.000, essas moedas valem cerca de <strong>US$ 208 milhões</strong>, ou aproximadamente 126% da dívida, pelas contas do CoinDesk. Se esse valor cair abaixo de um nível definido, a Nakamoto precisa pagar parte do empréstimo, dar mais bitcoins em garantia ou as duas coisas. Restam a ela cerca de 1.253 bitcoins livres. Pelas novas condições, a Kraken também vai contar como garantia o valor líquido das opções e de outros derivativos de bitcoin da Nakamoto, mas nunca abaixo de zero.
+
+## A BTCS vende ether com prejuízo
+
+A BTCS tomou empréstimo no <strong>Aave</strong>, um aplicativo de empréstimos descentralizado que funciona com código em vez de gerentes de banco. O Aave dá a cada empréstimo um "fator de saúde" que compara a garantia com a dívida. Se essa nota cair abaixo de 1, o protocolo pode vender automaticamente parte da garantia para pagar o empréstimo. Essa venda forçada se chama liquidação.
+
+!mid_cta
+
+Segundo seu relatório trimestral, a BTCS devia cerca de US$ 64,1 milhões, incluindo juros, em 9 de novembro. A dívida era garantida por 46.676 ETH, que valiam US$ 99,3 milhões pelo preço do ether usado pela empresa, US$ 2.127. A BTCS disse que vendeu ether "a preços abaixo do custo original" para administrar a saúde do empréstimo, mas não informou quanto. A empresa não relatou liquidações até 11 de novembro, segundo o [crypto.news](L4).
+
+!figure:fact
+
+O CoinDesk calculou que, com os números de 9 de novembro, a liquidação poderia começar perto de <strong>US$ 1.717 por ether</strong>, cerca de 12% abaixo do preço do ether na manhã de sexta-feira. A posição da empresa pode ter mudado desde então. A BTCS também tinha apenas cerca de US$ 463.000 em caixa no fim de setembro, segundo o CoinDesk.
+
+## O que isso significa para iniciantes
+
+As duas histórias trazem a mesma lição: pegar empréstimo com cripto como garantia acrescenta um segundo risco além das oscilações de preço. Quando os preços caem, o credor pode exigir mais garantia ou vender suas moedas, muitas vezes no pior momento. Empresas podem renegociar com credores ou comprar opções como proteção, como fez a Nakamoto. A maioria das pessoas não pode.
+
+Se você está começando, o caminho mais simples é comprar apenas o que consegue manter sem pegar dinheiro emprestado. Uma corretora regulada dos EUA como a [Coinbase](REF) permite comprar pequenas quantias com uma conta bancária; confira antes as taxas e condições atuais. Isto não é recomendação de investimento.
+
+## O que acompanhar
+
+- Se o bitcoin se mantém perto de US$ 68.000, o que define a margem de segurança dos bitcoins dados em garantia pela Nakamoto.
+- O preço do ether em relação ao nível de cerca de US$ 1.717 apontado pelo CoinDesk para a BTCS.
+- Novos relatórios de outras empresas de tesouraria cripto sobre empréstimos, vendas de moedas ou pedidos de mais garantia.
+- A próxima data de pagamento da Nakamoto, 30 de junho de 2027, de 105 milhões de USDT.
+
+!soft: Prefere comprar aos poucos em vez de pegar empréstimo? Leia nosso guia de [compras recorrentes (DCA) para iniciantes](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Bitcoin.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg",
+      "credit": "Bitcoin logo"
+    },
+    {
+      "file": "Ethereum_logo_2014.svg",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ethereum_logo_2014.svg",
+      "credit": "Ethereum Foundation"
+    }
+  ],
+  "note": "Editorial composite; trademarks belong to their owners.",
+  "slug": "crypto-treasury-firms-loans-nakamoto-btcs-nov-2026",
+  "generated": "2026-11-14T00:04Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

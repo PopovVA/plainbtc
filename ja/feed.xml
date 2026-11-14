@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 00:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>価格下落で暗号資産トレジャリー企業に圧力、NakamotoはKrakenに1億6500万ドルの債務、BTCSは融資を守るためイーサを売却</title>
+      <link>https://plainbtc.com/ja/articles/crypto-treasury-firms-loans-nakamoto-btcs-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/crypto-treasury-firms-loans-nakamoto-btcs-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 00:30:00 GMT</pubDate>
+      <category>マーケット</category>
+      <description>Nakamotoはビットコインを担保にKrakenから1億6500万ドルを借り、返済を2027年に延期。BTCSはAaveでの6400万ドルの借り入れを守るため、損失覚悟でイーサを売却しました。</description>
+    </item>
+    <item>
+      <title>Kraken親会社Payward、暗号資産取引の冷え込みで利益が前年から3分の2減少</title>
+      <link>https://plainbtc.com/ja/articles/kraken-payward-q3-2026-results-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/kraken-payward-q3-2026-results-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 00:30:00 GMT</pubDate>
+      <category>ビジネス</category>
+      <description>Kraken親会社Paywardは、取引の減少で第3四半期の調整後EBITDAが前年同期の1億7860万ドルから6000万ドルに減ったと発表。一方、残高のある口座は37%増の710万件となりました。</description>
+    </item>
     <item>
       <title>米司法省、ウォール街、DeFi企業がイリノイ州の0.2%暗号資産税に対する訴訟を支持</title>
       <link>https://plainbtc.com/ja/articles/illinois-crypto-tax-doj-defi-challenge-nov-2026</link>

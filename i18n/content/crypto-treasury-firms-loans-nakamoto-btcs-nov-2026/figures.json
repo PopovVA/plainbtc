@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-nakamoto-loan-vs-collateral.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart: Nakamoto owes Kraken 165 million USDT, its 3,030 pledged bitcoin are worth about $208 million, and its stock market value is about $104 million",
+      "es": "Gráfico de barras: Nakamoto debe a Kraken 165 millones de USDT, sus 3.030 bitcoins pignorados valen unos 208 millones de dólares y su valor en bolsa ronda los 104 millones",
+      "pt": "Gráfico de barras: a Nakamoto deve à Kraken 165 milhões de USDT, seus 3.030 bitcoins dados em garantia valem cerca de US$ 208 milhões e seu valor de mercado na bolsa é de cerca de US$ 104 milhões",
+      "fr": "Graphique en barres : Nakamoto doit 165 millions d'USDT à Kraken, ses 3 030 bitcoins nantis valent environ 208 millions de dollars et sa capitalisation boursière avoisine 104 millions",
+      "de": "Balkendiagramm: Nakamoto schuldet Kraken 165 Mio. USDT, die 3.030 verpfändeten Bitcoin sind rund 208 Mio. $ wert, der Börsenwert liegt bei rund 104 Mio. $",
+      "ru": "Столбчатая диаграмма: Nakamoto должна Kraken 165 млн USDT, 3030 заложенных биткоинов стоят около $208 млн, а рыночная капитализация компании около $104 млн",
+      "tr": "Çubuk grafik: Nakamoto'nun Kraken'e 165 milyon USDT borcu var, rehin verdiği 3.030 bitcoin yaklaşık 208 milyon $ değerinde, şirketin piyasa değeri ise yaklaşık 104 milyon $",
+      "id": "Grafik batang: Nakamoto berutang 165 juta USDT kepada Kraken, 3.030 bitcoin yang dijaminkan bernilai sekitar US$208 juta, dan nilai pasar sahamnya sekitar US$104 juta",
+      "ja": "棒グラフ：NakamotoのKrakenへの債務は1億6500万USDT、担保の3030BTCは約2億800万ドル、株式時価総額は約1億400万ドル",
+      "ko": "막대 차트: 나카모토가 크라켄에 진 빚은 1억 6,500만 USDT, 담보로 잡힌 비트코인 3,030개의 가치는 약 2억 800만 달러, 시가총액은 약 1억 400만 달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: CoinDesk, Nakamoto",
+      "es": "Gráfico: PlainBTC, datos: CoinDesk, Nakamoto",
+      "pt": "Gráfico: PlainBTC, dados: CoinDesk, Nakamoto",
+      "fr": "Graphique : PlainBTC, données : CoinDesk, Nakamoto",
+      "de": "Chart: PlainBTC, Daten: CoinDesk, Nakamoto",
+      "ru": "График: PlainBTC, данные: CoinDesk, Nakamoto",
+      "tr": "Grafik: PlainBTC, veri: CoinDesk, Nakamoto",
+      "id": "Grafik: PlainBTC, data: CoinDesk, Nakamoto",
+      "ja": "チャート: PlainBTC、データ: CoinDesk, Nakamoto",
+      "ko": "차트: PlainBTC, 데이터: CoinDesk, Nakamoto"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-btcs-aave-liquidation-line.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: BTCS's $64.1 million Aave loan, backed by 46,676 ETH, could face liquidation if ether falls to about $1,717, according to CoinDesk's calculation from Nov. 9 data",
+      "es": "Tarjeta: el préstamo de 64,1 millones de dólares de BTCS en Aave, respaldado por 46.676 ETH, podría ser liquidado si el ether cae a unos 1.717 dólares, según el cálculo de CoinDesk con datos del 9 de noviembre",
+      "pt": "Cartão: o empréstimo de US$ 64,1 milhões da BTCS no Aave, garantido por 46.676 ETH, pode ser liquidado se o ether cair para cerca de US$ 1.717, segundo cálculo do CoinDesk com dados de 9 de novembro",
+      "fr": "Encadré : le prêt de 64,1 millions de dollars de BTCS sur Aave, garanti par 46 676 ETH, pourrait être liquidé si l'ether tombe vers 1 717 dollars, selon le calcul de CoinDesk à partir des données du 9 novembre",
+      "de": "Faktenkarte: Der Aave-Kredit von BTCS über 64,1 Mio. $, besichert mit 46.676 ETH, könnte liquidiert werden, wenn Ether auf rund 1.717 $ fällt, so die Berechnung von CoinDesk mit Daten vom 9. November",
+      "ru": "Карточка: кредит BTCS в Aave на $64,1 млн под залог 46 676 ETH может быть ликвидирован, если эфир упадет примерно до $1717, по расчету CoinDesk на основе данных на 9 ноября",
+      "tr": "Kart: BTCS'nin 46.676 ETH teminatlı 64,1 milyon $'lık Aave kredisi, CoinDesk'in 9 Kasım verilerine dayanan hesabına göre ether yaklaşık 1.717 $'a düşerse tasfiye edilebilir",
+      "id": "Kartu fakta: pinjaman Aave BTCS senilai US$64,1 juta dengan jaminan 46.676 ETH bisa dilikuidasi jika ether turun ke sekitar US$1.717, menurut perhitungan CoinDesk dari data 9 November",
+      "ja": "カード：46,676ETHを担保とするBTCSのAaveでの6410万ドルの借り入れは、イーサが約1717ドルまで下がると清算の恐れ（11月9日のデータに基づくCoinDeskの計算）",
+      "ko": "카드: 46,676 ETH를 담보로 한 BTCS의 6,410만 달러 에이브 대출은 이더가 약 1,717달러까지 떨어지면 청산될 수 있다(11월 9일 자료 기준 CoinDesk 계산)"
+    },
+    "caption": {
+      "en": "Source: BTCS filing via CoinDesk",
+      "es": "Fuente: BTCS filing via CoinDesk",
+      "pt": "Fonte: BTCS filing via CoinDesk",
+      "fr": "Source : BTCS filing via CoinDesk",
+      "de": "Quelle: BTCS filing via CoinDesk",
+      "ru": "Источник: BTCS filing via CoinDesk",
+      "tr": "Kaynak: BTCS filing via CoinDesk",
+      "id": "Sumber: BTCS filing via CoinDesk",
+      "ja": "出典: BTCS filing via CoinDesk",
+      "ko": "출처: BTCS filing via CoinDesk"
+    }
+  }
+]
