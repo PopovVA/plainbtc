@@ -1,0 +1,39 @@
+{
+ "slug": "ether-solana-xrp-lead-selloff-bitcoin-65000-nov-2026",
+ "date": "2026-11-14",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-below-67000-sixth-weekly-loss-nov-2026",
+  "bitcoin-volatility-liquidations-nov-2026",
+  "how-much-bitcoin-should-a-beginner-buy-dca"
+ ],
+ "sources": [
+  {
+   "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+   "title": "Kraken: BTC, ETH, SOL and XRP hourly and daily OHLC data (public API)",
+   "date": "Nov 14, 2026"
+  },
+  {
+   "url": "https://www.trendingtopics.eu/bitcoin-65000-dollars-liquidations/",
+   "title": "Trending Topics: Bitcoin slides to $65,000 as $1 billion in bets are liquidated",
+   "date": "Nov 14, 2026"
+  },
+  {
+   "url": "https://coinscreamer.com/bitcoin-below-66000-ether-solana-crypto-selloff-november-14/",
+   "title": "CoinScreamer: Bitcoin falls below $66,000 as ether and Solana extend selloff",
+   "date": "Nov 14, 2026"
+  },
+  {
+   "url": "https://farside.co.uk/eth/",
+   "title": "Farside Investors: Ethereum ETF Flow (US$m)",
+   "date": "Nov 14, 2026"
+  },
+  {
+   "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-below-68000-as-anthropic-ipo-frenzy-drains-market-liquidity-5027106",
+   "title": "Investing.com: Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day",
+   "date": "Nov 14, 2026"
+  }
+ ],
+ "disclosure_variant": "std"
+}

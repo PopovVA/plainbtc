@@ -1,0 +1,62 @@
+title: Binance reopens withdrawals on 87 networks and aims to finish next week
+page_title: Binance reopens withdrawals on 87 networks after the $6.3 billion hack
+description: Binance says it reopened withdrawals on 87 blockchain networks this week and aims to restore all remaining networks and assets by the end of next week, after its record Oct. 29 hack.
+og_description: Two weeks after a $6.3 billion hack, Binance says withdrawals are back on 87 more networks and it aims to reopen the rest by the end of next week.
+label: Business
+summary: Binance says it reopened withdrawals on 87 networks this week and aims to restore all remaining networks and assets by the end of next week.
+===
+
+Binance, the world's largest crypto exchange, says it is close to finishing its recovery from last month's record hack. In a [post on X](L1) late Friday U.S. time, the company said it had reopened withdrawals for <strong>87 networks</strong> this week and will "aim to reopen withdrawals for all remaining networks and assets by the end of next week."
+
+The update is the latest step in a phased restart that began on Nov. 1, three days after attackers took about $6.3 billion from the exchange's hot wallets on Oct. 29, [Reuters](L2) reported. Experts have called it the largest crypto theft on record.
+
+!takeaways
+- Binance says it reopened withdrawals on 87 blockchain networks this week, including Cardano, Avalanche, Litecoin, NEAR and Stellar.
+- It aims to reopen withdrawals for all remaining networks and assets by the end of next week, but has not given an exact date.
+- Bitcoin, ether, XRP and solana withdrawals came back first, on Nov. 1.
+- Binance said on Nov. 12 that it had finished covering the stolen assets with more than $6.34 billion of its own money.
+
+!figure:timeline
+
+## What reopened this week
+
+A network is the blockchain a coin travels on. Many tokens can be sent over more than one network, so Binance has been switching them back on one network at a time. According to [Exchange.news](L3), which reviewed Binance's Nov. 14 recovery update, this week's list includes Avalanche (AVAX), Cardano (ADA), Cosmos (ATOM), Stellar (XLM), NEAR, Litecoin (LTC) and several layer-2 networks built on Ethereum, such as Linea, Scroll, Starknet and zkSync Era.
+
+Binance did not publish a list of the networks and assets that are still paused, and "the end of next week" is a target rather than a firm deadline. The exchange told users to check the withdrawal page for their asset and network, or its network status page, and warned that heavy traffic could cause delays. If a withdrawal fails, it said, users should try again after a short while.
+
+## How the restart has gone
+
+The first phase on Nov. 1 covered 15 assets and networks chosen by user demand, including bitcoin, ether, BNB, solana, XRP and dogecoin, [CoinDesk](L4) reported. Customers moved quickly: Binance said that day that clients had pulled a net $3.64 billion, or about 2.1% of its assets, as the exchange came back online, according to [Reuters](L6).
+
+!figure:fact
+
+!mid_cta
+
+On Nov. 12, Binance said it had completed coverage of the assets affected by the hack, committing more than $6.34 billion of company funds, [Bitcoin Magazine](L5) reported. The money came from part of its Secure Asset Fund for Users (SAFU), an emergency reserve, from part of its futures insurance fund and from its corporate treasury. Binance bought replacement tokens on the open market and through over-the-counter deals, and it has pledged to rebuild SAFU to about $1 billion.
+
+Covering customer balances is not the same as getting the stolen coins back. The [U.S. Justice Department](L7) said on Nov. 12 that it had court approval to seize or restrain more than $1.2 billion of the stolen crypto, and the FBI has blamed North Korean hackers. North Korea has denied involvement, Reuters noted.
+
+## What it means for you
+
+Binance's main exchange does not accept U.S. customers, so most American readers are not directly affected. Still, the episode is a useful reminder of how exchange custody works. When you keep coins on an exchange, you rely on that company's security and its willingness to cover losses. Binance chose to absorb this one, but withdrawals were frozen or limited for days.
+
+If you hold crypto on any exchange, keep a few habits:
+
+- Before sending, check that the exchange and the receiving wallet both support the same network for that coin. Coins sent on the wrong network can be lost.
+- Ignore anyone who offers to "speed up" or "recover" a withdrawal. Binance has warned that it does not contact users first.
+- Consider moving long-term savings you understand how to manage into your own wallet, and keep only what you trade on an exchange.
+
+If you are just getting started, a regulated U.S. exchange such as [Coinbase](REF) is one option; read its fees and terms before you sign up. This is not investment advice.
+
+## What to watch next
+
+- A Binance update confirming that all remaining networks and assets are open again, targeted for the end of next week.
+- Whether Binance publishes a list of the networks still paused.
+- Progress on rebuilding the SAFU reserve to about $1 billion.
+- Further seizures of stolen funds by U.S. authorities.
+
+!soft: Not sure whether to keep coins on an exchange? Read [what a crypto wallet is: custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

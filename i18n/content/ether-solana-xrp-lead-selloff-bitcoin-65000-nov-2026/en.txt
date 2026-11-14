@@ -1,0 +1,62 @@
+title: Ether, solana and XRP fall harder than bitcoin as BTC touches $65,000
+page_title: Ether, solana and XRP lead crypto selloff as bitcoin hits $65,000
+description: Bitcoin briefly touched $65,000 on Kraken on Saturday. Ether fell to about $1,808, its lowest since July, solana dropped nearly 10% in a day and XRP slipped below $1.
+og_description: Saturday's crypto selloff hit altcoins hardest. Solana fell nearly 10% in 24 hours, ether touched its lowest price since July and XRP dropped below $1 as about $1 billion in bets were liquidated.
+label: Market news
+summary: Solana fell nearly 10% in a day, ether hit its lowest price since July and XRP slipped below $1 as bitcoin briefly touched $65,000.
+===
+
+The crypto selloff took another leg down on Saturday, and this time the smaller coins were hit hardest. Bitcoin briefly traded at <strong>$64,999</strong> on Kraken in the 10 a.m. hour Central time, a hair under $65,000, before bouncing to about $65,500 by 1 p.m. That was about 5% lower than at the same time on Friday.
+
+The biggest altcoins fell further. Ether, the second-largest cryptocurrency, dropped to about <strong>$1,808</strong> on Kraken, its lowest price since mid-July. Solana sank to about $71.84, its lowest since early August, and XRP slipped below $1, touching about $0.945. In the 24 hours to 1 p.m. Central time, solana lost about 9.8%, XRP about 6.7%, ether about 5.8% and bitcoin about 5.0%, PlainBTC's calculation from Kraken's public price data shows.
+
+!takeaways
+- Bitcoin touched $64,999 on Kraken on Saturday morning U.S. time, its lowest price since Aug. 19.
+- Ether fell to about $1,808, its lowest since mid-July, and solana to about $71.84, its lowest since early August.
+- About $1.01 billion of leveraged crypto positions were liquidated in 24 hours, 93% of them bets on rising prices, CoinGlass data shows.
+- U.S. spot ether ETFs had about $399 million in net outflows this week, on top of the bitcoin ETF selling.
+
+!figure:chart
+
+## Altcoins take the bigger hit
+
+Smaller cryptocurrencies usually swing more than bitcoin in both directions, and Saturday was a clear example. According to CoinGecko prices cited by [Trending Topics](L1), solana, Cardano and Hyperliquid each lost close to 10% in a day, while ether was down about 6% and XRP about 7%. Only a few coins, such as Tron, held up.
+
+The weekly numbers tell the same story. Measured from Monday's open on Kraken, bitcoin was down about 12.4% by Saturday afternoon. Ether was down about 13.9%, XRP about 14.2% and solana about 16.5%. CoinGecko put the value of the whole crypto market at about $2.22 trillion, down more than 7% in a day.
+
+!figure:ether
+
+## About $1 billion in forced selling
+
+Much of the move came from traders using borrowed money. When prices fall far enough, exchanges automatically close leveraged bets that no longer have enough collateral, and that forced selling can push prices lower still.
+
+CoinGlass data reported by Trending Topics showed about <strong>$1.01 billion</strong> in crypto positions liquidated over 24 hours on Saturday, with 93% of that coming from bets on higher prices. More than 195,000 traders were affected, and about $553 million of the total came during the four hours of the latest slide. The largest single liquidation was a $10.45 million ether position on Binance. An earlier CoinGlass reading cited by [CoinScreamer](L2) showed $880.7 million in 24-hour liquidations, with longs at about 92.6%.
+
+!mid_cta
+
+!figure:fact
+
+## Funds are selling ether too
+
+Bitcoin funds are not the only ones losing money. According to [Farside Investors](L3), U.S. spot ether exchange-traded funds (ETFs) had net outflows of about $399 million in the week of Nov. 9 to 13. BlackRock's ETHA fund accounted for most of it, with about $311 million of withdrawals that week. Friday brought a small net inflow of $2.3 million after six straight days of withdrawals.
+
+On the bitcoin side, U.S. spot funds have had outflows for seven straight trading days, totaling about $1.91 billion, [Investing.com](L4) reported. Traders also point to fears that the Federal Reserve will raise interest rates in December, which has pushed up the dollar and bond yields and made riskier assets less attractive.
+
+Weekend trading can make moves look bigger than usual. Stock markets and ETFs are closed, so there are fewer buyers and sellers, and a small wave of orders can move prices further.
+
+## What it means for beginners
+
+A day like this shows why altcoins are usually riskier than bitcoin: they tend to fall faster when the market turns. If you are new, it is wise to avoid leverage, keep any crypto position small compared with your savings, and focus on assets you understand. Some beginners prefer buying a fixed dollar amount on a regular schedule rather than trying to time the bottom. A regulated U.S. exchange such as [Coinbase](REF) offers recurring buys; compare fees and read the terms before you start. This is not investment advice.
+
+## What to watch next
+
+- Sunday's weekly close, which is on track to be bitcoin's sixth weekly loss in a row, and whether $65,000 holds.
+- Spot bitcoin and ether ETF flows when U.S. markets reopen on Monday, Nov. 16.
+- The minutes of the Fed's October meeting, due Wednesday.
+- Whether ether can climb back above $1,850 and XRP above $1.
+
+!soft: New to market swings like this? Read [how much bitcoin a beginner should buy](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

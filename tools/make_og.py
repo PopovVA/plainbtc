@@ -32,6 +32,16 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "ether-solana-xrp-lead-selloff-bitcoin-65000-nov-2026",
+        "Ether, solana and XRP fall harder than bitcoin as BTC touches $65,000",
+        "MARKET NEWS",
+    ),
+    (
+        "binance-reopens-withdrawals-87-networks-nov-2026",
+        "Binance reopens withdrawals on 87 networks and aims to finish next week",
+        "BUSINESS",
+    ),
+    (
         "bitcoin-below-67000-sixth-weekly-loss-nov-2026",
         "Bitcoin slips below $67,000 as ETF investors pull $1.07 billion in a week",
         "MARKET NEWS",
@@ -185,6 +195,15 @@ ARTICLES = [
 # used for identification only). Each entry: (image URL, tile background RGB).
 WIKI = "https://upload.wikimedia.org/wikipedia/commons/"
 OG_LOGOS: dict[str, list[tuple[str, tuple[int, int, int]]]] = {
+    # Ethereum (CC BY 3.0, Wikimedia Commons) and Solana logos, identification only: altcoins led the selloff.
+    "ether-solana-xrp-lead-selloff-bitcoin-65000-nov-2026": [
+        (WIKI + "0/05/Ethereum_logo_2014.svg", (255, 255, 255)),
+        ("https://cryptologos.cc/logos/solana-sol-logo.svg", (0, 0, 0)),
+    ],
+    # Binance logo (Wikimedia Commons), identification only.
+    "binance-reopens-withdrawals-87-networks-nov-2026": [
+        (WIKI + "e/e8/Binance_Logo.svg", (255, 255, 255)),
+    ],
     # Kraken "by Payward" wordmark from Kraken's official press image page (kraken.com/press/kraken-images).
     # BlackRock wordmark (public domain, Wikimedia Commons): IBIT led the ETF outflows.
     "bitcoin-below-67000-sixth-weekly-loss-nov-2026": [

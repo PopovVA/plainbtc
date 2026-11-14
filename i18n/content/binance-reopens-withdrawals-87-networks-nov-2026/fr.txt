@@ -1,0 +1,62 @@
+title: Binance rouvre les retraits sur 87 réseaux et vise à finir la semaine prochaine
+page_title: Binance rouvre les retraits sur 87 réseaux après le piratage de 6,3 milliards de dollars
+description: Binance indique avoir rouvert cette semaine les retraits sur 87 réseaux blockchain et vise à rétablir tous les réseaux et actifs restants d'ici la fin de la semaine prochaine, après son piratage record du 29 octobre.
+og_description: Deux semaines après un piratage de 6,3 milliards de dollars, Binance indique que les retraits fonctionnent de nouveau sur 87 réseaux supplémentaires et vise à rouvrir le reste d'ici la fin de la semaine prochaine.
+label: Entreprises
+summary: Binance indique avoir rouvert les retraits sur 87 réseaux cette semaine et vise à rétablir tous les réseaux et actifs restants d'ici la fin de la semaine prochaine.
+===
+
+Binance, la plus grande plateforme d'échange de cryptomonnaies au monde, affirme être près de boucler sa reprise après le piratage record du mois dernier. Dans un [message sur X](L1) vendredi soir (heure des États-Unis), l'entreprise a indiqué avoir rouvert cette semaine les retraits sur <strong>87 réseaux</strong> et viser « la réouverture des retraits pour tous les réseaux et actifs restants d'ici la fin de la semaine prochaine ».
+
+Cette mise à jour est la dernière étape d'un redémarrage progressif entamé le 1er novembre, trois jours après que des attaquants ont dérobé environ 6,3 milliards de dollars dans les portefeuilles chauds de la plateforme le 29 octobre, a rapporté [Reuters](L2). Des experts y voient le plus gros vol de cryptomonnaies jamais enregistré.
+
+!takeaways
+- Binance indique avoir rouvert cette semaine les retraits sur 87 réseaux blockchain, dont Cardano, Avalanche, Litecoin, NEAR et Stellar.
+- Elle vise à rouvrir les retraits pour tous les réseaux et actifs restants d'ici la fin de la semaine prochaine, sans donner de date précise.
+- Les retraits de bitcoin, d'ether, de XRP et de solana ont été les premiers rétablis, le 1er novembre.
+- Binance a annoncé le 12 novembre avoir fini de couvrir les actifs volés avec plus de 6,34 milliards de dollars de fonds propres.
+
+!figure:timeline
+
+## Ce qui a rouvert cette semaine
+
+Un réseau est la blockchain sur laquelle circule une monnaie. Beaucoup de jetons peuvent être envoyés sur plusieurs réseaux, c'est pourquoi Binance les réactive réseau par réseau. Selon [Exchange.news](L3), qui a examiné la mise à jour de Binance du 14 novembre, la liste de cette semaine comprend Avalanche (AVAX), Cardano (ADA), Cosmos (ATOM), Stellar (XLM), NEAR, Litecoin (LTC) et plusieurs réseaux de couche 2 bâtis sur Ethereum, comme Linea, Scroll, Starknet et zkSync Era.
+
+Binance n'a pas publié la liste des réseaux et actifs encore suspendus, et « la fin de la semaine prochaine » est un objectif, pas une échéance ferme. La plateforme invite les utilisateurs à consulter la page de retrait de leur actif et de leur réseau, ou sa page d'état des réseaux, et prévient qu'un trafic élevé peut causer des retards. Si un retrait échoue, il faut réessayer un peu plus tard, a-t-elle précisé.
+
+## Comment s'est passé le redémarrage
+
+La première phase, le 1er novembre, couvrait 15 actifs et réseaux choisis selon la demande des utilisateurs, dont le bitcoin, l'ether, le BNB, le solana, le XRP et le dogecoin, a rapporté [CoinDesk](L4). Les clients ont réagi vite : Binance a indiqué ce jour-là que ses clients avaient retiré en net 3,64 milliards de dollars, soit environ 2,1 % de ses actifs, au retour en ligne de la plateforme, selon [Reuters](L6).
+
+!figure:fact
+
+!mid_cta
+
+Le 12 novembre, Binance a annoncé avoir achevé la couverture des actifs touchés par le piratage, en mobilisant plus de 6,34 milliards de dollars de fonds de l'entreprise, a rapporté [Bitcoin Magazine](L5). L'argent provient d'une partie de son fonds d'actifs sécurisés pour les utilisateurs (SAFU), une réserve d'urgence, d'une partie de son fonds d'assurance sur les contrats à terme et de sa trésorerie. Binance a racheté des jetons de remplacement sur le marché et de gré à gré, et s'est engagée à reconstituer le SAFU à environ 1 milliard de dollars.
+
+Couvrir les soldes des clients ne revient pas à récupérer les cryptos volées. Le [département américain de la Justice](L7) a indiqué le 12 novembre avoir obtenu l'autorisation d'un tribunal pour saisir ou bloquer plus de 1,2 milliard de dollars de cryptos volées, et le FBI a attribué l'attaque à des pirates nord-coréens. La Corée du Nord a nié toute implication, a noté Reuters.
+
+## Ce que cela signifie pour vous
+
+La plateforme principale de Binance n'accepte pas les clients américains, la plupart des lecteurs aux États-Unis ne sont donc pas directement concernés. L'épisode rappelle toutefois comment fonctionne la garde sur une plateforme. Quand vous laissez des cryptos sur une plateforme, vous dépendez de sa sécurité et de sa volonté de couvrir les pertes. Binance a choisi d'absorber celle-ci, mais les retraits ont été gelés ou limités pendant des jours.
+
+Si vous détenez des cryptos sur une plateforme, gardez quelques réflexes :
+
+- Avant d'envoyer, vérifiez que la plateforme et le portefeuille de destination acceptent le même réseau pour cette monnaie. Des fonds envoyés sur le mauvais réseau peuvent être perdus.
+- Ignorez toute personne qui propose d'« accélérer » ou de « récupérer » un retrait. Binance a prévenu qu'elle ne contacte pas les utilisateurs en premier.
+- Envisagez de placer dans votre propre portefeuille l'épargne à long terme que vous savez gérer, et ne laissez sur la plateforme que ce que vous négociez.
+
+Si vous débutez, une plateforme américaine réglementée comme [Coinbase](REF) est une option ; lisez ses frais et ses conditions avant de vous inscrire. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Une mise à jour de Binance confirmant la réouverture de tous les réseaux et actifs restants, visée pour la fin de la semaine prochaine.
+- La publication éventuelle par Binance d'une liste des réseaux encore suspendus.
+- L'avancement de la reconstitution de la réserve SAFU à environ 1 milliard de dollars.
+- De nouvelles saisies de fonds volés par les autorités américaines.
+
+!soft: Vous hésitez à laisser vos cryptos sur une plateforme ? Lisez [ce qu'est un portefeuille crypto : dépositaire ou auto-garde](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

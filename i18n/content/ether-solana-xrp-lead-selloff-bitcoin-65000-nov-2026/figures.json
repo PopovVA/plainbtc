@@ -1,0 +1,95 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-24h-drops-nov-14.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of 24-hour price drops on Kraken to 1 p.m. Central time on Nov. 14, 2026: bitcoin down 5.0%, ether 5.8%, XRP 6.7% and solana 9.8%",
+      "es": "Gráfico de barras de las caídas de precio en 24 horas en Kraken hasta la 1 p. m. (hora central de EE. UU.) del 14 de noviembre de 2026: bitcoin bajó un 5,0 %, ether un 5,8 %, XRP un 6,7 % y solana un 9,8 %",
+      "pt": "Gráfico de barras das quedas de preço em 24 horas na Kraken até 13h (horário central dos EUA) de 14 de novembro de 2026: bitcoin caiu 5,0%, ether 5,8%, XRP 6,7% e solana 9,8%",
+      "fr": "Graphique en barres des baisses de prix sur 24 heures sur Kraken jusqu'à 13 h (heure du Centre des États-Unis) le 14 novembre 2026 : bitcoin en baisse de 5,0 %, ether de 5,8 %, XRP de 6,7 % et solana de 9,8 %",
+      "de": "Balkendiagramm der 24-Stunden-Kursverluste bei Kraken bis 13 Uhr US-Central-Zeit am 14. November 2026: Bitcoin minus 5,0 %, Ether 5,8 %, XRP 6,7 % und Solana 9,8 %",
+      "ru": "Столбчатая диаграмма падения цен за 24 часа на Kraken к 13:00 по центральному времени США 14 ноября 2026 года: биткоин минус 5,0%, эфир 5,8%, XRP 6,7%, солана 9,8%",
+      "tr": "14 Kasım 2026'da ABD Merkezi saatiyle 13.00'e kadar Kraken'de 24 saatlik fiyat düşüşlerinin çubuk grafiği: bitcoin %5,0, ether %5,8, XRP %6,7 ve solana %9,8 düştü",
+      "id": "Grafik batang penurunan harga 24 jam di Kraken hingga pukul 13.00 waktu Central AS pada 14 November 2026: bitcoin turun 5,0%, ether 5,8%, XRP 6,7%, dan solana 9,8%",
+      "ja": "2026年11月14日午後1時（米中部時間）までの24時間のKrakenでの下落率の棒グラフ：ビットコイン5.0%、イーサ5.8%、XRP6.7%、ソラナ9.8%",
+      "ko": "2026년 11월 14일 오후 1시(미국 중부시간)까지 24시간 동안 크라켄 가격 하락률 막대 차트: 비트코인 5.0%, 이더 5.8%, XRP 6.7%, 솔라나 9.8% 하락"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken hourly prices",
+      "es": "Gráfico: PlainBTC, datos: Kraken hourly prices",
+      "pt": "Gráfico: PlainBTC, dados: Kraken hourly prices",
+      "fr": "Graphique : PlainBTC, données : Kraken hourly prices",
+      "de": "Chart: PlainBTC, Daten: Kraken hourly prices",
+      "ru": "График: PlainBTC, данные: Kraken hourly prices",
+      "tr": "Grafik: PlainBTC, veri: Kraken hourly prices",
+      "id": "Grafik: PlainBTC, data: Kraken hourly prices",
+      "ja": "チャート: PlainBTC、データ: Kraken hourly prices",
+      "ko": "차트: PlainBTC, 데이터: Kraken hourly prices"
+    }
+  },
+  {
+    "id": "ether",
+    "file": "chart-eth-hourly-nov-13-14.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of ether's hourly price on Kraken from Nov. 13 to Nov. 14, 2026, falling from about $2,000 to about $1,830, with a dashed line at the Nov. 14 low of about $1,808",
+      "es": "Gráfico de líneas del precio horario de ether en Kraken del 13 al 14 de noviembre de 2026: cae de unos 2.000 dólares a unos 1.830, con una línea discontinua en el mínimo del 14 de noviembre, de unos 1.808 dólares",
+      "pt": "Gráfico de linha do preço horário do ether na Kraken de 13 a 14 de novembro de 2026: cai de cerca de US$ 2.000 para cerca de US$ 1.830, com uma linha tracejada na mínima de 14 de novembro, de cerca de US$ 1.808",
+      "fr": "Courbe du cours horaire de l'ether sur Kraken du 13 au 14 novembre 2026 : il passe d'environ 2 000 dollars à environ 1 830 dollars, avec une ligne pointillée au plus bas du 14 novembre, environ 1 808 dollars",
+      "de": "Liniendiagramm des stündlichen Ether-Kurses bei Kraken vom 13. bis 14. November 2026: Rückgang von rund 2.000 $ auf rund 1.830 $; gestrichelte Linie beim Tief vom 14. November von rund 1.808 $",
+      "ru": "Линейный график почасовой цены эфира на Kraken 13–14 ноября 2026 года: падение примерно с $2000 до около $1830; пунктирная линия показывает минимум 14 ноября, около $1808",
+      "tr": "Ether'in 13-14 Kasım 2026'da Kraken'deki saatlik fiyatının çizgi grafiği: yaklaşık 2.000 $'dan yaklaşık 1.830 $'a düşüyor; kesikli çizgi 14 Kasım'daki yaklaşık 1.808 $'lık dibi gösteriyor",
+      "id": "Grafik garis harga ether per jam di Kraken pada 13 hingga 14 November 2026: turun dari sekitar US$2.000 ke sekitar US$1.830, dengan garis putus-putus di level terendah 14 November sekitar US$1.808",
+      "ja": "2026年11月13〜14日のKrakenにおけるイーサ1時間足の折れ線グラフ：約2000ドルから約1830ドルに下落。破線は11月14日の安値（約1808ドル）",
+      "ko": "2026년 11월 13~14일 크라켄 이더 시간별 가격 선 차트: 약 2,000달러에서 약 1,830달러로 하락, 점선은 11월 14일 저점 약 1,808달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken ETH/USD hourly closes",
+      "es": "Gráfico: PlainBTC, datos: Kraken ETH/USD hourly closes",
+      "pt": "Gráfico: PlainBTC, dados: Kraken ETH/USD hourly closes",
+      "fr": "Graphique : PlainBTC, données : Kraken ETH/USD hourly closes",
+      "de": "Chart: PlainBTC, Daten: Kraken ETH/USD hourly closes",
+      "ru": "График: PlainBTC, данные: Kraken ETH/USD hourly closes",
+      "tr": "Grafik: PlainBTC, veri: Kraken ETH/USD hourly closes",
+      "id": "Grafik: PlainBTC, data: Kraken ETH/USD hourly closes",
+      "ja": "チャート: PlainBTC、データ: Kraken ETH/USD hourly closes",
+      "ko": "차트: PlainBTC, 데이터: Kraken ETH/USD hourly closes"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-liquidations-1-01b.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: about $1.01 billion in crypto positions were liquidated in 24 hours on Nov. 14, 93% of them bets on rising prices, affecting more than 195,000 traders",
+      "es": "Tarjeta: unos 1.010 millones de dólares en posiciones cripto fueron liquidados en 24 horas el 14 de noviembre; el 93 % eran apuestas al alza y hubo más de 195.000 operadores afectados",
+      "pt": "Cartão: cerca de US$ 1,01 bilhão em posições de cripto foram liquidadas em 24 horas em 14 de novembro; 93% eram apostas na alta, e mais de 195.000 traders foram afetados",
+      "fr": "Encadré : environ 1,01 milliard de dollars de positions crypto ont été liquidées en 24 heures le 14 novembre, dont 93 % de paris à la hausse, touchant plus de 195 000 traders",
+      "de": "Faktenkarte: Rund 1,01 Mrd. $ an Kryptopositionen wurden am 14. November binnen 24 Stunden liquidiert, 93 % davon Wetten auf steigende Kurse; mehr als 195.000 Trader waren betroffen",
+      "ru": "Карточка: около $1,01 млрд криптопозиций ликвидировано за 24 часа 14 ноября, 93% из них были ставками на рост; пострадали более 195 000 трейдеров",
+      "tr": "Kart: 14 Kasım'da 24 saatte yaklaşık 1,01 milyar $'lık kripto pozisyonu tasfiye edildi; bunların %93'ü yükseliş bahsiydi ve 195.000'den fazla yatırımcı etkilendi",
+      "id": "Kartu fakta: sekitar US$1,01 miliar posisi kripto dilikuidasi dalam 24 jam pada 14 November, 93% di antaranya taruhan harga naik, dan lebih dari 195.000 trader terdampak",
+      "ja": "カード：11月14日の24時間で約10億1000万ドルの暗号資産ポジションが清算され、93%が上昇に賭けたポジション。影響を受けたトレーダーは19万5000人超",
+      "ko": "카드: 11월 14일 24시간 동안 약 10억 1,000만 달러 규모의 암호화폐 포지션이 청산됐고, 93%가 상승 베팅이었으며 19만 5,000명 넘는 트레이더가 영향을 받았다"
+    },
+    "caption": {
+      "en": "Source: CoinGlass via Trending Topics",
+      "es": "Fuente: CoinGlass via Trending Topics",
+      "pt": "Fonte: CoinGlass via Trending Topics",
+      "fr": "Source : CoinGlass via Trending Topics",
+      "de": "Quelle: CoinGlass via Trending Topics",
+      "ru": "Источник: CoinGlass via Trending Topics",
+      "tr": "Kaynak: CoinGlass via Trending Topics",
+      "id": "Sumber: CoinGlass via Trending Topics",
+      "ja": "出典: CoinGlass via Trending Topics",
+      "ko": "출처: CoinGlass via Trending Topics"
+    }
+  }
+]

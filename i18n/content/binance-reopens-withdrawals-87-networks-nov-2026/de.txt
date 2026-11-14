@@ -1,0 +1,62 @@
+title: Binance öffnet Auszahlungen in 87 Netzwerken und will nächste Woche fertig sein
+page_title: Binance öffnet Auszahlungen in 87 Netzwerken nach dem 6,3-Mrd.-$-Hack
+description: Binance hat diese Woche nach eigenen Angaben Auszahlungen in 87 Blockchain-Netzwerken wieder geöffnet und will alle übrigen Netzwerke und Assets bis Ende nächster Woche freigeben, nach dem Rekordhack vom 29. Oktober.
+og_description: Zwei Wochen nach einem Hack über 6,3 Mrd. $ laufen Auszahlungen bei Binance in 87 weiteren Netzwerken wieder. Den Rest will die Börse bis Ende nächster Woche öffnen.
+label: Unternehmen
+summary: Binance hat diese Woche Auszahlungen in 87 Netzwerken wieder geöffnet und will alle übrigen Netzwerke und Assets bis Ende nächster Woche freigeben.
+===
+
+Binance, die weltgrößte Kryptobörse, sieht sich kurz vor dem Abschluss ihrer Erholung vom Rekordhack im vergangenen Monat. In einem [Beitrag auf X](L1) am späten Freitagabend US-Zeit teilte das Unternehmen mit, es habe diese Woche Auszahlungen in <strong>87 Netzwerken</strong> wieder geöffnet und strebe an, „Auszahlungen für alle übrigen Netzwerke und Assets bis Ende nächster Woche wieder zu öffnen“.
+
+Das Update ist der jüngste Schritt eines schrittweisen Neustarts, der am 1. November begann, drei Tage nachdem Angreifer am 29. Oktober rund 6,3 Mrd. $ aus den Hot Wallets der Börse erbeutet hatten, berichtete [Reuters](L2). Fachleute sprechen vom größten Kryptodiebstahl der Geschichte.
+
+!takeaways
+- Binance hat diese Woche Auszahlungen in 87 Blockchain-Netzwerken wieder geöffnet, darunter Cardano, Avalanche, Litecoin, NEAR und Stellar.
+- Bis Ende nächster Woche sollen alle übrigen Netzwerke und Assets folgen, ein genaues Datum nannte die Börse nicht.
+- Auszahlungen in Bitcoin, Ether, XRP und Solana kamen als Erste zurück, am 1. November.
+- Am 12. November erklärte Binance, die gestohlenen Assets mit mehr als 6,34 Mrd. $ aus eigenen Mitteln vollständig gedeckt zu haben.
+
+!figure:timeline
+
+## Was diese Woche wieder geöffnet wurde
+
+Ein Netzwerk ist die Blockchain, über die eine Münze verschickt wird. Viele Token lassen sich über mehr als ein Netzwerk senden, deshalb schaltet Binance sie Netzwerk für Netzwerk wieder frei. Laut [Exchange.news](L3), das Binances Recovery-Update vom 14. November ausgewertet hat, gehören diese Woche Avalanche (AVAX), Cardano (ADA), Cosmos (ATOM), Stellar (XLM), NEAR, Litecoin (LTC) sowie mehrere auf Ethereum aufbauende Layer-2-Netzwerke wie Linea, Scroll, Starknet und zkSync Era dazu.
+
+Eine Liste der noch pausierten Netzwerke und Assets hat Binance nicht veröffentlicht, und „Ende nächster Woche“ ist ein Ziel, keine feste Frist. Die Börse bat Nutzer, die Auszahlungsseite für ihr Asset und Netzwerk oder die Netzwerk-Statusseite zu prüfen, und warnte vor Verzögerungen bei hohem Andrang. Scheitert eine Auszahlung, solle man es nach kurzer Zeit erneut versuchen.
+
+## Wie der Neustart bisher lief
+
+Die erste Phase am 1. November umfasste 15 nach Nutzernachfrage ausgewählte Assets und Netzwerke, darunter Bitcoin, Ether, BNB, Solana, XRP und Dogecoin, berichtete [CoinDesk](L4). Die Kunden reagierten schnell: Binance meldete an jenem Tag Nettoabflüsse von 3,64 Mrd. $, rund 2,1 % ihrer Vermögenswerte, als die Börse wieder online ging, so [Reuters](L6).
+
+!figure:fact
+
+!mid_cta
+
+Am 12. November erklärte Binance, die vom Hack betroffenen Assets vollständig gedeckt zu haben, mit mehr als 6,34 Mrd. $ an Firmengeldern, berichtete [Bitcoin Magazine](L5). Das Geld stammte aus einem Teil des Secure Asset Fund for Users (SAFU), einer Notfallreserve, aus einem Teil des Versicherungsfonds für Futures und aus der Unternehmenskasse. Binance kaufte Ersatz-Token am Markt und außerbörslich und hat zugesagt, den SAFU wieder auf rund 1 Mrd. $ aufzufüllen.
+
+Kundenguthaben zu decken heißt nicht, die gestohlenen Coins zurückzubekommen. Das [US-Justizministerium](L7) teilte am 12. November mit, es habe die gerichtliche Genehmigung, mehr als 1,2 Mrd. $ der gestohlenen Kryptowährungen zu beschlagnahmen oder zu sperren, und das FBI macht nordkoreanische Hacker verantwortlich. Nordkorea bestreitet eine Beteiligung, merkte Reuters an.
+
+## Was das für Sie bedeutet
+
+Die Hauptbörse von Binance nimmt keine US-Kunden an, die meisten Leser in den USA sind also nicht direkt betroffen. Trotzdem erinnert der Fall daran, wie die Verwahrung auf einer Börse funktioniert. Wer Coins auf einer Börse lässt, verlässt sich auf deren Sicherheit und deren Bereitschaft, Verluste zu decken. Binance hat diesen Verlust übernommen, doch Auszahlungen waren tagelang eingefroren oder eingeschränkt.
+
+Wer Krypto auf einer Börse hält, sollte sich ein paar Gewohnheiten zulegen:
+
+- Prüfen Sie vor dem Senden, ob Börse und Empfänger-Wallet dasselbe Netzwerk für diese Münze unterstützen. Über das falsche Netzwerk gesendete Coins können verloren gehen.
+- Ignorieren Sie alle, die anbieten, eine Auszahlung zu „beschleunigen“ oder „wiederherzustellen“. Binance hat gewarnt, dass sie Nutzer nicht von sich aus kontaktiert.
+- Überlegen Sie, langfristige Ersparnisse, mit deren Verwaltung Sie sich auskennen, in eine eigene Wallet zu verschieben, und nur das auf der Börse zu lassen, womit Sie handeln.
+
+Wenn Sie gerade erst anfangen, ist eine regulierte US-Börse wie [Coinbase](REF) eine Option; lesen Sie vor der Anmeldung Gebühren und Bedingungen. Dies ist keine Anlageberatung.
+
+## Worauf es jetzt ankommt
+
+- Ein Binance-Update, das die Öffnung aller übrigen Netzwerke und Assets bestätigt, angepeilt für Ende nächster Woche.
+- Ob Binance eine Liste der noch pausierten Netzwerke veröffentlicht.
+- Fortschritte beim Wiederauffüllen der SAFU-Reserve auf rund 1 Mrd. $.
+- Weitere Beschlagnahmen gestohlener Gelder durch US-Behörden.
+
+!soft: Unsicher, ob Sie Coins auf einer Börse lassen sollten? Lesen Sie [was eine Krypto-Wallet ist: Verwahrung oder Selbstverwahrung](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

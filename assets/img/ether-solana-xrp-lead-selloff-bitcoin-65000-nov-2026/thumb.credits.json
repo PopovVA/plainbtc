@@ -1,0 +1,21 @@
+{
+  "kind": "chart",
+  "sources": [
+    {
+      "file": "Kraken OHLC XBTUSD/ETHUSD/XRPUSD/SOLUSD interval=60",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Hourly closes, Nov 13 19:00 - Nov 14 19:00 UTC, from Kraken"
+    }
+  ],
+  "slug": "ether-solana-xrp-lead-selloff-bitcoin-65000-nov-2026",
+  "generated": "2026-11-14T19:09Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

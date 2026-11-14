@@ -1,0 +1,62 @@
+title: Binance buka lagi penarikan di 87 jaringan dan targetkan rampung pekan depan
+page_title: Binance buka lagi penarikan di 87 jaringan setelah peretasan US$6,3 miliar
+description: Binance menyatakan telah membuka kembali penarikan di 87 jaringan blockchain pekan ini dan menargetkan memulihkan semua jaringan dan aset yang tersisa paling lambat akhir pekan depan, setelah peretasan rekor pada 29 Oktober.
+og_description: Dua pekan setelah peretasan US$6,3 miliar, Binance menyatakan penarikan kembali berjalan di 87 jaringan lagi dan menargetkan membuka sisanya paling lambat akhir pekan depan.
+label: Bisnis
+summary: Binance menyatakan telah membuka kembali penarikan di 87 jaringan pekan ini dan menargetkan memulihkan semua jaringan dan aset yang tersisa paling lambat akhir pekan depan.
+===
+
+Binance, bursa kripto terbesar di dunia, mengatakan pemulihannya dari peretasan rekor bulan lalu hampir selesai. Dalam [unggahan di X](L1) pada Jumat larut malam waktu AS, perusahaan itu menyatakan telah membuka kembali penarikan di <strong>87 jaringan</strong> pekan ini dan akan "berupaya membuka kembali penarikan untuk semua jaringan dan aset yang tersisa paling lambat akhir pekan depan."
+
+Pembaruan ini adalah langkah terbaru dari pembukaan bertahap yang dimulai pada 1 November, tiga hari setelah penyerang mengambil sekitar US$6,3 miliar dari hot wallet bursa itu pada 29 Oktober, lapor [Reuters](L2). Para ahli menyebutnya pencurian kripto terbesar yang pernah tercatat.
+
+!takeaways
+- Binance menyatakan telah membuka kembali penarikan di 87 jaringan blockchain pekan ini, termasuk Cardano, Avalanche, Litecoin, NEAR, dan Stellar.
+- Binance menargetkan membuka penarikan untuk semua jaringan dan aset yang tersisa paling lambat akhir pekan depan, tetapi belum memberi tanggal pasti.
+- Penarikan bitcoin, ether, XRP, dan solana menjadi yang pertama dibuka, pada 1 November.
+- Binance menyatakan pada 12 November bahwa pihaknya telah selesai menutup aset yang dicuri dengan lebih dari US$6,34 miliar dana sendiri.
+
+!figure:timeline
+
+## Apa yang dibuka pekan ini
+
+Jaringan adalah blockchain tempat sebuah koin dikirim. Banyak token bisa dikirim lewat lebih dari satu jaringan, jadi Binance mengaktifkannya kembali satu jaringan demi satu jaringan. Menurut [Exchange.news](L3), yang meninjau pembaruan pemulihan Binance tanggal 14 November, daftar pekan ini mencakup Avalanche (AVAX), Cardano (ADA), Cosmos (ATOM), Stellar (XLM), NEAR, Litecoin (LTC), serta beberapa jaringan layer-2 yang dibangun di atas Ethereum, seperti Linea, Scroll, Starknet, dan zkSync Era.
+
+Binance tidak merilis daftar jaringan dan aset yang masih dijeda, dan "akhir pekan depan" adalah target, bukan tenggat yang pasti. Bursa itu meminta pengguna memeriksa halaman penarikan untuk aset dan jaringan mereka, atau halaman status jaringan, dan memperingatkan bahwa lalu lintas tinggi bisa menyebabkan penundaan. Jika penarikan gagal, pengguna diminta mencoba lagi setelah beberapa saat.
+
+## Bagaimana pembukaan kembali berjalan
+
+Tahap pertama pada 1 November mencakup 15 aset dan jaringan yang dipilih berdasarkan permintaan pengguna, termasuk bitcoin, ether, BNB, solana, XRP, dan dogecoin, lapor [CoinDesk](L4). Nasabah bergerak cepat: Binance menyatakan hari itu bahwa nasabah menarik bersih US$3,64 miliar, atau sekitar 2,1% dari asetnya, saat bursa kembali beroperasi, menurut [Reuters](L6).
+
+!figure:fact
+
+!mid_cta
+
+Pada 12 November, Binance menyatakan telah menuntaskan penutupan aset yang terdampak peretasan dengan menggelontorkan lebih dari US$6,34 miliar dana perusahaan, lapor [Bitcoin Magazine](L5). Dananya berasal dari sebagian Secure Asset Fund for Users (SAFU), sebuah cadangan darurat, sebagian dana asuransi futures, dan kas perusahaan. Binance membeli token pengganti di pasar terbuka dan lewat transaksi over-the-counter, serta berjanji membangun kembali SAFU hingga sekitar US$1 miliar.
+
+Menutup saldo nasabah tidak sama dengan mendapatkan kembali koin yang dicuri. [Departemen Kehakiman AS](L7) menyatakan pada 12 November bahwa pihaknya mendapat izin pengadilan untuk menyita atau membekukan lebih dari US$1,2 miliar kripto curian, dan FBI menuding peretas Korea Utara. Korea Utara membantah terlibat, catat Reuters.
+
+## Artinya bagi Anda
+
+Bursa utama Binance tidak menerima nasabah AS, jadi sebagian besar pembaca di Amerika tidak terdampak langsung. Meski begitu, kejadian ini mengingatkan cara kerja penyimpanan di bursa. Saat menyimpan koin di bursa, Anda bergantung pada keamanan perusahaan itu dan kesediaannya menanggung kerugian. Binance memilih menanggung kerugian ini, tetapi penarikan dibekukan atau dibatasi selama berhari-hari.
+
+Jika Anda menyimpan kripto di bursa mana pun, biasakan beberapa hal:
+
+- Sebelum mengirim, pastikan bursa dan dompet penerima mendukung jaringan yang sama untuk koin tersebut. Koin yang dikirim lewat jaringan yang salah bisa hilang.
+- Abaikan siapa pun yang menawarkan untuk "mempercepat" atau "memulihkan" penarikan. Binance telah memperingatkan bahwa pihaknya tidak menghubungi pengguna lebih dulu.
+- Pertimbangkan memindahkan tabungan jangka panjang yang Anda pahami cara mengelolanya ke dompet sendiri, dan simpan di bursa hanya yang Anda perdagangkan.
+
+Jika Anda baru mulai, bursa teregulasi di AS seperti [Coinbase](REF) adalah salah satu pilihan; baca biaya dan ketentuannya sebelum mendaftar. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Pembaruan Binance yang memastikan semua jaringan dan aset yang tersisa sudah dibuka kembali, yang ditargetkan akhir pekan depan.
+- Apakah Binance merilis daftar jaringan yang masih dijeda.
+- Kemajuan pembangunan kembali cadangan SAFU hingga sekitar US$1 miliar.
+- Penyitaan dana curian berikutnya oleh otoritas AS.
+
+!soft: Ragu apakah sebaiknya menyimpan koin di bursa? Baca [apa itu dompet kripto: kustodian atau kustodi mandiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

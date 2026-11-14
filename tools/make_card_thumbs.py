@@ -833,6 +833,50 @@ def thumb_unocoin_keys():
     ],"note":"Editorial composite for identification; trademarks belong to their owners."}
 
 
+def thumb_alt_selloff():
+    """Kraken hourly closes for BTC, ETH, XRP, SOL as % change from Nov 13 19:00 UTC to Nov 14 19:00 UTC."""
+    t0 = datetime(2026, 11, 13, 19, tzinfo=timezone.utc); t1 = datetime(2026, 11, 14, 19, tzinfo=timezone.utc)
+    fig, ax = plt.subplots(figsize=(6.4,3.6), dpi=100); fig.patch.set_facecolor("#0f1419")
+    style_ax(ax, "")
+    for name, pair, col in [("BTC", "XBTUSD", "#f7931a"), ("ETH", "ETHUSD", "#818cf8"), ("XRP", "XRPUSD", "#cbd5e1"), ("SOL", "SOLUSD", "#f87171")]:
+        xs, closes = kraken_ohlc(60, pair)
+        pts = [(x, c) for x, c in zip(xs, closes) if t0 <= x <= t1]
+        base_px = pts[0][1]
+        ys = [(c / base_px - 1) * 100 for _, c in pts]
+        ax.plot([p[0] for p in pts], ys, color=col, linewidth=2.0, label=name)
+    ax.axhline(0, color="#475569", linewidth=1)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v,_: f"{v:.0f}%"))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%H:%M"))
+    leg = ax.legend(loc="lower left", fontsize=9, frameon=False)
+    for t in leg.get_texts(): t.set_color("#e2e8f0")
+    im = chart_to_image(fig)
+    label_chip(im, "24-hour change, Nov. 13-14 (Kraken, UTC)")
+    return im, {"kind":"chart","sources":[
+        {"file":"Kraken OHLC XBTUSD/ETHUSD/XRPUSD/SOLUSD interval=60","license":"Kraken public API","url":"https://docs.kraken.com/api/docs/rest-api/get-ohlc-data","credit":"Hourly closes, Nov 13 19:00 - Nov 14 19:00 UTC, from Kraken"}
+    ]}
+
+
+def thumb_binance_reopen():
+    """Binance logo (identification) with the figure from Binance's Nov 14, 2026 X post."""
+    binance = fetch("https://upload.wikimedia.org/wikipedia/commons/e/e8/Binance_Logo.svg", CACHE/"binance-logo.svg")
+    base = gradient_bg()
+    card_w, card_h = 230, 200
+    x, y = 70, 80
+    tile = Image.new("RGBA", (card_w, card_h), (26,35,50,235))
+    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), (x, y), mask)
+    paste_contain(base, Image.open(binance).convert("RGBA"), (x, y, card_w, card_h), pad=24)
+    d = ImageDraw.Draw(base)
+    d.text((350, 92), "87", font=font(FONT_B, 92), fill=ORANGE)
+    d.text((352, 200), "networks reopened", font=font(FONT_B, 22), fill=WHITE)
+    d.text((352, 232), "for withdrawals this week", font=font(FONT_R, 18), fill=(203,213,225))
+    label_chip(base, "Binance · withdrawals")
+    return base, {"kind":"composite","sources":[
+        {"file":"Binance_Logo.svg","license":"Logo","url":"https://commons.wikimedia.org/wiki/File:Binance_Logo.svg","credit":"Binance"},
+        {"file":"Binance post on X, Nov. 14, 2026","license":"Figure cited","url":"https://x.com/binance/status/2121452596171010552","credit":"Binance"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -864,6 +908,8 @@ BUILDERS = {
     "crypto-treasury-firms-loans-nakamoto-btcs-nov-2026": thumb_treasury_loans,
     "bitcoin-below-67000-sixth-weekly-loss-nov-2026": thumb_btc_below_67k,
     "unocoin-hack-bitgo-backup-keys-nov-2026": thumb_unocoin_keys,
+    "ether-solana-xrp-lead-selloff-bitcoin-65000-nov-2026": thumb_alt_selloff,
+    "binance-reopens-withdrawals-87-networks-nov-2026": thumb_binance_reopen,
 }
 
 def first_figure_source(slug: str) -> Path | None:

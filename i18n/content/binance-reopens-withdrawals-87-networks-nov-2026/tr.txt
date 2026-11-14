@@ -1,0 +1,62 @@
+title: Binance 87 ağda çekimleri yeniden açtı, gelecek hafta tamamlamayı hedefliyor
+page_title: Binance, 6,3 milyar $'lık saldırının ardından 87 ağda çekimleri açtı
+description: Binance bu hafta 87 blokzincir ağında çekimleri yeniden açtığını ve 29 Ekim'deki rekor saldırının ardından kalan tüm ağ ve varlıkları gelecek hafta sonuna kadar açmayı hedeflediğini söylüyor.
+og_description: 6,3 milyar $'lık saldırıdan iki hafta sonra Binance, çekimlerin 87 ağda daha yeniden çalıştığını ve kalanları gelecek hafta sonuna kadar açmayı hedeflediğini söylüyor.
+label: İş dünyası
+summary: Binance bu hafta 87 ağda çekimleri yeniden açtığını ve kalan tüm ağ ve varlıkları gelecek hafta sonuna kadar açmayı hedeflediğini söylüyor.
+===
+
+Dünyanın en büyük kripto borsası Binance, geçen ayki rekor saldırının ardından toparlanmayı neredeyse tamamladığını söylüyor. Şirket, ABD saatiyle cuma gece geç saatte [X'te paylaştığı gönderide](L1) bu hafta <strong>87 ağda</strong> çekimleri yeniden açtığını ve "kalan tüm ağ ve varlıklar için çekimleri gelecek hafta sonuna kadar yeniden açmayı hedeflediğini" bildirdi.
+
+Bu güncelleme, saldırganların 29 Ekim'de borsanın sıcak cüzdanlarından yaklaşık 6,3 milyar $ almasından üç gün sonra, 1 Kasım'da başlayan aşamalı yeniden açılışın son adımı, diye bildirdi [Reuters](L2). Uzmanlar olayı kayıtlara geçen en büyük kripto hırsızlığı olarak nitelendiriyor.
+
+!takeaways
+- Binance bu hafta Cardano, Avalanche, Litecoin, NEAR ve Stellar dahil 87 blokzincir ağında çekimleri yeniden açtığını söylüyor.
+- Kalan tüm ağ ve varlıklarda çekimleri gelecek hafta sonuna kadar açmayı hedefliyor, ancak kesin bir tarih vermedi.
+- İlk olarak 1 Kasım'da bitcoin, ether, XRP ve solana çekimleri geri geldi.
+- Binance 12 Kasım'da, çalınan varlıkları kendi parasından 6,34 milyar $'ı aşan bir tutarla karşılamayı tamamladığını açıkladı.
+
+!figure:timeline
+
+## Bu hafta neler açıldı
+
+Ağ, bir coinin üzerinde transfer edildiği blokzincirdir. Birçok token birden fazla ağ üzerinden gönderilebildiği için Binance çekimleri ağ ağ yeniden açıyor. Binance'in 14 Kasım tarihli güncellemesini inceleyen [Exchange.news](L3)'e göre bu haftaki listede Avalanche (AVAX), Cardano (ADA), Cosmos (ATOM), Stellar (XLM), NEAR, Litecoin (LTC) ve Linea, Scroll, Starknet ile zkSync Era gibi Ethereum üzerine kurulu birkaç katman 2 ağı yer alıyor.
+
+Binance hâlâ durdurulmuş olan ağ ve varlıkların listesini yayımlamadı; "gelecek hafta sonu" ise kesin bir son tarih değil, bir hedef. Borsa kullanıcılardan varlıkları ve ağları için çekim sayfasını ya da ağ durum sayfasını kontrol etmelerini istedi ve yoğun trafiğin gecikmelere yol açabileceği uyarısında bulundu. Bir çekim başarısız olursa kısa bir süre sonra yeniden denenmesi gerektiğini belirtti.
+
+## Yeniden açılış nasıl ilerledi
+
+1 Kasım'daki ilk aşama, kullanıcı talebine göre seçilen ve aralarında bitcoin, ether, BNB, solana, XRP ve dogecoin'in de bulunduğu 15 varlık ve ağı kapsadı, diye bildirdi [CoinDesk](L4). Müşteriler hızlı davrandı: [Reuters](L6)'a göre Binance o gün, borsa yeniden çevrimiçi olduğunda müşterilerin net 3,64 milyar $, yani varlıklarının yaklaşık %2,1'ini çektiğini söyledi.
+
+!figure:fact
+
+!mid_cta
+
+[Bitcoin Magazine](L5)'in aktardığına göre Binance 12 Kasım'da, saldırıdan etkilenen varlıkların karşılanmasını şirket kaynaklarından 6,34 milyar $'ı aşan bir tutarla tamamladığını açıkladı. Para, bir acil durum rezervi olan Kullanıcılar için Güvenli Varlık Fonu'nun (SAFU) bir kısmından, vadeli işlem sigorta fonunun bir kısmından ve şirket hazinesinden geldi. Binance yerine koyacağı tokenleri açık piyasadan ve tezgâh üstü işlemlerle satın aldı ve SAFU'yu yeniden yaklaşık 1 milyar $'a çıkarma sözü verdi.
+
+Müşteri bakiyelerini karşılamak, çalınan coinleri geri almakla aynı şey değil. [ABD Adalet Bakanlığı](L7) 12 Kasım'da çalınan kriptodan 1,2 milyar $'ı aşan kısmına el koymak veya dondurmak için mahkeme onayı aldığını açıkladı; FBI ise saldırıdan Kuzey Koreli bilgisayar korsanlarını sorumlu tutuyor. Reuters'ın belirttiğine göre Kuzey Kore olayla ilgisi olduğunu reddetti.
+
+## Sizin için anlamı
+
+Binance'in ana borsası ABD'li müşteri kabul etmiyor, bu yüzden Amerikalı okuyucuların çoğu doğrudan etkilenmiyor. Yine de olay, borsada saklamanın nasıl işlediğini hatırlatıyor. Coinlerinizi bir borsada tuttuğunuzda o şirketin güvenliğine ve kayıpları karşılama isteğine güvenirsiniz. Binance bu kaybı üstlenmeyi seçti, ancak çekimler günlerce donduruldu veya kısıtlandı.
+
+Herhangi bir borsada kripto tutuyorsanız birkaç alışkanlık edinin:
+
+- Göndermeden önce borsanın ve alıcı cüzdanın o coin için aynı ağı desteklediğini kontrol edin. Yanlış ağdan gönderilen coinler kaybolabilir.
+- Bir çekimi "hızlandırmayı" veya "kurtarmayı" teklif eden herkesi görmezden gelin. Binance, kullanıcılarla ilk olarak kendisinin iletişime geçmediği uyarısında bulundu.
+- Yönetmeyi bildiğiniz uzun vadeli birikimlerinizi kendi cüzdanınıza taşımayı düşünün ve borsada yalnızca alım satım yaptığınız kısmı tutun.
+
+Yeni başlıyorsanız [Coinbase](REF) gibi ABD'de düzenlemeye tabi bir borsa seçeneklerden biri; kaydolmadan önce ücretlerini ve koşullarını okuyun. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Kalan tüm ağ ve varlıkların yeniden açıldığını doğrulayan, gelecek hafta sonu için hedeflenen bir Binance güncellemesi.
+- Binance'in hâlâ durdurulmuş ağların listesini yayımlayıp yayımlamayacağı.
+- SAFU rezervinin yeniden yaklaşık 1 milyar $'a çıkarılmasındaki ilerleme.
+- ABD makamlarının çalınan fonlara yönelik yeni el koymaları.
+
+!soft: Coinlerinizi borsada tutup tutmamakta kararsız mısınız? [Kripto cüzdan nedir: emanetçi mi, kendi saklaman mı](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

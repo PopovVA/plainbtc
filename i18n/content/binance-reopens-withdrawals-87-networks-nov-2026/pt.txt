@@ -1,0 +1,62 @@
+title: Binance reabre saques em 87 redes e pretende concluir na próxima semana
+page_title: Binance reabre saques em 87 redes após ataque de US$ 6,3 bilhões
+description: A Binance diz que reabriu os saques em 87 redes blockchain nesta semana e pretende restabelecer todas as redes e ativos restantes até o fim da próxima semana, após o ataque recorde de 29 de outubro.
+og_description: Duas semanas depois de um ataque de US$ 6,3 bilhões, a Binance diz que os saques voltaram em mais 87 redes e pretende reabrir o restante até o fim da próxima semana.
+label: Negócios
+summary: A Binance diz que reabriu os saques em 87 redes nesta semana e pretende restabelecer todas as redes e ativos restantes até o fim da próxima semana.
+===
+
+A Binance, maior corretora de criptomoedas do mundo, diz estar perto de concluir a recuperação do ataque recorde do mês passado. Em uma [publicação no X](L1) na noite de sexta-feira (horário dos EUA), a empresa disse que reabriu os saques em <strong>87 redes</strong> nesta semana e que "pretende reabrir os saques de todas as redes e ativos restantes até o fim da próxima semana".
+
+A atualização é a etapa mais recente de uma retomada em fases que começou em 1º de novembro, três dias depois de atacantes levarem cerca de US$ 6,3 bilhões das carteiras quentes da corretora em 29 de outubro, informou a [Reuters](L2). Especialistas classificaram o caso como o maior roubo de criptomoedas já registrado.
+
+!takeaways
+- A Binance diz que reabriu nesta semana os saques em 87 redes blockchain, entre elas Cardano, Avalanche, Litecoin, NEAR e Stellar.
+- Ela pretende reabrir os saques de todas as redes e ativos restantes até o fim da próxima semana, mas não deu uma data exata.
+- Os saques de bitcoin, ether, XRP e solana foram os primeiros a voltar, em 1º de novembro.
+- A Binance disse em 12 de novembro que concluiu a cobertura dos ativos roubados com mais de US$ 6,34 bilhões do próprio dinheiro.
+
+!figure:timeline
+
+## O que reabriu nesta semana
+
+Uma rede é a blockchain pela qual uma moeda circula. Muitos tokens podem ser enviados por mais de uma rede, por isso a Binance vem religando os saques rede por rede. Segundo o [Exchange.news](L3), que analisou a atualização de recuperação da Binance de 14 de novembro, a lista desta semana inclui Avalanche (AVAX), Cardano (ADA), Cosmos (ATOM), Stellar (XLM), NEAR, Litecoin (LTC) e várias redes de camada 2 construídas sobre o Ethereum, como Linea, Scroll, Starknet e zkSync Era.
+
+A Binance não publicou uma lista das redes e ativos que continuam pausados, e "o fim da próxima semana" é uma meta, não um prazo firme. A corretora pediu que os usuários verifiquem a página de saque do ativo e da rede, ou a página de status das redes, e alertou que o tráfego intenso pode causar atrasos. Se um saque falhar, disse, o usuário deve tentar de novo depois de algum tempo.
+
+## Como tem sido a retomada
+
+A primeira fase, em 1º de novembro, cobriu 15 ativos e redes escolhidos pela demanda dos usuários, incluindo bitcoin, ether, BNB, solana, XRP e dogecoin, informou o [CoinDesk](L4). Os clientes agiram rápido: a Binance disse naquele dia que os clientes haviam retirado em termos líquidos US$ 3,64 bilhões, cerca de 2,1% dos seus ativos, quando a corretora voltou ao ar, segundo a [Reuters](L6).
+
+!figure:fact
+
+!mid_cta
+
+Em 12 de novembro, a Binance disse que concluiu a cobertura dos ativos afetados pelo ataque, comprometendo mais de US$ 6,34 bilhões em recursos da empresa, informou a [Bitcoin Magazine](L5). O dinheiro veio de parte do seu Fundo de Ativos Seguros para Usuários (SAFU), uma reserva de emergência, de parte do fundo de seguro de futuros e do caixa corporativo. A Binance comprou tokens de reposição no mercado aberto e em negociações de balcão, e se comprometeu a reconstruir o SAFU até cerca de US$ 1 bilhão.
+
+Cobrir os saldos dos clientes não é o mesmo que recuperar as moedas roubadas. O [Departamento de Justiça dos EUA](L7) disse em 12 de novembro que obteve autorização judicial para apreender ou bloquear mais de US$ 1,2 bilhão das criptomoedas roubadas, e o FBI atribuiu o ataque a hackers norte-coreanos. A Coreia do Norte negou envolvimento, observou a Reuters.
+
+## O que isso significa para você
+
+A corretora principal da Binance não aceita clientes dos EUA, então a maioria dos leitores americanos não é afetada diretamente. Ainda assim, o episódio é um bom lembrete de como funciona a custódia em corretoras. Quando você deixa moedas em uma corretora, depende da segurança dela e da disposição de cobrir prejuízos. A Binance decidiu arcar com este, mas os saques ficaram congelados ou limitados por dias.
+
+Se você mantém criptomoedas em qualquer corretora, cultive alguns hábitos:
+
+- Antes de enviar, confira se a corretora e a carteira de destino aceitam a mesma rede para aquela moeda. Moedas enviadas pela rede errada podem ser perdidas.
+- Ignore quem oferecer "acelerar" ou "recuperar" um saque. A Binance já avisou que não procura os usuários primeiro.
+- Considere transferir para sua própria carteira as economias de longo prazo que você sabe administrar, e deixe na corretora só o que você negocia.
+
+Se você está começando, uma corretora regulada dos EUA como a [Coinbase](REF) é uma opção; leia as taxas e os termos antes de se cadastrar. Isto não é recomendação de investimento.
+
+## O que acompanhar
+
+- Uma atualização da Binance confirmando que todas as redes e ativos restantes foram reabertos, prevista para o fim da próxima semana.
+- Se a Binance publicará uma lista das redes que continuam pausadas.
+- O andamento da reconstrução da reserva SAFU até cerca de US$ 1 bilhão.
+- Novas apreensões de fundos roubados pelas autoridades dos EUA.
+
+!soft: Em dúvida se deve deixar moedas em uma corretora? Leia [o que é uma carteira cripto: custodial ou autocustódia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

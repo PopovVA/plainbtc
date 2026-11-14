@@ -1,0 +1,62 @@
+title: Ether, Solana und XRP fallen stärker als Bitcoin, der kurz 65.000 $ berührt
+page_title: Ether, Solana und XRP führen den Krypto-Ausverkauf an, Bitcoin bei 65.000 $
+description: Bitcoin berührte am Samstag bei Kraken kurz 65.000 $. Ether fiel auf rund 1.808 $, den tiefsten Stand seit Juli, Solana verlor an einem Tag fast 10 % und XRP rutschte unter 1 $.
+og_description: Der Ausverkauf am Samstag traf vor allem Altcoins. Solana fiel binnen 24 Stunden um fast 10 %, Ether erreichte den tiefsten Kurs seit Juli und XRP rutschte unter 1 $, während rund 1 Mrd. $ an Wetten liquidiert wurden.
+label: Markt
+summary: Solana verlor an einem Tag fast 10 %, Ether fiel auf den tiefsten Kurs seit Juli und XRP rutschte unter 1 $, während Bitcoin kurz 65.000 $ berührte.
+===
+
+Der Kryptomarkt ist am Samstag noch eine Stufe tiefer gefallen, und diesmal traf es die kleineren Coins am härtesten. Bitcoin wurde bei Kraken in der Stunde ab 10 Uhr US-Central-Zeit kurz zu <strong>64.999 $</strong> gehandelt, knapp unter 65.000 $, und erholte sich bis 13 Uhr auf rund 65.500 $. Das war etwa 5 % weniger als zur gleichen Zeit am Freitag.
+
+Die großen Altcoins fielen noch deutlicher. Ether, die zweitgrößte Kryptowährung, sank bei Kraken auf rund <strong>1.808 $</strong>, den tiefsten Kurs seit Mitte Juli. Solana rutschte auf etwa 71,84 $, den tiefsten Stand seit Anfang August, und XRP fiel unter 1 $ bis auf rund 0,945 $. In den 24 Stunden bis 13 Uhr Central-Zeit verlor Solana rund 9,8 %, XRP 6,7 %, Ether 5,8 % und Bitcoin 5,0 %, wie eine Berechnung von PlainBTC auf Basis der öffentlichen Kursdaten von Kraken zeigt.
+
+!takeaways
+- Bitcoin berührte am Samstagvormittag US-Zeit bei Kraken 64.999 $, den tiefsten Kurs seit dem 19. August.
+- Ether fiel auf rund 1.808 $, den tiefsten Stand seit Mitte Juli, Solana auf rund 71,84 $, den tiefsten seit Anfang August.
+- Rund 1,01 Mrd. $ an gehebelten Kryptopositionen wurden binnen 24 Stunden liquidiert, 93 % davon Wetten auf steigende Kurse, zeigen Daten von CoinGlass.
+- US-Spot-Ether-ETFs verzeichneten diese Woche Nettoabflüsse von rund 399 Mio. $, zusätzlich zu den Verkäufen bei Bitcoin-ETFs.
+
+!figure:chart
+
+## Altcoins trifft es härter
+
+Kleinere Kryptowährungen schwanken meist stärker als Bitcoin, in beide Richtungen, und der Samstag war ein deutliches Beispiel. Laut CoinGecko-Kursen, die [Trending Topics](L1) zitiert, verloren Solana, Cardano und Hyperliquid an einem Tag jeweils fast 10 %, Ether rund 6 % und XRP rund 7 %. Nur wenige Coins wie Tron hielten sich.
+
+Die Wochenzahlen zeigen dasselbe Bild. Gemessen an der Montagseröffnung bei Kraken lag Bitcoin am Samstagnachmittag rund 12,4 % im Minus. Ether verlor 13,9 %, XRP 14,2 % und Solana 16,5 %. CoinGecko bezifferte den Wert des gesamten Kryptomarkts auf rund 2,22 Billionen $, mehr als 7 % weniger als am Vortag.
+
+!figure:ether
+
+## Rund 1 Mrd. $ an Zwangsverkäufen
+
+Ein großer Teil der Bewegung kam von Händlern, die mit geliehenem Geld handeln. Fällt der Kurs weit genug, schließen Börsen gehebelte Wetten automatisch, wenn die Sicherheiten nicht mehr reichen, und diese Zwangsverkäufe können den Kurs weiter drücken.
+
+CoinGlass-Daten, über die Trending Topics berichtete, zeigten am Samstag rund <strong>1,01 Mrd. $</strong> an liquidierten Kryptopositionen binnen 24 Stunden, 93 % davon Wetten auf steigende Kurse. Mehr als 195.000 Trader waren betroffen, und rund 553 Mio. $ entfielen auf die vier Stunden des jüngsten Rutsches. Die größte Einzelliquidation war eine Ether-Position über 10,45 Mio. $ bei Binance. Eine frühere CoinGlass-Auswertung, die [CoinScreamer](L2) zitiert, zeigte 880,7 Mio. $ an Liquidationen in 24 Stunden, mit rund 92,6 % Long-Positionen.
+
+!mid_cta
+
+!figure:fact
+
+## Auch Ether-Fonds verlieren Geld
+
+Nicht nur Bitcoin-Fonds verzeichnen Abflüsse. Laut [Farside Investors](L3) hatten US-Spot-Ether-Fonds (ETFs) in der Woche vom 9. bis 13. November Nettoabflüsse von rund 399 Mio. $. Den Großteil davon trug BlackRocks ETHA-Fonds mit rund 311 Mio. $ an Abflüssen in dieser Woche. Am Freitag gab es nach sechs Tagen mit Abflüssen in Folge einen kleinen Nettozufluss von 2,3 Mio. $.
+
+Bei Bitcoin verzeichnen die US-Spot-Fonds seit sieben Handelstagen in Folge Abflüsse, zusammen rund 1,91 Mrd. $, berichtete [Investing.com](L4). Händler verweisen zudem auf die Sorge, dass die US-Notenbank Fed im Dezember die Zinsen anhebt. Das hat den Dollar und die Anleiherenditen steigen lassen und riskantere Anlagen weniger attraktiv gemacht.
+
+Am Wochenende können Bewegungen größer ausfallen als sonst. Börsen und ETFs sind geschlossen, es gibt weniger Käufer und Verkäufer, und schon eine kleine Welle von Orders kann den Kurs stärker bewegen.
+
+## Was das für Einsteiger bedeutet
+
+Ein Tag wie dieser zeigt, warum Altcoins meist riskanter sind als Bitcoin: Sie fallen schneller, wenn der Markt dreht. Wer neu ist, sollte auf Hebel verzichten, Kryptopositionen im Verhältnis zu den Ersparnissen klein halten und sich auf Anlagen konzentrieren, die er versteht. Manche Einsteiger kaufen lieber regelmäßig einen festen Dollarbetrag, statt den Tiefpunkt erwischen zu wollen. Eine regulierte US-Börse wie [Coinbase](REF) bietet Sparpläne an; vergleichen Sie die Gebühren und lesen Sie die Bedingungen, bevor Sie beginnen. Dies ist keine Anlageberatung.
+
+## Worauf es jetzt ankommt
+
+- Der Wochenschluss am Sonntag, der auf den sechsten Wochenverlust in Folge für Bitcoin zusteuert, und ob die Marke von 65.000 $ hält.
+- Die Flüsse der Spot-Bitcoin- und Ether-ETFs, wenn die US-Märkte am Montag, 16. November, wieder öffnen.
+- Das Protokoll der Oktober-Sitzung der Fed, das am Mittwoch erscheint.
+- Ob Ether wieder über 1.850 $ und XRP über 1 $ steigt.
+
+!soft: Neu bei solchen Marktschwankungen? Lesen Sie, [wie viel Bitcoin Einsteiger kaufen sollten](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

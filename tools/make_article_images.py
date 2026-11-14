@@ -2383,6 +2383,148 @@ def build_unocoin_hack():
     ]
 
 
+def _kraken_open(pair: str, ts: int) -> float:
+    url = f"https://api.kraken.com/0/public/OHLC?pair={pair}&interval=60"
+    req = urllib.request.Request(url, headers={"User-Agent": "PlainBTC/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read().decode())
+    rows = next(v for k, v in data["result"].items() if k != "last")
+    return next(float(r[1]) for r in rows if int(r[0]) == ts)
+
+
+def build_alt_selloff():
+    slug = "ether-solana-xrp-lead-selloff-bitcoin-65000-nov-2026"
+    d = OUT / slug
+    # 24h change on Kraken: open of the Nov 13 19:00 UTC hourly bar vs open of the Nov 14 19:00 UTC bar (1 p.m. CT).
+    t1 = 1794682800
+    t0 = t1 - 86400
+    pairs = [("Bitcoin", "XBTUSD"), ("Ether", "ETHUSD"), ("XRP", "XRPUSD"), ("Solana", "SOLUSD")]
+    drops = []
+    for _name, pair in pairs:
+        a, b = _kraken_open(pair, t0), _kraken_open(pair, t1)
+        drops.append(round((1 - b / a) * 100, 1))
+    print("  24h drops", drops)  # expected about 5.0, 5.8, 6.7, 9.8
+    chart = make_bar_chart(
+        d / "chart-24h-drops-nov-14",
+        [p[0] for p in pairs], drops,
+        "24-hour price drop to 1 p.m. CT, Nov. 14, 2026 (Kraken), %",
+        colors=["#f7931a", "#818cf8", "#94a3b8", "#f87171"],
+        value_fmt=lambda v: f"-{v:.1f}%",
+        axis_fmt=lambda x, _p: f"{x:.0f}%",
+    )
+    # Kraken ETHUSD hourly closes, Nov 13 00:00 UTC - Nov 14 19:00 UTC. Low: $1,808.25 in the Nov 14 16:00 UTC hour.
+    xs, ys = fetch_kraken_hourly(t1 - 86400 - 19 * 3600, t1, pair="ETHUSD")
+    eth = make_line_chart(
+        d / "chart-eth-hourly-nov-13-14",
+        xs, ys,
+        title="Ether hourly price, Nov. 13-14, 2026 (Kraken, UTC)",
+        hline=1808.25,
+        hlabel="Nov. 14 low ≈ $1,808 (Kraken)",
+        date_fmt="%b %d %H:%M",
+    )
+    card = make_fact_card(
+        d / "fact-liquidations-1-01b",
+        label="Crypto liquidations in 24 hours",
+        big="$1.01 billion",
+        sub="93% were bets on rising prices. More than 195,000 traders were affected.",
+        footer="CoinGlass data via Trending Topics · Nov. 14, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of 24-hour price drops on Kraken to 1 p.m. Central time on Nov. 14, 2026: bitcoin down 5.0%, ether 5.8%, XRP 6.7% and solana 9.8%", {
+            "es": "Gráfico de barras de las caídas de precio en 24 horas en Kraken hasta la 1 p. m. (hora central de EE. UU.) del 14 de noviembre de 2026: bitcoin bajó un 5,0 %, ether un 5,8 %, XRP un 6,7 % y solana un 9,8 %",
+            "pt": "Gráfico de barras das quedas de preço em 24 horas na Kraken até 13h (horário central dos EUA) de 14 de novembro de 2026: bitcoin caiu 5,0%, ether 5,8%, XRP 6,7% e solana 9,8%",
+            "fr": "Graphique en barres des baisses de prix sur 24 heures sur Kraken jusqu'à 13 h (heure du Centre des États-Unis) le 14 novembre 2026 : bitcoin en baisse de 5,0 %, ether de 5,8 %, XRP de 6,7 % et solana de 9,8 %",
+            "de": "Balkendiagramm der 24-Stunden-Kursverluste bei Kraken bis 13 Uhr US-Central-Zeit am 14. November 2026: Bitcoin minus 5,0 %, Ether 5,8 %, XRP 6,7 % und Solana 9,8 %",
+            "ru": "Столбчатая диаграмма падения цен за 24 часа на Kraken к 13:00 по центральному времени США 14 ноября 2026 года: биткоин минус 5,0%, эфир 5,8%, XRP 6,7%, солана 9,8%",
+            "tr": "14 Kasım 2026'da ABD Merkezi saatiyle 13.00'e kadar Kraken'de 24 saatlik fiyat düşüşlerinin çubuk grafiği: bitcoin %5,0, ether %5,8, XRP %6,7 ve solana %9,8 düştü",
+            "id": "Grafik batang penurunan harga 24 jam di Kraken hingga pukul 13.00 waktu Central AS pada 14 November 2026: bitcoin turun 5,0%, ether 5,8%, XRP 6,7%, dan solana 9,8%",
+            "ja": "2026年11月14日午後1時（米中部時間）までの24時間のKrakenでの下落率の棒グラフ：ビットコイン5.0%、イーサ5.8%、XRP6.7%、ソラナ9.8%",
+            "ko": "2026년 11월 14일 오후 1시(미국 중부시간)까지 24시간 동안 크라켄 가격 하락률 막대 차트: 비트코인 5.0%, 이더 5.8%, XRP 6.7%, 솔라나 9.8% 하락",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken hourly prices")},
+        {"id": "ether", "file": eth.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of ether's hourly price on Kraken from Nov. 13 to Nov. 14, 2026, falling from about $2,000 to about $1,830, with a dashed line at the Nov. 14 low of about $1,808", {
+            "es": "Gráfico de líneas del precio horario de ether en Kraken del 13 al 14 de noviembre de 2026: cae de unos 2.000 dólares a unos 1.830, con una línea discontinua en el mínimo del 14 de noviembre, de unos 1.808 dólares",
+            "pt": "Gráfico de linha do preço horário do ether na Kraken de 13 a 14 de novembro de 2026: cai de cerca de US$ 2.000 para cerca de US$ 1.830, com uma linha tracejada na mínima de 14 de novembro, de cerca de US$ 1.808",
+            "fr": "Courbe du cours horaire de l'ether sur Kraken du 13 au 14 novembre 2026 : il passe d'environ 2 000 dollars à environ 1 830 dollars, avec une ligne pointillée au plus bas du 14 novembre, environ 1 808 dollars",
+            "de": "Liniendiagramm des stündlichen Ether-Kurses bei Kraken vom 13. bis 14. November 2026: Rückgang von rund 2.000 $ auf rund 1.830 $; gestrichelte Linie beim Tief vom 14. November von rund 1.808 $",
+            "ru": "Линейный график почасовой цены эфира на Kraken 13–14 ноября 2026 года: падение примерно с $2000 до около $1830; пунктирная линия показывает минимум 14 ноября, около $1808",
+            "tr": "Ether'in 13-14 Kasım 2026'da Kraken'deki saatlik fiyatının çizgi grafiği: yaklaşık 2.000 $'dan yaklaşık 1.830 $'a düşüyor; kesikli çizgi 14 Kasım'daki yaklaşık 1.808 $'lık dibi gösteriyor",
+            "id": "Grafik garis harga ether per jam di Kraken pada 13 hingga 14 November 2026: turun dari sekitar US$2.000 ke sekitar US$1.830, dengan garis putus-putus di level terendah 14 November sekitar US$1.808",
+            "ja": "2026年11月13〜14日のKrakenにおけるイーサ1時間足の折れ線グラフ：約2000ドルから約1830ドルに下落。破線は11月14日の安値（約1808ドル）",
+            "ko": "2026년 11월 13~14일 크라켄 이더 시간별 가격 선 차트: 약 2,000달러에서 약 1,830달러로 하락, 점선은 11월 14일 저점 약 1,808달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken ETH/USD hourly closes")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: about $1.01 billion in crypto positions were liquidated in 24 hours on Nov. 14, 93% of them bets on rising prices, affecting more than 195,000 traders", {
+            "es": "Tarjeta: unos 1.010 millones de dólares en posiciones cripto fueron liquidados en 24 horas el 14 de noviembre; el 93 % eran apuestas al alza y hubo más de 195.000 operadores afectados",
+            "pt": "Cartão: cerca de US$ 1,01 bilhão em posições de cripto foram liquidadas em 24 horas em 14 de novembro; 93% eram apostas na alta, e mais de 195.000 traders foram afetados",
+            "fr": "Encadré : environ 1,01 milliard de dollars de positions crypto ont été liquidées en 24 heures le 14 novembre, dont 93 % de paris à la hausse, touchant plus de 195 000 traders",
+            "de": "Faktenkarte: Rund 1,01 Mrd. $ an Kryptopositionen wurden am 14. November binnen 24 Stunden liquidiert, 93 % davon Wetten auf steigende Kurse; mehr als 195.000 Trader waren betroffen",
+            "ru": "Карточка: около $1,01 млрд криптопозиций ликвидировано за 24 часа 14 ноября, 93% из них были ставками на рост; пострадали более 195 000 трейдеров",
+            "tr": "Kart: 14 Kasım'da 24 saatte yaklaşık 1,01 milyar $'lık kripto pozisyonu tasfiye edildi; bunların %93'ü yükseliş bahsiydi ve 195.000'den fazla yatırımcı etkilendi",
+            "id": "Kartu fakta: sekitar US$1,01 miliar posisi kripto dilikuidasi dalam 24 jam pada 14 November, 93% di antaranya taruhan harga naik, dan lebih dari 195.000 trader terdampak",
+            "ja": "カード：11月14日の24時間で約10億1000万ドルの暗号資産ポジションが清算され、93%が上昇に賭けたポジション。影響を受けたトレーダーは19万5000人超",
+            "ko": "카드: 11월 14일 24시간 동안 약 10억 1,000만 달러 규모의 암호화폐 포지션이 청산됐고, 93%가 상승 베팅이었으며 19만 5,000명 넘는 트레이더가 영향을 받았다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="CoinGlass via Trending Topics")},
+    ]
+
+
+def build_binance_reopen():
+    slug = "binance-reopens-withdrawals-87-networks-nov-2026"
+    d = OUT / slug
+    # Binance recovery updates (Nov 1, Nov 12, Nov 14, 2026); CoinDesk, Reuters, Bitcoin Magazine.
+    tl = make_timeline_card(
+        d / "timeline-binance-withdrawals",
+        "Binance hack recovery so far",
+        [
+            ("Oct. 29", "Hackers take about $6.3 billion from hot wallets", (248, 113, 113)),
+            ("Nov. 1", "Withdrawals restart for 15 assets and networks, led by bitcoin", (96, 165, 250)),
+            ("Nov. 12", "Binance says it has covered all affected assets", GREEN),
+            ("Nov. 14", "87 more networks reopened this week; rest targeted by end of next week", ORANGE),
+        ],
+        footer="Binance updates · CoinDesk · Reuters · Bitcoin Magazine",
+        margin=170, wrap_w=250,
+    )
+    card = make_fact_card(
+        d / "fact-87-networks",
+        label="Binance withdrawals reopened this week",
+        big="87 networks",
+        sub="Binance aims to reopen withdrawals for all remaining networks and assets by the end of next week.",
+        footer="Binance on X · Nov. 14, 2026",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: Oct. 29, hackers take about $6.3 billion from Binance hot wallets; Nov. 1, withdrawals restart for 15 assets and networks, led by bitcoin; Nov. 12, Binance says it has covered all affected assets; Nov. 14, 87 more networks reopened this week and the rest targeted by the end of next week", {
+            "es": "Cronología: 29 de oct., los hackers se llevan unos 6.300 millones de dólares de las billeteras calientes de Binance; 1 de nov., se reanudan los retiros de 15 activos y redes, empezando por bitcoin; 12 de nov., Binance dice que ha cubierto todos los activos afectados; 14 de nov., 87 redes más reabiertas esta semana y el resto previsto para finales de la próxima",
+            "pt": "Linha do tempo: 29 de out., hackers levam cerca de US$ 6,3 bilhões das carteiras quentes da Binance; 1º de nov., os saques voltam para 15 ativos e redes, a começar pelo bitcoin; 12 de nov., a Binance diz que cobriu todos os ativos afetados; 14 de nov., mais 87 redes reabertas nesta semana e o restante previsto para o fim da próxima",
+            "fr": "Chronologie : 29 oct., des pirates dérobent environ 6,3 milliards de dollars dans les portefeuilles chauds de Binance ; 1er nov., reprise des retraits pour 15 actifs et réseaux, à commencer par le bitcoin ; 12 nov., Binance dit avoir couvert tous les actifs touchés ; 14 nov., 87 réseaux de plus rouverts cette semaine, le reste visé d'ici la fin de la semaine prochaine",
+            "de": "Zeitleiste: 29. Okt., Hacker erbeuten rund 6,3 Mrd. $ aus Binances Hot Wallets; 1. Nov., Auszahlungen für 15 Assets und Netzwerke laufen wieder an, angeführt von Bitcoin; 12. Nov., Binance meldet die vollständige Deckung aller betroffenen Assets; 14. Nov., 87 weitere Netzwerke diese Woche geöffnet, der Rest bis Ende nächster Woche geplant",
+            "ru": "Хронология: 29 октября хакеры похищают около $6,3 млрд из горячих кошельков Binance; 1 ноября вывод возобновлен для 15 активов и сетей, первым стал биткоин; 12 ноября Binance заявляет, что покрыла все затронутые активы; 14 ноября на этой неделе открыты еще 87 сетей, остальные планируется открыть к концу следующей недели",
+            "tr": "Zaman çizelgesi: 29 Ekim'de bilgisayar korsanları Binance'in sıcak cüzdanlarından yaklaşık 6,3 milyar $ alıyor; 1 Kasım'da bitcoin başta olmak üzere 15 varlık ve ağda çekimler yeniden başlıyor; 12 Kasım'da Binance etkilenen tüm varlıkları karşıladığını söylüyor; 14 Kasım'da bu hafta 87 ağ daha açıldı, kalanlar gelecek hafta sonuna kadar hedefleniyor",
+            "id": "Linimasa: 29 Okt, peretas mengambil sekitar US$6,3 miliar dari hot wallet Binance; 1 Nov, penarikan dibuka lagi untuk 15 aset dan jaringan, diawali bitcoin; 12 Nov, Binance menyatakan telah menutup semua aset terdampak; 14 Nov, 87 jaringan lagi dibuka pekan ini dan sisanya ditargetkan akhir pekan depan",
+            "ja": "時系列：10月29日、ハッカーがBinanceのホットウォレットから約63億ドルを奪う。11月1日、ビットコインを筆頭に15の資産・ネットワークで出金再開。11月12日、Binanceが影響を受けた資産の補填完了を発表。11月14日、今週さらに87ネットワークを再開し、残りは来週末までを目標",
+            "ko": "타임라인: 10월 29일 해커가 바이낸스 핫월렛에서 약 63억 달러 탈취, 11월 1일 비트코인을 시작으로 15개 자산·네트워크 출금 재개, 11월 12일 바이낸스가 피해 자산 보전 완료 발표, 11월 14일 이번 주 87개 네트워크 추가 재개, 나머지는 다음 주 말까지 목표",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Binance; CoinDesk; Reuters; Bitcoin Magazine")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: Binance reopened withdrawals on 87 networks this week and aims to reopen all remaining networks and assets by the end of next week", {
+            "es": "Tarjeta: Binance reabrió los retiros en 87 redes esta semana y aspira a reabrir todas las redes y activos restantes antes de que termine la próxima semana",
+            "pt": "Cartão: a Binance reabriu os saques em 87 redes nesta semana e pretende reabrir todas as redes e ativos restantes até o fim da próxima semana",
+            "fr": "Encadré : Binance a rouvert les retraits sur 87 réseaux cette semaine et vise à rouvrir tous les réseaux et actifs restants d'ici la fin de la semaine prochaine",
+            "de": "Faktenkarte: Binance hat diese Woche Auszahlungen in 87 Netzwerken wieder geöffnet und will alle übrigen Netzwerke und Assets bis Ende nächster Woche freigeben",
+            "ru": "Карточка: на этой неделе Binance открыла вывод в 87 сетях и стремится открыть все оставшиеся сети и активы до конца следующей недели",
+            "tr": "Kart: Binance bu hafta 87 ağda çekimleri yeniden açtı ve kalan tüm ağ ve varlıkları gelecek hafta sonuna kadar açmayı hedefliyor",
+            "id": "Kartu fakta: Binance membuka kembali penarikan di 87 jaringan pekan ini dan menargetkan membuka semua jaringan dan aset yang tersisa paling lambat akhir pekan depan",
+            "ja": "カード：Binanceは今週87のネットワークで出金を再開し、残りすべてのネットワークと資産を来週末までに再開することを目指す",
+            "ko": "카드: 바이낸스는 이번 주 87개 네트워크에서 출금을 재개했으며, 나머지 모든 네트워크와 자산을 다음 주 말까지 재개하는 것을 목표로 한다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Binance on X")},
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -2417,6 +2559,8 @@ BUILDERS = {
     "crypto-treasury-firms-loans-nakamoto-btcs-nov-2026": "treasuryloans",
     "bitcoin-below-67000-sixth-weekly-loss-nov-2026": "btc67k",
     "unocoin-hack-bitgo-backup-keys-nov-2026": "unocoin",
+    "ether-solana-xrp-lead-selloff-bitcoin-65000-nov-2026": "altselloff",
+    "binance-reopens-withdrawals-87-networks-nov-2026": "bnbreopen",
 }
 
 
@@ -2494,6 +2638,10 @@ def build_slug(slug: str, btc=None):
         figs = build_btc_below_67k()
     elif key == "unocoin":
         figs = build_unocoin_hack()
+    elif key == "altselloff":
+        figs = build_alt_selloff()
+    elif key == "bnbreopen":
+        figs = build_binance_reopen()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

@@ -1,0 +1,62 @@
+title: Ether, solana ve XRP bitcoinden sert düştü, BTC 65.000 $'a dokundu
+page_title: Kripto satışına ether, solana ve XRP öncülük ediyor, bitcoin 65.000 $'da
+description: Bitcoin cumartesi günü Kraken'de kısa süreliğine 65.000 $'a dokundu. Ether temmuzdan bu yana en düşük seviyesi olan yaklaşık 1.808 $'a geriledi, solana bir günde yaklaşık %10 düştü ve XRP 1 $'ın altına indi.
+og_description: Cumartesi günkü satış dalgası en çok altcoinleri vurdu. Solana 24 saatte yaklaşık %10 düştü, ether temmuzdan bu yana en düşük fiyatını gördü ve XRP 1 $'ın altına indi; yaklaşık 1 milyar $'lık pozisyon tasfiye edildi.
+label: Piyasa
+summary: Solana bir günde yaklaşık %10 düştü, ether temmuzdan bu yana en düşük fiyatını gördü ve XRP 1 $'ın altına indi; bitcoin ise kısa süreliğine 65.000 $'a dokundu.
+===
+
+Kripto piyasasındaki düşüş cumartesi günü bir basamak daha derinleşti ve bu kez en çok küçük coinler etkilendi. Bitcoin, ABD Merkezi saatiyle 10.00 diliminde Kraken'de kısa süreliğine <strong>64.999 $</strong>'dan işlem gördü, yani 65.000 $'ın hemen altına indi; ardından saat 13.00'e kadar yaklaşık 65.500 $'a toparlandı. Bu, cuma günü aynı saatteki fiyatın yaklaşık %5 altındaydı.
+
+Büyük altcoinler daha sert düştü. En büyük ikinci kripto para olan ether, Kraken'de yaklaşık <strong>1.808 $</strong>'a gerileyerek temmuz ortasından bu yana en düşük fiyatını gördü. Solana ağustos başından bu yana en düşük seviyesi olan yaklaşık 71,84 $'a indi, XRP ise 1 $'ın altına düşerek yaklaşık 0,945 $'ı gördü. PlainBTC'nin Kraken'in herkese açık fiyat verileriyle yaptığı hesaplamaya göre, Merkezi saatle 13.00'e kadarki 24 saatte solana yaklaşık %9,8, XRP %6,7, ether %5,8 ve bitcoin %5,0 değer kaybetti.
+
+!takeaways
+- Bitcoin cumartesi sabahı ABD saatiyle Kraken'de 64.999 $'a dokunarak 19 Ağustos'tan bu yana en düşük fiyatını gördü.
+- Ether temmuz ortasından bu yana en düşük seviye olan yaklaşık 1.808 $'a, solana ise ağustos başından bu yana en düşük seviye olan yaklaşık 71,84 $'a geriledi.
+- CoinGlass verilerine göre 24 saatte yaklaşık 1,01 milyar $'lık kaldıraçlı kripto pozisyonu tasfiye edildi; bunların %93'ü yükseliş bahsiydi.
+- ABD'deki spot ether ETF'lerinden bu hafta, bitcoin ETF satışlarına ek olarak, yaklaşık 399 milyon $ net çıkış oldu.
+
+!figure:chart
+
+## Darbeyi en çok altcoinler aldı
+
+Küçük kripto paralar genellikle iki yönde de bitcoinden daha fazla dalgalanır ve cumartesi bunun açık bir örneği oldu. [Trending Topics](L1)'in aktardığı CoinGecko fiyatlarına göre solana, Cardano ve Hyperliquid bir günde yaklaşık %10'ar değer kaybederken ether yaklaşık %6, XRP ise yaklaşık %7 düştü. Tron gibi yalnızca birkaç coin direndi.
+
+Haftalık rakamlar da aynı tabloyu gösteriyor. Kraken'deki pazartesi açılışına göre bitcoin cumartesi öğleden sonra yaklaşık %12,4 düşüşteydi. Ether %13,9, XRP %14,2 ve solana %16,5 geriledi. CoinGecko tüm kripto piyasasının değerini bir günde %7'den fazla düşüşle yaklaşık 2,22 trilyon $ olarak gösterdi.
+
+!figure:ether
+
+## Yaklaşık 1 milyar $'lık zorunlu satış
+
+Hareketin önemli bir kısmı borçla işlem yapan yatırımcılardan geldi. Fiyat yeterince düştüğünde borsalar, teminatı yetersiz kalan kaldıraçlı pozisyonları otomatik olarak kapatır ve bu zorunlu satışlar fiyatı daha da aşağı itebilir.
+
+Trending Topics'in aktardığı CoinGlass verileri, cumartesi günü 24 saatte yaklaşık <strong>1,01 milyar $</strong>'lık kripto pozisyonunun tasfiye edildiğini, bunun %93'ünün yükseliş bahsi olduğunu gösterdi. 195.000'den fazla yatırımcı etkilendi ve toplamın yaklaşık 553 milyon $'ı son düşüşün dört saatinde gerçekleşti. En büyük tekil tasfiye, Binance'te 10,45 milyon $'lık bir ether pozisyonuydu. [CoinScreamer](L2)'ın aktardığı daha önceki bir CoinGlass verisi ise 24 saatte 880,7 milyon $ tasfiye ve yaklaşık %92,6 uzun pozisyon payı gösteriyordu.
+
+!mid_cta
+
+!figure:fact
+
+## Fonlar ether de satıyor
+
+Para kaybeden yalnızca bitcoin fonları değil. [Farside Investors](L3) verilerine göre ABD'deki spot ether borsa yatırım fonlarından (ETF) 9-13 Kasım haftasında yaklaşık 399 milyon $ net çıkış oldu. Bunun büyük kısmı, hafta boyunca yaklaşık 311 milyon $ çıkışla BlackRock'ın ETHA fonundan geldi. Cuma günü, art arda altı günlük çıkışın ardından 2,3 milyon $'lık küçük bir net giriş görüldü.
+
+Bitcoin tarafında ABD spot fonları yedi işlem günüdür üst üste çıkış yaşıyor ve toplam yaklaşık 1,91 milyar $'a ulaştı, diye bildirdi [Investing.com](L4). Yatırımcılar ayrıca Fed'in aralıkta faiz artıracağı endişesine dikkat çekiyor; bu beklenti doları ve tahvil getirilerini yükseltti, riskli varlıkları daha az cazip hale getirdi.
+
+Hafta sonları hareketler normalden büyük görünebilir. Borsalar ve ETF'ler kapalı olduğu için alıcı ve satıcı sayısı azalır ve küçük bir emir dalgası bile fiyatı daha fazla oynatabilir.
+
+## Yeni başlayanlar için anlamı
+
+Böyle bir gün, altcoinlerin neden genellikle bitcoinden daha riskli olduğunu gösteriyor: Piyasa döndüğünde daha hızlı düşme eğilimindeler. Yeniyseniz kaldıraçtan uzak durmak, kripto pozisyonunuzu birikimlerinize göre küçük tutmak ve anladığınız varlıklara odaklanmak akıllıca olur. Bazı yeni başlayanlar dibi yakalamaya çalışmak yerine düzenli aralıklarla sabit bir dolar tutarında alım yapmayı tercih ediyor. [Coinbase](REF) gibi ABD'de düzenlemeye tabi bir borsa düzenli alım imkânı sunuyor; başlamadan önce ücretleri karşılaştırın ve koşulları okuyun. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Bitcoin için art arda altıncı haftalık kayba doğru giden pazar günkü haftalık kapanış ve 65.000 $ seviyesinin korunup korunmayacağı.
+- ABD piyasaları 16 Kasım pazartesi yeniden açıldığında spot bitcoin ve ether ETF akışları.
+- Fed'in çarşamba günü yayımlanacak ekim toplantısı tutanakları.
+- Ether'in yeniden 1.850 $'ın, XRP'nin ise 1 $'ın üzerine çıkıp çıkamayacağı.
+
+!soft: Bu tür piyasa dalgalanmalarında yeni misiniz? [Yeni başlayan biri ne kadar bitcoin almalı](/articles/how-much-bitcoin-should-a-beginner-buy-dca) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

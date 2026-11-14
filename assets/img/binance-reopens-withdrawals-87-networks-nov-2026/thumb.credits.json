@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Binance_Logo.svg",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Binance_Logo.svg",
+      "credit": "Binance"
+    },
+    {
+      "file": "Binance post on X, Nov. 14, 2026",
+      "license": "Figure cited",
+      "url": "https://x.com/binance/status/2121452596171010552",
+      "credit": "Binance"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "binance-reopens-withdrawals-87-networks-nov-2026",
+  "generated": "2026-11-14T19:10Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

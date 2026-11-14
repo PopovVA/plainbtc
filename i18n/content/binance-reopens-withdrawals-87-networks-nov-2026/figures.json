@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-binance-withdrawals.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline: Oct. 29, hackers take about $6.3 billion from Binance hot wallets; Nov. 1, withdrawals restart for 15 assets and networks, led by bitcoin; Nov. 12, Binance says it has covered all affected assets; Nov. 14, 87 more networks reopened this week and the rest targeted by the end of next week",
+      "es": "Cronología: 29 de oct., los hackers se llevan unos 6.300 millones de dólares de las billeteras calientes de Binance; 1 de nov., se reanudan los retiros de 15 activos y redes, empezando por bitcoin; 12 de nov., Binance dice que ha cubierto todos los activos afectados; 14 de nov., 87 redes más reabiertas esta semana y el resto previsto para finales de la próxima",
+      "pt": "Linha do tempo: 29 de out., hackers levam cerca de US$ 6,3 bilhões das carteiras quentes da Binance; 1º de nov., os saques voltam para 15 ativos e redes, a começar pelo bitcoin; 12 de nov., a Binance diz que cobriu todos os ativos afetados; 14 de nov., mais 87 redes reabertas nesta semana e o restante previsto para o fim da próxima",
+      "fr": "Chronologie : 29 oct., des pirates dérobent environ 6,3 milliards de dollars dans les portefeuilles chauds de Binance ; 1er nov., reprise des retraits pour 15 actifs et réseaux, à commencer par le bitcoin ; 12 nov., Binance dit avoir couvert tous les actifs touchés ; 14 nov., 87 réseaux de plus rouverts cette semaine, le reste visé d'ici la fin de la semaine prochaine",
+      "de": "Zeitleiste: 29. Okt., Hacker erbeuten rund 6,3 Mrd. $ aus Binances Hot Wallets; 1. Nov., Auszahlungen für 15 Assets und Netzwerke laufen wieder an, angeführt von Bitcoin; 12. Nov., Binance meldet die vollständige Deckung aller betroffenen Assets; 14. Nov., 87 weitere Netzwerke diese Woche geöffnet, der Rest bis Ende nächster Woche geplant",
+      "ru": "Хронология: 29 октября хакеры похищают около $6,3 млрд из горячих кошельков Binance; 1 ноября вывод возобновлен для 15 активов и сетей, первым стал биткоин; 12 ноября Binance заявляет, что покрыла все затронутые активы; 14 ноября на этой неделе открыты еще 87 сетей, остальные планируется открыть к концу следующей недели",
+      "tr": "Zaman çizelgesi: 29 Ekim'de bilgisayar korsanları Binance'in sıcak cüzdanlarından yaklaşık 6,3 milyar $ alıyor; 1 Kasım'da bitcoin başta olmak üzere 15 varlık ve ağda çekimler yeniden başlıyor; 12 Kasım'da Binance etkilenen tüm varlıkları karşıladığını söylüyor; 14 Kasım'da bu hafta 87 ağ daha açıldı, kalanlar gelecek hafta sonuna kadar hedefleniyor",
+      "id": "Linimasa: 29 Okt, peretas mengambil sekitar US$6,3 miliar dari hot wallet Binance; 1 Nov, penarikan dibuka lagi untuk 15 aset dan jaringan, diawali bitcoin; 12 Nov, Binance menyatakan telah menutup semua aset terdampak; 14 Nov, 87 jaringan lagi dibuka pekan ini dan sisanya ditargetkan akhir pekan depan",
+      "ja": "時系列：10月29日、ハッカーがBinanceのホットウォレットから約63億ドルを奪う。11月1日、ビットコインを筆頭に15の資産・ネットワークで出金再開。11月12日、Binanceが影響を受けた資産の補填完了を発表。11月14日、今週さらに87ネットワークを再開し、残りは来週末までを目標",
+      "ko": "타임라인: 10월 29일 해커가 바이낸스 핫월렛에서 약 63억 달러 탈취, 11월 1일 비트코인을 시작으로 15개 자산·네트워크 출금 재개, 11월 12일 바이낸스가 피해 자산 보전 완료 발표, 11월 14일 이번 주 87개 네트워크 추가 재개, 나머지는 다음 주 말까지 목표"
+    },
+    "caption": {
+      "en": "Source: Binance; CoinDesk; Reuters; Bitcoin Magazine",
+      "es": "Fuente: Binance; CoinDesk; Reuters; Bitcoin Magazine",
+      "pt": "Fonte: Binance; CoinDesk; Reuters; Bitcoin Magazine",
+      "fr": "Source : Binance; CoinDesk; Reuters; Bitcoin Magazine",
+      "de": "Quelle: Binance; CoinDesk; Reuters; Bitcoin Magazine",
+      "ru": "Источник: Binance; CoinDesk; Reuters; Bitcoin Magazine",
+      "tr": "Kaynak: Binance; CoinDesk; Reuters; Bitcoin Magazine",
+      "id": "Sumber: Binance; CoinDesk; Reuters; Bitcoin Magazine",
+      "ja": "出典: Binance; CoinDesk; Reuters; Bitcoin Magazine",
+      "ko": "출처: Binance; CoinDesk; Reuters; Bitcoin Magazine"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-87-networks.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: Binance reopened withdrawals on 87 networks this week and aims to reopen all remaining networks and assets by the end of next week",
+      "es": "Tarjeta: Binance reabrió los retiros en 87 redes esta semana y aspira a reabrir todas las redes y activos restantes antes de que termine la próxima semana",
+      "pt": "Cartão: a Binance reabriu os saques em 87 redes nesta semana e pretende reabrir todas as redes e ativos restantes até o fim da próxima semana",
+      "fr": "Encadré : Binance a rouvert les retraits sur 87 réseaux cette semaine et vise à rouvrir tous les réseaux et actifs restants d'ici la fin de la semaine prochaine",
+      "de": "Faktenkarte: Binance hat diese Woche Auszahlungen in 87 Netzwerken wieder geöffnet und will alle übrigen Netzwerke und Assets bis Ende nächster Woche freigeben",
+      "ru": "Карточка: на этой неделе Binance открыла вывод в 87 сетях и стремится открыть все оставшиеся сети и активы до конца следующей недели",
+      "tr": "Kart: Binance bu hafta 87 ağda çekimleri yeniden açtı ve kalan tüm ağ ve varlıkları gelecek hafta sonuna kadar açmayı hedefliyor",
+      "id": "Kartu fakta: Binance membuka kembali penarikan di 87 jaringan pekan ini dan menargetkan membuka semua jaringan dan aset yang tersisa paling lambat akhir pekan depan",
+      "ja": "カード：Binanceは今週87のネットワークで出金を再開し、残りすべてのネットワークと資産を来週末までに再開することを目指す",
+      "ko": "카드: 바이낸스는 이번 주 87개 네트워크에서 출금을 재개했으며, 나머지 모든 네트워크와 자산을 다음 주 말까지 재개하는 것을 목표로 한다"
+    },
+    "caption": {
+      "en": "Source: Binance on X",
+      "es": "Fuente: Binance on X",
+      "pt": "Fonte: Binance on X",
+      "fr": "Source : Binance on X",
+      "de": "Quelle: Binance on X",
+      "ru": "Источник: Binance on X",
+      "tr": "Kaynak: Binance on X",
+      "id": "Sumber: Binance on X",
+      "ja": "出典: Binance on X",
+      "ko": "출처: Binance on X"
+    }
+  }
+]

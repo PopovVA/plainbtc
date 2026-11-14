@@ -1,0 +1,62 @@
+title: Ether, solana y XRP caen más que bitcoin, que toca los 65.000 dólares
+page_title: Ether, solana y XRP lideran la caída cripto mientras bitcoin toca 65.000 dólares
+description: Bitcoin tocó brevemente los 65.000 dólares en Kraken el sábado. Ether bajó a unos 1.808 dólares, su nivel más bajo desde julio, solana cayó casi un 10 % en un día y XRP perdió el dólar.
+og_description: La venta masiva del sábado golpeó sobre todo a las altcoins. Solana cayó casi un 10 % en 24 horas, ether tocó su precio más bajo desde julio y XRP bajó de 1 dólar, con cerca de 1.000 millones de dólares en apuestas liquidadas.
+label: Mercado
+summary: Solana cayó casi un 10 % en un día, ether marcó su precio más bajo desde julio y XRP bajó de 1 dólar mientras bitcoin tocaba brevemente los 65.000 dólares.
+===
+
+La caída del mercado cripto dio otro paso el sábado y esta vez las monedas más pequeñas fueron las más castigadas. Bitcoin llegó a cotizar a <strong>64.999 dólares</strong> en Kraken durante la hora de las 10 a. m. (hora central de EE. UU.), apenas por debajo de 65.000, antes de rebotar a unos 65.500 dólares a la 1 p. m. Eso era alrededor de un 5 % menos que a la misma hora del viernes.
+
+Las principales altcoins cayeron más. Ether, la segunda criptomoneda por tamaño, bajó a unos <strong>1.808 dólares</strong> en Kraken, su precio más bajo desde mediados de julio. Solana se hundió hasta unos 71,84 dólares, su nivel más bajo desde principios de agosto, y XRP perdió el dólar al tocar unos 0,945 dólares. En las 24 horas hasta la 1 p. m. (hora central), solana perdió alrededor de un 9,8 %, XRP un 6,7 %, ether un 5,8 % y bitcoin un 5,0 %, según el cálculo de PlainBTC con los datos públicos de precios de Kraken.
+
+!takeaways
+- Bitcoin tocó 64.999 dólares en Kraken el sábado por la mañana (hora de EE. UU.), su precio más bajo desde el 19 de agosto.
+- Ether cayó a unos 1.808 dólares, su nivel más bajo desde mediados de julio, y solana a unos 71,84 dólares, el más bajo desde principios de agosto.
+- Se liquidaron unos 1.010 millones de dólares en posiciones cripto apalancadas en 24 horas, el 93 % de ellas apuestas al alza, según datos de CoinGlass.
+- Los ETF de ether al contado en EE. UU. registraron salidas netas de unos 399 millones de dólares esta semana, además de las ventas en los ETF de bitcoin.
+
+!figure:chart
+
+## Las altcoins se llevan el golpe más fuerte
+
+Las criptomonedas más pequeñas suelen moverse más que bitcoin en ambas direcciones, y el sábado fue un claro ejemplo. Según precios de CoinGecko citados por [Trending Topics](L1), solana, Cardano e Hyperliquid perdieron cerca de un 10 % cada una en un día, mientras ether bajaba alrededor de un 6 % y XRP un 7 %. Solo unas pocas monedas, como Tron, aguantaron.
+
+Las cifras semanales cuentan la misma historia. Desde la apertura del lunes en Kraken, bitcoin bajaba un 12,4 % el sábado por la tarde. Ether caía un 13,9 %, XRP un 14,2 % y solana un 16,5 %. CoinGecko situó el valor de todo el mercado cripto en unos 2,22 billones de dólares, más de un 7 % menos en un día.
+
+!figure:ether
+
+## Unos 1.000 millones de dólares en ventas forzadas
+
+Buena parte del movimiento vino de operadores que usaban dinero prestado. Cuando el precio cae lo suficiente, los exchanges cierran automáticamente las apuestas apalancadas que ya no tienen garantía suficiente, y esas ventas forzadas pueden empujar el precio aún más abajo.
+
+Los datos de CoinGlass publicados por Trending Topics mostraron unos <strong>1.010 millones de dólares</strong> en posiciones cripto liquidadas en 24 horas el sábado, el 93 % de ellas apuestas a que el precio subiría. Más de 195.000 operadores se vieron afectados, y unos 553 millones de dólares del total llegaron durante las cuatro horas del último tramo de la caída. La mayor liquidación individual fue una posición en ether de 10,45 millones de dólares en Binance. Una lectura anterior de CoinGlass citada por [CoinScreamer](L2) mostraba 880,7 millones de dólares en liquidaciones en 24 horas, con un 92,6 % de posiciones largas.
+
+!mid_cta
+
+!figure:fact
+
+## Los fondos también venden ether
+
+Los fondos de bitcoin no son los únicos que pierden dinero. Según [Farside Investors](L3), los fondos cotizados (ETF) de ether al contado en EE. UU. tuvieron salidas netas de unos 399 millones de dólares en la semana del 9 al 13 de noviembre. El fondo ETHA de BlackRock concentró la mayor parte, con unos 311 millones de dólares en retiros esa semana. El viernes llegó una pequeña entrada neta de 2,3 millones de dólares tras seis días seguidos de retiros.
+
+En bitcoin, los fondos al contado de EE. UU. acumulan siete sesiones seguidas de salidas, por un total de unos 1.910 millones de dólares, informó [Investing.com](L4). Los operadores también señalan el temor a que la Reserva Federal suba los tipos de interés en diciembre, lo que ha impulsado el dólar y los rendimientos de los bonos y ha restado atractivo a los activos de más riesgo.
+
+El fin de semana puede hacer que los movimientos parezcan mayores de lo normal. Las bolsas y los ETF están cerrados, así que hay menos compradores y vendedores, y una pequeña ola de órdenes puede mover más el precio.
+
+## Qué significa para los principiantes
+
+Un día así muestra por qué las altcoins suelen ser más arriesgadas que bitcoin: tienden a caer más rápido cuando el mercado se da la vuelta. Si estás empezando, conviene evitar el apalancamiento, mantener cualquier posición cripto pequeña en relación con tus ahorros y centrarte en activos que entiendas. Algunos principiantes prefieren comprar una cantidad fija de dólares con regularidad en lugar de intentar acertar el suelo. Un exchange regulado de EE. UU. como [Coinbase](REF) ofrece compras periódicas; compara comisiones y lee las condiciones antes de empezar. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- El cierre semanal del domingo, que apunta a ser la sexta semana seguida de pérdidas para bitcoin, y si se mantienen los 65.000 dólares.
+- Los flujos de los ETF de bitcoin y ether al contado cuando reabran los mercados de EE. UU. el lunes 16 de noviembre.
+- Las actas de la reunión de octubre de la Fed, que se publican el miércoles.
+- Si ether logra volver por encima de 1.850 dólares y XRP por encima de 1 dólar.
+
+!soft: ¿Te asustan estos vaivenes del mercado? Lee [cuánto bitcoin debería comprar un principiante](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure
