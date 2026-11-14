@@ -1,0 +1,60 @@
+title: El exchange indio Unocoin dice que hackers usaron sus viejas claves de respaldo en papel para llevarse unos 200.000 dólares en cripto
+page_title: Hackeo de Unocoin: usaron claves de respaldo para mover unos 200.000 dólares
+description: Unocoin dice que los atacantes usaron claves de respaldo que imprimió en papel hace unos ocho años para firmar transferencias desde tres billeteras calientes, esquivando la congelación de su cuenta en BitGo. Los datos de clientes también podrían estar expuestos.
+og_description: El exchange cripto indio Unocoin calcula una pérdida de unos 200.000 dólares en tres billeteras calientes y dice que la cubrirá. BitGo afirma que su propia clave nunca se usó. Así funciona una billetera 2 de 3 y por eso la congelación no frenó las transferencias.
+label: Seguridad
+summary: Unocoin dice que los hackers usaron sus propias claves de respaldo para vaciar tres billeteras calientes de unos 200.000 dólares, esquivando la congelación en la custodia BitGo. Los datos de clientes también podrían estar expuestos.
+===
+
+El exchange cripto indio <strong>Unocoin</strong> informó el sábado 14 de noviembre que los atacantes se llevaron unos <strong>200.000 dólares</strong> en criptomonedas de tres de sus billeteras calientes, las billeteras conectadas a internet que usa para los retiros diarios. En una [actualización del incidente](L1), la empresa explicó que los ladrones usaron claves de respaldo que había generado hace unos ocho años, impreso en papel y guardado en un lugar físico.
+
+Unocoin, que atiende a clientes en la India desde 2013, suspendió todos sus servicios el 9 de noviembre y aún no ha reabierto. Dijo que cubrirá la pérdida con su propio dinero y que no se reducirán los saldos cripto de los clientes.
+
+!takeaways
+- Unocoin estima su pérdida en unos 200.000 dólares en tres de sus más de 20 billeteras operativas, menos del 1% de las criptomonedas que custodia para sus clientes.
+- Las transferencias se firmaron con dos claves que controlaba Unocoin, su clave de usuario y su clave de respaldo, por lo que la congelación en el proveedor BitGo no pudo bloquearlas.
+- BitGo dice que su propia clave nunca se usó, y Unocoin afirma que los sistemas de BitGo no fueron vulnerados.
+- Unocoin dice que podrían haber quedado expuestos correos electrónicos, domicilios, contraseñas cifradas, datos relacionados con KYC y saldos de clientes.
+
+## Qué pasó, paso a paso
+
+Unocoin dijo que detectó actividad sospechosa por primera vez el viernes 6 de noviembre. Ese mismo día pidió a sus proveedores de billeteras, Fireblocks y BitGo, que congelaran sus cuentas empresariales, y ambos confirmaron el bloqueo. Tras encontrar más actividad no autorizada el 9 de noviembre, cerró todos sus servicios como precaución. En ese momento, según la empresa, no había detectado pérdida de fondos.
+
+Eso cambió el 12 de noviembre, cuando Unocoin encontró transacciones salientes desde una dirección de Ethereum dentro de su configuración de billeteras en BitGo. BitGo revisó la actividad y el 13 de noviembre publicó [su propia versión](L2). Halló transferencias de tokens ERC-20 en Ethereum, XRP en XRP Ledger, HBAR en Hedera y EOS.
+
+!figure:timeline
+
+## Por qué la congelación no lo impidió
+
+Las billeteras afectadas usaban un esquema <strong>multifirma 2 de 3</strong>. Eso significa que existen tres claves distintas y que dos cualesquiera pueden aprobar una transferencia. En este caso, Unocoin tenía dos claves, una de "usuario" y otra de "respaldo", y BitGo tenía la tercera.
+
+Los retiros normales pasan por la plataforma de BitGo, que los revisa y añade su firma. La clave de respaldo existe para que el cliente pueda acceder a sus fondos si BitGo dejara de estar disponible. BitGo dijo que las transferencias que revisó se firmaron con las claves de usuario y de respaldo de Unocoin y se enviaron directamente a la blockchain, fuera de su plataforma. Su propia clave nunca se usó.
+
+!mid_cta
+
+Una congelación solo impide que BitGo firme. "La congelación no bloquea los fondos a nivel de la blockchain", escribió BitGo. Quien tenga las otras dos claves puede cumplir igualmente la regla de dos firmas. BitGo dijo que recomendó a Unocoin trasladar el resto de sus fondos a billeteras nuevas con claves recién generadas.
+
+!figure:fact
+
+Unocoin dijo que todavía intenta averiguar cómo se vieron comprometidas las claves de respaldo en papel. Explicó que la frase de contraseña necesaria para descifrar las claves impresas estaba en sus sistemas vulnerados, pero que eso por sí solo "no resuelve del todo el rompecabezas". Añadió que ya logró congelar parte de los fondos robados gracias a sus contactos en el sector. Siguen abiertas las preguntas sobre cómo se accedió a las claves y cuándo se reanudarán los servicios, señaló [CryptoSlate](L3), y BitGo dijo en un comunicado citado por [crypto.news](L4) que ningún otro cliente se vio afectado.
+
+## Los datos de clientes podrían estar expuestos
+
+Unocoin dijo que trata buena parte de sus sistemas como posiblemente comprometidos. Entre los datos que podrían haber quedado expuestos están correos electrónicos registrados, domicilios, contraseñas de cuenta cifradas, datos relacionados con KYC y saldos. La empresa dijo que por ahora no ha encontrado pruebas de que se accediera a los documentos KYC de los clientes. Pidió a los usuarios estar atentos a mensajes de phishing dirigidos y recordó que nunca pedirá contraseñas, códigos de un solo uso, claves privadas ni frases de recuperación.
+
+## Qué significa para principiantes
+
+La misma regla vale para tu propia billetera: quien tiene suficientes claves controla las monedas. Si guardas tus propias criptomonedas, conserva tu frase de recuperación sin conexión y lejos de los dispositivos que usas a diario, y nunca la escribas en un sitio web ni la compartas. Si tienes cripto en un exchange, usa una contraseña fuerte y única y verificación en dos pasos con una app o una llave física. Un exchange regulado de EE. UU. como [Coinbase](REF) ofrece estas opciones de seguridad; revisa sus condiciones y protecciones vigentes antes de registrarte. Ninguna plataforma está libre de riesgos. Esto no es asesoramiento de inversión.
+
+## Qué vigilar
+
+- Las conclusiones forenses de Unocoin sobre cómo se comprometieron las claves de respaldo.
+- Cuándo restablece Unocoin los depósitos, los retiros y el trading.
+- Si se congelan o recuperan más fondos robados.
+- Intentos de phishing que usen datos filtrados de clientes.
+
+!soft: ¿No sabes quién tiene las claves de tus monedas? Lee nuestra guía sobre [billeteras cripto custodiadas y de autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

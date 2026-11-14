@@ -1,0 +1,49 @@
+{
+ "slug": "bitcoin-below-67000-sixth-weekly-loss-nov-2026",
+ "date": "2026-11-14",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-below-70000-200-week-average-nov-2026",
+  "bitcoin-etf-vs-buying-bitcoin",
+  "how-much-bitcoin-should-a-beginner-buy-dca"
+ ],
+ "sources": [
+  {
+   "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-below-68000-as-anthropic-ipo-frenzy-drains-market-liquidity-5027106",
+   "title": "Investing.com: Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day",
+   "date": "Nov 14, 2026"
+  },
+  {
+   "url": "https://farside.co.uk/btc/",
+   "title": "Farside Investors: Bitcoin ETF Flow (US$m)",
+   "date": "Nov 14, 2026"
+  },
+  {
+   "url": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak",
+   "title": "Cointelegraph: Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock's losing streak hits 11",
+   "date": "Nov 14, 2026"
+  },
+  {
+   "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year",
+   "title": "CoinDesk: Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+   "date": "Nov 13, 2026"
+  },
+  {
+   "url": "https://www.cryptotimes.io/2026/11/14/bitcoin-price-today-btc-slides-to-67k-as-1-26b-crypto-liquidations-hit-longs-fed-hike-bets-rise/",
+   "title": "The Crypto Times: Bitcoin Price Today: BTC slides to $67K as $1.26B crypto liquidations hit longs, Fed hike bets rise",
+   "date": "Nov 14, 2026"
+  },
+  {
+   "url": "https://alternative.me/crypto/fear-and-greed-index/",
+   "title": "Alternative.me: Crypto Fear and Greed Index",
+   "date": "Nov 14, 2026"
+  },
+  {
+   "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+   "title": "Kraken: BTC/USD OHLC market data (public API)",
+   "date": "Nov 14, 2026"
+  }
+ ],
+ "disclosure_variant": "std"
+}

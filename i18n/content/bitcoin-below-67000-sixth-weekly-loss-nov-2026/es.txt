@@ -1,0 +1,62 @@
+title: Bitcoin cae por debajo de 67.000 dólares mientras los ETF pierden 1.070 millones en una semana
+page_title: Bitcoin por debajo de 67.000 dólares tras una semana de salidas de 1.070 millones en ETF
+description: Bitcoin cayó a unos 66.400 dólares en Kraken el viernes por la noche, su precio más bajo desde el 19 de agosto, después de que los ETF de bitcoin al contado de EE. UU. perdieran 1.070 millones en una semana y sumaran siete días seguidos de salidas.
+og_description: Bitcoin bajó de 67.000 dólares, su nivel más bajo desde mediados de agosto. Los ETF de bitcoin al contado registraron su séptimo día seguido de salidas y el índice de miedo y codicia cripto cayó a 13.
+label: Mercado
+summary: Bitcoin marcó su precio más bajo desde el 19 de agosto mientras los ETF de bitcoin al contado perdían unos 1.070 millones de dólares esta semana y los indicadores de sentimiento se hundían en "miedo extremo".
+===
+
+Bitcoin siguió cayendo de cara al fin de semana. En Kraken, el precio bajó hasta unos <strong>66.400 dólares</strong> el viernes por la noche, hora de EE. UU., su nivel más bajo desde el 19 de agosto, y cotizaba cerca de <strong>66.800 dólares</strong> el sábado por la mañana. Eso es alrededor de un 11% menos que al inicio de la semana: el lunes, bitcoin abrió cerca de 74.700 dólares en Kraken.
+
+La caída deja a bitcoin en camino de su <strong>sexta pérdida semanal consecutiva</strong> y más de un 20% por debajo de su nivel de finales de octubre, según [Investing.com](L1). Ether, la segunda criptomoneda más grande, cotizaba cerca de 1.890 dólares el sábado por la mañana, con una caída de alrededor del 4% en 24 horas.
+
+!takeaways
+- Bitcoin tocó unos 66.400 dólares en Kraken el viernes por la noche, su precio más bajo desde el 19 de agosto.
+- Los ETF de bitcoin al contado de EE. UU. tuvieron salidas netas de 185,4 millones de dólares el viernes, el séptimo día hábil seguido de retiros, según datos de Farside.
+- Los fondos perdieron unos 1.070 millones de dólares esta semana y unos 1.910 millones en la racha de siete días.
+- El índice de miedo y codicia cripto cayó a 13 el sábado, una lectura calificada de "miedo extremo".
+
+!figure:chart
+
+## Siguen las ventas en los ETF
+
+Los grandes fondos no dejan de vender. Según [Farside Investors](L2), los fondos cotizados (ETF) de bitcoin al contado de EE. UU. tuvieron salidas netas de <strong>185,4 millones de dólares</strong> el viernes 13 de noviembre. El iShares Bitcoin Trust (IBIT) de BlackRock sumó 143,5 millones y el FBTC de Fidelity, 41,9 millones. Ningún otro fondo registró movimientos ese día.
+
+Fueron siete días hábiles seguidos de retiros, desde el 5 de noviembre, por un total de unos <strong>1.910 millones de dólares</strong>. En la semana del 9 al 13 de noviembre, las salidas llegaron a unos 1.070 millones, tras unos 1.280 millones la semana anterior. En esas dos semanas, los fondos perdieron unos 2.350 millones, informó [Cointelegraph](L3), y el IBIT de BlackRock ya acumula salidas netas en 11 días hábiles consecutivos.
+
+!figure:flows
+
+Las ventas han borrado las ganancias del año para el grupo. Hasta el jueves, los ETF de bitcoin al contado de EE. UU. acumulaban salidas netas de unos 1.560 millones de dólares en 2026, según datos de SoSoValue analizados por [CoinDesk](L4). Desde su lanzamiento en enero de 2024, los fondos aún conservan unos 54.700 millones en entradas netas totales, según Farside.
+
+## Por qué el mercado está bajo presión
+
+Varias fuerzas pesan a la vez sobre los precios. Los operadores esperan ahora que la Reserva Federal suba los tipos de interés en diciembre tras unos datos de inflación más altos de lo previsto, lo que ha impulsado el dólar y los rendimientos de los bonos. Con rendimientos más altos, los activos de riesgo, como las criptomonedas y las acciones tecnológicas, resultan menos atractivos.
+
+Investing.com también señaló la turbulencia en el sector tecnológico, incluido el cambio de liderazgo en Nvidia, y la decisión de MSCI de retirar de sus índices el 30 de noviembre a Strategy, empresa que acumula bitcoin en su tesorería. Además, apuntó a la salida a bolsa prevista de Anthropic, que podría recaudar hasta 64.400 millones de dólares, como otro posible drenaje de liquidez.
+
+!mid_cta
+
+Los operadores apalancados sufrieron más pérdidas. Datos de CoinGlass citados por [The Crypto Times](L6) mostraron unos 1.260 millones de dólares en posiciones cripto liquidadas en las 24 horas hasta la madrugada del sábado, y las apuestas alcistas representaron alrededor del 86% del total.
+
+!figure:fact
+
+## Un indicador en miedo extremo
+
+El [índice de miedo y codicia cripto](L5) de Alternative.me cayó a <strong>13</strong> el sábado, desde 20 el viernes y 28 el jueves. El índice combina la volatilidad de precios, el volumen de negociación, la actividad en redes sociales y otros datos en una puntuación de 0 a 100. Las lecturas bajas indican nerviosismo entre los inversores. Algunos operadores interpretan las cifras muy bajas como señal de que las ventas podrían estar cerca de agotarse, pero el índice no predice cuándo terminará una caída.
+
+## Qué significa para principiantes
+
+Las pérdidas semanales como estas forman parte de tener bitcoin. El mayor daño suele recaer en quienes operan con dinero prestado, así que evitar el apalancamiento es una forma sencilla de reducir el riesgo. Si decides comprar, repartir montos pequeños en el tiempo puede quitarle parte de la incertidumbre al momento de entrada. Un exchange regulado de EE. UU. como [Coinbase](REF) permite programar compras periódicas; revisa sus comisiones y condiciones vigentes antes de registrarte. Invierte solo lo que puedas dejar quieto durante años. Esto no es asesoramiento de inversión.
+
+## Qué vigilar
+
+- Si bitcoin cierra la semana el domingo por debajo del cierre de la semana pasada, lo que confirmaría una sexta pérdida semanal seguida.
+- Los flujos de los ETF de bitcoin al contado el lunes 16 de noviembre, tras el fin de semana.
+- Los comentarios de miembros de la Fed antes de la reunión del 8-9 de diciembre.
+- Las ventas de fondos indexados ligadas a la salida de Strategy de los índices de MSCI el 30 de noviembre.
+
+!soft: ¿Quieres saber en qué se diferencia un ETF de tener las monedas directamente? Lee [ETF de bitcoin o comprar bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

@@ -782,6 +782,57 @@ def thumb_treasury_loans():
     ],"note":"Editorial composite; trademarks belong to their owners."}
 
 
+def thumb_btc_below_67k():
+    """Kraken XBTUSD daily closes, Oct 1 - Nov 14, 2026 (Nov 14 = latest trade at build time)."""
+    xs, closes = kraken_ohlc(1440)
+    start = datetime(2026, 10, 1, tzinfo=timezone.utc); end = datetime(2026, 11, 15, tzinfo=timezone.utc)
+    pts = [(x, c) for x, c in zip(xs, closes) if start <= x < end]
+    xs, closes = [p[0] for p in pts], [p[1] for p in pts]
+    fig, ax = plt.subplots(figsize=(6.4,3.6), dpi=100); fig.patch.set_facecolor("#0f1419")
+    style_ax(ax, "")
+    ax.plot(xs, closes, color="#f7931a", linewidth=2.0)
+    ax.fill_between(xs, closes, min(closes) * 0.97, color="#f87171", alpha=0.18)
+    ax.set_ylim(min(closes) * 0.97, max(closes) * 1.06)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v,_: f"${v/1000:.0f}k"))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %d"))
+    im = chart_to_image(fig)
+    label_chip(im, "Bitcoin daily close since Oct. 1 (Kraken)")
+    return im, {"kind":"chart","sources":[
+        {"file":"Kraken OHLC XBTUSD interval=1440","license":"Kraken public API","url":"https://docs.kraken.com/api/docs/rest-api/get-ohlc-data","credit":"Daily BTC/USD closes, Oct 1 - Nov 14, 2026, from Kraken"}
+    ]}
+
+
+def thumb_unocoin_keys():
+    """Original 2-of-3 multisig diagram with Unocoin and BitGo logos (identification only)."""
+    uno = fetch("https://upload.wikimedia.org/wikipedia/commons/f/f8/Unocoin-logo.png", CACHE/"unocoin-logo.png")
+    bitgo = fetch("https://upload.wikimedia.org/wikipedia/commons/b/be/BitGo_Color_Large.png", CACHE/"bitgo-logo.png")
+    base = gradient_bg(); d = ImageDraw.Draw(base)
+    RED, GRAYC = (248, 113, 113), (100, 116, 139)
+    cols = [(60, "User key", "Unocoin", RED, "used"), (245, "Backup key", "Unocoin", RED, "used"), (430, "BitGo key", "BitGo", GRAYC, "not used")]
+    for x, name, owner, col, status in cols:
+        tile = Image.new("RGBA", (150, 150), (0, 0, 0, 0))
+        ImageDraw.Draw(tile).rounded_rectangle([0, 0, 149, 149], radius=18, fill=(255, 255, 255, 255))
+        base.paste(tile.convert("RGB"), (x, 62), tile)
+        logo = uno if owner == "Unocoin" else bitgo
+        paste_contain(base, Image.open(logo).convert("RGBA"), (x, 62, 150, 70), pad=12)
+        # simple key glyph
+        kx, ky = x + 52, 160
+        d.ellipse([kx - 18, ky - 18, kx + 18, ky + 18], outline=col, width=6)
+        d.line([(kx + 18, ky), (kx + 66, ky)], fill=col, width=6)
+        d.line([(kx + 50, ky), (kx + 50, ky + 14)], fill=col, width=6)
+        d.line([(kx + 62, ky), (kx + 62, ky + 12)], fill=col, width=6)
+        f = font(FONT_B, 16); tw = d.textlength(name, font=f); d.text((x + 75 - tw / 2, 226), name, font=f, fill=WHITE)
+        f2 = font(FONT_R, 13); t2 = f"{owner} · {status}"; tw = d.textlength(t2, font=f2); d.text((x + 75 - tw / 2, 250), t2, font=f2, fill=col)
+    f = font(FONT_B, 18); t = "2 of 3 keys signed, so a BitGo freeze could not stop it"
+    tw = d.textlength(t, font=f); d.text(((W - tw) / 2, 296), t, font=f, fill=ORANGE)
+    label_chip(base, "Unocoin · 2-of-3 multisig wallet")
+    return base, {"kind":"composite","sources":[
+        {"file":"Unocoin-logo.png","license":"CC BY-SA 4.0","url":"https://commons.wikimedia.org/wiki/File:Unocoin-logo.png","credit":"Unocoin / Wikimedia Commons"},
+        {"file":"BitGo_Color_Large.png","license":"CC BY-SA 4.0","url":"https://commons.wikimedia.org/wiki/File:BitGo_Color_Large.png","credit":"BitGo / Wikimedia Commons"},
+        {"file":"2-of-3 key diagram","license":"PlainBTC original","url":"https://www.bitgo.com/resources/blog/unocoin-security-incident/","credit":"PlainBTC, based on BitGo's Nov. 13, 2026 description"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -811,6 +862,8 @@ BUILDERS = {
     "dtcc-tokenized-stocks-solana-2027-nov-2026": thumb_dtcc_solana,
     "kraken-payward-q3-2026-results-nov-2026": thumb_payward_q3,
     "crypto-treasury-firms-loans-nakamoto-btcs-nov-2026": thumb_treasury_loans,
+    "bitcoin-below-67000-sixth-weekly-loss-nov-2026": thumb_btc_below_67k,
+    "unocoin-hack-bitgo-backup-keys-nov-2026": thumb_unocoin_keys,
 }
 
 def first_figure_source(slug: str) -> Path | None:

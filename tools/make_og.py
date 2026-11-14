@@ -32,6 +32,16 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "bitcoin-below-67000-sixth-weekly-loss-nov-2026",
+        "Bitcoin slips below $67,000 as ETF investors pull $1.07 billion in a week",
+        "MARKET NEWS",
+    ),
+    (
+        "unocoin-hack-bitgo-backup-keys-nov-2026",
+        "Hackers used Unocoin's old paper backup keys to take about $200,000",
+        "SECURITY",
+    ),
+    (
         "kraken-payward-q3-2026-results-nov-2026",
         "Kraken parent Payward's earnings drop two-thirds as crypto trading cools",
         "BUSINESS",
@@ -176,6 +186,16 @@ ARTICLES = [
 WIKI = "https://upload.wikimedia.org/wikipedia/commons/"
 OG_LOGOS: dict[str, list[tuple[str, tuple[int, int, int]]]] = {
     # Kraken "by Payward" wordmark from Kraken's official press image page (kraken.com/press/kraken-images).
+    # BlackRock wordmark (public domain, Wikimedia Commons): IBIT led the ETF outflows.
+    "bitcoin-below-67000-sixth-weekly-loss-nov-2026": [
+        (WIKI + "8/85/BlackRock_wordmark.svg", (255, 255, 255)),
+        (WIKI + "4/46/Bitcoin.svg", (255, 255, 255)),
+    ],
+    # Unocoin and BitGo logos (Wikimedia Commons, CC BY-SA 4.0), identification only.
+    "unocoin-hack-bitgo-backup-keys-nov-2026": [
+        (WIKI + "f/f8/Unocoin-logo.png", (255, 255, 255)),
+        (WIKI + "b/be/BitGo_Color_Large.png", (255, 255, 255)),
+    ],
     "kraken-payward-q3-2026-results-nov-2026": [
         ("https://assets-cms.kraken.com/images/51n36hrp/facade/4d67f3f4eac6aa0702c6ae62b1e0b1abc41b10cd-650x155.svg", (255, 255, 255)),
     ],

@@ -1,0 +1,62 @@
+title: Bitcoin cai abaixo de US$ 67.000 e ETFs perdem US$ 1,07 bilhão em uma semana
+page_title: Bitcoin abaixo de US$ 67.000 após semana de saídas de US$ 1,07 bilhão em ETFs
+description: O bitcoin caiu para cerca de US$ 66.400 na Kraken na noite de sexta-feira, o menor preço desde 19 de agosto, depois que os ETFs de bitcoin à vista dos EUA perderam US$ 1,07 bilhão em uma semana e somaram sete dias seguidos de saídas.
+og_description: O bitcoin ficou abaixo de US$ 67.000, o menor nível desde meados de agosto. Os ETFs de bitcoin à vista tiveram o sétimo dia seguido de saídas, e o índice de medo e ganância cripto caiu para 13.
+label: Mercado
+summary: O bitcoin atingiu o menor preço desde 19 de agosto enquanto os ETFs de bitcoin à vista perderam cerca de US$ 1,07 bilhão nesta semana e os medidores de sentimento afundaram no "medo extremo".
+===
+
+O bitcoin continuou caindo rumo ao fim de semana. Na Kraken, o preço desceu para cerca de <strong>US$ 66.400</strong> na noite de sexta-feira, no horário dos EUA, o menor nível desde 19 de agosto, e era negociado perto de <strong>US$ 66.800</strong> na manhã de sábado. Isso fica cerca de 11% abaixo do início da semana: na segunda-feira, o bitcoin abriu perto de US$ 74.700 na Kraken.
+
+A queda coloca o bitcoin a caminho da <strong>sexta perda semanal seguida</strong> e mais de 20% abaixo do nível do fim de outubro, segundo o [Investing.com](L1). O ether, segunda maior criptomoeda, era negociado perto de US$ 1.890 na manhã de sábado, em queda de cerca de 4% em 24 horas.
+
+!takeaways
+- O bitcoin tocou cerca de US$ 66.400 na Kraken na noite de sexta-feira, o menor preço desde 19 de agosto.
+- Os ETFs de bitcoin à vista dos EUA tiveram saídas líquidas de US$ 185,4 milhões na sexta-feira, o sétimo pregão seguido de resgates, mostram dados da Farside.
+- Os fundos perderam cerca de US$ 1,07 bilhão nesta semana e cerca de US$ 1,91 bilhão na sequência de sete dias.
+- O índice de medo e ganância cripto caiu para 13 no sábado, leitura classificada como "medo extremo".
+
+!figure:chart
+
+## Os ETFs seguem vendendo
+
+Os grandes fundos vendem sem parar. Segundo a [Farside Investors](L2), os fundos negociados em bolsa (ETFs) de bitcoin à vista dos EUA tiveram saídas líquidas de <strong>US$ 185,4 milhões</strong> na sexta-feira, 13 de novembro. O iShares Bitcoin Trust (IBIT), da BlackRock, respondeu por US$ 143,5 milhões e o FBTC, da Fidelity, por US$ 41,9 milhões. Nenhum outro fundo registrou fluxo no dia.
+
+Foram sete pregões seguidos de resgates, desde 5 de novembro, somando cerca de <strong>US$ 1,91 bilhão</strong>. Na semana de 9 a 13 de novembro, as saídas chegaram a cerca de US$ 1,07 bilhão, depois de cerca de US$ 1,28 bilhão na semana anterior. Nessas duas semanas, os fundos perderam cerca de US$ 2,35 bilhões, informou o [Cointelegraph](L3), e o IBIT da BlackRock já soma saídas líquidas em 11 pregões consecutivos.
+
+!figure:flows
+
+As vendas apagaram os ganhos do ano para o grupo. Até quinta-feira, os ETFs de bitcoin à vista dos EUA acumulavam saídas líquidas de cerca de US$ 1,56 bilhão em 2026, segundo dados da SoSoValue analisados pelo [CoinDesk](L4). Desde o lançamento, em janeiro de 2024, os fundos ainda somam cerca de US$ 54,7 bilhões em entradas líquidas totais, segundo a Farside.
+
+## Por que o mercado está sob pressão
+
+Várias forças pesam sobre os preços ao mesmo tempo. Os operadores agora esperam que o Federal Reserve suba os juros em dezembro, após dados de inflação acima do esperado, o que fortaleceu o dólar e elevou os rendimentos dos títulos. Rendimentos mais altos tornam ativos de risco, como criptomoedas e ações de tecnologia, menos atraentes.
+
+O Investing.com também citou a turbulência no setor de tecnologia, incluindo a troca de comando na Nvidia, e a decisão da MSCI de retirar de seus índices, em 30 de novembro, a Strategy, empresa que guarda bitcoin em tesouraria. O site apontou ainda a oferta pública planejada da Anthropic, que pode levantar até US$ 64,4 bilhões, como outro possível dreno de liquidez.
+
+!mid_cta
+
+Os operadores alavancados tiveram mais perdas. Dados da CoinGlass citados pelo [The Crypto Times](L6) mostraram cerca de US$ 1,26 bilhão em posições cripto liquidadas nas 24 horas até a madrugada de sábado, com apostas de alta respondendo por cerca de 86% do total.
+
+!figure:fact
+
+## Um termômetro em medo extremo
+
+O [índice de medo e ganância cripto](L5) da Alternative.me caiu para <strong>13</strong> no sábado, ante 20 na sexta-feira e 28 na quinta-feira. O índice combina oscilações de preço, volume de negociação, atividade em redes sociais e outros dados em uma nota de 0 a 100. Leituras baixas indicam investidores nervosos. Alguns operadores veem notas muito baixas como sinal de que as vendas podem estar perto do fim, mas o índice não prevê quando uma queda vai terminar.
+
+## O que isso significa para iniciantes
+
+Perdas semanais como essas fazem parte de ter bitcoin. O maior estrago costuma atingir quem usa dinheiro emprestado, então evitar alavancagem é uma forma simples de reduzir o risco. Se você decidir comprar, valores pequenos distribuídos ao longo do tempo tiram parte da adivinhação sobre o momento certo. Uma corretora regulada dos EUA como a [Coinbase](REF) permite programar compras recorrentes; confira as tarifas e condições atuais antes de se cadastrar. Invista apenas o que você pode deixar parado por anos. Isto não é recomendação de investimento.
+
+## O que acompanhar
+
+- Se o bitcoin fechar a semana no domingo abaixo do fechamento da semana passada, o que confirmaria a sexta perda semanal seguida.
+- Os fluxos dos ETFs de bitcoin à vista na segunda-feira, 16 de novembro, depois do fim de semana.
+- Declarações de dirigentes do Fed antes da reunião de 8 e 9 de dezembro.
+- Vendas de fundos indexados ligadas à saída da Strategy dos índices da MSCI em 30 de novembro.
+
+!soft: Quer entender a diferença entre um ETF e ter as moedas diretamente? Leia [ETF de bitcoin ou comprar bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

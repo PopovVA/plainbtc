@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-unocoin-incident.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline: Nov. 6, Unocoin finds suspicious activity and freezes its BitGo and Fireblocks accounts; Nov. 9, more unauthorized activity and all services suspended; Nov. 13, BitGo says transfers were signed with Unocoin's user and backup keys; Nov. 14, loss estimated at about $200,000 from three hot wallets",
+      "es": "Cronología: 6 de nov., Unocoin detecta actividad sospechosa y congela sus cuentas en BitGo y Fireblocks; 9 de nov., más actividad no autorizada y suspensión de todos los servicios; 13 de nov., BitGo dice que las transferencias se firmaron con las claves de usuario y de respaldo de Unocoin; 14 de nov., pérdida estimada en unos 200.000 dólares de tres billeteras calientes",
+      "pt": "Linha do tempo: 6 de nov., a Unocoin detecta atividade suspeita e congela suas contas na BitGo e na Fireblocks; 9 de nov., mais atividade não autorizada e suspensão de todos os serviços; 13 de nov., a BitGo diz que as transferências foram assinadas com as chaves de usuário e de backup da Unocoin; 14 de nov., perda estimada em cerca de US$ 200.000 de três carteiras quentes",
+      "fr": "Chronologie : 6 nov., Unocoin repère une activité suspecte et gèle ses comptes chez BitGo et Fireblocks ; 9 nov., nouvelle activité non autorisée et suspension de tous les services ; 13 nov., BitGo indique que les transferts ont été signés avec les clés utilisateur et de secours d'Unocoin ; 14 nov., perte estimée à environ 200 000 dollars sur trois portefeuilles chauds",
+      "de": "Zeitleiste: 6. Nov., Unocoin entdeckt verdächtige Aktivitäten und friert seine Konten bei BitGo und Fireblocks ein; 9. Nov., weitere unbefugte Aktivitäten, alle Dienste ausgesetzt; 13. Nov., BitGo: Überweisungen wurden mit Unocoins Nutzer- und Backup-Schlüssel signiert; 14. Nov., Verlust auf rund 200.000 $ aus drei Hot Wallets geschätzt",
+      "ru": "Хронология: 6 ноября Unocoin обнаруживает подозрительную активность и замораживает аккаунты в BitGo и Fireblocks; 9 ноября новая несанкционированная активность, все сервисы приостановлены; 13 ноября BitGo сообщает, что переводы подписаны пользовательским и резервным ключами Unocoin; 14 ноября потери оценены примерно в $200 000 из трех горячих кошельков",
+      "tr": "Zaman çizelgesi: 6 Kasım'da Unocoin şüpheli hareket tespit edip BitGo ve Fireblocks hesaplarını donduruyor; 9 Kasım'da yeni yetkisiz hareketler, tüm hizmetler askıya alınıyor; 13 Kasım'da BitGo transferlerin Unocoin'in kullanıcı ve yedek anahtarlarıyla imzalandığını söylüyor; 14 Kasım'da üç sıcak cüzdandan yaklaşık 200.000 $ kayıp tahmin ediliyor",
+      "id": "Linimasa: 6 Nov, Unocoin menemukan aktivitas mencurigakan dan membekukan akun BitGo serta Fireblocks; 9 Nov, aktivitas tidak sah lagi dan semua layanan dihentikan; 13 Nov, BitGo menyatakan transfer ditandatangani dengan kunci pengguna dan kunci cadangan Unocoin; 14 Nov, kerugian diperkirakan sekitar US$200.000 dari tiga hot wallet",
+      "ja": "時系列：11月6日、Unocoinが不審な動きを検知しBitGoとFireblocksの口座を凍結。11月9日、さらなる不正な動きで全サービス停止。11月13日、BitGoが送金はUnocoinのユーザー鍵とバックアップ鍵で署名されたと説明。11月14日、ホットウォレット3つから約20万ドルの損失と推計",
+      "ko": "타임라인: 11월 6일 유노코인이 의심 활동을 발견하고 BitGo·Fireblocks 계정 동결, 11월 9일 추가 무단 활동으로 전체 서비스 중단, 11월 13일 BitGo가 유노코인의 사용자 키와 백업 키로 서명됐다고 발표, 11월 14일 핫월렛 3개에서 약 20만 달러 손실 추정"
+    },
+    "caption": {
+      "en": "Source: Unocoin incident updates; BitGo",
+      "es": "Fuente: Unocoin incident updates; BitGo",
+      "pt": "Fonte: Unocoin incident updates; BitGo",
+      "fr": "Source : Unocoin incident updates; BitGo",
+      "de": "Quelle: Unocoin incident updates; BitGo",
+      "ru": "Источник: Unocoin incident updates; BitGo",
+      "tr": "Kaynak: Unocoin incident updates; BitGo",
+      "id": "Sumber: Unocoin incident updates; BitGo",
+      "ja": "出典: Unocoin incident updates; BitGo",
+      "ko": "출처: Unocoin incident updates; BitGo"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-unocoin-200k.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: Unocoin estimates its crypto loss at about $200,000, taken from 3 of its more than 20 operational wallets, and says it will cover the loss from its own resources",
+      "es": "Tarjeta: Unocoin estima su pérdida en criptomonedas en unos 200.000 dólares, sustraídos de 3 de sus más de 20 billeteras operativas, y dice que la cubrirá con recursos propios",
+      "pt": "Cartão: a Unocoin estima sua perda em cripto em cerca de US$ 200.000, retirados de 3 de suas mais de 20 carteiras operacionais, e diz que vai cobrir a perda com recursos próprios",
+      "fr": "Encadré : Unocoin estime sa perte en cryptos à environ 200 000 dollars, prélevés sur 3 de ses plus de 20 portefeuilles opérationnels, et dit qu'elle la couvrira sur ses fonds propres",
+      "de": "Faktenkarte: Unocoin schätzt seinen Kryptoverlust auf rund 200.000 $ aus 3 seiner mehr als 20 Betriebs-Wallets und will den Verlust aus eigenen Mitteln decken",
+      "ru": "Карточка: Unocoin оценивает потери в криптовалюте примерно в $200 000 из 3 из более чем 20 рабочих кошельков и обещает покрыть их из собственных средств",
+      "tr": "Kart: Unocoin kripto kaybını 20'den fazla operasyonel cüzdanından 3'ünden alınan yaklaşık 200.000 $ olarak tahmin ediyor ve kaybı kendi kaynaklarından karşılayacağını söylüyor",
+      "id": "Kartu fakta: Unocoin memperkirakan kerugian kripto sekitar US$200.000 dari 3 dari lebih 20 dompet operasionalnya dan akan menanggungnya dari dana sendiri",
+      "ja": "カード：Unocoinは20を超える運用ウォレットのうち3つから約20万ドルの暗号資産が失われたと推計し、自己資金で補填すると説明",
+      "ko": "카드: 유노코인은 20개가 넘는 운영 지갑 중 3개에서 약 20만 달러의 암호화폐 손실이 났다고 추정하며, 자체 자금으로 보전하겠다고 밝혔다"
+    },
+    "caption": {
+      "en": "Source: Unocoin security incident update",
+      "es": "Fuente: Unocoin security incident update",
+      "pt": "Fonte: Unocoin security incident update",
+      "fr": "Source : Unocoin security incident update",
+      "de": "Quelle: Unocoin security incident update",
+      "ru": "Источник: Unocoin security incident update",
+      "tr": "Kaynak: Unocoin security incident update",
+      "id": "Sumber: Unocoin security incident update",
+      "ja": "出典: Unocoin security incident update",
+      "ko": "출처: Unocoin security incident update"
+    }
+  }
+]

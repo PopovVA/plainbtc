@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Unocoin-logo.png",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Unocoin-logo.png",
+      "credit": "Unocoin / Wikimedia Commons"
+    },
+    {
+      "file": "BitGo_Color_Large.png",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:BitGo_Color_Large.png",
+      "credit": "BitGo / Wikimedia Commons"
+    },
+    {
+      "file": "2-of-3 key diagram",
+      "license": "PlainBTC original",
+      "url": "https://www.bitgo.com/resources/blog/unocoin-security-incident/",
+      "credit": "PlainBTC, based on BitGo's Nov. 13, 2026 description"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "unocoin-hack-bitgo-backup-keys-nov-2026",
+  "generated": "2026-11-14T14:01Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

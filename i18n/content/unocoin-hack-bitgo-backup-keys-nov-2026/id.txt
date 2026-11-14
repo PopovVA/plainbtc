@@ -1,0 +1,60 @@
+title: Bursa India Unocoin sebut peretas memakai kunci cadangan kertas lamanya untuk mengambil sekitar US$200.000 kripto
+page_title: Peretasan Unocoin: kunci cadangan dipakai memindahkan sekitar US$200.000
+description: Unocoin mengatakan penyerang memakai kunci cadangan yang dicetak di kertas sekitar delapan tahun lalu untuk menandatangani transfer dari tiga hot wallet, sehingga lolos dari pembekuan akun di BitGo. Data pelanggan juga mungkin terekspos.
+og_description: Bursa kripto India Unocoin memperkirakan kerugian sekitar US$200.000 dari tiga hot wallet dan akan menanggungnya. BitGo menyatakan kuncinya sendiri tidak pernah dipakai. Begini cara kerja dompet 2-dari-3 dan mengapa pembekuan tidak menghentikan transfer.
+label: Keamanan
+summary: Unocoin mengatakan peretas memakai kunci cadangan milik bursa itu sendiri untuk menguras sekitar US$200.000 dari tiga hot wallet, lolos dari pembekuan di kustodian BitGo. Data pelanggan juga mungkin terekspos.
+===
+
+Bursa kripto India <strong>Unocoin</strong> mengumumkan pada Sabtu, 14 November, bahwa penyerang mengambil sekitar <strong>US$200.000</strong> dalam bentuk kripto dari tiga hot wallet miliknya, yaitu dompet yang terhubung ke internet untuk penarikan harian. Dalam [pembaruan insiden](L1), perusahaan itu mengatakan para pencuri memakai kunci cadangan yang dibuat sekitar delapan tahun lalu, dicetak di kertas, dan disimpan di tempat penyimpanan fisik.
+
+Unocoin, yang melayani nasabah India sejak 2013, menghentikan semua layanannya pada 9 November dan belum dibuka kembali. Bursa itu mengatakan akan menanggung kerugian dengan dana sendiri dan saldo kripto nasabah tidak akan dikurangi.
+
+!takeaways
+- Unocoin memperkirakan kerugian sekitar US$200.000 dari tiga dari lebih 20 dompet operasionalnya, kurang dari 1% kripto yang disimpannya untuk nasabah.
+- Transfer ditandatangani dengan dua kunci yang dikendalikan Unocoin, kunci pengguna dan kunci cadangan, sehingga pembekuan di penyedia dompet BitGo tidak bisa memblokirnya.
+- BitGo menyatakan kuncinya sendiri tidak pernah dipakai, dan Unocoin menyebut sistem BitGo tidak dibobol.
+- Menurut Unocoin, alamat email, alamat rumah, kata sandi terenkripsi, data terkait KYC, dan saldo nasabah mungkin terekspos.
+
+## Apa yang terjadi, langkah demi langkah
+
+Unocoin mengatakan pertama kali melihat aktivitas mencurigakan pada Jumat, 6 November. Hari itu juga bursa meminta penyedia dompetnya, Fireblocks dan BitGo, membekukan akun bisnisnya, dan keduanya mengonfirmasi pembekuan. Setelah menemukan aktivitas tidak sah lagi pada 9 November, Unocoin mematikan semua layanan sebagai langkah pencegahan. Saat itu, menurut perusahaan, belum ada kehilangan dana yang ditemukan.
+
+Situasinya berubah pada 12 November, ketika Unocoin menemukan transaksi keluar dari sebuah alamat Ethereum dalam susunan dompet BitGo-nya. BitGo lalu meninjau aktivitas itu dan pada 13 November menerbitkan [penjelasannya sendiri](L2). BitGo menemukan transfer token ERC-20 di Ethereum, XRP di XRP Ledger, HBAR di Hedera, serta EOS.
+
+!figure:timeline
+
+## Mengapa pembekuan tidak menghentikannya
+
+Dompet yang terdampak memakai skema <strong>multisignature 2-dari-3</strong>. Artinya ada tiga kunci terpisah, dan dua kunci mana pun bisa menyetujui transfer. Dalam kasus ini Unocoin memegang dua kunci, kunci "pengguna" dan kunci "cadangan", sementara BitGo memegang kunci ketiga.
+
+Penarikan normal melewati platform BitGo, yang memeriksanya lalu menambahkan tanda tangan BitGo. Kunci cadangan ada agar nasabah tetap bisa menjangkau dananya jika BitGo suatu saat tidak tersedia. BitGo mengatakan transfer yang ditinjaunya ditandatangani dengan kunci pengguna dan kunci cadangan Unocoin lalu dikirim langsung ke blockchain, di luar platformnya. Kunci BitGo sendiri tidak pernah dipakai.
+
+!mid_cta
+
+Pembekuan hanya mencegah BitGo menandatangani. "Pembekuan tidak mengunci dana di tingkat blockchain," tulis BitGo. Siapa pun yang memegang dua kunci lainnya tetap bisa memenuhi aturan dua tanda tangan. BitGo mengatakan telah menyarankan Unocoin memindahkan sisa dananya ke dompet baru dengan kunci yang baru dibuat.
+
+!figure:fact
+
+Unocoin mengatakan masih mencari tahu bagaimana kunci cadangan kertas itu bisa dibobol. Menurutnya, frasa sandi untuk mendekripsi kunci yang dicetak tersimpan di sistemnya yang diretas, tetapi hal itu saja "belum sepenuhnya memecahkan teka-teki". Bursa itu menambahkan sudah berhasil membekukan sebagian dana curian lewat jejaring di industri. Pertanyaan tentang bagaimana kunci itu dijangkau dan kapan layanan kembali masih terbuka, catat [CryptoSlate](L3), sementara BitGo dalam pernyataan yang dikutip [crypto.news](L4) mengatakan tidak ada klien lain yang terdampak.
+
+## Data nasabah mungkin terekspos
+
+Unocoin mengatakan memperlakukan sebagian besar sistemnya sebagai kemungkinan telah dibobol. Informasi yang mungkin terekspos meliputi alamat email terdaftar, alamat rumah, kata sandi akun terenkripsi, data terkait KYC, dan saldo akun. Perusahaan menyatakan sejauh ini belum menemukan bukti bahwa dokumen KYC nasabah diakses. Unocoin mengingatkan pengguna untuk waspada terhadap pesan phishing yang terarah dan menegaskan tidak akan pernah meminta kata sandi, kode sekali pakai, kunci privat, atau frasa pemulihan.
+
+## Apa artinya bagi pemula
+
+Aturan yang sama berlaku untuk dompet Anda sendiri: siapa yang memegang cukup kunci, dialah yang menguasai koin. Jika Anda menyimpan kripto sendiri, simpan frasa pemulihan secara offline dan jauh dari perangkat yang Anda pakai sehari-hari, jangan pernah mengetiknya di situs web, dan jangan membagikannya. Jika Anda menyimpan kripto di bursa, gunakan kata sandi yang kuat dan unik serta verifikasi dua langkah lewat aplikasi atau kunci perangkat keras. Bursa AS yang teregulasi seperti [Coinbase](REF) menyediakan pengaturan keamanan ini; periksa ketentuan dan perlindungan terbarunya sebelum mendaftar. Tidak ada platform yang bebas risiko. Ini bukan saran investasi.
+
+## Yang perlu dipantau
+
+- Temuan forensik Unocoin tentang bagaimana kunci cadangan dibobol.
+- Kapan Unocoin memulihkan setoran, penarikan, dan perdagangan.
+- Apakah lebih banyak dana curian yang dibekukan atau dipulihkan.
+- Upaya phishing yang memanfaatkan data nasabah yang bocor.
+
+!soft: Tidak yakin siapa yang memegang kunci koin Anda? Baca panduan kami tentang [dompet kripto kustodian vs. kustodi mandiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

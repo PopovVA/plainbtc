@@ -1,0 +1,60 @@
+title: Hindistan merkezli borsa Unocoin: Hackerlar eski kağıt yedek anahtarlarını kullanarak yaklaşık 200.000 dolarlık kripto çaldı
+page_title: Unocoin saldırısı: yedek anahtarlarla yaklaşık 200.000 dolar taşındı
+description: Unocoin, saldırganların yaklaşık sekiz yıl önce kağıda basılmış yedek anahtarlarla üç sıcak cüzdandan transferleri imzaladığını ve BitGo'daki hesap dondurmasını aştığını söylüyor. Müşteri verileri de açığa çıkmış olabilir.
+og_description: Hindistan merkezli kripto borsası Unocoin üç sıcak cüzdandan yaklaşık 200.000 dolar kaybettiğini tahmin ediyor ve zararı karşılayacağını söylüyor. BitGo kendi anahtarının hiç kullanılmadığını belirtiyor. 2'de 3 cüzdan nasıl çalışır ve dondurma neden transferleri durdurmadı?
+label: Güvenlik
+summary: Unocoin, hackerların borsanın kendi yedek anahtarlarıyla üç sıcak cüzdandan yaklaşık 200.000 dolar çektiğini ve saklama şirketi BitGo'daki dondurmayı aştığını söylüyor. Müşteri verileri de açığa çıkmış olabilir.
+===
+
+Hindistan merkezli kripto borsası <strong>Unocoin</strong>, 14 Kasım cumartesi günü saldırganların üç sıcak cüzdanından, yani günlük çekimler için kullandığı internete bağlı cüzdanlardan, yaklaşık <strong>200.000 dolarlık</strong> kripto para aldığını açıkladı. Şirket bir [olay güncellemesinde](L1), hırsızların yaklaşık sekiz yıl önce oluşturulan, kağıda basılan ve fiziksel bir depoda saklanan yedek anahtarları kullandığını söyledi.
+
+2013'ten bu yana Hindistan'daki müşterilere hizmet veren Unocoin, 9 Kasım'da tüm hizmetlerini durdurdu ve henüz yeniden açılmadı. Borsa, zararı kendi kaynaklarından karşılayacağını ve müşterilerin kripto bakiyelerinin azaltılmayacağını belirtti.
+
+!takeaways
+- Unocoin, kaybını 20'den fazla operasyonel cüzdanından 3'ünde yaklaşık 200.000 dolar olarak tahmin ediyor; bu, müşteriler adına tuttuğu kriptonun %1'inden az.
+- Transferler, Unocoin'in kontrolündeki iki anahtarla, kullanıcı ve yedek anahtarıyla imzalandı; bu yüzden cüzdan sağlayıcısı BitGo'daki dondurma onları engelleyemedi.
+- BitGo kendi anahtarının hiç kullanılmadığını söylüyor; Unocoin ise BitGo'nun sistemlerinin ele geçirilmediğini belirtiyor.
+- Unocoin'e göre müşterilerin e-posta adresleri, ev adresleri, şifrelenmiş parolaları, KYC ile ilgili bilgileri ve bakiyeleri açığa çıkmış olabilir.
+
+## Adım adım ne oldu
+
+Unocoin, şüpheli hareketi ilk kez 6 Kasım cuma günü fark ettiğini söyledi. Aynı gün cüzdan sağlayıcıları Fireblocks ve BitGo'dan kurumsal hesaplarını dondurmalarını istedi ve iki şirket de dondurmayı onayladı. 9 Kasım'da yeni yetkisiz hareketler bulunca önlem olarak tüm hizmetlerini kapattı. Şirkete göre o noktada herhangi bir fon kaybı tespit edilmemişti.
+
+Bu durum 12 Kasım'da, Unocoin BitGo cüzdan yapısındaki bir Ethereum adresinden giden işlemler bulunca değişti. BitGo hareketleri inceledi ve 13 Kasım'da [kendi açıklamasını](L2) yayımladı. Ethereum'da ERC-20 token, XRP Ledger'da XRP, Hedera'da HBAR ve EOS transferleri tespit etti.
+
+!figure:timeline
+
+## Dondurma neden işe yaramadı
+
+Etkilenen cüzdanlar <strong>2'de 3 çoklu imza</strong> yapısı kullanıyordu. Yani üç ayrı anahtar var ve bunlardan herhangi ikisi bir transferi onaylayabiliyor. Bu örnekte Unocoin'in elinde "kullanıcı" ve "yedek" olmak üzere iki anahtar, BitGo'da ise üçüncü anahtar vardı.
+
+Normal çekimler BitGo platformundan geçiyor; BitGo bunları kontrol edip kendi imzasını ekliyor. Yedek anahtar, BitGo bir gün erişilemez olursa müşterinin fonlarına yine ulaşabilmesi için var. BitGo, incelediği transferlerin Unocoin'in kullanıcı ve yedek anahtarlarıyla imzalandığını ve kendi platformu dışında doğrudan blokzincire gönderildiğini söyledi. BitGo'nun anahtarı hiç kullanılmadı.
+
+!mid_cta
+
+Dondurma yalnızca BitGo'nun imza atmasını engelliyor. BitGo, "Dondurma fonları blokzincir düzeyinde kilitlemez" diye yazdı. Diğer iki anahtara sahip olan biri iki imza kuralını yine de karşılayabilir. BitGo, Unocoin'e kalan fonlarını yeni oluşturulmuş anahtarlara sahip yeni cüzdanlara taşımasını tavsiye ettiğini söyledi.
+
+!figure:fact
+
+Unocoin, kağıt yedek anahtarların nasıl ele geçirildiğini hâlâ araştırdığını söyledi. Basılı anahtarların şifresini çözmek için gereken parolanın ele geçirilen sistemlerinde bulunduğunu, ancak bunun tek başına "bulmacayı tam olarak çözmediğini" belirtti. Sektördeki bağlantıları sayesinde çalınan fonların bir kısmını dondurmayı başardığını da ekledi. [CryptoSlate](L3), anahtarlara nasıl ulaşıldığı ve hizmetlerin ne zaman yeniden başlayacağı sorularının yanıtsız kaldığını not etti; BitGo ise [crypto.news](L4) tarafından aktarılan açıklamasında başka hiçbir müşterinin etkilenmediğini söyledi.
+
+## Müşteri verileri açığa çıkmış olabilir
+
+Unocoin, sistemlerinin büyük bölümünü ele geçirilmiş olabilecek sistemler olarak ele aldığını söyledi. Açığa çıkmış olabilecek bilgiler arasında kayıtlı e-posta adresleri, ev adresleri, şifrelenmiş hesap parolaları, KYC ile ilgili bilgiler ve hesap bakiyeleri var. Şirket, şu ana kadar müşterilerin KYC belgelerine erişildiğine dair bir kanıt bulmadığını belirtti. Kullanıcıları hedefli oltalama mesajlarına karşı uyardı ve parola, tek kullanımlık kod, özel anahtar ya da kurtarma ifadesi asla istemeyeceğini hatırlattı.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Aynı kural sizin cüzdanınız için de geçerli: Yeterli anahtara sahip olan, coinleri kontrol eder. Kriptonuzu kendiniz saklıyorsanız kurtarma ifadenizi çevrimdışı ve her gün kullandığınız cihazlardan uzakta tutun, hiçbir web sitesine yazmayın ve kimseyle paylaşmayın. Kriptonuzu bir borsada tutuyorsanız güçlü ve benzersiz bir parola ile uygulama ya da donanım anahtarı tabanlı iki adımlı doğrulama kullanın. [Coinbase](REF) gibi düzenlemeye tabi bir ABD borsası bu güvenlik ayarlarını sunuyor; kaydolmadan önce güncel koşullarını ve korumalarını inceleyin. Hiçbir platform risksiz değildir. Bu bir yatırım tavsiyesi değildir.
+
+## Neleri izlemeli
+
+- Yedek anahtarların nasıl ele geçirildiğine dair Unocoin'in adli inceleme bulguları.
+- Unocoin'in para yatırma, çekme ve alım satımı ne zaman yeniden açacağı.
+- Çalınan fonların daha fazlasının dondurulup dondurulmayacağı ya da geri alınıp alınmayacağı.
+- Sızan müşteri bilgilerini kullanan oltalama girişimleri.
+
+!soft: Coinlerinizin anahtarlarını kimin tuttuğundan emin değil misiniz? [Saklamalı ve kendi kendine saklamalı kripto cüzdanlar](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) rehberimizi okuyun.
+
+!end_cta
+
+!disclosure

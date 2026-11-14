@@ -1,0 +1,60 @@
+title: Indische Börse Unocoin: Hacker nutzten alte Backup-Schlüssel auf Papier und erbeuteten rund 200.000 Dollar in Krypto
+page_title: Unocoin-Hack: Backup-Schlüssel genutzt, um rund 200.000 Dollar abzuziehen
+description: Unocoin zufolge signierten die Angreifer mit Backup-Schlüsseln, die vor etwa acht Jahren auf Papier gedruckt wurden, Überweisungen aus drei Hot Wallets und umgingen so eine Kontosperre bei BitGo. Auch Kundendaten könnten offengelegt sein.
+og_description: Die indische Kryptobörse Unocoin schätzt den Verlust aus drei Hot Wallets auf rund 200.000 Dollar und will ihn selbst tragen. BitGo erklärt, der eigene Schlüssel sei nie verwendet worden. So funktioniert ein 2-von-3-Wallet, und darum stoppte die Sperre die Überweisungen nicht.
+label: Sicherheit
+summary: Unocoin zufolge leerten Hacker mit den eigenen Backup-Schlüsseln der Börse drei Hot Wallets um rund 200.000 Dollar und umgingen eine Sperre beim Verwahrer BitGo. Auch Kundendaten könnten offengelegt sein.
+===
+
+Die indische Kryptobörse <strong>Unocoin</strong> teilte am Samstag, dem 14. November, mit, dass Angreifer rund <strong>200.000 Dollar</strong> in Kryptowährungen aus drei ihrer Hot Wallets entwendet haben, also aus den mit dem Internet verbundenen Wallets, die sie für tägliche Auszahlungen nutzt. In einem [Update zum Vorfall](L1) erklärte das Unternehmen, die Diebe hätten Backup-Schlüssel verwendet, die vor etwa acht Jahren erzeugt, auf Papier gedruckt und an einem physischen Ort verwahrt worden waren.
+
+Unocoin, das seit 2013 Kunden in Indien bedient, hat am 9. November alle Dienste eingestellt und noch nicht wieder geöffnet. Die Börse will den Verlust aus eigenen Mitteln decken; die Krypto-Guthaben der Kunden sollen nicht gekürzt werden.
+
+!takeaways
+- Unocoin schätzt den Verlust auf rund 200.000 Dollar aus drei von mehr als 20 Betriebs-Wallets, weniger als 1 % der Kryptowerte, die es für Kunden hält.
+- Die Überweisungen wurden mit zwei Schlüsseln signiert, die Unocoin kontrollierte, dem Nutzer- und dem Backup-Schlüssel. Deshalb konnte eine Sperre beim Wallet-Anbieter BitGo sie nicht verhindern.
+- BitGo erklärt, der eigene Schlüssel sei nie verwendet worden; Unocoin sagt, die Systeme von BitGo seien nicht kompromittiert worden.
+- Laut Unocoin könnten E-Mail-Adressen, Wohnadressen, verschlüsselte Passwörter, KYC-bezogene Angaben und Guthaben von Kunden offengelegt worden sein.
+
+## Was passiert ist, Schritt für Schritt
+
+Unocoin bemerkte nach eigenen Angaben erstmals am Freitag, dem 6. November, verdächtige Aktivitäten. Noch am selben Tag bat die Börse ihre Wallet-Anbieter Fireblocks und BitGo, ihre Geschäftskonten zu sperren, und beide bestätigten die Sperre. Nachdem am 9. November weitere unbefugte Aktivitäten auftauchten, schaltete Unocoin vorsorglich alle Dienste ab. Zu diesem Zeitpunkt sei kein Verlust von Geldern festgestellt worden.
+
+Das änderte sich am 12. November, als Unocoin ausgehende Transaktionen von einer Ethereum-Adresse in seiner BitGo-Wallet-Struktur entdeckte. BitGo prüfte die Vorgänge und veröffentlichte am 13. November [eine eigene Darstellung](L2). Demnach gab es Überweisungen von ERC-20-Token auf Ethereum, XRP auf dem XRP Ledger, HBAR auf Hedera sowie EOS.
+
+!figure:timeline
+
+## Warum die Sperre nicht half
+
+Die betroffenen Wallets nutzten eine <strong>2-von-3-Multisignatur</strong>. Es gibt also drei getrennte Schlüssel, und zwei beliebige davon reichen, um eine Überweisung freizugeben. In diesem Fall hielt Unocoin zwei Schlüssel, einen „Nutzer“- und einen „Backup“-Schlüssel, BitGo den dritten.
+
+Normale Auszahlungen laufen über die Plattform von BitGo, die sie prüft und ihre Signatur hinzufügt. Der Backup-Schlüssel soll sicherstellen, dass ein Kunde auch dann an sein Geld kommt, wenn BitGo einmal nicht verfügbar ist. BitGo zufolge wurden die geprüften Überweisungen mit Unocoins Nutzer- und Backup-Schlüssel signiert und direkt an die Blockchain gesendet, außerhalb der eigenen Plattform. Der BitGo-Schlüssel kam nie zum Einsatz.
+
+!mid_cta
+
+Eine Sperre verhindert nur, dass BitGo signiert. „Die Sperre blockiert Gelder nicht auf Ebene der Blockchain“, schrieb BitGo. Wer die beiden anderen Schlüssel besitzt, kann die Zwei-Signaturen-Regel weiterhin erfüllen. BitGo habe Unocoin geraten, die verbleibenden Gelder in neue Wallets mit neu erzeugten Schlüsseln zu verschieben.
+
+!figure:fact
+
+Unocoin versucht nach eigenen Angaben noch herauszufinden, wie die Backup-Schlüssel auf Papier kompromittiert wurden. Die Passphrase zum Entschlüsseln der gedruckten Schlüssel habe sich auf den gehackten Systemen befunden, doch das allein „löst das Rätsel nicht vollständig“. Ein Teil der gestohlenen Gelder sei über Kontakte in der Branche bereits eingefroren worden. Offen bleibt, wie die Schlüssel erreicht wurden und wann die Dienste wieder starten, schrieb [CryptoSlate](L3). BitGo erklärte in einer von [crypto.news](L4) zitierten Stellungnahme, keine anderen Kunden seien betroffen.
+
+## Kundendaten könnten offengelegt sein
+
+Unocoin behandelt nach eigenen Angaben einen großen Teil seiner Systeme als möglicherweise kompromittiert. Zu den möglicherweise offengelegten Daten gehören registrierte E-Mail-Adressen, Wohnadressen, verschlüsselte Kontopasswörter, KYC-bezogene Angaben und Kontostände. Bislang gebe es keine Hinweise darauf, dass auf KYC-Dokumente von Kunden zugegriffen wurde. Die Börse warnt vor gezielten Phishing-Nachrichten und betont, niemals nach Passwörtern, Einmalcodes, privaten Schlüsseln oder Wiederherstellungsphrasen zu fragen.
+
+## Was das für Einsteiger bedeutet
+
+Für Ihr eigenes Wallet gilt dieselbe Regel: Wer genug Schlüssel hat, kontrolliert die Coins. Wenn Sie Ihre Kryptowährungen selbst verwahren, bewahren Sie die Wiederherstellungsphrase offline und getrennt von Ihren Alltagsgeräten auf, geben Sie sie nie auf einer Website ein und teilen Sie sie mit niemandem. Wenn Sie Krypto auf einer Börse halten, nutzen Sie ein starkes, einzigartiges Passwort und eine Zwei-Faktor-Bestätigung per App oder Hardware-Schlüssel. Eine regulierte US-Börse wie [Coinbase](REF) bietet diese Sicherheitseinstellungen; prüfen Sie vor der Anmeldung die aktuellen Bedingungen und Schutzmaßnahmen. Keine Plattform ist ohne Risiko. Dies ist keine Anlageberatung.
+
+## Worauf zu achten ist
+
+- Unocoins forensische Ergebnisse dazu, wie die Backup-Schlüssel kompromittiert wurden.
+- Wann Unocoin Einzahlungen, Auszahlungen und Handel wieder freischaltet.
+- Ob weitere gestohlene Gelder eingefroren oder zurückgeholt werden.
+- Phishing-Versuche, die geleakte Kundendaten nutzen.
+
+!soft: Unsicher, wer die Schlüssel zu Ihren Coins hält? Lesen Sie unseren Leitfaden zu [verwahrten und selbst verwahrten Krypto-Wallets](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

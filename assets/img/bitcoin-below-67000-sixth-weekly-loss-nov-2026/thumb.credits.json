@@ -1,0 +1,21 @@
+{
+  "kind": "chart",
+  "sources": [
+    {
+      "file": "Kraken OHLC XBTUSD interval=1440",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Daily BTC/USD closes, Oct 1 - Nov 14, 2026, from Kraken"
+    }
+  ],
+  "slug": "bitcoin-below-67000-sixth-weekly-loss-nov-2026",
+  "generated": "2026-11-14T14:01Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

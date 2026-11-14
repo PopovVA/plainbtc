@@ -1,0 +1,62 @@
+title: Bitcoin turun di bawah US$67.000 saat investor ETF menarik US$1,07 miliar dalam sepekan
+page_title: Bitcoin di bawah US$67.000 setelah sepekan arus keluar ETF US$1,07 miliar
+description: Bitcoin turun ke sekitar US$66.400 di Kraken pada Jumat larut malam, harga terendah sejak 19 Agustus, setelah ETF bitcoin spot AS kehilangan US$1,07 miliar dalam sepekan dan mencatat arus keluar tujuh hari berturut-turut.
+og_description: Bitcoin turun di bawah US$67.000, level terendah sejak pertengahan Agustus. ETF bitcoin spot mencatat arus keluar hari ketujuh berturut-turut, dan Crypto Fear and Greed Index turun ke 13.
+label: Pasar
+summary: Bitcoin menyentuh harga terendah sejak 19 Agustus saat ETF bitcoin spot kehilangan sekitar US$1,07 miliar pekan ini dan indikator sentimen makin dalam di zona "ketakutan ekstrem".
+===
+
+Bitcoin terus melemah menjelang akhir pekan. Di Kraken, harganya turun ke sekitar <strong>US$66.400</strong> pada Jumat larut malam waktu AS, level terendah sejak 19 Agustus, lalu diperdagangkan di dekat <strong>US$66.800</strong> pada Sabtu pagi. Itu sekitar 11% di bawah posisi awal pekan: pada Senin, bitcoin dibuka di dekat US$74.700 di Kraken.
+
+Penurunan ini membuat bitcoin menuju <strong>kerugian mingguan keenam berturut-turut</strong> dan berada lebih dari 20% di bawah levelnya pada akhir Oktober, lapor [Investing.com](L1). Ether, kripto terbesar kedua, diperdagangkan di dekat US$1.890 pada Sabtu pagi, turun sekitar 4% dalam 24 jam.
+
+!takeaways
+- Bitcoin menyentuh sekitar US$66.400 di Kraken pada Jumat malam, harga terendah sejak 19 Agustus.
+- ETF bitcoin spot AS mencatat arus keluar bersih US$185,4 juta pada Jumat, hari perdagangan ketujuh berturut-turut, menurut data Farside.
+- Dana-dana itu kehilangan sekitar US$1,07 miliar pekan ini dan sekitar US$1,91 miliar selama tujuh hari beruntun.
+- Crypto Fear and Greed Index turun ke 13 pada Sabtu, angka yang dikategorikan "ketakutan ekstrem".
+
+!figure:chart
+
+## Penjualan ETF berlanjut
+
+Dana-dana besar terus menjual. Menurut [Farside Investors](L2), dana yang diperdagangkan di bursa (ETF) bitcoin spot AS mencatat arus keluar bersih <strong>US$185,4 juta</strong> pada Jumat, 13 November. iShares Bitcoin Trust (IBIT) milik BlackRock menyumbang US$143,5 juta dan FBTC milik Fidelity US$41,9 juta. Tidak ada dana lain yang mencatat aliran pada hari itu.
+
+Dengan begitu, sudah tujuh hari perdagangan berturut-turut terjadi penarikan sejak 5 November, dengan total sekitar <strong>US$1,91 miliar</strong>. Pada pekan 9 hingga 13 November, arus keluar mencapai sekitar US$1,07 miliar, setelah sekitar US$1,28 miliar sepekan sebelumnya. Dalam dua pekan itu, dana-dana tersebut kehilangan sekitar US$2,35 miliar, lapor [Cointelegraph](L3), dan IBIT milik BlackRock kini mencatat arus keluar bersih 11 hari perdagangan berturut-turut.
+
+!figure:flows
+
+Penjualan ini menghapus keuntungan tahun ini bagi kelompok tersebut. Hingga Kamis, ETF bitcoin spot AS mencatat arus keluar bersih sekitar US$1,56 miliar sepanjang 2026, menurut data SoSoValue yang dianalisis [CoinDesk](L4). Sejak diluncurkan pada Januari 2024, dana-dana itu masih memegang total arus masuk bersih sekitar US$54,7 miliar, menurut Farside.
+
+## Mengapa pasar tertekan
+
+Beberapa faktor menekan harga sekaligus. Setelah data inflasi yang lebih panas dari perkiraan, pelaku pasar kini memperkirakan Federal Reserve akan menaikkan suku bunga pada Desember, yang mendorong dolar dan imbal hasil obligasi naik. Imbal hasil yang lebih tinggi membuat aset berisiko seperti kripto dan saham teknologi kurang menarik.
+
+Investing.com juga menyoroti gejolak di sektor teknologi, termasuk pergantian pimpinan Nvidia, serta keputusan MSCI mengeluarkan Strategy, perusahaan yang menyimpan bitcoin sebagai kas, dari indeksnya pada 30 November. Situs itu juga menyebut rencana penawaran saham perdana Anthropic, yang bisa menghimpun hingga US$64,4 miliar, sebagai kemungkinan penyedot likuiditas lainnya.
+
+!mid_cta
+
+Trader yang memakai leverage kembali merugi. Data CoinGlass yang dikutip [The Crypto Times](L6) menunjukkan sekitar US$1,26 miliar posisi kripto dilikuidasi dalam 24 jam hingga Sabtu dini hari, dengan taruhan kenaikan harga mencapai sekitar 86% dari total.
+
+!figure:fact
+
+## Indikator di zona ketakutan ekstrem
+
+[Crypto Fear and Greed Index](L5) dari Alternative.me turun ke <strong>13</strong> pada Sabtu, dari 20 pada Jumat dan 28 pada Kamis. Indeks ini menggabungkan gejolak harga, volume perdagangan, aktivitas media sosial, dan data lain menjadi satu skor dari 0 sampai 100. Angka rendah berarti investor sedang cemas. Sebagian trader membaca angka yang sangat rendah sebagai tanda aksi jual mungkin hampir habis, tetapi indeks ini tidak memprediksi kapan penurunan berakhir.
+
+## Apa artinya bagi pemula
+
+Kerugian mingguan seperti ini adalah bagian dari memiliki bitcoin. Kerugian terbesar biasanya menimpa mereka yang memakai uang pinjaman, jadi menghindari leverage adalah cara sederhana untuk menekan risiko. Jika Anda memutuskan membeli, jumlah kecil yang dicicil dari waktu ke waktu bisa mengurangi tebak-tebakan soal waktu yang tepat. Bursa AS yang teregulasi seperti [Coinbase](REF) memungkinkan pembelian berulang; periksa biaya dan ketentuan terbarunya sebelum mendaftar. Investasikan hanya dana yang sanggup Anda diamkan bertahun-tahun. Ini bukan saran investasi.
+
+## Yang perlu dipantau
+
+- Apakah bitcoin menutup pekan pada hari Minggu di bawah penutupan pekan lalu, yang akan memastikan kerugian mingguan keenam berturut-turut.
+- Aliran dana ETF bitcoin spot pada Senin, 16 November, setelah akhir pekan.
+- Pernyataan pejabat Fed menjelang rapat 8-9 Desember.
+- Penjualan oleh dana indeks terkait dikeluarkannya Strategy dari indeks MSCI pada 30 November.
+
+!soft: Ingin tahu bedanya ETF dengan memiliki koin langsung? Baca [ETF bitcoin vs membeli bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

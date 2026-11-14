@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ko/</link>
     <description>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 14 Nov 2026 00:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ko/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>비트코인 6만 7,000달러 붕괴, ETF에서 일주일 새 10억 7,000만 달러 유출</title>
+      <link>https://plainbtc.com/ko/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>시장</category>
+      <description>현물 비트코인 ETF에서 이번 주 약 10억 7,000만 달러가 빠져나가는 가운데 비트코인은 8월 19일 이후 최저가를 기록했고, 투자 심리 지표는 '극단적 공포' 구간으로 더 깊이 내려갔다.</description>
+    </item>
+    <item>
+      <title>인도 거래소 유노코인 "해커가 오래된 종이 백업 키로 약 20만 달러어치 암호화폐 탈취"</title>
+      <link>https://plainbtc.com/ko/articles/unocoin-hack-bitgo-backup-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/unocoin-hack-bitgo-backup-keys-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>보안</category>
+      <description>유노코인은 해커가 거래소 자체의 백업 키로 핫월렛 3개에서 약 20만 달러를 빼냈고, 수탁 기업 BitGo의 동결 조치를 우회했다고 밝혔다. 고객 데이터도 노출됐을 수 있다.</description>
+    </item>
     <item>
       <title>가격 하락에 암호화폐 트레저리 기업 압박: 나카모토는 크라켄에 1억 6,500만 달러 빚, BTCS는 대출 지키려 이더 매도</title>
       <link>https://plainbtc.com/ko/articles/crypto-treasury-firms-loans-nakamoto-btcs-nov-2026</link>

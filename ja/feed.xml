@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 14 Nov 2026 00:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ビットコインが6万7000ドル割れ、ETFから1週間で10億7000万ドル流出</title>
+      <link>https://plainbtc.com/ja/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>マーケット</category>
+      <description>現物ビットコインETFから今週約10億7000万ドルが流出するなか、ビットコインは8月19日以来の安値を付け、市場心理を示す指標は「極度の恐怖」の領域でさらに悪化した。</description>
+    </item>
+    <item>
+      <title>インドの取引所Unocoin、ハッカーが古い紙のバックアップ鍵を使い約20万ドル相当の暗号資産を流出させたと発表</title>
+      <link>https://plainbtc.com/ja/articles/unocoin-hack-bitgo-backup-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/unocoin-hack-bitgo-backup-keys-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>セキュリティ</category>
+      <description>Unocoinによると、ハッカーは同社自身のバックアップ鍵を使って3つのホットウォレットから約20万ドルを抜き取り、カストディ企業BitGoでの凍結をすり抜けた。顧客データが漏えいした可能性もある。</description>
+    </item>
     <item>
       <title>価格下落で暗号資産トレジャリー企業に圧力、NakamotoはKrakenに1億6500万ドルの債務、BTCSは融資を守るためイーサを売却</title>
       <link>https://plainbtc.com/ja/articles/crypto-treasury-firms-loans-nakamoto-btcs-nov-2026</link>

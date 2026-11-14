@@ -1,0 +1,60 @@
+title: Corretora indiana Unocoin diz que hackers usaram suas antigas chaves de backup em papel para levar cerca de US$ 200 mil em cripto
+page_title: Ataque à Unocoin: chaves de backup usadas para mover cerca de US$ 200 mil
+description: A Unocoin diz que os invasores usaram chaves de backup impressas em papel há cerca de oito anos para assinar transferências de três carteiras quentes, contornando o congelamento da conta na BitGo. Dados de clientes também podem ter sido expostos.
+og_description: A corretora cripto indiana Unocoin estima perda de cerca de US$ 200 mil em três carteiras quentes e diz que vai cobri-la. A BitGo afirma que sua própria chave nunca foi usada. Veja como funciona uma carteira 2 de 3 e por que o congelamento não barrou as transferências.
+label: Segurança
+summary: A Unocoin diz que hackers usaram suas próprias chaves de backup para esvaziar três carteiras quentes, com cerca de US$ 200 mil, contornando um congelamento na custodiante BitGo. Dados de clientes também podem ter sido expostos.
+===
+
+A corretora cripto indiana <strong>Unocoin</strong> informou no sábado, 14 de novembro, que invasores levaram cerca de <strong>US$ 200.000</strong> em criptomoedas de três de suas carteiras quentes, as carteiras conectadas à internet que ela usa para saques diários. Em uma [atualização sobre o incidente](L1), a empresa disse que os ladrões usaram chaves de backup geradas há cerca de oito anos, impressas em papel e guardadas em um local físico.
+
+A Unocoin, que atende clientes na Índia desde 2013, suspendeu todos os serviços em 9 de novembro e ainda não reabriu. Ela afirmou que vai cobrir a perda com recursos próprios e que os saldos em cripto dos clientes não serão reduzidos.
+
+!takeaways
+- A Unocoin estima a perda em cerca de US$ 200.000, em três de suas mais de 20 carteiras operacionais, menos de 1% das criptomoedas que guarda para clientes.
+- As transferências foram assinadas com duas chaves controladas pela Unocoin, a chave de usuário e a chave de backup, por isso o congelamento na provedora BitGo não conseguiu bloqueá-las.
+- A BitGo diz que sua própria chave nunca foi usada, e a Unocoin afirma que os sistemas da BitGo não foram comprometidos.
+- A Unocoin diz que e-mails, endereços residenciais, senhas criptografadas, dados ligados ao KYC e saldos de clientes podem ter sido expostos.
+
+## O que aconteceu, passo a passo
+
+A Unocoin disse que notou atividade suspeita pela primeira vez na sexta-feira, 6 de novembro. No mesmo dia, pediu às provedoras de carteiras Fireblocks e BitGo que congelassem suas contas empresariais, e ambas confirmaram o bloqueio. Depois de encontrar mais atividade não autorizada em 9 de novembro, desligou todos os serviços por precaução. Naquele momento, segundo a empresa, nenhuma perda de fundos havia sido identificada.
+
+Isso mudou em 12 de novembro, quando a Unocoin encontrou transações de saída de um endereço Ethereum em sua estrutura de carteiras na BitGo. A BitGo analisou a atividade e, em 13 de novembro, publicou [sua própria versão](L2). Ela encontrou transferências de tokens ERC-20 no Ethereum, XRP no XRP Ledger, HBAR na Hedera e EOS.
+
+!figure:timeline
+
+## Por que o congelamento não impediu o ataque
+
+As carteiras afetadas usavam um esquema de <strong>multiassinatura 2 de 3</strong>. Isso significa que existem três chaves separadas e que quaisquer duas delas podem aprovar uma transferência. Neste caso, a Unocoin tinha duas chaves, uma de "usuário" e outra de "backup", e a BitGo tinha a terceira.
+
+Os saques normais passam pela plataforma da BitGo, que os verifica e acrescenta a assinatura dela. A chave de backup existe para que o cliente ainda consiga acessar seus fundos se a BitGo ficar indisponível. A BitGo disse que as transferências analisadas foram assinadas com as chaves de usuário e de backup da Unocoin e enviadas diretamente à blockchain, fora de sua plataforma. A chave da BitGo nunca foi usada.
+
+!mid_cta
+
+Um congelamento só impede que a BitGo assine. "O congelamento não trava os fundos no nível da blockchain", escreveu a BitGo. Quem tiver as outras duas chaves ainda consegue cumprir a regra das duas assinaturas. A BitGo disse ter recomendado à Unocoin que mova os fundos restantes para novas carteiras com chaves recém-geradas.
+
+!figure:fact
+
+A Unocoin disse que ainda tenta descobrir como as chaves de backup em papel foram comprometidas. Segundo a empresa, a senha necessária para decifrar as chaves impressas estava em seus sistemas invadidos, mas isso sozinho "não resolve totalmente o quebra-cabeça". Ela acrescentou que já conseguiu congelar parte dos fundos roubados por meio de contatos no setor. Ainda há dúvidas sobre como as chaves foram acessadas e quando os serviços voltarão, observou o [CryptoSlate](L3), e a BitGo disse em comunicado citado pelo [crypto.news](L4) que nenhum outro cliente foi afetado.
+
+## Dados de clientes podem ter sido expostos
+
+A Unocoin disse que trata grande parte de seus sistemas como possivelmente comprometidos. Entre as informações que podem ter sido expostas estão e-mails cadastrados, endereços residenciais, senhas de conta criptografadas, dados ligados ao KYC e saldos. A empresa disse que até agora não encontrou indícios de acesso aos documentos KYC dos clientes. Ela alertou os usuários sobre mensagens de phishing direcionadas e disse que nunca vai pedir senhas, códigos de uso único, chaves privadas ou frases de recuperação.
+
+## O que isso significa para iniciantes
+
+A mesma regra vale para a sua carteira: quem tem chaves suficientes controla as moedas. Se você guarda suas próprias criptomoedas, mantenha a frase de recuperação offline e longe dos aparelhos que usa todo dia, e nunca a digite em um site nem a compartilhe. Se deixa cripto em uma corretora, use uma senha forte e exclusiva e verificação em duas etapas por aplicativo ou chave física. Uma corretora regulada dos EUA como a [Coinbase](REF) oferece essas opções de segurança; confira os termos e proteções atuais antes de se cadastrar. Nenhuma plataforma é livre de riscos. Isto não é recomendação de investimento.
+
+## O que acompanhar
+
+- As conclusões da perícia da Unocoin sobre como as chaves de backup foram comprometidas.
+- Quando a Unocoin vai restabelecer depósitos, saques e negociação.
+- Se mais fundos roubados serão congelados ou recuperados.
+- Tentativas de phishing que usem dados vazados de clientes.
+
+!soft: Não sabe quem guarda as chaves das suas moedas? Leia nosso guia sobre [carteiras cripto custodiais e de autocustódia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

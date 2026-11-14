@@ -1,0 +1,60 @@
+title: Indian exchange Unocoin says hackers used its old paper backup keys to take about $200,000 in crypto
+page_title: Unocoin hack: backup keys used to move about $200,000
+description: Unocoin says attackers used backup keys it printed on paper about eight years ago to sign transfers from three hot wallets, bypassing a BitGo account freeze. Customer data may also be exposed.
+og_description: Indian crypto exchange Unocoin estimates a loss of about $200,000 from three hot wallets and says it will cover it. BitGo says its own key was never used. Here is how a 2-of-3 wallet works and why a freeze did not stop the transfers.
+label: Security
+summary: Unocoin says hackers used its own backup keys to drain three hot wallets of about $200,000, getting around a freeze at custody firm BitGo. Customer data may also be exposed.
+===
+
+Indian crypto exchange <strong>Unocoin</strong> said on Saturday, Nov. 14, that attackers took about <strong>$200,000</strong> in cryptocurrency from three of its hot wallets, the internet-connected wallets it uses for daily withdrawals. In an [incident update](L1), the company said the thieves used backup keys that it had generated about eight years ago, printed on paper and placed in physical storage.
+
+Unocoin, which has served Indian customers since 2013, suspended all of its services on Nov. 9 and has not reopened yet. It said it will cover the loss from its own money and that customers' crypto balances will not be reduced.
+
+!takeaways
+- Unocoin estimates its crypto loss at about $200,000 from three of more than 20 operational wallets, less than 1% of the crypto it holds for customers.
+- The transfers were signed with two keys Unocoin controlled, its user key and its backup key, so a freeze at wallet provider BitGo could not block them.
+- BitGo says its own key was never used, and Unocoin says BitGo's systems were not compromised.
+- Unocoin says customer emails, home addresses, encrypted passwords, KYC-related details and balances may have been exposed.
+
+## What happened, step by step
+
+Unocoin said it first spotted suspicious activity on Friday, Nov. 6. That day it asked its wallet providers, Fireblocks and BitGo, to freeze its business accounts, and both confirmed the freezes. After it found more unauthorized activity on Nov. 9, it shut down all services as a precaution. At that point, the company said, it had not found any loss of funds.
+
+That changed on Nov. 12, when Unocoin found outgoing transactions from an Ethereum address in its BitGo wallet setup. BitGo then reviewed the activity and on Nov. 13 published its [own account](L2). It found transfers of ERC-20 tokens on Ethereum, XRP on the XRP Ledger, HBAR on Hedera and EOS.
+
+!figure:timeline
+
+## Why the freeze did not stop it
+
+The affected wallets used a <strong>2-of-3 multisignature</strong> setup. That means three separate keys exist, and any two of them can approve a transfer. In this case Unocoin held two keys, a "user" key and a "backup" key, and BitGo held the third.
+
+Normal withdrawals go through BitGo's platform, which checks them and adds BitGo's signature. The backup key exists so a customer can still reach its funds if BitGo ever becomes unavailable. BitGo said the transfers it reviewed were signed with Unocoin's user and backup keys and sent straight to the blockchain, outside its platform. Its own key was never used.
+
+!mid_cta
+
+A freeze only stops BitGo from signing. "The freeze does not lock funds at the blockchain level," BitGo wrote. Anyone holding both of the other keys can still meet the two-signature rule. BitGo said it has advised Unocoin to move its remaining funds to new wallets with newly generated keys.
+
+!figure:fact
+
+Unocoin said it is still trying to work out how the paper backup keys were compromised. It said the passphrase needed to decrypt the printed keys was on its compromised systems, but that this alone "is not fully solving the puzzle." It added that it has already managed to freeze part of the stolen funds through its industry contacts. Questions remain about how the keys were reached and when services will resume, [CryptoSlate](L3) noted, and BitGo said in a statement cited by [crypto.news](L4) that no other clients were affected.
+
+## Customer data may be exposed
+
+Unocoin said it is treating a large part of its systems as possibly compromised. Information that may have been exposed includes registered email addresses, home addresses, encrypted account passwords, KYC-related details and account balances. The company said it has found no evidence so far that customers' KYC documents were accessed. It warned users to watch for targeted phishing messages and said it will never ask for passwords, one-time codes, private keys or recovery phrases.
+
+## What it means for beginners
+
+The same rule applies to your own wallet: whoever holds enough keys controls the coins. If you keep your own crypto, store your recovery phrase offline and away from the devices you use every day, and never type it into a website or share it. If you keep crypto on an exchange, use a strong unique password and app-based or hardware two-step verification. A regulated U.S. exchange such as [Coinbase](REF) offers these security settings; review its current terms and protections before you sign up. No platform is risk-free. This is not investment advice.
+
+## What to watch next
+
+- Unocoin's forensic findings on how the backup keys were compromised.
+- When Unocoin restores deposits, withdrawals and trading.
+- Whether more of the stolen funds are frozen or recovered.
+- Phishing attempts that use leaked customer details.
+
+!soft: Not sure who holds the keys to your coins? Read our guide to [custodial vs. self-custody crypto wallets](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

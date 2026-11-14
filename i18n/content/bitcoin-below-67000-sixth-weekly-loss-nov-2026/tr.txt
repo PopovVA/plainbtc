@@ -1,0 +1,62 @@
+title: Bitcoin 67.000 doların altına indi, ETF yatırımcıları bir haftada 1,07 milyar dolar çekti
+page_title: ETF'lerden bir haftada 1,07 milyar dolar çıkışın ardından bitcoin 67.000 doların altında
+description: Bitcoin cuma gecesi geç saatlerde Kraken'de yaklaşık 66.400 dolara düşerek 19 Ağustos'tan bu yana en düşük seviyeyi gördü. ABD spot bitcoin ETF'leri bir haftada 1,07 milyar dolar kaybetti ve yedinci gün üst üste çıkış yaşadı.
+og_description: Bitcoin 67.000 doların altına inerek ağustos ortasından bu yana en düşük seviyesini gördü. Spot bitcoin ETF'leri yedinci gün üst üste çıkış yaşadı, Kripto Korku ve Açgözlülük Endeksi 13'e geriledi.
+label: Piyasa
+summary: Spot bitcoin ETF'leri bu hafta yaklaşık 1,07 milyar dolar kaybederken bitcoin 19 Ağustos'tan bu yana en düşük fiyatını gördü, duyarlılık göstergeleri "aşırı korku" bölgesinde derinleşti.
+===
+
+Bitcoin hafta sonuna girerken düşüşünü sürdürdü. Kraken'de fiyat, ABD saatiyle cuma gecesi geç saatlerde yaklaşık <strong>66.400 dolara</strong> inerek 19 Ağustos'tan bu yana en düşük seviyesini gördü, cumartesi sabahı ise <strong>66.800 dolar</strong> civarında işlem görüyordu. Bu, haftanın başına göre yaklaşık %11 daha düşük: Bitcoin pazartesi günü Kraken'de 74.700 dolar civarında açılmıştı.
+
+Investing.com'un [haberine](L1) göre bu düşüş, bitcoini üst üste <strong>altıncı haftalık kaybına</strong> doğru götürüyor ve fiyatı ekim sonundaki seviyesinin %20'den fazla altına çekiyor. En büyük ikinci kripto para olan ether, cumartesi sabahı 24 saatte yaklaşık %4 düşüşle 1.890 dolar civarındaydı.
+
+!takeaways
+- Bitcoin cuma gecesi Kraken'de yaklaşık 66.400 dolara inerek 19 Ağustos'tan bu yana en düşük fiyatı gördü.
+- Farside verilerine göre ABD spot bitcoin ETF'lerinden cuma günü 185,4 milyon dolar net çıkış oldu; bu, üst üste yedinci işlem günü.
+- Fonlar bu hafta yaklaşık 1,07 milyar dolar, yedi günlük seride ise yaklaşık 1,91 milyar dolar kaybetti.
+- Kripto Korku ve Açgözlülük Endeksi cumartesi günü "aşırı korku" olarak nitelenen 13'e düştü.
+
+!figure:chart
+
+## ETF satışları sürüyor
+
+Büyük fonlar istikrarlı biçimde satıyor. [Farside Investors](L2) verilerine göre ABD'deki spot bitcoin borsa yatırım fonlarından (ETF) 13 Kasım cuma günü <strong>185,4 milyon dolar</strong> net çıkış oldu. Bunun 143,5 milyon doları BlackRock'ın iShares Bitcoin Trust (IBIT) fonundan, 41,9 milyon doları Fidelity'nin FBTC fonundan geldi. O gün başka hiçbir fonda hareket olmadı.
+
+Böylece 5 Kasım'dan bu yana üst üste yedi işlem günü çıkış yaşandı ve toplam yaklaşık <strong>1,91 milyar dolara</strong> ulaştı. 9-13 Kasım haftasında çıkışlar, önceki haftadaki yaklaşık 1,28 milyar doların ardından yaklaşık 1,07 milyar dolar oldu. [Cointelegraph](L3) bu iki haftada fonların yaklaşık 2,35 milyar dolar kaybettiğini bildirdi; BlackRock'ın IBIT fonu ise üst üste 11 işlem günüdür net çıkış yaşıyor.
+
+!figure:flows
+
+Satışlar, fon grubunun bu yılki kazancını sildi. [CoinDesk](L4) tarafından incelenen SoSoValue verilerine göre ABD spot bitcoin ETF'leri perşembe itibarıyla 2026'da yaklaşık 1,56 milyar dolar net çıkışta. Farside'a göre fonlar Ocak 2024'teki lansmandan bu yana toplamda hâlâ yaklaşık 54,7 milyar dolar net giriş tutuyor.
+
+## Piyasa neden baskı altında
+
+Fiyatlar üzerinde aynı anda birkaç etken baskı yapıyor. Beklenenden yüksek gelen enflasyon verilerinin ardından yatırımcılar artık Fed'in aralıkta faiz artırmasını bekliyor; bu da doları ve tahvil faizlerini yükseltti. Yüksek faizler, kripto paralar ve teknoloji hisseleri gibi riskli varlıkları daha az cazip hale getiriyor.
+
+Investing.com ayrıca Nvidia'daki yönetim değişikliği dahil teknoloji sektöründeki çalkantıya ve MSCI'ın, hazinesinde bitcoin tutan Strategy şirketini 30 Kasım'da endekslerinden çıkarma kararına dikkat çekti. Site, 64,4 milyar dolara kadar kaynak toplayabilecek planlı Anthropic halka arzını da piyasadan nakit çekebilecek bir başka etken olarak gösterdi.
+
+!mid_cta
+
+Kaldıraçlı yatırımcılar yeni kayıplar yaşadı. [The Crypto Times](L6) tarafından aktarılan CoinGlass verileri, cumartesi sabahın erken saatlerine kadarki 24 saatte yaklaşık 1,26 milyar dolarlık kripto pozisyonunun tasfiye edildiğini, bunun yaklaşık %86'sının yükseliş pozisyonu olduğunu gösterdi.
+
+!figure:fact
+
+## Aşırı korkuda bir gösterge
+
+Alternative.me'nin [Kripto Korku ve Açgözlülük Endeksi](L5) cumartesi günü cuma günkü 20 ve perşembe günkü 28'in ardından <strong>13'e</strong> geriledi. Endeks; fiyat dalgalanmalarını, işlem hacmini, sosyal medya etkinliğini ve diğer verileri 0 ile 100 arasında tek bir puanda birleştiriyor. Düşük değerler yatırımcıların tedirgin olduğunu gösteriyor. Bazı yatırımcılar çok düşük değerleri satışların tükenmeye yaklaştığının işareti olarak görse de endeks bir düşüşün ne zaman biteceğini öngörmüyor.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Bu tür haftalık kayıplar bitcoin sahibi olmanın bir parçası. En büyük zarar genellikle borç parayla işlem yapanlara geliyor; bu yüzden kaldıraçtan uzak durmak riski azaltmanın basit bir yolu. Alım yapmaya karar verirseniz, küçük tutarları zamana yaymak doğru anı tahmin etme yükünü azaltabilir. [Coinbase](REF) gibi düzenlemeye tabi bir ABD borsası düzenli alım ayarlamanıza izin veriyor; kaydolmadan önce güncel ücretleri ve koşulları kontrol edin. Yalnızca yıllarca dokunmadan bekletebileceğiniz parayla yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Neleri izlemeli
+
+- Bitcoinin haftayı pazar günü geçen haftanın kapanışının altında kapatıp kapatmayacağı; bu, üst üste altıncı haftalık kaybı doğrular.
+- Hafta sonunun ardından 16 Kasım pazartesi günkü spot bitcoin ETF akışları.
+- 8-9 Aralık toplantısı öncesinde Fed yetkililerinin açıklamaları.
+- Strategy'nin 30 Kasım'da MSCI endekslerinden çıkarılmasına bağlı endeks fonu satışları.
+
+!soft: ETF ile doğrudan coin sahibi olmanın farkını merak ediyor musunuz? [Bitcoin ETF mi, bitcoin almak mı](/articles/bitcoin-etf-vs-buying-bitcoin) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

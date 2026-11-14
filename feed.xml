@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/</link>
     <description>Plain-English Bitcoin &amp; crypto news for beginners</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 00:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bitcoin slips below $67,000 as ETF investors pull $1.07 billion in a week</title>
+      <link>https://plainbtc.com/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Market news</category>
+      <description>Bitcoin hit its lowest price since Aug. 19 as spot bitcoin ETFs lost about $1.07 billion this week and fear gauges sank deeper into "extreme fear."</description>
+    </item>
+    <item>
+      <title>Indian exchange Unocoin says hackers used its old paper backup keys to take about $200,000 in crypto</title>
+      <link>https://plainbtc.com/articles/unocoin-hack-bitgo-backup-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/unocoin-hack-bitgo-backup-keys-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Security</category>
+      <description>Unocoin says hackers used its own backup keys to drain three hot wallets of about $200,000, getting around a freeze at custody firm BitGo. Customer data may also be exposed.</description>
+    </item>
     <item>
       <title>Falling prices squeeze crypto treasury firms: Nakamoto owes Kraken $165 million, BTCS sells ether to protect a loan</title>
       <link>https://plainbtc.com/articles/crypto-treasury-firms-loans-nakamoto-btcs-nov-2026</link>

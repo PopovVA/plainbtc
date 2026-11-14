@@ -1,0 +1,62 @@
+title: Bitcoin slips below $67,000 as ETF investors pull $1.07 billion in a week
+page_title: Bitcoin below $67,000 after a $1.07 billion ETF outflow week
+description: Bitcoin fell to about $66,400 on Kraken late Friday, its lowest price since Aug. 19, after U.S. spot bitcoin ETFs lost $1.07 billion in a week and a seventh straight day of outflows.
+og_description: Bitcoin dropped below $67,000, its lowest level since mid-August. Spot bitcoin ETFs had a seventh straight day of outflows, and the Crypto Fear and Greed Index fell to 13.
+label: Market news
+summary: Bitcoin hit its lowest price since Aug. 19 as spot bitcoin ETFs lost about $1.07 billion this week and fear gauges sank deeper into "extreme fear."
+===
+
+Bitcoin kept falling into the weekend. On Kraken, the price dropped to about <strong>$66,400</strong> late Friday night U.S. time, its lowest level since Aug. 19, and traded near <strong>$66,800</strong> on Saturday morning. That is about 11% below where the week started on Monday, when bitcoin opened near $74,700 on Kraken.
+
+The slide puts bitcoin on course for a <strong>sixth weekly loss in a row</strong> and more than 20% below its level in late October, [Investing.com](L1) reported. Ether, the second-largest cryptocurrency, traded near $1,890 on Saturday morning, down roughly 4% in 24 hours.
+
+!takeaways
+- Bitcoin touched about $66,400 on Kraken late Friday, its lowest price since Aug. 19.
+- U.S. spot bitcoin ETFs had net outflows of $185.4 million on Friday, a seventh straight trading day of withdrawals, Farside data shows.
+- The funds lost about $1.07 billion this week and about $1.91 billion over the seven-day streak.
+- The Crypto Fear and Greed Index fell to 13 on Saturday, a reading labeled "extreme fear."
+
+!figure:chart
+
+## ETF selling continues
+
+Big funds have been steady sellers. According to [Farside Investors](L2), U.S. spot bitcoin exchange-traded funds (ETFs) had net outflows of <strong>$185.4 million</strong> on Friday, Nov. 13. BlackRock's iShares Bitcoin Trust (IBIT) accounted for $143.5 million and Fidelity's FBTC for $41.9 million. No other fund reported a flow that day.
+
+That made seven trading days in a row of withdrawals, starting Nov. 5, for a total of about <strong>$1.91 billion</strong>. For the week of Nov. 9 to 13, outflows came to about $1.07 billion, after about $1.28 billion the week before. Over those two weeks the funds lost about $2.35 billion, [Cointelegraph](L3) reported, and BlackRock's IBIT has now had net outflows on 11 trading days in a row.
+
+!figure:flows
+
+The selling has erased this year's gains for the group. As of Thursday, U.S. spot bitcoin ETFs were down about $1.56 billion in net flows for 2026, according to SoSoValue data analyzed by [CoinDesk](L4). Since they launched in January 2024, the funds still hold about $54.7 billion in total net inflows, per Farside.
+
+## Why the market is under pressure
+
+Several forces are weighing on prices at once. Traders now expect the Federal Reserve to raise interest rates in December after hotter-than-expected inflation data, which has lifted the dollar and bond yields. Higher yields make riskier assets such as crypto and tech stocks less attractive.
+
+Investing.com also pointed to tech-sector turmoil, including Nvidia's leadership change, and to MSCI's decision to remove bitcoin treasury company Strategy from its indexes on Nov. 30. It said Anthropic's planned public offering, which could raise up to $64.4 billion, is another possible drain on market cash.
+
+!mid_cta
+
+Leveraged traders took more losses. CoinGlass data cited by [The Crypto Times](L6) showed about $1.26 billion in crypto positions liquidated in the 24 hours to early Saturday, with bets on rising prices making up about 86% of the total.
+
+!figure:fact
+
+## A gauge of extreme fear
+
+The [Crypto Fear and Greed Index](L5) from Alternative.me fell to <strong>13</strong> on Saturday, down from 20 on Friday and 28 on Thursday. The index blends price swings, trading volume, social media activity and other inputs into one score from 0 to 100. Low readings mean investors are nervous. Some traders read very low scores as a sign that selling may be close to exhausted, but the index does not predict when a fall will end.
+
+## What it means for beginners
+
+Weekly losses like these are part of owning bitcoin. The biggest damage tends to hit people using borrowed money, so avoiding leverage is a simple way to reduce risk. If you do decide to buy, small amounts spread over time can take some of the guesswork out of timing. A regulated U.S. exchange such as [Coinbase](REF) lets you set up recurring buys; check its current fees and terms before you sign up. Only invest what you can afford to leave untouched for years. This is not investment advice.
+
+## What to watch next
+
+- Whether bitcoin closes the week on Sunday below last week's close, which would confirm a sixth straight weekly loss.
+- Spot bitcoin ETF flows on Monday, Nov. 16, after the weekend.
+- Comments from Fed officials before the Dec. 8-9 policy meeting.
+- Index fund selling tied to Strategy's removal from MSCI indexes on Nov. 30.
+
+!soft: Curious how ETFs differ from owning coins directly? Read [bitcoin ETF vs. buying bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Sat, 14 Nov 2026 00:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bitcoin 67.000 doların altına indi, ETF yatırımcıları bir haftada 1,07 milyar dolar çekti</title>
+      <link>https://plainbtc.com/tr/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Piyasa</category>
+      <description>Spot bitcoin ETF'leri bu hafta yaklaşık 1,07 milyar dolar kaybederken bitcoin 19 Ağustos'tan bu yana en düşük fiyatını gördü, duyarlılık göstergeleri "aşırı korku" bölgesinde derinleşti.</description>
+    </item>
+    <item>
+      <title>Hindistan merkezli borsa Unocoin: Hackerlar eski kağıt yedek anahtarlarını kullanarak yaklaşık 200.000 dolarlık kripto çaldı</title>
+      <link>https://plainbtc.com/tr/articles/unocoin-hack-bitgo-backup-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/unocoin-hack-bitgo-backup-keys-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Güvenlik</category>
+      <description>Unocoin, hackerların borsanın kendi yedek anahtarlarıyla üç sıcak cüzdandan yaklaşık 200.000 dolar çektiğini ve saklama şirketi BitGo'daki dondurmayı aştığını söylüyor. Müşteri verileri de açığa çıkmış olabilir.</description>
+    </item>
     <item>
       <title>Düşen fiyatlar kripto hazine şirketlerini sıkıştırıyor: Nakamoto'nun Kraken'e 165 milyon $ borcu var, BTCS bir krediyi korumak için ether satıyor</title>
       <link>https://plainbtc.com/tr/articles/crypto-treasury-firms-loans-nakamoto-btcs-nov-2026</link>

@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/es/</link>
     <description>Noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</description>
     <language>es</language>
-    <lastBuildDate>Sat, 14 Nov 2026 00:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bitcoin cae por debajo de 67.000 dólares mientras los ETF pierden 1.070 millones en una semana</title>
+      <link>https://plainbtc.com/es/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Mercado</category>
+      <description>Bitcoin marcó su precio más bajo desde el 19 de agosto mientras los ETF de bitcoin al contado perdían unos 1.070 millones de dólares esta semana y los indicadores de sentimiento se hundían en "miedo extremo".</description>
+    </item>
+    <item>
+      <title>El exchange indio Unocoin dice que hackers usaron sus viejas claves de respaldo en papel para llevarse unos 200.000 dólares en cripto</title>
+      <link>https://plainbtc.com/es/articles/unocoin-hack-bitgo-backup-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/unocoin-hack-bitgo-backup-keys-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Seguridad</category>
+      <description>Unocoin dice que los hackers usaron sus propias claves de respaldo para vaciar tres billeteras calientes de unos 200.000 dólares, esquivando la congelación en la custodia BitGo. Los datos de clientes también podrían estar expuestos.</description>
+    </item>
     <item>
       <title>La caída de precios aprieta a las empresas de tesorería cripto: Nakamoto debe 165 M$ a Kraken y BTCS vende ether para proteger un préstamo</title>
       <link>https://plainbtc.com/es/articles/crypto-treasury-firms-loans-nakamoto-btcs-nov-2026</link>

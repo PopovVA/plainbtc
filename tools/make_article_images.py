@@ -2255,6 +2255,134 @@ def build_treasury_loans():
     ]
 
 
+def build_btc_below_67k():
+    slug = "bitcoin-below-67000-sixth-weekly-loss-nov-2026"
+    d = OUT / slug
+    # Kraken XBTUSD hourly closes, Nov 9 00:00 UTC - Nov 14 13:00 UTC (last bar). Lowest trade: $66,402.4 in the
+    # Nov 14 04:00 UTC hour, lowest since Aug 19 on Kraken daily lows.
+    xs, ys = fetch_kraken_hourly(1794182400, 1794664800)
+    chart = make_line_chart(
+        d / "chart-btc-hourly-nov-9-14",
+        xs, ys,
+        title="Bitcoin hourly price, Nov. 9-14, 2026 (Kraken, UTC)",
+        hline=66402.4,
+        hlabel="Nov. 14 low ≈ $66,400 (Kraken)",
+        date_fmt="%b %d",
+    )
+    # Farside Investors daily U.S. spot bitcoin ETF net flows (US$m), read Nov 14, 2026.
+    flows = make_bar_chart(
+        d / "chart-etf-outflows-nov-5-13",
+        ["Nov 5", "Nov 6", "Nov 9", "Nov 10", "Nov 11", "Nov 12", "Nov 13"],
+        [430.2, 411.9, 201.0, 95.0, 299.8, 284.1, 185.4],
+        "U.S. spot bitcoin ETF net outflows by day, $ millions (Farside)",
+        colors=["#f87171"] * 7,
+        value_fmt=lambda v: f"-${v:,.1f}M",
+        axis_fmt=lambda x, _p: f"${x:,.0f}M",
+    )
+    # Alternative.me Crypto Fear and Greed Index, Nov 12-14, 2026: 28, 20, 13.
+    card = make_fact_card(
+        d / "fact-fear-greed-13",
+        label="Crypto Fear and Greed Index",
+        big="13: Extreme Fear",
+        sub="Saturday's reading, down from 20 on Friday and 28 on Thursday (scale of 0 to 100).",
+        footer="Alternative.me · Nov. 14, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's hourly price on Kraken from Nov. 9 to Nov. 14, 2026, falling from about $75,000 to under $67,000, with a dashed line at the Nov. 14 low of about $66,400", {
+            "es": "Gráfico de líneas del precio horario de bitcoin en Kraken del 9 al 14 de noviembre de 2026: cae de unos 75.000 dólares a menos de 67.000, con una línea discontinua en el mínimo del 14 de noviembre, de unos 66.400 dólares",
+            "pt": "Gráfico de linha do preço horário do bitcoin na Kraken de 9 a 14 de novembro de 2026: cai de cerca de US$ 75.000 para menos de US$ 67.000, com uma linha tracejada na mínima de 14 de novembro, de cerca de US$ 66.400",
+            "fr": "Courbe du cours horaire du bitcoin sur Kraken du 9 au 14 novembre 2026 : il passe d'environ 75 000 dollars à moins de 67 000 dollars, avec une ligne pointillée au plus bas du 14 novembre, environ 66 400 dollars",
+            "de": "Liniendiagramm des stündlichen Bitcoin-Kurses bei Kraken vom 9. bis 14. November 2026: Rückgang von rund 75.000 $ auf unter 67.000 $; gestrichelte Linie beim Tief vom 14. November von rund 66.400 $",
+            "ru": "Линейный график почасовой цены биткоина на Kraken с 9 по 14 ноября 2026 года: падение примерно с $75 000 до уровня ниже $67 000; пунктирная линия показывает минимум 14 ноября, около $66 400",
+            "tr": "Bitcoin'in 9-14 Kasım 2026 arasında Kraken'deki saatlik fiyatının çizgi grafiği: yaklaşık 75.000 $'dan 67.000 $'ın altına düşüyor; kesikli çizgi 14 Kasım'daki yaklaşık 66.400 $'lık dibi gösteriyor",
+            "id": "Grafik garis harga bitcoin per jam di Kraken dari 9 hingga 14 November 2026: turun dari sekitar US$75.000 ke bawah US$67.000, dengan garis putus-putus di level terendah 14 November sekitar US$66.400",
+            "ja": "2026年11月9〜14日のKrakenにおけるビットコイン1時間足の折れ線グラフ：約7万5000ドルから6万7000ドル未満に下落。破線は11月14日の安値（約6万6400ドル）",
+            "ko": "2026년 11월 9~14일 크라켄 비트코인 시간별 가격 선 차트: 약 75,000달러에서 67,000달러 아래로 하락, 점선은 11월 14일 저점 약 66,400달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken BTC/USD hourly closes")},
+        {"id": "flows", "file": flows.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of daily net outflows from U.S. spot bitcoin ETFs: $430.2 million on Nov. 5, $411.9 million on Nov. 6, $201.0 million on Nov. 9, $95.0 million on Nov. 10, $299.8 million on Nov. 11, $284.1 million on Nov. 12 and $185.4 million on Nov. 13", {
+            "es": "Gráfico de barras de las salidas netas diarias de los ETF de bitcoin al contado en EE. UU.: 430,2 millones de dólares el 5 de noviembre, 411,9 millones el 6, 201,0 millones el 9, 95,0 millones el 10, 299,8 millones el 11, 284,1 millones el 12 y 185,4 millones el 13",
+            "pt": "Gráfico de barras das saídas líquidas diárias dos ETFs de bitcoin à vista dos EUA: US$ 430,2 milhões em 5 de novembro, US$ 411,9 milhões no dia 6, US$ 201,0 milhões no dia 9, US$ 95,0 milhões no dia 10, US$ 299,8 milhões no dia 11, US$ 284,1 milhões no dia 12 e US$ 185,4 milhões no dia 13",
+            "fr": "Graphique en barres des sorties nettes quotidiennes des ETF bitcoin au comptant américains : 430,2 millions de dollars le 5 novembre, 411,9 millions le 6, 201,0 millions le 9, 95,0 millions le 10, 299,8 millions le 11, 284,1 millions le 12 et 185,4 millions le 13",
+            "de": "Balkendiagramm der täglichen Nettoabflüsse aus US-Spot-Bitcoin-ETFs: 430,2 Mio. $ am 5. November, 411,9 Mio. $ am 6., 201,0 Mio. $ am 9., 95,0 Mio. $ am 10., 299,8 Mio. $ am 11., 284,1 Mio. $ am 12. und 185,4 Mio. $ am 13. November",
+            "ru": "Столбчатая диаграмма дневного чистого оттока из американских спотовых биткоин-ETF: $430,2 млн 5 ноября, $411,9 млн 6 ноября, $201,0 млн 9 ноября, $95,0 млн 10 ноября, $299,8 млн 11 ноября, $284,1 млн 12 ноября и $185,4 млн 13 ноября",
+            "tr": "ABD spot bitcoin ETF'lerinden günlük net çıkışların çubuk grafiği: 5 Kasım'da 430,2 milyon $, 6 Kasım'da 411,9 milyon $, 9 Kasım'da 201,0 milyon $, 10 Kasım'da 95,0 milyon $, 11 Kasım'da 299,8 milyon $, 12 Kasım'da 284,1 milyon $ ve 13 Kasım'da 185,4 milyon $",
+            "id": "Grafik batang arus keluar bersih harian ETF bitcoin spot AS: US$430,2 juta pada 5 November, US$411,9 juta pada 6 November, US$201,0 juta pada 9 November, US$95,0 juta pada 10 November, US$299,8 juta pada 11 November, US$284,1 juta pada 12 November, dan US$185,4 juta pada 13 November",
+            "ja": "米国の現物ビットコインETFの日次純流出額の棒グラフ：11月5日4億3020万ドル、6日4億1190万ドル、9日2億100万ドル、10日9500万ドル、11日2億9980万ドル、12日2億8410万ドル、13日1億8540万ドル",
+            "ko": "미국 현물 비트코인 ETF 일별 순유출 막대 차트: 11월 5일 4억 3,020만 달러, 6일 4억 1,190만 달러, 9일 2억 100만 달러, 10일 9,500만 달러, 11일 2억 9,980만 달러, 12일 2억 8,410만 달러, 13일 1억 8,540만 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Farside Investors")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: the Crypto Fear and Greed Index read 13, extreme fear, on Nov. 14, down from 20 on Nov. 13 and 28 on Nov. 12", {
+            "es": "Tarjeta: el índice de miedo y codicia cripto marcó 13, miedo extremo, el 14 de noviembre, frente a 20 el 13 y 28 el 12",
+            "pt": "Cartão: o índice de medo e ganância cripto marcou 13, medo extremo, em 14 de novembro, ante 20 no dia 13 e 28 no dia 12",
+            "fr": "Encadré : l'indice de peur et d'avidité crypto était à 13, peur extrême, le 14 novembre, contre 20 le 13 et 28 le 12",
+            "de": "Faktenkarte: Der Crypto Fear and Greed Index lag am 14. November bei 13, extreme Angst, nach 20 am 13. und 28 am 12. November",
+            "ru": "Карточка: индекс страха и жадности на криптовалютном рынке 14 ноября составил 13, «крайний страх», после 20 13 ноября и 28 12 ноября",
+            "tr": "Kart: Kripto Korku ve Açgözlülük Endeksi 14 Kasım'da 13 ile aşırı korku seviyesindeydi; 13 Kasım'da 20, 12 Kasım'da 28'di",
+            "id": "Kartu fakta: Crypto Fear and Greed Index berada di 13, ketakutan ekstrem, pada 14 November, turun dari 20 pada 13 November dan 28 pada 12 November",
+            "ja": "カード：暗号資産の恐怖・強欲指数は11月14日に13（極度の恐怖）。13日は20、12日は28",
+            "ko": "카드: 암호화폐 공포·탐욕 지수는 11월 14일 13(극단적 공포)으로, 13일 20, 12일 28에서 하락",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Alternative.me")},
+    ]
+
+
+def build_unocoin_hack():
+    slug = "unocoin-hack-bitgo-backup-keys-nov-2026"
+    d = OUT / slug
+    # Unocoin incident updates (Nov 12, 13, 14, 2026) and BitGo blog (Nov 13, 2026).
+    tl = make_timeline_card(
+        d / "timeline-unocoin-incident",
+        "How the Unocoin incident unfolded",
+        [
+            ("Nov. 6", "Suspicious activity found; BitGo and Fireblocks accounts frozen", (96, 165, 250)),
+            ("Nov. 9", "More unauthorized activity; all services suspended", (248, 113, 113)),
+            ("Nov. 13", "BitGo: transfers signed with Unocoin's user and backup keys", ORANGE),
+            ("Nov. 14", "Loss estimated at about $200,000 from 3 hot wallets", (248, 113, 113)),
+        ],
+        footer="Unocoin incident updates · BitGo",
+        margin=170, wrap_w=250,
+    )
+    card = make_fact_card(
+        d / "fact-unocoin-200k",
+        label="Estimated crypto loss",
+        big="About $200,000",
+        sub="Taken from 3 of Unocoin's 20+ operational wallets. Unocoin says it will cover the loss from its own resources.",
+        footer="Unocoin security incident update · Nov. 14, 2026",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: Nov. 6, Unocoin finds suspicious activity and freezes its BitGo and Fireblocks accounts; Nov. 9, more unauthorized activity and all services suspended; Nov. 13, BitGo says transfers were signed with Unocoin's user and backup keys; Nov. 14, loss estimated at about $200,000 from three hot wallets", {
+            "es": "Cronología: 6 de nov., Unocoin detecta actividad sospechosa y congela sus cuentas en BitGo y Fireblocks; 9 de nov., más actividad no autorizada y suspensión de todos los servicios; 13 de nov., BitGo dice que las transferencias se firmaron con las claves de usuario y de respaldo de Unocoin; 14 de nov., pérdida estimada en unos 200.000 dólares de tres billeteras calientes",
+            "pt": "Linha do tempo: 6 de nov., a Unocoin detecta atividade suspeita e congela suas contas na BitGo e na Fireblocks; 9 de nov., mais atividade não autorizada e suspensão de todos os serviços; 13 de nov., a BitGo diz que as transferências foram assinadas com as chaves de usuário e de backup da Unocoin; 14 de nov., perda estimada em cerca de US$ 200.000 de três carteiras quentes",
+            "fr": "Chronologie : 6 nov., Unocoin repère une activité suspecte et gèle ses comptes chez BitGo et Fireblocks ; 9 nov., nouvelle activité non autorisée et suspension de tous les services ; 13 nov., BitGo indique que les transferts ont été signés avec les clés utilisateur et de secours d'Unocoin ; 14 nov., perte estimée à environ 200 000 dollars sur trois portefeuilles chauds",
+            "de": "Zeitleiste: 6. Nov., Unocoin entdeckt verdächtige Aktivitäten und friert seine Konten bei BitGo und Fireblocks ein; 9. Nov., weitere unbefugte Aktivitäten, alle Dienste ausgesetzt; 13. Nov., BitGo: Überweisungen wurden mit Unocoins Nutzer- und Backup-Schlüssel signiert; 14. Nov., Verlust auf rund 200.000 $ aus drei Hot Wallets geschätzt",
+            "ru": "Хронология: 6 ноября Unocoin обнаруживает подозрительную активность и замораживает аккаунты в BitGo и Fireblocks; 9 ноября новая несанкционированная активность, все сервисы приостановлены; 13 ноября BitGo сообщает, что переводы подписаны пользовательским и резервным ключами Unocoin; 14 ноября потери оценены примерно в $200 000 из трех горячих кошельков",
+            "tr": "Zaman çizelgesi: 6 Kasım'da Unocoin şüpheli hareket tespit edip BitGo ve Fireblocks hesaplarını donduruyor; 9 Kasım'da yeni yetkisiz hareketler, tüm hizmetler askıya alınıyor; 13 Kasım'da BitGo transferlerin Unocoin'in kullanıcı ve yedek anahtarlarıyla imzalandığını söylüyor; 14 Kasım'da üç sıcak cüzdandan yaklaşık 200.000 $ kayıp tahmin ediliyor",
+            "id": "Linimasa: 6 Nov, Unocoin menemukan aktivitas mencurigakan dan membekukan akun BitGo serta Fireblocks; 9 Nov, aktivitas tidak sah lagi dan semua layanan dihentikan; 13 Nov, BitGo menyatakan transfer ditandatangani dengan kunci pengguna dan kunci cadangan Unocoin; 14 Nov, kerugian diperkirakan sekitar US$200.000 dari tiga hot wallet",
+            "ja": "時系列：11月6日、Unocoinが不審な動きを検知しBitGoとFireblocksの口座を凍結。11月9日、さらなる不正な動きで全サービス停止。11月13日、BitGoが送金はUnocoinのユーザー鍵とバックアップ鍵で署名されたと説明。11月14日、ホットウォレット3つから約20万ドルの損失と推計",
+            "ko": "타임라인: 11월 6일 유노코인이 의심 활동을 발견하고 BitGo·Fireblocks 계정 동결, 11월 9일 추가 무단 활동으로 전체 서비스 중단, 11월 13일 BitGo가 유노코인의 사용자 키와 백업 키로 서명됐다고 발표, 11월 14일 핫월렛 3개에서 약 20만 달러 손실 추정",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Unocoin incident updates; BitGo")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: Unocoin estimates its crypto loss at about $200,000, taken from 3 of its more than 20 operational wallets, and says it will cover the loss from its own resources", {
+            "es": "Tarjeta: Unocoin estima su pérdida en criptomonedas en unos 200.000 dólares, sustraídos de 3 de sus más de 20 billeteras operativas, y dice que la cubrirá con recursos propios",
+            "pt": "Cartão: a Unocoin estima sua perda em cripto em cerca de US$ 200.000, retirados de 3 de suas mais de 20 carteiras operacionais, e diz que vai cobrir a perda com recursos próprios",
+            "fr": "Encadré : Unocoin estime sa perte en cryptos à environ 200 000 dollars, prélevés sur 3 de ses plus de 20 portefeuilles opérationnels, et dit qu'elle la couvrira sur ses fonds propres",
+            "de": "Faktenkarte: Unocoin schätzt seinen Kryptoverlust auf rund 200.000 $ aus 3 seiner mehr als 20 Betriebs-Wallets und will den Verlust aus eigenen Mitteln decken",
+            "ru": "Карточка: Unocoin оценивает потери в криптовалюте примерно в $200 000 из 3 из более чем 20 рабочих кошельков и обещает покрыть их из собственных средств",
+            "tr": "Kart: Unocoin kripto kaybını 20'den fazla operasyonel cüzdanından 3'ünden alınan yaklaşık 200.000 $ olarak tahmin ediyor ve kaybı kendi kaynaklarından karşılayacağını söylüyor",
+            "id": "Kartu fakta: Unocoin memperkirakan kerugian kripto sekitar US$200.000 dari 3 dari lebih 20 dompet operasionalnya dan akan menanggungnya dari dana sendiri",
+            "ja": "カード：Unocoinは20を超える運用ウォレットのうち3つから約20万ドルの暗号資産が失われたと推計し、自己資金で補填すると説明",
+            "ko": "카드: 유노코인은 20개가 넘는 운영 지갑 중 3개에서 약 20만 달러의 암호화폐 손실이 났다고 추정하며, 자체 자금으로 보전하겠다고 밝혔다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Unocoin security incident update")},
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -2287,6 +2415,8 @@ BUILDERS = {
     "dtcc-tokenized-stocks-solana-2027-nov-2026": "dtccsol",
     "kraken-payward-q3-2026-results-nov-2026": "payward",
     "crypto-treasury-firms-loans-nakamoto-btcs-nov-2026": "treasuryloans",
+    "bitcoin-below-67000-sixth-weekly-loss-nov-2026": "btc67k",
+    "unocoin-hack-bitgo-backup-keys-nov-2026": "unocoin",
 }
 
 
@@ -2360,6 +2490,10 @@ def build_slug(slug: str, btc=None):
         figs = build_payward_q3()
     elif key == "treasuryloans":
         figs = build_treasury_loans()
+    elif key == "btc67k":
+        figs = build_btc_below_67k()
+    elif key == "unocoin":
+        figs = build_unocoin_hack()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/id/</link>
     <description>Berita Bitcoin dan kripto dengan bahasa sederhana untuk pemula</description>
     <language>id</language>
-    <lastBuildDate>Sat, 14 Nov 2026 00:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/id/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bitcoin turun di bawah US$67.000 saat investor ETF menarik US$1,07 miliar dalam sepekan</title>
+      <link>https://plainbtc.com/id/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Pasar</category>
+      <description>Bitcoin menyentuh harga terendah sejak 19 Agustus saat ETF bitcoin spot kehilangan sekitar US$1,07 miliar pekan ini dan indikator sentimen makin dalam di zona "ketakutan ekstrem".</description>
+    </item>
+    <item>
+      <title>Bursa India Unocoin sebut peretas memakai kunci cadangan kertas lamanya untuk mengambil sekitar US$200.000 kripto</title>
+      <link>https://plainbtc.com/id/articles/unocoin-hack-bitgo-backup-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/unocoin-hack-bitgo-backup-keys-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Keamanan</category>
+      <description>Unocoin mengatakan peretas memakai kunci cadangan milik bursa itu sendiri untuk menguras sekitar US$200.000 dari tiga hot wallet, lolos dari pembekuan di kustodian BitGo. Data pelanggan juga mungkin terekspos.</description>
+    </item>
     <item>
       <title>Harga yang turun menekan perusahaan treasury kripto: Nakamoto berutang US$165 juta ke Kraken, BTCS jual ether demi lindungi pinjaman</title>
       <link>https://plainbtc.com/id/articles/crypto-treasury-firms-loans-nakamoto-btcs-nov-2026</link>

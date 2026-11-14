@@ -1,0 +1,60 @@
+title: La plateforme indienne Unocoin dit que des pirates ont utilisé ses vieilles clés de secours sur papier pour dérober environ 200 000 dollars en cryptos
+page_title: Piratage d'Unocoin : des clés de secours utilisées pour sortir environ 200 000 dollars
+description: Unocoin affirme que les attaquants ont utilisé des clés de secours imprimées sur papier il y a environ huit ans pour signer des transferts depuis trois portefeuilles chauds, en contournant le gel de son compte chez BitGo. Des données clients pourraient aussi être exposées.
+og_description: La plateforme crypto indienne Unocoin estime sa perte à environ 200 000 dollars sur trois portefeuilles chauds et promet de la couvrir. BitGo assure que sa propre clé n'a jamais servi. Voici comment fonctionne un portefeuille 2 sur 3 et pourquoi le gel n'a pas bloqué les transferts.
+label: Sécurité
+summary: Unocoin affirme que des pirates ont utilisé ses propres clés de secours pour vider trois portefeuilles chauds d'environ 200 000 dollars, en contournant un gel chez le dépositaire BitGo. Des données clients pourraient aussi être exposées.
+===
+
+La plateforme crypto indienne <strong>Unocoin</strong> a indiqué samedi 14 novembre que des attaquants avaient dérobé environ <strong>200 000 dollars</strong> en cryptomonnaies dans trois de ses portefeuilles chauds, les portefeuilles connectés à internet qu'elle utilise pour les retraits quotidiens. Dans une [mise à jour sur l'incident](L1), l'entreprise explique que les voleurs ont utilisé des clés de secours générées il y a environ huit ans, imprimées sur papier et rangées dans un lieu physique.
+
+Unocoin, qui sert des clients indiens depuis 2013, a suspendu tous ses services le 9 novembre et n'a pas encore rouvert. Elle dit qu'elle couvrira la perte sur ses fonds propres et que les soldes crypto des clients ne seront pas réduits.
+
+!takeaways
+- Unocoin estime sa perte à environ 200 000 dollars sur trois de ses plus de 20 portefeuilles opérationnels, soit moins de 1 % des cryptos qu'elle détient pour ses clients.
+- Les transferts ont été signés avec deux clés contrôlées par Unocoin, sa clé utilisateur et sa clé de secours ; le gel chez le prestataire BitGo ne pouvait donc pas les bloquer.
+- BitGo affirme que sa propre clé n'a jamais été utilisée, et Unocoin indique que les systèmes de BitGo n'ont pas été compromis.
+- Selon Unocoin, des adresses e-mail, adresses postales, mots de passe chiffrés, données liées au KYC et soldes de clients pourraient avoir été exposés.
+
+## Ce qui s'est passé, étape par étape
+
+Unocoin dit avoir repéré une activité suspecte pour la première fois le vendredi 6 novembre. Le jour même, elle a demandé à ses fournisseurs de portefeuilles, Fireblocks et BitGo, de geler ses comptes professionnels, et tous deux ont confirmé le gel. Après avoir découvert une nouvelle activité non autorisée le 9 novembre, elle a coupé tous ses services par précaution. À ce stade, selon l'entreprise, aucune perte de fonds n'avait été constatée.
+
+La situation a changé le 12 novembre, quand Unocoin a trouvé des transactions sortantes depuis une adresse Ethereum de son dispositif de portefeuilles chez BitGo. BitGo a examiné l'activité et publié le 13 novembre [sa propre version](L2). Elle a relevé des transferts de jetons ERC-20 sur Ethereum, de XRP sur le XRP Ledger, de HBAR sur Hedera et d'EOS.
+
+!figure:timeline
+
+## Pourquoi le gel ne l'a pas empêché
+
+Les portefeuilles touchés utilisaient un dispositif <strong>multisignature 2 sur 3</strong>. Il existe trois clés distinctes, et deux d'entre elles, quelles qu'elles soient, suffisent pour approuver un transfert. Ici, Unocoin détenait deux clés, une clé « utilisateur » et une clé « de secours », et BitGo la troisième.
+
+Les retraits normaux passent par la plateforme de BitGo, qui les contrôle et ajoute sa signature. La clé de secours permet au client d'accéder à ses fonds si BitGo devenait indisponible. BitGo indique que les transferts examinés ont été signés avec les clés utilisateur et de secours d'Unocoin, puis envoyés directement sur la blockchain, hors de sa plateforme. Sa propre clé n'a jamais servi.
+
+!mid_cta
+
+Un gel empêche seulement BitGo de signer. « Le gel ne bloque pas les fonds au niveau de la blockchain », a écrit BitGo. Quiconque détient les deux autres clés peut toujours remplir la règle des deux signatures. BitGo dit avoir conseillé à Unocoin de transférer ses fonds restants vers de nouveaux portefeuilles dotés de clés nouvellement générées.
+
+!figure:fact
+
+Unocoin cherche encore à comprendre comment les clés de secours sur papier ont été compromises. Elle indique que la phrase secrète nécessaire pour déchiffrer les clés imprimées se trouvait sur ses systèmes piratés, mais que cela seul « ne résout pas entièrement l'énigme ». Elle ajoute avoir déjà réussi à geler une partie des fonds volés grâce à ses contacts dans le secteur. Des questions demeurent sur la manière dont les clés ont été atteintes et sur la date de reprise des services, note [CryptoSlate](L3), et BitGo a déclaré, dans un communiqué cité par [crypto.news](L4), qu'aucun autre client n'était touché.
+
+## Des données clients possiblement exposées
+
+Unocoin dit traiter une grande partie de ses systèmes comme potentiellement compromis. Parmi les informations qui pourraient avoir été exposées figurent les adresses e-mail enregistrées, les adresses postales, les mots de passe chiffrés, des données liées au KYC et les soldes des comptes. L'entreprise dit n'avoir trouvé à ce stade aucune preuve d'accès aux documents KYC des clients. Elle invite les utilisateurs à se méfier des messages d'hameçonnage ciblés et rappelle qu'elle ne demandera jamais de mot de passe, de code à usage unique, de clé privée ni de phrase de récupération.
+
+## Ce que cela signifie pour les débutants
+
+La même règle vaut pour votre propre portefeuille : celui qui détient assez de clés contrôle les pièces. Si vous gardez vous-même vos cryptos, conservez votre phrase de récupération hors ligne, à l'écart des appareils que vous utilisez tous les jours, et ne la saisissez jamais sur un site ni ne la partagez. Si vous laissez vos cryptos sur une plateforme, utilisez un mot de passe solide et unique ainsi qu'une validation en deux étapes par application ou par clé physique. Une plateforme américaine régulée comme [Coinbase](REF) propose ces réglages de sécurité ; vérifiez ses conditions et protections actuelles avant de vous inscrire. Aucune plateforme n'est sans risque. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Les conclusions de l'enquête technique d'Unocoin sur la compromission des clés de secours.
+- La date à laquelle Unocoin rétablira dépôts, retraits et trading.
+- Le gel ou la récupération éventuels d'autres fonds volés.
+- Les tentatives d'hameçonnage exploitant des données clients divulguées.
+
+!soft: Vous ne savez pas qui détient les clés de vos cryptos ? Lisez notre guide sur les [portefeuilles crypto avec ou sans dépositaire](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

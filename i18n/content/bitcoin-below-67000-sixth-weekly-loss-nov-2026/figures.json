@@ -1,0 +1,95 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-hourly-nov-9-14.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin's hourly price on Kraken from Nov. 9 to Nov. 14, 2026, falling from about $75,000 to under $67,000, with a dashed line at the Nov. 14 low of about $66,400",
+      "es": "Gráfico de líneas del precio horario de bitcoin en Kraken del 9 al 14 de noviembre de 2026: cae de unos 75.000 dólares a menos de 67.000, con una línea discontinua en el mínimo del 14 de noviembre, de unos 66.400 dólares",
+      "pt": "Gráfico de linha do preço horário do bitcoin na Kraken de 9 a 14 de novembro de 2026: cai de cerca de US$ 75.000 para menos de US$ 67.000, com uma linha tracejada na mínima de 14 de novembro, de cerca de US$ 66.400",
+      "fr": "Courbe du cours horaire du bitcoin sur Kraken du 9 au 14 novembre 2026 : il passe d'environ 75 000 dollars à moins de 67 000 dollars, avec une ligne pointillée au plus bas du 14 novembre, environ 66 400 dollars",
+      "de": "Liniendiagramm des stündlichen Bitcoin-Kurses bei Kraken vom 9. bis 14. November 2026: Rückgang von rund 75.000 $ auf unter 67.000 $; gestrichelte Linie beim Tief vom 14. November von rund 66.400 $",
+      "ru": "Линейный график почасовой цены биткоина на Kraken с 9 по 14 ноября 2026 года: падение примерно с $75 000 до уровня ниже $67 000; пунктирная линия показывает минимум 14 ноября, около $66 400",
+      "tr": "Bitcoin'in 9-14 Kasım 2026 arasında Kraken'deki saatlik fiyatının çizgi grafiği: yaklaşık 75.000 $'dan 67.000 $'ın altına düşüyor; kesikli çizgi 14 Kasım'daki yaklaşık 66.400 $'lık dibi gösteriyor",
+      "id": "Grafik garis harga bitcoin per jam di Kraken dari 9 hingga 14 November 2026: turun dari sekitar US$75.000 ke bawah US$67.000, dengan garis putus-putus di level terendah 14 November sekitar US$66.400",
+      "ja": "2026年11月9〜14日のKrakenにおけるビットコイン1時間足の折れ線グラフ：約7万5000ドルから6万7000ドル未満に下落。破線は11月14日の安値（約6万6400ドル）",
+      "ko": "2026년 11월 9~14일 크라켄 비트코인 시간별 가격 선 차트: 약 75,000달러에서 67,000달러 아래로 하락, 점선은 11월 14일 저점 약 66,400달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken BTC/USD hourly closes",
+      "es": "Gráfico: PlainBTC, datos: Kraken BTC/USD hourly closes",
+      "pt": "Gráfico: PlainBTC, dados: Kraken BTC/USD hourly closes",
+      "fr": "Graphique : PlainBTC, données : Kraken BTC/USD hourly closes",
+      "de": "Chart: PlainBTC, Daten: Kraken BTC/USD hourly closes",
+      "ru": "График: PlainBTC, данные: Kraken BTC/USD hourly closes",
+      "tr": "Grafik: PlainBTC, veri: Kraken BTC/USD hourly closes",
+      "id": "Grafik: PlainBTC, data: Kraken BTC/USD hourly closes",
+      "ja": "チャート: PlainBTC、データ: Kraken BTC/USD hourly closes",
+      "ko": "차트: PlainBTC, 데이터: Kraken BTC/USD hourly closes"
+    }
+  },
+  {
+    "id": "flows",
+    "file": "chart-etf-outflows-nov-5-13.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of daily net outflows from U.S. spot bitcoin ETFs: $430.2 million on Nov. 5, $411.9 million on Nov. 6, $201.0 million on Nov. 9, $95.0 million on Nov. 10, $299.8 million on Nov. 11, $284.1 million on Nov. 12 and $185.4 million on Nov. 13",
+      "es": "Gráfico de barras de las salidas netas diarias de los ETF de bitcoin al contado en EE. UU.: 430,2 millones de dólares el 5 de noviembre, 411,9 millones el 6, 201,0 millones el 9, 95,0 millones el 10, 299,8 millones el 11, 284,1 millones el 12 y 185,4 millones el 13",
+      "pt": "Gráfico de barras das saídas líquidas diárias dos ETFs de bitcoin à vista dos EUA: US$ 430,2 milhões em 5 de novembro, US$ 411,9 milhões no dia 6, US$ 201,0 milhões no dia 9, US$ 95,0 milhões no dia 10, US$ 299,8 milhões no dia 11, US$ 284,1 milhões no dia 12 e US$ 185,4 milhões no dia 13",
+      "fr": "Graphique en barres des sorties nettes quotidiennes des ETF bitcoin au comptant américains : 430,2 millions de dollars le 5 novembre, 411,9 millions le 6, 201,0 millions le 9, 95,0 millions le 10, 299,8 millions le 11, 284,1 millions le 12 et 185,4 millions le 13",
+      "de": "Balkendiagramm der täglichen Nettoabflüsse aus US-Spot-Bitcoin-ETFs: 430,2 Mio. $ am 5. November, 411,9 Mio. $ am 6., 201,0 Mio. $ am 9., 95,0 Mio. $ am 10., 299,8 Mio. $ am 11., 284,1 Mio. $ am 12. und 185,4 Mio. $ am 13. November",
+      "ru": "Столбчатая диаграмма дневного чистого оттока из американских спотовых биткоин-ETF: $430,2 млн 5 ноября, $411,9 млн 6 ноября, $201,0 млн 9 ноября, $95,0 млн 10 ноября, $299,8 млн 11 ноября, $284,1 млн 12 ноября и $185,4 млн 13 ноября",
+      "tr": "ABD spot bitcoin ETF'lerinden günlük net çıkışların çubuk grafiği: 5 Kasım'da 430,2 milyon $, 6 Kasım'da 411,9 milyon $, 9 Kasım'da 201,0 milyon $, 10 Kasım'da 95,0 milyon $, 11 Kasım'da 299,8 milyon $, 12 Kasım'da 284,1 milyon $ ve 13 Kasım'da 185,4 milyon $",
+      "id": "Grafik batang arus keluar bersih harian ETF bitcoin spot AS: US$430,2 juta pada 5 November, US$411,9 juta pada 6 November, US$201,0 juta pada 9 November, US$95,0 juta pada 10 November, US$299,8 juta pada 11 November, US$284,1 juta pada 12 November, dan US$185,4 juta pada 13 November",
+      "ja": "米国の現物ビットコインETFの日次純流出額の棒グラフ：11月5日4億3020万ドル、6日4億1190万ドル、9日2億100万ドル、10日9500万ドル、11日2億9980万ドル、12日2億8410万ドル、13日1億8540万ドル",
+      "ko": "미국 현물 비트코인 ETF 일별 순유출 막대 차트: 11월 5일 4억 3,020만 달러, 6일 4억 1,190만 달러, 9일 2억 100만 달러, 10일 9,500만 달러, 11일 2억 9,980만 달러, 12일 2억 8,410만 달러, 13일 1억 8,540만 달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Farside Investors",
+      "es": "Gráfico: PlainBTC, datos: Farside Investors",
+      "pt": "Gráfico: PlainBTC, dados: Farside Investors",
+      "fr": "Graphique : PlainBTC, données : Farside Investors",
+      "de": "Chart: PlainBTC, Daten: Farside Investors",
+      "ru": "График: PlainBTC, данные: Farside Investors",
+      "tr": "Grafik: PlainBTC, veri: Farside Investors",
+      "id": "Grafik: PlainBTC, data: Farside Investors",
+      "ja": "チャート: PlainBTC、データ: Farside Investors",
+      "ko": "차트: PlainBTC, 데이터: Farside Investors"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-fear-greed-13.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: the Crypto Fear and Greed Index read 13, extreme fear, on Nov. 14, down from 20 on Nov. 13 and 28 on Nov. 12",
+      "es": "Tarjeta: el índice de miedo y codicia cripto marcó 13, miedo extremo, el 14 de noviembre, frente a 20 el 13 y 28 el 12",
+      "pt": "Cartão: o índice de medo e ganância cripto marcou 13, medo extremo, em 14 de novembro, ante 20 no dia 13 e 28 no dia 12",
+      "fr": "Encadré : l'indice de peur et d'avidité crypto était à 13, peur extrême, le 14 novembre, contre 20 le 13 et 28 le 12",
+      "de": "Faktenkarte: Der Crypto Fear and Greed Index lag am 14. November bei 13, extreme Angst, nach 20 am 13. und 28 am 12. November",
+      "ru": "Карточка: индекс страха и жадности на криптовалютном рынке 14 ноября составил 13, «крайний страх», после 20 13 ноября и 28 12 ноября",
+      "tr": "Kart: Kripto Korku ve Açgözlülük Endeksi 14 Kasım'da 13 ile aşırı korku seviyesindeydi; 13 Kasım'da 20, 12 Kasım'da 28'di",
+      "id": "Kartu fakta: Crypto Fear and Greed Index berada di 13, ketakutan ekstrem, pada 14 November, turun dari 20 pada 13 November dan 28 pada 12 November",
+      "ja": "カード：暗号資産の恐怖・強欲指数は11月14日に13（極度の恐怖）。13日は20、12日は28",
+      "ko": "카드: 암호화폐 공포·탐욕 지수는 11월 14일 13(극단적 공포)으로, 13일 20, 12일 28에서 하락"
+    },
+    "caption": {
+      "en": "Source: Alternative.me",
+      "es": "Fuente: Alternative.me",
+      "pt": "Fonte: Alternative.me",
+      "fr": "Source : Alternative.me",
+      "de": "Quelle: Alternative.me",
+      "ru": "Источник: Alternative.me",
+      "tr": "Kaynak: Alternative.me",
+      "id": "Sumber: Alternative.me",
+      "ja": "出典: Alternative.me",
+      "ko": "출처: Alternative.me"
+    }
+  }
+]

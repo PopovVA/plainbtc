@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/de/</link>
     <description>Bitcoin- und Krypto-News in einfacher Sprache für Einsteiger</description>
     <language>de</language>
-    <lastBuildDate>Sat, 14 Nov 2026 00:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/de/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bitcoin fällt unter 67.000 Dollar, ETF-Anleger ziehen in einer Woche 1,07 Milliarden ab</title>
+      <link>https://plainbtc.com/de/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Markt</category>
+      <description>Bitcoin erreichte den tiefsten Kurs seit dem 19. August, während Spot-Bitcoin-ETFs diese Woche rund 1,07 Milliarden Dollar verloren und Stimmungsbarometer tiefer in die „extreme Angst“ rutschten.</description>
+    </item>
+    <item>
+      <title>Indische Börse Unocoin: Hacker nutzten alte Backup-Schlüssel auf Papier und erbeuteten rund 200.000 Dollar in Krypto</title>
+      <link>https://plainbtc.com/de/articles/unocoin-hack-bitgo-backup-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/unocoin-hack-bitgo-backup-keys-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Sicherheit</category>
+      <description>Unocoin zufolge leerten Hacker mit den eigenen Backup-Schlüsseln der Börse drei Hot Wallets um rund 200.000 Dollar und umgingen eine Sperre beim Verwahrer BitGo. Auch Kundendaten könnten offengelegt sein.</description>
+    </item>
     <item>
       <title>Fallende Kurse setzen Krypto-Treasury-Firmen unter Druck: Nakamoto schuldet Kraken 165 Mio. $, BTCS verkauft Ether zum Schutz eines Kredits</title>
       <link>https://plainbtc.com/de/articles/crypto-treasury-firms-loans-nakamoto-btcs-nov-2026</link>

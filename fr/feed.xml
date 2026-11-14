@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/fr/</link>
     <description>L’actualité du bitcoin et des cryptos en langage clair, pour les débutants</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 14 Nov 2026 00:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/fr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Le bitcoin passe sous les 67 000 dollars, les ETF perdent 1,07 milliard en une semaine</title>
+      <link>https://plainbtc.com/fr/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Marchés</category>
+      <description>Le bitcoin a touché son plus bas depuis le 19 août, tandis que les ETF bitcoin au comptant perdaient environ 1,07 milliard de dollars cette semaine et que les indicateurs de sentiment plongeaient dans la « peur extrême ».</description>
+    </item>
+    <item>
+      <title>La plateforme indienne Unocoin dit que des pirates ont utilisé ses vieilles clés de secours sur papier pour dérober environ 200 000 dollars en cryptos</title>
+      <link>https://plainbtc.com/fr/articles/unocoin-hack-bitgo-backup-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/unocoin-hack-bitgo-backup-keys-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Sécurité</category>
+      <description>Unocoin affirme que des pirates ont utilisé ses propres clés de secours pour vider trois portefeuilles chauds d'environ 200 000 dollars, en contournant un gel chez le dépositaire BitGo. Des données clients pourraient aussi être exposées.</description>
+    </item>
     <item>
       <title>La baisse des prix met sous pression les sociétés de trésorerie crypto : Nakamoto doit 165 millions de dollars à Kraken, BTCS vend de l'ether pour protéger un prêt</title>
       <link>https://plainbtc.com/fr/articles/crypto-treasury-firms-loans-nakamoto-btcs-nov-2026</link>

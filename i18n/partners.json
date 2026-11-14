@@ -3,7 +3,7 @@
   "ui": {
     "en": {
       "box_title": "If you decide to open an account",
-      "box_intro": "If a service below is available where you live and you decide to sign up, you can use our referral link. Any offer depends on your country and the provider’s current terms — check them on the signup page. This is not investment advice.",
+      "box_intro": "If a service below is available where you live and you decide to sign up, you can use our referral link. Any offer depends on your country and the provider’s current terms, so check them on the signup page. This is not investment advice.",
       "page_intro": "This language edition may include the referral links listed below. Availability and rewards are set by each provider; always check their current terms. Mentions of other companies in news articles are informational only.",
       "disc_multi": "<strong>Disclosure:</strong> This page contains {names} referral links. If you sign up through one of them and meet that provider’s current terms, PlainBTC may earn a referral reward at no extra cost to you. See our [full affiliate disclosure](/disclosure).",
       "and": "and"
@@ -15,7 +15,7 @@
     },
     "pt": {
       "box_title": "Se você decidir abrir uma conta",
-      "box_intro": "Se o serviço estiver disponível onde você mora e você decidir se cadastrar, pode usar nosso link de indicação. Qualquer oferta depende do seu país e dos termos atuais do provedor — confira na página de cadastro. Isto não é aconselhamento de investimento.",
+      "box_intro": "Se o serviço estiver disponível onde você mora e você decidir se cadastrar, pode usar nosso link de indicação. Qualquer oferta depende do seu país e dos termos atuais do provedor; confira na página de cadastro. Isto não é aconselhamento de investimento.",
       "page_intro": "Esta versão em português pode incluir os links de indicação listados abaixo. A disponibilidade e as recompensas são definidas por cada provedor; verifique sempre os termos atuais. Menções a outras empresas nas notícias são apenas informativas. As páginas em inglês também podem incluir um link da Coinbase (oferta para novos clientes dos EUA)."
     },
     "fr": {
@@ -25,7 +25,7 @@
     },
     "de": {
       "box_title": "Wenn Sie ein Konto eröffnen möchten",
-      "box_intro": "Wenn der Dienst an Ihrem Wohnort verfügbar ist und Sie sich anmelden möchten, können Sie unseren Empfehlungslink nutzen. Ob es ein Angebot gibt, hängt von Ihrem Land und den jeweils geltenden Bedingungen des Anbieters ab — prüfen Sie diese auf der Anmeldeseite. Dies ist keine Anlageberatung.",
+      "box_intro": "Wenn der Dienst an Ihrem Wohnort verfügbar ist und Sie sich anmelden möchten, können Sie unseren Empfehlungslink nutzen. Ob es ein Angebot gibt, hängt von Ihrem Land und den jeweils geltenden Bedingungen des Anbieters ab; prüfen Sie diese auf der Anmeldeseite. Dies ist keine Anlageberatung.",
       "page_intro": "Diese deutsche Fassung kann die unten genannten Empfehlungslinks enthalten. Verfügbarkeit und Prämien legt jeder Anbieter fest; prüfen Sie stets die aktuellen Bedingungen. Erwähnungen anderer Unternehmen in den Nachrichten dienen nur der Information. Englische Seiten können außerdem einen Coinbase-Empfehlungslink enthalten (Angebot für neue US-Kunden)."
     }
   },

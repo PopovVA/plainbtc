@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Sat, 14 Nov 2026 00:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Биткоин опустился ниже $67 000, а из ETF за неделю вывели $1,07 млрд</title>
+      <link>https://plainbtc.com/ru/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/bitcoin-below-67000-sixth-weekly-loss-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Рынок</category>
+      <description>Биткоин упал до минимума с 19 августа: спотовые биткоин-ETF за неделю потеряли около $1,07 млрд, а индикаторы настроений глубже ушли в зону «крайнего страха».</description>
+    </item>
+    <item>
+      <title>Индийская биржа Unocoin: хакеры использовали ее старые бумажные резервные ключи и вывели около $200 000 в криптовалюте</title>
+      <link>https://plainbtc.com/ru/articles/unocoin-hack-bitgo-backup-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/unocoin-hack-bitgo-backup-keys-nov-2026</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Безопасность</category>
+      <description>Unocoin сообщает, что хакеры с помощью ее же резервных ключей вывели около $200 000 из трех горячих кошельков в обход заморозки у кастодиана BitGo. Под угрозой могут быть и данные клиентов.</description>
+    </item>
     <item>
       <title>Падение цен давит на криптотрежери-компании: Nakamoto должна Kraken $165 млн, BTCS продает эфир, чтобы защитить кредит</title>
       <link>https://plainbtc.com/ru/articles/crypto-treasury-firms-loans-nakamoto-btcs-nov-2026</link>

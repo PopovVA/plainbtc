@@ -1,0 +1,62 @@
+title: Le bitcoin passe sous les 67 000 dollars, les ETF perdent 1,07 milliard en une semaine
+page_title: Bitcoin sous 67 000 dollars après une semaine de sorties de 1,07 milliard des ETF
+description: Le bitcoin est tombé vers 66 400 dollars sur Kraken vendredi soir, son plus bas depuis le 19 août, après une semaine de 1,07 milliard de dollars de sorties des ETF bitcoin au comptant américains et sept jours de retraits d'affilée.
+og_description: Le bitcoin est passé sous les 67 000 dollars, son plus bas niveau depuis la mi-août. Les ETF bitcoin au comptant ont connu un septième jour de sorties d'affilée et l'indice de peur et d'avidité crypto est tombé à 13.
+label: Marchés
+summary: Le bitcoin a touché son plus bas depuis le 19 août, tandis que les ETF bitcoin au comptant perdaient environ 1,07 milliard de dollars cette semaine et que les indicateurs de sentiment plongeaient dans la « peur extrême ».
+===
+
+Le bitcoin a continué de baisser à l'approche du week-end. Sur Kraken, il est descendu vers <strong>66 400 dollars</strong> vendredi en fin de soirée, heure des États-Unis, son plus bas niveau depuis le 19 août, et s'échangeait autour de <strong>66 800 dollars</strong> samedi matin. C'est environ 11 % de moins qu'en début de semaine : lundi, le bitcoin avait ouvert vers 74 700 dollars sur Kraken.
+
+Cette glissade met le bitcoin sur la voie d'une <strong>sixième baisse hebdomadaire d'affilée</strong>, à plus de 20 % sous son niveau de fin octobre, selon [Investing.com](L1). L'ether, deuxième cryptomonnaie du marché, s'échangeait vers 1 890 dollars samedi matin, en recul d'environ 4 % sur 24 heures.
+
+!takeaways
+- Le bitcoin a touché environ 66 400 dollars sur Kraken vendredi soir, son plus bas depuis le 19 août.
+- Les ETF bitcoin au comptant américains ont enregistré 185,4 millions de dollars de sorties nettes vendredi, une septième séance de retraits d'affilée, selon les données de Farside.
+- Les fonds ont perdu environ 1,07 milliard de dollars cette semaine et environ 1,91 milliard sur la série de sept jours.
+- L'indice de peur et d'avidité crypto est tombé à 13 samedi, un niveau qualifié de « peur extrême ».
+
+!figure:chart
+
+## Les ETF continuent de vendre
+
+Les grands fonds vendent sans relâche. Selon [Farside Investors](L2), les fonds indiciels cotés (ETF) bitcoin au comptant américains ont enregistré des sorties nettes de <strong>185,4 millions de dollars</strong> le vendredi 13 novembre. L'iShares Bitcoin Trust (IBIT) de BlackRock en représente 143,5 millions et le FBTC de Fidelity 41,9 millions. Aucun autre fonds n'a enregistré de flux ce jour-là.
+
+Cela fait sept séances de retraits d'affilée depuis le 5 novembre, pour un total d'environ <strong>1,91 milliard de dollars</strong>. Sur la semaine du 9 au 13 novembre, les sorties ont atteint environ 1,07 milliard, après environ 1,28 milliard la semaine précédente. Sur ces deux semaines, les fonds ont perdu environ 2,35 milliards, selon [Cointelegraph](L3), et l'IBIT de BlackRock aligne désormais 11 séances consécutives de sorties nettes.
+
+!figure:flows
+
+Les ventes ont effacé les gains de l'année pour ces fonds. À jeudi, les ETF bitcoin au comptant américains affichaient environ 1,56 milliard de dollars de sorties nettes sur 2026, d'après les données de SoSoValue analysées par [CoinDesk](L4). Depuis leur lancement en janvier 2024, ils conservent encore environ 54,7 milliards d'entrées nettes cumulées, selon Farside.
+
+## Pourquoi le marché est sous pression
+
+Plusieurs forces pèsent en même temps sur les prix. Les investisseurs s'attendent désormais à ce que la Réserve fédérale relève ses taux en décembre après des chiffres d'inflation plus élevés que prévu, ce qui a fait monter le dollar et les rendements obligataires. Des rendements plus élevés rendent les actifs risqués, comme les cryptos et les valeurs technologiques, moins attrayants.
+
+Investing.com cite aussi les turbulences du secteur technologique, dont le changement de direction chez Nvidia, ainsi que la décision de MSCI de retirer de ses indices le 30 novembre Strategy, l'entreprise qui détient du bitcoin en trésorerie. Le site évoque également l'introduction en Bourse prévue d'Anthropic, qui pourrait lever jusqu'à 64,4 milliards de dollars, comme autre ponction possible sur les liquidités.
+
+!mid_cta
+
+Les traders à effet de levier ont encore subi des pertes. Les données de CoinGlass citées par [The Crypto Times](L6) font état d'environ 1,26 milliard de dollars de positions crypto liquidées sur les 24 heures précédant samedi matin, les paris à la hausse représentant environ 86 % du total.
+
+!figure:fact
+
+## Un baromètre dans la peur extrême
+
+L'[indice de peur et d'avidité crypto](L5) d'Alternative.me est tombé à <strong>13</strong> samedi, contre 20 vendredi et 28 jeudi. Il combine variations de prix, volumes d'échange, activité sur les réseaux sociaux et d'autres données en un score de 0 à 100. Un niveau bas signale des investisseurs nerveux. Certains traders y voient le signe que les ventes approchent de l'épuisement, mais l'indice ne dit pas quand une baisse prendra fin.
+
+## Ce que cela signifie pour les débutants
+
+Des baisses hebdomadaires de ce type font partie de la détention de bitcoin. Les plus gros dégâts touchent en général ceux qui utilisent de l'argent emprunté : éviter l'effet de levier est donc une façon simple de limiter le risque. Si vous décidez d'acheter, de petits montants étalés dans le temps évitent d'avoir à deviner le bon moment. Une plateforme américaine régulée comme [Coinbase](REF) permet de programmer des achats récurrents ; vérifiez ses frais et conditions actuels avant de vous inscrire. N'investissez que ce que vous pouvez laisser de côté pendant des années. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Si le bitcoin clôture la semaine dimanche sous la clôture de la semaine dernière, ce qui confirmerait une sixième baisse hebdomadaire d'affilée.
+- Les flux des ETF bitcoin au comptant lundi 16 novembre, après le week-end.
+- Les déclarations des responsables de la Fed avant la réunion des 8 et 9 décembre.
+- Les ventes des fonds indiciels liées à la sortie de Strategy des indices MSCI le 30 novembre.
+
+!soft: Envie de savoir en quoi un ETF diffère de la détention directe de pièces ? Lisez [ETF bitcoin ou achat de bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure
