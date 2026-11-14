@@ -81,5 +81,7 @@
   "close": "Cerrar",
   "ref_label": "Oferta de socio",
   "ref_note": "Enlace de referido: podemos recibir un bono.",
-  "ref_details": "Detalles"
+  "ref_details": "Detalles",
+  "ref_badge": "Bono",
+  "ref_upto": "Hasta"
 }

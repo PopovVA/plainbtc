@@ -68,6 +68,22 @@
   --gutter: clamp(16px, 4vw, 40px);
   --header-h: 64px;
   --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  /* Referral plate: navy on the cream page, cream/orange on the dark page, so it always contrasts. */
+  --ref-bg: #0b1630;
+  --ref-ink: #f3eee2;
+  --ref-muted: #aab2c5;
+  --ref-line: rgba(243, 238, 226, 0.18);
+  --ref-badge-bg: #f7931a;
+  --ref-badge-ink: #0b1630;
+  --ref-icon-bg: #f7931a;
+  --ref-icon-ink: #0b1630;
+  --ref-label-bg: rgba(243, 238, 226, 0.14);
+  --ref-label-ink: #f3eee2;
+  --ref-upto: #f7931a;
+  --ref-unit: #aab2c5;
+  --ref-check: #5fd08e;
+  --ref-note-link: #ffd19a;
+  --ref-shadow: 0 18px 40px -20px rgba(11, 22, 48, 0.65);
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -79,6 +95,21 @@
     --panel: #111c36; --panel-ink: #f3eee2; --panel-muted: #9aa3b8; --panel-line: rgba(243, 238, 226, 0.16);
     --ok: #5fd08e; --err: #ff8a80;
     --shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 22px 48px -26px rgba(0, 0, 0, 0.8);
+    --ref-bg: color-mix(in srgb, #f7931a 16%, #fbf8f1);
+    --ref-ink: #0b1630;
+    --ref-muted: #636c82;
+    --ref-line: color-mix(in srgb, #f7931a 28%, rgba(11, 22, 48, 0.14));
+    --ref-badge-bg: #0b1630;
+    --ref-badge-ink: #f3eee2;
+    --ref-icon-bg: #0b1630;
+    --ref-icon-ink: #f7931a;
+    --ref-label-bg: #0b1630;
+    --ref-label-ink: #f3eee2;
+    --ref-upto: #a65200;
+    --ref-unit: #2f3b57;
+    --ref-check: #1c7a45;
+    --ref-note-link: #636c82;
+    --ref-shadow: 0 1px 0 rgba(11, 22, 48, 0.04), 0 18px 40px -24px rgba(11, 22, 48, 0.35);
   }
 }
 :root[data-theme="dark"] {
@@ -90,6 +121,21 @@
   --panel: #111c36; --panel-ink: #f3eee2; --panel-muted: #9aa3b8; --panel-line: rgba(243, 238, 226, 0.16);
   --ok: #5fd08e; --err: #ff8a80;
   --shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 22px 48px -26px rgba(0, 0, 0, 0.8);
+  --ref-bg: color-mix(in srgb, #f7931a 16%, #fbf8f1);
+  --ref-ink: #0b1630;
+  --ref-muted: #636c82;
+  --ref-line: color-mix(in srgb, #f7931a 28%, rgba(11, 22, 48, 0.14));
+  --ref-badge-bg: #0b1630;
+  --ref-badge-ink: #f3eee2;
+  --ref-icon-bg: #0b1630;
+  --ref-icon-ink: #f7931a;
+  --ref-label-bg: #0b1630;
+  --ref-label-ink: #f3eee2;
+  --ref-upto: #a65200;
+  --ref-unit: #2f3b57;
+  --ref-check: #1c7a45;
+  --ref-note-link: #636c82;
+  --ref-shadow: 0 1px 0 rgba(11, 22, 48, 0.04), 0 18px 40px -24px rgba(11, 22, 48, 0.35);
 }
 /* Japanese and Korean read better in the system gothic faces than in a Latin serif. */
 :lang(ja) { --serif: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", "Noto Sans JP", Meiryo, sans-serif; }
@@ -632,18 +678,184 @@ p { text-wrap: pretty; }
   .content { max-width: none; font-size: 11pt; }
 }
 
-/* Compact referral card: one benefit line, one button, one tiny disclosure line. */
+/* High-contrast referral plate (E1): navy on light pages, cream/orange on dark pages. */
 .mid-cta.ref-card, .cta.ref-card {
-  display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 0.55rem 1.4rem;
-  margin: 1.8em 0; padding: 16px 20px; border-left: 4px solid var(--accent);
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    "icon kicker button"
+    "icon amount button"
+    "steps steps steps"
+    "note note note";
+  align-items: center;
+  column-gap: 1.2rem;
+  row-gap: 0.25rem;
+  overflow: visible;
+  isolation: auto;
+  width: calc(100% + 28px);
+  margin: 2em -14px;
+  padding: 24px 26px 18px;
+  background: var(--ref-bg);
+  color: var(--ref-ink);
+  border: 0;
+  border-radius: 16px;
+  box-shadow: var(--ref-shadow);
 }
-.ref-card .ref-benefit { grid-column: 1; margin: 0; font-size: 0.95em; font-weight: 600; line-height: 1.45; color: var(--ink); }
-.ref-card .ref-label { display: inline-block; margin-right: 0.45rem; padding: 0.22rem 0.45rem; border-radius: 4px; background: var(--ink); color: var(--paper); font: 700 0.6rem/1 var(--mono); letter-spacing: 0.12em; text-transform: uppercase; vertical-align: 0.15em; }
-.ref-card .ref-button { grid-column: 2; grid-row: 1 / span 2; justify-self: end; max-width: 280px; font-size: 0.8rem; padding: 0.85rem 1.25rem; box-shadow: 0 6px 18px -8px color-mix(in srgb, var(--accent) 70%, transparent); }
-.ref-card .ref-note { grid-column: 1; margin: 0; font-size: 0.74em; line-height: 1.4; color: var(--muted); }
-.content .ref-card .ref-note a { color: var(--muted); }
+.mid-cta.ref-card::before, .cta.ref-card::before { display: none; }
+.ref-card .ref-icon {
+  grid-area: icon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--ref-icon-bg);
+  color: var(--ref-icon-ink);
+  font: 800 1.55rem/1 var(--serif);
+}
+.ref-card .ref-kicker {
+  grid-area: kicker;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0 0 0.35rem;
+  color: var(--ref-ink);
+}
+.ref-card .ref-badge {
+  display: inline-block;
+  padding: 0.28rem 0.55rem;
+  border-radius: 999px;
+  background: var(--ref-badge-bg);
+  color: var(--ref-badge-ink);
+  font: 700 0.62rem/1 var(--mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.ref-card .ref-label {
+  display: inline-block;
+  margin: 0;
+  padding: 0.28rem 0.55rem;
+  border-radius: 999px;
+  background: var(--ref-label-bg);
+  color: var(--ref-label-ink);
+  font: 700 0.62rem/1 var(--mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  vertical-align: 0;
+}
+.ref-card .ref-amount, .mid-cta.ref-card p.ref-amount, .cta.ref-card p.ref-amount {
+  grid-area: amount;
+  margin: 0;
+  font-size: clamp(2.4rem, 5vw, 3.25rem);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.035em;
+  color: var(--ref-ink);
+}
+.ref-card .ref-upto {
+  display: block;
+  margin-bottom: 0.28rem;
+  font: 700 0.68rem/1 var(--mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ref-upto);
+}
+.ref-card .ref-unit {
+  display: inline-block;
+  margin-left: 0.2rem;
+  font-size: 1.05rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  color: var(--ref-unit);
+  vertical-align: 0.28em;
+}
+.ref-card .ref-button {
+  grid-area: button;
+  justify-self: end;
+  max-width: none;
+  min-width: 240px;
+  min-height: 52px;
+  padding: 1rem 1.4rem;
+  font-size: 0.82rem;
+  box-shadow: 0 10px 24px -10px color-mix(in srgb, var(--accent) 80%, transparent);
+}
+.ref-card .ref-steps {
+  grid-area: steps;
+  list-style: none;
+  margin: 0.85rem 0 0;
+  padding: 0 0 0 4.4rem;
+}
+.content .ref-card .ref-steps { padding-left: 4.4rem; margin: 0.85rem 0 0; }
+.content .ref-card .ref-steps > li::marker { content: none; }
+.ref-card .ref-steps li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  margin: 0 0 0.4rem;
+  padding: 0;
+  font-size: 0.95em;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ref-ink);
+}
+.ref-card .ref-check {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin-top: 0.12rem;
+  border-radius: 50%;
+  color: var(--ref-check);
+  background: color-mix(in srgb, var(--ref-check) 16%, transparent);
+}
+.ref-card .ref-check svg { display: block; width: 20px; height: 20px; }
+.ref-card .ref-benefit, .mid-cta.ref-card p.ref-benefit, .cta.ref-card p.ref-benefit {
+  grid-area: amount;
+  margin: 0;
+  font-size: 0.95em;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--ref-ink);
+}
+.ref-card .ref-note, .mid-cta.ref-card p.ref-note, .cta.ref-card p.ref-note {
+  grid-area: note;
+  margin: 0.75rem 0 0;
+  padding: 0.7rem 0 0 4.4rem;
+  border-top: 1px solid var(--ref-line);
+  font-size: 0.74em;
+  line-height: 1.4;
+  color: var(--ref-muted);
+}
+.content .ref-card .ref-note a { color: var(--ref-note-link); }
 @media (max-width: 640px) {
-  .mid-cta.ref-card, .cta.ref-card { grid-template-columns: 1fr; padding: 16px; }
-  .ref-card .ref-button { grid-column: 1; grid-row: auto; justify-self: stretch; max-width: none; justify-content: center; text-align: center; white-space: normal; }
-  .ref-card .ref-note { grid-row: auto; }
+  .mid-cta.ref-card, .cta.ref-card {
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-areas:
+      "icon kicker"
+      "icon amount"
+      "button button"
+      "steps steps"
+      "note note";
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 18px 16px 14px;
+    gap: 0.35rem 0.9rem;
+  }
+  .ref-card .ref-icon { width: 44px; height: 44px; font-size: 1.25rem; }
+  .ref-card .ref-button {
+    justify-self: stretch;
+    width: 100%;
+    min-width: 0;
+    margin-top: 0.45rem;
+    justify-content: center;
+    text-align: center;
+    white-space: normal;
+  }
+  .ref-card .ref-steps,
+  .content .ref-card .ref-steps { padding-left: 0; }
+  .ref-card .ref-note,
+  .mid-cta.ref-card p.ref-note,
+  .cta.ref-card p.ref-note { padding-left: 0; }
 }

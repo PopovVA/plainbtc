@@ -81,5 +81,7 @@
   "close": "Schließen",
   "ref_label": "Partnerangebot",
   "ref_note": "Empfehlungslink: Wir erhalten eventuell eine Prämie.",
-  "ref_details": "Details"
+  "ref_details": "Details",
+  "ref_badge": "Bonus",
+  "ref_upto": "Bis zu"
 }

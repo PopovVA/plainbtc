@@ -81,5 +81,7 @@
   "close": "Fechar",
   "ref_label": "Oferta de parceiro",
   "ref_note": "Link de indicação: podemos receber um bônus.",
-  "ref_details": "Detalhes"
+  "ref_details": "Detalhes",
+  "ref_badge": "Bônus",
+  "ref_upto": "Até"
 }

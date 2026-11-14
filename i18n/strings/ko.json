@@ -77,5 +77,7 @@
   "close": "닫기",
   "ref_label": "파트너 혜택",
   "ref_note": "추천 링크입니다. 저희가 보너스를 받을 수 있습니다.",
-  "ref_details": "자세히"
+  "ref_details": "자세히",
+  "ref_badge": "보너스",
+  "ref_upto": "최대"
 }

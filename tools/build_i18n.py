@@ -567,23 +567,58 @@ def partner_card_copy(p: dict, lang: str, variant: int = 1) -> tuple[str, str, s
 
 
 def referral_card_html(pg: Page, lang: str, p: dict, *, where: str, variant: int = 1) -> str:
-    """Compact referral card: one CTA button, one benefit line, one tiny disclosure line.
+    """High-contrast referral plate: amount, 3 official steps, CTA button, disclosure line.
 
     where="mid" renders <aside class="mid-cta ...">, where="end" renders <div class="cta ...">.
     The card holds no nested <div>/<aside> so the strip-and-replace regexes stay safe."""
     s = STR[lang]
     button, benefit, url = partner_card_copy(p, lang, variant)
+    card = (p.get("card") or {}).get(lang) or {}
     pid = esc_attr(p["id"])
     label = s.get("ref_label") or "Partner offer"
     note = s.get("ref_note") or "Referral link, we may earn a bonus."
     details = s.get("ref_details") or "Details"
+    badge = s.get("ref_badge") or "Bonus"
     disc_href = internal(lang, "/disclosure")
     tag, cls = ("aside", "mid-cta") if where == "mid" else ("div", "cta")
     aria = f' aria-label="{esc_attr(label)}"' if where == "mid" else ""
+    amount = (card.get("amount") or "").strip()
+    unit = (card.get("amount_unit") or "").strip()
+    steps = [str(x).strip() for x in (card.get("steps") or []) if str(x).strip()]
+    amount_html = ""
+    if amount:
+        upto = ""
+        if card.get("amount_upto"):
+            upto = f'<span class="ref-upto">{esc(s.get("ref_upto") or "Up to")}</span>'
+        unit_html = f' <span class="ref-unit">{esc(unit)}</span>' if unit else ""
+        amount_html = f'        <p class="ref-amount">{upto}{esc(amount)}{unit_html}</p>\n'
+    elif benefit:
+        amount_html = (
+            f'        <p class="ref-benefit"><span class="ref-label">{esc(label)}</span> {esc(benefit)}</p>\n'
+        )
+    check_svg = (
+        '<span class="ref-check" aria-hidden="true">'
+        '<svg viewBox="0 0 20 20" fill="none">'
+        '<circle cx="10" cy="10" r="9" fill="currentColor" opacity="0.18"/>'
+        '<path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.8" '
+        'stroke-linecap="round" stroke-linejoin="round"/>'
+        "</svg></span>"
+    )
+    steps_html = ""
+    if steps:
+        items = "".join(
+            f"          <li>{check_svg}<span>{esc(step)}</span></li>\n" for step in steps
+        )
+        steps_html = f'        <ul class="ref-steps">\n{items}        </ul>\n'
     return (
         f'      <{tag} class="{cls} ref-card"{aria} data-partner-cta="{pid}">\n'
-        f'        <p class="ref-benefit"><span class="ref-label">{esc(label)}</span> {esc(benefit)}</p>\n'
-        f'        <a class="cta-button ref-button" href="{esc_attr(url)}" rel="sponsored noopener" target="_blank" data-partner="{pid}">{esc(button)}</a>\n'
+        f'        <span class="ref-icon" aria-hidden="true">₿</span>\n'
+        f'        <p class="ref-kicker"><span class="ref-badge">{esc(badge)}</span> '
+        f'<span class="ref-label">{esc(label)}</span></p>\n'
+        f"{amount_html}"
+        f'        <a class="cta-button ref-button" href="{esc_attr(url)}" rel="sponsored noopener" '
+        f'target="_blank" data-partner="{pid}">{esc(button)}</a>\n'
+        f"{steps_html}"
         f'        <p class="ref-note">{esc(note)} <a href="{disc_href}">{esc(details)}</a></p>\n'
         f"      </{tag}>\n"
     )
@@ -2153,6 +2188,26 @@ def validate():
                 pass
 
 
+def validate_partner_cards():
+    """Live partner cards must ship a real amount headline and exactly 3 official steps."""
+    for p in PARTNERS:
+        if not p.get("enabled") or not _partner_url(p):
+            continue
+        for lang in p.get("languages") or []:
+            card = (p.get("card") or {}).get(lang) or {}
+            tag = f"partners.json {p.get('id')}/{lang}"
+            if not (card.get("amount") or "").strip():
+                errors.append(f"[{tag}] missing card.amount")
+            if not (card.get("amount_unit") or "").strip():
+                errors.append(f"[{tag}] missing card.amount_unit")
+            steps = [str(x).strip() for x in (card.get("steps") or []) if str(x).strip()]
+            if len(steps) != 3:
+                errors.append(f"[{tag}] card.steps must have 3 official items, got {len(steps)}")
+            blob = " ".join([card.get("amount") or "", card.get("amount_unit") or ""] + steps)
+            if "\u2014" in blob or "\u2013" in blob or "--" in blob:
+                errors.append(f"[{tag}] em dash, en dash or double dash in card copy")
+
+
 def validate_strings():
     base = STR[DEFAULT]
     for code, s in STR.items():
@@ -2227,6 +2282,7 @@ def main():
     check_only = "--check" in sys.argv
     load_content()
     validate_strings()
+    validate_partner_cards()
     validate_partners()
     validate()
     if errors:

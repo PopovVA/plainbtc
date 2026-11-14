@@ -77,5 +77,7 @@
   "close": "閉じる",
   "ref_label": "パートナー特典",
   "ref_note": "紹介リンクです。当サイトが報酬を受け取る場合があります。",
-  "ref_details": "詳細"
+  "ref_details": "詳細",
+  "ref_badge": "ボーナス",
+  "ref_upto": "最大"
 }

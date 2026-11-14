@@ -73,5 +73,7 @@
   "close": "Kapat",
   "ref_label": "Partner teklifi",
   "ref_note": "Referans bağlantısı: bonus kazanabiliriz.",
-  "ref_details": "Ayrıntılar"
+  "ref_details": "Ayrıntılar",
+  "ref_badge": "Bonus",
+  "ref_upto": "En fazla"
 }

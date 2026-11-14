@@ -81,5 +81,7 @@
   "close": "Fermer",
   "ref_label": "Offre partenaire",
   "ref_note": "Lien de parrainage : nous pouvons recevoir une prime.",
-  "ref_details": "Détails"
+  "ref_details": "Détails",
+  "ref_badge": "Bonus",
+  "ref_upto": "Jusqu'à"
 }

@@ -47,7 +47,15 @@
           "button2": "Start on Coinbase",
           "benefit2": "Buy your first crypto with a bank transfer or card. Referral bonus amount varies by country.",
           "source": "https://help.coinbase.com/en/coinbase/getting-started/getting-started-with-coinbase/new-customer-incentive",
-          "checked": "2026-11-13"
+          "checked": "2026-11-13",
+          "amount": "Varies",
+          "amount_upto": false,
+          "amount_unit": "by country",
+          "steps": [
+            "Verify your ID.",
+            "Complete your first qualifying buy within 90 days of verifying your ID.",
+            "Referral bonus amount varies by country."
+          ]
         }
       }
     },
@@ -78,7 +86,15 @@
           "button2": "Start stacking bitcoin on River",
           "benefit2": "Bitcoin-only app for U.S. buyers. Buy $100 within 180 days of signup and get $5 in bitcoin.",
           "source": "https://support.river.com/hc/en-us/articles/45490369477267-How-do-I-refer-friends-to-River",
-          "checked": "2026-11-13"
+          "checked": "2026-11-13",
+          "amount": "$100",
+          "amount_upto": true,
+          "amount_unit": "in bitcoin",
+          "steps": [
+            "Create a new River account through this referral link.",
+            "Buy at least $100 of bitcoin with cash from a linked bank account.",
+            "Get $5 in bitcoin, then up to $100 as you buy more within 180 days. U.S. only."
+          ]
         }
       }
     },
@@ -133,7 +149,15 @@
           "button2": "Open a Gemini account",
           "benefit2": "New U.S. users get $50 in crypto after trading $100 in their first 30 days.",
           "source": "https://www.gemini.com/legal/gemini-referral-rewards-program-terms/",
-          "checked": "2026-11-13"
+          "checked": "2026-11-13",
+          "amount": "$50",
+          "amount_upto": false,
+          "amount_unit": "in crypto",
+          "steps": [
+            "Verify your ID.",
+            "Trade at least $100 within 30 days of signup.",
+            "U.S. users get $50 in crypto, paid about 32 days after signup."
+          ]
         }
       }
     },
@@ -171,7 +195,15 @@
           "button2": "Abre tu cuenta en Uphold",
           "benefit2": "Tu primera compra de US$100 en cripto te da US$20 en bitcoin. Oferta vigente hasta el 31/12/2026.",
           "source": "https://uphold.com/en-us/legal/uphold-referral-program-terms",
-          "checked": "2026-11-13"
+          "checked": "2026-11-13",
+          "amount": "US$20",
+          "amount_upto": false,
+          "amount_unit": "en bitcoin",
+          "steps": [
+            "Verifica tu cuenta.",
+            "Deposita y compra al menos US$100 en cripto en tus primeros 30 días.",
+            "Recibe US$20 en bitcoin. Latinoamérica y EE. UU. (excepto Nueva York). Oferta vigente hasta el 31/12/2026."
+          ]
         },
         "pt": {
           "button": "Ganhe US$20 em bitcoin na Uphold",
@@ -179,7 +211,15 @@
           "button2": "Abra sua conta na Uphold",
           "benefit2": "Sua primeira compra de US$100 em cripto rende US$20 em bitcoin. Oferta válida até 31/12/2026.",
           "source": "https://uphold.com/en-us/legal/uphold-referral-program-terms",
-          "checked": "2026-11-13"
+          "checked": "2026-11-13",
+          "amount": "US$20",
+          "amount_upto": false,
+          "amount_unit": "em bitcoin",
+          "steps": [
+            "Verifique sua conta.",
+            "Deposite e compre pelo menos US$100 em cripto nos primeiros 30 dias.",
+            "Ganhe US$20 em bitcoin. Brasil, América Latina e EUA (exceto Nova York). Oferta válida até 31/12/2026."
+          ]
         }
       }
     },
@@ -227,5 +267,5 @@
       }
     }
   ],
-  "_doc_card": "card.<lang>: compact article CTA. button + benefit = lead pitch; button2 + benefit2 = alternate pitch used when only one partner is live for a language. Every amount must match the partner's official page in 'source' (re-check and update 'checked'). No em dashes or double dashes."
+  "_doc_card": "card.<lang>: compact article CTA. button + benefit = lead pitch; button2 + benefit2 = alternate pitch used when only one partner is live for a language. amount + amount_unit + optional amount_upto drive the large headline; steps is a 3-item list taken only from official terms already on this file or the site. Every amount must match the partner's official page in 'source' (re-check and update 'checked'). No em dashes or double dashes."
 }
