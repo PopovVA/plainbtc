@@ -1,0 +1,60 @@
+title: Token imbal hasil stUSDT ditutup: pemegang punya waktu hingga 14 Mei 2027 untuk menukarnya ke USDT
+page_title: stUSDT ditutup: imbalan berakhir, penukaran ke USDT hingga 14 Mei 2027
+description: Protokol stUSDT di Tron dan Ethereum berhenti membayar imbalan pada 14 November dan membuka masa enam bulan untuk menukar stUSDT dan wstUSDT kembali ke USDT. Nilai terkuncinya pernah mendekati US$2,3 miliar.
+og_description: stUSDT, token yang membayar imbal hasil dari aset dunia nyata seperti obligasi pemerintah jangka pendek, berhenti membayar imbalan. Pemegang bisa menukar ke USDT hingga 14 Mei 2027. Nilai terkuncinya turun ke sekitar US$8,4 juta.
+label: DeFi
+summary: Protokol stUSDT berhenti membayar imbalan pada 14 November dan memberi pemegang waktu hingga 14 Mei 2027 untuk menukar ke USDT. Nilai terkuncinya, sekitar US$2,3 miliar di puncak 2023, kini sekitar US$8,4 juta.
+===
+
+stUSDT, token kripto yang membayar bunga dari aset dunia nyata seperti obligasi pemerintah jangka pendek, akan ditutup. Dalam [pemberitahuan resmi](L1) yang terbit pada Sabtu, 14 November, proyek itu menyatakan memasuki "fase penutupan" dan imbalan untuk pemegang berhenti pada hari itu.
+
+Pemegang stUSDT dan versi terbungkusnya, wstUSDT, bisa menukar token mereka kembali ke stablecoin USDT lewat portal resmi hingga <strong>14 Mei 2027</strong> pukul 23.59 UTC (18.59 waktu Central AS). Tim menyatakan "seluruh aset dasarnya tetap didukung penuh." Tim tidak menjelaskan alasan penutupan.
+
+!takeaways
+- stUSDT berhenti membayar imbalan pada 14 November 2026 dan membuka masa penukaran enam bulan.
+- Portal resmi stusdt.io ditutup pada 14 Mei 2027; permintaan setelahnya diproses lewat layanan pelanggan secara bertahap tiap bulan hingga Agustus 2027.
+- Token yang disimpan di bursa atau aplikasi DeFi harus dipindahkan ke dompet pribadi sebelum ditukar.
+- Nilai terkunci protokol ini mencapai puncak sekitar US$2,3 miliar pada November 2023 dan kini sekitar US$8,4 juta, menurut data DefiLlama.
+
+!figure:chart
+
+## Apa itu stUSDT
+
+stUSDT diluncurkan di blockchain Tron pada Juli 2023 dan kemudian hadir di Ethereum, lapor [Cointelegraph](L3). Pengguna menyetor USDT dan menerima stUSDT, yang saldonya bertambah otomatis seiring protokol memperoleh imbal hasil dari aset dunia nyata, termasuk obligasi pemerintah jangka pendek. Produk seperti ini sering disebut token RWA, singkatan dari real-world asset atau aset dunia nyata.
+
+Meski namanya mirip, stUSDT tidak dikelola Tether, perusahaan penerbit USDT. Tether membantah punya hubungan dengan proyek itu pada September 2023 dan menyebutnya proyek independen, catat Cointelegraph.
+
+Awalnya proyek ini tumbuh cepat. Nilai total terkuncinya, yaitu uang yang disimpan di protokol, mencapai sekitar <strong>US$2,30 miliar</strong> pada 22 November 2023, menurut [DefiLlama](L4). Setelah itu nilainya menyusut tajam sepanjang 2024 dan bertahan di kisaran US$55 juta hingga US$65 juta sejak 2025 sampai Oktober 2026. DefiLlama mencatat sekitar US$47,5 juta pada 13 November, sehari sebelum pengumuman, dan sekitar US$8,4 juta pada Minggu sore, 15 November.
+
+## Cara penukarannya
+
+Panduan proyek menjelaskan dua jalur:
+
+- <strong>stUSDT:</strong> hubungkan dompet seperti TronLink, MetaMask, atau OKX Wallet di stusdt.io, buka halaman Stake, pilih Unstake dan jaringannya, masukkan jumlah, lalu konfirmasi. Setelah itu klik "Claim" untuk benar-benar menerima USDT.
+- <strong>wstUSDT:</strong> buka halaman Wrap, pilih Unwrap untuk mengubahnya kembali menjadi stUSDT, lalu ikuti langkah stUSDT.
+
+Dompet juga perlu sedikit TRX atau ETH untuk membayar biaya jaringan. Siapa pun yang menyimpan token di bursa atau aplikasi DeFi seperti JustLend, SunSwap, atau Curve sebaiknya menariknya dulu ke dompet pribadi, karena platform akan bertahap menghentikan dukungannya.
+
+!mid_cta
+
+!figure:fact
+
+## JustLend mulai keluar
+
+[JustLend](L2), aplikasi pinjam meminjam utama di Tron, menyatakan akan menutup pasar wstUSDT dalam dua tahap. Pertama, setoran baru dan pinjaman baru dalam wstUSDT dinonaktifkan, sementara posisi yang ada masih bisa dikelola. Setelah itu, parameter pasar diubah untuk menuntaskan penutupan. JustLend meminta pengguna yang menyetor atau meminjam wstUSDT untuk menutup posisi dan menjaga akun tetap sehat. Setoran wstUSDT di JustLend sekitar US$616.890 pada 12 November, menurut angka yang dikutip [CryptoWatchDesk](L5).
+
+## Artinya bagi pemula
+
+Saat token yang membayar imbal hasil ditutup, risiko utamanya adalah melewatkan tenggat dan tertipu. Tim stUSDT menyatakan tidak akan pernah menghubungi Anda lebih dulu, meminta frasa pemulihan, meminta Anda mengirim dana ke dompet lain, atau meminta pembayaran untuk membuka aset Anda. Gunakan hanya situs resmi dan kanal dukungan yang disebut dalam pemberitahuan. Secara umum, token "imbal hasil" bukan simpanan bank dan bisa mengubah aturan atau ditutup. Jika Anda hanya ingin memegang koin yang sudah dikenal, bursa besar teregulasi di AS seperti [Coinbase](REF) adalah titik awal yang lebih sederhana; baca dulu ketentuan dan biayanya. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Apakah tim stUSDT akan menjelaskan alasan penutupan.
+- Langkah lanjutan JustLend dan aplikasi lain yang mendukung stUSDT atau wstUSDT.
+- Berapa nilai yang tersisa di protokol menjelang tenggat 14 Mei 2027.
+
+!soft: Baru mengenal dompet? Baca [apa itu dompet kripto: kustodian vs. simpan sendiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

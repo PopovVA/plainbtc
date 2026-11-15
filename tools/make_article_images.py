@@ -2681,6 +2681,120 @@ def build_btc_62k_liquidations():
     ]
 
 
+def build_coinone_breach():
+    slug = "coinone-data-breach-support-contractor-passwords-nov-2026"
+    d = OUT / slug
+    tl = make_timeline_card(
+        d / "timeline-coinone-breach",
+        "Coinone support data breach (Korea time)",
+        [
+            ("Thu 4 a.m.", "Attacker accesses servers of MetaM, Coinone's support contractor", RED),
+            ("Thu 9:20 a.m.", "MetaM reports the breach to Coinone", ORANGE),
+            ("Next steps", "Attack IPs blocked, support moved to email, regulators notified", (96, 165, 250)),
+            ("Sun 8 a.m.", "Coinone posts its public notice and apology", GREEN),
+        ],
+        footer="Coinone notice, Nov. 15, 2026",
+        margin=170, wrap_w=250,
+    )
+    card = make_fact_card(
+        d / "fact-coinone-11-data-types",
+        label="Coinone support data breach",
+        big="11 kinds of data",
+        sub="may have leaked from support chats and calls, including passwords, national ID numbers, bank account numbers and wallet addresses.",
+        footer="Coinone notice, Nov. 15, 2026 (Korea time)",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline in Korea time: Thursday 4 a.m., an attacker accesses servers of MetaM, Coinone's support contractor; Thursday 9:20 a.m., MetaM reports the breach to Coinone; next, attack IPs are blocked, support moves to email and regulators are notified; Sunday 8 a.m., Coinone posts its public notice and apology", {
+            "es": "Cronología en hora de Corea: jueves 4:00, un atacante accede a los servidores de MetaM, la contratista de soporte de Coinone; jueves 9:20, MetaM informa de la brecha a Coinone; después, se bloquean las IP del ataque, el soporte pasa al correo electrónico y se avisa a los reguladores; domingo 8:00, Coinone publica su aviso y pide disculpas",
+            "pt": "Linha do tempo no horário da Coreia: quinta, 4h, um invasor acessa os servidores da MetaM, terceirizada de atendimento da Coinone; quinta, 9h20, a MetaM informa o vazamento à Coinone; em seguida, os IPs do ataque são bloqueados, o atendimento passa para e-mail e os reguladores são avisados; domingo, 8h, a Coinone publica o aviso e pede desculpas",
+            "fr": "Chronologie (heure de Corée) : jeudi 4 h, un attaquant accède aux serveurs de MetaM, le prestataire de support de Coinone ; jeudi 9 h 20, MetaM signale la fuite à Coinone ; ensuite, les adresses IP de l'attaque sont bloquées, le support passe par e-mail et les autorités sont prévenues ; dimanche 8 h, Coinone publie son avis et s'excuse",
+            "de": "Zeitleiste (koreanische Zeit): Donnerstag 4 Uhr, ein Angreifer greift auf Server von MetaM zu, dem Support-Dienstleister von Coinone; Donnerstag 9:20 Uhr, MetaM meldet den Vorfall an Coinone; danach werden die Angriffs-IPs gesperrt, der Support läuft nur noch per E-Mail und Behörden werden informiert; Sonntag 8 Uhr, Coinone veröffentlicht seine Mitteilung und entschuldigt sich",
+            "ru": "Хронология по корейскому времени: четверг, 4:00, злоумышленник получает доступ к серверам MetaM, подрядчика Coinone по поддержке клиентов; четверг, 9:20, MetaM сообщает Coinone об утечке; затем IP-адреса атаки блокируются, поддержка переводится на электронную почту, регуляторы уведомлены; воскресенье, 8:00, Coinone публикует уведомление и извинения",
+            "tr": "Kore saatiyle zaman çizelgesi: perşembe 04.00, bir saldırgan Coinone'un destek yüklenicisi MetaM'in sunucularına erişiyor; perşembe 09.20, MetaM ihlali Coinone'a bildiriyor; ardından saldırı IP'leri engelleniyor, destek e-postaya taşınıyor ve düzenleyiciler bilgilendiriliyor; pazar 08.00, Coinone duyurusunu ve özrünü yayımlıyor",
+            "id": "Linimasa waktu Korea: Kamis pukul 04.00, penyerang mengakses server MetaM, kontraktor layanan pelanggan Coinone; Kamis pukul 09.20, MetaM melaporkan kebocoran ke Coinone; selanjutnya IP penyerang diblokir, layanan dukungan dialihkan ke email, dan regulator diberi tahu; Minggu pukul 08.00, Coinone menerbitkan pemberitahuan dan permintaan maaf",
+            "ja": "韓国時間のタイムライン：木曜午前4時、攻撃者がCoinoneの顧客対応委託先MetaMのサーバーにアクセス。木曜午前9時20分、MetaMがCoinoneに報告。その後、攻撃元IPを遮断し、サポートをメールに切り替え、当局に届け出。日曜午前8時、Coinoneが公式告知と謝罪を掲載",
+            "ko": "한국 시간 기준 타임라인: 목요일 오전 4시, 공격자가 코인원의 고객상담 수탁사 메타엠 서버에 접근; 목요일 오전 9시 20분, 메타엠이 코인원에 유출 사실 보고; 이후 공격 IP 차단, 상담을 이메일로 전환, 관계 기관 신고; 일요일 오전 8시, 코인원이 공지와 사과문 게시",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Coinone notice")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: 11 kinds of personal data may have leaked from Coinone support chats and calls, including passwords, national ID numbers, bank account numbers and wallet addresses", {
+            "es": "Tarjeta: 11 tipos de datos personales pueden haberse filtrado de los chats y llamadas de soporte de Coinone, entre ellos contraseñas, números de identidad nacional, cuentas bancarias y direcciones de billetera",
+            "pt": "Cartão: 11 tipos de dados pessoais podem ter vazado de chats e ligações de atendimento da Coinone, incluindo senhas, números de identidade nacional, contas bancárias e endereços de carteira",
+            "fr": "Encadré : 11 types de données personnelles ont pu fuiter des échanges avec le support de Coinone (chat et téléphone), dont des mots de passe, des numéros d'identité nationale, des numéros de compte bancaire et des adresses de portefeuille",
+            "de": "Faktenkarte: 11 Arten persönlicher Daten könnten aus Support-Chats und Anrufen bei Coinone abgeflossen sein, darunter Passwörter, nationale Ausweisnummern, Kontonummern und Wallet-Adressen",
+            "ru": "Карточка: из чатов и звонков в поддержку Coinone могли утечь 11 видов персональных данных, включая пароли, национальные идентификационные номера, номера банковских счетов и адреса кошельков",
+            "tr": "Kart: Coinone destek sohbetleri ve aramalarından şifreler, ulusal kimlik numaraları, banka hesap numaraları ve cüzdan adresleri dahil 11 tür kişisel veri sızmış olabilir",
+            "id": "Kartu fakta: 11 jenis data pribadi mungkin bocor dari chat dan panggilan layanan pelanggan Coinone, termasuk kata sandi, nomor identitas nasional, nomor rekening bank, dan alamat dompet",
+            "ja": "カード：Coinoneのサポートのチャットや電話から、パスワード、住民登録番号、銀行口座番号、ウォレットアドレスなど11種類の個人情報が流出した可能性",
+            "ko": "카드: 코인원 채팅·전화 상담 기록에서 비밀번호, 주민등록번호, 계좌번호, 지갑 주소 등 11가지 개인정보가 유출됐을 가능성",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Coinone notice, Nov. 15, 2026")},
+    ]
+
+
+def fetch_defillama_tvl(slug: str, end_ts: int):
+    url = f"https://api.llama.fi/protocol/{slug}"
+    req = urllib.request.Request(url, headers={"User-Agent": "PlainBTC/1.0"})
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        data = json.loads(resp.read().decode())
+    xs, ys = [], []
+    for r in data["tvl"]:
+        if int(r["date"]) <= end_ts:
+            xs.append(float(r["date"]))
+            ys.append(float(r["totalLiquidityUSD"]) / 1e6)
+    return np.array(xs), np.array(ys)
+
+
+def build_stusdt_wind_down():
+    slug = "stusdt-wind-down-redeem-by-may-2027-nov-2026"
+    d = OUT / slug
+    # DefiLlama stUSDT TVL, July 2023 to Nov 15, 2026 18:00 UTC. Peak about $2.30B on Nov 22, 2023; about $8.4M on Nov 15, 2026.
+    xs, ys = fetch_defillama_tvl("stusdt", 1794765600)
+    chart = make_line_chart(
+        d / "chart-stusdt-tvl-2023-2026",
+        xs, ys,
+        title="stUSDT total value locked, July 2023 to Nov. 15, 2026 (DefiLlama)",
+        date_fmt="%b %Y",
+        yfmt=lambda x, _p: f"${x:,.0f}M",
+    )
+    card = make_fact_card(
+        d / "fact-stusdt-deadline-may-14-2027",
+        label="stUSDT redemption deadline",
+        big="May 14, 2027",
+        sub="The official portal closes at 23:59 UTC. Later requests go through customer support in monthly batches through August 2027.",
+        footer="stUSDT notice, Nov. 14, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of stUSDT's total value locked from July 2023 to Nov. 15, 2026: a rise to a peak of about $2.3 billion in November 2023, a steep fall during 2024, a flat stretch near $55 million to $65 million, and a final drop to about $8.4 million", {
+            "es": "Gráfico de líneas del valor total bloqueado en stUSDT de julio de 2023 al 15 de noviembre de 2026: sube hasta un máximo de unos 2.300 millones de dólares en noviembre de 2023, cae con fuerza en 2024, se mantiene entre unos 55 y 65 millones y baja al final a unos 8,4 millones",
+            "pt": "Gráfico de linha do valor total bloqueado no stUSDT de julho de 2023 a 15 de novembro de 2026: sobe até o pico de cerca de US$ 2,3 bilhões em novembro de 2023, cai forte em 2024, fica estável entre cerca de US$ 55 milhões e US$ 65 milhões e despenca no fim para cerca de US$ 8,4 milhões",
+            "fr": "Courbe de la valeur totale verrouillée de stUSDT de juillet 2023 au 15 novembre 2026 : hausse jusqu'à un pic d'environ 2,3 milliards de dollars en novembre 2023, forte baisse en 2024, palier entre environ 55 et 65 millions, puis chute finale à environ 8,4 millions",
+            "de": "Liniendiagramm des gesamten gebundenen Werts von stUSDT von Juli 2023 bis 15. November 2026: Anstieg auf einen Höchststand von rund 2,3 Mrd. $ im November 2023, starker Rückgang 2024, Seitwärtsphase bei rund 55 bis 65 Mio. $ und zuletzt ein Absturz auf rund 8,4 Mio. $",
+            "ru": "Линейный график общей заблокированной стоимости stUSDT с июля 2023 года по 15 ноября 2026 года: рост до пика около $2,3 млрд в ноябре 2023 года, резкое падение в 2024 году, затем ровный участок около $55–65 млн и финальное снижение примерно до $8,4 млн",
+            "tr": "stUSDT'nin Temmuz 2023'ten 15 Kasım 2026'ya kadar kilitli toplam değerinin çizgi grafiği: Kasım 2023'te yaklaşık 2,3 milyar $'lık zirveye çıkış, 2024'te sert düşüş, yaklaşık 55 ile 65 milyon $ arasında yatay seyir ve sonunda yaklaşık 8,4 milyon $'a düşüş",
+            "id": "Grafik garis nilai total terkunci stUSDT dari Juli 2023 hingga 15 November 2026: naik ke puncak sekitar US$2,3 miliar pada November 2023, turun tajam sepanjang 2024, datar di kisaran US$55 juta hingga US$65 juta, lalu anjlok ke sekitar US$8,4 juta",
+            "ja": "2023年7月〜2026年11月15日のstUSDTの預かり資産総額（TVL）の折れ線グラフ：2023年11月に約23億ドルのピーク、2024年に急減、その後は約5500万〜6500万ドルで横ばい、最後に約840万ドルまで減少",
+            "ko": "2023년 7월부터 2026년 11월 15일까지 stUSDT 총예치금(TVL) 선 차트: 2023년 11월 약 23억 달러로 정점, 2024년 급감, 약 5,500만~6,500만 달러에서 횡보한 뒤 약 840만 달러로 감소",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="DefiLlama stUSDT TVL")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: the stUSDT redemption deadline is May 14, 2027; the official portal closes at 23:59 UTC, and later requests go through customer support in monthly batches through August 2027", {
+            "es": "Tarjeta: el plazo para canjear stUSDT termina el 14 de mayo de 2027; el portal oficial cierra a las 23:59 UTC y las solicitudes posteriores se tramitan por soporte en lotes mensuales hasta agosto de 2027",
+            "pt": "Cartão: o prazo para resgatar stUSDT termina em 14 de maio de 2027; o portal oficial fecha às 23h59 UTC e os pedidos posteriores passam pelo suporte em lotes mensais até agosto de 2027",
+            "fr": "Encadré : la date limite de remboursement des stUSDT est le 14 mai 2027 ; le portail officiel ferme à 23 h 59 UTC, puis les demandes passent par le support et sont traitées par lots mensuels jusqu'en août 2027",
+            "de": "Faktenkarte: Die Einlösefrist für stUSDT endet am 14. Mai 2027; das offizielle Portal schließt um 23:59 Uhr UTC, spätere Anträge laufen über den Kundensupport in monatlichen Sammelbearbeitungen bis August 2027",
+            "ru": "Карточка: срок погашения stUSDT истекает 14 мая 2027 года; официальный портал закрывается в 23:59 UTC, а более поздние заявки принимает поддержка и обрабатывает ежемесячными пакетами до августа 2027 года",
+            "tr": "Kart: stUSDT itfa son tarihi 14 Mayıs 2027; resmi portal 23.59 UTC'de kapanıyor, sonraki talepler Ağustos 2027'ye kadar müşteri desteği üzerinden aylık gruplar halinde işleniyor",
+            "id": "Kartu fakta: batas waktu penukaran stUSDT adalah 14 Mei 2027; portal resmi ditutup pukul 23.59 UTC, dan permintaan setelahnya diproses lewat layanan pelanggan secara bertahap tiap bulan hingga Agustus 2027",
+            "ja": "カード：stUSDTの償還期限は2027年5月14日。公式ポータルはUTC 23時59分に閉鎖され、その後の申請はカスタマーサポート経由で2027年8月まで毎月まとめて処理",
+            "ko": "카드: stUSDT 상환 마감일은 2027년 5월 14일. 공식 포털은 UTC 23시 59분에 닫히고, 이후 요청은 고객지원을 통해 2027년 8월까지 매월 일괄 처리",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="stUSDT notice, Nov. 14, 2026")},
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -2720,6 +2834,8 @@ BUILDERS = {
     "bitcoin-falls-below-64000-three-month-low-nov-2026": "btc64k",
     "kava-lend-hack-3-8-million-kava-falls-nov-2026": "kavahack",
     "bitcoin-four-month-low-62000-liquidations-nov-2026": "btc62k",
+    "coinone-data-breach-support-contractor-passwords-nov-2026": "coinone",
+    "stusdt-wind-down-redeem-by-may-2027-nov-2026": "stusdt",
 }
 
 
@@ -2807,6 +2923,10 @@ def build_slug(slug: str, btc=None):
         figs = build_kava_hack()
     elif key == "btc62k":
         figs = build_btc_62k_liquidations()
+    elif key == "coinone":
+        figs = build_coinone_breach()
+    elif key == "stusdt":
+        figs = build_stusdt_wind_down()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

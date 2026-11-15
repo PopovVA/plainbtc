@@ -1,0 +1,60 @@
+title: Rendite-Token stUSDT wird eingestellt: Inhaber haben bis 14. Mai 2027 Zeit, ihn in USDT einzulösen
+page_title: stUSDT wird abgewickelt: keine Erträge mehr, Einlösung in USDT bis 14. Mai 2027
+description: Das stUSDT-Protokoll auf Tron und Ethereum zahlt seit dem 14. November keine Erträge mehr und hat ein sechsmonatiges Fenster geöffnet, um stUSDT und wstUSDT wieder in USDT zu tauschen. Der gebundene Wert lag einst bei fast 2,3 Mrd. $.
+og_description: stUSDT, ein Token mit Rendite aus realen Vermögenswerten wie kurzlaufenden Staatsanleihen, zahlt keine Erträge mehr. Inhaber können bis 14. Mai 2027 in USDT einlösen. Der gebundene Wert ist auf rund 8,4 Mio. $ gefallen.
+label: DeFi
+summary: Das stUSDT-Protokoll zahlt seit dem 14. November keine Erträge mehr und gibt Inhabern bis 14. Mai 2027 Zeit, in USDT einzulösen. Der gebundene Wert, rund 2,3 Mrd. $ zum Höchststand 2023, liegt nun bei etwa 8,4 Mio. $.
+===
+
+stUSDT, ein Krypto-Token, der Zinsen aus realen Vermögenswerten wie kurzlaufenden Staatsanleihen zahlte, wird eingestellt. In einer [offiziellen Mitteilung](L1) vom Samstag, 14. November, erklärte das Projekt, es trete in seine „Auslaufphase“ ein, und die Erträge für Inhaber seien an diesem Tag beendet worden.
+
+Inhaber von stUSDT und der verpackten Version wstUSDT können ihre Token über das offizielle Portal bis zum <strong>14. Mai 2027</strong> um 23:59 Uhr UTC (18:59 Uhr US-Central-Zeit) wieder in den Stablecoin USDT tauschen. Das Team erklärt, „alle zugrunde liegenden Vermögenswerte bleiben vollständig gedeckt“. Einen Grund für die Einstellung nannte es nicht.
+
+!takeaways
+- stUSDT zahlt seit dem 14. November 2026 keine Erträge mehr und hat ein sechsmonatiges Einlösefenster geöffnet.
+- Das offizielle Portal stusdt.io schließt am 14. Mai 2027; spätere Anträge laufen über den Kundensupport und werden bis August 2027 monatlich gesammelt bearbeitet.
+- Token auf einer Börse oder in einer DeFi-App müssen vor der Einlösung in eine eigene Wallet übertragen werden.
+- Der gebundene Wert des Protokolls erreichte im November 2023 einen Höchststand von rund 2,3 Mrd. $ und liegt laut DefiLlama nun bei etwa 8,4 Mio. $.
+
+!figure:chart
+
+## Was stUSDT war
+
+stUSDT startete im Juli 2023 auf der Tron-Blockchain und kam später auf Ethereum, berichtete [Cointelegraph](L3). Nutzer zahlten USDT ein und erhielten stUSDT, dessen Guthaben automatisch wuchs, während das Protokoll Rendite aus realen Vermögenswerten erzielte, darunter kurzlaufende Staatsanleihen. Solche Produkte werden oft RWA-Token genannt, nach dem englischen Begriff für reale Vermögenswerte (real-world assets).
+
+Trotz des Namens wird stUSDT nicht von Tether betrieben, dem Unternehmen hinter USDT. Tether wies im September 2023 jede Verbindung zurück und nannte stUSDT ein unabhängiges Projekt, so Cointelegraph.
+
+Anfangs wuchs das Projekt rasant. Der gesamte gebundene Wert, also das im Protokoll hinterlegte Geld, erreichte laut [DefiLlama](L4) am 22. November 2023 rund <strong>2,30 Mrd. $</strong>. Danach schrumpfte er 2024 stark und lag von 2025 bis Oktober 2026 zwischen etwa 55 und 65 Mio. $. DefiLlama zeigt rund 47,5 Mio. $ am 13. November, dem Tag vor der Ankündigung, und etwa 8,4 Mio. $ am Sonntagnachmittag, 15. November.
+
+## So funktioniert die Einlösung
+
+Der Leitfaden des Projekts beschreibt zwei Wege:
+
+- <strong>stUSDT:</strong> Verbinden Sie auf stusdt.io eine Wallet wie TronLink, MetaMask oder OKX Wallet, öffnen Sie die Seite Stake, wählen Sie Unstake und das Netzwerk, geben Sie den Betrag ein und bestätigen Sie. Klicken Sie danach auf „Claim“, um die USDT tatsächlich zu erhalten.
+- <strong>wstUSDT:</strong> Öffnen Sie die Seite Wrap, wählen Sie Unwrap, um wieder stUSDT zu erhalten, und folgen Sie dann den stUSDT-Schritten.
+
+Die Wallet braucht außerdem etwas TRX oder ETH für die Netzwerkgebühren. Wer die Token auf einer Börse oder in einer DeFi-App wie JustLend, SunSwap oder Curve hält, sollte sie zuerst in eine eigene Wallet abheben, weil die Plattformen die Unterstützung nach und nach einstellen.
+
+!mid_cta
+
+!figure:fact
+
+## JustLend leitet den eigenen Ausstieg ein
+
+[JustLend](L2), die wichtigste Kredit-App auf Tron, will ihren wstUSDT-Markt in zwei Phasen abwickeln. Zuerst werden neue Einlagen und neue Kredite in wstUSDT abgeschaltet, bestehende Positionen lassen sich aber weiter verwalten. Danach werden die Marktparameter angepasst, um die Abwicklung abzuschließen. JustLend forderte Nutzer, die wstUSDT verleihen oder leihen, auf, ihre Positionen zu schließen und ihre Konten im grünen Bereich zu halten. Die wstUSDT-Einlagen bei JustLend beliefen sich am 12. November auf rund 616.890 $, laut von [CryptoWatchDesk](L5) zitierten Zahlen.
+
+## Was das für Einsteiger bedeutet
+
+Wenn ein Rendite-Token schließt, sind die größten Risiken, die Frist zu verpassen und auf Betrug hereinzufallen. Das stUSDT-Team sagt, es werde Sie nie zuerst anschreiben, nie nach Ihrer Wiederherstellungsphrase fragen, Sie nie bitten, Geld an eine andere Wallet zu senden, und nie eine Zahlung verlangen, um Ihre Vermögenswerte freizuschalten. Nutzen Sie nur die offizielle Website und den Support-Kanal aus der Mitteilung. Grundsätzlich gilt: „Rendite“-Token sind keine Bankeinlagen und können ihre Regeln ändern oder schließen. Wenn Sie einfach bekannte Coins halten wollen, ist eine große regulierte US-Börse wie [Coinbase](REF) ein einfacherer Einstieg; lesen Sie vorher die Bedingungen und Gebühren. Dies ist keine Anlageberatung.
+
+## Worauf jetzt zu achten ist
+
+- Ob das stUSDT-Team erklärt, warum es aufhört.
+- Weitere Schritte von JustLend und anderen Apps, die stUSDT oder wstUSDT unterstützen.
+- Wie viel Wert noch im Protokoll liegt, wenn die Frist am 14. Mai 2027 näher rückt.
+
+!soft: Neu bei Wallets? Lesen Sie [was eine Krypto-Wallet ist: verwahrt oder selbst verwahrt](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

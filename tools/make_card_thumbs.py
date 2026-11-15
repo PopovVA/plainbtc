@@ -943,6 +943,49 @@ def thumb_btc_62k_low():
     ],"note":"Editorial composite for identification; trademarks belong to their owners."}
 
 
+def thumb_coinone_breach():
+    """Coinone logo (cropped from Coinone's official share image, identification) with the count from Coinone's notice."""
+    src = fetch("https://image-public.coinone.co.kr/og/og_talk.png", CACHE/"coinone-og.png")
+    logo = Image.open(src).convert("RGBA").crop((261, 233, 917, 380))
+    base = gradient_bg()
+    card_w, card_h = 250, 200
+    x, y = 50, 80
+    tile = Image.new("RGBA", (card_w, card_h), (0,68,210,255))
+    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), (x, y), mask)
+    paste_contain(base, logo, (x, y, card_w, card_h), pad=18)
+    d = ImageDraw.Draw(base)
+    d.text((340, 92), "11", font=font(FONT_B, 92), fill=ORANGE)
+    d.text((342, 200), "kinds of personal data", font=font(FONT_B, 22), fill=WHITE)
+    d.text((342, 232), "may have leaked from support", font=font(FONT_R, 18), fill=(203,213,225))
+    label_chip(base, "Coinone · data breach")
+    return base, {"kind":"composite","sources":[
+        {"file":"og_talk.png","license":"Logo","url":"https://image-public.coinone.co.kr/og/og_talk.png","credit":"Coinone"},
+        {"file":"Coinone notice, Nov. 15, 2026","license":"Figure cited","url":"https://coinone.co.kr/info/notice/5950","credit":"Coinone"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
+def thumb_stusdt_wind_down():
+    """stUSDT logo from stusdt.io (identification) with DefiLlama's value-locked figure."""
+    logo = fetch("https://stusdt.io/logo192.png", CACHE/"stusdt-logo192.png")
+    base = gradient_bg()
+    card_w, card_h = 230, 200
+    x, y = 60, 80
+    tile = Image.new("RGBA", (card_w, card_h), (255,255,255,255))
+    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), (x, y), mask)
+    paste_contain(base, Image.open(logo).convert("RGBA"), (x, y, card_w, card_h), pad=24)
+    d = ImageDraw.Draw(base)
+    d.text((330, 100), "$8.4M", font=font(FONT_B, 76), fill=ORANGE)
+    d.text((332, 200), "value locked in stUSDT", font=font(FONT_B, 22), fill=WHITE)
+    d.text((332, 232), "down from a $2.3B peak in 2023", font=font(FONT_R, 18), fill=(203,213,225))
+    label_chip(base, "stUSDT · wind down")
+    return base, {"kind":"composite","sources":[
+        {"file":"logo192.png","license":"Logo","url":"https://stusdt.io/logo192.png","credit":"stUSDT"},
+        {"file":"DefiLlama stUSDT TVL, Nov. 15, 2026","license":"Figure cited","url":"https://defillama.com/protocol/stusdt","credit":"DefiLlama"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -979,6 +1022,8 @@ BUILDERS = {
     "bitcoin-falls-below-64000-three-month-low-nov-2026": thumb_btc_below_64k,
     "kava-lend-hack-3-8-million-kava-falls-nov-2026": thumb_kava_hack,
     "bitcoin-four-month-low-62000-liquidations-nov-2026": thumb_btc_62k_low,
+    "coinone-data-breach-support-contractor-passwords-nov-2026": thumb_coinone_breach,
+    "stusdt-wind-down-redeem-by-may-2027-nov-2026": thumb_stusdt_wind_down,
 }
 
 def first_figure_source(slug: str) -> Path | None:

@@ -1,0 +1,19 @@
+{
+ "slug": "stusdt-wind-down-redeem-by-may-2027-nov-2026",
+ "date": "2026-11-15",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "stablecoin-supply-shrinks-usdt-tether-nov-2026",
+  "kava-lend-hack-3-8-million-kava-falls-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {"url": "https://medium.com/@stusdt/important-notice-stusdt-protocol-orderly-unwinding-and-redemption-guide-87b6485b0a1d", "title": "stUSDT: Important notice: stUSDT protocol orderly unwinding and redemption guide", "date": "Nov 14, 2026"},
+  {"url": "https://support.justlend.org/hc/en-us/articles/64317608116249-Announcement-on-the-Orderly-Offboarding-of-the-wstUSDT-Market", "title": "JustLend: Announcement on the orderly offboarding of the wstUSDT market", "date": "Nov 14, 2026"},
+  {"url": "https://cointelegraph.com/news/rwa-protocol-stusdt-winds-down-three-years-after-23b-tvl-peak", "title": "Cointelegraph: RWA protocol stUSDT winds down three years after $2.3B TVL peak", "date": "Nov 15, 2026"},
+  {"url": "https://defillama.com/protocol/stusdt", "title": "DefiLlama: stUSDT total value locked", "date": "Nov 15, 2026"},
+  {"url": "https://cryptowatchdesk.com/news/stusdt-wstusdt-wind-down-rebase-rewards-end-14-november-redeem-by-14-may-2027", "title": "CryptoWatchDesk: stUSDT shuts down: redeem for USDT by 14 May 2027", "date": "Nov 14, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

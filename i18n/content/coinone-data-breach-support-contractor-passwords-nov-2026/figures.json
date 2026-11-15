@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-coinone-breach.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline in Korea time: Thursday 4 a.m., an attacker accesses servers of MetaM, Coinone's support contractor; Thursday 9:20 a.m., MetaM reports the breach to Coinone; next, attack IPs are blocked, support moves to email and regulators are notified; Sunday 8 a.m., Coinone posts its public notice and apology",
+      "es": "Cronología en hora de Corea: jueves 4:00, un atacante accede a los servidores de MetaM, la contratista de soporte de Coinone; jueves 9:20, MetaM informa de la brecha a Coinone; después, se bloquean las IP del ataque, el soporte pasa al correo electrónico y se avisa a los reguladores; domingo 8:00, Coinone publica su aviso y pide disculpas",
+      "pt": "Linha do tempo no horário da Coreia: quinta, 4h, um invasor acessa os servidores da MetaM, terceirizada de atendimento da Coinone; quinta, 9h20, a MetaM informa o vazamento à Coinone; em seguida, os IPs do ataque são bloqueados, o atendimento passa para e-mail e os reguladores são avisados; domingo, 8h, a Coinone publica o aviso e pede desculpas",
+      "fr": "Chronologie (heure de Corée) : jeudi 4 h, un attaquant accède aux serveurs de MetaM, le prestataire de support de Coinone ; jeudi 9 h 20, MetaM signale la fuite à Coinone ; ensuite, les adresses IP de l'attaque sont bloquées, le support passe par e-mail et les autorités sont prévenues ; dimanche 8 h, Coinone publie son avis et s'excuse",
+      "de": "Zeitleiste (koreanische Zeit): Donnerstag 4 Uhr, ein Angreifer greift auf Server von MetaM zu, dem Support-Dienstleister von Coinone; Donnerstag 9:20 Uhr, MetaM meldet den Vorfall an Coinone; danach werden die Angriffs-IPs gesperrt, der Support läuft nur noch per E-Mail und Behörden werden informiert; Sonntag 8 Uhr, Coinone veröffentlicht seine Mitteilung und entschuldigt sich",
+      "ru": "Хронология по корейскому времени: четверг, 4:00, злоумышленник получает доступ к серверам MetaM, подрядчика Coinone по поддержке клиентов; четверг, 9:20, MetaM сообщает Coinone об утечке; затем IP-адреса атаки блокируются, поддержка переводится на электронную почту, регуляторы уведомлены; воскресенье, 8:00, Coinone публикует уведомление и извинения",
+      "tr": "Kore saatiyle zaman çizelgesi: perşembe 04.00, bir saldırgan Coinone'un destek yüklenicisi MetaM'in sunucularına erişiyor; perşembe 09.20, MetaM ihlali Coinone'a bildiriyor; ardından saldırı IP'leri engelleniyor, destek e-postaya taşınıyor ve düzenleyiciler bilgilendiriliyor; pazar 08.00, Coinone duyurusunu ve özrünü yayımlıyor",
+      "id": "Linimasa waktu Korea: Kamis pukul 04.00, penyerang mengakses server MetaM, kontraktor layanan pelanggan Coinone; Kamis pukul 09.20, MetaM melaporkan kebocoran ke Coinone; selanjutnya IP penyerang diblokir, layanan dukungan dialihkan ke email, dan regulator diberi tahu; Minggu pukul 08.00, Coinone menerbitkan pemberitahuan dan permintaan maaf",
+      "ja": "韓国時間のタイムライン：木曜午前4時、攻撃者がCoinoneの顧客対応委託先MetaMのサーバーにアクセス。木曜午前9時20分、MetaMがCoinoneに報告。その後、攻撃元IPを遮断し、サポートをメールに切り替え、当局に届け出。日曜午前8時、Coinoneが公式告知と謝罪を掲載",
+      "ko": "한국 시간 기준 타임라인: 목요일 오전 4시, 공격자가 코인원의 고객상담 수탁사 메타엠 서버에 접근; 목요일 오전 9시 20분, 메타엠이 코인원에 유출 사실 보고; 이후 공격 IP 차단, 상담을 이메일로 전환, 관계 기관 신고; 일요일 오전 8시, 코인원이 공지와 사과문 게시"
+    },
+    "caption": {
+      "en": "Source: Coinone notice",
+      "es": "Fuente: Coinone notice",
+      "pt": "Fonte: Coinone notice",
+      "fr": "Source : Coinone notice",
+      "de": "Quelle: Coinone notice",
+      "ru": "Источник: Coinone notice",
+      "tr": "Kaynak: Coinone notice",
+      "id": "Sumber: Coinone notice",
+      "ja": "出典: Coinone notice",
+      "ko": "출처: Coinone notice"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-coinone-11-data-types.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: 11 kinds of personal data may have leaked from Coinone support chats and calls, including passwords, national ID numbers, bank account numbers and wallet addresses",
+      "es": "Tarjeta: 11 tipos de datos personales pueden haberse filtrado de los chats y llamadas de soporte de Coinone, entre ellos contraseñas, números de identidad nacional, cuentas bancarias y direcciones de billetera",
+      "pt": "Cartão: 11 tipos de dados pessoais podem ter vazado de chats e ligações de atendimento da Coinone, incluindo senhas, números de identidade nacional, contas bancárias e endereços de carteira",
+      "fr": "Encadré : 11 types de données personnelles ont pu fuiter des échanges avec le support de Coinone (chat et téléphone), dont des mots de passe, des numéros d'identité nationale, des numéros de compte bancaire et des adresses de portefeuille",
+      "de": "Faktenkarte: 11 Arten persönlicher Daten könnten aus Support-Chats und Anrufen bei Coinone abgeflossen sein, darunter Passwörter, nationale Ausweisnummern, Kontonummern und Wallet-Adressen",
+      "ru": "Карточка: из чатов и звонков в поддержку Coinone могли утечь 11 видов персональных данных, включая пароли, национальные идентификационные номера, номера банковских счетов и адреса кошельков",
+      "tr": "Kart: Coinone destek sohbetleri ve aramalarından şifreler, ulusal kimlik numaraları, banka hesap numaraları ve cüzdan adresleri dahil 11 tür kişisel veri sızmış olabilir",
+      "id": "Kartu fakta: 11 jenis data pribadi mungkin bocor dari chat dan panggilan layanan pelanggan Coinone, termasuk kata sandi, nomor identitas nasional, nomor rekening bank, dan alamat dompet",
+      "ja": "カード：Coinoneのサポートのチャットや電話から、パスワード、住民登録番号、銀行口座番号、ウォレットアドレスなど11種類の個人情報が流出した可能性",
+      "ko": "카드: 코인원 채팅·전화 상담 기록에서 비밀번호, 주민등록번호, 계좌번호, 지갑 주소 등 11가지 개인정보가 유출됐을 가능성"
+    },
+    "caption": {
+      "en": "Source: Coinone notice, Nov. 15, 2026",
+      "es": "Fuente: Coinone notice, Nov. 15, 2026",
+      "pt": "Fonte: Coinone notice, Nov. 15, 2026",
+      "fr": "Source : Coinone notice, Nov. 15, 2026",
+      "de": "Quelle: Coinone notice, Nov. 15, 2026",
+      "ru": "Источник: Coinone notice, Nov. 15, 2026",
+      "tr": "Kaynak: Coinone notice, Nov. 15, 2026",
+      "id": "Sumber: Coinone notice, Nov. 15, 2026",
+      "ja": "出典: Coinone notice, Nov. 15, 2026",
+      "ko": "출처: Coinone notice, Nov. 15, 2026"
+    }
+  }
+]

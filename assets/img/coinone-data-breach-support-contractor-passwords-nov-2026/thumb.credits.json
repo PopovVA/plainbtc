@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "og_talk.png",
+      "license": "Logo",
+      "url": "https://image-public.coinone.co.kr/og/og_talk.png",
+      "credit": "Coinone"
+    },
+    {
+      "file": "Coinone notice, Nov. 15, 2026",
+      "license": "Figure cited",
+      "url": "https://coinone.co.kr/info/notice/5950",
+      "credit": "Coinone"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "coinone-data-breach-support-contractor-passwords-nov-2026",
+  "generated": "2026-11-15T19:01Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

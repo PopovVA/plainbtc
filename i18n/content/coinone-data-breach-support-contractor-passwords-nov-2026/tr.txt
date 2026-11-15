@@ -1,0 +1,60 @@
+title: Koreli borsa Coinone, bir hacker'ın şifreler içerebilecek destek verilerini ele geçirdiğini açıkladı
+page_title: Coinone veri ihlali: bazı şifreler dahil müşteri destek kayıtları açığa çıktı
+description: Güney Koreli kripto borsası Coinone, bir saldırganın dış kaynaklı müşteri destek şirketi MetaM'in sunucularına sızdığını ve kullanıcıların destek sohbetlerinde paylaştığı şifreleri, kimlik numaralarını ve cüzdan adreslerini almış olabileceğini açıkladı.
+og_description: Bir saldırgan 12 Kasım'da Coinone'un dış kaynaklı destek sağlayıcısına sızdı ve sohbet ile aramalardan 11 türe kadar kişisel veri almış olabilir. Coinone, alım satım ve cüzdanların etkilenmediğini söylüyor.
+label: Güvenlik
+summary: Bir saldırgan Coinone'un dış kaynaklı müşteri destek şirketinin sunucularına sızdı ve destek sohbetlerinde paylaşılan şifreleri, kimlik numaralarını ve cüzdan adreslerini almış olabilir. Coinone, alım satım ve cüzdanların etkilenmediğini söylüyor.
+===
+
+Güney Koreli kripto para borsası Coinone, bir saldırganın müşteri desteğini yürüten dış şirket MetaM'in sunucularına sızmasının ardından bazı kişisel verilerin sızdığını müşterilerine bildirdi. Borsa olayı Kore saatiyle pazar sabahı yayımladığı [resmi duyuruda](L1) açıkladı ve kullanıcılardan özür diledi.
+
+Sızan kayıtlar destek sohbetlerinden ve telefon görüşmelerinden geliyor. Her müşterinin bu görüşmelerde ne söylediğine bağlı olarak <strong>şifreler</strong>, ulusal kimlik numaraları, banka hesap numaraları, ev adresleri ve kripto cüzdan adresleri içerebilir. Coinone, kendi hesap, alım satım ve cüzdan sistemlerine sızılmadığını söylüyor.
+
+!takeaways
+- Bir saldırgan, 12 Kasım'da Kore saatiyle 04.00 civarında Coinone'un dış kaynaklı destek şirketi MetaM'in sunucularına erişti.
+- Coinone, aralarında şifreler ve ulusal kimlik numaralarının da bulunduğu 11 tür kişisel verinin sızmış olabileceğini sıralıyor.
+- Borsaya göre Coinone destek merkeziyle hiç iletişime geçmemiş müşteriler etkilenmedi.
+- Coinone, hesap, alım satım ve cüzdan sistemlerinin ayrı çalıştığını ve doğrudan bir sızma belirtisi olmadığını söylüyor.
+
+!figure:timeline
+
+## Ne oldu
+
+Coinone'un duyurusuna göre dışarıdan bir saldırgan, 12 Kasım perşembe günü Kore saatiyle 04.00 civarında MetaM'in sunucularına yasa dışı yollarla erişti ve orada saklanan müşteri destek kayıtlarını görüntüledi ya da aldı. MetaM ihlali aynı gün 09.20 civarında Coinone'a bildirdi. Coinone kamuya açık duyurusunu üç gün sonra yayımladı.
+
+Coinone, ihlali öğrenir öğrenmez saldırıda kullanılan IP adreslerini engellediğini ve destek merkezi ile kendi sistemleri arasındaki erişimi kestiğini söylüyor. Dış kaynaklı desteği yalnızca e-postaya geçirdi, olağandışı girişler ve işlemler için gerçek zamanlı izlemeyi artırdı ve olayı Kore İnternet ve Güvenlik Ajansı'na, Kişisel Bilgileri Koruma Komisyonu'na ve Finansal Denetim Servisi'ne bildirdi.
+
+[JKN](L4)'nin haberine göre MetaM, bazı sistemlerindeki telefon numaralarının ve destek sohbetlerinin izinsiz görüntülendiğine ya da alındığına dair işaretleri doğruladı, ancak tüm kullanıcıların verilerinin sızmadığını söyledi. [Cointelegraph](L2), Coinone'un kaç müşterinin etkilendiğini açıklamadığını belirtti.
+
+## Hangi veriler sızmış olabilir
+
+Coinone, açığa çıkmış olabilecek tüm bilgi türlerini sıraladı: destek araması için kullanılan telefon numarası, ad, e-posta adresi, doğum tarihi, banka hesap numarası, şifre, ulusal yerleşik kayıt numarası, kimlik kartı veriliş tarihi, ev adresi, kripto cüzdan adresi ve işlem kimlikleri (TXID). Borsa, her müşteri farklı bilgiler paylaştığı için gerçek listenin kişiden kişiye değiştiğini vurguladı.
+
+[The Asia Business Daily](L5)'nin haberine göre borsa, ayrı bildirimler göndermeyi ve müşterilerin hangi bilgilerinin açığa çıktığını kontrol edebileceği bir sorgulama sayfası kurmayı planlıyor.
+
+!mid_cta
+
+!figure:fact
+
+## Biri hesaplara girebilir mi?
+
+Coinone, sızan bir şifrenin tek başına yeterli olmadığını söylüyor. Her giriş ikinci bir adım gerektiriyor: tek kullanımlık kod (OTP) ya da müşterinin kendi telefonunda KakaoTalk onayı. Resmi uygulama dışından gelen giriş denemeleri ise otomatik olarak engelleniyor. Borsaya göre şimdiye kadar tespit edilenler ışığında sızan bilgiler tek başına hesaba girmek ya da coin çekmek için kullanılamaz.
+
+Asıl risk dolandırıcılık. Geçmiş destek görüşmelerinden ayrıntılar bilen dolandırıcılar aramalarda, mesajlarda ya da e-postalarda Coinone çalışanı gibi davranabilir. Coinone, hiçbir zaman şifre, OTP kodu ya da doğrulama kodu istemediğini, müşterilerden kripto çekmelerini ya da cüzdan adresi değiştirmelerini asla talep etmediğini söylüyor. Destek ekibiyle şifre paylaşan kullanıcılardan bu şifreyi ve aynı şifreyi kullandıkları diğer siteleri değiştirmelerini, kayıtlı çekim adreslerini de kontrol etmelerini istedi.
+
+## Yeni başlayanlar için anlamı
+
+Bu ihlal borsanın cüzdanlarına dokunmadı, ancak verilerinizin, dış yükleniciler dahil onları işleyen en zayıf şirket kadar güvende olduğunu gösteriyor. Her platformda işe yarayan birkaç alışkanlık var: şifrenizi bir destek temsilcisine asla yazmayın ya da söylemeyin, her kripto hesabı için farklı bir şifre kullanın ve iki adımlı giriş için bir kimlik doğrulama uygulaması açın. [Coinbase](REF) gibi ABD'nin büyük düzenlenmiş borsaları bu araçları sunar, ancak kodlarınızı bir dolandırıcıya verirseniz hiçbir platform sizi koruyamaz. Eski bir destek talebinden bahseden her aramaya şüpheyle yaklaşın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Coinone ya da MetaM'in kaç müşterinin etkilendiğini açıklayıp açıklamayacağı.
+- Coinone'un, kullanıcıların tam olarak neyin sızdığını görmesi için söz verdiği sorgulama sayfası.
+- Güney Kore'nin gizlilik ve finans düzenleyicilerinin bulguları.
+- Sızan bilgileri kullanan oltalama aramaları ya da mesajlarına dair raporlar.
+
+!soft: Büyük borsaların ne kadar güvenli olduğunu mu merak ediyorsunuz? [Coinbase yeni başlayanlar için güvenli mi](/articles/is-coinbase-safe-for-beginners) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

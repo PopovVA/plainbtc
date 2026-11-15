@@ -1,0 +1,60 @@
+title: El token de rendimiento stUSDT cierra: los titulares tienen hasta el 14 de mayo de 2027 para canjearlo por USDT
+page_title: stUSDT cierra: se acaban las recompensas, canje por USDT hasta el 14 de mayo de 2027
+description: El protocolo stUSDT, en Tron y Ethereum, dejó de pagar recompensas el 14 de noviembre y abrió un plazo de seis meses para cambiar stUSDT y wstUSDT de vuelta a USDT. Su valor bloqueado llegó a rozar los 2.300 millones de dólares.
+og_description: stUSDT, un token que pagaba rendimiento con activos del mundo real como bonos públicos a corto plazo, dejó de pagar recompensas. Los titulares pueden canjearlo por USDT hasta el 14 de mayo de 2027. Su valor bloqueado ha caído a unos 8,4 millones de dólares.
+label: DeFi
+summary: El protocolo stUSDT dejó de pagar recompensas el 14 de noviembre y dio a los titulares hasta el 14 de mayo de 2027 para canjearlo por USDT. Su valor bloqueado, unos 2.300 millones de dólares en el máximo de 2023, ronda ahora los 8,4 millones.
+===
+
+stUSDT, un token cripto que pagaba intereses con activos del mundo real como bonos públicos a corto plazo, va a cerrar. En un [aviso oficial](L1) publicado el sábado 14 de noviembre, el proyecto dijo que entraba en su "fase de cierre" y que las recompensas para los titulares terminaron ese día.
+
+Los titulares de stUSDT y de su versión envuelta, wstUSDT, pueden cambiar sus tokens de vuelta a la stablecoin USDT en el portal oficial hasta el <strong>14 de mayo de 2027</strong> a las 23:59 UTC (18:59, hora central de EE. UU.). El equipo afirma que "todos los activos subyacentes siguen totalmente respaldados". No explicó por qué cierra.
+
+!takeaways
+- stUSDT dejó de pagar recompensas el 14 de noviembre de 2026 y abrió un plazo de canje de seis meses.
+- El portal oficial stusdt.io cierra el 14 de mayo de 2027; las solicitudes posteriores se tramitan por soporte en lotes mensuales hasta agosto de 2027.
+- Los tokens guardados en un exchange o en una app DeFi deben pasarse a una billetera personal antes de canjearlos.
+- El valor bloqueado del protocolo tocó un máximo de unos 2.300 millones de dólares en noviembre de 2023 y ahora es de unos 8,4 millones, según datos de DefiLlama.
+
+!figure:chart
+
+## Qué era stUSDT
+
+stUSDT se lanzó en la blockchain Tron en julio de 2023 y más tarde llegó a Ethereum, informó [Cointelegraph](L3). Los usuarios depositaban USDT y recibían stUSDT, cuyo saldo crecía de forma automática a medida que el protocolo obtenía rendimiento de activos del mundo real, entre ellos bonos públicos a corto plazo. A este tipo de producto se le suele llamar token RWA, por las siglas en inglés de activo del mundo real.
+
+Pese al nombre, stUSDT no lo gestiona Tether, la empresa que emite USDT. Tether negó cualquier vínculo con el proyecto en septiembre de 2023 y dijo que era un proyecto independiente, señaló Cointelegraph.
+
+Al principio el proyecto creció rápido. Su valor total bloqueado, el dinero depositado en el protocolo, alcanzó unos <strong>2.300 millones de dólares</strong> el 22 de noviembre de 2023, según [DefiLlama](L4). Luego se redujo con fuerza durante 2024 y se mantuvo entre unos 55 y 65 millones de dólares desde 2025 hasta octubre de 2026. DefiLlama muestra unos 47,5 millones el 13 de noviembre, el día antes del anuncio, y unos 8,4 millones la tarde del domingo 15 de noviembre.
+
+## Cómo funciona el canje
+
+La guía del proyecto describe dos caminos:
+
+- <strong>stUSDT:</strong> conecta una billetera como TronLink, MetaMask u OKX Wallet en stusdt.io, abre la página Stake, elige Unstake y la red, introduce la cantidad y confirma. Después pulsa "Claim" para recibir de verdad los USDT.
+- <strong>wstUSDT:</strong> abre la página Wrap, elige Unwrap para convertirlo de nuevo en stUSDT y luego sigue los pasos de stUSDT.
+
+La billetera también necesita un poco de TRX o ETH para pagar las comisiones de red. Quien tenga los tokens en un exchange o en una app DeFi como JustLend, SunSwap o Curve debe retirarlos primero a una billetera personal, porque las plataformas irán dejando de darles soporte.
+
+!mid_cta
+
+!figure:fact
+
+## JustLend inicia su propia salida
+
+[JustLend](L2), la principal app de préstamos de Tron, dijo que cerrará su mercado de wstUSDT en dos fases. Primero se desactivarán los nuevos depósitos y préstamos en wstUSDT, aunque las posiciones existentes se podrán seguir gestionando. Después se cambiarán los parámetros del mercado para completar el cierre. JustLend pidió a quienes depositan o piden prestado wstUSDT que cierren sus posiciones y mantengan sus cuentas en buen estado. Los depósitos de wstUSDT en JustLend sumaban unos 616.890 dólares el 12 de noviembre, según cifras citadas por [CryptoWatchDesk](L5).
+
+## Qué significa para principiantes
+
+Cuando cierra un token que paga rendimiento, los principales riesgos son pasarse del plazo y caer en estafas. El equipo de stUSDT dice que nunca te escribirá primero, ni te pedirá tu frase de recuperación, ni que envíes fondos a otra billetera, ni un pago para desbloquear tus activos. Usa solo el sitio oficial y el canal de soporte indicados en el aviso. En general, los tokens de "rendimiento" no son depósitos bancarios y pueden cambiar sus reglas o cerrar. Si solo quieres tener monedas conocidas, un gran exchange regulado de EE. UU. como [Coinbase](REF) es un punto de partida más sencillo; lee antes sus condiciones y comisiones. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Si el equipo de stUSDT explica por qué cierra.
+- Los próximos pasos de JustLend y de otras apps que admiten stUSDT o wstUSDT.
+- Cuánto valor queda en el protocolo a medida que se acerca el plazo del 14 de mayo de 2027.
+
+!soft: ¿Nuevo en billeteras? Lee [qué es una billetera cripto: custodia frente a autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

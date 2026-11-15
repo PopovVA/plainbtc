@@ -1,0 +1,60 @@
+title: Corretora coreana Coinone diz que um hacker levou dados do atendimento que podem incluir senhas
+page_title: Vazamento na Coinone expõe registros do atendimento ao cliente, incluindo algumas senhas
+description: A corretora sul-coreana Coinone diz que um invasor entrou nos servidores da MetaM, sua empresa terceirizada de atendimento ao cliente, e pode ter levado senhas, números de identidade e endereços de carteira que usuários compartilharam em chats de suporte.
+og_description: Um invasor entrou em 12 de novembro na terceirizada de atendimento da Coinone e pode ter levado até 11 tipos de dados pessoais de chats e ligações. A Coinone diz que as negociações e as carteiras não foram afetadas.
+label: Segurança
+summary: Um invasor entrou nos servidores da empresa terceirizada de atendimento da Coinone e pode ter levado senhas, números de identidade e endereços de carteira compartilhados em chats de suporte. A Coinone diz que as negociações e as carteiras não foram afetadas.
+===
+
+A corretora de criptomoedas sul-coreana Coinone avisou seus clientes de que parte de seus dados pessoais vazou depois que um invasor entrou nos servidores da MetaM, a empresa terceirizada que cuida do seu atendimento ao cliente. A corretora revelou o incidente em um [aviso oficial](L1) publicado na manhã de domingo, no horário da Coreia, e pediu desculpas aos usuários.
+
+Os registros vazados vêm de chats e ligações de suporte. Dependendo do que cada cliente disse nessas conversas, eles podem incluir <strong>senhas</strong>, números de identidade nacional, números de conta bancária, endereços residenciais e endereços de carteiras cripto. A Coinone afirma que seus próprios sistemas de contas, negociação e carteiras não foram invadidos.
+
+!takeaways
+- Um invasor acessou servidores da MetaM, a terceirizada de atendimento da Coinone, por volta das 4h, horário da Coreia, de 12 de novembro.
+- A Coinone lista 11 tipos de dados pessoais que podem ter vazado, incluindo senhas e números de identidade nacional.
+- Clientes que nunca contataram a central de atendimento da Coinone não foram afetados, segundo a corretora.
+- A Coinone diz que seus sistemas de contas, negociação e carteiras funcionam separadamente e não mostram sinais de invasão direta.
+
+!figure:timeline
+
+## O que aconteceu
+
+Segundo o aviso da Coinone, um invasor externo acessou ilegalmente os servidores da MetaM por volta das 4h, horário da Coreia, da quinta-feira, 12 de novembro, e consultou ou levou os registros de atendimento armazenados ali. A MetaM comunicou o vazamento à Coinone por volta das 9h20 do mesmo dia. A Coinone publicou o aviso público três dias depois.
+
+Ao saber do vazamento, a Coinone diz que bloqueou os endereços IP usados no ataque e cortou o acesso entre a central de atendimento e seus sistemas. Passou o atendimento terceirizado a funcionar só por e-mail, reforçou o monitoramento em tempo real de logins e negociações incomuns e comunicou o incidente à Agência Coreana de Internet e Segurança, à Comissão de Proteção de Informações Pessoais e ao Serviço de Supervisão Financeira.
+
+A MetaM confirmou sinais de que números de telefone e chats de suporte em alguns de seus sistemas foram acessados ou extraídos sem permissão, mas disse que os dados de todos os usuários não vazaram, informou o [JKN](L4). A Coinone não disse quantos clientes foram afetados, observou o [Cointelegraph](L2).
+
+## Quais dados podem ter vazado
+
+A Coinone listou todos os tipos de informação que podem ter sido expostos: o número de telefone usado na ligação de suporte, nome, e-mail, data de nascimento, número de conta bancária, senha, número de registro de residente, data de emissão do documento de identidade, endereço residencial, endereço de carteira cripto e IDs de transação (TXIDs). A corretora destacou que a lista real varia de pessoa para pessoa, porque cada cliente compartilhou dados diferentes.
+
+A corretora pretende enviar avisos individuais e criar uma página de consulta para que cada cliente verifique quais dados seus foram expostos, informou o [The Asia Business Daily](L5).
+
+!mid_cta
+
+!figure:fact
+
+## Alguém consegue entrar nas contas?
+
+A Coinone diz que uma senha vazada sozinha não basta. Todo login exige uma segunda etapa, um código de uso único (OTP) ou uma confirmação pelo KakaoTalk no celular do próprio cliente, e tentativas de login de fora do app oficial são bloqueadas automaticamente. Com base no que foi encontrado até agora, a corretora afirma que as informações vazadas não permitem, por si só, entrar na conta nem sacar moedas.
+
+O risco maior é a fraude. Golpistas que conhecem detalhes de conversas de suporte anteriores podem se passar por funcionários da Coinone em ligações, mensagens ou e-mails. A Coinone diz que nunca pede senhas, códigos OTP ou códigos de verificação, e nunca pede que clientes saquem cripto ou mudem um endereço de carteira. Ela pediu a quem compartilhou uma senha com o suporte que a troque, também em qualquer outro site onde use a mesma, e que confira os endereços de saque salvos.
+
+## O que isso significa para iniciantes
+
+Esse vazamento não atingiu as carteiras da corretora, mas mostra que seus dados só estão tão seguros quanto a empresa mais frágil que lida com eles, incluindo terceirizadas. Alguns hábitos ajudam em qualquer plataforma: nunca digite nem diga sua senha a um atendente, use uma senha diferente para cada conta cripto e ative um app autenticador para o login em duas etapas. Grandes corretoras reguladas dos EUA, como a [Coinbase](REF), oferecem essas ferramentas, mas nenhuma plataforma consegue proteger você se você entregar seus códigos a um golpista. Desconfie de qualquer ligação que mencione um antigo chamado de suporte. Isto não é recomendação de investimento.
+
+## O que acompanhar
+
+- Se a Coinone ou a MetaM vão dizer quantos clientes foram afetados.
+- A página de consulta que a Coinone prometeu para que cada usuário veja exatamente o que vazou.
+- As conclusões dos reguladores de privacidade e financeiros da Coreia do Sul.
+- Relatos de ligações ou mensagens de phishing usando os dados vazados.
+
+!soft: Quer saber quão seguras são as grandes corretoras? Leia [se a Coinbase é segura para iniciantes](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

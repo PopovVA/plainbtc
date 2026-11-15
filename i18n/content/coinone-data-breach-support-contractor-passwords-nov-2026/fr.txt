@@ -1,0 +1,60 @@
+title: La plateforme coréenne Coinone affirme qu'un pirate a dérobé des données du support pouvant inclure des mots de passe
+page_title: Fuite chez Coinone : des échanges avec le support exposés, dont certains mots de passe
+description: La plateforme crypto sud-coréenne Coinone indique qu'un attaquant s'est introduit dans les serveurs de MetaM, son prestataire de service client, et a pu emporter des mots de passe, numéros d'identité et adresses de portefeuille partagés dans les échanges avec le support.
+og_description: Un attaquant s'est introduit le 12 novembre chez le prestataire de support de Coinone et a pu emporter jusqu'à 11 types de données personnelles issues de chats et d'appels. Coinone assure que le trading et les portefeuilles n'ont pas été touchés.
+label: Sécurité
+summary: Un attaquant s'est introduit dans les serveurs du prestataire de service client de Coinone et a pu emporter des mots de passe, numéros d'identité et adresses de portefeuille partagés avec le support. Coinone assure que le trading et les portefeuilles n'ont pas été touchés.
+===
+
+La plateforme d'échange de cryptomonnaies sud-coréenne Coinone a informé ses clients qu'une partie de leurs données personnelles avait fuité après l'intrusion d'un attaquant dans les serveurs de MetaM, la société externe qui gère son service client. La plateforme a révélé l'incident dans un [avis officiel](L1) publié dimanche matin, heure de Corée, et a présenté ses excuses aux utilisateurs.
+
+Les données dérobées proviennent de chats et d'appels avec le support. Selon ce que chaque client a dit lors de ces échanges, elles peuvent inclure des <strong>mots de passe</strong>, des numéros d'identité nationale, des numéros de compte bancaire, des adresses postales et des adresses de portefeuilles crypto. Coinone affirme que ses propres systèmes de comptes, de trading et de portefeuilles n'ont pas été piratés.
+
+!takeaways
+- Un attaquant a accédé aux serveurs de MetaM, le prestataire de support de Coinone, vers 4 h, heure de Corée, le 12 novembre.
+- Coinone liste 11 types de données personnelles susceptibles d'avoir fuité, dont des mots de passe et des numéros d'identité nationale.
+- Les clients qui n'ont jamais contacté le service client de Coinone ne sont pas concernés, selon la plateforme.
+- Coinone indique que ses systèmes de comptes, de trading et de portefeuilles sont séparés et ne montrent aucun signe d'intrusion directe.
+
+!figure:timeline
+
+## Ce qui s'est passé
+
+Selon l'avis de Coinone, un attaquant extérieur a accédé illégalement aux serveurs de MetaM vers 4 h, heure de Corée, le jeudi 12 novembre, et a consulté ou emporté les dossiers du service client qui y étaient stockés. MetaM a signalé la fuite à Coinone vers 9 h 20 le même jour. Coinone a publié son avis public trois jours plus tard.
+
+Dès qu'elle a eu connaissance de la fuite, Coinone dit avoir bloqué les adresses IP utilisées pour l'attaque et coupé l'accès entre le centre de support et ses systèmes. Elle a basculé son support externalisé sur l'e-mail uniquement, renforcé la surveillance en temps réel des connexions et des transactions inhabituelles, et signalé l'incident à l'Agence coréenne de l'internet et de la sécurité, à la Commission de protection des informations personnelles et au Service de surveillance financière.
+
+MetaM a confirmé des signes indiquant que des numéros de téléphone et des chats du support dans certains de ses systèmes avaient été consultés ou extraits sans autorisation, tout en précisant que les données de l'ensemble des utilisateurs n'avaient pas fuité, rapporte [JKN](L4). Coinone n'a pas indiqué combien de clients sont concernés, note [Cointelegraph](L2).
+
+## Quelles données ont pu fuiter
+
+Coinone a énuméré tous les types d'informations susceptibles d'avoir été exposés : le numéro de téléphone utilisé pour l'appel au support, le nom, l'adresse e-mail, la date de naissance, le numéro de compte bancaire, le mot de passe, le numéro d'enregistrement de résident, la date de délivrance de la pièce d'identité, l'adresse postale, l'adresse de portefeuille crypto et les identifiants de transaction (TXID). La plateforme souligne que la liste réelle varie d'une personne à l'autre, car chaque client a communiqué des informations différentes.
+
+La plateforme prévoit d'envoyer des avis individuels et de mettre en place une page de vérification pour que chaque client puisse voir quelles données le concernant ont été exposées, rapporte [The Asia Business Daily](L5).
+
+!mid_cta
+
+!figure:fact
+
+## Quelqu'un peut-il accéder aux comptes ?
+
+Coinone affirme qu'un mot de passe dérobé ne suffit pas à lui seul. Chaque connexion exige une seconde étape, un code à usage unique (OTP) ou une confirmation via KakaoTalk sur le téléphone du client, et les tentatives de connexion hors de l'application officielle sont bloquées automatiquement. D'après ce qui a été constaté jusqu'ici, la plateforme estime que les informations dérobées ne permettent pas, à elles seules, de se connecter ni de retirer des cryptos.
+
+Le principal risque est la fraude. Des escrocs connaissant des détails d'anciens échanges avec le support peuvent se faire passer pour des employés de Coinone par téléphone, SMS ou e-mail. Coinone rappelle qu'elle ne demande jamais de mot de passe, de code OTP ou de code de vérification, et ne demande jamais à ses clients de retirer des cryptos ou de modifier une adresse de portefeuille. Elle invite ceux qui ont communiqué un mot de passe au support à le changer, ainsi que partout où ils utilisent le même, et à vérifier leurs adresses de retrait enregistrées.
+
+## Ce que cela signifie pour les débutants
+
+Cette fuite n'a pas touché les portefeuilles de la plateforme, mais elle montre que vos données ne sont pas mieux protégées que par l'entreprise la plus fragile qui les manipule, y compris les sous-traitants. Quelques réflexes aident sur n'importe quelle plateforme : ne tapez ni ne dictez jamais votre mot de passe à un agent du support, utilisez un mot de passe différent pour chaque compte crypto et activez une application d'authentification pour la connexion en deux étapes. Les grandes plateformes réglementées aux États-Unis comme [Coinbase](REF) proposent ces outils, mais aucune plateforme ne peut vous protéger si vous donnez vos codes à un escroc. Méfiez-vous de tout appel qui évoque une ancienne demande au support. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Si Coinone ou MetaM indiquent combien de clients sont concernés.
+- La page de vérification promise par Coinone pour que chacun voie exactement ce qui a fuité.
+- Les conclusions des autorités sud-coréennes de protection des données et de régulation financière.
+- Les signalements d'appels ou de messages d'hameçonnage utilisant les données dérobées.
+
+!soft: Vous vous demandez si les grandes plateformes sont sûres ? Lisez [Coinbase est-elle sûre pour les débutants](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

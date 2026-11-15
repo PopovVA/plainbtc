@@ -1,0 +1,60 @@
+title: El exchange coreano Coinone dice que un hacker se llevó datos de soporte que pueden incluir contraseñas
+page_title: Filtración en Coinone expone registros de atención al cliente, incluidas algunas contraseñas
+description: El exchange surcoreano Coinone dice que un atacante entró en los servidores de MetaM, su empresa externa de atención al cliente, y pudo llevarse contraseñas, números de identidad y direcciones de billetera que los usuarios compartieron en chats de soporte.
+og_description: Un atacante entró el 12 de noviembre en el proveedor externo de soporte de Coinone y pudo llevarse hasta 11 tipos de datos personales de chats y llamadas. Coinone dice que el trading y las billeteras no se vieron afectados.
+label: Seguridad
+summary: Un atacante entró en los servidores de la empresa externa de atención al cliente de Coinone y pudo llevarse contraseñas, números de identidad y direcciones de billetera compartidos en chats de soporte. Coinone dice que el trading y las billeteras no se vieron afectados.
+===
+
+El exchange de criptomonedas surcoreano Coinone informó a sus clientes de que parte de sus datos personales se filtró después de que un atacante entrara en los servidores de MetaM, la empresa externa que gestiona su atención al cliente. El exchange reveló el incidente en un [aviso oficial](L1) publicado el domingo por la mañana, hora de Corea, y pidió disculpas a los usuarios.
+
+Los registros filtrados proceden de chats y llamadas de soporte. Según lo que cada cliente dijera en esas conversaciones, pueden incluir <strong>contraseñas</strong>, números de identidad nacional, números de cuenta bancaria, domicilios y direcciones de billeteras cripto. Coinone asegura que sus propios sistemas de cuentas, trading y billeteras no fueron vulnerados.
+
+!takeaways
+- Un atacante accedió a servidores de MetaM, la empresa externa de soporte de Coinone, hacia las 4 de la madrugada, hora de Corea, del 12 de noviembre.
+- Coinone enumera 11 tipos de datos personales que pueden haberse filtrado, entre ellos contraseñas y números de identidad nacional.
+- Los clientes que nunca contactaron con el centro de soporte de Coinone no están afectados, según el exchange.
+- Coinone dice que sus sistemas de cuentas, trading y billeteras funcionan por separado y no muestran señales de una intrusión directa.
+
+!figure:timeline
+
+## Qué ocurrió
+
+Según el aviso de Coinone, un atacante externo accedió ilegalmente a los servidores de MetaM hacia las 4 de la madrugada, hora de Corea, del jueves 12 de noviembre, y consultó o se llevó los registros de atención al cliente guardados allí. MetaM comunicó la brecha a Coinone hacia las 9:20 de la mañana del mismo día. Coinone publicó su aviso público tres días después.
+
+Al conocer la brecha, Coinone dice que bloqueó las direcciones IP usadas en el ataque y cortó el acceso entre el centro de soporte y sus sistemas. Pasó su soporte externo a atención solo por correo electrónico, reforzó la vigilancia en tiempo real de inicios de sesión y operaciones inusuales, y denunció el incidente ante la Agencia de Internet y Seguridad de Corea, la Comisión de Protección de Información Personal y el Servicio de Supervisión Financiera.
+
+MetaM confirmó indicios de que números de teléfono y chats de soporte de algunos de sus sistemas fueron consultados o extraídos sin permiso, pero dijo que no se filtraron los datos de todos los usuarios, informó [JKN](L4). Coinone no dijo cuántos clientes están afectados, señaló [Cointelegraph](L2).
+
+## Qué datos pueden haberse filtrado
+
+Coinone enumeró todos los tipos de información que podrían haber quedado expuestos: el número de teléfono usado en la llamada de soporte, nombre, correo electrónico, fecha de nacimiento, número de cuenta bancaria, contraseña, número de registro de residente, fecha de expedición del documento de identidad, domicilio, dirección de billetera cripto e identificadores de transacción (TXID). El exchange subrayó que la lista real cambia de una persona a otra, porque cada cliente compartió datos distintos.
+
+El exchange prevé enviar avisos individuales y crear una página de consulta para que cada cliente compruebe qué datos suyos quedaron expuestos, informó [The Asia Business Daily](L5).
+
+!mid_cta
+
+!figure:fact
+
+## ¿Puede alguien entrar en las cuentas?
+
+Coinone dice que una contraseña filtrada no basta por sí sola. Cada inicio de sesión exige un segundo paso, un código de un solo uso (OTP) o una confirmación por KakaoTalk en el teléfono del propio cliente, y los intentos de acceso desde fuera de la app oficial se bloquean automáticamente. Con lo que se ha encontrado hasta ahora, el exchange afirma que la información filtrada no permite por sí sola iniciar sesión ni retirar monedas.
+
+El mayor riesgo es el fraude. Los estafadores que conocen detalles de conversaciones de soporte anteriores pueden hacerse pasar por empleados de Coinone en llamadas, mensajes o correos. Coinone dice que nunca pide contraseñas, códigos OTP ni códigos de verificación, y que nunca pide a los clientes retirar cripto ni cambiar una dirección de billetera. Pidió a quienes compartieron una contraseña con el soporte que la cambien, también en cualquier otro sitio donde usen la misma, y que revisen sus direcciones de retiro guardadas.
+
+## Qué significa para principiantes
+
+Esta brecha no tocó las billeteras del exchange, pero muestra que tus datos solo están tan seguros como la empresa más débil que los maneja, incluidos los contratistas externos. Algunos hábitos ayudan en cualquier plataforma: nunca escribas ni dictes tu contraseña a un agente de soporte, usa una contraseña distinta para cada cuenta cripto y activa una app de autenticación para el inicio de sesión en dos pasos. Los grandes exchanges regulados de EE. UU. como [Coinbase](REF) ofrecen estas herramientas, pero ninguna plataforma puede protegerte si le das tus códigos a un estafador. Desconfía de cualquier llamada que mencione una antigua consulta de soporte. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Si Coinone o MetaM dicen cuántos clientes están afectados.
+- La página de consulta que Coinone ha prometido para que cada usuario vea exactamente qué se filtró.
+- Las conclusiones de los reguladores de privacidad y financieros de Corea del Sur.
+- Avisos de llamadas o mensajes de phishing que usen los datos filtrados.
+
+!soft: ¿Te preguntas qué tan seguros son los grandes exchanges? Lee [si Coinbase es seguro para principiantes](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

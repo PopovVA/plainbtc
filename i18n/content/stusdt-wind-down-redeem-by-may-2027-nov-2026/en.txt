@@ -1,0 +1,60 @@
+title: Yield token stUSDT is shutting down: holders have until May 14, 2027 to redeem for USDT
+page_title: stUSDT winds down: rewards end, redeem for USDT by May 14, 2027
+description: The stUSDT protocol on Tron and Ethereum stopped paying rewards on Nov. 14 and opened a six-month window to swap stUSDT and wstUSDT back into USDT. Its value locked once peaked near $2.3 billion.
+og_description: stUSDT, a token that paid yield from real-world assets like short-term government bonds, has stopped paying rewards. Holders can redeem for USDT through May 14, 2027. Its value locked has fallen to about $8.4 million.
+label: DeFi
+summary: The stUSDT protocol stopped paying rewards on Nov. 14 and gave holders until May 14, 2027 to redeem for USDT. Its value locked, about $2.3 billion at the 2023 peak, is now near $8.4 million.
+===
+
+stUSDT, a crypto token that paid interest from real-world assets such as short-term government bonds, is shutting down. In an [official notice](L1) published on Saturday, Nov. 14, the project said it was entering its "sunset phase" and that rewards for holders had stopped that day.
+
+Holders of stUSDT and its wrapped version, wstUSDT, can swap their tokens back into the stablecoin USDT through the official portal until <strong>May 14, 2027</strong> at 23:59 UTC (6:59 p.m. Central time). The team says "all underlying assets remain fully backed." It did not give a reason for closing.
+
+!takeaways
+- stUSDT stopped paying rewards on Nov. 14, 2026, and opened a six-month redemption window.
+- The official portal at stusdt.io closes on May 14, 2027; later requests go through customer support in monthly batches through August 2027.
+- Tokens held on an exchange or in a DeFi app must be moved to a personal wallet before redeeming.
+- The protocol's value locked peaked at about $2.3 billion in November 2023 and is now about $8.4 million, DefiLlama data shows.
+
+!figure:chart
+
+## What stUSDT was
+
+stUSDT launched on the Tron blockchain in July 2023 and later expanded to Ethereum, [Cointelegraph](L3) reported. Users deposited USDT and received stUSDT, whose balance grew automatically as the protocol earned yield from real-world assets, including short-term government bonds. This kind of product is often called an RWA token, short for real-world asset.
+
+Despite the name, stUSDT is not run by Tether, the company that issues USDT. Tether denied any link to the project in September 2023, saying it was an independent project, Cointelegraph noted.
+
+The project grew fast at first. Its total value locked, the money held in the protocol, reached about <strong>$2.30 billion</strong> on Nov. 22, 2023, according to [DefiLlama](L4). It then shrank sharply during 2024 and stayed between about $55 million and $65 million from 2025 through October 2026. DefiLlama shows about $47.5 million on Nov. 13, the day before the announcement, and about $8.4 million on Sunday afternoon, Nov. 15.
+
+## How redemption works
+
+The project's guide lays out two paths:
+
+- <strong>stUSDT:</strong> connect a wallet such as TronLink, MetaMask or OKX Wallet at stusdt.io, open the Stake page, choose Unstake and the network, enter the amount and confirm. Then click "Claim" to actually receive the USDT.
+- <strong>wstUSDT:</strong> open the Wrap page, choose Unwrap to turn it back into stUSDT, then follow the stUSDT steps.
+
+The wallet also needs a little TRX or ETH to pay network fees. Anyone holding the tokens on an exchange or in a DeFi app such as JustLend, SunSwap or Curve should withdraw them to a personal wallet first, because platforms will gradually stop supporting them.
+
+!mid_cta
+
+!figure:fact
+
+## JustLend begins its own exit
+
+[JustLend](L2), the main lending app on Tron, said it would wind down its wstUSDT market in two phases. First, new deposits and new loans in wstUSDT will be switched off, while existing positions can still be managed. Later, market settings will be changed to finish the wind down. JustLend asked users who supply or borrow wstUSDT to close their positions and keep their accounts healthy. wstUSDT deposits on JustLend totaled about $616,890 on Nov. 12, according to figures cited by [CryptoWatchDesk](L5).
+
+## What it means for beginners
+
+When a token that pays yield closes, the main risks are missing the deadline and falling for scams. The stUSDT team says it will never message you first, ask for your recovery phrase, ask you to send funds to another wallet, or ask for a payment to unlock your assets. Only use the official site and support channel listed in the notice. More broadly, "yield" tokens are not bank deposits and can change their rules or close. If you just want to hold well known coins, a large regulated U.S. exchange such as [Coinbase](REF) is a simpler place to start; read its terms and fees first. This is not investment advice.
+
+## What to watch next
+
+- Whether the stUSDT team explains why it is closing.
+- Further steps from JustLend and other apps that support stUSDT or wstUSDT.
+- How much value remains in the protocol as the May 14, 2027 deadline approaches.
+
+!soft: New to wallets? Read [what a crypto wallet is: custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

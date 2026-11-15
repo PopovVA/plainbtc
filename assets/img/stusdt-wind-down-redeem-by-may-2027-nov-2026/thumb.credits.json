@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "logo192.png",
+      "license": "Logo",
+      "url": "https://stusdt.io/logo192.png",
+      "credit": "stUSDT"
+    },
+    {
+      "file": "DefiLlama stUSDT TVL, Nov. 15, 2026",
+      "license": "Figure cited",
+      "url": "https://defillama.com/protocol/stusdt",
+      "credit": "DefiLlama"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "stusdt-wind-down-redeem-by-may-2027-nov-2026",
+  "generated": "2026-11-15T19:01Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

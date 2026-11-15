@@ -1,0 +1,60 @@
+title: Korean exchange Coinone says a hacker took support data that may include passwords
+page_title: Coinone data breach exposes customer support records, including some passwords
+description: South Korean crypto exchange Coinone says an attacker broke into the servers of MetaM, its outsourced customer support firm, and may have taken passwords, ID numbers and wallet addresses that users shared in support chats.
+og_description: An attacker broke into Coinone's outsourced support provider on Nov. 12 and may have taken up to 11 kinds of personal data from support chats and calls. Coinone says trading and wallets were not hit.
+label: Security
+summary: An attacker broke into the servers of Coinone's outsourced customer support firm and may have taken passwords, ID numbers and wallet addresses that users shared in support chats. Coinone says trading and wallets were not hit.
+===
+
+South Korean crypto exchange Coinone has told customers that some of their personal data was leaked after an attacker broke into the servers of MetaM, the outside company that runs its customer support. The exchange disclosed the incident in an [official notice](L1) posted on Sunday morning, Korea time, and apologized to users.
+
+The leaked records come from support chats and phone calls. Depending on what each customer said during those conversations, they may include <strong>passwords</strong>, national ID numbers, bank account numbers, home addresses and crypto wallet addresses. Coinone says its own account, trading and wallet systems were not broken into.
+
+!takeaways
+- An attacker accessed servers of MetaM, Coinone's outsourced support firm, at about 4 a.m. Korea time on Nov. 12.
+- Coinone lists 11 kinds of personal data that may have leaked, including passwords and national ID numbers.
+- Customers who never contacted Coinone's support center are not affected, the exchange says.
+- Coinone says its account, trading and wallet systems run separately and show no sign of a direct break-in.
+
+!figure:timeline
+
+## What happened
+
+According to Coinone's notice, an outside attacker illegally accessed MetaM's servers at about 4 a.m. Korea time on Thursday, Nov. 12, and viewed or took the customer support records stored there. MetaM reported the breach to Coinone at about 9:20 a.m. the same day. Coinone posted its public notice three days later.
+
+Once it learned of the breach, Coinone says it blocked the IP addresses used in the attack and cut off access between the support center and its systems. It switched its outsourced support to email only, stepped up real-time monitoring for unusual logins and trades, and reported the incident to the Korea Internet and Security Agency, the Personal Information Protection Commission and the Financial Supervisory Service.
+
+MetaM confirmed signs that phone numbers and support chats in some of its systems were accessed or taken without permission, but said the data of all users was not leaked, [JKN](L4) reported. Coinone did not say how many customers were affected, [Cointelegraph](L2) noted.
+
+## What data may have leaked
+
+Coinone listed every type of information that could have been exposed: the phone number used for the support call, name, email address, date of birth, bank account number, password, national resident registration number, ID card issue date, home address, crypto wallet address and transaction IDs (TXIDs). The exchange stressed that the real list differs from person to person, because each customer shared different details.
+
+The exchange plans to send separate notices and set up a lookup page so customers can check which of their own details were exposed, [The Asia Business Daily](L5) reported.
+
+!mid_cta
+
+!figure:fact
+
+## Can someone get into accounts?
+
+Coinone says a leaked password alone is not enough. Every login requires a second step, either a one-time code (OTP) or a KakaoTalk confirmation on the customer's own phone, and login attempts from outside the official app are blocked automatically. Based on what has been found so far, the exchange says the leaked information cannot by itself be used to log in or withdraw coins.
+
+The bigger risk is fraud. Scammers who know details from past support conversations can pose as Coinone staff in calls, texts or emails. Coinone says it never asks for passwords, OTP codes or verification codes, and never asks customers to withdraw crypto or change a wallet address. It asked users who shared a password with support to change it, along with the same password anywhere else, and to check their saved withdrawal addresses.
+
+## What it means for beginners
+
+This breach did not touch the exchange's wallets, but it shows that your data is only as safe as the weakest company that handles it, including outside contractors. A few habits help on any platform: never type or read out your password to a support agent, use a unique password for every crypto account, and turn on an authenticator app for two-step login. Large regulated U.S. exchanges such as [Coinbase](REF) offer these tools, but no platform can protect you if you hand a scammer your codes. Treat any call that mentions an old support ticket with suspicion. This is not investment advice.
+
+## What to watch next
+
+- Whether Coinone or MetaM says how many customers were affected.
+- The lookup page Coinone has promised so users can see exactly what leaked.
+- Findings from South Korea's privacy and financial regulators.
+- Reports of phishing calls or messages using the leaked details.
+
+!soft: Wondering how safe big exchanges are? Read [is Coinbase safe for beginners](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

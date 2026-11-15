@@ -1,0 +1,60 @@
+title: Bursa Korea Coinone sebut peretas mengambil data layanan pelanggan yang mungkin berisi kata sandi
+page_title: Kebocoran data Coinone ungkap catatan layanan pelanggan, termasuk sebagian kata sandi
+description: Bursa kripto Korea Selatan Coinone mengatakan penyerang membobol server MetaM, perusahaan alih daya layanan pelanggannya, dan mungkin mengambil kata sandi, nomor identitas, serta alamat dompet yang dibagikan pengguna dalam chat dukungan.
+og_description: Penyerang membobol penyedia layanan pelanggan alih daya Coinone pada 12 November dan mungkin mengambil hingga 11 jenis data pribadi dari chat dan panggilan. Coinone menyatakan perdagangan dan dompet tidak terdampak.
+label: Keamanan
+summary: Penyerang membobol server perusahaan alih daya layanan pelanggan Coinone dan mungkin mengambil kata sandi, nomor identitas, dan alamat dompet yang dibagikan dalam chat dukungan. Coinone menyatakan perdagangan dan dompet tidak terdampak.
+===
+
+Bursa kripto Korea Selatan Coinone memberi tahu nasabahnya bahwa sebagian data pribadi mereka bocor setelah penyerang membobol server MetaM, perusahaan luar yang menjalankan layanan pelanggannya. Bursa itu mengungkap insiden tersebut dalam [pemberitahuan resmi](L1) yang terbit pada Minggu pagi waktu Korea dan meminta maaf kepada pengguna.
+
+Catatan yang bocor berasal dari chat dan panggilan telepon ke layanan pelanggan. Tergantung apa yang disampaikan tiap nasabah dalam percakapan itu, data tersebut bisa mencakup <strong>kata sandi</strong>, nomor identitas nasional, nomor rekening bank, alamat rumah, dan alamat dompet kripto. Coinone menyatakan sistem akun, perdagangan, dan dompetnya sendiri tidak dibobol.
+
+!takeaways
+- Penyerang mengakses server MetaM, perusahaan alih daya layanan pelanggan Coinone, sekitar pukul 04.00 waktu Korea pada 12 November.
+- Coinone mencantumkan 11 jenis data pribadi yang mungkin bocor, termasuk kata sandi dan nomor identitas nasional.
+- Nasabah yang tidak pernah menghubungi pusat layanan Coinone tidak terdampak, menurut bursa itu.
+- Coinone menyatakan sistem akun, perdagangan, dan dompetnya berjalan terpisah dan tidak menunjukkan tanda pembobolan langsung.
+
+!figure:timeline
+
+## Apa yang terjadi
+
+Menurut pemberitahuan Coinone, penyerang dari luar secara ilegal mengakses server MetaM sekitar pukul 04.00 waktu Korea pada Kamis, 12 November, lalu melihat atau mengambil catatan layanan pelanggan yang tersimpan di sana. MetaM melaporkan kebocoran itu ke Coinone sekitar pukul 09.20 di hari yang sama. Coinone menerbitkan pemberitahuan publiknya tiga hari kemudian.
+
+Setelah mengetahui kebocoran itu, Coinone mengatakan telah memblokir alamat IP yang dipakai dalam serangan dan memutus akses antara pusat layanan dan sistemnya. Layanan alih daya dialihkan ke email saja, pemantauan real-time atas login dan transaksi tidak wajar diperketat, dan insiden dilaporkan ke Badan Internet dan Keamanan Korea, Komisi Perlindungan Informasi Pribadi, serta Layanan Pengawas Keuangan.
+
+MetaM mengonfirmasi ada tanda bahwa nomor telepon dan chat dukungan di sebagian sistemnya diakses atau diambil tanpa izin, tetapi menyatakan data seluruh pengguna tidak bocor, lapor [JKN](L4). Coinone tidak menyebut berapa nasabah yang terdampak, catat [Cointelegraph](L2).
+
+## Data apa yang mungkin bocor
+
+Coinone mencantumkan semua jenis informasi yang mungkin terungkap: nomor telepon yang dipakai untuk panggilan dukungan, nama, alamat email, tanggal lahir, nomor rekening bank, kata sandi, nomor registrasi penduduk, tanggal terbit kartu identitas, alamat rumah, alamat dompet kripto, dan ID transaksi (TXID). Bursa itu menekankan bahwa daftar sebenarnya berbeda untuk tiap orang, karena setiap nasabah membagikan data yang berbeda.
+
+Bursa itu berencana mengirim pemberitahuan terpisah dan menyiapkan halaman pengecekan agar nasabah bisa melihat data mana miliknya yang terungkap, lapor [The Asia Business Daily](L5).
+
+!mid_cta
+
+!figure:fact
+
+## Bisakah orang lain masuk ke akun?
+
+Coinone mengatakan kata sandi yang bocor saja tidak cukup. Setiap login memerlukan langkah kedua, yaitu kode sekali pakai (OTP) atau konfirmasi KakaoTalk di ponsel milik nasabah, dan upaya login dari luar aplikasi resmi diblokir otomatis. Berdasarkan temuan sejauh ini, bursa itu menyatakan informasi yang bocor tidak bisa dipakai dengan sendirinya untuk masuk ke akun atau menarik koin.
+
+Risiko yang lebih besar adalah penipuan. Penipu yang tahu detail percakapan dukungan sebelumnya bisa menyamar sebagai staf Coinone lewat telepon, SMS, atau email. Coinone menegaskan tidak pernah meminta kata sandi, kode OTP, atau kode verifikasi, dan tidak pernah meminta nasabah menarik kripto atau mengganti alamat dompet. Bursa itu meminta pengguna yang pernah memberikan kata sandi kepada layanan pelanggan untuk menggantinya, juga di situs lain yang memakai kata sandi sama, serta memeriksa alamat penarikan yang tersimpan.
+
+## Artinya bagi pemula
+
+Kebocoran ini tidak menyentuh dompet bursa, tetapi menunjukkan bahwa data Anda hanya seaman perusahaan terlemah yang mengelolanya, termasuk kontraktor luar. Beberapa kebiasaan membantu di platform mana pun: jangan pernah mengetik atau menyebutkan kata sandi kepada petugas layanan pelanggan, gunakan kata sandi berbeda untuk setiap akun kripto, dan aktifkan aplikasi autentikator untuk login dua langkah. Bursa besar teregulasi di AS seperti [Coinbase](REF) menyediakan alat ini, tetapi tidak ada platform yang bisa melindungi Anda jika Anda menyerahkan kode kepada penipu. Curigai setiap panggilan yang menyebut tiket dukungan lama. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Apakah Coinone atau MetaM akan menyebut jumlah nasabah yang terdampak.
+- Halaman pengecekan yang dijanjikan Coinone agar pengguna bisa melihat persis apa yang bocor.
+- Temuan regulator privasi dan keuangan Korea Selatan.
+- Laporan panggilan atau pesan phishing yang memakai data yang bocor.
+
+!soft: Penasaran seberapa aman bursa besar? Baca [apakah Coinbase aman untuk pemula](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

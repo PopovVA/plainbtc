@@ -1,0 +1,60 @@
+title: Getiri token'ı stUSDT kapanıyor: sahiplerin USDT'ye çevirmek için 14 Mayıs 2027'ye kadar süresi var
+page_title: stUSDT kapanıyor: ödüller sona erdi, 14 Mayıs 2027'ye kadar USDT'ye itfa
+description: Tron ve Ethereum üzerindeki stUSDT protokolü 14 Kasım'da ödül ödemeyi durdurdu ve stUSDT ile wstUSDT'yi yeniden USDT'ye çevirmek için altı aylık bir süre açtı. Kilitli değeri bir zamanlar 2,3 milyar $'a yaklaşmıştı.
+og_description: Kısa vadeli devlet tahvilleri gibi gerçek dünya varlıklarından getiri ödeyen stUSDT artık ödül ödemiyor. Sahipler 14 Mayıs 2027'ye kadar USDT'ye itfa edebilir. Kilitli değer yaklaşık 8,4 milyon $'a düştü.
+label: DeFi
+summary: stUSDT protokolü 14 Kasım'da ödül ödemeyi durdurdu ve sahiplerine USDT'ye itfa için 14 Mayıs 2027'ye kadar süre verdi. 2023 zirvesinde yaklaşık 2,3 milyar $ olan kilitli değer şimdi 8,4 milyon $ civarında.
+===
+
+Kısa vadeli devlet tahvilleri gibi gerçek dünya varlıklarından faiz ödeyen kripto token stUSDT kapanıyor. Proje, 14 Kasım cumartesi günü yayımladığı [resmi duyuruda](L1) "kapanış aşamasına" girdiğini ve sahiplerine yapılan ödül ödemelerinin o gün sona erdiğini açıkladı.
+
+stUSDT ve onun sarılmış (wrapped) sürümü wstUSDT sahipleri, token'larını resmi portal üzerinden <strong>14 Mayıs 2027</strong> saat 23.59 UTC'ye (ABD merkez saatiyle 18.59) kadar yeniden USDT stablecoin'ine çevirebilir. Ekip, "tüm dayanak varlıkların tamamen teminatlı olmaya devam ettiğini" söylüyor. Kapanmanın nedenini açıklamadı.
+
+!takeaways
+- stUSDT, 14 Kasım 2026'da ödül ödemeyi durdurdu ve altı aylık bir itfa süresi açtı.
+- Resmi portal stusdt.io 14 Mayıs 2027'de kapanıyor; sonraki talepler Ağustos 2027'ye kadar müşteri desteği üzerinden aylık gruplar halinde işlenecek.
+- Bir borsada ya da DeFi uygulamasında tutulan token'ların itfadan önce kişisel bir cüzdana taşınması gerekiyor.
+- DefiLlama verilerine göre protokolün kilitli değeri Kasım 2023'te yaklaşık 2,3 milyar $ ile zirve yaptı ve şimdi yaklaşık 8,4 milyon $.
+
+!figure:chart
+
+## stUSDT neydi
+
+[Cointelegraph](L3)'in haberine göre stUSDT, Temmuz 2023'te Tron blokzincirinde başladı ve daha sonra Ethereum'a genişledi. Kullanıcılar USDT yatırıp stUSDT alıyordu; protokol kısa vadeli devlet tahvilleri dahil gerçek dünya varlıklarından getiri elde ettikçe stUSDT bakiyesi otomatik olarak artıyordu. Bu tür ürünlere genellikle İngilizce real-world asset (gerçek dünya varlığı) ifadesinden RWA token denir.
+
+Adına rağmen stUSDT, USDT'yi çıkaran Tether tarafından yönetilmiyor. Cointelegraph'ın belirttiğine göre Tether, Eylül 2023'te projeyle herhangi bir bağlantısı olmadığını, bunun bağımsız bir proje olduğunu açıklamıştı.
+
+Proje başta hızla büyüdü. [DefiLlama](L4)'ya göre protokolde tutulan para anlamına gelen kilitli toplam değer 22 Kasım 2023'te yaklaşık <strong>2,30 milyar $</strong> seviyesine ulaştı. Ardından 2024 boyunca sert biçimde küçüldü ve 2025'ten Ekim 2026'ya kadar yaklaşık 55 milyon $ ile 65 milyon $ arasında kaldı. DefiLlama, duyurudan bir gün önce, 13 Kasım'da yaklaşık 47,5 milyon $, 15 Kasım pazar öğleden sonra ise yaklaşık 8,4 milyon $ gösteriyor.
+
+## İtfa nasıl yapılıyor
+
+Projenin rehberi iki yol tarif ediyor:
+
+- <strong>stUSDT:</strong> stusdt.io'da TronLink, MetaMask ya da OKX Wallet gibi bir cüzdan bağlayın, Stake sayfasını açın, Unstake ve ağı seçin, miktarı girip onaylayın. Ardından USDT'yi gerçekten almak için "Claim"e tıklayın.
+- <strong>wstUSDT:</strong> Wrap sayfasını açın, yeniden stUSDT'ye çevirmek için Unwrap'i seçin, sonra stUSDT adımlarını izleyin.
+
+Cüzdanda ağ ücretleri için bir miktar TRX ya da ETH de bulunmalı. Token'larını bir borsada ya da JustLend, SunSwap veya Curve gibi bir DeFi uygulamasında tutanlar, platformlar desteği yavaş yavaş keseceği için önce bunları kişisel bir cüzdana çekmeli.
+
+!mid_cta
+
+!figure:fact
+
+## JustLend kendi çıkışını başlatıyor
+
+Tron'daki ana borç verme uygulaması [JustLend](L2), wstUSDT piyasasını iki aşamada kapatacağını açıkladı. Önce wstUSDT'de yeni yatırma ve yeni borç alma işlemleri kapatılacak, mevcut pozisyonlar ise yönetilmeye devam edebilecek. Daha sonra kapanışı tamamlamak için piyasa ayarları değiştirilecek. JustLend, wstUSDT yatıran ya da borç alan kullanıcılardan pozisyonlarını kapatmalarını ve hesaplarını sağlıklı tutmalarını istedi. [CryptoWatchDesk](L5)'in aktardığı rakamlara göre JustLend'deki wstUSDT mevduatı 12 Kasım'da yaklaşık 616.890 $ idi.
+
+## Yeni başlayanlar için anlamı
+
+Getiri ödeyen bir token kapandığında asıl riskler son tarihi kaçırmak ve dolandırıcılığa kanmaktır. stUSDT ekibi size asla ilk mesajı atmayacağını, kurtarma ifadenizi istemeyeceğini, başka bir cüzdana para göndermenizi ya da varlıklarınızın kilidini açmak için ödeme yapmanızı istemeyeceğini söylüyor. Yalnızca duyuruda belirtilen resmi siteyi ve destek kanalını kullanın. Daha genel olarak "getiri" token'ları banka mevduatı değildir; kuralları değişebilir ya da kapanabilirler. Sadece bilinen coin'leri tutmak istiyorsanız [Coinbase](REF) gibi ABD'nin büyük düzenlenmiş bir borsası daha basit bir başlangıç noktasıdır; önce koşullarını ve ücretlerini okuyun. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- stUSDT ekibinin neden kapandığını açıklayıp açıklamayacağı.
+- JustLend'in ve stUSDT ya da wstUSDT'yi destekleyen diğer uygulamaların atacağı sonraki adımlar.
+- 14 Mayıs 2027 son tarihi yaklaşırken protokolde ne kadar değer kalacağı.
+
+!soft: Cüzdanlarda yeni misiniz? [Kripto cüzdan nedir: emanetçi ve kendi saklama](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

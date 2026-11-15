@@ -32,6 +32,16 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "coinone-data-breach-support-contractor-passwords-nov-2026",
+        "Korean exchange Coinone says a hacker took support data that may include passwords",
+        "SECURITY",
+    ),
+    (
+        "stusdt-wind-down-redeem-by-may-2027-nov-2026",
+        "Yield token stUSDT is shutting down: holders have until May 14, 2027 to redeem for USDT",
+        "DEFI",
+    ),
+    (
         "bitcoin-four-month-low-62000-liquidations-nov-2026",
         "Bitcoin sinks to about $62,000, a four-month low, as $2 billion in crypto bets are wiped out",
         "MARKET NEWS",
@@ -210,6 +220,15 @@ ARTICLES = [
 # used for identification only). Each entry: (image URL, tile background RGB).
 WIKI = "https://upload.wikimedia.org/wikipedia/commons/"
 OG_LOGOS: dict[str, list[tuple[str, tuple[int, int, int]]]] = {
+    # Coinone logo cropped from Coinone's own official share image (image-public.coinone.co.kr), identification only.
+    "coinone-data-breach-support-contractor-passwords-nov-2026": [
+        ("https://image-public.coinone.co.kr/og/og_talk.png#crop=261,233,917,380", (0, 68, 210)),
+    ],
+    # stUSDT logo from the project's official site (stusdt.io) and TRON logo (cryptologos.cc), identification only.
+    "stusdt-wind-down-redeem-by-may-2027-nov-2026": [
+        ("https://stusdt.io/logo192.png", (255, 255, 255)),
+        ("https://cryptologos.cc/logos/tron-trx-logo.svg", (255, 255, 255)),
+    ],
     # Bitcoin logo (public domain, Wikimedia Commons) and Ethereum logo (CC BY 3.0, Wikimedia Commons),
     # identification only: both hit their lowest prices since July in the same hour.
     "bitcoin-four-month-low-62000-liquidations-nov-2026": [
@@ -279,6 +298,10 @@ def fetch_logo(url: str) -> Image.Image:
     import hashlib
     import urllib.request
 
+    crop = None
+    if "#crop=" in url:  # optional "#crop=x0,y0,x1,y1" to cut a logo out of a larger official image
+        url, c = url.split("#crop=", 1)
+        crop = tuple(int(v) for v in c.split(","))
     LOGO_CACHE.mkdir(parents=True, exist_ok=True)
     dest = LOGO_CACHE / (hashlib.sha1(url.encode()).hexdigest()[:16] + ".png")
     if not dest.exists():
@@ -291,7 +314,8 @@ def fetch_logo(url: str) -> Image.Image:
             cairosvg.svg2png(bytestring=data, write_to=str(dest), output_width=900)
         else:
             dest.write_bytes(data)
-    return Image.open(dest).convert("RGBA")
+    im = Image.open(dest).convert("RGBA")
+    return im.crop(crop) if crop else im
 
 
 def draw_logo_tiles(base: Image.Image, logos) -> Image.Image:

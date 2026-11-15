@@ -1,0 +1,60 @@
+title: Koreanische Börse Coinone: Hacker erbeutet Support-Daten, die auch Passwörter enthalten können
+page_title: Datenleck bei Coinone: Kundensupport-Daten offengelegt, darunter einige Passwörter
+description: Die südkoreanische Kryptobörse Coinone meldet, dass ein Angreifer in die Server von MetaM eingedrungen ist, ihrem externen Kundendienst, und Passwörter, Ausweisnummern und Wallet-Adressen erbeutet haben könnte, die Nutzer in Support-Chats angegeben hatten.
+og_description: Ein Angreifer drang am 12. November beim externen Support-Dienstleister von Coinone ein und könnte bis zu 11 Arten persönlicher Daten aus Chats und Anrufen erbeutet haben. Handel und Wallets waren laut Coinone nicht betroffen.
+label: Sicherheit
+summary: Ein Angreifer drang in die Server des externen Kundendienstes von Coinone ein und könnte Passwörter, Ausweisnummern und Wallet-Adressen aus Support-Chats erbeutet haben. Handel und Wallets waren laut Coinone nicht betroffen.
+===
+
+Die südkoreanische Kryptobörse Coinone hat ihre Kunden darüber informiert, dass ein Teil ihrer persönlichen Daten abgeflossen ist. Ein Angreifer war in die Server von MetaM eingedrungen, des externen Unternehmens, das den Kundensupport der Börse betreibt. Coinone machte den Vorfall in einer [offiziellen Mitteilung](L1) am Sonntagmorgen koreanischer Zeit öffentlich und entschuldigte sich bei den Nutzern.
+
+Die abgeflossenen Datensätze stammen aus Support-Chats und Telefonaten. Je nachdem, was die einzelnen Kunden dort angegeben haben, können sie <strong>Passwörter</strong>, nationale Ausweisnummern, Kontonummern, Wohnadressen und Krypto-Wallet-Adressen enthalten. Coinone erklärt, die eigenen Konto-, Handels- und Wallet-Systeme seien nicht kompromittiert worden.
+
+!takeaways
+- Ein Angreifer griff am 12. November gegen 4 Uhr koreanischer Zeit auf Server von MetaM zu, dem externen Support-Dienstleister von Coinone.
+- Coinone nennt 11 Arten persönlicher Daten, die abgeflossen sein könnten, darunter Passwörter und nationale Ausweisnummern.
+- Kunden, die nie den Support von Coinone kontaktiert haben, sind laut der Börse nicht betroffen.
+- Coinone erklärt, die Konto-, Handels- und Wallet-Systeme liefen getrennt und zeigten keine Spuren eines direkten Einbruchs.
+
+!figure:timeline
+
+## Was passiert ist
+
+Laut der Mitteilung von Coinone griff ein externer Angreifer am Donnerstag, 12. November, gegen 4 Uhr koreanischer Zeit unbefugt auf die Server von MetaM zu und sah die dort gespeicherten Support-Datensätze ein oder kopierte sie. MetaM meldete den Vorfall Coinone gegen 9:20 Uhr am selben Tag. Coinone veröffentlichte die Mitteilung drei Tage später.
+
+Nach Bekanntwerden sperrte Coinone nach eigenen Angaben die beim Angriff genutzten IP-Adressen und trennte den Zugang zwischen Support-Center und eigenen Systemen. Der ausgelagerte Support läuft nun nur noch per E-Mail, die Echtzeitüberwachung ungewöhnlicher Anmeldungen und Transaktionen wurde verstärkt, und der Vorfall wurde der Korea Internet and Security Agency, der Kommission für den Schutz persönlicher Daten und der Finanzaufsicht FSS gemeldet.
+
+MetaM bestätigte Hinweise, dass Telefonnummern und Support-Chats in einigen seiner Systeme ohne Erlaubnis eingesehen oder abgezogen wurden, betonte aber, dass nicht die Daten aller Nutzer betroffen seien, berichtete [JKN](L4). Wie viele Kunden betroffen sind, sagte Coinone nicht, wie [Cointelegraph](L2) anmerkte.
+
+## Welche Daten betroffen sein könnten
+
+Coinone listete alle Arten von Informationen auf, die offengelegt worden sein könnten: die beim Support-Anruf genutzte Telefonnummer, Name, E-Mail-Adresse, Geburtsdatum, Kontonummer, Passwort, nationale Einwohner-Registriernummer, Ausstellungsdatum des Ausweises, Wohnadresse, Krypto-Wallet-Adresse und Transaktions-IDs (TXIDs). Die tatsächliche Liste sei von Person zu Person verschieden, betonte die Börse, weil jeder Kunde andere Angaben gemacht habe.
+
+Die Börse will gesonderte Benachrichtigungen verschicken und eine Abfrageseite einrichten, auf der Kunden prüfen können, welche ihrer Daten offengelegt wurden, berichtete [The Asia Business Daily](L5).
+
+!mid_cta
+
+!figure:fact
+
+## Kann jemand auf Konten zugreifen?
+
+Coinone zufolge reicht ein abgeflossenes Passwort allein nicht aus. Jede Anmeldung verlangt einen zweiten Schritt, entweder einen Einmalcode (OTP) oder eine Bestätigung per KakaoTalk auf dem Telefon des Kunden, und Anmeldeversuche außerhalb der offiziellen App werden automatisch blockiert. Nach bisherigem Stand könnten die abgeflossenen Informationen allein nicht für eine Anmeldung oder Auszahlung genutzt werden, so die Börse.
+
+Das größere Risiko ist Betrug. Betrüger, die Details aus früheren Support-Gesprächen kennen, können sich am Telefon, per SMS oder E-Mail als Coinone-Mitarbeiter ausgeben. Coinone betont, niemals nach Passwörtern, OTP-Codes oder Bestätigungscodes zu fragen und Kunden nie zu Krypto-Auszahlungen oder zur Änderung einer Wallet-Adresse aufzufordern. Wer dem Support ein Passwort genannt hat, soll es ändern, auch überall dort, wo dasselbe Passwort verwendet wird, und die gespeicherten Auszahlungsadressen prüfen.
+
+## Was das für Einsteiger bedeutet
+
+Die Wallets der Börse waren nicht betroffen, doch der Fall zeigt: Ihre Daten sind nur so sicher wie das schwächste Unternehmen, das mit ihnen arbeitet, Dienstleister eingeschlossen. Ein paar Gewohnheiten helfen auf jeder Plattform: Nennen oder tippen Sie Ihr Passwort nie einem Support-Mitarbeiter, nutzen Sie für jedes Krypto-Konto ein eigenes Passwort und aktivieren Sie eine Authenticator-App für die Zwei-Faktor-Anmeldung. Große regulierte US-Börsen wie [Coinbase](REF) bieten diese Werkzeuge, aber keine Plattform kann Sie schützen, wenn Sie Ihre Codes an Betrüger weitergeben. Seien Sie misstrauisch bei Anrufen, die sich auf eine alte Support-Anfrage berufen. Dies ist keine Anlageberatung.
+
+## Worauf jetzt zu achten ist
+
+- Ob Coinone oder MetaM die Zahl der betroffenen Kunden nennen.
+- Die von Coinone angekündigte Abfrageseite, auf der Nutzer sehen, was genau abgeflossen ist.
+- Die Ergebnisse der südkoreanischen Datenschutz- und Finanzaufsicht.
+- Berichte über Phishing-Anrufe oder Nachrichten mit den abgeflossenen Daten.
+
+!soft: Wie sicher sind große Börsen? Lesen Sie [ist Coinbase sicher für Einsteiger](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

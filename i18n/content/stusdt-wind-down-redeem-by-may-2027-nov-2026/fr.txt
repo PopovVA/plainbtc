@@ -1,0 +1,60 @@
+title: Le jeton de rendement stUSDT ferme : les détenteurs ont jusqu'au 14 mai 2027 pour le convertir en USDT
+page_title: stUSDT ferme : fin des récompenses, conversion en USDT jusqu'au 14 mai 2027
+description: Le protocole stUSDT, sur Tron et Ethereum, a cessé de verser des récompenses le 14 novembre et ouvert une fenêtre de six mois pour reconvertir stUSDT et wstUSDT en USDT. Sa valeur verrouillée a culminé près de 2,3 milliards de dollars.
+og_description: stUSDT, un jeton qui versait un rendement issu d'actifs réels comme des obligations d'État à court terme, ne verse plus de récompenses. Les détenteurs peuvent le convertir en USDT jusqu'au 14 mai 2027. Sa valeur verrouillée est tombée à environ 8,4 millions de dollars.
+label: DeFi
+summary: Le protocole stUSDT a cessé de verser des récompenses le 14 novembre et laisse aux détenteurs jusqu'au 14 mai 2027 pour le convertir en USDT. Sa valeur verrouillée, environ 2,3 milliards de dollars au pic de 2023, avoisine désormais 8,4 millions.
+===
+
+stUSDT, un jeton crypto qui versait des intérêts issus d'actifs réels comme des obligations d'État à court terme, va fermer. Dans un [avis officiel](L1) publié le samedi 14 novembre, le projet a annoncé entrer dans sa « phase d'extinction » et indiqué que les récompenses des détenteurs s'étaient arrêtées ce jour-là.
+
+Les détenteurs de stUSDT et de sa version enveloppée, wstUSDT, peuvent reconvertir leurs jetons en stablecoin USDT sur le portail officiel jusqu'au <strong>14 mai 2027</strong> à 23 h 59 UTC (18 h 59, heure du Centre des États-Unis). L'équipe affirme que « tous les actifs sous-jacents restent entièrement adossés ». Elle n'a pas expliqué pourquoi elle ferme.
+
+!takeaways
+- stUSDT a cessé de verser des récompenses le 14 novembre 2026 et ouvert une fenêtre de remboursement de six mois.
+- Le portail officiel stusdt.io ferme le 14 mai 2027 ; les demandes ultérieures passent par le support, traitées par lots mensuels jusqu'en août 2027.
+- Les jetons détenus sur une plateforme d'échange ou dans une application DeFi doivent être transférés vers un portefeuille personnel avant le remboursement.
+- La valeur verrouillée du protocole a culminé à environ 2,3 milliards de dollars en novembre 2023 et s'élève aujourd'hui à environ 8,4 millions, selon les données de DefiLlama.
+
+!figure:chart
+
+## Ce qu'était stUSDT
+
+stUSDT a été lancé sur la blockchain Tron en juillet 2023, puis étendu à Ethereum, rapporte [Cointelegraph](L3). Les utilisateurs déposaient des USDT et recevaient des stUSDT, dont le solde augmentait automatiquement à mesure que le protocole tirait un rendement d'actifs réels, notamment des obligations d'État à court terme. Ce type de produit est souvent appelé jeton RWA, de l'anglais real-world asset (actif réel).
+
+Malgré son nom, stUSDT n'est pas géré par Tether, la société qui émet l'USDT. Tether a démenti tout lien avec le projet en septembre 2023, le qualifiant de projet indépendant, précise Cointelegraph.
+
+Le projet a d'abord grandi très vite. Sa valeur totale verrouillée, l'argent déposé dans le protocole, a atteint environ <strong>2,30 milliards de dollars</strong> le 22 novembre 2023, selon [DefiLlama](L4). Elle a ensuite fortement reculé en 2024, puis est restée entre environ 55 et 65 millions de dollars de 2025 à octobre 2026. DefiLlama indique environ 47,5 millions de dollars le 13 novembre, veille de l'annonce, et environ 8,4 millions le dimanche 15 novembre après-midi.
+
+## Comment se passe le remboursement
+
+Le guide du projet décrit deux parcours :
+
+- <strong>stUSDT :</strong> connectez un portefeuille comme TronLink, MetaMask ou OKX Wallet sur stusdt.io, ouvrez la page Stake, choisissez Unstake et le réseau, saisissez le montant et confirmez. Cliquez ensuite sur « Claim » pour recevoir réellement les USDT.
+- <strong>wstUSDT :</strong> ouvrez la page Wrap, choisissez Unwrap pour le reconvertir en stUSDT, puis suivez les étapes prévues pour stUSDT.
+
+Le portefeuille doit aussi contenir un peu de TRX ou d'ETH pour payer les frais de réseau. Les détenteurs qui ont leurs jetons sur une plateforme d'échange ou dans une application DeFi comme JustLend, SunSwap ou Curve doivent d'abord les retirer vers un portefeuille personnel, car les plateformes vont progressivement cesser de les prendre en charge.
+
+!mid_cta
+
+!figure:fact
+
+## JustLend organise sa propre sortie
+
+[JustLend](L2), la principale application de prêt sur Tron, a annoncé qu'elle fermerait son marché wstUSDT en deux phases. D'abord, les nouveaux dépôts et les nouveaux emprunts en wstUSDT seront désactivés, tandis que les positions existantes resteront gérables. Ensuite, les paramètres du marché seront modifiés pour achever la fermeture. JustLend invite les utilisateurs qui prêtent ou empruntent des wstUSDT à clôturer leurs positions et à garder des comptes sains. Les dépôts de wstUSDT sur JustLend s'élevaient à environ 616 890 dollars le 12 novembre, selon des chiffres cités par [CryptoWatchDesk](L5).
+
+## Ce que cela signifie pour les débutants
+
+Quand un jeton de rendement ferme, les principaux risques sont de rater la date limite et de tomber dans une arnaque. L'équipe de stUSDT assure qu'elle ne vous contactera jamais la première, ne vous demandera jamais votre phrase de récupération, ne vous demandera pas d'envoyer des fonds vers un autre portefeuille ni de payer pour débloquer vos actifs. N'utilisez que le site officiel et le canal de support indiqués dans l'avis. Plus largement, les jetons « à rendement » ne sont pas des dépôts bancaires et peuvent changer leurs règles ou fermer. Si vous voulez simplement détenir des cryptos connues, une grande plateforme réglementée aux États-Unis comme [Coinbase](REF) est un point de départ plus simple ; lisez d'abord ses conditions et ses frais. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Si l'équipe de stUSDT explique pourquoi elle ferme.
+- Les prochaines étapes de JustLend et des autres applications qui prennent en charge stUSDT ou wstUSDT.
+- La valeur qui restera dans le protocole à l'approche de la date limite du 14 mai 2027.
+
+!soft: Vous débutez avec les portefeuilles ? Lisez [ce qu'est un portefeuille crypto : dépositaire ou auto-conservation](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure
