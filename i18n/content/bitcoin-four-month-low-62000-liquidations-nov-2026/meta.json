@@ -6,7 +6,7 @@
  "related": [
   "bitcoin-falls-below-64000-three-month-low-nov-2026",
   "bitcoin-volatility-liquidations-nov-2026",
-  "how-much-bitcoin-should-a-beginner-buy-dca"
+  "how-much-bitcoin-should-a-beginner-buy-dca", "bitcoin-etf-vs-buying-bitcoin", "how-to-cash-out-bitcoin-coinbase-to-bank"
  ],
  "sources": [
   {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: BTC, ETH and SOL hourly and daily OHLC data (public API)", "date": "Nov 15, 2026"},
