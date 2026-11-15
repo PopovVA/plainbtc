@@ -1,6 +1,6 @@
 title: Bitcoin ETF vs buying bitcoin: which makes sense for a U.S. beginner?
 page_title: Bitcoin ETF vs buying bitcoin
-description: Spot bitcoin ETF vs buying bitcoin on Coinbase: custody, fees, IRA access, taxes, and when each path fits a U.S. beginner — without hype.
+description: Spot bitcoin ETF vs buying bitcoin on Coinbase: custody, fees, IRA access, taxes, and when each path fits a U.S. beginner, without hype.
 og_description: A clear comparison of spot bitcoin ETFs and owning bitcoin directly: control, costs, retirement accounts, and taxes.
 label: Beginner guide
 summary: Spot bitcoin ETFs give price exposure inside a brokerage account. Buying bitcoin gives you the asset itself. Here is how U.S. beginners can compare custody, fees, IRAs, and taxes.
@@ -28,7 +28,7 @@ You cannot send ETF shares on the bitcoin network, spend them as bitcoin, or mov
 
 When you buy bitcoin on Coinbase, you purchase the asset itself. At first it usually sits in Coinbase’s custodial wallet (Coinbase holds the keys). You can leave it there or withdraw it to a self-custody wallet you control. That second step is covered in our [wallet guide](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
 
-Direct ownership is what people mean by “holding bitcoin.” It also means you take on exchange account risk, withdrawal network fees, and — if you self-custody — seed-phrase responsibility.
+Direct ownership is what people mean by “holding bitcoin.” It also means you take on exchange account risk, withdrawal network fees, and, if you self-custody, seed-phrase responsibility.
 
 ## Side-by-side comparison
 
@@ -64,7 +64,7 @@ Practical differences beginners feel:
 
 - <strong>Retirement accounts.</strong> Spot bitcoin ETFs are widely available inside IRAs and some 401(k) menus. Buying actual bitcoin inside a retirement wrapper usually needs a specialized custodian and is more complex.
 - <strong>Taxable accounts.</strong> ETF sales typically show up on familiar brokerage forms. Direct bitcoin sales increasingly involve Form 1099-DA from custodial brokers for transactions on or after January 1, 2025, with basis reporting phasing in later for some lots. Keep your own purchase records either way.
-- <strong>Same market risk.</strong> Preferential long-term capital-gains rates can apply to both after a more-than-one-year holding period when they are capital assets — the ETF is not automatically “more tax-efficient” just because it is an ETF.
+- <strong>Same market risk.</strong> Preferential long-term capital-gains rates can apply to both after a more-than-one-year holding period when they are capital assets, the ETF is not automatically “more tax-efficient” just because it is an ETF.
 
 This is not tax advice. Confirm with a professional and the IRS pages linked above.
 
@@ -82,7 +82,7 @@ This is not tax advice. Confirm with a professional and the IRS pages linked abo
 - Care about holding the asset itself, not a fund share.
 - Are comfortable learning exchange fees, security settings, and (later) wallet backups.
 
-<strong>Many beginners do both over time:</strong> a small ETF position inside an IRA, and a small Coinbase purchase they use to learn how bitcoin moves — then read our safety checklist in [Is Coinbase safe for beginners?](/articles/is-coinbase-safe-for-beginners).
+<strong>Many beginners do both over time:</strong> a small ETF position inside an IRA, and a small Coinbase purchase they use to learn how bitcoin moves, then read our safety checklist in [Is Coinbase safe for beginners?](/articles/is-coinbase-safe-for-beginners).
 
 ## Risks that apply to both
 
