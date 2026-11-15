@@ -1,6 +1,6 @@
 h1: Bağlı kuruluş ve yönlendirme bildirimi
-page_title: Bağlı kuruluş bildirimi — PlainBTC
-og_title: Bağlı kuruluş bildirimi — PlainBTC
+page_title: Bağlı kuruluş bildirimi | PlainBTC
+og_title: Bağlı kuruluş bildirimi | PlainBTC
 description: PlainBTC’nin ABD Federal Ticaret Komisyonu (FTC) kurallarına uygun bağlı kuruluş bildirimi: yönlendirme bağlantıları ve yatırım tavsiyesi olmadığı.
 og_description: PlainBTC’nin yönlendirme bağlantılarını nasıl kullandığı ve bunun sizin için ne anlama geldiği.
 ===
