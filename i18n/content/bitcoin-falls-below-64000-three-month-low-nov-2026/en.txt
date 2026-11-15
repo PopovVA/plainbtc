@@ -1,0 +1,60 @@
+title: Bitcoin falls below $64,000 to a three-month low as fear hits extreme levels
+page_title: Bitcoin falls below $64,000, lowest price since August
+description: Bitcoin dropped to about $63,243 on Kraken on Saturday, its lowest price since Aug. 17, and is down about 15% in a week as rate hike bets and ETF outflows weigh on crypto.
+og_description: Bitcoin slid below $64,000 on Saturday evening, its lowest level in three months. It is down about 15% in seven days, ether about 21%, and a key sentiment gauge fell to 10 out of 100.
+label: Market news
+summary: Bitcoin hit about $63,243 on Saturday, its lowest price since mid-August, as the crypto Fear and Greed Index dropped to 10.
+===
+
+Bitcoin's slide picked up speed on Saturday evening. The largest cryptocurrency fell to <strong>$63,242.60</strong> on Kraken in the 4 p.m. hour Central time, its lowest price since Aug. 17, before bouncing to about $64,100 by 6 p.m. Earlier in the day it had held around $65,500.
+
+That leaves bitcoin down about 6% in 24 hours and about 15.4% over seven days, PlainBTC's calculation from Kraken's public price data shows. Since Monday's open of about $74,742, it has lost roughly 14%. Saturday's drop came with no single news trigger, in thin weekend trading while U.S. stock markets and ETFs were closed.
+
+!takeaways
+- Bitcoin touched about $63,243 on Kraken on Saturday, its lowest price since Aug. 17, 2026.
+- It is down about 15% in seven days. Ether, XRP and solana are each down about 21% to 22%.
+- The Crypto Fear and Greed Index fell to 10 out of 100, deep in "extreme fear."
+- U.S. spot bitcoin ETFs have lost about $2.35 billion to withdrawals over the past two weeks.
+
+!figure:chart
+
+## Altcoins fall even harder
+
+The rest of the market fell faster than bitcoin again. On Kraken, ether hit about $1,729, solana about $68.53 and XRP about $0.891, all in the same late afternoon hour. Over seven days, ether was down about 21%, XRP about 21% and solana about 22% by 6 p.m. Central time.
+
+According to [CoinDesk](L1), bitcoin has now fallen about 7% since U.S. stocks closed on Friday evening. A separate CoinGecko reading cited by [CryptoTicker](L2) put the value of the whole crypto market at about $2.16 trillion, down more than 9% in a day, and showed bitcoin roughly 50% below its record high of $126,080 from October 2025.
+
+Forced selling added to the drop. When bitcoin broke below $64,000, about $691 million of leveraged positions were liquidated in a single hour, with about $671 million of that coming from bets on higher prices, TokenPost data cited by CryptoTicker shows. A liquidation happens when an exchange automatically closes a borrowed bet that no longer has enough collateral.
+
+## Fear gauge near record lows
+
+Investor mood has soured quickly. The Crypto [Fear and Greed Index](L3), which scores market sentiment from 0 to 100, read 10 on Sunday's update (UTC), down from 13 on Saturday and 20 on Friday. Readings below 25 count as "extreme fear."
+
+!mid_cta
+
+!figure:fact
+
+Some analysts see that gloom as a sign that selling may be close to exhausted, without calling a bottom. Onchain analyst James Check told followers the market is watching "the fourth capitulation event since the all-time high," CoinDesk reported. He argued that many sellers bought in September above $80,000 and are now selling "at the very price they wish they had taken advantage of three months ago." Capitulation means investors giving up and selling at a loss.
+
+## Why prices keep falling
+
+Two pressures stand out. First, traders now expect the Federal Reserve to raise interest rates in December. The CME FedWatch tool showed an 88.5% chance of a quarter point hike on Saturday, CryptoTicker reported, after October consumer prices and hiring both came in stronger than forecast. Higher rates tend to pull money out of riskier assets like crypto.
+
+Second, big funds keep selling. U.S. spot bitcoin exchange-traded funds (ETFs) had net outflows of about $1.07 billion this week after $1.28 billion the week before, about $2.35 billion in two weeks, according to Farside Investors data reported by [Cointelegraph](L4). BlackRock's iShares Bitcoin Trust (IBIT) has seen withdrawals for 11 trading sessions in a row.
+
+## What it means for beginners
+
+Sharp drops like this are part of owning bitcoin, and nobody can reliably say where the bottom is. If you are new, avoid borrowed money, only invest what you could afford to see fall much further, and think in years rather than days. Some beginners prefer to buy small, fixed amounts on a schedule instead of trying to time the market. A regulated U.S. exchange such as [Coinbase](REF) supports recurring buys; compare fees and read the terms first. This is not investment advice.
+
+## What to watch next
+
+- Sunday's weekly close, which is on track to be bitcoin's sixth weekly loss in a row.
+- Whether bitcoin holds the mid-August lows near $62,700 on Kraken.
+- Spot bitcoin ETF flows when U.S. markets reopen on Monday, Nov. 16.
+- The minutes of the Fed's October meeting, due Wednesday.
+
+!soft: Want a calmer way to invest through swings? Read [how much bitcoin a beginner should buy](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

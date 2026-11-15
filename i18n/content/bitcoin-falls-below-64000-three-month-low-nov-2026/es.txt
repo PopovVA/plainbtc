@@ -1,0 +1,60 @@
+title: Bitcoin cae por debajo de 64.000 dólares, mínimo de tres meses, con el miedo en niveles extremos
+page_title: Bitcoin cae por debajo de 64.000 dólares, su precio más bajo desde agosto
+description: Bitcoin bajó a unos 63.243 dólares en Kraken el sábado, su precio más bajo desde el 17 de agosto, y pierde cerca de un 15 % en una semana por las apuestas de subida de tipos y las salidas de los ETF.
+og_description: Bitcoin cayó por debajo de 64.000 dólares el sábado por la tarde, su nivel más bajo en tres meses. Pierde cerca de un 15 % en siete días, ether alrededor de un 21 %, y un indicador clave del sentimiento bajó a 10 sobre 100.
+label: Mercado
+summary: Bitcoin tocó unos 63.243 dólares el sábado, su precio más bajo desde mediados de agosto, mientras el índice Crypto Fear and Greed bajaba a 10.
+===
+
+La caída de bitcoin se aceleró el sábado por la tarde. La mayor criptomoneda bajó a <strong>63.242,60 dólares</strong> en Kraken en la franja de las 4 p. m., hora central de EE. UU., su precio más bajo desde el 17 de agosto, antes de rebotar hasta unos 64.100 dólares hacia las 6 p. m. Más temprano se había mantenido cerca de 65.500 dólares.
+
+Así, bitcoin pierde cerca de un 6 % en 24 horas y alrededor de un 15,4 % en siete días, según el cálculo de PlainBTC con los datos públicos de precios de Kraken. Desde la apertura del lunes, de unos 74.742 dólares, ha perdido aproximadamente un 14 %. La caída del sábado llegó sin un detonante concreto, con poco volumen de fin de semana y con la bolsa y los ETF de EE. UU. cerrados.
+
+!takeaways
+- Bitcoin tocó unos 63.243 dólares en Kraken el sábado, su precio más bajo desde el 17 de agosto de 2026.
+- Pierde cerca de un 15 % en siete días. Ether, XRP y solana caen cada uno entre un 21 % y un 22 %.
+- El índice Crypto Fear and Greed bajó a 10 sobre 100, en pleno "miedo extremo".
+- Los ETF spot de bitcoin en EE. UU. han perdido unos 2.350 millones de dólares por retiros en las dos últimas semanas.
+
+!figure:chart
+
+## Las altcoins caen todavía más
+
+El resto del mercado volvió a caer más rápido que bitcoin. En Kraken, ether llegó a unos 1.729 dólares, solana a unos 68,53 dólares y XRP a unos 0,891 dólares, todos en la misma hora de la tarde. En siete días, ether perdía alrededor de un 21 %, XRP un 21 % y solana un 22 % a las 6 p. m., hora central.
+
+Según [CoinDesk](L1), bitcoin ha caído cerca de un 7 % desde el cierre de la bolsa estadounidense el viernes por la tarde. Otra lectura de CoinGecko citada por [CryptoTicker](L2) situaba el valor de todo el mercado cripto en unos 2,16 billones de dólares, más de un 9 % menos en un día, y mostraba a bitcoin cerca de un 50 % por debajo de su máximo histórico de 126.080 dólares, de octubre de 2025.
+
+Las ventas forzadas agravaron la caída. Cuando bitcoin perdió los 64.000 dólares, se liquidaron unos 691 millones de dólares en posiciones apalancadas en una sola hora, de los que unos 671 millones eran apuestas al alza, según datos de TokenPost citados por CryptoTicker. Una liquidación ocurre cuando un exchange cierra automáticamente una apuesta con dinero prestado que ya no tiene suficiente garantía.
+
+## El indicador del miedo, cerca de mínimos
+
+El ánimo de los inversores se ha deteriorado rápido. El [índice Crypto Fear and Greed](L3), que puntúa el sentimiento del mercado de 0 a 100, marcó 10 en la actualización del domingo (UTC), frente a 13 el sábado y 20 el viernes. Las lecturas por debajo de 25 se consideran "miedo extremo".
+
+!mid_cta
+
+!figure:fact
+
+Algunos analistas ven en ese pesimismo una señal de que las ventas podrían estar cerca de agotarse, sin dar por hecho que se ha tocado fondo. El analista on-chain James Check dijo a sus seguidores que el mercado vive "el cuarto evento de capitulación desde el máximo histórico", informó CoinDesk. Según él, muchos vendedores compraron en septiembre por encima de 80.000 dólares y ahora venden "justo al precio que desearían haber aprovechado hace tres meses". Capitulación significa que los inversores se rinden y venden con pérdidas.
+
+## Por qué siguen cayendo los precios
+
+Destacan dos presiones. Primero, los operadores esperan ahora que la Reserva Federal suba los tipos de interés en diciembre. La herramienta CME FedWatch mostraba el sábado un 88,5 % de probabilidad de una subida de un cuarto de punto, según CryptoTicker, después de que los precios al consumidor de octubre y la creación de empleo superaran las previsiones. Unos tipos más altos suelen sacar dinero de activos de riesgo como las criptomonedas.
+
+Segundo, los grandes fondos siguen vendiendo. Los fondos cotizados (ETF) spot de bitcoin en EE. UU. registraron salidas netas de unos 1.070 millones de dólares esta semana, tras 1.280 millones la semana anterior, unos 2.350 millones en dos semanas, según datos de Farside Investors publicados por [Cointelegraph](L4). El iShares Bitcoin Trust (IBIT) de BlackRock acumula retiros durante 11 sesiones seguidas.
+
+## Qué significa para los principiantes
+
+Caídas bruscas como esta forman parte de tener bitcoin, y nadie puede decir con seguridad dónde está el suelo. Si estás empezando, evita el dinero prestado, invierte solo lo que podrías soportar ver caer mucho más y piensa en años, no en días. Algunos principiantes prefieren comprar cantidades pequeñas y fijas con regularidad en lugar de intentar acertar el momento. Un exchange regulado de EE. UU. como [Coinbase](REF) permite compras periódicas; compara comisiones y lee las condiciones primero. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- El cierre semanal del domingo, que va camino de ser la sexta pérdida semanal seguida de bitcoin.
+- Si bitcoin aguanta los mínimos de mediados de agosto, cerca de 62.700 dólares en Kraken.
+- Los flujos de los ETF spot de bitcoin cuando reabra el mercado estadounidense el lunes 16 de noviembre.
+- Las actas de la reunión de octubre de la Fed, que se publican el miércoles.
+
+!soft: ¿Buscas una forma más tranquila de invertir en medio de estos vaivenes? Lee [cuánto bitcoin debería comprar un principiante](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

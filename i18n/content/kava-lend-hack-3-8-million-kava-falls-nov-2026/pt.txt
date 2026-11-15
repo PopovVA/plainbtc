@@ -1,0 +1,61 @@
+title: Kava Lend sofre ataque de cerca de US$ 3,8 milhões e token KAVA cai quase 40%
+page_title: Kava Lend perde cerca de US$ 3,8 milhões em ataque hacker e token KAVA despenca
+description: Um atacante retirou cerca de 55,2 milhões de KAVA, avaliados em aproximadamente US$ 3,76 milhões, do protocolo Kava Lend na noite de sexta explorando uma falha de cálculo em um antigo mercado de BUSD. O KAVA caiu cerca de 40%.
+og_description: Um hacker usou uma falha de arredondamento no mercado inativo de BUSD do Kava Lend para tomar emprestado quase todo o seu KAVA e depois vendeu a maior parte na BNB Chain. Corretoras pausaram as transferências de KAVA e o token caiu quase 40%.
+label: Segurança
+summary: Um atacante retirou cerca de US$ 3,8 milhões em KAVA do protocolo Kava Lend por meio de uma falha em um mercado de BUSD sem uso, e o token caiu quase 40%.
+===
+
+O Kava Lend, aplicativo de empréstimos integrado à blockchain Kava, perdeu cerca de <strong>55,2 milhões de tokens KAVA</strong> para um atacante na noite de sexta-feira, segundo dados on-chain analisados pelo [The Block](L1). Os tokens valiam cerca de US$ 3,76 milhões ao preço anterior ao ataque, de aproximadamente US$ 0,068 cada.
+
+Em seguida, o atacante levou a maior parte das moedas para outra rede e as vendeu, o que derrubou o token KAVA. Na Kraken, o KAVA caiu de cerca de US$ 0,068 para a mínima de US$ 0,0344 na manhã de sábado, queda de quase 50% no pior momento, e era negociado perto de US$ 0,043 no fim da tarde de sábado, segundo verificação do PlainBTC nos dados públicos de preços da Kraken.
+
+!takeaways
+- Um atacante retirou cerca de 55,2 milhões de KAVA, no valor de cerca de US$ 3,76 milhões, do Kava Lend na noite de sexta.
+- A falha estava no mercado quase vazio do Kava Lend para BUSD, uma antiga stablecoin com a marca da Binance.
+- Cerca de 49,2 milhões de KAVA foram transferidos para a BNB Chain e vendidos por aproximadamente US$ 2,1 milhões.
+- A Kava diz que o incidente está "isolado e contido no Kava Lend" e que "não é uma emissão infinita".
+
+!figure:chart
+
+## Como o ataque funcionou
+
+O Kava Lend funciona como um banco online simples para cripto: usuários depositam tokens para render juros, e outros tomam empréstimos usando esses depósitos como base. O ponto fraco era o mercado de BUSD, uma stablecoin que a emissora Paxos parou de emitir em 2023. Esse mercado estava quase vazio antes do ataque.
+
+Segundo a análise do The Block sobre o código público da Kava, o aplicativo calcula os juros dos depositantes dividindo o que os tomadores pagam pela oferta total do mercado. O código pulava essa etapa apenas quando a oferta era exatamente zero, mas não se protegia contra um valor minúsculo logo acima de zero.
+
+Por volta das 22h de sexta-feira, horário central dos EUA, o atacante usou um pequeno empréstimo para reduzir a oferta do mercado de BUSD a dois centésimos milionésimos de dólar. Em três minutos, o protocolo havia multiplicado o valor de cada depósito de BUSD cerca de <strong>243.000 vezes</strong>. O próprio depósito de BUSD do atacante passou a valer como cerca de 1,25 bilhão de BUSD em garantia.
+
+Depois, o atacante tomou KAVA emprestado com essa garantia falsa 127 vezes, usando uma segunda conta para contornar um limite de empréstimos. O pool do Kava Lend foi de cerca de 55,33 milhões de KAVA para 0,19 KAVA em pouco mais de uma hora e meia. O The Block disse que o atacante parece ter se preparado por pelo menos uma semana, com depósitos e empréstimos de teste no mercado de BUSD desde 8 de novembro.
+
+!mid_cta
+
+!figure:timeline
+
+## Tokens vendidos na BNB Chain
+
+Pouco antes das 4h de sábado, horário central, o atacante enviou cerca de 49,2 milhões de KAVA para a BNB Chain pela ponte LayerZero da Kava. A maior parte foi vendida em menos de uma hora por cerca de 3.006,5 BNB e 231.557 USDT, no valor total de cerca de US$ 2,09 milhões. Outros 4,58 milhões de KAVA foram para cinco endereços na Kava.
+
+A [DeFiLlama](L3), que acompanha ataques hackers no setor cripto, classificou o incidente como um erro aritmético e estimou a perda em cerca de US$ 3,7 milhões. Também informou que cerca de 612.416 USDT do valor obtido foram bloqueados na ponte Relay.
+
+## O que a Kava disse
+
+A Kava disse pela primeira vez no X que acompanhava um "comportamento inesperado originado em um dApp" por volta das 5h28 de sábado, horário central, mais de sete horas depois do início do ataque. Em uma publicação posterior, afirmou: "Não é uma emissão infinita. O evento está isolado e contido no Kava Lend". Acrescentou que corretoras parceiras pausaram depósitos e saques de KAVA "como medida de precaução padrão" e, mais tarde, pausou sua ponte Axelar. As corretoras sul-coreanas Upbit, Bithumb e Coinone suspenderam as transferências de KAVA, informou o [CryptoWatchDesk](L2).
+
+A Kava não divulgou um número oficial de perdas, não disse se os usuários do Kava Lend serão ressarcidos nem publicou um relatório completo do incidente. Segundo a empresa, ele sairá "assim que estiver pronto".
+
+## O que isso significa para iniciantes
+
+Ataques como este costumam atingir aplicativos menores de finanças descentralizadas (DeFi), em que o código controla o dinheiro e não há seguro de uma empresa por trás. Se você está começando, mantenha a maior parte das suas criptomoedas em uma grande corretora regulada, como a [Coinbase](REF), ou em uma carteira que você controla, e tenha cuidado com aplicativos de empréstimo que prometem rendimento extra. Ignore links de "reembolso" ou "recuperação" depois de um ataque, porque golpistas costumam se aproveitar de grandes incidentes. Isto não é recomendação de investimento.
+
+## O que acompanhar agora
+
+- O relatório completo da Kava e se os usuários afetados serão ressarcidos.
+- Quando as corretoras e a ponte Axelar retomarão as transferências de KAVA.
+- Se parte dos fundos roubados será congelada ou devolvida.
+
+!soft: Não sabe onde guardar suas moedas? Leia [o que é uma carteira cripto: custodial ou autocustódia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

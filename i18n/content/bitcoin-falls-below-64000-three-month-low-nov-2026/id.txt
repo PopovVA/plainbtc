@@ -1,0 +1,60 @@
+title: Bitcoin jatuh di bawah US$64.000 ke level terendah tiga bulan saat rasa takut mencapai titik ekstrem
+page_title: Bitcoin jatuh di bawah US$64.000, harga terendah sejak Agustus
+description: Bitcoin turun ke sekitar US$63.243 di Kraken pada Sabtu, harga terendahnya sejak 17 Agustus, dan melemah sekitar 15% dalam sepekan akibat taruhan kenaikan suku bunga dan arus keluar ETF.
+og_description: Bitcoin tergelincir di bawah US$64.000 pada Sabtu malam, level terendah dalam tiga bulan. Dalam tujuh hari bitcoin turun sekitar 15%, ether sekitar 21%, dan indikator sentimen utama jatuh ke 10 dari 100.
+label: Pasar
+summary: Bitcoin menyentuh sekitar US$63.243 pada Sabtu, harga terendahnya sejak pertengahan Agustus, sementara Crypto Fear and Greed Index turun ke 10.
+===
+
+Penurunan bitcoin makin cepat pada Sabtu malam. Mata uang kripto terbesar itu turun ke <strong>US$63.242,60</strong> di Kraken pada jam 16.00 waktu Central AS, harga terendahnya sejak 17 Agustus, sebelum memantul ke sekitar US$64.100 pada pukul 18.00. Sebelumnya pada hari itu bitcoin bertahan di sekitar US$65.500.
+
+Dengan begitu, bitcoin turun sekitar 6% dalam 24 jam dan sekitar 15,4% dalam tujuh hari, menurut perhitungan PlainBTC dari data harga publik Kraken. Sejak pembukaan Senin di sekitar US$74.742, bitcoin sudah kehilangan kira-kira 14%. Penurunan Sabtu terjadi tanpa pemicu berita tertentu, dalam perdagangan akhir pekan yang sepi saat bursa saham dan ETF AS tutup.
+
+!takeaways
+- Bitcoin menyentuh sekitar US$63.243 di Kraken pada Sabtu, harga terendahnya sejak 17 Agustus 2026.
+- Dalam tujuh hari bitcoin turun sekitar 15%. Ether, XRP, dan solana masing-masing turun sekitar 21% hingga 22%.
+- Crypto Fear and Greed Index turun ke 10 dari 100, jauh di zona "ketakutan ekstrem".
+- ETF spot bitcoin AS kehilangan sekitar US$2,35 miliar akibat penarikan dalam dua pekan terakhir.
+
+!figure:chart
+
+## Altcoin jatuh lebih dalam
+
+Sisa pasar kembali turun lebih cepat daripada bitcoin. Di Kraken, ether menyentuh sekitar US$1.729, solana sekitar US$68,53, dan XRP sekitar US$0,891, semuanya pada jam yang sama di sore hari. Dalam tujuh hari hingga pukul 18.00 waktu Central, ether turun sekitar 21%, XRP sekitar 21%, dan solana sekitar 22%.
+
+Menurut [CoinDesk](L1), bitcoin kini sudah turun sekitar 7% sejak bursa saham AS tutup pada Jumat sore. Data CoinGecko terpisah yang dikutip [CryptoTicker](L2) menempatkan nilai seluruh pasar kripto di sekitar US$2,16 triliun, turun lebih dari 9% dalam sehari, dan menunjukkan bitcoin sekitar 50% di bawah rekor tertingginya US$126.080 pada Oktober 2025.
+
+Penjualan paksa memperdalam penurunan. Ketika bitcoin jatuh di bawah US$64.000, sekitar US$691 juta posisi berleverage dilikuidasi hanya dalam satu jam, dengan sekitar US$671 juta di antaranya berupa taruhan harga naik, menurut data TokenPost yang dikutip CryptoTicker. Likuidasi terjadi ketika bursa otomatis menutup taruhan dengan dana pinjaman yang jaminannya tidak lagi cukup.
+
+## Indikator ketakutan dekat level terendah
+
+Suasana hati investor memburuk dengan cepat. [Crypto Fear and Greed Index](L3), yang menilai sentimen pasar dari 0 hingga 100, menunjukkan angka 10 pada pembaruan Minggu (UTC), turun dari 13 pada Sabtu dan 20 pada Jumat. Angka di bawah 25 dianggap "ketakutan ekstrem".
+
+!mid_cta
+
+!figure:fact
+
+Sebagian analis melihat suasana suram ini sebagai tanda bahwa aksi jual mungkin hampir habis, tanpa menyatakan bahwa dasar sudah tercapai. Analis on-chain James Check mengatakan kepada pengikutnya bahwa pasar sedang menyaksikan "peristiwa kapitulasi keempat sejak rekor tertinggi", lapor CoinDesk. Menurutnya, banyak penjual membeli pada September di atas US$80.000 dan kini menjual "tepat di harga yang mereka sesali tidak dimanfaatkan tiga bulan lalu". Kapitulasi berarti investor menyerah dan menjual dalam kondisi rugi.
+
+## Mengapa harga terus turun
+
+Ada dua tekanan utama. Pertama, pelaku pasar kini memperkirakan Federal Reserve akan menaikkan suku bunga pada Desember. Alat CME FedWatch pada Sabtu menunjukkan peluang 88,5% untuk kenaikan seperempat poin, lapor CryptoTicker, setelah harga konsumen dan penambahan lapangan kerja Oktober lebih kuat dari perkiraan. Suku bunga yang lebih tinggi cenderung menarik uang keluar dari aset berisiko seperti kripto.
+
+Kedua, dana besar terus menjual. Dana yang diperdagangkan di bursa (ETF) spot bitcoin AS mencatat arus keluar bersih sekitar US$1,07 miliar pekan ini setelah US$1,28 miliar pada pekan sebelumnya, sekitar US$2,35 miliar dalam dua pekan, menurut data Farside Investors yang dilaporkan [Cointelegraph](L4). iShares Bitcoin Trust (IBIT) milik BlackRock mencatat penarikan selama 11 sesi perdagangan berturut-turut.
+
+## Artinya bagi pemula
+
+Penurunan tajam seperti ini adalah bagian dari memiliki bitcoin, dan tidak ada yang bisa memastikan di mana dasarnya. Jika Anda baru mulai, hindari dana pinjaman, investasikan hanya jumlah yang sanggup Anda lihat turun jauh lebih dalam, dan berpikirlah dalam hitungan tahun, bukan hari. Sebagian pemula lebih suka membeli jumlah kecil yang tetap secara berkala daripada mencoba menebak waktu yang tepat. Bursa AS yang teregulasi seperti [Coinbase](REF) mendukung pembelian berulang; bandingkan biaya dan baca ketentuannya lebih dulu. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Penutupan mingguan hari Minggu, yang mengarah ke kerugian mingguan keenam berturut-turut bagi bitcoin.
+- Apakah bitcoin bertahan di level terendah pertengahan Agustus, sekitar US$62.700 di Kraken.
+- Arus ETF spot bitcoin saat pasar AS dibuka kembali pada Senin, 16 November.
+- Risalah rapat Fed bulan Oktober, yang dijadwalkan terbit Rabu.
+
+!soft: Mencari cara berinvestasi yang lebih tenang di tengah gejolak seperti ini? Baca [berapa banyak bitcoin yang sebaiknya dibeli pemula](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

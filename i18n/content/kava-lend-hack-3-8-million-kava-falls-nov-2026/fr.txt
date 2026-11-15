@@ -1,0 +1,61 @@
+title: Kava Lend piraté pour environ 3,8 millions de dollars, le jeton KAVA chute de près de 40 %
+page_title: Kava Lend perd environ 3,8 millions de dollars dans un piratage, le jeton KAVA plonge
+description: Un attaquant a siphonné environ 55,2 millions de KAVA, soit près de 3,76 millions de dollars, du protocole Kava Lend vendredi soir en exploitant une faille de calcul dans un ancien marché BUSD. Le KAVA a chuté d'environ 40 %.
+og_description: Un pirate a exploité une erreur d'arrondi dans le marché BUSD inactif de Kava Lend pour emprunter presque tout son KAVA, puis en a vendu l'essentiel sur BNB Chain. Les plateformes ont suspendu les transferts de KAVA et le jeton a chuté de près de 40 %.
+label: Sécurité
+summary: Un attaquant a siphonné environ 3,8 millions de dollars de KAVA du protocole Kava Lend grâce à une faille dans un marché BUSD inutilisé, et le jeton a chuté de près de 40 %.
+===
+
+Kava Lend, l'application de prêt intégrée à la blockchain Kava, s'est fait dérober environ <strong>55,2 millions de jetons KAVA</strong> vendredi soir, selon des données on-chain examinées par [The Block](L1). Les jetons valaient près de 3,76 millions de dollars au cours d'avant l'attaque, environ 0,068 dollar pièce.
+
+L'attaquant a ensuite transféré la plupart des jetons vers un autre réseau et les a vendus, ce qui a fait plonger le KAVA. Sur Kraken, le KAVA est passé d'environ 0,068 dollar à un plus bas de 0,0344 dollar samedi matin, soit une chute de près de 50 % au pire moment, avant de s'échanger vers 0,043 dollar samedi soir, selon la vérification par PlainBTC des données de prix publiques de Kraken.
+
+!takeaways
+- Un attaquant a siphonné environ 55,2 millions de KAVA, d'une valeur d'environ 3,76 millions de dollars, de Kava Lend vendredi soir.
+- La faille se trouvait dans le marché presque vide de Kava Lend pour le BUSD, un ancien stablecoin à la marque Binance.
+- Environ 49,2 millions de KAVA ont été transférés vers BNB Chain et vendus pour environ 2,1 millions de dollars.
+- Kava affirme que l'incident est « isolé et circonscrit à Kava Lend » et qu'il ne s'agit « pas d'une émission infinie ».
+
+!figure:chart
+
+## Comment l'attaque a fonctionné
+
+Kava Lend fonctionne comme une banque en ligne simplifiée pour la crypto : des utilisateurs déposent des jetons pour toucher des intérêts, d'autres empruntent en s'appuyant sur ces dépôts. Le point faible était son marché BUSD, un stablecoin que son émetteur Paxos a cessé d'émettre en 2023. Ce marché était presque vide avant l'attaque.
+
+D'après l'analyse du code public de Kava par The Block, l'application calcule les intérêts des déposants en divisant ce que paient les emprunteurs par l'offre totale du marché. Le code ne sautait cette étape que lorsque l'offre valait exactement zéro, sans se protéger contre un montant minuscule juste au-dessus de zéro.
+
+Vers 22 h vendredi, heure du Centre des États-Unis, l'attaquant a utilisé un petit prêt pour ramener l'offre du marché BUSD à deux cent-millionièmes de dollar. En trois minutes, le protocole avait multiplié la valeur de chaque dépôt en BUSD par environ <strong>243 000</strong>. Le propre dépôt de BUSD de l'attaquant comptait soudain comme environ 1,25 milliard de BUSD de garantie.
+
+L'attaquant a alors emprunté du KAVA sur cette fausse garantie 127 fois, en utilisant un second compte pour contourner un plafond d'emprunt. La réserve de Kava Lend est passée d'environ 55,33 millions de KAVA à 0,19 KAVA en un peu plus d'une heure et demie. Selon The Block, l'attaquant semble s'être préparé pendant au moins une semaine, en multipliant les dépôts et prêts de test sur le marché BUSD depuis le 8 novembre.
+
+!mid_cta
+
+!figure:timeline
+
+## Des jetons vendus sur BNB Chain
+
+Peu avant 4 h samedi, heure du Centre, l'attaquant a envoyé environ 49,2 millions de KAVA vers BNB Chain via le pont LayerZero de Kava. L'essentiel a été vendu en moins d'une heure contre environ 3 006,5 BNB et 231 557 USDT, pour une valeur totale d'environ 2,09 millions de dollars. Quelque 4,58 millions de KAVA supplémentaires sont partis vers cinq adresses sur Kava.
+
+[DeFiLlama](L3), qui recense les piratages crypto, a classé l'incident comme une erreur arithmétique et estimé la perte à environ 3,7 millions de dollars. Il a aussi indiqué qu'environ 612 416 USDT du butin avaient été bloqués sur le pont Relay.
+
+## Ce que dit Kava
+
+Kava a indiqué pour la première fois sur X qu'il suivait un « comportement inattendu provenant d'une dApp » vers 5 h 28 samedi, heure du Centre, plus de sept heures après le début de l'attaque. Dans un message suivant, il a écrit : « Il ne s'agit pas d'une émission infinie. L'événement est isolé et circonscrit à Kava Lend. » Il a ajouté que des plateformes partenaires avaient suspendu les dépôts et retraits de KAVA « par mesure de précaution habituelle », puis a suspendu son pont Axelar. Les plateformes sud-coréennes Upbit, Bithumb et Coinone ont gelé les transferts de KAVA, selon [CryptoWatchDesk](L2).
+
+Kava n'a pas communiqué de chiffre officiel des pertes, n'a pas dit si les utilisateurs de Kava Lend seraient remboursés et n'a pas publié de rapport complet. Celui-ci sera publié « dès qu'il sera prêt », selon l'équipe.
+
+## Ce que cela signifie pour les débutants
+
+Ce type de piratage touche surtout de petites applications de finance décentralisée (DeFi), où le code contrôle l'argent et où aucune assurance d'entreprise ne protège les utilisateurs. Si vous débutez, gardez l'essentiel de vos cryptos sur une grande plateforme réglementée comme [Coinbase](REF) ou dans un portefeuille que vous contrôlez, et méfiez-vous des applications de prêt qui promettent un rendement supplémentaire. Ignorez tout lien de « remboursement » ou de « récupération » après un piratage : les escrocs profitent souvent des grands incidents. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Le rapport complet de Kava et un éventuel dédommagement des utilisateurs touchés.
+- La reprise des transferts de KAVA par les plateformes et le pont Axelar.
+- Un éventuel gel ou une restitution d'une partie des fonds volés.
+
+!soft: Vous ne savez pas où conserver vos cryptos ? Lisez [ce qu'est un portefeuille crypto : dépositaire ou auto-garde](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

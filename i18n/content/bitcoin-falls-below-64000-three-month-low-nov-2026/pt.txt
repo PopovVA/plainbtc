@@ -1,0 +1,60 @@
+title: Bitcoin cai abaixo de US$ 64.000 e atinge mínima de três meses com medo em nível extremo
+page_title: Bitcoin cai abaixo de US$ 64.000, menor preço desde agosto
+description: O bitcoin caiu para cerca de US$ 63.243 na Kraken no sábado, o menor preço desde 17 de agosto, e recua cerca de 15% na semana com apostas de alta de juros e saídas dos ETFs.
+og_description: O bitcoin caiu abaixo de US$ 64.000 no fim da tarde de sábado, o menor nível em três meses. Recua cerca de 15% em sete dias, o ether cerca de 21%, e um importante medidor de sentimento caiu para 10 de 100.
+label: Mercado
+summary: O bitcoin chegou a cerca de US$ 63.243 no sábado, o menor preço desde meados de agosto, enquanto o índice Crypto Fear and Greed caía para 10.
+===
+
+A queda do bitcoin ganhou velocidade no fim da tarde de sábado. A maior criptomoeda caiu para <strong>US$ 63.242,60</strong> na Kraken na faixa das 16h, horário central dos EUA, o menor preço desde 17 de agosto, antes de voltar para cerca de US$ 64.100 por volta das 18h. Mais cedo, ela havia se mantido perto de US$ 65.500.
+
+Com isso, o bitcoin recua cerca de 6% em 24 horas e cerca de 15,4% em sete dias, segundo cálculo do PlainBTC com dados públicos de preços da Kraken. Desde a abertura de segunda-feira, de cerca de US$ 74.742, perdeu aproximadamente 14%. A queda de sábado veio sem um gatilho específico, em negociação fraca de fim de semana, com a bolsa e os ETFs dos EUA fechados.
+
+!takeaways
+- O bitcoin chegou a cerca de US$ 63.243 na Kraken no sábado, o menor preço desde 17 de agosto de 2026.
+- Recua cerca de 15% em sete dias. Ether, XRP e solana caem entre 21% e 22% cada.
+- O índice Crypto Fear and Greed caiu para 10 de 100, em pleno "medo extremo".
+- Os ETFs à vista de bitcoin nos EUA perderam cerca de US$ 2,35 bilhões em resgates nas últimas duas semanas.
+
+!figure:chart
+
+## Altcoins caem ainda mais
+
+O resto do mercado voltou a cair mais rápido que o bitcoin. Na Kraken, o ether chegou a cerca de US$ 1.729, a solana a cerca de US$ 68,53 e o XRP a cerca de US$ 0,891, todos na mesma hora do fim da tarde. Em sete dias, o ether recuava cerca de 21%, o XRP cerca de 21% e a solana cerca de 22% às 18h, horário central.
+
+Segundo o [CoinDesk](L1), o bitcoin já caiu cerca de 7% desde o fechamento da bolsa americana na sexta à noite. Outra leitura do CoinGecko citada pelo [CryptoTicker](L2) colocava o valor de todo o mercado cripto em cerca de US$ 2,16 trilhões, queda de mais de 9% em um dia, e mostrava o bitcoin cerca de 50% abaixo da máxima histórica de US$ 126.080, de outubro de 2025.
+
+As vendas forçadas aprofundaram a queda. Quando o bitcoin perdeu os US$ 64.000, cerca de US$ 691 milhões em posições alavancadas foram liquidados em uma única hora, sendo cerca de US$ 671 milhões em apostas na alta, segundo dados da TokenPost citados pelo CryptoTicker. Uma liquidação acontece quando a corretora fecha automaticamente uma aposta feita com dinheiro emprestado que já não tem garantia suficiente.
+
+## Medidor de medo perto das mínimas
+
+O humor dos investidores piorou rapidamente. O [índice Crypto Fear and Greed](L3), que mede o sentimento do mercado de 0 a 100, marcou 10 na atualização de domingo (UTC), ante 13 no sábado e 20 na sexta. Leituras abaixo de 25 são consideradas "medo extremo".
+
+!mid_cta
+
+!figure:fact
+
+Alguns analistas veem esse pessimismo como sinal de que as vendas podem estar perto de se esgotar, sem afirmar que o fundo chegou. O analista on-chain James Check disse a seus seguidores que o mercado vive "o quarto evento de capitulação desde a máxima histórica", informou o CoinDesk. Para ele, muitos vendedores compraram em setembro acima de US$ 80.000 e agora vendem "exatamente pelo preço que gostariam de ter aproveitado três meses atrás". Capitulação é quando investidores desistem e vendem com prejuízo.
+
+## Por que os preços continuam caindo
+
+Duas pressões se destacam. Primeiro, os traders agora esperam que o Federal Reserve suba os juros em dezembro. A ferramenta CME FedWatch mostrava no sábado 88,5% de chance de uma alta de um quarto de ponto, segundo o CryptoTicker, depois que os preços ao consumidor de outubro e as contratações vieram acima do previsto. Juros mais altos costumam tirar dinheiro de ativos de risco como as criptomoedas.
+
+Segundo, os grandes fundos continuam vendendo. Os fundos negociados em bolsa (ETFs) à vista de bitcoin nos EUA tiveram saídas líquidas de cerca de US$ 1,07 bilhão nesta semana, depois de US$ 1,28 bilhão na semana anterior, cerca de US$ 2,35 bilhões em duas semanas, segundo dados da Farside Investors publicados pelo [Cointelegraph](L4). O iShares Bitcoin Trust (IBIT), da BlackRock, registra resgates há 11 pregões seguidos.
+
+## O que isso significa para iniciantes
+
+Quedas fortes como esta fazem parte de ter bitcoin, e ninguém consegue dizer com segurança onde fica o fundo. Se você está começando, evite dinheiro emprestado, invista só o que suportaria ver cair muito mais e pense em anos, não em dias. Alguns iniciantes preferem comprar valores pequenos e fixos de forma regular em vez de tentar acertar o momento. Uma corretora regulada dos EUA, como a [Coinbase](REF), permite compras recorrentes; compare taxas e leia os termos antes. Isto não é recomendação de investimento.
+
+## O que acompanhar agora
+
+- O fechamento semanal de domingo, que caminha para ser a sexta perda semanal seguida do bitcoin.
+- Se o bitcoin segura as mínimas de meados de agosto, perto de US$ 62.700 na Kraken.
+- Os fluxos dos ETFs à vista de bitcoin quando o mercado americano reabrir na segunda-feira, 16 de novembro.
+- A ata da reunião de outubro do Fed, prevista para quarta-feira.
+
+!soft: Quer um jeito mais tranquilo de investir em meio a essas oscilações? Leia [quanto bitcoin um iniciante deve comprar](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

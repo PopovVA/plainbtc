@@ -1,0 +1,18 @@
+{
+ "slug": "kava-lend-hack-3-8-million-kava-falls-nov-2026",
+ "date": "2026-11-14",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "unocoin-hack-bitgo-backup-keys-nov-2026",
+  "across-protocol-domain-hijack-phishing-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {"url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350", "title": "The Block: Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%", "date": "Nov 14, 2026"},
+  {"url": "https://defillama.com/protocol/kava-lend", "title": "DeFiLlama: Kava Lend hack entry", "date": "Nov 14, 2026"},
+  {"url": "https://cryptowatchdesk.com/news/security-alert-kava-lend-incident-kava-bridged-to-bnb-chain-sold-axelar-bridge-paused-upbit-bithumb-coinone-suspend", "title": "CryptoWatchDesk: KAVA falls 40% as Kava Lend incident halts bridge", "date": "Nov 14, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: KAVA/USD hourly OHLC data (public API)", "date": "Nov 14, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

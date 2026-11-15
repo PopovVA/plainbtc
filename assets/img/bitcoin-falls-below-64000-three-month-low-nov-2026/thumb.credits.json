@@ -1,0 +1,21 @@
+{
+  "kind": "chart",
+  "sources": [
+    {
+      "file": "Kraken OHLC XBTUSD interval=1440",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Daily BTC/USD lows, Aug 1 - Nov 14, 2026, from Kraken"
+    }
+  ],
+  "slug": "bitcoin-falls-below-64000-three-month-low-nov-2026",
+  "generated": "2026-11-15T00:03Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

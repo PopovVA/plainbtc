@@ -1,0 +1,61 @@
+title: Kava Lend diretas sekitar US$3,8 juta, token KAVA anjlok hampir 40%
+page_title: Kava Lend kehilangan sekitar US$3,8 juta akibat peretasan, token KAVA ambruk
+description: Seorang penyerang menguras sekitar 55,2 juta KAVA senilai kira-kira US$3,76 juta dari protokol Kava Lend pada Jumat malam dengan memanfaatkan celah perhitungan di pasar BUSD lama. KAVA turun sekitar 40%.
+og_description: Peretas memakai celah pembulatan di pasar BUSD Kava Lend yang tidak aktif untuk meminjam hampir semua KAVA miliknya, lalu menjual sebagian besar di BNB Chain. Bursa menghentikan transfer KAVA dan token itu turun hampir 40%.
+label: Keamanan
+summary: Seorang penyerang menguras sekitar US$3,8 juta KAVA dari protokol Kava Lend lewat celah di pasar BUSD yang tidak terpakai, dan token itu turun hampir 40%.
+===
+
+Kava Lend, aplikasi pinjaman bawaan blockchain Kava, kehilangan sekitar <strong>55,2 juta token KAVA</strong> ke tangan penyerang pada Jumat malam, menurut data on-chain yang ditelaah [The Block](L1). Token tersebut bernilai sekitar US$3,76 juta pada harga sebelum serangan, kira-kira US$0,068 per token.
+
+Penyerang kemudian memindahkan sebagian besar koin ke jaringan lain dan menjualnya, sehingga harga KAVA anjlok tajam. Di Kraken, KAVA turun dari sekitar US$0,068 ke titik terendah US$0,0344 pada Sabtu pagi, merosot hampir 50% pada titik terburuknya, lalu diperdagangkan di sekitar US$0,043 pada Sabtu malam, menurut pengecekan PlainBTC atas data harga publik Kraken.
+
+!takeaways
+- Seorang penyerang menguras sekitar 55,2 juta KAVA, senilai sekitar US$3,76 juta, dari Kava Lend pada Jumat malam.
+- Celahnya ada di pasar BUSD Kava Lend yang hampir kosong; BUSD adalah stablecoin lama bermerek Binance.
+- Sekitar 49,2 juta KAVA dipindahkan ke BNB Chain dan dijual sekitar US$2,1 juta.
+- Kava menyatakan insiden ini "terisolasi dan terbatas di Kava Lend" serta "bukan pencetakan tanpa batas".
+
+!figure:chart
+
+## Cara serangan berlangsung
+
+Kava Lend bekerja seperti bank online sederhana untuk kripto: sebagian pengguna menyetor token untuk mendapat bunga, sementara yang lain meminjam dengan jaminan setoran tersebut. Titik lemahnya ada di pasar BUSD, stablecoin yang berhenti dicetak penerbitnya, Paxos, pada 2023. Pasar itu hampir kosong sebelum serangan.
+
+Menurut telaah The Block atas kode publik Kava, aplikasi menghitung bunga penyetor dengan membagi pembayaran peminjam dengan total pasokan pasar. Kode hanya melewati langkah itu jika pasokan tepat nol, tetapi tidak melindungi dari jumlah yang sangat kecil sedikit di atas nol.
+
+Sekitar pukul 10 malam waktu Central AS pada Jumat, penyerang memakai pinjaman kecil untuk menekan pasokan pasar BUSD hingga dua per seratus juta dolar. Dalam tiga menit, protokol melipatgandakan nilai setiap setoran BUSD sekitar <strong>243.000 kali</strong>. Setoran BUSD milik penyerang sendiri tiba-tiba dihitung sebagai jaminan sekitar 1,25 miliar BUSD.
+
+Penyerang lalu meminjam KAVA dengan jaminan palsu itu sebanyak 127 kali, memakai akun kedua untuk mengakali batas pinjaman. Pool Kava Lend menyusut dari sekitar 55,33 juta KAVA menjadi 0,19 KAVA dalam sedikit lebih dari satu setengah jam. The Block menyebut penyerang tampaknya bersiap setidaknya selama sepekan, dengan setoran dan pinjaman uji coba di pasar BUSD sejak 8 November.
+
+!mid_cta
+
+!figure:timeline
+
+## Token dijual di BNB Chain
+
+Menjelang pukul 4 pagi waktu Central pada Sabtu, penyerang mengirim sekitar 49,2 juta KAVA ke BNB Chain melalui jembatan LayerZero milik Kava. Sebagian besar terjual dalam satu jam dengan imbalan sekitar 3.006,5 BNB dan 231.557 USDT, total senilai sekitar US$2,09 juta. Sebanyak 4,58 juta KAVA lainnya dikirim ke lima alamat di Kava.
+
+[DeFiLlama](L3), yang mencatat peretasan kripto, menggolongkan insiden ini sebagai kesalahan aritmetika dan memperkirakan kerugian sekitar US$3,7 juta. DeFiLlama juga melaporkan sekitar 612.416 USDT hasil serangan diblokir di jembatan Relay.
+
+## Pernyataan Kava
+
+Kava pertama kali menyatakan di X bahwa pihaknya memantau "perilaku tak terduga yang berasal dari sebuah dApp" sekitar pukul 5.28 pagi waktu Central pada Sabtu, lebih dari tujuh jam setelah serangan dimulai. Dalam unggahan berikutnya, Kava menulis: "Ini bukan pencetakan tanpa batas. Kejadian ini terisolasi dan terbatas di Kava Lend." Kava menambahkan bahwa bursa mitra menghentikan sementara setoran dan penarikan KAVA "sebagai langkah pencegahan standar", lalu menghentikan jembatan Axelar miliknya. Bursa Korea Selatan Upbit, Bithumb, dan Coinone menangguhkan transfer KAVA, lapor [CryptoWatchDesk](L2).
+
+Kava belum memberikan angka kerugian resmi, belum menyatakan apakah pengguna Kava Lend akan mendapat ganti rugi, dan belum menerbitkan laporan insiden lengkap. Laporan itu akan dibagikan "segera setelah siap".
+
+## Artinya bagi pemula
+
+Peretasan seperti ini biasanya menimpa aplikasi keuangan terdesentralisasi (DeFi) yang lebih kecil, di mana kode yang mengendalikan dana dan tidak ada asuransi perusahaan di baliknya. Jika Anda baru mulai, simpan sebagian besar kripto Anda di bursa besar yang teregulasi seperti [Coinbase](REF) atau di dompet yang Anda kendalikan sendiri, dan berhati-hatilah dengan aplikasi pinjaman yang menjanjikan imbal hasil tambahan. Abaikan tautan "pengembalian dana" atau "pemulihan" setelah peretasan, karena penipu sering memanfaatkan insiden besar. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Laporan insiden lengkap Kava dan apakah pengguna terdampak akan mendapat ganti rugi.
+- Kapan bursa dan jembatan Axelar membuka kembali transfer KAVA.
+- Apakah sebagian dana curian dibekukan atau dikembalikan.
+
+!soft: Bingung di mana menyimpan koin Anda? Baca [apa itu dompet kripto: kustodian vs. kustodi mandiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

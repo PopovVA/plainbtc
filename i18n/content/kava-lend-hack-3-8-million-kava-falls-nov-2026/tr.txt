@@ -1,0 +1,61 @@
+title: Kava Lend yaklaşık 3,8 milyon $'lık saldırıya uğradı, KAVA token'ı yaklaşık %40 düştü
+page_title: Kava Lend saldırıda yaklaşık 3,8 milyon $ kaybetti, KAVA token'ı çöktü
+description: Bir saldırgan cuma gecesi eski bir BUSD piyasasındaki hesaplama hatasını kullanarak Kava Lend protokolünden yaklaşık 3,76 milyon $ değerinde 55,2 milyon KAVA çekti. KAVA yaklaşık %40 düştü.
+og_description: Bir hacker, Kava Lend'in atıl BUSD piyasasındaki yuvarlama hatasıyla protokoldeki KAVA'nın neredeyse tamamını borç aldı ve çoğunu BNB Chain'de sattı. Borsalar KAVA transferlerini durdurdu, token yaklaşık %40 düştü.
+label: Güvenlik
+summary: Bir saldırgan, kullanılmayan bir BUSD piyasasındaki açık üzerinden Kava Lend protokolünden yaklaşık 3,8 milyon $'lık KAVA çekti ve token yaklaşık %40 düştü.
+===
+
+Kava blokzincirine yerleşik borç verme uygulaması Kava Lend, cuma gecesi bir saldırgana yaklaşık <strong>55,2 milyon KAVA</strong> token'ı kaptırdı. Bu bilgi, [The Block](L1)'un incelediği zincir üstü verilere dayanıyor. Token'lar, saldırı öncesindeki yaklaşık 0,068 $'lık fiyatla kabaca 3,76 milyon $ değerindeydi.
+
+Saldırgan ardından coinlerin çoğunu başka bir ağa taşıyıp sattı ve bu da KAVA'yı sert biçimde düşürdü. PlainBTC'nin Kraken'in herkese açık fiyat verilerini incelemesine göre KAVA, Kraken'de yaklaşık 0,068 $'dan cumartesi sabahı 0,0344 $'lık dibe indi; bu en kötü anda yaklaşık %50'lik bir düşüş demek. Cumartesi akşamı ise 0,043 $ civarında işlem görüyordu.
+
+!takeaways
+- Bir saldırgan cuma gecesi Kava Lend'den yaklaşık 3,76 milyon $ değerinde 55,2 milyon KAVA çekti.
+- Açık, Kava Lend'in eski Binance markalı stablecoin BUSD için neredeyse boş olan piyasasındaydı.
+- Yaklaşık 49,2 milyon KAVA BNB Chain'e aktarıldı ve kabaca 2,1 milyon $'a satıldı.
+- Kava, olayın "Kava Lend ile sınırlı ve kontrol altında" olduğunu ve "sonsuz basım olmadığını" söylüyor.
+
+!figure:chart
+
+## Saldırı nasıl gerçekleşti
+
+Kava Lend, kripto için basit bir çevrim içi banka gibi çalışıyor: kullanıcılar faiz kazanmak için token yatırıyor, başkaları da bu mevduatlara karşılık borç alıyor. Zayıf nokta, ihraççısı Paxos'un 2023'te basımını durdurduğu stablecoin BUSD'nin piyasasıydı. Bu piyasa saldırıdan önce neredeyse boştu.
+
+The Block'un Kava'nın açık kaynak kodunu incelemesine göre uygulama, mevduat sahiplerinin faizini borçluların ödediği tutarı piyasanın toplam arzına bölerek hesaplıyor. Kod bu adımı yalnızca arz tam olarak sıfır olduğunda atlıyor, ancak sıfırın hemen üzerindeki çok küçük bir miktara karşı koruma içermiyordu.
+
+Saldırgan, ABD Merkezi saatiyle cuma gecesi saat 10 civarında küçük bir krediyle BUSD piyasasının arzını doların yüz milyonda ikisine düşürdü. Üç dakika içinde protokol her BUSD mevduatının değerini yaklaşık <strong>243.000 kat</strong> artırmıştı. Saldırganın kendi BUSD mevduatı bir anda yaklaşık 1,25 milyar BUSD teminat olarak sayılır hale geldi.
+
+Saldırgan ardından bu sahte teminata karşılık 127 kez KAVA borç aldı ve bir borç limitini aşmak için ikinci bir hesap kullandı. Kava Lend havuzu bir buçuk saatten biraz fazla bir sürede yaklaşık 55,33 milyon KAVA'dan 0,19 KAVA'ya indi. The Block'a göre saldırgan en az bir haftadır hazırlanıyor gibi görünüyor ve 8 Kasım'dan beri BUSD piyasasında deneme amaçlı mevduat ve borç işlemleri yapıyordu.
+
+!mid_cta
+
+!figure:timeline
+
+## Token'lar BNB Chain'de satıldı
+
+Saldırgan, Merkezi saatle cumartesi sabah 4'ten hemen önce yaklaşık 49,2 milyon KAVA'yı Kava'nın LayerZero köprüsü üzerinden BNB Chain'e gönderdi. Çoğunu bir saat içinde yaklaşık 3.006,5 BNB ve 231.557 USDT karşılığında sattı; toplam değer yaklaşık 2,09 milyon $. Diğer 4,58 milyon KAVA ise Kava üzerindeki beş adrese gitti.
+
+Kripto saldırılarını takip eden [DeFiLlama](L3), olayı aritmetik hata olarak sınıflandırdı ve kaybı yaklaşık 3,7 milyon $ olarak tahmin etti. Ayrıca elde edilen fonların yaklaşık 612.416 USDT'lik kısmının Relay köprüsünde engellendiğini bildirdi.
+
+## Kava ne dedi
+
+Kava, X'te ilk kez Merkezi saatle cumartesi sabah 5.28 civarında "bir dApp'ten kaynaklanan beklenmedik davranışı" takip ettiğini duyurdu; bu, saldırının başlamasından yedi saatten fazla sonraydı. Sonraki bir paylaşımda şöyle dedi: "Bu sonsuz bir basım değil. Olay Kava Lend ile sınırlı ve kontrol altında." Partner borsaların KAVA yatırma ve çekme işlemlerini "standart bir önlem olarak" durdurduğunu ekledi; daha sonra Axelar köprüsünü de durdurdu. [CryptoWatchDesk](L2)'in aktardığına göre Güney Koreli borsalar Upbit, Bithumb ve Coinone KAVA transferlerini askıya aldı.
+
+Kava resmi bir kayıp rakamı açıklamadı, Kava Lend kullanıcılarının zararının karşılanıp karşılanmayacağını söylemedi ve tam bir olay raporu yayımlamadı. Raporun "hazır olur olmaz" paylaşılacağını belirtti.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Bu tür saldırılar genellikle paranın kodla yönetildiği ve arkasında bir şirket sigortasının bulunmadığı daha küçük merkeziyetsiz finans (DeFi) uygulamalarını vuruyor. Yeniyseniz kripto varlıklarınızın çoğunu [Coinbase](REF) gibi büyük ve düzenlemeye tabi bir borsada ya da kendi kontrolünüzdeki bir cüzdanda tutun, ekstra getiri vaat eden borç verme uygulamalarına karşı dikkatli olun. Bir saldırının ardından gelen "iade" veya "kurtarma" bağlantılarını görmezden gelin; dolandırıcılar büyük olayları sıkça istismar eder. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Kava'nın tam olay raporu ve etkilenen kullanıcıların zararının karşılanıp karşılanmayacağı.
+- Borsaların ve Axelar köprüsünün KAVA transferlerine ne zaman yeniden başlayacağı.
+- Çalınan fonların bir kısmının dondurulup dondurulmayacağı ya da iade edilip edilmeyeceği.
+
+!soft: Coinlerinizi nerede saklayacağınızdan emin değil misiniz? [Kripto cüzdan nedir: emanetçi ve kendi kendine saklama](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

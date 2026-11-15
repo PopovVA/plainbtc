@@ -1,0 +1,19 @@
+{
+ "slug": "bitcoin-falls-below-64000-three-month-low-nov-2026",
+ "date": "2026-11-14",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "ether-solana-xrp-lead-selloff-bitcoin-65000-nov-2026",
+  "bitcoin-below-67000-sixth-weekly-loss-nov-2026",
+  "how-much-bitcoin-should-a-beginner-buy-dca"
+ ],
+ "sources": [
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: BTC, ETH, SOL and XRP hourly OHLC data (public API)", "date": "Nov 14, 2026"},
+  {"url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst", "title": "CoinDesk: Bitcoin crashes to 3-month low below $64,000 as analyst flags fourth capitulation wave", "date": "Nov 14, 2026"},
+  {"url": "https://cryptoticker.io/en/crypto-news-bitcoin-falls-to-63500-fed-hike-bets-november-14-2026/", "title": "CryptoTicker: Bitcoin falls to $63,500, ether down 9% as Fed hike bets soar", "date": "Nov 14, 2026"},
+  {"url": "https://alternative.me/crypto/fear-and-greed-index/", "title": "Alternative.me: Crypto Fear and Greed Index", "date": "Nov 15, 2026"},
+  {"url": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak", "title": "Cointelegraph: Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock's losing streak hits 11", "date": "Nov 14, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

@@ -2449,7 +2449,7 @@ def build_alt_selloff():
             "pt": "Gráfico de linha do preço horário do ether na Kraken de 13 a 14 de novembro de 2026: cai de cerca de US$ 2.000 para cerca de US$ 1.830, com uma linha tracejada na mínima de 14 de novembro, de cerca de US$ 1.808",
             "fr": "Courbe du cours horaire de l'ether sur Kraken du 13 au 14 novembre 2026 : il passe d'environ 2 000 dollars à environ 1 830 dollars, avec une ligne pointillée au plus bas du 14 novembre, environ 1 808 dollars",
             "de": "Liniendiagramm des stündlichen Ether-Kurses bei Kraken vom 13. bis 14. November 2026: Rückgang von rund 2.000 $ auf rund 1.830 $; gestrichelte Linie beim Tief vom 14. November von rund 1.808 $",
-            "ru": "Линейный график почасовой цены эфира на Kraken 13–14 ноября 2026 года: падение примерно с $2000 до около $1830; пунктирная линия показывает минимум 14 ноября, около $1808",
+            "ru": "Линейный график почасовой цены эфира на Kraken 13 и 14 ноября 2026 года: падение примерно с $2000 до около $1830; пунктирная линия показывает минимум 14 ноября, около $1808",
             "tr": "Ether'in 13-14 Kasım 2026'da Kraken'deki saatlik fiyatının çizgi grafiği: yaklaşık 2.000 $'dan yaklaşık 1.830 $'a düşüyor; kesikli çizgi 14 Kasım'daki yaklaşık 1.808 $'lık dibi gösteriyor",
             "id": "Grafik garis harga ether per jam di Kraken pada 13 hingga 14 November 2026: turun dari sekitar US$2.000 ke sekitar US$1.830, dengan garis putus-putus di level terendah 14 November sekitar US$1.808",
             "ja": "2026年11月13〜14日のKrakenにおけるイーサ1時間足の折れ線グラフ：約2000ドルから約1830ドルに下落。破線は11月14日の安値（約1808ドル）",
@@ -2525,6 +2525,113 @@ def build_binance_reopen():
     ]
 
 
+def build_btc_below_64k():
+    slug = "bitcoin-falls-below-64000-three-month-low-nov-2026"
+    d = OUT / slug
+    # Kraken XBTUSD hourly closes, Mon Nov 9 00:00 UTC to Nov 15 00:00 UTC. Low $63,242.60 in the Nov 14 22:00 UTC hour.
+    t_end = 1794700800
+    xs, ys = fetch_kraken_hourly(t_end - 6 * 86400, t_end, pair="XBTUSD")
+    chart = make_line_chart(
+        d / "chart-btc-hourly-nov-9-14",
+        xs, ys,
+        title="Bitcoin hourly price, Nov. 9-14, 2026 (Kraken, UTC)",
+        hline=63242.6,
+        hlabel="Nov. 14 low ≈ $63,243 (Kraken)",
+    )
+    card = make_fact_card(
+        d / "fact-fear-greed-10",
+        label="Crypto Fear and Greed Index",
+        big="10 out of 100",
+        sub="Extreme fear. Down from 13 on Nov. 14 and 20 on Nov. 13.",
+        footer="Alternative.me · reading for Nov. 15, 2026 (UTC)",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's hourly price on Kraken from Nov. 9 to Nov. 14, 2026, falling from about $75,000 to about $64,000, with a dashed line at the Nov. 14 low of about $63,243", {
+            "es": "Gráfico de líneas del precio horario de bitcoin en Kraken del 9 al 14 de noviembre de 2026: cae de unos 75.000 dólares a unos 64.000, con una línea discontinua en el mínimo del 14 de noviembre, de unos 63.243 dólares",
+            "pt": "Gráfico de linha do preço horário do bitcoin na Kraken de 9 a 14 de novembro de 2026: cai de cerca de US$ 75.000 para cerca de US$ 64.000, com uma linha tracejada na mínima de 14 de novembro, de cerca de US$ 63.243",
+            "fr": "Courbe du cours horaire du bitcoin sur Kraken du 9 au 14 novembre 2026 : il passe d'environ 75 000 dollars à environ 64 000 dollars, avec une ligne pointillée au plus bas du 14 novembre, environ 63 243 dollars",
+            "de": "Liniendiagramm des stündlichen Bitcoin-Kurses bei Kraken vom 9. bis 14. November 2026: Rückgang von rund 75.000 $ auf rund 64.000 $; gestrichelte Linie beim Tief vom 14. November von rund 63.243 $",
+            "ru": "Линейный график почасовой цены биткоина на Kraken с 9 по 14 ноября 2026 года: падение примерно с $75 000 до около $64 000; пунктирная линия показывает минимум 14 ноября, около $63 243",
+            "tr": "Bitcoin'in 9-14 Kasım 2026'da Kraken'deki saatlik fiyatının çizgi grafiği: yaklaşık 75.000 $'dan yaklaşık 64.000 $'a düşüyor; kesikli çizgi 14 Kasım'daki yaklaşık 63.243 $'lık dibi gösteriyor",
+            "id": "Grafik garis harga bitcoin per jam di Kraken pada 9 hingga 14 November 2026: turun dari sekitar US$75.000 ke sekitar US$64.000, dengan garis putus-putus di level terendah 14 November sekitar US$63.243",
+            "ja": "2026年11月9〜14日のKrakenにおけるビットコイン1時間足の折れ線グラフ：約7万5000ドルから約6万4000ドルに下落。破線は11月14日の安値（約6万3243ドル）",
+            "ko": "2026년 11월 9~14일 크라켄 비트코인 시간별 가격 선 차트: 약 7만 5,000달러에서 약 6만 4,000달러로 하락, 점선은 11월 14일 저점 약 6만 3,243달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken BTC/USD hourly closes")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: the Crypto Fear and Greed Index read 10 out of 100, extreme fear, down from 13 on Nov. 14 and 20 on Nov. 13", {
+            "es": "Tarjeta: el índice Crypto Fear and Greed marcó 10 sobre 100, miedo extremo, frente a 13 el 14 de noviembre y 20 el 13 de noviembre",
+            "pt": "Cartão: o índice Crypto Fear and Greed marcou 10 de 100, medo extremo, ante 13 em 14 de novembro e 20 em 13 de novembro",
+            "fr": "Encadré : l'indice Crypto Fear and Greed est tombé à 10 sur 100, peur extrême, contre 13 le 14 novembre et 20 le 13 novembre",
+            "de": "Faktenkarte: Der Crypto Fear and Greed Index stand bei 10 von 100, extreme Angst, nach 13 am 14. November und 20 am 13. November",
+            "ru": "Карточка: индекс страха и жадности криптовалют (Crypto Fear and Greed) опустился до 10 из 100, крайний страх; 14 ноября было 13, 13 ноября 20",
+            "tr": "Kart: Kripto Korku ve Açgözlülük Endeksi 100 üzerinden 10'a, aşırı korku seviyesine indi; 14 Kasım'da 13, 13 Kasım'da 20'ydi",
+            "id": "Kartu fakta: Crypto Fear and Greed Index berada di 10 dari 100, ketakutan ekstrem, turun dari 13 pada 14 November dan 20 pada 13 November",
+            "ja": "カード：暗号資産の恐怖・強欲指数は100点中10の「極度の恐怖」。11月14日は13、11月13日は20だった",
+            "ko": "카드: 암호화폐 공포·탐욕 지수가 100점 만점에 10으로 '극단적 공포' 수준, 11월 14일 13, 11월 13일 20에서 하락",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Alternative.me Crypto Fear and Greed Index")},
+    ]
+
+
+def build_kava_hack():
+    slug = "kava-lend-hack-3-8-million-kava-falls-nov-2026"
+    d = OUT / slug
+    # Kraken KAVAUSD hourly closes, Nov 13 12:00 UTC to Nov 15 00:00 UTC. Low $0.0344 in the Nov 14 11:00 UTC hour.
+    t_end = 1794700800
+    xs, ys = fetch_kraken_hourly(t_end - 36 * 3600, t_end, pair="KAVAUSD")
+    chart = make_line_chart(
+        d / "chart-kava-hourly-nov-13-14",
+        xs, ys,
+        title="KAVA hourly price, Nov. 13-14, 2026 (Kraken, UTC)",
+        hline=0.0344,
+        hlabel="Nov. 14 low ≈ $0.0344 (Kraken)",
+        date_fmt="%b %d %H:%M",
+        yfmt=lambda x, _p: f"${x:.3f}",
+    )
+    tl = make_timeline_card(
+        d / "timeline-kava-lend-attack",
+        "Kava Lend attack (U.S. Central time)",
+        [
+            ("Fri 10:01 p.m.", "Attacker inflates BUSD deposits about 243,000-fold", (248, 113, 113)),
+            ("Fri night", "KAVA borrowed 127 times; pool falls from 55.33M to 0.19 KAVA", (248, 113, 113)),
+            ("Sat 3:59 a.m.", "About 49.2M KAVA bridged to BNB Chain and sold for about $2.1M", ORANGE),
+            ("Sat 5:28 a.m.", "Kava confirms the incident; exchanges pause KAVA transfers", (96, 165, 250)),
+        ],
+        footer="The Block · Kava on X",
+        margin=170, wrap_w=250,
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of KAVA's hourly price on Kraken from Nov. 13 to Nov. 14, 2026: flat near $0.068, then a plunge on Nov. 14 to a low of about $0.0344 and a partial rebound to about $0.043", {
+            "es": "Gráfico de líneas del precio horario de KAVA en Kraken del 13 al 14 de noviembre de 2026: estable cerca de 0,068 dólares, luego un desplome el 14 de noviembre hasta un mínimo de unos 0,0344 dólares y un rebote parcial hasta unos 0,043",
+            "pt": "Gráfico de linha do preço horário do KAVA na Kraken de 13 a 14 de novembro de 2026: estável perto de US$ 0,068, depois um tombo em 14 de novembro até a mínima de cerca de US$ 0,0344 e uma recuperação parcial para cerca de US$ 0,043",
+            "fr": "Courbe du cours horaire du KAVA sur Kraken du 13 au 14 novembre 2026 : stable vers 0,068 dollar, puis une chute le 14 novembre jusqu'à un plus bas d'environ 0,0344 dollar et un rebond partiel vers 0,043 dollar",
+            "de": "Liniendiagramm des stündlichen KAVA-Kurses bei Kraken vom 13. bis 14. November 2026: stabil bei rund 0,068 $, dann am 14. November ein Absturz auf ein Tief von rund 0,0344 $ und eine teilweise Erholung auf rund 0,043 $",
+            "ru": "Линейный график почасовой цены KAVA на Kraken 13 и 14 ноября 2026 года: около $0,068, затем обвал 14 ноября до минимума около $0,0344 и частичный отскок примерно до $0,043",
+            "tr": "KAVA'nın 13-14 Kasım 2026'da Kraken'deki saatlik fiyatının çizgi grafiği: 0,068 $ civarında yatay, ardından 14 Kasım'da yaklaşık 0,0344 $'lık dibe sert düşüş ve yaklaşık 0,043 $'a kısmi toparlanma",
+            "id": "Grafik garis harga KAVA per jam di Kraken pada 13 hingga 14 November 2026: datar di sekitar US$0,068, lalu anjlok pada 14 November ke titik terendah sekitar US$0,0344 dan pulih sebagian ke sekitar US$0,043",
+            "ja": "2026年11月13〜14日のKrakenにおけるKAVA1時間足の折れ線グラフ：約0.068ドルで横ばいの後、11月14日に約0.0344ドルまで急落し、約0.043ドルまで一部回復",
+            "ko": "2026년 11월 13~14일 크라켄 KAVA 시간별 가격 선 차트: 약 0.068달러에서 횡보하다 11월 14일 약 0.0344달러까지 급락한 뒤 약 0.043달러로 일부 반등",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken KAVA/USD hourly closes")},
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline in U.S. Central time: Friday 10:01 p.m., the attacker inflates BUSD deposits about 243,000-fold; Friday night, KAVA is borrowed 127 times and the pool falls from 55.33 million to 0.19 KAVA; Saturday 3:59 a.m., about 49.2 million KAVA is bridged to BNB Chain and sold for about $2.1 million; Saturday 5:28 a.m., Kava confirms the incident and exchanges pause KAVA transfers", {
+            "es": "Cronología en hora central de EE. UU.: viernes 22:01, el atacante infla los depósitos de BUSD unas 243.000 veces; viernes por la noche, pide prestado KAVA 127 veces y el fondo baja de 55,33 millones a 0,19 KAVA; sábado 3:59, unos 49,2 millones de KAVA pasan a BNB Chain y se venden por unos 2,1 millones de dólares; sábado 5:28, Kava confirma el incidente y los exchanges pausan las transferencias de KAVA",
+            "pt": "Linha do tempo no horário central dos EUA: sexta, 22h01, o atacante infla os depósitos de BUSD cerca de 243.000 vezes; sexta à noite, toma KAVA emprestado 127 vezes e o pool cai de 55,33 milhões para 0,19 KAVA; sábado, 3h59, cerca de 49,2 milhões de KAVA vão para a BNB Chain e são vendidos por cerca de US$ 2,1 milhões; sábado, 5h28, a Kava confirma o incidente e as corretoras pausam as transferências de KAVA",
+            "fr": "Chronologie (heure du Centre des États-Unis) : vendredi 22 h 01, l'attaquant gonfle les dépôts en BUSD d'environ 243 000 fois ; vendredi soir, il emprunte du KAVA 127 fois et la réserve passe de 55,33 millions à 0,19 KAVA ; samedi 3 h 59, environ 49,2 millions de KAVA sont transférés vers BNB Chain et vendus pour environ 2,1 millions de dollars ; samedi 5 h 28, Kava confirme l'incident et les plateformes suspendent les transferts de KAVA",
+            "de": "Zeitleiste (US-Central-Zeit): Freitag 22:01 Uhr, der Angreifer bläht BUSD-Einlagen rund 243.000-fach auf; Freitagnacht leiht er 127-mal KAVA, der Pool fällt von 55,33 Mio. auf 0,19 KAVA; Samstag 3:59 Uhr, rund 49,2 Mio. KAVA gehen über die Bridge zur BNB Chain und werden für rund 2,1 Mio. $ verkauft; Samstag 5:28 Uhr, Kava bestätigt den Vorfall, Börsen stoppen KAVA-Transfers",
+            "ru": "Хронология по центральному времени США: пятница, 22:01, злоумышленник раздувает депозиты BUSD примерно в 243 000 раз; ночь на субботу, он 127 раз занимает KAVA, и пул сокращается с 55,33 млн до 0,19 KAVA; суббота, 3:59, около 49,2 млн KAVA переводятся в BNB Chain и продаются примерно за $2,1 млн; суббота, 5:28, Kava подтверждает инцидент, биржи приостанавливают переводы KAVA",
+            "tr": "ABD Merkezi saatiyle zaman çizelgesi: cuma 22.01'de saldırgan BUSD mevduatlarını yaklaşık 243.000 kat şişiriyor; cuma gecesi 127 kez KAVA borç alıyor ve havuz 55,33 milyondan 0,19 KAVA'ya düşüyor; cumartesi 03.59'da yaklaşık 49,2 milyon KAVA BNB Chain'e aktarılıp yaklaşık 2,1 milyon $'a satılıyor; cumartesi 05.28'de Kava olayı doğruluyor ve borsalar KAVA transferlerini durduruyor",
+            "id": "Linimasa waktu Central AS: Jumat 22.01, penyerang menggelembungkan deposit BUSD sekitar 243.000 kali; Jumat malam, KAVA dipinjam 127 kali dan pool turun dari 55,33 juta menjadi 0,19 KAVA; Sabtu 03.59, sekitar 49,2 juta KAVA dipindahkan ke BNB Chain dan dijual sekitar US$2,1 juta; Sabtu 05.28, Kava mengonfirmasi insiden dan bursa menghentikan transfer KAVA",
+            "ja": "時系列（米中部時間）：金曜午後10時1分、攻撃者がBUSD預け入れを約24万3000倍に水増し。金曜夜、KAVAを127回借り入れ、プールは5533万KAVAから0.19KAVAに。土曜午前3時59分、約4920万KAVAをBNBチェーンにブリッジし約210万ドルで売却。土曜午前5時28分、Kavaが事案を認め、取引所がKAVAの入出金を停止",
+            "ko": "타임라인(미국 중부시간): 금요일 오후 10시 1분 공격자가 BUSD 예치금을 약 24만 3,000배 부풀림, 금요일 밤 KAVA를 127번 대출해 풀이 5,533만 KAVA에서 0.19 KAVA로 감소, 토요일 오전 3시 59분 약 4,920만 KAVA를 BNB 체인으로 옮겨 약 210만 달러에 매도, 토요일 오전 5시 28분 Kava가 사고를 확인하고 거래소들이 KAVA 입출금 중단",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="The Block; Kava on X")},
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -2561,6 +2668,8 @@ BUILDERS = {
     "unocoin-hack-bitgo-backup-keys-nov-2026": "unocoin",
     "ether-solana-xrp-lead-selloff-bitcoin-65000-nov-2026": "altselloff",
     "binance-reopens-withdrawals-87-networks-nov-2026": "bnbreopen",
+    "bitcoin-falls-below-64000-three-month-low-nov-2026": "btc64k",
+    "kava-lend-hack-3-8-million-kava-falls-nov-2026": "kavahack",
 }
 
 
@@ -2642,6 +2751,10 @@ def build_slug(slug: str, btc=None):
         figs = build_alt_selloff()
     elif key == "bnbreopen":
         figs = build_binance_reopen()
+    elif key == "btc64k":
+        figs = build_btc_below_64k()
+    elif key == "kavahack":
+        figs = build_kava_hack()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

@@ -1,0 +1,61 @@
+title: Hackean Kava Lend por unos 3,8 millones de dólares y el token KAVA cae cerca de un 40 %
+page_title: Kava Lend pierde unos 3,8 millones de dólares en un hackeo y el token KAVA se desploma
+description: Un atacante sacó unos 55,2 millones de KAVA, valorados en cerca de 3,76 millones de dólares, del protocolo Kava Lend el viernes por la noche aprovechando un fallo de cálculo en un antiguo mercado de BUSD. KAVA cayó cerca de un 40 %.
+og_description: Un hacker usó un fallo de redondeo en el mercado inactivo de BUSD de Kava Lend para pedir prestado casi todo su KAVA y luego vendió la mayor parte en BNB Chain. Los exchanges pausaron las transferencias de KAVA y el token cayó cerca de un 40 %.
+label: Seguridad
+summary: Un atacante sacó unos 3,8 millones de dólares en KAVA del protocolo Kava Lend mediante un fallo en un mercado de BUSD sin uso, y el token cayó cerca de un 40 %.
+===
+
+Kava Lend, la aplicación de préstamos integrada en la blockchain Kava, perdió unos <strong>55,2 millones de tokens KAVA</strong> a manos de un atacante el viernes por la noche, según datos on-chain revisados por [The Block](L1). Los tokens valían cerca de 3,76 millones de dólares al precio previo al ataque, de unos 0,068 dólares cada uno.
+
+Después, el atacante movió la mayoría de las monedas a otra red y las vendió, lo que hundió el precio del token KAVA. En Kraken, KAVA pasó de unos 0,068 dólares a un mínimo de 0,0344 dólares el sábado por la mañana, una caída de casi el 50 % en el peor momento, y cotizaba cerca de 0,043 dólares el sábado por la tarde, según la revisión de PlainBTC de los datos públicos de precios de Kraken.
+
+!takeaways
+- Un atacante sacó unos 55,2 millones de KAVA, por valor de unos 3,76 millones de dólares, de Kava Lend el viernes por la noche.
+- El fallo estaba en el mercado casi vacío de Kava Lend para BUSD, una antigua stablecoin con la marca de Binance.
+- Unos 49,2 millones de KAVA pasaron a BNB Chain y se vendieron por cerca de 2,1 millones de dólares.
+- Kava afirma que el incidente está "aislado y contenido dentro de Kava Lend" y que "no es una emisión infinita".
+
+!figure:chart
+
+## Cómo funcionó el ataque
+
+Kava Lend funciona como un sencillo banco en línea para cripto: unos usuarios depositan tokens para ganar intereses y otros piden prestado con esos depósitos como respaldo. El punto débil era su mercado de BUSD, una stablecoin que su emisor, Paxos, dejó de emitir en 2023. Ese mercado estaba casi vacío antes del ataque.
+
+Según la revisión de The Block del código público de Kava, la aplicación calcula los intereses de los depositantes dividiendo lo que pagan los prestatarios entre la oferta total del mercado. El código se saltaba ese paso solo cuando la oferta era exactamente cero, pero no se protegía frente a una cantidad diminuta apenas por encima de cero.
+
+Hacia las 10 de la noche del viernes, hora central de EE. UU., el atacante usó un pequeño préstamo para reducir la oferta del mercado de BUSD a dos cienmillonésimas de dólar. En tres minutos, el protocolo había multiplicado el valor de cada depósito de BUSD unas <strong>243.000 veces</strong>. El propio depósito de BUSD del atacante pasó a contar como unos 1.250 millones de BUSD en garantía.
+
+Luego, el atacante pidió prestado KAVA con esa garantía falsa 127 veces, usando una segunda cuenta para esquivar un límite de préstamos. El fondo de Kava Lend pasó de unos 55,33 millones de KAVA a 0,19 KAVA en algo más de hora y media. The Block señaló que el atacante parece haberse preparado durante al menos una semana, con depósitos y préstamos de prueba en el mercado de BUSD desde el 8 de noviembre.
+
+!mid_cta
+
+!figure:timeline
+
+## Tokens vendidos en BNB Chain
+
+Poco antes de las 4 de la madrugada del sábado, hora central, el atacante envió unos 49,2 millones de KAVA a BNB Chain a través del puente LayerZero de Kava. Vendió la mayor parte en menos de una hora por unos 3.006,5 BNB y 231.557 USDT, por un valor total de cerca de 2,09 millones de dólares. Otros 4,58 millones de KAVA fueron a cinco direcciones en Kava.
+
+[DeFiLlama](L3), que registra los hackeos cripto, clasificó el incidente como un error aritmético y estimó la pérdida en unos 3,7 millones de dólares. También informó de que unos 612.416 USDT del botín quedaron bloqueados en el puente Relay.
+
+## Qué ha dicho Kava
+
+Kava dijo por primera vez en X que estaba siguiendo un "comportamiento inesperado originado en una dApp" hacia las 5:28 de la mañana del sábado, hora central, más de siete horas después de que empezara el ataque. En una publicación posterior afirmó: "No es una emisión infinita. El incidente está aislado y contenido dentro de Kava Lend". Añadió que los exchanges asociados habían pausado los depósitos y retiros de KAVA "como medida de precaución habitual" y más tarde pausó su puente Axelar. Los exchanges surcoreanos Upbit, Bithumb y Coinone suspendieron las transferencias de KAVA, informó [CryptoWatchDesk](L2).
+
+Kava no ha dado una cifra oficial de pérdidas, no ha dicho si devolverá el dinero a los usuarios de Kava Lend ni ha publicado un informe completo del incidente. Aseguró que lo publicará "en cuanto esté listo".
+
+## Qué significa para los principiantes
+
+Los hackeos como este suelen afectar a aplicaciones de finanzas descentralizadas (DeFi) más pequeñas, donde el código controla el dinero y no hay un seguro de una empresa detrás. Si estás empezando, guarda la mayor parte de tus criptomonedas en un gran exchange regulado como [Coinbase](REF) o en una billetera que controles tú, y ten cuidado con las aplicaciones de préstamos que prometen rendimientos extra. Ignora cualquier enlace de "reembolso" o "recuperación" tras un hackeo, porque los estafadores suelen aprovechar los grandes incidentes. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- El informe completo de Kava y si los usuarios afectados recuperarán su dinero.
+- Cuándo reanudan los exchanges y el puente Axelar las transferencias de KAVA.
+- Si parte de los fondos robados se congela o se devuelve.
+
+!soft: ¿No sabes dónde guardar tus monedas? Lee [qué es una billetera cripto: custodia frente a autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

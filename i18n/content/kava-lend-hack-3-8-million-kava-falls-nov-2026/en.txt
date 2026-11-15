@@ -1,0 +1,61 @@
+title: Kava Lend hacked for about $3.8 million as KAVA token falls nearly 40%
+page_title: Kava Lend loses about $3.8 million in hack, KAVA token drops
+description: An attacker drained about 55.2 million KAVA, worth roughly $3.76 million, from the Kava Lend protocol late Friday by exploiting a math flaw in an old BUSD market. KAVA fell about 40%.
+og_description: A hacker used a rounding flaw in Kava Lend's dormant BUSD market to borrow almost all of its KAVA, then sold most of it on BNB Chain. Exchanges paused KAVA transfers and the token fell nearly 40%.
+label: Security
+summary: An attacker drained about $3.8 million of KAVA from the Kava Lend protocol through a flaw in an unused BUSD market, and the token fell nearly 40%.
+===
+
+Kava Lend, the lending app built into the Kava blockchain, lost about <strong>55.2 million KAVA</strong> tokens to an attacker late Friday, according to onchain data reviewed by [The Block](L1). The tokens were worth roughly $3.76 million at the pre-attack price of about $0.068 each.
+
+The attacker then moved most of the coins to another network and sold them, which sent the KAVA token sharply lower. On Kraken, KAVA fell from about $0.068 to as low as $0.0344 on Saturday morning, a drop of nearly 50% at the worst point, and traded near $0.043 by Saturday evening, PlainBTC's check of Kraken's public price data shows.
+
+!takeaways
+- An attacker drained about 55.2 million KAVA, worth about $3.76 million, from Kava Lend late Friday.
+- The flaw was in Kava Lend's nearly empty market for BUSD, an old Binance-branded stablecoin.
+- About 49.2 million KAVA was bridged to BNB Chain and sold for roughly $2.1 million.
+- Kava says the incident is "isolated and contained within Kava Lend" and "not an infinite mint."
+
+!figure:chart
+
+## How the attack worked
+
+Kava Lend works like a simple online bank for crypto: users deposit tokens to earn interest, and others borrow against their deposits. The weak spot was its market for BUSD, a stablecoin that issuer Paxos stopped minting in 2023. That market was almost empty before the attack.
+
+According to The Block's review of Kava's public code, the app calculates depositors' interest by dividing what borrowers pay by the market's total supply. The code skipped that step only when the supply was exactly zero, but did not guard against a tiny amount just above zero.
+
+At about 10 p.m. Central time on Friday, the attacker used a small loan to push the BUSD market's supply down to two hundred-millionths of a dollar. Within three minutes, the protocol had multiplied the value of every BUSD deposit roughly <strong>243,000-fold</strong>. The attacker's own BUSD deposit was suddenly counted as about 1.25 billion BUSD of collateral.
+
+The attacker then borrowed KAVA against that fake collateral 127 times, using a second account to get around a borrowing cap. Kava Lend's pool went from about 55.33 million KAVA to 0.19 KAVA in a little over an hour and a half. The Block said the attacker appears to have prepared for at least a week, running test deposits and loans in the BUSD market since Nov. 8.
+
+!mid_cta
+
+!figure:timeline
+
+## Tokens sold on BNB Chain
+
+Starting just before 4 a.m. Central time on Saturday, the attacker sent about 49.2 million KAVA to BNB Chain through Kava's LayerZero bridge. Most of it was sold within an hour for about 3,006.5 BNB and 231,557 USDT, worth about $2.09 million in total. Another 4.58 million KAVA went to five addresses on Kava.
+
+[DeFiLlama](L3), which tracks crypto hacks, classified the incident as an arithmetic error and estimated the loss at about $3.7 million. It also reported that about 612,416 USDT of the proceeds was blocked at the Relay bridge.
+
+## What Kava has said
+
+Kava first said on X that it was tracking "unexpected behavior originating from a dApp" at about 5:28 a.m. Central time on Saturday, more than seven hours after the attack began. In a later post it said: "This is not an infinite mint. The event is isolated and contained within Kava Lend." It added that partner exchanges had paused KAVA deposits and withdrawals "as a standard precautionary measure," and later paused its Axelar bridge. South Korean exchanges Upbit, Bithumb and Coinone halted KAVA transfers, [CryptoWatchDesk](L2) reported.
+
+Kava has not given an official loss figure, said whether Kava Lend users will be repaid, or published a full incident report. It said one will follow "as soon as it is ready."
+
+## What it means for beginners
+
+Hacks like this usually hit smaller decentralized finance (DeFi) apps, where code controls the money and there is no company insurance behind it. If you are new, keep most of your crypto on a large regulated exchange such as [Coinbase](REF) or in a wallet you control, and be careful with lending apps promising extra yield. Ignore any "refund" or "recovery" links after a hack, since scammers often follow big incidents. This is not investment advice.
+
+## What to watch next
+
+- Kava's full incident report and whether affected users will be made whole.
+- When exchanges and the Axelar bridge resume KAVA transfers.
+- Whether any of the stolen funds are frozen or returned.
+
+!soft: Not sure where to keep your coins? Read [what a crypto wallet is: custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

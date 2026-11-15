@@ -1,0 +1,60 @@
+title: Bitcoin fällt unter 64.000 $ auf ein Dreimonatstief, die Angst erreicht extreme Werte
+page_title: Bitcoin fällt unter 64.000 $, tiefster Kurs seit August
+description: Bitcoin fiel am Samstag bei Kraken auf rund 63.243 $, den tiefsten Kurs seit dem 17. August, und liegt binnen einer Woche rund 15 % im Minus, belastet von Zinserhöhungswetten und ETF-Abflüssen.
+og_description: Bitcoin rutschte am Samstagabend unter 64.000 $, auf den tiefsten Stand seit drei Monaten. In sieben Tagen verlor er rund 15 %, Ether rund 21 %, und ein wichtiges Stimmungsbarometer fiel auf 10 von 100.
+label: Markt
+summary: Bitcoin erreichte am Samstag rund 63.243 $, den tiefsten Kurs seit Mitte August, während der Crypto Fear and Greed Index auf 10 fiel.
+===
+
+Der Bitcoin-Abverkauf hat am Samstagabend an Tempo gewonnen. Die größte Kryptowährung fiel bei Kraken in der Stunde ab 16 Uhr US-Central-Zeit auf <strong>63.242,60 $</strong>, den tiefsten Kurs seit dem 17. August, und erholte sich bis 18 Uhr auf rund 64.100 $. Früher am Tag hatte sie sich um 65.500 $ gehalten.
+
+Damit liegt Bitcoin binnen 24 Stunden rund 6 % und binnen sieben Tagen rund 15,4 % im Minus, wie die Berechnung von PlainBTC anhand öffentlicher Kursdaten von Kraken zeigt. Seit der Eröffnung am Montag bei rund 74.742 $ hat er etwa 14 % verloren. Der Rückgang am Samstag kam ohne konkreten Auslöser, im dünnen Wochenendhandel, während US-Börsen und ETFs geschlossen waren.
+
+!takeaways
+- Bitcoin erreichte am Samstag bei Kraken rund 63.243 $, den tiefsten Kurs seit dem 17. August 2026.
+- In sieben Tagen verlor er rund 15 %. Ether, XRP und Solana liegen jeweils rund 21 % bis 22 % im Minus.
+- Der Crypto Fear and Greed Index fiel auf 10 von 100, tief im Bereich „extreme Angst“.
+- US-Spot-Bitcoin-ETFs verzeichneten in den vergangenen zwei Wochen Abflüsse von rund 2,35 Mrd. $.
+
+!figure:chart
+
+## Altcoins fallen noch stärker
+
+Der übrige Markt fiel erneut schneller als Bitcoin. Bei Kraken sank Ether auf rund 1.729 $, Solana auf rund 68,53 $ und XRP auf rund 0,891 $, alle in derselben Stunde am späten Nachmittag. Auf Sicht von sieben Tagen lagen um 18 Uhr Central-Zeit Ether rund 21 %, XRP rund 21 % und Solana rund 22 % im Minus.
+
+Laut [CoinDesk](L1) hat Bitcoin seit dem US-Börsenschluss am Freitagabend rund 7 % verloren. Eine separate CoinGecko-Messung, die [CryptoTicker](L2) zitiert, bezifferte den Wert des gesamten Kryptomarkts auf rund 2,16 Billionen $, mehr als 9 % weniger als am Vortag, und zeigte Bitcoin rund 50 % unter seinem Rekordhoch von 126.080 $ aus dem Oktober 2025.
+
+Zwangsverkäufe verstärkten den Rückgang. Als Bitcoin unter 64.000 $ fiel, wurden binnen einer einzigen Stunde gehebelte Positionen im Wert von rund 691 Mio. $ liquidiert, davon rund 671 Mio. $ Wetten auf steigende Kurse, wie von CryptoTicker zitierte Daten von TokenPost zeigen. Eine Liquidation bedeutet, dass eine Börse eine mit geliehenem Geld eingegangene Wette automatisch schließt, weil die Sicherheiten nicht mehr reichen.
+
+## Angstbarometer nahe Rekordtiefs
+
+Die Stimmung der Anleger hat sich rasch verschlechtert. Der [Crypto Fear and Greed Index](L3), der die Marktstimmung von 0 bis 100 bewertet, stand beim Update am Sonntag (UTC) bei 10, nach 13 am Samstag und 20 am Freitag. Werte unter 25 gelten als „extreme Angst“.
+
+!mid_cta
+
+!figure:fact
+
+Manche Analysten sehen in dieser Düsternis ein Zeichen, dass der Verkaufsdruck bald nachlassen könnte, ohne einen Boden auszurufen. On-Chain-Analyst James Check schrieb, der Markt erlebe „das vierte Kapitulationsereignis seit dem Allzeithoch“, berichtete CoinDesk. Viele Verkäufer hätten im September über 80.000 $ gekauft und verkauften nun „genau zu dem Preis, den sie gern vor drei Monaten genutzt hätten“. Kapitulation heißt, dass Anleger aufgeben und mit Verlust verkaufen.
+
+## Warum die Kurse weiter fallen
+
+Zwei Belastungen stechen heraus. Erstens rechnen Händler inzwischen mit einer Zinserhöhung der US-Notenbank Fed im Dezember. Das Tool CME FedWatch zeigte am Samstag eine Wahrscheinlichkeit von 88,5 % für eine Anhebung um einen Viertelpunkt, berichtete CryptoTicker, nachdem Verbraucherpreise und Arbeitsmarkt im Oktober stärker als erwartet ausgefallen waren. Höhere Zinsen ziehen meist Geld aus riskanteren Anlagen wie Krypto ab.
+
+Zweitens verkaufen große Fonds weiter. US-Spot-Bitcoin-ETFs (börsengehandelte Fonds) verzeichneten diese Woche Nettoabflüsse von rund 1,07 Mrd. $ nach 1,28 Mrd. $ in der Vorwoche, zusammen rund 2,35 Mrd. $ in zwei Wochen, wie Daten von Farside Investors zeigen, über die [Cointelegraph](L4) berichtete. Beim iShares Bitcoin Trust (IBIT) von BlackRock gab es an 11 Handelstagen in Folge Abflüsse.
+
+## Was das für Einsteiger bedeutet
+
+Starke Rückgänge wie dieser gehören zum Bitcoin-Besitz, und niemand kann zuverlässig sagen, wo der Boden liegt. Wer neu ist, sollte auf geliehenes Geld verzichten, nur investieren, was er auch deutlich weiter fallen sehen könnte, und in Jahren statt in Tagen denken. Manche Einsteiger kaufen lieber regelmäßig kleine feste Beträge, statt den richtigen Moment abzupassen. Eine regulierte US-Börse wie [Coinbase](REF) bietet Sparpläne an; vergleichen Sie zuerst die Gebühren und lesen Sie die Bedingungen. Dies ist keine Anlageberatung.
+
+## Worauf es jetzt ankommt
+
+- Der Wochenschluss am Sonntag, der auf den sechsten Wochenverlust in Folge für Bitcoin zusteuert.
+- Ob Bitcoin die Tiefs von Mitte August bei rund 62.700 $ auf Kraken hält.
+- Die Flüsse der Spot-Bitcoin-ETFs, wenn die US-Märkte am Montag, dem 16. November, wieder öffnen.
+- Das Protokoll der Fed-Sitzung vom Oktober, das am Mittwoch erscheint.
+
+!soft: Sie suchen einen ruhigeren Weg, durch solche Schwankungen zu investieren? Lesen Sie, [wie viel Bitcoin Einsteiger kaufen sollten](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

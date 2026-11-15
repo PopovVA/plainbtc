@@ -1,0 +1,61 @@
+title: Kava Lend um rund 3,8 Mio. $ gehackt, KAVA-Token verliert fast 40 %
+page_title: Kava Lend verliert bei Hack rund 3,8 Mio. $, KAVA-Token bricht ein
+description: Ein Angreifer hat am Freitagabend rund 55,2 Mio. KAVA im Wert von etwa 3,76 Mio. $ aus dem Protokoll Kava Lend abgezogen und dabei einen Rechenfehler in einem alten BUSD-Markt ausgenutzt. KAVA fiel um rund 40 %.
+og_description: Ein Hacker nutzte einen Rundungsfehler im ruhenden BUSD-Markt von Kava Lend, um fast den gesamten KAVA-Bestand zu leihen, und verkaufte den Großteil auf der BNB Chain. Börsen stoppten KAVA-Transfers, der Token fiel fast 40 %.
+label: Sicherheit
+summary: Ein Angreifer zog über eine Lücke in einem ungenutzten BUSD-Markt rund 3,8 Mio. $ in KAVA aus dem Protokoll Kava Lend ab, der Token fiel fast 40 %.
+===
+
+Kava Lend, die in die Kava-Blockchain eingebaute Kreditplattform, hat am Freitagabend rund <strong>55,2 Mio. KAVA</strong>-Token an einen Angreifer verloren, wie von [The Block](L1) ausgewertete On-Chain-Daten zeigen. Die Token waren zum Kurs vor dem Angriff von rund 0,068 $ pro Stück etwa 3,76 Mio. $ wert.
+
+Danach verschob der Angreifer den Großteil der Coins in ein anderes Netzwerk und verkaufte sie, was den KAVA-Kurs stark drückte. Bei Kraken fiel KAVA von rund 0,068 $ auf ein Tief von 0,0344 $ am Samstagmorgen, im schlimmsten Moment ein Minus von fast 50 %, und notierte am Samstagabend bei rund 0,043 $, wie eine Auswertung öffentlicher Kraken-Kursdaten durch PlainBTC zeigt.
+
+!takeaways
+- Ein Angreifer zog am Freitagabend rund 55,2 Mio. KAVA im Wert von etwa 3,76 Mio. $ aus Kava Lend ab.
+- Die Lücke lag im fast leeren Kava-Lend-Markt für BUSD, einen alten Stablecoin der Marke Binance.
+- Rund 49,2 Mio. KAVA wurden zur BNB Chain gebracht und für etwa 2,1 Mio. $ verkauft.
+- Kava erklärt, der Vorfall sei „isoliert und auf Kava Lend beschränkt“ und „keine unbegrenzte Neuausgabe“.
+
+!figure:chart
+
+## So lief der Angriff ab
+
+Kava Lend funktioniert wie eine einfache Onlinebank für Krypto: Nutzer hinterlegen Token, um Zinsen zu erhalten, andere leihen sich Geld gegen diese Einlagen. Die Schwachstelle war der BUSD-Markt, ein Stablecoin, den der Emittent Paxos seit 2023 nicht mehr ausgibt. Dieser Markt war vor dem Angriff nahezu leer.
+
+Laut der Analyse von The Block zum öffentlichen Code von Kava berechnet die Anwendung die Zinsen der Einleger, indem sie die Zahlungen der Kreditnehmer durch das Gesamtangebot des Marktes teilt. Der Code übersprang diesen Schritt nur, wenn das Angebot genau null war, schützte sich aber nicht gegen einen winzigen Betrag knapp über null.
+
+Gegen 22 Uhr US-Central-Zeit am Freitag drückte der Angreifer mit einem kleinen Kredit das Angebot im BUSD-Markt auf zwei Hundertmillionstel Dollar. Innerhalb von drei Minuten hatte das Protokoll den Wert jeder BUSD-Einlage rund <strong>243.000-fach</strong> erhöht. Die eigene BUSD-Einlage des Angreifers zählte plötzlich als rund 1,25 Mrd. BUSD an Sicherheiten.
+
+Anschließend lieh sich der Angreifer 127-mal KAVA gegen diese falschen Sicherheiten und nutzte ein zweites Konto, um eine Kreditobergrenze zu umgehen. Der Pool von Kava Lend schrumpfte in etwas mehr als anderthalb Stunden von rund 55,33 Mio. KAVA auf 0,19 KAVA. Laut The Block hat sich der Angreifer offenbar mindestens eine Woche lang vorbereitet und seit dem 8. November Testeinlagen und -kredite im BUSD-Markt durchgeführt.
+
+!mid_cta
+
+!figure:timeline
+
+## Token auf der BNB Chain verkauft
+
+Kurz vor 4 Uhr Central-Zeit am Samstag schickte der Angreifer rund 49,2 Mio. KAVA über die LayerZero-Bridge von Kava zur BNB Chain. Der Großteil wurde binnen einer Stunde für rund 3.006,5 BNB und 231.557 USDT verkauft, zusammen etwa 2,09 Mio. $ wert. Weitere 4,58 Mio. KAVA gingen an fünf Adressen auf Kava.
+
+[DeFiLlama](L3), das Krypto-Hacks erfasst, stufte den Vorfall als Rechenfehler ein und schätzte den Schaden auf rund 3,7 Mio. $. Zudem seien rund 612.416 USDT aus der Beute an der Relay-Bridge blockiert worden.
+
+## Was Kava sagt
+
+Kava schrieb erstmals gegen 5:28 Uhr Central-Zeit am Samstag auf X, man verfolge „unerwartetes Verhalten, das von einer dApp ausgeht“, mehr als sieben Stunden nach Beginn des Angriffs. In einem späteren Beitrag hieß es: „Dies ist keine unbegrenzte Neuausgabe. Das Ereignis ist isoliert und auf Kava Lend beschränkt.“ Partnerbörsen hätten Ein- und Auszahlungen von KAVA „als übliche Vorsichtsmaßnahme“ ausgesetzt; später pausierte Kava auch seine Axelar-Bridge. Die südkoreanischen Börsen Upbit, Bithumb und Coinone stoppten KAVA-Transfers, berichtete [CryptoWatchDesk](L2).
+
+Kava hat weder eine offizielle Schadenssumme genannt noch gesagt, ob Nutzer von Kava Lend entschädigt werden, und noch keinen vollständigen Vorfallbericht veröffentlicht. Dieser soll folgen, „sobald er fertig ist“.
+
+## Was das für Einsteiger bedeutet
+
+Hacks wie dieser treffen meist kleinere Anwendungen der dezentralen Finanzwelt (DeFi), in denen Code das Geld verwaltet und keine Versicherung eines Unternehmens dahintersteht. Wer neu ist, sollte den Großteil seiner Kryptowerte bei einer großen regulierten Börse wie [Coinbase](REF) oder in einer selbst kontrollierten Wallet halten und bei Kreditplattformen mit Extrarendite vorsichtig sein. Ignorieren Sie nach einem Hack alle Links zu „Erstattung“ oder „Wiederherstellung“, denn Betrüger nutzen große Vorfälle oft aus. Dies ist keine Anlageberatung.
+
+## Worauf es jetzt ankommt
+
+- Kavas vollständiger Vorfallbericht und ob betroffene Nutzer entschädigt werden.
+- Wann Börsen und die Axelar-Bridge KAVA-Transfers wieder aufnehmen.
+- Ob ein Teil der gestohlenen Mittel eingefroren oder zurückgegeben wird.
+
+!soft: Unsicher, wo Sie Ihre Coins aufbewahren sollen? Lesen Sie, [was eine Krypto-Wallet ist: verwahrt oder selbst verwaltet](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

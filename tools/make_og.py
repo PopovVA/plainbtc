@@ -32,6 +32,16 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "bitcoin-falls-below-64000-three-month-low-nov-2026",
+        "Bitcoin falls below $64,000 to a three-month low as fear hits extreme levels",
+        "MARKET NEWS",
+    ),
+    (
+        "kava-lend-hack-3-8-million-kava-falls-nov-2026",
+        "Kava Lend hacked for about $3.8 million as KAVA token falls nearly 40%",
+        "SECURITY",
+    ),
+    (
         "ether-solana-xrp-lead-selloff-bitcoin-65000-nov-2026",
         "Ether, solana and XRP fall harder than bitcoin as BTC touches $65,000",
         "MARKET NEWS",
@@ -195,6 +205,17 @@ ARTICLES = [
 # used for identification only). Each entry: (image URL, tile background RGB).
 WIKI = "https://upload.wikimedia.org/wikipedia/commons/"
 OG_LOGOS: dict[str, list[tuple[str, tuple[int, int, int]]]] = {
+    # Federal Reserve seal (public domain) and BlackRock wordmark (public domain, Wikimedia Commons):
+    # December rate hike bets and IBIT-led ETF outflows drove the drop.
+    "bitcoin-falls-below-64000-three-month-low-nov-2026": [
+        (WIKI + "7/73/Seal_of_the_United_States_Federal_Reserve_Board.svg", (255, 255, 255)),
+        (WIKI + "8/85/BlackRock_wordmark.svg", (255, 255, 255)),
+    ],
+    # Kava and BNB logos (cryptologos.cc), identification only: Kava Lend was drained and the KAVA sold on BNB Chain.
+    "kava-lend-hack-3-8-million-kava-falls-nov-2026": [
+        ("https://cryptologos.cc/logos/kava-kava-logo.svg", (255, 255, 255)),
+        ("https://cryptologos.cc/logos/bnb-bnb-logo.svg", (255, 255, 255)),
+    ],
     # Ethereum (CC BY 3.0, Wikimedia Commons) and Solana logos, identification only: altcoins led the selloff.
     "ether-solana-xrp-lead-selloff-bitcoin-65000-nov-2026": [
         (WIKI + "0/05/Ethereum_logo_2014.svg", (255, 255, 255)),

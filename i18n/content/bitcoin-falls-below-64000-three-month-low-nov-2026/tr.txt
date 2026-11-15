@@ -1,0 +1,60 @@
+title: Bitcoin 64.000 $'ın altına inerek üç ayın en düşük seviyesini gördü, korku aşırı seviyede
+page_title: Bitcoin 64.000 $'ın altına indi, ağustostan bu yana en düşük fiyat
+description: Bitcoin cumartesi günü Kraken'de yaklaşık 63.243 $'a, 17 Ağustos'tan bu yana en düşük fiyata geriledi. Faiz artışı beklentileri ve ETF çıkışlarıyla bir haftada yaklaşık %15 değer kaybetti.
+og_description: Bitcoin cumartesi akşamı 64.000 $'ın altına inerek üç ayın en düşük seviyesini gördü. Yedi günde yaklaşık %15, ether yaklaşık %21 düştü ve önemli bir piyasa duyarlılığı göstergesi 100 üzerinden 10'a indi.
+label: Piyasa
+summary: Bitcoin cumartesi günü yaklaşık 63.243 $ ile ağustos ortasından bu yana en düşük fiyatını gördü, Kripto Korku ve Açgözlülük Endeksi ise 10'a indi.
+===
+
+Bitcoin'deki düşüş cumartesi akşamı hızlandı. En büyük kripto para, Kraken'de ABD Merkezi saatiyle 16.00 dilimde <strong>63.242,60 $</strong>'a, 17 Ağustos'tan bu yana en düşük fiyata indi, ardından 18.00'e doğru yaklaşık 64.100 $'a toparlandı. Gün içinde daha önce 65.500 $ civarında tutunmuştu.
+
+Böylece bitcoin 24 saatte yaklaşık %6, yedi günde yaklaşık %15,4 değer kaybetti; bu, PlainBTC'nin Kraken'in herkese açık fiyat verileriyle yaptığı hesaplamaya dayanıyor. Pazartesi günkü yaklaşık 74.742 $'lık açılıştan bu yana kayıp yaklaşık %14. Cumartesi günkü düşüş belirli bir haber olmadan, ABD borsaları ve ETF'ler kapalıyken, hafta sonunun sığ piyasasında yaşandı.
+
+!takeaways
+- Bitcoin cumartesi günü Kraken'de yaklaşık 63.243 $'a inerek 17 Ağustos 2026'dan bu yana en düşük fiyatı gördü.
+- Yedi günde yaklaşık %15 düştü. Ether, XRP ve solana'nın her biri yaklaşık %21 ile %22 arasında geriledi.
+- Kripto Korku ve Açgözlülük Endeksi 100 üzerinden 10'a, "aşırı korku" bölgesinin derinlerine indi.
+- ABD'deki spot bitcoin ETF'lerinden son iki haftada yaklaşık 2,35 milyar $ çekildi.
+
+!figure:chart
+
+## Altcoin'ler daha da sert düşüyor
+
+Piyasanın geri kalanı yine bitcoin'den hızlı düştü. Kraken'de ether yaklaşık 1.729 $'a, solana yaklaşık 68,53 $'a ve XRP yaklaşık 0,891 $'a indi; hepsi aynı akşamüstü saatinde. Merkezi saatle 18.00 itibarıyla yedi günlük kayıp ether'de yaklaşık %21, XRP'de yaklaşık %21 ve solana'da yaklaşık %22 oldu.
+
+[CoinDesk](L1)'e göre bitcoin, ABD borsalarının cuma akşamki kapanışından bu yana yaklaşık %7 düştü. [CryptoTicker](L2)'ın aktardığı ayrı bir CoinGecko verisi, tüm kripto piyasasının değerini bir günde %9'dan fazla düşüşle yaklaşık 2,16 trilyon $ olarak gösterdi; bitcoin ise Ekim 2025'teki 126.080 $'lık rekorunun yaklaşık %50 altındaydı.
+
+Zorunlu satışlar düşüşü derinleştirdi. Bitcoin 64.000 $'ın altına indiğinde tek bir saatte yaklaşık 691 milyon $'lık kaldıraçlı pozisyon tasfiye edildi; bunun yaklaşık 671 milyon $'ı yükseliş bahsiydi. Veriler CryptoTicker'ın aktardığı TokenPost'a ait. Tasfiye, teminatı yetersiz kalan borçla açılmış bir pozisyonun borsa tarafından otomatik olarak kapatılmasıdır.
+
+## Korku göstergesi dip seviyelerde
+
+Yatırımcıların havası hızla bozuldu. Piyasa duyarlılığını 0 ile 100 arasında puanlayan [Kripto Korku ve Açgözlülük Endeksi](L3), pazar günkü güncellemede (UTC) 10'u gösterdi; cumartesi 13, cuma ise 20'ydi. 25'in altındaki değerler "aşırı korku" sayılıyor.
+
+!mid_cta
+
+!figure:fact
+
+Bazı analistler bu karamsarlığı, dip çağrısı yapmadan, satışların tükenmeye yakın olabileceğinin işareti olarak görüyor. Zincir üstü analist James Check, piyasanın "tüm zamanların zirvesinden bu yana dördüncü teslimiyet olayını" yaşadığını söyledi, CoinDesk'in aktardığına göre. Ona göre satıcıların çoğu eylülde 80.000 $'ın üzerinden aldı ve şimdi "üç ay önce keşke yararlansaydık dedikleri fiyattan" satıyor. Teslimiyet, yatırımcıların pes edip zararına satması anlamına geliyor.
+
+## Fiyatlar neden düşmeye devam ediyor
+
+İki baskı öne çıkıyor. Birincisi, yatırımcılar artık ABD Merkez Bankası Fed'in aralıkta faiz artırmasını bekliyor. CryptoTicker'ın aktardığına göre CME FedWatch aracı cumartesi günü çeyrek puanlık artış için %88,5 olasılık gösterdi; bu, ekim ayı tüketici fiyatları ve istihdamın beklentilerin üzerinde gelmesinin ardından oldu. Yüksek faizler genellikle parayı kripto gibi riskli varlıklardan çeker.
+
+İkincisi, büyük fonlar satmaya devam ediyor. ABD'deki spot bitcoin borsa yatırım fonlarından (ETF) bu hafta yaklaşık 1,07 milyar $ net çıkış oldu; önceki hafta 1,28 milyar $ çıkmıştı, yani iki haftada yaklaşık 2,35 milyar $. Veriler [Cointelegraph](L4)'ın aktardığı Farside Investors'a ait. BlackRock'ın iShares Bitcoin Trust (IBIT) fonunda üst üste 11 işlem günüdür çıkış var.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Bu tür sert düşüşler bitcoin sahibi olmanın bir parçası ve dibin nerede olduğunu kimse güvenilir şekilde söyleyemez. Yeniyseniz borç parayla işlem yapmayın, yalnızca çok daha fazla düştüğünü görmeyi kaldırabileceğiniz kadar yatırım yapın ve günlerle değil yıllarla düşünün. Bazı yeni başlayanlar doğru anı yakalamaya çalışmak yerine düzenli olarak küçük ve sabit tutarlarda alım yapmayı tercih ediyor. [Coinbase](REF) gibi düzenlemeye tabi bir ABD borsası düzenli alımı destekliyor; önce ücretleri karşılaştırın ve koşulları okuyun. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Bitcoin'in üst üste altıncı haftalık kaybına doğru giden pazar günkü haftalık kapanış.
+- Bitcoin'in Kraken'de 62.700 $ civarındaki ağustos ortası diplerini koruyup koruyamayacağı.
+- ABD piyasaları 16 Kasım pazartesi yeniden açıldığında spot bitcoin ETF akışları.
+- Fed'in ekim toplantısının çarşamba günü yayımlanacak tutanakları.
+
+!soft: Bu dalgalanmalarda daha sakin bir yatırım yolu mu arıyorsunuz? [Yeni başlayanların ne kadar bitcoin alması gerektiğini](/articles/how-much-bitcoin-should-a-beginner-buy-dca) okuyun.
+
+!end_cta
+
+!disclosure

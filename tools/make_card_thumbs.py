@@ -877,6 +877,51 @@ def thumb_binance_reopen():
     ],"note":"Editorial composite for identification; trademarks belong to their owners."}
 
 
+def thumb_btc_below_64k():
+    """Kraken XBTUSD daily lows, Aug 1 - Nov 14, 2026: back to the mid-August lows."""
+    xs, _c = kraken_ohlc(1440)
+    url = "https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=1440"
+    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60, context=CTX) as r:
+        rows = next(v for k, v in json.load(r)["result"].items() if k != "last")
+    start = datetime(2026, 8, 1, tzinfo=timezone.utc); end = datetime(2026, 11, 15, tzinfo=timezone.utc)
+    pts = [(datetime.fromtimestamp(r[0], tz=timezone.utc), float(r[3])) for r in rows]
+    pts = [p for p in pts if start <= p[0] < end]
+    xs, lows = [p[0] for p in pts], [p[1] for p in pts]
+    fig, ax = plt.subplots(figsize=(6.4,3.6), dpi=100); fig.patch.set_facecolor("#0f1419")
+    style_ax(ax, "")
+    ax.plot(xs, lows, color="#f7931a", linewidth=2.0)
+    ax.axhline(lows[-1], color="#38bdf8", linestyle="--", linewidth=1.2)
+    ax.set_ylim(min(lows) * 0.97, max(lows) * 1.04)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v,_: f"${v/1000:.0f}k"))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
+    im = chart_to_image(fig)
+    label_chip(im, "Bitcoin daily low since Aug. 1 (Kraken)")
+    return im, {"kind":"chart","sources":[
+        {"file":"Kraken OHLC XBTUSD interval=1440","license":"Kraken public API","url":"https://docs.kraken.com/api/docs/rest-api/get-ohlc-data","credit":"Daily BTC/USD lows, Aug 1 - Nov 14, 2026, from Kraken"}
+    ]}
+
+
+def thumb_kava_hack():
+    """Kava logo (identification) with the drained amount from The Block's Nov 14, 2026 report."""
+    kava = fetch("https://cryptologos.cc/logos/kava-kava-logo.svg", CACHE/"kava-logo.svg")
+    base = gradient_bg()
+    card_w, card_h = 230, 200
+    x, y = 70, 80
+    tile = Image.new("RGBA", (card_w, card_h), (255,255,255,255))
+    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), (x, y), mask)
+    paste_contain(base, Image.open(kava).convert("RGBA"), (x, y, card_w, card_h), pad=30)
+    d = ImageDraw.Draw(base)
+    d.text((350, 92), "55.2M", font=font(FONT_B, 80), fill=ORANGE)
+    d.text((352, 200), "KAVA drained", font=font(FONT_B, 22), fill=WHITE)
+    d.text((352, 232), "from Kava Lend, about $3.76M", font=font(FONT_R, 18), fill=(203,213,225))
+    label_chip(base, "Kava Lend · exploit")
+    return base, {"kind":"composite","sources":[
+        {"file":"kava-kava-logo.svg","license":"Logo","url":"https://cryptologos.cc/kava","credit":"Kava"},
+        {"file":"The Block, Nov. 14, 2026","license":"Figure cited","url":"https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350","credit":"The Block"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -910,6 +955,8 @@ BUILDERS = {
     "unocoin-hack-bitgo-backup-keys-nov-2026": thumb_unocoin_keys,
     "ether-solana-xrp-lead-selloff-bitcoin-65000-nov-2026": thumb_alt_selloff,
     "binance-reopens-withdrawals-87-networks-nov-2026": thumb_binance_reopen,
+    "bitcoin-falls-below-64000-three-month-low-nov-2026": thumb_btc_below_64k,
+    "kava-lend-hack-3-8-million-kava-falls-nov-2026": thumb_kava_hack,
 }
 
 def first_figure_source(slug: str) -> Path | None:

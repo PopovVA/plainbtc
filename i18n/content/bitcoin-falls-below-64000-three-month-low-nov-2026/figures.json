@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-hourly-nov-9-14.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin's hourly price on Kraken from Nov. 9 to Nov. 14, 2026, falling from about $75,000 to about $64,000, with a dashed line at the Nov. 14 low of about $63,243",
+      "es": "Gráfico de líneas del precio horario de bitcoin en Kraken del 9 al 14 de noviembre de 2026: cae de unos 75.000 dólares a unos 64.000, con una línea discontinua en el mínimo del 14 de noviembre, de unos 63.243 dólares",
+      "pt": "Gráfico de linha do preço horário do bitcoin na Kraken de 9 a 14 de novembro de 2026: cai de cerca de US$ 75.000 para cerca de US$ 64.000, com uma linha tracejada na mínima de 14 de novembro, de cerca de US$ 63.243",
+      "fr": "Courbe du cours horaire du bitcoin sur Kraken du 9 au 14 novembre 2026 : il passe d'environ 75 000 dollars à environ 64 000 dollars, avec une ligne pointillée au plus bas du 14 novembre, environ 63 243 dollars",
+      "de": "Liniendiagramm des stündlichen Bitcoin-Kurses bei Kraken vom 9. bis 14. November 2026: Rückgang von rund 75.000 $ auf rund 64.000 $; gestrichelte Linie beim Tief vom 14. November von rund 63.243 $",
+      "ru": "Линейный график почасовой цены биткоина на Kraken с 9 по 14 ноября 2026 года: падение примерно с $75 000 до около $64 000; пунктирная линия показывает минимум 14 ноября, около $63 243",
+      "tr": "Bitcoin'in 9-14 Kasım 2026'da Kraken'deki saatlik fiyatının çizgi grafiği: yaklaşık 75.000 $'dan yaklaşık 64.000 $'a düşüyor; kesikli çizgi 14 Kasım'daki yaklaşık 63.243 $'lık dibi gösteriyor",
+      "id": "Grafik garis harga bitcoin per jam di Kraken pada 9 hingga 14 November 2026: turun dari sekitar US$75.000 ke sekitar US$64.000, dengan garis putus-putus di level terendah 14 November sekitar US$63.243",
+      "ja": "2026年11月9〜14日のKrakenにおけるビットコイン1時間足の折れ線グラフ：約7万5000ドルから約6万4000ドルに下落。破線は11月14日の安値（約6万3243ドル）",
+      "ko": "2026년 11월 9~14일 크라켄 비트코인 시간별 가격 선 차트: 약 7만 5,000달러에서 약 6만 4,000달러로 하락, 점선은 11월 14일 저점 약 6만 3,243달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken BTC/USD hourly closes",
+      "es": "Gráfico: PlainBTC, datos: Kraken BTC/USD hourly closes",
+      "pt": "Gráfico: PlainBTC, dados: Kraken BTC/USD hourly closes",
+      "fr": "Graphique : PlainBTC, données : Kraken BTC/USD hourly closes",
+      "de": "Chart: PlainBTC, Daten: Kraken BTC/USD hourly closes",
+      "ru": "График: PlainBTC, данные: Kraken BTC/USD hourly closes",
+      "tr": "Grafik: PlainBTC, veri: Kraken BTC/USD hourly closes",
+      "id": "Grafik: PlainBTC, data: Kraken BTC/USD hourly closes",
+      "ja": "チャート: PlainBTC、データ: Kraken BTC/USD hourly closes",
+      "ko": "차트: PlainBTC, 데이터: Kraken BTC/USD hourly closes"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-fear-greed-10.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: the Crypto Fear and Greed Index read 10 out of 100, extreme fear, down from 13 on Nov. 14 and 20 on Nov. 13",
+      "es": "Tarjeta: el índice Crypto Fear and Greed marcó 10 sobre 100, miedo extremo, frente a 13 el 14 de noviembre y 20 el 13 de noviembre",
+      "pt": "Cartão: o índice Crypto Fear and Greed marcou 10 de 100, medo extremo, ante 13 em 14 de novembro e 20 em 13 de novembro",
+      "fr": "Encadré : l'indice Crypto Fear and Greed est tombé à 10 sur 100, peur extrême, contre 13 le 14 novembre et 20 le 13 novembre",
+      "de": "Faktenkarte: Der Crypto Fear and Greed Index stand bei 10 von 100, extreme Angst, nach 13 am 14. November und 20 am 13. November",
+      "ru": "Карточка: индекс страха и жадности криптовалют (Crypto Fear and Greed) опустился до 10 из 100, крайний страх; 14 ноября было 13, 13 ноября 20",
+      "tr": "Kart: Kripto Korku ve Açgözlülük Endeksi 100 üzerinden 10'a, aşırı korku seviyesine indi; 14 Kasım'da 13, 13 Kasım'da 20'ydi",
+      "id": "Kartu fakta: Crypto Fear and Greed Index berada di 10 dari 100, ketakutan ekstrem, turun dari 13 pada 14 November dan 20 pada 13 November",
+      "ja": "カード：暗号資産の恐怖・強欲指数は100点中10の「極度の恐怖」。11月14日は13、11月13日は20だった",
+      "ko": "카드: 암호화폐 공포·탐욕 지수가 100점 만점에 10으로 '극단적 공포' 수준, 11월 14일 13, 11월 13일 20에서 하락"
+    },
+    "caption": {
+      "en": "Source: Alternative.me Crypto Fear and Greed Index",
+      "es": "Fuente: Alternative.me Crypto Fear and Greed Index",
+      "pt": "Fonte: Alternative.me Crypto Fear and Greed Index",
+      "fr": "Source : Alternative.me Crypto Fear and Greed Index",
+      "de": "Quelle: Alternative.me Crypto Fear and Greed Index",
+      "ru": "Источник: Alternative.me Crypto Fear and Greed Index",
+      "tr": "Kaynak: Alternative.me Crypto Fear and Greed Index",
+      "id": "Sumber: Alternative.me Crypto Fear and Greed Index",
+      "ja": "出典: Alternative.me Crypto Fear and Greed Index",
+      "ko": "출처: Alternative.me Crypto Fear and Greed Index"
+    }
+  }
+]

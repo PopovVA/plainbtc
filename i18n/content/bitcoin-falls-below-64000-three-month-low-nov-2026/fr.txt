@@ -1,0 +1,60 @@
+title: Le bitcoin passe sous 64 000 dollars, au plus bas depuis trois mois, sur fond de peur extrême
+page_title: Le bitcoin passe sous 64 000 dollars, au plus bas depuis août
+description: Le bitcoin est tombé à environ 63 243 dollars sur Kraken samedi, son plus bas depuis le 17 août, et perd environ 15 % en une semaine sous l'effet des paris sur une hausse des taux et des sorties des ETF.
+og_description: Le bitcoin est passé sous 64 000 dollars samedi en fin de journée, au plus bas depuis trois mois. Il perd environ 15 % en sept jours, l'ether environ 21 %, et un indicateur clé du sentiment est tombé à 10 sur 100.
+label: Marchés
+summary: Le bitcoin a touché environ 63 243 dollars samedi, son plus bas depuis la mi-août, tandis que l'indice Crypto Fear and Greed chutait à 10.
+===
+
+La baisse du bitcoin s'est accélérée samedi en fin de journée. La première cryptomonnaie est tombée à <strong>63 242,60 dollars</strong> sur Kraken vers 16 h, heure du Centre des États-Unis, son plus bas depuis le 17 août, avant de remonter vers 64 100 dollars à 18 h. Plus tôt dans la journée, elle se maintenait autour de 65 500 dollars.
+
+Le bitcoin perd ainsi environ 6 % en 24 heures et environ 15,4 % en sept jours, selon le calcul de PlainBTC à partir des données de prix publiques de Kraken. Depuis l'ouverture de lundi, à environ 74 742 dollars, il a cédé près de 14 %. La chute de samedi est intervenue sans déclencheur précis, dans un marché de week-end peu actif, alors que la Bourse et les ETF américains étaient fermés.
+
+!takeaways
+- Le bitcoin a touché environ 63 243 dollars sur Kraken samedi, son plus bas depuis le 17 août 2026.
+- Il perd environ 15 % en sept jours. L'ether, le XRP et le solana reculent chacun d'environ 21 % à 22 %.
+- L'indice Crypto Fear and Greed est tombé à 10 sur 100, en pleine « peur extrême ».
+- Les ETF bitcoin au comptant américains ont subi environ 2,35 milliards de dollars de retraits en deux semaines.
+
+!figure:chart
+
+## Les altcoins chutent encore plus
+
+Le reste du marché a de nouveau baissé plus vite que le bitcoin. Sur Kraken, l'ether est descendu à environ 1 729 dollars, le solana à environ 68,53 dollars et le XRP à environ 0,891 dollar, tous dans la même heure de fin d'après-midi. Sur sept jours, l'ether perdait environ 21 %, le XRP environ 21 % et le solana environ 22 % à 18 h, heure du Centre.
+
+Selon [CoinDesk](L1), le bitcoin a chuté d'environ 7 % depuis la clôture de Wall Street vendredi soir. Une autre mesure de CoinGecko citée par [CryptoTicker](L2) évaluait l'ensemble du marché crypto à environ 2 160 milliards de dollars, en baisse de plus de 9 % en une journée, et plaçait le bitcoin à environ 50 % sous son record de 126 080 dollars d'octobre 2025.
+
+Les ventes forcées ont amplifié la baisse. Quand le bitcoin est passé sous 64 000 dollars, environ 691 millions de dollars de positions à effet de levier ont été liquidés en une seule heure, dont environ 671 millions de paris à la hausse, selon des données de TokenPost citées par CryptoTicker. Une liquidation se produit lorsqu'une plateforme ferme automatiquement un pari financé par emprunt dont la garantie ne suffit plus.
+
+## L'indicateur de peur proche de ses plus bas
+
+Le moral des investisseurs s'est vite dégradé. L'[indice Crypto Fear and Greed](L3), qui note le sentiment du marché de 0 à 100, affichait 10 lors de la mise à jour de dimanche (UTC), contre 13 samedi et 20 vendredi. Sous 25, on parle de « peur extrême ».
+
+!mid_cta
+
+!figure:fact
+
+Certains analystes y voient le signe que les ventes approchent de l'épuisement, sans pour autant annoncer un plancher. L'analyste on-chain James Check a estimé que le marché assiste au « quatrième épisode de capitulation depuis le record historique », a rapporté CoinDesk. Selon lui, beaucoup de vendeurs ont acheté en septembre au-dessus de 80 000 dollars et vendent maintenant « au prix même dont ils regrettent de ne pas avoir profité il y a trois mois ». La capitulation désigne des investisseurs qui abandonnent et vendent à perte.
+
+## Pourquoi les prix continuent de baisser
+
+Deux pressions ressortent. D'abord, les investisseurs s'attendent désormais à ce que la Réserve fédérale relève ses taux en décembre. L'outil CME FedWatch affichait samedi une probabilité de 88,5 % d'une hausse d'un quart de point, selon CryptoTicker, après des prix à la consommation et des embauches d'octobre plus forts que prévu. Des taux plus élevés ont tendance à détourner l'argent des actifs risqués comme les cryptomonnaies.
+
+Ensuite, les grands fonds continuent de vendre. Les fonds négociés en Bourse (ETF) bitcoin au comptant américains ont enregistré environ 1,07 milliard de dollars de sorties nettes cette semaine, après 1,28 milliard la semaine précédente, soit environ 2,35 milliards en deux semaines, selon les données de Farside Investors relayées par [Cointelegraph](L4). L'iShares Bitcoin Trust (IBIT) de BlackRock enregistre des retraits depuis 11 séances d'affilée.
+
+## Ce que cela signifie pour les débutants
+
+Les fortes baisses font partie de la détention de bitcoin, et personne ne peut dire avec certitude où se trouve le plancher. Si vous débutez, évitez l'argent emprunté, n'investissez que ce que vous pourriez supporter de voir chuter beaucoup plus et raisonnez en années plutôt qu'en jours. Certains débutants préfèrent acheter de petits montants fixes à intervalles réguliers plutôt que de chercher le bon moment. Une plateforme américaine réglementée comme [Coinbase](REF) propose des achats récurrents ; comparez les frais et lisez les conditions d'abord. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- La clôture hebdomadaire de dimanche, en passe de marquer la sixième semaine de baisse d'affilée pour le bitcoin.
+- La capacité du bitcoin à tenir les plus bas de la mi-août, vers 62 700 dollars sur Kraken.
+- Les flux des ETF bitcoin au comptant à la réouverture des marchés américains, lundi 16 novembre.
+- Le compte rendu de la réunion d'octobre de la Fed, attendu mercredi.
+
+!soft: Vous cherchez une façon plus sereine d'investir dans ces secousses ? Lisez [combien de bitcoins un débutant devrait acheter](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

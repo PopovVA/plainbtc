@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "kava-kava-logo.svg",
+      "license": "Logo",
+      "url": "https://cryptologos.cc/kava",
+      "credit": "Kava"
+    },
+    {
+      "file": "The Block, Nov. 14, 2026",
+      "license": "Figure cited",
+      "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350",
+      "credit": "The Block"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "kava-lend-hack-3-8-million-kava-falls-nov-2026",
+  "generated": "2026-11-15T00:03Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}
