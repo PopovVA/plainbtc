@@ -1,0 +1,62 @@
+title: Bitcoin se hunde hasta unos 62.000 dólares, mínimo de cuatro meses, y se liquidan 2.000 millones en apuestas cripto
+page_title: Bitcoin toca un mínimo de cuatro meses cerca de 62.000 dólares con liquidaciones de casi 2.000 millones
+description: Bitcoin cayó hasta unos 61.970 dólares en Kraken el sábado por la noche, su precio más bajo desde mediados de julio, mientras se liquidaban casi 2.000 millones de dólares en apuestas apalancadas en 24 horas. Después volvió a superar los 65.000 dólares.
+og_description: Bitcoin bajó brevemente hasta unos 61.970 dólares el sábado por la noche, su nivel más bajo desde julio, antes de rebotar por encima de 65.000 dólares. En un día se cerraron unos 1.960 millones de dólares en posiciones cripto apalancadas.
+label: Mercado
+summary: Bitcoin cayó hasta unos 61.970 dólares el sábado por la noche, su precio más bajo desde mediados de julio, mientras se cerraban a la fuerza casi 2.000 millones de dólares en apuestas apalancadas, y luego rebotó por encima de 65.000 dólares.
+===
+
+La caída de bitcoin durante el fin de semana marcó un nuevo mínimo el sábado por la noche. La mayor criptomoneda bajó hasta <strong>61.970,30 dólares</strong> en Kraken en la franja de las 7 p. m., hora central de EE. UU., su precio más bajo desde mediados de julio, según la revisión de PlainBTC de los [datos públicos de precios](L6) de Kraken. Eso fue unos 1.270 dólares por debajo del mínimo que había marcado apenas tres horas antes.
+
+La caída no duró mucho. En unas ocho horas bitcoin volvió a cerca de 66.090 dólares, un rebote de más del 6%, y el domingo por la mañana cotizaba cerca de 65.150 dólares. Aun así, sigue alrededor de un 14% por debajo de su nivel de hace una semana.
+
+!takeaways
+- Bitcoin tocó unos 61.970 dólares en Kraken el sábado por la noche, su precio más bajo desde el 13 de julio de 2026.
+- Unos 1.960 millones de dólares en posiciones cripto apalancadas se liquidaron en 24 horas, según datos de CoinGlass.
+- Ether cayó hasta unos 1.710 dólares, su nivel más bajo desde principios de julio, antes de recuperarse hasta unos 1.820 dólares.
+- Los ETF spot de bitcoin en EE. UU. suman siete sesiones seguidas de retiros, unos 1.910 millones de dólares en total.
+
+!figure:chart
+
+## Una ola de ventas forzadas
+
+El dinero prestado amplificó el movimiento. Unos 1.960 millones de dólares en posiciones cripto apalancadas se liquidaron en un periodo móvil de 24 horas, de ellos unos 750 millones en bitcoin, según datos de CoinGlass citados por [crypto.news](L2). Unos 600,5 millones de la cifra de bitcoin correspondían a operadores que apostaban por precios más altos.
+
+Una liquidación ocurre cuando un exchange cierra automáticamente una apuesta con dinero prestado porque el operador ya no tiene garantía suficiente para cubrir las pérdidas. Cada venta forzada puede empujar el precio más abajo y desencadenar la siguiente, por eso las caídas de fin de semana, con poco volumen, pueden volverse bruscas muy rápido.
+
+Las ventas también fueron intensas en los exchanges de EE. UU. En Coinbase, bitcoin tocó unos 61.946 dólares y luego subió a unos 65.098 dólares en la hora siguiente, informó [CryptoTicker](L3). En la hora del mínimo cambiaron de manos en Coinbase unos 3.400 bitcoin, más que en cualquier otra hora desde el inicio del fin de semana.
+
+!mid_cta
+
+!figure:fact
+
+## Ether y solana marcan nuevos mínimos
+
+El resto del mercado cayó en la misma hora. En Kraken, ether bajó hasta unos 1.710 dólares, su precio más bajo desde principios de julio, y solana cayó hasta unos 67,37 dólares. El domingo por la mañana ambos habían recuperado algo de terreno, con ether cerca de 1.820 dólares y solana cerca de 72 dólares, pero cada uno seguía cerca de un 19% abajo en siete días.
+
+El valor total de todas las criptomonedas cayó alrededor de un 4% en 24 horas, hasta unos 2,26 billones de dólares, según datos de CoinGecko citados por [Cointelegraph](L1).
+
+## Por qué sigue aumentando la presión
+
+Dos fuerzas han pesado sobre las criptomonedas toda la semana. La primera son los tipos de interés. Los mercados de futuros ya descuentan por completo una subida de un cuarto de punto de la Reserva Federal en diciembre, y los operadores ven probable otra subida en enero, informó CryptoTicker citando a TokenPost. Los tipos más altos suelen alejar el dinero de activos más arriesgados como bitcoin.
+
+La segunda es la venta constante de los grandes fondos. Los fondos cotizados (ETF) spot de bitcoin en EE. UU. registraron retiros netos durante siete sesiones seguidas hasta el 13 de noviembre, unos 1.910 millones de dólares en total, según datos de Farside Investors citados por crypto.news. [Decrypt](L4) informó que los activos totales de estos fondos han bajado a unos 94.900 millones de dólares, por debajo de los 100.000 millones que mantuvieron durante gran parte de octubre.
+
+El ánimo de los inversores es sombrío. El [índice Crypto Fear and Greed](L5) marcó 10 sobre 100 el domingo, de lleno en el "miedo extremo".
+
+## Qué significa para principiantes
+
+Los grandes vaivenes de fin de semana como este son comunes en cripto, y un rebote rápido no significa que las ventas hayan terminado. Si eres nuevo, evita el apalancamiento, porque las apuestas con dinero prestado son justamente las que se borraron este fin de semana. Invierte solo el dinero que podrías permitirte ver caer más, y piensa en años, no en días. Algunos principiantes prefieren comprar cantidades pequeñas y fijas de forma periódica en lugar de intentar atrapar el fondo. Un exchange regulado de EE. UU. como [Coinbase](REF) permite compras recurrentes; compara comisiones y lee las condiciones primero. Esto no es asesoramiento de inversión.
+
+## Qué vigilar
+
+- El cierre semanal del domingo a las 6 p. m., hora central, que mostrará cuánto perdió bitcoin esta semana.
+- La reapertura de los futuros de bitcoin de CME el domingo por la tarde, después de que el mercado se moviera con fuerza mientras estaban cerrados.
+- Si bitcoin se mantiene por encima del mínimo del sábado por la noche, cerca de 62.000 dólares.
+- Los flujos de los ETF spot de bitcoin cuando reabran los mercados de EE. UU. el lunes 16 de noviembre.
+
+!soft: ¿Quieres ver cómo se desarrollaron las liquidaciones a principios de mes? Lee [cómo una ola de liquidaciones de 1.000 millones de dólares sacudió a bitcoin](/articles/bitcoin-volatility-liquidations-nov-2026).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,62 @@
+title: Bitcoin fällt auf rund 62.000 $, ein Viermonatstief, und Krypto-Wetten über 2 Mrd. $ werden aufgelöst
+page_title: Bitcoin auf Viermonatstief bei rund 62.000 $, Liquidationen von fast 2 Mrd. $
+description: Bitcoin fiel am Samstagabend bei Kraken auf rund 61.970 $, den tiefsten Kurs seit Mitte Juli, während binnen 24 Stunden gehebelte Krypto-Wetten über fast 2 Mrd. $ liquidiert wurden. Danach stieg der Kurs wieder über 65.000 $.
+og_description: Bitcoin rutschte am Samstagabend kurz auf rund 61.970 $, den tiefsten Stand seit Juli, und erholte sich dann auf über 65.000 $. Gehebelte Krypto-Positionen über rund 1,96 Mrd. $ wurden an einem Tag geschlossen.
+label: Markt
+summary: Bitcoin fiel am Samstagabend auf rund 61.970 $, den tiefsten Kurs seit Mitte Juli, während gehebelte Krypto-Wetten über fast 2 Mrd. $ zwangsweise geschlossen wurden, und stieg danach wieder über 65.000 $.
+===
+
+Der Ausverkauf beim Bitcoin am Wochenende erreichte am Samstagabend ein neues Tief. Die größte Kryptowährung fiel bei Kraken in der Stunde ab 19 Uhr US-Central-Zeit auf <strong>61.970,30 $</strong>, den tiefsten Kurs seit Mitte Juli, wie PlainBTCs Auswertung der öffentlichen [Kursdaten](L6) von Kraken zeigt. Das waren rund 1.270 $ weniger als beim Tief, das er nur drei Stunden zuvor erreicht hatte.
+
+Der Einbruch hielt nicht lange. Innerhalb von etwa acht Stunden stieg Bitcoin wieder auf rund 66.090 $, ein Plus von mehr als 6 %, und notierte am Sonntagmorgen bei rund 65.150 $. Trotzdem liegt er noch etwa 14 % unter dem Stand von vor einer Woche.
+
+!takeaways
+- Bitcoin erreichte am Samstagabend bei Kraken rund 61.970 $, den tiefsten Kurs seit dem 13. Juli 2026.
+- Gehebelte Krypto-Positionen über rund 1,96 Mrd. $ wurden binnen 24 Stunden liquidiert, wie Daten von CoinGlass zeigen.
+- Ether fiel auf rund 1.710 $, den tiefsten Stand seit Anfang Juli, und erholte sich danach auf rund 1.820 $.
+- Aus US-Spot-Bitcoin-ETFs flossen an sieben Handelstagen in Folge Gelder ab, insgesamt rund 1,91 Mrd. $.
+
+!figure:chart
+
+## Eine Welle von Zwangsverkäufen
+
+Geliehenes Geld verstärkte die Bewegung. Rund 1,96 Mrd. $ an gehebelten Krypto-Positionen wurden in einem rollierenden 24-Stunden-Zeitraum liquidiert, davon rund 750 Mio. $ bei Bitcoin, wie Daten von CoinGlass zeigen, die [crypto.news](L2) zitiert. Rund 600,5 Mio. $ des Bitcoin-Betrags entfielen auf Trader, die auf steigende Kurse gesetzt hatten.
+
+Eine Liquidation passiert, wenn eine Börse eine mit geliehenem Geld eingegangene Wette automatisch schließt, weil der Trader nicht mehr genug Sicherheiten hat, um die Verluste zu decken. Jeder Zwangsverkauf kann den Kurs weiter drücken und den nächsten auslösen. Deshalb können Kursrückgänge am Wochenende bei dünnem Handel sehr schnell heftig werden.
+
+Auch an US-Börsen wurde kräftig verkauft. Bei Coinbase fiel Bitcoin auf rund 61.946 $ und stieg in der folgenden Stunde auf rund 65.098 $, berichtete [CryptoTicker](L3). In der Stunde des Tiefs wechselten bei Coinbase rund 3.400 Bitcoin den Besitzer, mehr als in jeder anderen Stunde seit Beginn des Wochenendes.
+
+!mid_cta
+
+!figure:fact
+
+## Ether und Solana auf neuen Tiefs
+
+Der übrige Markt fiel in derselben Stunde. Bei Kraken sank Ether auf rund 1.710 $, den tiefsten Kurs seit Anfang Juli, und Solana auf rund 67,37 $. Bis Sonntagmorgen machten beide etwas Boden gut, Ether auf rund 1.820 $ und Solana auf rund 72 $, lagen aber auf Sicht von sieben Tagen weiterhin jeweils rund 19 % im Minus.
+
+Der Gesamtwert aller Kryptowährungen fiel binnen 24 Stunden um rund 4 % auf etwa 2,26 Billionen $, wie Daten von CoinGecko zeigen, über die [Cointelegraph](L1) berichtete.
+
+## Warum der Druck anhält
+
+Zwei Kräfte belasteten Krypto die ganze Woche. Die erste sind die Zinsen. An den Terminmärkten ist eine Zinserhöhung der US-Notenbank Fed um einen Viertelpunkt im Dezember inzwischen vollständig eingepreist, und Händler halten einen weiteren Schritt im Januar für wahrscheinlich, berichtete CryptoTicker unter Berufung auf TokenPost. Höhere Zinsen ziehen Geld oft aus riskanteren Anlagen wie Bitcoin ab.
+
+Die zweite sind stetige Verkäufe großer Fonds. Aus börsengehandelten US-Spot-Bitcoin-Fonds (ETFs) flossen bis zum 13. November an sieben Handelstagen in Folge netto Gelder ab, insgesamt rund 1,91 Mrd. $, wie Daten von Farside Investors zeigen, die crypto.news zitiert. [Decrypt](L4) berichtete, dass das Gesamtvermögen dieser Fonds auf rund 94,9 Mrd. $ gesunken ist, unter die Marke von 100 Mrd. $, die sie fast den ganzen Oktober über gehalten hatten.
+
+Die Stimmung der Anleger ist düster. Der [Crypto Fear and Greed Index](L5) stand am Sonntag bei 10 von 100, tief im Bereich „extreme Angst“.
+
+## Was das für Einsteiger bedeutet
+
+Große Schwankungen am Wochenende wie diese sind bei Krypto häufig, und eine schnelle Erholung heißt nicht, dass die Verkäufe vorbei sind. Wenn Sie neu sind, verzichten Sie auf Hebel, denn genau die Wetten mit geliehenem Geld wurden an diesem Wochenende ausgelöscht. Investieren Sie nur Geld, bei dem Sie auch weitere Verluste verkraften könnten, und denken Sie in Jahren statt in Tagen. Manche Einsteiger kaufen lieber regelmäßig kleine feste Beträge, statt den Tiefpunkt erwischen zu wollen. Eine regulierte US-Börse wie [Coinbase](REF) bietet Sparpläne an; vergleichen Sie zuerst die Gebühren und lesen Sie die Bedingungen. Dies ist keine Anlageberatung.
+
+## Worauf man jetzt achten sollte
+
+- Der Wochenschluss am Sonntag um 18 Uhr Central-Zeit, der zeigen wird, wie viel Bitcoin in dieser Woche verloren hat.
+- Die Wiedereröffnung der CME-Bitcoin-Futures am Sonntagabend, nachdem sich der Markt während der Schließung stark bewegt hat.
+- Ob Bitcoin über dem Tief vom Samstagabend bei rund 62.000 $ bleibt.
+- Die Zuflüsse und Abflüsse der Spot-Bitcoin-ETFs, wenn die US-Märkte am Montag, dem 16. November, wieder öffnen.
+
+!soft: Wie liefen die Liquidationen Anfang des Monats ab? Lesen Sie, [wie eine Liquidationswelle über 1 Mrd. $ Bitcoin durchgeschüttelt hat](/articles/bitcoin-volatility-liquidations-nov-2026).
+
+!end_cta
+
+!disclosure

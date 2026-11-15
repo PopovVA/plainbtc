@@ -2632,6 +2632,55 @@ def build_kava_hack():
     ]
 
 
+def build_btc_62k_liquidations():
+    slug = "bitcoin-four-month-low-62000-liquidations-nov-2026"
+    d = OUT / slug
+    # Kraken XBTUSD hourly closes, Nov 12 00:00 UTC to Nov 15 15:00 UTC. Intrahour low $61,970.30 in the Nov 15 01:00 UTC hour.
+    xs, ys = fetch_kraken_hourly(1794441600, 1794754800, pair="XBTUSD")
+    chart = make_line_chart(
+        d / "chart-btc-hourly-nov-12-15",
+        xs, ys,
+        title="Bitcoin hourly price, Nov. 12-15, 2026 (Kraken, UTC)",
+        hline=61970.3,
+        hlabel="Low ≈ $61,970 (Kraken, Nov. 15 UTC)",
+    )
+    card = make_fact_card(
+        d / "fact-liquidations-1-96b",
+        label="Crypto liquidations in 24 hours",
+        big="$1.96 billion",
+        sub="About $750 million in bitcoin, $600.5 million of it from bets on higher prices.",
+        footer="CoinGlass data via crypto.news · Nov. 15, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's hourly price on Kraken from Nov. 12 to Nov. 15, 2026, falling from about $74,000 to about $62,600 at the worst hourly close and rebounding to about $65,000, with a dashed line at the intrahour low of about $61,970", {
+            "es": "Gráfico de líneas del precio horario de bitcoin en Kraken del 12 al 15 de noviembre de 2026: cae de unos 74.000 dólares a unos 62.600 en el peor cierre horario y rebota hasta unos 65.000, con una línea discontinua en el mínimo intrahorario de unos 61.970 dólares",
+            "pt": "Gráfico de linha do preço horário do bitcoin na Kraken de 12 a 15 de novembro de 2026: cai de cerca de US$ 74.000 para cerca de US$ 62.600 no pior fechamento horário e volta para cerca de US$ 65.000, com uma linha tracejada na mínima intra-hora de cerca de US$ 61.970",
+            "fr": "Courbe du cours horaire du bitcoin sur Kraken du 12 au 15 novembre 2026 : il passe d'environ 74 000 dollars à environ 62 600 dollars au pire cours de clôture horaire, puis remonte vers 65 000 dollars, avec une ligne pointillée au plus bas intrahoraire d'environ 61 970 dollars",
+            "de": "Liniendiagramm des stündlichen Bitcoin-Kurses bei Kraken vom 12. bis 15. November 2026: Rückgang von rund 74.000 $ auf rund 62.600 $ beim tiefsten Stundenschluss und Erholung auf rund 65.000 $; gestrichelte Linie beim Tief innerhalb der Stunde von rund 61.970 $",
+            "ru": "Линейный график почасовой цены биткоина на Kraken с 12 по 15 ноября 2026 года: падение примерно с $74 000 до около $62 600 на худшем часовом закрытии и отскок примерно до $65 000; пунктирная линия показывает внутричасовой минимум около $61 970",
+            "tr": "Bitcoin'in 12-15 Kasım 2026'da Kraken'deki saatlik fiyatının çizgi grafiği: yaklaşık 74.000 $'dan en kötü saatlik kapanışta yaklaşık 62.600 $'a düşüyor ve yaklaşık 65.000 $'a toparlanıyor; kesikli çizgi yaklaşık 61.970 $'lık saat içi dibi gösteriyor",
+            "id": "Grafik garis harga bitcoin per jam di Kraken pada 12 hingga 15 November 2026: turun dari sekitar US$74.000 ke sekitar US$62.600 pada penutupan per jam terendah lalu pulih ke sekitar US$65.000, dengan garis putus-putus di titik terendah dalam satu jam sekitar US$61.970",
+            "ja": "2026年11月12〜15日のKrakenにおけるビットコイン1時間足の折れ線グラフ：約7万4000ドルから最も低い1時間終値の約6万2600ドルまで下落し、約6万5000ドルまで反発。破線は時間内安値（約6万1970ドル）",
+            "ko": "2026년 11월 12~15일 크라켄 비트코인 시간별 가격 선 차트: 약 7만 4,000달러에서 가장 낮은 시간별 종가인 약 6만 2,600달러까지 하락한 뒤 약 6만 5,000달러로 반등, 점선은 시간 중 저점 약 6만 1,970달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken BTC/USD hourly closes")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: about $1.96 billion of leveraged crypto positions were liquidated in 24 hours, including about $750 million in bitcoin, $600.5 million of it from bets on higher prices", {
+            "es": "Tarjeta: unos 1.960 millones de dólares en posiciones cripto apalancadas se liquidaron en 24 horas, de ellos unos 750 millones en bitcoin, 600,5 millones de apuestas alcistas",
+            "pt": "Cartão: cerca de US$ 1,96 bilhão em posições alavancadas de cripto foram liquidadas em 24 horas, incluindo cerca de US$ 750 milhões em bitcoin, dos quais US$ 600,5 milhões em apostas na alta",
+            "fr": "Encadré : environ 1,96 milliard de dollars de positions crypto à effet de levier ont été liquidées en 24 heures, dont environ 750 millions en bitcoin, parmi lesquels 600,5 millions de paris à la hausse",
+            "de": "Faktenkarte: Rund 1,96 Mrd. $ an gehebelten Krypto-Positionen wurden in 24 Stunden liquidiert, davon rund 750 Mio. $ bei Bitcoin, 600,5 Mio. $ davon Wetten auf steigende Kurse",
+            "ru": "Карточка: за 24 часа ликвидировано около $1,96 млрд позиций с плечом на криптовалютном рынке, из них около $750 млн в биткоине, в том числе $600,5 млн ставок на рост",
+            "tr": "Kart: 24 saatte yaklaşık 1,96 milyar $'lık kaldıraçlı kripto pozisyonu tasfiye edildi; bunun yaklaşık 750 milyon $'ı bitcoin'de, 600,5 milyon $'ı yükseliş bahislerinden",
+            "id": "Kartu fakta: sekitar US$1,96 miliar posisi kripto berleverage dilikuidasi dalam 24 jam, termasuk sekitar US$750 juta di bitcoin, US$600,5 juta di antaranya dari taruhan harga naik",
+            "ja": "カード：24時間で約19億6000万ドルのレバレッジ付き暗号資産ポジションが清算され、うちビットコインが約7億5000万ドル、そのうち6億50万ドルが値上がりに賭けたポジション",
+            "ko": "카드: 24시간 동안 약 19억 6,000만 달러 규모의 레버리지 암호화폐 포지션이 청산됐고, 이 중 비트코인이 약 7억 5,000만 달러, 그중 6억 50만 달러가 상승 베팅",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="CoinGlass data via crypto.news")},
+    ]
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -2670,6 +2719,7 @@ BUILDERS = {
     "binance-reopens-withdrawals-87-networks-nov-2026": "bnbreopen",
     "bitcoin-falls-below-64000-three-month-low-nov-2026": "btc64k",
     "kava-lend-hack-3-8-million-kava-falls-nov-2026": "kavahack",
+    "bitcoin-four-month-low-62000-liquidations-nov-2026": "btc62k",
 }
 
 
@@ -2755,6 +2805,8 @@ def build_slug(slug: str, btc=None):
         figs = build_btc_below_64k()
     elif key == "kavahack":
         figs = build_kava_hack()
+    elif key == "btc62k":
+        figs = build_btc_62k_liquidations()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

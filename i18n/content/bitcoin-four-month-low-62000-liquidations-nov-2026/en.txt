@@ -1,0 +1,62 @@
+title: Bitcoin sinks to about $62,000, a four-month low, as $2 billion in crypto bets are wiped out
+page_title: Bitcoin hits four-month low near $62,000 as liquidations near $2 billion
+description: Bitcoin fell to about $61,970 on Kraken late Saturday, its lowest price since mid-July, as nearly $2 billion in leveraged crypto bets were liquidated in 24 hours. It later bounced back above $65,000.
+og_description: Bitcoin briefly dropped to about $61,970 on Saturday night, its lowest level since July, before rebounding above $65,000. About $1.96 billion of leveraged crypto positions were closed out in a day.
+label: Market news
+summary: Bitcoin fell to about $61,970 late Saturday, its lowest price since mid-July, as nearly $2 billion of leveraged crypto bets were forcibly closed, then bounced back above $65,000.
+===
+
+Bitcoin's weekend selloff reached a new low on Saturday night. The largest cryptocurrency fell to <strong>$61,970.30</strong> on Kraken in the 7 p.m. hour Central time, its lowest price since mid-July, according to PlainBTC's check of Kraken's [public price data](L6). That was about $1,270 below the low it had set just three hours earlier.
+
+The drop did not last long. Within about eight hours bitcoin climbed back to roughly $66,090, a bounce of more than 6%, and it traded near $65,150 on Sunday morning. Even so, it is still down about 14% from where it stood a week ago.
+
+!takeaways
+- Bitcoin touched about $61,970 on Kraken late Saturday, its lowest price since July 13, 2026.
+- About $1.96 billion of leveraged crypto positions were liquidated in 24 hours, CoinGlass data shows.
+- Ether fell to about $1,710, its lowest level since early July, before recovering to about $1,820.
+- U.S. spot bitcoin ETFs have seen seven straight trading days of withdrawals, about $1.91 billion in total.
+
+!figure:chart
+
+## A wave of forced selling
+
+Borrowed money made the move bigger. About $1.96 billion of leveraged crypto positions were liquidated over a rolling 24 hour period, including roughly $750 million in bitcoin, according to CoinGlass data cited by [crypto.news](L2). About $600.5 million of the bitcoin total came from traders betting on higher prices.
+
+A liquidation happens when an exchange automatically closes a borrowed bet because the trader no longer has enough collateral to cover losses. Each forced sale can push the price lower and trigger the next one, which is why weekend drops in thin trading can turn sharp very quickly.
+
+The selling was heavy on U.S. exchanges too. On Coinbase, bitcoin hit about $61,946 and then rose to about $65,098 in the following hour, [CryptoTicker](L3) reported. About 3,400 bitcoin changed hands on Coinbase in the hour of the low, more than in any other hour since the weekend began.
+
+!mid_cta
+
+!figure:fact
+
+## Ether and solana hit fresh lows
+
+The rest of the market fell in the same hour. On Kraken, ether dropped to about $1,710, its lowest price since early July, and solana fell to about $67.37. By Sunday morning both had recovered some ground, with ether near $1,820 and solana near $72, but each was still down about 19% over seven days.
+
+The total value of all cryptocurrencies fell about 4% in 24 hours to roughly $2.26 trillion, according to CoinGecko data reported by [Cointelegraph](L1).
+
+## Why the pressure keeps building
+
+Two forces have weighed on crypto all week. The first is interest rates. Futures markets now fully price in a quarter point rate hike by the Federal Reserve in December, and traders see another hike in January as likely, CryptoTicker reported, citing TokenPost. Higher rates tend to pull money away from riskier assets like bitcoin.
+
+The second is steady selling by big funds. U.S. spot bitcoin exchange-traded funds (ETFs) recorded net withdrawals on seven trading days in a row through Nov. 13, about $1.91 billion in total, according to Farside Investors data cited by crypto.news. [Decrypt](L4) reported that total assets in these funds have slipped to about $94.9 billion, below the $100 billion mark they held through much of October.
+
+Investor mood is gloomy. The Crypto [Fear and Greed Index](L5) read 10 out of 100 on Sunday, deep in "extreme fear."
+
+## What it means for beginners
+
+Big weekend swings like this one are common in crypto, and a quick bounce does not mean the selling is over. If you are new, avoid leverage, since borrowed bets are exactly what got wiped out this weekend. Only invest money you could afford to see fall further, and think in years rather than days. Some beginners prefer to buy small, fixed amounts on a schedule instead of trying to catch the bottom. A regulated U.S. exchange such as [Coinbase](REF) supports recurring buys; compare fees and read the terms first. This is not investment advice.
+
+## What to watch next
+
+- Sunday's weekly close at 6 p.m. Central time, which will show how much bitcoin lost this week.
+- The reopening of CME bitcoin futures on Sunday evening, after the market moved sharply while they were closed.
+- Whether bitcoin holds above Saturday night's low near $62,000.
+- Spot bitcoin ETF flows when U.S. markets reopen on Monday, Nov. 16.
+
+!soft: Want to see how liquidations played out earlier this month? Read [how a $1 billion liquidation wave whipsawed bitcoin](/articles/bitcoin-volatility-liquidations-nov-2026).
+
+!end_cta
+
+!disclosure

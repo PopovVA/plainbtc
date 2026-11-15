@@ -1,0 +1,62 @@
+title: Bitcoin yaklaşık 62.000 $'a geriledi, dört ayın en düşüğü; 2 milyar $'lık kripto bahsi silindi
+page_title: Bitcoin 62.000 $ civarında dört ayın dibinde, tasfiyeler 2 milyar $'a yaklaştı
+description: Bitcoin cumartesi gecesi Kraken'de yaklaşık 61.970 $'a, temmuz ortasından beri en düşük fiyatına geriledi; 24 saatte yaklaşık 2 milyar $'lık kaldıraçlı kripto bahsi tasfiye edildi. Ardından yeniden 65.000 $'ın üzerine çıktı.
+og_description: Bitcoin cumartesi gecesi kısa süreliğine yaklaşık 61.970 $'a, temmuzdan beri en düşük seviyesine indi, ardından 65.000 $'ın üzerine toparlandı. Bir günde yaklaşık 1,96 milyar $'lık kaldıraçlı kripto pozisyonu kapatıldı.
+label: Piyasa
+summary: Bitcoin cumartesi gecesi yaklaşık 61.970 $'a, temmuz ortasından beri en düşük fiyatına geriledi; yaklaşık 2 milyar $'lık kaldıraçlı bahis zorla kapatıldı, ardından fiyat yeniden 65.000 $'ın üzerine çıktı.
+===
+
+Bitcoin'deki hafta sonu satışı cumartesi gecesi yeni bir dibe ulaştı. En büyük kripto para, ABD Merkezi saatiyle 19.00 dilimindeki saatte Kraken'de <strong>61.970,30 $</strong>'a, temmuz ortasından beri en düşük fiyatına indi. Bu, PlainBTC'nin Kraken'in [herkese açık fiyat verilerini](L6) incelemesinden çıkıyor. Bu seviye, sadece üç saat önce gördüğü dibin yaklaşık 1.270 $ altındaydı.
+
+Düşüş uzun sürmedi. Bitcoin yaklaşık sekiz saat içinde 66.090 $ civarına çıkarak %6'dan fazla toparlandı ve pazar sabahı 65.150 $ civarında işlem gördü. Yine de bir hafta önceki seviyesinin yaklaşık %14 altında.
+
+!takeaways
+- Bitcoin cumartesi gecesi Kraken'de yaklaşık 61.970 $'ı gördü; bu, 13 Temmuz 2026'dan beri en düşük fiyat.
+- CoinGlass verilerine göre 24 saatte yaklaşık 1,96 milyar $'lık kaldıraçlı kripto pozisyonu tasfiye edildi.
+- Ether yaklaşık 1.710 $'a, temmuz başından beri en düşük seviyesine indi, ardından yaklaşık 1.820 $'a toparlandı.
+- ABD'deki spot bitcoin ETF'lerinden yedi işlem günü üst üste para çıktı; toplam yaklaşık 1,91 milyar $.
+
+!figure:chart
+
+## Zorunlu satış dalgası
+
+Borç para hareketi büyüttü. [crypto.news](L2)'in aktardığı CoinGlass verilerine göre 24 saatlik kayan bir dönemde yaklaşık 1,96 milyar $'lık kaldıraçlı kripto pozisyonu tasfiye edildi; bunun yaklaşık 750 milyon $'ı bitcoin'deydi. Bitcoin tutarının yaklaşık 600,5 milyon $'ı fiyatların yükseleceğine bahis oynayan yatırımcılardan geldi.
+
+Tasfiye, yatırımcının zararları karşılayacak teminatı kalmadığında borsanın borçla açılmış bir pozisyonu otomatik olarak kapatmasıdır. Her zorunlu satış fiyatı daha da aşağı itip bir sonrakini tetikleyebilir. Bu yüzden işlem hacminin düşük olduğu hafta sonlarında düşüşler çok hızlı sertleşebilir.
+
+ABD borsalarında da satış yoğundu. [CryptoTicker](L3)'ın haberine göre bitcoin Coinbase'te yaklaşık 61.946 $'a indi, bir sonraki saatte yaklaşık 65.098 $'a çıktı. Dibin görüldüğü saatte Coinbase'te yaklaşık 3.400 bitcoin el değiştirdi; bu, hafta sonu başladığından beri herhangi bir saatteki en yüksek miktardı.
+
+!mid_cta
+
+!figure:fact
+
+## Ether ve solana yeni diplerde
+
+Piyasanın geri kalanı da aynı saatte düştü. Kraken'de ether yaklaşık 1.710 $'a, temmuz başından beri en düşük fiyatına, solana ise yaklaşık 67,37 $'a geriledi. Pazar sabahına kadar ikisi de kayıplarının bir kısmını geri aldı; ether 1.820 $, solana 72 $ civarındaydı. Ancak ikisi de yedi günde hâlâ yaklaşık %19 düşüşteydi.
+
+[Cointelegraph](L1)'ın aktardığı CoinGecko verilerine göre tüm kripto paraların toplam değeri 24 saatte yaklaşık %4 düşerek yaklaşık 2,26 trilyon $'a indi.
+
+## Baskı neden sürüyor
+
+Kripto piyasası bütün hafta iki etkenin baskısı altında kaldı. Birincisi faizler. Vadeli işlem piyasaları artık ABD Merkez Bankası Fed'in aralıkta çeyrek puanlık faiz artırımını tamamen fiyatlıyor ve yatırımcılar ocakta bir artırımı daha olası görüyor; CryptoTicker bunu TokenPost'a dayanarak aktardı. Yüksek faizler genellikle parayı bitcoin gibi riskli varlıklardan uzaklaştırır.
+
+İkincisi büyük fonların istikrarlı satışları. crypto.news'in aktardığı Farside Investors verilerine göre ABD'deki spot bitcoin borsa yatırım fonlarından (ETF) 13 Kasım'a kadar yedi işlem günü üst üste net çıkış oldu; toplam yaklaşık 1,91 milyar $. [Decrypt](L4), bu fonların toplam varlıklarının yaklaşık 94,9 milyar $'a gerilediğini, ekimin büyük bölümünde korudukları 100 milyar $ eşiğinin altına indiğini bildirdi.
+
+Yatırımcı havası kasvetli. [Kripto Korku ve Açgözlülük Endeksi](L5) pazar günü 100 üzerinden 10'du, yani tam anlamıyla "aşırı korku" bölgesindeydi.
+
+## Yeni başlayanlar için anlamı
+
+Bunun gibi büyük hafta sonu dalgalanmaları kriptoda yaygındır ve hızlı bir toparlanma satışların bittiği anlamına gelmez. Yeniyseniz kaldıraçtan uzak durun; bu hafta sonu silinen tam da borçla açılmış bahislerdi. Yalnızca daha fazla düştüğünü görmeyi göze alabileceğiniz parayı yatırın ve günlerle değil yıllarla düşünün. Bazı yeni başlayanlar dibi yakalamaya çalışmak yerine düzenli aralıklarla küçük, sabit tutarlar almayı tercih eder. [Coinbase](REF) gibi ABD'de düzenlemeye tabi bir borsa düzenli alımları destekler; önce ücretleri karşılaştırın ve koşulları okuyun. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra izlenecekler
+
+- Pazar günü Merkezi saatle 18.00'deki haftalık kapanış; bitcoin'in bu hafta ne kadar kaybettiğini gösterecek.
+- Piyasa kapalıyken sert hareket ettikten sonra CME bitcoin vadeli işlemlerinin pazar akşamı yeniden açılması.
+- Bitcoin'in cumartesi gecesi gördüğü 62.000 $ civarındaki dibin üzerinde kalıp kalamayacağı.
+- ABD piyasaları 16 Kasım pazartesi yeniden açıldığında spot bitcoin ETF akışları.
+
+!soft: Ayın başındaki tasfiyelerin nasıl yaşandığını görmek ister misiniz? [1 milyar $'lık tasfiye dalgasının bitcoin'i nasıl sarstığını](/articles/bitcoin-volatility-liquidations-nov-2026) okuyun.
+
+!end_cta
+
+!disclosure

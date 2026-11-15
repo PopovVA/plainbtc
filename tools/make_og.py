@@ -32,6 +32,11 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "bitcoin-four-month-low-62000-liquidations-nov-2026",
+        "Bitcoin sinks to about $62,000, a four-month low, as $2 billion in crypto bets are wiped out",
+        "MARKET NEWS",
+    ),
+    (
         "bitcoin-falls-below-64000-three-month-low-nov-2026",
         "Bitcoin falls below $64,000 to a three-month low as fear hits extreme levels",
         "MARKET NEWS",
@@ -205,6 +210,12 @@ ARTICLES = [
 # used for identification only). Each entry: (image URL, tile background RGB).
 WIKI = "https://upload.wikimedia.org/wikipedia/commons/"
 OG_LOGOS: dict[str, list[tuple[str, tuple[int, int, int]]]] = {
+    # Bitcoin logo (public domain, Wikimedia Commons) and Ethereum logo (CC BY 3.0, Wikimedia Commons),
+    # identification only: both hit their lowest prices since July in the same hour.
+    "bitcoin-four-month-low-62000-liquidations-nov-2026": [
+        (WIKI + "4/46/Bitcoin.svg", (255, 255, 255)),
+        (WIKI + "0/05/Ethereum_logo_2014.svg", (255, 255, 255)),
+    ],
     # Federal Reserve seal (public domain) and BlackRock wordmark (public domain, Wikimedia Commons):
     # December rate hike bets and IBIT-led ETF outflows drove the drop.
     "bitcoin-falls-below-64000-three-month-low-nov-2026": [

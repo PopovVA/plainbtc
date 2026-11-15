@@ -1,0 +1,20 @@
+{
+ "slug": "bitcoin-four-month-low-62000-liquidations-nov-2026",
+ "date": "2026-11-15",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-falls-below-64000-three-month-low-nov-2026",
+  "bitcoin-volatility-liquidations-nov-2026",
+  "how-much-bitcoin-should-a-beginner-buy-dca"
+ ],
+ "sources": [
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: BTC, ETH and SOL hourly and daily OHLC data (public API)", "date": "Nov 15, 2026"},
+  {"url": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff", "title": "Cointelegraph: Bitcoin falls to four-month low near $62K as crypto selloff deepens", "date": "Nov 15, 2026"},
+  {"url": "https://crypto.news/bitcoin-price-falls-62000-etf-outflows-liquidations/", "title": "crypto.news: Bitcoin price falls to three-month low: Is $60K the next stop?", "date": "Nov 15, 2026"},
+  {"url": "https://cryptoticker.io/en/bitcoin-price-overnight-low-weekly-close-november-15-2026/", "title": "CryptoTicker: Bitcoin price at $64,800: what the night means for the weekly close", "date": "Nov 15, 2026"},
+  {"url": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days", "title": "Decrypt: Bitcoin ETFs lose $2.1 billion in November as outflow streak hits seven days", "date": "Nov 15, 2026"},
+  {"url": "https://alternative.me/crypto/fear-and-greed-index/", "title": "Alternative.me: Crypto Fear and Greed Index", "date": "Nov 15, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

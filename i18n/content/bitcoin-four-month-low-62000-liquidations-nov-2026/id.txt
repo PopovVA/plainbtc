@@ -1,0 +1,62 @@
+title: Bitcoin anjlok ke sekitar US$62.000, terendah dalam empat bulan, saat taruhan kripto US$2 miliar tersapu
+page_title: Bitcoin sentuh level terendah empat bulan di dekat US$62.000, likuidasi hampir US$2 miliar
+description: Bitcoin turun ke sekitar US$61.970 di Kraken pada Sabtu malam, harga terendah sejak pertengahan Juli, sementara hampir US$2 miliar taruhan kripto berleverage dilikuidasi dalam 24 jam. Setelah itu harganya kembali di atas US$65.000.
+og_description: Bitcoin sempat turun ke sekitar US$61.970 pada Sabtu malam, level terendah sejak Juli, sebelum memantul ke atas US$65.000. Sekitar US$1,96 miliar posisi kripto berleverage ditutup dalam sehari.
+label: Pasar
+summary: Bitcoin turun ke sekitar US$61.970 pada Sabtu malam, harga terendah sejak pertengahan Juli, saat hampir US$2 miliar taruhan berleverage ditutup paksa, lalu memantul kembali ke atas US$65.000.
+===
+
+Aksi jual bitcoin di akhir pekan mencapai titik terendah baru pada Sabtu malam. Mata uang kripto terbesar itu turun ke <strong>US$61.970,30</strong> di Kraken pada jam 19.00 waktu Central AS, harga terendah sejak pertengahan Juli, menurut pemeriksaan PlainBTC atas [data harga publik](L6) Kraken. Angka itu sekitar US$1.270 di bawah titik terendah yang dicapainya hanya tiga jam sebelumnya.
+
+Penurunan itu tidak bertahan lama. Dalam sekitar delapan jam, bitcoin naik kembali ke sekitar US$66.090, pantulan lebih dari 6%, dan diperdagangkan di dekat US$65.150 pada Minggu pagi. Meski begitu, harganya masih sekitar 14% di bawah posisinya seminggu lalu.
+
+!takeaways
+- Bitcoin menyentuh sekitar US$61.970 di Kraken pada Sabtu malam, harga terendah sejak 13 Juli 2026.
+- Sekitar US$1,96 miliar posisi kripto berleverage dilikuidasi dalam 24 jam, menurut data CoinGlass.
+- Ether turun ke sekitar US$1.710, level terendah sejak awal Juli, sebelum pulih ke sekitar US$1.820.
+- ETF bitcoin spot AS mencatat penarikan selama tujuh hari perdagangan berturut-turut, total sekitar US$1,91 miliar.
+
+!figure:chart
+
+## Gelombang penjualan paksa
+
+Uang pinjaman memperbesar pergerakan. Sekitar US$1,96 miliar posisi kripto berleverage dilikuidasi dalam periode bergulir 24 jam, termasuk sekitar US$750 juta di bitcoin, menurut data CoinGlass yang dikutip [crypto.news](L2). Sekitar US$600,5 juta dari total bitcoin itu berasal dari trader yang bertaruh harga akan naik.
+
+Likuidasi terjadi ketika bursa secara otomatis menutup taruhan yang memakai uang pinjaman karena trader tidak lagi punya jaminan yang cukup untuk menutup kerugian. Setiap penjualan paksa dapat menekan harga lebih rendah dan memicu penjualan berikutnya, sehingga penurunan di akhir pekan, saat perdagangan sepi, bisa menjadi tajam dengan sangat cepat.
+
+Penjualan juga deras di bursa AS. Di Coinbase, bitcoin menyentuh sekitar US$61.946 lalu naik ke sekitar US$65.098 pada jam berikutnya, lapor [CryptoTicker](L3). Sekitar 3.400 bitcoin berpindah tangan di Coinbase pada jam titik terendah itu, lebih banyak daripada jam lain mana pun sejak akhir pekan dimulai.
+
+!mid_cta
+
+!figure:fact
+
+## Ether dan solana cetak titik terendah baru
+
+Pasar lainnya turun pada jam yang sama. Di Kraken, ether turun ke sekitar US$1.710, harga terendah sejak awal Juli, dan solana turun ke sekitar US$67,37. Pada Minggu pagi keduanya sudah pulih sebagian, ether di dekat US$1.820 dan solana di dekat US$72, tetapi masing-masing masih turun sekitar 19% dalam tujuh hari.
+
+Nilai total semua mata uang kripto turun sekitar 4% dalam 24 jam menjadi sekitar US$2,26 triliun, menurut data CoinGecko yang dilaporkan [Cointelegraph](L1).
+
+## Mengapa tekanan terus bertambah
+
+Dua kekuatan membebani kripto sepanjang pekan. Yang pertama adalah suku bunga. Pasar berjangka kini sepenuhnya memperhitungkan kenaikan suku bunga seperempat poin oleh Federal Reserve pada Desember, dan trader melihat kenaikan lain pada Januari kemungkinan besar terjadi, lapor CryptoTicker dengan mengutip TokenPost. Suku bunga yang lebih tinggi cenderung menarik uang dari aset berisiko seperti bitcoin.
+
+Yang kedua adalah penjualan terus-menerus oleh dana besar. Dana yang diperdagangkan di bursa (ETF) bitcoin spot AS mencatat penarikan bersih selama tujuh hari perdagangan berturut-turut hingga 13 November, total sekitar US$1,91 miliar, menurut data Farside Investors yang dikutip crypto.news. [Decrypt](L4) melaporkan total aset dana-dana ini turun ke sekitar US$94,9 miliar, di bawah batas US$100 miliar yang mereka pertahankan hampir sepanjang Oktober.
+
+Suasana investor suram. [Crypto Fear and Greed Index](L5) berada di 10 dari 100 pada hari Minggu, jauh di zona "ketakutan ekstrem".
+
+## Artinya bagi pemula
+
+Ayunan besar di akhir pekan seperti ini umum terjadi di kripto, dan pantulan cepat tidak berarti aksi jual sudah selesai. Jika Anda baru, hindari leverage, karena taruhan dengan uang pinjaman justru yang tersapu akhir pekan ini. Investasikan hanya uang yang sanggup Anda lihat turun lebih jauh, dan berpikirlah dalam hitungan tahun, bukan hari. Sebagian pemula lebih suka membeli jumlah kecil yang tetap secara terjadwal daripada mencoba menangkap titik terendah. Bursa AS yang teregulasi seperti [Coinbase](REF) mendukung pembelian berulang; bandingkan biaya dan baca ketentuannya terlebih dahulu. Ini bukan saran investasi.
+
+## Yang perlu dipantau
+
+- Penutupan mingguan pada Minggu pukul 18.00 waktu Central, yang akan menunjukkan seberapa besar kerugian bitcoin pekan ini.
+- Dibukanya kembali kontrak berjangka bitcoin CME pada Minggu malam, setelah pasar bergerak tajam saat CME tutup.
+- Apakah bitcoin bertahan di atas titik terendah Sabtu malam di dekat US$62.000.
+- Arus dana ETF bitcoin spot saat pasar AS dibuka kembali pada Senin, 16 November.
+
+!soft: Ingin melihat bagaimana likuidasi berlangsung di awal bulan ini? Baca [bagaimana gelombang likuidasi US$1 miliar mengguncang bitcoin](/articles/bitcoin-volatility-liquidations-nov-2026).
+
+!end_cta
+
+!disclosure

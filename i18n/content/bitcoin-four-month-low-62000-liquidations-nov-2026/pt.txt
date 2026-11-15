@@ -1,0 +1,62 @@
+title: Bitcoin afunda para cerca de US$ 62.000, mínima de quatro meses, e US$ 2 bilhões em apostas cripto são liquidados
+page_title: Bitcoin atinge mínima de quatro meses perto de US$ 62.000 com liquidações de quase US$ 2 bilhões
+description: O bitcoin caiu para cerca de US$ 61.970 na Kraken no sábado à noite, o menor preço desde meados de julho, enquanto quase US$ 2 bilhões em apostas alavancadas eram liquidados em 24 horas. Depois voltou a passar de US$ 65.000.
+og_description: O bitcoin caiu brevemente para cerca de US$ 61.970 no sábado à noite, o menor nível desde julho, antes de voltar para acima de US$ 65.000. Cerca de US$ 1,96 bilhão em posições cripto alavancadas foram encerradas em um dia.
+label: Mercado
+summary: O bitcoin caiu para cerca de US$ 61.970 no sábado à noite, o menor preço desde meados de julho, enquanto quase US$ 2 bilhões em apostas alavancadas eram encerradas à força, e depois voltou para acima de US$ 65.000.
+===
+
+A queda do bitcoin no fim de semana chegou a uma nova mínima no sábado à noite. A maior criptomoeda recuou para <strong>US$ 61.970,30</strong> na Kraken na faixa das 19h no horário central dos EUA, o menor preço desde meados de julho, segundo a checagem do PlainBTC nos [dados públicos de preços](L6) da Kraken. Foram cerca de US$ 1.270 abaixo da mínima que ele havia marcado apenas três horas antes.
+
+A queda não durou muito. Em cerca de oito horas, o bitcoin voltou para perto de US$ 66.090, uma alta de mais de 6%, e era negociado perto de US$ 65.150 na manhã de domingo. Mesmo assim, ainda está cerca de 14% abaixo do nível de uma semana atrás.
+
+!takeaways
+- O bitcoin tocou cerca de US$ 61.970 na Kraken no sábado à noite, o menor preço desde 13 de julho de 2026.
+- Cerca de US$ 1,96 bilhão em posições cripto alavancadas foram liquidadas em 24 horas, mostram dados da CoinGlass.
+- O ether caiu para cerca de US$ 1.710, o menor nível desde o início de julho, antes de se recuperar para cerca de US$ 1.820.
+- Os ETFs à vista de bitcoin nos EUA tiveram sete pregões seguidos de resgates, cerca de US$ 1,91 bilhão no total.
+
+!figure:chart
+
+## Uma onda de vendas forçadas
+
+O dinheiro emprestado ampliou o movimento. Cerca de US$ 1,96 bilhão em posições cripto alavancadas foram liquidadas em um período móvel de 24 horas, incluindo cerca de US$ 750 milhões em bitcoin, segundo dados da CoinGlass citados pelo [crypto.news](L2). Cerca de US$ 600,5 milhões do total em bitcoin vieram de traders que apostavam na alta.
+
+Uma liquidação acontece quando uma corretora encerra automaticamente uma aposta feita com dinheiro emprestado porque o trader já não tem garantia suficiente para cobrir as perdas. Cada venda forçada pode empurrar o preço para baixo e disparar a próxima, e por isso quedas de fim de semana, com pouco volume, podem ficar bruscas muito rápido.
+
+A venda também foi forte nas corretoras dos EUA. Na Coinbase, o bitcoin chegou a cerca de US$ 61.946 e depois subiu para cerca de US$ 65.098 na hora seguinte, informou o [CryptoTicker](L3). Cerca de 3.400 bitcoins trocaram de mãos na Coinbase na hora da mínima, mais do que em qualquer outra hora desde o início do fim de semana.
+
+!mid_cta
+
+!figure:fact
+
+## Ether e solana marcam novas mínimas
+
+O restante do mercado caiu na mesma hora. Na Kraken, o ether recuou para cerca de US$ 1.710, o menor preço desde o início de julho, e a solana caiu para cerca de US$ 67,37. Na manhã de domingo, os dois tinham recuperado parte do terreno, com o ether perto de US$ 1.820 e a solana perto de US$ 72, mas cada um ainda acumulava queda de cerca de 19% em sete dias.
+
+O valor total de todas as criptomoedas caiu cerca de 4% em 24 horas, para aproximadamente US$ 2,26 trilhões, segundo dados da CoinGecko citados pelo [Cointelegraph](L1).
+
+## Por que a pressão continua
+
+Duas forças pesaram sobre o mercado cripto a semana toda. A primeira são os juros. Os mercados futuros já precificam totalmente uma alta de um quarto de ponto pelo Federal Reserve em dezembro, e os traders veem outra alta em janeiro como provável, informou o CryptoTicker, citando a TokenPost. Juros mais altos costumam afastar o dinheiro de ativos mais arriscados, como o bitcoin.
+
+A segunda é a venda constante por grandes fundos. Os fundos negociados em bolsa (ETFs) à vista de bitcoin nos EUA registraram resgates líquidos por sete pregões seguidos até 13 de novembro, cerca de US$ 1,91 bilhão no total, segundo dados da Farside Investors citados pelo crypto.news. O [Decrypt](L4) informou que os ativos totais desses fundos caíram para cerca de US$ 94,9 bilhões, abaixo da marca de US$ 100 bilhões mantida durante boa parte de outubro.
+
+O humor dos investidores está sombrio. O [índice Crypto Fear and Greed](L5) marcou 10 de 100 no domingo, em pleno "medo extremo".
+
+## O que isso significa para iniciantes
+
+Grandes oscilações de fim de semana como esta são comuns em cripto, e uma recuperação rápida não significa que as vendas acabaram. Se você está começando, evite alavancagem, já que apostas com dinheiro emprestado foram justamente as eliminadas neste fim de semana. Invista apenas o que você suportaria ver cair ainda mais e pense em anos, não em dias. Alguns iniciantes preferem comprar valores pequenos e fixos de forma programada em vez de tentar acertar o fundo. Uma corretora regulamentada dos EUA como a [Coinbase](REF) oferece compras recorrentes; compare as taxas e leia os termos antes. Isto não é recomendação de investimento.
+
+## O que acompanhar
+
+- O fechamento semanal de domingo às 18h no horário central, que vai mostrar quanto o bitcoin perdeu nesta semana.
+- A reabertura dos futuros de bitcoin da CME na noite de domingo, depois de o mercado se mover com força enquanto estavam fechados.
+- Se o bitcoin se mantém acima da mínima de sábado à noite, perto de US$ 62.000.
+- Os fluxos dos ETFs à vista de bitcoin quando os mercados dos EUA reabrirem na segunda-feira, 16 de novembro.
+
+!soft: Quer ver como as liquidações se desenrolaram no início do mês? Leia [como uma onda de liquidações de US$ 1 bilhão sacudiu o bitcoin](/articles/bitcoin-volatility-liquidations-nov-2026).
+
+!end_cta
+
+!disclosure

@@ -922,6 +922,27 @@ def thumb_kava_hack():
     ],"note":"Editorial composite for identification; trademarks belong to their owners."}
 
 
+def thumb_btc_62k_low():
+    """Bitcoin logo (public domain, identification) with the Kraken low from Kraken's public OHLC data."""
+    btc = fetch("https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg", CACHE/"bitcoin-logo.svg")
+    base = gradient_bg()
+    card_w, card_h = 230, 200
+    x, y = 60, 80
+    tile = Image.new("RGBA", (card_w, card_h), (255,255,255,255))
+    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), (x, y), mask)
+    paste_contain(base, Image.open(btc).convert("RGBA"), (x, y, card_w, card_h), pad=30)
+    d = ImageDraw.Draw(base)
+    d.text((320, 100), "$61,970", font=font(FONT_B, 60), fill=ORANGE)
+    d.text((322, 192), "Bitcoin low on Kraken", font=font(FONT_B, 22), fill=WHITE)
+    d.text((322, 224), "lowest price since July 13", font=font(FONT_R, 18), fill=(203,213,225))
+    label_chip(base, "Bitcoin · four-month low")
+    return base, {"kind":"composite","sources":[
+        {"file":"Bitcoin.svg","license":"Public domain","url":"https://commons.wikimedia.org/wiki/File:Bitcoin.svg","credit":"Bitcoin logo"},
+        {"file":"Kraken OHLC XBTUSD","license":"Kraken public API","url":"https://docs.kraken.com/api/docs/rest-api/get-ohlc-data","credit":"Kraken BTC/USD low, Nov. 15, 2026 (UTC)"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -957,6 +978,7 @@ BUILDERS = {
     "binance-reopens-withdrawals-87-networks-nov-2026": thumb_binance_reopen,
     "bitcoin-falls-below-64000-three-month-low-nov-2026": thumb_btc_below_64k,
     "kava-lend-hack-3-8-million-kava-falls-nov-2026": thumb_kava_hack,
+    "bitcoin-four-month-low-62000-liquidations-nov-2026": thumb_btc_62k_low,
 }
 
 def first_figure_source(slug: str) -> Path | None:

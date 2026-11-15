@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Bitcoin.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg",
+      "credit": "Bitcoin logo"
+    },
+    {
+      "file": "Kraken OHLC XBTUSD",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Kraken BTC/USD low, Nov. 15, 2026 (UTC)"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "bitcoin-four-month-low-62000-liquidations-nov-2026",
+  "generated": "2026-11-15T14:09Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

@@ -1,0 +1,62 @@
+title: Le bitcoin chute vers 62 000 dollars, au plus bas depuis quatre mois, et 2 milliards de dollars de paris crypto sont liquidés
+page_title: Le bitcoin au plus bas depuis quatre mois près de 62 000 dollars, près de 2 milliards de liquidations
+description: Le bitcoin est tombé à environ 61 970 dollars sur Kraken samedi soir, son plus bas depuis la mi-juillet, tandis que près de 2 milliards de dollars de paris à effet de levier étaient liquidés en 24 heures. Il est ensuite repassé au-dessus de 65 000 dollars.
+og_description: Le bitcoin a brièvement chuté à environ 61 970 dollars samedi soir, son plus bas niveau depuis juillet, avant de rebondir au-dessus de 65 000 dollars. Environ 1,96 milliard de dollars de positions crypto à effet de levier ont été fermées en une journée.
+label: Marchés
+summary: Le bitcoin est tombé à environ 61 970 dollars samedi soir, son plus bas depuis la mi-juillet, alors que près de 2 milliards de dollars de paris à effet de levier étaient fermés de force, puis il est repassé au-dessus de 65 000 dollars.
+===
+
+La baisse du bitcoin ce week-end a atteint un nouveau plancher samedi soir. La première cryptomonnaie est descendue à <strong>61 970,30 dollars</strong> sur Kraken dans l'heure de 19 h, heure du Centre des États-Unis, son prix le plus bas depuis la mi-juillet, selon la vérification par PlainBTC des [données publiques de cours](L6) de Kraken. C'est environ 1 270 dollars sous le plus bas qu'il avait touché à peine trois heures plus tôt.
+
+La chute n'a pas duré. En huit heures environ, le bitcoin est remonté vers 66 090 dollars, un rebond de plus de 6 %, et il s'échangeait près de 65 150 dollars dimanche matin. Il reste malgré tout environ 14 % sous son niveau d'il y a une semaine.
+
+!takeaways
+- Le bitcoin a touché environ 61 970 dollars sur Kraken samedi soir, son prix le plus bas depuis le 13 juillet 2026.
+- Environ 1,96 milliard de dollars de positions crypto à effet de levier ont été liquidées en 24 heures, selon les données de CoinGlass.
+- L'ether est tombé à environ 1 710 dollars, son plus bas depuis début juillet, avant de remonter vers 1 820 dollars.
+- Les ETF bitcoin au comptant américains enregistrent sept séances d'affilée de retraits, environ 1,91 milliard de dollars au total.
+
+!figure:chart
+
+## Une vague de ventes forcées
+
+L'argent emprunté a amplifié le mouvement. Environ 1,96 milliard de dollars de positions crypto à effet de levier ont été liquidées sur une période glissante de 24 heures, dont environ 750 millions en bitcoin, selon des données de CoinGlass citées par [crypto.news](L2). Environ 600,5 millions du total en bitcoin provenaient de traders qui pariaient sur une hausse.
+
+Une liquidation se produit lorsqu'une plateforme ferme automatiquement un pari financé par emprunt parce que le trader n'a plus assez de garanties pour couvrir ses pertes. Chaque vente forcée peut faire baisser le prix et déclencher la suivante, ce qui explique pourquoi les baisses du week-end, avec peu d'échanges, peuvent devenir brutales très vite.
+
+Les ventes ont aussi été fortes sur les plateformes américaines. Sur Coinbase, le bitcoin a touché environ 61 946 dollars avant de remonter vers 65 098 dollars l'heure suivante, a rapporté [CryptoTicker](L3). Environ 3 400 bitcoins ont changé de mains sur Coinbase pendant l'heure du plus bas, plus que pendant toute autre heure depuis le début du week-end.
+
+!mid_cta
+
+!figure:fact
+
+## Ether et solana touchent de nouveaux plus bas
+
+Le reste du marché a chuté dans la même heure. Sur Kraken, l'ether est descendu à environ 1 710 dollars, son prix le plus bas depuis début juillet, et le solana à environ 67,37 dollars. Dimanche matin, les deux avaient regagné un peu de terrain, l'ether près de 1 820 dollars et le solana près de 72 dollars, mais chacun restait en baisse d'environ 19 % sur sept jours.
+
+La valeur totale de toutes les cryptomonnaies a reculé d'environ 4 % en 24 heures, à environ 2 260 milliards de dollars, selon des données de CoinGecko citées par [Cointelegraph](L1).
+
+## Pourquoi la pression continue
+
+Deux forces ont pesé sur la crypto toute la semaine. La première, ce sont les taux d'intérêt. Les marchés à terme intègrent désormais entièrement une hausse d'un quart de point de la Réserve fédérale en décembre, et les traders jugent probable une nouvelle hausse en janvier, a rapporté CryptoTicker en citant TokenPost. Des taux plus élevés tendent à détourner l'argent des actifs plus risqués comme le bitcoin.
+
+La seconde, ce sont les ventes régulières des grands fonds. Les fonds négociés en bourse (ETF) bitcoin au comptant américains ont enregistré des retraits nets sur sept séances d'affilée jusqu'au 13 novembre, environ 1,91 milliard de dollars au total, selon des données de Farside Investors citées par crypto.news. [Decrypt](L4) indique que les actifs totaux de ces fonds sont tombés à environ 94,9 milliards de dollars, sous la barre des 100 milliards qu'ils tenaient pendant une grande partie d'octobre.
+
+Le moral des investisseurs est en berne. L'[indice Crypto Fear and Greed](L5) affichait 10 sur 100 dimanche, en pleine « peur extrême ».
+
+## Ce que cela signifie pour les débutants
+
+De fortes secousses le week-end comme celle-ci sont courantes en crypto, et un rebond rapide ne signifie pas que les ventes sont terminées. Si vous débutez, évitez l'effet de levier, car ce sont justement les paris financés par emprunt qui ont été balayés ce week-end. N'investissez que l'argent que vous pourriez voir baisser encore, et raisonnez en années plutôt qu'en jours. Certains débutants préfèrent acheter de petits montants fixes à intervalles réguliers plutôt que d'essayer de viser le point bas. Une plateforme américaine régulée comme [Coinbase](REF) permet les achats récurrents ; comparez les frais et lisez les conditions d'abord. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- La clôture hebdomadaire de dimanche à 18 h, heure du Centre, qui montrera combien le bitcoin a perdu cette semaine.
+- La réouverture des contrats à terme bitcoin du CME dimanche soir, après de fortes variations pendant leur fermeture.
+- La capacité du bitcoin à rester au-dessus du plus bas de samedi soir, près de 62 000 dollars.
+- Les flux des ETF bitcoin au comptant à la réouverture des marchés américains, lundi 16 novembre.
+
+!soft: Vous voulez voir comment les liquidations se sont déroulées plus tôt ce mois-ci ? Lisez [comment une vague de liquidations de 1 milliard de dollars a secoué le bitcoin](/articles/bitcoin-volatility-liquidations-nov-2026).
+
+!end_cta
+
+!disclosure
