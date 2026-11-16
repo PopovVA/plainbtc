@@ -271,14 +271,18 @@ Data lives in the existing free Supabase project **foliata** (ref `ygilpnmqkduzh
 
 ### Query daily stats (America/Chicago)
 
-`public.plainbtc_daily_stats` is a **function**, not a table or a view. Always call it **with a date
-argument** — `SELECT * FROM public.plainbtc_daily_stats` without `(date)` fails with
+`public.plainbtc_daily_stats` is a **function**, not a table or a view, so always write the
+**parentheses**: `plainbtc_daily_stats()` is today in America/Chicago, `plainbtc_daily_stats('2026-11-09')`
+is a given day. The bare name, `SELECT * FROM public.plainbtc_daily_stats`, fails with
 `ERROR: relation "public.plainbtc_daily_stats" does not exist`. Its definition lives in
 `supabase/pageviews.sql`.
 
 In the Supabase SQL editor (service role / dashboard — `anon` may not execute it):
 
 ```sql
+-- Today (Chicago)
+SELECT * FROM public.plainbtc_daily_stats();
+
 -- Yesterday (Chicago)
 SELECT * FROM public.plainbtc_daily_stats(
   (timezone('America/Chicago', now())::date - 1)
@@ -294,7 +298,7 @@ ORDER BY ts DESC
 LIMIT 50;
 ```
 
-`plainbtc_daily_stats(date)` returns: `pageviews`, `uniques`, `top_paths`, `top_referrers`, `top_utm_sources`, `by_lang`, `by_country`, `by_device` (JSON arrays of `{k,c}`).
+`plainbtc_daily_stats(date)` returns one row: `day`, `pageviews`, `uniques`, then JSON arrays of `{k,c}` sorted by count: `top_paths`, `top_referrers` and `top_utm_sources` (top 15 each), `by_lang`, `by_country` (top 20) and `by_device`. An empty referrer shows as `(direct)`, an empty utm_source as `(none)`, an empty language, country or device as `?`.
 
 
 ## UTM conventions for social / referral traffic
