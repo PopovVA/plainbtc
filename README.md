@@ -243,7 +243,7 @@ To turn a partner off, clear `url` or set `enabled` to `false` and rebuild.
 
 ## Visit analytics (cookieless)
 
-PlainBTC records pageviews with a tiny beacon in `assets/site.js` (served under a content-hashed name, `/assets/site.<hash>.js`) → Cloudflare Pages Function `POST /api/hit` (`functions/api/hit.js`) → Supabase table `public.pageviews`.
+PlainBTC records pageviews with a tiny beacon in `assets/site.js` (served under a content-hashed name, `/assets/site.<hash>.js`) → Cloudflare Pages Function `POST /api/hit` (`functions/api/hit.js`) → Supabase table `public.pageviews` (`ts`, `path`, `lang`, `referrer_host`, `utm_source`, `utm_medium`, `utm_campaign`, `country`, `device`, `visitor_hash`). Schema and the `public.plainbtc_daily_stats(date)` function are in `supabase/pageviews.sql`.
 
 Referral clicks (Coinbase, Gemini, River, Uphold) are recorded the same way: a capture-phase click listener on `a[data-partner]` / `a[rel~=sponsored]` sends `navigator.sendBeacon` to `POST /api/click` (`functions/api/click.js`) → `public.referral_clicks` (`ts`, `partner`, `path`, `lang`, `referrer_host`, `utm_source`). No cookies, no IP. Schema and the `public.plainbtc_click_stats(date)` function are in `supabase/referral_clicks.sql`. Query one America/Chicago day with:
 
@@ -271,7 +271,12 @@ Data lives in the existing free Supabase project **foliata** (ref `ygilpnmqkduzh
 
 ### Query daily stats (America/Chicago)
 
-In the Supabase SQL editor (service role / dashboard):
+`public.plainbtc_daily_stats` is a **function**, not a table or a view. Always call it **with a date
+argument** — `SELECT * FROM public.plainbtc_daily_stats` without `(date)` fails with
+`ERROR: relation "public.plainbtc_daily_stats" does not exist`. Its definition lives in
+`supabase/pageviews.sql`.
+
+In the Supabase SQL editor (service role / dashboard — `anon` may not execute it):
 
 ```sql
 -- Yesterday (Chicago)
@@ -283,13 +288,13 @@ SELECT * FROM public.plainbtc_daily_stats(
 SELECT * FROM public.plainbtc_daily_stats('2026-11-09');
 
 -- Raw recent hits
-SELECT ts, path, lang, referrer_host, utm_source, country, device, visitor_hash
+SELECT ts, path, lang, referrer_host, utm_source, utm_medium, utm_campaign, country, device, visitor_hash
 FROM public.pageviews
 ORDER BY ts DESC
 LIMIT 50;
 ```
 
-`plainbtc_daily_stats` returns: `pageviews`, `uniques`, `top_paths`, `top_referrers`, `top_utm_sources`, `by_lang`, `by_country`, `by_device` (JSON arrays of `{k,c}`).
+`plainbtc_daily_stats(date)` returns: `pageviews`, `uniques`, `top_paths`, `top_referrers`, `top_utm_sources`, `by_lang`, `by_country`, `by_device` (JSON arrays of `{k,c}`).
 
 
 ## UTM conventions for social / referral traffic
