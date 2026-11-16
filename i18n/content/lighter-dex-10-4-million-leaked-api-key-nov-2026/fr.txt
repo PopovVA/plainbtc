@@ -1,0 +1,61 @@
+title: Lighter suspend les retraits après qu'une clé de trading divulguée a permis à un pirate de prendre 10,4 millions de dollars
+page_title: Le DEX Lighter perd environ 10,4 millions de dollars à cause d'une clé API divulguée, les retraits reprennent
+description: La plateforme de dérivés crypto Lighter a gelé les retraits lundi après qu'un pirate a utilisé la clé API divulguée d'un trader pour retirer environ 10,4 millions de dollars en USDC. Lighter affirme que son code n'a pas été piraté, qu'environ 5 millions ont été récupérés et que les retraits sont rétablis.
+og_description: Un pirate a utilisé la clé API divulguée d'un trader pour sortir environ 10,4 millions de dollars en USDC de la plateforme Lighter lundi. Lighter met en cause un code de signature tiers non sécurisé, a récupéré environ 5 millions et a rouvert les retraits le jour même.
+label: Sécurité
+summary: Un pirate a utilisé la clé API divulguée d'un trader pour sortir environ 10,4 millions de dollars en USDC de la plateforme Lighter lundi. Lighter a suspendu les retraits, récupéré environ 5 millions et rouvert le jour même.
+===
+
+Lighter, une plateforme d'échange décentralisée pour le trading de contrats à terme crypto, a suspendu tous les retraits lundi matin après qu'un pirate a utilisé la clé API divulguée d'un seul trader pour sortir de la plateforme environ <strong>10,4 millions de dollars</strong> en stablecoin USDC, a rapporté [CoinDesk](L1). Lighter assure que ses propres logiciels et ses contrats intelligents n'ont pas été piratés.
+
+Vers midi, la plateforme a indiqué avoir récupéré environ 5 millions de dollars pour le trader concerné et rouvert les dépôts et les retraits. Son jeton LIT a chuté de plus de 10 %, sous 2,48 dollars, après l'annonce, avant de remonter vers 2,62 dollars, selon CoinDesk.
+
+!takeaways
+- Un pirate a utilisé la clé API divulguée d'un trader pour retirer environ 10,39 millions d'USDC de Lighter le lundi 16 novembre.
+- Lighter a suspendu les retraits et la création de nouveaux pools pendant environ sept heures et affirme que son protocole et ses contrats intelligents n'ont pas été touchés.
+- La clé a fuité parce que le propre code de signature du trader réutilisait un nombre à usage unique, une erreur cryptographique connue.
+- Environ 5 millions de dollars ont été rendus au trader et les retraits ont repris vers 12 h 21, heure du Centre des États-Unis.
+
+!figure:chart
+
+## Ce qui s'est passé
+
+Une clé API est un code proche d'un mot de passe qui permet à des robots de trading de passer des ordres depuis un compte sans que son propriétaire ait à cliquer. Selon la société d'analyse blockchain [Bitquery](L3), environ 10 393 057 USDC ont quitté le contrat Ethereum de Lighter vers 4 h 11, heure du Centre des États-Unis, lundi. Le portefeuille destinataire a échangé cet argent contre de l'ether en quatre minutes environ.
+
+Moins d'une heure plus tard, Lighter a annoncé sur X enquêter sur « un incident de sécurité qui semble impliquer une seule partie externe compromise » et a suspendu tous les retraits et la création de pools. Dans une mise à jour vers 6 h 49, heure du Centre, elle a attribué l'incident à « une clé API divulguée appartenant au compte d'un trader précis » et désigné le portefeuille qu'elle pense lié au pirate.
+
+La société d'analyse Bubblemaps a suivi le même portefeuille, a rapporté [Cointelegraph](L2). Bitquery a constaté que 1 920 ETH, soit environ 3,5 millions de dollars, ont ensuite été envoyés via 12 nouveaux portefeuilles de 160 ETH chacun vers la plateforme Hyperliquid, où chacun a acheté un jeton appelé XMR1, nommé d'après la cryptomonnaie confidentielle Monero. 3 845 ETH se trouvaient encore dans le portefeuille principal lors du dernier relevé de Bitquery.
+
+Certains chercheurs évaluent les pertes potentielles à environ 15,5 millions de dollars sur deux comptes de teneurs de marché. Lighter n'a pas confirmé ce chiffre plus élevé.
+
+!figure:timeline
+
+## Comment la clé a fuité
+
+Dans un [compte rendu détaillé](L4) publié vers midi lundi, Lighter explique que les comptes touchés n'utilisaient pas ses kits logiciels officiels. Leur propre code de signature réutilisait un « nonce », un nombre aléatoire à usage unique qui doit changer à chaque signature numérique. Comme les signatures sont publiques, deux signatures faites avec le même nonce permettent à n'importe qui de calculer la clé secrète. Lighter précise que la même faiblesse concerne les signatures Bitcoin et Ethereum.
+
+Avec la clé, le pirate a créé un pool public depuis le compte de la victime, acheté des parts du pool depuis un autre compte, transféré les fonds de la victime dans le pool, puis encaissé ses parts. L'activité inhabituelle a déclenché le mode d'urgence « Guardian » de Lighter, qui a suspendu les retraits et permis à son Conseil de sécurité de rendre environ 5 millions d'USDC au trader.
+
+!mid_cta
+
+## Ce qui change maintenant
+
+Lighter indique exiger désormais une signature du portefeuille pour transférer des fonds vers un pool public et avoir rendu les signatures des clés API non publiques. Elle prévoit d'ajouter des listes d'adresses IP autorisées, pour qu'une clé ne fonctionne que depuis un serveur choisi, ainsi que des limites et des permissions pour chaque clé. Elle conseille à toute personne qui doute de son code de renouveler toutes ses clés API et de passer à un kit officiel.
+
+Vers 12 h 21, heure du Centre, Lighter a [annoncé](L5) que les dépôts et les retraits étaient « revenus à la normale » et que les retraits en attente étaient en cours de traitement. Elle n'a pas dit si le reste de la perte du trader serait couvert.
+
+## Ce que cela signifie pour les débutants
+
+La plupart des débutants ne créent jamais de clés API, mais ce cas montre qu'un compte crypto n'est sûr que si ses clés le sont. Si vous connectez un robot de trading ou une application fiscale à une plateforme, donnez à la clé le moins de permissions possible, ne la collez jamais dans du code que vous partagez et supprimez les clés que vous n'utilisez plus. Beaucoup de nouveaux venus préfèrent commencer sur une grande plateforme régulée comme [Coinbase](REF), où l'on achète et vend depuis l'application au lieu de faire tourner son propre code. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Si Lighter récupère davantage de fonds ou rembourse le reste de la perte du trader.
+- Quand les listes d'IP autorisées et les limites par clé promises seront mises en place.
+- Si l'estimation haute de 15,5 millions de dollars de pertes est confirmée.
+
+!soft: Vous ne savez pas où garder vos cryptos ? Lisez [ce qu'est un portefeuille crypto : dépositaire ou auto-garde](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

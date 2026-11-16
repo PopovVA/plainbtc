@@ -1,0 +1,61 @@
+title: Lighter stoppt Auszahlungen, nachdem ein geleakter Trading-Schlüssel einem Angreifer 10,4 Millionen Dollar einbringt
+page_title: DEX Lighter verliert rund 10,4 Mio. Dollar durch geleakten API-Schlüssel, Auszahlungen laufen wieder
+description: Die Krypto-Derivatebörse Lighter hat am Montag Auszahlungen eingefroren, nachdem ein Angreifer mit dem geleakten API-Schlüssel eines Traders rund 10,4 Millionen Dollar in USDC abgezogen hatte. Lighter sagt, der eigene Code sei nicht gehackt worden, rund 5 Millionen seien zurückgeholt und Auszahlungen laufen wieder.
+og_description: Ein Angreifer hat am Montag mit dem geleakten API-Schlüssel eines Traders rund 10,4 Millionen Dollar in USDC von der Börse Lighter abgezogen. Lighter macht unsicheren Signatur-Code von Dritten verantwortlich, holte rund 5 Millionen zurück und öffnete die Auszahlungen noch am selben Tag.
+label: Sicherheit
+summary: Ein Angreifer hat am Montag mit dem geleakten API-Schlüssel eines Traders rund 10,4 Millionen Dollar in USDC von der Börse Lighter abgezogen. Lighter stoppte die Auszahlungen, holte rund 5 Millionen zurück und öffnete noch am selben Tag wieder.
+===
+
+Lighter, eine dezentrale Börse für den Handel mit Krypto-Futures, hat am Montagmorgen alle Auszahlungen gestoppt, nachdem ein Angreifer mit dem geleakten API-Schlüssel eines einzelnen Traders rund <strong>10,4 Millionen Dollar</strong> im Stablecoin USDC von der Plattform abgezogen hatte, berichtete [CoinDesk](L1). Lighter erklärte, die eigene Software und die Smart Contracts seien nicht gehackt worden.
+
+Bis zum Mittag teilte die Börse mit, sie habe für den betroffenen Trader rund 5 Millionen Dollar zurückgeholt und Ein- und Auszahlungen wieder geöffnet. Ihr Token LIT fiel nach der Nachricht um mehr als 10 % auf unter 2,48 Dollar und erholte sich danach auf rund 2,62 Dollar, so CoinDesk.
+
+!takeaways
+- Ein Angreifer hat am Montag, 16. November, mit dem geleakten API-Schlüssel eines Traders rund 10,39 Millionen USDC von Lighter abgezogen.
+- Lighter stoppte Auszahlungen und das Anlegen neuer Pools für etwa sieben Stunden und sagt, Protokoll und Smart Contracts seien nicht betroffen.
+- Der Schlüssel wurde bekannt, weil der eigene Signatur-Code des Traders eine Einmalzahl mehrfach verwendete, ein bekannter Kryptografie-Fehler.
+- Rund 5 Millionen Dollar gingen an den Trader zurück, und die Auszahlungen liefen gegen 12:21 Uhr US-Central-Zeit wieder an.
+
+!figure:chart
+
+## Was passiert ist
+
+Ein API-Schlüssel ist ein passwortähnlicher Code, mit dem Trading-Bots Orders für ein Konto platzieren können, ohne dass der Inhaber klicken muss. Laut dem Blockchain-Datenanbieter [Bitquery](L3) verließen am Montag gegen 4:11 Uhr US-Central-Zeit rund 10.393.057 USDC den Ethereum-Vertrag von Lighter. Die Empfänger-Wallet tauschte das Geld innerhalb von etwa vier Minuten in Ether.
+
+Weniger als eine Stunde später schrieb Lighter auf X, man untersuche „einen Sicherheitsvorfall, an dem offenbar eine einzelne kompromittierte externe Partei beteiligt ist“, und stoppte alle Auszahlungen sowie das Anlegen von Pools. In einem Update gegen 6:49 Uhr Central-Zeit nannte die Börse als Ursache „einen geleakten API-Schlüssel für das Konto eines bestimmten Traders“ und benannte die Wallet, die sie dem Angreifer zuordnet.
+
+Die Analysefirma Bubblemaps verfolgte dieselbe Wallet, berichtete [Cointelegraph](L2). Bitquery stellte fest, dass danach 1.920 ETH, rund 3,5 Millionen Dollar, über 12 neue Wallets zu je 160 ETH an die Börse Hyperliquid flossen, wo jede einen Token namens XMR1 kaufte, benannt nach der Privacy-Kryptowährung Monero. Weitere 3.845 ETH lagen bei Bitquerys letzter Prüfung noch in der Haupt-Wallet.
+
+Einige Forscher beziffern die möglichen Verluste auf rund 15,5 Millionen Dollar über zwei Market-Maker-Konten. Lighter hat diese höhere Zahl nicht bestätigt.
+
+!figure:timeline
+
+## Wie der Schlüssel durchsickerte
+
+In einer [ausführlichen Analyse](L4), die Lighter am Montag gegen Mittag veröffentlichte, heißt es, die betroffenen Konten hätten nicht die offiziellen Software-Kits der Börse genutzt. Ihr eigener Signatur-Code verwendete eine „Nonce“ mehrfach, also eine zufällige Einmalzahl, die bei jeder digitalen Signatur anders sein muss. Da Signaturen öffentlich sind, kann jeder aus zwei Signaturen mit derselben Nonce den geheimen Schlüssel berechnen. Lighter wies darauf hin, dass dieselbe Schwäche auch Bitcoin- und Ethereum-Signaturen betrifft.
+
+Mit dem Schlüssel legte der Angreifer vom Konto des Opfers aus einen öffentlichen Pool an, kaufte von einem separaten Konto Pool-Anteile, verschob das Geld des Opfers in den Pool und löste dann seine Anteile ein. Die ungewöhnliche Aktivität löste Lighters Notfallmodus „Guardian“ aus, der Auszahlungen stoppte und es dem Sicherheitsrat der Börse ermöglichte, rund 5 Millionen USDC an den Trader zurückzugeben.
+
+!mid_cta
+
+## Was sich jetzt ändert
+
+Lighter verlangt nach eigenen Angaben nun eine Wallet-Signatur, um Geld in einen öffentlichen Pool zu verschieben, und hat die Signaturen von API-Schlüsseln nicht mehr öffentlich gemacht. Geplant sind IP-Freigabelisten, damit ein Schlüssel nur von einem gewählten Server aus funktioniert, sowie Limits und Berechtigungen für jeden einzelnen Schlüssel. Wer sich bei seinem Code unsicher ist, solle alle API-Schlüssel erneuern und auf ein offizielles Kit umsteigen, riet die Börse.
+
+Gegen 12:21 Uhr Central-Zeit [meldete](L5) Lighter, Ein- und Auszahlungen seien „wieder normal“ und ausstehende Auszahlungen würden bearbeitet. Ob der Rest des Verlusts des Traders ersetzt wird, hat Lighter nicht gesagt.
+
+## Was das für Einsteiger bedeutet
+
+Die meisten Einsteiger legen nie API-Schlüssel an, doch der Fall zeigt: Ein Krypto-Konto ist nur so sicher wie seine Schlüssel. Wenn Sie einen Trading-Bot oder eine Steuer-App mit einer Börse verbinden, geben Sie dem Schlüssel so wenige Rechte wie möglich, fügen Sie ihn nie in Code ein, den Sie teilen, und löschen Sie Schlüssel, die Sie nicht mehr nutzen. Viele Neulinge starten lieber bei einer großen regulierten Börse wie [Coinbase](REF), wo man über die App kauft und verkauft, statt eigenen Code laufen zu lassen. Dies ist keine Anlageberatung.
+
+## Worauf jetzt zu achten ist
+
+- Ob Lighter weitere Mittel zurückholt oder den restlichen Verlust des Traders ersetzt.
+- Wann die angekündigten IP-Freigabelisten und Limits pro Schlüssel starten.
+- Ob die höhere Schätzung von 15,5 Millionen Dollar Verlust bestätigt wird.
+
+!soft: Unsicher, wo Sie Ihre Coins aufbewahren sollen? Lesen Sie [was eine Krypto-Wallet ist: verwahrt oder selbst verwahrt](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

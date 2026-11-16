@@ -1,0 +1,61 @@
+title: Lighter pausa saques depois que uma chave de trading vazada permite a um invasor levar US$ 10,4 milhões
+page_title: DEX Lighter perde cerca de US$ 10,4 milhões por chave de API vazada; saques são retomados
+description: A corretora de derivativos cripto Lighter congelou os saques na segunda-feira depois que um invasor usou a chave de API vazada de um trader para tirar cerca de US$ 10,4 milhões em USDC. A Lighter diz que seu código não foi hackeado, que recuperou cerca de US$ 5 milhões e que os saques voltaram.
+og_description: Um invasor usou a chave de API vazada de um trader para tirar cerca de US$ 10,4 milhões em USDC da corretora Lighter na segunda-feira. A Lighter culpou um código de assinatura de terceiros inseguro, recuperou cerca de US$ 5 milhões e reabriu os saques no mesmo dia.
+label: Segurança
+summary: Um invasor usou a chave de API vazada de um trader para tirar cerca de US$ 10,4 milhões em USDC da corretora Lighter na segunda-feira. A Lighter pausou os saques, recuperou cerca de US$ 5 milhões e reabriu no mesmo dia.
+===
+
+A Lighter, uma corretora descentralizada para negociar futuros de criptomoedas, pausou todos os saques na manhã de segunda-feira depois que um invasor usou a chave de API vazada de um único trader para tirar da plataforma cerca de <strong>US$ 10,4 milhões</strong> na stablecoin USDC, informou o [CoinDesk](L1). A Lighter afirmou que seu próprio software e seus contratos inteligentes não foram hackeados.
+
+Por volta do meio-dia, a corretora disse que havia recuperado cerca de US$ 5 milhões para o trader afetado e reaberto depósitos e saques. Seu token LIT caiu mais de 10%, para menos de US$ 2,48, após a notícia, e depois se recuperou para cerca de US$ 2,62, segundo o CoinDesk.
+
+!takeaways
+- Um invasor usou a chave de API vazada de um trader para sacar cerca de 10,39 milhões de USDC da Lighter na segunda-feira, 16 de novembro.
+- A Lighter pausou saques e a criação de novos pools por cerca de sete horas e diz que seu protocolo e seus contratos inteligentes não foram afetados.
+- A chave vazou porque o próprio código de assinatura do trader reutilizava um número de uso único, um erro de criptografia conhecido.
+- Cerca de US$ 5 milhões foram devolvidos ao trader, e os saques voltaram por volta das 12h21, horário central dos EUA.
+
+!figure:chart
+
+## O que aconteceu
+
+Uma chave de API é um código parecido com uma senha que permite que robôs de trading enviem ordens de uma conta sem que o dono precise clicar em nada. Segundo a empresa de dados de blockchain [Bitquery](L3), cerca de 10.393.057 USDC saíram do contrato da Lighter na Ethereum por volta das 4h11, horário central dos EUA, de segunda-feira. A carteira que recebeu o dinheiro o trocou por ether em cerca de quatro minutos.
+
+Menos de uma hora depois, a Lighter publicou no X que investigava "um incidente de segurança que parece envolver uma única parte externa comprometida" e suspendeu todos os saques e a criação de pools. Em uma atualização por volta das 6h49, horário central, disse que a causa foi "uma chave de API vazada da conta de um trader específico" e apontou a carteira que acredita pertencer ao invasor.
+
+A empresa de análise Bubblemaps rastreou a mesma carteira, informou o [Cointelegraph](L2). A Bitquery descobriu que 1.920 ETH, cerca de US$ 3,5 milhões, foram depois enviados por 12 carteiras novas de 160 ETH cada para a corretora Hyperliquid, onde cada uma comprou um token chamado XMR1, nome inspirado na moeda de privacidade Monero. Outros 3.845 ETH continuavam na carteira principal na última verificação da Bitquery.
+
+Alguns pesquisadores estimam perdas potenciais de cerca de US$ 15,5 milhões em duas contas de formadores de mercado. A Lighter não confirmou esse número mais alto.
+
+!figure:timeline
+
+## Como a chave vazou
+
+Em um [relatório detalhado](L4) publicado por volta do meio-dia de segunda-feira, a Lighter disse que as contas afetadas não usavam seus kits de software oficiais. O próprio código de assinatura delas reutilizava um "nonce", um número aleatório de uso único que precisa ser diferente em cada assinatura digital. Como as assinaturas são públicas, duas assinaturas feitas com o mesmo nonce permitem que qualquer pessoa calcule a chave secreta. A Lighter observou que a mesma fraqueza vale para assinaturas de Bitcoin e Ethereum.
+
+Com a chave, o invasor criou um pool público a partir da conta da vítima, comprou cotas do pool com outra conta, transferiu os fundos da vítima para o pool e depois resgatou suas cotas. A atividade incomum acionou o modo de emergência "Guardian" da Lighter, que pausou os saques e permitiu que seu Conselho de Segurança devolvesse cerca de 5 milhões de USDC ao trader.
+
+!mid_cta
+
+## O que muda agora
+
+A Lighter disse que agora exige assinatura da carteira para mover fundos para um pool público e que as assinaturas das chaves de API deixaram de ser públicas. Ela planeja adicionar listas de IPs permitidos, para que uma chave só funcione a partir de um servidor escolhido, além de limites e permissões para cada chave. Quem tiver dúvidas sobre o próprio código deve trocar todas as chaves de API e passar a usar um kit oficial, recomendou.
+
+Por volta das 12h21, horário central, a Lighter [disse](L5) que depósitos e saques estavam "de volta ao normal" e que os saques pendentes estavam sendo processados. Ela não disse se o restante da perda do trader será coberto.
+
+## O que isso significa para iniciantes
+
+A maioria dos iniciantes nunca cria chaves de API, mas o caso mostra que uma conta cripto é tão segura quanto suas chaves. Se você conectar um robô de trading ou um aplicativo de impostos a uma corretora, dê à chave o mínimo de permissões possível, nunca a cole em código que você compartilha e apague as chaves que não usa mais. Muitos iniciantes preferem começar em uma corretora grande e regulada como a [Coinbase](REF), onde se compra e vende pelo aplicativo em vez de rodar código próprio. Isto não é recomendação de investimento.
+
+## O que acompanhar
+
+- Se a Lighter recupera mais fundos ou paga o restante da perda do trader.
+- Quando as listas de IPs permitidos e os limites por chave prometidos entram em vigor.
+- Se a estimativa mais alta de perdas, de US$ 15,5 milhões, será confirmada.
+
+!soft: Não sabe onde guardar suas moedas? Leia [o que é uma carteira cripto: custodial ou autocustódia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

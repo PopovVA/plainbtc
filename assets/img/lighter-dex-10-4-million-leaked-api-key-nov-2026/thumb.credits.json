@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "lighter.png",
+      "license": "Logo",
+      "url": "https://www.coingecko.com/en/coins/lighter",
+      "credit": "Lighter (logo via CoinGecko)"
+    },
+    {
+      "file": "Bitquery, Nov. 16, 2026",
+      "license": "Figure cited",
+      "url": "https://bitquery.io/investigations/lighter-hack",
+      "credit": "Bitquery"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "lighter-dex-10-4-million-leaked-api-key-nov-2026",
+  "generated": "2026-11-16T19:02Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

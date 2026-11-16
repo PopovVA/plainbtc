@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-lit-price-nov-16.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of Lighter's LIT token price on CoinGecko on Nov. 16, 2026 (UTC): about $2.83 at midnight, drifting to about $2.75 by 10:00, a sharp drop to a low of about $2.49 at 10:45 after the incident, and a recovery to about $2.70 by 19:00",
+      "es": "Gráfico de líneas del precio del token LIT de Lighter en CoinGecko el 16 de noviembre de 2026 (UTC): unos 2,83 dólares a medianoche, bajada hasta unos 2,75 a las 10:00, caída brusca hasta un mínimo de unos 2,49 a las 10:45 tras el incidente y recuperación hasta unos 2,70 a las 19:00",
+      "pt": "Gráfico de linha do preço do token LIT da Lighter na CoinGecko em 16 de novembro de 2026 (UTC): cerca de US$ 2,83 à meia-noite, recuo para cerca de US$ 2,75 às 10h00, queda brusca até a mínima de cerca de US$ 2,49 às 10h45 após o incidente e recuperação para cerca de US$ 2,70 às 19h00",
+      "fr": "Courbe du cours du jeton LIT de Lighter sur CoinGecko le 16 novembre 2026 (UTC) : environ 2,83 dollars à minuit, environ 2,75 à 10 h 00, une chute brutale jusqu'à un plus bas d'environ 2,49 à 10 h 45 après l'incident, puis une remontée vers 2,70 à 19 h 00",
+      "de": "Liniendiagramm des Kurses des Lighter-Tokens LIT bei CoinGecko am 16. November 2026 (UTC): rund 2,83 $ um Mitternacht, rund 2,75 $ um 10:00 Uhr, nach dem Vorfall ein scharfer Einbruch auf ein Tief von rund 2,49 $ um 10:45 Uhr und eine Erholung auf rund 2,70 $ bis 19:00 Uhr",
+      "ru": "Линейный график цены токена LIT биржи Lighter по данным CoinGecko 16 ноября 2026 года (UTC): около $2,83 в полночь, около $2,75 к 10:00, резкое падение до минимума около $2,49 в 10:45 после инцидента и восстановление примерно до $2,70 к 19:00",
+      "tr": "Lighter'ın LIT tokeninin 16 Kasım 2026'da CoinGecko'daki fiyatının çizgi grafiği (UTC): gece yarısı yaklaşık 2,83 $, 10.00'da yaklaşık 2,75 $, olaydan sonra 10.45'te yaklaşık 2,49 $'lık dibe sert düşüş ve 19.00'a kadar yaklaşık 2,70 $'a toparlanma",
+      "id": "Grafik garis harga token LIT milik Lighter di CoinGecko pada 16 November 2026 (UTC): sekitar US$2,83 pada tengah malam, sekitar US$2,75 pada pukul 10.00, anjlok tajam ke titik terendah sekitar US$2,49 pada pukul 10.45 setelah insiden, lalu pulih ke sekitar US$2,70 pada pukul 19.00",
+      "ja": "2026年11月16日（UTC）のCoinGeckoにおけるLighterのLITトークン価格の折れ線グラフ：0時に約2.83ドル、10時に約2.75ドル、事件後の10時45分に約2.49ドルの安値まで急落し、19時までに約2.70ドルへ回復",
+      "ko": "2026년 11월 16일(UTC) CoinGecko 기준 라이터 LIT 토큰 가격 선 차트: 자정 약 2.83달러, 10시 약 2.75달러, 사고 후 10시 45분 약 2.49달러 저점까지 급락한 뒤 19시까지 약 2.70달러로 회복"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: CoinGecko LIT/USD 5-minute prices",
+      "es": "Gráfico: PlainBTC, datos: CoinGecko LIT/USD 5-minute prices",
+      "pt": "Gráfico: PlainBTC, dados: CoinGecko LIT/USD 5-minute prices",
+      "fr": "Graphique : PlainBTC, données : CoinGecko LIT/USD 5-minute prices",
+      "de": "Chart: PlainBTC, Daten: CoinGecko LIT/USD 5-minute prices",
+      "ru": "График: PlainBTC, данные: CoinGecko LIT/USD 5-minute prices",
+      "tr": "Grafik: PlainBTC, veri: CoinGecko LIT/USD 5-minute prices",
+      "id": "Grafik: PlainBTC, data: CoinGecko LIT/USD 5-minute prices",
+      "ja": "チャート: PlainBTC、データ: CoinGecko LIT/USD 5-minute prices",
+      "ko": "차트: PlainBTC, 데이터: CoinGecko LIT/USD 5-minute prices"
+    }
+  },
+  {
+    "id": "timeline",
+    "file": "timeline-lighter-incident.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline of the Lighter incident on Nov. 16, 2026, in U.S. Central time: 4:11 a.m., about 10.39 million USDC leaves Lighter and is swapped to ether within minutes; 5:02 a.m., Lighter suspends all withdrawals and pool creation; 6:49 a.m., Lighter blames a trader's leaked API key and turns on Guardian mode; 12:21 p.m., about 5 million USDC is returned to the trader and withdrawals are back to normal",
+      "es": "Cronología del incidente de Lighter el 16 de noviembre de 2026, en hora del centro de EE. UU.: 4:11, salen de Lighter unos 10,39 millones de USDC que se cambian por ether en minutos; 5:02, Lighter suspende todos los retiros y la creación de pools; 6:49, Lighter atribuye el caso a la clave API filtrada de un trader y activa el modo Guardian; 12:21, se devuelven unos 5 millones de USDC al trader y los retiros vuelven a la normalidad",
+      "pt": "Linha do tempo do incidente da Lighter em 16 de novembro de 2026, no horário central dos EUA: 4h11, cerca de 10,39 milhões de USDC saem da Lighter e são trocados por ether em minutos; 5h02, a Lighter suspende todos os saques e a criação de pools; 6h49, a Lighter atribui o caso à chave de API vazada de um trader e ativa o modo Guardian; 12h21, cerca de 5 milhões de USDC são devolvidos ao trader e os saques voltam ao normal",
+      "fr": "Chronologie de l'incident Lighter du 16 novembre 2026, heure du Centre des États-Unis : 4 h 11, environ 10,39 millions d'USDC quittent Lighter et sont échangés contre de l'ether en quelques minutes ; 5 h 02, Lighter suspend tous les retraits et la création de pools ; 6 h 49, Lighter met en cause la clé API divulguée d'un trader et active le mode Guardian ; 12 h 21, environ 5 millions d'USDC sont rendus au trader et les retraits reviennent à la normale",
+      "de": "Zeitleiste des Lighter-Vorfalls am 16. November 2026, US-Central-Zeit: 4:11 Uhr, rund 10,39 Mio. USDC verlassen Lighter und werden binnen Minuten in Ether getauscht; 5:02 Uhr, Lighter stoppt alle Auszahlungen und das Anlegen von Pools; 6:49 Uhr, Lighter nennt den geleakten API-Schlüssel eines Traders als Ursache und aktiviert den Guardian-Modus; 12:21 Uhr, rund 5 Mio. USDC gehen an den Trader zurück, Auszahlungen laufen wieder normal",
+      "ru": "Хронология инцидента с Lighter 16 ноября 2026 года по центральному времени США: 4:11, около 10,39 млн USDC выводят с Lighter и за несколько минут обменивают на эфир; 5:02, Lighter приостанавливает все выводы и создание пулов; 6:49, Lighter называет причиной утёкший API-ключ одного трейдера и включает режим Guardian; 12:21, трейдеру возвращают около 5 млн USDC, выводы работают в обычном режиме",
+      "tr": "16 Kasım 2026'daki Lighter olayının ABD Merkez saatine göre zaman çizelgesi: 04.11, yaklaşık 10,39 milyon USDC Lighter'dan çıkıyor ve dakikalar içinde ether'e çevriliyor; 05.02, Lighter tüm çekimleri ve havuz oluşturmayı durduruyor; 06.49, Lighter olayı bir yatırımcının sızan API anahtarına bağlıyor ve Guardian modunu açıyor; 12.21, yaklaşık 5 milyon USDC yatırımcıya iade ediliyor ve çekimler normale dönüyor",
+      "id": "Linimasa insiden Lighter pada 16 November 2026, waktu Central AS: 04.11, sekitar 10,39 juta USDC keluar dari Lighter dan ditukar ke ether dalam hitungan menit; 05.02, Lighter menangguhkan semua penarikan dan pembuatan pool; 06.49, Lighter menyebut penyebabnya kunci API seorang trader yang bocor dan menyalakan mode Guardian; 12.21, sekitar 5 juta USDC dikembalikan ke trader dan penarikan kembali normal",
+      "ja": "2026年11月16日のLighter事件の時系列（米中部時間）：午前4時11分、約1039万USDCがLighterから流出し数分でイーサに交換、午前5時2分、Lighterが全出金とプール作成を停止、午前6時49分、Lighterがトレーダー1人のAPIキー流出が原因と発表しGuardianモードを有効化、午後0時21分、約500万USDCがトレーダーに返還され出金が通常に戻る",
+      "ko": "2026년 11월 16일 라이터 사고 타임라인(미국 중부시간): 오전 4시 11분, 약 1,039만 USDC가 라이터에서 빠져나가 몇 분 만에 이더로 교환, 오전 5시 2분, 라이터가 모든 출금과 풀 생성 중단, 오전 6시 49분, 라이터가 트레이더 한 명의 API 키 유출을 원인으로 지목하고 가디언 모드 가동, 오후 12시 21분, 약 500만 USDC가 트레이더에게 반환되고 출금 정상화"
+    },
+    "caption": {
+      "en": "Source: Bitquery; Lighter on X",
+      "es": "Fuente: Bitquery; Lighter on X",
+      "pt": "Fonte: Bitquery; Lighter on X",
+      "fr": "Source : Bitquery; Lighter on X",
+      "de": "Quelle: Bitquery; Lighter on X",
+      "ru": "Источник: Bitquery; Lighter on X",
+      "tr": "Kaynak: Bitquery; Lighter on X",
+      "id": "Sumber: Bitquery; Lighter on X",
+      "ja": "出典: Bitquery; Lighter on X",
+      "ko": "출처: Bitquery; Lighter on X"
+    }
+  }
+]

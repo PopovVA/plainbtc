@@ -8,6 +8,14 @@
     <lastBuildDate>Mon, 16 Nov 2026 14:45:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Lighter приостановила выводы после того, как утёкший торговый ключ позволил хакеру забрать $10,4 млн</title>
+      <link>https://plainbtc.com/ru/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026</guid>
+      <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Безопасность</category>
+      <description>Злоумышленник с помощью утёкшего API-ключа одного трейдера вывел с биржи Lighter около $10,4 млн в USDC. Lighter приостановила выводы, вернула около $5 млн и в тот же день возобновила работу.</description>
+    </item>
+    <item>
       <title>Strategy купила ещё 485 биткоинов на падающем рынке, её запас вырос до 850 849 BTC</title>
       <link>https://plainbtc.com/ru/articles/strategy-buys-485-bitcoin-strive-251-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/ru/articles/strategy-buys-485-bitcoin-strive-251-nov-2026</guid>

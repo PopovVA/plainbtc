@@ -1,0 +1,61 @@
+title: Lighter menghentikan penarikan setelah kunci trading yang bocor membuat penyerang membawa kabur US$10,4 juta
+page_title: DEX Lighter kehilangan sekitar US$10,4 juta lewat kunci API yang bocor, penarikan kembali dibuka
+description: Bursa derivatif kripto Lighter membekukan penarikan pada Senin setelah seorang penyerang memakai kunci API milik seorang trader yang bocor untuk menarik sekitar US$10,4 juta dalam USDC. Lighter mengatakan kodenya tidak diretas, sekitar US$5 juta berhasil dipulihkan, dan penarikan sudah dibuka lagi.
+og_description: Seorang penyerang memakai kunci API milik seorang trader yang bocor untuk mengeluarkan sekitar US$10,4 juta dalam USDC dari bursa Lighter pada Senin. Lighter menyalahkan kode penandatanganan pihak ketiga yang tidak aman, memulihkan sekitar US$5 juta, dan membuka lagi penarikan pada hari yang sama.
+label: Keamanan
+summary: Seorang penyerang memakai kunci API milik seorang trader yang bocor untuk mengeluarkan sekitar US$10,4 juta dalam USDC dari bursa Lighter pada Senin. Lighter menghentikan penarikan, memulihkan sekitar US$5 juta, dan membuka lagi pada hari yang sama.
+===
+
+Lighter, bursa terdesentralisasi untuk perdagangan kontrak berjangka kripto, menghentikan semua penarikan pada Senin pagi setelah seorang penyerang memakai kunci API milik satu trader yang bocor untuk mengeluarkan sekitar <strong>US$10,4 juta</strong> dalam stablecoin USDC dari platform tersebut, lapor [CoinDesk](L1). Lighter mengatakan perangkat lunak dan kontrak pintarnya sendiri tidak diretas.
+
+Menjelang tengah hari, bursa itu mengatakan telah memulihkan sekitar US$5 juta untuk trader yang terdampak serta membuka kembali setoran dan penarikan. Token LIT miliknya turun lebih dari 10% ke bawah US$2,48 setelah kabar itu, lalu pulih ke sekitar US$2,62, menurut CoinDesk.
+
+!takeaways
+- Seorang penyerang memakai kunci API milik seorang trader yang bocor untuk menarik sekitar 10,39 juta USDC dari Lighter pada Senin, 16 November.
+- Lighter menghentikan penarikan dan pembuatan pool baru selama sekitar tujuh jam dan menyatakan protokol serta kontrak pintarnya tidak terdampak.
+- Kunci itu bocor karena kode penandatanganan milik trader tersebut memakai ulang angka sekali pakai, sebuah kesalahan kriptografi yang sudah dikenal.
+- Sekitar US$5 juta dikembalikan ke trader, dan penarikan dibuka lagi sekitar pukul 12.21 waktu Central AS.
+
+!figure:chart
+
+## Apa yang terjadi
+
+Kunci API adalah kode mirip kata sandi yang memungkinkan bot trading memasang order dari sebuah akun tanpa pemiliknya perlu mengklik apa pun. Menurut perusahaan data blockchain [Bitquery](L3), sekitar 10.393.057 USDC keluar dari kontrak Ethereum milik Lighter sekitar pukul 04.11 waktu Central AS pada Senin. Dompet penerima menukar uang itu ke ether dalam waktu sekitar empat menit.
+
+Kurang dari satu jam kemudian, Lighter mengunggah di X bahwa mereka sedang menyelidiki "insiden keamanan yang tampaknya melibatkan satu pihak eksternal yang disusupi" dan menangguhkan semua penarikan serta pembuatan pool. Dalam pembaruan sekitar pukul 06.49 waktu Central, Lighter menyebut penyebabnya adalah "kunci API yang bocor milik akun seorang trader tertentu" dan menyebut dompet yang diyakini milik penyerang.
+
+Perusahaan analitik Bubblemaps melacak dompet yang sama, lapor [Cointelegraph](L2). Bitquery menemukan bahwa 1.920 ETH, senilai sekitar US$3,5 juta, kemudian dikirim melalui 12 dompet baru masing-masing 160 ETH ke bursa Hyperliquid, tempat setiap dompet membeli token bernama XMR1, yang dinamai dari koin privasi Monero. Sebanyak 3.845 ETH lainnya masih berada di dompet utama saat terakhir dicek Bitquery.
+
+Sebagian peneliti memperkirakan potensi kerugian sekitar US$15,5 juta dari dua akun market maker. Lighter belum mengonfirmasi angka yang lebih tinggi itu.
+
+!figure:timeline
+
+## Bagaimana kunci itu bocor
+
+Dalam [penjelasan rinci](L4) yang diunggah sekitar tengah hari Senin, Lighter mengatakan akun-akun yang terdampak tidak memakai kit perangkat lunak resminya. Kode penandatanganan milik mereka sendiri memakai ulang "nonce", yaitu angka acak sekali pakai yang harus berbeda untuk setiap tanda tangan digital. Karena tanda tangan bersifat publik, dua tanda tangan dengan nonce yang sama memungkinkan siapa pun menghitung kunci rahasianya. Lighter mencatat kelemahan yang sama juga berlaku untuk tanda tangan Bitcoin dan Ethereum.
+
+Dengan kunci itu, penyerang membuat pool publik dari akun korban, membeli bagian pool dari akun terpisah, memindahkan dana korban ke pool, lalu mencairkan bagiannya. Aktivitas tak biasa itu memicu mode darurat "Guardian" milik Lighter, yang menghentikan penarikan dan memungkinkan Dewan Keamanan bursa mengembalikan sekitar 5 juta USDC kepada trader.
+
+!mid_cta
+
+## Apa yang berubah sekarang
+
+Lighter mengatakan kini mewajibkan tanda tangan dompet untuk memindahkan dana ke pool publik dan telah membuat tanda tangan kunci API tidak lagi publik. Bursa itu berencana menambahkan daftar IP yang diizinkan, agar sebuah kunci hanya berfungsi dari server yang dipilih, serta batas dan izin untuk setiap kunci. Siapa pun yang ragu dengan kodenya disarankan mengganti semua kunci API dan beralih ke kit resmi.
+
+Sekitar pukul 12.21 waktu Central, Lighter [mengatakan](L5) setoran dan penarikan sudah "kembali normal" dan penarikan yang tertunda sedang diproses. Lighter belum mengatakan apakah sisa kerugian trader akan ditanggung.
+
+## Apa artinya bagi pemula
+
+Sebagian besar pemula tidak pernah membuat kunci API, tetapi kasus ini menunjukkan bahwa akun kripto hanya seaman kuncinya. Jika Anda menghubungkan bot trading atau aplikasi pajak ke sebuah bursa, beri kunci itu izin sesedikit mungkin, jangan pernah menempelkannya di kode yang Anda bagikan, dan hapus kunci yang tidak lagi dipakai. Banyak pendatang baru memilih mulai di bursa besar yang teregulasi seperti [Coinbase](REF), tempat Anda membeli dan menjual lewat aplikasi alih-alih menjalankan kode sendiri. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Apakah Lighter memulihkan lebih banyak dana atau mengganti sisa kerugian trader.
+- Kapan daftar IP yang diizinkan dan batas per kunci yang dijanjikan mulai berlaku.
+- Apakah perkiraan kerugian yang lebih tinggi sebesar US$15,5 juta terkonfirmasi.
+
+!soft: Bingung di mana menyimpan koin Anda? Baca [apa itu dompet kripto: kustodian vs simpan sendiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

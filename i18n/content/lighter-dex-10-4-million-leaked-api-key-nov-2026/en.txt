@@ -1,0 +1,61 @@
+title: Lighter pauses withdrawals after a leaked trading key lets an attacker take $10.4 million
+page_title: Lighter DEX loses about $10.4 million through a leaked API key, withdrawals resume
+description: Crypto derivatives exchange Lighter froze withdrawals on Monday after an attacker used one trader's leaked API key to pull about $10.4 million in USDC. Lighter says its code was not hacked, about $5 million was recovered, and withdrawals are back.
+og_description: An attacker used a trader's leaked API key to move about $10.4 million in USDC out of the Lighter exchange on Monday. Lighter blamed unsafe third-party signing code, recovered about $5 million and reopened withdrawals the same day.
+label: Security
+summary: An attacker used one trader's leaked API key to move about $10.4 million in USDC out of the Lighter exchange on Monday. Lighter paused withdrawals, recovered about $5 million and reopened the same day.
+===
+
+Lighter, a decentralized exchange for crypto futures trading, paused all withdrawals on Monday morning after an attacker used a single trader's leaked API key to move about <strong>$10.4 million</strong> in the USDC stablecoin off the platform, [CoinDesk](L1) reported. Lighter said its own software and smart contracts were not hacked.
+
+By midday, the exchange said it had recovered about $5 million for the affected trader and reopened deposits and withdrawals. Its LIT token fell more than 10% to under $2.48 after the news, then recovered to about $2.62, CoinDesk reported.
+
+!takeaways
+- An attacker used one trader's leaked API key to withdraw about 10.39 million USDC from Lighter on Monday, Nov. 16.
+- Lighter paused withdrawals and new pool creation for about seven hours and says its protocol and smart contracts were unaffected.
+- The key leaked because the trader's own signing code reused a one-time number, a known cryptography mistake.
+- About $5 million was returned to the trader, and withdrawals reopened at about 12:21 p.m. Central time.
+
+!figure:chart
+
+## What happened
+
+An API key is a password-like code that lets trading bots place orders on an account without the owner clicking anything. According to blockchain data firm [Bitquery](L3), about 10,393,057 USDC left Lighter's Ethereum contract at about 4:11 a.m. Central time on Monday. The receiving wallet swapped the money into ether within about four minutes.
+
+Less than an hour later, Lighter posted on X that it was investigating "a security incident that appears to involve a single compromised external party" and suspended all withdrawals and pool creation. In an update at about 6:49 a.m. Central time, it said the cause was "a leaked API key for a specific trader's account" and named the wallet it believes belongs to the attacker.
+
+Analytics firm Bubblemaps tracked the same wallet, [Cointelegraph](L2) reported. Bitquery found that 1,920 ETH, worth about $3.5 million, was then sent through 12 new wallets of 160 ETH each to the Hyperliquid exchange, where each bought a token called XMR1, named after the privacy coin Monero. Another 3,845 ETH was still in the main wallet at Bitquery's last check.
+
+Some researchers put potential losses at about $15.5 million across two market-maker accounts. Lighter has not confirmed that higher figure.
+
+!figure:timeline
+
+## How the key leaked
+
+In a [detailed write-up](L4) posted around midday Monday, Lighter said the affected accounts did not use its official software kits. Their own signing code reused a "nonce," a random one-time number that must be different for every digital signature. Because signatures are public, two signatures made with the same nonce let anyone calculate the secret key. Lighter noted the same weakness applies to Bitcoin and Ethereum signatures.
+
+With the key, the attacker created a public pool from the victim's account, bought pool shares from a separate account, moved the victim's funds into the pool and then cashed out the shares. Lighter's emergency "Guardian" mode was triggered by the unusual activity, which paused withdrawals and let its Security Council return about 5 million USDC to the trader.
+
+!mid_cta
+
+## What changes now
+
+Lighter said it now requires a wallet signature to move funds into a public pool and has made API key signatures non-public. It plans to add IP allowlists, so a key only works from a chosen server, plus limits and permissions for each key. It told anyone unsure about their code to rotate all API keys and switch to an official kit.
+
+At about 12:21 p.m. Central time, Lighter [said](L5) deposits and withdrawals were "back to normal" and pending withdrawals were being processed. It has not said whether the rest of the trader's loss will be covered.
+
+## What it means for beginners
+
+Most beginners never create API keys, but this case shows that a crypto account is only as safe as its keys. If you connect a trading bot or tax app to an exchange, give the key the fewest permissions possible, never paste it into code you share, and delete keys you no longer use. Many newcomers prefer to start on a large regulated exchange such as [Coinbase](REF), where you buy and sell through the app instead of running your own code. This is not investment advice.
+
+## What to watch next
+
+- Whether Lighter recovers more of the funds or repays the rest of the trader's loss.
+- When the promised IP allowlists and per-key limits go live.
+- Whether the higher $15.5 million loss estimate is confirmed.
+
+!soft: Not sure where to keep your coins? Read [what a crypto wallet is: custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

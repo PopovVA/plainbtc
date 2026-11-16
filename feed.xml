@@ -8,6 +8,14 @@
     <lastBuildDate>Mon, 16 Nov 2026 14:45:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Lighter pauses withdrawals after a leaked trading key lets an attacker take $10.4 million</title>
+      <link>https://plainbtc.com/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026</guid>
+      <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Security</category>
+      <description>An attacker used one trader's leaked API key to move about $10.4 million in USDC out of the Lighter exchange on Monday. Lighter paused withdrawals, recovered about $5 million and reopened the same day.</description>
+    </item>
+    <item>
       <title>Strategy buys 485 more bitcoin in a down week, lifting its stack to 850,849 BTC</title>
       <link>https://plainbtc.com/articles/strategy-buys-485-bitcoin-strive-251-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/articles/strategy-buys-485-bitcoin-strive-251-nov-2026</guid>

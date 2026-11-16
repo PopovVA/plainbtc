@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="stylesheet" href="/assets/styles.d7a61a8be7.css">
+  <link rel="icon" href="/favicon.ico?v=2" sizes="48x48">
+  <link rel="icon" href="/assets/favicon.svg?v=2" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=2">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
+  <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (한국어)" href="/ko/feed.xml">
+  <title>탈중앙화 거래소 라이터, API 키 유출로 약 1,040만 달러 피해… 출금 재개 | PlainBTC</title>
+  <meta name="description" content="암호화폐 파생상품 거래소 라이터가 월요일 출금을 동결했다. 공격자가 트레이더 한 명의 유출된 API 키로 약 1,040만 달러어치 USDC를 빼냈기 때문이다. 라이터는 자사 코드는 해킹되지 않았고 약 500만 달러를 회수했으며 출금도 재개됐다고 밝혔다.">
+  <link rel="canonical" href="https://plainbtc.com/ko/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026">
+  <!-- i18n:hreflang -->
+  <link rel="alternate" hreflang="en" href="https://plainbtc.com/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026">
+  <link rel="alternate" hreflang="es" href="https://plainbtc.com/es/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026">
+  <link rel="alternate" hreflang="pt-BR" href="https://plainbtc.com/pt/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026">
+  <link rel="alternate" hreflang="fr" href="https://plainbtc.com/fr/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026">
+  <link rel="alternate" hreflang="de" href="https://plainbtc.com/de/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026">
+  <link rel="alternate" hreflang="ru" href="https://plainbtc.com/ru/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026">
+  <link rel="alternate" hreflang="tr" href="https://plainbtc.com/tr/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026">
+  <link rel="alternate" hreflang="id" href="https://plainbtc.com/id/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026">
+  <link rel="alternate" hreflang="ja" href="https://plainbtc.com/ja/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026">
+  <link rel="alternate" hreflang="ko" href="https://plainbtc.com/ko/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026">
+  <link rel="alternate" hreflang="x-default" href="https://plainbtc.com/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <!-- /i18n:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="라이터, 유출된 거래용 키로 공격자가 1,040만 달러 빼가자 출금 중단">
+  <meta property="og:description" content="월요일 공격자가 트레이더의 유출된 API 키로 라이터 거래소에서 약 1,040만 달러어치 USDC를 빼냈다. 라이터는 안전하지 않은 외부 서명 코드를 원인으로 지목했고, 약 500만 달러를 회수한 뒤 같은 날 출금을 재개했다.">
+  <meta property="og:url" content="https://plainbtc.com/ko/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026">
+  <meta property="og:site_name" content="PlainBTC">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="article:published_time" content="2026-11-16">
+  <meta property="article:modified_time" content="2026-11-16">
+  <meta property="article:section" content="보안">
+  <meta property="og:image" content="https://plainbtc.com/assets/og/lighter-dex-10-4-million-leaked-api-key-nov-2026.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="라이터, 유출된 거래용 키로 공격자가 1,040만 달러 빼가자 출금 중단">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
+  <meta name="twitter:image" content="https://plainbtc.com/assets/og/lighter-dex-10-4-million-leaked-api-key-nov-2026.png">
+  <meta name="twitter:title" content="라이터, 유출된 거래용 키로 공격자가 1,040만 달러 빼가자 출금 중단">
+  <meta name="twitter:description" content="월요일 공격자가 트레이더의 유출된 API 키로 라이터 거래소에서 약 1,040만 달러어치 USDC를 빼냈다. 라이터는 안전하지 않은 외부 서명 코드를 원인으로 지목했고, 약 500만 달러를 회수한 뒤 같은 날 출금을 재개했다.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "라이터, 유출된 거래용 키로 공격자가 1,040만 달러 빼가자 출금 중단",
+    "name": "탈중앙화 거래소 라이터, API 키 유출로 약 1,040만 달러 피해… 출금 재개 | PlainBTC",
+    "description": "암호화폐 파생상품 거래소 라이터가 월요일 출금을 동결했다. 공격자가 트레이더 한 명의 유출된 API 키로 약 1,040만 달러어치 USDC를 빼냈기 때문이다. 라이터는 자사 코드는 해킹되지 않았고 약 500만 달러를 회수했으며 출금도 재개됐다고 밝혔다.",
+    "datePublished": "2026-11-16",
+    "dateModified": "2026-11-16",
+    "author": {
+      "@type": "Organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://plainbtc.com/#organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://plainbtc.com/assets/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://discord.gg/EcuGXPDr2d",
+        "https://www.facebook.com/groups/1688106109771364",
+        "https://x.com/lean_redfield"
+      ]
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://plainbtc.com/ko/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026"
+    },
+    "url": "https://plainbtc.com/ko/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/og/lighter-dex-10-4-million-leaked-api-key-nov-2026.png",
+      "width": 1200,
+      "height": 630
+    },
+    "articleSection": "보안",
+    "isAccessibleForFree": true,
+    "inLanguage": "ko"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "홈",
+        "item": "https://plainbtc.com/ko/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "라이터, 유출된 거래용 키로 공격자가 1,040만 달러 빼가자 출금 중단",
+        "item": "https://plainbtc.com/ko/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <header class="site-header">
+    <div class="wrap inner">
+      <a class="logo" href="/ko/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="메뉴">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
+      <nav class="nav" aria-label="Primary">
+        <a href="/ko/#articles">기사</a>
+        <a href="/ko/#guides">가이드</a>
+        <a href="/ko/about">소개</a>
+        <a href="/ko/disclosure">공시</a>
+      </nav>
+      <div class="header-tools">
+      <!-- i18n:langmenu -->
+      <details class="lang-menu"><summary aria-label="언어"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">한국어</span><span class="lang-code" aria-hidden="true">KO</span></summary><ul><li><a href="/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="ko" hreflang="ko" aria-current="true">한국어</a></li></ul></details>
+      <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="라이트/다크 테마 전환" title="라이트/다크 테마 전환" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="article-page" id="main" data-toc="이 페이지에서" data-nl="새 글을 이메일로 받아보세요" data-nl-cta="구독하기" data-close="닫기">
+    <article class="content">
+      <!-- i18n:arthead -->
+      <header class="article-head">
+        <!-- i18n:crumbs -->
+        <nav class="crumbs" aria-label="탐색 경로"><a href="/ko/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/ko/#articles">기사</a></nav>
+        <!-- /i18n:crumbs -->
+        <div class="badge">보안</div>
+        <h1>라이터, 유출된 거래용 키로 공격자가 1,040만 달러 빼가자 출금 중단</h1>
+        <div class="meta">게시일 <time datetime="2026-11-16">2026년 11월 16일</time> · PlainBTC · 미국<span class="meta-read"> · 약 5분 소요</span></div>
+        <div class="share" role="group" aria-label="공유">
+          <span class="share-label">공유</span>
+          <a class="share-btn" href="https://x.com/intent/post?url=https%3A%2F%2Fplainbtc.com%2Fko%2Farticles%2Flighter-dex-10-4-million-leaked-api-key-nov-2026%3Futm_source%3Dx%26utm_medium%3Dsocial&amp;text=%EB%9D%BC%EC%9D%B4%ED%84%B0%2C%20%EC%9C%A0%EC%B6%9C%EB%90%9C%20%EA%B1%B0%EB%9E%98%EC%9A%A9%20%ED%82%A4%EB%A1%9C%20%EA%B3%B5%EA%B2%A9%EC%9E%90%EA%B0%80%201%2C040%EB%A7%8C%20%EB%8B%AC%EB%9F%AC%20%EB%B9%BC%EA%B0%80%EC%9E%90%20%EC%B6%9C%EA%B8%88%20%EC%A4%91%EB%8B%A8" target="_blank" rel="noopener nofollow" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplainbtc.com%2Fko%2Farticles%2Flighter-dex-10-4-million-leaked-api-key-nov-2026%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noopener nofollow" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+          <button class="share-btn share-copy" type="button" data-url="https://plainbtc.com/ko/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" data-copied="링크를 복사했습니다" aria-label="링크 복사" title="링크 복사" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/><path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg></button>
+          <span class="share-status" role="status" aria-live="polite"></span>
+        </div>
+      </header>
+      <img class="og-hero" src="/assets/og/lighter-dex-10-4-million-leaked-api-key-nov-2026.png" width="1200" height="630" alt="라이터, 유출된 거래용 키로 공격자가 1,040만 달러 빼가자 출금 중단" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->
+
+      <p>암호화폐 선물을 거래하는 탈중앙화 거래소 라이터(Lighter)가 월요일 오전 모든 출금을 중단했다. 공격자가 트레이더 한 명의 유출된 API 키를 이용해 스테이블코인 USDC로 약 <strong>1,040만 달러</strong>를 플랫폼에서 빼냈기 때문이라고 <a href="https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit" target="_blank" rel="noopener">CoinDesk</a>가 보도했다. 라이터는 자사 소프트웨어와 스마트 계약은 해킹되지 않았다고 밝혔다.</p>
+      <p>정오 무렵 거래소는 피해 트레이더를 위해 약 500만 달러를 회수했고 입출금을 다시 열었다고 밝혔다. CoinDesk에 따르면 라이터의 LIT 토큰은 소식이 전해진 뒤 10% 넘게 떨어져 2.48달러 아래로 내려갔다가 약 2.62달러로 회복했다.</p>
+
+      <div class="takeaways">
+        <h2>핵심 요약</h2>
+        <ul>
+          <li>11월 16일 월요일, 공격자가 트레이더 한 명의 유출된 API 키로 라이터에서 약 1,039만 USDC를 인출했다.</li>
+          <li>라이터는 약 7시간 동안 출금과 신규 풀 생성을 중단했으며, 프로토콜과 스마트 계약은 영향을 받지 않았다고 밝혔다.</li>
+          <li>키가 유출된 것은 트레이더가 직접 쓴 서명 코드가 일회용 숫자를 재사용했기 때문으로, 잘 알려진 암호학적 실수다.</li>
+          <li>트레이더에게 약 500만 달러가 반환됐고, 출금은 미국 중부시간 오후 12시 21분쯤 재개됐다.</li>
+        </ul>
+      </div>
+
+      <figure class="article-figure">
+        <img src="/assets/img/lighter-dex-10-4-million-leaked-api-key-nov-2026/chart-lit-price-nov-16.webp" width="1200" height="675" alt="2026년 11월 16일(UTC) CoinGecko 기준 라이터 LIT 토큰 가격 선 차트: 자정 약 2.83달러, 10시 약 2.75달러, 사고 후 10시 45분 약 2.49달러 저점까지 급락한 뒤 19시까지 약 2.70달러로 회복" loading="lazy" decoding="async">
+        <figcaption>차트: PlainBTC, 데이터: CoinGecko LIT/USD 5-minute prices</figcaption>
+      </figure>
+
+      <h2>무슨 일이 있었나</h2>
+      <p>API 키는 비밀번호와 비슷한 코드로, 계정 주인이 직접 클릭하지 않아도 거래 봇이 그 계정에서 주문을 낼 수 있게 해 준다. 블록체인 데이터 업체 <a href="https://bitquery.io/investigations/lighter-hack" target="_blank" rel="noopener">Bitquery</a>에 따르면 월요일 미국 중부시간 오전 4시 11분쯤 약 10,393,057 USDC가 라이터의 이더리움 계약에서 빠져나갔다. 돈을 받은 지갑은 약 4분 만에 이를 이더로 바꿨다.</p>
+      <p>한 시간도 지나지 않아 라이터는 X에 "단일한 외부 당사자가 침해된 것으로 보이는 보안 사고"를 조사 중이라고 올리고 모든 출금과 풀 생성을 중단했다. 중부시간 오전 6시 49분쯤 낸 후속 공지에서는 원인이 "특정 트레이더 계정의 API 키 유출"이라고 밝히고, 공격자의 것으로 보이는 지갑을 공개했다.</p>
+      <p><a href="https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit" target="_blank" rel="noopener">Cointelegraph</a>에 따르면 분석 업체 버블맵스(Bubblemaps)도 같은 지갑을 추적했다. Bitquery는 이후 약 350만 달러어치인 1,920 ETH가 각각 160 ETH씩 12개의 새 지갑을 거쳐 하이퍼리퀴드(Hyperliquid) 거래소로 보내졌고, 각 지갑이 프라이버시 코인 모네로에서 이름을 딴 XMR1이라는 토큰을 샀다고 밝혔다. Bitquery가 마지막으로 확인했을 때 3,845 ETH는 여전히 주 지갑에 남아 있었다.</p>
+      <p>일부 연구자들은 마켓메이커 계정 두 곳에서 잠재 손실이 약 1,550만 달러에 이른다고 본다. 라이터는 이 더 큰 수치를 확인하지 않았다.</p>
+
+      <figure class="article-figure">
+        <img src="/assets/img/lighter-dex-10-4-million-leaked-api-key-nov-2026/timeline-lighter-incident.webp" width="1200" height="630" alt="2026년 11월 16일 라이터 사고 타임라인(미국 중부시간): 오전 4시 11분, 약 1,039만 USDC가 라이터에서 빠져나가 몇 분 만에 이더로 교환, 오전 5시 2분, 라이터가 모든 출금과 풀 생성 중단, 오전 6시 49분, 라이터가 트레이더 한 명의 API 키 유출을 원인으로 지목하고 가디언 모드 가동, 오후 12시 21분, 약 500만 USDC가 트레이더에게 반환되고 출금 정상화" loading="lazy" decoding="async">
+        <figcaption>출처: Bitquery; Lighter on X</figcaption>
+      </figure>
+
+      <h2>키는 어떻게 유출됐나</h2>
+      <p>라이터는 월요일 정오 무렵 올린 <a href="https://x.com/Lighter_xyz/status/2122394446343946717" target="_blank" rel="noopener">상세 설명</a>에서 피해 계정들이 자사 공식 소프트웨어 키트(SDK)를 쓰지 않았다고 밝혔다. 이 계정들의 자체 서명 코드는 디지털 서명마다 달라야 하는 무작위 일회용 숫자인 '논스(nonce)'를 재사용했다. 서명은 공개되기 때문에 같은 논스로 만든 서명 두 개만 있으면 누구나 비밀 키를 계산할 수 있다. 라이터는 같은 약점이 비트코인과 이더리움 서명에도 해당된다고 지적했다.</p>
+      <p>공격자는 이 키로 피해자 계정에서 공개 풀을 만들고, 다른 계정으로 풀 지분을 산 뒤, 피해자의 자금을 풀로 옮기고 자신의 지분을 현금화했다. 이상 거래가 감지되자 라이터의 비상 모드 '가디언(Guardian)'이 작동해 출금이 멈췄고, 거래소 보안위원회가 트레이더에게 약 500만 USDC를 돌려줄 수 있었다.</p>
+
+      <h2>앞으로 달라지는 점</h2>
+      <p>라이터는 이제 공개 풀로 자금을 옮기려면 지갑 서명이 필요하며, API 키 서명을 비공개로 바꿨다고 밝혔다. 또 키가 지정한 서버에서만 작동하도록 하는 IP 허용 목록과 키별 한도·권한 설정을 추가할 계획이다. 자신의 코드가 확실하지 않은 사용자에게는 모든 API 키를 교체하고 공식 키트로 바꾸라고 권고했다.</p>
+      <p>중부시간 오후 12시 21분쯤 라이터는 입출금이 "정상으로 돌아왔고" 대기 중인 출금을 처리하고 있다고 <a href="https://x.com/Lighter_xyz/status/2122394646164758654" target="_blank" rel="noopener">밝혔다</a>. 트레이더의 나머지 손실을 보전할지는 밝히지 않았다.</p>
+      <h2>초보자에게 주는 의미</h2>
+      <p>대부분의 초보자는 API 키를 만들 일이 없지만, 이번 사건은 암호화폐 계정의 안전은 결국 키의 안전에 달려 있다는 점을 보여 준다. 거래 봇이나 세금 앱을 거래소에 연결한다면 키에는 꼭 필요한 최소 권한만 주고, 공유하는 코드에 절대 붙여 넣지 말며, 더 이상 쓰지 않는 키는 삭제하자. 많은 입문자는 직접 코드를 돌리는 대신 앱으로 사고파는 Coinbase 같은 대형 규제 거래소에서 시작하는 편을 택한다. 이 글은 투자 조언이 아니다.</p>
+      <h2>앞으로 지켜볼 점</h2>
+      <ul>
+        <li>라이터가 자금을 더 회수하거나 트레이더의 나머지 손실을 보전할지.</li>
+        <li>약속한 IP 허용 목록과 키별 한도가 언제 도입될지.</li>
+        <li>1,550만 달러라는 더 큰 손실 추정치가 확인될지.</li>
+      </ul>
+
+      <p class="soft-guide">코인을 어디에 보관할지 고민된다면 <a href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">암호화폐 지갑이란: 수탁형과 자기 보관형</a>을 읽어 보세요.</p>
+
+      <div class="cta">
+        <h2>초보자를 위한 가이드를 더 보시겠어요?</h2>
+        <p>이 페이지에서 뉴스레터를 구독하거나 아래 PlainBTC 커뮤니티에 참여해 보세요. 관련 기사는 그 아래에 있습니다.</p>
+      </div>
+
+      <div class="disclosure">
+        <strong>투자 조언이 아닙니다.</strong> 이 기사는 정보 제공과 교육만을 목적으로 합니다. 투자, 거래, 법률 또는 세무 조언이 아닙니다. 암호화폐는 변동성이 크며 원금을 잃을 수 있습니다. 직접 조사하시고, 금융 결정을 내리기 전에 필요하면 자격을 갖춘 전문가와 상담하세요.
+      </div>
+
+  <!-- i18n:bmc -->
+      <aside class="bmc-box" aria-label="PlainBTC 후원">
+        <p>도움이 되셨나요? PlainBTC는 유료 장벽과 과장 없이 운영되는 무료 독립 미디어입니다. 응원하고 싶으시다면 커피 한 잔을 사 주세요.</p>
+        <a class="bmc-button" href="https://buymeacoffee.com/LeonRedfield" target="_blank" rel="noopener">☕ 커피 사 주기</a>
+      </aside>
+  <!-- /i18n:bmc -->
+
+
+  <!-- i18n:community -->
+      <aside class="community-box" aria-label="커뮤니티 링크">
+        <h2>커뮤니티에 참여하세요</h2>
+        <p>뉴스, 초보 질문, 설문: Discord·Facebook·X에서 PlainBTC를 팔로우하세요.</p>
+        <div class="community-links"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+      </aside>
+  <!-- /i18n:community -->
+  <!-- i18n:newsletter -->
+      <aside class="newsletter-box" aria-labelledby="nl-title">
+        <h2 id="nl-title">새 글을 이메일로 받아보세요</h2>
+        <p>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스를 글이 올라올 때마다 이메일로 보내드립니다. 스팸 없이, 언제든 구독 해지할 수 있습니다.</p>
+        <form class="newsletter-form" method="post" action="/api/subscribe" novalidate data-ok="거의 끝났습니다. 받은편지함에서 확인 링크를 눌러 주세요." data-invalid="올바른 이메일 주소를 입력해 주세요." data-rate="시도 횟수가 너무 많습니다. 잠시 후 다시 시도해 주세요." data-error="문제가 발생했습니다. 다시 시도해 주세요." data-sending="전송 중…">
+          <input type="hidden" name="lang" value="ko">
+          <input type="hidden" name="source" value="/ko/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026">
+          <div class="nl-hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <label class="nl-label" for="nl-email">이메일 주소</label>
+          <div class="nl-row"><input id="nl-email" type="email" name="email" required maxlength="254" autocomplete="email" inputmode="email" placeholder="you@example.com">
+          <button type="submit">구독하기</button></div>
+        </form>
+        <p class="nl-status" role="status" aria-live="polite"></p>
+        <p class="nl-note">이메일 주소는 PlainBTC 새 글 알림 발송에만 사용합니다. 확인 절차가 필요합니다. <a href="/ko/disclosure">개인정보 안내</a></p>
+      </aside>
+  <!-- /i18n:newsletter -->
+
+<aside class="related" aria-label="관련 기사">
+        <h2>관련 기사</h2>
+        <ul>
+          <li><a href="/ko/articles/kava-lend-hack-3-8-million-kava-falls-nov-2026">Kava Lend 약 380만 달러 해킹 피해, KAVA 토큰 40% 가까이 급락</a></li>
+          <li><a href="/ko/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026">룩소르 "해커가 자사 소프트웨어 커맨더 통해 비트코인 채굴기 탈취"</a></li>
+          <li><a href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">암호화폐 지갑이란? 수탁형과 자기 수탁형, 초보자를 위한 설명</a></li>
+        </ul>
+      </aside>
+
+      <section class="sources" aria-label="출처">
+        <h2>출처</h2>
+        <ol>
+          <li><a href="https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit" target="_blank" rel="noopener">CoinDesk: Lighter pauses withdrawals after a leaked API key leads to $10.4 million theft</a> (2026년 11월 16일)</li>
+          <li><a href="https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit" target="_blank" rel="noopener">Cointelegraph: Lighter DEX pauses withdrawals following reported $10M exploit</a> (2026년 11월 16일)</li>
+          <li><a href="https://bitquery.io/investigations/lighter-hack" target="_blank" rel="noopener">Bitquery: Lighter incident, $10.4M withdrawn, leaving 160 ETH at a time</a> (2026년 11월 16일)</li>
+          <li><a href="https://x.com/Lighter_xyz/status/2122394446343946717" target="_blank" rel="noopener">Lighter on X: Signing Safely on Lighter, lessons from November 16</a> (2026년 11월 16일)</li>
+          <li><a href="https://x.com/Lighter_xyz/status/2122394646164758654" target="_blank" rel="noopener">Lighter on X: deposits and withdrawals back to normal</a> (2026년 11월 16일)</li>
+          <li><a href="https://www.coingecko.com/en/coins/lighter" target="_blank" rel="noopener">CoinGecko: Lighter (LIT) hourly price data</a> (2026년 11월 16일)</li>
+        </ol>
+        <p class="sources-note">출처 제목은 원문 언어로 표시됩니다.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
+    <div class="wrap inner">
+      <div class="footer-brand">
+        <a class="logo" href="/ko/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · 초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/ko/">홈</a>
+        <a href="/ko/about">소개</a>
+        <a href="/ko/disclosure">공시</a>
+        <a href="/ko/feed.xml">RSS</a>
+      </nav>
+    </div>
+  <!-- i18n:footersocial -->
+  <div class="wrap footer-social" aria-label="커뮤니티 링크"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+  <!-- /i18n:footersocial -->
+  <!-- i18n:footerlangs -->
+  <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="en" hreflang="en">English</a> <a href="/es/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="es" hreflang="es">Español</a> <a href="/pt/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026" lang="ko" hreflang="ko">한국어</a></nav></div>
+  <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">맨 위로 <span aria-hidden="true">↑</span></a></div>
+  </footer>
+  <script src="/assets/site.a911afff6c.js" defer></script>
+</body>
+</html>

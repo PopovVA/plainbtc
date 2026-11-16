@@ -1,0 +1,61 @@
+title: Lighter pausa los retiros después de que una clave de trading filtrada permitiera a un atacante llevarse 10,4 millones de dólares
+page_title: El DEX Lighter pierde unos 10,4 millones de dólares por una clave API filtrada; los retiros se reanudan
+description: El exchange de derivados cripto Lighter congeló los retiros el lunes después de que un atacante usara la clave API filtrada de un trader para sacar unos 10,4 millones de dólares en USDC. Lighter dice que su código no fue hackeado, que recuperó unos 5 millones y que los retiros ya funcionan.
+og_description: Un atacante usó la clave API filtrada de un trader para sacar unos 10,4 millones de dólares en USDC del exchange Lighter el lunes. Lighter culpó a un código de firma de terceros inseguro, recuperó unos 5 millones y reabrió los retiros el mismo día.
+label: Seguridad
+summary: Un atacante usó la clave API filtrada de un trader para sacar unos 10,4 millones de dólares en USDC del exchange Lighter el lunes. Lighter pausó los retiros, recuperó unos 5 millones y reabrió el mismo día.
+===
+
+Lighter, un exchange descentralizado para operar futuros de criptomonedas, pausó todos los retiros el lunes por la mañana después de que un atacante usara la clave API filtrada de un solo trader para sacar de la plataforma unos <strong>10,4 millones de dólares</strong> en la stablecoin USDC, informó [CoinDesk](L1). Lighter afirmó que su propio software y sus contratos inteligentes no fueron hackeados.
+
+Hacia el mediodía, el exchange dijo que había recuperado unos 5 millones de dólares para el trader afectado y que había reabierto los depósitos y los retiros. Su token LIT cayó más de un 10%, por debajo de 2,48 dólares, tras la noticia, y luego se recuperó hasta unos 2,62 dólares, según CoinDesk.
+
+!takeaways
+- Un atacante usó la clave API filtrada de un trader para retirar unos 10,39 millones de USDC de Lighter el lunes 16 de noviembre.
+- Lighter pausó los retiros y la creación de nuevos pools durante unas siete horas y asegura que su protocolo y sus contratos inteligentes no se vieron afectados.
+- La clave se filtró porque el propio código de firma del trader reutilizaba un número de un solo uso, un error criptográfico conocido.
+- Se devolvieron unos 5 millones de dólares al trader y los retiros se reanudaron hacia las 12:21, hora del centro de EE. UU.
+
+!figure:chart
+
+## Qué pasó
+
+Una clave API es un código parecido a una contraseña que permite a los bots de trading enviar órdenes desde una cuenta sin que el dueño tenga que hacer clic. Según la firma de datos blockchain [Bitquery](L3), unos 10.393.057 USDC salieron del contrato de Lighter en Ethereum hacia las 4:11, hora del centro de EE. UU., del lunes. La billetera receptora cambió el dinero por ether en unos cuatro minutos.
+
+Menos de una hora después, Lighter publicó en X que investigaba "un incidente de seguridad que parece involucrar a una única parte externa comprometida" y suspendió todos los retiros y la creación de pools. En una actualización hacia las 6:49, hora del centro, dijo que la causa era "una clave API filtrada de la cuenta de un trader concreto" e identificó la billetera que cree que pertenece al atacante.
+
+La firma de análisis Bubblemaps rastreó la misma billetera, informó [Cointelegraph](L2). Bitquery halló que después se enviaron 1.920 ETH, unos 3,5 millones de dólares, a través de 12 billeteras nuevas de 160 ETH cada una al exchange Hyperliquid, donde cada una compró un token llamado XMR1, bautizado así por la moneda de privacidad Monero. Otros 3.845 ETH seguían en la billetera principal en la última revisión de Bitquery.
+
+Algunos investigadores calculan pérdidas potenciales de unos 15,5 millones de dólares en dos cuentas de creadores de mercado. Lighter no ha confirmado esa cifra más alta.
+
+!figure:timeline
+
+## Cómo se filtró la clave
+
+En un [informe detallado](L4) publicado hacia el mediodía del lunes, Lighter explicó que las cuentas afectadas no usaban sus kits de software oficiales. Su propio código de firma reutilizaba un "nonce", un número aleatorio de un solo uso que debe ser distinto en cada firma digital. Como las firmas son públicas, dos firmas hechas con el mismo nonce permiten a cualquiera calcular la clave secreta. Lighter señaló que la misma debilidad afecta a las firmas de Bitcoin y Ethereum.
+
+Con la clave, el atacante creó un pool público desde la cuenta de la víctima, compró participaciones del pool desde otra cuenta, movió los fondos de la víctima al pool y luego cobró sus participaciones. La actividad inusual activó el modo de emergencia "Guardian" de Lighter, que pausó los retiros y permitió a su Consejo de Seguridad devolver unos 5 millones de USDC al trader.
+
+!mid_cta
+
+## Qué cambia ahora
+
+Lighter dijo que ahora exige la firma de la billetera para mover fondos a un pool público y que las firmas de las claves API ya no son públicas. Planea añadir listas de IP permitidas, para que una clave solo funcione desde un servidor elegido, además de límites y permisos para cada clave. A quien tenga dudas sobre su código le recomendó rotar todas sus claves API y pasarse a un kit oficial.
+
+Hacia las 12:21, hora del centro, Lighter [informó](L5) que los depósitos y los retiros habían "vuelto a la normalidad" y que se estaban procesando los retiros pendientes. No ha dicho si se cubrirá el resto de la pérdida del trader.
+
+## Qué significa para principiantes
+
+La mayoría de los principiantes nunca crea claves API, pero este caso muestra que una cuenta cripto es tan segura como sus claves. Si conectas un bot de trading o una aplicación de impuestos a un exchange, da a la clave los menores permisos posibles, nunca la pegues en código que compartas y borra las claves que ya no uses. Muchos recién llegados prefieren empezar en un exchange grande y regulado como [Coinbase](REF), donde compras y vendes desde la aplicación en lugar de ejecutar tu propio código. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Si Lighter recupera más fondos o paga el resto de la pérdida del trader.
+- Cuándo entran en funcionamiento las listas de IP permitidas y los límites por clave prometidos.
+- Si se confirma la estimación más alta de pérdidas de 15,5 millones de dólares.
+
+!soft: ¿No sabes dónde guardar tus monedas? Lee [qué es una billetera cripto: custodia frente a autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

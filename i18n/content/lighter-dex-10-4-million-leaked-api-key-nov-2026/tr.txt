@@ -1,0 +1,61 @@
+title: Lighter, sızan bir işlem anahtarı bir saldırgana 10,4 milyon dolar kazandırınca çekimleri durdurdu
+page_title: DEX Lighter sızan API anahtarı yüzünden yaklaşık 10,4 milyon dolar kaybetti, çekimler yeniden açıldı
+description: Kripto türev borsası Lighter, bir saldırganın bir yatırımcının sızan API anahtarıyla yaklaşık 10,4 milyon dolarlık USDC çekmesinin ardından pazartesi günü çekimleri dondurdu. Lighter kodunun hacklenmediğini, yaklaşık 5 milyon doların geri alındığını ve çekimlerin yeniden açıldığını söylüyor.
+og_description: Bir saldırgan pazartesi günü bir yatırımcının sızan API anahtarıyla Lighter borsasından yaklaşık 10,4 milyon dolarlık USDC çıkardı. Lighter güvensiz üçüncü taraf imzalama kodunu sorumlu tuttu, yaklaşık 5 milyon doları geri aldı ve çekimleri aynı gün yeniden açtı.
+label: Güvenlik
+summary: Bir saldırgan pazartesi günü bir yatırımcının sızan API anahtarıyla Lighter borsasından yaklaşık 10,4 milyon dolarlık USDC çıkardı. Lighter çekimleri durdurdu, yaklaşık 5 milyon doları geri aldı ve aynı gün yeniden açtı.
+===
+
+Kripto vadeli işlemleri için merkeziyetsiz bir borsa olan Lighter, bir saldırganın tek bir yatırımcının sızan API anahtarını kullanarak platformdan USDC stablecoin cinsinden yaklaşık <strong>10,4 milyon dolar</strong> çekmesinin ardından pazartesi sabahı tüm çekimleri durdurdu. Haberi [CoinDesk](L1) verdi. Lighter, kendi yazılımının ve akıllı sözleşmelerinin hacklenmediğini açıkladı.
+
+Öğle saatlerinde borsa, etkilenen yatırımcı için yaklaşık 5 milyon doları geri aldığını ve yatırma ile çekme işlemlerini yeniden açtığını duyurdu. CoinDesk'e göre LIT tokeni haberin ardından yüzde 10'dan fazla düşerek 2,48 doların altına indi, ardından yaklaşık 2,62 dolara toparlandı.
+
+!takeaways
+- Bir saldırgan 16 Kasım pazartesi günü bir yatırımcının sızan API anahtarıyla Lighter'dan yaklaşık 10,39 milyon USDC çekti.
+- Lighter çekimleri ve yeni havuz oluşturmayı yaklaşık yedi saat durdurdu; protokolün ve akıllı sözleşmelerin etkilenmediğini söylüyor.
+- Anahtar, yatırımcının kendi imzalama kodu tek kullanımlık bir sayıyı tekrar kullandığı için sızdı; bu bilinen bir kriptografi hatası.
+- Yatırımcıya yaklaşık 5 milyon dolar iade edildi ve çekimler ABD Merkez saatiyle 12.21 civarında yeniden başladı.
+
+!figure:chart
+
+## Ne oldu
+
+API anahtarı, işlem botlarının hesap sahibi hiçbir şeye tıklamadan o hesaptan emir vermesini sağlayan, şifreye benzer bir koddur. Blokzincir veri şirketi [Bitquery](L3)'ye göre pazartesi günü ABD Merkez saatiyle 04.11 civarında Lighter'ın Ethereum sözleşmesinden yaklaşık 10.393.057 USDC çıktı. Parayı alan cüzdan yaklaşık dört dakika içinde onu ether'e çevirdi.
+
+Bir saatten kısa süre sonra Lighter, X'te "tek bir ele geçirilmiş dış tarafı içerdiği anlaşılan bir güvenlik olayını" incelediğini yazdı ve tüm çekimleri ve havuz oluşturmayı askıya aldı. Merkez saatiyle 06.49 civarındaki güncellemede nedenin "belirli bir yatırımcının hesabına ait sızan bir API anahtarı" olduğunu söyledi ve saldırgana ait olduğunu düşündüğü cüzdanı açıkladı.
+
+Analiz şirketi Bubblemaps de aynı cüzdanı takip etti; bunu [Cointelegraph](L2) aktardı. Bitquery, ardından yaklaşık 3,5 milyon dolar değerindeki 1.920 ETH'nin her biri 160 ETH olan 12 yeni cüzdan üzerinden Hyperliquid borsasına gönderildiğini ve her cüzdanın, adını gizlilik coini Monero'dan alan XMR1 adlı bir token satın aldığını tespit etti. Bitquery'nin son kontrolünde 3.845 ETH hâlâ ana cüzdandaydı.
+
+Bazı araştırmacılar olası kaybı iki piyasa yapıcı hesabında toplam yaklaşık 15,5 milyon dolar olarak hesaplıyor. Lighter bu daha yüksek rakamı doğrulamadı.
+
+!figure:timeline
+
+## Anahtar nasıl sızdı
+
+Lighter, pazartesi öğle saatlerinde yayımladığı [ayrıntılı açıklamada](L4), etkilenen hesapların borsanın resmi yazılım kitlerini kullanmadığını söyledi. Bu hesapların kendi imzalama kodu, her dijital imzada farklı olması gereken rastgele ve tek kullanımlık bir sayı olan "nonce"u tekrar kullanıyordu. İmzalar herkese açık olduğundan, aynı nonce ile atılmış iki imza herkesin gizli anahtarı hesaplamasına imkân tanıyor. Lighter, aynı zayıflığın Bitcoin ve Ethereum imzaları için de geçerli olduğunu belirtti.
+
+Saldırgan anahtarla kurbanın hesabından herkese açık bir havuz oluşturdu, ayrı bir hesaptan havuz payı aldı, kurbanın parasını havuza aktardı ve ardından paylarını nakde çevirdi. Olağandışı hareketler Lighter'ın "Guardian" acil durum modunu devreye soktu; bu mod çekimleri durdurdu ve borsanın Güvenlik Konseyi'nin yatırımcıya yaklaşık 5 milyon USDC iade etmesini sağladı.
+
+!mid_cta
+
+## Şimdi ne değişiyor
+
+Lighter, artık herkese açık bir havuza para aktarmak için cüzdan imzası istediğini ve API anahtarı imzalarını herkese kapattığını söyledi. Bir anahtarın yalnızca seçilen sunucudan çalışması için IP izin listeleri ile her anahtar için limitler ve yetkiler eklemeyi planlıyor. Kodundan emin olmayanlara tüm API anahtarlarını yenilemelerini ve resmi bir kite geçmelerini önerdi.
+
+Merkez saatiyle 12.21 civarında Lighter, yatırma ve çekme işlemlerinin "normale döndüğünü" ve bekleyen çekimlerin işlendiğini [duyurdu](L5). Yatırımcının kalan kaybının karşılanıp karşılanmayacağını açıklamadı.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Yeni başlayanların çoğu hiç API anahtarı oluşturmaz, ancak bu olay bir kripto hesabının ancak anahtarları kadar güvenli olduğunu gösteriyor. Bir borsaya işlem botu veya vergi uygulaması bağlıyorsanız anahtara mümkün olan en az yetkiyi verin, paylaştığınız koda asla yapıştırmayın ve artık kullanmadığınız anahtarları silin. Pek çok yeni kullanıcı, kendi kodunu çalıştırmak yerine alım satımı uygulama üzerinden yaptığı [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsada başlamayı tercih ediyor. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra izlenecekler
+
+- Lighter'ın daha fazla parayı geri alıp almayacağı veya yatırımcının kalan kaybını ödeyip ödemeyeceği.
+- Vaat edilen IP izin listeleri ve anahtar başına limitlerin ne zaman devreye gireceği.
+- 15,5 milyon dolarlık daha yüksek kayıp tahmininin doğrulanıp doğrulanmayacağı.
+
+!soft: Coinlerinizi nerede saklayacağınızdan emin değil misiniz? [Kripto cüzdan nedir, emanetli ve kendi saklama](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

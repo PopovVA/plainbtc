@@ -32,6 +32,11 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "lighter-dex-10-4-million-leaked-api-key-nov-2026",
+        "Lighter freezes withdrawals after a leaked API key lets an attacker take $10.4M",
+        "SECURITY",
+    ),
+    (
         "strategy-buys-485-bitcoin-strive-251-nov-2026",
         "Strategy buys 485 more bitcoin in a down week, lifting its stack to 850,849 BTC",
         "BUSINESS",
@@ -240,6 +245,10 @@ ARTICLES = [
 # used for identification only). Each entry: (image URL, tile background RGB).
 WIKI = "https://upload.wikimedia.org/wikipedia/commons/"
 OG_LOGOS: dict[str, list[tuple[str, tuple[int, int, int]]]] = {
+    # Lighter logo (official token logo as listed on CoinGecko; project site lighter.xyz), identification only.
+    "lighter-dex-10-4-million-leaked-api-key-nov-2026": [
+        ("https://coin-images.coingecko.com/coins/images/71121/large/lighter.png", (6, 6, 6)),
+    ],
     # Strategy logo (2025, public domain on Wikimedia Commons) and the Strive wordmark cropped from
     # Strive's own official share image (strive.com og:image), identification only.
     "strategy-buys-485-bitcoin-strive-251-nov-2026": [

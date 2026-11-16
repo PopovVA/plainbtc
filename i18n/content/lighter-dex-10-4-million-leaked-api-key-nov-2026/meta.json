@@ -1,0 +1,20 @@
+{
+ "slug": "lighter-dex-10-4-million-leaked-api-key-nov-2026",
+ "date": "2026-11-16",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "kava-lend-hack-3-8-million-kava-falls-nov-2026",
+  "luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {"url": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit", "title": "CoinDesk: Lighter pauses withdrawals after a leaked API key leads to $10.4 million theft", "date": "Nov 16, 2026"},
+  {"url": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit", "title": "Cointelegraph: Lighter DEX pauses withdrawals following reported $10M exploit", "date": "Nov 16, 2026"},
+  {"url": "https://bitquery.io/investigations/lighter-hack", "title": "Bitquery: Lighter incident, $10.4M withdrawn, leaving 160 ETH at a time", "date": "Nov 16, 2026"},
+  {"url": "https://x.com/Lighter_xyz/status/2122394446343946717", "title": "Lighter on X: Signing Safely on Lighter, lessons from November 16", "date": "Nov 16, 2026"},
+  {"url": "https://x.com/Lighter_xyz/status/2122394646164758654", "title": "Lighter on X: deposits and withdrawals back to normal", "date": "Nov 16, 2026"},
+  {"url": "https://www.coingecko.com/en/coins/lighter", "title": "CoinGecko: Lighter (LIT) hourly price data", "date": "Nov 16, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

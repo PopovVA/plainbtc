@@ -1079,8 +1079,30 @@ def thumb_fear_greed_10():
     ],"note":"Original PlainBTC gauge graphic; value from Alternative.me."}
 
 
+def thumb_lighter_api_key():
+    """Lighter logo (identification) with the withdrawn amount traced by Bitquery on Nov. 16, 2026."""
+    logo = fetch("https://coin-images.coingecko.com/coins/images/71121/large/lighter.png", CACHE/"lighter-logo.png")
+    base = gradient_bg()
+    card_w, card_h = 230, 200
+    x, y = 70, 80
+    tile = Image.new("RGBA", (card_w, card_h), (6,6,6,255))
+    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), (x, y), mask)
+    paste_contain(base, Image.open(logo).convert("RGBA"), (x, y, card_w, card_h), pad=20)
+    d = ImageDraw.Draw(base)
+    d.text((350, 100), "$10.4M", font=font(FONT_B, 66), fill=ORANGE)
+    d.text((352, 200), "USDC withdrawn", font=font(FONT_B, 22), fill=WHITE)
+    d.text((352, 232), "via one trader's leaked API key", font=font(FONT_R, 18), fill=(203,213,225))
+    label_chip(base, "Lighter · leaked API key")
+    return base, {"kind":"composite","sources":[
+        {"file":"lighter.png","license":"Logo","url":"https://www.coingecko.com/en/coins/lighter","credit":"Lighter (logo via CoinGecko)"},
+        {"file":"Bitquery, Nov. 16, 2026","license":"Figure cited","url":"https://bitquery.io/investigations/lighter-hack","credit":"Bitquery"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
 
 BUILDERS = {
+    "lighter-dex-10-4-million-leaked-api-key-nov-2026": thumb_lighter_api_key,
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
     "what-is-a-crypto-wallet-custodial-vs-self-custody": thumb_wallet,
