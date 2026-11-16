@@ -1,8 +1,13 @@
 -- Cookieless PlainBTC pageview beacons. No IP, no cookies.
 -- Written by the Cloudflare Pages Function POST /api/hit (functions/api/hit.js).
--- Applied to project ygilpnmqkduzhdkxdyxj. Query stats with:
---   SELECT * FROM public.plainbtc_daily_stats((timezone('America/Chicago', now()))::date);
--- plainbtc_daily_stats is a FUNCTION, not a table or view: always call it with a date argument.
+-- Applied to project ygilpnmqkduzhdkxdyxj. This file matches the production definitions as read
+-- from the database on 2026-11-16 (pg_get_functiondef, pg_indexes, pg_policy, table grants).
+-- Query stats with:
+--   SELECT * FROM public.plainbtc_daily_stats();              -- today, America/Chicago
+--   SELECT * FROM public.plainbtc_daily_stats('2026-11-09');  -- a given Chicago day
+-- plainbtc_daily_stats is a FUNCTION, not a table or view: always write the parentheses.
+-- "SELECT * FROM public.plainbtc_daily_stats" without them fails with
+-- relation "public.plainbtc_daily_stats" does not exist.
 
 create table if not exists public.pageviews (
   id bigint generated always as identity primary key,
@@ -19,11 +24,13 @@ create table if not exists public.pageviews (
 );
 
 comment on table public.pageviews is
-  'Cookieless PlainBTC pageview beacons. No IP addresses and no cookies are stored; visitor_hash is a daily salted SHA-256 truncated to 16 hex chars.';
+  'PlainBTC cookieless pageviews. No cookies, no raw IPs. visitor_hash is a daily salted hash for unique estimates.';
 
 create index if not exists pageviews_ts_idx on public.pageviews (ts desc);
--- Supports count(distinct visitor_hash) inside one Chicago day.
-create index if not exists pageviews_ts_visitor_hash_idx on public.pageviews (ts desc, visitor_hash);
+create index if not exists pageviews_path_idx on public.pageviews (path);
+-- Matches the day filter in plainbtc_daily_stats.
+create index if not exists pageviews_day_idx
+  on public.pageviews (((timezone('America/Chicago', ts))::date));
 
 alter table public.pageviews enable row level security;
 
@@ -31,14 +38,20 @@ drop policy if exists pageviews_anon_insert on public.pageviews;
 create policy pageviews_anon_insert
   on public.pageviews
   for insert
-  to anon
+  to anon, authenticated
   with check (true);
 
-grant insert on table public.pageviews to anon;
--- No SELECT for anon. The dashboard / SQL editor uses the owner or service role.
+grant insert on table public.pageviews to anon, authenticated;
+-- Supabase's default privileges grant ALL on new tables in schema public to anon and
+-- authenticated. Take back reading and changing rows: the Data API may only INSERT.
+revoke select, update, delete on table public.pageviews from anon, authenticated;
+-- The dashboard / SQL editor uses the owner or service role.
 
-create or replace function public.plainbtc_daily_stats(d date)
+create or replace function public.plainbtc_daily_stats(
+  day_ct date default (timezone('America/Chicago', now()))::date
+)
 returns table (
+  day date,
   pageviews bigint,
   uniques bigint,
   top_paths jsonb,
@@ -49,71 +62,75 @@ returns table (
   by_device jsonb
 )
 language sql
-security definer
-set search_path = public
 stable
-as $$
-  with day as (
-    select *
-    from public.pageviews
-    where ts >= ((d::timestamp) at time zone 'America/Chicago')
-      and ts <  (((d + 1)::timestamp) at time zone 'America/Chicago')
-  ),
-  paths as (
-    select coalesce(
-      jsonb_agg(jsonb_build_object('k', path, 'c', c) order by c desc, path),
-      '[]'::jsonb
-    ) as j
-    from (select path, count(*)::int as c from day group by path) s
-  ),
-  referrers as (
-    select coalesce(
-      jsonb_agg(jsonb_build_object('k', referrer_host, 'c', c) order by c desc, referrer_host),
-      '[]'::jsonb
-    ) as j
-    from (select referrer_host, count(*)::int as c from day group by referrer_host) s
-  ),
-  utm_sources as (
-    select coalesce(
-      jsonb_agg(jsonb_build_object('k', utm_source, 'c', c) order by c desc, utm_source),
-      '[]'::jsonb
-    ) as j
-    from (select utm_source, count(*)::int as c from day group by utm_source) s
-  ),
-  langs as (
-    select coalesce(
-      jsonb_agg(jsonb_build_object('k', lang, 'c', c) order by c desc, lang),
-      '[]'::jsonb
-    ) as j
-    from (select lang, count(*)::int as c from day group by lang) s
-  ),
-  countries as (
-    select coalesce(
-      jsonb_agg(jsonb_build_object('k', country, 'c', c) order by c desc, country),
-      '[]'::jsonb
-    ) as j
-    from (select country, count(*)::int as c from day group by country) s
-  ),
-  devices as (
-    select coalesce(
-      jsonb_agg(jsonb_build_object('k', device, 'c', c) order by c desc, device),
-      '[]'::jsonb
-    ) as j
-    from (select device, count(*)::int as c from day group by device) s
-  )
-  select
-    (select count(*) from day),
-    (select count(distinct visitor_hash) from day),
-    (select j from paths),
-    (select j from referrers),
-    (select j from utm_sources),
-    (select j from langs),
-    (select j from countries),
-    (select j from devices);
-$$;
-
-comment on function public.plainbtc_daily_stats(date) is
-  'Pageview totals for one America/Chicago calendar day: pageviews, uniques, and {k,c} JSON arrays for paths, referrer hosts, utm_sources, languages, countries and devices.';
+security definer
+set search_path to 'public'
+as $function$
+WITH base AS (
+  SELECT *
+  FROM public.pageviews p
+  WHERE timezone('America/Chicago', p.ts)::date = day_ct
+),
+counts AS (
+  SELECT
+    day_ct AS day,
+    count(*)::bigint AS pageviews,
+    count(DISTINCT visitor_hash) FILTER (WHERE visitor_hash IS NOT NULL)::bigint AS uniques
+  FROM base
+),
+paths AS (
+  SELECT coalesce(jsonb_agg(row_to_json(t)::jsonb ORDER BY t.c DESC), '[]'::jsonb) AS top_paths
+  FROM (
+    SELECT path AS k, count(*)::int AS c FROM base GROUP BY path ORDER BY c DESC LIMIT 15
+  ) t
+),
+refs AS (
+  SELECT coalesce(jsonb_agg(row_to_json(t)::jsonb ORDER BY t.c DESC), '[]'::jsonb) AS top_referrers
+  FROM (
+    SELECT coalesce(nullif(referrer_host, ''), '(direct)') AS k, count(*)::int AS c
+    FROM base GROUP BY 1 ORDER BY c DESC LIMIT 15
+  ) t
+),
+utms AS (
+  SELECT coalesce(jsonb_agg(row_to_json(t)::jsonb ORDER BY t.c DESC), '[]'::jsonb) AS top_utm_sources
+  FROM (
+    SELECT coalesce(nullif(utm_source, ''), '(none)') AS k, count(*)::int AS c
+    FROM base GROUP BY 1 ORDER BY c DESC LIMIT 15
+  ) t
+),
+langs AS (
+  SELECT coalesce(jsonb_agg(row_to_json(t)::jsonb ORDER BY t.c DESC), '[]'::jsonb) AS by_lang
+  FROM (
+    SELECT coalesce(nullif(lang, ''), '?') AS k, count(*)::int AS c
+    FROM base GROUP BY 1 ORDER BY c DESC
+  ) t
+),
+countries AS (
+  SELECT coalesce(jsonb_agg(row_to_json(t)::jsonb ORDER BY t.c DESC), '[]'::jsonb) AS by_country
+  FROM (
+    SELECT coalesce(nullif(country, ''), '?') AS k, count(*)::int AS c
+    FROM base GROUP BY 1 ORDER BY c DESC LIMIT 20
+  ) t
+),
+devices AS (
+  SELECT coalesce(jsonb_agg(row_to_json(t)::jsonb ORDER BY t.c DESC), '[]'::jsonb) AS by_device
+  FROM (
+    SELECT coalesce(nullif(device, ''), '?') AS k, count(*)::int AS c
+    FROM base GROUP BY 1 ORDER BY c DESC
+  ) t
+)
+SELECT
+  counts.day,
+  counts.pageviews,
+  counts.uniques,
+  paths.top_paths,
+  refs.top_referrers,
+  utms.top_utm_sources,
+  langs.by_lang,
+  countries.by_country,
+  devices.by_device
+FROM counts, paths, refs, utms, langs, countries, devices;
+$function$;
 
 revoke all on function public.plainbtc_daily_stats(date) from public;
 -- In Supabase, "from public" is not enough: the project's default privileges on schema public
