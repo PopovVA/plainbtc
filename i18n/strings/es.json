@@ -83,5 +83,8 @@
   "ref_note": "Enlace de referido: podemos recibir un bono.",
   "ref_details": "Detalles",
   "ref_badge": "Bono",
-  "ref_upto": "Hasta"
+  "ref_upto": "Hasta",
+  "bmc_label": "Apoyar PlainBTC",
+  "bmc_text": "¿Te resultó útil? PlainBTC es gratuito e independiente, sin muros de pago y sin bombo. Si quieres apoyarlo, puedes invitarme a un café.",
+  "bmc_button": "☕ Invítame un café"
 }

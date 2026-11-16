@@ -83,5 +83,8 @@
   "ref_note": "Empfehlungslink: Wir erhalten eventuell eine Prämie.",
   "ref_details": "Details",
   "ref_badge": "Bonus",
-  "ref_upto": "Bis zu"
+  "ref_upto": "Bis zu",
+  "bmc_label": "PlainBTC unterstützen",
+  "bmc_text": "War das hilfreich? PlainBTC ist kostenlos und unabhängig, ohne Bezahlschranken und ohne Hype. Wenn du das Projekt unterstützen möchtest, kannst du mir einen Kaffee ausgeben.",
+  "bmc_button": "☕ Kauf mir einen Kaffee"
 }

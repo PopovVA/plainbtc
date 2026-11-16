@@ -75,5 +75,8 @@
   "ref_note": "Referans bağlantısı: bonus kazanabiliriz.",
   "ref_details": "Ayrıntılar",
   "ref_badge": "Bonus",
-  "ref_upto": "En fazla"
+  "ref_upto": "En fazla",
+  "bmc_label": "PlainBTC'yi destekle",
+  "bmc_text": "İşine yaradı mı? PlainBTC ücretsiz ve bağımsızdır; ödeme duvarı yok, abartı yok. Desteklemek istersen bana bir kahve ısmarlayabilirsin.",
+  "bmc_button": "☕ Bana bir kahve ısmarla"
 }

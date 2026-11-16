@@ -83,5 +83,8 @@
   "ref_note": "Referral link, we may earn a bonus.",
   "ref_details": "Details",
   "ref_badge": "Bonus",
-  "ref_upto": "Up to"
+  "ref_upto": "Up to",
+  "bmc_label": "Support PlainBTC",
+  "bmc_text": "Found this helpful? PlainBTC is free and independent, with no paywalls and no hype. If you'd like to support it, you can buy me a coffee.",
+  "bmc_button": "☕ Buy me a coffee"
 }

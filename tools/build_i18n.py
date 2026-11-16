@@ -24,6 +24,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://plainbtc.com"
 REF_URL = "https://coinbase.com/join/F2XRWRL?src=referral-link"
+BMC_URL = "https://buymeacoffee.com/LeonRedfield"
 
 COMMUNITY = [
     ("discord", "https://discord.gg/EcuGXPDr2d", "community_discord"),
@@ -214,6 +215,47 @@ def place_newsletter(h: str, lang: str, kind: str, source: str) -> str:
             m = ms[-1]
             return h[: m.start()] + "\n\n" + new + h[m.start():]
     errors.append(f"cannot place newsletter form ({lang}/{kind}/{source})")
+    return h
+
+
+def bmc_box_html(lang: str) -> str:
+    s = STR[lang]
+    return (
+        "  <!-- i18n:bmc -->\n"
+        f'      <aside class="bmc-box" aria-label="{esc_attr(s["bmc_label"])}">\n'
+        f'        <p>{esc(s["bmc_text"])}</p>\n'
+        f'        <a class="bmc-button" href="{BMC_URL}" target="_blank" rel="noopener">{esc(s["bmc_button"])}</a>\n'
+        "      </aside>\n"
+        "  <!-- /i18n:bmc -->"
+    )
+
+
+def strip_bmc(h: str) -> str:
+    h = re.sub(r"[ \t]*<!-- i18n:bmc -->.*?<!-- /i18n:bmc -->\s*", "\n", h, flags=re.S)
+    h = re.sub(r"\s*<aside class=\"bmc-box\"[^>]*>.*?</aside>\s*", "\n", h, flags=re.S)
+    return h
+
+
+def place_bmc(h: str, lang: str) -> str:
+    """Idempotent: strip every support box, then insert one after the disclosure (before community or related reading)."""
+    h = strip_bmc(h)
+    new = bmc_box_html(lang)
+    m = re.search(r'<div class="disclosure">.*?</div>', h, flags=re.S)
+    if m:
+        return h[: m.end()] + "\n\n" + new + "\n" + h[m.end() :]
+    m = re.search(r"<!-- i18n:community -->", h)
+    if m:
+        return h[: m.start()] + new + "\n\n" + h[m.start() :]
+    m = re.search(r'\n(\s*<aside class="(?:community-box|newsletter-box|related)")', h)
+    if m:
+        return h[: m.start(1)] + new + "\n\n" + h[m.start(1) :]
+    m = re.search(r'\n(\s*<section class="sources")', h)
+    if m:
+        return h[: m.start(1)] + new + "\n\n" + h[m.start(1) :]
+    m = re.search(r"(</article>)", h)
+    if m:
+        return h[: m.start(1)] + "\n" + new + "\n    " + h[m.start(1) :]
+    errors.append(f"cannot place Buy Me a Coffee box ({lang})")
     return h
 
 
@@ -2112,6 +2154,7 @@ def patch_en(path: Path, kind: str, slug: str = ""):
         h = place_newsletter(h, DEFAULT, kind, path_for(DEFAULT, kind, slug))
         h = place_partners(h, DEFAULT, kind, slug)
         h = place_related(h, DEFAULT, slug)
+        h = place_bmc(h, DEFAULT)
         h = upgrade_article_jsonld(h, slug)
     elif kind == "home":
         h = patch_home(h)
@@ -2302,7 +2345,8 @@ def main():
                 write(file_for(code, kind), place_newsletter(build_simple(code, kind), code, kind, path_for(code, kind))); n += 1
         for slug in SLUGS:
             if has_page(code, "article", slug):
-                write(file_for(code, "article", slug), place_newsletter(build_article(code, slug), code, "article", path_for(code, "article", slug))); n += 1
+                html = place_newsletter(build_article(code, slug), code, "article", path_for(code, "article", slug))
+                write(file_for(code, "article", slug), place_bmc(html, code)); n += 1
         write(ROOT / code / "feed.xml", build_feed(code))
     # English pages: patch in place
     patch_en(ROOT / "index.html", "home")

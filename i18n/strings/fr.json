@@ -83,5 +83,8 @@
   "ref_note": "Lien de parrainage : nous pouvons recevoir une prime.",
   "ref_details": "Détails",
   "ref_badge": "Bonus",
-  "ref_upto": "Jusqu'à"
+  "ref_upto": "Jusqu'à",
+  "bmc_label": "Soutenir PlainBTC",
+  "bmc_text": "Cet article vous a été utile ? PlainBTC est gratuit et indépendant, sans paywall et sans battage. Si vous souhaitez le soutenir, vous pouvez m'offrir un café.",
+  "bmc_button": "☕ Offrez-moi un café"
 }

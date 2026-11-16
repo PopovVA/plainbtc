@@ -83,5 +83,8 @@
   "ref_note": "Link de indicação: podemos receber um bônus.",
   "ref_details": "Detalhes",
   "ref_badge": "Bônus",
-  "ref_upto": "Até"
+  "ref_upto": "Até",
+  "bmc_label": "Apoiar o PlainBTC",
+  "bmc_text": "Achou útil? O PlainBTC é gratuito e independente, sem paywalls e sem hype. Se quiser apoiar, você pode me pagar um café.",
+  "bmc_button": "☕ Pague-me um café"
 }
