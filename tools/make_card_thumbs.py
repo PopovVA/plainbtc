@@ -1033,6 +1033,53 @@ def thumb_germany_customs_crypto():
 
 
 
+def thumb_strategy_485_btc():
+    """Strategy logo (2025, public domain on Wikimedia Commons) with the holdings from Strategy's Nov. 16, 2026 Form 8-K."""
+    logo = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/3/3e/Strategy_logo_%282025%29.svg", CACHE/"strategy-logo-2025.svg")).convert("RGBA")
+    base = gradient_bg()
+    card_w, card_h = 250, 200
+    x, y = 50, 80
+    tile = Image.new("RGBA", (card_w, card_h), (255,255,255,255))
+    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), (x, y), mask)
+    paste_contain(base, logo, (x, y, card_w, card_h), pad=24)
+    d = ImageDraw.Draw(base)
+    d.text((326, 104), "+485 BTC", font=font(FONT_B, 48), fill=ORANGE)
+    d.text((332, 180), "850,849 BTC in total", font=font(FONT_B, 22), fill=WHITE)
+    d.text((332, 212), "average cost $75,452 per coin", font=font(FONT_R, 18), fill=(203,213,225))
+    label_chip(base, "Strategy · weekly buy")
+    return base, {"kind":"composite","sources":[
+        {"file":"Strategy_logo_(2025).svg","license":"Public domain","url":"https://commons.wikimedia.org/wiki/File:Strategy_logo_(2025).svg","credit":"Strategy logo"},
+        {"file":"Strategy Form 8-K, Nov. 16, 2026","license":"Figure cited","url":"https://www.strategy.com/press/strategy-acquires-485-btc-and-repurchases-228-million-of-strc_11-16-2026","credit":"Strategy"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
+def thumb_fear_greed_10():
+    """Original gauge graphic drawn from Alternative.me's Crypto Fear & Greed Index value (10 on Nov. 16, 2026)."""
+    import math
+    base = gradient_bg()
+    d = ImageDraw.Draw(base)
+    cx, cy, r = 190, 270, 150
+    bands = [(0, 25, (220, 38, 38)), (25, 46, (249, 115, 22)), (46, 55, (234, 179, 8)), (55, 75, (132, 204, 22)), (75, 100, (22, 163, 74))]
+    for lo, hi, col in bands:
+        d.arc([cx-r, cy-r, cx+r, cy+r], start=180 + lo*1.8, end=180 + hi*1.8, fill=col, width=34)
+    val = 10
+    ang = math.radians(180 + val*1.8)
+    nx, ny = cx + (r-30)*math.cos(ang), cy + (r-30)*math.sin(ang)
+    d.line([cx, cy, nx, ny], fill=WHITE, width=7)
+    d.ellipse([cx-12, cy-12, cx+12, cy+12], fill=WHITE)
+    d.text((cx-r-6, cy+12), "0", font=font(FONT_R, 16), fill=(203,213,225))
+    d.text((cx+r-22, cy+12), "100", font=font(FONT_R, 16), fill=(203,213,225))
+    d.text((390, 96), "10", font=font(FONT_B, 96), fill=ORANGE)
+    d.text((392, 214), "Extreme fear", font=font(FONT_B, 24), fill=WHITE)
+    d.text((392, 248), "lowest since June 10", font=font(FONT_R, 18), fill=(203,213,225))
+    label_chip(base, "Crypto Fear & Greed Index")
+    return base, {"kind":"graphic","sources":[
+        {"file":"Alternative.me Crypto Fear & Greed Index, Nov. 16, 2026","license":"Data with attribution","url":"https://alternative.me/crypto/fear-and-greed-index/","credit":"Alternative.me"},
+    ],"note":"Original PlainBTC gauge graphic; value from Alternative.me."}
+
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -1073,6 +1120,8 @@ BUILDERS = {
     "stusdt-wind-down-redeem-by-may-2027-nov-2026": thumb_stusdt_wind_down,
     "luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026": thumb_luxor_hashrate_hijack,
     "germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026": thumb_germany_customs_crypto,
+    "strategy-buys-485-bitcoin-strive-251-nov-2026": thumb_strategy_485_btc,
+    "crypto-fear-greed-index-10-extreme-fear-nov-2026": thumb_fear_greed_10,
 }
 
 def first_figure_source(slug: str) -> Path | None:

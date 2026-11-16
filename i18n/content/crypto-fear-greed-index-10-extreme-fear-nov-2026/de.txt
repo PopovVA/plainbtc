@@ -1,0 +1,65 @@
+title: Crypto Fear & Greed Index fällt auf 10, so viel Angst wie seit Juni nicht mehr
+page_title: Crypto Fear & Greed Index bei 10 (extreme Angst), Bitcoin um 64.000 $
+description: Der viel beachtete Crypto Fear & Greed Index stand am Sonntag und Montag bei 10 von 100, dem tiefsten Wert seit Juni, während Bitcoin nach einem Viermonatstief um 64.000 $ pendelte. Was der Index misst und was nach ähnlichen Werten geschah.
+og_description: Der Crypto Fear & Greed Index stand am 15. und 16. November bei 10 von 100, nach 29 eine Woche zuvor, der tiefste Wert seit Juni. Was er misst und was nach früheren Tiefs passierte.
+label: Markt
+summary: Der Crypto Fear & Greed Index stand am Sonntag und Montag bei 10 von 100, nach 29 eine Woche zuvor und so tief wie seit Juni nicht mehr, während Bitcoin nach einem Viermonatstief um 64.000 $ notierte. Auf frühere Extremwerte folgten sowohl Erholungen als auch neue Tiefs.
+===
+
+Ein viel beachtetes Stimmungsbarometer für den Kryptomarkt ist auf einen der tiefsten Stände des Jahres gefallen. Der Crypto Fear & Greed Index von [Alternative.me](L1) stand am Sonntag und erneut am Montag bei <strong>10 von 100</strong>, tief im Bereich „extreme Angst“. Eine Woche zuvor lag er bei 29, vor einem Monat bei 55.
+
+Zuletzt war der Index am 10. Juni so niedrig, damals bei 9, wie die öffentlichen Daten der Seite zeigen. Bitcoin notierte am Montag um 64.000 $, nachdem er am Sonntag auf rund 62.000 $ gefallen war, den tiefsten Kurs seit dem 14. Juli, berichtete [CoinDesk](L2).
+
+!takeaways
+- Der Crypto Fear & Greed Index stand am 15. und 16. November bei 10, nach 29 eine Woche zuvor und 55 vor einem Monat.
+- Das ist der tiefste Wert seit dem 10. Juni, als der Index auf 9 fiel.
+- Der eigene Angst-und-Gier-Index von CoinMarketCap lag am Montag bei 12, ebenfalls im Bereich „extreme Angst“.
+- Auf frühere Extremwerte folgten sowohl Erholungen als auch neue Tiefs, der Index taugt also nicht als Timing-Signal.
+
+!figure:chart
+
+## Was der Index misst
+
+Der Index fasst mehrere Marktsignale zu einer Zahl von 0 bis 100 zusammen, wobei 0 für extreme Angst und 100 für extreme Gier steht. Laut Alternative.me fließen die Kursschwankungen von Bitcoin (25 %), Handelsvolumen und Dynamik (25 %), Aktivität in sozialen Medien (15 %), der Anteil von Bitcoin am gesamten Kryptomarkt (10 %) und Google-Suchtrends (10 %) ein. Eine Umfragekomponente mit 15 % Gewicht ist derzeit ausgesetzt. Werte von 25 oder weniger gelten als „extreme Angst“.
+
+Einfach gesagt: Die Zahl sinkt, wenn die Kurse stark fallen, mehr verkauft wird und Menschen nach besorgten Begriffen suchen. Sie fasst die Stimmung am Markt zusammen. Kurse sagt sie nicht voraus.
+
+## Warum Anleger nervös sind
+
+Der Stimmungseinbruch folgt auf sechs Wochenverluste in Folge bei Bitcoin, die längste Serie seit Ende Februar, so CoinDesk. Während des Kursrutschs am Wochenende wurden gehebelte Krypto-Wetten über rund 2 Mrd. $ liquidiert, also zwangsweise geschlossen, die meisten davon Wetten auf steigende Kurse.
+
+Anleger ziehen zudem Geld aus US-Spot-Bitcoin-ETFs ab. Diese Fonds verzeichneten bis Freitag an sieben Handelstagen in Folge Abflüsse, seit dem 5. November rund 1,91 Mrd. $, berichtete CoinDesk unter Berufung auf Farside Investors. An den Terminmärkten drehten die Finanzierungsraten bei den meisten Coins ins Minus, das heißt, Wetten auf fallende Kurse zahlten an Wetten auf steigende Kurse.
+
+Der eigene Fear-and-Greed-Index von CoinMarketCap, der anders berechnet wird, lag am Montag bei 12, nach 19 am Freitag, so CoinDesk. [TokenPost](L3) wies zudem darauf hin, dass der Wert von Alternative.me gegenüber Sonntag unverändert und deutlich unter den 29 der Vorwoche lag.
+
+!mid_cta
+
+!figure:fact
+
+## Was nach früheren Extremwerten geschah
+
+Eine einfache Regel gibt es nicht. 2026 ist der Index schon mindestens zweimal so tief gefallen. Die Bitcoin-Kurse unten sind Tagesschlusskurse bei [Kraken](L4):
+
+- Am 23. Februar stand der Index bei 5. Bitcoin schloss an dem Tag bei rund 64.600 $ und einen Monat später, am 25. März, bei rund 71.300 $, etwa 10 % höher.
+- Am 10. Juni stand der Index bei 9. Bitcoin schloss bei rund 61.500 $ und einen Monat später bei rund 64.100 $, etwa 4 % höher. Bis zum 14. August war er wieder unter 63.000 $ gefallen.
+
+Alternative.me selbst schreibt, extreme Angst könne ein Zeichen sein, dass Anleger zu besorgt sind. Die Beispiele zeigen aber, dass niedrige Werte wochenlang anhalten können und Kurse nach einer Erholung erneut fallen können.
+
+## Was das für Einsteiger bedeutet
+
+Ein sehr niedriger Angstwert zeigt, dass viele Marktteilnehmer beunruhigt sind. Wohin die Kurse gehen, verrät er nicht. Manche langfristigen Käufer nutzen Angstphasen, um schrittweise zu kaufen, mit kleinen, regelmäßigen Beträgen (Durchschnittskosteneffekt) statt einer großen Wette. Andere warten lieber, bis sich der Trend dreht. Keiner der beiden Wege schließt weitere Verluste aus.
+
+Wenn Sie kaufen möchten, nutzen Sie eine regulierte Börse wie [Coinbase](REF), beginnen Sie mit einem Betrag, dessen Verlust Sie verkraften können, und verzichten Sie auf Hebel, der an diesem Wochenende Positionen über rund 2 Mrd. $ ausgelöscht hat. Dies ist keine Anlageberatung.
+
+## Worauf man achten sollte
+
+- Ob der Index wieder über 25 steigt und den Bereich „extreme Angst“ verlässt.
+- Die täglichen Flüsse bei US-Spot-Bitcoin-ETFs nach sieben Handelstagen mit Abflüssen in Folge.
+- Die Nvidia-Zahlen am Dienstag, auf die Anleger laut CoinDesk für die Richtung bei Tech-Aktien achten.
+- Ob Bitcoin über seinem Wochenendtief von rund 62.000 $ bleibt.
+
+!soft: Sie überlegen, in kleinen Schritten zu kaufen? Lesen Sie [wie viel Bitcoin Einsteiger kaufen sollten, mit dem Durchschnittskosteneffekt erklärt](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

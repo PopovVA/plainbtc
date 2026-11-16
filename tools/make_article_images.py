@@ -2907,7 +2907,128 @@ def build_germany_customs_crypto():
 
 
 
+def build_strategy_485_btc():
+    slug = "strategy-buys-485-bitcoin-strive-251-nov-2026"
+    d = OUT / slug
+    # Kraken XBTUSD daily closes, Aug 18 - Nov 15, 2026 (90 days). Peak close $86,593.8 (Sep 21), $65,314.6 on Nov 15.
+    # Strategy average cost $75,452 per BTC (Form 8-K, Nov 16, 2026).
+    url = "https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=1440&since=1786924800"
+    req = urllib.request.Request(url, headers={"User-Agent": "PlainBTC/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read().decode())
+    rows = next(v for k, v in data["result"].items() if k != "last")
+    rows = [r for r in rows if 1787011200 <= int(r[0]) < 1794787200]
+    xs = np.array([float(r[0]) for r in rows]); ys = np.array([float(r[4]) for r in rows])
+    chart = make_line_chart(
+        d / "chart-btc-vs-strategy-cost",
+        xs, ys,
+        title="Bitcoin daily close vs. Strategy's average cost, Aug. 18 - Nov. 15, 2026",
+        hline=75452,
+        hlabel="Strategy average cost: $75,452 per BTC",
+    )
+    card = make_fact_card(
+        d / "fact-strategy-850849-btc",
+        label="Strategy bitcoin holdings",
+        big="850,849 BTC",
+        sub="bought for $64.20 billion, an average of $75,452 per coin. Last week's 485 BTC cost $68,887 each.",
+        footer="Strategy Form 8-K, Nov. 16, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's daily closing price on Kraken from Aug. 18 to Nov. 15, 2026: about $64,700 in mid-August, a peak close of about $86,600 on Sep. 21, then a slide to about $64,100 on Nov. 14 and $65,300 on Nov. 15, now below a dashed line at Strategy's average cost of $75,452 per bitcoin", {
+            "es": "Gráfico de líneas del precio de cierre diario de bitcoin en Kraken del 18 de agosto al 15 de noviembre de 2026: unos 64.700 dólares a mediados de agosto, un cierre máximo de unos 86.600 dólares el 21 de septiembre y luego una caída a unos 64.100 dólares el 14 de noviembre y 65.300 el 15 de noviembre, por debajo de la línea discontinua del costo medio de Strategy, 75.452 dólares por bitcoin",
+            "pt": "Gráfico de linha do preço de fechamento diário do bitcoin na Kraken de 18 de agosto a 15 de novembro de 2026: cerca de US$ 64.700 em meados de agosto, fechamento máximo de cerca de US$ 86.600 em 21 de setembro e depois queda para cerca de US$ 64.100 em 14 de novembro e US$ 65.300 em 15 de novembro, abaixo da linha tracejada do custo médio da Strategy, US$ 75.452 por bitcoin",
+            "fr": "Courbe du cours de clôture quotidien du bitcoin sur Kraken du 18 août au 15 novembre 2026 : environ 64 700 dollars mi-août, une clôture record d'environ 86 600 dollars le 21 septembre, puis une baisse à environ 64 100 dollars le 14 novembre et 65 300 dollars le 15 novembre, sous la ligne pointillée du coût moyen de Strategy, 75 452 dollars par bitcoin",
+            "de": "Liniendiagramm des täglichen Bitcoin-Schlusskurses bei Kraken vom 18. August bis 15. November 2026: rund 64.700 $ Mitte August, Höchstschlusskurs von rund 86.600 $ am 21. September, danach Rückgang auf rund 64.100 $ am 14. November und 65.300 $ am 15. November, unter der gestrichelten Linie beim durchschnittlichen Einstandspreis von Strategy von 75.452 $ je Bitcoin",
+            "ru": "Линейный график дневных цен закрытия биткоина на Kraken с 18 августа по 15 ноября 2026 года: около $64 700 в середине августа, максимальное закрытие около $86 600 21 сентября, затем снижение примерно до $64 100 14 ноября и $65 300 15 ноября, ниже пунктирной линии средней цены покупки Strategy, $75 452 за биткоин",
+            "tr": "Bitcoin'in 18 Ağustos - 15 Kasım 2026 arasında Kraken'deki günlük kapanış fiyatının çizgi grafiği: ağustos ortasında yaklaşık 64.700 $, 21 Eylül'de yaklaşık 86.600 $ ile en yüksek kapanış, ardından 14 Kasım'da yaklaşık 64.100 $'a ve 15 Kasım'da 65.300 $'a düşüş; fiyat, Strategy'nin bitcoin başına 75.452 $'lık ortalama maliyetini gösteren kesikli çizginin altında",
+            "id": "Grafik garis harga penutupan harian bitcoin di Kraken dari 18 Agustus hingga 15 November 2026: sekitar US$64.700 pada pertengahan Agustus, penutupan tertinggi sekitar US$86.600 pada 21 September, lalu turun ke sekitar US$64.100 pada 14 November dan US$65.300 pada 15 November, di bawah garis putus-putus biaya rata-rata Strategy sebesar US$75.452 per bitcoin",
+            "ja": "2026年8月18日〜11月15日のKrakenにおけるビットコイン日次終値の折れ線グラフ：8月中旬は約6万4700ドル、9月21日に約8万6600ドルの最高終値を付けた後、11月14日に約6万4100ドル、11月15日に約6万5300ドルまで下落し、ストラテジーの平均取得単価7万5452ドル（破線）を下回っている",
+            "ko": "2026년 8월 18일~11월 15일 크라켄 비트코인 일일 종가 선 차트: 8월 중순 약 64,700달러, 9월 21일 약 86,600달러로 최고 종가를 기록한 뒤 11월 14일 약 64,100달러, 11월 15일 65,300달러로 하락해 스트래티지의 평균 매입 단가 75,452달러(점선)를 밑돌고 있다",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken BTC/USD daily closes; Strategy Form 8-K")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: Strategy holds 850,849 bitcoin, bought for $64.20 billion at an average of $75,452 per coin; last week's 485 bitcoin cost $68,887 each", {
+            "es": "Tarjeta: Strategy tiene 850.849 bitcoins, comprados por 64.200 millones de dólares a un promedio de 75.452 dólares por moneda; los 485 bitcoins de la semana pasada costaron 68.887 dólares cada uno",
+            "pt": "Cartão: a Strategy detém 850.849 bitcoins, comprados por US$ 64,20 bilhões a uma média de US$ 75.452 por moeda; os 485 bitcoins da semana passada custaram US$ 68.887 cada",
+            "fr": "Encadré : Strategy détient 850 849 bitcoins, achetés 64,20 milliards de dollars, soit en moyenne 75 452 dollars pièce ; les 485 bitcoins de la semaine dernière ont coûté 68 887 dollars chacun",
+            "de": "Faktenkarte: Strategy hält 850.849 Bitcoin, gekauft für 64,20 Mrd. $ zu durchschnittlich 75.452 $ je Coin; die 485 Bitcoin der vergangenen Woche kosteten je 68.887 $",
+            "ru": "Карточка: у Strategy 850 849 биткоинов, купленных за $64,20 млрд по средней цене $75 452 за монету; 485 биткоинов прошлой недели обошлись по $68 887 за штуку",
+            "tr": "Kart: Strategy'nin elinde 64,20 milyar $'a, coin başına ortalama 75.452 $'dan alınmış 850.849 bitcoin var; geçen haftaki 485 bitcoin'in her biri 68.887 $'a mal oldu",
+            "id": "Kartu fakta: Strategy memegang 850.849 bitcoin yang dibeli seharga US$64,20 miliar dengan rata-rata US$75.452 per koin; 485 bitcoin pekan lalu dibeli masing-masing US$68.887",
+            "ja": "カード：ストラテジーの保有量は850,849BTC。取得総額は642億ドル、平均取得単価は1枚7万5452ドル。先週買い増した485BTCは1枚6万8887ドル",
+            "ko": "카드: 스트래티지는 비트코인 850,849개를 보유, 총 매입액 642억 달러, 평균 단가 개당 75,452달러; 지난주 매입한 485개는 개당 68,887달러",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Strategy Form 8-K, Nov. 16, 2026")},
+    ]
+
+
+def fetch_fear_greed(start_ts: int, end_ts: int):
+    url = "https://api.alternative.me/fng/?limit=0"
+    req = urllib.request.Request(url, headers={"User-Agent": "PlainBTC/1.0"})
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        data = json.loads(resp.read().decode())["data"]
+    pts = sorted((int(r["timestamp"]), int(r["value"])) for r in data if start_ts <= int(r["timestamp"]) <= end_ts)
+    return np.array([float(t) for t, _ in pts]), np.array([float(v) for _, v in pts])
+
+
+def build_fear_greed_10():
+    slug = "crypto-fear-greed-index-10-extreme-fear-nov-2026"
+    d = OUT / slug
+    # Alternative.me Crypto Fear & Greed Index, daily, Jan 1 - Nov 16, 2026. Jan 1: 20; low 5 (Feb 12, Feb 23);
+    # high 78 (Sep 22); 9 on June 10; 10 on Nov 15 and 16. "Extreme Fear" = 25 or lower.
+    xs, ys = fetch_fear_greed(1767225600, 1794787200)
+    chart = make_line_chart(
+        d / "chart-fear-greed-2026",
+        xs, ys,
+        title="Crypto Fear & Greed Index, Jan. 1 - Nov. 16, 2026 (Alternative.me)",
+        hline=25,
+        hlabel="Extreme fear: 25 and below",
+        ylabel="",
+        date_fmt="%b",
+        yfmt=lambda x, _p: f"{x:.0f}",
+    )
+    card = make_fact_card(
+        d / "fact-fear-greed-10",
+        label="Crypto Fear & Greed Index",
+        big="10 / 100",
+        sub="Extreme fear on Nov. 15 and 16, 2026, the lowest reading since June 10. A week earlier: 29. A month earlier: 55.",
+        footer="Alternative.me Crypto Fear & Greed Index",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of the Crypto Fear & Greed Index from Jan. 1 to Nov. 16, 2026: long stretches in extreme fear from February to April with lows of 5, another dip to 9 in June, a peak of 78 on Sep. 22, and a fall back to 10 in mid-November, with a dashed line at 25 marking the extreme fear zone", {
+            "es": "Gráfico de líneas del índice Crypto Fear & Greed del 1 de enero al 16 de noviembre de 2026: largos periodos de miedo extremo de febrero a abril con mínimos de 5, otra caída a 9 en junio, un máximo de 78 el 22 de septiembre y una vuelta a 10 a mediados de noviembre; la línea discontinua en 25 marca la zona de miedo extremo",
+            "pt": "Gráfico de linha do índice Crypto Fear & Greed de 1º de janeiro a 16 de novembro de 2026: longos períodos de medo extremo de fevereiro a abril com mínimas de 5, nova queda a 9 em junho, pico de 78 em 22 de setembro e volta a 10 em meados de novembro; a linha tracejada em 25 marca a zona de medo extremo",
+            "fr": "Courbe de l'indice Crypto Fear & Greed du 1er janvier au 16 novembre 2026 : de longues périodes de peur extrême de février à avril avec des plus bas à 5, un nouveau creux à 9 en juin, un pic à 78 le 22 septembre, puis un retour à 10 mi-novembre ; la ligne pointillée à 25 marque la zone de peur extrême",
+            "de": "Liniendiagramm des Crypto Fear & Greed Index vom 1. Januar bis 16. November 2026: lange Phasen extremer Angst von Februar bis April mit Tiefs bei 5, ein weiterer Rückgang auf 9 im Juni, ein Hoch von 78 am 22. September und ein Rückfall auf 10 Mitte November; die gestrichelte Linie bei 25 markiert die Zone extremer Angst",
+            "ru": "Линейный график индекса Crypto Fear & Greed с 1 января по 16 ноября 2026 года: длительные периоды крайнего страха с февраля по апрель с минимумами на уровне 5, ещё одно падение до 9 в июне, пик 78 22 сентября и возврат к 10 в середине ноября; пунктирная линия на уровне 25 отмечает зону крайнего страха",
+            "tr": "Crypto Fear & Greed Endeksi'nin 1 Ocak - 16 Kasım 2026 çizgi grafiği: şubattan nisana kadar 5'e varan diplerle uzun aşırı korku dönemleri, haziranda 9'a bir düşüş daha, 22 Eylül'de 78 ile zirve ve kasım ortasında yeniden 10; 25'teki kesikli çizgi aşırı korku bölgesini gösteriyor",
+            "id": "Grafik garis Crypto Fear & Greed Index dari 1 Januari hingga 16 November 2026: periode panjang ketakutan ekstrem dari Februari hingga April dengan titik terendah 5, turun lagi ke 9 pada Juni, puncak 78 pada 22 September, lalu kembali ke 10 pada pertengahan November; garis putus-putus di 25 menandai zona ketakutan ekstrem",
+            "ja": "2026年1月1日〜11月16日の暗号資産Fear & Greed指数の折れ線グラフ：2〜4月に最低5まで下がる「極度の恐怖」が長く続き、6月にも9まで低下、9月22日に78のピークを付けた後、11月中旬に再び10へ。破線（25）は「極度の恐怖」ゾーンの境目",
+            "ko": "2026년 1월 1일~11월 16일 암호화폐 공포·탐욕 지수 선 차트: 2~4월 최저 5까지 떨어진 '극단적 공포' 구간이 길게 이어지고, 6월에도 9까지 하락, 9월 22일 78로 정점을 찍은 뒤 11월 중순 다시 10으로 하락. 25의 점선은 극단적 공포 구간을 표시",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Alternative.me Crypto Fear & Greed Index")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: the Crypto Fear & Greed Index read 10 out of 100, extreme fear, on Nov. 15 and 16, 2026, its lowest reading since June 10; a week earlier it was 29 and a month earlier 55", {
+            "es": "Tarjeta: el índice Crypto Fear & Greed marcó 10 de 100, miedo extremo, el 15 y el 16 de noviembre de 2026, su nivel más bajo desde el 10 de junio; una semana antes estaba en 29 y un mes antes en 55",
+            "pt": "Cartão: o índice Crypto Fear & Greed marcou 10 de 100, medo extremo, em 15 e 16 de novembro de 2026, o nível mais baixo desde 10 de junho; uma semana antes estava em 29 e um mês antes em 55",
+            "fr": "Encadré : l'indice Crypto Fear & Greed affichait 10 sur 100, peur extrême, les 15 et 16 novembre 2026, son plus bas niveau depuis le 10 juin ; une semaine plus tôt il était à 29, un mois plus tôt à 55",
+            "de": "Faktenkarte: Der Crypto Fear & Greed Index stand am 15. und 16. November 2026 bei 10 von 100, extreme Angst, der tiefste Wert seit dem 10. Juni; eine Woche zuvor lag er bei 29, einen Monat zuvor bei 55",
+            "ru": "Карточка: индекс Crypto Fear & Greed 15 и 16 ноября 2026 года показал 10 из 100, крайний страх, минимум с 10 июня; неделей ранее он был на уровне 29, месяцем ранее 55",
+            "tr": "Kart: Crypto Fear & Greed Endeksi 15 ve 16 Kasım 2026'da 100 üzerinden 10 ile aşırı korku gösterdi, 10 Haziran'dan beri en düşük seviye; bir hafta önce 29, bir ay önce 55'ti",
+            "id": "Kartu fakta: Crypto Fear & Greed Index berada di 10 dari 100, ketakutan ekstrem, pada 15 dan 16 November 2026, angka terendah sejak 10 Juni; sepekan sebelumnya 29 dan sebulan sebelumnya 55",
+            "ja": "カード：暗号資産Fear & Greed指数は2026年11月15日と16日に100点中10の「極度の恐怖」。6月10日以来の低さで、1週間前は29、1カ月前は55",
+            "ko": "카드: 암호화폐 공포·탐욕 지수는 2026년 11월 15일과 16일 100점 만점에 10으로 '극단적 공포', 6월 10일 이후 최저. 일주일 전 29, 한 달 전 55",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Alternative.me Crypto Fear & Greed Index, Nov. 16, 2026")},
+    ]
+
+
+
 BUILDERS = {
+    "strategy-buys-485-bitcoin-strive-251-nov-2026": "mstr485",
+    "crypto-fear-greed-index-10-extreme-fear-nov-2026": "fng10",
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
     "us-midterms-crypto-regulation-etf-outflows": "mid",
@@ -3045,6 +3166,10 @@ def build_slug(slug: str, btc=None):
         figs = build_luxor_hashrate_hijack()
     elif key == "dezoll":
         figs = build_germany_customs_crypto()
+    elif key == "mstr485":
+        figs = build_strategy_485_btc()
+    elif key == "fng10":
+        figs = build_fear_greed_10()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

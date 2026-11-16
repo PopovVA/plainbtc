@@ -1,0 +1,22 @@
+{
+  "kind": "graphic",
+  "sources": [
+    {
+      "file": "Alternative.me Crypto Fear & Greed Index, Nov. 16, 2026",
+      "license": "Data with attribution",
+      "url": "https://alternative.me/crypto/fear-and-greed-index/",
+      "credit": "Alternative.me"
+    }
+  ],
+  "note": "Original PlainBTC gauge graphic; value from Alternative.me.",
+  "slug": "crypto-fear-greed-index-10-extreme-fear-nov-2026",
+  "generated": "2026-11-16T14:03Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

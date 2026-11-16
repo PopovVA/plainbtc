@@ -1,0 +1,65 @@
+title: Índice Crypto Fear & Greed cai para 10, a leitura de mais medo desde junho
+page_title: Índice Crypto Fear & Greed marca 10 (medo extremo) com bitcoin perto de US$ 64.000
+description: O conhecido índice Crypto Fear & Greed marcou 10 de 100 no domingo e na segunda-feira, o nível mais baixo desde junho, enquanto o bitcoin rondava US$ 64.000 após uma mínima de quatro meses. Veja o que o indicador mede e o que aconteceu depois de leituras parecidas.
+og_description: O índice Crypto Fear & Greed marcou 10 de 100 em 15 e 16 de novembro, ante 29 uma semana antes, o menor nível desde junho. O que ele mede e o que aconteceu após mínimas anteriores.
+label: Mercado
+summary: O índice Crypto Fear & Greed marcou 10 de 100 no domingo e na segunda-feira, ante 29 uma semana antes e no menor nível desde junho, com o bitcoin perto de US$ 64.000 após uma mínima de quatro meses. Leituras extremas anteriores foram seguidas tanto de recuperações quanto de novas mínimas.
+===
+
+Um termômetro popular do humor do mercado cripto caiu para um dos níveis mais baixos do ano. O índice Crypto Fear & Greed, publicado pelo [Alternative.me](L1), marcou <strong>10 de 100</strong> no domingo e de novo na segunda-feira, em plena zona de "medo extremo". Uma semana antes estava em 29 e, um mês atrás, em 55.
+
+A última vez que o índice esteve tão baixo foi em 10 de junho, quando marcou 9, segundo os dados públicos do site. O bitcoin era negociado perto de US$ 64.000 na segunda-feira, depois de cair para cerca de US$ 62.000 no domingo, o menor preço desde 14 de julho, informou o [CoinDesk](L2).
+
+!takeaways
+- O índice Crypto Fear & Greed marcou 10 em 15 e 16 de novembro, ante 29 uma semana antes e 55 um mês atrás.
+- É a leitura mais baixa desde 10 de junho, quando o índice chegou a 9.
+- O indicador de medo e ganância do CoinMarketCap, que é outro, estava em 12 na segunda-feira, também em "medo extremo".
+- Leituras extremas anteriores foram seguidas tanto de recuperações quanto de novas mínimas, então o índice não serve para escolher a hora de comprar.
+
+!figure:chart
+
+## O que o índice mede
+
+O índice transforma vários sinais do mercado em um número de 0 a 100, em que 0 significa medo extremo e 100, ganância extrema. Segundo o Alternative.me, ele pondera as oscilações do preço do bitcoin (25%), o volume e o impulso das negociações (25%), a atividade nas redes sociais (15%), a fatia do bitcoin no mercado cripto total (10%) e as tendências de busca no Google (10%). Um componente de pesquisas que vale 15% está pausado no momento. Leituras de 25 ou menos são classificadas como "medo extremo".
+
+Em resumo, o número cai quando os preços despencam, as vendas aumentam e as pessoas buscam termos de preocupação. Ele resume o humor do mercado. Não prevê preços.
+
+## Por que os investidores estão nervosos
+
+A piora do humor vem depois de seis semanas seguidas de perdas para o bitcoin, a sequência mais longa desde o fim de fevereiro, segundo o CoinDesk. Cerca de US$ 2 bilhões em apostas alavancadas em cripto foram liquidadas, ou seja, encerradas à força, durante a queda do fim de semana, a maioria apostas na alta.
+
+Os investidores também estão tirando dinheiro dos ETFs de bitcoin à vista dos EUA. Esses fundos tiveram saídas por sete pregões seguidos até sexta-feira, cerca de US$ 1,91 bilhão desde 5 de novembro, informou o CoinDesk, citando a Farside Investors. No mercado futuro, as taxas de financiamento ficaram negativas para a maioria das moedas, o que significa que quem aposta na queda pagava a quem aposta na alta.
+
+O índice de medo e ganância do próprio CoinMarketCap, que usa outro método, estava em 12 na segunda-feira, ante 19 na sexta, disse o CoinDesk. O [TokenPost](L3) também observou que a leitura do Alternative.me não mudou em relação a domingo e ficou bem abaixo dos 29 de uma semana antes.
+
+!mid_cta
+
+!figure:fact
+
+## O que aconteceu depois de leituras extremas anteriores
+
+A história não oferece uma regra simples. Em 2026, o índice já tinha caído a esse nível pelo menos duas vezes. Os preços do bitcoin abaixo são fechamentos diários na [Kraken](L4):
+
+- Em 23 de fevereiro, o índice marcou 5. O bitcoin fechou o dia perto de US$ 64.600 e, um mês depois, em 25 de março, perto de US$ 71.300, cerca de 10% acima.
+- Em 10 de junho, o índice marcou 9. O bitcoin fechou perto de US$ 61.500 e, um mês depois, perto de US$ 64.100, cerca de 4% acima. Em 14 de agosto, já tinha voltado para baixo de US$ 63.000.
+
+O próprio Alternative.me diz que o medo extremo pode ser sinal de que os investidores estão preocupados demais. Mas os exemplos mostram que leituras baixas podem durar semanas e que os preços podem voltar a cair depois de uma recuperação.
+
+## O que isso significa para iniciantes
+
+Uma leitura de medo muito baixa mostra que muita gente no mercado está ansiosa. Ela não diz para onde os preços vão. Alguns compradores de longo prazo aproveitam períodos de medo para comprar aos poucos, com compras pequenas e regulares (preço médio) em vez de uma aposta grande. Outros preferem esperar a tendência virar. Nenhuma das duas abordagens elimina o risco de novas perdas.
+
+Se decidir comprar, use uma corretora regulada como a [Coinbase](REF), comece com um valor que você pode perder e evite alavancagem, que foi o que apagou cerca de US$ 2 bilhões em posições neste fim de semana. Isto não é recomendação de investimento.
+
+## O que acompanhar
+
+- Se o índice volta a passar de 25 e sai da zona de "medo extremo".
+- Os fluxos diários dos ETFs de bitcoin à vista dos EUA após sete pregões seguidos de saídas.
+- O balanço da Nvidia na terça-feira, que os investidores acompanham para ter uma direção nas ações de tecnologia, segundo o CoinDesk.
+- Se o bitcoin se mantém acima da mínima do fim de semana, perto de US$ 62.000.
+
+!soft: Pensando em comprar aos poucos? Leia [quanto bitcoin um iniciante deve comprar, com o preço médio explicado](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

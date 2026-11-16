@@ -1,0 +1,18 @@
+{
+ "slug": "crypto-fear-greed-index-10-extreme-fear-nov-2026",
+ "date": "2026-11-16",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-four-month-low-62000-liquidations-nov-2026",
+  "how-much-bitcoin-should-a-beginner-buy-dca",
+  "bitcoin-below-67000-sixth-weekly-loss-nov-2026"
+ ],
+ "sources": [
+  {"url": "https://alternative.me/crypto/fear-and-greed-index/", "title": "Alternative.me: Crypto Fear & Greed Index (current value, history and method)", "date": "Nov 16, 2026"},
+  {"url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush", "title": "CoinDesk: Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations", "date": "Nov 16, 2026"},
+  {"url": "https://www.tokenpost.com/news/investing/58328", "title": "TokenPost: Bitcoin falls to $64,007 as volume halves and extreme fear persists", "date": "Nov 16, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken public API: BTC/USD daily closing prices (Feb. 23, Mar. 25, June 10, July 10, Aug. 14, 2026)", "date": "Nov 16, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

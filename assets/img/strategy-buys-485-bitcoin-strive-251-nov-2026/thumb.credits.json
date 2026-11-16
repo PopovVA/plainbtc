@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Strategy_logo_(2025).svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Strategy_logo_(2025).svg",
+      "credit": "Strategy logo"
+    },
+    {
+      "file": "Strategy Form 8-K, Nov. 16, 2026",
+      "license": "Figure cited",
+      "url": "https://www.strategy.com/press/strategy-acquires-485-btc-and-repurchases-228-million-of-strc_11-16-2026",
+      "credit": "Strategy"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "strategy-buys-485-bitcoin-strive-251-nov-2026",
+  "generated": "2026-11-16T14:03Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

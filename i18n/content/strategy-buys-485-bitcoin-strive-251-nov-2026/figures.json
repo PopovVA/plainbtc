@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-vs-strategy-cost.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin's daily closing price on Kraken from Aug. 18 to Nov. 15, 2026: about $64,700 in mid-August, a peak close of about $86,600 on Sep. 21, then a slide to about $64,100 on Nov. 14 and $65,300 on Nov. 15, now below a dashed line at Strategy's average cost of $75,452 per bitcoin",
+      "es": "Gráfico de líneas del precio de cierre diario de bitcoin en Kraken del 18 de agosto al 15 de noviembre de 2026: unos 64.700 dólares a mediados de agosto, un cierre máximo de unos 86.600 dólares el 21 de septiembre y luego una caída a unos 64.100 dólares el 14 de noviembre y 65.300 el 15 de noviembre, por debajo de la línea discontinua del costo medio de Strategy, 75.452 dólares por bitcoin",
+      "pt": "Gráfico de linha do preço de fechamento diário do bitcoin na Kraken de 18 de agosto a 15 de novembro de 2026: cerca de US$ 64.700 em meados de agosto, fechamento máximo de cerca de US$ 86.600 em 21 de setembro e depois queda para cerca de US$ 64.100 em 14 de novembro e US$ 65.300 em 15 de novembro, abaixo da linha tracejada do custo médio da Strategy, US$ 75.452 por bitcoin",
+      "fr": "Courbe du cours de clôture quotidien du bitcoin sur Kraken du 18 août au 15 novembre 2026 : environ 64 700 dollars mi-août, une clôture record d'environ 86 600 dollars le 21 septembre, puis une baisse à environ 64 100 dollars le 14 novembre et 65 300 dollars le 15 novembre, sous la ligne pointillée du coût moyen de Strategy, 75 452 dollars par bitcoin",
+      "de": "Liniendiagramm des täglichen Bitcoin-Schlusskurses bei Kraken vom 18. August bis 15. November 2026: rund 64.700 $ Mitte August, Höchstschlusskurs von rund 86.600 $ am 21. September, danach Rückgang auf rund 64.100 $ am 14. November und 65.300 $ am 15. November, unter der gestrichelten Linie beim durchschnittlichen Einstandspreis von Strategy von 75.452 $ je Bitcoin",
+      "ru": "Линейный график дневных цен закрытия биткоина на Kraken с 18 августа по 15 ноября 2026 года: около $64 700 в середине августа, максимальное закрытие около $86 600 21 сентября, затем снижение примерно до $64 100 14 ноября и $65 300 15 ноября, ниже пунктирной линии средней цены покупки Strategy, $75 452 за биткоин",
+      "tr": "Bitcoin'in 18 Ağustos - 15 Kasım 2026 arasında Kraken'deki günlük kapanış fiyatının çizgi grafiği: ağustos ortasında yaklaşık 64.700 $, 21 Eylül'de yaklaşık 86.600 $ ile en yüksek kapanış, ardından 14 Kasım'da yaklaşık 64.100 $'a ve 15 Kasım'da 65.300 $'a düşüş; fiyat, Strategy'nin bitcoin başına 75.452 $'lık ortalama maliyetini gösteren kesikli çizginin altında",
+      "id": "Grafik garis harga penutupan harian bitcoin di Kraken dari 18 Agustus hingga 15 November 2026: sekitar US$64.700 pada pertengahan Agustus, penutupan tertinggi sekitar US$86.600 pada 21 September, lalu turun ke sekitar US$64.100 pada 14 November dan US$65.300 pada 15 November, di bawah garis putus-putus biaya rata-rata Strategy sebesar US$75.452 per bitcoin",
+      "ja": "2026年8月18日〜11月15日のKrakenにおけるビットコイン日次終値の折れ線グラフ：8月中旬は約6万4700ドル、9月21日に約8万6600ドルの最高終値を付けた後、11月14日に約6万4100ドル、11月15日に約6万5300ドルまで下落し、ストラテジーの平均取得単価7万5452ドル（破線）を下回っている",
+      "ko": "2026년 8월 18일~11월 15일 크라켄 비트코인 일일 종가 선 차트: 8월 중순 약 64,700달러, 9월 21일 약 86,600달러로 최고 종가를 기록한 뒤 11월 14일 약 64,100달러, 11월 15일 65,300달러로 하락해 스트래티지의 평균 매입 단가 75,452달러(점선)를 밑돌고 있다"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken BTC/USD daily closes; Strategy Form 8-K",
+      "es": "Gráfico: PlainBTC, datos: Kraken BTC/USD daily closes; Strategy Form 8-K",
+      "pt": "Gráfico: PlainBTC, dados: Kraken BTC/USD daily closes; Strategy Form 8-K",
+      "fr": "Graphique : PlainBTC, données : Kraken BTC/USD daily closes; Strategy Form 8-K",
+      "de": "Chart: PlainBTC, Daten: Kraken BTC/USD daily closes; Strategy Form 8-K",
+      "ru": "График: PlainBTC, данные: Kraken BTC/USD daily closes; Strategy Form 8-K",
+      "tr": "Grafik: PlainBTC, veri: Kraken BTC/USD daily closes; Strategy Form 8-K",
+      "id": "Grafik: PlainBTC, data: Kraken BTC/USD daily closes; Strategy Form 8-K",
+      "ja": "チャート: PlainBTC、データ: Kraken BTC/USD daily closes; Strategy Form 8-K",
+      "ko": "차트: PlainBTC, 데이터: Kraken BTC/USD daily closes; Strategy Form 8-K"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-strategy-850849-btc.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: Strategy holds 850,849 bitcoin, bought for $64.20 billion at an average of $75,452 per coin; last week's 485 bitcoin cost $68,887 each",
+      "es": "Tarjeta: Strategy tiene 850.849 bitcoins, comprados por 64.200 millones de dólares a un promedio de 75.452 dólares por moneda; los 485 bitcoins de la semana pasada costaron 68.887 dólares cada uno",
+      "pt": "Cartão: a Strategy detém 850.849 bitcoins, comprados por US$ 64,20 bilhões a uma média de US$ 75.452 por moeda; os 485 bitcoins da semana passada custaram US$ 68.887 cada",
+      "fr": "Encadré : Strategy détient 850 849 bitcoins, achetés 64,20 milliards de dollars, soit en moyenne 75 452 dollars pièce ; les 485 bitcoins de la semaine dernière ont coûté 68 887 dollars chacun",
+      "de": "Faktenkarte: Strategy hält 850.849 Bitcoin, gekauft für 64,20 Mrd. $ zu durchschnittlich 75.452 $ je Coin; die 485 Bitcoin der vergangenen Woche kosteten je 68.887 $",
+      "ru": "Карточка: у Strategy 850 849 биткоинов, купленных за $64,20 млрд по средней цене $75 452 за монету; 485 биткоинов прошлой недели обошлись по $68 887 за штуку",
+      "tr": "Kart: Strategy'nin elinde 64,20 milyar $'a, coin başına ortalama 75.452 $'dan alınmış 850.849 bitcoin var; geçen haftaki 485 bitcoin'in her biri 68.887 $'a mal oldu",
+      "id": "Kartu fakta: Strategy memegang 850.849 bitcoin yang dibeli seharga US$64,20 miliar dengan rata-rata US$75.452 per koin; 485 bitcoin pekan lalu dibeli masing-masing US$68.887",
+      "ja": "カード：ストラテジーの保有量は850,849BTC。取得総額は642億ドル、平均取得単価は1枚7万5452ドル。先週買い増した485BTCは1枚6万8887ドル",
+      "ko": "카드: 스트래티지는 비트코인 850,849개를 보유, 총 매입액 642억 달러, 평균 단가 개당 75,452달러; 지난주 매입한 485개는 개당 68,887달러"
+    },
+    "caption": {
+      "en": "Source: Strategy Form 8-K, Nov. 16, 2026",
+      "es": "Fuente: Strategy Form 8-K, Nov. 16, 2026",
+      "pt": "Fonte: Strategy Form 8-K, Nov. 16, 2026",
+      "fr": "Source : Strategy Form 8-K, Nov. 16, 2026",
+      "de": "Quelle: Strategy Form 8-K, Nov. 16, 2026",
+      "ru": "Источник: Strategy Form 8-K, Nov. 16, 2026",
+      "tr": "Kaynak: Strategy Form 8-K, Nov. 16, 2026",
+      "id": "Sumber: Strategy Form 8-K, Nov. 16, 2026",
+      "ja": "出典: Strategy Form 8-K, Nov. 16, 2026",
+      "ko": "출처: Strategy Form 8-K, Nov. 16, 2026"
+    }
+  }
+]

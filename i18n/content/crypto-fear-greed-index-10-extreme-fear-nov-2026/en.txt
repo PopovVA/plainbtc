@@ -1,0 +1,65 @@
+title: Crypto Fear & Greed Index sinks to 10, its most fearful reading since June
+page_title: Crypto Fear & Greed Index hits 10 (extreme fear) as bitcoin trades near $64,000
+description: The widely watched Crypto Fear & Greed Index read 10 out of 100 on Sunday and Monday, its lowest level since June, as bitcoin hovered near $64,000 after a four-month low. Here is what the gauge measures and what past readings showed.
+og_description: The Crypto Fear & Greed Index read 10 out of 100 on Nov. 15 and 16, down from 29 a week earlier and the lowest since June. What the gauge measures and what happened after past lows.
+label: Market news
+summary: The Crypto Fear & Greed Index read 10 out of 100 on Sunday and Monday, down from 29 a week earlier and its lowest level since June, as bitcoin traded near $64,000 after a four-month low. Past extreme readings were followed by both rebounds and new lows.
+===
+
+A popular gauge of crypto market mood has dropped to one of its lowest levels of the year. The Crypto Fear & Greed Index published by [Alternative.me](L1) read <strong>10 out of 100</strong> on Sunday and again on Monday, deep in its "extreme fear" zone. A week earlier it stood at 29, and a month ago it was 55.
+
+The last time the index was this low was June 10, when it read 9, according to the site's public data. Bitcoin traded near $64,000 on Monday after falling to about $62,000 on Sunday, its lowest price since July 14, [CoinDesk](L2) reported.
+
+!takeaways
+- The Crypto Fear & Greed Index read 10 on Nov. 15 and Nov. 16, down from 29 a week earlier and 55 a month ago.
+- That is the lowest reading since June 10, when the index hit 9.
+- CoinMarketCap's separate fear and greed gauge was at 12 on Monday, also in "extreme fear."
+- Past extreme readings were followed by both rebounds and new lows, so the index is not a timing tool.
+
+!figure:chart
+
+## What the index measures
+
+The index turns several market signals into one number from 0 to 100, where 0 means extreme fear and 100 means extreme greed. According to Alternative.me, it weighs bitcoin's price swings (25%), trading volume and momentum (25%), social media activity (15%), bitcoin's share of the total crypto market (10%) and Google search trends (10%). A survey component worth 15% is currently paused. Readings of 25 or lower are labeled "extreme fear."
+
+In plain terms, the number falls when prices swing sharply lower, selling picks up and people search for worried phrases. It sums up the mood of the market. It does not predict prices.
+
+## Why traders are nervous
+
+The slide in sentiment follows six straight weekly losses for bitcoin, the longest run since late February, according to CoinDesk. About $2 billion of leveraged crypto bets were liquidated, or forcibly closed, during the weekend drop, most of them bets on higher prices.
+
+Investors have also been pulling money from U.S. spot bitcoin ETFs. Those funds had outflows for seven straight trading days through Friday, about $1.91 billion since Nov. 5, CoinDesk reported, citing Farside Investors. In futures markets, funding rates turned negative for most coins, which means traders betting on lower prices were paying those betting on higher prices.
+
+CoinMarketCap's own Fear and Greed Index, which uses a different method, was at 12 on Monday, down from 19 on Friday, CoinDesk said. [TokenPost](L3) also noted that the Alternative.me reading was unchanged from Sunday and well below the 29 of a week earlier.
+
+!mid_cta
+
+!figure:fact
+
+## What happened after past extreme readings
+
+History offers no simple rule. The index has dropped this low at least twice before in 2026. Bitcoin prices below are daily closes on [Kraken](L4):
+
+- On Feb. 23, the index read 5. Bitcoin closed that day near $64,600 and a month later, on March 25, near $71,300, about 10% higher.
+- On June 10, the index read 9. Bitcoin closed near $61,500 and a month later near $64,100, about 4% higher. By Aug. 14 it had slipped back below $63,000.
+
+Alternative.me itself says extreme fear can be a sign that investors are too worried. But the examples above show that low readings can last for weeks, and that prices can fall again after a bounce.
+
+## What it means for beginners
+
+A very low fear reading tells you many people in the market are anxious. It does not tell you where prices go next. Some long-term buyers use fearful periods to buy slowly, with small, regular purchases (dollar-cost averaging) instead of one big bet. Others prefer to wait for the trend to turn. Neither approach removes the risk of further losses.
+
+If you decide to buy, use a regulated exchange such as [Coinbase](REF), start with an amount you could afford to lose, and avoid leverage, which is what wiped out about $2 billion of positions this weekend. This is not investment advice.
+
+## What to watch next
+
+- Whether the index climbs back above 25, out of the "extreme fear" zone.
+- Daily flows for U.S. spot bitcoin ETFs after seven straight sessions of outflows.
+- Nvidia's earnings on Tuesday, which traders are watching for direction in tech stocks, according to CoinDesk.
+- Whether bitcoin holds above its weekend low near $62,000.
+
+!soft: Thinking about buying in small steps? Read [how much bitcoin a beginner should buy, with dollar-cost averaging explained](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

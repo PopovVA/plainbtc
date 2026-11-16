@@ -1,0 +1,65 @@
+title: Kripto Korku ve Açgözlülük Endeksi 10'a indi, hazirandan beri en korkulu seviye
+page_title: Kripto Korku ve Açgözlülük Endeksi 10'da (aşırı korku), bitcoin 64.000 $ civarında
+description: Yakından izlenen Crypto Fear & Greed Endeksi pazar ve pazartesi günü 100 üzerinden 10 ile hazirandan beri en düşük seviyesini gördü; bitcoin dört ayın dibinin ardından 64.000 $ civarında seyretti. Endeks neyi ölçüyor ve benzer seviyelerden sonra ne oldu?
+og_description: Crypto Fear & Greed Endeksi 15 ve 16 Kasım'da 100 üzerinden 10'u gösterdi; bir hafta önce 29'du ve bu hazirandan beri en düşük seviye. Endeks neyi ölçüyor, önceki diplerden sonra ne oldu?
+label: Piyasa
+summary: Crypto Fear & Greed Endeksi pazar ve pazartesi 100 üzerinden 10'u gösterdi; bir hafta önce 29'du ve bu hazirandan beri en düşük seviye. Bitcoin dört ayın dibinin ardından 64.000 $ civarında işlem gördü. Önceki aşırı değerleri hem toparlanmalar hem de yeni dipler izledi.
+===
+
+Kripto piyasasındaki havayı ölçen popüler bir gösterge yılın en düşük seviyelerinden birine indi. [Alternative.me](L1) tarafından yayımlanan Crypto Fear & Greed Endeksi pazar günü ve pazartesi yeniden <strong>100 üzerinden 10</strong>'u gösterdi; bu, "aşırı korku" bölgesinin derinlikleri. Bir hafta önce 29, bir ay önce ise 55'teydi.
+
+Sitenin herkese açık verilerine göre endeks en son 10 Haziran'da bu kadar düşüktü ve o gün 9'u göstermişti. [CoinDesk](L2)'in haberine göre bitcoin pazar günü 14 Temmuz'dan beri en düşük fiyat olan yaklaşık 62.000 $'a geriledikten sonra pazartesi 64.000 $ civarında işlem gördü.
+
+!takeaways
+- Crypto Fear & Greed Endeksi 15 ve 16 Kasım'da 10'u gösterdi; bir hafta önce 29, bir ay önce 55'ti.
+- Bu, endeksin 9'a indiği 10 Haziran'dan beri en düşük değer.
+- CoinMarketCap'in ayrı korku ve açgözlülük göstergesi pazartesi 12'deydi, o da "aşırı korku" bölgesinde.
+- Önceki aşırı değerleri hem toparlanmalar hem de yeni dipler izledi; bu yüzden endeks alım zamanlaması için bir araç değil.
+
+!figure:chart
+
+## Endeks neyi ölçüyor
+
+Endeks, birkaç piyasa sinyalini 0 ile 100 arasında tek bir sayıya dönüştürüyor; 0 aşırı korku, 100 ise aşırı açgözlülük anlamına geliyor. Alternative.me'ye göre hesaplamada bitcoin fiyat dalgalanmaları (%25), işlem hacmi ve momentum (%25), sosyal medya etkinliği (%15), bitcoinin toplam kripto piyasasındaki payı (%10) ve Google arama trendleri (%10) yer alıyor. Ağırlığı %15 olan anket bileşeni şu anda durdurulmuş durumda. 25 ve altındaki değerler "aşırı korku" olarak sınıflandırılıyor.
+
+Kısacası sayı, fiyatlar sert düştüğünde, satışlar arttığında ve insanlar endişeli ifadeler aradığında geriliyor. Endeks piyasanın ruh halini özetliyor. Fiyatları tahmin etmiyor.
+
+## Yatırımcılar neden tedirgin
+
+CoinDesk'e göre duyarlılıktaki düşüş, bitcoinin şubat sonundan beri en uzun seri olan art arda altı haftalık kaybının ardından geldi. Hafta sonundaki düşüş sırasında yaklaşık 2 milyar $'lık kaldıraçlı kripto bahsi tasfiye edildi, yani zorla kapatıldı; bunların çoğu yükseliş bahisleriydi.
+
+Yatırımcılar ABD'deki spot bitcoin ETF'lerinden de para çekiyor. CoinDesk'in Farside Investors'a dayandırdığı habere göre bu fonlarda cumaya kadar art arda yedi işlem günü çıkış yaşandı ve 5 Kasım'dan bu yana çıkışlar yaklaşık 1,91 milyar $'a ulaştı. Vadeli işlem piyasalarında fonlama oranları çoğu coin için negatife döndü; yani düşüşe oynayanlar yükselişe oynayanlara ödeme yapıyordu.
+
+CoinDesk'e göre farklı bir yöntem kullanan CoinMarketCap'in kendi Fear and Greed Endeksi pazartesi 12'deydi, cuma günü ise 19'du. [TokenPost](L3) da Alternative.me değerinin pazara göre değişmediğini ve bir hafta önceki 29'un epey altında kaldığını belirtti.
+
+!mid_cta
+
+!figure:fact
+
+## Önceki aşırı değerlerden sonra ne oldu
+
+Tarih basit bir kural sunmuyor. Endeks 2026'da daha önce en az iki kez bu kadar düştü. Aşağıdaki bitcoin fiyatları [Kraken](L4)'deki günlük kapanışlardır:
+
+- 23 Şubat'ta endeks 5'i gösterdi. Bitcoin o günü yaklaşık 64.600 $'dan kapattı; bir ay sonra, 25 Mart'ta ise yaklaşık 71.300 $'daydı, yani yaklaşık %10 daha yüksek.
+- 10 Haziran'da endeks 9'u gösterdi. Bitcoin yaklaşık 61.500 $'dan kapattı ve bir ay sonra yaklaşık 64.100 $'daydı, yaklaşık %4 daha yüksek. 14 Ağustos'a gelindiğinde yeniden 63.000 $'ın altına inmişti.
+
+Alternative.me'nin kendisi aşırı korkunun yatırımcıların fazla endişeli olduğuna işaret edebileceğini söylüyor. Ancak yukarıdaki örnekler düşük değerlerin haftalarca sürebildiğini ve fiyatların bir toparlanmanın ardından yeniden düşebildiğini gösteriyor.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Çok düşük bir korku değeri, piyasada birçok kişinin endişeli olduğunu gösterir. Fiyatların nereye gideceğini söylemez. Bazı uzun vadeli alıcılar korku dönemlerini tek seferde büyük bir bahis yerine küçük ve düzenli alımlarla (maliyet ortalaması) kademeli alım için kullanıyor. Bazıları ise trendin dönmesini beklemeyi tercih ediyor. Her iki yaklaşım da yeni kayıp riskini ortadan kaldırmıyor.
+
+Alım yapmaya karar verirseniz [Coinbase](REF) gibi düzenlemeye tabi bir borsa kullanın, kaybetmeyi göze alabileceğiniz bir tutarla başlayın ve bu hafta sonu yaklaşık 2 milyar $'lık pozisyonu silen kaldıraçtan uzak durun. Bu bir yatırım tavsiyesi değildir.
+
+## Neleri izlemeli
+
+- Endeksin yeniden 25'in üzerine çıkıp "aşırı korku" bölgesinden çıkıp çıkmayacağı.
+- Art arda yedi işlem günü çıkış yaşanan ABD spot bitcoin ETF'lerindeki günlük akışlar.
+- CoinDesk'e göre yatırımcıların teknoloji hisselerinin yönü için izlediği Nvidia'nın salı günkü bilançosu.
+- Bitcoinin hafta sonundaki yaklaşık 62.000 $'lık dibin üzerinde kalıp kalmayacağı.
+
+!soft: Kademeli alım mı düşünüyorsunuz? [Yeni başlayanlar ne kadar bitcoin almalı ve maliyet ortalaması nedir](/articles/how-much-bitcoin-should-a-beginner-buy-dca) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

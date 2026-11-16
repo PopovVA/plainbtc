@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Sun, 15 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 14:45:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Strategy купила ещё 485 биткоинов на падающем рынке, её запас вырос до 850 849 BTC</title>
+      <link>https://plainbtc.com/ru/articles/strategy-buys-485-bitcoin-strive-251-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/strategy-buys-485-bitcoin-strive-251-nov-2026</guid>
+      <pubDate>Mon, 16 Nov 2026 14:45:00 GMT</pubDate>
+      <category>Бизнес</category>
+      <description>С 9 по 15 ноября Strategy купила 485 биткоинов за $33,4 млн и теперь владеет 850 849 BTC со средней ценой покупки $75 452, заметно выше цены понедельника около $64 000. Большая часть привлечённых денег ушла на выкуп привилегированных акций. Strive докупила 251 BTC.</description>
+    </item>
+    <item>
+      <title>Индекс страха и жадности упал до 10, самого «испуганного» уровня с июня</title>
+      <link>https://plainbtc.com/ru/articles/crypto-fear-greed-index-10-extreme-fear-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/crypto-fear-greed-index-10-extreme-fear-nov-2026</guid>
+      <pubDate>Mon, 16 Nov 2026 14:40:00 GMT</pubDate>
+      <category>Рынок</category>
+      <description>Индекс Crypto Fear &amp; Greed в воскресенье и понедельник показал 10 из 100 против 29 неделей ранее, это минимум с июня, а биткоин торговался около $64 000 после минимума за четыре месяца. После прошлых экстремальных значений бывали и отскоки, и новые минимумы.</description>
+    </item>
     <item>
       <title>Luxor: хакеры захватили биткоин-майнеры через её программу Commander</title>
       <link>https://plainbtc.com/ru/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026</link>

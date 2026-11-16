@@ -1,0 +1,65 @@
+title: L'indice Crypto Fear & Greed tombe à 10, son niveau de peur le plus élevé depuis juin
+page_title: L'indice Crypto Fear & Greed à 10 (peur extrême) avec un bitcoin proche de 64 000 dollars
+description: Le très suivi indice Crypto Fear & Greed affichait 10 sur 100 dimanche et lundi, son plus bas niveau depuis juin, alors que le bitcoin évoluait vers 64 000 dollars après un plus bas de quatre mois. Ce que mesure cet indicateur et ce qui s'est passé après des niveaux comparables.
+og_description: L'indice Crypto Fear & Greed affichait 10 sur 100 les 15 et 16 novembre, contre 29 une semaine plus tôt, son plus bas niveau depuis juin. Ce qu'il mesure et ce qui a suivi les précédents creux.
+label: Marchés
+summary: L'indice Crypto Fear & Greed affichait 10 sur 100 dimanche et lundi, contre 29 une semaine plus tôt, son plus bas niveau depuis juin, alors que le bitcoin évoluait vers 64 000 dollars après un plus bas de quatre mois. Les précédents niveaux extrêmes ont été suivis aussi bien de rebonds que de nouveaux plus bas.
+===
+
+Un baromètre très suivi du moral du marché crypto est tombé à l'un de ses plus bas niveaux de l'année. L'indice Crypto Fear & Greed publié par [Alternative.me](L1) affichait <strong>10 sur 100</strong> dimanche, puis de nouveau lundi, en pleine zone de « peur extrême ». Une semaine plus tôt, il était à 29, et il y a un mois à 55.
+
+La dernière fois que l'indice est descendu aussi bas, c'était le 10 juin, à 9, selon les données publiques du site. Le bitcoin s'échangeait autour de 64 000 dollars lundi, après être tombé vers 62 000 dollars dimanche, son plus bas depuis le 14 juillet, a rapporté [CoinDesk](L2).
+
+!takeaways
+- L'indice Crypto Fear & Greed affichait 10 les 15 et 16 novembre, contre 29 une semaine plus tôt et 55 il y a un mois.
+- C'est le niveau le plus bas depuis le 10 juin, quand l'indice était tombé à 9.
+- L'indicateur de peur et d'avidité de CoinMarketCap, distinct, était à 12 lundi, lui aussi en « peur extrême ».
+- Les précédents niveaux extrêmes ont été suivis aussi bien de rebonds que de nouveaux plus bas : l'indice ne permet pas de choisir le bon moment.
+
+!figure:chart
+
+## Ce que mesure l'indice
+
+L'indice résume plusieurs signaux de marché en un chiffre de 0 à 100, 0 signifiant la peur extrême et 100 l'avidité extrême. Selon Alternative.me, il pondère les variations du cours du bitcoin (25 %), le volume et la dynamique des échanges (25 %), l'activité sur les réseaux sociaux (15 %), la part du bitcoin dans l'ensemble du marché crypto (10 %) et les tendances de recherche Google (10 %). Un volet sondages pesant 15 % est actuellement suspendu. Les valeurs de 25 ou moins sont classées « peur extrême ».
+
+En clair, le chiffre baisse quand les prix chutent fortement, que les ventes s'accélèrent et que les internautes recherchent des termes inquiets. Il résume l'humeur du marché. Il ne prédit pas les prix.
+
+## Pourquoi les investisseurs sont nerveux
+
+Cette dégradation du moral suit six semaines de baisse d'affilée pour le bitcoin, la plus longue série depuis fin février, selon CoinDesk. Environ 2 milliards de dollars de paris crypto à effet de levier ont été liquidés, c'est-à-dire fermés de force, pendant la chute du week-end, pour la plupart des paris à la hausse.
+
+Les investisseurs retirent aussi de l'argent des ETF bitcoin au comptant américains. Ces fonds ont connu sept séances consécutives de sorties jusqu'à vendredi, soit environ 1,91 milliard de dollars depuis le 5 novembre, a rapporté CoinDesk en citant Farside Investors. Sur les marchés à terme, les taux de financement sont devenus négatifs pour la plupart des cryptos : les vendeurs à découvert payaient les acheteurs.
+
+L'indice de peur et d'avidité de CoinMarketCap, qui repose sur une autre méthode, était à 12 lundi, contre 19 vendredi, selon CoinDesk. [TokenPost](L3) a aussi noté que la valeur d'Alternative.me était inchangée par rapport à dimanche et bien inférieure aux 29 de la semaine précédente.
+
+!mid_cta
+
+!figure:fact
+
+## Ce qui a suivi les précédents niveaux extrêmes
+
+L'histoire n'offre pas de règle simple. En 2026, l'indice était déjà tombé aussi bas au moins deux fois. Les cours du bitcoin ci-dessous sont des clôtures quotidiennes sur [Kraken](L4) :
+
+- Le 23 février, l'indice affichait 5. Le bitcoin a clôturé ce jour-là vers 64 600 dollars et, un mois plus tard, le 25 mars, vers 71 300 dollars, soit environ 10 % de plus.
+- Le 10 juin, l'indice affichait 9. Le bitcoin a clôturé vers 61 500 dollars et, un mois plus tard, vers 64 100 dollars, environ 4 % de plus. Le 14 août, il était repassé sous 63 000 dollars.
+
+Alternative.me estime elle-même que la peur extrême peut indiquer que les investisseurs sont trop inquiets. Mais ces exemples montrent que les niveaux bas peuvent durer des semaines et que les prix peuvent rechuter après un rebond.
+
+## Ce que cela signifie pour les débutants
+
+Un niveau de peur très bas indique que beaucoup d'acteurs du marché sont inquiets. Il ne dit pas où iront les prix. Certains acheteurs de long terme profitent des périodes de peur pour acheter progressivement, par petits montants réguliers (investissement programmé) plutôt qu'en une seule fois. D'autres préfèrent attendre que la tendance s'inverse. Aucune de ces approches n'élimine le risque de nouvelles pertes.
+
+Si vous décidez d'acheter, passez par une plateforme régulée comme [Coinbase](REF), commencez avec une somme que vous pouvez vous permettre de perdre et évitez l'effet de levier, qui a effacé environ 2 milliards de dollars de positions ce week-end. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Si l'indice repasse au-dessus de 25 et sort de la zone de « peur extrême ».
+- Les flux quotidiens des ETF bitcoin au comptant américains après sept séances de sorties d'affilée.
+- Les résultats de Nvidia mardi, que les investisseurs surveillent pour la direction des valeurs technologiques, selon CoinDesk.
+- Si le bitcoin tient au-dessus de son plus bas du week-end, vers 62 000 dollars.
+
+!soft: Vous pensez acheter par petites étapes ? Lisez [combien de bitcoins un débutant devrait acheter, avec l'investissement programmé expliqué](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

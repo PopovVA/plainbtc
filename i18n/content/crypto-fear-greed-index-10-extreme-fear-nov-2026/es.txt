@@ -1,0 +1,65 @@
+title: El índice Crypto Fear & Greed cae a 10, su lectura de más miedo desde junio
+page_title: El índice Crypto Fear & Greed marca 10 (miedo extremo) con bitcoin cerca de 64.000 dólares
+description: El conocido índice Crypto Fear & Greed marcó 10 de 100 el domingo y el lunes, su nivel más bajo desde junio, mientras bitcoin rondaba los 64.000 dólares tras tocar un mínimo de cuatro meses. Qué mide el indicador y qué pasó tras lecturas parecidas.
+og_description: El índice Crypto Fear & Greed marcó 10 de 100 el 15 y el 16 de noviembre, frente a 29 una semana antes, su nivel más bajo desde junio. Qué mide y qué pasó después de mínimos anteriores.
+label: Mercado
+summary: El índice Crypto Fear & Greed marcó 10 de 100 el domingo y el lunes, frente a 29 una semana antes y en su nivel más bajo desde junio, con bitcoin cerca de 64.000 dólares tras un mínimo de cuatro meses. A lecturas extremas anteriores les siguieron tanto rebotes como nuevos mínimos.
+===
+
+Un indicador muy seguido del ánimo del mercado cripto ha caído a uno de sus niveles más bajos del año. El índice Crypto Fear & Greed que publica [Alternative.me](L1) marcó <strong>10 de 100</strong> el domingo y de nuevo el lunes, de lleno en su zona de "miedo extremo". Una semana antes estaba en 29, y hace un mes, en 55.
+
+La última vez que el índice estuvo tan bajo fue el 10 de junio, cuando marcó 9, según los datos públicos del sitio. Bitcoin cotizaba cerca de 64.000 dólares el lunes, después de caer a unos 62.000 el domingo, su precio más bajo desde el 14 de julio, informó [CoinDesk](L2).
+
+!takeaways
+- El índice Crypto Fear & Greed marcó 10 el 15 y el 16 de noviembre, frente a 29 una semana antes y 55 hace un mes.
+- Es la lectura más baja desde el 10 de junio, cuando el índice llegó a 9.
+- El indicador de miedo y codicia de CoinMarketCap, que es distinto, estaba en 12 el lunes, también en "miedo extremo".
+- A lecturas extremas anteriores les siguieron tanto rebotes como nuevos mínimos, así que el índice no sirve para elegir el momento de comprar.
+
+!figure:chart
+
+## Qué mide el índice
+
+El índice convierte varias señales del mercado en un número de 0 a 100, donde 0 es miedo extremo y 100, codicia extrema. Según Alternative.me, pondera las oscilaciones del precio de bitcoin (25%), el volumen y el impulso de las operaciones (25%), la actividad en redes sociales (15%), la cuota de bitcoin en el mercado cripto total (10%) y las tendencias de búsqueda en Google (10%). Un componente de encuestas que vale el 15% está pausado por ahora. Las lecturas de 25 o menos se califican de "miedo extremo".
+
+En pocas palabras, el número baja cuando los precios caen con fuerza, aumentan las ventas y la gente busca frases de preocupación. Resume el ánimo del mercado. No predice precios.
+
+## Por qué están nerviosos los inversores
+
+La caída del ánimo llega tras seis semanas seguidas de pérdidas para bitcoin, la racha más larga desde finales de febrero, según CoinDesk. Durante la caída del fin de semana se liquidaron, es decir, se cerraron a la fuerza, unos 2.000 millones de dólares en apuestas cripto apalancadas, la mayoría a favor de una subida.
+
+Los inversores también están sacando dinero de los ETF de bitcoin al contado en EE. UU. Esos fondos acumularon siete sesiones seguidas de salidas hasta el viernes, unos 1.910 millones de dólares desde el 5 de noviembre, informó CoinDesk citando a Farside Investors. En los mercados de futuros, las tasas de financiación se volvieron negativas para la mayoría de las monedas, lo que significa que quienes apuestan a la baja pagaban a quienes apuestan al alza.
+
+El índice de miedo y codicia propio de CoinMarketCap, que usa otro método, estaba en 12 el lunes, frente a 19 el viernes, dijo CoinDesk. [TokenPost](L3) también señaló que la lectura de Alternative.me no cambió respecto al domingo y quedó muy por debajo del 29 de una semana antes.
+
+!mid_cta
+
+!figure:fact
+
+## Qué pasó tras lecturas extremas anteriores
+
+La historia no ofrece una regla sencilla. En 2026 el índice ya había caído así de bajo al menos dos veces. Los precios de bitcoin de abajo son cierres diarios en [Kraken](L4):
+
+- El 23 de febrero, el índice marcó 5. Bitcoin cerró ese día cerca de 64.600 dólares y un mes después, el 25 de marzo, cerca de 71.300, alrededor de un 10% más.
+- El 10 de junio, el índice marcó 9. Bitcoin cerró cerca de 61.500 dólares y un mes después cerca de 64.100, alrededor de un 4% más. Para el 14 de agosto había vuelto a bajar de 63.000.
+
+La propia Alternative.me dice que el miedo extremo puede ser señal de que los inversores están demasiado preocupados. Pero los ejemplos muestran que las lecturas bajas pueden durar semanas y que los precios pueden volver a caer después de un rebote.
+
+## Qué significa para principiantes
+
+Una lectura de miedo muy baja te dice que mucha gente en el mercado está inquieta. No te dice hacia dónde irán los precios. Algunos compradores de largo plazo aprovechan las épocas de miedo para comprar poco a poco, con compras pequeñas y regulares (promedio del costo en dólares) en lugar de una gran apuesta. Otros prefieren esperar a que cambie la tendencia. Ninguna de las dos opciones elimina el riesgo de nuevas pérdidas.
+
+Si decides comprar, usa un exchange regulado como [Coinbase](REF), empieza con una cantidad que puedas permitirte perder y evita el apalancamiento, que es lo que borró unos 2.000 millones de dólares en posiciones este fin de semana. Esto no es asesoramiento financiero.
+
+## Qué vigilar
+
+- Si el índice vuelve a superar 25 y sale de la zona de "miedo extremo".
+- Los flujos diarios de los ETF de bitcoin al contado en EE. UU. tras siete sesiones seguidas de salidas.
+- Los resultados de Nvidia del martes, que los inversores siguen para ver la dirección de las tecnológicas, según CoinDesk.
+- Si bitcoin se mantiene por encima de su mínimo del fin de semana, cerca de 62.000 dólares.
+
+!soft: ¿Piensas comprar poco a poco? Lee [cuánto bitcoin debería comprar un principiante, con el promedio del costo explicado](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

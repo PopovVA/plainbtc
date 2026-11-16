@@ -1,0 +1,19 @@
+{
+ "slug": "strategy-buys-485-bitcoin-strive-251-nov-2026",
+ "date": "2026-11-16",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "msci-drops-strategy-bitcoin-falls-nvidia-nov-2026",
+  "crypto-treasury-firms-loans-nakamoto-btcs-nov-2026",
+  "bitcoin-four-month-low-62000-liquidations-nov-2026"
+ ],
+ "sources": [
+  {"url": "https://www.strategy.com/press/strategy-acquires-485-btc-and-repurchases-228-million-of-strc_11-16-2026", "title": "Strategy: Strategy Acquires 485 BTC and Repurchases $228 Million of STRC (Form 8-K)", "date": "Nov 16, 2026"},
+  {"url": "https://bitcoinmagazine.com/news/strategy-mstr-adds-485-bitcoin-holdings", "title": "Bitcoin Magazine: Strategy (MSTR) adds 485 bitcoin for $33.4 million", "date": "Nov 16, 2026"},
+  {"url": "https://cryptobriefing.com/strategy-scoops-up-485-bitcoin-repurchases-228-million-in-strc/", "title": "Crypto Briefing: Strategy scoops up 485 Bitcoin, repurchases $228 million in STRC", "date": "Nov 16, 2026"},
+  {"url": "https://www.tokenpost.com/news/business/58362", "title": "TokenPost: Strive adds 251 Bitcoin, lifting holdings to 43,404", "date": "Nov 16, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken public API: BTC/USD daily OHLC data (chart)", "date": "Nov 16, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

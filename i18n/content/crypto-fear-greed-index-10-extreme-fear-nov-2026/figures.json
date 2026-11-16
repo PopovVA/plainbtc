@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-fear-greed-2026.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of the Crypto Fear & Greed Index from Jan. 1 to Nov. 16, 2026: long stretches in extreme fear from February to April with lows of 5, another dip to 9 in June, a peak of 78 on Sep. 22, and a fall back to 10 in mid-November, with a dashed line at 25 marking the extreme fear zone",
+      "es": "Gráfico de líneas del índice Crypto Fear & Greed del 1 de enero al 16 de noviembre de 2026: largos periodos de miedo extremo de febrero a abril con mínimos de 5, otra caída a 9 en junio, un máximo de 78 el 22 de septiembre y una vuelta a 10 a mediados de noviembre; la línea discontinua en 25 marca la zona de miedo extremo",
+      "pt": "Gráfico de linha do índice Crypto Fear & Greed de 1º de janeiro a 16 de novembro de 2026: longos períodos de medo extremo de fevereiro a abril com mínimas de 5, nova queda a 9 em junho, pico de 78 em 22 de setembro e volta a 10 em meados de novembro; a linha tracejada em 25 marca a zona de medo extremo",
+      "fr": "Courbe de l'indice Crypto Fear & Greed du 1er janvier au 16 novembre 2026 : de longues périodes de peur extrême de février à avril avec des plus bas à 5, un nouveau creux à 9 en juin, un pic à 78 le 22 septembre, puis un retour à 10 mi-novembre ; la ligne pointillée à 25 marque la zone de peur extrême",
+      "de": "Liniendiagramm des Crypto Fear & Greed Index vom 1. Januar bis 16. November 2026: lange Phasen extremer Angst von Februar bis April mit Tiefs bei 5, ein weiterer Rückgang auf 9 im Juni, ein Hoch von 78 am 22. September und ein Rückfall auf 10 Mitte November; die gestrichelte Linie bei 25 markiert die Zone extremer Angst",
+      "ru": "Линейный график индекса Crypto Fear & Greed с 1 января по 16 ноября 2026 года: длительные периоды крайнего страха с февраля по апрель с минимумами на уровне 5, ещё одно падение до 9 в июне, пик 78 22 сентября и возврат к 10 в середине ноября; пунктирная линия на уровне 25 отмечает зону крайнего страха",
+      "tr": "Crypto Fear & Greed Endeksi'nin 1 Ocak - 16 Kasım 2026 çizgi grafiği: şubattan nisana kadar 5'e varan diplerle uzun aşırı korku dönemleri, haziranda 9'a bir düşüş daha, 22 Eylül'de 78 ile zirve ve kasım ortasında yeniden 10; 25'teki kesikli çizgi aşırı korku bölgesini gösteriyor",
+      "id": "Grafik garis Crypto Fear & Greed Index dari 1 Januari hingga 16 November 2026: periode panjang ketakutan ekstrem dari Februari hingga April dengan titik terendah 5, turun lagi ke 9 pada Juni, puncak 78 pada 22 September, lalu kembali ke 10 pada pertengahan November; garis putus-putus di 25 menandai zona ketakutan ekstrem",
+      "ja": "2026年1月1日〜11月16日の暗号資産Fear & Greed指数の折れ線グラフ：2〜4月に最低5まで下がる「極度の恐怖」が長く続き、6月にも9まで低下、9月22日に78のピークを付けた後、11月中旬に再び10へ。破線（25）は「極度の恐怖」ゾーンの境目",
+      "ko": "2026년 1월 1일~11월 16일 암호화폐 공포·탐욕 지수 선 차트: 2~4월 최저 5까지 떨어진 '극단적 공포' 구간이 길게 이어지고, 6월에도 9까지 하락, 9월 22일 78로 정점을 찍은 뒤 11월 중순 다시 10으로 하락. 25의 점선은 극단적 공포 구간을 표시"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Alternative.me Crypto Fear & Greed Index",
+      "es": "Gráfico: PlainBTC, datos: Alternative.me Crypto Fear & Greed Index",
+      "pt": "Gráfico: PlainBTC, dados: Alternative.me Crypto Fear & Greed Index",
+      "fr": "Graphique : PlainBTC, données : Alternative.me Crypto Fear & Greed Index",
+      "de": "Chart: PlainBTC, Daten: Alternative.me Crypto Fear & Greed Index",
+      "ru": "График: PlainBTC, данные: Alternative.me Crypto Fear & Greed Index",
+      "tr": "Grafik: PlainBTC, veri: Alternative.me Crypto Fear & Greed Index",
+      "id": "Grafik: PlainBTC, data: Alternative.me Crypto Fear & Greed Index",
+      "ja": "チャート: PlainBTC、データ: Alternative.me Crypto Fear & Greed Index",
+      "ko": "차트: PlainBTC, 데이터: Alternative.me Crypto Fear & Greed Index"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-fear-greed-10.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: the Crypto Fear & Greed Index read 10 out of 100, extreme fear, on Nov. 15 and 16, 2026, its lowest reading since June 10; a week earlier it was 29 and a month earlier 55",
+      "es": "Tarjeta: el índice Crypto Fear & Greed marcó 10 de 100, miedo extremo, el 15 y el 16 de noviembre de 2026, su nivel más bajo desde el 10 de junio; una semana antes estaba en 29 y un mes antes en 55",
+      "pt": "Cartão: o índice Crypto Fear & Greed marcou 10 de 100, medo extremo, em 15 e 16 de novembro de 2026, o nível mais baixo desde 10 de junho; uma semana antes estava em 29 e um mês antes em 55",
+      "fr": "Encadré : l'indice Crypto Fear & Greed affichait 10 sur 100, peur extrême, les 15 et 16 novembre 2026, son plus bas niveau depuis le 10 juin ; une semaine plus tôt il était à 29, un mois plus tôt à 55",
+      "de": "Faktenkarte: Der Crypto Fear & Greed Index stand am 15. und 16. November 2026 bei 10 von 100, extreme Angst, der tiefste Wert seit dem 10. Juni; eine Woche zuvor lag er bei 29, einen Monat zuvor bei 55",
+      "ru": "Карточка: индекс Crypto Fear & Greed 15 и 16 ноября 2026 года показал 10 из 100, крайний страх, минимум с 10 июня; неделей ранее он был на уровне 29, месяцем ранее 55",
+      "tr": "Kart: Crypto Fear & Greed Endeksi 15 ve 16 Kasım 2026'da 100 üzerinden 10 ile aşırı korku gösterdi, 10 Haziran'dan beri en düşük seviye; bir hafta önce 29, bir ay önce 55'ti",
+      "id": "Kartu fakta: Crypto Fear & Greed Index berada di 10 dari 100, ketakutan ekstrem, pada 15 dan 16 November 2026, angka terendah sejak 10 Juni; sepekan sebelumnya 29 dan sebulan sebelumnya 55",
+      "ja": "カード：暗号資産Fear & Greed指数は2026年11月15日と16日に100点中10の「極度の恐怖」。6月10日以来の低さで、1週間前は29、1カ月前は55",
+      "ko": "카드: 암호화폐 공포·탐욕 지수는 2026년 11월 15일과 16일 100점 만점에 10으로 '극단적 공포', 6월 10일 이후 최저. 일주일 전 29, 한 달 전 55"
+    },
+    "caption": {
+      "en": "Source: Alternative.me Crypto Fear & Greed Index, Nov. 16, 2026",
+      "es": "Fuente: Alternative.me Crypto Fear & Greed Index, Nov. 16, 2026",
+      "pt": "Fonte: Alternative.me Crypto Fear & Greed Index, Nov. 16, 2026",
+      "fr": "Source : Alternative.me Crypto Fear & Greed Index, Nov. 16, 2026",
+      "de": "Quelle: Alternative.me Crypto Fear & Greed Index, Nov. 16, 2026",
+      "ru": "Источник: Alternative.me Crypto Fear & Greed Index, Nov. 16, 2026",
+      "tr": "Kaynak: Alternative.me Crypto Fear & Greed Index, Nov. 16, 2026",
+      "id": "Sumber: Alternative.me Crypto Fear & Greed Index, Nov. 16, 2026",
+      "ja": "出典: Alternative.me Crypto Fear & Greed Index, Nov. 16, 2026",
+      "ko": "출처: Alternative.me Crypto Fear & Greed Index, Nov. 16, 2026"
+    }
+  }
+]

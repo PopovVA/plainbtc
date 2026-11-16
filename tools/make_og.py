@@ -32,6 +32,16 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "strategy-buys-485-bitcoin-strive-251-nov-2026",
+        "Strategy buys 485 more bitcoin in a down week, lifting its stack to 850,849 BTC",
+        "BUSINESS",
+    ),
+    (
+        "crypto-fear-greed-index-10-extreme-fear-nov-2026",
+        "Crypto Fear & Greed Index sinks to 10, its most fearful reading since June",
+        "MARKET NEWS",
+    ),
+    (
         "luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026",
         "Luxor says hackers hijacked bitcoin miners through its Commander software",
         "SECURITY",
@@ -230,6 +240,18 @@ ARTICLES = [
 # used for identification only). Each entry: (image URL, tile background RGB).
 WIKI = "https://upload.wikimedia.org/wikipedia/commons/"
 OG_LOGOS: dict[str, list[tuple[str, tuple[int, int, int]]]] = {
+    # Strategy logo (2025, public domain on Wikimedia Commons) and the Strive wordmark cropped from
+    # Strive's own official share image (strive.com og:image), identification only.
+    "strategy-buys-485-bitcoin-strive-251-nov-2026": [
+        (WIKI + "3/3e/Strategy_logo_%282025%29.svg", (255, 255, 255)),
+        ("https://strive.com/og/v2/home-1200x630.jpg#crop=270,175,935,290", (11, 12, 14)),
+    ],
+    # Alternative.me logo (publisher of the Crypto Fear & Greed Index, from alternative.me) and
+    # Bitcoin logo (public domain, Wikimedia Commons), identification only.
+    "crypto-fear-greed-index-10-extreme-fear-nov-2026": [
+        ("https://alternative.me/images/alternative-me-logo.png", (255, 255, 255)),
+        (WIKI + "4/46/Bitcoin.svg", (255, 255, 255)),
+    ],
     # Luxor logo cropped from Luxor's own official share image (luxor.tech og:image) and the OCEAN
     # logotype from ocean.xyz (white on dark), identification only.
     "luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026": [
