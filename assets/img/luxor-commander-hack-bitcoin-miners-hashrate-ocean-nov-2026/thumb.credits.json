@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "default-og.png",
+      "license": "Logo",
+      "url": "https://storage.googleapis.com/luxcorp-assets/images/corp-site-premium/product-banners/default-og.png",
+      "credit": "Luxor Technology"
+    },
+    {
+      "file": "logotype.svg",
+      "license": "Logo",
+      "url": "https://ocean.xyz/static/assets/home/logotype.svg",
+      "credit": "OCEAN"
+    },
+    {
+      "file": "CoreX Hosting estimate via Bitcoin.com News, Nov. 15, 2026",
+      "license": "Figure cited",
+      "url": "https://news.bitcoin.com/security/luxor-confirms-bitcoin-mining-hack-and-reveals-ai-enabled-attack/",
+      "credit": "Bitcoin.com News"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026",
+  "generated": "2026-11-16T00:06Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

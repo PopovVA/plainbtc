@@ -1,0 +1,60 @@
+title: Jerman setujui wewenang bea cukai menyita kripto di atas €100.000 yang asal-usulnya tidak jelas
+page_title: Bundestag beri bea cukai Jerman wewenang menyita kripto di atas €100.000 yang asal-usulnya diragukan
+description: Parlemen Jerman mengesahkan reformasi bea cukai yang memungkinkan petugas menahan kripto dan aset lain bernilai lebih dari €100.000 hingga 180 hari jika asal-usul legalnya diragukan, bahkan tanpa perkara pidana. Negara bagian masih harus menyetujuinya.
+og_description: Bundestag Jerman pada 12 November mengesahkan undang-undang yang memungkinkan bea cukai menahan kripto di atas €100.000 yang asal-usulnya diragukan hingga 180 hari tanpa perkara pidana. Penyitaan permanen perlu putusan pengadilan, dan negara bagian masih harus memberi persetujuan.
+label: Regulasi
+summary: Bundestag Jerman mengesahkan reformasi bea cukai yang memungkinkan kripto dan aset lain di atas €100.000 yang asal-usulnya diragukan ditahan hingga 180 hari, bahkan tanpa perkara pidana. Penyitaan permanen perlu putusan pengadilan, dan negara bagian masih harus memberi persetujuan.
+===
+
+Parlemen Jerman menyetujui wewenang baru yang memungkinkan petugas bea cukai membekukan kripto dan aset berharga lainnya ketika pemiliknya tidak bisa menjelaskan secara masuk akal dari mana asalnya, bahkan jika belum ada perkara pidana yang dibuka. Bundestag mengesahkan undang-undang itu pada Kamis, 12 November, dan rencananya berlaku mulai 1 Januari 2027 jika Bundesrat, majelis yang mewakili negara bagian, menyetujuinya, menurut [AltcoinReporter](L4).
+
+Aturan ini berlaku untuk aset bernilai lebih dari <strong>€100.000</strong> dan mencakup aset kripto sesuai definisi aturan MiCA Uni Eropa. Unggahan yang beredar di media sosial akhir pekan ini membuat aturan itu seolah-olah sudah berlaku. Kenyataannya belum.
+
+!takeaways
+- Bundestag mengesahkan reformasi bea cukai pada 12 November dengan dukungan CDU/CSU, SPD, dan AfD, sementara partai Kiri menolak dan Partai Hijau abstain.
+- Bea cukai dapat menahan kripto dan aset lain di atas €100.000 selama 30 hari jika asal-usul legalnya diragukan, dan pengadilan keuangan dapat memperpanjangnya 150 hari.
+- Penyitaan permanen memerlukan putusan majelis hakim pengadilan keuangan.
+- Bundesrat, majelis negara bagian Jerman, masih harus memberi persetujuan sebelum rencana mulai berlaku pada 1 Januari 2027.
+
+!figure:timeline
+
+## Apa isi undang-undangnya
+
+Undang-undang yang dikenal sebagai Zollfinanzgerechtigkeitsgesetz (ZFG) ini terutama merombak bea cukai Jerman, yang memiliki hampir 49.000 pegawai, kata [Kementerian Keuangan](L3) ketika kabinet menyetujuinya pada Agustus. Bagian yang paling diperdebatkan adalah prosedur administratif baru untuk menyelidiki dan mengamankan aset "signifikan" yang asal-usul sahnya diragukan, di luar perkara pidana apa pun, lapor [Der Spiegel](L1).
+
+Sebuah aset dianggap signifikan jika nilainya lebih dari €100.000, atau lebih dari €50.000 jika wajib tercatat di register publik, seperti properti, mobil, kapal, atau pesawat. Kripto tidak punya register semacam itu, sehingga batas €100.000 yang berlaku, dan petugas boleh menaksir nilainya, jelas [CryptoCompass](L5) setelah meninjau teks undang-undang.
+
+Menteri Keuangan Lars Klingbeil merangkum gagasannya secara lugas ketika kabinet mendukung rencana itu: jika tersangka tidak bisa menunjukkan bahwa mereka memperoleh aset secara sah, "Porsche atau Rolex itu hilang dulu untuk sementara."
+
+## Bagaimana penyitaan akan berjalan
+
+Bea cukai dapat mengamankan aset paling lama 30 hari untuk menelusuri asal-usulnya. Seorang hakim tunggal di pengadilan keuangan dapat memperpanjangnya sekali selama 150 hari, sehingga maksimal 180 hari. Untuk kripto, penyitaan akan melarang pemilik menjual atau memindahkan koinnya.
+
+Petugas akan menilai apakah pembelian yang sah tampak masuk akal secara keseluruhan, termasuk apakah penghasilan pemilik sesuai dengan nilai aset dan apakah sumber dananya dapat ditelusuri, lapor AltcoinReporter. Pada 11 November, komite keuangan Bundestag mengubah rancangan sehingga penyitaan permanen diputuskan oleh majelis hakim, bukan hakim tunggal, menurut [NWB](L2).
+
+!mid_cta
+
+!figure:fact
+
+## Siapa yang sebenarnya terdampak
+
+Wewenang ini lebih sempit daripada yang tersirat dalam banyak unggahan akhir pekan. Menurut catatan pemerintah yang dirangkum AltcoinReporter, cakupannya adalah aset yang ditemukan bea cukai dalam pekerjaannya sendiri, seperti pemeriksaan barang dan uang tunai di perbatasan, penyelidikan kepabeanan, dan unit yang mengawasi pekerjaan tidak terdaftar. Dompet perangkat keras yang ditemukan saat pemeriksaan perbatasan bisa termasuk. Koin yang disimpan sendiri di rumah tidak termasuk, kecuali bea cukai menemukannya dalam pekerjaan tersebut.
+
+Pemerintah memperkirakan prosedur ini menghasilkan sekitar €308 juta per tahun mulai 2028, dengan asumsi sekitar separuh kasus berhasil, lapor Der Spiegel, yang mencatat tidak ada statistik resmi tentang aset dari sumber ilegal. Anggota parlemen Partai Hijau Max Lucks berpendapat jumlah itu hanya sekitar 0,3% dari kira-kira €100 miliar yang dicuci di Jerman setiap tahun.
+
+## Apa artinya bagi pemula
+
+Ini adalah undang-undang Jerman dan tidak mengubah apa pun bagi orang yang tinggal di negara lain. Namun, aturan ini menunjukkan tren yang lebih luas: pemerintah ingin pemilik kripto bisa menunjukkan dari mana uang mereka berasal. Catatan yang rapi adalah perlindungan paling sederhana. Simpan bukti pembelian dan transfer bank, dan unduh riwayat transaksi Anda secara rutin. Bursa teregulasi seperti [Coinbase](REF) memungkinkan Anda mengekspor laporan, yang juga membantu saat urusan pajak. Ini bukan saran hukum maupun investasi.
+
+## Yang perlu dipantau
+
+- Apakah Bundesrat membahas undang-undang ini pada sidang 20 November atau 18 Desember.
+- Pengundangan dalam lembaran negara federal dan tanggal mulai berlaku yang bertahap.
+- Cara bea cukai menilai aset yang harganya bergejolak seperti bitcoin saat menerapkan batas €100.000.
+- Undang-undang Jerman terpisah tentang pertukaran data pajak kripto dalam kerangka pelaporan OECD.
+
+!soft: Menyimpan koin sendiri? Baca [apa itu dompet kripto: kustodian vs simpan sendiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

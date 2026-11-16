@@ -1,0 +1,60 @@
+title: L'Allemagne vote pour permettre à la douane de saisir les cryptos de plus de 100 000 € d'origine floue
+page_title: Le Bundestag autorise la douane allemande à saisir les cryptos de plus de 100 000 € d'origine douteuse
+description: Le parlement allemand a adopté une réforme des douanes qui permettrait de retenir pendant 180 jours au plus des cryptos et autres biens de plus de 100 000 € lorsque leur origine légale est douteuse, même sans procédure pénale. Les Länder doivent encore donner leur accord.
+og_description: Le Bundestag a adopté le 12 novembre une loi qui permettrait à la douane de retenir jusqu'à 180 jours des cryptos de plus de 100 000 € d'origine douteuse, sans procédure pénale. Toute confiscation définitive exigerait un juge, et les Länder doivent encore approuver le texte.
+label: Réglementation
+summary: Le Bundestag a adopté une réforme des douanes qui permettrait de retenir jusqu'à 180 jours des cryptos et autres biens de plus de 100 000 € d'origine douteuse, même sans procédure pénale. Un tribunal devrait valider toute confiscation définitive, et les Länder doivent encore donner leur accord.
+===
+
+Le parlement allemand a approuvé de nouveaux pouvoirs qui permettraient aux douaniers de geler des cryptos et d'autres biens de valeur lorsque leur propriétaire ne peut pas expliquer de façon plausible leur provenance, même si aucune procédure pénale n'a été ouverte. Le Bundestag a adopté le texte le jeudi 12 novembre, et son entrée en vigueur est prévue le 1er janvier 2027, si le Bundesrat, la chambre qui représente les Länder, donne son accord, selon [AltcoinReporter](L4).
+
+La mesure vise les biens de plus de <strong>100 000 €</strong> et couvre les crypto-actifs tels que les définit le règlement européen MiCA. Des messages diffusés ce week-end sur les réseaux sociaux laissaient croire que la règle était déjà en vigueur. Ce n'est pas le cas.
+
+!takeaways
+- Le Bundestag a adopté la réforme des douanes le 12 novembre, avec les voix de la CDU/CSU, du SPD et de l'AfD, Die Linke votant contre et les Verts s'abstenant.
+- La douane pourrait retenir pendant 30 jours des cryptos et autres biens de plus de 100 000 € dont l'origine légale est douteuse, et un tribunal des finances pourrait prolonger ce délai de 150 jours.
+- Une confiscation définitive nécessiterait une décision d'une formation collégiale de juges d'un tribunal des finances.
+- Le Bundesrat, la chambre des Länder allemands, doit encore donner son accord avant l'entrée en vigueur prévue le 1er janvier 2027.
+
+!figure:timeline
+
+## Ce que prévoit la loi
+
+Le texte, surnommé Zollfinanzgerechtigkeitsgesetz (ZFG), réorganise surtout les douanes allemandes, qui comptent un peu moins de 49 000 agents, avait indiqué le [ministère des Finances](L3) lorsque le gouvernement l'a adopté en août. Son volet le plus débattu est une nouvelle procédure administrative permettant d'enquêter sur des biens « significatifs » dont l'origine licite est douteuse et de les mettre en sûreté, en dehors de toute procédure pénale, a rapporté [Der Spiegel](L1).
+
+Un bien est jugé significatif s'il vaut plus de 100 000 €, ou plus de 50 000 € s'il doit être inscrit dans un registre public, comme un bien immobilier, une voiture, un navire ou un avion. Les cryptos n'ont pas de registre de ce type, c'est donc le seuil de 100 000 € qui s'applique, et les agents peuvent estimer la valeur, a expliqué [CryptoCompass](L5) après examen du texte.
+
+Le ministre des Finances, Lars Klingbeil, l'a résumé sans détour lorsque le gouvernement a validé le projet : si des suspects ne peuvent pas prouver qu'ils ont acquis leurs biens légalement, « la Porsche ou la Rolex, c'est fini pour l'instant ».
+
+## Comment se déroulerait une saisie
+
+La douane pourrait mettre un bien en sûreté pendant 30 jours au plus afin d'enquêter sur son origine. Un juge unique d'un tribunal des finances pourrait prolonger ce délai une fois de 150 jours, soit 180 jours au maximum. Pour les cryptos, la saisie interdirait au détenteur de vendre ou de déplacer ses pièces.
+
+Les agents apprécieraient si un achat licite paraît plausible dans l'ensemble, notamment si les revenus du détenteur correspondent à la valeur du bien et si l'origine des fonds peut être retracée, selon AltcoinReporter. Le 11 novembre, la commission des finances du Bundestag a modifié le texte pour que la confiscation définitive soit décidée par une formation de plusieurs juges et non par un juge unique, selon [NWB](L2).
+
+!mid_cta
+
+!figure:fact
+
+## Qui est réellement concerné
+
+Ce pouvoir est plus étroit que ne le laissaient entendre de nombreux messages du week-end. Selon les notes du gouvernement, résumées par AltcoinReporter, il vise les biens que la douane découvre dans le cadre de ses propres missions, comme les contrôles de marchandises et d'espèces aux frontières, les enquêtes douanières et l'unité chargée du travail non déclaré. Un portefeuille matériel trouvé lors d'un contrôle à la frontière pourrait être concerné. Des pièces conservées en auto-garde à domicile ne le seraient pas, sauf si la douane tombait dessus dans le cadre de ces missions.
+
+Le gouvernement attend de cette procédure environ 308 millions d'euros par an à partir de 2028, en supposant qu'environ la moitié des dossiers aboutissent, a rapporté Der Spiegel, en notant qu'il n'existe aucune statistique officielle sur les biens d'origine illicite. Le député écologiste Max Lucks a fait valoir que cette somme ne représente qu'environ 0,3 % des quelque 100 milliards d'euros blanchis chaque année en Allemagne.
+
+## Ce que cela signifie pour les débutants
+
+Il s'agit d'une loi allemande, qui ne change rien pour les personnes vivant dans d'autres pays. Mais elle illustre une tendance plus large : les États veulent que les détenteurs de cryptos puissent prouver d'où vient leur argent. Bien tenir ses archives reste la protection la plus simple. Conservez vos confirmations d'achat et vos virements bancaires, et téléchargez régulièrement votre historique de transactions. Les plateformes réglementées comme [Coinbase](REF) permettent d'exporter des relevés, ce qui aide aussi au moment de la déclaration d'impôts. Ceci n'est pas un conseil juridique ou en investissement.
+
+## À surveiller
+
+- Si le Bundesrat examine le texte lors de sa séance du 20 novembre ou du 18 décembre.
+- La publication au journal officiel fédéral et les dates d'entrée en vigueur échelonnées.
+- La façon dont la douane évaluera des actifs volatils comme le bitcoin pour appliquer le seuil de 100 000 €.
+- Une loi allemande distincte sur l'échange de données fiscales crypto dans le cadre de l'OCDE.
+
+!soft: Vous gardez vous-même vos cryptos ? Lisez [ce qu'est un portefeuille crypto : dépositaire ou auto-garde](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

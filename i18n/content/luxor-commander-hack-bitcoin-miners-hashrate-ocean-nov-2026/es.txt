@@ -1,0 +1,60 @@
+title: Luxor dice que unos hackers secuestraron mineros de bitcoin a través de su software Commander
+page_title: Brecha en Luxor Commander: mineros de bitcoin secuestrados enviaron unos 13 EH/s al pool OCEAN
+description: La minera de bitcoin Luxor dice que unos atacantes usaron su software de gestión Commander para desviar máquinas de clientes a otro pool el sábado por la noche. Los informes cifran la potencia desviada en unos 13 EH/s. Luxor corrigió el fallo en dos horas y promete pagar por completo a sus clientes.
+og_description: Unos atacantes usaron el software Commander de Luxor para desviar máquinas de minería al pool OCEAN el sábado por la noche. Luxor dice que se vieron afectadas algo más de una docena de cuentas, que corrigió el fallo en dos horas y que pagará por completo a sus clientes.
+label: Seguridad
+summary: Unos atacantes usaron el software Commander de Luxor para dirigir máquinas de minería de bitcoin al pool OCEAN el sábado por la noche; los informes hablan de unos 13 EH/s desviados. Luxor dice que corrigió el fallo en dos horas y que pagará por completo a los clientes afectados.
+===
+
+La empresa de minería de bitcoin Luxor Technology confirmó que unos atacantes entraron en Commander, su software para gestionar flotas de máquinas de minería, y desviaron en silencio las máquinas de algunos clientes hacia otro pool de minería el sábado por la noche. La compañía dijo el domingo que corrigió el fallo en menos de dos horas y que pagará a cada cliente afectado por el trabajo perdido, según informó [Bitcoin.com News](L1).
+
+Los primeros informes, lanzados por la empresa de alojamiento CoreX Hosting, estimaban que unas <strong>64.000 máquinas</strong> con alrededor de <strong>13 exahashes por segundo (EH/s)</strong> de potencia de cálculo fueron desviadas al pool OCEAN. Esas cifras no se han confirmado de forma independiente. Nadie perdió bitcoin de su billetera y la red de Bitcoin en sí no fue hackeada.
+
+!takeaways
+- Los atacantes cambiaron la configuración del pool en máquinas gestionadas con el software Commander de Luxor a partir de las 8 de la noche, hora del centro de EE. UU., del sábado 14 de noviembre.
+- Los informes cifran la potencia desviada en unos 13 EH/s procedentes de unas 64.000 máquinas, cifras que Luxor no ha confirmado.
+- Luxor dice que se vieron afectadas algo más de una docena de cuentas de clientes, que corrigió Commander en dos horas y que ningún dato de clientes salió de sus sistemas.
+- Cada cliente afectado recibirá el pago completo "como si hubiera minado con normalidad", según Luxor.
+
+!figure:chart
+
+## Qué pasó
+
+Las máquinas de minería ganan bitcoin uniéndose a un pool, un grupo que combina potencia de cálculo y reparte las recompensas. A cada máquina se le indica para qué pool trabaja y qué dirección debe cobrar. Según [Crypto Briefing](L2), alguien cambió esa configuración en un gran número de máquinas hacia las 8 de la noche, hora del centro de EE. UU., del 14 de noviembre, enviando su potencia a OCEAN y fijando como dirección de cobro una controlada por el atacante.
+
+El cambio se vio enseguida en los datos públicos. El hashrate declarado de OCEAN saltó a unos 50 EH/s antes de estabilizarse cerca de 40 EH/s. CoreX Hosting, que detectó los cambios no autorizados, dijo después que la potencia desviada había caído a unos 100 petahashes por segundo (PH/s), una fracción mínima del pico, según informó [TokenPost](L3).
+
+Para tener una escala, toda la red de Bitcoin funcionaba el domingo a unos 930 EH/s, según [mempool.space](L5). Eso significa que 13 EH/s serían aproximadamente el 1,4% de toda la potencia de minería, una cantidad grande para un solo incidente.
+
+## La respuesta de Luxor
+
+En un comunicado en X, Luxor dijo que su monitorización interna detectó "una redirección no autorizada de hashrate a través de Commander" y que sus ingenieros de guardia actuaron de inmediato. "Impacto: algo más de una docena de cuentas de clientes. Las máquinas afectadas apuntaron a otro pool durante un periodo limitado. No se filtró ni se extrajo ningún dato de nuestros sistemas", escribió la empresa. Añadió que su pool de minería y su firmware LuxOS no se vieron afectados.
+
+El consejero delegado, Nick Hansen, dijo que el ataque empezó hacia las 6 de la tarde, hora del Pacífico, del sábado y llegó "a través de un vector sofisticado apoyado en IA". Luxor aún no ha explicado cómo funcionó y prometió un análisis completo del incidente. "Pido disculpas. Nos confían su flota y tenemos que hacerlo mejor", escribió Hansen, según Bitcoin.com News.
+
+!mid_cta
+
+!figure:fact
+
+## ¿Cobró algo el atacante?
+
+Probablemente muy poco, si es que cobró algo. OCEAN no encontró ningún bloque con la potencia secuestrada, así que ninguna recompensa de bloque completa fue a la dirección del atacante. El panel de OCEAN mostraba unos 0,657 bitcoin de ganancias estimadas para esa dirección, pero los registros de la cadena de bloques no mostraban ningún pago confirmado, según [The Crypto News Feed](L4) y Bitcoin.com News. Los verdaderos perjudicados son los mineros, cuyas máquinas pasaron parte de la noche del sábado trabajando para otro. Luxor dice que cubrirá esos ingresos perdidos a sus clientes afectados.
+
+## Qué significa para los principiantes
+
+Si simplemente tienes bitcoin, este incidente no pone en riesgo tus monedas. No se rompió ninguna regla de Bitcoin y no se vació ninguna billetera. Lo que falló fue un software empresarial que se sitúa entre las mineras y su hardware, lo que demuestra que las empresas del ecosistema pueden tener puntos débiles aunque la red resista.
+
+Además, no hace falta minar para tener bitcoin. La mayoría de los principiantes compra pequeñas cantidades en un exchange regulado como [Coinbase](REF) en lugar de operar máquinas, lo que evita el hardware, las facturas de electricidad y este tipo de riesgo. Compara comisiones, activa el inicio de sesión en dos pasos e invierte solo lo que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- El análisis prometido por Luxor que explique cómo funcionó el ataque "apoyado en IA".
+- Un recuento oficial de cuántas máquinas y cuánto hashrate se vieron afectados.
+- Si otras herramientas de gestión de minería refuerzan su seguridad tras esta brecha.
+- Cualquier señal de que la dirección del atacante recibe un pago de OCEAN.
+
+!soft: ¿Nuevo en cómo se guarda el bitcoin? Lee [qué es una billetera cripto: custodia frente a autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

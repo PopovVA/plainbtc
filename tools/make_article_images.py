@@ -2795,6 +2795,118 @@ def build_stusdt_wind_down():
     ]
 
 
+def fetch_mempool_hashrate(period="3m"):
+    url = f"https://mempool.space/api/v1/mining/hashrate/{period}"
+    req = urllib.request.Request(url, headers={"User-Agent": "PlainBTC/1.0"})
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        data = json.loads(resp.read().decode())
+    xs = np.array([float(r["timestamp"]) for r in data["hashrates"]])
+    ys = np.array([float(r["avgHashrate"]) / 1e18 for r in data["hashrates"]])
+    return xs, ys
+
+
+def build_luxor_hashrate_hijack():
+    slug = "luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026"
+    d = OUT / slug
+    # mempool.space daily average network hashrate, Aug 17 to Nov 15, 2026 (about 926 EH/s on Nov 15).
+    xs, ys = fetch_mempool_hashrate("3m")
+    chart = make_line_chart(
+        d / "chart-bitcoin-network-hashrate-3m",
+        xs, ys,
+        title="Bitcoin network hashrate, daily average, Aug. 17 to Nov. 15, 2026 (mempool.space)",
+        date_fmt="%b %d",
+        yfmt=lambda x, _p: f"{x:,.0f} EH/s",
+    )
+    card = make_fact_card(
+        d / "fact-luxor-13-ehs-redirected",
+        label="Mining hashrate hijack",
+        big="About 13 EH/s",
+        sub="of mining power was reportedly pointed at the OCEAN pool. Luxor says just over a dozen client accounts were hit and the flaw was patched within two hours.",
+        footer="CoreX Hosting reports; Luxor statement, Nov. 15, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of the bitcoin network's daily average hashrate from Aug. 17 to Nov. 15, 2026, moving between roughly 780 and 1,230 exahashes per second and ending near 926 EH/s", {
+            "es": "Gráfico de líneas del hashrate medio diario de la red de bitcoin del 17 de agosto al 15 de noviembre de 2026: oscila entre unos 780 y 1.230 exahashes por segundo y termina cerca de 926 EH/s",
+            "pt": "Gráfico de linha do hashrate médio diário da rede bitcoin de 17 de agosto a 15 de novembro de 2026, variando entre cerca de 780 e 1.230 exahashes por segundo e terminando perto de 926 EH/s",
+            "fr": "Courbe du hashrate moyen quotidien du réseau bitcoin du 17 août au 15 novembre 2026 : il évolue entre environ 780 et 1 230 exahashs par seconde et termine près de 926 EH/s",
+            "de": "Liniendiagramm der täglichen durchschnittlichen Hashrate des Bitcoin-Netzwerks vom 17. August bis 15. November 2026: zwischen rund 780 und 1.230 Exahash pro Sekunde, zuletzt bei rund 926 EH/s",
+            "ru": "Линейный график среднесуточного хешрейта сети биткоина с 17 августа по 15 ноября 2026 года: колебания примерно от 780 до 1230 эксахешей в секунду, в конце около 926 EH/s",
+            "tr": "Bitcoin ağının 17 Ağustos ile 15 Kasım 2026 arasındaki günlük ortalama hash oranının çizgi grafiği: saniyede yaklaşık 780 ile 1.230 eksahash arasında değişiyor ve 926 EH/s civarında bitiyor",
+            "id": "Grafik garis hashrate rata-rata harian jaringan bitcoin dari 17 Agustus hingga 15 November 2026, bergerak antara sekitar 780 dan 1.230 exahash per detik dan berakhir di dekat 926 EH/s",
+            "ja": "2026年8月17日から11月15日までのビットコインネットワークの日次平均ハッシュレートの折れ線グラフ。毎秒約780〜1,230エクサハッシュの間で推移し、最後は約926 EH/s",
+            "ko": "2026년 8월 17일부터 11월 15일까지 비트코인 네트워크 일평균 해시레이트 선 그래프. 초당 약 780~1,230엑사해시 사이에서 움직이다 약 926 EH/s로 마감",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="mempool.space")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: about 13 exahashes per second of mining power was reportedly pointed at the OCEAN pool; Luxor says just over a dozen client accounts were hit and the flaw was patched within two hours", {
+            "es": "Tarjeta: unos 13 exahashes por segundo de potencia de minería se habrían desviado al pool OCEAN; Luxor dice que se vieron afectadas algo más de una docena de cuentas de clientes y que corrigió el fallo en menos de dos horas",
+            "pt": "Cartão: cerca de 13 exahashes por segundo de poder de mineração teriam sido desviados para o pool OCEAN; a Luxor diz que pouco mais de uma dúzia de contas de clientes foram afetadas e que corrigiu a falha em até duas horas",
+            "fr": "Encadré : environ 13 exahashs par seconde de puissance de minage auraient été redirigés vers le pool OCEAN ; Luxor indique qu'un peu plus d'une douzaine de comptes clients ont été touchés et que la faille a été corrigée en moins de deux heures",
+            "de": "Faktenkarte: Rund 13 Exahash pro Sekunde an Mining-Leistung wurden Berichten zufolge auf den Pool OCEAN umgeleitet; Luxor zufolge waren gut ein Dutzend Kundenkonten betroffen, die Lücke wurde binnen zwei Stunden geschlossen",
+            "ru": "Карточка: около 13 эксахешей в секунду майнинговой мощности, по сообщениям, перенаправили в пул OCEAN; Luxor говорит, что пострадали чуть больше десятка клиентских аккаунтов, а уязвимость закрыли в течение двух часов",
+            "tr": "Kart: bildirildiğine göre saniyede yaklaşık 13 eksahashlik madencilik gücü OCEAN havuzuna yönlendirildi; Luxor bir düzineyi biraz aşan müşteri hesabının etkilendiğini ve açığın iki saat içinde kapatıldığını söylüyor",
+            "id": "Kartu fakta: sekitar 13 exahash per detik daya penambangan dilaporkan dialihkan ke pool OCEAN; Luxor mengatakan sedikit lebih dari selusin akun klien terdampak dan celahnya ditambal dalam dua jam",
+            "ja": "カード：約13 EH/sの採掘能力がOCEANプールに向けられたと報じられた。Luxorによると被害は十数件の顧客アカウントで、脆弱性は2時間以内に修正された",
+            "ko": "카드: 약 13 EH/s의 채굴 연산력이 OCEAN 풀로 돌려진 것으로 알려짐. 룩소르는 피해 고객 계정이 십여 개이며 2시간 안에 취약점을 패치했다고 밝힘",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="CoreX Hosting via Bitcoin.com News; Luxor statement, Nov. 15, 2026")},
+    ]
+
+
+def build_germany_customs_crypto():
+    slug = "germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026"
+    d = OUT / slug
+    tl = make_timeline_card(
+        d / "timeline-germany-customs-law",
+        "Germany's customs asset-seizure law (ZFG)",
+        [
+            ("Aug. 12", "Federal cabinet approves the customs reform bill", (96, 165, 250)),
+            ("Nov. 12", "Bundestag passes it; Left votes no, Greens abstain", ORANGE),
+            ("Next", "Bundesrat sessions on Nov. 20 or Dec. 18; states must consent", RED),
+            ("Jan. 1, 2027", "Planned start date, with some parts staged later", GREEN),
+        ],
+        footer="Bundestag, BMF, AltcoinReporter, Nov. 2026",
+        margin=170, wrap_w=250,
+    )
+    card = make_fact_card(
+        d / "fact-germany-180-days",
+        label="German customs crypto seizure",
+        big="Up to 180 days",
+        sub="Customs could hold assets worth over €100,000 of doubtful origin for 30 days; a finance court can add 150 more. Final confiscation needs a court ruling.",
+        footer="Bundestag bill (Drucksache 21/9136), Nov. 12, 2026",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: Aug. 12, Germany's federal cabinet approves the customs reform bill; Nov. 12, the Bundestag passes it while the Left votes no and the Greens abstain; Nov. 20 and Dec. 18, the remaining 2026 Bundesrat sessions where the states must consent; Jan. 1, 2027, the planned start date, with some parts staged later", {
+            "es": "Cronología: 12 de agosto, el gobierno federal alemán aprueba el proyecto de reforma aduanera; 12 de noviembre, el Bundestag lo aprueba con el voto en contra de La Izquierda y la abstención de Los Verdes; 20 de noviembre y 18 de diciembre, últimas sesiones del Bundesrat en 2026, donde los estados deben dar su visto bueno; 1 de enero de 2027, fecha prevista de entrada en vigor, con algunas partes más tarde",
+            "pt": "Linha do tempo: 12 de agosto, o gabinete federal alemão aprova o projeto de reforma da alfândega; 12 de novembro, o Bundestag aprova o texto, com voto contra da Esquerda e abstenção dos Verdes; 20 de novembro e 18 de dezembro, últimas sessões do Bundesrat em 2026, em que os estados precisam dar aval; 1º de janeiro de 2027, data prevista de vigência, com algumas partes depois",
+            "fr": "Chronologie : 12 août, le gouvernement fédéral allemand adopte le projet de réforme des douanes ; 12 novembre, le Bundestag le vote, Die Linke contre et les Verts abstenus ; 20 novembre et 18 décembre, dernières séances du Bundesrat en 2026, où les Länder doivent donner leur accord ; 1er janvier 2027, entrée en vigueur prévue, certaines parties plus tard",
+            "de": "Zeitleiste: 12. August, das Bundeskabinett beschließt den Entwurf zur Zollreform; 12. November, der Bundestag verabschiedet ihn, Die Linke stimmt dagegen, die Grünen enthalten sich; 20. November und 18. Dezember, die letzten Bundesratssitzungen 2026, die Länder müssen zustimmen; 1. Januar 2027, geplantes Inkrafttreten, einzelne Teile später",
+            "ru": "Хронология: 12 августа федеральное правительство Германии одобряет законопроект о реформе таможни; 12 ноября бундестаг принимает его, Левые против, Зелёные воздержались; 20 ноября и 18 декабря: последние заседания бундесрата в 2026 году, где земли должны дать согласие; 1 января 2027 года: планируемая дата вступления в силу, часть положений позже",
+            "tr": "Zaman çizelgesi: 12 Ağustos, Almanya federal kabinesi gümrük reformu tasarısını onaylıyor; 12 Kasım, Federal Meclis tasarıyı kabul ediyor, Sol Parti hayır oyu veriyor, Yeşiller çekimser kalıyor; 20 Kasım ve 18 Aralık, eyaletlerin onay vermesi gereken 2026'daki son Federal Konsey oturumları; 1 Ocak 2027, bazı bölümleri daha sonra olmak üzere planlanan yürürlük tarihi",
+            "id": "Linimasa: 12 Agustus, kabinet federal Jerman menyetujui RUU reformasi bea cukai; 12 November, Bundestag mengesahkannya, partai Kiri menolak dan Partai Hijau abstain; 20 November dan 18 Desember, sidang terakhir Bundesrat pada 2026 tempat negara bagian harus memberi persetujuan; 1 Januari 2027, tanggal mulai berlaku yang direncanakan, dengan beberapa bagian menyusul",
+            "ja": "タイムライン：8月12日、ドイツ連邦政府が税関改革法案を閣議決定。11月12日、連邦議会が可決（左翼党は反対、緑の党は棄権）。11月20日と12月18日、州の同意が必要な連邦参議院の2026年最後の会期。2027年1月1日、施行予定日（一部は後から施行）",
+            "ko": "타임라인: 8월 12일, 독일 연방 내각이 세관 개혁 법안 의결; 11월 12일, 연방하원 통과(좌파당 반대, 녹색당 기권); 11월 20일과 12월 18일, 주 정부 동의가 필요한 연방참사원의 2026년 마지막 회의; 2027년 1월 1일, 시행 예정일(일부 조항은 이후 시행)",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Bundestag, German Finance Ministry, AltcoinReporter")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: German customs could hold assets worth over 100,000 euros of doubtful origin for 30 days, and a finance court can add 150 more, up to 180 days; final confiscation needs a court ruling", {
+            "es": "Tarjeta: la aduana alemana podría retener durante 30 días bienes de más de 100.000 euros de origen dudoso, y un tribunal financiero puede sumar otros 150, hasta 180 días; el decomiso definitivo requiere una resolución judicial",
+            "pt": "Cartão: a alfândega alemã poderia reter por 30 dias bens de mais de 100 mil euros de origem duvidosa, e um tribunal financeiro pode somar mais 150, até 180 dias; o confisco definitivo exige decisão judicial",
+            "fr": "Encadré : la douane allemande pourrait retenir pendant 30 jours des avoirs de plus de 100 000 euros d'origine douteuse, et un tribunal des finances peut ajouter 150 jours, soit jusqu'à 180 jours ; la confiscation définitive exige une décision de justice",
+            "de": "Faktenkarte: Der Zoll könnte Vermögen über 100.000 Euro mit zweifelhafter Herkunft 30 Tage sicherstellen, ein Finanzgericht kann 150 Tage anhängen, insgesamt bis zu 180 Tage; die endgültige Einziehung braucht ein Gerichtsurteil",
+            "ru": "Карточка: таможня Германии сможет удерживать активы дороже 100 000 евро сомнительного происхождения 30 дней, а финансовый суд может продлить срок ещё на 150 дней, всего до 180 дней; окончательная конфискация требует решения суда",
+            "tr": "Kart: Alman gümrüğü kaynağı şüpheli, 100.000 eurodan değerli varlıkları 30 gün tutabilecek; bir maliye mahkemesi bu süreye 150 gün ekleyebilir, toplam 180 güne kadar; kalıcı el koyma için mahkeme kararı gerekiyor",
+            "id": "Kartu fakta: bea cukai Jerman dapat menahan aset bernilai lebih dari 100.000 euro yang asal-usulnya diragukan selama 30 hari, dan pengadilan keuangan dapat menambah 150 hari, hingga total 180 hari; penyitaan permanen memerlukan putusan pengadilan",
+            "ja": "カード：ドイツ税関は出所が疑わしい10万ユーロ超の資産を30日間差し押さえられ、財政裁判所はさらに150日延長でき、最長180日。最終的な没収には裁判所の判断が必要",
+            "ko": "카드: 독일 세관은 출처가 의심스러운 10만 유로 초과 자산을 30일간 압류할 수 있고, 재정법원이 150일을 연장할 수 있어 최대 180일. 최종 몰수에는 법원 판결이 필요",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Bundestag bill (Drucksache 21/9136), Nov. 12, 2026")},
+    ]
+
+
+
 BUILDERS = {
     "bitcoin-loses-50-week-moving-average-nov-2026": "50w",
     "bitcoin-volatility-liquidations-nov-2026": "vol",
@@ -2836,6 +2948,8 @@ BUILDERS = {
     "bitcoin-four-month-low-62000-liquidations-nov-2026": "btc62k",
     "coinone-data-breach-support-contractor-passwords-nov-2026": "coinone",
     "stusdt-wind-down-redeem-by-may-2027-nov-2026": "stusdt",
+    "luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026": "luxor",
+    "germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026": "dezoll",
 }
 
 
@@ -2927,6 +3041,10 @@ def build_slug(slug: str, btc=None):
         figs = build_coinone_breach()
     elif key == "stusdt":
         figs = build_stusdt_wind_down()
+    elif key == "luxor":
+        figs = build_luxor_hashrate_hijack()
+    elif key == "dezoll":
+        figs = build_germany_customs_crypto()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

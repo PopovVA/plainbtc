@@ -986,6 +986,53 @@ def thumb_stusdt_wind_down():
     ],"note":"Editorial composite for identification; trademarks belong to their owners."}
 
 
+def thumb_luxor_hashrate_hijack():
+    """Luxor logo (cropped from Luxor's official share image) and OCEAN logotype (ocean.xyz), identification only."""
+    src = fetch("https://storage.googleapis.com/luxcorp-assets/images/corp-site-premium/product-banners/default-og.png", CACHE/"luxor-og.png")
+    luxor = Image.open(src).convert("RGBA").crop((250, 226, 934, 400))
+    ocean = Image.open(fetch("https://ocean.xyz/static/assets/home/logotype.svg", CACHE/"ocean-logotype.svg")).convert("RGBA")
+    base = gradient_bg()
+    card_w, card_h = 250, 110
+    for (img, bg, y) in ((luxor, (10,10,10,255), 70), (ocean, (10,22,40,255), 196)):
+        x = 40
+        tile = Image.new("RGBA", (card_w, card_h), bg)
+        mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
+        base.paste(tile.convert("RGB"), (x, y), mask)
+        paste_contain(base, img, (x, y, card_w, card_h), pad=16)
+    d = ImageDraw.Draw(base)
+    d.text((320, 100), "13 EH/s", font=font(FONT_B, 54), fill=ORANGE)
+    d.text((322, 180), "of mining power", font=font(FONT_B, 22), fill=WHITE)
+    d.text((322, 212), "sent to OCEAN, reports say", font=font(FONT_R, 18), fill=(203,213,225))
+    label_chip(base, "Luxor Commander · hijack")
+    return base, {"kind":"composite","sources":[
+        {"file":"default-og.png","license":"Logo","url":"https://storage.googleapis.com/luxcorp-assets/images/corp-site-premium/product-banners/default-og.png","credit":"Luxor Technology"},
+        {"file":"logotype.svg","license":"Logo","url":"https://ocean.xyz/static/assets/home/logotype.svg","credit":"OCEAN"},
+        {"file":"CoreX Hosting estimate via Bitcoin.com News, Nov. 15, 2026","license":"Figure cited","url":"https://news.bitcoin.com/security/luxor-confirms-bitcoin-mining-hack-and-reveals-ai-enabled-attack/","credit":"Bitcoin.com News"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
+def thumb_germany_customs_crypto():
+    """German customs (Zoll) logo, public domain on Wikimedia Commons, with the bill's threshold."""
+    logo = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/1/11/Zoll.svg", CACHE/"zoll.svg")).convert("RGBA")
+    base = gradient_bg()
+    card_w, card_h = 250, 200
+    x, y = 50, 80
+    tile = Image.new("RGBA", (card_w, card_h), (255,255,255,255))
+    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), (x, y), mask)
+    paste_contain(base, logo, (x, y, card_w, card_h), pad=20)
+    d = ImageDraw.Draw(base)
+    d.text((320, 100), "€100,000", font=font(FONT_B, 50), fill=ORANGE)
+    d.text((322, 180), "crypto, unclear origin", font=font(FONT_B, 22), fill=WHITE)
+    d.text((322, 212), "held up to 180 days", font=font(FONT_R, 18), fill=(203,213,225))
+    label_chip(base, "Germany · customs law")
+    return base, {"kind":"composite","sources":[
+        {"file":"Zoll.svg","license":"Public domain","url":"https://commons.wikimedia.org/wiki/File:Zoll.svg","credit":"German Federal Customs Service logo"},
+        {"file":"Bundestag bill, Drucksache 21/9136","license":"Figure cited","url":"https://bundestag.parlamente.org/drucksache/21/9136","credit":"Deutscher Bundestag"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
+
 BUILDERS = {
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,
@@ -1024,6 +1071,8 @@ BUILDERS = {
     "bitcoin-four-month-low-62000-liquidations-nov-2026": thumb_btc_62k_low,
     "coinone-data-breach-support-contractor-passwords-nov-2026": thumb_coinone_breach,
     "stusdt-wind-down-redeem-by-may-2027-nov-2026": thumb_stusdt_wind_down,
+    "luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026": thumb_luxor_hashrate_hijack,
+    "germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026": thumb_germany_customs_crypto,
 }
 
 def first_figure_source(slug: str) -> Path | None:

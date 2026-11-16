@@ -1,0 +1,60 @@
+title: Bundestag beschließt: Zoll soll Krypto über 100.000 € bei unklarer Herkunft sicherstellen dürfen
+page_title: Bundestag gibt dem Zoll neue Befugnisse für Krypto über 100.000 € mit zweifelhafter Herkunft
+description: Der Bundestag hat eine Zollreform beschlossen, nach der Krypto und andere Vermögenswerte über 100.000 € bis zu 180 Tage sichergestellt werden könnten, wenn ihre legale Herkunft zweifelhaft ist, auch ohne Strafverfahren. Der Bundesrat muss noch zustimmen.
+og_description: Der Bundestag hat am 12. November ein Gesetz beschlossen, nach dem der Zoll Krypto über 100.000 € mit zweifelhafter Herkunft bis zu 180 Tage ohne Strafverfahren sicherstellen könnte. Über eine endgültige Einziehung müsste ein Gericht entscheiden, und der Bundesrat muss noch zustimmen.
+label: Regulierung
+summary: Der Bundestag hat eine Zollreform beschlossen, nach der Krypto und andere Vermögenswerte über 100.000 € mit zweifelhafter Herkunft bis zu 180 Tage sichergestellt werden könnten, auch ohne Strafverfahren. Über eine endgültige Einziehung entscheidet ein Gericht, der Bundesrat muss noch zustimmen.
+===
+
+Der Bundestag hat neue Befugnisse beschlossen, mit denen Zollbeamte Krypto und andere wertvolle Vermögenswerte einfrieren könnten, wenn der Eigentümer nicht plausibel erklären kann, woher sie stammen, auch wenn kein Strafverfahren eröffnet wurde. Das Parlament verabschiedete das Gesetz am Donnerstag, 12. November. Es soll am 1. Januar 2027 in Kraft treten, sofern der Bundesrat als Vertretung der Länder zustimmt, berichtet [AltcoinReporter](L4).
+
+Die Regelung gilt für Vermögenswerte über <strong>100.000 €</strong> und erfasst Kryptowerte im Sinne der EU-Verordnung MiCA. Beiträge, die am Wochenende in sozialen Netzwerken kursierten, erweckten den Eindruck, die Regel gelte bereits. Das ist nicht der Fall.
+
+!takeaways
+- Der Bundestag hat die Zollreform am 12. November mit den Stimmen von CDU/CSU, SPD und AfD beschlossen, Die Linke stimmte dagegen, die Grünen enthielten sich.
+- Der Zoll könnte Krypto und andere Vermögenswerte über 100.000 € 30 Tage sicherstellen, wenn die legale Herkunft zweifelhaft ist, ein Finanzgericht könnte die Frist um 150 Tage verlängern.
+- Über eine endgültige Einziehung müsste ein mit mehreren Richtern besetzter Spruchkörper eines Finanzgerichts entscheiden.
+- Der Bundesrat, die Länderkammer, muss vor dem geplanten Start am 1. Januar 2027 noch zustimmen.
+
+!figure:timeline
+
+## Was das Gesetz regelt
+
+Das Zollfinanzgerechtigkeitsgesetz (ZFG) baut vor allem die Zollverwaltung mit knapp 49.000 Beschäftigten um, wie das [Bundesfinanzministerium](L3) beim Kabinettsbeschluss im August mitteilte. Der umstrittenste Teil ist ein neues Verwaltungsverfahren, mit dem „bedeutsame“ Vermögensgegenstände mit zweifelhafter legaler Herkunft außerhalb eines Strafverfahrens ermittelt und sichergestellt werden können, berichtete der [Spiegel](L1).
+
+Als bedeutsam gilt ein Vermögensgegenstand ab einem Wert von mehr als 100.000 €, bei registerpflichtigen Gütern wie Immobilien, Autos, Schiffen oder Flugzeugen ab mehr als 50.000 €. Für Krypto gibt es kein solches Register, deshalb gilt die Grenze von 100.000 €, und der Wert darf geschätzt werden, erläuterte [CryptoCompass](L5) nach Durchsicht des Gesetzestextes.
+
+Bundesfinanzminister Lars Klingbeil brachte die Idee beim Kabinettsbeschluss deutlich auf den Punkt: Wenn Verdächtige nicht nachweisen können, dass sie Vermögenswerte legal erworben haben, „sind der Porsche oder die Rolex erstmal weg“.
+
+## Wie eine Sicherstellung ablaufen würde
+
+Der Zoll könnte einen Vermögensgegenstand bis zu 30 Tage sicherstellen, um seine Herkunft zu klären. Ein Einzelrichter am Finanzgericht könnte diese Frist einmal um 150 Tage verlängern, insgesamt also auf höchstens 180 Tage. Bei Krypto würde die Sicherstellung dem Inhaber verbieten, die Coins zu verkaufen oder zu bewegen.
+
+Die Beamten würden prüfen, ob ein legaler Erwerb insgesamt plausibel ist, etwa ob das Einkommen des Inhabers zum Wert passt und ob sich die Herkunft der Mittel nachvollziehen lässt, berichtet AltcoinReporter. Am 11. November änderte der Finanzausschuss des Bundestags den Entwurf so, dass über die endgültige Einziehung ein Gremium von Finanzrichtern und nicht mehr ein Einzelrichter entscheidet, so [NWB](L2).
+
+!mid_cta
+
+!figure:fact
+
+## Wen es tatsächlich trifft
+
+Die Befugnis ist enger, als viele Wochenend-Beiträge nahelegten. Laut den Erläuterungen der Regierung, wie AltcoinReporter sie zusammenfasst, geht es um Vermögenswerte, auf die der Zoll bei seiner eigenen Arbeit stößt, etwa bei Kontrollen von Waren und Bargeld an der Grenze, bei Zollermittlungen und bei der Finanzkontrolle Schwarzarbeit. Eine Hardware-Wallet, die bei einer Grenzkontrolle gefunden wird, könnte darunter fallen. Coins in Eigenverwahrung zu Hause dagegen nicht, solange der Zoll nicht im Rahmen dieser Arbeit auf sie stößt.
+
+Die Regierung rechnet ab 2028 mit Einnahmen von rund 308 Millionen Euro pro Jahr und unterstellt dabei eine Erfolgsquote von etwa 50 Prozent, berichtete der Spiegel und wies darauf hin, dass es keine Statistik zu Vermögen unrechtmäßiger Herkunft gibt. Der Grünen-Abgeordnete Max Lucks hielt dagegen, die Summe entspreche nur etwa 0,3 % der rund 100 Milliarden Euro, die in Deutschland jedes Jahr gewaschen werden.
+
+## Was das für Einsteiger bedeutet
+
+Für Anlegerinnen und Anleger in Deutschland ändert sich vorerst nichts: Das Gesetz ist noch nicht in Kraft und betrifft nur Fälle, die dem Zoll bei seiner Arbeit begegnen. Es zeigt aber einen klaren Trend: Behörden erwarten, dass Krypto-Besitzer belegen können, woher ihr Geld stammt. Gute Unterlagen sind der einfachste Schutz. Bewahren Sie Kaufbestätigungen und Banküberweisungen auf und laden Sie Ihre Transaktionshistorie regelmäßig herunter. Regulierte Börsen wie [Coinbase](REF) bieten den Export von Kontoauszügen an, was auch bei der Steuererklärung hilft. Dies ist keine Rechts- oder Anlageberatung.
+
+## Worauf man jetzt achten sollte
+
+- Ob der Bundesrat das Gesetz in seiner Sitzung am 20. November oder am 18. Dezember behandelt.
+- Die Verkündung im Bundesgesetzblatt und die gestaffelten Starttermine.
+- Wie der Zoll schwankende Werte wie Bitcoin bei der Grenze von 100.000 € bewerten will.
+- Ein separates deutsches Gesetz zum Austausch von Krypto-Steuerdaten nach dem OECD-Meldestandard.
+
+!soft: Verwahren Sie Ihre Coins selbst? Lesen Sie [was eine Krypto-Wallet ist: verwahrt oder selbst verwahrt](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

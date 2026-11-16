@@ -1,0 +1,60 @@
+title: Luxor affirme que des pirates ont détourné des mineurs de bitcoin via son logiciel Commander
+page_title: Faille Luxor Commander : des mineurs de bitcoin détournés ont envoyé environ 13 EH/s au pool OCEAN
+description: La société de minage de bitcoin Luxor indique que des attaquants ont utilisé son logiciel de gestion Commander pour rediriger des machines de clients vers un autre pool samedi soir. Selon les estimations, environ 13 EH/s ont été détournés. Luxor a corrigé la faille en deux heures et promet de rembourser intégralement ses clients.
+og_description: Des attaquants ont utilisé le logiciel Commander de Luxor pour rediriger des machines de minage vers le pool OCEAN samedi soir. Luxor indique qu'un peu plus d'une douzaine de comptes ont été touchés, que la faille a été corrigée en deux heures et que les clients seront payés intégralement.
+label: Sécurité
+summary: Des attaquants ont utilisé le logiciel Commander de Luxor pour diriger des machines de minage de bitcoin vers le pool OCEAN samedi soir ; les estimations évoquent environ 13 EH/s détournés. Luxor dit avoir corrigé la faille en deux heures et promet de payer intégralement les clients touchés.
+===
+
+La société de minage de bitcoin Luxor Technology a confirmé que des attaquants se sont introduits dans Commander, son logiciel de gestion de parcs de machines de minage, et ont discrètement redirigé les machines de certains clients vers un autre pool de minage samedi soir. L'entreprise a déclaré dimanche avoir corrigé la faille en moins de deux heures et qu'elle paiera chaque client touché pour le travail perdu, selon [Bitcoin.com News](L1).
+
+Les premiers signalements, lancés par l'hébergeur CoreX Hosting, estimaient qu'environ <strong>64 000 machines</strong> représentant près de <strong>13 exahashs par seconde (EH/s)</strong> de puissance de calcul avaient été redirigées vers le pool OCEAN. Ces chiffres n'ont pas été confirmés de manière indépendante. Aucun bitcoin n'a été retiré d'un portefeuille, et le réseau Bitcoin lui-même n'a pas été piraté.
+
+!takeaways
+- Les attaquants ont modifié les réglages de pool de machines gérées avec le logiciel Commander de Luxor à partir d'environ 20 h, heure du Centre des États-Unis, le samedi 14 novembre.
+- Les signalements évoquent environ 13 EH/s détournés depuis quelque 64 000 machines, des chiffres que Luxor n'a pas confirmés.
+- Luxor indique qu'un peu plus d'une douzaine de comptes clients ont été touchés, que Commander a été corrigé en deux heures et qu'aucune donnée client n'a quitté ses systèmes.
+- Chaque client touché sera payé intégralement « comme s'il avait miné normalement », selon Luxor.
+
+!figure:chart
+
+## Ce qui s'est passé
+
+Les machines de minage gagnent des bitcoins en rejoignant un pool, un groupe qui met en commun la puissance de calcul et partage les récompenses. Chaque machine reçoit l'indication du pool pour lequel elle travaille et de l'adresse qui doit être payée. Selon [Crypto Briefing](L2), quelqu'un a modifié ces réglages sur un grand nombre de machines vers 20 h, heure du Centre des États-Unis, le 14 novembre, en envoyant leur puissance vers OCEAN et en fixant comme adresse de paiement une adresse contrôlée par l'attaquant.
+
+Le changement est vite apparu dans les données publiques. Le hashrate affiché par OCEAN a bondi à environ 50 EH/s avant de se stabiliser près de 40 EH/s. CoreX Hosting, qui a repéré les modifications non autorisées, a ensuite indiqué que la puissance détournée était retombée à environ 100 pétahashs par seconde (PH/s), une infime fraction du pic, selon [TokenPost](L3).
+
+Pour donner une échelle, l'ensemble du réseau Bitcoin tournait dimanche à environ 930 EH/s, selon [mempool.space](L5). Les 13 EH/s représenteraient donc environ 1,4 % de toute la puissance de minage, un volume important pour un seul incident.
+
+## La réaction de Luxor
+
+Dans un message sur X, Luxor a expliqué que sa surveillance interne avait détecté « une redirection non autorisée de hashrate via Commander » et que ses ingénieurs d'astreinte étaient intervenus immédiatement. « Impact : un peu plus d'une douzaine de comptes clients. Les machines touchées ont été dirigées vers un autre pool pendant une période limitée. Aucune donnée n'a fuité ni été exfiltrée de nos systèmes », a écrit l'entreprise. Elle précise que son pool de minage et son firmware LuxOS n'ont pas été touchés.
+
+Le PDG, Nick Hansen, a indiqué que l'attaque avait commencé vers 18 h, heure du Pacifique, samedi, et était passée « par un vecteur sophistiqué s'appuyant sur l'IA ». Luxor n'a pas encore expliqué son fonctionnement et a promis une analyse complète de l'incident. « Je vous présente mes excuses. Vous nous confiez votre parc et nous devons faire mieux », a écrit Hansen, selon Bitcoin.com News.
+
+!mid_cta
+
+!figure:fact
+
+## L'attaquant a-t-il été payé ?
+
+Probablement très peu, voire rien. OCEAN n'a trouvé aucun bloc avec la puissance détournée, donc aucune récompense de bloc complète n'est allée à l'adresse de l'attaquant. Le tableau de bord d'OCEAN affichait environ 0,657 bitcoin de gains estimés pour cette adresse, mais les données de la blockchain ne montraient aucun paiement confirmé, selon [The Crypto News Feed](L4) et Bitcoin.com News. Les vrais perdants sont les mineurs, dont les machines ont passé une partie de la nuit de samedi à travailler pour quelqu'un d'autre. Luxor affirme qu'elle couvrira ce manque à gagner pour ses clients touchés.
+
+## Ce que cela signifie pour les débutants
+
+Si vous détenez simplement des bitcoins, cet incident ne met pas vos pièces en danger. Aucune règle de Bitcoin n'a été enfreinte et aucun portefeuille n'a été vidé. Ce qui a cédé, c'est un logiciel professionnel placé entre les entreprises de minage et leur matériel, ce qui montre que les sociétés qui gravitent autour de Bitcoin peuvent avoir des points faibles même quand le réseau tient bon.
+
+Il n'est d'ailleurs pas nécessaire de miner pour détenir du bitcoin. La plupart des débutants achètent de petits montants sur une plateforme réglementée comme [Coinbase](REF) plutôt que de faire tourner des machines, ce qui évite le matériel, les factures d'électricité et ce type de risque. Comparez les frais, activez la connexion en deux étapes et n'investissez que ce que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- L'analyse promise par Luxor expliquant le fonctionnement de l'attaque « s'appuyant sur l'IA ».
+- Un décompte officiel du nombre de machines et du hashrate touchés.
+- Un éventuel renforcement de la sécurité des autres outils de gestion de minage après cette faille.
+- Tout signe que l'adresse de l'attaquant reçoit un paiement d'OCEAN.
+
+!soft: Vous découvrez comment on conserve des bitcoins ? Lisez [ce qu'est un portefeuille crypto : dépositaire ou auto-garde](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

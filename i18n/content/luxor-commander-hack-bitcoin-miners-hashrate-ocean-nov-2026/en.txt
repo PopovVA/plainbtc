@@ -1,0 +1,60 @@
+title: Luxor says hackers hijacked bitcoin miners through its Commander software
+page_title: Luxor Commander breach: hijacked bitcoin miners sent about 13 EH/s to the OCEAN pool
+description: Bitcoin mining firm Luxor says attackers used its Commander fleet software to point customers' machines at another pool on Saturday night. Reports put the redirected power near 13 EH/s. Luxor patched the flaw within two hours and says it will pay clients in full.
+og_description: Attackers used Luxor's Commander software to redirect mining machines to the OCEAN pool on Saturday night. Luxor says just over a dozen client accounts were hit, the flaw was patched within two hours, and clients will be paid in full.
+label: Security
+summary: Attackers used Luxor's Commander fleet software to point bitcoin mining machines at the OCEAN pool on Saturday night, with reports putting the redirected power near 13 EH/s. Luxor says it patched the flaw within two hours and will pay affected clients in full.
+===
+
+Bitcoin mining company Luxor Technology has confirmed that attackers broke into Commander, its software for managing fleets of mining machines, and quietly pointed some customers' machines at a different mining pool on Saturday night. The company said on Sunday that it fixed the flaw within two hours and will pay every affected client for the lost work, [Bitcoin.com News](L1) reported.
+
+Early reports, first raised by hosting firm CoreX Hosting, estimated that about <strong>64,000 machines</strong> with roughly <strong>13 exahashes per second (EH/s)</strong> of computing power were redirected to the OCEAN pool. Those figures have not been independently confirmed. No bitcoin was taken from anyone's wallet, and the Bitcoin network itself was not hacked.
+
+!takeaways
+- Attackers changed pool settings on mining machines run through Luxor's Commander software starting around 8 p.m. Central time on Saturday, Nov. 14.
+- Reports put the redirected power at about 13 EH/s from roughly 64,000 machines, numbers Luxor has not confirmed.
+- Luxor says just over a dozen client accounts were affected, it patched Commander within two hours, and no customer data left its systems.
+- Every affected client will be paid in full "as if it had mined normally," Luxor says.
+
+!figure:chart
+
+## What happened
+
+Mining machines earn bitcoin by joining a pool, a group that combines computing power and splits the rewards. Each machine is told which pool to work for and which address should get paid. According to [Crypto Briefing](L2), someone changed those settings on a large number of machines at about 8 p.m. Central time on Nov. 14, sending their power to OCEAN and setting the payout to an address the attacker controlled.
+
+The change showed up quickly in public data. OCEAN's reported hashrate jumped to about 50 EH/s before settling near 40 EH/s. CoreX Hosting, which spotted the unauthorized changes, later said the diverted power had dropped to about 100 petahashes per second (PH/s), a tiny fraction of the peak, [TokenPost](L3) reported.
+
+For scale, the whole Bitcoin network was running at about 930 EH/s on Sunday, according to [mempool.space](L5). That means 13 EH/s would be roughly 1.4% of all mining power, a large amount for one incident.
+
+## Luxor's response
+
+In a statement on X, Luxor said its internal monitoring caught "an unauthorized redirect of hashrate through Commander" and that its on-call engineers moved right away. "Impact: just over a dozen client accounts. Affected machines were pointed to a different pool for a limited window. No data was leaked or exfiltrated from our systems," the company wrote. It said its mining pool and its LuxOS firmware were not affected.
+
+Chief executive Nick Hansen said the attack began around 6 p.m. Pacific time on Saturday and came "through a sophisticated AI-enabled vector." Luxor has not yet explained how that worked and promised a full post-mortem. "I apologize. You trust us with your fleet, and we need to be better," Hansen wrote, according to Bitcoin.com News.
+
+!mid_cta
+
+!figure:fact
+
+## Did the attacker get paid?
+
+Probably very little, if anything. OCEAN did not find a block with the hijacked power, so no full block reward went to the attacker's address. OCEAN's dashboard showed about 0.657 bitcoin in estimated earnings for that address, but blockchain records showed no confirmed payment to it, [The Crypto News Feed](L4) and Bitcoin.com News reported. The real losers are the miners, whose machines spent part of Saturday night earning for someone else. Luxor says it will cover that lost revenue for its affected clients.
+
+## What it means for beginners
+
+If you simply own bitcoin, this incident does not put your coins at risk. Nothing about Bitcoin's rules was broken, and no wallets were drained. What failed was business software that sits between mining companies and their hardware, which shows that the companies around Bitcoin can have weak spots even when the network itself holds up.
+
+You also do not need to mine to own bitcoin. Most beginners buy small amounts through a regulated exchange such as [Coinbase](REF) instead of running machines, which avoids hardware, power bills and this kind of fleet risk. Compare fees, turn on two-step login, and only invest what you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Luxor's promised post-mortem explaining how the "AI-enabled" attack worked.
+- An official count of how many machines and how much hashrate were affected.
+- Whether other mining-management tools tighten their security after this breach.
+- Any sign that the attacker's address receives a payout from OCEAN.
+
+!soft: New to how bitcoin is stored? Read [what a crypto wallet is, custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

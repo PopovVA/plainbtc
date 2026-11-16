@@ -8,6 +8,22 @@
     <lastBuildDate>Sun, 15 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/fr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Luxor affirme que des pirates ont détourné des mineurs de bitcoin via son logiciel Commander</title>
+      <link>https://plainbtc.com/fr/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026</guid>
+      <pubDate>Sun, 15 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Sécurité</category>
+      <description>Des attaquants ont utilisé le logiciel Commander de Luxor pour diriger des machines de minage de bitcoin vers le pool OCEAN samedi soir ; les estimations évoquent environ 13 EH/s détournés. Luxor dit avoir corrigé la faille en deux heures et promet de payer intégralement les clients touchés.</description>
+    </item>
+    <item>
+      <title>L'Allemagne vote pour permettre à la douane de saisir les cryptos de plus de 100 000 € d'origine floue</title>
+      <link>https://plainbtc.com/fr/articles/germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026</guid>
+      <pubDate>Sun, 15 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Réglementation</category>
+      <description>Le Bundestag a adopté une réforme des douanes qui permettrait de retenir jusqu'à 180 jours des cryptos et autres biens de plus de 100 000 € d'origine douteuse, même sans procédure pénale. Un tribunal devrait valider toute confiscation définitive, et les Länder doivent encore donner leur accord.</description>
+    </item>
+    <item>
       <title>La plateforme coréenne Coinone affirme qu'un pirate a dérobé des données du support pouvant inclure des mots de passe</title>
       <link>https://plainbtc.com/fr/articles/coinone-data-breach-support-contractor-passwords-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/fr/articles/coinone-data-breach-support-contractor-passwords-nov-2026</guid>

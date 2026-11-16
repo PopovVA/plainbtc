@@ -32,6 +32,16 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026",
+        "Luxor says hackers hijacked bitcoin miners through its Commander software",
+        "SECURITY",
+    ),
+    (
+        "germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026",
+        "Germany votes to let customs seize crypto over €100,000 when its origin is unclear",
+        "REGULATION",
+    ),
+    (
         "coinone-data-breach-support-contractor-passwords-nov-2026",
         "Korean exchange Coinone says a hacker took support data that may include passwords",
         "SECURITY",
@@ -220,6 +230,17 @@ ARTICLES = [
 # used for identification only). Each entry: (image URL, tile background RGB).
 WIKI = "https://upload.wikimedia.org/wikipedia/commons/"
 OG_LOGOS: dict[str, list[tuple[str, tuple[int, int, int]]]] = {
+    # Luxor logo cropped from Luxor's own official share image (luxor.tech og:image) and the OCEAN
+    # logotype from ocean.xyz (white on dark), identification only.
+    "luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026": [
+        ("https://storage.googleapis.com/luxcorp-assets/images/corp-site-premium/product-banners/default-og.png#crop=250,226,934,400", (10, 10, 10)),
+        ("https://ocean.xyz/static/assets/home/logotype.svg", (10, 22, 40)),
+    ],
+    # Deutscher Bundestag logo and German customs (Zoll) logo, both public domain on Wikimedia Commons.
+    "germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026": [
+        (WIKI + "b/b5/Deutscher_Bundestag_logo.svg", (255, 255, 255)),
+        (WIKI + "1/11/Zoll.svg", (255, 255, 255)),
+    ],
     # Coinone logo cropped from Coinone's own official share image (image-public.coinone.co.kr), identification only.
     "coinone-data-breach-support-contractor-passwords-nov-2026": [
         ("https://image-public.coinone.co.kr/og/og_talk.png#crop=261,233,917,380", (0, 68, 210)),

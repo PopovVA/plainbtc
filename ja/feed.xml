@@ -8,6 +8,22 @@
     <lastBuildDate>Sun, 15 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Luxor、ハッカーが同社ソフト「Commander」経由でビットコイン採掘機を乗っ取ったと発表</title>
+      <link>https://plainbtc.com/ja/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026</guid>
+      <pubDate>Sun, 15 Nov 2026 12:00:00 GMT</pubDate>
+      <category>セキュリティ</category>
+      <description>攻撃者が土曜夜、Luxorの管理ソフト「Commander」を使ってビットコイン採掘機をOCEANプールに向けた。転用された計算能力は約13 EH/sと報じられている。Luxorは2時間以内に脆弱性を修正し、被害を受けた顧客に全額を支払うとしている。</description>
+    </item>
+    <item>
+      <title>ドイツ連邦議会、出所不明の10万ユーロ超の暗号資産を税関が差し押さえられる法案を可決</title>
+      <link>https://plainbtc.com/ja/articles/germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026</guid>
+      <pubDate>Sun, 15 Nov 2026 12:00:00 GMT</pubDate>
+      <category>規制</category>
+      <description>ドイツ連邦議会は、出所が疑わしい10万ユーロ超の暗号資産などの資産を刑事手続きなしでも最長180日間差し押さえられる税関改革法を可決した。最終的な没収には裁判所の判断が必要で、州の同意もまだ必要だ。</description>
+    </item>
+    <item>
       <title>韓国の取引所Coinone、ハッカーがパスワードを含む可能性のあるサポート記録を持ち出したと発表</title>
       <link>https://plainbtc.com/ja/articles/coinone-data-breach-support-contractor-passwords-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/ja/articles/coinone-data-breach-support-contractor-passwords-nov-2026</guid>

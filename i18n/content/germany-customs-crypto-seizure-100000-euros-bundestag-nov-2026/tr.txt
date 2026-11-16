@@ -1,0 +1,60 @@
+title: Almanya, gümrüğe kaynağı belirsiz 100.000 euro üzeri kriptoya el koyma yetkisi veren yasayı kabul etti
+page_title: Federal Meclis, Alman gümrüğüne kaynağı şüpheli 100.000 euro üzeri kriptoya el koyma yetkisi verdi
+description: Alman parlamentosu, yasal kaynağı şüpheli olan 100.000 euro üzerindeki kripto ve diğer varlıkların ceza davası olmasa bile 180 güne kadar tutulmasına imkân tanıyan bir gümrük reformunu kabul etti. Eyaletlerin de onay vermesi gerekiyor.
+og_description: Almanya Federal Meclisi 12 Kasım'da, gümrüğün kaynağı şüpheli 100.000 euro üzeri kriptoyu ceza davası olmadan 180 güne kadar tutabilmesini sağlayan bir yasayı kabul etti. Kalıcı el koyma için mahkeme kararı gerekiyor ve eyaletlerin onayı hâlâ bekleniyor.
+label: Düzenleme
+summary: Almanya Federal Meclisi, kaynağı şüpheli 100.000 euro üzeri kripto ve diğer varlıkların ceza davası olmasa bile 180 güne kadar tutulmasına imkân veren gümrük reformunu kabul etti. Kalıcı el koyma için mahkeme kararı gerekiyor, eyaletlerin de onay vermesi gerekiyor.
+===
+
+Almanya parlamentosu, sahibi varlığın nereden geldiğini makul biçimde açıklayamadığında gümrük memurlarının kripto ve diğer değerli varlıkları dondurmasına imkân tanıyan yeni yetkileri, açılmış bir ceza davası olmasa bile, onayladı. [AltcoinReporter](L4)'a göre Federal Meclis (Bundestag) yasayı 12 Kasım perşembe günü kabul etti; eyaletleri temsil eden Federal Konsey (Bundesrat) onaylarsa yasanın 1 Ocak 2027'de yürürlüğe girmesi planlanıyor.
+
+Düzenleme <strong>100.000 euro</strong> üzerindeki varlıklara uygulanıyor ve AB'nin MiCA kurallarında tanımlanan kripto varlıkları kapsıyor. Bu hafta sonu sosyal medyada yayılan paylaşımlar kuralın şimdiden yürürlükte olduğu izlenimini verdi. Öyle değil.
+
+!takeaways
+- Federal Meclis gümrük reformunu 12 Kasım'da CDU/CSU, SPD ve AfD'nin evet, Sol Parti'nin hayır oyuyla ve Yeşiller'in çekimser kalmasıyla kabul etti.
+- Gümrük, yasal kaynağı şüpheli 100.000 euro üzeri kripto ve diğer varlıkları 30 gün tutabilecek; bir maliye mahkemesi bu süreyi 150 gün uzatabilecek.
+- Kalıcı el koyma için maliye mahkemesinde birden fazla hâkimden oluşan bir heyetin kararı gerekecek.
+- Eyaletler meclisi olan Federal Konsey'in, planlanan 1 Ocak 2027 başlangıcından önce onay vermesi gerekiyor.
+
+!figure:timeline
+
+## Yasa ne getiriyor?
+
+Gayriresmî olarak Zollfinanzgerechtigkeitsgesetz (ZFG) diye anılan yasa, ağırlıklı olarak 49.000'e yakın çalışanı bulunan Alman gümrük idaresini yeniden yapılandırıyor; bunu kabine tasarıyı ağustosta onayladığında [Maliye Bakanlığı](L3) açıklamıştı. [Der Spiegel](L1)'in aktardığına göre en çok tartışılan bölüm, yasal kaynağı şüpheli "önemli" varlıkların herhangi bir ceza davası dışında soruşturulup güvence altına alınmasını sağlayan yeni bir idari prosedür.
+
+Bir varlık, değeri 100.000 euroyu aşıyorsa ya da gayrimenkul, otomobil, gemi veya uçak gibi kamu siciline kaydı zorunlu bir varlıksa 50.000 euroyu aşıyorsa önemli sayılıyor. Kripto için böyle bir sicil olmadığından 100.000 euro sınırı geçerli ve memurlar değeri tahmin edebiliyor; bunu yasa metnini inceleyen [CryptoCompass](L5) açıkladı.
+
+Maliye Bakanı Lars Klingbeil, kabine planı desteklediğinde fikri açıkça özetlemişti: şüpheliler varlıkları yasal yollarla edindiklerini kanıtlayamazsa "Porsche ya da Rolex şimdilik gider."
+
+## El koyma nasıl işleyecek?
+
+Gümrük, bir varlığın kaynağını araştırmak için onu en fazla 30 gün güvence altına alabilecek. Maliye mahkemesindeki tek bir hâkim bu süreyi bir kez 150 gün uzatabilecek, böylece süre en fazla 180 güne çıkacak. Kriptoda el koyma, sahibinin coinleri satmasını ya da taşımasını engelleyecek.
+
+AltcoinReporter'a göre memurlar, yasal bir alımın genel olarak makul görünüp görünmediğini; örneğin sahibinin gelirinin varlığın değeriyle uyuşup uyuşmadığını ve fonların kaynağının izlenip izlenemediğini değerlendirecek. [NWB](L2)'ye göre Federal Meclis maliye komisyonu 11 Kasım'da metni değiştirerek kalıcı el koymaya tek hâkim yerine bir hâkimler heyetinin karar vermesini sağladı.
+
+!mid_cta
+
+!figure:fact
+
+## Kimleri gerçekten etkiliyor?
+
+Yetki, hafta sonundaki pek çok paylaşımın ima ettiğinden daha dar. AltcoinReporter'ın özetlediği hükümet açıklamalarına göre kapsam, gümrüğün kendi çalışmaları sırasında karşılaştığı varlıklar: sınırda mal ve nakit kontrolleri, gümrük soruşturmaları ve kayıt dışı çalışmayı denetleyen birim gibi. Sınır kontrolünde bulunan bir donanım cüzdanı kapsama girebilir. Evde kendi saklamanızdaki coinler ise, gümrük bunlara bu çalışmalar sırasında rastlamadıkça kapsam dışında kalır.
+
+Der Spiegel'in aktardığına göre hükümet, davaların yaklaşık yarısının başarılı olacağını varsayarak prosedürün 2028'den itibaren yılda yaklaşık 308 milyon euro getirmesini bekliyor; gazete, yasa dışı kaynaklı varlıklara dair resmî istatistik bulunmadığını da not etti. Yeşiller milletvekili Max Lucks ise bu tutarın Almanya'da her yıl aklanan yaklaşık 100 milyar euronun sadece %0,3'ü kadar olduğunu savundu.
+
+## Yeni başlayanlar için ne anlama geliyor?
+
+Bu bir Alman yasası ve başka ülkelerde yaşayanlar için hiçbir şeyi değiştirmiyor. Ancak daha geniş bir eğilime işaret ediyor: devletler, kripto sahiplerinin paralarının nereden geldiğini gösterebilmesini istiyor. İyi kayıt tutmak en basit korumadır. Alım onaylarınızı ve banka havalelerinizi saklayın, işlem geçmişinizi düzenli olarak indirin. [Coinbase](REF) gibi düzenlemeye tabi borsalar hesap dökümlerini dışa aktarmanıza izin veriyor; bu, vergi döneminde de işinize yarar. Bu bir hukuki ya da yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı?
+
+- Federal Konsey'in yasayı 20 Kasım ya da 18 Aralık oturumunda ele alıp almayacağı.
+- Federal Resmî Gazete'de yayımlanması ve kademeli yürürlük tarihleri.
+- Gümrüğün 100.000 euro sınırını uygularken bitcoin gibi oynak varlıkları nasıl değerleyeceği.
+- OECD raporlama çerçevesi kapsamında kripto vergi verilerinin paylaşımına ilişkin ayrı bir Alman yasası.
+
+!soft: Coinlerinizi kendiniz mi saklıyorsunuz? [Kripto cüzdan nedir, emanetli ve kendi saklama](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

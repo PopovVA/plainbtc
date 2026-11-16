@@ -1,0 +1,60 @@
+title: Luxor sebut peretas membajak mesin penambang bitcoin lewat perangkat lunak Commander
+page_title: Pembobolan Luxor Commander: penambang bitcoin yang dibajak mengirim sekitar 13 EH/s ke pool OCEAN
+description: Perusahaan penambangan bitcoin Luxor mengatakan penyerang memakai perangkat lunak manajemen Commander miliknya untuk mengalihkan mesin klien ke pool lain pada Sabtu malam. Laporan menaksir daya yang dialihkan sekitar 13 EH/s. Luxor menambal celah itu dalam dua jam dan berjanji membayar penuh kliennya.
+og_description: Penyerang memakai perangkat lunak Commander milik Luxor untuk mengalihkan mesin penambangan ke pool OCEAN pada Sabtu malam. Luxor mengatakan sedikit lebih dari selusin akun terdampak, celahnya ditambal dalam dua jam, dan klien akan dibayar penuh.
+label: Keamanan
+summary: Penyerang memakai perangkat lunak Commander milik Luxor untuk mengarahkan mesin penambangan bitcoin ke pool OCEAN pada Sabtu malam; laporan menyebut sekitar 13 EH/s dialihkan. Luxor mengatakan celahnya ditambal dalam dua jam dan klien yang terdampak akan dibayar penuh.
+===
+
+Perusahaan penambangan bitcoin Luxor Technology mengonfirmasi bahwa penyerang membobol Commander, perangkat lunak miliknya untuk mengelola armada mesin penambangan, lalu diam-diam mengarahkan mesin sebagian klien ke pool penambangan lain pada Sabtu malam. Perusahaan itu mengatakan pada hari Minggu bahwa celah tersebut sudah ditambal dalam dua jam dan setiap klien yang terdampak akan dibayar atas kerja yang hilang, lapor [Bitcoin.com News](L1).
+
+Laporan awal, yang pertama kali diangkat oleh perusahaan hosting CoreX Hosting, memperkirakan sekitar <strong>64.000 mesin</strong> dengan daya komputasi kira-kira <strong>13 exahash per detik (EH/s)</strong> dialihkan ke pool OCEAN. Angka itu belum dikonfirmasi secara independen. Tidak ada bitcoin yang diambil dari dompet siapa pun, dan jaringan Bitcoin sendiri tidak diretas.
+
+!takeaways
+- Penyerang mengubah pengaturan pool pada mesin yang dikelola lewat perangkat lunak Commander milik Luxor mulai sekitar pukul 8 malam waktu Tengah AS pada Sabtu, 14 November.
+- Laporan menaksir daya yang dialihkan sekitar 13 EH/s dari kira-kira 64.000 mesin, angka yang belum dikonfirmasi Luxor.
+- Luxor mengatakan sedikit lebih dari selusin akun klien terdampak, Commander ditambal dalam dua jam, dan tidak ada data klien yang keluar dari sistemnya.
+- Setiap klien yang terdampak akan dibayar penuh "seolah-olah menambang seperti biasa", kata Luxor.
+
+!figure:chart
+
+## Apa yang terjadi
+
+Mesin penambangan mendapatkan bitcoin dengan bergabung ke pool, yaitu kelompok yang menggabungkan daya komputasi dan membagi hadiahnya. Setiap mesin diberi tahu pool mana yang dibantunya dan alamat mana yang menerima pembayaran. Menurut [Crypto Briefing](L2), seseorang mengubah pengaturan itu pada banyak mesin sekitar pukul 8 malam waktu Tengah AS pada 14 November, mengirim dayanya ke OCEAN dan menetapkan alamat pembayaran yang dikendalikan penyerang.
+
+Perubahan itu cepat terlihat di data publik. Hashrate OCEAN yang dilaporkan melonjak ke sekitar 50 EH/s sebelum stabil di dekat 40 EH/s. CoreX Hosting, yang mendeteksi perubahan tanpa izin itu, kemudian mengatakan daya yang dialihkan turun ke sekitar 100 petahash per detik (PH/s), hanya sebagian kecil dari puncaknya, lapor [TokenPost](L3).
+
+Sebagai gambaran, seluruh jaringan Bitcoin berjalan di sekitar 930 EH/s pada hari Minggu, menurut [mempool.space](L5). Artinya, 13 EH/s kira-kira setara 1,4% dari seluruh daya penambangan, jumlah yang besar untuk satu insiden.
+
+## Tanggapan Luxor
+
+Dalam pernyataan di X, Luxor mengatakan pemantauan internalnya menangkap "pengalihan hashrate tanpa izin melalui Commander" dan teknisi yang bertugas langsung bergerak. "Dampak: sedikit lebih dari selusin akun klien. Mesin yang terdampak diarahkan ke pool lain untuk waktu terbatas. Tidak ada data yang bocor atau dicuri dari sistem kami," tulis perusahaan itu. Luxor menambahkan bahwa pool penambangan dan firmware LuxOS miliknya tidak terdampak.
+
+CEO Nick Hansen mengatakan serangan dimulai sekitar pukul 6 sore waktu Pasifik pada hari Sabtu dan masuk "melalui vektor canggih yang dibantu AI". Luxor belum menjelaskan cara kerjanya dan menjanjikan analisis insiden secara lengkap. "Saya minta maaf. Anda memercayakan armada Anda kepada kami, dan kami harus lebih baik," tulis Hansen, menurut Bitcoin.com News.
+
+!mid_cta
+
+!figure:fact
+
+## Apakah penyerang mendapat bayaran?
+
+Kemungkinan sangat sedikit, atau tidak sama sekali. OCEAN tidak menemukan blok dengan daya yang dibajak, sehingga tidak ada hadiah blok penuh yang masuk ke alamat penyerang. Dasbor OCEAN menunjukkan perkiraan pendapatan sekitar 0,657 bitcoin untuk alamat itu, tetapi catatan blockchain tidak menunjukkan pembayaran yang terkonfirmasi, lapor [The Crypto News Feed](L4) dan Bitcoin.com News. Yang benar-benar dirugikan adalah para penambang, yang mesinnya menghabiskan sebagian Sabtu malam bekerja untuk orang lain. Luxor mengatakan akan menanggung pendapatan yang hilang itu bagi klien yang terdampak.
+
+## Apa artinya bagi pemula
+
+Jika Anda hanya memiliki bitcoin, insiden ini tidak membahayakan koin Anda. Tidak ada aturan Bitcoin yang dilanggar dan tidak ada dompet yang dikuras. Yang gagal adalah perangkat lunak bisnis yang berada di antara perusahaan tambang dan perangkat kerasnya, yang menunjukkan bahwa perusahaan di sekitar Bitcoin bisa punya titik lemah meski jaringannya tetap kokoh.
+
+Anda juga tidak perlu menambang untuk memiliki bitcoin. Kebanyakan pemula membeli dalam jumlah kecil lewat bursa teregulasi seperti [Coinbase](REF) alih-alih menjalankan mesin, sehingga terhindar dari biaya perangkat keras, tagihan listrik, dan risiko semacam ini. Bandingkan biaya, aktifkan login dua langkah, dan investasikan hanya dana yang sanggup Anda relakan. Ini bukan saran investasi.
+
+## Yang perlu dipantau
+
+- Analisis insiden yang dijanjikan Luxor tentang cara kerja serangan yang "dibantu AI".
+- Hitungan resmi berapa banyak mesin dan berapa besar hashrate yang terdampak.
+- Apakah alat manajemen penambangan lain memperketat keamanannya setelah pembobolan ini.
+- Tanda apa pun bahwa alamat penyerang menerima pembayaran dari OCEAN.
+
+!soft: Baru belajar cara menyimpan bitcoin? Baca [apa itu dompet kripto: kustodian vs simpan sendiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

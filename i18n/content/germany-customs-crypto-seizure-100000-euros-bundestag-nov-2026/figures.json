@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-germany-customs-law.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline: Aug. 12, Germany's federal cabinet approves the customs reform bill; Nov. 12, the Bundestag passes it while the Left votes no and the Greens abstain; Nov. 20 and Dec. 18, the remaining 2026 Bundesrat sessions where the states must consent; Jan. 1, 2027, the planned start date, with some parts staged later",
+      "es": "Cronología: 12 de agosto, el gobierno federal alemán aprueba el proyecto de reforma aduanera; 12 de noviembre, el Bundestag lo aprueba con el voto en contra de La Izquierda y la abstención de Los Verdes; 20 de noviembre y 18 de diciembre, últimas sesiones del Bundesrat en 2026, donde los estados deben dar su visto bueno; 1 de enero de 2027, fecha prevista de entrada en vigor, con algunas partes más tarde",
+      "pt": "Linha do tempo: 12 de agosto, o gabinete federal alemão aprova o projeto de reforma da alfândega; 12 de novembro, o Bundestag aprova o texto, com voto contra da Esquerda e abstenção dos Verdes; 20 de novembro e 18 de dezembro, últimas sessões do Bundesrat em 2026, em que os estados precisam dar aval; 1º de janeiro de 2027, data prevista de vigência, com algumas partes depois",
+      "fr": "Chronologie : 12 août, le gouvernement fédéral allemand adopte le projet de réforme des douanes ; 12 novembre, le Bundestag le vote, Die Linke contre et les Verts abstenus ; 20 novembre et 18 décembre, dernières séances du Bundesrat en 2026, où les Länder doivent donner leur accord ; 1er janvier 2027, entrée en vigueur prévue, certaines parties plus tard",
+      "de": "Zeitleiste: 12. August, das Bundeskabinett beschließt den Entwurf zur Zollreform; 12. November, der Bundestag verabschiedet ihn, Die Linke stimmt dagegen, die Grünen enthalten sich; 20. November und 18. Dezember, die letzten Bundesratssitzungen 2026, die Länder müssen zustimmen; 1. Januar 2027, geplantes Inkrafttreten, einzelne Teile später",
+      "ru": "Хронология: 12 августа федеральное правительство Германии одобряет законопроект о реформе таможни; 12 ноября бундестаг принимает его, Левые против, Зелёные воздержались; 20 ноября и 18 декабря: последние заседания бундесрата в 2026 году, где земли должны дать согласие; 1 января 2027 года: планируемая дата вступления в силу, часть положений позже",
+      "tr": "Zaman çizelgesi: 12 Ağustos, Almanya federal kabinesi gümrük reformu tasarısını onaylıyor; 12 Kasım, Federal Meclis tasarıyı kabul ediyor, Sol Parti hayır oyu veriyor, Yeşiller çekimser kalıyor; 20 Kasım ve 18 Aralık, eyaletlerin onay vermesi gereken 2026'daki son Federal Konsey oturumları; 1 Ocak 2027, bazı bölümleri daha sonra olmak üzere planlanan yürürlük tarihi",
+      "id": "Linimasa: 12 Agustus, kabinet federal Jerman menyetujui RUU reformasi bea cukai; 12 November, Bundestag mengesahkannya, partai Kiri menolak dan Partai Hijau abstain; 20 November dan 18 Desember, sidang terakhir Bundesrat pada 2026 tempat negara bagian harus memberi persetujuan; 1 Januari 2027, tanggal mulai berlaku yang direncanakan, dengan beberapa bagian menyusul",
+      "ja": "タイムライン：8月12日、ドイツ連邦政府が税関改革法案を閣議決定。11月12日、連邦議会が可決（左翼党は反対、緑の党は棄権）。11月20日と12月18日、州の同意が必要な連邦参議院の2026年最後の会期。2027年1月1日、施行予定日（一部は後から施行）",
+      "ko": "타임라인: 8월 12일, 독일 연방 내각이 세관 개혁 법안 의결; 11월 12일, 연방하원 통과(좌파당 반대, 녹색당 기권); 11월 20일과 12월 18일, 주 정부 동의가 필요한 연방참사원의 2026년 마지막 회의; 2027년 1월 1일, 시행 예정일(일부 조항은 이후 시행)"
+    },
+    "caption": {
+      "en": "Source: Bundestag, German Finance Ministry, AltcoinReporter",
+      "es": "Fuente: Bundestag, German Finance Ministry, AltcoinReporter",
+      "pt": "Fonte: Bundestag, German Finance Ministry, AltcoinReporter",
+      "fr": "Source : Bundestag, German Finance Ministry, AltcoinReporter",
+      "de": "Quelle: Bundestag, German Finance Ministry, AltcoinReporter",
+      "ru": "Источник: Bundestag, German Finance Ministry, AltcoinReporter",
+      "tr": "Kaynak: Bundestag, German Finance Ministry, AltcoinReporter",
+      "id": "Sumber: Bundestag, German Finance Ministry, AltcoinReporter",
+      "ja": "出典: Bundestag, German Finance Ministry, AltcoinReporter",
+      "ko": "출처: Bundestag, German Finance Ministry, AltcoinReporter"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-germany-180-days.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: German customs could hold assets worth over 100,000 euros of doubtful origin for 30 days, and a finance court can add 150 more, up to 180 days; final confiscation needs a court ruling",
+      "es": "Tarjeta: la aduana alemana podría retener durante 30 días bienes de más de 100.000 euros de origen dudoso, y un tribunal financiero puede sumar otros 150, hasta 180 días; el decomiso definitivo requiere una resolución judicial",
+      "pt": "Cartão: a alfândega alemã poderia reter por 30 dias bens de mais de 100 mil euros de origem duvidosa, e um tribunal financeiro pode somar mais 150, até 180 dias; o confisco definitivo exige decisão judicial",
+      "fr": "Encadré : la douane allemande pourrait retenir pendant 30 jours des avoirs de plus de 100 000 euros d'origine douteuse, et un tribunal des finances peut ajouter 150 jours, soit jusqu'à 180 jours ; la confiscation définitive exige une décision de justice",
+      "de": "Faktenkarte: Der Zoll könnte Vermögen über 100.000 Euro mit zweifelhafter Herkunft 30 Tage sicherstellen, ein Finanzgericht kann 150 Tage anhängen, insgesamt bis zu 180 Tage; die endgültige Einziehung braucht ein Gerichtsurteil",
+      "ru": "Карточка: таможня Германии сможет удерживать активы дороже 100 000 евро сомнительного происхождения 30 дней, а финансовый суд может продлить срок ещё на 150 дней, всего до 180 дней; окончательная конфискация требует решения суда",
+      "tr": "Kart: Alman gümrüğü kaynağı şüpheli, 100.000 eurodan değerli varlıkları 30 gün tutabilecek; bir maliye mahkemesi bu süreye 150 gün ekleyebilir, toplam 180 güne kadar; kalıcı el koyma için mahkeme kararı gerekiyor",
+      "id": "Kartu fakta: bea cukai Jerman dapat menahan aset bernilai lebih dari 100.000 euro yang asal-usulnya diragukan selama 30 hari, dan pengadilan keuangan dapat menambah 150 hari, hingga total 180 hari; penyitaan permanen memerlukan putusan pengadilan",
+      "ja": "カード：ドイツ税関は出所が疑わしい10万ユーロ超の資産を30日間差し押さえられ、財政裁判所はさらに150日延長でき、最長180日。最終的な没収には裁判所の判断が必要",
+      "ko": "카드: 독일 세관은 출처가 의심스러운 10만 유로 초과 자산을 30일간 압류할 수 있고, 재정법원이 150일을 연장할 수 있어 최대 180일. 최종 몰수에는 법원 판결이 필요"
+    },
+    "caption": {
+      "en": "Source: Bundestag bill (Drucksache 21/9136), Nov. 12, 2026",
+      "es": "Fuente: Bundestag bill (Drucksache 21/9136), Nov. 12, 2026",
+      "pt": "Fonte: Bundestag bill (Drucksache 21/9136), Nov. 12, 2026",
+      "fr": "Source : Bundestag bill (Drucksache 21/9136), Nov. 12, 2026",
+      "de": "Quelle: Bundestag bill (Drucksache 21/9136), Nov. 12, 2026",
+      "ru": "Источник: Bundestag bill (Drucksache 21/9136), Nov. 12, 2026",
+      "tr": "Kaynak: Bundestag bill (Drucksache 21/9136), Nov. 12, 2026",
+      "id": "Sumber: Bundestag bill (Drucksache 21/9136), Nov. 12, 2026",
+      "ja": "出典: Bundestag bill (Drucksache 21/9136), Nov. 12, 2026",
+      "ko": "출처: Bundestag bill (Drucksache 21/9136), Nov. 12, 2026"
+    }
+  }
+]

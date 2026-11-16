@@ -1,0 +1,60 @@
+title: Alemania vota para que la aduana pueda incautar cripto de más de 100.000 € cuyo origen no esté claro
+page_title: El Bundestag aprueba que la aduana alemana incaute cripto de más de 100.000 € de origen dudoso
+description: El parlamento alemán aprobó una reforma aduanera que permitiría retener cripto y otros bienes de más de 100.000 € durante hasta 180 días cuando su origen legal esté en duda, incluso sin un proceso penal. Los estados federados aún deben darle su visto bueno.
+og_description: El Bundestag aprobó el 12 de noviembre una ley que permitiría a la aduana retener hasta 180 días cripto de más de 100.000 € de origen dudoso sin un proceso penal. Un tribunal debe aprobar cualquier decomiso definitivo y los estados aún deben dar su visto bueno.
+label: Regulación
+summary: El Bundestag aprobó una reforma aduanera que permitiría retener durante hasta 180 días cripto y otros bienes de más de 100.000 € de origen dudoso, incluso sin proceso penal. Un tribunal debe aprobar el decomiso definitivo y los estados aún deben dar su visto bueno.
+===
+
+El parlamento alemán aprobó nuevos poderes que permitirían a los agentes de aduanas congelar cripto y otros bienes de valor cuando el propietario no pueda explicar de forma creíble de dónde proceden, aunque no se haya abierto ningún caso penal. El Bundestag aprobó la ley el jueves 12 de noviembre y su entrada en vigor está prevista para el 1 de enero de 2027, si la aprueba el Bundesrat, la cámara que representa a los estados federados, según [AltcoinReporter](L4).
+
+La medida se aplica a bienes de más de <strong>100.000 €</strong> e incluye los criptoactivos tal como los define el reglamento europeo MiCA. Publicaciones que circularon este fin de semana en redes sociales daban a entender que la norma ya está en vigor. No lo está.
+
+!takeaways
+- El Bundestag aprobó la reforma aduanera el 12 de noviembre con los votos a favor de CDU/CSU, SPD y AfD, el voto en contra de La Izquierda y la abstención de Los Verdes.
+- La aduana podría retener durante 30 días cripto y otros bienes de más de 100.000 € si su origen legal está en duda, y un tribunal financiero podría ampliar el plazo en 150 días.
+- El decomiso definitivo requeriría una resolución de un tribunal financiero colegiado.
+- El Bundesrat, la cámara de los estados alemanes, todavía debe dar su consentimiento antes de la entrada en vigor prevista para el 1 de enero de 2027.
+
+!figure:timeline
+
+## Qué hace la ley
+
+La ley, conocida como Zollfinanzgerechtigkeitsgesetz (ZFG), reorganiza sobre todo la aduana alemana, que tiene algo menos de 49.000 empleados, según dijo el [Ministerio de Finanzas](L3) cuando el gobierno la aprobó en agosto. Su parte más debatida es un nuevo procedimiento administrativo para investigar y asegurar bienes "significativos" cuyo origen lícito esté en duda, al margen de cualquier caso penal, informó [Der Spiegel](L1).
+
+Un bien se considera significativo si vale más de 100.000 €, o más de 50.000 € si debe inscribirse en un registro público, como inmuebles, coches, barcos o aviones. Las criptomonedas no tienen un registro así, por lo que se aplica el umbral de 100.000 €, y los agentes pueden estimar el valor, explicó [CryptoCompass](L5) tras revisar el texto.
+
+El ministro de Finanzas, Lars Klingbeil, lo resumió sin rodeos cuando el gobierno respaldó el plan: si los sospechosos no pueden demostrar que adquirieron sus bienes legalmente, "el Porsche o el Rolex desaparecen, de entrada".
+
+## Cómo funcionaría una incautación
+
+La aduana podría asegurar un bien durante un máximo de 30 días para investigar su procedencia. Un único juez de un tribunal financiero podría ampliar ese plazo una vez en 150 días, hasta un máximo de 180 días. En el caso de las criptomonedas, la incautación impediría al titular venderlas o moverlas.
+
+Los agentes valorarían si una compra lícita resulta creíble en conjunto, por ejemplo si los ingresos del titular encajan con el valor del bien y si se puede rastrear el origen de los fondos, según AltcoinReporter. El 11 de noviembre, la comisión de finanzas del Bundestag modificó el texto para que el decomiso definitivo lo decida un tribunal de varios jueces y no un juez único, según [NWB](L2).
+
+!mid_cta
+
+!figure:fact
+
+## A quién afecta realmente
+
+El poder es más limitado de lo que sugerían muchas publicaciones del fin de semana. Según las notas del gobierno, resumidas por AltcoinReporter, abarca los bienes que la aduana encuentre en su propio trabajo, como los controles fronterizos de mercancías y efectivo, las investigaciones aduaneras y la unidad que persigue el trabajo no declarado. Una billetera física hallada en un control fronterizo podría entrar en el supuesto. Las monedas guardadas en autocustodia en casa no, salvo que la aduana las encuentre en el curso de ese trabajo.
+
+El gobierno espera que el procedimiento recaude unos 308 millones de euros al año a partir de 2028, suponiendo que aproximadamente la mitad de los casos prosperen, informó Der Spiegel, que señaló que no existen estadísticas oficiales sobre bienes de origen ilícito. El diputado verde Max Lucks sostuvo que esa cifra equivale solo a alrededor del 0,3% de los cerca de 100.000 millones de euros que se blanquean cada año en Alemania.
+
+## Qué significa para los principiantes
+
+Es una ley alemana y no cambia nada para quienes viven en otros países. Pero refleja una tendencia más amplia: los gobiernos quieren que quienes tienen cripto puedan demostrar de dónde sale su dinero. Llevar buenos registros es la protección más sencilla. Guarda las confirmaciones de compra y las transferencias bancarias, y descarga tu historial de operaciones con regularidad. Los exchanges regulados como [Coinbase](REF) permiten exportar extractos, algo que también ayuda a la hora de declarar impuestos. Esto no es asesoramiento legal ni de inversión.
+
+## Qué vigilar ahora
+
+- Si el Bundesrat aborda la ley en su sesión del 20 de noviembre o del 18 de diciembre.
+- Su publicación en el boletín oficial federal y las fechas escalonadas de entrada en vigor.
+- Cómo valorará la aduana activos volátiles como el bitcoin al aplicar el límite de 100.000 €.
+- Una ley alemana aparte sobre el intercambio de datos fiscales de cripto en el marco de la OCDE.
+
+!soft: ¿Guardas tus propias monedas? Lee [qué es una billetera cripto: custodia frente a autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

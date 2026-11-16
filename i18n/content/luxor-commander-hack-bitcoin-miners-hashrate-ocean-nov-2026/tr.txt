@@ -1,0 +1,60 @@
+title: Luxor: Bilgisayar korsanları Commander yazılımı üzerinden bitcoin madencilerini ele geçirdi
+page_title: Luxor Commander ihlali: Ele geçirilen bitcoin madencileri yaklaşık 13 EH/s gücü OCEAN havuzuna yönlendirdi
+description: Bitcoin madencilik şirketi Luxor, saldırganların cumartesi gecesi filo yönetim yazılımı Commander'ı kullanarak müşteri makinelerini başka bir havuza yönlendirdiğini söyledi. Raporlar yönlendirilen gücü yaklaşık 13 EH/s olarak tahmin ediyor. Luxor açığı iki saat içinde kapattı ve müşterilere tam ödeme sözü verdi.
+og_description: Saldırganlar cumartesi gecesi Luxor'un Commander yazılımını kullanarak madencilik makinelerini OCEAN havuzuna yönlendirdi. Luxor bir düzineyi biraz aşan hesabın etkilendiğini, açığın iki saatte kapatıldığını ve müşterilere tam ödeme yapılacağını söylüyor.
+label: Güvenlik
+summary: Saldırganlar cumartesi gecesi Luxor'un Commander yazılımıyla bitcoin madencilik makinelerini OCEAN havuzuna yönlendirdi; raporlara göre yaklaşık 13 EH/s güç saptırıldı. Luxor açığı iki saat içinde kapattığını ve etkilenen müşterilere tam ödeme yapacağını söylüyor.
+===
+
+Bitcoin madencilik şirketi Luxor Technology, saldırganların madencilik makinesi filolarını yönetmek için kullandığı yazılım Commander'a sızdığını ve cumartesi gecesi bazı müşterilerin makinelerini sessizce başka bir madencilik havuzuna yönlendirdiğini doğruladı. [Bitcoin.com News](L1)'in aktardığına göre şirket pazar günü açığı iki saat içinde kapattığını ve etkilenen her müşteriye kaybedilen iş için ödeme yapacağını açıkladı.
+
+Barındırma şirketi CoreX Hosting'in ilk duyurduğu raporlar, yaklaşık <strong>64.000 makinenin</strong> ve saniyede kabaca <strong>13 eksahash (EH/s)</strong> işlem gücünün OCEAN havuzuna yönlendirildiğini tahmin ediyordu. Bu rakamlar bağımsız olarak doğrulanmadı. Kimsenin cüzdanından bitcoin alınmadı ve Bitcoin ağının kendisi hacklenmedi.
+
+!takeaways
+- Saldırganlar, 14 Kasım cumartesi günü ABD merkezi saatiyle akşam 8 civarından itibaren Luxor'un Commander yazılımıyla yönetilen makinelerin havuz ayarlarını değiştirdi.
+- Raporlar, yaklaşık 64.000 makineden gelen 13 EH/s civarında gücün yönlendirildiğini söylüyor; Luxor bu rakamları doğrulamadı.
+- Luxor, bir düzineyi biraz aşan müşteri hesabının etkilendiğini, Commander'ın iki saat içinde yamandığını ve hiçbir müşteri verisinin sistemlerinden çıkmadığını söylüyor.
+- Luxor'a göre etkilenen her müşteriye "normal şekilde kazı yapmış gibi" tam ödeme yapılacak.
+
+!figure:chart
+
+## Ne oldu?
+
+Madencilik makineleri, işlem gücünü birleştiren ve ödülleri paylaştıran bir gruba, yani havuza katılarak bitcoin kazanır. Her makineye hangi havuz için çalışacağı ve ödemenin hangi adrese gideceği söylenir. [Crypto Briefing](L2)'e göre biri, 14 Kasım'da ABD merkezi saatiyle akşam 8 civarında çok sayıda makinede bu ayarları değiştirerek gücü OCEAN'a gönderdi ve ödeme adresi olarak saldırganın kontrol ettiği bir adresi girdi.
+
+Değişiklik kamuya açık verilerde hemen görüldü. OCEAN'ın bildirdiği hash oranı yaklaşık 50 EH/s'ye fırladı, ardından 40 EH/s civarına oturdu. Yetkisiz değişiklikleri fark eden CoreX Hosting daha sonra saptırılan gücün saniyede yaklaşık 100 petahash'e (PH/s), yani zirvenin çok küçük bir kısmına düştüğünü söyledi; bunu [TokenPost](L3) aktardı.
+
+Ölçek vermek gerekirse, [mempool.space](L5) verilerine göre Bitcoin ağının tamamı pazar günü yaklaşık 930 EH/s ile çalışıyordu. Bu da 13 EH/s'nin toplam madencilik gücünün kabaca %1,4'ü olacağı anlamına geliyor; tek bir olay için büyük bir miktar.
+
+## Luxor'un yanıtı
+
+Luxor X'teki açıklamasında, iç izleme sisteminin "Commander üzerinden yetkisiz bir hash oranı yönlendirmesi" tespit ettiğini ve nöbetçi mühendislerin hemen harekete geçtiğini söyledi. Şirket, "Etki: bir düzineyi biraz aşan müşteri hesabı. Etkilenen makineler sınırlı bir süre boyunca farklı bir havuza yönlendirildi. Sistemlerimizden hiçbir veri sızmadı ya da dışarı çıkarılmadı" diye yazdı. Kendi madencilik havuzunun ve LuxOS yazılımının etkilenmediğini belirtti.
+
+CEO Nick Hansen, saldırının cumartesi günü Pasifik saatiyle akşam 6 civarında başladığını ve "yapay zekâ destekli gelişmiş bir yöntemle" gerçekleştiğini söyledi. Luxor bunun nasıl işlediğini henüz açıklamadı ve kapsamlı bir olay analizi sözü verdi. Bitcoin.com News'e göre Hansen, "Özür dilerim. Filonuzu bize emanet ediyorsunuz ve daha iyi olmamız gerekiyor" diye yazdı.
+
+!mid_cta
+
+!figure:fact
+
+## Saldırgan bir şey kazandı mı?
+
+Muhtemelen çok az ya da hiç. OCEAN, ele geçirilen güçle hiç blok bulamadı, bu yüzden saldırganın adresine tam bir blok ödülü gitmedi. [The Crypto News Feed](L4) ve Bitcoin.com News'e göre OCEAN'ın panosu bu adres için yaklaşık 0,657 bitcoin tahmini kazanç gösterdi, ancak blokzincir kayıtlarında onaylanmış bir ödeme görünmüyordu. Asıl kaybedenler, makineleri cumartesi gecesinin bir bölümünde başkası için çalışan madenciler. Luxor, etkilenen müşterilerinin bu kayıp gelirini karşılayacağını söylüyor.
+
+## Yeni başlayanlar için ne anlama geliyor?
+
+Sadece bitcoin sahibiyseniz bu olay coinlerinizi riske atmıyor. Bitcoin'in hiçbir kuralı çiğnenmedi, hiçbir cüzdan boşaltılmadı. Çöken şey, madencilik şirketleriyle donanımları arasında duran bir iş yazılımıydı. Bu da ağın kendisi sağlam kalsa bile Bitcoin etrafındaki şirketlerin zayıf noktaları olabileceğini gösteriyor.
+
+Ayrıca bitcoin sahibi olmak için madencilik yapmanız gerekmiyor. Yeni başlayanların çoğu makine çalıştırmak yerine [Coinbase](REF) gibi düzenlemeye tabi bir borsadan küçük miktarlar alıyor; böylece donanım, elektrik faturası ve bu tür risklerden kaçınıyor. Ücretleri karşılaştırın, iki adımlı girişi açın ve yalnızca kaybetmeyi göze alabileceğiniz kadar yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı?
+
+- Luxor'un "yapay zekâ destekli" saldırının nasıl işlediğini anlatacak olay analizi.
+- Kaç makinenin ve ne kadar hash oranının etkilendiğine dair resmi bir sayım.
+- Diğer madencilik yönetim araçlarının bu ihlalden sonra güvenliklerini sıkılaştırıp sıkılaştırmayacağı.
+- Saldırganın adresinin OCEAN'dan ödeme aldığına dair herhangi bir işaret.
+
+!soft: Bitcoin'in nasıl saklandığını mı öğreniyorsunuz? [Kripto cüzdan nedir, emanetli ve kendi saklama](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

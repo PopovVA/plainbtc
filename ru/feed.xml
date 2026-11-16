@@ -8,6 +8,22 @@
     <lastBuildDate>Sun, 15 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Luxor: хакеры захватили биткоин-майнеры через её программу Commander</title>
+      <link>https://plainbtc.com/ru/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026</guid>
+      <pubDate>Sun, 15 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Безопасность</category>
+      <description>Злоумышленники через программу Commander компании Luxor в субботу вечером направили биткоин-майнеры в пул OCEAN; по оценкам, было перенаправлено около 13 EH/s. Luxor говорит, что закрыла уязвимость за два часа и полностью компенсирует потери пострадавшим клиентам.</description>
+    </item>
+    <item>
+      <title>Германия проголосовала за право таможни изымать криптовалюту дороже 100 000 € неясного происхождения</title>
+      <link>https://plainbtc.com/ru/articles/germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026</guid>
+      <pubDate>Sun, 15 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Регулирование</category>
+      <description>Бундестаг принял таможенную реформу, по которой криптовалюту и другие активы дороже 100 000 € сомнительного происхождения можно будет удерживать до 180 дней даже без уголовного дела. Окончательную конфискацию должен одобрить суд, а федеральные земли ещё должны дать согласие.</description>
+    </item>
+    <item>
       <title>Корейская биржа Coinone сообщила, что хакер похитил данные службы поддержки, среди которых могут быть пароли</title>
       <link>https://plainbtc.com/ru/articles/coinone-data-breach-support-contractor-passwords-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/ru/articles/coinone-data-breach-support-contractor-passwords-nov-2026</guid>

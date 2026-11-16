@@ -1,0 +1,60 @@
+title: Alemanha aprova que a alfândega apreenda cripto acima de € 100 mil quando a origem não for clara
+page_title: Bundestag aprova poder da alfândega alemã para apreender cripto acima de € 100 mil de origem duvidosa
+description: O parlamento alemão aprovou uma reforma da alfândega que permitiria reter cripto e outros bens acima de € 100 mil por até 180 dias quando a origem legal estiver em dúvida, mesmo sem processo criminal. Os estados ainda precisam aprovar.
+og_description: O Bundestag aprovou em 12 de novembro uma lei que permitiria à alfândega reter por até 180 dias cripto acima de € 100 mil de origem duvidosa, sem processo criminal. Um tribunal precisa aprovar qualquer confisco definitivo, e os estados ainda precisam dar aval.
+label: Regulação
+summary: O Bundestag aprovou uma reforma da alfândega que permitiria reter por até 180 dias cripto e outros bens acima de € 100 mil de origem duvidosa, mesmo sem processo criminal. Um tribunal precisa aprovar o confisco definitivo, e os estados ainda precisam dar aval.
+===
+
+O parlamento alemão aprovou novos poderes que permitiriam aos agentes da alfândega congelar cripto e outros bens valiosos quando o dono não conseguir explicar de forma plausível de onde eles vieram, mesmo sem nenhum processo criminal aberto. O Bundestag aprovou a lei na quinta-feira, 12 de novembro, e a vigência está prevista para 1º de janeiro de 2027, se o Bundesrat, a câmara que representa os estados, concordar, segundo o [AltcoinReporter](L4).
+
+A medida vale para bens acima de <strong>€ 100.000</strong> e abrange criptoativos conforme a definição do regulamento europeu MiCA. Posts que circularam nas redes sociais neste fim de semana davam a entender que a regra já está em vigor. Não está.
+
+!takeaways
+- O Bundestag aprovou a reforma da alfândega em 12 de novembro, com votos a favor de CDU/CSU, SPD e AfD, voto contra da Esquerda e abstenção dos Verdes.
+- A alfândega poderia reter por 30 dias cripto e outros bens acima de € 100.000 se a origem legal estiver em dúvida, e um tribunal fiscal poderia estender o prazo em 150 dias.
+- O confisco definitivo exigiria decisão de um colegiado de juízes de um tribunal fiscal.
+- O Bundesrat, a câmara dos estados alemães, ainda precisa dar seu consentimento antes do início previsto para 1º de janeiro de 2027.
+
+!figure:timeline
+
+## O que a lei faz
+
+A lei, conhecida como Zollfinanzgerechtigkeitsgesetz (ZFG), reorganiza principalmente a alfândega alemã, que tem pouco menos de 49.000 funcionários, segundo o [Ministério das Finanças](L3) quando o gabinete a aprovou em agosto. A parte mais debatida é um novo procedimento administrativo para investigar e reter bens "significativos" cuja origem lícita esteja em dúvida, fora de qualquer processo criminal, informou a [Der Spiegel](L1).
+
+Um bem é considerado significativo se valer mais de € 100.000, ou mais de € 50.000 se precisar ser inscrito em um registro público, como imóveis, carros, navios ou aeronaves. Cripto não tem esse tipo de registro, então vale o limite de € 100.000, e os agentes podem estimar o valor, explicou o [CryptoCompass](L5) após analisar o texto.
+
+O ministro das Finanças, Lars Klingbeil, resumiu a ideia sem rodeios quando o gabinete apoiou o plano: se suspeitos não conseguirem provar que adquiriram os bens legalmente, "o Porsche ou o Rolex somem, por enquanto".
+
+## Como funcionaria uma apreensão
+
+A alfândega poderia reter um bem por até 30 dias para investigar sua origem. Um único juiz de um tribunal fiscal poderia prorrogar esse prazo uma vez por 150 dias, até o máximo de 180 dias. No caso de cripto, a apreensão impediria o titular de vender ou movimentar as moedas.
+
+Os agentes avaliariam se uma compra lícita parece plausível no conjunto, incluindo se a renda do titular combina com o valor do bem e se a origem dos recursos pode ser rastreada, segundo o AltcoinReporter. Em 11 de novembro, a comissão de finanças do Bundestag mudou o texto para que o confisco definitivo seja decidido por um colegiado de juízes, e não por um juiz único, segundo a [NWB](L2).
+
+!mid_cta
+
+!figure:fact
+
+## Quem é afetado de fato
+
+O poder é mais restrito do que muitos posts do fim de semana sugeriam. Segundo as notas do governo, resumidas pelo AltcoinReporter, ele cobre bens que a alfândega encontrar no próprio trabalho, como fiscalizações de mercadorias e dinheiro na fronteira, investigações aduaneiras e a unidade que combate o trabalho não declarado. Uma carteira física encontrada em uma fiscalização de fronteira poderia se enquadrar. Moedas em autocustódia em casa não, a menos que a alfândega as encontre durante esse trabalho.
+
+O governo espera que o procedimento renda cerca de € 308 milhões por ano a partir de 2028, supondo que cerca de metade dos casos tenha sucesso, informou a Der Spiegel, que observou não haver estatísticas oficiais sobre bens de origem ilícita. O deputado verde Max Lucks argumentou que o valor equivale a apenas cerca de 0,3% dos aproximadamente € 100 bilhões lavados na Alemanha a cada ano.
+
+## O que isso significa para iniciantes
+
+É uma lei alemã e não muda nada para quem vive em outros países. Mas ela aponta para uma tendência mais ampla: governos querem que quem tem cripto consiga mostrar de onde veio o dinheiro. Manter bons registros é a proteção mais simples. Guarde comprovantes de compra e transferências bancárias e baixe seu histórico de transações com regularidade. Corretoras reguladas como a [Coinbase](REF) permitem exportar extratos, o que também ajuda na hora do imposto. Isto não é recomendação jurídica nem de investimento.
+
+## O que acompanhar agora
+
+- Se o Bundesrat vai analisar a lei na sessão de 20 de novembro ou de 18 de dezembro.
+- A publicação no diário oficial federal e as datas escalonadas de vigência.
+- Como a alfândega pretende avaliar ativos voláteis como o bitcoin ao aplicar o limite de € 100.000.
+- Uma lei alemã separada sobre o compartilhamento de dados fiscais de cripto no padrão da OCDE.
+
+!soft: Guarda suas próprias moedas? Leia [o que é uma carteira cripto: custodial ou autocustódia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

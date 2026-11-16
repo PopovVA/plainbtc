@@ -8,6 +8,22 @@
     <lastBuildDate>Sun, 15 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Luxor says hackers hijacked bitcoin miners through its Commander software</title>
+      <link>https://plainbtc.com/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026</guid>
+      <pubDate>Sun, 15 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Security</category>
+      <description>Attackers used Luxor's Commander fleet software to point bitcoin mining machines at the OCEAN pool on Saturday night, with reports putting the redirected power near 13 EH/s. Luxor says it patched the flaw within two hours and will pay affected clients in full.</description>
+    </item>
+    <item>
+      <title>Germany votes to let customs seize crypto over €100,000 when its origin is unclear</title>
+      <link>https://plainbtc.com/articles/germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026</guid>
+      <pubDate>Sun, 15 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Regulation</category>
+      <description>Germany's Bundestag passed a customs reform that would let officers hold crypto and other assets worth over €100,000 of doubtful origin for up to 180 days, even without a criminal case. A court must approve any final confiscation, and the states still need to consent.</description>
+    </item>
+    <item>
       <title>Korean exchange Coinone says a hacker took support data that may include passwords</title>
       <link>https://plainbtc.com/articles/coinone-data-breach-support-contractor-passwords-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/articles/coinone-data-breach-support-contractor-passwords-nov-2026</guid>

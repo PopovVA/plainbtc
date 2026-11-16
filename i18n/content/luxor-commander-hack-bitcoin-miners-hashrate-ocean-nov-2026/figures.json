@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-bitcoin-network-hashrate-3m.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of the bitcoin network's daily average hashrate from Aug. 17 to Nov. 15, 2026, moving between roughly 780 and 1,230 exahashes per second and ending near 926 EH/s",
+      "es": "Gráfico de líneas del hashrate medio diario de la red de bitcoin del 17 de agosto al 15 de noviembre de 2026: oscila entre unos 780 y 1.230 exahashes por segundo y termina cerca de 926 EH/s",
+      "pt": "Gráfico de linha do hashrate médio diário da rede bitcoin de 17 de agosto a 15 de novembro de 2026, variando entre cerca de 780 e 1.230 exahashes por segundo e terminando perto de 926 EH/s",
+      "fr": "Courbe du hashrate moyen quotidien du réseau bitcoin du 17 août au 15 novembre 2026 : il évolue entre environ 780 et 1 230 exahashs par seconde et termine près de 926 EH/s",
+      "de": "Liniendiagramm der täglichen durchschnittlichen Hashrate des Bitcoin-Netzwerks vom 17. August bis 15. November 2026: zwischen rund 780 und 1.230 Exahash pro Sekunde, zuletzt bei rund 926 EH/s",
+      "ru": "Линейный график среднесуточного хешрейта сети биткоина с 17 августа по 15 ноября 2026 года: колебания примерно от 780 до 1230 эксахешей в секунду, в конце около 926 EH/s",
+      "tr": "Bitcoin ağının 17 Ağustos ile 15 Kasım 2026 arasındaki günlük ortalama hash oranının çizgi grafiği: saniyede yaklaşık 780 ile 1.230 eksahash arasında değişiyor ve 926 EH/s civarında bitiyor",
+      "id": "Grafik garis hashrate rata-rata harian jaringan bitcoin dari 17 Agustus hingga 15 November 2026, bergerak antara sekitar 780 dan 1.230 exahash per detik dan berakhir di dekat 926 EH/s",
+      "ja": "2026年8月17日から11月15日までのビットコインネットワークの日次平均ハッシュレートの折れ線グラフ。毎秒約780〜1,230エクサハッシュの間で推移し、最後は約926 EH/s",
+      "ko": "2026년 8월 17일부터 11월 15일까지 비트코인 네트워크 일평균 해시레이트 선 그래프. 초당 약 780~1,230엑사해시 사이에서 움직이다 약 926 EH/s로 마감"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: mempool.space",
+      "es": "Gráfico: PlainBTC, datos: mempool.space",
+      "pt": "Gráfico: PlainBTC, dados: mempool.space",
+      "fr": "Graphique : PlainBTC, données : mempool.space",
+      "de": "Chart: PlainBTC, Daten: mempool.space",
+      "ru": "График: PlainBTC, данные: mempool.space",
+      "tr": "Grafik: PlainBTC, veri: mempool.space",
+      "id": "Grafik: PlainBTC, data: mempool.space",
+      "ja": "チャート: PlainBTC、データ: mempool.space",
+      "ko": "차트: PlainBTC, 데이터: mempool.space"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-luxor-13-ehs-redirected.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: about 13 exahashes per second of mining power was reportedly pointed at the OCEAN pool; Luxor says just over a dozen client accounts were hit and the flaw was patched within two hours",
+      "es": "Tarjeta: unos 13 exahashes por segundo de potencia de minería se habrían desviado al pool OCEAN; Luxor dice que se vieron afectadas algo más de una docena de cuentas de clientes y que corrigió el fallo en menos de dos horas",
+      "pt": "Cartão: cerca de 13 exahashes por segundo de poder de mineração teriam sido desviados para o pool OCEAN; a Luxor diz que pouco mais de uma dúzia de contas de clientes foram afetadas e que corrigiu a falha em até duas horas",
+      "fr": "Encadré : environ 13 exahashs par seconde de puissance de minage auraient été redirigés vers le pool OCEAN ; Luxor indique qu'un peu plus d'une douzaine de comptes clients ont été touchés et que la faille a été corrigée en moins de deux heures",
+      "de": "Faktenkarte: Rund 13 Exahash pro Sekunde an Mining-Leistung wurden Berichten zufolge auf den Pool OCEAN umgeleitet; Luxor zufolge waren gut ein Dutzend Kundenkonten betroffen, die Lücke wurde binnen zwei Stunden geschlossen",
+      "ru": "Карточка: около 13 эксахешей в секунду майнинговой мощности, по сообщениям, перенаправили в пул OCEAN; Luxor говорит, что пострадали чуть больше десятка клиентских аккаунтов, а уязвимость закрыли в течение двух часов",
+      "tr": "Kart: bildirildiğine göre saniyede yaklaşık 13 eksahashlik madencilik gücü OCEAN havuzuna yönlendirildi; Luxor bir düzineyi biraz aşan müşteri hesabının etkilendiğini ve açığın iki saat içinde kapatıldığını söylüyor",
+      "id": "Kartu fakta: sekitar 13 exahash per detik daya penambangan dilaporkan dialihkan ke pool OCEAN; Luxor mengatakan sedikit lebih dari selusin akun klien terdampak dan celahnya ditambal dalam dua jam",
+      "ja": "カード：約13 EH/sの採掘能力がOCEANプールに向けられたと報じられた。Luxorによると被害は十数件の顧客アカウントで、脆弱性は2時間以内に修正された",
+      "ko": "카드: 약 13 EH/s의 채굴 연산력이 OCEAN 풀로 돌려진 것으로 알려짐. 룩소르는 피해 고객 계정이 십여 개이며 2시간 안에 취약점을 패치했다고 밝힘"
+    },
+    "caption": {
+      "en": "Source: CoreX Hosting via Bitcoin.com News; Luxor statement, Nov. 15, 2026",
+      "es": "Fuente: CoreX Hosting via Bitcoin.com News; Luxor statement, Nov. 15, 2026",
+      "pt": "Fonte: CoreX Hosting via Bitcoin.com News; Luxor statement, Nov. 15, 2026",
+      "fr": "Source : CoreX Hosting via Bitcoin.com News; Luxor statement, Nov. 15, 2026",
+      "de": "Quelle: CoreX Hosting via Bitcoin.com News; Luxor statement, Nov. 15, 2026",
+      "ru": "Источник: CoreX Hosting via Bitcoin.com News; Luxor statement, Nov. 15, 2026",
+      "tr": "Kaynak: CoreX Hosting via Bitcoin.com News; Luxor statement, Nov. 15, 2026",
+      "id": "Sumber: CoreX Hosting via Bitcoin.com News; Luxor statement, Nov. 15, 2026",
+      "ja": "出典: CoreX Hosting via Bitcoin.com News; Luxor statement, Nov. 15, 2026",
+      "ko": "출처: CoreX Hosting via Bitcoin.com News; Luxor statement, Nov. 15, 2026"
+    }
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Zoll.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Zoll.svg",
+      "credit": "German Federal Customs Service logo"
+    },
+    {
+      "file": "Bundestag bill, Drucksache 21/9136",
+      "license": "Figure cited",
+      "url": "https://bundestag.parlamente.org/drucksache/21/9136",
+      "credit": "Deutscher Bundestag"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026",
+  "generated": "2026-11-16T00:06Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

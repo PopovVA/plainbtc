@@ -1,0 +1,60 @@
+title: Germany votes to let customs seize crypto over €100,000 when its origin is unclear
+page_title: Germany's Bundestag backs customs powers to seize crypto over €100,000 of unclear origin
+description: Germany's parliament passed a customs reform that would let officers hold crypto and other assets worth more than €100,000 for up to 180 days when their legal origin is in doubt, even without a criminal case. The states still have to approve it.
+og_description: Germany's Bundestag passed a law on Nov. 12 that would let customs hold crypto worth over €100,000 of doubtful origin for up to 180 days without a criminal case. A court must approve any final confiscation, and the states still need to sign off.
+label: Regulation
+summary: Germany's Bundestag passed a customs reform that would let officers hold crypto and other assets worth over €100,000 of doubtful origin for up to 180 days, even without a criminal case. A court must approve any final confiscation, and the states still need to consent.
+===
+
+Germany's parliament has approved new powers that would let customs officers freeze crypto and other valuable assets when the owner cannot plausibly explain where they came from, even if no criminal case has been opened. The Bundestag passed the bill on Thursday, Nov. 12, and it is scheduled to take effect on Jan. 1, 2027, if the Bundesrat, the chamber that represents the states, agrees, according to [AltcoinReporter](L4).
+
+The measure applies to assets worth more than <strong>€100,000</strong> and covers crypto-assets as defined in the EU's MiCA rulebook. Posts spreading on social media this weekend made it sound like the rule is already in force. It is not.
+
+!takeaways
+- The Bundestag passed the customs reform on Nov. 12, with CDU/CSU, SPD and AfD in favor, the Left against and the Greens abstaining.
+- Customs could hold crypto and other assets worth over €100,000 for 30 days if their legal origin is in doubt, and a finance court could extend that by 150 days.
+- Final confiscation would need a ruling from a panel of finance court judges.
+- The Bundesrat, the chamber of Germany's states, still has to consent before the planned Jan. 1, 2027 start.
+
+!figure:timeline
+
+## What the law does
+
+The bill, informally called the Zollfinanzgerechtigkeitsgesetz (ZFG), mostly reorganizes Germany's customs service, which has just under 49,000 employees, the [Finance Ministry](L3) said when the cabinet approved it in August. Its most debated part is a new administrative procedure to investigate and secure "significant" assets whose lawful origin is in doubt, outside of any criminal case, [Der Spiegel](L1) reported.
+
+An asset counts as significant if it is worth more than €100,000, or more than €50,000 if it must be listed in a public register, such as real estate, cars, ships or aircraft. Crypto has no such register, so the €100,000 line applies, and officers may estimate the value, [CryptoCompass](L5) explained after reviewing the bill text.
+
+Finance Minister Lars Klingbeil put the idea bluntly when the cabinet backed the plan: if suspects cannot show they acquired assets legally, "the Porsche or the Rolex is gone for now."
+
+## How a seizure would work
+
+Customs could secure an asset for up to 30 days to look into where it came from. A single judge at a finance court could extend that once by 150 days, for a maximum of 180 days. For crypto, the seizure would bar the holder from selling or moving the coins.
+
+Officers would weigh whether a lawful purchase looks plausible overall, including whether the holder's income matches the asset's value and whether the source of funds can be traced, AltcoinReporter reported. On Nov. 11 the Bundestag's finance committee changed the bill so that permanent confiscation is decided by a panel of judges rather than a single judge, according to [NWB](L2).
+
+!mid_cta
+
+!figure:fact
+
+## Who it actually affects
+
+The power is narrower than many weekend posts suggested. According to the government's notes, as summarized by AltcoinReporter, it covers assets that customs comes across in its own work, such as border checks on goods and cash, customs investigations and the unit that polices undeclared work. A hardware wallet found at a border check could qualify. Coins sitting in self-custody at home would not, unless customs found them in the course of that work.
+
+The government expects the procedure to bring in about €308 million a year from 2028, assuming roughly half of cases succeed, Der Spiegel reported, while noting there are no official statistics on assets of unlawful origin. Green lawmaker Max Lucks argued that sum is only about 0.3% of the roughly €100 billion laundered in Germany each year.
+
+## What it means for beginners
+
+This is a German law, so it does not change anything for people in the U.S. But it points to a wider trend: governments want crypto holders to be able to show where their money came from. Good records are the simplest protection. Keep your purchase confirmations and bank transfers, and download your transaction history regularly. Regulated exchanges such as [Coinbase](REF) let you export statements, which also helps at tax time. This is not legal or investment advice.
+
+## What to watch next
+
+- Whether the Bundesrat takes up the bill at its Nov. 20 or Dec. 18 session.
+- Publication in Germany's federal law gazette and the staged start dates.
+- How customs plans to value volatile assets like bitcoin when applying the €100,000 limit.
+- A separate German law on sharing crypto tax data under the OECD's reporting framework.
+
+!soft: Holding coins yourself? Read [what a crypto wallet is, custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

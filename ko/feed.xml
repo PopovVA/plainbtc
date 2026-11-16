@@ -8,6 +8,22 @@
     <lastBuildDate>Sun, 15 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ko/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>룩소르 "해커가 자사 소프트웨어 커맨더 통해 비트코인 채굴기 탈취"</title>
+      <link>https://plainbtc.com/ko/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026</guid>
+      <pubDate>Sun, 15 Nov 2026 12:00:00 GMT</pubDate>
+      <category>보안</category>
+      <description>공격자들이 토요일 밤 룩소르의 커맨더 소프트웨어로 비트코인 채굴기를 OCEAN 풀로 돌렸고, 전환된 연산력은 약 13 EH/s로 알려졌다. 룩소르는 2시간 안에 취약점을 패치했으며 피해 고객에게 전액 지급하겠다고 밝혔다.</description>
+    </item>
+    <item>
+      <title>독일 연방하원, 출처 불분명한 10만 유로 초과 암호화폐 세관 압류 법안 통과</title>
+      <link>https://plainbtc.com/ko/articles/germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026</guid>
+      <pubDate>Sun, 15 Nov 2026 12:00:00 GMT</pubDate>
+      <category>규제</category>
+      <description>독일 연방하원이 출처가 의심스러운 10만 유로 초과 암호화폐 등 자산을 형사 절차 없이도 최대 180일간 압류할 수 있게 하는 세관 개혁법을 통과시켰다. 최종 몰수에는 법원 판단이 필요하며, 주 정부 동의도 아직 필요하다.</description>
+    </item>
+    <item>
       <title>코인원 "해커가 비밀번호 포함됐을 수 있는 고객상담 기록 빼내"</title>
       <link>https://plainbtc.com/ko/articles/coinone-data-breach-support-contractor-passwords-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/ko/articles/coinone-data-breach-support-contractor-passwords-nov-2026</guid>

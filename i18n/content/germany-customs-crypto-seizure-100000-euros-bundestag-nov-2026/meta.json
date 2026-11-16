@@ -1,0 +1,20 @@
+{
+ "slug": "germany-customs-crypto-seizure-100000-euros-bundestag-nov-2026",
+ "date": "2026-11-15",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "illinois-crypto-tax-doj-defi-challenge-nov-2026",
+  "fincen-fed-withdraw-250-travel-rule-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {"url": "https://www.spiegel.de/wirtschaft/zoll-soll-schlagkraeftiger-werden-bundestag-beschliesst-neue-befugnisse-a-60710faa-d41e-4228-9e70-93f77bb5d02d", "title": "Der Spiegel: Zoll soll schlagkräftiger werden, Bundestag beschließt neue Befugnisse (in German)", "date": "Nov 12, 2026"},
+  {"url": "https://datenbank.nwb.de/Dokument/1105430/", "title": "NWB: Bundestag billigt Gesetz zur Stärkung der Zollverwaltung (in German)", "date": "Nov 12, 2026"},
+  {"url": "https://www.bundesfinanzministerium.de/Content/DE/Pressemitteilungen/Finanzpolitik/2026/08/2026-08-12-zollfinanzgerechtigkeitsgesetz.html", "title": "German Federal Ministry of Finance: Reform für einen modernen, schlagkräftigen und digitalen Zoll (in German)", "date": "Aug 12, 2026"},
+  {"url": "https://altcoinreporter.com/germany-customs-crypto-seizure-100000-euros/", "title": "AltcoinReporter: Bundestag votes to let German customs seize crypto over €100,000 of unclear origin", "date": "Nov 15, 2026"},
+  {"url": "https://www.cryptocompass.com/articles/germany-s-customs-law-can-confiscate-100-000-in-crypto-without-a-conviction", "title": "CryptoCompass: Germany's customs law can confiscate €100,000 in crypto without a conviction", "date": "Nov 2026"},
+  {"url": "https://bundestag.parlamente.org/drucksache/21/9136", "title": "Bundestag Drucksache 21/9136: finance committee report on the customs bill (in German)", "date": "Nov 11, 2026"}
+ ],
+ "disclosure_variant": "std"
+}
