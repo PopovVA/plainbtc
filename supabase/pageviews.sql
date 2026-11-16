@@ -116,6 +116,13 @@ comment on function public.plainbtc_daily_stats(date) is
   'Pageview totals for one America/Chicago calendar day: pageviews, uniques, and {k,c} JSON arrays for paths, referrer hosts, utm_sources, languages, countries and devices.';
 
 revoke all on function public.plainbtc_daily_stats(date) from public;
+-- In Supabase, "from public" is not enough: the project's default privileges on schema public
+-- grant EXECUTE on every new function directly to anon, authenticated and service_role, and
+-- revoking from PUBLIC leaves those direct grants in place. Without the next line this
+-- security definer function would answer POST /rest/v1/rpc/plainbtc_daily_stats with the
+-- public anon key and hand out paths, referrers and countries.
+revoke execute on function public.plainbtc_daily_stats(date) from anon, authenticated;
+grant execute on function public.plainbtc_daily_stats(date) to service_role;
 -- Owner / service role only, on purpose. Unlike plainbtc_click_stats (granted to anon because
 -- tools/click_stats.py calls it with the public anon key), nothing in this repo calls
 -- plainbtc_daily_stats: it is read in the Supabase SQL editor. Grant execute to anon only if a
