@@ -1,0 +1,61 @@
+title: Coinbase kripto teminatlı kredileri New York'a açtı, 50 eyaletin tamamına ulaştı
+page_title: Coinbase Borrow New York'ta: 50 eyalette bitcoin teminatlı USDC kredisi
+description: New York'taki Coinbase müşterileri artık bitcoin, ether ve solana karşılığında USDC borç alabiliyor; New York, Coinbase Borrow'un olmadığı son ABD eyaletiydi. Ürün Ocak 2025'ten bu yana 3,4 milyar $'ın üzerinde kredi verdi. Nasıl çalıştığı ve neyin ters gidebileceği.
+og_description: New Yorklular eyalet onayının ardından Coinbase'te BTC, ETH veya SOL karşılığında USDC borç alabiliyor; böylece hizmet 50 eyaletin tamamına ulaştı. Krediler Base üzerindeki Morpho ile çalışıyor, faiz değişken ve fiyat düşüşü tasfiyeye yol açabilir.
+label: İş dünyası
+summary: Coinbase, eyalet onayının ardından kripto teminatlı kredilerini New York'a açtı; artık 50 eyaletin tamamındaki müşteriler bitcoin karşılığında USDC borç alabiliyor. New Yorkluların seçenekleri daha dar: teminat olarak yalnızca BTC, ETH ve SOL, faiz ise yalnızca değişken.
+===
+
+New York'taki Coinbase müşterileri artık kriptolarını teminat göstererek borç alabiliyor. Coinbase'in [kredi duyurusuna eklediği güncellemeye](L2) göre 16 Kasım'dan bu yana uygun New Yorklular, bitcoin, ether veya solana'yı teminat göstererek dolara sabitlenmiş bir stablecoin olan USDC cinsinden kredi alabiliyor. Eksik kalan son eyalet New York'tu; bu yüzden Coinbase Borrow adlı ürün artık <strong>ABD'nin 50 eyaletinin tamamındaki</strong> müşterilere ulaşıyor, [The Block](L1) salı günü bildirdi.
+
+Bir Coinbase sözcüsü The Block'a, lansmanın New York Eyaleti Finansal Hizmetler Departmanı'nın onayının ardından geldiğini söyledi. New York birçok kripto şirketinden BitLicense adlı kendi eyalet lisansını istiyor; bu da kripto ürünlerinin eyalete çoğu zaman ülkenin geri kalanından daha geç gelmesinin nedenlerinden biri.
+
+!takeaways
+- 16 Kasım'dan bu yana New York'taki uygun Coinbase müşterileri BTC, ETH veya SOL karşılığında USDC borç alabiliyor.
+- Coinbase, New York finans düzenleyicisinin onayıyla Coinbase Borrow'un ABD'nin 50 eyaletinin tamamına yayılmasının tamamlandığını söylüyor.
+- Limitler uygunluğa bağlı olarak bitcoin karşılığı 5 milyon $'a, ether karşılığı 1 milyon $'a ve solana karşılığı 100.000 $'a kadar.
+- New Yorklular yalnızca değişken faizli kredi alabiliyor. Sabit faiz ve XRP ile tokenize altın gibi diğer teminatlar orada henüz yok.
+
+!figure:compare
+
+## Coinbase Borrow nasıl çalışıyor
+
+Coinbase'te zaten tuttuğunuz kriptoyu teminat olarak gösteriyor ve satmadan saniyeler içinde USDC alıyorsunuz. Perde arkasında kredileri Coinbase'in kendisi vermiyor. Krediler, Coinbase'in geliştirdiği blokzincir ağı Base üzerindeki açık kaynaklı borç verme protokolü Morpho üzerinden işliyor. Coinbase'e göre bitcoin karşılığında borç aldığınızda Coinbase bitcoini, bitcoinin "sarılmış" bir versiyonu olan cbBTC'ye çeviriyor ve teminat olarak tutan bir Morpho akıllı sözleşmesine aktarıyor.
+
+Faiz oranları değişken ve Morpho'nun borç piyasası tarafından otomatik belirleniyor; yani her birkaç saniyede değişebiliyor. Sabit bir geri ödeme takvimi yok: krediyi ne zaman ödeyeceğinize siz karar veriyorsunuz. Coinbase'te USDC birebir oranla ABD dolarına çevrilebiliyor; borçlu, krediyi harcanabilir paraya bu şekilde dönüştürüyor.
+
+Coinbase'in gelir ve yatırım ürünlerinden sorumlu yöneticisi Jacob Frantz The Block'a, "Geçen yıl Coinbase Borrow'u başlattığımızdan beri New York'taki düzenleyicilerle yakın çalışıyoruz, böylece New Yorklular da inandıkları kripto varlıkları satmak zorunda kalmadan nakde erişebilir" dedi. Başvuru veya onay tarihlerini paylaşmadı.
+
+## New Yorklular neyi kullanabilir, neyi kullanamaz
+
+Coinbase'in [yardım sayfası](L4), New York müşterileri için tek teminat seçeneği olarak BTC, ETH ve SOL'u, yalnızca değişken faizli kredilerle listeliyor. Diğer bölgelerdeki müşteriler ayrıca XRP, Dogecoin, Cardano, Litecoin, Zcash, Hyperliquid'in HYPE'ı, stake edilmiş ether ve solana tokenleri ve fiziksel altınla desteklenen bir token olan Pax Gold (PAXG) karşılığında da borç alabiliyor. Borçlunun faiz oranını ve vadeyi önceden sabitlediği sabit faizli krediler de New York'ta henüz yok. Müşterilerin USDC'sini getiri karşılığında borç veren ayrı bir Coinbase ürünü de orada sunulmuyor.
+
+!mid_cta
+
+## Ürün ne kadar büyük
+
+Coinbase Borrow Ocak 2025'te başladı. Morpho'nun genişlemeyle ilgili [blog yazısına](L3) göre o zamandan beri <strong>3,4 milyar $'ın üzerinde</strong> kredi verildi. Morpho, ödenmemiş tutarı 2,8 milyar $'ın üzerinde teminatla desteklenen 1,6 milyar $'ın üzerinde olarak açıkladı. The Block ise Morpho'ya dayanarak biraz daha yüksek rakamlar verdi: 1,7 milyar $ ve 3,2 milyar $.
+
+!figure:fact
+
+## Ana risk: tasfiye
+
+Kripto teminatlı bir kredi, fiyatlar düştüğünde hızla kötüye gidebilir. Coinbase'e göre kredi ve faizi teminatınızın değerine kıyasla fazla büyürse pozisyon tasfiye ediliyor, yani borcu ödemek için teminat satılıyor. Bu risk şu anda gerçek. CoinGecko'ya göre bitcoin salı günü ABD Merkez saatiyle öğle saatlerinde 63.700 $ civarında işlem görüyordu, 24 saatte yaklaşık %2 düşmüştü ve hafta sonu kısa süreliğine 62.000 $'a yaklaşmıştı.
+
+Yeni başlayan biri için en güvenli yol, azami tutarın çok altında borç almak, krediyi uygulamada takip etmek ve fiyatlar düşerse teminat eklemek ya da geri ödemek için bir planı olmak. Coinbase, satmak yerine borç almanın vergiye tabi kazanç veya zararı ertelemeye yardımcı olabileceğini belirtiyor. Kendi durumunuz için bir vergi uzmanına danışın.
+
+## Yeni başlayanlar için anlamı
+
+Kriptoya başlamak için krediye ihtiyacınız yok ve çoğu yeni kullanıcı kredi almamalı. Yalnızca küçük bir miktar bitcoin almak istiyorsanız [Coinbase](REF) gibi düzenlenmiş bir borsa yaygın bir başlangıç noktası; Borrow ise zaten coin sahibi olanlar için isteğe bağlı bir ek olarak kalıyor. Ücretleri karşılaştırın, tasfiyeyi anlayın ve yalnızca satmadan geri ödeyebileceğiniz kadar borç alın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- New York'un, Coinbase'in başka yerlerde sunduğu sabit faizli kredileri ve diğer teminat türlerini onaylayıp onaylamayacağı.
+- Coinbase'in USDC borç verme ürününü New York'a getirip getirmeyeceği.
+- Bitcoin düşmeye devam ederse kaç kredinin tasfiye edileceği.
+
+!soft: Coinbase'in müşteri fonlarını nasıl koruduğunu mu merak ediyorsunuz? [Coinbase yeni başlayanlar için güvenli mi](/articles/is-coinbase-safe-for-beginners) yazısını okuyun.
+
+!end_cta
+
+!disclosure

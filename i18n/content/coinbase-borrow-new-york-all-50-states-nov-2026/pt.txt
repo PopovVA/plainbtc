@@ -1,0 +1,61 @@
+title: Coinbase libera empréstimos com garantia em cripto em Nova York e chega aos 50 estados
+page_title: Coinbase Borrow chega a Nova York: empréstimos em USDC com garantia em bitcoin nos 50 estados
+description: Clientes da Coinbase em Nova York já podem pegar empréstimos em USDC com garantia em bitcoin, ether e solana; era o último estado dos EUA sem o Coinbase Borrow. O produto já concedeu mais de US$ 3,4 bilhões em empréstimos desde janeiro de 2025. Veja como funciona e o que pode dar errado.
+og_description: Nova-iorquinos já podem pegar USDC emprestado com garantia em BTC, ETH ou SOL na Coinbase após aprovação estadual, completando os 50 estados. Os empréstimos rodam na Morpho, na rede Base, os juros são variáveis e uma queda de preço pode levar à liquidação.
+label: Negócios
+summary: A Coinbase liberou seus empréstimos com garantia em cripto em Nova York após aprovação do estado, e clientes dos 50 estados já podem pegar USDC com garantia em bitcoin. Em Nova York o cardápio é menor: BTC, ETH e SOL como garantia e apenas juros variáveis.
+===
+
+Clientes da Coinbase em Nova York já podem pegar dinheiro emprestado dando cripto como garantia. Desde 16 de novembro, nova-iorquinos elegíveis podem obter um empréstimo em USDC, uma stablecoin atrelada ao dólar, usando bitcoin, ether ou solana como garantia, segundo uma [atualização do anúncio de empréstimos da Coinbase](L2). Nova York era o último estado que faltava, então o produto, chamado Coinbase Borrow, agora chega a clientes <strong>nos 50 estados dos EUA</strong>, informou o [The Block](L1) na terça-feira.
+
+O lançamento veio após aprovação do Departamento de Serviços Financeiros do Estado de Nova York, disse um porta-voz da Coinbase ao The Block. Nova York exige uma licença estadual própria, a BitLicense, de muitas empresas de cripto, e esse é um dos motivos pelos quais produtos de cripto costumam chegar ao estado depois do resto do país.
+
+!takeaways
+- Desde 16 de novembro, clientes elegíveis da Coinbase em Nova York podem pegar USDC emprestado com garantia em BTC, ETH ou SOL.
+- A Coinbase diz que isso completa a chegada do Coinbase Borrow aos 50 estados dos EUA, após aprovação do regulador financeiro de Nova York.
+- Os limites vão até US$ 5 milhões com garantia em bitcoin, US$ 1 milhão em ether e US$ 100.000 em solana, conforme a elegibilidade.
+- Em Nova York há apenas empréstimos com juros variáveis. Juros fixos e outras garantias, como XRP e ouro tokenizado, ainda não estão disponíveis lá.
+
+!figure:compare
+
+## Como o Coinbase Borrow funciona
+
+Você dá como garantia cripto que já tem na Coinbase e recebe USDC em segundos, sem vender. Nos bastidores, os empréstimos não são feitos pela própria Coinbase. Eles rodam na Morpho, um protocolo de empréstimos de código aberto na Base, a rede blockchain criada pela Coinbase. Quando você pega emprestado com bitcoin, a Coinbase o converte em cbBTC, uma versão encapsulada do bitcoin, e o transfere para um contrato inteligente da Morpho que o mantém como garantia, segundo a Coinbase.
+
+Os juros são variáveis e definidos automaticamente pelo mercado de empréstimos da Morpho, por isso podem mudar a cada poucos segundos. Não há cronograma fixo de pagamento: você decide quando quitar o empréstimo. Na Coinbase, USDC pode ser convertido em dólares americanos na proporção de um para um, e é assim que o tomador transforma o empréstimo em dinheiro para gastar.
+
+"Trabalhamos de perto com os reguladores de Nova York desde o lançamento do Coinbase Borrow no ano passado, para que os nova-iorquinos também possam ter acesso a dinheiro sem precisar vender os criptoativos em que acreditam", disse ao The Block Jacob Frantz, chefe de produtos de receita e investimento da Coinbase. Ele não informou as datas do pedido nem da aprovação.
+
+## O que nova-iorquinos podem e não podem usar
+
+A [página de ajuda](L4) da Coinbase lista BTC, ETH e SOL como as únicas garantias para clientes de Nova York, apenas com juros variáveis. Clientes de outros lugares também podem usar XRP, Dogecoin, Cardano, Litecoin, Zcash, HYPE da Hyperliquid, tokens de ether e solana em staking e Pax Gold (PAXG), um token lastreado em ouro físico. Empréstimos com juros fixos, em que o tomador trava uma taxa e uma data final com antecedência, também ainda não estão disponíveis em Nova York. Nem um produto separado da Coinbase que empresta o USDC dos clientes em troca de rendimento.
+
+!mid_cta
+
+## O tamanho do produto
+
+O Coinbase Borrow foi lançado em janeiro de 2025. Desde então, concedeu <strong>mais de US$ 3,4 bilhões</strong> em empréstimos, disse a Morpho em uma [publicação no blog](L3) sobre a expansão. A Morpho estimou o saldo em aberto em mais de US$ 1,6 bilhão, garantido por mais de US$ 2,8 bilhões em colateral. O The Block, citando a Morpho, publicou números um pouco maiores: US$ 1,7 bilhão e US$ 3,2 bilhões.
+
+!figure:fact
+
+## O principal risco: a liquidação
+
+Um empréstimo com garantia em cripto pode dar errado rápido quando os preços caem. Se o empréstimo mais os juros ficar grande demais em relação ao valor da sua garantia, a Coinbase diz que a posição é liquidada, ou seja, parte da garantia é vendida para pagar a dívida. Esse risco é real agora. O bitcoin era negociado perto de US$ 63.700 por volta do meio-dia, horário central dos EUA, na terça-feira, em queda de cerca de 2% em 24 horas, segundo a CoinGecko, depois de se aproximar brevemente de US$ 62.000 no fim de semana.
+
+Para um iniciante, o mais seguro é pegar bem menos que o máximo, acompanhar o empréstimo no app e ter um plano para adicionar garantia ou pagar se os preços caírem. A Coinbase observa que pegar emprestado em vez de vender pode ajudar a adiar um ganho ou perda tributável. Consulte um profissional de impostos sobre a sua situação.
+
+## O que isso significa para iniciantes
+
+Você não precisa de empréstimo para começar em cripto, e a maioria dos novos usuários não deveria pegar um. Se a ideia é só comprar um pouco de bitcoin, uma exchange regulada como a [Coinbase](REF) é um lugar comum para começar, e o Borrow continua sendo um extra opcional para quem já tem moedas. Compare taxas, entenda a liquidação e só pegue o que conseguiria pagar sem vender. Isto não é recomendação de investimento.
+
+## O que acompanhar
+
+- Se Nova York aprova empréstimos com juros fixos e os outros tipos de garantia que a Coinbase oferece em outros estados.
+- Se a Coinbase leva a Nova York seu produto de empréstimo de USDC.
+- Quantos empréstimos serão liquidados se o bitcoin continuar caindo.
+
+!soft: Quer saber como a Coinbase protege o dinheiro dos clientes? Leia [a Coinbase é segura para iniciantes?](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

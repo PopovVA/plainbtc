@@ -1,0 +1,61 @@
+title: Coinbase abre sus préstamos con garantía cripto a Nueva York y completa los 50 estados
+page_title: Coinbase Borrow llega a Nueva York: préstamos en USDC con garantía en bitcoin en los 50 estados
+description: Los clientes de Coinbase en Nueva York ya pueden pedir préstamos en USDC con garantía en bitcoin, ether y solana; era el último estado de EE. UU. sin Coinbase Borrow. El producto ha concedido más de 3.400 millones de dólares en préstamos desde enero de 2025. Así funciona y esto puede salir mal.
+og_description: Los neoyorquinos ya pueden pedir USDC prestados con garantía en BTC, ETH o SOL en Coinbase tras la aprobación estatal, con lo que el servicio llega a los 50 estados. Los préstamos funcionan sobre Morpho en Base, el tipo es variable y una caída del precio puede provocar la liquidación.
+label: Empresas
+summary: Coinbase ha abierto sus préstamos con garantía cripto a Nueva York tras la aprobación del estado, así que los clientes de los 50 estados ya pueden pedir USDC con garantía en bitcoin. Los neoyorquinos tienen un menú más corto: BTC, ETH y SOL como garantía y solo tipo variable.
+===
+
+Los clientes de Coinbase en Nueva York ya pueden pedir dinero prestado con su cripto como garantía. Desde el 16 de noviembre, los neoyorquinos que cumplan los requisitos pueden obtener un préstamo en USDC, una stablecoin vinculada al dólar, usando bitcoin, ether o solana como garantía, según una [actualización del anuncio de préstamos de Coinbase](L2). Nueva York era el último estado que faltaba, así que el producto, llamado Coinbase Borrow, llega ya a clientes de <strong>los 50 estados de EE. UU.</strong>, informó [The Block](L1) el martes.
+
+El lanzamiento llega tras la aprobación del Departamento de Servicios Financieros del Estado de Nueva York, dijo un portavoz de Coinbase a The Block. Nueva York exige una licencia estatal propia, conocida como BitLicense, a muchas empresas cripto, y esa es una de las razones por las que los productos cripto suelen llegar allí más tarde que al resto del país.
+
+!takeaways
+- Desde el 16 de noviembre, los clientes de Coinbase en Nueva York que cumplan los requisitos pueden pedir USDC con garantía en BTC, ETH o SOL.
+- Coinbase dice que así completa el despliegue de Coinbase Borrow en los 50 estados de EE. UU., tras la aprobación del regulador financiero de Nueva York.
+- Los límites son de hasta 5 millones de dólares con garantía en bitcoin, 1 millón con ether y 100.000 con solana, según los requisitos de cada cliente.
+- En Nueva York solo hay préstamos a tipo variable. Los tipos fijos y otras garantías, como XRP y el oro tokenizado, todavía no están disponibles allí.
+
+!figure:compare
+
+## Cómo funciona Coinbase Borrow
+
+Pones como garantía cripto que ya tienes en Coinbase y recibes USDC en segundos, sin vender. Por dentro, los préstamos no los concede Coinbase. Funcionan sobre Morpho, un protocolo de préstamos de código abierto en Base, la red blockchain creada por Coinbase. Cuando pides prestado con bitcoin como garantía, Coinbase lo convierte en cbBTC, una versión envuelta de bitcoin, y lo traslada a un contrato inteligente de Morpho que lo retiene como garantía, según Coinbase.
+
+Los tipos de interés son variables y los fija automáticamente el mercado de préstamos de Morpho, así que pueden cambiar cada pocos segundos. No hay calendario fijo de devolución: tú decides cuándo amortizar el préstamo. En Coinbase, los USDC se pueden convertir en dólares estadounidenses uno a uno, que es como el prestatario convierte el préstamo en dinero para gastar.
+
+"Hemos trabajado estrechamente con los reguladores de Nueva York desde que lanzamos Coinbase Borrow el año pasado, para que los neoyorquinos también puedan acceder a efectivo sin tener que vender los criptoactivos en los que creen", dijo a The Block Jacob Frantz, responsable de productos de ingresos e inversión de Coinbase. No dio fechas de la solicitud ni de la aprobación.
+
+## Qué pueden usar los neoyorquinos y qué no
+
+La [página de ayuda](L4) de Coinbase indica que BTC, ETH y SOL son las únicas garantías para los clientes de Nueva York, y solo con préstamos a tipo variable. Los clientes de otros lugares también pueden usar como garantía XRP, Dogecoin, Cardano, Litecoin, Zcash, HYPE de Hyperliquid, tokens de ether y solana en staking y Pax Gold (PAXG), un token respaldado por oro físico. Los préstamos a tipo fijo, en los que el prestatario fija de antemano un tipo y una fecha de vencimiento, tampoco están disponibles aún en Nueva York. Tampoco lo está otro producto de Coinbase que presta los USDC de los clientes a cambio de un rendimiento.
+
+!mid_cta
+
+## Qué tamaño tiene el producto
+
+Coinbase Borrow se lanzó en enero de 2025. Desde entonces ha concedido <strong>más de 3.400 millones de dólares</strong> en préstamos, dijo Morpho en una [publicación de su blog](L3) sobre la expansión. Morpho situó el saldo pendiente en más de 1.600 millones de dólares, respaldado por más de 2.800 millones en garantías. The Block, citando a Morpho, publicó cifras algo más altas: 1.700 millones y 3.200 millones.
+
+!figure:fact
+
+## El riesgo principal: la liquidación
+
+Un préstamo con garantía cripto puede torcerse rápido cuando caen los precios. Si el préstamo más los intereses crece demasiado frente al valor de tu garantía, Coinbase dice que la posición se liquida, es decir, se vende garantía para pagar la deuda. Ese riesgo es real ahora mismo. El bitcoin cotizaba cerca de 63.700 dólares hacia mediodía, hora del centro de EE. UU., el martes, con una caída de alrededor del 2% en 24 horas, según CoinGecko, después de acercarse brevemente a los 62.000 dólares el fin de semana.
+
+Para un principiante, lo más prudente es pedir mucho menos del máximo, vigilar el préstamo en la app y tener un plan para añadir garantía o devolver el dinero si los precios bajan. Coinbase señala que pedir prestado en lugar de vender puede ayudar a aplazar una ganancia o pérdida fiscal. Consulta con un profesional fiscal tu caso concreto.
+
+## Qué significa para principiantes
+
+No necesitas un préstamo para empezar con cripto, y la mayoría de los usuarios nuevos no debería pedir uno. Si solo quieres comprar una pequeña cantidad de bitcoin, un exchange regulado como [Coinbase](REF) es un lugar habitual para empezar, y Borrow sigue siendo un extra opcional para quien ya tiene monedas. Compara comisiones, entiende la liquidación y pide solo lo que podrías devolver sin vender. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Si Nueva York aprueba los préstamos a tipo fijo y los demás tipos de garantía que Coinbase ofrece en otros estados.
+- Si Coinbase lleva a Nueva York su producto de préstamo de USDC.
+- Cuántos préstamos se liquidan si el bitcoin sigue cayendo.
+
+!soft: ¿Te preguntas cómo protege Coinbase los fondos de sus clientes? Lee [¿es Coinbase seguro para principiantes?](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

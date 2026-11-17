@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-trezor-skladon-breach.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline of the Skladon breach according to Trezor: Aug. 9, start of the window of orders in the exported data; Nov. 7, the attacker breaks into shipping partner Skladon's systems; Nov. 15, Skladon notifies Trezor; Nov. 16, Trezor discloses the breach and emails affected customers",
+      "es": "Cronología de la filtración en Skladon según Trezor: 9 de agosto, inicio del periodo de pedidos incluidos en los datos exportados; 7 de noviembre, el atacante entra en los sistemas de Skladon, socio de envíos; 15 de noviembre, Skladon avisa a Trezor; 16 de noviembre, Trezor revela la filtración y escribe a los clientes afectados",
+      "pt": "Linha do tempo do vazamento na Skladon segundo a Trezor: 9 de agosto, início do período de pedidos incluídos nos dados exportados; 7 de novembro, o invasor entra nos sistemas da Skladon, parceira de entregas; 15 de novembro, a Skladon avisa a Trezor; 16 de novembro, a Trezor divulga o vazamento e envia e-mail aos clientes afetados",
+      "fr": "Chronologie de la fuite chez Skladon selon Trezor : 9 août, début de la période des commandes contenues dans les données exportées ; 7 novembre, l'attaquant pénètre dans les systèmes de Skladon, partenaire de livraison ; 15 novembre, Skladon prévient Trezor ; 16 novembre, Trezor rend la fuite publique et écrit aux clients concernés",
+      "de": "Zeitleiste des Skladon-Datenlecks laut Trezor: 9. August, Beginn des Bestellzeitraums in den exportierten Daten; 7. November, der Angreifer dringt in die Systeme des Versandpartners Skladon ein; 15. November, Skladon informiert Trezor; 16. November, Trezor macht das Leck öffentlich und schreibt betroffene Kunden an",
+      "ru": "Хронология утечки у Skladon по данным Trezor: 9 августа, начало периода заказов, попавших в выгруженные данные; 7 ноября, злоумышленник проникает в системы службы доставки Skladon; 15 ноября, Skladon уведомляет Trezor; 16 ноября, Trezor сообщает об утечке и пишет пострадавшим клиентам",
+      "tr": "Trezor'a göre Skladon sızıntısının zaman çizelgesi: 9 Ağustos, dışa aktarılan verideki sipariş döneminin başlangıcı; 7 Kasım, saldırgan kargo ortağı Skladon'un sistemlerine giriyor; 15 Kasım, Skladon Trezor'u bilgilendiriyor; 16 Kasım, Trezor sızıntıyı duyuruyor ve etkilenen müşterilere e-posta gönderiyor",
+      "id": "Linimasa kebocoran di Skladon menurut Trezor: 9 Agustus, awal periode pesanan yang ada di data yang diekspor; 7 November, penyerang membobol sistem mitra pengiriman Skladon; 15 November, Skladon memberi tahu Trezor; 16 November, Trezor mengumumkan kebocoran dan mengirim email ke pelanggan yang terdampak",
+      "ja": "Trezorによる配送パートナーSkladonの情報流出の時系列：8月9日、流出データに含まれる注文期間の開始、11月7日、攻撃者がSkladonのシステムに侵入、11月15日、SkladonがTrezorに通知、11月16日、Trezorが流出を公表し影響を受けた顧客にメールで連絡",
+      "ko": "트레저가 밝힌 배송 협력사 스클라돈 유출 타임라인: 8월 9일, 유출된 데이터에 포함된 주문 기간 시작, 11월 7일, 공격자가 스클라돈 시스템에 침입, 11월 15일, 스클라돈이 트레저에 통보, 11월 16일, 트레저가 유출 사실을 공개하고 피해 고객에게 이메일 발송"
+    },
+    "caption": {
+      "en": "Source: Trezor",
+      "es": "Fuente: Trezor",
+      "pt": "Fonte: Trezor",
+      "fr": "Source : Trezor",
+      "de": "Quelle: Trezor",
+      "ru": "Источник: Trezor",
+      "tr": "Kaynak: Trezor",
+      "id": "Sumber: Trezor",
+      "ja": "出典: Trezor",
+      "ko": "출처: Trezor"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-trezor-27000-orders.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: about 27,000 Trezor orders exposed in the Skladon breach, including names, phone numbers, email and delivery addresses, products and prices; no wallet backups, PINs or passphrases, according to Trezor",
+      "es": "Tarjeta de datos: unos 27.000 pedidos de Trezor expuestos en la filtración de Skladon, con nombres, teléfonos, correos y direcciones de entrega, productos y precios; sin copias de seguridad de carteras, PIN ni frases de contraseña, según Trezor",
+      "pt": "Cartão de dados: cerca de 27.000 pedidos da Trezor expostos no vazamento da Skladon, com nomes, telefones, e-mails e endereços de entrega, produtos e preços; sem backups de carteiras, PINs ou frases-senha, segundo a Trezor",
+      "fr": "Fiche chiffrée : environ 27 000 commandes Trezor exposées dans la fuite chez Skladon, avec noms, numéros de téléphone, adresses e-mail et de livraison, produits et prix ; aucune sauvegarde de portefeuille, aucun code PIN ni phrase secrète, selon Trezor",
+      "de": "Faktenkarte: rund 27.000 Trezor-Bestellungen im Skladon-Leck offengelegt, mit Namen, Telefonnummern, E-Mail- und Lieferadressen, Produkten und Preisen; keine Wallet-Backups, PINs oder Passphrasen, so Trezor",
+      "ru": "Карточка: около 27 000 заказов Trezor раскрыты при утечке у Skladon, включая имена, телефоны, электронные и почтовые адреса доставки, товары и цены; резервные копии кошельков, PIN-коды и парольные фразы не затронуты, по данным Trezor",
+      "tr": "Bilgi kartı: Skladon sızıntısında yaklaşık 27.000 Trezor siparişi açığa çıktı; adlar, telefon numaraları, e-posta ve teslimat adresleri, ürünler ve fiyatlar dahil; Trezor'a göre cüzdan yedekleri, PIN'ler ve parolalar etkilenmedi",
+      "id": "Kartu fakta: sekitar 27.000 pesanan Trezor terekspos dalam kebocoran Skladon, termasuk nama, nomor telepon, alamat email dan pengiriman, produk, dan harga; tanpa cadangan dompet, PIN, atau passphrase, menurut Trezor",
+      "ja": "ファクトカード：Skladonの情報流出で約2万7000件のTrezor注文が流出、氏名、電話番号、メールアドレスと配送先住所、購入製品と価格を含む。Trezorによるとウォレットのバックアップ、PIN、パスフレーズは含まれない",
+      "ko": "팩트 카드: 스클라돈 유출로 트레저 주문 약 2만 7000건 노출, 이름, 전화번호, 이메일과 배송 주소, 구매 제품과 가격 포함. 트레저에 따르면 지갑 백업, PIN, 패스프레이즈는 포함되지 않음"
+    },
+    "caption": {
+      "en": "Source: Trezor",
+      "es": "Fuente: Trezor",
+      "pt": "Fonte: Trezor",
+      "fr": "Source : Trezor",
+      "de": "Quelle: Trezor",
+      "ru": "Источник: Trezor",
+      "tr": "Kaynak: Trezor",
+      "id": "Sumber: Trezor",
+      "ja": "出典: Trezor",
+      "ko": "출처: Trezor"
+    }
+  }
+]

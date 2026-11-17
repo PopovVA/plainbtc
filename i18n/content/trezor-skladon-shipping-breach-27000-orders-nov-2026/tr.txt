@@ -1,0 +1,61 @@
+title: Trezor: kargo ortağındaki sızıntı yaklaşık 27.000 donanım cüzdanı siparişinin verilerini açığa çıkardı
+page_title: Trezor'un kargo ortağı Skladon hacklendi: 27.000 sipariş açığa çıktı, ne yapmalı
+description: Donanım cüzdanı üreticisi Trezor 16 Kasım'da, hackerların kargo ortağı Skladon'a sızdığını ve muhtemelen yaklaşık 27.000 siparişe ait adları, adresleri, telefon numaralarını ve sipariş ayrıntılarını aldığını açıkladı. Yedekler ve PIN'ler etkilenmedi, ancak dolandırıcılık aramaları başladı.
+og_description: Yaklaşık 27.000 Trezor siparişine ait adlar, adresler, telefon numaraları ve ödenen tutarlar, kargo ortağı Skladon'daki sızıntıda muhtemelen dışa aktarıldı. Kriptolarınız güvende, ancak inandırıcı dolandırıcılık girişimlerine hazırlıklı olun. Yapmanız gerekenler.
+label: Güvenlik
+summary: Trezor, hackerların kargo ortağı Skladon'a sızdığını ve yaklaşık 27.000 donanım cüzdanı siparişine ait adları, adresleri, telefonları ve sipariş ayrıntılarını muhtemelen dışa aktardığını söylüyor. Yedekler ve PIN'ler etkilenmedi, ancak bazı müşteriler dolandırıcılık aramaları aldığını bildiriyor.
+===
+
+En bilinen donanım cüzdanı üreticilerinden Trezor (kripto anahtarlarınızı çevrim dışı saklayan küçük cihazlar), 16 Kasım Pazartesi günü kargo ortaklarından birinin hacklendiğini açıkladı. Şirket, saldırganın 9 Ağustos ile 7 Kasım 2026 arasında verilen <strong>yaklaşık 27.000 siparişin</strong> verilerini dışa aktardığını düşünüyor. Bu bilgi [Trezor blogundaki bir yazıda](L1) yer aldı.
+
+Skladon adlı lojistik şirketi olan ortak, sızıntıyı 15 Kasım'da Trezor'a bildirdi. Sızma 7 Kasım'da gerçekleşmişti. Trezor kendi sistemlerinin ele geçirilmediğini ve cihazlarının güvende olduğunu söyledi.
+
+!takeaways
+- Hackerlar 7 Kasım'da Trezor'un kargo ortağı Skladon'a sızdı. Trezor, 9 Ağustos ile 7 Kasım arasında verilen yaklaşık 27.000 siparişin verilerinin dışa aktarıldığını düşünüyor.
+- Veriler tam ad, telefon numarası, e-posta ve teslimat adresinin yanı sıra her müşterinin ne aldığını ve ne ödediğini içeriyor.
+- Cüzdan yedekleri, PIN'ler ve parolalar etkilenmedi. Trezor'a göre bazı müşteriler dolandırıcılık aramaları aldı bile.
+- Trezor sipariş verilerini saklama süresini 90 günden 45 güne indiriyor ve artık 18 Avrupa ülkesinde anonim teslim alma sunuyor.
+
+!figure:timeline
+
+## Neler açığa çıktı
+
+Trezor'a göre çalınan kayıtlarda her müşterinin tam adı, telefon numarası, teslimat adresi, e-posta adresi, sipariş tarihi, satın alınan ürün ve fiyatı yer alıyor. Şirket, hâlâ ulaşabildiği tüm etkilenen müşterilere e-posta gönderdi. 9-14 Ağustos arasında sipariş veren küçük bir grup da etkilenmiş olabilir, ancak onlara e-posta gönderilemiyor, çünkü Trezor 90 günlük politikası gereği verilerini zaten anonimleştirmişti. Trezor bu kişileri blogu ve X'teki bir gönderiyle bilgilendirdiğini söyledi.
+
+En önemlisi saldırganın ele geçiremedikleri. Şirket, "Cüzdan yedekleri, PIN'ler veya parolalar etkilenmedi. Ne Trezor ne de Skladon bunları hiçbir zaman saklamaz" diye yazdı. Cüzdan yedeği, cüzdanı herhangi bir cihazda yeniden kurmanızı sağlayan kurtarma kelimeleri listesidir. Bu kelimeler başka birinin elinde olmadığı sürece, sızan bir adres tek başına kriptolarınızı hareket ettiremez.
+
+Trezor'a göre Skladon, Trezor siparişlerini birçok ülkeye teslim ediyor. [Decrypt](L2), Trezor'un açıklamasına göre Skladon'un ABD'ye gönderim yapmadığını, dolayısıyla Amerikalı alıcıların bu olaydan etkilenmediğini bildirdi.
+
+!figure:fact
+
+## Sızan bir adres neden yine de risk
+
+Tehlike, suçluların bu verilerle neler yapabileceğinde. Bir ad, ev adresi ve birinin kripto cüzdanı aldığına dair kanıt, inandırıcı bir dolandırıcılık kurgulamayı kolaylaştırıyor. Trezor, dolandırıcıların aramalarda, mesajlarda, e-postalarda ve hatta mektuplarda model ve ödenen fiyat gibi gerçek sipariş ayrıntılarını kullanabileceği uyarısında bulundu. Şirkete göre bazı müşteriler dolandırıcılık aramaları aldığını bildirdi. Etkilenen alıcılardan fiziksel güvenliklerine yönelik risklere karşı da dikkatli olmaları ve tehditkâr görünen bir şey alırlarsa önce yerel polise başvurmaları istendi.
+
+!mid_cta
+
+Bu ilk değil. [The Block](L3), bunun Ağustos'tan bu yana Trezor'un bir kargo ortağındaki ikinci sızıntı olduğunu belirtti. Decrypt, üç aydan biraz fazla bir sürede üç tedarikçi olayı saydı: Ağustos'ta lojistik firması ShipMonk'taki ve ek bir inceleme sonrası etkilenen sayısı 80.689 kişiye çıkan sızıntı, Eylül'de e-posta sağlayıcısı Brevo'da 347.149 e-posta adresinin dışa aktarıldığı sızıntı ve şimdi Skladon.
+
+Trezor, "Müşteri iletişim bilgileri ve adreslerinin ortaklarımızdan birini içeren bir olayda ilk kez açığa çıkmadığını biliyoruz" diye yazdı ve ortaklarını ve onlara koyduğu güvenlik kurallarını gözden geçirdiğini ekledi.
+
+## Trezor neleri değiştiriyor
+
+Trezor, 18 Avrupa ülkesindeki müşterilerin artık anonim teslim almayı seçebileceğini, siparişlerini bir paket dolabından veya teslim noktasından alarak ad ve ev adreslerinin şirkete hiç ulaşmamasını sağlayabileceğini söyledi. Bu seçeneği en kısa sürede ABD'de de sunmak için çalıştığını belirtti. Ayrıca sipariş verilerini saklama süresini 90 günden 45 güne indiriyor ve bunu daha da düşürmeyi hedefliyor. Şirket ilgili veri koruma kurumunu bilgilendirdi ve soruşturma sürüyor.
+
+## Yeni başlayanlar için anlamı
+
+Hangi markadan olursa olsun bir donanım cüzdanınız varsa temel kural değişmiyor: kurtarma kelimelerinizi asla kimseye yazmayın veya söylemeyin ve cihazın kendisi dışında hiçbir yere girmeyin. Trezor sizi asla aramayacağını ve cüzdan yedeğinizi istemeyeceğini söylüyor. Bir siparişle ilgili beklenmedik her aramayı, mesajı, e-postayı veya mektubu, ne aldığınızı belirtse bile şüpheli kabul edin. Böyle bir mesajdaki bağlantılara, QR kodlarına veya telefon numaralarına uymayın. Şirketin resmi sitesine kendiniz gidin.
+
+Kripto sahibi olduğunuzu kimlerin bildiğine dikkat etmek de işe yarar. Kriptolarınızı nasıl saklayacağınıza hâlâ karar veriyorsanız, bazı kişiler [Coinbase](REF) gibi büyük bir borsayla başlayıp daha sonra donanım cüzdanına geçiyor. İki seçeneğin de riskleri var, bu yüzden önce artılarını ve eksilerini öğrenin. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Trezor veya Skladon'un saldırganın Skladon sistemlerine nasıl girdiğini açıklayıp açıklamayacağı.
+- Trezor alıcılarını hedef alan dolandırıcılık aramalarının ve mektuplarının şimdiye kadarki bildirimlerin ötesine yayılıp yayılmayacağı.
+- Anonim teslim almanın ABD'deki müşterilere ne zaman geleceği.
+
+!soft: Size hangi cüzdan türünün uygun olduğundan emin değil misiniz? [Kripto cüzdanı nedir: emanetçi ve kendi kendine saklama](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazısını okuyun.
+
+!end_cta
+
+!disclosure

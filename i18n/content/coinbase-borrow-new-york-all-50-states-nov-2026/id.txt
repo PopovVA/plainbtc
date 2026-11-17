@@ -1,0 +1,61 @@
+title: Coinbase membuka pinjaman berjaminan kripto di New York, kini hadir di 50 negara bagian
+page_title: Coinbase Borrow hadir di New York: pinjaman USDC berjaminan bitcoin di 50 negara bagian
+description: Pelanggan Coinbase di New York kini bisa meminjam USDC dengan jaminan bitcoin, ether, dan solana; New York adalah negara bagian AS terakhir tanpa Coinbase Borrow. Produk ini telah menyalurkan lebih dari US$3,4 miliar pinjaman sejak Januari 2025. Begini cara kerjanya dan apa yang bisa salah.
+og_description: Warga New York kini bisa meminjam USDC dengan jaminan BTC, ETH, atau SOL di Coinbase setelah persetujuan negara bagian, sehingga layanan ini hadir di 50 negara bagian. Pinjaman berjalan lewat Morpho di Base, bunganya mengambang, dan penurunan harga bisa memicu likuidasi.
+label: Bisnis
+summary: Coinbase membuka pinjaman berjaminan kripto di New York setelah persetujuan negara bagian, sehingga pelanggan di 50 negara bagian kini bisa meminjam USDC dengan jaminan bitcoin. Pilihan untuk warga New York lebih sedikit: jaminan hanya BTC, ETH, dan SOL, dengan bunga mengambang saja.
+===
+
+Pelanggan Coinbase di New York kini bisa meminjam uang dengan jaminan kripto mereka. Sejak 16 November, warga New York yang memenuhi syarat bisa mengambil pinjaman dalam USDC, stablecoin yang dipatok ke dolar, dengan bitcoin, ether, atau solana sebagai jaminan, menurut [pembaruan pengumuman pinjaman Coinbase](L2). New York adalah negara bagian terakhir yang belum tercakup, sehingga produk bernama Coinbase Borrow ini kini menjangkau pelanggan di <strong>50 negara bagian AS</strong>, lapor [The Block](L1) pada Selasa.
+
+Peluncuran ini menyusul persetujuan dari Departemen Layanan Keuangan Negara Bagian New York, kata juru bicara Coinbase kepada The Block. New York mewajibkan banyak perusahaan kripto memiliki lisensi negara bagian sendiri yang disebut BitLicense, salah satu alasan produk kripto sering tiba di sana lebih lambat dibanding wilayah lain di AS.
+
+!takeaways
+- Sejak 16 November, pelanggan Coinbase di New York yang memenuhi syarat bisa meminjam USDC dengan jaminan BTC, ETH, atau SOL.
+- Coinbase mengatakan ini melengkapi peluncuran Coinbase Borrow di 50 negara bagian AS, setelah persetujuan regulator keuangan New York.
+- Batasnya hingga US$5 juta dengan jaminan bitcoin, US$1 juta dengan ether, dan US$100.000 dengan solana, tergantung kelayakan.
+- Warga New York hanya mendapat pinjaman berbunga mengambang. Bunga tetap dan jaminan lain, seperti XRP dan emas tokenisasi, belum tersedia di sana.
+
+!figure:compare
+
+## Cara kerja Coinbase Borrow
+
+Anda menjaminkan kripto yang sudah Anda simpan di Coinbase dan menerima USDC dalam hitungan detik, tanpa menjual. Di balik layar, pinjaman tidak diberikan oleh Coinbase sendiri. Pinjaman berjalan di Morpho, protokol pinjaman sumber terbuka di Base, jaringan blockchain yang dibangun Coinbase. Saat Anda meminjam dengan jaminan bitcoin, Coinbase mengubahnya menjadi cbBTC, versi bitcoin yang "dibungkus", lalu memindahkannya ke kontrak pintar Morpho yang menahannya sebagai jaminan, menurut Coinbase.
+
+Suku bunga bersifat mengambang dan ditetapkan otomatis oleh pasar pinjaman Morpho, sehingga bisa berubah setiap beberapa detik. Tidak ada jadwal pelunasan tetap: Anda yang menentukan kapan melunasi pinjaman. Di Coinbase, USDC bisa ditukar ke dolar AS satu banding satu, dan begitulah peminjam mengubah pinjaman menjadi uang untuk dibelanjakan.
+
+"Kami telah bekerja sama erat dengan regulator di New York sejak meluncurkan Coinbase Borrow tahun lalu, agar warga New York juga bisa mendapatkan uang tunai tanpa harus menjual aset kripto yang mereka yakini," kata Jacob Frantz, kepala produk pendapatan dan investasi Coinbase, kepada The Block. Ia tidak menyebutkan tanggal pengajuan maupun persetujuan.
+
+## Apa yang bisa dan tidak bisa dipakai warga New York
+
+[Halaman bantuan](L4) Coinbase mencantumkan BTC, ETH, dan SOL sebagai satu-satunya jaminan untuk pelanggan New York, dengan pinjaman berbunga mengambang saja. Pelanggan di tempat lain juga bisa meminjam dengan jaminan XRP, Dogecoin, Cardano, Litecoin, Zcash, HYPE milik Hyperliquid, token ether dan solana yang di-stake, serta Pax Gold (PAXG), token yang didukung emas fisik. Pinjaman berbunga tetap, di mana peminjam mengunci suku bunga dan tanggal jatuh tempo sejak awal, juga belum tersedia di New York. Begitu pula produk Coinbase terpisah yang meminjamkan USDC pelanggan untuk mendapat imbal hasil.
+
+!mid_cta
+
+## Seberapa besar produk ini
+
+Coinbase Borrow diluncurkan pada Januari 2025. Sejak itu, produk ini telah menyalurkan <strong>lebih dari US$3,4 miliar</strong> pinjaman, kata Morpho dalam [unggahan blog](L3) tentang perluasan ini. Morpho menyebut jumlah yang masih beredar lebih dari US$1,6 miliar, dijamin lebih dari US$2,8 miliar agunan. The Block, mengutip Morpho, melaporkan angka sedikit lebih tinggi, yaitu US$1,7 miliar dan US$3,2 miliar.
+
+!figure:fact
+
+## Risiko utama: likuidasi
+
+Pinjaman berjaminan kripto bisa cepat bermasalah saat harga turun. Jika pinjaman plus bunga menjadi terlalu besar dibanding nilai jaminan Anda, Coinbase mengatakan posisi akan dilikuidasi, artinya jaminan dijual untuk melunasi utang. Risiko ini nyata saat ini. Bitcoin diperdagangkan di sekitar US$63.700 sekitar tengah hari waktu Central AS pada Selasa, turun sekitar 2% dalam 24 jam, menurut CoinGecko, setelah sempat mendekati US$62.000 pada akhir pekan.
+
+Bagi pemula, cara paling aman adalah meminjam jauh di bawah batas maksimum, memantau pinjaman di aplikasi, dan punya rencana untuk menambah jaminan atau melunasi jika harga turun. Coinbase mencatat bahwa meminjam alih-alih menjual dapat membantu menunda keuntungan atau kerugian kena pajak. Konsultasikan situasi Anda dengan ahli pajak.
+
+## Artinya bagi pemula
+
+Anda tidak perlu pinjaman untuk mulai berkripto, dan sebagian besar pengguna baru sebaiknya tidak mengambilnya. Jika Anda hanya ingin membeli sedikit bitcoin, bursa teregulasi seperti [Coinbase](REF) adalah salah satu tempat umum untuk memulai, dan Borrow tetap menjadi fitur tambahan opsional bagi yang sudah memiliki koin. Bandingkan biaya, pahami likuidasi, dan pinjam hanya sebesar yang bisa Anda lunasi tanpa menjual. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Apakah New York menyetujui pinjaman berbunga tetap dan jenis jaminan lain yang ditawarkan Coinbase di tempat lain.
+- Apakah Coinbase membawa produk pinjaman USDC-nya ke New York.
+- Berapa banyak pinjaman yang dilikuidasi jika bitcoin terus turun.
+
+!soft: Ingin tahu bagaimana Coinbase melindungi dana pelanggan? Baca [apakah Coinbase aman untuk pemula](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

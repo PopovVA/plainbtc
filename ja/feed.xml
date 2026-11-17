@@ -8,6 +8,22 @@
     <lastBuildDate>Tue, 17 Nov 2026 15:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Coinbase、暗号資産担保ローンをニューヨーク州でも開始、全50州に拡大</title>
+      <link>https://plainbtc.com/ja/articles/coinbase-borrow-new-york-all-50-states-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/coinbase-borrow-new-york-all-50-states-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <category>ビジネス</category>
+      <description>Coinbaseは州の承認を受けて暗号資産担保ローンをニューヨーク州でも開始し、全50州の顧客がビットコインを担保にUSDCを借りられるようになりました。ニューヨーク州では担保はBTC、ETH、SOLのみ、金利は変動制のみと選択肢が限られます。</description>
+    </item>
+    <item>
+      <title>Trezor、配送パートナーの情報流出でハードウェアウォレット注文約27,000件のデータが流出したと発表</title>
+      <link>https://plainbtc.com/ja/articles/trezor-skladon-shipping-breach-27000-orders-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/trezor-skladon-shipping-breach-27000-orders-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <category>セキュリティ</category>
+      <description>Trezorによると、配送パートナーのSkladonがハッキングされ、ハードウェアウォレット注文約27,000件の氏名、住所、電話番号、注文内容が持ち出された可能性があります。バックアップやPINは含まれていませんが、一部の顧客はすでに詐欺電話を受けています。</description>
+    </item>
+    <item>
       <title>ハッカーがOptimizelyを悪用、Ledgerを含む178の大手サイトに暗号資産を盗むコードを仕込む</title>
       <link>https://plainbtc.com/ja/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/ja/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</guid>

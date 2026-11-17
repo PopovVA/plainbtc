@@ -1,0 +1,61 @@
+title: Trezor: Datenleck bei Versandpartner legt Daten von rund 27.000 Hardware-Wallet-Bestellungen offen
+page_title: Trezor-Versandpartner Skladon gehackt: 27.000 Bestellungen betroffen, was jetzt zu tun ist
+description: Hardware-Wallet-Hersteller Trezor teilte am 16. November mit, dass Hacker beim Versandpartner Skladon eingedrungen sind und wahrscheinlich Namen, Adressen, Telefonnummern und Bestelldetails von rund 27.000 Bestellungen erbeutet haben. Backups und PINs sind nicht betroffen, doch erste Betrugsanrufe laufen.
+og_description: Namen, Adressen, Telefonnummern und Kaufpreise von rund 27.000 Trezor-Bestellungen wurden bei einem Leck beim Versandpartner Skladon wahrscheinlich exportiert. Ihre Coins sind sicher, aber rechnen Sie mit überzeugenden Betrugsversuchen. Das sollten Sie tun.
+label: Sicherheit
+summary: Trezor zufolge sind Hacker beim Versandpartner Skladon eingedrungen und haben wahrscheinlich Namen, Adressen, Telefonnummern und Bestelldetails von rund 27.000 Hardware-Wallet-Bestellungen exportiert. Backups und PINs sind nicht betroffen, doch manche Kunden melden bereits Betrugsanrufe.
+===
+
+Trezor, einer der bekanntesten Hersteller von Hardware-Wallets (kleinen Geräten, die die Schlüssel zu Ihren Kryptowerten offline aufbewahren), hat am Montag, dem 16. November, mitgeteilt, dass einer seiner Versandpartner gehackt wurde. Das Unternehmen geht davon aus, dass der Angreifer Daten von <strong>rund 27.000 Bestellungen</strong> exportiert hat, die zwischen dem 9. August und dem 7. November 2026 aufgegeben wurden, heißt es in einem [Beitrag im Trezor-Blog](L1).
+
+Der Partner, ein Logistikunternehmen namens Skladon, informierte Trezor am 15. November über den Einbruch. Das Eindringen selbst geschah am 7. November. Trezor erklärte, die eigenen Systeme seien nicht kompromittiert worden und die Geräte seien sicher.
+
+!takeaways
+- Hacker drangen am 7. November beim Trezor-Versandpartner Skladon ein. Trezor geht davon aus, dass Daten von rund 27.000 Bestellungen aus der Zeit vom 9. August bis 7. November exportiert wurden.
+- Die Daten umfassen vollständige Namen, Telefonnummern, E-Mail- und Lieferadressen sowie, was jeder Kunde gekauft und bezahlt hat.
+- Wallet-Backups, PINs und Passphrasen sind nicht betroffen. Trezor zufolge haben einige Kunden bereits Betrugsanrufe erhalten.
+- Trezor verkürzt die Speicherdauer für Bestelldaten von 90 auf 45 Tage und bietet in 18 europäischen Ländern nun anonyme Abholung an.
+
+!figure:timeline
+
+## Was offengelegt wurde
+
+Laut Trezor enthalten die gestohlenen Datensätze den vollständigen Namen jedes Kunden, Telefonnummer, Lieferadresse, E-Mail-Adresse, Bestelldatum, das gekaufte Produkt und seinen Preis. Das Unternehmen hat alle betroffenen Kunden angeschrieben, die es noch erreichen kann. Eine kleine Gruppe, die zwischen dem 9. und 14. August bestellt hat, könnte ebenfalls betroffen sein, lässt sich aber nicht per E-Mail erreichen, weil Trezor ihre Daten nach seiner 90-Tage-Regel bereits anonymisiert hatte. Trezor informiert sie nach eigenen Angaben über den Blog und einen Beitrag auf X.
+
+Entscheidend ist, was der Angreifer nicht bekommen hat. „Wallet-Backups, PINs oder Passphrasen waren nicht betroffen. Weder Trezor noch Skladon speichern sie jemals“, schrieb das Unternehmen. Das Wallet-Backup ist die Liste der Wiederherstellungswörter, mit der sich eine Wallet auf jedem Gerät neu aufsetzen lässt. Solange niemand sonst diese Wörter kennt, kann eine geleakte Adresse allein Ihre Coins nicht bewegen.
+
+Skladon liefert Trezor-Bestellungen in viele Länder, so Trezor. [Decrypt](L2) berichtete, dass Skladon laut Trezor nicht in die USA liefert, amerikanische Käufer von diesem Vorfall also nicht betroffen sind.
+
+!figure:fact
+
+## Warum eine geleakte Adresse trotzdem ein Risiko ist
+
+Die Gefahr liegt darin, was Kriminelle mit den Daten anfangen können. Name, Wohnadresse und der Nachweis, dass jemand eine Krypto-Wallet gekauft hat, machen es leicht, einen überzeugenden Betrug aufzuziehen. Trezor warnte, dass Betrüger echte Bestelldetails wie Modell und bezahlten Preis in Anrufen, SMS, E-Mails oder sogar Briefen nennen könnten. Einige Kunden hätten bereits Betrugsanrufe gemeldet, so das Unternehmen. Betroffene sollen außerdem auf Risiken für ihre körperliche Sicherheit achten und sich zuerst an die örtliche Polizei wenden, wenn sich etwas bedrohlich anfühlt.
+
+!mid_cta
+
+Es ist nicht das erste Mal. [The Block](L3) wies darauf hin, dass es das zweite Datenleck bei einem Trezor-Versandpartner seit August ist. Decrypt zählte drei Vorfälle bei Dienstleistern in gut drei Monaten: einen Einbruch beim Logistiker ShipMonk im August, dessen Zahl nach einer weiteren Untersuchung auf 80.689 Personen stieg, einen Einbruch beim E-Mail-Anbieter Brevo im September, bei dem 347.149 E-Mail-Adressen exportiert wurden, und nun Skladon.
+
+„Wir wissen, dass dies nicht das erste Mal ist, dass Kontaktdaten und Adressen von Kunden bei einem Vorfall mit einem unserer Partner offengelegt wurden“, schrieb Trezor und fügte hinzu, man überprüfe die Partner und die Sicherheitsvorgaben für sie.
+
+## Was Trezor ändert
+
+Trezor zufolge können Kunden in 18 europäischen Ländern jetzt die anonyme Abholung wählen und ihre Bestellung an einer Packstation oder Abholstelle abholen, sodass Name und Wohnadresse das Unternehmen nie erreichen. Man arbeite daran, die Option so bald wie möglich auch in den USA anzubieten. Außerdem verkürzt Trezor die Speicherdauer für Bestelldaten von 90 auf 45 Tage, mit dem Ziel, noch weiter herunterzugehen. Das Unternehmen hat die zuständige Datenschutzbehörde informiert, die Untersuchung läuft.
+
+## Was das für Einsteiger bedeutet
+
+Wenn Sie eine Hardware-Wallet besitzen, egal von welchem Hersteller, gilt weiter die wichtigste Regel: Tippen oder sagen Sie Ihre Wiederherstellungswörter niemals jemandem, und geben Sie sie nirgendwo ein außer auf dem Gerät selbst. Trezor sagt, es werde Sie niemals anrufen oder nach Ihrem Wallet-Backup fragen. Behandeln Sie jeden unerwarteten Anruf, jede SMS, E-Mail oder jeden Brief zu einer Bestellung als verdächtig, selbst wenn darin steht, was Sie gekauft haben. Folgen Sie keinen Links, QR-Codes oder Telefonnummern aus einer solchen Nachricht. Rufen Sie die offizielle Website des Unternehmens selbst auf.
+
+Hilfreich ist auch, zurückhaltend damit zu sein, wer weiß, dass Sie Krypto besitzen. Wenn Sie noch überlegen, wie Sie Ihre Coins aufbewahren, beginnen manche bei einer großen Börse wie [Coinbase](REF) und wechseln später zu einer Hardware-Wallet. Beide Wege haben Risiken, informieren Sie sich also zuerst über Vor- und Nachteile. Dies ist keine Anlageberatung.
+
+## Worauf jetzt zu achten ist
+
+- Ob Trezor oder Skladon erklären, wie der Angreifer in die Systeme von Skladon gelangt ist.
+- Ob sich Betrugsanrufe und Briefe an Trezor-Käufer über die bisherigen Meldungen hinaus ausbreiten.
+- Wann die anonyme Abholung für Kunden in den USA startet.
+
+!soft: Unsicher, welche Wallet zu Ihnen passt? Lesen Sie [was eine Krypto-Wallet ist: Verwahrung vs. Selbstverwahrung](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

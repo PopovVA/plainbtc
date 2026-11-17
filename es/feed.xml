@@ -8,6 +8,22 @@
     <lastBuildDate>Tue, 17 Nov 2026 15:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/es/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Coinbase abre sus préstamos con garantía cripto a Nueva York y completa los 50 estados</title>
+      <link>https://plainbtc.com/es/articles/coinbase-borrow-new-york-all-50-states-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/coinbase-borrow-new-york-all-50-states-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Empresas</category>
+      <description>Coinbase ha abierto sus préstamos con garantía cripto a Nueva York tras la aprobación del estado, así que los clientes de los 50 estados ya pueden pedir USDC con garantía en bitcoin. Los neoyorquinos tienen un menú más corto: BTC, ETH y SOL como garantía y solo tipo variable.</description>
+    </item>
+    <item>
+      <title>Trezor dice que una filtración en su socio de envíos expuso datos de unos 27.000 pedidos de carteras físicas</title>
+      <link>https://plainbtc.com/es/articles/trezor-skladon-shipping-breach-27000-orders-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/trezor-skladon-shipping-breach-27000-orders-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Seguridad</category>
+      <description>Trezor dice que unos hackers entraron en su socio de envíos Skladon y probablemente exportaron nombres, direcciones, teléfonos y detalles de unos 27.000 pedidos de carteras físicas. Las copias de seguridad y los PIN no se vieron afectados, pero algunos clientes ya reciben llamadas fraudulentas.</description>
+    </item>
+    <item>
       <title>Hackers usaron Optimizely para colocar código que roba criptomonedas en 178 grandes webs, entre ellas Ledger</title>
       <link>https://plainbtc.com/es/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/es/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</guid>

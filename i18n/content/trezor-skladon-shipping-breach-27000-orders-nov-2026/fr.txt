@@ -1,0 +1,61 @@
+title: Trezor affirme qu'une fuite chez son partenaire de livraison a exposé les données d'environ 27 000 commandes de portefeuilles matériels
+page_title: Skladon, partenaire de livraison de Trezor, piraté : 27 000 commandes exposées, que faire
+description: Le fabricant de portefeuilles matériels Trezor a indiqué le 16 novembre que des pirates sont entrés chez son partenaire de livraison Skladon et ont probablement emporté noms, adresses, numéros de téléphone et détails d'environ 27 000 commandes. Ni sauvegardes ni codes PIN, mais les appels frauduleux ont commencé.
+og_description: Noms, adresses, numéros de téléphone et montants payés pour environ 27 000 commandes Trezor ont probablement été exportés lors d'une fuite chez Skladon, partenaire de livraison. Vos cryptos sont en sécurité, mais attendez-vous à des arnaques crédibles. Voici quoi faire.
+label: Sécurité
+summary: Trezor affirme que des pirates sont entrés chez son partenaire de livraison Skladon et ont probablement exporté noms, adresses, numéros de téléphone et détails d'environ 27 000 commandes de portefeuilles matériels. Sauvegardes et codes PIN ne sont pas concernés, mais des clients signalent déjà des appels frauduleux.
+===
+
+Trezor, l'un des fabricants de portefeuilles matériels les plus connus (de petits appareils qui gardent hors ligne les clés de vos cryptomonnaies), a annoncé lundi 16 novembre qu'un de ses partenaires de livraison avait été piraté. L'entreprise pense que l'attaquant a exporté les données d'<strong>environ 27 000 commandes</strong> passées entre le 9 août et le 7 novembre 2026, selon un [billet sur le blog de Trezor](L1).
+
+Ce partenaire, une société de logistique appelée Skladon, a informé Trezor de l'intrusion le 15 novembre. L'intrusion elle-même date du 7 novembre. Trezor assure que ses propres systèmes n'ont pas été compromis et que ses appareils sont sûrs.
+
+!takeaways
+- Des pirates sont entrés chez Skladon, partenaire de livraison de Trezor, le 7 novembre, et Trezor pense qu'ils ont exporté les données d'environ 27 000 commandes passées entre le 9 août et le 7 novembre.
+- Les données comprennent nom complet, numéro de téléphone, adresse e-mail et de livraison, ainsi que l'achat de chaque client et son prix.
+- Aucune sauvegarde de portefeuille, aucun code PIN ni phrase secrète n'est concerné. Trezor indique que des clients ont déjà reçu des appels frauduleux.
+- Trezor ramène de 90 à 45 jours la durée de conservation des données de commande et propose désormais le retrait anonyme dans 18 pays européens.
+
+!figure:timeline
+
+## Ce qui a été exposé
+
+Selon Trezor, les fichiers volés contiennent le nom complet de chaque client, son numéro de téléphone, son adresse de livraison, son adresse e-mail, la date de commande, le produit acheté et son prix. L'entreprise a écrit à tous les clients concernés qu'elle peut encore joindre. Un petit groupe ayant commandé entre le 9 et le 14 août pourrait aussi être touché, mais ne peut pas recevoir d'e-mail, car Trezor avait déjà anonymisé leurs données dans le cadre de sa règle des 90 jours. Trezor dit les prévenir via son blog et une publication sur X.
+
+Le plus important, c'est ce que l'attaquant n'a pas obtenu. « Aucune sauvegarde de portefeuille, aucun code PIN ni phrase secrète n'est concerné. Ni Trezor ni Skladon ne les détiennent jamais », écrit l'entreprise. La sauvegarde d'un portefeuille est la liste de mots de récupération qui permet de le reconstituer sur n'importe quel appareil. Tant que personne d'autre ne possède ces mots, une adresse divulguée ne suffit pas à déplacer vos cryptos.
+
+Skladon livre des commandes Trezor dans de nombreux pays, précise Trezor. [Decrypt](L2) rapporte que, selon Trezor, Skladon ne livre pas aux États-Unis, si bien que les acheteurs américains ne sont pas concernés par cet incident.
+
+!figure:fact
+
+## Pourquoi une adresse divulguée reste un risque
+
+Le danger tient à ce que des escrocs peuvent faire de ces données. Un nom, une adresse et la preuve qu'une personne a acheté un portefeuille crypto permettent de monter une arnaque crédible. Trezor prévient que les escrocs peuvent citer de vrais détails de commande, comme le modèle et le prix payé, dans des appels, SMS, e-mails ou même des courriers papier. Des clients ont déjà signalé des appels frauduleux, selon l'entreprise. Elle demande aussi aux personnes concernées d'être attentives aux risques pour leur sécurité physique et de contacter d'abord la police si un message leur paraît menaçant.
+
+!mid_cta
+
+Ce n'est pas une première. [The Block](L3) note qu'il s'agit de la deuxième fuite chez un partenaire de livraison de Trezor depuis août. Decrypt recense trois incidents chez des prestataires en un peu plus de trois mois : une intrusion en août chez le logisticien ShipMonk, dont le bilan est monté à 80 689 personnes après une enquête complémentaire, une intrusion en septembre chez le prestataire d'e-mails Brevo, au cours de laquelle 347 149 adresses e-mail ont été exportées, et désormais Skladon.
+
+« Nous savons que ce n'est pas la première fois que des coordonnées et des adresses de clients sont exposées lors d'un incident impliquant l'un de nos partenaires », écrit Trezor, qui ajoute revoir ses partenaires et les règles de sécurité qu'il leur impose.
+
+## Ce que Trezor change
+
+Trezor indique que les clients de 18 pays européens peuvent désormais choisir le retrait anonyme, en récupérant leur commande dans une consigne ou un point relais, afin que leur nom et leur adresse ne parviennent jamais à l'entreprise. Il dit travailler à lancer cette option aux États-Unis le plus vite possible. Il ramène aussi de 90 à 45 jours la durée de conservation des données de commande, avec l'objectif de descendre encore. L'entreprise a informé l'autorité de protection des données compétente et son enquête se poursuit.
+
+## Ce que cela change pour les débutants
+
+Si vous possédez un portefeuille matériel, quel qu'il soit, la règle principale ne change pas : ne tapez et ne dites jamais vos mots de récupération à qui que ce soit, et ne les saisissez nulle part ailleurs que sur l'appareil lui-même. Trezor affirme qu'il ne vous appellera jamais et ne vous demandera jamais votre sauvegarde. Considérez comme suspect tout appel, SMS, e-mail ou courrier inattendu au sujet d'une commande, même s'il mentionne ce que vous avez acheté. Ne suivez ni lien, ni QR code, ni numéro de téléphone figurant dans ce message. Rendez-vous vous-même sur le site officiel de l'entreprise.
+
+Il est aussi utile de rester discret sur le fait que vous détenez des cryptos. Si vous hésitez encore sur la façon de les conserver, certaines personnes commencent sur une grande plateforme comme [Coinbase](REF) puis passent plus tard à un portefeuille matériel. Les deux options comportent des risques, alors renseignez-vous d'abord sur leurs avantages et inconvénients. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Si Trezor ou Skladon expliquent comment l'attaquant est entré dans les systèmes de Skladon.
+- Si les appels et courriers frauduleux visant les acheteurs Trezor s'étendent au-delà des cas signalés.
+- Quand le retrait anonyme arrivera pour les clients américains.
+
+!soft: Vous ne savez pas quel type de portefeuille vous convient ? Lisez [ce qu'est un portefeuille crypto : dépositaire ou auto-conservation](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

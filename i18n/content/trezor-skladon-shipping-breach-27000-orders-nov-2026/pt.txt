@@ -1,0 +1,61 @@
+title: Trezor diz que vazamento em parceira de entregas expôs dados de cerca de 27.000 pedidos de carteiras físicas
+page_title: Skladon, parceira de entregas da Trezor, é invadida: 27.000 pedidos expostos e o que fazer
+description: A fabricante de carteiras físicas Trezor informou em 16 de novembro que hackers invadiram sua parceira de entregas Skladon e provavelmente levaram nomes, endereços, telefones e detalhes de cerca de 27.000 pedidos. Backups e PINs não foram afetados, mas ligações de golpe já começaram.
+og_description: Nomes, endereços, telefones e quanto foi pago em cerca de 27.000 pedidos da Trezor provavelmente foram exportados em um vazamento na Skladon, parceira de entregas. Suas moedas estão seguras, mas espere golpes convincentes. Veja o que fazer.
+label: Segurança
+summary: A Trezor diz que hackers invadiram sua parceira de entregas Skladon e provavelmente exportaram nomes, endereços, telefones e detalhes de cerca de 27.000 pedidos de carteiras físicas. Backups e PINs não foram afetados, mas alguns clientes já relatam ligações de golpe.
+===
+
+A Trezor, uma das fabricantes de carteiras físicas mais conhecidas (pequenos aparelhos que guardam offline as chaves das suas criptomoedas), informou na segunda-feira, 16 de novembro, que uma de suas parceiras de entregas foi hackeada. A empresa acredita que o invasor exportou dados de <strong>cerca de 27.000 pedidos</strong> feitos entre 9 de agosto e 7 de novembro de 2026, segundo uma [publicação no blog da Trezor](L1).
+
+A parceira, uma empresa de logística chamada Skladon, avisou a Trezor sobre a invasão em 15 de novembro. A invasão em si aconteceu em 7 de novembro. A Trezor afirmou que seus próprios sistemas não foram comprometidos e que seus dispositivos são seguros.
+
+!takeaways
+- Hackers invadiram a Skladon, parceira de entregas da Trezor, em 7 de novembro, e a Trezor acredita que exportaram dados de cerca de 27.000 pedidos feitos entre 9 de agosto e 7 de novembro.
+- Os dados incluem nome completo, telefone, e-mail e endereço de entrega, além do que cada cliente comprou e pagou.
+- Nenhum backup de carteira, PIN ou frase-senha foi envolvido. A Trezor diz que alguns clientes já receberam ligações de golpe.
+- A Trezor vai reduzir de 90 para 45 dias o tempo em que guarda dados de pedidos e já oferece retirada anônima em 18 países europeus.
+
+!figure:timeline
+
+## O que foi exposto
+
+Segundo a Trezor, os registros roubados trazem o nome completo de cada cliente, telefone, endereço de entrega, e-mail, data do pedido, produto comprado e preço. A empresa enviou e-mail a todos os clientes afetados que ainda consegue contatar. Um pequeno grupo que comprou entre 9 e 14 de agosto também pode ter sido afetado, mas não pode receber e-mail, porque a Trezor já havia anonimizado seus dados pela política de 90 dias. A Trezor disse que está avisando essas pessoas pelo blog e por uma publicação no X.
+
+O que o invasor não conseguiu é o mais importante. "Nenhum backup de carteira, PIN ou frase-senha foi envolvido. Nem a Trezor nem a Skladon guardam essas informações", escreveu a empresa. O backup de uma carteira é a lista de palavras de recuperação que permite recriá-la em qualquer aparelho. Enquanto ninguém mais tiver essas palavras, um endereço vazado sozinho não consegue mover suas moedas.
+
+A Skladon entrega pedidos da Trezor em muitos países, disse a Trezor. O [Decrypt](L2) informou que, segundo a Trezor, a Skladon não faz entregas nos Estados Unidos, então compradores americanos não foram afetados por este incidente.
+
+!figure:fact
+
+## Por que um endereço vazado ainda é um risco
+
+O perigo é o que criminosos podem fazer com os dados. Nome, endereço e a prova de que alguém comprou uma carteira de cripto facilitam montar um golpe convincente. A Trezor alertou que golpistas podem citar detalhes reais do pedido, como o modelo e o preço pago, em ligações, mensagens, e-mails ou até cartas em papel. Alguns clientes já relataram ligações de golpe, disse a empresa. Ela também pediu que os afetados fiquem atentos a riscos à sua segurança física e procurem primeiro a polícia local se algo que receberem parecer ameaçador.
+
+!mid_cta
+
+Não é a primeira vez. O [The Block](L3) observou que é o segundo vazamento em uma parceira de entregas da Trezor desde agosto. O Decrypt contou três incidentes com terceiros em pouco mais de três meses: uma invasão em agosto na empresa de logística ShipMonk, cujo número subiu para 80.689 pessoas após uma nova investigação, uma invasão em setembro no provedor de e-mail Brevo, em que 347.149 endereços de e-mail foram exportados, e agora a Skladon.
+
+"Sabemos que não é a primeira vez que dados de contato e endereços de clientes são expostos em um incidente envolvendo um de nossos parceiros", escreveu a Trezor, acrescentando que está revisando seus parceiros e as regras de segurança que exige deles.
+
+## O que a Trezor está mudando
+
+A Trezor disse que clientes de 18 países europeus já podem escolher a retirada anônima, buscando o pedido em um armário ou ponto de retirada para que seu nome e endereço nunca cheguem à empresa. Afirmou que trabalha para lançar a opção nos EUA o quanto antes. Também vai reduzir de 90 para 45 dias o tempo em que guarda dados de pedidos, com a meta de baixar ainda mais. A empresa informou a autoridade de proteção de dados competente, e a investigação continua.
+
+## O que isso significa para iniciantes
+
+Se você tem qualquer carteira física, a regra principal não muda: nunca digite nem diga suas palavras de recuperação a ninguém, e nunca as insira em lugar nenhum além do próprio aparelho. A Trezor diz que nunca vai ligar para você nem pedir o backup da sua carteira. Trate como suspeita qualquer ligação, mensagem, e-mail ou carta inesperada sobre um pedido, mesmo que cite o que você comprou. Não siga links, QR codes ou números de telefone dessa mensagem. Acesse você mesmo o site oficial da empresa.
+
+Também ajuda ter cuidado com quem sabe que você tem cripto. Se ainda está decidindo como guardar suas moedas, algumas pessoas começam em uma grande exchange como a [Coinbase](REF) e passam para uma carteira física depois. As duas opções têm riscos, então entenda primeiro os prós e contras. Isto não é recomendação de investimento.
+
+## O que acompanhar
+
+- Se a Trezor ou a Skladon vão explicar como o invasor entrou nos sistemas da Skladon.
+- Se ligações e cartas de golpe contra compradores da Trezor vão além dos relatos até agora.
+- Quando a retirada anônima chega aos clientes dos EUA.
+
+!soft: Não sabe que tipo de carteira combina com você? Leia [o que é uma carteira de cripto: custodial ou autocustódia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

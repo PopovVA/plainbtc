@@ -1,0 +1,61 @@
+title: Trezor says a shipping partner breach exposed data from about 27,000 hardware wallet orders
+page_title: Trezor shipping partner Skladon breached: 27,000 orders exposed, what to do
+description: Hardware wallet maker Trezor said on Nov. 16 that hackers broke into its shipping partner Skladon and likely took names, addresses, phone numbers and order details for about 27,000 orders. No wallet backups or PINs were involved, but scam calls have started.
+og_description: Names, home addresses, phone numbers and what people paid for about 27,000 Trezor orders were likely exported in a breach at shipping partner Skladon. Your coins are safe, but expect convincing scam calls. Here is what to do.
+label: Security
+summary: Trezor says hackers broke into its shipping partner Skladon and likely exported names, addresses, phone numbers and order details for about 27,000 hardware wallet orders. Wallet backups and PINs were not involved, but some customers already report scam calls.
+===
+
+Trezor, one of the best-known makers of hardware wallets (small devices that keep the keys to your crypto offline), said on Monday, Nov. 16, that one of its shipping partners was hacked. The company believes the attacker exported data for <strong>about 27,000 orders</strong> placed between Aug. 9 and Nov. 7, 2026, according to a [post on Trezor's blog](L1).
+
+The partner, a logistics company called Skladon, told Trezor about the break-in on Nov. 15. The intrusion itself happened on Nov. 7. Trezor said its own systems were not compromised and that its devices are secure.
+
+!takeaways
+- Hackers broke into Trezor's shipping partner Skladon on Nov. 7, and Trezor believes they exported data for about 27,000 orders placed between Aug. 9 and Nov. 7.
+- The data includes full names, phone numbers, email and delivery addresses, and what each customer bought and paid.
+- No wallet backups, PINs or passphrases were involved. Trezor says some customers have already received scam calls.
+- Trezor is cutting how long it keeps order data from 90 to 45 days and now offers anonymous pickup in 18 European countries.
+
+!figure:timeline
+
+## What was exposed
+
+According to Trezor, the stolen records contain each customer's full name, phone number, delivery address, email address, the order date, the product bought and its price. The company emailed every affected customer it can still reach. A small group who ordered between Aug. 9 and Aug. 14 may also be affected but cannot be emailed, because Trezor had already anonymized their details under its 90-day data policy. Trezor said it is telling them through its blog and an X post instead.
+
+What the attacker did not get matters most. "No wallet backups, PINs or passphrases were involved. Neither Trezor nor Skladon ever holds them," the company wrote. A wallet backup is the list of recovery words that can rebuild your wallet on any device. As long as nobody else has those words, a leaked address alone cannot move your coins.
+
+Skladon delivers Trezor orders to many countries, Trezor said. [Decrypt](L2) reported that, according to Trezor, Skladon does not ship to the United States, so American buyers were not affected by this incident.
+
+!figure:fact
+
+## Why a leaked address is still a risk
+
+The danger is what criminals can do with the data. A name, home address and proof that someone bought a crypto wallet make it easy to build a convincing scam. Trezor warned that scammers may quote real order details, including the model and the price paid, in calls, texts, emails or even paper letters. Some customers have already reported scam calls, the company said. It also told affected buyers to be alert to risks to their physical security, and to contact local police first if anything they receive feels threatening.
+
+!mid_cta
+
+This is not the first time. [The Block](L3) noted it is the second Trezor shipping partner leak since August. Decrypt counted three third-party incidents in a little over three months: an August breach at logistics firm ShipMonk whose count grew to 80,689 people after a follow-up investigation, a September breach at email provider Brevo in which 347,149 email addresses were exported, and now Skladon.
+
+"We know this is not the first time customer contact details and addresses have been exposed in an incident involving one of our partners," Trezor wrote, adding that it is reviewing its partners and the security rules it sets for them.
+
+## What Trezor is changing
+
+Trezor said customers in 18 European countries can now choose anonymous pickup, collecting an order from a parcel locker or pickup point so their name and home address never reach the company. It said it is working to launch the option in the U.S. as soon as possible. It is also cutting how long it keeps order data from 90 days to 45, with a goal of going lower. The company has informed the relevant data protection authority, and its investigation is ongoing.
+
+## What it means for beginners
+
+If you own any hardware wallet, the main rule does not change: never type or say your recovery words to anyone, and never enter them anywhere except on the device itself. Trezor says it will never call you or ask for your wallet backup. Treat any unexpected call, text, email or letter about an order as suspicious, even if it mentions what you bought. Do not follow links, QR codes or phone numbers inside such a message. Go to the company's official website yourself instead.
+
+It also helps to be careful about who knows you own crypto. If you are still deciding how to store coins, some people start on a large exchange such as [Coinbase](REF) and move to a hardware wallet later. Both options carry risks, so learn the trade-offs first. This is not investment advice.
+
+## What to watch next
+
+- Whether Trezor or Skladon explains how the attacker got into Skladon's systems.
+- Whether scam calls and letters aimed at Trezor buyers spread beyond the reports so far.
+- When anonymous pickup reaches U.S. customers.
+
+!soft: Not sure which kind of wallet fits you? Read [what a crypto wallet is: custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

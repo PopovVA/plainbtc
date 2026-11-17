@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Coinbase_Icon.png",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Coinbase_Icon.png",
+      "credit": "Coinbase"
+    },
+    {
+      "file": "Morpho-token-icon.png",
+      "license": "Logo",
+      "url": "https://www.coingecko.com/en/coins/morpho",
+      "credit": "Morpho (logo, identification only)"
+    },
+    {
+      "file": "The Block / Coinbase, Nov. 16-17, 2026",
+      "license": "Fact cited",
+      "url": "https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842",
+      "credit": "The Block"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "coinbase-borrow-new-york-all-50-states-nov-2026",
+  "generated": "2026-11-17T19:02Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

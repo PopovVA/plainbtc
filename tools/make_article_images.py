@@ -3313,7 +3313,114 @@ def build_coingecko_solana():
     ]
 
 
+def build_trezor_skladon():
+    slug = "trezor-skladon-shipping-breach-27000-orders-nov-2026"
+    d = OUT / slug
+    # Trezor blog, "Data breach at Trezor shipping partner, Skladon", Nov 16, 2026.
+    tl = make_timeline_card(
+        d / "timeline-trezor-skladon-breach",
+        "Skladon breach timeline (Trezor)",
+        [
+            ("Aug. 9", "Start of the order window: orders from this date are in the exported data", (96, 165, 250)),
+            ("Nov. 7", "Attacker breaks into shipping partner Skladon's systems", (248, 113, 113)),
+            ("Nov. 15", "Skladon notifies Trezor of the unauthorized access", (251, 191, 36)),
+            ("Nov. 16", "Trezor discloses the breach and emails affected customers", (74, 222, 128)),
+        ],
+        footer="Trezor blog, Nov. 16, 2026",
+        margin=170, wrap_w=250,
+    )
+    fact = make_fact_card(
+        d / "fact-trezor-27000-orders",
+        "Exposed in the Skladon breach",
+        "~27,000 orders",
+        "Names, phone numbers, email and delivery addresses, products and prices. No wallet backups, PINs or passphrases (Trezor)",
+        footer="Trezor blog, Nov. 16, 2026",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline of the Skladon breach according to Trezor: Aug. 9, start of the window of orders in the exported data; Nov. 7, the attacker breaks into shipping partner Skladon's systems; Nov. 15, Skladon notifies Trezor; Nov. 16, Trezor discloses the breach and emails affected customers", {
+            "es": "Cronología de la filtración en Skladon según Trezor: 9 de agosto, inicio del periodo de pedidos incluidos en los datos exportados; 7 de noviembre, el atacante entra en los sistemas de Skladon, socio de envíos; 15 de noviembre, Skladon avisa a Trezor; 16 de noviembre, Trezor revela la filtración y escribe a los clientes afectados",
+            "pt": "Linha do tempo do vazamento na Skladon segundo a Trezor: 9 de agosto, início do período de pedidos incluídos nos dados exportados; 7 de novembro, o invasor entra nos sistemas da Skladon, parceira de entregas; 15 de novembro, a Skladon avisa a Trezor; 16 de novembro, a Trezor divulga o vazamento e envia e-mail aos clientes afetados",
+            "fr": "Chronologie de la fuite chez Skladon selon Trezor : 9 août, début de la période des commandes contenues dans les données exportées ; 7 novembre, l'attaquant pénètre dans les systèmes de Skladon, partenaire de livraison ; 15 novembre, Skladon prévient Trezor ; 16 novembre, Trezor rend la fuite publique et écrit aux clients concernés",
+            "de": "Zeitleiste des Skladon-Datenlecks laut Trezor: 9. August, Beginn des Bestellzeitraums in den exportierten Daten; 7. November, der Angreifer dringt in die Systeme des Versandpartners Skladon ein; 15. November, Skladon informiert Trezor; 16. November, Trezor macht das Leck öffentlich und schreibt betroffene Kunden an",
+            "ru": "Хронология утечки у Skladon по данным Trezor: 9 августа, начало периода заказов, попавших в выгруженные данные; 7 ноября, злоумышленник проникает в системы службы доставки Skladon; 15 ноября, Skladon уведомляет Trezor; 16 ноября, Trezor сообщает об утечке и пишет пострадавшим клиентам",
+            "tr": "Trezor'a göre Skladon sızıntısının zaman çizelgesi: 9 Ağustos, dışa aktarılan verideki sipariş döneminin başlangıcı; 7 Kasım, saldırgan kargo ortağı Skladon'un sistemlerine giriyor; 15 Kasım, Skladon Trezor'u bilgilendiriyor; 16 Kasım, Trezor sızıntıyı duyuruyor ve etkilenen müşterilere e-posta gönderiyor",
+            "id": "Linimasa kebocoran di Skladon menurut Trezor: 9 Agustus, awal periode pesanan yang ada di data yang diekspor; 7 November, penyerang membobol sistem mitra pengiriman Skladon; 15 November, Skladon memberi tahu Trezor; 16 November, Trezor mengumumkan kebocoran dan mengirim email ke pelanggan yang terdampak",
+            "ja": "Trezorによる配送パートナーSkladonの情報流出の時系列：8月9日、流出データに含まれる注文期間の開始、11月7日、攻撃者がSkladonのシステムに侵入、11月15日、SkladonがTrezorに通知、11月16日、Trezorが流出を公表し影響を受けた顧客にメールで連絡",
+            "ko": "트레저가 밝힌 배송 협력사 스클라돈 유출 타임라인: 8월 9일, 유출된 데이터에 포함된 주문 기간 시작, 11월 7일, 공격자가 스클라돈 시스템에 침입, 11월 15일, 스클라돈이 트레저에 통보, 11월 16일, 트레저가 유출 사실을 공개하고 피해 고객에게 이메일 발송",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Trezor")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: about 27,000 Trezor orders exposed in the Skladon breach, including names, phone numbers, email and delivery addresses, products and prices; no wallet backups, PINs or passphrases, according to Trezor", {
+            "es": "Tarjeta de datos: unos 27.000 pedidos de Trezor expuestos en la filtración de Skladon, con nombres, teléfonos, correos y direcciones de entrega, productos y precios; sin copias de seguridad de carteras, PIN ni frases de contraseña, según Trezor",
+            "pt": "Cartão de dados: cerca de 27.000 pedidos da Trezor expostos no vazamento da Skladon, com nomes, telefones, e-mails e endereços de entrega, produtos e preços; sem backups de carteiras, PINs ou frases-senha, segundo a Trezor",
+            "fr": "Fiche chiffrée : environ 27 000 commandes Trezor exposées dans la fuite chez Skladon, avec noms, numéros de téléphone, adresses e-mail et de livraison, produits et prix ; aucune sauvegarde de portefeuille, aucun code PIN ni phrase secrète, selon Trezor",
+            "de": "Faktenkarte: rund 27.000 Trezor-Bestellungen im Skladon-Leck offengelegt, mit Namen, Telefonnummern, E-Mail- und Lieferadressen, Produkten und Preisen; keine Wallet-Backups, PINs oder Passphrasen, so Trezor",
+            "ru": "Карточка: около 27 000 заказов Trezor раскрыты при утечке у Skladon, включая имена, телефоны, электронные и почтовые адреса доставки, товары и цены; резервные копии кошельков, PIN-коды и парольные фразы не затронуты, по данным Trezor",
+            "tr": "Bilgi kartı: Skladon sızıntısında yaklaşık 27.000 Trezor siparişi açığa çıktı; adlar, telefon numaraları, e-posta ve teslimat adresleri, ürünler ve fiyatlar dahil; Trezor'a göre cüzdan yedekleri, PIN'ler ve parolalar etkilenmedi",
+            "id": "Kartu fakta: sekitar 27.000 pesanan Trezor terekspos dalam kebocoran Skladon, termasuk nama, nomor telepon, alamat email dan pengiriman, produk, dan harga; tanpa cadangan dompet, PIN, atau passphrase, menurut Trezor",
+            "ja": "ファクトカード：Skladonの情報流出で約2万7000件のTrezor注文が流出、氏名、電話番号、メールアドレスと配送先住所、購入製品と価格を含む。Trezorによるとウォレットのバックアップ、PIN、パスフレーズは含まれない",
+            "ko": "팩트 카드: 스클라돈 유출로 트레저 주문 약 2만 7000건 노출, 이름, 전화번호, 이메일과 배송 주소, 구매 제품과 가격 포함. 트레저에 따르면 지갑 백업, PIN, 패스프레이즈는 포함되지 않음",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Trezor")},
+    ]
+
+
+def build_coinbase_borrow_ny():
+    slug = "coinbase-borrow-new-york-all-50-states-nov-2026"
+    d = OUT / slug
+    # Coinbase Help (crypto-backed loans intro), Coinbase blog update Nov 16, 2026, The Block Nov 17, 2026.
+    cmp_ = make_compare_card(
+        d / "compare-coinbase-borrow-new-york",
+        "Coinbase Borrow: New York vs. other states",
+        "New York", "Other states",
+        [
+            ("Collateral", "BTC, ETH, SOL", "BTC, ETH, SOL plus XRP, DOGE, ADA, LTC, ZEC, HYPE, PAXG, staked tokens"),
+            ("Loan rates", "Variable only", "Variable or fixed"),
+            ("Max loan", "$5M BTC, $1M ETH, $100K SOL", "Up to $5M against BTC"),
+        ],
+        footer="Coinbase Help Center, The Block",
+    )
+    fact = make_fact_card(
+        d / "fact-coinbase-borrow-3-4-billion",
+        "Coinbase Borrow since January 2025",
+        "$3.4B+ in loans",
+        "originated through Coinbase and Morpho on Base; more than $1.6B still outstanding (Morpho)",
+        footer="Morpho blog, Nov. 17, 2026",
+    )
+    return [
+        {"id": "compare", "file": cmp_.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Comparison of Coinbase Borrow in New York and other states: New York collateral is BTC, ETH and SOL, other states also allow XRP, DOGE, ADA, LTC, ZEC, HYPE, PAXG and staked tokens; New York has variable rates only, other states variable or fixed; New York limits are $5 million against BTC, $1 million against ETH and $100,000 against SOL", {
+            "es": "Comparación de Coinbase Borrow en Nueva York y en otros estados: en Nueva York la garantía es BTC, ETH y SOL, en otros estados también XRP, DOGE, ADA, LTC, ZEC, HYPE, PAXG y tokens en staking; Nueva York solo tiene tipos variables, otros estados variables o fijos; los límites en Nueva York son 5 millones de dólares con BTC, 1 millón con ETH y 100.000 con SOL",
+            "pt": "Comparação do Coinbase Borrow em Nova York e em outros estados: em Nova York a garantia é BTC, ETH e SOL, em outros estados também XRP, DOGE, ADA, LTC, ZEC, HYPE, PAXG e tokens em staking; Nova York só tem taxas variáveis, outros estados variáveis ou fixas; os limites em Nova York são US$ 5 milhões com BTC, US$ 1 milhão com ETH e US$ 100 mil com SOL",
+            "fr": "Comparaison de Coinbase Borrow à New York et dans les autres États : à New York, la garantie se limite à BTC, ETH et SOL, ailleurs s'ajoutent XRP, DOGE, ADA, LTC, ZEC, HYPE, PAXG et des jetons stakés ; New York n'a que des taux variables, les autres États des taux variables ou fixes ; à New York, les plafonds sont de 5 millions de dollars contre du BTC, 1 million contre de l'ETH et 100 000 contre du SOL",
+            "de": "Vergleich von Coinbase Borrow in New York und anderen Bundesstaaten: In New York sind BTC, ETH und SOL als Sicherheit zugelassen, anderswo zusätzlich XRP, DOGE, ADA, LTC, ZEC, HYPE, PAXG und gestakte Token; New York nur variable Zinsen, andere Staaten variabel oder fest; Obergrenzen in New York: 5 Mio. $ gegen BTC, 1 Mio. $ gegen ETH und 100.000 $ gegen SOL",
+            "ru": "Сравнение Coinbase Borrow в Нью-Йорке и других штатах: в Нью-Йорке залогом могут быть только BTC, ETH и SOL, в других штатах также XRP, DOGE, ADA, LTC, ZEC, HYPE, PAXG и токены в стейкинге; в Нью-Йорке только плавающая ставка, в других штатах плавающая или фиксированная; лимиты в Нью-Йорке: $5 млн под BTC, $1 млн под ETH и $100 000 под SOL",
+            "tr": "New York ile diğer eyaletlerde Coinbase Borrow karşılaştırması: New York'ta teminat BTC, ETH ve SOL; diğer eyaletlerde ayrıca XRP, DOGE, ADA, LTC, ZEC, HYPE, PAXG ve stake edilmiş tokenler; New York'ta yalnızca değişken faiz, diğer eyaletlerde değişken veya sabit; New York'taki limitler BTC karşılığı 5 milyon $, ETH karşılığı 1 milyon $ ve SOL karşılığı 100.000 $",
+            "id": "Perbandingan Coinbase Borrow di New York dan negara bagian lain: di New York jaminannya BTC, ETH, dan SOL, di negara bagian lain juga XRP, DOGE, ADA, LTC, ZEC, HYPE, PAXG, dan token staking; New York hanya bunga mengambang, negara bagian lain mengambang atau tetap; batas di New York US$5 juta dengan BTC, US$1 juta dengan ETH, dan US$100.000 dengan SOL",
+            "ja": "ニューヨーク州と他の州のCoinbase Borrowの比較：ニューヨーク州の担保はBTC、ETH、SOLのみ、他の州ではXRP、DOGE、ADA、LTC、ZEC、HYPE、PAXG、ステーキングトークンも利用可能。ニューヨーク州は変動金利のみ、他の州は変動または固定。ニューヨーク州の上限はBTC担保で500万ドル、ETHで100万ドル、SOLで10万ドル",
+            "ko": "뉴욕주와 다른 주의 코인베이스 Borrow 비교: 뉴욕주 담보는 BTC, ETH, SOL뿐이고 다른 주에서는 XRP, DOGE, ADA, LTC, ZEC, HYPE, PAXG, 스테이킹 토큰도 가능. 뉴욕주는 변동금리만, 다른 주는 변동 또는 고정금리. 뉴욕주 한도는 BTC 담보 500만 달러, ETH 100만 달러, SOL 10만 달러",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Coinbase Help Center, The Block")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: more than $3.4 billion in loans originated through Coinbase Borrow since January 2025, with more than $1.6 billion still outstanding, according to Morpho", {
+            "es": "Tarjeta de datos: más de 3.400 millones de dólares en préstamos concedidos a través de Coinbase Borrow desde enero de 2025, con más de 1.600 millones aún pendientes, según Morpho",
+            "pt": "Cartão de dados: mais de US$ 3,4 bilhões em empréstimos concedidos pelo Coinbase Borrow desde janeiro de 2025, com mais de US$ 1,6 bilhão ainda em aberto, segundo a Morpho",
+            "fr": "Fiche chiffrée : plus de 3,4 milliards de dollars de prêts accordés via Coinbase Borrow depuis janvier 2025, dont plus de 1,6 milliard encore en cours, selon Morpho",
+            "de": "Faktenkarte: mehr als 3,4 Mrd. $ an Krediten über Coinbase Borrow seit Januar 2025 vergeben, davon mehr als 1,6 Mrd. $ noch ausstehend, laut Morpho",
+            "ru": "Карточка: более $3,4 млрд займов выдано через Coinbase Borrow с января 2025 года, из них более $1,6 млрд ещё не погашены, по данным Morpho",
+            "tr": "Bilgi kartı: Morpho'ya göre Ocak 2025'ten bu yana Coinbase Borrow üzerinden 3,4 milyar $'ın üzerinde kredi verildi, bunun 1,6 milyar $'ı aşkın kısmı hâlâ ödenmedi",
+            "id": "Kartu fakta: lebih dari US$3,4 miliar pinjaman disalurkan lewat Coinbase Borrow sejak Januari 2025, dengan lebih dari US$1,6 miliar masih beredar, menurut Morpho",
+            "ja": "ファクトカード：Morphoによると、2025年1月以降Coinbase Borrowを通じて34億ドル超の融資が実行され、うち16億ドル超が現在も残高として残る",
+            "ko": "팩트 카드: 모포에 따르면 2025년 1월 이후 코인베이스 Borrow를 통해 34억 달러 이상의 대출이 실행됐고 이 중 16억 달러 이상이 아직 상환되지 않음",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Morpho")},
+    ]
+
+
 BUILDERS = {
+    "trezor-skladon-shipping-breach-27000-orders-nov-2026": "trezor",
+    "coinbase-borrow-new-york-all-50-states-nov-2026": "cbny",
     "optimizely-hack-crypto-address-swap-178-sites-nov-2026": "optimizely",
     "solana-foundation-coingecko-majority-stake-nov-2026": "cgsol",
     "supreme-court-rejects-custodia-fed-master-account-nov-2026": "custodia",
@@ -3462,6 +3569,10 @@ def build_slug(slug: str, btc=None):
         figs = build_strategy_485_btc()
     elif key == "fng10":
         figs = build_fear_greed_10()
+    elif key == "trezor":
+        figs = build_trezor_skladon()
+    elif key == "cbny":
+        figs = build_coinbase_borrow_ny()
     elif key == "optimizely":
         figs = build_optimizely_clipper()
     elif key == "cgsol":

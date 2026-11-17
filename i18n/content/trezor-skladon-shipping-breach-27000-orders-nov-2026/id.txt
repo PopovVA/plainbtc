@@ -1,0 +1,61 @@
+title: Trezor sebut kebocoran di mitra pengiriman mengekspos data sekitar 27.000 pesanan dompet perangkat keras
+page_title: Mitra pengiriman Trezor, Skladon, dibobol: 27.000 pesanan terekspos, ini yang perlu dilakukan
+description: Produsen dompet perangkat keras Trezor mengatakan pada 16 November bahwa peretas membobol mitra pengirimannya, Skladon, dan kemungkinan mengambil nama, alamat, nomor telepon, dan detail sekitar 27.000 pesanan. Cadangan dompet dan PIN tidak terlibat, tetapi panggilan penipuan sudah dimulai.
+og_description: Nama, alamat, nomor telepon, dan harga yang dibayar untuk sekitar 27.000 pesanan Trezor kemungkinan diekspor dalam kebocoran di mitra pengiriman Skladon. Kripto Anda aman, tetapi waspadai penipuan yang meyakinkan. Ini yang perlu dilakukan.
+label: Keamanan
+summary: Trezor mengatakan peretas membobol mitra pengirimannya, Skladon, dan kemungkinan mengekspor nama, alamat, nomor telepon, dan detail sekitar 27.000 pesanan dompet perangkat keras. Cadangan dompet dan PIN tidak terlibat, tetapi sebagian pelanggan sudah melaporkan panggilan penipuan.
+===
+
+Trezor, salah satu produsen dompet perangkat keras paling terkenal (perangkat kecil yang menyimpan kunci kripto Anda secara offline), mengatakan pada Senin, 16 November, bahwa salah satu mitra pengirimannya diretas. Perusahaan meyakini penyerang mengekspor data <strong>sekitar 27.000 pesanan</strong> yang dibuat antara 9 Agustus dan 7 November 2026, menurut [unggahan di blog Trezor](L1).
+
+Mitra tersebut, perusahaan logistik bernama Skladon, memberi tahu Trezor soal pembobolan itu pada 15 November. Pembobolannya sendiri terjadi pada 7 November. Trezor mengatakan sistemnya sendiri tidak disusupi dan perangkatnya aman.
+
+!takeaways
+- Peretas membobol Skladon, mitra pengiriman Trezor, pada 7 November, dan Trezor meyakini mereka mengekspor data sekitar 27.000 pesanan yang dibuat antara 9 Agustus dan 7 November.
+- Datanya mencakup nama lengkap, nomor telepon, alamat email dan pengiriman, serta apa yang dibeli dan dibayar setiap pelanggan.
+- Tidak ada cadangan dompet, PIN, atau passphrase yang terlibat. Trezor mengatakan sebagian pelanggan sudah menerima panggilan penipuan.
+- Trezor memangkas masa simpan data pesanan dari 90 menjadi 45 hari dan kini menawarkan pengambilan anonim di 18 negara Eropa.
+
+!figure:timeline
+
+## Apa saja yang terekspos
+
+Menurut Trezor, catatan yang dicuri berisi nama lengkap setiap pelanggan, nomor telepon, alamat pengiriman, alamat email, tanggal pesanan, produk yang dibeli, dan harganya. Perusahaan mengirim email ke semua pelanggan terdampak yang masih bisa dihubungi. Sekelompok kecil yang memesan antara 9 dan 14 Agustus mungkin juga terdampak, tetapi tidak bisa dihubungi lewat email, karena Trezor sudah menganonimkan data mereka sesuai kebijakan 90 hari. Trezor mengatakan memberi tahu mereka lewat blog dan unggahan di X.
+
+Yang paling penting adalah apa yang tidak didapat penyerang. "Tidak ada cadangan dompet, PIN, atau passphrase yang terlibat. Baik Trezor maupun Skladon tidak pernah menyimpannya," tulis perusahaan itu. Cadangan dompet adalah daftar kata pemulihan yang bisa membangun ulang dompet Anda di perangkat apa pun. Selama tidak ada orang lain yang memiliki kata-kata itu, alamat yang bocor saja tidak bisa memindahkan kripto Anda.
+
+Skladon mengirim pesanan Trezor ke banyak negara, kata Trezor. [Decrypt](L2) melaporkan bahwa, menurut Trezor, Skladon tidak mengirim ke Amerika Serikat, sehingga pembeli di AS tidak terdampak insiden ini.
+
+!figure:fact
+
+## Mengapa alamat yang bocor tetap berisiko
+
+Bahayanya ada pada apa yang bisa dilakukan penjahat dengan data itu. Nama, alamat rumah, dan bukti bahwa seseorang membeli dompet kripto memudahkan penipuan yang meyakinkan. Trezor memperingatkan bahwa penipu bisa menyebut detail pesanan yang asli, termasuk model dan harga yang dibayar, lewat telepon, pesan teks, email, bahkan surat. Sebagian pelanggan sudah melaporkan panggilan penipuan, kata perusahaan itu. Trezor juga meminta pembeli yang terdampak waspada terhadap risiko keamanan fisik, dan menghubungi polisi setempat lebih dulu jika ada kiriman yang terasa mengancam.
+
+!mid_cta
+
+Ini bukan yang pertama. [The Block](L3) mencatat ini adalah kebocoran kedua di mitra pengiriman Trezor sejak Agustus. Decrypt menghitung tiga insiden pihak ketiga dalam sedikit lebih dari tiga bulan: pembobolan di perusahaan logistik ShipMonk pada Agustus yang jumlah korbannya naik menjadi 80.689 orang setelah penyelidikan lanjutan, pembobolan di penyedia email Brevo pada September yang membuat 347.149 alamat email diekspor, dan kini Skladon.
+
+"Kami tahu ini bukan pertama kalinya detail kontak dan alamat pelanggan terekspos dalam insiden yang melibatkan salah satu mitra kami," tulis Trezor, seraya menambahkan bahwa pihaknya sedang meninjau para mitra dan aturan keamanan yang diterapkan kepada mereka.
+
+## Apa yang diubah Trezor
+
+Trezor mengatakan pelanggan di 18 negara Eropa kini bisa memilih pengambilan anonim, yaitu mengambil pesanan di loker paket atau titik pengambilan sehingga nama dan alamat rumah mereka tidak pernah sampai ke perusahaan. Trezor sedang berupaya meluncurkan opsi ini di AS secepat mungkin. Perusahaan juga memangkas masa simpan data pesanan dari 90 menjadi 45 hari, dengan target lebih rendah lagi. Trezor telah memberi tahu otoritas perlindungan data terkait, dan penyelidikan masih berlangsung.
+
+## Artinya bagi pemula
+
+Jika Anda punya dompet perangkat keras apa pun, aturan utamanya tidak berubah: jangan pernah mengetik atau menyebutkan kata pemulihan Anda kepada siapa pun, dan jangan pernah memasukkannya di mana pun selain di perangkat itu sendiri. Trezor mengatakan tidak akan pernah menelepon Anda atau meminta cadangan dompet Anda. Anggap mencurigakan setiap telepon, pesan, email, atau surat tak terduga soal pesanan, meskipun menyebut apa yang Anda beli. Jangan mengikuti tautan, kode QR, atau nomor telepon di dalam pesan semacam itu. Buka sendiri situs resmi perusahaan.
+
+Berhati-hati soal siapa saja yang tahu Anda memiliki kripto juga membantu. Jika Anda masih menimbang cara menyimpan kripto, sebagian orang memulai di bursa besar seperti [Coinbase](REF) lalu pindah ke dompet perangkat keras belakangan. Kedua pilihan punya risiko, jadi pelajari dulu kelebihan dan kekurangannya. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Apakah Trezor atau Skladon menjelaskan bagaimana penyerang masuk ke sistem Skladon.
+- Apakah panggilan dan surat penipuan yang menyasar pembeli Trezor meluas melampaui laporan sejauh ini.
+- Kapan pengambilan anonim tersedia bagi pelanggan di AS.
+
+!soft: Belum yakin jenis dompet mana yang cocok? Baca [apa itu dompet kripto: kustodian vs. penyimpanan mandiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

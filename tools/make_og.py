@@ -32,6 +32,16 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "coinbase-borrow-new-york-all-50-states-nov-2026",
+        "Coinbase opens crypto-backed loans to New York, its last state",
+        "BUSINESS",
+    ),
+    (
+        "trezor-skladon-shipping-breach-27000-orders-nov-2026",
+        "Trezor shipping partner breach exposes data from about 27,000 orders",
+        "SECURITY",
+    ),
+    (
         "optimizely-hack-crypto-address-swap-178-sites-nov-2026",
         "Hackers used Optimizely to plant crypto-stealing code on 178 big websites",
         "SECURITY",
@@ -265,6 +275,15 @@ ARTICLES = [
 # used for identification only). Each entry: (image URL, tile background RGB).
 WIKI = "https://upload.wikimedia.org/wikipedia/commons/"
 OG_LOGOS: dict[str, list[tuple[str, tuple[int, int, int]]]] = {
+    # Coinbase icon (Wikimedia Commons) and Morpho logo (as listed on CoinGecko), identification only.
+    "coinbase-borrow-new-york-all-50-states-nov-2026": [
+        (WIKI + "5/5c/Coinbase_Icon.png", (255, 255, 255)),
+        ("https://coin-images.coingecko.com/coins/images/29837/large/Morpho-token-icon.png", (255, 255, 255)),
+    ],
+    # Trezor logo mark (official favicon from trezor.io), identification only.
+    "trezor-skladon-shipping-breach-27000-orders-nov-2026": [
+        ("https://trezor.io/favicon/android-chrome-512x512.png", (255, 255, 255)),
+    ],
     # Optimizely wordmark cropped from Optimizely's own official share image (optimizely.com og:image), identification only.
     "optimizely-hack-crypto-address-swap-178-sites-nov-2026": [
         ("https://images3.cmp.optimizely.com/Zz1hOTU5MjFjNDY5MWYxMWYxOTU5NmZlODFjZDBjMWExMg==?width=1200#crop=130,200,1060,430", (228, 240, 218)),

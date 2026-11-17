@@ -8,6 +8,22 @@
     <lastBuildDate>Tue, 17 Nov 2026 15:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/fr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Coinbase ouvre ses prêts garantis par des cryptos à New York et couvre désormais les 50 États</title>
+      <link>https://plainbtc.com/fr/articles/coinbase-borrow-new-york-all-50-states-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/coinbase-borrow-new-york-all-50-states-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Entreprises</category>
+      <description>Coinbase a ouvert ses prêts garantis par des cryptos à New York après l'accord de l'État : les clients des 50 États peuvent désormais emprunter des USDC contre du bitcoin. Les New-Yorkais ont un choix plus restreint : BTC, ETH et SOL en garantie et taux variable uniquement.</description>
+    </item>
+    <item>
+      <title>Trezor affirme qu'une fuite chez son partenaire de livraison a exposé les données d'environ 27 000 commandes de portefeuilles matériels</title>
+      <link>https://plainbtc.com/fr/articles/trezor-skladon-shipping-breach-27000-orders-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/trezor-skladon-shipping-breach-27000-orders-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Sécurité</category>
+      <description>Trezor affirme que des pirates sont entrés chez son partenaire de livraison Skladon et ont probablement exporté noms, adresses, numéros de téléphone et détails d'environ 27 000 commandes de portefeuilles matériels. Sauvegardes et codes PIN ne sont pas concernés, mais des clients signalent déjà des appels frauduleux.</description>
+    </item>
+    <item>
       <title>Des pirates ont utilisé Optimizely pour placer un code voleur de cryptos sur 178 grands sites, dont Ledger</title>
       <link>https://plainbtc.com/fr/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/fr/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</guid>

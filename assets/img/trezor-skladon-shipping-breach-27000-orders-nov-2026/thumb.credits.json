@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "trezor.io android-chrome-512x512.png",
+      "license": "Logo",
+      "url": "https://trezor.io/",
+      "credit": "Trezor (logo, identification only)"
+    },
+    {
+      "file": "Trezor blog, Nov. 16, 2026",
+      "license": "Figure cited",
+      "url": "https://trezor.io/blog/news/data-breach-at-trezor-shipping-partner-skladon",
+      "credit": "Trezor"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "trezor-skladon-shipping-breach-27000-orders-nov-2026",
+  "generated": "2026-11-17T19:02Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

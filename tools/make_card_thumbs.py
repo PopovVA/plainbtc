@@ -1199,7 +1199,55 @@ def thumb_coingecko_solana():
 
 
 
+def thumb_trezor_skladon():
+    """Trezor logo mark (official favicon from trezor.io, identification only) with Trezor's order count."""
+    src = fetch("https://trezor.io/favicon/android-chrome-512x512.png", CACHE/"trezor-512.png")
+    logo = Image.open(src).convert("RGBA")
+    base = gradient_bg()
+    x, y, cw, ch = 40, 80, 220, 200
+    tile = Image.new("RGBA", (cw, ch), (255,255,255,255))
+    mask = Image.new("L", (cw, ch), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,cw-1,ch-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), (x, y), mask)
+    paste_contain(base, logo, (x, y, cw, ch), pad=10)
+    d = ImageDraw.Draw(base)
+    d.text((292, 96), "~27,000", font=font(FONT_B, 64), fill=ORANGE)
+    d.text((294, 182), "orders exposed", font=font(FONT_B, 22), fill=WHITE)
+    d.text((294, 214), "at shipping partner", font=font(FONT_R, 18), fill=(203,213,225))
+    d.text((294, 238), "Skladon (Aug. 9 to Nov. 7)", font=font(FONT_R, 18), fill=(203,213,225))
+    label_chip(base, "Trezor · shipping data breach")
+    return base, {"kind":"composite","sources":[
+        {"file":"trezor.io android-chrome-512x512.png","license":"Logo","url":"https://trezor.io/","credit":"Trezor (logo, identification only)"},
+        {"file":"Trezor blog, Nov. 16, 2026","license":"Figure cited","url":"https://trezor.io/blog/news/data-breach-at-trezor-shipping-partner-skladon","credit":"Trezor"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
+def thumb_coinbase_borrow_ny():
+    """Coinbase icon (Wikimedia Commons) and Morpho logo (as listed on CoinGecko), identification only."""
+    cb = fetch("https://upload.wikimedia.org/wikipedia/commons/5/5c/Coinbase_Icon.png", CACHE/"coinbase-icon.png")
+    mo = fetch("https://coin-images.coingecko.com/coins/images/29837/large/Morpho-token-icon.png", CACHE/"morpho-logo.png")
+    base = gradient_bg()
+    for (x, y, w, h, col, im, pad) in [(40, 70, 130, 130, (255,255,255,255), Image.open(cb).convert("RGBA"), 14), (190, 70, 130, 130, (255,255,255,255), Image.open(mo).convert("RGBA"), 18)]:
+        tile = Image.new("RGBA", (w, h), col)
+        mask = Image.new("L", (w, h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,w-1,h-1], radius=16, fill=255)
+        base.paste(tile.convert("RGB"), (x, y), mask)
+        paste_contain(base, im, (x, y, w, h), pad=pad)
+    d = ImageDraw.Draw(base)
+    d.text((44, 222), "Borrow USDC against BTC, ETH, SOL", font=font(FONT_R, 18), fill=(203,213,225))
+    d.text((44, 250), "New York added Nov. 16", font=font(FONT_B, 20), fill=WHITE)
+    d.text((372, 82), "50", font=font(FONT_B, 96), fill=ORANGE)
+    d.text((376, 196), "of 50 U.S. states", font=font(FONT_B, 22), fill=WHITE)
+    label_chip(base, "Coinbase Borrow · Morpho on Base")
+    return base, {"kind":"composite","sources":[
+        {"file":"Coinbase_Icon.png","license":"Logo","url":"https://commons.wikimedia.org/wiki/File:Coinbase_Icon.png","credit":"Coinbase"},
+        {"file":"Morpho-token-icon.png","license":"Logo","url":"https://www.coingecko.com/en/coins/morpho","credit":"Morpho (logo, identification only)"},
+        {"file":"The Block / Coinbase, Nov. 16-17, 2026","license":"Fact cited","url":"https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842","credit":"The Block"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
+
 BUILDERS = {
+    "trezor-skladon-shipping-breach-27000-orders-nov-2026": thumb_trezor_skladon,
+    "coinbase-borrow-new-york-all-50-states-nov-2026": thumb_coinbase_borrow_ny,
     "optimizely-hack-crypto-address-swap-178-sites-nov-2026": thumb_optimizely_clipper,
     "solana-foundation-coingecko-majority-stake-nov-2026": thumb_coingecko_solana,
     "supreme-court-rejects-custodia-fed-master-account-nov-2026": thumb_custodia_scotus,

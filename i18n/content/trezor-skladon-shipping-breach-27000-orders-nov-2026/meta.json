@@ -1,0 +1,18 @@
+{
+ "slug": "trezor-skladon-shipping-breach-27000-orders-nov-2026",
+ "date": "2026-11-17",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "optimizely-hack-crypto-address-swap-178-sites-nov-2026",
+  "coinone-data-breach-support-contractor-passwords-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody",
+  "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026"
+ ],
+ "sources": [
+  {"url": "https://trezor.io/blog/news/data-breach-at-trezor-shipping-partner-skladon", "title": "Trezor: Data breach at Trezor shipping partner, Skladon", "date": "Nov 16, 2026"},
+  {"url": "https://decrypt.co/383397/bitcoin-wallet-trezor-third-party-breach-customer-data", "title": "Decrypt: Bitcoin wallet maker Trezor says customer data was exposed again", "date": "Nov 16, 2026"},
+  {"url": "https://www.theblock.co/news/business/2026-11-16-trezor-hit-another-shipping-partner-data-leak-affecting-27000-skladon-orders-441524", "title": "The Block: Trezor hit by another shipping partner data leak, affecting 27,000 Skladon orders", "date": "Nov 16, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

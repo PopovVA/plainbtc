@@ -8,6 +8,22 @@
     <lastBuildDate>Tue, 17 Nov 2026 15:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Coinbase opens crypto-backed loans to New York, completing its rollout to all 50 states</title>
+      <link>https://plainbtc.com/articles/coinbase-borrow-new-york-all-50-states-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/coinbase-borrow-new-york-all-50-states-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Business</category>
+      <description>Coinbase has opened its crypto-backed loans to New York after state approval, so customers in all 50 states can now borrow USDC against bitcoin. New Yorkers get a smaller menu: BTC, ETH and SOL as collateral and variable rates only.</description>
+    </item>
+    <item>
+      <title>Trezor says a shipping partner breach exposed data from about 27,000 hardware wallet orders</title>
+      <link>https://plainbtc.com/articles/trezor-skladon-shipping-breach-27000-orders-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/trezor-skladon-shipping-breach-27000-orders-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Security</category>
+      <description>Trezor says hackers broke into its shipping partner Skladon and likely exported names, addresses, phone numbers and order details for about 27,000 hardware wallet orders. Wallet backups and PINs were not involved, but some customers already report scam calls.</description>
+    </item>
+    <item>
       <title>Hackers used Optimizely to plant crypto-stealing code on 178 big websites, including Ledger</title>
       <link>https://plainbtc.com/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</link>
       <guid isPermaLink="true">https://plainbtc.com/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</guid>

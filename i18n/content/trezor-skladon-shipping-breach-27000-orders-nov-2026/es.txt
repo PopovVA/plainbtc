@@ -1,0 +1,61 @@
+title: Trezor dice que una filtración en su socio de envíos expuso datos de unos 27.000 pedidos de carteras físicas
+page_title: Hackean a Skladon, socio de envíos de Trezor: 27.000 pedidos expuestos y qué hacer
+description: El fabricante de carteras físicas Trezor informó el 16 de noviembre de que unos hackers entraron en su socio de envíos Skladon y probablemente se llevaron nombres, direcciones, teléfonos y detalles de unos 27.000 pedidos. No se vieron afectadas copias de seguridad ni PIN, pero ya hay llamadas fraudulentas.
+og_description: Nombres, direcciones, teléfonos y lo que se pagó en unos 27.000 pedidos de Trezor probablemente se exportaron en una filtración en Skladon, su socio de envíos. Tus monedas están a salvo, pero espera estafas muy convincentes. Esto es lo que conviene hacer.
+label: Seguridad
+summary: Trezor dice que unos hackers entraron en su socio de envíos Skladon y probablemente exportaron nombres, direcciones, teléfonos y detalles de unos 27.000 pedidos de carteras físicas. Las copias de seguridad y los PIN no se vieron afectados, pero algunos clientes ya reciben llamadas fraudulentas.
+===
+
+Trezor, uno de los fabricantes de carteras físicas más conocidos (pequeños dispositivos que guardan sin conexión las claves de tus criptomonedas), informó el lunes 16 de noviembre de que uno de sus socios de envíos sufrió un hackeo. La empresa cree que el atacante exportó datos de <strong>unos 27.000 pedidos</strong> hechos entre el 9 de agosto y el 7 de noviembre de 2026, según una [publicación en el blog de Trezor](L1).
+
+El socio, una empresa de logística llamada Skladon, avisó a Trezor de la intrusión el 15 de noviembre. El acceso no autorizado ocurrió el 7 de noviembre. Trezor afirmó que sus propios sistemas no fueron comprometidos y que sus dispositivos son seguros.
+
+!takeaways
+- Unos hackers entraron en Skladon, socio de envíos de Trezor, el 7 de noviembre, y Trezor cree que exportaron datos de unos 27.000 pedidos hechos entre el 9 de agosto y el 7 de noviembre.
+- Los datos incluyen nombre completo, teléfono, correo y dirección de entrega, además de lo que cada cliente compró y pagó.
+- No se vieron afectadas copias de seguridad de carteras, PIN ni frases de contraseña. Trezor dice que algunos clientes ya recibieron llamadas fraudulentas.
+- Trezor reducirá de 90 a 45 días el tiempo que guarda los datos de pedidos y ya ofrece recogida anónima en 18 países europeos.
+
+!figure:timeline
+
+## Qué datos quedaron expuestos
+
+Según Trezor, los registros robados contienen el nombre completo de cada cliente, su teléfono, dirección de entrega, correo electrónico, la fecha del pedido, el producto comprado y su precio. La empresa escribió a todos los clientes afectados a los que todavía puede contactar. Un pequeño grupo que compró entre el 9 y el 14 de agosto también podría estar afectado, pero no puede recibir correo, porque Trezor ya había anonimizado sus datos según su política de 90 días. Trezor dijo que les informa a través de su blog y de una publicación en X.
+
+Lo más importante es lo que el atacante no consiguió. "No se vieron afectadas copias de seguridad de carteras, PIN ni frases de contraseña. Ni Trezor ni Skladon las guardan nunca", escribió la empresa. La copia de seguridad de una cartera es la lista de palabras de recuperación que permite reconstruirla en cualquier dispositivo. Mientras nadie más tenga esas palabras, una dirección filtrada por sí sola no puede mover tus monedas.
+
+Skladon entrega pedidos de Trezor en muchos países, según Trezor. [Decrypt](L2) informó de que, según Trezor, Skladon no hace envíos a Estados Unidos, por lo que los compradores estadounidenses no se vieron afectados por este incidente.
+
+!figure:fact
+
+## Por qué una dirección filtrada sigue siendo un riesgo
+
+El peligro está en lo que los delincuentes pueden hacer con esos datos. Un nombre, una dirección y la prueba de que alguien compró una cartera de criptomonedas facilitan montar una estafa convincente. Trezor advirtió de que los estafadores pueden citar detalles reales del pedido, como el modelo y el precio pagado, en llamadas, mensajes, correos o incluso cartas en papel. Algunos clientes ya han denunciado llamadas fraudulentas, dijo la empresa. También pidió a los afectados que estén atentos a riesgos para su seguridad física y que, si algo de lo que reciben les parece amenazante, acudan primero a la policía local.
+
+!mid_cta
+
+No es la primera vez. [The Block](L3) señaló que es la segunda filtración en un socio de envíos de Trezor desde agosto. Decrypt contó tres incidentes con terceros en poco más de tres meses: una brecha en agosto en la empresa de logística ShipMonk cuya cifra subió a 80.689 personas tras una investigación posterior, una brecha en septiembre en el proveedor de correo Brevo en la que se exportaron 347.149 direcciones de correo, y ahora Skladon.
+
+"Sabemos que no es la primera vez que se exponen datos de contacto y direcciones de clientes en un incidente relacionado con uno de nuestros socios", escribió Trezor, que añadió que está revisando a sus socios y las normas de seguridad que les exige.
+
+## Qué cambia Trezor
+
+Trezor dijo que los clientes de 18 países europeos ya pueden elegir la recogida anónima, retirando el pedido en una taquilla o punto de recogida para que su nombre y su dirección nunca lleguen a la empresa. Afirmó que trabaja para lanzar esta opción en EE. UU. lo antes posible. También reducirá de 90 a 45 días el tiempo que guarda los datos de pedidos, con el objetivo de bajarlo aún más. La empresa informó a la autoridad de protección de datos correspondiente y su investigación sigue abierta.
+
+## Qué significa para principiantes
+
+Si tienes cualquier cartera física, la regla principal no cambia: nunca escribas ni digas tus palabras de recuperación a nadie, y nunca las introduzcas en ningún sitio salvo en el propio dispositivo. Trezor dice que nunca te llamará ni te pedirá la copia de seguridad de tu cartera. Trata como sospechosa cualquier llamada, mensaje, correo o carta inesperados sobre un pedido, aunque mencionen lo que compraste. No sigas enlaces, códigos QR ni números de teléfono que aparezcan en ese mensaje. Entra tú mismo en la web oficial de la empresa.
+
+También ayuda ser prudente con quién sabe que tienes criptomonedas. Si todavía decides cómo guardar tus monedas, algunas personas empiezan en un exchange grande como [Coinbase](REF) y pasan más tarde a una cartera física. Ambas opciones tienen riesgos, así que conoce primero las ventajas y desventajas. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Si Trezor o Skladon explican cómo entró el atacante en los sistemas de Skladon.
+- Si las llamadas y cartas fraudulentas dirigidas a compradores de Trezor se extienden más allá de los casos conocidos.
+- Cuándo llega la recogida anónima a los clientes de EE. UU.
+
+!soft: ¿No sabes qué tipo de cartera te conviene? Lee [qué es una cartera de criptomonedas: custodia frente a autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

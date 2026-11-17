@@ -1,0 +1,61 @@
+title: Coinbase öffnet kryptobesicherte Kredite für New York und ist nun in allen 50 Bundesstaaten
+page_title: Coinbase Borrow startet in New York: USDC-Kredite gegen Bitcoin in allen 50 Bundesstaaten
+description: Coinbase-Kunden in New York können jetzt USDC gegen Bitcoin, Ether und Solana leihen. New York war der letzte US-Bundesstaat ohne Coinbase Borrow. Seit Januar 2025 hat das Produkt mehr als 3,4 Mrd. $ an Krediten vergeben. So funktioniert es und das kann schiefgehen.
+og_description: New Yorker können nach der Genehmigung durch den Bundesstaat bei Coinbase USDC gegen BTC, ETH oder SOL leihen, damit ist der Dienst in allen 50 Staaten verfügbar. Die Kredite laufen über Morpho auf Base, der Zins ist variabel, und fallende Kurse können eine Liquidation auslösen.
+label: Unternehmen
+summary: Coinbase hat seine kryptobesicherten Kredite nach der Genehmigung des Bundesstaats für New York geöffnet, Kunden in allen 50 Staaten können jetzt USDC gegen Bitcoin leihen. New Yorker bekommen weniger Auswahl: BTC, ETH und SOL als Sicherheit und nur variable Zinsen.
+===
+
+Coinbase-Kunden in New York können sich jetzt Geld gegen ihre Kryptowerte leihen. Seit dem 16. November können berechtigte New Yorker einen Kredit in USDC, einem an den Dollar gekoppelten Stablecoin, aufnehmen und dafür Bitcoin, Ether oder Solana als Sicherheit hinterlegen, wie Coinbase in einem [Update seiner Kredit-Ankündigung](L2) mitteilte. New York war der letzte fehlende Bundesstaat, das Produkt namens Coinbase Borrow erreicht damit Kunden in <strong>allen 50 US-Bundesstaaten</strong>, berichtete [The Block](L1) am Dienstag.
+
+Der Start folgt auf eine Genehmigung durch das New York State Department of Financial Services, sagte ein Coinbase-Sprecher gegenüber The Block. New York verlangt von vielen Kryptofirmen eine eigene Lizenz des Bundesstaats, die sogenannte BitLicense. Das ist ein Grund, warum Kryptoprodukte dort oft später ankommen als im Rest des Landes.
+
+!takeaways
+- Seit dem 16. November können berechtigte Coinbase-Kunden in New York USDC gegen BTC, ETH oder SOL leihen.
+- Coinbase zufolge ist Coinbase Borrow damit nach der Genehmigung durch New Yorks Finanzaufsicht in allen 50 US-Bundesstaaten verfügbar.
+- Die Obergrenzen liegen bei bis zu 5 Mio. $ gegen Bitcoin, 1 Mio. $ gegen Ether und 100.000 $ gegen Solana, je nach Berechtigung.
+- In New York gibt es nur Kredite mit variablem Zins. Festzinsen und weitere Sicherheiten wie XRP und tokenisiertes Gold sind dort noch nicht verfügbar.
+
+!figure:compare
+
+## So funktioniert Coinbase Borrow
+
+Sie hinterlegen Kryptowerte, die Sie bereits bei Coinbase halten, und erhalten innerhalb von Sekunden USDC, ohne zu verkaufen. Im Hintergrund vergibt nicht Coinbase selbst die Kredite. Sie laufen über Morpho, ein Open-Source-Kreditprotokoll auf Base, dem von Coinbase entwickelten Blockchain-Netzwerk. Wer sich gegen Bitcoin Geld leiht, dessen Bitcoin wandelt Coinbase in cbBTC um, eine „verpackte“ Version von Bitcoin, und überträgt sie in einen Smart Contract von Morpho, der sie als Sicherheit hält, so Coinbase.
+
+Die Zinsen sind variabel und werden automatisch vom Kreditmarkt von Morpho festgelegt, sie können sich also alle paar Sekunden ändern. Einen festen Tilgungsplan gibt es nicht: Sie entscheiden, wann Sie den Kredit zurückzahlen. USDC lässt sich bei Coinbase eins zu eins in US-Dollar umtauschen, so wird aus dem Kredit Geld zum Ausgeben.
+
+„Wir arbeiten seit dem Start von Coinbase Borrow im vergangenen Jahr eng mit den Aufsehern in New York zusammen, damit auch New Yorker an Bargeld kommen, ohne die Kryptowerte verkaufen zu müssen, an die sie glauben“, sagte Jacob Frantz, bei Coinbase verantwortlich für Ertrags- und Anlageprodukte, gegenüber The Block. Daten zu Antrag und Genehmigung nannte er nicht.
+
+## Was New Yorker nutzen können und was nicht
+
+Laut der [Hilfeseite](L4) von Coinbase sind BTC, ETH und SOL die einzigen Sicherheiten für Kunden in New York, und es gibt nur Kredite mit variablem Zins. Kunden anderswo können auch XRP, Dogecoin, Cardano, Litecoin, Zcash, HYPE von Hyperliquid, gestakte Ether- und Solana-Token sowie Pax Gold (PAXG) hinterlegen, einen durch physisches Gold gedeckten Token. Festzinskredite, bei denen Zins und Laufzeit vorab fixiert werden, gibt es in New York ebenfalls noch nicht. Auch ein separates Coinbase-Produkt, das die USDC von Kunden gegen Rendite verleiht, fehlt dort.
+
+!mid_cta
+
+## Wie groß das Produkt ist
+
+Coinbase Borrow startete im Januar 2025. Seitdem wurden <strong>mehr als 3,4 Mrd. $</strong> an Krediten vergeben, schrieb Morpho in einem [Blogbeitrag](L3) zur Erweiterung. Den noch offenen Betrag bezifferte Morpho auf mehr als 1,6 Mrd. $, besichert mit mehr als 2,8 Mrd. $. The Block nannte unter Berufung auf Morpho etwas höhere Werte von 1,7 Mrd. $ und 3,2 Mrd. $.
+
+!figure:fact
+
+## Das Hauptrisiko: Liquidation
+
+Ein kryptobesicherter Kredit kann schnell schiefgehen, wenn die Kurse fallen. Wird der Kredit samt Zinsen im Verhältnis zum Wert der Sicherheit zu groß, wird die Position laut Coinbase liquidiert, das heißt, Sicherheiten werden verkauft, um die Schuld zu tilgen. Dieses Risiko ist derzeit real. Bitcoin notierte am Dienstag gegen Mittag US-Central-Zeit bei rund 63.700 $, etwa 2 % weniger als 24 Stunden zuvor, laut CoinGecko, nachdem der Kurs am Wochenende kurz in die Nähe von 62.000 $ gefallen war.
+
+Für Einsteiger ist es am sichersten, deutlich weniger als das Maximum zu leihen, den Kredit in der App im Blick zu behalten und einen Plan zu haben, um bei fallenden Kursen Sicherheiten nachzuschießen oder zurückzuzahlen. Coinbase weist darauf hin, dass Leihen statt Verkaufen helfen kann, einen steuerpflichtigen Gewinn oder Verlust aufzuschieben. Klären Sie Ihre eigene Lage mit einer Steuerberatung.
+
+## Was das für Einsteiger bedeutet
+
+Für den Einstieg in Krypto brauchen Sie keinen Kredit, und die meisten Neulinge sollten auch keinen aufnehmen. Wenn Sie nur eine kleine Menge Bitcoin kaufen möchten, ist eine regulierte Börse wie [Coinbase](REF) ein üblicher Startpunkt, und Borrow bleibt ein optionales Extra für Menschen, die bereits Coins halten. Vergleichen Sie Gebühren, verstehen Sie die Liquidation und leihen Sie nur, was Sie ohne Verkauf zurückzahlen könnten. Dies ist keine Anlageberatung.
+
+## Worauf jetzt zu achten ist
+
+- Ob New York Festzinskredite und die anderen Sicherheiten genehmigt, die Coinbase anderswo anbietet.
+- Ob Coinbase sein USDC-Verleihprodukt nach New York bringt.
+- Wie viele Kredite liquidiert werden, falls Bitcoin weiter fällt.
+
+!soft: Sie fragen sich, wie Coinbase Kundengelder schützt? Lesen Sie [ist Coinbase sicher für Einsteiger?](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

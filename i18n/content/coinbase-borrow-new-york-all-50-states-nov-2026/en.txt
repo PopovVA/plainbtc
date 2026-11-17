@@ -1,0 +1,61 @@
+title: Coinbase opens crypto-backed loans to New York, completing its rollout to all 50 states
+page_title: Coinbase Borrow comes to New York: USDC loans against bitcoin in all 50 states
+description: Coinbase customers in New York can now borrow USDC against bitcoin, ether and solana, the last U.S. state to get Coinbase Borrow. The product has made more than $3.4 billion in loans since January 2025. Here is how it works and what can go wrong.
+og_description: New Yorkers can now borrow USDC against BTC, ETH or SOL on Coinbase after state approval, completing a rollout to all 50 states. Loans run through Morpho on Base, rates are variable, and a falling price can trigger liquidation.
+label: Business
+summary: Coinbase has opened its crypto-backed loans to New York after state approval, so customers in all 50 states can now borrow USDC against bitcoin. New Yorkers get a smaller menu: BTC, ETH and SOL as collateral and variable rates only.
+===
+
+Coinbase customers in New York can now borrow cash against their crypto. Since Nov. 16, eligible New Yorkers can take a loan in USDC, a dollar-pegged stablecoin, using bitcoin, ether or solana as collateral, Coinbase said in an [update to its loans announcement](L2). New York was the last state missing, so the product, called Coinbase Borrow, now reaches customers in <strong>all 50 U.S. states</strong>, [The Block](L1) reported on Tuesday.
+
+The launch follows approval from the New York State Department of Financial Services, a Coinbase spokesperson told The Block. New York requires its own state license, known as the BitLicense, for many crypto businesses, which is one reason crypto products often reach the state later than the rest of the country.
+
+!takeaways
+- Since Nov. 16, eligible Coinbase customers in New York can borrow USDC against BTC, ETH or SOL.
+- Coinbase says that completes the rollout of Coinbase Borrow to all 50 U.S. states, after approval from New York's financial regulator.
+- Limits are up to $5 million against bitcoin, $1 million against ether and $100,000 against solana, subject to eligibility.
+- New Yorkers get variable-rate loans only. Fixed rates and other collateral, such as XRP and tokenized gold, are not available there yet.
+
+!figure:compare
+
+## How Coinbase Borrow works
+
+You pledge crypto you already hold on Coinbase and receive USDC within seconds, without selling. Behind the scenes, the loans are not made by Coinbase itself. They run on Morpho, an open-source lending protocol on Base, the blockchain network built by Coinbase. When you borrow against bitcoin, Coinbase converts it to cbBTC, a wrapped version of bitcoin, and moves it into a Morpho smart contract that holds it as collateral, according to Coinbase.
+
+Interest rates are variable and set automatically by Morpho's lending market, so they can change every few seconds. There is no fixed repayment schedule: you choose when to pay the loan down. USDC can be converted to U.S. dollars one for one on Coinbase, which is how a borrower turns the loan into spending money.
+
+"We have been working closely with regulators in New York since launching Coinbase Borrow last year, so that New Yorkers can also access cash without having to sell the crypto assets they believe in," Jacob Frantz, Coinbase's head of revenue and investment products, told The Block. He did not give dates for the application or the approval.
+
+## What New Yorkers can and cannot use
+
+Coinbase's [help page](L4) lists BTC, ETH and SOL as the only collateral for New York customers, with variable-rate loans only. Customers elsewhere can also borrow against XRP, Dogecoin, Cardano, Litecoin, Zcash, Hyperliquid's HYPE, staked ether and solana tokens, and Pax Gold (PAXG), a token backed by physical gold. Fixed-rate loans, in which a borrower locks a rate and an end date in advance, are also not available in New York yet. Neither is a separate Coinbase product that lends out customers' USDC for a return.
+
+!mid_cta
+
+## How big the product is
+
+Coinbase Borrow launched in January 2025. Since then it has originated <strong>more than $3.4 billion</strong> in loans, Morpho said in a [blog post](L3) on the expansion. Morpho put the amount still outstanding at more than $1.6 billion, backed by more than $2.8 billion in collateral. The Block, citing Morpho, reported slightly higher figures of $1.7 billion and $3.2 billion.
+
+!figure:fact
+
+## The main risk: liquidation
+
+A crypto-backed loan can go wrong fast when prices fall. If the loan plus interest grows too large compared with the value of your collateral, Coinbase says the position is liquidated, meaning collateral is sold to repay the debt. That risk is real right now. Bitcoin traded near $63,700 around midday Central time on Tuesday, down about 2% in 24 hours, according to CoinGecko, after briefly approaching $62,000 over the weekend.
+
+For a beginner, the safest approach is to borrow far less than the maximum, watch the loan in the app, and have a plan to add collateral or repay if prices drop. Coinbase notes that borrowing instead of selling can help delay a tax gain or loss. Check with a tax professional about your own situation.
+
+## What it means for beginners
+
+You do not need a loan to start with crypto, and most new users should not take one. If you are only looking to buy a small amount of bitcoin, a regulated exchange such as [Coinbase](REF) is one common place to begin, and Borrow stays an optional extra for people who already hold coins. Compare fees, understand liquidation, and only borrow what you could repay without selling. This is not investment advice.
+
+## What to watch next
+
+- Whether New York approves fixed-rate loans and the other collateral types Coinbase offers elsewhere.
+- Whether Coinbase brings its USDC lending product to New York.
+- How many loans get liquidated if bitcoin keeps falling.
+
+!soft: Wondering how Coinbase protects customer funds? Read [is Coinbase safe for beginners](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure
