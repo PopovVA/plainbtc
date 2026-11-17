@@ -48,7 +48,6 @@ _FONT_FACES = "".join(
     ))
 
 _STYLE = """<style>
-:root{color-scheme:light only;}
 """ + _FONT_FACES + """@media only screen and (max-width:620px){
 .pb-outer{padding:16px 10px 24px !important;}
 .pb-pad{padding-left:18px !important;padding-right:18px !important;}
@@ -85,9 +84,8 @@ def layout(lang: str, preheader: str, inner: str, footer_lines: list[str], unsub
            f'<a href="{esc(unsub_url)}" style="font-family:{MONO};font-size:11px;font-weight:600;letter-spacing:0.09em;text-transform:uppercase;'
            f'color:{PANEL_INK};text-decoration:underline;text-decoration-color:{ACCENT};">{esc(unsub_label)}</a>')
     return f"""<!doctype html>
-<html lang="{esc(HREFLANG.get(lang, lang))}" style="color-scheme:light only;"><head><meta charset="utf-8">
+<html lang="{esc(HREFLANG.get(lang, lang))}"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="color-scheme" content="light only"><meta name="supported-color-schemes" content="light">
 <meta name="x-apple-disable-message-reformatting"><meta name="format-detection" content="telephone=no,date=no,address=no,email=no">
 <title>PlainBTC</title>
 {_STYLE}
