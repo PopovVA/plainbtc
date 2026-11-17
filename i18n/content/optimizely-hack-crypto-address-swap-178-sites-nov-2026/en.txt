@@ -1,0 +1,63 @@
+title: Hackers used Optimizely to plant crypto-stealing code on 178 big websites, including Ledger
+page_title: Optimizely hack swapped crypto wallet addresses on 178 websites: what to check
+description: An attacker abused a flaw in web-testing service Optimizely on Monday to plant code on 178 organizations' websites, including Ledger, HSBC and the BBC. It swapped crypto wallet addresses and tried to skim cards. About $7,000 in crypto was taken.
+og_description: For most of Monday, visitors to 178 websites including Ledger, Zoom, CNN and HSBC were served code that swapped copied crypto addresses for the attacker's. Optimizely has fixed the flaw. Here is what to check if you sent crypto that day.
+label: Security
+summary: An attacker abused a flaw in Optimizely's web-testing tool to plant code on 178 organizations' websites, including Ledger and HSBC. It swapped crypto wallet addresses for the attacker's. About $7,000 was taken before the code was removed.
+===
+
+For most of Monday, visitors to some of the world's biggest websites were served hidden code built to steal cryptocurrency. An attacker exploited a flaw in the account signup process of Optimizely, a service companies use to test different versions of their web pages, and slipped malicious code into customer projects, [CoinDesk](L1) reported. Security firm Report URI found the code on the sites of <strong>178 organizations</strong>, including Zoom, the BBC, CNN, Salesforce, HSBC, IKEA and hardware wallet maker Ledger.
+
+Optimizely said it has fixed the flaw and removed the injected code. Report URI said every infected Optimizely file was clean by 5:11 p.m. Central time on Monday.
+
+!takeaways
+- On Nov. 16, malicious code was served through Optimizely's web-testing tool to visitors of 178 organizations' websites, according to Report URI.
+- The code swapped crypto wallet addresses for the attacker's, including in copied text, and also tried to steal card numbers, cookies and screenshots.
+- Wallets tied to the attack received about $7,040 in crypto, mostly bitcoin, by Monday afternoon.
+- Optimizely says the flaw is fixed; Report URI saw every infected file cleaned by 5:11 p.m. Central time on Monday.
+
+!figure:timeline
+
+## How the attack worked
+
+Optimizely's customers add a small piece of its JavaScript code, called a snippet, to their websites, so every visitor's browser downloads and runs it automatically. The snippet has an optional field where a customer can add its own code. The attacker wrote code into that field in many customer projects, Report URI's Scott Helme [wrote](L2). Because the files still came from Optimizely's own servers, the websites treated them as trusted.
+
+"Earlier today, Optimizely identified a security incident in which an unauthorized party exploited a vulnerability in the Experimentation account signup flow," the company told [BleepingComputer](L3). It said it also ended active sessions, revoked access tokens and notified all affected customers.
+
+Report URI checked 1,611 Optimizely snippets and found 188 infected ones belonging to 178 organizations. It said the real number is likely higher. The first injection it saw came at 10:21 p.m. Central time on Sunday, Nov. 15.
+
+## What the code did
+
+The main target was crypto. The script scanned web pages for wallet addresses on Bitcoin, Ethereum, Solana, Tron, Litecoin, Dogecoin and other networks and replaced them with the attacker's, both on the page and in anything a visitor copied to the clipboard. Someone who copied a deposit address and pasted it into a wallet app could have sent money straight to the attacker.
+
+It also watched payment forms for card numbers, collected cookies and page screenshots, and on iPhones and iPads tried to load known iOS hacking kits called Coruna and DarkSword that target older software versions, Report URI said. Hudson Rock, another security firm, said a successful break-in to a device has not been shown, [SecurityWeek](L4) reported.
+
+By Report URI's count, six of the affected organizations are crypto or trading businesses, including Ledger, IG and OANDA's Coinpass, and 32 are banks and financial companies.
+
+!figure:chart
+
+!mid_cta
+
+## How much was stolen
+
+Wallets listed in the malicious script had received about $7,040 in crypto by 1:25 p.m. Central time on Monday, Report URI said, with about $5,380 of that in bitcoin. The attacker emptied those wallets late Monday night, Central time. Report URI noted that it cannot see how many cards, cookies or devices were affected. The attacker's main server address stopped working at 6:37 p.m. Central time on Monday.
+
+The problem was not limited to Optimizely. Hudson Rock found similar code moving through three other web services, starting with an earlier wave on Nov. 13, CoinDesk reported.
+
+## What it means for beginners
+
+Address-swapping malware, often called a "clipper," works because people copy and paste long wallet addresses without reading them. If you sent crypto on Nov. 16 after copying an address from a website, open your wallet's history and compare the destination with the address you meant to use. Before any transfer, check the first and last several characters of the pasted address against the original, and send a small test amount first for large payments.
+
+If you typed a card number into a big brand's website that day, watch your statement. Keep your iPhone or iPad updated. Buying on a large exchange such as [Coinbase](REF) means no copying of addresses for the purchase itself, but the same checks apply whenever you send coins out. This is not investment advice.
+
+## What to watch next
+
+- Whether Optimizely explains exactly how the attacker got into so many customer projects.
+- Whether affected companies such as Ledger or HSBC report customer losses or card fraud.
+- Whether more websites turn up on the list of infected sites.
+
+!soft: Not sure where to keep your coins? Read [what a crypto wallet is: custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

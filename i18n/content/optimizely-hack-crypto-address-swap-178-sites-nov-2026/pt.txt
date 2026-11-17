@@ -1,0 +1,63 @@
+title: Hackers usaram a Optimizely para plantar código que rouba cripto em 178 grandes sites, incluindo a Ledger
+page_title: Ataque à Optimizely trocou endereços de carteiras cripto em 178 sites: o que verificar
+description: Um atacante explorou na segunda-feira uma falha na Optimizely, serviço de testes de sites, para plantar código nos sites de 178 organizações, como Ledger, HSBC e BBC. O código trocava endereços de carteiras cripto e tentava roubar cartões. Cerca de US$ 7.000 em cripto foram levados.
+og_description: Durante quase toda a segunda-feira, visitantes de 178 sites, entre eles Ledger, Zoom, CNN e HSBC, receberam um código que trocava endereços cripto copiados pelos do atacante. A Optimizely já corrigiu a falha. Veja o que verificar se você enviou cripto naquele dia.
+label: Segurança
+summary: Um atacante explorou uma falha na ferramenta de testes de sites da Optimizely para plantar código nos sites de 178 organizações, como Ledger e HSBC. O código trocava endereços de carteiras cripto pelos do atacante. Cerca de US$ 7.000 foram levados antes da remoção.
+===
+
+Durante quase toda a segunda-feira, visitantes de alguns dos maiores sites do mundo receberam um código oculto criado para roubar criptomoedas. Um atacante explorou uma falha no processo de cadastro de contas da Optimizely, serviço que as empresas usam para testar versões diferentes de suas páginas, e inseriu código malicioso em projetos de clientes, informou o [CoinDesk](L1). A empresa de segurança Report URI encontrou o código nos sites de <strong>178 organizações</strong>, entre elas Zoom, BBC, CNN, Salesforce, HSBC, IKEA e a fabricante de carteiras físicas Ledger.
+
+A Optimizely disse que já corrigiu a falha e removeu o código injetado. A Report URI afirmou que todos os arquivos infectados da Optimizely estavam limpos às 17h11, no horário central dos EUA, da segunda-feira.
+
+!takeaways
+- Em 16 de novembro, código malicioso foi entregue por meio da ferramenta de testes da Optimizely aos visitantes dos sites de 178 organizações, segundo a Report URI.
+- O código trocava endereços de carteiras cripto pelos do atacante, inclusive no texto copiado, e também tentava roubar números de cartão, cookies e capturas de tela.
+- As carteiras ligadas ao ataque receberam cerca de US$ 7.040 em cripto, a maior parte em bitcoin, até a tarde de segunda-feira.
+- A Optimizely diz que a falha foi corrigida; a Report URI viu todos os arquivos infectados limpos às 17h11, no horário central dos EUA, da segunda-feira.
+
+!figure:timeline
+
+## Como o ataque funcionou
+
+Os clientes da Optimizely adicionam aos seus sites um pequeno trecho do código JavaScript da empresa, chamado snippet, para que o navegador de cada visitante o baixe e o execute automaticamente. Esse snippet tem um campo opcional em que o cliente pode incluir o próprio código. O atacante escreveu código nesse campo em muitos projetos de clientes, [escreveu](L2) Scott Helme, da Report URI. Como os arquivos ainda vinham dos servidores da própria Optimizely, os sites os tratavam como confiáveis.
+
+"Hoje mais cedo, a Optimizely identificou um incidente de segurança no qual uma parte não autorizada explorou uma vulnerabilidade no fluxo de cadastro de contas do Experimentation", disse a empresa ao [BleepingComputer](L3). Ela afirmou que também encerrou sessões ativas, revogou tokens de acesso e avisou todos os clientes afetados.
+
+A Report URI verificou 1.611 snippets da Optimizely e encontrou 188 infectados, pertencentes a 178 organizações. Ela disse que o número real provavelmente é maior. A primeira injeção que detectou ocorreu às 22h21, no horário central dos EUA, do domingo, 15 de novembro.
+
+## O que o código fazia
+
+O alvo principal era cripto. O script procurava nas páginas endereços de carteiras de Bitcoin, Ethereum, Solana, Tron, Litecoin, Dogecoin e outras redes e os trocava pelos do atacante, tanto na página quanto em tudo o que o visitante copiava para a área de transferência. Quem copiasse um endereço de depósito e o colasse em um app de carteira poderia mandar o dinheiro direto para o atacante.
+
+Ele também vigiava formulários de pagamento em busca de números de cartão, coletava cookies e capturas de tela das páginas e, em iPhones e iPads, tentava carregar kits de ataque para iOS conhecidos, chamados Coruna e DarkSword, voltados a versões antigas do sistema, segundo a Report URI. A Hudson Rock, outra empresa de segurança, disse que não foi demonstrada nenhuma invasão bem-sucedida de aparelhos, informou a [SecurityWeek](L4).
+
+Pela contagem da Report URI, seis das organizações afetadas são empresas de cripto ou de trading, como Ledger, IG e a Coinpass, da OANDA, e 32 são bancos e empresas financeiras.
+
+!figure:chart
+
+!mid_cta
+
+## Quanto foi roubado
+
+As carteiras listadas no script malicioso tinham recebido cerca de US$ 7.040 em cripto até 13h25, no horário central dos EUA, da segunda-feira, segundo a Report URI, sendo cerca de US$ 5.380 em bitcoin. O atacante esvaziou essas carteiras na noite de segunda-feira, no horário central dos EUA. A Report URI observou que não consegue ver quantos cartões, cookies ou aparelhos foram afetados. O endereço do servidor principal do atacante parou de funcionar às 18h37, no horário central dos EUA, da segunda-feira.
+
+O problema não se limitou à Optimizely. A Hudson Rock encontrou código semelhante circulando por outros três serviços web, a partir de uma onda anterior em 13 de novembro, informou o CoinDesk.
+
+## O que isso significa para iniciantes
+
+Malware que troca endereços, muitas vezes chamado de "clipper", funciona porque as pessoas copiam e colam longos endereços de carteira sem lê-los. Se você enviou cripto em 16 de novembro depois de copiar um endereço de algum site, abra o histórico da sua carteira e compare o destino com o endereço que pretendia usar. Antes de qualquer transferência, confira os primeiros e os últimos caracteres do endereço colado com o original e, em pagamentos grandes, envie antes um pequeno valor de teste.
+
+Se você digitou um número de cartão no site de uma grande marca naquele dia, acompanhe a fatura. Mantenha seu iPhone ou iPad atualizado. Comprar em uma grande corretora como a [Coinbase](REF) dispensa copiar endereços na compra em si, mas os mesmos cuidados valem sempre que você enviar moedas para fora. Isto não é recomendação de investimento.
+
+## O que acompanhar a seguir
+
+- Se a Optimizely vai explicar exatamente como o atacante entrou em tantos projetos de clientes.
+- Se empresas afetadas, como Ledger ou HSBC, relatarão perdas de clientes ou fraudes com cartões.
+- Se mais sites vão aparecer na lista de sites infectados.
+
+!soft: Não sabe onde guardar suas moedas? Leia [o que é uma carteira cripto: custodial ou autocustódia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

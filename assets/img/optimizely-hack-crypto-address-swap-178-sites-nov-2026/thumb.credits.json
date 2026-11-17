@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "optimizely.com og:image",
+      "license": "Logo",
+      "url": "https://www.optimizely.com/",
+      "credit": "Optimizely (logo, identification only)"
+    },
+    {
+      "file": "Report URI, Nov. 16, 2026",
+      "license": "Figure cited",
+      "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "credit": "Report URI (Scott Helme)"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "optimizely-hack-crypto-address-swap-178-sites-nov-2026",
+  "generated": "2026-11-17T14:04Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

@@ -1,0 +1,63 @@
+title: Hackerlar Optimizely üzerinden Ledger dahil 178 büyük web sitesine kripto çalan kod yerleştirdi
+page_title: Optimizely saldırısı 178 sitede kripto cüzdan adreslerini değiştirdi: neleri kontrol etmeli
+description: Bir saldırgan pazartesi günü web test hizmeti Optimizely'deki bir açığı kullanarak Ledger, HSBC ve BBC dahil 178 kuruluşun sitesine kod yerleştirdi. Kod kripto cüzdan adreslerini değiştiriyor ve kart bilgilerini çalmaya çalışıyordu. Yaklaşık 7.000 dolarlık kripto çalındı.
+og_description: Pazartesi gününün büyük bölümünde Ledger, Zoom, CNN ve HSBC dahil 178 sitenin ziyaretçilerine, kopyalanan kripto adreslerini saldırganınkilerle değiştiren bir kod sunuldu. Optimizely açığı kapattı. O gün kripto gönderdiyseniz kontrol etmeniz gerekenler burada.
+label: Güvenlik
+summary: Bir saldırgan Optimizely'nin web test aracındaki bir açığı kullanarak Ledger ve HSBC dahil 178 kuruluşun sitesine kod yerleştirdi. Kod kripto cüzdan adreslerini saldırganınkilerle değiştiriyordu. Kod kaldırılmadan önce yaklaşık 7.000 dolar çalındı.
+===
+
+Pazartesi gününün büyük bölümünde dünyanın en büyük web sitelerinden bazılarının ziyaretçilerine, kripto para çalmak için tasarlanmış gizli bir kod sunuldu. Bir saldırgan, şirketlerin web sayfalarının farklı sürümlerini test etmek için kullandığı Optimizely hizmetinin hesap kayıt sürecindeki bir açığı kullanarak müşteri projelerine kötü amaçlı kod yerleştirdi, [CoinDesk](L1) bildirdi. Güvenlik şirketi Report URI bu kodu Zoom, BBC, CNN, Salesforce, HSBC, IKEA ve donanım cüzdanı üreticisi Ledger dahil <strong>178 kuruluşun</strong> sitesinde buldu.
+
+Optimizely açığı kapattığını ve enjekte edilen kodu kaldırdığını söyledi. Report URI'ye göre enfekte olan tüm Optimizely dosyaları pazartesi günü ABD Merkez saatiyle 17.11'de temizlenmişti.
+
+!takeaways
+- Report URI'ye göre 16 Kasım'da Optimizely'nin web test aracı üzerinden 178 kuruluşun sitesini ziyaret edenlere kötü amaçlı kod sunuldu.
+- Kod, kopyalanan metin dahil kripto cüzdan adreslerini saldırganınkilerle değiştiriyor, ayrıca kart numaralarını, çerezleri ve ekran görüntülerini çalmaya çalışıyordu.
+- Saldırıyla bağlantılı cüzdanlar pazartesi öğleden sonrasına kadar çoğu bitcoin olmak üzere yaklaşık 7.040 dolarlık kripto aldı.
+- Optimizely açığın kapatıldığını söylüyor; Report URI tüm enfekte dosyaların pazartesi günü ABD Merkez saatiyle 17.11'de temizlendiğini gördü.
+
+!figure:timeline
+
+## Saldırı nasıl işledi
+
+Optimizely müşterileri, şirketin snippet adı verilen küçük bir JavaScript kod parçasını sitelerine ekliyor; böylece her ziyaretçinin tarayıcısı bu kodu otomatik olarak indirip çalıştırıyor. Bu kod parçasında, müşterinin kendi kodunu ekleyebileceği isteğe bağlı bir alan bulunuyor. Report URI'den Scott Helme'nin [yazdığına](L2) göre saldırgan birçok müşteri projesinde bu alana kod yazdı. Dosyalar hâlâ Optimizely'nin kendi sunucularından geldiği için siteler onları güvenilir kabul etti.
+
+Şirket [BleepingComputer](L3)'a yaptığı açıklamada "Bugün erken saatlerde Optimizely, yetkisiz bir tarafın Experimentation hesap kayıt akışındaki bir güvenlik açığını kullandığı bir güvenlik olayı tespit etti" dedi. Ayrıca aktif oturumları sonlandırdığını, erişim tokenlerini iptal ettiğini ve etkilenen tüm müşterileri bilgilendirdiğini söyledi.
+
+Report URI 1.611 Optimizely kod parçasını inceledi ve 178 kuruluşa ait 188 enfekte kod parçası buldu. Gerçek sayının muhtemelen daha yüksek olduğunu belirtti. Şirketin gördüğü ilk enjeksiyon 15 Kasım pazar günü ABD Merkez saatiyle 22.21'de gerçekleşti.
+
+## Kod ne yapıyordu
+
+Asıl hedef kriptoydu. Betik, sayfalarda Bitcoin, Ethereum, Solana, Tron, Litecoin, Dogecoin ve diğer ağlara ait cüzdan adreslerini arıyor ve bunları hem sayfada hem de ziyaretçinin panoya kopyaladığı her şeyde saldırganın adresleriyle değiştiriyordu. Bir yatırma adresini kopyalayıp cüzdan uygulamasına yapıştıran biri parasını doğrudan saldırgana gönderebilirdi.
+
+Report URI'ye göre kod ayrıca ödeme formlarındaki kart numaralarını izliyor, çerezleri ve sayfa ekran görüntülerini topluyor, iPhone ve iPad'lerde ise eski yazılım sürümlerini hedef alan Coruna ve DarkSword adlı bilinen iOS saldırı kitlerini yüklemeye çalışıyordu. Başka bir güvenlik şirketi olan Hudson Rock, herhangi bir cihaza başarılı bir sızma yapıldığının gösterilmediğini söyledi, [SecurityWeek](L4) bildirdi.
+
+Report URI'nin sayımına göre etkilenen kuruluşların altısı Ledger, IG ve OANDA'nın Coinpass'i gibi kripto veya alım satım şirketleri, 32'si ise bankalar ve finans şirketleri.
+
+!figure:chart
+
+!mid_cta
+
+## Ne kadar çalındı
+
+Report URI'ye göre kötü amaçlı betikte yer alan cüzdanlar pazartesi günü ABD Merkez saatiyle 13.25'e kadar yaklaşık 7.040 dolarlık kripto almıştı; bunun yaklaşık 5.380 doları bitcoin'di. Saldırgan bu cüzdanları ABD Merkez saatiyle pazartesi gecesi geç saatlerde boşalttı. Report URI kaç kartın, çerezin veya cihazın etkilendiğini göremediğini belirtti. Saldırganın ana sunucu adresi pazartesi günü ABD Merkez saatiyle 18.37'de çalışmayı durdurdu.
+
+Sorun yalnızca Optimizely ile sınırlı değildi. Hudson Rock, 13 Kasım'daki daha önceki bir dalgayla başlayarak benzer bir kodun üç farklı web hizmeti üzerinden dolaştığını buldu, CoinDesk bildirdi.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Genellikle "clipper" olarak adlandırılan adres değiştiren zararlı yazılımlar, insanlar uzun cüzdan adreslerini okumadan kopyalayıp yapıştırdığı için işe yarıyor. 16 Kasım'da bir web sitesinden adres kopyalayarak kripto gönderdiyseniz, cüzdanınızın geçmişini açın ve alıcı adresini kullanmak istediğiniz adresle karşılaştırın. Her transferden önce yapıştırdığınız adresin ilk ve son birkaç karakterini orijinaliyle karşılaştırın; büyük ödemelerde önce küçük bir test tutarı gönderin.
+
+O gün büyük bir markanın sitesine kart numarası girdiyseniz hesap ekstrenizi takip edin. iPhone veya iPad'inizi güncel tutun. [Coinbase](REF) gibi büyük bir borsadan alım yapmak, alımın kendisi için adres kopyalamayı gereksiz kılar, ancak coinleri dışarı her gönderdiğinizde aynı kontroller geçerlidir. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Optimizely'nin, saldırganın bu kadar çok müşteri projesine tam olarak nasıl eriştiğini açıklayıp açıklamayacağı.
+- Ledger veya HSBC gibi etkilenen şirketlerin müşteri kayıpları ya da kart dolandırıcılığı bildirip bildirmeyeceği.
+- Enfekte siteler listesine yeni sitelerin eklenip eklenmeyeceği.
+
+!soft: Coinlerinizi nerede saklayacağınızdan emin değil misiniz? [Kripto cüzdan nedir, emanetli ve kendi saklama](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

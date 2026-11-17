@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/de/</link>
     <description>Bitcoin- und Krypto-News in einfacher Sprache für Einsteiger</description>
     <language>de</language>
-    <lastBuildDate>Mon, 16 Nov 2026 14:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 15:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/de/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Hacker nutzten Optimizely, um Krypto-Diebescode auf 178 großen Websites zu platzieren, darunter Ledger</title>
+      <link>https://plainbtc.com/de/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 15:00:00 GMT</pubDate>
+      <category>Sicherheit</category>
+      <description>Ein Angreifer nutzte eine Lücke in Optimizelys Website-Testtool, um Code auf den Websites von 178 Organisationen wie Ledger und HSBC zu platzieren. Der Code tauschte Krypto-Wallet-Adressen gegen die des Angreifers aus. Rund 7.000 Dollar wurden erbeutet, bevor er entfernt wurde.</description>
+    </item>
+    <item>
+      <title>Solana Foundation hält nach eigenen Angaben jetzt die Mehrheit an CoinGecko, der Krypto-Kursseite</title>
+      <link>https://plainbtc.com/de/articles/solana-foundation-coingecko-majority-stake-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/solana-foundation-coingecko-majority-stake-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 14:55:00 GMT</pubDate>
+      <category>Wirtschaft</category>
+      <description>Die Solana Foundation hält nach eigenen Angaben jetzt die Mehrheit an CoinGecko, der Kursseite mit 18 Millionen registrierten Nutzern. Ein Preis wurde nicht genannt, und CoinGecko sagt, Website und Daten funktionieren wie bisher.</description>
+    </item>
     <item>
       <title>US-Supreme-Court nimmt Custodia-Fall nicht an: Die Fed darf Kryptobanken weiter ein Master-Konto verweigern</title>
       <link>https://plainbtc.com/de/articles/supreme-court-rejects-custodia-fed-master-account-nov-2026</link>

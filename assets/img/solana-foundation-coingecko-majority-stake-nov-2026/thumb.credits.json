@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "coingecko.com og:image",
+      "license": "Logo",
+      "url": "https://www.coingecko.com/",
+      "credit": "CoinGecko (logo, identification only)"
+    },
+    {
+      "file": "solana-sol-logo.svg",
+      "license": "Logo",
+      "url": "https://cryptologos.cc/solana",
+      "credit": "Solana Foundation"
+    },
+    {
+      "file": "Solana Foundation via CoinDesk, Nov. 17, 2026",
+      "license": "Figure cited",
+      "url": "https://www.coindesk.com/business/2026/11/17/solana-foundation-takes-majority-stake-in-crypto-data-provider-coingecko",
+      "credit": "CoinDesk"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "solana-foundation-coingecko-majority-stake-nov-2026",
+  "generated": "2026-11-17T14:04Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

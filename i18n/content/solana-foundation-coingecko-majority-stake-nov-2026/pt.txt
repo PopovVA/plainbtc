@@ -1,0 +1,67 @@
+title: Solana Foundation diz que agora tem participação majoritária na CoinGecko, o site de preços de cripto
+page_title: Solana Foundation assume participação majoritária na CoinGecko: o que muda para os usuários
+description: A Solana Foundation agora tem participação majoritária na CoinGecko, disse seu diretor de produto nesta terça-feira. O preço não foi divulgado. A CoinGecko diz que seu site, app e API seguem funcionando normalmente enquanto estuda negociação com a Solana.
+og_description: A CoinGecko, um dos sites de preços de cripto mais usados, com 18 milhões de usuários registrados, agora é apoiada pela Solana Foundation, que diz ter participação majoritária. Os termos não foram divulgados, e os recursos de negociação ainda estão em estudo.
+label: Negócios
+summary: A Solana Foundation diz que agora tem participação majoritária na CoinGecko, o site de acompanhamento de preços com 18 milhões de usuários registrados. O preço não foi divulgado, e a CoinGecko diz que seu site e seus dados continuam funcionando normalmente.
+===
+
+A CoinGecko, um dos sites mais populares para consultar preços de criptomoedas, agora conta com o apoio da Solana Foundation, a organização sem fins lucrativos sediada na Suíça que apoia a blockchain Solana. A CoinGecko anunciou o acordo nesta terça-feira, último dia da conferência Breakpoint da Solana, em Londres, e o diretor de produto da fundação, Vibhu Norby, escreveu no X que a fundação "agora tem participação majoritária" na empresa, informou o [CoinDesk](L1).
+
+Nenhum dos lados divulgou o preço, o tamanho exato da participação ou a estrutura do acordo. O [anúncio](L2) da própria CoinGecko não usa a palavra "majoritária" e descreve a operação como um apoio da fundação.
+
+!takeaways
+- A Solana Foundation diz que agora tem participação majoritária na CoinGecko; o preço e o tamanho da participação não foram divulgados.
+- A CoinGecko tem 18 milhões de usuários registrados, e seus dados abastecem cerca de 180.000 aplicativos e empresas de cripto, segundo a fundação.
+- A fundação planeja negociação com tecnologia Solana no site da CoinGecko, no GeckoTerminal e no app, enquanto a CoinGecko chama a negociação de uma área que está "explorando".
+- A CoinGecko diz que seu site, app e API "continuarão funcionando normalmente".
+
+!figure:fact
+
+## O que é a CoinGecko
+
+A CoinGecko foi fundada na Malásia em 2014 por Bobby Ong, hoje seu CEO, e TM Lee, seu presidente. "Depois de mais de 12 anos crescendo com recursos próprios, a CoinGecko passará a ser apoiada pela Solana Foundation", escreveu Ong no LinkedIn, segundo o [Fintech News Malaysia](L5). Crescer com recursos próprios significa que a empresa se financiou com a própria receita, sem investidores externos.
+
+Muitos iniciantes usam a CoinGecko, ou aplicativos que dependem dela, para ver o preço de uma moeda, seu valor de mercado e seu volume de negociação. A empresa diz que acompanha mais de 50 milhões de criptoativos em mais de 2.000 corretoras, informou o [Decrypt](L3).
+
+Seu alcance vai muito além do próprio site. Segundo a Solana Foundation, a CoinGecko tem 18 milhões de usuários registrados e mais de 50 milhões de sessões por mês, e suas interfaces de dados (APIs) fornecem preços para cerca de 180.000 aplicativos e empresas de cripto, informou o [Solana Compass](L4). Ou seja, muita gente vê números da CoinGecko dentro de outros apps sem nunca visitar o site.
+
+## O que o acordo muda
+
+Por enquanto, nada na tela. A CoinGecko disse que, com o apoio da fundação, vai se concentrar em três áreas:
+
+- Infraestrutura de dados e API, com cobertura maior de ativos onchain, ativos do mundo real tokenizados (RWAs) e derivativos.
+- Inteligência de mercado e descoberta, ou seja, mais pesquisa e formas mais simples de encontrar e acompanhar mercados.
+- Negociação, descrita como "explorar novas capacidades que conectem a descoberta e a pesquisa de cripto à participação no mercado".
+
+A fundação foi mais direta sobre a negociação. Sua publicação no X disse que os usuários podem esperar "negociação na plataforma com tecnologia Solana" no CoinGecko.com, no GeckoTerminal (o rastreador da CoinGecko para negociações em corretoras descentralizadas) e no app da CoinGecko. Não houve data de lançamento, e nenhum dos lados informou qual corretora ou serviço cuidaria das operações.
+
+!mid_cta
+
+## Por que isso importa
+
+O acordo dá à Solana um caminho direto para milhões de pessoas que já usam a CoinGecko para pesquisar tokens. Se a negociação for lançada, consultar uma moeda poderia terminar em uma operação liquidada na rede Solana. Norby disse que a fundação acredita que "a próxima onda de adoção virá de tornar as criptomoedas muito mais fáceis de usar".
+
+Isso também levanta uma questão de neutralidade. A CoinGecko classifica e acompanha moedas de todas as blockchains, incluindo as rivais da Solana. O cofundador TM Lee disse que o compromisso com dados precisos e confiáveis "continua o mesmo", e a CoinGecko prometeu manter seus métodos "transparentes e de acesso público".
+
+Há um precedente: a Binance, maior corretora de cripto do mundo, comprou o site de preços rival CoinMarketCap em 2020, lembrou o CoinDesk. Em janeiro, a CoinGecko disse que avaliava "oportunidades estratégicas" após notícias de que havia contratado o banco de investimento Moelis para estudar uma venda com avaliação de cerca de US$ 500 milhões, informou o Solana Compass, citando o DL News. Nenhum dos lados disse se o acordo com a fundação saiu desse processo.
+
+O token SOL, da Solana, era negociado perto de US$ 73,60 na manhã desta terça-feira, em alta de cerca de 4% em 24 horas, mas ainda abaixo dos cerca de US$ 86,60 de uma semana antes, segundo dados da [CoinGecko](L6).
+
+!figure:chart
+
+## O que isso significa para iniciantes
+
+Se você usa a CoinGecko ou um app baseado nos dados dela, nada muda hoje: preços, listas de acompanhamento e o site gratuito continuam funcionando. Se mais tarde surgir um botão de "negociar" em um site de preços, trate-o como qualquer corretora nova: veja quem realmente guarda o seu dinheiro, quais taxas você paga e se o serviço está disponível onde você mora. Muitos iniciantes continuam comprando em uma grande corretora regulamentada como a [Coinbase](REF) e usam sites de preços só para pesquisa. Isto não é recomendação de investimento.
+
+## O que acompanhar a seguir
+
+- Um documento ou declaração que confirme o tamanho da participação da fundação e qualquer mudança na gestão da CoinGecko.
+- Qual serviço vai oferecer a negociação na CoinGecko, quanto vai custar e se moedas de outras blockchains poderão ser negociadas.
+- Se os rankings e as listagens da CoinGecko continuam neutros em relação às blockchains rivais da Solana.
+
+!soft: É novo na Solana? Leia [por que a Solana abandonou o rótulo "mainnet beta" e virou Solana 1.0](/articles/solana-drops-mainnet-beta-solana-1-0-nov-2026).
+
+!end_cta
+
+!disclosure

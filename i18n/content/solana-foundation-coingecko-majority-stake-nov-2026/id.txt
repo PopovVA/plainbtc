@@ -1,0 +1,67 @@
+title: Solana Foundation mengaku kini memegang saham mayoritas di CoinGecko, situs harga kripto
+page_title: Solana Foundation ambil saham mayoritas di CoinGecko: apa artinya bagi pengguna
+description: Solana Foundation kini memegang saham mayoritas di CoinGecko, kata kepala produknya pada hari Selasa. Harga tidak diungkap. CoinGecko mengatakan situs, aplikasi, dan API-nya tetap berjalan seperti biasa sambil menjajaki fitur trading berbasis Solana.
+og_description: CoinGecko, salah satu situs harga kripto paling banyak dipakai dengan 18 juta pengguna terdaftar, kini didukung Solana Foundation yang mengaku memegang saham mayoritas. Ketentuan kesepakatan tidak diungkap, dan fitur trading masih dijajaki.
+label: Bisnis
+summary: Solana Foundation mengaku kini memegang saham mayoritas di CoinGecko, situs pelacak harga dengan 18 juta pengguna terdaftar. Harga tidak diungkap, dan CoinGecko mengatakan situs serta datanya tetap berjalan seperti biasa.
+===
+
+CoinGecko, salah satu situs paling populer untuk mengecek harga kripto, kini didukung oleh Solana Foundation, organisasi nirlaba berbasis di Swiss yang mendukung blockchain Solana. CoinGecko mengumumkan kesepakatan ini pada hari Selasa, hari terakhir konferensi Breakpoint milik Solana di London, dan kepala produk yayasan itu, Vibhu Norby, menulis di X bahwa yayasan "kini memegang saham mayoritas" di perusahaan tersebut, lapor [CoinDesk](L1).
+
+Tidak ada pihak yang mengungkap harga, besaran pasti saham, atau struktur kesepakatannya. [Pengumuman](L2) CoinGecko sendiri tidak memakai kata "mayoritas" dan menyebut kesepakatan ini sebagai dukungan dari yayasan.
+
+!takeaways
+- Solana Foundation mengaku kini memegang saham mayoritas di CoinGecko; harga dan besaran saham tidak diungkap.
+- CoinGecko punya 18 juta pengguna terdaftar, dan datanya memasok sekitar 180.000 aplikasi dan perusahaan kripto, menurut yayasan.
+- Yayasan berencana menghadirkan trading berbasis Solana di situs CoinGecko, GeckoTerminal, dan aplikasi selulernya, sementara CoinGecko menyebut trading sebagai area yang sedang "dijajaki".
+- CoinGecko mengatakan situs, aplikasi, dan API-nya "akan tetap beroperasi seperti biasa".
+
+!figure:fact
+
+## Apa itu CoinGecko
+
+CoinGecko didirikan di Malaysia pada 2014 oleh Bobby Ong, kini CEO-nya, dan TM Lee, presidennya. "Setelah lebih dari 12 tahun berkembang dengan dana sendiri, CoinGecko akan didukung oleh Solana Foundation," tulis Ong di LinkedIn, menurut [Fintech News Malaysia](L5). Berkembang dengan dana sendiri artinya perusahaan tumbuh dari pendapatannya sendiri, bukan dari investor luar.
+
+Banyak pemula memakai CoinGecko, atau aplikasi yang mengandalkannya, untuk melihat harga sebuah koin, nilai pasarnya, dan volume perdagangannya. Perusahaan itu mengaku melacak lebih dari 50 juta aset kripto di lebih dari 2.000 bursa, lapor [Decrypt](L3).
+
+Jangkauannya jauh melampaui situsnya sendiri. Menurut Solana Foundation, CoinGecko memiliki 18 juta pengguna terdaftar dan lebih dari 50 juta sesi per bulan, dan antarmuka datanya (API) memasok harga ke sekitar 180.000 aplikasi dan perusahaan kripto, lapor [Solana Compass](L4). Artinya, banyak orang melihat angka CoinGecko di dalam aplikasi lain tanpa pernah membuka situsnya.
+
+## Apa yang berubah dari kesepakatan ini
+
+Untuk saat ini, tidak ada yang berubah di layar. CoinGecko mengatakan, dengan dukungan yayasan, mereka akan fokus pada tiga area:
+
+- Infrastruktur data dan API, dengan cakupan lebih luas untuk aset onchain, aset dunia nyata yang ditokenisasi (RWA), dan derivatif.
+- Intelijen pasar dan penemuan, yaitu lebih banyak riset dan cara yang lebih mudah untuk menemukan dan mengikuti pasar.
+- Trading, yang digambarkan sebagai "menjajaki kemampuan baru yang menghubungkan penemuan dan riset kripto dengan partisipasi di pasar".
+
+Yayasan lebih tegas soal trading. Unggahannya di X menyebut pengguna bisa menantikan "trading di platform yang ditenagai Solana" di CoinGecko.com, GeckoTerminal (pelacak CoinGecko untuk perdagangan di bursa terdesentralisasi), dan aplikasi CoinGecko. Tidak ada tanggal peluncuran, dan tidak ada pihak yang menyebut bursa atau layanan mana yang akan menangani transaksinya.
+
+!mid_cta
+
+## Mengapa ini penting
+
+Kesepakatan ini memberi Solana jalur langsung ke jutaan orang yang sudah memakai CoinGecko untuk meriset token. Jika trading diluncurkan, mencari informasi sebuah koin bisa berakhir dengan transaksi yang diselesaikan di jaringan Solana. Norby mengatakan yayasan percaya bahwa "gelombang adopsi berikutnya akan datang dari membuat kripto jauh lebih mudah digunakan".
+
+Ini juga memunculkan pertanyaan soal netralitas. CoinGecko memeringkat dan melacak koin dari semua blockchain, termasuk para pesaing Solana. Salah satu pendiri, TM Lee, mengatakan komitmen pada data yang akurat dan andal "tidak berubah", dan CoinGecko berjanji menjaga metodenya tetap "transparan dan dapat diakses publik".
+
+Ada preseden: Binance, bursa kripto terbesar di dunia, membeli situs harga pesaing CoinMarketCap pada 2020, catat CoinDesk. Pada Januari, CoinGecko mengatakan sedang menimbang "peluang strategis" setelah muncul laporan bahwa mereka menyewa bank investasi Moelis untuk menjajaki penjualan dengan valuasi sekitar US$500 juta, lapor Solana Compass mengutip DL News. Tidak ada pihak yang menyebut apakah kesepakatan dengan yayasan lahir dari proses itu.
+
+Token SOL milik Solana diperdagangkan di sekitar US$73,60 pada Selasa pagi, naik sekitar 4% dalam 24 jam, tetapi masih di bawah sekitar US$86,60 seminggu sebelumnya, menurut data [CoinGecko](L6).
+
+!figure:chart
+
+## Apa artinya bagi pemula
+
+Jika Anda memakai CoinGecko atau aplikasi yang memakai datanya, hari ini tidak ada yang berubah: harga, daftar pantauan, dan situs gratisnya tetap berfungsi. Jika nanti muncul tombol "trading" di situs harga, perlakukan seperti bursa baru mana pun: periksa siapa yang sebenarnya menyimpan uang Anda, biaya apa yang Anda bayar, dan apakah layanannya tersedia di tempat Anda tinggal. Banyak pemula tetap membeli di bursa besar yang teregulasi seperti [Coinbase](REF) dan memakai situs harga hanya untuk riset. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau selanjutnya
+
+- Dokumen atau pernyataan yang memastikan besaran saham yayasan, serta perubahan apa pun di jajaran manajemen CoinGecko.
+- Layanan apa yang akan menjalankan trading di CoinGecko, berapa biayanya, dan apakah koin dari blockchain lain bisa diperdagangkan.
+- Apakah peringkat dan daftar koin CoinGecko tetap netral terhadap blockchain pesaing Solana.
+
+!soft: Baru mengenal Solana? Baca [mengapa Solana melepas label "mainnet beta" dan menjadi Solana 1.0](/articles/solana-drops-mainnet-beta-solana-1-0-nov-2026).
+
+!end_cta
+
+!disclosure

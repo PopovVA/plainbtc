@@ -1,0 +1,19 @@
+{
+ "slug": "optimizely-hack-crypto-address-swap-178-sites-nov-2026",
+ "date": "2026-11-17",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "lighter-dex-10-4-million-leaked-api-key-nov-2026",
+  "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026",
+  "across-protocol-domain-hijack-phishing-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {"url": "https://www.coindesk.com/tech/2026/11/17/hackers-planted-crypto-stealing-code-on-178-organizations-sites-including-hsbc-bbc-and-ledger", "title": "CoinDesk: Hackers plant crypto-stealing code on 178 major websites, including HSBC and Ledger", "date": "Nov 17, 2026"},
+  {"url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/", "title": "Report URI (Scott Helme): World's largest brands infected with malware via Optimizely", "date": "Nov 16-17, 2026"},
+  {"url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/", "title": "BleepingComputer: Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware", "date": "Nov 16, 2026"},
+  {"url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/", "title": "SecurityWeek: Optimizely vulnerability exploited to serve malware on major websites", "date": "Nov 17, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

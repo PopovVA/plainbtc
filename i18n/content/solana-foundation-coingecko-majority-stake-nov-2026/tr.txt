@@ -1,0 +1,67 @@
+title: Solana Foundation, kripto fiyat sitesi CoinGecko'da artık çoğunluk hissesine sahip olduğunu söylüyor
+page_title: Solana Foundation, CoinGecko'da çoğunluk hissesi aldı: kullanıcılar için ne anlama geliyor
+description: Solana Foundation'ın ürün direktörü salı günü vakfın artık CoinGecko'da çoğunluk hissesine sahip olduğunu söyledi. Fiyat açıklanmadı. CoinGecko, Solana tabanlı alım satımı araştırırken sitesinin, uygulamasının ve API'sinin her zamanki gibi çalıştığını belirtiyor.
+og_description: 18 milyon kayıtlı kullanıcısıyla en çok kullanılan kripto fiyat sitelerinden biri olan CoinGecko artık Solana Foundation'ın desteğinde. Vakıf çoğunluk hissesine sahip olduğunu söylüyor. Şartlar açıklanmadı, alım satım özellikleri ise hâlâ inceleniyor.
+label: İş dünyası
+summary: Solana Foundation, 18 milyon kayıtlı kullanıcısı olan fiyat takip sitesi CoinGecko'da artık çoğunluk hissesine sahip olduğunu söylüyor. Fiyat açıklanmadı ve CoinGecko, sitesinin ve verilerinin her zamanki gibi çalıştığını belirtiyor.
+===
+
+Kripto para fiyatlarını kontrol etmek için en popüler sitelerden biri olan CoinGecko artık Solana blokzincirini destekleyen, İsviçre merkezli kâr amacı gütmeyen kuruluş Solana Foundation'ın desteğine sahip. CoinGecko anlaşmayı Solana'nın Londra'daki Breakpoint konferansının son günü olan salı günü duyurdu. Vakfın ürün direktörü Vibhu Norby de X'te vakfın şirkette "artık çoğunluk hissesine sahip olduğunu" yazdı, [CoinDesk](L1) bildirdi.
+
+Taraflardan hiçbiri fiyatı, hissenin tam büyüklüğünü ya da anlaşmanın yapısını açıklamadı. CoinGecko'nun kendi [duyurusu](L2) "çoğunluk" kelimesini kullanmıyor ve anlaşmayı vakfın desteği olarak tanımlıyor.
+
+!takeaways
+- Solana Foundation, CoinGecko'da artık çoğunluk hissesine sahip olduğunu söylüyor; fiyat ve hissenin büyüklüğü açıklanmadı.
+- Vakfa göre CoinGecko'nun 18 milyon kayıtlı kullanıcısı var ve verileri yaklaşık 180.000 kripto uygulamasını ve şirketi besliyor.
+- Vakıf, CoinGecko'nun sitesinde, GeckoTerminal'de ve mobil uygulamasında Solana destekli alım satım planlıyor; CoinGecko ise alım satımı "araştırdığı" bir alan olarak tanımlıyor.
+- CoinGecko, sitesinin, uygulamasının ve API'sinin "her zamanki gibi çalışmaya devam edeceğini" söylüyor.
+
+!figure:fact
+
+## CoinGecko nedir
+
+CoinGecko, 2014'te Malezya'da bugün CEO'su olan Bobby Ong ve şirketin başkanı TM Lee tarafından kuruldu. Ong LinkedIn'de "12 yılı aşkın süre kendi imkânlarımızla büyüdükten sonra CoinGecko artık Solana Foundation'ın desteğini alacak" diye yazdı, [Fintech News Malaysia](L5) aktardı. Kendi imkânlarıyla büyümek, şirketin dış yatırımcılar yerine kendi geliriyle büyüdüğü anlamına geliyor.
+
+Birçok yeni başlayan, bir coinin fiyatına, piyasa değerine ve işlem hacmine bakmak için CoinGecko'yu ya da ona dayanan uygulamaları kullanıyor. Şirket 2.000'den fazla borsada 50 milyondan fazla kripto varlığı takip ettiğini söylüyor, [Decrypt](L3) bildirdi.
+
+Erişimi kendi sitesinin çok ötesine uzanıyor. Solana Foundation'a göre CoinGecko'nun 18 milyon kayıtlı kullanıcısı ve ayda 50 milyondan fazla oturumu var; veri arayüzleri (API'ler) de yaklaşık 180.000 kripto uygulamasına ve şirkete fiyat sağlıyor, [Solana Compass](L4) bildirdi. Yani birçok kişi siteyi hiç ziyaret etmeden diğer uygulamaların içinde CoinGecko rakamlarını görüyor.
+
+## Anlaşma neyi değiştiriyor
+
+Şimdilik ekranda hiçbir şey. CoinGecko, vakfın desteğiyle üç alana odaklanacağını söyledi:
+
+- Veri ve API altyapısı: zincir üstü varlıkların, tokenize edilmiş gerçek dünya varlıklarının (RWA) ve türev ürünlerin daha geniş kapsamı.
+- Piyasa analizi ve keşif: daha fazla araştırma ve piyasaları bulup takip etmenin daha basit yolları.
+- Alım satım: "kripto keşfini ve araştırmasını piyasaya katılımla birleştiren yeni yetenekleri araştırmak" olarak tanımlanıyor.
+
+Vakıf alım satım konusunda daha kesin konuştu. X'teki paylaşımında kullanıcıların CoinGecko.com'da, GeckoTerminal'de (CoinGecko'nun merkeziyetsiz borsalardaki işlemleri izleme aracı) ve CoinGecko uygulamasında "Solana destekli platform içi alım satım" bekleyebileceğini söyledi. Başlangıç tarihi verilmedi ve taraflardan hiçbiri işlemleri hangi borsanın ya da hizmetin yürüteceğini açıklamadı.
+
+!mid_cta
+
+## Neden önemli
+
+Anlaşma Solana'ya, tokenleri araştırmak için zaten CoinGecko'yu kullanan milyonlarca kişiye doğrudan ulaşma imkânı veriyor. Alım satım başlarsa, bir coine bakmak Solana ağında gerçekleşen bir işlemle sonuçlanabilir. Norby, vakfın "bir sonraki benimseme dalgasının kriptoyu çok daha kolay kullanılır hale getirmekten geleceğine" inandığını söyledi.
+
+Anlaşma bir tarafsızlık sorusunu da gündeme getiriyor. CoinGecko, Solana'nın rakipleri dahil her blokzincirdeki coinleri sıralıyor ve takip ediyor. Kurucu ortak TM Lee, doğru ve güvenilir veriye olan bağlılığın "değişmediğini" söyledi; CoinGecko da yöntemlerini "şeffaf ve herkese açık" tutma sözü verdi.
+
+Bunun bir örneği var: Dünyanın en büyük kripto borsası Binance, rakip fiyat sitesi CoinMarketCap'i 2020'de satın almıştı, CoinDesk hatırlattı. Ocak ayında CoinGecko, yaklaşık 500 milyon dolarlık bir değerleme üzerinden satış seçeneğini incelemek için yatırım bankası Moelis'i tuttuğu yönündeki haberlerin ardından "stratejik fırsatları" değerlendirdiğini söylemişti, Solana Compass DL News'e dayanarak bildirdi. Taraflar vakıfla yapılan anlaşmanın bu süreçten çıkıp çıkmadığını söylemedi.
+
+[CoinGecko](L6) verilerine göre Solana'nın SOL tokeni salı sabahı yaklaşık 73,60 dolardan işlem görüyordu; 24 saatte yaklaşık %4 yükselmişti ama bir hafta önceki yaklaşık 86,60 doların hâlâ altındaydı.
+
+!figure:chart
+
+## Yeni başlayanlar için ne anlama geliyor
+
+CoinGecko'yu ya da onun verileriyle çalışan bir uygulamayı kullanıyorsanız bugün hiçbir şey değişmiyor: fiyatlar, izleme listeleri ve ücretsiz site çalışmaya devam ediyor. İleride bir fiyat sitesinde "işlem yap" düğmesi çıkarsa, onu yeni bir borsa gibi değerlendirin: paranızı gerçekte kimin tuttuğunu, hangi ücretleri ödediğinizi ve hizmetin yaşadığınız yerde sunulup sunulmadığını kontrol edin. Birçok yeni başlayan hâlâ [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsadan alım yapıyor ve fiyat sitelerini yalnızca araştırma için kullanıyor. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Vakfın hissesinin büyüklüğünü doğrulayan bir belge ya da açıklama ve CoinGecko yönetiminde olası değişiklikler.
+- CoinGecko'daki alım satımı hangi hizmetin sağlayacağı, maliyeti ve diğer blokzincirlerin coinlerinin de alınıp satılıp satılamayacağı.
+- CoinGecko'nun sıralamalarının ve listelemelerinin Solana'nın rakip blokzincirlerine karşı tarafsız kalıp kalmayacağı.
+
+!soft: Solana'da yeni misiniz? [Solana'nın neden "mainnet beta" etiketini bırakıp Solana 1.0 olduğunu](/articles/solana-drops-mainnet-beta-solana-1-0-nov-2026) anlatan yazımızı okuyun.
+
+!end_cta
+
+!disclosure

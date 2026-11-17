@@ -1,0 +1,63 @@
+title: Des pirates ont utilisé Optimizely pour placer un code voleur de cryptos sur 178 grands sites, dont Ledger
+page_title: Le piratage d'Optimizely a remplacé des adresses de portefeuilles crypto sur 178 sites : ce qu'il faut vérifier
+description: Un attaquant a exploité lundi une faille d'Optimizely, un service de tests de sites web, pour placer du code sur les sites de 178 organisations, dont Ledger, HSBC et la BBC. Ce code remplaçait des adresses de portefeuilles crypto et tentait de voler des cartes. Environ 7 000 dollars en crypto ont été dérobés.
+og_description: Pendant presque toute la journée de lundi, les visiteurs de 178 sites, dont Ledger, Zoom, CNN et HSBC, ont reçu un code qui remplaçait les adresses crypto copiées par celles de l'attaquant. Optimizely a corrigé la faille. Voici ce qu'il faut vérifier si vous avez envoyé des cryptos ce jour-là.
+label: Sécurité
+summary: Un attaquant a exploité une faille de l'outil de tests web d'Optimizely pour placer du code sur les sites de 178 organisations, dont Ledger et HSBC. Ce code remplaçait les adresses de portefeuilles crypto par les siennes. Environ 7 000 dollars ont été dérobés avant son retrait.
+===
+
+Pendant presque toute la journée de lundi, les visiteurs de certains des plus grands sites du monde ont reçu un code caché conçu pour voler des cryptomonnaies. Un attaquant a exploité une faille dans le processus d'inscription d'Optimizely, un service que les entreprises utilisent pour tester différentes versions de leurs pages web, et a glissé du code malveillant dans des projets clients, rapporte [CoinDesk](L1). La société de sécurité Report URI a trouvé ce code sur les sites de <strong>178 organisations</strong>, dont Zoom, la BBC, CNN, Salesforce, HSBC, IKEA et le fabricant de portefeuilles physiques Ledger.
+
+Optimizely affirme avoir corrigé la faille et retiré le code injecté. Selon Report URI, tous les fichiers Optimizely infectés étaient nettoyés à 17 h 11, heure du Centre des États-Unis, lundi.
+
+!takeaways
+- Le 16 novembre, du code malveillant a été diffusé via l'outil de tests web d'Optimizely aux visiteurs des sites de 178 organisations, selon Report URI.
+- Le code remplaçait les adresses de portefeuilles crypto par celles de l'attaquant, y compris dans le texte copié, et tentait aussi de voler des numéros de carte, des cookies et des captures d'écran.
+- Les portefeuilles liés à l'attaque avaient reçu environ 7 040 dollars en cryptos, surtout en bitcoin, lundi après-midi.
+- Optimizely assure que la faille est corrigée ; Report URI a vu tous les fichiers infectés nettoyés à 17 h 11, heure du Centre des États-Unis, lundi.
+
+!figure:timeline
+
+## Comment l'attaque a fonctionné
+
+Les clients d'Optimizely ajoutent à leurs sites un petit morceau de code JavaScript de l'entreprise, appelé snippet, que le navigateur de chaque visiteur télécharge et exécute automatiquement. Ce snippet comporte un champ facultatif où le client peut ajouter son propre code. L'attaquant a écrit du code dans ce champ dans de nombreux projets clients, a [écrit](L2) Scott Helme, de Report URI. Comme les fichiers provenaient toujours des serveurs d'Optimizely, les sites les considéraient comme fiables.
+
+« Plus tôt dans la journée, Optimizely a identifié un incident de sécurité au cours duquel une partie non autorisée a exploité une vulnérabilité du processus d'inscription à Experimentation », a déclaré l'entreprise à [BleepingComputer](L3). Elle dit avoir aussi fermé les sessions actives, révoqué les jetons d'accès et prévenu tous les clients concernés.
+
+Report URI a examiné 1 611 snippets Optimizely et en a trouvé 188 infectés, appartenant à 178 organisations. Selon elle, le chiffre réel est probablement plus élevé. La première injection qu'elle a repérée date de 22 h 21, heure du Centre des États-Unis, le dimanche 15 novembre.
+
+## Ce que faisait le code
+
+La cible principale était la crypto. Le script cherchait sur les pages des adresses de portefeuilles Bitcoin, Ethereum, Solana, Tron, Litecoin, Dogecoin et d'autres réseaux, et les remplaçait par celles de l'attaquant, à la fois sur la page et dans tout ce que le visiteur copiait dans le presse-papiers. Quelqu'un qui copiait une adresse de dépôt pour la coller dans une application de portefeuille pouvait envoyer son argent directement à l'attaquant.
+
+Il surveillait aussi les formulaires de paiement pour capter les numéros de carte, récupérait des cookies et des captures d'écran des pages et, sur iPhone et iPad, tentait de charger des kits d'attaque iOS connus, appelés Coruna et DarkSword, qui visent d'anciennes versions du système, selon Report URI. Hudson Rock, une autre société de sécurité, affirme qu'aucune intrusion réussie sur un appareil n'a été démontrée, rapporte [SecurityWeek](L4).
+
+Selon le décompte de Report URI, six des organisations touchées sont des entreprises de crypto ou de trading, dont Ledger, IG et Coinpass, d'OANDA, et 32 sont des banques et des sociétés financières.
+
+!figure:chart
+
+!mid_cta
+
+## Combien a été volé
+
+Les portefeuilles inscrits dans le script malveillant avaient reçu environ 7 040 dollars en cryptos à 13 h 25, heure du Centre des États-Unis, lundi, selon Report URI, dont environ 5 380 dollars en bitcoin. L'attaquant a vidé ces portefeuilles tard lundi soir, heure du Centre des États-Unis. Report URI précise qu'elle ne peut pas savoir combien de cartes, de cookies ou d'appareils ont été touchés. L'adresse du serveur principal de l'attaquant a cessé de fonctionner à 18 h 37, heure du Centre des États-Unis, lundi.
+
+Le problème ne s'est pas limité à Optimizely. Hudson Rock a trouvé un code similaire circulant via trois autres services web, à commencer par une première vague le 13 novembre, rapporte CoinDesk.
+
+## Ce que cela signifie pour les débutants
+
+Les logiciels malveillants qui remplacent les adresses, souvent appelés « clippers », fonctionnent parce que les gens copient et collent de longues adresses de portefeuille sans les lire. Si vous avez envoyé des cryptos le 16 novembre après avoir copié une adresse sur un site, ouvrez l'historique de votre portefeuille et comparez la destination avec l'adresse que vous vouliez utiliser. Avant chaque transfert, vérifiez les premiers et les derniers caractères de l'adresse collée par rapport à l'original et, pour les gros montants, envoyez d'abord une petite somme de test.
+
+Si vous avez saisi un numéro de carte sur le site d'une grande marque ce jour-là, surveillez vos relevés. Gardez votre iPhone ou votre iPad à jour. Acheter sur une grande plateforme comme [Coinbase](REF) évite de copier des adresses pour l'achat lui-même, mais les mêmes vérifications s'appliquent chaque fois que vous envoyez des cryptos ailleurs. Ceci n'est pas un conseil en investissement.
+
+## Ce qu'il faut surveiller
+
+- Si Optimizely explique précisément comment l'attaquant a pu accéder à autant de projets clients.
+- Si des entreprises touchées comme Ledger ou HSBC signalent des pertes de clients ou des fraudes à la carte.
+- Si d'autres sites apparaissent sur la liste des sites infectés.
+
+!soft: Vous ne savez pas où garder vos cryptos ? Lisez [ce qu'est un portefeuille crypto : dépositaire ou auto-garde](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

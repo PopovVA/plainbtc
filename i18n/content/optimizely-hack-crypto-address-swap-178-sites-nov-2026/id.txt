@@ -1,0 +1,63 @@
+title: Peretas memakai Optimizely untuk menanam kode pencuri kripto di 178 situs besar, termasuk Ledger
+page_title: Peretasan Optimizely menukar alamat dompet kripto di 178 situs: apa yang perlu dicek
+description: Seorang penyerang memanfaatkan celah di layanan uji situs Optimizely pada hari Senin untuk menanam kode di situs 178 organisasi, termasuk Ledger, HSBC, dan BBC. Kode itu menukar alamat dompet kripto dan mencoba mencuri data kartu. Sekitar US$7.000 dalam kripto dicuri.
+og_description: Hampir sepanjang hari Senin, pengunjung 178 situs, termasuk Ledger, Zoom, CNN, dan HSBC, menerima kode yang menukar alamat kripto yang disalin dengan alamat milik penyerang. Optimizely sudah menutup celahnya. Ini yang perlu Anda cek jika mengirim kripto hari itu.
+label: Keamanan
+summary: Seorang penyerang memanfaatkan celah di alat uji situs Optimizely untuk menanam kode di situs 178 organisasi, termasuk Ledger dan HSBC. Kode itu menukar alamat dompet kripto dengan milik penyerang. Sekitar US$7.000 dicuri sebelum kode dihapus.
+===
+
+Hampir sepanjang hari Senin, pengunjung sejumlah situs terbesar di dunia menerima kode tersembunyi yang dibuat untuk mencuri kripto. Seorang penyerang memanfaatkan celah dalam proses pendaftaran akun Optimizely, layanan yang dipakai perusahaan untuk menguji berbagai versi halaman web mereka, lalu menyusupkan kode berbahaya ke proyek milik pelanggan, lapor [CoinDesk](L1). Perusahaan keamanan Report URI menemukan kode itu di situs <strong>178 organisasi</strong>, termasuk Zoom, BBC, CNN, Salesforce, HSBC, IKEA, dan pembuat dompet perangkat keras Ledger.
+
+Optimizely mengatakan sudah menutup celah itu dan menghapus kode yang disusupkan. Report URI menyebut semua file Optimizely yang terinfeksi sudah bersih pada pukul 17.11 waktu Central AS hari Senin.
+
+!takeaways
+- Pada 16 November, kode berbahaya disajikan melalui alat uji situs Optimizely kepada pengunjung situs 178 organisasi, menurut Report URI.
+- Kode itu menukar alamat dompet kripto dengan milik penyerang, termasuk pada teks yang disalin, dan juga mencoba mencuri nomor kartu, cookie, dan tangkapan layar.
+- Dompet yang terkait serangan ini menerima sekitar US$7.040 dalam kripto, sebagian besar bitcoin, hingga Senin sore.
+- Optimizely mengatakan celahnya sudah ditutup; Report URI melihat semua file yang terinfeksi sudah bersih pada pukul 17.11 waktu Central AS hari Senin.
+
+!figure:timeline
+
+## Cara kerja serangan
+
+Pelanggan Optimizely menambahkan sepotong kecil kode JavaScript milik perusahaan itu, yang disebut snippet, ke situs mereka, sehingga peramban setiap pengunjung otomatis mengunduh dan menjalankannya. Snippet itu memiliki kolom opsional tempat pelanggan bisa menambahkan kodenya sendiri. Penyerang menulis kode di kolom itu pada banyak proyek pelanggan, [tulis](L2) Scott Helme dari Report URI. Karena file-file itu tetap berasal dari server Optimizely sendiri, situs-situs tersebut menganggapnya tepercaya.
+
+"Hari ini, Optimizely mengidentifikasi insiden keamanan di mana pihak tidak berwenang mengeksploitasi kerentanan dalam alur pendaftaran akun Experimentation," kata perusahaan itu kepada [BleepingComputer](L3). Optimizely juga mengatakan telah mengakhiri sesi aktif, mencabut token akses, dan memberi tahu semua pelanggan yang terdampak.
+
+Report URI memeriksa 1.611 snippet Optimizely dan menemukan 188 yang terinfeksi, milik 178 organisasi. Menurutnya, angka sebenarnya kemungkinan lebih tinggi. Penyusupan pertama yang dilihatnya terjadi pada pukul 22.21 waktu Central AS hari Minggu, 15 November.
+
+## Apa yang dilakukan kode itu
+
+Sasaran utamanya adalah kripto. Skrip itu memindai halaman web untuk mencari alamat dompet di jaringan Bitcoin, Ethereum, Solana, Tron, Litecoin, Dogecoin, dan lainnya, lalu menggantinya dengan alamat milik penyerang, baik di halaman maupun pada apa pun yang disalin pengunjung ke clipboard. Orang yang menyalin alamat deposit lalu menempelkannya di aplikasi dompet bisa saja mengirim uangnya langsung ke penyerang.
+
+Kode itu juga mengawasi formulir pembayaran untuk menangkap nomor kartu, mengumpulkan cookie dan tangkapan layar halaman, dan di iPhone serta iPad mencoba memuat perangkat serangan iOS yang sudah dikenal, bernama Coruna dan DarkSword, yang menyasar versi perangkat lunak lama, menurut Report URI. Hudson Rock, perusahaan keamanan lain, mengatakan belum terbukti ada perangkat yang berhasil dibobol, lapor [SecurityWeek](L4).
+
+Menurut hitungan Report URI, enam organisasi yang terdampak adalah perusahaan kripto atau trading, termasuk Ledger, IG, dan Coinpass milik OANDA, sementara 32 adalah bank dan perusahaan keuangan.
+
+!figure:chart
+
+!mid_cta
+
+## Berapa yang dicuri
+
+Dompet yang tercantum dalam skrip berbahaya itu telah menerima sekitar US$7.040 dalam kripto hingga pukul 13.25 waktu Central AS hari Senin, kata Report URI, sekitar US$5.380 di antaranya dalam bitcoin. Penyerang mengosongkan dompet-dompet itu pada Senin larut malam waktu Central AS. Report URI mencatat tidak bisa melihat berapa banyak kartu, cookie, atau perangkat yang terdampak. Alamat server utama penyerang berhenti berfungsi pada pukul 18.37 waktu Central AS hari Senin.
+
+Masalahnya tidak terbatas pada Optimizely. Hudson Rock menemukan kode serupa yang beredar melalui tiga layanan web lain, dimulai dengan gelombang sebelumnya pada 13 November, lapor CoinDesk.
+
+## Apa artinya bagi pemula
+
+Malware penukar alamat, yang sering disebut "clipper", berhasil karena orang menyalin dan menempelkan alamat dompet yang panjang tanpa membacanya. Jika Anda mengirim kripto pada 16 November setelah menyalin alamat dari sebuah situs, buka riwayat dompet Anda dan bandingkan alamat tujuan dengan alamat yang ingin Anda gunakan. Sebelum setiap transfer, cocokkan beberapa karakter awal dan akhir alamat yang ditempel dengan aslinya, dan untuk pembayaran besar kirim dulu jumlah kecil sebagai uji coba.
+
+Jika hari itu Anda memasukkan nomor kartu di situs merek besar, pantau tagihan Anda. Selalu perbarui iPhone atau iPad Anda. Membeli di bursa besar seperti [Coinbase](REF) berarti tidak perlu menyalin alamat untuk pembelian itu sendiri, tetapi pemeriksaan yang sama tetap berlaku setiap kali Anda mengirim koin keluar. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau selanjutnya
+
+- Apakah Optimizely menjelaskan secara persis bagaimana penyerang bisa masuk ke begitu banyak proyek pelanggan.
+- Apakah perusahaan terdampak seperti Ledger atau HSBC melaporkan kerugian pelanggan atau penipuan kartu.
+- Apakah lebih banyak situs muncul dalam daftar situs yang terinfeksi.
+
+!soft: Bingung di mana menyimpan koin Anda? Baca [apa itu dompet kripto: kustodian vs simpan sendiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

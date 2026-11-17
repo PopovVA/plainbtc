@@ -1,0 +1,67 @@
+title: Solana Foundation says it now holds a majority stake in CoinGecko, the crypto price site
+page_title: Solana Foundation takes a majority interest in CoinGecko: what it means for users
+description: The Solana Foundation now holds a majority interest in CoinGecko, its product chief said on Tuesday. No price was disclosed. CoinGecko says its site, app and API keep running as usual while it explores Solana-powered trading.
+og_description: CoinGecko, one of crypto's most used price sites with 18 million registered users, is now backed by the Solana Foundation, which says it holds a majority interest. Terms were not disclosed, and trading features are still being explored.
+label: Business
+summary: The Solana Foundation says it now holds a majority interest in CoinGecko, the price-tracking site with 18 million registered users. No price was disclosed, and CoinGecko says its site and data keep working as usual.
+===
+
+CoinGecko, one of the most popular websites for checking crypto prices, is now backed by the Solana Foundation, the Switzerland-based nonprofit that supports the Solana blockchain. CoinGecko announced the deal on Tuesday, the final day of Solana's Breakpoint conference in London, and the foundation's chief product officer, Vibhu Norby, wrote on X that the foundation "now has a majority interest" in the company, [CoinDesk](L1) reported.
+
+Neither side disclosed the price, the exact size of the stake or how the deal is structured. CoinGecko's own [announcement](L2) does not use the word "majority" and describes the arrangement as backing from the foundation.
+
+!takeaways
+- The Solana Foundation says it now holds a majority interest in CoinGecko; the price and the size of the stake were not disclosed.
+- CoinGecko has 18 million registered users, and its data feeds about 180,000 crypto apps and businesses, according to the foundation.
+- The foundation plans Solana-powered trading on CoinGecko's website, GeckoTerminal and mobile app, while CoinGecko calls trading an area it is "exploring."
+- CoinGecko says its website, app and API "will continue operating as usual."
+
+!figure:fact
+
+## What CoinGecko is
+
+CoinGecko was founded in Malaysia in 2014 by Bobby Ong, now its chief executive, and TM Lee, its president. "After bootstrapping for over 12 years, CoinGecko will be backed by Solana Foundation," Ong wrote on LinkedIn, according to [Fintech News Malaysia](L5). Bootstrapping means the company grew on its own revenue instead of outside investors.
+
+Many beginners use CoinGecko, or apps that rely on it, to look up a coin's price, market value and trading volume. The company says it tracks more than 50 million crypto assets across more than 2,000 exchanges, [Decrypt](L3) reported.
+
+Its reach goes well beyond its own website. According to the Solana Foundation, CoinGecko has 18 million registered users and more than 50 million monthly sessions, and its data interfaces (APIs) supply prices to about 180,000 crypto apps and businesses, [Solana Compass](L4) reported. That means many people see CoinGecko numbers inside other apps without ever visiting the site.
+
+## What the deal changes
+
+For now, nothing on the screen. CoinGecko said it will focus on three areas with the foundation's backing:
+
+- Data and API infrastructure, with wider coverage of onchain assets, tokenized real-world assets (RWAs) and derivatives.
+- Market intelligence and discovery, meaning more research and simpler ways to find and follow markets.
+- Trading, described as "exploring new capabilities that connect crypto discovery and research with market participation."
+
+The foundation was firmer about trading. Its post on X said users can look forward to "on-platform trading powered by Solana" on CoinGecko.com, GeckoTerminal (CoinGecko's tracker for trading on decentralized exchanges) and the CoinGecko app. No launch date was given, and neither side has named the exchange or service that would handle the trades.
+
+!mid_cta
+
+## Why it matters
+
+The deal gives Solana a direct path to millions of people who already use CoinGecko to research tokens. If trading launches, looking up a coin could end with a trade settled on the Solana network. Norby said the foundation believes the "next wave of adoption will come from making crypto dramatically easier to use."
+
+It also raises a question about neutrality. CoinGecko ranks and tracks coins from every blockchain, including Solana's rivals. Co-founder TM Lee said its commitment to accurate, reliable data "remains unchanged," and CoinGecko promised to keep its methods "transparent, publicly accessible."
+
+There is a precedent: Binance, the world's largest crypto exchange, bought rival price site CoinMarketCap in 2020, CoinDesk noted. In January, CoinGecko said it was weighing "strategic opportunities" after reports that it had hired investment bank Moelis to explore a sale at a valuation of around $500 million, Solana Compass reported, citing DL News. Neither side has said whether the foundation's deal came out of that process.
+
+Solana's SOL token traded near $73.60 on Tuesday morning, up about 4% over 24 hours but still below the roughly $86.60 it fetched a week earlier, according to [CoinGecko](L6) data.
+
+!figure:chart
+
+## What it means for beginners
+
+If you use CoinGecko or an app built on its data, nothing changes today: prices, watchlists and the free website keep working. If a "trade" button appears on a price site later, treat it like any new exchange: check who actually holds your money, what fees you pay and whether the service is available where you live. Many U.S. beginners still buy on a large regulated exchange such as [Coinbase](REF) and use price sites only for research. This is not investment advice.
+
+## What to watch next
+
+- A filing or statement confirming the size of the foundation's stake, and any changes to CoinGecko's management.
+- Which service will power trading on CoinGecko, what it costs and whether coins from other blockchains can be traded.
+- Whether CoinGecko's rankings and listings stay neutral toward Solana's rival blockchains.
+
+!soft: New to Solana? Read [why Solana dropped its "mainnet beta" label and became Solana 1.0](/articles/solana-drops-mainnet-beta-solana-1-0-nov-2026).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "fact",
+    "file": "fact-coingecko-18-million-users.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: CoinGecko has 18 million registered users, and its API feeds about 180,000 crypto apps and businesses, according to the Solana Foundation",
+      "es": "Tarjeta de datos: CoinGecko tiene 18 millones de usuarios registrados y su API alimenta a unas 180.000 aplicaciones y empresas cripto, según la Solana Foundation",
+      "pt": "Cartão de dados: a CoinGecko tem 18 milhões de usuários registrados, e sua API abastece cerca de 180.000 aplicativos e empresas de cripto, segundo a Solana Foundation",
+      "fr": "Fiche chiffrée : CoinGecko compte 18 millions d'utilisateurs inscrits et son API alimente environ 180 000 applications et entreprises crypto, selon la Solana Foundation",
+      "de": "Faktenkarte: CoinGecko hat 18 Millionen registrierte Nutzer, und seine API beliefert rund 180.000 Krypto-Apps und Unternehmen, so die Solana Foundation",
+      "ru": "Карточка с фактом: у CoinGecko 18 млн зарегистрированных пользователей, а его API снабжает данными около 180 000 криптоприложений и компаний, по данным Solana Foundation",
+      "tr": "Bilgi kartı: Solana Foundation'a göre CoinGecko'nun 18 milyon kayıtlı kullanıcısı var ve API'si yaklaşık 180.000 kripto uygulamasına ve şirkete veri sağlıyor",
+      "id": "Kartu fakta: CoinGecko memiliki 18 juta pengguna terdaftar, dan API-nya memasok sekitar 180.000 aplikasi dan perusahaan kripto, menurut Solana Foundation",
+      "ja": "ファクトカード：Solana Foundationによると、CoinGeckoの登録ユーザーは1800万人で、そのAPIは約18万の暗号資産アプリや企業にデータを提供",
+      "ko": "팩트 카드: 솔라나 재단에 따르면 코인게코의 등록 사용자는 1,800만 명이며, API는 약 18만 개의 암호화폐 앱과 기업에 데이터를 제공"
+    },
+    "caption": {
+      "en": "Source: Solana Foundation via CoinDesk and Solana Compass",
+      "es": "Fuente: Solana Foundation via CoinDesk and Solana Compass",
+      "pt": "Fonte: Solana Foundation via CoinDesk and Solana Compass",
+      "fr": "Source : Solana Foundation via CoinDesk and Solana Compass",
+      "de": "Quelle: Solana Foundation via CoinDesk and Solana Compass",
+      "ru": "Источник: Solana Foundation via CoinDesk and Solana Compass",
+      "tr": "Kaynak: Solana Foundation via CoinDesk and Solana Compass",
+      "id": "Sumber: Solana Foundation via CoinDesk and Solana Compass",
+      "ja": "出典: Solana Foundation via CoinDesk and Solana Compass",
+      "ko": "출처: Solana Foundation via CoinDesk and Solana Compass"
+    }
+  },
+  {
+    "id": "chart",
+    "file": "chart-sol-price-week.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of Solana's SOL price on CoinGecko from Nov. 10 to Nov. 17, 2026: about $86.60 on Nov. 10, a slide to a low of about $67.86 on Nov. 15, then a rebound to about $73.60 on the morning of Nov. 17",
+      "es": "Gráfico de líneas del precio de SOL de Solana en CoinGecko del 10 al 17 de noviembre de 2026: unos 86,60 dólares el 10 de noviembre, caída hasta un mínimo de unos 67,86 el 15 de noviembre y rebote hasta unos 73,60 la mañana del 17 de noviembre",
+      "pt": "Gráfico de linha do preço do SOL, da Solana, na CoinGecko de 10 a 17 de novembro de 2026: cerca de US$ 86,60 em 10 de novembro, queda até a mínima de cerca de US$ 67,86 em 15 de novembro e recuperação para cerca de US$ 73,60 na manhã de 17 de novembro",
+      "fr": "Courbe du cours du SOL de Solana sur CoinGecko du 10 au 17 novembre 2026 : environ 86,60 dollars le 10 novembre, une baisse jusqu'à un plus bas d'environ 67,86 le 15 novembre, puis un rebond vers 73,60 le matin du 17 novembre",
+      "de": "Liniendiagramm des SOL-Kurses von Solana bei CoinGecko vom 10. bis 17. November 2026: rund 86,60 $ am 10. November, ein Rückgang auf ein Tief von rund 67,86 $ am 15. November, danach eine Erholung auf rund 73,60 $ am Morgen des 17. November",
+      "ru": "Линейный график цены SOL сети Solana по данным CoinGecko с 10 по 17 ноября 2026 года: около $86,60 10 ноября, снижение до минимума около $67,86 15 ноября, затем отскок примерно до $73,60 утром 17 ноября",
+      "tr": "Solana'nın SOL fiyatının 10-17 Kasım 2026 arasında CoinGecko'daki çizgi grafiği: 10 Kasım'da yaklaşık 86,60 $, 15 Kasım'da yaklaşık 67,86 $'lık dibe düşüş, ardından 17 Kasım sabahı yaklaşık 73,60 $'a toparlanma",
+      "id": "Grafik garis harga SOL milik Solana di CoinGecko dari 10 hingga 17 November 2026: sekitar US$86,60 pada 10 November, turun ke titik terendah sekitar US$67,86 pada 15 November, lalu pulih ke sekitar US$73,60 pada pagi 17 November",
+      "ja": "2026年11月10日～17日のCoinGeckoにおけるSolanaのSOL価格の折れ線グラフ：11月10日に約86.60ドル、11月15日に約67.86ドルの安値まで下落し、11月17日朝には約73.60ドルへ反発",
+      "ko": "2026년 11월 10일~17일 CoinGecko 기준 솔라나 SOL 가격 선 차트: 11월 10일 약 86.60달러, 11월 15일 약 67.86달러 저점까지 하락한 뒤 11월 17일 오전 약 73.60달러로 반등"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: CoinGecko SOL/USD hourly prices",
+      "es": "Gráfico: PlainBTC, datos: CoinGecko SOL/USD hourly prices",
+      "pt": "Gráfico: PlainBTC, dados: CoinGecko SOL/USD hourly prices",
+      "fr": "Graphique : PlainBTC, données : CoinGecko SOL/USD hourly prices",
+      "de": "Chart: PlainBTC, Daten: CoinGecko SOL/USD hourly prices",
+      "ru": "График: PlainBTC, данные: CoinGecko SOL/USD hourly prices",
+      "tr": "Grafik: PlainBTC, veri: CoinGecko SOL/USD hourly prices",
+      "id": "Grafik: PlainBTC, data: CoinGecko SOL/USD hourly prices",
+      "ja": "チャート: PlainBTC、データ: CoinGecko SOL/USD hourly prices",
+      "ko": "차트: PlainBTC, 데이터: CoinGecko SOL/USD hourly prices"
+    }
+  }
+]

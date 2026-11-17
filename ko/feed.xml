@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ko/</link>
     <description>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 16 Nov 2026 14:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 15:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ko/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>해커들, 옵티마이즐리 악용해 레저 포함 대형 웹사이트 178곳에 암호화폐 탈취 코드 심어</title>
+      <link>https://plainbtc.com/ko/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 15:00:00 GMT</pubDate>
+      <category>보안</category>
+      <description>한 공격자가 옵티마이즐리의 웹 테스트 도구 결함을 악용해 레저와 HSBC 등 178개 조직의 웹사이트에 코드를 심었습니다. 코드는 암호화폐 지갑 주소를 공격자 주소로 바꿔치기했습니다. 코드가 제거되기 전까지 약 7,000달러가 탈취됐습니다.</description>
+    </item>
+    <item>
+      <title>솔라나 재단 "암호화폐 시세 사이트 코인게코 지분 과반 확보"</title>
+      <link>https://plainbtc.com/ko/articles/solana-foundation-coingecko-majority-stake-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/solana-foundation-coingecko-majority-stake-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 14:55:00 GMT</pubDate>
+      <category>비즈니스</category>
+      <description>솔라나 재단은 등록 사용자 1,800만 명의 시세 추적 사이트 코인게코의 과반 지분을 보유하게 됐다고 밝혔습니다. 가격은 공개되지 않았고, 코인게코는 사이트와 데이터가 평소처럼 운영된다고 밝혔습니다.</description>
+    </item>
     <item>
       <title>미 연방대법원, 커스토디아 사건 심리 거부… 연준은 암호화폐 은행에 마스터 계좌를 계속 거부할 수 있다</title>
       <link>https://plainbtc.com/ko/articles/supreme-court-rejects-custodia-fed-master-account-nov-2026</link>

@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/id/</link>
     <description>Berita Bitcoin dan kripto dengan bahasa sederhana untuk pemula</description>
     <language>id</language>
-    <lastBuildDate>Mon, 16 Nov 2026 14:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 15:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/id/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Peretas memakai Optimizely untuk menanam kode pencuri kripto di 178 situs besar, termasuk Ledger</title>
+      <link>https://plainbtc.com/id/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 15:00:00 GMT</pubDate>
+      <category>Keamanan</category>
+      <description>Seorang penyerang memanfaatkan celah di alat uji situs Optimizely untuk menanam kode di situs 178 organisasi, termasuk Ledger dan HSBC. Kode itu menukar alamat dompet kripto dengan milik penyerang. Sekitar US$7.000 dicuri sebelum kode dihapus.</description>
+    </item>
+    <item>
+      <title>Solana Foundation mengaku kini memegang saham mayoritas di CoinGecko, situs harga kripto</title>
+      <link>https://plainbtc.com/id/articles/solana-foundation-coingecko-majority-stake-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/solana-foundation-coingecko-majority-stake-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 14:55:00 GMT</pubDate>
+      <category>Bisnis</category>
+      <description>Solana Foundation mengaku kini memegang saham mayoritas di CoinGecko, situs pelacak harga dengan 18 juta pengguna terdaftar. Harga tidak diungkap, dan CoinGecko mengatakan situs serta datanya tetap berjalan seperti biasa.</description>
+    </item>
     <item>
       <title>Mahkamah Agung AS menolak memeriksa kasus Custodia, The Fed tetap bebas menolak master account bagi bank kripto</title>
       <link>https://plainbtc.com/id/articles/supreme-court-rejects-custodia-fed-master-account-nov-2026</link>

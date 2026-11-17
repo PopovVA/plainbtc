@@ -32,6 +32,16 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "optimizely-hack-crypto-address-swap-178-sites-nov-2026",
+        "Hackers used Optimizely to plant crypto-stealing code on 178 big websites",
+        "SECURITY",
+    ),
+    (
+        "solana-foundation-coingecko-majority-stake-nov-2026",
+        "Solana Foundation says it now holds a majority stake in CoinGecko",
+        "BUSINESS",
+    ),
+    (
         "supreme-court-rejects-custodia-fed-master-account-nov-2026",
         "Supreme Court won't hear crypto bank Custodia's fight for a Fed account",
         "REGULATION",
@@ -255,6 +265,16 @@ ARTICLES = [
 # used for identification only). Each entry: (image URL, tile background RGB).
 WIKI = "https://upload.wikimedia.org/wikipedia/commons/"
 OG_LOGOS: dict[str, list[tuple[str, tuple[int, int, int]]]] = {
+    # Optimizely wordmark cropped from Optimizely's own official share image (optimizely.com og:image), identification only.
+    "optimizely-hack-crypto-address-swap-178-sites-nov-2026": [
+        ("https://images3.cmp.optimizely.com/Zz1hOTU5MjFjNDY5MWYxMWYxOTU5NmZlODFjZDBjMWExMg==?width=1200#crop=130,200,1060,430", (228, 240, 218)),
+    ],
+    # CoinGecko logo cropped from CoinGecko's official share image (coingecko.com og:image) and the
+    # Solana logo (as used for other Solana articles), identification only.
+    "solana-foundation-coingecko-majority-stake-nov-2026": [
+        ("https://static.coingecko.com/s/social_image_cards/social_image_card_standard-152325d6e2be21a5365b167d97eee4819d9565e232425c65ad47f3d2d7b2ea79.png#crop=95,125,385,200", (13, 18, 22)),
+        ("https://cryptologos.cc/logos/solana-sol-logo.svg", (0, 0, 0)),
+    ],
     # Seals of the U.S. Supreme Court and the Federal Reserve Board (public domain, Wikimedia Commons), identification only.
     "supreme-court-rejects-custodia-fed-master-account-nov-2026": [
         (WIKI + "f/f3/Seal_of_the_United_States_Supreme_Court.svg", (255, 255, 255)),

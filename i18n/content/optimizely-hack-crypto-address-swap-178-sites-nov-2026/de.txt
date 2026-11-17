@@ -1,0 +1,63 @@
+title: Hacker nutzten Optimizely, um Krypto-Diebescode auf 178 großen Websites zu platzieren, darunter Ledger
+page_title: Optimizely-Hack tauschte Krypto-Wallet-Adressen auf 178 Websites aus: was Sie prüfen sollten
+description: Ein Angreifer nutzte am Montag eine Lücke beim Website-Testdienst Optimizely, um Code auf den Websites von 178 Organisationen wie Ledger, HSBC und BBC zu platzieren. Er tauschte Krypto-Wallet-Adressen aus und versuchte, Kartendaten abzugreifen. Erbeutet wurden rund 7.000 Dollar in Krypto.
+og_description: Fast den ganzen Montag lang bekamen Besucher von 178 Websites, darunter Ledger, Zoom, CNN und HSBC, Code ausgeliefert, der kopierte Krypto-Adressen gegen die des Angreifers austauschte. Optimizely hat die Lücke geschlossen. Das sollten Sie prüfen, wenn Sie an diesem Tag Krypto verschickt haben.
+label: Sicherheit
+summary: Ein Angreifer nutzte eine Lücke in Optimizelys Website-Testtool, um Code auf den Websites von 178 Organisationen wie Ledger und HSBC zu platzieren. Der Code tauschte Krypto-Wallet-Adressen gegen die des Angreifers aus. Rund 7.000 Dollar wurden erbeutet, bevor er entfernt wurde.
+===
+
+Fast den ganzen Montag lang bekamen Besucher einiger der größten Websites der Welt versteckten Code ausgeliefert, der Kryptowährungen stehlen sollte. Ein Angreifer nutzte eine Lücke im Registrierungsprozess von Optimizely, einem Dienst, mit dem Unternehmen verschiedene Versionen ihrer Webseiten testen, und schleuste bösartigen Code in Kundenprojekte ein, berichtete [CoinDesk](L1). Die Sicherheitsfirma Report URI fand den Code auf den Websites von <strong>178 Organisationen</strong>, darunter Zoom, die BBC, CNN, Salesforce, HSBC, IKEA und der Hardware-Wallet-Hersteller Ledger.
+
+Optimizely erklärte, die Lücke sei geschlossen und der eingeschleuste Code entfernt. Laut Report URI waren alle infizierten Optimizely-Dateien am Montag um 17:11 Uhr US-Central-Zeit bereinigt.
+
+!takeaways
+- Am 16. November wurde über Optimizelys Website-Testtool bösartiger Code an Besucher der Websites von 178 Organisationen ausgeliefert, so Report URI.
+- Der Code tauschte Krypto-Wallet-Adressen gegen die des Angreifers aus, auch in kopiertem Text, und versuchte zudem, Kartennummern, Cookies und Screenshots zu stehlen.
+- Die mit dem Angriff verbundenen Wallets erhielten bis Montagnachmittag rund 7.040 Dollar in Krypto, überwiegend Bitcoin.
+- Optimizely sagt, die Lücke sei geschlossen; Report URI sah alle infizierten Dateien am Montag um 17:11 Uhr US-Central-Zeit bereinigt.
+
+!figure:timeline
+
+## Wie der Angriff funktionierte
+
+Optimizely-Kunden binden ein kleines Stück JavaScript-Code des Unternehmens, ein sogenanntes Snippet, in ihre Websites ein, sodass der Browser jedes Besuchers es automatisch lädt und ausführt. Das Snippet enthält ein optionales Feld, in das ein Kunde eigenen Code schreiben kann. Der Angreifer schrieb Code in dieses Feld vieler Kundenprojekte, [schrieb](L2) Scott Helme von Report URI. Weil die Dateien weiterhin von Optimizelys eigenen Servern kamen, stuften die Websites sie als vertrauenswürdig ein.
+
+„Heute hat Optimizely einen Sicherheitsvorfall festgestellt, bei dem eine unbefugte Partei eine Schwachstelle im Registrierungsprozess für Experimentation-Konten ausgenutzt hat“, sagte das Unternehmen [BleepingComputer](L3). Es habe außerdem aktive Sitzungen beendet, Zugangstoken widerrufen und alle betroffenen Kunden informiert.
+
+Report URI prüfte 1.611 Optimizely-Snippets und fand 188 infizierte, die zu 178 Organisationen gehörten. Die tatsächliche Zahl sei wahrscheinlich höher. Die erste Injektion, die die Firma sah, erfolgte am Sonntag, 15. November, um 22:21 Uhr US-Central-Zeit.
+
+## Was der Code tat
+
+Hauptziel war Krypto. Das Skript durchsuchte Webseiten nach Wallet-Adressen für Bitcoin, Ethereum, Solana, Tron, Litecoin, Dogecoin und weitere Netzwerke und ersetzte sie durch die des Angreifers, sowohl auf der Seite als auch in allem, was ein Besucher in die Zwischenablage kopierte. Wer eine Einzahlungsadresse kopierte und in eine Wallet-App einfügte, konnte sein Geld direkt an den Angreifer schicken.
+
+Außerdem überwachte es Zahlungsformulare auf Kartennummern, sammelte Cookies und Screenshots der Seiten und versuchte auf iPhones und iPads, bekannte iOS-Angriffskits namens Coruna und DarkSword zu laden, die ältere Softwareversionen ins Visier nehmen, so Report URI. Hudson Rock, eine weitere Sicherheitsfirma, erklärte, ein erfolgreicher Einbruch in ein Gerät sei nicht nachgewiesen, berichtete [SecurityWeek](L4).
+
+Nach Zählung von Report URI sind sechs der betroffenen Organisationen Krypto- oder Tradingfirmen, darunter Ledger, IG und Coinpass von OANDA, und 32 sind Banken und Finanzunternehmen.
+
+!figure:chart
+
+!mid_cta
+
+## Wie viel gestohlen wurde
+
+Die im bösartigen Skript hinterlegten Wallets hatten bis Montag um 13:25 Uhr US-Central-Zeit rund 7.040 Dollar in Krypto erhalten, davon rund 5.380 Dollar in Bitcoin, so Report URI. Der Angreifer leerte diese Wallets spät am Montagabend US-Central-Zeit. Report URI betonte, nicht sehen zu können, wie viele Karten, Cookies oder Geräte betroffen waren. Die Adresse des Hauptservers des Angreifers funktionierte ab Montag um 18:37 Uhr US-Central-Zeit nicht mehr.
+
+Das Problem beschränkte sich nicht auf Optimizely. Hudson Rock fand ähnlichen Code, der über drei weitere Webdienste verbreitet wurde, beginnend mit einer früheren Welle am 13. November, berichtete CoinDesk.
+
+## Was das für Einsteiger bedeutet
+
+Schadsoftware, die Adressen austauscht, oft „Clipper“ genannt, funktioniert, weil Menschen lange Wallet-Adressen kopieren und einfügen, ohne sie zu lesen. Wenn Sie am 16. November Krypto verschickt haben, nachdem Sie eine Adresse von einer Website kopiert hatten, öffnen Sie den Verlauf Ihrer Wallet und vergleichen Sie das Ziel mit der Adresse, die Sie verwenden wollten. Prüfen Sie vor jeder Überweisung die ersten und letzten Zeichen der eingefügten Adresse mit dem Original, und senden Sie bei großen Beträgen zuerst eine kleine Testsumme.
+
+Wenn Sie an diesem Tag auf der Website einer großen Marke eine Kartennummer eingegeben haben, behalten Sie Ihre Abrechnung im Blick. Halten Sie Ihr iPhone oder iPad aktuell. Wer bei einer großen Börse wie [Coinbase](REF) kauft, muss für den Kauf selbst keine Adresse kopieren, doch dieselben Prüfungen gelten bei jeder Auszahlung. Dies ist keine Anlageberatung.
+
+## Worauf man jetzt achten sollte
+
+- Ob Optimizely genau erklärt, wie der Angreifer in so viele Kundenprojekte gelangte.
+- Ob betroffene Unternehmen wie Ledger oder HSBC Verluste bei Kunden oder Kartenbetrug melden.
+- Ob weitere Websites auf der Liste der infizierten Seiten auftauchen.
+
+!soft: Unsicher, wo Sie Ihre Coins aufbewahren sollen? Lesen Sie [was eine Krypto-Wallet ist: verwahrt oder selbst verwahrt](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

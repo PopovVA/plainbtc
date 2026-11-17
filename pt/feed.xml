@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/pt/</link>
     <description>Notícias de Bitcoin e criptomoedas em linguagem simples para iniciantes</description>
     <language>pt-br</language>
-    <lastBuildDate>Mon, 16 Nov 2026 14:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 15:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/pt/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Hackers usaram a Optimizely para plantar código que rouba cripto em 178 grandes sites, incluindo a Ledger</title>
+      <link>https://plainbtc.com/pt/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/pt/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 15:00:00 GMT</pubDate>
+      <category>Segurança</category>
+      <description>Um atacante explorou uma falha na ferramenta de testes de sites da Optimizely para plantar código nos sites de 178 organizações, como Ledger e HSBC. O código trocava endereços de carteiras cripto pelos do atacante. Cerca de US$ 7.000 foram levados antes da remoção.</description>
+    </item>
+    <item>
+      <title>Solana Foundation diz que agora tem participação majoritária na CoinGecko, o site de preços de cripto</title>
+      <link>https://plainbtc.com/pt/articles/solana-foundation-coingecko-majority-stake-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/pt/articles/solana-foundation-coingecko-majority-stake-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 14:55:00 GMT</pubDate>
+      <category>Negócios</category>
+      <description>A Solana Foundation diz que agora tem participação majoritária na CoinGecko, o site de acompanhamento de preços com 18 milhões de usuários registrados. O preço não foi divulgado, e a CoinGecko diz que seu site e seus dados continuam funcionando normalmente.</description>
+    </item>
     <item>
       <title>Suprema Corte dos EUA não vai julgar o caso da Custodia e deixa o Fed livre para negar contas master a bancos cripto</title>
       <link>https://plainbtc.com/pt/articles/supreme-court-rejects-custodia-fed-master-account-nov-2026</link>

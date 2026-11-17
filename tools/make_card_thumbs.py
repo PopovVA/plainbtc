@@ -1151,8 +1151,57 @@ def thumb_solana_1_0():
     ],"note":"Editorial composite; trademarks belong to their owners."}
 
 
+def thumb_optimizely_clipper():
+    """Optimizely wordmark (identification, cropped from optimizely.com's share image) with Report URI's count."""
+    src = fetch("https://images3.cmp.optimizely.com/Zz1hOTU5MjFjNDY5MWYxMWYxOTU5NmZlODFjZDBjMWExMg==?width=1200", CACHE/"optimizely-og.png")
+    logo = Image.open(src).convert("RGBA").crop((130, 200, 1060, 430))
+    base = gradient_bg()
+    card_w, card_h = 270, 170
+    x, y = 40, 95
+    tile = Image.new("RGBA", (card_w, card_h), (228,240,218,255))
+    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), (x, y), mask)
+    paste_contain(base, logo, (x, y, card_w, card_h), pad=18)
+    d = ImageDraw.Draw(base)
+    d.text((340, 96), "178", font=font(FONT_B, 72), fill=ORANGE)
+    d.text((342, 190), "organizations' sites", font=font(FONT_B, 22), fill=WHITE)
+    d.text((342, 222), "served wallet-address-", font=font(FONT_R, 18), fill=(203,213,225))
+    d.text((342, 246), "swapping code on Nov. 16", font=font(FONT_R, 18), fill=(203,213,225))
+    label_chip(base, "Optimizely · supply-chain attack")
+    return base, {"kind":"composite","sources":[
+        {"file":"optimizely.com og:image","license":"Logo","url":"https://www.optimizely.com/","credit":"Optimizely (logo, identification only)"},
+        {"file":"Report URI, Nov. 16, 2026","license":"Figure cited","url":"https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/","credit":"Report URI (Scott Helme)"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
+def thumb_coingecko_solana():
+    """CoinGecko logo (cropped from coingecko.com's share image) and Solana logo, identification only."""
+    src = fetch("https://static.coingecko.com/s/social_image_cards/social_image_card_standard-152325d6e2be21a5365b167d97eee4819d9565e232425c65ad47f3d2d7b2ea79.png", CACHE/"coingecko-og.png")
+    cg = Image.open(src).convert("RGBA").crop((95, 125, 385, 200))
+    sol = fetch("https://cryptologos.cc/logos/solana-sol-logo.svg", CACHE/"solana-logo.svg")
+    base = gradient_bg()
+    for (x, y, w, h, col, im, pad) in [(40, 70, 300, 120, (13,18,22,255), cg, 16), (40, 210, 300, 110, (0,0,0,255), Image.open(sol).convert("RGBA"), 22)]:
+        tile = Image.new("RGBA", (w, h), col)
+        mask = Image.new("L", (w, h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,w-1,h-1], radius=16, fill=255)
+        base.paste(tile.convert("RGB"), (x, y), mask)
+        paste_contain(base, im, (x, y, w, h), pad=pad)
+    d = ImageDraw.Draw(base)
+    d.text((372, 100), "18M", font=font(FONT_B, 72), fill=ORANGE)
+    d.text((374, 192), "registered users", font=font(FONT_B, 22), fill=WHITE)
+    d.text((374, 224), "majority interest, terms", font=font(FONT_R, 18), fill=(203,213,225))
+    d.text((374, 248), "not disclosed", font=font(FONT_R, 18), fill=(203,213,225))
+    label_chip(base, "Solana Foundation · CoinGecko")
+    return base, {"kind":"composite","sources":[
+        {"file":"coingecko.com og:image","license":"Logo","url":"https://www.coingecko.com/","credit":"CoinGecko (logo, identification only)"},
+        {"file":"solana-sol-logo.svg","license":"Logo","url":"https://cryptologos.cc/solana","credit":"Solana Foundation"},
+        {"file":"Solana Foundation via CoinDesk, Nov. 17, 2026","license":"Figure cited","url":"https://www.coindesk.com/business/2026/11/17/solana-foundation-takes-majority-stake-in-crypto-data-provider-coingecko","credit":"CoinDesk"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
 
 BUILDERS = {
+    "optimizely-hack-crypto-address-swap-178-sites-nov-2026": thumb_optimizely_clipper,
+    "solana-foundation-coingecko-majority-stake-nov-2026": thumb_coingecko_solana,
     "supreme-court-rejects-custodia-fed-master-account-nov-2026": thumb_custodia_scotus,
     "solana-drops-mainnet-beta-solana-1-0-nov-2026": thumb_solana_1_0,
     "lighter-dex-10-4-million-leaked-api-key-nov-2026": thumb_lighter_api_key,

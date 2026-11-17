@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/</link>
     <description>Plain-English Bitcoin &amp; crypto news for beginners</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 14:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 15:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Hackers used Optimizely to plant crypto-stealing code on 178 big websites, including Ledger</title>
+      <link>https://plainbtc.com/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 15:00:00 GMT</pubDate>
+      <category>Security</category>
+      <description>An attacker abused a flaw in Optimizely's web-testing tool to plant code on 178 organizations' websites, including Ledger and HSBC. It swapped crypto wallet addresses for the attacker's. About $7,000 was taken before the code was removed.</description>
+    </item>
+    <item>
+      <title>Solana Foundation says it now holds a majority stake in CoinGecko, the crypto price site</title>
+      <link>https://plainbtc.com/articles/solana-foundation-coingecko-majority-stake-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/solana-foundation-coingecko-majority-stake-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 14:55:00 GMT</pubDate>
+      <category>Business</category>
+      <description>The Solana Foundation says it now holds a majority interest in CoinGecko, the price-tracking site with 18 million registered users. No price was disclosed, and CoinGecko says its site and data keep working as usual.</description>
+    </item>
     <item>
       <title>Supreme Court won't hear Custodia's case, leaving the Fed free to deny crypto banks a master account</title>
       <link>https://plainbtc.com/articles/supreme-court-rejects-custodia-fed-master-account-nov-2026</link>

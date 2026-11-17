@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 16 Nov 2026 14:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 15:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ハッカーがOptimizelyを悪用、Ledgerを含む178の大手サイトに暗号資産を盗むコードを仕込む</title>
+      <link>https://plainbtc.com/ja/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 15:00:00 GMT</pubDate>
+      <category>セキュリティ</category>
+      <description>攻撃者がOptimizelyのウェブテストツールの欠陥を悪用し、LedgerやHSBCなど178組織のサイトにコードを仕込みました。コードは暗号資産のウォレットアドレスを攻撃者のものにすり替えました。除去されるまでに約7,000ドルが奪われました。</description>
+    </item>
+    <item>
+      <title>Solana Foundation、暗号資産価格サイトCoinGeckoの過半数株式を保有したと表明</title>
+      <link>https://plainbtc.com/ja/articles/solana-foundation-coingecko-majority-stake-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/solana-foundation-coingecko-majority-stake-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 14:55:00 GMT</pubDate>
+      <category>ビジネス</category>
+      <description>Solana Foundationは、登録ユーザー1800万人の価格追跡サイトCoinGeckoの過半数株式を保有したと表明しました。取得額は非公表で、CoinGeckoはサイトとデータはこれまで通り利用できるとしています。</description>
+    </item>
     <item>
       <title>米最高裁がCustodiaの上告を受理せず、FRBは暗号資産銀行へのマスターアカウント拒否を続けられることに</title>
       <link>https://plainbtc.com/ja/articles/supreme-court-rejects-custodia-fed-master-account-nov-2026</link>

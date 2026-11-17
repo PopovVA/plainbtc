@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 16 Nov 2026 14:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 15:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Хакеры через Optimizely внедрили код для кражи криптовалюты на 178 крупных сайтов, включая Ledger</title>
+      <link>https://plainbtc.com/ru/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 15:00:00 GMT</pubDate>
+      <category>Безопасность</category>
+      <description>Злоумышленник воспользовался уязвимостью в инструменте веб-тестирования Optimizely и внедрил код на сайты 178 организаций, включая Ledger и HSBC. Код подменял адреса криптокошельков на адреса злоумышленника. До удаления кода было похищено около $7000.</description>
+    </item>
+    <item>
+      <title>Solana Foundation заявила, что теперь владеет контрольной долей в CoinGecko, популярном сайте криптокурсов</title>
+      <link>https://plainbtc.com/ru/articles/solana-foundation-coingecko-majority-stake-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/solana-foundation-coingecko-majority-stake-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 14:55:00 GMT</pubDate>
+      <category>Бизнес</category>
+      <description>Solana Foundation заявила, что теперь владеет контрольной долей в CoinGecko, сайте отслеживания курсов с 18 млн зарегистрированных пользователей. Цена не раскрыта, а CoinGecko обещает, что сайт и данные работают как прежде.</description>
+    </item>
     <item>
       <title>Верховный суд США отказался рассматривать дело Custodia: ФРС может и дальше отказывать криптобанкам в мастер-счетах</title>
       <link>https://plainbtc.com/ru/articles/supreme-court-rejects-custodia-fed-master-account-nov-2026</link>

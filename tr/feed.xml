@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Mon, 16 Nov 2026 14:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 15:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Hackerlar Optimizely üzerinden Ledger dahil 178 büyük web sitesine kripto çalan kod yerleştirdi</title>
+      <link>https://plainbtc.com/tr/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 15:00:00 GMT</pubDate>
+      <category>Güvenlik</category>
+      <description>Bir saldırgan Optimizely'nin web test aracındaki bir açığı kullanarak Ledger ve HSBC dahil 178 kuruluşun sitesine kod yerleştirdi. Kod kripto cüzdan adreslerini saldırganınkilerle değiştiriyordu. Kod kaldırılmadan önce yaklaşık 7.000 dolar çalındı.</description>
+    </item>
+    <item>
+      <title>Solana Foundation, kripto fiyat sitesi CoinGecko'da artık çoğunluk hissesine sahip olduğunu söylüyor</title>
+      <link>https://plainbtc.com/tr/articles/solana-foundation-coingecko-majority-stake-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/solana-foundation-coingecko-majority-stake-nov-2026</guid>
+      <pubDate>Tue, 17 Nov 2026 14:55:00 GMT</pubDate>
+      <category>İş dünyası</category>
+      <description>Solana Foundation, 18 milyon kayıtlı kullanıcısı olan fiyat takip sitesi CoinGecko'da artık çoğunluk hissesine sahip olduğunu söylüyor. Fiyat açıklanmadı ve CoinGecko, sitesinin ve verilerinin her zamanki gibi çalıştığını belirtiyor.</description>
+    </item>
     <item>
       <title>ABD Yüksek Mahkemesi Custodia davasını görmeyecek: Fed kripto bankalarına ana hesap vermeyi reddetmekte serbest</title>
       <link>https://plainbtc.com/tr/articles/supreme-court-rejects-custodia-fed-master-account-nov-2026</link>

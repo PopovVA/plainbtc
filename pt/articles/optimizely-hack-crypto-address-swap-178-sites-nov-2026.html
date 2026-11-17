@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="preload" href="/assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.d7a61a8be7.css">
+  <link rel="icon" href="/favicon.ico?v=2" sizes="48x48">
+  <link rel="icon" href="/assets/favicon.svg?v=2" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=2">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
+  <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (Português (BR))" href="/pt/feed.xml">
+  <title>Ataque à Optimizely trocou endereços de carteiras cripto em 178 sites: o que verificar | PlainBTC</title>
+  <meta name="description" content="Um atacante explorou na segunda-feira uma falha na Optimizely, serviço de testes de sites, para plantar código nos sites de 178 organizações, como Ledger, HSBC e BBC. O código trocava endereços de carteiras cripto e tentava roubar cartões. Cerca de US$ 7.000 em cripto foram levados.">
+  <link rel="canonical" href="https://plainbtc.com/pt/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026">
+  <!-- i18n:hreflang -->
+  <link rel="alternate" hreflang="en" href="https://plainbtc.com/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026">
+  <link rel="alternate" hreflang="es" href="https://plainbtc.com/es/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026">
+  <link rel="alternate" hreflang="pt-BR" href="https://plainbtc.com/pt/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026">
+  <link rel="alternate" hreflang="fr" href="https://plainbtc.com/fr/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026">
+  <link rel="alternate" hreflang="de" href="https://plainbtc.com/de/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026">
+  <link rel="alternate" hreflang="ru" href="https://plainbtc.com/ru/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026">
+  <link rel="alternate" hreflang="tr" href="https://plainbtc.com/tr/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026">
+  <link rel="alternate" hreflang="id" href="https://plainbtc.com/id/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026">
+  <link rel="alternate" hreflang="ja" href="https://plainbtc.com/ja/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026">
+  <link rel="alternate" hreflang="ko" href="https://plainbtc.com/ko/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026">
+  <link rel="alternate" hreflang="x-default" href="https://plainbtc.com/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <!-- /i18n:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Hackers usaram a Optimizely para plantar código que rouba cripto em 178 grandes sites, incluindo a Ledger">
+  <meta property="og:description" content="Durante quase toda a segunda-feira, visitantes de 178 sites, entre eles Ledger, Zoom, CNN e HSBC, receberam um código que trocava endereços cripto copiados pelos do atacante. A Optimizely já corrigiu a falha. Veja o que verificar se você enviou cripto naquele dia.">
+  <meta property="og:url" content="https://plainbtc.com/pt/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026">
+  <meta property="og:site_name" content="PlainBTC">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="article:published_time" content="2026-11-17">
+  <meta property="article:modified_time" content="2026-11-17">
+  <meta property="article:section" content="Segurança">
+  <meta property="og:image" content="https://plainbtc.com/assets/og/optimizely-hack-crypto-address-swap-178-sites-nov-2026.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Hackers usaram a Optimizely para plantar código que rouba cripto em 178 grandes sites, incluindo a Ledger">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
+  <meta name="twitter:image" content="https://plainbtc.com/assets/og/optimizely-hack-crypto-address-swap-178-sites-nov-2026.png">
+  <meta name="twitter:title" content="Hackers usaram a Optimizely para plantar código que rouba cripto em 178 grandes sites, incluindo a Ledger">
+  <meta name="twitter:description" content="Durante quase toda a segunda-feira, visitantes de 178 sites, entre eles Ledger, Zoom, CNN e HSBC, receberam um código que trocava endereços cripto copiados pelos do atacante. A Optimizely já corrigiu a falha. Veja o que verificar se você enviou cripto naquele dia.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Hackers usaram a Optimizely para plantar código que rouba cripto em 178 grandes sites, incluindo a Ledger",
+    "name": "Ataque à Optimizely trocou endereços de carteiras cripto em 178 sites: o que verificar | PlainBTC",
+    "description": "Um atacante explorou na segunda-feira uma falha na Optimizely, serviço de testes de sites, para plantar código nos sites de 178 organizações, como Ledger, HSBC e BBC. O código trocava endereços de carteiras cripto e tentava roubar cartões. Cerca de US$ 7.000 em cripto foram levados.",
+    "datePublished": "2026-11-17T15:00:00+00:00",
+    "dateModified": "2026-11-17T15:00:00+00:00",
+    "author": {
+      "@type": "Organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://plainbtc.com/#organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://plainbtc.com/assets/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://discord.gg/EcuGXPDr2d",
+        "https://www.facebook.com/groups/1688106109771364",
+        "https://x.com/lean_redfield"
+      ]
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://plainbtc.com/pt/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026"
+    },
+    "url": "https://plainbtc.com/pt/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/og/optimizely-hack-crypto-address-swap-178-sites-nov-2026.png",
+      "width": 1200,
+      "height": 630
+    },
+    "articleSection": "Segurança",
+    "isAccessibleForFree": true,
+    "inLanguage": "pt-BR"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://plainbtc.com/pt/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Hackers usaram a Optimizely para plantar código que rouba cripto em 178 grandes sites, incluindo a Ledger",
+        "item": "https://plainbtc.com/pt/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="wrap inner">
+      <a class="logo" href="/pt/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Menu">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
+      <nav class="nav" aria-label="Primary">
+        <a href="/pt/#articles">Artigos</a>
+        <a href="/pt/#guides">Guias</a>
+        <a href="/pt/about">Sobre</a>
+        <a href="/pt/disclosure">Divulgação</a>
+      </nav>
+      <div class="header-tools">
+      <!-- i18n:langmenu -->
+      <details class="lang-menu"><summary aria-label="Idioma"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">Português (BR)</span><span class="lang-code" aria-hidden="true">PT</span></summary><ul><li><a href="/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="pt-BR" hreflang="pt-BR" aria-current="true">Português (BR)</a></li><li><a href="/fr/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="Alternar entre tema claro e escuro" title="Alternar entre tema claro e escuro" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="article-page" id="main" data-toc="Nesta página" data-nl="Receba novos artigos por e-mail" data-nl-cta="Inscrever-se" data-close="Fechar">
+    <article class="content">
+      <!-- i18n:arthead -->
+      <header class="article-head">
+        <!-- i18n:crumbs -->
+        <nav class="crumbs" aria-label="Trilha de navegação"><a href="/pt/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/pt/#articles">Artigos</a></nav>
+        <!-- /i18n:crumbs -->
+        <div class="badge">Segurança</div>
+        <h1>Hackers usaram a Optimizely para plantar código que rouba cripto em 178 grandes sites, incluindo a Ledger</h1>
+        <div class="meta">Publicado em <time datetime="2026-11-17">17 de novembro de 2026</time> · PlainBTC · Estados Unidos<span class="meta-read"> · ~5 min de leitura</span></div>
+        <div class="share" role="group" aria-label="Compartilhar">
+          <span class="share-label">Compartilhar</span>
+          <a class="share-btn" href="https://x.com/intent/post?url=https%3A%2F%2Fplainbtc.com%2Fpt%2Farticles%2Foptimizely-hack-crypto-address-swap-178-sites-nov-2026%3Futm_source%3Dx%26utm_medium%3Dsocial&amp;text=Hackers%20usaram%20a%20Optimizely%20para%20plantar%20c%C3%B3digo%20que%20rouba%20cripto%20em%20178%20grandes%20sites%2C%20incluindo%20a%20Ledger" target="_blank" rel="noopener nofollow" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplainbtc.com%2Fpt%2Farticles%2Foptimizely-hack-crypto-address-swap-178-sites-nov-2026%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noopener nofollow" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+          <button class="share-btn share-copy" type="button" data-url="https://plainbtc.com/pt/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" data-copied="Link copiado" aria-label="Copiar link" title="Copiar link" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/><path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg></button>
+          <span class="share-status" role="status" aria-live="polite"></span>
+        </div>
+      </header>
+      <img class="og-hero" src="/assets/og/optimizely-hack-crypto-address-swap-178-sites-nov-2026.png" width="1200" height="630" alt="Hackers usaram a Optimizely para plantar código que rouba cripto em 178 grandes sites, incluindo a Ledger" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->
+
+      <p>Durante quase toda a segunda-feira, visitantes de alguns dos maiores sites do mundo receberam um código oculto criado para roubar criptomoedas. Um atacante explorou uma falha no processo de cadastro de contas da Optimizely, serviço que as empresas usam para testar versões diferentes de suas páginas, e inseriu código malicioso em projetos de clientes, informou o <a href="https://www.coindesk.com/tech/2026/11/17/hackers-planted-crypto-stealing-code-on-178-organizations-sites-including-hsbc-bbc-and-ledger" target="_blank" rel="noopener">CoinDesk</a>. A empresa de segurança Report URI encontrou o código nos sites de <strong>178 organizações</strong>, entre elas Zoom, BBC, CNN, Salesforce, HSBC, IKEA e a fabricante de carteiras físicas Ledger.</p>
+      <p>A Optimizely disse que já corrigiu a falha e removeu o código injetado. A Report URI afirmou que todos os arquivos infectados da Optimizely estavam limpos às 17h11, no horário central dos EUA, da segunda-feira.</p>
+
+      <div class="takeaways">
+        <h2>Pontos principais</h2>
+        <ul>
+          <li>Em 16 de novembro, código malicioso foi entregue por meio da ferramenta de testes da Optimizely aos visitantes dos sites de 178 organizações, segundo a Report URI.</li>
+          <li>O código trocava endereços de carteiras cripto pelos do atacante, inclusive no texto copiado, e também tentava roubar números de cartão, cookies e capturas de tela.</li>
+          <li>As carteiras ligadas ao ataque receberam cerca de US$ 7.040 em cripto, a maior parte em bitcoin, até a tarde de segunda-feira.</li>
+          <li>A Optimizely diz que a falha foi corrigida; a Report URI viu todos os arquivos infectados limpos às 17h11, no horário central dos EUA, da segunda-feira.</li>
+        </ul>
+      </div>
+
+      <figure class="article-figure">
+        <img src="/assets/img/optimizely-hack-crypto-address-swap-178-sites-nov-2026/timeline-optimizely-attack.webp" width="1200" height="630" alt="Linha do tempo do ataque à Optimizely no horário central dos EUA: 13 de novembro, uma onda anterior atinge sites por meio de outros três scripts web; 15 de novembro às 22h21, é vista a primeira injeção em um snippet da Optimizely, na BBC; 16 de novembro às 2h28, o script que troca endereços de cripto aparece pela primeira vez no bbc.com; 16 de novembro às 17h11, todos os arquivos infectados da Optimizely são limpos" loading="lazy" decoding="async">
+        <figcaption>Fonte: Report URI (Scott Helme)</figcaption>
+      </figure>
+
+      <h2>Como o ataque funcionou</h2>
+      <p>Os clientes da Optimizely adicionam aos seus sites um pequeno trecho do código JavaScript da empresa, chamado snippet, para que o navegador de cada visitante o baixe e o execute automaticamente. Esse snippet tem um campo opcional em que o cliente pode incluir o próprio código. O atacante escreveu código nesse campo em muitos projetos de clientes, <a href="https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/" target="_blank" rel="noopener">escreveu</a> Scott Helme, da Report URI. Como os arquivos ainda vinham dos servidores da própria Optimizely, os sites os tratavam como confiáveis.</p>
+      <p>"Hoje mais cedo, a Optimizely identificou um incidente de segurança no qual uma parte não autorizada explorou uma vulnerabilidade no fluxo de cadastro de contas do Experimentation", disse a empresa ao <a href="https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/" target="_blank" rel="noopener">BleepingComputer</a>. Ela afirmou que também encerrou sessões ativas, revogou tokens de acesso e avisou todos os clientes afetados.</p>
+      <p>A Report URI verificou 1.611 snippets da Optimizely e encontrou 188 infectados, pertencentes a 178 organizações. Ela disse que o número real provavelmente é maior. A primeira injeção que detectou ocorreu às 22h21, no horário central dos EUA, do domingo, 15 de novembro.</p>
+      <h2>O que o código fazia</h2>
+      <p>O alvo principal era cripto. O script procurava nas páginas endereços de carteiras de Bitcoin, Ethereum, Solana, Tron, Litecoin, Dogecoin e outras redes e os trocava pelos do atacante, tanto na página quanto em tudo o que o visitante copiava para a área de transferência. Quem copiasse um endereço de depósito e o colasse em um app de carteira poderia mandar o dinheiro direto para o atacante.</p>
+      <p>Ele também vigiava formulários de pagamento em busca de números de cartão, coletava cookies e capturas de tela das páginas e, em iPhones e iPads, tentava carregar kits de ataque para iOS conhecidos, chamados Coruna e DarkSword, voltados a versões antigas do sistema, segundo a Report URI. A Hudson Rock, outra empresa de segurança, disse que não foi demonstrada nenhuma invasão bem-sucedida de aparelhos, informou a <a href="https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/" target="_blank" rel="noopener">SecurityWeek</a>.</p>
+      <p>Pela contagem da Report URI, seis das organizações afetadas são empresas de cripto ou de trading, como Ledger, IG e a Coinpass, da OANDA, e 32 são bancos e empresas financeiras.</p>
+
+      <figure class="article-figure">
+        <img src="/assets/img/optimizely-hack-crypto-address-swap-178-sites-nov-2026/chart-infected-orgs-by-sector.webp" width="1200" height="675" alt="Gráfico de barras das organizações que serviram o código malicioso da Optimizely em 16 de novembro de 2026, por setor, segundo a Report URI: bancos e finanças 32, tecnologia e SaaS 23, varejo e moda 20, streaming 12, notícias e mídia 10, aéreas e viagens 9, saúde 8, cripto e trading 6" loading="lazy" decoding="async">
+        <figcaption>Gráfico: PlainBTC, dados: Report URI, infected Optimizely snippets by sector</figcaption>
+      </figure>
+
+      <aside class="mid-cta ref-card" aria-label="Oferta de parceiro" data-partner-cta="uphold">
+        <span class="ref-icon" aria-hidden="true">₿</span>
+        <p class="ref-kicker"><span class="ref-badge">Bônus</span> <span class="ref-label">Oferta de parceiro</span></p>
+        <p class="ref-amount">US$20 <span class="ref-unit">em bitcoin</span></p>
+        <a class="cta-button ref-button" href="https://wallet.uphold.com/signup?referral=91676790e3&amp;campaign=uw_p_d_w_acq_raf&amp;utm_source=raf&amp;utm_medium=referafriend" rel="sponsored noopener" target="_blank" data-partner="uphold">Ganhe US$20 em bitcoin na Uphold</a>
+        <ul class="ref-steps">
+          <li><span class="ref-check" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" fill="currentColor" opacity="0.18"/><path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Verifique sua conta.</span></li>
+          <li><span class="ref-check" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" fill="currentColor" opacity="0.18"/><path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Deposite e compre pelo menos US$100 em cripto nos primeiros 30 dias.</span></li>
+          <li><span class="ref-check" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" fill="currentColor" opacity="0.18"/><path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Ganhe US$20 em bitcoin. Brasil, América Latina e EUA (exceto Nova York). Oferta válida até 31/12/2026.</span></li>
+        </ul>
+        <p class="ref-note">Link de indicação: podemos receber um bônus. <a href="/pt/disclosure">Detalhes</a></p>
+      </aside>
+
+      <h2>Quanto foi roubado</h2>
+      <p>As carteiras listadas no script malicioso tinham recebido cerca de US$ 7.040 em cripto até 13h25, no horário central dos EUA, da segunda-feira, segundo a Report URI, sendo cerca de US$ 5.380 em bitcoin. O atacante esvaziou essas carteiras na noite de segunda-feira, no horário central dos EUA. A Report URI observou que não consegue ver quantos cartões, cookies ou aparelhos foram afetados. O endereço do servidor principal do atacante parou de funcionar às 18h37, no horário central dos EUA, da segunda-feira.</p>
+      <p>O problema não se limitou à Optimizely. A Hudson Rock encontrou código semelhante circulando por outros três serviços web, a partir de uma onda anterior em 13 de novembro, informou o CoinDesk.</p>
+      <h2>O que isso significa para iniciantes</h2>
+      <p>Malware que troca endereços, muitas vezes chamado de "clipper", funciona porque as pessoas copiam e colam longos endereços de carteira sem lê-los. Se você enviou cripto em 16 de novembro depois de copiar um endereço de algum site, abra o histórico da sua carteira e compare o destino com o endereço que pretendia usar. Antes de qualquer transferência, confira os primeiros e os últimos caracteres do endereço colado com o original e, em pagamentos grandes, envie antes um pequeno valor de teste.</p>
+      <p>Se você digitou um número de cartão no site de uma grande marca naquele dia, acompanhe a fatura. Mantenha seu iPhone ou iPad atualizado. Comprar em uma grande corretora como a Coinbase dispensa copiar endereços na compra em si, mas os mesmos cuidados valem sempre que você enviar moedas para fora. Isto não é recomendação de investimento.</p>
+      <h2>O que acompanhar a seguir</h2>
+      <ul>
+        <li>Se a Optimizely vai explicar exatamente como o atacante entrou em tantos projetos de clientes.</li>
+        <li>Se empresas afetadas, como Ledger ou HSBC, relatarão perdas de clientes ou fraudes com cartões.</li>
+        <li>Se mais sites vão aparecer na lista de sites infectados.</li>
+      </ul>
+
+      <p class="soft-guide">Não sabe onde guardar suas moedas? Leia <a href="/pt/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">o que é uma carteira cripto: custodial ou autocustódia</a>.</p>
+
+      <div class="cta ref-card" data-partner-cta="uphold">
+        <span class="ref-icon" aria-hidden="true">₿</span>
+        <p class="ref-kicker"><span class="ref-badge">Bônus</span> <span class="ref-label">Oferta de parceiro</span></p>
+        <p class="ref-amount">US$20 <span class="ref-unit">em bitcoin</span></p>
+        <a class="cta-button ref-button" href="https://wallet.uphold.com/signup?referral=91676790e3&amp;campaign=uw_p_d_w_acq_raf&amp;utm_source=raf&amp;utm_medium=referafriend" rel="sponsored noopener" target="_blank" data-partner="uphold">Abra sua conta na Uphold</a>
+        <ul class="ref-steps">
+          <li><span class="ref-check" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" fill="currentColor" opacity="0.18"/><path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Verifique sua conta.</span></li>
+          <li><span class="ref-check" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" fill="currentColor" opacity="0.18"/><path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Deposite e compre pelo menos US$100 em cripto nos primeiros 30 dias.</span></li>
+          <li><span class="ref-check" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" fill="currentColor" opacity="0.18"/><path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Ganhe US$20 em bitcoin. Brasil, América Latina e EUA (exceto Nova York). Oferta válida até 31/12/2026.</span></li>
+        </ul>
+        <p class="ref-note">Link de indicação: podemos receber um bônus. <a href="/pt/disclosure">Detalhes</a></p>
+      </div>
+
+      <div class="disclosure">
+        <strong>Divulgação:</strong> esta página contém um link de indicação da Uphold. Se você se cadastrar por ele e cumprir os termos atuais da Uphold, a PlainBTC pode receber uma recompensa de indicação sem custo extra para você. Veja nossa <a href="/pt/disclosure">divulgação completa de afiliados</a>.<br><br>
+        <strong>Isto não é aconselhamento financeiro.</strong> Este artigo tem finalidade exclusivamente informativa e educacional. Não constitui aconselhamento de investimento, de negociação, jurídico ou tributário. As criptomoedas são voláteis e você pode perder dinheiro. Faça sua própria pesquisa e considere consultar um profissional qualificado antes de tomar decisões financeiras.
+      </div>
+
+  <!-- i18n:bmc -->
+      <aside class="bmc-box" aria-label="Apoiar o PlainBTC">
+        <p>Achou útil? O PlainBTC é gratuito e independente, sem paywalls e sem hype. Se quiser apoiar, você pode me pagar um café.</p>
+        <a class="bmc-button" href="https://buymeacoffee.com/LeonRedfield" target="_blank" rel="noopener">☕ Pague-me um café</a>
+      </aside>
+  <!-- /i18n:bmc -->
+
+
+  <!-- i18n:community -->
+      <aside class="community-box" aria-label="Links da comunidade">
+        <h2>Participe da comunidade</h2>
+        <p>Notícias, dúvidas de iniciantes e enquetes: siga o PlainBTC no Discord, Facebook e X.</p>
+        <div class="community-links"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+      </aside>
+  <!-- /i18n:community -->
+  <!-- i18n:newsletter -->
+      <aside class="newsletter-box" aria-labelledby="nl-title">
+        <h2 id="nl-title">Receba novos artigos por e-mail</h2>
+        <p>Notícias de Bitcoin e cripto em linguagem simples para iniciantes, na sua caixa de entrada quando publicamos. Sem spam, cancele quando quiser.</p>
+        <form class="newsletter-form" method="post" action="/api/subscribe" novalidate data-ok="Quase lá: verifique sua caixa de entrada e clique no link de confirmação." data-invalid="Informe um endereço de e-mail válido." data-rate="Muitas tentativas. Tente novamente mais tarde." data-error="Algo deu errado. Tente novamente." data-sending="Enviando…">
+          <input type="hidden" name="lang" value="pt">
+          <input type="hidden" name="source" value="/pt/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026">
+          <div class="nl-hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <label class="nl-label" for="nl-email">Endereço de e-mail</label>
+          <div class="nl-row"><input id="nl-email" type="email" name="email" required maxlength="254" autocomplete="email" inputmode="email" placeholder="voce@exemplo.com">
+          <button type="submit">Inscrever-se</button></div>
+        </form>
+        <p class="nl-status" role="status" aria-live="polite"></p>
+        <p class="nl-note">Usamos seu e-mail apenas para enviar novidades do PlainBTC. É necessário confirmar. <a href="/pt/disclosure">Detalhes de privacidade</a></p>
+      </aside>
+  <!-- /i18n:newsletter -->
+
+<aside class="related" aria-label="Leituras relacionadas">
+        <h2>Leituras relacionadas</h2>
+        <ul>
+          <li><a href="/pt/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026">Lighter pausa saques depois que uma chave de trading vazada permite a um invasor levar US$ 10,4 milhões</a></li>
+          <li><a href="/pt/articles/binance-warns-iphone-ios-flaw-wallet-keys-nov-2026">Binance alerta usuários de iPhone de que uma falha no iOS pode expor frases-semente de carteiras cripto</a></li>
+          <li><a href="/pt/articles/across-protocol-domain-hijack-phishing-nov-2026">Hackers sequestram o site da ponte cripto Across por meio da registradora de domínio; cerca de US$ 350.000 drenados</a></li>
+          <li><a href="/pt/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">O que é uma carteira cripto? Custódia vs. autocustódia, explicado para iniciantes</a></li>
+        </ul>
+      </aside>
+
+      <section class="sources" aria-label="Fontes">
+        <h2>Fontes</h2>
+        <ol>
+          <li><a href="https://www.coindesk.com/tech/2026/11/17/hackers-planted-crypto-stealing-code-on-178-organizations-sites-including-hsbc-bbc-and-ledger" target="_blank" rel="noopener">CoinDesk: Hackers plant crypto-stealing code on 178 major websites, including HSBC and Ledger</a> (17 de novembro de 2026)</li>
+          <li><a href="https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/" target="_blank" rel="noopener">Report URI (Scott Helme): World's largest brands infected with malware via Optimizely</a> (Nov 16-17, 2026)</li>
+          <li><a href="https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/" target="_blank" rel="noopener">BleepingComputer: Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware</a> (16 de novembro de 2026)</li>
+          <li><a href="https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/" target="_blank" rel="noopener">SecurityWeek: Optimizely vulnerability exploited to serve malware on major websites</a> (17 de novembro de 2026)</li>
+        </ol>
+        <p class="sources-note">Os títulos das fontes aparecem no idioma original.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
+    <div class="wrap inner">
+      <div class="footer-brand">
+        <a class="logo" href="/pt/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · notícias de Bitcoin e criptomoedas em linguagem simples para iniciantes</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/pt/">Início</a>
+        <a href="/pt/about">Sobre</a>
+        <a href="/pt/disclosure">Divulgação</a>
+        <a href="/pt/feed.xml">RSS</a>
+      </nav>
+    </div>
+  <!-- i18n:footersocial -->
+  <div class="wrap footer-social" aria-label="Links da comunidade"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+  <!-- /i18n:footersocial -->
+  <!-- i18n:footerlangs -->
+  <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="en" hreflang="en">English</a> <a href="/es/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="es" hreflang="es">Español</a> <a href="/pt/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/optimizely-hack-crypto-address-swap-178-sites-nov-2026" lang="ko" hreflang="ko">한국어</a></nav></div>
+  <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">Voltar ao topo <span aria-hidden="true">↑</span></a></div>
+  </footer>
+  <script src="/assets/site.a911afff6c.js" defer></script>
+</body>
+</html>

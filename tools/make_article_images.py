@@ -3202,7 +3202,120 @@ def build_solana_1_0():
     ]
 
 
+def build_optimizely_clipper():
+    slug = "optimizely-hack-crypto-address-swap-178-sites-nov-2026"
+    d = OUT / slug
+    # Report URI (Scott Helme), "World's Largest Brands Infected With Malware Via Optimizely", Nov 16, 2026, timeline (UTC)
+    # and Nov 17 update; converted to U.S. Central time (UTC-6). Earlier wave Nov 13 via other scripts (Report URI, Hudson Rock).
+    tl = make_timeline_card(
+        d / "timeline-optimizely-attack",
+        "Optimizely attack (U.S. Central time)",
+        [
+            ("Nov. 13", "Earlier wave hits sites through three other web scripts", (96, 165, 250)),
+            ("Nov. 15", "10:21 p.m.: first Optimizely snippet injection seen (BBC)", (248, 113, 113)),
+            ("Nov. 16", "2:28 a.m.: crypto address-swapping script first seen on bbc.com", (248, 113, 113)),
+            ("Nov. 16 ", "5:11 p.m.: all infected Optimizely files cleaned", (74, 222, 128)),
+        ],
+        footer="Report URI (Scott Helme)",
+        margin=170, wrap_w=250,
+    )
+    # Report URI: organizations with infected Optimizely snippets by sector (178 total), Nov 16, 2026.
+    labels = ["Banking &\nfinance", "Tech &\nSaaS", "Retail &\nfashion", "Streaming", "News &\nmedia", "Airlines &\ntravel", "Healthcare", "Crypto &\ntrading"]
+    vals = [32, 23, 20, 12, 10, 9, 8, 6]
+    cols = ["#f7931a"] * 7 + ["#f87171"]
+    chart = make_bar_chart(
+        d / "chart-infected-orgs-by-sector",
+        labels, vals,
+        title="Organizations served the malicious Optimizely code, by sector (Report URI, Nov. 16, 2026)",
+        colors=cols,
+        value_fmt=lambda v: f"{v:.0f}",
+        axis_fmt=lambda x, _p: f"{x:.0f}",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline of the Optimizely attack in U.S. Central time: Nov. 13, an earlier wave hits sites through three other web scripts; Nov. 15 at 10:21 p.m., the first Optimizely snippet injection is seen on the BBC; Nov. 16 at 2:28 a.m., the crypto address-swapping script is first seen on bbc.com; Nov. 16 at 5:11 p.m., all infected Optimizely files are cleaned", {
+            "es": "Cronología del ataque a Optimizely en hora del centro de EE. UU.: 13 de noviembre, una oleada anterior llega a sitios a través de otros tres scripts web; 15 de noviembre a las 22:21, se detecta la primera inyección en un fragmento de Optimizely, en la BBC; 16 de noviembre a las 2:28, aparece por primera vez en bbc.com el script que cambia direcciones de criptomonedas; 16 de noviembre a las 17:11, todos los archivos infectados de Optimizely quedan limpios",
+            "pt": "Linha do tempo do ataque à Optimizely no horário central dos EUA: 13 de novembro, uma onda anterior atinge sites por meio de outros três scripts web; 15 de novembro às 22h21, é vista a primeira injeção em um snippet da Optimizely, na BBC; 16 de novembro às 2h28, o script que troca endereços de cripto aparece pela primeira vez no bbc.com; 16 de novembro às 17h11, todos os arquivos infectados da Optimizely são limpos",
+            "fr": "Chronologie de l'attaque Optimizely, heure du Centre des États-Unis : 13 novembre, une première vague touche des sites via trois autres scripts web ; 15 novembre à 22 h 21, première injection repérée dans un snippet Optimizely, sur la BBC ; 16 novembre à 2 h 28, le script qui remplace les adresses crypto apparaît pour la première fois sur bbc.com ; 16 novembre à 17 h 11, tous les fichiers Optimizely infectés sont nettoyés",
+            "de": "Zeitleiste des Optimizely-Angriffs in US-Central-Zeit: 13. November, eine frühere Welle trifft Websites über drei andere Web-Skripte; 15. November, 22:21 Uhr, erste Injektion in ein Optimizely-Snippet entdeckt (BBC); 16. November, 2:28 Uhr, das Skript zum Austausch von Krypto-Adressen taucht erstmals auf bbc.com auf; 16. November, 17:11 Uhr, alle infizierten Optimizely-Dateien sind bereinigt",
+            "ru": "Хронология атаки через Optimizely по центральному времени США: 13 ноября, более ранняя волна заражает сайты через три других веб-скрипта; 15 ноября в 22:21, замечено первое внедрение в сниппет Optimizely (BBC); 16 ноября в 2:28, скрипт подмены криптоадресов впервые появляется на bbc.com; 16 ноября в 17:11, все заражённые файлы Optimizely очищены",
+            "tr": "ABD Merkez saatine göre Optimizely saldırısının zaman çizelgesi: 13 Kasım, daha önceki bir dalga siteleri üç farklı web betiği üzerinden vuruyor; 15 Kasım 22.21, ilk Optimizely kod parçası enjeksiyonu BBC'de görülüyor; 16 Kasım 02.28, kripto adreslerini değiştiren betik ilk kez bbc.com'da görülüyor; 16 Kasım 17.11, enfekte tüm Optimizely dosyaları temizleniyor",
+            "id": "Linimasa serangan Optimizely dalam waktu Central AS: 13 November, gelombang sebelumnya mengenai situs melalui tiga skrip web lain; 15 November pukul 22.21, injeksi pertama pada snippet Optimizely terlihat di BBC; 16 November pukul 02.28, skrip penukar alamat kripto pertama kali terlihat di bbc.com; 16 November pukul 17.11, semua file Optimizely yang terinfeksi sudah dibersihkan",
+            "ja": "Optimizely攻撃の時系列（米中部時間）：11月13日、別の3つのウェブスクリプト経由で先行する攻撃の波、11月15日午後10時21分、BBCのOptimizelyスニペットで最初の改ざんを確認、11月16日午前2時28分、暗号資産アドレスをすり替えるスクリプトがbbc.comで初めて確認、11月16日午後5時11分、感染したOptimizelyのファイルがすべて除去",
+            "ko": "미국 중부시간 기준 옵티마이즐리 공격 타임라인: 11월 13일, 다른 웹 스크립트 3개를 통한 앞선 공격, 11월 15일 오후 10시 21분, BBC의 옵티마이즐리 스니펫에서 첫 악성 코드 삽입 확인, 11월 16일 오전 2시 28분, 암호화폐 주소 바꿔치기 스크립트가 bbc.com에서 처음 확인, 11월 16일 오후 5시 11분, 감염된 옵티마이즐리 파일 모두 정리",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Report URI (Scott Helme)")},
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of organizations served the malicious Optimizely code on Nov. 16, 2026, by sector, according to Report URI: banking and finance 32, technology and SaaS 23, retail and fashion 20, streaming 12, news and media 10, airlines and travel 9, healthcare 8, crypto and trading 6", {
+            "es": "Gráfico de barras de las organizaciones que sirvieron el código malicioso de Optimizely el 16 de noviembre de 2026, por sector, según Report URI: banca y finanzas 32, tecnología y SaaS 23, comercio y moda 20, streaming 12, noticias y medios 10, aerolíneas y viajes 9, salud 8, cripto y trading 6",
+            "pt": "Gráfico de barras das organizações que serviram o código malicioso da Optimizely em 16 de novembro de 2026, por setor, segundo a Report URI: bancos e finanças 32, tecnologia e SaaS 23, varejo e moda 20, streaming 12, notícias e mídia 10, aéreas e viagens 9, saúde 8, cripto e trading 6",
+            "fr": "Diagramme en barres des organisations ayant diffusé le code malveillant d'Optimizely le 16 novembre 2026, par secteur, selon Report URI : banque et finance 32, technologie et SaaS 23, commerce et mode 20, streaming 12, presse et médias 10, aérien et voyage 9, santé 8, crypto et trading 6",
+            "de": "Balkendiagramm der Organisationen, deren Websites am 16. November 2026 den bösartigen Optimizely-Code auslieferten, nach Branche laut Report URI: Banken und Finanzen 32, Technologie und SaaS 23, Handel und Mode 20, Streaming 12, Nachrichten und Medien 10, Airlines und Reisen 9, Gesundheit 8, Krypto und Trading 6",
+            "ru": "Столбчатая диаграмма организаций, чьи сайты 16 ноября 2026 года раздавали вредоносный код через Optimizely, по отраслям, по данным Report URI: банки и финансы 32, технологии и SaaS 23, ритейл и мода 20, стриминг 12, новости и СМИ 10, авиакомпании и путешествия 9, здравоохранение 8, криптовалюты и трейдинг 6",
+            "tr": "Report URI'ye göre 16 Kasım 2026'da kötü amaçlı Optimizely kodunu sunan kuruluşların sektörlere göre çubuk grafiği: bankacılık ve finans 32, teknoloji ve SaaS 23, perakende ve moda 20, yayın platformları 12, haber ve medya 10, havayolu ve seyahat 9, sağlık 8, kripto ve alım satım 6",
+            "id": "Grafik batang organisasi yang menyajikan kode berbahaya Optimizely pada 16 November 2026, menurut sektor, berdasarkan Report URI: perbankan dan keuangan 32, teknologi dan SaaS 23, ritel dan fesyen 20, streaming 12, berita dan media 10, maskapai dan perjalanan 9, kesehatan 8, kripto dan trading 6",
+            "ja": "Report URIによる、2026年11月16日に悪意あるOptimizelyのコードを配信していた組織の業種別棒グラフ：銀行・金融32、テクノロジー・SaaS 23、小売・ファッション20、動画配信12、ニュース・メディア10、航空・旅行9、ヘルスケア8、暗号資産・トレーディング6",
+            "ko": "Report URI 기준 2026년 11월 16일 악성 옵티마이즐리 코드를 내보낸 조직의 업종별 막대 차트: 은행·금융 32, 기술·SaaS 23, 소매·패션 20, 스트리밍 12, 뉴스·미디어 10, 항공·여행 9, 헬스케어 8, 암호화폐·트레이딩 6",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Report URI, infected Optimizely snippets by sector")},
+    ]
+
+
+def build_coingecko_solana():
+    slug = "solana-foundation-coingecko-majority-stake-nov-2026"
+    d = OUT / slug
+    # Solana Foundation announcement via CoinDesk and Solana Compass (Nov 17, 2026): 18M registered users,
+    # 50M+ monthly sessions, API powers 180,000 crypto apps and businesses.
+    fact = make_fact_card(
+        d / "fact-coingecko-18-million-users",
+        "CoinGecko's reach",
+        "18 million users",
+        "registered on CoinGecko, whose API feeds about 180,000 crypto apps and businesses (Solana Foundation)",
+        footer="Solana Foundation via CoinDesk and Solana Compass",
+    )
+    # CoinGecko SOL/USD hourly, Nov 10 00:00 - Nov 17 13:00 UTC: about $86.60 at the start, low about $67.86 on Nov 15 02:00 UTC, about $73.61 at the end.
+    xs, ys = fetch_coingecko_range("solana", 1794268800, 1794920400)
+    chart = make_line_chart(
+        d / "chart-sol-price-week",
+        xs, ys,
+        title="Solana (SOL) price, Nov. 10 - Nov. 17, 2026 (CoinGecko, hourly, UTC)",
+        hline=min(ys),
+        hlabel=f"Low ≈ ${min(ys):.2f} on Nov. 15 (CoinGecko)",
+        yfmt=lambda x, _p: f"${x:,.0f}",
+    )
+    return [
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: CoinGecko has 18 million registered users, and its API feeds about 180,000 crypto apps and businesses, according to the Solana Foundation", {
+            "es": "Tarjeta de datos: CoinGecko tiene 18 millones de usuarios registrados y su API alimenta a unas 180.000 aplicaciones y empresas cripto, según la Solana Foundation",
+            "pt": "Cartão de dados: a CoinGecko tem 18 milhões de usuários registrados, e sua API abastece cerca de 180.000 aplicativos e empresas de cripto, segundo a Solana Foundation",
+            "fr": "Fiche chiffrée : CoinGecko compte 18 millions d'utilisateurs inscrits et son API alimente environ 180 000 applications et entreprises crypto, selon la Solana Foundation",
+            "de": "Faktenkarte: CoinGecko hat 18 Millionen registrierte Nutzer, und seine API beliefert rund 180.000 Krypto-Apps und Unternehmen, so die Solana Foundation",
+            "ru": "Карточка с фактом: у CoinGecko 18 млн зарегистрированных пользователей, а его API снабжает данными около 180 000 криптоприложений и компаний, по данным Solana Foundation",
+            "tr": "Bilgi kartı: Solana Foundation'a göre CoinGecko'nun 18 milyon kayıtlı kullanıcısı var ve API'si yaklaşık 180.000 kripto uygulamasına ve şirkete veri sağlıyor",
+            "id": "Kartu fakta: CoinGecko memiliki 18 juta pengguna terdaftar, dan API-nya memasok sekitar 180.000 aplikasi dan perusahaan kripto, menurut Solana Foundation",
+            "ja": "ファクトカード：Solana Foundationによると、CoinGeckoの登録ユーザーは1800万人で、そのAPIは約18万の暗号資産アプリや企業にデータを提供",
+            "ko": "팩트 카드: 솔라나 재단에 따르면 코인게코의 등록 사용자는 1,800만 명이며, API는 약 18만 개의 암호화폐 앱과 기업에 데이터를 제공",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Solana Foundation via CoinDesk and Solana Compass")},
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of Solana's SOL price on CoinGecko from Nov. 10 to Nov. 17, 2026: about $86.60 on Nov. 10, a slide to a low of about $67.86 on Nov. 15, then a rebound to about $73.60 on the morning of Nov. 17", {
+            "es": "Gráfico de líneas del precio de SOL de Solana en CoinGecko del 10 al 17 de noviembre de 2026: unos 86,60 dólares el 10 de noviembre, caída hasta un mínimo de unos 67,86 el 15 de noviembre y rebote hasta unos 73,60 la mañana del 17 de noviembre",
+            "pt": "Gráfico de linha do preço do SOL, da Solana, na CoinGecko de 10 a 17 de novembro de 2026: cerca de US$ 86,60 em 10 de novembro, queda até a mínima de cerca de US$ 67,86 em 15 de novembro e recuperação para cerca de US$ 73,60 na manhã de 17 de novembro",
+            "fr": "Courbe du cours du SOL de Solana sur CoinGecko du 10 au 17 novembre 2026 : environ 86,60 dollars le 10 novembre, une baisse jusqu'à un plus bas d'environ 67,86 le 15 novembre, puis un rebond vers 73,60 le matin du 17 novembre",
+            "de": "Liniendiagramm des SOL-Kurses von Solana bei CoinGecko vom 10. bis 17. November 2026: rund 86,60 $ am 10. November, ein Rückgang auf ein Tief von rund 67,86 $ am 15. November, danach eine Erholung auf rund 73,60 $ am Morgen des 17. November",
+            "ru": "Линейный график цены SOL сети Solana по данным CoinGecko с 10 по 17 ноября 2026 года: около $86,60 10 ноября, снижение до минимума около $67,86 15 ноября, затем отскок примерно до $73,60 утром 17 ноября",
+            "tr": "Solana'nın SOL fiyatının 10-17 Kasım 2026 arasında CoinGecko'daki çizgi grafiği: 10 Kasım'da yaklaşık 86,60 $, 15 Kasım'da yaklaşık 67,86 $'lık dibe düşüş, ardından 17 Kasım sabahı yaklaşık 73,60 $'a toparlanma",
+            "id": "Grafik garis harga SOL milik Solana di CoinGecko dari 10 hingga 17 November 2026: sekitar US$86,60 pada 10 November, turun ke titik terendah sekitar US$67,86 pada 15 November, lalu pulih ke sekitar US$73,60 pada pagi 17 November",
+            "ja": "2026年11月10日～17日のCoinGeckoにおけるSolanaのSOL価格の折れ線グラフ：11月10日に約86.60ドル、11月15日に約67.86ドルの安値まで下落し、11月17日朝には約73.60ドルへ反発",
+            "ko": "2026년 11월 10일~17일 CoinGecko 기준 솔라나 SOL 가격 선 차트: 11월 10일 약 86.60달러, 11월 15일 약 67.86달러 저점까지 하락한 뒤 11월 17일 오전 약 73.60달러로 반등",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="CoinGecko SOL/USD hourly prices")},
+    ]
+
+
 BUILDERS = {
+    "optimizely-hack-crypto-address-swap-178-sites-nov-2026": "optimizely",
+    "solana-foundation-coingecko-majority-stake-nov-2026": "cgsol",
     "supreme-court-rejects-custodia-fed-master-account-nov-2026": "custodia",
     "solana-drops-mainnet-beta-solana-1-0-nov-2026": "sol10",
     "lighter-dex-10-4-million-leaked-api-key-nov-2026": "lighter",
@@ -3349,6 +3462,10 @@ def build_slug(slug: str, btc=None):
         figs = build_strategy_485_btc()
     elif key == "fng10":
         figs = build_fear_greed_10()
+    elif key == "optimizely":
+        figs = build_optimizely_clipper()
+    elif key == "cgsol":
+        figs = build_coingecko_solana()
     elif key == "lighter":
         figs = build_lighter_api_key()
     elif key == "custodia":
