@@ -1,0 +1,61 @@
+title: US-Supreme-Court nimmt Custodia-Fall nicht an: Die Fed darf Kryptobanken weiter ein Master-Konto verweigern
+page_title: Supreme Court weist Berufung der Custodia Bank zum Fed-Master-Konto ab
+description: Der Oberste Gerichtshof der USA hat es am Montag abgelehnt, den Fall der Custodia Bank anzunehmen. Damit endet der sechsjährige Kampf der Kryptobank aus Wyoming um ein Master-Konto bei der Federal Reserve, und die Fed behält das Recht, Nein zu sagen.
+og_description: Der Supreme Court hat die Berufung der Custodia Bank am Montag abgewiesen. Das bestehen bleibende Urteil besagt, dass regionale Fed-Banken ein Master-Konto selbst einer rechtlich berechtigten Bank verweigern dürfen. Das betrifft jede kryptoorientierte Bank.
+label: Regulierung
+summary: Der Supreme Court hat es am Montag abgelehnt, die Berufung der Custodia Bank anzunehmen. Der Kampf der Kryptobank aus Wyoming um ein Fed-Master-Konto ist vorbei, das Ermessen der Fed ist bestätigt.
+===
+
+Der Oberste Gerichtshof der USA hat es am Montag abgelehnt, eine Berufung der Custodia Bank anzunehmen, einer auf Kryptowährungen ausgerichteten Bank aus Wyoming. Damit endet ihr langer Kampf um direkten Zugang zum Zahlungssystem der Federal Reserve. Der Fall Nr. 26-62 steht in der [Anordnungsliste vom Montag](L1) unter „Certiorari abgelehnt“.
+
+Die Richter gaben keine Begründung, und es wurde kein abweichendes Votum vermerkt, berichtete [Quartz](L4) unter Berufung auf Bloomberg. Damit bleibt ein Urteil einer unteren Instanz bestehen, nach dem regionale Federal-Reserve-Banken einen Antrag auf ein Master-Konto selbst dann ablehnen dürfen, wenn die Bank rechtlich dafür in Frage kommt.
+
+!takeaways
+- Der Supreme Court lehnte es am 16. November ab, die Klage der Custodia Bank gegen die Entscheidung der Fed von Kansas City aus dem Jahr 2023 zu prüfen, ihr kein Master-Konto zu geben.
+- Ein Berufungsurteil vom 31. Oktober 2025, gefällt mit 2 zu 1 Stimmen, ist nun endgültig: Die Fed darf Nein sagen, auch zu berechtigten Banken.
+- Custodia stellte den ersten Antrag im Oktober 2020; die Fed verwies auf ein Geschäftsmodell, das „eng auf Krypto-Aktivitäten ausgerichtet“ sei.
+- Für normale Krypto-Nutzer ändert sich über Nacht nichts, aber kryptoorientierte Banken haben kaum noch rechtliche Hebel, wenn die Fed sie abweist.
+
+!figure:timeline
+
+## Was ein Master-Konto ist
+
+Ein Master-Konto ist das eigene Konto einer Bank bei einer Federal-Reserve-Bank. Damit kann sie Geld direkt bei der Zentralbank halten und Zahlungsnetze wie Fedwire nutzen, um Dollar zu überweisen. Ohne ein solches Konto muss eine Bank für Zahlungen über eine andere Bank gehen, eine sogenannte Korrespondenzbank, erklärte [Bitcoin Magazine](L3).
+
+Custodia, gegründet von Vorstandschefin Caitlin Long, besitzt in Wyoming eine Lizenz als Einlageninstitut mit Sonderzweck. Diese Lizenz verbietet ihr die Kreditvergabe und verlangt, dass Dollar-Einlagen der Kunden vollständig mit liquiden Mitteln gedeckt sind.
+
+## Sechs Jahre Streit
+
+Custodia beantragte im Oktober 2020 ein Master-Konto bei der Federal Reserve Bank of Kansas City. Nach langem Warten verklagte sie die Fed im Juni 2022. Am 27. Januar 2023 lehnte die Fed von Kansas City den Antrag ab. Laut [SCOTUSblog](L2) kam die Fed zu dem Schluss, dass Custodias Geschäftsmodell, weil es „eng auf Krypto-Aktivitäten ausgerichtet“ sei, Risiken berge, die „höchstwahrscheinlich mit sicheren und soliden Bankpraktiken unvereinbar“ seien.
+
+Ein Bundesrichter in Wyoming gab der Fed im März 2024 recht. Am 31. Oktober 2025 bestätigte das Bundesberufungsgericht für den 10. Bezirk dies mit 2 zu 1 Stimmen. Die Mehrheit befand, ein Gesetz von 1980, wonach Fed-Dienste solchen Banken „zur Verfügung stehen sollen“, regle Preise und kein Recht auf ein Konto. Richter Timothy Tymkovich widersprach: „Soll heißt soll“, schrieb er. Als das Gericht in voller Besetzung im März 2026 eine erneute Verhandlung ablehnte, nannte er die Verweigerung eines Master-Kontos „vergleichbar mit einem Todesurteil“ für eine Bank.
+
+!figure:fact
+
+Im Sommer bat Custodia den Supreme Court, einzugreifen. Die Trump-Regierung drängte die Richter, den Fall nicht anzunehmen, berichtete Quartz: Das Gesetz gebe den Reservebanken Ermessen, zudem biete die Fed inzwischen neue, eingeschränkte Konten für auf digitale Vermögenswerte ausgerichtete Banken an.
+
+!mid_cta
+
+## Reaktionen
+
+Custodia, Long und der Fed-Vorstand wollten sich nicht äußern, berichtete [American Banker](L5). Das Bank Policy Institute, ein Verband großer Banken, der die Fed vor Gericht unterstützt hatte, begrüßte den Ausgang. „Der Zugang zu einem Master-Konto der Federal Reserve ist ein Privileg, kein Recht“, erklärte der Verband in einer [Stellungnahme](L6).
+
+Nicht alle Fachleute sind zufrieden. Julie Hill, Dekanin der juristischen Fakultät der University of Wyoming, sagte American Banker, das Urteil „zementiert die Vorstellung, dass die Fed Ermessen hat“, und könne „Schwankungen bei der Politik und den Prioritäten für Master-Konten unter verschiedenen Regierungen“ bedeuten.
+
+## Was das für Krypto und für Sie bedeutet
+
+Der Fall verbietet keine Kryptobanken und ändert nichts daran, wie normale Menschen Kryptowährungen kaufen oder aufbewahren. Er bestätigt aber, dass eine Lizenz eines Bundesstaates allein nicht die Tür zum Zahlungssystem der Fed öffnet. Die Fed hat inzwischen ein „schlankes“ Konto mit eingeschränktem Zweck ins Spiel gebracht, und die Fed von Kansas City hat der Bankeinheit von Kraken ein solches Konto gegeben, das erste für eine Bank für digitale Vermögenswerte, berichtete Quartz. Custodia hatte argumentiert, ein eingeschränktes Konto reiche für ihr Geschäft nicht aus.
+
+Für Einsteiger ist die praktische Lehre einfach: Kryptowährungen kauft man meist auf einer großen regulierten Börse wie [Coinbase](REF), finanziert über ein normales Bankkonto, und nicht über eine spezialisierte Kryptobank. Dies ist keine Anlageberatung.
+
+## Worauf man jetzt achten sollte
+
+- Ob Custodia, die sich nicht geäußert hat, ihr Geschäftsmodell ändert oder ein Konto mit eingeschränktem Zweck beantragt.
+- Wie viele kryptoorientierte Banken die neuen eingeschränkten Fed-Konten erhalten und zu welchen Bedingungen.
+- Ob der Kongress sich des Zugangs zu Master-Konten annimmt, der einzige verbleibende Weg, die Regeln zu ändern.
+
+!soft: Sie möchten wissen, wie Krypto-Plattformen Ihr Geld schützen? Lesen Sie [ist Coinbase sicher für Einsteiger?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

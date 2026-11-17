@@ -1100,8 +1100,61 @@ def thumb_lighter_api_key():
     ],"note":"Editorial composite for identification; trademarks belong to their owners."}
 
 
+def thumb_custodia_scotus():
+    """U.S. Supreme Court building (Joe Ravi, CC BY-SA 3.0) with the Fed seal for identification."""
+    court = fetch("https://upload.wikimedia.org/wikipedia/commons/d/da/Panorama_of_United_States_Supreme_Court_Building_at_Dusk.jpg", CACHE/"scotus-dusk.jpg")
+    fed = fetch("https://upload.wikimedia.org/wikipedia/commons/7/73/Seal_of_the_United_States_Federal_Reserve_Board.svg", CACHE/"fed-seal.svg")
+    base = cover_fit(open_rgb(court), cy=0.5)
+    overlay = Image.new("RGBA", base.size, (0,0,0,0)); ImageDraw.Draw(overlay).rectangle([0,int(H*0.70),W,H], fill=(8,14,28,200))
+    base = Image.alpha_composite(base.convert("RGBA"), overlay).convert("RGB")
+    tile = Image.new("RGBA", (96, 96), (255,255,255,255))
+    mask = Image.new("L", (96, 96), 0); ImageDraw.Draw(mask).ellipse([0,0,95,95], fill=255)
+    base.paste(tile.convert("RGB"), (W-116, H-112), mask)
+    paste_contain(base, Image.open(fed).convert("RGBA"), (W-116, H-112, 96, 96), pad=6)
+    d = ImageDraw.Draw(base)
+    d.text((20, H-84), "Certiorari denied", font=font(FONT_B, 30), fill=WHITE)
+    d.text((22, H-44), "Custodia Bank v. Fed Board, No. 26-62", font=font(FONT_R, 17), fill=(203,213,225))
+    label_chip(base, "Supreme Court · Fed master account")
+    return base, {"kind":"composite","sources":[
+        {"file":"Panorama_of_United_States_Supreme_Court_Building_at_Dusk.jpg","license":"CC BY-SA 3.0","url":"https://commons.wikimedia.org/wiki/File:Panorama_of_United_States_Supreme_Court_Building_at_Dusk.jpg","credit":"Joe Ravi / Wikimedia Commons"},
+        {"file":"Seal_of_the_United_States_Federal_Reserve_Board.svg","license":"Public domain","url":"https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Federal_Reserve_Board.svg","credit":"Federal Reserve Board"},
+        {"file":"Supreme Court order list, Nov. 16, 2026","license":"Fact cited","url":"https://www.supremecourt.gov/orders/courtorders/111626zor_cb7d.pdf","credit":"Supreme Court of the United States"},
+    ],"note":"Editorial composite; seal used for identification."}
+
+
+def thumb_solana_1_0():
+    """Solana logo (identification) with a SOL/USD daily chart from Kraken OHLC."""
+    sol = fetch("https://cryptologos.cc/logos/solana-sol-logo.svg", CACHE/"solana-logo.svg")
+    xs, closes = kraken_ohlc(1440, "SOLUSD")
+    xs, closes = xs[-75:], closes[-75:]
+    base = gradient_bg()
+    tile = Image.new("RGBA", (170, 170), (0,0,0,255))
+    mask = Image.new("L", (170, 170), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,169,169], radius=18, fill=255)
+    base.paste(tile.convert("RGB"), (36, 70), mask)
+    paste_contain(base, Image.open(sol).convert("RGBA"), (36, 70, 170, 170), pad=26)
+    d = ImageDraw.Draw(base)
+    d.text((44, 262), "mainnet beta", font=font(FONT_R, 22), fill=MUTED)
+    tw = d.textlength("mainnet beta", font=font(FONT_R, 22))
+    d.line([(44, 276), (44+tw, 276)], fill=(248,113,113), width=3)
+    d.text((44, 294), "→ Solana 1.0", font=font(FONT_B, 28), fill=ORANGE)
+    fig, ax = plt.subplots(figsize=(3.4, 2.4), dpi=120); fig.patch.set_facecolor("#0f1419")
+    style_ax(ax, "SOL/USD daily close (Kraken)")
+    ax.plot(xs, closes, color="#f7931a", linewidth=1.8)
+    ax.fill_between(xs, closes, min(closes)*0.97, color="#f7931a", alpha=0.12)
+    ax.xaxis.set_major_locator(mdates.MonthLocator()); ax.xaxis.set_major_formatter(mdates.DateFormatter("%b")); ax.yaxis.set_major_formatter(lambda v, _p: f"${v:,.0f}")
+    chart = ImageOps.fit(chart_to_image(fig), (372, 262), method=Image.Resampling.LANCZOS)
+    base.paste(chart, (W-392, 58))
+    label_chip(base, "Solana · protocol version 1.0")
+    return base, {"kind":"composite","sources":[
+        {"file":"solana-sol-logo.svg","license":"Logo","url":"https://cryptologos.cc/solana","credit":"Solana Foundation"},
+        {"file":"Kraken SOLUSD daily OHLC","license":"Public market data","url":"https://api.kraken.com/0/public/OHLC?pair=SOLUSD&interval=1440","credit":"Kraken"},
+    ],"note":"Editorial composite; trademarks belong to their owners."}
+
+
 
 BUILDERS = {
+    "supreme-court-rejects-custodia-fed-master-account-nov-2026": thumb_custodia_scotus,
+    "solana-drops-mainnet-beta-solana-1-0-nov-2026": thumb_solana_1_0,
     "lighter-dex-10-4-million-leaked-api-key-nov-2026": thumb_lighter_api_key,
     "is-coinbase-safe-for-beginners": thumb_coinbase_safe,
     "how-much-bitcoin-should-a-beginner-buy-dca": thumb_dca,

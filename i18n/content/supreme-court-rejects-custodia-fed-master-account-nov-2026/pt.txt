@@ -1,0 +1,61 @@
+title: Suprema Corte dos EUA não vai julgar o caso da Custodia e deixa o Fed livre para negar contas master a bancos cripto
+page_title: Suprema Corte rejeita recurso do Custodia Bank sobre conta master no Fed
+description: A Suprema Corte dos EUA se recusou na segunda-feira a julgar o caso do Custodia Bank, encerrando a luta de seis anos do banco cripto de Wyoming por uma conta master no Federal Reserve e mantendo intacto o poder do Fed de dizer não.
+og_description: A Suprema Corte rejeitou na segunda-feira o recurso do Custodia Bank. A decisão mantida diz que os bancos regionais do Fed podem negar uma conta master até a um banco legalmente elegível, o que afeta todo banco focado em cripto.
+label: Regulação
+summary: A Suprema Corte se recusou na segunda-feira a julgar o recurso do Custodia Bank, encerrando a luta do banco cripto de Wyoming por uma conta master no Fed e confirmando que o Fed pode negá-la.
+===
+
+A Suprema Corte dos Estados Unidos se recusou na segunda-feira a julgar um recurso do Custodia Bank, um banco de Wyoming voltado a criptomoedas, encerrando sua longa luta por acesso direto ao sistema de pagamentos do Federal Reserve. O caso, nº 26-62, aparece como "certiorari negado" na [lista de despachos de segunda-feira](L1) da corte.
+
+Os ministros não deram explicação nem registraram voto divergente, informou o [Quartz](L4), citando a Bloomberg. A decisão mantém uma sentença de instância inferior segundo a qual os bancos regionais do Federal Reserve podem recusar um pedido de conta master mesmo de um banco legalmente elegível.
+
+!takeaways
+- Em 16 de novembro, a Suprema Corte se recusou a rever a contestação do Custodia Bank à decisão de 2023 do Fed de Kansas City de negar-lhe uma conta master.
+- Fica valendo uma decisão de apelação de 31 de outubro de 2025, tomada por 2 votos a 1: o Fed pode dizer não, mesmo a bancos elegíveis.
+- A Custodia fez o primeiro pedido em outubro de 2020; o Fed citou um modelo de negócios "estritamente focado em atividades com criptoativos".
+- Para quem usa cripto no dia a dia nada muda de imediato, mas bancos focados em cripto ficam com pouca margem jurídica se o Fed os recusar.
+
+!figure:timeline
+
+## O que é uma conta master
+
+Uma conta master é a conta própria de um banco em um banco do Federal Reserve. Ela permite guardar dinheiro diretamente no banco central e usar redes de pagamento como o Fedwire para movimentar dólares. Sem ela, um banco precisa recorrer a outro banco, chamado correspondente, para enviar e receber pagamentos, explicou a [Bitcoin Magazine](L3).
+
+A Custodia, fundada por sua CEO Caitlin Long, tem uma licença de Wyoming como instituição depositária de propósito especial. Essa licença a proíbe de conceder empréstimos e exige que os depósitos em dólares dos clientes sejam totalmente lastreados em ativos líquidos.
+
+## Seis anos de disputa
+
+A Custodia pediu uma conta master ao Federal Reserve Bank de Kansas City em outubro de 2020. Depois de uma longa espera, processou o Fed em junho de 2022. Em 27 de janeiro de 2023, o Fed de Kansas City negou o pedido. Segundo o [SCOTUSblog](L2), o Fed concluiu que, como o modelo de negócios da Custodia era "estritamente focado em atividades com criptoativos", ele trazia riscos "muito provavelmente incompatíveis com práticas bancárias seguras e sólidas".
+
+Um juiz federal de Wyoming deu razão ao Fed em março de 2024. Em 31 de outubro de 2025, o Tribunal de Apelações do 10º Circuito concordou, por 2 votos a 1. A maioria entendeu que uma lei de 1980 segundo a qual os serviços do Fed "estarão disponíveis" a esses bancos trata de preços, e não de um direito a uma conta. O juiz Timothy Tymkovich discordou: "estarão significa estarão", escreveu. Quando o tribunal pleno se recusou a reexaminar o caso em março de 2026, ele chamou a negativa de uma conta master de "equivalente a uma sentença de morte" para um banco.
+
+!figure:fact
+
+A Custodia pediu a intervenção da Suprema Corte em julho. O governo Trump pediu aos ministros que não aceitassem o caso, informou o Quartz, argumentando que a lei dá discricionariedade aos bancos de reserva e citando as novas contas limitadas do Fed para bancos focados em ativos digitais.
+
+!mid_cta
+
+## Reações
+
+A Custodia, Long e o Conselho do Fed não quiseram comentar, informou o [American Banker](L5). O Bank Policy Institute, grupo que representa grandes bancos e apoiou o Fed na Justiça, comemorou o resultado. "O acesso a uma conta master do Federal Reserve é um privilégio, não um direito", disse o grupo em [comunicado](L6).
+
+Nem todos os especialistas gostaram. Julie Hill, diretora da Faculdade de Direito da Universidade de Wyoming, disse ao American Banker que a decisão "consolida a ideia de que o Fed tem discricionariedade" e pode significar "oscilações nas políticas e prioridades sobre contas master em diferentes governos".
+
+## O que isso significa para as criptomoedas e para você
+
+O caso não proíbe bancos cripto nem muda a forma como as pessoas comuns compram ou guardam criptomoedas. Mas confirma que uma licença estadual, sozinha, não abre a porta do sistema de pagamentos do Fed. Desde então, o Fed propôs uma conta "enxuta" de propósito limitado, e o Fed de Kansas City concedeu uma conta desse tipo à unidade bancária da Kraken, a primeira para um banco de ativos digitais, informou o Quartz. A Custodia argumentava que uma conta limitada não bastaria para o seu negócio.
+
+Para iniciantes, a lição prática é simples: comprar cripto costuma acontecer em uma corretora grande e regulada como a [Coinbase](REF), com dinheiro de uma conta bancária comum, e não por meio de um banco cripto especializado. Isto não é recomendação de investimento.
+
+## O que acompanhar agora
+
+- Se a Custodia, que não comentou, muda seu plano de negócios ou pede uma conta de propósito limitado.
+- Quantos bancos focados em cripto recebem as novas contas limitadas do Fed, e em que condições.
+- Se o Congresso vai tratar do acesso a contas master, o único caminho que resta para mudar as regras.
+
+!soft: Quer entender como as plataformas cripto protegem seu dinheiro? Leia [a Coinbase é segura para iniciantes?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

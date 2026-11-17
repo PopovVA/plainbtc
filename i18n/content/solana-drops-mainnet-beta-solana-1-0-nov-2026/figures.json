@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-solana-1-0.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline: on March 16, 2020, Solana launches as mainnet beta; in December 2025, Firedancer, a second validator client, goes live; on Oct. 21, 2026, the Alpenglow upgrade targets about 150 milliseconds finality; on Nov. 16, 2026, the beta label is retired and Solana 1.0 is introduced",
+      "es": "Cronología: el 16 de marzo de 2020, Solana se lanza como «mainnet beta»; en diciembre de 2025 entra en funcionamiento Firedancer, un segundo cliente de validadores; el 21 de octubre de 2026, la actualización Alpenglow busca una finalidad de unos 150 milisegundos; el 16 de noviembre de 2026 se retira la etiqueta beta y llega Solana 1.0",
+      "pt": "Linha do tempo: em 16 de março de 2020, a Solana é lançada como \"mainnet beta\"; em dezembro de 2025, entra no ar o Firedancer, um segundo cliente de validadores; em 21 de outubro de 2026, a atualização Alpenglow mira uma finalidade de cerca de 150 milissegundos; em 16 de novembro de 2026, o rótulo beta é aposentado e surge a Solana 1.0",
+      "fr": "Chronologie : le 16 mars 2020, Solana est lancé en « mainnet beta » ; en décembre 2025, Firedancer, un second client de validation, est mis en service ; le 21 octobre 2026, la mise à jour Alpenglow vise une finalité d'environ 150 millisecondes ; le 16 novembre 2026, l'étiquette bêta est retirée et Solana 1.0 est lancé",
+      "de": "Zeitleiste: Am 16. März 2020 startet Solana als „Mainnet Beta“; im Dezember 2025 geht Firedancer als zweiter Validator-Client live; am 21. Oktober 2026 zielt das Alpenglow-Upgrade auf eine Finalität von rund 150 Millisekunden; am 16. November 2026 wird das Beta-Label abgelegt und Solana 1.0 eingeführt",
+      "ru": "Хронология: 16 марта 2020 года Solana запускается как «mainnet beta»; в декабре 2025 года начинает работать Firedancer, второй клиент для валидаторов; 21 октября 2026 года обновление Alpenglow нацелено на финальность около 150 миллисекунд; 16 ноября 2026 года метка beta снята, представлена Solana 1.0",
+      "tr": "Zaman çizelgesi: 16 Mart 2020'de Solana \"mainnet beta\" olarak başlıyor; Aralık 2025'te ikinci doğrulayıcı istemcisi Firedancer devreye giriyor; 21 Ekim 2026'da Alpenglow güncellemesi yaklaşık 150 milisaniyelik kesinlik hedefliyor; 16 Kasım 2026'da beta etiketi kaldırılıyor ve Solana 1.0 tanıtılıyor",
+      "id": "Linimasa: 16 Maret 2020, Solana diluncurkan sebagai \"mainnet beta\"; Desember 2025, Firedancer, klien validator kedua, mulai aktif; 21 Oktober 2026, pembaruan Alpenglow menargetkan finalitas sekitar 150 milidetik; 16 November 2026, label beta dihapus dan Solana 1.0 diperkenalkan",
+      "ja": "時系列：2020年3月16日、Solanaが「メインネットベータ」として稼働開始、2025年12月、2つ目のバリデータークライアントFiredancerが稼働、2026年10月21日、Alpenglowアップグレードが約150ミリ秒のファイナリティを目標に、2026年11月16日、ベータ表記を廃止しSolana 1.0を導入",
+      "ko": "타임라인: 2020년 3월 16일 솔라나가 '메인넷 베타'로 출시, 2025년 12월 두 번째 검증자 클라이언트 파이어댄서 가동, 2026년 10월 21일 알펜글로 업그레이드로 약 150밀리초 완결성 목표, 2026년 11월 16일 베타 표기 폐지 및 솔라나 1.0 도입"
+    },
+    "caption": {
+      "en": "Source: Solana Foundation via Decrypt, The Block and CoinDesk",
+      "es": "Fuente: Solana Foundation via Decrypt, The Block and CoinDesk",
+      "pt": "Fonte: Solana Foundation via Decrypt, The Block and CoinDesk",
+      "fr": "Source : Solana Foundation via Decrypt, The Block and CoinDesk",
+      "de": "Quelle: Solana Foundation via Decrypt, The Block and CoinDesk",
+      "ru": "Источник: Solana Foundation via Decrypt, The Block and CoinDesk",
+      "tr": "Kaynak: Solana Foundation via Decrypt, The Block and CoinDesk",
+      "id": "Sumber: Solana Foundation via Decrypt, The Block and CoinDesk",
+      "ja": "出典: Solana Foundation via Decrypt, The Block and CoinDesk",
+      "ko": "출처: Solana Foundation via Decrypt, The Block and CoinDesk"
+    }
+  },
+  {
+    "id": "chart",
+    "file": "chart-sol-price-60d.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of Solana's SOL price on CoinGecko from Sep. 17 to Nov. 16, 2026: about $99 in mid-September, a high of about $124 on Sep. 27, then a steady slide to a low of about $68 on Nov. 15 and about $72 on Nov. 16",
+      "es": "Gráfico de líneas del precio de SOL de Solana en CoinGecko del 17 de septiembre al 16 de noviembre de 2026: unos 99 dólares a mediados de septiembre, un máximo de unos 124 el 27 de septiembre y después una caída constante hasta un mínimo de unos 68 el 15 de noviembre y unos 72 el 16 de noviembre",
+      "pt": "Gráfico de linha do preço do SOL, da Solana, na CoinGecko de 17 de setembro a 16 de novembro de 2026: cerca de US$ 99 em meados de setembro, máxima de cerca de US$ 124 em 27 de setembro e depois queda contínua até a mínima de cerca de US$ 68 em 15 de novembro e cerca de US$ 72 em 16 de novembro",
+      "fr": "Courbe du cours du SOL de Solana sur CoinGecko du 17 septembre au 16 novembre 2026 : environ 99 dollars mi-septembre, un plus haut d'environ 124 le 27 septembre, puis une baisse continue jusqu'à un plus bas d'environ 68 le 15 novembre et environ 72 le 16 novembre",
+      "de": "Liniendiagramm des SOL-Kurses von Solana bei CoinGecko vom 17. September bis 16. November 2026: rund 99 $ Mitte September, ein Hoch von rund 124 $ am 27. September, danach ein stetiger Rückgang auf ein Tief von rund 68 $ am 15. November und rund 72 $ am 16. November",
+      "ru": "Линейный график цены SOL сети Solana по данным CoinGecko с 17 сентября по 16 ноября 2026 года: около $99 в середине сентября, максимум около $124 27 сентября, затем плавное снижение до минимума около $68 15 ноября и около $72 16 ноября",
+      "tr": "Solana'nın SOL fiyatının 17 Eylül - 16 Kasım 2026 arasında CoinGecko'daki çizgi grafiği: eylül ortasında yaklaşık 99 $, 27 Eylül'de yaklaşık 124 $ ile zirve, ardından 15 Kasım'da yaklaşık 68 $'lık dibe ve 16 Kasım'da yaklaşık 72 $'a istikrarlı düşüş",
+      "id": "Grafik garis harga SOL milik Solana di CoinGecko dari 17 September hingga 16 November 2026: sekitar US$99 pada pertengahan September, puncak sekitar US$124 pada 27 September, lalu turun terus ke titik terendah sekitar US$68 pada 15 November dan sekitar US$72 pada 16 November",
+      "ja": "2026年9月17日～11月16日のCoinGeckoにおけるSolanaのSOL価格の折れ線グラフ：9月中旬に約99ドル、9月27日に約124ドルの高値、その後じりじりと下落し11月15日に約68ドルの安値、11月16日は約72ドル",
+      "ko": "2026년 9월 17일~11월 16일 CoinGecko 기준 솔라나 SOL 가격 선 차트: 9월 중순 약 99달러, 9월 27일 약 124달러 고점, 이후 꾸준히 하락해 11월 15일 약 68달러 저점, 11월 16일 약 72달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: CoinGecko SOL/USD hourly prices",
+      "es": "Gráfico: PlainBTC, datos: CoinGecko SOL/USD hourly prices",
+      "pt": "Gráfico: PlainBTC, dados: CoinGecko SOL/USD hourly prices",
+      "fr": "Graphique : PlainBTC, données : CoinGecko SOL/USD hourly prices",
+      "de": "Chart: PlainBTC, Daten: CoinGecko SOL/USD hourly prices",
+      "ru": "График: PlainBTC, данные: CoinGecko SOL/USD hourly prices",
+      "tr": "Grafik: PlainBTC, veri: CoinGecko SOL/USD hourly prices",
+      "id": "Grafik: PlainBTC, data: CoinGecko SOL/USD hourly prices",
+      "ja": "チャート: PlainBTC、データ: CoinGecko SOL/USD hourly prices",
+      "ko": "차트: PlainBTC, 데이터: CoinGecko SOL/USD hourly prices"
+    }
+  }
+]

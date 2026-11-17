@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "solana-sol-logo.svg",
+      "license": "Logo",
+      "url": "https://cryptologos.cc/solana",
+      "credit": "Solana Foundation"
+    },
+    {
+      "file": "Kraken SOLUSD daily OHLC",
+      "license": "Public market data",
+      "url": "https://api.kraken.com/0/public/OHLC?pair=SOLUSD&interval=1440",
+      "credit": "Kraken"
+    }
+  ],
+  "note": "Editorial composite; trademarks belong to their owners.",
+  "slug": "solana-drops-mainnet-beta-solana-1-0-nov-2026",
+  "generated": "2026-11-17T00:10Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

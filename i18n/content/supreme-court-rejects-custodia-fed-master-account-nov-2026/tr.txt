@@ -1,0 +1,61 @@
+title: ABD Yüksek Mahkemesi Custodia davasını görmeyecek: Fed kripto bankalarına ana hesap vermeyi reddetmekte serbest
+page_title: Yüksek Mahkeme, Custodia Bank'ın Fed ana hesabı temyizini reddetti
+description: ABD Yüksek Mahkemesi pazartesi günü Custodia Bank davasını görmeyi reddetti. Böylece Wyoming'li kripto bankasının Federal Reserve ana hesabı için verdiği altı yıllık mücadele sona erdi ve Fed'in hayır deme yetkisi korundu.
+og_description: Yüksek Mahkeme pazartesi günü Custodia Bank'ın temyizini reddetti. Yürürlükte kalan karara göre bölgesel Fed bankaları, yasal olarak uygun bir bankaya bile ana hesap vermeyi reddedebilir. Bu, kriptoya odaklanan her bankayı ilgilendiriyor.
+label: Düzenleme
+summary: Yüksek Mahkeme pazartesi günü Custodia Bank'ın temyizini görmeyi reddetti. Wyoming'li kripto bankasının Fed ana hesabı mücadelesi sona erdi ve Fed'in reddetme yetkisi teyit edildi.
+===
+
+ABD Yüksek Mahkemesi pazartesi günü, kripto paralar etrafında kurulan Wyoming merkezli Custodia Bank'ın temyiz başvurusunu görmeyi reddetti. Böylece bankanın Federal Reserve ödeme sistemine doğrudan erişim için verdiği uzun mücadele sona erdi. 26-62 numaralı dava, mahkemenin [pazartesi günkü karar listesinde](L1) "certiorari reddedildi" başlığı altında yer alıyor.
+
+[Quartz](L4), Bloomberg'e dayanarak yargıçların bir gerekçe açıklamadığını ve karşı oy kaydedilmediğini bildirdi. Karar, bölgesel Federal Reserve bankalarının yasal olarak uygun bir bankanın ana hesap talebini bile reddedebileceğine hükmeden alt mahkeme kararını yürürlükte bırakıyor.
+
+!takeaways
+- Yüksek Mahkeme 16 Kasım'da, Kansas City Fed'in 2023'te Custodia Bank'a ana hesap vermeme kararına karşı açılan davayı incelemeyi reddetti.
+- 31 Ekim 2025 tarihli, 2'ye 1 oyla verilen temyiz kararı artık kesinleşti: Fed, uygun bankalara bile hayır diyebilir.
+- Custodia ilk başvurusunu Ekim 2020'de yaptı; Fed, "dar biçimde kripto varlık faaliyetlerine odaklanan" bir iş modelini gerekçe gösterdi.
+- Sıradan kripto kullanıcıları için bir gecede hiçbir şey değişmiyor, ancak Fed reddederse kripto odaklı bankaların elinde pek az hukuki koz kalıyor.
+
+!figure:timeline
+
+## Ana hesap nedir
+
+Ana hesap (master account), bir bankanın bir Federal Reserve bankasındaki kendi hesabıdır. Bankanın parayı doğrudan merkez bankasında tutmasını ve dolar transferi için Fedwire gibi ödeme ağlarını kullanmasını sağlar. [Bitcoin Magazine](L3)'in açıkladığına göre bu hesap olmadan bir banka, ödeme gönderip almak için muhabir banka denen başka bir bankayı kullanmak zorundadır.
+
+Kurucusu ve CEO'su Caitlin Long olan Custodia, Wyoming'de özel amaçlı mevduat kuruluşu lisansına sahip. Bu lisans bankanın kredi vermesini yasaklıyor ve müşterilerin dolar mevduatlarının tamamen likit varlıklarla karşılanmasını şart koşuyor.
+
+## Altı yıllık mücadele
+
+Custodia, Ekim 2020'de Kansas City Federal Reserve Bankası'na ana hesap başvurusu yaptı. Uzun bir bekleyişin ardından Haziran 2022'de Fed'e dava açtı. 27 Ocak 2023'te Kansas City Fed başvuruyu reddetti. [SCOTUSblog](L2)'a göre Fed, Custodia'nın iş modeli "dar biçimde kripto varlık faaliyetlerine odaklandığı" için "güvenli ve sağlam bankacılık uygulamalarıyla büyük olasılıkla bağdaşmayan" riskler taşıdığı sonucuna vardı.
+
+Wyoming'deki bir federal yargıç Mart 2024'te Fed'i haklı buldu. 31 Ekim 2025'te ABD 10. Daire Temyiz Mahkemesi de 2'ye 1 oyla aynı görüşe vardı. Çoğunluk, Fed hizmetlerinin bu tür bankalara "sunulacağını" söyleyen 1980 tarihli yasanın bir hesap hakkıyla değil fiyatlandırmayla ilgili olduğuna hükmetti. Yargıç Timothy Tymkovich buna katılmadı: "Sunulacak, sunulacak demektir" diye yazdı. Mahkeme tam kadro olarak Mart 2026'da davayı yeniden görmeyi reddettiğinde ise ana hesabın reddedilmesini bir banka için "ölüm cezasına eşdeğer" olarak nitelendirdi.
+
+!figure:fact
+
+Custodia bu yaz Yüksek Mahkeme'den müdahale istedi. Quartz'ın haberine göre Trump yönetimi, yasanın rezerv bankalarına takdir yetkisi tanıdığını savunarak ve Fed'in dijital varlıklara odaklanan bankalar için sunduğu yeni sınırlı hesaplara işaret ederek yargıçları davayı kabul etmemeye çağırdı.
+
+!mid_cta
+
+## Tepkiler
+
+[American Banker](L5)'ın haberine göre Custodia, Long ve Fed Yönetim Kurulu yorum yapmadı. Büyük bankaları temsil eden ve mahkemede Fed'i destekleyen Bank Policy Institute sonucu memnuniyetle karşıladı. Kuruluş bir [açıklamada](L6) "Federal Reserve ana hesabına erişim bir ayrıcalıktır, hak değil" dedi.
+
+Her uzman memnun değil. Wyoming Üniversitesi Hukuk Fakültesi dekanı Julie Hill, American Banker'a kararın "Fed'in takdir yetkisi olduğu fikrini pekiştirdiğini" ve "farklı yönetimler altında ana hesap politikalarında ve önceliklerinde dalgalanmalar" anlamına gelebileceğini söyledi.
+
+## Kripto ve sizin için ne anlama geliyor
+
+Dava kripto bankalarını yasaklamıyor ve sıradan insanların kripto para alma ya da saklama biçimini değiştirmiyor. Ancak tek başına bir eyalet lisansının Fed ödeme sisteminin kapısını açmaya yetmediğini teyit ediyor. Quartz'ın haberine göre Fed o zamandan beri "sade" bir sınırlı amaçlı hesap önerdi ve Kansas City Fed bu tür bir hesabı Kraken'in bankacılık birimine verdi; bu, bir dijital varlık bankası için bir ilkti. Custodia ise sınırlı bir hesabın işi için yeterli olmayacağını savunmuştu.
+
+Yeni başlayanlar için pratik sonuç basit: Kripto para genellikle sıradan bir banka hesabından para yatırılarak [Coinbase](REF) gibi büyük ve düzenlemeye tabi bir borsadan alınır, özel bir kripto bankası üzerinden değil. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Yorum yapmayan Custodia'nın iş planını değiştirip değiştirmeyeceği ya da sınırlı amaçlı hesaba başvurup başvurmayacağı.
+- Kaç kripto odaklı bankanın Fed'in yeni sınırlı hesaplarını hangi koşullarla alacağı.
+- Kuralları değiştirmenin kalan tek yolu olan Kongre'nin ana hesap erişimini ele alıp almayacağı.
+
+!soft: Kripto platformlarının paranızı nasıl koruduğunu merak mı ediyorsunuz? [Coinbase yeni başlayanlar için güvenli mi?](/articles/is-coinbase-safe-for-beginners) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

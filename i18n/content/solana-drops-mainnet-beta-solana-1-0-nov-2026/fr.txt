@@ -1,0 +1,61 @@
+title: Solana abandonne l'étiquette « mainnet beta » après six ans et devient Solana 1.0
+page_title: Solana retire « mainnet beta » et adopte Solana 1.0 : ce qui change pour les détenteurs de SOL
+description: La Fondation Solana a retiré lundi l'appellation « mainnet beta » et présenté Solana 1.0, un numéro de version commun pour les règles du réseau. Les soldes de SOL et les applications ne changent pas et les utilisateurs n'ont rien à faire.
+og_description: Solana sort officiellement de la bêta. La fondation a rebaptisé lundi le réseau Solana mainnet et présenté Solana 1.0. Rien ne change pour les détenteurs de SOL, et ce changement de nom ne rend pas les transactions plus rapides ni moins chères.
+label: Altcoins
+summary: La Fondation Solana a retiré lundi l'étiquette « mainnet beta » et présenté Solana 1.0. Les soldes de SOL et les applications restent identiques, et les utilisateurs n'ont rien à faire.
+===
+
+Solana n'est plus en « bêta ». La Fondation Solana a annoncé lundi qu'elle retirait l'étiquette « mainnet beta » portée par la blockchain depuis son lancement en mars 2020, et a présenté <strong>Solana 1.0</strong>, un numéro de version commun pour les règles du réseau, a rapporté [CoinDesk](L1). Le réseau s'appellera désormais simplement Solana mainnet.
+
+Le changement porte surtout sur les noms et les numéros. « Vos SOL, comptes, actifs, applications et historique de transactions restent les mêmes », a indiqué la fondation, selon [Decrypt](L3). Les utilisateurs n'ont pas à échanger de jetons, changer de portefeuille ni installer quoi que ce soit.
+
+!takeaways
+- Le 16 novembre, la Fondation Solana a retiré l'appellation « mainnet beta », utilisée depuis le 16 mars 2020, et adopté Solana 1.0 comme version du protocole.
+- Les soldes de SOL, les comptes, les applications et l'historique des transactions ne changent pas, et les utilisateurs n'ont rien à faire.
+- Le changement de nom ne rend pas à lui seul les transactions plus rapides ou moins chères ; les gains de vitesse récents viennent de la mise à jour Alpenglow d'octobre.
+- Le SOL s'échangeait autour de 72 dollars lundi soir, environ 42 % sous son plus haut de fin septembre, proche de 124 dollars, selon les données de CoinGecko.
+
+!figure:timeline
+
+## Pourquoi la « bêta » comptait
+
+En informatique, « bêta » désigne généralement une version précoce qui peut encore changer ou tomber en panne. Solana a gardé cette étiquette plus de six ans, alors même que des gens y échangeaient des jetons, y créaient des applications et y transféraient des actifs. La fondation a déclaré que Solana « est un réseau de production actif depuis sa genèse » et que l'étiquette bêta ne correspondait plus à la réalité, a rapporté CoinDesk.
+
+« Solana 1.0 reconnaît les progrès en matière de performance du réseau, de résilience et d'expérience des développeurs », a écrit la fondation, selon [The Block](L2).
+
+## Ce qu'est vraiment Solana 1.0
+
+Solana fonctionne grâce à des ordinateurs appelés validateurs, qui peuvent utiliser différents logiciels, appelés clients. Les deux principaux clients sont Agave, développé par Anza, et Firedancer, développé séparément par Jump Crypto. Firedancer a été mis en service sur le réseau principal de Solana en décembre 2025. Chaque client a son propre code, son calendrier de versions et ses numéros de version.
+
+Il peut donc être difficile de savoir si deux versions de logiciels différentes suivent les mêmes règles du réseau. Solana 1.0 donne un numéro aux règles elles-mêmes, de sorte qu'une version d'Agave et une version de Firedancer peuvent indiquer qu'elles prennent en charge la même version du protocole. La fondation a prévenu qu'« annoncer une version du protocole n'active pas d'un coup toutes les améliorations associées » : les opérateurs doivent donc toujours suivre les instructions de mise à jour de leur client, a rapporté Decrypt.
+
+!mid_cta
+
+## Les mises à jour derrière le changement de nom
+
+La fondation a cité deux changements récents. Alpenglow, un nouveau système permettant aux validateurs de s'accorder sur les blocs, a été mis en service le 21 octobre. Il vise une finalité des transactions, le moment où un paiement est considéré comme réglé, d'environ 150 millisecondes, contre environ 12,8 secondes auparavant. Disposer d'un second client indépendant signifie aussi qu'un bug dans un logiciel n'a pas forcément à faire tomber tous les validateurs.
+
+Solana a déjà connu des problèmes de fiabilité. Son réseau a été hors ligne pendant près de cinq heures en février 2024, après une panne de près de 19 heures un an plus tôt, a rappelé Decrypt. La diversité des logiciels ne garantit pas à elle seule que le réseau restera en ligne.
+
+L'annonce a été faite pendant Breakpoint, la conférence annuelle de Solana, organisée à Londres du 15 au 17 novembre, a rapporté [Solana Compass](L4).
+
+## Ce que cela signifie pour les détenteurs de SOL
+
+Pour les détenteurs de SOL, rien ne change dans leur portefeuille. Le nouveau nom ne change pas, à lui seul, la valeur du SOL. Le SOL a nettement reculé dans la vague de ventes qui touche la crypto : les données horaires de [CoinGecko](L5) le situent autour de 72 dollars lundi soir, après un plus bas d'environ 68 dollars le dimanche 15 novembre.
+
+!figure:chart
+
+Si vous débutez et souhaitez vous exposer au SOL, beaucoup de débutants l'achètent sur une grande plateforme régulée comme [Coinbase](REF). Commencez petit, car le cours du SOL peut varier fortement, comme le montrent les deux derniers mois. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- La rapidité avec laquelle portefeuilles, explorateurs de blocs et outils de développement adopteront le nouveau nom « mainnet ».
+- Les prochaines versions d'Agave, prévues en novembre et en décembre selon Decrypt, chacune avec ses propres étapes d'activation.
+- La capacité de Solana à rester stable à mesure que le trafic augmente et que de grands acteurs comme la DTCC prévoient de l'utiliser.
+
+!soft: Pour comprendre pourquoi la grande finance arrive sur Solana : [la DTCC prévoit d'amener des actions tokenisées sur Solana en 2027](/articles/dtcc-tokenized-stocks-solana-2027-nov-2026).
+
+!end_cta
+
+!disclosure

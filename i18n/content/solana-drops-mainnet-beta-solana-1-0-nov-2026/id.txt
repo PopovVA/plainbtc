@@ -1,0 +1,61 @@
+title: Solana melepas label "mainnet beta" setelah enam tahun dan menyebut jaringannya Solana 1.0
+page_title: Solana pensiunkan "mainnet beta" dan adopsi Solana 1.0: apa yang berubah bagi pemegang SOL
+description: Solana Foundation pada Senin mempensiunkan nama "mainnet beta" dan memperkenalkan Solana 1.0, nomor versi bersama untuk aturan jaringan. Saldo SOL dan aplikasi tidak berubah, dan pengguna tidak perlu melakukan apa pun.
+og_description: Solana resmi keluar dari tahap beta. Yayasan itu pada Senin mengganti nama jaringan menjadi Solana mainnet dan memperkenalkan Solana 1.0. Tidak ada yang berubah bagi pemegang SOL, dan pergantian nama ini tidak membuat transaksi lebih cepat atau lebih murah.
+label: Altcoin
+summary: Solana Foundation mempensiunkan label "mainnet beta" pada Senin dan memperkenalkan Solana 1.0. Saldo SOL dan aplikasi tetap sama, dan pengguna tidak perlu melakukan apa pun.
+===
+
+Solana tidak lagi berstatus "beta". Solana Foundation mengumumkan pada Senin bahwa mereka mempensiunkan label "mainnet beta" yang disandang blockchain itu sejak diluncurkan pada Maret 2020, dan memperkenalkan <strong>Solana 1.0</strong>, nomor versi bersama untuk aturan jaringan, lapor [CoinDesk](L1). Jaringan itu kini cukup disebut Solana mainnet.
+
+Perubahan ini sebagian besar soal nama dan nomor. "SOL, akun, aset, aplikasi, dan riwayat transaksi Anda tetap sama," kata yayasan itu, menurut [Decrypt](L3). Pengguna tidak perlu menukar token, memindahkan dompet, atau memasang apa pun.
+
+!takeaways
+- Pada 16 November, Solana Foundation mempensiunkan nama "mainnet beta" yang dipakai sejak 16 Maret 2020 dan mengadopsi Solana 1.0 sebagai versi protokol.
+- Saldo SOL, akun, aplikasi, dan riwayat transaksi tidak berubah, dan pengguna tidak perlu melakukan apa pun.
+- Pergantian nama saja tidak membuat transaksi lebih cepat atau lebih murah; peningkatan kecepatan terbaru datang dari pembaruan Alpenglow pada Oktober.
+- SOL diperdagangkan di dekat US$72 pada Senin malam, sekitar 42% di bawah puncak akhir September di dekat US$124, menurut data CoinGecko.
+
+!figure:timeline
+
+## Mengapa "beta" penting
+
+Dalam perangkat lunak, "beta" biasanya berarti versi awal yang masih bisa berubah atau rusak. Solana mempertahankan label itu lebih dari enam tahun, padahal orang sudah memperdagangkan token, membangun aplikasi, dan memindahkan aset di atasnya. Yayasan itu mengatakan Solana "telah menjadi jaringan produksi yang aktif sejak genesis" dan label beta tidak lagi sesuai kenyataan, lapor CoinDesk.
+
+"Solana 1.0 mengakui kemajuan dalam kinerja jaringan, ketahanan, dan pengalaman pengembang," tulis yayasan itu, menurut [The Block](L2).
+
+## Apa sebenarnya Solana 1.0
+
+Solana dijalankan oleh komputer yang disebut validator, dan validator bisa memakai perangkat lunak berbeda yang disebut klien. Dua klien utama adalah Agave, buatan Anza, dan Firedancer, yang dikembangkan terpisah oleh Jump Crypto. Firedancer mulai aktif di mainnet Solana pada Desember 2025. Setiap klien punya kode, jadwal rilis, dan nomor versinya sendiri.
+
+Hal itu bisa menyulitkan untuk mengetahui apakah dua rilis perangkat lunak yang berbeda mengikuti aturan jaringan yang sama. Solana 1.0 memberi nomor pada aturan itu sendiri, sehingga rilis Agave dan rilis Firedancer bisa menyatakan bahwa keduanya mendukung versi protokol yang sama. Yayasan itu memperingatkan bahwa "mengumumkan versi protokol tidak mengaktifkan semua peningkatan terkait sekaligus", sehingga operator tetap harus mengikuti instruksi pembaruan tiap klien, lapor Decrypt.
+
+!mid_cta
+
+## Pembaruan di balik pergantian nama
+
+Yayasan itu menyebut dua perubahan terbaru. Alpenglow, sistem baru tentang cara validator menyepakati blok, mulai aktif pada 21 Oktober. Sistem ini menargetkan finalitas transaksi, yaitu saat sebuah pembayaran dianggap tuntas, sekitar 150 milidetik, turun dari sekitar 12,8 detik. Adanya klien kedua yang independen juga berarti bug pada satu program tidak harus melumpuhkan semua validator.
+
+Solana pernah mengalami masalah keandalan. Jaringannya mati hampir lima jam pada Februari 2024, setelah gangguan hampir 19 jam setahun sebelumnya, catat Decrypt. Perangkat lunak yang beragam saja tidak bisa menjamin jaringan akan tetap menyala.
+
+Pengumuman itu muncul saat Breakpoint, konferensi tahunan Solana, yang digelar di London pada 15 hingga 17 November, lapor [Solana Compass](L4).
+
+## Artinya bagi pemegang SOL
+
+Bagi pemegang SOL, tidak ada yang berubah di dompet mereka. Nama baru itu sendiri tidak mengubah nilai SOL. SOL turun tajam dalam aksi jual kripto yang meluas: data per jam [CoinGecko](L5) menunjukkan harganya di dekat US$72 pada Senin malam, setelah titik terendah sekitar US$68 pada Minggu, 15 November.
+
+!figure:chart
+
+Jika Anda pemula dan ingin punya eksposur ke SOL, banyak pemula membelinya di bursa besar yang teregulasi seperti [Coinbase](REF). Mulailah dengan jumlah kecil, karena harga SOL bisa berayun tajam, seperti terlihat dalam dua bulan terakhir. Ini bukan saran investasi.
+
+## Yang perlu dipantau
+
+- Seberapa cepat dompet, penjelajah blok, dan alat pengembang memakai nama baru "mainnet".
+- Rilis Agave berikutnya, yang menurut Decrypt direncanakan pada November dan Desember, masing-masing dengan langkah aktivasinya sendiri.
+- Apakah Solana bisa tetap stabil seiring lalu lintas bertambah dan perusahaan besar seperti DTCC berencana memakainya.
+
+!soft: Baca lebih lanjut mengapa keuangan besar datang ke Solana: [DTCC berencana membawa saham tokenisasi ke Solana pada 2027](/articles/dtcc-tokenized-stocks-solana-2027-nov-2026).
+
+!end_cta
+
+!disclosure

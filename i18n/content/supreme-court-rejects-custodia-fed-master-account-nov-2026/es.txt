@@ -1,0 +1,61 @@
+title: El Tribunal Supremo de EE. UU. no revisará el caso de Custodia y deja a la Fed libre para negar cuentas maestras a bancos cripto
+page_title: El Tribunal Supremo rechaza la apelación de Custodia Bank sobre una cuenta maestra de la Fed
+description: El Tribunal Supremo de EE. UU. se negó el lunes a revisar el caso de Custodia Bank, lo que pone fin a la lucha de seis años de este banco cripto de Wyoming por una cuenta maestra de la Reserva Federal y mantiene intacto el poder de la Fed para decir que no.
+og_description: El Tribunal Supremo rechazó el lunes la apelación de Custodia Bank. El fallo que queda en pie dice que los bancos regionales de la Fed pueden negar una cuenta maestra incluso a un banco legalmente elegible, algo que afecta a todo banco centrado en cripto.
+label: Regulación
+summary: El Tribunal Supremo se negó el lunes a revisar la apelación de Custodia Bank, lo que cierra la lucha del banco cripto de Wyoming por una cuenta maestra de la Fed y confirma que la Fed puede negarla.
+===
+
+El Tribunal Supremo de Estados Unidos se negó el lunes a revisar una apelación de Custodia Bank, un banco de Wyoming creado en torno a las criptomonedas, y puso fin a su larga lucha por acceder directamente al sistema de pagos de la Reserva Federal. El caso, n.º 26-62, figura como «certiorari denegado» en la [lista de órdenes del lunes](L1) del tribunal.
+
+Los jueces no dieron explicaciones ni se registró ningún voto disidente, informó [Quartz](L4) citando a Bloomberg. La decisión deja en pie un fallo de un tribunal inferior según el cual los bancos regionales de la Reserva Federal pueden rechazar una solicitud de cuenta maestra incluso de un banco legalmente elegible.
+
+!takeaways
+- El 16 de noviembre, el Tribunal Supremo se negó a revisar la impugnación de Custodia Bank contra la decisión de 2023 de la Fed de Kansas City de negarle una cuenta maestra.
+- Queda firme un fallo de apelación del 31 de octubre de 2025, aprobado por 2 votos a 1: la Fed puede decir que no, incluso a bancos elegibles.
+- Custodia presentó su primera solicitud en octubre de 2020; la Fed alegó un modelo de negocio «estrechamente centrado en actividades con criptoactivos».
+- Para los usuarios de cripto no cambia nada de un día para otro, pero los bancos centrados en cripto se quedan con poco margen legal si la Fed los rechaza.
+
+!figure:timeline
+
+## Qué es una cuenta maestra
+
+Una cuenta maestra es la cuenta propia de un banco en un banco de la Reserva Federal. Le permite guardar dinero directamente en el banco central y usar redes de pago como Fedwire para mover dólares. Sin ella, un banco tiene que recurrir a otro banco, llamado corresponsal, para enviar y recibir pagos, explicó [Bitcoin Magazine](L3).
+
+Custodia, fundada por su consejera delegada Caitlin Long, tiene una licencia de Wyoming como institución depositaria de propósito especial. Esa licencia le prohíbe conceder préstamos y le exige respaldar por completo los depósitos en dólares de sus clientes con activos líquidos.
+
+## Seis años de batalla
+
+Custodia solicitó una cuenta maestra al Banco de la Reserva Federal de Kansas City en octubre de 2020. Tras una larga espera, demandó a la Fed en junio de 2022. El 27 de enero de 2023, la Fed de Kansas City rechazó la solicitud. Según [SCOTUSblog](L2), la Fed concluyó que, como el modelo de negocio de Custodia estaba «estrechamente centrado en actividades con criptoactivos», suponía riesgos «muy probablemente incompatibles con prácticas bancarias seguras y sólidas».
+
+Un juez federal de Wyoming dio la razón a la Fed en marzo de 2024. El 31 de octubre de 2025, el Tribunal de Apelaciones del 10.º Circuito coincidió por 2 votos a 1. La mayoría sostuvo que una ley de 1980 que dice que los servicios de la Fed «estarán disponibles» para estos bancos trata sobre precios, no sobre un derecho a una cuenta. El juez Timothy Tymkovich discrepó: «estarán significa estarán», escribió. Cuando el tribunal en pleno se negó a revisar el caso en marzo de 2026, calificó la negativa de una cuenta maestra como «equivalente a una sentencia de muerte» para un banco.
+
+!figure:fact
+
+Custodia pidió la intervención del Tribunal Supremo este verano. El gobierno de Trump instó a los jueces a no aceptar el caso, informó Quartz, con el argumento de que la ley da discreción a los bancos de reserva y señalando las nuevas cuentas limitadas de la Fed para bancos centrados en activos digitales.
+
+!mid_cta
+
+## Reacciones
+
+Custodia, Long y la Junta de la Fed declinaron hacer comentarios, informó [American Banker](L5). El Bank Policy Institute, un grupo que representa a grandes bancos y que apoyó a la Fed en los tribunales, celebró el resultado. «El acceso a una cuenta maestra de la Reserva Federal es un privilegio, no un derecho», dijo el grupo en un [comunicado](L6).
+
+No todos los expertos quedaron satisfechos. Julie Hill, decana de la Facultad de Derecho de la Universidad de Wyoming, dijo a American Banker que el fallo «afianza la idea de que la Fed tiene discreción» y podría traer «vaivenes en las políticas y prioridades sobre cuentas maestras con distintos gobiernos».
+
+## Qué significa para las cripto y para ti
+
+El caso no prohíbe los bancos cripto ni cambia la forma en que la gente común compra o guarda criptomonedas. Sí confirma que una licencia estatal por sí sola no abre la puerta al sistema de pagos de la Fed. Desde entonces, la Fed ha propuesto una cuenta «reducida» de propósito limitado, y la Fed de Kansas City concedió una cuenta así a la unidad bancaria de Kraken, la primera para un banco de activos digitales, informó Quartz. Custodia había argumentado que una cuenta limitada no bastaría para su negocio.
+
+Para principiantes, la conclusión práctica es sencilla: comprar criptomonedas suele hacerse en un exchange grande y regulado como [Coinbase](REF), con dinero de una cuenta bancaria normal, no a través de un banco cripto especializado. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Si Custodia, que no ha hecho comentarios, cambia su plan de negocio o solicita una cuenta de propósito limitado.
+- Cuántos bancos centrados en cripto reciben las nuevas cuentas limitadas de la Fed, y en qué condiciones.
+- Si el Congreso aborda el acceso a las cuentas maestras, la única vía que queda para cambiar las reglas.
+
+!soft: ¿Quieres saber cómo protegen tu dinero las plataformas cripto? Lee [¿es Coinbase seguro para principiantes?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

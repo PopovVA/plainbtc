@@ -1,0 +1,61 @@
+title: Solana drops its "mainnet beta" label after six years and calls the network Solana 1.0
+page_title: Solana retires "mainnet beta" and adopts Solana 1.0: what changes for SOL holders
+description: The Solana Foundation retired the "mainnet beta" name on Monday and introduced Solana 1.0, a shared version number for the network's rules. SOL balances and apps are unchanged and users do not need to do anything.
+og_description: Solana is officially out of beta. The foundation renamed the network Solana mainnet and introduced Solana 1.0 on Monday. Nothing changes for SOL holders, and the rename does not make transactions faster or cheaper.
+label: Altcoins
+summary: The Solana Foundation retired the "mainnet beta" label on Monday and introduced Solana 1.0. SOL balances and apps stay the same, and users do not need to take any action.
+===
+
+Solana is no longer in "beta." The Solana Foundation said on Monday that it has retired the "mainnet beta" label the blockchain has carried since its launch in March 2020, and introduced <strong>Solana 1.0</strong>, a shared version number for the network's rules, [CoinDesk](L1) reported. The network will now simply be called Solana mainnet.
+
+The change is mostly about names and numbers. "Your SOL, accounts, assets, applications, and transaction history remain the same," the foundation said, according to [Decrypt](L3). Users do not need to swap tokens, move wallets or install anything.
+
+!takeaways
+- On Nov. 16, the Solana Foundation retired the "mainnet beta" name used since March 16, 2020, and adopted Solana 1.0 as the protocol version.
+- SOL balances, accounts, apps and transaction history are unchanged, and no action is needed from users.
+- The rename does not make transactions faster or cheaper on its own; recent speed gains came from the Alpenglow upgrade in October.
+- SOL traded near $72 on Monday evening, about 42% below its late-September high near $124, according to CoinGecko data.
+
+!figure:timeline
+
+## Why "beta" mattered
+
+In software, "beta" usually means an early version that may still change or break. Solana kept that label for more than six years even as people traded tokens, built apps and moved assets on it. The foundation said Solana "has been a live production network since genesis" and that the beta label no longer matched reality, CoinDesk reported.
+
+"Solana 1.0 recognizes the progress on network performance, resilience, and developer experience," the foundation wrote, according to [The Block](L2).
+
+## What Solana 1.0 actually is
+
+Solana is run by computers called validators, and they can use different software, known as clients. The two major clients are Agave, built by Anza, and Firedancer, built separately by Jump Crypto. Firedancer went live on Solana mainnet in December 2025. Each client has its own code, release schedule and version numbers.
+
+That can make it hard to tell whether two different software releases follow the same network rules. Solana 1.0 gives the rules themselves a number, so an Agave release and a Firedancer release can say they support the same protocol version. The foundation warned that "announcing a protocol version does not activate every associated improvement at once," so operators still need to follow each client's upgrade instructions, Decrypt reported.
+
+!mid_cta
+
+## Recent upgrades behind the rename
+
+The foundation pointed to two recent changes. Alpenglow, a new system for how validators agree on blocks, went live on Oct. 21. It targets transaction finality, the moment a payment counts as settled, of about 150 milliseconds, down from about 12.8 seconds. Having a second, independent client also means a bug in one program need not take down every validator.
+
+Solana has had reliability problems before. Its network went offline for nearly five hours in February 2024, after an outage of almost 19 hours a year earlier, Decrypt noted. Different software alone cannot guarantee the network will stay online.
+
+The announcement came during Breakpoint, Solana's yearly conference, held in London from Nov. 15 to 17, [Solana Compass](L4) reported.
+
+## What it means for SOL holders
+
+For people who hold SOL, nothing changes in their wallets. The new name does not, by itself, change what SOL is worth. SOL has fallen sharply in the broad crypto sell-off: [CoinGecko](L5) hourly data show it near $72 on Monday evening, after a low of about $68 on Sunday, Nov. 15.
+
+!figure:chart
+
+If you are new and want exposure to SOL, many beginners buy it on a large regulated exchange such as [Coinbase](REF). Start small, because SOL's price can swing sharply, as the last two months show. This is not investment advice.
+
+## What to watch next
+
+- How quickly wallets, block explorers and developer tools adopt the new "mainnet" name.
+- The next Agave releases, which Decrypt said are planned for November and December, each with its own activation steps.
+- Whether Solana can keep its uptime record as traffic grows and big firms such as DTCC plan to use it.
+
+!soft: Read more about why big finance is coming to Solana: [DTCC plans to bring tokenized stocks to Solana in 2027](/articles/dtcc-tokenized-stocks-solana-2027-nov-2026).
+
+!end_cta
+
+!disclosure

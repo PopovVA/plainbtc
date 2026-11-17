@@ -1,0 +1,61 @@
+title: Solana altı yıl sonra "mainnet beta" etiketini bıraktı, ağın adı artık Solana 1.0
+page_title: Solana "mainnet beta"yı emekliye ayırıp Solana 1.0'a geçti: SOL sahipleri için ne değişiyor
+description: Solana Vakfı pazartesi günü "mainnet beta" adını emekliye ayırdı ve ağ kuralları için ortak bir sürüm numarası olan Solana 1.0'ı tanıttı. SOL bakiyeleri ve uygulamalar değişmiyor, kullanıcıların bir şey yapmasına gerek yok.
+og_description: Solana resmen betadan çıktı. Vakıf pazartesi günü ağın adını Solana mainnet olarak değiştirdi ve Solana 1.0'ı tanıttı. SOL sahipleri için hiçbir şey değişmiyor ve isim değişikliği işlemleri hızlandırmıyor ya da ucuzlatmıyor.
+label: Altcoinler
+summary: Solana Vakfı pazartesi günü "mainnet beta" etiketini kaldırdı ve Solana 1.0'ı tanıttı. SOL bakiyeleri ve uygulamalar aynı kalıyor, kullanıcıların herhangi bir işlem yapmasına gerek yok.
+===
+
+Solana artık "beta" değil. [CoinDesk](L1)'in haberine göre Solana Vakfı pazartesi günü, blokzincirin Mart 2020'deki lansmanından beri taşıdığı "mainnet beta" etiketini emekliye ayırdığını ve ağ kuralları için ortak bir sürüm numarası olan <strong>Solana 1.0</strong>'ı tanıttığını açıkladı. Ağın adı bundan sonra kısaca Solana mainnet olacak.
+
+Değişiklik büyük ölçüde isimler ve numaralarla ilgili. [Decrypt](L3)'in aktardığına göre vakıf, "SOL'leriniz, hesaplarınız, varlıklarınız, uygulamalarınız ve işlem geçmişiniz aynı kalıyor" dedi. Kullanıcıların token değiştirmesine, cüzdan taşımasına ya da bir şey yüklemesine gerek yok.
+
+!takeaways
+- Solana Vakfı 16 Kasım'da, 16 Mart 2020'den beri kullanılan "mainnet beta" adını emekliye ayırdı ve protokol sürümü olarak Solana 1.0'ı benimsedi.
+- SOL bakiyeleri, hesaplar, uygulamalar ve işlem geçmişi değişmiyor; kullanıcıların bir şey yapması gerekmiyor.
+- İsim değişikliği tek başına işlemleri hızlandırmıyor ya da ucuzlatmıyor; son hız kazanımları ekim ayındaki Alpenglow güncellemesinden geldi.
+- CoinGecko verilerine göre SOL pazartesi akşamı yaklaşık 72 $'dan işlem gördü; bu, eylül sonundaki yaklaşık 124 $'lık zirvenin yaklaşık %42 altında.
+
+!figure:timeline
+
+## "Beta" neden önemliydi
+
+Yazılımda "beta" genellikle hâlâ değişebilecek ya da bozulabilecek erken bir sürüm anlamına gelir. Solana, insanlar üzerinde token alıp satarken, uygulama geliştirirken ve varlık taşırken bile bu etiketi altı yıldan uzun süre korudu. CoinDesk'in haberine göre vakıf, Solana'nın "genesis'ten beri canlı bir üretim ağı" olduğunu ve beta etiketinin artık gerçeği yansıtmadığını söyledi.
+
+[The Block](L2)'un aktardığına göre vakıf, "Solana 1.0, ağ performansı, dayanıklılık ve geliştirici deneyimindeki ilerlemeyi tanıyor" diye yazdı.
+
+## Solana 1.0 aslında nedir
+
+Solana, doğrulayıcı (validator) denen bilgisayarlar tarafından çalıştırılır ve bunlar istemci denen farklı yazılımlar kullanabilir. İki büyük istemci, Anza'nın geliştirdiği Agave ile Jump Crypto'nun ayrı olarak geliştirdiği Firedancer. Firedancer, Aralık 2025'te Solana ana ağında devreye girdi. Her istemcinin kendi kodu, sürüm takvimi ve sürüm numaraları var.
+
+Bu da iki farklı yazılım sürümünün aynı ağ kurallarına uyup uymadığını anlamayı zorlaştırabiliyor. Solana 1.0 kuralların kendisine bir numara veriyor; böylece bir Agave sürümü ile bir Firedancer sürümü aynı protokol sürümünü desteklediklerini belirtebiliyor. Decrypt'in haberine göre vakıf, "bir protokol sürümünü duyurmanın ilgili tüm iyileştirmeleri bir anda etkinleştirmediği" uyarısında bulundu; yani operatörlerin yine her istemcinin güncelleme talimatlarını izlemesi gerekiyor.
+
+!mid_cta
+
+## İsim değişikliğinin ardındaki güncellemeler
+
+Vakıf iki yeni değişikliğe dikkat çekti. Doğrulayıcıların bloklar üzerinde nasıl uzlaştığını belirleyen yeni sistem Alpenglow, 21 Ekim'de devreye girdi. Bir ödemenin kesinleşmiş sayıldığı an olan işlem kesinliğini, önceki yaklaşık 12,8 saniyeden yaklaşık 150 milisaniyeye indirmeyi hedefliyor. İkinci ve bağımsız bir istemcinin olması da bir programdaki hatanın tüm doğrulayıcıları çökertmesi gerekmediği anlamına geliyor.
+
+Solana daha önce de güvenilirlik sorunları yaşadı. Decrypt'in hatırlattığına göre ağ Şubat 2024'te yaklaşık beş saat çevrim dışı kaldı; bundan bir yıl önce de yaklaşık 19 saat süren bir kesinti yaşanmıştı. Farklı yazılımlar tek başına ağın çevrim içi kalacağını garanti etmiyor.
+
+[Solana Compass](L4)'ın haberine göre duyuru, 15-17 Kasım tarihlerinde Londra'da düzenlenen yıllık Solana konferansı Breakpoint sırasında geldi.
+
+## SOL sahipleri için ne anlama geliyor
+
+SOL sahiplerinin cüzdanlarında hiçbir şey değişmiyor. Yeni isim, tek başına SOL'ün değerini değiştirmiyor. SOL, geniş çaplı kripto satışında sert düştü: [CoinGecko](L5) saatlik verileri, 15 Kasım Pazar günü yaklaşık 68 $'lık dibin ardından pazartesi akşamı yaklaşık 72 $ seviyesini gösteriyor.
+
+!figure:chart
+
+Yeniyseniz ve SOL'e yatırım yapmak istiyorsanız, birçok yeni başlayan onu [Coinbase](REF) gibi büyük ve düzenlemeye tabi bir borsadan alıyor. Küçük başlayın, çünkü son iki ayın da gösterdiği gibi SOL'ün fiyatı sert dalgalanabiliyor. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Cüzdanların, blok gezginlerinin ve geliştirici araçlarının yeni "mainnet" adını ne kadar hızlı benimseyeceği.
+- Decrypt'e göre kasım ve aralık için planlanan, her biri kendi etkinleştirme adımlarına sahip yeni Agave sürümleri.
+- Trafik artarken ve DTCC gibi büyük şirketler ağı kullanmaya hazırlanırken Solana'nın istikrarını koruyup koruyamayacağı.
+
+!soft: Büyük finans dünyasının neden Solana'ya geldiğini okuyun: [DTCC, 2027'de tokenize hisseleri Solana'ya taşımayı planlıyor](/articles/dtcc-tokenized-stocks-solana-2027-nov-2026).
+
+!end_cta
+
+!disclosure

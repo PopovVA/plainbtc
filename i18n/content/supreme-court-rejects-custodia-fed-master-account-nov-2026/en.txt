@@ -1,0 +1,61 @@
+title: Supreme Court won't hear Custodia's case, leaving the Fed free to deny crypto banks a master account
+page_title: Supreme Court rejects Custodia Bank's appeal over a Fed master account
+description: The U.S. Supreme Court on Monday declined to hear Custodia Bank's case, ending the Wyoming crypto bank's six-year fight for a Federal Reserve master account and leaving the Fed's power to say no intact.
+og_description: The Supreme Court turned down Custodia Bank's appeal on Monday. The ruling it leaves in place says regional Fed banks can refuse a master account even to a legally eligible bank, which matters for every crypto-focused bank.
+label: Regulation
+summary: The Supreme Court declined to hear Custodia Bank's appeal on Monday, ending the Wyoming crypto bank's fight for a Fed master account and confirming the Fed's discretion to refuse one.
+===
+
+The U.S. Supreme Court on Monday declined to hear an appeal from Custodia Bank, a Wyoming bank built around crypto, ending its long fight for direct access to the Federal Reserve's payment system. The case, No. 26-62, appears under "certiorari denied" on the court's [Monday order list](L1).
+
+The justices gave no explanation and noted no dissent, [Quartz](L4) reported, citing Bloomberg. The decision leaves in place a lower-court ruling that regional Federal Reserve banks may turn down a request for a master account even from a bank that is legally eligible for one.
+
+!takeaways
+- The Supreme Court refused on Nov. 16 to review Custodia Bank's challenge to the Kansas City Fed's 2023 decision to deny it a master account.
+- A 2-1 appeals court ruling from Oct. 31, 2025, now stands: the Fed has discretion to say no, even to eligible banks.
+- Custodia first applied in October 2020; the Fed cited a business model "narrowly focused on crypto-asset activities."
+- For everyday crypto users nothing changes overnight, but crypto-focused banks have little legal leverage left if the Fed refuses them.
+
+!figure:timeline
+
+## What a master account is
+
+A master account is a bank's own account at a Federal Reserve bank. It lets the bank hold money directly at the central bank and use payment networks such as Fedwire to move dollars. Without one, a bank has to work through another bank, called a correspondent, to send and receive payments, [Bitcoin Magazine](L3) explained.
+
+Custodia, founded by chief executive Caitlin Long, holds a Wyoming charter as a special purpose depository institution. That charter bars it from making loans and requires it to fully back customer dollar deposits with liquid assets.
+
+## Six years in the making
+
+Custodia applied for a master account at the Federal Reserve Bank of Kansas City in October 2020. After a long wait, it sued the Fed in June 2022. On Jan. 27, 2023, the Kansas City Fed denied the application. According to [SCOTUSblog](L2), the Fed concluded that because Custodia's business model was "narrowly focused on crypto-asset activities," it posed risks "highly likely inconsistent with safe and sound banking practices."
+
+A federal judge in Wyoming sided with the Fed in March 2024. On Oct. 31, 2025, the U.S. Court of Appeals for the 10th Circuit agreed by a 2-1 vote. The majority said a 1980 law stating that Fed services "shall be available" to such banks is about pricing, not a right to an account. Judge Timothy Tymkovich disagreed: "shall means shall," he wrote. When the full court declined to rehear the case in March 2026, he called the denial of a master account "akin to a death sentence" for a bank.
+
+!figure:fact
+
+Custodia asked the Supreme Court to step in this summer. The Trump administration urged the justices not to take the case, Quartz reported, arguing that the law gives reserve banks discretion and pointing to the Fed's newer, limited accounts for banks focused on digital assets.
+
+!mid_cta
+
+## Reactions
+
+Custodia, Long and the Fed Board declined to comment, [American Banker](L5) reported. The Bank Policy Institute, a group that represents large banks and backed the Fed in court, welcomed the outcome. "Access to a Federal Reserve master account is a privilege, not a right," the group said in a [statement](L6).
+
+Not every expert was pleased. Julie Hill, dean of the University of Wyoming College of Law, told American Banker that the ruling "entrenches the idea that the Fed has discretion" and could mean "swings in master account policies and priorities under different administrations."
+
+## What it means for crypto and for you
+
+The case does not ban crypto banks, and it does not change how ordinary people buy or hold crypto. It does confirm that a state charter alone cannot force open the door to the Fed's payment system. The Fed has since floated a "skinny" limited-purpose account, and the Kansas City Fed gave Kraken's banking unit such an account, the first for a digital-asset bank, Quartz reported. Custodia had argued that a limited account would not be enough for its business.
+
+For beginners, the practical takeaway is simple: buying crypto usually happens on a large, regulated exchange such as [Coinbase](REF), funded from an ordinary bank account, not through a specialized crypto bank. This is not investment advice.
+
+## What to watch next
+
+- Whether Custodia, which has not commented, changes its business plan or applies for a limited-purpose account.
+- How many crypto-focused banks receive the Fed's new limited accounts, and on what terms.
+- Whether Congress takes up master-account access, the only route left to change the rules.
+
+!soft: New to how crypto platforms keep your money? Read [is Coinbase safe for beginners?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

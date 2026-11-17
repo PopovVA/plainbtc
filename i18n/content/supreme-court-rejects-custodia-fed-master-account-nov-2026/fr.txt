@@ -1,0 +1,61 @@
+title: La Cour suprême américaine refuse d'examiner l'affaire Custodia et laisse la Fed libre de refuser un compte principal aux banques crypto
+page_title: La Cour suprême rejette le recours de Custodia Bank sur un compte principal à la Fed
+description: La Cour suprême des États-Unis a refusé lundi d'examiner l'affaire Custodia Bank, mettant fin au combat de six ans de cette banque crypto du Wyoming pour obtenir un compte principal à la Réserve fédérale et laissant intact le pouvoir de la Fed de dire non.
+og_description: La Cour suprême a rejeté lundi le recours de Custodia Bank. La décision maintenue dit que les banques régionales de la Fed peuvent refuser un compte principal même à une banque légalement éligible, ce qui concerne toutes les banques tournées vers la crypto.
+label: Régulation
+summary: La Cour suprême a refusé lundi d'examiner le recours de Custodia Bank, mettant fin au combat de la banque crypto du Wyoming pour un compte principal à la Fed et confirmant le pouvoir de la Fed de le refuser.
+===
+
+La Cour suprême des États-Unis a refusé lundi d'examiner un recours de Custodia Bank, une banque du Wyoming bâtie autour des cryptomonnaies, mettant fin à son long combat pour accéder directement au système de paiement de la Réserve fédérale. L'affaire, n° 26-62, figure sous la mention « certiorari refusé » dans la [liste des ordonnances de lundi](L1) de la Cour.
+
+Les juges n'ont donné aucune explication et aucune opinion dissidente n'a été signalée, a rapporté [Quartz](L4) en citant Bloomberg. La décision laisse en place un jugement d'une juridiction inférieure selon lequel les banques régionales de la Réserve fédérale peuvent rejeter une demande de compte principal même venant d'une banque légalement éligible.
+
+!takeaways
+- Le 16 novembre, la Cour suprême a refusé de réexaminer la contestation par Custodia Bank de la décision de 2023 de la Fed de Kansas City de lui refuser un compte principal.
+- Un arrêt d'appel du 31 octobre 2025, rendu par 2 voix contre 1, devient définitif : la Fed peut dire non, même à des banques éligibles.
+- Custodia a déposé sa première demande en octobre 2020 ; la Fed a invoqué un modèle économique « étroitement centré sur les activités liées aux crypto-actifs ».
+- Pour les utilisateurs de crypto, rien ne change du jour au lendemain, mais les banques crypto n'ont presque plus de levier juridique si la Fed les refuse.
+
+!figure:timeline
+
+## Qu'est-ce qu'un compte principal
+
+Un compte principal (« master account ») est le compte propre d'une banque auprès d'une banque de la Réserve fédérale. Il lui permet de détenir de l'argent directement à la banque centrale et d'utiliser des réseaux de paiement comme Fedwire pour transférer des dollars. Sans lui, une banque doit passer par une autre banque, dite correspondante, pour envoyer et recevoir des paiements, a expliqué [Bitcoin Magazine](L3).
+
+Custodia, fondée par sa directrice générale Caitlin Long, dispose d'un agrément du Wyoming en tant qu'établissement de dépôt à vocation spéciale. Cet agrément lui interdit d'accorder des prêts et l'oblige à couvrir intégralement les dépôts en dollars de ses clients par des actifs liquides.
+
+## Six ans de bataille
+
+Custodia a demandé un compte principal à la Federal Reserve Bank de Kansas City en octobre 2020. Après une longue attente, elle a poursuivi la Fed en justice en juin 2022. Le 27 janvier 2023, la Fed de Kansas City a rejeté la demande. Selon [SCOTUSblog](L2), la Fed a conclu que, le modèle de Custodia étant « étroitement centré sur les activités liées aux crypto-actifs », il présentait des risques « très probablement incompatibles avec des pratiques bancaires sûres et saines ».
+
+Un juge fédéral du Wyoming a donné raison à la Fed en mars 2024. Le 31 octobre 2025, la cour d'appel fédérale du 10e circuit a confirmé par 2 voix contre 1. La majorité a estimé qu'une loi de 1980 selon laquelle les services de la Fed « seront accessibles » à ces banques porte sur la tarification, pas sur un droit à un compte. Le juge Timothy Tymkovich n'était pas d'accord : « seront signifie seront », a-t-il écrit. Lorsque la cour en formation plénière a refusé de rejuger l'affaire en mars 2026, il a qualifié le refus d'un compte principal d'« équivalent à une condamnation à mort » pour une banque.
+
+!figure:fact
+
+Custodia a demandé à la Cour suprême d'intervenir cet été. L'administration Trump a exhorté les juges à ne pas se saisir de l'affaire, selon Quartz, en faisant valoir que la loi laisse un pouvoir d'appréciation aux banques de réserve et en citant les nouveaux comptes limités de la Fed pour les banques spécialisées dans les actifs numériques.
+
+!mid_cta
+
+## Réactions
+
+Custodia, Caitlin Long et le conseil de la Fed n'ont pas souhaité commenter, a rapporté [American Banker](L5). Le Bank Policy Institute, qui représente de grandes banques et a soutenu la Fed devant les tribunaux, a salué l'issue. « L'accès à un compte principal de la Réserve fédérale est un privilège, pas un droit », a déclaré l'organisation dans un [communiqué](L6).
+
+Tous les experts ne s'en réjouissent pas. Julie Hill, doyenne de la faculté de droit de l'université du Wyoming, a déclaré à American Banker que la décision « ancre l'idée que la Fed dispose d'un pouvoir discrétionnaire » et pourrait entraîner « des revirements dans les politiques et les priorités en matière de comptes principaux selon les administrations ».
+
+## Ce que cela change pour la crypto et pour vous
+
+L'affaire n'interdit pas les banques crypto et ne change pas la façon dont les particuliers achètent ou conservent des cryptomonnaies. Elle confirme en revanche qu'un agrément d'État ne suffit pas à ouvrir la porte du système de paiement de la Fed. Depuis, la Fed a proposé un compte « allégé » à usage limité, et la Fed de Kansas City en a accordé un à la filiale bancaire de Kraken, une première pour une banque d'actifs numériques, selon Quartz. Custodia affirmait qu'un compte limité ne suffirait pas à son activité.
+
+Pour les débutants, la leçon pratique est simple : on achète généralement de la crypto sur une grande plateforme régulée comme [Coinbase](REF), alimentée depuis un compte bancaire ordinaire, et non par l'intermédiaire d'une banque crypto spécialisée. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Si Custodia, qui n'a pas commenté, change de modèle économique ou demande un compte à usage limité.
+- Combien de banques crypto obtiendront les nouveaux comptes limités de la Fed, et à quelles conditions.
+- Si le Congrès se saisit de l'accès aux comptes principaux, la seule voie qui reste pour changer les règles.
+
+!soft: Vous voulez comprendre comment les plateformes crypto protègent votre argent ? Lisez [Coinbase est-il sûr pour les débutants ?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,61 @@
+title: Mahkamah Agung AS menolak memeriksa kasus Custodia, The Fed tetap bebas menolak master account bagi bank kripto
+page_title: Mahkamah Agung tolak banding Custodia Bank soal master account di The Fed
+description: Mahkamah Agung AS pada Senin menolak memeriksa kasus Custodia Bank, mengakhiri perjuangan enam tahun bank kripto asal Wyoming itu untuk mendapatkan master account di Federal Reserve dan membiarkan wewenang The Fed untuk menolak tetap utuh.
+og_description: Mahkamah Agung menolak banding Custodia Bank pada Senin. Putusan yang tetap berlaku menyatakan bank Fed regional boleh menolak master account bahkan untuk bank yang secara hukum memenuhi syarat, dan ini berdampak pada setiap bank yang berfokus pada kripto.
+label: Regulasi
+summary: Mahkamah Agung menolak memeriksa banding Custodia Bank pada Senin, mengakhiri perjuangan bank kripto asal Wyoming itu untuk master account di The Fed dan menegaskan wewenang The Fed untuk menolaknya.
+===
+
+Mahkamah Agung Amerika Serikat pada Senin menolak memeriksa banding Custodia Bank, bank asal Wyoming yang dibangun di sekitar kripto, sehingga mengakhiri perjuangan panjangnya untuk mendapat akses langsung ke sistem pembayaran Federal Reserve. Perkara No. 26-62 tercantum dengan status "certiorari ditolak" dalam [daftar perintah hari Senin](L1) pengadilan itu.
+
+Para hakim tidak memberi penjelasan dan tidak ada pendapat berbeda yang dicatat, lapor [Quartz](L4) mengutip Bloomberg. Keputusan ini membiarkan berlakunya putusan pengadilan lebih rendah bahwa bank Federal Reserve regional boleh menolak permohonan master account, bahkan dari bank yang secara hukum memenuhi syarat.
+
+!takeaways
+- Pada 16 November, Mahkamah Agung menolak meninjau gugatan Custodia Bank atas keputusan Fed Kansas City pada 2023 yang menolak memberinya master account.
+- Putusan banding tanggal 31 Oktober 2025 dengan suara 2 lawan 1 kini berkekuatan tetap: The Fed boleh menolak, bahkan terhadap bank yang memenuhi syarat.
+- Custodia pertama kali mengajukan permohonan pada Oktober 2020; The Fed menyebut model bisnis yang "berfokus sempit pada aktivitas aset kripto".
+- Bagi pengguna kripto biasa tidak ada yang berubah dalam semalam, tetapi bank yang berfokus pada kripto nyaris tak punya daya tawar hukum jika ditolak The Fed.
+
+!figure:timeline
+
+## Apa itu master account
+
+Master account adalah rekening milik sebuah bank di salah satu bank Federal Reserve. Rekening ini memungkinkan bank menyimpan uang langsung di bank sentral dan memakai jaringan pembayaran seperti Fedwire untuk memindahkan dolar. Tanpa rekening itu, bank harus memakai bank lain, yang disebut bank koresponden, untuk mengirim dan menerima pembayaran, jelas [Bitcoin Magazine](L3).
+
+Custodia, yang didirikan oleh CEO-nya Caitlin Long, memegang izin Wyoming sebagai lembaga penyimpanan dengan tujuan khusus. Izin itu melarangnya memberi pinjaman dan mewajibkan simpanan dolar nasabah dijamin penuh dengan aset likuid.
+
+## Enam tahun berjuang
+
+Custodia mengajukan permohonan master account ke Federal Reserve Bank of Kansas City pada Oktober 2020. Setelah menunggu lama, bank itu menggugat The Fed pada Juni 2022. Pada 27 Januari 2023, Fed Kansas City menolak permohonan tersebut. Menurut [SCOTUSblog](L2), The Fed menyimpulkan bahwa karena model bisnis Custodia "berfokus sempit pada aktivitas aset kripto", risikonya "sangat mungkin tidak sejalan dengan praktik perbankan yang aman dan sehat".
+
+Seorang hakim federal di Wyoming memenangkan The Fed pada Maret 2024. Pada 31 Oktober 2025, Pengadilan Banding AS Sirkuit ke-10 sependapat dengan suara 2 lawan 1. Mayoritas hakim menilai undang-undang tahun 1980 yang menyatakan layanan The Fed "harus tersedia" bagi bank semacam itu mengatur soal harga, bukan hak atas rekening. Hakim Timothy Tymkovich tidak setuju: "harus berarti harus," tulisnya. Ketika pengadilan dalam formasi penuh menolak menyidangkan ulang perkara itu pada Maret 2026, ia menyebut penolakan master account "setara dengan hukuman mati" bagi sebuah bank.
+
+!figure:fact
+
+Custodia meminta Mahkamah Agung turun tangan pada pertengahan tahun ini. Pemerintahan Trump mendesak para hakim agar tidak menerima perkara itu, lapor Quartz, dengan alasan undang-undang memberi bank cadangan keleluasaan dan menunjuk rekening terbatas baru dari The Fed untuk bank yang berfokus pada aset digital.
+
+!mid_cta
+
+## Tanggapan
+
+Custodia, Long, dan Dewan The Fed menolak berkomentar, lapor [American Banker](L5). Bank Policy Institute, kelompok yang mewakili bank-bank besar dan mendukung The Fed di pengadilan, menyambut baik hasil ini. "Akses ke master account Federal Reserve adalah hak istimewa, bukan hak," kata kelompok itu dalam sebuah [pernyataan](L6).
+
+Tidak semua pakar senang. Julie Hill, dekan Fakultas Hukum University of Wyoming, mengatakan kepada American Banker bahwa putusan ini "memperkuat gagasan bahwa The Fed punya keleluasaan" dan bisa berarti "naik-turunnya kebijakan serta prioritas master account di bawah pemerintahan yang berbeda".
+
+## Artinya bagi kripto dan bagi Anda
+
+Perkara ini tidak melarang bank kripto dan tidak mengubah cara orang biasa membeli atau menyimpan kripto. Namun perkara ini menegaskan bahwa izin negara bagian saja tidak cukup untuk membuka pintu sistem pembayaran The Fed. Sejak itu, The Fed mengusulkan rekening tujuan terbatas yang "ramping", dan Fed Kansas City memberikan rekening semacam itu kepada unit perbankan Kraken, yang pertama bagi bank aset digital, lapor Quartz. Custodia berpendapat rekening terbatas tidak akan cukup untuk bisnisnya.
+
+Bagi pemula, pelajaran praktisnya sederhana: membeli kripto biasanya dilakukan di bursa besar yang teregulasi seperti [Coinbase](REF), dengan dana dari rekening bank biasa, bukan lewat bank kripto khusus. Ini bukan saran investasi.
+
+## Yang perlu dipantau
+
+- Apakah Custodia, yang belum berkomentar, mengubah rencana bisnisnya atau mengajukan rekening tujuan terbatas.
+- Berapa banyak bank yang berfokus pada kripto mendapat rekening terbatas baru dari The Fed, dan dengan syarat apa.
+- Apakah Kongres akan membahas akses master account, satu-satunya jalan yang tersisa untuk mengubah aturan.
+
+!soft: Ingin tahu bagaimana platform kripto menjaga uang Anda? Baca [apakah Coinbase aman untuk pemula?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

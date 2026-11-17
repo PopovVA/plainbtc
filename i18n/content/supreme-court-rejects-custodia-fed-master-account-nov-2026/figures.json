@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-custodia-master-account.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline: in October 2020, Custodia applies to the Kansas City Fed for a master account; in January 2023, the Kansas City Fed denies it; in October 2025, the 10th Circuit sides with the Fed by a 2-1 vote; on Nov. 16, 2026, the Supreme Court declines to hear the case",
+      "es": "Cronología: en octubre de 2020, Custodia solicita una cuenta maestra a la Fed de Kansas City; en enero de 2023, la Fed de Kansas City la rechaza; en octubre de 2025, el Décimo Circuito da la razón a la Fed por 2 votos a 1; el 16 de noviembre de 2026, el Tribunal Supremo se niega a revisar el caso",
+      "pt": "Linha do tempo: em outubro de 2020, a Custodia pede uma conta master ao Fed de Kansas City; em janeiro de 2023, o Fed de Kansas City nega o pedido; em outubro de 2025, o 10º Circuito dá razão ao Fed por 2 votos a 1; em 16 de novembro de 2026, a Suprema Corte se recusa a julgar o caso",
+      "fr": "Chronologie : en octobre 2020, Custodia demande un compte principal à la Fed de Kansas City ; en janvier 2023, la Fed de Kansas City refuse ; en octobre 2025, la cour d'appel du 10e circuit donne raison à la Fed par 2 voix contre 1 ; le 16 novembre 2026, la Cour suprême refuse d'examiner l'affaire",
+      "de": "Zeitleiste: Im Oktober 2020 beantragt Custodia ein Master-Konto bei der Fed von Kansas City; im Januar 2023 lehnt die Fed von Kansas City ab; im Oktober 2025 gibt das Berufungsgericht des 10. Bezirks der Fed mit 2 zu 1 Stimmen recht; am 16. November 2026 lehnt der Supreme Court die Annahme des Falls ab",
+      "ru": "Хронология: в октябре 2020 года Custodia подаёт заявку на мастер-счёт в ФРБ Канзас-Сити; в январе 2023 года ФРБ Канзас-Сити отказывает; в октябре 2025 года апелляционный суд 10-го округа поддерживает ФРС 2 голосами против 1; 16 ноября 2026 года Верховный суд отказывается рассматривать дело",
+      "tr": "Zaman çizelgesi: Ekim 2020'de Custodia, Kansas City Fed'e ana hesap başvurusu yapıyor; Ocak 2023'te Kansas City Fed başvuruyu reddediyor; Ekim 2025'te 10. Daire Temyiz Mahkemesi 2'ye 1 oyla Fed'i haklı buluyor; 16 Kasım 2026'da Yüksek Mahkeme davayı görmeyi reddediyor",
+      "id": "Linimasa: Oktober 2020, Custodia mengajukan master account ke Fed Kansas City; Januari 2023, Fed Kansas City menolaknya; Oktober 2025, Pengadilan Banding Sirkuit ke-10 memenangkan Fed dengan suara 2 lawan 1; 16 November 2026, Mahkamah Agung menolak memeriksa perkara itu",
+      "ja": "時系列：2020年10月、Custodiaがカンザスシティ連銀にマスターアカウントを申請、2023年1月、カンザスシティ連銀が却下、2025年10月、第10巡回区控訴裁が2対1で連銀側を支持、2026年11月16日、最高裁が審理を拒否",
+      "ko": "타임라인: 2020년 10월 커스토디아가 캔자스시티 연은에 마스터 계좌 신청, 2023년 1월 캔자스시티 연은이 거부, 2025년 10월 제10순회항소법원이 2대 1로 연준 손을 들어줌, 2026년 11월 16일 연방대법원이 사건 심리 거부"
+    },
+    "caption": {
+      "en": "Source: Supreme Court of the United States; SCOTUSblog; Bitcoin Magazine",
+      "es": "Fuente: Supreme Court of the United States; SCOTUSblog; Bitcoin Magazine",
+      "pt": "Fonte: Supreme Court of the United States; SCOTUSblog; Bitcoin Magazine",
+      "fr": "Source : Supreme Court of the United States; SCOTUSblog; Bitcoin Magazine",
+      "de": "Quelle: Supreme Court of the United States; SCOTUSblog; Bitcoin Magazine",
+      "ru": "Источник: Supreme Court of the United States; SCOTUSblog; Bitcoin Magazine",
+      "tr": "Kaynak: Supreme Court of the United States; SCOTUSblog; Bitcoin Magazine",
+      "id": "Sumber: Supreme Court of the United States; SCOTUSblog; Bitcoin Magazine",
+      "ja": "出典: Supreme Court of the United States; SCOTUSblog; Bitcoin Magazine",
+      "ko": "출처: Supreme Court of the United States; SCOTUSblog; Bitcoin Magazine"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-custodia-cert-denied.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: Custodia Bank v. Federal Reserve Board, No. 26-62, certiorari denied on Nov. 16, 2026. The ruling left in place says regional Fed banks may refuse a master account even to a legally eligible bank",
+      "es": "Ficha: Custodia Bank contra la Junta de la Reserva Federal, n.º 26-62, certiorari denegado el 16 de noviembre de 2026. El fallo que queda en pie dice que los bancos regionales de la Fed pueden negar una cuenta maestra incluso a un banco legalmente elegible",
+      "pt": "Destaque: Custodia Bank contra o Conselho do Federal Reserve, nº 26-62, certiorari negado em 16 de novembro de 2026. A decisão mantida diz que os bancos regionais do Fed podem negar uma conta master até a um banco legalmente elegível",
+      "fr": "Fiche : Custodia Bank contre le conseil de la Réserve fédérale, n° 26-62, certiorari refusé le 16 novembre 2026. La décision maintenue dit que les banques régionales de la Fed peuvent refuser un compte principal même à une banque légalement éligible",
+      "de": "Faktenkarte: Custodia Bank gegen Federal Reserve Board, Nr. 26-62, Certiorari am 16. November 2026 abgelehnt. Das bestehen bleibende Urteil besagt, dass regionale Fed-Banken ein Master-Konto selbst einer rechtlich berechtigten Bank verweigern dürfen",
+      "ru": "Карточка: Custodia Bank против Совета управляющих ФРС, № 26-62, в истребовании дела отказано 16 ноября 2026 года. Оставленное в силе решение гласит, что региональные банки ФРС могут отказать в мастер-счёте даже банку, формально имеющему на него право",
+      "tr": "Bilgi kartı: Custodia Bank - Fed Yönetim Kurulu davası, No. 26-62, 16 Kasım 2026'da certiorari reddedildi. Yürürlükte kalan karara göre bölgesel Fed bankaları, yasal olarak uygun bir bankaya bile ana hesap vermeyi reddedebilir",
+      "id": "Kartu fakta: Custodia Bank melawan Dewan Federal Reserve, No. 26-62, certiorari ditolak pada 16 November 2026. Putusan yang tetap berlaku menyatakan bank Fed regional boleh menolak master account bahkan untuk bank yang secara hukum memenuhi syarat",
+      "ja": "ファクトカード：Custodia Bank対FRB理事会（No. 26-62）、2026年11月16日に上告受理申立てを却下。維持された判決は、法的に適格な銀行に対しても地区連銀がマスターアカウントを拒否できるとする",
+      "ko": "팩트 카드: 커스토디아 은행 대 연준 이사회(No. 26-62), 2026년 11월 16일 상고허가 신청 기각. 유지된 판결은 지역 연은이 법적으로 자격 있는 은행에도 마스터 계좌를 거부할 수 있다고 봄"
+    },
+    "caption": {
+      "en": "Source: Supreme Court of the United States, order list, Nov. 16, 2026",
+      "es": "Fuente: Supreme Court of the United States, order list, Nov. 16, 2026",
+      "pt": "Fonte: Supreme Court of the United States, order list, Nov. 16, 2026",
+      "fr": "Source : Supreme Court of the United States, order list, Nov. 16, 2026",
+      "de": "Quelle: Supreme Court of the United States, order list, Nov. 16, 2026",
+      "ru": "Источник: Supreme Court of the United States, order list, Nov. 16, 2026",
+      "tr": "Kaynak: Supreme Court of the United States, order list, Nov. 16, 2026",
+      "id": "Sumber: Supreme Court of the United States, order list, Nov. 16, 2026",
+      "ja": "出典: Supreme Court of the United States, order list, Nov. 16, 2026",
+      "ko": "출처: Supreme Court of the United States, order list, Nov. 16, 2026"
+    }
+  }
+]

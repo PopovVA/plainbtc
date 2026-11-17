@@ -3093,7 +3093,118 @@ def build_lighter_api_key():
     ]
 
 
+def build_custodia_scotus():
+    slug = "supreme-court-rejects-custodia-fed-master-account-nov-2026"
+    d = OUT / slug
+    # Bitcoin Magazine, SCOTUSblog, Supreme Court order list (Nov 16, 2026).
+    tl = make_timeline_card(
+        d / "timeline-custodia-master-account",
+        "Custodia vs. the Fed",
+        [
+            ("Oct. 2020", "Custodia applies to the Kansas City Fed", (96, 165, 250)),
+            ("Jan. 2023", "Kansas City Fed denies the master account", RED),
+            ("Oct. 2025", "10th Circuit sides with the Fed, 2-1", ORANGE),
+            ("Nov. 16, 2026", "Supreme Court declines to hear the case", RED),
+        ],
+        footer="Supreme Court order list; SCOTUSblog; Bitcoin Magazine",
+        margin=170, wrap_w=250,
+    )
+    card = make_fact_card(
+        d / "fact-custodia-cert-denied",
+        label="Custodia Bank v. Fed Board, No. 26-62",
+        big="Certiorari denied",
+        sub="The ruling left in place: regional Fed banks may refuse a master account even to a legally eligible bank.",
+        footer="Supreme Court order list, Nov. 16, 2026",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: in October 2020, Custodia applies to the Kansas City Fed for a master account; in January 2023, the Kansas City Fed denies it; in October 2025, the 10th Circuit sides with the Fed by a 2-1 vote; on Nov. 16, 2026, the Supreme Court declines to hear the case", {
+            "es": "Cronología: en octubre de 2020, Custodia solicita una cuenta maestra a la Fed de Kansas City; en enero de 2023, la Fed de Kansas City la rechaza; en octubre de 2025, el Décimo Circuito da la razón a la Fed por 2 votos a 1; el 16 de noviembre de 2026, el Tribunal Supremo se niega a revisar el caso",
+            "pt": "Linha do tempo: em outubro de 2020, a Custodia pede uma conta master ao Fed de Kansas City; em janeiro de 2023, o Fed de Kansas City nega o pedido; em outubro de 2025, o 10º Circuito dá razão ao Fed por 2 votos a 1; em 16 de novembro de 2026, a Suprema Corte se recusa a julgar o caso",
+            "fr": "Chronologie : en octobre 2020, Custodia demande un compte principal à la Fed de Kansas City ; en janvier 2023, la Fed de Kansas City refuse ; en octobre 2025, la cour d'appel du 10e circuit donne raison à la Fed par 2 voix contre 1 ; le 16 novembre 2026, la Cour suprême refuse d'examiner l'affaire",
+            "de": "Zeitleiste: Im Oktober 2020 beantragt Custodia ein Master-Konto bei der Fed von Kansas City; im Januar 2023 lehnt die Fed von Kansas City ab; im Oktober 2025 gibt das Berufungsgericht des 10. Bezirks der Fed mit 2 zu 1 Stimmen recht; am 16. November 2026 lehnt der Supreme Court die Annahme des Falls ab",
+            "ru": "Хронология: в октябре 2020 года Custodia подаёт заявку на мастер-счёт в ФРБ Канзас-Сити; в январе 2023 года ФРБ Канзас-Сити отказывает; в октябре 2025 года апелляционный суд 10-го округа поддерживает ФРС 2 голосами против 1; 16 ноября 2026 года Верховный суд отказывается рассматривать дело",
+            "tr": "Zaman çizelgesi: Ekim 2020'de Custodia, Kansas City Fed'e ana hesap başvurusu yapıyor; Ocak 2023'te Kansas City Fed başvuruyu reddediyor; Ekim 2025'te 10. Daire Temyiz Mahkemesi 2'ye 1 oyla Fed'i haklı buluyor; 16 Kasım 2026'da Yüksek Mahkeme davayı görmeyi reddediyor",
+            "id": "Linimasa: Oktober 2020, Custodia mengajukan master account ke Fed Kansas City; Januari 2023, Fed Kansas City menolaknya; Oktober 2025, Pengadilan Banding Sirkuit ke-10 memenangkan Fed dengan suara 2 lawan 1; 16 November 2026, Mahkamah Agung menolak memeriksa perkara itu",
+            "ja": "時系列：2020年10月、Custodiaがカンザスシティ連銀にマスターアカウントを申請、2023年1月、カンザスシティ連銀が却下、2025年10月、第10巡回区控訴裁が2対1で連銀側を支持、2026年11月16日、最高裁が審理を拒否",
+            "ko": "타임라인: 2020년 10월 커스토디아가 캔자스시티 연은에 마스터 계좌 신청, 2023년 1월 캔자스시티 연은이 거부, 2025년 10월 제10순회항소법원이 2대 1로 연준 손을 들어줌, 2026년 11월 16일 연방대법원이 사건 심리 거부",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Supreme Court of the United States; SCOTUSblog; Bitcoin Magazine")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: Custodia Bank v. Federal Reserve Board, No. 26-62, certiorari denied on Nov. 16, 2026. The ruling left in place says regional Fed banks may refuse a master account even to a legally eligible bank", {
+            "es": "Ficha: Custodia Bank contra la Junta de la Reserva Federal, n.º 26-62, certiorari denegado el 16 de noviembre de 2026. El fallo que queda en pie dice que los bancos regionales de la Fed pueden negar una cuenta maestra incluso a un banco legalmente elegible",
+            "pt": "Destaque: Custodia Bank contra o Conselho do Federal Reserve, nº 26-62, certiorari negado em 16 de novembro de 2026. A decisão mantida diz que os bancos regionais do Fed podem negar uma conta master até a um banco legalmente elegível",
+            "fr": "Fiche : Custodia Bank contre le conseil de la Réserve fédérale, n° 26-62, certiorari refusé le 16 novembre 2026. La décision maintenue dit que les banques régionales de la Fed peuvent refuser un compte principal même à une banque légalement éligible",
+            "de": "Faktenkarte: Custodia Bank gegen Federal Reserve Board, Nr. 26-62, Certiorari am 16. November 2026 abgelehnt. Das bestehen bleibende Urteil besagt, dass regionale Fed-Banken ein Master-Konto selbst einer rechtlich berechtigten Bank verweigern dürfen",
+            "ru": "Карточка: Custodia Bank против Совета управляющих ФРС, № 26-62, в истребовании дела отказано 16 ноября 2026 года. Оставленное в силе решение гласит, что региональные банки ФРС могут отказать в мастер-счёте даже банку, формально имеющему на него право",
+            "tr": "Bilgi kartı: Custodia Bank - Fed Yönetim Kurulu davası, No. 26-62, 16 Kasım 2026'da certiorari reddedildi. Yürürlükte kalan karara göre bölgesel Fed bankaları, yasal olarak uygun bir bankaya bile ana hesap vermeyi reddedebilir",
+            "id": "Kartu fakta: Custodia Bank melawan Dewan Federal Reserve, No. 26-62, certiorari ditolak pada 16 November 2026. Putusan yang tetap berlaku menyatakan bank Fed regional boleh menolak master account bahkan untuk bank yang secara hukum memenuhi syarat",
+            "ja": "ファクトカード：Custodia Bank対FRB理事会（No. 26-62）、2026年11月16日に上告受理申立てを却下。維持された判決は、法的に適格な銀行に対しても地区連銀がマスターアカウントを拒否できるとする",
+            "ko": "팩트 카드: 커스토디아 은행 대 연준 이사회(No. 26-62), 2026년 11월 16일 상고허가 신청 기각. 유지된 판결은 지역 연은이 법적으로 자격 있는 은행에도 마스터 계좌를 거부할 수 있다고 봄",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Supreme Court of the United States, order list, Nov. 16, 2026")},
+    ]
+
+
+def build_solana_1_0():
+    slug = "solana-drops-mainnet-beta-solana-1-0-nov-2026"
+    d = OUT / slug
+    # Decrypt, The Block, CoinDesk (Nov 16, 2026).
+    tl = make_timeline_card(
+        d / "timeline-solana-1-0",
+        "Solana: from beta to 1.0",
+        [
+            ("Mar. 16, 2020", "Solana launches as \"mainnet beta\"", (96, 165, 250)),
+            ("Dec. 2025", "Firedancer, a second validator client, goes live", (52, 211, 153)),
+            ("Oct. 21, 2026", "Alpenglow upgrade targets ~150 ms finality", (52, 211, 153)),
+            ("Nov. 16, 2026", "Beta label retired; Solana 1.0", ORANGE),
+        ],
+        footer="Solana Foundation via Decrypt, The Block, CoinDesk",
+        margin=170, wrap_w=250,
+    )
+    # CoinGecko SOL/USD hourly prices, Sep 17 - Nov 16, 2026 (UTC): high about $124.42 on Sep 27, low about $67.86 on Nov 15, about $71.69 at 23:00 UTC Nov 16.
+    xs, ys = fetch_coingecko_range("solana", 1789603200, 1794870000)
+    chart = make_line_chart(
+        d / "chart-sol-price-60d",
+        xs, ys,
+        title="Solana (SOL) price, Sep. 17 - Nov. 16, 2026 (CoinGecko, hourly, USD)",
+        hline=max(ys),
+        hlabel=f"High ≈ ${max(ys):.0f} on Sep. 27 (CoinGecko)",
+        yfmt=lambda x, _p: f"${x:,.0f}",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: on March 16, 2020, Solana launches as mainnet beta; in December 2025, Firedancer, a second validator client, goes live; on Oct. 21, 2026, the Alpenglow upgrade targets about 150 milliseconds finality; on Nov. 16, 2026, the beta label is retired and Solana 1.0 is introduced", {
+            "es": "Cronología: el 16 de marzo de 2020, Solana se lanza como «mainnet beta»; en diciembre de 2025 entra en funcionamiento Firedancer, un segundo cliente de validadores; el 21 de octubre de 2026, la actualización Alpenglow busca una finalidad de unos 150 milisegundos; el 16 de noviembre de 2026 se retira la etiqueta beta y llega Solana 1.0",
+            "pt": "Linha do tempo: em 16 de março de 2020, a Solana é lançada como \"mainnet beta\"; em dezembro de 2025, entra no ar o Firedancer, um segundo cliente de validadores; em 21 de outubro de 2026, a atualização Alpenglow mira uma finalidade de cerca de 150 milissegundos; em 16 de novembro de 2026, o rótulo beta é aposentado e surge a Solana 1.0",
+            "fr": "Chronologie : le 16 mars 2020, Solana est lancé en « mainnet beta » ; en décembre 2025, Firedancer, un second client de validation, est mis en service ; le 21 octobre 2026, la mise à jour Alpenglow vise une finalité d'environ 150 millisecondes ; le 16 novembre 2026, l'étiquette bêta est retirée et Solana 1.0 est lancé",
+            "de": "Zeitleiste: Am 16. März 2020 startet Solana als „Mainnet Beta“; im Dezember 2025 geht Firedancer als zweiter Validator-Client live; am 21. Oktober 2026 zielt das Alpenglow-Upgrade auf eine Finalität von rund 150 Millisekunden; am 16. November 2026 wird das Beta-Label abgelegt und Solana 1.0 eingeführt",
+            "ru": "Хронология: 16 марта 2020 года Solana запускается как «mainnet beta»; в декабре 2025 года начинает работать Firedancer, второй клиент для валидаторов; 21 октября 2026 года обновление Alpenglow нацелено на финальность около 150 миллисекунд; 16 ноября 2026 года метка beta снята, представлена Solana 1.0",
+            "tr": "Zaman çizelgesi: 16 Mart 2020'de Solana \"mainnet beta\" olarak başlıyor; Aralık 2025'te ikinci doğrulayıcı istemcisi Firedancer devreye giriyor; 21 Ekim 2026'da Alpenglow güncellemesi yaklaşık 150 milisaniyelik kesinlik hedefliyor; 16 Kasım 2026'da beta etiketi kaldırılıyor ve Solana 1.0 tanıtılıyor",
+            "id": "Linimasa: 16 Maret 2020, Solana diluncurkan sebagai \"mainnet beta\"; Desember 2025, Firedancer, klien validator kedua, mulai aktif; 21 Oktober 2026, pembaruan Alpenglow menargetkan finalitas sekitar 150 milidetik; 16 November 2026, label beta dihapus dan Solana 1.0 diperkenalkan",
+            "ja": "時系列：2020年3月16日、Solanaが「メインネットベータ」として稼働開始、2025年12月、2つ目のバリデータークライアントFiredancerが稼働、2026年10月21日、Alpenglowアップグレードが約150ミリ秒のファイナリティを目標に、2026年11月16日、ベータ表記を廃止しSolana 1.0を導入",
+            "ko": "타임라인: 2020년 3월 16일 솔라나가 '메인넷 베타'로 출시, 2025년 12월 두 번째 검증자 클라이언트 파이어댄서 가동, 2026년 10월 21일 알펜글로 업그레이드로 약 150밀리초 완결성 목표, 2026년 11월 16일 베타 표기 폐지 및 솔라나 1.0 도입",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Solana Foundation via Decrypt, The Block and CoinDesk")},
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of Solana's SOL price on CoinGecko from Sep. 17 to Nov. 16, 2026: about $99 in mid-September, a high of about $124 on Sep. 27, then a steady slide to a low of about $68 on Nov. 15 and about $72 on Nov. 16", {
+            "es": "Gráfico de líneas del precio de SOL de Solana en CoinGecko del 17 de septiembre al 16 de noviembre de 2026: unos 99 dólares a mediados de septiembre, un máximo de unos 124 el 27 de septiembre y después una caída constante hasta un mínimo de unos 68 el 15 de noviembre y unos 72 el 16 de noviembre",
+            "pt": "Gráfico de linha do preço do SOL, da Solana, na CoinGecko de 17 de setembro a 16 de novembro de 2026: cerca de US$ 99 em meados de setembro, máxima de cerca de US$ 124 em 27 de setembro e depois queda contínua até a mínima de cerca de US$ 68 em 15 de novembro e cerca de US$ 72 em 16 de novembro",
+            "fr": "Courbe du cours du SOL de Solana sur CoinGecko du 17 septembre au 16 novembre 2026 : environ 99 dollars mi-septembre, un plus haut d'environ 124 le 27 septembre, puis une baisse continue jusqu'à un plus bas d'environ 68 le 15 novembre et environ 72 le 16 novembre",
+            "de": "Liniendiagramm des SOL-Kurses von Solana bei CoinGecko vom 17. September bis 16. November 2026: rund 99 $ Mitte September, ein Hoch von rund 124 $ am 27. September, danach ein stetiger Rückgang auf ein Tief von rund 68 $ am 15. November und rund 72 $ am 16. November",
+            "ru": "Линейный график цены SOL сети Solana по данным CoinGecko с 17 сентября по 16 ноября 2026 года: около $99 в середине сентября, максимум около $124 27 сентября, затем плавное снижение до минимума около $68 15 ноября и около $72 16 ноября",
+            "tr": "Solana'nın SOL fiyatının 17 Eylül - 16 Kasım 2026 arasında CoinGecko'daki çizgi grafiği: eylül ortasında yaklaşık 99 $, 27 Eylül'de yaklaşık 124 $ ile zirve, ardından 15 Kasım'da yaklaşık 68 $'lık dibe ve 16 Kasım'da yaklaşık 72 $'a istikrarlı düşüş",
+            "id": "Grafik garis harga SOL milik Solana di CoinGecko dari 17 September hingga 16 November 2026: sekitar US$99 pada pertengahan September, puncak sekitar US$124 pada 27 September, lalu turun terus ke titik terendah sekitar US$68 pada 15 November dan sekitar US$72 pada 16 November",
+            "ja": "2026年9月17日～11月16日のCoinGeckoにおけるSolanaのSOL価格の折れ線グラフ：9月中旬に約99ドル、9月27日に約124ドルの高値、その後じりじりと下落し11月15日に約68ドルの安値、11月16日は約72ドル",
+            "ko": "2026년 9월 17일~11월 16일 CoinGecko 기준 솔라나 SOL 가격 선 차트: 9월 중순 약 99달러, 9월 27일 약 124달러 고점, 이후 꾸준히 하락해 11월 15일 약 68달러 저점, 11월 16일 약 72달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="CoinGecko SOL/USD hourly prices")},
+    ]
+
+
 BUILDERS = {
+    "supreme-court-rejects-custodia-fed-master-account-nov-2026": "custodia",
+    "solana-drops-mainnet-beta-solana-1-0-nov-2026": "sol10",
     "lighter-dex-10-4-million-leaked-api-key-nov-2026": "lighter",
     "strategy-buys-485-bitcoin-strive-251-nov-2026": "mstr485",
     "crypto-fear-greed-index-10-extreme-fear-nov-2026": "fng10",
@@ -3240,6 +3351,10 @@ def build_slug(slug: str, btc=None):
         figs = build_fear_greed_10()
     elif key == "lighter":
         figs = build_lighter_api_key()
+    elif key == "custodia":
+        figs = build_custodia_scotus()
+    elif key == "sol10":
+        figs = build_solana_1_0()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

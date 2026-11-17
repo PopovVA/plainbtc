@@ -32,6 +32,16 @@ FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 ARTICLES = [
     (
+        "supreme-court-rejects-custodia-fed-master-account-nov-2026",
+        "Supreme Court won't hear crypto bank Custodia's fight for a Fed account",
+        "REGULATION",
+    ),
+    (
+        "solana-drops-mainnet-beta-solana-1-0-nov-2026",
+        "Solana drops its \"mainnet beta\" label after six years and calls the network Solana 1.0",
+        "ALTCOINS",
+    ),
+    (
         "lighter-dex-10-4-million-leaked-api-key-nov-2026",
         "Lighter freezes withdrawals after a leaked API key lets an attacker take $10.4M",
         "SECURITY",
@@ -245,6 +255,15 @@ ARTICLES = [
 # used for identification only). Each entry: (image URL, tile background RGB).
 WIKI = "https://upload.wikimedia.org/wikipedia/commons/"
 OG_LOGOS: dict[str, list[tuple[str, tuple[int, int, int]]]] = {
+    # Seals of the U.S. Supreme Court and the Federal Reserve Board (public domain, Wikimedia Commons), identification only.
+    "supreme-court-rejects-custodia-fed-master-account-nov-2026": [
+        (WIKI + "f/f3/Seal_of_the_United_States_Supreme_Court.svg", (255, 255, 255)),
+        (WIKI + "7/73/Seal_of_the_United_States_Federal_Reserve_Board.svg", (255, 255, 255)),
+    ],
+    # Solana logo (as used for the DTCC/Solana article), identification only.
+    "solana-drops-mainnet-beta-solana-1-0-nov-2026": [
+        ("https://cryptologos.cc/logos/solana-sol-logo.svg", (0, 0, 0)),
+    ],
     # Lighter logo (official token logo as listed on CoinGecko; project site lighter.xyz), identification only.
     "lighter-dex-10-4-million-leaked-api-key-nov-2026": [
         ("https://coin-images.coingecko.com/coins/images/71121/large/lighter.png", (6, 6, 6)),
