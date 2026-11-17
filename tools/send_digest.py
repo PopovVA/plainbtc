@@ -16,6 +16,7 @@ Requirements
   Articles must be deployed (live on plainbtc.com) before sending: images/links are checked with HEAD.
 
 Usage
+  python3 tools/send_digest.py --preview                 # write /tmp/digest-preview-<lang>.html for all languages (no secrets, sends nothing)
   python3 tools/send_digest.py --dry-run                 # show who/what would be sent, write HTML previews to /tmp
   python3 tools/send_digest.py --test-to me@example.com  # send ONE test mail (state untouched); --lang ru to pick a language
   python3 tools/send_digest.py --send                    # real send to all confirmed subscribers, updates state
@@ -30,7 +31,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from newsletter_lib import (NL, ROOT, SITE, TEXT, MUTED, ACCENT, BORDER, BG, button, esc, home_url, layout)  # noqa: E402
+from newsletter_lib import (NL, ROOT, SITE, INK, INK2, ACCENT_INK, CARD, LINE, MONO, esc, font, layout)  # noqa: E402
 
 SB_URL = "https://ygilpnmqkduzhdkxdyxj.supabase.co"
 SB_ANON = ("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlnaWxwbm1xa2R1emhka3hkeXhqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgyMjM1MjcsImV4cCI6MjEwMzc5OTUyN30.K7vRkMkkjfy7ba5JVXzYGLUjkp2FX7SbTfvPmyJS9GQ")
@@ -136,25 +137,39 @@ def article_url(lang: str, slug: str, campaign: str) -> str:
 # ---------------------------------------------------------------- rendering
 def render(lang: str, slugs: list[str], unsub_url: str, campaign: str, day: str) -> tuple[str, str, str]:
     s = NL[lang]
+    ff = font(lang)
+    cjk = lang in ("ja", "ko")
     items_html, items_txt = [], []
-    for slug in slugs:
+    for i, slug in enumerate(slugs):
         head = read_head(slug, lang) or read_head(slug, "en")
         eff_lang = lang if read_head(slug, lang) else "en"
         url = article_url(eff_lang, slug, campaign)
         img = image_url(slug)
+        hf = font(eff_lang)
+        kicker = (f'<p style="margin:0 0 10px;font-family:{MONO};font-size:11px;font-weight:700;line-height:1.5;letter-spacing:0.05em;'
+                  f'text-transform:uppercase;color:{ACCENT_INK};">{esc(head["label"])}</p>') if head.get("label") else ""
+        gap = '<div style="height:20px;line-height:20px;font-size:20px;">&nbsp;</div>' if i else ""
+        # .card: thumbnail on top, then .card-body (kicker, h3, summary, read-more)
         items_html.append(
-            f'<tr><td style="padding:0 0 22px;">'
-            f'<a href="{esc(url)}"><img src="{esc(img)}" width="552" alt="" style="display:block;width:100%;max-width:552px;height:auto;border-radius:8px;border:0;"></a>'
-            f'<h2 style="margin:12px 0 6px;font-size:18px;line-height:1.35;"><a href="{esc(url)}" style="color:{TEXT};text-decoration:none;">{esc(head["title"])}</a></h2>'
-            f'<p style="margin:0 0 8px;font-size:15px;line-height:1.55;color:{MUTED};">{esc(head.get("summary", ""))}</p>'
-            f'<a href="{esc(url)}" style="font-size:14px;font-weight:600;color:{ACCENT};text-decoration:none;">{esc(s["digest_read"])}</a>'
-            f'</td></tr>')
+            f'{gap}<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="{CARD}" '
+            f'style="background:{CARD};border:1px solid {LINE};border-radius:14px;border-collapse:separate;">'
+            f'<tr><td style="padding:0;font-size:0;line-height:0;background:#0b1630;border-radius:13px 13px 0 0;">'
+            f'<a href="{esc(url)}"><img src="{esc(img)}" width="598" alt="{esc(head["title"])}" '
+            f'style="display:block;width:100%;max-width:598px;height:auto;border:0;border-radius:13px 13px 0 0;color:#f3eee2;font-family:{hf};font-size:15px;"></a></td></tr>'
+            f'<tr><td class="pb-pad" style="padding:20px 24px 22px;">'
+            f'{kicker}'
+            f'<h3 class="pb-h3" style="margin:0 0 10px;font-family:{hf};font-size:21px;font-weight:700;line-height:{"1.35" if cjk else "1.2"};letter-spacing:-0.012em;">'
+            f'<a href="{esc(url)}" style="color:{INK};text-decoration:none;">{esc(head["title"])}</a></h3>'
+            f'<p style="margin:0 0 16px;font-family:{hf};font-size:16px;line-height:{"1.7" if cjk else "1.5"};color:{INK2};">{esc(head.get("summary", ""))}</p>'
+            f'<a href="{esc(url)}" style="font-family:{MONO};font-size:11.5px;font-weight:700;line-height:1;letter-spacing:0.09em;text-transform:uppercase;'
+            f'color:{INK};text-decoration:underline;text-decoration-color:#f7931a;text-underline-offset:4px;">{esc(s["digest_read"])}</a>'
+            f'</td></tr></table>')
         items_txt.append(f'{head["title"]}\n{head.get("summary", "")}\n{s["digest_read"]} {url}\n')
-    inner = (f'<p style="margin:0 0 18px;font-size:15px;line-height:1.5;color:{TEXT};">{esc(s["digest_intro"])}</p>'
-             f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0">{"".join(items_html)}</table>')
+    inner = (f'<p style="margin:0 0 20px;font-family:{ff};font-size:18px;line-height:{"1.7" if cjk else "1.5"};color:{INK2};">{esc(s["digest_intro"])}</p>'
+             + "".join(items_html))
     subject = s["digest_subject"].format(date=day)
     html = layout(lang, s["digest_intro"], inner, [esc(s["digest_why"]), esc(s["digest_note"])], unsub_url, s["unsub_label"])
-    text = (s["digest_intro"] + "\n\n" + "\n".join(items_txt) + f'\n--\n{s["digest_why"]}\n{s["digest_note"]}\n{s["unsub_label"]}: {unsub_url}\n')
+    text = (s["digest_intro"] + "\n\n" + "\n".join(items_txt) + f'\n* * *\n{s["digest_why"]}\n{s["digest_note"]}\n{s["unsub_label"]}: {unsub_url}\n')
     return subject, html, text
 
 
@@ -184,6 +199,8 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--send", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--preview", action="store_true",
+                    help="write /tmp/digest-preview-<lang>.html (+ confirm-preview-<lang>.html) for every language; sends nothing")
     ap.add_argument("--test-to")
     ap.add_argument("--lang", default="en")
     ap.add_argument("--baseline", action="store_true")
@@ -193,6 +210,22 @@ def main():
     ap.add_argument("--max-articles", type=int, default=5)
     ap.add_argument("--slugs", help="comma-separated slugs to force (test/dry-run only)")
     a = ap.parse_args()
+
+    if a.preview:
+        from newsletter_lib import confirm_email
+        slugs = a.slugs.split(",") if a.slugs else [x["slug"] for x in all_articles()][:a.max_articles]
+        day = date.today().isoformat()
+        unsub = f"{SITE}/api/unsubscribe?token=" + "0" * 48
+        for lang in NL:
+            subj, html, _ = render(lang, slugs, unsub, f"digest-{day}", day)
+            Path(f"/tmp/digest-preview-{lang}.html").write_text(html, encoding="utf-8")
+            _, chtml, _ = confirm_email(lang)
+            Path(f"/tmp/confirm-preview-{lang}.html").write_text(
+                chtml.replace("{{confirm_url}}", f"{SITE}/api/confirm?token=preview").replace("{{unsubscribe_url}}", unsub), encoding="utf-8")
+            print(f"[{lang}] {subj}  -> /tmp/digest-preview-{lang}.html, /tmp/confirm-preview-{lang}.html")
+        print("preview only: nothing sent")
+        return
+
     tok = admin_token()
 
     if a.stats:
