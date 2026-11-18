@@ -1,0 +1,61 @@
+title: Hâkim, Ethereum alım satım botlarından 25 milyon $ alınan davada MIT'li kardeşleri beraat ettirdi; ABD'deki ilk MEV ceza davası sona erdi
+page_title: 25 milyon $'lık Ethereum MEV davasında kardeşlere beraat: Karar ne anlama geliyor
+description: Bir federal hâkim, Anton ve James Peraire-Bueno'yu, 2023'te Ethereum alım satım botlarından 12 saniyede yaklaşık 25 milyon $ alan bir işlem nedeniyle elektronik dolandırıcılık ve kara para aklama komplosu suçlamalarından beraat ettirdi. Ne oldu ve neden.
+og_description: Manhattan'daki bir federal hâkim, Ethereum alım satım botlarından yaklaşık 25 milyon $ almakla suçlanan MIT eğitimli iki kardeşi, savcılığın bir yalanı kanıtlayamadığına hükmederek beraat ettirdi. MEV nedir, işlem nasıl yapıldı, sizin için ne anlama geliyor.
+label: Düzenleme
+summary: Bir federal hâkim, 2023'te Ethereum alım satım botlarından 12 saniyede yaklaşık 25 milyon $ alan bir işlem nedeniyle Anton ve James Peraire-Bueno'yu, savcılığın önemli bir yalanı kanıtlayamadığına hükmederek beraat ettirdi. Böylece bir MEV istismarına ilişkin ABD'deki ilk ceza davası sona erdi.
+===
+
+Manhattan'daki bir federal hâkim, otomatik Ethereum alım satım botlarından 12 saniyede yaklaşık 25 milyon $ almakla suçlanan iki kardeşi beraat ettirdi. [CoinDesk'in](L1) karara dayanarak bildirdiğine göre Bölge Hâkimi Jessica Clarke, 16 Kasım 2026'da Anton ve James Peraire-Bueno hakkında elektronik dolandırıcılık, elektronik dolandırıcılık komplosu ve kara para aklama komplosu suçlamalarından beraat kararı verdi.
+
+Karar, hükümetin "türünün ilk örneği" dediği bir MEV kovuşturmasını kapatıyor. MEV, bir blokzincirde işlemlerin sırasından kâr elde etmenin bir yolu. Karar, jürinin anlaşamaması ve hâkimin Kasım 2025'te davayı geçersiz ilan etmesinden bir yıl sonra geldi.
+
+!takeaways
+- Hâkim Jessica Clarke, 16 Kasım'da Peraire-Bueno kardeşleri tüm suçlamalardan beraat ettirdi ve davanın kapatılmasını emretti.
+- Savcılığa göre kardeşler Nisan 2023'te alım satım botlarına tuzak kurdu ve bir yazılım açığını kullanarak 12 saniyede yaklaşık 25 milyon $ aldı.
+- Hâkim, hükümetin elektronik dolandırıcılık için gereken "önemli bir yanlış beyanı", yani önemli bir yalanı kanıtlayamadığına hükmetti.
+- Karar işlemin doğru olduğunu söylemiyor. Savcılığın kullandığı yasaya göre bunun elektronik dolandırıcılık olmadığını söylüyor.
+
+!figure:timeline
+
+## Basitçe MEV nedir
+
+Ethereum'da bir işlem gönderdiğinizde, işlem önce mempool adlı herkese açık bir kuyrukta, bir sonraki bloğu eklemek için seçilen ağ katılımcısı olan bir doğrulayıcı onu bloğa alana kadar bekler. MEV, yani "maksimum çıkarılabilir değer", bir bloktaki işlemlerin sırasını kontrol eden kişinin elde edebileceği ek kârdır.
+
+Pek çok alım satım botu bu kârın peşine "sandviç" yöntemiyle düşer. Bot bekleyen büyük bir alımı fark eder, aynı tokeni hemen öncesinde alır, bu alımın fiyatı yükseltmesine izin verir ve hemen ardından satar. Ortada kalan kişi daha kötü bir fiyat alır.
+
+## İşlem nasıl yapıldı
+
+CoinDesk'in aktardığı mahkeme kararına göre kardeşler Nisan 2023'te bir tuzak kurdu. Sandviç botlarını çekmek için tasarlanmış sekiz yem işlem yerleştirdiler. Kendi doğrulayıcılarının sırası geldiğinde, Ultrasound adlı bir aktarıcı (relay) ona botların işlemleriyle dolu bir blok sundu. Doğrulayıcı, bloğun bir tür özeti olan başlığını iki kritik alanı sıfır olarak imzaladı. Aktarıcı bu alanları kontrol etmedi ve bloğun içeriğini yine de açığa çıkardı.
+
+Botların işlemlerini gören kardeşler kendi bloklarını oluşturdu. Botların alımlarını korudular ama yemleri, botlar satamadan fiyatı çökerten satışlarla değiştirdiler. Botlar yaklaşık 25 milyon $ kaybetti. Kardeşlerin doğrulayıcısı yaklaşık 1 ether cezaya çarptırıldı. Plan "Omakase" adıyla biliniyordu. Kardeşlerin hukuk bürosu [Williams & Connolly'ye](L2) göre savcılık, planın Ethereum doğrulayıcılarının çoğunun kullandığı açık kaynaklı MEV-Boost yazılımındaki bir açığı istismar ettiğini öne sürdü.
+
+!figure:fact
+
+## Hâkim neden dolandırıcılık olmadığını söyledi
+
+Elektronik dolandırıcılık, önemli bir yanlış beyan, yani birinin güvendiği bir yalan gerektirir. Hâkim Clarke böyle bir yalan bulamadı. Yem işlemler hiçbir şey vaat etmiyordu, diye yazdı, çünkü "herkese açık mempool'a işlem gönderen hiçbir yatırımcı sandviçlenmeyi kabul etmez". Sahte imza da sayılmadı, çünkü aktarıcı sıfırlanan alanları hiç kontrol etmedi; bu yüzden imza "alıcısının davranışı üzerinde hiçbir etki yaratmadı".
+
+Ethereum'u "güven gerektirmeyen, son derece çekişmeli ve kullanım koşulları olmayan bir ortam" olarak tanımladı. Kararının sınırlarını da netleştirdi: [BleepingComputer'ın](L4) aktardığına göre "Mahkemenin önündeki soru, Peraire-Bueno'ların davranışının doğru ya da ahlaki olup olmadığı, hatta suçlanmadıkları suçları ihlal edip etmediği değildir" diye yazdı. Dolandırıcılık suçlamaları düşünce, kara para aklama komplosu suçlaması da düştü.
+
+!mid_cta
+
+## Şimdiye kadar dava
+
+MIT'de okuyan kardeşler Mayıs 2024'te suçlandı. Williams & Connolly'ye göre 2025 sonlarında yaklaşık dört hafta süren yargılamanın ardından jüri karar üzerinde anlaşamadı. CoinDesk'e göre elde edilen paranın yaklaşık 3 milyon $'ını tutan yalnızca bir cüzdan donduruldu ve kardeşler geri kalanını Ekim 2023'e kadar taşımıştı. [The Block](L3), hâkimin işlemlerin bu tür davranışların yasak olduğu düzenlenmiş bir piyasada yapılmadığına da dikkat çektiğini belirtti. Hükümetin karara itiraz etmeye çalışıp çalışmayacağı henüz belli değil.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Sıradan kripto kullanıcıları için ana ders pratik. Ethereum gibi blokzincirlerde merkeziyetsiz alım satım, hâkimin deyişiyle çekişmeli bir ortam ve sandviç botları hâlâ var. Merkeziyetsiz bir borsada token takası yapıyorsanız kayma (slippage) toleransınızı düşük tutun ve likiditesi düşük piyasalarda büyük işlemlere dikkat edin. Botlar ve mempool'larla uğraşmadan sadece biraz kripto sahibi olmak istiyorsanız, pek çok yeni başlayan bunun yerine [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsadan alıyor. Her kripto alımı değer kaybedebilir, bu yüzden yalnızca kaybetmeyi göze alabileceğiniz parayı kullanın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Savcılığın beraat kararına itiraz etmeye çalışıp çalışmayacağı.
+- MEV ile ilgili başka davaların farklı yasalar kapsamında açılıp açılmayacağı.
+- Kararın gelecekteki kripto dolandırıcılık davalarında nasıl atıf göreceği.
+
+!soft: Coinlerinizi güvende tutmak mı istiyorsunuz? [Kripto cüzdan nedir: emanetçi ve kişisel saklama](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

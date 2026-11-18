@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-russia-crypto-rules.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline of Russia's crypto rollout: Sept. 1, 2026, the crypto market law takes effect; Nov. 17, ordinary investors may buy bitcoin, ether and USDT; Nov. 22, exchanges may open organized trading; Dec. 1, Moscow Exchange plans a pilot; July 1, 2027, peer-to-peer crypto trading is banned",
+      "es": "Cronología del despliegue cripto en Rusia: 1 de septiembre de 2026, entra en vigor la ley del mercado cripto; 17 de noviembre, los inversores minoristas pueden comprar bitcoin, ether y USDT; 22 de noviembre, las bolsas pueden abrir la negociación organizada; 1 de diciembre, la Bolsa de Moscú prevé un piloto; 1 de julio de 2027, se prohíbe el comercio cripto entre particulares",
+      "pt": "Linha do tempo da abertura cripto na Rússia: 1º de setembro de 2026, entra em vigor a lei do mercado cripto; 17 de novembro, investidores comuns podem comprar bitcoin, ether e USDT; 22 de novembro, bolsas podem abrir negociação organizada; 1º de dezembro, a Bolsa de Moscou planeja um piloto; 1º de julho de 2027, o comércio cripto P2P é proibido",
+      "fr": "Chronologie de l'ouverture crypto en Russie : 1er septembre 2026, entrée en vigueur de la loi sur le marché crypto ; 17 novembre, les particuliers peuvent acheter du bitcoin, de l'ether et de l'USDT ; 22 novembre, les bourses peuvent ouvrir des échanges organisés ; 1er décembre, pilote prévu à la Bourse de Moscou ; 1er juillet 2027, interdiction des échanges crypto entre particuliers",
+      "de": "Zeitleiste der Krypto-Öffnung in Russland: 1. September 2026, das Kryptomarktgesetz tritt in Kraft; 17. November, Privatanleger dürfen Bitcoin, Ether und USDT kaufen; 22. November, Börsen dürfen den organisierten Handel öffnen; 1. Dezember, Pilotstart an der Moskauer Börse geplant; 1. Juli 2027, Peer-to-Peer-Kryptohandel wird verboten",
+      "ru": "Хронология криптореформы в России: 1 сентября 2026 года вступает в силу закон о криптовалютном рынке; 17 ноября неквалифицированные инвесторы могут покупать биткоин, эфир и USDT; 22 ноября биржи могут открыть организованные торги; 1 декабря Мосбиржа планирует пилотный запуск; 1 июля 2027 года запрещается P2P-торговля криптовалютой",
+      "tr": "Rusya'da kripto açılımının zaman çizelgesi: 1 Eylül 2026, kripto piyasası yasası yürürlüğe girer; 17 Kasım, bireysel yatırımcılar bitcoin, ether ve USDT alabilir; 22 Kasım, borsalar organize işlemleri açabilir; 1 Aralık, Moskova Borsası pilot planlıyor; 1 Temmuz 2027, eşler arası kripto ticareti yasaklanıyor",
+      "id": "Linimasa pembukaan kripto di Rusia: 1 September 2026, undang-undang pasar kripto berlaku; 17 November, investor ritel boleh membeli bitcoin, ether, dan USDT; 22 November, bursa boleh membuka perdagangan terorganisasi; 1 Desember, Bursa Moskow merencanakan uji coba; 1 Juli 2027, perdagangan kripto peer-to-peer dilarang",
+      "ja": "ロシアの暗号資産解禁の時系列：2026年9月1日、暗号資産市場法が施行、11月17日、一般投資家がビットコイン、イーサ、USDTを購入可能に、11月22日、取引所が組織的な取引を開始可能に、12月1日、モスクワ取引所が試験運用を予定、2027年7月1日、個人間（P2P）の暗号資産取引を禁止",
+      "ko": "러시아 암호화폐 개방 타임라인: 2026년 9월 1일 암호화폐 시장법 시행, 11월 17일 일반 투자자의 비트코인·이더·USDT 매수 허용, 11월 22일 거래소의 조직화된 거래 개시 허용, 12월 1일 모스크바 거래소 시범 운영 예정, 2027년 7월 1일 개인 간(P2P) 암호화폐 거래 금지"
+    },
+    "caption": {
+      "en": "Source: Bank of Russia, Cointelegraph, Bitcoin Magazine",
+      "es": "Fuente: Bank of Russia, Cointelegraph, Bitcoin Magazine",
+      "pt": "Fonte: Bank of Russia, Cointelegraph, Bitcoin Magazine",
+      "fr": "Source : Bank of Russia, Cointelegraph, Bitcoin Magazine",
+      "de": "Quelle: Bank of Russia, Cointelegraph, Bitcoin Magazine",
+      "ru": "Источник: Bank of Russia, Cointelegraph, Bitcoin Magazine",
+      "tr": "Kaynak: Bank of Russia, Cointelegraph, Bitcoin Magazine",
+      "id": "Sumber: Bank of Russia, Cointelegraph, Bitcoin Magazine",
+      "ja": "出典: Bank of Russia, Cointelegraph, Bitcoin Magazine",
+      "ko": "출처: Bank of Russia, Cointelegraph, Bitcoin Magazine"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-300000-ruble-cap.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: under the Bank of Russia rule in force since Nov. 17, ordinary investors can buy up to 300,000 rubles a year through each intermediary, only bitcoin, ether and USDT, after passing a knowledge test",
+      "es": "Tarjeta de datos: según la norma del Banco de Rusia vigente desde el 17 de noviembre, los inversores minoristas pueden comprar hasta 300.000 rublos al año por intermediario, solo bitcoin, ether y USDT, tras aprobar un test de conocimientos",
+      "pt": "Cartão de dados: pela regra do Banco da Rússia em vigor desde 17 de novembro, investidores comuns podem comprar até 300.000 rublos por ano em cada intermediário, apenas bitcoin, ether e USDT, após passar em um teste de conhecimento",
+      "fr": "Fiche chiffrée : selon la règle de la Banque de Russie en vigueur depuis le 17 novembre, les particuliers peuvent acheter jusqu'à 300 000 roubles par an et par intermédiaire, uniquement du bitcoin, de l'ether et de l'USDT, après un test de connaissances",
+      "de": "Faktenkarte: Nach der seit 17. November geltenden Regel der Bank von Russland dürfen Privatanleger pro Vermittler bis zu 300.000 Rubel im Jahr kaufen, nur Bitcoin, Ether und USDT, nach einem Wissenstest",
+      "ru": "Карточка: по указанию Банка России, действующему с 17 ноября, неквалифицированные инвесторы могут покупать через одного посредника не более чем на 300 000 рублей в год, только биткоин, эфир и USDT, после прохождения теста",
+      "tr": "Bilgi kartı: Rusya Merkez Bankası'nın 17 Kasım'dan beri yürürlükte olan kuralına göre bireysel yatırımcılar, bilgi testini geçtikten sonra aracı kurum başına yılda en fazla 300.000 ruble değerinde yalnızca bitcoin, ether ve USDT alabilir",
+      "id": "Kartu fakta: menurut aturan Bank Rusia yang berlaku sejak 17 November, investor ritel boleh membeli hingga 300.000 rubel per tahun melalui setiap perantara, hanya bitcoin, ether, dan USDT, setelah lulus tes pengetahuan",
+      "ja": "ファクトカード：11月17日施行のロシア中央銀行の規則では、一般投資家は知識テストに合格した後、仲介業者1社あたり年30万ルーブルまで、ビットコイン、イーサ、USDTのみを購入できる",
+      "ko": "팩트 카드: 11월 17일 시행된 러시아 중앙은행 규정에 따라 일반 투자자는 지식 테스트를 통과한 뒤 중개업체 한 곳당 연 30만 루블까지 비트코인, 이더, USDT만 살 수 있다"
+    },
+    "caption": {
+      "en": "Source: Bank of Russia",
+      "es": "Fuente: Bank of Russia",
+      "pt": "Fonte: Bank of Russia",
+      "fr": "Source : Bank of Russia",
+      "de": "Quelle: Bank of Russia",
+      "ru": "Источник: Bank of Russia",
+      "tr": "Kaynak: Bank of Russia",
+      "id": "Sumber: Bank of Russia",
+      "ja": "出典: Bank of Russia",
+      "ko": "출처: Bank of Russia"
+    }
+  }
+]

@@ -1,0 +1,63 @@
+title: Russia lets ordinary investors buy bitcoin, ether and USDT, capped at 300,000 rubles a year
+page_title: Russia opens bitcoin, ether and USDT to retail investors: the 300,000-ruble cap explained
+description: Since Nov. 17, ordinary Russian investors may buy bitcoin, ether and USDT through licensed brokers, capped at 300,000 rubles a year per intermediary after a knowledge test. Big brokers are not ready yet. Here is what changed.
+og_description: A Bank of Russia rule in force since Nov. 17 lets ordinary investors buy bitcoin, ether and USDT through licensed intermediaries, up to 300,000 rubles a year each, after a test. What is allowed, what is banned and what comes next.
+label: Regulation
+summary: A Bank of Russia rule that took effect Nov. 17 lets ordinary investors buy bitcoin, ether and USDT through licensed intermediaries, up to 300,000 rubles a year per intermediary after a knowledge test. Big brokers T-Bank and VTB are still testing.
+===
+
+Russia has opened the door for ordinary people to buy cryptocurrency through regulated companies. A Bank of Russia ordinance that took effect on Nov. 17, 2026 lets "non-qualified" investors, the legal term for everyday retail buyers, purchase bitcoin, ether and the dollar-pegged stablecoin USDT, the [central bank said](L1).
+
+There are limits. Purchases through any single intermediary are capped at 300,000 rubles per year, roughly $3,600 at the central bank's official rate on Tuesday, according to [Bitcoin Magazine](L2). Every buyer must also pass a knowledge test and read a risk warning before the first trade.
+
+!takeaways
+- Since Nov. 17, ordinary Russian investors may buy bitcoin, ether and USDT through brokers, trust managers or licensed crypto exchange offices.
+- The cap is 300,000 rubles a year per intermediary, not per person. Qualified (wealthier, experienced) investors have no cap and can buy any crypto asset.
+- Everyone, regardless of status, must pass a test and read about the risks first.
+- Big brokers T-Bank and VTB are not offering purchases yet. Exchanges may open organized trading from Nov. 22, and Moscow Exchange plans a pilot on Dec. 1.
+
+!figure:timeline
+
+## What the new rule allows
+
+Under the ordinance, retail buyers can purchase the three approved coins through an intermediary such as a broker, a trust manager or a crypto exchange office, either on an exchange or over the counter (directly between two parties). From the same date, exchanges may admit those three assets to public trading, the [Bank of Russia said](L1).
+
+The central bank says it chose only the most liquid assets. It looked at market value, average daily trading volume and at least five years of price history on foreign exchanges. "This approach is intended to mitigate the risks of investing in cryptoassets for non-qualified investors," the regulator said when it announced the list on Nov. 6.
+
+Qualified investors, a status in Russia tied to wealth or professional experience, face no purchase cap and can access any crypto asset. They still have to take the test.
+
+!figure:fact
+
+## Banks are not ready yet
+
+The legal door opened before the apps did. Two of Russia's largest retail brokers, T-Bank and VTB, were not offering crypto purchases on the first day, [Bitcoin Magazine reported](L2), citing comments to the TASS news agency.
+
+"The main reason T-Bank clients do not yet see cryptocurrencies in their banking app is the absence of a market standard for testing," said Alexander Kretov, who leads blockchain development at T-Bank. He said the bank is ready to launch as soon as the Bank of Russia publishes that standard. VTB said it is testing the customer flow in its investment app and plans to open crypto trading first to qualified investors who pass the test, according to [BeInCrypto](L4).
+
+!mid_cta
+
+## What comes next, and what is banned
+
+Nov. 17 is only the first date on Russia's calendar. Under a separate ordinance, exchanges may open organized crypto trading from Nov. 22 once the central bank approves their trading rules. Moscow Exchange, the country's largest exchange, plans to start bitcoin, ether and USDT trading on Dec. 1 as a pilot, according to [Cointelegraph](L3). The exchange and its clearing house are under U.S. sanctions.
+
+The new access comes with tighter control outside licensed channels. According to Cointelegraph, direct peer-to-peer crypto trading will be banned from July 1, 2027, transfers from regulated accounts to self-custody wallets are already prohibited, and paying for goods and services with crypto remains illegal in Russia. The legal framework rests on a crypto market law that took effect on Sept. 1.
+
+Some market participants doubt the cap will pull many buyers home. Dmitry Lesnov of the brokerage Finam told the newspaper Vedomosti that Russians already trade heavily on offshore platforms and that the 300,000-ruble limit will significantly limit retail interest, Bitcoin Magazine reported.
+
+## Why it matters, and what it means for beginners
+
+Russia is a large crypto market, and this is the first time its rules give ordinary residents a licensed, domestic way to buy bitcoin. The timing is notable: bitcoin traded around $64,100 on Wednesday, about 26% below its October high, according to [CoinDesk](L5).
+
+For readers in the U.S., nothing changes directly. Americans can already buy crypto through regulated platforms without an annual cap. Many beginners start with a small amount on a large exchange such as [Coinbase](REF) and add slowly over time. Russia's approach does carry one lesson worth copying, though: understand the risks before you buy. Crypto prices can swing sharply, so only use money you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- When the Bank of Russia publishes the standard investor test, and whether T-Bank, VTB and Sberbank switch on purchases.
+- Whether exchanges open organized trading after Nov. 22, and how Moscow Exchange's Dec. 1 pilot goes.
+- Whether the 300,000-ruble cap changes once the market is running.
+
+!soft: New to wallets? Read [What is a crypto wallet: custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

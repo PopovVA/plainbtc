@@ -1,0 +1,61 @@
+title: Judge acquits MIT brothers in $25 million Ethereum trading-bot case, ending the first U.S. criminal MEV prosecution
+page_title: MEV brothers acquitted in $25 million Ethereum case: what the ruling means
+description: A federal judge acquitted Anton and James Peraire-Bueno of wire fraud and money laundering conspiracy over a 2023 trade that took about $25 million from Ethereum trading bots in 12 seconds. Here is what happened and why.
+og_description: A federal judge in Manhattan cleared two MIT-educated brothers accused of taking about $25 million from Ethereum trading bots, ruling prosecutors never proved a lie. What MEV is, how the trade worked and what it means for you.
+label: Regulation
+summary: A federal judge acquitted Anton and James Peraire-Bueno over a 2023 trade that took about $25 million from Ethereum trading bots in 12 seconds, ruling prosecutors failed to prove a material lie. It ends the first U.S. criminal case over an MEV exploit.
+===
+
+A federal judge in Manhattan has acquitted two brothers accused of taking about $25 million from automated Ethereum trading bots in 12 seconds. U.S. District Judge Jessica Clarke entered a judgment of acquittal for Anton and James Peraire-Bueno on Nov. 16, 2026, on charges of wire fraud, conspiracy to commit wire fraud and conspiracy to commit money laundering, [CoinDesk reported](L1) from her opinion.
+
+The ruling closes what the government called a "first of its kind" prosecution over MEV, a way of profiting from the order of transactions on a blockchain. It came a year after a jury deadlocked and the judge declared a mistrial in November 2025.
+
+!takeaways
+- Judge Jessica Clarke acquitted the Peraire-Bueno brothers on all charges on Nov. 16 and directed the court to close the case.
+- Prosecutors said the brothers baited trading bots in April 2023 and exploited a software flaw to take about $25 million in 12 seconds.
+- The judge ruled the government failed to prove a "material misrepresentation," a lie that matters, which wire fraud requires.
+- The ruling does not say the trade was right. It says it was not wire fraud under the law prosecutors used.
+
+!figure:timeline
+
+## What MEV is, in plain English
+
+When you send a transaction on Ethereum, it first waits in a public queue called the mempool until a validator, the network participant chosen to add the next block, includes it. MEV, short for maximal extractable value, is the extra profit available to whoever controls the order of transactions in a block.
+
+Many trading bots hunt for that profit with a "sandwich." A bot spots a large pending purchase, buys the same token just before it, lets the purchase push the price up and then sells right after. The person in the middle gets a worse price.
+
+## How the trade worked
+
+According to the court's opinion, as described by CoinDesk, the brothers set a trap in April 2023. They placed eight bait transactions designed to attract sandwich bots. When their own validator's turn came, a relay called Ultrasound offered it a block full of the bots' trades. The validator signed the block's header, a kind of summary, with two key fields set to zero. The relay did not check those fields and revealed the block's contents anyway.
+
+With the bots' trades visible, the brothers built their own block. It kept the bots' purchases but replaced the bait with sales that crashed the price before the bots could sell. The bots lost about $25 million. The brothers' validator was penalized about 1 ether. The scheme was known as "Omakase." According to the brothers' law firm, [Williams & Connolly](L2), prosecutors alleged it exploited a flaw in MEV-Boost, open-source software used by most Ethereum validators.
+
+!figure:fact
+
+## Why the judge said it was not fraud
+
+Wire fraud requires a material misrepresentation, a lie that someone relied on. Judge Clarke found none. The bait trades made no promise, she wrote, because "no trader who places a transaction in the public mempool would agree to be sandwiched." The false signature did not count either, because the relay never checked the zeroed fields, so it "had no effect on the behavior of its recipient."
+
+She described Ethereum as "a trustless, highly adversarial environment with no terms of use." And she was clear about the limits of her ruling: "The question before the Court is not whether the Peraire-Buenos' conduct was right or moral, or even whether it violated uncharged crimes," she wrote, as quoted by [BleepingComputer](L4). Once the fraud counts fell, the money laundering conspiracy charge fell too.
+
+!mid_cta
+
+## The case so far
+
+The brothers, who studied at MIT, were charged in May 2024. After a nearly four-week trial in late 2025, the jury could not agree on a verdict, according to Williams & Connolly. Only one wallet, holding about $3 million of the proceeds, was ever frozen, and the brothers had moved the rest out by October 2023, CoinDesk reported. [The Block](L3) noted that the judge also pointed out the trades did not happen on a regulated market where such conduct would be prohibited. It is not yet clear whether the government will try to challenge the ruling.
+
+## What it means for beginners
+
+For ordinary crypto users, the main lesson is practical. Decentralized trading on blockchains like Ethereum is, in the judge's words, adversarial, and sandwich bots still exist. If you swap tokens on a decentralized exchange, keep your slippage setting low and be careful with large trades in thin markets. If you simply want to own some crypto without dealing with bots and mempools, many beginners buy on a large regulated exchange such as [Coinbase](REF) instead. Any crypto purchase can lose value, so only use money you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Whether prosecutors try to challenge the acquittal.
+- Whether other MEV-related cases are brought under different laws.
+- How the ruling is cited in future crypto fraud cases.
+
+!soft: Want to keep your coins safe? Read [What is a crypto wallet: custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

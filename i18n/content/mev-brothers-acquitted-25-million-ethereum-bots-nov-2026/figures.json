@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-peraire-bueno-case.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline of the Peraire-Bueno case: April 2023, about $25 million taken from trading bots in 12 seconds; May 2024, the brothers are charged with wire fraud and money laundering conspiracy; November 2025, the jury deadlocks and a mistrial is declared; Nov. 16, 2026, the judge enters an acquittal on all charges",
+      "es": "Cronología del caso Peraire-Bueno: abril de 2023, unos 25 millones de dólares obtenidos de bots de trading en 12 segundos; mayo de 2024, los hermanos son acusados de fraude electrónico y conspiración para blanquear dinero; noviembre de 2025, el jurado no llega a un veredicto y se declara juicio nulo; 16 de noviembre de 2026, la jueza dicta la absolución de todos los cargos",
+      "pt": "Linha do tempo do caso Peraire-Bueno: abril de 2023, cerca de US$ 25 milhões tirados de robôs de negociação em 12 segundos; maio de 2024, os irmãos são acusados de fraude eletrônica e conspiração para lavagem de dinheiro; novembro de 2025, o júri não chega a um veredito e o julgamento é anulado; 16 de novembro de 2026, a juíza absolve os dois de todas as acusações",
+      "fr": "Chronologie de l'affaire Peraire-Bueno : avril 2023, environ 25 millions de dollars pris à des robots de trading en 12 secondes ; mai 2024, les frères sont inculpés de fraude électronique et d'association en vue de blanchiment ; novembre 2025, le jury ne parvient pas à un verdict et le procès est annulé ; 16 novembre 2026, la juge prononce l'acquittement sur tous les chefs",
+      "de": "Zeitleiste des Falls Peraire-Bueno: April 2023, rund 25 Mio. $ von Trading-Bots in 12 Sekunden erbeutet; Mai 2024, Anklage wegen Überweisungsbetrugs und Verschwörung zur Geldwäsche; November 2025, die Jury kann sich nicht einigen, der Prozess platzt; 16. November 2026, die Richterin spricht die Brüder in allen Punkten frei",
+      "ru": "Хронология дела Перайре-Буэно: апрель 2023 года, около 25 млн долларов получено у торговых ботов за 12 секунд; май 2024 года, братьям предъявлены обвинения в мошенничестве с использованием электронных средств связи и сговоре с целью отмывания денег; ноябрь 2025 года, присяжные не пришли к решению, процесс признан несостоявшимся; 16 ноября 2026 года судья оправдала братьев по всем пунктам",
+      "tr": "Peraire-Bueno davasının zaman çizelgesi: Nisan 2023, 12 saniyede alım satım botlarından yaklaşık 25 milyon $ alındı; Mayıs 2024, kardeşler elektronik dolandırıcılık ve kara para aklama komplosuyla suçlandı; Kasım 2025, jüri karara varamadı ve dava geçersiz sayıldı; 16 Kasım 2026, hâkim tüm suçlamalardan beraat kararı verdi",
+      "id": "Linimasa kasus Peraire-Bueno: April 2023, sekitar US$25 juta diambil dari bot trading dalam 12 detik; Mei 2024, kakak beradik itu didakwa penipuan elektronik dan konspirasi pencucian uang; November 2025, juri buntu dan sidang dinyatakan batal; 16 November 2026, hakim membebaskan keduanya dari semua dakwaan",
+      "ja": "ペライレ＝ブエノ事件の時系列：2023年4月、12秒で取引ボットから約2500万ドルを取得、2024年5月、兄弟が通信詐欺とマネーロンダリング共謀の罪で起訴、2025年11月、陪審の評決がまとまらず審理無効、2026年11月16日、判事が全ての罪状で無罪判決",
+      "ko": "페라이레-부에노 사건 타임라인: 2023년 4월 12초 만에 트레이딩 봇에서 약 2,500만 달러 획득, 2024년 5월 형제가 전신 사기 및 자금세탁 공모 혐의로 기소, 2025년 11월 배심원 평결 불일치로 심리 무효, 2026년 11월 16일 판사가 모든 혐의에 무죄 판결"
+    },
+    "caption": {
+      "en": "Source: CoinDesk, Williams & Connolly, The Block",
+      "es": "Fuente: CoinDesk, Williams & Connolly, The Block",
+      "pt": "Fonte: CoinDesk, Williams & Connolly, The Block",
+      "fr": "Source : CoinDesk, Williams & Connolly, The Block",
+      "de": "Quelle: CoinDesk, Williams & Connolly, The Block",
+      "ru": "Источник: CoinDesk, Williams & Connolly, The Block",
+      "tr": "Kaynak: CoinDesk, Williams & Connolly, The Block",
+      "id": "Sumber: CoinDesk, Williams & Connolly, The Block",
+      "ja": "出典: CoinDesk, Williams & Connolly, The Block",
+      "ko": "출처: CoinDesk, Williams & Connolly, The Block"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-no-terms-of-use.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Quote card: Judge Jessica Clarke wrote of Ethereum, it is a trustless, highly adversarial environment with no terms of use",
+      "es": "Tarjeta con cita: la jueza Jessica Clarke escribió sobre Ethereum que es un entorno sin confianza, muy hostil y sin condiciones de uso",
+      "pt": "Cartão com citação: a juíza Jessica Clarke escreveu sobre o Ethereum que é um ambiente sem confiança, altamente adversarial e sem termos de uso",
+      "fr": "Citation : la juge Jessica Clarke a écrit à propos d'Ethereum qu'il s'agit d'un environnement sans tiers de confiance, très conflictuel et sans conditions d'utilisation",
+      "de": "Zitatkarte: Richterin Jessica Clarke schrieb über Ethereum, es sei eine vertrauenslose, äußerst konfrontative Umgebung ohne Nutzungsbedingungen",
+      "ru": "Карточка с цитатой: судья Джессика Кларк написала об Ethereum, что это среда без доверия, крайне враждебная и без условий использования",
+      "tr": "Alıntı kartı: Hâkim Jessica Clarke, Ethereum için güven gerektirmeyen, son derece çekişmeli ve kullanım koşulları olmayan bir ortam olduğunu yazdı",
+      "id": "Kartu kutipan: Hakim Jessica Clarke menulis bahwa Ethereum adalah lingkungan tanpa kepercayaan, sangat penuh persaingan, dan tanpa syarat penggunaan",
+      "ja": "引用カード：ジェシカ・クラーク判事はイーサリアムについて、信頼を前提としない、極めて敵対的で利用規約のない環境だと記した",
+      "ko": "인용 카드: 제시카 클라크 판사는 이더리움에 대해 신뢰가 필요 없고 매우 적대적이며 이용 약관이 없는 환경이라고 썼다"
+    },
+    "caption": {
+      "en": "Source: U.S. District Court for the Southern District of New York, via CoinDesk",
+      "es": "Fuente: U.S. District Court for the Southern District of New York, via CoinDesk",
+      "pt": "Fonte: U.S. District Court for the Southern District of New York, via CoinDesk",
+      "fr": "Source : U.S. District Court for the Southern District of New York, via CoinDesk",
+      "de": "Quelle: U.S. District Court for the Southern District of New York, via CoinDesk",
+      "ru": "Источник: U.S. District Court for the Southern District of New York, via CoinDesk",
+      "tr": "Kaynak: U.S. District Court for the Southern District of New York, via CoinDesk",
+      "id": "Sumber: U.S. District Court for the Southern District of New York, via CoinDesk",
+      "ja": "出典: U.S. District Court for the Southern District of New York, via CoinDesk",
+      "ko": "출처: U.S. District Court for the Southern District of New York, via CoinDesk"
+    }
+  }
+]

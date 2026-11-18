@@ -3418,6 +3418,113 @@ def build_coinbase_borrow_ny():
     ]
 
 
+def build_russia_retail_crypto():
+    slug = "russia-retail-investors-bitcoin-ether-usdt-300000-ruble-cap-nov-2026"
+    d = OUT / slug
+    # Bank of Russia press release Nov 6, 2026; Cointelegraph Nov 6, 2026; Bitcoin Magazine Nov 17, 2026.
+    tl = make_timeline_card(
+        d / "timeline-russia-crypto-rules",
+        "Russia's crypto rollout (2026-2027)",
+        [
+            ("Sept. 1", "Crypto market law takes effect", (96, 165, 250)),
+            ("Nov. 17", "Retail buyers may buy BTC, ETH, USDT", (247, 147, 26)),
+            ("Nov. 22", "Exchanges may open organized trading", (96, 165, 250)),
+            ("Dec. 1", "Moscow Exchange pilot planned", (96, 165, 250)),
+            ("July 1, 2027", "Peer-to-peer crypto trading banned", (248, 113, 113)),
+        ],
+        footer="Bank of Russia, Cointelegraph, Bitcoin Magazine",
+        margin=150, wrap_w=200,
+    )
+    fact = make_fact_card(
+        d / "fact-300000-ruble-cap",
+        "Bank of Russia rule, in force Nov. 17",
+        "\u20bd300,000 a year",
+        "Purchase cap per intermediary for ordinary investors. Only bitcoin, ether and USDT; a knowledge test is required first",
+        footer="Bank of Russia, Nov. 6, 2026",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline of Russia's crypto rollout: Sept. 1, 2026, the crypto market law takes effect; Nov. 17, ordinary investors may buy bitcoin, ether and USDT; Nov. 22, exchanges may open organized trading; Dec. 1, Moscow Exchange plans a pilot; July 1, 2027, peer-to-peer crypto trading is banned", {
+            "es": "Cronología del despliegue cripto en Rusia: 1 de septiembre de 2026, entra en vigor la ley del mercado cripto; 17 de noviembre, los inversores minoristas pueden comprar bitcoin, ether y USDT; 22 de noviembre, las bolsas pueden abrir la negociación organizada; 1 de diciembre, la Bolsa de Moscú prevé un piloto; 1 de julio de 2027, se prohíbe el comercio cripto entre particulares",
+            "pt": "Linha do tempo da abertura cripto na Rússia: 1º de setembro de 2026, entra em vigor a lei do mercado cripto; 17 de novembro, investidores comuns podem comprar bitcoin, ether e USDT; 22 de novembro, bolsas podem abrir negociação organizada; 1º de dezembro, a Bolsa de Moscou planeja um piloto; 1º de julho de 2027, o comércio cripto P2P é proibido",
+            "fr": "Chronologie de l'ouverture crypto en Russie : 1er septembre 2026, entrée en vigueur de la loi sur le marché crypto ; 17 novembre, les particuliers peuvent acheter du bitcoin, de l'ether et de l'USDT ; 22 novembre, les bourses peuvent ouvrir des échanges organisés ; 1er décembre, pilote prévu à la Bourse de Moscou ; 1er juillet 2027, interdiction des échanges crypto entre particuliers",
+            "de": "Zeitleiste der Krypto-Öffnung in Russland: 1. September 2026, das Kryptomarktgesetz tritt in Kraft; 17. November, Privatanleger dürfen Bitcoin, Ether und USDT kaufen; 22. November, Börsen dürfen den organisierten Handel öffnen; 1. Dezember, Pilotstart an der Moskauer Börse geplant; 1. Juli 2027, Peer-to-Peer-Kryptohandel wird verboten",
+            "ru": "Хронология криптореформы в России: 1 сентября 2026 года вступает в силу закон о криптовалютном рынке; 17 ноября неквалифицированные инвесторы могут покупать биткоин, эфир и USDT; 22 ноября биржи могут открыть организованные торги; 1 декабря Мосбиржа планирует пилотный запуск; 1 июля 2027 года запрещается P2P-торговля криптовалютой",
+            "tr": "Rusya'da kripto açılımının zaman çizelgesi: 1 Eylül 2026, kripto piyasası yasası yürürlüğe girer; 17 Kasım, bireysel yatırımcılar bitcoin, ether ve USDT alabilir; 22 Kasım, borsalar organize işlemleri açabilir; 1 Aralık, Moskova Borsası pilot planlıyor; 1 Temmuz 2027, eşler arası kripto ticareti yasaklanıyor",
+            "id": "Linimasa pembukaan kripto di Rusia: 1 September 2026, undang-undang pasar kripto berlaku; 17 November, investor ritel boleh membeli bitcoin, ether, dan USDT; 22 November, bursa boleh membuka perdagangan terorganisasi; 1 Desember, Bursa Moskow merencanakan uji coba; 1 Juli 2027, perdagangan kripto peer-to-peer dilarang",
+            "ja": "ロシアの暗号資産解禁の時系列：2026年9月1日、暗号資産市場法が施行、11月17日、一般投資家がビットコイン、イーサ、USDTを購入可能に、11月22日、取引所が組織的な取引を開始可能に、12月1日、モスクワ取引所が試験運用を予定、2027年7月1日、個人間（P2P）の暗号資産取引を禁止",
+            "ko": "러시아 암호화폐 개방 타임라인: 2026년 9월 1일 암호화폐 시장법 시행, 11월 17일 일반 투자자의 비트코인·이더·USDT 매수 허용, 11월 22일 거래소의 조직화된 거래 개시 허용, 12월 1일 모스크바 거래소 시범 운영 예정, 2027년 7월 1일 개인 간(P2P) 암호화폐 거래 금지",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Bank of Russia, Cointelegraph, Bitcoin Magazine")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: under the Bank of Russia rule in force since Nov. 17, ordinary investors can buy up to 300,000 rubles a year through each intermediary, only bitcoin, ether and USDT, after passing a knowledge test", {
+            "es": "Tarjeta de datos: según la norma del Banco de Rusia vigente desde el 17 de noviembre, los inversores minoristas pueden comprar hasta 300.000 rublos al año por intermediario, solo bitcoin, ether y USDT, tras aprobar un test de conocimientos",
+            "pt": "Cartão de dados: pela regra do Banco da Rússia em vigor desde 17 de novembro, investidores comuns podem comprar até 300.000 rublos por ano em cada intermediário, apenas bitcoin, ether e USDT, após passar em um teste de conhecimento",
+            "fr": "Fiche chiffrée : selon la règle de la Banque de Russie en vigueur depuis le 17 novembre, les particuliers peuvent acheter jusqu'à 300 000 roubles par an et par intermédiaire, uniquement du bitcoin, de l'ether et de l'USDT, après un test de connaissances",
+            "de": "Faktenkarte: Nach der seit 17. November geltenden Regel der Bank von Russland dürfen Privatanleger pro Vermittler bis zu 300.000 Rubel im Jahr kaufen, nur Bitcoin, Ether und USDT, nach einem Wissenstest",
+            "ru": "Карточка: по указанию Банка России, действующему с 17 ноября, неквалифицированные инвесторы могут покупать через одного посредника не более чем на 300 000 рублей в год, только биткоин, эфир и USDT, после прохождения теста",
+            "tr": "Bilgi kartı: Rusya Merkez Bankası'nın 17 Kasım'dan beri yürürlükte olan kuralına göre bireysel yatırımcılar, bilgi testini geçtikten sonra aracı kurum başına yılda en fazla 300.000 ruble değerinde yalnızca bitcoin, ether ve USDT alabilir",
+            "id": "Kartu fakta: menurut aturan Bank Rusia yang berlaku sejak 17 November, investor ritel boleh membeli hingga 300.000 rubel per tahun melalui setiap perantara, hanya bitcoin, ether, dan USDT, setelah lulus tes pengetahuan",
+            "ja": "ファクトカード：11月17日施行のロシア中央銀行の規則では、一般投資家は知識テストに合格した後、仲介業者1社あたり年30万ルーブルまで、ビットコイン、イーサ、USDTのみを購入できる",
+            "ko": "팩트 카드: 11월 17일 시행된 러시아 중앙은행 규정에 따라 일반 투자자는 지식 테스트를 통과한 뒤 중개업체 한 곳당 연 30만 루블까지 비트코인, 이더, USDT만 살 수 있다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Bank of Russia")},
+    ]
+
+
+def build_mev_acquittal():
+    slug = "mev-brothers-acquitted-25-million-ethereum-bots-nov-2026"
+    d = OUT / slug
+    # Williams & Connolly Nov 2026; CoinDesk Nov 18, 2026; The Block Nov 16, 2026.
+    tl = make_timeline_card(
+        d / "timeline-peraire-bueno-case",
+        "U.S. v. Peraire-Bueno (2023-2026)",
+        [
+            ("Apr. 2023", "About $25M taken from trading bots in 12 seconds", (248, 113, 113)),
+            ("May 2024", "Brothers charged with wire fraud, money laundering conspiracy", (96, 165, 250)),
+            ("Nov. 2025", "Jury deadlocks; mistrial", (96, 165, 250)),
+            ("Nov. 16, 2026", "Judge enters acquittal on all charges", (74, 222, 128)),
+        ],
+        footer="Court opinion via CoinDesk, Williams & Connolly, The Block",
+        margin=170, wrap_w=250,
+    )
+    fact = make_fact_card(
+        d / "fact-no-terms-of-use",
+        "Judge Jessica Clarke on Ethereum, Nov. 16",
+        "\u201cNo terms of use\u201d",
+        "\u201cIt is a trustless, highly adversarial environment with no terms of use.\u201d",
+        footer="U.S. District Court, S.D.N.Y., via CoinDesk",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline of the Peraire-Bueno case: April 2023, about $25 million taken from trading bots in 12 seconds; May 2024, the brothers are charged with wire fraud and money laundering conspiracy; November 2025, the jury deadlocks and a mistrial is declared; Nov. 16, 2026, the judge enters an acquittal on all charges", {
+            "es": "Cronología del caso Peraire-Bueno: abril de 2023, unos 25 millones de dólares obtenidos de bots de trading en 12 segundos; mayo de 2024, los hermanos son acusados de fraude electrónico y conspiración para blanquear dinero; noviembre de 2025, el jurado no llega a un veredicto y se declara juicio nulo; 16 de noviembre de 2026, la jueza dicta la absolución de todos los cargos",
+            "pt": "Linha do tempo do caso Peraire-Bueno: abril de 2023, cerca de US$ 25 milhões tirados de robôs de negociação em 12 segundos; maio de 2024, os irmãos são acusados de fraude eletrônica e conspiração para lavagem de dinheiro; novembro de 2025, o júri não chega a um veredito e o julgamento é anulado; 16 de novembro de 2026, a juíza absolve os dois de todas as acusações",
+            "fr": "Chronologie de l'affaire Peraire-Bueno : avril 2023, environ 25 millions de dollars pris à des robots de trading en 12 secondes ; mai 2024, les frères sont inculpés de fraude électronique et d'association en vue de blanchiment ; novembre 2025, le jury ne parvient pas à un verdict et le procès est annulé ; 16 novembre 2026, la juge prononce l'acquittement sur tous les chefs",
+            "de": "Zeitleiste des Falls Peraire-Bueno: April 2023, rund 25 Mio. $ von Trading-Bots in 12 Sekunden erbeutet; Mai 2024, Anklage wegen Überweisungsbetrugs und Verschwörung zur Geldwäsche; November 2025, die Jury kann sich nicht einigen, der Prozess platzt; 16. November 2026, die Richterin spricht die Brüder in allen Punkten frei",
+            "ru": "Хронология дела Перайре-Буэно: апрель 2023 года, около 25 млн долларов получено у торговых ботов за 12 секунд; май 2024 года, братьям предъявлены обвинения в мошенничестве с использованием электронных средств связи и сговоре с целью отмывания денег; ноябрь 2025 года, присяжные не пришли к решению, процесс признан несостоявшимся; 16 ноября 2026 года судья оправдала братьев по всем пунктам",
+            "tr": "Peraire-Bueno davasının zaman çizelgesi: Nisan 2023, 12 saniyede alım satım botlarından yaklaşık 25 milyon $ alındı; Mayıs 2024, kardeşler elektronik dolandırıcılık ve kara para aklama komplosuyla suçlandı; Kasım 2025, jüri karara varamadı ve dava geçersiz sayıldı; 16 Kasım 2026, hâkim tüm suçlamalardan beraat kararı verdi",
+            "id": "Linimasa kasus Peraire-Bueno: April 2023, sekitar US$25 juta diambil dari bot trading dalam 12 detik; Mei 2024, kakak beradik itu didakwa penipuan elektronik dan konspirasi pencucian uang; November 2025, juri buntu dan sidang dinyatakan batal; 16 November 2026, hakim membebaskan keduanya dari semua dakwaan",
+            "ja": "ペライレ＝ブエノ事件の時系列：2023年4月、12秒で取引ボットから約2500万ドルを取得、2024年5月、兄弟が通信詐欺とマネーロンダリング共謀の罪で起訴、2025年11月、陪審の評決がまとまらず審理無効、2026年11月16日、判事が全ての罪状で無罪判決",
+            "ko": "페라이레-부에노 사건 타임라인: 2023년 4월 12초 만에 트레이딩 봇에서 약 2,500만 달러 획득, 2024년 5월 형제가 전신 사기 및 자금세탁 공모 혐의로 기소, 2025년 11월 배심원 평결 불일치로 심리 무효, 2026년 11월 16일 판사가 모든 혐의에 무죄 판결",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="CoinDesk, Williams & Connolly, The Block")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Quote card: Judge Jessica Clarke wrote of Ethereum, it is a trustless, highly adversarial environment with no terms of use", {
+            "es": "Tarjeta con cita: la jueza Jessica Clarke escribió sobre Ethereum que es un entorno sin confianza, muy hostil y sin condiciones de uso",
+            "pt": "Cartão com citação: a juíza Jessica Clarke escreveu sobre o Ethereum que é um ambiente sem confiança, altamente adversarial e sem termos de uso",
+            "fr": "Citation : la juge Jessica Clarke a écrit à propos d'Ethereum qu'il s'agit d'un environnement sans tiers de confiance, très conflictuel et sans conditions d'utilisation",
+            "de": "Zitatkarte: Richterin Jessica Clarke schrieb über Ethereum, es sei eine vertrauenslose, äußerst konfrontative Umgebung ohne Nutzungsbedingungen",
+            "ru": "Карточка с цитатой: судья Джессика Кларк написала об Ethereum, что это среда без доверия, крайне враждебная и без условий использования",
+            "tr": "Alıntı kartı: Hâkim Jessica Clarke, Ethereum için güven gerektirmeyen, son derece çekişmeli ve kullanım koşulları olmayan bir ortam olduğunu yazdı",
+            "id": "Kartu kutipan: Hakim Jessica Clarke menulis bahwa Ethereum adalah lingkungan tanpa kepercayaan, sangat penuh persaingan, dan tanpa syarat penggunaan",
+            "ja": "引用カード：ジェシカ・クラーク判事はイーサリアムについて、信頼を前提としない、極めて敵対的で利用規約のない環境だと記した",
+            "ko": "인용 카드: 제시카 클라크 판사는 이더리움에 대해 신뢰가 필요 없고 매우 적대적이며 이용 약관이 없는 환경이라고 썼다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="U.S. District Court for the Southern District of New York, via CoinDesk")},
+    ]
+
+
 def build_cftc_backpack():
     slug = "cftc-approves-backpack-blockchain-derivatives-exchange-nov-2026"
     d = OUT / slug
@@ -3523,6 +3630,8 @@ def build_banks_btc_etf_13f():
 
 
 BUILDERS = {
+    "russia-retail-investors-bitcoin-ether-usdt-300000-ruble-cap-nov-2026": "rusretail",
+    "mev-brothers-acquitted-25-million-ethereum-bots-nov-2026": "mevacq",
     "cftc-approves-backpack-blockchain-derivatives-exchange-nov-2026": "cftcbp",
     "goldman-wells-fargo-double-bitcoin-etf-holdings-13f-nov-2026": "banks13f",
     "trezor-skladon-shipping-breach-27000-orders-nov-2026": "trezor",
@@ -3677,6 +3786,10 @@ def build_slug(slug: str, btc=None):
         figs = build_fear_greed_10()
     elif key == "cftcbp":
         figs = build_cftc_backpack()
+    elif key == "rusretail":
+        figs = build_russia_retail_crypto()
+    elif key == "mevacq":
+        figs = build_mev_acquittal()
     elif key == "banks13f":
         figs = build_banks_btc_etf_13f()
     elif key == "trezor":

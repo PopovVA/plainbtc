@@ -1293,7 +1293,55 @@ def thumb_banks_btc_etf_13f():
     ],"note":"Editorial composite for identification; trademarks belong to their owners."}
 
 
+def thumb_russia_retail_crypto():
+    """Flag of Russia (public domain, Wikimedia Commons) with Bitcoin logo (public domain) and the Bank of Russia cap."""
+    flag = fetch("https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg", CACHE/"flag-russia.svg")
+    btc = fetch("https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg", CACHE/"bitcoin-logo.svg")
+    base = gradient_bg()
+    fl = Image.open(flag).convert("RGB").resize((210, 140))
+    base.paste(fl, (40, 74))
+    disc = Image.new("RGBA", (140, 140), (0, 0, 0, 0))
+    ImageDraw.Draw(disc).ellipse([0, 0, 139, 139], fill=(255, 255, 255, 255))
+    base.paste(disc.convert("RGB"), (210, 150), disc)
+    paste_contain(base, Image.open(btc).convert("RGBA"), (210, 150, 140, 140), pad=16)
+    d = ImageDraw.Draw(base)
+    d.text((384, 84), "\u20bd300K", font=font(FONT_B, 60), fill=ORANGE)
+    d.text((386, 160), "per year, per intermediary", font=font(FONT_R, 17), fill=(203,213,225))
+    d.text((386, 200), "BTC \u00b7 ETH \u00b7 USDT", font=font(FONT_B, 24), fill=WHITE)
+    d.text((386, 236), "from Nov. 17, 2026", font=font(FONT_R, 17), fill=(203,213,225))
+    d.text((44, 316), "Ordinary investors must pass a knowledge test first", font=font(FONT_R, 16), fill=(148,163,184))
+    label_chip(base, "Bank of Russia \u00b7 retail crypto rules")
+    return base, {"kind":"composite","sources":[
+        {"file":"Flag_of_Russia.svg","license":"Public domain","url":"https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg","credit":"Flag of Russia"},
+        {"file":"Bitcoin.svg","license":"Public domain","url":"https://commons.wikimedia.org/wiki/File:Bitcoin.svg","credit":"Bitcoin logo"},
+        {"file":"Bank of Russia press release, Nov. 6, 2026","license":"Fact cited","url":"https://www.cbr.ru/eng/press/event/?id=32966","credit":"Bank of Russia"},
+    ],"note":"Editorial composite; no endorsement implied; trademarks belong to their owners."}
+
+
+def thumb_mev_acquittal():
+    """Ethereum logo (CC BY 3.0, Wikimedia Commons) with case figures from the court opinion as reported by CoinDesk."""
+    eth = fetch("https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg", CACHE/"ethereum-logo-2014.svg")
+    base = gradient_bg()
+    disc = Image.new("RGBA", (200, 200), (0, 0, 0, 0))
+    ImageDraw.Draw(disc).ellipse([0, 0, 199, 199], fill=(255, 255, 255, 255))
+    base.paste(disc.convert("RGB"), (50, 76), disc)
+    paste_contain(base, Image.open(eth).convert("RGBA"), (50, 76, 200, 200), pad=26)
+    d = ImageDraw.Draw(base)
+    d.text((300, 80), "$25M", font=font(FONT_B, 72), fill=ORANGE)
+    d.text((304, 170), "from trading bots in 12 seconds", font=font(FONT_R, 18), fill=(203,213,225))
+    d.text((304, 212), "Acquitted", font=font(FONT_B, 34), fill=WHITE)
+    d.text((304, 258), "Federal judge, Nov. 16, 2026", font=font(FONT_R, 17), fill=(203,213,225))
+    d.text((44, 318), "First U.S. criminal case over an MEV exploit", font=font(FONT_R, 16), fill=(148,163,184))
+    label_chip(base, "Ethereum \u00b7 MEV court ruling")
+    return base, {"kind":"composite","sources":[
+        {"file":"Ethereum_logo_2014.svg","license":"CC BY 3.0","url":"https://commons.wikimedia.org/wiki/File:Ethereum_logo_2014.svg","credit":"Ethereum Foundation"},
+        {"file":"CoinDesk, Nov. 18, 2026","license":"Figures cited","url":"https://www.coindesk.com/policy/2026/11/18/u-s-judge-says-ethereum-has-no-terms-of-use-clears-mit-brothers-of-usd25-million-fraud","credit":"CoinDesk"},
+    ],"note":"Editorial composite; trademarks belong to their owners."}
+
+
 BUILDERS = {
+    "russia-retail-investors-bitcoin-ether-usdt-300000-ruble-cap-nov-2026": thumb_russia_retail_crypto,
+    "mev-brothers-acquitted-25-million-ethereum-bots-nov-2026": thumb_mev_acquittal,
     "cftc-approves-backpack-blockchain-derivatives-exchange-nov-2026": thumb_cftc_backpack,
     "goldman-wells-fargo-double-bitcoin-etf-holdings-13f-nov-2026": thumb_banks_btc_etf_13f,
     "trezor-skladon-shipping-breach-27000-orders-nov-2026": thumb_trezor_skladon,

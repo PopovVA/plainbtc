@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Flag_of_Russia.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg",
+      "credit": "Flag of Russia"
+    },
+    {
+      "file": "Bitcoin.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg",
+      "credit": "Bitcoin logo"
+    },
+    {
+      "file": "Bank of Russia press release, Nov. 6, 2026",
+      "license": "Fact cited",
+      "url": "https://www.cbr.ru/eng/press/event/?id=32966",
+      "credit": "Bank of Russia"
+    }
+  ],
+  "note": "Editorial composite; no endorsement implied; trademarks belong to their owners.",
+  "slug": "russia-retail-investors-bitcoin-ether-usdt-300000-ruble-cap-nov-2026",
+  "generated": "2026-11-18T14:06Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

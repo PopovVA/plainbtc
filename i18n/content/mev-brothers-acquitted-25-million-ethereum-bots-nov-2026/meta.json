@@ -1,0 +1,19 @@
+{
+ "slug": "mev-brothers-acquitted-25-million-ethereum-bots-nov-2026",
+ "date": "2026-11-18",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "doj-seizes-1-2-billion-binance-hack-north-korea-nov-2026",
+  "lighter-dex-10-4-million-leaked-api-key-nov-2026",
+  "optimizely-hack-crypto-address-swap-178-sites-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {"url": "https://www.coindesk.com/policy/2026/11/18/u-s-judge-says-ethereum-has-no-terms-of-use-clears-mit-brothers-of-usd25-million-fraud", "title": "CoinDesk: U.S. judge says Ethereum has 'no terms of use,' clears MIT brothers of $25 million fraud", "date": "Nov 18, 2026"},
+  {"url": "https://www.wc.com/news/williams-connolly-secures-victory-on-behalf-of-client-james-peraire-bueno/", "title": "Williams & Connolly: Williams & Connolly secures victory on behalf of client James Peraire-Bueno", "date": "Nov 2026"},
+  {"url": "https://www.theblock.co/news/regulation/2026-11-16-peraire-bueno-brothers-acquitted-ethereum-mev-wire-fraud-441425", "title": "The Block: Peraire-Bueno brothers acquitted of wire fraud in $25 million Ethereum MEV case", "date": "Nov 16, 2026"},
+  {"url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/", "title": "BleepingComputer: Court clears brothers of $25 million Ethereum crypto heist charges", "date": "Nov 2026"}
+ ],
+ "disclosure_variant": "std"
+}

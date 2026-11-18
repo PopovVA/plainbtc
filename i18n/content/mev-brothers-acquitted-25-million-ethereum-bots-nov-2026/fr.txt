@@ -1,0 +1,61 @@
+title: Une juge acquitte les frères du MIT dans l'affaire des 25 millions de dollars pris à des robots Ethereum, fin du premier procès pénal américain sur le MEV
+page_title: Les frères de l'affaire MEV à 25 millions de dollars sur Ethereum acquittés : ce que signifie la décision
+description: Une juge fédérale a acquitté Anton et James Peraire-Bueno des chefs de fraude électronique et d'association en vue de blanchiment pour une opération de 2023 qui a pris environ 25 millions de dollars à des robots de trading Ethereum en 12 secondes. Ce qui s'est passé et pourquoi.
+og_description: Une juge fédérale de Manhattan a acquitté deux frères formés au MIT accusés d'avoir pris environ 25 millions de dollars à des robots de trading Ethereum, estimant que l'accusation n'a jamais prouvé de mensonge. Ce qu'est le MEV, comment l'opération a fonctionné et ce que cela change pour vous.
+label: Régulation
+summary: Une juge fédérale a acquitté Anton et James Peraire-Bueno pour une opération de 2023 qui a pris environ 25 millions de dollars à des robots de trading Ethereum en 12 secondes, l'accusation n'ayant pas prouvé de mensonge déterminant. C'est la fin de la première affaire pénale américaine liée à un exploit MEV.
+===
+
+Une juge fédérale de Manhattan a acquitté deux frères accusés d'avoir pris environ 25 millions de dollars à des robots de trading automatisés sur Ethereum en 12 secondes. La juge de district Jessica Clarke a prononcé l'acquittement d'Anton et James Peraire-Bueno le 16 novembre 2026 pour fraude électronique, association en vue de commettre une fraude électronique et association en vue de blanchiment, [a rapporté CoinDesk](L1) à partir de sa décision.
+
+La décision met fin à ce que l'État a qualifié de poursuite « sans précédent » liée au MEV, une manière de tirer profit de l'ordre des transactions sur une blockchain. Elle intervient un an après que le jury n'a pu se mettre d'accord et que la juge a déclaré le procès nul en novembre 2025.
+
+!takeaways
+- La juge Jessica Clarke a acquitté les frères Peraire-Bueno de tous les chefs d'accusation le 16 novembre et ordonné la clôture du dossier.
+- Selon l'accusation, les frères ont tendu un piège à des robots de trading en avril 2023 et exploité une faille logicielle pour prendre environ 25 millions de dollars en 12 secondes.
+- La juge a estimé que l'État n'a pas prouvé de « fausse déclaration déterminante », un mensonge qui compte, condition de la fraude électronique.
+- La décision ne dit pas que l'opération était juste. Elle dit qu'il ne s'agissait pas de fraude électronique au sens de la loi invoquée par l'accusation.
+
+!figure:timeline
+
+## Le MEV, en termes simples
+
+Quand vous envoyez une transaction sur Ethereum, elle attend d'abord dans une file publique appelée mempool, jusqu'à ce qu'un validateur, le participant du réseau choisi pour ajouter le bloc suivant, l'inclue. Le MEV, pour « maximal extractable value » (valeur maximale extractible), est le profit supplémentaire accessible à celui qui contrôle l'ordre des transactions dans un bloc.
+
+Beaucoup de robots de trading chassent ce profit avec un « sandwich ». Un robot repère un gros achat en attente, achète le même jeton juste avant, laisse cet achat faire monter le prix puis revend juste après. La personne prise au milieu obtient un moins bon prix.
+
+## Comment l'opération a fonctionné
+
+Selon la décision du tribunal, telle que décrite par CoinDesk, les frères ont tendu un piège en avril 2023. Ils ont placé huit transactions appâts conçues pour attirer des robots sandwich. Quand le tour de leur propre validateur est venu, un relais appelé Ultrasound lui a proposé un bloc rempli des ordres des robots. Le validateur a signé l'en-tête du bloc, une sorte de résumé, avec deux champs clés mis à zéro. Le relais n'a pas vérifié ces champs et a tout de même révélé le contenu du bloc.
+
+Avec les ordres des robots sous les yeux, les frères ont construit leur propre bloc. Ils ont gardé les achats des robots mais remplacé l'appât par des ventes qui ont fait chuter le prix avant que les robots ne puissent vendre. Les robots ont perdu environ 25 millions de dollars. Le validateur des frères a été pénalisé d'environ 1 ether. Le stratagème était connu sous le nom d'« Omakase ». Selon le cabinet d'avocats des frères, [Williams & Connolly](L2), l'accusation affirmait qu'il exploitait une faille de MEV-Boost, un logiciel libre utilisé par la plupart des validateurs Ethereum.
+
+!figure:fact
+
+## Pourquoi la juge a estimé qu'il n'y avait pas fraude
+
+La fraude électronique exige une fausse déclaration déterminante, un mensonge sur lequel quelqu'un s'est appuyé. La juge Clarke n'en a trouvé aucun. Les transactions appâts ne promettaient rien, a-t-elle écrit, car « aucun trader qui place une transaction dans la mempool publique n'accepterait d'être pris en sandwich ». La fausse signature ne comptait pas non plus, car le relais n'a jamais vérifié les champs mis à zéro, si bien qu'elle « n'a eu aucun effet sur le comportement de son destinataire ».
+
+Elle a décrit Ethereum comme « un environnement sans tiers de confiance, très conflictuel et sans conditions d'utilisation ». Et elle a précisé les limites de sa décision : « La question posée au tribunal n'est pas de savoir si la conduite des Peraire-Bueno était juste ou morale, ni même si elle constituait des infractions non poursuivies », a-t-elle écrit, selon [BleepingComputer](L4). Une fois les chefs de fraude écartés, celui d'association en vue de blanchiment est tombé aussi.
+
+!mid_cta
+
+## L'affaire jusqu'ici
+
+Les frères, passés par le MIT, ont été inculpés en mai 2024. Après un procès de près de quatre semaines fin 2025, le jury n'a pas pu s'accorder, selon Williams & Connolly. Un seul portefeuille, contenant environ 3 millions de dollars des gains, a été gelé, et les frères avaient déplacé le reste dès octobre 2023, a rapporté CoinDesk. [The Block](L3) a noté que la juge avait aussi souligné que les opérations ne se sont pas déroulées sur un marché régulé où ce comportement serait interdit. On ne sait pas encore si l'État tentera de contester la décision.
+
+## Ce que cela signifie pour les débutants
+
+Pour les utilisateurs ordinaires, la leçon principale est pratique. Le trading décentralisé sur des blockchains comme Ethereum est, selon les mots de la juge, un environnement conflictuel, et les robots sandwich existent toujours. Si vous échangez des jetons sur une plateforme décentralisée, gardez une tolérance de glissement (slippage) faible et méfiez-vous des gros ordres sur des marchés peu liquides. Si vous voulez simplement détenir un peu de crypto sans vous soucier des robots et des mempools, beaucoup de débutants achètent plutôt sur une grande plateforme régulée comme [Coinbase](REF). Tout achat de crypto peut perdre de la valeur, n'utilisez donc que de l'argent que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Si l'accusation tente de contester l'acquittement.
+- Si d'autres affaires liées au MEV sont lancées sur la base d'autres lois.
+- Comment la décision sera citée dans de futures affaires de fraude crypto.
+
+!soft: Vous voulez protéger vos cryptos ? Lisez [Qu'est-ce qu'un portefeuille crypto : dépositaire ou auto-conservation](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

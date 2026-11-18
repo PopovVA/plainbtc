@@ -1,0 +1,61 @@
+title: Una jueza absuelve a los hermanos del MIT en el caso de 25 millones de dólares contra bots de Ethereum, fin del primer proceso penal por MEV en EE. UU.
+page_title: Absueltos los hermanos del caso MEV de 25 millones en Ethereum: qué significa el fallo
+description: Una jueza federal absolvió a Anton y James Peraire-Bueno de fraude electrónico y conspiración para blanquear dinero por una operación de 2023 que obtuvo unos 25 millones de dólares de bots de trading de Ethereum en 12 segundos. Qué pasó y por qué.
+og_description: Una jueza federal de Manhattan absolvió a dos hermanos formados en el MIT acusados de quitar unos 25 millones de dólares a bots de trading de Ethereum, al concluir que la fiscalía nunca probó una mentira. Qué es el MEV, cómo funcionó la operación y qué significa para ti.
+label: Regulación
+summary: Una jueza federal absolvió a Anton y James Peraire-Bueno por una operación de 2023 que obtuvo unos 25 millones de dólares de bots de trading de Ethereum en 12 segundos, al concluir que la fiscalía no probó una mentira relevante. Termina así el primer caso penal de EE. UU. por un exploit de MEV.
+===
+
+Una jueza federal de Manhattan ha absuelto a dos hermanos acusados de quitar unos 25 millones de dólares a bots automáticos de trading de Ethereum en 12 segundos. La jueza de distrito Jessica Clarke dictó sentencia absolutoria para Anton y James Peraire-Bueno el 16 de noviembre de 2026 por los cargos de fraude electrónico, conspiración para cometer fraude electrónico y conspiración para blanquear dinero, [informó CoinDesk](L1) a partir de su resolución.
+
+El fallo cierra lo que el Gobierno llamó un proceso "sin precedentes" sobre el MEV, una forma de obtener beneficios con el orden de las transacciones en una blockchain. Llega un año después de que el jurado no lograra un veredicto y la jueza declarara nulo el juicio en noviembre de 2025.
+
+!takeaways
+- La jueza Jessica Clarke absolvió a los hermanos Peraire-Bueno de todos los cargos el 16 de noviembre y ordenó cerrar el caso.
+- La fiscalía sostenía que en abril de 2023 los hermanos tendieron una trampa a bots de trading y aprovecharon un fallo de software para llevarse unos 25 millones de dólares en 12 segundos.
+- La jueza concluyó que el Gobierno no probó una "tergiversación material", una mentira relevante, que exige el delito de fraude electrónico.
+- El fallo no dice que la operación fuera correcta. Dice que no fue fraude electrónico según la ley que usó la fiscalía.
+
+!figure:timeline
+
+## Qué es el MEV, en palabras sencillas
+
+Cuando envías una transacción en Ethereum, primero espera en una cola pública llamada mempool hasta que un validador, el participante de la red elegido para añadir el siguiente bloque, la incluye. El MEV, siglas en inglés de "valor máximo extraíble", es el beneficio extra al alcance de quien controla el orden de las transacciones dentro de un bloque.
+
+Muchos bots de trading buscan ese beneficio con un "sándwich". Un bot detecta una compra grande pendiente, compra el mismo token justo antes, deja que esa compra empuje el precio al alza y vende justo después. Quien queda en medio obtiene un precio peor.
+
+## Cómo funcionó la operación
+
+Según la resolución del tribunal, tal como la describe CoinDesk, los hermanos tendieron una trampa en abril de 2023. Colocaron ocho transacciones cebo pensadas para atraer a bots de sándwich. Cuando le llegó el turno a su propio validador, un relé llamado Ultrasound le ofreció un bloque lleno de operaciones de los bots. El validador firmó la cabecera del bloque, una especie de resumen, con dos campos clave puestos a cero. El relé no comprobó esos campos y reveló igualmente el contenido del bloque.
+
+Con las operaciones de los bots a la vista, los hermanos construyeron su propio bloque. Mantuvieron las compras de los bots, pero sustituyeron el cebo por ventas que hundieron el precio antes de que los bots pudieran vender. Los bots perdieron unos 25 millones de dólares. El validador de los hermanos fue penalizado con alrededor de 1 ether. El plan se conocía como "Omakase". Según el bufete de los hermanos, [Williams & Connolly](L2), la fiscalía sostenía que aprovechaba un fallo de MEV-Boost, un software de código abierto que usa la mayoría de los validadores de Ethereum.
+
+!figure:fact
+
+## Por qué la jueza dijo que no hubo fraude
+
+El fraude electrónico exige una tergiversación material, una mentira en la que alguien confió. La jueza Clarke no encontró ninguna. Las operaciones cebo no prometían nada, escribió, porque "ningún operador que coloca una transacción en la mempool pública aceptaría que le hicieran un sándwich". La firma falsa tampoco contaba, porque el relé nunca comprobó los campos puestos a cero, de modo que "no tuvo efecto en el comportamiento de su destinatario".
+
+Describió Ethereum como "un entorno sin confianza, sumamente hostil y sin condiciones de uso". Y dejó claros los límites de su fallo: "La cuestión ante el tribunal no es si la conducta de los Peraire-Bueno fue correcta o moral, ni siquiera si violó delitos no imputados", escribió, según citó [BleepingComputer](L4). Al caer los cargos de fraude, cayó también el de conspiración para blanquear dinero.
+
+!mid_cta
+
+## El caso hasta ahora
+
+Los hermanos, que estudiaron en el MIT, fueron acusados en mayo de 2024. Tras un juicio de casi cuatro semanas a finales de 2025, el jurado no logró ponerse de acuerdo, según Williams & Connolly. Solo se congeló una billetera, con unos 3 millones de dólares de lo obtenido, y los hermanos habían sacado el resto para octubre de 2023, informó CoinDesk. [The Block](L3) señaló que la jueza también subrayó que las operaciones no se hicieron en un mercado regulado donde esa conducta estuviera prohibida. Aún no está claro si el Gobierno intentará recurrir el fallo.
+
+## Qué significa para los principiantes
+
+Para los usuarios comunes, la lección principal es práctica. El trading descentralizado en blockchains como Ethereum es, en palabras de la jueza, hostil, y los bots de sándwich siguen existiendo. Si intercambias tokens en un exchange descentralizado, mantén baja la tolerancia de deslizamiento (slippage) y ten cuidado con las operaciones grandes en mercados con poca liquidez. Si solo quieres tener algo de cripto sin lidiar con bots ni mempools, muchos principiantes compran en un gran exchange regulado como [Coinbase](REF). Cualquier compra de cripto puede perder valor, así que usa solo dinero que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar a continuación
+
+- Si la fiscalía intenta recurrir la absolución.
+- Si se presentan otros casos relacionados con el MEV bajo leyes distintas.
+- Cómo se cita este fallo en futuros casos de fraude cripto.
+
+!soft: ¿Quieres proteger tus monedas? Lee [Qué es un monedero cripto: custodia o autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

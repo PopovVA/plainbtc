@@ -1,0 +1,63 @@
+title: Rusya, bireysel yatırımcıların yılda 300.000 ruble sınırıyla bitcoin, ether ve USDT almasına izin verdi
+page_title: Rusya bitcoin, ether ve USDT'yi bireysel yatırımcılara açtı: 300.000 ruble sınırı nedir
+description: 17 Kasım'dan beri Rusya'daki bireysel yatırımcılar, bir bilgi testinden sonra, lisanslı aracılar üzerinden aracı başına yılda en fazla 300.000 ruble değerinde bitcoin, ether ve USDT alabiliyor. Büyük aracı kurumlar henüz hazır değil.
+og_description: Rusya Merkez Bankası'nın 17 Kasım'dan beri yürürlükte olan kuralı, bireysel yatırımcıların lisanslı aracılar üzerinden, test sonrası, her birinde yılda 300.000 rubleye kadar bitcoin, ether ve USDT almasına izin veriyor. Neye izin var, ne yasak, sırada ne var.
+label: Düzenleme
+summary: Rusya Merkez Bankası'nın 17 Kasım'da yürürlüğe giren kuralı, bireysel yatırımcıların lisanslı aracılar üzerinden aracı başına yılda 300.000 rubleye kadar bitcoin, ether ve USDT almasına bilgi testinden sonra izin veriyor. T-Bank ve VTB hâlâ test aşamasında.
+===
+
+Rusya, sıradan insanların düzenlemeye tabi şirketler aracılığıyla kripto para almasının önünü açtı. Rusya Merkez Bankası'nın 17 Kasım 2026'da yürürlüğe giren talimatı, sıradan bireysel alıcıları tanımlayan hukuki terimle "nitelikli olmayan" yatırımcıların bitcoin, ether ve dolara endeksli stablecoin USDT almasına izin veriyor, [merkez bankasının açıklamasına göre](L1).
+
+Sınırlar var. Tek bir aracı üzerinden yapılan alımlar yılda 300.000 rubleyle sınırlı. [Bitcoin Magazine'e](L2) göre bu, merkez bankasının salı günkü resmi kuruyla yaklaşık 3.600 $ ediyor. Her alıcı ayrıca ilk işlemden önce bir bilgi testini geçmek ve bir risk uyarısını okumak zorunda.
+
+!takeaways
+- 17 Kasım'dan beri Rusya'daki bireysel yatırımcılar bitcoin, ether ve USDT'yi aracı kurumlar, portföy yöneticileri veya lisanslı kripto döviz büroları üzerinden alabiliyor.
+- Sınır kişi başına değil, aracı başına yılda 300.000 ruble. Nitelikli (daha varlıklı, deneyimli) yatırımcılar için sınır yok ve her kripto varlığı alabiliyorlar.
+- Statüsü ne olursa olsun herkes önce bir testi geçmeli ve riskleri okumalı.
+- Büyük aracı kurumlar T-Bank ve VTB henüz alım sunmuyor. Borsalar 22 Kasım'dan itibaren organize işlemleri açabilir, Moskova Borsası ise 1 Aralık'ta pilot planlıyor.
+
+!figure:timeline
+
+## Yeni kural neye izin veriyor
+
+Talimata göre bireysel alıcılar onaylanan üç coini aracı kurum, portföy yöneticisi veya kripto döviz bürosu gibi bir aracı üzerinden, borsada ya da tezgâh üstü piyasada (doğrudan iki taraf arasında) alabiliyor. Aynı tarihten itibaren borsalar bu üç varlığı halka açık işleme kabul edebiliyor, [Rusya Merkez Bankası açıkladı](L1).
+
+Merkez bankası yalnızca en likit varlıkları seçtiğini söylüyor. Piyasa değeri, ortalama günlük işlem hacmi ve yabancı borsalarda en az beş yıllık fiyat geçmişi dikkate alındı. Düzenleyici, listeyi 6 Kasım'da açıklarken "Bu yaklaşım, nitelikli olmayan yatırımcılar için kripto varlıklara yatırım risklerini azaltmayı amaçlıyor" dedi.
+
+Rusya'da varlık veya mesleki deneyime bağlı bir statü olan nitelikli yatırımcıların alım sınırı yok ve her kripto varlığa erişebiliyorlar. Yine de testi geçmeleri gerekiyor.
+
+!figure:fact
+
+## Bankalar henüz hazır değil
+
+Hukuki kapı uygulamalardan önce açıldı. [Bitcoin Magazine'in](L2) TASS haber ajansına yapılan açıklamalara dayanarak bildirdiğine göre, Rusya'nın en büyük bireysel aracı kurumlarından T-Bank ve VTB ilk gün kripto alımı sunmuyordu.
+
+T-Bank'ta blokzincir geliştirmeden sorumlu Alexander Kretov, "T-Bank müşterilerinin bankacılık uygulamasında henüz kripto para görmemesinin ana nedeni, test için bir piyasa standardının olmaması" dedi. Kretov, Rusya Merkez Bankası bu standardı yayımlar yayımlamaz bankanın hizmeti başlatmaya hazır olduğunu söyledi. [BeInCrypto'ya](L4) göre VTB, yatırım uygulamasında müşteri sürecini test ettiğini ve kripto işlemlerini önce testi geçen nitelikli yatırımcılara açmayı planladığını belirtti.
+
+!mid_cta
+
+## Sırada ne var ve ne yasak
+
+17 Kasım, Rusya takvimindeki yalnızca ilk tarih. Ayrı bir talimata göre borsalar, işlem kuralları merkez bankasınca onaylandıktan sonra 22 Kasım'dan itibaren organize kripto işlemlerini açabiliyor. [Cointelegraph'a](L3) göre ülkenin en büyük borsası Moskova Borsası, bitcoin, ether ve USDT işlemlerine 1 Aralık'ta pilot olarak başlamayı planlıyor. Borsa ve takas kuruluşu ABD yaptırımları altında.
+
+Yeni erişim, lisanslı kanalların dışında daha sıkı denetimle birlikte geliyor. Cointelegraph'a göre doğrudan eşler arası kripto ticareti 1 Temmuz 2027'den itibaren yasaklanacak, düzenlenmiş hesaplardan kişisel saklamalı cüzdanlara transfer zaten yasak ve mal ve hizmet bedelini kriptoyla ödemek Rusya'da yasa dışı olmaya devam ediyor. Hukuki çerçeve, 1 Eylül'de yürürlüğe giren bir kripto piyasası yasasına dayanıyor.
+
+Bazı piyasa oyuncuları sınırın pek çok alıcıyı geri getireceğinden şüpheli. Bitcoin Magazine'in aktardığına göre aracı kurum Finam'dan Dmitry Lesnov, Vedomosti gazetesine Rusların zaten yabancı platformlarda yoğun işlem yaptığını ve 300.000 ruble sınırının bireysel ilgiyi önemli ölçüde kısıtlayacağını söyledi.
+
+## Neden önemli ve yeni başlayanlar için ne anlama geliyor
+
+Rusya büyük bir kripto piyasası ve kuralları ilk kez sıradan sakinlere bitcoin almak için lisanslı, yerli bir yol sunuyor. Zamanlama dikkat çekici: [CoinDesk'e](L5) göre bitcoin çarşamba günü yaklaşık 64.100 $ seviyesinden, ekim zirvesinin yaklaşık %26 altında işlem görüyordu.
+
+ABD'deki okurlar için doğrudan bir şey değişmiyor. Amerikalılar zaten düzenlenmiş platformlarda yıllık sınır olmadan kripto alabiliyor. Pek çok yeni başlayan [Coinbase](REF) gibi büyük bir borsada küçük bir miktarla başlayıp zamanla yavaş yavaş ekliyor. Yine de Rusya'nın yaklaşımında taklit etmeye değer bir ders var: Almadan önce riskleri anlayın. Kripto fiyatları sert dalgalanabilir, bu yüzden yalnızca kaybetmeyi göze alabileceğiniz parayı kullanın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Rusya Merkez Bankası'nın standart yatırımcı testini ne zaman yayımlayacağı ve T-Bank, VTB ile Sberbank'ın alımları açıp açmayacağı.
+- Borsaların 22 Kasım'dan sonra organize işlemleri açıp açmayacağı ve Moskova Borsası'nın 1 Aralık pilotunun nasıl geçeceği.
+- Piyasa işlemeye başladığında 300.000 ruble sınırının değişip değişmeyeceği.
+
+!soft: Cüzdanlarda yeni misiniz? [Kripto cüzdan nedir: emanetçi ve kişisel saklama](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

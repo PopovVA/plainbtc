@@ -1,0 +1,63 @@
+title: Rusia permite a los pequeños inversores comprar bitcoin, ether y USDT, con un tope de 300.000 rublos al año
+page_title: Rusia abre bitcoin, ether y USDT a los inversores minoristas: el tope de 300.000 rublos, explicado
+description: Desde el 17 de noviembre, los inversores minoristas rusos pueden comprar bitcoin, ether y USDT a través de intermediarios autorizados, con un tope de 300.000 rublos al año por intermediario y tras un test. Los grandes brókeres aún no están listos.
+og_description: Una norma del Banco de Rusia vigente desde el 17 de noviembre permite a los pequeños inversores comprar bitcoin, ether y USDT a través de intermediarios autorizados, hasta 300.000 rublos al año en cada uno, tras un test. Qué se permite, qué se prohíbe y qué viene después.
+label: Regulación
+summary: Una norma del Banco de Rusia que entró en vigor el 17 de noviembre permite a los pequeños inversores comprar bitcoin, ether y USDT a través de intermediarios autorizados, hasta 300.000 rublos al año por intermediario y tras un test. T-Bank y VTB aún están en pruebas.
+===
+
+Rusia ha abierto la puerta para que la gente común compre criptomonedas a través de empresas reguladas. Una disposición del Banco de Rusia que entró en vigor el 17 de noviembre de 2026 permite a los inversores "no cualificados", el término legal para los compradores minoristas de a pie, adquirir bitcoin, ether y la stablecoin ligada al dólar USDT, [según el banco central](L1).
+
+Hay límites. Las compras a través de un mismo intermediario tienen un tope de 300.000 rublos al año, unos 3.600 dólares al tipo oficial del banco central del martes, según [Bitcoin Magazine](L2). Además, cada comprador debe aprobar un test de conocimientos y leer una advertencia de riesgos antes de la primera operación.
+
+!takeaways
+- Desde el 17 de noviembre, los pequeños inversores rusos pueden comprar bitcoin, ether y USDT a través de brókeres, gestores fiduciarios o casas de cambio cripto autorizadas.
+- El tope es de 300.000 rublos al año por intermediario, no por persona. Los inversores cualificados (con más patrimonio o experiencia) no tienen tope y pueden comprar cualquier criptoactivo.
+- Todos, sea cual sea su estatus, deben aprobar un test y leer sobre los riesgos antes de operar.
+- Los grandes brókeres T-Bank y VTB aún no ofrecen compras. Las bolsas pueden abrir la negociación organizada desde el 22 de noviembre, y la Bolsa de Moscú prevé un piloto el 1 de diciembre.
+
+!figure:timeline
+
+## Qué permite la nueva norma
+
+Según la disposición, los compradores minoristas pueden adquirir las tres monedas aprobadas a través de un intermediario, como un bróker, un gestor fiduciario o una casa de cambio cripto, ya sea en bolsa o en el mercado extrabursátil (directamente entre dos partes). Desde esa misma fecha, las bolsas pueden admitir esos tres activos a negociación pública, [indicó el Banco de Rusia](L1).
+
+El banco central afirma que eligió solo los activos más líquidos. Tuvo en cuenta el valor de mercado, el volumen medio diario de negociación y al menos cinco años de historial de precios en bolsas extranjeras. "Este enfoque busca mitigar los riesgos de invertir en criptoactivos para los inversores no cualificados", dijo el regulador al anunciar la lista el 6 de noviembre.
+
+Los inversores cualificados, un estatus en Rusia ligado al patrimonio o a la experiencia profesional, no tienen tope de compra y pueden acceder a cualquier criptoactivo. Aun así, deben hacer el test.
+
+!figure:fact
+
+## Los bancos aún no están listos
+
+La puerta legal se abrió antes que las aplicaciones. Dos de los mayores brókeres minoristas de Rusia, T-Bank y VTB, no ofrecían compras de criptomonedas el primer día, [informó Bitcoin Magazine](L2), citando declaraciones a la agencia TASS.
+
+"La principal razón por la que los clientes de T-Bank aún no ven criptomonedas en su aplicación bancaria es la ausencia de un estándar de mercado para el test", dijo Alexander Kretov, responsable de desarrollo blockchain en T-Bank. Añadió que el banco está listo para lanzar el servicio en cuanto el Banco de Rusia publique ese estándar. VTB dijo que está probando el recorrido del cliente en su aplicación de inversión y que planea abrir la negociación cripto primero a inversores cualificados que aprueben el test, según [BeInCrypto](L4).
+
+!mid_cta
+
+## Qué viene después y qué está prohibido
+
+El 17 de noviembre es solo la primera fecha del calendario ruso. Según otra disposición, las bolsas pueden abrir la negociación cripto organizada desde el 22 de noviembre, una vez que el banco central apruebe sus reglas de negociación. La Bolsa de Moscú, la mayor del país, prevé empezar a negociar bitcoin, ether y USDT el 1 de diciembre como piloto, según [Cointelegraph](L3). La bolsa y su cámara de compensación están sancionadas por Estados Unidos.
+
+El nuevo acceso llega con un control más estricto fuera de los canales autorizados. Según Cointelegraph, el comercio cripto directo entre particulares quedará prohibido desde el 1 de julio de 2027, las transferencias desde cuentas reguladas a monederos de autocustodia ya están prohibidas y pagar bienes y servicios con criptomonedas sigue siendo ilegal en Rusia. El marco legal se basa en una ley del mercado cripto que entró en vigor el 1 de septiembre.
+
+Algunos actores del mercado dudan de que el tope atraiga a muchos compradores de vuelta al país. Dmitry Lesnov, de la correduría Finam, dijo al diario Vedomosti que los rusos ya operan mucho en plataformas extranjeras y que el límite de 300.000 rublos limitará de forma notable el interés minorista, informó Bitcoin Magazine.
+
+## Por qué importa y qué significa para los principiantes
+
+Rusia es un gran mercado cripto, y es la primera vez que sus normas dan a los residentes comunes una vía nacional y autorizada para comprar bitcoin. El momento llama la atención: el bitcoin cotizaba en torno a 64.100 dólares el miércoles, alrededor de un 26% por debajo de su máximo de octubre, según [CoinDesk](L5).
+
+Para los lectores en Estados Unidos no cambia nada de forma directa. Los estadounidenses ya pueden comprar cripto en plataformas reguladas sin un tope anual. Muchos principiantes empiezan con una cantidad pequeña en un gran exchange como [Coinbase](REF) y añaden poco a poco. El enfoque ruso deja, eso sí, una lección que vale la pena copiar: entiende los riesgos antes de comprar. Los precios cripto pueden oscilar con fuerza, así que usa solo dinero que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar a continuación
+
+- Cuándo publica el Banco de Rusia el test estándar para inversores, y si T-Bank, VTB y Sberbank activan las compras.
+- Si las bolsas abren la negociación organizada después del 22 de noviembre, y cómo va el piloto de la Bolsa de Moscú del 1 de diciembre.
+- Si el tope de 300.000 rublos cambia cuando el mercado esté en marcha.
+
+!soft: ¿Nuevo en monederos? Lee [Qué es un monedero cripto: custodia o autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

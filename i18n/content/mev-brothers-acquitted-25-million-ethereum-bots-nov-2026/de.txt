@@ -1,0 +1,61 @@
+title: Richterin spricht MIT-Brüder im 25-Millionen-Dollar-Fall um Ethereum-Trading-Bots frei, erster US-Strafprozess wegen MEV endet
+page_title: MEV-Brüder im 25-Millionen-Dollar-Ethereum-Fall freigesprochen: Was das Urteil bedeutet
+description: Eine Bundesrichterin hat Anton und James Peraire-Bueno vom Vorwurf des Überweisungsbetrugs und der Verschwörung zur Geldwäsche freigesprochen. Es ging um einen Handel von 2023, der Ethereum-Trading-Bots in 12 Sekunden rund 25 Mio. Dollar kostete. Was passiert ist und warum.
+og_description: Eine Bundesrichterin in Manhattan hat zwei am MIT ausgebildete Brüder freigesprochen, denen vorgeworfen wurde, Ethereum-Trading-Bots rund 25 Mio. Dollar abgenommen zu haben. Die Anklage habe keine Lüge bewiesen. Was MEV ist, wie der Handel ablief und was das für Sie bedeutet.
+label: Regulierung
+summary: Eine Bundesrichterin hat Anton und James Peraire-Bueno freigesprochen. Es ging um einen Handel von 2023, der Ethereum-Trading-Bots in 12 Sekunden rund 25 Mio. Dollar kostete; die Anklage habe keine wesentliche Lüge bewiesen. Damit endet der erste US-Strafprozess wegen eines MEV-Exploits.
+===
+
+Eine Bundesrichterin in Manhattan hat zwei Brüder freigesprochen, denen vorgeworfen wurde, automatisierten Ethereum-Trading-Bots in 12 Sekunden rund 25 Mio. Dollar abgenommen zu haben. Bezirksrichterin Jessica Clarke sprach Anton und James Peraire-Bueno am 16. November 2026 von den Vorwürfen des Überweisungsbetrugs, der Verschwörung zum Überweisungsbetrug und der Verschwörung zur Geldwäsche frei, [berichtete CoinDesk](L1) unter Berufung auf ihre Entscheidung.
+
+Das Urteil beendet ein Verfahren, das die Regierung als „erstes seiner Art“ bezeichnete. Es ging um MEV, also Gewinne aus der Reihenfolge von Transaktionen auf einer Blockchain. Es kommt ein Jahr, nachdem sich die Jury nicht einigen konnte und die Richterin den Prozess im November 2025 für gescheitert erklärte.
+
+!takeaways
+- Richterin Jessica Clarke sprach die Brüder Peraire-Bueno am 16. November in allen Punkten frei und ordnete den Abschluss des Verfahrens an.
+- Laut Anklage lockten die Brüder im April 2023 Trading-Bots in eine Falle und nutzten eine Softwarelücke, um in 12 Sekunden rund 25 Mio. Dollar zu erbeuten.
+- Die Richterin entschied, die Regierung habe keine „wesentliche Falschdarstellung“ bewiesen, also eine Lüge, auf die es ankommt. Diese setzt Überweisungsbetrug voraus.
+- Das Urteil sagt nicht, dass der Handel richtig war. Es sagt, dass er nach dem angewandten Gesetz kein Überweisungsbetrug war.
+
+!figure:timeline
+
+## Was MEV ist, einfach erklärt
+
+Wer auf Ethereum eine Transaktion sendet, landet zuerst in einer öffentlichen Warteschlange, dem Mempool, bis ein Validator, also der Netzwerkteilnehmer, der den nächsten Block hinzufügen darf, sie aufnimmt. MEV steht für „maximal extractable value“, den zusätzlichen Gewinn für denjenigen, der die Reihenfolge der Transaktionen in einem Block bestimmt.
+
+Viele Trading-Bots jagen diesen Gewinn mit einem „Sandwich“. Ein Bot entdeckt einen großen ausstehenden Kauf, kauft denselben Token kurz davor, lässt den Kauf den Preis nach oben treiben und verkauft direkt danach. Wer in der Mitte steckt, bekommt einen schlechteren Preis.
+
+## Wie der Handel ablief
+
+Laut der Entscheidung des Gerichts, wie CoinDesk sie beschreibt, stellten die Brüder im April 2023 eine Falle. Sie platzierten acht Köder-Transaktionen, die Sandwich-Bots anlocken sollten. Als ihr eigener Validator an der Reihe war, bot ihm ein Relay namens Ultrasound einen Block voller Bot-Trades an. Der Validator signierte den Block-Header, eine Art Zusammenfassung, mit zwei wichtigen Feldern auf null. Das Relay prüfte diese Felder nicht und gab den Inhalt des Blocks trotzdem frei.
+
+Mit den sichtbaren Bot-Trades bauten die Brüder ihren eigenen Block. Sie behielten die Käufe der Bots, ersetzten aber den Köder durch Verkäufe, die den Preis abstürzen ließen, bevor die Bots verkaufen konnten. Die Bots verloren rund 25 Mio. Dollar. Der Validator der Brüder wurde mit etwa 1 Ether bestraft. Das Vorgehen war als „Omakase“ bekannt. Laut der Anwaltskanzlei der Brüder, [Williams & Connolly](L2), warf die Anklage ihnen vor, eine Lücke in MEV-Boost ausgenutzt zu haben, einer Open-Source-Software, die die meisten Ethereum-Validatoren nutzen.
+
+!figure:fact
+
+## Warum die Richterin keinen Betrug sah
+
+Überweisungsbetrug setzt eine wesentliche Falschdarstellung voraus, also eine Lüge, auf die sich jemand verlassen hat. Richterin Clarke fand keine. Die Köder-Trades hätten nichts versprochen, schrieb sie, denn „kein Händler, der eine Transaktion in den öffentlichen Mempool stellt, würde zustimmen, in ein Sandwich genommen zu werden“. Auch die falsche Signatur zählte nicht, weil das Relay die genullten Felder nie prüfte. Sie habe daher „keine Wirkung auf das Verhalten ihres Empfängers“ gehabt.
+
+Sie beschrieb Ethereum als „eine vertrauenslose, äußerst konfrontative Umgebung ohne Nutzungsbedingungen“. Und sie stellte die Grenzen ihres Urteils klar: „Die Frage vor dem Gericht ist nicht, ob das Verhalten der Peraire-Buenos richtig oder moralisch war, oder auch nur, ob es gegen nicht angeklagte Straftatbestände verstieß“, schrieb sie, wie [BleepingComputer](L4) zitiert. Mit den Betrugsvorwürfen fiel auch der Vorwurf der Verschwörung zur Geldwäsche.
+
+!mid_cta
+
+## Der bisherige Verlauf
+
+Die Brüder, die am MIT studiert haben, wurden im Mai 2024 angeklagt. Nach einem fast vierwöchigen Prozess Ende 2025 konnte sich die Jury laut Williams & Connolly nicht einigen. Nur eine Wallet mit rund 3 Mio. Dollar der Erlöse wurde je eingefroren, den Rest hatten die Brüder bis Oktober 2023 weitergeleitet, berichtete CoinDesk. [The Block](L3) wies darauf hin, dass die Richterin auch betonte, die Trades hätten nicht auf einem regulierten Markt stattgefunden, auf dem ein solches Verhalten verboten wäre. Ob die Regierung versucht, das Urteil anzufechten, ist noch offen.
+
+## Was es für Einsteiger bedeutet
+
+Für normale Krypto-Nutzer ist die wichtigste Lehre praktisch. Dezentraler Handel auf Blockchains wie Ethereum ist, in den Worten der Richterin, konfrontativ, und Sandwich-Bots gibt es weiterhin. Wer Token auf einer dezentralen Börse tauscht, sollte die Slippage-Toleranz niedrig halten und bei großen Trades in dünnen Märkten vorsichtig sein. Wer einfach etwas Krypto besitzen will, ohne sich mit Bots und Mempools zu befassen, kauft wie viele Einsteiger lieber auf einer großen regulierten Börse wie [Coinbase](REF). Jeder Kryptokauf kann an Wert verlieren, setzen Sie also nur Geld ein, dessen Verlust Sie verkraften können. Dies ist keine Anlageberatung.
+
+## Worauf man achten sollte
+
+- Ob die Anklage versucht, den Freispruch anzufechten.
+- Ob andere MEV-Fälle auf Grundlage anderer Gesetze verfolgt werden.
+- Wie das Urteil in künftigen Krypto-Betrugsfällen zitiert wird.
+
+!soft: Möchten Sie Ihre Coins schützen? Lesen Sie [Was ist eine Krypto-Wallet: verwahrt oder selbst verwahrt](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

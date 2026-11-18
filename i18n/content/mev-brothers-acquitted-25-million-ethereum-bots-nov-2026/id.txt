@@ -1,0 +1,61 @@
+title: Hakim bebaskan kakak beradik lulusan MIT dalam kasus US$25 juta dari bot trading Ethereum, akhiri perkara pidana MEV pertama di AS
+page_title: Kakak beradik kasus MEV US$25 juta di Ethereum dibebaskan: apa arti putusannya
+description: Seorang hakim federal membebaskan Anton dan James Peraire-Bueno dari dakwaan penipuan elektronik dan konspirasi pencucian uang atas transaksi tahun 2023 yang mengambil sekitar US$25 juta dari bot trading Ethereum dalam 12 detik. Inilah yang terjadi dan alasannya.
+og_description: Seorang hakim federal di Manhattan membebaskan dua kakak beradik lulusan MIT yang dituduh mengambil sekitar US$25 juta dari bot trading Ethereum, karena jaksa tidak pernah membuktikan adanya kebohongan. Apa itu MEV, bagaimana transaksinya berjalan, dan artinya bagi Anda.
+label: Regulasi
+summary: Seorang hakim federal membebaskan Anton dan James Peraire-Bueno atas transaksi tahun 2023 yang mengambil sekitar US$25 juta dari bot trading Ethereum dalam 12 detik, karena jaksa gagal membuktikan kebohongan yang material. Ini mengakhiri perkara pidana pertama di AS atas eksploitasi MEV.
+===
+
+Seorang hakim federal di Manhattan membebaskan dua kakak beradik yang dituduh mengambil sekitar US$25 juta dari bot trading Ethereum otomatis dalam 12 detik. Hakim Distrik AS Jessica Clarke menjatuhkan putusan bebas untuk Anton dan James Peraire-Bueno pada 16 November 2026 atas dakwaan penipuan elektronik, konspirasi penipuan elektronik, dan konspirasi pencucian uang, [lapor CoinDesk](L1) berdasarkan putusannya.
+
+Putusan ini menutup perkara yang oleh pemerintah disebut "yang pertama dari jenisnya" terkait MEV, cara meraup untung dari urutan transaksi di blockchain. Putusan datang setahun setelah juri buntu dan hakim menyatakan sidang batal pada November 2025.
+
+!takeaways
+- Hakim Jessica Clarke membebaskan kakak beradik Peraire-Bueno dari semua dakwaan pada 16 November dan memerintahkan perkara ditutup.
+- Menurut jaksa, pada April 2023 keduanya memancing bot trading ke dalam jebakan dan memanfaatkan celah perangkat lunak untuk mengambil sekitar US$25 juta dalam 12 detik.
+- Hakim memutuskan pemerintah gagal membuktikan "pernyataan keliru yang material", yaitu kebohongan yang berarti, yang menjadi syarat penipuan elektronik.
+- Putusan ini tidak menyatakan transaksi itu benar. Putusan hanya menyatakan itu bukan penipuan elektronik menurut undang-undang yang dipakai jaksa.
+
+!figure:timeline
+
+## Apa itu MEV, dengan bahasa sederhana
+
+Saat Anda mengirim transaksi di Ethereum, transaksi itu lebih dulu menunggu di antrean publik bernama mempool sampai validator, peserta jaringan yang dipilih untuk menambahkan blok berikutnya, memasukkannya. MEV, singkatan dari "maximal extractable value", adalah keuntungan tambahan bagi siapa pun yang mengendalikan urutan transaksi dalam sebuah blok.
+
+Banyak bot trading memburu keuntungan itu dengan "sandwich". Bot melihat pembelian besar yang tertunda, membeli token yang sama tepat sebelumnya, membiarkan pembelian itu mendorong harga naik, lalu menjual tepat sesudahnya. Orang yang terjepit di tengah mendapat harga lebih buruk.
+
+## Bagaimana transaksinya berjalan
+
+Menurut putusan pengadilan seperti diuraikan CoinDesk, keduanya memasang jebakan pada April 2023. Mereka menempatkan delapan transaksi umpan untuk memikat bot sandwich. Ketika giliran validator mereka tiba, sebuah relay bernama Ultrasound menawarkan blok yang penuh transaksi bot. Validator menandatangani header blok, semacam ringkasan, dengan dua kolom penting bernilai nol. Relay tidak memeriksa kolom tersebut dan tetap membuka isi blok.
+
+Setelah transaksi bot terlihat, keduanya menyusun blok sendiri. Mereka mempertahankan pembelian bot, tetapi mengganti umpan dengan penjualan yang menjatuhkan harga sebelum bot sempat menjual. Bot kehilangan sekitar US$25 juta. Validator milik mereka dikenai penalti sekitar 1 ether. Skema ini dikenal dengan nama "Omakase". Menurut firma hukum mereka, [Williams & Connolly](L2), jaksa menuduh skema itu memanfaatkan celah di MEV-Boost, perangkat lunak sumber terbuka yang dipakai sebagian besar validator Ethereum.
+
+!figure:fact
+
+## Mengapa hakim menilai ini bukan penipuan
+
+Penipuan elektronik mensyaratkan pernyataan keliru yang material, yaitu kebohongan yang diandalkan seseorang. Hakim Clarke tidak menemukannya. Transaksi umpan tidak menjanjikan apa pun, tulisnya, karena "tidak ada trader yang menempatkan transaksi di mempool publik yang mau di-sandwich". Tanda tangan palsu juga tidak dihitung, karena relay tidak pernah memeriksa kolom yang dinolkan, sehingga tanda tangan itu "tidak berpengaruh pada perilaku penerimanya".
+
+Ia menggambarkan Ethereum sebagai "lingkungan tanpa kepercayaan, sangat penuh persaingan, dan tanpa syarat penggunaan". Ia juga menegaskan batas putusannya: "Pertanyaan di hadapan pengadilan bukanlah apakah perbuatan Peraire-Bueno benar atau bermoral, atau bahkan apakah perbuatan itu melanggar kejahatan yang tidak didakwakan," tulisnya, seperti dikutip [BleepingComputer](L4). Setelah dakwaan penipuan gugur, dakwaan konspirasi pencucian uang ikut gugur.
+
+!mid_cta
+
+## Perjalanan kasus
+
+Kakak beradik yang pernah kuliah di MIT itu didakwa pada Mei 2024. Setelah persidangan hampir empat minggu pada akhir 2025, juri tidak mencapai kesepakatan, menurut Williams & Connolly. Hanya satu dompet berisi sekitar US$3 juta dari hasilnya yang sempat dibekukan, dan keduanya sudah memindahkan sisanya pada Oktober 2023, lapor CoinDesk. [The Block](L3) mencatat bahwa hakim juga menegaskan transaksi itu tidak dilakukan di pasar teregulasi yang melarang perilaku semacam itu. Belum jelas apakah pemerintah akan mencoba menggugat putusan ini.
+
+## Artinya bagi pemula
+
+Bagi pengguna kripto biasa, pelajaran utamanya bersifat praktis. Perdagangan terdesentralisasi di blockchain seperti Ethereum, menurut kata-kata hakim, penuh persaingan, dan bot sandwich masih ada. Jika Anda menukar token di bursa terdesentralisasi, pasang toleransi slippage yang rendah dan berhati-hatilah dengan transaksi besar di pasar yang sepi. Jika Anda hanya ingin memiliki sedikit kripto tanpa berurusan dengan bot dan mempool, banyak pemula membeli di bursa besar yang teregulasi seperti [Coinbase](REF). Setiap pembelian kripto bisa turun nilainya, jadi gunakan hanya uang yang sanggup Anda tanggung kehilangannya. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Apakah jaksa mencoba menggugat putusan bebas ini.
+- Apakah kasus lain terkait MEV diajukan dengan undang-undang yang berbeda.
+- Bagaimana putusan ini dikutip dalam kasus penipuan kripto di masa depan.
+
+!soft: Ingin menjaga koin Anda tetap aman? Baca [Apa itu dompet kripto: kustodian vs. simpan sendiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

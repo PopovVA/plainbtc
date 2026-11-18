@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Ethereum_logo_2014.svg",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ethereum_logo_2014.svg",
+      "credit": "Ethereum Foundation"
+    },
+    {
+      "file": "CoinDesk, Nov. 18, 2026",
+      "license": "Figures cited",
+      "url": "https://www.coindesk.com/policy/2026/11/18/u-s-judge-says-ethereum-has-no-terms-of-use-clears-mit-brothers-of-usd25-million-fraud",
+      "credit": "CoinDesk"
+    }
+  ],
+  "note": "Editorial composite; trademarks belong to their owners.",
+  "slug": "mev-brothers-acquitted-25-million-ethereum-bots-nov-2026",
+  "generated": "2026-11-18T14:06Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

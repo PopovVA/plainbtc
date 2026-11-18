@@ -1,0 +1,63 @@
+title: La Russie autorise les particuliers à acheter du bitcoin, de l'ether et de l'USDT, dans la limite de 300 000 roubles par an
+page_title: La Russie ouvre bitcoin, ether et USDT aux particuliers : le plafond de 300 000 roubles expliqué
+description: Depuis le 17 novembre, les particuliers russes peuvent acheter du bitcoin, de l'ether et de l'USDT via des intermédiaires agréés, dans la limite de 300 000 roubles par an et par intermédiaire, après un test. Les grands courtiers ne sont pas encore prêts.
+og_description: Une règle de la Banque de Russie en vigueur depuis le 17 novembre permet aux particuliers d'acheter du bitcoin, de l'ether et de l'USDT via des intermédiaires agréés, jusqu'à 300 000 roubles par an chacun, après un test. Ce qui est permis, ce qui est interdit et la suite.
+label: Régulation
+summary: Une règle de la Banque de Russie entrée en vigueur le 17 novembre permet aux particuliers d'acheter du bitcoin, de l'ether et de l'USDT via des intermédiaires agréés, jusqu'à 300 000 roubles par an et par intermédiaire, après un test. T-Bank et VTB sont encore en phase de test.
+===
+
+La Russie ouvre la porte aux particuliers qui veulent acheter des cryptomonnaies auprès d'entreprises régulées. Une ordonnance de la Banque de Russie entrée en vigueur le 17 novembre 2026 permet aux investisseurs « non qualifiés », le terme juridique désignant les acheteurs particuliers ordinaires, d'acheter du bitcoin, de l'ether et l'USDT, un stablecoin indexé sur le dollar, [selon la banque centrale](L1).
+
+Il y a des limites. Les achats passés par un même intermédiaire sont plafonnés à 300 000 roubles par an, soit environ 3 600 dollars au taux officiel de la banque centrale mardi, selon [Bitcoin Magazine](L2). Chaque acheteur doit aussi réussir un test de connaissances et lire un avertissement sur les risques avant sa première transaction.
+
+!takeaways
+- Depuis le 17 novembre, les particuliers russes peuvent acheter du bitcoin, de l'ether et de l'USDT via des courtiers, des gérants sous mandat ou des bureaux de change crypto agréés.
+- Le plafond est de 300 000 roubles par an et par intermédiaire, et non par personne. Les investisseurs qualifiés (plus fortunés ou expérimentés) n'ont pas de plafond et peuvent acheter n'importe quel crypto-actif.
+- Tout le monde, quel que soit son statut, doit d'abord réussir un test et lire une information sur les risques.
+- Les grands courtiers T-Bank et VTB ne proposent pas encore d'achats. Les bourses peuvent ouvrir des échanges organisés à partir du 22 novembre, et la Bourse de Moscou prévoit un pilote le 1er décembre.
+
+!figure:timeline
+
+## Ce que permet la nouvelle règle
+
+Selon l'ordonnance, les particuliers peuvent acheter les trois cryptomonnaies autorisées via un intermédiaire, comme un courtier, un gérant sous mandat ou un bureau de change crypto, en bourse ou de gré à gré (directement entre deux parties). À partir de la même date, les bourses peuvent admettre ces trois actifs à la négociation publique, [a indiqué la Banque de Russie](L1).
+
+La banque centrale dit n'avoir retenu que les actifs les plus liquides. Elle a pris en compte la capitalisation, le volume moyen d'échanges quotidien et au moins cinq ans d'historique de prix sur des plateformes étrangères. « Cette approche vise à atténuer les risques d'investissement dans les crypto-actifs pour les investisseurs non qualifiés », a déclaré le régulateur en annonçant la liste le 6 novembre.
+
+Les investisseurs qualifiés, un statut lié en Russie au patrimoine ou à l'expérience professionnelle, n'ont pas de plafond d'achat et peuvent accéder à tous les crypto-actifs. Ils doivent tout de même passer le test.
+
+!figure:fact
+
+## Les banques ne sont pas encore prêtes
+
+La porte juridique s'est ouverte avant les applications. Deux des plus grands courtiers grand public de Russie, T-Bank et VTB, ne proposaient pas d'achat de cryptomonnaies le premier jour, [a rapporté Bitcoin Magazine](L2), citant des déclarations à l'agence TASS.
+
+« La principale raison pour laquelle les clients de T-Bank ne voient pas encore de cryptomonnaies dans leur application bancaire est l'absence de norme de marché pour le test », a déclaré Alexander Kretov, responsable du développement blockchain chez T-Bank. Selon lui, la banque est prête à lancer le service dès que la Banque de Russie publiera cette norme. VTB dit tester le parcours client dans son application d'investissement et prévoit d'ouvrir le trading crypto d'abord aux investisseurs qualifiés ayant réussi le test, selon [BeInCrypto](L4).
+
+!mid_cta
+
+## La suite, et ce qui est interdit
+
+Le 17 novembre n'est que la première date du calendrier russe. En vertu d'une autre ordonnance, les bourses peuvent ouvrir des échanges organisés de cryptomonnaies à partir du 22 novembre, une fois leurs règles de négociation approuvées par la banque centrale. La Bourse de Moscou, la plus grande du pays, prévoit de lancer la négociation du bitcoin, de l'ether et de l'USDT le 1er décembre à titre pilote, selon [Cointelegraph](L3). La bourse et sa chambre de compensation font l'objet de sanctions américaines.
+
+Ce nouvel accès s'accompagne d'un contrôle plus strict hors des canaux agréés. Selon Cointelegraph, les échanges de cryptomonnaies directement entre particuliers seront interdits à partir du 1er juillet 2027, les transferts depuis des comptes régulés vers des portefeuilles en auto-conservation sont déjà interdits, et payer des biens et services en cryptomonnaies reste illégal en Russie. Le cadre juridique repose sur une loi sur le marché crypto entrée en vigueur le 1er septembre.
+
+Certains acteurs doutent que le plafond fasse revenir beaucoup d'acheteurs. Dmitry Lesnov, du courtier Finam, a déclaré au quotidien Vedomosti que les Russes négocient déjà beaucoup sur des plateformes étrangères et que la limite de 300 000 roubles freinera nettement l'intérêt des particuliers, a rapporté Bitcoin Magazine.
+
+## Pourquoi c'est important, et ce que cela change pour les débutants
+
+La Russie est un grand marché crypto, et c'est la première fois que ses règles offrent aux résidents ordinaires une voie nationale et agréée pour acheter du bitcoin. Le moment est notable : le bitcoin s'échangeait autour de 64 100 dollars mercredi, environ 26 % sous son sommet d'octobre, selon [CoinDesk](L5).
+
+Pour les lecteurs aux États-Unis, rien ne change directement. Les Américains peuvent déjà acheter des cryptos sur des plateformes régulées sans plafond annuel. Beaucoup de débutants commencent avec une petite somme sur une grande plateforme comme [Coinbase](REF) et complètent peu à peu. L'approche russe contient toutefois une leçon à retenir : comprenez les risques avant d'acheter. Les prix des cryptos peuvent varier fortement, n'utilisez donc que de l'argent que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Quand la Banque de Russie publiera le test standard pour les investisseurs, et si T-Bank, VTB et Sberbank activeront les achats.
+- Si les bourses ouvrent des échanges organisés après le 22 novembre, et comment se déroule le pilote de la Bourse de Moscou du 1er décembre.
+- Si le plafond de 300 000 roubles évolue une fois le marché lancé.
+
+!soft: Vous débutez avec les portefeuilles ? Lisez [Qu'est-ce qu'un portefeuille crypto : dépositaire ou auto-conservation](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure
