@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Commodity_Futures_Trading_Commission_seal.svg",
+      "license": "Public domain (U.S. government)",
+      "url": "https://commons.wikimedia.org/wiki/File:Commodity_Futures_Trading_Commission_seal.svg",
+      "credit": "CFTC"
+    },
+    {
+      "file": "backpack.exchange favicon.svg",
+      "license": "Logo",
+      "url": "https://backpack.exchange/",
+      "credit": "Backpack (logo, identification only)"
+    },
+    {
+      "file": "CFTC statement and orders, Nov. 13-16, 2026",
+      "license": "Fact cited",
+      "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement111626",
+      "credit": "CFTC"
+    }
+  ],
+  "note": "Editorial composite for identification; no endorsement by the CFTC implied; trademarks belong to their owners.",
+  "slug": "cftc-approves-backpack-blockchain-derivatives-exchange-nov-2026",
+  "generated": "2026-11-18T00:03Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

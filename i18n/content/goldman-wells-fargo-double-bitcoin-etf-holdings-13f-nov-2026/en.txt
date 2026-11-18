@@ -1,0 +1,55 @@
+title: Goldman Sachs and Wells Fargo more than doubled their bitcoin ETF holdings before the selloff, filings show
+page_title: Goldman Sachs and Wells Fargo doubled bitcoin ETF holdings in Q3: what 13F filings show
+description: New 13F filings show Goldman Sachs held $1.283 billion in spot bitcoin ETFs and Wells Fargo $2.35 billion in BlackRock's IBIT on Sept. 30, both more than double June. The data predates bitcoin's slide, and ETF outflows only paused on Nov. 16.
+og_description: Goldman Sachs reported $1.283 billion in spot bitcoin ETFs and Wells Fargo $2.35 billion in IBIT as of Sept. 30. But that snapshot predates the drop to about $62,000 and a seven-day, $1.91 billion ETF outflow streak.
+label: Markets
+summary: Quarterly 13F filings show Goldman Sachs held $1.283 billion in spot bitcoin ETFs and Wells Fargo $2.35 billion in BlackRock's IBIT on Sept. 30, more than double June. The numbers predate bitcoin's slide and a $1.91 billion outflow streak.
+===
+
+Two of the biggest U.S. banks reported much larger bitcoin fund positions in their latest quarterly filings. Goldman Sachs held about <strong>$1.283 billion</strong> in spot bitcoin exchange-traded funds (ETFs) on Sept. 30, up from about $580 million at the end of June, [Bitcoin Magazine reported](L1). Wells Fargo reported <strong>$2.35 billion</strong> in BlackRock's iShares Bitcoin Trust (IBIT), up from about $812 million, according to [CoinDesk](L2).
+
+The catch is timing. These are snapshots from Sept. 30, filed on Monday, Nov. 16. Since then bitcoin has fallen sharply, and investors have pulled money out of bitcoin ETFs on most trading days since late October.
+
+!takeaways
+- Goldman Sachs reported $1.283 billion across five spot bitcoin funds on Sept. 30, up about 121% from June. Wells Fargo reported $2.35 billion in IBIT, up from about $812 million.
+- Part of the jump came from price: IBIT shares rose from $33.29 to $47.34 during the quarter, about 42%.
+- The filings are a Sept. 30 snapshot. They do not show what the banks did during the October and November slide.
+- U.S. spot bitcoin ETFs lost about $1.91 billion over seven straight trading days, then took in a net $7.9 million on Nov. 16, according to Farside Investors.
+
+!figure:chart
+
+## What the filings show
+
+Large investment managers must file a [Form 13F](L3) with the Securities and Exchange Commission (SEC) every quarter, listing their holdings of U.S. stocks, ETFs and some other securities. It is one of the few public windows into what big institutions own.
+
+At Goldman, BlackRock's IBIT was still the largest bitcoin fund holding, at 16,440,599 shares worth $778.3 million, though the share count slipped about 5% from midyear. The bigger change was in Fidelity's fund (FBTC): Goldman held 5,477,583 shares worth $397.9 million, up from just 105,840 shares three months earlier. It also listed a new stake of 2,000,020 shares in the Morgan Stanley Bitcoin Trust, worth $47.9 million. Goldman also reported large IBIT options positions, but the filing does not say which positions are hedges for clients and which are its own bets. In the other direction, Goldman cut its stake in Strategy, the company that buys bitcoin with its balance sheet, by about 52% to 2,760,766 shares.
+
+Wells Fargo's 49.58 million IBIT shares represent indirect exposure to about 28,070 bitcoin, CoinDesk calculated from BlackRock's own figures. For comparison, Tesla reported 11,509 bitcoin and SpaceX 18,712 at the end of September. CoinDesk said Wells Fargo was the largest reported IBIT holder among investment managers in the filings. But the number includes positions managed for clients, so it does not show how much is the bank's own money.
+
+!mid_cta
+
+## A snapshot before the slide
+
+Much of the growth in dollar terms came from bitcoin's rally in the third quarter, not only from new buying. The picture since then is very different. Bitcoin went from above $83,000 at the end of September to about $62,000 last weekend, according to Bitcoin Magazine, and it traded near $64,900 on Tuesday evening, Nov. 17, according to CoinGecko. At IBIT's Monday closing price of $36.79, Goldman's IBIT shares would be worth about $605 million, roughly $173 million less than in the filing.
+
+!figure:flows
+
+Fund flows tell the same story. According to [Farside Investors](L4), U.S. spot bitcoin ETFs had net outflows on 10 of the 12 trading days from Oct. 30 to Nov. 16, including seven straight days from Nov. 5 to Nov. 13 that added up to about $1.91 billion. On Monday, Nov. 16, the streak paused with a small net inflow of $7.9 million, as $76.5 million went into IBIT while most other funds still saw money leave.
+
+## What it means for beginners
+
+Big banks holding bitcoin ETFs is a sign that the funds have become a normal part of Wall Street portfolios. It is not a signal that the price will go up, and the filings are six weeks old. The next 13F filings, due in mid-February, will show whether these positions grew or shrank during the selloff.
+
+If you are deciding how to get exposure yourself, an ETF in a brokerage account and buying bitcoin directly both work, with different fees and trade-offs. Some beginners start with a small amount on a large exchange such as [Coinbase](REF). Prices can swing hard in both directions, so only invest what you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Whether the Nov. 16 inflow turns into a run of inflows or the outflows resume.
+- Other banks' and funds' 13F filings for the third quarter.
+- Fourth-quarter 13F filings in mid-February, which will cover the slide.
+
+!soft: New to this? Read [Bitcoin ETF vs. buying bitcoin directly](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,61 @@
+title: CFTC menyetujui bursa derivatif berbasis blockchain milik Backpack, membuka jalan di AS bagi kontrak berjangka perpetual kripto
+page_title: CFTC menyetujui bursa dan lembaga kliring Backpack: arti perp kripto di AS bagi Anda
+description: CFTC menyetujui bursa (16 November) dan lembaga kliring (13 November) Backpack di AS, yang menyelesaikan transaksi di blockchain, setelah tZERO mendapat persetujuan serupa. Backpack menyiapkan kontrak berjangka perpetual kripto dengan leverage. Ini artinya.
+og_description: CFTC menyetujui bursa dan lembaga kliring Backpack yang menyelesaikan transaksi di blockchain. Backpack menyiapkan perpetual kripto dengan leverage 24/7 untuk warga AS. Apa yang berubah, apa yang tidak, dan risikonya bagi pemula.
+label: Regulasi
+summary: CFTC menyetujui bursa derivatif dan lembaga kliring Backpack di AS, yang memakai blockchain untuk mengeksekusi dan menyelesaikan transaksi, setelah persetujuan serupa untuk tZERO. Backpack menyiapkan perpetual kripto dengan leverage 24/7. Belum ada tanggal peluncuran.
+===
+
+Commodity Futures Trading Commission (CFTC), regulator AS untuk kontrak berjangka dan derivatif lainnya, menyetujui sebuah perusahaan kripto untuk menjalankan sekaligus bursa dan lembaga kliring yang memakai teknologi blockchain untuk mengeksekusi dan menyelesaikan transaksi. Ketua CFTC Michael Selig menyebutnya "tonggak penting dalam evolusi pasar keuangan Amerika" dalam [pernyataan pada 16 November](L1).
+
+Perusahaan itu adalah Backpack. Bursanya di AS, TLD Markets (beroperasi sebagai Backpack Exchange), ditetapkan sebagai pasar kontrak pada 16 November, dan unit kliringnya, TLD Clearing (Backpack Clearing), terdaftar sebagai lembaga kliring derivatif pada 13 November, menurut [perintah pendaftaran CFTC](L2) dan Backpack.
+
+!takeaways
+- CFTC menyetujui bursa Backpack di AS pada 16 November dan lembaga kliringnya pada 13 November. Keduanya memakai arsitektur berbasis blockchain untuk eksekusi dan penyelesaian.
+- Backpack mengatakan pengguna di AS akan bisa memperdagangkan kontrak berjangka perpetual kripto dengan leverage 24 jam, dengan dolar atau kripto sebagai jaminan. Belum ada tanggal peluncuran.
+- tZERO lebih dulu mendapat dua jenis persetujuan yang sama: lembaga kliringnya pada 16 Oktober dan bursanya pada 10 November.
+- Perpetual dengan leverage adalah produk berisiko tinggi. Sebagian besar pemula tidak memerlukannya untuk memiliki kripto.
+
+!figure:timeline
+
+## Apa persisnya yang disetujui
+
+Pasar derivatif di AS membutuhkan dua bagian. Pasar kontrak yang ditetapkan (DCM) adalah bursa tempat pembeli dan penjual bertemu. Lembaga kliring derivatif (DCO) berdiri di tengah setiap transaksi, mengumpulkan jaminan, dan memastikan kedua pihak menerima pembayaran. Backpack mendapat keduanya.
+
+Perintah CFTC mengizinkan Backpack Clearing melakukan kliring kontrak berjangka dengan margin (trader hanya menyetor sebagian nilai posisi), serta kontrak berjangka, opsi atas kontrak berjangka, dan swap yang dijamin penuh. Selig menegaskan aturannya tidak lebih longgar bagi perusahaan blockchain. Mereka "harus memenuhi standar regulasi yang sama" dengan infrastruktur pasar tradisional, katanya, termasuk program anti pencucian uang, perlindungan nasabah dan pemisahan dana nasabah, pengawasan pasar, sumber daya keuangan, manajemen risiko, dan pengamanan sistem.
+
+!figure:fact
+
+## Apa yang akan ditawarkan Backpack
+
+Dalam [pengumumannya](L3), Backpack mengatakan dengan lisensi ini pengguna di AS akan bisa memperdagangkan perpetual kripto dengan leverage kapan saja, memakai dolar maupun kripto sebagai jaminan, menggunakan margin silang antarposisi, dan mengakses likuiditas global Backpack dalam satu buku pesanan. Perusahaan itu mengaku melayani pengguna dari lebih dari 150 negara dan wilayah serta mencatat volume perdagangan lebih dari US$450 miliar.
+
+"Dari sisi kebijakan, ini hal yang sangat besar," kata Mark Wetjen, presiden Backpack US. Menurutnya, tujuannya adalah "memindahkan pembentukan harga dari platform luar negeri yang tidak diatur ke Amerika Serikat". Backpack tidak menyebut kapan perdagangan di AS dimulai, dan persetujuan tidak berarti setiap produk sudah aktif.
+
+!mid_cta
+
+## tZERO lebih dulu
+
+Backpack tidak sendirian. tZERO, perusahaan yang membangun infrastruktur perdagangan teregulasi, mengatakan lembaga kliringnya terdaftar pada 16 Oktober dan bursanya ditetapkan pada 10 November, menurut [siaran pers tZERO](L4). tZERO berencana memakai lisensi itu untuk menawarkan layanan bursa dan kliring kepada lembaga keuangan lain, bukan untuk membuka platform kripto ritel. "Mendapatkan persetujuan bursa sekaligus lembaga kliring adalah pencapaian besar bagi tZERO," kata CEO Alan Konevsky.
+
+## Apa itu kontrak berjangka perpetual?
+
+Kontrak berjangka perpetual, atau "perp", adalah kontrak yang mengikuti harga aset seperti bitcoin tetapi tidak pernah jatuh tempo. Trader bisa bertaruh harga naik atau turun, biasanya dengan uang pinjaman (leverage). Sampai sekarang, sebagian besar perdagangan perp terjadi di bursa luar negeri, di luar aturan AS.
+
+Leverage bekerja ke dua arah. Dengan leverage 10x, pergerakan sekitar 10% yang berlawanan dengan posisi Anda bisa menghapus seluruh setoran, dan bursa menutup posisi secara otomatis, yang disebut likuidasi. Saat penurunan akhir pekan lalu, ketika bitcoin sempat turun ke sekitar US$62.000, sekitar US$2,02 miliar posisi dengan leverage dilikuidasi dalam 24 jam, [lapor The Block](L5), sebagian besar taruhan bahwa harga akan naik.
+
+## Artinya bagi pemula
+
+Bagi kebanyakan orang, tidak banyak yang langsung berubah. Rumah teregulasi bagi perp bisa membuat pasar lebih aman daripada platform luar negeri, dengan aturan soal dana nasabah dan pengawasan, tetapi tidak membuat leverage lebih aman. Jika tujuan Anda hanya memiliki sedikit bitcoin, Anda sama sekali tidak memerlukan derivatif. Banyak pemula membeli dalam jumlah kecil langsung di bursa besar yang teregulasi seperti [Coinbase](REF) lalu menyimpannya. Setiap pembelian bisa turun nilainya, jadi gunakan hanya uang yang sanggup Anda relakan. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Kapan Backpack membuka perdagangan di AS, serta koin dan batas leverage apa yang ditawarkan.
+- Apakah bursa kripto lain mengajukan struktur berbasis blockchain yang sama.
+- Bagaimana CFTC menangani pasar ini saat terjadi penurunan cepat.
+
+!soft: Ingin mulai dari dasar? Baca [ETF bitcoin atau membeli bitcoin langsung](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

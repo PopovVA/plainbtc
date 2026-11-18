@@ -3418,7 +3418,113 @@ def build_coinbase_borrow_ny():
     ]
 
 
+def build_cftc_backpack():
+    slug = "cftc-approves-backpack-blockchain-derivatives-exchange-nov-2026"
+    d = OUT / slug
+    # CFTC: Selig statement Nov 16, 2026; TLD Clearing DCO order Nov 13, 2026. tZERO press release Nov 11, 2026.
+    tl = make_timeline_card(
+        d / "timeline-cftc-backpack-tzero",
+        "CFTC approvals (Oct. to Nov. 2026)",
+        [
+            ("Oct. 16", "tZERO clearinghouse registered (DCO)", (96, 165, 250)),
+            ("Nov. 10", "tZERO exchange designated (DCM)", (96, 165, 250)),
+            ("Nov. 13", "Backpack Clearing registered (DCO)", (247, 147, 26)),
+            ("Nov. 16", "Backpack Exchange designated (DCM)", (74, 222, 128)),
+        ],
+        footer="CFTC, tZERO, Backpack, Nov. 2026",
+        margin=170, wrap_w=250,
+    )
+    fact = make_fact_card(
+        d / "fact-selig-milestone",
+        "CFTC Chairman Michael Selig, Nov. 16",
+        "\u201cAn important milestone\u201d",
+        "Blockchain-based firms must meet the same standards as traditional exchanges: anti-money laundering, customer protection, surveillance, risk management",
+        footer="CFTC statement, Nov. 16, 2026",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline of CFTC approvals: Oct. 16, tZERO's clearinghouse is registered as a DCO; Nov. 10, tZERO's exchange is designated as a DCM; Nov. 13, Backpack Clearing is registered as a DCO; Nov. 16, Backpack Exchange is designated as a DCM", {
+            "es": "Cronología de las aprobaciones de la CFTC: 16 de octubre, la cámara de compensación de tZERO se registra como DCO; 10 de noviembre, la bolsa de tZERO recibe la designación DCM; 13 de noviembre, Backpack Clearing se registra como DCO; 16 de noviembre, Backpack Exchange recibe la designación DCM",
+            "pt": "Linha do tempo das aprovações da CFTC: 16 de outubro, a câmara de compensação da tZERO é registrada como DCO; 10 de novembro, a bolsa da tZERO recebe a designação DCM; 13 de novembro, a Backpack Clearing é registrada como DCO; 16 de novembro, a Backpack Exchange recebe a designação DCM",
+            "fr": "Chronologie des feux verts de la CFTC : 16 octobre, la chambre de compensation de tZERO est enregistrée comme DCO ; 10 novembre, la plateforme de tZERO est désignée DCM ; 13 novembre, Backpack Clearing est enregistrée comme DCO ; 16 novembre, Backpack Exchange est désignée DCM",
+            "de": "Zeitleiste der CFTC-Zulassungen: 16. Oktober, die Clearingstelle von tZERO wird als DCO registriert; 10. November, die Börse von tZERO wird als DCM zugelassen; 13. November, Backpack Clearing wird als DCO registriert; 16. November, Backpack Exchange wird als DCM zugelassen",
+            "ru": "Хронология одобрений CFTC: 16 октября клиринговая палата tZERO зарегистрирована как DCO; 10 ноября биржа tZERO получила статус DCM; 13 ноября Backpack Clearing зарегистрирована как DCO; 16 ноября Backpack Exchange получила статус DCM",
+            "tr": "CFTC onaylarının zaman çizelgesi: 16 Ekim, tZERO'nun takas kuruluşu DCO olarak kaydedildi; 10 Kasım, tZERO'nun borsası DCM olarak belirlendi; 13 Kasım, Backpack Clearing DCO olarak kaydedildi; 16 Kasım, Backpack Exchange DCM olarak belirlendi",
+            "id": "Linimasa persetujuan CFTC: 16 Oktober, lembaga kliring tZERO terdaftar sebagai DCO; 10 November, bursa tZERO ditetapkan sebagai DCM; 13 November, Backpack Clearing terdaftar sebagai DCO; 16 November, Backpack Exchange ditetapkan sebagai DCM",
+            "ja": "CFTCの承認の時系列：10月16日、tZEROの清算機関がDCOとして登録、11月10日、tZEROの取引所がDCMに指定、11月13日、Backpack ClearingがDCOとして登録、11月16日、Backpack ExchangeがDCMに指定",
+            "ko": "CFTC 승인 타임라인: 10월 16일 tZERO 청산소 DCO 등록, 11월 10일 tZERO 거래소 DCM 지정, 11월 13일 Backpack Clearing DCO 등록, 11월 16일 Backpack Exchange DCM 지정",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="CFTC, tZERO, Backpack")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: CFTC Chairman Michael Selig called the approvals an important milestone and said blockchain-based firms must meet the same standards as traditional exchanges, including anti-money laundering, customer protection, surveillance and risk management", {
+            "es": "Tarjeta de datos: el presidente de la CFTC, Michael Selig, calificó las aprobaciones de hito importante y dijo que las firmas basadas en blockchain deben cumplir los mismos estándares que las bolsas tradicionales, incluidos prevención del blanqueo, protección del cliente, vigilancia y gestión de riesgos",
+            "pt": "Cartão de dados: o presidente da CFTC, Michael Selig, chamou as aprovações de marco importante e disse que empresas baseadas em blockchain precisam cumprir os mesmos padrões das bolsas tradicionais, incluindo prevenção à lavagem de dinheiro, proteção ao cliente, vigilância e gestão de riscos",
+            "fr": "Fiche chiffre : le président de la CFTC, Michael Selig, a qualifié ces feux verts d'étape importante et rappelé que les acteurs fondés sur la blockchain doivent respecter les mêmes règles que les places traditionnelles : lutte contre le blanchiment, protection des clients, surveillance et gestion des risques",
+            "de": "Faktenkarte: CFTC-Chef Michael Selig nannte die Zulassungen einen wichtigen Meilenstein und sagte, Blockchain-Firmen müssten dieselben Standards erfüllen wie klassische Börsen, darunter Geldwäscheprävention, Kundenschutz, Marktüberwachung und Risikomanagement",
+            "ru": "Карточка: председатель CFTC Майкл Селиг назвал одобрения важной вехой и подчеркнул, что компании на блокчейне должны соответствовать тем же стандартам, что и традиционные биржи, включая противодействие отмыванию денег, защиту клиентов, надзор за рынком и управление рисками",
+            "tr": "Bilgi kartı: CFTC Başkanı Michael Selig onayları önemli bir dönüm noktası olarak nitelendirdi ve blokzincir tabanlı firmaların kara para aklamayla mücadele, müşteri koruma, piyasa gözetimi ve risk yönetimi dahil geleneksel borsalarla aynı standartları karşılaması gerektiğini söyledi",
+            "id": "Kartu fakta: Ketua CFTC Michael Selig menyebut persetujuan ini tonggak penting dan mengatakan perusahaan berbasis blockchain harus memenuhi standar yang sama dengan bursa tradisional, termasuk anti pencucian uang, perlindungan nasabah, pengawasan pasar, dan manajemen risiko",
+            "ja": "ファクトカード：CFTCのマイケル・セリグ委員長は今回の承認を重要な節目と呼び、ブロックチェーンを使う企業もマネーロンダリング対策、顧客保護、市場監視、リスク管理など従来の取引所と同じ基準を満たす必要があると述べた",
+            "ko": "팩트 카드: 마이클 셀리그 CFTC 위원장은 이번 승인을 중요한 이정표라고 부르며, 블록체인 기반 기업도 자금세탁 방지, 고객 보호, 시장 감시, 리스크 관리 등 기존 거래소와 같은 기준을 충족해야 한다고 밝혔다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="CFTC")},
+    ]
+
+
+def build_banks_btc_etf_13f():
+    slug = "goldman-wells-fargo-double-bitcoin-etf-holdings-13f-nov-2026"
+    d = OUT / slug
+    # 13F figures as reported by Bitcoin Magazine (Goldman, five spot bitcoin funds, long) and CoinDesk (Wells Fargo, IBIT), Nov 17, 2026.
+    chart = make_bar_chart(
+        d / "chart-banks-13f-bitcoin-etf",
+        ["Goldman Sachs\nJune 30", "Goldman Sachs\nSept. 30", "Wells Fargo (IBIT)\nJune 30", "Wells Fargo (IBIT)\nSept. 30"],
+        [580, 1283, 812, 2350],
+        "Reported spot bitcoin ETF holdings in 13F filings (US$ millions)",
+        colors=["#64748b", "#f7931a", "#64748b", "#f7931a"],
+    )
+    # Farside Investors, U.S. spot bitcoin ETF daily net flows (US$m), read Nov 17, 2026.
+    days = ["Oct 30", "Nov 2", "Nov 3", "Nov 4", "Nov 5", "Nov 6", "Nov 9", "Nov 10", "Nov 11", "Nov 12", "Nov 13", "Nov 16"]
+    flows = [-643.2, -398.6, -115.6, 74.6, -430.2, -411.9, -201.0, -95.0, -299.8, -284.1, -185.4, 7.9]
+    flows_img = make_bar_chart(
+        d / "chart-btc-etf-flows-oct30-nov16",
+        days, flows,
+        "U.S. spot bitcoin ETF daily net flows (US$ millions)",
+        colors=["#34d399" if v > 0 else "#f87171" for v in flows],
+        value_fmt=lambda v: f"{v:+,.1f}",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of reported spot bitcoin ETF holdings in 13F filings: Goldman Sachs about $580 million on June 30 and $1.283 billion on Sept. 30, 2026; Wells Fargo's BlackRock IBIT stake about $812 million on June 30 and $2.35 billion on Sept. 30", {
+            "es": "Gráfico de barras de las participaciones en ETF de bitcoin al contado declaradas en los formularios 13F: Goldman Sachs, unos 580 millones de dólares el 30 de junio y 1.283 millones el 30 de septiembre de 2026; la posición de Wells Fargo en el IBIT de BlackRock, unos 812 millones el 30 de junio y 2.350 millones el 30 de septiembre",
+            "pt": "Gráfico de barras das posições em ETFs de bitcoin à vista declaradas nos formulários 13F: Goldman Sachs, cerca de US$ 580 milhões em 30 de junho e US$ 1,283 bilhão em 30 de setembro de 2026; a posição do Wells Fargo no IBIT da BlackRock, cerca de US$ 812 milhões em 30 de junho e US$ 2,35 bilhões em 30 de setembro",
+            "fr": "Diagramme en barres des positions en ETF bitcoin au comptant déclarées dans les formulaires 13F : Goldman Sachs, environ 580 millions de dollars au 30 juin et 1,283 milliard au 30 septembre 2026 ; la position de Wells Fargo dans l'IBIT de BlackRock, environ 812 millions au 30 juin et 2,35 milliards au 30 septembre",
+            "de": "Balkendiagramm der in 13F-Meldungen ausgewiesenen Spot-Bitcoin-ETF-Bestände: Goldman Sachs rund 580 Mio. $ am 30. Juni und 1,283 Mrd. $ am 30. September 2026; die Position von Wells Fargo im IBIT von BlackRock rund 812 Mio. $ am 30. Juni und 2,35 Mrd. $ am 30. September",
+            "ru": "Столбчатая диаграмма вложений в спотовые биткоин-ETF по отчетам 13F: Goldman Sachs, около $580 млн на 30 июня и $1,283 млрд на 30 сентября 2026 года; позиция Wells Fargo в IBIT от BlackRock, около $812 млн на 30 июня и $2,35 млрд на 30 сентября",
+            "tr": "13F bildirimlerinde yer alan spot bitcoin ETF varlıklarının çubuk grafiği: Goldman Sachs 30 Haziran'da yaklaşık 580 milyon $, 30 Eylül 2026'da 1,283 milyar $; Wells Fargo'nun BlackRock IBIT pozisyonu 30 Haziran'da yaklaşık 812 milyon $, 30 Eylül'de 2,35 milyar $",
+            "id": "Grafik batang kepemilikan ETF bitcoin spot yang dilaporkan dalam formulir 13F: Goldman Sachs sekitar US$580 juta pada 30 Juni dan US$1,283 miliar pada 30 September 2026; posisi Wells Fargo di IBIT milik BlackRock sekitar US$812 juta pada 30 Juni dan US$2,35 miliar pada 30 September",
+            "ja": "13F報告書に記載された現物ビットコインETF保有額の棒グラフ：ゴールドマン・サックスは6月30日時点で約5億8000万ドル、2026年9月30日時点で12億8300万ドル、ウェルズ・ファーゴのブラックロックIBIT保有は6月30日時点で約8億1200万ドル、9月30日時点で23億5000万ドル",
+            "ko": "13F 보고서에 기재된 현물 비트코인 ETF 보유액 막대 차트: 골드만삭스 6월 30일 약 5억8000만 달러, 2026년 9월 30일 12억8300만 달러, 웰스파고의 블랙록 IBIT 보유액 6월 30일 약 8억1200만 달러, 9월 30일 23억5000만 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="13F filings via Bitcoin Magazine, CoinDesk")},
+        {"id": "flows", "file": flows_img.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of U.S. spot bitcoin ETF daily net flows from Oct. 30 to Nov. 16, 2026, per Farside Investors: outflows on 10 of 12 trading days, the largest $643.2 million on Oct. 30, small inflows of $74.6 million on Nov. 4 and $7.9 million on Nov. 16", {
+            "es": "Gráfico de barras de los flujos netos diarios de los ETF de bitcoin al contado de EE. UU. del 30 de octubre al 16 de noviembre de 2026, según Farside Investors: salidas en 10 de 12 sesiones, la mayor de 643,2 millones de dólares el 30 de octubre, y pequeñas entradas de 74,6 millones el 4 de noviembre y 7,9 millones el 16 de noviembre",
+            "pt": "Gráfico de barras dos fluxos líquidos diários dos ETFs de bitcoin à vista dos EUA de 30 de outubro a 16 de novembro de 2026, segundo a Farside Investors: saídas em 10 de 12 pregões, a maior de US$ 643,2 milhões em 30 de outubro, e pequenas entradas de US$ 74,6 milhões em 4 de novembro e US$ 7,9 milhões em 16 de novembro",
+            "fr": "Diagramme en barres des flux nets quotidiens des ETF bitcoin au comptant américains du 30 octobre au 16 novembre 2026, selon Farside Investors : sorties sur 10 séances sur 12, la plus forte de 643,2 millions de dollars le 30 octobre, petites entrées de 74,6 millions le 4 novembre et de 7,9 millions le 16 novembre",
+            "de": "Balkendiagramm der täglichen Nettozuflüsse der US-Spot-Bitcoin-ETFs vom 30. Oktober bis 16. November 2026 laut Farside Investors: Abflüsse an 10 von 12 Handelstagen, der größte mit 643,2 Mio. $ am 30. Oktober, kleine Zuflüsse von 74,6 Mio. $ am 4. November und 7,9 Mio. $ am 16. November",
+            "ru": "Столбчатая диаграмма ежедневных чистых потоков американских спотовых биткоин-ETF с 30 октября по 16 ноября 2026 года по данным Farside Investors: оттоки в 10 из 12 торговых дней, крупнейший $643,2 млн 30 октября, небольшие притоки $74,6 млн 4 ноября и $7,9 млн 16 ноября",
+            "tr": "Farside Investors verilerine göre 30 Ekim-16 Kasım 2026 arasında ABD spot bitcoin ETF'lerinin günlük net akışlarının çubuk grafiği: 12 işlem gününün 10'unda çıkış, en büyüğü 30 Ekim'de 643,2 milyon $, 4 Kasım'da 74,6 milyon $ ve 16 Kasım'da 7,9 milyon $ küçük girişler",
+            "id": "Grafik batang arus bersih harian ETF bitcoin spot AS dari 30 Oktober hingga 16 November 2026 menurut Farside Investors: arus keluar pada 10 dari 12 hari perdagangan, terbesar US$643,2 juta pada 30 Oktober, arus masuk kecil US$74,6 juta pada 4 November dan US$7,9 juta pada 16 November",
+            "ja": "Farside Investorsによる2026年10月30日～11月16日の米国現物ビットコインETFの日次純流出入の棒グラフ：12営業日中10日で流出、最大は10月30日の6億4320万ドル、11月4日に7460万ドル、11月16日に790万ドルの小幅流入",
+            "ko": "Farside Investors 기준 2026년 10월 30일~11월 16일 미국 현물 비트코인 ETF 일별 순유출입 막대 차트: 12거래일 중 10일 순유출, 최대는 10월 30일 6억4320만 달러, 11월 4일 7460만 달러와 11월 16일 790만 달러 소폭 순유입",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Farside Investors")},
+    ]
+
+
 BUILDERS = {
+    "cftc-approves-backpack-blockchain-derivatives-exchange-nov-2026": "cftcbp",
+    "goldman-wells-fargo-double-bitcoin-etf-holdings-13f-nov-2026": "banks13f",
     "trezor-skladon-shipping-breach-27000-orders-nov-2026": "trezor",
     "coinbase-borrow-new-york-all-50-states-nov-2026": "cbny",
     "optimizely-hack-crypto-address-swap-178-sites-nov-2026": "optimizely",
@@ -3569,6 +3675,10 @@ def build_slug(slug: str, btc=None):
         figs = build_strategy_485_btc()
     elif key == "fng10":
         figs = build_fear_greed_10()
+    elif key == "cftcbp":
+        figs = build_cftc_backpack()
+    elif key == "banks13f":
+        figs = build_banks_btc_etf_13f()
     elif key == "trezor":
         figs = build_trezor_skladon()
     elif key == "cbny":

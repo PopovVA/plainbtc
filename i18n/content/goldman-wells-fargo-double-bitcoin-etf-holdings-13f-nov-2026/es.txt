@@ -1,0 +1,55 @@
+title: Goldman Sachs y Wells Fargo más que duplicaron sus posiciones en ETF de bitcoin antes de la caída, según sus informes
+page_title: Goldman Sachs y Wells Fargo duplicaron sus ETF de bitcoin en el tercer trimestre: lo que muestran los 13F
+description: Los nuevos formularios 13F muestran que Goldman Sachs tenía 1.283 millones de dólares en ETF de bitcoin al contado y Wells Fargo 2.350 millones en el IBIT de BlackRock el 30 de septiembre, más del doble que en junio. Los datos son anteriores a la caída de bitcoin, y las salidas de los ETF solo se pausaron el 16 de noviembre.
+og_description: Goldman Sachs declaró 1.283 millones de dólares en ETF de bitcoin al contado y Wells Fargo 2.350 millones en IBIT a 30 de septiembre. Pero esa foto es anterior a la caída hasta unos 62.000 dólares y a una racha de salidas de siete días y 1.910 millones.
+label: Mercados
+summary: Los formularios 13F trimestrales muestran que Goldman Sachs tenía 1.283 millones de dólares en ETF de bitcoin al contado y Wells Fargo 2.350 millones en el IBIT de BlackRock el 30 de septiembre, más del doble que en junio. Las cifras son anteriores a la caída de bitcoin y a una racha de salidas de 1.910 millones.
+===
+
+Dos de los mayores bancos de EE. UU. declararon posiciones mucho más grandes en fondos de bitcoin en sus últimos informes trimestrales. Goldman Sachs tenía unos <strong>1.283 millones de dólares</strong> en fondos cotizados (ETF) de bitcoin al contado el 30 de septiembre, frente a unos 580 millones a finales de junio, [informó Bitcoin Magazine](L1). Wells Fargo declaró <strong>2.350 millones de dólares</strong> en el iShares Bitcoin Trust (IBIT) de BlackRock, frente a unos 812 millones, según [CoinDesk](L2).
+
+El problema es el momento. Son fotos del 30 de septiembre, presentadas el lunes 16 de noviembre. Desde entonces bitcoin ha caído con fuerza y los inversores han retirado dinero de los ETF de bitcoin en la mayoría de las sesiones desde finales de octubre.
+
+!takeaways
+- Goldman Sachs declaró 1.283 millones de dólares en cinco fondos de bitcoin al contado el 30 de septiembre, alrededor de un 121% más que en junio. Wells Fargo declaró 2.350 millones en IBIT, frente a unos 812 millones.
+- Parte del salto se debió al precio: las acciones de IBIT subieron de 33,29 a 47,34 dólares durante el trimestre, alrededor de un 42%.
+- Los informes son una foto del 30 de septiembre. No muestran qué hicieron los bancos durante la caída de octubre y noviembre.
+- Los ETF de bitcoin al contado de EE. UU. perdieron unos 1.910 millones de dólares en siete sesiones seguidas y luego captaron 7,9 millones netos el 16 de noviembre, según Farside Investors.
+
+!figure:chart
+
+## Qué muestran los informes
+
+Los grandes gestores de inversiones deben presentar cada trimestre un [formulario 13F](L3) ante la Comisión de Bolsa y Valores (SEC) con sus posiciones en acciones, ETF y algunos otros valores de EE. UU. Es una de las pocas ventanas públicas a lo que poseen las grandes instituciones.
+
+En Goldman, el IBIT de BlackRock siguió siendo su mayor posición en fondos de bitcoin, con 16.440.599 acciones valoradas en 778,3 millones de dólares, aunque el número de acciones bajó alrededor de un 5% desde mitad de año. El cambio mayor estuvo en el fondo de Fidelity (FBTC): Goldman tenía 5.477.583 acciones por valor de 397,9 millones, frente a solo 105.840 acciones tres meses antes. También declaró una nueva posición de 2.000.020 acciones en el Morgan Stanley Bitcoin Trust, valorada en 47,9 millones. Goldman declaró además grandes posiciones en opciones sobre IBIT, pero el informe no aclara cuáles son coberturas para clientes y cuáles apuestas propias. En sentido contrario, Goldman redujo alrededor de un 52% su participación en Strategy, la empresa que compra bitcoin con su balance, hasta 2.760.766 acciones.
+
+Las 49,58 millones de acciones de IBIT de Wells Fargo equivalen a una exposición indirecta a unos 28.070 bitcoin, calculó CoinDesk a partir de las cifras de BlackRock. Como comparación, Tesla declaró 11.509 bitcoin y SpaceX 18.712 a finales de septiembre. Según CoinDesk, Wells Fargo fue el mayor tenedor declarado de IBIT entre los gestores de inversiones en estos informes. Pero la cifra incluye posiciones gestionadas para clientes, así que no muestra cuánto es dinero propio del banco.
+
+!mid_cta
+
+## Una foto anterior a la caída
+
+Buena parte del crecimiento en dólares vino del repunte de bitcoin en el tercer trimestre, no solo de compras nuevas. Desde entonces el panorama es muy distinto. Bitcoin pasó de más de 83.000 dólares a finales de septiembre a unos 62.000 el pasado fin de semana, según Bitcoin Magazine, y cotizaba cerca de 64.900 dólares la tarde del martes 17 de noviembre, según CoinGecko. Al precio de cierre de IBIT del lunes, 36,79 dólares, las acciones de IBIT de Goldman valdrían unos 605 millones, unos 173 millones menos que en el informe.
+
+!figure:flows
+
+Los flujos de los fondos cuentan la misma historia. Según [Farside Investors](L4), los ETF de bitcoin al contado de EE. UU. tuvieron salidas netas en 10 de las 12 sesiones entre el 30 de octubre y el 16 de noviembre, incluidas siete seguidas del 5 al 13 de noviembre que sumaron unos 1.910 millones de dólares. El lunes 16 de noviembre la racha se detuvo con una pequeña entrada neta de 7,9 millones, ya que entraron 76,5 millones en IBIT mientras de la mayoría de los demás fondos seguía saliendo dinero.
+
+## Qué significa para los principiantes
+
+Que los grandes bancos tengan ETF de bitcoin indica que estos fondos ya son una parte normal de las carteras de Wall Street. No es una señal de que el precio vaya a subir, y los informes tienen seis semanas de antigüedad. Los próximos 13F, previstos para mediados de febrero, mostrarán si estas posiciones crecieron o se redujeron durante la caída.
+
+Si estás decidiendo cómo invertir tú, tanto un ETF en una cuenta de corretaje como comprar bitcoin directamente funcionan, con comisiones y ventajas distintas. Algunos principiantes empiezan con una pequeña cantidad en una gran plataforma como [Coinbase](REF). Los precios pueden moverse con fuerza en ambos sentidos, así que invierte solo lo que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Si la entrada del 16 de noviembre se convierte en una racha de entradas o vuelven las salidas.
+- Los informes 13F del tercer trimestre de otros bancos y fondos.
+- Los 13F del cuarto trimestre a mediados de febrero, que cubrirán la caída.
+
+!soft: ¿Eres nuevo en esto? Lee [ETF de bitcoin o comprar bitcoin directamente](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,55 @@
+title: Goldman Sachs dan Wells Fargo menambah kepemilikan ETF bitcoin lebih dari dua kali lipat sebelum harga anjlok, menurut laporan
+page_title: Goldman Sachs dan Wells Fargo menggandakan ETF bitcoin di kuartal III: isi laporan 13F
+description: Laporan 13F terbaru menunjukkan Goldman Sachs memegang US$1,283 miliar di ETF bitcoin spot dan Wells Fargo US$2,35 miliar di IBIT milik BlackRock pada 30 September, lebih dari dua kali lipat Juni. Data ini sebelum bitcoin anjlok, dan arus keluar ETF baru terhenti pada 16 November.
+og_description: Goldman Sachs melaporkan US$1,283 miliar di ETF bitcoin spot dan Wells Fargo US$2,35 miliar di IBIT per 30 September. Namun potret itu dibuat sebelum harga turun ke sekitar US$62.000 dan arus keluar ETF US$1,91 miliar selama tujuh hari.
+label: Pasar
+summary: Laporan 13F kuartalan menunjukkan Goldman Sachs memegang US$1,283 miliar di ETF bitcoin spot dan Wells Fargo US$2,35 miliar di IBIT milik BlackRock pada 30 September, lebih dari dua kali lipat Juni. Angka ini sebelum bitcoin anjlok dan arus keluar US$1,91 miliar.
+===
+
+Dua bank terbesar di AS melaporkan posisi yang jauh lebih besar di dana bitcoin dalam laporan kuartalan terbaru mereka. Goldman Sachs memegang sekitar <strong>US$1,283 miliar</strong> di dana yang diperdagangkan di bursa (ETF) bitcoin spot pada 30 September, naik dari sekitar US$580 juta pada akhir Juni, [lapor Bitcoin Magazine](L1). Wells Fargo melaporkan <strong>US$2,35 miliar</strong> di iShares Bitcoin Trust (IBIT) milik BlackRock, naik dari sekitar US$812 juta, menurut [CoinDesk](L2).
+
+Masalahnya ada pada waktu. Ini adalah potret per 30 September yang diserahkan pada Senin, 16 November. Sejak itu bitcoin turun tajam, dan investor menarik dana dari ETF bitcoin pada sebagian besar hari perdagangan sejak akhir Oktober.
+
+!takeaways
+- Goldman Sachs melaporkan US$1,283 miliar di lima dana bitcoin spot pada 30 September, naik sekitar 121% dari Juni. Wells Fargo melaporkan US$2,35 miliar di IBIT, naik dari sekitar US$812 juta.
+- Sebagian kenaikan berasal dari harga: unit IBIT naik dari US$33,29 menjadi US$47,34 selama kuartal itu, sekitar 42%.
+- Laporan ini adalah potret per 30 September. Laporan itu tidak menunjukkan apa yang dilakukan bank selama penurunan Oktober dan November.
+- ETF bitcoin spot AS kehilangan sekitar US$1,91 miliar selama tujuh hari perdagangan berturut-turut, lalu mencatat arus masuk bersih US$7,9 juta pada 16 November, menurut Farside Investors.
+
+!figure:chart
+
+## Isi laporan
+
+Manajer investasi besar wajib menyerahkan [Formulir 13F](L3) ke Komisi Sekuritas dan Bursa AS (SEC) setiap kuartal, berisi kepemilikan saham AS, ETF, dan beberapa efek lainnya. Ini salah satu dari sedikit jendela publik untuk melihat apa yang dimiliki institusi besar.
+
+Di Goldman, IBIT milik BlackRock tetap menjadi kepemilikan dana bitcoin terbesar, dengan 16.440.599 unit senilai US$778,3 juta, meski jumlah unitnya turun sekitar 5% sejak pertengahan tahun. Perubahan terbesar ada di dana Fidelity (FBTC): Goldman memegang 5.477.583 unit senilai US$397,9 juta, naik dari hanya 105.840 unit tiga bulan sebelumnya. Bank itu juga mencantumkan posisi baru sebanyak 2.000.020 unit di Morgan Stanley Bitcoin Trust senilai US$47,9 juta. Goldman juga melaporkan posisi opsi IBIT yang besar, tetapi laporan tidak menjelaskan mana yang lindung nilai untuk klien dan mana taruhan sendiri. Sebaliknya, Goldman memangkas sahamnya di Strategy, perusahaan yang membeli bitcoin dengan neracanya, sekitar 52% menjadi 2.760.766 saham.
+
+49,58 juta unit IBIT milik Wells Fargo setara dengan eksposur tidak langsung ke sekitar 28.070 bitcoin, menurut perhitungan CoinDesk berdasarkan data BlackRock sendiri. Sebagai pembanding, Tesla melaporkan 11.509 bitcoin dan SpaceX 18.712 pada akhir September. Menurut CoinDesk, Wells Fargo adalah pemegang IBIT terbesar yang dilaporkan di antara manajer investasi dalam laporan-laporan tersebut. Namun angka ini mencakup posisi yang dikelola untuk klien, sehingga tidak menunjukkan berapa yang merupakan uang bank itu sendiri.
+
+!mid_cta
+
+## Potret sebelum harga anjlok
+
+Sebagian besar kenaikan dalam dolar berasal dari reli bitcoin di kuartal ketiga, bukan hanya dari pembelian baru. Sejak itu gambarannya sangat berbeda. Bitcoin turun dari di atas US$83.000 pada akhir September ke sekitar US$62.000 akhir pekan lalu, menurut Bitcoin Magazine, dan diperdagangkan di dekat US$64.900 pada Selasa malam, 17 November, menurut CoinGecko. Dengan harga penutupan IBIT hari Senin sebesar US$36,79, unit IBIT milik Goldman bernilai sekitar US$605 juta, kira-kira US$173 juta lebih rendah daripada di laporan.
+
+!figure:flows
+
+Arus dana menceritakan hal yang sama. Menurut [Farside Investors](L4), ETF bitcoin spot AS mencatat arus keluar bersih pada 10 dari 12 hari perdagangan dari 30 Oktober hingga 16 November, termasuk tujuh hari berturut-turut dari 5 hingga 13 November dengan total sekitar US$1,91 miliar. Pada Senin, 16 November, rentetan itu terhenti dengan arus masuk bersih kecil sebesar US$7,9 juta, karena US$76,5 juta masuk ke IBIT sementara sebagian besar dana lain masih mengalami arus keluar.
+
+## Artinya bagi pemula
+
+Bank besar yang memegang ETF bitcoin menandakan dana ini sudah menjadi bagian biasa dari portofolio Wall Street. Ini bukan sinyal bahwa harga akan naik, dan laporannya sudah berumur enam minggu. Laporan 13F berikutnya, yang jatuh tempo pada pertengahan Februari, akan menunjukkan apakah posisi ini bertambah atau berkurang selama penurunan.
+
+Jika Anda sedang memutuskan cara berinvestasi sendiri, ETF di rekening pialang maupun membeli bitcoin langsung sama-sama bisa, dengan biaya serta kelebihan dan kekurangan yang berbeda. Sebagian pemula memulai dengan jumlah kecil di bursa besar seperti [Coinbase](REF). Harga bisa bergerak tajam ke dua arah, jadi investasikan hanya uang yang sanggup Anda relakan. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Apakah arus masuk 16 November berlanjut menjadi rentetan arus masuk atau arus keluar kembali.
+- Laporan 13F kuartal ketiga dari bank dan dana lain.
+- Laporan 13F kuartal keempat pada pertengahan Februari, yang akan mencakup masa penurunan.
+
+!soft: Baru mengenal topik ini? Baca [ETF bitcoin atau membeli bitcoin langsung](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

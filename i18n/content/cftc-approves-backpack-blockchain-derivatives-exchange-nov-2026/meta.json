@@ -1,0 +1,21 @@
+{
+ "slug": "cftc-approves-backpack-blockchain-derivatives-exchange-nov-2026",
+ "date": "2026-11-17",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "sec-backs-cftc-stock-perps-crypto-etf-options-nov-2026",
+  "trump-nominates-sec-cftc-commissioners-peirce-nov-2026",
+  "bitcoin-four-month-low-62000-liquidations-nov-2026",
+  "bitcoin-volatility-liquidations-nov-2026"
+ ],
+ "sources": [
+  {"url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement111626", "title": "CFTC: Statement of Chairman Michael S. Selig on American Innovation and the Future of Market Infrastructure", "date": "Nov 16, 2026"},
+  {"url": "https://www.cftc.gov/media/14926/TLD%20Clearing%2C%20Inc.%20-%20DCO%20Registration%20Order%20%2811-13-2026%29/download", "title": "CFTC: Order of registration, TLD Clearing, Inc. (d/b/a Backpack Clearing) as a derivatives clearing organization", "date": "Nov 13, 2026"},
+  {"url": "https://learn.backpack.exchange/blog/backpack-receives-landmark-cftc-approval", "title": "Backpack: Backpack receives CFTC approval for its U.S. derivatives exchange and clearing operations", "date": "Nov 16, 2026"},
+  {"url": "https://www.tzero.com/news/tzero-receives-cftc-approval-to-operate-regulated-derivatives-exchange-and-achieves-first-earn", "title": "tZERO: tZERO receives CFTC approval to operate regulated derivatives exchange", "date": "Nov 11, 2026"},
+  {"url": "https://news.bitcoin.com/regulation-and-legal/backpack-tzero-win-cftc-approvals-for-us-crypto-derivatives/", "title": "Bitcoin.com News: Backpack, tZERO win CFTC approvals for U.S. crypto derivatives", "date": "Nov 17, 2026"},
+  {"url": "https://www.theblock.co/newsletters/the-daily/2026-11-17-cz-binance-bitwise-solana-more-crypto-news-441584", "title": "The Block: The Daily, Nov. 17, 2026 (weekend liquidations)", "date": "Nov 17, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

@@ -1,0 +1,55 @@
+title: Goldman Sachs ve Wells Fargo, düşüşten önce bitcoin ETF varlıklarını iki katından fazla artırdı
+page_title: Goldman Sachs ve Wells Fargo 3. çeyrekte bitcoin ETF varlıklarını ikiye katladı: 13F bildirimleri ne gösteriyor
+description: Yeni 13F bildirimlerine göre 30 Eylül itibarıyla Goldman Sachs'ın spot bitcoin ETF'lerinde 1,283 milyar $, Wells Fargo'nun ise BlackRock'ın IBIT fonunda 2,35 milyar $'ı vardı; ikisi de Haziran'ın iki katından fazla. Veriler bitcoin'deki düşüşten önceye ait ve ETF çıkışları ancak 16 Kasım'da durdu.
+og_description: Goldman Sachs 30 Eylül itibarıyla spot bitcoin ETF'lerinde 1,283 milyar $, Wells Fargo ise IBIT'te 2,35 milyar $ bildirdi. Ancak bu tablo, yaklaşık 62.000 $'a düşüşten ve yedi günde 1,91 milyar $'lık ETF çıkışından önceye ait.
+label: Piyasalar
+summary: Üç aylık 13F bildirimleri, 30 Eylül'de Goldman Sachs'ın spot bitcoin ETF'lerinde 1,283 milyar $, Wells Fargo'nun BlackRock'ın IBIT fonunda 2,35 milyar $ tuttuğunu, yani Haziran'ın iki katından fazlasını gösteriyor. Rakamlar bitcoin düşüşünden ve 1,91 milyar $'lık çıkış serisinden önceye ait.
+===
+
+ABD'nin en büyük iki bankası, son üç aylık bildirimlerinde bitcoin fonlarında çok daha büyük pozisyonlar açıkladı. [Bitcoin Magazine'in aktardığına göre](L1) Goldman Sachs'ın 30 Eylül'de spot bitcoin borsa yatırım fonlarında (ETF) yaklaşık <strong>1,283 milyar $</strong> vardı; Haziran sonunda bu rakam yaklaşık 580 milyon $'dı. [CoinDesk'e göre](L2) Wells Fargo ise BlackRock'ın iShares Bitcoin Trust (IBIT) fonunda <strong>2,35 milyar $</strong> bildirdi; önceki rakam yaklaşık 812 milyon $'dı.
+
+Sorun zamanlamada. Bunlar 30 Eylül'e ait anlık görüntüler ve 16 Kasım Pazartesi günü sunuldu. O zamandan beri bitcoin sert düştü ve yatırımcılar Ekim sonundan bu yana işlem günlerinin çoğunda bitcoin ETF'lerinden para çekti.
+
+!takeaways
+- Goldman Sachs 30 Eylül'de beş spot bitcoin fonunda toplam 1,283 milyar $ bildirdi; bu Haziran'a göre yaklaşık %121 fazla. Wells Fargo IBIT'te 2,35 milyar $ bildirdi; önceki rakam yaklaşık 812 milyon $'dı.
+- Artışın bir kısmı fiyattan geldi: IBIT payları çeyrek boyunca 33,29 $'dan 47,34 $'a, yaklaşık %42 yükseldi.
+- Bildirimler 30 Eylül'e ait bir anlık görüntü. Bankaların Ekim ve Kasım düşüşünde ne yaptığını göstermiyor.
+- Farside Investors'a göre ABD spot bitcoin ETF'leri art arda yedi işlem gününde yaklaşık 1,91 milyar $ kaybetti, ardından 16 Kasım'da net 7,9 milyon $ giriş gördü.
+
+!figure:chart
+
+## Bildirimler ne gösteriyor
+
+Büyük yatırım yöneticileri her çeyrekte ABD Menkul Kıymetler ve Borsa Komisyonu'na (SEC) bir [Form 13F](L3) sunmak ve ABD hisseleri, ETF'ler ve bazı diğer menkul kıymetlerdeki varlıklarını listelemek zorunda. Bu, büyük kurumların neye sahip olduğunu gösteren nadir kamuya açık pencerelerden biri.
+
+Goldman'da BlackRock'ın IBIT fonu, değeri 778,3 milyon $ olan 16.440.599 payla en büyük bitcoin fonu pozisyonu olmaya devam etti, ancak pay sayısı yıl ortasından bu yana yaklaşık %5 azaldı. En büyük değişiklik Fidelity'nin fonunda (FBTC) oldu: Goldman'ın üç ay önce yalnızca 105.840 payı varken artık değeri 397,9 milyon $ olan 5.477.583 payı vardı. Banka ayrıca Morgan Stanley Bitcoin Trust'ta değeri 47,9 milyon $ olan 2.000.020 paylık yeni bir pozisyon bildirdi. Goldman büyük IBIT opsiyon pozisyonları da bildirdi, ancak bildirim bunlardan hangisinin müşteriler için koruma, hangisinin bankanın kendi bahsi olduğunu söylemiyor. Ters yönde ise Goldman, bilançosuyla bitcoin alan şirket Strategy'deki payını yaklaşık %52 azaltarak 2.760.766 hisseye indirdi.
+
+CoinDesk'in BlackRock'ın kendi verilerinden hesapladığına göre Wells Fargo'nun 49,58 milyon IBIT payı, yaklaşık 28.070 bitcoin'e dolaylı maruziyet anlamına geliyor. Karşılaştırma için Tesla Eylül sonunda 11.509, SpaceX ise 18.712 bitcoin bildirmişti. CoinDesk'e göre Wells Fargo bu bildirimlerde yatırım yöneticileri arasında bildirilen en büyük IBIT sahibiydi. Ancak rakam müşteriler adına yönetilen pozisyonları da içerdiği için bunun ne kadarının bankanın kendi parası olduğunu göstermiyor.
+
+!mid_cta
+
+## Düşüşten önceki bir anlık görüntü
+
+Dolar bazındaki artışın büyük kısmı yalnızca yeni alımlardan değil, bitcoin'in üçüncü çeyrekteki yükselişinden geldi. O zamandan beri tablo çok farklı. Bitcoin Magazine'e göre bitcoin Eylül sonundaki 83.000 $'ın üzerinden geçen hafta sonu yaklaşık 62.000 $'a geriledi; CoinGecko'ya göre 17 Kasım Salı akşamı 64.900 $ civarında işlem görüyordu. IBIT'in Pazartesi kapanış fiyatı olan 36,79 $ ile Goldman'ın IBIT payları yaklaşık 605 milyon $ ederdi; bu, bildirimdekinden kabaca 173 milyon $ daha az.
+
+!figure:flows
+
+Fon akışları da aynı hikâyeyi anlatıyor. [Farside Investors'a göre](L4) ABD spot bitcoin ETF'leri 30 Ekim ile 16 Kasım arasındaki 12 işlem gününün 10'unda net çıkış gördü; buna 5-13 Kasım arasında art arda yedi gün ve toplam yaklaşık 1,91 milyar $ dahil. 16 Kasım Pazartesi günü seri, 7,9 milyon $'lık küçük bir net girişle durdu: IBIT'e 76,5 milyon $ girerken diğer fonların çoğundan para çıkmaya devam etti.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Büyük bankaların bitcoin ETF'leri tutması, bu fonların Wall Street portföylerinin olağan bir parçası haline geldiğini gösteriyor. Bu, fiyatın yükseleceğine dair bir işaret değil ve bildirimler altı haftalık. Şubat ortasında beklenen bir sonraki 13F bildirimleri, bu pozisyonların düşüş sırasında büyüyüp büyümediğini ya da küçülüp küçülmediğini gösterecek.
+
+Kendiniz nasıl yatırım yapacağınıza karar veriyorsanız, aracı kurum hesabında bir ETF de doğrudan bitcoin almak da işe yarar; ücretleri, artıları ve eksileri farklıdır. Bazı yeni başlayanlar [Coinbase](REF) gibi büyük bir borsada küçük bir miktarla başlıyor. Fiyatlar iki yönde de sert dalgalanabilir, bu yüzden yalnızca kaybetmeyi göze alabileceğiniz kadarını yatırın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- 16 Kasım'daki girişin bir giriş serisine dönüşüp dönüşmeyeceği ya da çıkışların yeniden başlayıp başlamayacağı.
+- Diğer banka ve fonların üçüncü çeyrek 13F bildirimleri.
+- Düşüş dönemini kapsayacak, Şubat ortasındaki dördüncü çeyrek 13F bildirimleri.
+
+!soft: Bu konuda yeni misiniz? [Bitcoin ETF'si mi, doğrudan bitcoin almak mı](/articles/bitcoin-etf-vs-buying-bitcoin) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

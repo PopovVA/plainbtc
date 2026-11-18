@@ -1,0 +1,55 @@
+title: Goldman Sachs und Wells Fargo haben ihre Bitcoin-ETF-Bestände vor dem Kursrutsch mehr als verdoppelt, zeigen Meldungen
+page_title: Goldman Sachs und Wells Fargo verdoppelten Bitcoin-ETF-Bestände im 3. Quartal: Was die 13F-Meldungen zeigen
+description: Neue 13F-Meldungen zeigen: Goldman Sachs hielt am 30. September 1,283 Mrd. Dollar in Spot-Bitcoin-ETFs, Wells Fargo 2,35 Mrd. Dollar im IBIT von BlackRock, jeweils mehr als doppelt so viel wie im Juni. Die Daten stammen aus der Zeit vor dem Bitcoin-Rückgang, und die ETF-Abflüsse pausierten erst am 16. November.
+og_description: Goldman Sachs meldete 1,283 Mrd. Dollar in Spot-Bitcoin-ETFs, Wells Fargo 2,35 Mrd. Dollar im IBIT, Stand 30. September. Diese Momentaufnahme liegt aber vor dem Absturz auf rund 62.000 Dollar und sieben Abflusstagen mit 1,91 Mrd. Dollar.
+label: Märkte
+summary: Quartalsweise 13F-Meldungen zeigen: Goldman Sachs hielt am 30. September 1,283 Mrd. Dollar in Spot-Bitcoin-ETFs, Wells Fargo 2,35 Mrd. Dollar im IBIT von BlackRock, mehr als doppelt so viel wie im Juni. Die Zahlen liegen vor dem Bitcoin-Rückgang und Abflüssen von 1,91 Mrd. Dollar.
+===
+
+Zwei der größten US-Banken haben in ihren jüngsten Quartalsmeldungen deutlich größere Positionen in Bitcoin-Fonds ausgewiesen. Goldman Sachs hielt am 30. September rund <strong>1,283 Mrd. Dollar</strong> in börsengehandelten Spot-Bitcoin-Fonds (ETFs), nach etwa 580 Mio. Dollar Ende Juni, [berichtete Bitcoin Magazine](L1). Wells Fargo meldete <strong>2,35 Mrd. Dollar</strong> im iShares Bitcoin Trust (IBIT) von BlackRock, nach rund 812 Mio. Dollar, wie [CoinDesk](L2) schreibt.
+
+Der Haken ist der Zeitpunkt. Es sind Momentaufnahmen vom 30. September, eingereicht am Montag, 16. November. Seitdem ist Bitcoin deutlich gefallen, und Anleger haben seit Ende Oktober an den meisten Handelstagen Geld aus Bitcoin-ETFs abgezogen.
+
+!takeaways
+- Goldman Sachs meldete am 30. September 1,283 Mrd. Dollar in fünf Spot-Bitcoin-Fonds, rund 121 % mehr als im Juni. Wells Fargo meldete 2,35 Mrd. Dollar im IBIT, nach etwa 812 Mio. Dollar.
+- Ein Teil des Sprungs kam vom Kurs: IBIT-Anteile stiegen im Quartal von 33,29 auf 47,34 Dollar, also um etwa 42 %.
+- Die Meldungen sind eine Momentaufnahme vom 30. September. Sie zeigen nicht, was die Banken während des Rückgangs im Oktober und November getan haben.
+- US-Spot-Bitcoin-ETFs verloren an sieben Handelstagen in Folge rund 1,91 Mrd. Dollar und verbuchten am 16. November dann netto 7,9 Mio. Dollar Zufluss, so Farside Investors.
+
+!figure:chart
+
+## Was die Meldungen zeigen
+
+Große Vermögensverwalter müssen jedes Quartal ein [Formular 13F](L3) bei der US-Börsenaufsicht SEC einreichen und darin ihre Bestände an US-Aktien, ETFs und einigen anderen Wertpapieren auflisten. Es ist eines der wenigen öffentlichen Fenster in die Depots großer Institutionen.
+
+Bei Goldman blieb BlackRocks IBIT die größte Position unter den Bitcoin-Fonds, mit 16.440.599 Anteilen im Wert von 778,3 Mio. Dollar, auch wenn die Stückzahl seit der Jahresmitte um rund 5 % sank. Die größte Veränderung gab es beim Fidelity-Fonds (FBTC): Goldman hielt 5.477.583 Anteile im Wert von 397,9 Mio. Dollar, nach nur 105.840 Anteilen drei Monate zuvor. Neu ist eine Position von 2.000.020 Anteilen am Morgan Stanley Bitcoin Trust im Wert von 47,9 Mio. Dollar. Goldman meldete außerdem große Optionspositionen auf IBIT, doch aus der Meldung geht nicht hervor, welche davon Absicherungen für Kunden und welche eigene Wetten sind. In die andere Richtung ging es bei Strategy, dem Unternehmen, das mit seiner Bilanz Bitcoin kauft: Goldman reduzierte seinen Anteil um rund 52 % auf 2.760.766 Aktien.
+
+Die 49,58 Millionen IBIT-Anteile von Wells Fargo entsprechen einem indirekten Engagement in rund 28.070 Bitcoin, wie CoinDesk anhand der Angaben von BlackRock errechnete. Zum Vergleich: Tesla meldete Ende September 11.509 Bitcoin, SpaceX 18.712. Laut CoinDesk war Wells Fargo in diesen Meldungen der größte ausgewiesene IBIT-Halter unter den Vermögensverwaltern. Die Zahl umfasst aber auch für Kunden verwaltete Positionen und zeigt daher nicht, wie viel davon eigenes Geld der Bank ist.
+
+!mid_cta
+
+## Eine Momentaufnahme vor dem Rückgang
+
+Ein Großteil des Wachstums in Dollar stammt aus der Bitcoin-Rally im dritten Quartal und nicht nur aus neuen Käufen. Seitdem sieht das Bild ganz anders aus. Bitcoin fiel von über 83.000 Dollar Ende September auf rund 62.000 Dollar am vergangenen Wochenende, so Bitcoin Magazine, und notierte am Dienstagabend, 17. November, laut CoinGecko bei rund 64.900 Dollar. Zum IBIT-Schlusskurs vom Montag von 36,79 Dollar wären Goldmans IBIT-Anteile rund 605 Mio. Dollar wert, etwa 173 Mio. Dollar weniger als in der Meldung.
+
+!figure:flows
+
+Die Fondsströme erzählen dieselbe Geschichte. Laut [Farside Investors](L4) verzeichneten US-Spot-Bitcoin-ETFs an 10 von 12 Handelstagen zwischen dem 30. Oktober und dem 16. November Nettoabflüsse, darunter sieben Tage in Folge vom 5. bis 13. November mit zusammen rund 1,91 Mrd. Dollar. Am Montag, 16. November, riss die Serie mit einem kleinen Nettozufluss von 7,9 Mio. Dollar ab: 76,5 Mio. Dollar flossen in den IBIT, während aus den meisten anderen Fonds weiter Geld abfloss.
+
+## Was das für Einsteiger bedeutet
+
+Dass Großbanken Bitcoin-ETFs halten, zeigt, dass diese Fonds ein normaler Teil der Depots an der Wall Street geworden sind. Ein Signal für steigende Kurse ist das nicht, und die Meldungen sind sechs Wochen alt. Die nächsten 13F-Meldungen, fällig Mitte Februar, werden zeigen, ob diese Positionen während des Rückgangs gewachsen oder geschrumpft sind.
+
+Wenn Sie überlegen, wie Sie selbst investieren, funktionieren sowohl ein ETF im Wertpapierdepot als auch der direkte Kauf von Bitcoin, mit unterschiedlichen Gebühren, Vor- und Nachteilen. Manche Einsteiger beginnen mit einem kleinen Betrag bei einer großen Börse wie [Coinbase](REF). Die Kurse können stark in beide Richtungen schwanken, investieren Sie also nur, was Sie verlieren können. Dies ist keine Anlageberatung.
+
+## Worauf man jetzt achten sollte
+
+- Ob aus dem Zufluss vom 16. November eine Serie von Zuflüssen wird oder die Abflüsse zurückkehren.
+- Die 13F-Meldungen anderer Banken und Fonds für das dritte Quartal.
+- Die 13F-Meldungen für das vierte Quartal Mitte Februar, die den Rückgang abdecken.
+
+!soft: Neu im Thema? Lesen Sie [Bitcoin-ETF oder Bitcoin direkt kaufen](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

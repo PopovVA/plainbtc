@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Goldman_Sachs.svg",
+      "license": "Public domain (logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:Goldman_Sachs.svg",
+      "credit": "Goldman Sachs"
+    },
+    {
+      "file": "Wells_Fargo_Bank.svg",
+      "license": "Public domain (logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Bank.svg",
+      "credit": "Wells Fargo"
+    },
+    {
+      "file": "Bitcoin Magazine / CoinDesk, Nov. 17, 2026",
+      "license": "Figures cited",
+      "url": "https://bitcoinmagazine.com/news/goldman-sachs-bitcoin-etf-holdings",
+      "credit": "Bitcoin Magazine, CoinDesk"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "goldman-wells-fargo-double-bitcoin-etf-holdings-13f-nov-2026",
+  "generated": "2026-11-18T00:03Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

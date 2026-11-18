@@ -1,0 +1,61 @@
+title: CFTC genehmigt Backpacks blockchainbasierte Derivatebörse und öffnet in den USA den Weg für Krypto-Perpetual-Futures
+page_title: CFTC genehmigt Börse und Clearingstelle von Backpack: Was Krypto-Perps in den USA für Sie bedeuten
+description: Die CFTC hat Backpacks US-Börse (16. November) und Clearingstelle (13. November) genehmigt, die Geschäfte auf der Blockchain abwickeln, nachdem tZERO ähnliche Zulassungen erhalten hatte. Backpack plant gehebelte Krypto-Perpetual-Futures. Was das bedeutet.
+og_description: Die CFTC hat Backpack eine Börse und eine Clearingstelle genehmigt, die Geschäfte auf der Blockchain abwickeln. Backpack plant gehebelte Krypto-Perpetual-Futures rund um die Uhr für Amerikaner. Was sich ändert, was nicht, und die Risiken für Einsteiger.
+label: Regulierung
+summary: Die CFTC hat Backpacks US-Derivatebörse und Clearingstelle genehmigt, die Geschäfte per Blockchain ausführen und abwickeln, nach ähnlichen Zulassungen für tZERO. Backpack plant gehebelte Krypto-Perpetual-Futures rund um die Uhr. Ein Starttermin steht noch nicht fest.
+===
+
+Die Commodity Futures Trading Commission (CFTC), die US-Aufsicht für Terminkontrakte und andere Derivate, hat einem Kryptounternehmen erlaubt, zugleich eine Börse und eine Clearingstelle zu betreiben, die Geschäfte mit Blockchain-Technik ausführen und abwickeln. CFTC-Chef Michael Selig sprach in einer [Erklärung vom 16. November](L1) von „einem wichtigen Meilenstein in der Entwicklung der amerikanischen Finanzmärkte“.
+
+Das Unternehmen heißt Backpack. Seine US-Börse TLD Markets (Markenname Backpack Exchange) wurde am 16. November als Kontraktmarkt zugelassen, seine Clearingtochter TLD Clearing (Backpack Clearing) am 13. November als Derivate-Clearingstelle registriert, wie aus der [Registrierungsverfügung der CFTC](L2) und Angaben von Backpack hervorgeht.
+
+!takeaways
+- Die CFTC hat Backpacks US-Börse am 16. November und die Clearingstelle am 13. November genehmigt. Beide nutzen eine Blockchain-Architektur für Ausführung und Abwicklung.
+- Laut Backpack sollen Nutzer in den USA gehebelte Krypto-Perpetual-Futures rund um die Uhr handeln können, mit Dollar oder Krypto als Sicherheit. Einen Starttermin nannte das Unternehmen nicht.
+- tZERO hatte dieselben zwei Zulassungen schon vorher erhalten: die Clearingstelle am 16. Oktober, die Börse am 10. November.
+- Gehebelte Perpetual-Futures sind Hochrisikoprodukte. Die meisten Einsteiger brauchen sie nicht, um Krypto zu besitzen.
+
+!figure:timeline
+
+## Was genau genehmigt wurde
+
+Ein Derivatemarkt in den USA braucht zwei Bausteine. Ein zugelassener Kontraktmarkt (DCM) ist die Börse, an der sich Käufer und Verkäufer treffen. Eine Derivate-Clearingstelle (DCO) steht zwischen den Parteien jedes Geschäfts, sammelt Sicherheiten ein und sorgt dafür, dass beide Seiten ihr Geld bekommen. Backpack hat beides erhalten.
+
+Die CFTC-Verfügung erlaubt Backpack Clearing, Futures auf Marginbasis zu clearen (Händler hinterlegen nur einen Teil des Positionswerts), dazu voll besicherte Futures, Optionen auf Futures und Swaps. Selig betonte, dass für Blockchain-Firmen keine laxeren Regeln gelten. Sie „müssen dieselben regulatorischen Standards erfüllen“ wie die klassische Marktinfrastruktur, sagte er, darunter Programme gegen Geldwäsche, Kundenschutz und getrennte Verwahrung von Kundengeldern, Marktüberwachung, finanzielle Mittel, Risikomanagement und Systemsicherheit.
+
+!figure:fact
+
+## Was Backpack anbieten will
+
+In seiner [Mitteilung](L3) schreibt Backpack, dass Nutzer in den USA mit diesen Lizenzen Krypto-Perpetual-Futures mit Hebel rund um die Uhr handeln, Dollar und Krypto als Sicherheit einsetzen, Cross-Margin über ihre Positionen nutzen und auf Backpacks weltweite Liquidität in einem einzigen Orderbuch zugreifen können. Nach eigenen Angaben bedient das Unternehmen Nutzer in mehr als 150 Ländern und Regionen und hat ein Handelsvolumen von mehr als 450 Milliarden Dollar abgewickelt.
+
+„Aus regulatorischer Sicht ist das eine wirklich große Sache“, sagte Mark Wetjen, Präsident von Backpack US. Ziel sei es, „die Preisbildung von nicht regulierten Offshore-Plattformen in die USA zu holen“. Backpack sagte nicht, wann der Handel in den USA beginnt, und eine Zulassung heißt nicht, dass jedes Produkt schon verfügbar ist.
+
+!mid_cta
+
+## tZERO war schneller
+
+Backpack ist nicht allein. tZERO, ein Anbieter regulierter Handelsinfrastruktur, teilte in einer [Pressemitteilung](L4) mit, dass seine Clearingstelle am 16. Oktober registriert und seine Börse am 10. November zugelassen wurde. tZERO will die Lizenzen nutzen, um anderen Finanzinstituten Börsen- und Clearingdienste anzubieten, und nicht, um eine Kryptoplattform für Privatanleger zu betreiben. „Sowohl die Börsen- als auch die Clearingzulassung zu erhalten, ist ein großer Erfolg für tZERO“, sagte CEO Alan Konevsky.
+
+## Was ist ein Perpetual Future?
+
+Ein Perpetual Future, kurz „Perp“, ist ein Kontrakt, der den Kurs eines Werts wie Bitcoin abbildet, aber nie ausläuft. Händler können auf steigende oder fallende Kurse setzen, meist mit geliehenem Geld (Hebel). Bisher lief der Großteil des Perp-Handels über Offshore-Börsen außerhalb der US-Regeln.
+
+Der Hebel wirkt in beide Richtungen. Mit 10x Hebel kann eine Bewegung von rund 10 % gegen Sie die gesamte Einlage auslöschen, und die Börse schließt die Position automatisch. Das nennt man Liquidation. Beim Kursrutsch am vergangenen Wochenende, als Bitcoin kurz auf etwa 62.000 Dollar fiel, wurden innerhalb von 24 Stunden gehebelte Positionen im Wert von rund 2,02 Milliarden Dollar liquidiert, [berichtete The Block](L5), überwiegend Wetten auf steigende Kurse.
+
+## Was das für Einsteiger bedeutet
+
+Für die meisten Menschen ändert sich vorerst wenig. Ein regulierter Rahmen für Perps kann den Markt sicherer machen als Offshore-Plattformen, mit Regeln für Kundengelder und Marktüberwachung, aber er macht den Hebel nicht ungefährlicher. Wenn Sie einfach etwas Bitcoin besitzen wollen, brauchen Sie überhaupt keine Derivate. Viele Einsteiger kaufen einen kleinen Betrag direkt bei einer großen regulierten Börse wie [Coinbase](REF) und halten ihn. Jeder Kauf kann an Wert verlieren, also setzen Sie nur Geld ein, dessen Verlust Sie verkraften können. Dies ist keine Anlageberatung.
+
+## Worauf man jetzt achten sollte
+
+- Wann Backpack den Handel in den USA startet und welche Coins und Hebelgrenzen es anbietet.
+- Ob andere Kryptobörsen dieselbe blockchainbasierte Struktur beantragen.
+- Wie die CFTC mit diesen Märkten bei einem schnellen Kurssturz umgeht.
+
+!soft: Lieber erst die Grundlagen? Lesen Sie [Bitcoin-ETF oder Bitcoin direkt kaufen](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

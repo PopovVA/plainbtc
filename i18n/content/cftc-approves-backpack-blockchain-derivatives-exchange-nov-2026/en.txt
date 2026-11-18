@@ -1,0 +1,61 @@
+title: CFTC approves Backpack's blockchain-based derivatives exchange, opening a U.S. path for crypto perpetual futures
+page_title: CFTC approves Backpack exchange and clearinghouse: what U.S. crypto perps mean for you
+description: The CFTC approved Backpack's U.S. exchange (Nov. 16) and clearinghouse (Nov. 13), which settle trades on blockchain rails, after tZERO won similar approvals. Backpack plans leveraged crypto perpetual futures for U.S. users. Here is what that means.
+og_description: The CFTC approved an exchange and a clearinghouse for Backpack that settle trades on blockchain rails. Backpack plans 24/7 leveraged crypto perpetual futures for Americans. What changed, what did not, and the risks for beginners.
+label: Regulation
+summary: The CFTC approved Backpack's U.S. derivatives exchange and clearinghouse, which use blockchain to execute and settle trades, after similar approvals for tZERO. Backpack plans 24/7 leveraged crypto perpetual futures for U.S. users. No launch date yet.
+===
+
+The Commodity Futures Trading Commission (CFTC), the U.S. regulator for futures and other derivatives, has approved a crypto company to run both an exchange and a clearinghouse that use blockchain technology to execute and settle trades. CFTC Chairman Michael Selig called it "an important milestone in the evolution of American financial markets" in a [statement on Nov. 16](L1).
+
+The firm is Backpack. Its U.S. exchange, TLD Markets (doing business as Backpack Exchange), was designated a contract market on Nov. 16, and its clearing arm, TLD Clearing (Backpack Clearing), was registered as a derivatives clearing organization on Nov. 13, according to the [CFTC's registration order](L2) and Backpack.
+
+!takeaways
+- The CFTC approved Backpack's U.S. exchange on Nov. 16 and its clearinghouse on Nov. 13. Both use blockchain-based architecture for execution and settlement.
+- Backpack says U.S. users will be able to trade leveraged crypto perpetual futures 24/7, with fiat or crypto as collateral. It has not given a launch date.
+- tZERO received the same two kinds of approval earlier: its clearinghouse on Oct. 16 and its exchange on Nov. 10.
+- Leveraged perpetual futures are high-risk products. Most beginners do not need them to own crypto.
+
+!figure:timeline
+
+## What exactly was approved
+
+A derivatives market in the U.S. needs two pieces. A designated contract market (DCM) is the exchange where buyers and sellers meet. A derivatives clearing organization (DCO) stands in the middle of every trade, collects collateral and makes sure both sides get paid. Backpack received both.
+
+The CFTC order lets Backpack Clearing clear futures on a margined basis (traders put up only part of a position's value) as well as fully collateralized futures, options on futures and swaps. Selig stressed that the rules are not softer for blockchain firms. They "must satisfy the same regulatory standards" as traditional market infrastructure, he said, including anti-money laundering programs, customer protection and segregation of customer funds, market surveillance, financial resources, risk management and system safeguards.
+
+!figure:fact
+
+## What Backpack plans to offer
+
+In its [announcement](L3), Backpack said that with these licenses U.S. users will be able to trade crypto perpetual futures on a leveraged basis around the clock, use both dollars and crypto as collateral, use cross-margin across positions, and tap Backpack's global liquidity in one order book. The company says it serves users from more than 150 countries and regions and has handled more than $450 billion in trading volume.
+
+"From a policy perspective this is a really big deal," said Mark Wetjen, president of Backpack US. He said the goal is "moving price discovery from offshore unregulated venues to the United States." Backpack did not say when U.S. trading will start, and an approval does not mean every product is live.
+
+!mid_cta
+
+## tZERO got there first
+
+Backpack is not alone. tZERO, a firm that builds regulated trading infrastructure, said its clearinghouse was registered on Oct. 16 and its exchange was designated on Nov. 10, according to a [tZERO press release](L4). tZERO plans to use the licenses to offer exchange and clearing services to other financial institutions rather than to run a retail crypto venue. "Securing both exchange and clearinghouse approvals is a major achievement for tZERO," said CEO Alan Konevsky.
+
+## What is a perpetual future?
+
+A perpetual future, or "perp," is a contract that tracks the price of an asset such as bitcoin but never expires. Traders can bet on prices going up or down, usually with borrowed money (leverage). Until now, most perp trading has happened on offshore exchanges outside U.S. rules.
+
+Leverage cuts both ways. With 10x leverage, a move of roughly 10% against you can wipe out your whole deposit, and the exchange closes the position automatically, which is called a liquidation. During last weekend's slide, when bitcoin briefly fell to about $62,000, about $2.02 billion of leveraged positions were liquidated in 24 hours, [The Block reported](L5), most of them bets on higher prices.
+
+## What it means for beginners
+
+For most people this changes little right away. A regulated home for perps may make the market safer than offshore venues, with rules on customer funds and surveillance, but it does not make leverage safer. If your goal is simply to own some bitcoin, you do not need derivatives at all. Many beginners buy a small amount outright on a large regulated exchange such as [Coinbase](REF) and hold it. Any purchase can lose value, so only use money you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- When Backpack opens U.S. trading, and which coins and leverage limits it offers.
+- Whether other crypto exchanges apply for the same blockchain-based setup.
+- How the CFTC handles these markets during a fast selloff.
+
+!soft: Want the basics first? Read [Bitcoin ETF vs. buying bitcoin directly](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

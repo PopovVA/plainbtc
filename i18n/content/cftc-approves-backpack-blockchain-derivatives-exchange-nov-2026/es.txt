@@ -1,0 +1,61 @@
+title: La CFTC aprueba la bolsa de derivados de Backpack basada en blockchain y abre una vía en EE. UU. para los futuros perpetuos cripto
+page_title: La CFTC aprueba la bolsa y la cámara de compensación de Backpack: qué significan los perpetuos cripto en EE. UU.
+description: La CFTC aprobó la bolsa (16 de noviembre) y la cámara de compensación (13 de noviembre) de Backpack en EE. UU., que liquidan operaciones sobre blockchain, después de aprobaciones similares para tZERO. Backpack prepara futuros perpetuos cripto con apalancamiento. Esto es lo que significa.
+og_description: La CFTC aprobó para Backpack una bolsa y una cámara de compensación que liquidan operaciones sobre blockchain. Backpack prepara futuros perpetuos cripto apalancados 24/7 para estadounidenses. Qué cambió, qué no y los riesgos para principiantes.
+label: Regulación
+summary: La CFTC aprobó la bolsa de derivados y la cámara de compensación de Backpack en EE. UU., que usan blockchain para ejecutar y liquidar operaciones, tras aprobaciones similares para tZERO. Backpack prepara futuros perpetuos cripto apalancados 24/7. Aún no hay fecha de lanzamiento.
+===
+
+La Commodity Futures Trading Commission (CFTC), el regulador estadounidense de futuros y otros derivados, aprobó que una empresa cripto opere a la vez una bolsa y una cámara de compensación que usan tecnología blockchain para ejecutar y liquidar operaciones. El presidente de la CFTC, Michael Selig, lo calificó de "un hito importante en la evolución de los mercados financieros estadounidenses" en un [comunicado del 16 de noviembre](L1).
+
+La empresa es Backpack. Su bolsa en EE. UU., TLD Markets (que opera como Backpack Exchange), fue designada mercado de contratos el 16 de noviembre, y su brazo de compensación, TLD Clearing (Backpack Clearing), se registró como organización de compensación de derivados el 13 de noviembre, según la [orden de registro de la CFTC](L2) y la propia Backpack.
+
+!takeaways
+- La CFTC aprobó la bolsa de Backpack en EE. UU. el 16 de noviembre y su cámara de compensación el 13 de noviembre. Ambas usan una arquitectura basada en blockchain para la ejecución y la liquidación.
+- Backpack dice que los usuarios en EE. UU. podrán operar futuros perpetuos cripto con apalancamiento las 24 horas, con dólares o cripto como garantía. No ha dado fecha de lanzamiento.
+- tZERO recibió antes los mismos dos tipos de aprobación: su cámara de compensación el 16 de octubre y su bolsa el 10 de noviembre.
+- Los futuros perpetuos apalancados son productos de alto riesgo. La mayoría de los principiantes no los necesita para tener cripto.
+
+!figure:timeline
+
+## Qué se aprobó exactamente
+
+Un mercado de derivados en EE. UU. necesita dos piezas. Un mercado de contratos designado (DCM) es la bolsa donde se encuentran compradores y vendedores. Una organización de compensación de derivados (DCO) se coloca en medio de cada operación, cobra las garantías y se asegura de que ambas partes cobren. Backpack recibió las dos.
+
+La orden de la CFTC permite a Backpack Clearing compensar futuros con margen (el operador aporta solo una parte del valor de la posición), además de futuros, opciones sobre futuros y swaps totalmente garantizados. Selig subrayó que las reglas no son más suaves para las empresas blockchain. Estas "deben cumplir los mismos estándares regulatorios" que la infraestructura de mercado tradicional, dijo, incluidos programas contra el blanqueo de capitales, protección de clientes y separación de sus fondos, vigilancia del mercado, recursos financieros, gestión de riesgos y salvaguardas de sistemas.
+
+!figure:fact
+
+## Qué planea ofrecer Backpack
+
+En su [anuncio](L3), Backpack dijo que con estas licencias los usuarios en EE. UU. podrán operar futuros perpetuos cripto con apalancamiento a cualquier hora, usar dólares y cripto como garantía, aplicar margen cruzado entre posiciones y acceder a la liquidez global de Backpack en un único libro de órdenes. La empresa afirma que atiende a usuarios de más de 150 países y regiones y que ha gestionado más de 450.000 millones de dólares en volumen de operaciones.
+
+"Desde el punto de vista de las políticas, esto es algo muy importante", dijo Mark Wetjen, presidente de Backpack US. Según él, el objetivo es "trasladar la formación de precios de plataformas extraterritoriales no reguladas a Estados Unidos". Backpack no dijo cuándo empezará a operar en EE. UU., y una aprobación no significa que todos los productos estén activos.
+
+!mid_cta
+
+## tZERO llegó primero
+
+Backpack no está sola. tZERO, una empresa que construye infraestructura de negociación regulada, dijo que su cámara de compensación se registró el 16 de octubre y su bolsa fue designada el 10 de noviembre, según un [comunicado de tZERO](L4). tZERO planea usar las licencias para ofrecer servicios de bolsa y compensación a otras instituciones financieras, no para abrir una plataforma cripto minorista. "Obtener las aprobaciones de bolsa y de cámara de compensación es un logro importante para tZERO", dijo su consejero delegado, Alan Konevsky.
+
+## ¿Qué es un futuro perpetuo?
+
+Un futuro perpetuo, o "perp", es un contrato que sigue el precio de un activo como bitcoin pero nunca vence. Los operadores pueden apostar a que el precio sube o baja, normalmente con dinero prestado (apalancamiento). Hasta ahora, la mayor parte de la negociación de perps se ha hecho en bolsas extraterritoriales, fuera de las normas de EE. UU.
+
+El apalancamiento corta en ambos sentidos. Con un apalancamiento de 10x, un movimiento de aproximadamente un 10% en tu contra puede borrar todo tu depósito, y la bolsa cierra la posición de forma automática, lo que se llama liquidación. Durante la caída del pasado fin de semana, cuando bitcoin bajó brevemente a unos 62.000 dólares, se liquidaron unos 2.020 millones de dólares en posiciones apalancadas en 24 horas, [informó The Block](L5), la mayoría apuestas a que el precio subiría.
+
+## Qué significa para los principiantes
+
+Para la mayoría de la gente, esto cambia poco de inmediato. Un hogar regulado para los perps puede hacer el mercado más seguro que las plataformas extraterritoriales, con reglas sobre los fondos de los clientes y vigilancia, pero no hace más seguro el apalancamiento. Si tu objetivo es simplemente tener algo de bitcoin, no necesitas derivados en absoluto. Muchos principiantes compran una pequeña cantidad directamente en una gran plataforma regulada como [Coinbase](REF) y la conservan. Cualquier compra puede perder valor, así que usa solo dinero que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Cuándo abre Backpack la negociación en EE. UU. y qué monedas y límites de apalancamiento ofrece.
+- Si otras bolsas cripto solicitan la misma estructura basada en blockchain.
+- Cómo gestiona la CFTC estos mercados durante una caída rápida.
+
+!soft: ¿Prefieres empezar por lo básico? Lee [ETF de bitcoin o comprar bitcoin directamente](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,61 @@
+title: La CFTC autorise la plateforme de dérivés de Backpack fondée sur la blockchain et ouvre la voie aux contrats perpétuels crypto aux États-Unis
+page_title: La CFTC autorise la plateforme et la chambre de compensation de Backpack : ce que changent les perpétuels crypto aux États-Unis
+description: La CFTC a autorisé la plateforme (16 novembre) et la chambre de compensation (13 novembre) de Backpack aux États-Unis, qui règlent les transactions sur la blockchain, après des feux verts similaires pour tZERO. Backpack prépare des contrats perpétuels crypto à effet de levier. Explications.
+og_description: La CFTC a autorisé pour Backpack une plateforme et une chambre de compensation qui règlent les transactions sur la blockchain. Backpack prépare des perpétuels crypto à effet de levier, 24 h/24, pour les Américains. Ce qui change, ce qui ne change pas et les risques pour les débutants.
+label: Régulation
+summary: La CFTC a autorisé la plateforme de dérivés et la chambre de compensation de Backpack aux États-Unis, qui utilisent la blockchain pour exécuter et régler les transactions, après des feux verts similaires pour tZERO. Backpack prépare des perpétuels crypto à effet de levier 24 h/24. Pas encore de date de lancement.
+===
+
+La Commodity Futures Trading Commission (CFTC), le régulateur américain des contrats à terme et autres produits dérivés, a autorisé une entreprise crypto à exploiter à la fois une plateforme de négociation et une chambre de compensation qui utilisent la blockchain pour exécuter et régler les transactions. Son président, Michael Selig, y voit « une étape importante dans l'évolution des marchés financiers américains », selon une [déclaration du 16 novembre](L1).
+
+L'entreprise s'appelle Backpack. Sa plateforme américaine, TLD Markets (qui opère sous le nom de Backpack Exchange), a été désignée marché réglementé de contrats le 16 novembre, et sa filiale de compensation, TLD Clearing (Backpack Clearing), a été enregistrée comme chambre de compensation de dérivés le 13 novembre, d'après l'[ordonnance d'enregistrement de la CFTC](L2) et Backpack.
+
+!takeaways
+- La CFTC a autorisé la plateforme américaine de Backpack le 16 novembre et sa chambre de compensation le 13 novembre. Les deux reposent sur une architecture blockchain pour l'exécution et le règlement.
+- Backpack affirme que les utilisateurs américains pourront négocier des contrats perpétuels crypto avec effet de levier 24 h/24, avec des dollars ou des cryptos en garantie. Aucune date de lancement n'a été donnée.
+- tZERO avait obtenu auparavant les deux mêmes types d'autorisation : sa chambre de compensation le 16 octobre et sa plateforme le 10 novembre.
+- Les perpétuels à effet de levier sont des produits très risqués. La plupart des débutants n'en ont pas besoin pour détenir des cryptos.
+
+!figure:timeline
+
+## Ce qui a été autorisé exactement
+
+Un marché de dérivés américain repose sur deux piliers. Le marché désigné (DCM) est la plateforme où se rencontrent acheteurs et vendeurs. La chambre de compensation (DCO) s'interpose dans chaque transaction, collecte les garanties et s'assure que chaque partie est payée. Backpack a obtenu les deux.
+
+L'ordonnance de la CFTC permet à Backpack Clearing de compenser des contrats à terme sur marge (le trader ne dépose qu'une partie de la valeur de sa position), ainsi que des contrats à terme, des options sur contrats à terme et des swaps entièrement garantis. Michael Selig a insisté : les règles ne sont pas plus souples pour les acteurs de la blockchain. Ils « doivent respecter les mêmes normes réglementaires » que l'infrastructure de marché traditionnelle, a-t-il dit, notamment en matière de lutte contre le blanchiment, de protection et de ségrégation des fonds des clients, de surveillance du marché, de ressources financières, de gestion des risques et de sécurité des systèmes.
+
+!figure:fact
+
+## Ce que Backpack compte proposer
+
+Dans son [annonce](L3), Backpack explique qu'avec ces licences, les utilisateurs américains pourront négocier des perpétuels crypto avec effet de levier à toute heure, utiliser des dollars et des cryptos comme garantie, profiter d'une marge croisée entre leurs positions et accéder à la liquidité mondiale de Backpack dans un carnet d'ordres unique. L'entreprise dit servir des utilisateurs dans plus de 150 pays et régions et revendique plus de 450 milliards de dollars de volume de négociation.
+
+« Du point de vue réglementaire, c'est une très grande avancée », a déclaré Mark Wetjen, président de Backpack US. Selon lui, l'objectif est de « ramener la formation des prix des plateformes offshore non réglementées vers les États-Unis ». Backpack n'a pas précisé quand la négociation démarrera aux États-Unis, et une autorisation ne signifie pas que tous les produits sont disponibles.
+
+!mid_cta
+
+## tZERO est passé avant
+
+Backpack n'est pas seule. tZERO, une société qui construit des infrastructures de marché réglementées, indique que sa chambre de compensation a été enregistrée le 16 octobre et sa plateforme désignée le 10 novembre, selon un [communiqué de tZERO](L4). tZERO compte utiliser ces licences pour fournir des services de négociation et de compensation à d'autres institutions financières, et non pour ouvrir une plateforme crypto grand public. « Obtenir à la fois l'autorisation de plateforme et celle de chambre de compensation est une réussite majeure pour tZERO », a déclaré son PDG, Alan Konevsky.
+
+## Qu'est-ce qu'un contrat perpétuel ?
+
+Un contrat perpétuel, ou « perp », suit le prix d'un actif comme le bitcoin mais n'arrive jamais à échéance. Les traders peuvent parier sur la hausse ou la baisse, le plus souvent avec de l'argent emprunté (l'effet de levier). Jusqu'ici, l'essentiel des échanges de perpétuels se faisait sur des plateformes offshore, hors des règles américaines.
+
+L'effet de levier joue dans les deux sens. Avec un levier de 10x, une variation d'environ 10 % dans le mauvais sens peut effacer tout votre dépôt, et la plateforme ferme automatiquement la position : c'est ce qu'on appelle une liquidation. Lors de la chute du week-end dernier, quand le bitcoin est brièvement tombé vers 62 000 dollars, environ 2,02 milliards de dollars de positions à effet de levier ont été liquidés en 24 heures, [selon The Block](L5), pour l'essentiel des paris à la hausse.
+
+## Ce que cela change pour les débutants
+
+Pour la plupart des gens, pas grand-chose dans l'immédiat. Un cadre réglementé pour les perpétuels peut rendre ce marché plus sûr que les plateformes offshore, avec des règles sur les fonds des clients et une surveillance, mais il ne rend pas l'effet de levier moins dangereux. Si votre objectif est simplement de détenir un peu de bitcoin, vous n'avez pas besoin de dérivés. Beaucoup de débutants achètent une petite somme directement sur une grande plateforme réglementée comme [Coinbase](REF) et la conservent. Tout achat peut perdre de la valeur : n'investissez que ce que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Quand Backpack ouvrira la négociation aux États-Unis, et avec quelles cryptos et quelles limites de levier.
+- Si d'autres plateformes crypto demandent le même type d'autorisation fondée sur la blockchain.
+- Comment la CFTC encadrera ces marchés lors d'une chute brutale.
+
+!soft: Envie de revoir les bases ? Lisez [ETF bitcoin ou achat direct de bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

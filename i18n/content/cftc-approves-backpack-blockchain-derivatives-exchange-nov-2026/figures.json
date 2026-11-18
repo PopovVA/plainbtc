@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-cftc-backpack-tzero.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline of CFTC approvals: Oct. 16, tZERO's clearinghouse is registered as a DCO; Nov. 10, tZERO's exchange is designated as a DCM; Nov. 13, Backpack Clearing is registered as a DCO; Nov. 16, Backpack Exchange is designated as a DCM",
+      "es": "Cronología de las aprobaciones de la CFTC: 16 de octubre, la cámara de compensación de tZERO se registra como DCO; 10 de noviembre, la bolsa de tZERO recibe la designación DCM; 13 de noviembre, Backpack Clearing se registra como DCO; 16 de noviembre, Backpack Exchange recibe la designación DCM",
+      "pt": "Linha do tempo das aprovações da CFTC: 16 de outubro, a câmara de compensação da tZERO é registrada como DCO; 10 de novembro, a bolsa da tZERO recebe a designação DCM; 13 de novembro, a Backpack Clearing é registrada como DCO; 16 de novembro, a Backpack Exchange recebe a designação DCM",
+      "fr": "Chronologie des feux verts de la CFTC : 16 octobre, la chambre de compensation de tZERO est enregistrée comme DCO ; 10 novembre, la plateforme de tZERO est désignée DCM ; 13 novembre, Backpack Clearing est enregistrée comme DCO ; 16 novembre, Backpack Exchange est désignée DCM",
+      "de": "Zeitleiste der CFTC-Zulassungen: 16. Oktober, die Clearingstelle von tZERO wird als DCO registriert; 10. November, die Börse von tZERO wird als DCM zugelassen; 13. November, Backpack Clearing wird als DCO registriert; 16. November, Backpack Exchange wird als DCM zugelassen",
+      "ru": "Хронология одобрений CFTC: 16 октября клиринговая палата tZERO зарегистрирована как DCO; 10 ноября биржа tZERO получила статус DCM; 13 ноября Backpack Clearing зарегистрирована как DCO; 16 ноября Backpack Exchange получила статус DCM",
+      "tr": "CFTC onaylarının zaman çizelgesi: 16 Ekim, tZERO'nun takas kuruluşu DCO olarak kaydedildi; 10 Kasım, tZERO'nun borsası DCM olarak belirlendi; 13 Kasım, Backpack Clearing DCO olarak kaydedildi; 16 Kasım, Backpack Exchange DCM olarak belirlendi",
+      "id": "Linimasa persetujuan CFTC: 16 Oktober, lembaga kliring tZERO terdaftar sebagai DCO; 10 November, bursa tZERO ditetapkan sebagai DCM; 13 November, Backpack Clearing terdaftar sebagai DCO; 16 November, Backpack Exchange ditetapkan sebagai DCM",
+      "ja": "CFTCの承認の時系列：10月16日、tZEROの清算機関がDCOとして登録、11月10日、tZEROの取引所がDCMに指定、11月13日、Backpack ClearingがDCOとして登録、11月16日、Backpack ExchangeがDCMに指定",
+      "ko": "CFTC 승인 타임라인: 10월 16일 tZERO 청산소 DCO 등록, 11월 10일 tZERO 거래소 DCM 지정, 11월 13일 Backpack Clearing DCO 등록, 11월 16일 Backpack Exchange DCM 지정"
+    },
+    "caption": {
+      "en": "Source: CFTC, tZERO, Backpack",
+      "es": "Fuente: CFTC, tZERO, Backpack",
+      "pt": "Fonte: CFTC, tZERO, Backpack",
+      "fr": "Source : CFTC, tZERO, Backpack",
+      "de": "Quelle: CFTC, tZERO, Backpack",
+      "ru": "Источник: CFTC, tZERO, Backpack",
+      "tr": "Kaynak: CFTC, tZERO, Backpack",
+      "id": "Sumber: CFTC, tZERO, Backpack",
+      "ja": "出典: CFTC, tZERO, Backpack",
+      "ko": "출처: CFTC, tZERO, Backpack"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-selig-milestone.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: CFTC Chairman Michael Selig called the approvals an important milestone and said blockchain-based firms must meet the same standards as traditional exchanges, including anti-money laundering, customer protection, surveillance and risk management",
+      "es": "Tarjeta de datos: el presidente de la CFTC, Michael Selig, calificó las aprobaciones de hito importante y dijo que las firmas basadas en blockchain deben cumplir los mismos estándares que las bolsas tradicionales, incluidos prevención del blanqueo, protección del cliente, vigilancia y gestión de riesgos",
+      "pt": "Cartão de dados: o presidente da CFTC, Michael Selig, chamou as aprovações de marco importante e disse que empresas baseadas em blockchain precisam cumprir os mesmos padrões das bolsas tradicionais, incluindo prevenção à lavagem de dinheiro, proteção ao cliente, vigilância e gestão de riscos",
+      "fr": "Fiche chiffre : le président de la CFTC, Michael Selig, a qualifié ces feux verts d'étape importante et rappelé que les acteurs fondés sur la blockchain doivent respecter les mêmes règles que les places traditionnelles : lutte contre le blanchiment, protection des clients, surveillance et gestion des risques",
+      "de": "Faktenkarte: CFTC-Chef Michael Selig nannte die Zulassungen einen wichtigen Meilenstein und sagte, Blockchain-Firmen müssten dieselben Standards erfüllen wie klassische Börsen, darunter Geldwäscheprävention, Kundenschutz, Marktüberwachung und Risikomanagement",
+      "ru": "Карточка: председатель CFTC Майкл Селиг назвал одобрения важной вехой и подчеркнул, что компании на блокчейне должны соответствовать тем же стандартам, что и традиционные биржи, включая противодействие отмыванию денег, защиту клиентов, надзор за рынком и управление рисками",
+      "tr": "Bilgi kartı: CFTC Başkanı Michael Selig onayları önemli bir dönüm noktası olarak nitelendirdi ve blokzincir tabanlı firmaların kara para aklamayla mücadele, müşteri koruma, piyasa gözetimi ve risk yönetimi dahil geleneksel borsalarla aynı standartları karşılaması gerektiğini söyledi",
+      "id": "Kartu fakta: Ketua CFTC Michael Selig menyebut persetujuan ini tonggak penting dan mengatakan perusahaan berbasis blockchain harus memenuhi standar yang sama dengan bursa tradisional, termasuk anti pencucian uang, perlindungan nasabah, pengawasan pasar, dan manajemen risiko",
+      "ja": "ファクトカード：CFTCのマイケル・セリグ委員長は今回の承認を重要な節目と呼び、ブロックチェーンを使う企業もマネーロンダリング対策、顧客保護、市場監視、リスク管理など従来の取引所と同じ基準を満たす必要があると述べた",
+      "ko": "팩트 카드: 마이클 셀리그 CFTC 위원장은 이번 승인을 중요한 이정표라고 부르며, 블록체인 기반 기업도 자금세탁 방지, 고객 보호, 시장 감시, 리스크 관리 등 기존 거래소와 같은 기준을 충족해야 한다고 밝혔다"
+    },
+    "caption": {
+      "en": "Source: CFTC",
+      "es": "Fuente: CFTC",
+      "pt": "Fonte: CFTC",
+      "fr": "Source : CFTC",
+      "de": "Quelle: CFTC",
+      "ru": "Источник: CFTC",
+      "tr": "Kaynak: CFTC",
+      "id": "Sumber: CFTC",
+      "ja": "出典: CFTC",
+      "ko": "출처: CFTC"
+    }
+  }
+]

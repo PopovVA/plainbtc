@@ -1245,7 +1245,57 @@ def thumb_coinbase_borrow_ny():
 
 
 
+def thumb_cftc_backpack():
+    """CFTC seal (public domain, Wikimedia Commons) and Backpack logo mark (official favicon, identification only)."""
+    cftc = fetch("https://upload.wikimedia.org/wikipedia/commons/3/3e/Commodity_Futures_Trading_Commission_seal.svg", CACHE/"cftc-seal.svg")
+    bp = fetch("https://backpack.exchange/favicon/favicon-bb988748.svg", CACHE/"backpack-favicon.svg")
+    base = gradient_bg()
+    paste_contain(base, Image.open(cftc).convert("RGBA"), (34, 62, 210, 210), pad=6)
+    x, y, cw, ch = 262, 92, 150, 150
+    tile = Image.new("RGBA", (cw, ch), (255,255,255,255))
+    mask = Image.new("L", (cw, ch), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,cw-1,ch-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), (x, y), mask)
+    paste_contain(base, Image.open(bp).convert("RGBA"), (x, y, cw, ch), pad=18)
+    d = ImageDraw.Draw(base)
+    d.text((440, 104), "DCM", font=font(FONT_B, 40), fill=ORANGE)
+    d.text((440, 156), "+ DCO", font=font(FONT_B, 40), fill=ORANGE)
+    d.text((440, 214), "Nov. 13-16", font=font(FONT_R, 18), fill=(203,213,225))
+    d.text((44, 300), "Exchange + clearinghouse approvals for blockchain-based derivatives", font=font(FONT_R, 16), fill=(203,213,225))
+    label_chip(base, "CFTC · Backpack · tZERO")
+    return base, {"kind":"composite","sources":[
+        {"file":"Commodity_Futures_Trading_Commission_seal.svg","license":"Public domain (U.S. government)","url":"https://commons.wikimedia.org/wiki/File:Commodity_Futures_Trading_Commission_seal.svg","credit":"CFTC"},
+        {"file":"backpack.exchange favicon.svg","license":"Logo","url":"https://backpack.exchange/","credit":"Backpack (logo, identification only)"},
+        {"file":"CFTC statement and orders, Nov. 13-16, 2026","license":"Fact cited","url":"https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement111626","credit":"CFTC"},
+    ],"note":"Editorial composite for identification; no endorsement by the CFTC implied; trademarks belong to their owners."}
+
+
+def thumb_banks_btc_etf_13f():
+    """Goldman Sachs and Wells Fargo logos (Wikimedia Commons, public domain) with 13F figures (Sept. 30, 2026)."""
+    gs = fetch("https://upload.wikimedia.org/wikipedia/commons/6/61/Goldman_Sachs.svg", CACHE/"goldman-sachs.svg")
+    wf = fetch("https://upload.wikimedia.org/wikipedia/commons/b/b3/Wells_Fargo_Bank.svg", CACHE/"wells-fargo.svg")
+    base = gradient_bg()
+    d = ImageDraw.Draw(base)
+    for (x, im, big, sub) in [(40, gs, "$1.28B", "bitcoin ETFs (Goldman)"), (340, wf, "$2.35B", "IBIT (Wells Fargo)")]:
+        cw, ch = 130, 130
+        tile = Image.new("RGBA", (cw, ch), (255,255,255,255))
+        mask = Image.new("L", (cw, ch), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,cw-1,ch-1], radius=16, fill=255)
+        base.paste(tile.convert("RGB"), (x, 70), mask)
+        paste_contain(base, Image.open(im).convert("RGBA"), (x, 70, cw, ch), pad=14)
+        d = ImageDraw.Draw(base)
+        d.text((x, 216), big, font=font(FONT_B, 46), fill=ORANGE)
+        d.text((x + 2, 272), sub, font=font(FONT_R, 18), fill=(203,213,225))
+    d.text((44, 316), "13F filings, holdings as of Sept. 30, 2026", font=font(FONT_R, 15), fill=(148,163,184))
+    label_chip(base, "Wall Street banks · bitcoin ETF 13Fs")
+    return base, {"kind":"composite","sources":[
+        {"file":"Goldman_Sachs.svg","license":"Public domain (logo)","url":"https://commons.wikimedia.org/wiki/File:Goldman_Sachs.svg","credit":"Goldman Sachs"},
+        {"file":"Wells_Fargo_Bank.svg","license":"Public domain (logo)","url":"https://commons.wikimedia.org/wiki/File:Wells_Fargo_Bank.svg","credit":"Wells Fargo"},
+        {"file":"Bitcoin Magazine / CoinDesk, Nov. 17, 2026","license":"Figures cited","url":"https://bitcoinmagazine.com/news/goldman-sachs-bitcoin-etf-holdings","credit":"Bitcoin Magazine, CoinDesk"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
 BUILDERS = {
+    "cftc-approves-backpack-blockchain-derivatives-exchange-nov-2026": thumb_cftc_backpack,
+    "goldman-wells-fargo-double-bitcoin-etf-holdings-13f-nov-2026": thumb_banks_btc_etf_13f,
     "trezor-skladon-shipping-breach-27000-orders-nov-2026": thumb_trezor_skladon,
     "coinbase-borrow-new-york-all-50-states-nov-2026": thumb_coinbase_borrow_ny,
     "optimizely-hack-crypto-address-swap-178-sites-nov-2026": thumb_optimizely_clipper,

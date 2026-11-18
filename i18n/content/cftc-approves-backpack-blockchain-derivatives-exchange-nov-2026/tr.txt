@@ -1,0 +1,61 @@
+title: CFTC, Backpack'in blokzincir tabanlı türev borsasını onayladı: ABD'de kripto vadesiz vadeli işlemlerine yol açılıyor
+page_title: CFTC, Backpack'in borsasını ve takas kuruluşunu onayladı: ABD'de kripto perp'ler sizin için ne anlama geliyor
+description: CFTC, işlemleri blokzincir üzerinde sonuçlandıran Backpack'in ABD borsasını (16 Kasım) ve takas kuruluşunu (13 Kasım) onayladı. Daha önce tZERO da benzer onaylar almıştı. Backpack kaldıraçlı kripto vadesiz vadeli işlemleri hazırlıyor. Ne anlama geldiğini anlatıyoruz.
+og_description: CFTC, Backpack için işlemleri blokzincir üzerinde sonuçlandıran bir borsa ve takas kuruluşunu onayladı. Backpack, Amerikalılar için 7/24 kaldıraçlı kripto vadesiz vadeli işlemler planlıyor. Neyin değiştiği, neyin değişmediği ve yeni başlayanlar için riskler.
+label: Düzenleme
+summary: CFTC, işlemleri blokzincirle gerçekleştirip sonuçlandıran Backpack'in ABD türev borsasını ve takas kuruluşunu, tZERO'ya verilen benzer onayların ardından onayladı. Backpack 7/24 kaldıraçlı kripto vadesiz vadeli işlemler planlıyor. Henüz başlangıç tarihi yok.
+===
+
+ABD'de vadeli işlemleri ve diğer türev ürünleri denetleyen Emtia Vadeli İşlem Komisyonu (CFTC), bir kripto şirketinin işlemleri blokzincir teknolojisiyle gerçekleştirip sonuçlandıran hem bir borsa hem de bir takas kuruluşu işletmesini onayladı. CFTC Başkanı Michael Selig, [16 Kasım tarihli açıklamasında](L1) bunu "Amerikan finans piyasalarının gelişiminde önemli bir dönüm noktası" olarak nitelendirdi.
+
+Şirketin adı Backpack. ABD borsası TLD Markets (Backpack Exchange adıyla faaliyet gösteriyor) 16 Kasım'da sözleşme piyasası olarak belirlendi, takas kolu TLD Clearing (Backpack Clearing) ise 13 Kasım'da türev takas kuruluşu olarak kaydedildi. Bu bilgiler [CFTC'nin kayıt kararından](L2) ve Backpack'ten geliyor.
+
+!takeaways
+- CFTC, Backpack'in ABD borsasını 16 Kasım'da, takas kuruluşunu 13 Kasım'da onayladı. İkisi de işlemlerin gerçekleştirilmesi ve sonuçlandırılması için blokzincir tabanlı bir mimari kullanıyor.
+- Backpack, ABD'deki kullanıcıların teminat olarak dolar ya da kripto kullanarak 7/24 kaldıraçlı kripto vadesiz vadeli işlem yapabileceğini söylüyor. Başlangıç tarihi vermedi.
+- tZERO aynı iki onayı daha önce aldı: takas kuruluşu 16 Ekim'de, borsası 10 Kasım'da.
+- Kaldıraçlı vadesiz vadeli işlemler yüksek riskli ürünlerdir. Yeni başlayanların çoğunun kripto sahibi olmak için bunlara ihtiyacı yoktur.
+
+!figure:timeline
+
+## Tam olarak ne onaylandı
+
+ABD'de bir türev piyasasının iki parçaya ihtiyacı vardır. Belirlenmiş sözleşme piyasası (DCM), alıcı ve satıcıların buluştuğu borsadır. Türev takas kuruluşu (DCO) ise her işlemin ortasında durur, teminatları toplar ve iki tarafın da ödemesini almasını sağlar. Backpack ikisini de aldı.
+
+CFTC kararı, Backpack Clearing'in marjlı vadeli işlemleri (yatırımcının pozisyon değerinin yalnızca bir kısmını yatırdığı işlemler) ve tamamen teminatlı vadeli işlemleri, vadeli işlem opsiyonlarını ve swap'ları takas etmesine izin veriyor. Selig, blokzincir şirketleri için kuralların daha gevşek olmadığını vurguladı. Bu şirketlerin geleneksel piyasa altyapısıyla "aynı düzenleyici standartları karşılaması gerekiyor", dedi. Buna kara para aklamayla mücadele programları, müşteri koruma ve müşteri fonlarının ayrı tutulması, piyasa gözetimi, finansal kaynaklar, risk yönetimi ve sistem güvenliği dahil.
+
+!figure:fact
+
+## Backpack ne sunmayı planlıyor
+
+Backpack [duyurusunda](L3), bu lisanslarla ABD'deki kullanıcıların kaldıraçlı kripto vadesiz vadeli işlemlerini günün her saatinde yapabileceğini, teminat olarak hem dolar hem kripto kullanabileceğini, pozisyonları arasında çapraz marj kullanabileceğini ve Backpack'in küresel likiditesine tek bir emir defterinden erişebileceğini söyledi. Şirket 150'den fazla ülke ve bölgeden kullanıcıya hizmet verdiğini ve 450 milyar doları aşan işlem hacmine ulaştığını belirtiyor.
+
+Backpack US Başkanı Mark Wetjen, "Politika açısından bu gerçekten çok büyük bir olay" dedi. Wetjen'e göre amaç, "fiyat keşfini düzenlenmemiş offshore platformlardan Amerika Birleşik Devletleri'ne taşımak". Backpack ABD'de işlemlerin ne zaman başlayacağını açıklamadı ve bir onay, her ürünün hemen kullanıma açıldığı anlamına gelmiyor.
+
+!mid_cta
+
+## tZERO önce davrandı
+
+Backpack yalnız değil. Düzenlenmiş alım satım altyapısı kuran tZERO, bir [basın bülteninde](L4) takas kuruluşunun 16 Ekim'de kaydedildiğini, borsasının ise 10 Kasım'da belirlendiğini açıkladı. tZERO lisansları bireysel yatırımcılara yönelik bir kripto platformu açmak için değil, diğer finans kuruluşlarına borsa ve takas hizmeti sunmak için kullanmayı planlıyor. CEO Alan Konevsky, "Hem borsa hem takas kuruluşu onayı almak tZERO için büyük bir başarı" dedi.
+
+## Vadesiz vadeli işlem nedir?
+
+Vadesiz vadeli işlem ya da kısaca "perp", bitcoin gibi bir varlığın fiyatını takip eden ama hiçbir zaman vadesi dolmayan bir sözleşmedir. Yatırımcılar fiyatın yükselişine ya da düşüşüne genellikle borç alınmış parayla (kaldıraçla) bahis oynayabilir. Şimdiye kadar perp işlemlerinin büyük kısmı ABD kurallarının dışındaki offshore borsalarda yapılıyordu.
+
+Kaldıraç iki yönlü keser. 10x kaldıraçla aleyhinize yaklaşık %10'luk bir hareket tüm yatırdığınız parayı silebilir ve borsa pozisyonu otomatik olarak kapatır. Buna tasfiye (likidasyon) denir. Bitcoin'in kısa süreliğine yaklaşık 62.000 $'a düştüğü geçen hafta sonundaki satışta, 24 saat içinde yaklaşık 2,02 milyar $'lık kaldıraçlı pozisyon tasfiye edildi. [The Block'un aktardığına göre](L5) bunların çoğu yükseliş bahisleriydi.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Çoğu insan için şimdilik pek bir şey değişmiyor. Perp'ler için düzenlenmiş bir ortam, müşteri fonları ve gözetim kurallarıyla piyasayı offshore platformlardan daha güvenli hale getirebilir, ama kaldıracı daha güvenli yapmaz. Amacınız sadece biraz bitcoin sahibi olmaksa, türev ürünlere hiç ihtiyacınız yok. Yeni başlayanların çoğu [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsadan doğrudan küçük bir miktar alıp elinde tutuyor. Her alım değer kaybedebilir, bu yüzden yalnızca kaybetmeyi göze alabileceğiniz parayı kullanın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Backpack'in ABD'de işlemleri ne zaman açacağı ve hangi coinleri, hangi kaldıraç limitleriyle sunacağı.
+- Diğer kripto borsalarının da aynı blokzincir tabanlı yapı için başvurup başvurmayacağı.
+- CFTC'nin hızlı bir düşüş sırasında bu piyasaları nasıl yöneteceği.
+
+!soft: Önce temelleri mi öğrenmek istiyorsunuz? [Bitcoin ETF'si mi, doğrudan bitcoin almak mı](/articles/bitcoin-etf-vs-buying-bitcoin) yazımızı okuyun.
+
+!end_cta
+
+!disclosure
