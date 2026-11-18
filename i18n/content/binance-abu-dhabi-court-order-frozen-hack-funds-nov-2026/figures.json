@@ -1,0 +1,95 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-binance-hack-frozen.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of the Binance hack: $6.34 billion in assets affected and about $2.85 billion frozen or intercepted, according to Binance; Tether froze more than $1.5 billion in USDT and Circle about $1.1 billion in USDC",
+      "es": "Gráfico de barras del hackeo de Binance: 6.340 millones de dólares en activos afectados y unos 2.850 millones congelados o interceptados, según Binance; Tether congeló más de 1.500 millones en USDT y Circle unos 1.100 millones en USDC",
+      "pt": "Gráfico de barras do ataque à Binance: US$ 6,34 bilhões em ativos afetados e cerca de US$ 2,85 bilhões congelados ou interceptados, segundo a Binance; a Tether congelou mais de US$ 1,5 bilhão em USDT e a Circle cerca de US$ 1,1 bilhão em USDC",
+      "fr": "Diagramme en barres du piratage de Binance : 6,34 milliards de dollars d'actifs touchés et environ 2,85 milliards gelés ou interceptés, selon Binance ; Tether a gelé plus de 1,5 milliard en USDT et Circle environ 1,1 milliard en USDC",
+      "de": "Balkendiagramm zum Binance-Hack: 6,34 Mrd. $ betroffene Vermögenswerte und rund 2,85 Mrd. $ eingefroren oder abgefangen, laut Binance; Tether fror mehr als 1,5 Mrd. $ in USDT ein, Circle rund 1,1 Mrd. $ in USDC",
+      "ru": "Столбчатая диаграмма по взлому Binance: затронуто активов на $6,34 млрд, около $2,85 млрд заморожено или перехвачено, по данным Binance; Tether заморозила более $1,5 млрд в USDT, Circle — около $1,1 млрд в USDC",
+      "tr": "Binance saldırısının çubuk grafiği: Binance'e göre 6,34 milyar $ varlık etkilendi, yaklaşık 2,85 milyar $ donduruldu ya da yolda durduruldu; Tether 1,5 milyar $'ın üzerinde USDT, Circle yaklaşık 1,1 milyar $ USDC dondurdu",
+      "id": "Grafik batang peretasan Binance: aset terdampak US$6,34 miliar dan sekitar US$2,85 miliar dibekukan atau dicegat, menurut Binance; Tether membekukan lebih dari US$1,5 miliar USDT dan Circle sekitar US$1,1 miliar USDC",
+      "ja": "バイナンスのハッキングに関する棒グラフ：バイナンスによると影響を受けた資産は63億4000万ドル、凍結または差し止められたのは約28億5000万ドル。テザーは15億ドル超のUSDT、サークルは約11億ドルのUSDCを凍結",
+      "ko": "바이낸스 해킹 막대 차트: 바이낸스에 따르면 피해 자산 63억4000만 달러, 동결 또는 차단 약 28억5000만 달러; 테더는 15억 달러 이상의 USDT, 서클은 약 11억 달러의 USDC를 동결"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Binance incident report via Bitcoin Magazine",
+      "es": "Gráfico: PlainBTC, datos: Binance incident report via Bitcoin Magazine",
+      "pt": "Gráfico: PlainBTC, dados: Binance incident report via Bitcoin Magazine",
+      "fr": "Graphique : PlainBTC, données : Binance incident report via Bitcoin Magazine",
+      "de": "Chart: PlainBTC, Daten: Binance incident report via Bitcoin Magazine",
+      "ru": "График: PlainBTC, данные: Binance incident report via Bitcoin Magazine",
+      "tr": "Grafik: PlainBTC, veri: Binance incident report via Bitcoin Magazine",
+      "id": "Grafik: PlainBTC, data: Binance incident report via Bitcoin Magazine",
+      "ja": "チャート: PlainBTC、データ: Binance incident report via Bitcoin Magazine",
+      "ko": "차트: PlainBTC, 데이터: Binance incident report via Bitcoin Magazine"
+    }
+  },
+  {
+    "id": "timeline",
+    "file": "timeline-binance-hack-recovery.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline: Oct. 29, hackers drain about $6.3 billion from Binance hot wallets; Nov. 12, the U.S. Justice Department gets court authority to seize or restrain more than $1.2 billion; Nov. 17, hack-linked wallets move 74,880 ETH, about $136.8 million; Nov. 18, Binance says it has an Abu Dhabi court order to recover frozen funds",
+      "es": "Cronología: 29 de oct., los hackers vacían unos 6.300 millones de dólares de las billeteras calientes de Binance; 12 de nov., el Departamento de Justicia de EE. UU. obtiene autorización judicial para incautar o bloquear más de 1.200 millones; 17 de nov., billeteras vinculadas al hackeo mueven 74.880 ETH, unos 136,8 millones; 18 de nov., Binance dice tener una orden judicial de Abu Dabi para recuperar fondos congelados",
+      "pt": "Linha do tempo: 29 de out., hackers esvaziam cerca de US$ 6,3 bilhões das carteiras quentes da Binance; 12 de nov., o Departamento de Justiça dos EUA obtém autorização judicial para apreender ou bloquear mais de US$ 1,2 bilhão; 17 de nov., carteiras ligadas ao ataque movem 74.880 ETH, cerca de US$ 136,8 milhões; 18 de nov., a Binance diz ter uma ordem judicial de Abu Dhabi para recuperar fundos congelados",
+      "fr": "Chronologie : 29 oct., des pirates vident environ 6,3 milliards de dollars des portefeuilles chauds de Binance ; 12 nov., le ministère américain de la Justice obtient l'autorisation de saisir ou bloquer plus de 1,2 milliard ; 17 nov., des portefeuilles liés au piratage déplacent 74 880 ETH, environ 136,8 millions ; 18 nov., Binance dit disposer d'une ordonnance d'un tribunal d'Abou Dhabi pour récupérer des fonds gelés",
+      "de": "Zeitleiste: 29. Okt., Hacker räumen rund 6,3 Mrd. $ aus Binances Hot Wallets ab; 12. Nov., das US-Justizministerium erhält die gerichtliche Befugnis, mehr als 1,2 Mrd. $ zu beschlagnahmen oder zu sperren; 17. Nov., mit dem Hack verknüpfte Wallets bewegen 74.880 ETH, rund 136,8 Mio. $; 18. Nov., Binance meldet einen Gerichtsbeschluss aus Abu Dhabi zur Rückholung eingefrorener Gelder",
+      "ru": "Хронология: 29 октября хакеры выводят около $6,3 млрд из горячих кошельков Binance; 12 ноября Минюст США получает судебное разрешение изъять или заблокировать более $1,2 млрд; 17 ноября связанные со взломом кошельки перемещают 74 880 ETH, около $136,8 млн; 18 ноября Binance сообщает о судебном приказе в Абу-Даби для возврата замороженных средств",
+      "tr": "Zaman çizelgesi: 29 Ekim, bilgisayar korsanları Binance'in sıcak cüzdanlarından yaklaşık 6,3 milyar $ çekiyor; 12 Kasım, ABD Adalet Bakanlığı 1,2 milyar $'ın üzerinde varlığa el koyma ya da dondurma yetkisi alıyor; 17 Kasım, saldırıyla bağlantılı cüzdanlar 74.880 ETH, yaklaşık 136,8 milyon $ taşıyor; 18 Kasım, Binance dondurulan fonları geri almak için Abu Dabi'den mahkeme kararı aldığını söylüyor",
+      "id": "Linimasa: 29 Okt., peretas menguras sekitar US$6,3 miliar dari dompet panas Binance; 12 Nov., Departemen Kehakiman AS mendapat izin pengadilan untuk menyita atau membekukan lebih dari US$1,2 miliar; 17 Nov., dompet terkait peretasan memindahkan 74.880 ETH, sekitar US$136,8 juta; 18 Nov., Binance mengaku mendapat perintah pengadilan Abu Dhabi untuk memulihkan dana yang dibekukan",
+      "ja": "時系列：10月29日、ハッカーがバイナンスのホットウォレットから約63億ドルを流出させる。11月12日、米司法省が12億ドル超の押収・凍結について裁判所の許可を得る。11月17日、ハッキング関連のウォレットが7万4880ETH（約1億3680万ドル）を移動。11月18日、バイナンスが凍結資金の回収に向けアブダビの裁判所命令を得たと発表",
+      "ko": "타임라인: 10월 29일 해커가 바이낸스 핫월렛에서 약 63억 달러 탈취; 11월 12일 미 법무부가 12억 달러 이상 압수·동결에 대한 법원 승인 확보; 11월 17일 해킹 연루 지갑이 7만4880 ETH(약 1억3680만 달러) 이동; 11월 18일 바이낸스가 동결 자금 회수를 위한 아부다비 법원 명령을 받았다고 발표"
+    },
+    "caption": {
+      "en": "Source: Reuters, U.S. Justice Department, Decrypt",
+      "es": "Fuente: Reuters, U.S. Justice Department, Decrypt",
+      "pt": "Fonte: Reuters, U.S. Justice Department, Decrypt",
+      "fr": "Source : Reuters, U.S. Justice Department, Decrypt",
+      "de": "Quelle: Reuters, U.S. Justice Department, Decrypt",
+      "ru": "Источник: Reuters, U.S. Justice Department, Decrypt",
+      "tr": "Kaynak: Reuters, U.S. Justice Department, Decrypt",
+      "id": "Sumber: Reuters, U.S. Justice Department, Decrypt",
+      "ja": "出典: Reuters, U.S. Justice Department, Decrypt",
+      "ko": "출처: Reuters, U.S. Justice Department, Decrypt"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-74880-eth-moved.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: on Nov. 17, 2026, wallets linked to the Binance hack moved 74,880 ETH, about $136.8 million, in roughly three hours, and some was swapped for bitcoin through THORChain",
+      "es": "Tarjeta: el 17 de noviembre de 2026, billeteras vinculadas al hackeo de Binance movieron 74.880 ETH, unos 136,8 millones de dólares, en unas tres horas, y parte se cambió por bitcoin a través de THORChain",
+      "pt": "Cartão: em 17 de novembro de 2026, carteiras ligadas ao ataque à Binance movimentaram 74.880 ETH, cerca de US$ 136,8 milhões, em umas três horas, e parte foi trocada por bitcoin via THORChain",
+      "fr": "Carte : le 17 novembre 2026, des portefeuilles liés au piratage de Binance ont déplacé 74 880 ETH, environ 136,8 millions de dollars, en trois heures environ, et une partie a été échangée contre du bitcoin via THORChain",
+      "de": "Faktenkarte: Am 17. November 2026 bewegten mit dem Binance-Hack verknüpfte Wallets binnen rund drei Stunden 74.880 ETH, etwa 136,8 Mio. $; ein Teil wurde über THORChain in Bitcoin getauscht",
+      "ru": "Карточка: 17 ноября 2026 года связанные со взломом Binance кошельки примерно за три часа переместили 74 880 ETH, около $136,8 млн, часть обменяли на биткоин через THORChain",
+      "tr": "Kart: 17 Kasım 2026'da Binance saldırısıyla bağlantılı cüzdanlar yaklaşık üç saatte 74.880 ETH, yani yaklaşık 136,8 milyon $ taşıdı; bir kısmı THORChain üzerinden bitcoine çevrildi",
+      "id": "Kartu: pada 17 November 2026, dompet terkait peretasan Binance memindahkan 74.880 ETH, sekitar US$136,8 juta, dalam kira-kira tiga jam, dan sebagian ditukar ke bitcoin lewat THORChain",
+      "ja": "カード：2026年11月17日、バイナンスのハッキングに関連するウォレットが約3時間で7万4880ETH（約1億3680万ドル）を移動し、一部はTHORChainを通じてビットコインに交換された",
+      "ko": "카드: 2026년 11월 17일 바이낸스 해킹 연루 지갑이 약 3시간 동안 7만4880 ETH(약 1억3680만 달러)를 옮겼고, 일부는 THORChain을 통해 비트코인으로 교환됐다"
+    },
+    "caption": {
+      "en": "Source: Arkham data via Decrypt",
+      "es": "Fuente: Arkham data via Decrypt",
+      "pt": "Fonte: Arkham data via Decrypt",
+      "fr": "Source : Arkham data via Decrypt",
+      "de": "Quelle: Arkham data via Decrypt",
+      "ru": "Источник: Arkham data via Decrypt",
+      "tr": "Kaynak: Arkham data via Decrypt",
+      "id": "Sumber: Arkham data via Decrypt",
+      "ja": "出典: Arkham data via Decrypt",
+      "ko": "출처: Arkham data via Decrypt"
+    }
+  }
+]

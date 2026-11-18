@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/de/</link>
     <description>Bitcoin- und Krypto-News in einfacher Sprache für Einsteiger</description>
     <language>de</language>
-    <lastBuildDate>Wed, 18 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 19:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/de/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fed-Protokoll deutet auf weitere Zinserhöhungen hin, Bitcoin fällt unter 63.000 Dollar</title>
+      <link>https://plainbtc.com/de/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 19:30:00 GMT</pubDate>
+      <category>Markt</category>
+      <description>Das am Mittwoch veröffentlichte Protokoll der Fed-Sitzung vom 27. und 28. Oktober zeigt, dass fast alle Notenbanker weitere Zinserhöhungen erwarten. Bitcoin war schon zuvor unter 63.000 Dollar gefallen, nachdem Gouverneur Christopher Waller für Dezember eine Erhöhung um einen halben Prozentpunkt gefordert hatte.</description>
+    </item>
+    <item>
+      <title>Binance meldet Gerichtsbeschluss aus Abu Dhabi zur Rückholung eingefrorener Hack-Gelder, während gestohlene Ether erneut bewegt werden</title>
+      <link>https://plainbtc.com/de/articles/binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 19:25:00 GMT</pubDate>
+      <category>Sicherheit</category>
+      <description>Binance hat nach eigenen Angaben einen Gerichtsbeschluss von Abu Dhabi Global Market erwirkt, um nach dem Rekord-Hack über 6,3 Milliarden Dollar eingefrorene Kryptowerte zurückzuholen. Rund 2,85 Milliarden Dollar wurden eingefroren oder abgefangen; am Dienstag bewegten mit dem Hack verknüpfte Wallets 74.880 Ether.</description>
+    </item>
     <item>
       <title>Russland erlaubt Privatanlegern den Kauf von Bitcoin, Ether und USDT, begrenzt auf 300.000 Rubel im Jahr</title>
       <link>https://plainbtc.com/de/articles/russia-retail-investors-bitcoin-ether-usdt-300000-ruble-cap-nov-2026</link>

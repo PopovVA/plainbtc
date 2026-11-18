@@ -1,0 +1,65 @@
+title: Binance diz ter ordem judicial de Abu Dhabi para recuperar fundos congelados do ataque enquanto ether roubado volta a se mover
+page_title: Binance obtém ordem judicial em Abu Dhabi para recuperar fundos congelados do ataque
+description: A Binance diz que conseguiu uma ordem judicial em Abu Dhabi para ajudar a recuperar criptomoedas congeladas após o ataque de US$ 6,3 bilhões do mês passado, das quais cerca de US$ 2,85 bilhões foram congeladas ou interceptadas. Enquanto isso, carteiras ligadas ao ataque movimentaram US$ 136,8 milhões em ether.
+og_description: A Binance diz que uma ordem judicial de Abu Dhabi vai ajudá-la a recuperar os cerca de US$ 2,85 bilhões congelados após seu ataque recorde de US$ 6,3 bilhões, um dia depois de carteiras ligadas ao ataque movimentarem 74.880 ether. O que se sabe, o que não se sabe e o que muda para os usuários.
+label: Segurança
+summary: A Binance diz que obteve uma ordem judicial do Abu Dhabi Global Market para ajudar a recuperar criptomoedas congeladas após o ataque recorde de US$ 6,3 bilhões. Cerca de US$ 2,85 bilhões foram congelados ou interceptados, e na terça-feira carteiras ligadas ao ataque movimentaram 74.880 ether.
+===
+
+A Binance, maior corretora de criptomoedas do mundo, diz ter conseguido uma nova ferramenta legal para reaver o dinheiro roubado no ataque recorde do mês passado. A empresa disse na quarta-feira, 18 de novembro, que obteve uma ordem judicial do Abu Dhabi Global Market (ADGM) como parte do trabalho para recuperar fundos congelados depois que hackers levaram cerca de US$ 6,3 bilhões em criptomoedas, [informou a Reuters](L1).
+
+A Binance já disse que cerca de US$ 2,85 bilhões dos tokens roubados foram congelados ou interceptados por terceiros após o ataque de 29 de outubro. A notícia vem um dia depois de carteiras ligadas ao ataque voltarem a movimentar grandes quantias de ether roubado.
+
+!takeaways
+- A Binance diz que obteve uma ordem judicial do ADGM para ajudar a recuperar criptomoedas congeladas após o ataque de 29 de outubro.
+- A empresa não informou quanto dinheiro a ordem cobre nem a quais ativos ela se aplica.
+- Cerca de US$ 2,85 bilhões dos cerca de US$ 6,34 bilhões afetados foram congelados ou interceptados, segundo a Binance.
+- Em 17 de novembro, carteiras ligadas ao ataque movimentaram 74.880 ETH, cerca de US$ 136,8 milhões, e começaram a trocar parte por bitcoin.
+
+!figure:chart
+
+## O que a Binance anunciou
+
+O ADGM é um centro financeiro internacional em Abu Dhabi com tribunais próprios, e a Reuters o descreve como o principal regulador financeiro da Binance. "Vamos continuar usando todas as ferramentas legais disponíveis para rastrear, congelar e recuperar ativos roubados, apoiar nossos parceiros na devolução de fundos sempre que possível e manter esses ativos fora do alcance dos atacantes", disse em comunicado Dugan Bliss, vice-diretor jurídico da Binance.
+
+A Binance não deu detalhes sobre os termos da ordem. Segundo a [Bitcoin Magazine](L2), nem a empresa nem a Reuters disseram a quais ativos ela se aplica nem como se encaixa nos esforços de recuperação nos Estados Unidos.
+
+## Onde está o dinheiro congelado
+
+A maior parte do dinheiro congelado está em stablecoins, dólares digitais cujos emissores podem bloquear carteiras específicas. A Bitcoin Magazine informou que a Tether congelou mais de US$ 1,5 bilhão em USDT nos 30 minutos seguintes ao ataque e que a Circle congelou cerca de US$ 1,1 bilhão em USDC em coordenação com as autoridades. A Circle já disse que não decide quem é o dono dos ativos congelados e deixa essa questão para as autoridades e os tribunais. Uma ordem judicial é uma forma de resolvê-la.
+
+O governo dos EUA também está envolvido. Em 12 de novembro, o [Departamento de Justiça disse](L5) ter autorização judicial para apreender ou bloquear mais de US$ 1,2 bilhão das criptomoedas roubadas, parte dos mais de US$ 2,7 bilhões congelados por esforços públicos e privados. O FBI atribui o roubo a hackers norte-coreanos que chama de TraderTraitor. A Coreia do Norte nega envolvimento.
+
+!figure:timeline
+
+## O ether roubado voltou a se mover
+
+Nem todo o butim pode ser congelado. Bitcoin e ether não têm uma empresa no meio capaz de impedir que uma carteira os envie. Na terça-feira, 17 de novembro, uma carteira ligada ao ataque enviou 34.279,66 ETH, cerca de US$ 63 milhões, para três endereços novos depois de ficar parada desde 30 de outubro, [informou o Decrypt](L3), citando o serviço de segurança em blockchain MistTrack. Uma segunda carteira movimentou mais 40.600,66 ETH.
+
+No total, carteiras ligadas ao ataque movimentaram 74.880 ETH, avaliados em cerca de US$ 136,8 milhões, em cerca de três horas, segundo a empresa de análise Arkham. Parte estava sendo trocada por bitcoin via THORChain, um serviço que move criptomoedas entre blockchains.
+
+!mid_cta
+
+Mas movimentar moedas não é o mesmo que sacar dinheiro. A empresa de análise de blockchain Elliptic disse que provavelmente só uma quantia insignificante foi convertida em dinheiro e que cerca de US$ 2,55 bilhões ainda estavam em endereços ligados ao roubo em 16 de novembro, segundo o Decrypt. Para sacar em grande escala, os hackers precisariam de uma corretora ou intermediário disposto a aceitar os fundos, o que dá aos investigadores outra chance de bloqueá-los.
+
+!figure:fact
+
+## Binance diz que os negócios seguem
+
+A Binance diz que cobriu os ativos roubados com dinheiro próprio. No mesmo dia, seu chefe para a Ásia-Pacífico, SB Seker, disse à [Reuters](L4) no Singapore FinTech Festival que a empresa planeja entrar em cinco mercados asiáticos em 2027 e não precisa levantar novos recursos. "Conseguimos absorver o impacto e conseguimos aguentá-lo sem nenhuma mudança na forma como operamos", disse. A Binance, que reabriu os saques em etapas neste mês, pretende reabrir todas as redes e ativos restantes até o fim desta semana.
+
+## O que isso significa para você
+
+Se você tem moedas na Binance, a empresa diz que já cobriu os ativos afetados com recursos próprios. Antes de movimentar fundos, confira a página de status de saques da Binance para a sua moeda e rede, já que algumas ainda podem estar pausadas. De modo geral, o ataque lembra que qualquer corretora pode ser atacada. Muitos iniciantes compram em uma grande corretora regulada como a [Coinbase](REF) e depois transferem a poupança de longo prazo para uma carteira que eles mesmos controlam. Isto não é recomendação de investimento.
+
+## O que acompanhar
+
+- Se a Binance ou o ADGM divulgam detalhes da ordem e dos ativos que ela cobre.
+- Para onde vão os 74.880 ETH e se alguma corretora bloqueia parte deles.
+- A reabertura de todos os saques restantes prometida pela Binance até o fim desta semana.
+
+!soft: Quer entender quem guarda suas moedas? Leia [O que é uma carteira cripto: custodial ou autocustódia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

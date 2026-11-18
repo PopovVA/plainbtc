@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Wed, 18 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 19:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fed tutanakları yeni faiz artışlarına işaret ediyor, bitcoin 63.000 doların altına indi</title>
+      <link>https://plainbtc.com/tr/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 19:30:00 GMT</pubDate>
+      <category>Piyasa</category>
+      <description>Fed'in 27-28 Ekim toplantısının çarşamba günü yayımlanan tutanakları, yetkililerin neredeyse tamamının yeni faiz artışları beklediğini gösteriyor. Bitcoin, Guvernör Christopher Waller'ın aralıkta yarım puanlık artış çağrısının ardından gün içinde 63.000 doların altına inmişti.</description>
+    </item>
+    <item>
+      <title>Binance, saldırıda dondurulan fonları geri almak için Abu Dabi'den mahkeme kararı aldığını söylüyor; çalınan ether yeniden hareket ediyor</title>
+      <link>https://plainbtc.com/tr/articles/binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 19:25:00 GMT</pubDate>
+      <category>Güvenlik</category>
+      <description>Binance, 6,3 milyar dolarlık rekor saldırının ardından dondurulan kriptoları geri almak için Abu Dhabi Global Market'ten mahkeme kararı aldığını söylüyor. Yaklaşık 2,85 milyar dolar donduruldu ya da yolda durduruldu; salı günü saldırıyla bağlantılı cüzdanlar 74.880 ether taşıdı.</description>
+    </item>
     <item>
       <title>Rusya, bireysel yatırımcıların yılda 300.000 ruble sınırıyla bitcoin, ether ve USDT almasına izin verdi</title>
       <link>https://plainbtc.com/tr/articles/russia-retail-investors-bitcoin-ether-usdt-300000-ruble-cap-nov-2026</link>

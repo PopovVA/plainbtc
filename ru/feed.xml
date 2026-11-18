@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 18 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 19:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Протокол ФРС указывает на новые повышения ставки, биткоин опустился ниже $63 000</title>
+      <link>https://plainbtc.com/ru/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 19:30:00 GMT</pubDate>
+      <category>Рынок</category>
+      <description>Протокол заседания ФРС 27–28 октября, опубликованный в среду, показывает, что почти все руководители ожидают новых повышений ставки. Биткоин опустился ниже $63 000 еще утром, после того как управляющий Кристофер Уоллер призвал поднять ставку в декабре на полпроцента.</description>
+    </item>
+    <item>
+      <title>Binance сообщает о судебном приказе в Абу-Даби для возврата замороженных после взлома средств, а украденный эфир снова в движении</title>
+      <link>https://plainbtc.com/ru/articles/binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 19:25:00 GMT</pubDate>
+      <category>Безопасность</category>
+      <description>Binance заявляет, что получила судебный приказ Abu Dhabi Global Market, который поможет вернуть криптовалюту, замороженную после рекордного взлома на $6,3 млрд. Около $2,85 млрд заморожено или перехвачено, а во вторник связанные со взломом кошельки переместили 74 880 эфиров.</description>
+    </item>
     <item>
       <title>В России неквалифицированным инвесторам разрешили покупать биткоин, эфир и USDT с лимитом 300 000 рублей в год</title>
       <link>https://plainbtc.com/ru/articles/russia-retail-investors-bitcoin-ether-usdt-300000-ruble-cap-nov-2026</link>

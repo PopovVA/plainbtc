@@ -1,0 +1,65 @@
+title: Binance, saldırıda dondurulan fonları geri almak için Abu Dabi'den mahkeme kararı aldığını söylüyor; çalınan ether yeniden hareket ediyor
+page_title: Binance, dondurulan saldırı fonları için Abu Dabi'den mahkeme kararı aldı
+description: Binance, geçen ayki 6,3 milyar dolarlık saldırının ardından dondurulan kriptoları geri almasına yardımcı olacak bir mahkeme kararını Abu Dabi'de aldığını söylüyor; bu tutarın yaklaşık 2,85 milyar doları donduruldu ya da yolda durduruldu. Bu arada saldırıyla bağlantılı cüzdanlar 136,8 milyon dolarlık ether taşıdı.
+og_description: Binance, Abu Dabi'den aldığı mahkeme kararının 6,3 milyar dolarlık rekor saldırının ardından dondurulan yaklaşık 2,85 milyar doları geri almasına yardımcı olacağını söylüyor. Bir gün önce saldırıyla bağlantılı cüzdanlar 74.880 ether taşımıştı. Neler biliniyor, neler bilinmiyor ve kullanıcılar için ne anlama geliyor?
+label: Güvenlik
+summary: Binance, 6,3 milyar dolarlık rekor saldırının ardından dondurulan kriptoları geri almak için Abu Dhabi Global Market'ten mahkeme kararı aldığını söylüyor. Yaklaşık 2,85 milyar dolar donduruldu ya da yolda durduruldu; salı günü saldırıyla bağlantılı cüzdanlar 74.880 ether taşıdı.
+===
+
+Dünyanın en büyük kripto borsası Binance, geçen ayki rekor saldırıda çalınan parayı geri alma mücadelesinde yeni bir hukuki araç elde ettiğini söylüyor. Şirket 18 Kasım çarşamba günü, bilgisayar korsanlarının yaklaşık 6,3 milyar dolarlık kriptoyu çalmasının ardından dondurulan fonları geri alma çalışmalarının parçası olarak Abu Dhabi Global Market'ten (ADGM) bir mahkeme kararı aldığını açıkladı, [Reuters'ın aktardığına](L1) göre.
+
+Binance, 29 Ekim saldırısının ardından çalınan tokenlerin yaklaşık 2,85 milyar dolarlık kısmının üçüncü taraflarca dondurulduğunu ya da yolda durdurulduğunu söylemişti. Haber, saldırıyla bağlantılı cüzdanların büyük miktarlarda çalıntı ether'i yeniden taşımaya başlamasından bir gün sonra geldi.
+
+!takeaways
+- Binance, 29 Ekim saldırısının ardından dondurulan kriptoları geri almak için ADGM'den mahkeme kararı aldığını söylüyor.
+- Şirket, kararın ne kadarlık bir tutarı kapsadığını ya da hangi varlıklara uygulandığını açıklamadı.
+- Binance'e göre etkilenen yaklaşık 6,34 milyar doların yaklaşık 2,85 milyar doları donduruldu ya da yolda durduruldu.
+- 17 Kasım'da saldırıyla bağlantılı cüzdanlar 74.880 ETH, yani yaklaşık 136,8 milyon dolar taşıdı ve bir kısmını bitcoine çevirmeye başladı.
+
+!figure:chart
+
+## Binance ne açıkladı?
+
+ADGM, Abu Dabi'de kendi mahkemeleri olan uluslararası bir finans merkezi; Reuters onu Binance'in ana finansal düzenleyicisi olarak tanımlıyor. Binance Genel Hukuk Müşavir Yardımcısı Dugan Bliss yaptığı açıklamada, "Çalınan varlıkları izlemek, dondurmak ve geri almak, mümkün olan yerlerde fonların iadesinde ortaklarımıza destek olmak ve bu varlıkları saldırganların elinden uzak tutmak için her türlü yasal aracı kullanmaya devam edeceğiz" dedi.
+
+Binance kararın koşullarına dair ayrıntı vermedi. [Bitcoin Magazine](L2)'e göre ne şirket ne de Reuters kararın hangi varlıklara uygulandığını ya da ABD'deki geri alma çabalarıyla nasıl bağdaştığını açıkladı.
+
+## Dondurulan para nerede?
+
+Dondurulan paranın büyük kısmı stablecoinlerde; yani ihraççıları belirli cüzdanları engelleyebilen dijital dolarlarda. Bitcoin Magazine'in haberine göre Tether saldırıdan sonraki 30 dakika içinde 1,5 milyar doları aşkın USDT dondurdu, Circle ise kolluk kuvvetleriyle koordineli olarak yaklaşık 1,1 milyar dolarlık USDC dondurdu. Circle, dondurulan varlıkların kime ait olduğuna kendisinin karar vermediğini ve bu soruyu kolluk kuvvetleri ile mahkemelere bıraktığını söyledi. Mahkeme kararı bu soruyu çözmenin bir yolu.
+
+ABD hükümeti de devrede. [ABD Adalet Bakanlığı](L5) 12 Kasım'da, çalınan kriptonun 1,2 milyar doları aşkın kısmına el koyma ya da dondurma yetkisini mahkemeden aldığını açıkladı; bu tutar, kamu ve özel sektör çabalarıyla dondurulan 2,7 milyar doları aşkın fonun bir parçası. FBI hırsızlığı TraderTraitor adını verdiği Kuzey Koreli bilgisayar korsanlarına bağlıyor. Kuzey Kore ise suçlamaları reddediyor.
+
+!figure:timeline
+
+## Çalınan ether yeniden hareket ediyor
+
+Ganimetin tamamı dondurulamıyor. Bitcoin ve ether'de bir cüzdanın gönderim yapmasını durdurabilecek aracı bir şirket yok. 17 Kasım salı günü saldırıyla bağlantılı bir cüzdan, 30 Ekim'den beri hareketsiz kaldıktan sonra yaklaşık 63 milyon dolar değerindeki 34.279,66 ETH'yi üç yeni adrese gönderdi; [Decrypt](L3) bunu blokzincir güvenlik hizmeti MistTrack'e dayanarak aktardı. İkinci bir cüzdan da 40.600,66 ETH daha taşıdı.
+
+Analiz şirketi Arkham'a göre saldırıyla bağlantılı cüzdanlar toplamda yaklaşık üç saat içinde yaklaşık 136,8 milyon dolar değerinde 74.880 ETH taşıdı. Bir kısmı, kriptoyu blokzincirler arasında taşıyan bir hizmet olan THORChain üzerinden bitcoine çevriliyordu.
+
+!mid_cta
+
+Yine de coinleri taşımak, onları nakde çevirmekle aynı şey değil. Blokzincir analiz şirketi Elliptic, Decrypt'e göre muhtemelen yalnızca ihmal edilebilir bir miktarın nakde çevrildiğini ve 16 Kasım itibarıyla yaklaşık 2,55 milyar doların hâlâ hırsızlıkla bağlantılı adreslerde durduğunu söyledi. Büyük ölçekte nakde çevirmek için korsanların fonları kabul edecek bir borsaya ya da aracıya ihtiyacı var; bu da soruşturmacılara onları durdurmak için bir fırsat daha veriyor.
+
+!figure:fact
+
+## Binance işlerin sürdüğünü söylüyor
+
+Binance, çalınan varlıkları kendi parasıyla karşıladığını söyledi. Aynı gün şirketin Asya-Pasifik başkanı SB Seker, Singapore FinTech Festival'de [Reuters](L4)'a şirketin 2027'de beş Asya pazarına girmeyi planladığını ve yeni fon toplamaya ihtiyacı olmadığını söyledi. "Etkiyi üstlenebiliriz ve çalışma şeklimizde hiçbir değişiklik yapmadan atlatabiliriz" dedi. Bu ay çekimleri aşamalı olarak yeniden açan Binance, kalan tüm ağları ve varlıkları bu hafta sonuna kadar açmayı hedefliyor.
+
+## Sizin için ne anlama geliyor?
+
+Binance'te coin tutuyorsanız, şirket etkilenen varlıkları kendi fonlarıyla zaten karşıladığını söylüyor. Fon taşımadan önce coininiz ve ağınız için Binance'in çekim durumu sayfasını kontrol edin, çünkü bazıları hâlâ duraklatılmış olabilir. Daha genel olarak bu saldırı, her borsanın saldırıya uğrayabileceğini hatırlatıyor. Yeni başlayanların çoğu [Coinbase](REF) gibi büyük ve düzenlemeye tabi bir borsadan alım yapıp uzun vadeli birikimlerini kendi kontrol ettikleri bir cüzdana taşıyor. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra izlenecekler
+
+- Binance'in ya da ADGM'nin karar ve kapsadığı varlıklar hakkında ayrıntı yayımlayıp yayımlamayacağı.
+- 74.880 ETH'nin nereye gideceği ve borsaların bir kısmını engelleyip engellemeyeceği.
+- Binance'in bu hafta sonuna kadar kalan tüm çekimleri açma sözü.
+
+!soft: Coinlerinizi kimin tuttuğunu anlamak mı istiyorsunuz? Okuyun: [Kripto cüzdan nedir: saklamalı mı, kendi kontrolünüzde mi?](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

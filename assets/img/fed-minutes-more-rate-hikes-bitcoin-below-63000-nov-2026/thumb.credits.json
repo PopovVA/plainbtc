@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Seal_of_the_United_States_Federal_Reserve_System.svg",
+      "license": "Public domain (U.S. government insignia)",
+      "url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Federal_Reserve_System.svg",
+      "credit": "Federal Reserve"
+    },
+    {
+      "file": "FOMC minutes, Oct. 27-28, 2026",
+      "license": "Fact cited",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+      "credit": "Federal Reserve"
+    }
+  ],
+  "note": "Editorial composite for identification; no endorsement by the Federal Reserve implied.",
+  "slug": "fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026",
+  "generated": "2026-11-18T19:06Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

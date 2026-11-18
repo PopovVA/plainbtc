@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/fr/</link>
     <description>L’actualité du bitcoin et des cryptos en langage clair, pour les débutants</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 18 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 19:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/fr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Le compte rendu de la Fed annonce d'autres hausses de taux, le bitcoin passe sous 63 000 dollars</title>
+      <link>https://plainbtc.com/fr/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 19:30:00 GMT</pubDate>
+      <category>Marchés</category>
+      <description>Le compte rendu de la réunion de la Fed des 27 et 28 octobre, publié mercredi, montre que presque tous les responsables s'attendent à de nouvelles hausses de taux. Le bitcoin était passé sous 63 000 dollars plus tôt dans la journée, après l'appel du gouverneur Christopher Waller à une hausse d'un demi-point en décembre.</description>
+    </item>
+    <item>
+      <title>Binance dit disposer d'une ordonnance d'un tribunal d'Abou Dhabi pour récupérer les fonds gelés du piratage, alors que l'ether volé bouge de nouveau</title>
+      <link>https://plainbtc.com/fr/articles/binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 19:25:00 GMT</pubDate>
+      <category>Sécurité</category>
+      <description>Binance dit avoir obtenu une ordonnance d'Abu Dhabi Global Market pour l'aider à récupérer les cryptos gelées après le piratage record de 6,3 milliards de dollars. Environ 2,85 milliards ont été gelés ou interceptés, et mardi des portefeuilles liés au piratage ont déplacé 74 880 ether.</description>
+    </item>
     <item>
       <title>La Russie autorise les particuliers à acheter du bitcoin, de l'ether et de l'USDT, dans la limite de 300 000 roubles par an</title>
       <link>https://plainbtc.com/fr/articles/russia-retail-investors-bitcoin-ether-usdt-300000-ruble-cap-nov-2026</link>

@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/es/</link>
     <description>Noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</description>
     <language>es</language>
-    <lastBuildDate>Wed, 18 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 19:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Las actas de la Fed apuntan a más subidas de tasas y bitcoin cae por debajo de 63.000 dólares</title>
+      <link>https://plainbtc.com/es/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 19:30:00 GMT</pubDate>
+      <category>Mercado</category>
+      <description>Las actas de la reunión de la Fed del 27 y 28 de octubre, publicadas el miércoles, muestran que casi todos los funcionarios esperan nuevas subidas de tasas. Bitcoin cayó por debajo de 63.000 dólares horas antes, después de que el gobernador Christopher Waller pidiera un alza de medio punto en diciembre.</description>
+    </item>
+    <item>
+      <title>Binance dice tener una orden judicial de Abu Dabi para recuperar fondos congelados del hackeo mientras el ether robado vuelve a moverse</title>
+      <link>https://plainbtc.com/es/articles/binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 19:25:00 GMT</pubDate>
+      <category>Seguridad</category>
+      <description>Binance dice que obtuvo una orden judicial de Abu Dhabi Global Market para ayudar a recuperar las criptomonedas congeladas tras el hackeo récord de 6.300 millones de dólares. Unos 2.850 millones fueron congelados o interceptados, y el martes billeteras vinculadas al hackeo movieron 74.880 ether.</description>
+    </item>
     <item>
       <title>Rusia permite a los pequeños inversores comprar bitcoin, ether y USDT, con un tope de 300.000 rublos al año</title>
       <link>https://plainbtc.com/es/articles/russia-retail-investors-bitcoin-ether-usdt-300000-ruble-cap-nov-2026</link>

@@ -1,0 +1,65 @@
+title: Binance dit disposer d'une ordonnance d'un tribunal d'Abou Dhabi pour récupérer les fonds gelés du piratage, alors que l'ether volé bouge de nouveau
+page_title: Binance obtient une ordonnance à Abou Dhabi pour récupérer les fonds gelés du piratage
+description: Binance dit avoir obtenu une ordonnance judiciaire à Abou Dhabi pour l'aider à récupérer les cryptos gelées après le piratage de 6,3 milliards de dollars du mois dernier, dont environ 2,85 milliards ont été gelés ou interceptés. Dans le même temps, des portefeuilles liés au piratage ont déplacé 136,8 millions de dollars en ether.
+og_description: Binance dit qu'une ordonnance d'un tribunal d'Abou Dhabi l'aidera à récupérer les quelque 2,85 milliards de dollars gelés après son piratage record de 6,3 milliards, au lendemain du déplacement de 74 880 ether par des portefeuilles liés à l'attaque. Ce que l'on sait, ce que l'on ignore et ce que cela change pour les utilisateurs.
+label: Sécurité
+summary: Binance dit avoir obtenu une ordonnance d'Abu Dhabi Global Market pour l'aider à récupérer les cryptos gelées après le piratage record de 6,3 milliards de dollars. Environ 2,85 milliards ont été gelés ou interceptés, et mardi des portefeuilles liés au piratage ont déplacé 74 880 ether.
+===
+
+Binance, la plus grande plateforme d'échange de cryptomonnaies au monde, dit disposer d'un nouvel outil juridique pour récupérer l'argent volé lors du piratage record du mois dernier. L'entreprise a indiqué mercredi 18 novembre avoir obtenu une ordonnance judiciaire d'Abu Dhabi Global Market (ADGM) dans le cadre de ses efforts pour récupérer des fonds gelés après le vol d'environ 6,3 milliards de dollars en cryptos par des pirates, [a rapporté Reuters](L1).
+
+Binance a indiqué qu'environ 2,85 milliards de dollars de jetons volés avaient été gelés ou interceptés par des tiers après l'attaque du 29 octobre. L'annonce intervient au lendemain de la reprise de mouvements importants d'ether volé depuis des portefeuilles liés au piratage.
+
+!takeaways
+- Binance dit avoir obtenu une ordonnance de l'ADGM pour l'aider à récupérer les cryptos gelées après le piratage du 29 octobre.
+- L'entreprise n'a pas précisé le montant couvert par l'ordonnance ni les actifs concernés.
+- Environ 2,85 milliards de dollars sur les quelque 6,34 milliards touchés ont été gelés ou interceptés, selon Binance.
+- Le 17 novembre, des portefeuilles liés au piratage ont déplacé 74 880 ETH, environ 136,8 millions de dollars, et commencé à en échanger une partie contre du bitcoin.
+
+!figure:chart
+
+## Ce que Binance a annoncé
+
+L'ADGM est un centre financier international d'Abou Dhabi doté de ses propres tribunaux, et Reuters le présente comme le principal régulateur financier de Binance. « Nous continuerons à utiliser tous les outils légaux à notre disposition pour tracer, geler et récupérer les actifs volés, aider nos partenaires à restituer les fonds lorsque c'est possible et tenir ces actifs hors de portée des attaquants », a déclaré Dugan Bliss, directeur juridique adjoint de Binance, dans un communiqué.
+
+Binance n'a donné aucun détail sur les termes de l'ordonnance. Selon [Bitcoin Magazine](L2), ni l'entreprise ni Reuters n'ont précisé à quels actifs elle s'applique, ni comment elle s'articule avec les efforts de récupération aux États-Unis.
+
+## Où se trouve l'argent gelé
+
+L'essentiel de l'argent gelé est en stablecoins, des dollars numériques dont les émetteurs peuvent bloquer des portefeuilles précis. Selon Bitcoin Magazine, Tether a gelé plus de 1,5 milliard de dollars en USDT dans les 30 minutes suivant l'attaque, et Circle environ 1,1 milliard en USDC en coordination avec les forces de l'ordre. Circle a indiqué ne pas décider à qui appartiennent les actifs gelés et laisser cette question aux autorités et aux tribunaux. Une décision de justice est un moyen de la trancher.
+
+Le gouvernement américain est lui aussi impliqué. Le 12 novembre, le [ministère de la Justice a annoncé](L5) disposer de l'autorisation judiciaire de saisir ou bloquer plus de 1,2 milliard de dollars de cryptos volées, une partie des plus de 2,7 milliards gelés grâce aux efforts publics et privés. Le FBI attribue le vol à des pirates nord-coréens qu'il appelle TraderTraitor. La Corée du Nord dément toute implication.
+
+!figure:timeline
+
+## L'ether volé bouge de nouveau
+
+Tout le butin ne peut pas être gelé. Le bitcoin et l'ether n'ont pas d'entreprise intermédiaire capable d'empêcher un portefeuille de les envoyer. Mardi 17 novembre, un portefeuille lié au piratage a envoyé 34 279,66 ETH, soit environ 63 millions de dollars, vers trois nouvelles adresses après être resté inactif depuis le 30 octobre, [a rapporté Decrypt](L3) en citant le service de sécurité blockchain MistTrack. Un second portefeuille a déplacé 40 600,66 ETH de plus.
+
+Au total, des portefeuilles liés au piratage ont déplacé 74 880 ETH, d'une valeur d'environ 136,8 millions de dollars, en trois heures environ, selon la société d'analyse Arkham. Une partie était échangée contre du bitcoin via THORChain, un service qui fait passer des cryptos d'une blockchain à l'autre.
+
+!mid_cta
+
+Déplacer des pièces n'est toutefois pas la même chose que les encaisser. La société d'analyse blockchain Elliptic a indiqué que seule une quantité négligeable avait probablement été convertie en argent liquide et qu'environ 2,55 milliards de dollars se trouvaient encore sur des adresses liées au vol au 16 novembre, selon Decrypt. Pour encaisser à grande échelle, les pirates auraient besoin d'une plateforme ou d'un courtier prêt à accepter les fonds, ce qui donne aux enquêteurs une nouvelle occasion de les bloquer.
+
+!figure:fact
+
+## Binance assure que les affaires continuent
+
+Binance dit avoir couvert les actifs volés avec ses propres fonds. Le même jour, son responsable Asie-Pacifique, SB Seker, a déclaré à [Reuters](L4), en marge du Singapore FinTech Festival, que l'entreprise prévoit de s'implanter sur cinq marchés asiatiques en 2027 et n'a pas besoin de lever de nouveaux fonds. « Nous pouvons encaisser l'impact et le surmonter sans rien changer à notre façon de fonctionner », a-t-il dit. Binance, qui a rouvert les retraits par étapes ce mois-ci, vise à rouvrir tous les réseaux et actifs restants d'ici la fin de la semaine.
+
+## Ce que cela signifie pour vous
+
+Si vous détenez des cryptos sur Binance, l'entreprise dit avoir déjà couvert les actifs touchés avec ses propres fonds. Avant de déplacer des fonds, consultez la page d'état des retraits de Binance pour votre crypto et votre réseau, car certains pourraient encore être suspendus. Plus largement, ce piratage rappelle que toute plateforme peut être attaquée. Beaucoup de débutants achètent sur une grande plateforme régulée comme [Coinbase](REF), puis transfèrent leur épargne de long terme vers un portefeuille qu'ils contrôlent. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Si Binance ou l'ADGM publient des détails sur l'ordonnance et les actifs couverts.
+- La destination des 74 880 ETH, et si des plateformes en bloquent une partie.
+- La réouverture de tous les retraits restants promise par Binance d'ici la fin de la semaine.
+
+!soft: Vous voulez savoir qui détient vos cryptos ? Lisez [Qu'est-ce qu'un portefeuille crypto : dépositaire ou auto-conservation](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Binance_Logo.svg",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Binance_Logo.svg",
+      "credit": "Binance"
+    },
+    {
+      "file": "Reuters, Nov. 18, 2026",
+      "license": "Figure cited",
+      "url": "https://www.investing.com/news/economy-news/binance-says-it-has-court-order-to-get-back-crypto-frozen-after-63-billion-heist-5036806",
+      "credit": "Reuters / Binance"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026",
+  "generated": "2026-11-18T19:06Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

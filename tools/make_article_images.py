@@ -3629,7 +3629,158 @@ def build_banks_btc_etf_13f():
     ]
 
 
+def build_fed_minutes_btc_63k():
+    slug = "fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026"
+    d = OUT / slug
+    # Kraken XBTUSD hourly closes, Nov 16 00:00 UTC to Nov 18 19:00 UTC (1 p.m. CST, minutes release). Nov 18 low $62,212.70 (16:00 UTC hour).
+    xs, ys = fetch_kraken_hourly(1794787200, 1795028400, pair="XBTUSD")
+    chart = make_line_chart(
+        d / "chart-btc-hourly-nov-16-18",
+        xs, ys,
+        title="Bitcoin hourly price, Nov. 16-18, 2026 (Kraken, UTC)",
+        hline=62212.7,
+        hlabel="Nov. 18 low ≈ $62,213 (Kraken)",
+    )
+    # Minutes of the FOMC meeting of Oct. 27-28, 2026, released Nov. 18, 2026.
+    fact = make_fact_card(
+        d / "fact-almost-all-participants",
+        "Fed minutes, Oct. 27-28 meeting",
+        "\u201cAlmost all\u201d",
+        "participants judged that further action to raise the federal funds rate would likely be appropriate.",
+        footer="Federal Reserve, FOMC minutes released Nov. 18, 2026",
+    )
+    # Farside Investors, U.S. spot bitcoin ETF daily net flows (US$m), read Nov 18, 2026.
+    days = ["Oct 30", "Nov 2", "Nov 3", "Nov 4", "Nov 5", "Nov 6", "Nov 9", "Nov 10", "Nov 11", "Nov 12", "Nov 13", "Nov 16", "Nov 17"]
+    flows = [-643.2, -398.6, -115.6, 74.6, -430.2, -411.9, -201.0, -95.0, -299.8, -284.1, -185.4, 7.9, -239.9]
+    flows_img = make_bar_chart(
+        d / "chart-btc-etf-flows-oct30-nov17",
+        days, flows,
+        "U.S. spot bitcoin ETF daily net flows (US$ millions)",
+        colors=["#34d399" if v > 0 else "#f87171" for v in flows],
+        value_fmt=lambda v: f"{v:+,.1f}",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's hourly price on Kraken from Nov. 16 to Nov. 18, 2026, sliding from about $65,000 to below $63,000, with a dashed line at the Nov. 18 low of about $62,213", {
+            "es": "Gráfico de líneas del precio horario de bitcoin en Kraken del 16 al 18 de noviembre de 2026: baja de unos 65.000 dólares a menos de 63.000, con una línea discontinua en el mínimo del 18 de noviembre, de unos 62.213 dólares",
+            "pt": "Gráfico de linha do preço horário do bitcoin na Kraken de 16 a 18 de novembro de 2026: cai de cerca de US$ 65.000 para menos de US$ 63.000, com uma linha tracejada na mínima de 18 de novembro, de cerca de US$ 62.213",
+            "fr": "Courbe du cours horaire du bitcoin sur Kraken du 16 au 18 novembre 2026 : il glisse d'environ 65 000 dollars à moins de 63 000 dollars, avec une ligne pointillée au plus bas du 18 novembre, environ 62 213 dollars",
+            "de": "Liniendiagramm des stündlichen Bitcoin-Kurses bei Kraken vom 16. bis 18. November 2026: Rückgang von rund 65.000 $ auf unter 63.000 $; gestrichelte Linie beim Tief vom 18. November von rund 62.213 $",
+            "ru": "Линейный график почасовой цены биткоина на Kraken с 16 по 18 ноября 2026 года: снижение примерно с $65 000 до уровня ниже $63 000; пунктирная линия показывает минимум 18 ноября, около $62 213",
+            "tr": "Bitcoin'in 16-18 Kasım 2026'da Kraken'deki saatlik fiyatının çizgi grafiği: yaklaşık 65.000 $'dan 63.000 $'ın altına geriliyor; kesikli çizgi 18 Kasım'daki yaklaşık 62.213 $'lık dibi gösteriyor",
+            "id": "Grafik garis harga bitcoin per jam di Kraken pada 16 hingga 18 November 2026: turun dari sekitar US$65.000 ke bawah US$63.000, dengan garis putus-putus di level terendah 18 November sekitar US$62.213",
+            "ja": "2026年11月16〜18日のKrakenにおけるビットコイン1時間足の折れ線グラフ：約6万5000ドルから6万3000ドル割れへ下落。破線は11月18日の安値（約6万2213ドル）",
+            "ko": "2026년 11월 16~18일 크라켄 비트코인 시간별 가격 선 차트: 약 6만 5,000달러에서 6만 3,000달러 아래로 하락, 점선은 11월 18일 저점 약 6만 2,213달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken BTC/USD hourly closes")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card quoting the Fed minutes from the Oct. 27-28, 2026 meeting: almost all participants judged that further action to raise the federal funds rate would likely be appropriate", {
+            "es": "Tarjeta con una cita de las actas de la Fed de la reunión del 27 y 28 de octubre de 2026: casi todos los participantes consideraron que probablemente sería apropiado volver a subir la tasa de fondos federales",
+            "pt": "Cartão com trecho da ata do Fed da reunião de 27 e 28 de outubro de 2026: quase todos os participantes avaliaram que novas altas da taxa básica provavelmente seriam apropriadas",
+            "fr": "Carte citant le compte rendu de la Fed sur la réunion des 27 et 28 octobre 2026 : presque tous les participants ont jugé que de nouvelles hausses du taux directeur seraient probablement appropriées",
+            "de": "Faktenkarte mit einem Zitat aus dem Fed-Protokoll der Sitzung vom 27. und 28. Oktober 2026: Fast alle Teilnehmer hielten weitere Anhebungen des Leitzinses für wahrscheinlich angemessen",
+            "ru": "Карточка с цитатой из протокола заседания ФРС 27–28 октября 2026 года: почти все участники сочли, что дальнейшее повышение ставки по федеральным фондам, вероятно, будет уместным",
+            "tr": "Fed'in 27-28 Ekim 2026 toplantı tutanaklarından alıntı içeren kart: katılımcıların neredeyse tamamı federal fon faizinin yeniden artırılmasının muhtemelen uygun olacağı görüşündeydi",
+            "id": "Kartu kutipan risalah rapat Fed 27-28 Oktober 2026: hampir semua peserta menilai kenaikan suku bunga acuan lebih lanjut kemungkinan akan tepat",
+            "ja": "2026年10月27〜28日のFOMC議事要旨を引用したカード：ほぼすべての参加者が、追加の利上げがおそらく適切になると判断した",
+            "ko": "2026년 10월 27~28일 FOMC 의사록 인용 카드: 거의 모든 참석자가 추가 기준금리 인상이 적절할 가능성이 높다고 판단했다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Federal Reserve, FOMC minutes (Oct. 27-28, 2026)")},
+        {"id": "flows", "file": flows_img.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of U.S. spot bitcoin ETF daily net flows from Oct. 30 to Nov. 17, 2026, per Farside Investors: outflows on 11 of 13 trading days, the largest $643.2 million on Oct. 30, and $239.9 million out on Nov. 17", {
+            "es": "Gráfico de barras de los flujos netos diarios de los ETF de bitcoin al contado de EE. UU. del 30 de octubre al 17 de noviembre de 2026, según Farside Investors: salidas en 11 de 13 sesiones, la mayor de 643,2 millones de dólares el 30 de octubre, y 239,9 millones de salidas el 17 de noviembre",
+            "pt": "Gráfico de barras dos fluxos líquidos diários dos ETFs de bitcoin à vista dos EUA de 30 de outubro a 17 de novembro de 2026, segundo a Farside Investors: saídas em 11 de 13 pregões, a maior de US$ 643,2 milhões em 30 de outubro, e saídas de US$ 239,9 milhões em 17 de novembro",
+            "fr": "Diagramme en barres des flux nets quotidiens des ETF bitcoin au comptant américains du 30 octobre au 17 novembre 2026, selon Farside Investors : sorties sur 11 séances sur 13, la plus forte de 643,2 millions de dollars le 30 octobre, et 239,9 millions de sorties le 17 novembre",
+            "de": "Balkendiagramm der täglichen Nettozuflüsse der US-Spot-Bitcoin-ETFs vom 30. Oktober bis 17. November 2026 laut Farside Investors: Abflüsse an 11 von 13 Handelstagen, der größte mit 643,2 Mio. $ am 30. Oktober, und 239,9 Mio. $ Abfluss am 17. November",
+            "ru": "Столбчатая диаграмма ежедневных чистых потоков американских спотовых биткоин-ETF с 30 октября по 17 ноября 2026 года по данным Farside Investors: оттоки в 11 из 13 торговых дней, крупнейший $643,2 млн 30 октября, отток $239,9 млн 17 ноября",
+            "tr": "Farside Investors verilerine göre 30 Ekim-17 Kasım 2026 arasında ABD spot bitcoin ETF'lerinin günlük net akışlarının çubuk grafiği: 13 işlem gününün 11'inde çıkış, en büyüğü 30 Ekim'de 643,2 milyon $, 17 Kasım'da 239,9 milyon $ çıkış",
+            "id": "Grafik batang arus bersih harian ETF bitcoin spot AS dari 30 Oktober hingga 17 November 2026 menurut Farside Investors: arus keluar pada 11 dari 13 hari perdagangan, terbesar US$643,2 juta pada 30 Oktober, dan arus keluar US$239,9 juta pada 17 November",
+            "ja": "Farside Investorsによる2026年10月30日～11月17日の米国現物ビットコインETFの日次純流出入の棒グラフ：13営業日中11日で流出、最大は10月30日の6億4320万ドル、11月17日は2億3990万ドルの流出",
+            "ko": "Farside Investors 기준 2026년 10월 30일~11월 17일 미국 현물 비트코인 ETF 일별 순유출입 막대 차트: 13거래일 중 11일 순유출, 최대는 10월 30일 6억4320만 달러, 11월 17일 2억3990만 달러 순유출",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Farside Investors")},
+    ]
+
+
+def build_binance_adgm_order():
+    slug = "binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026"
+    d = OUT / slug
+    # Binance incident report figures via Bitcoin Magazine (Nov 18, 2026): $6.34B affected, ~$2.85B frozen/intercepted;
+    # Tether froze >$1.5B USDT, Circle ~ $1.1B USDC (as reported by Bitcoin Magazine).
+    chart = make_bar_chart(
+        d / "chart-binance-hack-frozen",
+        ["Assets affected\n(Binance)", "Frozen or intercepted\n(Binance)", "USDT frozen\n(Tether)", "USDC frozen\n(Circle)"],
+        [6.34, 2.85, 1.5, 1.1],
+        "Binance hack: stolen vs. frozen (US$ billions)",
+        colors=["#f87171", "#34d399", "#64748b", "#64748b"],
+        value_fmt=lambda v: {6.34: "$6.34B", 2.85: "~$2.85B", 1.5: "$1.5B+", 1.1: "~$1.1B"}[v],
+        axis_fmt=lambda x, _p: f"${x:,.0f}B",
+    )
+    tl = make_timeline_card(
+        d / "timeline-binance-hack-recovery",
+        "Binance hack: the fight over the money",
+        [
+            ("Oct. 29", "Hackers drain about $6.3 billion from Binance hot wallets", (248, 113, 113)),
+            ("Nov. 12", "DOJ gets court authority to seize or restrain more than $1.2 billion", (96, 165, 250)),
+            ("Nov. 17", "Hack-linked wallets move 74,880 ETH, about $136.8 million", (248, 113, 113)),
+            ("Nov. 18", "Binance says it has an Abu Dhabi court order to recover frozen funds", GREEN),
+        ],
+        footer="Reuters · U.S. Justice Department · Decrypt (Arkham data)",
+        margin=170, wrap_w=250,
+    )
+    fact = make_fact_card(
+        d / "fact-74880-eth-moved",
+        "Hack-linked wallets on Nov. 17",
+        "74,880 ETH",
+        "About $136.8 million moved in roughly three hours; some was swapped for bitcoin through THORChain.",
+        footer="Arkham data via Decrypt · Nov. 17, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of the Binance hack: $6.34 billion in assets affected and about $2.85 billion frozen or intercepted, according to Binance; Tether froze more than $1.5 billion in USDT and Circle about $1.1 billion in USDC", {
+            "es": "Gráfico de barras del hackeo de Binance: 6.340 millones de dólares en activos afectados y unos 2.850 millones congelados o interceptados, según Binance; Tether congeló más de 1.500 millones en USDT y Circle unos 1.100 millones en USDC",
+            "pt": "Gráfico de barras do ataque à Binance: US$ 6,34 bilhões em ativos afetados e cerca de US$ 2,85 bilhões congelados ou interceptados, segundo a Binance; a Tether congelou mais de US$ 1,5 bilhão em USDT e a Circle cerca de US$ 1,1 bilhão em USDC",
+            "fr": "Diagramme en barres du piratage de Binance : 6,34 milliards de dollars d'actifs touchés et environ 2,85 milliards gelés ou interceptés, selon Binance ; Tether a gelé plus de 1,5 milliard en USDT et Circle environ 1,1 milliard en USDC",
+            "de": "Balkendiagramm zum Binance-Hack: 6,34 Mrd. $ betroffene Vermögenswerte und rund 2,85 Mrd. $ eingefroren oder abgefangen, laut Binance; Tether fror mehr als 1,5 Mrd. $ in USDT ein, Circle rund 1,1 Mrd. $ in USDC",
+            "ru": "Столбчатая диаграмма по взлому Binance: затронуто активов на $6,34 млрд, около $2,85 млрд заморожено или перехвачено, по данным Binance; Tether заморозила более $1,5 млрд в USDT, Circle — около $1,1 млрд в USDC",
+            "tr": "Binance saldırısının çubuk grafiği: Binance'e göre 6,34 milyar $ varlık etkilendi, yaklaşık 2,85 milyar $ donduruldu ya da yolda durduruldu; Tether 1,5 milyar $'ın üzerinde USDT, Circle yaklaşık 1,1 milyar $ USDC dondurdu",
+            "id": "Grafik batang peretasan Binance: aset terdampak US$6,34 miliar dan sekitar US$2,85 miliar dibekukan atau dicegat, menurut Binance; Tether membekukan lebih dari US$1,5 miliar USDT dan Circle sekitar US$1,1 miliar USDC",
+            "ja": "バイナンスのハッキングに関する棒グラフ：バイナンスによると影響を受けた資産は63億4000万ドル、凍結または差し止められたのは約28億5000万ドル。テザーは15億ドル超のUSDT、サークルは約11億ドルのUSDCを凍結",
+            "ko": "바이낸스 해킹 막대 차트: 바이낸스에 따르면 피해 자산 63억4000만 달러, 동결 또는 차단 약 28억5000만 달러; 테더는 15억 달러 이상의 USDT, 서클은 약 11억 달러의 USDC를 동결",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Binance incident report via Bitcoin Magazine")},
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: Oct. 29, hackers drain about $6.3 billion from Binance hot wallets; Nov. 12, the U.S. Justice Department gets court authority to seize or restrain more than $1.2 billion; Nov. 17, hack-linked wallets move 74,880 ETH, about $136.8 million; Nov. 18, Binance says it has an Abu Dhabi court order to recover frozen funds", {
+            "es": "Cronología: 29 de oct., los hackers vacían unos 6.300 millones de dólares de las billeteras calientes de Binance; 12 de nov., el Departamento de Justicia de EE. UU. obtiene autorización judicial para incautar o bloquear más de 1.200 millones; 17 de nov., billeteras vinculadas al hackeo mueven 74.880 ETH, unos 136,8 millones; 18 de nov., Binance dice tener una orden judicial de Abu Dabi para recuperar fondos congelados",
+            "pt": "Linha do tempo: 29 de out., hackers esvaziam cerca de US$ 6,3 bilhões das carteiras quentes da Binance; 12 de nov., o Departamento de Justiça dos EUA obtém autorização judicial para apreender ou bloquear mais de US$ 1,2 bilhão; 17 de nov., carteiras ligadas ao ataque movem 74.880 ETH, cerca de US$ 136,8 milhões; 18 de nov., a Binance diz ter uma ordem judicial de Abu Dhabi para recuperar fundos congelados",
+            "fr": "Chronologie : 29 oct., des pirates vident environ 6,3 milliards de dollars des portefeuilles chauds de Binance ; 12 nov., le ministère américain de la Justice obtient l'autorisation de saisir ou bloquer plus de 1,2 milliard ; 17 nov., des portefeuilles liés au piratage déplacent 74 880 ETH, environ 136,8 millions ; 18 nov., Binance dit disposer d'une ordonnance d'un tribunal d'Abou Dhabi pour récupérer des fonds gelés",
+            "de": "Zeitleiste: 29. Okt., Hacker räumen rund 6,3 Mrd. $ aus Binances Hot Wallets ab; 12. Nov., das US-Justizministerium erhält die gerichtliche Befugnis, mehr als 1,2 Mrd. $ zu beschlagnahmen oder zu sperren; 17. Nov., mit dem Hack verknüpfte Wallets bewegen 74.880 ETH, rund 136,8 Mio. $; 18. Nov., Binance meldet einen Gerichtsbeschluss aus Abu Dhabi zur Rückholung eingefrorener Gelder",
+            "ru": "Хронология: 29 октября хакеры выводят около $6,3 млрд из горячих кошельков Binance; 12 ноября Минюст США получает судебное разрешение изъять или заблокировать более $1,2 млрд; 17 ноября связанные со взломом кошельки перемещают 74 880 ETH, около $136,8 млн; 18 ноября Binance сообщает о судебном приказе в Абу-Даби для возврата замороженных средств",
+            "tr": "Zaman çizelgesi: 29 Ekim, bilgisayar korsanları Binance'in sıcak cüzdanlarından yaklaşık 6,3 milyar $ çekiyor; 12 Kasım, ABD Adalet Bakanlığı 1,2 milyar $'ın üzerinde varlığa el koyma ya da dondurma yetkisi alıyor; 17 Kasım, saldırıyla bağlantılı cüzdanlar 74.880 ETH, yaklaşık 136,8 milyon $ taşıyor; 18 Kasım, Binance dondurulan fonları geri almak için Abu Dabi'den mahkeme kararı aldığını söylüyor",
+            "id": "Linimasa: 29 Okt., peretas menguras sekitar US$6,3 miliar dari dompet panas Binance; 12 Nov., Departemen Kehakiman AS mendapat izin pengadilan untuk menyita atau membekukan lebih dari US$1,2 miliar; 17 Nov., dompet terkait peretasan memindahkan 74.880 ETH, sekitar US$136,8 juta; 18 Nov., Binance mengaku mendapat perintah pengadilan Abu Dhabi untuk memulihkan dana yang dibekukan",
+            "ja": "時系列：10月29日、ハッカーがバイナンスのホットウォレットから約63億ドルを流出させる。11月12日、米司法省が12億ドル超の押収・凍結について裁判所の許可を得る。11月17日、ハッキング関連のウォレットが7万4880ETH（約1億3680万ドル）を移動。11月18日、バイナンスが凍結資金の回収に向けアブダビの裁判所命令を得たと発表",
+            "ko": "타임라인: 10월 29일 해커가 바이낸스 핫월렛에서 약 63억 달러 탈취; 11월 12일 미 법무부가 12억 달러 이상 압수·동결에 대한 법원 승인 확보; 11월 17일 해킹 연루 지갑이 7만4880 ETH(약 1억3680만 달러) 이동; 11월 18일 바이낸스가 동결 자금 회수를 위한 아부다비 법원 명령을 받았다고 발표",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Reuters, U.S. Justice Department, Decrypt")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: on Nov. 17, 2026, wallets linked to the Binance hack moved 74,880 ETH, about $136.8 million, in roughly three hours, and some was swapped for bitcoin through THORChain", {
+            "es": "Tarjeta: el 17 de noviembre de 2026, billeteras vinculadas al hackeo de Binance movieron 74.880 ETH, unos 136,8 millones de dólares, en unas tres horas, y parte se cambió por bitcoin a través de THORChain",
+            "pt": "Cartão: em 17 de novembro de 2026, carteiras ligadas ao ataque à Binance movimentaram 74.880 ETH, cerca de US$ 136,8 milhões, em umas três horas, e parte foi trocada por bitcoin via THORChain",
+            "fr": "Carte : le 17 novembre 2026, des portefeuilles liés au piratage de Binance ont déplacé 74 880 ETH, environ 136,8 millions de dollars, en trois heures environ, et une partie a été échangée contre du bitcoin via THORChain",
+            "de": "Faktenkarte: Am 17. November 2026 bewegten mit dem Binance-Hack verknüpfte Wallets binnen rund drei Stunden 74.880 ETH, etwa 136,8 Mio. $; ein Teil wurde über THORChain in Bitcoin getauscht",
+            "ru": "Карточка: 17 ноября 2026 года связанные со взломом Binance кошельки примерно за три часа переместили 74 880 ETH, около $136,8 млн, часть обменяли на биткоин через THORChain",
+            "tr": "Kart: 17 Kasım 2026'da Binance saldırısıyla bağlantılı cüzdanlar yaklaşık üç saatte 74.880 ETH, yani yaklaşık 136,8 milyon $ taşıdı; bir kısmı THORChain üzerinden bitcoine çevrildi",
+            "id": "Kartu: pada 17 November 2026, dompet terkait peretasan Binance memindahkan 74.880 ETH, sekitar US$136,8 juta, dalam kira-kira tiga jam, dan sebagian ditukar ke bitcoin lewat THORChain",
+            "ja": "カード：2026年11月17日、バイナンスのハッキングに関連するウォレットが約3時間で7万4880ETH（約1億3680万ドル）を移動し、一部はTHORChainを通じてビットコインに交換された",
+            "ko": "카드: 2026년 11월 17일 바이낸스 해킹 연루 지갑이 약 3시간 동안 7만4880 ETH(약 1억3680만 달러)를 옮겼고, 일부는 THORChain을 통해 비트코인으로 교환됐다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Arkham data via Decrypt")},
+    ]
+
+
 BUILDERS = {
+    "fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026": "fedmin63k",
+    "binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026": "bnbadgm",
     "russia-retail-investors-bitcoin-ether-usdt-300000-ruble-cap-nov-2026": "rusretail",
     "mev-brothers-acquitted-25-million-ethereum-bots-nov-2026": "mevacq",
     "cftc-approves-backpack-blockchain-derivatives-exchange-nov-2026": "cftcbp",
@@ -3788,6 +3939,10 @@ def build_slug(slug: str, btc=None):
         figs = build_cftc_backpack()
     elif key == "rusretail":
         figs = build_russia_retail_crypto()
+    elif key == "fedmin63k":
+        figs = build_fed_minutes_btc_63k()
+    elif key == "bnbadgm":
+        figs = build_binance_adgm_order()
     elif key == "mevacq":
         figs = build_mev_acquittal()
     elif key == "banks13f":

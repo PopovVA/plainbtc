@@ -1,0 +1,65 @@
+title: Binance says it has an Abu Dhabi court order to recover frozen hack funds as stolen ether moves again
+page_title: Binance gets Abu Dhabi court order to recover frozen hack funds
+description: Binance says it secured a court order in Abu Dhabi to help recover crypto frozen after last month's $6.3 billion hack, about $2.85 billion of which was frozen or intercepted. Meanwhile, hack-linked wallets moved $136.8 million in ether.
+og_description: Binance says an Abu Dhabi court order will help it recover the roughly $2.85 billion frozen after its record $6.3 billion hack, a day after hack-linked wallets moved 74,880 ether. What we know, what we don't and what it means for users.
+label: Security
+summary: Binance says it secured a court order from Abu Dhabi Global Market to help recover crypto frozen after the record $6.3 billion hack. About $2.85 billion was frozen or intercepted, while hack-linked wallets moved 74,880 ether on Tuesday.
+===
+
+Binance, the world's largest crypto exchange, says it has won a new legal tool in its effort to get back money stolen in last month's record hack. The company said on Wednesday, Nov. 18, that it secured a court order from Abu Dhabi Global Market (ADGM) as part of its work to recover funds that were frozen after hackers took about $6.3 billion in crypto, [Reuters reported](L1).
+
+Binance has said about $2.85 billion of the stolen tokens were frozen or intercepted by third parties after the Oct. 29 attack. The news comes a day after wallets linked to the hack started moving large amounts of stolen ether again.
+
+!takeaways
+- Binance says it obtained an ADGM court order to help recover crypto frozen after the Oct. 29 hack.
+- The company has not said how much money the order covers or which assets it applies to.
+- About $2.85 billion of the roughly $6.34 billion affected was frozen or intercepted, according to Binance.
+- On Nov. 17, hack-linked wallets moved 74,880 ETH, about $136.8 million, and began swapping some of it for bitcoin.
+
+!figure:chart
+
+## What Binance announced
+
+ADGM is an international financial center in Abu Dhabi with its own courts, and Reuters describes it as Binance's main financial regulator. "We will continue using every lawful tool available to trace, freeze and recover stolen assets, support our partners in returning funds where possible, and keep those assets out of the hands of the attackers," Dugan Bliss, Binance's deputy general counsel, said in a statement.
+
+Binance gave no details on the order's terms. According to [Bitcoin Magazine](L2), neither the company nor Reuters said which assets it applies to, or how it fits with recovery efforts in the United States.
+
+## Where the frozen money sits
+
+Most of the frozen money is in stablecoins, digital dollars whose issuers can block specific wallets. Bitcoin Magazine reported that Tether froze more than $1.5 billion in USDT within 30 minutes of the attack and that Circle froze about $1.1 billion in USDC in coordination with law enforcement. Circle has said it does not decide who owns frozen assets and leaves that question to law enforcement and the courts. A court order is one way to settle it.
+
+The U.S. government is also involved. On Nov. 12, the [Justice Department said](L5) it had court authority to seize or restrain more than $1.2 billion of the stolen crypto, part of more than $2.7 billion frozen through government and private efforts. The FBI has blamed the theft on North Korean hackers it calls TraderTraitor. North Korea denies involvement.
+
+!figure:timeline
+
+## The stolen ether is moving again
+
+Not all of the loot can be frozen. Bitcoin and ether have no company in the middle that can stop a wallet from sending them. On Tuesday, Nov. 17, one wallet tied to the hack sent 34,279.66 ETH, worth about $63 million, to three new addresses after sitting still since Oct. 30, [Decrypt reported](L3), citing blockchain security service MistTrack. A second wallet moved another 40,600.66 ETH.
+
+In total, hack-linked wallets moved 74,880 ETH, valued at about $136.8 million, over roughly three hours, according to analytics firm Arkham. Some of it was being swapped for bitcoin through THORChain, a service that moves crypto between blockchains.
+
+!mid_cta
+
+Moving coins is not the same as cashing out, though. Blockchain analytics firm Elliptic has said only a negligible amount had likely been turned into cash, and that about $2.55 billion still sat in addresses linked to the theft as of Nov. 16, according to Decrypt. To cash out at scale, the hackers would need an exchange or broker willing to take the funds, which gives investigators another chance to block them.
+
+!figure:fact
+
+## Binance says business goes on
+
+Binance has said it covered the stolen assets with its own money. The same day, its Asia-Pacific head, SB Seker, told [Reuters](L4) at the Singapore FinTech Festival that the company plans to expand into five Asian markets in 2027 and does not need to raise new funds. "We can take the impact and we can weather it without any change to the way we operate," he said. Binance, which reopened withdrawals in phases this month, aims to reopen all remaining networks and assets by the end of this week.
+
+## What it means for you
+
+If you keep coins on Binance, the company says it has already covered the affected assets with its own funds. Before you move funds, check Binance's withdrawal status page for your coin and network, since a few may still be paused. More broadly, the hack is a reminder that any exchange can be attacked. Many beginners buy on a large regulated exchange such as [Coinbase](REF), then move long-term savings to a wallet they control. This is not investment advice.
+
+## What to watch next
+
+- Whether Binance or ADGM publishes details of the order and the assets it covers.
+- Where the 74,880 ETH ends up, and whether exchanges block any of it.
+- Binance's promised reopening of all remaining withdrawals by the end of this week.
+
+!soft: Want to understand who holds your coins? Read [What is a crypto wallet: custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

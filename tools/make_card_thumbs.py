@@ -1339,7 +1339,48 @@ def thumb_mev_acquittal():
     ],"note":"Editorial composite; trademarks belong to their owners."}
 
 
+def thumb_fed_minutes_btc_63k():
+    """Federal Reserve seal (public domain) with the fed funds range from the Oct. 27-28, 2026 minutes."""
+    fed = fetch("https://upload.wikimedia.org/wikipedia/commons/1/1a/Seal_of_the_United_States_Federal_Reserve_System.svg", CACHE/"fed-seal.svg")
+    base = gradient_bg()
+    paste_contain(base, Image.open(fed).convert("RGBA"), (36, 70, 200, 200), pad=6)
+    d = ImageDraw.Draw(base)
+    d.text((262, 88), "3.75-4%", font=font(FONT_B, 58), fill=ORANGE)
+    d.text((264, 166), "Fed rate range, held Oct. 28", font=font(FONT_B, 19), fill=WHITE)
+    d.text((264, 200), "Minutes: almost all officials", font=font(FONT_R, 17), fill=(203,213,225))
+    d.text((264, 224), "see more hikes as likely", font=font(FONT_R, 17), fill=(203,213,225))
+    label_chip(base, "Federal Reserve · FOMC minutes")
+    return base, {"kind":"composite","sources":[
+        {"file":"Seal_of_the_United_States_Federal_Reserve_System.svg","license":"Public domain (U.S. government insignia)","url":"https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Federal_Reserve_System.svg","credit":"Federal Reserve"},
+        {"file":"FOMC minutes, Oct. 27-28, 2026","license":"Fact cited","url":"https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm","credit":"Federal Reserve"},
+    ],"note":"Editorial composite for identification; no endorsement by the Federal Reserve implied."}
+
+
+def thumb_binance_adgm_order():
+    """Binance logo (identification) with the frozen amount from Binance's incident report (via Reuters)."""
+    binance = fetch("https://upload.wikimedia.org/wikipedia/commons/e/e8/Binance_Logo.svg", CACHE/"binance-logo.svg")
+    base = gradient_bg()
+    card_w, card_h = 200, 190
+    x, y = 46, 84
+    tile = Image.new("RGBA", (card_w, card_h), (26,35,50,235))
+    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), (x, y), mask)
+    paste_contain(base, Image.open(binance).convert("RGBA"), (x, y, card_w, card_h), pad=22)
+    d = ImageDraw.Draw(base)
+    d.text((278, 96), "$2.85B", font=font(FONT_B, 64), fill=ORANGE)
+    d.text((280, 186), "frozen or intercepted", font=font(FONT_B, 21), fill=WHITE)
+    d.text((280, 220), "Abu Dhabi court order", font=font(FONT_R, 18), fill=(203,213,225))
+    d.text((280, 244), "to help recover it", font=font(FONT_R, 18), fill=(203,213,225))
+    label_chip(base, "Binance · hack recovery")
+    return base, {"kind":"composite","sources":[
+        {"file":"Binance_Logo.svg","license":"Logo","url":"https://commons.wikimedia.org/wiki/File:Binance_Logo.svg","credit":"Binance"},
+        {"file":"Reuters, Nov. 18, 2026","license":"Figure cited","url":"https://www.investing.com/news/economy-news/binance-says-it-has-court-order-to-get-back-crypto-frozen-after-63-billion-heist-5036806","credit":"Reuters / Binance"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
 BUILDERS = {
+    "fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026": thumb_fed_minutes_btc_63k,
+    "binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026": thumb_binance_adgm_order,
     "russia-retail-investors-bitcoin-ether-usdt-300000-ruble-cap-nov-2026": thumb_russia_retail_crypto,
     "mev-brothers-acquitted-25-million-ethereum-bots-nov-2026": thumb_mev_acquittal,
     "cftc-approves-backpack-blockchain-derivatives-exchange-nov-2026": thumb_cftc_backpack,

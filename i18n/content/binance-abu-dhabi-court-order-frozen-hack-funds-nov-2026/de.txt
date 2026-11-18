@@ -1,0 +1,65 @@
+title: Binance meldet Gerichtsbeschluss aus Abu Dhabi zur Rückholung eingefrorener Hack-Gelder, während gestohlene Ether erneut bewegt werden
+page_title: Binance erwirkt Gerichtsbeschluss in Abu Dhabi für eingefrorene Hack-Gelder
+description: Binance hat nach eigenen Angaben einen Gerichtsbeschluss in Abu Dhabi erwirkt, der helfen soll, nach dem 6,3-Milliarden-Dollar-Hack eingefrorene Kryptowerte zurückzuholen. Rund 2,85 Milliarden Dollar wurden eingefroren oder abgefangen. Gleichzeitig bewegten mit dem Hack verknüpfte Wallets Ether im Wert von 136,8 Millionen Dollar.
+og_description: Binance sagt, ein Gerichtsbeschluss aus Abu Dhabi werde helfen, die rund 2,85 Milliarden Dollar zurückzuholen, die nach dem Rekord-Hack über 6,3 Milliarden Dollar eingefroren wurden, einen Tag nachdem mit dem Angriff verknüpfte Wallets 74.880 Ether bewegt hatten. Was bekannt ist, was nicht und was das für Nutzer bedeutet.
+label: Sicherheit
+summary: Binance hat nach eigenen Angaben einen Gerichtsbeschluss von Abu Dhabi Global Market erwirkt, um nach dem Rekord-Hack über 6,3 Milliarden Dollar eingefrorene Kryptowerte zurückzuholen. Rund 2,85 Milliarden Dollar wurden eingefroren oder abgefangen; am Dienstag bewegten mit dem Hack verknüpfte Wallets 74.880 Ether.
+===
+
+Binance, die weltgrößte Kryptobörse, hat nach eigenen Angaben ein neues juristisches Werkzeug im Kampf um das beim Rekord-Hack im vergangenen Monat gestohlene Geld. Das Unternehmen teilte am Mittwoch, 18. November, mit, es habe einen Gerichtsbeschluss von Abu Dhabi Global Market (ADGM) erwirkt. Er soll helfen, Gelder zurückzuholen, die eingefroren wurden, nachdem Hacker Kryptowerte im Wert von rund 6,3 Milliarden Dollar erbeutet hatten, [berichtete Reuters](L1).
+
+Binance zufolge wurden nach dem Angriff vom 29. Oktober rund 2,85 Milliarden Dollar der gestohlenen Token von Dritten eingefroren oder abgefangen. Die Nachricht kommt einen Tag, nachdem mit dem Hack verknüpfte Wallets wieder große Mengen gestohlener Ether bewegt haben.
+
+!takeaways
+- Binance hat nach eigenen Angaben einen ADGM-Gerichtsbeschluss erwirkt, um nach dem Hack vom 29. Oktober eingefrorene Kryptowerte zurückzuholen.
+- Das Unternehmen hat nicht gesagt, welche Summe der Beschluss abdeckt oder für welche Assets er gilt.
+- Von den rund 6,34 Milliarden Dollar betroffener Assets wurden laut Binance rund 2,85 Milliarden Dollar eingefroren oder abgefangen.
+- Am 17. November bewegten mit dem Hack verknüpfte Wallets 74.880 ETH, rund 136,8 Millionen Dollar, und begannen, einen Teil in Bitcoin zu tauschen.
+
+!figure:chart
+
+## Was Binance mitgeteilt hat
+
+ADGM ist ein internationales Finanzzentrum in Abu Dhabi mit eigenen Gerichten; Reuters bezeichnet es als wichtigste Finanzaufsicht von Binance. „Wir werden weiterhin jedes rechtmäßige Mittel nutzen, um gestohlene Vermögenswerte aufzuspüren, einzufrieren und zurückzuholen, unsere Partner bei der Rückgabe von Geldern zu unterstützen, wo immer möglich, und diese Vermögenswerte aus den Händen der Angreifer fernzuhalten“, erklärte Dugan Bliss, stellvertretender Chefjurist von Binance.
+
+Details zum Beschluss nannte Binance nicht. Laut [Bitcoin Magazine](L2) sagten weder das Unternehmen noch Reuters, für welche Assets er gilt oder wie er sich zu den Rückholbemühungen in den USA verhält.
+
+## Wo das eingefrorene Geld liegt
+
+Der Großteil des eingefrorenen Geldes besteht aus Stablecoins, also digitalen Dollars, deren Herausgeber einzelne Wallets sperren können. Bitcoin Magazine berichtete, Tether habe binnen 30 Minuten nach dem Angriff mehr als 1,5 Milliarden Dollar in USDT eingefroren, Circle in Abstimmung mit den Behörden rund 1,1 Milliarden Dollar in USDC. Circle erklärte, es entscheide nicht, wem eingefrorene Assets gehören, und überlasse diese Frage den Behörden und Gerichten. Ein Gerichtsbeschluss ist ein Weg, sie zu klären.
+
+Auch die US-Regierung ist beteiligt. Am 12. November teilte das [Justizministerium mit](L5), es habe die gerichtliche Befugnis, mehr als 1,2 Milliarden Dollar der gestohlenen Kryptowerte zu beschlagnahmen oder zu sperren, als Teil von über 2,7 Milliarden Dollar, die durch staatliche und private Maßnahmen eingefroren wurden. Das FBI macht nordkoreanische Hacker verantwortlich, die es TraderTraitor nennt. Nordkorea bestreitet jede Beteiligung.
+
+!figure:timeline
+
+## Die gestohlenen Ether werden wieder bewegt
+
+Nicht die gesamte Beute lässt sich einfrieren. Bei Bitcoin und Ether gibt es kein Unternehmen in der Mitte, das eine Wallet am Senden hindern kann. Am Dienstag, 17. November, schickte eine mit dem Hack verknüpfte Wallet 34.279,66 ETH im Wert von rund 63 Millionen Dollar an drei neue Adressen, nachdem sie seit dem 30. Oktober unberührt geblieben war, [berichtete Decrypt](L3) unter Berufung auf den Blockchain-Sicherheitsdienst MistTrack. Eine zweite Wallet bewegte weitere 40.600,66 ETH.
+
+Insgesamt bewegten mit dem Hack verknüpfte Wallets laut dem Analyseunternehmen Arkham binnen rund drei Stunden 74.880 ETH im Wert von etwa 136,8 Millionen Dollar. Ein Teil wurde über THORChain, einen Dienst, der Kryptowerte zwischen Blockchains verschiebt, in Bitcoin getauscht.
+
+!mid_cta
+
+Coins zu bewegen heißt allerdings nicht, sie zu Geld zu machen. Das Blockchain-Analyseunternehmen Elliptic erklärte laut Decrypt, vermutlich sei nur ein verschwindend geringer Betrag in Bargeld umgewandelt worden; rund 2,55 Milliarden Dollar lagen demnach am 16. November noch auf mit dem Diebstahl verknüpften Adressen. Um in großem Stil auszuzahlen, bräuchten die Hacker eine Börse oder einen Broker, der die Gelder annimmt, was den Ermittlern eine weitere Chance gibt, sie zu stoppen.
+
+!figure:fact
+
+## Binance: Das Geschäft läuft weiter
+
+Binance hat erklärt, die gestohlenen Assets aus eigenen Mitteln ersetzt zu haben. Am selben Tag sagte der Asien-Pazifik-Chef SB Seker [Reuters](L4) am Rande des Singapore FinTech Festival, das Unternehmen plane 2027 den Eintritt in fünf asiatische Märkte und müsse kein frisches Kapital aufnehmen. „Wir können den Schlag verkraften und ihn überstehen, ohne etwas an unserer Arbeitsweise zu ändern“, sagte er. Binance hat Auszahlungen in diesem Monat schrittweise wieder geöffnet und will alle übrigen Netzwerke und Assets bis Ende dieser Woche freigeben.
+
+## Was das für Sie bedeutet
+
+Wenn Sie Coins bei Binance haben: Das Unternehmen sagt, es habe die betroffenen Assets bereits aus eigenen Mitteln gedeckt. Prüfen Sie vor einer Überweisung die Statusseite für Auszahlungen bei Binance für Ihren Coin und Ihr Netzwerk, da einige noch pausiert sein können. Grundsätzlich erinnert der Hack daran, dass jede Börse angegriffen werden kann. Viele Einsteiger kaufen bei einer großen regulierten Börse wie [Coinbase](REF) und verschieben langfristige Ersparnisse dann in eine Wallet, die sie selbst kontrollieren. Dies ist keine Anlageberatung.
+
+## Worauf man achten sollte
+
+- Ob Binance oder ADGM Details zum Beschluss und zu den betroffenen Assets veröffentlichen.
+- Wohin die 74.880 ETH fließen und ob Börsen einen Teil davon sperren.
+- Die von Binance angekündigte Freigabe aller übrigen Auszahlungen bis Ende dieser Woche.
+
+!soft: Wer verwahrt eigentlich Ihre Coins? Lesen Sie [Was ist eine Krypto-Wallet: verwahrt oder selbst verwahrt](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

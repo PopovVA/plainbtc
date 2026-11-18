@@ -1,0 +1,95 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-hourly-nov-16-18.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin's hourly price on Kraken from Nov. 16 to Nov. 18, 2026, sliding from about $65,000 to below $63,000, with a dashed line at the Nov. 18 low of about $62,213",
+      "es": "Gráfico de líneas del precio horario de bitcoin en Kraken del 16 al 18 de noviembre de 2026: baja de unos 65.000 dólares a menos de 63.000, con una línea discontinua en el mínimo del 18 de noviembre, de unos 62.213 dólares",
+      "pt": "Gráfico de linha do preço horário do bitcoin na Kraken de 16 a 18 de novembro de 2026: cai de cerca de US$ 65.000 para menos de US$ 63.000, com uma linha tracejada na mínima de 18 de novembro, de cerca de US$ 62.213",
+      "fr": "Courbe du cours horaire du bitcoin sur Kraken du 16 au 18 novembre 2026 : il glisse d'environ 65 000 dollars à moins de 63 000 dollars, avec une ligne pointillée au plus bas du 18 novembre, environ 62 213 dollars",
+      "de": "Liniendiagramm des stündlichen Bitcoin-Kurses bei Kraken vom 16. bis 18. November 2026: Rückgang von rund 65.000 $ auf unter 63.000 $; gestrichelte Linie beim Tief vom 18. November von rund 62.213 $",
+      "ru": "Линейный график почасовой цены биткоина на Kraken с 16 по 18 ноября 2026 года: снижение примерно с $65 000 до уровня ниже $63 000; пунктирная линия показывает минимум 18 ноября, около $62 213",
+      "tr": "Bitcoin'in 16-18 Kasım 2026'da Kraken'deki saatlik fiyatının çizgi grafiği: yaklaşık 65.000 $'dan 63.000 $'ın altına geriliyor; kesikli çizgi 18 Kasım'daki yaklaşık 62.213 $'lık dibi gösteriyor",
+      "id": "Grafik garis harga bitcoin per jam di Kraken pada 16 hingga 18 November 2026: turun dari sekitar US$65.000 ke bawah US$63.000, dengan garis putus-putus di level terendah 18 November sekitar US$62.213",
+      "ja": "2026年11月16〜18日のKrakenにおけるビットコイン1時間足の折れ線グラフ：約6万5000ドルから6万3000ドル割れへ下落。破線は11月18日の安値（約6万2213ドル）",
+      "ko": "2026년 11월 16~18일 크라켄 비트코인 시간별 가격 선 차트: 약 6만 5,000달러에서 6만 3,000달러 아래로 하락, 점선은 11월 18일 저점 약 6만 2,213달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken BTC/USD hourly closes",
+      "es": "Gráfico: PlainBTC, datos: Kraken BTC/USD hourly closes",
+      "pt": "Gráfico: PlainBTC, dados: Kraken BTC/USD hourly closes",
+      "fr": "Graphique : PlainBTC, données : Kraken BTC/USD hourly closes",
+      "de": "Chart: PlainBTC, Daten: Kraken BTC/USD hourly closes",
+      "ru": "График: PlainBTC, данные: Kraken BTC/USD hourly closes",
+      "tr": "Grafik: PlainBTC, veri: Kraken BTC/USD hourly closes",
+      "id": "Grafik: PlainBTC, data: Kraken BTC/USD hourly closes",
+      "ja": "チャート: PlainBTC、データ: Kraken BTC/USD hourly closes",
+      "ko": "차트: PlainBTC, 데이터: Kraken BTC/USD hourly closes"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-almost-all-participants.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card quoting the Fed minutes from the Oct. 27-28, 2026 meeting: almost all participants judged that further action to raise the federal funds rate would likely be appropriate",
+      "es": "Tarjeta con una cita de las actas de la Fed de la reunión del 27 y 28 de octubre de 2026: casi todos los participantes consideraron que probablemente sería apropiado volver a subir la tasa de fondos federales",
+      "pt": "Cartão com trecho da ata do Fed da reunião de 27 e 28 de outubro de 2026: quase todos os participantes avaliaram que novas altas da taxa básica provavelmente seriam apropriadas",
+      "fr": "Carte citant le compte rendu de la Fed sur la réunion des 27 et 28 octobre 2026 : presque tous les participants ont jugé que de nouvelles hausses du taux directeur seraient probablement appropriées",
+      "de": "Faktenkarte mit einem Zitat aus dem Fed-Protokoll der Sitzung vom 27. und 28. Oktober 2026: Fast alle Teilnehmer hielten weitere Anhebungen des Leitzinses für wahrscheinlich angemessen",
+      "ru": "Карточка с цитатой из протокола заседания ФРС 27–28 октября 2026 года: почти все участники сочли, что дальнейшее повышение ставки по федеральным фондам, вероятно, будет уместным",
+      "tr": "Fed'in 27-28 Ekim 2026 toplantı tutanaklarından alıntı içeren kart: katılımcıların neredeyse tamamı federal fon faizinin yeniden artırılmasının muhtemelen uygun olacağı görüşündeydi",
+      "id": "Kartu kutipan risalah rapat Fed 27-28 Oktober 2026: hampir semua peserta menilai kenaikan suku bunga acuan lebih lanjut kemungkinan akan tepat",
+      "ja": "2026年10月27〜28日のFOMC議事要旨を引用したカード：ほぼすべての参加者が、追加の利上げがおそらく適切になると判断した",
+      "ko": "2026년 10월 27~28일 FOMC 의사록 인용 카드: 거의 모든 참석자가 추가 기준금리 인상이 적절할 가능성이 높다고 판단했다"
+    },
+    "caption": {
+      "en": "Source: Federal Reserve, FOMC minutes (Oct. 27-28, 2026)",
+      "es": "Fuente: Federal Reserve, FOMC minutes (Oct. 27-28, 2026)",
+      "pt": "Fonte: Federal Reserve, FOMC minutes (Oct. 27-28, 2026)",
+      "fr": "Source : Federal Reserve, FOMC minutes (Oct. 27-28, 2026)",
+      "de": "Quelle: Federal Reserve, FOMC minutes (Oct. 27-28, 2026)",
+      "ru": "Источник: Federal Reserve, FOMC minutes (Oct. 27-28, 2026)",
+      "tr": "Kaynak: Federal Reserve, FOMC minutes (Oct. 27-28, 2026)",
+      "id": "Sumber: Federal Reserve, FOMC minutes (Oct. 27-28, 2026)",
+      "ja": "出典: Federal Reserve, FOMC minutes (Oct. 27-28, 2026)",
+      "ko": "출처: Federal Reserve, FOMC minutes (Oct. 27-28, 2026)"
+    }
+  },
+  {
+    "id": "flows",
+    "file": "chart-btc-etf-flows-oct30-nov17.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of U.S. spot bitcoin ETF daily net flows from Oct. 30 to Nov. 17, 2026, per Farside Investors: outflows on 11 of 13 trading days, the largest $643.2 million on Oct. 30, and $239.9 million out on Nov. 17",
+      "es": "Gráfico de barras de los flujos netos diarios de los ETF de bitcoin al contado de EE. UU. del 30 de octubre al 17 de noviembre de 2026, según Farside Investors: salidas en 11 de 13 sesiones, la mayor de 643,2 millones de dólares el 30 de octubre, y 239,9 millones de salidas el 17 de noviembre",
+      "pt": "Gráfico de barras dos fluxos líquidos diários dos ETFs de bitcoin à vista dos EUA de 30 de outubro a 17 de novembro de 2026, segundo a Farside Investors: saídas em 11 de 13 pregões, a maior de US$ 643,2 milhões em 30 de outubro, e saídas de US$ 239,9 milhões em 17 de novembro",
+      "fr": "Diagramme en barres des flux nets quotidiens des ETF bitcoin au comptant américains du 30 octobre au 17 novembre 2026, selon Farside Investors : sorties sur 11 séances sur 13, la plus forte de 643,2 millions de dollars le 30 octobre, et 239,9 millions de sorties le 17 novembre",
+      "de": "Balkendiagramm der täglichen Nettozuflüsse der US-Spot-Bitcoin-ETFs vom 30. Oktober bis 17. November 2026 laut Farside Investors: Abflüsse an 11 von 13 Handelstagen, der größte mit 643,2 Mio. $ am 30. Oktober, und 239,9 Mio. $ Abfluss am 17. November",
+      "ru": "Столбчатая диаграмма ежедневных чистых потоков американских спотовых биткоин-ETF с 30 октября по 17 ноября 2026 года по данным Farside Investors: оттоки в 11 из 13 торговых дней, крупнейший $643,2 млн 30 октября, отток $239,9 млн 17 ноября",
+      "tr": "Farside Investors verilerine göre 30 Ekim-17 Kasım 2026 arasında ABD spot bitcoin ETF'lerinin günlük net akışlarının çubuk grafiği: 13 işlem gününün 11'inde çıkış, en büyüğü 30 Ekim'de 643,2 milyon $, 17 Kasım'da 239,9 milyon $ çıkış",
+      "id": "Grafik batang arus bersih harian ETF bitcoin spot AS dari 30 Oktober hingga 17 November 2026 menurut Farside Investors: arus keluar pada 11 dari 13 hari perdagangan, terbesar US$643,2 juta pada 30 Oktober, dan arus keluar US$239,9 juta pada 17 November",
+      "ja": "Farside Investorsによる2026年10月30日～11月17日の米国現物ビットコインETFの日次純流出入の棒グラフ：13営業日中11日で流出、最大は10月30日の6億4320万ドル、11月17日は2億3990万ドルの流出",
+      "ko": "Farside Investors 기준 2026년 10월 30일~11월 17일 미국 현물 비트코인 ETF 일별 순유출입 막대 차트: 13거래일 중 11일 순유출, 최대는 10월 30일 6억4320만 달러, 11월 17일 2억3990만 달러 순유출"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Farside Investors",
+      "es": "Gráfico: PlainBTC, datos: Farside Investors",
+      "pt": "Gráfico: PlainBTC, dados: Farside Investors",
+      "fr": "Graphique : PlainBTC, données : Farside Investors",
+      "de": "Chart: PlainBTC, Daten: Farside Investors",
+      "ru": "График: PlainBTC, данные: Farside Investors",
+      "tr": "Grafik: PlainBTC, veri: Farside Investors",
+      "id": "Grafik: PlainBTC, data: Farside Investors",
+      "ja": "チャート: PlainBTC、データ: Farside Investors",
+      "ko": "차트: PlainBTC, 데이터: Farside Investors"
+    }
+  }
+]

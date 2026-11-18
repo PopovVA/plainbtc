@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ko/</link>
     <description>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 18 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 19:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ko/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>연준 의사록, 추가 금리 인상 시사… 비트코인 6만3000달러 아래로</title>
+      <link>https://plainbtc.com/ko/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 19:30:00 GMT</pubDate>
+      <category>시장</category>
+      <description>수요일 공개된 연준의 10월 27~28일 회의 의사록에 따르면 거의 모든 위원이 추가 금리 인상을 예상했다. 비트코인은 앞서 크리스토퍼 월러 이사가 12월 0.5%포인트 인상을 촉구한 뒤 6만3000달러 아래로 떨어졌다.</description>
+    </item>
+    <item>
+      <title>바이낸스 "동결된 해킹 자금 회수 위한 아부다비 법원 명령 확보"… 도난 이더는 다시 이동</title>
+      <link>https://plainbtc.com/ko/articles/binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 19:25:00 GMT</pubDate>
+      <category>보안</category>
+      <description>바이낸스는 사상 최대인 63억 달러 해킹 이후 동결된 암호화폐 회수를 위해 아부다비 글로벌 마켓(ADGM)의 법원 명령을 받았다고 밝혔다. 약 28억5000만 달러가 동결 또는 차단됐으며, 화요일에는 해킹 연루 지갑들이 7만4880 이더를 옮겼다.</description>
+    </item>
     <item>
       <title>러시아, 일반 투자자에 비트코인·이더·USDT 매수 허용… 연간 30만 루블 한도</title>
       <link>https://plainbtc.com/ko/articles/russia-retail-investors-bitcoin-ether-usdt-300000-ruble-cap-nov-2026</link>

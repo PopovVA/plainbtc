@@ -1,0 +1,65 @@
+title: Binance dice tener una orden judicial de Abu Dabi para recuperar fondos congelados del hackeo mientras el ether robado vuelve a moverse
+page_title: Binance obtiene una orden judicial en Abu Dabi para recuperar fondos congelados del hackeo
+description: Binance dice que consiguió una orden judicial en Abu Dabi para ayudar a recuperar las criptomonedas congeladas tras el hackeo de 6.300 millones de dólares del mes pasado, de las que unos 2.850 millones fueron congeladas o interceptadas. Mientras tanto, billeteras vinculadas al hackeo movieron 136,8 millones en ether.
+og_description: Binance dice que una orden judicial de Abu Dabi le ayudará a recuperar los cerca de 2.850 millones de dólares congelados tras su hackeo récord de 6.300 millones, un día después de que billeteras vinculadas al ataque movieran 74.880 ether. Qué sabemos, qué no y qué significa para los usuarios.
+label: Seguridad
+summary: Binance dice que obtuvo una orden judicial de Abu Dhabi Global Market para ayudar a recuperar las criptomonedas congeladas tras el hackeo récord de 6.300 millones de dólares. Unos 2.850 millones fueron congelados o interceptados, y el martes billeteras vinculadas al hackeo movieron 74.880 ether.
+===
+
+Binance, el mayor exchange de criptomonedas del mundo, dice que ha conseguido una nueva herramienta legal para recuperar el dinero robado en el hackeo récord del mes pasado. La empresa dijo el miércoles 18 de noviembre que obtuvo una orden judicial de Abu Dhabi Global Market (ADGM) como parte de su trabajo para recuperar fondos que quedaron congelados después de que unos hackers se llevaran unos 6.300 millones de dólares en criptomonedas, [informó Reuters](L1).
+
+Binance ha dicho que unos 2.850 millones de dólares de los tokens robados fueron congelados o interceptados por terceros tras el ataque del 29 de octubre. La noticia llega un día después de que billeteras vinculadas al hackeo empezaran a mover de nuevo grandes cantidades de ether robado.
+
+!takeaways
+- Binance dice que obtuvo una orden judicial del ADGM para ayudar a recuperar las criptomonedas congeladas tras el hackeo del 29 de octubre.
+- La empresa no ha dicho cuánto dinero cubre la orden ni a qué activos se aplica.
+- Unos 2.850 millones de dólares de los cerca de 6.340 millones afectados fueron congelados o interceptados, según Binance.
+- El 17 de noviembre, billeteras vinculadas al hackeo movieron 74.880 ETH, unos 136,8 millones de dólares, y empezaron a cambiar parte por bitcoin.
+
+!figure:chart
+
+## Qué anunció Binance
+
+El ADGM es un centro financiero internacional en Abu Dabi con tribunales propios, y Reuters lo describe como el principal regulador financiero de Binance. "Seguiremos usando todas las herramientas legales a nuestro alcance para rastrear, congelar y recuperar los activos robados, apoyar a nuestros socios en la devolución de fondos cuando sea posible y mantener esos activos fuera del alcance de los atacantes", dijo en un comunicado Dugan Bliss, subdirector jurídico de Binance.
+
+Binance no dio detalles sobre los términos de la orden. Según [Bitcoin Magazine](L2), ni la empresa ni Reuters dijeron a qué activos se aplica ni cómo encaja con los esfuerzos de recuperación en Estados Unidos.
+
+## Dónde está el dinero congelado
+
+La mayor parte del dinero congelado está en stablecoins, dólares digitales cuyos emisores pueden bloquear billeteras concretas. Bitcoin Magazine informó que Tether congeló más de 1.500 millones de dólares en USDT en los 30 minutos siguientes al ataque y que Circle congeló unos 1.100 millones en USDC en coordinación con las fuerzas del orden. Circle ha dicho que no decide quién es el dueño de los activos congelados y deja esa cuestión a las autoridades y a los tribunales. Una orden judicial es una forma de resolverla.
+
+El Gobierno de EE. UU. también participa. El 12 de noviembre, el [Departamento de Justicia dijo](L5) que tenía autorización judicial para incautar o bloquear más de 1.200 millones de dólares de las criptomonedas robadas, parte de los más de 2.700 millones congelados gracias a esfuerzos públicos y privados. El FBI atribuye el robo a hackers norcoreanos a los que llama TraderTraitor. Corea del Norte niega su participación.
+
+!figure:timeline
+
+## El ether robado vuelve a moverse
+
+No todo el botín se puede congelar. Bitcoin y ether no tienen una empresa intermedia que pueda impedir que una billetera los envíe. El martes 17 de noviembre, una billetera vinculada al hackeo envió 34.279,66 ETH, unos 63 millones de dólares, a tres direcciones nuevas tras permanecer inmóvil desde el 30 de octubre, [informó Decrypt](L3) citando al servicio de seguridad blockchain MistTrack. Una segunda billetera movió otros 40.600,66 ETH.
+
+En total, billeteras vinculadas al hackeo movieron 74.880 ETH, valorados en unos 136,8 millones de dólares, en unas tres horas, según la firma de análisis Arkham. Parte se estaba cambiando por bitcoin a través de THORChain, un servicio que mueve criptomonedas entre blockchains.
+
+!mid_cta
+
+Aun así, mover monedas no es lo mismo que convertirlas en efectivo. La firma de análisis blockchain Elliptic ha dicho que probablemente solo se ha cobrado una cantidad insignificante y que unos 2.550 millones de dólares seguían en direcciones vinculadas al robo al 16 de noviembre, según Decrypt. Para cobrar a gran escala, los hackers necesitarían un exchange o un intermediario dispuesto a aceptar los fondos, lo que da a los investigadores otra oportunidad de bloquearlos.
+
+!figure:fact
+
+## Binance dice que el negocio sigue
+
+Binance ha dicho que cubrió los activos robados con dinero propio. Ese mismo día, su responsable para Asia-Pacífico, SB Seker, dijo a [Reuters](L4) en el Singapore FinTech Festival que la empresa planea entrar en cinco mercados asiáticos en 2027 y que no necesita captar fondos nuevos. "Podemos asumir el impacto y podemos soportarlo sin ningún cambio en nuestra forma de operar", afirmó. Binance, que reabrió los retiros por fases este mes, aspira a reabrir todas las redes y activos restantes antes de que termine esta semana.
+
+## Qué significa para ti
+
+Si tienes monedas en Binance, la empresa dice que ya cubrió los activos afectados con fondos propios. Antes de mover fondos, revisa la página de estado de retiros de Binance para tu moneda y tu red, porque algunas podrían seguir en pausa. En general, el hackeo recuerda que cualquier exchange puede sufrir un ataque. Muchos principiantes compran en un gran exchange regulado como [Coinbase](REF) y luego pasan sus ahorros a largo plazo a una billetera que controlan. Esto no es asesoramiento de inversión.
+
+## Qué vigilar a continuación
+
+- Si Binance o el ADGM publican detalles de la orden y de los activos que cubre.
+- Adónde van los 74.880 ETH y si algún exchange bloquea parte de ellos.
+- La reapertura de todos los retiros restantes que Binance prometió para el final de esta semana.
+
+!soft: ¿Quieres entender quién guarda tus monedas? Lee [Qué es un monedero cripto: custodia o autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

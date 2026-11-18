@@ -1,0 +1,65 @@
+title: Binance mengaku punya perintah pengadilan Abu Dhabi untuk memulihkan dana peretasan yang dibekukan saat ether curian kembali bergerak
+page_title: Binance dapat perintah pengadilan Abu Dhabi untuk memulihkan dana peretasan yang dibekukan
+description: Binance mengatakan telah mendapat perintah pengadilan di Abu Dhabi untuk membantu memulihkan kripto yang dibekukan setelah peretasan US$6,3 miliar bulan lalu, dengan sekitar US$2,85 miliar di antaranya dibekukan atau dicegat. Sementara itu, dompet terkait peretasan memindahkan ether senilai US$136,8 juta.
+og_description: Binance mengatakan perintah pengadilan Abu Dhabi akan membantunya memulihkan sekitar US$2,85 miliar yang dibekukan setelah peretasan rekor US$6,3 miliar, sehari setelah dompet terkait serangan memindahkan 74.880 ether. Apa yang diketahui, apa yang belum, dan artinya bagi pengguna.
+label: Keamanan
+summary: Binance mengatakan telah memperoleh perintah pengadilan dari Abu Dhabi Global Market untuk membantu memulihkan kripto yang dibekukan setelah peretasan rekor US$6,3 miliar. Sekitar US$2,85 miliar dibekukan atau dicegat, sementara pada Selasa dompet terkait peretasan memindahkan 74.880 ether.
+===
+
+Binance, bursa kripto terbesar di dunia, mengatakan telah mendapat senjata hukum baru dalam upaya merebut kembali uang yang dicuri dalam peretasan rekor bulan lalu. Perusahaan itu mengatakan pada Rabu, 18 November, bahwa mereka memperoleh perintah pengadilan dari Abu Dhabi Global Market (ADGM) sebagai bagian dari upaya memulihkan dana yang dibekukan setelah peretas mengambil kripto senilai sekitar US$6,3 miliar, [lapor Reuters](L1).
+
+Binance menyebut sekitar US$2,85 miliar token curian telah dibekukan atau dicegat oleh pihak ketiga setelah serangan 29 Oktober. Kabar ini muncul sehari setelah dompet terkait peretasan kembali memindahkan ether curian dalam jumlah besar.
+
+!takeaways
+- Binance mengatakan memperoleh perintah pengadilan ADGM untuk membantu memulihkan kripto yang dibekukan setelah peretasan 29 Oktober.
+- Perusahaan belum menyebut berapa banyak dana yang dicakup perintah itu atau aset apa saja yang terkena.
+- Sekitar US$2,85 miliar dari sekitar US$6,34 miliar aset terdampak telah dibekukan atau dicegat, menurut Binance.
+- Pada 17 November, dompet terkait peretasan memindahkan 74.880 ETH, sekitar US$136,8 juta, dan mulai menukar sebagian ke bitcoin.
+
+!figure:chart
+
+## Apa yang diumumkan Binance
+
+ADGM adalah pusat keuangan internasional di Abu Dhabi yang memiliki pengadilan sendiri, dan Reuters menyebutnya sebagai regulator keuangan utama Binance. "Kami akan terus menggunakan setiap sarana hukum yang tersedia untuk melacak, membekukan, dan memulihkan aset curian, membantu mitra kami mengembalikan dana bila memungkinkan, dan menjauhkan aset itu dari tangan para penyerang," kata Dugan Bliss, wakil penasihat umum Binance, dalam pernyataannya.
+
+Binance tidak memberi rincian soal isi perintah itu. Menurut [Bitcoin Magazine](L2), baik perusahaan maupun Reuters tidak menyebut aset apa yang dicakup atau bagaimana kaitannya dengan upaya pemulihan di Amerika Serikat.
+
+## Di mana dana yang dibekukan berada
+
+Sebagian besar dana yang dibekukan berupa stablecoin, yaitu dolar digital yang penerbitnya bisa memblokir dompet tertentu. Bitcoin Magazine melaporkan Tether membekukan lebih dari US$1,5 miliar USDT dalam 30 menit setelah serangan, dan Circle membekukan sekitar US$1,1 miliar USDC bersama penegak hukum. Circle mengatakan tidak memutuskan siapa pemilik aset yang dibekukan dan menyerahkan soal itu kepada penegak hukum dan pengadilan. Perintah pengadilan adalah salah satu cara untuk memutuskannya.
+
+Pemerintah AS juga terlibat. Pada 12 November, [Departemen Kehakiman AS menyatakan](L5) telah mendapat izin pengadilan untuk menyita atau membekukan lebih dari US$1,2 miliar kripto curian, bagian dari lebih dari US$2,7 miliar yang dibekukan lewat upaya pemerintah dan swasta. FBI menuding peretas Korea Utara yang disebutnya TraderTraitor. Korea Utara membantah terlibat.
+
+!figure:timeline
+
+## Ether curian kembali bergerak
+
+Tidak semua hasil curian bisa dibekukan. Bitcoin dan ether tidak punya perusahaan perantara yang bisa menghentikan sebuah dompet mengirimkannya. Pada Selasa, 17 November, satu dompet terkait peretasan mengirim 34.279,66 ETH, senilai sekitar US$63 juta, ke tiga alamat baru setelah diam sejak 30 Oktober, [lapor Decrypt](L3) mengutip layanan keamanan blockchain MistTrack. Dompet kedua memindahkan 40.600,66 ETH lagi.
+
+Secara total, dompet terkait peretasan memindahkan 74.880 ETH, senilai sekitar US$136,8 juta, dalam kira-kira tiga jam, menurut firma analitik Arkham. Sebagian ditukar ke bitcoin lewat THORChain, layanan yang memindahkan kripto antar-blockchain.
+
+!mid_cta
+
+Namun memindahkan koin tidak sama dengan mencairkannya. Firma analitik blockchain Elliptic mengatakan kemungkinan baru sejumlah sangat kecil yang berhasil diuangkan, dan sekitar US$2,55 miliar masih berada di alamat terkait pencurian per 16 November, menurut Decrypt. Untuk mencairkan dalam skala besar, peretas membutuhkan bursa atau pialang yang mau menerima dana itu, sehingga penyelidik punya kesempatan lain untuk memblokirnya.
+
+!figure:fact
+
+## Binance: bisnis tetap berjalan
+
+Binance mengatakan telah menutup aset yang dicuri dengan uangnya sendiri. Pada hari yang sama, kepala Asia-Pasifik Binance, SB Seker, mengatakan kepada [Reuters](L4) di sela Singapore FinTech Festival bahwa perusahaan berencana masuk ke lima pasar Asia pada 2027 dan tidak perlu menggalang dana baru. "Kami bisa menanggung dampaknya dan melewatinya tanpa perubahan apa pun pada cara kami beroperasi," katanya. Binance, yang membuka kembali penarikan secara bertahap bulan ini, menargetkan semua jaringan dan aset yang tersisa dibuka kembali paling lambat akhir pekan ini.
+
+## Artinya bagi Anda
+
+Jika Anda menyimpan koin di Binance, perusahaan mengatakan sudah menutup aset yang terdampak dengan dananya sendiri. Sebelum memindahkan dana, periksa halaman status penarikan Binance untuk koin dan jaringan Anda, karena beberapa mungkin masih dijeda. Lebih luas lagi, peretasan ini mengingatkan bahwa bursa mana pun bisa diserang. Banyak pemula membeli di bursa besar yang diregulasi seperti [Coinbase](REF), lalu memindahkan tabungan jangka panjang ke dompet yang mereka kendalikan sendiri. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Apakah Binance atau ADGM merilis rincian perintah dan aset yang dicakupnya.
+- Ke mana 74.880 ETH itu berakhir, dan apakah bursa memblokir sebagian di antaranya.
+- Janji Binance membuka kembali semua penarikan yang tersisa paling lambat akhir pekan ini.
+
+!soft: Ingin tahu siapa yang memegang koin Anda? Baca [Apa itu dompet kripto: kustodian vs. kustodi mandiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

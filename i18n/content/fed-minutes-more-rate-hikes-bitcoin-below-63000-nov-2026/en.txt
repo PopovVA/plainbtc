@@ -1,0 +1,65 @@
+title: Fed minutes point to more rate hikes as bitcoin slips below $63,000
+page_title: Fed minutes signal more rate hikes; bitcoin falls below $63,000
+description: Minutes of the Fed's October meeting show almost all officials expect more rate hikes, after Governor Waller called for a half-point move. Bitcoin fell below $63,000 and spot ETFs lost $239.9 million on Tuesday.
+og_description: The Fed's October minutes show almost all officials see further rate hikes as likely, and a couple floated a bigger move. Bitcoin slid below $63,000 on Wednesday. Here is what the minutes say and why rates matter for crypto.
+label: Market news
+summary: Minutes of the Fed's Oct. 27-28 meeting, released Wednesday, show almost all officials expect further rate hikes. Bitcoin fell below $63,000 earlier in the day after Governor Christopher Waller called for a half-point increase in December.
+===
+
+Bitcoin fell below $63,000 on Wednesday, Nov. 18, as investors braced for a tougher Federal Reserve. The minutes of the Fed's Oct. 27-28 meeting, released at 1 p.m. Central time, showed that almost all officials expect to keep raising interest rates. Earlier in the day, Fed Governor Christopher Waller said the central bank may need a half-point increase in December.
+
+On Kraken, bitcoin hit a low of about $62,213 around 10 a.m. Central time and traded near $62,800 shortly after the minutes came out, down about 3% from about $64,877 at midnight UTC. Ether fell about 3.5% to roughly $1,760 over the same period.
+
+!takeaways
+- The Fed's minutes say "almost all participants" judged further rate increases would likely be appropriate.
+- A couple of officials said a hike larger than 0.25 percentage point could be considered in December if inflation data were unfavorable.
+- Governor Waller told CNBC on Wednesday a half-point hike is probably needed at the Dec. 8-9 meeting.
+- Bitcoin traded below $63,000, and U.S. spot bitcoin ETFs lost a net $239.9 million on Tuesday, per Farside Investors.
+
+!figure:chart
+
+## What the Fed minutes say
+
+At the October meeting, the Fed kept its benchmark federal funds rate in a range of 3.75% to 4% by a 10-2 vote. Governor Lisa Cook and Cleveland Fed President Beth Hammack voted against, preferring a quarter-point increase. The Fed had already raised rates in September.
+
+The [minutes](L1), a detailed summary of the discussion, show the hold was not a sign of comfort. "Some participants" wanted a hike at that meeting, saying inflation "had remained too high" and that they "saw few signs of it abating." Looking ahead, almost all officials judged that further action to raise rates would likely be appropriate to bring inflation back to the Fed's 2% goal. A couple said an increase of more than 25 basis points, or 0.25 percentage point, "could warrant consideration" at the next meeting if inflation data were unfavorable.
+
+Officials also spent time on financial risks. Almost all of them discussed a scenario in which returns on artificial intelligence investment disappoint investors, and most noted that AI-related debt had grown quickly through "complex and opaque financing structures."
+
+!figure:fact
+
+## Waller wants a bigger move
+
+The minutes cover a meeting held three weeks ago, before the latest inflation and jobs reports. On Wednesday morning, Waller went further. He told [CNBC](L2) that a half-point increase is probably necessary in December. "You might need to, like, shock people," he said. "I'm very, very concerned about inflation. It's kind of headed in the wrong direction, and it's spreading out."
+
+Traders have priced in a 95% chance of at least a quarter-point hike at the Dec. 8-9 meeting, according to CME Group's FedWatch tool as cited by CNBC.
+
+!mid_cta
+
+## Why interest rates matter for bitcoin
+
+Higher interest rates make safe investments, like savings accounts and Treasury bills, pay more. That can pull money away from riskier assets such as stocks and crypto. Rate hikes also make borrowing more expensive, which can cool the kind of speculation that pushes crypto prices up.
+
+That helps explain Wednesday's moves. Bitcoin briefly rose above $65,000 on Kraken after Nvidia's strong results late Tuesday, but it failed to keep pace with rising stock futures, [CoinDesk reported](L4). By late morning it was off more than 2.5% at about $63,000, according to CoinDesk's [live coverage](L3), which also noted gold had dropped to its lowest price in 14 months. CoinDesk puts bitcoin about 26% below its October high of $87,200.
+
+!figure:flows
+
+## Big funds are still pulling money out
+
+Exchange-traded funds that hold bitcoin are a simple way for many U.S. investors to get exposure. They have been shrinking. According to [Farside Investors](L5), U.S. spot bitcoin ETFs lost a net $239.9 million on Tuesday, Nov. 17, including $209.5 million from BlackRock's iShares Bitcoin Trust (IBIT). That came a day after a small $7.9 million inflow on Monday, the only net inflow since Nov. 4 in Farside's data. Figures for Wednesday were not yet available.
+
+## What it means for beginners
+
+A tougher Fed does not mean bitcoin must keep falling, and no one can time the bottom. Prices can swing hard around Fed decisions and data releases. If you are thinking about buying, many beginners spread purchases out over time instead of putting everything in at once, and some use a large regulated exchange such as [Coinbase](REF) to start small. Only invest money you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- U.S. spot bitcoin ETF flow data for Wednesday, Nov. 18.
+- Upcoming inflation data and Fed speeches before the Dec. 8-9 meeting.
+- Whether bitcoin holds above its Nov. 15 low near $62,000.
+
+!soft: New to buying bitcoin step by step? Read [How much bitcoin should a beginner buy?](/articles/how-much-bitcoin-should-a-beginner-buy-dca)
+
+!end_cta
+
+!disclosure

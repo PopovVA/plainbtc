@@ -1,0 +1,21 @@
+{
+ "slug": "fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026",
+ "date": "2026-11-18",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-hot-cpi-etf-outflows-nov-2026",
+  "bitcoin-four-month-low-62000-liquidations-nov-2026",
+  "crypto-fear-greed-index-10-extreme-fear-nov-2026",
+  "how-much-bitcoin-should-a-beginner-buy-dca"
+ ],
+ "sources": [
+  {"url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm", "title": "Federal Reserve: Minutes of the Federal Open Market Committee, October 27-28, 2026", "date": "Nov 18, 2026"},
+  {"url": "https://www.cnbc.com/2026/11/18/treasury-yields-bonds-fed.html", "title": "CNBC: Waller warns that Fed may need to 'shock people' with half-point rate hike", "date": "Nov 18, 2026"},
+  {"url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up", "title": "CoinDesk: Live updates: Bitcoin falls below $63,000", "date": "Nov 18, 2026"},
+  {"url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher", "title": "CoinDesk: Bitcoin drops as basis trade dries up and Fed minutes loom", "date": "Nov 18, 2026"},
+  {"url": "https://farside.co.uk/btc/", "title": "Farside Investors: Bitcoin ETF flow data", "date": "Nov 18, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: public BTC/USD price data (OHLC)", "date": "Nov 18, 2026"}
+ ],
+ "disclosure_variant": "std"
+}
