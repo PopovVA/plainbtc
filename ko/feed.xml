@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ko/</link>
     <description>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 18 Nov 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ko/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>렛저, 베를린서 조작된 하드웨어 지갑 확인…두바이 2대도 조사</title>
+      <link>https://plainbtc.com/ko/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:40:00 GMT</pubDate>
+      <category>보안</category>
+      <description>렛저는 복구 문구를 가로채도록 조작된 하드웨어 지갑을 베를린에서 확인했고, 두바이에서 산 의심 기기 2대를 조사 중이라고 밝혔다. 회사는 10월에 공개한 사건과 같은 사건이라고 설명했다.</description>
+    </item>
+    <item>
+      <title>상원의원 6명, GENIUS법 시행 전 주 라이선스 스테이블코인 발행사 보호를 재무부에 요청</title>
+      <link>https://plainbtc.com/ko/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:35:00 GMT</pubDate>
+      <category>규제</category>
+      <description>양당 상원의원 6명이 스콧 베선트 재무장관에게, GENIUS법 규칙안에서 연방 감독을 받는 발행사가 받는 임시 세이프하버를 주 라이선스 스테이블코인 발행사에도 달라고 요청했다. 이 법은 2027년 1월 18일 시행된다.</description>
+    </item>
     <item>
       <title>연준 의사록, 추가 금리 인상 시사… 비트코인 6만3000달러 아래로</title>
       <link>https://plainbtc.com/ko/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</link>

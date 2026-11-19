@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 18 Nov 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ledger подтвердила вскрытые аппаратные кошельки в Берлине и проверяет ещё два в Дубае</title>
+      <link>https://plainbtc.com/ru/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:40:00 GMT</pubDate>
+      <category>Безопасность</category>
+      <description>Ledger подтвердила в Берлине аппаратные кошельки, переделанные для перехвата сид-фразы, и проверяет два подозрительных устройства, купленных в Дубае. Компания называет это тем же инцидентом, о котором сообщила в октябре.</description>
+    </item>
+    <item>
+      <title>Шесть сенаторов просят Минфин США защитить эмитентов стейблкоинов с лицензией штатов до вступления в силу закона GENIUS</title>
+      <link>https://plainbtc.com/ru/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:35:00 GMT</pubDate>
+      <category>Регулирование</category>
+      <description>Шесть сенаторов от обеих партий попросили министра финансов Скотта Бессента дать эмитентам стейблкоинов с лицензией штатов ту же временную «безопасную гавань», которую проект правил по закону GENIUS даёт эмитентам под федеральным надзором, до вступления закона в силу 18 января 2027 года.</description>
+    </item>
     <item>
       <title>Протокол ФРС указывает на новые повышения ставки, биткоин опустился ниже $63 000</title>
       <link>https://plainbtc.com/ru/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</link>

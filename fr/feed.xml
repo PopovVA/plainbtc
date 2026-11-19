@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/fr/</link>
     <description>L’actualité du bitcoin et des cryptos en langage clair, pour les débutants</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 18 Nov 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/fr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ledger confirme des portefeuilles matériels piégés à Berlin et en examine deux autres à Dubaï</title>
+      <link>https://plainbtc.com/fr/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:40:00 GMT</pubDate>
+      <category>Sécurité</category>
+      <description>Ledger dit avoir confirmé à Berlin des portefeuilles matériels piégés pour capturer la phrase de récupération et enquête sur deux appareils suspects achetés à Dubaï. L'entreprise parle du même incident que celui révélé en octobre.</description>
+    </item>
+    <item>
+      <title>Six sénateurs demandent au Trésor de protéger les émetteurs de stablecoins agréés par les États avant l'entrée en vigueur du GENIUS Act</title>
+      <link>https://plainbtc.com/fr/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:35:00 GMT</pubDate>
+      <category>Réglementation</category>
+      <description>Six sénateurs des deux partis demandent au secrétaire au Trésor Scott Bessent d'accorder aux émetteurs de stablecoins agréés par un État la même protection temporaire que celle prévue pour les émetteurs sous supervision fédérale dans un projet de règle du GENIUS Act, avant son entrée en vigueur le 18 janvier 2027.</description>
+    </item>
     <item>
       <title>Le compte rendu de la Fed annonce d'autres hausses de taux, le bitcoin passe sous 63 000 dollars</title>
       <link>https://plainbtc.com/fr/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</link>

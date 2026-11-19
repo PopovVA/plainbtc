@@ -1,0 +1,55 @@
+title: Six senators ask Treasury to protect state-licensed stablecoin issuers before GENIUS Act rules start
+page_title: Senators push Treasury on state stablecoin safe harbor
+description: A bipartisan group of six senators led by Cynthia Lummis and Kirsten Gillibrand asked Treasury to give state-regulated stablecoin issuers the same safe harbor as federal ones when the GENIUS Act takes effect on Jan. 18, 2027.
+og_description: Lummis, Gillibrand and four colleagues say Treasury's draft GENIUS Act rule protects federally supervised stablecoin issuers during the switch-over but leaves state-licensed ones exposed. Here is what they asked for and why it matters.
+label: Regulation
+summary: Six senators from both parties asked Treasury Secretary Scott Bessent to give state-licensed stablecoin issuers the same temporary safe harbor that federally supervised issuers get under a draft GENIUS Act rule, before the law takes effect on Jan. 18, 2027.
+===
+
+A bipartisan group of six U.S. senators wants the Treasury Department to treat stablecoin companies licensed by states the same way it treats those supervised by federal regulators. In a letter to Treasury Secretary Scott Bessent released on Wednesday, Nov. 18, Sens. Cynthia Lummis (R-Wyo.) and Kirsten Gillibrand (D-N.Y.), joined by Angela Alsobrooks (D-Md.), Kevin Cramer (R-N.D.), Pete Ricketts (R-Neb.) and Mark Warner (D-Va.), asked for a "safe harbor" for state issuers, [Lummis's office said](L1).
+
+Stablecoins are crypto tokens designed to stay worth $1, such as USDC. The GENIUS Act, signed into law on July 18, 2025, created the first federal rulebook for them. Its main rules take effect on Jan. 18, 2027, according to the [Office of the Comptroller of the Currency](L3) (OCC), the federal bank regulator.
+
+!takeaways
+- Six senators, three Republicans and three Democrats, asked Treasury to protect state-licensed stablecoin issuers when the GENIUS Act takes effect.
+- They say Treasury's draft rule gives a safe harbor to issuers supervised by the OCC but not to state ones.
+- The law lets issuers with $10 billion or less in stablecoins choose a state license if the state's rules are "substantially similar" to federal ones.
+- The GENIUS Act takes effect on Jan. 18, 2027; Treasury has not yet finalized its rule.
+
+!figure:compare
+
+## What the senators asked for
+
+Under the GENIUS Act, only approved issuers may issue payment stablecoins in the United States once the law takes effect. Treasury's proposed rule would let issuers with pending applications to a federal regulator keep operating during the transition if that regulator grants a waiver. "Treasury's current proposal would offer stablecoin issuers with pending applications to federal regulators a safe harbor as the GENIUS Act requirements come into effect, if such a regulator grants a waiver, without a corresponding protection for state issuers," the senators wrote, [The Block reported](L2).
+
+They want the same protection for issuers in states that have certified their rules as "substantially similar" to federal law, while a new federal panel, the Stablecoin Certification Review Committee, reviews those certifications in 2027. Without it, state-licensed issuers could face disruption on day one while they wait for a federal sign-off.
+
+"For Treasury to finalize this proposal in a way that reflects Congressional intent, it must allow issuers to choose from state or federal charters, as contemplated by the GENIUS Act, without the risk of business disruption or uncertainty," the senators wrote.
+
+!figure:timeline
+
+## Why states matter here
+
+The GENIUS Act gives issuers a choice. Companies with $10 billion or less in outstanding stablecoins may operate under a state regime instead of a federal one, as long as that regime is "substantially similar" to the federal framework. Lummis's office said Congress expected states such as Wyoming, New York and Nebraska to qualify from the start, and gave them a faster certification process. Wyoming created its own charter for digital asset banks in 2019.
+
+!mid_cta
+
+This is not the first such push. In a [June 16 letter](L4), Lummis, Gillibrand and several other senators asked Treasury for clear written guidance on how states can get certified, warning that a hard cutoff could shut states out.
+
+Federal agencies are still writing the rules. The OCC issued its final GENIUS Act rule on Oct. 21, and it also takes effect on Jan. 18, 2027. Treasury has not said when it will finalize its own rule or whether it will add a state safe harbor.
+
+## What it means for you
+
+For most people holding stablecoins, nothing changes today. The debate is about which companies can keep issuing new coins when the law starts, and whether smaller, state-licensed issuers get the same transition time as federally supervised ones. Over time, the law will also limit U.S. crypto platforms, from large exchanges such as [Coinbase](REF) to smaller apps, to stablecoins from approved issuers. If you hold stablecoins, it is worth knowing who issues yours and who regulates that company. This is not financial advice.
+
+## What to watch next
+
+- Whether Treasury adds a state safe harbor when it finalizes its GENIUS Act rule.
+- Which states submit certifications that their stablecoin rules are "substantially similar."
+- How issuers prepare for the Jan. 18, 2027 start date.
+
+!soft: New to stablecoins? See how big banks are testing them in [Banks commit $270 million to a joint stablecoin](/articles/banks-270-million-stablecoin-project-faro-nov-2026).
+
+!end_cta
+
+!disclosure

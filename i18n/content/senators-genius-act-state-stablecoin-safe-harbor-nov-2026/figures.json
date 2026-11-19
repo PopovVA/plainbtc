@@ -1,0 +1,64 @@
+[
+  {
+    "id": "compare",
+    "file": "compare-genius-federal-vs-state.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Comparison card: issuers with pending federal applications get a safe harbor in Treasury's draft GENIUS Act rule if their regulator grants a waiver; state-licensed issuers with $10 billion or less do not, and six senators ask Treasury to add one; both face the Jan. 18, 2027 start date, with state certifications reviewed in 2027",
+      "es": "Tarjeta comparativa: los emisores con solicitudes federales pendientes reciben un puerto seguro en el borrador de Tesorería para la Ley GENIUS si su regulador concede una exención; los emisores con licencia estatal y 10.000 millones de dólares o menos no, y seis senadores piden a Tesorería que lo añada; ambos afrontan el inicio del 18 de enero de 2027, con certificaciones estatales revisadas en 2027",
+      "pt": "Cartão comparativo: emissores com pedidos federais pendentes recebem um porto seguro na minuta do Tesouro para a Lei GENIUS se o regulador conceder uma dispensa; emissores com licença estadual e até US$ 10 bilhões não, e seis senadores pedem que o Tesouro inclua um; ambos enfrentam o início em 18 de janeiro de 2027, com certificações estaduais analisadas em 2027",
+      "fr": "Fiche comparative : les émetteurs ayant une demande fédérale en cours bénéficient d'une protection transitoire dans le projet de règle du Trésor sur le GENIUS Act si leur régulateur accorde une dérogation ; les émetteurs agréés par un État jusqu'à 10 milliards de dollars n'en ont pas, et six sénateurs demandent au Trésor d'en ajouter une ; tous font face au 18 janvier 2027, les certifications des États étant examinées en 2027",
+      "de": "Vergleichskarte: Emittenten mit laufendem Bundesantrag erhalten im Entwurf des Finanzministeriums zum GENIUS Act einen Schutz, wenn ihre Aufsicht eine Ausnahme gewährt; bundesstaatlich lizenzierte Emittenten mit höchstens 10 Mrd. $ nicht, und sechs Senatoren fordern einen; für beide gilt der Start am 18. Januar 2027, die Zertifizierungen der Bundesstaaten werden 2027 geprüft",
+      "ru": "Сравнение: эмитенты с поданными федеральными заявками получают «безопасную гавань» в проекте правил Минфина по закону GENIUS, если регулятор даст освобождение; эмитенты с лицензией штата и объёмом до $10 млрд — нет, и шесть сенаторов просят Минфин это исправить; для всех старт 18 января 2027 года, сертификаты штатов будут проверять в 2027 году",
+      "tr": "Karşılaştırma kartı: federal başvurusu bekleyen ihraççılar, düzenleyicileri muafiyet verirse Hazine'nin GENIUS Yasası taslağında güvenli liman alıyor; 10 milyar $ veya altındaki eyalet lisanslı ihraççılar almıyor ve altı senatör Hazine'den bunu eklemesini istiyor; her ikisi için başlangıç 18 Ocak 2027, eyalet sertifikaları 2027'de incelenecek",
+      "id": "Kartu perbandingan: penerbit dengan permohonan federal yang tertunda mendapat safe harbor dalam rancangan aturan Departemen Keuangan untuk UU GENIUS jika regulatornya memberi pengecualian; penerbit berizin negara bagian dengan US$10 miliar atau kurang tidak, dan enam senator meminta Departemen Keuangan menambahkannya; keduanya menghadapi tanggal mulai 18 Januari 2027, dengan sertifikasi negara bagian ditinjau pada 2027",
+      "ja": "比較カード：連邦の申請中の発行体は、規制当局が適用除外を認めれば財務省のGENIUS法規則案でセーフハーバーを得る。100億ドル以下の州ライセンスの発行体は対象外で、上院議員6人が追加を求める。どちらも2027年1月18日に施行を迎え、州の認証は2027年に審査される",
+      "ko": "비교 카드: 연방 신청이 계류 중인 발행사는 규제기관이 면제를 주면 재무부 GENIUS법 규칙안에서 세이프하버를 받음; 100억 달러 이하 주 라이선스 발행사는 받지 못하며 상원의원 6명이 추가를 요청; 둘 다 2027년 1월 18일 시행을 맞고 주 인증은 2027년에 심사됨"
+    },
+    "caption": {
+      "en": "Source: Sen. Lummis press release, The Block, OCC",
+      "es": "Fuente: Sen. Lummis press release, The Block, OCC",
+      "pt": "Fonte: Sen. Lummis press release, The Block, OCC",
+      "fr": "Source : Sen. Lummis press release, The Block, OCC",
+      "de": "Quelle: Sen. Lummis press release, The Block, OCC",
+      "ru": "Источник: Sen. Lummis press release, The Block, OCC",
+      "tr": "Kaynak: Sen. Lummis press release, The Block, OCC",
+      "id": "Sumber: Sen. Lummis press release, The Block, OCC",
+      "ja": "出典: Sen. Lummis press release, The Block, OCC",
+      "ko": "출처: Sen. Lummis press release, The Block, OCC"
+    }
+  },
+  {
+    "id": "timeline",
+    "file": "timeline-genius-act.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline: July 18, 2025, GENIUS Act signed into law; June 16, 2026, senators ask Treasury for clear rules on state certification; Oct. 21, 2026, the OCC issues its final GENIUS Act rule; Nov. 18, 2026, six senators ask Treasury for a state safe harbor; Jan. 18, 2027, the GENIUS Act takes effect",
+      "es": "Cronología: 18 de julio de 2025, se firma la Ley GENIUS; 16 de junio de 2026, varios senadores piden a Tesorería reglas claras para la certificación estatal; 21 de octubre de 2026, la OCC publica su norma final; 18 de noviembre de 2026, seis senadores piden un puerto seguro para los estados; 18 de enero de 2027, entra en vigor la Ley GENIUS",
+      "pt": "Linha do tempo: 18 de julho de 2025, a Lei GENIUS é sancionada; 16 de junho de 2026, senadores pedem ao Tesouro regras claras para a certificação estadual; 21 de outubro de 2026, o OCC publica sua regra final; 18 de novembro de 2026, seis senadores pedem um porto seguro para os estados; 18 de janeiro de 2027, a Lei GENIUS entra em vigor",
+      "fr": "Chronologie : 18 juillet 2025, promulgation du GENIUS Act ; 16 juin 2026, des sénateurs demandent au Trésor des règles claires pour la certification des États ; 21 octobre 2026, l'OCC publie sa règle finale ; 18 novembre 2026, six sénateurs demandent une protection pour les émetteurs des États ; 18 janvier 2027, entrée en vigueur du GENIUS Act",
+      "de": "Zeitleiste: 18. Juli 2025, GENIUS Act unterzeichnet; 16. Juni 2026, Senatoren fordern vom Finanzministerium klare Regeln zur Zertifizierung der Bundesstaaten; 21. Oktober 2026, die OCC erlässt ihre endgültige Regel; 18. November 2026, sechs Senatoren fordern einen Schutz für Emittenten der Bundesstaaten; 18. Januar 2027, der GENIUS Act tritt in Kraft",
+      "ru": "Хронология: 18 июля 2025 года подписан закон GENIUS; 16 июня 2026 года сенаторы просят Минфин о ясных правилах сертификации штатов; 21 октября 2026 года OCC выпускает окончательные правила; 18 ноября 2026 года шесть сенаторов просят «безопасную гавань» для эмитентов штатов; 18 января 2027 года закон GENIUS вступает в силу",
+      "tr": "Zaman çizelgesi: 18 Temmuz 2025, GENIUS Yasası imzalandı; 16 Haziran 2026, senatörler Hazine'den eyalet sertifikası için net kurallar istedi; 21 Ekim 2026, OCC nihai kuralını yayımladı; 18 Kasım 2026, altı senatör eyaletler için güvenli liman istedi; 18 Ocak 2027, GENIUS Yasası yürürlüğe giriyor",
+      "id": "Lini masa: 18 Juli 2025, UU GENIUS ditandatangani; 16 Juni 2026, para senator meminta Departemen Keuangan membuat aturan jelas soal sertifikasi negara bagian; 21 Oktober 2026, OCC menerbitkan aturan finalnya; 18 November 2026, enam senator meminta safe harbor bagi penerbit negara bagian; 18 Januari 2027, UU GENIUS berlaku",
+      "ja": "時系列：2025年7月18日、GENIUS法が成立。2026年6月16日、上院議員が財務省に州の認証について明確なルールを要請。2026年10月21日、OCCが最終規則を公表。2026年11月18日、上院議員6人が州の発行体へのセーフハーバーを要請。2027年1月18日、GENIUS法が施行",
+      "ko": "타임라인: 2025년 7월 18일 GENIUS법 서명; 2026년 6월 16일 상원의원들이 재무부에 주 인증 규칙 명확화 요청; 2026년 10월 21일 OCC 최종 규칙 발표; 2026년 11월 18일 상원의원 6명이 주 발행사 세이프하버 요청; 2027년 1월 18일 GENIUS법 시행"
+    },
+    "caption": {
+      "en": "Source: OCC, Sen. Lummis press release, The Block",
+      "es": "Fuente: OCC, Sen. Lummis press release, The Block",
+      "pt": "Fonte: OCC, Sen. Lummis press release, The Block",
+      "fr": "Source : OCC, Sen. Lummis press release, The Block",
+      "de": "Quelle: OCC, Sen. Lummis press release, The Block",
+      "ru": "Источник: OCC, Sen. Lummis press release, The Block",
+      "tr": "Kaynak: OCC, Sen. Lummis press release, The Block",
+      "id": "Sumber: OCC, Sen. Lummis press release, The Block",
+      "ja": "出典: OCC, Sen. Lummis press release, The Block",
+      "ko": "출처: OCC, Sen. Lummis press release, The Block"
+    }
+  }
+]

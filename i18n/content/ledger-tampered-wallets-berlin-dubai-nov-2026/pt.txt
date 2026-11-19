@@ -1,0 +1,61 @@
+title: Ledger confirma carteiras físicas adulteradas em Berlim e investiga outras duas em Dubai
+page_title: Ledger confirma carteiras adulteradas em Berlim e investiga Dubai
+description: A Ledger diz que carteiras físicas adulteradas para roubar a frase de recuperação apareceram em Berlim e que investiga duas unidades suspeitas compradas em Dubai. O que aconteceu, quem corre risco e o que fazer se você comprou uma Ledger em loja.
+og_description: A Ledger diz que o ataque com implantes que ela encontrou primeiro no Sudeste Asiático chegou a Berlim, com duas unidades suspeitas em Dubai. Segundo a empresa, o chip não tem falhas, mas quem comprou de revendedores deve checar o aparelho.
+label: Segurança
+summary: A Ledger diz ter confirmado em Berlim carteiras físicas adulteradas para capturar a frase de recuperação e investiga duas unidades suspeitas compradas em Dubai. A empresa chama o caso de o mesmo incidente revelado em outubro.
+===
+
+A Ledger, uma das fabricantes mais conhecidas de carteiras físicas de cripto, diz que os aparelhos adulterados já não se limitam ao Sudeste Asiático. Em uma atualização no seu site de suporte na quarta-feira, 18 de novembro, a empresa francesa disse ter confirmado algumas unidades adulteradas em Berlim e que investigava relatos de outras duas em Dubai, [informou o Decrypt](L1). "Nossas descobertas desde então mostram aparelhos adulterados fora do Sudeste Asiático. É o mesmo incidente", disse a Ledger.
+
+Uma carteira física é um pequeno aparelho que guarda offline as chaves das suas criptomoedas. A grande promessa é que sua frase de recuperação de 24 palavras, a chave mestra que pode restaurar e esvaziar uma carteira, nunca sai do aparelho. As unidades adulteradas quebram essa promessa: a Ledger diz que todos os casos confirmados têm a mesma modificação física, "feita para capturar a frase de recuperação durante a configuração".
+
+!takeaways
+- A Ledger diz ter confirmado alguns aparelhos adulterados em Berlim, todos comprados lá, e investiga duas unidades suspeitas de Dubai.
+- Também encontrou uma Ledger Nano Gen5 afetada entre os revendedores do Sudeste Asiático suspensos em outubro.
+- A Ledger afirma que não há falha no seu chip seguro nem no sistema operacional e nenhum caso confirmado com aparelho comprado em ledger.com.
+- A empresa espera que mais aparelhos adulterados apareçam e oferece inspeções gratuitas, incluindo raio X, por tempo limitado.
+
+!figure:timeline
+
+## Como o ataque funciona
+
+O problema começou em outubro. Em um [post no blog em 15 de outubro](L3), a Ledger disse que um "grupo criminoso altamente organizado" passou meses comprando aparelhos Ledger genuínos, abrindo-os, instalando componentes escondidos que capturam a frase de recuperação durante a configuração e colocando-os de volta à venda por revendedores do Sudeste Asiático. Com a frase em mãos, os ladrões podiam esvaziar a carteira de qualquer lugar. Investigadores que analisam a blockchain rastrearam um suposto desvio de cerca de US$ 87 milhões de centenas de carteiras em Ethereum, Tron e Bitcoin, segundo o Decrypt.
+
+A Ledger reforça que seu chip, seu software e seus servidores não foram hackeados. O ataque aconteceu no canal de distribuição, depois que os aparelhos saíram do controle da empresa. Na época, a Ledger pediu aos revendedores autorizados do Sudeste Asiático e de Hong Kong que suspendessem as vendas.
+
+## Berlim e Dubai
+
+Na Alemanha, a Ledger disse que as unidades adulteradas confirmadas estavam todas concentradas em Berlim e pediu a quem comprou uma Ledger de terceiros lá desde janeiro de 2026 que procure o suporte, segundo o [CyberSIXT](L2), que resumiu a atualização. A empresa não disse quantos aparelhos foram afetados, não citou as lojas e não informou onde os aparelhos foram modificados.
+
+Em Dubai, a Ledger disse que trabalha com parceiros de distribuição para entender como duas unidades suspeitas entraram em circulação. Segundo vários relatos, ambas foram compradas na Virgin Megastore. Um dono disse que cerca de 1.300 SOL foram drenados de uma Ledger Flex comprada em 13 de setembro na loja da rede no Dubai Mall; um rastreador de código aberto mantido por Mark Karpelès, ex-CEO da Mt. Gox, confirmou um implante escondido a partir de fotos do aparelho aberto, [informou o Unchained](L4). Um segundo dono diz que 507.000 USDT foram levados de uma Ledger Stax comprada em 11 de outubro. Esse aparelho ainda não foi aberto, então o implante é apenas suspeito; o dono diz que ele está lacrado para um laboratório indicado pela Justiça, segundo o [relatório do rastreador](L5).
+
+!figure:fact
+
+O diretório de revendedores da Ledger para os Emirados Árabes Unidos agora mostra as vendas de Ledger na Virgin Megastores como temporariamente suspensas, [informou o The Defiant](L6).
+
+!mid_cta
+
+## A questão das perdas
+
+A atualização da Ledger não dá um valor total de perdas nem fala de compensação. Em resposta ao post da Ledger, o investigador de blockchain ZachXBT perguntou quem cobriria as perdas das vítimas que "confiaram nos seus revendedores oficiais" e estimou essas perdas em mais de US$ 105 milhões. A Ledger não confirmou esse número.
+
+O caso se soma a uma fase difícil para as fabricantes de carteiras físicas. A rival Trezor disse nesta semana que hackers que invadiram uma parceira de envio provavelmente levaram dados ligados a cerca de 27.000 pedidos.
+
+## O que isso significa para você
+
+Se você comprou uma Ledger direto em ledger.com, a Ledger diz que não há caso confirmado com esses aparelhos. Se comprou em uma loja ou revendedor no Sudeste Asiático, em Berlim desde janeiro de 2026 ou em Dubai, e está preocupado, a recomendação da Ledger é parar de usar o aparelho, falar com o suporte da Ledger e não abri-lo por conta própria. Transfira seus fundos para uma carteira nova cuja frase de recuperação tenha sido criada em um aparelho comprado direto do fabricante, e não reutilize a frase nem a senha extra antigas, porque um aparelho adulterado pode capturar as duas. A Ledger também sugere registrar um boletim de ocorrência na polícia local.
+
+A regra mais simples para qualquer carteira física: compre no site oficial do fabricante e nunca digite sua frase de recuperação em nenhum outro lugar. A Ledger diz que nunca vai pedir suas 24 palavras, então qualquer mensagem que peça é golpe. Se você ainda está aprendendo, alguns iniciantes mantêm pequenas quantias em uma grande corretora regulada como a [Coinbase](REF) antes de passar para a autocustódia. Essa escolha tem seus próprios riscos, e isto não é recomendação financeira.
+
+## O que acompanhar
+
+- Se a Ledger vai divulgar quantos aparelhos foram adulterados e como chegaram às lojas de Berlim e Dubai.
+- Os resultados do laboratório sobre a Ledger Stax lacrada em Dubai.
+- Qualquer posição da Ledger sobre compensar as vítimas.
+
+!soft: Novo em carteiras? Leia [O que é uma carteira cripto: custodial ou autocustódia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

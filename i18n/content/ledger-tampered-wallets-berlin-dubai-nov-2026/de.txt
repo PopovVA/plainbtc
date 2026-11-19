@@ -1,0 +1,61 @@
+title: Ledger bestätigt manipulierte Hardware-Wallets in Berlin und prüft zwei weitere in Dubai
+page_title: Ledger bestätigt manipulierte Wallets in Berlin, prüft Dubai
+description: Ledger sagt, dass in Berlin manipulierte Hardware-Wallets aufgetaucht sind, die die Wiederherstellungsphrase stehlen sollen, und prüft zwei verdächtige Geräte aus Dubai. Was passiert ist, wer betroffen sein könnte und was Sie tun sollten, wenn Sie einen Ledger im Laden gekauft haben.
+og_description: Ledger sagt, der zuerst in Südostasien entdeckte Implantat-Angriff hat Berlin erreicht, dazu kommen zwei verdächtige Geräte in Dubai. Der Chip habe keine Schwachstelle, doch wer bei Händlern gekauft hat, sollte sein Gerät prüfen.
+label: Sicherheit
+summary: Ledger hat nach eigenen Angaben in Berlin manipulierte Hardware-Wallets bestätigt, die die Wiederherstellungsphrase abgreifen sollen, und prüft zwei verdächtige Geräte aus Dubai. Das Unternehmen spricht vom selben Vorfall, den es im Oktober öffentlich gemacht hat.
+===
+
+Ledger, einer der bekanntesten Hersteller von Krypto-Hardware-Wallets, sagt, dass manipulierte Geräte nicht mehr nur in Südostasien auftauchen. In einem Update auf seiner Support-Seite am Mittwoch, dem 18. November, erklärte das französische Unternehmen, es habe einige manipulierte Geräte in Berlin bestätigt und gehe Berichten über zwei weitere in Dubai nach, [berichtete Decrypt](L1). „Unsere Erkenntnisse seitdem zeigen manipulierte Geräte außerhalb Südostasiens. Es ist derselbe Vorfall“, so Ledger.
+
+Eine Hardware-Wallet ist ein kleines Gerät, das die Schlüssel zu Ihren Kryptowährungen offline aufbewahrt. Ihr wichtigstes Versprechen: Ihre Wiederherstellungsphrase aus 24 Wörtern, der Generalschlüssel, mit dem sich eine Wallet wiederherstellen und leeren lässt, verlässt nie das Gerät. Die manipulierten Geräte brechen dieses Versprechen: Laut Ledger weisen alle bestätigten Fälle dieselbe physische Veränderung auf, „gebaut, um die Wiederherstellungsphrase bei der Einrichtung abzugreifen“.
+
+!takeaways
+- Ledger hat nach eigenen Angaben einige manipulierte Geräte in Berlin bestätigt, alle vor Ort gekauft, und prüft zwei verdächtige Geräte aus Dubai.
+- Außerdem fand das Unternehmen einen betroffenen Ledger Nano Gen5 bei den südostasiatischen Händlern, deren Verkäufe es im Oktober gestoppt hatte.
+- Laut Ledger gibt es keine Schwachstelle in seinem Sicherheitschip oder Betriebssystem und keinen bestätigten Fall mit einem Gerät von ledger.com.
+- Das Unternehmen rechnet mit weiteren manipulierten Geräten und bietet für begrenzte Zeit kostenlose Prüfungen an, auch per Röntgen.
+
+!figure:timeline
+
+## So funktioniert der Angriff
+
+Das Problem begann im Oktober. In einem [Blogbeitrag vom 15. Oktober](L3) schrieb Ledger, eine „hochorganisierte kriminelle Gruppe“ habe monatelang echte Ledger-Geräte gekauft, sie geöffnet, versteckte Bauteile eingesetzt, die bei der Einrichtung die Wiederherstellungsphrase abgreifen, und sie über Händler in Südostasien wieder in den Verkauf gebracht. Mit der Phrase konnten die Diebe die Wallet von überall aus leeren. On-Chain-Ermittler verfolgten laut Decrypt einen mutmaßlichen Abfluss von rund 87 Mio. $ aus Hunderten Wallets auf Ethereum, Tron und Bitcoin.
+
+Ledger betont, dass sein Chip, seine Software und seine Server nicht gehackt wurden. Der Angriff fand im Vertrieb statt, nachdem die Geräte das Unternehmen verlassen hatten. Damals bat Ledger seine autorisierten Händler in Südostasien und Hongkong, den Verkauf auszusetzen.
+
+## Berlin und Dubai
+
+In Deutschland waren die bestätigten manipulierten Geräte laut Ledger alle auf Berlin beschränkt. Wer dort seit Januar 2026 einen Ledger bei einem Drittanbieter gekauft hat, soll sich an den Support wenden, berichtete [CyberSIXT](L2), das das Update zusammenfasste. Das Unternehmen nannte weder die Zahl der betroffenen Geräte noch die Läden und sagte nicht, wo die Geräte verändert wurden.
+
+In Dubai arbeitet Ledger nach eigenen Angaben mit Vertriebspartnern daran, herauszufinden, wie zwei verdächtige Geräte in Umlauf kamen. Beide wurden Berichten zufolge bei Virgin Megastore gekauft. Ein Besitzer sagte, rund 1.300 SOL seien von einem Ledger Flex abgezogen worden, den er am 13. September in der Filiale der Kette in der Dubai Mall gekauft hatte; ein Open-Source-Tracker des früheren Mt.-Gox-Chefs Mark Karpelès bestätigte anhand von Fotos des geöffneten Geräts ein verstecktes Implantat, [berichtete Unchained](L4). Ein zweiter Besitzer sagt, ihm seien 507.000 USDT von einem am 11. Oktober gekauften Ledger Stax gestohlen worden. Dieses Gerät wurde noch nicht geöffnet, das Implantat ist also nur ein Verdacht; der Besitzer sagt, es sei für ein gerichtlich bestelltes Labor versiegelt, so der [Bericht des Trackers](L5).
+
+!figure:fact
+
+Ledgers Händlerverzeichnis für die Vereinigten Arabischen Emirate führt die Ledger-Verkäufe bei Virgin Megastores inzwischen als vorübergehend ausgesetzt, [berichtete The Defiant](L6).
+
+!mid_cta
+
+## Die Frage der Verluste
+
+Ledgers Update nennt keine Gesamtsumme der Verluste und äußert sich nicht zu Entschädigungen. In einer Antwort auf Ledgers Beitrag fragte der Blockchain-Ermittler ZachXBT, wer die Verluste der Opfer übernehme, die „Ihren offiziellen Händlern vertraut haben“, und bezifferte sie auf mehr als 105 Mio. $. Ledger hat diese Zahl nicht bestätigt.
+
+Der Vorfall reiht sich in eine schwierige Phase für Hersteller von Hardware-Wallets ein. Konkurrent Trezor teilte diese Woche mit, dass Hacker bei einem Versandpartner wahrscheinlich Daten zu rund 27.000 Bestellungen erbeutet haben.
+
+## Was das für Sie bedeutet
+
+Wenn Sie Ihren Ledger direkt auf ledger.com gekauft haben, gibt es laut Ledger keinen bestätigten Fall mit diesen Geräten. Wenn Sie ihn in einem Laden oder bei einem Händler in Südostasien, seit Januar 2026 in Berlin oder in Dubai gekauft haben und besorgt sind, rät Ledger: Gerät nicht mehr nutzen, den Ledger-Support kontaktieren und das Gerät nicht selbst öffnen. Übertragen Sie Ihr Guthaben auf eine neue Wallet, deren Wiederherstellungsphrase auf einem direkt beim Hersteller gekauften Gerät erstellt wurde, und verwenden Sie die alte Phrase und Passphrase nicht weiter, denn ein manipuliertes Gerät kann beides abgreifen. Ledger empfiehlt außerdem eine Anzeige bei der örtlichen Polizei.
+
+Die einfachste Regel für jede Hardware-Wallet: Kaufen Sie sie auf der offiziellen Website des Herstellers und geben Sie Ihre Wiederherstellungsphrase niemals anderswo ein. Ledger sagt, es werde nie nach Ihren 24 Wörtern fragen, jede Nachricht, die das tut, ist also Betrug. Wer noch lernt, hält manchmal kleine Beträge auf einer großen regulierten Börse wie [Coinbase](REF), bevor er zur Selbstverwahrung wechselt. Auch das hat Risiken, und dies ist keine Finanzberatung.
+
+## Worauf man achten sollte
+
+- Ob Ledger veröffentlicht, wie viele Geräte manipuliert wurden und wie sie in Läden in Berlin und Dubai gelangten.
+- Die Laborergebnisse zum versiegelten Ledger Stax aus Dubai.
+- Jede Aussage von Ledger zur Entschädigung der Opfer.
+
+!soft: Neu bei Wallets? Lesen Sie [Was ist eine Krypto-Wallet: Verwahrung oder Selbstverwahrung](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

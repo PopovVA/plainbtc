@@ -1,0 +1,61 @@
+title: Ledger pastikan dompet perangkat keras yang dimodifikasi di Berlin dan periksa dua lagi di Dubai
+page_title: Ledger pastikan dompet dimodifikasi di Berlin, selidiki Dubai
+description: Ledger mengatakan dompet perangkat keras yang dimodifikasi untuk mencuri frasa pemulihan kini muncul di Berlin, dan perusahaan menyelidiki dua unit mencurigakan yang dibeli di Dubai. Apa yang terjadi, siapa yang berisiko, dan apa yang harus dilakukan jika Anda membeli Ledger di toko.
+og_description: Ledger mengatakan serangan implan yang pertama kali ditemukan di Asia Tenggara sudah sampai ke Berlin, dengan dua unit mencurigakan di Dubai. Menurut perusahaan tidak ada celah di chipnya, tetapi pembeli dari pengecer sebaiknya memeriksa perangkat mereka.
+label: Keamanan
+summary: Ledger mengatakan telah memastikan dompet perangkat keras yang dimodifikasi untuk menangkap frasa pemulihan di Berlin, dan menyelidiki dua unit mencurigakan yang dibeli di Dubai. Perusahaan menyebutnya insiden yang sama dengan yang diungkap pada Oktober.
+===
+
+Ledger, salah satu pembuat dompet perangkat keras kripto paling terkenal, mengatakan perangkat yang dimodifikasi kini tidak hanya ada di Asia Tenggara. Dalam pembaruan di situs dukungannya pada Rabu, 18 November, perusahaan asal Prancis itu mengatakan telah memastikan beberapa unit yang dimodifikasi di Berlin dan sedang menyelidiki laporan tentang dua unit lain di Dubai, [lapor Decrypt](L1). "Temuan kami sejak itu menunjukkan perangkat yang dimodifikasi di luar Asia Tenggara. Ini insiden yang sama," kata Ledger.
+
+Dompet perangkat keras adalah alat kecil yang menyimpan kunci kripto Anda secara offline. Janji utamanya, frasa pemulihan 24 kata Anda, kunci induk yang bisa memulihkan sekaligus mengosongkan dompet, tidak pernah keluar dari perangkat. Unit yang dimodifikasi melanggar janji itu: Ledger mengatakan semua kasus yang dipastikan memiliki modifikasi fisik yang sama, "dibuat untuk menangkap frasa pemulihan saat pengaturan".
+
+!takeaways
+- Ledger mengatakan telah memastikan beberapa perangkat yang dimodifikasi di Berlin, semuanya dibeli di sana, dan memeriksa dua unit mencurigakan dari Dubai.
+- Perusahaan juga menemukan satu Ledger Nano Gen5 yang terdampak di antara pengecer Asia Tenggara yang penjualannya dihentikan pada Oktober.
+- Ledger menegaskan tidak ada celah di chip aman maupun sistem operasinya, dan tidak ada kasus yang dipastikan pada perangkat yang dibeli di ledger.com.
+- Perusahaan memperkirakan akan ada lebih banyak perangkat yang dimodifikasi dan menawarkan pemeriksaan gratis, termasuk sinar-X, untuk waktu terbatas.
+
+!figure:timeline
+
+## Cara kerja serangan
+
+Masalah ini dimulai pada Oktober. Dalam [tulisan blog 15 Oktober](L3), Ledger mengatakan sebuah "kelompok kriminal yang sangat terorganisasi" selama berbulan-bulan membeli perangkat Ledger asli, membukanya, memasang komponen tersembunyi yang menangkap frasa pemulihan saat pengaturan, lalu menjualnya kembali lewat pengecer di Asia Tenggara. Setelah frasa didapat, pencuri bisa mengosongkan dompet dari mana saja. Penyelidik on-chain melacak dugaan pengurasan sekitar US$87 juta dari ratusan dompet di Ethereum, Tron, dan Bitcoin, menurut Decrypt.
+
+Ledger menegaskan chip, perangkat lunak, dan servernya tidak diretas. Serangan terjadi di jalur distribusi, setelah perangkat keluar dari kendali perusahaan. Saat itu Ledger meminta pengecer resminya di Asia Tenggara dan Hong Kong menghentikan penjualan.
+
+## Berlin dan Dubai
+
+Di Jerman, Ledger mengatakan semua unit yang dimodifikasi yang sudah dipastikan berada di Berlin, dan meminta siapa pun yang membeli Ledger dari pihak ketiga di sana sejak Januari 2026 untuk menghubungi tim dukungannya, menurut [CyberSIXT](L2) yang merangkum pembaruan itu. Perusahaan tidak menyebut berapa perangkat yang terdampak, tidak menyebut nama toko, dan tidak menjelaskan di mana perangkat dimodifikasi.
+
+Di Dubai, Ledger mengatakan sedang bekerja dengan mitra distribusi untuk mengetahui bagaimana dua unit mencurigakan bisa beredar. Menurut sejumlah laporan, keduanya dibeli di Virgin Megastore. Seorang pemilik mengatakan sekitar 1.300 SOL dikuras dari Ledger Flex yang ia beli pada 13 September di toko jaringan itu di Dubai Mall; pelacak sumber terbuka yang dikelola mantan CEO Mt. Gox Mark Karpelès memastikan adanya implan tersembunyi dari foto perangkat yang sudah dibuka, [lapor Unchained](L4). Pemilik kedua mengatakan 507.000 USDT diambil dari Ledger Stax yang dibeli pada 11 Oktober. Perangkat itu belum dibuka, jadi implannya baru dugaan; pemiliknya mengatakan perangkat itu disegel untuk laboratorium yang ditunjuk pengadilan, menurut [laporan pelacak](L5).
+
+!figure:fact
+
+Direktori pengecer Ledger untuk Uni Emirat Arab kini mencantumkan penjualan Ledger di Virgin Megastores sebagai dihentikan sementara, [lapor The Defiant](L6).
+
+!mid_cta
+
+## Soal kerugian
+
+Pembaruan Ledger tidak menyebut angka total kerugian dan tidak membahas kompensasi. Dalam balasan atas unggahan Ledger, penyelidik blockchain ZachXBT bertanya siapa yang akan menanggung kerugian korban yang "memercayai pengecer resmi Anda", dan menyebut kerugian itu lebih dari US$105 juta. Ledger belum memastikan angka tersebut.
+
+Insiden ini menambah masa sulit bagi pembuat dompet perangkat keras. Pesaingnya, Trezor, minggu ini mengatakan peretas yang membobol mitra pengirimannya kemungkinan mengambil data sekitar 27.000 pesanan.
+
+## Apa artinya bagi Anda
+
+Jika Anda membeli Ledger langsung di ledger.com, Ledger mengatakan tidak ada kasus yang dipastikan pada perangkat tersebut. Jika Anda membelinya dari toko atau pengecer di Asia Tenggara, di Berlin sejak Januari 2026, atau di Dubai, dan merasa khawatir, saran Ledger adalah berhenti memakainya, menghubungi Dukungan Ledger, dan tidak membuka perangkat sendiri. Pindahkan dana Anda ke dompet baru yang frasa pemulihannya dibuat di perangkat yang dibeli langsung dari pembuatnya, dan jangan gunakan lagi frasa atau kata sandi tambahan yang lama, karena perangkat yang dimodifikasi bisa menangkap keduanya. Ledger juga menyarankan melapor ke polisi setempat.
+
+Aturan paling sederhana untuk dompet perangkat keras apa pun: belilah dari situs resmi pembuatnya dan jangan pernah mengetik frasa pemulihan di tempat lain. Ledger mengatakan tidak akan pernah meminta 24 kata Anda, jadi pesan apa pun yang memintanya adalah penipuan. Jika Anda masih belajar, sebagian pemula menyimpan jumlah kecil di bursa besar yang teregulasi seperti [Coinbase](REF) sebelum beralih ke penyimpanan mandiri. Pilihan itu juga punya risiko, dan ini bukan nasihat keuangan.
+
+## Yang perlu diperhatikan
+
+- Apakah Ledger akan mengungkap berapa perangkat yang dimodifikasi dan bagaimana perangkat itu sampai ke toko di Berlin dan Dubai.
+- Hasil laboratorium untuk Ledger Stax yang disegel di Dubai.
+- Pernyataan apa pun dari Ledger soal kompensasi bagi korban.
+
+!soft: Baru mengenal dompet? Baca [Apa itu dompet kripto: kustodian atau simpan sendiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,55 @@
+title: Seis senadores piden a Tesorería proteger a los emisores de stablecoins con licencia estatal antes de que arranque la Ley GENIUS
+page_title: Senadores presionan a Tesorería por un puerto seguro estatal para stablecoins
+description: Un grupo bipartidista de seis senadores liderado por Cynthia Lummis y Kirsten Gillibrand pidió a Tesorería que dé a los emisores de stablecoins regulados por estados el mismo puerto seguro que a los federales cuando la Ley GENIUS entre en vigor el 18 de enero de 2027.
+og_description: Lummis, Gillibrand y otros cuatro senadores dicen que el borrador de Tesorería para la Ley GENIUS protege durante la transición a los emisores supervisados a nivel federal, pero deja expuestos a los que tienen licencia estatal. Qué pidieron y por qué importa.
+label: Regulación
+summary: Seis senadores de ambos partidos pidieron al secretario del Tesoro, Scott Bessent, que dé a los emisores de stablecoins con licencia estatal el mismo puerto seguro temporal que reciben los supervisados a nivel federal en un borrador de la Ley GENIUS, antes de que la ley entre en vigor el 18 de enero de 2027.
+===
+
+Un grupo bipartidista de seis senadores de EE. UU. quiere que el Departamento del Tesoro trate a las empresas de stablecoins con licencia estatal igual que a las supervisadas por reguladores federales. En una carta al secretario del Tesoro, Scott Bessent, difundida el miércoles 18 de noviembre, los senadores Cynthia Lummis (republicana por Wyoming) y Kirsten Gillibrand (demócrata por Nueva York), junto con Angela Alsobrooks (demócrata por Maryland), Kevin Cramer (republicano por Dakota del Norte), Pete Ricketts (republicano por Nebraska) y Mark Warner (demócrata por Virginia), pidieron un «puerto seguro» para los emisores estatales, [según la oficina de Lummis](L1).
+
+Las stablecoins son tokens cripto diseñados para valer siempre 1 dólar, como USDC. La Ley GENIUS, firmada el 18 de julio de 2025, creó las primeras reglas federales para ellas. Sus normas principales entran en vigor el 18 de enero de 2027, según la [Oficina del Contralor de la Moneda](L3) (OCC), el regulador bancario federal.
+
+!takeaways
+- Seis senadores, tres republicanos y tres demócratas, pidieron a Tesorería proteger a los emisores de stablecoins con licencia estatal cuando entre en vigor la Ley GENIUS.
+- Dicen que el borrador de Tesorería da un puerto seguro a los emisores supervisados por la OCC, pero no a los estatales.
+- La ley permite a los emisores con 10.000 millones de dólares o menos en stablecoins elegir una licencia estatal si las reglas del estado son «sustancialmente similares» a las federales.
+- La Ley GENIUS entra en vigor el 18 de enero de 2027; Tesorería aún no ha finalizado su norma.
+
+!figure:compare
+
+## Qué pidieron los senadores
+
+Con la Ley GENIUS, una vez en vigor, solo los emisores aprobados podrán emitir stablecoins de pago en Estados Unidos. La norma propuesta por Tesorería permitiría a los emisores con solicitudes pendientes ante un regulador federal seguir operando durante la transición si ese regulador concede una exención. «La propuesta actual de Tesorería ofrecería a los emisores de stablecoins con solicitudes pendientes ante reguladores federales un puerto seguro cuando entren en vigor los requisitos de la Ley GENIUS, si dicho regulador concede una exención, sin una protección equivalente para los emisores estatales», escribieron los senadores, [informó The Block](L2).
+
+Quieren la misma protección para los emisores de estados que hayan certificado que sus reglas son «sustancialmente similares» a la ley federal, mientras un nuevo panel federal, el Comité de Revisión de Certificación de Stablecoins, revisa esas certificaciones en 2027. Sin ella, los emisores con licencia estatal podrían sufrir interrupciones desde el primer día mientras esperan el visto bueno federal.
+
+«Para que Tesorería finalice esta propuesta de forma que refleje la intención del Congreso, debe permitir que los emisores elijan entre licencias estatales o federales, como prevé la Ley GENIUS, sin riesgo de interrupción de su negocio ni incertidumbre», escribieron los senadores.
+
+!figure:timeline
+
+## Por qué importan los estados
+
+La Ley GENIUS da a los emisores una opción. Las empresas con 10.000 millones de dólares o menos en stablecoins en circulación pueden operar bajo un régimen estatal en lugar de uno federal, siempre que ese régimen sea «sustancialmente similar» al marco federal. La oficina de Lummis dijo que el Congreso esperaba que estados como Wyoming, Nueva York y Nebraska cumplieran desde el principio, y les dio un proceso de certificación más rápido. Wyoming creó su propia licencia para bancos de activos digitales en 2019.
+
+!mid_cta
+
+No es la primera presión de este tipo. En una [carta del 16 de junio](L4), Lummis, Gillibrand y otros senadores pidieron a Tesorería una guía escrita clara sobre cómo pueden certificarse los estados, y advirtieron de que un plazo rígido podría dejar fuera a los estados.
+
+Las agencias federales todavía están redactando las reglas. La OCC publicó su norma final de la Ley GENIUS el 21 de octubre, y también entra en vigor el 18 de enero de 2027. Tesorería no ha dicho cuándo finalizará su propia norma ni si añadirá un puerto seguro para los estados.
+
+## Qué significa para ti
+
+Para la mayoría de quienes tienen stablecoins, hoy no cambia nada. El debate trata sobre qué empresas podrán seguir emitiendo monedas nuevas cuando empiece la ley, y si los emisores más pequeños con licencia estatal tendrán el mismo periodo de transición que los supervisados a nivel federal. Con el tiempo, la ley también limitará a las plataformas cripto de EE. UU., desde grandes exchanges como [Coinbase](REF) hasta apps pequeñas, a stablecoins de emisores aprobados. Si tienes stablecoins, conviene saber quién emite las tuyas y quién regula a esa empresa. Esto no es asesoramiento financiero.
+
+## Qué vigilar
+
+- Si Tesorería añade un puerto seguro para los estados al finalizar su norma de la Ley GENIUS.
+- Qué estados presentan certificaciones de que sus reglas para stablecoins son «sustancialmente similares».
+- Cómo se preparan los emisores para el arranque del 18 de enero de 2027.
+
+!soft: ¿Nuevo en stablecoins? Mira cómo los grandes bancos las están probando en [Bancos aportan 270 millones de dólares a una stablecoin conjunta](/articles/banks-270-million-stablecoin-project-faro-nov-2026).
+
+!end_cta
+
+!disclosure

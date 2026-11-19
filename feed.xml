@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/</link>
     <description>Plain-English Bitcoin &amp; crypto news for beginners</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ledger confirms tampered hardware wallets in Berlin and is checking two more in Dubai</title>
+      <link>https://plainbtc.com/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:40:00 GMT</pubDate>
+      <category>Security</category>
+      <description>Ledger says tampered hardware wallets designed to capture recovery phrases have been confirmed in Berlin, and it is investigating two suspected units bought in Dubai. The company calls it the same incident it first disclosed in October.</description>
+    </item>
+    <item>
+      <title>Six senators ask Treasury to protect state-licensed stablecoin issuers before GENIUS Act rules start</title>
+      <link>https://plainbtc.com/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:35:00 GMT</pubDate>
+      <category>Regulation</category>
+      <description>Six senators from both parties asked Treasury Secretary Scott Bessent to give state-licensed stablecoin issuers the same temporary safe harbor that federally supervised issuers get under a draft GENIUS Act rule, before the law takes effect on Jan. 18, 2027.</description>
+    </item>
     <item>
       <title>Fed minutes point to more rate hikes as bitcoin slips below $63,000</title>
       <link>https://plainbtc.com/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</link>

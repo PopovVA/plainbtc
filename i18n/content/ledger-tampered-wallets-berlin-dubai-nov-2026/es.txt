@@ -1,0 +1,61 @@
+title: Ledger confirma billeteras físicas manipuladas en Berlín y revisa otras dos en Dubái
+page_title: Ledger confirma billeteras manipuladas en Berlín e investiga Dubái
+description: Ledger dice que han aparecido en Berlín billeteras físicas manipuladas para robar la frase de recuperación y que investiga dos unidades sospechosas compradas en Dubái. Qué pasó, quién está en riesgo y qué hacer si compraste una Ledger en una tienda.
+og_description: Ledger dice que el ataque con implantes que detectó primero en el Sudeste Asiático ha llegado a Berlín, con dos unidades sospechosas en Dubái. Según la empresa, su chip no tiene fallos, pero quien compró en revendedores debe revisar su dispositivo.
+label: Seguridad
+summary: Ledger dice que ha confirmado en Berlín billeteras físicas manipuladas para capturar la frase de recuperación y que investiga dos unidades sospechosas compradas en Dubái. La empresa lo llama el mismo incidente que reveló en octubre.
+===
+
+Ledger, uno de los fabricantes más conocidos de billeteras físicas de criptomonedas, dice que los dispositivos manipulados ya no se limitan al Sudeste Asiático. En una actualización publicada en su web de soporte el miércoles 18 de noviembre, la empresa francesa dijo que había confirmado algunas unidades manipuladas en Berlín y que investigaba informes sobre otras dos en Dubái, [informó Decrypt](L1). «Nuestros hallazgos desde entonces muestran dispositivos manipulados fuera del Sudeste Asiático. Es el mismo incidente», dijo Ledger.
+
+Una billetera física es un pequeño aparato que guarda sin conexión las claves de tus criptomonedas. Su gran promesa es que tu frase de recuperación de 24 palabras, la llave maestra que permite restaurar y vaciar una billetera, nunca sale del dispositivo. Las unidades manipuladas rompen esa promesa: Ledger dice que todos los casos confirmados llevan la misma modificación física, «creada para capturar la frase de recuperación durante la configuración».
+
+!takeaways
+- Ledger dice que ha confirmado algunos dispositivos manipulados en Berlín, todos comprados allí, y que revisa dos unidades sospechosas de Dubái.
+- También encontró una Ledger Nano Gen5 afectada entre los revendedores del Sudeste Asiático que suspendió en octubre.
+- Ledger asegura que no hay fallos en su chip seguro ni en su sistema operativo, y que no hay ningún caso confirmado con un dispositivo comprado en ledger.com.
+- La empresa espera que aparezcan más dispositivos manipulados y ofrece inspecciones gratuitas, incluidas radiografías, durante un tiempo limitado.
+
+!figure:timeline
+
+## Cómo funciona el ataque
+
+El problema empezó en octubre. En una [entrada de blog del 15 de octubre](L3), Ledger explicó que un «grupo criminal muy organizado» pasó meses comprando dispositivos Ledger auténticos, abriéndolos, instalándoles componentes ocultos que capturan la frase de recuperación durante la configuración y volviendo a ponerlos a la venta a través de revendedores del Sudeste Asiático. Con la frase en su poder, los ladrones podían vaciar la billetera desde cualquier lugar. Investigadores que analizan la cadena de bloques rastrearon un presunto robo de unos 87 millones de dólares de cientos de billeteras en Ethereum, Tron y Bitcoin, según Decrypt.
+
+Ledger insiste en que su chip, su software y sus servidores no fueron hackeados. El ataque ocurrió en el canal de distribución, cuando los dispositivos ya habían salido del control de la empresa. Entonces Ledger pidió a sus revendedores autorizados del Sudeste Asiático y Hong Kong que suspendieran las ventas.
+
+## Berlín y Dubái
+
+En Alemania, Ledger dijo que las unidades manipuladas que confirmó se concentraban en Berlín y pidió a quien haya comprado allí una Ledger a un tercero desde enero de 2026 que contacte con su equipo de soporte, según [CyberSIXT](L2), que resumió la actualización. La empresa no dijo cuántos dispositivos están afectados, no nombró las tiendas ni explicó dónde se modificaron los aparatos.
+
+En Dubái, Ledger dijo que trabaja con sus socios de distribución para saber cómo entraron en circulación dos unidades sospechosas. Según varios informes, ambas se compraron en Virgin Megastore. Un usuario dijo que le vaciaron unos 1.300 SOL de una Ledger Flex comprada el 13 de septiembre en la tienda de la cadena en Dubai Mall; un rastreador de código abierto dirigido por Mark Karpelès, ex director ejecutivo de Mt. Gox, confirmó un implante oculto a partir de fotos del dispositivo abierto, [informó Unchained](L4). Otro usuario dice que le robaron 507.000 USDT de una Ledger Stax comprada el 11 de octubre. Ese dispositivo aún no se ha abierto, así que el implante solo es una sospecha; el dueño dice que está precintado para un laboratorio designado por un tribunal, según el [informe del rastreador](L5).
+
+!figure:fact
+
+El directorio de revendedores de Ledger para los Emiratos Árabes Unidos muestra ahora las ventas de Ledger en Virgin Megastores como suspendidas temporalmente, [informó The Defiant](L6).
+
+!mid_cta
+
+## La cuestión de las pérdidas
+
+La actualización de Ledger no da una cifra total de pérdidas ni habla de compensaciones. En una respuesta a la publicación de Ledger, el investigador de cadenas de bloques ZachXBT preguntó quién cubriría las pérdidas de las víctimas que «confiaron en sus revendedores oficiales» y las situó en más de 105 millones de dólares. Ledger no ha confirmado esa cifra.
+
+El incidente se suma a una mala racha para los fabricantes de billeteras físicas. Su rival Trezor dijo esta semana que unos hackers que atacaron a una empresa de envíos asociada probablemente se llevaron datos de unos 27.000 pedidos.
+
+## Qué significa para ti
+
+Si compraste una Ledger directamente en ledger.com, Ledger dice que no hay ningún caso confirmado con esos dispositivos. Si la compraste en una tienda o revendedor del Sudeste Asiático, en Berlín desde enero de 2026 o en Dubái, y te preocupa, Ledger aconseja dejar de usarla, contactar con el soporte de Ledger y no abrir el dispositivo por tu cuenta. Pasa tus fondos a una billetera nueva cuya frase de recuperación se haya creado en un dispositivo comprado directamente al fabricante, y no reutilices la frase ni la contraseña adicional antiguas, porque un dispositivo manipulado puede capturar ambas. Ledger también sugiere presentar una denuncia ante la policía local.
+
+La regla más sencilla para cualquier billetera física: cómprala en la web oficial del fabricante y nunca escribas tu frase de recuperación en ningún otro sitio. Ledger dice que nunca te pedirá tus 24 palabras, así que cualquier mensaje que lo haga es una estafa. Si todavía estás aprendiendo, algunos principiantes guardan pequeñas cantidades en un gran exchange regulado como [Coinbase](REF) antes de pasar a la autocustodia. Esa opción tiene sus propios riesgos, y esto no es asesoramiento financiero.
+
+## Qué vigilar
+
+- Si Ledger publica cuántos dispositivos fueron manipulados y cómo llegaron a tiendas de Berlín y Dubái.
+- Los resultados del laboratorio sobre la Ledger Stax precintada en Dubái.
+- Cualquier anuncio de Ledger sobre compensar a las víctimas.
+
+!soft: ¿Eres nuevo con las billeteras? Lee [Qué es una billetera cripto: custodia o autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

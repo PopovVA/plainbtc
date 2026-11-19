@@ -1378,7 +1378,48 @@ def thumb_binance_adgm_order():
     ],"note":"Editorial composite for identification; trademarks belong to their owners."}
 
 
+def thumb_ledger_berlin_dubai():
+    """Ledger mark (official favicon from ledger.com, identification only) with the locations from Ledger's Nov. 18 update."""
+    src = fetch("https://ledger-wp-website-s3-prd.ledger.com/uploads/2021/11/Ledger_favicon.png", CACHE/"ledger-favicon.png")
+    logo = Image.open(src).convert("RGBA")
+    base = gradient_bg()
+    x, y, cw, ch = 40, 84, 200, 190
+    tile = Image.new("RGBA", (cw, ch), (255,255,255,255))
+    mask = Image.new("L", (cw, ch), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,cw-1,ch-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), (x, y), mask)
+    paste_contain(base, logo, (x, y, cw, ch), pad=34)
+    d = ImageDraw.Draw(base)
+    d.text((272, 92), "Berlin", font=font(FONT_B, 54), fill=ORANGE)
+    d.text((272, 156), "+ 2 suspected in Dubai", font=font(FONT_B, 22), fill=WHITE)
+    d.text((274, 196), "Tampered wallets built to", font=font(FONT_R, 18), fill=(203,213,225))
+    d.text((274, 220), "capture recovery phrases", font=font(FONT_R, 18), fill=(203,213,225))
+    label_chip(base, "Ledger · hardware implant probe")
+    return base, {"kind":"composite","sources":[
+        {"file":"ledger.com Ledger_favicon.png","license":"Logo","url":"https://www.ledger.com/","credit":"Ledger (logo, identification only)"},
+        {"file":"Ledger support update, Nov. 18, 2026 (via Decrypt)","license":"Fact cited","url":"https://decrypt.co/383586/ledger-confirms-tampered-bitcoin-wallets-berlin-spreads-beyond-asia","credit":"Ledger / Decrypt"},
+    ],"note":"Editorial composite for identification; trademarks belong to their owners."}
+
+
+def thumb_genius_state_safe_harbor():
+    """U.S. Treasury seal (public domain) with the GENIUS Act start date and state issuer threshold."""
+    seal = fetch("https://upload.wikimedia.org/wikipedia/commons/c/cb/Seal_of_the_United_States_Department_of_the_Treasury.svg", CACHE/"treasury-seal.svg")
+    base = gradient_bg()
+    paste_contain(base, Image.open(seal).convert("RGBA"), (36, 70, 200, 200), pad=6)
+    d = ImageDraw.Draw(base)
+    d.text((262, 88), "6 senators", font=font(FONT_B, 54), fill=ORANGE)
+    d.text((264, 160), "ask Treasury for a state", font=font(FONT_B, 20), fill=WHITE)
+    d.text((264, 188), "stablecoin safe harbor", font=font(FONT_B, 20), fill=WHITE)
+    d.text((264, 224), "GENIUS Act starts Jan. 18, 2027", font=font(FONT_R, 17), fill=(203,213,225))
+    label_chip(base, "GENIUS Act · stablecoins")
+    return base, {"kind":"composite","sources":[
+        {"file":"Seal_of_the_United_States_Department_of_the_Treasury.svg","license":"Public domain (U.S. government insignia)","url":"https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Department_of_the_Treasury.svg","credit":"U.S. Department of the Treasury"},
+        {"file":"Sen. Lummis press release, Nov. 18, 2026","license":"Fact cited","url":"https://www.lummis.senate.gov/press-releases/lummis-gillibrand-colleagues-urge-treasury-to-give-state-stablecoin-issuers-equal-footing-with-federal-issuers/","credit":"Office of Sen. Cynthia Lummis"},
+    ],"note":"Editorial composite for identification; no endorsement by the U.S. Treasury implied."}
+
+
 BUILDERS = {
+    "ledger-tampered-wallets-berlin-dubai-nov-2026": thumb_ledger_berlin_dubai,
+    "senators-genius-act-state-stablecoin-safe-harbor-nov-2026": thumb_genius_state_safe_harbor,
     "fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026": thumb_fed_minutes_btc_63k,
     "binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026": thumb_binance_adgm_order,
     "russia-retail-investors-bitcoin-ether-usdt-300000-ruble-cap-nov-2026": thumb_russia_retail_crypto,

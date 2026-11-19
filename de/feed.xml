@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/de/</link>
     <description>Bitcoin- und Krypto-News in einfacher Sprache für Einsteiger</description>
     <language>de</language>
-    <lastBuildDate>Wed, 18 Nov 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/de/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ledger bestätigt manipulierte Hardware-Wallets in Berlin und prüft zwei weitere in Dubai</title>
+      <link>https://plainbtc.com/de/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:40:00 GMT</pubDate>
+      <category>Sicherheit</category>
+      <description>Ledger hat nach eigenen Angaben in Berlin manipulierte Hardware-Wallets bestätigt, die die Wiederherstellungsphrase abgreifen sollen, und prüft zwei verdächtige Geräte aus Dubai. Das Unternehmen spricht vom selben Vorfall, den es im Oktober öffentlich gemacht hat.</description>
+    </item>
+    <item>
+      <title>Sechs Senatoren fordern vom US-Finanzministerium Schutz für bundesstaatlich lizenzierte Stablecoin-Emittenten vor dem Start des GENIUS Act</title>
+      <link>https://plainbtc.com/de/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:35:00 GMT</pubDate>
+      <category>Regulierung</category>
+      <description>Sechs Senatoren beider Parteien fordern Finanzminister Scott Bessent auf, bundesstaatlich lizenzierten Stablecoin-Emittenten denselben befristeten Schutz zu gewähren, den bundesweit beaufsichtigte Emittenten in einem Regelentwurf zum GENIUS Act erhalten, bevor das Gesetz am 18. Januar 2027 in Kraft tritt.</description>
+    </item>
     <item>
       <title>Fed-Protokoll deutet auf weitere Zinserhöhungen hin, Bitcoin fällt unter 63.000 Dollar</title>
       <link>https://plainbtc.com/de/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</link>

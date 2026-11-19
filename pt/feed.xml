@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/pt/</link>
     <description>Notícias de Bitcoin e criptomoedas em linguagem simples para iniciantes</description>
     <language>pt-br</language>
-    <lastBuildDate>Wed, 18 Nov 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/pt/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ledger confirma carteiras físicas adulteradas em Berlim e investiga outras duas em Dubai</title>
+      <link>https://plainbtc.com/pt/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/pt/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:40:00 GMT</pubDate>
+      <category>Segurança</category>
+      <description>A Ledger diz ter confirmado em Berlim carteiras físicas adulteradas para capturar a frase de recuperação e investiga duas unidades suspeitas compradas em Dubai. A empresa chama o caso de o mesmo incidente revelado em outubro.</description>
+    </item>
+    <item>
+      <title>Seis senadores pedem ao Tesouro que proteja emissores de stablecoins com licença estadual antes do início da Lei GENIUS</title>
+      <link>https://plainbtc.com/pt/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/pt/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:35:00 GMT</pubDate>
+      <category>Regulação</category>
+      <description>Seis senadores dos dois partidos pediram ao secretário do Tesouro, Scott Bessent, que dê aos emissores de stablecoins com licença estadual o mesmo porto seguro temporário que os supervisionados no nível federal recebem numa minuta da Lei GENIUS, antes de a lei entrar em vigor em 18 de janeiro de 2027.</description>
+    </item>
     <item>
       <title>Ata do Fed indica mais altas de juros, e bitcoin cai abaixo de US$ 63.000</title>
       <link>https://plainbtc.com/pt/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</link>

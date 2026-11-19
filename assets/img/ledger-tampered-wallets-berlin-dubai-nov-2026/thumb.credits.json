@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "ledger.com Ledger_favicon.png",
+      "license": "Logo",
+      "url": "https://www.ledger.com/",
+      "credit": "Ledger (logo, identification only)"
+    },
+    {
+      "file": "Ledger support update, Nov. 18, 2026 (via Decrypt)",
+      "license": "Fact cited",
+      "url": "https://decrypt.co/383586/ledger-confirms-tampered-bitcoin-wallets-berlin-spreads-beyond-asia",
+      "credit": "Ledger / Decrypt"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "ledger-tampered-wallets-berlin-dubai-nov-2026",
+  "generated": "2026-11-19T00:09Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

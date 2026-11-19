@@ -1,0 +1,61 @@
+title: Ledger, Berlin'de kurcalanmış donanım cüzdanlarını doğruladı, Dubai'de iki cihazı daha inceliyor
+page_title: Ledger Berlin'de kurcalanmış cüzdanları doğruladı, Dubai'yi inceliyor
+description: Ledger, kurtarma ifadesini çalmak için kurcalanmış donanım cüzdanlarının Berlin'de ortaya çıktığını ve Dubai'den alınan iki şüpheli cihazı incelediğini söylüyor. Ne oldu, kimler risk altında ve Ledger'ınızı bir mağazadan aldıysanız ne yapmalısınız.
+og_description: Ledger, ilk olarak Güneydoğu Asya'da tespit ettiği implant saldırısının Berlin'e ulaştığını, Dubai'de de iki şüpheli cihaz olduğunu söylüyor. Şirkete göre çipte açık yok, ancak bayilerden alanlar cihazlarını kontrol etmeli.
+label: Güvenlik
+summary: Ledger, kurtarma ifadesini ele geçirmek için kurcalanmış donanım cüzdanlarını Berlin'de doğruladığını ve Dubai'den alınan iki şüpheli cihazı incelediğini söylüyor. Şirket bunu Ekim'de açıkladığı olayla aynı olay olarak tanımlıyor.
+===
+
+Kripto donanım cüzdanlarının en bilinen üreticilerinden Ledger, kurcalanmış cihazların artık yalnızca Güneydoğu Asya ile sınırlı olmadığını söylüyor. Fransız şirket 18 Kasım Çarşamba günü destek sitesindeki güncellemede Berlin'de birkaç kurcalanmış cihazı doğruladığını ve Dubai'deki iki cihazla ilgili bildirimleri incelediğini açıkladı, [Decrypt'in aktardığına göre](L1). Ledger, "O zamandan beri yaptığımız tespitler Güneydoğu Asya dışında da kurcalanmış cihazlar olduğunu gösteriyor. Bu aynı olay" dedi.
+
+Donanım cüzdanı, kriptolarınızın anahtarlarını çevrimdışı saklayan küçük bir cihazdır. Temel vaadi, bir cüzdanı geri yüklemeye ve boşaltmaya yeten ana anahtar olan 24 kelimelik kurtarma ifadenizin cihazdan hiç çıkmamasıdır. Kurcalanmış cihazlar bu vaadi bozuyor: Ledger'a göre doğrulanan tüm vakalarda aynı fiziksel değişiklik var ve bu değişiklik "kurulum sırasında kurtarma ifadesini ele geçirmek için yapılmış".
+
+!takeaways
+- Ledger, tamamı Berlin'de satın alınmış birkaç kurcalanmış cihazı doğruladığını ve Dubai'den iki şüpheli cihazı incelediğini söylüyor.
+- Şirket ayrıca Ekim'de satışlarını durdurduğu Güneydoğu Asya bayilerinde etkilenmiş bir Ledger Nano Gen5 buldu.
+- Ledger, güvenli çipinde ve işletim sisteminde açık olmadığını, ledger.com'dan alınan cihazlarda doğrulanmış vaka bulunmadığını söylüyor.
+- Şirket daha fazla kurcalanmış cihaz çıkmasını bekliyor ve sınırlı bir süre için röntgen dahil ücretsiz inceleme sunuyor.
+
+!figure:timeline
+
+## Saldırı nasıl işliyor
+
+Sorun Ekim'de başladı. Ledger [15 Ekim'deki blog yazısında](L3), "son derece organize bir suç örgütünün" aylarca orijinal Ledger cihazları satın aldığını, bunları açıp kurulum sırasında kurtarma ifadesini ele geçiren gizli parçalar taktığını ve Güneydoğu Asya'daki bayiler üzerinden yeniden satışa çıkardığını açıkladı. İfadeyi ele geçiren hırsızlar cüzdanı her yerden boşaltabiliyordu. Decrypt'e göre zincir üstü araştırmacılar Ethereum, Tron ve Bitcoin'deki yüzlerce cüzdandan yaklaşık 87 milyon $'lık şüpheli bir çıkışın izini sürdü.
+
+Ledger, çipinin, yazılımının ve sunucularının hacklenmediğinin altını çiziyor. Saldırı, cihazlar şirketin kontrolünden çıktıktan sonra dağıtım kanalında gerçekleşti. Ledger o sırada Güneydoğu Asya ve Hong Kong'daki yetkili bayilerinden satışları durdurmalarını istemişti.
+
+## Berlin ve Dubai
+
+Ledger, Almanya'da doğruladığı kurcalanmış cihazların tamamının Berlin'de olduğunu söyledi ve Ocak 2026'dan bu yana orada üçüncü bir taraftan Ledger satın alan herkesi destek ekibiyle iletişime geçmeye çağırdı; güncellemeyi özetleyen [CyberSIXT](L2) bunu aktardı. Şirket kaç cihazın etkilendiğini söylemedi, mağazaların adını vermedi ve cihazların nerede değiştirildiğini açıklamadı.
+
+Ledger, Dubai'de iki şüpheli cihazın nasıl piyasaya girdiğini anlamak için dağıtım ortaklarıyla çalıştığını söyledi. Çeşitli haberlere göre her ikisi de Virgin Megastore'dan alındı. Bir kullanıcı, zincirin Dubai Mall mağazasından 13 Eylül'de aldığı bir Ledger Flex'ten yaklaşık 1.300 SOL çekildiğini söyledi; Mt. Gox'un eski CEO'su Mark Karpelès'in yürüttüğü açık kaynaklı bir takipçi, açılmış cihazın fotoğraflarından gizli bir implant olduğunu doğruladı, [Unchained'in aktardığına göre](L4). İkinci bir kullanıcı, 11 Ekim'de aldığı bir Ledger Stax'tan 507.000 USDT çalındığını söylüyor. Bu cihaz henüz açılmadığı için implant yalnızca şüphe düzeyinde; [takipçinin raporuna](L5) göre sahibi cihazın mahkemece atanan bir laboratuvar için mühürlendiğini söylüyor.
+
+!figure:fact
+
+[The Defiant'ın aktardığına göre](L6), Ledger'ın Birleşik Arap Emirlikleri bayi rehberi artık Virgin Megastores'taki Ledger satışlarını geçici olarak durdurulmuş gösteriyor.
+
+!mid_cta
+
+## Kayıplar meselesi
+
+Ledger'ın güncellemesi toplam kayıp için bir rakam vermiyor ve tazminat konusuna değinmiyor. Blokzincir araştırmacısı ZachXBT, Ledger'ın paylaşımına verdiği yanıtta "resmi bayilerinize güvenen" mağdurların kayıplarını kimin karşılayacağını sordu ve bu kayıpları 105 milyon $'ın üzerinde gösterdi. Ledger bu rakamı doğrulamadı.
+
+Olay, donanım cüzdanı üreticileri için zorlu bir döneme ekleniyor. Rakip Trezor bu hafta, bir kargo ortağını hackleyen saldırganların muhtemelen yaklaşık 27.000 siparişe ait bilgileri ele geçirdiğini söyledi.
+
+## Sizin için ne anlama geliyor
+
+Ledger'ınızı doğrudan ledger.com'dan aldıysanız, Ledger bu cihazlarda doğrulanmış bir vaka olmadığını söylüyor. Cihazı Güneydoğu Asya'da, Ocak 2026'dan bu yana Berlin'de ya da Dubai'de bir mağazadan veya bayiden aldıysanız ve endişeleniyorsanız, Ledger'ın tavsiyesi cihazı kullanmayı bırakmak, Ledger Destek ile iletişime geçmek ve cihazı kendiniz açmamak. Varlıklarınızı, kurtarma ifadesi doğrudan üreticiden alınmış bir cihazda oluşturulan yeni bir cüzdana taşıyın ve eski ifadeyi ya da parolayı tekrar kullanmayın, çünkü kurcalanmış bir cihaz ikisini de ele geçirebilir. Ledger ayrıca yerel polise başvurmayı öneriyor.
+
+Her donanım cüzdanı için en basit kural: cihazı üreticinin resmi sitesinden alın ve kurtarma ifadenizi asla başka bir yere yazmayın. Ledger, 24 kelimenizi asla istemeyeceğini söylüyor; bunu isteyen her mesaj dolandırıcılıktır. Hâlâ öğreniyorsanız, bazı yeni başlayanlar kendi kendine saklamaya geçmeden önce küçük miktarları [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsada tutuyor. Bu tercihin de kendi riskleri var ve bu bir finansal tavsiye değildir.
+
+## Bundan sonra neye bakmalı
+
+- Ledger'ın kaç cihazın kurcalandığını ve bunların Berlin ile Dubai'deki mağazalara nasıl ulaştığını açıklayıp açıklamayacağı.
+- Dubai'de mühürlenen Ledger Stax için laboratuvar sonuçları.
+- Ledger'ın mağdurların tazmini konusunda yapacağı her açıklama.
+
+!soft: Cüzdanlarda yeni misiniz? [Kripto cüzdanı nedir: emanetli mi, kendi saklama mı](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazısını okuyun.
+
+!end_cta
+
+!disclosure

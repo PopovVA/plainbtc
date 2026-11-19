@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Wed, 18 Nov 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ledger, Berlin'de kurcalanmış donanım cüzdanlarını doğruladı, Dubai'de iki cihazı daha inceliyor</title>
+      <link>https://plainbtc.com/tr/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:40:00 GMT</pubDate>
+      <category>Güvenlik</category>
+      <description>Ledger, kurtarma ifadesini ele geçirmek için kurcalanmış donanım cüzdanlarını Berlin'de doğruladığını ve Dubai'den alınan iki şüpheli cihazı incelediğini söylüyor. Şirket bunu Ekim'de açıkladığı olayla aynı olay olarak tanımlıyor.</description>
+    </item>
+    <item>
+      <title>Altı senatör, GENIUS Yasası başlamadan önce Hazine'den eyalet lisanslı stablecoin ihraççılarını korumasını istedi</title>
+      <link>https://plainbtc.com/tr/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:35:00 GMT</pubDate>
+      <category>Düzenleme</category>
+      <description>İki partiden altı senatör, Hazine Bakanı Scott Bessent'ten, GENIUS Yasası taslağında federal denetimdeki ihraççılara tanınan geçici güvenli limanın eyalet lisanslı stablecoin ihraççılarına da tanınmasını istedi; yasa 18 Ocak 2027'de yürürlüğe giriyor.</description>
+    </item>
     <item>
       <title>Fed tutanakları yeni faiz artışlarına işaret ediyor, bitcoin 63.000 doların altına indi</title>
       <link>https://plainbtc.com/tr/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</link>

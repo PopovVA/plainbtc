@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 18 Nov 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ledger、ベルリンで改ざんされたハードウェアウォレットを確認　ドバイでも2台を調査</title>
+      <link>https://plainbtc.com/ja/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:40:00 GMT</pubDate>
+      <category>セキュリティ</category>
+      <description>Ledgerは、リカバリーフレーズを盗むよう改ざんされたハードウェアウォレットをベルリンで確認し、ドバイで買われた疑わしい2台を調査していると発表した。10月に公表した事件と「同じ事件」だという。</description>
+    </item>
+    <item>
+      <title>上院議員6人、GENIUS法の施行前に州ライセンスのステーブルコイン発行体を守るよう財務省に要請</title>
+      <link>https://plainbtc.com/ja/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 00:35:00 GMT</pubDate>
+      <category>規制</category>
+      <description>両党の上院議員6人がスコット・ベッセント財務長官に対し、GENIUS法の規則案で連邦の監督下にある発行体が得る一時的なセーフハーバーを、州ライセンスのステーブルコイン発行体にも与えるよう求めた。同法は2027年1月18日に施行される。</description>
+    </item>
     <item>
       <title>FRB議事要旨が追加利上げを示唆、ビットコインは6万3000ドル割れ</title>
       <link>https://plainbtc.com/ja/articles/fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026</link>

@@ -1,0 +1,55 @@
+title: Six sénateurs demandent au Trésor de protéger les émetteurs de stablecoins agréés par les États avant l'entrée en vigueur du GENIUS Act
+page_title: Des sénateurs pressent le Trésor sur une protection des stablecoins d'État
+description: Un groupe bipartisan de six sénateurs mené par Cynthia Lummis et Kirsten Gillibrand demande au Trésor d'accorder aux émetteurs de stablecoins régulés par les États la même protection transitoire qu'aux émetteurs fédéraux lorsque le GENIUS Act entrera en vigueur le 18 janvier 2027.
+og_description: Lummis, Gillibrand et quatre collègues estiment que le projet de règle du Trésor sur le GENIUS Act protège pendant la transition les émetteurs sous supervision fédérale, mais laisse de côté ceux agréés par un État. Ce qu'ils demandent et pourquoi c'est important.
+label: Réglementation
+summary: Six sénateurs des deux partis demandent au secrétaire au Trésor Scott Bessent d'accorder aux émetteurs de stablecoins agréés par un État la même protection temporaire que celle prévue pour les émetteurs sous supervision fédérale dans un projet de règle du GENIUS Act, avant son entrée en vigueur le 18 janvier 2027.
+===
+
+Un groupe bipartisan de six sénateurs américains veut que le département du Trésor traite les sociétés de stablecoins agréées par les États comme celles supervisées par les régulateurs fédéraux. Dans une lettre au secrétaire au Trésor Scott Bessent rendue publique le mercredi 18 novembre, les sénateurs Cynthia Lummis (républicaine, Wyoming) et Kirsten Gillibrand (démocrate, New York), rejointes par Angela Alsobrooks (démocrate, Maryland), Kevin Cramer (républicain, Dakota du Nord), Pete Ricketts (républicain, Nebraska) et Mark Warner (démocrate, Virginie), réclament une « protection transitoire » (safe harbor) pour les émetteurs des États, [selon le bureau de Lummis](L1).
+
+Les stablecoins sont des jetons crypto conçus pour valoir en permanence 1 dollar, comme l'USDC. Le GENIUS Act, promulgué le 18 juillet 2025, a créé les premières règles fédérales les concernant. Ses principales règles entrent en vigueur le 18 janvier 2027, selon l'[Office of the Comptroller of the Currency](L3) (OCC), le régulateur bancaire fédéral.
+
+!takeaways
+- Six sénateurs, trois républicains et trois démocrates, demandent au Trésor de protéger les émetteurs de stablecoins agréés par les États à l'entrée en vigueur du GENIUS Act.
+- Selon eux, le projet de règle du Trésor accorde une protection aux émetteurs supervisés par l'OCC, mais pas à ceux des États.
+- La loi permet aux émetteurs ayant 10 milliards de dollars ou moins de stablecoins de choisir un agrément d'État si les règles de cet État sont « substantiellement similaires » aux règles fédérales.
+- Le GENIUS Act entre en vigueur le 18 janvier 2027 ; le Trésor n'a pas encore finalisé sa règle.
+
+!figure:compare
+
+## Ce que demandent les sénateurs
+
+Avec le GENIUS Act, une fois en vigueur, seuls les émetteurs agréés pourront émettre des stablecoins de paiement aux États-Unis. La règle proposée par le Trésor permettrait aux émetteurs ayant une demande en cours auprès d'un régulateur fédéral de continuer à opérer pendant la transition si ce régulateur accorde une dérogation. « La proposition actuelle du Trésor offrirait aux émetteurs de stablecoins ayant des demandes en cours auprès de régulateurs fédéraux une protection transitoire à l'entrée en vigueur des exigences du GENIUS Act, si ce régulateur accorde une dérogation, sans protection équivalente pour les émetteurs des États », ont écrit les sénateurs, [a rapporté The Block](L2).
+
+Ils veulent la même protection pour les émetteurs des États qui ont certifié que leurs règles sont « substantiellement similaires » à la loi fédérale, pendant qu'un nouveau comité fédéral, le Stablecoin Certification Review Committee, examine ces certifications en 2027. Sans cela, les émetteurs agréés par un État pourraient subir des perturbations dès le premier jour en attendant le feu vert fédéral.
+
+« Pour que le Trésor finalise cette proposition d'une manière qui reflète l'intention du Congrès, il doit permettre aux émetteurs de choisir entre un agrément d'État ou fédéral, comme le prévoit le GENIUS Act, sans risque de perturbation de leur activité ni d'incertitude », ont écrit les sénateurs.
+
+!figure:timeline
+
+## Pourquoi les États comptent
+
+Le GENIUS Act laisse le choix aux émetteurs. Les sociétés ayant 10 milliards de dollars ou moins de stablecoins en circulation peuvent opérer sous un régime d'État plutôt que fédéral, à condition que ce régime soit « substantiellement similaire » au cadre fédéral. Le bureau de Lummis indique que le Congrès s'attendait à ce que des États comme le Wyoming, New York et le Nebraska remplissent ces conditions dès le départ, et leur a accordé une procédure de certification accélérée. Le Wyoming a créé son propre agrément pour les banques d'actifs numériques en 2019.
+
+!mid_cta
+
+Ce n'est pas la première démarche de ce type. Dans une [lettre du 16 juin](L4), Lummis, Gillibrand et plusieurs autres sénateurs demandaient déjà au Trésor des consignes écrites claires sur la manière dont les États peuvent être certifiés, en avertissant qu'une date butoir stricte pourrait exclure les États.
+
+Les agences fédérales rédigent encore les règles. L'OCC a publié sa règle finale sur le GENIUS Act le 21 octobre ; elle entre elle aussi en vigueur le 18 janvier 2027. Le Trésor n'a pas dit quand il finaliserait sa propre règle ni s'il y ajouterait une protection pour les États.
+
+## Ce que cela change pour vous
+
+Pour la plupart des détenteurs de stablecoins, rien ne change aujourd'hui. Le débat porte sur les sociétés qui pourront continuer à émettre de nouveaux jetons au démarrage de la loi, et sur la question de savoir si les petits émetteurs agréés par un État auront la même période de transition que ceux sous supervision fédérale. À terme, la loi limitera aussi les plateformes crypto américaines, des grandes plateformes comme [Coinbase](REF) aux petites applications, aux stablecoins d'émetteurs agréés. Si vous détenez des stablecoins, il est utile de savoir qui les émet et qui régule cette société. Ceci n'est pas un conseil financier.
+
+## À surveiller
+
+- Si le Trésor ajoute une protection pour les États en finalisant sa règle sur le GENIUS Act.
+- Quels États déposent une certification indiquant que leurs règles sur les stablecoins sont « substantiellement similaires ».
+- Comment les émetteurs se préparent au démarrage du 18 janvier 2027.
+
+!soft: Les stablecoins, c'est nouveau pour vous ? Voyez comment de grandes banques les testent dans [Des banques engagent 270 millions de dollars dans un stablecoin commun](/articles/banks-270-million-stablecoin-project-faro-nov-2026).
+
+!end_cta
+
+!disclosure

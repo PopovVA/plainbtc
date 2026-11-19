@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Seal_of_the_United_States_Department_of_the_Treasury.svg",
+      "license": "Public domain (U.S. government insignia)",
+      "url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Department_of_the_Treasury.svg",
+      "credit": "U.S. Department of the Treasury"
+    },
+    {
+      "file": "Sen. Lummis press release, Nov. 18, 2026",
+      "license": "Fact cited",
+      "url": "https://www.lummis.senate.gov/press-releases/lummis-gillibrand-colleagues-urge-treasury-to-give-state-stablecoin-issuers-equal-footing-with-federal-issuers/",
+      "credit": "Office of Sen. Cynthia Lummis"
+    }
+  ],
+  "note": "Editorial composite for identification; no endorsement by the U.S. Treasury implied.",
+  "slug": "senators-genius-act-state-stablecoin-safe-harbor-nov-2026",
+  "generated": "2026-11-19T00:09Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

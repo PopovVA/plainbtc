@@ -1,0 +1,55 @@
+title: Sechs Senatoren fordern vom US-Finanzministerium Schutz für bundesstaatlich lizenzierte Stablecoin-Emittenten vor dem Start des GENIUS Act
+page_title: Senatoren drängen auf Schutz für Stablecoin-Emittenten der Bundesstaaten
+description: Eine parteiübergreifende Gruppe von sechs Senatoren um Cynthia Lummis und Kirsten Gillibrand fordert, dass bundesstaatlich regulierte Stablecoin-Emittenten denselben Übergangsschutz erhalten wie bundesweit beaufsichtigte, wenn der GENIUS Act am 18. Januar 2027 in Kraft tritt.
+og_description: Lummis, Gillibrand und vier Kollegen sagen, der Regelentwurf des Finanzministeriums zum GENIUS Act schütze bundesweit beaufsichtigte Stablecoin-Emittenten beim Übergang, lasse aber bundesstaatlich lizenzierte außen vor. Was sie fordern und warum es wichtig ist.
+label: Regulierung
+summary: Sechs Senatoren beider Parteien fordern Finanzminister Scott Bessent auf, bundesstaatlich lizenzierten Stablecoin-Emittenten denselben befristeten Schutz zu gewähren, den bundesweit beaufsichtigte Emittenten in einem Regelentwurf zum GENIUS Act erhalten, bevor das Gesetz am 18. Januar 2027 in Kraft tritt.
+===
+
+Eine parteiübergreifende Gruppe von sechs US-Senatoren will, dass das Finanzministerium Stablecoin-Firmen mit Lizenz eines Bundesstaats genauso behandelt wie solche unter Aufsicht der Bundesbehörden. In einem Brief an Finanzminister Scott Bessent, der am Mittwoch, dem 18. November, veröffentlicht wurde, fordern die Senatorinnen Cynthia Lummis (Republikanerin, Wyoming) und Kirsten Gillibrand (Demokratin, New York) zusammen mit Angela Alsobrooks (Demokratin, Maryland), Kevin Cramer (Republikaner, North Dakota), Pete Ricketts (Republikaner, Nebraska) und Mark Warner (Demokrat, Virginia) einen „Safe Harbor“, also einen Übergangsschutz, für Emittenten der Bundesstaaten, [teilte Lummis' Büro mit](L1).
+
+Stablecoins sind Krypto-Token, die stets 1 $ wert sein sollen, etwa USDC. Der GENIUS Act, am 18. Juli 2025 unterzeichnet, schuf die ersten bundesweiten Regeln für sie. Seine Kernregeln treten am 18. Januar 2027 in Kraft, so das [Office of the Comptroller of the Currency](L3) (OCC), die US-Bankenaufsicht des Bundes.
+
+!takeaways
+- Sechs Senatoren, drei Republikaner und drei Demokraten, fordern vom Finanzministerium Schutz für bundesstaatlich lizenzierte Stablecoin-Emittenten, wenn der GENIUS Act in Kraft tritt.
+- Sie sagen, der Entwurf des Finanzministeriums gewähre OCC-beaufsichtigten Emittenten einen Übergangsschutz, Emittenten der Bundesstaaten aber nicht.
+- Das Gesetz erlaubt Emittenten mit höchstens 10 Mrd. $ an Stablecoins eine Lizenz eines Bundesstaats, wenn dessen Regeln den Bundesregeln „im Wesentlichen ähnlich“ sind.
+- Der GENIUS Act tritt am 18. Januar 2027 in Kraft; das Finanzministerium hat seine Regel noch nicht fertiggestellt.
+
+!figure:compare
+
+## Was die Senatoren fordern
+
+Nach dem GENIUS Act dürfen, sobald er gilt, nur zugelassene Emittenten in den USA Zahlungs-Stablecoins ausgeben. Der Regelentwurf des Finanzministeriums würde Emittenten mit einem laufenden Antrag bei einer Bundesaufsicht erlauben, während des Übergangs weiterzuarbeiten, wenn diese Aufsicht eine Ausnahme gewährt. „Der aktuelle Vorschlag des Finanzministeriums würde Stablecoin-Emittenten mit laufenden Anträgen bei Bundesaufsehern einen Safe Harbor bieten, wenn die Anforderungen des GENIUS Act in Kraft treten, sofern diese Aufsicht eine Ausnahme gewährt, ohne einen entsprechenden Schutz für Emittenten der Bundesstaaten“, schrieben die Senatoren, [berichtete The Block](L2).
+
+Sie wollen denselben Schutz für Emittenten aus Bundesstaaten, die ihre Regeln als „im Wesentlichen ähnlich“ zum Bundesrecht zertifiziert haben, solange ein neues Bundesgremium, das Stablecoin Certification Review Committee, diese Zertifizierungen 2027 prüft. Ohne ihn könnten bundesstaatlich lizenzierte Emittenten schon am ersten Tag Störungen erleben, während sie auf die Zustimmung des Bundes warten.
+
+„Damit das Finanzministerium diesen Vorschlag so fertigstellt, dass er den Willen des Kongresses widerspiegelt, muss es Emittenten erlauben, zwischen einer Lizenz eines Bundesstaats und einer Bundeslizenz zu wählen, wie es der GENIUS Act vorsieht, ohne Risiko von Geschäftsunterbrechungen oder Unsicherheit“, schrieben die Senatoren.
+
+!figure:timeline
+
+## Warum die Bundesstaaten wichtig sind
+
+Der GENIUS Act lässt Emittenten die Wahl. Firmen mit höchstens 10 Mrd. $ an umlaufenden Stablecoins dürfen statt unter Bundesaufsicht unter einem Regime eines Bundesstaats arbeiten, solange dieses dem Bundesrahmen „im Wesentlichen ähnlich“ ist. Lummis' Büro erklärte, der Kongress habe erwartet, dass Staaten wie Wyoming, New York und Nebraska von Anfang an die Kriterien erfüllen, und ihnen ein beschleunigtes Zertifizierungsverfahren gegeben. Wyoming schuf bereits 2019 eine eigene Lizenz für Banken für digitale Vermögenswerte.
+
+!mid_cta
+
+Es ist nicht der erste Vorstoß dieser Art. In einem [Brief vom 16. Juni](L4) baten Lummis, Gillibrand und weitere Senatoren das Finanzministerium um klare schriftliche Vorgaben, wie sich Bundesstaaten zertifizieren lassen können, und warnten, eine starre Frist könnte die Staaten ausschließen.
+
+Die Bundesbehörden schreiben die Regeln noch. Die OCC hat ihre endgültige Regel zum GENIUS Act am 21. Oktober veröffentlicht, auch sie tritt am 18. Januar 2027 in Kraft. Das Finanzministerium hat nicht gesagt, wann es seine eigene Regel fertigstellt oder ob es einen Schutz für die Bundesstaaten aufnimmt.
+
+## Was das für Sie bedeutet
+
+Für die meisten Stablecoin-Besitzer ändert sich heute nichts. In der Debatte geht es darum, welche Firmen nach dem Start des Gesetzes weiter neue Coins ausgeben dürfen und ob kleinere, bundesstaatlich lizenzierte Emittenten dieselbe Übergangszeit bekommen wie bundesweit beaufsichtigte. Mit der Zeit wird das Gesetz auch US-Kryptoplattformen, von großen Börsen wie [Coinbase](REF) bis zu kleineren Apps, auf Stablecoins zugelassener Emittenten beschränken. Wenn Sie Stablecoins halten, lohnt es sich zu wissen, wer Ihre ausgibt und wer diese Firma beaufsichtigt. Dies ist keine Finanzberatung.
+
+## Worauf man achten sollte
+
+- Ob das Finanzministerium beim Fertigstellen seiner GENIUS-Regel einen Schutz für Bundesstaaten aufnimmt.
+- Welche Bundesstaaten zertifizieren, dass ihre Stablecoin-Regeln „im Wesentlichen ähnlich“ sind.
+- Wie sich die Emittenten auf den Start am 18. Januar 2027 vorbereiten.
+
+!soft: Neu bei Stablecoins? Lesen Sie, wie Großbanken sie testen: [Banken stecken 270 Mio. $ in einen gemeinsamen Stablecoin](/articles/banks-270-million-stablecoin-project-faro-nov-2026).
+
+!end_cta
+
+!disclosure

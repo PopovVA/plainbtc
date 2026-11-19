@@ -1,0 +1,61 @@
+title: Ledger confirms tampered hardware wallets in Berlin and is checking two more in Dubai
+page_title: Ledger confirms tampered wallets in Berlin, probes Dubai
+description: Ledger says tampered hardware wallets built to steal recovery phrases have now turned up in Berlin, and it is investigating two suspected units bought in Dubai. What happened, who is at risk and what to do if you bought a Ledger from a store.
+og_description: Ledger says the hardware implant attack it first found in Southeast Asia has reached Berlin, with two suspected units in Dubai. No flaw in its chip, it says, but buyers from resellers should check their devices.
+label: Security
+summary: Ledger says tampered hardware wallets designed to capture recovery phrases have been confirmed in Berlin, and it is investigating two suspected units bought in Dubai. The company calls it the same incident it first disclosed in October.
+===
+
+Ledger, one of the best-known makers of crypto hardware wallets, says tampered devices are no longer limited to Southeast Asia. In an update on its support site on Wednesday, Nov. 18, the French company said it had confirmed a few tampered units in Berlin and was investigating reports of two more in Dubai, [Decrypt reported](L1). "Our findings since then show tampered devices outside Southeast Asia. It is the same incident," Ledger said.
+
+A hardware wallet is a small device that keeps the keys to your crypto offline. Its main promise is that your 24-word recovery phrase, the master key that can restore and empty a wallet, never leaves the device. The tampered units break that promise: Ledger says every confirmed case carries the same physical modification, "built to capture the recovery phrase during setup."
+
+!takeaways
+- Ledger says it has confirmed a few tampered devices in Berlin, all bought locally, and is checking two suspected units from Dubai.
+- It also found one affected Ledger Nano Gen5 among the Southeast Asian resellers it paused in October.
+- Ledger says there is no flaw in its secure chip or operating system and no confirmed case involving a device bought on ledger.com.
+- The company expects more tampered devices to surface and offers free inspections, including X-rays, for a limited time.
+
+!figure:timeline
+
+## How the attack works
+
+The problem started in October. In a [blog post on Oct. 15](L3), Ledger said a "highly organized criminal group" spent months buying genuine Ledger devices, opening them, fitting hidden components that capture the recovery phrase during setup, and putting them back on sale through resellers in Southeast Asia. Once the phrase was captured, the thieves could empty the wallet from anywhere. On-chain investigators traced a suspected drain of about $87 million from hundreds of wallets across Ethereum, Tron and Bitcoin, according to Decrypt.
+
+Ledger stresses that its own chip, software and servers were not hacked. The attack happened in the distribution channel, after the devices left the company's control. At the time, Ledger asked authorized resellers in Southeast Asia and Hong Kong to suspend sales.
+
+## Berlin and Dubai
+
+In Germany, Ledger said the tampered units it confirmed were all localized to Berlin, and it urged anyone who bought a Ledger there from a third party since January 2026 to contact its support team, according to [CyberSIXT](L2), which summarized the update. The company did not say how many devices were affected, did not name the stores, and did not say where the devices were modified.
+
+In Dubai, Ledger said it is working with distribution partners to learn how two suspected units entered circulation. Both were reportedly bought at Virgin Megastore. One owner said about 1,300 SOL was drained from a Ledger Flex bought at the chain's Dubai Mall store on Sept. 13; an open-source tracker run by former Mt. Gox CEO Mark Karpelès confirmed a hidden implant from photos of the opened device, [Unchained reported](L4). A second owner says 507,000 USDT was taken from a Ledger Stax bought on Oct. 11. That device has not been opened yet, so the implant is only suspected; the owner says it is sealed for a court-appointed lab, according to the [tracker's report](L5).
+
+!figure:fact
+
+Ledger's reseller directory for the United Arab Emirates now lists Virgin Megastores' Ledger sales as temporarily paused, [The Defiant reported](L6).
+
+!mid_cta
+
+## The question of losses
+
+Ledger's update gives no figure for total losses and does not address compensation. In a reply to Ledger's post, blockchain investigator ZachXBT asked who would cover the losses of victims who "trusted your official resellers," and put those losses at more than $105 million. Ledger has not confirmed that number.
+
+The incident adds to a rough stretch for hardware wallet makers. Rival Trezor said this week that hackers who breached a shipping partner likely took information tied to about 27,000 orders.
+
+## What it means for you
+
+If you bought a Ledger directly from ledger.com, Ledger says there is no confirmed case involving those devices. If you bought one from a store or reseller in Southeast Asia, in Berlin since January 2026, or in Dubai, and you are worried, Ledger's advice is to stop using it, contact Ledger Support, and not open the device yourself. Move your funds to a new wallet whose recovery phrase was created on a device bought directly from the maker, and do not reuse the old phrase or passphrase, because a tampered device can capture both. Ledger also suggests filing a report with local police.
+
+The simplest rule for any hardware wallet: buy it from the manufacturer's own website, and never type your recovery phrase anywhere else. Ledger says it will never ask for your 24 words, so any message that does is a scam. If you are still learning, some beginners keep small amounts on a large regulated exchange such as [Coinbase](REF) before moving to self-custody. That choice has its own risks, and this is not financial advice.
+
+## What to watch next
+
+- Whether Ledger publishes how many devices were tampered with and how they reached stores in Berlin and Dubai.
+- Lab results from the sealed Ledger Stax in Dubai.
+- Any statement from Ledger on compensating victims.
+
+!soft: New to wallets? Read [What is a crypto wallet: custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

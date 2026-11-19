@@ -1,0 +1,55 @@
+title: Altı senatör, GENIUS Yasası başlamadan önce Hazine'den eyalet lisanslı stablecoin ihraççılarını korumasını istedi
+page_title: Senatörler Hazine'den eyalet stablecoin ihraççılarına güvenli liman istiyor
+description: Cynthia Lummis ve Kirsten Gillibrand liderliğindeki iki partili altı senatör, GENIUS Yasası 18 Ocak 2027'de yürürlüğe girdiğinde eyaletlerce düzenlenen stablecoin ihraççılarına federal ihraççılarla aynı güvenli limanın tanınmasını Hazine'den istedi.
+og_description: Lummis, Gillibrand ve dört meslektaşı, Hazine'nin GENIUS Yasası taslağının geçiş döneminde federal denetimdeki stablecoin ihraççılarını koruduğunu ama eyalet lisanslıları açıkta bıraktığını söylüyor. Ne istediler ve neden önemli?
+label: Düzenleme
+summary: İki partiden altı senatör, Hazine Bakanı Scott Bessent'ten, GENIUS Yasası taslağında federal denetimdeki ihraççılara tanınan geçici güvenli limanın eyalet lisanslı stablecoin ihraççılarına da tanınmasını istedi; yasa 18 Ocak 2027'de yürürlüğe giriyor.
+===
+
+İki partili altı ABD senatöründen oluşan bir grup, Hazine Bakanlığı'nın eyaletlerden lisans alan stablecoin şirketlerine federal düzenleyicilerin denetimindeki şirketlerle aynı şekilde davranmasını istiyor. 18 Kasım Çarşamba günü yayımlanan ve Hazine Bakanı Scott Bessent'e gönderilen mektupta senatörler Cynthia Lummis (Cumhuriyetçi, Wyoming) ve Kirsten Gillibrand (Demokrat, New York), Angela Alsobrooks (Demokrat, Maryland), Kevin Cramer (Cumhuriyetçi, Kuzey Dakota), Pete Ricketts (Cumhuriyetçi, Nebraska) ve Mark Warner (Demokrat, Virginia) ile birlikte eyalet ihraççıları için bir "güvenli liman" talep etti, [Lummis'in ofisinin açıklamasına göre](L1).
+
+Stablecoin'ler, USDC gibi her zaman 1 $ değerinde kalması amaçlanan kripto token'lardır. 18 Temmuz 2025'te imzalanan GENIUS Yasası, bunlar için ilk federal kuralları getirdi. Federal banka düzenleyicisi [Para Denetim Ofisi'ne](L3) (OCC) göre yasanın temel kuralları 18 Ocak 2027'de yürürlüğe giriyor.
+
+!takeaways
+- Üçü Cumhuriyetçi, üçü Demokrat altı senatör, GENIUS Yasası yürürlüğe girdiğinde eyalet lisanslı stablecoin ihraççılarının korunmasını Hazine'den istedi.
+- Senatörlere göre Hazine'nin taslağı OCC denetimindeki ihraççılara güvenli liman tanıyor, eyalet ihraççılarına tanımıyor.
+- Yasa, dolaşımda 10 milyar $ veya daha az stablecoin'i olan ihraççıların, eyalet kuralları federal kurallara "büyük ölçüde benzer" ise eyalet lisansını seçmesine izin veriyor.
+- GENIUS Yasası 18 Ocak 2027'de yürürlüğe giriyor; Hazine kuralını henüz kesinleştirmedi.
+
+!figure:compare
+
+## Senatörler ne istedi
+
+GENIUS Yasası yürürlüğe girdikten sonra ABD'de ödeme stablecoin'i yalnızca onaylı ihraççılar çıkarabilecek. Hazine'nin önerdiği kural, bir federal düzenleyicide bekleyen başvurusu olan ihraççıların, o düzenleyici muafiyet verirse geçiş döneminde faaliyetlerini sürdürmesine izin veriyor. Senatörler, "Hazine'nin mevcut önerisi, GENIUS Yasası'nın gereklilikleri yürürlüğe girerken federal düzenleyicilerde bekleyen başvurusu olan stablecoin ihraççılarına, düzenleyici muafiyet verirse, güvenli liman sunuyor; eyalet ihraççıları için buna karşılık gelen bir koruma yok" diye yazdı, [The Block'un aktardığına göre](L2).
+
+Senatörler, yeni bir federal kurul olan Stablecoin Sertifikasyon İnceleme Komitesi 2027'de sertifikaları incelerken, kurallarının federal yasaya "büyük ölçüde benzer" olduğunu onaylayan eyaletlerdeki ihraççılara da aynı korumanın verilmesini istiyor. Bu olmazsa eyalet lisanslı ihraççılar federal onayı beklerken ilk günden aksaklıklarla karşılaşabilir.
+
+Senatörler, "Hazine'nin bu öneriyi Kongre'nin amacını yansıtacak şekilde kesinleştirmesi için, ihraççıların GENIUS Yasası'nda öngörüldüğü gibi iş kesintisi ya da belirsizlik riski olmadan eyalet veya federal lisans arasında seçim yapmasına izin vermesi gerekir" diye yazdı.
+
+!figure:timeline
+
+## Eyaletler neden önemli
+
+GENIUS Yasası ihraççılara bir seçim hakkı veriyor. Dolaşımda 10 milyar $ veya daha az stablecoin'i olan şirketler, eyalet rejimi federal çerçeveye "büyük ölçüde benzer" olduğu sürece federal yerine eyalet rejimi altında faaliyet gösterebiliyor. Lummis'in ofisi, Kongre'nin Wyoming, New York ve Nebraska gibi eyaletlerin baştan itibaren bu şartı karşılamasını beklediğini ve onlara daha hızlı bir sertifikasyon süreci tanıdığını söyledi. Wyoming, dijital varlık bankaları için kendi lisansını 2019'da oluşturmuştu.
+
+!mid_cta
+
+Bu ilk girişim değil. Lummis, Gillibrand ve diğer bazı senatörler [16 Haziran tarihli mektupta](L4) Hazine'den eyaletlerin nasıl sertifika alabileceğine dair açık yazılı rehberlik istemiş ve katı bir son tarihin eyaletleri dışarıda bırakabileceği uyarısında bulunmuştu.
+
+Federal kurumlar kuralları hâlâ yazıyor. OCC, GENIUS Yasası'na ilişkin nihai kuralını 21 Ekim'de yayımladı; bu kural da 18 Ocak 2027'de yürürlüğe giriyor. Hazine, kendi kuralını ne zaman kesinleştireceğini ya da eyaletler için güvenli liman ekleyip eklemeyeceğini açıklamadı.
+
+## Sizin için ne anlama geliyor
+
+Stablecoin tutanların çoğu için bugün hiçbir şey değişmiyor. Tartışma, yasa başladığında hangi şirketlerin yeni coin çıkarmaya devam edebileceği ve eyalet lisanslı küçük ihraççıların federal denetimdekilerle aynı geçiş süresini alıp almayacağı üzerine. Zamanla yasa, [Coinbase](REF) gibi büyük borsalardan küçük uygulamalara kadar ABD'deki kripto platformlarını da onaylı ihraççıların stablecoin'leriyle sınırlayacak. Stablecoin tutuyorsanız, sizinkini kimin çıkardığını ve o şirketi kimin denetlediğini bilmekte fayda var. Bu bir finansal tavsiye değildir.
+
+## Bundan sonra neye bakmalı
+
+- Hazine'nin GENIUS Yasası kuralını kesinleştirirken eyaletler için güvenli liman ekleyip eklemeyeceği.
+- Hangi eyaletlerin stablecoin kurallarının "büyük ölçüde benzer" olduğuna dair sertifika sunacağı.
+- İhraççıların 18 Ocak 2027 başlangıcına nasıl hazırlandığı.
+
+!soft: Stablecoin'lerde yeni misiniz? Büyük bankaların onları nasıl test ettiğine bakın: [Bankalar ortak bir stablecoin için 270 milyon $ ayırdı](/articles/banks-270-million-stablecoin-project-faro-nov-2026).
+
+!end_cta
+
+!disclosure

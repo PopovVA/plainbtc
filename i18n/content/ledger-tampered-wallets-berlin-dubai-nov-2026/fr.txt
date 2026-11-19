@@ -1,0 +1,61 @@
+title: Ledger confirme des portefeuilles matériels piégés à Berlin et en examine deux autres à Dubaï
+page_title: Ledger confirme des portefeuilles piégés à Berlin, enquête à Dubaï
+description: Ledger indique que des portefeuilles matériels piégés pour voler la phrase de récupération sont apparus à Berlin et qu'il enquête sur deux appareils suspects achetés à Dubaï. Ce qui s'est passé, qui est concerné et que faire si vous avez acheté un Ledger en magasin.
+og_description: Ledger affirme que l'attaque par implant découverte d'abord en Asie du Sud-Est a atteint Berlin, avec deux appareils suspects à Dubaï. Aucune faille dans sa puce selon l'entreprise, mais les acheteurs passés par des revendeurs doivent vérifier leur appareil.
+label: Sécurité
+summary: Ledger dit avoir confirmé à Berlin des portefeuilles matériels piégés pour capturer la phrase de récupération et enquête sur deux appareils suspects achetés à Dubaï. L'entreprise parle du même incident que celui révélé en octobre.
+===
+
+Ledger, l'un des fabricants de portefeuilles matériels crypto les plus connus, affirme que les appareils piégés ne se limitent plus à l'Asie du Sud-Est. Dans une mise à jour publiée sur son site d'assistance le mercredi 18 novembre, l'entreprise française a indiqué avoir confirmé quelques appareils piégés à Berlin et enquêter sur des signalements concernant deux autres à Dubaï, [a rapporté Decrypt](L1). « Nos constatations depuis montrent des appareils piégés hors d'Asie du Sud-Est. C'est le même incident », a déclaré Ledger.
+
+Un portefeuille matériel est un petit appareil qui garde hors ligne les clés de vos cryptomonnaies. Sa grande promesse : votre phrase de récupération de 24 mots, la clé maîtresse qui permet de restaurer et de vider un portefeuille, ne quitte jamais l'appareil. Les appareils piégés brisent cette promesse : selon Ledger, tous les cas confirmés portent la même modification physique, « conçue pour capturer la phrase de récupération lors de la configuration ».
+
+!takeaways
+- Ledger dit avoir confirmé quelques appareils piégés à Berlin, tous achetés sur place, et examine deux appareils suspects venant de Dubaï.
+- L'entreprise a aussi trouvé un Ledger Nano Gen5 touché chez les revendeurs d'Asie du Sud-Est suspendus en octobre.
+- Ledger assure qu'il n'y a aucune faille dans sa puce sécurisée ni dans son système d'exploitation, et aucun cas confirmé avec un appareil acheté sur ledger.com.
+- L'entreprise s'attend à découvrir d'autres appareils piégés et propose des inspections gratuites, radiographies comprises, pendant une durée limitée.
+
+!figure:timeline
+
+## Comment fonctionne l'attaque
+
+Le problème a commencé en octobre. Dans un [billet de blog du 15 octobre](L3), Ledger expliquait qu'un « groupe criminel très organisé » avait passé des mois à acheter de vrais appareils Ledger, à les ouvrir, à y installer des composants cachés capturant la phrase de récupération lors de la configuration, puis à les remettre en vente via des revendeurs d'Asie du Sud-Est. Une fois la phrase récupérée, les voleurs pouvaient vider le portefeuille depuis n'importe où. Des enquêteurs qui analysent la blockchain ont retracé un vol présumé d'environ 87 millions de dollars sur des centaines de portefeuilles sur Ethereum, Tron et Bitcoin, selon Decrypt.
+
+Ledger insiste sur le fait que sa puce, ses logiciels et ses serveurs n'ont pas été piratés. L'attaque a eu lieu dans le circuit de distribution, une fois les appareils sortis du contrôle de l'entreprise. Ledger avait alors demandé à ses revendeurs agréés d'Asie du Sud-Est et de Hong Kong de suspendre leurs ventes.
+
+## Berlin et Dubaï
+
+En Allemagne, Ledger a indiqué que les appareils piégés confirmés étaient tous localisés à Berlin et a invité toute personne ayant acheté un Ledger auprès d'un tiers dans cette ville depuis janvier 2026 à contacter son assistance, selon [CyberSIXT](L2), qui a résumé la mise à jour. L'entreprise n'a pas précisé combien d'appareils sont concernés, n'a pas nommé les magasins et n'a pas dit où les appareils ont été modifiés.
+
+À Dubaï, Ledger dit travailler avec ses partenaires de distribution pour comprendre comment deux appareils suspects sont entrés en circulation. D'après plusieurs sources, les deux ont été achetés chez Virgin Megastore. Un propriétaire affirme s'être fait vider environ 1 300 SOL d'un Ledger Flex acheté le 13 septembre dans le magasin de l'enseigne au Dubai Mall ; un outil de suivi open source géré par Mark Karpelès, ancien patron de Mt. Gox, a confirmé la présence d'un implant caché à partir de photos de l'appareil ouvert, [a rapporté Unchained](L4). Un second propriétaire dit s'être fait voler 507 000 USDT sur un Ledger Stax acheté le 11 octobre. Cet appareil n'a pas encore été ouvert, l'implant n'est donc que soupçonné ; son propriétaire dit l'avoir mis sous scellés pour un laboratoire désigné par un tribunal, selon le [rapport de l'outil de suivi](L5).
+
+!figure:fact
+
+L'annuaire des revendeurs Ledger pour les Émirats arabes unis indique désormais que les ventes de Ledger chez Virgin Megastores sont temporairement suspendues, [a rapporté The Defiant](L6).
+
+!mid_cta
+
+## La question des pertes
+
+La mise à jour de Ledger ne donne aucun chiffre global des pertes et n'aborde pas l'indemnisation. En réponse au message de Ledger, l'enquêteur blockchain ZachXBT a demandé qui couvrirait les pertes des victimes qui « ont fait confiance à vos revendeurs officiels », les estimant à plus de 105 millions de dollars. Ledger n'a pas confirmé ce chiffre.
+
+L'incident s'ajoute à une période difficile pour les fabricants de portefeuilles matériels. Son concurrent Trezor a indiqué cette semaine que des pirates ayant visé un partenaire logistique avaient probablement obtenu des données liées à environ 27 000 commandes.
+
+## Ce que cela change pour vous
+
+Si vous avez acheté votre Ledger directement sur ledger.com, Ledger affirme qu'aucun cas n'a été confirmé avec ces appareils. Si vous l'avez acheté dans un magasin ou chez un revendeur en Asie du Sud-Est, à Berlin depuis janvier 2026 ou à Dubaï, et que vous êtes inquiet, Ledger conseille d'arrêter de l'utiliser, de contacter son assistance et de ne pas ouvrir l'appareil vous-même. Transférez vos fonds vers un nouveau portefeuille dont la phrase de récupération a été créée sur un appareil acheté directement auprès du fabricant, et ne réutilisez ni l'ancienne phrase ni la phrase secrète supplémentaire, car un appareil piégé peut capturer les deux. Ledger suggère aussi de porter plainte auprès de la police locale.
+
+La règle la plus simple pour tout portefeuille matériel : achetez-le sur le site officiel du fabricant et ne tapez jamais votre phrase de récupération ailleurs. Ledger dit qu'il ne vous demandera jamais vos 24 mots ; tout message qui le fait est une arnaque. Si vous débutez, certains gardent de petites sommes sur une grande plateforme régulée comme [Coinbase](REF) avant de passer à l'auto-conservation. Ce choix comporte ses propres risques, et ceci n'est pas un conseil financier.
+
+## À surveiller
+
+- Si Ledger publie le nombre d'appareils piégés et la façon dont ils sont arrivés dans des magasins de Berlin et de Dubaï.
+- Les résultats du laboratoire sur le Ledger Stax mis sous scellés à Dubaï.
+- Toute annonce de Ledger sur l'indemnisation des victimes.
+
+!soft: Nouveau dans l'univers des portefeuilles ? Lisez [Qu'est-ce qu'un portefeuille crypto : dépositaire ou auto-conservation](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

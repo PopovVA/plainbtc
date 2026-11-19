@@ -3778,7 +3778,120 @@ def build_binance_adgm_order():
     ]
 
 
+def build_ledger_berlin_dubai():
+    slug = "ledger-tampered-wallets-berlin-dubai-nov-2026"
+    d = OUT / slug
+    # Ledger blog Oct 15, 2026; Ledger Implant OSINT reports (Nov 16-18, 2026); Ledger support update Nov 18, 2026 via Decrypt/CyberSIXT.
+    tl = make_timeline_card(
+        d / "timeline-ledger-implant-cases",
+        "Ledger implant attack: how it spread",
+        [
+            ("Oct. 15", "Ledger discloses tampered devices sold via Southeast Asian resellers", (96, 165, 250)),
+            ("Nov. 14", "Owner reports 507,000 USDT drained from a Ledger Stax bought in Dubai", (248, 113, 113)),
+            ("Nov. 16", "Photos show an implant in a Ledger Flex bought in Dubai, per tracker", (248, 113, 113)),
+            ("Nov. 18", "Ledger confirms tampered units in Berlin, probes two in Dubai", GREEN),
+        ],
+        footer="Ledger · Ledger Implant OSINT · Decrypt",
+        margin=170, wrap_w=250,
+    )
+    fact = make_fact_card(
+        d / "fact-ledger-same-incident",
+        "Ledger update, Nov. 18, 2026",
+        "\u201cIt is the same incident\u201d",
+        "Tampered devices now found outside Southeast Asia, built to capture the recovery phrase during setup.",
+        footer="Ledger support update via Decrypt and CyberSIXT",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: Oct. 15, Ledger discloses tampered devices sold via Southeast Asian resellers; Nov. 14, an owner reports 507,000 USDT drained from a Ledger Stax bought in Dubai; Nov. 16, photos show an implant in a Ledger Flex bought in Dubai, according to an open-source tracker; Nov. 18, Ledger confirms tampered units in Berlin and investigates two in Dubai", {
+            "es": "Cronología: 15 de octubre, Ledger revela dispositivos manipulados vendidos por revendedores del Sudeste Asiático; 14 de noviembre, un usuario denuncia el robo de 507.000 USDT de una Ledger Stax comprada en Dubái; 16 de noviembre, unas fotos muestran un implante en una Ledger Flex comprada en Dubái, según un rastreador de código abierto; 18 de noviembre, Ledger confirma unidades manipuladas en Berlín e investiga dos en Dubái",
+            "pt": "Linha do tempo: 15 de outubro, a Ledger revela dispositivos adulterados vendidos por revendedores do Sudeste Asiático; 14 de novembro, um dono relata o roubo de 507.000 USDT de uma Ledger Stax comprada em Dubai; 16 de novembro, fotos mostram um implante em uma Ledger Flex comprada em Dubai, segundo um rastreador de código aberto; 18 de novembro, a Ledger confirma unidades adulteradas em Berlim e investiga duas em Dubai",
+            "fr": "Chronologie : 15 octobre, Ledger révèle des appareils piégés vendus par des revendeurs d'Asie du Sud-Est ; 14 novembre, un propriétaire signale le vol de 507 000 USDT sur un Ledger Stax acheté à Dubaï ; 16 novembre, des photos montrent un implant dans un Ledger Flex acheté à Dubaï, selon un outil de suivi open source ; 18 novembre, Ledger confirme des appareils piégés à Berlin et enquête sur deux à Dubaï",
+            "de": "Zeitleiste: 15. Oktober, Ledger macht manipulierte Geräte von Händlern in Südostasien öffentlich; 14. November, ein Besitzer meldet den Diebstahl von 507.000 USDT von einem in Dubai gekauften Ledger Stax; 16. November, Fotos zeigen laut einem Open-Source-Tracker ein Implantat in einem in Dubai gekauften Ledger Flex; 18. November, Ledger bestätigt manipulierte Geräte in Berlin und prüft zwei in Dubai",
+            "ru": "Хронология: 15 октября Ledger сообщает о вскрытых устройствах, проданных реселлерами в Юго-Восточной Азии; 14 ноября владелец сообщает о краже 507 000 USDT с Ledger Stax, купленного в Дубае; 16 ноября фото показывают имплант в Ledger Flex, купленном в Дубае, по данным открытого трекера; 18 ноября Ledger подтверждает вскрытые устройства в Берлине и проверяет два в Дубае",
+            "tr": "Zaman çizelgesi: 15 Ekim, Ledger Güneydoğu Asya'daki bayiler üzerinden satılan kurcalanmış cihazları açıklıyor; 14 Kasım, bir kullanıcı Dubai'den alınan Ledger Stax'tan 507.000 USDT çalındığını bildiriyor; 16 Kasım, açık kaynaklı bir takipçiye göre fotoğraflar Dubai'den alınan bir Ledger Flex'te implant olduğunu gösteriyor; 18 Kasım, Ledger Berlin'de kurcalanmış cihazları doğruluyor ve Dubai'deki iki cihazı inceliyor",
+            "id": "Lini masa: 15 Oktober, Ledger mengungkap perangkat yang dimodifikasi dan dijual lewat pengecer di Asia Tenggara; 14 November, seorang pemilik melaporkan 507.000 USDT dikuras dari Ledger Stax yang dibeli di Dubai; 16 November, foto menunjukkan implan di Ledger Flex yang dibeli di Dubai, menurut pelacak sumber terbuka; 18 November, Ledger memastikan unit yang dimodifikasi di Berlin dan menyelidiki dua unit di Dubai",
+            "ja": "時系列：10月15日、Ledgerが東南アジアの販売店経由で売られた改ざん端末を公表。11月14日、ドバイで買ったLedger Staxから50万7000USDTが盗まれたと所有者が報告。11月16日、オープンソースの追跡サイトによると、ドバイで買ったLedger Flexの写真にインプラントが写る。11月18日、Ledgerがベルリンでの改ざん端末を確認し、ドバイの2台を調査",
+            "ko": "타임라인: 10월 15일 렛저, 동남아 리셀러를 통해 팔린 조작 기기 공개; 11월 14일 두바이에서 산 렛저 스택스에서 50만7000 USDT가 빠져나갔다고 소유자 보고; 11월 16일 오픈소스 추적 사이트에 따르면 두바이에서 산 렛저 플렉스 사진에서 임플란트 확인; 11월 18일 렛저, 베를린의 조작 기기 확인 및 두바이 2대 조사",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Ledger, Ledger Implant OSINT, Decrypt")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: Ledger's Nov. 18, 2026 update says \"It is the same incident\": tampered devices are now found outside Southeast Asia, built to capture the recovery phrase during setup", {
+            "es": "Tarjeta de datos: la actualización de Ledger del 18 de noviembre de 2026 dice «Es el mismo incidente»: ahora hay dispositivos manipulados fuera del Sudeste Asiático, preparados para capturar la frase de recuperación durante la configuración",
+            "pt": "Cartão de dados: a atualização da Ledger de 18 de novembro de 2026 diz \"É o mesmo incidente\": agora há dispositivos adulterados fora do Sudeste Asiático, feitos para capturar a frase de recuperação durante a configuração",
+            "fr": "Fiche : la mise à jour de Ledger du 18 novembre 2026 indique « C'est le même incident » : des appareils piégés apparaissent hors d'Asie du Sud-Est, conçus pour capturer la phrase de récupération lors de la configuration",
+            "de": "Faktenkarte: Ledgers Update vom 18. November 2026 sagt „Es ist derselbe Vorfall“: Manipulierte Geräte tauchen jetzt außerhalb Südostasiens auf und sollen bei der Einrichtung die Wiederherstellungsphrase abgreifen",
+            "ru": "Карточка: в обновлении Ledger от 18 ноября 2026 года сказано «Это тот же инцидент»: вскрытые устройства теперь найдены за пределами Юго-Восточной Азии, они перехватывают сид-фразу при настройке",
+            "tr": "Bilgi kartı: Ledger'ın 18 Kasım 2026 güncellemesi \"Aynı olay\" diyor: kurcalanmış cihazlar artık Güneydoğu Asya dışında da bulunuyor ve kurulum sırasında kurtarma ifadesini ele geçirmek için tasarlanmış",
+            "id": "Kartu fakta: pembaruan Ledger 18 November 2026 menyebut \"Ini insiden yang sama\": perangkat yang dimodifikasi kini ditemukan di luar Asia Tenggara, dibuat untuk menangkap frasa pemulihan saat pengaturan",
+            "ja": "ファクトカード：Ledgerの2026年11月18日の更新は「同じ事件だ」としている。改ざん端末は東南アジア以外でも見つかり、設定時にリカバリーフレーズを盗むよう作られている",
+            "ko": "팩트 카드: 렛저의 2026년 11월 18일 업데이트는 \"같은 사건\"이라고 밝힘. 조작 기기가 동남아 밖에서도 발견됐으며 설정 중 복구 문구를 가로채도록 만들어짐",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Ledger via Decrypt, CyberSIXT")},
+    ]
+
+
+def build_genius_state_safe_harbor():
+    slug = "senators-genius-act-state-stablecoin-safe-harbor-nov-2026"
+    d = OUT / slug
+    # Sen. Lummis press release Nov 18, 2026; The Block Nov 18, 2026; OCC Bulletin 2026-50 (Oct 21, 2026).
+    cmp_ = make_compare_card(
+        d / "compare-genius-federal-vs-state",
+        "GENIUS Act start: federal vs. state issuers",
+        "Federal path", "State-licensed",
+        [
+            ("Who", "Issuers with pending federal applications", "Issuers with $10B or less under state rules"),
+            ("Safe harbor", "Yes, in Treasury's draft rule (with a waiver)", "No; six senators ask Treasury to add one"),
+            ("Start date", "Jan. 18, 2027", "Jan. 18, 2027; state certifications reviewed in 2027"),
+        ],
+        footer="Sen. Lummis press release, The Block, OCC",
+    )
+    tl = make_timeline_card(
+        d / "timeline-genius-act",
+        "GENIUS Act: key dates",
+        [
+            ("Jul 2025", "GENIUS Act signed into law (July 18)", (96, 165, 250)),
+            ("Jun 2026", "Senators ask Treasury for clear state rules (June 16)", (148, 163, 184)),
+            ("Oct 2026", "OCC issues its final GENIUS rule (Oct. 21)", (96, 165, 250)),
+            ("Nov 2026", "Six senators ask for a state safe harbor (Nov. 18)", GREEN),
+            ("Jan 2027", "GENIUS Act takes effect (Jan. 18)", ORANGE),
+        ],
+        footer="OCC · Sen. Lummis · The Block",
+        margin=150, wrap_w=200,
+    )
+    return [
+        {"id": "compare", "file": cmp_.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Comparison card: issuers with pending federal applications get a safe harbor in Treasury's draft GENIUS Act rule if their regulator grants a waiver; state-licensed issuers with $10 billion or less do not, and six senators ask Treasury to add one; both face the Jan. 18, 2027 start date, with state certifications reviewed in 2027", {
+            "es": "Tarjeta comparativa: los emisores con solicitudes federales pendientes reciben un puerto seguro en el borrador de Tesorería para la Ley GENIUS si su regulador concede una exención; los emisores con licencia estatal y 10.000 millones de dólares o menos no, y seis senadores piden a Tesorería que lo añada; ambos afrontan el inicio del 18 de enero de 2027, con certificaciones estatales revisadas en 2027",
+            "pt": "Cartão comparativo: emissores com pedidos federais pendentes recebem um porto seguro na minuta do Tesouro para a Lei GENIUS se o regulador conceder uma dispensa; emissores com licença estadual e até US$ 10 bilhões não, e seis senadores pedem que o Tesouro inclua um; ambos enfrentam o início em 18 de janeiro de 2027, com certificações estaduais analisadas em 2027",
+            "fr": "Fiche comparative : les émetteurs ayant une demande fédérale en cours bénéficient d'une protection transitoire dans le projet de règle du Trésor sur le GENIUS Act si leur régulateur accorde une dérogation ; les émetteurs agréés par un État jusqu'à 10 milliards de dollars n'en ont pas, et six sénateurs demandent au Trésor d'en ajouter une ; tous font face au 18 janvier 2027, les certifications des États étant examinées en 2027",
+            "de": "Vergleichskarte: Emittenten mit laufendem Bundesantrag erhalten im Entwurf des Finanzministeriums zum GENIUS Act einen Schutz, wenn ihre Aufsicht eine Ausnahme gewährt; bundesstaatlich lizenzierte Emittenten mit höchstens 10 Mrd. $ nicht, und sechs Senatoren fordern einen; für beide gilt der Start am 18. Januar 2027, die Zertifizierungen der Bundesstaaten werden 2027 geprüft",
+            "ru": "Сравнение: эмитенты с поданными федеральными заявками получают «безопасную гавань» в проекте правил Минфина по закону GENIUS, если регулятор даст освобождение; эмитенты с лицензией штата и объёмом до $10 млрд — нет, и шесть сенаторов просят Минфин это исправить; для всех старт 18 января 2027 года, сертификаты штатов будут проверять в 2027 году",
+            "tr": "Karşılaştırma kartı: federal başvurusu bekleyen ihraççılar, düzenleyicileri muafiyet verirse Hazine'nin GENIUS Yasası taslağında güvenli liman alıyor; 10 milyar $ veya altındaki eyalet lisanslı ihraççılar almıyor ve altı senatör Hazine'den bunu eklemesini istiyor; her ikisi için başlangıç 18 Ocak 2027, eyalet sertifikaları 2027'de incelenecek",
+            "id": "Kartu perbandingan: penerbit dengan permohonan federal yang tertunda mendapat safe harbor dalam rancangan aturan Departemen Keuangan untuk UU GENIUS jika regulatornya memberi pengecualian; penerbit berizin negara bagian dengan US$10 miliar atau kurang tidak, dan enam senator meminta Departemen Keuangan menambahkannya; keduanya menghadapi tanggal mulai 18 Januari 2027, dengan sertifikasi negara bagian ditinjau pada 2027",
+            "ja": "比較カード：連邦の申請中の発行体は、規制当局が適用除外を認めれば財務省のGENIUS法規則案でセーフハーバーを得る。100億ドル以下の州ライセンスの発行体は対象外で、上院議員6人が追加を求める。どちらも2027年1月18日に施行を迎え、州の認証は2027年に審査される",
+            "ko": "비교 카드: 연방 신청이 계류 중인 발행사는 규제기관이 면제를 주면 재무부 GENIUS법 규칙안에서 세이프하버를 받음; 100억 달러 이하 주 라이선스 발행사는 받지 못하며 상원의원 6명이 추가를 요청; 둘 다 2027년 1월 18일 시행을 맞고 주 인증은 2027년에 심사됨",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Sen. Lummis press release, The Block, OCC")},
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: July 18, 2025, GENIUS Act signed into law; June 16, 2026, senators ask Treasury for clear rules on state certification; Oct. 21, 2026, the OCC issues its final GENIUS Act rule; Nov. 18, 2026, six senators ask Treasury for a state safe harbor; Jan. 18, 2027, the GENIUS Act takes effect", {
+            "es": "Cronología: 18 de julio de 2025, se firma la Ley GENIUS; 16 de junio de 2026, varios senadores piden a Tesorería reglas claras para la certificación estatal; 21 de octubre de 2026, la OCC publica su norma final; 18 de noviembre de 2026, seis senadores piden un puerto seguro para los estados; 18 de enero de 2027, entra en vigor la Ley GENIUS",
+            "pt": "Linha do tempo: 18 de julho de 2025, a Lei GENIUS é sancionada; 16 de junho de 2026, senadores pedem ao Tesouro regras claras para a certificação estadual; 21 de outubro de 2026, o OCC publica sua regra final; 18 de novembro de 2026, seis senadores pedem um porto seguro para os estados; 18 de janeiro de 2027, a Lei GENIUS entra em vigor",
+            "fr": "Chronologie : 18 juillet 2025, promulgation du GENIUS Act ; 16 juin 2026, des sénateurs demandent au Trésor des règles claires pour la certification des États ; 21 octobre 2026, l'OCC publie sa règle finale ; 18 novembre 2026, six sénateurs demandent une protection pour les émetteurs des États ; 18 janvier 2027, entrée en vigueur du GENIUS Act",
+            "de": "Zeitleiste: 18. Juli 2025, GENIUS Act unterzeichnet; 16. Juni 2026, Senatoren fordern vom Finanzministerium klare Regeln zur Zertifizierung der Bundesstaaten; 21. Oktober 2026, die OCC erlässt ihre endgültige Regel; 18. November 2026, sechs Senatoren fordern einen Schutz für Emittenten der Bundesstaaten; 18. Januar 2027, der GENIUS Act tritt in Kraft",
+            "ru": "Хронология: 18 июля 2025 года подписан закон GENIUS; 16 июня 2026 года сенаторы просят Минфин о ясных правилах сертификации штатов; 21 октября 2026 года OCC выпускает окончательные правила; 18 ноября 2026 года шесть сенаторов просят «безопасную гавань» для эмитентов штатов; 18 января 2027 года закон GENIUS вступает в силу",
+            "tr": "Zaman çizelgesi: 18 Temmuz 2025, GENIUS Yasası imzalandı; 16 Haziran 2026, senatörler Hazine'den eyalet sertifikası için net kurallar istedi; 21 Ekim 2026, OCC nihai kuralını yayımladı; 18 Kasım 2026, altı senatör eyaletler için güvenli liman istedi; 18 Ocak 2027, GENIUS Yasası yürürlüğe giriyor",
+            "id": "Lini masa: 18 Juli 2025, UU GENIUS ditandatangani; 16 Juni 2026, para senator meminta Departemen Keuangan membuat aturan jelas soal sertifikasi negara bagian; 21 Oktober 2026, OCC menerbitkan aturan finalnya; 18 November 2026, enam senator meminta safe harbor bagi penerbit negara bagian; 18 Januari 2027, UU GENIUS berlaku",
+            "ja": "時系列：2025年7月18日、GENIUS法が成立。2026年6月16日、上院議員が財務省に州の認証について明確なルールを要請。2026年10月21日、OCCが最終規則を公表。2026年11月18日、上院議員6人が州の発行体へのセーフハーバーを要請。2027年1月18日、GENIUS法が施行",
+            "ko": "타임라인: 2025년 7월 18일 GENIUS법 서명; 2026년 6월 16일 상원의원들이 재무부에 주 인증 규칙 명확화 요청; 2026년 10월 21일 OCC 최종 규칙 발표; 2026년 11월 18일 상원의원 6명이 주 발행사 세이프하버 요청; 2027년 1월 18일 GENIUS법 시행",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="OCC, Sen. Lummis press release, The Block")},
+    ]
+
+
 BUILDERS = {
+    "ledger-tampered-wallets-berlin-dubai-nov-2026": "ledgerbd",
+    "senators-genius-act-state-stablecoin-safe-harbor-nov-2026": "geniusstate",
     "fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026": "fedmin63k",
     "binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026": "bnbadgm",
     "russia-retail-investors-bitcoin-ether-usdt-300000-ruble-cap-nov-2026": "rusretail",
@@ -3939,6 +4052,10 @@ def build_slug(slug: str, btc=None):
         figs = build_cftc_backpack()
     elif key == "rusretail":
         figs = build_russia_retail_crypto()
+    elif key == "ledgerbd":
+        figs = build_ledger_berlin_dubai()
+    elif key == "geniusstate":
+        figs = build_genius_state_safe_harbor()
     elif key == "fedmin63k":
         figs = build_fed_minutes_btc_63k()
     elif key == "bnbadgm":

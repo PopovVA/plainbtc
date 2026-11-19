@@ -1,0 +1,21 @@
+{
+ "slug": "ledger-tampered-wallets-berlin-dubai-nov-2026",
+ "date": "2026-11-18",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "trezor-skladon-shipping-breach-27000-orders-nov-2026",
+  "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026",
+  "optimizely-hack-crypto-address-swap-178-sites-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {"url": "https://decrypt.co/383586/ledger-confirms-tampered-bitcoin-wallets-berlin-spreads-beyond-asia", "title": "Decrypt: Ledger confirms tampered Bitcoin wallets in Berlin as spy implant probe spreads beyond Asia", "date": "Nov 18, 2026"},
+  {"url": "https://cybersixt.com/originals/ledger-hardware-wallet-tampering-berlin-dubai", "title": "CyberSIXT: Ledger hardware wallet tampering confirmed in Berlin", "date": "Nov 18, 2026"},
+  {"url": "https://www.ledger.com/blog-response-hardware-implant-attack", "title": "Ledger: Ledger's response to the hardware implant attack", "date": "Oct 15, 2026"},
+  {"url": "https://unchainedcrypto.com/mark-karpeles-tracker-confirms-implant-in-ledger-flex-bought-at-dubai-store/", "title": "Unchained: Mark Karpelès' tracker confirms implant in Ledger Flex bought at Dubai store", "date": "Nov 18, 2026"},
+  {"url": "https://karpeleslab.github.io/ledger_implant_osint/report/2026-11-17-virgin-megastore-dubai-stax/", "title": "Ledger Implant OSINT: Ledger Stax from Virgin Megastore, Dubai", "date": "Nov 18, 2026"},
+  {"url": "https://thedefiant.io/news/security/ledger-confirms-berlin-wallet-tampering-probes-dubai", "title": "The Defiant: Ledger confirms Berlin wallet tampering, probes Dubai", "date": "Nov 18, 2026"}
+ ],
+ "disclosure_variant": "std"
+}
