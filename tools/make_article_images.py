@@ -212,6 +212,7 @@ def make_bar_chart(path: Path, labels, values, title: str, ylabel="",
     fig, ax = plt.subplots(figsize=(w / 100, h / 100), dpi=100)
     style_axes(ax, title)
     cols = colors or [f"#{ORANGE[0]:02x}{ORANGE[1]:02x}{ORANGE[2]:02x}"] * len(values)
+    ax.set_axisbelow(True)
     bars = ax.bar(labels, values, color=cols, width=0.55, edgecolor="#0b1630")
     for bar, v in zip(bars, values):
         ax.text(
@@ -227,6 +228,35 @@ def make_bar_chart(path: Path, labels, values, title: str, ylabel="",
     ax.yaxis.set_major_formatter(axis_fmt or (lambda x, _p: f"${x:,.0f}M"))
     if ylabel:
         ax.set_ylabel(ylabel, color="#94a3b8")
+    fig.text(0.99, 0.01, "plainbtc.com", color="#64748b", ha="right", fontsize=9)
+    plt.tight_layout(pad=1.2)
+    buf = io.BytesIO()
+    fig.savefig(buf, format="png", dpi=100, facecolor=fig.get_facecolor())
+    plt.close(fig)
+    buf.seek(0)
+    return save_image(Image.open(buf).convert("RGB"), path)
+
+
+def make_cashout_timing_chart(path: Path, w=1200, h=630) -> Path:
+    """Coinbase cash-out timing as ranges, only figures from the article / Coinbase Help:
+    ACH 3–5 business days; instant cashout about 30 minutes, up to 24 hours."""
+    orange = f"#{ORANGE[0]:02x}{ORANGE[1]:02x}{ORANGE[2]:02x}"
+    fig, ax = plt.subplots(figsize=(w / 100, h / 100), dpi=100)
+    style_axes(ax, "How long a Coinbase cash-out takes (U.S.)")
+    ax.set_axisbelow(True)
+    rows = [("Instant cashout\n(eligible cards / RTP banks)", 30 / 1440, 1.0, "#60a5fa", "about 30 minutes, up to 24 hours"),
+            ("ACH bank withdrawal", 3.0, 5.0, orange, "3–5 business days")]
+    for i, (_lab, lo, hi, col, txt) in enumerate(rows):
+        ax.barh(i, hi - lo, left=lo, height=0.5, color=col, edgecolor="#0b1630")
+        ax.text(hi + 0.08, i, txt, va="center", ha="left", color="#e2e8f0", fontsize=13, fontweight="bold")
+    ax.set_yticks(range(len(rows)), [r[0] for r in rows])
+    ax.tick_params(axis="y", labelsize=12, colors="#e2e8f0")
+    ax.set_xlim(0, 7.2)
+    ax.set_ylim(-0.7, 1.7)
+    ax.set_xticks(range(0, 8))
+    ax.xaxis.set_major_formatter(lambda x, _p: f"{x:.0f}")
+    ax.set_xlabel("Days (ACH counts business days: Monday to Friday)", color="#94a3b8")
+    ax.grid(True, axis="x"); ax.grid(False, axis="y")
     fig.text(0.99, 0.01, "plainbtc.com", color="#64748b", ha="right", fontsize=9)
     plt.tight_layout(pad=1.2)
     buf = io.BytesIO()
@@ -1041,12 +1071,14 @@ def build_fees():
     d.mkdir(parents=True, exist_ok=True)
     # Bar chart of published Advanced Intro maker/taker (public VIP table)
     chart = make_bar_chart(
-        d / "chart-advanced-intro",
+        d / "chart-advanced-intro-v2",   # -v2: y axis was mislabeled in $M (fixed Nov 19, 2026)
         ["Maker\n(Intro)", "Taker\n(Intro)"],
         [0.50, 0.90],
         title="Coinbase Advanced spot — Intro tier (U.S.)",
-        ylabel="Fee %",
+        ylabel="Fee (% of order)",
         value_fmt=lambda v: f"{v:.2f}%",
+        axis_fmt=lambda x, _p: f"{x:.1f}%",
+        h=630,
     )
     card = make_fact_card(
         d / "fact-spread-preview",
@@ -1087,14 +1119,7 @@ def build_cashout():
     slug = "how-to-cash-out-bitcoin-coinbase-to-bank"
     d = OUT / slug
     d.mkdir(parents=True, exist_ok=True)
-    chart = make_bar_chart(
-        d / "chart-ach-days",
-        ["ACH\nbank out", "Instant\n(eligible)"],
-        [4, 0.5],
-        title="Typical U.S. cash-out timing (illustrative)",
-        ylabel="Business days (approx.)",
-        value_fmt=lambda v: f"~{v:g}d",
-    )
+    chart = make_cashout_timing_chart(d / "chart-ach-days-v2")   # -v2: old bars were in $M with made-up ~4d/~0.5d
     tax = make_fact_card(
         d / "fact-irs-property",
         label="U.S. taxes",
@@ -1104,7 +1129,7 @@ def build_cashout():
     )
     return [
         _fig("timing", chart.name, "chart", 1200, 630, _lang_dict(
-            "Bar chart comparing typical ACH cash-out timing of several business days versus faster instant cashouts",
+            "Chart comparing Coinbase ACH cash-out timing of 3–5 business days with instant cashouts of about 30 minutes, up to 24 hours",
             es="Gráfico que compara el plazo típico ACH de varios días hábiles con los cashouts instantáneos más rápidos",
             pt="Gráfico que compara o prazo típico ACH de vários dias úteis com cashouts instantâneos mais rápidos",
             fr="Graphique comparant le délai ACH typique de plusieurs jours ouvrés aux cashouts instantanés plus rapides",

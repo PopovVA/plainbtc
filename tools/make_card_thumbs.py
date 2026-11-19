@@ -1587,7 +1587,13 @@ def first_figure_source(slug: str) -> Path | None:
 def fallback_from_figure(slug: str):
     src = first_figure_source(slug)
     if not src: return None, None
-    return cover_fit(open_rgb(src)), {"kind":"figure-fallback","sources":[{"file":str(src.relative_to(ROOT)),"license":"See article figures","url":"","credit":"Derived from mid-article figure"}]}
+    im = open_rgb(src)
+    if S == 1 and im.width / im.height > W / H + 0.02:
+        # wider than 16:9 (1200x630 figure): letterbox instead of cutting off axis labels
+        fit = im.resize((W, round(im.height * W / im.width)), Image.Resampling.LANCZOS)
+        canvas = Image.new("RGB", (W, H), im.getpixel((2, 2))); canvas.paste(fit, (0, (H - fit.height) // 2))
+        im = canvas
+    return cover_fit(im), {"kind":"figure-fallback","sources":[{"file":str(src.relative_to(ROOT)),"license":"See article figures","url":"","credit":"Derived from mid-article figure"}]}
 
 def build_one(slug: str) -> bool:
     print(f"· {slug}")

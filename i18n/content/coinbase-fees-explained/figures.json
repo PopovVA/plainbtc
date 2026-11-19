@@ -1,7 +1,7 @@
 [
   {
     "id": "advanced",
-    "file": "chart-advanced-intro.webp",
+    "file": "chart-advanced-intro-v2.webp",
     "w": 1200,
     "h": 630,
     "kind": "chart",
@@ -37,7 +37,7 @@
     "h": 630,
     "kind": "fact",
     "alt": {
-      "en": "Fact card: on simple Coinbase trades the spread is inside the quoted price, check the preview tooltip",
+      "en": "Fact card: on simple Coinbase trades the spread is inside the quoted price — check the preview tooltip",
       "es": "Tarjeta: en operaciones simples de Coinbase el diferencial va en el precio cotizado; mira el tooltip de la vista previa",
       "pt": "Cartão: nas operações simples da Coinbase o spread está no preço cotado; veja o tooltip da prévia",
       "fr": "Encadré : sur les ordres simples Coinbase, le spread est dans le prix affiché — regardez l’infobulle de l’aperçu",

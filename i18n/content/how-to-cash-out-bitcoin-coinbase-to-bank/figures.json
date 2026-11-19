@@ -1,12 +1,12 @@
 [
   {
     "id": "timing",
-    "file": "chart-ach-days.webp",
+    "file": "chart-ach-days-v2.webp",
     "w": 1200,
     "h": 630,
     "kind": "chart",
     "alt": {
-      "en": "Bar chart comparing typical ACH cash-out timing of several business days versus faster instant cashouts",
+      "en": "Chart comparing Coinbase ACH cash-out timing of 3–5 business days with instant cashouts of about 30 minutes, up to 24 hours",
       "es": "Gráfico que compara el plazo típico ACH de varios días hábiles con los cashouts instantáneos más rápidos",
       "pt": "Gráfico que compara o prazo típico ACH de vários dias úteis com cashouts instantâneos mais rápidos",
       "fr": "Graphique comparant le délai ACH typique de plusieurs jours ouvrés aux cashouts instantanés plus rapides",
