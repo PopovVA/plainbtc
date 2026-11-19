@@ -1303,7 +1303,7 @@ def og_tags(lang: str, title: str, desc: str, url: str, typ: str, image: str, al
   <meta property="og:site_name" content="PlainBTC">
   <meta property="og:locale" content="{a['locale']}">{extra}
   <meta property="og:image" content="{image}">
-  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:type" content="{og_mime(image)}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="{esc_attr(alt)}">
@@ -1472,7 +1472,7 @@ def article_head_html(lang: str, slug: str, label: str, h1_html: str, meta_html:
         <h1>{h1_html}</h1>
         <div class="meta">{meta_html}</div>
 {share_html(lang, url, strip_tags(h1_html))}      </header>
-      <img class="og-hero" src="/assets/og/{slug}.png" width="1200" height="630" alt="{esc_attr(_html.unescape(strip_tags(h1_html)))}" loading="eager" fetchpriority="high" decoding="async">
+      <img class="og-hero" src="{og_rel(slug)}" width="1200" height="630" alt="{esc_attr(_html.unescape(strip_tags(h1_html)))}" loading="eager" fetchpriority="high" decoding="async">
       <!-- /i18n:arthead -->'''
 
 
@@ -1493,7 +1493,7 @@ def readtime_html(lang: str, slug: str) -> str:
 def article_ld(lang: str, slug: str, head: dict, ptitle: str, extra: list[dict]) -> str:
     s = STR[lang]
     url = abs_url(path_for(lang, "article", slug))
-    img = f"{SITE}/assets/og/{slug}.png"
+    img = f"{SITE}{og_rel(slug)}"
     when = pub_iso(slug)
     ld = jsonld({
         "@context": "https://schema.org", "@type": "Article" if article_kind(slug) == "guide" else "NewsArticle",
@@ -1607,7 +1607,7 @@ def build_article(lang: str, slug: str):
     meta = c["meta"]
     pg = Page(lang, c["links"])
     url = abs_url(path_for(lang, "article", slug))
-    img = f"{SITE}/assets/og/{slug}.png"
+    img = f"{SITE}{og_rel(slug)}"
     ptitle = f"{head['page_title']} | PlainBTC"
     ld = article_ld(lang, slug, head, ptitle, extra_jsonld(pg, head, blocks, url, lang))
     parts = [head_html(lang, "article", slug, ptitle, head["description"], head["title"], head["og_description"],
@@ -1712,13 +1712,37 @@ def build_article(lang: str, slug: str):
     return "\n".join(parts)
 
 
+OG_SUFFIX = "-v2"   # keep in sync with tools/make_card_thumbs.py (bump to force X/Facebook to refetch)
+
+
+def og_rel(slug: str) -> str:
+    """Per-article 1200x630 link preview: assets/og/<slug>-v2.jpg (story-specific, made by
+    `make_card_thumbs.py --og`); falls back to the old title-card PNG when it is missing."""
+    if (ROOT / "assets" / "og" / f"{slug}{OG_SUFFIX}.jpg").exists():
+        return f"/assets/og/{slug}{OG_SUFFIX}.jpg"
+    return f"/assets/og/{slug}.png"
+
+
+def og_mime(url: str) -> str:
+    return "image/jpeg" if url.lower().endswith((".jpg", ".jpeg")) else "image/png"
+
+
+def fix_en_og(h: str, slug: str) -> str:
+    """Hand-written English article: point og:image / twitter:image / JSON-LD / og-hero at og_rel(slug)."""
+    new = og_rel(slug)
+    if new.endswith(".png"):
+        return h
+    h = h.replace(f"/assets/og/{slug}.png", new)
+    return re.sub(r'(<meta property="og:image:type" content=")image/png(">)', r'\1image/jpeg\2', h)
+
+
 def card_thumb_src(slug: str) -> tuple[str, int, int]:
     """Prefer topical 640×360 thumb.webp (or .jpg); fall back to OG PNG."""
     d = ROOT / "assets" / "img" / slug
     for name, w, h in (("thumb.webp", 640, 360), ("thumb.jpg", 640, 360)):
         if (d / name).exists():
             return f"/assets/img/{slug}/{name}", w, h
-    return f"/assets/og/{slug}.png", 1200, 630
+    return og_rel(slug), 1200, 630
 
 
 def visible_slugs(lang: str) -> list[str]:
@@ -1971,7 +1995,7 @@ def build_sitemap():
         alt_xml = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{h}" href="{u}"/>' for h, u in alts)
         alt_xml += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{en_loc}"/>'
         if kind == "article":
-            alt_xml += f"\n    <image:image>\n      <image:loc>{SITE}/assets/og/{slug}.png</image:loc>\n    </image:image>"
+            alt_xml += f"\n    <image:image>\n      <image:loc>{SITE}{og_rel(slug)}</image:loc>\n    </image:image>"
         for l in LANGS:
             if has_page(l["code"], kind, slug):
                 loc = abs_url(path_for(l["code"], kind, slug))
@@ -2031,8 +2055,10 @@ def replace_shell(h: str, lang: str, kind: str, slug: str, *, robots: str = ROBO
         h = re.sub(r'([ \t]*<meta property="og:site_name"[^>]*>\n)',
                    lambda m: m.group(1) + f'  <meta property="og:locale" content="{LANG[lang]["locale"]}">\n', h, count=1)
     if 'property="og:image:type"' not in h:
-        h = re.sub(r'([ \t]*<meta property="og:image" content="[^"]*\.png">\n)',
-                   lambda m: m.group(1) + '  <meta property="og:image:type" content="image/png">\n', h, count=1)
+        h = re.sub(r'([ \t]*<meta property="og:image" content="[^"]*\.(png|jpg)">\n)',
+                   lambda m: m.group(1) + f'  <meta property="og:image:type" content="{og_mime(m.group(2))}">\n', h, count=1)
+    if kind == "article" and lang == "en":
+        h = fix_en_og(h, slug)
     # <body>: skip link + header, footer, script
     hk = "home" if kind == "404" else kind
     top = f'  <a class="skip-link" href="#main">{esc(STR[lang]["skip_link"])}</a>\n' + site_header_html(lang, hk, slug)

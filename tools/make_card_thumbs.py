@@ -8,9 +8,16 @@ Article titles are NOT baked into the image.
 Usage:
   .venv/bin/python tools/make_card_thumbs.py --all
   .venv/bin/python tools/make_card_thumbs.py <slug> [...]
+  .venv/bin/python tools/make_card_thumbs.py --og [--all | <slug> ...]
 
 Writes assets/img/<slug>/{thumb.webp,thumb.jpg,thumb.credits.json}
 Unknown slugs: first mid-article figure. build_i18n falls back to OG if missing.
+
+--og renders the SAME designs natively at 1200x630 (S=1.875, no upscaling) as the
+per-article link preview assets/og/<slug>-v2.jpg used for og:image / twitter:image.
+Builders therefore draw in 640x360 design units: use Draw(...) (not ImageDraw.Draw),
+sz((w, h)) for Image.new / paste positions / resize, font(), paste_contain(), dw(im).
+Crop coordinates on source images stay in source pixels.
 """
 from __future__ import annotations
 
@@ -30,7 +37,12 @@ ROOT = Path(__file__).resolve().parents[1]
 IMG = ROOT / "assets" / "img"
 I18N = ROOT / "i18n" / "content"
 CACHE = Path("/tmp/thumb-src"); CACHE.mkdir(parents=True, exist_ok=True)
-W, H = 640, 360
+W, H = 640, 360          # design units: every thumb_* builder draws in this 640x360 space
+S = 1.0                  # render scale; --og renders the same designs natively at S=1.875 (1200x675)
+OG_W, OG_H = 1200, 630   # link-preview size (X / Facebook)
+OG_DIR = ROOT / "assets" / "og"
+OG_SUFFIX = "-v2"
+DATA_END = None          # --og: freeze live market data at the thumb's original "generated" time        # bump when previews change so X/Facebook refetch instead of using cached cards
 UA = {"User-Agent": "PlainBTCThumbBot/1.0 (editorial thumbs; https://plainbtc.com)"}
 CTX = ssl.create_default_context()
 BG, NAVY, ORANGE = (15, 20, 28), (11, 22, 48), (247, 147, 26)
@@ -39,7 +51,7 @@ FONT_B = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 FONT_R = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 def font(path, size):
-    try: return ImageFont.truetype(path, size)
+    try: return ImageFont.truetype(path, max(1, round(size * S)))
     except OSError: return ImageFont.load_default()
 
 def fetch(url: str, dest: Path) -> Path:
@@ -66,7 +78,41 @@ def open_rgb(path: Path) -> Image.Image:
         return bg.convert("RGB")
     return im.convert("RGB")
 
-def cover_fit(im: Image.Image, w=W, h=H, cy=0.45) -> Image.Image:
+def sz(t):
+    """Design-unit tuple -> pixel tuple at the current render scale."""
+    return tuple(int(round(v * S)) for v in t)
+
+def _s(v):
+    if isinstance(v, (int, float)): return v * S
+    if isinstance(v, (list, tuple)): return type(v)(_s(x) for x in v)
+    return v
+
+def dw(im): return im.width / S
+def dh(im): return im.height / S
+
+class Draw:
+    """ImageDraw.Draw that takes design-unit coordinates and scales them by S."""
+    _SHAPES = {"rectangle", "rounded_rectangle", "ellipse", "arc", "chord", "pieslice", "polygon"}
+    def __init__(self, im, mode=None):
+        self._d = ImageDraw.Draw(im, mode) if mode else ImageDraw.Draw(im)
+    def textbbox(self, xy, text, font=None, **kw):
+        return tuple(v / S for v in self._d.textbbox(_s(xy), text, font=font, **kw))
+    def textlength(self, text, font=None, **kw):
+        return self._d.textlength(text, font=font, **kw) / S
+    def __getattr__(self, name):
+        fn = getattr(self._d, name)
+        def call(*a, **kw):
+            if a: a = (_s(a[0]),) + a[1:]
+            if "xy" in kw: kw["xy"] = _s(kw["xy"])
+            for k in ("width", "radius", "stroke_width", "spacing"):
+                if kw.get(k): kw[k] = max(1, round(kw[k] * S))
+            if S > 1 and name in self._SHAPES and kw.get("outline") is not None and "width" not in kw:
+                kw["width"] = max(1, round(S))
+            return fn(*a, **kw)
+        return call
+
+def cover_fit(im: Image.Image, w=None, h=None, cy=0.45) -> Image.Image:
+    w = w or round(W * S); h = h or round(H * S)
     return ImageOps.fit(im.convert("RGB"), (w, h), method=Image.Resampling.LANCZOS, centering=(0.5, cy))
 
 def save_thumb(im: Image.Image, slug: str, credits: dict) -> Path:
@@ -81,16 +127,14 @@ def save_thumb(im: Image.Image, slug: str, credits: dict) -> Path:
     print(f"  wrote {webp.relative_to(ROOT)} ({webp.stat().st_size // 1024} KB)")
     return webp
 
-def gradient_bg(w=W, h=H, top=NAVY, bottom=BG) -> Image.Image:
-    im = Image.new("RGB", (w, h), top); px = im.load()
-    for y in range(h):
-        t = y / max(h - 1, 1)
-        c = tuple(int(top[i] * (1 - t) + bottom[i] * t) for i in range(3))
-        for x in range(w): px[x, y] = c
-    return im
+def gradient_bg(w=None, h=None, top=NAVY, bottom=BG) -> Image.Image:
+    w = w or round(W * S); h = h or round(H * S)
+    t = np.linspace(0, 1, h)[:, None]
+    col = (np.array(top)[None, :] * (1 - t) + np.array(bottom)[None, :] * t).astype(np.uint8)
+    return Image.fromarray(np.repeat(col[:, None, :], w, axis=1), "RGB")
 
 def paste_contain(base: Image.Image, overlay: Image.Image, box, pad=8):
-    x, y, bw, bh = box
+    x, y, bw, bh = sz(box); pad = pad * S
     ov = overlay.convert("RGBA")
     ow, oh = ov.size
     scale = min((bw - 2 * pad) / ow, (bh - 2 * pad) / oh)
@@ -103,7 +147,7 @@ def paste_contain(base: Image.Image, overlay: Image.Image, box, pad=8):
 def label_chip(im: Image.Image, text: str, xy=(16, 16)):
     rgba = im.convert("RGBA")
     chip = Image.new("RGBA", rgba.size, (0, 0, 0, 0))
-    cd = ImageDraw.Draw(chip); f = font(FONT_B, 14)
+    cd = Draw(chip); f = font(FONT_B, 14)
     bb = cd.textbbox((0, 0), text, font=f); tw, th = bb[2] - bb[0], bb[3] - bb[1]
     x, y = xy
     cd.rounded_rectangle([x, y, x + tw + 18, y + th + 12], radius=10, fill=(15, 23, 42, 220))
@@ -120,13 +164,14 @@ def kraken_ohlc(interval_min=1440, pair="XBTUSD"):
     if data.get("error"): raise RuntimeError(data["error"])
     result = data["result"]; key = next(k for k in result if k != "last")
     rows = result[key]
+    if DATA_END: rows = [r for r in rows if r[0] <= DATA_END.timestamp()]
     xs = [datetime.fromtimestamp(r[0], tz=timezone.utc) for r in rows]
     closes = [float(r[4]) for r in rows]
     return xs, closes
 
 def chart_to_image(fig) -> Image.Image:
     buf = io.BytesIO()
-    fig.savefig(buf, format="png", dpi=140, facecolor=fig.get_facecolor(), bbox_inches="tight", pad_inches=0.12)
+    fig.savefig(buf, format="png", dpi=140 * S, facecolor=fig.get_facecolor(), bbox_inches="tight", pad_inches=0.12)
     plt.close(fig); buf.seek(0); return Image.open(buf).convert("RGB")
 
 def style_ax(ax, title):
@@ -140,7 +185,7 @@ def thumb_occ():
     treasury = fetch("https://upload.wikimedia.org/wikipedia/commons/0/0d/Treasury_Building_%281%29.jpg", CACHE/"treasury.jpg")
     coinbase = fetch("https://upload.wikimedia.org/wikipedia/commons/5/5c/Coinbase_Icon.png", CACHE/"coinbase-icon.png")
     base = darken(cover_fit(open_rgb(treasury), cy=0.4), 90)
-    panel = Image.new("RGBA", base.size, (0,0,0,0)); ImageDraw.Draw(panel).rectangle([0,0,310,H], fill=(10,16,28,205))
+    panel = Image.new("RGBA", base.size, (0,0,0,0)); Draw(panel).rectangle([0,0,310,H], fill=(10,16,28,205))
     base = Image.alpha_composite(base.convert("RGBA"), panel).convert("RGB")
     paste_contain(base, Image.open(seal).convert("RGBA"), (24,50,200,220), pad=4)
     paste_contain(base, Image.open(coinbase).convert("RGBA"), (230,110,100,100), pad=2)
@@ -156,7 +201,7 @@ def thumb_fincen():
     fed = fetch("https://upload.wikimedia.org/wikipedia/commons/7/73/Seal_of_the_United_States_Federal_Reserve_Board.svg", CACHE/"fed-seal.svg")
     eccles = fetch("https://upload.wikimedia.org/wikipedia/commons/8/89/Eccles_Building_%2826088200676%29.jpg", CACHE/"eccles.jpg")
     base = darken(cover_fit(open_rgb(eccles), cy=0.4), 100)
-    panel = Image.new("RGBA", base.size, (0,0,0,0)); ImageDraw.Draw(panel).rounded_rectangle([36,40,W-36,H-40], radius=18, fill=(15,23,42,205))
+    panel = Image.new("RGBA", base.size, (0,0,0,0)); Draw(panel).rounded_rectangle([36,40,W-36,H-40], radius=18, fill=(15,23,42,205))
     base = Image.alpha_composite(base.convert("RGBA"), panel).convert("RGB")
     paste_contain(base, Image.open(fincen).convert("RGBA"), (70,60,220,240), pad=10)
     paste_contain(base, Image.open(fed).convert("RGBA"), (350,60,220,240), pad=10)
@@ -192,10 +237,10 @@ def thumb_liquidations():
     ax.annotate(f"${closes[i_min]:,.0f}", (xs[i_min], closes[i_min]), textcoords="offset points", xytext=(6,-12), color="#fca5a5", fontsize=8)
     ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v,_: f"${v/1000:.0f}k"))
     ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %d"))
-    im = chart_to_image(fig); d = ImageDraw.Draw(im)
-    d.rounded_rectangle([im.width-210,16,im.width-12,76], radius=10, fill=(127,29,29))
-    d.text((im.width-198,26), "$1B+", font=font(FONT_B,18), fill=WHITE)
-    d.text((im.width-198,50), "liquidations (CoinGlass)", font=font(FONT_R,10), fill=(254,202,202))
+    im = chart_to_image(fig); d = Draw(im)
+    d.rounded_rectangle([dw(im)-210,16,dw(im)-12,76], radius=10, fill=(127,29,29))
+    d.text((dw(im)-198,26), "$1B+", font=font(FONT_B,18), fill=WHITE)
+    d.text((dw(im)-198,50), "liquidations (CoinGlass)", font=font(FONT_R,10), fill=(254,202,202))
     return im, {"kind":"chart","sources":[
         {"file":"Kraken OHLC XBTUSD interval=60","license":"Kraken public API","url":"https://docs.kraken.com/api/docs/rest-api/get-ohlc-data","credit":"Hourly BTC/USD from Kraken; $1B+ liquidations from CoinGlass as cited in article"}
     ]}
@@ -210,12 +255,12 @@ def thumb_pnc_usdc():
     card_w, card_h, gap = 170, 200, 16; total = 3*card_w+2*gap; x0,y0=(W-total)//2, 68
     for i,(logo,name) in enumerate(logos):
         x=x0+i*(card_w+gap)
-        card=Image.new("RGBA",(card_w,card_h),(26,35,50,235))
-        ImageDraw.Draw(card).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, outline=(45,58,79,255), width=2)
-        mask=Image.new("L",(card_w,card_h),0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
-        base.paste(card.convert("RGB"), (x,y0), mask)
+        card=Image.new("RGBA",sz((card_w,card_h)),(26,35,50,235))
+        Draw(card).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, outline=(45,58,79,255), width=2)
+        mask=Image.new("L",sz((card_w,card_h)),0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
+        base.paste(card.convert("RGB"), sz((x,y0)), mask)
         paste_contain(base, logo, (x,y0+8,card_w,145), pad=14)
-        d=ImageDraw.Draw(base); f=font(FONT_B,13); bb=d.textbbox((0,0),name,font=f); tw=bb[2]-bb[0]
+        d=Draw(base); f=font(FONT_B,13); bb=d.textbbox((0,0),name,font=f); tw=bb[2]-bb[0]
         d.text((x+(card_w-tw)//2, y0+165), name, font=f, fill=WHITE)
     label_chip(base, "PNC · USDC · Coinbase")
     return base, {"kind":"composite","sources":[
@@ -228,7 +273,7 @@ def thumb_pnc_usdc():
 def thumb_midterms():
     capitol = fetch("https://upload.wikimedia.org/wikipedia/commons/b/b2/United_States_Capitol_-_west_front.jpg", CACHE/"capitol.jpg")
     base = cover_fit(open_rgb(capitol), cy=0.35)
-    overlay = Image.new("RGBA", base.size, (0,0,0,0)); ImageDraw.Draw(overlay).rectangle([0,int(H*0.42),W,H], fill=(8,14,28,215))
+    overlay = Image.new("RGBA", base.size, (0,0,0,0)); Draw(overlay).rectangle([0,int(H*0.42),W,H], fill=(8,14,28,215))
     base = Image.alpha_composite(base.convert("RGBA"), overlay).convert("RGB")
     labels=["Jun","Jul","Aug","Sep","Oct","Nov"]; vals=[0.4,0.15,-0.1,0.2,-0.35,-1.0]
     fig, ax = plt.subplots(figsize=(3.5,1.45), dpi=120); fig.patch.set_facecolor("#0f1419"); ax.set_facecolor("#0f1419")
@@ -237,8 +282,8 @@ def thumb_midterms():
     ax.tick_params(colors="white", labelsize=7)
     for spine in ax.spines.values(): spine.set_visible(False)
     ax.set_yticks([]); ax.set_title("Spot BTC ETF weekly flows (schematic)", color="white", fontsize=8, loc="left", pad=2)
-    chart = ImageOps.fit(chart_to_image(fig), (340,145), method=Image.Resampling.LANCZOS)
-    base.paste(chart, (W-356, H-160)); label_chip(base, "Midterms · ETF outflows")
+    chart = ImageOps.fit(chart_to_image(fig), sz((340,145)), method=Image.Resampling.LANCZOS)
+    base.paste(chart, sz((W-356, H-160))); label_chip(base, "Midterms · ETF outflows")
     return base, {"kind":"composite","sources":[
         {"file":"United_States_Capitol_-_west_front.jpg","license":"Public domain (Architect of the Capitol)","url":"https://commons.wikimedia.org/wiki/File:United_States_Capitol_-_west_front.jpg","credit":"Architect of the Capitol"},
         {"file":"ETF flow schematic","license":"PlainBTC chart","url":"","credit":"Schematic bars for Nov 2026 large weekly outflow; see article sources"},
@@ -247,18 +292,18 @@ def thumb_midterms():
 def thumb_howto():
     coinbase = fetch("https://upload.wikimedia.org/wikipedia/commons/5/5c/Coinbase_Icon.png", CACHE/"coinbase-icon.png")
     btc = fetch("https://upload.wikimedia.org/wikipedia/commons/e/e1/Bitcoin_logo_clean.svg", CACHE/"btc-logo.svg")
-    base = gradient_bg(); d = ImageDraw.Draw(base)
+    base = gradient_bg(); d = Draw(base)
     px,py,pw,ph = 210,28,220,304
     d.rounded_rectangle([px,py,px+pw,py+ph], radius=28, fill=(26,35,50), outline=(45,58,79), width=3)
     d.rounded_rectangle([px+70,py+10,px+pw-70,py+22], radius=6, fill=(15,20,28))
     sx,sy,sw,sh = px+14, py+36, pw-28, ph-50
     d.rounded_rectangle([sx,sy,sx+sw,sy+sh], radius=12, fill=(15,23,42))
     paste_contain(base, Image.open(coinbase).convert("RGBA"), (sx+16,sy+14,sw-32,44), pad=0)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((sx+20,sy+66), "Buy Bitcoin", font=font(FONT_B,14), fill=WHITE)
     d.text((sx+20,sy+88), "BTC · Coinbase", font=font(FONT_R,10), fill=MUTED)
     paste_contain(base, Image.open(btc).convert("RGBA"), (sx+sw-66,sy+66,50,50), pad=0)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.rounded_rectangle([sx+14,sy+130,sx+sw-14,sy+168], radius=8, fill=(30,41,59))
     d.text((sx+26,sy+140), "$50.00", font=font(FONT_B,16), fill=WHITE)
     d.rounded_rectangle([sx+14,sy+188,sx+sw-14,sy+226], radius=10, fill=ACCENT)
@@ -280,7 +325,7 @@ def thumb_coinbase_safe():
     coinbase = fetch("https://upload.wikimedia.org/wikipedia/commons/5/5c/Coinbase_Icon.png", CACHE/"coinbase-icon.png")
     # US Treasury / banking vibe optional — use lock illustration + Coinbase
     base = gradient_bg()
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     # large shield
     d.rounded_rectangle([40, 50, 280, 310], radius=24, fill=(26, 35, 50), outline=(45, 58, 79), width=2)
     # lock body
@@ -289,7 +334,7 @@ def thumb_coinbase_safe():
     d.ellipse([145, 185, 175, 215], fill=WHITE)
     d.rectangle([156, 210, 164, 235], fill=WHITE)
     paste_contain(base, Image.open(coinbase).convert("RGBA"), (320, 70, 140, 140), pad=4)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((320, 220), "Cold storage", font=font(FONT_B, 18), fill=WHITE)
     d.text((320, 248), "Coinbase holds >99% of", font=font(FONT_R, 12), fill=MUTED)
     d.text((320, 268), "customer assets offline", font=font(FONT_R, 12), fill=MUTED)
@@ -314,10 +359,10 @@ def thumb_dca():
     ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v,_: f"${v/1000:.0f}k"))
     ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %y"))
     im = chart_to_image(fig)
-    d = ImageDraw.Draw(im)
-    d.rounded_rectangle([im.width-200, 14, im.width-12, 70], radius=10, fill=(30, 58, 138))
-    d.text((im.width-188, 22), "DCA", font=font(FONT_B, 16), fill=WHITE)
-    d.text((im.width-188, 44), "small regular buys", font=font(FONT_R, 10), fill=(191, 219, 254))
+    d = Draw(im)
+    d.rounded_rectangle([dw(im)-200, 14, dw(im)-12, 70], radius=10, fill=(30, 58, 138))
+    d.text((dw(im)-188, 22), "DCA", font=font(FONT_B, 16), fill=WHITE)
+    d.text((dw(im)-188, 44), "small regular buys", font=font(FONT_R, 10), fill=(191, 219, 254))
     return im, {"kind":"chart","sources":[
         {"file":"Kraken OHLC XBTUSD interval=10080","license":"Kraken public API","url":"https://docs.kraken.com/api/docs/rest-api/get-ohlc-data","credit":"Weekly BTC/USD from Kraken; DCA markers illustrative"},
     ]}
@@ -325,7 +370,7 @@ def thumb_dca():
 
 def thumb_wallet():
     base = gradient_bg()
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     # two columns
     for i, (title, color, lines) in enumerate([
         ("Custodial", (59, 130, 246), ["Exchange holds keys", "Login recovery OK", "Counterparty risk"]),
@@ -351,7 +396,7 @@ def thumb_binance_hack():
     binance = fetch("https://upload.wikimedia.org/wikipedia/commons/e/e8/Binance_Logo.svg", CACHE/"binance-logo.svg")
     usdc = fetch("https://upload.wikimedia.org/wikipedia/commons/4/4a/Circle_USDC_Logo.svg", CACHE/"circle-usdc-logo.svg")
     base = gradient_bg()
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     # schematic wallet trail: dots joined by lines across the bottom
     pts = [(40,300),(130,270),(220,310),(310,262),(400,300),(490,268),(600,296)]
     for a,b in zip(pts,pts[1:]):
@@ -362,12 +407,12 @@ def thumb_binance_hack():
     card_w, card_h, gap = 210, 180, 24; total = 2*card_w+gap; x0,y0=(W-total)//2, 56
     for i,(logo,name) in enumerate(logos):
         x=x0+i*(card_w+gap)
-        card=Image.new("RGBA",(card_w,card_h),(26,35,50,235))
-        ImageDraw.Draw(card).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, outline=(45,58,79,255), width=2)
-        mask=Image.new("L",(card_w,card_h),0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
-        base.paste(card.convert("RGB"), (x,y0), mask)
+        card=Image.new("RGBA",sz((card_w,card_h)),(26,35,50,235))
+        Draw(card).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, outline=(45,58,79,255), width=2)
+        mask=Image.new("L",sz((card_w,card_h)),0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
+        base.paste(card.convert("RGB"), sz((x,y0)), mask)
         paste_contain(base, logo, (x,y0+8,card_w,125), pad=16)
-        d=ImageDraw.Draw(base); f=font(FONT_B,14); bb=d.textbbox((0,0),name,font=f); tw=bb[2]-bb[0]
+        d=Draw(base); f=font(FONT_B,14); bb=d.textbbox((0,0),name,font=f); tw=bb[2]-bb[0]
         d.text((x+(card_w-tw)//2, y0+145), name, font=f, fill=WHITE)
     label_chip(base, "Binance hack · laundering trail")
     return base, {"kind":"composite","sources":[
@@ -399,12 +444,12 @@ def _logo_cards(base, logos, card_w, card_h, gap, y0, logo_h, name_y, pad=14):
     total = len(logos)*card_w + (len(logos)-1)*gap; x0 = (W-total)//2
     for i,(logo,name) in enumerate(logos):
         x=x0+i*(card_w+gap)
-        card=Image.new("RGBA",(card_w,card_h),(26,35,50,235))
-        ImageDraw.Draw(card).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, outline=(45,58,79,255), width=2)
-        mask=Image.new("L",(card_w,card_h),0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
-        base.paste(card.convert("RGB"), (x,y0), mask)
+        card=Image.new("RGBA",sz((card_w,card_h)),(26,35,50,235))
+        Draw(card).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, outline=(45,58,79,255), width=2)
+        mask=Image.new("L",sz((card_w,card_h)),0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
+        base.paste(card.convert("RGB"), sz((x,y0)), mask)
         paste_contain(base, logo, (x,y0+8,card_w,logo_h), pad=pad)
-        d=ImageDraw.Draw(base); f=font(FONT_B,13); bb=d.textbbox((0,0),name,font=f); tw=bb[2]-bb[0]
+        d=Draw(base); f=font(FONT_B,13); bb=d.textbbox((0,0),name,font=f); tw=bb[2]-bb[0]
         d.text((x+(card_w-tw)//2, y0+name_y), name, font=f, fill=WHITE)
     return x0, total
 
@@ -416,7 +461,7 @@ def thumb_mexc():
     card_w, card_h, gap, y0 = 200, 190, 120, 60
     x0, total = _logo_cards(base, [(Image.open(fincen).convert("RGBA"),"FinCEN"),(Image.open(binance).convert("RGBA"),"Binance")], card_w, card_h, gap, y0, 140, 160)
     # blocked-transfer symbol between the cards
-    d = ImageDraw.Draw(base); cx, cy = x0+card_w+gap//2, y0+card_h//2
+    d = Draw(base); cx, cy = x0+card_w+gap//2, y0+card_h//2
     d.line([(cx-44,cy),(cx+44,cy)], fill=(148,163,184), width=4)
     d.ellipse([cx-24,cy-24,cx+24,cy+24], outline=(248,113,113), width=5)
     d.line([(cx-17,cy+17),(cx+17,cy-17)], fill=(248,113,113), width=5)
@@ -435,7 +480,7 @@ def thumb_faro():
     san = fetch("https://upload.wikimedia.org/wikipedia/commons/b/b8/Banco_Santander_Logotipo.svg", CACHE/"santander.svg")
     db = fetch("https://upload.wikimedia.org/wikipedia/commons/7/7b/Deutsche_Bank_logo_without_wordmark.svg", CACHE/"deutsche-bank.svg")
     base = gradient_bg()
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     # dollar-coin motif along the bottom
     for i,x in enumerate(range(60, W, 104)):
         y = 300 + (8 if i % 2 else 0)
@@ -449,12 +494,12 @@ def thumb_faro():
     total = 4*card_w+3*gap; x0=(W-total)//2
     for i,(logo,name) in enumerate(logos):
         x=x0+i*(card_w+gap)
-        tile=Image.new("RGBA",(card_w,card_h),(255,255,255,255))
-        mask=Image.new("L",(card_w,card_h),0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
-        base.paste(tile.convert("RGB"), (x,y0), mask)
-        lg = logo.copy(); bgw = Image.new("RGBA", lg.size, (255,255,255,255)); bgw.paste(lg,(0,0),lg)
+        tile=Image.new("RGBA",sz((card_w,card_h)),(255,255,255,255))
+        mask=Image.new("L",sz((card_w,card_h)),0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
+        base.paste(tile.convert("RGB"), sz((x,y0)), mask)
+        lg = logo.copy(); bgw = Image.new("RGBA", lg.size, (255,255,255,255)); bgw.paste(lg,sz((0,0)),lg)
         paste_contain(base, bgw, (x,y0+6,card_w,112), pad=14)
-        dd=ImageDraw.Draw(base); f=font(FONT_B,12); bb=dd.textbbox((0,0),name,font=f); tw=bb[2]-bb[0]
+        dd=Draw(base); f=font(FONT_B,12); bb=dd.textbbox((0,0),name,font=f); tw=bb[2]-bb[0]
         dd.text((x+(card_w-tw)//2, y0+128), name, font=f, fill=(15,23,42))
     label_chip(base, "Bank stablecoin venture")
     return base, {"kind":"composite","sources":[
@@ -488,20 +533,20 @@ def thumb_ios_flaw():
     ph = Image.open(phone).convert("RGB")
     pw, phh = ph.size
     ph = ph.crop((int(pw*0.04), int(phh*0.02), int(pw*0.96), int(phh*0.965)))   # trim white photo margins
-    ph.thumbnail((10000, 290), Image.Resampling.LANCZOS)
-    base.paste(ph, (80, 56))
-    d = ImageDraw.Draw(base)
+    ph.thumbnail(sz((10000, 290)), Image.Resampling.LANCZOS)
+    base.paste(ph, sz((80, 56)))
+    d = Draw(base)
     # warning triangle between phone and logo
     cx, cy = 320, 196
     d.polygon([(cx, cy-46), (cx-52, cy+42), (cx+52, cy+42)], fill=(247,147,26))
     fb = font(FONT_B, 54); bb = d.textbbox((0,0),"!",font=fb)
     d.text((cx-(bb[2]-bb[0])//2-2, cy-34), "!", font=fb, fill=(15,20,28))
     cw, ch, x, y = 210, 180, 400, 106
-    card = Image.new("RGB", (cw, ch), (26,35,50))
-    mask = Image.new("L", (cw, ch), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,cw-1,ch-1], radius=14, fill=255)
-    base.paste(card, (x, y), mask)
+    card = Image.new("RGB", sz((cw, ch)), (26,35,50))
+    mask = Image.new("L", sz((cw, ch)), 0); Draw(mask).rounded_rectangle([0,0,cw-1,ch-1], radius=14, fill=255)
+    base.paste(card, sz((x, y)), mask)
     paste_contain(base, Image.open(binance).convert("RGBA"), (x, y+8, cw, 130), pad=16)
-    d = ImageDraw.Draw(base); f = font(FONT_B, 13); t = "Security warning"; bb = d.textbbox((0,0),t,font=f)
+    d = Draw(base); f = font(FONT_B, 13); t = "Security warning"; bb = d.textbbox((0,0),t,font=f)
     d.text((x+(cw-(bb[2]-bb[0]))//2, y+148), t, font=f, fill=WHITE)
     label_chip(base, "iOS flaw · wallet security")
     return base, {"kind":"composite","sources":[
@@ -513,7 +558,7 @@ def thumb_ios_flaw():
 def thumb_across():
     """Generated graphic: a browser window on across.to swapped for a fake approval prompt (no third-party imagery)."""
     base = gradient_bg()
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     # browser window
     bx, by, bw, bh = 70, 58, 500, 250
     d.rounded_rectangle([bx, by, bx+bw, by+bh], radius=16, fill=(26,35,50), outline=(45,58,79), width=2)
@@ -544,7 +589,7 @@ def thumb_okxice():
     okx = fetch("https://upload.wikimedia.org/wikipedia/commons/2/2c/OKX_logo.svg", CACHE/"okx-logo.svg")
     ice = fetch("https://upload.wikimedia.org/wikipedia/commons/a/a7/Intercontinental_Exchange_logo.svg", CACHE/"ice-logo.svg")
     base = gradient_bg()
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     # faint candlestick motif along the bottom
     import random
     rnd = random.Random(23); y = 300
@@ -556,14 +601,14 @@ def thumb_okxice():
     total = 2*card_w+gap; x0 = (W-total)//2
     for i,(logo,name) in enumerate([(Image.open(okx).convert("RGBA"),"OKX"),(Image.open(ice).convert("RGBA"),"Intercontinental Exchange")]):
         x = x0+i*(card_w+gap)
-        tile = Image.new("RGB",(card_w,card_h),(255,255,255))
-        mask = Image.new("L",(card_w,card_h),0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
-        base.paste(tile,(x,y0),mask)
-        lg = logo.copy(); bgw = Image.new("RGBA", lg.size, (255,255,255,255)); bgw.paste(lg,(0,0),lg)
+        tile = Image.new("RGB",sz((card_w,card_h)),(255,255,255))
+        mask = Image.new("L",sz((card_w,card_h)),0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
+        base.paste(tile,sz((x,y0)),mask)
+        lg = logo.copy(); bgw = Image.new("RGBA", lg.size, (255,255,255,255)); bgw.paste(lg,sz((0,0)),lg)
         paste_contain(base, bgw, (x, y0+6, card_w, 122), pad=18)
-        dd = ImageDraw.Draw(base); f = font(FONT_B, 12); bb = dd.textbbox((0,0),name,font=f)
+        dd = Draw(base); f = font(FONT_B, 12); bb = dd.textbbox((0,0),name,font=f)
         dd.text((x+(card_w-(bb[2]-bb[0]))//2, y0+140), name, font=f, fill=(15,23,42))
-    d = ImageDraw.Draw(base); fb = font(FONT_B, 34); bb = d.textbbox((0,0),"+",font=fb)
+    d = Draw(base); fb = font(FONT_B, 34); bb = d.textbbox((0,0),"+",font=fb)
     d.text((x0+card_w+(gap-(bb[2]-bb[0]))//2, y0+card_h//2-24), "+", font=fb, fill=ORANGE)
     label_chip(base, "Tokenized stocks · OKXICE")
     return base, {"kind":"composite","sources":[
@@ -578,7 +623,7 @@ def thumb_stablecoin_supply():
     with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60, context=CTX) as r:
         rows = json.load(r)
     start = datetime(2026, 1, 1, tzinfo=timezone.utc).timestamp()
-    rows = [r for r in rows if int(r["date"]) >= start]
+    rows = [r for r in rows if int(r["date"]) >= start and (not DATA_END or int(r["date"]) <= DATA_END.timestamp())]
     xs = [datetime.fromtimestamp(int(r["date"]), tz=timezone.utc) for r in rows]
     ys = [r["totalCirculatingUSD"]["peggedUSD"] / 1e9 for r in rows]
     fig, ax = plt.subplots(figsize=(6.4,3.6), dpi=100); fig.patch.set_facecolor("#0f1419")
@@ -599,7 +644,7 @@ def thumb_sec_perps():
     cftc = fetch("https://upload.wikimedia.org/wikipedia/commons/3/3e/Commodity_Futures_Trading_Commission_seal.svg", CACHE/"cftc-seal.svg")
     hq = fetch("https://upload.wikimedia.org/wikipedia/commons/1/19/U.S._Securities_and_Exchange_Commission_headquarters.JPG", CACHE/"sec-hq.jpg")
     base = darken(cover_fit(open_rgb(hq), cy=0.45), 110)
-    panel = Image.new("RGBA", base.size, (0,0,0,0)); ImageDraw.Draw(panel).rounded_rectangle([36,40,W-36,H-40], radius=18, fill=(15,23,42,190))
+    panel = Image.new("RGBA", base.size, (0,0,0,0)); Draw(panel).rounded_rectangle([36,40,W-36,H-40], radius=18, fill=(15,23,42,190))
     base = Image.alpha_composite(base.convert("RGBA"), panel).convert("RGB")
     paste_contain(base, Image.open(sec).convert("RGBA"), (80,60,220,240), pad=10)
     paste_contain(base, Image.open(cftc).convert("RGBA"), (340,60,220,240), pad=10)
@@ -613,16 +658,16 @@ def thumb_sec_perps():
 
 def thumb_msci_strategy():
     logo = fetch("https://upload.wikimedia.org/wikipedia/commons/2/2f/MSCI_logo.svg", CACHE/"msci-logo.svg")
-    base = Image.new("RGB", (W, H), (15, 20, 25))
-    d = ImageDraw.Draw(base)
+    base = Image.new("RGB", sz((W, H)), (15, 20, 25))
+    d = Draw(base)
     for i in range(0, W, 32):
         d.line([(i, 0), (i, H)], fill=(24, 32, 42))
     for j in range(0, H, 32):
         d.line([(0, j), (W, j)], fill=(24, 32, 42))
-    card = Image.new("RGBA", (360, 180), (255, 255, 255, 255))
-    mask = Image.new("L", card.size, 0); ImageDraw.Draw(mask).rounded_rectangle([0, 0, 359, 179], radius=16, fill=255)
+    card = Image.new("RGBA", sz((360, 180)), (255, 255, 255, 255))
+    mask = Image.new("L", card.size, 0); Draw(mask).rounded_rectangle([0, 0, 359, 179], radius=16, fill=255)
     x0, y0 = (W - 360) // 2, (H - 180) // 2 - 10
-    base.paste(card, (x0, y0), mask)
+    base.paste(card, sz((x0, y0)), mask)
     paste_contain(base, Image.open(logo).convert("RGBA"), (x0, y0, 360, 180), pad=34)
     label_chip(base, "Index review · Strategy (MSTR)")
     return base, {"kind":"composite","sources":[
@@ -634,7 +679,7 @@ def thumb_doj_binance_seizure():
     doj = fetch("https://upload.wikimedia.org/wikipedia/commons/5/54/Seal_of_the_United_States_Department_of_Justice.svg", CACHE/"doj-seal.svg")
     fbi = fetch("https://upload.wikimedia.org/wikipedia/commons/d/da/Seal_of_the_Federal_Bureau_of_Investigation.svg", CACHE/"fbi-seal.svg")
     base = gradient_bg()
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     # schematic "frozen" trail: wallet dots, the last ones locked behind a bar
     pts = [(60,318),(150,296),(240,322),(330,298),(420,320),(510,300),(590,318)]
     for a,b in zip(pts,pts[1:]):
@@ -678,11 +723,11 @@ def thumb_sec_cftc_nominees():
     capitol = fetch("https://upload.wikimedia.org/wikipedia/commons/b/b2/United_States_Capitol_-_west_front.jpg", CACHE/"capitol.jpg")
     base = darken(cover_fit(open_rgb(capitol), cy=0.5), 135)
     for i, (logo, x) in enumerate([(sec, 130), (cftc, 350)]):
-        disc = Image.new("RGBA", (170, 170), (0, 0, 0, 0))
-        ImageDraw.Draw(disc).ellipse([0, 0, 169, 169], fill=(255, 255, 255, 255))
-        base.paste(disc.convert("RGB"), (x, 70), disc)
+        disc = Image.new("RGBA", sz((170, 170)), (0, 0, 0, 0))
+        Draw(disc).ellipse([0, 0, 169, 169], fill=(255, 255, 255, 255))
+        base.paste(disc.convert("RGB"), sz((x, 70)), disc)
         paste_contain(base, Image.open(logo).convert("RGBA"), (x, 70, 170, 170), pad=8)
-    d = ImageDraw.Draw(base); f = font(FONT_B, 16); t = "4 nominees await Senate confirmation"
+    d = Draw(base); f = font(FONT_B, 16); t = "4 nominees await Senate confirmation"
     bb = d.textbbox((0,0), t, font=f); d.text(((W-(bb[2]-bb[0]))//2, 268), t, font=f, fill=WHITE)
     label_chip(base, "SEC · CFTC nominations")
     return base, {"kind":"composite","sources":[
@@ -698,11 +743,11 @@ def thumb_illinois_tax():
     cap = fetch("https://upload.wikimedia.org/wikipedia/commons/7/70/State_Capitol_in_Springfield%2C_Illinois.jpg", CACHE/"illinois-capitol.jpg")
     base = darken(cover_fit(ImageOps.exif_transpose(Image.open(cap)).convert("RGB"), cy=0.4), 140)
     for logo, x in [(il, 130), (doj, 340)]:
-        disc = Image.new("RGBA", (170, 170), (0, 0, 0, 0))
-        ImageDraw.Draw(disc).ellipse([0, 0, 169, 169], fill=(255, 255, 255, 255))
-        base.paste(disc.convert("RGB"), (x, 70), disc)
+        disc = Image.new("RGBA", sz((170, 170)), (0, 0, 0, 0))
+        Draw(disc).ellipse([0, 0, 169, 169], fill=(255, 255, 255, 255))
+        base.paste(disc.convert("RGB"), sz((x, 70)), disc)
         paste_contain(base, Image.open(logo).convert("RGBA"), (x, 70, 170, 170), pad=8)
-    d = ImageDraw.Draw(base); f = font(FONT_B, 18); t = "0.2% digital asset tax challenged in court"
+    d = Draw(base); f = font(FONT_B, 18); t = "0.2% digital asset tax challenged in court"
     bb = d.textbbox((0,0), t, font=f); d.text(((W-(bb[2]-bb[0]))//2, 268), t, font=f, fill=WHITE)
     label_chip(base, "Illinois crypto tax")
     return base, {"kind":"composite","sources":[
@@ -720,12 +765,12 @@ def thumb_dtcc_solana():
     x0 = (W - (2*card_w + gap))//2
     for i, (logo, bg) in enumerate([(dtcc, (255,255,255)), (sol, (0,0,0))]):
         x = x0 + i*(card_w+gap)
-        tile = Image.new("RGBA", (card_w, card_h), bg+(255,))
-        mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
-        base.paste(tile.convert("RGB"), (x, y0), mask)
-        lg = Image.open(logo).convert("RGBA"); bgimg = Image.new("RGBA", lg.size, bg+(255,)); bgimg.paste(lg, (0,0), lg)
+        tile = Image.new("RGBA", sz((card_w, card_h)), bg+(255,))
+        mask = Image.new("L", sz((card_w, card_h)), 0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+        base.paste(tile.convert("RGB"), sz((x, y0)), mask)
+        lg = Image.open(logo).convert("RGBA"); bgimg = Image.new("RGBA", lg.size, bg+(255,)); bgimg.paste(lg, sz((0,0)), lg)
         paste_contain(base, bgimg, (x, y0, card_w, card_h), pad=26)
-    d = ImageDraw.Draw(base); cx, cy = x0+card_w+gap//2, y0+card_h//2
+    d = Draw(base); cx, cy = x0+card_w+gap//2, y0+card_h//2
     d.line([(cx-36,cy),(cx+30,cy)], fill=ORANGE, width=5); d.polygon([(cx+30,cy-11),(cx+46,cy),(cx+30,cy+11)], fill=ORANGE)
     f = font(FONT_B, 17); t = "Stocks, ETFs and Treasuries as tokens, 2H 2027"
     bb = d.textbbox((0,0), t, font=f); d.text(((W-(bb[2]-bb[0]))//2, y0+card_h+34), t, font=f, fill=WHITE)
@@ -741,7 +786,7 @@ KRAKEN_ICON = "https://assets-cms.kraken.com/images/51n36hrp/facade/c8a90889d470
 def thumb_payward_q3():
     icon = fetch(KRAKEN_ICON, CACHE/"kraken-app-icon-purple.svg")
     base = gradient_bg()
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     paste_contain(base, Image.open(icon).convert("RGBA"), (60, 80, 200, 200), pad=0)
     # Payward Q3 2026 financial highlights (Nov 13, 2026)
     rows = [("Volume", "$353B", "-30% vs. Q3 2025"), ("Funded accounts", "7.1M", "+37% vs. Q3 2025"), ("Adj. EBITDA", "$60M", "vs. $178.6M a year ago")]
@@ -763,11 +808,11 @@ def thumb_treasury_loans():
     btc = fetch("https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg", CACHE/"bitcoin-logo.svg")
     eth = fetch("https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg", CACHE/"ethereum-logo-2014.svg")
     base = gradient_bg()
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     for logo, x in [(btc, 120), (eth, 350)]:
-        disc = Image.new("RGBA", (170, 170), (0, 0, 0, 0))
-        ImageDraw.Draw(disc).ellipse([0, 0, 169, 169], fill=(255, 255, 255, 255))
-        base.paste(disc.convert("RGB"), (x, 62), disc)
+        disc = Image.new("RGBA", sz((170, 170)), (0, 0, 0, 0))
+        Draw(disc).ellipse([0, 0, 169, 169], fill=(255, 255, 255, 255))
+        base.paste(disc.convert("RGB"), sz((x, 62)), disc)
         paste_contain(base, Image.open(logo).convert("RGBA"), (x, 62, 170, 170), pad=22)
     # padlock-style chain between the coins
     cx, cy = 320, 147
@@ -806,13 +851,13 @@ def thumb_unocoin_keys():
     """Original 2-of-3 multisig diagram with Unocoin and BitGo logos (identification only)."""
     uno = fetch("https://upload.wikimedia.org/wikipedia/commons/f/f8/Unocoin-logo.png", CACHE/"unocoin-logo.png")
     bitgo = fetch("https://upload.wikimedia.org/wikipedia/commons/b/be/BitGo_Color_Large.png", CACHE/"bitgo-logo.png")
-    base = gradient_bg(); d = ImageDraw.Draw(base)
+    base = gradient_bg(); d = Draw(base)
     RED, GRAYC = (248, 113, 113), (100, 116, 139)
     cols = [(60, "User key", "Unocoin", RED, "used"), (245, "Backup key", "Unocoin", RED, "used"), (430, "BitGo key", "BitGo", GRAYC, "not used")]
     for x, name, owner, col, status in cols:
-        tile = Image.new("RGBA", (150, 150), (0, 0, 0, 0))
-        ImageDraw.Draw(tile).rounded_rectangle([0, 0, 149, 149], radius=18, fill=(255, 255, 255, 255))
-        base.paste(tile.convert("RGB"), (x, 62), tile)
+        tile = Image.new("RGBA", sz((150, 150)), (0, 0, 0, 0))
+        Draw(tile).rounded_rectangle([0, 0, 149, 149], radius=18, fill=(255, 255, 255, 255))
+        base.paste(tile.convert("RGB"), sz((x, 62)), tile)
         logo = uno if owner == "Unocoin" else bitgo
         paste_contain(base, Image.open(logo).convert("RGBA"), (x, 62, 150, 70), pad=12)
         # simple key glyph
@@ -862,11 +907,11 @@ def thumb_binance_reopen():
     base = gradient_bg()
     card_w, card_h = 230, 200
     x, y = 70, 80
-    tile = Image.new("RGBA", (card_w, card_h), (26,35,50,235))
-    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
-    base.paste(tile.convert("RGB"), (x, y), mask)
+    tile = Image.new("RGBA", sz((card_w, card_h)), (26,35,50,235))
+    mask = Image.new("L", sz((card_w, card_h)), 0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), sz((x, y)), mask)
     paste_contain(base, Image.open(binance).convert("RGBA"), (x, y, card_w, card_h), pad=24)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((350, 92), "87", font=font(FONT_B, 92), fill=ORANGE)
     d.text((352, 200), "networks reopened", font=font(FONT_B, 22), fill=WHITE)
     d.text((352, 232), "for withdrawals this week", font=font(FONT_R, 18), fill=(203,213,225))
@@ -907,11 +952,11 @@ def thumb_kava_hack():
     base = gradient_bg()
     card_w, card_h = 230, 200
     x, y = 70, 80
-    tile = Image.new("RGBA", (card_w, card_h), (255,255,255,255))
-    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
-    base.paste(tile.convert("RGB"), (x, y), mask)
+    tile = Image.new("RGBA", sz((card_w, card_h)), (255,255,255,255))
+    mask = Image.new("L", sz((card_w, card_h)), 0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), sz((x, y)), mask)
     paste_contain(base, Image.open(kava).convert("RGBA"), (x, y, card_w, card_h), pad=30)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((350, 92), "55.2M", font=font(FONT_B, 80), fill=ORANGE)
     d.text((352, 200), "KAVA drained", font=font(FONT_B, 22), fill=WHITE)
     d.text((352, 232), "from Kava Lend, about $3.76M", font=font(FONT_R, 18), fill=(203,213,225))
@@ -928,11 +973,11 @@ def thumb_btc_62k_low():
     base = gradient_bg()
     card_w, card_h = 230, 200
     x, y = 60, 80
-    tile = Image.new("RGBA", (card_w, card_h), (255,255,255,255))
-    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
-    base.paste(tile.convert("RGB"), (x, y), mask)
+    tile = Image.new("RGBA", sz((card_w, card_h)), (255,255,255,255))
+    mask = Image.new("L", sz((card_w, card_h)), 0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), sz((x, y)), mask)
     paste_contain(base, Image.open(btc).convert("RGBA"), (x, y, card_w, card_h), pad=30)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((320, 100), "$61,970", font=font(FONT_B, 60), fill=ORANGE)
     d.text((322, 192), "Bitcoin low on Kraken", font=font(FONT_B, 22), fill=WHITE)
     d.text((322, 224), "lowest price since July 13", font=font(FONT_R, 18), fill=(203,213,225))
@@ -950,11 +995,11 @@ def thumb_coinone_breach():
     base = gradient_bg()
     card_w, card_h = 250, 200
     x, y = 50, 80
-    tile = Image.new("RGBA", (card_w, card_h), (0,68,210,255))
-    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
-    base.paste(tile.convert("RGB"), (x, y), mask)
+    tile = Image.new("RGBA", sz((card_w, card_h)), (0,68,210,255))
+    mask = Image.new("L", sz((card_w, card_h)), 0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), sz((x, y)), mask)
     paste_contain(base, logo, (x, y, card_w, card_h), pad=18)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((340, 92), "11", font=font(FONT_B, 92), fill=ORANGE)
     d.text((342, 200), "kinds of personal data", font=font(FONT_B, 22), fill=WHITE)
     d.text((342, 232), "may have leaked from support", font=font(FONT_R, 18), fill=(203,213,225))
@@ -971,11 +1016,11 @@ def thumb_stusdt_wind_down():
     base = gradient_bg()
     card_w, card_h = 230, 200
     x, y = 60, 80
-    tile = Image.new("RGBA", (card_w, card_h), (255,255,255,255))
-    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
-    base.paste(tile.convert("RGB"), (x, y), mask)
+    tile = Image.new("RGBA", sz((card_w, card_h)), (255,255,255,255))
+    mask = Image.new("L", sz((card_w, card_h)), 0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), sz((x, y)), mask)
     paste_contain(base, Image.open(logo).convert("RGBA"), (x, y, card_w, card_h), pad=24)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((330, 100), "$8.4M", font=font(FONT_B, 76), fill=ORANGE)
     d.text((332, 200), "value locked in stUSDT", font=font(FONT_B, 22), fill=WHITE)
     d.text((332, 232), "down from a $2.3B peak in 2023", font=font(FONT_R, 18), fill=(203,213,225))
@@ -995,11 +1040,11 @@ def thumb_luxor_hashrate_hijack():
     card_w, card_h = 250, 110
     for (img, bg, y) in ((luxor, (10,10,10,255), 70), (ocean, (10,22,40,255), 196)):
         x = 40
-        tile = Image.new("RGBA", (card_w, card_h), bg)
-        mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
-        base.paste(tile.convert("RGB"), (x, y), mask)
+        tile = Image.new("RGBA", sz((card_w, card_h)), bg)
+        mask = Image.new("L", sz((card_w, card_h)), 0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=14, fill=255)
+        base.paste(tile.convert("RGB"), sz((x, y)), mask)
         paste_contain(base, img, (x, y, card_w, card_h), pad=16)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((320, 100), "13 EH/s", font=font(FONT_B, 54), fill=ORANGE)
     d.text((322, 180), "of mining power", font=font(FONT_B, 22), fill=WHITE)
     d.text((322, 212), "sent to OCEAN, reports say", font=font(FONT_R, 18), fill=(203,213,225))
@@ -1017,11 +1062,11 @@ def thumb_germany_customs_crypto():
     base = gradient_bg()
     card_w, card_h = 250, 200
     x, y = 50, 80
-    tile = Image.new("RGBA", (card_w, card_h), (255,255,255,255))
-    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
-    base.paste(tile.convert("RGB"), (x, y), mask)
+    tile = Image.new("RGBA", sz((card_w, card_h)), (255,255,255,255))
+    mask = Image.new("L", sz((card_w, card_h)), 0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), sz((x, y)), mask)
     paste_contain(base, logo, (x, y, card_w, card_h), pad=20)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((320, 100), "€100,000", font=font(FONT_B, 50), fill=ORANGE)
     d.text((322, 180), "crypto, unclear origin", font=font(FONT_B, 22), fill=WHITE)
     d.text((322, 212), "held up to 180 days", font=font(FONT_R, 18), fill=(203,213,225))
@@ -1039,11 +1084,11 @@ def thumb_strategy_485_btc():
     base = gradient_bg()
     card_w, card_h = 250, 200
     x, y = 50, 80
-    tile = Image.new("RGBA", (card_w, card_h), (255,255,255,255))
-    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
-    base.paste(tile.convert("RGB"), (x, y), mask)
+    tile = Image.new("RGBA", sz((card_w, card_h)), (255,255,255,255))
+    mask = Image.new("L", sz((card_w, card_h)), 0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), sz((x, y)), mask)
     paste_contain(base, logo, (x, y, card_w, card_h), pad=24)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((326, 104), "+485 BTC", font=font(FONT_B, 48), fill=ORANGE)
     d.text((332, 180), "850,849 BTC in total", font=font(FONT_B, 22), fill=WHITE)
     d.text((332, 212), "average cost $75,452 per coin", font=font(FONT_R, 18), fill=(203,213,225))
@@ -1058,7 +1103,7 @@ def thumb_fear_greed_10():
     """Original gauge graphic drawn from Alternative.me's Crypto Fear & Greed Index value (10 on Nov. 16, 2026)."""
     import math
     base = gradient_bg()
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     cx, cy, r = 190, 270, 150
     bands = [(0, 25, (220, 38, 38)), (25, 46, (249, 115, 22)), (46, 55, (234, 179, 8)), (55, 75, (132, 204, 22)), (75, 100, (22, 163, 74))]
     for lo, hi, col in bands:
@@ -1085,11 +1130,11 @@ def thumb_lighter_api_key():
     base = gradient_bg()
     card_w, card_h = 230, 200
     x, y = 70, 80
-    tile = Image.new("RGBA", (card_w, card_h), (6,6,6,255))
-    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
-    base.paste(tile.convert("RGB"), (x, y), mask)
+    tile = Image.new("RGBA", sz((card_w, card_h)), (6,6,6,255))
+    mask = Image.new("L", sz((card_w, card_h)), 0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), sz((x, y)), mask)
     paste_contain(base, Image.open(logo).convert("RGBA"), (x, y, card_w, card_h), pad=20)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((350, 100), "$10.4M", font=font(FONT_B, 66), fill=ORANGE)
     d.text((352, 200), "USDC withdrawn", font=font(FONT_B, 22), fill=WHITE)
     d.text((352, 232), "via one trader's leaked API key", font=font(FONT_R, 18), fill=(203,213,225))
@@ -1105,13 +1150,13 @@ def thumb_custodia_scotus():
     court = fetch("https://upload.wikimedia.org/wikipedia/commons/d/da/Panorama_of_United_States_Supreme_Court_Building_at_Dusk.jpg", CACHE/"scotus-dusk.jpg")
     fed = fetch("https://upload.wikimedia.org/wikipedia/commons/7/73/Seal_of_the_United_States_Federal_Reserve_Board.svg", CACHE/"fed-seal.svg")
     base = cover_fit(open_rgb(court), cy=0.5)
-    overlay = Image.new("RGBA", base.size, (0,0,0,0)); ImageDraw.Draw(overlay).rectangle([0,int(H*0.70),W,H], fill=(8,14,28,200))
+    overlay = Image.new("RGBA", base.size, (0,0,0,0)); Draw(overlay).rectangle([0,int(H*0.70),W,H], fill=(8,14,28,200))
     base = Image.alpha_composite(base.convert("RGBA"), overlay).convert("RGB")
-    tile = Image.new("RGBA", (96, 96), (255,255,255,255))
-    mask = Image.new("L", (96, 96), 0); ImageDraw.Draw(mask).ellipse([0,0,95,95], fill=255)
-    base.paste(tile.convert("RGB"), (W-116, H-112), mask)
+    tile = Image.new("RGBA", sz((96, 96)), (255,255,255,255))
+    mask = Image.new("L", sz((96, 96)), 0); Draw(mask).ellipse([0,0,95,95], fill=255)
+    base.paste(tile.convert("RGB"), sz((W-116, H-112)), mask)
     paste_contain(base, Image.open(fed).convert("RGBA"), (W-116, H-112, 96, 96), pad=6)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((20, H-84), "Certiorari denied", font=font(FONT_B, 30), fill=WHITE)
     d.text((22, H-44), "Custodia Bank v. Fed Board, No. 26-62", font=font(FONT_R, 17), fill=(203,213,225))
     label_chip(base, "Supreme Court · Fed master account")
@@ -1128,11 +1173,11 @@ def thumb_solana_1_0():
     xs, closes = kraken_ohlc(1440, "SOLUSD")
     xs, closes = xs[-75:], closes[-75:]
     base = gradient_bg()
-    tile = Image.new("RGBA", (170, 170), (0,0,0,255))
-    mask = Image.new("L", (170, 170), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,169,169], radius=18, fill=255)
-    base.paste(tile.convert("RGB"), (36, 70), mask)
+    tile = Image.new("RGBA", sz((170, 170)), (0,0,0,255))
+    mask = Image.new("L", sz((170, 170)), 0); Draw(mask).rounded_rectangle([0,0,169,169], radius=18, fill=255)
+    base.paste(tile.convert("RGB"), sz((36, 70)), mask)
     paste_contain(base, Image.open(sol).convert("RGBA"), (36, 70, 170, 170), pad=26)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((44, 262), "mainnet beta", font=font(FONT_R, 22), fill=MUTED)
     tw = d.textlength("mainnet beta", font=font(FONT_R, 22))
     d.line([(44, 276), (44+tw, 276)], fill=(248,113,113), width=3)
@@ -1142,8 +1187,8 @@ def thumb_solana_1_0():
     ax.plot(xs, closes, color="#f7931a", linewidth=1.8)
     ax.fill_between(xs, closes, min(closes)*0.97, color="#f7931a", alpha=0.12)
     ax.xaxis.set_major_locator(mdates.MonthLocator()); ax.xaxis.set_major_formatter(mdates.DateFormatter("%b")); ax.yaxis.set_major_formatter(lambda v, _p: f"${v:,.0f}")
-    chart = ImageOps.fit(chart_to_image(fig), (372, 262), method=Image.Resampling.LANCZOS)
-    base.paste(chart, (W-392, 58))
+    chart = ImageOps.fit(chart_to_image(fig), sz((372, 262)), method=Image.Resampling.LANCZOS)
+    base.paste(chart, sz((W-392, 58)))
     label_chip(base, "Solana · protocol version 1.0")
     return base, {"kind":"composite","sources":[
         {"file":"solana-sol-logo.svg","license":"Logo","url":"https://cryptologos.cc/solana","credit":"Solana Foundation"},
@@ -1158,11 +1203,11 @@ def thumb_optimizely_clipper():
     base = gradient_bg()
     card_w, card_h = 270, 170
     x, y = 40, 95
-    tile = Image.new("RGBA", (card_w, card_h), (228,240,218,255))
-    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
-    base.paste(tile.convert("RGB"), (x, y), mask)
+    tile = Image.new("RGBA", sz((card_w, card_h)), (228,240,218,255))
+    mask = Image.new("L", sz((card_w, card_h)), 0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), sz((x, y)), mask)
     paste_contain(base, logo, (x, y, card_w, card_h), pad=18)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((340, 96), "178", font=font(FONT_B, 72), fill=ORANGE)
     d.text((342, 190), "organizations' sites", font=font(FONT_B, 22), fill=WHITE)
     d.text((342, 222), "served wallet-address-", font=font(FONT_R, 18), fill=(203,213,225))
@@ -1181,11 +1226,11 @@ def thumb_coingecko_solana():
     sol = fetch("https://cryptologos.cc/logos/solana-sol-logo.svg", CACHE/"solana-logo.svg")
     base = gradient_bg()
     for (x, y, w, h, col, im, pad) in [(40, 70, 300, 120, (13,18,22,255), cg, 16), (40, 210, 300, 110, (0,0,0,255), Image.open(sol).convert("RGBA"), 22)]:
-        tile = Image.new("RGBA", (w, h), col)
-        mask = Image.new("L", (w, h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,w-1,h-1], radius=16, fill=255)
-        base.paste(tile.convert("RGB"), (x, y), mask)
+        tile = Image.new("RGBA", sz((w, h)), col)
+        mask = Image.new("L", sz((w, h)), 0); Draw(mask).rounded_rectangle([0,0,w-1,h-1], radius=16, fill=255)
+        base.paste(tile.convert("RGB"), sz((x, y)), mask)
         paste_contain(base, im, (x, y, w, h), pad=pad)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((372, 100), "18M", font=font(FONT_B, 72), fill=ORANGE)
     d.text((374, 192), "registered users", font=font(FONT_B, 22), fill=WHITE)
     d.text((374, 224), "majority interest, terms", font=font(FONT_R, 18), fill=(203,213,225))
@@ -1205,11 +1250,11 @@ def thumb_trezor_skladon():
     logo = Image.open(src).convert("RGBA")
     base = gradient_bg()
     x, y, cw, ch = 40, 80, 220, 200
-    tile = Image.new("RGBA", (cw, ch), (255,255,255,255))
-    mask = Image.new("L", (cw, ch), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,cw-1,ch-1], radius=16, fill=255)
-    base.paste(tile.convert("RGB"), (x, y), mask)
+    tile = Image.new("RGBA", sz((cw, ch)), (255,255,255,255))
+    mask = Image.new("L", sz((cw, ch)), 0); Draw(mask).rounded_rectangle([0,0,cw-1,ch-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), sz((x, y)), mask)
     paste_contain(base, logo, (x, y, cw, ch), pad=10)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((292, 96), "~27,000", font=font(FONT_B, 64), fill=ORANGE)
     d.text((294, 182), "orders exposed", font=font(FONT_B, 22), fill=WHITE)
     d.text((294, 214), "at shipping partner", font=font(FONT_R, 18), fill=(203,213,225))
@@ -1227,11 +1272,11 @@ def thumb_coinbase_borrow_ny():
     mo = fetch("https://coin-images.coingecko.com/coins/images/29837/large/Morpho-token-icon.png", CACHE/"morpho-logo.png")
     base = gradient_bg()
     for (x, y, w, h, col, im, pad) in [(40, 70, 130, 130, (255,255,255,255), Image.open(cb).convert("RGBA"), 14), (190, 70, 130, 130, (255,255,255,255), Image.open(mo).convert("RGBA"), 18)]:
-        tile = Image.new("RGBA", (w, h), col)
-        mask = Image.new("L", (w, h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,w-1,h-1], radius=16, fill=255)
-        base.paste(tile.convert("RGB"), (x, y), mask)
+        tile = Image.new("RGBA", sz((w, h)), col)
+        mask = Image.new("L", sz((w, h)), 0); Draw(mask).rounded_rectangle([0,0,w-1,h-1], radius=16, fill=255)
+        base.paste(tile.convert("RGB"), sz((x, y)), mask)
         paste_contain(base, im, (x, y, w, h), pad=pad)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((44, 222), "Borrow USDC against BTC, ETH, SOL", font=font(FONT_R, 18), fill=(203,213,225))
     d.text((44, 250), "New York added Nov. 16", font=font(FONT_B, 20), fill=WHITE)
     d.text((372, 82), "50", font=font(FONT_B, 96), fill=ORANGE)
@@ -1252,11 +1297,11 @@ def thumb_cftc_backpack():
     base = gradient_bg()
     paste_contain(base, Image.open(cftc).convert("RGBA"), (34, 62, 210, 210), pad=6)
     x, y, cw, ch = 262, 92, 150, 150
-    tile = Image.new("RGBA", (cw, ch), (255,255,255,255))
-    mask = Image.new("L", (cw, ch), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,cw-1,ch-1], radius=16, fill=255)
-    base.paste(tile.convert("RGB"), (x, y), mask)
+    tile = Image.new("RGBA", sz((cw, ch)), (255,255,255,255))
+    mask = Image.new("L", sz((cw, ch)), 0); Draw(mask).rounded_rectangle([0,0,cw-1,ch-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), sz((x, y)), mask)
     paste_contain(base, Image.open(bp).convert("RGBA"), (x, y, cw, ch), pad=18)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((440, 104), "DCM", font=font(FONT_B, 40), fill=ORANGE)
     d.text((440, 156), "+ DCO", font=font(FONT_B, 40), fill=ORANGE)
     d.text((440, 214), "Nov. 13-16", font=font(FONT_R, 18), fill=(203,213,225))
@@ -1274,14 +1319,14 @@ def thumb_banks_btc_etf_13f():
     gs = fetch("https://upload.wikimedia.org/wikipedia/commons/6/61/Goldman_Sachs.svg", CACHE/"goldman-sachs.svg")
     wf = fetch("https://upload.wikimedia.org/wikipedia/commons/b/b3/Wells_Fargo_Bank.svg", CACHE/"wells-fargo.svg")
     base = gradient_bg()
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     for (x, im, big, sub) in [(40, gs, "$1.28B", "bitcoin ETFs (Goldman)"), (340, wf, "$2.35B", "IBIT (Wells Fargo)")]:
         cw, ch = 130, 130
-        tile = Image.new("RGBA", (cw, ch), (255,255,255,255))
-        mask = Image.new("L", (cw, ch), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,cw-1,ch-1], radius=16, fill=255)
-        base.paste(tile.convert("RGB"), (x, 70), mask)
+        tile = Image.new("RGBA", sz((cw, ch)), (255,255,255,255))
+        mask = Image.new("L", sz((cw, ch)), 0); Draw(mask).rounded_rectangle([0,0,cw-1,ch-1], radius=16, fill=255)
+        base.paste(tile.convert("RGB"), sz((x, 70)), mask)
         paste_contain(base, Image.open(im).convert("RGBA"), (x, 70, cw, ch), pad=14)
-        d = ImageDraw.Draw(base)
+        d = Draw(base)
         d.text((x, 216), big, font=font(FONT_B, 46), fill=ORANGE)
         d.text((x + 2, 272), sub, font=font(FONT_R, 18), fill=(203,213,225))
     d.text((44, 316), "13F filings, holdings as of Sept. 30, 2026", font=font(FONT_R, 15), fill=(148,163,184))
@@ -1298,13 +1343,13 @@ def thumb_russia_retail_crypto():
     flag = fetch("https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg", CACHE/"flag-russia.svg")
     btc = fetch("https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg", CACHE/"bitcoin-logo.svg")
     base = gradient_bg()
-    fl = Image.open(flag).convert("RGB").resize((210, 140))
-    base.paste(fl, (40, 74))
-    disc = Image.new("RGBA", (140, 140), (0, 0, 0, 0))
-    ImageDraw.Draw(disc).ellipse([0, 0, 139, 139], fill=(255, 255, 255, 255))
-    base.paste(disc.convert("RGB"), (210, 150), disc)
+    fl = Image.open(flag).convert("RGB").resize(sz((210, 140)))
+    base.paste(fl, sz((40, 74)))
+    disc = Image.new("RGBA", sz((140, 140)), (0, 0, 0, 0))
+    Draw(disc).ellipse([0, 0, 139, 139], fill=(255, 255, 255, 255))
+    base.paste(disc.convert("RGB"), sz((210, 150)), disc)
     paste_contain(base, Image.open(btc).convert("RGBA"), (210, 150, 140, 140), pad=16)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((384, 84), "\u20bd300K", font=font(FONT_B, 60), fill=ORANGE)
     d.text((386, 160), "per year, per intermediary", font=font(FONT_R, 17), fill=(203,213,225))
     d.text((386, 200), "BTC \u00b7 ETH \u00b7 USDT", font=font(FONT_B, 24), fill=WHITE)
@@ -1322,11 +1367,11 @@ def thumb_mev_acquittal():
     """Ethereum logo (CC BY 3.0, Wikimedia Commons) with case figures from the court opinion as reported by CoinDesk."""
     eth = fetch("https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg", CACHE/"ethereum-logo-2014.svg")
     base = gradient_bg()
-    disc = Image.new("RGBA", (200, 200), (0, 0, 0, 0))
-    ImageDraw.Draw(disc).ellipse([0, 0, 199, 199], fill=(255, 255, 255, 255))
-    base.paste(disc.convert("RGB"), (50, 76), disc)
+    disc = Image.new("RGBA", sz((200, 200)), (0, 0, 0, 0))
+    Draw(disc).ellipse([0, 0, 199, 199], fill=(255, 255, 255, 255))
+    base.paste(disc.convert("RGB"), sz((50, 76)), disc)
     paste_contain(base, Image.open(eth).convert("RGBA"), (50, 76, 200, 200), pad=26)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((300, 80), "$25M", font=font(FONT_B, 72), fill=ORANGE)
     d.text((304, 170), "from trading bots in 12 seconds", font=font(FONT_R, 18), fill=(203,213,225))
     d.text((304, 212), "Acquitted", font=font(FONT_B, 34), fill=WHITE)
@@ -1344,7 +1389,7 @@ def thumb_fed_minutes_btc_63k():
     fed = fetch("https://upload.wikimedia.org/wikipedia/commons/1/1a/Seal_of_the_United_States_Federal_Reserve_System.svg", CACHE/"fed-seal.svg")
     base = gradient_bg()
     paste_contain(base, Image.open(fed).convert("RGBA"), (36, 70, 200, 200), pad=6)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((262, 88), "3.75-4%", font=font(FONT_B, 58), fill=ORANGE)
     d.text((264, 166), "Fed rate range, held Oct. 28", font=font(FONT_B, 19), fill=WHITE)
     d.text((264, 200), "Minutes: almost all officials", font=font(FONT_R, 17), fill=(203,213,225))
@@ -1362,11 +1407,11 @@ def thumb_binance_adgm_order():
     base = gradient_bg()
     card_w, card_h = 200, 190
     x, y = 46, 84
-    tile = Image.new("RGBA", (card_w, card_h), (26,35,50,235))
-    mask = Image.new("L", (card_w, card_h), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
-    base.paste(tile.convert("RGB"), (x, y), mask)
+    tile = Image.new("RGBA", sz((card_w, card_h)), (26,35,50,235))
+    mask = Image.new("L", sz((card_w, card_h)), 0); Draw(mask).rounded_rectangle([0,0,card_w-1,card_h-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), sz((x, y)), mask)
     paste_contain(base, Image.open(binance).convert("RGBA"), (x, y, card_w, card_h), pad=22)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((278, 96), "$2.85B", font=font(FONT_B, 64), fill=ORANGE)
     d.text((280, 186), "frozen or intercepted", font=font(FONT_B, 21), fill=WHITE)
     d.text((280, 220), "Abu Dhabi court order", font=font(FONT_R, 18), fill=(203,213,225))
@@ -1384,11 +1429,11 @@ def thumb_ledger_berlin_dubai():
     logo = Image.open(src).convert("RGBA")
     base = gradient_bg()
     x, y, cw, ch = 40, 84, 200, 190
-    tile = Image.new("RGBA", (cw, ch), (255,255,255,255))
-    mask = Image.new("L", (cw, ch), 0); ImageDraw.Draw(mask).rounded_rectangle([0,0,cw-1,ch-1], radius=16, fill=255)
-    base.paste(tile.convert("RGB"), (x, y), mask)
+    tile = Image.new("RGBA", sz((cw, ch)), (255,255,255,255))
+    mask = Image.new("L", sz((cw, ch)), 0); Draw(mask).rounded_rectangle([0,0,cw-1,ch-1], radius=16, fill=255)
+    base.paste(tile.convert("RGB"), sz((x, y)), mask)
     paste_contain(base, logo, (x, y, cw, ch), pad=34)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((272, 92), "Berlin", font=font(FONT_B, 54), fill=ORANGE)
     d.text((272, 156), "+ 2 suspected in Dubai", font=font(FONT_B, 22), fill=WHITE)
     d.text((274, 196), "Tampered wallets built to", font=font(FONT_R, 18), fill=(203,213,225))
@@ -1405,7 +1450,7 @@ def thumb_genius_state_safe_harbor():
     seal = fetch("https://upload.wikimedia.org/wikipedia/commons/c/cb/Seal_of_the_United_States_Department_of_the_Treasury.svg", CACHE/"treasury-seal.svg")
     base = gradient_bg()
     paste_contain(base, Image.open(seal).convert("RGBA"), (36, 70, 200, 200), pad=6)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((262, 88), "6 senators", font=font(FONT_B, 54), fill=ORANGE)
     d.text((264, 160), "ask Treasury for a state", font=font(FONT_B, 20), fill=WHITE)
     d.text((264, 188), "stablecoin safe harbor", font=font(FONT_B, 20), fill=WHITE)
@@ -1422,7 +1467,7 @@ def thumb_threat_disruption_center():
     seal = fetch("https://upload.wikimedia.org/wikipedia/commons/8/8a/Seal_of_the_United_States_Department_of_Homeland_Security.svg", CACHE/"dhs-seal.svg")
     base = gradient_bg()
     paste_contain(base, Image.open(seal).convert("RGBA"), (36, 70, 200, 200), pad=6)
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     d.text((262, 88), "$20.9B", font=font(FONT_B, 54), fill=ORANGE)
     d.text((264, 160), "lost to cybercrime in 2025,", font=font(FONT_B, 20), fill=WHITE)
     d.text((264, 188), "FBI's IC3 reports", font=font(FONT_B, 20), fill=WHITE)
@@ -1437,7 +1482,7 @@ def thumb_threat_disruption_center():
 def thumb_sky_psm_illicit():
     """Generated flow graphic: USDC -> Sky PSM -> DAI/USDS with the Inca Digital figures (via CoinDesk)."""
     base = gradient_bg()
-    d = ImageDraw.Draw(base)
+    d = Draw(base)
     def box(x, y, w, h, title, sub, col):
         d.rounded_rectangle([x, y, x+w, y+h], radius=14, fill=(20, 32, 60), outline=col, width=3)
         tw = d.textlength(title, font=font(FONT_B, 26))
@@ -1561,6 +1606,58 @@ def build_one(slug: str) -> bool:
         except Exception as e2:
             print(f"  FALLBACK ERROR {e2}"); return False
 
+def og_figure_source(slug: str) -> Path | None:
+    """No builder: prefer the article's fact card / timeline / comparison (readable at
+    preview size) over its bar charts."""
+    d = IMG / slug
+    if d.is_dir():
+        for pref in ("fact-", "timeline-", "compare-", "chart-"):
+            for p in sorted(d.glob(pref + "*")):
+                if p.suffix.lower() in {".webp", ".png", ".jpg", ".jpeg"}: return p
+    return first_figure_source(slug)
+
+def og_path(slug: str) -> Path:
+    return OG_DIR / f"{slug}{OG_SUFFIX}.jpg"
+
+def build_og(slug: str) -> bool:
+    """Render the article's card-thumb design natively at 1200x630 (no upscaling).
+
+    Same builder as the 640x360 homepage thumb, drawn at S=1.875 (1200x675), then
+    trimmed to 630 px tall (15 px top, 30 px bottom). Articles without a builder use
+    their first in-article figure (already 1200 px wide).
+    """
+    global S, DATA_END
+    print(f"· og {slug}")
+    cred = IMG / slug / "thumb.credits.json"
+    DATA_END = None
+    if cred.exists():
+        g = json.loads(cred.read_text(encoding="utf-8")).get("generated")
+        if g: DATA_END = datetime.strptime(g, "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc)
+    S = OG_W / W
+    try:
+        im = None
+        if slug in BUILDERS:
+            try: im, _ = BUILDERS[slug]()
+            except Exception as e: print(f"  builder ERROR {e}; using article figure")
+        if im is None:
+            src = og_figure_source(slug)
+            if not src: print("  skip (no visual)"); return False
+            out = cover_fit(open_rgb(src), OG_W, OG_H, cy=0.5)
+        elif abs(im.width - OG_W) <= 2 and abs(im.height - round(H * S)) <= 2:
+            full = cover_fit(im, OG_W, round(H * S))          # 1200x675 design canvas
+            out = full.crop((0, 15, OG_W, 15 + OG_H))
+        else:
+            # matplotlib chart (free aspect): fit whole chart, never crop its title/axes
+            out = Image.new("RGB", (OG_W, OG_H), im.convert("RGB").getpixel((2, im.height - 3)))
+            paste_contain(out, im, (0, 0, OG_W / S, OG_H / S), pad=6)
+        OG_DIR.mkdir(parents=True, exist_ok=True)
+        dest = og_path(slug)
+        out.convert("RGB").save(dest, "JPEG", quality=86, optimize=True, progressive=True)
+        print(f"  wrote {dest.relative_to(ROOT)} ({dest.stat().st_size // 1024} KB)")
+        return True
+    finally:
+        S, DATA_END = 1.0, None
+
 def published_slugs():
     idx = (ROOT/"index.html").read_text(encoding="utf-8"); seen=[]
     for m in re.finditer(r'href="(?:/articles/|articles/)([a-z0-9-]+)(?:\.html)?"', idx):
@@ -1570,9 +1667,10 @@ def published_slugs():
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("slugs", nargs="*"); ap.add_argument("--all", action="store_true")
+    ap.add_argument("--og", action="store_true", help="write 1200x630 link previews assets/og/<slug>-v2.jpg instead of thumbs")
     args = ap.parse_args()
     slugs = published_slugs() if args.all or not args.slugs else args.slugs
-    ok = sum(1 for s in slugs if build_one(s))
+    ok = sum(1 for s in slugs if (build_og(s) if args.og else build_one(s)))
     print(f"done: {ok}/{len(slugs)}"); return 0 if ok else 1
 
 if __name__ == "__main__":

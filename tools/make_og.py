@@ -6,6 +6,13 @@ Usage:
   python3 tools/make_og.py --all
 
 Outputs 1200x630 PNG to assets/og/<slug>.png (or default.png for slug=default).
+
+NOTE (Nov 2026): this uniform title card is now only the site default (default.png) and a
+fallback. Article link previews (og:image / twitter:image / JSON-LD / og-hero) use the
+story-specific assets/og/<slug>-v2.jpg rendered by
+    .venv/bin/python tools/make_card_thumbs.py --og <slug>
+(the homepage card-thumb design drawn natively at 1200x630). Running this script for an
+article slug also runs that step when possible; build_i18n.py picks the -v2.jpg automatically.
 """
 
 from __future__ import annotations
@@ -631,7 +638,19 @@ def main() -> int:
 
     path = make_image(args.slug, args.title, args.label or "NEWS")
     print(f"{path} ({path.stat().st_size} bytes)")
+    if args.slug != "default":
+        story_preview(args.slug)
     return 0
+
+
+def story_preview(slug: str) -> None:
+    """Render the distinct per-article preview assets/og/<slug>-v2.jpg (see module docstring)."""
+    import subprocess
+    py = ROOT / ".venv" / "bin" / "python"
+    cmd = [str(py if py.exists() else sys.executable), str(ROOT / "tools" / "make_card_thumbs.py"), "--og", slug]
+    r = subprocess.run(cmd)
+    if r.returncode:
+        print(f"warn: story preview not built for {slug}; run: {' '.join(cmd[1:])}", file=sys.stderr)
 
 
 if __name__ == "__main__":
