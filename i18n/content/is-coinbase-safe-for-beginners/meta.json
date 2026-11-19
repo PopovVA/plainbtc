@@ -68,6 +68,16 @@
    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001679788&type=10-K",
    "title": "SEC EDGAR: Coinbase Global, Inc. filings",
    "date": ""
+  },
+  {
+   "url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf",
+   "title": "FBI Internet Crime Complaint Center: 2025 Internet Crime Report",
+   "date": "2026"
+  },
+  {
+   "url": "https://www.coinbase.com/blog/consumer-protection-tuesday-how-we-leveraged-ai-to-stop-a-popular-tesla-scam",
+   "title": "Coinbase: How we leveraged AI to stop a popular Tesla scam",
+   "date": "Nov 17, 2026"
   }
  ],
  "disclosure_variant": "guide"

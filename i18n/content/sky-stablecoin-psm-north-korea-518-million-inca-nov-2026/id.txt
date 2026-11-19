@@ -1,0 +1,57 @@
+title: Laporan: US$518 juta terkait peretas, termasuk Korea Utara, mengalir lewat penukaran stablecoin Sky
+page_title: US$518 juta terkait peretas mengalir lewat penukaran Sky
+description: Inca Digital melacak transaksi senilai US$518 juta oleh dompet yang terkait dengan peretas dan pelaku ilegal lain melalui Peg Stability Module milik Sky, termasuk US$101,9 juta yang terkait Korea Utara. Apa artinya bagi pemegang DAI dan USDS.
+og_description: Modul penukaran Sky memungkinkan siapa pun menukar USDC yang bisa dibekukan dengan DAI atau USDS. Laporan baru menyebut dompet terkait Korea Utara memakainya setelah peretasan Bybit pada 2025, dan sekitar US$2,7 miliar USDC di dalamnya bisa dibekukan sekaligus. Sky menyatakan aliran yang ditandai hanya sebagian sangat kecil dari volume.
+label: Keamanan
+summary: Perusahaan risiko kripto Inca Digital melacak transaksi senilai US$518 juta oleh dompet yang terkait peretas dan pelaku ilegal lain melalui modul penukaran stablecoin Sky, termasuk US$101,9 juta yang terkait Korea Utara. Perusahaan itu memperingatkan cadangan US$2,7 miliar dalam USDC bisa dibekukan sekaligus.
+===
+
+Sebuah investigasi baru menyorot Sky, protokol terdesentralisasi di balik stablecoin DAI dan USDS. Perusahaan analitik risiko kripto Inca Digital melacak transaksi senilai US$518 juta melalui Peg Stability Module (PSM) milik Sky oleh dompet yang terkait dengan peretas, operasi phishing, entitas yang terkena sanksi, dan alamat yang masuk daftar hitam Circle dan Tether, [lapor CoinDesk](L1) pada Kamis, 19 November. Sekitar US$101,9 juta dari jumlah itu terkait langsung dengan pelaku Korea Utara.
+
+Sky lahir dari MakerDAO, salah satu proyek tertua di keuangan terdesentralisasi (DeFi). PSM bekerja seperti loket penukaran: siapa pun bisa menukar USDC milik Circle dengan DAI atau USDS pada kurs tetap satu banding satu. Ini membantu menjaga koin tetap di sekitar US$1, tetapi juga memungkinkan uang berpindah dari USDC, yang bisa dibekukan Circle, ke token yang tidak bisa dibekukan perusahaan mana pun. Inca menyebut PSM sebagai "jalan keluar dari USDC yang bisa dibekukan".
+
+!takeaways
+- Inca Digital melacak transaksi PSM senilai US$518 juta dari 422 dompet yang terkait pelaku ilegal.
+- Sekitar US$101,9 juta terkait Korea Utara, termasuk US$91,5 juta yang dialirkan dalam 10 hari setelah peretasan Bybit pada Februari 2025.
+- PSM menyimpan sekitar US$2,7 miliar USDC di satu dompet, dan pembekuan bisa mengunci semuanya, kata laporan itu.
+- Yayasan Sky menyatakan aliran yang ditandai kurang dari 0,06% dari volume PSM yang lebih dari US$930 miliar.
+
+!figure:chart
+
+## Temuan laporan
+
+Kasus paling jelas adalah peretasan Bybit. Pada Februari 2025, peretas Korea Utara mencuri sekitar US$1,5 miliar dari bursa itu. Dalam 10 hari berikutnya, dompet yang didanai aset curian itu mengalirkan US$91,5 juta melalui PSM, menurut Inca. Hampir US$30 juta di antaranya bergerak setelah FBI secara terbuka menyalahkan Korea Utara pada 26 Februari 2025.
+
+Insiden lain juga muncul. FTX Accounts Drainer menukar US$26,1 juta melalui PSM saat bursa itu runtuh pada November 2022, dan pelaku eksploit Infini menukar US$49,5 juta USDC ke DAI pada hari peretasan tersebut di Februari 2025, menurut laporan itu. Inca mencatat angkanya mengukur transaksi oleh dompet yang terkait pelaku ilegal, dan tidak semua uang itu adalah dana curian yang terlacak ke pencurian tertentu.
+
+PSM tidak melakukan pemeriksaan identitas atau penyaringan transaksi. Sekitar 95% transaksi yang ditandai masuk lewat agregator trading terdesentralisasi seperti 1inch, ParaSwap, dan MetaMask Swaps, kata Inca.
+
+!mid_cta
+
+## Mengapa pembekuan penting
+
+Penerbit stablecoin seperti Circle dan Tether makin cepat membekukan dana curian, seperti setelah peretasan Binance bulan lalu. Kekuatan itu ibarat pisau bermata dua bagi Sky. PSM menyimpan sekitar US$2,7 miliar USDC di satu dompet Ethereum yang dibuat melalui Coinbase Prime. Jika Circle memasukkan alamat itu ke daftar hitam, misalnya setelah perintah pengadilan, seluruh saldo akan terkunci karena Circle tidak bisa membekukan hanya sebagian dompet. Cadangan yang sah akan ikut dibekukan bersama uang yang mencurigakan.
+
+!figure:fact
+
+USDC itu menjadi sebagian jaminan bagi lebih dari US$8 miliar DAI dan USDS, menurut CoinDesk. Amey Dandawate dari Bluechip Ratings menyebut pembekuan sebagai "kemungkinan kecil, tetapi tidak sepenuhnya hipotetis," merujuk pada pembekuan US$12 juta USDC atas perintah pengadilan pada Mei. Menurutnya, pembekuan cadangan Sky akan menghentikan penukaran di kedua arah dan bisa memukul aplikasi DeFi lain yang bergantung padanya.
+
+## Tanggapan Sky
+
+Sky Frontier Foundation mengatakan kepada CoinDesk bahwa pihaknya "menanggapi serius setiap kekhawatiran tentang aktivitas ilegal di DeFi". Menurut yayasan itu, sebagian besar transaksi yang ditandai, berdasarkan nilai, berasal dari 2021 hingga pertengahan 2024, tidak ada yang lewat situs resminya, sky.money dan spark.fi, yang menyaring dompet, dan jumlahnya kurang dari 0,06% dari total volume PSM yang lebih dari US$930 miliar. "Menjaga DeFi tetap terbuka sekaligus aman adalah tantangan bagi seluruh industri," kata yayasan itu. [PANews](L2) juga merangkum laporan dan tanggapan Sky.
+
+## Apa artinya bagi Anda
+
+Jika Anda memegang DAI atau USDS, belum ada yang dibekukan, dan laporan itu tidak menyebut pembekuan akan terjadi. Namun ini pengingat bahwa stablecoin hanya sekuat jaminannya. DAI dan USDS sebagian bergantung pada USDC yang disimpan di satu alamat, sehingga terikat pada keputusan Circle dan pengadilan. Jika ingin memakai stablecoin, jalan sederhana bagi pemula adalah bursa besar yang diatur seperti [Coinbase](REF), yang menyediakan USDC. Apa pun pilihannya, periksa siapa penerbit sebuah koin dan apa jaminannya sebelum memegangnya. Ini bukan nasihat keuangan.
+
+## Yang perlu dipantau
+
+- Apakah Sky menambahkan penyaringan atau batasan lain pada PSM.
+- Apakah Circle, pengadilan, atau regulator bertindak terhadap dompet yang ditandai.
+- Bagaimana mitra institusional Sky, seperti Galaxy, menanggapi.
+
+!soft: Lihat cara Korea Utara mengelola hasil curian Binance di [Korea Utara membuat memecoin untuk mencuci hasil peretasan Binance](/articles/binance-hack-north-korea-memecoin-laundering-nov-2026).
+
+!end_cta
+
+!disclosure

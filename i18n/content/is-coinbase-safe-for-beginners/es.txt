@@ -57,6 +57,8 @@ La lección no es que vaciaran las bóvedas de Coinbase. Es que los datos person
 
 FINRA, el organismo autorregulador del sector de valores, advierte de que [las estafas con criptomonedas están muy extendidas](L8): suplantación de identidad (phishing), falso soporte técnico y estafadores que se hacen pasar por un servicio legítimo. Una vez enviadas, las criptomonedas por lo general se pierden para siempre.
 
+Las cifras lo confirman. El [informe de delitos en internet de 2025 del FBI](L10) contabilizó 11.366 millones de dólares en pérdidas declaradas en denuncias relacionadas con criptomonedas, un 22% más que en 2024. En noviembre de 2026, Coinbase dijo que sus defensas contra estafas con IA [frenaron unos 4,7 millones de dólares](L11) que sus clientes intentaron enviar durante una transmisión falsa de Tesla en la que un deepfake de Elon Musk prometía «duplicar» cualquier cripto enviada. No se hackeó ninguna cuenta: fueron las personas quienes decidieron enviar el dinero. Una regla sencilla: ninguna empresa ni celebridad real va a duplicar tus cripto.
+
 Coinbase dice que su personal nunca te pedirá la contraseña ni el código de verificación en dos pasos, nunca te pedirá tu frase de recuperación, nunca pedirá acceso remoto a tu dispositivo y nunca te pedirá mover fondos a una cartera «segura». Si alguien llama diciendo ser de Coinbase, [Coinbase afirma que es una estafa](L9).
 
 !howto

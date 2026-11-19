@@ -1,0 +1,66 @@
+title: AS meluncurkan Threat Disruption Center untuk memerangi penipuan kripto, teknologinya dari TRM Labs
+page_title: AS luncurkan pusat pemberantasan penipuan kripto
+description: DHS dan Departemen Kehakiman meluncurkan Threat Disruption Center untuk melacak uang hasil penipuan, memperingatkan korban lebih cepat, dan membekukan kripto curian. Warga AS melaporkan kerugian kejahatan siber US$20,9 miliar ke FBI pada 2025, US$11,4 miliar di antaranya dalam kasus kripto.
+og_description: Unit federal baru ini memungkinkan penyidik dan perusahaan seperti bank, media sosial, dan perusahaan kripto berbagi informasi penipuan nyaris secara real time. TRM Labs, yang menurut Bloomberg dibayar sekitar US$95 juta, membangun platformnya. Apa fungsinya dan apa artinya bagi Anda.
+label: Keamanan
+summary: Homeland Security Task Force yang dipimpin DHS dan Departemen Kehakiman meluncurkan Threat Disruption Center pada 18 November untuk melacak uang hasil penipuan, memperingatkan korban lebih cepat, dan membekukan kripto curian. Perusahaan analitik blockchain TRM Labs menjadi mitra swasta utamanya.
+===
+
+Pemerintah AS punya unit baru untuk melawan penipuan yang menguras rekening bank dan akun kripto warga Amerika. Pada Rabu, 18 November, Homeland Security Task Force, yang dipimpin bersama oleh Departemen Keamanan Dalam Negeri (DHS) dan Departemen Kehakiman (DOJ), meluncurkan Threat Disruption Center, unit yang "berfokus memutus aliran dana korban ke jaringan kriminal asing di balik penipuan, kejahatan siber, dan pemerasan seksual yang menyasar warga Amerika", [menurut gugus tugas tersebut](L1).
+
+Pusat ini dirancang untuk bergerak cepat. Pusat ini memberi penyidik alat untuk memilah laporan korban dan memetakan jaringan di baliknya, serta membuka jalur langsung ke perusahaan swasta yang sering paling dulu melihat penipuan: platform media sosial, penyedia hosting web, bank, perusahaan pembayaran, dan layanan kripto. Perusahaan analitik blockchain TRM Labs membangun platform yang dipakai pusat ini.
+
+!takeaways
+- DHS dan Departemen Kehakiman meluncurkan Threat Disruption Center pada 18 November untuk melawan penipuan dan kejahatan siber yang menyasar warga AS.
+- Pusat ini melayani gugus tugas yang terdiri dari lebih dari 30 lembaga federal dan lebih dari 440 mitra negara bagian dan lokal.
+- TRM Labs adalah mitra swasta utama; menurut Bloomberg, pemerintah membayarnya sekitar US$95 juta.
+- Warga AS melaporkan kerugian kejahatan siber US$20,9 miliar ke FBI pada 2025, dan pengaduan yang melibatkan kripto mencapai US$11,4 miliar.
+
+!figure:chart
+
+## Apa yang akan dilakukan pusat ini
+
+Tujuannya memperpendek jeda antara laporan korban dan tindakan. "Setiap jam antara laporan korban dan respons memberi penjahat lebih banyak waktu untuk mencuci dana curian dan mencari target berikutnya," kata Heith Janke, direktur operasi Divisi Kriminal FBI, dalam pengumuman itu.
+
+Pusat ini membangun saluran tetap bagi penegak hukum dan perusahaan peserta untuk berbagi informasi nyaris secara real time dan mengubahnya menjadi tindakan, misalnya menahan pembayaran korban, menutup situs penipuan, atau memblokir akun media sosial yang dipakai penipu. Perusahaan bisa mengambil langkah itu sendiri sesuai ketentuan layanan mereka, sementara lembaga pemerintah menangani penyidikan, penuntutan, dan penyitaan atas izin pengadilan.
+
+Untuk kripto, tugasnya adalah mengikuti jejak uang. Pusat ini akan "mengidentifikasi korban, melacak dana korban sampai ke pelaku, mengidentifikasi dompet kripto yang dipakai para pelaku itu, lalu berusaha mengidentifikasi korban lainnya," kata Eric Weindorf, wakil direktur National Coordination Center gugus tugas itu, kepada [Bloomberg](L2).
+
+## Siapa di baliknya
+
+Gugus tugas ini mencakup lebih dari 30 lembaga federal dan lebih dari 440 mitra negara bagian dan lokal. Pusat baru ini menjalankan Perintah Eksekutif 14390, "Memerangi Kejahatan Siber, Penipuan, dan Skema Predator terhadap Warga Negara Amerika", yang ditandatangani Presiden Trump pada Maret 2026.
+
+[TRM Labs menyatakan](L3) akan menyediakan Ardence, platform investigasi berbasis AI miliknya, sebagai alat investigasi utama pusat ini, ditambah dukungan teknik dan investigasi khusus. Bloomberg melaporkan pemerintah membayar TRM sekitar US$95 juta dan lebih dari 60 karyawan TRM bekerja di proyek ini. Kontrak satu tahun itu diberikan pada Juli tanpa tender. Pesaingnya, Chainalysis, menggugat penunjukan itu, dan gugatannya ditolak pada September.
+
+!mid_cta
+
+## Mengapa sekarang
+
+Kerugian terus bertambah. Menurut [Laporan Kejahatan Internet 2025 FBI](L4), pusat pengaduan kejahatan internet FBI (IC3) menerima 1.008.597 pengaduan dan US$20,877 miliar kerugian yang dilaporkan tahun lalu, naik 26% dari 2024. Pengaduan yang melibatkan mata uang kripto menyumbang US$11,366 miliar dari kerugian itu, dan penipuan investasi kripto saja US$7,228 miliar. Angka sebenarnya kemungkinan lebih tinggi karena sebagian besar korban tidak pernah melapor, kata gugus tugas itu.
+
+!figure:fact
+
+Banyak penipuan ini sama sekali tidak melibatkan peretasan. Korban dibujuk untuk mengirim uangnya sendiri. Sejumlah bursa kini turun tangan tepat di saat itu. Pekan ini, [Coinbase menyatakan](L5) pertahanan antipenipuan berbasis AI miliknya menghentikan sekitar US$4,7 juta, kira-kira 91% dari yang hendak dikirim nasabah, saat siaran langsung palsu Tesla memakai deepfake Elon Musk dan menjanjikan akan "menggandakan" kripto apa pun yang dikirim.
+
+## Apa artinya bagi Anda
+
+Pusat federal baru tidak berarti uang yang hilang karena penipuan mudah kembali. Transfer kripto biasanya tidak bisa dibatalkan, dan pemulihan, kalaupun terjadi, bisa memakan waktu lama. Pertahanan terbaik tetap tidak mengirim sejak awal:
+
+- Tidak ada perusahaan atau selebritas sungguhan yang akan menggandakan kripto Anda. Kalau Anda harus mengirim uang lebih dulu, itu penipuan.
+- Jangan pernah mengirim kripto ke alamat atau kode QR yang muncul di video, siaran langsung, atau pesan yang tak terduga.
+- Waspadai "teman" atau "penasihat" online baru yang mendorong Anda ke aplikasi atau situs trading.
+- Jika membeli kripto, gunakan platform terkenal yang diatur seperti [Coinbase](REF) dan aktifkan semua fitur keamanan yang tersedia.
+
+Jika Anda merasa tertipu, segera laporkan ke FBI di [ic3.gov](L6). Laporan yang cepat memberi penyidik, dan kini pusat ini, peluang terbaik untuk membekukan dana sebelum berpindah. Ini bukan nasihat keuangan.
+
+## Yang perlu dipantau
+
+- Apakah pusat ini mengumumkan dana pertama yang dibekukan atau situs yang ditutup.
+- Perusahaan mana yang bergabung sebagai mitra.
+- Apakah kontrak satu tahun dengan TRM diperpanjang atau dibuka untuk penyedia lain.
+
+!soft: Pelajari dasar-dasar melindungi akun Anda di [Apakah Coinbase aman untuk pemula?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

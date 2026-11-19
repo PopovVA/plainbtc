@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ko/</link>
     <description>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ko/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>미국, 암호화폐 사기 대응 '위협 차단 센터' 출범… 기술은 TRM 랩스가 맡아</title>
+      <link>https://plainbtc.com/ko/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:10:00 GMT</pubDate>
+      <category>보안</category>
+      <description>DHS와 법무부가 이끄는 국토안보 태스크포스가 11월 18일 사기 자금을 추적하고, 피해자에게 더 빨리 경고하고, 도난당한 암호화폐를 동결하기 위한 '위협 차단 센터'를 출범시켰다. 블록체인 분석 기업 TRM 랩스가 핵심 민간 파트너다.</description>
+    </item>
+    <item>
+      <title>보고서: 북한 포함 해커 연루 자금 5억1800만 달러, Sky의 스테이블코인 교환 모듈 거쳐</title>
+      <link>https://plainbtc.com/ko/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:05:00 GMT</pubDate>
+      <category>보안</category>
+      <description>암호화폐 리스크 분석 기업 Inca Digital이 해커 등 불법 행위자와 연결된 지갑들이 Sky의 스테이블코인 교환 모듈을 통해 진행한 5억1800만 달러 규모의 거래를 추적했다. 이 중 1억190만 달러는 북한 연루다. 27억 달러 규모의 USDC 준비금이 한꺼번에 동결될 수 있다고 경고했다.</description>
+    </item>
     <item>
       <title>렛저, 베를린서 조작된 하드웨어 지갑 확인…두바이 2대도 조사</title>
       <link>https://plainbtc.com/ko/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>

@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/es/</link>
     <description>Noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</description>
     <language>es</language>
-    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>EE. UU. lanza un Centro de Disrupción de Amenazas contra las estafas cripto, con tecnología de TRM Labs</title>
+      <link>https://plainbtc.com/es/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:10:00 GMT</pubDate>
+      <category>Seguridad</category>
+      <description>La Fuerza de Tarea de Seguridad Nacional, dirigida por el DHS y el Departamento de Justicia, lanzó el 18 de noviembre un Centro de Disrupción de Amenazas para rastrear el dinero de las estafas, avisar antes a las víctimas y congelar cripto robadas. La firma de análisis blockchain TRM Labs es su principal socio privado.</description>
+    </item>
+    <item>
+      <title>Informe: 518 millones de dólares ligados a hackers, incluida Corea del Norte, pasaron por el canje de stablecoins de Sky</title>
+      <link>https://plainbtc.com/es/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:05:00 GMT</pubDate>
+      <category>Seguridad</category>
+      <description>La firma de riesgo cripto Inca Digital rastreó 518 millones de dólares en transacciones de billeteras ligadas a hackers y otros actores ilícitos a través del módulo de canje de stablecoins de Sky, incluidos 101,9 millones vinculados a Corea del Norte. Advierte que la reserva de 2.700 millones en USDC podría congelarse de una sola vez.</description>
+    </item>
     <item>
       <title>Ledger confirma billeteras físicas manipuladas en Berlín y revisa otras dos en Dubái</title>
       <link>https://plainbtc.com/es/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>

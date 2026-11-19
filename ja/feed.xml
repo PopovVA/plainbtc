@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>米政府が暗号資産詐欺対策の「脅威阻止センター」を発足、技術はTRM Labsが担当</title>
+      <link>https://plainbtc.com/ja/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:10:00 GMT</pubDate>
+      <category>セキュリティ</category>
+      <description>DHSと司法省が率いる国土安全保障タスクフォースは11月18日、詐欺の資金を追跡し、被害者に早く警告し、盗まれた暗号資産を凍結するため「脅威阻止センター」を発足させた。ブロックチェーン分析企業TRM Labsが主要な民間パートナーとなる。</description>
+    </item>
+    <item>
+      <title>報告書：北朝鮮を含むハッカー関連の5億1800万ドルがSkyのステーブルコイン交換を通過</title>
+      <link>https://plainbtc.com/ja/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:05:00 GMT</pubDate>
+      <category>セキュリティ</category>
+      <description>暗号資産リスク分析企業Inca Digitalは、ハッカーなど不正な主体に関連するウォレットがSkyのステーブルコイン交換モジュールを通じて行った5億1800万ドルの取引を追跡した。うち1億190万ドルは北朝鮮関連。27億ドルのUSDC準備金が一度に凍結されうると警告している。</description>
+    </item>
     <item>
       <title>Ledger、ベルリンで改ざんされたハードウェアウォレットを確認　ドバイでも2台を調査</title>
       <link>https://plainbtc.com/ja/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>

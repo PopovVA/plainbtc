@@ -57,6 +57,8 @@ The lesson is not that Coinbase’s vaults were emptied. It is that stolen perso
 
 FINRA, the securities industry’s self-regulator, warns that [crypto scams are widespread](L8), including phishing, fake tech support, and fraudsters who pose as a legitimate service. Once crypto is sent, it is generally gone for good.
 
+The numbers back this up. The FBI's [2025 Internet Crime Report](L10) counted $11.366 billion in reported losses from complaints involving cryptocurrency, up 22% from 2024. In November 2026, Coinbase said its AI scam defenses [stopped about $4.7 million](L11) that customers tried to send during a fake Tesla livestream in which a deepfake of Elon Musk promised to "double" any crypto sent. No account was hacked: people chose to send the money. A simple rule: no real company or celebrity will double your crypto.
+
 Coinbase says its staff will never ask for your password or 2-step verification code, never ask for your recovery phrase, never ask for remote access to your device, and never ask you to move funds to a “safe” wallet. If someone calls and claims to be from Coinbase, [Coinbase says it is a scam](L9).
 
 !howto

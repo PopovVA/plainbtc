@@ -1,0 +1,66 @@
+title: EUA lançam um Centro de Disrupção de Ameaças contra golpes com cripto, com tecnologia da TRM Labs
+page_title: EUA lançam centro contra golpes com cripto
+description: O DHS e o Departamento de Justiça lançaram um Centro de Disrupção de Ameaças para rastrear o dinheiro de golpes, avisar as vítimas mais cedo e congelar cripto roubadas. Em 2025, americanos relataram ao FBI perdas de US$ 20,9 bilhões com crimes cibernéticos, US$ 11,4 bilhões em casos com cripto.
+og_description: Uma nova unidade federal vai permitir que investigadores e empresas como bancos, redes sociais e empresas de cripto troquem informações sobre golpes quase em tempo real. A TRM Labs, que segundo a Bloomberg recebe cerca de US$ 95 milhões, criou a plataforma. O que ela faz e o que muda para você.
+label: Segurança
+summary: A Força-Tarefa de Segurança Interna, liderada pelo DHS e pelo Departamento de Justiça, lançou em 18 de novembro um Centro de Disrupção de Ameaças para rastrear o dinheiro de golpes, avisar as vítimas mais cedo e congelar cripto roubadas. A empresa de análise blockchain TRM Labs é a principal parceira privada.
+===
+
+O governo dos EUA tem uma nova unidade voltada aos golpes que esvaziam contas bancárias e de cripto dos americanos. Na quarta-feira, 18 de novembro, a Força-Tarefa de Segurança Interna (Homeland Security Task Force), liderada pelo Departamento de Segurança Interna (DHS) e pelo Departamento de Justiça (DOJ), lançou o Centro de Disrupção de Ameaças (Threat Disruption Center), uma unidade "dedicada a interromper o fluxo de dinheiro das vítimas para as redes criminosas estrangeiras por trás de golpes, crimes cibernéticos e extorsão sexual contra americanos", [segundo a força-tarefa](L1).
+
+O centro foi feito para agir rápido. Ele dá aos investigadores ferramentas para triar as queixas das vítimas e mapear as redes por trás delas, e abre um canal direto com as empresas privadas que muitas vezes percebem o golpe primeiro: redes sociais, serviços de hospedagem, bancos, empresas de pagamento e serviços de cripto. A empresa de análise blockchain TRM Labs criou a plataforma em que o centro funciona.
+
+!takeaways
+- O DHS e o Departamento de Justiça lançaram em 18 de novembro o Centro de Disrupção de Ameaças para combater golpes e crimes cibernéticos contra americanos.
+- Ele atende uma força-tarefa com mais de 30 agências federais e mais de 440 parceiros estaduais e locais.
+- A TRM Labs é a principal parceira privada; segundo a Bloomberg, o governo paga a ela cerca de US$ 95 milhões.
+- Em 2025, americanos relataram ao FBI perdas de US$ 20,9 bilhões com crimes cibernéticos, e as queixas envolvendo cripto somaram US$ 11,4 bilhões.
+
+!figure:chart
+
+## O que o centro vai fazer
+
+A meta é encurtar o tempo entre a queixa da vítima e a reação. "Cada hora entre a queixa de uma vítima e uma resposta dá aos criminosos mais tempo para lavar o dinheiro roubado e escolher o próximo alvo", disse Heith Janke, diretor de operações da Divisão Criminal do FBI, no anúncio.
+
+O centro cria um canal permanente para que as forças de segurança e as empresas participantes troquem informações quase em tempo real e as transformem em ação, por exemplo pausando pagamentos de vítimas, derrubando sites de golpe ou banindo contas de redes sociais usadas por golpistas. As empresas podem tomar essas medidas por conta própria, conforme seus termos de uso, enquanto as agências cuidam das investigações, dos processos e das apreensões autorizadas pela Justiça.
+
+No caso das cripto, o trabalho é seguir o dinheiro. O centro vai "identificar as vítimas, rastrear o dinheiro delas até os criminosos, identificar as carteiras de cripto usadas por esses criminosos e, por fim, tentar identificar outras vítimas", disse à [Bloomberg](L2) Eric Weindorf, vice-diretor do Centro Nacional de Coordenação da força-tarefa.
+
+## Quem está por trás
+
+A força-tarefa reúne mais de 30 agências federais e mais de 440 parceiros estaduais e locais. O novo centro cumpre a Ordem Executiva 14390, "Combate ao crime cibernético, à fraude e a esquemas predatórios contra cidadãos americanos", assinada pelo presidente Trump em março de 2026.
+
+A [TRM Labs disse](L3) que vai fornecer o Ardence, sua plataforma de investigação baseada em IA, como principal ferramenta de investigação do centro, além de suporte técnico e investigativo dedicado. A Bloomberg informou que o governo paga à TRM cerca de US$ 95 milhões e que mais de 60 funcionários da TRM trabalham no projeto. O contrato de um ano foi fechado em julho sem licitação. A concorrente Chainalysis foi à Justiça contra a escolha, e a ação foi rejeitada em setembro.
+
+!mid_cta
+
+## Por que agora
+
+As perdas não param de crescer. Segundo o [relatório de crimes na internet de 2025 do FBI](L4), o Centro de Queixas de Crimes na Internet (IC3) recebeu 1.008.597 queixas e US$ 20,877 bilhões em perdas relatadas no ano passado, alta de 26% sobre 2024. As queixas envolvendo criptomoedas responderam por US$ 11,366 bilhões dessas perdas, e só a fraude de investimento em cripto por US$ 7,228 bilhões. O total real provavelmente é maior, porque a maioria das vítimas nunca registra queixa, observou a força-tarefa.
+
+!figure:fact
+
+Muitos desses golpes não envolvem nenhuma invasão. A vítima é convencida a enviar o dinheiro. Algumas corretoras já intervêm nesse momento. Nesta semana, a [Coinbase disse](L5) que suas defesas contra golpes com IA barraram cerca de US$ 4,7 milhões, aproximadamente 91% do que os clientes tentaram enviar, durante uma transmissão falsa da Tesla que usava um deepfake de Elon Musk e prometia "dobrar" qualquer cripto enviada.
+
+## O que isso significa para você
+
+Um novo centro federal não quer dizer que o dinheiro perdido em golpes volta com facilidade. Transferências de cripto em geral não podem ser revertidas, e a recuperação, quando acontece, pode demorar muito. A melhor defesa continua sendo não enviar:
+
+- Nenhuma empresa ou celebridade de verdade vai dobrar sua cripto. Se você precisa enviar dinheiro primeiro, é golpe.
+- Nunca envie cripto para um endereço ou QR code mostrado em vídeo, live ou mensagem inesperada.
+- Desconfie de novos "amigos" ou "consultores" online que empurram você para um app ou site de trading.
+- Se for comprar cripto, use uma plataforma conhecida e regulada como a [Coinbase](REF) e ative todos os recursos de segurança oferecidos.
+
+Se acha que caiu em um golpe, denuncie rápido ao FBI em [ic3.gov](L6). Denúncias rápidas dão aos investigadores, e agora a este centro, a melhor chance de congelar o dinheiro antes que ele se mova. Isto não é aconselhamento financeiro.
+
+## O que acompanhar
+
+- Se o centro anuncia os primeiros valores congelados ou sites derrubados.
+- Quais empresas entram como parceiras.
+- Se o contrato de um ano com a TRM é prorrogado ou aberto a outras empresas.
+
+!soft: Aprenda o básico para proteger sua conta em [A Coinbase é segura para iniciantes?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

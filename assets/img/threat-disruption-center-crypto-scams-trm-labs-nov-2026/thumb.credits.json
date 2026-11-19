@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Seal_of_the_United_States_Department_of_Homeland_Security.svg",
+      "license": "Public domain (U.S. government insignia)",
+      "url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Department_of_Homeland_Security.svg",
+      "credit": "U.S. Department of Homeland Security"
+    },
+    {
+      "file": "FBI 2025 Internet Crime Report; HSTF press release, Nov. 18, 2026",
+      "license": "Facts cited",
+      "url": "https://www.hstf.gov/press/threat-disruption-center/",
+      "credit": "FBI IC3 / Homeland Security Task Force"
+    }
+  ],
+  "note": "Editorial composite for identification; no endorsement by DHS implied.",
+  "slug": "threat-disruption-center-crypto-scams-trm-labs-nov-2026",
+  "generated": "2026-11-19T14:06Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

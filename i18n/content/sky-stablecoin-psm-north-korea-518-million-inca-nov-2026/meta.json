@@ -1,0 +1,19 @@
+{
+ "slug": "sky-stablecoin-psm-north-korea-518-million-inca-nov-2026",
+ "date": "2026-11-19",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "binance-hack-north-korea-memecoin-laundering-nov-2026",
+  "binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026",
+  "stablecoin-supply-shrinks-usdt-tether-nov-2026",
+  "senators-genius-act-state-stablecoin-safe-harbor-nov-2026"
+ ],
+ "sources": [
+  {"url": "https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk", "title": "CoinDesk: North Korean hackers used Sky's stablecoin system, putting billions at freeze risk", "date": "Nov 19, 2026"},
+  {"url": "https://www.panews.io/articles/01a1f3a2-15d1-76c7-9810-1a1ddca86219", "title": "PANews: Inca Digital investigation: Sky stablecoin system involved in $518 million in illicit-linked transactions", "date": "Nov 19, 2026"},
+  {"url": "https://thedefiant.io/news/defi/sky-reserve-freeze-risk-flagged-in-illicit-flow-report", "title": "The Defiant: Sky reserve freeze risk flagged in illicit-flow report", "date": "Nov 19, 2026"},
+  {"url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf", "title": "FBI Internet Crime Complaint Center: 2025 Internet Crime Report (North Korea responsible for $1.5 billion Bybit hack, Feb. 26, 2025)", "date": "2026"}
+ ],
+ "disclosure_variant": "std"
+}

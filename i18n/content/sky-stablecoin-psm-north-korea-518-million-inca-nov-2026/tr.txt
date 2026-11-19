@@ -1,0 +1,57 @@
+title: Rapor: Kuzey Kore dahil bilgisayar korsanlarıyla bağlantılı 518 milyon $, Sky'ın stablecoin takas modülünden geçti
+page_title: Korsanlarla bağlantılı 518 milyon $ Sky'ın takas modülünden geçti
+description: Inca Digital, bilgisayar korsanları ve diğer yasa dışı aktörlerle bağlantılı cüzdanların Sky'ın Peg Stability Module'ü üzerinden yaptığı 518 milyon $'lık işlemleri izledi; bunun 101,9 milyon $'ı Kuzey Kore ile bağlantılı. DAI ve USDS sahipleri için ne anlama geliyor?
+og_description: Sky'ın takas modülü, herkesin dondurulabilen USDC'yi DAI veya USDS ile değiştirmesine izin veriyor. Yeni bir rapor, Kuzey Kore bağlantılı cüzdanların 2025'teki Bybit saldırısından sonra bu modülü kullandığını ve içindeki yaklaşık 2,7 milyar $ USDC'nin tek seferde dondurulabileceğini söylüyor. Sky ise işaretlenen akışların hacmin çok küçük bir kısmı olduğunu belirtiyor.
+label: Güvenlik
+summary: Kripto risk şirketi Inca Digital, bilgisayar korsanları ve diğer yasa dışı aktörlerle bağlantılı cüzdanların Sky'ın stablecoin takas modülünden geçirdiği 518 milyon $'lık işlemleri izledi; bunun 101,9 milyon $'ı Kuzey Kore ile bağlantılı. Şirket, 2,7 milyar $'lık USDC rezervinin tek seferde dondurulabileceği uyarısında bulunuyor.
+===
+
+Yeni bir soruşturma, DAI ve USDS stablecoin'lerinin arkasındaki merkeziyetsiz protokol Sky'ı gündeme taşıdı. [CoinDesk'in](L1) 19 Kasım Perşembe günü aktardığına göre kripto risk analizi şirketi Inca Digital, bilgisayar korsanları, oltalama (phishing) şebekeleri, yaptırım uygulanan kuruluşlar ve Circle ile Tether'in kara listeye aldığı adreslerle bağlantılı cüzdanların Sky'ın Peg Stability Module'ü (PSM) üzerinden yaptığı 518 milyon $'lık işlemleri izledi. Bunun yaklaşık 101,9 milyon $'ı doğrudan Kuzey Koreli aktörlerle bağlantılıydı.
+
+Sky, merkeziyetsiz finansın (DeFi) en eski projelerinden biri olan MakerDAO'dan doğdu. PSM bir döviz gişesi gibi çalışıyor: herkes Circle'ın USDC'sini sabit bire bir kurla DAI veya USDS ile değiştirebiliyor. Bu, coinlerin 1 $ civarında kalmasına yardım ediyor ama aynı zamanda Circle'ın dondurabildiği USDC'deki paranın hiçbir şirketin donduramadığı tokenlere geçmesine de imkân tanıyor. Inca, PSM'yi "dondurulabilir USDC'den çıkış kapısı" olarak tanımladı.
+
+!takeaways
+- Inca Digital, yasa dışı aktörlerle bağlantılı 422 cüzdandan PSM üzerinden geçen 518 milyon $'lık işlemi izledi.
+- Yaklaşık 101,9 milyon $ Kuzey Kore ile bağlantılıydı; bunun 91,5 milyon $'ı Şubat 2025'teki Bybit saldırısından sonraki 10 günde aktarıldı.
+- PSM, tek bir cüzdanda yaklaşık 2,7 milyar $ USDC tutuyor ve rapora göre bir dondurma kararı tamamını kilitleyebilir.
+- Sky'ın vakfı, işaretlenen akışların PSM'nin 930 milyar $'ı aşan hacminin %0,06'sından az olduğunu söylüyor.
+
+!figure:chart
+
+## Rapor ne buldu
+
+En net örnek Bybit saldırısı. Şubat 2025'te Kuzey Koreli bilgisayar korsanları borsadan yaklaşık 1,5 milyar $ çaldı. Inca'ya göre sonraki 10 günde, çalınan varlıklarla beslenen cüzdanlar PSM üzerinden 91,5 milyon $ aktardı. Bunun yaklaşık 30 milyon $'ı, FBI'ın 26 Şubat 2025'te Kuzey Kore'yi açıkça sorumlu tutmasından sonra hareket etti.
+
+Başka olaylar da var. Rapora göre FTX Accounts Drainer, borsanın Kasım 2022'deki çöküşü sırasında PSM üzerinden 26,1 milyon $ takas etti; Infini saldırısının faili de Şubat 2025'teki saldırı günü 49,5 milyon $ USDC'yi DAI'ye çevirdi. Inca, rakamlarının yasa dışı aktörlerle bağlantılı cüzdanların işlemlerini ölçtüğünü ve bu paranın tamamının belirli bir hırsızlığa kadar izlenen çalıntı fon olmadığını vurguladı.
+
+PSM kimlik kontrolü ya da işlem taraması yapmıyor. Inca'ya göre işaretlenen işlemlerin yaklaşık %95'i 1inch, ParaSwap ve MetaMask Swaps gibi merkeziyetsiz alım satım toplayıcıları üzerinden geldi.
+
+!mid_cta
+
+## Dondurma neden önemli olur
+
+Circle ve Tether gibi stablecoin ihraççıları, geçen ayki Binance saldırısından sonra olduğu gibi çalınan fonları giderek daha hızlı donduruyor. Bu güç Sky için iki ucu keskin bir kılıç. PSM, Coinbase Prime aracılığıyla kurulan tek bir Ethereum cüzdanında yaklaşık 2,7 milyar $ USDC tutuyor. Circle bu adresi, örneğin bir mahkeme kararından sonra kara listeye alırsa bakiyenin tamamı kilitlenir; çünkü Circle bir cüzdanın yalnızca bir kısmını donduramıyor. Meşru rezervler de şüpheli parayla birlikte dondurulmuş olur.
+
+!figure:fact
+
+CoinDesk'e göre bu USDC, 8 milyar $'ı aşan DAI ve USDS'nin kısmen teminatı. Bluechip Ratings'ten Amey Dandawate, dondurmayı "düşük olasılıklı ama tamamen varsayımsal olmayan bir sonuç" olarak nitelendirdi ve mayıs ayında mahkeme kararıyla 12 milyon $ USDC'nin dondurulmasını hatırlattı. Sky'ın rezervinin dondurulmasının takasları iki yönde de durduracağını ve buna dayanan diğer DeFi uygulamalarını etkileyebileceğini söyledi.
+
+## Sky ne diyor
+
+Sky Frontier Foundation, CoinDesk'e "DeFi'deki yasa dışı faaliyetlere ilişkin her endişeyi ciddiye aldığını" söyledi. Vakfa göre işaretlenen işlemlerin değer olarak çoğu 2021 ile 2024 ortası arasına ait, hiçbiri cüzdan taraması yapan kendi siteleri sky.money ve spark.fi üzerinden geçmedi ve bunlar PSM'nin 930 milyar $'ı aşan toplam hacminin %0,06'sından az. Vakıf, "DeFi'yi hem açık hem güvenli tutmak tüm sektör için bir zorluk" dedi. [PANews](L2) da raporu ve Sky'ın yanıtını özetledi.
+
+## Sizin için ne anlama geliyor
+
+DAI veya USDS tutuyorsanız hiçbir şey dondurulmadı ve rapor bir dondurmanın yolda olduğunu söylemiyor. Ama bu, bir stablecoin'in ancak arkasındaki teminat kadar sağlam olduğunu hatırlatıyor. DAI ve USDS kısmen tek bir adreste tutulan USDC'ye dayanıyor; bu da onları Circle'ın ve mahkemelerin kararlarına bağlıyor. Stablecoin kullanmak istiyorsanız yeni başlayanlar için basit bir yol, USDC sunan [Coinbase](REF) gibi büyük ve düzenlenen bir borsa. Her durumda bir coini tutmadan önce kimin çıkardığını ve neyle desteklendiğini kontrol edin. Bu bir yatırım tavsiyesi değildir.
+
+## Neleri izlemeli
+
+- Sky'ın PSM'ye tarama ya da başka sınırlar ekleyip eklemeyeceği.
+- Circle'ın, mahkemelerin ya da düzenleyicilerin işaretlenen cüzdanlara karşı harekete geçip geçmeyeceği.
+- Galaxy gibi Sky'ın kurumsal ortaklarının nasıl tepki vereceği.
+
+!soft: Kuzey Kore'nin Binance ganimetini nasıl kullandığını [Elliptic: Kuzey Kore, Binance'ten çalınan parayı aklamak için memecoin üretiyor](/articles/binance-hack-north-korea-memecoin-laundering-nov-2026) yazısında okuyun.
+
+!end_cta
+
+!disclosure

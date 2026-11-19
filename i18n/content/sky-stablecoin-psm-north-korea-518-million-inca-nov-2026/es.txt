@@ -1,0 +1,57 @@
+title: Informe: 518 millones de dólares ligados a hackers, incluida Corea del Norte, pasaron por el canje de stablecoins de Sky
+page_title: 518 millones ligados a hackers pasaron por el canje de Sky
+description: Inca Digital rastreó 518 millones de dólares en transacciones de billeteras vinculadas a hackers y otros actores ilícitos a través del Peg Stability Module de Sky, incluidos 101,9 millones ligados a Corea del Norte. Qué significa para quienes tienen DAI y USDS.
+og_description: El módulo de canje de Sky permite a cualquiera cambiar USDC, que se puede congelar, por DAI o USDS. Un nuevo informe dice que billeteras ligadas a Corea del Norte lo usaron tras el hackeo a Bybit de 2025 y que los cerca de 2.700 millones de dólares en USDC que guarda podrían congelarse de golpe. Sky dice que los flujos señalados son una parte mínima del volumen.
+label: Seguridad
+summary: La firma de riesgo cripto Inca Digital rastreó 518 millones de dólares en transacciones de billeteras ligadas a hackers y otros actores ilícitos a través del módulo de canje de stablecoins de Sky, incluidos 101,9 millones vinculados a Corea del Norte. Advierte que la reserva de 2.700 millones en USDC podría congelarse de una sola vez.
+===
+
+Una nueva investigación pone en el foco a Sky, el protocolo descentralizado detrás de las stablecoins DAI y USDS. La firma de análisis de riesgo cripto Inca Digital rastreó 518 millones de dólares en transacciones a través del Peg Stability Module (PSM) de Sky realizadas por billeteras vinculadas a hackers, operaciones de phishing, entidades sancionadas y direcciones bloqueadas por Circle y Tether, [informó CoinDesk](L1) el jueves 19 de noviembre. Unos 101,9 millones de ese total estaban directamente ligados a actores norcoreanos.
+
+Sky nació de MakerDAO, uno de los proyectos más antiguos de las finanzas descentralizadas (DeFi). Su PSM funciona como una ventanilla de canje: cualquiera puede cambiar USDC de Circle por DAI o USDS a una tasa fija de uno a uno. Eso ayuda a mantener las monedas cerca de 1 dólar, pero también permite pasar dinero de USDC, que Circle puede congelar, a tokens que ninguna empresa puede congelar. Inca llamó al PSM una «salida del USDC congelable».
+
+!takeaways
+- Inca Digital rastreó 518 millones de dólares en transacciones del PSM de 422 billeteras vinculadas a actores ilícitos.
+- Unos 101,9 millones estaban ligados a Corea del Norte, incluidos 91,5 millones movidos en los 10 días posteriores al hackeo a Bybit de febrero de 2025.
+- El PSM guarda unos 2.700 millones de dólares en USDC en una sola billetera, y un congelamiento podría bloquearlos todos, advierte el informe.
+- La fundación de Sky dice que los flujos señalados son menos del 0,06% de los más de 930.000 millones de dólares de volumen del PSM.
+
+!figure:chart
+
+## Qué encontró el informe
+
+El caso más claro es el hackeo a Bybit. En febrero de 2025, hackers norcoreanos robaron unos 1.500 millones de dólares al exchange. En los 10 días siguientes, billeteras financiadas con esos activos robados movieron 91,5 millones a través del PSM, según Inca. Casi 30 millones de esa cifra se movieron después de que el FBI culpara públicamente a Corea del Norte el 26 de febrero de 2025.
+
+También aparecen otros incidentes. El FTX Accounts Drainer canjeó 26,1 millones a través del PSM durante el colapso del exchange en noviembre de 2022, y el atacante del exploit de Infini cambió 49,5 millones de USDC por DAI el mismo día de ese hackeo, en febrero de 2025, según el informe. Inca aclaró que sus cifras miden transacciones de billeteras vinculadas a actores ilícitos y que no todo ese dinero son fondos robados rastreados hasta un robo concreto.
+
+El PSM no hace controles de identidad ni filtra transacciones. Alrededor del 95% de las transacciones señaladas llegaron a él a través de agregadores de trading descentralizados como 1inch, ParaSwap y MetaMask Swaps, dijo Inca.
+
+!mid_cta
+
+## Por qué importaría un congelamiento
+
+Emisores de stablecoins como Circle y Tether congelan fondos robados cada vez más rápido, como hicieron tras el hackeo a Binance del mes pasado. Ese poder es un arma de doble filo para Sky. El PSM guarda unos 2.700 millones de dólares en USDC en una sola billetera de Ethereum creada a través de Coinbase Prime. Si Circle bloqueara esa dirección, por ejemplo tras una orden judicial, todo el saldo quedaría inmovilizado, porque Circle no puede congelar solo una parte de una billetera. Las reservas legítimas se congelarían junto con el dinero sospechoso.
+
+!figure:fact
+
+Ese USDC respalda en parte más de 8.000 millones de dólares en DAI y USDS, según CoinDesk. Amey Dandawate, de Bluechip Ratings, calificó un congelamiento de «resultado de baja probabilidad, pero no del todo hipotético», y recordó el congelamiento judicial de 12 millones de dólares en USDC en mayo. Dijo que congelar la reserva de Sky detendría los canjes en ambos sentidos y podría afectar a otras apps DeFi que dependen de ella.
+
+## Qué dice Sky
+
+La Sky Frontier Foundation dijo a CoinDesk que «se toma en serio cualquier preocupación sobre actividad ilícita en DeFi». Afirmó que la mayoría de las transacciones señaladas, por valor, son de 2021 a mediados de 2024, que ninguna pasó por sus propios sitios web, sky.money y spark.fi, que filtran billeteras, y que suponen menos del 0,06% de los más de 930.000 millones de dólares de volumen total del PSM. «Mantener las DeFi abiertas y seguras a la vez es un reto para toda la industria», dijo la fundación. [PANews](L2) también resumió el informe y la respuesta de Sky.
+
+## Qué significa para ti
+
+Si tienes DAI o USDS, no se ha congelado nada, y el informe no dice que vaya a haber un congelamiento. Pero recuerda que una stablecoin es tan sólida como lo que la respalda. DAI y USDS dependen en parte de USDC guardado en una sola dirección, lo que las ata a las decisiones de Circle y de los tribunales. Si quieres usar stablecoins, una vía sencilla para principiantes es un exchange grande y regulado como [Coinbase](REF), que ofrece USDC. En cualquier caso, revisa quién emite una moneda y qué la respalda antes de tenerla. Esto no es asesoramiento financiero.
+
+## Qué vigilar
+
+- Si Sky añade filtros u otros límites al PSM.
+- Si Circle, los tribunales o los reguladores actúan contra las billeteras señaladas.
+- Cómo reaccionan los socios institucionales de Sky, como Galaxy.
+
+!soft: Mira cómo maneja Corea del Norte el botín de Binance en [Corea del Norte crea memecoins para lavar el hackeo a Binance](/articles/binance-hack-north-korea-memecoin-laundering-nov-2026).
+
+!end_cta
+
+!disclosure

@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/id/</link>
     <description>Berita Bitcoin dan kripto dengan bahasa sederhana untuk pemula</description>
     <language>id</language>
-    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/id/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AS meluncurkan Threat Disruption Center untuk memerangi penipuan kripto, teknologinya dari TRM Labs</title>
+      <link>https://plainbtc.com/id/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:10:00 GMT</pubDate>
+      <category>Keamanan</category>
+      <description>Homeland Security Task Force yang dipimpin DHS dan Departemen Kehakiman meluncurkan Threat Disruption Center pada 18 November untuk melacak uang hasil penipuan, memperingatkan korban lebih cepat, dan membekukan kripto curian. Perusahaan analitik blockchain TRM Labs menjadi mitra swasta utamanya.</description>
+    </item>
+    <item>
+      <title>Laporan: US$518 juta terkait peretas, termasuk Korea Utara, mengalir lewat penukaran stablecoin Sky</title>
+      <link>https://plainbtc.com/id/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:05:00 GMT</pubDate>
+      <category>Keamanan</category>
+      <description>Perusahaan risiko kripto Inca Digital melacak transaksi senilai US$518 juta oleh dompet yang terkait peretas dan pelaku ilegal lain melalui modul penukaran stablecoin Sky, termasuk US$101,9 juta yang terkait Korea Utara. Perusahaan itu memperingatkan cadangan US$2,7 miliar dalam USDC bisa dibekukan sekaligus.</description>
+    </item>
     <item>
       <title>Ledger pastikan dompet perangkat keras yang dimodifikasi di Berlin dan periksa dua lagi di Dubai</title>
       <link>https://plainbtc.com/id/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>

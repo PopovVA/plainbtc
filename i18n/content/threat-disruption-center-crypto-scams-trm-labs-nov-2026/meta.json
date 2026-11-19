@@ -1,0 +1,20 @@
+{
+ "slug": "threat-disruption-center-crypto-scams-trm-labs-nov-2026",
+ "date": "2026-11-19",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "doj-seizes-1-2-billion-binance-hack-north-korea-nov-2026",
+  "optimizely-hack-crypto-address-swap-178-sites-nov-2026",
+  "is-coinbase-safe-for-beginners",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {"url": "https://www.hstf.gov/press/threat-disruption-center/", "title": "Homeland Security Task Force: Threat Disruption Center to combat scams, cybercrime, and sextortion schemes targeting Americans", "date": "Nov 18, 2026"},
+  {"url": "https://www.livemint.com/news/us-news/trump-administration-unveils-project-to-combat-cybercrime-11795038759016.html", "title": "Bloomberg via Mint: Trump administration unveils project to combat cybercrime", "date": "Nov 18, 2026"},
+  {"url": "https://www.trmlabs.com/resources/blog/trm-labs-threat-disruption-center", "title": "TRM Labs: TRM Labs selected to support Threat Disruption Center", "date": "Nov 18, 2026"},
+  {"url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf", "title": "FBI Internet Crime Complaint Center: 2025 Internet Crime Report", "date": "2026"},
+  {"url": "https://www.coinbase.com/blog/consumer-protection-tuesday-how-we-leveraged-ai-to-stop-a-popular-tesla-scam", "title": "Coinbase: How we leveraged AI to stop a popular Tesla scam", "date": "Nov 17, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

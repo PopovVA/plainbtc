@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/</link>
     <description>Plain-English Bitcoin &amp; crypto news for beginners</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>U.S. launches a Threat Disruption Center to fight crypto scams, with TRM Labs running its tech</title>
+      <link>https://plainbtc.com/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:10:00 GMT</pubDate>
+      <category>Security</category>
+      <description>The Homeland Security Task Force, co-led by DHS and the Justice Department, launched a Threat Disruption Center on Nov. 18 to trace scam money, warn victims sooner and freeze stolen crypto. Blockchain analytics firm TRM Labs is its main private partner.</description>
+    </item>
+    <item>
+      <title>Report: $518 million tied to hackers, including North Korea, flowed through Sky's stablecoin swap</title>
+      <link>https://plainbtc.com/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:05:00 GMT</pubDate>
+      <category>Security</category>
+      <description>Crypto risk firm Inca Digital traced $518 million in transactions by wallets tied to hackers and other illicit actors through Sky's stablecoin swap module, including $101.9 million linked to North Korea. It warns that the $2.7 billion USDC reserve could be frozen in one go.</description>
+    </item>
     <item>
       <title>Ledger confirms tampered hardware wallets in Berlin and is checking two more in Dubai</title>
       <link>https://plainbtc.com/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>

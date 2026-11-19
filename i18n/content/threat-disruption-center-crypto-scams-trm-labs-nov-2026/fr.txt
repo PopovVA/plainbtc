@@ -1,0 +1,66 @@
+title: Les États-Unis lancent un Threat Disruption Center contre les arnaques crypto, avec la technologie de TRM Labs
+page_title: Les États-Unis lancent un centre contre les arnaques crypto
+description: Le DHS et le ministère de la Justice ont lancé un Threat Disruption Center pour tracer l'argent des arnaques, prévenir plus vite les victimes et geler les cryptos volées. Les Américains ont déclaré au FBI 20,9 milliards de dollars de pertes liées à la cybercriminalité en 2025, dont 11,4 milliards dans des affaires crypto.
+og_description: Une nouvelle unité fédérale permettra aux enquêteurs et à des entreprises comme les banques, les réseaux sociaux et les sociétés crypto d'échanger des informations sur les arnaques quasiment en temps réel. TRM Labs, payé environ 95 millions de dollars selon Bloomberg, a conçu sa plateforme. Ce qu'elle fait et ce que cela change pour vous.
+label: Sécurité
+summary: La Homeland Security Task Force, codirigée par le DHS et le ministère de la Justice, a lancé le 18 novembre un Threat Disruption Center pour tracer l'argent des arnaques, prévenir plus vite les victimes et geler les cryptos volées. La société d'analyse blockchain TRM Labs est son principal partenaire privé.
+===
+
+Le gouvernement américain dispose d'une nouvelle unité consacrée aux arnaques qui vident les comptes bancaires et crypto des Américains. Le mercredi 18 novembre, la Homeland Security Task Force, codirigée par le ministère de la Sécurité intérieure (DHS) et le ministère de la Justice (DOJ), a lancé le Threat Disruption Center (« centre de neutralisation des menaces »), une unité « chargée de couper le flux des fonds des victimes vers les réseaux criminels étrangers qui se cachent derrière les arnaques, la cybercriminalité et la sextorsion visant les Américains », [selon la task force](L1).
+
+Le centre est conçu pour aller vite. Il fournit aux enquêteurs des outils pour trier les plaintes des victimes et cartographier les réseaux qui les ciblent, et il ouvre une ligne directe avec les entreprises privées qui repèrent souvent une arnaque en premier : réseaux sociaux, hébergeurs web, banques, sociétés de paiement et services crypto. La société d'analyse blockchain TRM Labs a conçu la plateforme sur laquelle il fonctionne.
+
+!takeaways
+- Le DHS et le ministère de la Justice ont lancé le Threat Disruption Center le 18 novembre pour lutter contre les arnaques et la cybercriminalité visant les Américains.
+- Il est au service d'une task force de plus de 30 agences fédérales et de plus de 440 partenaires des États et locaux.
+- TRM Labs est le principal partenaire privé ; selon Bloomberg, l'État lui verse environ 95 millions de dollars.
+- Les Américains ont déclaré au FBI 20,9 milliards de dollars de pertes liées à la cybercriminalité en 2025, dont 11,4 milliards dans des plaintes impliquant des cryptos.
+
+!figure:chart
+
+## Ce que fera le centre
+
+L'objectif est de réduire le délai entre la plainte d'une victime et l'action. « Chaque heure entre la plainte d'une victime et une réponse donne aux criminels plus de temps pour blanchir les fonds volés et trouver leur prochaine cible », a déclaré Heith Janke, directeur des opérations de la division criminelle du FBI, dans l'annonce.
+
+Le centre crée un canal permanent permettant aux forces de l'ordre et aux entreprises participantes d'échanger des informations quasiment en temps réel et de les traduire en actes, par exemple en suspendant les paiements des victimes, en fermant des sites frauduleux ou en bannissant les comptes de réseaux sociaux utilisés par les escrocs. Les entreprises peuvent prendre ces mesures d'elles-mêmes en vertu de leurs conditions d'utilisation, tandis que les agences mènent les enquêtes, les poursuites et les saisies autorisées par un tribunal.
+
+Pour les cryptos, il s'agit de suivre l'argent. Le centre va « identifier les victimes, remonter la trace de leurs fonds jusqu'aux criminels, identifier les portefeuilles crypto utilisés par ces criminels, puis tenter d'identifier d'autres victimes », a expliqué à [Bloomberg](L2) Eric Weindorf, directeur adjoint du National Coordination Center de la task force.
+
+## Qui est derrière
+
+La task force regroupe plus de 30 agences fédérales et plus de 440 partenaires des États et locaux. Le nouveau centre met en œuvre le décret présidentiel 14390, « Lutter contre la cybercriminalité, la fraude et les pratiques prédatrices visant les citoyens américains », signé par le président Trump en mars 2026.
+
+[TRM Labs a indiqué](L3) qu'elle fournira Ardence, sa plateforme d'enquête fondée sur l'IA, comme principal outil d'investigation du centre, avec un soutien technique et d'enquête dédié. Selon Bloomberg, l'État verse environ 95 millions de dollars à TRM et plus de 60 salariés de TRM travaillent sur le projet. Le contrat d'un an a été attribué en juillet sans appel d'offres. Son concurrent Chainalysis l'a contesté en justice, et la plainte a été rejetée en septembre.
+
+!mid_cta
+
+## Pourquoi maintenant
+
+Les pertes ne cessent d'augmenter. Selon le [rapport 2025 du FBI sur la criminalité sur internet](L4), son centre de plaintes, l'IC3, a reçu 1 008 597 plaintes et 20,877 milliards de dollars de pertes déclarées l'an dernier, soit 26 % de plus qu'en 2024. Les plaintes impliquant des cryptomonnaies représentent 11,366 milliards de ces pertes, et la seule fraude à l'investissement crypto 7,228 milliards. Le total réel est sans doute plus élevé, car la plupart des victimes ne portent jamais plainte, souligne la task force.
+
+!figure:fact
+
+Beaucoup de ces arnaques ne reposent sur aucun piratage. La victime est convaincue d'envoyer l'argent elle-même. Certaines plateformes d'échange interviennent désormais à ce moment-là. Cette semaine, [Coinbase a indiqué](L5) que ses défenses anti-arnaque fondées sur l'IA ont bloqué environ 4,7 millions de dollars, soit près de 91 % de ce que des clients ont tenté d'envoyer, lors d'un faux direct de Tesla utilisant un deepfake d'Elon Musk qui promettait de « doubler » toute crypto envoyée.
+
+## Ce que cela change pour vous
+
+Un nouveau centre fédéral ne signifie pas que l'argent perdu dans une arnaque se récupère facilement. Les transferts crypto sont en général irréversibles, et la récupération, quand elle a lieu, peut prendre longtemps. La meilleure défense reste de ne pas envoyer :
+
+- Aucune vraie entreprise ni célébrité ne doublera vos cryptos. Si vous devez d'abord envoyer de l'argent, c'est une arnaque.
+- N'envoyez jamais de cryptos à une adresse ou un QR code affiché dans une vidéo, un direct ou un message inattendu.
+- Méfiez-vous des nouveaux « amis » ou « conseillers » en ligne qui vous poussent vers une appli ou un site de trading.
+- Si vous achetez des cryptos, utilisez une plateforme connue et régulée comme [Coinbase](REF) et activez toutes ses fonctions de sécurité.
+
+Si vous pensez avoir été victime d'une arnaque, signalez-le vite au FBI sur [ic3.gov](L6). Un signalement rapide donne aux enquêteurs, et désormais à ce centre, les meilleures chances de geler les fonds avant qu'ils ne bougent. Ceci n'est pas un conseil financier.
+
+## À surveiller
+
+- Si le centre annonce ses premiers gels de fonds ou fermetures de sites.
+- Quelles entreprises rejoignent le dispositif comme partenaires.
+- Si le contrat d'un an avec TRM est prolongé ou ouvert à d'autres candidats.
+
+!soft: Apprenez les bases pour protéger votre compte dans [Coinbase est-il sûr pour les débutants ?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

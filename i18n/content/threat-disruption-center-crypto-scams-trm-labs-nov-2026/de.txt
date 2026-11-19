@@ -1,0 +1,66 @@
+title: USA starten ein Threat Disruption Center gegen Krypto-Betrug, die Technik liefert TRM Labs
+page_title: USA starten Zentrum gegen Krypto-Betrug
+description: DHS und Justizministerium haben ein Threat Disruption Center gestartet, das Betrugsgelder verfolgen, Opfer früher warnen und gestohlene Kryptowährungen einfrieren soll. Amerikaner meldeten dem FBI 2025 Schäden durch Cyberkriminalität von 20,9 Mrd. $, davon 11,4 Mrd. $ in Fällen mit Kryptobezug.
+og_description: Eine neue Bundeseinheit soll Ermittlern und Unternehmen wie Banken, sozialen Netzwerken und Kryptofirmen erlauben, Hinweise auf Betrug nahezu in Echtzeit auszutauschen. TRM Labs, laut Bloomberg mit rund 95 Mio. $ bezahlt, hat die Plattform gebaut. Was sie leistet und was das für Sie bedeutet.
+label: Sicherheit
+summary: Die Homeland Security Task Force unter Leitung von DHS und Justizministerium hat am 18. November ein Threat Disruption Center gestartet, das Betrugsgelder verfolgen, Opfer früher warnen und gestohlene Kryptowährungen einfrieren soll. Hauptpartner aus der Wirtschaft ist die Blockchain-Analysefirma TRM Labs.
+===
+
+Die US-Regierung hat eine neue Einheit gegen Betrugsmaschen, die Bank- und Kryptokonten von Amerikanern leerräumen. Am Mittwoch, dem 18. November, startete die Homeland Security Task Force, die gemeinsam vom Heimatschutzministerium (DHS) und vom Justizministerium (DOJ) geleitet wird, das Threat Disruption Center, eine Einheit, die sich der Aufgabe widmet, „den Fluss von Opfergeldern zu den ausländischen kriminellen Netzwerken hinter Betrug, Cyberkriminalität und Sextortion gegen Amerikaner zu unterbrechen“, [so die Task Force](L1).
+
+Das Zentrum ist auf Tempo ausgelegt. Es gibt Ermittlern Werkzeuge, um Beschwerden von Opfern zu sichten und die Netzwerke dahinter zu kartieren, und es schafft einen direkten Draht zu den privaten Unternehmen, die einen Betrug oft als Erste bemerken: soziale Netzwerke, Webhoster, Banken, Zahlungsdienstleister und Kryptodienste. Die Blockchain-Analysefirma TRM Labs hat die Plattform gebaut, auf der das Zentrum läuft.
+
+!takeaways
+- DHS und Justizministerium haben am 18. November das Threat Disruption Center gestartet, um Betrug und Cyberkriminalität gegen Amerikaner zu bekämpfen.
+- Es dient einer Task Force aus mehr als 30 Bundesbehörden und über 440 Partnern aus Bundesstaaten und Kommunen.
+- TRM Labs ist der wichtigste private Partner; laut Bloomberg zahlt die Regierung dem Unternehmen rund 95 Mio. $.
+- Amerikaner meldeten dem FBI 2025 Schäden durch Cyberkriminalität von 20,9 Mrd. $, auf Beschwerden mit Kryptobezug entfielen 11,4 Mrd. $.
+
+!figure:chart
+
+## Was das Zentrum tun soll
+
+Ziel ist, die Zeit zwischen der Meldung eines Opfers und dem Eingreifen zu verkürzen. „Jede Stunde zwischen der Meldung eines Opfers und einer Reaktion gibt Kriminellen mehr Zeit, gestohlene Gelder zu waschen und ihr nächstes Ziel zu finden“, sagte Heith Janke, Operations Director der Kriminalabteilung des FBI, in der Mitteilung.
+
+Das Zentrum schafft einen festen Kanal, über den Strafverfolger und teilnehmende Unternehmen Erkenntnisse nahezu in Echtzeit austauschen und in Maßnahmen umsetzen, etwa Zahlungen von Opfern anhalten, Betrugsseiten vom Netz nehmen oder Social-Media-Konten von Betrügern sperren. Die Unternehmen können diese Schritte eigenständig auf Basis ihrer Nutzungsbedingungen unternehmen, während die Behörden ermitteln, Anklage erheben und gerichtlich genehmigte Beschlagnahmen durchführen.
+
+Bei Kryptowährungen geht es darum, dem Geld zu folgen. Das Zentrum werde „Opfer identifizieren, ihre Gelder bis zu den Tätern zurückverfolgen, die von diesen Tätern genutzten Krypto-Wallets identifizieren und schließlich versuchen, weitere Opfer zu finden“, sagte Eric Weindorf, stellvertretender Direktor des National Coordination Center der Task Force, gegenüber [Bloomberg](L2).
+
+## Wer dahintersteht
+
+Zur Task Force gehören mehr als 30 Bundesbehörden und über 440 Partner aus Bundesstaaten und Kommunen. Das neue Zentrum setzt die Executive Order 14390 „Bekämpfung von Cyberkriminalität, Betrug und räuberischen Maschen gegen amerikanische Bürger“ um, die Präsident Trump im März 2026 unterzeichnet hat.
+
+[TRM Labs erklärte](L3), es liefere Ardence, seine KI-gestützte Ermittlungsplattform, als wichtigstes Ermittlungswerkzeug des Zentrums, dazu eigene Technik- und Ermittlungsteams. Laut Bloomberg zahlt die Regierung TRM rund 95 Mio. $, und mehr als 60 TRM-Mitarbeiter arbeiten an dem Projekt. Der einjährige Vertrag wurde im Juli ohne Ausschreibung vergeben. Konkurrent Chainalysis klagte dagegen, die Klage wurde im September abgewiesen.
+
+!mid_cta
+
+## Warum gerade jetzt
+
+Die Schäden wachsen weiter. Laut dem [Internet Crime Report 2025 des FBI](L4) gingen bei dessen Beschwerdestelle IC3 im vergangenen Jahr 1.008.597 Beschwerden mit gemeldeten Schäden von 20,877 Mrd. $ ein, 26 % mehr als 2024. Auf Beschwerden mit Kryptobezug entfielen 11,366 Mrd. $ dieser Schäden, allein auf Krypto-Anlagebetrug 7,228 Mrd. $. Die tatsächliche Summe dürfte höher liegen, weil die meisten Opfer nie Anzeige erstatten, so die Task Force.
+
+!figure:fact
+
+Viele dieser Maschen kommen ganz ohne Hacking aus. Das Opfer wird überredet, das Geld selbst zu überweisen. Manche Börsen greifen inzwischen genau in diesem Moment ein. Diese Woche [teilte Coinbase mit](L5), seine KI-gestützte Betrugsabwehr habe rund 4,7 Mio. $ gestoppt, etwa 91 % dessen, was Kunden senden wollten, als ein gefälschter Tesla-Livestream mit einem Deepfake von Elon Musk versprach, jede eingezahlte Kryptowährung zu „verdoppeln“.
+
+## Was das für Sie bedeutet
+
+Ein neues Bundeszentrum heißt nicht, dass verlorenes Geld leicht zurückkommt. Krypto-Überweisungen lassen sich meist nicht rückgängig machen, und eine Rückholung dauert, wenn sie gelingt, oft lange. Der beste Schutz bleibt, gar nicht erst zu senden:
+
+- Kein echtes Unternehmen und kein Promi verdoppelt Ihre Kryptowährung. Wenn Sie zuerst Geld schicken müssen, ist es Betrug.
+- Senden Sie nie Krypto an eine Adresse oder einen QR-Code aus einem Video, Livestream oder einer unerwarteten Nachricht.
+- Seien Sie misstrauisch bei neuen Online-„Freunden“ oder „Beratern“, die Sie zu einer Trading-App oder Website drängen.
+- Wenn Sie Krypto kaufen, nutzen Sie eine bekannte, regulierte Plattform wie [Coinbase](REF) und schalten Sie alle angebotenen Sicherheitsfunktionen ein.
+
+Wenn Sie glauben, betrogen worden zu sein, melden Sie es schnell beim FBI unter [ic3.gov](L6). Schnelle Meldungen geben Ermittlern, und jetzt auch diesem Zentrum, die beste Chance, Gelder einzufrieren, bevor sie weiterwandern. Dies ist keine Finanzberatung.
+
+## Worauf man achten sollte
+
+- Ob das Zentrum erste eingefrorene Gelder oder abgeschaltete Seiten meldet.
+- Welche Unternehmen sich als Partner anschließen.
+- Ob der einjährige Vertrag mit TRM verlängert oder für andere Anbieter geöffnet wird.
+
+!soft: Die Grundlagen zum Schutz Ihres Kontos finden Sie in [Ist Coinbase für Anfänger sicher?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

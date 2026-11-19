@@ -1417,7 +1417,52 @@ def thumb_genius_state_safe_harbor():
     ],"note":"Editorial composite for identification; no endorsement by the U.S. Treasury implied."}
 
 
+def thumb_threat_disruption_center():
+    """DHS seal (public domain) with FBI IC3 2025 loss figure."""
+    seal = fetch("https://upload.wikimedia.org/wikipedia/commons/8/8a/Seal_of_the_United_States_Department_of_Homeland_Security.svg", CACHE/"dhs-seal.svg")
+    base = gradient_bg()
+    paste_contain(base, Image.open(seal).convert("RGBA"), (36, 70, 200, 200), pad=6)
+    d = ImageDraw.Draw(base)
+    d.text((262, 88), "$20.9B", font=font(FONT_B, 54), fill=ORANGE)
+    d.text((264, 160), "lost to cybercrime in 2025,", font=font(FONT_B, 20), fill=WHITE)
+    d.text((264, 188), "FBI's IC3 reports", font=font(FONT_B, 20), fill=WHITE)
+    d.text((264, 224), "New center: 30+ agencies, 440+ partners", font=font(FONT_R, 16), fill=(203,213,225))
+    label_chip(base, "DHS · DOJ · Threat Disruption Center")
+    return base, {"kind":"composite","sources":[
+        {"file":"Seal_of_the_United_States_Department_of_Homeland_Security.svg","license":"Public domain (U.S. government insignia)","url":"https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Department_of_Homeland_Security.svg","credit":"U.S. Department of Homeland Security"},
+        {"file":"FBI 2025 Internet Crime Report; HSTF press release, Nov. 18, 2026","license":"Facts cited","url":"https://www.hstf.gov/press/threat-disruption-center/","credit":"FBI IC3 / Homeland Security Task Force"},
+    ],"note":"Editorial composite for identification; no endorsement by DHS implied."}
+
+
+def thumb_sky_psm_illicit():
+    """Generated flow graphic: USDC -> Sky PSM -> DAI/USDS with the Inca Digital figures (via CoinDesk)."""
+    base = gradient_bg()
+    d = ImageDraw.Draw(base)
+    def box(x, y, w, h, title, sub, col):
+        d.rounded_rectangle([x, y, x+w, y+h], radius=14, fill=(20, 32, 60), outline=col, width=3)
+        tw = d.textlength(title, font=font(FONT_B, 26))
+        d.text((x + (w - tw)/2, y + 18), title, font=font(FONT_B, 26), fill=WHITE)
+        sw = d.textlength(sub, font=font(FONT_R, 14))
+        d.text((x + (w - sw)/2, y + 56), sub, font=font(FONT_R, 14), fill=(203,213,225))
+    box(24, 70, 160, 90, "USDC", "freezable", (96,165,250))
+    box(234, 70, 160, 90, "Sky PSM", "1:1 swap", ORANGE)
+    box(444, 70, 176, 90, "DAI/USDS", "not freezable", (52,211,153))
+    for x0 in (188, 398):
+        d.line([(x0, 115), (x0+40, 115)], fill=WHITE, width=4)
+        d.polygon([(x0+40, 107), (x0+40, 123), (x0+46, 115)], fill=WHITE)
+    d.text((30, 196), "$518M", font=font(FONT_B, 54), fill=ORANGE)
+    d.text((250, 204), "flagged, $101.9M tied", font=font(FONT_B, 19), fill=WHITE)
+    d.text((250, 232), "to North Korea (Inca Digital)", font=font(FONT_B, 19), fill=WHITE)
+    d.text((32, 276), "Reserve at risk of a freeze: about $2.7B in USDC", font=font(FONT_R, 17), fill=(203,213,225))
+    label_chip(base, "Sky · stablecoin swap module")
+    return base, {"kind":"generated","sources":[
+        {"file":"Inca Digital report via CoinDesk, Nov. 19, 2026","license":"Facts cited","url":"https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk","credit":"Inca Digital / CoinDesk"},
+    ],"note":"PlainBTC-generated diagram; no logos or photos used."}
+
+
 BUILDERS = {
+    "threat-disruption-center-crypto-scams-trm-labs-nov-2026": thumb_threat_disruption_center,
+    "sky-stablecoin-psm-north-korea-518-million-inca-nov-2026": thumb_sky_psm_illicit,
     "ledger-tampered-wallets-berlin-dubai-nov-2026": thumb_ledger_berlin_dubai,
     "senators-genius-act-state-stablecoin-safe-harbor-nov-2026": thumb_genius_state_safe_harbor,
     "fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026": thumb_fed_minutes_btc_63k,

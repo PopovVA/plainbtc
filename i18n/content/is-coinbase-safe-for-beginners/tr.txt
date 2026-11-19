@@ -57,6 +57,8 @@ Coinbase, olayda parolaların veya özel anahtarların etkilenmediğini ve hiç 
 
 Menkul kıymet sektörünün özdenetim kuruluşu FINRA, [kripto dolandırıcılıklarının yaygın olduğu](L8) konusunda uyarıyor: kimlik avı, sahte teknik destek ve meşru bir hizmet gibi davranan dolandırıcılar. Kripto bir kez gönderildi mi, genellikle sonsuza dek gider.
 
+Rakamlar da bunu doğruluyor. [FBI'ın 2025 İnternet Suçları Raporu](L10), kriptoyla ilgili şikâyetlerde bildirilen kaybı 11,366 milyar $ olarak saydı; bu, 2024'e göre %22 artış demek. Kasım 2026'da Coinbase, yapay zekâ destekli dolandırıcılık savunmasının, Elon Musk'ın deepfake'inin gönderilen her kriptoyu "ikiye katlamayı" vaat ettiği sahte bir Tesla canlı yayını sırasında müşterilerin göndermeye çalıştığı [yaklaşık 4,7 milyon $'ı durdurduğunu](L11) açıkladı. Hiçbir hesap hacklenmedi: insanlar parayı kendileri göndermeyi seçti. Basit bir kural: hiçbir gerçek şirket ya da ünlü kriptonuzu ikiye katlamaz.
+
 Coinbase, çalışanlarının sizden asla parolanızı veya iki adımlı doğrulama kodunuzu, asla kurtarma ifadenizi, asla cihazınıza uzaktan erişimi istemeyeceğini ve fonlarınızı “güvenli” bir cüzdana taşımanızı asla istemeyeceğini söylüyor. Biri arayıp Coinbase’den olduğunu söylerse, [Coinbase bunun dolandırıcılık olduğunu söylüyor](L9).
 
 !howto

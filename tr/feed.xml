@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ABD, kripto dolandırıcılığına karşı Threat Disruption Center'ı kurdu, teknolojiyi TRM Labs sağlıyor</title>
+      <link>https://plainbtc.com/tr/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:10:00 GMT</pubDate>
+      <category>Güvenlik</category>
+      <description>DHS ve Adalet Bakanlığı'nın birlikte yönettiği Homeland Security Task Force, 18 Kasım'da dolandırıcılık parasını izlemek, mağdurları daha erken uyarmak ve çalınan kriptoyu dondurmak için Threat Disruption Center'ı kurdu. Blokzincir analiz şirketi TRM Labs ana özel ortak.</description>
+    </item>
+    <item>
+      <title>Rapor: Kuzey Kore dahil bilgisayar korsanlarıyla bağlantılı 518 milyon $, Sky'ın stablecoin takas modülünden geçti</title>
+      <link>https://plainbtc.com/tr/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:05:00 GMT</pubDate>
+      <category>Güvenlik</category>
+      <description>Kripto risk şirketi Inca Digital, bilgisayar korsanları ve diğer yasa dışı aktörlerle bağlantılı cüzdanların Sky'ın stablecoin takas modülünden geçirdiği 518 milyon $'lık işlemleri izledi; bunun 101,9 milyon $'ı Kuzey Kore ile bağlantılı. Şirket, 2,7 milyar $'lık USDC rezervinin tek seferde dondurulabileceği uyarısında bulunuyor.</description>
+    </item>
     <item>
       <title>Ledger, Berlin'de kurcalanmış donanım cüzdanlarını doğruladı, Dubai'de iki cihazı daha inceliyor</title>
       <link>https://plainbtc.com/tr/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>

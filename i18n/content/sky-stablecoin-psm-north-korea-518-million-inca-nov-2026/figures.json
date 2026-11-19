@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-sky-psm-illicit-flows.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of flagged flows through Sky's Peg Stability Module found by Inca Digital: $518 million across 422 illicit-linked wallets, $101.9 million linked to North Korea, $91.5 million from Bybit-hack wallets in 10 days, $49.5 million from the Infini exploiter and $26.1 million from the FTX Accounts Drainer",
+      "es": "Gráfico de barras de los flujos señalados por Inca Digital en el Peg Stability Module de Sky: 518 millones de dólares en 422 billeteras vinculadas a actividades ilícitas, 101,9 millones ligados a Corea del Norte, 91,5 millones de billeteras del hackeo a Bybit en 10 días, 49,5 millones del atacante de Infini y 26,1 millones del FTX Accounts Drainer",
+      "pt": "Gráfico de barras dos fluxos apontados pela Inca Digital no Peg Stability Module da Sky: US$ 518 milhões em 422 carteiras ligadas a atividades ilícitas, US$ 101,9 milhões ligados à Coreia do Norte, US$ 91,5 milhões de carteiras do ataque à Bybit em 10 dias, US$ 49,5 milhões do invasor da Infini e US$ 26,1 milhões do FTX Accounts Drainer",
+      "fr": "Graphique en barres des flux signalés par Inca Digital dans le Peg Stability Module de Sky : 518 millions de dollars via 422 portefeuilles liés à des activités illicites, 101,9 millions liés à la Corée du Nord, 91,5 millions venant de portefeuilles du piratage de Bybit en 10 jours, 49,5 millions de l'attaquant d'Infini et 26,1 millions du FTX Accounts Drainer",
+      "de": "Balkendiagramm der von Inca Digital markierten Flüsse durch Skys Peg Stability Module: 518 Mio. $ über 422 mit illegalen Akteuren verknüpfte Wallets, 101,9 Mio. $ mit Bezug zu Nordkorea, 91,5 Mio. $ aus Bybit-Hack-Wallets binnen 10 Tagen, 49,5 Mio. $ vom Infini-Angreifer und 26,1 Mio. $ vom FTX Accounts Drainer",
+      "ru": "Столбчатая диаграмма подозрительных потоков через Peg Stability Module протокола Sky по данным Inca Digital: $518 млн через 422 кошелька, связанных с незаконной деятельностью, $101,9 млн связаны с КНДР, $91,5 млн из кошельков взлома Bybit за 10 дней, $49,5 млн от атакующего Infini и $26,1 млн от FTX Accounts Drainer",
+      "tr": "Inca Digital'in Sky'ın Peg Stability Module'ünde işaretlediği akışların çubuk grafiği: yasa dışı faaliyetlerle bağlantılı 422 cüzdandan 518 milyon $, Kuzey Kore ile bağlantılı 101,9 milyon $, Bybit saldırısı cüzdanlarından 10 günde 91,5 milyon $, Infini saldırganından 49,5 milyon $ ve FTX Accounts Drainer'dan 26,1 milyon $",
+      "id": "Grafik batang aliran yang ditandai Inca Digital di Peg Stability Module milik Sky: US$518 juta dari 422 dompet terkait aktivitas ilegal, US$101,9 juta terkait Korea Utara, US$91,5 juta dari dompet peretasan Bybit dalam 10 hari, US$49,5 juta dari penyerang Infini, dan US$26,1 juta dari FTX Accounts Drainer",
+      "ja": "Inca DigitalがSkyのペグ安定化モジュール（PSM）で指摘した資金の流れの棒グラフ：不正関連の422ウォレットで計5億1800万ドル、北朝鮮関連1億190万ドル、Bybitハッキングのウォレットから10日間で9150万ドル、Infiniの攻撃者4950万ドル、FTX Accounts Drainer 2610万ドル",
+      "ko": "Inca Digital이 Sky의 페그 안정 모듈(PSM)에서 지목한 자금 흐름 막대 차트: 불법 연루 지갑 422개 합계 5억1800만 달러, 북한 연루 1억190만 달러, 바이비트 해킹 지갑에서 10일간 9150만 달러, Infini 공격자 4950만 달러, FTX Accounts Drainer 2610만 달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Inca Digital via CoinDesk",
+      "es": "Gráfico: PlainBTC, datos: Inca Digital via CoinDesk",
+      "pt": "Gráfico: PlainBTC, dados: Inca Digital via CoinDesk",
+      "fr": "Graphique : PlainBTC, données : Inca Digital via CoinDesk",
+      "de": "Chart: PlainBTC, Daten: Inca Digital via CoinDesk",
+      "ru": "График: PlainBTC, данные: Inca Digital via CoinDesk",
+      "tr": "Grafik: PlainBTC, veri: Inca Digital via CoinDesk",
+      "id": "Grafik: PlainBTC, data: Inca Digital via CoinDesk",
+      "ja": "チャート: PlainBTC、データ: Inca Digital via CoinDesk",
+      "ko": "차트: PlainBTC, 데이터: Inca Digital via CoinDesk"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-sky-psm-2-7-billion-usdc.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: Sky's Peg Stability Module holds about $2.7 billion in USDC in one Ethereum wallet; Circle cannot freeze part of an address, so a freeze would lock all of it",
+      "es": "Tarjeta de datos: el Peg Stability Module de Sky guarda unos 2.700 millones de dólares en USDC en una sola billetera de Ethereum; Circle no puede congelar solo una parte de una dirección, así que un congelamiento bloquearía todo",
+      "pt": "Cartão de dados: o Peg Stability Module da Sky guarda cerca de US$ 2,7 bilhões em USDC em uma única carteira de Ethereum; a Circle não consegue congelar só parte de um endereço, então um congelamento travaria tudo",
+      "fr": "Fiche : le Peg Stability Module de Sky détient environ 2,7 milliards de dollars en USDC dans un seul portefeuille Ethereum ; Circle ne peut pas geler une partie d'une adresse, un gel bloquerait donc la totalité",
+      "de": "Faktenkarte: Skys Peg Stability Module hält rund 2,7 Mrd. $ in USDC in einer einzigen Ethereum-Wallet; Circle kann nicht nur einen Teil einer Adresse sperren, eine Sperre würde also alles einfrieren",
+      "ru": "Карточка: Peg Stability Module протокола Sky держит около $2,7 млрд в USDC на одном кошельке Ethereum; Circle не может заморозить часть адреса, поэтому заморозка заблокирует всю сумму",
+      "tr": "Bilgi kartı: Sky'ın Peg Stability Module'ü tek bir Ethereum cüzdanında yaklaşık 2,7 milyar $ USDC tutuyor; Circle bir adresin yalnızca bir kısmını donduramıyor, bu yüzden dondurma tamamını kilitler",
+      "id": "Kartu fakta: Peg Stability Module milik Sky menyimpan sekitar US$2,7 miliar USDC di satu dompet Ethereum; Circle tidak bisa membekukan sebagian alamat, jadi pembekuan akan mengunci semuanya",
+      "ja": "ファクトカード：SkyのPSMは約27億ドルのUSDCを1つのイーサリアムウォレットで保有。Circleはアドレスの一部だけを凍結できないため、凍結されれば全額がロックされる",
+      "ko": "팩트 카드: Sky의 PSM은 약 27억 달러의 USDC를 이더리움 지갑 하나에 보관; 서클은 주소의 일부만 동결할 수 없어 동결 시 전액이 묶임"
+    },
+    "caption": {
+      "en": "Source: Inca Digital via CoinDesk",
+      "es": "Fuente: Inca Digital via CoinDesk",
+      "pt": "Fonte: Inca Digital via CoinDesk",
+      "fr": "Source : Inca Digital via CoinDesk",
+      "de": "Quelle: Inca Digital via CoinDesk",
+      "ru": "Источник: Inca Digital via CoinDesk",
+      "tr": "Kaynak: Inca Digital via CoinDesk",
+      "id": "Sumber: Inca Digital via CoinDesk",
+      "ja": "出典: Inca Digital via CoinDesk",
+      "ko": "출처: Inca Digital via CoinDesk"
+    }
+  }
+]

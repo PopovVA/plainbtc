@@ -1,0 +1,57 @@
+title: Report: $518 million tied to hackers, including North Korea, flowed through Sky's stablecoin swap
+page_title: $518M tied to hackers flowed through Sky's stablecoin swap
+description: Inca Digital traced $518 million in transactions by wallets linked to hackers and other illicit actors through Sky's Peg Stability Module, including $101.9 million tied to North Korea. What it means for DAI and USDS holders.
+og_description: Sky's swap module lets anyone trade freezable USDC for DAI or USDS. A new report says North Korea-linked wallets used it after the 2025 Bybit hack, and that the roughly $2.7 billion in USDC it holds could be frozen all at once. Sky says the flagged flows are a tiny share of volume.
+label: Security
+summary: Crypto risk firm Inca Digital traced $518 million in transactions by wallets tied to hackers and other illicit actors through Sky's stablecoin swap module, including $101.9 million linked to North Korea. It warns that the $2.7 billion USDC reserve could be frozen in one go.
+===
+
+A new investigation puts Sky, the decentralized protocol behind the DAI and USDS stablecoins, in the spotlight. Crypto risk analytics firm Inca Digital traced $518 million in transactions through Sky's Peg Stability Module (PSM) by wallets linked to hackers, phishing operations, sanctioned entities and addresses blacklisted by Circle and Tether, [CoinDesk reported](L1) on Thursday, Nov. 19. About $101.9 million of that was directly linked to North Korean actors.
+
+Sky grew out of MakerDAO, one of the oldest projects in decentralized finance (DeFi). Its PSM works like a swap window: anyone can trade Circle's USDC for DAI or USDS at a fixed one-to-one rate. That helps keep the coins near $1, but it also lets money move from USDC, which Circle can freeze, into tokens that no company can freeze. Inca called the PSM an "exit from freezable USDC."
+
+!takeaways
+- Inca Digital traced $518 million in PSM transactions across 422 wallets linked to illicit actors.
+- About $101.9 million was tied to North Korea, including $91.5 million routed in the 10 days after the February 2025 Bybit hack.
+- The PSM holds about $2.7 billion in USDC in a single wallet, and a freeze could lock all of it, the report warns.
+- Sky's foundation says the flagged flows are less than 0.06% of the PSM's more than $930 billion in volume.
+
+!figure:chart
+
+## What the report found
+
+The clearest case is the Bybit hack. In February 2025, North Korean hackers stole about $1.5 billion from the exchange. In the 10 days that followed, wallets funded with those stolen assets routed $91.5 million through the PSM, according to Inca. Almost $30 million of that moved after the FBI publicly blamed North Korea on Feb. 26, 2025.
+
+Other incidents show up too. The FTX Accounts Drainer swapped $26.1 million through the PSM during the exchange's collapse in November 2022, and the attacker behind the Infini exploit exchanged $49.5 million of USDC for DAI on the day of that hack in February 2025, the report found. Inca noted that its figures measure transactions by wallets tied to illicit actors, and not all of that money is stolen funds traced to a specific theft.
+
+The PSM does no identity checks or transaction screening. About 95% of the flagged transactions reached it through decentralized trading aggregators such as 1inch, ParaSwap and MetaMask Swaps, Inca said.
+
+!mid_cta
+
+## Why a freeze could matter
+
+Stablecoin issuers like Circle and Tether have been quicker to freeze stolen funds, as they did after last month's Binance hack. That power cuts both ways for Sky. The PSM holds about $2.7 billion in USDC in a single Ethereum wallet set up through Coinbase Prime. If Circle blacklisted that address, for example after a court order, the whole balance would be stuck, because Circle cannot freeze just part of a wallet. Legitimate reserves would be frozen along with any suspect money.
+
+!figure:fact
+
+That USDC partly backs more than $8 billion in DAI and USDS, according to CoinDesk. Amey Dandawate of Bluechip Ratings called a freeze "a low probability outcome, but it is not entirely hypothetical," pointing to a court-ordered freeze of $12 million in USDC in May. He said a freeze of Sky's reserve would stop swaps in both directions and could hurt other DeFi apps that rely on it.
+
+## What Sky says
+
+The Sky Frontier Foundation told CoinDesk it "takes any concern about illicit activity in DeFi seriously." It said most of the flagged transactions by value date from 2021 to mid-2024, that none came through its own websites, sky.money and spark.fi, which screen wallets, and that they make up less than 0.06% of the PSM's more than $930 billion in total volume. "Keeping DeFi both open and safe is a challenge for the whole industry," the foundation said. [PANews](L2) also summarized the report and Sky's response.
+
+## What it means for you
+
+If you hold DAI or USDS, nothing has been frozen, and the report does not say a freeze is coming. But it is a reminder that a stablecoin is only as solid as what backs it. DAI and USDS rely partly on USDC held in one address, which ties them to decisions by Circle and the courts. If you want to use stablecoins, a simple route for beginners is a large regulated exchange such as [Coinbase](REF), which offers USDC. Either way, check who issues a coin and what backs it before you hold it. This is not financial advice.
+
+## What to watch next
+
+- Whether Sky adds screening or other limits to the PSM.
+- Whether Circle, courts or regulators act on the flagged wallets.
+- How Sky's institutional partners, such as Galaxy, respond.
+
+!soft: See how North Korea is handling the Binance loot in [North Korea is minting meme coins to launder the Binance hack](/articles/binance-hack-north-korea-memecoin-laundering-nov-2026).
+
+!end_cta
+
+!disclosure

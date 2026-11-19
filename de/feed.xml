@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/de/</link>
     <description>Bitcoin- und Krypto-News in einfacher Sprache für Einsteiger</description>
     <language>de</language>
-    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/de/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>USA starten ein Threat Disruption Center gegen Krypto-Betrug, die Technik liefert TRM Labs</title>
+      <link>https://plainbtc.com/de/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:10:00 GMT</pubDate>
+      <category>Sicherheit</category>
+      <description>Die Homeland Security Task Force unter Leitung von DHS und Justizministerium hat am 18. November ein Threat Disruption Center gestartet, das Betrugsgelder verfolgen, Opfer früher warnen und gestohlene Kryptowährungen einfrieren soll. Hauptpartner aus der Wirtschaft ist die Blockchain-Analysefirma TRM Labs.</description>
+    </item>
+    <item>
+      <title>Bericht: 518 Mio. $ mit Bezug zu Hackern, darunter Nordkorea, flossen durch Skys Stablecoin-Tausch</title>
+      <link>https://plainbtc.com/de/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:05:00 GMT</pubDate>
+      <category>Sicherheit</category>
+      <description>Die Krypto-Risikofirma Inca Digital hat Transaktionen über 518 Mio. $ von Wallets mit Verbindungen zu Hackern und anderen illegalen Akteuren durch Skys Stablecoin-Tauschmodul verfolgt, darunter 101,9 Mio. $ mit Bezug zu Nordkorea. Sie warnt, dass die Reserve von 2,7 Mrd. $ in USDC auf einen Schlag eingefroren werden könnte.</description>
+    </item>
     <item>
       <title>Ledger bestätigt manipulierte Hardware-Wallets in Berlin und prüft zwei weitere in Dubai</title>
       <link>https://plainbtc.com/de/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>

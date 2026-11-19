@@ -1,0 +1,66 @@
+title: ABD, kripto dolandırıcılığına karşı Threat Disruption Center'ı kurdu, teknolojiyi TRM Labs sağlıyor
+page_title: ABD kripto dolandırıcılığına karşı merkez kurdu
+description: DHS ve Adalet Bakanlığı, dolandırıcılık parasını izlemek, mağdurları daha erken uyarmak ve çalınan kriptoyu dondurmak için Threat Disruption Center'ı kurdu. Amerikalılar 2025'te FBI'a 20,9 milyar $ siber suç kaybı bildirdi; bunun 11,4 milyar $'ı kriptoyla ilgili vakalardaydı.
+og_description: Yeni federal birim, soruşturmacıların ve bankalar, sosyal medya platformları ve kripto şirketleri gibi firmaların dolandırıcılık bilgilerini neredeyse gerçek zamanlı paylaşmasını sağlayacak. Bloomberg'e göre yaklaşık 95 milyon $ ödenen TRM Labs, platformu kurdu. Ne yapıyor ve sizin için ne anlama geliyor?
+label: Güvenlik
+summary: DHS ve Adalet Bakanlığı'nın birlikte yönettiği Homeland Security Task Force, 18 Kasım'da dolandırıcılık parasını izlemek, mağdurları daha erken uyarmak ve çalınan kriptoyu dondurmak için Threat Disruption Center'ı kurdu. Blokzincir analiz şirketi TRM Labs ana özel ortak.
+===
+
+ABD hükümetinin, Amerikalıların banka ve kripto hesaplarını boşaltan dolandırıcılıklara karşı yeni bir birimi var. 18 Kasım Çarşamba günü, İç Güvenlik Bakanlığı (DHS) ve Adalet Bakanlığı (DOJ) tarafından birlikte yönetilen Homeland Security Task Force, Threat Disruption Center'ı (Tehdit Engelleme Merkezi) kurdu. Görev gücünün [açıklamasına göre](L1) birim, "Amerikalıları hedef alan dolandırıcılık, siber suç ve cinsel şantaj düzenlerinin arkasındaki yabancı suç ağlarına mağdur paralarının akışını kesmeye" odaklanacak.
+
+Merkez hız için tasarlandı. Soruşturmacılara mağdur şikâyetlerini ayıklamak ve arkadaki ağların haritasını çıkarmak için araçlar veriyor, ayrıca dolandırıcılığı çoğu zaman ilk fark eden özel şirketlerle doğrudan bir hat açıyor: sosyal medya platformları, web barındırma firmaları, bankalar, ödeme şirketleri ve kripto hizmetleri. Merkezin üzerinde çalıştığı platformu blokzincir analiz şirketi TRM Labs kurdu.
+
+!takeaways
+- DHS ve Adalet Bakanlığı, Amerikalıları hedef alan dolandırıcılık ve siber suçla mücadele için 18 Kasım'da Threat Disruption Center'ı kurdu.
+- Merkez, 30'dan fazla federal kurum ve 440'ı aşkın eyalet ve yerel ortaktan oluşan bir görev gücüne hizmet veriyor.
+- Ana özel ortak TRM Labs; Bloomberg'e göre hükümet şirkete yaklaşık 95 milyon $ ödüyor.
+- Amerikalılar 2025'te FBI'a 20,9 milyar $ siber suç kaybı bildirdi; kriptoyla ilgili şikâyetler 11,4 milyar $ tuttu.
+
+!figure:chart
+
+## Merkez ne yapacak
+
+Amaç, mağdurun şikâyeti ile müdahale arasındaki süreyi kısaltmak. FBI Suç Şubesi operasyon direktörü Heith Janke açıklamada, "Bir mağdurun şikâyeti ile yanıt arasındaki her saat, suçlulara çalınan parayı aklamak ve bir sonraki hedefi bulmak için daha fazla zaman veriyor" dedi.
+
+Merkez, kolluk kuvvetlerinin ve katılımcı şirketlerin bilgileri neredeyse gerçek zamanlı paylaşıp eyleme dönüştürmesi için kalıcı bir kanal kuruyor; örneğin mağdurların ödemelerini durdurmak, dolandırıcılık sitelerini kapatmak ya da dolandırıcıların kullandığı sosyal medya hesaplarını engellemek. Şirketler bu adımları kendi kullanım koşulları çerçevesinde kendileri atabilirken, kurumlar soruşturma, kovuşturma ve mahkeme kararlı el koyma işlemlerini yürütüyor.
+
+Kriptoda iş, paranın izini sürmek. Görev gücünün Ulusal Koordinasyon Merkezi müdür yardımcısı Eric Weindorf, [Bloomberg'e](L2) merkezin "mağdurları belirleyeceğini, mağdur paralarının izini suçlulara kadar süreceğini, bu suçluların kullandığı kripto cüzdanlarını tespit edeceğini ve sonunda başka mağdurları bulmaya çalışacağını" söyledi.
+
+## Arkasında kim var
+
+Görev gücü 30'dan fazla federal kurum ve 440'ı aşkın eyalet ve yerel ortaktan oluşuyor. Yeni merkez, Başkan Trump'ın Mart 2026'da imzaladığı "Amerikan Vatandaşlarına Yönelik Siber Suç, Dolandırıcılık ve Yağmacı Düzenlerle Mücadele" başlıklı 14390 sayılı başkanlık kararnamesini uyguluyor.
+
+[TRM Labs](L3), yapay zekâ tabanlı soruşturma platformu Ardence'ı merkezin ana soruşturma aracı olarak sağlayacağını, buna özel mühendislik ve soruşturma desteğinin de ekleneceğini açıkladı. Bloomberg'e göre hükümet TRM'ye yaklaşık 95 milyon $ ödüyor ve projede 60'tan fazla TRM çalışanı görev yapıyor. Bir yıllık sözleşme temmuzda ihalesiz verildi. Rakip Chainalysis karara dava açtı, dava eylülde reddedildi.
+
+!mid_cta
+
+## Neden şimdi
+
+Kayıplar artmaya devam ediyor. [FBI'ın 2025 İnternet Suçları Raporu'na](L4) göre FBI'ın şikâyet merkezi IC3, geçen yıl 1.008.597 şikâyet ve 20,877 milyar $ bildirilen kayıp aldı; bu, 2024'e göre %26 artış demek. Kriptoyla ilgili şikâyetler bu kayıpların 11,366 milyar $'ını, yalnızca kripto yatırım dolandırıcılığı ise 7,228 milyar $'ını oluşturdu. Görev gücüne göre gerçek toplam muhtemelen daha yüksek, çünkü mağdurların çoğu hiç şikâyette bulunmuyor.
+
+!figure:fact
+
+Bu dolandırıcılıkların çoğunda hiç hackleme yok. Mağdur, parayı kendisi göndermeye ikna ediliyor. Bazı borsalar artık tam bu anda devreye giriyor. Bu hafta [Coinbase](L5), yapay zekâ destekli dolandırıcılık savunmasının, Elon Musk'ın deepfake'ini kullanarak gönderilen her kriptoyu "ikiye katlamayı" vaat eden sahte bir Tesla canlı yayını sırasında, müşterilerin göndermeye çalıştığı tutarın yaklaşık %91'ine denk gelen 4,7 milyon $'ı durdurduğunu açıkladı.
+
+## Sizin için ne anlama geliyor
+
+Yeni bir federal merkez, dolandırıcılıkta kaybedilen paranın kolayca geri geleceği anlamına gelmiyor. Kripto transferleri genellikle geri alınamaz ve geri kazanım, olsa bile, uzun sürebilir. En iyi savunma hâlâ hiç göndermemek:
+
+- Hiçbir gerçek şirket ya da ünlü kriptonuzu ikiye katlamaz. Önce para göndermeniz gerekiyorsa bu bir dolandırıcılıktır.
+- Bir videoda, canlı yayında ya da beklenmedik bir mesajda gösterilen adrese veya QR koduna asla kripto göndermeyin.
+- Sizi bir alım satım uygulamasına ya da sitesine yönlendiren yeni çevrimiçi "arkadaşlara" veya "danışmanlara" karşı dikkatli olun.
+- Kripto alacaksanız [Coinbase](REF) gibi tanınmış, düzenlenen bir platform kullanın ve sunduğu tüm güvenlik özelliklerini açın.
+
+Dolandırıldığınızı düşünüyorsanız hemen FBI'a [ic3.gov](L6) üzerinden bildirin. Hızlı bildirimler soruşturmacılara, artık bu merkeze de, fonları hareket etmeden dondurmak için en iyi şansı veriyor. Bu bir yatırım tavsiyesi değildir.
+
+## Neleri izlemeli
+
+- Merkezin ilk dondurulan fonları ya da kapatılan siteleri duyurup duyurmayacağı.
+- Hangi şirketlerin ortak olarak katılacağı.
+- TRM ile yapılan bir yıllık sözleşmenin uzatılıp uzatılmayacağı ya da başka şirketlere açılıp açılmayacağı.
+
+!soft: Hesabınızı korumanın temellerini [Coinbase yeni başlayanlar için güvenli mi?](/articles/is-coinbase-safe-for-beginners) yazısında bulabilirsiniz.
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,57 @@
+title: Relatório: US$ 518 milhões ligados a hackers, incluindo a Coreia do Norte, passaram pela troca de stablecoins da Sky
+page_title: US$ 518 mi ligados a hackers passaram pela troca da Sky
+description: A Inca Digital rastreou US$ 518 milhões em transações de carteiras ligadas a hackers e outros agentes ilícitos no Peg Stability Module da Sky, incluindo US$ 101,9 milhões ligados à Coreia do Norte. O que isso significa para quem tem DAI e USDS.
+og_description: O módulo de troca da Sky permite a qualquer um trocar USDC, que pode ser congelado, por DAI ou USDS. Um novo relatório diz que carteiras ligadas à Coreia do Norte o usaram após o ataque à Bybit em 2025 e que os cerca de US$ 2,7 bilhões em USDC guardados ali poderiam ser congelados de uma vez. A Sky diz que os fluxos apontados são uma fração mínima do volume.
+label: Segurança
+summary: A empresa de risco cripto Inca Digital rastreou US$ 518 milhões em transações de carteiras ligadas a hackers e outros agentes ilícitos no módulo de troca de stablecoins da Sky, incluindo US$ 101,9 milhões ligados à Coreia do Norte. Ela alerta que a reserva de US$ 2,7 bilhões em USDC poderia ser congelada de uma só vez.
+===
+
+Uma nova investigação coloca em evidência a Sky, o protocolo descentralizado por trás das stablecoins DAI e USDS. A empresa de análise de risco cripto Inca Digital rastreou US$ 518 milhões em transações no Peg Stability Module (PSM) da Sky feitas por carteiras ligadas a hackers, golpes de phishing, entidades sancionadas e endereços bloqueados pela Circle e pela Tether, [noticiou o CoinDesk](L1) na quinta-feira, 19 de novembro. Cerca de US$ 101,9 milhões desse total estavam ligados diretamente a agentes norte-coreanos.
+
+A Sky surgiu do MakerDAO, um dos projetos mais antigos das finanças descentralizadas (DeFi). O PSM funciona como um guichê de troca: qualquer pessoa pode trocar USDC da Circle por DAI ou USDS a uma taxa fixa de um para um. Isso ajuda a manter as moedas perto de US$ 1, mas também permite levar dinheiro do USDC, que a Circle pode congelar, para tokens que nenhuma empresa consegue congelar. A Inca chamou o PSM de "saída do USDC congelável".
+
+!takeaways
+- A Inca Digital rastreou US$ 518 milhões em transações no PSM feitas por 422 carteiras ligadas a agentes ilícitos.
+- Cerca de US$ 101,9 milhões estavam ligados à Coreia do Norte, incluindo US$ 91,5 milhões movimentados nos 10 dias após o ataque à Bybit em fevereiro de 2025.
+- O PSM guarda cerca de US$ 2,7 bilhões em USDC em uma única carteira, e um congelamento poderia travar tudo, alerta o relatório.
+- A fundação da Sky diz que os fluxos apontados são menos de 0,06% dos mais de US$ 930 bilhões de volume do PSM.
+
+!figure:chart
+
+## O que o relatório encontrou
+
+O caso mais claro é o ataque à Bybit. Em fevereiro de 2025, hackers norte-coreanos roubaram cerca de US$ 1,5 bilhão da corretora. Nos 10 dias seguintes, carteiras abastecidas com esses ativos roubados passaram US$ 91,5 milhões pelo PSM, segundo a Inca. Quase US$ 30 milhões disso foram movimentados depois que o FBI culpou publicamente a Coreia do Norte, em 26 de fevereiro de 2025.
+
+Outros casos também aparecem. O FTX Accounts Drainer trocou US$ 26,1 milhões pelo PSM durante o colapso da corretora, em novembro de 2022, e o autor do ataque à Infini trocou US$ 49,5 milhões em USDC por DAI no próprio dia daquele ataque, em fevereiro de 2025, segundo o relatório. A Inca ressaltou que seus números medem transações de carteiras ligadas a agentes ilícitos e que nem todo esse dinheiro é fundo roubado rastreado até um roubo específico.
+
+O PSM não faz checagem de identidade nem filtragem de transações. Cerca de 95% das transações apontadas chegaram a ele por agregadores de trading descentralizados como 1inch, ParaSwap e MetaMask Swaps, disse a Inca.
+
+!mid_cta
+
+## Por que um congelamento importaria
+
+Emissores de stablecoins como a Circle e a Tether estão congelando fundos roubados cada vez mais rápido, como fizeram após o ataque à Binance no mês passado. Esse poder corta dos dois lados para a Sky. O PSM guarda cerca de US$ 2,7 bilhões em USDC em uma única carteira de Ethereum criada pela Coinbase Prime. Se a Circle bloqueasse esse endereço, por exemplo após uma ordem judicial, todo o saldo ficaria travado, porque a Circle não consegue congelar só parte de uma carteira. As reservas legítimas seriam congeladas junto com o dinheiro suspeito.
+
+!figure:fact
+
+Esse USDC lastreia parcialmente mais de US$ 8 bilhões em DAI e USDS, segundo o CoinDesk. Amey Dandawate, da Bluechip Ratings, classificou um congelamento como "um resultado de baixa probabilidade, mas não totalmente hipotético", lembrando o congelamento judicial de US$ 12 milhões em USDC em maio. Ele disse que congelar a reserva da Sky interromperia as trocas nos dois sentidos e poderia afetar outros apps DeFi que dependem dela.
+
+## O que a Sky diz
+
+A Sky Frontier Foundation disse ao CoinDesk que "leva a sério qualquer preocupação com atividades ilícitas em DeFi". Afirmou que a maior parte das transações apontadas, em valor, é de 2021 a meados de 2024, que nenhuma passou por seus próprios sites, sky.money e spark.fi, que filtram carteiras, e que elas representam menos de 0,06% dos mais de US$ 930 bilhões de volume total do PSM. "Manter o DeFi aberto e seguro ao mesmo tempo é um desafio para todo o setor", disse a fundação. O [PANews](L2) também resumiu o relatório e a resposta da Sky.
+
+## O que isso significa para você
+
+Se você tem DAI ou USDS, nada foi congelado, e o relatório não diz que um congelamento está a caminho. Mas é um lembrete de que uma stablecoin é tão sólida quanto o que a sustenta. DAI e USDS dependem em parte de USDC guardado em um único endereço, o que as amarra a decisões da Circle e da Justiça. Se quiser usar stablecoins, um caminho simples para iniciantes é uma corretora grande e regulada como a [Coinbase](REF), que oferece USDC. De todo modo, veja quem emite uma moeda e o que a lastreia antes de comprá-la. Isto não é aconselhamento financeiro.
+
+## O que acompanhar
+
+- Se a Sky vai adicionar filtros ou outros limites ao PSM.
+- Se a Circle, a Justiça ou reguladores vão agir contra as carteiras apontadas.
+- Como reagem os parceiros institucionais da Sky, como a Galaxy.
+
+!soft: Veja como a Coreia do Norte lida com o dinheiro da Binance em [Coreia do Norte cria memecoins para lavar o hack da Binance](/articles/binance-hack-north-korea-memecoin-laundering-nov-2026).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,57 @@
+title: Rapport : 518 millions de dollars liés à des pirates, dont la Corée du Nord, sont passés par le module d'échange de stablecoins de Sky
+page_title: 518 M$ liés à des pirates passés par le module d'échange de Sky
+description: Inca Digital a retracé 518 millions de dollars de transactions effectuées via le Peg Stability Module de Sky par des portefeuilles liés à des pirates et à d'autres acteurs illicites, dont 101,9 millions liés à la Corée du Nord. Ce que cela signifie pour les détenteurs de DAI et d'USDS.
+og_description: Le module d'échange de Sky permet à n'importe qui d'échanger de l'USDC, gelable, contre du DAI ou de l'USDS. Un nouveau rapport affirme que des portefeuilles liés à la Corée du Nord l'ont utilisé après le piratage de Bybit en 2025 et que les quelque 2,7 milliards de dollars d'USDC qu'il détient pourraient être gelés d'un coup. Sky répond que ces flux ne représentent qu'une infime part du volume.
+label: Sécurité
+summary: La société d'analyse de risques crypto Inca Digital a retracé 518 millions de dollars de transactions de portefeuilles liés à des pirates et à d'autres acteurs illicites via le module d'échange de stablecoins de Sky, dont 101,9 millions liés à la Corée du Nord. Elle avertit que la réserve de 2,7 milliards en USDC pourrait être gelée d'un seul coup.
+===
+
+Une nouvelle enquête braque les projecteurs sur Sky, le protocole décentralisé derrière les stablecoins DAI et USDS. La société d'analyse de risques crypto Inca Digital a retracé 518 millions de dollars de transactions passées par le Peg Stability Module (PSM) de Sky et effectuées par des portefeuilles liés à des pirates, à des opérations de phishing, à des entités sanctionnées et à des adresses bloquées par Circle et Tether, [a rapporté CoinDesk](L1) le jeudi 19 novembre. Environ 101,9 millions de ce total étaient directement liés à des acteurs nord-coréens.
+
+Sky est issu de MakerDAO, l'un des plus anciens projets de la finance décentralisée (DeFi). Son PSM fonctionne comme un guichet d'échange : tout le monde peut y échanger l'USDC de Circle contre du DAI ou de l'USDS à un taux fixe d'un pour un. Cela aide à maintenir ces jetons autour de 1 dollar, mais permet aussi de faire passer de l'argent de l'USDC, que Circle peut geler, vers des jetons qu'aucune entreprise ne peut geler. Inca qualifie le PSM de « sortie de l'USDC gelable ».
+
+!takeaways
+- Inca Digital a retracé 518 millions de dollars de transactions sur le PSM effectuées par 422 portefeuilles liés à des acteurs illicites.
+- Environ 101,9 millions étaient liés à la Corée du Nord, dont 91,5 millions acheminés dans les 10 jours suivant le piratage de Bybit en février 2025.
+- Le PSM détient environ 2,7 milliards de dollars d'USDC dans un seul portefeuille, et un gel pourrait tout bloquer, prévient le rapport.
+- La fondation de Sky affirme que ces flux représentent moins de 0,06 % des plus de 930 milliards de dollars de volume du PSM.
+
+!figure:chart
+
+## Ce que révèle le rapport
+
+Le cas le plus net est celui du piratage de Bybit. En février 2025, des pirates nord-coréens ont volé environ 1,5 milliard de dollars à la plateforme. Dans les 10 jours qui ont suivi, des portefeuilles alimentés par ces actifs volés ont fait passer 91,5 millions par le PSM, selon Inca. Près de 30 millions ont été déplacés après que le FBI a publiquement accusé la Corée du Nord, le 26 février 2025.
+
+D'autres incidents apparaissent aussi. Le FTX Accounts Drainer a échangé 26,1 millions via le PSM pendant l'effondrement de la plateforme en novembre 2022, et l'auteur de l'exploit contre Infini a converti 49,5 millions d'USDC en DAI le jour même de cette attaque, en février 2025, selon le rapport. Inca précise que ses chiffres mesurent les transactions de portefeuilles liés à des acteurs illicites et que tout cet argent n'est pas forcément issu d'un vol précis.
+
+Le PSM n'effectue aucun contrôle d'identité ni filtrage des transactions. Environ 95 % des transactions signalées y sont arrivées via des agrégateurs d'échange décentralisés comme 1inch, ParaSwap et MetaMask Swaps, selon Inca.
+
+!mid_cta
+
+## Pourquoi un gel compterait
+
+Les émetteurs de stablecoins comme Circle et Tether gèlent de plus en plus vite les fonds volés, comme après le piratage de Binance le mois dernier. Ce pouvoir est à double tranchant pour Sky. Le PSM détient environ 2,7 milliards de dollars d'USDC dans un seul portefeuille Ethereum créé via Coinbase Prime. Si Circle bloquait cette adresse, par exemple après une décision de justice, tout le solde serait immobilisé, car Circle ne peut pas geler une partie seulement d'un portefeuille. Les réserves légitimes seraient gelées en même temps que l'argent suspect.
+
+!figure:fact
+
+Cet USDC adosse en partie plus de 8 milliards de dollars de DAI et d'USDS, selon CoinDesk. Amey Dandawate, de Bluechip Ratings, juge un gel « peu probable, mais pas entièrement hypothétique », en rappelant le gel judiciaire de 12 millions de dollars en USDC en mai. Selon lui, geler la réserve de Sky bloquerait les échanges dans les deux sens et pourrait toucher d'autres applications DeFi qui en dépendent.
+
+## La réponse de Sky
+
+La Sky Frontier Foundation a déclaré à CoinDesk qu'elle « prend au sérieux toute préoccupation concernant des activités illicites dans la DeFi ». Elle affirme que la plupart des transactions signalées, en valeur, datent de 2021 à mi-2024, qu'aucune n'est passée par ses propres sites, sky.money et spark.fi, qui filtrent les portefeuilles, et qu'elles représentent moins de 0,06 % des plus de 930 milliards de dollars de volume total du PSM. « Garder la DeFi à la fois ouverte et sûre est un défi pour tout le secteur », a ajouté la fondation. [PANews](L2) a également résumé le rapport et la réponse de Sky.
+
+## Ce que cela change pour vous
+
+Si vous détenez du DAI ou de l'USDS, rien n'a été gelé, et le rapport n'annonce pas de gel. Mais c'est un rappel qu'un stablecoin ne vaut que ce qui le soutient. Le DAI et l'USDS reposent en partie sur de l'USDC détenu à une seule adresse, ce qui les lie aux décisions de Circle et des tribunaux. Si vous voulez utiliser des stablecoins, une voie simple pour débuter est une grande plateforme régulée comme [Coinbase](REF), qui propose l'USDC. Dans tous les cas, vérifiez qui émet un jeton et ce qui le garantit avant de le détenir. Ceci n'est pas un conseil financier.
+
+## À surveiller
+
+- Si Sky ajoute un filtrage ou d'autres limites au PSM.
+- Si Circle, la justice ou les régulateurs agissent contre les portefeuilles signalés.
+- Comment réagissent les partenaires institutionnels de Sky, comme Galaxy.
+
+!soft: Voyez comment la Corée du Nord gère le butin de Binance dans [La Corée du Nord crée des memecoins pour blanchir le piratage de Binance](/articles/binance-hack-north-korea-memecoin-laundering-nov-2026).
+
+!end_cta
+
+!disclosure

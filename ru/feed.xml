@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>США запустили Threat Disruption Center для борьбы с криптомошенничеством, технологию дала TRM Labs</title>
+      <link>https://plainbtc.com/ru/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:10:00 GMT</pubDate>
+      <category>Безопасность</category>
+      <description>Оперативная группа Homeland Security Task Force под руководством Министерства внутренней безопасности и Минюста США 18 ноября запустила Threat Disruption Center, чтобы отслеживать деньги мошенников, быстрее предупреждать жертв и замораживать украденную криптовалюту. Главный частный партнёр — компания блокчейн-аналитики TRM Labs.</description>
+    </item>
+    <item>
+      <title>Отчёт: через обменник стейблкоинов Sky прошли $518 млн, связанные с хакерами, в том числе из КНДР</title>
+      <link>https://plainbtc.com/ru/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:05:00 GMT</pubDate>
+      <category>Безопасность</category>
+      <description>Компания по анализу криптовалютных рисков Inca Digital отследила транзакции на $518 млн через модуль обмена стейблкоинов Sky, проведённые кошельками, связанными с хакерами и другими нелегальными участниками, из них $101,9 млн связаны с КНДР. Она предупреждает, что резерв в $2,7 млрд в USDC могут заморозить одним махом.</description>
+    </item>
     <item>
       <title>Ledger подтвердила вскрытые аппаратные кошельки в Берлине и проверяет ещё два в Дубае</title>
       <link>https://plainbtc.com/ru/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>

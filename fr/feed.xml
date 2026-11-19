@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/fr/</link>
     <description>L’actualité du bitcoin et des cryptos en langage clair, pour les débutants</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 19 Nov 2026 00:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/fr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Les États-Unis lancent un Threat Disruption Center contre les arnaques crypto, avec la technologie de TRM Labs</title>
+      <link>https://plainbtc.com/fr/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:10:00 GMT</pubDate>
+      <category>Sécurité</category>
+      <description>La Homeland Security Task Force, codirigée par le DHS et le ministère de la Justice, a lancé le 18 novembre un Threat Disruption Center pour tracer l'argent des arnaques, prévenir plus vite les victimes et geler les cryptos volées. La société d'analyse blockchain TRM Labs est son principal partenaire privé.</description>
+    </item>
+    <item>
+      <title>Rapport : 518 millions de dollars liés à des pirates, dont la Corée du Nord, sont passés par le module d'échange de stablecoins de Sky</title>
+      <link>https://plainbtc.com/fr/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/sky-stablecoin-psm-north-korea-518-million-inca-nov-2026</guid>
+      <pubDate>Thu, 19 Nov 2026 15:05:00 GMT</pubDate>
+      <category>Sécurité</category>
+      <description>La société d'analyse de risques crypto Inca Digital a retracé 518 millions de dollars de transactions de portefeuilles liés à des pirates et à d'autres acteurs illicites via le module d'échange de stablecoins de Sky, dont 101,9 millions liés à la Corée du Nord. Elle avertit que la réserve de 2,7 milliards en USDC pourrait être gelée d'un seul coup.</description>
+    </item>
     <item>
       <title>Ledger confirme des portefeuilles matériels piégés à Berlin et en examine deux autres à Dubaï</title>
       <link>https://plainbtc.com/fr/articles/ledger-tampered-wallets-berlin-dubai-nov-2026</link>

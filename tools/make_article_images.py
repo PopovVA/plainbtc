@@ -3889,7 +3889,112 @@ def build_genius_state_safe_harbor():
     ]
 
 
+def build_threat_disruption_center():
+    slug = "threat-disruption-center-crypto-scams-trm-labs-nov-2026"
+    d = OUT / slug
+    # FBI IC3 2025 Internet Crime Report: losses by year 2021 $6.9B, 2022 $10.3B, 2023 $12.5B, 2024 $16.6B, 2025 $20.877B;
+    # crypto-nexus complaints 2025: $11.366B (+22%); crypto investment fraud $7.228B.
+    chart = make_bar_chart(
+        d / "chart-ic3-losses-by-year",
+        ["2021", "2022", "2023", "2024", "2025"],
+        [6.9, 10.3, 12.5, 16.6, 20.877],
+        "Cybercrime losses reported to the FBI (US$ billions)",
+        colors=["#64748b", "#64748b", "#64748b", "#64748b", "#f7931a"],
+        value_fmt=lambda v: f"${v:,.1f}B" if v != 20.877 else "$20.9B",
+        axis_fmt=lambda x, _p: f"${x:,.0f}B",
+    )
+    fact = make_fact_card(
+        d / "fact-ic3-crypto-losses-2025",
+        "FBI IC3, 2025",
+        "$11.366 billion",
+        "Reported losses in complaints involving crypto, up 22% from 2024. Crypto investment fraud alone: $7.228 billion.",
+        footer="FBI 2025 Internet Crime Report",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of cybercrime losses reported to the FBI's IC3: $6.9 billion in 2021, $10.3 billion in 2022, $12.5 billion in 2023, $16.6 billion in 2024 and $20.9 billion in 2025", {
+            "es": "Gráfico de barras de las pérdidas por ciberdelitos denunciadas al IC3 del FBI: 6.900 millones de dólares en 2021, 10.300 millones en 2022, 12.500 millones en 2023, 16.600 millones en 2024 y 20.900 millones en 2025",
+            "pt": "Gráfico de barras das perdas com crimes cibernéticos relatadas ao IC3 do FBI: US$ 6,9 bilhões em 2021, US$ 10,3 bilhões em 2022, US$ 12,5 bilhões em 2023, US$ 16,6 bilhões em 2024 e US$ 20,9 bilhões em 2025",
+            "fr": "Graphique en barres des pertes liées à la cybercriminalité signalées à l'IC3 du FBI : 6,9 milliards de dollars en 2021, 10,3 milliards en 2022, 12,5 milliards en 2023, 16,6 milliards en 2024 et 20,9 milliards en 2025",
+            "de": "Balkendiagramm der dem IC3 des FBI gemeldeten Schäden durch Cyberkriminalität: 6,9 Mrd. $ 2021, 10,3 Mrd. $ 2022, 12,5 Mrd. $ 2023, 16,6 Mrd. $ 2024 und 20,9 Mrd. $ 2025",
+            "ru": "Столбчатая диаграмма потерь от киберпреступлений, о которых сообщили в IC3 ФБР: $6,9 млрд в 2021 году, $10,3 млрд в 2022-м, $12,5 млрд в 2023-м, $16,6 млрд в 2024-м и $20,9 млрд в 2025-м",
+            "tr": "FBI'ın IC3 birimine bildirilen siber suç kayıplarının çubuk grafiği: 2021'de 6,9 milyar $, 2022'de 10,3 milyar $, 2023'te 12,5 milyar $, 2024'te 16,6 milyar $ ve 2025'te 20,9 milyar $",
+            "id": "Grafik batang kerugian kejahatan siber yang dilaporkan ke IC3 FBI: US$6,9 miliar pada 2021, US$10,3 miliar pada 2022, US$12,5 miliar pada 2023, US$16,6 miliar pada 2024, dan US$20,9 miliar pada 2025",
+            "ja": "FBIのIC3に報告されたサイバー犯罪の被害額の棒グラフ：2021年69億ドル、2022年103億ドル、2023年125億ドル、2024年166億ドル、2025年209億ドル",
+            "ko": "FBI IC3에 신고된 사이버 범죄 피해액 막대 차트: 2021년 69억 달러, 2022년 103억 달러, 2023년 125억 달러, 2024년 166억 달러, 2025년 209억 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="FBI 2025 Internet Crime Report")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: in 2025, complaints to the FBI's IC3 that involved cryptocurrency reported $11.366 billion in losses, up 22% from 2024; crypto investment fraud alone accounted for $7.228 billion", {
+            "es": "Tarjeta de datos: en 2025, las denuncias al IC3 del FBI relacionadas con criptomonedas sumaron pérdidas de 11.366 millones de dólares, un 22% más que en 2024; solo el fraude de inversión cripto representó 7.228 millones",
+            "pt": "Cartão de dados: em 2025, as queixas ao IC3 do FBI envolvendo criptomoedas somaram perdas de US$ 11,366 bilhões, alta de 22% sobre 2024; só a fraude de investimento em cripto respondeu por US$ 7,228 bilhões",
+            "fr": "Fiche : en 2025, les plaintes déposées auprès de l'IC3 du FBI impliquant des cryptomonnaies ont fait état de 11,366 milliards de dollars de pertes, en hausse de 22 % sur 2024 ; la fraude à l'investissement crypto représente à elle seule 7,228 milliards",
+            "de": "Faktenkarte: 2025 meldeten Beschwerden beim IC3 des FBI mit Kryptobezug Schäden von 11,366 Mrd. $, 22 % mehr als 2024; allein auf Krypto-Anlagebetrug entfielen 7,228 Mrd. $",
+            "ru": "Карточка: в 2025 году жалобы в IC3 ФБР, связанные с криптовалютой, показали потери на $11,366 млрд, на 22% больше, чем в 2024-м; только на мошенничество с криптоинвестициями пришлось $7,228 млрд",
+            "tr": "Bilgi kartı: 2025'te FBI'ın IC3 birimine yapılan kriptoyla ilgili şikâyetlerde bildirilen kayıp 11,366 milyar $ oldu, 2024'e göre %22 artış; yalnızca kripto yatırım dolandırıcılığı 7,228 milyar $",
+            "id": "Kartu fakta: pada 2025, pengaduan ke IC3 FBI yang melibatkan kripto mencatat kerugian US$11,366 miliar, naik 22% dari 2024; penipuan investasi kripto saja mencapai US$7,228 miliar",
+            "ja": "ファクトカード：2025年、FBIのIC3に寄せられた暗号資産関連の苦情による被害額は113億6600万ドルで、2024年比22%増。暗号資産投資詐欺だけで72億2800万ドル",
+            "ko": "팩트 카드: 2025년 FBI IC3에 접수된 암호화폐 관련 신고 피해액은 113억6600만 달러로 2024년보다 22% 증가; 암호화폐 투자 사기만 72억2800만 달러",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="FBI 2025 Internet Crime Report")},
+    ]
+
+
+def build_sky_psm_illicit():
+    slug = "sky-stablecoin-psm-north-korea-518-million-inca-nov-2026"
+    d = OUT / slug
+    # Inca Digital report via CoinDesk (Nov 19, 2026): $518M total across 422 wallets; $101.9M North Korea-linked;
+    # $91.5M Bybit-funded wallets in 10 days after Feb 2025 hack; Infini exploiter $49.5M; FTX Accounts Drainer $26.1M.
+    # PSM holds ~$2.7B USDC in a single Ethereum wallet set up via Coinbase Prime.
+    chart = make_bar_chart(
+        d / "chart-sky-psm-illicit-flows",
+        ["All flagged\nwallets (422)", "Linked to\nNorth Korea", "Bybit-hack\nwallets (10 days)", "Infini\nexploiter", "FTX Accounts\nDrainer"],
+        [518, 101.9, 91.5, 49.5, 26.1],
+        "Flagged flows through Sky's PSM (US$ millions)",
+        colors=["#f87171", "#f7931a", "#f7931a", "#64748b", "#64748b"],
+        value_fmt=lambda v: f"${v:,.1f}M" if v != 518 else "$518M",
+        axis_fmt=lambda x, _p: f"${x:,.0f}M",
+    )
+    fact = make_fact_card(
+        d / "fact-sky-psm-2-7-billion-usdc",
+        "Sky's PSM reserve",
+        "$2.7 billion USDC",
+        "Held in one Ethereum wallet. Circle cannot freeze part of an address, so a freeze would lock all of it.",
+        footer="Inca Digital via CoinDesk",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of flagged flows through Sky's Peg Stability Module found by Inca Digital: $518 million across 422 illicit-linked wallets, $101.9 million linked to North Korea, $91.5 million from Bybit-hack wallets in 10 days, $49.5 million from the Infini exploiter and $26.1 million from the FTX Accounts Drainer", {
+            "es": "Gráfico de barras de los flujos señalados por Inca Digital en el Peg Stability Module de Sky: 518 millones de dólares en 422 billeteras vinculadas a actividades ilícitas, 101,9 millones ligados a Corea del Norte, 91,5 millones de billeteras del hackeo a Bybit en 10 días, 49,5 millones del atacante de Infini y 26,1 millones del FTX Accounts Drainer",
+            "pt": "Gráfico de barras dos fluxos apontados pela Inca Digital no Peg Stability Module da Sky: US$ 518 milhões em 422 carteiras ligadas a atividades ilícitas, US$ 101,9 milhões ligados à Coreia do Norte, US$ 91,5 milhões de carteiras do ataque à Bybit em 10 dias, US$ 49,5 milhões do invasor da Infini e US$ 26,1 milhões do FTX Accounts Drainer",
+            "fr": "Graphique en barres des flux signalés par Inca Digital dans le Peg Stability Module de Sky : 518 millions de dollars via 422 portefeuilles liés à des activités illicites, 101,9 millions liés à la Corée du Nord, 91,5 millions venant de portefeuilles du piratage de Bybit en 10 jours, 49,5 millions de l'attaquant d'Infini et 26,1 millions du FTX Accounts Drainer",
+            "de": "Balkendiagramm der von Inca Digital markierten Flüsse durch Skys Peg Stability Module: 518 Mio. $ über 422 mit illegalen Akteuren verknüpfte Wallets, 101,9 Mio. $ mit Bezug zu Nordkorea, 91,5 Mio. $ aus Bybit-Hack-Wallets binnen 10 Tagen, 49,5 Mio. $ vom Infini-Angreifer und 26,1 Mio. $ vom FTX Accounts Drainer",
+            "ru": "Столбчатая диаграмма подозрительных потоков через Peg Stability Module протокола Sky по данным Inca Digital: $518 млн через 422 кошелька, связанных с незаконной деятельностью, $101,9 млн связаны с КНДР, $91,5 млн из кошельков взлома Bybit за 10 дней, $49,5 млн от атакующего Infini и $26,1 млн от FTX Accounts Drainer",
+            "tr": "Inca Digital'in Sky'ın Peg Stability Module'ünde işaretlediği akışların çubuk grafiği: yasa dışı faaliyetlerle bağlantılı 422 cüzdandan 518 milyon $, Kuzey Kore ile bağlantılı 101,9 milyon $, Bybit saldırısı cüzdanlarından 10 günde 91,5 milyon $, Infini saldırganından 49,5 milyon $ ve FTX Accounts Drainer'dan 26,1 milyon $",
+            "id": "Grafik batang aliran yang ditandai Inca Digital di Peg Stability Module milik Sky: US$518 juta dari 422 dompet terkait aktivitas ilegal, US$101,9 juta terkait Korea Utara, US$91,5 juta dari dompet peretasan Bybit dalam 10 hari, US$49,5 juta dari penyerang Infini, dan US$26,1 juta dari FTX Accounts Drainer",
+            "ja": "Inca DigitalがSkyのペグ安定化モジュール（PSM）で指摘した資金の流れの棒グラフ：不正関連の422ウォレットで計5億1800万ドル、北朝鮮関連1億190万ドル、Bybitハッキングのウォレットから10日間で9150万ドル、Infiniの攻撃者4950万ドル、FTX Accounts Drainer 2610万ドル",
+            "ko": "Inca Digital이 Sky의 페그 안정 모듈(PSM)에서 지목한 자금 흐름 막대 차트: 불법 연루 지갑 422개 합계 5억1800만 달러, 북한 연루 1억190만 달러, 바이비트 해킹 지갑에서 10일간 9150만 달러, Infini 공격자 4950만 달러, FTX Accounts Drainer 2610만 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Inca Digital via CoinDesk")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: Sky's Peg Stability Module holds about $2.7 billion in USDC in one Ethereum wallet; Circle cannot freeze part of an address, so a freeze would lock all of it", {
+            "es": "Tarjeta de datos: el Peg Stability Module de Sky guarda unos 2.700 millones de dólares en USDC en una sola billetera de Ethereum; Circle no puede congelar solo una parte de una dirección, así que un congelamiento bloquearía todo",
+            "pt": "Cartão de dados: o Peg Stability Module da Sky guarda cerca de US$ 2,7 bilhões em USDC em uma única carteira de Ethereum; a Circle não consegue congelar só parte de um endereço, então um congelamento travaria tudo",
+            "fr": "Fiche : le Peg Stability Module de Sky détient environ 2,7 milliards de dollars en USDC dans un seul portefeuille Ethereum ; Circle ne peut pas geler une partie d'une adresse, un gel bloquerait donc la totalité",
+            "de": "Faktenkarte: Skys Peg Stability Module hält rund 2,7 Mrd. $ in USDC in einer einzigen Ethereum-Wallet; Circle kann nicht nur einen Teil einer Adresse sperren, eine Sperre würde also alles einfrieren",
+            "ru": "Карточка: Peg Stability Module протокола Sky держит около $2,7 млрд в USDC на одном кошельке Ethereum; Circle не может заморозить часть адреса, поэтому заморозка заблокирует всю сумму",
+            "tr": "Bilgi kartı: Sky'ın Peg Stability Module'ü tek bir Ethereum cüzdanında yaklaşık 2,7 milyar $ USDC tutuyor; Circle bir adresin yalnızca bir kısmını donduramıyor, bu yüzden dondurma tamamını kilitler",
+            "id": "Kartu fakta: Peg Stability Module milik Sky menyimpan sekitar US$2,7 miliar USDC di satu dompet Ethereum; Circle tidak bisa membekukan sebagian alamat, jadi pembekuan akan mengunci semuanya",
+            "ja": "ファクトカード：SkyのPSMは約27億ドルのUSDCを1つのイーサリアムウォレットで保有。Circleはアドレスの一部だけを凍結できないため、凍結されれば全額がロックされる",
+            "ko": "팩트 카드: Sky의 PSM은 약 27억 달러의 USDC를 이더리움 지갑 하나에 보관; 서클은 주소의 일부만 동결할 수 없어 동결 시 전액이 묶임",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Inca Digital via CoinDesk")},
+    ]
+
+
 BUILDERS = {
+    "threat-disruption-center-crypto-scams-trm-labs-nov-2026": "tdc",
+    "sky-stablecoin-psm-north-korea-518-million-inca-nov-2026": "skypsm",
     "ledger-tampered-wallets-berlin-dubai-nov-2026": "ledgerbd",
     "senators-genius-act-state-stablecoin-safe-harbor-nov-2026": "geniusstate",
     "fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026": "fedmin63k",
@@ -4052,6 +4157,10 @@ def build_slug(slug: str, btc=None):
         figs = build_cftc_backpack()
     elif key == "rusretail":
         figs = build_russia_retail_crypto()
+    elif key == "tdc":
+        figs = build_threat_disruption_center()
+    elif key == "skypsm":
+        figs = build_sky_psm_illicit()
     elif key == "ledgerbd":
         figs = build_ledger_berlin_dubai()
     elif key == "geniusstate":

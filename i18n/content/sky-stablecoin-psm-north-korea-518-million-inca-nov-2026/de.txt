@@ -1,0 +1,57 @@
+title: Bericht: 518 Mio. $ mit Bezug zu Hackern, darunter Nordkorea, flossen durch Skys Stablecoin-Tausch
+page_title: 518 Mio. $ mit Hacker-Bezug flossen durch Skys Stablecoin-Tausch
+description: Inca Digital hat Transaktionen über 518 Mio. $ durch Skys Peg Stability Module verfolgt, die von Wallets mit Verbindungen zu Hackern und anderen illegalen Akteuren stammen, darunter 101,9 Mio. $ mit Bezug zu Nordkorea. Was das für Halter von DAI und USDS bedeutet.
+og_description: Skys Tauschmodul erlaubt es jedem, sperrbares USDC gegen DAI oder USDS zu tauschen. Ein neuer Bericht sagt, dass mit Nordkorea verbundene Wallets es nach dem Bybit-Hack 2025 nutzten und dass die rund 2,7 Mrd. $ in USDC darin auf einen Schlag eingefroren werden könnten. Sky sagt, die markierten Ströme seien ein winziger Teil des Volumens.
+label: Sicherheit
+summary: Die Krypto-Risikofirma Inca Digital hat Transaktionen über 518 Mio. $ von Wallets mit Verbindungen zu Hackern und anderen illegalen Akteuren durch Skys Stablecoin-Tauschmodul verfolgt, darunter 101,9 Mio. $ mit Bezug zu Nordkorea. Sie warnt, dass die Reserve von 2,7 Mrd. $ in USDC auf einen Schlag eingefroren werden könnte.
+===
+
+Eine neue Untersuchung rückt Sky ins Rampenlicht, das dezentrale Protokoll hinter den Stablecoins DAI und USDS. Die Krypto-Risikoanalysefirma Inca Digital hat Transaktionen über 518 Mio. $ durch Skys Peg Stability Module (PSM) verfolgt, die von Wallets mit Verbindungen zu Hackern, Phishing-Banden, sanktionierten Stellen und von Circle und Tether gesperrten Adressen stammen, [berichtete CoinDesk](L1) am Donnerstag, dem 19. November. Rund 101,9 Mio. $ davon standen direkt mit nordkoreanischen Akteuren in Verbindung.
+
+Sky ist aus MakerDAO hervorgegangen, einem der ältesten Projekte im dezentralen Finanzwesen (DeFi). Das PSM funktioniert wie ein Wechselschalter: Jeder kann USDC von Circle zum festen Kurs von eins zu eins gegen DAI oder USDS tauschen. Das hilft, die Coins nahe 1 $ zu halten, erlaubt aber auch, Geld aus USDC, das Circle sperren kann, in Token zu verschieben, die kein Unternehmen sperren kann. Inca nannte das PSM einen „Ausgang aus sperrbarem USDC“.
+
+!takeaways
+- Inca Digital verfolgte PSM-Transaktionen über 518 Mio. $ von 422 Wallets mit Verbindungen zu illegalen Akteuren.
+- Rund 101,9 Mio. $ standen mit Nordkorea in Verbindung, darunter 91,5 Mio. $, die in den 10 Tagen nach dem Bybit-Hack im Februar 2025 durchgeleitet wurden.
+- Das PSM hält rund 2,7 Mrd. $ in USDC in einer einzigen Wallet, eine Sperre könnte alles einfrieren, warnt der Bericht.
+- Skys Stiftung sagt, die markierten Ströme machten weniger als 0,06 % der mehr als 930 Mrd. $ PSM-Volumen aus.
+
+!figure:chart
+
+## Was der Bericht fand
+
+Der deutlichste Fall ist der Bybit-Hack. Im Februar 2025 stahlen nordkoreanische Hacker rund 1,5 Mrd. $ von der Börse. In den 10 Tagen danach leiteten Wallets, die mit den gestohlenen Mitteln gefüllt waren, laut Inca 91,5 Mio. $ durch das PSM. Fast 30 Mio. $ davon flossen, nachdem das FBI Nordkorea am 26. Februar 2025 öffentlich verantwortlich gemacht hatte.
+
+Auch andere Vorfälle tauchen auf. Der FTX Accounts Drainer tauschte während des Zusammenbruchs der Börse im November 2022 26,1 Mio. $ über das PSM, und der Angreifer hinter dem Infini-Exploit tauschte am Tag dieses Hacks im Februar 2025 49,5 Mio. $ USDC in DAI, so der Bericht. Inca betonte, dass seine Zahlen Transaktionen von Wallets mit Verbindung zu illegalen Akteuren messen und nicht das gesamte Geld aus einem bestimmten Diebstahl stammen muss.
+
+Das PSM prüft weder Identitäten noch Transaktionen. Rund 95 % der markierten Transaktionen erreichten es über dezentrale Handelsaggregatoren wie 1inch, ParaSwap und MetaMask Swaps, sagte Inca.
+
+!mid_cta
+
+## Warum eine Sperre wichtig wäre
+
+Stablecoin-Emittenten wie Circle und Tether frieren gestohlene Gelder immer schneller ein, wie nach dem Binance-Hack im vergangenen Monat. Diese Macht ist für Sky zweischneidig. Das PSM hält rund 2,7 Mrd. $ in USDC in einer einzigen Ethereum-Wallet, die über Coinbase Prime eingerichtet wurde. Würde Circle diese Adresse sperren, etwa nach einem Gerichtsbeschluss, wäre das gesamte Guthaben blockiert, denn Circle kann nicht nur einen Teil einer Wallet sperren. Legitime Reserven würden zusammen mit verdächtigem Geld eingefroren.
+
+!figure:fact
+
+Dieses USDC deckt laut CoinDesk teilweise mehr als 8 Mrd. $ an DAI und USDS. Amey Dandawate von Bluechip Ratings nannte eine Sperre „ein Ergebnis mit geringer Wahrscheinlichkeit, aber nicht völlig hypothetisch“ und verwies auf eine gerichtlich angeordnete Sperre von 12 Mio. $ in USDC im Mai. Eine Sperre von Skys Reserve würde Tauschvorgänge in beide Richtungen stoppen und könnte andere DeFi-Apps treffen, die darauf aufbauen, sagte er.
+
+## Was Sky sagt
+
+Die Sky Frontier Foundation sagte CoinDesk, sie nehme „jede Sorge über illegale Aktivitäten im DeFi-Bereich ernst“. Die meisten markierten Transaktionen stammten wertmäßig aus der Zeit von 2021 bis Mitte 2024, keine sei über die eigenen Websites sky.money und spark.fi gelaufen, die Wallets prüfen, und sie machten weniger als 0,06 % der mehr als 930 Mrd. $ Gesamtvolumen des PSM aus. „DeFi zugleich offen und sicher zu halten, ist eine Herausforderung für die ganze Branche“, so die Stiftung. Auch [PANews](L2) fasste den Bericht und Skys Antwort zusammen.
+
+## Was das für Sie bedeutet
+
+Wenn Sie DAI oder USDS halten: Es wurde nichts eingefroren, und der Bericht sagt nicht, dass eine Sperre bevorsteht. Er erinnert aber daran, dass ein Stablecoin nur so solide ist wie seine Deckung. DAI und USDS stützen sich teilweise auf USDC an einer einzigen Adresse, was sie an Entscheidungen von Circle und Gerichten bindet. Wer Stablecoins nutzen will, findet als Einsteiger einen einfachen Weg über eine große regulierte Börse wie [Coinbase](REF), die USDC anbietet. So oder so gilt: Prüfen Sie, wer einen Coin ausgibt und was ihn deckt, bevor Sie ihn halten. Dies ist keine Finanzberatung.
+
+## Worauf man achten sollte
+
+- Ob Sky Prüfungen oder andere Grenzen für das PSM einführt.
+- Ob Circle, Gerichte oder Aufsichtsbehörden gegen die markierten Wallets vorgehen.
+- Wie Skys institutionelle Partner wie Galaxy reagieren.
+
+!soft: Wie Nordkorea mit der Binance-Beute umgeht, lesen Sie in [Nordkorea erstellt Memecoins, um den Binance-Hack zu waschen](/articles/binance-hack-north-korea-memecoin-laundering-nov-2026).
+
+!end_cta
+
+!disclosure

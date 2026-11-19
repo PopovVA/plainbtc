@@ -1,0 +1,66 @@
+title: EE. UU. lanza un Centro de Disrupción de Amenazas contra las estafas cripto, con tecnología de TRM Labs
+page_title: EE. UU. lanza un centro contra las estafas cripto
+description: El DHS y el Departamento de Justicia lanzaron un Centro de Disrupción de Amenazas para rastrear el dinero de las estafas, avisar antes a las víctimas y congelar cripto robadas. En 2025 los estadounidenses denunciaron al FBI pérdidas por ciberdelitos de 20.900 millones de dólares, 11.400 millones en casos con cripto.
+og_description: Una nueva unidad federal permitirá que investigadores y empresas como bancos, redes sociales y firmas cripto compartan información sobre estafas casi en tiempo real. TRM Labs, que según Bloomberg cobra unos 95 millones de dólares, creó su plataforma. Qué hace y qué significa para ti.
+label: Seguridad
+summary: La Fuerza de Tarea de Seguridad Nacional, dirigida por el DHS y el Departamento de Justicia, lanzó el 18 de noviembre un Centro de Disrupción de Amenazas para rastrear el dinero de las estafas, avisar antes a las víctimas y congelar cripto robadas. La firma de análisis blockchain TRM Labs es su principal socio privado.
+===
+
+El Gobierno de EE. UU. tiene una nueva unidad dedicada a las estafas que vacían las cuentas bancarias y cripto de los estadounidenses. El miércoles 18 de noviembre, la Fuerza de Tarea de Seguridad Nacional (Homeland Security Task Force), dirigida por el Departamento de Seguridad Nacional (DHS) y el Departamento de Justicia (DOJ), lanzó el Centro de Disrupción de Amenazas (Threat Disruption Center), una unidad «dedicada a cortar el flujo de fondos de las víctimas hacia las redes criminales extranjeras detrás de estafas, ciberdelitos y extorsiones sexuales dirigidas a estadounidenses», [según la fuerza de tarea](L1).
+
+El centro está pensado para actuar rápido. Da a los investigadores herramientas para clasificar las denuncias de las víctimas y mapear las redes que hay detrás, y abre una línea directa con las empresas privadas que a menudo detectan una estafa antes que nadie: redes sociales, servicios de alojamiento web, bancos, empresas de pagos y servicios cripto. La firma de análisis blockchain TRM Labs creó la plataforma sobre la que funciona.
+
+!takeaways
+- El DHS y el Departamento de Justicia lanzaron el 18 de noviembre el Centro de Disrupción de Amenazas para combatir las estafas y los ciberdelitos contra estadounidenses.
+- Da servicio a una fuerza de tarea de más de 30 agencias federales y más de 440 socios estatales y locales.
+- TRM Labs es el principal socio privado; según Bloomberg, el Gobierno le paga unos 95 millones de dólares.
+- En 2025 los estadounidenses denunciaron al FBI pérdidas por ciberdelitos de 20.900 millones de dólares, y las denuncias con cripto sumaron 11.400 millones.
+
+!figure:chart
+
+## Qué hará el centro
+
+El objetivo es acortar el tiempo entre la denuncia de una víctima y la respuesta. «Cada hora entre la denuncia de una víctima y una respuesta da a los delincuentes más tiempo para blanquear los fondos robados y buscar a su próximo objetivo», dijo Heith Janke, director de operaciones de la División Criminal del FBI, en el anuncio.
+
+El centro crea un canal permanente para que las fuerzas del orden y las empresas participantes compartan información casi en tiempo real y la conviertan en acciones, por ejemplo pausar pagos de las víctimas, cerrar sitios web fraudulentos o bloquear cuentas de redes sociales que usan los estafadores. Las empresas pueden tomar esas medidas por su cuenta según sus condiciones de servicio, mientras las agencias se encargan de las investigaciones, los procesos judiciales y las incautaciones autorizadas por un tribunal.
+
+En el caso de las cripto, la tarea es seguir el dinero. El centro va a «identificar a las víctimas, rastrear sus fondos hasta los delincuentes, identificar las billeteras cripto que usan esos delincuentes y, por último, intentar identificar a otras víctimas», dijo a [Bloomberg](L2) Eric Weindorf, subdirector del Centro Nacional de Coordinación de la fuerza de tarea.
+
+## Quién está detrás
+
+La fuerza de tarea reúne a más de 30 agencias federales y más de 440 socios estatales y locales. El nuevo centro aplica la Orden Ejecutiva 14390, «Combatir el cibercrimen, el fraude y los esquemas depredadores contra los ciudadanos estadounidenses», que el presidente Trump firmó en marzo de 2026.
+
+[TRM Labs dijo](L3) que aportará Ardence, su plataforma de investigación basada en IA, como principal herramienta de investigación del centro, junto con apoyo técnico e investigador dedicado. Bloomberg informó de que el Gobierno paga a TRM unos 95 millones de dólares y de que más de 60 empleados de TRM trabajan en el proyecto. El contrato de un año se adjudicó en julio sin concurso. Su rival Chainalysis lo impugnó en los tribunales y la demanda fue desestimada en septiembre.
+
+!mid_cta
+
+## Por qué ahora
+
+Las pérdidas no dejan de crecer. Según el [informe de delitos en internet de 2025 del FBI](L4), su Centro de Denuncias de Delitos en Internet (IC3) recibió 1.008.597 denuncias y 20.877 millones de dólares en pérdidas declaradas el año pasado, un 26% más que en 2024. Las denuncias relacionadas con criptomonedas sumaron 11.366 millones de esas pérdidas, y solo el fraude de inversión cripto, 7.228 millones. La cifra real probablemente sea mayor, porque la mayoría de las víctimas nunca denuncia, señaló la fuerza de tarea.
+
+!figure:fact
+
+Muchas de estas estafas no implican ningún hackeo. A la víctima la convencen de enviar el dinero. Algunos exchanges ya intervienen en ese momento. Esta semana, [Coinbase dijo](L5) que sus defensas contra estafas con IA frenaron unos 4,7 millones de dólares, alrededor del 91% de lo que sus clientes intentaron enviar, durante una transmisión falsa de Tesla que usaba un deepfake de Elon Musk y prometía «duplicar» cualquier cripto que se le enviara.
+
+## Qué significa para ti
+
+Un nuevo centro federal no significa que el dinero estafado se recupere con facilidad. Las transferencias cripto normalmente no se pueden revertir, y la recuperación, cuando llega, puede tardar mucho. La mejor defensa sigue siendo no enviar nada:
+
+- Ninguna empresa ni celebridad real va a duplicar tus cripto. Si primero tienes que enviar dinero, es una estafa.
+- Nunca envíes cripto a una dirección o código QR que aparezca en un video, una transmisión en vivo o un mensaje inesperado.
+- Desconfía de nuevos «amigos» o «asesores» en internet que te empujan hacia una app o un sitio de trading.
+- Si compras cripto, usa una plataforma conocida y regulada como [Coinbase](REF) y activa todas las funciones de seguridad que ofrezca.
+
+Si crees que te han estafado, denúncialo cuanto antes al FBI en [ic3.gov](L6). Las denuncias rápidas dan a los investigadores, y ahora a este centro, la mejor oportunidad de congelar los fondos antes de que se muevan. Esto no es asesoramiento financiero.
+
+## Qué vigilar
+
+- Si el centro anuncia sus primeros fondos congelados o cierres de sitios.
+- Qué empresas se suman como socias.
+- Si el contrato de un año con TRM se prorroga o se abre a otros competidores.
+
+!soft: Aprende lo básico para proteger tu cuenta en [¿Es seguro Coinbase para principiantes?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

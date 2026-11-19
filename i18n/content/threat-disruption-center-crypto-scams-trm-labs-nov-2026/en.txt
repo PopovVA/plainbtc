@@ -1,0 +1,66 @@
+title: U.S. launches a Threat Disruption Center to fight crypto scams, with TRM Labs running its tech
+page_title: U.S. launches Threat Disruption Center against crypto scams
+description: DHS and the Justice Department launched a Threat Disruption Center to trace scam money, warn victims sooner and freeze stolen crypto. Americans reported $20.9 billion in cybercrime losses to the FBI in 2025, $11.4 billion of it in crypto cases.
+og_description: A new federal unit will let investigators and companies such as banks, social networks and crypto firms share scam intelligence in near real time. TRM Labs, reportedly paid about $95 million, built its platform. What it does and what it means for you.
+label: Security
+summary: The Homeland Security Task Force, co-led by DHS and the Justice Department, launched a Threat Disruption Center on Nov. 18 to trace scam money, warn victims sooner and freeze stolen crypto. Blockchain analytics firm TRM Labs is its main private partner.
+===
+
+The U.S. government has a new unit aimed at the scams that drain Americans' bank and crypto accounts. On Wednesday, Nov. 18, the Homeland Security Task Force, co-led by the Department of Homeland Security (DHS) and the Justice Department (DOJ), launched the Threat Disruption Center, a unit "dedicated to disrupting the flow of victim funds to foreign criminal networks behind scams, cybercrime, and sextortion schemes targeting Americans," [the task force said](L1).
+
+The center is built for speed. It gives investigators tools to sort victim complaints and map the networks behind them, and it opens a direct line to the private companies that often spot a scam first: social media platforms, web hosts, banks, payment firms and crypto services. Blockchain analytics firm TRM Labs built the platform the center runs on.
+
+!takeaways
+- DHS and the Justice Department launched the Threat Disruption Center on Nov. 18 to fight scams and cybercrime aimed at Americans.
+- It serves a task force of more than 30 federal agencies and over 440 state and local partners.
+- TRM Labs is the main private partner; Bloomberg reported the government is paying it about $95 million.
+- Americans reported $20.9 billion in cybercrime losses to the FBI in 2025, and complaints involving crypto made up $11.4 billion.
+
+!figure:chart
+
+## What the center will do
+
+The goal is to shrink the time between a victim's report and action. "Every hour between a victim's report and a response gives criminals more time to launder stolen funds and identify their next target," said Heith Janke, operations director of the FBI's Criminal Branch, in the announcement.
+
+The center sets up a standing way for law enforcement and participating companies to share intelligence in near real time and turn it into action, for example by pausing victim payments, taking down scam websites or banning social media accounts used by scammers. Companies can take those steps on their own under their terms of service, while agencies handle investigations, prosecutions and court-approved seizures.
+
+For crypto, the job is to follow the money. The center will "identify victims, trace victim funds back to bad actors, identify the crypto wallets utilized both by those bad actors, and then ultimately try to identify other victims," Eric Weindorf, deputy director of the task force's National Coordination Center, told [Bloomberg](L2).
+
+## Who is behind it
+
+The task force includes more than 30 federal agencies and over 440 state and local partners. The new center carries out Executive Order 14390, "Combating Cybercrime, Fraud, and Predatory Schemes Against American Citizens," which President Trump signed in March 2026.
+
+[TRM Labs said](L3) it will supply Ardence, its AI-based investigations platform, as the center's main investigative tool, along with dedicated engineering and investigative support. Bloomberg reported that the government is paying TRM about $95 million and that more than 60 TRM employees work on the project. The one-year agreement was awarded in July without competitive bidding. Rival Chainalysis sued over the award, and the lawsuit was dismissed in September.
+
+!mid_cta
+
+## Why now
+
+The losses keep growing. According to the [FBI's 2025 Internet Crime Report](L4), its Internet Crime Complaint Center (IC3) received 1,008,597 complaints and $20.877 billion in reported losses last year, up 26% from 2024. Complaints involving cryptocurrency accounted for $11.366 billion of those losses, and crypto investment fraud alone for $7.228 billion. The real total is likely higher, because most victims never file a report, the task force noted.
+
+!figure:fact
+
+Many of these scams involve no hacking at all. The victim is talked into sending the money. Some exchanges now step in at that moment. This week, [Coinbase said](L5) its AI scam defenses stopped about $4.7 million, roughly 91% of what customers tried to send, during a fake Tesla livestream that used a deepfake of Elon Musk to promise to "double" any crypto sent to it.
+
+## What it means for you
+
+A new federal center does not mean scammed money comes back easily. Crypto transfers usually cannot be reversed, and recovery, when it happens, can take a long time. The best defense is still not to send in the first place:
+
+- No real company or celebrity will double your crypto. If you have to send money first, it is a scam.
+- Never send crypto to an address or QR code shown in a video, livestream or unexpected message.
+- Be wary of new online "friends" or "advisers" who push you toward a trading app or website.
+- If you buy crypto, use a well-known, regulated platform such as [Coinbase](REF) and turn on every security feature it offers.
+
+If you think you have been scammed, report it quickly to the FBI at [ic3.gov](L6). Fast reports give investigators, and now this center, the best chance to freeze funds before they move. This is not financial advice.
+
+## What to watch next
+
+- Whether the center announces its first frozen funds or takedowns.
+- Which companies sign up as participating partners.
+- Whether the one-year TRM agreement is extended or opened to other bidders.
+
+!soft: Learn the basics of protecting your account in [Is Coinbase safe for beginners?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure
