@@ -1,6 +1,6 @@
 title: U.S. launches a Threat Disruption Center to fight crypto scams, with TRM Labs running its tech
 page_title: U.S. launches Threat Disruption Center against crypto scams
-description: DHS and the Justice Department launched a Threat Disruption Center to trace scam money, warn victims sooner and freeze stolen crypto. Americans reported $20.9 billion in cybercrime losses to the FBI in 2025, $11.4 billion of it in crypto cases.
+description: DHS and the Justice Department launched a Threat Disruption Center to trace scam money, warn victims sooner and freeze stolen crypto. Victims reported $20.9 billion in cybercrime losses to the FBI in 2025, $11.4 billion of it in crypto cases.
 og_description: A new federal unit will let investigators and companies such as banks, social networks and crypto firms share scam intelligence in near real time. TRM Labs, reportedly paid about $95 million, built its platform. What it does and what it means for you.
 label: Security
 summary: The Homeland Security Task Force, co-led by DHS and the Justice Department, launched a Threat Disruption Center on Nov. 18 to trace scam money, warn victims sooner and freeze stolen crypto. Blockchain analytics firm TRM Labs is its main private partner.
@@ -14,7 +14,7 @@ The center is built for speed. It gives investigators tools to sort victim compl
 - DHS and the Justice Department launched the Threat Disruption Center on Nov. 18 to fight scams and cybercrime aimed at Americans.
 - It serves a task force of more than 30 federal agencies and over 440 state and local partners.
 - TRM Labs is the main private partner; Bloomberg reported the government is paying it about $95 million.
-- Americans reported $20.9 billion in cybercrime losses to the FBI in 2025, and complaints involving crypto made up $11.4 billion.
+- Victims reported $20.9 billion in cybercrime losses to the FBI in 2025, and complaints involving crypto made up $11.4 billion.
 
 !figure:chart
 
