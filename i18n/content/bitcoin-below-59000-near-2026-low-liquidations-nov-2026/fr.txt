@@ -1,0 +1,59 @@
+title: Le bitcoin passe sous 59 000 dollars et frôle son plus bas de 2026, 1,5 milliard de paris liquidés
+page_title: Le bitcoin sous 59 000 dollars, près de son plus bas de 2026
+description: Le bitcoin est tombé à environ 58 005 dollars sur Kraken vendredi, moins de 0,5 % au-dessus de son plus bas de 2026, 57 740 dollars le 1er juillet, sur fond de chute des valeurs technologiques et d'environ 1,5 milliard de dollars de paris à effet de levier liquidés.
+og_description: Le bitcoin a perdu les 60 000 puis les 59 000 dollars vendredi, touchant environ 58 005 dollars sur Kraken, juste au-dessus de son plus bas de juillet. Tech, or et crypto ont chuté ensemble. Ce qui s'est passé et ce que cela signifie, en termes simples.
+label: Marchés
+summary: Le bitcoin est tombé à environ 58 005 dollars sur Kraken vers midi vendredi, son prix le plus bas depuis début juillet et moins de 0,5 % au-dessus du plus bas de 2026, 57 740 dollars, tandis que le Nasdaq reculait de près de 4 % et qu'environ 1,5 milliard de dollars de positions à effet de levier étaient liquidées.
+===
+
+La baisse du bitcoin s'est accélérée vendredi 20 novembre. La première cryptomonnaie est passée sous 60 000 dollars dans l'heure de 9 h, heure du Centre des États-Unis, et a continué de baisser jusqu'à <strong>58 005 dollars</strong> sur Kraken dans l'heure de midi, selon la vérification par PlainBTC des [données de prix publiques](L4) de Kraken. Vers 13 h, il s'échangeait près de 58 650 dollars, en baisse de plus de 5 % sur la journée.
+
+Le bitcoin se retrouve ainsi à quelques centaines de dollars de son prix le plus bas de 2026. Sur Kraken, le plus bas de l'année jusqu'ici est de 57 740 dollars, atteint le 1er juillet. Le plus bas de vendredi n'est que moins de 0,5 % au-dessus. Il est aussi environ 41 % sous le plus haut de 2026, environ 97 900 dollars le 14 janvier.
+
+!takeaways
+- Le bitcoin a touché environ 58 005 dollars sur Kraken vendredi, moins de 0,5 % au-dessus de son plus bas de 2026, 57 740 dollars le 1er juillet.
+- Environ 1,5 milliard de dollars de positions crypto à effet de levier ont été liquidées en 24 heures, selon CoinDesk, qui cite CoinGlass.
+- Le Nasdaq a perdu environ 3,8 % et l'or environ 2 % : la crypto n'était pas le seul marché sous pression.
+- Les ETF bitcoin au comptant américains ont perdu en net 582,3 millions de dollars jeudi, dont un record de 541,1 millions pour l'IBIT de BlackRock, selon Farside Investors.
+
+!figure:chart
+
+## Ce qui s'est passé vendredi
+
+Les ventes ont commencé en Bourse. L'action d'Anthropic, la société d'IA entrée en Bourse jeudi, a chuté de plus de 14 % vendredi et effacé ses gains du premier jour, a [rapporté](L1) CoinDesk. Un fonds de semi-conducteurs très suivi (SOXX) a perdu environ 8 % et le Nasdaq environ 3,8 %, tous deux à leur plus bas depuis avril. Les mineurs de bitcoin reconvertis dans les centres de données d'IA ont chuté encore plus fort : Hut 8 a perdu près de 15 %, et Core Scientific, CleanSpark et Bitdeer plus de 13 % chacun.
+
+La crypto a suivi. Sur Kraken, le bitcoin était encore près de 61 700 dollars à 9 h, heure du Centre, et il est tombé à environ 59 300 dollars dans l'heure. L'ether a reculé à environ 1 607 dollars, soit environ 8 % sous son prix d'ouverture du jour, et XRP, Solana et BNB ont perdu de 5 % à 6 %, selon CoinDesk. Même l'or, souvent vu comme une valeur refuge, a perdu environ 2 % vers 3 500 dollars l'once, son plus bas depuis septembre 2025.
+
+## L'effet de levier a aggravé la chute
+
+Beaucoup de traders empruntent pour parier plus gros sur les prix des cryptos. Quand les prix chutent vite, les plateformes ferment automatiquement ces positions dès que la garantie du trader est épuisée. C'est ce qu'on appelle une liquidation, et elle ajoute des ventes au pire moment. Environ 1,5 milliard de dollars de positions crypto à effet de levier ont été liquidées en 24 heures, selon les données de CoinGlass citées par CoinDesk.
+
+!figure:fact
+
+L'indice de la peur de Wall Street, le VIX, s'est approché de 32, a noté le [direct](L2) de CoinDesk. Andy Baehr, de la société de trading crypto GSR, a parlé d'un « marché rapide », avant d'ajouter : « Les marchés rapides vont et viennent. »
+
+!mid_cta
+
+## Taux, ETF et peur
+
+Les taux d'intérêt pèsent lourd. Le gouverneur de la Réserve fédérale Christopher Waller a évoqué en début de semaine une hausse d'un demi-point. Vendredi, les traders voyaient une hausse d'un quart de point lors de la réunion de la Fed des 8 et 9 décembre comme l'issue la plus probable, selon CoinDesk. Des taux plus élevés rendent les liquidités et les obligations plus rémunératrices, ce qui peut détourner l'argent des actifs plus risqués comme la crypto. « Le refuge, c'est le cash », a déclaré Maxime Seiler, PDG de la société de trading STS Digital.
+
+Les grands fonds vendent aussi. Selon [Farside Investors](L3), les ETF bitcoin au comptant américains ont perdu en net 582,3 millions de dollars jeudi 19 novembre. L'iShares Bitcoin Trust (IBIT) de BlackRock a perdu à lui seul 541,1 millions, sa plus forte sortie en une journée depuis son lancement. Les chiffres de vendredi n'étaient pas encore disponibles à la publication de cet article.
+
+Le moral des investisseurs est au plus bas. L'[indice Crypto Fear & Greed](L5) s'établissait à 12 sur 100 vendredi, en pleine « peur extrême ».
+
+## Ce que cela signifie pour les débutants
+
+Les fortes baisses comme celle-ci font partie de la détention de bitcoin, et personne ne peut dire avec certitude où se trouve le plancher. Un prix proche du plus bas de l'année peut encore baisser, mais aussi rebondir vite. Si vous envisagez d'acheter, beaucoup de débutants étalent de petits achats sur des semaines ou des mois au lieu de tout acheter d'un coup, et certains commencent sur une grande plateforme régulée comme [Coinbase](REF). Évitez d'emprunter pour acheter et n'investissez que l'argent que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Si le bitcoin tient au-dessus de son plus bas de 2026, environ 57 740 dollars sur Kraken.
+- Les flux des ETF bitcoin au comptant de vendredi et de la semaine prochaine.
+- Les discours de la Fed avant la réunion des 8 et 9 décembre, et une éventuelle extension de la baisse des actions.
+
+!soft: Vous débutez et voulez acheter du bitcoin pas à pas ? Lisez [Combien de bitcoin un débutant devrait-il acheter ?](/articles/how-much-bitcoin-should-a-beginner-buy-dca)
+
+!end_cta
+
+!disclosure

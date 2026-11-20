@@ -1636,7 +1636,73 @@ def thumb_sec_fake_platforms():
     ],"note":"Editorial graphic; no endorsement by the SEC implied."}
 
 
+
+def thumb_btc_below_59k_2026_low():
+    """Crimson full-year chart: Kraken XBTUSD daily closes Jan 1 - Nov 19, 2026, the 2026 low line ($57,740, Jul 1) and the Nov 20 intraday low ($58,005.00)."""
+    url = "https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=1440"
+    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60, context=CTX) as r:
+        rows = next(v for k, v in json.load(r)["result"].items() if k != "last")
+    start = datetime(2026, 1, 1, tzinfo=timezone.utc); end = datetime(2026, 11, 20, tzinfo=timezone.utc)
+    pts = [(datetime.fromtimestamp(r[0], tz=timezone.utc), float(r[4])) for r in rows]
+    pts = [p for p in pts if start <= p[0] < end]
+    xs, closes = [p[0] for p in pts], [p[1] for p in pts]
+    year_low, low_now, x_now = 57740.0, 58005.0, datetime(2026, 11, 20, 18, tzinfo=timezone.utc)
+    bg, ink = "#3b0a12", "#fff7ed"
+    fig = plt.figure(figsize=(6.4, 3.6), dpi=100 * S); fig.patch.set_facecolor(bg)
+    ax = fig.add_axes([0.07, 0.12, 0.89, 0.50]); ax.set_facecolor(bg)
+    for s in ("top", "right", "left"): ax.spines[s].set_visible(False)
+    ax.spines["bottom"].set_color("#9f5f68")
+    ax.tick_params(colors="#fecdd3", labelsize=7, length=0)
+    ax.grid(True, axis="y", color="#5b1a24", linewidth=0.6)
+    ax.plot(xs + [x_now], closes + [low_now], color=ink, linewidth=1.8)
+    ax.axhline(year_low, color="#fb923c", linestyle=(0, (4, 3)), linewidth=1.1)
+    ax.text(datetime(2026, 1, 8, tzinfo=timezone.utc), year_low * 1.025, "2026 low $57,740 (Jul 1)", color="#fb923c", fontsize=7.5, fontweight="bold")
+    ax.scatter([x_now], [low_now], s=40, color="#f87171", zorder=5, edgecolors="white", linewidths=1.2)
+    ax.set_ylim(year_low * 0.95, max(closes) * 1.04)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"${v/1000:.0f}k"))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
+    fig.text(0.07, 0.86, "$58,005", color="#fca5a5", fontsize=30, fontweight="bold", va="center")
+    fig.text(0.46, 0.89, "Bitcoin low on Kraken, Nov. 20", color=ink, fontsize=11, fontweight="bold", va="center")
+    fig.text(0.46, 0.81, "less than 0.5% above the 2026 low", color="#fecdd3", fontsize=10, va="center")
+    fig.text(0.07, 0.70, "Daily close, 2026", color="#fda4af", fontsize=7.5, va="center")
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100 * S, facecolor=bg); plt.close(fig); buf.seek(0)
+    im = Image.open(buf).convert("RGB")
+    return im, {"kind":"chart","sources":[
+        {"file":"Kraken OHLC XBTUSD interval=1440 and interval=60","license":"Kraken public API","url":"https://docs.kraken.com/api/docs/rest-api/get-ohlc-data","credit":"Daily BTC/USD closes Jan 1 - Nov 19, 2026, the Jul 1 low and the Nov 20 low, from Kraken"}
+    ]}
+
+
+def thumb_death_bets_act():
+    """U.S. Senate seal (Wikimedia Commons, CC BY-SA 2.5) with the five event-contract categories S. 4035 would ban."""
+    seal = fetch("https://upload.wikimedia.org/wikipedia/commons/f/f0/Seal_of_the_United_States_Senate.svg", CACHE/"senate-seal.svg")
+    base = gradient_bg(top=(10, 48, 44), bottom=(6, 20, 22))
+    paste_contain(base, Image.open(seal).convert("RGBA"), (30, 56, 132, 132), pad=4)
+    d = Draw(base)
+    d.text((184, 66), "Passed the Senate", font=font(FONT_B, 36), fill=WHITE)
+    d.text((186, 116), "S. 4035 · voice vote · Nov. 19, 2026", font=font(FONT_R, 17), fill=(253, 186, 116))
+    d.text((186, 144), "next: the House", font=font(FONT_R, 15), fill=(167, 243, 208))
+    items = ["Terrorism", "Assassination", "War", "Military ops", "A person's death"]
+    f = font(FONT_B, 16)
+    x, y = 30, 222
+    for t in items:
+        tw = d.textlength(t, font=f)
+        w = tw + 28
+        if x + w > 612: x, y = 30, y + 50
+        d.rounded_rectangle([x, y, x + w, y + 38], radius=19, fill=(36, 14, 18), outline=(248, 113, 113), width=2)
+        d.text((x + 14, y + 9), t, font=f, fill=(254, 226, 226))
+        d.line([(x + 10, y + 19), (x + w - 10, y + 19)], fill=(248, 113, 113), width=3)
+        x += w + 12
+    d.text((30, 326), "Event contracts the bill would bar on CFTC-registered exchanges", font=font(FONT_R, 13), fill=(203, 213, 225))
+    label_chip(base, "DEATH BETS Act · prediction markets")
+    return base, {"kind":"composite","sources":[
+        {"file":"Seal_of_the_United_States_Senate.svg","license":"CC BY-SA 2.5","url":"https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Senate.svg","credit":"Wikimedia Commons (vectorized U.S. Senate seal)"},
+        {"file":"S.4035 as passed by the Senate, Nov. 19, 2026","license":"Facts cited (U.S. government work)","url":"https://www.govinfo.gov/content/pkg/BILLS-119s4035es/html/BILLS-119s4035es.htm","credit":"U.S. Senate / GovInfo"},
+    ],"note":"Editorial composite for identification; no endorsement by the U.S. Senate implied."}
+
+
 BUILDERS = {
+    "bitcoin-below-59000-near-2026-low-liquidations-nov-2026": thumb_btc_below_59k_2026_low,
+    "senate-passes-death-bets-act-prediction-markets-nov-2026": thumb_death_bets_act,
     "blackrock-ibit-record-541-million-outflow-nov-2026": thumb_ibit_record_outflow,
     "sec-fake-crypto-platforms-37-million-whatsapp-nov-2026": thumb_sec_fake_platforms,
     "bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026": thumb_btc_below_62k_july,

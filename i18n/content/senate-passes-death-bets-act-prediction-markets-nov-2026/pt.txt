@@ -1,0 +1,57 @@
+title: Senado aprova lei DEATH BETS para proibir apostas sobre guerra e morte em mercados de previsão
+page_title: Senado aprova lei DEATH BETS sobre mercados de previsão
+description: O Senado dos EUA aprovou a lei DEATH BETS por votação simbólica em 19 de novembro. Ela proibiria bolsas registradas na CFTC de listar contratos sobre guerra, terrorismo, assassinato, operações militares dos EUA ou a morte de uma pessoa. Falta a Câmara.
+og_description: Mercados de previsão permitem negociar quase qualquer coisa. Na quinta-feira, o Senado votou para deixar guerra, terrorismo, assassinatos e morte fora das bolsas reguladas dos EUA. O que a lei faz, por que surgiu e o que vem agora, em linguagem simples.
+label: Regulação
+summary: O Senado aprovou por votação simbólica em 19 de novembro o S. 4035, a lei DEATH BETS dos senadores Adam Schiff e John Curtis. Ela proibiria bolsas registradas na CFTC de listar contratos de eventos ligados a guerra, terrorismo, assassinato, operações militares dos EUA ou à morte de uma pessoa. Agora vai para a Câmara.
+===
+
+O Senado dos EUA votou para proibir algumas apostas. Na noite de quinta-feira, 19 de novembro, os senadores aprovaram <strong>o S. 4035, a lei DEATH BETS</strong>, por votação simbólica, segundo o [registro do plenário](L3) do Senado. A lei impediria bolsas reguladas pelo governo federal de listar contratos de previsão ligados a guerra, terrorismo, assassinato, operações militares dos EUA ou à morte de uma pessoa.
+
+O projeto foi apresentado em março pelo senador Adam Schiff, democrata da Califórnia, e o senador John Curtis, republicano de Utah, aderiu como coautor em setembro, segundo o [Congress.gov](L1). O gabinete de Schiff disse que é o primeiro projeto de regulação de mercados de previsão aprovado pelo Senado na atual legislatura. Ainda não é lei: a Câmara dos Representantes precisa aprová-lo e o presidente precisa sancioná-lo.
+
+!takeaways
+- O Senado aprovou a lei DEATH BETS por votação simbólica em 19 de novembro de 2026, sem votação nominal registrada.
+- Ela proibiria bolsas registradas na CFTC de listar contratos sobre terrorismo, assassinato, guerra, operações militares dos EUA ou a morte de uma pessoa.
+- A lei não cria novas multas nem penas criminais; a legislação de commodities em vigor e a CFTC fariam a fiscalização, informou a CoinDesk.
+- Ainda precisa de votação na Câmara e da sanção do presidente. O deputado Mike Levin apresentou uma versão na Câmara.
+
+!figure:timeline
+
+## O que são mercados de previsão
+
+Um mercado de previsão permite comprar e vender contratos sobre se algo vai acontecer, como o resultado de uma eleição ou de um jogo. Um contrato normalmente paga US$ 1 se o evento acontecer e nada se não acontecer, então seu preço funciona como a estimativa de probabilidade do público. Nos EUA, plataformas reguladas como a Kalshi operam sob a Commodity Futures Trading Commission (CFTC). A Polymarket, uma das maiores, é uma plataforma baseada em cripto em que as operações são liquidadas na stablecoin USDC.
+
+Esses mercados cresceram rápido. Schiff disse no plenário do Senado que eles já ofereceram apostas sobre coisas como se a missão lunar Artemis II explodiria, segundo um comunicado do seu gabinete.
+
+## O que a lei proibiria
+
+Segundo o [texto aprovado pelo Senado](L2), uma bolsa registrada na CFTC não poderia listar nem compensar um contrato de eventos que "faça referência expressa" a terrorismo, assassinato, guerra ou operações militares das Forças Armadas dos EUA. A CFTC poderia acrescentar "qualquer atividade semelhante" por meio de regra. Uma segunda parte proíbe contratos que, ao serem listados, "se espere razoavelmente que sejam resolvidos principalmente com base na morte de uma pessoa".
+
+Hoje a CFTC já tem poder para bloquear contratos sobre guerra, terrorismo e assassinato se decidir que eles contrariam o interesse público. A lei transformaria essa escolha em uma regra fixa e incluiria os contratos sobre morte, que a lei atual não menciona. A versão final também diz que não afeta outros tipos de contratos de eventos, como os de jogos.
+
+!mid_cta
+
+## Por que isso surgiu agora
+
+Os parlamentares temem que pessoas com informações secretas possam lucrar. Em fevereiro, seis carteiras da Polymarket ganharam cerca de <strong>US$ 1,2 milhão</strong> apostando no momento dos ataques dos EUA ao Irã, segundo a empresa de análise de blockchain Bubblemaps, citada pela [CoinDesk](L4). Não se sabe quem controlava as carteiras. "Esses contratos criam oportunidades enormes para uso de informação privilegiada", disse Schiff na quinta-feira.
+
+A CoinDesk também observou que a Kalshi multou dois traders por negociar com informações confidenciais, e que promotores federais acusaram um boina-verde do Exército dos EUA que teria negociado com seu próprio conhecimento sigiloso de uma operação militar na Venezuela. O senador Curtis disse em um [comunicado](L5): "Ninguém deveria poder apostar em terrorismo, guerra ou na morte de outro ser humano."
+
+!figure:fact
+
+## O que isso significa para você
+
+Para a maioria das pessoas que compram bitcoin ou outras criptos, nada muda. A lei trata de contratos de eventos em bolsas reguladas, não de ter moedas. Se você usa mercados de previsão, é um lembrete de que as regras para eles ainda estão sendo escritas em Washington e de que o que é oferecido hoje pode não ser permitido depois. Se você só quer ter cripto, uma grande corretora regulada como a [Coinbase](REF) é um ponto de partida comum. Trate qualquer operação em mercado de previsão como arriscada e use só dinheiro que você pode perder. Isto não é recomendação de investimento nem orientação jurídica.
+
+## O que acompanhar agora
+
+- Se a Câmara vota o projeto ou a versão do deputado Levin antes do fim do ano.
+- Novas regras da CFTC sobre mercados de previsão, que segundo o gabinete de Schiff o presidente da agência já sinalizou.
+- Como Kalshi, Polymarket e outras plataformas vão reagir.
+
+!soft: Quer saber como a Coinbase protege o dinheiro dos clientes? Leia [a Coinbase é segura para iniciantes?](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

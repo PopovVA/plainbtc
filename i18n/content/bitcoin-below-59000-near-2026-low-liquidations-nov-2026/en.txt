@@ -1,0 +1,59 @@
+title: Bitcoin falls below $59,000 and nears its 2026 low as $1.5 billion in bets are wiped out
+page_title: Bitcoin below $59,000, near its 2026 low
+description: Bitcoin dropped to about $58,005 on Kraken on Friday, less than 0.5% above its 2026 low of $57,740 from July 1, as tech stocks slid and about $1.5 billion in leveraged crypto bets were liquidated.
+og_description: Bitcoin lost $60,000 and then $59,000 on Friday, touching about $58,005 on Kraken, just above its July low. Tech stocks, gold and crypto all fell together. Here is what happened and what it means, in plain English.
+label: Market news
+summary: Bitcoin fell to about $58,005 on Kraken around midday Friday, its lowest price since early July and less than 0.5% above the 2026 low of $57,740, as the Nasdaq slid nearly 4% and about $1.5 billion in leveraged crypto positions were liquidated.
+===
+
+Bitcoin's slide picked up speed on Friday, Nov. 20. The largest cryptocurrency fell below $60,000 in the 9 a.m. hour Central time and kept going, reaching <strong>$58,005</strong> on Kraken in the noon hour, according to PlainBTC's check of Kraken's [public price data](L4). Around 1 p.m. Central time it was trading near $58,650, down more than 5% for the day.
+
+That puts bitcoin within a few hundred dollars of its lowest price of 2026. On Kraken, the low for the year so far is $57,740, set on July 1. Friday's low is less than 0.5% above it. It is also about 41% below bitcoin's 2026 high of about $97,900 on Jan. 14.
+
+!takeaways
+- Bitcoin hit about $58,005 on Kraken on Friday, less than 0.5% above its 2026 low of $57,740 from July 1.
+- About $1.5 billion in leveraged crypto positions were liquidated in 24 hours, CoinDesk reported, citing CoinGlass.
+- The Nasdaq fell about 3.8% and gold about 2%, so crypto was not the only market under pressure.
+- U.S. spot bitcoin ETFs lost a net $582.3 million on Thursday, including a record $541.1 million from BlackRock's IBIT, per Farside Investors.
+
+!figure:chart
+
+## What happened on Friday
+
+The selling started in stocks. Shares of Anthropic, the AI company that went public on Thursday, fell more than 14% on Friday and gave back their debut-day gains, CoinDesk [reported](L1). A popular semiconductor fund (SOXX) dropped about 8% and the Nasdaq about 3.8%, both to their weakest levels since April. Bitcoin miners that have moved into AI data centers fell even harder: Hut 8 lost nearly 15%, and Core Scientific, CleanSpark and Bitdeer each lost more than 13%.
+
+Crypto followed. On Kraken, bitcoin was still near $61,700 at 9 a.m. Central time and dropped to about $59,300 within that hour. Ether fell to about $1,607, down roughly 8% from its opening price of the day, and XRP, Solana and BNB lost 5% to 6%, according to CoinDesk. Even gold, often seen as a safe asset, fell about 2% toward $3,500 an ounce, its lowest since September 2025.
+
+## Leverage made the drop worse
+
+Many traders borrow to make bigger bets on crypto prices. When prices fall fast, exchanges automatically close those positions once the trader's collateral runs out. That is called a liquidation, and it adds more selling at the worst moment. About $1.5 billion in leveraged crypto positions were liquidated over 24 hours, according to CoinGlass data cited by CoinDesk.
+
+!figure:fact
+
+Wall Street's fear gauge, the VIX, pushed toward 32, CoinDesk's [live coverage](L2) noted. Andy Baehr of crypto trading firm GSR called it a "fast market" but added: "Fast markets come and go."
+
+!mid_cta
+
+## Rates, ETFs and fear
+
+Interest rates are a big part of the story. Federal Reserve Governor Christopher Waller floated a half-point rate increase earlier this week. By Friday, traders saw a quarter-point hike at the Fed's Dec. 8-9 meeting as the most likely outcome, CoinDesk said. Higher rates make cash and bonds pay more, which can pull money away from riskier assets like crypto. "The place to hide is cash," said Maxime Seiler, CEO of trading firm STS Digital.
+
+Big funds are also selling. According to [Farside Investors](L3), U.S. spot bitcoin ETFs lost a net $582.3 million on Thursday, Nov. 19. BlackRock's iShares Bitcoin Trust (IBIT) alone lost $541.1 million, its largest one-day outflow since it launched. Friday's figures were not yet available when this article was published.
+
+Investor mood is at rock bottom. The [Crypto Fear & Greed Index](L5) stood at 12 out of 100 on Friday, deep in "extreme fear."
+
+## What it means for beginners
+
+Sharp drops like this are part of owning bitcoin, and no one can reliably say where the bottom is. A price near this year's low can still fall further, and it can also bounce quickly. If you are thinking about buying, many beginners make small purchases spread out over weeks or months instead of buying all at once, and some start on a large regulated exchange such as [Coinbase](REF). Avoid borrowing to buy, and only invest money you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Whether bitcoin holds above its 2026 low of about $57,740 on Kraken.
+- Spot bitcoin ETF flow data for Friday and next week.
+- Fed speeches ahead of the Dec. 8-9 meeting, and whether the stock selloff spreads.
+
+!soft: New to buying bitcoin step by step? Read [How much bitcoin should a beginner buy?](/articles/how-much-bitcoin-should-a-beginner-buy-dca)
+
+!end_cta
+
+!disclosure

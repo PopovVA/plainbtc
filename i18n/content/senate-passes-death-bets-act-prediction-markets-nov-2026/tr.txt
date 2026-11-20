@@ -1,0 +1,57 @@
+title: ABD Senatosu, tahmin piyasalarında savaş ve ölüm bahislerini yasaklayan DEATH BETS Yasası'nı kabul etti
+page_title: Senato, tahmin piyasalarına yönelik DEATH BETS Yasası'nı kabul etti
+description: ABD Senatosu DEATH BETS Yasası'nı 19 Kasım'da sözlü oylamayla kabul etti. Yasa, CFTC'ye kayıtlı borsaların savaş, terörizm, suikast, ABD askeri operasyonları veya bir kişinin ölümüyle ilgili sözleşmeleri listelemesini yasaklayacak. Temsilciler Meclisi'nin de onaylaması gerekiyor.
+og_description: Tahmin piyasalarında neredeyse her şeyin alım satımı yapılabiliyor. Senato perşembe günü savaş, terörizm, suikast ve ölümü ABD'nin düzenlenmiş borsalarından çıkarmak için oy verdi. Yasanın ne yaptığını, neden şimdi gündeme geldiğini ve sırada ne olduğunu sade bir dille anlatıyoruz.
+label: Düzenleme
+summary: Senato, senatörler Adam Schiff ve John Curtis'in hazırladığı S. 4035 DEATH BETS Yasası'nı 19 Kasım'da sözlü oylamayla kabul etti. Yasa, CFTC'ye kayıtlı borsaların savaş, terörizm, suikast, ABD askeri operasyonları veya bir kişinin ölümüne bağlı olay sözleşmelerini listelemesini yasaklayacak. Sıra Temsilciler Meclisi'nde.
+===
+
+ABD Senatosu bazı bahisleri yasaklamak için oy verdi. Senatörler 19 Kasım perşembe akşamı <strong>S. 4035 sayılı DEATH BETS Yasası'nı</strong> sözlü oylamayla kabul etti; bu bilgi Senato'nun [oturum kaydında](L3) yer alıyor. Yasa, federal düzeyde düzenlenen borsaların savaş, terörizm, suikast, ABD askeri operasyonları veya bir kişinin ölümüne bağlı tahmin sözleşmelerini listelemesini engelleyecek.
+
+Tasarıyı mart ayında Kaliforniya'dan Demokrat Senatör Adam Schiff sundu; Utah'tan Cumhuriyetçi Senatör John Curtis ise eylülde ortak sponsor oldu, [Congress.gov](L1) verilerine göre. Schiff'in ofisi, bunun mevcut Kongre döneminde Senato'dan geçen ve tahmin piyasalarını düzenleyen ilk tasarı olduğunu söyledi. Henüz yasalaşmadı: Temsilciler Meclisi'nin de kabul etmesi ve başkanın imzalaması gerekiyor.
+
+!takeaways
+- Senato DEATH BETS Yasası'nı 19 Kasım 2026'da sözlü oylamayla, kayıtlı isim oylaması olmadan kabul etti.
+- Yasa, CFTC'ye kayıtlı borsaların terörizm, suikast, savaş, ABD askeri operasyonları veya bir kişinin ölümüyle ilgili sözleşmeleri listelemesini yasaklayacak.
+- CoinDesk'e göre yasa yeni para veya hapis cezası getirmiyor; mevcut emtia mevzuatı ve CFTC tarafından uygulanacak.
+- Temsilciler Meclisi oylaması ve başkanın imzası hâlâ gerekiyor. Temsilci Mike Levin Meclis'e bir versiyon sundu.
+
+!figure:timeline
+
+## Tahmin piyasaları nedir
+
+Tahmin piyasası, bir seçim sonucu ya da maç skoru gibi bir şeyin olup olmayacağına dair sözleşmelerin alınıp satılmasını sağlar. Bir sözleşme genellikle olay gerçekleşirse 1 dolar, gerçekleşmezse hiçbir şey öder; bu yüzden fiyatı kalabalığın olasılık tahmini gibi çalışır. ABD'de Kalshi gibi düzenlenmiş platformlar Emtia Vadeli İşlemler Ticaret Komisyonu'nun (CFTC) denetiminde faaliyet gösteriyor. En büyüklerden biri olan Polymarket ise işlemlerin USDC stablecoin'i ile uzlaştırıldığı kripto tabanlı bir platform.
+
+Bu piyasalar hızla büyüdü. Ofisinin açıklamasına göre Schiff, Senato kürsüsünde bu piyasalarda Artemis II Ay görevinin patlayıp patlamayacağı gibi konularda bile bahis sunulduğunu söyledi.
+
+## Yasa neyi yasaklayacak
+
+[Senato'nun kabul ettiği metne](L2) göre CFTC'ye kayıtlı bir borsa; terörizm, suikast, savaş veya ABD Silahlı Kuvvetleri'nin askeri operasyonlarına "açıkça atıfta bulunan" bir olay sözleşmesini listeleyemeyecek ya da takasını yapamayacak. CFTC bir kuralla "benzer herhangi bir faaliyeti" listeye ekleyebilecek. İkinci bölüm ise listelendiği anda "esas olarak bir kişinin ölümüne göre sonuçlanması makul olarak beklenen" sözleşmeleri yasaklıyor.
+
+Bugün CFTC, kamu yararına aykırı olduğuna karar verirse savaş, terörizm ve suikast sözleşmelerini zaten engelleyebiliyor. Yasa bu takdir yetkisini kesin bir kurala dönüştürecek ve mevcut kanunda hiç geçmeyen ölüm sözleşmelerini de kapsama alacak. Nihai metin ayrıca oyunlarla ilgili olanlar gibi diğer olay sözleşmesi türlerini etkilemediğini belirtiyor.
+
+!mid_cta
+
+## Neden şimdi gündemde
+
+Yasa koyucular, gizli bilgiye sahip kişilerin bundan kâr elde edebileceğinden endişe ediyor. [CoinDesk](L4)'in aktardığı blokzincir analiz şirketi Bubblemaps'e göre şubat ayında altı Polymarket cüzdanı, ABD'nin İran'a yönelik saldırılarının zamanlamasına bahis oynayarak yaklaşık <strong>1,2 milyon dolar</strong> kazandı. Cüzdanları kimin kontrol ettiği bilinmiyor. Schiff perşembe günü "Bu sözleşmeler içeriden bilgi ticareti için sayısız fırsat yaratıyor" dedi.
+
+CoinDesk ayrıca Kalshi'nin gizli bilgiyle işlem yapan iki trader'a ceza verdiğini ve federal savcıların, Venezuela'daki bir askeri operasyona dair kendi gizli bilgisiyle işlem yaptığı iddia edilen bir ABD Ordusu "yeşil bere" askerini suçladığını hatırlattı. Senatör Curtis bir [açıklamada](L5) şöyle dedi: "Hiç kimse terörizm, savaş ya da başka bir insanın ölümü üzerine bahis oynayabilmemeli."
+
+!figure:fact
+
+## Sizin için ne anlama geliyor
+
+Bitcoin veya başka kripto paralar alan çoğu kişi için hiçbir şey değişmiyor. Yasa, coin sahibi olmayı değil, düzenlenmiş borsalardaki olay sözleşmelerini ilgilendiriyor. Tahmin piyasalarını kullanıyorsanız bu, kuralların Washington'da hâlâ yazıldığını ve bugün sunulan şeylerin ileride yasaklanabileceğini hatırlatıyor. Sadece kripto sahibi olmak istiyorsanız [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsa yaygın bir başlangıç noktası. Tahmin piyasalarındaki her işlemi riskli kabul edin ve yalnızca kaybetmeyi göze alabileceğiniz parayı kullanın. Bu bir yatırım veya hukuki tavsiye değildir.
+
+## Bundan sonra neye bakmalı
+
+- Temsilciler Meclisi'nin tasarıyı ya da Temsilci Levin'in versiyonunu yıl sonundan önce ele alıp almayacağı.
+- Schiff'in ofisine göre kurum başkanının sinyalini verdiği, tahmin piyasalarına yönelik yeni CFTC kuralları.
+- Kalshi, Polymarket ve diğer platformların nasıl tepki vereceği.
+
+!soft: Coinbase'in müşteri fonlarını nasıl koruduğunu mu merak ediyorsunuz? [Coinbase yeni başlayanlar için güvenli mi](/articles/is-coinbase-safe-for-beginners) yazısını okuyun.
+
+!end_cta
+
+!disclosure

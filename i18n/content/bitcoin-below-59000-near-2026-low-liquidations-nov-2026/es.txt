@@ -1,0 +1,59 @@
+title: Bitcoin cae por debajo de 59.000 dólares y se acerca a su mínimo de 2026 mientras se liquidan 1.500 millones en apuestas
+page_title: Bitcoin bajo 59.000 dólares, cerca de su mínimo de 2026
+description: Bitcoin bajó a unos 58.005 dólares en Kraken el viernes, menos de un 0,5% por encima de su mínimo de 2026, 57.740 dólares del 1 de julio, mientras caían las tecnológicas y se liquidaban unos 1.500 millones de dólares en apuestas apalancadas.
+og_description: Bitcoin perdió los 60.000 y luego los 59.000 dólares el viernes y tocó unos 58.005 dólares en Kraken, justo por encima de su mínimo de julio. Tecnológicas, oro y cripto cayeron a la vez. Te contamos qué pasó y qué significa, en palabras sencillas.
+label: Mercado
+summary: Bitcoin cayó a unos 58.005 dólares en Kraken hacia el mediodía del viernes, su precio más bajo desde principios de julio y menos de un 0,5% por encima del mínimo de 2026, 57.740 dólares, mientras el Nasdaq se hundía casi un 4% y se liquidaban unos 1.500 millones de dólares en posiciones apalancadas.
+===
+
+La caída de bitcoin se aceleró el viernes 20 de noviembre. La mayor criptomoneda perdió los 60.000 dólares en la hora de las 9 de la mañana, hora del centro de EE. UU., y siguió bajando hasta <strong>58.005 dólares</strong> en Kraken en la hora del mediodía, según la revisión de PlainBTC de los [datos públicos de precios](L4) de Kraken. Hacia la 1 de la tarde cotizaba cerca de 58.650 dólares, con una caída de más del 5% en el día.
+
+Eso deja a bitcoin a unos cientos de dólares de su precio más bajo de 2026. En Kraken, el mínimo del año hasta ahora es de 57.740 dólares, marcado el 1 de julio. El mínimo del viernes está menos de un 0,5% por encima. También está alrededor de un 41% por debajo del máximo de 2026, unos 97.900 dólares el 14 de enero.
+
+!takeaways
+- Bitcoin tocó unos 58.005 dólares en Kraken el viernes, menos de un 0,5% por encima de su mínimo de 2026, 57.740 dólares del 1 de julio.
+- Se liquidaron unos 1.500 millones de dólares en posiciones cripto apalancadas en 24 horas, informó CoinDesk citando a CoinGlass.
+- El Nasdaq cayó cerca de un 3,8% y el oro alrededor de un 2%, así que la cripto no fue el único mercado bajo presión.
+- Los ETF de bitcoin al contado de EE. UU. perdieron en neto 582,3 millones de dólares el jueves, incluido un récord de 541,1 millones del IBIT de BlackRock, según Farside Investors.
+
+!figure:chart
+
+## Qué pasó el viernes
+
+La venta empezó en la bolsa. Las acciones de Anthropic, la empresa de IA que salió a bolsa el jueves, cayeron más de un 14% el viernes y devolvieron lo ganado en su debut, [informó](L1) CoinDesk. Un conocido fondo de semiconductores (SOXX) bajó cerca de un 8% y el Nasdaq alrededor de un 3,8%, ambos a sus niveles más débiles desde abril. Las mineras de bitcoin que se han pasado a los centros de datos de IA cayeron aún más: Hut 8 perdió casi un 15%, y Core Scientific, CleanSpark y Bitdeer más de un 13% cada una.
+
+La cripto siguió el mismo camino. En Kraken, bitcoin seguía cerca de 61.700 dólares a las 9 de la mañana, hora del centro, y bajó a unos 59.300 en esa misma hora. Ether cayó a unos 1.607 dólares, cerca de un 8% menos que su precio de apertura del día, y XRP, Solana y BNB perdieron entre un 5% y un 6%, según CoinDesk. Incluso el oro, que muchos ven como un activo seguro, bajó cerca de un 2% hacia 3.500 dólares la onza, su nivel más bajo desde septiembre de 2025.
+
+## El apalancamiento empeoró la caída
+
+Muchos traders piden prestado para hacer apuestas más grandes sobre los precios cripto. Cuando los precios caen rápido, los exchanges cierran esas posiciones de forma automática en cuanto se agota la garantía del trader. Eso se llama liquidación, y suma más ventas en el peor momento. Se liquidaron unos 1.500 millones de dólares en posiciones cripto apalancadas en 24 horas, según datos de CoinGlass citados por CoinDesk.
+
+!figure:fact
+
+El indicador del miedo de Wall Street, el VIX, se acercó a 32, señaló la [cobertura en directo](L2) de CoinDesk. Andy Baehr, de la firma de trading cripto GSR, lo llamó un "mercado rápido", pero añadió: "Los mercados rápidos vienen y van".
+
+!mid_cta
+
+## Tipos de interés, ETF y miedo
+
+Los tipos de interés son una parte importante de la historia. El gobernador de la Reserva Federal Christopher Waller planteó a principios de semana una subida de medio punto. El viernes, los traders veían como lo más probable una subida de un cuarto de punto en la reunión de la Fed del 8 y 9 de diciembre, dijo CoinDesk. Unos tipos más altos hacen que el efectivo y los bonos paguen más, lo que puede alejar dinero de activos más arriesgados como la cripto. "El lugar para refugiarse es el efectivo", dijo Maxime Seiler, CEO de la firma de trading STS Digital.
+
+Los grandes fondos también están vendiendo. Según [Farside Investors](L3), los ETF de bitcoin al contado de EE. UU. perdieron en neto 582,3 millones de dólares el jueves 19 de noviembre. Solo el iShares Bitcoin Trust (IBIT) de BlackRock perdió 541,1 millones, su mayor salida en un día desde su lanzamiento. Las cifras del viernes aún no estaban disponibles al publicar este artículo.
+
+El ánimo de los inversores está por los suelos. El [índice Crypto Fear & Greed](L5) marcaba 12 sobre 100 el viernes, de lleno en "miedo extremo".
+
+## Qué significa para los principiantes
+
+Caídas bruscas como esta son parte de tener bitcoin, y nadie puede decir con seguridad dónde está el fondo. Un precio cerca del mínimo del año puede bajar más, y también puede rebotar rápido. Si estás pensando en comprar, muchos principiantes hacen compras pequeñas repartidas en semanas o meses en lugar de comprar todo de una vez, y algunos empiezan en un exchange grande y regulado como [Coinbase](REF). Evita pedir prestado para comprar e invierte solo dinero que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Si bitcoin se mantiene por encima de su mínimo de 2026, unos 57.740 dólares en Kraken.
+- Los datos de flujos de los ETF de bitcoin al contado del viernes y de la próxima semana.
+- Los discursos de la Fed antes de la reunión del 8 y 9 de diciembre, y si la caída de la bolsa se extiende.
+
+!soft: ¿Empiezas a comprar bitcoin paso a paso? Lee [¿Cuánto bitcoin debería comprar un principiante?](/articles/how-much-bitcoin-should-a-beginner-buy-dca)
+
+!end_cta
+
+!disclosure

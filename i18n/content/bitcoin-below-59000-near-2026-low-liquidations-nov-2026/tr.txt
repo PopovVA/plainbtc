@@ -1,0 +1,59 @@
+title: Bitcoin 59.000 doların altına indi ve 2026 dibine yaklaştı, 1,5 milyar dolarlık bahis silindi
+page_title: Bitcoin 59.000 doların altında, 2026 dibine yakın
+description: Bitcoin cuma günü Kraken'de yaklaşık 58.005 dolara geriledi; bu, 1 Temmuz'daki 57.740 dolarlık 2026 dibinin yüzde 0,5'ten az üzerinde. Teknoloji hisseleri düşerken yaklaşık 1,5 milyar dolarlık kaldıraçlı kripto bahsi tasfiye edildi.
+og_description: Bitcoin cuma günü önce 60.000, sonra 59.000 doları kaybetti ve Kraken'de yaklaşık 58.005 dolara, temmuz dibinin hemen üzerine indi. Teknoloji hisseleri, altın ve kripto birlikte düştü. Ne olduğunu ve ne anlama geldiğini sade bir dille anlatıyoruz.
+label: Piyasa
+summary: Bitcoin cuma öğle saatlerinde Kraken'de yaklaşık 58.005 dolara indi. Bu, temmuz başından bu yana en düşük fiyat ve 57.740 dolarlık 2026 dibinin yüzde 0,5'ten az üzerinde. Nasdaq yaklaşık yüzde 4 düşerken yaklaşık 1,5 milyar dolarlık kaldıraçlı pozisyon tasfiye edildi.
+===
+
+Bitcoin'deki düşüş 20 Kasım cuma günü hız kazandı. En büyük kripto para, ABD Merkez saatiyle sabah 9'da başlayan saatte 60.000 doların altına indi ve düşmeye devam ederek öğle saatinde Kraken'de <strong>58.005 dolara</strong> kadar geriledi. Bu, PlainBTC'nin Kraken'in [herkese açık fiyat verilerini](L4) incelemesine dayanıyor. Merkez saatiyle 13.00 civarında yaklaşık 58.650 dolardan işlem görüyordu; günlük kayıp yüzde 5'in üzerindeydi.
+
+Bu, bitcoin'i 2026'nın en düşük fiyatına birkaç yüz dolar mesafeye getiriyor. Kraken'de yılın şimdiye kadarki dibi 1 Temmuz'da görülen 57.740 dolar. Cumanın dibi bunun yüzde 0,5'ten az üzerinde. Ayrıca 14 Ocak'taki yaklaşık 97.900 dolarlık 2026 zirvesinin yaklaşık yüzde 41 altında.
+
+!takeaways
+- Bitcoin cuma günü Kraken'de yaklaşık 58.005 dolara indi; bu, 1 Temmuz'daki 57.740 dolarlık 2026 dibinin yüzde 0,5'ten az üzerinde.
+- CoinDesk'in CoinGlass'a dayanarak aktardığına göre 24 saatte yaklaşık 1,5 milyar dolarlık kaldıraçlı kripto pozisyonu tasfiye edildi.
+- Nasdaq yaklaşık yüzde 3,8, altın yaklaşık yüzde 2 düştü; yani baskı altındaki tek piyasa kripto değildi.
+- Farside Investors'a göre ABD spot bitcoin ETF'lerinden perşembe günü net 582,3 milyon dolar çıktı; bunun rekor 541,1 milyon doları BlackRock'ın IBIT fonundan.
+
+!figure:chart
+
+## Cuma günü ne oldu
+
+Satış borsada başladı. Perşembe günü halka arz edilen yapay zekâ şirketi Anthropic'in hisseleri cuma günü yüzde 14'ten fazla düştü ve ilk işlem gününün kazançlarını geri verdi, [diye bildirdi](L1) CoinDesk. Popüler bir yarı iletken fonu (SOXX) yaklaşık yüzde 8, Nasdaq ise yaklaşık yüzde 3,8 düştü; ikisi de nisandan bu yana en zayıf seviyelerine indi. Yapay zekâ veri merkezlerine yönelen bitcoin madencileri daha da sert düştü: Hut 8 yaklaşık yüzde 15, Core Scientific, CleanSpark ve Bitdeer ise yüzde 13'ün üzerinde değer kaybetti.
+
+Kripto da aynı yolu izledi. Kraken'de bitcoin Merkez saatiyle sabah 9'da hâlâ 61.700 dolar civarındaydı ve aynı saat içinde yaklaşık 59.300 dolara indi. CoinDesk'e göre ether yaklaşık 1.607 dolara, günün açılış fiyatının yaklaşık yüzde 8 altına geriledi; XRP, Solana ve BNB yüzde 5 ile 6 arasında kaybetti. Çoğu zaman güvenli liman olarak görülen altın bile yaklaşık yüzde 2 düşerek ons başına 3.500 dolara yaklaştı; bu, Eylül 2025'ten bu yana en düşük seviye.
+
+## Kaldıraç düşüşü derinleştirdi
+
+Pek çok trader, kripto fiyatlarına daha büyük bahisler açmak için borç alıyor. Fiyatlar hızla düştüğünde borsalar, trader'ın teminatı biter bitmez bu pozisyonları otomatik olarak kapatıyor. Buna tasfiye (likidasyon) deniyor ve en kötü anda ek satış baskısı yaratıyor. CoinDesk'in aktardığı CoinGlass verilerine göre 24 saatte yaklaşık 1,5 milyar dolarlık kaldıraçlı kripto pozisyonu tasfiye edildi.
+
+!figure:fact
+
+CoinDesk'in [canlı yayınına](L2) göre Wall Street'in korku göstergesi VIX 32'ye yaklaştı. Kripto alım satım şirketi GSR'dan Andy Baehr bunu "hızlı piyasa" olarak nitelendirdi ama ekledi: "Hızlı piyasalar gelir ve geçer."
+
+!mid_cta
+
+## Faizler, ETF'ler ve korku
+
+Faizler hikâyenin önemli bir parçası. Fed Yönetim Kurulu üyesi Christopher Waller bu hafta başında yarım puanlık bir faiz artışını gündeme getirdi. CoinDesk'e göre cuma günü trader'lar, Fed'in 8-9 Aralık toplantısında çeyrek puanlık artışı en olası sonuç olarak görüyordu. Yüksek faizler nakit ve tahvillerin getirisini artırır; bu da parayı kripto gibi daha riskli varlıklardan uzaklaştırabilir. Alım satım şirketi STS Digital'in CEO'su Maxime Seiler, "Saklanılacak yer nakit" dedi.
+
+Büyük fonlar da satıyor. [Farside Investors](L3) verilerine göre ABD spot bitcoin ETF'lerinden 19 Kasım perşembe günü net 582,3 milyon dolar çıktı. Yalnızca BlackRock'ın iShares Bitcoin Trust (IBIT) fonu 541,1 milyon dolar kaybetti; bu, fonun kuruluşundan bu yana en büyük günlük çıkışı. Bu yazı yayımlandığında cuma rakamları henüz açıklanmamıştı.
+
+Yatırımcı moralinin dibi görüldü. [Crypto Fear & Greed Endeksi](L5) cuma günü 100 üzerinden 12'deydi, yani tam "aşırı korku" bölgesinde.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Bu tür sert düşüşler bitcoin sahibi olmanın bir parçası ve kimse dibin nerede olduğunu güvenle söyleyemez. Yılın dibine yakın bir fiyat daha da düşebilir, hızla toparlanabilir de. Almayı düşünüyorsanız, pek çok yeni başlayan her şeyi tek seferde almak yerine haftalara veya aylara yayılmış küçük alımlar yapıyor; bazıları da [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsada başlıyor. Borç alarak yatırım yapmayın ve yalnızca kaybetmeyi göze alabileceğiniz parayı yatırın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Bitcoin'in Kraken'de yaklaşık 57.740 dolarlık 2026 dibinin üzerinde kalıp kalmadığı.
+- Cuma ve gelecek haftaya ait spot bitcoin ETF akış verileri.
+- 8-9 Aralık toplantısı öncesindeki Fed konuşmaları ve borsadaki satışın yayılıp yayılmadığı.
+
+!soft: Bitcoini adım adım almaya mı başlıyorsunuz? [Yeni başlayan biri ne kadar bitcoin almalı?](/articles/how-much-bitcoin-should-a-beginner-buy-dca) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

@@ -4293,7 +4293,114 @@ def build_sec_fake_platforms():
     ]
 
 
+
+def build_btc_below_59k_2026_low():
+    slug = "bitcoin-below-59000-near-2026-low-liquidations-nov-2026"
+    d = OUT / slug
+    # Kraken XBTUSD hourly closes, Nov 18 00:00 UTC to Nov 20 19:00 UTC (1 p.m. CST). Nov 20 low $58,005.00 (18:00 UTC hour).
+    # 2026 low on Kraken daily candles: $57,740.0 on Jul 1, 2026.
+    xs, ys = fetch_kraken_hourly(1794960000, 1795201200, pair="XBTUSD")
+    chart = make_line_chart(
+        d / "chart-btc-hourly-nov-18-20",
+        xs, ys,
+        title="Bitcoin hourly price, Nov. 18-20, 2026 (Kraken, UTC)",
+        hline=57740.0,
+        hlabel="2026 low on Kraken: $57,740 (July 1)",
+        date_fmt="%b %d, %H:00",
+    )
+    fact = make_fact_card(
+        d / "fact-1-5-billion-liquidations",
+        "Crypto liquidations, 24 hours to Nov. 20, 2026",
+        "$1.5 billion",
+        "Leveraged crypto positions closed out automatically as prices fell, according to CoinGlass data.",
+        footer="CoinGlass data via CoinDesk, Nov. 20, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's hourly price on Kraken from Nov. 18 to Nov. 20, 2026, drifting between about $61,000 and $65,000 and then dropping below $59,000 on Nov. 20, close to a dashed line at the 2026 low of $57,740 from July 1", {
+            "es": "Gráfico de líneas del precio horario de bitcoin en Kraken del 18 al 20 de noviembre de 2026: oscila entre unos 61.000 y 65.000 dólares y el 20 de noviembre cae por debajo de 59.000, cerca de una línea discontinua en el mínimo de 2026, 57.740 dólares, del 1 de julio",
+            "pt": "Gráfico de linha do preço horário do bitcoin na Kraken de 18 a 20 de novembro de 2026: oscila entre cerca de US$ 61.000 e US$ 65.000 e, em 20 de novembro, cai abaixo de US$ 59.000, perto de uma linha tracejada na mínima de 2026, US$ 57.740, de 1º de julho",
+            "fr": "Courbe du cours horaire du bitcoin sur Kraken du 18 au 20 novembre 2026 : il évolue entre environ 61 000 et 65 000 dollars, puis passe sous 59 000 dollars le 20 novembre, près d'une ligne pointillée au plus bas de 2026, 57 740 dollars, du 1er juillet",
+            "de": "Liniendiagramm des stündlichen Bitcoin-Kurses bei Kraken vom 18. bis 20. November 2026: Seitwärtsbewegung zwischen rund 61.000 und 65.000 $, dann am 20. November Fall unter 59.000 $, nahe einer gestrichelten Linie beim Jahrestief 2026 von 57.740 $ vom 1. Juli",
+            "ru": "Линейный график почасовой цены биткоина на Kraken с 18 по 20 ноября 2026 года: колебания примерно между $61 000 и $65 000, затем 20 ноября падение ниже $59 000, близко к пунктирной линии минимума 2026 года — $57 740 от 1 июля",
+            "tr": "Bitcoin'in 18-20 Kasım 2026'da Kraken'deki saatlik fiyatının çizgi grafiği: yaklaşık 61.000 $ ile 65.000 $ arasında dolaşıyor, ardından 20 Kasım'da 59.000 $'ın altına iniyor; kesikli çizgi 1 Temmuz'daki 57.740 $'lık 2026 dibini gösteriyor",
+            "id": "Grafik garis harga bitcoin per jam di Kraken pada 18 hingga 20 November 2026: bergerak di kisaran US$61.000 hingga US$65.000, lalu pada 20 November turun di bawah US$59.000, dekat garis putus-putus di level terendah 2026 sebesar US$57.740 pada 1 Juli",
+            "ja": "2026年11月18〜20日のKrakenにおけるビットコイン1時間足の折れ線グラフ：約6万1000〜6万5000ドルで推移した後、11月20日に5万9000ドルを割り込み、7月1日の2026年安値5万7740ドルを示す破線に接近",
+            "ko": "2026년 11월 18~20일 크라켄 비트코인 시간별 가격 선 차트: 약 6만1000~6만5000달러에서 움직이다 11월 20일 5만9000달러 아래로 떨어져, 7월 1일 기록한 2026년 저점 5만7740달러를 나타내는 점선에 근접",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken BTC/USD hourly closes")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: about $1.5 billion in leveraged crypto positions were liquidated in the 24 hours to Nov. 20, 2026, according to CoinGlass data cited by CoinDesk", {
+            "es": "Tarjeta: unos 1.500 millones de dólares en posiciones apalancadas de cripto se liquidaron en las 24 horas hasta el 20 de noviembre de 2026, según datos de CoinGlass citados por CoinDesk",
+            "pt": "Cartão: cerca de US$ 1,5 bilhão em posições alavancadas de cripto foram liquidadas nas 24 horas até 20 de novembro de 2026, segundo dados da CoinGlass citados pela CoinDesk",
+            "fr": "Carte : environ 1,5 milliard de dollars de positions crypto à effet de levier ont été liquidées sur les 24 heures précédant le 20 novembre 2026, selon les données de CoinGlass citées par CoinDesk",
+            "de": "Faktenkarte: In den 24 Stunden bis zum 20. November 2026 wurden gehebelte Krypto-Positionen im Wert von rund 1,5 Mrd. $ liquidiert, laut CoinGlass-Daten, zitiert von CoinDesk",
+            "ru": "Карточка: за 24 часа до 20 ноября 2026 года было ликвидировано около $1,5 млрд в криптопозициях с плечом, по данным CoinGlass, которые приводит CoinDesk",
+            "tr": "Kart: CoinDesk'in aktardığı CoinGlass verilerine göre 20 Kasım 2026'ya kadarki 24 saatte yaklaşık 1,5 milyar $'lık kaldıraçlı kripto pozisyonu tasfiye edildi",
+            "id": "Kartu: sekitar US$1,5 miliar posisi kripto berleverage dilikuidasi dalam 24 jam hingga 20 November 2026, menurut data CoinGlass yang dikutip CoinDesk",
+            "ja": "カード：CoinDeskが引用したCoinGlassのデータによると、2026年11月20日までの24時間に約15億ドル相当のレバレッジ付き暗号資産ポジションが強制清算された",
+            "ko": "카드: 코인데스크가 인용한 코인글래스 자료에 따르면 2026년 11월 20일까지 24시간 동안 약 15억 달러 규모의 레버리지 암호화폐 포지션이 강제 청산됐다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="CoinGlass via CoinDesk")},
+    ]
+
+
+def build_death_bets_act():
+    slug = "senate-passes-death-bets-act-prediction-markets-nov-2026"
+    d = OUT / slug
+    # Congress.gov S.4035 actions: introduced Mar 10, 2026; Curtis cosponsor Sep 30, 2026; passed Senate by voice vote Nov 19, 2026.
+    tl = make_timeline_card(
+        d / "timeline-death-bets-act",
+        "S. 4035, the DEATH BETS Act",
+        [
+            ("Mar. 10", "Sen. Schiff introduces the bill", (96, 165, 250)),
+            ("Sep. 30", "Sen. Curtis signs on as cosponsor", (96, 165, 250)),
+            ("Nov. 19", "Passes the Senate by voice vote", GREEN),
+            ("Next", "House vote, then the president's signature", ORANGE),
+        ],
+        footer="Congress.gov · U.S. Senate floor log, 2026",
+        margin=190, wrap_w=240,
+    )
+    fact = make_fact_card(
+        d / "fact-1-2-million-polymarket-iran-bets",
+        "Why insider trading worries lawmakers",
+        "$1.2 million",
+        "Made by six Polymarket wallets betting on the timing of U.S. strikes on Iran in February 2026, per Bubblemaps.",
+        footer="Bubblemaps via CoinDesk, Nov. 20, 2026",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "timeline",
+         "alt": alts("Timeline of S. 4035, the DEATH BETS Act: introduced by Sen. Schiff on March 10, 2026, Sen. Curtis signed on as cosponsor on Sept. 30, passed the Senate by voice vote on Nov. 19; next it needs a House vote and the president's signature", {
+            "es": "Cronología del S. 4035, la ley DEATH BETS: presentada por el senador Schiff el 10 de marzo de 2026, el senador Curtis se sumó como copatrocinador el 30 de septiembre y el Senado la aprobó por votación oral el 19 de noviembre; ahora necesita un voto de la Cámara de Representantes y la firma del presidente",
+            "pt": "Linha do tempo do S. 4035, a lei DEATH BETS: apresentada pelo senador Schiff em 10 de março de 2026, o senador Curtis aderiu como coautor em 30 de setembro e o Senado a aprovou por votação simbólica em 19 de novembro; agora precisa de votação na Câmara e da sanção do presidente",
+            "fr": "Chronologie du S. 4035, le DEATH BETS Act : déposé par le sénateur Schiff le 10 mars 2026, le sénateur Curtis s'y est associé comme coparrain le 30 septembre, adopté par le Sénat par vote oral le 19 novembre ; il lui faut encore un vote de la Chambre et la signature du président",
+            "de": "Zeitleiste zu S. 4035, dem DEATH BETS Act: am 10. März 2026 von Senator Schiff eingebracht, Senator Curtis wurde am 30. September Mitunterstützer, am 19. November per Stimmabstimmung vom Senat verabschiedet; als Nächstes braucht es ein Votum des Repräsentantenhauses und die Unterschrift des Präsidenten",
+            "ru": "Хронология законопроекта S. 4035 (DEATH BETS Act): внесен сенатором Шиффом 10 марта 2026 года, сенатор Кертис стал соавтором 30 сентября, Сенат принял его голосованием «с голоса» 19 ноября; дальше нужны голосование в Палате представителей и подпись президента",
+            "tr": "S. 4035 DEATH BETS Yasası'nın zaman çizelgesi: Senatör Schiff 10 Mart 2026'da sundu, Senatör Curtis 30 Eylül'de ortak sponsor oldu, Senato 19 Kasım'da sözlü oylamayla kabul etti; sırada Temsilciler Meclisi oylaması ve başkanın imzası var",
+            "id": "Linimasa S. 4035, DEATH BETS Act: diajukan Senator Schiff pada 10 Maret 2026, Senator Curtis bergabung sebagai pendukung bersama pada 30 September, disahkan Senat lewat pemungutan suara lisan pada 19 November; berikutnya perlu pemungutan suara DPR dan tanda tangan presiden",
+            "ja": "S. 4035（DEATH BETS法案）の年表：2026年3月10日にシフ上院議員が提出、9月30日にカーティス上院議員が共同提案者に加わり、11月19日に上院が発声投票で可決。今後は下院での採決と大統領の署名が必要",
+            "ko": "S. 4035(DEATH BETS 법안) 연표: 2026년 3월 10일 시프 상원의원이 발의, 9월 30일 커티스 상원의원이 공동 발의자로 합류, 11월 19일 상원이 구두 표결로 통과. 다음은 하원 표결과 대통령 서명",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Congress.gov, U.S. Senate floor log")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: six Polymarket wallets made about $1.2 million betting on the timing of U.S. strikes on Iran in February 2026, according to Bubblemaps as cited by CoinDesk", {
+            "es": "Tarjeta: seis billeteras de Polymarket ganaron unos 1,2 millones de dólares apostando sobre el momento de los ataques de EE. UU. contra Irán en febrero de 2026, según Bubblemaps citado por CoinDesk",
+            "pt": "Cartão: seis carteiras da Polymarket ganharam cerca de US$ 1,2 milhão apostando no momento dos ataques dos EUA ao Irã em fevereiro de 2026, segundo a Bubblemaps citada pela CoinDesk",
+            "fr": "Carte : six portefeuilles Polymarket ont gagné environ 1,2 million de dollars en pariant sur la date des frappes américaines contre l'Iran en février 2026, selon Bubblemaps cité par CoinDesk",
+            "de": "Faktenkarte: Sechs Polymarket-Wallets verdienten rund 1,2 Mio. $ mit Wetten auf den Zeitpunkt der US-Angriffe auf Iran im Februar 2026, laut Bubblemaps, zitiert von CoinDesk",
+            "ru": "Карточка: шесть кошельков на Polymarket заработали около $1,2 млн на ставках о сроках ударов США по Ирану в феврале 2026 года, по данным Bubblemaps, которые приводит CoinDesk",
+            "tr": "Kart: CoinDesk'in aktardığı Bubblemaps verilerine göre altı Polymarket cüzdanı, Şubat 2026'da ABD'nin İran'a yönelik saldırılarının zamanlamasına bahis oynayarak yaklaşık 1,2 milyon $ kazandı",
+            "id": "Kartu: enam dompet Polymarket meraup sekitar US$1,2 juta dari taruhan soal waktu serangan AS ke Iran pada Februari 2026, menurut Bubblemaps yang dikutip CoinDesk",
+            "ja": "カード：CoinDeskが引用したBubblemapsによると、Polymarketの6つのウォレットが2026年2月の米国によるイラン攻撃のタイミングに賭けて約120万ドルの利益を得た",
+            "ko": "카드: 코인데스크가 인용한 버블맵스에 따르면 폴리마켓 지갑 6개가 2026년 2월 미국의 이란 공습 시점에 베팅해 약 120만 달러를 벌었다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Bubblemaps via CoinDesk")},
+    ]
+
+
 BUILDERS = {
+    "bitcoin-below-59000-near-2026-low-liquidations-nov-2026": "btc59k2026",
+    "senate-passes-death-bets-act-prediction-markets-nov-2026": "deathbets",
     "blackrock-ibit-record-541-million-outflow-nov-2026": "ibitrec",
     "sec-fake-crypto-platforms-37-million-whatsapp-nov-2026": "secfake",
     "bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026": "btc62kjul",
@@ -4370,7 +4477,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "ibitrec":
+    if key == "btc59k2026":
+        figs = build_btc_below_59k_2026_low()
+    elif key == "deathbets":
+        figs = build_death_bets_act()
+    elif key == "ibitrec":
         figs = build_ibit_record_outflow()
     elif key == "secfake":
         figs = build_sec_fake_platforms()

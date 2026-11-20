@@ -1,0 +1,21 @@
+{
+ "slug": "bitcoin-below-59000-near-2026-low-liquidations-nov-2026",
+ "date": "2026-11-20",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "blackrock-ibit-record-541-million-outflow-nov-2026",
+  "bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026",
+  "fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026",
+  "crypto-fear-greed-index-10-extreme-fear-nov-2026",
+  "how-much-bitcoin-should-a-beginner-buy-dca"
+ ],
+ "sources": [
+  {"url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play", "title": "CoinDesk: Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play", "date": "Nov 20, 2026"},
+  {"url": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut", "title": "CoinDesk: Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut", "date": "Nov 20, 2026"},
+  {"url": "https://farside.co.uk/btc/", "title": "Farside Investors: Bitcoin ETF flow data", "date": "Nov 20, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: public BTC/USD and ETH/USD price data (OHLC)", "date": "Nov 20, 2026"},
+  {"url": "https://alternative.me/crypto/fear-and-greed-index/", "title": "Alternative.me: Crypto Fear & Greed Index", "date": "Nov 20, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

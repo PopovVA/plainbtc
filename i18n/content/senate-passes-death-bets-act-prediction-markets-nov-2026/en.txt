@@ -1,0 +1,57 @@
+title: Senate passes DEATH BETS Act to ban prediction market bets on war and death
+page_title: Senate passes DEATH BETS Act on prediction markets
+description: The U.S. Senate passed the DEATH BETS Act by voice vote on Nov. 19. It would bar CFTC-registered exchanges from listing contracts on war, terrorism, assassination, U.S. military operations or a person's death. The House must still act.
+og_description: Prediction markets let people trade on almost anything. On Thursday the Senate voted to put war, terrorism, assassination and death off-limits on regulated U.S. exchanges. What the bill does, why it came up, and what happens next, in plain English.
+label: Regulation
+summary: The Senate passed S. 4035, the DEATH BETS Act from Sens. Adam Schiff and John Curtis, by voice vote on Nov. 19. It would ban CFTC-registered exchanges from listing event contracts tied to war, terrorism, assassination, U.S. military operations or an individual's death. It now goes to the House.
+===
+
+The U.S. Senate has voted to put some bets off-limits. On Thursday evening, Nov. 19, senators passed <strong>S. 4035, the DEATH BETS Act</strong>, by voice vote, according to the Senate's [floor log](L3). The bill would stop federally regulated exchanges from listing prediction contracts tied to war, terrorism, assassination, U.S. military operations or a person's death.
+
+The bill was introduced in March by Sen. Adam Schiff, a California Democrat, and Sen. John Curtis, a Utah Republican, signed on as a cosponsor in September, according to [Congress.gov](L1). Schiff's office said it is the first bill regulating prediction markets to pass the Senate in the current Congress. It is not law yet: the House of Representatives still has to pass it, and the president has to sign it.
+
+!takeaways
+- The Senate passed the DEATH BETS Act by voice vote on Nov. 19, 2026, with no recorded roll call.
+- It would ban CFTC-registered exchanges from listing contracts on terrorism, assassination, war, U.S. military operations or an individual's death.
+- The bill adds no new fines or criminal penalties; existing commodities law and the CFTC would enforce it, CoinDesk reported.
+- It still needs a House vote and the president's signature. Rep. Mike Levin has introduced a House version.
+
+!figure:timeline
+
+## What prediction markets are
+
+A prediction market lets people buy and sell contracts on whether something will happen, such as an election result or a sports score. A contract usually pays $1 if the event happens and nothing if it does not, so its price works like the crowd's estimate of the odds. In the U.S., regulated venues such as Kalshi operate under the Commodity Futures Trading Commission (CFTC). Polymarket, one of the biggest, is a crypto-based platform where trades settle in the USDC stablecoin.
+
+These markets have grown fast. Schiff said on the Senate floor that they have offered wagers on things like whether the Artemis II moon mission would explode, according to a statement from his office.
+
+## What the bill would ban
+
+According to the [text passed by the Senate](L2), a CFTC-registered exchange could not list or clear an event contract that "expressly references" terrorism, assassination, war or U.S. Armed Forces military operations. The CFTC could add "any similar activity" by rule. A second part bans contracts that, when listed, are "reasonably expected to resolve principally based on a death of an individual."
+
+Today the CFTC already has the power to block war, terrorism and assassination contracts if it decides they are against the public interest. The bill would turn that choice into a flat rule, and death contracts, which current law does not mention, would be added. The final version also says it does not affect other types of event contracts, such as those on games.
+
+!mid_cta
+
+## Why it came up now
+
+Lawmakers worry that people with secret information could profit. In February, six Polymarket wallets made about <strong>$1.2 million</strong> betting on the timing of U.S. strikes against Iran, according to blockchain analytics firm Bubblemaps, as cited by [CoinDesk](L4). Who controlled the wallets is not known. "These contracts create rampant opportunities for insider trading," Schiff said on Thursday.
+
+CoinDesk also noted that Kalshi has fined two traders for trading on confidential information, and that federal prosecutors charged a U.S. Army Green Beret who allegedly traded on his own classified knowledge of a military operation in Venezuela. Sen. Curtis said in a [statement](L5): "No one should be able to wager on terrorism, war, or the death of another human being."
+
+!figure:fact
+
+## What it means for you
+
+For most people who buy bitcoin or other crypto, nothing changes. The bill is about event contracts on regulated exchanges, not about owning coins. If you use prediction markets, it is a reminder that the rules for them are still being written in Washington, and that what is offered today may not be allowed later. If you simply want to own crypto, a large regulated exchange such as [Coinbase](REF) is one common place to start. Treat any prediction market trade as risky, and only use money you can afford to lose. This is not investment or legal advice.
+
+## What to watch next
+
+- Whether the House takes up the bill or Rep. Levin's version before the year ends.
+- Any new CFTC rules on prediction markets, which Schiff's office said the agency's chair has signaled.
+- How Kalshi, Polymarket and other platforms respond.
+
+!soft: New to crypto safety basics? Read [Is Coinbase safe for beginners?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

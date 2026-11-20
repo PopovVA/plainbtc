@@ -1,0 +1,57 @@
+title: Le Sénat adopte le DEATH BETS Act pour interdire les paris sur la guerre et la mort sur les marchés prédictifs
+page_title: Le Sénat adopte le DEATH BETS Act sur les marchés prédictifs
+description: Le Sénat américain a adopté le DEATH BETS Act par vote oral le 19 novembre. Le texte interdirait aux plateformes enregistrées auprès de la CFTC de coter des contrats sur la guerre, le terrorisme, les assassinats, les opérations militaires américaines ou la mort d'une personne. La Chambre doit encore se prononcer.
+og_description: Les marchés prédictifs permettent de parier sur presque tout. Jeudi, le Sénat a voté pour exclure la guerre, le terrorisme, les assassinats et la mort des plateformes régulées américaines. Ce que prévoit le texte, pourquoi il arrive maintenant et la suite, en termes simples.
+label: Réglementation
+summary: Le Sénat a adopté par vote oral le 19 novembre le S. 4035, le DEATH BETS Act des sénateurs Adam Schiff et John Curtis. Il interdirait aux plateformes enregistrées auprès de la CFTC de coter des contrats d'événements liés à la guerre, au terrorisme, aux assassinats, aux opérations militaires américaines ou à la mort d'une personne. Le texte part à la Chambre des représentants.
+===
+
+Le Sénat américain a voté pour interdire certains paris. Jeudi 19 novembre au soir, les sénateurs ont adopté <strong>le S. 4035, le DEATH BETS Act</strong>, par vote oral, selon le [journal des séances](L3) du Sénat. Le texte empêcherait les plateformes régulées au niveau fédéral de coter des contrats prédictifs liés à la guerre, au terrorisme, aux assassinats, aux opérations militaires américaines ou à la mort d'une personne.
+
+La proposition a été déposée en mars par le sénateur démocrate de Californie Adam Schiff, et le sénateur républicain de l'Utah John Curtis l'a rejointe comme coparrain en septembre, selon [Congress.gov](L1). Le bureau de Schiff affirme qu'il s'agit du premier texte encadrant les marchés prédictifs adopté par le Sénat lors de la législature actuelle. Ce n'est pas encore une loi : la Chambre des représentants doit l'adopter et le président doit la signer.
+
+!takeaways
+- Le Sénat a adopté le DEATH BETS Act par vote oral le 19 novembre 2026, sans vote nominal enregistré.
+- Il interdirait aux plateformes enregistrées auprès de la CFTC de coter des contrats sur le terrorisme, les assassinats, la guerre, les opérations militaires américaines ou la mort d'une personne.
+- Le texte ne crée ni nouvelles amendes ni nouvelles peines ; le droit des matières premières existant et la CFTC s'en chargeraient, selon CoinDesk.
+- Il faut encore un vote de la Chambre et la signature du président. Le représentant Mike Levin a déposé une version à la Chambre.
+
+!figure:timeline
+
+## Ce que sont les marchés prédictifs
+
+Un marché prédictif permet d'acheter et de vendre des contrats sur la survenue d'un événement, comme le résultat d'une élection ou d'un match. Un contrat paie en général 1 dollar si l'événement se produit et rien sinon : son prix reflète donc l'estimation des chances par la foule. Aux États-Unis, des plateformes régulées comme Kalshi opèrent sous la tutelle de la Commodity Futures Trading Commission (CFTC). Polymarket, l'une des plus grandes, est une plateforme crypto où les transactions sont réglées dans le stablecoin USDC.
+
+Ces marchés ont grandi vite. Schiff a déclaré au Sénat qu'ils ont proposé des paris par exemple sur l'explosion éventuelle de la mission lunaire Artemis II, selon un communiqué de son bureau.
+
+## Ce que le texte interdirait
+
+Selon le [texte adopté par le Sénat](L2), une plateforme enregistrée auprès de la CFTC ne pourrait ni coter ni compenser un contrat d'événement qui « fait expressément référence » au terrorisme, à l'assassinat, à la guerre ou aux opérations militaires des forces armées américaines. La CFTC pourrait y ajouter « toute activité similaire » par voie réglementaire. Un second volet interdit les contrats dont on peut « raisonnablement s'attendre », au moment de la cotation, à ce qu'ils se dénouent « principalement en fonction du décès d'une personne ».
+
+Aujourd'hui, la CFTC peut déjà bloquer les contrats sur la guerre, le terrorisme et les assassinats si elle juge qu'ils sont contraires à l'intérêt public. Le texte transformerait ce choix en règle ferme et ajouterait les contrats sur la mort, que la loi actuelle ne mentionne pas. La version finale précise aussi qu'elle ne touche pas aux autres types de contrats d'événements, comme ceux sur les jeux.
+
+!mid_cta
+
+## Pourquoi maintenant
+
+Les élus craignent que des personnes détenant des informations secrètes en profitent. En février, six portefeuilles Polymarket ont gagné environ <strong>1,2 million de dollars</strong> en pariant sur la date des frappes américaines contre l'Iran, selon la société d'analyse blockchain Bubblemaps, citée par [CoinDesk](L4). On ignore qui contrôlait ces portefeuilles. « Ces contrats créent d'innombrables occasions de délit d'initié », a déclaré Schiff jeudi.
+
+CoinDesk a aussi rappelé que Kalshi a sanctionné deux traders pour avoir utilisé des informations confidentielles, et que des procureurs fédéraux ont poursuivi un béret vert de l'armée américaine soupçonné d'avoir parié en s'appuyant sur ce qu'il savait, à titre classifié, d'une opération militaire au Venezuela. Le sénateur Curtis a déclaré dans un [communiqué](L5) : « Personne ne devrait pouvoir parier sur le terrorisme, la guerre ou la mort d'un autre être humain. »
+
+!figure:fact
+
+## Ce que cela change pour vous
+
+Pour la plupart des personnes qui achètent du bitcoin ou d'autres cryptos, rien ne change. Le texte vise les contrats d'événements sur des plateformes régulées, pas la détention de cryptomonnaies. Si vous utilisez des marchés prédictifs, c'est un rappel que leurs règles sont encore en cours d'écriture à Washington et que ce qui est proposé aujourd'hui pourrait être interdit demain. Si vous voulez simplement détenir des cryptos, une grande plateforme régulée comme [Coinbase](REF) est un point de départ courant. Considérez toute opération sur un marché prédictif comme risquée et n'utilisez que l'argent que vous pouvez vous permettre de perdre. Ceci n'est ni un conseil en investissement ni un avis juridique.
+
+## À surveiller
+
+- Si la Chambre se saisit du texte ou de la version du représentant Levin avant la fin de l'année.
+- De nouvelles règles de la CFTC sur les marchés prédictifs, que son président a annoncées selon le bureau de Schiff.
+- La réaction de Kalshi, de Polymarket et des autres plateformes.
+
+!soft: Vous vous demandez comment Coinbase protège les fonds de ses clients ? Lisez [Coinbase est-il sûr pour les débutants ?](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

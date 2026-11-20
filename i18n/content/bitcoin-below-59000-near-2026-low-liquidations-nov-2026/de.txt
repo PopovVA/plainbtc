@@ -1,0 +1,59 @@
+title: Bitcoin fällt unter 59.000 $ und nähert sich dem Jahrestief 2026, Wetten über 1,5 Mrd. $ ausgelöscht
+page_title: Bitcoin unter 59.000 $, nahe dem Jahrestief 2026
+description: Bitcoin fiel am Freitag bei Kraken auf rund 58.005 $, weniger als 0,5 % über dem Jahrestief 2026 von 57.740 $ vom 1. Juli, während Tech-Aktien abrutschten und gehebelte Krypto-Wetten über rund 1,5 Mrd. $ liquidiert wurden.
+og_description: Bitcoin verlor am Freitag erst die 60.000 $ und dann die 59.000 $ und fiel bei Kraken auf rund 58.005 $, knapp über das Tief vom Juli. Tech-Aktien, Gold und Krypto fielen gemeinsam. Was passiert ist und was es bedeutet, einfach erklärt.
+label: Markt
+summary: Bitcoin fiel am Freitag gegen Mittag bei Kraken auf rund 58.005 $, den tiefsten Kurs seit Anfang Juli und weniger als 0,5 % über dem Jahrestief 2026 von 57.740 $, während der Nasdaq fast 4 % verlor und gehebelte Krypto-Positionen über rund 1,5 Mrd. $ liquidiert wurden.
+===
+
+Der Bitcoin-Rutsch hat sich am Freitag, dem 20. November, beschleunigt. Die größte Kryptowährung fiel in der Stunde ab 9 Uhr US-Zentralzeit unter 60.000 $ und rutschte weiter bis auf <strong>58.005 $</strong> bei Kraken in der Mittagsstunde, wie die Auswertung der [öffentlichen Kursdaten](L4) von Kraken durch PlainBTC zeigt. Gegen 13 Uhr Zentralzeit notierte sie bei rund 58.650 $, ein Tagesminus von mehr als 5 %.
+
+Damit liegt Bitcoin nur noch wenige Hundert Dollar über seinem tiefsten Kurs des Jahres 2026. Bei Kraken liegt das bisherige Jahrestief bei 57.740 $, erreicht am 1. Juli. Das Tief vom Freitag liegt weniger als 0,5 % darüber. Es liegt zudem rund 41 % unter dem Jahreshoch 2026 von etwa 97.900 $ am 14. Januar.
+
+!takeaways
+- Bitcoin fiel am Freitag bei Kraken auf rund 58.005 $, weniger als 0,5 % über dem Jahrestief 2026 von 57.740 $ vom 1. Juli.
+- Innerhalb von 24 Stunden wurden gehebelte Krypto-Positionen über rund 1,5 Mrd. $ liquidiert, berichtete CoinDesk unter Berufung auf CoinGlass.
+- Der Nasdaq fiel um rund 3,8 % und Gold um etwa 2 %, Krypto war also nicht der einzige Markt unter Druck.
+- US-Spot-Bitcoin-ETFs verloren am Donnerstag netto 582,3 Mio. $, darunter ein Rekordabfluss von 541,1 Mio. $ aus BlackRocks IBIT, laut Farside Investors.
+
+!figure:chart
+
+## Was am Freitag passiert ist
+
+Der Ausverkauf begann an der Börse. Die Aktie von Anthropic, dem KI-Unternehmen, das am Donnerstag an die Börse ging, fiel am Freitag um mehr als 14 % und gab ihre Gewinne vom ersten Handelstag wieder ab, [berichtete](L1) CoinDesk. Ein vielbeachteter Halbleiter-Fonds (SOXX) fiel um rund 8 % und der Nasdaq um etwa 3,8 %, beide auf den tiefsten Stand seit April. Bitcoin-Miner, die auf KI-Rechenzentren umgesattelt haben, fielen noch stärker: Hut 8 verlor fast 15 %, Core Scientific, CleanSpark und Bitdeer jeweils mehr als 13 %.
+
+Krypto zog nach. Bei Kraken stand Bitcoin um 9 Uhr Zentralzeit noch bei rund 61.700 $ und fiel binnen dieser Stunde auf etwa 59.300 $. Ether fiel auf rund 1.607 $, etwa 8 % unter dem Eröffnungskurs des Tages, und XRP, Solana und BNB verloren 5 % bis 6 %, so CoinDesk. Selbst Gold, das oft als sicherer Hafen gilt, fiel um rund 2 % in Richtung 3.500 $ je Unze, den tiefsten Stand seit September 2025.
+
+## Hebel verstärkte den Absturz
+
+Viele Trader leihen sich Geld, um größere Wetten auf Kryptokurse einzugehen. Fallen die Kurse schnell, schließen Börsen diese Positionen automatisch, sobald die Sicherheiten des Traders aufgebraucht sind. Das nennt man Liquidation, und sie bringt im ungünstigsten Moment zusätzlichen Verkaufsdruck. Innerhalb von 24 Stunden wurden gehebelte Krypto-Positionen über rund 1,5 Mrd. $ liquidiert, laut CoinGlass-Daten, die CoinDesk zitiert.
+
+!figure:fact
+
+Das Angstbarometer der Wall Street, der VIX, stieg Richtung 32, wie CoinDesk in seiner [Live-Berichterstattung](L2) festhielt. Andy Baehr vom Krypto-Handelshaus GSR sprach von einem „schnellen Markt“, fügte aber hinzu: „Schnelle Märkte kommen und gehen.“
+
+!mid_cta
+
+## Zinsen, ETFs und Angst
+
+Die Zinsen spielen eine große Rolle. Fed-Gouverneur Christopher Waller brachte Anfang der Woche eine Zinserhöhung um einen halben Prozentpunkt ins Gespräch. Am Freitag galt unter Händlern eine Erhöhung um einen Viertelpunkt bei der Fed-Sitzung am 8. und 9. Dezember als wahrscheinlichstes Ergebnis, so CoinDesk. Höhere Zinsen machen Bargeld und Anleihen attraktiver, was Geld aus riskanteren Anlagen wie Krypto abziehen kann. „Der sichere Hafen ist Bargeld“, sagte Maxime Seiler, CEO des Handelshauses STS Digital.
+
+Auch große Fonds verkaufen. Laut [Farside Investors](L3) verloren US-Spot-Bitcoin-ETFs am Donnerstag, dem 19. November, netto 582,3 Mio. $. Allein BlackRocks iShares Bitcoin Trust (IBIT) verlor 541,1 Mio. $, sein größter Tagesabfluss seit dem Start. Die Zahlen für Freitag lagen bei Veröffentlichung dieses Artikels noch nicht vor.
+
+Die Stimmung der Anleger ist im Keller. Der [Crypto Fear & Greed Index](L5) stand am Freitag bei 12 von 100, tief im Bereich „extreme Angst“.
+
+## Was das für Einsteiger bedeutet
+
+Starke Einbrüche wie dieser gehören zum Besitz von Bitcoin dazu, und niemand kann verlässlich sagen, wo der Boden liegt. Ein Kurs nahe dem Jahrestief kann noch weiter fallen, aber auch schnell wieder steigen. Wenn Sie über einen Kauf nachdenken: Viele Einsteiger verteilen kleine Käufe über Wochen oder Monate, statt alles auf einmal zu kaufen, und manche starten bei einer großen regulierten Börse wie [Coinbase](REF). Kaufen Sie nicht auf Kredit und investieren Sie nur Geld, dessen Verlust Sie verkraften können. Dies ist keine Anlageberatung.
+
+## Worauf jetzt zu achten ist
+
+- Ob Bitcoin über seinem Jahrestief 2026 von rund 57.740 $ bei Kraken bleibt.
+- Die Flussdaten der Spot-Bitcoin-ETFs für Freitag und die kommende Woche.
+- Reden von Fed-Vertretern vor der Sitzung am 8. und 9. Dezember und ob sich der Aktien-Ausverkauf ausweitet.
+
+!soft: Sie wollen Bitcoin Schritt für Schritt kaufen? Lesen Sie [Wie viel Bitcoin sollte ein Einsteiger kaufen?](/articles/how-much-bitcoin-should-a-beginner-buy-dca)
+
+!end_cta
+
+!disclosure

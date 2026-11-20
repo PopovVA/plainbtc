@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-hourly-nov-18-20.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin's hourly price on Kraken from Nov. 18 to Nov. 20, 2026, drifting between about $61,000 and $65,000 and then dropping below $59,000 on Nov. 20, close to a dashed line at the 2026 low of $57,740 from July 1",
+      "es": "Gráfico de líneas del precio horario de bitcoin en Kraken del 18 al 20 de noviembre de 2026: oscila entre unos 61.000 y 65.000 dólares y el 20 de noviembre cae por debajo de 59.000, cerca de una línea discontinua en el mínimo de 2026, 57.740 dólares, del 1 de julio",
+      "pt": "Gráfico de linha do preço horário do bitcoin na Kraken de 18 a 20 de novembro de 2026: oscila entre cerca de US$ 61.000 e US$ 65.000 e, em 20 de novembro, cai abaixo de US$ 59.000, perto de uma linha tracejada na mínima de 2026, US$ 57.740, de 1º de julho",
+      "fr": "Courbe du cours horaire du bitcoin sur Kraken du 18 au 20 novembre 2026 : il évolue entre environ 61 000 et 65 000 dollars, puis passe sous 59 000 dollars le 20 novembre, près d'une ligne pointillée au plus bas de 2026, 57 740 dollars, du 1er juillet",
+      "de": "Liniendiagramm des stündlichen Bitcoin-Kurses bei Kraken vom 18. bis 20. November 2026: Seitwärtsbewegung zwischen rund 61.000 und 65.000 $, dann am 20. November Fall unter 59.000 $, nahe einer gestrichelten Linie beim Jahrestief 2026 von 57.740 $ vom 1. Juli",
+      "ru": "Линейный график почасовой цены биткоина на Kraken с 18 по 20 ноября 2026 года: колебания примерно между $61 000 и $65 000, затем 20 ноября падение ниже $59 000, близко к пунктирной линии минимума 2026 года — $57 740 от 1 июля",
+      "tr": "Bitcoin'in 18-20 Kasım 2026'da Kraken'deki saatlik fiyatının çizgi grafiği: yaklaşık 61.000 $ ile 65.000 $ arasında dolaşıyor, ardından 20 Kasım'da 59.000 $'ın altına iniyor; kesikli çizgi 1 Temmuz'daki 57.740 $'lık 2026 dibini gösteriyor",
+      "id": "Grafik garis harga bitcoin per jam di Kraken pada 18 hingga 20 November 2026: bergerak di kisaran US$61.000 hingga US$65.000, lalu pada 20 November turun di bawah US$59.000, dekat garis putus-putus di level terendah 2026 sebesar US$57.740 pada 1 Juli",
+      "ja": "2026年11月18〜20日のKrakenにおけるビットコイン1時間足の折れ線グラフ：約6万1000〜6万5000ドルで推移した後、11月20日に5万9000ドルを割り込み、7月1日の2026年安値5万7740ドルを示す破線に接近",
+      "ko": "2026년 11월 18~20일 크라켄 비트코인 시간별 가격 선 차트: 약 6만1000~6만5000달러에서 움직이다 11월 20일 5만9000달러 아래로 떨어져, 7월 1일 기록한 2026년 저점 5만7740달러를 나타내는 점선에 근접"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken BTC/USD hourly closes",
+      "es": "Gráfico: PlainBTC, datos: Kraken BTC/USD hourly closes",
+      "pt": "Gráfico: PlainBTC, dados: Kraken BTC/USD hourly closes",
+      "fr": "Graphique : PlainBTC, données : Kraken BTC/USD hourly closes",
+      "de": "Chart: PlainBTC, Daten: Kraken BTC/USD hourly closes",
+      "ru": "График: PlainBTC, данные: Kraken BTC/USD hourly closes",
+      "tr": "Grafik: PlainBTC, veri: Kraken BTC/USD hourly closes",
+      "id": "Grafik: PlainBTC, data: Kraken BTC/USD hourly closes",
+      "ja": "チャート: PlainBTC、データ: Kraken BTC/USD hourly closes",
+      "ko": "차트: PlainBTC, 데이터: Kraken BTC/USD hourly closes"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-1-5-billion-liquidations.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: about $1.5 billion in leveraged crypto positions were liquidated in the 24 hours to Nov. 20, 2026, according to CoinGlass data cited by CoinDesk",
+      "es": "Tarjeta: unos 1.500 millones de dólares en posiciones apalancadas de cripto se liquidaron en las 24 horas hasta el 20 de noviembre de 2026, según datos de CoinGlass citados por CoinDesk",
+      "pt": "Cartão: cerca de US$ 1,5 bilhão em posições alavancadas de cripto foram liquidadas nas 24 horas até 20 de novembro de 2026, segundo dados da CoinGlass citados pela CoinDesk",
+      "fr": "Carte : environ 1,5 milliard de dollars de positions crypto à effet de levier ont été liquidées sur les 24 heures précédant le 20 novembre 2026, selon les données de CoinGlass citées par CoinDesk",
+      "de": "Faktenkarte: In den 24 Stunden bis zum 20. November 2026 wurden gehebelte Krypto-Positionen im Wert von rund 1,5 Mrd. $ liquidiert, laut CoinGlass-Daten, zitiert von CoinDesk",
+      "ru": "Карточка: за 24 часа до 20 ноября 2026 года было ликвидировано около $1,5 млрд в криптопозициях с плечом, по данным CoinGlass, которые приводит CoinDesk",
+      "tr": "Kart: CoinDesk'in aktardığı CoinGlass verilerine göre 20 Kasım 2026'ya kadarki 24 saatte yaklaşık 1,5 milyar $'lık kaldıraçlı kripto pozisyonu tasfiye edildi",
+      "id": "Kartu: sekitar US$1,5 miliar posisi kripto berleverage dilikuidasi dalam 24 jam hingga 20 November 2026, menurut data CoinGlass yang dikutip CoinDesk",
+      "ja": "カード：CoinDeskが引用したCoinGlassのデータによると、2026年11月20日までの24時間に約15億ドル相当のレバレッジ付き暗号資産ポジションが強制清算された",
+      "ko": "카드: 코인데스크가 인용한 코인글래스 자료에 따르면 2026년 11월 20일까지 24시간 동안 약 15억 달러 규모의 레버리지 암호화폐 포지션이 강제 청산됐다"
+    },
+    "caption": {
+      "en": "Source: CoinGlass via CoinDesk",
+      "es": "Fuente: CoinGlass via CoinDesk",
+      "pt": "Fonte: CoinGlass via CoinDesk",
+      "fr": "Source : CoinGlass via CoinDesk",
+      "de": "Quelle: CoinGlass via CoinDesk",
+      "ru": "Источник: CoinGlass via CoinDesk",
+      "tr": "Kaynak: CoinGlass via CoinDesk",
+      "id": "Sumber: CoinGlass via CoinDesk",
+      "ja": "出典: CoinGlass via CoinDesk",
+      "ko": "출처: CoinGlass via CoinDesk"
+    }
+  }
+]

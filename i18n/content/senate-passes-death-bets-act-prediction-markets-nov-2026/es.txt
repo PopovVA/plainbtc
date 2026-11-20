@@ -1,0 +1,57 @@
+title: El Senado aprueba la ley DEATH BETS para prohibir apuestas sobre guerras y muertes en los mercados de predicción
+page_title: El Senado aprueba la ley DEATH BETS sobre mercados de predicción
+description: El Senado de EE. UU. aprobó la ley DEATH BETS por votación oral el 19 de noviembre. Prohibiría a los mercados registrados ante la CFTC listar contratos sobre guerras, terrorismo, asesinatos, operaciones militares de EE. UU. o la muerte de una persona. Falta la Cámara de Representantes.
+og_description: Los mercados de predicción permiten operar sobre casi cualquier cosa. El jueves, el Senado votó para dejar fuera de los mercados regulados de EE. UU. la guerra, el terrorismo, los asesinatos y la muerte. Qué hace la ley, por qué surgió y qué viene ahora, en palabras sencillas.
+label: Regulación
+summary: El Senado aprobó por votación oral el 19 de noviembre el S. 4035, la ley DEATH BETS de los senadores Adam Schiff y John Curtis. Prohibiría a los mercados registrados ante la CFTC listar contratos de eventos sobre guerras, terrorismo, asesinatos, operaciones militares de EE. UU. o la muerte de una persona. Ahora pasa a la Cámara de Representantes.
+===
+
+El Senado de EE. UU. votó para poner algunas apuestas fuera de los límites. El jueves 19 de noviembre por la tarde, los senadores aprobaron <strong>el S. 4035, la ley DEATH BETS</strong>, por votación oral, según el [registro de sesiones](L3) del Senado. La ley impediría a los mercados regulados a nivel federal listar contratos de predicción vinculados a guerras, terrorismo, asesinatos, operaciones militares de EE. UU. o la muerte de una persona.
+
+El senador demócrata por California Adam Schiff presentó el proyecto en marzo, y el senador republicano por Utah John Curtis se sumó como copatrocinador en septiembre, según [Congress.gov](L1). La oficina de Schiff dijo que es el primer proyecto de ley que regula los mercados de predicción aprobado por el Senado en el actual Congreso. Todavía no es ley: la Cámara de Representantes aún debe aprobarlo y el presidente debe firmarlo.
+
+!takeaways
+- El Senado aprobó la ley DEATH BETS por votación oral el 19 de noviembre de 2026, sin votación nominal registrada.
+- Prohibiría a los mercados registrados ante la CFTC listar contratos sobre terrorismo, asesinatos, guerras, operaciones militares de EE. UU. o la muerte de una persona.
+- La ley no añade nuevas multas ni penas; la aplicarían la legislación de materias primas vigente y la CFTC, informó CoinDesk.
+- Aún necesita un voto de la Cámara de Representantes y la firma del presidente. El representante Mike Levin presentó una versión en la Cámara.
+
+!figure:timeline
+
+## Qué son los mercados de predicción
+
+Un mercado de predicción permite comprar y vender contratos sobre si algo ocurrirá, como el resultado de una elección o de un partido. Un contrato suele pagar 1 dólar si el evento ocurre y nada si no ocurre, así que su precio funciona como la estimación de probabilidades de la multitud. En EE. UU., plataformas reguladas como Kalshi operan bajo la Comisión de Comercio de Futuros de Materias Primas (CFTC). Polymarket, una de las más grandes, es una plataforma basada en cripto donde las operaciones se liquidan en la stablecoin USDC.
+
+Estos mercados han crecido rápido. Schiff dijo en el pleno del Senado que han ofrecido apuestas sobre cosas como si la misión lunar Artemis II explotaría, según un comunicado de su oficina.
+
+## Qué prohibiría la ley
+
+Según el [texto aprobado por el Senado](L2), un mercado registrado ante la CFTC no podría listar ni compensar un contrato de eventos que "haga referencia expresa" a terrorismo, asesinato, guerra u operaciones militares de las Fuerzas Armadas de EE. UU. La CFTC podría añadir "cualquier actividad similar" mediante una norma. Una segunda parte prohíbe los contratos que, al listarse, "se espere razonablemente que se resuelvan principalmente en función de la muerte de una persona".
+
+Hoy la CFTC ya tiene poder para bloquear contratos sobre guerras, terrorismo y asesinatos si decide que van contra el interés público. La ley convertiría esa decisión en una regla fija y añadiría los contratos sobre muertes, que la ley actual no menciona. La versión final también aclara que no afecta a otros tipos de contratos de eventos, como los de juegos.
+
+!mid_cta
+
+## Por qué surge ahora
+
+A los legisladores les preocupa que personas con información secreta puedan sacar provecho. En febrero, seis billeteras de Polymarket ganaron unos <strong>1,2 millones de dólares</strong> apostando sobre el momento de los ataques de EE. UU. contra Irán, según la firma de análisis blockchain Bubblemaps, citada por [CoinDesk](L4). No se sabe quién controlaba esas billeteras. "Estos contratos crean enormes oportunidades para el uso de información privilegiada", dijo Schiff el jueves.
+
+CoinDesk también señaló que Kalshi ha multado a dos traders por operar con información confidencial, y que fiscales federales acusaron a un boina verde del Ejército de EE. UU. que presuntamente operó con su propio conocimiento clasificado de una operación militar en Venezuela. El senador Curtis dijo en un [comunicado](L5): "Nadie debería poder apostar sobre el terrorismo, la guerra o la muerte de otro ser humano".
+
+!figure:fact
+
+## Qué significa para ti
+
+Para la mayoría de quienes compran bitcoin u otras criptos, nada cambia. La ley trata sobre contratos de eventos en mercados regulados, no sobre tener monedas. Si usas mercados de predicción, es un recordatorio de que sus reglas aún se están escribiendo en Washington y de que lo que se ofrece hoy podría no estar permitido mañana. Si solo quieres tener cripto, un exchange grande y regulado como [Coinbase](REF) es un punto de partida habitual. Trata cualquier operación en un mercado de predicción como arriesgada y usa solo dinero que puedas permitirte perder. Esto no es asesoramiento de inversión ni legal.
+
+## Qué vigilar ahora
+
+- Si la Cámara de Representantes toma el proyecto o la versión del representante Levin antes de fin de año.
+- Nuevas normas de la CFTC sobre mercados de predicción, que según la oficina de Schiff ha anticipado el presidente de la agencia.
+- Cómo responden Kalshi, Polymarket y otras plataformas.
+
+!soft: ¿Te preguntas qué tan seguros son los grandes exchanges? Lee [si Coinbase es seguro para principiantes](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure

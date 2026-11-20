@@ -1,0 +1,59 @@
+title: Bitcoin cai abaixo de US$ 59.000 e se aproxima da mínima de 2026 com US$ 1,5 bilhão em apostas liquidadas
+page_title: Bitcoin abaixo de US$ 59.000, perto da mínima de 2026
+description: O bitcoin caiu para cerca de US$ 58.005 na Kraken na sexta-feira, menos de 0,5% acima da mínima de 2026, US$ 57.740 em 1º de julho, enquanto ações de tecnologia recuavam e cerca de US$ 1,5 bilhão em apostas alavancadas eram liquidadas.
+og_description: O bitcoin perdeu os US$ 60.000 e depois os US$ 59.000 na sexta-feira, tocando cerca de US$ 58.005 na Kraken, logo acima da mínima de julho. Ações de tecnologia, ouro e cripto caíram juntos. Veja o que aconteceu e o que isso significa, em linguagem simples.
+label: Mercado
+summary: O bitcoin caiu para cerca de US$ 58.005 na Kraken por volta do meio-dia de sexta-feira, seu menor preço desde o início de julho e menos de 0,5% acima da mínima de 2026, de US$ 57.740, enquanto o Nasdaq recuava quase 4% e cerca de US$ 1,5 bilhão em posições alavancadas eram liquidadas.
+===
+
+A queda do bitcoin ganhou força na sexta-feira, 20 de novembro. A maior criptomoeda perdeu os US$ 60.000 na hora das 9h, horário central dos EUA, e continuou caindo até <strong>US$ 58.005</strong> na Kraken na hora do meio-dia, segundo a checagem do PlainBTC nos [dados públicos de preço](L4) da Kraken. Por volta das 13h, era negociada perto de US$ 58.650, em queda de mais de 5% no dia.
+
+Isso deixa o bitcoin a algumas centenas de dólares do menor preço de 2026. Na Kraken, a mínima do ano até agora é de US$ 57.740, registrada em 1º de julho. A mínima de sexta-feira está menos de 0,5% acima disso. Ela também fica cerca de 41% abaixo da máxima de 2026, de cerca de US$ 97.900, em 14 de janeiro.
+
+!takeaways
+- O bitcoin chegou a cerca de US$ 58.005 na Kraken na sexta-feira, menos de 0,5% acima da mínima de 2026, US$ 57.740 em 1º de julho.
+- Cerca de US$ 1,5 bilhão em posições cripto alavancadas foram liquidadas em 24 horas, informou a CoinDesk, citando a CoinGlass.
+- O Nasdaq caiu cerca de 3,8% e o ouro cerca de 2%, então a cripto não foi o único mercado sob pressão.
+- Os ETFs de bitcoin à vista dos EUA tiveram saídas líquidas de US$ 582,3 milhões na quinta-feira, incluindo um recorde de US$ 541,1 milhões do IBIT, da BlackRock, segundo a Farside Investors.
+
+!figure:chart
+
+## O que aconteceu na sexta-feira
+
+A venda começou nas ações. Os papéis da Anthropic, a empresa de IA que abriu capital na quinta-feira, caíram mais de 14% na sexta e devolveram os ganhos da estreia, [informou](L1) a CoinDesk. Um fundo popular de semicondutores (SOXX) caiu cerca de 8% e o Nasdaq cerca de 3,8%, ambos aos níveis mais fracos desde abril. As mineradoras de bitcoin que migraram para data centers de IA caíram ainda mais: a Hut 8 perdeu quase 15%, e Core Scientific, CleanSpark e Bitdeer perderam mais de 13% cada.
+
+A cripto foi atrás. Na Kraken, o bitcoin ainda estava perto de US$ 61.700 às 9h, horário central, e caiu para cerca de US$ 59.300 dentro daquela hora. O ether caiu para cerca de US$ 1.607, aproximadamente 8% abaixo do preço de abertura do dia, e XRP, Solana e BNB perderam de 5% a 6%, segundo a CoinDesk. Até o ouro, muitas vezes visto como um ativo seguro, caiu cerca de 2%, para perto de US$ 3.500 a onça, o menor nível desde setembro de 2025.
+
+## A alavancagem piorou a queda
+
+Muitos traders pegam dinheiro emprestado para fazer apostas maiores nos preços das criptos. Quando os preços caem rápido, as corretoras fecham essas posições automaticamente assim que a garantia do trader acaba. Isso se chama liquidação, e acrescenta mais vendas no pior momento. Cerca de US$ 1,5 bilhão em posições cripto alavancadas foram liquidadas em 24 horas, segundo dados da CoinGlass citados pela CoinDesk.
+
+!figure:fact
+
+O termômetro do medo de Wall Street, o VIX, se aproximou de 32, observou a [cobertura ao vivo](L2) da CoinDesk. Andy Baehr, da trading de cripto GSR, chamou o momento de "mercado rápido", mas acrescentou: "Mercados rápidos vêm e vão".
+
+!mid_cta
+
+## Juros, ETFs e medo
+
+Os juros são uma parte importante da história. O diretor do Federal Reserve Christopher Waller levantou no início da semana a hipótese de uma alta de meio ponto. Na sexta-feira, os traders viam uma alta de um quarto de ponto na reunião do Fed de 8 e 9 de dezembro como o resultado mais provável, disse a CoinDesk. Juros mais altos fazem o dinheiro em caixa e os títulos renderem mais, o que pode afastar recursos de ativos mais arriscados, como cripto. "O lugar para se proteger é o caixa", disse Maxime Seiler, CEO da trading STS Digital.
+
+Grandes fundos também estão vendendo. Segundo a [Farside Investors](L3), os ETFs de bitcoin à vista dos EUA tiveram saídas líquidas de US$ 582,3 milhões na quinta-feira, 19 de novembro. Só o iShares Bitcoin Trust (IBIT), da BlackRock, perdeu US$ 541,1 milhões, o maior resgate em um dia desde o lançamento. Os números de sexta-feira ainda não estavam disponíveis quando este artigo foi publicado.
+
+O humor dos investidores está no fundo do poço. O [índice Crypto Fear & Greed](L5) marcava 12 de 100 na sexta-feira, em pleno "medo extremo".
+
+## O que isso significa para iniciantes
+
+Quedas fortes como esta fazem parte de ter bitcoin, e ninguém consegue dizer com segurança onde está o fundo. Um preço perto da mínima do ano pode cair mais, e também pode se recuperar rápido. Se você está pensando em comprar, muitos iniciantes fazem compras pequenas espalhadas por semanas ou meses em vez de comprar tudo de uma vez, e alguns começam em uma grande corretora regulada, como a [Coinbase](REF). Evite pegar dinheiro emprestado para comprar e só invista o que você pode perder. Isto não é recomendação de investimento.
+
+## O que acompanhar agora
+
+- Se o bitcoin se mantém acima da mínima de 2026, de cerca de US$ 57.740 na Kraken.
+- Os dados de fluxo dos ETFs de bitcoin à vista de sexta-feira e da próxima semana.
+- Os discursos do Fed antes da reunião de 8 e 9 de dezembro, e se a queda das ações se espalha.
+
+!soft: Começando a comprar bitcoin aos poucos? Leia [Quanto bitcoin um iniciante deve comprar?](/articles/how-much-bitcoin-should-a-beginner-buy-dca)
+
+!end_cta
+
+!disclosure

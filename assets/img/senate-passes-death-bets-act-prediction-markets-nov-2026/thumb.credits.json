@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Seal_of_the_United_States_Senate.svg",
+      "license": "CC BY-SA 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Senate.svg",
+      "credit": "Wikimedia Commons (vectorized U.S. Senate seal)"
+    },
+    {
+      "file": "S.4035 as passed by the Senate, Nov. 19, 2026",
+      "license": "Facts cited (U.S. government work)",
+      "url": "https://www.govinfo.gov/content/pkg/BILLS-119s4035es/html/BILLS-119s4035es.htm",
+      "credit": "U.S. Senate / GovInfo"
+    }
+  ],
+  "note": "Editorial composite for identification; no endorsement by the U.S. Senate implied.",
+  "slug": "senate-passes-death-bets-act-prediction-markets-nov-2026",
+  "generated": "2026-11-20T19:01Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

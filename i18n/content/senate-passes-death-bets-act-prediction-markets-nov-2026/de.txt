@@ -1,0 +1,57 @@
+title: US-Senat verabschiedet DEATH BETS Act gegen Prognosemarkt-Wetten auf Krieg und Tod
+page_title: Senat verabschiedet DEATH BETS Act zu Prognosemärkten
+description: Der US-Senat hat den DEATH BETS Act am 19. November per Stimmabstimmung verabschiedet. Bei der CFTC registrierte Börsen dürften dann keine Kontrakte auf Krieg, Terrorismus, Attentate, US-Militäreinsätze oder den Tod eines Menschen mehr anbieten. Das Repräsentantenhaus muss noch zustimmen.
+og_description: Auf Prognosemärkten lässt sich auf fast alles wetten. Am Donnerstag stimmte der Senat dafür, Krieg, Terrorismus, Attentate und Tod an regulierten US-Börsen zu verbieten. Was das Gesetz regelt, warum es jetzt kommt und wie es weitergeht, einfach erklärt.
+label: Regulierung
+summary: Der Senat hat S. 4035, den DEATH BETS Act der Senatoren Adam Schiff und John Curtis, am 19. November per Stimmabstimmung verabschiedet. Er würde bei der CFTC registrierten Börsen verbieten, Ereigniskontrakte zu Krieg, Terrorismus, Attentaten, US-Militäreinsätzen oder dem Tod eines Menschen zu listen. Nun ist das Repräsentantenhaus am Zug.
+===
+
+Der US-Senat will bestimmte Wetten verbieten. Am Donnerstagabend, dem 19. November, verabschiedeten die Senatoren <strong>S. 4035, den DEATH BETS Act</strong>, per Stimmabstimmung, wie das [Sitzungsprotokoll](L3) des Senats zeigt. Das Gesetz würde bundesweit regulierten Börsen untersagen, Prognosekontrakte zu Krieg, Terrorismus, Attentaten, US-Militäreinsätzen oder dem Tod eines Menschen anzubieten.
+
+Eingebracht hat den Entwurf im März Senator Adam Schiff, ein Demokrat aus Kalifornien; der Republikaner John Curtis aus Utah schloss sich im September als Mitunterstützer an, so [Congress.gov](L1). Laut Schiffs Büro ist es das erste Gesetz zu Prognosemärkten, das der Senat in der laufenden Legislaturperiode verabschiedet hat. Noch ist es kein Gesetz: Das Repräsentantenhaus muss zustimmen und der Präsident unterschreiben.
+
+!takeaways
+- Der Senat hat den DEATH BETS Act am 19. November 2026 per Stimmabstimmung verabschiedet, ohne namentliche Abstimmung.
+- Er würde bei der CFTC registrierten Börsen verbieten, Kontrakte zu Terrorismus, Attentaten, Krieg, US-Militäreinsätzen oder dem Tod eines Menschen zu listen.
+- Neue Bußgelder oder Strafen sieht das Gesetz nicht vor; durchgesetzt würde es über das bestehende Rohstoffrecht und die CFTC, berichtete CoinDesk.
+- Nötig sind noch ein Votum des Repräsentantenhauses und die Unterschrift des Präsidenten. Der Abgeordnete Mike Levin hat dort eine eigene Fassung eingebracht.
+
+!figure:timeline
+
+## Was Prognosemärkte sind
+
+Auf einem Prognosemarkt kauft und verkauft man Kontrakte darauf, ob etwas eintritt, etwa ein Wahlergebnis oder ein Spielausgang. Ein Kontrakt zahlt meist 1 $, wenn das Ereignis eintritt, und sonst nichts; sein Preis spiegelt also die Einschätzung der Masse zur Wahrscheinlichkeit. In den USA arbeiten regulierte Anbieter wie Kalshi unter der Aufsicht der Commodity Futures Trading Commission (CFTC). Polymarket, einer der größten Anbieter, ist eine kryptobasierte Plattform, auf der Geschäfte im Stablecoin USDC abgewickelt werden.
+
+Diese Märkte sind schnell gewachsen. Schiff sagte im Senat, dort seien sogar Wetten darauf angeboten worden, ob die Mondmission Artemis II explodiert, wie aus einer Mitteilung seines Büros hervorgeht.
+
+## Was das Gesetz verbieten würde
+
+Laut dem [vom Senat verabschiedeten Text](L2) dürfte eine bei der CFTC registrierte Börse keinen Ereigniskontrakt listen oder abwickeln, der „ausdrücklich Bezug nimmt“ auf Terrorismus, Attentate, Krieg oder Militäreinsätze der US-Streitkräfte. Die CFTC könnte per Verordnung „jede ähnliche Aktivität“ hinzufügen. Ein zweiter Teil verbietet Kontrakte, bei denen zum Zeitpunkt der Listung „vernünftigerweise zu erwarten ist“, dass sie sich „hauptsächlich nach dem Tod eines Menschen“ entscheiden.
+
+Schon heute kann die CFTC Kontrakte zu Krieg, Terrorismus und Attentaten blockieren, wenn sie diese für unvereinbar mit dem öffentlichen Interesse hält. Das Gesetz würde diese Ermessensentscheidung zu einer festen Regel machen und Kontrakte auf den Tod eines Menschen ergänzen, die das geltende Recht nicht erwähnt. Die endgültige Fassung stellt zudem klar, dass andere Ereigniskontrakte, etwa zu Spielen, nicht betroffen sind.
+
+!mid_cta
+
+## Warum gerade jetzt
+
+Abgeordnete befürchten, dass Menschen mit geheimen Informationen davon profitieren. Im Februar verdienten sechs Polymarket-Wallets rund <strong>1,2 Mio. $</strong> mit Wetten auf den Zeitpunkt der US-Angriffe auf Iran, so die Blockchain-Analysefirma Bubblemaps, zitiert von [CoinDesk](L4). Wer die Wallets kontrollierte, ist nicht bekannt. „Diese Kontrakte schaffen massenhaft Gelegenheiten für Insiderhandel“, sagte Schiff am Donnerstag.
+
+CoinDesk wies zudem darauf hin, dass Kalshi zwei Trader wegen Handels mit vertraulichen Informationen bestraft hat und dass Bundesanwälte einen Green Beret der US-Armee angeklagt haben, der mit seinem eigenen geheimen Wissen über einen Militäreinsatz in Venezuela gehandelt haben soll. Senator Curtis erklärte in einer [Mitteilung](L5): „Niemand sollte auf Terrorismus, Krieg oder den Tod eines anderen Menschen wetten dürfen.“
+
+!figure:fact
+
+## Was das für Sie bedeutet
+
+Für die meisten Menschen, die Bitcoin oder andere Kryptowährungen kaufen, ändert sich nichts. Das Gesetz betrifft Ereigniskontrakte an regulierten Börsen, nicht den Besitz von Coins. Wer Prognosemärkte nutzt, sieht daran, dass die Regeln dafür in Washington noch geschrieben werden und was heute angeboten wird, später verboten sein kann. Wer einfach Krypto besitzen möchte, startet häufig bei einer großen regulierten Börse wie [Coinbase](REF). Betrachten Sie jeden Handel auf Prognosemärkten als riskant und setzen Sie nur Geld ein, dessen Verlust Sie verkraften können. Dies ist weder Anlage- noch Rechtsberatung.
+
+## Worauf jetzt zu achten ist
+
+- Ob das Repräsentantenhaus den Entwurf oder die Fassung des Abgeordneten Levin noch vor Jahresende aufgreift.
+- Neue CFTC-Regeln für Prognosemärkte, die der Behördenchef laut Schiffs Büro angekündigt hat.
+- Wie Kalshi, Polymarket und andere Plattformen reagieren.
+
+!soft: Sie fragen sich, wie Coinbase Kundengelder schützt? Lesen Sie [ist Coinbase sicher für Einsteiger?](/articles/is-coinbase-safe-for-beginners).
+
+!end_cta
+
+!disclosure
