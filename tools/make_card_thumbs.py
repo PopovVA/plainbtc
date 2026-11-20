@@ -1505,7 +1505,79 @@ def thumb_sky_psm_illicit():
     ],"note":"PlainBTC-generated diagram; no logos or photos used."}
 
 
+
+def thumb_btc_below_62k_july():
+    """Paper-style chart: Kraken XBTUSD daily closes Jun 15 - Nov 19, 2026 and the Nov 19 intraday low ($61,353.20)."""
+    url = "https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=1440"
+    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60, context=CTX) as r:
+        rows = next(v for k, v in json.load(r)["result"].items() if k != "last")
+    start = datetime(2026, 6, 15, tzinfo=timezone.utc); end = datetime(2026, 11, 20, tzinfo=timezone.utc)
+    pts = [(datetime.fromtimestamp(r[0], tz=timezone.utc), float(r[4]), float(r[3])) for r in rows]
+    pts = [p for p in pts if start <= p[0] < end]
+    xs, closes = [p[0] for p in pts], [p[1] for p in pts]
+    low_x, low_v = pts[-1][0], pts[-1][2]          # Nov 19 (UTC) daily low
+    paper, ink = "#f6f1e7", "#1c1917"
+    fig = plt.figure(figsize=(6.4, 3.6), dpi=100 * S); fig.patch.set_facecolor(paper)
+    ax = fig.add_axes([0.06, 0.12, 0.90, 0.52]); ax.set_facecolor(paper)
+    for s in ("top", "right", "left"): ax.spines[s].set_visible(False)
+    ax.spines["bottom"].set_color("#a8a29e")
+    ax.tick_params(colors="#57534e", labelsize=7, length=0)
+    ax.grid(True, axis="y", color="#d6d3d1", linewidth=0.6)
+    ax.plot(xs, closes, color="#f7931a", linewidth=2.2)
+    ax.fill_between(xs, closes, min(closes + [low_v]) * 0.96, color="#f7931a", alpha=0.10)
+    ax.axhline(low_v, color="#b91c1c", linestyle=(0, (4, 3)), linewidth=1.0)
+    ax.scatter([low_x], [low_v], s=38, color="#b91c1c", zorder=5, edgecolors="white", linewidths=1.2)
+    ax.set_ylim(min(closes + [low_v]) * 0.96, max(closes) * 1.03)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"${v/1000:.0f}k"))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
+    fig.text(0.06, 0.86, "$61,353", color="#b91c1c", fontsize=30, fontweight="bold", va="center")
+    fig.text(0.42, 0.89, "Bitcoin low on Kraken, Nov. 19", color=ink, fontsize=11, fontweight="bold", va="center")
+    fig.text(0.42, 0.81, "lowest price since July 6, 2026", color="#57534e", fontsize=10, va="center")
+    fig.text(0.06, 0.70, "Daily close since mid-June", color="#78716c", fontsize=7.5, va="center")
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100 * S, facecolor=paper); plt.close(fig); buf.seek(0)
+    im = Image.open(buf).convert("RGB")
+    return im, {"kind":"chart","sources":[
+        {"file":"Kraken OHLC XBTUSD interval=1440","license":"Kraken public API","url":"https://docs.kraken.com/api/docs/rest-api/get-ohlc-data","credit":"Daily BTC/USD closes Jun 15 - Nov 19, 2026 and the Nov 19 low, from Kraken"}
+    ]}
+
+
+def thumb_coinbase_options_intl():
+    """Coinbase icon (Wikimedia Commons, identification) on Coinbase blue, an illustrative option payoff line, and the six launch assets."""
+    cb = fetch("https://upload.wikimedia.org/wikipedia/commons/5/5c/Coinbase_Icon.png", CACHE/"coinbase-icon.png")
+    base = Image.new("RGB", sz((W, H)), (0, 82, 255))
+    d = Draw(base)
+    # tile with the Coinbase icon
+    w = h = 116; x, y = 40, 46
+    tile = Image.new("RGBA", sz((w, h)), (255, 255, 255, 255))
+    mask = Image.new("L", sz((w, h)), 0); Draw(mask).rounded_rectangle([0, 0, w-1, h-1], radius=22, fill=255)
+    base.paste(tile.convert("RGB"), sz((x, y)), mask)
+    paste_contain(base, Image.open(cb).convert("RGBA"), (x, y, w, h), pad=14)
+    d.text((176, 58), "Crypto options", font=font(FONT_B, 34), fill=WHITE)
+    d.text((178, 104), "live outside the U.S. · settled in USDC", font=font(FONT_R, 17), fill=(219, 234, 254))
+    d.text((178, 130), "powered by Deribit", font=font(FONT_R, 17), fill=(219, 234, 254))
+    # illustrative long-call payoff ("hockey stick"), no numbers
+    ox, oy = 420, 300
+    d.line([(ox - 10, oy), (ox + 190, oy)], fill=(147, 197, 253), width=1)
+    d.line([(ox, oy - 14), (ox + 90, oy - 14), (ox + 180, oy - 104)], fill=WHITE, width=4, joint="curve")
+    d.text((ox, oy + 8), "call option payoff (illustration)", font=font(FONT_R, 11), fill=(191, 219, 254))
+    # six asset pills
+    px, py = 40, 200
+    for i, sym in enumerate(["BTC", "ETH", "SOL", "AVAX", "HYPE", "XRP"]):
+        f = font(FONT_B, 17); tw = d.textlength(sym, font=f)
+        cx = px + (i % 3) * 112; cy = py + (i // 3) * 50
+        d.rounded_rectangle([cx, cy, cx + 100, cy + 38], radius=19, fill=(255, 255, 255))
+        d.text((cx + (100 - tw) / 2, cy + 9), sym, font=f, fill=(0, 52, 170))
+    label_chip(base, "Coinbase · options via Deribit", xy=(16, 18))
+    return base, {"kind":"composite","sources":[
+        {"file":"Coinbase_Icon.png","license":"Logo","url":"https://commons.wikimedia.org/wiki/File:Coinbase_Icon.png","credit":"Coinbase"},
+        {"file":"Coinbase on X, Nov. 19, 2026","license":"Fact cited","url":"https://x.com/coinbase/status/2123416234373067020","credit":"Coinbase"},
+        {"file":"crypto.news, Nov. 19, 2026","license":"Fact cited","url":"https://crypto.news/coinbase-crypto-options-non-us-traders/","credit":"crypto.news (six assets, USDC settlement)"},
+    ],"note":"Editorial composite for identification; payoff line is a generic illustration; trademarks belong to their owners."}
+
+
 BUILDERS = {
+    "bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026": thumb_btc_below_62k_july,
+    "coinbase-crypto-options-non-us-users-deribit-nov-2026": thumb_coinbase_options_intl,
     "threat-disruption-center-crypto-scams-trm-labs-nov-2026": thumb_threat_disruption_center,
     "sky-stablecoin-psm-north-korea-518-million-inca-nov-2026": thumb_sky_psm_illicit,
     "ledger-tampered-wallets-berlin-dubai-nov-2026": thumb_ledger_berlin_dubai,

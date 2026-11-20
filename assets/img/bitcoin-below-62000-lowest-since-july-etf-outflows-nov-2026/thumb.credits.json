@@ -1,0 +1,21 @@
+{
+  "kind": "chart",
+  "sources": [
+    {
+      "file": "Kraken OHLC XBTUSD interval=1440",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Daily BTC/USD closes Jun 15 - Nov 19, 2026 and the Nov 19 low, from Kraken"
+    }
+  ],
+  "slug": "bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026",
+  "generated": "2026-11-20T00:09Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

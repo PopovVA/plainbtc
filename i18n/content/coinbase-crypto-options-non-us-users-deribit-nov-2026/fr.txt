@@ -1,0 +1,57 @@
+title: Coinbase lance des options crypto hors des États-Unis et promet un accès américain « bientôt »
+page_title: Coinbase lance des options crypto hors des États-Unis
+description: Coinbase a ouvert jeudi des options réglées en USDC sur le bitcoin, l'ether, Solana, Avalanche, Hyperliquid et XRP aux utilisateurs éligibles hors des États-Unis, grâce à la liquidité de Deribit. Son PDG Brian Armstrong promet un accès américain prochainement via Coinbase Pro.
+og_description: Coinbase propose désormais des options crypto sur six actifs aux clients éligibles hors des États-Unis, en s'appuyant sur le carnet d'ordres de Deribit, racheté en 2025. Les particuliers américains doivent patienter. Voici ce que sont les options et ce que ce lancement change pour les débutants.
+label: Entreprises
+summary: Coinbase a lancé jeudi 19 novembre des options crypto pour les clients éligibles de certains pays hors des États-Unis, grâce à la liquidité de Deribit. Les contrats portent sur six actifs et sont réglés en USDC. Son PDG Brian Armstrong a indiqué que les utilisateurs américains y auront accès « bientôt » via Coinbase Pro.
+===
+
+Coinbase, la plus grande plateforme crypto américaine, a commencé jeudi 19 novembre à proposer des options crypto à ses clients hors des États-Unis. « L'option que vous attendiez : les options crypto », a écrit l'entreprise dans une [publication sur X](L1), précisant que le produit s'appuie sur « la profonde liquidité mondiale de Deribit ».
+
+Les nouveaux contrats portent sur six actifs : bitcoin (BTC), ether (ETH), Solana (SOL), Avalanche (AVAX), Hyperliquid (HYPE) et XRP. Ils sont réglés en USDC, un stablecoin indexé sur le dollar, et ne sont accessibles qu'aux utilisateurs éligibles de certaines juridictions hors des États-Unis. Coinbase a précisé dans une [publication suivante](L2) que Deribit ne propose pas ses services aux États-Unis.
+
+!takeaways
+- Coinbase a lancé le 19 novembre des options sur BTC, ETH, SOL, AVAX, HYPE et XRP pour les clients éligibles hors des États-Unis.
+- Les contrats fonctionnent sur Deribit, la plateforme d'options rachetée par Coinbase en 2025, et sont réglés en USDC.
+- Le PDG Brian Armstrong a déclaré que les options « arrivent bientôt aux États-Unis avec Coinbase Pro », sans donner de date.
+- Les options sont des produits complexes et risqués ; les particuliers américains ne peuvent pas encore en négocier sur Coinbase.
+
+!figure:fact
+
+## Ce qui a été lancé exactement
+
+Les clients des pays concernés peuvent négocier ces options dans l'application Coinbase et dans Coinbase Advanced, son écran de trading plus détaillé, sur le web comme sur mobile. Il faut d'abord un compte spot Coinbase existant, puis remplir une inscription distincte aux produits dérivés avec des questions de vérification, et enfin alimenter un portefeuille de dérivés en USDC, bitcoin, ether ou autre garantie acceptée, [a rapporté crypto.news](L3) en citant les guides de Coinbase.
+
+Coinbase Advanced permet de passer plusieurs contrats en un seul ordre « combo » et affiche un graphique de gains avec le point mort, le gain maximal et la perte maximale avant l'envoi de l'ordre. Selon [CryptoCompass](L4), les contrats sont de type européen : ils ne peuvent être exercés qu'à l'échéance, même si leurs détenteurs peuvent les revendre avant.
+
+Hors des États-Unis, les dérivés mondiaux de Coinbase sont proposés par Coinbase Bermuda Ltd, régulée par l'Autorité monétaire des Bermudes, selon l'[annonce d'octobre](L5) de l'entreprise.
+
+## Pourquoi Deribit compte
+
+Deribit est une plateforme de dérivés crypto surtout connue pour ses options sur le bitcoin et l'ether. Coinbase a finalisé le rachat de Deribit pour 2,9 milliards de dollars le 14 août 2025, a rappelé crypto.news. En octobre 2026, Coinbase a annoncé la fin de l'intégration et la création de ce qu'elle appelle Coinbase Global Exchange, avec plus de 30 milliards de dollars d'intérêt ouvert sur les options bitcoin (la valeur des contrats en cours) au 30 septembre et plus de 1 000 milliards de dollars de volume l'an dernier.
+
+Un marché profond, avec beaucoup d'acheteurs et de vendeurs, se traduit en général par des prix plus serrés pour les traders. Coinbase a indiqué que les dérivés crypto mondiaux représentent environ 80 % du volume mondial d'échanges de cryptomonnaies, un marché dont les clients américains ont été largement exclus. Brancher ses propres clients sur le carnet d'ordres de Deribit est sa façon d'en capter une plus grande part.
+
+!figure:timeline
+
+!mid_cta
+
+## Et les clients américains ?
+
+Pas encore. Armstrong a réagi au lancement sur X : « Les options crypto sont désormais disponibles pour les utilisateurs hors des États-Unis ! Et elles arrivent bientôt aux États-Unis avec Coinbase Pro. » Il n'a pas donné de date. En octobre, Coinbase avait indiqué que l'accès des particuliers américains aux options viendrait « plus tard cette année » et que Coinbase Pro, une plateforme pour traders actifs, reviendrait fin 2026. Les institutions américaines disposent d'une autre voie, via Coinbase Prime et Coinbase Financial Markets, le courtier en contrats à terme de l'entreprise aux États-Unis.
+
+## Les options, en termes simples
+
+Une option est un contrat qui donne à l'acheteur le droit, mais pas l'obligation, d'acheter ou de vendre un actif à un prix fixé jusqu'à une date donnée. Un call est le droit d'acheter, un put le droit de vendre. L'acheteur paie d'avance un prix appelé prime. Si le marché ne va pas dans le bon sens, l'option peut expirer sans valeur et la prime est perdue. Les vendeurs d'options prennent des engagements et peuvent subir des pertes plus importantes.
+
+Les traders utilisent les options pour protéger ce qu'ils détiennent, par exemple en achetant un put sur le bitcoin qu'ils possèdent déjà, ou pour parier sur de fortes variations de prix. Ce n'est pas un produit pour débutants. Coinbase elle-même prévient que toute stratégie de trading comporte des risques, y compris la perte du capital.
+
+## Ce que cela signifie pour les débutants
+
+Pour la plupart des nouveaux investisseurs, rien ne change aujourd'hui. Si vous voulez simplement détenir un peu de bitcoin, la voie habituelle reste de l'acheter directement sur une plateforme régulée comme [Coinbase](REF), en petites quantités. Comprenez l'achat au comptant, les frais et la conservation avant de vous intéresser aux dérivés. Ceci n'est pas un conseil en investissement.
+
+!soft: Envie de comparer les coûts d'abord ? Lisez [Les frais de Coinbase expliqués](/articles/coinbase-fees-explained)
+
+!end_cta
+
+!disclosure

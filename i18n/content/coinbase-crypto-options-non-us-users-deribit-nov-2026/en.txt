@@ -1,0 +1,57 @@
+title: Coinbase launches crypto options for users outside the U.S., with U.S. access promised "soon"
+page_title: Coinbase launches crypto options outside the U.S.
+description: Coinbase opened USDC-settled options on bitcoin, ether, Solana, Avalanche, Hyperliquid and XRP to eligible users outside the U.S. on Thursday, powered by Deribit. CEO Brian Armstrong says U.S. access is coming soon via Coinbase Pro.
+og_description: Coinbase now offers crypto options on six assets to eligible customers outside the U.S., using the order book of Deribit, which it bought in 2025. U.S. retail users must wait. Here is what options are and what the launch means for beginners.
+label: Business
+summary: Coinbase launched crypto options for eligible customers in select countries outside the U.S. on Thursday, Nov. 19, using Deribit's liquidity. The contracts cover six assets and settle in USDC. CEO Brian Armstrong said U.S. users will get options "soon" through Coinbase Pro.
+===
+
+Coinbase, the largest U.S. crypto exchange, started offering crypto options to customers outside the United States on Thursday, Nov. 19. "The option you've been waiting for: crypto options," the company wrote in a [post on X](L1), adding that the product is "powered by Deribit's deep global liquidity."
+
+The new contracts cover six assets: bitcoin (BTC), ether (ETH), Solana (SOL), Avalanche (AVAX), Hyperliquid (HYPE) and XRP. They settle in USDC, a dollar-pegged stablecoin, and are available only to eligible users in select jurisdictions outside the U.S. Coinbase said in a [follow-up post](L2) that Deribit does not offer its services in the U.S.
+
+!takeaways
+- Coinbase launched options on BTC, ETH, SOL, AVAX, HYPE and XRP for eligible non-U.S. customers on Nov. 19.
+- The contracts run on Deribit, the options exchange Coinbase bought in 2025, and settle in USDC.
+- CEO Brian Armstrong said options are "coming to the US soon with Coinbase Pro," without giving a date.
+- Options are complex and risky products; U.S. retail customers cannot trade them on Coinbase yet.
+
+!figure:fact
+
+## What exactly launched
+
+Customers in supported countries can trade the options in the Coinbase app and in Coinbase Advanced, its more detailed trading screen, on the web and on mobile. To start, a customer needs an existing Coinbase spot account, has to complete a separate derivatives sign-up with verification questions, and then funds a derivatives portfolio with USDC, bitcoin, ether or other accepted collateral, [crypto.news reported](L3), citing Coinbase's guides.
+
+Coinbase Advanced lets traders place several contracts as one "combo" order and shows a payoff chart with the break-even point and the maximum profit and loss before the trade is sent. According to [CryptoCompass](L4), the contracts are European-style, which means they can only be exercised on the expiry date, although holders can sell them earlier.
+
+Outside the U.S., Coinbase's global derivatives are offered by Coinbase Bermuda Ltd, which is regulated by the Bermuda Monetary Authority, according to the company's [October announcement](L5).
+
+## Why Deribit matters
+
+Deribit is a crypto derivatives exchange best known for bitcoin and ether options. Coinbase completed its $2.9 billion purchase of Deribit on Aug. 14, 2025, crypto.news noted. In October 2026 Coinbase said the integration was complete, creating what it calls the Coinbase Global Exchange, with more than $30 billion in bitcoin options open interest (the value of outstanding contracts) as of Sept. 30 and more than $1 trillion in trading volume last year.
+
+A deep pool of buyers and sellers usually means tighter prices for traders. Coinbase has said that global crypto derivatives make up roughly 80% of crypto trading volume worldwide, a market U.S. customers have largely been shut out of. Plugging its own customers into Deribit's order book is its bid for a bigger share of it.
+
+!figure:timeline
+
+!mid_cta
+
+## What about U.S. customers?
+
+Not yet. Armstrong replied to the launch on X: "Crypto options are now live for non-US users! And are also coming to the US soon with Coinbase Pro." He did not give a date. In October, Coinbase said U.S. retail access to options was coming "later this year" and that Coinbase Pro, a platform for active traders, would return at the end of 2026. U.S. institutions have a separate route through Coinbase Prime and Coinbase Financial Markets, the company's U.S. futures broker.
+
+## Options in plain English
+
+An option is a contract that gives the buyer the right, but not the obligation, to buy or sell an asset at a set price by a set date. A call is the right to buy, and a put is the right to sell. The buyer pays an upfront price called a premium. If the market does not move the right way, the option can expire worthless and the premium is lost. Sellers of options take on obligations and can face larger losses.
+
+Traders use options to protect holdings, for example by buying a put on bitcoin they already own, or to bet on big price swings. They are not a beginner product. Coinbase itself warns that all trading strategies involve risk, including loss of capital.
+
+## What it means for beginners
+
+For most new investors, nothing changes today. If you are in the U.S. and simply want to own a little bitcoin, the usual path is still buying it directly on a regulated exchange such as [Coinbase](REF) and keeping amounts small. Learn how spot buying, fees and storage work before looking at derivatives. This is not investment advice.
+
+!soft: Want to compare exchange costs first? Read [Coinbase fees explained](/articles/coinbase-fees-explained)
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,57 @@
+title: Coinbase meluncurkan opsi kripto untuk pengguna di luar AS, akses AS dijanjikan "segera"
+page_title: Coinbase meluncurkan opsi kripto di luar AS
+description: Coinbase pada Kamis membuka opsi yang diselesaikan dalam USDC untuk bitcoin, ether, Solana, Avalanche, Hyperliquid, dan XRP bagi pengguna yang memenuhi syarat di luar AS, didukung likuiditas Deribit. CEO Brian Armstrong mengatakan akses AS segera hadir lewat Coinbase Pro.
+og_description: Coinbase kini menawarkan opsi kripto untuk enam aset kepada nasabah yang memenuhi syarat di luar AS, memakai buku pesanan Deribit yang dibelinya pada 2025. Pengguna ritel AS harus menunggu. Berikut penjelasan soal opsi dan arti peluncuran ini bagi pemula.
+label: Bisnis
+summary: Coinbase meluncurkan opsi kripto pada Kamis, 19 November, untuk nasabah yang memenuhi syarat di sejumlah negara di luar AS, dengan likuiditas Deribit. Kontraknya mencakup enam aset dan diselesaikan dalam USDC. CEO Brian Armstrong mengatakan pengguna AS akan mendapat opsi "segera" lewat Coinbase Pro.
+===
+
+Coinbase, bursa kripto terbesar di AS, mulai menawarkan opsi kripto kepada nasabah di luar Amerika Serikat pada Kamis, 19 November. "Opsi yang selama ini Anda tunggu: opsi kripto," tulis perusahaan itu dalam [unggahan di X](L1), seraya menambahkan bahwa produk ini "didukung likuiditas global Deribit yang dalam".
+
+Kontrak baru ini mencakup enam aset: bitcoin (BTC), ether (ETH), Solana (SOL), Avalanche (AVAX), Hyperliquid (HYPE), dan XRP. Kontrak diselesaikan dalam USDC, stablecoin yang dipatok ke dolar, dan hanya tersedia bagi pengguna yang memenuhi syarat di yurisdiksi tertentu di luar AS. Dalam [unggahan berikutnya](L2), Coinbase menyatakan Deribit tidak menawarkan layanannya di AS.
+
+!takeaways
+- Coinbase meluncurkan opsi BTC, ETH, SOL, AVAX, HYPE, dan XRP untuk nasabah yang memenuhi syarat di luar AS pada 19 November.
+- Kontraknya berjalan di Deribit, bursa opsi yang dibeli Coinbase pada 2025, dan diselesaikan dalam USDC.
+- CEO Brian Armstrong mengatakan opsi "segera hadir di AS dengan Coinbase Pro", tanpa menyebut tanggal.
+- Opsi adalah produk yang rumit dan berisiko; nasabah ritel AS belum bisa memperdagangkannya di Coinbase.
+
+!figure:fact
+
+## Apa persisnya yang diluncurkan
+
+Nasabah di negara yang didukung dapat memperdagangkan opsi di aplikasi Coinbase dan di Coinbase Advanced, tampilan perdagangan yang lebih rinci, lewat web maupun ponsel. Untuk memulai, nasabah perlu akun spot Coinbase yang sudah ada, menyelesaikan pendaftaran derivatif terpisah dengan pertanyaan verifikasi, lalu mengisi portofolio derivatif dengan USDC, bitcoin, ether, atau jaminan lain yang diterima, [lapor crypto.news](L3) mengutip panduan Coinbase.
+
+Coinbase Advanced memungkinkan beberapa kontrak dikirim sebagai satu pesanan "kombo" dan menampilkan grafik hasil berisi titik impas serta laba dan rugi maksimum sebelum transaksi dikirim. Menurut [CryptoCompass](L4), kontraknya bergaya Eropa, artinya hanya bisa dieksekusi pada tanggal jatuh tempo, meski pemegangnya bisa menjualnya lebih awal.
+
+Di luar AS, derivatif global Coinbase ditawarkan oleh Coinbase Bermuda Ltd yang diatur oleh Otoritas Moneter Bermuda, menurut [pengumuman Oktober](L5) perusahaan.
+
+## Mengapa Deribit penting
+
+Deribit adalah bursa derivatif kripto yang paling dikenal lewat opsi bitcoin dan ether. Coinbase menuntaskan pembelian Deribit senilai US$2,9 miliar pada 14 Agustus 2025, catat crypto.news. Pada Oktober 2026, Coinbase menyatakan integrasi selesai dan membentuk apa yang disebutnya Coinbase Global Exchange, dengan open interest opsi bitcoin (nilai kontrak yang masih berjalan) lebih dari US$30 miliar per 30 September dan volume perdagangan lebih dari US$1 triliun tahun lalu.
+
+Pasar yang dalam dengan banyak pembeli dan penjual biasanya berarti harga yang lebih rapat bagi trader. Coinbase pernah menyebut derivatif kripto global menyumbang sekitar 80% volume perdagangan kripto dunia, pasar yang sebagian besar tertutup bagi nasabah AS. Menghubungkan nasabahnya sendiri ke buku pesanan Deribit adalah upaya Coinbase merebut porsi yang lebih besar.
+
+!figure:timeline
+
+!mid_cta
+
+## Bagaimana dengan nasabah AS?
+
+Belum. Armstrong menanggapi peluncuran itu di X: "Opsi kripto kini tersedia untuk pengguna di luar AS! Dan juga segera hadir di AS dengan Coinbase Pro." Ia tidak menyebut tanggal. Pada Oktober, Coinbase mengatakan akses ritel AS ke opsi akan hadir "akhir tahun ini" dan Coinbase Pro, platform untuk trader aktif, akan kembali pada akhir 2026. Institusi AS punya jalur terpisah lewat Coinbase Prime dan Coinbase Financial Markets, pialang berjangka perusahaan di AS.
+
+## Opsi dengan bahasa sederhana
+
+Opsi adalah kontrak yang memberi pembeli hak, tetapi bukan kewajiban, untuk membeli atau menjual aset pada harga yang ditetapkan hingga tanggal tertentu. Call adalah hak untuk membeli, sedangkan put adalah hak untuk menjual. Pembeli membayar di muka harga yang disebut premi. Jika pasar tidak bergerak ke arah yang diharapkan, opsi bisa kedaluwarsa tanpa nilai dan premi hilang. Penjual opsi menanggung kewajiban dan bisa mengalami kerugian lebih besar.
+
+Trader memakai opsi untuk melindungi aset, misalnya membeli put atas bitcoin yang sudah mereka miliki, atau untuk bertaruh pada pergerakan harga besar. Ini bukan produk untuk pemula. Coinbase sendiri memperingatkan bahwa semua strategi perdagangan mengandung risiko, termasuk kehilangan modal.
+
+## Artinya bagi pemula
+
+Bagi sebagian besar investor baru, tidak ada yang berubah hari ini. Jika Anda hanya ingin memiliki sedikit bitcoin, cara yang biasa tetap membelinya langsung di platform yang diatur seperti [Coinbase](REF) dengan jumlah kecil. Pahami cara kerja pembelian spot, biaya, dan penyimpanan sebelum melirik derivatif. Ini bukan saran investasi.
+
+!soft: Ingin membandingkan biaya dulu? Baca [Biaya Coinbase dijelaskan](/articles/coinbase-fees-explained)
+
+!end_cta
+
+!disclosure

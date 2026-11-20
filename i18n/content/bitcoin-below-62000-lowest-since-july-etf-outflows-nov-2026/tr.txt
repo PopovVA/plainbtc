@@ -1,0 +1,61 @@
+title: Bitcoin 62.000 doların altına inerek temmuzdan bu yana en düşük seviyeyi gördü, hisseler de geriledi
+page_title: Bitcoin 62.000 doların altında, temmuzdan bu yana en düşük seviye
+description: Bitcoin perşembe günü Kraken'de yaklaşık 61.353 dolara gerileyerek 6 Temmuz'dan bu yana en düşük fiyatını gördü; ABD hisseleri yaklaşık %2 düştü. Spot bitcoin ETF'lerinden kasımda şimdiye kadar 2,89 milyar dolar net çıkış oldu.
+og_description: Bitcoin geçen hafta sonunun dibini kırdı ve perşembe günü yaklaşık 61.353 dolara inerek temmuz başından bu yana en düşük seviyeyi gördü. ABD hisseleri yaklaşık %2 düşerken spot bitcoin ETF'leri yoğun çıkışlarla geçen bir aya doğru gidiyor. Ne olduğunu sade bir dille anlatıyoruz.
+label: Piyasa
+summary: Bitcoin perşembe öğleden sonra Kraken'de yaklaşık 61.353 dolara geriledi; bu, geçen hafta sonunun dibinin altında ve 6 Temmuz'dan bu yana en düşük fiyat. Nasdaq ve Dow ise yaklaşık %2'şer düştü. ABD spot bitcoin ETF'lerinden kasımda yaklaşık 2,89 milyar dolar net çıkış oldu.
+===
+
+Bitcoin 19 Kasım perşembe günü 62.000 doların altına indi ve bu satış dalgasında yeni bir dip yaptı. PlainBTC'nin Kraken'in [herkese açık fiyat verileri](L5) üzerinden yaptığı kontrole göre en büyük kripto para, ABD merkez saatiyle 15.00 diliminde Kraken'de <strong>61.353,20 dolara</strong> kadar geriledi. Bu, 6 Temmuz 2026'dan bu yana en düşük fiyat ve geçen cumartesi gecesi görülen dibin yaklaşık 620 dolar altında.
+
+Gün daha iyi başlamıştı. Bitcoin perşembe sabahı erken saatlerde yaklaşık 64.000 dolara çıktı, ardından ABD borsaları öğleden sonra sert düşünce geriledi. Merkez saatiyle 18.00 civarında 62.000 dolar dolaylarında işlem görüyordu. Ether, Kraken'de yaklaşık 1.734 dolara indikten sonra 1.760 dolar civarında dengelendi.
+
+!takeaways
+- Bitcoin perşembe günü Kraken'de yaklaşık 61.353 dolarla 6 Temmuz 2026'dan bu yana en düşük fiyatını gördü.
+- CoinDesk'e göre Nasdaq ve Dow yaklaşık %2,1'er, S&P 500 ise yaklaşık %1,9 düştü.
+- Farside Investors'a göre ABD spot bitcoin ETF'lerinden çarşamba günü 306,5 milyon dolar, kasımda 18'ine kadar ise yaklaşık 2,89 milyar dolar net çıkış oldu.
+- CoinDesk'e göre bitcoin üst üste yedinci kayıp haftasına doğru gidiyor; bu, 2022'deki dokuz haftadan sonra en uzun ikinci haftalık kayıp serisi olur.
+
+!figure:chart
+
+## Perşembe günü ne oldu
+
+Düşüş Wall Street'i izledi. Claude sohbet botunun arkasındaki yapay zekâ şirketi Anthropic'in hisseleri, rekor halka arzın ardından perşembe günü işlem görmeye başladı ve 83 dolarlık halka arz fiyatının epey üzerinde kaldı. Piyasanın geri kalanı ise dayanamadı. CoinDesk'in [canlı yayınına](L1) göre öğleden sonra geç saatlerde Nasdaq ve Dow Jones Industrial Average %2,1, S&P 500 ise %1,9 düşüşteydi. Altın da %2 daha gerileyerek ons başına yaklaşık 3.667 dolara, Eylül 2025'ten bu yana en zayıf seviyesine indi.
+
+Kapanışa doğru hisse satışları hızlanırken bitcoin, CoinDesk'in "hafta sonunun panik dipleri" dediği seviyeleri kırdı. [Bitcoin Magazine](L2), bitcoinin ABD piyasaları açıldığında 63.900 dolar civarında olduğunu ve öğlene kadar yaklaşık 62.200 dolara gerilediğini, sonra daha da düştüğünü belirtti.
+
+## Uzun bir kayıp serisi
+
+Bu tek günlük bir hikâye değil. Bitcoin üst üste yedinci kayıp haftasına doğru gidiyor. Hafta düşüşle kapanırsa bu, 2022'deki art arda dokuz kayıp haftasının ardından bitcoin tarihindeki en uzun ikinci haftalık kayıp serisi olacak, diye yazdı CoinDesk. Bitcoin Magazine, 19 Ekim'deki yaklaşık 81.800 dolarlık kapanıştan bu yana yaklaşık %25'lik bir düşüş hesapladı.
+
+Kraken'de bitcoinin ekimdeki en yüksek fiyatı 2 Ekim'de yaklaşık 87.229 dolardı. Perşembe günkü dip bu seviyenin neredeyse %30 altında.
+
+Yatırımcılar faiz oranları konusunda da tedirgin. Fed'in ekim toplantısının çarşamba günü yayımlanan tutanakları, [yetkililerin neredeyse tamamının](L3) yeni faiz artışlarını uygun gördüğünü ortaya koydu. Yüksek faiz güvenli birikimlerin daha fazla getiri sağlamasına yol açar ve parayı kripto gibi daha riskli varlıklardan uzaklaştırabilir. Fed'in bir sonraki toplantısı 8-9 Aralık'ta.
+
+!figure:fact
+
+!mid_cta
+
+## Büyük fonlar satmaya devam ediyor
+
+Bitcoin tutan borsa yatırım fonları, ABD'li yatırımcıların normal bir aracı kurum hesabıyla bitcoin sahibi olmasının en kolay yollarından biri. Bu fonlar ay boyunca küçüldü. [Farside Investors](L4) verilerine göre ABD spot bitcoin ETF'lerinden 18 Kasım çarşamba günü 306,5 milyon dolar net çıkış oldu. Çıkışlara 148,7 milyon dolarla BlackRock'ın iShares Bitcoin Trust'ı (IBIT) öncülük etti; onu 69,3 milyon dolarla Fidelity'nin FBTC'si ve 36,6 milyon dolarla Bitwise'ın BITB'si izledi. O gün hiçbir fona para girmedi.
+
+Farside'ın günlük rakamları toplandığında fonlar kasımda şimdiye kadar yaklaşık 2,89 milyar dolar kaybetti; 18 Kasım'a kadarki 13 işlem gününün 11'inde çıkış yaşandı. Yalnızca 4 ve 16 Kasım küçük net girişlerle kapandı. Perşembe gününün tam verileri bu yazı yayımlandığında henüz açıklanmamıştı.
+
+!figure:flows
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Sert düşüşler bitcoin sahibi olmanın bir parçası ve kimse dibi güvenilir şekilde tahmin edemez. %30'luk bir düşüşten sonra ucuz görünen bir fiyat daha da inebilir, hızla toparlanabilir de. Almayı düşünüyorsanız, yeni başlayanların çoğu her şeyi bir kerede almak yerine küçük alımları haftalara ya da aylara yayar; bazıları da küçük başlamak için [Coinbase](REF) gibi büyük ve düzenlenmiş bir platform kullanır. Yalnızca kaybetmeyi göze alabileceğiniz parayı yatırın ve borçla almaktan kaçının. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Bitcoinin, birçok yatırımcının takip ettiği yuvarlak bir seviye olan 60.000 doların üzerinde kalıp kalmayacağı.
+- Haftalık kayıp serisinin yedi haftaya ulaşıp ulaşmayacağını belirleyecek cuma kapanışı.
+- Perşembe ve cuma günlerine ait spot bitcoin ETF akış verileri ile 8-9 Aralık toplantısı öncesindeki Fed konuşmaları.
+
+!soft: Bitcoini adım adım almaya mı başlıyorsunuz? [Yeni başlayan biri ne kadar bitcoin almalı?](/articles/how-much-bitcoin-should-a-beginner-buy-dca) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

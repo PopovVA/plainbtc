@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Coinbase_Icon.png",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Coinbase_Icon.png",
+      "credit": "Coinbase"
+    },
+    {
+      "file": "Coinbase on X, Nov. 19, 2026",
+      "license": "Fact cited",
+      "url": "https://x.com/coinbase/status/2123416234373067020",
+      "credit": "Coinbase"
+    },
+    {
+      "file": "crypto.news, Nov. 19, 2026",
+      "license": "Fact cited",
+      "url": "https://crypto.news/coinbase-crypto-options-non-us-traders/",
+      "credit": "crypto.news (six assets, USDC settlement)"
+    }
+  ],
+  "note": "Editorial composite for identification; payoff line is a generic illustration; trademarks belong to their owners.",
+  "slug": "coinbase-crypto-options-non-us-users-deribit-nov-2026",
+  "generated": "2026-11-20T00:09Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

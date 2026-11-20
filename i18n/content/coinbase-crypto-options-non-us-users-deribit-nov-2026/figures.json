@@ -1,0 +1,64 @@
+[
+  {
+    "id": "fact",
+    "file": "fact-six-assets-usdc-settled.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: Coinbase options launched Nov. 19, 2026 outside the U.S. on six assets, BTC, ETH, SOL, AVAX, HYPE and XRP, settled in USDC and powered by Deribit; not yet available to U.S. retail users",
+      "es": "Tarjeta: las opciones de Coinbase se lanzaron el 19 de noviembre de 2026 fuera de EE. UU. sobre seis activos, BTC, ETH, SOL, AVAX, HYPE y XRP, liquidadas en USDC y con la liquidez de Deribit; aún no disponibles para usuarios minoristas de EE. UU.",
+      "pt": "Cartão: as opções da Coinbase foram lançadas em 19 de novembro de 2026 fora dos EUA sobre seis ativos, BTC, ETH, SOL, AVAX, HYPE e XRP, liquidadas em USDC e com a liquidez da Deribit; ainda indisponíveis para usuários de varejo dos EUA",
+      "fr": "Carte : les options de Coinbase ont été lancées le 19 novembre 2026 hors des États-Unis sur six actifs, BTC, ETH, SOL, AVAX, HYPE et XRP, réglées en USDC et adossées à Deribit ; pas encore accessibles aux particuliers américains",
+      "de": "Faktenkarte: Coinbase-Optionen starteten am 19. November 2026 außerhalb der USA auf sechs Assets, BTC, ETH, SOL, AVAX, HYPE und XRP, mit Abrechnung in USDC und Liquidität von Deribit; für US-Privatkunden noch nicht verfügbar",
+      "ru": "Карточка: опционы Coinbase запущены 19 ноября 2026 года за пределами США на шесть активов (BTC, ETH, SOL, AVAX, HYPE и XRP), расчеты в USDC, ликвидность Deribit; розничным клиентам в США пока недоступны",
+      "tr": "Kart: Coinbase opsiyonları 19 Kasım 2026'da ABD dışında altı varlık için başladı: BTC, ETH, SOL, AVAX, HYPE ve XRP; USDC ile uzlaşılıyor ve Deribit likiditesini kullanıyor; ABD'li bireysel kullanıcılara henüz açık değil",
+      "id": "Kartu: opsi Coinbase diluncurkan 19 November 2026 di luar AS untuk enam aset, BTC, ETH, SOL, AVAX, HYPE, dan XRP, diselesaikan dalam USDC dan didukung Deribit; belum tersedia bagi pengguna ritel AS",
+      "ja": "カード：コインベースのオプションは2026年11月19日に米国外で開始。対象はBTC、ETH、SOL、AVAX、HYPE、XRPの6資産で、USDCで決済され、Deribitの流動性を利用。米国の個人ユーザーはまだ利用できない",
+      "ko": "카드: 코인베이스 옵션은 2026년 11월 19일 미국 밖에서 BTC, ETH, SOL, AVAX, HYPE, XRP 6개 자산으로 출시됐으며, USDC로 정산되고 Deribit 유동성을 쓴다. 미국 개인 이용자는 아직 이용할 수 없다"
+    },
+    "caption": {
+      "en": "Source: Coinbase on X, crypto.news",
+      "es": "Fuente: Coinbase on X, crypto.news",
+      "pt": "Fonte: Coinbase on X, crypto.news",
+      "fr": "Source : Coinbase on X, crypto.news",
+      "de": "Quelle: Coinbase on X, crypto.news",
+      "ru": "Источник: Coinbase on X, crypto.news",
+      "tr": "Kaynak: Coinbase on X, crypto.news",
+      "id": "Sumber: Coinbase on X, crypto.news",
+      "ja": "出典: Coinbase on X, crypto.news",
+      "ko": "출처: Coinbase on X, crypto.news"
+    }
+  },
+  {
+    "id": "timeline",
+    "file": "timeline-coinbase-deribit-options.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "timeline",
+    "alt": {
+      "en": "Timeline: Coinbase completed its $2.9 billion Deribit purchase on Aug. 14, 2025, said the integration was complete on Oct. 7, 2026, and launched options for eligible non-U.S. users on Nov. 19, 2026; U.S. access is promised soon via Coinbase Pro with no date",
+      "es": "Cronología: Coinbase completó la compra de Deribit por 2.900 millones de dólares el 14 de agosto de 2025, dio por terminada la integración el 7 de octubre de 2026 y lanzó opciones para usuarios elegibles fuera de EE. UU. el 19 de noviembre de 2026; el acceso en EE. UU. llegará pronto vía Coinbase Pro, sin fecha",
+      "pt": "Linha do tempo: a Coinbase concluiu a compra da Deribit por US$ 2,9 bilhões em 14 de agosto de 2025, anunciou a integração concluída em 7 de outubro de 2026 e lançou opções para usuários elegíveis fora dos EUA em 19 de novembro de 2026; o acesso nos EUA virá em breve via Coinbase Pro, sem data",
+      "fr": "Chronologie : Coinbase a finalisé le rachat de Deribit pour 2,9 milliards de dollars le 14 août 2025, a annoncé la fin de l'intégration le 7 octobre 2026 et a lancé les options pour les utilisateurs éligibles hors des États-Unis le 19 novembre 2026 ; l'accès américain est promis bientôt via Coinbase Pro, sans date",
+      "de": "Zeitleiste: Coinbase schloss den Kauf von Deribit für 2,9 Mrd. $ am 14. August 2025 ab, meldete die Integration am 7. Oktober 2026 als abgeschlossen und startete Optionen für berechtigte Nutzer außerhalb der USA am 19. November 2026; US-Zugang soll bald über Coinbase Pro kommen, ohne Datum",
+      "ru": "Хронология: Coinbase закрыла покупку Deribit за $2,9 млрд 14 августа 2025 года, 7 октября 2026 года объявила о завершении интеграции и 19 ноября 2026 года запустила опционы для подходящих пользователей за пределами США; доступ в США обещан скоро через Coinbase Pro, без даты",
+      "tr": "Zaman çizelgesi: Coinbase, Deribit'i 2,9 milyar $'a satın alma işlemini 14 Ağustos 2025'te tamamladı, entegrasyonun bittiğini 7 Ekim 2026'da açıkladı ve 19 Kasım 2026'da ABD dışındaki uygun kullanıcılar için opsiyonları başlattı; ABD erişimi tarih verilmeden yakında Coinbase Pro ile vaat ediliyor",
+      "id": "Linimasa: Coinbase menuntaskan pembelian Deribit senilai US$2,9 miliar pada 14 Agustus 2025, menyatakan integrasi selesai pada 7 Oktober 2026, dan meluncurkan opsi bagi pengguna yang memenuhi syarat di luar AS pada 19 November 2026; akses AS dijanjikan segera lewat Coinbase Pro tanpa tanggal",
+      "ja": "年表：コインベースは2025年8月14日に29億ドルのDeribit買収を完了、2026年10月7日に統合完了を発表し、2026年11月19日に米国外の対象ユーザー向けにオプションを開始。米国ではCoinbase Proで「近く」提供予定だが日付は未定",
+      "ko": "연표: 코인베이스는 2025년 8월 14일 29억 달러 규모의 Deribit 인수를 마무리했고, 2026년 10월 7일 통합 완료를 발표했으며, 2026년 11월 19일 미국 외 적격 이용자에게 옵션을 출시했다. 미국 출시는 날짜 없이 Coinbase Pro를 통해 '곧' 이뤄질 예정이다"
+    },
+    "caption": {
+      "en": "Source: Coinbase, crypto.news, Brian Armstrong on X",
+      "es": "Fuente: Coinbase, crypto.news, Brian Armstrong on X",
+      "pt": "Fonte: Coinbase, crypto.news, Brian Armstrong on X",
+      "fr": "Source : Coinbase, crypto.news, Brian Armstrong on X",
+      "de": "Quelle: Coinbase, crypto.news, Brian Armstrong on X",
+      "ru": "Источник: Coinbase, crypto.news, Brian Armstrong on X",
+      "tr": "Kaynak: Coinbase, crypto.news, Brian Armstrong on X",
+      "id": "Sumber: Coinbase, crypto.news, Brian Armstrong on X",
+      "ja": "出典: Coinbase, crypto.news, Brian Armstrong on X",
+      "ko": "출처: Coinbase, crypto.news, Brian Armstrong on X"
+    }
+  }
+]

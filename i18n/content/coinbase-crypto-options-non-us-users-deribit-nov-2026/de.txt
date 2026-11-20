@@ -1,0 +1,57 @@
+title: Coinbase startet Krypto-Optionen für Nutzer außerhalb der USA, US-Zugang soll „bald“ folgen
+page_title: Coinbase startet Krypto-Optionen außerhalb der USA
+description: Coinbase hat am Donnerstag in USDC abgerechnete Optionen auf Bitcoin, Ether, Solana, Avalanche, Hyperliquid und XRP für berechtigte Nutzer außerhalb der USA freigeschaltet, mit Liquidität von Deribit. CEO Brian Armstrong kündigt den US-Zugang bald über Coinbase Pro an.
+og_description: Coinbase bietet berechtigten Kunden außerhalb der USA jetzt Krypto-Optionen auf sechs Assets an und nutzt dafür das Orderbuch von Deribit, das es 2025 gekauft hat. US-Privatkunden müssen warten. Was Optionen sind und was der Start für Einsteiger bedeutet.
+label: Unternehmen
+summary: Coinbase hat am Donnerstag, dem 19. November, Krypto-Optionen für berechtigte Kunden in ausgewählten Ländern außerhalb der USA gestartet, mit Liquidität von Deribit. Die Kontrakte decken sechs Assets ab und werden in USDC abgerechnet. CEO Brian Armstrong sagte, US-Nutzer bekämen Optionen „bald“ über Coinbase Pro.
+===
+
+Coinbase, die größte US-Kryptobörse, bietet seit Donnerstag, dem 19. November, Kunden außerhalb der Vereinigten Staaten Krypto-Optionen an. „Die Option, auf die Sie gewartet haben: Krypto-Optionen“, schrieb das Unternehmen in einem [Beitrag auf X](L1) und fügte hinzu, das Produkt werde von „Deribits tiefer globaler Liquidität“ angetrieben.
+
+Die neuen Kontrakte decken sechs Assets ab: Bitcoin (BTC), Ether (ETH), Solana (SOL), Avalanche (AVAX), Hyperliquid (HYPE) und XRP. Sie werden in USDC abgerechnet, einem an den Dollar gekoppelten Stablecoin, und stehen nur berechtigten Nutzern in ausgewählten Ländern außerhalb der USA offen. In einem [weiteren Beitrag](L2) stellte Coinbase klar, dass Deribit seine Dienste in den USA nicht anbietet.
+
+!takeaways
+- Coinbase hat am 19. November Optionen auf BTC, ETH, SOL, AVAX, HYPE und XRP für berechtigte Kunden außerhalb der USA gestartet.
+- Die Kontrakte laufen über Deribit, die Optionsbörse, die Coinbase 2025 gekauft hat, und werden in USDC abgerechnet.
+- CEO Brian Armstrong sagte, Optionen kämen „bald mit Coinbase Pro in die USA“, nannte aber kein Datum.
+- Optionen sind komplexe und riskante Produkte; US-Privatkunden können sie auf Coinbase noch nicht handeln.
+
+!figure:fact
+
+## Was genau gestartet ist
+
+Kunden in unterstützten Ländern können die Optionen in der Coinbase-App und in Coinbase Advanced, der ausführlicheren Handelsansicht, im Web und mobil handeln. Dafür brauchen sie ein bestehendes Coinbase-Spot-Konto, müssen eine separate Derivate-Anmeldung mit Prüffragen durchlaufen und anschließend ein Derivate-Portfolio mit USDC, Bitcoin, Ether oder anderen akzeptierten Sicherheiten aufladen, wie [crypto.news berichtete](L3), gestützt auf Leitfäden von Coinbase.
+
+In Coinbase Advanced lassen sich mehrere Kontrakte als eine einzige „Combo“-Order aufgeben, und vor dem Absenden zeigt ein Auszahlungsdiagramm den Break-even-Punkt sowie den maximalen Gewinn und Verlust. Laut [CryptoCompass](L4) handelt es sich um europäische Optionen: Sie können nur am Verfallstag ausgeübt, aber vorher verkauft werden.
+
+Außerhalb der USA werden die globalen Derivate von Coinbase von der Coinbase Bermuda Ltd angeboten, die von der Bermuda Monetary Authority beaufsichtigt wird, wie es in der [Ankündigung vom Oktober](L5) heißt.
+
+## Warum Deribit wichtig ist
+
+Deribit ist eine Krypto-Derivatebörse, die vor allem für Optionen auf Bitcoin und Ether bekannt ist. Coinbase schloss den Kauf von Deribit für 2,9 Mrd. Dollar am 14. August 2025 ab, wie crypto.news erinnerte. Im Oktober 2026 erklärte Coinbase die Integration für abgeschlossen und schuf damit die sogenannte Coinbase Global Exchange, mit mehr als 30 Mrd. Dollar offenen Positionen bei Bitcoin-Optionen (dem Wert laufender Kontrakte) zum 30. September und mehr als 1 Billion Dollar Handelsvolumen im vergangenen Jahr.
+
+Ein tiefer Markt mit vielen Käufern und Verkäufern bedeutet für Händler meist engere Preise. Coinbase zufolge machen globale Krypto-Derivate rund 80% des weltweiten Krypto-Handelsvolumens aus, ein Markt, von dem US-Kunden weitgehend ausgeschlossen waren. Mit dem Anschluss der eigenen Kunden an das Orderbuch von Deribit will Coinbase sich einen größeren Anteil daran sichern.
+
+!figure:timeline
+
+!mid_cta
+
+## Und die US-Kunden?
+
+Noch nicht. Armstrong reagierte auf X auf den Start: „Krypto-Optionen sind jetzt für Nutzer außerhalb der USA verfügbar! Und sie kommen bald auch mit Coinbase Pro in die USA.“ Ein Datum nannte er nicht. Im Oktober hatte Coinbase erklärt, der Optionszugang für US-Privatkunden komme „später in diesem Jahr“ und Coinbase Pro, eine Plattform für aktive Händler, kehre Ende 2026 zurück. US-Institutionen haben einen eigenen Weg über Coinbase Prime und Coinbase Financial Markets, den US-Futures-Broker des Unternehmens.
+
+## Optionen einfach erklärt
+
+Eine Option ist ein Vertrag, der dem Käufer das Recht, aber nicht die Pflicht gibt, einen Vermögenswert bis zu einem bestimmten Datum zu einem festgelegten Preis zu kaufen oder zu verkaufen. Ein Call ist das Recht zu kaufen, ein Put das Recht zu verkaufen. Der Käufer zahlt vorab einen Preis, die sogenannte Prämie. Bewegt sich der Markt nicht in die richtige Richtung, kann die Option wertlos verfallen, und die Prämie ist verloren. Wer Optionen verkauft, geht Verpflichtungen ein und kann größere Verluste erleiden.
+
+Händler nutzen Optionen, um Bestände abzusichern, etwa mit einem Put auf Bitcoin, den sie bereits besitzen, oder um auf große Kursschwankungen zu setzen. Ein Einsteigerprodukt sind sie nicht. Coinbase selbst warnt, dass jede Handelsstrategie Risiken bis hin zum Kapitalverlust birgt.
+
+## Was das für Einsteiger bedeutet
+
+Für die meisten neuen Anleger ändert sich heute nichts. Wenn Sie einfach etwas Bitcoin besitzen möchten, bleibt der übliche Weg der direkte Kauf auf einer regulierten Börse wie [Coinbase](REF), in kleinen Beträgen. Verstehen Sie Spotkauf, Gebühren und Verwahrung, bevor Sie sich Derivate ansehen. Dies ist keine Anlageberatung.
+
+!soft: Sie möchten zuerst die Kosten vergleichen? Lesen Sie [Coinbase-Gebühren erklärt](/articles/coinbase-fees-explained)
+
+!end_cta
+
+!disclosure

@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/es/</link>
     <description>Noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</description>
     <language>es</language>
-    <lastBuildDate>Thu, 19 Nov 2026 15:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 01:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bitcoin cae por debajo de 62.000 dólares, su precio más bajo desde julio, mientras se hunden las bolsas</title>
+      <link>https://plainbtc.com/es/articles/bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 01:10:00 GMT</pubDate>
+      <category>Mercado</category>
+      <description>Bitcoin cayó a unos 61.353 dólares en Kraken el jueves por la tarde, por debajo del mínimo del fin de semana pasado y en su precio más bajo desde el 6 de julio, mientras el Nasdaq y el Dow perdían cerca de un 2% cada uno. Los ETF de bitcoin al contado de EE. UU. suman retiros netos de unos 2.890 millones de dólares en noviembre.</description>
+    </item>
+    <item>
+      <title>Coinbase lanza opciones cripto para usuarios fuera de EE. UU. y promete acceso en EE. UU. "pronto"</title>
+      <link>https://plainbtc.com/es/articles/coinbase-crypto-options-non-us-users-deribit-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/coinbase-crypto-options-non-us-users-deribit-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 01:00:00 GMT</pubDate>
+      <category>Empresas</category>
+      <description>Coinbase lanzó el jueves 19 de noviembre opciones cripto para clientes elegibles en algunos países fuera de EE. UU., con la liquidez de Deribit. Los contratos cubren seis activos y se liquidan en USDC. Su CEO, Brian Armstrong, dijo que los usuarios de EE. UU. tendrán opciones "pronto" a través de Coinbase Pro.</description>
+    </item>
     <item>
       <title>EE. UU. lanza un Centro de Disrupción de Amenazas contra las estafas cripto, con tecnología de TRM Labs</title>
       <link>https://plainbtc.com/es/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</link>

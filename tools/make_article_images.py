@@ -4017,7 +4017,135 @@ def build_sky_psm_illicit():
     ]
 
 
+def build_btc_below_62k_july():
+    slug = "bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026"
+    d = OUT / slug
+    # Kraken XBTUSD hourly closes, Nov 17 00:00 UTC to Nov 20 01:00 UTC (7 p.m. CST Nov 19). Nov 19 low $61,353.20 (21:00 UTC hour).
+    xs, ys = fetch_kraken_hourly(1794873600, 1795136400, pair="XBTUSD")
+    chart = make_line_chart(
+        d / "chart-btc-hourly-nov-17-19",
+        xs, ys,
+        title="Bitcoin hourly price, Nov. 17-19, 2026 (Kraken, UTC)",
+        hline=61353.2,
+        hlabel="Nov. 19 low ≈ $61,353 (Kraken)",
+    )
+    # Farside Investors daily net flows, Nov 2-18, 2026 (13 sessions) summed by PlainBTC: -$2,885.5M.
+    fact = make_fact_card(
+        d / "fact-2-89-billion-november-outflows",
+        "U.S. spot bitcoin ETFs, November 2026",
+        "-$2.89 billion",
+        "Net outflows from Nov. 2 to Nov. 18, with withdrawals on 11 of 13 trading days.",
+        footer="Farside Investors daily flows, summed by PlainBTC",
+    )
+    days = ["Oct 30", "Nov 2", "Nov 3", "Nov 4", "Nov 5", "Nov 6", "Nov 9", "Nov 10", "Nov 11", "Nov 12", "Nov 13", "Nov 16", "Nov 17", "Nov 18"]
+    flows = [-643.2, -398.6, -115.6, 74.6, -430.2, -411.9, -201.0, -95.0, -299.8, -284.1, -185.4, 7.9, -239.9, -306.5]
+    flows_img = make_bar_chart(
+        d / "chart-btc-etf-flows-oct30-nov18",
+        days, flows,
+        "U.S. spot bitcoin ETF daily net flows (US$ millions)",
+        colors=["#34d399" if v > 0 else "#f87171" for v in flows],
+        value_fmt=lambda v: f"{v:+,.1f}",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's hourly price on Kraken from Nov. 17 to Nov. 19, 2026, falling from about $65,000 to near $62,000, with a dashed line at the Nov. 19 low of about $61,353", {
+            "es": "Gráfico de líneas del precio horario de bitcoin en Kraken del 17 al 19 de noviembre de 2026: cae de unos 65.000 dólares a cerca de 62.000, con una línea discontinua en el mínimo del 19 de noviembre, de unos 61.353 dólares",
+            "pt": "Gráfico de linha do preço horário do bitcoin na Kraken de 17 a 19 de novembro de 2026: cai de cerca de US$ 65.000 para perto de US$ 62.000, com uma linha tracejada na mínima de 19 de novembro, de cerca de US$ 61.353",
+            "fr": "Courbe du cours horaire du bitcoin sur Kraken du 17 au 19 novembre 2026 : il recule d'environ 65 000 dollars à près de 62 000 dollars, avec une ligne pointillée au plus bas du 19 novembre, environ 61 353 dollars",
+            "de": "Liniendiagramm des stündlichen Bitcoin-Kurses bei Kraken vom 17. bis 19. November 2026: Rückgang von rund 65.000 $ auf knapp 62.000 $; gestrichelte Linie beim Tief vom 19. November von rund 61.353 $",
+            "ru": "Линейный график почасовой цены биткоина на Kraken с 17 по 19 ноября 2026 года: снижение примерно с $65 000 почти до $62 000; пунктирная линия показывает минимум 19 ноября, около $61 353",
+            "tr": "Bitcoin'in 17-19 Kasım 2026'da Kraken'deki saatlik fiyatının çizgi grafiği: yaklaşık 65.000 $'dan 62.000 $ civarına düşüyor; kesikli çizgi 19 Kasım'daki yaklaşık 61.353 $'lık dibi gösteriyor",
+            "id": "Grafik garis harga bitcoin per jam di Kraken pada 17 hingga 19 November 2026: turun dari sekitar US$65.000 ke dekat US$62.000, dengan garis putus-putus di level terendah 19 November sekitar US$61.353",
+            "ja": "2026年11月17〜19日のKrakenにおけるビットコイン1時間足の折れ線グラフ：約6万5000ドルから6万2000ドル近辺へ下落。破線は11月19日の安値（約6万1353ドル）",
+            "ko": "2026년 11월 17~19일 크라켄 비트코인 시간별 가격 선 차트: 약 6만5000달러에서 6만2000달러 부근으로 하락, 점선은 11월 19일 저점 약 6만1353달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken BTC/USD hourly closes")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: U.S. spot bitcoin ETFs had about $2.89 billion in net outflows from Nov. 2 to Nov. 18, 2026, with withdrawals on 11 of 13 trading days, based on Farside Investors data", {
+            "es": "Tarjeta: los ETF de bitcoin al contado de EE. UU. registraron salidas netas de unos 2.890 millones de dólares del 2 al 18 de noviembre de 2026, con retiros en 11 de 13 sesiones, según datos de Farside Investors",
+            "pt": "Cartão: os ETFs de bitcoin à vista dos EUA tiveram saídas líquidas de cerca de US$ 2,89 bilhões de 2 a 18 de novembro de 2026, com resgates em 11 de 13 pregões, segundo dados da Farside Investors",
+            "fr": "Carte : les ETF bitcoin au comptant américains ont enregistré environ 2,89 milliards de dollars de sorties nettes du 2 au 18 novembre 2026, avec des retraits sur 11 séances sur 13, selon les données de Farside Investors",
+            "de": "Faktenkarte: US-Spot-Bitcoin-ETFs verzeichneten vom 2. bis 18. November 2026 Nettoabflüsse von rund 2,89 Mrd. $, mit Abflüssen an 11 von 13 Handelstagen, laut Daten von Farside Investors",
+            "ru": "Карточка: со 2 по 18 ноября 2026 года чистый отток из американских спотовых биткоин-ETF составил около $2,89 млрд, оттоки были в 11 из 13 торговых дней, по данным Farside Investors",
+            "tr": "Kart: Farside Investors verilerine göre ABD spot bitcoin ETF'lerinden 2-18 Kasım 2026 arasında yaklaşık 2,89 milyar $ net çıkış oldu; 13 işlem gününün 11'inde çıkış yaşandı",
+            "id": "Kartu: ETF bitcoin spot AS mencatat arus keluar bersih sekitar US$2,89 miliar pada 2 hingga 18 November 2026, dengan penarikan pada 11 dari 13 hari perdagangan, menurut data Farside Investors",
+            "ja": "カード：Farside Investorsのデータによると、米国の現物ビットコインETFは2026年11月2〜18日に約28億9000万ドルの純流出となり、13営業日中11日で流出した",
+            "ko": "카드: Farside Investors 자료 기준 미국 현물 비트코인 ETF는 2026년 11월 2~18일 약 28억9000만 달러 순유출을 기록했으며, 13거래일 중 11일 동안 자금이 빠져나갔다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Farside Investors (sum by PlainBTC)")},
+        {"id": "flows", "file": flows_img.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of U.S. spot bitcoin ETF daily net flows from Oct. 30 to Nov. 18, 2026, per Farside Investors: outflows on 12 of 14 trading days, the largest $643.2 million on Oct. 30, and $306.5 million out on Nov. 18", {
+            "es": "Gráfico de barras de los flujos netos diarios de los ETF de bitcoin al contado de EE. UU. del 30 de octubre al 18 de noviembre de 2026, según Farside Investors: salidas en 12 de 14 sesiones, la mayor de 643,2 millones de dólares el 30 de octubre, y 306,5 millones de salidas el 18 de noviembre",
+            "pt": "Gráfico de barras dos fluxos líquidos diários dos ETFs de bitcoin à vista dos EUA de 30 de outubro a 18 de novembro de 2026, segundo a Farside Investors: saídas em 12 de 14 pregões, a maior de US$ 643,2 milhões em 30 de outubro, e saídas de US$ 306,5 milhões em 18 de novembro",
+            "fr": "Diagramme en barres des flux nets quotidiens des ETF bitcoin au comptant américains du 30 octobre au 18 novembre 2026, selon Farside Investors : sorties sur 12 séances sur 14, la plus forte de 643,2 millions de dollars le 30 octobre, et 306,5 millions de sorties le 18 novembre",
+            "de": "Balkendiagramm der täglichen Nettozuflüsse der US-Spot-Bitcoin-ETFs vom 30. Oktober bis 18. November 2026 laut Farside Investors: Abflüsse an 12 von 14 Handelstagen, der größte mit 643,2 Mio. $ am 30. Oktober, und 306,5 Mio. $ Abfluss am 18. November",
+            "ru": "Столбчатая диаграмма ежедневных чистых потоков американских спотовых биткоин-ETF с 30 октября по 18 ноября 2026 года по данным Farside Investors: оттоки в 12 из 14 торговых дней, крупнейший $643,2 млн 30 октября, отток $306,5 млн 18 ноября",
+            "tr": "Farside Investors verilerine göre 30 Ekim-18 Kasım 2026 arasında ABD spot bitcoin ETF'lerinin günlük net akışlarının çubuk grafiği: 14 işlem gününün 12'sinde çıkış, en büyüğü 30 Ekim'de 643,2 milyon $, 18 Kasım'da 306,5 milyon $ çıkış",
+            "id": "Grafik batang arus bersih harian ETF bitcoin spot AS dari 30 Oktober hingga 18 November 2026 menurut Farside Investors: arus keluar pada 12 dari 14 hari perdagangan, terbesar US$643,2 juta pada 30 Oktober, dan arus keluar US$306,5 juta pada 18 November",
+            "ja": "Farside Investorsによる2026年10月30日～11月18日の米国現物ビットコインETFの日次純流出入の棒グラフ：14営業日中12日で流出、最大は10月30日の6億4320万ドル、11月18日は3億650万ドルの流出",
+            "ko": "Farside Investors 기준 2026년 10월 30일~11월 18일 미국 현물 비트코인 ETF 일별 순유출입 막대 차트: 14거래일 중 12일 순유출, 최대는 10월 30일 6억4320만 달러, 11월 18일 3억650만 달러 순유출",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Farside Investors")},
+    ]
+
+
+def build_coinbase_options_intl():
+    slug = "coinbase-crypto-options-non-us-users-deribit-nov-2026"
+    d = OUT / slug
+    # Coinbase X posts Nov 19, 2026; crypto.news Nov 19, 2026 (six assets, USDC settlement).
+    fact = make_fact_card(
+        d / "fact-six-assets-usdc-settled",
+        "Coinbase options, outside the U.S.",
+        "BTC · ETH · SOL · AVAX · HYPE · XRP",
+        "Six assets at launch on Nov. 19, 2026, settled in USDC and powered by Deribit. Not available to U.S. retail users yet.",
+        footer="Coinbase on X · crypto.news, Nov. 19, 2026",
+    )
+    # Coinbase blog Oct 7, 2026; crypto.news (Deribit close Aug 14, 2025); Coinbase/Armstrong X posts Nov 19, 2026.
+    tl = make_timeline_card(
+        d / "timeline-coinbase-deribit-options",
+        "From Deribit deal to Coinbase options",
+        [
+            ("Aug. 2025", "Coinbase completes its $2.9 billion Deribit purchase", (96, 165, 250)),
+            ("Oct. 2026", "Coinbase says the Deribit integration is done", (96, 165, 250)),
+            ("Nov. 19", "Options go live for eligible users outside the U.S.", GREEN),
+            ("Next", "U.S. access \"soon\" via Coinbase Pro, no date given", ORANGE),
+        ],
+        footer="Coinbase · crypto.news · Brian Armstrong on X",
+        margin=190, wrap_w=240,
+    )
+    return [
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: Coinbase options launched Nov. 19, 2026 outside the U.S. on six assets, BTC, ETH, SOL, AVAX, HYPE and XRP, settled in USDC and powered by Deribit; not yet available to U.S. retail users", {
+            "es": "Tarjeta: las opciones de Coinbase se lanzaron el 19 de noviembre de 2026 fuera de EE. UU. sobre seis activos, BTC, ETH, SOL, AVAX, HYPE y XRP, liquidadas en USDC y con la liquidez de Deribit; aún no disponibles para usuarios minoristas de EE. UU.",
+            "pt": "Cartão: as opções da Coinbase foram lançadas em 19 de novembro de 2026 fora dos EUA sobre seis ativos, BTC, ETH, SOL, AVAX, HYPE e XRP, liquidadas em USDC e com a liquidez da Deribit; ainda indisponíveis para usuários de varejo dos EUA",
+            "fr": "Carte : les options de Coinbase ont été lancées le 19 novembre 2026 hors des États-Unis sur six actifs, BTC, ETH, SOL, AVAX, HYPE et XRP, réglées en USDC et adossées à Deribit ; pas encore accessibles aux particuliers américains",
+            "de": "Faktenkarte: Coinbase-Optionen starteten am 19. November 2026 außerhalb der USA auf sechs Assets, BTC, ETH, SOL, AVAX, HYPE und XRP, mit Abrechnung in USDC und Liquidität von Deribit; für US-Privatkunden noch nicht verfügbar",
+            "ru": "Карточка: опционы Coinbase запущены 19 ноября 2026 года за пределами США на шесть активов (BTC, ETH, SOL, AVAX, HYPE и XRP), расчеты в USDC, ликвидность Deribit; розничным клиентам в США пока недоступны",
+            "tr": "Kart: Coinbase opsiyonları 19 Kasım 2026'da ABD dışında altı varlık için başladı: BTC, ETH, SOL, AVAX, HYPE ve XRP; USDC ile uzlaşılıyor ve Deribit likiditesini kullanıyor; ABD'li bireysel kullanıcılara henüz açık değil",
+            "id": "Kartu: opsi Coinbase diluncurkan 19 November 2026 di luar AS untuk enam aset, BTC, ETH, SOL, AVAX, HYPE, dan XRP, diselesaikan dalam USDC dan didukung Deribit; belum tersedia bagi pengguna ritel AS",
+            "ja": "カード：コインベースのオプションは2026年11月19日に米国外で開始。対象はBTC、ETH、SOL、AVAX、HYPE、XRPの6資産で、USDCで決済され、Deribitの流動性を利用。米国の個人ユーザーはまだ利用できない",
+            "ko": "카드: 코인베이스 옵션은 2026년 11월 19일 미국 밖에서 BTC, ETH, SOL, AVAX, HYPE, XRP 6개 자산으로 출시됐으며, USDC로 정산되고 Deribit 유동성을 쓴다. 미국 개인 이용자는 아직 이용할 수 없다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Coinbase on X, crypto.news")},
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "timeline",
+         "alt": alts("Timeline: Coinbase completed its $2.9 billion Deribit purchase on Aug. 14, 2025, said the integration was complete on Oct. 7, 2026, and launched options for eligible non-U.S. users on Nov. 19, 2026; U.S. access is promised soon via Coinbase Pro with no date", {
+            "es": "Cronología: Coinbase completó la compra de Deribit por 2.900 millones de dólares el 14 de agosto de 2025, dio por terminada la integración el 7 de octubre de 2026 y lanzó opciones para usuarios elegibles fuera de EE. UU. el 19 de noviembre de 2026; el acceso en EE. UU. llegará pronto vía Coinbase Pro, sin fecha",
+            "pt": "Linha do tempo: a Coinbase concluiu a compra da Deribit por US$ 2,9 bilhões em 14 de agosto de 2025, anunciou a integração concluída em 7 de outubro de 2026 e lançou opções para usuários elegíveis fora dos EUA em 19 de novembro de 2026; o acesso nos EUA virá em breve via Coinbase Pro, sem data",
+            "fr": "Chronologie : Coinbase a finalisé le rachat de Deribit pour 2,9 milliards de dollars le 14 août 2025, a annoncé la fin de l'intégration le 7 octobre 2026 et a lancé les options pour les utilisateurs éligibles hors des États-Unis le 19 novembre 2026 ; l'accès américain est promis bientôt via Coinbase Pro, sans date",
+            "de": "Zeitleiste: Coinbase schloss den Kauf von Deribit für 2,9 Mrd. $ am 14. August 2025 ab, meldete die Integration am 7. Oktober 2026 als abgeschlossen und startete Optionen für berechtigte Nutzer außerhalb der USA am 19. November 2026; US-Zugang soll bald über Coinbase Pro kommen, ohne Datum",
+            "ru": "Хронология: Coinbase закрыла покупку Deribit за $2,9 млрд 14 августа 2025 года, 7 октября 2026 года объявила о завершении интеграции и 19 ноября 2026 года запустила опционы для подходящих пользователей за пределами США; доступ в США обещан скоро через Coinbase Pro, без даты",
+            "tr": "Zaman çizelgesi: Coinbase, Deribit'i 2,9 milyar $'a satın alma işlemini 14 Ağustos 2025'te tamamladı, entegrasyonun bittiğini 7 Ekim 2026'da açıkladı ve 19 Kasım 2026'da ABD dışındaki uygun kullanıcılar için opsiyonları başlattı; ABD erişimi tarih verilmeden yakında Coinbase Pro ile vaat ediliyor",
+            "id": "Linimasa: Coinbase menuntaskan pembelian Deribit senilai US$2,9 miliar pada 14 Agustus 2025, menyatakan integrasi selesai pada 7 Oktober 2026, dan meluncurkan opsi bagi pengguna yang memenuhi syarat di luar AS pada 19 November 2026; akses AS dijanjikan segera lewat Coinbase Pro tanpa tanggal",
+            "ja": "年表：コインベースは2025年8月14日に29億ドルのDeribit買収を完了、2026年10月7日に統合完了を発表し、2026年11月19日に米国外の対象ユーザー向けにオプションを開始。米国ではCoinbase Proで「近く」提供予定だが日付は未定",
+            "ko": "연표: 코인베이스는 2025년 8월 14일 29억 달러 규모의 Deribit 인수를 마무리했고, 2026년 10월 7일 통합 완료를 발표했으며, 2026년 11월 19일 미국 외 적격 이용자에게 옵션을 출시했다. 미국 출시는 날짜 없이 Coinbase Pro를 통해 '곧' 이뤄질 예정이다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Coinbase, crypto.news, Brian Armstrong on X")},
+    ]
+
+
 BUILDERS = {
+    "bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026": "btc62kjul",
+    "coinbase-crypto-options-non-us-users-deribit-nov-2026": "cboptions",
     "threat-disruption-center-crypto-scams-trm-labs-nov-2026": "tdc",
     "sky-stablecoin-psm-north-korea-518-million-inca-nov-2026": "skypsm",
     "ledger-tampered-wallets-berlin-dubai-nov-2026": "ledgerbd",
@@ -4090,7 +4218,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "50w":
+    if key == "btc62kjul":
+        figs = build_btc_below_62k_july()
+    elif key == "cboptions":
+        figs = build_coinbase_options_intl()
+    elif key == "50w":
         figs = build_bitcoin_50w(*btc)
     elif key == "vol":
         figs = build_volatility(*btc)

@@ -1,0 +1,57 @@
+title: Coinbase ABD dışındaki kullanıcılar için kripto opsiyonlarını başlattı, ABD erişimi "yakında"
+page_title: Coinbase ABD dışında kripto opsiyonlarını başlattı
+description: Coinbase perşembe günü bitcoin, ether, Solana, Avalanche, Hyperliquid ve XRP üzerine USDC ile uzlaşılan opsiyonları ABD dışındaki uygun kullanıcılara açtı; likiditeyi Deribit sağlıyor. CEO Brian Armstrong, ABD erişiminin yakında Coinbase Pro ile geleceğini söyledi.
+og_description: Coinbase artık ABD dışındaki uygun müşterilere altı varlık üzerine kripto opsiyonları sunuyor ve bunun için 2025'te satın aldığı Deribit'in emir defterini kullanıyor. ABD'li bireysel kullanıcılar beklemek zorunda. Opsiyonların ne olduğunu ve bu adımın yeni başlayanlar için anlamını anlatıyoruz.
+label: İş dünyası
+summary: Coinbase 19 Kasım perşembe günü, ABD dışındaki bazı ülkelerde uygun müşteriler için Deribit likiditesiyle çalışan kripto opsiyonlarını başlattı. Sözleşmeler altı varlığı kapsıyor ve USDC ile uzlaşılıyor. CEO Brian Armstrong, ABD'li kullanıcıların opsiyonlara "yakında" Coinbase Pro üzerinden erişeceğini söyledi.
+===
+
+ABD'nin en büyük kripto borsası Coinbase, 19 Kasım perşembe günü ABD dışındaki müşterilerine kripto opsiyonları sunmaya başladı. Şirket [X'teki paylaşımında](L1) "Beklediğiniz seçenek: kripto opsiyonları" diye yazdı ve ürünün "Deribit'in derin küresel likiditesiyle" çalıştığını ekledi.
+
+Yeni sözleşmeler altı varlığı kapsıyor: bitcoin (BTC), ether (ETH), Solana (SOL), Avalanche (AVAX), Hyperliquid (HYPE) ve XRP. Sözleşmeler dolara sabitlenmiş bir stablecoin olan USDC ile uzlaşılıyor ve yalnızca ABD dışındaki belirli bölgelerde uygun kullanıcılara açık. Coinbase [ardından gelen paylaşımında](L2) Deribit'in ABD'de hizmet vermediğini belirtti.
+
+!takeaways
+- Coinbase 19 Kasım'da ABD dışındaki uygun müşteriler için BTC, ETH, SOL, AVAX, HYPE ve XRP opsiyonlarını başlattı.
+- Sözleşmeler, Coinbase'in 2025'te satın aldığı opsiyon borsası Deribit üzerinde işliyor ve USDC ile uzlaşılıyor.
+- CEO Brian Armstrong, opsiyonların "yakında Coinbase Pro ile ABD'ye geleceğini" söyledi ama tarih vermedi.
+- Opsiyonlar karmaşık ve riskli ürünlerdir; ABD'li bireysel müşteriler bunları Coinbase'te henüz alıp satamıyor.
+
+!figure:fact
+
+## Tam olarak ne başladı
+
+Desteklenen ülkelerdeki müşteriler opsiyonları Coinbase uygulamasında ve daha ayrıntılı işlem ekranı olan Coinbase Advanced'te, web ve mobilde işlem görebiliyor. Başlamak için mevcut bir Coinbase spot hesabı gerekiyor; ardından doğrulama sorularıyla ayrı bir türev kaydı tamamlanıyor ve türev portföyü USDC, bitcoin, ether ya da kabul edilen başka bir teminatla fonlanıyor. Bunu Coinbase rehberlerine dayanarak [crypto.news aktardı](L3).
+
+Coinbase Advanced birden fazla sözleşmeyi tek bir "kombo" emir olarak göndermeye izin veriyor ve işlemden önce başa baş noktasını, en yüksek kârı ve en yüksek zararı gösteren bir getiri grafiği sunuyor. [CryptoCompass'a](L4) göre sözleşmeler Avrupa tipi; yani yalnızca vade tarihinde kullanılabiliyor, ancak sahipleri bunları daha önce satabiliyor.
+
+ABD dışında Coinbase'in küresel türev ürünleri, Bermuda Para Otoritesi tarafından düzenlenen Coinbase Bermuda Ltd tarafından sunuluyor. Bu bilgi şirketin [ekim ayındaki duyurusunda](L5) yer alıyor.
+
+## Deribit neden önemli
+
+Deribit, en çok bitcoin ve ether opsiyonlarıyla bilinen bir kripto türev borsası. crypto.news'in hatırlattığına göre Coinbase, Deribit'i 2,9 milyar dolara satın alma işlemini 14 Ağustos 2025'te tamamladı. Coinbase Ekim 2026'da entegrasyonun bittiğini açıkladı ve Coinbase Global Exchange adını verdiği yapıyı oluşturdu. Bu yapıda 30 Eylül itibarıyla bitcoin opsiyonlarında 30 milyar doları aşan açık pozisyon (henüz kapanmamış sözleşmelerin değeri) vardı ve geçen yıl işlem hacmi 1 trilyon doları aştı.
+
+Çok sayıda alıcı ve satıcının bulunduğu derin bir piyasa, genellikle yatırımcılar için daha dar fiyat farkları anlamına gelir. Coinbase, küresel kripto türevlerinin dünya genelindeki kripto işlem hacminin yaklaşık %80'ini oluşturduğunu ve ABD'li müşterilerin bu piyasanın büyük ölçüde dışında kaldığını söylemişti. Kendi müşterilerini Deribit'in emir defterine bağlamak, bu pazardan daha büyük pay alma hamlesi.
+
+!figure:timeline
+
+!mid_cta
+
+## Peki ABD'li müşteriler?
+
+Henüz değil. Armstrong lansmana X'te şöyle yanıt verdi: "Kripto opsiyonları artık ABD dışındaki kullanıcılar için yayında! Ve yakında Coinbase Pro ile ABD'ye de geliyor." Tarih vermedi. Coinbase ekim ayında, ABD'de bireysel yatırımcıların opsiyonlara erişiminin "bu yıl içinde" geleceğini ve aktif yatırımcılara yönelik platform Coinbase Pro'nun 2026 sonunda geri döneceğini açıklamıştı. ABD'li kurumlar ise Coinbase Prime ve şirketin ABD'deki vadeli işlem aracı kurumu Coinbase Financial Markets üzerinden ayrı bir yola sahip.
+
+## Sade bir dille opsiyonlar
+
+Opsiyon, alıcıya bir varlığı belirli bir tarihe kadar belirlenmiş bir fiyattan alma ya da satma hakkı veren, ama bunu zorunlu kılmayan bir sözleşmedir. Call alma hakkı, put satma hakkıdır. Alıcı, prim denen bir bedeli peşin öder. Piyasa doğru yönde hareket etmezse opsiyon değersiz olarak sona erebilir ve prim kaybedilir. Opsiyon satanlar yükümlülük üstlenir ve daha büyük zararlarla karşılaşabilir.
+
+Yatırımcılar opsiyonları elindekileri korumak için, örneğin zaten sahip oldukları bitcoin için put alarak, ya da büyük fiyat hareketlerine bahis oynamak için kullanır. Yeni başlayanlara uygun bir ürün değildir. Coinbase de her işlem stratejisinin sermaye kaybı dahil risk taşıdığı uyarısında bulunuyor.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Çoğu yeni yatırımcı için bugün hiçbir şey değişmiyor. Yalnızca biraz bitcoin sahibi olmak istiyorsanız, olağan yol hâlâ onu [Coinbase](REF) gibi düzenlenmiş bir platformdan doğrudan ve küçük tutarlarla almak. Türev ürünlere bakmadan önce spot alımın, ücretlerin ve saklamanın nasıl işlediğini öğrenin. Bu bir yatırım tavsiyesi değildir.
+
+!soft: Önce maliyetleri mi karşılaştırmak istiyorsunuz? [Coinbase ücretleri açıklandı](/articles/coinbase-fees-explained) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

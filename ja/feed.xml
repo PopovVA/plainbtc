@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 19 Nov 2026 15:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 01:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ビットコインが6万2000ドル割れ、7月以来の安値　株安が波及</title>
+      <link>https://plainbtc.com/ja/articles/bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 01:10:00 GMT</pubDate>
+      <category>マーケット</category>
+      <description>ビットコインは木曜日の午後、Krakenで約6万1353ドルまで下落し、先週末の安値を下回って7月6日以来の安値となった。ナスダックとダウはそれぞれ約2%下落した。米国の現物ビットコインETFからは11月に約28億9000万ドルの純流出が出ている。</description>
+    </item>
+    <item>
+      <title>コインベース、米国外ユーザー向けに暗号資産オプションを開始　米国でも「近く」提供へ</title>
+      <link>https://plainbtc.com/ja/articles/coinbase-crypto-options-non-us-users-deribit-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/coinbase-crypto-options-non-us-users-deribit-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 01:00:00 GMT</pubDate>
+      <category>ビジネス</category>
+      <description>コインベースは11月19日（木）、米国外の一部の国の対象顧客向けに、Deribitの流動性を使った暗号資産オプションを開始した。対象は6資産で、USDCで決済される。ブライアン・アームストロングCEOは、米国のユーザーもCoinbase Proを通じて「近く」利用できるようになると述べた。</description>
+    </item>
     <item>
       <title>米政府が暗号資産詐欺対策の「脅威阻止センター」を発足、技術はTRM Labsが担当</title>
       <link>https://plainbtc.com/ja/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</link>

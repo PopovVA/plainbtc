@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Thu, 19 Nov 2026 15:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 01:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Биткоин упал ниже $62 000, до минимума с июля, вслед за обвалом акций</title>
+      <link>https://plainbtc.com/ru/articles/bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 01:10:00 GMT</pubDate>
+      <category>Рынок</category>
+      <description>В четверг днем биткоин опустился на Kraken примерно до $61 353, ниже минимума прошлых выходных и до самой низкой цены с 6 июля, а Nasdaq и Dow потеряли примерно по 2%. Чистый отток из американских спотовых биткоин-ETF в ноябре составил около $2,89 млрд.</description>
+    </item>
+    <item>
+      <title>Coinbase запустила криптоопционы для пользователей за пределами США и обещает доступ в США «скоро»</title>
+      <link>https://plainbtc.com/ru/articles/coinbase-crypto-options-non-us-users-deribit-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/coinbase-crypto-options-non-us-users-deribit-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 01:00:00 GMT</pubDate>
+      <category>Бизнес</category>
+      <description>В четверг, 19 ноября, Coinbase запустила криптоопционы для подходящих клиентов в ряде стран за пределами США, на ликвидности Deribit. Контракты охватывают шесть активов, расчеты идут в USDC. Глава Coinbase Брайан Армстронг заявил, что пользователи в США получат опционы «скоро» через Coinbase Pro.</description>
+    </item>
     <item>
       <title>США запустили Threat Disruption Center для борьбы с криптомошенничеством, технологию дала TRM Labs</title>
       <link>https://plainbtc.com/ru/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</link>

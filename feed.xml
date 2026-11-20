@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/</link>
     <description>Plain-English Bitcoin &amp; crypto news for beginners</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 15:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 01:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bitcoin drops below $62,000 to its lowest price since July as stocks slide</title>
+      <link>https://plainbtc.com/articles/bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 01:10:00 GMT</pubDate>
+      <category>Market news</category>
+      <description>Bitcoin slid to about $61,353 on Kraken on Thursday afternoon, below last weekend's low and its weakest price since July 6, as the Nasdaq and the Dow each fell about 2%. U.S. spot bitcoin ETFs have seen net withdrawals of about $2.89 billion in November.</description>
+    </item>
+    <item>
+      <title>Coinbase launches crypto options for users outside the U.S., with U.S. access promised "soon"</title>
+      <link>https://plainbtc.com/articles/coinbase-crypto-options-non-us-users-deribit-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/coinbase-crypto-options-non-us-users-deribit-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 01:00:00 GMT</pubDate>
+      <category>Business</category>
+      <description>Coinbase launched crypto options for eligible customers in select countries outside the U.S. on Thursday, Nov. 19, using Deribit's liquidity. The contracts cover six assets and settle in USDC. CEO Brian Armstrong said U.S. users will get options "soon" through Coinbase Pro.</description>
+    </item>
     <item>
       <title>U.S. launches a Threat Disruption Center to fight crypto scams, with TRM Labs running its tech</title>
       <link>https://plainbtc.com/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</link>

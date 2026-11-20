@@ -1,0 +1,57 @@
+title: Coinbase lança opções cripto para usuários fora dos EUA e promete acesso nos EUA "em breve"
+page_title: Coinbase lança opções cripto fora dos EUA
+description: A Coinbase abriu na quinta-feira opções liquidadas em USDC sobre bitcoin, ether, Solana, Avalanche, Hyperliquid e XRP para usuários elegíveis fora dos EUA, com a liquidez da Deribit. O CEO Brian Armstrong diz que o acesso nos EUA chega em breve com a Coinbase Pro.
+og_description: A Coinbase agora oferece opções cripto sobre seis ativos a clientes elegíveis fora dos EUA, usando o livro de ofertas da Deribit, comprada em 2025. Usuários de varejo dos EUA precisam esperar. Veja o que são opções e o que o lançamento significa para iniciantes.
+label: Negócios
+summary: A Coinbase lançou na quinta-feira, 19 de novembro, opções cripto para clientes elegíveis em alguns países fora dos EUA, com a liquidez da Deribit. Os contratos cobrem seis ativos e são liquidados em USDC. O CEO Brian Armstrong disse que usuários dos EUA terão opções "em breve" pela Coinbase Pro.
+===
+
+A Coinbase, maior corretora de criptomoedas dos EUA, começou a oferecer opções cripto a clientes fora dos Estados Unidos na quinta-feira, 19 de novembro. "A opção que você estava esperando: opções cripto", escreveu a empresa em uma [publicação no X](L1), acrescentando que o produto é movido pela "profunda liquidez global da Deribit".
+
+Os novos contratos cobrem seis ativos: bitcoin (BTC), ether (ETH), Solana (SOL), Avalanche (AVAX), Hyperliquid (HYPE) e XRP. Eles são liquidados em USDC, uma stablecoin atrelada ao dólar, e estão disponíveis apenas para usuários elegíveis em algumas jurisdições fora dos EUA. A Coinbase disse em uma [publicação seguinte](L2) que a Deribit não oferece seus serviços nos EUA.
+
+!takeaways
+- A Coinbase lançou em 19 de novembro opções sobre BTC, ETH, SOL, AVAX, HYPE e XRP para clientes elegíveis fora dos EUA.
+- Os contratos rodam na Deribit, a bolsa de opções que a Coinbase comprou em 2025, e são liquidados em USDC.
+- O CEO Brian Armstrong disse que as opções "chegam em breve aos EUA com a Coinbase Pro", sem dar data.
+- Opções são produtos complexos e arriscados; clientes de varejo dos EUA ainda não podem negociá-las na Coinbase.
+
+!figure:fact
+
+## O que exatamente foi lançado
+
+Clientes dos países atendidos podem negociar as opções no app da Coinbase e na Coinbase Advanced, sua tela de negociação mais detalhada, na web e no celular. Para começar, é preciso ter uma conta spot da Coinbase, concluir um cadastro separado para derivativos com perguntas de verificação e depois abastecer uma carteira de derivativos com USDC, bitcoin, ether ou outra garantia aceita, [informou o crypto.news](L3), citando guias da Coinbase.
+
+A Coinbase Advanced permite enviar vários contratos como uma única ordem "combo" e mostra um gráfico de resultado com o ponto de equilíbrio e o lucro e o prejuízo máximos antes do envio. Segundo o [CryptoCompass](L4), os contratos são do tipo europeu, ou seja, só podem ser exercidos na data de vencimento, embora possam ser vendidos antes.
+
+Fora dos EUA, os derivativos globais da Coinbase são oferecidos pela Coinbase Bermuda Ltd, regulada pela Autoridade Monetária das Bermudas, segundo o [anúncio de outubro](L5) da empresa.
+
+## Por que a Deribit importa
+
+A Deribit é uma bolsa de derivativos cripto mais conhecida pelas opções de bitcoin e ether. A Coinbase concluiu a compra da Deribit por US$ 2,9 bilhões em 14 de agosto de 2025, lembrou o crypto.news. Em outubro de 2026, a Coinbase disse que a integração estava concluída, criando o que chama de Coinbase Global Exchange, com mais de US$ 30 bilhões em contratos em aberto de opções de bitcoin (o valor dos contratos ainda ativos) em 30 de setembro e mais de US$ 1 trilhão em volume negociado no ano passado.
+
+Um mercado com muitos compradores e vendedores costuma significar preços mais justos para quem negocia. A Coinbase já disse que os derivativos cripto globais representam cerca de 80% do volume mundial de negociação de criptomoedas, um mercado do qual os clientes dos EUA ficaram em grande parte de fora. Conectar seus próprios clientes ao livro de ofertas da Deribit é sua aposta para ficar com uma fatia maior.
+
+!figure:timeline
+
+!mid_cta
+
+## E os clientes dos EUA?
+
+Ainda não. Armstrong respondeu ao lançamento no X: "As opções cripto já estão disponíveis para usuários fora dos EUA! E também chegam em breve aos EUA com a Coinbase Pro." Ele não deu data. Em outubro, a Coinbase disse que o acesso de varejo a opções nos EUA viria "ainda este ano" e que a Coinbase Pro, plataforma para traders ativos, voltaria no fim de 2026. Instituições dos EUA têm outro caminho, pela Coinbase Prime e pela Coinbase Financial Markets, a corretora de futuros da empresa nos EUA.
+
+## Opções em linguagem simples
+
+Uma opção é um contrato que dá ao comprador o direito, mas não a obrigação, de comprar ou vender um ativo a um preço definido até uma data definida. Uma call é o direito de comprar, e uma put é o direito de vender. O comprador paga antecipadamente um valor chamado prêmio. Se o mercado não andar na direção certa, a opção pode vencer sem valor e o prêmio é perdido. Quem vende opções assume obrigações e pode ter perdas maiores.
+
+Traders usam opções para proteger o que já têm, por exemplo comprando uma put sobre o bitcoin que possuem, ou para apostar em grandes oscilações de preço. Não é um produto para iniciantes. A própria Coinbase alerta que toda estratégia de negociação envolve risco, inclusive de perda do capital.
+
+## O que isso significa para iniciantes
+
+Para a maioria dos novos investidores, nada muda hoje. Se você só quer ter um pouco de bitcoin, o caminho usual continua sendo comprá-lo diretamente em uma corretora regulada como a [Coinbase](REF), com valores pequenos. Entenda como funcionam a compra à vista, as taxas e a guarda antes de olhar para derivativos. Isto não é recomendação de investimento.
+
+!soft: Quer comparar custos primeiro? Leia [Taxas da Coinbase explicadas](/articles/coinbase-fees-explained)
+
+!end_cta
+
+!disclosure

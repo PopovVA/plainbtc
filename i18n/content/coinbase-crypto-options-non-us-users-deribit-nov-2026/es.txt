@@ -1,0 +1,57 @@
+title: Coinbase lanza opciones cripto para usuarios fuera de EE. UU. y promete acceso en EE. UU. "pronto"
+page_title: Coinbase lanza opciones cripto fuera de EE. UU.
+description: Coinbase abrió el jueves opciones liquidadas en USDC sobre bitcoin, ether, Solana, Avalanche, Hyperliquid y XRP para usuarios elegibles fuera de EE. UU., con la liquidez de Deribit. Su CEO, Brian Armstrong, dice que el acceso en EE. UU. llegará pronto con Coinbase Pro.
+og_description: Coinbase ya ofrece opciones cripto sobre seis activos a clientes elegibles fuera de EE. UU., usando el libro de órdenes de Deribit, que compró en 2025. Los usuarios minoristas de EE. UU. tendrán que esperar. Te explicamos qué son las opciones y qué significa este lanzamiento para principiantes.
+label: Empresas
+summary: Coinbase lanzó el jueves 19 de noviembre opciones cripto para clientes elegibles en algunos países fuera de EE. UU., con la liquidez de Deribit. Los contratos cubren seis activos y se liquidan en USDC. Su CEO, Brian Armstrong, dijo que los usuarios de EE. UU. tendrán opciones "pronto" a través de Coinbase Pro.
+===
+
+Coinbase, la mayor plataforma de criptomonedas de EE. UU., empezó a ofrecer opciones cripto a clientes fuera de Estados Unidos el jueves 19 de noviembre. "La opción que estabas esperando: opciones cripto", escribió la empresa en una [publicación en X](L1), y añadió que el producto funciona "con la profunda liquidez global de Deribit".
+
+Los nuevos contratos cubren seis activos: bitcoin (BTC), ether (ETH), Solana (SOL), Avalanche (AVAX), Hyperliquid (HYPE) y XRP. Se liquidan en USDC, una stablecoin ligada al dólar, y solo están disponibles para usuarios elegibles en determinadas jurisdicciones fuera de EE. UU. Coinbase aclaró en una [publicación posterior](L2) que Deribit no ofrece sus servicios en EE. UU.
+
+!takeaways
+- Coinbase lanzó el 19 de noviembre opciones sobre BTC, ETH, SOL, AVAX, HYPE y XRP para clientes elegibles fuera de EE. UU.
+- Los contratos funcionan sobre Deribit, la plataforma de opciones que Coinbase compró en 2025, y se liquidan en USDC.
+- El CEO Brian Armstrong dijo que las opciones "llegarán pronto a EE. UU. con Coinbase Pro", sin dar fecha.
+- Las opciones son productos complejos y arriesgados; los clientes minoristas de EE. UU. todavía no pueden operarlas en Coinbase.
+
+!figure:fact
+
+## Qué se ha lanzado exactamente
+
+Los clientes de los países admitidos pueden operar las opciones en la app de Coinbase y en Coinbase Advanced, su pantalla de trading más detallada, tanto en la web como en el móvil. Para empezar hace falta una cuenta spot de Coinbase ya existente, completar un registro aparte para derivados con preguntas de verificación y después depositar en una cartera de derivados USDC, bitcoin, ether u otra garantía aceptada, [informó crypto.news](L3) citando las guías de Coinbase.
+
+Coinbase Advanced permite enviar varios contratos como una sola orden "combo" y muestra un gráfico de resultados con el punto de equilibrio y la ganancia y pérdida máximas antes de enviar la operación. Según [CryptoCompass](L4), los contratos son de tipo europeo, es decir, solo se pueden ejercer en la fecha de vencimiento, aunque sus titulares pueden venderlos antes.
+
+Fuera de EE. UU., los derivados globales de Coinbase los ofrece Coinbase Bermuda Ltd, regulada por la Autoridad Monetaria de Bermudas, según el [anuncio de octubre](L5) de la empresa.
+
+## Por qué importa Deribit
+
+Deribit es una plataforma de derivados cripto conocida sobre todo por sus opciones de bitcoin y ether. Coinbase completó la compra de Deribit por 2.900 millones de dólares el 14 de agosto de 2025, recordó crypto.news. En octubre de 2026 Coinbase dio por terminada la integración y creó lo que llama Coinbase Global Exchange, con más de 30.000 millones de dólares en interés abierto de opciones de bitcoin (el valor de los contratos vigentes) al 30 de septiembre y más de 1 billón de dólares en volumen negociado el año pasado.
+
+Un mercado con muchos compradores y vendedores suele traducirse en precios más ajustados para los operadores. Coinbase ha dicho que los derivados cripto globales representan aproximadamente el 80% del volumen mundial de trading de criptomonedas, un mercado del que los clientes de EE. UU. han estado en gran parte excluidos. Conectar a sus propios clientes con el libro de órdenes de Deribit es su apuesta por quedarse con una parte mayor.
+
+!figure:timeline
+
+!mid_cta
+
+## ¿Y los clientes de EE. UU.?
+
+Todavía no. Armstrong respondió al lanzamiento en X: "¡Las opciones cripto ya están disponibles para usuarios fuera de EE. UU.! Y pronto llegarán también a EE. UU. con Coinbase Pro". No dio fecha. En octubre, Coinbase dijo que el acceso minorista a opciones en EE. UU. llegaría "más adelante este año" y que Coinbase Pro, una plataforma para operadores activos, volvería a finales de 2026. Las instituciones de EE. UU. tienen otra vía a través de Coinbase Prime y Coinbase Financial Markets, el bróker de futuros de la empresa en EE. UU.
+
+## Las opciones, en palabras sencillas
+
+Una opción es un contrato que da al comprador el derecho, pero no la obligación, de comprar o vender un activo a un precio fijado hasta una fecha determinada. Una opción call es el derecho a comprar y una put, el derecho a vender. El comprador paga por adelantado un precio llamado prima. Si el mercado no se mueve en la dirección correcta, la opción puede vencer sin valor y la prima se pierde. Quienes venden opciones asumen obligaciones y pueden sufrir pérdidas mayores.
+
+Los operadores usan opciones para proteger lo que tienen, por ejemplo comprando una put sobre el bitcoin que ya poseen, o para apostar por grandes movimientos de precio. No son un producto para principiantes. La propia Coinbase advierte que toda estrategia de trading implica riesgos, incluida la pérdida del capital.
+
+## Qué significa para los principiantes
+
+Para la mayoría de los nuevos inversores, hoy no cambia nada. Si solo quieres tener un poco de bitcoin, el camino habitual sigue siendo comprarlo directamente en una plataforma regulada como [Coinbase](REF) y con cantidades pequeñas. Aprende cómo funcionan la compra al contado, las comisiones y la custodia antes de mirar los derivados. Esto no es asesoramiento de inversión.
+
+!soft: ¿Quieres comparar costes primero? Lee [Comisiones de Coinbase explicadas](/articles/coinbase-fees-explained)
+
+!end_cta
+
+!disclosure

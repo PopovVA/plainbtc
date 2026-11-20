@@ -1,0 +1,61 @@
+title: Bitcoin drops below $62,000 to its lowest price since July as stocks slide
+page_title: Bitcoin falls below $62,000, lowest since July
+description: Bitcoin fell to about $61,353 on Kraken on Thursday, its lowest price since July 6, as U.S. stocks dropped about 2%. Spot bitcoin ETFs have lost a net $2.89 billion in November so far.
+og_description: Bitcoin broke below last weekend's low and touched about $61,353 on Thursday, its lowest since early July. U.S. stocks fell about 2%, and spot bitcoin ETFs are on track for a heavy month of withdrawals. Here is what happened, in plain English.
+label: Market news
+summary: Bitcoin slid to about $61,353 on Kraken on Thursday afternoon, below last weekend's low and its weakest price since July 6, as the Nasdaq and the Dow each fell about 2%. U.S. spot bitcoin ETFs have seen net withdrawals of about $2.89 billion in November.
+===
+
+Bitcoin fell below $62,000 on Thursday, Nov. 19, and set a new low for this selloff. On Kraken, the largest cryptocurrency dropped to <strong>$61,353.20</strong> in the 3 p.m. hour Central time, according to PlainBTC's check of Kraken's [public price data](L5). That is its lowest price since July 6, 2026, and about $620 below the low it touched last Saturday night.
+
+The day started better. Bitcoin climbed to about $64,000 early Thursday, then slid as U.S. stock markets sold off in the afternoon. By about 6 p.m. Central time it was trading near $62,000. Ether dipped to about $1,734 on Kraken before steadying near $1,760.
+
+!takeaways
+- Bitcoin hit about $61,353 on Kraken on Thursday, its lowest price since July 6, 2026.
+- The Nasdaq and the Dow each fell about 2.1% and the S&P 500 about 1.9%, CoinDesk reported.
+- U.S. spot bitcoin ETFs lost a net $306.5 million on Wednesday and about $2.89 billion in November through Nov. 18, per Farside Investors.
+- Bitcoin is on track for a seventh straight weekly loss, its second-longest weekly losing streak after nine weeks in 2022, CoinDesk said.
+
+!figure:chart
+
+## What happened on Thursday
+
+The drop followed Wall Street. Shares of Anthropic, the AI company behind the Claude chatbot, started trading on Thursday after a record public offering and stayed well above their $83 offering price. The rest of the market did not hold up. By late afternoon the Nasdaq and the Dow Jones Industrial Average were both down 2.1% and the S&P 500 was off 1.9%, according to CoinDesk's [live coverage](L1). Gold fell another 2% to about $3,667 an ounce, its weakest level since September 2025.
+
+Bitcoin broke through what CoinDesk called its "panicky weekend lows" as the stock selling picked up into the close. [Bitcoin Magazine](L2) noted that bitcoin traded near $63,900 when U.S. markets opened and was down to about $62,200 by midday, before sliding further.
+
+## A long losing streak
+
+This is not a one-day story. Bitcoin is on track for its seventh losing week in a row. If the week ends lower, it would be the second-longest weekly losing streak in bitcoin's history, behind nine straight weeks of losses in 2022, CoinDesk reported. Bitcoin Magazine calculated a drop of about 25% from bitcoin's Oct. 19 close near $81,800.
+
+On Kraken, bitcoin's highest price in October was about $87,229 on Oct. 2. Thursday's low is nearly 30% below that level.
+
+Investors are also nervous about interest rates. Minutes from the Federal Reserve's October meeting, released Wednesday, showed that [almost all officials](L3) expect further rate increases to be appropriate. Higher rates make safe savings pay more and can pull money away from riskier assets like crypto. The Fed's next meeting is Dec. 8-9.
+
+!figure:fact
+
+!mid_cta
+
+## Big funds keep selling
+
+Exchange-traded funds that hold bitcoin are one of the easiest ways for U.S. investors to own it through a regular brokerage account. They have been shrinking all month. According to [Farside Investors](L4), U.S. spot bitcoin ETFs lost a net $306.5 million on Wednesday, Nov. 18. BlackRock's iShares Bitcoin Trust (IBIT) led with $148.7 million in withdrawals, followed by Fidelity's FBTC at $69.3 million and Bitwise's BITB at $36.6 million. No fund took in money that day.
+
+Adding up Farside's daily figures, the funds have lost about $2.89 billion in November so far, with withdrawals on 11 of the 13 trading days through Nov. 18. Only Nov. 4 and Nov. 16 ended with small net inflows. Complete figures for Thursday were not yet available when this article was published.
+
+!figure:flows
+
+## What it means for beginners
+
+Big drops are part of owning bitcoin, and no one can reliably call the bottom. A price that looks cheap after a 30% fall can still go lower, and it can also rebound fast. If you are thinking about buying, many beginners spread small purchases out over weeks or months instead of buying all at once, and some use a large regulated exchange such as [Coinbase](REF) to start small. Only invest money you can afford to lose, and avoid borrowing to buy. This is not investment advice.
+
+## What to watch next
+
+- Whether bitcoin holds above $60,000, a round number many traders are watching.
+- Friday's close, which decides whether the weekly losing streak reaches seven weeks.
+- Spot bitcoin ETF flow data for Thursday and Friday, and Fed speeches before the Dec. 8-9 meeting.
+
+!soft: New to buying bitcoin step by step? Read [How much bitcoin should a beginner buy?](/articles/how-much-bitcoin-should-a-beginner-buy-dca)
+
+!end_cta
+
+!disclosure

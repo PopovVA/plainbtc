@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ko/</link>
     <description>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 19 Nov 2026 15:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 01:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ko/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>비트코인 6만2000달러 붕괴, 7월 이후 최저가… 주식시장 급락 여파</title>
+      <link>https://plainbtc.com/ko/articles/bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 01:10:00 GMT</pubDate>
+      <category>시장</category>
+      <description>비트코인이 목요일 오후 크라켄에서 약 6만1353달러까지 떨어지며 지난 주말 저점을 밑돌았고 7월 6일 이후 최저가를 기록했다. 나스닥과 다우는 각각 약 2% 하락했다. 미국 현물 비트코인 ETF의 11월 순유출은 약 28억9000만 달러다.</description>
+    </item>
+    <item>
+      <title>코인베이스, 미국 밖 이용자에 암호화폐 옵션 출시… 미국은 "곧" 제공</title>
+      <link>https://plainbtc.com/ko/articles/coinbase-crypto-options-non-us-users-deribit-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/coinbase-crypto-options-non-us-users-deribit-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 01:00:00 GMT</pubDate>
+      <category>비즈니스</category>
+      <description>코인베이스가 11월 19일 목요일 미국 밖 일부 국가의 적격 고객을 대상으로 Deribit 유동성을 활용한 암호화폐 옵션을 출시했다. 계약은 6개 자산을 대상으로 하며 USDC로 정산된다. 브라이언 암스트롱 CEO는 미국 이용자도 Coinbase Pro를 통해 "곧" 옵션을 쓸 수 있다고 말했다.</description>
+    </item>
     <item>
       <title>미국, 암호화폐 사기 대응 '위협 차단 센터' 출범… 기술은 TRM 랩스가 맡아</title>
       <link>https://plainbtc.com/ko/articles/threat-disruption-center-crypto-scams-trm-labs-nov-2026</link>

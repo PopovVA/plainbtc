@@ -1,0 +1,20 @@
+{
+ "slug": "bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026",
+ "date": "2026-11-19",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026",
+  "bitcoin-four-month-low-62000-liquidations-nov-2026",
+  "crypto-fear-greed-index-10-extreme-fear-nov-2026",
+  "how-much-bitcoin-should-a-beginner-buy-dca"
+ ],
+ "sources": [
+  {"url": "https://www.coindesk.com/markets/2026/11/19/live-updates-bitcoin-nears-usd64-000-as-anthropic-s-record-ipo-lifts-tech", "title": "CoinDesk: Live updates: Bitcoin plunges to lowest since July as broader markets tumble", "date": "Nov 19, 2026"},
+  {"url": "https://bitcoinmagazine.com/markets/bitcoin-price-slumps-under-62000", "title": "Bitcoin Magazine: Bitcoin price slumps under $62,000, crashing 25% in a month", "date": "Nov 19, 2026"},
+  {"url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm", "title": "Federal Reserve: Minutes of the Federal Open Market Committee, October 27-28, 2026", "date": "Nov 18, 2026"},
+  {"url": "https://farside.co.uk/btc/", "title": "Farside Investors: Bitcoin ETF flow data", "date": "Nov 19, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: public BTC/USD and ETH/USD price data (OHLC)", "date": "Nov 19, 2026"}
+ ],
+ "disclosure_variant": "std"
+}
