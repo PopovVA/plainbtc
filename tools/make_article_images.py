@@ -4143,7 +4143,159 @@ def build_coinbase_options_intl():
     ]
 
 
+def build_ibit_record_outflow():
+    slug = "blackrock-ibit-record-541-million-outflow-nov-2026"
+    d = OUT / slug
+    # Farside Investors, all-data table read Nov 20, 2026 ~8 a.m. CST: IBIT's five largest daily net outflows since Jan 2024.
+    labels = ["Nov 14, 2025", "Nov 18, 2025", "May 27, 2026", "Jan 30, 2026", "Nov 19, 2026"]
+    vals = [463.1, 523.2, 527.8, 528.3, 541.1]
+    chart = make_bar_chart(
+        d / "chart-ibit-largest-daily-outflows",
+        labels, vals,
+        "IBIT's five largest one-day net outflows (US$ millions)",
+        colors=["#64748b"] * 4 + ["#f7931a"],
+        value_fmt=lambda v: f"-${v:,.1f}M",
+        axis_fmt=lambda x, _p: f"${x:,.0f}M",
+    )
+    # Farside daily totals Nov 2-19, 2026 (14 sessions) summed by PlainBTC: -$3,467.8M; IBIT -$2,940.7M; inflows only Nov 4 and Nov 16.
+    fact = make_fact_card(
+        d / "fact-3-47-billion-november-outflows",
+        "U.S. spot bitcoin ETFs, November 2026",
+        "-$3.47 billion",
+        "Net outflows from Nov. 2 to Nov. 19, with withdrawals on 12 of 14 trading days. BlackRock's IBIT alone: -$2.94 billion.",
+        footer="Farside Investors daily flows, summed by PlainBTC",
+    )
+    funds = ["IBIT", "FBTC", "ARKB", "GBTC", "BTCW", "MSBT"]
+    fv = [-541.1, -45.9, -31.3, -13.9, 0.3, 49.6]
+    funds_img = make_bar_chart(
+        d / "chart-btc-etf-flows-by-fund-nov-19",
+        funds, fv,
+        "Spot bitcoin ETF net flows by fund, Nov. 19, 2026 (US$ millions)",
+        colors=["#34d399" if v > 0 else "#f87171" for v in fv],
+        value_fmt=lambda v: f"{v:+,.1f}",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of the five largest one-day net outflows from BlackRock's iShares Bitcoin Trust (IBIT): $463.1 million on Nov. 14, 2025, $523.2 million on Nov. 18, 2025, $527.8 million on May 27, 2026, $528.3 million on Jan. 30, 2026, and a record $541.1 million on Nov. 19, 2026", {
+            "es": "Gráfico de barras de las cinco mayores salidas netas en un día del iShares Bitcoin Trust (IBIT) de BlackRock: 463,1 millones de dólares el 14 de noviembre de 2025, 523,2 millones el 18 de noviembre de 2025, 527,8 millones el 27 de mayo de 2026, 528,3 millones el 30 de enero de 2026 y un récord de 541,1 millones el 19 de noviembre de 2026",
+            "pt": "Gráfico de barras dos cinco maiores resgates líquidos em um dia do iShares Bitcoin Trust (IBIT), da BlackRock: US$ 463,1 milhões em 14 de novembro de 2025, US$ 523,2 milhões em 18 de novembro de 2025, US$ 527,8 milhões em 27 de maio de 2026, US$ 528,3 milhões em 30 de janeiro de 2026 e um recorde de US$ 541,1 milhões em 19 de novembro de 2026",
+            "fr": "Graphique en barres des cinq plus fortes sorties nettes en une journée de l'iShares Bitcoin Trust (IBIT) de BlackRock : 463,1 millions de dollars le 14 novembre 2025, 523,2 millions le 18 novembre 2025, 527,8 millions le 27 mai 2026, 528,3 millions le 30 janvier 2026 et un record de 541,1 millions le 19 novembre 2026",
+            "de": "Balkendiagramm der fünf größten Tagesabflüsse aus BlackRocks iShares Bitcoin Trust (IBIT): 463,1 Mio. $ am 14. November 2025, 523,2 Mio. $ am 18. November 2025, 527,8 Mio. $ am 27. Mai 2026, 528,3 Mio. $ am 30. Januar 2026 und ein Rekord von 541,1 Mio. $ am 19. November 2026",
+            "ru": "Столбчатая диаграмма пяти крупнейших дневных чистых оттоков из фонда BlackRock iShares Bitcoin Trust (IBIT): $463,1 млн 14 ноября 2025 года, $523,2 млн 18 ноября 2025 года, $527,8 млн 27 мая 2026 года, $528,3 млн 30 января 2026 года и рекордные $541,1 млн 19 ноября 2026 года",
+            "tr": "BlackRock'ın iShares Bitcoin Trust (IBIT) fonundan yaşanan en büyük beş günlük net çıkışın çubuk grafiği: 14 Kasım 2025'te 463,1 milyon $, 18 Kasım 2025'te 523,2 milyon $, 27 Mayıs 2026'da 527,8 milyon $, 30 Ocak 2026'da 528,3 milyon $ ve 19 Kasım 2026'da rekor 541,1 milyon $",
+            "id": "Grafik batang lima arus keluar bersih harian terbesar dari iShares Bitcoin Trust (IBIT) milik BlackRock: US$463,1 juta pada 14 November 2025, US$523,2 juta pada 18 November 2025, US$527,8 juta pada 27 Mei 2026, US$528,3 juta pada 30 Januari 2026, dan rekor US$541,1 juta pada 19 November 2026",
+            "ja": "ブラックロックのiShares Bitcoin Trust（IBIT）の1日あたり純流出額の上位5日を示す棒グラフ：2025年11月14日に4億6310万ドル、2025年11月18日に5億2320万ドル、2026年5月27日に5億2780万ドル、2026年1月30日に5億2830万ドル、2026年11月19日に過去最大の5億4110万ドル",
+            "ko": "블랙록 iShares Bitcoin Trust(IBIT)의 하루 순유출 상위 5일 막대 차트: 2025년 11월 14일 4억6310만 달러, 2025년 11월 18일 5억2320만 달러, 2026년 5월 27일 5억2780만 달러, 2026년 1월 30일 5억2830만 달러, 2026년 11월 19일 사상 최대 5억4110만 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Farside Investors")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: U.S. spot bitcoin ETFs had about $3.47 billion in net outflows from Nov. 2 to Nov. 19, 2026, with withdrawals on 12 of 14 trading days; BlackRock's IBIT alone lost about $2.94 billion, based on Farside Investors data", {
+            "es": "Tarjeta: los ETF de bitcoin al contado de EE. UU. registraron salidas netas de unos 3.470 millones de dólares del 2 al 19 de noviembre de 2026, con retiros en 12 de 14 sesiones; solo el IBIT de BlackRock perdió unos 2.940 millones, según datos de Farside Investors",
+            "pt": "Cartão: os ETFs de bitcoin à vista dos EUA tiveram saídas líquidas de cerca de US$ 3,47 bilhões de 2 a 19 de novembro de 2026, com resgates em 12 de 14 pregões; só o IBIT, da BlackRock, perdeu cerca de US$ 2,94 bilhões, segundo dados da Farside Investors",
+            "fr": "Carte : les ETF bitcoin au comptant américains ont enregistré environ 3,47 milliards de dollars de sorties nettes du 2 au 19 novembre 2026, avec des retraits sur 12 séances sur 14 ; l'IBIT de BlackRock a perdu à lui seul environ 2,94 milliards, selon les données de Farside Investors",
+            "de": "Faktenkarte: US-Spot-Bitcoin-ETFs verzeichneten vom 2. bis 19. November 2026 Nettoabflüsse von rund 3,47 Mrd. $, mit Abflüssen an 12 von 14 Handelstagen; allein BlackRocks IBIT verlor rund 2,94 Mrd. $, laut Daten von Farside Investors",
+            "ru": "Карточка: чистый отток из американских спотовых биткоин-ETF со 2 по 19 ноября 2026 года составил около $3,47 млрд, деньги уходили в 12 из 14 торговых дней; только из IBIT от BlackRock ушло около $2,94 млрд, по данным Farside Investors",
+            "tr": "Bilgi kartı: ABD spot bitcoin ETF'lerinden 2-19 Kasım 2026 arasında yaklaşık 3,47 milyar $ net çıkış oldu, 14 işlem gününün 12'sinde para çekildi; yalnızca BlackRock'ın IBIT fonu yaklaşık 2,94 milyar $ kaybetti, Farside Investors verilerine göre",
+            "id": "Kartu fakta: ETF bitcoin spot AS mencatat arus keluar bersih sekitar US$3,47 miliar dari 2 hingga 19 November 2026, dengan penarikan pada 12 dari 14 hari perdagangan; IBIT milik BlackRock sendiri kehilangan sekitar US$2,94 miliar, menurut data Farside Investors",
+            "ja": "ファクトカード：米国の現物ビットコインETFは2026年11月2日〜19日に約34億7000万ドルの純流出。14営業日のうち12日で流出し、ブラックロックのIBITだけで約29億4000万ドル（Farside Investorsのデータ）",
+            "ko": "팩트 카드: 미국 현물 비트코인 ETF는 2026년 11월 2~19일 약 34억7000만 달러 순유출, 14거래일 중 12일 유출. 블랙록 IBIT 단독 약 29억4000만 달러(Farside Investors 데이터)",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Farside Investors, summed by PlainBTC")},
+        {"id": "funds", "file": funds_img.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of U.S. spot bitcoin ETF net flows by fund on Nov. 19, 2026: IBIT minus $541.1 million, FBTC minus $45.9 million, ARKB minus $31.3 million, GBTC minus $13.9 million, BTCW plus $0.3 million and MSBT plus $49.6 million", {
+            "es": "Gráfico de barras de los flujos netos de los ETF de bitcoin al contado de EE. UU. por fondo el 19 de noviembre de 2026: IBIT −541,1 millones de dólares, FBTC −45,9 millones, ARKB −31,3 millones, GBTC −13,9 millones, BTCW +0,3 millones y MSBT +49,6 millones",
+            "pt": "Gráfico de barras dos fluxos líquidos dos ETFs de bitcoin à vista dos EUA por fundo em 19 de novembro de 2026: IBIT −US$ 541,1 milhões, FBTC −US$ 45,9 milhões, ARKB −US$ 31,3 milhões, GBTC −US$ 13,9 milhões, BTCW +US$ 0,3 milhão e MSBT +US$ 49,6 milhões",
+            "fr": "Graphique en barres des flux nets des ETF bitcoin au comptant américains par fonds le 19 novembre 2026 : IBIT −541,1 millions de dollars, FBTC −45,9 millions, ARKB −31,3 millions, GBTC −13,9 millions, BTCW +0,3 million et MSBT +49,6 millions",
+            "de": "Balkendiagramm der Nettozuflüsse der US-Spot-Bitcoin-ETFs nach Fonds am 19. November 2026: IBIT −541,1 Mio. $, FBTC −45,9 Mio. $, ARKB −31,3 Mio. $, GBTC −13,9 Mio. $, BTCW +0,3 Mio. $ und MSBT +49,6 Mio. $",
+            "ru": "Столбчатая диаграмма чистых потоков американских спотовых биткоин-ETF по фондам 19 ноября 2026 года: IBIT −$541,1 млн, FBTC −$45,9 млн, ARKB −$31,3 млн, GBTC −$13,9 млн, BTCW +$0,3 млн и MSBT +$49,6 млн",
+            "tr": "19 Kasım 2026'da ABD spot bitcoin ETF'lerinin fon bazında net akışlarının çubuk grafiği: IBIT −541,1 milyon $, FBTC −45,9 milyon $, ARKB −31,3 milyon $, GBTC −13,9 milyon $, BTCW +0,3 milyon $ ve MSBT +49,6 milyon $",
+            "id": "Grafik batang arus bersih ETF bitcoin spot AS per dana pada 19 November 2026: IBIT −US$541,1 juta, FBTC −US$45,9 juta, ARKB −US$31,3 juta, GBTC −US$13,9 juta, BTCW +US$0,3 juta, dan MSBT +US$49,6 juta",
+            "ja": "2026年11月19日の米国現物ビットコインETFのファンド別純フローの棒グラフ：IBITはマイナス5億4110万ドル、FBTCはマイナス4590万ドル、ARKBはマイナス3130万ドル、GBTCはマイナス1390万ドル、BTCWはプラス30万ドル、MSBTはプラス4960万ドル",
+            "ko": "2026년 11월 19일 미국 현물 비트코인 ETF 펀드별 순흐름 막대 차트: IBIT -5억4110만 달러, FBTC -4590만 달러, ARKB -3130만 달러, GBTC -1390만 달러, BTCW +30만 달러, MSBT +4960만 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Farside Investors")},
+    ]
+
+
+def build_sec_fake_platforms():
+    slug = "sec-fake-crypto-platforms-37-million-whatsapp-nov-2026"
+    d = OUT / slug
+    # SEC complaint (D. Colo., No. 1:26-cv-06302, filed Nov 19, 2026), para. 5 and 52: minimum received at each platform's accumulation address.
+    chart = make_bar_chart(
+        d / "chart-sec-scam-funds-by-platform",
+        ["TBAA\nAug-Dec 2024", "IdeaCrypto\nJan-Jul 2025", "RealSimple\nJul-Dec 2025", "Essential Crypto\nJan-May 2026"],
+        [7.32, 13.64, 10.36, 4.22],
+        "Money received by each fake platform, per the SEC (US$ millions, at least)",
+        colors=["#f87171", "#f87171", "#f87171", "#f87171"],
+        value_fmt=lambda v: f"${v:,.2f}M",
+        axis_fmt=lambda x, _p: f"${x:,.0f}M",
+    )
+    # SEC complaint, paras. 1-5, 54, 56, 58.
+    tl = make_timeline_card(
+        d / "timeline-sec-fake-platform-scam",
+        "How the scheme worked, per the SEC",
+        [
+            ("Step 1", "A social media ad leads to a WhatsApp chat", (96, 165, 250)),
+            ("Step 2", "A fake adviser gives stock tips to win trust", (96, 165, 250)),
+            ("Step 3", "Victims buy crypto on a real exchange and send it out", ORANGE),
+            ("Step 4", "A fake app shows gains; a fee is demanded to withdraw", RED),
+        ],
+        footer="SEC complaint, D. Colo., Nov. 19, 2026",
+        margin=170, wrap_w=230,
+    )
+    fact = make_fact_card(
+        d / "fact-37-million-1500-investors",
+        "SEC complaint, Nov. 19, 2026",
+        "$37.4 million",
+        "Taken from more than 1,500 U.S. investors between August 2024 and May 2026 by four fake adviser-and-platform pairs, the SEC says.",
+        footer="SEC v. Advisor WeChat Capital et al., D. Colo.",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of money received by each fake crypto platform named by the SEC: at least $7.32 million for TBAA from August to December 2024, $13.64 million for IdeaCrypto from January to July 2025, $10.36 million for RealSimple from July to December 2025 and $4.22 million for Essential Crypto from January to May 2026", {
+            "es": "Gráfico de barras del dinero recibido por cada plataforma cripto falsa citada por la SEC: al menos 7,32 millones de dólares para TBAA de agosto a diciembre de 2024, 13,64 millones para IdeaCrypto de enero a julio de 2025, 10,36 millones para RealSimple de julio a diciembre de 2025 y 4,22 millones para Essential Crypto de enero a mayo de 2026",
+            "pt": "Gráfico de barras do dinheiro recebido por cada plataforma cripto falsa citada pela SEC: pelo menos US$ 7,32 milhões para a TBAA de agosto a dezembro de 2024, US$ 13,64 milhões para a IdeaCrypto de janeiro a julho de 2025, US$ 10,36 milhões para a RealSimple de julho a dezembro de 2025 e US$ 4,22 milhões para a Essential Crypto de janeiro a maio de 2026",
+            "fr": "Graphique en barres de l'argent reçu par chaque fausse plateforme crypto citée par la SEC : au moins 7,32 millions de dollars pour TBAA d'août à décembre 2024, 13,64 millions pour IdeaCrypto de janvier à juillet 2025, 10,36 millions pour RealSimple de juillet à décembre 2025 et 4,22 millions pour Essential Crypto de janvier à mai 2026",
+            "de": "Balkendiagramm der Gelder, die jede von der SEC genannte falsche Krypto-Plattform erhielt: mindestens 7,32 Mio. $ für TBAA von August bis Dezember 2024, 13,64 Mio. $ für IdeaCrypto von Januar bis Juli 2025, 10,36 Mio. $ für RealSimple von Juli bis Dezember 2025 und 4,22 Mio. $ für Essential Crypto von Januar bis Mai 2026",
+            "ru": "Столбчатая диаграмма денег, полученных каждой фальшивой криптоплатформой из иска SEC: не менее $7,32 млн у TBAA с августа по декабрь 2024 года, $13,64 млн у IdeaCrypto с января по июль 2025 года, $10,36 млн у RealSimple с июля по декабрь 2025 года и $4,22 млн у Essential Crypto с января по май 2026 года",
+            "tr": "SEC'in adını verdiği her sahte kripto platformunun aldığı paranın çubuk grafiği: Ağustos-Aralık 2024'te TBAA için en az 7,32 milyon $, Ocak-Temmuz 2025'te IdeaCrypto için 13,64 milyon $, Temmuz-Aralık 2025'te RealSimple için 10,36 milyon $ ve Ocak-Mayıs 2026'da Essential Crypto için 4,22 milyon $",
+            "id": "Grafik batang uang yang diterima setiap platform kripto palsu yang disebut SEC: setidaknya US$7,32 juta untuk TBAA pada Agustus hingga Desember 2024, US$13,64 juta untuk IdeaCrypto pada Januari hingga Juli 2025, US$10,36 juta untuk RealSimple pada Juli hingga Desember 2025, dan US$4,22 juta untuk Essential Crypto pada Januari hingga Mei 2026",
+            "ja": "SECが名指しした偽の暗号資産プラットフォームごとの受取額を示す棒グラフ：TBAA（2024年8月〜12月）が少なくとも732万ドル、IdeaCrypto（2025年1月〜7月）が1364万ドル、RealSimple（2025年7月〜12月）が1036万ドル、Essential Crypto（2026年1月〜5月）が422万ドル",
+            "ko": "SEC가 지목한 가짜 암호화폐 플랫폼별 수취액 막대 차트: TBAA(2024년 8~12월) 최소 732만 달러, IdeaCrypto(2025년 1~7월) 1364만 달러, RealSimple(2025년 7~12월) 1036만 달러, Essential Crypto(2026년 1~5월) 422만 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="SEC complaint, D. Colo., Nov. 19, 2026")},
+        {"id": "steps", "file": tl.name, "w": 1200, "h": 630, "kind": "timeline",
+         "alt": alts("Four steps of the scheme described by the SEC: a social media ad leads to a WhatsApp chat; a fake adviser gives stock tips to win trust; victims buy crypto on a real exchange and send it out; a fake app shows gains and a fee is demanded to withdraw", {
+            "es": "Los cuatro pasos del esquema descrito por la SEC: un anuncio en redes sociales lleva a un chat de WhatsApp; un falso asesor da consejos sobre acciones para ganarse la confianza; las víctimas compran cripto en un exchange real y la envían fuera; una app falsa muestra ganancias y se exige una comisión para retirar",
+            "pt": "As quatro etapas do esquema descrito pela SEC: um anúncio em rede social leva a um chat de WhatsApp; um falso consultor dá dicas de ações para ganhar confiança; as vítimas compram cripto em uma corretora real e a enviam para fora; um app falso mostra ganhos e uma taxa é exigida para sacar",
+            "fr": "Les quatre étapes du stratagème décrit par la SEC : une publicité sur les réseaux sociaux mène à un groupe WhatsApp ; un faux conseiller donne des conseils boursiers pour gagner la confiance ; les victimes achètent des cryptos sur une vraie plateforme et les envoient ailleurs ; une fausse appli affiche des gains et des frais sont exigés pour retirer",
+            "de": "Die vier Schritte des von der SEC beschriebenen Betrugs: Eine Social-Media-Anzeige führt in einen WhatsApp-Chat; ein falscher Berater gibt Aktientipps, um Vertrauen zu gewinnen; Opfer kaufen Krypto bei einer echten Börse und senden es weiter; eine falsche App zeigt Gewinne, und für die Auszahlung wird eine Gebühr verlangt",
+            "ru": "Четыре шага схемы, описанной SEC: реклама в соцсетях ведет в чат WhatsApp; фальшивый советник дает советы по акциям, чтобы завоевать доверие; жертвы покупают криптовалюту на настоящей бирже и отправляют ее дальше; фальшивое приложение показывает прибыль, а за вывод требуют комиссию",
+            "tr": "SEC'in anlattığı planın dört adımı: sosyal medya reklamı bir WhatsApp sohbetine götürüyor; sahte bir danışman güven kazanmak için hisse tavsiyeleri veriyor; mağdurlar gerçek bir borsadan kripto alıp dışarı gönderiyor; sahte bir uygulama kazanç gösteriyor ve para çekmek için ücret isteniyor",
+            "id": "Empat langkah skema yang dijelaskan SEC: iklan media sosial mengarah ke obrolan WhatsApp; penasihat palsu memberi tips saham untuk meraih kepercayaan; korban membeli kripto di bursa sungguhan lalu mengirimkannya keluar; aplikasi palsu menampilkan keuntungan dan biaya diminta untuk penarikan",
+            "ja": "SECが説明する手口の4段階：SNS広告からWhatsAppのチャットへ誘導、偽のアドバイザーが株の助言で信頼を得る、被害者が本物の取引所で暗号資産を買って外部へ送金、偽アプリが利益を表示し出金に手数料を要求",
+            "ko": "SEC가 설명한 수법의 4단계: SNS 광고가 왓츠앱 채팅으로 유도, 가짜 자문가가 주식 팁으로 신뢰 확보, 피해자가 실제 거래소에서 암호화폐를 사서 외부로 송금, 가짜 앱이 수익을 보여 주고 출금에 수수료 요구",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="SEC complaint, D. Colo., Nov. 19, 2026")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: the SEC says about $37.4 million was taken from more than 1,500 U.S. investors between August 2024 and May 2026 by four fake adviser-and-platform pairs", {
+            "es": "Tarjeta: la SEC afirma que unos 37,4 millones de dólares fueron sustraídos a más de 1.500 inversores estadounidenses entre agosto de 2024 y mayo de 2026 por cuatro parejas falsas de asesor y plataforma",
+            "pt": "Cartão: a SEC diz que cerca de US$ 37,4 milhões foram tirados de mais de 1.500 investidores dos EUA entre agosto de 2024 e maio de 2026 por quatro pares falsos de consultor e plataforma",
+            "fr": "Carte : selon la SEC, environ 37,4 millions de dollars ont été soutirés à plus de 1 500 investisseurs américains entre août 2024 et mai 2026 par quatre faux duos conseiller-plateforme",
+            "de": "Faktenkarte: Laut SEC wurden zwischen August 2024 und Mai 2026 rund 37,4 Mio. $ von mehr als 1.500 US-Anlegern durch vier falsche Berater-Plattform-Paare erbeutet",
+            "ru": "Карточка: по данным SEC, с августа 2024 по май 2026 года четыре фальшивые пары «советник и платформа» забрали около $37,4 млн у более чем 1500 американских инвесторов",
+            "tr": "Bilgi kartı: SEC'e göre Ağustos 2024 ile Mayıs 2026 arasında dört sahte danışman-platform ikilisi 1.500'den fazla ABD'li yatırımcıdan yaklaşık 37,4 milyon $ aldı",
+            "id": "Kartu fakta: SEC menyebut sekitar US$37,4 juta diambil dari lebih dari 1.500 investor AS antara Agustus 2024 dan Mei 2026 oleh empat pasangan penasihat dan platform palsu",
+            "ja": "ファクトカード：SECによると、2024年8月〜2026年5月に偽のアドバイザーとプラットフォームの4組が1500人超の米国投資家から約3740万ドルを奪った",
+            "ko": "팩트 카드: SEC에 따르면 2024년 8월~2026년 5월 가짜 자문사·플랫폼 4쌍이 미국 투자자 1500명 이상에게서 약 3740만 달러를 가로챘다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="SEC complaint, D. Colo., Nov. 19, 2026")},
+    ]
+
+
 BUILDERS = {
+    "blackrock-ibit-record-541-million-outflow-nov-2026": "ibitrec",
+    "sec-fake-crypto-platforms-37-million-whatsapp-nov-2026": "secfake",
     "bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026": "btc62kjul",
     "coinbase-crypto-options-non-us-users-deribit-nov-2026": "cboptions",
     "threat-disruption-center-crypto-scams-trm-labs-nov-2026": "tdc",
@@ -4218,7 +4370,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "btc62kjul":
+    if key == "ibitrec":
+        figs = build_ibit_record_outflow()
+    elif key == "secfake":
+        figs = build_sec_fake_platforms()
+    elif key == "btc62kjul":
         figs = build_btc_below_62k_july()
     elif key == "cboptions":
         figs = build_coinbase_options_intl()

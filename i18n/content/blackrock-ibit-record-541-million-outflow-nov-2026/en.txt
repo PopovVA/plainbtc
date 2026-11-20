@@ -1,0 +1,61 @@
+title: BlackRock's bitcoin ETF has its biggest one-day outflow ever: $541.1 million
+page_title: BlackRock's IBIT sees record $541.1 million outflow
+description: Investors pulled a net $541.1 million from BlackRock's iShares Bitcoin Trust (IBIT) on Nov. 19, its largest one-day outflow since its 2024 launch. U.S. spot bitcoin ETFs have lost about $3.47 billion in November.
+og_description: BlackRock's spot bitcoin ETF, the biggest in the U.S., just had its worst day for withdrawals since it launched. Bitcoin slipped to about $61,176 on Friday morning. What the record outflow means, in plain English.
+label: Market news
+summary: BlackRock's iShares Bitcoin Trust (IBIT) lost a net $541.1 million on Thursday, Nov. 19, beating its previous one-day record of $528.3 million from January. All U.S. spot bitcoin ETFs lost $582.3 million that day and about $3.47 billion so far in November.
+===
+
+The largest bitcoin fund in the United States just had its worst day for withdrawals. On Thursday, Nov. 19, investors pulled a net <strong>$541.1 million</strong> out of BlackRock's iShares Bitcoin Trust (IBIT), according to daily data from [Farside Investors](L1). That is the biggest one-day outflow since the fund started trading in January 2024.
+
+The previous record was $528.3 million on Jan. 30, 2026, according to Farside's [full history](L2). Three of IBIT's five biggest withdrawal days have now come in 2026, and the new record arrived as bitcoin traded at its lowest prices since early July.
+
+!takeaways
+- IBIT lost a net $541.1 million on Nov. 19, its largest one-day outflow since its January 2024 launch, per Farside Investors.
+- All U.S. spot bitcoin ETFs together lost a net $582.3 million that day, the third straight day of withdrawals.
+- The funds have lost about $3.47 billion in November through Nov. 19, with withdrawals on 12 of 14 trading days.
+- Bitcoin fell to about $61,176 on Kraken early Friday, its lowest price since July 3, before trading near $61,800.
+
+!figure:chart
+
+## What happened on Thursday
+
+IBIT did most of the damage. Farside's table shows Fidelity's FBTC lost $45.9 million, Ark 21Shares' ARKB lost $31.3 million and Grayscale's GBTC lost $13.9 million. Only two funds took in money: Morgan Stanley's MSBT added $49.6 million and WisdomTree's BTCW added $0.3 million. Taken together, U.S. spot bitcoin ETFs saw a net outflow of $582.3 million, their third losing day in a row.
+
+The selling was not limited to bitcoin. Spot ether ETFs lost a net $131.2 million on Thursday, their fourth straight day of outflows, [The Block reported](L4) citing SoSoValue data.
+
+!figure:funds
+
+## Bitcoin keeps sliding
+
+The record outflow came as prices kept falling. Bitcoin dropped to about <strong>$61,176</strong> on Kraken around 6 a.m. Central time on Friday, according to PlainBTC's check of Kraken's [public price data](L5). That was below Thursday's low of about $61,353 and the lowest price since July 3. By about 8 a.m. Central time it was trading near $61,800.
+
+[CoinDesk reported](L3) that bitcoin fell for a third straight day as a selloff in technology stocks spread to Asia and U.S. tech futures dropped more than 1%. South Korea's Kospi index fell more than 5%. Crypto liquidations, when exchanges forcibly close borrowed bets, reached $718.6 million over 24 hours, mostly from traders who had bet on rising prices, CoinDesk said.
+
+!mid_cta
+
+## A month of withdrawals
+
+November has been rough for these funds. Adding up Farside's daily figures, U.S. spot bitcoin ETFs have lost a net <strong>$3.47 billion</strong> from Nov. 2 to Nov. 19. Only Nov. 4 and Nov. 16 ended with small net inflows. IBIT alone accounts for about $2.94 billion of the November outflows.
+
+Some perspective helps. Even after this month, Farside's data show IBIT has taken in about $63.4 billion more than it has paid out since its launch. One bad day, or even one bad month, does not erase that. But ETF flows are one of the clearest signs of what large investors are doing, and right now they are pulling back.
+
+!figure:fact
+
+## What it means for beginners
+
+An ETF outflow means investors sold shares of the fund and the fund handed back money, so it usually sells some of the bitcoin it holds. Heavy outflows can add to selling pressure, but they also often follow prices down rather than lead them. No one knows whether this marks a turning point.
+
+If you are thinking about buying bitcoin, you can own it through an ETF in a brokerage account or buy it directly on a large regulated exchange such as [Coinbase](REF). Many beginners start small and spread purchases out over time instead of trying to time the bottom. Only invest money you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Friday's flow data, which will show whether the outflows reach a fourth straight day.
+- Whether bitcoin holds above $60,000 into the weekend.
+- Whether bitcoin's weekly close on Sunday extends its losing streak.
+
+!soft: Not sure whether a fund or the coin itself suits you? Read [Bitcoin ETF vs. buying bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

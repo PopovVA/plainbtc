@@ -1,0 +1,20 @@
+{
+ "slug": "blackrock-ibit-record-541-million-outflow-nov-2026",
+ "date": "2026-11-20",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026",
+  "goldman-wells-fargo-double-bitcoin-etf-holdings-13f-nov-2026",
+  "bitcoin-etf-vs-buying-bitcoin",
+  "how-much-bitcoin-should-a-beginner-buy-dca"
+ ],
+ "sources": [
+  {"url": "https://farside.co.uk/btc/", "title": "Farside Investors: Bitcoin ETF flow data", "date": "Nov 20, 2026"},
+  {"url": "https://farside.co.uk/bitcoin-etf-flow-all-data/", "title": "Farside Investors: Bitcoin ETF flow, all data since January 2024", "date": "Nov 20, 2026"},
+  {"url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide", "title": "CoinDesk: Bitcoin extends declines as Asian tech shares slide: Crypto Markets Today", "date": "Nov 20, 2026"},
+  {"url": "https://www.theblock.co/news/markets/2026-11-20-us-spot-bitcoin-etfs-see-582-million-in-daily-net-outflows-as-november-total-nears-3-5-billion-444217", "title": "The Block: US spot bitcoin ETFs see $582 million in daily net outflows as November total nears $3.5 billion", "date": "Nov 20, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: public BTC/USD price data (OHLC)", "date": "Nov 20, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

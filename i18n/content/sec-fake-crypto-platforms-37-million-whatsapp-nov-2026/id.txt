@@ -1,0 +1,66 @@
+title: SEC: Penasihat palsu dan aplikasi kripto palsu mengambil US$37 juta dari 1.500 warga AS
+page_title: SEC: Platform kripto palsu mengambil US$37 juta dari investor
+description: SEC menggugat delapan entitas yang berbasis di Colorado yang menurut regulator itu memakai iklan media sosial, obrolan WhatsApp, penasihat palsu, dan aplikasi trading kripto palsu untuk mengambil sekitar US$37,4 juta dari lebih dari 1.500 investor AS.
+og_description: Tips saham di grup WhatsApp, lalu tawaran kripto "khusus", lalu biaya untuk menarik dana. SEC menyebut satu jaringan menjalankan skenario ini empat kali dalam waktu kurang dari dua tahun. Cara kerjanya dan tanda bahayanya, dalam bahasa sederhana.
+label: Keamanan
+summary: Pada 19 November, SEC menggugat delapan perusahaan berbasis di Colorado yang kemungkinan dikendalikan dari luar negeri, atas skema yang menurut regulator itu mengambil sekitar US$37,4 juta dari lebih dari 1.500 investor AS melalui penasihat investasi palsu, obrolan WhatsApp, dan platform kripto palsu.
+===
+
+Komisi Sekuritas dan Bursa AS (SEC) menyatakan jaringan penasihat investasi palsu dan platform trading kripto palsu mengambil lebih dari US$37 juta dari warga Amerika biasa. Pada Kamis, 19 November, SEC [menggugat delapan entitas berbasis di Colorado atas penipuan](L1), yang menurut SEC "kemungkinan dijalankan oleh orang-orang yang berada di luar negeri".
+
+Menurut [gugatan](L2) SEC yang diajukan ke pengadilan federal di Colorado, skema ini meraup <strong>US$37.445.800</strong> dari lebih dari 1.500 investor AS antara Agustus 2024 dan Mei 2026. Sebagian korban menjual saham, mencairkan tabungan pensiun 401(k), atau meminjam dari keluarga untuk terus berinvestasi. Menurut SEC, tidak satu pun perusahaan itu adalah penasihat atau bursa sungguhan.
+
+!takeaways
+- SEC menggugat delapan entitas berbasis di Colorado atas skema yang menurutnya mengambil sekitar US$37,4 juta dari lebih dari 1.500 investor AS.
+- Korban dipikat lewat iklan media sosial dan obrolan WhatsApp yang dijalankan penasihat investasi palsu.
+- "Platform" palsu menampilkan keuntungan karangan, lalu meminta biaya sebelum penarikan apa pun.
+- Menurut SEC, para penipu mengirim "sertifikat" SEC palsu dan menunjuk dokumen pendaftaran asli agar terlihat sah.
+
+!figure:steps
+
+## Cara kerja skema ini
+
+Skenarionya selalu sama, menurut gugatan. Iklan media sosial membawa orang ke grup WhatsApp yang dikelola seseorang yang mengaku bekerja untuk penasihat investasi. "Penasihat" itu awalnya memberi tips tentang saham AS biasa untuk membangun kepercayaan. Lalu datang tawarannya: penawaran kripto eksklusif yang disebut IEO, yang diklaim lebih menguntungkan daripada apa pun.
+
+Korban diminta menyetor dolar ke akun di bursa kripto AS ternama, membeli kripto seperti ether, USDT, atau USDC, memindahkannya ke dompet milik sendiri, lalu mengirimkannya ke alamat yang diberikan penasihat. Mereka juga diminta mengunduh aplikasi "platform trading" pasangannya. Aplikasi itu terlihat asli dan menampilkan saldo serta transaksi. Menurut SEC, semua itu tidak nyata, dan uangnya cepat dipindahkan melalui jaringan dompet dan bridge.
+
+Saat korban mencoba menarik keuntungan semu mereka, mereka diminta membayar biaya terlebih dahulu, berupa persentase dari keuntungan itu, dalam bentuk kripto ke alamat lain lagi. Yang menolak ditekan dan diancam, menurut gugatan. Pada akhirnya tidak ada yang bisa menarik apa pun, situs-situsnya mati, dan obrolannya sepi.
+
+## Empat kedok, satu jaringan
+
+SEC menyebut para tergugat beroperasi dalam empat pasangan penasihat dan platform, masing-masing aktif sekitar enam bulan sebelum menghilang dan digantikan pasangan berikutnya. Gugatan mencatat setidaknya US$7,3 juta diterima Tech Brokerage Asset Alliance, US$13,6 juta oleh IdeaCrypto Exchange, US$10,4 juta oleh RealSimple Crypto Exchange, dan US$4,2 juta oleh Essential Crypto Exchange.
+
+!figure:chart
+
+!mid_cta
+
+Bagi sebagian orang, kerugiannya mengubah hidup. Gugatan menggambarkan seorang investor yang kehilangan hampir US$500.000, termasuk uang pinjaman dari 401(k), dari anak, dan dari tetangga, serta investor lain yang kehilangan hampir US$1,6 juta, termasuk rumah dan rekening pensiunnya.
+
+Agar terlihat tepercaya, para penipu mengirim "sertifikat" SEC palsu kepada sebagian korban dan menunjuk dokumen yang diajukan ke SEC, FINRA, atau FinCEN. SEC menegaskan bahwa mengajukan formulir ke regulator tidak berarti regulator menyetujui atau mengawasi perusahaan itu. SEC juga menyebut "kontes" yang identik antara dua penasihat palsu, untuk memilih siapa yang akan mengelola dana yang diklaim bernilai US$10 miliar, digelar di keempat versi skema.
+
+SEC meminta pengadilan menjatuhkan larangan permanen, pengembalian keuntungan haram beserta bunga, dan denda perdata. Regulator di Hong Kong, Singapura, Tiongkok, dan Swiss membantu kasus ini, [lapor Bitcoin.com News](L3). Ini masih tuduhan, dan belum ada pengadilan yang menyatakan para tergugat bertanggung jawab.
+
+!figure:fact
+
+## Cara melindungi diri
+
+Penipuan semacam ini mengandalkan kepercayaan yang dibangun berminggu-minggu, bukan peretasan. Beberapa aturan sederhana bisa mencegah sebagian besar:
+
+- Waspadai tips investasi dari orang asing di grup WhatsApp, Telegram, atau media sosial.
+- Periksa setiap penasihat atau perusahaan dengan alat gratis SEC [Investor.gov](L4) sebelum mengirim uang. "Sertifikat" yang dikirim oleh perusahaan itu sendiri tidak membuktikan apa pun.
+- Jangan pernah membayar biaya atau "pajak" untuk menarik uang Anda sendiri. Itu tanda klasik penipuan.
+- Beli dan simpan kripto hanya di platform yang Anda temukan sendiri, seperti bursa besar yang teregulasi seperti [Coinbase](REF), bukan platform yang disodorkan kenalan baru.
+
+Jika Anda merasa menjadi sasaran, laporkan ke FBI di [ic3.gov](L5) dan ke SEC. Ini bukan nasihat keuangan atau hukum.
+
+## Yang perlu dipantau
+
+- Apakah pengadilan membekukan sebagian dana atau memerintahkan para tergugat membayar.
+- Apakah dakwaan pidana menyusul terhadap orang-orang di balik perusahaan itu.
+- Peringatan baru dari SEC dan FBI tentang penipuan investasi di grup obrolan.
+
+!soft: Pelajari cara melindungi akun Anda di [Apakah Coinbase aman untuk pemula?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

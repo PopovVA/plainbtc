@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 20 Nov 2026 01:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ブラックロックのビットコインETF、過去最大の1日流出 5億4110万ドル</title>
+      <link>https://plainbtc.com/ja/articles/blackrock-ibit-record-541-million-outflow-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/blackrock-ibit-record-541-million-outflow-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+      <category>マーケット</category>
+      <description>ブラックロックのiShares Bitcoin Trust（IBIT）は11月19日（木）に5億4110万ドルの純流出となり、1月に記録した5億2830万ドルの過去最大を上回った。米国の現物ビットコインETF全体ではこの日5億8230万ドル、11月に入ってから約34億7000万ドルが流出した。</description>
+    </item>
+    <item>
+      <title>SEC「偽アドバイザーと偽の暗号資産アプリで米国人1500人から3700万ドル」</title>
+      <link>https://plainbtc.com/ja/articles/sec-fake-crypto-platforms-37-million-whatsapp-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/sec-fake-crypto-platforms-37-million-whatsapp-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+      <category>セキュリティ</category>
+      <description>SECは11月19日、海外から運営されていたとみられるコロラド州拠点の8社を提訴した。SECによると、偽の投資アドバイザー、WhatsAppのチャット、偽の暗号資産プラットフォームを通じて、1500人超の米国投資家から約3740万ドルを奪った。</description>
+    </item>
     <item>
       <title>ビットコインが6万2000ドル割れ、7月以来の安値　株安が波及</title>
       <link>https://plainbtc.com/ja/articles/bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026</link>

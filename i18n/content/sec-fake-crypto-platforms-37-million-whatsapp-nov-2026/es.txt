@@ -1,0 +1,66 @@
+title: La SEC dice que falsos asesores y apps cripto falsas quitaron 37 millones de dólares a 1.500 estadounidenses
+page_title: SEC: plataformas cripto falsas quitaron 37 millones a inversores
+description: La SEC acusó a ocho entidades con sede en Colorado que, según el regulador, usaron anuncios en redes sociales, chats de WhatsApp, falsos asesores y apps de trading cripto falsas para quedarse con unos 37,4 millones de dólares de más de 1.500 inversores de EE. UU.
+og_description: Consejos sobre acciones en un grupo de WhatsApp, luego una oferta cripto «especial» y después una comisión para retirar. La SEC dice que una red repitió este guion cuatro veces en menos de dos años. Cómo funcionaba y las señales de alerta, en lenguaje sencillo.
+label: Seguridad
+summary: El 19 de noviembre la SEC demandó a ocho empresas con sede en Colorado, probablemente dirigidas desde el extranjero, por un esquema que, según el regulador, se quedó con unos 37,4 millones de dólares de más de 1.500 inversores de EE. UU. mediante falsos asesores de inversión, chats de WhatsApp y plataformas cripto falsas.
+===
+
+La Comisión de Bolsa y Valores de EE. UU. (SEC) afirma que una red de falsos asesores de inversión y plataformas cripto falsas se quedó con más de 37 millones de dólares de estadounidenses de a pie. El jueves 19 de noviembre, la SEC [acusó de fraude a ocho entidades con sede en Colorado](L1) que, según dice, eran «probablemente operadas por personas ubicadas en el extranjero».
+
+Según la [demanda](L2) de la SEC, presentada ante un tribunal federal de Colorado, el esquema obtuvo <strong>37.445.800 dólares</strong> de más de 1.500 inversores de EE. UU. entre agosto de 2024 y mayo de 2026. Algunas víctimas vendieron acciones, rescataron sus ahorros de jubilación 401(k) o pidieron dinero a familiares para seguir invirtiendo. Ninguna de las empresas es un asesor o un exchange real, según la SEC.
+
+!takeaways
+- La SEC acusó a ocho entidades con sede en Colorado por un esquema que, según el regulador, se quedó con unos 37,4 millones de dólares de más de 1.500 inversores de EE. UU.
+- Las víctimas llegaban a través de anuncios en redes sociales y chats de WhatsApp gestionados por falsos asesores de inversión.
+- Las «plataformas» falsas mostraban ganancias inventadas y exigían una comisión antes de cualquier retiro.
+- Según la SEC, los estafadores enviaban «certificados» falsos de la SEC y señalaban registros reales para parecer legítimos.
+
+!figure:steps
+
+## Cómo funcionaba el esquema
+
+El guion era siempre el mismo, según la demanda. Un anuncio en redes sociales llevaba a un grupo de WhatsApp dirigido por alguien que decía trabajar para un asesor de inversión. El «asesor» daba primero consejos sobre acciones normales de EE. UU. para ganarse la confianza. Luego llegaba la propuesta: ofertas cripto exclusivas, llamadas IEO, supuestamente más rentables que cualquier otra cosa.
+
+A las víctimas se les decía que ingresaran dólares en una cuenta de un conocido exchange cripto de EE. UU., compraran cripto como ether, USDT o USDC, la pasaran a su propia billetera y luego la enviaran a una dirección que daba el asesor. También se les pedía descargar la app de la «plataforma de trading» asociada. La app parecía real y mostraba saldos y operaciones. Nada de eso existía, según la SEC, y el dinero se movía rápido por una red de billeteras y puentes.
+
+Cuando las víctimas intentaban retirar sus supuestas ganancias, se les decía que antes pagaran una comisión, un porcentaje de esas ganancias, en cripto y a otra dirección distinta. A quienes se negaban se les presionaba y amenazaba, según la demanda. Al final nadie pudo retirar nada, las webs dejaron de funcionar y los chats se quedaron en silencio.
+
+## Cuatro fachadas, una sola red
+
+La SEC dice que los acusados operaban en cuatro parejas de asesor y plataforma, cada una activa unos seis meses antes de desaparecer y ser sustituida por la siguiente. La demanda cifra en al menos 7,3 millones de dólares lo recibido por Tech Brokerage Asset Alliance, 13,6 millones por IdeaCrypto Exchange, 10,4 millones por RealSimple Crypto Exchange y 4,2 millones por Essential Crypto Exchange.
+
+!figure:chart
+
+!mid_cta
+
+Para algunas personas las pérdidas les cambiaron la vida. La demanda describe a un inversor que perdió casi 500.000 dólares, incluido dinero sacado de un 401(k), de un hijo y de un vecino, y a otro que perdió cerca de 1,6 millones, incluida su casa y su cuenta de jubilación.
+
+Para parecer fiables, los estafadores enviaban a algunas víctimas un «certificado» falso de la SEC y señalaban registros presentados ante la SEC, FINRA o FinCEN. Presentar un formulario ante un regulador no significa que este apruebe o vigile a una empresa, recuerda la SEC. También indica que en las cuatro versiones del esquema se celebraron idénticos «concursos» entre dos falsos asesores para elegir quién gestionaría un supuesto fondo de 10.000 millones de dólares.
+
+La SEC pide al tribunal órdenes de cese permanentes, la devolución de las ganancias ilícitas con intereses y multas civiles. Reguladores de Hong Kong, Singapur, China y Suiza colaboraron en el caso, [informó Bitcoin.com News](L3). Son acusaciones, y ningún tribunal ha declarado responsables a los acusados.
+
+!figure:fact
+
+## Cómo protegerte
+
+Este tipo de estafa se basa en una confianza construida durante semanas, no en un hackeo. Unas pocas reglas sencillas frenan casi todo:
+
+- Desconfía de los consejos de inversión de desconocidos en grupos de WhatsApp, Telegram o redes sociales.
+- Comprueba cualquier asesor o empresa en la herramienta gratuita de la SEC [Investor.gov](L4) antes de enviar dinero. Un «certificado» enviado por la propia empresa no prueba nada.
+- Nunca pagues una comisión o un «impuesto» para retirar tu propio dinero. Es una señal clásica de fraude.
+- Compra y guarda cripto solo en plataformas que hayas encontrado tú, como un exchange grande y regulado tipo [Coinbase](REF), no en una que te haya indicado un contacto nuevo.
+
+Si crees que fuiste un objetivo, denúncialo al FBI en [ic3.gov](L5) y a la SEC. Esto no es asesoramiento financiero ni legal.
+
+## Qué vigilar ahora
+
+- Si el tribunal congela parte de los fondos u ordena pagar a los acusados.
+- Si llegan cargos penales contra las personas detrás de las empresas.
+- Nuevas advertencias de la SEC y el FBI sobre estafas de inversión en chats de grupo.
+
+!soft: Aprende a proteger tu cuenta en [¿Es seguro Coinbase para principiantes?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

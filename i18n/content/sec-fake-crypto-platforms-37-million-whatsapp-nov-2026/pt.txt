@@ -1,0 +1,66 @@
+title: SEC diz que falsos consultores e apps cripto falsos tiraram US$ 37 milhões de 1.500 americanos
+page_title: SEC: plataformas cripto falsas tiraram US$ 37 milhões de investidores
+description: A SEC acusou oito entidades sediadas no Colorado que, segundo o órgão, usaram anúncios em redes sociais, chats de WhatsApp, falsos consultores e apps falsos de negociação de cripto para ficar com cerca de US$ 37,4 milhões de mais de 1.500 investidores dos EUA.
+og_description: Dicas de ações em um grupo de WhatsApp, depois uma oferta cripto "especial" e, por fim, uma taxa para sacar. A SEC diz que uma rede repetiu esse roteiro quatro vezes em menos de dois anos. Como funcionava e os sinais de alerta, em linguagem simples.
+label: Segurança
+summary: Em 19 de novembro, a SEC processou oito empresas sediadas no Colorado, provavelmente comandadas do exterior, por um esquema que, segundo o órgão, ficou com cerca de US$ 37,4 milhões de mais de 1.500 investidores dos EUA por meio de falsos consultores de investimento, chats de WhatsApp e plataformas cripto falsas.
+===
+
+A Comissão de Valores Mobiliários dos EUA (SEC) afirma que uma rede de falsos consultores de investimento e plataformas cripto falsas tirou mais de US$ 37 milhões de americanos comuns. Na quinta-feira, 19 de novembro, a SEC [acusou de fraude oito entidades sediadas no Colorado](L1) que, segundo ela, eram "provavelmente operadas por pessoas localizadas no exterior".
+
+De acordo com a [ação](L2) da SEC, apresentada a um tribunal federal no Colorado, o esquema arrecadou <strong>US$ 37.445.800</strong> de mais de 1.500 investidores dos EUA entre agosto de 2024 e maio de 2026. Algumas vítimas venderam ações, sacaram a previdência 401(k) ou pegaram dinheiro emprestado com a família para continuar investindo. Nenhuma das empresas é um consultor ou uma corretora de verdade, diz a SEC.
+
+!takeaways
+- A SEC acusou oito entidades sediadas no Colorado por um esquema que, segundo o órgão, ficou com cerca de US$ 37,4 milhões de mais de 1.500 investidores dos EUA.
+- As vítimas eram atraídas por anúncios em redes sociais e chats de WhatsApp comandados por falsos consultores de investimento.
+- As "plataformas" falsas mostravam ganhos inventados e exigiam uma taxa antes de qualquer saque.
+- Segundo a SEC, os golpistas enviavam "certificados" falsos da SEC e apontavam para registros reais para parecer legítimos.
+
+!figure:steps
+
+## Como o esquema funcionava
+
+O roteiro era sempre o mesmo, diz a ação. Um anúncio em rede social levava as pessoas a um grupo de WhatsApp comandado por alguém que dizia trabalhar para um consultor de investimento. O "consultor" primeiro dava dicas sobre ações comuns dos EUA para ganhar confiança. Depois vinha a proposta: ofertas cripto exclusivas, chamadas de IEOs, supostamente mais lucrativas que qualquer outra coisa.
+
+As vítimas eram orientadas a depositar dólares em uma conta de uma conhecida corretora cripto dos EUA, comprar cripto como ether, USDT ou USDC, transferir para a própria carteira e depois enviar para um endereço passado pelo consultor. Também eram orientadas a baixar o app da "plataforma de negociação" associada. O app parecia real e mostrava saldos e operações. Nada daquilo existia, diz a SEC, e o dinheiro era movido rapidamente por uma rede de carteiras e pontes.
+
+Quando as vítimas tentavam sacar os supostos lucros, ouviam que antes precisavam pagar uma taxa, um percentual desses lucros, em cripto e para outro endereço. Quem se recusava era pressionado e ameaçado, segundo a ação. No fim, ninguém conseguiu sacar nada, os sites saíram do ar e os chats ficaram em silêncio.
+
+## Quatro fachadas, uma rede
+
+A SEC diz que os acusados atuavam em quatro pares de consultor e plataforma, cada um ativo por cerca de seis meses antes de sumir e ser substituído pelo seguinte. A ação aponta pelo menos US$ 7,3 milhões recebidos pela Tech Brokerage Asset Alliance, US$ 13,6 milhões pela IdeaCrypto Exchange, US$ 10,4 milhões pela RealSimple Crypto Exchange e US$ 4,2 milhões pela Essential Crypto Exchange.
+
+!figure:chart
+
+!mid_cta
+
+Para algumas pessoas, as perdas mudaram a vida. A ação descreve um investidor que perdeu quase US$ 500.000, incluindo dinheiro tirado de um 401(k), de um filho e de um vizinho, e outro que perdeu cerca de US$ 1,6 milhão, incluindo a casa e a conta de aposentadoria.
+
+Para parecer confiáveis, os golpistas mandavam a algumas vítimas um "certificado" falso da SEC e apontavam para registros feitos na SEC, na FINRA ou na FinCEN. Registrar um formulário em um órgão regulador não significa que ele aprova ou fiscaliza a empresa, lembra a SEC. O órgão também diz que "concursos" idênticos entre dois falsos consultores, para escolher quem administraria um suposto fundo de US$ 10 bilhões, aconteceram nas quatro versões do esquema.
+
+A SEC pede ao tribunal proibições permanentes, a devolução dos ganhos ilícitos com juros e multas civis. Reguladores de Hong Kong, Singapura, China e Suíça ajudaram no caso, [informou o Bitcoin.com News](L3). São acusações, e nenhum tribunal considerou os acusados responsáveis até agora.
+
+!figure:fact
+
+## Como se proteger
+
+Esse tipo de golpe depende de confiança construída ao longo de semanas, não de invasão hacker. Algumas regras simples bloqueiam quase tudo:
+
+- Desconfie de dicas de investimento de desconhecidos em grupos de WhatsApp, Telegram ou redes sociais.
+- Consulte qualquer consultor ou empresa na ferramenta gratuita da SEC [Investor.gov](L4) antes de mandar dinheiro. Um "certificado" enviado pela própria empresa não prova nada.
+- Nunca pague taxa ou "imposto" para sacar o seu próprio dinheiro. Esse é um sinal clássico de fraude.
+- Compre e guarde cripto só em plataformas que você mesmo encontrou, como uma grande corretora regulada tipo a [Coinbase](REF), e não em uma indicada por um contato novo.
+
+Se você acha que foi alvo, denuncie ao FBI em [ic3.gov](L5) e à SEC. Isto não é orientação financeira nem jurídica.
+
+## O que acompanhar agora
+
+- Se o tribunal congela parte dos fundos ou manda os acusados pagarem.
+- Se haverá acusações criminais contra as pessoas por trás das empresas.
+- Novos alertas da SEC e do FBI sobre golpes de investimento em grupos de chat.
+
+!soft: Saiba como proteger sua conta em [A Coinbase é segura para iniciantes?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

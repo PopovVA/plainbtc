@@ -1,0 +1,66 @@
+title: Selon la SEC, de faux conseillers et de fausses applis crypto ont soutiré 37 millions de dollars à 1 500 Américains
+page_title: SEC : de fausses plateformes crypto ont soutiré 37 millions de dollars
+description: La SEC a poursuivi huit entités basées au Colorado qui, selon elle, ont utilisé des publicités sur les réseaux sociaux, des groupes WhatsApp, de faux conseillers et de fausses applis de trading crypto pour soutirer environ 37,4 millions de dollars à plus de 1 500 investisseurs américains.
+og_description: Des conseils boursiers dans un groupe WhatsApp, puis une offre crypto « spéciale », puis des frais pour retirer. Selon la SEC, un même réseau a rejoué ce scénario quatre fois en moins de deux ans. Comment cela fonctionnait et les signaux d'alerte, en termes simples.
+label: Sécurité
+summary: Le 19 novembre, la SEC a poursuivi huit sociétés basées au Colorado, probablement pilotées depuis l'étranger, pour un stratagème qui, selon elle, a soutiré environ 37,4 millions de dollars à plus de 1 500 investisseurs américains via de faux conseillers en investissement, des groupes WhatsApp et de fausses plateformes crypto.
+===
+
+Le gendarme boursier américain, la SEC, affirme qu'un réseau de faux conseillers en investissement et de fausses plateformes crypto a soutiré plus de 37 millions de dollars à des Américains ordinaires. Le jeudi 19 novembre, la SEC [a poursuivi pour fraude huit entités basées au Colorado](L1), qui étaient selon elle « probablement exploitées par des personnes situées à l'étranger ».
+
+D'après la [plainte](L2) de la SEC, déposée devant un tribunal fédéral du Colorado, le stratagème a rapporté <strong>37 445 800 dollars</strong> provenant de plus de 1 500 investisseurs américains entre août 2024 et mai 2026. Certaines victimes ont vendu des actions, liquidé leur épargne retraite 401(k) ou emprunté à leurs proches pour continuer à investir. Aucune de ces sociétés n'est un vrai conseiller ou une vraie plateforme d'échange, selon la SEC.
+
+!takeaways
+- La SEC a poursuivi huit entités basées au Colorado pour un stratagème qui, selon elle, a soutiré environ 37,4 millions de dollars à plus de 1 500 investisseurs américains.
+- Les victimes étaient attirées par des publicités sur les réseaux sociaux et des groupes WhatsApp animés par de faux conseillers en investissement.
+- Les fausses « plateformes » affichaient des gains inventés, puis exigeaient des frais avant tout retrait.
+- Selon la SEC, les escrocs envoyaient de faux « certificats » de la SEC et citaient de vrais dépôts administratifs pour paraître légitimes.
+
+!figure:steps
+
+## Comment fonctionnait le stratagème
+
+Le scénario était toujours le même, selon la plainte. Une publicité sur les réseaux sociaux menait vers un groupe WhatsApp animé par une personne se présentant comme employée d'un conseiller en investissement. Le « conseiller » donnait d'abord des conseils sur des actions américaines ordinaires pour gagner la confiance. Puis venait la proposition : des offres crypto exclusives, appelées IEO, présentées comme plus rentables que tout le reste.
+
+On demandait aux victimes de déposer des dollars sur un compte d'une plateforme crypto américaine connue, d'acheter des cryptos comme l'ether, l'USDT ou l'USDC, de les transférer vers leur propre portefeuille, puis de les envoyer à une adresse fournie par le conseiller. On leur demandait aussi de télécharger l'appli de la « plateforme de trading » associée. L'appli semblait réelle et affichait soldes et transactions. Rien de tout cela n'existait, selon la SEC, et l'argent était rapidement déplacé via un réseau de portefeuilles et de bridges.
+
+Quand les victimes voulaient retirer leurs prétendus gains, on leur disait de payer d'abord des frais, un pourcentage de ces gains, en crypto et vers encore une autre adresse. Celles qui refusaient subissaient pressions et menaces, selon la plainte. Au bout du compte, personne n'a pu retirer quoi que ce soit, les sites ont disparu et les groupes se sont tus.
+
+## Quatre façades, un seul réseau
+
+Selon la SEC, les défendeurs opéraient en quatre duos conseiller-plateforme, chacun actif environ six mois avant de disparaître et d'être remplacé par le suivant. La plainte fait état d'au moins 7,3 millions de dollars reçus par Tech Brokerage Asset Alliance, 13,6 millions par IdeaCrypto Exchange, 10,4 millions par RealSimple Crypto Exchange et 4,2 millions par Essential Crypto Exchange.
+
+!figure:chart
+
+!mid_cta
+
+Pour certains, les pertes ont bouleversé leur vie. La plainte décrit un investisseur qui a perdu près de 500 000 dollars, dont de l'argent tiré d'un 401(k), emprunté à un fils et à un voisin, et un autre qui a perdu près de 1,6 million, y compris sa maison et son compte de retraite.
+
+Pour inspirer confiance, les escrocs envoyaient à certaines victimes un faux « certificat » de la SEC et citaient des dépôts effectués auprès de la SEC, de la FINRA ou du FinCEN. Déposer un formulaire auprès d'un régulateur ne signifie pas que celui-ci approuve ou surveille une société, rappelle la SEC. Elle indique aussi que des « concours » identiques entre deux faux conseillers, pour désigner qui gérerait un prétendu fonds de 10 milliards de dollars, ont eu lieu dans les quatre versions du stratagème.
+
+La SEC demande au tribunal des injonctions permanentes, la restitution des gains illicites avec intérêts et des amendes civiles. Les régulateurs de Hong Kong, de Singapour, de Chine et de Suisse ont aidé dans cette affaire, [a rapporté Bitcoin.com News](L3). Il s'agit d'accusations, et aucun tribunal n'a jugé les défendeurs responsables.
+
+!figure:fact
+
+## Comment vous protéger
+
+Ce type d'arnaque repose sur une confiance construite pendant des semaines, pas sur du piratage. Quelques règles simples en bloquent l'essentiel :
+
+- Méfiez-vous des conseils d'investissement d'inconnus dans des groupes WhatsApp, Telegram ou sur les réseaux sociaux.
+- Vérifiez tout conseiller ou toute société avec l'outil gratuit de la SEC [Investor.gov](L4) avant d'envoyer de l'argent. Un « certificat » envoyé par la société elle-même ne prouve rien.
+- Ne payez jamais de frais ou de « taxe » pour retirer votre propre argent. C'est un signe classique de fraude.
+- N'achetez et ne conservez des cryptos que sur des plateformes que vous avez trouvées vous-même, comme une grande plateforme régulée telle que [Coinbase](REF), pas sur une plateforme recommandée par un nouveau contact.
+
+Si vous pensez avoir été ciblé, signalez-le au FBI sur [ic3.gov](L5) et à la SEC. Ceci n'est pas un conseil financier ou juridique.
+
+## À surveiller
+
+- Si le tribunal gèle une partie des fonds ou ordonne aux défendeurs de payer.
+- Si des poursuites pénales suivent contre les personnes derrière ces sociétés.
+- De nouvelles mises en garde de la SEC et du FBI contre les arnaques à l'investissement dans les groupes de discussion.
+
+!soft: Apprenez à protéger votre compte avec [Coinbase est-il sûr pour les débutants ?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

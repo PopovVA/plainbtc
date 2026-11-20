@@ -1,0 +1,95 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-sec-scam-funds-by-platform.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of money received by each fake crypto platform named by the SEC: at least $7.32 million for TBAA from August to December 2024, $13.64 million for IdeaCrypto from January to July 2025, $10.36 million for RealSimple from July to December 2025 and $4.22 million for Essential Crypto from January to May 2026",
+      "es": "Gráfico de barras del dinero recibido por cada plataforma cripto falsa citada por la SEC: al menos 7,32 millones de dólares para TBAA de agosto a diciembre de 2024, 13,64 millones para IdeaCrypto de enero a julio de 2025, 10,36 millones para RealSimple de julio a diciembre de 2025 y 4,22 millones para Essential Crypto de enero a mayo de 2026",
+      "pt": "Gráfico de barras do dinheiro recebido por cada plataforma cripto falsa citada pela SEC: pelo menos US$ 7,32 milhões para a TBAA de agosto a dezembro de 2024, US$ 13,64 milhões para a IdeaCrypto de janeiro a julho de 2025, US$ 10,36 milhões para a RealSimple de julho a dezembro de 2025 e US$ 4,22 milhões para a Essential Crypto de janeiro a maio de 2026",
+      "fr": "Graphique en barres de l'argent reçu par chaque fausse plateforme crypto citée par la SEC : au moins 7,32 millions de dollars pour TBAA d'août à décembre 2024, 13,64 millions pour IdeaCrypto de janvier à juillet 2025, 10,36 millions pour RealSimple de juillet à décembre 2025 et 4,22 millions pour Essential Crypto de janvier à mai 2026",
+      "de": "Balkendiagramm der Gelder, die jede von der SEC genannte falsche Krypto-Plattform erhielt: mindestens 7,32 Mio. $ für TBAA von August bis Dezember 2024, 13,64 Mio. $ für IdeaCrypto von Januar bis Juli 2025, 10,36 Mio. $ für RealSimple von Juli bis Dezember 2025 und 4,22 Mio. $ für Essential Crypto von Januar bis Mai 2026",
+      "ru": "Столбчатая диаграмма денег, полученных каждой фальшивой криптоплатформой из иска SEC: не менее $7,32 млн у TBAA с августа по декабрь 2024 года, $13,64 млн у IdeaCrypto с января по июль 2025 года, $10,36 млн у RealSimple с июля по декабрь 2025 года и $4,22 млн у Essential Crypto с января по май 2026 года",
+      "tr": "SEC'in adını verdiği her sahte kripto platformunun aldığı paranın çubuk grafiği: Ağustos-Aralık 2024'te TBAA için en az 7,32 milyon $, Ocak-Temmuz 2025'te IdeaCrypto için 13,64 milyon $, Temmuz-Aralık 2025'te RealSimple için 10,36 milyon $ ve Ocak-Mayıs 2026'da Essential Crypto için 4,22 milyon $",
+      "id": "Grafik batang uang yang diterima setiap platform kripto palsu yang disebut SEC: setidaknya US$7,32 juta untuk TBAA pada Agustus hingga Desember 2024, US$13,64 juta untuk IdeaCrypto pada Januari hingga Juli 2025, US$10,36 juta untuk RealSimple pada Juli hingga Desember 2025, dan US$4,22 juta untuk Essential Crypto pada Januari hingga Mei 2026",
+      "ja": "SECが名指しした偽の暗号資産プラットフォームごとの受取額を示す棒グラフ：TBAA（2024年8月〜12月）が少なくとも732万ドル、IdeaCrypto（2025年1月〜7月）が1364万ドル、RealSimple（2025年7月〜12月）が1036万ドル、Essential Crypto（2026年1月〜5月）が422万ドル",
+      "ko": "SEC가 지목한 가짜 암호화폐 플랫폼별 수취액 막대 차트: TBAA(2024년 8~12월) 최소 732만 달러, IdeaCrypto(2025년 1~7월) 1364만 달러, RealSimple(2025년 7~12월) 1036만 달러, Essential Crypto(2026년 1~5월) 422만 달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: SEC complaint, D. Colo., Nov. 19, 2026",
+      "es": "Gráfico: PlainBTC, datos: SEC complaint, D. Colo., Nov. 19, 2026",
+      "pt": "Gráfico: PlainBTC, dados: SEC complaint, D. Colo., Nov. 19, 2026",
+      "fr": "Graphique : PlainBTC, données : SEC complaint, D. Colo., Nov. 19, 2026",
+      "de": "Chart: PlainBTC, Daten: SEC complaint, D. Colo., Nov. 19, 2026",
+      "ru": "График: PlainBTC, данные: SEC complaint, D. Colo., Nov. 19, 2026",
+      "tr": "Grafik: PlainBTC, veri: SEC complaint, D. Colo., Nov. 19, 2026",
+      "id": "Grafik: PlainBTC, data: SEC complaint, D. Colo., Nov. 19, 2026",
+      "ja": "チャート: PlainBTC、データ: SEC complaint, D. Colo., Nov. 19, 2026",
+      "ko": "차트: PlainBTC, 데이터: SEC complaint, D. Colo., Nov. 19, 2026"
+    }
+  },
+  {
+    "id": "steps",
+    "file": "timeline-sec-fake-platform-scam.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "timeline",
+    "alt": {
+      "en": "Four steps of the scheme described by the SEC: a social media ad leads to a WhatsApp chat; a fake adviser gives stock tips to win trust; victims buy crypto on a real exchange and send it out; a fake app shows gains and a fee is demanded to withdraw",
+      "es": "Los cuatro pasos del esquema descrito por la SEC: un anuncio en redes sociales lleva a un chat de WhatsApp; un falso asesor da consejos sobre acciones para ganarse la confianza; las víctimas compran cripto en un exchange real y la envían fuera; una app falsa muestra ganancias y se exige una comisión para retirar",
+      "pt": "As quatro etapas do esquema descrito pela SEC: um anúncio em rede social leva a um chat de WhatsApp; um falso consultor dá dicas de ações para ganhar confiança; as vítimas compram cripto em uma corretora real e a enviam para fora; um app falso mostra ganhos e uma taxa é exigida para sacar",
+      "fr": "Les quatre étapes du stratagème décrit par la SEC : une publicité sur les réseaux sociaux mène à un groupe WhatsApp ; un faux conseiller donne des conseils boursiers pour gagner la confiance ; les victimes achètent des cryptos sur une vraie plateforme et les envoient ailleurs ; une fausse appli affiche des gains et des frais sont exigés pour retirer",
+      "de": "Die vier Schritte des von der SEC beschriebenen Betrugs: Eine Social-Media-Anzeige führt in einen WhatsApp-Chat; ein falscher Berater gibt Aktientipps, um Vertrauen zu gewinnen; Opfer kaufen Krypto bei einer echten Börse und senden es weiter; eine falsche App zeigt Gewinne, und für die Auszahlung wird eine Gebühr verlangt",
+      "ru": "Четыре шага схемы, описанной SEC: реклама в соцсетях ведет в чат WhatsApp; фальшивый советник дает советы по акциям, чтобы завоевать доверие; жертвы покупают криптовалюту на настоящей бирже и отправляют ее дальше; фальшивое приложение показывает прибыль, а за вывод требуют комиссию",
+      "tr": "SEC'in anlattığı planın dört adımı: sosyal medya reklamı bir WhatsApp sohbetine götürüyor; sahte bir danışman güven kazanmak için hisse tavsiyeleri veriyor; mağdurlar gerçek bir borsadan kripto alıp dışarı gönderiyor; sahte bir uygulama kazanç gösteriyor ve para çekmek için ücret isteniyor",
+      "id": "Empat langkah skema yang dijelaskan SEC: iklan media sosial mengarah ke obrolan WhatsApp; penasihat palsu memberi tips saham untuk meraih kepercayaan; korban membeli kripto di bursa sungguhan lalu mengirimkannya keluar; aplikasi palsu menampilkan keuntungan dan biaya diminta untuk penarikan",
+      "ja": "SECが説明する手口の4段階：SNS広告からWhatsAppのチャットへ誘導、偽のアドバイザーが株の助言で信頼を得る、被害者が本物の取引所で暗号資産を買って外部へ送金、偽アプリが利益を表示し出金に手数料を要求",
+      "ko": "SEC가 설명한 수법의 4단계: SNS 광고가 왓츠앱 채팅으로 유도, 가짜 자문가가 주식 팁으로 신뢰 확보, 피해자가 실제 거래소에서 암호화폐를 사서 외부로 송금, 가짜 앱이 수익을 보여 주고 출금에 수수료 요구"
+    },
+    "caption": {
+      "en": "Source: SEC complaint, D. Colo., Nov. 19, 2026",
+      "es": "Fuente: SEC complaint, D. Colo., Nov. 19, 2026",
+      "pt": "Fonte: SEC complaint, D. Colo., Nov. 19, 2026",
+      "fr": "Source : SEC complaint, D. Colo., Nov. 19, 2026",
+      "de": "Quelle: SEC complaint, D. Colo., Nov. 19, 2026",
+      "ru": "Источник: SEC complaint, D. Colo., Nov. 19, 2026",
+      "tr": "Kaynak: SEC complaint, D. Colo., Nov. 19, 2026",
+      "id": "Sumber: SEC complaint, D. Colo., Nov. 19, 2026",
+      "ja": "出典: SEC complaint, D. Colo., Nov. 19, 2026",
+      "ko": "출처: SEC complaint, D. Colo., Nov. 19, 2026"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-37-million-1500-investors.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: the SEC says about $37.4 million was taken from more than 1,500 U.S. investors between August 2024 and May 2026 by four fake adviser-and-platform pairs",
+      "es": "Tarjeta: la SEC afirma que unos 37,4 millones de dólares fueron sustraídos a más de 1.500 inversores estadounidenses entre agosto de 2024 y mayo de 2026 por cuatro parejas falsas de asesor y plataforma",
+      "pt": "Cartão: a SEC diz que cerca de US$ 37,4 milhões foram tirados de mais de 1.500 investidores dos EUA entre agosto de 2024 e maio de 2026 por quatro pares falsos de consultor e plataforma",
+      "fr": "Carte : selon la SEC, environ 37,4 millions de dollars ont été soutirés à plus de 1 500 investisseurs américains entre août 2024 et mai 2026 par quatre faux duos conseiller-plateforme",
+      "de": "Faktenkarte: Laut SEC wurden zwischen August 2024 und Mai 2026 rund 37,4 Mio. $ von mehr als 1.500 US-Anlegern durch vier falsche Berater-Plattform-Paare erbeutet",
+      "ru": "Карточка: по данным SEC, с августа 2024 по май 2026 года четыре фальшивые пары «советник и платформа» забрали около $37,4 млн у более чем 1500 американских инвесторов",
+      "tr": "Bilgi kartı: SEC'e göre Ağustos 2024 ile Mayıs 2026 arasında dört sahte danışman-platform ikilisi 1.500'den fazla ABD'li yatırımcıdan yaklaşık 37,4 milyon $ aldı",
+      "id": "Kartu fakta: SEC menyebut sekitar US$37,4 juta diambil dari lebih dari 1.500 investor AS antara Agustus 2024 dan Mei 2026 oleh empat pasangan penasihat dan platform palsu",
+      "ja": "ファクトカード：SECによると、2024年8月〜2026年5月に偽のアドバイザーとプラットフォームの4組が1500人超の米国投資家から約3740万ドルを奪った",
+      "ko": "팩트 카드: SEC에 따르면 2024년 8월~2026년 5월 가짜 자문사·플랫폼 4쌍이 미국 투자자 1500명 이상에게서 약 3740만 달러를 가로챘다"
+    },
+    "caption": {
+      "en": "Source: SEC complaint, D. Colo., Nov. 19, 2026",
+      "es": "Fuente: SEC complaint, D. Colo., Nov. 19, 2026",
+      "pt": "Fonte: SEC complaint, D. Colo., Nov. 19, 2026",
+      "fr": "Source : SEC complaint, D. Colo., Nov. 19, 2026",
+      "de": "Quelle: SEC complaint, D. Colo., Nov. 19, 2026",
+      "ru": "Источник: SEC complaint, D. Colo., Nov. 19, 2026",
+      "tr": "Kaynak: SEC complaint, D. Colo., Nov. 19, 2026",
+      "id": "Sumber: SEC complaint, D. Colo., Nov. 19, 2026",
+      "ja": "出典: SEC complaint, D. Colo., Nov. 19, 2026",
+      "ko": "출처: SEC complaint, D. Colo., Nov. 19, 2026"
+    }
+  }
+]

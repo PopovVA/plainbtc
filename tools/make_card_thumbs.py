@@ -1575,7 +1575,70 @@ def thumb_coinbase_options_intl():
     ],"note":"Editorial composite for identification; payoff line is a generic illustration; trademarks belong to their owners."}
 
 
+
+def thumb_ibit_record_outflow():
+    """Black horizontal-bar ranking of IBIT's five largest daily net outflows (Farside Investors, read Nov 20, 2026)."""
+    rows = [("Nov 14, 2025", 463.1), ("Nov 18, 2025", 523.2), ("May 27, 2026", 527.8), ("Jan 30, 2026", 528.3), ("Nov 19, 2026", 541.1)]
+    bg, ink = "#070707", "#f5f5f4"
+    fig = plt.figure(figsize=(6.4, 3.6), dpi=100 * S); fig.patch.set_facecolor(bg)
+    ax = fig.add_axes([0.25, 0.08, 0.62, 0.50]); ax.set_facecolor(bg)
+    labels = [r[0] for r in rows]; vals = [r[1] for r in rows]
+    cols = ["#57534e"] * 4 + ["#ef4444"]
+    ax.barh(labels, vals, color=cols, height=0.62)
+    for i, v in enumerate(vals):
+        ax.text(v + 6, i, f"-${v:,.1f}M", va="center", color=ink if i == 4 else "#a8a29e",
+                fontsize=9 if i == 4 else 8, fontweight="bold" if i == 4 else "normal")
+    ax.set_xlim(0, 640)
+    for s in ("top", "right", "bottom"): ax.spines[s].set_visible(False)
+    ax.spines["left"].set_color("#44403c")
+    ax.tick_params(axis="y", colors="#d6d3d1", labelsize=8, length=0)
+    ax.tick_params(axis="x", bottom=False, labelbottom=False)
+    ax.get_yticklabels()[-1].set_color("#fca5a5"); ax.get_yticklabels()[-1].set_fontweight("bold")
+    fig.text(0.05, 0.84, "-$541.1M", color="#ef4444", fontsize=34, fontweight="bold", va="center")
+    fig.text(0.53, 0.88, "BlackRock IBIT, Nov. 19, 2026", color=ink, fontsize=11, fontweight="bold", va="center")
+    fig.text(0.53, 0.80, "biggest one-day outflow since launch", color="#a8a29e", fontsize=9.5, va="center")
+    fig.text(0.05, 0.66, "IBIT's five largest daily net outflows", color="#78716c", fontsize=8, va="center")
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100 * S, facecolor=bg); plt.close(fig); buf.seek(0)
+    im = Image.open(buf).convert("RGB")
+    return im, {"kind":"chart","sources":[
+        {"file":"Farside Investors Bitcoin ETF Flow - All Data","license":"Public data, cited","url":"https://farside.co.uk/bitcoin-etf-flow-all-data/","credit":"IBIT daily net flows since Jan 2024, from Farside Investors (read Nov 20, 2026)"}
+    ]}
+
+
+def thumb_sec_fake_platforms():
+    """Generated scam-chain graphic with the SEC seal (public domain) and the complaint's totals."""
+    sec = fetch("https://upload.wikimedia.org/wikipedia/commons/1/1c/Seal_of_the_United_States_Securities_and_Exchange_Commission.svg", CACHE/"sec-seal.svg")
+    base = gradient_bg(top=(69, 10, 10), bottom=(24, 8, 12))
+    d = Draw(base)
+    paste_contain(base, Image.open(sec).convert("RGBA"), (536, 18, 88, 88), pad=2)
+    d.text((28, 70), "$37.4M", font=font(FONT_B, 58), fill=(254, 202, 202))
+    d.text((32, 140), "taken from 1,500+ U.S. investors, the SEC says", font=font(FONT_B, 17), fill=WHITE)
+    steps = [("Social ad", (96,165,250)), ("WhatsApp chat", (52,211,153)), ("Fake adviser", ORANGE), ("Fake crypto app", (248,113,113))]
+    x, y, bw, bh, gap = 24, 214, 128, 64, 22
+    for i, (t, col) in enumerate(steps):
+        x0 = x + i * (bw + gap)
+        d.rounded_rectangle([x0, y, x0 + bw, y + bh], radius=12, fill=(30, 12, 18), outline=col, width=3)
+        f = font(FONT_B, 15)
+        words = t.split(" ")
+        lines = [t] if d.textlength(t, font=f) < bw - 14 else [words[0], " ".join(words[1:])]
+        for j, ln in enumerate(lines):
+            tw = d.textlength(ln, font=f)
+            d.text((x0 + (bw - tw) / 2, y + bh / 2 - 9 * len(lines) + j * 19), ln, font=f, fill=WHITE)
+        if i < 3:
+            ax0 = x0 + bw + 3
+            d.line([(ax0, y + bh / 2), (ax0 + gap - 9, y + bh / 2)], fill=(254, 202, 202), width=3)
+            d.polygon([(ax0 + gap - 9, y + bh / 2 - 6), (ax0 + gap - 9, y + bh / 2 + 6), (ax0 + gap - 3, y + bh / 2)], fill=(254, 202, 202))
+    d.text((26, 300), "A fee was demanded to withdraw, then the sites and chats went dark", font=font(FONT_R, 14), fill=(252, 165, 165))
+    label_chip(base, "SEC complaint · Aug. 2024 - May 2026")
+    return base, {"kind":"composite","sources":[
+        {"file":"Seal_of_the_United_States_Securities_and_Exchange_Commission.svg","license":"Public domain (U.S. government)","url":"https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Securities_and_Exchange_Commission.svg","credit":"SEC"},
+        {"file":"SEC press release 2026-115 and complaint, Nov. 19, 2026","license":"Facts cited","url":"https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors","credit":"U.S. Securities and Exchange Commission"},
+    ],"note":"Editorial graphic; no endorsement by the SEC implied."}
+
+
 BUILDERS = {
+    "blackrock-ibit-record-541-million-outflow-nov-2026": thumb_ibit_record_outflow,
+    "sec-fake-crypto-platforms-37-million-whatsapp-nov-2026": thumb_sec_fake_platforms,
     "bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026": thumb_btc_below_62k_july,
     "coinbase-crypto-options-non-us-users-deribit-nov-2026": thumb_coinbase_options_intl,
     "threat-disruption-center-crypto-scams-trm-labs-nov-2026": thumb_threat_disruption_center,

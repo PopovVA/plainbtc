@@ -1,0 +1,66 @@
+title: SEC says fake advisers and fake crypto apps took $37 million from 1,500 Americans
+page_title: SEC: fake crypto platforms took $37 million from investors
+description: The SEC charged eight Colorado-based entities that it says used social media ads, WhatsApp chats, fake advisers and fake crypto trading apps to take about $37.4 million from more than 1,500 U.S. investors.
+og_description: Stock tips in a WhatsApp group, then a "special" crypto offering, then a fee to withdraw. The SEC says one network ran this playbook four times in less than two years. How it worked and the warning signs, in plain English.
+label: Security
+summary: On Nov. 19 the SEC sued eight Colorado-based companies, likely run from overseas, over a scheme it says took about $37.4 million from more than 1,500 U.S. investors through fake investment advisers, WhatsApp chats and fake crypto trading platforms.
+===
+
+The U.S. Securities and Exchange Commission says a network of fake investment advisers and fake crypto trading platforms took more than $37 million from ordinary Americans. On Thursday, Nov. 19, the SEC [charged eight Colorado-based entities](L1), which it says were "likely operated by individuals located overseas," with fraud.
+
+According to the SEC's [complaint](L2), filed in federal court in Colorado, the scheme took <strong>$37,445,800</strong> from more than 1,500 U.S. investors between August 2024 and May 2026. Some victims sold stocks, cashed out 401(k) retirement savings or borrowed from family to keep investing. None of the companies is a real adviser or exchange, the SEC says.
+
+!takeaways
+- The SEC charged eight Colorado-based entities over a scheme it says took about $37.4 million from more than 1,500 U.S. investors.
+- Victims were pulled in through social media ads and WhatsApp chats run by fake investment advisers.
+- The fake "platforms" showed made-up gains, then demanded a fee before any withdrawal.
+- The SEC says the scammers sent fake SEC "certificates" and pointed to real filings to look legitimate.
+
+!figure:steps
+
+## How the scheme worked
+
+The playbook was the same each time, the complaint says. A social media ad led people to a WhatsApp group run by someone claiming to work for an investment adviser. The "adviser" first gave tips on ordinary U.S. stocks to build trust. Then came the pitch: exclusive crypto offerings, called IEOs, said to be more profitable than anything else.
+
+Victims were told to put dollars into an account at a well-known U.S. crypto exchange, buy crypto such as ether, USDT or USDC, move it to their own wallet and then send it to an address the adviser provided. They were also told to download an app for the paired "trading platform." The app looked real and showed balances and trades. None of it existed, the SEC says, and the money was quickly moved through a network of wallets and bridges.
+
+When victims tried to take out their supposed profits, they were told to first pay a fee, a percentage of those profits, sent in crypto to yet another address. People who refused were pressured and threatened, according to the complaint. In the end, nobody could withdraw anything, the websites went offline and the chats went silent.
+
+## Four fronts, one network
+
+The SEC says the defendants worked in four adviser-and-platform pairs, each running for about six months before disappearing and being replaced by the next. The complaint lists at least $7.3 million received by Tech Brokerage Asset Alliance, $13.6 million by IdeaCrypto Exchange, $10.4 million by RealSimple Crypto Exchange and $4.2 million by Essential Crypto Exchange.
+
+!figure:chart
+
+!mid_cta
+
+The losses for some people were life-changing. The complaint describes one investor who lost nearly $500,000, including money borrowed from a 401(k), a son and a neighbor, and another who lost close to $1.6 million, including the person's house and retirement account.
+
+To look trustworthy, the scammers sent some victims a fake SEC "certificate" and pointed to filings made with the SEC, FINRA or FinCEN. Filing a form with a regulator does not mean the regulator approves or watches a company, the SEC notes. It also says identical "contests" between two fake advisers, to pick who would manage a supposed $10 billion fund, ran in all four versions of the scheme.
+
+The SEC is asking the court for permanent injunctions, the return of ill-gotten gains with interest, and civil penalties. Regulators in Hong Kong, Singapore, China and Switzerland helped with the case, [Bitcoin.com News reported](L3). The charges are allegations, and no court has found the defendants liable.
+
+!figure:fact
+
+## How to protect yourself
+
+This kind of scam relies on trust built over weeks, not on hacking. A few simple rules block most of it:
+
+- Be wary of investment tips from strangers in WhatsApp, Telegram or social media groups.
+- Check any adviser or firm on the SEC's free [Investor.gov](L4) tool before sending money. A "certificate" sent by the firm proves nothing.
+- Never pay a fee or "tax" to withdraw your own money. That is a classic sign of fraud.
+- Only buy and keep crypto on platforms you found yourself, such as a large regulated exchange like [Coinbase](REF), not one a new contact pointed you to.
+
+If you think you were targeted, report it to the FBI at [ic3.gov](L5) and to the SEC. This is not financial or legal advice.
+
+## What to watch next
+
+- Whether the court freezes any of the funds or orders the defendants to pay.
+- Whether criminal charges follow against the people behind the companies.
+- More SEC and FBI warnings about group-chat investment scams.
+
+!soft: Learn how to keep your account safe in [Is Coinbase safe for beginners?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

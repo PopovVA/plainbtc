@@ -1,0 +1,20 @@
+{
+ "slug": "sec-fake-crypto-platforms-37-million-whatsapp-nov-2026",
+ "date": "2026-11-20",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "threat-disruption-center-crypto-scams-trm-labs-nov-2026",
+  "optimizely-hack-crypto-address-swap-178-sites-nov-2026",
+  "is-coinbase-safe-for-beginners",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {"url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors", "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors", "date": "Nov 19, 2026"},
+  {"url": "https://www.sec.gov/files/litigation/complaints/2026/comp-pr2026-115.pdf", "title": "SEC complaint: SEC v. Advisor WeChat Capital et al., U.S. District Court for the District of Colorado", "date": "Nov 19, 2026"},
+  {"url": "https://news.bitcoin.com/regulation-and-legal/sec-charges-8-entities-37-million-fake-crypto-platform-case/", "title": "Bitcoin.com News: SEC charges 8 entities in $37 million fake crypto platform case", "date": "Nov 20, 2026"},
+  {"url": "https://www.investor.gov/", "title": "Investor.gov: check the background of investment professionals (SEC)", "date": "Nov 20, 2026"},
+  {"url": "https://www.ic3.gov/", "title": "FBI Internet Crime Complaint Center (IC3)", "date": "Nov 20, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

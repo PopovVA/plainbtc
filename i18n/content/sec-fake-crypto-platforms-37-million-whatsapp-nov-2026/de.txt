@@ -1,0 +1,66 @@
+title: SEC: Falsche Berater und gefälschte Krypto-Apps nahmen 1.500 Amerikanern 37 Mio. $ ab
+page_title: SEC: Gefälschte Krypto-Plattformen erbeuteten 37 Mio. $
+description: Die SEC hat acht Unternehmen mit Sitz in Colorado angeklagt, die laut Behörde mit Social-Media-Anzeigen, WhatsApp-Chats, falschen Beratern und gefälschten Krypto-Trading-Apps rund 37,4 Mio. $ von mehr als 1.500 US-Anlegern erbeutet haben.
+og_description: Aktientipps in einer WhatsApp-Gruppe, dann ein „besonderes“ Krypto-Angebot, dann eine Gebühr für die Auszahlung. Laut SEC spielte ein Netzwerk diese Masche in weniger als zwei Jahren viermal durch. Wie sie funktionierte und woran man sie erkennt, einfach erklärt.
+label: Sicherheit
+summary: Am 19. November verklagte die SEC acht Unternehmen mit Sitz in Colorado, die vermutlich aus dem Ausland gesteuert wurden. Laut Behörde nahmen sie über falsche Anlageberater, WhatsApp-Chats und gefälschte Krypto-Plattformen rund 37,4 Mio. $ von mehr als 1.500 US-Anlegern ein.
+===
+
+Die US-Börsenaufsicht SEC wirft einem Netzwerk aus falschen Anlageberatern und gefälschten Krypto-Handelsplattformen vor, gewöhnlichen Amerikanern mehr als 37 Mio. $ abgenommen zu haben. Am Donnerstag, 19. November, [klagte die SEC acht Unternehmen mit Sitz in Colorado](L1) wegen Betrugs an, die nach ihren Worten „wahrscheinlich von Personen im Ausland betrieben“ wurden.
+
+Laut der [Klageschrift](L2) der SEC, eingereicht bei einem Bundesgericht in Colorado, brachte die Masche zwischen August 2024 und Mai 2026 <strong>37.445.800 $</strong> von mehr als 1.500 US-Anlegern ein. Manche Opfer verkauften Aktien, lösten ihre 401(k)-Altersvorsorge auf oder liehen sich Geld bei Angehörigen, um weiter zu investieren. Keines der Unternehmen ist ein echter Berater oder eine echte Börse, so die SEC.
+
+!takeaways
+- Die SEC klagte acht Unternehmen mit Sitz in Colorado wegen einer Masche an, die laut Behörde rund 37,4 Mio. $ von mehr als 1.500 US-Anlegern einbrachte.
+- Die Opfer wurden über Social-Media-Anzeigen und WhatsApp-Chats gelockt, die von falschen Anlageberatern betrieben wurden.
+- Die gefälschten „Plattformen“ zeigten erfundene Gewinne und verlangten vor jeder Auszahlung eine Gebühr.
+- Laut SEC verschickten die Betrüger gefälschte SEC-„Zertifikate“ und verwiesen auf echte Meldungen, um seriös zu wirken.
+
+!figure:steps
+
+## So funktionierte die Masche
+
+Das Drehbuch war jedes Mal dasselbe, heißt es in der Klage. Eine Social-Media-Anzeige führte in eine WhatsApp-Gruppe, die jemand leitete, der angeblich für einen Anlageberater arbeitete. Der „Berater“ gab zunächst Tipps zu gewöhnlichen US-Aktien, um Vertrauen aufzubauen. Dann kam das Angebot: exklusive Krypto-Emissionen, sogenannte IEOs, angeblich rentabler als alles andere.
+
+Die Opfer sollten Dollar auf ein Konto bei einer bekannten US-Kryptobörse einzahlen, Krypto wie Ether, USDT oder USDC kaufen, es in die eigene Wallet übertragen und dann an eine Adresse senden, die der Berater nannte. Außerdem sollten sie eine App der zugehörigen „Handelsplattform“ herunterladen. Die App wirkte echt und zeigte Guthaben und Trades. Nichts davon existierte, so die SEC, und das Geld wurde schnell über ein Netz aus Wallets und Bridges weitergeleitet.
+
+Wenn Opfer ihre angeblichen Gewinne abheben wollten, hieß es, sie müssten zuerst eine Gebühr zahlen, einen Prozentsatz dieser Gewinne, in Krypto an noch eine weitere Adresse. Wer sich weigerte, wurde unter Druck gesetzt und bedroht, so die Klage. Am Ende konnte niemand etwas abheben, die Websites gingen offline und die Chats verstummten.
+
+## Vier Fassaden, ein Netzwerk
+
+Laut SEC arbeiteten die Beklagten in vier Paaren aus Berater und Plattform. Jedes lief etwa sechs Monate, verschwand dann und wurde vom nächsten abgelöst. Die Klage nennt mindestens 7,3 Mio. $, die bei Tech Brokerage Asset Alliance eingingen, 13,6 Mio. $ bei IdeaCrypto Exchange, 10,4 Mio. $ bei RealSimple Crypto Exchange und 4,2 Mio. $ bei Essential Crypto Exchange.
+
+!figure:chart
+
+!mid_cta
+
+Für manche waren die Verluste existenzbedrohend. Die Klage beschreibt einen Anleger, der fast 500.000 $ verlor, darunter Geld aus einem 401(k), von einem Sohn und von einem Nachbarn, und einen weiteren, der fast 1,6 Mio. $ verlor, einschließlich Haus und Altersvorsorgekonto.
+
+Um vertrauenswürdig zu wirken, schickten die Betrüger manchen Opfern ein gefälschtes SEC-„Zertifikat“ und verwiesen auf Meldungen bei SEC, FINRA oder FinCEN. Die Einreichung eines Formulars bei einer Behörde bedeutet nicht, dass diese ein Unternehmen genehmigt oder überwacht, betont die SEC. Außerdem liefen in allen vier Versionen der Masche identische „Wettbewerbe“ zwischen zwei falschen Beratern, wer einen angeblichen Fonds über 10 Mrd. $ verwalten dürfe.
+
+Die SEC beantragt dauerhafte Unterlassungsverfügungen, die Herausgabe unrechtmäßiger Gewinne samt Zinsen und zivilrechtliche Geldstrafen. Aufsichtsbehörden in Hongkong, Singapur, China und der Schweiz halfen bei dem Fall, [berichtete Bitcoin.com News](L3). Es handelt sich um Vorwürfe; kein Gericht hat die Beklagten bisher haftbar gemacht.
+
+!figure:fact
+
+## So schützen Sie sich
+
+Diese Art von Betrug beruht auf Vertrauen, das über Wochen aufgebaut wird, nicht auf Hacking. Ein paar einfache Regeln verhindern das meiste davon:
+
+- Seien Sie vorsichtig bei Anlagetipps von Fremden in WhatsApp-, Telegram- oder Social-Media-Gruppen.
+- Prüfen Sie jeden Berater oder jede Firma im kostenlosen SEC-Tool [Investor.gov](L4), bevor Sie Geld senden. Ein von der Firma verschicktes „Zertifikat“ beweist nichts.
+- Zahlen Sie niemals eine Gebühr oder „Steuer“, um Ihr eigenes Geld abzuheben. Das ist ein klassisches Betrugszeichen.
+- Kaufen und verwahren Sie Krypto nur auf Plattformen, die Sie selbst gefunden haben, etwa einer großen regulierten Börse wie [Coinbase](REF), nicht auf einer, zu der Sie ein neuer Kontakt geschickt hat.
+
+Wenn Sie glauben, ins Visier geraten zu sein, melden Sie es dem FBI unter [ic3.gov](L5) und der SEC. Dies ist keine Finanz- oder Rechtsberatung.
+
+## Worauf man jetzt achten sollte
+
+- Ob das Gericht Gelder einfriert oder die Beklagten zur Zahlung verpflichtet.
+- Ob Strafanzeigen gegen die Personen hinter den Firmen folgen.
+- Weitere Warnungen von SEC und FBI vor Anlagebetrug in Gruppenchats.
+
+!soft: Wie Sie Ihr Konto schützen, lesen Sie in [Ist Coinbase sicher für Einsteiger?](/articles/is-coinbase-safe-for-beginners)
+
+!end_cta
+
+!disclosure

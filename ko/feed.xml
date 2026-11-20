@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ko/</link>
     <description>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 20 Nov 2026 01:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ko/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>블랙록 비트코인 ETF, 사상 최대 하루 유출 5억4110만 달러</title>
+      <link>https://plainbtc.com/ko/articles/blackrock-ibit-record-541-million-outflow-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/blackrock-ibit-record-541-million-outflow-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+      <category>시장</category>
+      <description>블랙록의 iShares Bitcoin Trust(IBIT)는 11월 19일(목) 5억4110만 달러가 순유출되며 1월에 세운 기존 하루 최대 기록 5억2830만 달러를 넘어섰다. 미국 현물 비트코인 ETF 전체로는 이날 5억8230만 달러, 11월 들어 지금까지 약 34억7000만 달러가 빠져나갔다.</description>
+    </item>
+    <item>
+      <title>SEC "가짜 자문가와 가짜 암호화폐 앱이 미국인 1500명에게서 3700만 달러 가로채"</title>
+      <link>https://plainbtc.com/ko/articles/sec-fake-crypto-platforms-37-million-whatsapp-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/sec-fake-crypto-platforms-37-million-whatsapp-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+      <category>보안</category>
+      <description>SEC는 11월 19일 해외에서 운영된 것으로 보이는 콜로라도 기반 8개 회사를 제소했다. SEC에 따르면 이들은 가짜 투자 자문가, 왓츠앱 채팅, 가짜 암호화폐 플랫폼을 통해 미국 투자자 1500명 이상에게서 약 3740만 달러를 가로챘다.</description>
+    </item>
     <item>
       <title>비트코인 6만2000달러 붕괴, 7월 이후 최저가… 주식시장 급락 여파</title>
       <link>https://plainbtc.com/ko/articles/bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026</link>

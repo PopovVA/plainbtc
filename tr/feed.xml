@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Fri, 20 Nov 2026 01:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>BlackRock'ın bitcoin ETF'i tarihindeki en büyük günlük çıkışı yaşadı: 541,1 milyon $</title>
+      <link>https://plainbtc.com/tr/articles/blackrock-ibit-record-541-million-outflow-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/blackrock-ibit-record-541-million-outflow-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Piyasa</category>
+      <description>BlackRock'ın iShares Bitcoin Trust (IBIT) fonu 19 Kasım perşembe günü net 541,1 milyon $ kaybederek ocak ayındaki 528,3 milyon $'lık önceki günlük rekoru geçti. Tüm ABD spot bitcoin ETF'leri o gün 582,3 milyon $, Kasım'da ise şimdiye kadar yaklaşık 3,47 milyar $ kaybetti.</description>
+    </item>
+    <item>
+      <title>SEC: Sahte danışmanlar ve sahte kripto uygulamaları 1.500 Amerikalıdan 37 milyon $ aldı</title>
+      <link>https://plainbtc.com/tr/articles/sec-fake-crypto-platforms-37-million-whatsapp-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/sec-fake-crypto-platforms-37-million-whatsapp-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Güvenlik</category>
+      <description>SEC 19 Kasım'da, muhtemelen yurt dışından yönetilen Colorado merkezli sekiz şirkete dava açtı. Kuruma göre bu şirketler sahte yatırım danışmanları, WhatsApp sohbetleri ve sahte kripto platformları aracılığıyla 1.500'den fazla ABD'li yatırımcıdan yaklaşık 37,4 milyon $ aldı.</description>
+    </item>
     <item>
       <title>Bitcoin 62.000 doların altına inerek temmuzdan bu yana en düşük seviyeyi gördü, hisseler de geriledi</title>
       <link>https://plainbtc.com/tr/articles/bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026</link>

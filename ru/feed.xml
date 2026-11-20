@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Fri, 20 Nov 2026 01:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Биткоин-ETF от BlackRock пережил крупнейший дневной отток в истории: $541,1 млн</title>
+      <link>https://plainbtc.com/ru/articles/blackrock-ibit-record-541-million-outflow-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/blackrock-ibit-record-541-million-outflow-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Рынок</category>
+      <description>В четверг, 19 ноября, чистый отток из фонда BlackRock iShares Bitcoin Trust (IBIT) составил $541,1 млн, больше прежнего дневного рекорда в $528,3 млн, установленного в январе. Все американские спотовые биткоин-ETF за этот день потеряли $582,3 млн, а с начала ноября около $3,47 млрд.</description>
+    </item>
+    <item>
+      <title>SEC: фальшивые советники и поддельные криптоприложения выманили $37 млн у 1500 американцев</title>
+      <link>https://plainbtc.com/ru/articles/sec-fake-crypto-platforms-37-million-whatsapp-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/sec-fake-crypto-platforms-37-million-whatsapp-nov-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Безопасность</category>
+      <description>19 ноября SEC подала иск против восьми компаний из Колорадо, которыми, вероятно, управляли из-за рубежа. По данным регулятора, через фальшивых инвестиционных советников, чаты WhatsApp и поддельные криптоплатформы они забрали около $37,4 млн у более чем 1500 инвесторов из США.</description>
+    </item>
     <item>
       <title>Биткоин упал ниже $62 000, до минимума с июля, вслед за обвалом акций</title>
       <link>https://plainbtc.com/ru/articles/bitcoin-below-62000-lowest-since-july-etf-outflows-nov-2026</link>

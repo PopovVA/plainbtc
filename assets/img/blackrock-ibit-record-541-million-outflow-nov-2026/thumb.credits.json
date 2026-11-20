@@ -1,0 +1,21 @@
+{
+  "kind": "chart",
+  "sources": [
+    {
+      "file": "Farside Investors Bitcoin ETF Flow - All Data",
+      "license": "Public data, cited",
+      "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/",
+      "credit": "IBIT daily net flows since Jan 2024, from Farside Investors (read Nov 20, 2026)"
+    }
+  ],
+  "slug": "blackrock-ibit-record-541-million-outflow-nov-2026",
+  "generated": "2026-11-20T14:01Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

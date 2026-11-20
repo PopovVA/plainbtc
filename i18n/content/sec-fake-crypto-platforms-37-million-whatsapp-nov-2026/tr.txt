@@ -1,0 +1,66 @@
+title: SEC: Sahte danışmanlar ve sahte kripto uygulamaları 1.500 Amerikalıdan 37 milyon $ aldı
+page_title: SEC: Sahte kripto platformları yatırımcılardan 37 milyon $ aldı
+description: SEC, sosyal medya reklamları, WhatsApp sohbetleri, sahte danışmanlar ve sahte kripto alım satım uygulamalarıyla 1.500'den fazla ABD'li yatırımcıdan yaklaşık 37,4 milyon $ aldığını söylediği Colorado merkezli sekiz şirket hakkında dava açtı.
+og_description: Önce bir WhatsApp grubunda hisse tavsiyeleri, sonra "özel" bir kripto teklifi, ardından para çekmek için bir ücret. SEC'e göre bir ağ bu senaryoyu iki yıldan kısa sürede dört kez uyguladı. Nasıl işlediği ve uyarı işaretleri, sade bir dille.
+label: Güvenlik
+summary: SEC 19 Kasım'da, muhtemelen yurt dışından yönetilen Colorado merkezli sekiz şirkete dava açtı. Kuruma göre bu şirketler sahte yatırım danışmanları, WhatsApp sohbetleri ve sahte kripto platformları aracılığıyla 1.500'den fazla ABD'li yatırımcıdan yaklaşık 37,4 milyon $ aldı.
+===
+
+ABD Menkul Kıymetler ve Borsa Komisyonu (SEC), sahte yatırım danışmanları ve sahte kripto alım satım platformlarından oluşan bir ağın sıradan Amerikalılardan 37 milyon $'dan fazla para aldığını söylüyor. SEC, 19 Kasım perşembe günü, "muhtemelen yurt dışındaki kişiler tarafından yönetilen" Colorado merkezli [sekiz şirketi dolandırıcılıkla suçladı](L1).
+
+SEC'in Colorado'daki federal mahkemeye sunduğu [şikâyet dilekçesine](L2) göre plan, Ağustos 2024 ile Mayıs 2026 arasında 1.500'den fazla ABD'li yatırımcıdan <strong>37.445.800 $</strong> topladı. Bazı mağdurlar yatırım yapmaya devam etmek için hisse sattı, 401(k) emeklilik birikimlerini bozdurdu ya da ailelerinden borç aldı. SEC'e göre şirketlerin hiçbiri gerçek bir danışman veya borsa değil.
+
+!takeaways
+- SEC, 1.500'den fazla ABD'li yatırımcıdan yaklaşık 37,4 milyon $ aldığını söylediği bir plan nedeniyle Colorado merkezli sekiz şirketi suçladı.
+- Mağdurlar sosyal medya reklamları ve sahte yatırım danışmanlarının yönettiği WhatsApp sohbetleriyle tuzağa çekildi.
+- Sahte "platformlar" uydurma kazançlar gösterdi, ardından her para çekme talebinden önce ücret istedi.
+- SEC'e göre dolandırıcılar güvenilir görünmek için sahte SEC "sertifikaları" gönderdi ve gerçek başvuru kayıtlarını gösterdi.
+
+!figure:steps
+
+## Plan nasıl işliyordu
+
+Şikâyete göre senaryo her seferinde aynıydı. Bir sosyal medya reklamı insanları, bir yatırım danışmanı için çalıştığını söyleyen birinin yönettiği WhatsApp grubuna götürüyordu. "Danışman" önce güven kazanmak için sıradan ABD hisseleri hakkında tavsiyeler veriyordu. Ardından teklif geliyordu: IEO adı verilen, diğer her şeyden daha kârlı olduğu söylenen özel kripto ihraçları.
+
+Mağdurlara, tanınmış bir ABD kripto borsasındaki hesaplarına dolar yatırmaları, ether, USDT veya USDC gibi kripto almaları, bunu kendi cüzdanlarına aktarmaları ve ardından danışmanın verdiği adrese göndermeleri söyleniyordu. Ayrıca eşleştirilmiş "alım satım platformunun" uygulamasını indirmeleri isteniyordu. Uygulama gerçek gibi görünüyor, bakiye ve işlemleri gösteriyordu. SEC'e göre bunların hiçbiri gerçek değildi ve para bir cüzdan ve köprü ağı üzerinden hızla taşındı.
+
+Mağdurlar sözde kârlarını çekmek istediğinde, önce bu kârın bir yüzdesi kadar ücreti, kripto olarak ve başka bir adrese ödemeleri gerektiği söyleniyordu. Şikâyete göre reddedenler baskı ve tehditle karşılaştı. Sonunda kimse hiçbir şey çekemedi, web siteleri kapandı ve sohbetler sustu.
+
+## Dört cephe, tek ağ
+
+SEC'e göre sanıklar dört danışman-platform ikilisi halinde çalıştı; her biri yaklaşık altı ay faaliyet gösterdikten sonra ortadan kayboldu ve yerini bir sonrakine bıraktı. Şikâyette Tech Brokerage Asset Alliance'ın en az 7,3 milyon $, IdeaCrypto Exchange'in 13,6 milyon $, RealSimple Crypto Exchange'in 10,4 milyon $ ve Essential Crypto Exchange'in 4,2 milyon $ aldığı belirtiliyor.
+
+!figure:chart
+
+!mid_cta
+
+Bazı insanlar için kayıplar hayatlarını değiştirdi. Şikâyette, 401(k) hesabından, oğlundan ve komşusundan borç aldığı paralar dahil yaklaşık 500.000 $ kaybeden bir yatırımcı ile evi ve emeklilik hesabı dahil yaklaşık 1,6 milyon $ kaybeden bir başkası anlatılıyor.
+
+Güvenilir görünmek için dolandırıcılar bazı mağdurlara sahte bir SEC "sertifikası" gönderdi ve SEC, FINRA ya da FinCEN'e yapılan başvuruları gösterdi. SEC, bir düzenleyiciye form sunmanın o kurumun şirketi onayladığı ya da denetlediği anlamına gelmediğini vurguluyor. Ayrıca planın dört versiyonunun hepsinde, sözde 10 milyar $'lık bir fonu kimin yöneteceğini seçmek için iki sahte danışman arasında birebir aynı "yarışmalar" düzenlendiğini belirtiyor.
+
+SEC mahkemeden kalıcı tedbir kararları, haksız kazançların faiziyle iadesi ve para cezaları talep ediyor. [Bitcoin.com News'in bildirdiğine](L3) göre Hong Kong, Singapur, Çin ve İsviçre'deki düzenleyiciler davaya yardım etti. Bunlar iddialardır ve hiçbir mahkeme sanıkları henüz sorumlu bulmadı.
+
+!figure:fact
+
+## Kendinizi nasıl korursunuz
+
+Bu tür dolandırıcılık bilgisayar korsanlığına değil, haftalar içinde kurulan güvene dayanır. Birkaç basit kural çoğunu engeller:
+
+- WhatsApp, Telegram veya sosyal medya gruplarında yabancılardan gelen yatırım tavsiyelerine karşı dikkatli olun.
+- Para göndermeden önce her danışmanı veya şirketi SEC'in ücretsiz [Investor.gov](L4) aracıyla kontrol edin. Şirketin kendisinin gönderdiği bir "sertifika" hiçbir şey kanıtlamaz.
+- Kendi paranızı çekmek için asla ücret ya da "vergi" ödemeyin. Bu klasik bir dolandırıcılık işaretidir.
+- Kriptoyu yalnızca kendi bulduğunuz platformlarda, örneğin [Coinbase](REF) gibi büyük ve düzenlemeye tabi bir borsada alıp saklayın; yeni tanıştığınız birinin yönlendirdiği bir platformda değil.
+
+Hedef alındığınızı düşünüyorsanız durumu FBI'a [ic3.gov](L5) üzerinden ve SEC'e bildirin. Bu bir finansal veya hukuki tavsiye değildir.
+
+## Bundan sonra neye dikkat etmeli
+
+- Mahkemenin fonların bir kısmını dondurup dondurmayacağı veya sanıklara ödeme emri verip vermeyeceği.
+- Şirketlerin arkasındaki kişilere cezai suçlama yöneltilip yöneltilmeyeceği.
+- Grup sohbetlerindeki yatırım dolandırıcılıklarına karşı SEC ve FBI'dan yeni uyarılar.
+
+!soft: Hesabınızı nasıl koruyacağınızı [Coinbase yeni başlayanlar için güvenli mi?](/articles/is-coinbase-safe-for-beginners) yazımızda öğrenin
+
+!end_cta
+
+!disclosure
