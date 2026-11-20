@@ -34,7 +34,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from newsletter_lib import (NL, ROOT, SITE, INK, INK2, ACCENT_INK, CARD, LINE, MONO, esc, font, layout)  # noqa: E402
 
 SB_URL = "https://ygilpnmqkduzhdkxdyxj.supabase.co"
-SB_ANON = ("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlnaWxwbm1xa2R1emhka3hkeXhqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgyMjM1MjcsImV4cCI6MjEwMzc5OTUyN30.K7vRkMkkjfy7ba5JVXzYGLUjkp2FX7SbTfvPmyJS9GQ")
+# Admin RPCs are service_role only; this edge function holds the service key and checks the admin token.
+ADMIN_FN = f"{SB_URL}/functions/v1/newsletter-admin"
 FROM = "PlainBTC <news@plainbtc.com>"
 PRIV = Path("/workspace/private")
 
@@ -63,8 +64,13 @@ def http(method: str, url: str, headers: dict, body=None, timeout=30):
 
 
 def rpc(name: str, args: dict):
-    st, res = http("POST", f"{SB_URL}/rest/v1/rpc/{name}",
-                   {"apikey": SB_ANON, "Authorization": f"Bearer {SB_ANON}", "Content-Type": "application/json"}, args)
+    """Calls newsletter_admin_<action> through the newsletter-admin edge function (token in a header)."""
+    prefix = "newsletter_admin_"
+    if not name.startswith(prefix):
+        raise SystemExit(f"rpc {name}: only newsletter_admin_* calls go through here")
+    body = {"action": name[len(prefix):], "value": args.get("p_value"), "sent_ids": args.get("p_sent_ids")}
+    st, res = http("POST", ADMIN_FN,
+                   {"X-Admin-Token": args["p_admin"], "Content-Type": "application/json"}, body)
     if st >= 300:
         raise SystemExit(f"rpc {name} failed: {st} {res}")
     return res

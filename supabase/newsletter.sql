@@ -1,6 +1,8 @@
 -- PlainBTC newsletter backend (Supabase project foliata, schema public).
 -- Applied via Supabase migration "plainbtc_newsletter". Idempotent where possible.
--- Security model: anon can only call the SECURITY DEFINER RPCs below; tables have RLS on + no grants.
+-- Security model: anon can only call the public SECURITY DEFINER RPCs below (subscribe/confirm/unsubscribe);
+-- admin RPCs are service_role only, reached via the newsletter-admin edge function. Tables have RLS on + no grants.
+-- Current function definitions and grants: foliata repo, supabase/migrations/0014_security_advisor_hardening.sql.
 -- Emails are never readable through the Data API. Provider API key lives in supabase_vault
 -- (secret name 'plainbtc_resend_key'), never in the repo.
 
@@ -129,16 +131,18 @@ begin
      or e !~ '^[a-z0-9._%+''-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*\.[a-z]{2,24}$' then
     return 'invalid';
   end if;
+  -- the Pages Function always sends a 32-hex hash; without it the per-IP limit could be skipped
+  if p_ip_hash is null or p_ip_hash !~ '^[0-9a-f]{32}$' then
+    return 'rate_limited';
+  end if;
   if l not in ('en','es','pt','fr','de','ru','tr','id','ja','ko') then l := 'en'; end if;
 
   select count(*) into n_global from public.newsletter_signup_log where created_at > now() - interval '1 hour';
   if n_global >= 60 then return 'rate_limited'; end if;
-  if p_ip_hash is not null then
-    select count(*) into n_ip from public.newsletter_signup_log
-     where ip_hash = p_ip_hash and created_at > now() - interval '1 hour';
-    if n_ip >= 5 then return 'rate_limited'; end if;
-  end if;
-  insert into public.newsletter_signup_log (ip_hash) values (left(p_ip_hash, 64));
+  select count(*) into n_ip from public.newsletter_signup_log
+   where ip_hash = p_ip_hash and created_at > now() - interval '1 hour';
+  if n_ip >= 5 then return 'rate_limited'; end if;
+  insert into public.newsletter_signup_log (ip_hash) values (p_ip_hash);
 
   select * into s from public.newsletter_subscribers where email = e;
   if not found then
@@ -196,7 +200,7 @@ revoke execute on function public.newsletter_subscribe(text,text,text,text) from
 revoke execute on function public.newsletter_confirm(text) from public;
 revoke execute on function public.newsletter_unsubscribe(text) from public;
 
--- ---------------------------------------------------------------- admin RPCs (secret admin token, hash stored in newsletter_admin)
+-- ---------------------------------------------------------------- admin RPCs (service_role only + secret admin token, hash stored in newsletter_admin)
 create or replace function public.newsletter_admin_subscribers(p_admin text)
 returns table (id uuid, email text, lang text, unsubscribe_token text, last_digest_at timestamptz)
 language plpgsql security definer set search_path = '' as $$
@@ -253,6 +257,7 @@ do $$ declare f text; begin
   foreach f in array array[
     'newsletter_admin_subscribers(text)','newsletter_admin_get_state(text)',
     'newsletter_admin_set_state(text,jsonb,uuid[])','newsletter_admin_send_pending(text)','newsletter_admin_stats(text)'] loop
-    execute format('revoke execute on function public.%s from public', f);
-    execute format('grant execute on function public.%s to anon, authenticated', f);
+    -- service_role only since foliata migration 0014; callers go through the newsletter-admin edge function.
+    execute format('revoke execute on function public.%s from public, anon, authenticated', f);
+    execute format('grant execute on function public.%s to service_role', f);
   end loop; end $$;
