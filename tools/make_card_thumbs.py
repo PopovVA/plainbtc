@@ -1704,6 +1704,45 @@ def thumb_btc_new_2026_low():
     ]}
 
 
+def thumb_btc_55100_rebound():
+    """Graphite 'V' chart: Kraken XBTUSD 15-minute closes Nov 20 6 p.m. - Nov 21 8 a.m. CST (frozen in chart-data.json),
+    the overnight low ($55,100 at 12:17 a.m. CST) and the morning high ($60,883.40 at 8:03 a.m. CST)."""
+    rows = json.loads((I18N / "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026" / "chart-data.json").read_text(encoding="utf-8"))
+    t0 = datetime(2026, 11, 21, 0, tzinfo=timezone.utc).timestamp()          # Nov 20 6 p.m. CST
+    pts = [(datetime.fromtimestamp(r[0] - 6 * 3600, tz=timezone.utc), r[1]) for r in rows if r[0] >= t0]
+    xs, ys = [p[0] for p in pts], [p[1] for p in pts]
+    low_x, low_v = datetime(2026, 11, 21, 0, 17, tzinfo=timezone.utc), 55100.0     # CST wall-clock on a UTC axis
+    hi_x, hi_v = datetime(2026, 11, 21, 8, 3, tzinfo=timezone.utc), 60883.4
+    xs2, ys2 = xs[:], ys[:]
+    for x, v in ((low_x, low_v), (hi_x, hi_v)):
+        i = next((k for k, xx in enumerate(xs2) if xx > x), len(xs2)); xs2.insert(i, x); ys2.insert(i, v)
+    bg, ink, teal = "#141414", "#fafafa", "#2dd4bf"
+    fig = plt.figure(figsize=(6.4, 3.6), dpi=100 * S); fig.patch.set_facecolor(bg)
+    ax = fig.add_axes([0.07, 0.12, 0.89, 0.50]); ax.set_facecolor(bg)
+    for sp in ("top", "right", "left"): ax.spines[sp].set_visible(False)
+    ax.spines["bottom"].set_color("#525252")
+    ax.tick_params(colors="#a3a3a3", labelsize=7, length=0)
+    ax.grid(True, axis="y", color="#2a2a2a", linewidth=0.6)
+    ax.plot(xs2, ys2, color=teal, linewidth=2.2)
+    ax.fill_between(xs2, ys2, 54000, color=teal, alpha=0.10)
+    ax.scatter([low_x], [low_v], s=40, color="#f87171", zorder=5, edgecolors="white", linewidths=1.2)
+    ax.scatter([hi_x], [hi_v], s=40, color="#a3e635", zorder=5, edgecolors="white", linewidths=1.2)
+    ax.annotate("$55,100 · 12:17 a.m.", (low_x, low_v), xytext=(10, -2), textcoords="offset points", color="#fca5a5", fontsize=8, fontweight="bold", va="center")
+    ax.annotate("$60,883 · 8:03 a.m.", (hi_x, hi_v), xytext=(-8, 8), textcoords="offset points", color="#d9f99d", fontsize=8, fontweight="bold", ha="right")
+    ax.set_ylim(54000, 62200)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"${v/1000:.0f}k"))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%-I %p"))
+    fig.text(0.07, 0.86, "+10.5%", color="#a3e635", fontsize=30, fontweight="bold", va="center")
+    fig.text(0.40, 0.89, "Bitcoin's overnight bounce on Kraken", color=ink, fontsize=11, fontweight="bold", va="center")
+    fig.text(0.40, 0.81, "from a low not seen since September 2024", color="#d4d4d4", fontsize=10, va="center")
+    fig.text(0.07, 0.70, "15-minute closes, Nov. 20-21, 2026 (Central time)", color="#a3a3a3", fontsize=7.5, va="center")
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100 * S, facecolor=bg); plt.close(fig); buf.seek(0)
+    im = Image.open(buf).convert("RGB")
+    return im, {"kind":"chart","sources":[
+        {"file":"Kraken OHLC XBTUSD interval=15 and interval=1","license":"Kraken public API","url":"https://docs.kraken.com/api/docs/rest-api/get-ohlc-data","credit":"BTC/USD 15-minute closes Nov 20-21, 2026, the 12:17 a.m. CST low and 8:03 a.m. CST high, from Kraken"}
+    ]}
+
+
 def thumb_death_bets_act():
     """U.S. Senate seal (Wikimedia Commons, CC BY-SA 2.5) with the five event-contract categories S. 4035 would ban."""
     seal = fetch("https://upload.wikimedia.org/wikipedia/commons/f/f0/Seal_of_the_United_States_Senate.svg", CACHE/"senate-seal.svg")
@@ -1733,6 +1772,7 @@ def thumb_death_bets_act():
 
 
 BUILDERS = {
+    "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026": thumb_btc_55100_rebound,
     "bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026": thumb_btc_new_2026_low,
     "bitcoin-below-59000-near-2026-low-liquidations-nov-2026": thumb_btc_below_59k_2026_low,
     "senate-passes-death-bets-act-prediction-markets-nov-2026": thumb_death_bets_act,

@@ -4345,6 +4345,81 @@ def build_btc_below_59k_2026_low():
     ]
 
 
+def build_btc_55100_rebound():
+    slug = "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026"
+    d = OUT / slug
+    # Kraken XBTUSD 15-minute candles, Nov 20 12:00 UTC to Nov 21 14:00 UTC (Nov 20 6 a.m. to Nov 21 8 a.m. CST), closes plotted.
+    # Frozen in i18n/content/<slug>/chart-data.json as [ts, close, low, high] (Kraken keeps only ~7 days of 15-minute candles).
+    rows = json.loads((I18N / slug / "chart-data.json").read_text(encoding="utf-8"))
+    xs = np.array([r[0] - 6 * 3600 for r in rows], dtype=float)   # shift to U.S. Central (CST, UTC-6) for axis labels
+    ys = np.array([r[1] for r in rows])
+    chart = make_line_chart(
+        d / "chart-btc-15min-nov-20-21",
+        xs, ys,
+        title="Bitcoin on Nov. 20-21, 2026: 15-minute closes on Kraken (U.S. Central time)",
+        hline=57740.0,
+        hlabel="Previous 2026 low: $57,740 (July 1)",
+        date_fmt="%b %d, %-I %p",
+    )
+    fact = make_fact_card(
+        d / "fact-2-4-billion-liquidated",
+        "Liquidated in 24 hours",
+        "$2.40 billion",
+        "Leveraged crypto futures bets closed by force; more than $1 billion in bitcoin and $545 million in ether",
+        footer="Source: CoinGlass via CoinDesk, Nov. 21, 2026",
+    )
+    etf = make_bar_chart(
+        d / "chart-btc-etf-flows-nov-16-20",
+        ["Mon 16", "Tue 17", "Wed 18", "Thu 19", "Fri 20*"],
+        [7.9, -239.9, -306.5, -582.3, -124.5],
+        title="U.S. spot bitcoin ETF net flows, Nov. 16-20, 2026 (*Friday without IBIT)",
+        colors=["#34d399", "#f87171", "#f87171", "#f87171", "#fca5a5"],
+        value_fmt=lambda v: f"{'+' if v > 0 else '−'}${abs(v):,.1f}M",
+        axis_fmt=lambda x, _p: f"${x:,.0f}M",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's 15-minute closing prices on Kraken from 6 a.m. Central time on Nov. 20 to 8 a.m. on Nov. 21, 2026: the price slides from about $62,000 to near $59,000, drops below a dashed line marking the previous 2026 low of $57,740, bottoms near $55,100 just after midnight, then climbs back above $60,000", {
+            "es": "Gráfico de líneas de los precios de cierre de 15 minutos de bitcoin en Kraken desde las 6:00 (hora del centro de EE. UU.) del 20 de noviembre hasta las 8:00 del 21 de noviembre de 2026: el precio baja de unos 62.000 dólares a cerca de 59.000, cae por debajo de una línea discontinua en el mínimo anterior de 2026, 57.740 dólares, toca fondo cerca de 55.100 poco después de medianoche y vuelve a superar los 60.000",
+            "pt": "Gráfico de linha dos preços de fechamento de 15 minutos do bitcoin na Kraken das 6h (horário central dos EUA) de 20 de novembro às 8h de 21 de novembro de 2026: o preço recua de cerca de US$ 62.000 para perto de US$ 59.000, cai abaixo de uma linha tracejada na mínima anterior de 2026, US$ 57.740, chega ao fundo perto de US$ 55.100 logo após a meia-noite e volta a superar US$ 60.000",
+            "fr": "Courbe des cours de clôture sur 15 minutes du bitcoin sur Kraken, de 6 h (heure du Centre des États-Unis) le 20 novembre à 8 h le 21 novembre 2026 : le cours glisse d'environ 62 000 dollars vers 59 000, passe sous une ligne pointillée marquant l'ancien plus bas de 2026, 57 740 dollars, touche un creux vers 55 100 dollars peu après minuit, puis repasse au-dessus de 60 000 dollars",
+            "de": "Liniendiagramm der 15-Minuten-Schlusskurse von Bitcoin bei Kraken von 6 Uhr (US-Zentralzeit) am 20. November bis 8 Uhr am 21. November 2026: Der Kurs rutscht von etwa 62.000 $ auf knapp 59.000 $, fällt unter eine gestrichelte Linie beim bisherigen Jahrestief 2026 von 57.740 $, erreicht kurz nach Mitternacht ein Tief nahe 55.100 $ und steigt dann wieder über 60.000 $",
+            "ru": "Линейный график 15-минутных цен закрытия биткоина на Kraken с 6:00 по центральному времени США 20 ноября до 8:00 21 ноября 2026 года: цена сползает примерно с $62 000 к $59 000, опускается ниже пунктирной линии прежнего минимума 2026 года — $57 740, вскоре после полуночи достигает дна около $55 100, затем снова поднимается выше $60 000",
+            "tr": "Bitcoin'in Kraken'deki 15 dakikalık kapanış fiyatlarının 20 Kasım ABD Merkez saatiyle 06.00'dan 21 Kasım 2026 08.00'e kadarki çizgi grafiği: fiyat yaklaşık 62.000 $'dan 59.000 $ civarına geriliyor, 2026'nın önceki dibi olan 57.740 $'ı gösteren kesikli çizginin altına iniyor, gece yarısından hemen sonra 55.100 $ civarında dip yapıyor, ardından yeniden 60.000 $'ın üzerine çıkıyor",
+            "id": "Grafik garis harga penutupan 15 menit bitcoin di Kraken dari pukul 06.00 waktu Tengah AS pada 20 November hingga pukul 08.00 pada 21 November 2026: harga turun dari sekitar US$62.000 ke dekat US$59.000, jatuh di bawah garis putus-putus di level terendah 2026 sebelumnya, US$57.740, menyentuh titik terendah dekat US$55.100 sesaat setelah tengah malam, lalu naik lagi di atas US$60.000",
+            "ja": "2026年11月20日午前6時（米中部時間）から11月21日午前8時までのKrakenにおけるビットコインの15分足終値の折れ線グラフ。約6万2000ドルから5万9000ドル付近まで下げた後、2026年のこれまでの安値5万7740ドルを示す破線を割り込み、深夜0時過ぎに5万5100ドル付近で底を打ち、その後6万ドルを上回るまで回復している",
+            "ko": "2026년 11월 20일 오전 6시(미국 중부시간)부터 11월 21일 오전 8시까지 크라켄의 비트코인 15분 종가 선 그래프. 가격은 약 6만2000달러에서 5만9000달러 근처로 밀린 뒤 2026년 이전 저점 5만7740달러를 나타내는 점선 아래로 떨어지고, 자정 직후 5만5100달러 근처에서 바닥을 찍은 다음 다시 6만 달러 위로 올라선다",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: about $2.40 billion in leveraged crypto futures bets were liquidated over 24 hours to Nov. 21, 2026, including more than $1 billion in bitcoin and $545 million in ether, according to CoinGlass data cited by CoinDesk", {
+            "es": "Tarjeta: unos 2.400 millones de dólares en apuestas apalancadas con futuros cripto se liquidaron en las 24 horas hasta el 21 de noviembre de 2026, más de 1.000 millones en bitcoin y 545 millones en ether, según datos de CoinGlass citados por CoinDesk",
+            "pt": "Cartão: cerca de US$ 2,40 bilhões em apostas alavancadas com futuros de cripto foram liquidados nas 24 horas até 21 de novembro de 2026, mais de US$ 1 bilhão em bitcoin e US$ 545 milhões em ether, segundo dados da CoinGlass citados pelo CoinDesk",
+            "fr": "Carte : environ 2,40 milliards de dollars de paris à effet de levier sur des contrats à terme crypto ont été liquidés en 24 heures jusqu'au 21 novembre 2026, dont plus d'un milliard en bitcoin et 545 millions en ether, selon des données de CoinGlass citées par CoinDesk",
+            "de": "Faktenkarte: Rund 2,40 Mrd. $ an gehebelten Krypto-Futures-Wetten wurden in den 24 Stunden bis zum 21. November 2026 liquidiert, davon über 1 Mrd. $ in Bitcoin und 545 Mio. $ in Ether, laut von CoinDesk zitierten CoinGlass-Daten",
+            "ru": "Карточка: за 24 часа до 21 ноября 2026 года было принудительно закрыто около $2,40 млрд кредитных ставок на криптофьючерсах, из них более $1 млрд в биткоине и $545 млн в эфире, по данным CoinGlass, которые приводит CoinDesk",
+            "tr": "Kart: CoinDesk'in aktardığı CoinGlass verilerine göre 21 Kasım 2026'ya kadarki 24 saatte yaklaşık 2,40 milyar $'lık kaldıraçlı kripto vadeli pozisyonu tasfiye edildi; bunun 1 milyar $'dan fazlası bitcoin, 545 milyon $'ı ether",
+            "id": "Kartu: sekitar US$2,40 miliar posisi berjangka kripto berleverage dilikuidasi dalam 24 jam hingga 21 November 2026, termasuk lebih dari US$1 miliar di bitcoin dan US$545 juta di ether, menurut data CoinGlass yang dikutip CoinDesk",
+            "ja": "カード：CoinDeskが引用したCoinGlassのデータによると、2026年11月21日までの24時間に約24億ドル相当のレバレッジ付き暗号資産先物ポジションが強制清算され、うちビットコインが10億ドル超、イーサが5億4500万ドルだった",
+            "ko": "카드: 코인데스크가 인용한 코인글래스 자료에 따르면 2026년 11월 21일까지 24시간 동안 약 24억 달러 규모의 레버리지 암호화폐 선물 포지션이 강제 청산됐으며, 이 중 비트코인이 10억 달러 이상, 이더가 5억4500만 달러였다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="CoinGlass via CoinDesk")},
+        {"id": "etf", "file": etf.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of daily net flows for U.S. spot bitcoin ETFs from Nov. 16 to Nov. 20, 2026: plus $7.9 million on Monday, minus $239.9 million on Tuesday, minus $306.5 million on Wednesday, minus $582.3 million on Thursday and minus $124.5 million on Friday, with BlackRock's IBIT not yet reported for Friday", {
+            "es": "Gráfico de barras de los flujos netos diarios de los ETF de bitcoin al contado de EE. UU. del 16 al 20 de noviembre de 2026: +7,9 millones de dólares el lunes, −239,9 millones el martes, −306,5 millones el miércoles, −582,3 millones el jueves y −124,5 millones el viernes, todavía sin el dato de IBIT de BlackRock para el viernes",
+            "pt": "Gráfico de barras dos fluxos líquidos diários dos ETFs de bitcoin à vista dos EUA de 16 a 20 de novembro de 2026: +US$ 7,9 milhões na segunda, −US$ 239,9 milhões na terça, −US$ 306,5 milhões na quarta, −US$ 582,3 milhões na quinta e −US$ 124,5 milhões na sexta, ainda sem o dado do IBIT da BlackRock para sexta",
+            "fr": "Graphique en barres des flux nets quotidiens des ETF bitcoin au comptant américains du 16 au 20 novembre 2026 : +7,9 millions de dollars lundi, −239,9 millions mardi, −306,5 millions mercredi, −582,3 millions jeudi et −124,5 millions vendredi, sans le chiffre de l'IBIT de BlackRock pour vendredi",
+            "de": "Balkendiagramm der täglichen Nettozuflüsse der US-Spot-Bitcoin-ETFs vom 16. bis 20. November 2026: +7,9 Mio. $ am Montag, −239,9 Mio. $ am Dienstag, −306,5 Mio. $ am Mittwoch, −582,3 Mio. $ am Donnerstag und −124,5 Mio. $ am Freitag, ohne den noch fehlenden Freitagswert von BlackRocks IBIT",
+            "ru": "Столбчатая диаграмма дневных чистых потоков американских спотовых биткоин-ETF с 16 по 20 ноября 2026 года: +$7,9 млн в понедельник, −$239,9 млн во вторник, −$306,5 млн в среду, −$582,3 млн в четверг и −$124,5 млн в пятницу, без ещё не опубликованных данных IBIT от BlackRock за пятницу",
+            "tr": "16-20 Kasım 2026 arasında ABD spot bitcoin ETF'lerinin günlük net akışlarının çubuk grafiği: pazartesi +7,9 milyon $, salı −239,9 milyon $, çarşamba −306,5 milyon $, perşembe −582,3 milyon $ ve cuma −124,5 milyon $; BlackRock'ın IBIT fonunun cuma verisi henüz yok",
+            "id": "Grafik batang arus bersih harian ETF bitcoin spot AS dari 16 hingga 20 November 2026: +US$7,9 juta pada Senin, −US$239,9 juta pada Selasa, −US$306,5 juta pada Rabu, −US$582,3 juta pada Kamis, dan −US$124,5 juta pada Jumat, tanpa data IBIT BlackRock untuk Jumat yang belum dirilis",
+            "ja": "2026年11月16日〜20日の米国現物ビットコインETFの日次純フローの棒グラフ：月曜はプラス790万ドル、火曜はマイナス2億3990万ドル、水曜はマイナス3億650万ドル、木曜はマイナス5億8230万ドル、金曜はマイナス1億2450万ドル。金曜はブラックロックのIBITの数字が未発表",
+            "ko": "2026년 11월 16~20일 미국 현물 비트코인 ETF 일별 순흐름 막대 차트: 월요일 +790만 달러, 화요일 -2억3990만 달러, 수요일 -3억650만 달러, 목요일 -5억8230만 달러, 금요일 -1억2450만 달러. 금요일 블랙록 IBIT 수치는 아직 미발표",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Farside Investors")},
+    ]
+
+
 def build_btc_new_2026_low():
     slug = "bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026"
     d = OUT / slug
@@ -4488,6 +4563,7 @@ def build_death_bets_act():
 
 
 BUILDERS = {
+    "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026": "btc55k",
     "bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026": "btcnewlow",
     "bitcoin-below-59000-near-2026-low-liquidations-nov-2026": "btc59k2026",
     "senate-passes-death-bets-act-prediction-markets-nov-2026": "deathbets",
@@ -4567,7 +4643,9 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "btcnewlow":
+    if key == "btc55k":
+        figs = build_btc_55100_rebound()
+    elif key == "btcnewlow":
         figs = build_btc_new_2026_low()
     elif key == "btc59k2026":
         figs = build_btc_below_59k_2026_low()

@@ -1,0 +1,65 @@
+title: Bitcoin crashes to $55,100, its lowest since 2024, then jumps back above $60,000
+page_title: Bitcoin crashes to $55,100, then jumps back above $60,000
+description: Bitcoin fell to $55,100 on Kraken just after midnight Central time on Saturday, its lowest price since September 2024, after about $2.4 billion in bets were wiped out. By 8 a.m. it was back above $60,000.
+og_description: Bitcoin dropped to its lowest price since September 2024 overnight, then bounced more than 10% by Saturday morning. Here is what happened, the numbers behind it, and what it means for beginners.
+label: Market news
+summary: Bitcoin hit $55,100 on Kraken at 12:17 a.m. Central time on Saturday, its lowest since September 2024, as about $2.4 billion in leveraged bets were liquidated. By 8:03 a.m. it had bounced to $60,883, up 10.5% from the low.
+===
+
+Bitcoin had a wild night. Late on Friday, Nov. 20, the price broke well below the 2026 low it had set only hours earlier, and at <strong>12:17 a.m. Central time on Saturday</strong> it touched <strong>$55,100</strong> on Kraken and $55,106 on Coinbase, according to PlainBTC's check of public price data from [Kraken](L1) and [Coinbase](L2). On Coinbase, that was the lowest price since September 2024.
+
+Then the selling stopped. By 8:03 a.m. Central time on Saturday, bitcoin had climbed back to $60,883 on both exchanges, about 10.5% above the overnight low, and it was trading near $60,300 a few minutes later. On Friday afternoon we reported that bitcoin had set a [new 2026 low near $57,660](/articles/bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026). The overnight drop took it about $2,500 lower than that.
+
+!takeaways
+- Bitcoin fell to $55,100 on Kraken and $55,106 on Coinbase at 12:17 a.m. Central time on Nov. 21, its lowest price since September 2024.
+- About $2.4 billion in leveraged crypto bets were liquidated over 24 hours, more than $1 billion of them in bitcoin, according to CoinGlass data cited by CoinDesk.
+- By 8:03 a.m. Central time bitcoin was back at $60,883, a 10.5% rebound from the low. No single piece of news explained the bounce.
+- U.S. spot bitcoin ETFs lost a reported $1.25 billion this week, with BlackRock's Friday figure still missing.
+
+!figure:chart
+
+## How the drop unfolded
+
+For most of Friday evening bitcoin traded near $59,000. Around 9 p.m. Central time it started to slide, and within an hour it was below $56,500 on Kraken. The fall paused near $55,500 and then made one more push lower just after midnight, to the $55,100 low. Within the same hour the price snapped back to about $58,000.
+
+[CoinDesk reported](L3) that crypto exchanges liquidated about $2.40 billion in leveraged futures bets over 24 hours, citing CoinGlass. More than $1 billion of that was in bitcoin and $545 million in ether. The largest single liquidation was a $51.71 million bet that bitcoin would rise. [Bitcoin.com News](L4), also citing CoinGlass, put the total at $2.54 billion by 2:11 a.m. Eastern time, with bets on higher prices making up 89.4% of it.
+
+A liquidation happens when an exchange closes a trader's borrowed position because the trader no longer has enough money in the account to cover losses. In a fast drop, those forced sales push prices down further and trigger even more liquidations.
+
+!figure:fact
+
+## Why markets were selling
+
+The drop did not start inside crypto. The Nasdaq Composite fell 5.3% on Friday as a selloff in AI and chip stocks spread. [Investing.com reported](L5) that shares of AI developer Anthropic fell more than 14% after its stock market debut, and that bitcoin miners such as Hut 8, Core Scientific, CleanSpark and Bitdeer dropped more than 13%. It also pointed to rising inflation-adjusted U.S. Treasury yields and expectations of more Federal Reserve rate increases, which make cash and bonds more attractive than assets like bitcoin.
+
+Other coins fell hard too. Ether dropped to $1,535.37 on Coinbase overnight, still above its 2026 low of $1,505.75 on Kraken from June 6, and was back near $1,690 on Saturday morning. [CoinDesk said](L6) XRP sank to its lowest price since November 2024. On Kraken, XRP touched $0.85918 before recovering to about $0.92.
+
+!mid_cta
+
+## What drove the bounce
+
+There was no big headline behind the rebound. When nearly all the leveraged bets on higher prices have been wiped out, fewer forced sellers remain, and traders who bet on a fall often buy back to lock in profits. That can lift prices quickly. Investing.com noted that market maker Wintermute has said bitcoin would need to get back above $68,000, together with new money flowing into spot ETFs, before a lasting recovery looks convincing. In other words, one strong morning does not mean the decline is over.
+
+## ETF money is still leaving
+
+Big investors have been pulling out all week. U.S. spot bitcoin ETFs lost a net $1.12 billion from Monday to Thursday, according to [Farside Investors](L7), including $582.3 million on Thursday. Friday's reported outflow was another $124.5 million, led by $72.4 million from Fidelity's FBTC, but the figure for BlackRock's IBIT, the largest fund, had not been published yet. That makes about $1.25 billion out for the week so far. Spot ether ETFs lost a reported $221.7 million over the same five days, according to [Farside's ether table](L8).
+
+!figure:etf
+
+The [Crypto Fear & Greed Index](L9) stood at 12 out of 100 on Saturday, which counts as "extreme fear." On Kraken, bitcoin opened November at $77,437, so even after Saturday's bounce it is down about 22% this month.
+
+## What it means for beginners
+
+A drop of nearly $4,000 in a few hours, followed by a jump of almost $6,000, shows how fast crypto can move, especially when many traders use borrowed money. Nobody can reliably say whether $55,100 was the bottom. If you are thinking about buying, many beginners make small purchases spread over weeks or months instead of buying all at once, and some start on a large regulated exchange such as [Coinbase](REF). Avoid leverage, and only invest money you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Whether bitcoin holds above $60,000 or slips back toward the overnight low of about $55,100.
+- BlackRock's IBIT figure for Friday and next week's ETF flows.
+- Stock markets on Monday and Fed comments ahead of the Dec. 8-9 meeting.
+
+!soft: Not sure whether to buy a bitcoin fund or bitcoin itself? Read [Bitcoin ETF vs. buying bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

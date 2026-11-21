@@ -1,0 +1,65 @@
+title: Bitcoin stürzt auf 55.100 $, den tiefsten Stand seit 2024, und springt dann wieder über 60.000 $
+page_title: Bitcoin stürzt auf 55.100 $ und springt wieder über 60.000 $
+description: Bitcoin fiel am Samstag kurz nach Mitternacht (US-Zentralzeit) bei Kraken auf 55.100 $, den tiefsten Kurs seit September 2024, nachdem rund 2,4 Mrd. $ an Wetten liquidiert worden waren. Um 8 Uhr lag er wieder über 60.000 $.
+og_description: Bitcoin fiel über Nacht auf den tiefsten Kurs seit September 2024 und erholte sich bis Samstagmorgen um mehr als 10 %. Was passiert ist, die Zahlen dahinter und was das für Einsteiger bedeutet.
+label: Markt
+summary: Bitcoin erreichte am Samstag um 0:17 Uhr US-Zentralzeit bei Kraken 55.100 $, den tiefsten Stand seit September 2024, während rund 2,4 Mrd. $ an gehebelten Wetten liquidiert wurden. Um 8:03 Uhr war er auf 60.883 $ gestiegen, 10,5 % über dem Tief.
+===
+
+Bitcoin hatte eine wilde Nacht. Am späten Freitag, dem 20. November, durchbrach der Kurs deutlich das Jahrestief 2026, das er erst wenige Stunden zuvor markiert hatte, und erreichte <strong>am Samstag um 0:17 Uhr US-Zentralzeit</strong> <strong>55.100 $</strong> bei Kraken und 55.106 $ bei Coinbase. Das zeigt die Auswertung der öffentlichen Kursdaten von [Kraken](L1) und [Coinbase](L2) durch PlainBTC. Bei Coinbase war das der tiefste Kurs seit September 2024.
+
+Dann hörte der Ausverkauf auf. Bis Samstag um 8:03 Uhr Zentralzeit war Bitcoin auf beiden Börsen wieder auf 60.883 $ gestiegen, rund 10,5 % über dem nächtlichen Tief, und wenige Minuten später wurde er bei etwa 60.300 $ gehandelt. Am Freitagnachmittag hatten wir berichtet, dass Bitcoin ein [neues Jahrestief 2026 nahe 57.660 $](/articles/bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026) markiert hatte. Der nächtliche Absturz drückte ihn noch rund 2.500 $ tiefer.
+
+!takeaways
+- Bitcoin fiel am 21. November um 0:17 Uhr US-Zentralzeit auf 55.100 $ bei Kraken und 55.106 $ bei Coinbase, den tiefsten Kurs seit September 2024.
+- Rund 2,4 Mrd. $ an gehebelten Krypto-Wetten wurden binnen 24 Stunden liquidiert, davon über 1 Mrd. $ in Bitcoin, laut von CoinDesk zitierten CoinGlass-Daten.
+- Um 8:03 Uhr Zentralzeit stand Bitcoin wieder bei 60.883 $, ein Plus von 10,5 % gegenüber dem Tief. Keine einzelne Nachricht erklärt die Erholung.
+- US-Spot-Bitcoin-ETFs verloren laut den veröffentlichten Daten in dieser Woche 1,25 Mrd. $, wobei die Freitagszahl von BlackRock noch fehlt.
+
+!figure:chart
+
+## So lief der Absturz ab
+
+Den größten Teil des Freitagabends notierte Bitcoin bei etwa 59.000 $. Gegen 21 Uhr Zentralzeit begann er zu rutschen und lag binnen einer Stunde bei Kraken unter 56.500 $. Bei etwa 55.500 $ pausierte der Fall, kurz nach Mitternacht folgte ein letzter Schub nach unten bis zum Tief von 55.100 $. Noch in derselben Stunde schnellte der Kurs auf rund 58.000 $ zurück.
+
+[CoinDesk berichtete](L3) unter Berufung auf CoinGlass, dass Kryptobörsen binnen 24 Stunden gehebelte Futures-Wetten im Wert von rund 2,40 Mrd. $ liquidierten. Mehr als 1 Mrd. $ davon entfiel auf Bitcoin, 545 Mio. $ auf Ether. Die größte einzelne Liquidation war eine Wette über 51,71 Mio. $ auf steigende Bitcoin-Kurse. [Bitcoin.com News](L4), ebenfalls mit CoinGlass-Daten, bezifferte die Summe bis 2:11 Uhr US-Ostküstenzeit auf 2,54 Mrd. $, wobei Wetten auf steigende Kurse 89,4 % ausmachten.
+
+Eine Liquidation passiert, wenn eine Börse die Position eines Händlers mit geliehenem Geld schließt, weil sein Konto die Verluste nicht mehr deckt. In einem schnellen Absturz drücken diese Zwangsverkäufe den Kurs weiter nach unten und lösen weitere Liquidationen aus.
+
+!figure:fact
+
+## Warum die Märkte verkauften
+
+Der Absturz begann nicht im Kryptomarkt. Der Nasdaq Composite fiel am Freitag um 5,3 %, weil sich der Ausverkauf bei KI- und Chipaktien ausweitete. [Investing.com berichtete](L5), dass die Aktie des KI-Entwicklers Anthropic nach dem Börsengang mehr als 14 % verlor und Bitcoin-Miner wie Hut 8, Core Scientific, CleanSpark und Bitdeer mehr als 13 % nachgaben. Als weitere Gründe nannte die Seite steigende inflationsbereinigte Renditen von US-Staatsanleihen und die Erwartung weiterer Zinserhöhungen der Federal Reserve, die Bargeld und Anleihen attraktiver machen als Anlagen wie Bitcoin.
+
+Auch andere Coins fielen stark. Ether sank über Nacht bei Coinbase auf 1.535,37 $, blieb damit aber über seinem Jahrestief 2026 von 1.505,75 $ bei Kraken vom 6. Juni, und lag am Samstagmorgen wieder bei etwa 1.690 $. [Laut CoinDesk](L6) fiel XRP auf den tiefsten Kurs seit November 2024. Bei Kraken erreichte XRP 0,85918 $, bevor es sich auf etwa 0,92 $ erholte.
+
+!mid_cta
+
+## Was die Erholung antrieb
+
+Hinter dem Rebound stand keine große Schlagzeile. Wenn fast alle gehebelten Wetten auf steigende Kurse ausgelöscht sind, bleiben weniger Zwangsverkäufer übrig, und Händler, die auf fallende Kurse gesetzt haben, kaufen oft zurück, um Gewinne mitzunehmen. Das kann die Kurse schnell steigen lassen. Investing.com erinnerte daran, dass der Market Maker Wintermute erklärt hat, Bitcoin müsse wieder über 68.000 $ steigen und es müsse neues Geld in Spot-ETFs fließen, bevor eine dauerhafte Erholung überzeugend wirke. Ein starker Morgen heißt also nicht, dass der Abwärtstrend vorbei ist.
+
+## Weiter Abflüsse aus den ETFs
+
+Große Anleger zogen die ganze Woche über Geld ab. US-Spot-Bitcoin-ETFs verloren von Montag bis Donnerstag netto 1,12 Mrd. $, wie Daten von [Farside Investors](L7) zeigen, davon 582,3 Mio. $ am Donnerstag. Für Freitag wurde ein weiterer Abfluss von 124,5 Mio. $ gemeldet, angeführt von 72,4 Mio. $ aus Fidelitys FBTC, doch die Zahl für BlackRocks IBIT, den größten Fonds, war noch nicht veröffentlicht. Damit summieren sich die Abflüsse der Woche bisher auf rund 1,25 Mrd. $. Spot-Ether-ETFs verloren an denselben fünf Tagen 221,7 Mio. $, so [Farsides Ether-Tabelle](L8).
+
+!figure:etf
+
+Der [Crypto Fear & Greed Index](L9) stand am Samstag bei 12 von 100, was als „extreme Angst“ gilt. Bei Kraken eröffnete Bitcoin den November bei 77.437 $; selbst nach der Erholung vom Samstag liegt er damit im Monat rund 22 % im Minus.
+
+## Was das für Einsteiger bedeutet
+
+Ein Absturz um fast 4.000 $ in wenigen Stunden, gefolgt von einem Sprung um fast 6.000 $, zeigt, wie schnell sich Krypto bewegen kann, besonders wenn viele Händler mit geliehenem Geld arbeiten. Niemand kann verlässlich sagen, ob 55.100 $ der Boden war. Wer einen Kauf erwägt: Viele Einsteiger kaufen in kleinen Beträgen verteilt über Wochen oder Monate statt alles auf einmal, und manche beginnen bei einer großen regulierten Börse wie [Coinbase](REF). Verzichten Sie auf Hebel und investieren Sie nur Geld, dessen Verlust Sie verkraften können. Dies ist keine Anlageberatung.
+
+## Worauf man jetzt achten sollte
+
+- Ob Bitcoin über 60.000 $ bleibt oder wieder Richtung des nächtlichen Tiefs von rund 55.100 $ fällt.
+- Die Freitagszahl von BlackRocks IBIT und die ETF-Flüsse der kommenden Woche.
+- Die Aktienmärkte am Montag und Aussagen der Fed vor der Sitzung am 8. und 9. Dezember.
+
+!soft: Unsicher, ob Sie einen Bitcoin-Fonds oder Bitcoin selbst kaufen sollen? Lesen Sie [Bitcoin-ETF oder Bitcoin kaufen](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

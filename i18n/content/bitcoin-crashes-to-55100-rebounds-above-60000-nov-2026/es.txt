@@ -1,0 +1,65 @@
+title: Bitcoin se desploma hasta 55.100 dólares, su nivel más bajo desde 2024, y luego vuelve a superar los 60.000
+page_title: Bitcoin se desploma hasta 55.100 dólares y vuelve a superar los 60.000
+description: Bitcoin cayó a 55.100 dólares en Kraken poco después de la medianoche del sábado (hora del centro de EE. UU.), su precio más bajo desde septiembre de 2024, tras liquidarse unos 2.400 millones en apuestas. A las 8:00 ya volvía a superar los 60.000.
+og_description: Bitcoin cayó durante la noche a su precio más bajo desde septiembre de 2024 y rebotó más de un 10% el sábado por la mañana. Te contamos qué pasó, las cifras detrás y qué significa para quien empieza.
+label: Mercado
+summary: Bitcoin tocó 55.100 dólares en Kraken a las 0:17, hora del centro de EE. UU., el sábado, su nivel más bajo desde septiembre de 2024, mientras se liquidaban unos 2.400 millones en apuestas apalancadas. A las 8:03 había rebotado a 60.883, un 10,5% por encima del mínimo.
+===
+
+Bitcoin vivió una noche agitada. A última hora del viernes 20 de noviembre, el precio rompió con claridad el mínimo de 2026 que había marcado solo unas horas antes, y <strong>a las 0:17 del sábado, hora del centro de EE. UU.</strong>, tocó <strong>55.100 dólares</strong> en Kraken y 55.106 dólares en Coinbase, según la revisión de PlainBTC de los datos públicos de precios de [Kraken](L1) y [Coinbase](L2). En Coinbase fue el precio más bajo desde septiembre de 2024.
+
+Después, las ventas se detuvieron. A las 8:03 del sábado, hora del centro, bitcoin había vuelto a 60.883 dólares en ambos exchanges, alrededor de un 10,5% por encima del mínimo nocturno, y pocos minutos después cotizaba cerca de 60.300. El viernes por la tarde contamos que bitcoin había marcado un [nuevo mínimo de 2026 cerca de 57.660 dólares](/articles/bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026). La caída nocturna lo llevó unos 2.500 dólares más abajo.
+
+!takeaways
+- Bitcoin cayó a 55.100 dólares en Kraken y 55.106 dólares en Coinbase a las 0:17, hora del centro de EE. UU., el 21 de noviembre, su precio más bajo desde septiembre de 2024.
+- Unos 2.400 millones de dólares en apuestas cripto apalancadas se liquidaron en 24 horas, más de 1.000 millones de ellos en bitcoin, según datos de CoinGlass citados por CoinDesk.
+- A las 8:03, hora del centro, bitcoin estaba de nuevo en 60.883 dólares, un rebote del 10,5% desde el mínimo. Ninguna noticia concreta explicó la subida.
+- Los ETF de bitcoin al contado de EE. UU. perdieron 1.250 millones de dólares esta semana según los datos publicados, todavía sin la cifra del viernes de BlackRock.
+
+!figure:chart
+
+## Cómo fue la caída
+
+Durante casi toda la tarde y noche del viernes, bitcoin cotizó cerca de 59.000 dólares. Hacia las 21:00, hora del centro, empezó a bajar y en menos de una hora estaba por debajo de 56.500 dólares en Kraken. La caída se frenó cerca de 55.500 y luego dio un último empujón a la baja justo después de medianoche, hasta el mínimo de 55.100. En esa misma hora, el precio rebotó con fuerza hasta unos 58.000 dólares.
+
+[CoinDesk informó](L3) de que los exchanges cripto liquidaron unos 2.400 millones de dólares en apuestas apalancadas con futuros en 24 horas, citando a CoinGlass. Más de 1.000 millones correspondieron a bitcoin y 545 millones a ether. La mayor liquidación individual fue una apuesta de 51,71 millones de dólares a que bitcoin subiría. [Bitcoin.com News](L4), también con datos de CoinGlass, situó el total en 2.540 millones de dólares a las 2:11, hora del este de EE. UU., y las apuestas al alza supusieron el 89,4%.
+
+Una liquidación ocurre cuando un exchange cierra la posición de un operador que usa dinero prestado porque ya no tiene fondos suficientes en la cuenta para cubrir las pérdidas. En una caída rápida, esas ventas forzosas empujan el precio aún más abajo y provocan nuevas liquidaciones.
+
+!figure:fact
+
+## Por qué vendían los mercados
+
+La caída no empezó en el mundo cripto. El Nasdaq Composite cayó un 5,3% el viernes, mientras se extendía la venta de acciones de inteligencia artificial y de chips. [Investing.com informó](L5) de que las acciones de la desarrolladora de IA Anthropic cayeron más de un 14% tras su salida a bolsa, y de que mineras de bitcoin como Hut 8, Core Scientific, CleanSpark y Bitdeer bajaron más de un 13%. También señaló la subida de los rendimientos reales de los bonos del Tesoro de EE. UU. y la expectativa de nuevas subidas de tipos de la Reserva Federal, que hacen más atractivos el efectivo y los bonos que activos como bitcoin.
+
+Otras criptomonedas también cayeron con fuerza. Ether bajó a 1.535,37 dólares en Coinbase durante la noche, aún por encima de su mínimo de 2026, 1.505,75 dólares en Kraken el 6 de junio, y el sábado por la mañana volvía a estar cerca de 1.690. [Según CoinDesk](L6), XRP se hundió hasta su precio más bajo desde noviembre de 2024. En Kraken, XRP tocó 0,85918 dólares antes de recuperarse hasta unos 0,92.
+
+!mid_cta
+
+## Qué impulsó el rebote
+
+Detrás del rebote no hubo ningún gran titular. Cuando casi todas las apuestas apalancadas al alza ya se han liquidado, quedan menos vendedores forzosos, y quienes apostaron a la baja suelen recomprar para asegurar ganancias. Eso puede hacer subir el precio rápidamente. Investing.com recordó que el creador de mercado Wintermute ha dicho que bitcoin tendría que volver por encima de 68.000 dólares, junto con nuevas entradas de dinero en los ETF al contado, para que una recuperación duradera resulte convincente. Es decir, una buena mañana no significa que la caída haya terminado.
+
+## El dinero sigue saliendo de los ETF
+
+Los grandes inversores llevan toda la semana retirándose. Los ETF de bitcoin al contado de EE. UU. perdieron en neto 1.120 millones de dólares de lunes a jueves, según [Farside Investors](L7), incluidos 582,3 millones el jueves. El viernes se publicó otra salida de 124,5 millones, encabezada por los 72,4 millones del FBTC de Fidelity, pero aún faltaba la cifra del IBIT de BlackRock, el fondo más grande. Eso suma unos 1.250 millones de salidas en lo que va de semana. Los ETF de ether al contado perdieron 221,7 millones en los mismos cinco días, según [la tabla de ether de Farside](L8).
+
+!figure:etf
+
+El [índice de miedo y codicia cripto](L9) marcaba 12 sobre 100 el sábado, lo que equivale a "miedo extremo". En Kraken, bitcoin abrió noviembre en 77.437 dólares, así que incluso después del rebote del sábado acumula una caída de alrededor del 22% en el mes.
+
+## Qué significa para principiantes
+
+Una caída de casi 4.000 dólares en pocas horas, seguida de una subida de casi 6.000, muestra lo rápido que puede moverse el mercado cripto, sobre todo cuando muchos operadores usan dinero prestado. Nadie puede decir con certeza si 55.100 dólares fue el suelo. Si estás pensando en comprar, muchos principiantes hacen compras pequeñas repartidas a lo largo de semanas o meses en lugar de comprarlo todo de una vez, y algunos empiezan en un exchange grande y regulado como [Coinbase](REF). Evita el apalancamiento e invierte solo dinero que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Si bitcoin se mantiene por encima de 60.000 dólares o vuelve hacia el mínimo nocturno de unos 55.100.
+- La cifra del viernes del IBIT de BlackRock y los flujos de los ETF de la próxima semana.
+- Las bolsas el lunes y los comentarios de la Fed antes de la reunión del 8 y 9 de diciembre.
+
+!soft: ¿No sabes si comprar un fondo de bitcoin o bitcoin directamente? Lee [ETF de bitcoin o comprar bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

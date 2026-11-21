@@ -1,0 +1,65 @@
+title: Bitcoin 55.100 $'a çakıldı, 2024'ten bu yana en düşük seviye, ardından yeniden 60.000 $'ın üzerine çıktı
+page_title: Bitcoin 55.100 $'a çakıldı, ardından yeniden 60.000 $'ı aştı
+description: Bitcoin cumartesi gece yarısından hemen sonra (ABD Merkez saati) Kraken'de 55.100 $'a düşerek Eylül 2024'ten bu yana en düşük fiyatı gördü; bu sırada yaklaşık 2,4 milyar $'lık pozisyon tasfiye edildi. Saat 08.00'de yeniden 60.000 $'ın üzerindeydi.
+og_description: Bitcoin gece boyunca Eylül 2024'ten bu yana en düşük fiyatına geriledi, ardından cumartesi sabahına kadar %10'dan fazla toparlandı. Neler olduğunu, arkasındaki rakamları ve yeni başlayanlar için ne anlama geldiğini anlatıyoruz.
+label: Piyasa
+summary: Bitcoin cumartesi ABD Merkez saatiyle 00.17'de Kraken'de 55.100 $'a inerek Eylül 2024'ten bu yana en düşük seviyeyi gördü; bu sırada yaklaşık 2,4 milyar $'lık kaldıraçlı pozisyon tasfiye edildi. Saat 08.03'te 60.883 $'a, yani dibin %10,5 üzerine çıkmıştı.
+===
+
+Bitcoin çalkantılı bir gece geçirdi. 20 Kasım cuma gecesi geç saatlerde fiyat, yalnızca birkaç saat önce gördüğü 2026 dibini açık ara kırdı ve <strong>cumartesi ABD Merkez saatiyle 00.17'de</strong> Kraken'de <strong>55.100 $</strong>, Coinbase'de 55.106 $ seviyesine indi. Bu rakamlar PlainBTC'nin [Kraken](L1) ve [Coinbase](L2) kamuya açık fiyat verilerini incelemesine dayanıyor. Coinbase'de bu, Eylül 2024'ten bu yana en düşük fiyattı.
+
+Sonra satışlar durdu. Cumartesi Merkez saatiyle 08.03'e gelindiğinde bitcoin iki borsada da 60.883 $'a dönmüştü; bu, gece görülen dibin yaklaşık %10,5 üzerinde. Birkaç dakika sonra da 60.300 $ civarında işlem görüyordu. Cuma öğleden sonra bitcoin'in [57.660 $ civarında yeni bir 2026 dibi](/articles/bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026) yaptığını yazmıştık. Gece yaşanan düşüş onu bunun yaklaşık 2.500 $ altına indirdi.
+
+!takeaways
+- Bitcoin 21 Kasım'da ABD Merkez saatiyle 00.17'de Kraken'de 55.100 $'a, Coinbase'de 55.106 $'a düştü; bu, Eylül 2024'ten bu yana en düşük fiyat.
+- CoinDesk'in aktardığı CoinGlass verilerine göre 24 saatte yaklaşık 2,4 milyar $'lık kaldıraçlı kripto pozisyonu tasfiye edildi; bunun 1 milyar $'dan fazlası bitcoin'deydi.
+- Merkez saatiyle 08.03'te bitcoin yeniden 60.883 $'daydı; bu, dipten %10,5'lik bir sıçrama. Toparlanmayı açıklayan tek bir haber yoktu.
+- ABD spot bitcoin ETF'leri, yayımlanan verilere göre bu hafta 1,25 milyar $ kaybetti; BlackRock'ın cuma verisi henüz yok.
+
+!figure:chart
+
+## Düşüş nasıl yaşandı
+
+Cuma akşamının büyük bölümünde bitcoin 59.000 $ civarında işlem gördü. Merkez saatiyle 21.00 civarında kaymaya başladı ve bir saat içinde Kraken'de 56.500 $'ın altına indi. Düşüş 55.500 $ civarında bir süre durdu, ardından gece yarısından hemen sonra son bir hamleyle 55.100 $'lık dibe kadar indi. Aynı saat içinde fiyat sert biçimde yaklaşık 58.000 $'a geri sıçradı.
+
+[CoinDesk](L3), CoinGlass verilerine dayanarak kripto borsalarının 24 saatte yaklaşık 2,40 milyar $'lık kaldıraçlı vadeli pozisyonu tasfiye ettiğini bildirdi. Bunun 1 milyar $'dan fazlası bitcoin'de, 545 milyon $'ı ether'deydi. Tek seferdeki en büyük tasfiye, bitcoin'in yükseleceğine dair 51,71 milyon $'lık bir pozisyondu. Yine CoinGlass verilerini kullanan [Bitcoin.com News](L4), ABD Doğu saatiyle 02.11 itibarıyla toplamı 2,54 milyar $ olarak verdi; bunun %89,4'ü yükseliş yönlü pozisyonlardı.
+
+Tasfiye, borç parayla işlem yapan bir yatırımcının hesabında zararları karşılayacak kadar para kalmadığında borsanın pozisyonu kapatmasıdır. Hızlı bir düşüşte bu zorunlu satışlar fiyatı daha da aşağı iter ve yeni tasfiyeleri tetikler.
+
+!figure:fact
+
+## Piyasalar neden satıyordu
+
+Düşüş kripto dünyasında başlamadı. Yapay zekâ ve çip hisselerindeki satış yayılırken Nasdaq Composite cuma günü %5,3 düştü. [Investing.com](L5), yapay zekâ şirketi Anthropic'in hisselerinin borsaya açılışın ardından %14'ten fazla düştüğünü, Hut 8, Core Scientific, CleanSpark ve Bitdeer gibi bitcoin madencilerinin de %13'ten fazla gerilediğini bildirdi. Site ayrıca ABD Hazine tahvillerinin enflasyondan arındırılmış getirilerindeki artışa ve Fed'in faizi yeniden artıracağı beklentisine dikkat çekti; bu durum nakit ve tahvilleri bitcoin gibi varlıklardan daha cazip hale getiriyor.
+
+Diğer coinler de sert düştü. Ether gece Coinbase'de 1.535,37 $'a geriledi; bu, Kraken'de 6 Haziran'da görülen 1.505,75 $'lık 2026 dibinin hâlâ üzerinde. Cumartesi sabahı yeniden 1.690 $ civarındaydı. [CoinDesk'e göre](L6) XRP, Kasım 2024'ten bu yana en düşük fiyatına geriledi. Kraken'de XRP 0,85918 $'ı gördükten sonra yaklaşık 0,92 $'a toparlandı.
+
+!mid_cta
+
+## Toparlanmayı ne tetikledi
+
+Sıçramanın arkasında büyük bir haber yoktu. Yükseliş yönlü kaldıraçlı pozisyonların neredeyse tamamı silindiğinde zorunlu satıcı sayısı azalır, düşüşe oynayanlar da kârlarını almak için çoğu zaman geri alım yapar. Bu, fiyatı hızla yukarı taşıyabilir. Investing.com, piyasa yapıcı Wintermute'un kalıcı bir toparlanmanın ikna edici görünmesi için bitcoin'in yeniden 68.000 $'ın üzerine çıkması ve spot ETF'lere yeni para girmesi gerektiğini söylediğini hatırlattı. Yani güçlü bir sabah, düşüşün bittiği anlamına gelmiyor.
+
+## ETF'lerden çıkış sürüyor
+
+Büyük yatırımcılar bütün hafta para çekti. [Farside Investors](L7) verilerine göre ABD spot bitcoin ETF'leri pazartesiden perşembeye net 1,12 milyar $ kaybetti; bunun 582,3 milyon $'ı perşembe günüydü. Cuma için 124,5 milyon $'lık yeni bir çıkış açıklandı; başı Fidelity'nin FBTC fonundan çıkan 72,4 milyon $ çekti, ancak en büyük fon olan BlackRock'ın IBIT verisi henüz yayımlanmamıştı. Böylece haftalık çıkış şimdilik yaklaşık 1,25 milyar $. [Farside'ın ether tablosuna](L8) göre spot ether ETF'leri aynı beş günde 221,7 milyon $ kaybetti.
+
+!figure:etf
+
+[Kripto Korku ve Açgözlülük Endeksi](L9) cumartesi günü 100 üzerinden 12'deydi; bu "aşırı korku" anlamına geliyor. Kraken'de bitcoin kasıma 77.437 $'dan başladı; yani cumartesi günkü toparlanmaya rağmen ay başından beri yaklaşık %22 düşüşte.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Birkaç saatte yaklaşık 4.000 $'lık düşüş ve ardından yaklaşık 6.000 $'lık sıçrama, özellikle birçok yatırımcı borç parayla işlem yaptığında kripto piyasasının ne kadar hızlı hareket edebildiğini gösteriyor. 55.100 $'ın dip olup olmadığını kimse kesin olarak söyleyemez. Almayı düşünüyorsanız, yeni başlayanların çoğu tek seferde almak yerine haftalara ya da aylara yayılan küçük alımlar yapıyor; bazıları da [Coinbase](REF) gibi büyük ve düzenlemeye tabi bir borsada başlıyor. Kaldıraçtan kaçının ve yalnızca kaybetmeyi göze alabileceğiniz parayı yatırın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Bitcoin'in 60.000 $'ın üzerinde kalıp kalmayacağı ya da gece görülen yaklaşık 55.100 $'lık dibe doğru geri çekilip çekilmeyeceği.
+- BlackRock'ın IBIT fonunun cuma verisi ve gelecek haftanın ETF akışları.
+- Pazartesi günü borsalar ve 8-9 Aralık toplantısı öncesinde Fed'den gelecek açıklamalar.
+
+!soft: Bitcoin fonu mu yoksa doğrudan bitcoin mi alacağınızdan emin değil misiniz? [Bitcoin ETF mi, bitcoin almak mı](/articles/bitcoin-etf-vs-buying-bitcoin) yazımızı okuyun
+
+!end_cta
+
+!disclosure

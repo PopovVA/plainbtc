@@ -1,0 +1,65 @@
+title: Bitcoin anjlok ke US$55.100, terendah sejak 2024, lalu melonjak lagi di atas US$60.000
+page_title: Bitcoin anjlok ke US$55.100, lalu kembali di atas US$60.000
+description: Bitcoin turun ke US$55.100 di Kraken sesaat setelah tengah malam Sabtu waktu Tengah AS, harga terendah sejak September 2024, setelah sekitar US$2,4 miliar taruhan dilikuidasi. Pada pukul 08.00, harganya sudah kembali di atas US$60.000.
+og_description: Bitcoin jatuh semalam ke harga terendah sejak September 2024, lalu memantul lebih dari 10% pada Sabtu pagi. Inilah yang terjadi, angka-angka di baliknya, dan artinya bagi pemula.
+label: Pasar
+summary: Bitcoin menyentuh US$55.100 di Kraken pada pukul 00.17 waktu Tengah AS hari Sabtu, terendah sejak September 2024, saat sekitar US$2,4 miliar taruhan berleverage dilikuidasi. Pada pukul 08.03, harganya memantul ke US$60.883, naik 10,5% dari titik terendah.
+===
+
+Bitcoin melewati malam yang liar. Jumat larut malam, 20 November, harga menembus jauh di bawah level terendah 2026 yang baru tercipta beberapa jam sebelumnya, dan <strong>pada pukul 00.17 waktu Tengah AS hari Sabtu</strong> menyentuh <strong>US$55.100</strong> di Kraken dan US$55.106 di Coinbase, menurut pengecekan PlainBTC atas data harga publik dari [Kraken](L1) dan [Coinbase](L2). Di Coinbase, itu adalah harga terendah sejak September 2024.
+
+Lalu aksi jual berhenti. Pada pukul 08.03 waktu Tengah hari Sabtu, bitcoin sudah kembali ke US$60.883 di kedua bursa, sekitar 10,5% di atas titik terendah semalam, dan beberapa menit kemudian diperdagangkan di sekitar US$60.300. Jumat sore kami melaporkan bahwa bitcoin mencetak [level terendah baru 2026 di dekat US$57.660](/articles/bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026). Kejatuhan semalam membawanya sekitar US$2.500 lebih rendah dari itu.
+
+!takeaways
+- Bitcoin turun ke US$55.100 di Kraken dan US$55.106 di Coinbase pada pukul 00.17 waktu Tengah AS tanggal 21 November, harga terendah sejak September 2024.
+- Sekitar US$2,4 miliar taruhan kripto berleverage dilikuidasi dalam 24 jam, lebih dari US$1 miliar di antaranya pada bitcoin, menurut data CoinGlass yang dikutip CoinDesk.
+- Pada pukul 08.03 waktu Tengah, bitcoin kembali ke US$60.883, pantulan 10,5% dari titik terendah. Tidak ada satu berita pun yang menjelaskan kenaikan ini.
+- ETF bitcoin spot AS kehilangan US$1,25 miliar pekan ini menurut data yang sudah dirilis, sementara angka Jumat dari BlackRock belum ada.
+
+!figure:chart
+
+## Bagaimana kejatuhan terjadi
+
+Hampir sepanjang Jumat malam, bitcoin diperdagangkan di sekitar US$59.000. Sekitar pukul 21.00 waktu Tengah, harganya mulai merosot, dan dalam satu jam sudah di bawah US$56.500 di Kraken. Penurunan sempat tertahan di dekat US$55.500, lalu terjadi satu dorongan turun terakhir sesaat setelah tengah malam hingga titik terendah US$55.100. Dalam jam yang sama, harga melonjak kembali ke sekitar US$58.000.
+
+[CoinDesk melaporkan](L3), mengutip CoinGlass, bahwa bursa kripto melikuidasi sekitar US$2,40 miliar taruhan berjangka berleverage dalam 24 jam. Lebih dari US$1 miliar di antaranya pada bitcoin dan US$545 juta pada ether. Likuidasi tunggal terbesar adalah taruhan senilai US$51,71 juta bahwa bitcoin akan naik. [Bitcoin.com News](L4), juga mengutip CoinGlass, mencatat totalnya US$2,54 miliar hingga pukul 02.11 waktu Timur AS, dengan taruhan harga naik mencakup 89,4%.
+
+Likuidasi terjadi ketika bursa menutup posisi trader yang memakai uang pinjaman karena saldo di akunnya tidak lagi cukup untuk menutup kerugian. Dalam penurunan cepat, penjualan paksa ini mendorong harga makin turun dan memicu likuidasi berikutnya.
+
+!figure:fact
+
+## Mengapa pasar menjual
+
+Kejatuhan ini tidak bermula dari dunia kripto. Nasdaq Composite turun 5,3% pada hari Jumat karena aksi jual saham kecerdasan buatan dan cip meluas. [Investing.com melaporkan](L5) bahwa saham pengembang AI Anthropic turun lebih dari 14% setelah melantai di bursa, dan penambang bitcoin seperti Hut 8, Core Scientific, CleanSpark, dan Bitdeer turun lebih dari 13%. Situs itu juga menyoroti naiknya imbal hasil riil obligasi Treasury AS dan ekspektasi kenaikan suku bunga lanjutan oleh Federal Reserve, yang membuat uang tunai dan obligasi lebih menarik dibanding aset seperti bitcoin.
+
+Koin lain juga jatuh tajam. Ether turun ke US$1.535,37 di Coinbase semalam, masih di atas level terendah 2026-nya, US$1.505,75 di Kraken pada 6 Juni, dan kembali ke sekitar US$1.690 pada Sabtu pagi. [Menurut CoinDesk](L6), XRP merosot ke harga terendah sejak November 2024. Di Kraken, XRP menyentuh US$0,85918 sebelum pulih ke sekitar US$0,92.
+
+!mid_cta
+
+## Apa yang mendorong pantulan
+
+Tidak ada berita besar di balik pantulan ini. Ketika hampir semua taruhan berleverage untuk harga naik sudah tersapu, penjual paksa yang tersisa makin sedikit, dan trader yang bertaruh harga turun sering membeli kembali untuk mengunci keuntungan. Itu bisa mengangkat harga dengan cepat. Investing.com mencatat bahwa market maker Wintermute pernah mengatakan bitcoin perlu kembali di atas US$68.000, disertai aliran dana baru ke ETF spot, sebelum pemulihan yang bertahan lama terlihat meyakinkan. Dengan kata lain, satu pagi yang kuat tidak berarti penurunan sudah selesai.
+
+## Dana masih keluar dari ETF
+
+Investor besar terus menarik dana sepanjang pekan. ETF bitcoin spot AS kehilangan dana bersih US$1,12 miliar dari Senin hingga Kamis, menurut [Farside Investors](L7), termasuk US$582,3 juta pada hari Kamis. Untuk Jumat dilaporkan arus keluar lagi sebesar US$124,5 juta, dipimpin US$72,4 juta dari FBTC milik Fidelity, tetapi angka IBIT milik BlackRock, dana terbesar, belum dirilis. Totalnya sekitar US$1,25 miliar keluar sepanjang pekan sejauh ini. ETF ether spot kehilangan US$221,7 juta dalam lima hari yang sama, menurut [tabel ether Farside](L8).
+
+!figure:etf
+
+[Crypto Fear & Greed Index](L9) berada di angka 12 dari 100 pada hari Sabtu, yang tergolong "ketakutan ekstrem". Di Kraken, bitcoin membuka November di US$77.437, jadi bahkan setelah pantulan Sabtu, harganya turun sekitar 22% bulan ini.
+
+## Artinya bagi pemula
+
+Penurunan hampir US$4.000 dalam beberapa jam, disusul lonjakan hampir US$6.000, menunjukkan betapa cepat kripto bisa bergerak, terutama ketika banyak trader memakai uang pinjaman. Tidak ada yang bisa memastikan apakah US$55.100 adalah titik terendah. Jika Anda berencana membeli, banyak pemula melakukan pembelian kecil yang dicicil selama berminggu-minggu atau berbulan-bulan alih-alih membeli sekaligus, dan sebagian memulai di bursa besar yang teregulasi seperti [Coinbase](REF). Hindari leverage dan hanya investasikan uang yang sanggup Anda relakan. Ini bukan saran investasi.
+
+## Yang perlu dipantau
+
+- Apakah bitcoin bertahan di atas US$60.000 atau kembali turun ke arah titik terendah semalam di sekitar US$55.100.
+- Angka Jumat untuk IBIT BlackRock dan arus dana ETF pekan depan.
+- Pasar saham pada hari Senin dan komentar The Fed menjelang rapat 8-9 Desember.
+
+!soft: Bingung memilih antara dana bitcoin atau bitcoin langsung? Baca [ETF bitcoin vs. membeli bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

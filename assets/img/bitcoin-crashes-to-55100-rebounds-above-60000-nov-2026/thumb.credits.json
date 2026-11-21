@@ -1,0 +1,21 @@
+{
+  "kind": "chart",
+  "sources": [
+    {
+      "file": "Kraken OHLC XBTUSD interval=15 and interval=1",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "BTC/USD 15-minute closes Nov 20-21, 2026, the 12:17 a.m. CST low and 8:03 a.m. CST high, from Kraken"
+    }
+  ],
+  "slug": "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026",
+  "generated": "2026-11-21T14:14Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}
