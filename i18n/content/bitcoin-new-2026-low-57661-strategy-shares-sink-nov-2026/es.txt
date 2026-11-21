@@ -1,0 +1,61 @@
+title: Bitcoin marca brevemente un nuevo mínimo de 2026 cerca de 57.660 dólares y las acciones de Strategy se hunden casi un 10%
+page_title: Bitcoin marca un nuevo mínimo de 2026 cerca de 57.660 dólares
+description: Bitcoin tocó 57.661 dólares en Kraken y 57.655 en Coinbase el viernes, justo por debajo de sus mínimos del 1 de julio, antes de rebotar a unos 58.800. Strategy cayó un 9,7% y el Nasdaq un 5,3%.
+og_description: Bitcoin bajó de su mínimo de julio en Kraken y Coinbase el viernes por la tarde, por menos de 100 dólares, y luego rebotó. Las acciones de Strategy se hundieron un 9,7% en un día malo para la bolsa. Te contamos qué pasó, en palabras sencillas.
+label: Mercado
+summary: Bitcoin tocó 57.661 dólares en Kraken a las 13:26, hora del centro de EE. UU., el viernes, un nuevo mínimo de 2026 por menos de 100 dólares, antes de rebotar a unos 58.800. Strategy cayó un 9,7% hasta 77,80 dólares y el Nasdaq un 5,3%.
+===
+
+Bitcoin cayó a un nuevo mínimo de 2026 el viernes 20 de noviembre por la tarde, antes de que los compradores lo hicieran subir de nuevo. A las 13:26, hora del centro de EE. UU., el precio tocó <strong>57.661,10 dólares</strong> en Kraken y 57.655,17 dólares en Coinbase, según la revisión de PlainBTC de los datos públicos de precios de [Kraken](L1) y [Coinbase](L2). Ambos quedaron por debajo de los mínimos anteriores de 2026, marcados el 1 de julio: 57.740 dólares en Kraken y 57.717,55 dólares en Coinbase.
+
+La ruptura fue pequeña y breve. En Kraken, el mínimo del viernes quedó 78,90 dólares, alrededor de un 0,14%, por debajo de la marca de julio. Hacia las 18:00, hora del centro, bitcoin volvía a estar cerca de 58.800 dólares, aún con una caída de alrededor del 5% en el día. Más temprano el viernes contamos que bitcoin había [caído por debajo de 59.000 dólares](/articles/bitcoin-below-59000-near-2026-low-liquidations-nov-2026) y se acercaba a este nivel.
+
+!takeaways
+- Bitcoin tocó 57.661,10 dólares en Kraken y 57.655,17 dólares en Coinbase a las 13:26, hora del centro de EE. UU., el 20 de noviembre, por debajo de los mínimos del 1 de julio en ambos exchanges.
+- Rebotó a unos 58.800 dólares al caer la tarde, aún con una caída de alrededor del 5% en el día y de alrededor del 24% desde el 1 de noviembre en Kraken.
+- Las acciones de Strategy (MSTR) cayeron un 9,7% hasta 77,80 dólares. La empresa tiene 850.849 bitcoins comprados a un promedio de 75.452 dólares cada uno.
+- El Nasdaq Composite cayó un 5,3% y el S&P 500 un 3,7% mientras se extendía la venta de acciones de IA y tecnología.
+
+!figure:chart
+
+## Por qué algunos sitios siguen mostrando el mínimo de julio
+
+No todas las fuentes de precios coinciden. Yahoo Finance [informó](L3) un mínimo del viernes de 57.957 dólares, y CoinDesk [describió](L4) el mínimo del verano como de unos 57.700 dólares. Bitcoin cotiza en muchos exchanges a la vez y cada sitio de datos arma sus cifras con fuentes distintas, así que los precios pueden diferir en decenas o incluso cientos de dólares en el mismo momento. Que el viernes cuente como un "nuevo mínimo" depende de dónde mires. En los dos grandes exchanges estadounidenses que revisamos, sí lo fue, por menos de 100 dólares.
+
+!figure:compare
+
+## Un viernes duro en todos los mercados
+
+La cripto no estuvo sola. El Nasdaq Composite cerró en 22.617,73 puntos, con una caída del 5,3%, y el S&P 500 cerró en 6.910,39, con una baja del 3,7%, según [datos de Yahoo Finance](L5). CoinDesk informó que las acciones de Anthropic, que salió a bolsa el jueves, y las de chips encabezaron las ventas, y que se liquidaron unos 1.500 millones de dólares en apuestas cripto apalancadas en 24 horas, citando a CoinGlass.
+
+Ether llegó a caer hasta 1.577,65 dólares en Kraken el viernes y cerró el día con una baja de alrededor del 8%. Aun así sigue por encima de su propio mínimo de 2026, 1.505,75 dólares del 6 de junio. Yahoo Finance dijo que bitcoin va camino de su peor mes desde junio de 2022. En Kraken, bitcoin abrió noviembre en 77.437 dólares, así que acumula una caída de alrededor del 24% este mes.
+
+!mid_cta
+
+## Golpe para las acciones de Strategy
+
+Strategy, la empresa dirigida por Michael Saylor y la mayor tenedora corporativa de bitcoin, también tuvo un mal día. Su acción cayó un 9,7% el viernes y cerró en 77,80 dólares, según datos de Yahoo Finance. Las acciones han cerrado a la baja todos los días desde el lunes, cuando terminaron en 103,03 dólares.
+
+En un [documento](L6) presentado el lunes, Strategy dijo que tenía 850.849 bitcoins, comprados por unos 64.200 millones de dólares, un promedio de 75.452 dólares por moneda. El propio [panel](L7) de la empresa valoraba esas monedas en unos 50.000 millones de dólares el viernes por la tarde, unos 14.000 millones menos de lo que pagó. El mismo panel situaba el mNAV de Strategy, un indicador que compara el valor empresarial de la compañía con el valor de sus bitcoins, en alrededor de 0,96. Una cifra por debajo de 1 significa que los inversores valoran toda la empresa en menos que sus bitcoins.
+
+!figure:mstr
+
+## El dinero sigue saliendo de los ETF
+
+Los grandes fondos siguen retirándose. Los ETF de bitcoin al contado de EE. UU. perdieron en neto 1.120 millones de dólares de lunes a jueves esta semana, según [Farside Investors](L8), incluidos 582,3 millones solo el jueves. Los datos parciales del viernes mostraban otros 50,4 millones en salidas, aún sin las cifras de los fondos de BlackRock y Fidelity. Yahoo Finance situó las salidas de noviembre en unos 3.500 millones de dólares hasta ahora. El [índice Crypto Fear & Greed](L9) estaba en 12 sobre 100, en "miedo extremo".
+
+## Qué significa para los principiantes
+
+Un "nuevo mínimo anual" da titulares, pero el viernes la diferencia fue de menos de 100 dólares y el precio rebotó en pocas horas. Nadie puede decir con seguridad si esto es un suelo o un paso hacia precios más bajos. Si estás pensando en comprar, muchos principiantes hacen compras pequeñas repartidas en semanas o meses en lugar de comprar todo de una vez, y algunos empiezan en un exchange grande y regulado como [Coinbase](REF). Evita pedir prestado para comprar e invierte solo dinero que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Si bitcoin se mantiene por encima del mínimo del viernes, unos 57.660 dólares, o vuelve a superar los 60.000.
+- Las cifras completas de flujos de ETF del viernes y los flujos de la próxima semana.
+- El precio de la acción y el mNAV de Strategy, y los discursos de la Fed antes de la reunión del 8 y 9 de diciembre.
+
+!soft: ¿No sabes si comprar un fondo de bitcoin o bitcoin directamente? Lee [ETF de bitcoin o comprar bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

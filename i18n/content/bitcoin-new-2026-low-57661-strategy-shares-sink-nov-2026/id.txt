@@ -1,0 +1,61 @@
+title: Bitcoin sempat mencetak level terendah baru 2026 di dekat US$57.660, saham Strategy anjlok hampir 10%
+page_title: Bitcoin cetak level terendah baru 2026 di dekat US$57.660
+description: Bitcoin menyentuh US$57.661 di Kraken dan US$57.655 di Coinbase pada Jumat, sedikit di bawah level terendah 1 Juli, lalu memantul ke sekitar US$58.800. Strategy turun 9,7% dan Nasdaq 5,3%.
+og_description: Bitcoin menembus level terendah Juli di Kraken dan Coinbase pada Jumat sore, dengan selisih kurang dari US$100, lalu memantul. Saham Strategy anjlok 9,7% di hari yang berat bagi bursa. Ini yang terjadi, dalam bahasa sederhana.
+label: Pasar
+summary: Bitcoin menyentuh US$57.661 di Kraken pukul 13.26 waktu Tengah AS pada Jumat, level terendah baru 2026 dengan selisih kurang dari US$100, sebelum memantul ke sekitar US$58.800. Strategy turun 9,7% ke US$77,80 dan Nasdaq turun 5,3%.
+===
+
+Bitcoin turun ke level terendah baru untuk 2026 pada Jumat sore, 20 November, sebelum pembeli kembali mendorong harganya naik. Pada pukul 13.26 waktu Tengah AS, harga menyentuh <strong>US$57.661,10</strong> di Kraken dan US$57.655,17 di Coinbase, menurut pengecekan PlainBTC atas data harga publik dari [Kraken](L1) dan [Coinbase](L2). Keduanya berada di bawah level terendah 2026 sebelumnya yang tercatat pada 1 Juli: US$57.740 di Kraken dan US$57.717,55 di Coinbase.
+
+Penembusannya kecil dan singkat. Di Kraken, level terendah Jumat berada US$78,90, atau sekitar 0,14%, di bawah level Juli. Sekitar pukul 18.00 waktu Tengah, bitcoin sudah kembali ke dekat US$58.800, meski masih turun sekitar 5% dalam sehari. Pada Jumat pagi kami melaporkan bahwa bitcoin telah [turun di bawah US$59.000](/articles/bitcoin-below-59000-near-2026-low-liquidations-nov-2026) dan mendekati level ini.
+
+!takeaways
+- Bitcoin menyentuh US$57.661,10 di Kraken dan US$57.655,17 di Coinbase pukul 13.26 waktu Tengah AS pada 20 November, di bawah level terendah 1 Juli di kedua bursa.
+- Harganya memantul ke sekitar US$58.800 menjelang malam, tetapi masih turun sekitar 5% dalam sehari dan sekitar 24% sejak 1 November di Kraken.
+- Saham Strategy (MSTR) turun 9,7% ke US$77,80. Perusahaan ini memegang 850.849 bitcoin yang dibeli dengan harga rata-rata US$75.452 per koin.
+- Nasdaq Composite turun 5,3% dan S&P 500 turun 3,7% seiring meluasnya aksi jual saham AI dan teknologi.
+
+!figure:chart
+
+## Mengapa sebagian situs masih menunjukkan level terendah Juli
+
+Tidak semua sumber harga sepakat. Yahoo Finance [melaporkan](L3) level terendah Jumat di US$57.957, dan CoinDesk [menyebut](L4) level terendah musim panas sekitar US$57.700. Bitcoin diperdagangkan di banyak bursa sekaligus, dan setiap situs data menyusun angkanya dari sumber berbeda, sehingga harga bisa berbeda puluhan bahkan ratusan dolar pada saat yang sama. Apakah Jumat terhitung sebagai "level terendah baru" tergantung di mana Anda melihat. Di dua bursa besar AS yang kami periksa, jawabannya ya, dengan selisih kurang dari US$100.
+
+!figure:compare
+
+## Jumat yang berat di semua pasar
+
+Kripto tidak sendirian. Nasdaq Composite ditutup di 22.617,73, turun 5,3%, dan S&P 500 ditutup di 6.910,39, turun 3,7%, menurut [data Yahoo Finance](L5). CoinDesk melaporkan bahwa saham Anthropic, yang melantai di bursa pada Kamis, dan saham cip memimpin aksi jual, serta sekitar US$1,5 miliar taruhan kripto berleverage dilikuidasi dalam 24 jam, mengutip CoinGlass.
+
+Ether sempat turun ke US$1.577,65 di Kraken pada Jumat dan menutup hari dengan penurunan sekitar 8%. Namun, harganya masih di atas level terendahnya sendiri pada 2026, yaitu US$1.505,75 pada 6 Juni. Yahoo Finance menyebut bitcoin sedang menuju bulan terburuknya sejak Juni 2022. Di Kraken, bitcoin membuka November di US$77.437, sehingga sudah turun sekitar 24% bulan ini.
+
+!mid_cta
+
+## Saham Strategy ikut terpukul
+
+Strategy, perusahaan yang dipimpin Michael Saylor dan pemegang bitcoin terbesar di antara perusahaan, juga mengalami hari yang buruk. Sahamnya turun 9,7% pada Jumat dan ditutup di US$77,80, menurut data Yahoo Finance. Saham ini ditutup melemah setiap hari sejak Senin, ketika berakhir di US$103,03.
+
+Dalam [laporan resmi](L6) pada Senin, Strategy menyatakan memegang 850.849 bitcoin yang dibeli seharga sekitar US$64,20 miliar, atau rata-rata US$75.452 per koin. [Dasbor](L7) milik perusahaan menilai koin-koin itu sekitar US$50,0 miliar pada Jumat malam, sekitar US$14 miliar lebih rendah dari harga belinya. Dasbor yang sama menunjukkan mNAV Strategy, rasio yang membandingkan nilai perusahaan (enterprise value) dengan nilai bitcoin yang dimilikinya, di sekitar 0,96. Angka di bawah 1 berarti investor menilai seluruh perusahaan lebih rendah daripada bitcoin miliknya.
+
+!figure:mstr
+
+## Dana terus keluar dari ETF
+
+Dana-dana besar masih menarik diri. ETF bitcoin spot AS mencatat arus keluar bersih US$1,12 miliar dari Senin hingga Kamis pekan ini, menurut [Farside Investors](L8), termasuk US$582,3 juta pada Kamis saja. Data sementara untuk Jumat menunjukkan arus keluar tambahan US$50,4 juta, sementara angka dana BlackRock dan Fidelity belum dilaporkan. Yahoo Finance memperkirakan arus keluar November sejauh ini sekitar US$3,5 miliar. [Indeks Crypto Fear & Greed](L9) berada di 12 dari 100, di zona "ketakutan ekstrem".
+
+## Artinya bagi pemula
+
+"Level terendah baru tahun ini" memang jadi berita utama, tetapi pada Jumat selisihnya kurang dari US$100, dan harga memantul dalam beberapa jam. Tidak ada yang bisa memastikan apakah ini dasar harga atau langkah menuju harga yang lebih rendah. Jika Anda berpikir untuk membeli, banyak pemula melakukan pembelian kecil yang dibagi selama beberapa minggu atau bulan alih-alih membeli sekaligus, dan sebagian memulai di bursa besar yang teregulasi seperti [Coinbase](REF). Hindari berutang untuk membeli, dan investasikan hanya uang yang sanggup Anda relakan hilang. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Apakah bitcoin bertahan di atas level terendah Jumat di sekitar US$57.660 atau kembali naik di atas US$60.000.
+- Data lengkap arus dana ETF untuk Jumat dan arus pekan depan.
+- Harga saham dan mNAV Strategy, serta pidato pejabat Fed menjelang rapat 8-9 Desember.
+
+!soft: Bingung memilih reksa dana bitcoin atau bitcoin langsung? Baca [ETF bitcoin vs membeli bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

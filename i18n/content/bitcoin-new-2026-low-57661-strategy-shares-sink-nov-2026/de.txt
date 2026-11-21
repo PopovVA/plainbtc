@@ -1,0 +1,61 @@
+title: Bitcoin markiert kurz ein neues Jahrestief 2026 bei rund 57.660 $, Strategy-Aktie sackt fast 10 % ab
+page_title: Bitcoin markiert neues Jahrestief 2026 bei rund 57.660 $
+description: Bitcoin fiel am Freitag bei Kraken auf 57.661 $ und bei Coinbase auf 57.655 $, knapp unter die Tiefs vom 1. Juli, und erholte sich dann auf rund 58.800 $. Strategy verlor 9,7 %, der Nasdaq 5,3 %.
+og_description: Bitcoin rutschte am Freitagnachmittag bei Kraken und Coinbase unter das Juli-Tief, um weniger als 100 $, und erholte sich dann. Die Strategy-Aktie fiel an einem schwachen Börsentag um 9,7 %. Was passiert ist, einfach erklärt.
+label: Markt
+summary: Bitcoin fiel am Freitag um 13:26 Uhr US-Zentralzeit bei Kraken auf 57.661 $, ein neues Tief für 2026 um weniger als 100 $, und erholte sich dann auf rund 58.800 $. Strategy fiel um 9,7 % auf 77,80 $, der Nasdaq um 5,3 %.
+===
+
+Bitcoin ist am Freitagnachmittag, dem 20. November, auf ein neues Tief für 2026 gefallen, bevor Käufer den Kurs wieder nach oben trieben. Um 13:26 Uhr US-Zentralzeit erreichte der Preis <strong>57.661,10 $</strong> bei Kraken und 57.655,17 $ bei Coinbase, wie eine Prüfung der öffentlichen Kursdaten von [Kraken](L1) und [Coinbase](L2) durch PlainBTC zeigt. Beide Werte lagen unter den bisherigen Jahrestiefs vom 1. Juli: 57.740 $ bei Kraken und 57.717,55 $ bei Coinbase.
+
+Der Bruch war klein und kurz. Bei Kraken lag das Freitagstief 78,90 $ oder rund 0,14 % unter der Juli-Marke. Gegen 18 Uhr Zentralzeit stand Bitcoin wieder bei rund 58.800 $, für den Tag aber immer noch rund 5 % im Minus. Früher am Freitag hatten wir berichtet, dass Bitcoin [unter 59.000 $ gefallen](/articles/bitcoin-below-59000-near-2026-low-liquidations-nov-2026) war und sich diesem Niveau näherte.
+
+!takeaways
+- Bitcoin fiel am 20. November um 13:26 Uhr US-Zentralzeit auf 57.661,10 $ bei Kraken und 57.655,17 $ bei Coinbase und damit auf beiden Börsen unter die Tiefs vom 1. Juli.
+- Am frühen Abend erholte er sich auf rund 58.800 $, lag aber für den Tag immer noch rund 5 % und seit dem 1. November rund 24 % im Minus (Kraken).
+- Die Strategy-Aktie (MSTR) fiel um 9,7 % auf 77,80 $. Das Unternehmen hält 850.849 Bitcoin, gekauft zu durchschnittlich 75.452 $ pro Stück.
+- Der Nasdaq Composite verlor 5,3 % und der S&P 500 3,7 %, weil sich der Ausverkauf bei KI- und Tech-Aktien ausweitete.
+
+!figure:chart
+
+## Warum manche Seiten noch das Juli-Tief zeigen
+
+Nicht alle Kursquellen stimmen überein. Yahoo Finance [meldete](L3) als Freitagstief 57.957 $, und CoinDesk [beschrieb](L4) das Sommertief mit rund 57.700 $. Bitcoin wird auf vielen Börsen gleichzeitig gehandelt, und jede Datenseite berechnet ihre Zahlen aus anderen Quellen. Deshalb können sich Kurse im selben Moment um Dutzende oder sogar Hunderte Dollar unterscheiden. Ob der Freitag als „neues Tief" zählt, hängt davon ab, wo man nachschaut. Auf den beiden großen US-Börsen, die wir geprüft haben, war es so, um weniger als 100 $.
+
+!figure:compare
+
+## Ein harter Freitag an allen Märkten
+
+Krypto war nicht allein. Der Nasdaq Composite schloss bei 22.617,73 Punkten, ein Minus von 5,3 %, und der S&P 500 bei 6.910,39 Punkten, ein Minus von 3,7 %, wie [Daten von Yahoo Finance](L5) zeigen. CoinDesk berichtete, dass die Aktie von Anthropic, das am Donnerstag an die Börse gegangen war, und Chipwerte den Ausverkauf anführten und dass binnen 24 Stunden gehebelte Krypto-Wetten im Wert von rund 1,5 Mrd. $ liquidiert wurden, unter Berufung auf CoinGlass.
+
+Ether fiel am Freitag bei Kraken bis auf 1.577,65 $ und schloss den Tag rund 8 % tiefer. Damit liegt er aber noch über seinem eigenen Jahrestief 2026 von 1.505,75 $ vom 6. Juni. Laut Yahoo Finance steuert Bitcoin auf seinen schlechtesten Monat seit Juni 2022 zu. Bei Kraken eröffnete Bitcoin den November bei 77.437 $ und liegt damit in diesem Monat rund 24 % im Minus.
+
+!mid_cta
+
+## Strategy-Aktie unter Druck
+
+Auch Strategy, das von Michael Saylor geführte Unternehmen und der größte Bitcoin-Halter unter den Firmen, hatte einen schlechten Tag. Die Aktie fiel am Freitag um 9,7 % und schloss bei 77,80 $, wie Daten von Yahoo Finance zeigen. Seit Montag, als sie bei 103,03 $ schloss, ging sie jeden Tag tiefer aus dem Handel.
+
+In einer [Pflichtmitteilung](L6) vom Montag gab Strategy an, 850.849 Bitcoin zu halten, gekauft für rund 64,20 Mrd. $, also durchschnittlich 75.452 $ pro Coin. Das eigene [Dashboard](L7) des Unternehmens bewertete diese Coins am Freitagabend mit rund 50,0 Mrd. $, etwa 14 Mrd. $ weniger als der Kaufpreis. Dasselbe Dashboard zeigte Strategys mNAV, eine Kennzahl, die den Unternehmenswert (Enterprise Value) mit dem Wert der Bitcoin-Bestände vergleicht, bei rund 0,96. Ein Wert unter 1 bedeutet, dass Anleger das gesamte Unternehmen niedriger bewerten als seine Bitcoin.
+
+!figure:mstr
+
+## Weiter Abflüsse aus den ETFs
+
+Große Fonds ziehen sich weiter zurück. US-Spot-Bitcoin-ETFs verzeichneten von Montag bis Donnerstag dieser Woche Nettoabflüsse von 1,12 Mrd. $, wie [Farside Investors](L8) zeigt, davon allein 582,3 Mio. $ am Donnerstag. Teildaten für Freitag zeigten weitere 50,4 Mio. $ Abflüsse, wobei die Zahlen der Fonds von BlackRock und Fidelity noch fehlten. Yahoo Finance bezifferte die Abflüsse im November bislang auf rund 3,5 Mrd. $. Der [Crypto Fear & Greed Index](L9) stand bei 12 von 100, im Bereich „extreme Angst".
+
+## Was das für Einsteiger bedeutet
+
+Ein „neues Jahrestief" sorgt für Schlagzeilen, doch am Freitag betrug der Abstand weniger als 100 $, und der Kurs erholte sich binnen Stunden. Niemand kann verlässlich sagen, ob das ein Boden ist oder ein Schritt zu noch tieferen Kursen. Wenn Sie über einen Kauf nachdenken: Viele Einsteiger verteilen kleine Käufe über Wochen oder Monate, statt alles auf einmal zu kaufen, und manche beginnen auf einer großen regulierten Börse wie [Coinbase](REF). Kaufen Sie nicht auf Kredit und investieren Sie nur Geld, dessen Verlust Sie verkraften können. Dies ist keine Anlageberatung.
+
+## Worauf jetzt zu achten ist
+
+- Ob Bitcoin über dem Freitagstief von rund 57.660 $ bleibt oder wieder über 60.000 $ steigt.
+- Die vollständigen ETF-Flussdaten für Freitag und die Flüsse der kommenden Woche.
+- Aktienkurs und mNAV von Strategy sowie Reden von Fed-Vertretern vor der Sitzung am 8. und 9. Dezember.
+
+!soft: Unsicher, ob ein Bitcoin-Fonds oder Bitcoin selbst? Lesen Sie [Bitcoin-ETF oder Bitcoin kaufen](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

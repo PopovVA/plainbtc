@@ -1,0 +1,27 @@
+{
+  "kind": "diagram",
+  "sources": [
+    {
+      "file": "Kraken OHLC XBTUSD interval=1440 and interval=1",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Jul 1 and Nov 20, 2026 daily lows and the 1:26 p.m. CST minute low, from Kraken"
+    },
+    {
+      "file": "MSTR and ^IXIC daily closes Nov 19-20, 2026",
+      "license": "Public market data, cited",
+      "url": "https://finance.yahoo.com/quote/MSTR/",
+      "credit": "Yahoo Finance"
+    }
+  ],
+  "slug": "bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026",
+  "generated": "2026-11-21T00:07Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

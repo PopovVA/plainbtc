@@ -1,0 +1,61 @@
+{
+ "slug": "bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026",
+ "date": "2026-11-20",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-below-59000-near-2026-low-liquidations-nov-2026",
+  "strategy-buys-485-bitcoin-strive-251-nov-2026",
+  "blackrock-ibit-record-541-million-outflow-nov-2026",
+  "crypto-fear-greed-index-10-extreme-fear-nov-2026",
+  "bitcoin-etf-vs-buying-bitcoin"
+ ],
+ "sources": [
+  {
+   "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+   "title": "Kraken: public BTC/USD and ETH/USD price data (OHLC)",
+   "date": "Nov 20, 2026"
+  },
+  {
+   "url": "https://docs.cdp.coinbase.com/api-reference/exchange-api/rest-api/products/get-product-candles",
+   "title": "Coinbase Exchange: public BTC-USD price data (candles)",
+   "date": "Nov 20, 2026"
+  },
+  {
+   "url": "https://finance.yahoo.com/markets/article/bitcoin-plunges-below-59000-on-pace-for-its-worst-month-since-june-2022-192922111.html",
+   "title": "Yahoo Finance: Bitcoin plunges below $59,000, on pace for its worst month since June 2022",
+   "date": "Nov 20, 2026"
+  },
+  {
+   "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play",
+   "title": "CoinDesk: Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
+   "date": "Nov 20, 2026"
+  },
+  {
+   "url": "https://finance.yahoo.com/quote/MSTR/history/",
+   "title": "Yahoo Finance: Strategy (MSTR), Nasdaq Composite and S&P 500 daily closes",
+   "date": "Nov 20, 2026"
+  },
+  {
+   "url": "https://www.strategy.com/press/strategy-acquires-485-btc-and-repurchases-228-million-of-strc_11-16-2026",
+   "title": "Strategy: Strategy Acquires 485 BTC and Repurchases $228 Million of STRC (Form 8-K)",
+   "date": "Nov 16, 2026"
+  },
+  {
+   "url": "https://www.strategy.com/",
+   "title": "Strategy: bitcoin KPI dashboard (BTC NAV, mNAV)",
+   "date": "Nov 20, 2026"
+  },
+  {
+   "url": "https://farside.co.uk/btc/",
+   "title": "Farside Investors: Bitcoin ETF flow data",
+   "date": "Nov 20, 2026"
+  },
+  {
+   "url": "https://alternative.me/crypto/fear-and-greed-index/",
+   "title": "Alternative.me: Crypto Fear & Greed Index",
+   "date": "Nov 20, 2026"
+  }
+ ],
+ "disclosure_variant": "std"
+}

@@ -4345,6 +4345,95 @@ def build_btc_below_59k_2026_low():
     ]
 
 
+def build_btc_new_2026_low():
+    slug = "bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026"
+    d = OUT / slug
+    # Kraken XBTUSD 15-minute candles, Nov 20 00:00 to 23:45 UTC (Nov 19 6 p.m. to Nov 20 5:45 p.m. CST), lows plotted.
+    # Data frozen in i18n/content/<slug>/chart-data.json (Kraken keeps only ~7 days of 15-minute candles).
+    cache = I18N / slug / "chart-data.json"
+    if cache.exists():
+        rows = json.loads(cache.read_text(encoding="utf-8"))
+    else:
+        req = urllib.request.Request("https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=15", headers={"User-Agent": "PlainBTC/1.0"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode())
+        rows = [[int(r[0]), float(r[3])] for r in next(v for k, v in data["result"].items() if k != "last")
+                if 1795132800 <= int(r[0]) < 1795219200]
+        cache.parent.mkdir(parents=True, exist_ok=True)
+        cache.write_text(json.dumps(rows) + "\n", encoding="utf-8")
+    xs = np.array([r[0] - 6 * 3600 for r in rows], dtype=float)   # shift to U.S. Central (CST, UTC-6) for axis labels
+    ys = np.array([r[1] for r in rows])
+    chart = make_line_chart(
+        d / "chart-btc-15min-lows-nov-20",
+        xs, ys,
+        title="Bitcoin on Nov. 19-20, 2026: 15-minute lows on Kraken (U.S. Central time)",
+        hline=57740.0,
+        hlabel="Previous 2026 low: $57,740 (July 1)",
+        date_fmt="%b %d, %-I %p",
+    )
+    comp = make_compare_card(
+        d / "compare-july-1-vs-nov-20-lows",
+        "Bitcoin's two 2026 lows",
+        "July 1, 2026",
+        "Nov. 20, 2026",
+        [
+            ("Kraken low", "$57,740.00", "$57,661.10"),
+            ("Coinbase low", "$57,717.55", "$57,655.17"),
+            ("Kraken close", "$59,959.40", "$58,806.30"),
+        ],
+        footer="Kraken and Coinbase public BTC/USD daily candles (UTC days)",
+    )
+    mstr = make_bar_chart(
+        d / "chart-strategy-mstr-closes-nov-16-20",
+        ["Mon 16", "Tue 17", "Wed 18", "Thu 19", "Fri 20"],
+        [103.03, 96.50, 90.32, 86.13, 77.80],
+        title="Strategy (MSTR) closing share price, Nov. 16-20, 2026",
+        value_fmt=lambda v: f"${v:,.2f}",
+        axis_fmt=lambda x, _p: f"${x:,.0f}",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's 15-minute lows on Kraken from 6 p.m. Central time on Nov. 19 to late afternoon on Nov. 20, 2026: the price holds near $61,000 to $62,000, falls sharply from 9 a.m., dips just below a dashed line marking the previous 2026 low of $57,740 around 1:30 p.m., then recovers toward $58,800", {
+            "es": "Gráfico de líneas de los mínimos de 15 minutos de bitcoin en Kraken desde las 18:00 (hora del centro de EE. UU.) del 19 de noviembre hasta la tarde del 20 de noviembre de 2026: el precio se mantiene cerca de 61.000-62.000 dólares, cae con fuerza desde las 9:00, baja justo por debajo de una línea discontinua en el mínimo anterior de 2026, 57.740 dólares, hacia las 13:30 y luego se recupera hacia 58.800",
+            "pt": "Gráfico de linha das mínimas de 15 minutos do bitcoin na Kraken das 18h (horário central dos EUA) de 19 de novembro até o fim da tarde de 20 de novembro de 2026: o preço fica perto de US$ 61.000 a US$ 62.000, cai forte a partir das 9h, passa um pouco abaixo de uma linha tracejada na mínima anterior de 2026, US$ 57.740, por volta das 13h30 e depois se recupera para perto de US$ 58.800",
+            "fr": "Courbe des plus bas sur 15 minutes du bitcoin sur Kraken, de 18 h (heure du Centre des États-Unis) le 19 novembre à la fin d'après-midi du 20 novembre 2026 : le cours reste vers 61 000 à 62 000 dollars, chute à partir de 9 h, passe juste sous une ligne pointillée marquant l'ancien plus bas de 2026, 57 740 dollars, vers 13 h 30, puis remonte vers 58 800 dollars",
+            "de": "Liniendiagramm der 15-Minuten-Tiefs von Bitcoin bei Kraken von 18 Uhr (US-Zentralzeit) am 19. November bis zum späten Nachmittag des 20. November 2026: Der Kurs hält sich bei 61.000 bis 62.000 $, fällt ab 9 Uhr stark, rutscht gegen 13:30 Uhr knapp unter eine gestrichelte Linie beim bisherigen Jahrestief 2026 von 57.740 $ und erholt sich dann Richtung 58.800 $",
+            "ru": "Линейный график 15-минутных минимумов биткоина на Kraken с 18:00 по центральному времени США 19 ноября до вечера 20 ноября 2026 года: цена держится около $61 000–62 000, с 9:00 резко падает, около 13:30 опускается чуть ниже пунктирной линии прежнего минимума 2026 года — $57 740, затем восстанавливается к $58 800",
+            "tr": "Bitcoin'in Kraken'deki 15 dakikalık diplerinin 19 Kasım ABD Merkez saatiyle 18.00'den 20 Kasım 2026 akşamüstüne kadarki çizgi grafiği: fiyat 61.000-62.000 $ civarında kalıyor, 09.00'dan itibaren sert düşüyor, 13.30 civarında 2026'nın önceki dibi olan 57.740 $'ı gösteren kesikli çizginin hemen altına iniyor, ardından 58.800 $'a doğru toparlanıyor",
+            "id": "Grafik garis harga terendah 15 menit bitcoin di Kraken dari pukul 18.00 waktu Tengah AS pada 19 November hingga sore 20 November 2026: harga bertahan di sekitar US$61.000-62.000, turun tajam sejak pukul 09.00, sempat sedikit di bawah garis putus-putus di level terendah 2026 sebelumnya, US$57.740, sekitar pukul 13.30, lalu pulih ke sekitar US$58.800",
+            "ja": "2026年11月19日午後6時（米中部時間）から11月20日夕方までのKrakenにおけるビットコインの15分足安値の折れ線グラフ。6万1000〜6万2000ドル付近で推移した後、午前9時から急落し、午後1時半ごろに2026年のこれまでの安値5万7740ドルを示す破線をわずかに下回り、その後5万8800ドル付近まで戻している",
+            "ko": "2026년 11월 19일 오후 6시(미국 중부시간)부터 11월 20일 늦은 오후까지 크라켄의 비트코인 15분봉 저가 선 그래프. 6만1000~6만2000달러 부근에서 움직이다 오전 9시부터 급락해 오후 1시 30분쯤 이전 2026년 저점인 5만7740달러를 나타낸 점선을 살짝 밑돈 뒤 5만8800달러 부근으로 회복한다",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken BTC/USD 15-minute candles")},
+        {"id": "compare", "file": comp.name, "w": 1200, "h": 630, "kind": "compare",
+         "alt": alts("Comparison card of bitcoin's two 2026 lows: on July 1 the low was $57,740.00 on Kraken and $57,717.55 on Coinbase; on Nov. 20 it was $57,661.10 on Kraken and $57,655.17 on Coinbase. Kraken's daily close was $59,959.40 on July 1 and $58,806.30 on Nov. 20", {
+            "es": "Tarjeta comparativa de los dos mínimos de bitcoin en 2026: el 1 de julio el mínimo fue de 57.740,00 dólares en Kraken y 57.717,55 en Coinbase; el 20 de noviembre, 57.661,10 en Kraken y 57.655,17 en Coinbase. El cierre diario de Kraken fue de 59.959,40 dólares el 1 de julio y 58.806,30 el 20 de noviembre",
+            "pt": "Cartão comparativo das duas mínimas do bitcoin em 2026: em 1º de julho a mínima foi de US$ 57.740,00 na Kraken e US$ 57.717,55 na Coinbase; em 20 de novembro, US$ 57.661,10 na Kraken e US$ 57.655,17 na Coinbase. O fechamento diário da Kraken foi de US$ 59.959,40 em 1º de julho e US$ 58.806,30 em 20 de novembro",
+            "fr": "Carte comparant les deux plus bas du bitcoin en 2026 : le 1er juillet, 57 740,00 dollars sur Kraken et 57 717,55 sur Coinbase ; le 20 novembre, 57 661,10 sur Kraken et 57 655,17 sur Coinbase. La clôture quotidienne de Kraken était de 59 959,40 dollars le 1er juillet et de 58 806,30 le 20 novembre",
+            "de": "Vergleichskarte der beiden Bitcoin-Tiefs 2026: Am 1. Juli lag das Tief bei 57.740,00 $ bei Kraken und 57.717,55 $ bei Coinbase, am 20. November bei 57.661,10 $ bei Kraken und 57.655,17 $ bei Coinbase. Der Tagesschluss bei Kraken lag am 1. Juli bei 59.959,40 $ und am 20. November bei 58.806,30 $",
+            "ru": "Карточка сравнения двух минимумов биткоина в 2026 году: 1 июля минимум составил $57 740,00 на Kraken и $57 717,55 на Coinbase; 20 ноября — $57 661,10 на Kraken и $57 655,17 на Coinbase. Дневное закрытие на Kraken: $59 959,40 1 июля и $58 806,30 20 ноября",
+            "tr": "Bitcoin'in 2026'daki iki dibini karşılaştıran kart: 1 Temmuz'da dip Kraken'de 57.740,00 $, Coinbase'te 57.717,55 $; 20 Kasım'da Kraken'de 57.661,10 $, Coinbase'te 57.655,17 $. Kraken günlük kapanışı 1 Temmuz'da 59.959,40 $, 20 Kasım'da 58.806,30 $",
+            "id": "Kartu perbandingan dua titik terendah bitcoin pada 2026: pada 1 Juli terendahnya US$57.740,00 di Kraken dan US$57.717,55 di Coinbase; pada 20 November US$57.661,10 di Kraken dan US$57.655,17 di Coinbase. Penutupan harian Kraken US$59.959,40 pada 1 Juli dan US$58.806,30 pada 20 November",
+            "ja": "2026年のビットコインの2つの安値を比べたカード。7月1日の安値はKrakenで5万7740.00ドル、Coinbaseで5万7717.55ドル。11月20日はKrakenで5万7661.10ドル、Coinbaseで5万7655.17ドル。Krakenの日足終値は7月1日が5万9959.40ドル、11月20日が5万8806.30ドル",
+            "ko": "2026년 비트코인의 두 저점을 비교한 카드. 7월 1일 저가는 크라켄 5만7740.00달러, 코인베이스 5만7717.55달러였고, 11월 20일은 크라켄 5만7661.10달러, 코인베이스 5만7655.17달러였다. 크라켄 일봉 종가는 7월 1일 5만9959.40달러, 11월 20일 5만8806.30달러",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Kraken and Coinbase public market data")},
+        {"id": "mstr", "file": mstr.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of Strategy's (MSTR) closing share price from Nov. 16 to Nov. 20, 2026, falling every day: $103.03, $96.50, $90.32, $86.13 and $77.80", {
+            "es": "Gráfico de barras del precio de cierre de la acción de Strategy (MSTR) del 16 al 20 de noviembre de 2026, que baja cada día: 103,03, 96,50, 90,32, 86,13 y 77,80 dólares",
+            "pt": "Gráfico de barras do preço de fechamento da ação da Strategy (MSTR) de 16 a 20 de novembro de 2026, em queda todos os dias: US$ 103,03, US$ 96,50, US$ 90,32, US$ 86,13 e US$ 77,80",
+            "fr": "Diagramme en barres du cours de clôture de l'action Strategy (MSTR) du 16 au 20 novembre 2026, en baisse chaque jour : 103,03, 96,50, 90,32, 86,13 et 77,80 dollars",
+            "de": "Balkendiagramm der Schlusskurse der Strategy-Aktie (MSTR) vom 16. bis 20. November 2026, die jeden Tag fallen: 103,03 $, 96,50 $, 90,32 $, 86,13 $ und 77,80 $",
+            "ru": "Столбчатая диаграмма цены закрытия акций Strategy (MSTR) с 16 по 20 ноября 2026 года, которая снижалась каждый день: $103,03, $96,50, $90,32, $86,13 и $77,80",
+            "tr": "Strategy (MSTR) hissesinin 16-20 Kasım 2026 kapanış fiyatlarını gösteren ve her gün düşen sütun grafiği: 103,03 $, 96,50 $, 90,32 $, 86,13 $ ve 77,80 $",
+            "id": "Grafik batang harga penutupan saham Strategy (MSTR) dari 16 hingga 20 November 2026 yang turun setiap hari: US$103,03, US$96,50, US$90,32, US$86,13, dan US$77,80",
+            "ja": "2026年11月16日〜20日のストラテジー（MSTR）株の終値の棒グラフ。毎日下落し、103.03ドル、96.50ドル、90.32ドル、86.13ドル、77.80ドル",
+            "ko": "2026년 11월 16~20일 스트래티지(MSTR) 주가 종가 막대 그래프. 매일 하락해 103.03달러, 96.50달러, 90.32달러, 86.13달러, 77.80달러를 기록했다",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Yahoo Finance daily closes (Nasdaq: MSTR)")},
+    ]
+
+
 def build_death_bets_act():
     slug = "senate-passes-death-bets-act-prediction-markets-nov-2026"
     d = OUT / slug
@@ -4399,6 +4488,7 @@ def build_death_bets_act():
 
 
 BUILDERS = {
+    "bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026": "btcnewlow",
     "bitcoin-below-59000-near-2026-low-liquidations-nov-2026": "btc59k2026",
     "senate-passes-death-bets-act-prediction-markets-nov-2026": "deathbets",
     "blackrock-ibit-record-541-million-outflow-nov-2026": "ibitrec",
@@ -4477,7 +4567,9 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "btc59k2026":
+    if key == "btcnewlow":
+        figs = build_btc_new_2026_low()
+    elif key == "btc59k2026":
         figs = build_btc_below_59k_2026_low()
     elif key == "deathbets":
         figs = build_death_bets_act()

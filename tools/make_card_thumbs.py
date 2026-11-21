@@ -1672,6 +1672,38 @@ def thumb_btc_below_59k_2026_low():
     ]}
 
 
+def thumb_btc_new_2026_low():
+    """Violet 'price ladder': the previous 2026 low ($57,740 on Kraken, Jul 1) vs the new Nov 20 low ($57,661.10, 1:26 p.m. CST), plus MSTR and Nasdaq daily moves (Yahoo Finance closes)."""
+    base = gradient_bg(top=(46, 16, 101), bottom=(15, 10, 30))
+    d = Draw(base)
+    d.text((30, 50), "$57,661", font=font(FONT_B, 66), fill=(251, 191, 36))
+    d.text((34, 136), "Bitcoin's new 2026 low on Kraken", font=font(FONT_B, 18), fill=WHITE)
+    d.text((34, 162), "Nov. 20, 2026 · 1:26 p.m. Central time", font=font(FONT_R, 14), fill=(221, 214, 254))
+    # previous low: dashed line
+    y1, y2 = 214, 268
+    x = 30
+    while x < 600:
+        d.line([(x, y1), (min(x + 14, 600), y1)], fill=(167, 139, 250), width=3); x += 22
+    d.text((30, y1 - 24), "Previous low · July 1 · $57,740", font=font(FONT_R, 14), fill=(196, 181, 253))
+    d.line([(30, y2), (600, y2)], fill=(251, 191, 36), width=5)
+    d.text((30, y2 + 8), "New low · Nov. 20 · $57,661", font=font(FONT_B, 15), fill=(253, 230, 138))
+    # down arrow between the two levels
+    ax = 560
+    d.line([(ax, y1 + 6), (ax, y2 - 12)], fill=(248, 113, 113), width=4)
+    d.polygon([(ax - 9, y2 - 16), (ax + 9, y2 - 16), (ax, y2 - 4)], fill=(248, 113, 113))
+    d.text((ax - 118, (y1 + y2) // 2 - 9), "−$78.90", font=font(FONT_B, 15), fill=(254, 202, 202))
+    f = font(FONT_B, 14); px = 30
+    for t in ("Strategy (MSTR) −9.7%", "Nasdaq −5.3%"):
+        w = d.textlength(t, font=f) + 26
+        d.rounded_rectangle([px, 306, px + w, 336], radius=15, fill=(40, 12, 24), outline=(248, 113, 113), width=2)
+        d.text((px + 13, 313), t, font=f, fill=(254, 226, 226)); px += w + 12
+    label_chip(base, "Bitcoin · new 2026 low")
+    return base, {"kind":"diagram","sources":[
+        {"file":"Kraken OHLC XBTUSD interval=1440 and interval=1","license":"Kraken public API","url":"https://docs.kraken.com/api/docs/rest-api/get-ohlc-data","credit":"Jul 1 and Nov 20, 2026 daily lows and the 1:26 p.m. CST minute low, from Kraken"},
+        {"file":"MSTR and ^IXIC daily closes Nov 19-20, 2026","license":"Public market data, cited","url":"https://finance.yahoo.com/quote/MSTR/","credit":"Yahoo Finance"}
+    ]}
+
+
 def thumb_death_bets_act():
     """U.S. Senate seal (Wikimedia Commons, CC BY-SA 2.5) with the five event-contract categories S. 4035 would ban."""
     seal = fetch("https://upload.wikimedia.org/wikipedia/commons/f/f0/Seal_of_the_United_States_Senate.svg", CACHE/"senate-seal.svg")
@@ -1701,6 +1733,7 @@ def thumb_death_bets_act():
 
 
 BUILDERS = {
+    "bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026": thumb_btc_new_2026_low,
     "bitcoin-below-59000-near-2026-low-liquidations-nov-2026": thumb_btc_below_59k_2026_low,
     "senate-passes-death-bets-act-prediction-markets-nov-2026": thumb_death_bets_act,
     "blackrock-ibit-record-541-million-outflow-nov-2026": thumb_ibit_record_outflow,

@@ -1,0 +1,61 @@
+title: Bitcoin marca por pouco uma nova mínima de 2026 perto de US$ 57.660 e ações da Strategy afundam quase 10%
+page_title: Bitcoin marca nova mínima de 2026 perto de US$ 57.660
+description: O bitcoin tocou US$ 57.661 na Kraken e US$ 57.655 na Coinbase na sexta-feira, logo abaixo das mínimas de 1º de julho, antes de voltar para cerca de US$ 58.800. A Strategy caiu 9,7% e a Nasdaq, 5,3%.
+og_description: O bitcoin furou a mínima de julho na Kraken e na Coinbase na tarde de sexta-feira, por menos de US$ 100, e depois se recuperou. As ações da Strategy afundaram 9,7% num dia ruim para a bolsa. Veja o que aconteceu, em linguagem simples.
+label: Mercado
+summary: O bitcoin chegou a US$ 57.661 na Kraken às 13h26 (horário central dos EUA) de sexta-feira, nova mínima de 2026 por menos de US$ 100, antes de subir para cerca de US$ 58.800. A Strategy caiu 9,7%, para US$ 77,80, e a Nasdaq recuou 5,3%.
+===
+
+O bitcoin caiu a uma nova mínima de 2026 na tarde de sexta-feira, 20 de novembro, antes de os compradores o levarem de volta para cima. Às 13h26, no horário central dos EUA, o preço tocou <strong>US$ 57.661,10</strong> na Kraken e US$ 57.655,17 na Coinbase, segundo a verificação do PlainBTC nos dados públicos de preços da [Kraken](L1) e da [Coinbase](L2). Os dois valores ficaram abaixo das mínimas anteriores de 2026, de 1º de julho: US$ 57.740 na Kraken e US$ 57.717,55 na Coinbase.
+
+O rompimento foi pequeno e curto. Na Kraken, a mínima de sexta ficou US$ 78,90, ou cerca de 0,14%, abaixo da marca de julho. Por volta das 18h, no horário central, o bitcoin já estava de novo perto de US$ 58.800, ainda em queda de cerca de 5% no dia. Mais cedo na sexta, mostramos que o bitcoin tinha [caído abaixo de US$ 59.000](/articles/bitcoin-below-59000-near-2026-low-liquidations-nov-2026) e se aproximava desse nível.
+
+!takeaways
+- O bitcoin chegou a US$ 57.661,10 na Kraken e US$ 57.655,17 na Coinbase às 13h26 (horário central dos EUA) de 20 de novembro, abaixo das mínimas de 1º de julho nas duas corretoras.
+- Ele voltou para cerca de US$ 58.800 no início da noite, ainda em queda de cerca de 5% no dia e de cerca de 24% desde 1º de novembro na Kraken.
+- As ações da Strategy (MSTR) caíram 9,7%, para US$ 77,80. A empresa tem 850.849 bitcoins comprados a um preço médio de US$ 75.452 cada.
+- O Nasdaq Composite caiu 5,3% e o S&P 500, 3,7%, com a onda de vendas em ações de IA e tecnologia se espalhando.
+
+!figure:chart
+
+## Por que alguns sites ainda mostram a mínima de julho
+
+Nem todas as fontes de preço concordam. O Yahoo Finance [informou](L3) a mínima de sexta como US$ 57.957, e a CoinDesk [descreveu](L4) a mínima do meio do ano como cerca de US$ 57.700. O bitcoin é negociado em muitas corretoras ao mesmo tempo, e cada site de dados monta seus números a partir de fontes diferentes, então os preços podem variar em dezenas ou até centenas de dólares no mesmo instante. Se a sexta conta como "nova mínima" depende de onde você olha. Nas duas grandes corretoras americanas que verificamos, contou, por menos de US$ 100.
+
+!figure:compare
+
+## Uma sexta difícil em todos os mercados
+
+As criptos não estavam sozinhas. O Nasdaq Composite fechou em 22.617,73 pontos, queda de 5,3%, e o S&P 500 fechou em 6.910,39, baixa de 3,7%, segundo [dados do Yahoo Finance](L5). A CoinDesk informou que as ações da Anthropic, que abriu capital na quinta, e as de chips lideraram as vendas, e que cerca de US$ 1,5 bilhão em apostas alavancadas em cripto foram liquidadas em 24 horas, citando a CoinGlass.
+
+O ether chegou a US$ 1.577,65 na Kraken na sexta e fechou o dia em queda de cerca de 8%. Mesmo assim, continua acima da sua própria mínima de 2026, US$ 1.505,75, de 6 de junho. O Yahoo Finance disse que o bitcoin caminha para o pior mês desde junho de 2022. Na Kraken, o bitcoin abriu novembro a US$ 77.437, então acumula queda de cerca de 24% no mês.
+
+!mid_cta
+
+## Ações da Strategy sofrem
+
+A Strategy, empresa comandada por Michael Saylor e maior detentora corporativa de bitcoin, também teve um dia ruim. A ação caiu 9,7% na sexta e fechou a US$ 77,80, segundo dados do Yahoo Finance. Os papéis fecharam em baixa todos os dias desde segunda, quando terminaram a US$ 103,03.
+
+Em um [documento](L6) enviado na segunda, a Strategy informou ter 850.849 bitcoins, comprados por cerca de US$ 64,20 bilhões, um preço médio de US$ 75.452 por moeda. O próprio [painel](L7) da empresa avaliava essas moedas em cerca de US$ 50,0 bilhões na noite de sexta, uns US$ 14 bilhões a menos do que ela pagou. O mesmo painel colocava o mNAV da Strategy, um indicador que compara o valor da empresa (enterprise value) com o valor dos seus bitcoins, em cerca de 0,96. Abaixo de 1, significa que os investidores avaliam a empresa inteira em menos do que os bitcoins que ela tem.
+
+!figure:mstr
+
+## O dinheiro continua saindo dos ETFs
+
+Os grandes fundos seguem recuando. Os ETFs de bitcoin à vista dos EUA tiveram saídas líquidas de US$ 1,12 bilhão de segunda a quinta nesta semana, segundo a [Farside Investors](L8), incluindo US$ 582,3 milhões só na quinta. Dados parciais de sexta mostravam mais US$ 50,4 milhões em saídas, ainda sem os números dos fundos da BlackRock e da Fidelity. O Yahoo Finance calculou as saídas de novembro em cerca de US$ 3,5 bilhões até agora. O [índice Crypto Fear & Greed](L9) estava em 12 de 100, em "medo extremo".
+
+## O que isso significa para iniciantes
+
+Uma "nova mínima do ano" rende manchetes, mas na sexta a diferença foi de menos de US$ 100, e o preço se recuperou em poucas horas. Ninguém consegue dizer com segurança se isso é um fundo ou um passo rumo a preços mais baixos. Se você pensa em comprar, muitos iniciantes fazem compras pequenas distribuídas ao longo de semanas ou meses, em vez de comprar tudo de uma vez, e alguns começam em uma corretora grande e regulamentada como a [Coinbase](REF). Evite pegar dinheiro emprestado para comprar e invista só o que você pode perder. Isto não é recomendação de investimento.
+
+## O que acompanhar
+
+- Se o bitcoin se mantém acima da mínima de sexta, cerca de US$ 57.660, ou volta a superar US$ 60.000.
+- Os números completos de fluxo dos ETFs de sexta e os fluxos da próxima semana.
+- O preço da ação e o mNAV da Strategy, e os discursos do Fed antes da reunião de 8 e 9 de dezembro.
+
+!soft: Em dúvida entre um fundo de bitcoin e o próprio bitcoin? Leia [ETF de bitcoin ou comprar bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

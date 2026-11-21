@@ -1,0 +1,61 @@
+title: Bitcoin kısa süreliğine 57.660 $ civarında 2026'nın yeni dibini gördü, Strategy hisseleri yaklaşık %10 düştü
+page_title: Bitcoin 57.660 $ civarında 2026'nın yeni dibini gördü
+description: Bitcoin cuma günü Kraken'de 57.661 $'a, Coinbase'te 57.655 $'a inerek 1 Temmuz diplerinin hemen altına geçti, ardından yaklaşık 58.800 $'a toparlandı. Strategy %9,7, Nasdaq %5,3 düştü.
+og_description: Bitcoin cuma öğleden sonra Kraken ve Coinbase'te temmuz dibini 100 $'dan az bir farkla kırdı, sonra toparlandı. Borsada zor bir günde Strategy hisseleri %9,7 düştü. Neler olduğunu sade bir dille anlatıyoruz.
+label: Piyasa
+summary: Bitcoin cuma günü ABD Merkez saatiyle 13.26'da Kraken'de 57.661 $'a inerek 100 $'dan az farkla 2026'nın yeni dibini gördü, ardından yaklaşık 58.800 $'a toparlandı. Strategy %9,7 düşüşle 77,80 $'a, Nasdaq %5,3 geriledi.
+===
+
+Bitcoin, 20 Kasım cuma öğleden sonra 2026'nın yeni dibine indi, ardından alıcılar fiyatı yeniden yukarı taşıdı. ABD Merkez saatiyle 13.26'da fiyat Kraken'de <strong>57.661,10 $</strong>, Coinbase'te 57.655,17 $ gördü. Bu, PlainBTC'nin [Kraken](L1) ve [Coinbase](L2) kamuya açık fiyat verilerini incelemesine dayanıyor. Her iki seviye de 1 Temmuz'da görülen önceki 2026 diplerinin altında kaldı: Kraken'de 57.740 $, Coinbase'te 57.717,55 $.
+
+Kırılma küçük ve kısa sürdü. Kraken'de cuma günkü dip, temmuz seviyesinin 78,90 $, yani yaklaşık %0,14 altındaydı. Merkez saatiyle 18.00 civarında bitcoin yeniden 58.800 $ dolaylarına dönmüştü ama gün içinde hâlâ yaklaşık %5 kayıptaydı. Cuma günü daha erken saatlerde bitcoin'in [59.000 $'ın altına düştüğünü](/articles/bitcoin-below-59000-near-2026-low-liquidations-nov-2026) ve bu seviyeye yaklaştığını yazmıştık.
+
+!takeaways
+- Bitcoin 20 Kasım'da ABD Merkez saatiyle 13.26'da Kraken'de 57.661,10 $'a, Coinbase'te 57.655,17 $'a indi; bu, iki borsadaki 1 Temmuz diplerinin altında.
+- Akşam saatlerinde yaklaşık 58.800 $'a toparlandı, ancak Kraken'de gün içinde hâlâ yaklaşık %5, 1 Kasım'dan bu yana ise yaklaşık %24 kayıpta.
+- Strategy (MSTR) hisseleri %9,7 düşüşle 77,80 $'a geriledi. Şirketin, tanesi ortalama 75.452 $'dan alınmış 850.849 bitcoin'i var.
+- Yapay zekâ ve teknoloji hisselerindeki satış dalgası yayılırken Nasdaq Composite %5,3, S&P 500 %3,7 düştü.
+
+!figure:chart
+
+## Bazı siteler neden hâlâ temmuz dibini gösteriyor
+
+Tüm fiyat kaynakları aynı rakamı vermiyor. Yahoo Finance cuma günkü dibi 57.957 $ olarak [bildirdi](L3), CoinDesk ise yaz dibini yaklaşık 57.700 $ olarak [tanımladı](L4). Bitcoin aynı anda pek çok borsada işlem görüyor ve her veri sitesi rakamlarını farklı kaynaklardan derliyor; bu yüzden fiyatlar aynı anda onlarca hatta yüzlerce dolar farklı olabiliyor. Cumanın "yeni dip" sayılıp sayılmayacağı nereye baktığınıza bağlı. İncelediğimiz iki büyük ABD borsasında yeni dip oluştu; fark 100 $'dan azdı.
+
+!figure:compare
+
+## Tüm piyasalarda zor bir cuma
+
+Düşen yalnızca kripto değildi. [Yahoo Finance verilerine](L5) göre Nasdaq Composite %5,3 düşüşle 22.617,73 puandan, S&P 500 ise %3,7 düşüşle 6.910,39 puandan kapandı. CoinDesk, perşembe günü halka arz olan Anthropic'in hisseleri ile çip hisselerinin satışlara öncülük ettiğini ve CoinGlass verilerine göre 24 saatte yaklaşık 1,5 milyar $'lık kaldıraçlı kripto pozisyonunun tasfiye edildiğini aktardı.
+
+Ether cuma günü Kraken'de 1.577,65 $'a kadar indi ve günü yaklaşık %8 düşüşle kapattı. Yine de 6 Haziran'daki kendi 2026 dibi olan 1.505,75 $'ın üzerinde. Yahoo Finance'e göre bitcoin Haziran 2022'den bu yana en kötü ayına doğru gidiyor. Kraken'de bitcoin kasıma 77.437 $'dan başladı, yani bu ay yaklaşık %24 değer kaybetti.
+
+!mid_cta
+
+## Strategy hisselerine darbe
+
+Michael Saylor'ın yönettiği ve en çok bitcoin tutan şirket olan Strategy için de kötü bir gündü. Yahoo Finance verilerine göre hisse cuma günü %9,7 düşerek 77,80 $'dan kapandı. Hisseler, 103,03 $'dan kapandığı pazartesiden bu yana her gün düşüşle kapandı.
+
+Strategy pazartesi yaptığı bir [bildirimde](L6), toplam yaklaşık 64,20 milyar $'a, yani coin başına ortalama 75.452 $'a aldığı 850.849 bitcoin'e sahip olduğunu açıkladı. Şirketin kendi [göstergesi](L7) bu coin'lerin değerini cuma akşamı yaklaşık 50,0 milyar $ olarak gösteriyordu; bu, ödenen tutardan yaklaşık 14 milyar $ daha az. Aynı gösterge, şirketin işletme değerini (enterprise value) elindeki bitcoin'lerin değeriyle karşılaştıran mNAV oranını yaklaşık 0,96 olarak gösteriyordu. 1'in altındaki bir değer, yatırımcıların şirketin tamamına elindeki bitcoin'lerden daha düşük değer biçtiği anlamına geliyor.
+
+!figure:mstr
+
+## ETF'lerden para çıkışı sürüyor
+
+Büyük fonlar çekilmeye devam ediyor. [Farside Investors](L8) verilerine göre ABD spot bitcoin ETF'lerinden bu hafta pazartesiden perşembeye net 1,12 milyar $ çıktı; bunun 582,3 milyon $'ı yalnızca perşembe günü gerçekleşti. Cuma gününe ait kısmi veriler, BlackRock ve Fidelity fonlarının rakamları henüz açıklanmamışken 50,4 milyon $'lık ek çıkış gösteriyordu. Yahoo Finance kasım ayındaki çıkışları şu ana kadar yaklaşık 3,5 milyar $ olarak hesapladı. [Crypto Fear & Greed Endeksi](L9) 100 üzerinden 12 ile "aşırı korku" bölgesindeydi.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+"Yılın yeni dibi" manşetlere taşınır, ancak cuma günü fark 100 $'dan azdı ve fiyat birkaç saat içinde toparlandı. Bunun bir dip mi yoksa daha düşük fiyatlara doğru bir adım mı olduğunu kimse güvenilir şekilde söyleyemez. Almayı düşünüyorsanız, birçok yeni başlayan her şeyi bir kerede almak yerine küçük alımları haftalara veya aylara yayıyor; bazıları da [Coinbase](REF) gibi büyük ve düzenlemeye tabi bir borsayla başlıyor. Borç alarak yatırım yapmaktan kaçının ve yalnızca kaybetmeyi göze alabileceğiniz parayı yatırın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Bitcoin'in cuma günkü yaklaşık 57.660 $'lık dibin üzerinde kalıp kalmayacağı ya da yeniden 60.000 $'ın üzerine çıkıp çıkmayacağı.
+- Cuma gününe ait tam ETF akış verileri ve gelecek haftanın akışları.
+- Strategy'nin hisse fiyatı ve mNAV'ı ile 8-9 Aralık toplantısı öncesindeki Fed konuşmaları.
+
+!soft: Bitcoin fonu mu yoksa bitcoin'in kendisi mi, karar veremediniz mi? [Bitcoin ETF mi, bitcoin almak mı](/articles/bitcoin-etf-vs-buying-bitcoin) yazımızı okuyun
+
+!end_cta
+
+!disclosure

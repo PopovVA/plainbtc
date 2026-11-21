@@ -1,0 +1,61 @@
+title: Bitcoin briefly sets a new 2026 low near $57,660 as Strategy shares sink nearly 10%
+page_title: Bitcoin sets a new 2026 low near $57,660
+description: Bitcoin touched $57,661 on Kraken and $57,655 on Coinbase on Friday, just below its July 1 lows, before bouncing to about $58,800. Strategy shares fell 9.7% and the Nasdaq 5.3%.
+og_description: Bitcoin dipped below its July low on Kraken and Coinbase on Friday afternoon, by less than $100, then bounced. Strategy shares sank 9.7% as stocks slid. Here is what happened, in plain English.
+label: Market news
+summary: Bitcoin hit $57,661 on Kraken at 1:26 p.m. Central time on Friday, a new low for 2026 by less than $100, before bouncing to about $58,800. Strategy shares fell 9.7% to $77.80 and the Nasdaq dropped 5.3%.
+===
+
+Bitcoin slipped to a new low for 2026 on Friday afternoon, Nov. 20, before buyers pushed it back up. At 1:26 p.m. Central time, the price touched <strong>$57,661.10</strong> on Kraken and $57,655.17 on Coinbase, according to PlainBTC's check of public price data from [Kraken](L1) and [Coinbase](L2). Both were below the previous 2026 lows set on July 1: $57,740 on Kraken and $57,717.55 on Coinbase.
+
+The break was small and short. On Kraken, Friday's low was $78.90, or about 0.14%, under the July mark. By about 6 p.m. Central time bitcoin was back near $58,800, still down about 5% for the day. Earlier on Friday we reported that bitcoin had [dropped below $59,000](/articles/bitcoin-below-59000-near-2026-low-liquidations-nov-2026) and was closing in on this level.
+
+!takeaways
+- Bitcoin hit $57,661.10 on Kraken and $57,655.17 on Coinbase at 1:26 p.m. Central time on Nov. 20, below both exchanges' July 1 lows.
+- It bounced to about $58,800 by early evening, still down about 5% on the day and about 24% since Nov. 1 on Kraken.
+- Strategy (MSTR) shares fell 9.7% to $77.80. The company holds 850,849 bitcoin bought at an average of $75,452 each.
+- The Nasdaq Composite fell 5.3% and the S&P 500 3.7% as a selloff in AI and tech stocks spread.
+
+!figure:chart
+
+## Why some sites still show the July low
+
+Not every price feed agrees. Yahoo Finance [reported](L3) Friday's low as $57,957, and CoinDesk [described](L4) the summer low as about $57,700. Bitcoin trades on many exchanges at once, and each data site builds its numbers from different sources, so prices can differ by tens or even hundreds of dollars at the same moment. Whether Friday counts as a "new low" depends on where you look. On the two large U.S. exchanges we checked, it did, by less than $100.
+
+!figure:compare
+
+## A rough Friday across markets
+
+Crypto was not alone. The Nasdaq Composite closed at 22,617.73, down 5.3%, and the S&P 500 closed at 6,910.39, down 3.7%, according to [Yahoo Finance data](L5). CoinDesk reported that shares of Anthropic, which went public on Thursday, and chip stocks led the selling, and that about $1.5 billion in leveraged crypto bets were liquidated over 24 hours, citing CoinGlass.
+
+Ether fell as low as $1,577.65 on Kraken on Friday, down about 8% for the day at its close. That is still above its own 2026 low of $1,505.75 from June 6. Yahoo Finance said bitcoin is on pace for its worst month since June 2022. On Kraken, bitcoin opened November at $77,437, so it is down about 24% this month.
+
+!mid_cta
+
+## Strategy's shares take a hit
+
+Strategy, the company led by Michael Saylor and the largest corporate holder of bitcoin, had a bad day too. Its stock fell 9.7% on Friday to close at $77.80, according to Yahoo Finance data. The shares have closed lower every day since Monday, when they finished at $103.03.
+
+In a [filing](L6) on Monday, Strategy said it held 850,849 bitcoin, bought for about $64.20 billion, or an average of $75,452 per coin. The company's own [dashboard](L7) valued those coins at about $50.0 billion on Friday evening, roughly $14 billion less than it paid. The same dashboard put Strategy's mNAV, a ratio that compares the company's enterprise value with the value of its bitcoin, at about 0.96. A reading below 1 means investors value the whole company at less than its bitcoin.
+
+!figure:mstr
+
+## ETF money keeps leaving
+
+Big funds are still pulling back. U.S. spot bitcoin ETFs lost a net $1.12 billion from Monday through Thursday this week, according to [Farside Investors](L8), including $582.3 million on Thursday alone. Partial data for Friday showed another $50.4 million out, with figures for the BlackRock and Fidelity funds not yet reported. Yahoo Finance put November's outflows at roughly $3.5 billion so far. The [Crypto Fear & Greed Index](L9) stood at 12 out of 100, in "extreme fear."
+
+## What it means for beginners
+
+A "new yearly low" makes headlines, but on Friday the gap was less than $100, and the price bounced within hours. No one can reliably say whether this is a bottom or a step toward lower prices. If you are thinking about buying, many beginners make small purchases spread out over weeks or months instead of buying all at once, and some start on a large regulated exchange such as [Coinbase](REF). Avoid borrowing to buy, and only invest money you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Whether bitcoin stays above Friday's low of about $57,660 or recovers above $60,000.
+- Friday's full ETF flow figures and next week's flows.
+- Strategy's share price and mNAV, and Fed speeches ahead of the Dec. 8-9 meeting.
+
+!soft: Not sure whether to buy a bitcoin fund or bitcoin itself? Read [Bitcoin ETF vs. buying bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure
