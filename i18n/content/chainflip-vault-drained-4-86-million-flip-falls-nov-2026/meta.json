@@ -1,0 +1,45 @@
+{
+ "slug": "chainflip-vault-drained-4-86-million-flip-falls-nov-2026",
+ "date": "2026-11-21",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "lighter-dex-10-4-million-leaked-api-key-nov-2026",
+  "kava-lend-hack-3-8-million-kava-falls-nov-2026",
+  "across-protocol-domain-hijack-phishing-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {
+   "url": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain",
+   "title": "CoinDesk: Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
+   "date": "Nov 21, 2026"
+  },
+  {
+   "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
+   "title": "The Block: Chainflip's FLIP drops 34% after attacker drains $4.86 million from vault with suspected key compromise",
+   "date": "Nov 21, 2026"
+  },
+  {
+   "url": "https://eth.blockscout.com/tx/0xc928950f79b4e4697af674310d1f3a08c2659adc4d60e719f3af90ab023ff20f",
+   "title": "Blockscout: Ethereum transaction 0xc928950f… from the Chainflip vault (block 26,461,896)",
+   "date": "Nov 21, 2026"
+  },
+  {
+   "url": "https://altcoinreporter.com/chainflip-vault-exploit-safe-mode/",
+   "title": "Altcoin Reporter: Chainflip enters safe mode over potential exploit",
+   "date": "Nov 21, 2026"
+  },
+  {
+   "url": "https://chainflip.io/blog/proposal-008-passed-making-tron-usdt-lps-whole",
+   "title": "Chainflip: Proposal 008 passed, making Tron USDT LPs whole",
+   "date": "Sep 18, 2026"
+  },
+  {
+   "url": "https://www.coingecko.com/en/coins/chainflip",
+   "title": "CoinGecko: Chainflip (FLIP) price data",
+   "date": "Nov 21, 2026"
+  }
+ ],
+ "disclosure_variant": "std"
+}

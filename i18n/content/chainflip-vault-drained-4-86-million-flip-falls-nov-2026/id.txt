@@ -1,0 +1,65 @@
+title: Layanan tukar kripto Chainflip dikuras sekitar US$4,86 juta; token FLIP anjlok
+page_title: Brankas Chainflip dikuras sekitar US$4,86 juta, token FLIP turun
+description: Sekitar US$4,86 juta dalam ETH, USDC, dan USDT keluar dari brankas Ethereum Chainflip pada Sabtu dini hari lewat satu transaksi dengan tanda tangan yang sah. Chainflip menghentikan penukaran, dan FLIP sempat turun sekitar 40%.
+og_description: Satu transaksi bertanda tangan sah mengosongkan brankas Ethereum Chainflip: 520 ETH dan sekitar US$4 juta stablecoin, yang masuk ke Tornado Cash dalam hitungan menit. Chainflip kini dalam mode aman penuh.
+label: Keamanan
+summary: Satu transaksi bertanda tangan pukul 01.10 waktu Central AS memindahkan 520,22 ETH, 3,25 juta USDC, dan 758.141 USDT keluar dari brankas Ethereum Chainflip. Chainflip menghentikan penukaran, dan FLIP sempat turun sekitar 40%.
+===
+
+Chainflip, layanan untuk menukar koin antar-blockchain yang berbeda, misalnya bitcoin ke ether, tanpa bursa terpusat, menghentikan seluruh jaringannya pada Sabtu dini hari, 21 November, setelah sekitar <strong>US$4,86 juta</strong> kripto keluar dari brankas Ethereum-nya dalam satu transaksi, menurut perkiraan yang dikutip [CoinDesk](L1) dan [The Block](L2).
+
+PlainBTC memeriksa transaksi itu di [data publik blockchain Ethereum](L3). Pada pukul 01.10 waktu Central AS, transaksi tersebut memindahkan 520,22 ether (ETH), 3.249.631 USDC, dan 758.141 USDT dari brankas Chainflip ke satu alamat yang baru dipakai. Transaksi itu melewati fungsi pembayaran normal brankas, yang juga dipakai untuk penarikan sehari-hari.
+
+!takeaways
+- Sekitar US$4,86 juta dalam ETH, USDC, dan USDT keluar dari brankas Ethereum Chainflip dalam satu transaksi pada Sabtu pukul 01.10 waktu Central AS.
+- Penarikan itu membawa tanda tangan yang sah. Menurut peneliti keamanan, hal ini menunjukkan kemungkinan bocornya kunci bersama para validator Chainflip. Chainflip belum mengonfirmasi penyebabnya.
+- Hampir semua dana masuk ke mixer Tornado Cash dalam sekitar sembilan menit.
+- Chainflip menyalakan "mode aman penuh" yang menghentikan deposit, penarikan, dan penukaran. Token FLIP sempat turun sekitar 40% pada titik terburuk.
+
+!figure:chart
+
+## Bagaimana dana keluar
+
+Brankas Chainflip tidak dikendalikan dari satu dompet perusahaan. Jaringan berisi 150 validator, yaitu komputer yang menjalankan Chainflip, memegang satu kunci tanda tangan bersama, dan sedikitnya 100 di antaranya harus ikut menyetujui sebuah pembayaran, lapor The Block. Tidak ada satu validator pun yang seharusnya memegang kunci lengkap, dan kunci itu diganti setiap tiga hari. Pergantian terakhir sebelum serangan terjadi pada 18 November.
+
+Karena itulah kasus ini menonjol. Peringatan dari perusahaan keamanan Decurity menyebut brankas dikosongkan dari "seluruh saldo likuidnya" dengan tanda tangan yang sah, bukan lewat bug di kode brankas. Perusahaan data blockchain Bitquery, yang dikutip The Block, melihat bahwa penarikan itu membawa nomor urut aneh sepanjang 39 digit, yang disebut nonce, bukan nomor berikutnya dalam urutan yang berada di sekitar 315.000. Itu satu-satunya dari 299.677 tanda tangan Chainflip sejak 2023 yang keluar dari urutan. Ini menunjukkan persetujuan tersebut dibuat di luar proses normal Chainflip.
+
+Bitquery juga menemukan bahwa kunci Chainflip berganti sekitar satu jam 45 menit setelah pencurian, yang mungkin berarti tim menggantinya untuk mencegah kerugian lebih lanjut. Tanda tangan yang sah menunjukkan brankas menerima persetujuan itu, tetapi tidak menunjukkan bagaimana persetujuan itu dibuat. Chainflip belum menjelaskan bagaimana penyerang mendapatkannya.
+
+!mid_cta
+
+!figure:timeline
+
+## Masuk mixer dalam hitungan menit
+
+Stablecoin dengan cepat ditukar ke ETH, dan hampir semua dana masuk ke Tornado Cash dalam sembilan menit setelah penarikan, lapor CoinDesk. Tornado Cash adalah "mixer" yang mencampur koin dari banyak pengguna untuk menyamarkan asal-usulnya. Perusahaan keamanan AMLBot mengatakan pencucian itu "dijalankan dengan otomatisasi berkecepatan tinggi" dan terlalu cepat bagi Circle dan Tether, perusahaan di balik USDC dan USDT, untuk membekukan token tersebut.
+
+Brankas Chainflip di jaringan lain, seperti Bitcoin dan Solana, tampaknya tidak terdampak, menurut The Block.
+
+## Apa kata Chainflip
+
+Pukul 03.14 waktu Central AS, sekitar dua jam setelah penarikan, Chainflip menulis di X: "Kami mengetahui adanya potensi eksploit yang memengaruhi brankas Chainflip. Sebagai langkah pencegahan, protokol dialihkan ke mode aman penuh. Deposit, penarikan, penukaran, dan penawaran harga dinonaktifkan." Tim mengatakan sedang menyelidiki, menurut [Altcoin Reporter](L4) yang mengutip unggahan lengkapnya.
+
+Dalam mode aman, penukaran yang sedang berjalan tidak dibayarkan, dan penyedia likuiditas, yaitu pengguna yang menyediakan koin agar penukaran bisa berjalan, tidak bisa menarik dana. Deposit yang belum final akan diproses setelah mode aman berakhir. Sebelum serangan, total nilai terkunci di Chainflip sekitar US$13,3 juta, menurut data DeFiLlama yang dikutip CoinDesk.
+
+Chainflip belum mengatakan apakah pengguna akan diganti rugi. Setelah serangan lain pada September yang mengambil 736.442 USDT dari brankas Tron-nya, para validator memilih menutup kerugian itu dengan dana surplus yang disimpan di brankas, jelas proyek tersebut dalam sebuah [tulisan blog](L5).
+
+## Token FLIP turun
+
+Token FLIP milik Chainflip diperdagangkan di sekitar US$0,48 sebelum kabar ini. Harga per jam dari [CoinGecko](L6) menunjukkan token itu turun ke sekitar US$0,29 sekitar pukul 05.00 waktu Central, hampir 40% lebih rendah, dan kembali ke sekitar US$0,35 pada pukul 13.00, masih sekitar 27% di bawah titik awal. The Block menyebut total nilai pasar FLIP turun dari sekitar US$41,6 juta menjadi US$27,1 juta.
+
+## Artinya bagi pemula
+
+Jembatan antar-blockchain dan layanan penukaran menyimpan cadangan koin dalam jumlah besar, sehingga sering menjadi sasaran peretas. Jika Anda baru mulai, simpan sebagian besar kripto Anda di bursa besar yang teregulasi seperti [Coinbase](REF) atau di dompet yang Anda kendalikan sendiri, dan hindari menaruh uang di pool yang tidak benar-benar Anda pahami. Abaikan tautan "pengembalian dana" atau "pemulihan" setelah peretasan, karena penipu sering menyamar sebagai proyek yang terdampak. Ini bukan saran investasi.
+
+## Yang perlu dipantau
+
+- Laporan insiden Chainflip dan penyebab yang terkonfirmasi.
+- Apakah penyedia likuiditas dan pengguna dengan penukaran yang tertahan akan diganti rugi.
+- Kapan jaringan keluar dari mode aman dan penukaran dibuka kembali.
+
+!soft: Bingung di mana menyimpan koin Anda? Baca [apa itu dompet kripto: kustodian vs. simpan sendiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

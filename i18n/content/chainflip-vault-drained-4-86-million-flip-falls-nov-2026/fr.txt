@@ -1,0 +1,65 @@
+title: Le service d'échange crypto Chainflip vidé d'environ 4,86 millions de dollars ; le jeton FLIP chute
+page_title: Le coffre de Chainflip vidé d'environ 4,86 millions de dollars, le jeton FLIP recule
+description: Environ 4,86 millions de dollars en ETH, USDC et USDT ont quitté le coffre Ethereum de Chainflip samedi à l'aube, en une seule transaction dotée d'une signature valide. Chainflip a suspendu les échanges et le FLIP a perdu jusqu'à environ 40 %.
+og_description: Une seule transaction à la signature valide a vidé le coffre Ethereum de Chainflip : 520 ETH et environ 4 millions de dollars en stablecoins, envoyés vers Tornado Cash en quelques minutes. Chainflip est en mode de sécurité complet.
+label: Sécurité
+summary: Une transaction signée à 1 h 10 (heure du Centre des États-Unis) a sorti 520,22 ETH, 3,25 millions d'USDC et 758 141 USDT du coffre Ethereum de Chainflip. Chainflip a suspendu les échanges et le FLIP a perdu jusqu'à environ 40 %.
+===
+
+Chainflip, un service qui permet d'échanger des cryptomonnaies entre différentes blockchains, par exemple du bitcoin contre de l'ether, sans plateforme centrale, a mis tout son réseau en pause samedi 21 novembre au petit matin, après qu'environ <strong>4,86 millions de dollars</strong> de cryptomonnaies ont quitté son coffre Ethereum en une seule transaction, selon des estimations citées par [CoinDesk](L1) et [The Block](L2).
+
+PlainBTC a vérifié la transaction dans les [données publiques de la blockchain Ethereum](L3). À 1 h 10 (heure du Centre des États-Unis), elle a transféré 520,22 ether (ETH), 3 249 631 USDC et 758 141 USDT du coffre de Chainflip vers une seule adresse nouvellement utilisée. Elle est passée par la fonction de paiement normale du coffre, celle qui sert aux retraits de tous les jours.
+
+!takeaways
+- Environ 4,86 millions de dollars en ETH, USDC et USDT ont quitté le coffre Ethereum de Chainflip en une seule transaction samedi à 1 h 10 (heure du Centre des États-Unis).
+- Le retrait portait une signature valide, ce qui, selon des chercheurs en sécurité, pourrait indiquer une compromission de la clé partagée par les validateurs de Chainflip. Chainflip n'a pas confirmé la cause.
+- Presque tout l'argent est parti vers le mixeur Tornado Cash en neuf minutes environ.
+- Chainflip a activé le « mode de sécurité complet », qui bloque dépôts, retraits et échanges. Son jeton FLIP a perdu environ 40 % au plus bas.
+
+!figure:chart
+
+## Comment l'argent est sorti
+
+Les coffres de Chainflip ne sont pas gérés depuis un portefeuille de l'entreprise. Un réseau de 150 validateurs, les ordinateurs qui font tourner Chainflip, partage une clé de signature, et au moins 100 d'entre eux doivent participer pour approuver un paiement, a rapporté The Block. Aucun validateur n'est censé détenir la clé entière, et la clé est remplacée tous les trois jours. Le dernier changement avant l'attaque date du 18 novembre.
+
+C'est pourquoi ce cas se distingue. Une alerte de la société de sécurité Decurity indique que le coffre a été vidé de « la totalité de son solde liquide » avec une signature valide, et non grâce à un bug dans le code du coffre. La société d'analyse blockchain Bitquery, citée par The Block, a remarqué que le retrait portait un étrange numéro de série de 39 chiffres, appelé nonce, au lieu du numéro suivant dans la série, qui tournait autour de 315 000. C'est la seule des 299 677 signatures de Chainflip depuis 2023 à rompre la séquence. Cela laisse penser que l'approbation a été produite en dehors du processus normal de Chainflip.
+
+Bitquery a aussi constaté que la clé de Chainflip a changé environ une heure et 45 minutes après le vol, ce qui pourrait signifier que l'équipe l'a remplacée pour éviter d'autres pertes. Une signature valide montre que le coffre a accepté l'approbation, mais pas comment elle a été créée. Chainflip n'a pas dit comment l'attaquant l'a obtenue.
+
+!mid_cta
+
+!figure:timeline
+
+## Vers un mixeur en quelques minutes
+
+Les stablecoins ont été rapidement convertis en ETH, et presque tout l'argent est entré dans Tornado Cash dans les neuf minutes suivant le retrait, selon CoinDesk. Tornado Cash est un « mixeur » qui mélange les fonds de nombreux utilisateurs pour en masquer l'origine. La société de sécurité AMLBot a indiqué que le blanchiment « a été exécuté avec une automatisation à grande vitesse », trop vite pour que Circle et Tether, les sociétés derrière l'USDC et l'USDT, gèlent les jetons.
+
+Les coffres de Chainflip sur d'autres réseaux, comme Bitcoin et Solana, ne semblaient pas touchés, selon The Block.
+
+## Ce que dit Chainflip
+
+À 3 h 14 (heure du Centre des États-Unis), environ deux heures après le retrait, Chainflip a publié sur X : « Nous avons connaissance d'un exploit potentiel touchant les coffres de Chainflip. Par précaution, le protocole passe en mode de sécurité complet. Les dépôts, retraits, échanges et cotations sont désactivés. » Le projet a dit enquêter, selon [Altcoin Reporter](L4), qui a cité le message en entier.
+
+En mode de sécurité, les échanges déjà en cours ne sont pas payés et les fournisseurs de liquidité, les utilisateurs qui apportent les cryptomonnaies rendant les échanges possibles, ne peuvent pas retirer. Les dépôts pas encore finalisés seront traités à la sortie du mode de sécurité. Avant l'attaque, Chainflip détenait environ 13,3 millions de dollars de valeur totale verrouillée, selon des données de DeFiLlama citées par CoinDesk.
+
+Chainflip n'a pas dit si les utilisateurs seront remboursés. Après une autre attaque en septembre, qui avait pris 736 442 USDT dans son coffre Tron, ses validateurs ont voté pour couvrir la perte avec des fonds excédentaires détenus dans les coffres, a expliqué le projet dans un [article de blog](L5).
+
+## Le jeton FLIP chute
+
+Le jeton FLIP de Chainflip s'échangeait autour de 0,48 dollar avant l'annonce. Les prix horaires de [CoinGecko](L6) montrent qu'il est tombé à environ 0,29 dollar vers 5 h (heure du Centre), soit près de 40 % de moins, et qu'il était revenu vers 0,35 dollar à 13 h, encore environ 27 % sous son point de départ. Selon The Block, la valeur de marché totale du FLIP est passée d'environ 41,6 millions à 27,1 millions de dollars.
+
+## Ce que cela signifie pour les débutants
+
+Les ponts entre blockchains et les services d'échange détiennent de grandes réserves de cryptomonnaies, ce qui en fait des cibles fréquentes pour les pirates. Si vous débutez, gardez l'essentiel de vos cryptos sur une grande plateforme régulée comme [Coinbase](REF) ou dans un portefeuille que vous contrôlez, et évitez de placer de l'argent dans des pools que vous ne comprenez pas bien. Ignorez tout lien de « remboursement » ou de « récupération » après un piratage : les escrocs se font souvent passer pour le projet touché. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Le rapport d'incident de Chainflip et la cause confirmée.
+- Si les fournisseurs de liquidité et les utilisateurs aux échanges bloqués seront dédommagés.
+- Quand le réseau sortira du mode de sécurité et quand les échanges reprendront.
+
+!soft: Vous ne savez pas où garder vos cryptos ? Lisez [ce qu'est un portefeuille crypto : dépositaire ou auto-détention](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

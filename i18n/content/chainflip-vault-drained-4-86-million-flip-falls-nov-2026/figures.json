@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-flip-hourly-nov-20-21.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of Chainflip's FLIP token hourly price from Nov. 20 to Nov. 21, 2026: steady near $0.48, then a sharp drop on the morning of Nov. 21 to about $0.29 and a partial rebound to about $0.35 by 19:00 UTC",
+      "es": "Gráfico de líneas del precio horario del token FLIP de Chainflip del 20 al 21 de noviembre de 2026: estable cerca de 0,48 dólares, luego una fuerte caída en la mañana del 21 de noviembre hasta unos 0,29 dólares y un rebote parcial hasta unos 0,35 a las 19:00 UTC",
+      "pt": "Gráfico de linha do preço horário do token FLIP da Chainflip de 20 a 21 de novembro de 2026: estável perto de US$ 0,48, depois uma queda forte na manhã de 21 de novembro para cerca de US$ 0,29 e uma recuperação parcial para cerca de US$ 0,35 às 19h UTC",
+      "fr": "Courbe du cours horaire du jeton FLIP de Chainflip du 20 au 21 novembre 2026 : stable vers 0,48 dollar, puis une forte chute le matin du 21 novembre jusqu'à environ 0,29 dollar et un rebond partiel vers 0,35 dollar à 19 h UTC",
+      "de": "Liniendiagramm des stündlichen Kurses des Chainflip-Tokens FLIP vom 20. bis 21. November 2026: stabil bei rund 0,48 $, dann am Morgen des 21. November ein starker Rückgang auf rund 0,29 $ und eine teilweise Erholung auf rund 0,35 $ bis 19:00 UTC",
+      "ru": "Линейный график почасовой цены токена FLIP проекта Chainflip 20 и 21 ноября 2026 года: около $0,48, затем утром 21 ноября резкое падение примерно до $0,29 и частичный отскок примерно до $0,35 к 19:00 UTC",
+      "tr": "Chainflip'in FLIP tokeninin 20-21 Kasım 2026 saatlik fiyatının çizgi grafiği: 0,48 $ civarında yatay, ardından 21 Kasım sabahı yaklaşık 0,29 $'a sert düşüş ve 19.00 UTC'ye kadar yaklaşık 0,35 $'a kısmi toparlanma",
+      "id": "Grafik garis harga token FLIP milik Chainflip per jam pada 20 hingga 21 November 2026: stabil di sekitar US$0,48, lalu turun tajam pada pagi 21 November ke sekitar US$0,29 dan pulih sebagian ke sekitar US$0,35 pada 19.00 UTC",
+      "ja": "2026年11月20〜21日のChainflipのトークンFLIPの1時間足の折れ線グラフ：約0.48ドルで安定した後、11月21日朝に約0.29ドルまで急落し、UTC19時までに約0.35ドルまで一部回復",
+      "ko": "2026년 11월 20~21일 체인플립 FLIP 토큰 시간별 가격 선 차트: 약 0.48달러에서 안정적이다가 11월 21일 오전 약 0.29달러까지 급락한 뒤 UTC 19시까지 약 0.35달러로 일부 반등"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: CoinGecko FLIP/USD hourly prices",
+      "es": "Gráfico: PlainBTC, datos: CoinGecko FLIP/USD hourly prices",
+      "pt": "Gráfico: PlainBTC, dados: CoinGecko FLIP/USD hourly prices",
+      "fr": "Graphique : PlainBTC, données : CoinGecko FLIP/USD hourly prices",
+      "de": "Chart: PlainBTC, Daten: CoinGecko FLIP/USD hourly prices",
+      "ru": "График: PlainBTC, данные: CoinGecko FLIP/USD hourly prices",
+      "tr": "Grafik: PlainBTC, veri: CoinGecko FLIP/USD hourly prices",
+      "id": "Grafik: PlainBTC, data: CoinGecko FLIP/USD hourly prices",
+      "ja": "チャート: PlainBTC、データ: CoinGecko FLIP/USD hourly prices",
+      "ko": "차트: PlainBTC, 데이터: CoinGecko FLIP/USD hourly prices"
+    }
+  },
+  {
+    "id": "timeline",
+    "file": "timeline-chainflip-vault-drain.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline in U.S. Central time, Nov. 21: 1:10 a.m., one signed transaction moves 520.22 ETH, 3.25 million USDC and 758,141 USDT out of Chainflip's Ethereum vault; by 1:19 a.m., the stablecoins are swapped to ETH and nearly all of it is sent into Tornado Cash; 3:14 a.m., Chainflip turns on full safe mode; 3 to 5 a.m., FLIP falls from about $0.48 to about $0.29",
+      "es": "Cronología en hora central de EE. UU., 21 de noviembre: 1:10, una transacción firmada saca 520,22 ETH, 3,25 millones de USDC y 758.141 USDT de la bóveda de Ethereum de Chainflip; hacia la 1:19, las stablecoins se cambian por ETH y casi todo se envía a Tornado Cash; 3:14, Chainflip activa el modo seguro total; de 3 a 5, FLIP cae de unos 0,48 a unos 0,29 dólares",
+      "pt": "Linha do tempo no horário central dos EUA, 21 de novembro: 1h10, uma transação assinada tira 520,22 ETH, 3,25 milhões de USDC e 758.141 USDT do cofre da Chainflip no Ethereum; até 1h19, as stablecoins são trocadas por ETH e quase tudo vai para o Tornado Cash; 3h14, a Chainflip ativa o modo de segurança total; das 3h às 5h, o FLIP cai de cerca de US$ 0,48 para cerca de US$ 0,29",
+      "fr": "Chronologie (heure du Centre des États-Unis), 21 novembre : 1 h 10, une transaction signée sort 520,22 ETH, 3,25 millions d'USDC et 758 141 USDT du coffre Ethereum de Chainflip ; vers 1 h 19, les stablecoins sont convertis en ETH et presque tout part vers Tornado Cash ; 3 h 14, Chainflip active le mode de sécurité complet ; de 3 h à 5 h, le FLIP passe d'environ 0,48 à environ 0,29 dollar",
+      "de": "Zeitleiste (US-Central-Zeit), 21. November: 1:10 Uhr, eine signierte Transaktion holt 520,22 ETH, 3,25 Mio. USDC und 758.141 USDT aus dem Ethereum-Tresor von Chainflip; bis 1:19 Uhr werden die Stablecoins in ETH getauscht und fast alles an Tornado Cash geschickt; 3:14 Uhr, Chainflip schaltet den vollen Sicherheitsmodus ein; 3 bis 5 Uhr, FLIP fällt von rund 0,48 $ auf rund 0,29 $",
+      "ru": "Хронология по центральному времени США, 21 ноября: 1:10, одна подписанная транзакция выводит 520,22 ETH, 3,25 млн USDC и 758 141 USDT из хранилища Chainflip в сети Ethereum; к 1:19 стейблкоины обменяны на ETH, и почти всё отправлено в Tornado Cash; 3:14, Chainflip включает полный безопасный режим; с 3 до 5 утра FLIP падает примерно с $0,48 до около $0,29",
+      "tr": "ABD Merkezi saatiyle zaman çizelgesi, 21 Kasım: 01.10'da tek bir imzalı işlem Chainflip'in Ethereum kasasından 520,22 ETH, 3,25 milyon USDC ve 758.141 USDT çıkarıyor; 01.19'a kadar stablecoin'ler ETH'ye çevrilip neredeyse tamamı Tornado Cash'e gönderiliyor; 03.14'te Chainflip tam güvenli modu açıyor; 03.00-05.00 arasında FLIP yaklaşık 0,48 $'dan yaklaşık 0,29 $'a düşüyor",
+      "id": "Linimasa waktu Central AS, 21 November: 01.10, satu transaksi bertanda tangan memindahkan 520,22 ETH, 3,25 juta USDC, dan 758.141 USDT keluar dari brankas Ethereum Chainflip; sebelum 01.19, stablecoin ditukar ke ETH dan hampir semuanya dikirim ke Tornado Cash; 03.14, Chainflip menyalakan mode aman penuh; pukul 03.00 hingga 05.00, FLIP turun dari sekitar US$0,48 ke sekitar US$0,29",
+      "ja": "時系列（米中部時間、11月21日）：午前1時10分、署名済みの1件の取引でChainflipのイーサリアム金庫から520.22 ETH、325万USDC、75万8141 USDTが流出。午前1時19分までにステーブルコインをETHに交換し、ほぼ全額をTornado Cashへ。午前3時14分、Chainflipが完全セーフモードを発動。午前3〜5時、FLIPは約0.48ドルから約0.29ドルに下落",
+      "ko": "타임라인(미국 중부시간, 11월 21일): 오전 1시 10분 서명된 거래 한 건으로 체인플립 이더리움 금고에서 520.22 ETH, 325만 USDC, 75만 8,141 USDT 유출, 오전 1시 19분까지 스테이블코인을 ETH로 바꿔 거의 전부 토네이도 캐시로 전송, 오전 3시 14분 체인플립이 전체 안전 모드 가동, 오전 3~5시 FLIP이 약 0.48달러에서 약 0.29달러로 하락"
+    },
+    "caption": {
+      "en": "Source: Ethereum blockchain data (Blockscout); CoinDesk; The Block; Chainflip on X; CoinGecko",
+      "es": "Fuente: Ethereum blockchain data (Blockscout); CoinDesk; The Block; Chainflip on X; CoinGecko",
+      "pt": "Fonte: Ethereum blockchain data (Blockscout); CoinDesk; The Block; Chainflip on X; CoinGecko",
+      "fr": "Source : Ethereum blockchain data (Blockscout); CoinDesk; The Block; Chainflip on X; CoinGecko",
+      "de": "Quelle: Ethereum blockchain data (Blockscout); CoinDesk; The Block; Chainflip on X; CoinGecko",
+      "ru": "Источник: Ethereum blockchain data (Blockscout); CoinDesk; The Block; Chainflip on X; CoinGecko",
+      "tr": "Kaynak: Ethereum blockchain data (Blockscout); CoinDesk; The Block; Chainflip on X; CoinGecko",
+      "id": "Sumber: Ethereum blockchain data (Blockscout); CoinDesk; The Block; Chainflip on X; CoinGecko",
+      "ja": "出典: Ethereum blockchain data (Blockscout); CoinDesk; The Block; Chainflip on X; CoinGecko",
+      "ko": "출처: Ethereum blockchain data (Blockscout); CoinDesk; The Block; Chainflip on X; CoinGecko"
+    }
+  }
+]

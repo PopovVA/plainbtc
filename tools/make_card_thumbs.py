@@ -1145,6 +1145,54 @@ def thumb_lighter_api_key():
     ],"note":"Editorial composite for identification; trademarks belong to their owners."}
 
 
+def thumb_chainflip_vault_drain():
+    """Chainflip logo (identification) + vault diagram; amounts from the Ethereum transaction
+    0xc928950f... (block 26,461,896, Nov. 21, 2026 07:10:59 UTC) and the $4.86M estimate cited by The Block / CoinDesk."""
+    logo = fetch("https://coin-images.coingecko.com/coins/images/25576/large/kdt_AgmT_400x400.png", CACHE/"chainflip-logo.png")
+    base = gradient_bg(top=(28, 14, 40), bottom=(8, 10, 16))
+    d = Draw(base)
+    GREEN, PINK = (70, 218, 150), (255, 76, 160)
+    # logo tile
+    lx, ly, ls = 34, 70, 128
+    tile = Image.new("RGBA", sz((ls, ls)), (0, 0, 0, 255))
+    mask = Image.new("L", sz((ls, ls)), 0); Draw(mask).rounded_rectangle([0, 0, ls-1, ls-1], radius=18, fill=255)
+    base.paste(tile.convert("RGB"), sz((lx, ly)), mask)
+    paste_contain(base, Image.open(logo).convert("RGBA"), (lx, ly, ls, ls), pad=4)
+    d = Draw(base)
+    d.text((lx + 4, ly + ls + 14), "Chainflip", font=font(FONT_B, 20), fill=WHITE)
+    d.text((lx + 4, ly + ls + 42), "cross-chain swaps", font=font(FONT_R, 13), fill=MUTED)
+    # vault box
+    vx0, vy0, vx1, vy1 = 190, 62, 392, 300
+    d.rounded_rectangle([vx0, vy0, vx1, vy1], radius=16, fill=(18, 22, 32), outline=GREEN, width=2)
+    d.text((vx0 + 16, vy0 + 14), "ETHEREUM VAULT", font=font(FONT_B, 14), fill=GREEN)
+    rows = [("520.22", "ETH"), ("3,249,631", "USDC"), ("758,141", "USDT")]
+    y = vy0 + 50
+    for amt, sym in rows:
+        d.rounded_rectangle([vx0 + 14, y, vx1 - 14, y + 50], radius=10, fill=(32, 38, 54))
+        d.text((vx0 + 26, y + 8), amt, font=font(FONT_B, 22), fill=WHITE)
+        d.text((vx0 + 26, y + 33), sym, font=font(FONT_R, 11), fill=MUTED)
+        y += 60
+    # arrow
+    ay = 181
+    d.line([(vx1 + 6, ay), (440, ay)], fill=PINK, width=4)
+    d.polygon([(440, ay - 11), (458, ay), (440, ay + 11)], fill=PINK)
+    # outflow box
+    ox0 = 466
+    d.text((ox0, 110), "≈ $4.86M", font=font(FONT_B, 27), fill=ORANGE)
+    d.text((ox0, 150), "out in one", font=font(FONT_B, 16), fill=WHITE)
+    d.text((ox0, 172), "validly signed", font=font(FONT_B, 16), fill=WHITE)
+    d.text((ox0, 194), "transaction", font=font(FONT_B, 16), fill=WHITE)
+    d.text((ox0, 232), "then into", font=font(FONT_R, 14), fill=(203, 213, 225))
+    d.text((ox0, 252), "Tornado Cash", font=font(FONT_R, 14), fill=(203, 213, 225))
+    d.text((ox0, 272), "within ~9 minutes", font=font(FONT_R, 14), fill=(203, 213, 225))
+    label_chip(base, "Chainflip · Nov. 21, 2026 · vault drain")
+    return base, {"kind": "composite", "sources": [
+        {"file": "chainflip-logo.png", "license": "Logo", "url": "https://www.coingecko.com/en/coins/chainflip", "credit": "Chainflip (logo via CoinGecko)"},
+        {"file": "Ethereum tx 0xc928950f79b4e4697af674310d1f3a08c2659adc4d60e719f3af90ab023ff20f", "license": "Public blockchain data", "url": "https://eth.blockscout.com/tx/0xc928950f79b4e4697af674310d1f3a08c2659adc4d60e719f3af90ab023ff20f", "credit": "Blockscout"},
+        {"file": "The Block / CoinDesk, Nov. 21, 2026", "license": "Figure cited", "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804", "credit": "The Block"},
+    ], "note": "Editorial composite for identification; trademarks belong to their owners."}
+
+
 def thumb_custodia_scotus():
     """U.S. Supreme Court building (Joe Ravi, CC BY-SA 3.0) with the Fed seal for identification."""
     court = fetch("https://upload.wikimedia.org/wikipedia/commons/d/da/Panorama_of_United_States_Supreme_Court_Building_at_Dusk.jpg", CACHE/"scotus-dusk.jpg")
@@ -1831,6 +1879,7 @@ BUILDERS = {
     "binance-reopens-withdrawals-87-networks-nov-2026": thumb_binance_reopen,
     "bitcoin-falls-below-64000-three-month-low-nov-2026": thumb_btc_below_64k,
     "kava-lend-hack-3-8-million-kava-falls-nov-2026": thumb_kava_hack,
+    "chainflip-vault-drained-4-86-million-flip-falls-nov-2026": thumb_chainflip_vault_drain,
     "bitcoin-four-month-low-62000-liquidations-nov-2026": thumb_btc_62k_low,
     "coinone-data-breach-support-contractor-passwords-nov-2026": thumb_coinone_breach,
     "stusdt-wind-down-redeem-by-may-2027-nov-2026": thumb_stusdt_wind_down,

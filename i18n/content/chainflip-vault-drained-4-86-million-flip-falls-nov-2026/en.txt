@@ -1,0 +1,65 @@
+title: Crypto swap service Chainflip drained of about $4.86 million; FLIP token tumbles
+page_title: Chainflip vault drained of about $4.86 million, FLIP token falls
+description: About $4.86 million in ETH, USDC and USDT left Chainflip's Ethereum vault early Saturday in one transaction with a valid signature. Chainflip paused swaps, and FLIP fell about 40% at the worst point.
+og_description: A single validly signed transaction emptied Chainflip's Ethereum vault of 520 ETH and about $4 million in stablecoins, which went into Tornado Cash within minutes. Chainflip is in full safe mode.
+label: Security
+summary: One validly signed transaction at 1:10 a.m. Central time moved 520.22 ETH, 3.25 million USDC and 758,141 USDT out of Chainflip's Ethereum vault. Chainflip paused swaps, and FLIP fell about 40% at the worst point.
+===
+
+Chainflip, a service that lets people swap coins between different blockchains, such as bitcoin for ether, without a central exchange, paused its whole network early on Saturday, Nov. 21, after about <strong>$4.86 million</strong> in crypto left its Ethereum vault in a single transaction, according to estimates cited by [CoinDesk](L1) and [The Block](L2).
+
+PlainBTC checked the transaction in [public Ethereum blockchain data](L3). At 1:10 a.m. Central time it moved 520.22 ether (ETH), 3,249,631 USDC and 758,141 USDT out of Chainflip's vault to one newly used address. It went through the vault's normal payout function, the same one used for everyday withdrawals.
+
+!takeaways
+- About $4.86 million in ETH, USDC and USDT left Chainflip's Ethereum vault in one transaction at 1:10 a.m. Central time on Saturday.
+- The withdrawal carried a valid signature, which security researchers say points to a possible compromise of the key Chainflip's validators share. Chainflip has not confirmed a cause.
+- Nearly all of the money went into the Tornado Cash mixer within about nine minutes.
+- Chainflip turned on "full safe mode," stopping deposits, withdrawals and swaps. Its FLIP token fell about 40% at the worst point.
+
+!figure:chart
+
+## How the money got out
+
+Chainflip's vaults are not run from one company wallet. A network of 150 validators, the computers that run Chainflip, jointly hold a shared signing key, and at least 100 of them must take part to approve a payout, The Block reported. No single validator is supposed to have the full key, and the key is replaced every three days. The last change before the attack was on Nov. 18.
+
+That is why this case stands out. An alert from security firm Decurity said the vault was emptied of "its entire liquid balance" with a valid signature, rather than through a bug in the vault's code. Blockchain data firm Bitquery, cited by The Block, noticed that the withdrawal carried a strange 39-digit serial number, called a nonce, instead of the next number in line, which was around 315,000. It was the only one of 299,677 Chainflip signatures since 2023 to break the sequence. That suggests the approval was produced outside Chainflip's normal process.
+
+Bitquery also found that Chainflip's key changed about an hour and 45 minutes after the theft, which may mean the team replaced it to stop further losses. A valid signature shows the vault accepted the approval, but not how the approval was created. Chainflip has not said how the attacker got it.
+
+!mid_cta
+
+!figure:timeline
+
+## Sent to a mixer within minutes
+
+The stablecoins were quickly swapped for ETH, and nearly all of the money went into Tornado Cash within nine minutes of the withdrawal, CoinDesk reported. Tornado Cash is a "mixer" that pools coins from many users to hide where they came from. Security firm AMLBot said the laundering "was executed with high-speed automation" and moved too fast for Circle and Tether, the companies behind USDC and USDT, to freeze the tokens.
+
+Chainflip's vaults on other networks, such as Bitcoin and Solana, appeared to be unaffected, according to The Block.
+
+## What Chainflip has said
+
+At 3:14 a.m. Central time, about two hours after the withdrawal, Chainflip posted on X: "We're aware of a potential exploit affecting Chainflip vaults. As a precaution, the protocol is being put into full safe mode. Deposits, withdrawals, swaps and quoting are disabled." It said it was investigating, according to [Altcoin Reporter](L4), which quoted the full post.
+
+In safe mode, swaps already in progress are not paid out, and liquidity providers, the users who supply the coins that make swaps possible, cannot withdraw. Deposits that were not yet finalized will be processed after safe mode ends. Before the attack, Chainflip held about $13.3 million in total value locked, according to DeFiLlama data cited by CoinDesk.
+
+Chainflip has not said whether users will be repaid. After a separate attack in September took 736,442 USDT from its Tron vault, its validators voted to cover the loss with surplus funds held in the vaults, the project said in a [blog post](L5).
+
+## FLIP token falls
+
+Chainflip's FLIP token traded near $0.48 before the news. Hourly prices from [CoinGecko](L6) show it fell to about $0.29 by 5 a.m. Central time, roughly 40% lower, and was back near $0.35 by 1 p.m., still about 27% below where it started. The Block said FLIP's total market value dropped from about $41.6 million to $27.1 million.
+
+## What it means for beginners
+
+Cross-chain bridges and swap services hold large pools of coins, which makes them frequent targets for hackers. If you are new, keep most of your crypto on a large regulated exchange such as [Coinbase](REF) or in a wallet you control, and avoid putting money into pools you do not fully understand. Ignore any "refund" or "recovery" links after a hack, since scammers often pose as the affected project. This is not investment advice.
+
+## What to watch next
+
+- Chainflip's incident report and the confirmed cause.
+- Whether liquidity providers and users with stuck swaps will be made whole.
+- When the network leaves safe mode and swaps resume.
+
+!soft: Not sure where to keep your coins? Read [what a crypto wallet is: custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

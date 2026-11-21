@@ -1,0 +1,65 @@
+title: Krypto-Tauschdienst Chainflip um rund 4,86 Mio. $ erleichtert, FLIP-Token bricht ein
+page_title: Chainflip-Tresor um rund 4,86 Mio. $ geleert, FLIP-Token fällt
+description: Rund 4,86 Mio. $ in ETH, USDC und USDT verließen am frühen Samstag den Ethereum-Tresor von Chainflip in einer einzigen Transaktion mit gültiger Signatur. Chainflip stoppte den Handel, FLIP verlor zeitweise rund 40 %.
+og_description: Eine einzige gültig signierte Transaktion leerte den Ethereum-Tresor von Chainflip: 520 ETH und rund 4 Mio. $ in Stablecoins, die binnen Minuten bei Tornado Cash landeten. Chainflip ist im vollen Sicherheitsmodus.
+label: Sicherheit
+summary: Eine signierte Transaktion um 1:10 Uhr US-Central-Zeit holte 520,22 ETH, 3,25 Mio. USDC und 758.141 USDT aus dem Ethereum-Tresor von Chainflip. Chainflip stoppte den Handel, FLIP verlor zeitweise rund 40 %.
+===
+
+Chainflip, ein Dienst, mit dem man Coins zwischen verschiedenen Blockchains tauschen kann, etwa Bitcoin gegen Ether, ohne zentrale Börse, hat am frühen Samstag, 21. November, sein gesamtes Netzwerk angehalten. Zuvor hatten rund <strong>4,86 Mio. $</strong> in Krypto den Ethereum-Tresor in einer einzigen Transaktion verlassen, wie von [CoinDesk](L1) und [The Block](L2) zitierte Schätzungen zeigen.
+
+PlainBTC hat die Transaktion in den [öffentlichen Daten der Ethereum-Blockchain](L3) geprüft. Um 1:10 Uhr US-Central-Zeit verschob sie 520,22 Ether (ETH), 3.249.631 USDC und 758.141 USDT aus dem Chainflip-Tresor an eine einzige, neu genutzte Adresse. Sie lief über die normale Auszahlungsfunktion des Tresors, die auch für alltägliche Abhebungen genutzt wird.
+
+!takeaways
+- Rund 4,86 Mio. $ in ETH, USDC und USDT verließen den Ethereum-Tresor von Chainflip am Samstag um 1:10 Uhr US-Central-Zeit in einer einzigen Transaktion.
+- Die Abhebung trug eine gültige Signatur. Sicherheitsforscher sehen darin einen Hinweis auf einen möglicherweise kompromittierten gemeinsamen Schlüssel der Chainflip-Validatoren. Chainflip hat keine Ursache bestätigt.
+- Fast das gesamte Geld landete binnen rund neun Minuten beim Mixer Tornado Cash.
+- Chainflip schaltete den „vollen Sicherheitsmodus“ ein und stoppte Einzahlungen, Abhebungen und Tauschgeschäfte. Der FLIP-Token verlor im Tief rund 40 %.
+
+!figure:chart
+
+## Wie das Geld abfloss
+
+Die Tresore von Chainflip werden nicht über eine Firmen-Wallet gesteuert. Ein Netzwerk aus 150 Validatoren, den Rechnern, die Chainflip betreiben, hält gemeinsam einen Signaturschlüssel, und mindestens 100 von ihnen müssen mitwirken, um eine Auszahlung freizugeben, berichtete The Block. Kein einzelner Validator soll den vollständigen Schlüssel besitzen, und der Schlüssel wird alle drei Tage ausgetauscht. Der letzte Wechsel vor dem Angriff war am 18. November.
+
+Deshalb fällt dieser Fall auf. Eine Warnung der Sicherheitsfirma Decurity besagt, der Tresor sei mit gültiger Signatur um „sein gesamtes liquides Guthaben“ geleert worden und nicht über einen Fehler im Code. Die Blockchain-Datenfirma Bitquery, zitiert von The Block, bemerkte, dass die Abhebung eine seltsame 39-stellige laufende Nummer, eine sogenannte Nonce, trug statt der nächsten Nummer in der Reihe, die bei rund 315.000 lag. Es war die einzige von 299.677 Chainflip-Signaturen seit 2023, die aus der Reihe fiel. Das deutet darauf hin, dass die Freigabe außerhalb des normalen Chainflip-Ablaufs erzeugt wurde.
+
+Bitquery stellte zudem fest, dass sich der Chainflip-Schlüssel etwa eine Stunde und 45 Minuten nach dem Diebstahl änderte. Das könnte bedeuten, dass das Team ihn austauschte, um weitere Verluste zu verhindern. Eine gültige Signatur zeigt, dass der Tresor die Freigabe akzeptiert hat, aber nicht, wie sie zustande kam. Chainflip hat nicht gesagt, wie der Angreifer daran gelangte.
+
+!mid_cta
+
+!figure:timeline
+
+## Binnen Minuten im Mixer
+
+Die Stablecoins wurden rasch in ETH getauscht, und fast das gesamte Geld floss binnen neun Minuten nach der Abhebung in Tornado Cash, berichtete CoinDesk. Tornado Cash ist ein „Mixer“, der Coins vieler Nutzer zusammenwirft, um ihre Herkunft zu verschleiern. Die Sicherheitsfirma AMLBot erklärte, die Geldwäsche sei „mit Hochgeschwindigkeits-Automatisierung ausgeführt“ worden und zu schnell gewesen, als dass Circle und Tether, die Firmen hinter USDC und USDT, die Token hätten einfrieren können.
+
+Die Chainflip-Tresore in anderen Netzwerken wie Bitcoin und Solana schienen laut The Block nicht betroffen zu sein.
+
+## Was Chainflip sagt
+
+Um 3:14 Uhr US-Central-Zeit, rund zwei Stunden nach der Abhebung, schrieb Chainflip auf X: „Wir wissen von einem möglichen Exploit, der Chainflip-Tresore betrifft. Vorsorglich wird das Protokoll in den vollen Sicherheitsmodus versetzt. Einzahlungen, Abhebungen, Tauschgeschäfte und Kursangebote sind deaktiviert.“ Man untersuche den Vorfall, berichtete [Altcoin Reporter](L4), der den vollständigen Beitrag zitierte.
+
+Im Sicherheitsmodus werden laufende Tauschgeschäfte nicht ausgezahlt, und Liquiditätsanbieter, also Nutzer, die die Coins für die Tauschgeschäfte bereitstellen, können nichts abheben. Noch nicht abgeschlossene Einzahlungen werden nach dem Ende des Sicherheitsmodus verarbeitet. Vor dem Angriff hielt Chainflip laut von CoinDesk zitierten DeFiLlama-Daten rund 13,3 Mio. $ an gebundenem Gesamtwert.
+
+Chainflip hat nicht gesagt, ob Nutzer entschädigt werden. Nach einem anderen Angriff im September, bei dem 736.442 USDT aus dem Tron-Tresor abflossen, stimmten die Validatoren dafür, den Verlust mit Überschussmitteln aus den Tresoren zu decken, wie das Projekt in einem [Blogbeitrag](L5) schrieb.
+
+## FLIP-Token fällt
+
+Der Chainflip-Token FLIP notierte vor der Nachricht bei rund 0,48 $. Stündliche Kurse von [CoinGecko](L6) zeigen, dass er bis 5 Uhr US-Central-Zeit auf rund 0,29 $ fiel, fast 40 % weniger, und um 13 Uhr wieder bei rund 0,35 $ lag, immer noch etwa 27 % unter dem Ausgangswert. Laut The Block sank der gesamte Marktwert von FLIP von rund 41,6 Mio. $ auf 27,1 Mio. $.
+
+## Was das für Einsteiger bedeutet
+
+Brücken zwischen Blockchains und Tauschdienste verwahren große Coin-Bestände und sind deshalb häufige Ziele von Hackern. Wer neu ist, sollte den Großteil seiner Kryptowährungen bei einer großen regulierten Börse wie [Coinbase](REF) oder in einer selbst kontrollierten Wallet halten und kein Geld in Pools stecken, die er nicht wirklich versteht. Ignorieren Sie nach einem Hack alle Links zu „Rückerstattung“ oder „Wiederherstellung“, denn Betrüger geben sich oft als das betroffene Projekt aus. Dies ist keine Anlageberatung.
+
+## Worauf jetzt zu achten ist
+
+- Der Vorfallbericht von Chainflip und die bestätigte Ursache.
+- Ob Liquiditätsanbieter und Nutzer mit hängenden Tauschgeschäften entschädigt werden.
+- Wann das Netzwerk den Sicherheitsmodus verlässt und der Handel wieder läuft.
+
+!soft: Unsicher, wo Sie Ihre Coins aufbewahren sollen? Lesen Sie, [was eine Krypto-Wallet ist: verwahrt oder selbst verwahrt](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

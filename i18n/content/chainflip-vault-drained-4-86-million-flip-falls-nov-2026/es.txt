@@ -1,0 +1,65 @@
+title: El servicio de intercambio cripto Chainflip sufre un robo de unos 4,86 millones de dólares; el token FLIP se desploma
+page_title: Vacían la bóveda de Chainflip: unos 4,86 millones de dólares, el token FLIP cae
+description: Unos 4,86 millones de dólares en ETH, USDC y USDT salieron de la bóveda de Ethereum de Chainflip la madrugada del sábado en una sola transacción con firma válida. Chainflip pausó los intercambios y FLIP llegó a caer cerca de un 40%.
+og_description: Una sola transacción con firma válida vació la bóveda de Ethereum de Chainflip: 520 ETH y unos 4 millones de dólares en stablecoins, que acabaron en Tornado Cash en minutos. Chainflip está en modo seguro total.
+label: Seguridad
+summary: Una transacción firmada a la 1:10 (hora central de EE. UU.) sacó 520,22 ETH, 3,25 millones de USDC y 758.141 USDT de la bóveda de Ethereum de Chainflip. Chainflip pausó los intercambios y FLIP llegó a caer cerca de un 40%.
+===
+
+Chainflip, un servicio que permite intercambiar monedas entre distintas blockchains, por ejemplo bitcoin por ether, sin un exchange central, pausó toda su red la madrugada del sábado 21 de noviembre después de que unos <strong>4,86 millones de dólares</strong> en criptomonedas salieran de su bóveda de Ethereum en una sola transacción, según estimaciones citadas por [CoinDesk](L1) y [The Block](L2).
+
+PlainBTC revisó la transacción en los [datos públicos de la blockchain de Ethereum](L3). A la 1:10 (hora central de EE. UU.) movió 520,22 ether (ETH), 3.249.631 USDC y 758.141 USDT de la bóveda de Chainflip a una sola dirección recién usada. Pasó por la función de pago normal de la bóveda, la misma que se usa para los retiros de todos los días.
+
+!takeaways
+- Unos 4,86 millones de dólares en ETH, USDC y USDT salieron de la bóveda de Ethereum de Chainflip en una sola transacción a la 1:10 (hora central de EE. UU.) del sábado.
+- El retiro llevaba una firma válida, lo que según investigadores de seguridad apunta a un posible compromiso de la clave que comparten los validadores de Chainflip. Chainflip no ha confirmado la causa.
+- Casi todo el dinero fue a parar al mezclador Tornado Cash en unos nueve minutos.
+- Chainflip activó el «modo seguro total», que detiene depósitos, retiros e intercambios. Su token FLIP llegó a caer cerca de un 40% en el peor momento.
+
+!figure:chart
+
+## Cómo salió el dinero
+
+Las bóvedas de Chainflip no se manejan desde una billetera de la empresa. Una red de 150 validadores, los ordenadores que hacen funcionar Chainflip, comparte una clave de firma, y al menos 100 de ellos deben participar para aprobar un pago, informó The Block. Ningún validador debería tener la clave completa, y la clave se cambia cada tres días. El último cambio antes del ataque fue el 18 de noviembre.
+
+Por eso este caso llama la atención. Una alerta de la firma de seguridad Decurity indicó que la bóveda quedó vacía de «todo su saldo líquido» con una firma válida, no por un fallo en el código de la bóveda. La firma de datos blockchain Bitquery, citada por The Block, notó que el retiro llevaba un número de serie extraño de 39 dígitos, llamado nonce, en lugar del siguiente número de la lista, que rondaba los 315.000. Fue la única de 299.677 firmas de Chainflip desde 2023 que rompió la secuencia. Eso sugiere que la aprobación se generó fuera del proceso normal de Chainflip.
+
+Bitquery también detectó que la clave de Chainflip cambió aproximadamente una hora y 45 minutos después del robo, lo que podría indicar que el equipo la reemplazó para frenar más pérdidas. Una firma válida muestra que la bóveda aceptó la aprobación, pero no cómo se creó. Chainflip no ha dicho cómo la consiguió el atacante.
+
+!mid_cta
+
+!figure:timeline
+
+## A un mezclador en cuestión de minutos
+
+Las stablecoins se cambiaron rápidamente por ETH, y casi todo el dinero entró en Tornado Cash a los nueve minutos del retiro, informó CoinDesk. Tornado Cash es un «mezclador» que junta monedas de muchos usuarios para ocultar su origen. La firma de seguridad AMLBot dijo que el lavado «se ejecutó con automatización de alta velocidad» y fue demasiado rápido para que Circle y Tether, las empresas detrás de USDC y USDT, congelaran los tokens.
+
+Las bóvedas de Chainflip en otras redes, como Bitcoin y Solana, no parecían afectadas, según The Block.
+
+## Qué ha dicho Chainflip
+
+A las 3:14 (hora central de EE. UU.), unas dos horas después del retiro, Chainflip publicó en X: «Estamos al tanto de un posible exploit que afecta a las bóvedas de Chainflip. Como precaución, el protocolo pasa a modo seguro total. Los depósitos, retiros, intercambios y cotizaciones están desactivados». Dijo que estaba investigando, según [Altcoin Reporter](L4), que citó el mensaje completo.
+
+En modo seguro, los intercambios ya en curso no se pagan y los proveedores de liquidez, los usuarios que aportan las monedas que hacen posibles los intercambios, no pueden retirar. Los depósitos que aún no estaban confirmados se procesarán cuando termine el modo seguro. Antes del ataque, Chainflip tenía unos 13,3 millones de dólares en valor total bloqueado, según datos de DeFiLlama citados por CoinDesk.
+
+Chainflip no ha dicho si devolverá el dinero a los usuarios. Tras otro ataque en septiembre, que se llevó 736.442 USDT de su bóveda de Tron, sus validadores votaron cubrir la pérdida con fondos excedentes guardados en las bóvedas, según explicó el proyecto en una [entrada de blog](L5).
+
+## El token FLIP cae
+
+El token FLIP de Chainflip cotizaba cerca de 0,48 dólares antes de la noticia. Los precios por hora de [CoinGecko](L6) muestran que bajó a unos 0,29 dólares hacia las 5:00 (hora central), cerca de un 40% menos, y volvía a rondar los 0,35 dólares a la 13:00, todavía un 27% por debajo de su punto de partida. The Block dijo que el valor de mercado total de FLIP bajó de unos 41,6 millones a 27,1 millones de dólares.
+
+## Qué significa para principiantes
+
+Los puentes entre cadenas y los servicios de intercambio guardan grandes reservas de monedas, por eso son un blanco frecuente de los hackers. Si estás empezando, guarda la mayor parte de tus criptomonedas en un exchange grande y regulado como [Coinbase](REF) o en una billetera que controles tú, y evita meter dinero en fondos que no entiendes del todo. Ignora cualquier enlace de «reembolso» o «recuperación» tras un hackeo: los estafadores suelen hacerse pasar por el proyecto afectado. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- El informe del incidente de Chainflip y la causa confirmada.
+- Si los proveedores de liquidez y los usuarios con intercambios atascados recuperarán su dinero.
+- Cuándo saldrá la red del modo seguro y se reanudarán los intercambios.
+
+!soft: ¿No sabes dónde guardar tus monedas? Lee [qué es una billetera cripto: custodia propia o de terceros](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

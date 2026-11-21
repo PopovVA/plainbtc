@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "chainflip-logo.png",
+      "license": "Logo",
+      "url": "https://www.coingecko.com/en/coins/chainflip",
+      "credit": "Chainflip (logo via CoinGecko)"
+    },
+    {
+      "file": "Ethereum tx 0xc928950f79b4e4697af674310d1f3a08c2659adc4d60e719f3af90ab023ff20f",
+      "license": "Public blockchain data",
+      "url": "https://eth.blockscout.com/tx/0xc928950f79b4e4697af674310d1f3a08c2659adc4d60e719f3af90ab023ff20f",
+      "credit": "Blockscout"
+    },
+    {
+      "file": "The Block / CoinDesk, Nov. 21, 2026",
+      "license": "Figure cited",
+      "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
+      "credit": "The Block"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "chainflip-vault-drained-4-86-million-flip-falls-nov-2026",
+  "generated": "2026-11-21T19:03Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

@@ -1,0 +1,65 @@
+title: Kripto takas hizmeti Chainflip'ten yaklaşık 4,86 milyon $ çekildi; FLIP token sert düştü
+page_title: Chainflip kasasından yaklaşık 4,86 milyon $ boşaltıldı, FLIP token düşüyor
+description: Cumartesi sabaha karşı yaklaşık 4,86 milyon $ değerinde ETH, USDC ve USDT, geçerli imzalı tek bir işlemle Chainflip'in Ethereum kasasından çıktı. Chainflip takasları durdurdu, FLIP en kötü anda yaklaşık %40 düştü.
+og_description: Geçerli imzalı tek bir işlem Chainflip'in Ethereum kasasını boşalttı: 520 ETH ve yaklaşık 4 milyon $'lık stablecoin dakikalar içinde Tornado Cash'e gitti. Chainflip tam güvenli modda.
+label: Güvenlik
+summary: ABD Merkezi saatiyle 01.10'daki imzalı bir işlem Chainflip'in Ethereum kasasından 520,22 ETH, 3,25 milyon USDC ve 758.141 USDT çıkardı. Chainflip takasları durdurdu, FLIP en kötü anda yaklaşık %40 düştü.
+===
+
+Bitcoin'i ether'e çevirmek gibi farklı blokzincirler arasında merkezi bir borsa olmadan coin takası yapmayı sağlayan Chainflip, 21 Kasım cumartesi sabaha karşı tüm ağını durdurdu. Bunun öncesinde, [CoinDesk](L1) ve [The Block](L2) tarafından aktarılan tahminlere göre yaklaşık <strong>4,86 milyon $</strong> değerinde kripto, tek bir işlemle Ethereum kasasından çıktı.
+
+PlainBTC işlemi [herkese açık Ethereum blokzinciri verilerinde](L3) kontrol etti. İşlem, ABD Merkezi saatiyle 01.10'da Chainflip'in kasasından 520,22 ether (ETH), 3.249.631 USDC ve 758.141 USDT'yi yeni kullanılmaya başlanmış tek bir adrese taşıdı. İşlem, kasanın günlük çekimlerde kullanılan normal ödeme fonksiyonundan geçti.
+
+!takeaways
+- Cumartesi ABD Merkezi saatiyle 01.10'da yaklaşık 4,86 milyon $ değerinde ETH, USDC ve USDT, tek bir işlemle Chainflip'in Ethereum kasasından çıktı.
+- Çekim geçerli bir imza taşıyordu. Güvenlik araştırmacılarına göre bu, Chainflip doğrulayıcılarının ortak anahtarının ele geçirilmiş olabileceğine işaret ediyor. Chainflip nedeni doğrulamadı.
+- Paranın neredeyse tamamı yaklaşık dokuz dakika içinde Tornado Cash karıştırıcısına gitti.
+- Chainflip "tam güvenli mod"u açarak yatırma, çekme ve takas işlemlerini durdurdu. FLIP token en kötü anda yaklaşık %40 değer kaybetti.
+
+!figure:chart
+
+## Para nasıl çıktı
+
+Chainflip'in kasaları tek bir şirket cüzdanından yönetilmiyor. Chainflip'i çalıştıran bilgisayarlar olan 150 doğrulayıcıdan oluşan bir ağ ortak bir imza anahtarını birlikte tutuyor ve bir ödemenin onaylanması için en az 100'ünün katılması gerekiyor, diye aktardı The Block. Hiçbir doğrulayıcının anahtarın tamamına sahip olmaması gerekiyor ve anahtar üç günde bir değiştiriliyor. Saldırıdan önceki son değişiklik 18 Kasım'daydı.
+
+Bu yüzden olay dikkat çekiyor. Güvenlik şirketi Decurity'nin uyarısına göre kasa, koddaki bir hata yerine geçerli bir imzayla "tüm likit bakiyesinden" boşaltıldı. The Block'un aktardığı blokzincir veri şirketi Bitquery, çekimin sıradaki numara olan yaklaşık 315.000 yerine nonce denen 39 haneli tuhaf bir seri numarası taşıdığını fark etti. 2023'ten bu yana 299.677 Chainflip imzası içinde sırayı bozan tek imza buydu. Bu da onayın Chainflip'in normal süreci dışında üretildiğini düşündürüyor.
+
+Bitquery ayrıca Chainflip'in anahtarının hırsızlıktan yaklaşık bir saat 45 dakika sonra değiştiğini tespit etti; bu, ekibin yeni kayıpları önlemek için anahtarı değiştirdiği anlamına gelebilir. Geçerli bir imza kasanın onayı kabul ettiğini gösterir, ancak onayın nasıl üretildiğini göstermez. Chainflip saldırganın onu nasıl ele geçirdiğini açıklamadı.
+
+!mid_cta
+
+!figure:timeline
+
+## Dakikalar içinde karıştırıcıya
+
+Stablecoin'ler hızla ETH'ye çevrildi ve paranın neredeyse tamamı çekimden sonraki dokuz dakika içinde Tornado Cash'e girdi, diye bildirdi CoinDesk. Tornado Cash, kaynağını gizlemek için birçok kullanıcının coinlerini bir araya getiren bir "karıştırıcı". Güvenlik şirketi AMLBot, aklama işleminin "yüksek hızlı otomasyonla yürütüldüğünü" ve USDC ile USDT'nin arkasındaki şirketler Circle ve Tether'in tokenleri dondurmasına fırsat vermeyecek kadar hızlı olduğunu söyledi.
+
+The Block'a göre Chainflip'in Bitcoin ve Solana gibi diğer ağlardaki kasaları etkilenmemiş görünüyor.
+
+## Chainflip ne dedi
+
+ABD Merkezi saatiyle 03.14'te, çekimden yaklaşık iki saat sonra, Chainflip X'te şunu paylaştı: "Chainflip kasalarını etkileyen olası bir istismardan haberdarız. Önlem olarak protokol tam güvenli moda alınıyor. Yatırma, çekme, takas ve fiyat teklifi işlemleri devre dışı." Paylaşımın tamamını aktaran [Altcoin Reporter](L4)'a göre ekip, olayı incelediğini söyledi.
+
+Güvenli modda devam eden takaslar ödenmiyor ve takasları mümkün kılan coinleri sağlayan kullanıcılar, yani likidite sağlayıcılar, çekim yapamıyor. Henüz kesinleşmemiş yatırımlar güvenli mod sona erdikten sonra işlenecek. CoinDesk'in aktardığı DeFiLlama verilerine göre saldırıdan önce Chainflip'te kilitli toplam değer yaklaşık 13,3 milyon $'dı.
+
+Chainflip kullanıcılara ödeme yapılıp yapılmayacağını açıklamadı. Eylül ayında Tron kasasından 736.442 USDT alınan ayrı bir saldırının ardından doğrulayıcılar, kaybın kasalarda tutulan fazla fonlarla karşılanması yönünde oy kullanmıştı; proje bunu bir [blog yazısında](L5) anlattı.
+
+## FLIP token düşüyor
+
+Chainflip'in FLIP tokeni haberden önce 0,48 $ civarında işlem görüyordu. [CoinGecko](L6) saatlik fiyatları, tokenin Merkezi saatle 05.00'e kadar yaklaşık 0,29 $'a, yani yaklaşık %40 aşağıya düştüğünü ve 13.00'te yaklaşık 0,35 $'a döndüğünü gösteriyor; bu hâlâ başlangıç seviyesinin yaklaşık %27 altında. The Block'a göre FLIP'in toplam piyasa değeri yaklaşık 41,6 milyon $'dan 27,1 milyon $'a geriledi.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Blokzincirler arası köprüler ve takas hizmetleri büyük miktarda coin tuttuğu için sık sık hackerların hedefi oluyor. Yeni başlıyorsanız kriptonuzun büyük kısmını [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsada ya da kendi kontrolünüzdeki bir cüzdanda tutun ve tam anlamadığınız havuzlara para yatırmaktan kaçının. Bir saldırıdan sonra gelen "iade" veya "kurtarma" bağlantılarını dikkate almayın; dolandırıcılar sık sık etkilenen projeymiş gibi davranır. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Chainflip'in olay raporu ve doğrulanmış neden.
+- Likidite sağlayıcıların ve takası takılan kullanıcıların zararının karşılanıp karşılanmayacağı.
+- Ağın güvenli moddan ne zaman çıkacağı ve takasların ne zaman yeniden başlayacağı.
+
+!soft: Coinlerinizi nerede saklayacağınızdan emin değil misiniz? [Kripto cüzdan nedir: emanetçi ve kendi saklama](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazımızı okuyun.
+
+!end_cta
+
+!disclosure
