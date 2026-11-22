@@ -4,17 +4,37 @@
  "readtime": 5,
  "primary_partner": "coinbase",
  "related": [
+  "bitcoin-core-node-stall-bug-ai-found-fix-nov-2026",
   "lighter-dex-10-4-million-leaked-api-key-nov-2026",
-  "bitcoin-four-month-low-62000-liquidations-nov-2026",
   "coinone-data-breach-support-contractor-passwords-nov-2026",
   "what-is-a-crypto-wallet-custodial-vs-self-custody"
  ],
  "sources": [
-  {"url": "https://news.bitcoin.com/security/luxor-confirms-bitcoin-mining-hack-and-reveals-ai-enabled-attack/", "title": "Bitcoin.com News: Luxor confirms bitcoin mining hack and reveals AI-enabled attack", "date": "Nov 15, 2026"},
-  {"url": "https://cryptobriefing.com/64000-bitcoin-miners-hijacked-ocean-pool/", "title": "Crypto Briefing: Attackers hijack about 64,000 Bitcoin miners and point 13 EH/s at OCEAN", "date": "Nov 15, 2026"},
-  {"url": "https://www.tokenpost.com/news/technology/57777", "title": "TokenPost: Hijacking redirects 13 EH/s of Bitcoin mining power to OCEAN", "date": "Nov 15, 2026"},
-  {"url": "https://thecryptonewsfeed.com/news/luxor-confirms-commander-breach-that-redirected-bitcoin-mining-hashrate-49155/", "title": "The Crypto News Feed: Luxor confirms Commander breach that redirected bitcoin mining hashrate", "date": "Nov 15, 2026"},
-  {"url": "https://mempool.space/graphs/mining/hashrate-difficulty", "title": "mempool.space: Bitcoin hashrate and difficulty", "date": "Nov 15, 2026"}
+  {
+   "url": "https://news.bitcoin.com/security/luxor-confirms-bitcoin-mining-hack-and-reveals-ai-enabled-attack/",
+   "title": "Bitcoin.com News: Luxor confirms bitcoin mining hack and reveals AI-enabled attack",
+   "date": "Nov 15, 2026"
+  },
+  {
+   "url": "https://cryptobriefing.com/64000-bitcoin-miners-hijacked-ocean-pool/",
+   "title": "Crypto Briefing: Attackers hijack about 64,000 Bitcoin miners and point 13 EH/s at OCEAN",
+   "date": "Nov 15, 2026"
+  },
+  {
+   "url": "https://www.tokenpost.com/news/technology/57777",
+   "title": "TokenPost: Hijacking redirects 13 EH/s of Bitcoin mining power to OCEAN",
+   "date": "Nov 15, 2026"
+  },
+  {
+   "url": "https://thecryptonewsfeed.com/news/luxor-confirms-commander-breach-that-redirected-bitcoin-mining-hashrate-49155/",
+   "title": "The Crypto News Feed: Luxor confirms Commander breach that redirected bitcoin mining hashrate",
+   "date": "Nov 15, 2026"
+  },
+  {
+   "url": "https://mempool.space/graphs/mining/hashrate-difficulty",
+   "title": "mempool.space: Bitcoin hashrate and difficulty",
+   "date": "Nov 15, 2026"
+  }
  ],
  "disclosure_variant": "std"
 }
