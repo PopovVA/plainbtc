@@ -1,0 +1,69 @@
+title: Bitcoin é vendido a C$ 24.250 no mercado em dólar canadense da Kraken; Kraken diz que as negociações valem
+page_title: Bitcoin chega a C$ 24.250 no mercado em dólar canadense da Kraken
+description: O bitcoin foi negociado a apenas C$ 24.250 no mercado em dólar canadense da Kraken na madrugada de sábado, cerca de 71% abaixo do seu preço em dólar. A Kraken diz que seus sistemas funcionaram corretamente e que não vai reverter as negociações.
+og_description: Por cerca de 14 horas, vendas pesadas derrubaram os mercados em dólar canadense da Kraken muito abaixo de outros mercados. O bitcoin chegou a C$ 24.250 e um dólar americano foi negociado a C$ 0,30. A Kraken não encontrou invasão e mantém as negociações.
+label: Mercados
+summary: Na madrugada de sábado, o bitcoin foi vendido por apenas C$ 24.250 no mercado em dólar canadense da Kraken, enquanto seu preço em dólar seguia acima de US$ 57.000. A Kraken diz que não houve invasão e que as negociações valem.
+===
+
+Enquanto quase todo o mercado cripto acompanhava o bitcoin voltar para acima de US$ 60.000 no sábado, 21 de novembro, um gráfico bem mais estranho surgia em um canto da corretora Kraken. No mercado da Kraken em dólar canadense, o bitcoin chegou a ser negociado a apenas <strong>C$ 24.250</strong> por volta das 2h (horário central dos EUA), segundo os [dados públicos de preço](L4) da Kraken.
+
+No mesmo momento, o bitcoin era negociado a cerca de US$ 57.700 no mercado da Kraken em dólar americano. Pela taxa do Banco do Canadá de 20 de novembro, 1,4325 dólar canadense por dólar americano ([Banco do Canadá](L6)), isso equivale a cerca de C$ 82.600. Ou seja, alguns compradores em dólar canadense pagaram por um tempo cerca de 71% menos que todo mundo.
+
+!takeaways
+- O bitcoin chegou a C$ 24.250 no mercado BTC/CAD da Kraken por volta das 2h (horário central dos EUA) de sábado, enquanto o preço em dólar da mesma corretora seguia acima de US$ 57.000.
+- O problema durou cerca de 14 horas e atingiu vários mercados em dólar canadense, incluindo ether, o USDT da Tether e até o próprio dólar americano.
+- A Kraken diz que seus sistemas processaram todas as ordens corretamente, que não encontrou invasão e que as negociações executadas não serão revertidas.
+- Por volta das 4h (horário central dos EUA), os preços no mercado em dólar canadense já estavam perto do normal.
+
+!figure:chart
+
+## O que aconteceu
+
+O suporte da Kraken disse no X que seus mercados em dólar canadense tiveram "forte pressão vendedora que empurrou os preços muito abaixo de outros mercados" a partir de cerca das 14h (horário central dos EUA) de sexta-feira, 20 de novembro, informou o [Invezz](L2). As vendas vieram em ondas durante a madrugada. Cada onda derrubava o preço, os compradores recuperavam uma parte e então vinha a próxima.
+
+O PlainBTC verificou os [registros públicos de negociações](L5) da Kraken. Às 2h00min43s (horário central dos EUA), uma única ordem de venda a mercado de 10,417 bitcoins foi executada em 104 pedaços pequenos, a preços de C$ 31.000 até C$ 24.250. Quinze minutos depois, às 2h15min43s, outra venda do mesmo tamanho chegou a C$ 24.251,40. Uma ordem a mercado vende pelo preço que os compradores oferecem naquele instante; quando há poucos compradores esperando, cada pedaço sai mais barato que o anterior.
+
+Uma análise dos mesmos registros feita pelo [Coindaro](L3) concluiu que essas vendas chegavam em um relógio fixo: primeiro uma vez por hora, depois a cada 15 minutos, sempre no mesmo segundo e muitas vezes nos mesmos poucos tamanhos. Os registros não mostram quem enviou as ordens nem por quê. A Kraken não apontou uma causa.
+
+## Não foi só o bitcoin
+
+Todo o lado em dólar canadense da Kraken parecia quebrado. Os dados da Kraken mostram o ether a apenas C$ 796,27, a solana a C$ 32 e a stablecoin USDT da Tether, feita para valer perto de um dólar americano, a apenas C$ 0,0022. Até o mercado de câmbio da Kraken mostrou um dólar americano sendo vendido a C$ 0,30, contra uma taxa oficial de cerca de C$ 1,43.
+
+O volume também explodiu. Cerca de 592 bitcoins trocaram de mãos no mercado BTC/CAD da Kraken entre 14h de sexta e 4h de sábado (horário central dos EUA), segundo os dados por hora da Kraken. Em um dia normal, esse mercado é bem mais calmo.
+
+!mid_cta
+
+!figure:compare
+
+## Kraken: sem invasão, e as negociações valem
+
+Na mesma publicação, a Kraken disse: "Nossa plataforma processou todas as ordens corretamente, e nossas equipes de segurança não encontraram sinal de invasão ou de contas comprometidas. As negociações executadas valem". Isso significa que as negociações são definitivas para os dois lados. Quem vendeu muito abaixo do mercado não terá reembolso da Kraken, e quem comprou barato fica com as moedas.
+
+O [CryptoSlate](L1) observou que a página de status da Kraken não mostrava nenhum incidente nos seus mercados à vista canadenses na manhã de sábado. Por volta das 4h (horário central dos EUA), o bitcoin já estava de volta acima de C$ 75.000 no mercado em dólar canadense, e na noite de sábado era negociado perto de C$ 85.500.
+
+## Por que um mercado local pode quebrar assim
+
+Uma grande corretora como a Kraken tem muitos mercados separados: bitcoin contra dólar americano, contra euro, contra dólar canadense e assim por diante. Cada um tem sua própria lista de compradores e vendedores, chamada livro de ordens. O livro em dólar americano é profundo, com muitas ordens em cada preço. Livros em moedas locais menores podem ser rasos.
+
+Normalmente, operadores chamados arbitradores mantêm os preços alinhados: se o bitcoin está barato em dólar canadense, eles compram ali e vendem em outro lugar. Mas isso exige dólares canadenses novos na corretora, e transferências bancárias levam tempo, principalmente de madrugada e nos fins de semana. Quando grandes vendas atingem um livro raso mais rápido do que os compradores conseguem repô-lo, os preços podem ficar muito abaixo do preço "real" por horas.
+
+## O que isso significa para iniciantes
+
+- **Use ordens limitadas em negociações maiores.** Uma ordem limitada define o pior preço que você aceita, então um mercado raso não consegue executar você a um preço absurdo.
+- **Compare o preço em mais de um mercado** antes de vender. Se um estiver muito abaixo dos outros, algo está errado.
+- **As negociações normalmente valem.** Corretoras raramente revertem negociações que seus sistemas processaram corretamente, como mostra a resposta da Kraken.
+
+Se você está começando, grandes corretoras com mercados profundos, como a [Coinbase](REF), facilitam ver um preço justo. Isto não é recomendação de investimento.
+
+## O que acompanhar agora
+
+- Se a Kraken vai explicar o que causou as vendas ou tomar alguma medida para os clientes que venderam nos preços mais baixos.
+- Se os reguladores canadenses vão comentar o episódio.
+- Como o preço do bitcoin se comporta quando as bolsas dos EUA reabrirem na segunda-feira.
+
+!soft: É novo na compra de cripto? Leia nosso guia passo a passo sobre [como comprar seu primeiro bitcoin](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

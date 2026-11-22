@@ -1791,6 +1791,41 @@ def thumb_btc_55100_rebound():
     ]}
 
 
+def thumb_kraken_cad_crash():
+    """Paper-white 'gap' chart: Kraken XBTCAD 15-minute lows vs XBTUSD closes x 1.4325 (Bank of Canada USD/CAD, Nov 20, 2026),
+    Nov 20 noon - Nov 21 7:45 a.m. CST (frozen in chart-data.json). Low C$24,250 at 2:00 a.m. CST (08:00 UTC candle)."""
+    rows = json.loads((I18N / "kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026" / "chart-data.json").read_text(encoding="utf-8"))
+    xs = [datetime.fromtimestamp(r[0] - 6 * 3600, tz=timezone.utc) for r in rows]
+    cad = [r[1] for r in rows]; ref = [r[2] * 1.4325 for r in rows]
+    bg, ink, red = "#f6efe3", "#1f2937", "#c8102e"
+    fig = plt.figure(figsize=(6.4, 3.6), dpi=100 * S); fig.patch.set_facecolor(bg)
+    ax = fig.add_axes([0.08, 0.12, 0.88, 0.50]); ax.set_facecolor(bg)
+    for sp in ("top", "right", "left"): ax.spines[sp].set_visible(False)
+    ax.spines["bottom"].set_color("#a8a29e")
+    ax.tick_params(colors="#57534e", labelsize=7, length=0)
+    ax.grid(True, axis="y", color="#e7dccb", linewidth=0.6)
+    ax.plot(xs, ref, color=ink, linewidth=1.4, linestyle=(0, (4, 2)))
+    ax.plot(xs, cad, color=red, linewidth=2.0)
+    ax.fill_between(xs, cad, ref, color=red, alpha=0.10)
+    i = cad.index(min(cad))
+    ax.scatter([xs[i]], [cad[i]], s=36, color=red, zorder=5, edgecolors="white", linewidths=1.2)
+    ax.annotate("2 a.m. Central", (xs[i], cad[i]), xytext=(9, 0), textcoords="offset points", color=red, fontsize=7.5, fontweight="bold", va="center")
+    ax.text(xs[2], 87500, "dollar price in C$", color=ink, fontsize=7, va="bottom")
+    ax.set_ylim(18000, 95000)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"C${v/1000:.0f}k"))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%-I %p"))
+    fig.text(0.08, 0.86, "C$24,250", color=red, fontsize=30, fontweight="bold", va="center")
+    fig.text(0.47, 0.89, "Bitcoin's lowest trade on Kraken's", color=ink, fontsize=10.5, fontweight="bold", va="center")
+    fig.text(0.47, 0.81, "Canadian-dollar market, Nov. 21", color=ink, fontsize=10.5, fontweight="bold", va="center")
+    fig.text(0.08, 0.70, "about 71% below its dollar price at the time · trades stand", color="#57534e", fontsize=7.5, va="center")
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100 * S, facecolor=bg); plt.close(fig); buf.seek(0)
+    im = Image.open(buf).convert("RGB")
+    return im, {"kind": "chart", "sources": [
+        {"file": "Kraken OHLC XBTCAD and XBTUSD interval=15", "license": "Kraken public API", "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "credit": "BTC/CAD 15-minute lows and BTC/USD closes Nov 20-21, 2026, from Kraken"},
+        {"file": "FXUSDCAD 2026-11-20 = 1.4325", "license": "Public data", "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=5", "credit": "Bank of Canada"},
+    ]}
+
+
 def thumb_death_bets_act():
     """U.S. Senate seal (Wikimedia Commons, CC BY-SA 2.5) with the five event-contract categories S. 4035 would ban."""
     seal = fetch("https://upload.wikimedia.org/wikipedia/commons/f/f0/Seal_of_the_United_States_Senate.svg", CACHE/"senate-seal.svg")
@@ -1820,6 +1855,7 @@ def thumb_death_bets_act():
 
 
 BUILDERS = {
+    "kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026": thumb_kraken_cad_crash,
     "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026": thumb_btc_55100_rebound,
     "bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026": thumb_btc_new_2026_low,
     "bitcoin-below-59000-near-2026-low-liquidations-nov-2026": thumb_btc_below_59k_2026_low,

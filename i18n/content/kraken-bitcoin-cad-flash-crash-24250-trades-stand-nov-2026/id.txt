@@ -1,0 +1,69 @@
+title: Bitcoin terjual C$24.250 di pasar dolar Kanada Kraken; Kraken menyatakan transaksi tetap berlaku
+page_title: Bitcoin sempat C$24.250 di pasar dolar Kanada Kraken
+description: Bitcoin sempat diperdagangkan serendah C$24.250 di pasar dolar Kanada Kraken pada Sabtu dini hari, sekitar 71% di bawah harga dolarnya saat itu. Kraken menyatakan sistemnya bekerja dengan benar dan transaksi tidak akan dibatalkan.
+og_description: Selama sekitar 14 jam, aksi jual besar menekan pasar dolar Kanada di Kraken jauh di bawah pasar lain. Bitcoin menyentuh C$24.250 dan satu dolar AS diperdagangkan C$0,30. Kraken tidak menemukan pembobolan dan transaksi tetap berlaku.
+label: Pasar
+summary: Sabtu dini hari, bitcoin terjual serendah C$24.250 di pasar dolar Kanada Kraken, sementara harga dolarnya tetap di atas US$57.000. Kraken menyatakan tidak ada pembobolan dan transaksi tetap berlaku.
+===
+
+Saat sebagian besar pasar kripto menyaksikan bitcoin kembali naik di atas US$60.000 pada Sabtu, 21 November, grafik yang jauh lebih aneh muncul di salah satu sudut bursa Kraken. Di pasar dolar Kanada milik Kraken, bitcoin sempat diperdagangkan serendah <strong>C$24.250</strong> sekitar pukul 02.00 waktu Tengah AS, menurut [data harga publik](L4) Kraken.
+
+Pada saat yang sama, bitcoin diperdagangkan sekitar US$57.700 di pasar dolar AS Kraken. Dengan kurs Bank of Canada pada 20 November, yaitu 1,4325 dolar Kanada per dolar AS ([Bank of Canada](L6)), itu setara sekitar C$82.600. Artinya, sebagian pembeli dengan dolar Kanada sempat membayar sekitar 71% lebih murah daripada orang lain.
+
+!takeaways
+- Bitcoin menyentuh C$24.250 di pasar BTC/CAD Kraken sekitar pukul 02.00 waktu Tengah AS pada Sabtu, sementara harga dolar di bursa yang sama tetap di atas US$57.000.
+- Masalah ini berlangsung sekitar 14 jam dan mengenai beberapa pasar dolar Kanada, termasuk ether, USDT milik Tether, bahkan dolar AS itu sendiri.
+- Kraken menyatakan sistemnya memproses setiap order dengan benar, tidak menemukan pembobolan, dan transaksi yang sudah terjadi tidak akan dibatalkan.
+- Sekitar pukul 04.00 waktu Tengah AS, harga di pasar dolar Kanada sudah kembali mendekati normal.
+
+!figure:chart
+
+## Apa yang terjadi
+
+Tim dukungan Kraken menulis di X bahwa pasar dolar Kanada mereka mengalami "tekanan jual besar yang mendorong harga jauh di bawah pasar lain" sejak sekitar pukul 14.00 waktu Tengah AS pada Jumat, 20 November, lapor [Invezz](L2). Aksi jual datang bergelombang sepanjang malam. Setiap gelombang menjatuhkan harga, pembeli menarik sebagian kembali, lalu gelombang berikutnya datang.
+
+PlainBTC memeriksa [catatan transaksi publik](L5) Kraken. Pukul 02.00.43 waktu Tengah AS, satu order jual pasar sebesar 10,417 bitcoin tereksekusi dalam 104 potongan kecil pada harga dari C$31.000 hingga turun ke C$24.250. Lima belas menit kemudian, pukul 02.15.43, penjualan lain dengan ukuran sama mencapai C$24.251,40. Order pasar menjual di harga yang sedang ditawarkan pembeli saat itu, jadi ketika hanya sedikit pembeli yang menunggu, setiap potongan terisi lebih rendah dari sebelumnya.
+
+Analisis atas catatan yang sama oleh [Coindaro](L3) menemukan bahwa penjualan ini datang dengan jadwal tetap: awalnya sekali per jam, lalu setiap 15 menit, selalu pada detik yang sama dan sering dengan beberapa ukuran yang sama. Catatan itu tidak menunjukkan siapa yang mengirim order atau alasannya. Kraken belum menyebut penyebabnya.
+
+## Bukan hanya bitcoin
+
+Seluruh sisi dolar Kanada di Kraken tampak rusak. Data Kraken menunjukkan ether serendah C$796,27, solana C$32, dan stablecoin USDT milik Tether, yang dirancang tetap sekitar satu dolar AS, serendah C$0,0022. Bahkan pasar mata uang biasa di Kraken menunjukkan satu dolar AS dijual C$0,30, padahal kurs resminya sekitar C$1,43.
+
+Volume perdagangan juga melonjak. Sekitar 592 bitcoin berpindah tangan di pasar BTC/CAD Kraken antara pukul 14.00 Jumat dan 04.00 Sabtu waktu Tengah AS, menurut data per jam Kraken. Pada hari biasa, pasar itu jauh lebih sepi.
+
+!mid_cta
+
+!figure:compare
+
+## Kraken: tidak ada pembobolan, transaksi tetap berlaku
+
+Dalam unggahan yang sama, Kraken menyatakan: "Platform kami memproses setiap order dengan benar, dan tim keamanan kami tidak menemukan tanda pembobolan atau akun yang disusupi. Transaksi yang sudah dieksekusi tetap berlaku." Artinya, transaksi bersifat final bagi kedua pihak. Mereka yang menjual jauh di bawah harga pasar tidak akan mendapat pengembalian dari Kraken, dan mereka yang membeli murah tetap memegang koinnya.
+
+[CryptoSlate](L1) mencatat bahwa halaman status Kraken tidak menunjukkan insiden apa pun untuk pasar spot Kanada pada Sabtu pagi. Sekitar pukul 04.00 waktu Tengah AS, bitcoin sudah kembali di atas C$75.000 di pasar dolar Kanada, dan pada Sabtu malam diperdagangkan di sekitar C$85.500.
+
+## Mengapa pasar lokal bisa rusak seperti ini
+
+Bursa besar seperti Kraken menjalankan banyak pasar terpisah: bitcoin terhadap dolar AS, euro, dolar Kanada, dan seterusnya. Masing-masing punya daftar pembeli dan penjualnya sendiri, yang disebut buku order. Buku order dolar AS dalam, dengan banyak order di setiap harga. Buku order mata uang lokal yang lebih kecil bisa tipis.
+
+Biasanya, pedagang yang disebut arbitrase menjaga harga tetap sejalan: jika bitcoin murah dalam dolar Kanada, mereka membelinya di sana dan menjualnya di tempat lain. Namun itu butuh dolar Kanada baru di bursa, dan transfer bank butuh waktu, terutama malam hari dan akhir pekan. Ketika penjualan besar menghantam buku order tipis lebih cepat daripada pembeli bisa mengisinya kembali, harga bisa bertahan jauh di bawah harga "sebenarnya" selama berjam-jam.
+
+## Artinya bagi pemula
+
+- **Gunakan limit order untuk transaksi besar.** Limit order menetapkan harga terburuk yang Anda terima, sehingga pasar yang tipis tidak bisa mengeksekusi Anda di harga yang tidak masuk akal.
+- **Cek harga di lebih dari satu pasar** sebelum menjual. Jika satu pasar jauh di bawah yang lain, ada yang salah.
+- **Transaksi biasanya tetap berlaku.** Bursa jarang membatalkan transaksi yang sudah diproses sistemnya dengan benar, seperti terlihat dari tanggapan Kraken.
+
+Jika Anda baru mulai, bursa besar dengan pasar yang dalam seperti [Coinbase](REF) memudahkan Anda melihat harga yang wajar. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Apakah Kraken menjelaskan penyebab aksi jual atau mengambil langkah bagi nasabah yang menjual di harga terendah.
+- Apakah regulator Kanada berkomentar tentang kejadian ini.
+- Bagaimana harga bitcoin bertahan saat pasar saham AS dibuka kembali pada Senin.
+
+!soft: Baru mulai membeli kripto? Baca panduan langkah demi langkah kami tentang [cara membeli bitcoin pertama Anda](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

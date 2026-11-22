@@ -1,0 +1,45 @@
+{
+ "slug": "kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026",
+ "date": "2026-11-21",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026",
+  "bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026",
+  "kraken-payward-q3-2026-results-nov-2026",
+  "how-to-buy-first-bitcoin-coinbase"
+ ],
+ "sources": [
+  {
+   "url": "https://cryptoslate.com/kraken-says-trades-stand-after-bitcoin-sold-at-24250-canadian/",
+   "title": "CryptoSlate: Kraken says trades stand after Bitcoin sold at $24,250 Canadian",
+   "date": "Nov 21, 2026"
+  },
+  {
+   "url": "https://invezz.com/news/2026/11/21/kraken-btc-cad-24250-trades-stand/",
+   "title": "Invezz: Kraken lets trades stand after Bitcoin hits C$24,250 on CAD pairs",
+   "date": "Nov 21, 2026"
+  },
+  {
+   "url": "https://www.coindaro.com/kraken-btc-cad-flash-crash-trades-stand/",
+   "title": "Coindaro: Kraken BTC/CAD crash, bitcoin at C$24,250, trades stand",
+   "date": "Nov 21, 2026"
+  },
+  {
+   "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+   "title": "Kraken: public BTC/CAD, BTC/USD, ETH/CAD, USD/CAD and USDT/CAD price data (OHLC)",
+   "date": "Nov 21, 2026"
+  },
+  {
+   "url": "https://docs.kraken.com/api/docs/rest-api/get-recent-trades",
+   "title": "Kraken: public BTC/CAD trade records",
+   "date": "Nov 21, 2026"
+  },
+  {
+   "url": "https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/",
+   "title": "Bank of Canada: daily exchange rates (USD/CAD 1.4325 on Nov 20, 2026)",
+   "date": "Nov 20, 2026"
+  }
+ ],
+ "disclosure_variant": "std"
+}

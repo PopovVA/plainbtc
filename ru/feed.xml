@@ -5,8 +5,16 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Sat, 21 Nov 2026 14:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 00:20:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Биткоин продали за C$24 250 на рынке Kraken в канадских долларах; Kraken говорит, что сделки останутся в силе</title>
+      <link>https://plainbtc.com/ru/articles/kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026</guid>
+      <pubDate>Sun, 22 Nov 2026 00:20:00 GMT</pubDate>
+      <category>Рынки</category>
+      <description>Рано утром в субботу биткоин продавали всего за C$24 250 на рынке Kraken в канадских долларах, хотя его цена в долларах оставалась выше $57 000. Kraken говорит, что взлома не было и сделки остаются в силе.</description>
+    </item>
     <item>
       <title>Из криптосервиса обмена Chainflip вывели около $4,86 млн, токен FLIP обвалился</title>
       <link>https://plainbtc.com/ru/articles/chainflip-vault-drained-4-86-million-flip-falls-nov-2026</link>

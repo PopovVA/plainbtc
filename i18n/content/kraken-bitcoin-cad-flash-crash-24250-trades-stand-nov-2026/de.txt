@@ -1,0 +1,69 @@
+title: Bitcoin für 24.250 C$ auf Krakens Markt gegen kanadische Dollar verkauft; Kraken: Die Trades bleiben bestehen
+page_title: Bitcoin fällt auf Krakens Markt gegen kanadische Dollar auf 24.250 C$
+description: Bitcoin wurde am frühen Samstag auf Krakens Markt gegen kanadische Dollar für nur 24.250 C$ gehandelt, rund 71 % unter dem damaligen Dollarkurs. Kraken sagt, die Systeme hätten korrekt gearbeitet, und die Trades werden nicht rückgängig gemacht.
+og_description: Rund 14 Stunden lang drückten starke Verkäufe Krakens Märkte gegen kanadische Dollar weit unter andere Märkte. Bitcoin fiel auf 24.250 C$, ein US-Dollar wurde für 0,30 C$ gehandelt. Kraken fand keinen Einbruch und lässt die Trades bestehen.
+label: Märkte
+summary: Am frühen Samstag wurde Bitcoin auf Krakens Markt gegen kanadische Dollar für nur 24.250 C$ verkauft, während der Dollarkurs über 57.000 $ blieb. Kraken fand nach eigenen Angaben keinen Einbruch, die Trades bleiben bestehen.
+===
+
+Während fast der ganze Kryptomarkt zusah, wie Bitcoin am Samstag, 21. November, wieder über 60.000 $ stieg, entstand in einer Ecke der Börse Kraken ein viel seltsamerer Chart. Auf Krakens Markt gegen kanadische Dollar wurde Bitcoin gegen 2 Uhr (US-Zentralzeit) für nur <strong>24.250 C$</strong> gehandelt, wie Krakens [öffentliche Kursdaten](L4) zeigen.
+
+Zur selben Zeit kostete Bitcoin auf Krakens Markt gegen US-Dollar etwa 57.700 $. Zum Kurs der Bank of Canada vom 20. November, 1,4325 kanadische Dollar je US-Dollar ([Bank of Canada](L6)), sind das rund 82.600 C$. Manche Käufer in kanadischen Dollar zahlten also kurzzeitig rund 71 % weniger als alle anderen.
+
+!takeaways
+- Bitcoin fiel am Samstag gegen 2 Uhr (US-Zentralzeit) auf Krakens BTC/CAD-Markt auf 24.250 C$, während der Dollarkurs derselben Börse über 57.000 $ blieb.
+- Das Problem dauerte rund 14 Stunden und traf mehrere Märkte gegen kanadische Dollar, darunter Ether, Tethers USDT und sogar den US-Dollar selbst.
+- Kraken sagt, die Systeme hätten jede Order korrekt verarbeitet, es gebe keinen Einbruch, und ausgeführte Trades würden nicht rückgängig gemacht.
+- Gegen 4 Uhr (US-Zentralzeit) lagen die Kurse auf dem Markt gegen kanadische Dollar wieder nahe am Normalniveau.
+
+!figure:chart
+
+## Was passiert ist
+
+Der Kraken-Support schrieb auf X, seine Märkte gegen kanadische Dollar hätten ab etwa 14 Uhr (US-Zentralzeit) am Freitag, 20. November, „starken Verkaufsdruck, der die Preise weit unter andere Märkte drückte“ erlebt, berichtete [Invezz](L2). Die Verkäufe kamen über Nacht in Wellen. Jede Welle drückte den Kurs, Käufer holten einen Teil zurück, dann kam die nächste.
+
+PlainBTC hat Krakens [öffentliche Handelsdaten](L5) geprüft. Um 2:00:43 Uhr (US-Zentralzeit) wurde eine einzelne Market-Verkaufsorder über 10,417 Bitcoin in 104 kleinen Teilen zu Preisen von 31.000 C$ bis hinunter auf 24.250 C$ ausgeführt. Fünfzehn Minuten später, um 2:15:43 Uhr, erreichte ein weiterer Verkauf derselben Größe 24.251,40 C$. Eine Market-Order verkauft zu dem Preis, den Käufer gerade bieten. Warten nur wenige Käufer, wird jedes Teilstück tiefer ausgeführt als das vorherige.
+
+Eine Auswertung derselben Daten durch [Coindaro](L3) ergab, dass diese Verkäufe nach festem Takt kamen: erst einmal pro Stunde, dann alle 15 Minuten, immer in derselben Sekunde und oft in denselben wenigen Größen. Wer die Orders schickte und warum, zeigen die Daten nicht. Kraken hat keine Ursache genannt.
+
+## Nicht nur Bitcoin
+
+Die ganze kanadische Seite von Kraken wirkte kaputt. Krakens Daten zeigen Ether bei nur 796,27 C$, Solana bei 32 C$ und Tethers Stablecoin USDT, der etwa einen US-Dollar wert sein soll, bei nur 0,0022 C$. Sogar Krakens einfacher Devisenmarkt zeigte einen US-Dollar für 0,30 C$, bei einem offiziellen Kurs von rund 1,43 C$.
+
+Auch die Umsätze explodierten. Rund 592 Bitcoin wechselten laut Krakens Stundendaten zwischen 14 Uhr am Freitag und 4 Uhr am Samstag (US-Zentralzeit) auf dem BTC/CAD-Markt den Besitzer. An einem normalen Tag ist dieser Markt viel ruhiger.
+
+!mid_cta
+
+!figure:compare
+
+## Kraken: kein Einbruch, die Trades bleiben bestehen
+
+Im selben Beitrag schrieb Kraken: „Unsere Plattform hat jede Order korrekt verarbeitet, und unsere Sicherheitsteams fanden keine Anzeichen für einen Einbruch oder kompromittierte Konten. Ausgeführte Trades bleiben bestehen.“ Die Trades sind also für beide Seiten endgültig. Wer weit unter Marktpreis verkauft hat, bekommt von Kraken kein Geld zurück, und wer billig gekauft hat, behält seine Coins.
+
+[CryptoSlate](L1) wies darauf hin, dass Krakens Statusseite am Samstagmorgen keinen Vorfall bei den kanadischen Spotmärkten anzeigte. Gegen 4 Uhr (US-Zentralzeit) lag Bitcoin auf dem Markt gegen kanadische Dollar wieder über 75.000 C$, am Samstagabend notierte er bei rund 85.500 C$.
+
+## Warum ein lokaler Markt so entgleisen kann
+
+Eine große Börse wie Kraken betreibt viele getrennte Märkte: Bitcoin gegen US-Dollar, gegen Euro, gegen kanadische Dollar und so weiter. Jeder hat seine eigene Liste von Käufern und Verkäufern, das Orderbuch. Das Buch gegen US-Dollar ist tief, mit vielen Orders auf jedem Preisniveau. Bücher in kleineren Landeswährungen können dünn sein.
+
+Normalerweise halten sogenannte Arbitrage-Händler die Preise im Gleichklang: Ist Bitcoin in kanadischen Dollar billig, kaufen sie dort und verkaufen anderswo. Dafür brauchen sie aber frische kanadische Dollar auf der Börse, und Banküberweisungen dauern, vor allem nachts und am Wochenende. Treffen große Verkäufe ein dünnes Buch schneller, als Käufer es auffüllen können, kann der Kurs stundenlang weit unter dem „echten“ Preis liegen.
+
+## Was das für Einsteiger bedeutet
+
+- **Nutze bei größeren Trades Limit-Orders.** Eine Limit-Order legt den schlechtesten Preis fest, den du akzeptierst, damit ein dünner Markt dich nicht zu einem absurden Preis ausführt.
+- **Vergleiche den Preis auf mehr als einem Markt**, bevor du verkaufst. Liegt einer weit unter den anderen, stimmt etwas nicht.
+- **Trades bleiben meist bestehen.** Börsen machen Trades, die ihre Systeme korrekt verarbeitet haben, selten rückgängig, wie Krakens Reaktion zeigt.
+
+Wer gerade anfängt, sieht auf großen Börsen mit tiefen Märkten wie [Coinbase](REF) leichter einen fairen Preis. Dies ist keine Anlageberatung.
+
+## Worauf man jetzt achten sollte
+
+- Ob Kraken die Ursache der Verkäufe erklärt oder etwas für Kunden tut, die zu den tiefsten Preisen verkauft haben.
+- Ob sich kanadische Aufsichtsbehörden zu dem Vorfall äußern.
+- Wie sich der Bitcoin-Kurs hält, wenn die US-Börsen am Montag wieder öffnen.
+
+!soft: Neu beim Kauf von Krypto? Lies unsere Schritt-für-Schritt-Anleitung, [wie du deinen ersten Bitcoin kaufst](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

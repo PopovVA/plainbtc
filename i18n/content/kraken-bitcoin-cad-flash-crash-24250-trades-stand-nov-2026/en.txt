@@ -1,0 +1,69 @@
+title: Bitcoin sold for C$24,250 on Kraken's Canadian-dollar market; Kraken says the trades stand
+page_title: Bitcoin hits C$24,250 on Kraken's Canadian-dollar market; trades stand
+description: Bitcoin traded as low as C$24,250 on Kraken's Canadian-dollar market early Saturday, about 71% below its dollar price at the time. Kraken says its systems worked correctly and the trades will not be reversed.
+og_description: For about 14 hours, heavy selling pushed Kraken's Canadian-dollar markets far below prices elsewhere. Bitcoin hit C$24,250 and one U.S. dollar traded for C$0.30. Kraken found no breach and says executed trades stand.
+label: Markets
+summary: Early Saturday, bitcoin sold for as little as C$24,250 on Kraken's Canadian-dollar market while its dollar price stayed above $57,000. Kraken says it found no breach and the trades stand.
+===
+
+While most of the crypto market was watching bitcoin bounce back above $60,000 on Saturday, Nov. 21, a much stranger chart was unfolding on one corner of the Kraken exchange. On Kraken's Canadian-dollar market, bitcoin traded as low as <strong>C$24,250</strong> at about 2 a.m. Central time, according to Kraken's [public price data](L4).
+
+At the same moment, bitcoin was changing hands for about $57,700 on Kraken's U.S. dollar market. At the Bank of Canada's Nov. 20 exchange rate of 1.4325 Canadian dollars per U.S. dollar ([Bank of Canada](L6)), that is roughly C$82,600. In other words, some buyers in Canadian dollars briefly paid about 71% less than everyone else.
+
+!takeaways
+- Bitcoin hit C$24,250 on Kraken's BTC/CAD market at about 2 a.m. Central time on Saturday, while the same exchange's dollar price stayed above $57,000.
+- The problem lasted about 14 hours and hit several Canadian-dollar markets, including ether, Tether's USDT and even the U.S. dollar itself.
+- Kraken says its systems processed every order correctly, it found no breach, and executed trades will not be reversed.
+- By about 4 a.m. Central time, prices on the Canadian-dollar market were close to normal again.
+
+!figure:chart
+
+## What happened
+
+Kraken Support said on X that its Canadian-dollar markets saw "heavy selling pressure that pushed prices well below other markets" starting around 2 p.m. Central time on Friday, Nov. 20, [Invezz](L2) reported. The selling came in waves overnight. Each wave knocked the price down, buyers pulled part of it back, and then the next wave arrived.
+
+PlainBTC checked Kraken's [public trade records](L5). At 2:00:43 a.m. Central time, a single market sell order of 10.417 bitcoin was filled in 104 small pieces at prices from C$31,000 all the way down to C$24,250. Fifteen minutes later, at 2:15:43 a.m., another sell of the same size reached C$24,251.40. A market order sells at whatever price buyers are offering right now, so when few buyers are waiting, each piece fills lower than the one before.
+
+An analysis of the same trade records by [Coindaro](L3) found that these sells arrived on a fixed clock: first once an hour, then every 15 minutes, always at the same second, and often in the same few sizes. The records do not show who placed the orders or why. Kraken has not named a cause.
+
+## Not just bitcoin
+
+The Canadian-dollar side of Kraken looked broken across the board. Kraken's data shows ether trading as low as C$796.27, solana at C$32, and Tether's USDT stablecoin, which is designed to stay near one U.S. dollar, as low as C$0.0022. Even Kraken's plain currency market showed one U.S. dollar selling for C$0.30, against an official rate of about C$1.43.
+
+Trading also exploded. About 592 bitcoin changed hands on Kraken's BTC/CAD market between 2 p.m. Friday and 4 a.m. Saturday Central time, according to Kraken's hourly data. On a normal day, that market is much quieter.
+
+!mid_cta
+
+!figure:compare
+
+## Kraken: no breach, and the trades stand
+
+In the same post, Kraken said: "Our platform processed every order correctly, and our security teams found no sign of a breach or compromised accounts. Executed trades stand." That means trades on both sides are final. People who sold far below the market will not get a refund from Kraken, and people who bought cheap keep their coins.
+
+[CryptoSlate](L1) noted that Kraken's status page showed no incident for its Canadian spot markets on Saturday morning. By about 4 a.m. Central time, bitcoin was back above C$75,000 on the Canadian-dollar market, and on Saturday evening it traded near C$85,500.
+
+## Why a local market can break like this
+
+A big exchange like Kraken runs many separate markets: bitcoin against U.S. dollars, against euros, against Canadian dollars, and so on. Each one has its own list of buyers and sellers, called an order book. The U.S. dollar book is deep, with many orders at every price. Smaller local-currency books can be thin.
+
+Normally, traders called arbitrageurs keep prices in line: if bitcoin is cheap in Canadian dollars, they buy it there and sell it elsewhere. But that needs fresh Canadian dollars on the exchange, and bank transfers take time, especially overnight and on weekends. When large sells keep hitting a thin book faster than buyers can refill it, prices can fall far below the "real" price for hours.
+
+## What it means for beginners
+
+- **Use limit orders for bigger trades.** A limit order sets the worst price you will accept, so a thin market cannot fill you at a crazy price.
+- **Check the price on more than one market** before you sell. If one market is far below the others, something is wrong.
+- **Trades usually stand.** Exchanges rarely reverse trades that their systems processed correctly, as Kraken's response shows.
+
+If you are in the U.S. and just starting, large exchanges with deep U.S. dollar markets, such as [Coinbase](REF), make it easier to see a fair price. This is not investment advice.
+
+## What to watch next
+
+- Whether Kraken explains what caused the selling, or takes any steps for customers who sold at the lowest prices.
+- Whether Canadian regulators comment on the episode.
+- How bitcoin's price holds up when U.S. stock markets reopen on Monday.
+
+!soft: New to buying crypto? Read our step-by-step guide on [how to buy your first bitcoin](/articles/how-to-buy-first-bitcoin-coinbase).
+
+!end_cta
+
+!disclosure

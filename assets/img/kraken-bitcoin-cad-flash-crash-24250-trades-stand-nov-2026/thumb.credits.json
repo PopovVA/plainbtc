@@ -1,0 +1,27 @@
+{
+  "kind": "chart",
+  "sources": [
+    {
+      "file": "Kraken OHLC XBTCAD and XBTUSD interval=15",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "BTC/CAD 15-minute lows and BTC/USD closes Nov 20-21, 2026, from Kraken"
+    },
+    {
+      "file": "FXUSDCAD 2026-11-20 = 1.4325",
+      "license": "Public data",
+      "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=5",
+      "credit": "Bank of Canada"
+    }
+  ],
+  "slug": "kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026",
+  "generated": "2026-11-22T00:07Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

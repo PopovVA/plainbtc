@@ -5,8 +5,16 @@
     <link>https://plainbtc.com/es/</link>
     <description>Noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</description>
     <language>es</language>
-    <lastBuildDate>Sat, 21 Nov 2026 14:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 00:20:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bitcoin se vendió a 24.250 C$ en el mercado en dólares canadienses de Kraken; Kraken dice que las operaciones se mantienen</title>
+      <link>https://plainbtc.com/es/articles/kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026</guid>
+      <pubDate>Sun, 22 Nov 2026 00:20:00 GMT</pubDate>
+      <category>Mercados</category>
+      <description>La madrugada del sábado, bitcoin se vendió a solo 24.250 C$ en el mercado en dólares canadienses de Kraken, mientras su precio en dólares seguía por encima de 57.000 dólares. Kraken dice que no hubo intrusión y que las operaciones se mantienen.</description>
+    </item>
     <item>
       <title>El servicio de intercambio cripto Chainflip sufre un robo de unos 4,86 millones de dólares; el token FLIP se desploma</title>
       <link>https://plainbtc.com/es/articles/chainflip-vault-drained-4-86-million-flip-falls-nov-2026</link>

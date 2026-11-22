@@ -4566,6 +4566,80 @@ def build_btc_new_2026_low():
     ]
 
 
+def build_kraken_cad_crash():
+    slug = "kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026"
+    d = OUT / slug
+    # Kraken 15-minute candles Nov 20 18:00 UTC - Nov 21 13:45 UTC, frozen in chart-data.json as
+    # [ts, XBTCAD low, XBTUSD close]. Dollar-market line = XBTUSD close x 1.4325 (Bank of Canada USD/CAD, Nov 20, 2026).
+    import datetime as dt
+    rows = json.loads((I18N / slug / "chart-data.json").read_text(encoding="utf-8"))
+    boc = 1.4325
+    dts = [dt.datetime.fromtimestamp(r[0] - 6 * 3600, dt.UTC) for r in rows]   # U.S. Central (CST) wall clock
+    cad = [r[1] for r in rows]
+    ref = [r[2] * boc for r in rows]
+    fig, ax = plt.subplots(figsize=(12, 6.75), dpi=100)
+    style_axes(ax, "Bitcoin on Kraken, Nov. 20-21, 2026: CAD market vs. dollar price (Central time)")
+    ax.plot(dts, ref, color="#38bdf8", linewidth=2.0, linestyle="--", label="BTC/USD close x 1.4325 (Bank of Canada rate, Nov. 20)")
+    ax.plot(dts, cad, color="#f87171", linewidth=2.4, label="BTC/CAD 15-minute low")
+    ax.fill_between(dts, cad, ref, color="#f87171", alpha=0.12)
+    i = cad.index(min(cad))
+    ax.annotate("C$24,250 at 2 a.m.", (dts[i], cad[i]), xytext=(18, -4), textcoords="offset points",
+                color="#fecaca", fontsize=11, fontweight="bold", va="center")
+    ax.set_ylim(15000, 95000)
+    ax.yaxis.set_major_formatter(lambda x, _p: f"C${x:,.0f}")
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %d, %-I %p"))
+    leg = ax.legend(loc="lower left", facecolor="#0b1630", edgecolor="#1e293b", fontsize=10)
+    for t in leg.get_texts():
+        t.set_color("#e2e8f0")
+    plt.tight_layout(pad=1.2)
+    fig.text(0.99, 0.01, "plainbtc.com", color="#64748b", ha="right", fontsize=9)
+    buf = io.BytesIO()
+    fig.savefig(buf, format="png", dpi=100, facecolor=fig.get_facecolor())
+    plt.close(fig)
+    buf.seek(0)
+    chart = save_image(Image.open(buf).convert("RGB"), d / "chart-kraken-btc-cad-vs-usd-nov-20-21")
+    comp = make_compare_card(
+        d / "compare-kraken-cad-lows-vs-normal",
+        "Kraken's Canadian-dollar markets, Nov. 21",
+        "Lowest trade",
+        "Normal value",
+        [
+            ("Bitcoin", "C$24,250", "≈ C$82,636"),
+            ("Ether", "C$796.27", "≈ C$2,325"),
+            ("1 U.S. dollar", "C$0.30", "C$1.4325"),
+        ],
+        footer="Kraken data, 2 a.m. CT; normal = USD price x Bank of Canada rate",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin on Kraken from noon Central time on Nov. 20 to 7:45 a.m. on Nov. 21, 2026: a dashed blue line shows the dollar price converted to Canadian dollars, steady between about C$79,000 and C$85,000, while a red line of 15-minute lows on the Canadian-dollar market falls away from it, reaching C$24,250 at 2 a.m. before jumping back to the blue line around 4 a.m.", {
+            "es": "Gráfico de líneas de bitcoin en Kraken desde el mediodía (hora del centro de EE. UU.) del 20 de noviembre hasta las 7:45 del 21 de noviembre de 2026: una línea azul discontinua muestra el precio en dólares convertido a dólares canadienses, estable entre unos 79.000 y 85.000 C$, mientras una línea roja con los mínimos de 15 minutos del mercado en dólares canadienses se separa de ella, llega a 24.250 C$ a las 2:00 y vuelve a la línea azul hacia las 4:00",
+            "pt": "Gráfico de linha do bitcoin na Kraken do meio-dia (horário central dos EUA) de 20 de novembro às 7h45 de 21 de novembro de 2026: uma linha azul tracejada mostra o preço em dólar convertido para dólar canadense, estável entre cerca de C$ 79.000 e C$ 85.000, enquanto uma linha vermelha com as mínimas de 15 minutos do mercado em dólar canadense se afasta dela, chega a C$ 24.250 às 2h e volta à linha azul por volta das 4h",
+            "fr": "Courbe du bitcoin sur Kraken de midi (heure du Centre des États-Unis) le 20 novembre à 7 h 45 le 21 novembre 2026 : une ligne bleue pointillée montre le cours en dollars converti en dollars canadiens, stable entre environ 79 000 et 85 000 $ CA, tandis qu'une ligne rouge des plus bas sur 15 minutes du marché en dollars canadiens s'en écarte, tombe à 24 250 $ CA à 2 h puis rejoint la ligne bleue vers 4 h",
+            "de": "Liniendiagramm von Bitcoin bei Kraken von 12 Uhr mittags (US-Zentralzeit) am 20. November bis 7:45 Uhr am 21. November 2026: Eine gestrichelte blaue Linie zeigt den in kanadische Dollar umgerechneten Dollarkurs, stabil zwischen etwa 79.000 und 85.000 C$, während eine rote Linie der 15-Minuten-Tiefs im Markt gegen kanadische Dollar davon abweicht, um 2 Uhr 24.250 C$ erreicht und gegen 4 Uhr wieder zur blauen Linie springt",
+            "ru": "Линейный график биткоина на Kraken с полудня по центральному времени США 20 ноября до 7:45 21 ноября 2026 года: синяя пунктирная линия — долларовая цена в пересчёте на канадские доллары, она держится между примерно C$79 000 и C$85 000; красная линия 15-минутных минимумов рынка в канадских долларах отрывается от неё, в 2:00 доходит до C$24 250 и около 4:00 возвращается к синей линии",
+            "tr": "Bitcoin'in Kraken'deki seyrini 20 Kasım ABD Merkez saatiyle öğleden 21 Kasım 2026 saat 07.45'e kadar gösteren çizgi grafiği: kesikli mavi çizgi Kanada dolarına çevrilmiş dolar fiyatını gösteriyor ve yaklaşık 79.000-85.000 C$ arasında sabit kalıyor; Kanada doları piyasasının 15 dakikalık diplerini gösteren kırmızı çizgi ondan ayrılıyor, saat 02.00'de 24.250 C$'a iniyor ve 04.00 civarında mavi çizgiye geri dönüyor",
+            "id": "Grafik garis bitcoin di Kraken dari tengah hari waktu Tengah AS pada 20 November hingga pukul 07.45 pada 21 November 2026: garis biru putus-putus menunjukkan harga dolar AS yang dikonversi ke dolar Kanada, stabil di sekitar C$79.000 hingga C$85.000, sedangkan garis merah harga terendah 15 menit di pasar dolar Kanada menjauh darinya, mencapai C$24.250 pukul 02.00, lalu kembali ke garis biru sekitar pukul 04.00",
+            "ja": "2026年11月20日正午（米中部時間）から11月21日午前7時45分までのKrakenにおけるビットコインの折れ線グラフ。青い破線はドル価格をカナダドルに換算したもので、約7万9000〜8万5000カナダドルで安定している。赤い線はカナダドル市場の15分足安値で、青い線から離れて午前2時に2万4250カナダドルまで下がり、午前4時ごろ青い線の水準に戻っている",
+            "ko": "2026년 11월 20일 정오(미국 중부시간)부터 11월 21일 오전 7시 45분까지 크라켄의 비트코인 선 그래프. 파란 점선은 달러 가격을 캐나다 달러로 환산한 값으로 약 7만9000~8만5000캐나다달러에서 안정적이고, 캐나다 달러 시장의 15분봉 저가를 나타낸 빨간 선은 여기서 떨어져 오전 2시 2만4250캐나다달러까지 내려간 뒤 오전 4시쯤 파란 선 수준으로 돌아온다",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken BTC/CAD and BTC/USD 15-minute candles; Bank of Canada USD/CAD rate")},
+        {"id": "compare", "file": comp.name, "w": 1200, "h": 630, "kind": "compare",
+         "alt": alts("Comparison card of Kraken's Canadian-dollar markets on Nov. 21, 2026: bitcoin's lowest trade was C$24,250 against a normal value of about C$82,636; ether's was C$796.27 against about C$2,325; one U.S. dollar traded as low as C$0.30 against the Bank of Canada rate of C$1.4325", {
+            "es": "Tarjeta comparativa de los mercados en dólares canadienses de Kraken el 21 de noviembre de 2026: la operación más baja de bitcoin fue de 24.250 C$ frente a un valor normal de unos 82.636 C$; la de ether, 796,27 C$ frente a unos 2.325 C$; un dólar estadounidense llegó a cotizar a 0,30 C$ frente al tipo del Banco de Canadá de 1,4325 C$",
+            "pt": "Cartão comparativo dos mercados em dólar canadense da Kraken em 21 de novembro de 2026: a negociação mais baixa do bitcoin foi de C$ 24.250, contra um valor normal de cerca de C$ 82.636; a do ether, C$ 796,27, contra cerca de C$ 2.325; um dólar americano chegou a ser negociado a C$ 0,30, contra a taxa do Banco do Canadá de C$ 1,4325",
+            "fr": "Carte comparative des marchés en dollars canadiens de Kraken le 21 novembre 2026 : la transaction la plus basse du bitcoin s'est faite à 24 250 $ CA pour une valeur normale d'environ 82 636 $ CA ; celle de l'ether à 796,27 $ CA pour environ 2 325 $ CA ; un dollar américain s'est échangé jusqu'à 0,30 $ CA, contre un taux de la Banque du Canada de 1,4325 $ CA",
+            "de": "Vergleichskarte der Kraken-Märkte gegen kanadische Dollar am 21. November 2026: Der tiefste Bitcoin-Handel lag bei 24.250 C$ bei einem normalen Wert von etwa 82.636 C$, bei Ether 796,27 C$ gegenüber etwa 2.325 C$; ein US-Dollar wurde bis zu 0,30 C$ gehandelt, der Kurs der Bank of Canada lag bei 1,4325 C$",
+            "ru": "Карточка сравнения рынков Kraken в канадских долларах 21 ноября 2026 года: самая низкая сделка по биткоину — C$24 250 при нормальной цене около C$82 636; по эфиру — C$796,27 при примерно C$2 325; один доллар США торговался всего за C$0,30 при курсе Банка Канады C$1,4325",
+            "tr": "Kraken'in Kanada doları piyasalarını 21 Kasım 2026 için karşılaştıran kart: bitcoin'de en düşük işlem 24.250 C$ oldu, normal değer yaklaşık 82.636 C$ idi; ether'de 796,27 C$, normal değer yaklaşık 2.325 C$; bir ABD doları 0,30 C$'a kadar el değiştirdi, Kanada Merkez Bankası kuru ise 1,4325 C$ idi",
+            "id": "Kartu perbandingan pasar dolar Kanada di Kraken pada 21 November 2026: transaksi bitcoin terendah C$24.250 dibandingkan nilai normal sekitar C$82.636; ether C$796,27 dibandingkan sekitar C$2.325; satu dolar AS sempat diperdagangkan serendah C$0,30, sedangkan kurs Bank of Canada C$1,4325",
+            "ja": "2026年11月21日のKrakenのカナダドル建て市場を比べたカード。ビットコインの最安取引は2万4250カナダドルで、通常の価値は約8万2636カナダドル。イーサは796.27カナダドルで、通常は約2325カナダドル。1米ドルは最安0.30カナダドルで取引され、カナダ銀行のレートは1.4325カナダドル",
+            "ko": "2026년 11월 21일 크라켄 캐나다 달러 시장을 비교한 카드. 비트코인 최저 거래가는 2만4250캐나다달러로 정상 가치 약 8만2636캐나다달러와 비교되고, 이더는 796.27캐나다달러로 약 2325캐나다달러와 비교된다. 1미국달러는 최저 0.30캐나다달러에 거래됐고 캐나다은행 환율은 1.4325캐나다달러였다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Kraken public market data; Bank of Canada exchange rate, Nov. 20, 2026")},
+    ]
+
+
 def build_death_bets_act():
     slug = "senate-passes-death-bets-act-prediction-markets-nov-2026"
     d = OUT / slug
@@ -4620,6 +4694,7 @@ def build_death_bets_act():
 
 
 BUILDERS = {
+    "kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026": "krakencad",
     "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026": "btc55k",
     "bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026": "btcnewlow",
     "bitcoin-below-59000-near-2026-low-liquidations-nov-2026": "btc59k2026",
@@ -4701,7 +4776,9 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "btc55k":
+    if key == "krakencad":
+        figs = build_kraken_cad_crash()
+    elif key == "btc55k":
         figs = build_btc_55100_rebound()
     elif key == "btcnewlow":
         figs = build_btc_new_2026_low()

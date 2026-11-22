@@ -1,0 +1,69 @@
+title: Bitcoin, Kraken'in Kanada doları piyasasında 24.250 C$'a satıldı; Kraken işlemlerin geçerli olduğunu söylüyor
+page_title: Bitcoin, Kraken'in Kanada doları piyasasında 24.250 C$'a indi
+description: Bitcoin cumartesi sabaha karşı Kraken'in Kanada doları piyasasında 24.250 C$'a kadar işlem gördü; bu, o andaki dolar fiyatının yaklaşık %71 altındaydı. Kraken sistemlerinin doğru çalıştığını ve işlemlerin geri alınmayacağını söylüyor.
+og_description: Yaklaşık 14 saat boyunca yoğun satışlar Kraken'in Kanada doları piyasalarını diğer piyasaların çok altına itti. Bitcoin 24.250 C$'a indi, bir ABD doları 0,30 C$'a el değiştirdi. Kraken herhangi bir ihlal bulmadı ve işlemler geçerli kalıyor.
+label: Piyasalar
+summary: Cumartesi sabaha karşı bitcoin, Kraken'in Kanada doları piyasasında 24.250 C$'a kadar satıldı; dolar fiyatı ise 57.000 $'ın üzerinde kaldı. Kraken ihlal bulmadığını ve işlemlerin geçerli olduğunu söylüyor.
+===
+
+Kripto piyasasının büyük kısmı 21 Kasım cumartesi günü bitcoin'in yeniden 60.000 $'ın üzerine çıkışını izlerken, Kraken borsasının bir köşesinde çok daha tuhaf bir grafik oluşuyordu. Kraken'in [herkese açık fiyat verilerine](L4) göre, Kraken'in Kanada doları piyasasında bitcoin ABD Merkez saatiyle 02.00 civarında <strong>24.250 C$</strong>'a kadar işlem gördü.
+
+Aynı anda bitcoin, Kraken'in ABD doları piyasasında yaklaşık 57.700 $'dan el değiştiriyordu. Kanada Merkez Bankası'nın 20 Kasım kuruyla, yani ABD doları başına 1,4325 Kanada doları ile ([Kanada Merkez Bankası](L6)), bu yaklaşık 82.600 C$ ediyor. Yani Kanada doları ile alan bazı alıcılar kısa bir süre herkesten yaklaşık %71 daha az ödedi.
+
+!takeaways
+- Bitcoin cumartesi ABD Merkez saatiyle 02.00 civarında Kraken'in BTC/CAD piyasasında 24.250 C$'a indi; aynı borsadaki dolar fiyatı ise 57.000 $'ın üzerinde kaldı.
+- Sorun yaklaşık 14 saat sürdü ve ether, Tether'in USDT'si, hatta ABD dolarının kendisi dahil birçok Kanada doları piyasasını etkiledi.
+- Kraken, sistemlerinin her emri doğru işlediğini, herhangi bir ihlal bulmadığını ve gerçekleşen işlemlerin geri alınmayacağını söylüyor.
+- ABD Merkez saatiyle 04.00 civarında Kanada doları piyasasındaki fiyatlar normale yakın seviyeye dönmüştü.
+
+!figure:chart
+
+## Ne oldu
+
+[Invezz](L2)'in aktardığına göre Kraken Destek, X'te Kanada doları piyasalarının 20 Kasım cuma günü ABD Merkez saatiyle 14.00 civarından itibaren "fiyatları diğer piyasaların çok altına iten yoğun satış baskısı" yaşadığını söyledi. Satışlar gece boyunca dalgalar halinde geldi. Her dalga fiyatı düşürdü, alıcılar bir kısmını geri aldı, ardından bir sonraki dalga geldi.
+
+PlainBTC, Kraken'in [herkese açık işlem kayıtlarını](L5) inceledi. ABD Merkez saatiyle 02.00.43'te, 10,417 bitcoin'lik tek bir piyasa satış emri, 31.000 C$'dan 24.250 C$'a kadar inen fiyatlardan 104 küçük parça halinde gerçekleşti. On beş dakika sonra, 02.15.43'te, aynı büyüklükte bir başka satış 24.251,40 C$'a ulaştı. Piyasa emri, alıcıların o anda teklif ettiği fiyattan satar; bekleyen alıcı azsa her parça bir öncekinden daha düşük fiyattan gerçekleşir.
+
+[Coindaro](L3)'nun aynı kayıtlar üzerinde yaptığı analiz, bu satışların sabit bir saatle geldiğini gösterdi: önce saatte bir, sonra her 15 dakikada bir, hep aynı saniyede ve çoğunlukla aynı birkaç büyüklükte. Kayıtlar emirleri kimin ve neden gönderdiğini göstermiyor. Kraken bir neden açıklamadı.
+
+## Sadece bitcoin değil
+
+Kraken'in Kanada doları tarafı baştan sona bozuk görünüyordu. Kraken verilerine göre ether 796,27 C$'a, solana 32 C$'a ve yaklaşık bir ABD doları değerinde kalması amaçlanan Tether'in USDT stablecoin'i 0,0022 C$'a kadar indi. Kraken'in sade döviz piyasasında bile bir ABD doları, yaklaşık 1,43 C$'lık resmi kura karşı 0,30 C$'a satıldı.
+
+İşlem hacmi de patladı. Kraken'in saatlik verilerine göre cuma 14.00 ile cumartesi 04.00 arasında (ABD Merkez saati) Kraken'in BTC/CAD piyasasında yaklaşık 592 bitcoin el değiştirdi. Normal bir günde bu piyasa çok daha sakindir.
+
+!mid_cta
+
+!figure:compare
+
+## Kraken: ihlal yok, işlemler geçerli
+
+Kraken aynı paylaşımda şunu söyledi: "Platformumuz her emri doğru işledi ve güvenlik ekiplerimiz bir ihlal ya da ele geçirilmiş hesap belirtisi bulmadı. Gerçekleşen işlemler geçerlidir." Bu, işlemlerin iki taraf için de kesin olduğu anlamına geliyor. Piyasanın çok altında satanlar Kraken'den iade almayacak, ucuza alanlar ise coinlerini elinde tutacak.
+
+[CryptoSlate](L1), Kraken'in durum sayfasının cumartesi sabahı Kanada spot piyasaları için herhangi bir olay göstermediğini belirtti. ABD Merkez saatiyle 04.00 civarında bitcoin, Kanada doları piyasasında yeniden 75.000 C$'ın üzerine çıkmıştı; cumartesi akşamı ise 85.500 C$ civarında işlem görüyordu.
+
+## Yerel bir piyasa neden böyle bozulabilir
+
+Kraken gibi büyük bir borsa birçok ayrı piyasa işletir: ABD dolarına, avroya, Kanada dolarına karşı bitcoin ve benzerleri. Her birinin emir defteri denen kendi alıcı ve satıcı listesi vardır. ABD doları defteri derindir, her fiyatta çok sayıda emir bulunur. Daha küçük yerel para birimlerinin defterleri ise sığ olabilir.
+
+Normalde arbitrajcı denen yatırımcılar fiyatları hizada tutar: bitcoin Kanada dolarıyla ucuzsa orada alıp başka yerde satarlar. Ama bunun için borsada taze Kanada doları gerekir ve banka transferleri özellikle gece ve hafta sonları zaman alır. Büyük satışlar sığ bir defteri alıcıların doldurabileceğinden hızlı vurduğunda, fiyatlar saatlerce "gerçek" fiyatın çok altında kalabilir.
+
+## Yeni başlayanlar için anlamı
+
+- **Büyük işlemlerde limit emir kullanın.** Limit emir kabul edeceğiniz en kötü fiyatı belirler, böylece sığ bir piyasa sizi saçma bir fiyattan işleme sokamaz.
+- **Satmadan önce fiyatı birden fazla piyasada kontrol edin.** Biri diğerlerinin çok altındaysa bir sorun vardır.
+- **İşlemler genellikle geçerli kalır.** Kraken'in yanıtının gösterdiği gibi borsalar, sistemlerinin doğru işlediği işlemleri nadiren geri alır.
+
+Yeni başlıyorsanız, [Coinbase](REF) gibi derin piyasalara sahip büyük borsalarda adil bir fiyatı görmek daha kolaydır. Bu yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Kraken'in satışların nedenini açıklayıp açıklamayacağı ya da en düşük fiyatlardan satan müşteriler için bir adım atıp atmayacağı.
+- Kanadalı düzenleyicilerin olaya dair açıklama yapıp yapmayacağı.
+- ABD borsaları pazartesi yeniden açıldığında bitcoin fiyatının nasıl dayanacağı.
+
+!soft: Kripto almaya yeni mi başlıyorsunuz? [İlk bitcoin'inizi nasıl alacağınızı](/articles/how-to-buy-first-bitcoin-coinbase) anlatan adım adım rehberimizi okuyun.
+
+!end_cta
+
+!disclosure
