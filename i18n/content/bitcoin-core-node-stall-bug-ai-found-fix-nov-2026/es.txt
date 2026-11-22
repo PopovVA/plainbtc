@@ -1,0 +1,63 @@
+title: Bitcoin Core corrige un fallo hallado por IA que podía paralizar nodos; cerca del 40% de los nodos públicos aún usa versiones afectadas
+page_title: Bitcoin Core corrige el fallo CVE-2026-117348 hallado por IA; actualiza a 30.5, 31.3 o 32.1
+description: Bitcoin Core reveló un fallo de gravedad media que permitía a otro nodo paralizar un nodo durante más de una docena de segundos por mensaje. Las correcciones están en 30.5, 31.3 y 32.1; cerca del 40% de los nodos accesibles aún usa versiones afectadas.
+og_description: Un escaneo con IA descubrió que repetir un mismo identificador de transacción 50.000 veces podía paralizar un nodo de Bitcoin Core. La versión 29.x no recibirá parche. El fallo no permite llevarse monedas, pero quien tenga un nodo debe actualizar.
+label: Seguridad
+summary: Bitcoin Core reveló CVE-2026-117348, un fallo hallado por un escaneo con IA que permitía paralizar un nodo durante más de una docena de segundos por mensaje. Las correcciones están en 30.5, 31.3 y 32.1; unos 8.800 nodos públicos aún usan versiones afectadas.
+===
+
+Los desarrolladores de Bitcoin Core, el programa más usado para hacer funcionar la red de Bitcoin, revelaron el viernes 20 de noviembre un fallo de seguridad que podía dejar un nodo sin funcionar durante más de una docena de segundos cada vez. El fallo, registrado como <strong>CVE-2026-117348</strong>, lo detectó primero un escaneo con inteligencia artificial, según el [aviso oficial](L1).
+
+Las correcciones están en Bitcoin Core <strong>30.5 y 31.3</strong>, publicadas ese mismo día, y en la 32.1, publicada el 27 de octubre. La serie 29.x, más antigua, ya no tiene soporte y no recibirá parche. El aviso califica el problema de gravedad "media" y describe una parálisis temporal. No describe ninguna forma de robar bitcoins ni de cambiar el saldo de nadie.
+
+!takeaways
+- Otro nodo podía paralizar un nodo de Bitcoin Core durante más de una docena de segundos por mensaje repitiendo un mismo identificador de transacción hasta 50.000 veces.
+- Versiones afectadas: de la 29.0 a la 29.5, de la 30.0 a la 30.4 y de la 31.0 a la 31.2. Corregidas: 30.5, 31.3 y 32.1. La 29.x no recibirá parche.
+- Un escaneo con IA de Project Loupe en Spiral, el equipo de código abierto de bitcoin de Block, reportó el fallo en julio.
+- El domingo, cerca del 40% de los nodos accesibles públicamente aún indicaba una versión afectada de Bitcoin Core, según comprobó PlainBTC.
+
+## Qué es un nodo y cómo funcionaba el fallo
+
+Un nodo es un ordenador que guarda su propia copia de la blockchain de Bitcoin, revisa los pagos y bloques nuevos y los transmite a otros nodos. Lo usan exchanges, mineros, servicios de billeteras y muchos usuarios particulares.
+
+A veces un nodo se entera de una transacción antes de ver la transacción anterior que la financió. Guarda esta transacción "huérfana" y pide a otros nodos las piezas que faltan. Desde la versión 29.0, cuando otro nodo anuncia una huérfana que el nodo ya tiene, Bitcoin Core arma una lista de las transacciones madre que faltan y revisa cada una, explica el aviso.
+
+Los nodos anuncian transacciones en lotes de hasta 50.000 entradas, y el programa no omitía las repetidas. Un atacante podía enviar primero una huérfana con miles de transacciones madre faltantes y luego lotes que repetían su identificador 50.000 veces. "Cada uno de estos mensajes paraliza el nodo durante más de una docena de segundos, y en ese tiempo no procesa mensajes de otros nodos, incluidos los bloques", dice el aviso. La corrección hace que el nodo procese cada transacción anunciada una sola vez por lote.
+
+!figure:timeline
+
+## Por qué importa
+
+Un nodo paralizado no es una billetera hackeada, pero los retrasos pueden perjudicar a las empresas. [CoinDesk](L2) señaló que un exchange que dependa de un nodo afectado podría tardar en acreditar depósitos, y un minero podría desperdiciar potencia de cálculo trabajando con una versión desactualizada de la blockchain. Enviar más mensajes podría mantener el nodo bloqueado más tiempo.
+
+El aviso califica el fallo de "fácil de descubrir". Según la política de seguridad que Bitcoin Core adoptó el 22 de octubre, informó CoinDesk, estos fallos se corrigen en todas las versiones con soporte lo antes posible y se revelan junto con las nuevas versiones, en lugar de esperar el habitual periodo de silencio previo a la divulgación. A los desarrolladores les preocupa que las herramientas de IA abaraten volver a encontrar este tipo de fallos.
+
+## Lo encontró la IA, luego una persona
+
+El aviso atribuye el hallazgo a un escaneo automático con un modelo de lenguaje grande, parte de Project Loupe, de Elias Rohrer, en Spiral, el equipo de código abierto de bitcoin de Block. Loupe reportó el problema el 8 de julio. El desarrollador de Bitcoin Core Gregory Sanders verificó el hallazgo y lo llevó al equipo de seguridad. Un segundo investigador, Stutxo, reportó el mismo fallo el 4 de agosto, el día en que Sanders propuso una corrección. Se integró el 6 de agosto, llegó en la 32.1 el 27 de octubre y se trasladó a las versiones 30.x y 31.x publicadas el 20 de noviembre.
+
+!mid_cta
+
+!figure:chart
+
+## Cuántos nodos aún necesitan actualizar
+
+PlainBTC agrupó por la versión que declaran los 21.840 nodos accesibles públicamente de una instantánea de [BTC Nodes](L3) tomada a las 7:24 (hora central de EE. UU.) del domingo. Unos 7.150 usan una versión corregida de Bitcoin Core. Unos 6.140 usan una versión 30.x o 31.x afectada que ya tiene actualización, y unos 2.640 usan la 29.x, que no la tendrá. En total son unos 8.770 nodos, cerca del 40%.
+
+Estas cifras son orientativas. Cada nodo declara su propia versión, el recuento solo incluye nodos que aceptan conexiones externas, y unos 3.040 nodos usan otro programa o compilaciones propias que no contamos en ningún grupo.
+
+## Qué significa para principiantes
+
+Si tienes bitcoins en un exchange o en una billetera del móvil, no tienes que hacer nada. Si tienes tu propio nodo, por ejemplo en un equipo de nodo doméstico, revisa tu versión de Bitcoin Core y actualiza a 30.5, 31.3 o 32.1 (consulta las [notas de la versión](L4)). Quien siga en la 29.x debe pasar a una versión con soporte. Descarga Bitcoin Core solo desde bitcoincore.org o desde la tienda oficial de apps de tu software de nodo, porque los enlaces falsos de "actualización urgente" son una estafa habitual. Si estás empezando y compras a través de un exchange grande y regulado como [Coinbase](REF), el exchange gestiona sus propios nodos, así que no tienes nada que actualizar. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Lo rápido que baja en las próximas semanas la proporción de nodos con versiones afectadas.
+- Más fallos hallados por IA y revelados con la política más rápida de Bitcoin Core.
+- Actualizaciones de los fabricantes de software de nodo que incluyen Bitcoin Core.
+
+!soft: ¿Empiezas a montar tu propio sistema? Lee [qué es una billetera cripto: custodia o autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

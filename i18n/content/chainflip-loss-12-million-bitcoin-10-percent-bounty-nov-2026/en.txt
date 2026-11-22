@@ -1,0 +1,63 @@
+title: Chainflip says hacker also took 122.86 bitcoin, lifting the loss to about $12 million; it offers a 10% bounty
+page_title: Chainflip loss rises to about $12 million with 122.86 BTC taken; 10% bounty offered
+description: Chainflip now says the Nov. 21 attacker took 122.86 BTC as well as ETH and stablecoins, about $12 million in total. It offers the attacker 10% to return 90% by 18:38 UTC on Nov. 23.
+og_description: The bitcoin was moved in one transaction nine minutes before Chainflip's Ethereum vault was emptied. Chainflip offers a 10% bounty until Monday; the coins had not moved as of Sunday morning.
+label: Security
+summary: Chainflip now lists 122.86 BTC among the coins taken on Nov. 21, on top of the ETH and stablecoins, about $12 million in total. It offers the attacker 10% to return 90% by 12:38 p.m. Central time on Monday.
+===
+
+The hack of Chainflip, a service that swaps coins between blockchains, was bigger than first reported. In a message to the attacker published on its website, [Chainflip Labs](L1) said that on Saturday, Nov. 21, the attacker took <strong>122.86 bitcoin (BTC)</strong> from its vaults, in addition to the 520.22 ether (ETH), 3.25 million USDC and 758,141 USDT that had already been spotted leaving its Ethereum vault.
+
+First estimates, including [our report on Saturday](/articles/chainflip-vault-drained-4-86-million-flip-falls-nov-2026), put the loss at about $4.86 million and counted only the Ethereum vault. With the bitcoin included, the total is about <strong>$12 million</strong>, as [Cointelegraph](L5) and [crypto.news](L6) reported. Chainflip has offered the attacker a 10% bounty to give the rest back.
+
+!takeaways
+- Chainflip says 122.86 BTC was taken on Nov. 21, along with 520.22 ETH, 3.25 million USDC and 758,141 USDT.
+- At prices at the time, that is about $12 million, more than double the first estimate of $4.86 million.
+- The attacker can keep 10% if 90% comes back by 18:38 UTC on Monday, Nov. 23 (12:38 p.m. Central time).
+- As of Sunday morning, the bitcoin had not moved and nothing had arrived at Chainflip's return address.
+
+!figure:chart
+
+## The bitcoin left first
+
+PlainBTC checked public Bitcoin blockchain data. At 1:01 a.m. Central time on Saturday, one [transaction](L3) moved exactly 122.86137042 BTC, the amount Chainflip lists, to a newly used address. That was about nine minutes before the Ethereum vault was emptied at 1:10 a.m.
+
+Valued at Kraken's prices at 1 a.m. Central time, about $57,966 per bitcoin and $1,638 per ether, the bitcoin was worth about $7.1 million and the whole haul about $12.0 million. That makes the bitcoin the largest part of the loss. On Saturday, The Block had reported that Chainflip's vaults on other networks, such as Bitcoin, appeared to be unaffected.
+
+## A 10% offer, with a deadline
+
+Chainflip [posted on X](L2) at 1:22 p.m. Central time on Saturday that it had sent an on-chain message to the address holding the bitcoin. That message is a small Bitcoin [transaction](L4) carrying a note: "Chainflip: return 90%, keep 10%. Addresses and terms: chainflip.io/return."
+
+The terms ask for 110.57523337 BTC, which is 90% of the bitcoin, and 2,618.1 ETH to be sent to two return addresses. [Altcoin Reporter](L7) noted that the ether figure, about five times the ETH taken, appears to cover the stablecoins as well; the attacker had swapped them for ETH within minutes. Chainflip did not explain how it reached the number. If both payments arrive by 18:38 UTC on Nov. 23, Chainflip says it will treat the case as a "white hat recovery," ask no further questions and withdraw its complaints to law enforcement. It said the theft has been reported to law enforcement.
+
+!mid_cta
+
+!figure:timeline
+
+## What Chainflip says it found
+
+Chainflip's vaults are controlled by a key shared among its validators, the computers that run the network. In its message, Chainflip said it had traced how the attack was prepared: funding through the Tornado Cash mixer on Nov. 11, a purchase of its FLIP token, and a validator account registered on Nov. 20, the day before the theft, along with "the server behind it."
+
+The company said it has "identified the mechanism of key exposure" and prevented similar attacks, but it has not published a technical report or said exactly how the key was exposed. It also said it holds identifying information about the "offending validator" and the web services used, and that the attacker's addresses are flagged by major blockchain analytics firms. These are Chainflip's own claims. It has not named anyone, and no arrest has been reported.
+
+## Where things stand on Sunday
+
+As of about 8 a.m. Central time on Sunday, the 122.86 BTC was still sitting at the address that received it, according to [mempool.space](L3) data checked by PlainBTC, and the bitcoin return address had no transactions at all. The ether return address, a multi-signature wallet, held almost nothing.
+
+Chainflip has not announced that swaps, deposits or withdrawals have restarted since it switched on "full safe mode" on Saturday morning, and it has not said whether users will be repaid. In September, after a smaller attack took 736,442 USDT from its Tron vault, its validators voted to cover the loss. Chainflip's FLIP token was trading near $0.32 on Sunday morning, according to [CoinGecko](L8), down from about $0.48 before the attack.
+
+## What it means for beginners
+
+Losses from hacks often grow after the first reports, as investigators add up what left each network. If you are new, keep most of your crypto on a large regulated exchange such as [Coinbase](REF) or in a wallet you control, and avoid locking money into pools you do not fully understand. Be careful with "refund" or "claim" links after a hack: Chainflip's offer is addressed only to the attacker, and scammers often pose as the affected project. This is not investment advice.
+
+## What to watch next
+
+- Whether any coins arrive at Chainflip's return addresses before 12:38 p.m. Central time on Monday.
+- Chainflip's technical report on how the shared key was exposed.
+- Whether liquidity providers and users with stuck swaps will be made whole, and when swaps restart.
+
+!soft: Not sure where to keep your coins? Read [what a crypto wallet is: custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

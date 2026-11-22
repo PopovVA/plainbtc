@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Sun, 22 Nov 2026 00:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 14:20:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Chainflip: хакер также забрал 122,86 биткоина, ущерб вырос примерно до $12 млн; проект предлагает вознаграждение 10%</title>
+      <link>https://plainbtc.com/ru/articles/chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026</guid>
+      <pubDate>Sun, 22 Nov 2026 14:20:00 GMT</pubDate>
+      <category>Безопасность</category>
+      <description>Chainflip теперь включает 122,86 BTC в список монет, похищенных 21 ноября, вместе с ETH и стейблкоинами: всего около $12 млн. Атакующему предлагают оставить 10%, если он вернёт 90% до 12:38 по центральному времени США в понедельник.</description>
+    </item>
+    <item>
+      <title>Bitcoin Core исправил найденную ИИ ошибку, из-за которой узлы могли зависать; около 40% публичных узлов всё ещё на уязвимых версиях</title>
+      <link>https://plainbtc.com/ru/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026</guid>
+      <pubDate>Sun, 22 Nov 2026 14:15:00 GMT</pubDate>
+      <category>Безопасность</category>
+      <description>Bitcoin Core раскрыл CVE-2026-117348 — ошибку, найденную ИИ-сканером, из-за которой узел мог зависать больше чем на дюжину секунд на каждое сообщение. Исправления — в 30.5, 31.3 и 32.1; около 8800 публичных узлов всё ещё сообщают об уязвимых версиях.</description>
+    </item>
     <item>
       <title>Биткоин продали за C$24 250 на рынке Kraken в канадских долларах; Kraken говорит, что сделки останутся в силе</title>
       <link>https://plainbtc.com/ru/articles/kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026</link>

@@ -1,0 +1,63 @@
+title: Bitcoin Core memperbaiki celah temuan AI yang bisa membuat node macet; sekitar 40% node publik masih memakai versi terdampak
+page_title: Bitcoin Core perbaiki celah CVE-2026-117348 temuan AI; perbarui ke 30.5, 31.3, atau 32.1
+description: Bitcoin Core mengungkap celah tingkat menengah yang memungkinkan peer membuat node macet lebih dari belasan detik per pesan. Perbaikan ada di 30.5, 31.3, dan 32.1; sekitar 40% node yang dapat dijangkau masih melaporkan versi terdampak.
+og_description: Pemindaian AI menemukan bahwa mengulang satu ID transaksi 50.000 kali bisa membuat node Bitcoin Core macet. Versi 29.x tidak akan diperbaiki. Celah ini tidak bisa dipakai mengambil koin, tetapi pemilik node sebaiknya memperbarui.
+label: Keamanan
+summary: Bitcoin Core mengungkap CVE-2026-117348, celah temuan pemindaian AI yang bisa membuat node macet lebih dari belasan detik per pesan. Perbaikan ada di 30.5, 31.3, dan 32.1; sekitar 8.800 node publik masih melaporkan versi terdampak.
+===
+
+Pengembang Bitcoin Core, perangkat lunak yang paling banyak dipakai untuk menjalankan jaringan Bitcoin, pada Jumat, 20 November, mengungkap celah keamanan yang bisa membuat sebuah node berhenti bekerja lebih dari belasan detik setiap kali. Celah bernomor <strong>CVE-2026-117348</strong> itu pertama kali ditemukan oleh pemindaian kecerdasan buatan, menurut [pengumuman resmi](L1).
+
+Perbaikannya ada di Bitcoin Core <strong>30.5 dan 31.3</strong> yang dirilis hari itu juga, serta di 32.1 yang dirilis 27 Oktober. Seri 29.x yang lebih lama sudah tidak didukung dan tidak akan diperbaiki. Pengumuman itu menilai masalah ini berisiko "menengah" dan menggambarkan macet sementara. Tidak ada cara mencuri bitcoin atau mengubah saldo siapa pun yang dijelaskan di sana.
+
+!takeaways
+- Sebuah peer bisa membuat node Bitcoin Core macet lebih dari belasan detik per pesan dengan mengulang satu ID transaksi hingga 50.000 kali.
+- Versi terdampak: 29.0 sampai 29.5, 30.0 sampai 30.4, dan 31.0 sampai 31.2. Sudah diperbaiki: 30.5, 31.3, dan 32.1. 29.x tidak akan diperbaiki.
+- Pemindaian AI dari Project Loupe di Spiral, tim bitcoin sumber terbuka milik Block, melaporkan celah ini pada Juli.
+- Pada Minggu, sekitar 40% node yang dapat dijangkau publik masih melaporkan versi Bitcoin Core yang terdampak, menurut temuan PlainBTC.
+
+## Apa itu node dan bagaimana celah ini bekerja
+
+Node adalah komputer yang menyimpan salinan blockchain Bitcoin sendiri, memeriksa pembayaran dan blok baru, lalu meneruskannya ke node lain. Bursa, penambang, layanan dompet, dan banyak pengguna perorangan menjalankannya.
+
+Terkadang sebuah node mendengar tentang suatu transaksi sebelum melihat transaksi sebelumnya yang mendanainya. Node menyimpan transaksi "yatim" ini dan meminta bagian yang hilang dari node lain. Sejak versi 29.0, ketika sebuah peer mengumumkan transaksi yatim yang sudah disimpan node, Bitcoin Core menyusun daftar induk yang hilang dan memeriksa satu per satu, jelas pengumuman itu.
+
+Node mengumumkan transaksi dalam kelompok hingga 50.000 entri, dan perangkat lunaknya tidak melewati entri yang berulang. Penyerang bisa lebih dulu mengirim transaksi yatim dengan ribuan induk yang hilang, lalu mengirim kelompok yang mengulang ID-nya 50.000 kali. "Setiap pesan seperti itu membuat node macet lebih dari belasan detik, dan selama itu node tidak memproses pesan dari peer lain, termasuk blok," tulis pengumuman tersebut. Perbaikannya membuat node menangani setiap transaksi yang diumumkan hanya sekali per kelompok.
+
+!figure:timeline
+
+## Mengapa ini penting
+
+Node yang macet bukan dompet yang diretas, tetapi penundaan bisa merugikan bisnis. [CoinDesk](L2) mencatat bahwa bursa yang mengandalkan node terdampak bisa terlambat mengkreditkan setoran, dan penambang bisa membuang daya komputasi karena bekerja dengan gambaran blockchain yang sudah usang. Mengirim lebih banyak pesan bisa membuat node macet lebih lama.
+
+Pengumuman itu menyebut celah ini "mudah ditemukan". Berdasarkan kebijakan keamanan yang diadopsi Bitcoin Core pada 22 Oktober, menurut CoinDesk, celah semacam ini diperbaiki secepat mungkin di semua versi yang masih dipelihara dan diumumkan bersamaan dengan rilisnya, tanpa menunggu masa senyap yang biasa sebelum pengungkapan. Para pengembang khawatir alat AI membuat celah seperti ini murah untuk ditemukan kembali.
+
+## Ditemukan AI, lalu oleh manusia
+
+Pengumuman itu menyebut penemunya sebagai pemindaian otomatis dengan model bahasa besar, bagian dari Project Loupe milik Elias Rohrer di Spiral, tim bitcoin sumber terbuka milik Block. Loupe melaporkan masalah ini pada 8 Juli. Pengembang Bitcoin Core Gregory Sanders memeriksa temuan itu dan membawanya ke tim keamanan. Peneliti kedua, Stutxo, melaporkan celah yang sama pada 4 Agustus, hari ketika Sanders mengajukan perbaikan. Perbaikan itu digabungkan pada 6 Agustus, dirilis di 32.1 pada 27 Oktober, dan dibawa ke versi 30.x dan 31.x yang dirilis 20 November.
+
+!mid_cta
+
+!figure:chart
+
+## Berapa banyak node yang masih perlu diperbarui
+
+PlainBTC mengelompokkan 21.840 node yang dapat dijangkau publik dalam cuplikan [BTC Nodes](L3) pukul 07.24 waktu Central AS pada Minggu berdasarkan versi yang mereka laporkan. Sekitar 7.150 memakai rilis Bitcoin Core yang sudah diperbaiki. Sekitar 6.140 memakai versi 30.x atau 31.x terdampak yang sudah punya pembaruan, dan sekitar 2.640 memakai 29.x yang tidak akan mendapatkannya. Totalnya sekitar 8.770 node, atau kira-kira 40%.
+
+Angka ini hanya gambaran kasar. Node melaporkan versinya sendiri, hitungan hanya mencakup node yang menerima koneksi dari luar, dan sekitar 3.040 node memakai perangkat lunak lain atau buatan sendiri yang tidak kami masukkan ke kelompok mana pun.
+
+## Artinya bagi pemula
+
+Jika Anda menyimpan bitcoin di bursa atau di dompet ponsel, Anda tidak perlu melakukan apa pun. Jika Anda menjalankan node sendiri, misalnya di perangkat node rumahan, periksa versi Bitcoin Core Anda dan perbarui ke 30.5, 31.3, atau 32.1 (lihat [catatan rilis](L4)). Pengguna yang masih di 29.x sebaiknya pindah ke versi yang didukung. Unduh Bitcoin Core hanya dari bitcoincore.org atau toko aplikasi resmi perangkat lunak node Anda, karena tautan palsu "pembaruan mendesak" adalah penipuan yang umum. Jika Anda baru mulai dan membeli lewat bursa besar yang teregulasi seperti [Coinbase](REF), bursa menjalankan node-nya sendiri, jadi tidak ada yang perlu Anda perbarui. Ini bukan saran investasi.
+
+## Yang perlu dipantau
+
+- Seberapa cepat porsi node dengan versi terdampak turun dalam beberapa minggu ke depan.
+- Celah lain temuan AI yang diungkap lewat kebijakan Bitcoin Core yang lebih cepat.
+- Pembaruan dari pembuat perangkat lunak node yang menyertakan Bitcoin Core.
+
+!soft: Baru mulai menyiapkan perangkat sendiri? Baca [apa itu dompet kripto: kustodian vs. simpan sendiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

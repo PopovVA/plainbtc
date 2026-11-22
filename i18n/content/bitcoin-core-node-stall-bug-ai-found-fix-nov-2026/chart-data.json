@@ -1,0 +1,13 @@
+{
+  "source": "BTC Nodes (btcnodes.io) reachable-node snapshot, API /api/v1/snapshots/latest/ (bitnodes.io redirects there)",
+  "snapshot_utc": "2026-11-22T13:24:28Z",
+  "total_reachable": 21840,
+  "method": "User agents exactly '/Satoshi:X.Y.Z/' (stock Bitcoin Core). Affected per CVE-2026-117348 advisory: 29.0-29.5, 30.0-30.4, 31.0-31.2. Fixed: 30.5+, 31.3+, 32.x. Custom/other: Knots, vendor-tagged builds, btcd, etc.",
+  "groups": [
+    ["Fixed version\n(32.x, 31.3, 30.5)", 7153],
+    ["Affected, fix available\n(30.0-30.4, 31.0-31.2)", 6138],
+    ["Affected, no fix\n(29.x, end of life)", 2636],
+    ["Older than 29.0\n(not affected by this bug)", 2872],
+    ["Other or custom\nsoftware (not counted)", 3041]
+  ]
+}

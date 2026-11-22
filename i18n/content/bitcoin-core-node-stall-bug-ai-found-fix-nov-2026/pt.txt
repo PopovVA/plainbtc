@@ -1,0 +1,63 @@
+title: Bitcoin Core corrige falha encontrada por IA que podia travar nós; cerca de 40% dos nós públicos ainda usam versões afetadas
+page_title: Bitcoin Core corrige a falha CVE-2026-117348 encontrada por IA; atualize para 30.5, 31.3 ou 32.1
+description: O Bitcoin Core divulgou uma falha de gravidade média que permitia a outro nó travar um nó por mais de uma dúzia de segundos a cada mensagem. As correções estão nas versões 30.5, 31.3 e 32.1; cerca de 40% dos nós acessíveis ainda usam versões afetadas.
+og_description: Uma varredura com IA descobriu que repetir um mesmo ID de transação 50.000 vezes podia travar um nó do Bitcoin Core. A versão 29.x não terá correção. A falha não permite levar moedas, mas quem roda um nó deve atualizar.
+label: Segurança
+summary: O Bitcoin Core divulgou a CVE-2026-117348, falha encontrada por uma varredura com IA que permitia travar um nó por mais de uma dúzia de segundos a cada mensagem. As correções estão nas versões 30.5, 31.3 e 32.1; cerca de 8.800 nós públicos ainda usam versões afetadas.
+===
+
+Os desenvolvedores do Bitcoin Core, o software mais usado para rodar a rede Bitcoin, divulgaram na sexta-feira, 20 de novembro, uma falha de segurança que podia deixar um nó parado por mais de uma dúzia de segundos de cada vez. A falha, registrada como <strong>CVE-2026-117348</strong>, foi encontrada primeiro por uma varredura com inteligência artificial, segundo o [alerta oficial](L1).
+
+As correções estão no Bitcoin Core <strong>30.5 e 31.3</strong>, lançados no mesmo dia, e no 32.1, lançado em 27 de outubro. A série 29.x, mais antiga, chegou ao fim do suporte e não terá correção. O alerta classifica o problema como de gravidade "média" e descreve um travamento temporário. Ele não descreve nenhuma forma de roubar bitcoin ou alterar o saldo de alguém.
+
+!takeaways
+- Outro nó podia travar um nó do Bitcoin Core por mais de uma dúzia de segundos a cada mensagem, repetindo um mesmo ID de transação até 50.000 vezes.
+- Versões afetadas: 29.0 a 29.5, 30.0 a 30.4 e 31.0 a 31.2. Corrigidas: 30.5, 31.3 e 32.1. A 29.x não terá correção.
+- Uma varredura com IA do Project Loupe, na Spiral, a equipe de código aberto de bitcoin da Block, reportou a falha em julho.
+- No domingo, cerca de 40% dos nós acessíveis publicamente ainda informavam uma versão afetada do Bitcoin Core, segundo levantamento do PlainBTC.
+
+## O que é um nó e como a falha funcionava
+
+Um nó é um computador que guarda sua própria cópia da blockchain do Bitcoin, confere novos pagamentos e blocos e os repassa a outros nós. Corretoras, mineradores, serviços de carteira e muitos usuários comuns rodam um.
+
+Às vezes um nó fica sabendo de uma transação antes de ver a transação anterior que a financiou. Ele guarda essa transação "órfã" e pede aos outros nós as partes que faltam. Desde a versão 29.0, quando outro nó anuncia uma órfã que o nó já tem, o Bitcoin Core monta uma lista das transações-mãe que faltam e confere cada uma, explica o alerta.
+
+Os nós anunciam transações em lotes de até 50.000 itens, e o software não ignorava itens repetidos. Um atacante podia enviar primeiro uma órfã com milhares de transações-mãe faltando e depois lotes repetindo o ID dela 50.000 vezes. "Cada mensagem desse tipo trava o nó por mais de uma dúzia de segundos, e nesse tempo ele não processa mensagens de outros nós, incluindo blocos", diz o alerta. A correção faz o nó tratar cada transação anunciada uma única vez por lote.
+
+!figure:timeline
+
+## Por que isso importa
+
+Um nó travado não é uma carteira hackeada, mas atrasos podem prejudicar empresas. O [CoinDesk](L2) observou que uma corretora que dependa de um nó afetado pode demorar a creditar depósitos, e um minerador pode desperdiçar poder de processamento trabalhando com uma visão desatualizada da blockchain. Enviar mais mensagens poderia manter o nó travado por mais tempo.
+
+O alerta diz que a falha é "fácil de descobrir". Pela política de segurança que o Bitcoin Core adotou em 22 de outubro, segundo o CoinDesk, falhas assim são corrigidas em todas as versões mantidas o quanto antes e divulgadas junto com os lançamentos, em vez de aguardar o período de sigilo habitual antes da divulgação. Os desenvolvedores temem que ferramentas de IA tornem barato reencontrar esse tipo de falha.
+
+## Achada pela IA, depois por uma pessoa
+
+O alerta credita uma varredura automática com um modelo de linguagem de grande porte, parte do Project Loupe, de Elias Rohrer, na Spiral, a equipe de código aberto de bitcoin da Block. O Loupe reportou o problema em 8 de julho. O desenvolvedor do Bitcoin Core Gregory Sanders verificou a descoberta e a levou à equipe de segurança. Um segundo pesquisador, Stutxo, reportou a mesma falha em 4 de agosto, dia em que Sanders abriu uma correção. Ela foi incorporada em 6 de agosto, chegou no 32.1 em 27 de outubro e foi levada às versões 30.x e 31.x lançadas em 20 de novembro.
+
+!mid_cta
+
+!figure:chart
+
+## Quantos nós ainda precisam atualizar
+
+O PlainBTC agrupou pela versão informada os 21.840 nós acessíveis publicamente em um retrato do [BTC Nodes](L3) feito às 7h24 (horário central dos EUA) de domingo. Cerca de 7.150 usam uma versão corrigida do Bitcoin Core. Cerca de 6.140 usam uma versão 30.x ou 31.x afetada que já tem atualização, e cerca de 2.640 usam a 29.x, que não terá. Juntos, são cerca de 8.770 nós, ou aproximadamente 40%.
+
+Esses números são uma referência aproximada. Cada nó informa a própria versão, a contagem inclui só nós que aceitam conexões externas, e cerca de 3.040 nós usam outro software ou versões próprias, que não entraram em nenhum grupo.
+
+## O que isso significa para iniciantes
+
+Se você guarda bitcoin em uma corretora ou em uma carteira de celular, não precisa fazer nada. Se você roda seu próprio nó, por exemplo em um aparelho de nó doméstico, confira sua versão do Bitcoin Core e atualize para 30.5, 31.3 ou 32.1 (veja as [notas de lançamento](L4)). Quem ainda usa a 29.x deve migrar para uma versão com suporte. Baixe o Bitcoin Core só em bitcoincore.org ou na loja oficial de apps do seu software de nó, porque links falsos de "atualização urgente" são um golpe comum. Se você está começando e compra por uma corretora grande e regulamentada como a [Coinbase](REF), a corretora roda os próprios nós, então não há nada para você atualizar. Isto não é recomendação de investimento.
+
+## O que acompanhar agora
+
+- A rapidez com que cai, nas próximas semanas, a fatia de nós em versões afetadas.
+- Novas falhas encontradas por IA e divulgadas pela política mais rápida do Bitcoin Core.
+- Atualizações de fabricantes de software de nó que incluem o Bitcoin Core.
+
+!soft: Começando a montar sua própria estrutura? Leia [o que é uma carteira cripto: custodial ou autocustódia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

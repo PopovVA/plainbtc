@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/de/</link>
     <description>Bitcoin- und Krypto-News in einfacher Sprache für Einsteiger</description>
     <language>de</language>
-    <lastBuildDate>Sun, 22 Nov 2026 00:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 14:20:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/de/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Chainflip: Angreifer erbeutete auch 122,86 Bitcoin, Schaden steigt auf rund 12 Mio. $; Projekt bietet 10 % Belohnung</title>
+      <link>https://plainbtc.com/de/articles/chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026</guid>
+      <pubDate>Sun, 22 Nov 2026 14:20:00 GMT</pubDate>
+      <category>Sicherheit</category>
+      <description>Chainflip führt nun auch 122,86 BTC unter den am 21. November entwendeten Coins auf, zusätzlich zu ETH und Stablecoins: insgesamt rund 12 Mio. $. Der Angreifer darf 10 % behalten, wenn er 90 % bis Montag, 12:38 Uhr US-Central-Zeit, zurückgibt.</description>
+    </item>
+    <item>
+      <title>Bitcoin Core behebt einen von KI gefundenen Fehler, der Nodes lahmlegen konnte; rund 40 % der öffentlichen Nodes laufen noch mit betroffenen Versionen</title>
+      <link>https://plainbtc.com/de/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026</guid>
+      <pubDate>Sun, 22 Nov 2026 14:15:00 GMT</pubDate>
+      <category>Sicherheit</category>
+      <description>Bitcoin Core hat CVE-2026-117348 offengelegt, einen per KI-Scan gefundenen Fehler, mit dem ein Peer einen Node pro Nachricht über ein Dutzend Sekunden lahmlegen konnte. Behoben in 30.5, 31.3 und 32.1; rund 8.800 öffentliche Nodes melden noch betroffene Versionen.</description>
+    </item>
     <item>
       <title>Bitcoin für 24.250 C$ auf Krakens Markt gegen kanadische Dollar verkauft; Kraken: Die Trades bleiben bestehen</title>
       <link>https://plainbtc.com/de/articles/kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026</link>

@@ -1,0 +1,63 @@
+title: Chainflip affirme que le pirate a aussi pris 122,86 bitcoins, ce qui porte la perte à environ 12 millions de dollars ; une prime de 10 % est proposée
+page_title: La perte de Chainflip passe à environ 12 millions de dollars avec 122,86 BTC dérobés ; prime de 10 % proposée
+description: Chainflip indique désormais que l'attaquant du 21 novembre a pris 122,86 BTC en plus d'ETH et de stablecoins, soit environ 12 millions de dollars au total. Il lui propose 10 % s'il rend 90 % avant 18 h 38 UTC le 23 novembre.
+og_description: Les bitcoins sont partis en une seule transaction, neuf minutes avant que le coffre Ethereum de Chainflip ne soit vidé. Chainflip propose une prime de 10 % jusqu'à lundi ; dimanche matin, les fonds n'avaient pas bougé.
+label: Sécurité
+summary: Chainflip ajoute désormais 122,86 BTC à la liste des fonds dérobés le 21 novembre, en plus de l'ETH et des stablecoins : environ 12 millions de dollars au total. Il propose à l'attaquant 10 % s'il rend 90 % avant lundi 12 h 38, heure du Centre des États-Unis.
+===
+
+Le piratage de Chainflip, un service qui échange des cryptomonnaies entre différentes blockchains, est plus important qu'annoncé au départ. Dans un message adressé à l'attaquant et publié sur son site, [Chainflip Labs](L1) indique que le samedi 21 novembre, l'attaquant a pris <strong>122,86 bitcoins (BTC)</strong> dans ses coffres, en plus des 520,22 ethers (ETH), 3,25 millions d'USDC et 758 141 USDT déjà repérés à la sortie de son coffre Ethereum.
+
+Les premières estimations, dont [notre article de samedi](/articles/chainflip-vault-drained-4-86-million-flip-falls-nov-2026), chiffraient la perte à environ 4,86 millions de dollars et ne prenaient en compte que le coffre Ethereum. Avec les bitcoins, le total atteint environ <strong>12 millions de dollars</strong>, comme l'ont rapporté [Cointelegraph](L5) et [crypto.news](L6). Chainflip a proposé à l'attaquant une prime de 10 % pour qu'il rende le reste.
+
+!takeaways
+- Chainflip affirme que 122,86 BTC ont été pris le 21 novembre, avec 520,22 ETH, 3,25 millions d'USDC et 758 141 USDT.
+- Aux cours du moment, cela représente environ 12 millions de dollars, plus du double de la première estimation de 4,86 millions.
+- L'attaquant peut garder 10 % si 90 % sont rendus avant 18 h 38 UTC le lundi 23 novembre (12 h 38, heure du Centre des États-Unis).
+- Dimanche matin, les bitcoins n'avaient pas bougé et rien n'était arrivé à l'adresse de restitution de Chainflip.
+
+!figure:chart
+
+## Les bitcoins sont partis en premier
+
+PlainBTC a vérifié les données publiques de la blockchain Bitcoin. Samedi à 1 h 01 (heure du Centre des États-Unis), une seule [transaction](L3) a envoyé exactement 122,86137042 BTC, le montant indiqué par Chainflip, vers une adresse nouvellement utilisée. C'était environ neuf minutes avant que le coffre Ethereum ne soit vidé, à 1 h 10.
+
+Aux cours de Kraken à 1 h (heure du Centre), soit environ 57 966 dollars par bitcoin et 1 638 dollars par ether, les bitcoins valaient environ 7,1 millions de dollars et l'ensemble du butin environ 12,0 millions. Les bitcoins représentent donc la plus grosse part de la perte. Samedi, The Block avait indiqué que les coffres de Chainflip sur d'autres réseaux, comme Bitcoin, semblaient épargnés.
+
+## Une offre de 10 %, avec une date limite
+
+Chainflip a [annoncé sur X](L2) samedi à 13 h 22 (heure du Centre) avoir envoyé un message sur la blockchain à l'adresse qui détient les bitcoins. Ce message est une petite [transaction](L4) Bitcoin portant une note : « Chainflip: return 90%, keep 10%. Addresses and terms: chainflip.io/return. » (rendez 90 %, gardez 10 % ; adresses et conditions sur chainflip.io/return).
+
+Les conditions demandent l'envoi de 110,57523337 BTC, soit 90 % des bitcoins, et de 2 618,1 ETH vers deux adresses de restitution. [Altcoin Reporter](L7) a relevé que le montant en ether, environ cinq fois l'ETH dérobé, semble couvrir aussi les stablecoins ; l'attaquant les avait échangés contre de l'ETH en quelques minutes. Chainflip n'a pas expliqué comment il a obtenu ce chiffre. Si les deux paiements arrivent avant 18 h 38 UTC le 23 novembre, Chainflip dit qu'il traitera l'affaire comme une « récupération white hat », ne posera plus de questions et retirera ses plaintes auprès des autorités. Il précise que le vol a été signalé aux forces de l'ordre.
+
+!mid_cta
+
+!figure:timeline
+
+## Ce que Chainflip dit avoir découvert
+
+Les coffres de Chainflip sont contrôlés par une clé partagée entre ses validateurs, les ordinateurs qui font tourner le réseau. Dans son message, Chainflip affirme avoir retracé la préparation de l'attaque : des fonds reçus via le mélangeur Tornado Cash le 11 novembre, un achat de son jeton FLIP et un compte de validateur enregistré le 20 novembre, la veille du vol, ainsi que « le serveur derrière ».
+
+L'entreprise dit avoir « identifié le mécanisme d'exposition de la clé » et empêché des attaques similaires, mais elle n'a pas publié de rapport technique ni expliqué précisément comment la clé a été exposée. Elle affirme aussi détenir des informations permettant d'identifier le « validateur fautif » et les services web utilisés, et que les adresses de l'attaquant sont signalées par les grandes sociétés d'analyse de blockchain. Ce sont les affirmations de Chainflip. Personne n'a été nommé et aucune arrestation n'a été signalée.
+
+## La situation dimanche
+
+Dimanche vers 8 h (heure du Centre), les 122,86 BTC se trouvaient toujours à l'adresse qui les avait reçus, selon les données de [mempool.space](L3) vérifiées par PlainBTC, et l'adresse de restitution des bitcoins n'avait reçu aucune transaction. L'adresse de restitution des ethers, un portefeuille multisignature, ne contenait presque rien.
+
+Chainflip n'a pas annoncé la reprise des échanges, des dépôts ou des retraits depuis qu'il a activé le « mode de sécurité complet » samedi matin, et n'a pas dit si les utilisateurs seront remboursés. En septembre, après une attaque plus petite qui avait emporté 736 442 USDT de son coffre sur Tron, ses validateurs avaient voté pour couvrir la perte. Le jeton FLIP de Chainflip s'échangeait autour de 0,32 dollar dimanche matin, selon [CoinGecko](L8), contre environ 0,48 dollar avant l'attaque.
+
+## Ce que cela signifie pour les débutants
+
+Les pertes liées aux piratages augmentent souvent après les premières annonces, à mesure que les enquêteurs additionnent ce qui a quitté chaque réseau. Si vous débutez, gardez l'essentiel de vos cryptomonnaies sur une grande plateforme régulée comme [Coinbase](REF) ou dans un portefeuille que vous contrôlez, et évitez de placer de l'argent dans des pools que vous ne comprenez pas bien. Méfiez-vous des liens de « remboursement » ou de « réclamation » après un piratage : l'offre de Chainflip ne s'adresse qu'à l'attaquant, et les escrocs se font souvent passer pour le projet touché. Ceci n'est pas un conseil en investissement.
+
+## Ce qu'il faut surveiller
+
+- Si des fonds arrivent aux adresses de restitution de Chainflip avant lundi 12 h 38 (heure du Centre).
+- Le rapport technique de Chainflip sur la façon dont la clé partagée a été exposée.
+- Si les fournisseurs de liquidité et les utilisateurs aux échanges bloqués seront dédommagés, et quand les échanges reprendront.
+
+!soft: Vous ne savez pas où garder vos cryptos ? Lisez [ce qu'est un portefeuille crypto : dépositaire ou auto-conservation](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

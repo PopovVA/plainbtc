@@ -1,0 +1,63 @@
+title: Bitcoin Core behebt einen von KI gefundenen Fehler, der Nodes lahmlegen konnte; rund 40 % der öffentlichen Nodes laufen noch mit betroffenen Versionen
+page_title: Bitcoin Core behebt KI-Fund CVE-2026-117348; Update auf 30.5, 31.3 oder 32.1
+description: Bitcoin Core hat einen Fehler mittlerer Schwere offengelegt, mit dem ein Peer einen Node pro Nachricht über ein Dutzend Sekunden lahmlegen konnte. Behoben in 30.5, 31.3 und 32.1; rund 40 % der erreichbaren Nodes melden noch betroffene Versionen.
+og_description: Ein KI-Scan fand heraus, dass eine 50.000-mal wiederholte Transaktions-ID einen Bitcoin-Core-Node ausbremsen konnte. Version 29.x bekommt keinen Fix. Coins lassen sich so nicht stehlen, aber Node-Betreiber sollten updaten.
+label: Sicherheit
+summary: Bitcoin Core hat CVE-2026-117348 offengelegt, einen per KI-Scan gefundenen Fehler, mit dem ein Peer einen Node pro Nachricht über ein Dutzend Sekunden lahmlegen konnte. Behoben in 30.5, 31.3 und 32.1; rund 8.800 öffentliche Nodes melden noch betroffene Versionen.
+===
+
+Die Entwickler von Bitcoin Core, der meistgenutzten Software für den Betrieb des Bitcoin-Netzwerks, haben am Freitag, 20. November, einen Sicherheitsfehler offengelegt, durch den ein Node jeweils mehr als ein Dutzend Sekunden lang stillstehen konnte. Der Fehler mit der Kennung <strong>CVE-2026-117348</strong> wurde laut dem [offiziellen Sicherheitshinweis](L1) zuerst von einem KI-Scan entdeckt.
+
+Die Korrekturen stecken in Bitcoin Core <strong>30.5 und 31.3</strong>, die am selben Tag erschienen, sowie in 32.1 vom 27. Oktober. Die ältere Reihe 29.x wird nicht mehr unterstützt und bekommt keinen Fix. Der Hinweis stuft das Problem als „mittel“ ein und beschreibt einen vorübergehenden Stillstand. Einen Weg, Bitcoin zu stehlen oder Guthaben zu verändern, beschreibt er nicht.
+
+!takeaways
+- Ein Peer konnte einen Bitcoin-Core-Node pro Nachricht über ein Dutzend Sekunden lahmlegen, indem er eine Transaktions-ID bis zu 50.000-mal wiederholte.
+- Betroffen: 29.0 bis 29.5, 30.0 bis 30.4 und 31.0 bis 31.2. Behoben: 30.5, 31.3 und 32.1. 29.x bekommt keinen Fix.
+- Ein KI-Scan von Project Loupe bei Spiral, dem Open-Source-Bitcoin-Team von Block, meldete den Fehler im Juli.
+- Am Sonntag meldeten noch rund 40 % der öffentlich erreichbaren Nodes eine betroffene Bitcoin-Core-Version, wie PlainBTC ermittelte.
+
+## Was ein Node ist und wie der Fehler funktionierte
+
+Ein Node ist ein Computer, der eine eigene Kopie der Bitcoin-Blockchain führt, neue Zahlungen und Blöcke prüft und an andere Nodes weitergibt. Börsen, Miner, Wallet-Dienste und viele Privatnutzer betreiben einen.
+
+Manchmal erfährt ein Node von einer Transaktion, bevor er die frühere Transaktion gesehen hat, aus der sie finanziert wird. Er hält diese „verwaiste“ Transaktion fest und fragt andere Nodes nach den fehlenden Teilen. Seit Version 29.0 erstellt Bitcoin Core, wenn ein Peer eine bereits gespeicherte Waise ankündigt, eine Liste ihrer fehlenden Eltern-Transaktionen und prüft jede einzelne, erklärt der Hinweis.
+
+Nodes kündigen Transaktionen in Paketen mit bis zu 50.000 Einträgen an, und die Software übersprang doppelte Einträge nicht. Ein Angreifer konnte zuerst eine Waise mit Tausenden fehlenden Eltern schicken und dann Pakete, die ihre ID 50.000-mal wiederholten. „Jede solche Nachricht legt den Node für mehr als ein Dutzend Sekunden lahm, in denen er keine Nachrichten anderer Peers verarbeitet, auch keine Blöcke“, heißt es im Hinweis. Mit dem Fix bearbeitet ein Node jede angekündigte Transaktion nur einmal pro Paket.
+
+!figure:timeline
+
+## Warum das wichtig ist
+
+Ein blockierter Node ist keine gehackte Wallet, doch Verzögerungen können Unternehmen schaden. [CoinDesk](L2) wies darauf hin, dass eine Börse mit einem betroffenen Node Einzahlungen verspätet gutschreiben könnte und ein Miner Rechenleistung auf einem veralteten Stand der Blockchain verschwenden könnte. Weitere Nachrichten könnten den Node länger blockieren.
+
+Der Hinweis nennt den Fehler „leicht auffindbar“. Nach der Sicherheitsrichtlinie, die Bitcoin Core am 22. Oktober beschlossen hat, werden solche Fehler laut CoinDesk so schnell wie möglich in allen gepflegten Versionen behoben und zusammen mit den Releases offengelegt, statt die übliche Schweigefrist vor der Veröffentlichung abzuwarten. Die Entwickler befürchten, dass KI-Werkzeuge das erneute Aufspüren solcher Fehler billig machen.
+
+## Erst von der KI gefunden, dann von einem Menschen
+
+Der Hinweis nennt als Entdecker einen automatisierten Scan mit einem großen Sprachmodell aus Elias Rohrers Project Loupe bei Spiral, dem Open-Source-Bitcoin-Team von Block. Loupe meldete das Problem am 8. Juli. Bitcoin-Core-Entwickler Gregory Sanders prüfte den Fund und brachte ihn ins Sicherheitsteam. Ein zweiter Forscher, Stutxo, meldete denselben Fehler am 4. August, dem Tag, an dem Sanders einen Fix einreichte. Er wurde am 6. August übernommen, kam am 27. Oktober mit 32.1 heraus und wurde in die am 20. November veröffentlichten Versionen 30.x und 31.x übertragen.
+
+!mid_cta
+
+!figure:chart
+
+## Wie viele Nodes das Update noch brauchen
+
+PlainBTC hat die 21.840 öffentlich erreichbaren Nodes aus einem Snapshot von [BTC Nodes](L3) vom Sonntag um 7:24 Uhr US-Central-Zeit nach der gemeldeten Version gruppiert. Rund 7.150 nutzen eine behobene Bitcoin-Core-Version. Rund 6.140 nutzen eine betroffene 30.x- oder 31.x-Version, für die es ein Update gibt, und rund 2.640 nutzen 29.x, das keines mehr bekommt. Zusammen sind das rund 8.770 Nodes oder etwa 40 %.
+
+Die Zahlen sind ein grober Anhaltspunkt. Nodes melden ihre Version selbst, gezählt werden nur Nodes, die Verbindungen von außen annehmen, und rund 3.040 Nodes laufen mit anderer oder angepasster Software, die wir keiner Gruppe zugeordnet haben.
+
+## Was das für Einsteiger bedeutet
+
+Wer Bitcoin bei einer Börse oder in einer Handy-Wallet hält, muss nichts tun. Wer einen eigenen Node betreibt, etwa auf einer Node-Box zu Hause, sollte seine Bitcoin-Core-Version prüfen und auf 30.5, 31.3 oder 32.1 aktualisieren (siehe die [Release Notes](L4)). Wer noch 29.x nutzt, sollte auf eine unterstützte Version wechseln. Laden Sie Bitcoin Core nur von bitcoincore.org oder aus dem offiziellen App-Store Ihrer Node-Software herunter, denn gefälschte Links zu „dringenden Updates“ sind eine verbreitete Betrugsmasche. Wer gerade erst anfängt und über eine große regulierte Börse wie [Coinbase](REF) kauft, muss nichts aktualisieren, denn die Börse betreibt ihre eigenen Nodes. Dies ist keine Anlageberatung.
+
+## Worauf es jetzt ankommt
+
+- Wie schnell der Anteil der Nodes mit betroffenen Versionen in den kommenden Wochen sinkt.
+- Weitere von KI gefundene Fehler, die nach Bitcoin Cores schnellerer Richtlinie offengelegt werden.
+- Updates von Anbietern von Node-Software, die Bitcoin Core mitliefern.
+
+!soft: Sie bauen gerade Ihr eigenes Setup auf? Lesen Sie, [was eine Krypto-Wallet ist: verwahrt oder selbst verwahrt](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

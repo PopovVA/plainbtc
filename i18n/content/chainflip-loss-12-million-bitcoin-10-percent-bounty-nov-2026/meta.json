@@ -1,0 +1,60 @@
+{
+ "slug": "chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026",
+ "date": "2026-11-22",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "chainflip-vault-drained-4-86-million-flip-falls-nov-2026",
+  "lighter-dex-10-4-million-leaked-api-key-nov-2026",
+  "kava-lend-hack-3-8-million-kava-falls-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {
+   "url": "https://chainflip.io/return",
+   "title": "Chainflip Labs: Message from Chainflip Labs (return terms)",
+   "date": "Nov 21, 2026"
+  },
+  {
+   "url": "https://x.com/Chainflip/status/2124221824116703335",
+   "title": "Chainflip on X: on-chain message and 90/10 offer",
+   "date": "Nov 21, 2026"
+  },
+  {
+   "url": "https://mempool.space/tx/ac38a5aea1ed81b84307a3709f502abd4c4d3af5502493f883c6d19624fd2cb4",
+   "title": "mempool.space: Bitcoin transaction ac38a5ae… moving 122.86137042 BTC (block 976,865)",
+   "date": "Nov 21, 2026"
+  },
+  {
+   "url": "https://mempool.space/tx/0f75dbd50f247d4d29ffb5d19dae9907f0322f9ef504720b7e27d2453624f004",
+   "title": "mempool.space: Chainflip's on-chain message transaction (block 976,943)",
+   "date": "Nov 21, 2026"
+  },
+  {
+   "url": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty",
+   "title": "Cointelegraph: Chainflip confirms $12M hack, offers attacker 10% bounty",
+   "date": "Nov 22, 2026"
+  },
+  {
+   "url": "https://crypto.news/chainflip-12m-hack-attacker-10-percent-bounty/",
+   "title": "crypto.news: Chainflip offers hacker $1.2M bounty after $12M crypto theft",
+   "date": "Nov 22, 2026"
+  },
+  {
+   "url": "https://altcoinreporter.com/chainflip-bounty-official-loss/",
+   "title": "Altcoin Reporter: Chainflip offers a 90/10 bounty and lists 122.86 BTC among assets taken",
+   "date": "Nov 22, 2026"
+  },
+  {
+   "url": "https://www.coingecko.com/en/coins/chainflip",
+   "title": "CoinGecko: Chainflip (FLIP) price data",
+   "date": "Nov 22, 2026"
+  },
+  {
+   "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+   "title": "Kraken: BTC/USD and ETH/USD hourly prices (OHLC API)",
+   "date": "Nov 21, 2026"
+  }
+ ],
+ "disclosure_variant": "std"
+}

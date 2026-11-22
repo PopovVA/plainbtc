@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/pt/</link>
     <description>Notícias de Bitcoin e criptomoedas em linguagem simples para iniciantes</description>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 22 Nov 2026 00:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 14:20:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/pt/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Chainflip diz que o invasor também levou 122,86 bitcoins, e a perda sobe para cerca de US$ 12 milhões; empresa oferece recompensa de 10%</title>
+      <link>https://plainbtc.com/pt/articles/chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/pt/articles/chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026</guid>
+      <pubDate>Sun, 22 Nov 2026 14:20:00 GMT</pubDate>
+      <category>Segurança</category>
+      <description>A Chainflip agora inclui 122,86 BTC entre as moedas levadas em 21 de novembro, além do ETH e das stablecoins: cerca de US$ 12 milhões no total. Ela oferece 10% ao invasor para devolver 90% até 12h38, horário central dos EUA, de segunda-feira.</description>
+    </item>
+    <item>
+      <title>Bitcoin Core corrige falha encontrada por IA que podia travar nós; cerca de 40% dos nós públicos ainda usam versões afetadas</title>
+      <link>https://plainbtc.com/pt/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/pt/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026</guid>
+      <pubDate>Sun, 22 Nov 2026 14:15:00 GMT</pubDate>
+      <category>Segurança</category>
+      <description>O Bitcoin Core divulgou a CVE-2026-117348, falha encontrada por uma varredura com IA que permitia travar um nó por mais de uma dúzia de segundos a cada mensagem. As correções estão nas versões 30.5, 31.3 e 32.1; cerca de 8.800 nós públicos ainda usam versões afetadas.</description>
+    </item>
     <item>
       <title>Bitcoin é vendido a C$ 24.250 no mercado em dólar canadense da Kraken; Kraken diz que as negociações valem</title>
       <link>https://plainbtc.com/pt/articles/kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026</link>

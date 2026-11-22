@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/id/</link>
     <description>Berita Bitcoin dan kripto dengan bahasa sederhana untuk pemula</description>
     <language>id</language>
-    <lastBuildDate>Sun, 22 Nov 2026 00:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 14:20:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/id/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Chainflip: penyerang juga mengambil 122,86 bitcoin, kerugian naik menjadi sekitar US$12 juta; proyek menawarkan imbalan 10%</title>
+      <link>https://plainbtc.com/id/articles/chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026</guid>
+      <pubDate>Sun, 22 Nov 2026 14:20:00 GMT</pubDate>
+      <category>Keamanan</category>
+      <description>Chainflip kini memasukkan 122,86 BTC ke daftar koin yang diambil pada 21 November, selain ETH dan stablecoin: total sekitar US$12 juta. Penyerang ditawari menyimpan 10% jika mengembalikan 90% sebelum pukul 12.38 waktu Central AS pada Senin.</description>
+    </item>
+    <item>
+      <title>Bitcoin Core memperbaiki celah temuan AI yang bisa membuat node macet; sekitar 40% node publik masih memakai versi terdampak</title>
+      <link>https://plainbtc.com/id/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026</guid>
+      <pubDate>Sun, 22 Nov 2026 14:15:00 GMT</pubDate>
+      <category>Keamanan</category>
+      <description>Bitcoin Core mengungkap CVE-2026-117348, celah temuan pemindaian AI yang bisa membuat node macet lebih dari belasan detik per pesan. Perbaikan ada di 30.5, 31.3, dan 32.1; sekitar 8.800 node publik masih melaporkan versi terdampak.</description>
+    </item>
     <item>
       <title>Bitcoin terjual C$24.250 di pasar dolar Kanada Kraken; Kraken menyatakan transaksi tetap berlaku</title>
       <link>https://plainbtc.com/id/articles/kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026</link>

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-reachable-nodes-by-version.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of 21,840 reachable bitcoin nodes on Nov. 22, 2026, by Bitcoin Core version: 7,153 on a fixed version (32.x, 31.3 or 30.5), 6,138 on affected 30.x or 31.x versions with a fix available, 2,636 on affected 29.x with no fix, 2,872 on versions older than 29.0, and 3,041 running other or custom software",
+      "es": "Gráfico de barras de 21.840 nodos de bitcoin accesibles el 22 de noviembre de 2026, por versión de Bitcoin Core: 7.153 con una versión corregida (32.x, 31.3 o 30.5), 6.138 con versiones 30.x o 31.x afectadas que ya tienen parche, 2.636 con la 29.x afectada y sin parche, 2.872 con versiones anteriores a la 29.0 y 3.041 con otro software o compilaciones propias",
+      "pt": "Gráfico de barras de 21.840 nós de bitcoin acessíveis em 22 de novembro de 2026, por versão do Bitcoin Core: 7.153 em versão corrigida (32.x, 31.3 ou 30.5), 6.138 em versões 30.x ou 31.x afetadas com correção disponível, 2.636 na 29.x afetada sem correção, 2.872 em versões anteriores à 29.0 e 3.041 com outro software ou versões próprias",
+      "fr": "Diagramme en barres de 21 840 nœuds bitcoin joignables le 22 novembre 2026, par version de Bitcoin Core : 7 153 sur une version corrigée (32.x, 31.3 ou 30.5), 6 138 sur des versions 30.x ou 31.x touchées pour lesquelles un correctif existe, 2 636 sur la 29.x touchée et sans correctif, 2 872 sur des versions antérieures à la 29.0 et 3 041 sur d'autres logiciels ou des versions personnalisées",
+      "de": "Balkendiagramm von 21.840 erreichbaren Bitcoin-Nodes am 22. November 2026 nach Bitcoin-Core-Version: 7.153 mit einer behobenen Version (32.x, 31.3 oder 30.5), 6.138 mit betroffenen Versionen 30.x oder 31.x, für die es ein Update gibt, 2.636 mit der betroffenen 29.x ohne Update, 2.872 mit Versionen älter als 29.0 und 3.041 mit anderer oder angepasster Software",
+      "ru": "Столбчатая диаграмма 21 840 доступных узлов биткоина на 22 ноября 2026 года по версиям Bitcoin Core: 7153 на исправленной версии (32.x, 31.3 или 30.5), 6138 на уязвимых версиях 30.x или 31.x, для которых есть исправление, 2636 на уязвимой 29.x без исправления, 2872 на версиях старше 29.0 и 3041 на другом или собственном ПО",
+      "tr": "22 Kasım 2026'da erişilebilir 21.840 bitcoin düğümünün Bitcoin Core sürümüne göre sütun grafiği: 7.153 düzeltilmiş sürümde (32.x, 31.3 veya 30.5), 6.138 düzeltmesi çıkmış etkilenen 30.x veya 31.x sürümlerinde, 2.636 düzeltme almayacak etkilenen 29.x'te, 2.872 29.0'dan eski sürümlerde ve 3.041 başka ya da özel yazılımda",
+      "id": "Diagram batang 21.840 node bitcoin yang dapat dijangkau pada 22 November 2026 menurut versi Bitcoin Core: 7.153 memakai versi yang sudah diperbaiki (32.x, 31.3, atau 30.5), 6.138 memakai versi 30.x atau 31.x yang terdampak dan sudah ada perbaikannya, 2.636 memakai 29.x yang terdampak tanpa perbaikan, 2.872 memakai versi lebih lama dari 29.0, dan 3.041 memakai perangkat lunak lain atau buatan sendiri",
+      "ja": "2026年11月22日時点で到達可能なビットコインノード2万1840台のBitcoin Coreバージョン別棒グラフ：修正版（32.x、31.3、30.5）が7153台、修正版が出ている影響対象の30.x・31.xが6138台、修正のない影響対象29.xが2636台、29.0より古い版が2872台、その他・独自ソフトが3041台",
+      "ko": "2026년 11월 22일 접속 가능한 비트코인 노드 2만 1,840개의 비트코인 코어 버전별 막대 그래프: 수정된 버전(32.x, 31.3, 30.5) 7,153개, 패치가 나온 영향받는 30.x·31.x 6,138개, 패치가 없는 영향받는 29.x 2,636개, 29.0보다 오래된 버전 2,872개, 기타 또는 자체 소프트웨어 3,041개"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: BTC Nodes (btcnodes.io) reachable-node snapshot, 13:24 UTC Nov. 22, 2026; version groups per the Bitcoin Core advisory",
+      "es": "Gráfico: PlainBTC, datos: BTC Nodes (btcnodes.io) reachable-node snapshot, 13:24 UTC Nov. 22, 2026; version groups per the Bitcoin Core advisory",
+      "pt": "Gráfico: PlainBTC, dados: BTC Nodes (btcnodes.io) reachable-node snapshot, 13:24 UTC Nov. 22, 2026; version groups per the Bitcoin Core advisory",
+      "fr": "Graphique : PlainBTC, données : BTC Nodes (btcnodes.io) reachable-node snapshot, 13:24 UTC Nov. 22, 2026; version groups per the Bitcoin Core advisory",
+      "de": "Chart: PlainBTC, Daten: BTC Nodes (btcnodes.io) reachable-node snapshot, 13:24 UTC Nov. 22, 2026; version groups per the Bitcoin Core advisory",
+      "ru": "График: PlainBTC, данные: BTC Nodes (btcnodes.io) reachable-node snapshot, 13:24 UTC Nov. 22, 2026; version groups per the Bitcoin Core advisory",
+      "tr": "Grafik: PlainBTC, veri: BTC Nodes (btcnodes.io) reachable-node snapshot, 13:24 UTC Nov. 22, 2026; version groups per the Bitcoin Core advisory",
+      "id": "Grafik: PlainBTC, data: BTC Nodes (btcnodes.io) reachable-node snapshot, 13:24 UTC Nov. 22, 2026; version groups per the Bitcoin Core advisory",
+      "ja": "チャート: PlainBTC、データ: BTC Nodes (btcnodes.io) reachable-node snapshot, 13:24 UTC Nov. 22, 2026; version groups per the Bitcoin Core advisory",
+      "ko": "차트: PlainBTC, 데이터: BTC Nodes (btcnodes.io) reachable-node snapshot, 13:24 UTC Nov. 22, 2026; version groups per the Bitcoin Core advisory"
+    }
+  },
+  {
+    "id": "timeline",
+    "file": "timeline-cve-2026-117348.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline of the Bitcoin Core node-stall bug CVE-2026-117348: July 8, an AI scan by Project Loupe at Spiral reports it; Aug. 4 to 6, a second researcher reports it and a fix is written and merged; Oct. 27, Bitcoin Core 32.1 ships with the fix; Nov. 20, versions 30.5 and 31.3 are released and the bug is made public",
+      "es": "Cronología del fallo de Bitcoin Core CVE-2026-117348 que podía paralizar nodos: 8 de julio, un escaneo con IA de Project Loupe en Spiral lo reporta; del 4 al 6 de agosto, un segundo investigador lo reporta y se escribe e integra el arreglo; 27 de octubre, sale Bitcoin Core 32.1 con el arreglo; 20 de noviembre, se publican las versiones 30.5 y 31.3 y el fallo se hace público",
+      "pt": "Linha do tempo da falha CVE-2026-117348 do Bitcoin Core que podia travar nós: 8 de julho, uma varredura com IA do Project Loupe, na Spiral, a reporta; de 4 a 6 de agosto, um segundo pesquisador a reporta e a correção é escrita e incorporada; 27 de outubro, o Bitcoin Core 32.1 sai com a correção; 20 de novembro, as versões 30.5 e 31.3 são lançadas e a falha se torna pública",
+      "fr": "Chronologie de la faille CVE-2026-117348 de Bitcoin Core qui pouvait bloquer des nœuds : 8 juillet, une analyse par IA de Project Loupe chez Spiral la signale ; du 4 au 6 août, un second chercheur la signale et un correctif est écrit puis intégré ; 27 octobre, Bitcoin Core 32.1 sort avec le correctif ; 20 novembre, les versions 30.5 et 31.3 sortent et la faille est rendue publique",
+      "de": "Zeitleiste des Bitcoin-Core-Fehlers CVE-2026-117348, der Nodes ausbremsen konnte: 8. Juli, ein KI-Scan von Project Loupe bei Spiral meldet ihn; 4. bis 6. August, ein zweiter Forscher meldet ihn, ein Fix wird geschrieben und übernommen; 27. Oktober, Bitcoin Core 32.1 erscheint mit dem Fix; 20. November, die Versionen 30.5 und 31.3 erscheinen und der Fehler wird öffentlich gemacht",
+      "ru": "Хронология ошибки Bitcoin Core CVE-2026-117348, из-за которой узлы могли зависать: 8 июля — ИИ-сканер Project Loupe в Spiral сообщает о ней; 4–6 августа — о ней сообщает второй исследователь, исправление написано и принято; 27 октября — выходит Bitcoin Core 32.1 с исправлением; 20 ноября — выходят версии 30.5 и 31.3, ошибка раскрыта публично",
+      "tr": "Düğümleri durdurabilen Bitcoin Core hatası CVE-2026-117348'in zaman çizelgesi: 8 Temmuz'da Spiral'deki Project Loupe'un yapay zekâ taraması hatayı bildiriyor; 4-6 Ağustos'ta ikinci bir araştırmacı bildiriyor, düzeltme yazılıp birleştiriliyor; 27 Ekim'de düzeltmeyi içeren Bitcoin Core 32.1 çıkıyor; 20 Kasım'da 30.5 ve 31.3 sürümleri yayımlanıyor ve hata kamuoyuna açıklanıyor",
+      "id": "Linimasa celah Bitcoin Core CVE-2026-117348 yang bisa membuat node macet: 8 Juli, pemindaian AI Project Loupe di Spiral melaporkannya; 4 sampai 6 Agustus, peneliti kedua melaporkannya dan perbaikan ditulis lalu digabungkan; 27 Oktober, Bitcoin Core 32.1 rilis dengan perbaikan; 20 November, versi 30.5 dan 31.3 dirilis dan celah diumumkan ke publik",
+      "ja": "ノードを停止させ得るBitcoin Coreの不具合CVE-2026-117348の時系列：7月8日、SpiralのProject LoupeによるAIスキャンが報告。8月4〜6日、別の研究者も報告し、修正が作成・統合。10月27日、修正入りのBitcoin Core 32.1公開。11月20日、30.5と31.3を公開し不具合を公表",
+      "ko": "노드를 멈추게 할 수 있던 비트코인 코어 버그 CVE-2026-117348 타임라인: 7월 8일 스파이럴의 프로젝트 루프 AI 스캔이 보고, 8월 4~6일 두 번째 연구자가 보고하고 수정이 작성·병합, 10월 27일 수정이 포함된 비트코인 코어 32.1 출시, 11월 20일 30.5와 31.3 출시 및 버그 공개"
+    },
+    "caption": {
+      "en": "Source: Bitcoin Core security advisory CVE-2026-117348, Nov. 20, 2026",
+      "es": "Fuente: Bitcoin Core security advisory CVE-2026-117348, Nov. 20, 2026",
+      "pt": "Fonte: Bitcoin Core security advisory CVE-2026-117348, Nov. 20, 2026",
+      "fr": "Source : Bitcoin Core security advisory CVE-2026-117348, Nov. 20, 2026",
+      "de": "Quelle: Bitcoin Core security advisory CVE-2026-117348, Nov. 20, 2026",
+      "ru": "Источник: Bitcoin Core security advisory CVE-2026-117348, Nov. 20, 2026",
+      "tr": "Kaynak: Bitcoin Core security advisory CVE-2026-117348, Nov. 20, 2026",
+      "id": "Sumber: Bitcoin Core security advisory CVE-2026-117348, Nov. 20, 2026",
+      "ja": "出典: Bitcoin Core security advisory CVE-2026-117348, Nov. 20, 2026",
+      "ko": "출처: Bitcoin Core security advisory CVE-2026-117348, Nov. 20, 2026"
+    }
+  }
+]

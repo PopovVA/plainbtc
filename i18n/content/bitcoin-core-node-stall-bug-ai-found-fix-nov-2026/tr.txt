@@ -1,0 +1,63 @@
+title: Bitcoin Core, düğümleri durdurabilen ve yapay zekânın bulduğu bir hatayı düzeltti; herkese açık düğümlerin yaklaşık %40'ı hâlâ etkilenen sürümlerde
+page_title: Bitcoin Core, yapay zekânın bulduğu CVE-2026-117348 hatasını düzeltti; 30.5, 31.3 veya 32.1'e güncelleyin
+description: Bitcoin Core, bir eşin her mesajla bir düğümü bir düzine saniyeden uzun süre durdurmasına izin veren orta önemde bir hatayı açıkladı. Düzeltmeler 30.5, 31.3 ve 32.1'de; erişilebilir düğümlerin yaklaşık %40'ı hâlâ etkilenen sürümleri bildiriyor.
+og_description: Bir yapay zekâ taraması, tek bir işlem kimliğini 50.000 kez tekrarlamanın bir Bitcoin Core düğümünü durdurabildiğini buldu. 29.x sürümü düzeltme almayacak. Hata coin çalmaya izin vermiyor, ama düğüm çalıştıranlar güncellemeli.
+label: Güvenlik
+summary: Bitcoin Core, yapay zekâ taramasıyla bulunan ve her mesajla bir düğümü bir düzine saniyeden uzun durdurabilen CVE-2026-117348 hatasını açıkladı. Düzeltmeler 30.5, 31.3 ve 32.1'de; yaklaşık 8.800 açık düğüm hâlâ etkilenen sürümleri bildiriyor.
+===
+
+Bitcoin ağını çalıştırmak için en yaygın kullanılan yazılım olan Bitcoin Core'un geliştiricileri, 20 Kasım cuma günü bir düğümün her seferinde bir düzine saniyeden uzun süre çalışmamasına yol açabilen bir güvenlik hatasını açıkladı. [Resmî güvenlik bildirimine](L1) göre <strong>CVE-2026-117348</strong> olarak kaydedilen hatayı ilk olarak bir yapay zekâ taraması buldu.
+
+Düzeltmeler aynı gün yayımlanan Bitcoin Core <strong>30.5 ve 31.3</strong> sürümlerinde ve 27 Ekim'de çıkan 32.1'de bulunuyor. Daha eski 29.x serisinin desteği sona erdi ve düzeltme almayacak. Bildirim sorunu "orta" önemde olarak sınıflandırıyor ve geçici bir durmayı anlatıyor. Bitcoin çalmanın ya da birinin bakiyesini değiştirmenin bir yolunu anlatmıyor.
+
+!takeaways
+- Bir eş, tek bir işlem kimliğini 50.000 kereye kadar tekrarlayarak bir Bitcoin Core düğümünü her mesajda bir düzine saniyeden uzun süre durdurabiliyordu.
+- Etkilenen sürümler: 29.0-29.5, 30.0-30.4 ve 31.0-31.2. Düzeltilenler: 30.5, 31.3 ve 32.1. 29.x düzeltme almayacak.
+- Block'un açık kaynaklı bitcoin ekibi Spiral'deki Project Loupe'un yapay zekâ taraması hatayı temmuzda bildirdi.
+- PlainBTC'nin tespitine göre pazar günü herkese açık erişilebilir düğümlerin yaklaşık %40'ı hâlâ etkilenen bir Bitcoin Core sürümü bildiriyordu.
+
+## Düğüm nedir, hata nasıl işliyordu
+
+Düğüm, Bitcoin blokzincirinin kendi kopyasını tutan, yeni ödemeleri ve blokları kontrol edip diğer düğümlere ileten bir bilgisayardır. Borsalar, madenciler, cüzdan hizmetleri ve pek çok bireysel kullanıcı düğüm çalıştırır.
+
+Bir düğüm bazen bir işlemi, onu fonlayan önceki işlemi görmeden önce duyar. Bu "yetim" işlemi saklar ve eksik parçaları diğer düğümlerden ister. Bildirime göre 29.0 sürümünden bu yana, bir eş düğümün zaten tuttuğu bir yetim işlemi duyurduğunda Bitcoin Core bu işlemin eksik ebeveynlerinin listesini çıkarıyor ve her birini kontrol ediyor.
+
+Düğümler işlemleri en fazla 50.000 kayıtlık gruplar hâlinde duyuruyor ve yazılım tekrarlanan kayıtları atlamıyordu. Bir saldırgan önce binlerce eksik ebeveyni olan bir yetim işlem gönderip ardından bu işlemin kimliğini 50.000 kez tekrarlayan gruplar yollayabiliyordu. Bildirimde "Bu tür her mesaj düğümü bir düzine saniyeden uzun süre durduruyor; bu sırada düğüm, bloklar dahil diğer eşlerden gelen hiçbir mesajı işlemiyor" deniyor. Düzeltme, düğümün her grupta duyurulan her işlemi yalnızca bir kez işlemesini sağlıyor.
+
+!figure:timeline
+
+## Neden önemli
+
+Duran bir düğüm hacklenmiş bir cüzdan değildir, ama gecikmeler şirketlere zarar verebilir. [CoinDesk](L2), etkilenen bir düğüme dayanan bir borsanın yatırmaları geç yansıtabileceğini, bir madencinin de blokzincirin eskimiş bir görüntüsü üzerinde çalışarak işlem gücünü boşa harcayabileceğini belirtti. Daha fazla mesaj göndermek düğümü daha uzun süre kilitli tutabilirdi.
+
+Bildirim hatayı "kolay keşfedilebilir" olarak tanımlıyor. CoinDesk'in aktardığına göre Bitcoin Core'un 22 Ekim'de benimsediği güvenlik politikası uyarınca bu tür hatalar desteklenen tüm sürümlerde mümkün olan en kısa sürede düzeltiliyor ve yeni sürümlerle birlikte açıklanıyor; açıklama öncesindeki olağan sessizlik dönemi beklenmiyor. Geliştiriciler, yapay zekâ araçlarının bu tür açıkları yeniden bulmayı ucuzlatmasından endişe ediyor.
+
+## Önce yapay zekâ, sonra bir insan buldu
+
+Bildirim, keşfi büyük bir dil modeli kullanan otomatik bir taramaya bağlıyor; tarama, Block'un açık kaynaklı bitcoin ekibi Spiral'de Elias Rohrer'in yürüttüğü Project Loupe'un parçası. Loupe sorunu 8 Temmuz'da bildirdi. Bitcoin Core geliştiricisi Gregory Sanders bulguyu doğruladı ve güvenlik ekibine taşıdı. İkinci bir araştırmacı, Stutxo, aynı hatayı Sanders'ın düzeltme önerdiği gün olan 4 Ağustos'ta bildirdi. Düzeltme 6 Ağustos'ta birleştirildi, 27 Ekim'de 32.1 ile yayımlandı ve 20 Kasım'da çıkan 30.x ve 31.x sürümlerine aktarıldı.
+
+!mid_cta
+
+!figure:chart
+
+## Kaç düğümün hâlâ güncellemeye ihtiyacı var
+
+PlainBTC, pazar günü ABD Merkezi saatiyle 07.24'te alınan bir [BTC Nodes](L3) anlık görüntüsündeki herkese açık erişilebilir 21.840 düğümü bildirdikleri sürüme göre grupladı. Yaklaşık 7.150 düğüm düzeltilmiş bir Bitcoin Core sürümü kullanıyor. Yaklaşık 6.140 düğüm güncellemesi çıkmış, etkilenen bir 30.x ya da 31.x sürümünde, yaklaşık 2.640 düğüm ise güncelleme almayacak 29.x'te. Toplamda bu yaklaşık 8.770 düğüm, yani kabaca %40 ediyor.
+
+Bu rakamlar kaba bir rehberdir. Düğümler sürümlerini kendileri bildiriyor, sayım yalnızca dışarıdan bağlantı kabul eden düğümleri kapsıyor ve yaklaşık 3.040 düğüm, hiçbir gruba dahil etmediğimiz başka ya da özel yazılım çalıştırıyor.
+
+## Yeni başlayanlar için anlamı
+
+Bitcoin'inizi bir borsada ya da telefon cüzdanında tutuyorsanız hiçbir şey yapmanız gerekmiyor. Kendi düğümünüzü çalıştırıyorsanız, örneğin evdeki bir düğüm cihazında, Bitcoin Core sürümünüzü kontrol edin ve 30.5, 31.3 veya 32.1'e güncelleyin ([sürüm notlarına](L4) bakın). Hâlâ 29.x kullananlar desteklenen bir sürüme geçmeli. Bitcoin Core'u yalnızca bitcoincore.org'dan ya da düğüm yazılımınızın resmî uygulama mağazasından indirin; sahte "acil güncelleme" bağlantıları yaygın bir dolandırıcılık yöntemi. Yeni başlıyorsanız ve [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsa üzerinden alım yapıyorsanız, borsa kendi düğümlerini çalıştırdığı için sizin güncellemeniz gereken bir şey yok. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra izlenecekler
+
+- Etkilenen sürümlerdeki düğümlerin payının önümüzdeki haftalarda ne kadar hızlı düşeceği.
+- Bitcoin Core'un daha hızlı politikasıyla açıklanacak, yapay zekânın bulduğu yeni hatalar.
+- Bitcoin Core'u paketleyen düğüm yazılımı üreticilerinden gelecek güncellemeler.
+
+!soft: Kendi kurulumunuzu mu hazırlıyorsunuz? [Kripto cüzdanı nedir: emanetçi ve kendi saklama](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

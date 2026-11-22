@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Sun, 22 Nov 2026 00:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 14:20:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Chainflip: Saldırgan 122,86 bitcoin de aldı, kayıp yaklaşık 12 milyon dolara çıktı; proje %10 ödül teklif ediyor</title>
+      <link>https://plainbtc.com/tr/articles/chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026</guid>
+      <pubDate>Sun, 22 Nov 2026 14:20:00 GMT</pubDate>
+      <category>Güvenlik</category>
+      <description>Chainflip artık 21 Kasım'da alınan varlıklar arasında ETH ve stablecoin'lerin yanı sıra 122,86 BTC'yi de sayıyor: toplam yaklaşık 12 milyon dolar. Saldırgana, %90'ı pazartesi ABD Merkezi saatiyle 12.38'e kadar iade ederse %10'u tutmayı teklif ediyor.</description>
+    </item>
+    <item>
+      <title>Bitcoin Core, düğümleri durdurabilen ve yapay zekânın bulduğu bir hatayı düzeltti; herkese açık düğümlerin yaklaşık %40'ı hâlâ etkilenen sürümlerde</title>
+      <link>https://plainbtc.com/tr/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026</guid>
+      <pubDate>Sun, 22 Nov 2026 14:15:00 GMT</pubDate>
+      <category>Güvenlik</category>
+      <description>Bitcoin Core, yapay zekâ taramasıyla bulunan ve her mesajla bir düğümü bir düzine saniyeden uzun durdurabilen CVE-2026-117348 hatasını açıkladı. Düzeltmeler 30.5, 31.3 ve 32.1'de; yaklaşık 8.800 açık düğüm hâlâ etkilenen sürümleri bildiriyor.</description>
+    </item>
     <item>
       <title>Bitcoin, Kraken'in Kanada doları piyasasında 24.250 C$'a satıldı; Kraken işlemlerin geçerli olduğunu söylüyor</title>
       <link>https://plainbtc.com/tr/articles/kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026</link>

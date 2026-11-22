@@ -1,0 +1,63 @@
+title: Chainflip: penyerang juga mengambil 122,86 bitcoin, kerugian naik menjadi sekitar US$12 juta; proyek menawarkan imbalan 10%
+page_title: Kerugian Chainflip naik menjadi sekitar US$12 juta dengan 122,86 BTC dicuri; imbalan 10% ditawarkan
+description: Chainflip kini mengatakan penyerang pada 21 November mengambil 122,86 BTC selain ETH dan stablecoin, total sekitar US$12 juta. Penyerang ditawari menyimpan 10% jika mengembalikan 90% sebelum 18.38 UTC 23 November.
+og_description: Bitcoin dipindahkan dalam satu transaksi sembilan menit sebelum brankas Ethereum Chainflip dikuras. Chainflip menawarkan imbalan 10% hingga Senin; pada Minggu pagi koin-koin itu belum bergerak.
+label: Keamanan
+summary: Chainflip kini memasukkan 122,86 BTC ke daftar koin yang diambil pada 21 November, selain ETH dan stablecoin: total sekitar US$12 juta. Penyerang ditawari menyimpan 10% jika mengembalikan 90% sebelum pukul 12.38 waktu Central AS pada Senin.
+===
+
+Peretasan Chainflip, layanan untuk menukar koin antar-blockchain, ternyata lebih besar daripada laporan awal. Dalam pesan untuk penyerang yang dimuat di situsnya, [Chainflip Labs](L1) mengatakan bahwa pada Sabtu, 21 November, penyerang mengambil <strong>122,86 bitcoin (BTC)</strong> dari brankasnya, di samping 520,22 ether (ETH), 3,25 juta USDC, dan 758.141 USDT yang sudah terlihat keluar dari brankas Ethereum.
+
+Perkiraan awal, termasuk [laporan kami hari Sabtu](/articles/chainflip-vault-drained-4-86-million-flip-falls-nov-2026), menyebut kerugian sekitar US$4,86 juta dan hanya menghitung brankas Ethereum. Dengan bitcoin, totalnya sekitar <strong>US$12 juta</strong>, seperti dilaporkan [Cointelegraph](L5) dan [crypto.news](L6). Chainflip menawarkan imbalan 10% kepada penyerang agar sisanya dikembalikan.
+
+!takeaways
+- Chainflip mengatakan 122,86 BTC diambil pada 21 November, bersama 520,22 ETH, 3,25 juta USDC, dan 758.141 USDT.
+- Dengan harga saat itu, nilainya sekitar US$12 juta, lebih dari dua kali perkiraan awal US$4,86 juta.
+- Penyerang boleh menyimpan 10% jika 90% dikembalikan sebelum 18.38 UTC pada Senin, 23 November (12.38 waktu Central AS).
+- Hingga Minggu pagi, bitcoin itu belum bergerak dan belum ada yang masuk ke alamat pengembalian Chainflip.
+
+!figure:chart
+
+## Bitcoin keluar lebih dulu
+
+PlainBTC memeriksa data publik blockchain Bitcoin. Pada Sabtu pukul 01.01 waktu Central AS, satu [transaksi](L3) memindahkan tepat 122,86137042 BTC, jumlah yang disebut Chainflip, ke alamat yang baru dipakai. Itu sekitar sembilan menit sebelum brankas Ethereum dikuras pada pukul 01.10.
+
+Dengan harga Kraken pukul 01.00 waktu Central, sekitar US$57.966 per bitcoin dan US$1.638 per ether, bitcoin itu bernilai sekitar US$7,1 juta dan seluruh hasil curian sekitar US$12,0 juta. Artinya, bitcoin merupakan bagian terbesar kerugian. Pada Sabtu, The Block melaporkan bahwa brankas Chainflip di jaringan lain, seperti Bitcoin, tampaknya tidak terdampak.
+
+## Tawaran 10% dengan batas waktu
+
+Chainflip [mengunggah di X](L2) pada Sabtu pukul 13.22 waktu Central bahwa mereka telah mengirim pesan on-chain ke alamat yang menyimpan bitcoin itu. Pesan tersebut berupa [transaksi](L4) Bitcoin kecil yang memuat catatan: "Chainflip: return 90%, keep 10%. Addresses and terms: chainflip.io/return." (kembalikan 90%, simpan 10%; alamat dan ketentuan di chainflip.io/return).
+
+Ketentuannya meminta 110,57523337 BTC, yaitu 90% dari bitcoin, dan 2.618,1 ETH dikirim ke dua alamat pengembalian. [Altcoin Reporter](L7) mencatat bahwa jumlah ether itu, sekitar lima kali ETH yang diambil, tampaknya juga mencakup stablecoin; penyerang sudah menukarnya ke ETH dalam hitungan menit. Chainflip tidak menjelaskan cara menghitung angka itu. Jika kedua pembayaran tiba sebelum 18.38 UTC 23 November, Chainflip mengatakan akan menganggap kasus ini sebagai "pemulihan white hat", tidak akan bertanya lagi, dan mencabut laporannya ke aparat penegak hukum. Chainflip mengatakan pencurian sudah dilaporkan ke penegak hukum.
+
+!mid_cta
+
+!figure:timeline
+
+## Temuan Chainflip menurut mereka sendiri
+
+Brankas Chainflip dikendalikan oleh kunci yang dibagi di antara para validatornya, yaitu komputer yang menjalankan jaringan. Dalam pesannya, Chainflip mengatakan telah melacak persiapan serangan: dana masuk melalui mixer Tornado Cash pada 11 November, pembelian token FLIP, dan akun validator yang didaftarkan pada 20 November, sehari sebelum pencurian, beserta "server di baliknya".
+
+Perusahaan itu mengatakan telah "mengidentifikasi mekanisme terbukanya kunci" dan mencegah serangan serupa, tetapi belum menerbitkan laporan teknis atau menjelaskan persis bagaimana kunci itu terbuka. Chainflip juga mengaku memegang informasi identitas tentang "validator pelaku" dan layanan web yang digunakan, serta menyebut alamat penyerang sudah ditandai oleh perusahaan analitik blockchain besar. Ini klaim Chainflip sendiri. Belum ada nama yang disebut dan belum ada laporan penangkapan.
+
+## Kondisi pada hari Minggu
+
+Sekitar pukul 08.00 waktu Central pada Minggu, 122,86 BTC itu masih berada di alamat penerimanya, menurut data [mempool.space](L3) yang diperiksa PlainBTC, dan alamat pengembalian bitcoin sama sekali belum punya transaksi. Alamat pengembalian ether, dompet multi-tanda tangan, nyaris kosong.
+
+Chainflip belum mengumumkan bahwa swap, setoran, atau penarikan sudah berjalan lagi sejak menyalakan "mode aman penuh" pada Sabtu pagi, dan belum mengatakan apakah pengguna akan diganti rugi. Pada September, setelah serangan yang lebih kecil mengambil 736.442 USDT dari brankas Tron-nya, para validator memilih untuk menutup kerugian itu. Token FLIP milik Chainflip diperdagangkan di sekitar US$0,32 pada Minggu pagi, menurut [CoinGecko](L8), turun dari sekitar US$0,48 sebelum serangan.
+
+## Artinya bagi pemula
+
+Kerugian akibat peretasan sering membesar setelah laporan pertama, saat penyelidik menjumlahkan apa saja yang keluar dari tiap jaringan. Jika Anda baru mulai, simpan sebagian besar kripto Anda di bursa besar yang teregulasi seperti [Coinbase](REF) atau di dompet yang Anda kendalikan sendiri, dan hindari menaruh uang di pool yang tidak Anda pahami sepenuhnya. Waspadai tautan "pengembalian dana" atau "klaim" setelah peretasan: tawaran Chainflip hanya ditujukan kepada penyerang, dan penipu sering menyamar sebagai proyek yang terdampak. Ini bukan saran investasi.
+
+## Yang perlu dipantau
+
+- Apakah ada koin yang masuk ke alamat pengembalian Chainflip sebelum pukul 12.38 waktu Central pada Senin.
+- Laporan teknis Chainflip tentang bagaimana kunci bersama itu terbuka.
+- Apakah penyedia likuiditas dan pengguna dengan swap yang tertahan akan diganti rugi, dan kapan swap dibuka lagi.
+
+!soft: Bingung menyimpan koin di mana? Baca [apa itu dompet kripto: kustodian vs. simpan sendiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

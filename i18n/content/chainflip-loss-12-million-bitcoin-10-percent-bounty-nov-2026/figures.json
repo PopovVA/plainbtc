@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-chainflip-loss-by-asset.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of what Chainflip says was taken on Nov. 21, 2026, valued at Kraken prices at 1 a.m. Central time: 122.86 BTC worth about $7.12 million, 520.22 ETH worth about $0.85 million, 3.25 million USDC and 758,141 USDT, about $12.0 million in total",
+      "es": "Gráfico de barras de lo que Chainflip dice que se llevaron el 21 de noviembre de 2026, valorado a precios de Kraken a la 1 a. m. hora del centro de EE. UU.: 122,86 BTC por unos 7,12 millones de dólares, 520,22 ETH por unos 0,85 millones, 3,25 millones de USDC y 758.141 USDT, en total unos 12,0 millones de dólares",
+      "pt": "Gráfico de barras do que a Chainflip diz ter sido levado em 21 de novembro de 2026, avaliado a preços da Kraken à 1h, horário central dos EUA: 122,86 BTC, cerca de US$ 7,12 milhões; 520,22 ETH, cerca de US$ 0,85 milhão; 3,25 milhões de USDC e 758.141 USDT, cerca de US$ 12,0 milhões no total",
+      "fr": "Diagramme en barres de ce que Chainflip dit avoir perdu le 21 novembre 2026, valorisé aux cours de Kraken à 1 h, heure du Centre des États-Unis : 122,86 BTC pour environ 7,12 millions de dollars, 520,22 ETH pour environ 0,85 million, 3,25 millions d'USDC et 758 141 USDT, soit environ 12,0 millions de dollars au total",
+      "de": "Balkendiagramm dessen, was laut Chainflip am 21. November 2026 entwendet wurde, bewertet zu Kraken-Kursen um 1 Uhr US-Central-Zeit: 122,86 BTC im Wert von rund 7,12 Mio. $, 520,22 ETH im Wert von rund 0,85 Mio. $, 3,25 Mio. USDC und 758.141 USDT, insgesamt rund 12,0 Mio. $",
+      "ru": "Столбчатая диаграмма того, что, по словам Chainflip, было похищено 21 ноября 2026 года, по ценам Kraken на 1:00 по центральному времени США: 122,86 BTC примерно на $7,12 млн, 520,22 ETH примерно на $0,85 млн, 3,25 млн USDC и 758 141 USDT, всего около $12,0 млн",
+      "tr": "Chainflip'in 21 Kasım 2026'da alındığını söylediği varlıkların, ABD Merkezi saatiyle 01.00'deki Kraken fiyatlarıyla sütun grafiği: yaklaşık 7,12 milyon $ değerinde 122,86 BTC, yaklaşık 0,85 milyon $ değerinde 520,22 ETH, 3,25 milyon USDC ve 758.141 USDT, toplam yaklaşık 12,0 milyon $",
+      "id": "Diagram batang aset yang menurut Chainflip diambil pada 21 November 2026, dinilai dengan harga Kraken pukul 01.00 waktu Central AS: 122,86 BTC senilai sekitar US$7,12 juta, 520,22 ETH senilai sekitar US$0,85 juta, 3,25 juta USDC, dan 758.141 USDT, total sekitar US$12,0 juta",
+      "ja": "2026年11月21日にChainflipが奪われたとする資産の棒グラフ（米中部時間午前1時のKraken価格で評価）：122.86 BTC（約712万ドル）、520.22 ETH（約85万ドル）、325万USDC、75万8141 USDT、合計約1200万ドル",
+      "ko": "체인플립이 2026년 11월 21일 탈취당했다고 밝힌 자산의 막대 그래프(미국 중부시간 오전 1시 크라켄 가격 기준): 122.86 BTC 약 712만 달러, 520.22 ETH 약 85만 달러, 325만 USDC, 75만 8,141 USDT, 합계 약 1,200만 달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Chainflip Labs (amounts); Kraken BTC/USD and ETH/USD prices, 07:00 UTC Nov. 21, 2026",
+      "es": "Gráfico: PlainBTC, datos: Chainflip Labs (amounts); Kraken BTC/USD and ETH/USD prices, 07:00 UTC Nov. 21, 2026",
+      "pt": "Gráfico: PlainBTC, dados: Chainflip Labs (amounts); Kraken BTC/USD and ETH/USD prices, 07:00 UTC Nov. 21, 2026",
+      "fr": "Graphique : PlainBTC, données : Chainflip Labs (amounts); Kraken BTC/USD and ETH/USD prices, 07:00 UTC Nov. 21, 2026",
+      "de": "Chart: PlainBTC, Daten: Chainflip Labs (amounts); Kraken BTC/USD and ETH/USD prices, 07:00 UTC Nov. 21, 2026",
+      "ru": "График: PlainBTC, данные: Chainflip Labs (amounts); Kraken BTC/USD and ETH/USD prices, 07:00 UTC Nov. 21, 2026",
+      "tr": "Grafik: PlainBTC, veri: Chainflip Labs (amounts); Kraken BTC/USD and ETH/USD prices, 07:00 UTC Nov. 21, 2026",
+      "id": "Grafik: PlainBTC, data: Chainflip Labs (amounts); Kraken BTC/USD and ETH/USD prices, 07:00 UTC Nov. 21, 2026",
+      "ja": "チャート: PlainBTC、データ: Chainflip Labs (amounts); Kraken BTC/USD and ETH/USD prices, 07:00 UTC Nov. 21, 2026",
+      "ko": "차트: PlainBTC, 데이터: Chainflip Labs (amounts); Kraken BTC/USD and ETH/USD prices, 07:00 UTC Nov. 21, 2026"
+    }
+  },
+  {
+    "id": "timeline",
+    "file": "timeline-chainflip-bounty.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline in U.S. Central time: Saturday 1:01 a.m., 122.86 BTC leaves the Bitcoin side of Chainflip in one transaction; 1:10 a.m., 520 ETH, 3.25 million USDC and 758,141 USDT leave the Ethereum vault; 1:22 p.m., Chainflip offers to let the attacker keep 10% if 90% is returned; Monday 12:38 p.m. (18:38 UTC, Nov. 23), deadline to return 110.58 BTC and 2,618.1 ETH",
+      "es": "Cronología en hora del centro de EE. UU.: sábado 1:01 a. m., 122,86 BTC salen del lado de Bitcoin de Chainflip en una sola transacción; 1:10 a. m., 520 ETH, 3,25 millones de USDC y 758.141 USDT salen de la bóveda de Ethereum; 1:22 p. m., Chainflip ofrece al atacante quedarse con el 10 % si devuelve el 90 %; lunes 12:38 p. m. (18:38 UTC, 23 de noviembre), plazo para devolver 110,58 BTC y 2.618,1 ETH",
+      "pt": "Linha do tempo no horário central dos EUA: sábado 1h01, 122,86 BTC saem do lado Bitcoin da Chainflip em uma única transação; 1h10, 520 ETH, 3,25 milhões de USDC e 758.141 USDT saem do cofre de Ethereum; 13h22, a Chainflip oferece ao invasor ficar com 10% se devolver 90%; segunda 12h38 (18h38 UTC, 23 de novembro), prazo para devolver 110,58 BTC e 2.618,1 ETH",
+      "fr": "Chronologie en heure du Centre des États-Unis : samedi 1 h 01, 122,86 BTC quittent le côté Bitcoin de Chainflip en une seule transaction ; 1 h 10, 520 ETH, 3,25 millions d'USDC et 758 141 USDT quittent le coffre Ethereum ; 13 h 22, Chainflip propose à l'attaquant de garder 10 % s'il rend 90 % ; lundi 12 h 38 (18 h 38 UTC, 23 novembre), date limite pour rendre 110,58 BTC et 2 618,1 ETH",
+      "de": "Zeitleiste in US-Central-Zeit: Samstag 1:01 Uhr, 122,86 BTC verlassen die Bitcoin-Seite von Chainflip in einer einzigen Transaktion; 1:10 Uhr, 520 ETH, 3,25 Mio. USDC und 758.141 USDT verlassen den Ethereum-Tresor; 13:22 Uhr, Chainflip bietet dem Angreifer an, 10 % zu behalten, wenn er 90 % zurückgibt; Montag 12:38 Uhr (18:38 UTC, 23. November), Frist für die Rückgabe von 110,58 BTC und 2.618,1 ETH",
+      "ru": "Хронология по центральному времени США: суббота, 1:01 — 122,86 BTC уходят с биткоин-стороны Chainflip одной транзакцией; 1:10 — 520 ETH, 3,25 млн USDC и 758 141 USDT уходят из хранилища в Ethereum; 13:22 — Chainflip предлагает атакующему оставить себе 10%, если он вернёт 90%; понедельник, 12:38 (18:38 UTC, 23 ноября) — срок вернуть 110,58 BTC и 2618,1 ETH",
+      "tr": "ABD Merkezi saatiyle zaman çizelgesi: cumartesi 01.01'de 122,86 BTC tek bir işlemle Chainflip'in Bitcoin tarafından çıkıyor; 01.10'da 520 ETH, 3,25 milyon USDC ve 758.141 USDT Ethereum kasasından çıkıyor; 13.22'de Chainflip saldırgana %90'ı iade ederse %10'u tutmayı teklif ediyor; pazartesi 12.38 (18.38 UTC, 23 Kasım), 110,58 BTC ve 2.618,1 ETH iadesi için son tarih",
+      "id": "Linimasa waktu Central AS: Sabtu 01.01, 122,86 BTC keluar dari sisi Bitcoin Chainflip dalam satu transaksi; 01.10, 520 ETH, 3,25 juta USDC, dan 758.141 USDT keluar dari brankas Ethereum; 13.22, Chainflip menawarkan penyerang menyimpan 10% jika 90% dikembalikan; Senin 12.38 (18.38 UTC, 23 November), batas waktu mengembalikan 110,58 BTC dan 2.618,1 ETH",
+      "ja": "時系列（米中部時間）：土曜午前1時01分、1件の取引で122.86 BTCがChainflipのビットコイン側から流出。午前1時10分、520 ETH、325万USDC、75万8141 USDTがイーサリアム金庫から流出。午後1時22分、Chainflipが90％を返せば10％を保持してよいと提案。月曜午後0時38分（11月23日18時38分UTC）、110.58 BTCと2618.1 ETHの返還期限",
+      "ko": "타임라인(미국 중부시간): 토요일 오전 1시 1분, 거래 한 건으로 122.86 BTC가 체인플립 비트코인 쪽에서 유출, 오전 1시 10분, 520 ETH와 325만 USDC, 75만 8,141 USDT가 이더리움 금고에서 유출, 오후 1시 22분, 체인플립이 90%를 돌려주면 10%를 가져도 된다고 제안, 월요일 오후 12시 38분(11월 23일 18:38 UTC), 110.58 BTC와 2,618.1 ETH 반환 기한"
+    },
+    "caption": {
+      "en": "Source: Bitcoin and Ethereum blockchain data (mempool.space, Blockscout); Chainflip Labs; Chainflip on X",
+      "es": "Fuente: Bitcoin and Ethereum blockchain data (mempool.space, Blockscout); Chainflip Labs; Chainflip on X",
+      "pt": "Fonte: Bitcoin and Ethereum blockchain data (mempool.space, Blockscout); Chainflip Labs; Chainflip on X",
+      "fr": "Source : Bitcoin and Ethereum blockchain data (mempool.space, Blockscout); Chainflip Labs; Chainflip on X",
+      "de": "Quelle: Bitcoin and Ethereum blockchain data (mempool.space, Blockscout); Chainflip Labs; Chainflip on X",
+      "ru": "Источник: Bitcoin and Ethereum blockchain data (mempool.space, Blockscout); Chainflip Labs; Chainflip on X",
+      "tr": "Kaynak: Bitcoin and Ethereum blockchain data (mempool.space, Blockscout); Chainflip Labs; Chainflip on X",
+      "id": "Sumber: Bitcoin and Ethereum blockchain data (mempool.space, Blockscout); Chainflip Labs; Chainflip on X",
+      "ja": "出典: Bitcoin and Ethereum blockchain data (mempool.space, Blockscout); Chainflip Labs; Chainflip on X",
+      "ko": "출처: Bitcoin and Ethereum blockchain data (mempool.space, Blockscout); Chainflip Labs; Chainflip on X"
+    }
+  }
+]

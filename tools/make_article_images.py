@@ -4693,7 +4693,124 @@ def build_death_bets_act():
     ]
 
 
+
+def build_chainflip_bounty():
+    slug = "chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026"
+    d = OUT / slug
+    # Amounts from Chainflip Labs (chainflip.io/return). USD values at Kraken 1-hour open prices for the
+    # 07:00 UTC candle on Nov 21, 2026 (1 a.m. Central): XBTUSD 57,965.5, ETHUSD 1,637.68; stablecoins at $1.
+    btc_usd = 122.86137042 * 57965.5 / 1e6     # 7.122
+    eth_usd = 520.2243399 * 1637.68 / 1e6      # 0.852
+    chart = make_bar_chart(
+        d / "chart-chainflip-loss-by-asset",
+        ["122.86 BTC\n(Bitcoin vault)", "520.22 ETH\n(Ethereum vault)", "3.25M USDC\n(Ethereum vault)", "758,141 USDT\n(Ethereum vault)"],
+        [btc_usd, eth_usd, 3.24963141, 0.75814133],
+        "What Chainflip says was taken on Nov. 21, in U.S. dollars (total about $12.0M)",
+        colors=["#f7931a", "#818cf8", "#38bdf8", "#34d399"],
+        value_fmt=lambda v: f"${v:,.2f}M",
+        axis_fmt=lambda x, _p: f"${x:,.0f}M",
+    )
+    tl = make_timeline_card(
+        d / "timeline-chainflip-bounty",
+        "Chainflip theft and bounty offer (U.S. Central time)",
+        [
+            ("Sat 1:01 a.m.", "122.86 BTC leaves the Bitcoin side in one transaction", (248, 113, 113)),
+            ("Sat 1:10 a.m.", "520 ETH, 3.25M USDC and 758,141 USDT leave the Ethereum vault", (248, 113, 113)),
+            ("Sat 1:22 p.m.", "Chainflip offers: keep 10%, return 90%", ORANGE),
+            ("Mon 12:38 p.m.", "Deadline (18:38 UTC, Nov. 23) to return 110.58 BTC and 2,618.1 ETH", (96, 165, 250)),
+        ],
+        footer="Bitcoin blocks 976,865, 976,943 · Ethereum 26,461,896 · Chainflip",
+        margin=170, wrap_w=250,
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of what Chainflip says was taken on Nov. 21, 2026, valued at Kraken prices at 1 a.m. Central time: 122.86 BTC worth about $7.12 million, 520.22 ETH worth about $0.85 million, 3.25 million USDC and 758,141 USDT, about $12.0 million in total", {
+            "es": "Gráfico de barras de lo que Chainflip dice que se llevaron el 21 de noviembre de 2026, valorado a precios de Kraken a la 1 a. m. hora del centro de EE. UU.: 122,86 BTC por unos 7,12 millones de dólares, 520,22 ETH por unos 0,85 millones, 3,25 millones de USDC y 758.141 USDT, en total unos 12,0 millones de dólares",
+            "pt": "Gráfico de barras do que a Chainflip diz ter sido levado em 21 de novembro de 2026, avaliado a preços da Kraken à 1h, horário central dos EUA: 122,86 BTC, cerca de US$ 7,12 milhões; 520,22 ETH, cerca de US$ 0,85 milhão; 3,25 milhões de USDC e 758.141 USDT, cerca de US$ 12,0 milhões no total",
+            "fr": "Diagramme en barres de ce que Chainflip dit avoir perdu le 21 novembre 2026, valorisé aux cours de Kraken à 1 h, heure du Centre des États-Unis : 122,86 BTC pour environ 7,12 millions de dollars, 520,22 ETH pour environ 0,85 million, 3,25 millions d'USDC et 758 141 USDT, soit environ 12,0 millions de dollars au total",
+            "de": "Balkendiagramm dessen, was laut Chainflip am 21. November 2026 entwendet wurde, bewertet zu Kraken-Kursen um 1 Uhr US-Central-Zeit: 122,86 BTC im Wert von rund 7,12 Mio. $, 520,22 ETH im Wert von rund 0,85 Mio. $, 3,25 Mio. USDC und 758.141 USDT, insgesamt rund 12,0 Mio. $",
+            "ru": "Столбчатая диаграмма того, что, по словам Chainflip, было похищено 21 ноября 2026 года, по ценам Kraken на 1:00 по центральному времени США: 122,86 BTC примерно на $7,12 млн, 520,22 ETH примерно на $0,85 млн, 3,25 млн USDC и 758 141 USDT, всего около $12,0 млн",
+            "tr": "Chainflip'in 21 Kasım 2026'da alındığını söylediği varlıkların, ABD Merkezi saatiyle 01.00'deki Kraken fiyatlarıyla sütun grafiği: yaklaşık 7,12 milyon $ değerinde 122,86 BTC, yaklaşık 0,85 milyon $ değerinde 520,22 ETH, 3,25 milyon USDC ve 758.141 USDT, toplam yaklaşık 12,0 milyon $",
+            "id": "Diagram batang aset yang menurut Chainflip diambil pada 21 November 2026, dinilai dengan harga Kraken pukul 01.00 waktu Central AS: 122,86 BTC senilai sekitar US$7,12 juta, 520,22 ETH senilai sekitar US$0,85 juta, 3,25 juta USDC, dan 758.141 USDT, total sekitar US$12,0 juta",
+            "ja": "2026年11月21日にChainflipが奪われたとする資産の棒グラフ（米中部時間午前1時のKraken価格で評価）：122.86 BTC（約712万ドル）、520.22 ETH（約85万ドル）、325万USDC、75万8141 USDT、合計約1200万ドル",
+            "ko": "체인플립이 2026년 11월 21일 탈취당했다고 밝힌 자산의 막대 그래프(미국 중부시간 오전 1시 크라켄 가격 기준): 122.86 BTC 약 712만 달러, 520.22 ETH 약 85만 달러, 325만 USDC, 75만 8,141 USDT, 합계 약 1,200만 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Chainflip Labs (amounts); Kraken BTC/USD and ETH/USD prices, 07:00 UTC Nov. 21, 2026")},
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline in U.S. Central time: Saturday 1:01 a.m., 122.86 BTC leaves the Bitcoin side of Chainflip in one transaction; 1:10 a.m., 520 ETH, 3.25 million USDC and 758,141 USDT leave the Ethereum vault; 1:22 p.m., Chainflip offers to let the attacker keep 10% if 90% is returned; Monday 12:38 p.m. (18:38 UTC, Nov. 23), deadline to return 110.58 BTC and 2,618.1 ETH", {
+            "es": "Cronología en hora del centro de EE. UU.: sábado 1:01 a. m., 122,86 BTC salen del lado de Bitcoin de Chainflip en una sola transacción; 1:10 a. m., 520 ETH, 3,25 millones de USDC y 758.141 USDT salen de la bóveda de Ethereum; 1:22 p. m., Chainflip ofrece al atacante quedarse con el 10 % si devuelve el 90 %; lunes 12:38 p. m. (18:38 UTC, 23 de noviembre), plazo para devolver 110,58 BTC y 2.618,1 ETH",
+            "pt": "Linha do tempo no horário central dos EUA: sábado 1h01, 122,86 BTC saem do lado Bitcoin da Chainflip em uma única transação; 1h10, 520 ETH, 3,25 milhões de USDC e 758.141 USDT saem do cofre de Ethereum; 13h22, a Chainflip oferece ao invasor ficar com 10% se devolver 90%; segunda 12h38 (18h38 UTC, 23 de novembro), prazo para devolver 110,58 BTC e 2.618,1 ETH",
+            "fr": "Chronologie en heure du Centre des États-Unis : samedi 1 h 01, 122,86 BTC quittent le côté Bitcoin de Chainflip en une seule transaction ; 1 h 10, 520 ETH, 3,25 millions d'USDC et 758 141 USDT quittent le coffre Ethereum ; 13 h 22, Chainflip propose à l'attaquant de garder 10 % s'il rend 90 % ; lundi 12 h 38 (18 h 38 UTC, 23 novembre), date limite pour rendre 110,58 BTC et 2 618,1 ETH",
+            "de": "Zeitleiste in US-Central-Zeit: Samstag 1:01 Uhr, 122,86 BTC verlassen die Bitcoin-Seite von Chainflip in einer einzigen Transaktion; 1:10 Uhr, 520 ETH, 3,25 Mio. USDC und 758.141 USDT verlassen den Ethereum-Tresor; 13:22 Uhr, Chainflip bietet dem Angreifer an, 10 % zu behalten, wenn er 90 % zurückgibt; Montag 12:38 Uhr (18:38 UTC, 23. November), Frist für die Rückgabe von 110,58 BTC und 2.618,1 ETH",
+            "ru": "Хронология по центральному времени США: суббота, 1:01 — 122,86 BTC уходят с биткоин-стороны Chainflip одной транзакцией; 1:10 — 520 ETH, 3,25 млн USDC и 758 141 USDT уходят из хранилища в Ethereum; 13:22 — Chainflip предлагает атакующему оставить себе 10%, если он вернёт 90%; понедельник, 12:38 (18:38 UTC, 23 ноября) — срок вернуть 110,58 BTC и 2618,1 ETH",
+            "tr": "ABD Merkezi saatiyle zaman çizelgesi: cumartesi 01.01'de 122,86 BTC tek bir işlemle Chainflip'in Bitcoin tarafından çıkıyor; 01.10'da 520 ETH, 3,25 milyon USDC ve 758.141 USDT Ethereum kasasından çıkıyor; 13.22'de Chainflip saldırgana %90'ı iade ederse %10'u tutmayı teklif ediyor; pazartesi 12.38 (18.38 UTC, 23 Kasım), 110,58 BTC ve 2.618,1 ETH iadesi için son tarih",
+            "id": "Linimasa waktu Central AS: Sabtu 01.01, 122,86 BTC keluar dari sisi Bitcoin Chainflip dalam satu transaksi; 01.10, 520 ETH, 3,25 juta USDC, dan 758.141 USDT keluar dari brankas Ethereum; 13.22, Chainflip menawarkan penyerang menyimpan 10% jika 90% dikembalikan; Senin 12.38 (18.38 UTC, 23 November), batas waktu mengembalikan 110,58 BTC dan 2.618,1 ETH",
+            "ja": "時系列（米中部時間）：土曜午前1時01分、1件の取引で122.86 BTCがChainflipのビットコイン側から流出。午前1時10分、520 ETH、325万USDC、75万8141 USDTがイーサリアム金庫から流出。午後1時22分、Chainflipが90％を返せば10％を保持してよいと提案。月曜午後0時38分（11月23日18時38分UTC）、110.58 BTCと2618.1 ETHの返還期限",
+            "ko": "타임라인(미국 중부시간): 토요일 오전 1시 1분, 거래 한 건으로 122.86 BTC가 체인플립 비트코인 쪽에서 유출, 오전 1시 10분, 520 ETH와 325만 USDC, 75만 8,141 USDT가 이더리움 금고에서 유출, 오후 1시 22분, 체인플립이 90%를 돌려주면 10%를 가져도 된다고 제안, 월요일 오후 12시 38분(11월 23일 18:38 UTC), 110.58 BTC와 2,618.1 ETH 반환 기한",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Bitcoin and Ethereum blockchain data (mempool.space, Blockscout); Chainflip Labs; Chainflip on X")},
+    ]
+
+
+def build_core_node_stall():
+    slug = "bitcoin-core-node-stall-bug-ai-found-fix-nov-2026"
+    d = OUT / slug
+    data = json.loads((I18N / slug / "chart-data.json").read_text(encoding="utf-8"))
+    labels = [g[0] for g in data["groups"]]
+    values = [g[1] for g in data["groups"]]
+    chart = make_bar_chart(
+        d / "chart-reachable-nodes-by-version",
+        labels, values,
+        "Reachable bitcoin nodes by Bitcoin Core version, Nov. 22, 2026 (21,840 nodes)",
+        colors=["#34d399", "#f87171", "#b91c1c", "#64748b", "#475569"],
+        value_fmt=lambda v: f"{v:,.0f}",
+        axis_fmt=lambda x, _p: f"{x:,.0f}",
+    )
+    tl = make_timeline_card(
+        d / "timeline-cve-2026-117348",
+        "Bitcoin Core node-stall bug: from AI scan to public fix",
+        [
+            ("Jul 8", "AI scan (Project Loupe at Spiral) reports the bug", (96, 165, 250)),
+            ("Aug 4-6", "Second researcher reports it; fix written and merged", ORANGE),
+            ("Oct 27", "Bitcoin Core 32.1 ships with the fix", GREEN),
+            ("Nov 20", "30.5 and 31.3 released; bug made public", (248, 113, 113)),
+        ],
+        footer="Source: Bitcoin Core advisory CVE-2026-117348 (bitcoincore.org)",
+        margin=170, wrap_w=250,
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of 21,840 reachable bitcoin nodes on Nov. 22, 2026, by Bitcoin Core version: 7,153 on a fixed version (32.x, 31.3 or 30.5), 6,138 on affected 30.x or 31.x versions with a fix available, 2,636 on affected 29.x with no fix, 2,872 on versions older than 29.0, and 3,041 running other or custom software", {
+            "es": "Gráfico de barras de 21.840 nodos de bitcoin accesibles el 22 de noviembre de 2026, por versión de Bitcoin Core: 7.153 con una versión corregida (32.x, 31.3 o 30.5), 6.138 con versiones 30.x o 31.x afectadas que ya tienen parche, 2.636 con la 29.x afectada y sin parche, 2.872 con versiones anteriores a la 29.0 y 3.041 con otro software o compilaciones propias",
+            "pt": "Gráfico de barras de 21.840 nós de bitcoin acessíveis em 22 de novembro de 2026, por versão do Bitcoin Core: 7.153 em versão corrigida (32.x, 31.3 ou 30.5), 6.138 em versões 30.x ou 31.x afetadas com correção disponível, 2.636 na 29.x afetada sem correção, 2.872 em versões anteriores à 29.0 e 3.041 com outro software ou versões próprias",
+            "fr": "Diagramme en barres de 21 840 nœuds bitcoin joignables le 22 novembre 2026, par version de Bitcoin Core : 7 153 sur une version corrigée (32.x, 31.3 ou 30.5), 6 138 sur des versions 30.x ou 31.x touchées pour lesquelles un correctif existe, 2 636 sur la 29.x touchée et sans correctif, 2 872 sur des versions antérieures à la 29.0 et 3 041 sur d'autres logiciels ou des versions personnalisées",
+            "de": "Balkendiagramm von 21.840 erreichbaren Bitcoin-Nodes am 22. November 2026 nach Bitcoin-Core-Version: 7.153 mit einer behobenen Version (32.x, 31.3 oder 30.5), 6.138 mit betroffenen Versionen 30.x oder 31.x, für die es ein Update gibt, 2.636 mit der betroffenen 29.x ohne Update, 2.872 mit Versionen älter als 29.0 und 3.041 mit anderer oder angepasster Software",
+            "ru": "Столбчатая диаграмма 21 840 доступных узлов биткоина на 22 ноября 2026 года по версиям Bitcoin Core: 7153 на исправленной версии (32.x, 31.3 или 30.5), 6138 на уязвимых версиях 30.x или 31.x, для которых есть исправление, 2636 на уязвимой 29.x без исправления, 2872 на версиях старше 29.0 и 3041 на другом или собственном ПО",
+            "tr": "22 Kasım 2026'da erişilebilir 21.840 bitcoin düğümünün Bitcoin Core sürümüne göre sütun grafiği: 7.153 düzeltilmiş sürümde (32.x, 31.3 veya 30.5), 6.138 düzeltmesi çıkmış etkilenen 30.x veya 31.x sürümlerinde, 2.636 düzeltme almayacak etkilenen 29.x'te, 2.872 29.0'dan eski sürümlerde ve 3.041 başka ya da özel yazılımda",
+            "id": "Diagram batang 21.840 node bitcoin yang dapat dijangkau pada 22 November 2026 menurut versi Bitcoin Core: 7.153 memakai versi yang sudah diperbaiki (32.x, 31.3, atau 30.5), 6.138 memakai versi 30.x atau 31.x yang terdampak dan sudah ada perbaikannya, 2.636 memakai 29.x yang terdampak tanpa perbaikan, 2.872 memakai versi lebih lama dari 29.0, dan 3.041 memakai perangkat lunak lain atau buatan sendiri",
+            "ja": "2026年11月22日時点で到達可能なビットコインノード2万1840台のBitcoin Coreバージョン別棒グラフ：修正版（32.x、31.3、30.5）が7153台、修正版が出ている影響対象の30.x・31.xが6138台、修正のない影響対象29.xが2636台、29.0より古い版が2872台、その他・独自ソフトが3041台",
+            "ko": "2026년 11월 22일 접속 가능한 비트코인 노드 2만 1,840개의 비트코인 코어 버전별 막대 그래프: 수정된 버전(32.x, 31.3, 30.5) 7,153개, 패치가 나온 영향받는 30.x·31.x 6,138개, 패치가 없는 영향받는 29.x 2,636개, 29.0보다 오래된 버전 2,872개, 기타 또는 자체 소프트웨어 3,041개",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="BTC Nodes (btcnodes.io) reachable-node snapshot, 13:24 UTC Nov. 22, 2026; version groups per the Bitcoin Core advisory")},
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline of the Bitcoin Core node-stall bug CVE-2026-117348: July 8, an AI scan by Project Loupe at Spiral reports it; Aug. 4 to 6, a second researcher reports it and a fix is written and merged; Oct. 27, Bitcoin Core 32.1 ships with the fix; Nov. 20, versions 30.5 and 31.3 are released and the bug is made public", {
+            "es": "Cronología del fallo de Bitcoin Core CVE-2026-117348 que podía paralizar nodos: 8 de julio, un escaneo con IA de Project Loupe en Spiral lo reporta; del 4 al 6 de agosto, un segundo investigador lo reporta y se escribe e integra el arreglo; 27 de octubre, sale Bitcoin Core 32.1 con el arreglo; 20 de noviembre, se publican las versiones 30.5 y 31.3 y el fallo se hace público",
+            "pt": "Linha do tempo da falha CVE-2026-117348 do Bitcoin Core que podia travar nós: 8 de julho, uma varredura com IA do Project Loupe, na Spiral, a reporta; de 4 a 6 de agosto, um segundo pesquisador a reporta e a correção é escrita e incorporada; 27 de outubro, o Bitcoin Core 32.1 sai com a correção; 20 de novembro, as versões 30.5 e 31.3 são lançadas e a falha se torna pública",
+            "fr": "Chronologie de la faille CVE-2026-117348 de Bitcoin Core qui pouvait bloquer des nœuds : 8 juillet, une analyse par IA de Project Loupe chez Spiral la signale ; du 4 au 6 août, un second chercheur la signale et un correctif est écrit puis intégré ; 27 octobre, Bitcoin Core 32.1 sort avec le correctif ; 20 novembre, les versions 30.5 et 31.3 sortent et la faille est rendue publique",
+            "de": "Zeitleiste des Bitcoin-Core-Fehlers CVE-2026-117348, der Nodes ausbremsen konnte: 8. Juli, ein KI-Scan von Project Loupe bei Spiral meldet ihn; 4. bis 6. August, ein zweiter Forscher meldet ihn, ein Fix wird geschrieben und übernommen; 27. Oktober, Bitcoin Core 32.1 erscheint mit dem Fix; 20. November, die Versionen 30.5 und 31.3 erscheinen und der Fehler wird öffentlich gemacht",
+            "ru": "Хронология ошибки Bitcoin Core CVE-2026-117348, из-за которой узлы могли зависать: 8 июля — ИИ-сканер Project Loupe в Spiral сообщает о ней; 4–6 августа — о ней сообщает второй исследователь, исправление написано и принято; 27 октября — выходит Bitcoin Core 32.1 с исправлением; 20 ноября — выходят версии 30.5 и 31.3, ошибка раскрыта публично",
+            "tr": "Düğümleri durdurabilen Bitcoin Core hatası CVE-2026-117348'in zaman çizelgesi: 8 Temmuz'da Spiral'deki Project Loupe'un yapay zekâ taraması hatayı bildiriyor; 4-6 Ağustos'ta ikinci bir araştırmacı bildiriyor, düzeltme yazılıp birleştiriliyor; 27 Ekim'de düzeltmeyi içeren Bitcoin Core 32.1 çıkıyor; 20 Kasım'da 30.5 ve 31.3 sürümleri yayımlanıyor ve hata kamuoyuna açıklanıyor",
+            "id": "Linimasa celah Bitcoin Core CVE-2026-117348 yang bisa membuat node macet: 8 Juli, pemindaian AI Project Loupe di Spiral melaporkannya; 4 sampai 6 Agustus, peneliti kedua melaporkannya dan perbaikan ditulis lalu digabungkan; 27 Oktober, Bitcoin Core 32.1 rilis dengan perbaikan; 20 November, versi 30.5 dan 31.3 dirilis dan celah diumumkan ke publik",
+            "ja": "ノードを停止させ得るBitcoin Coreの不具合CVE-2026-117348の時系列：7月8日、SpiralのProject LoupeによるAIスキャンが報告。8月4〜6日、別の研究者も報告し、修正が作成・統合。10月27日、修正入りのBitcoin Core 32.1公開。11月20日、30.5と31.3を公開し不具合を公表",
+            "ko": "노드를 멈추게 할 수 있던 비트코인 코어 버그 CVE-2026-117348 타임라인: 7월 8일 스파이럴의 프로젝트 루프 AI 스캔이 보고, 8월 4~6일 두 번째 연구자가 보고하고 수정이 작성·병합, 10월 27일 수정이 포함된 비트코인 코어 32.1 출시, 11월 20일 30.5와 31.3 출시 및 버그 공개",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Bitcoin Core security advisory CVE-2026-117348, Nov. 20, 2026")},
+    ]
+
+
 BUILDERS = {
+    "chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026": "cfbounty",
+    "bitcoin-core-node-stall-bug-ai-found-fix-nov-2026": "corestall",
     "kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026": "krakencad",
     "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026": "btc55k",
     "bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026": "btcnewlow",
@@ -4776,7 +4893,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "krakencad":
+    if key == "cfbounty":
+        figs = build_chainflip_bounty()
+    elif key == "corestall":
+        figs = build_core_node_stall()
+    elif key == "krakencad":
         figs = build_kraken_cad_crash()
     elif key == "btc55k":
         figs = build_btc_55100_rebound()

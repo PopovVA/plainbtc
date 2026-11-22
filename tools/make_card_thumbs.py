@@ -1854,7 +1854,98 @@ def thumb_death_bets_act():
     ],"note":"Editorial composite for identification; no endorsement by the U.S. Senate implied."}
 
 
+def thumb_chainflip_bounty():
+    """Two vaults -> about $12M; 10%/90% bounty split. Amounts from Chainflip Labs (chainflip.io/return) and
+    Bitcoin tx ac38a5ae... (block 976,865) / Ethereum tx 0xc928950f... (block 26,461,896); USD total at Kraken
+    07:00 UTC Nov 21, 2026 prices (BTC 57,965.5, ETH 1,637.68)."""
+    btc = fetch("https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg", CACHE/"bitcoin-logo.svg")
+    logo = fetch("https://coin-images.coingecko.com/coins/images/25576/large/kdt_AgmT_400x400.png", CACHE/"chainflip-logo.png")
+    base = gradient_bg(top=(44, 24, 8), bottom=(10, 8, 6))
+    d = Draw(base)
+    RED, BLUE = (248, 113, 113), (129, 140, 248)
+    # two vault boxes on the left
+    boxes = [(btc, "BITCOIN SIDE", "122.86 BTC", ORANGE, 58), (None, "ETHEREUM VAULT", "520.22 ETH", BLUE, 188)]
+    for img, title, amt, col, y in boxes:
+        d.rounded_rectangle([28, y, 300, y + 112], radius=14, fill=(24, 20, 18), outline=col, width=2)
+        if img is not None:
+            paste_contain(base, Image.open(img).convert("RGBA"), (40, y + 26, 60, 60), pad=0)
+        else:
+            tile = Image.new("RGBA", sz((60, 60)), (0, 0, 0, 255))
+            mask = Image.new("L", sz((60, 60)), 0); Draw(mask).rounded_rectangle([0, 0, 59, 59], radius=10, fill=255)
+            base.paste(tile.convert("RGB"), sz((40, y + 26)), mask)
+            paste_contain(base, Image.open(logo).convert("RGBA"), (40, y + 26, 60, 60), pad=2)
+        d = Draw(base)
+        d.text((114, y + 22), title, font=font(FONT_B, 13), fill=col)
+        d.text((114, y + 46), amt, font=font(FONT_B, 19), fill=WHITE)
+        if title.startswith("ETH"):
+            d.text((114, y + 74), "+ 3.25M USDC, 758K USDT", font=font(FONT_R, 11), fill=(203, 213, 225))
+    # arrows into the total
+    for y in (114, 244):
+        d.line([(306, y), (346, 179)], fill=RED, width=4)
+    d.polygon([(342, 168), (362, 179), (342, 190)], fill=RED)
+    d.text((372, 132), "≈ $12M", font=font(FONT_B, 40), fill=WHITE)
+    d.text((374, 186), "taken Nov. 21", font=font(FONT_R, 15), fill=(214, 211, 209))
+    # bounty split bar
+    bx0, bx1, by = 372, 612, 232
+    split = bx0 + (bx1 - bx0) * 0.9
+    d.rounded_rectangle([bx0, by, bx1, by + 30], radius=8, fill=(34, 197, 94))
+    d.rectangle([split, by, bx1, by + 30], fill=ORANGE)
+    d.text((bx0 + 10, by + 6), "return 90%", font=font(FONT_B, 14), fill=(5, 46, 22))
+    kw = d.textlength("keep 10%", font=font(FONT_B, 12))
+    d.text((bx1 - kw, by + 38), "keep 10%", font=font(FONT_B, 12), fill=ORANGE)
+    d.text((372, 292), "Offer ends 18:38 UTC, Nov. 23", font=font(FONT_R, 14), fill=(214, 211, 209))
+    label_chip(base, "Chainflip · bounty offer")
+    return base, {"kind": "composite", "sources": [
+        {"file": "Bitcoin.svg", "license": "Public domain", "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg", "credit": "Bitcoin logo"},
+        {"file": "chainflip-logo.png", "license": "Logo", "url": "https://www.coingecko.com/en/coins/chainflip", "credit": "Chainflip (logo via CoinGecko)"},
+        {"file": "Message from Chainflip Labs", "license": "Figures cited", "url": "https://chainflip.io/return", "credit": "Chainflip Labs"},
+        {"file": "Bitcoin tx ac38a5aea1ed81b84307a3709f502abd4c4d3af5502493f883c6d19624fd2cb4", "license": "Public blockchain data", "url": "https://mempool.space/tx/ac38a5aea1ed81b84307a3709f502abd4c4d3af5502493f883c6d19624fd2cb4", "credit": "mempool.space"},
+    ], "note": "Editorial composite for identification; trademarks belong to their owners."}
+
+
+def thumb_core_node_stall():
+    """Bitcoin logo + 'inv x 50,000' stall diagram; versions from the Bitcoin Core advisory CVE-2026-117348 (Nov. 20, 2026)."""
+    btc = fetch("https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg", CACHE/"bitcoin-logo.svg")
+    base = gradient_bg(top=(16, 32, 40), bottom=(6, 12, 16))
+    d = Draw(base)
+    TEAL, RED, GREEN = (94, 234, 212), (248, 113, 113), (52, 211, 153)
+    # stacked "inv" messages
+    for i in range(6):
+        x, y = 30 + i * 7, 64 + i * 9
+        d.rounded_rectangle([x, y, x + 196, y + 46], radius=8, fill=(20, 40, 48), outline=TEAL, width=1)
+    x, y = 65, 109
+    d.text((x + 10, y + 6), "inv: same tx ID", font=font(FONT_B, 14), fill=WHITE)
+    d.text((x + 10, y + 26), "× 50,000", font=font(FONT_B, 14), fill=TEAL)
+    # arrow to node
+    d.line([(272, 132), (316, 132)], fill=RED, width=4)
+    d.polygon([(314, 122), (332, 132), (314, 142)], fill=RED)
+    # node circle with bitcoin logo
+    paste_contain(base, Image.open(btc).convert("RGBA"), (340, 72, 120, 120), pad=0)
+    d = Draw(base)
+    d.text((474, 92), "node stalls", font=font(FONT_B, 22), fill=WHITE)
+    d.text((474, 122), "12+ seconds", font=font(FONT_B, 22), fill=RED)
+    d.text((474, 154), "per message", font=font(FONT_R, 14), fill=(203, 213, 225))
+    # version chips
+    chips = [("30.5", GREEN), ("31.3", GREEN), ("32.1", GREEN), ("29.x: no fix", RED)]
+    x = 30
+    f = font(FONT_B, 17)
+    d.text((30, 222), "Update to a fixed Bitcoin Core version:", font=font(FONT_R, 15), fill=(203, 213, 225))
+    for t, col in chips:
+        w = d.textlength(t, font=f) + 30
+        d.rounded_rectangle([x, 254, x + w, 294], radius=20, fill=(12, 24, 28), outline=col, width=2)
+        d.text((x + 15, 264), t, font=f, fill=col)
+        x += w + 12
+    d.text((30, 314), "CVE-2026-117348 · medium severity · found by an AI scan", font=font(FONT_R, 13), fill=(148, 163, 184))
+    label_chip(base, "Bitcoin Core · security fix")
+    return base, {"kind": "composite", "sources": [
+        {"file": "Bitcoin.svg", "license": "Public domain", "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg", "credit": "Bitcoin logo"},
+        {"file": "CVE-2026-117348 advisory", "license": "Facts cited", "url": "https://bitcoincore.org/en/2026/11/20/disclose-orphan-inv-stall/", "credit": "Bitcoin Core"},
+    ], "note": "Editorial diagram; no endorsement by Bitcoin Core implied."}
+
+
 BUILDERS = {
+    "chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026": thumb_chainflip_bounty,
+    "bitcoin-core-node-stall-bug-ai-found-fix-nov-2026": thumb_core_node_stall,
     "kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026": thumb_kraken_cad_crash,
     "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026": thumb_btc_55100_rebound,
     "bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026": thumb_btc_new_2026_low,

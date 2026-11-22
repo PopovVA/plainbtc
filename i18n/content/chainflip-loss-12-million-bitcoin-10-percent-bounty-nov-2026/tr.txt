@@ -1,0 +1,63 @@
+title: Chainflip: Saldırgan 122,86 bitcoin de aldı, kayıp yaklaşık 12 milyon dolara çıktı; proje %10 ödül teklif ediyor
+page_title: Chainflip'in kaybı 122,86 BTC ile yaklaşık 12 milyon dolara çıktı; %10 ödül teklifi
+description: Chainflip artık 21 Kasım'daki saldırganın ETH ve stablecoin'lerin yanında 122,86 BTC de aldığını, toplamın yaklaşık 12 milyon dolar olduğunu söylüyor. Saldırgana, %90'ı 23 Kasım 18.38 UTC'ye kadar iade ederse %10'u tutmayı teklif ediyor.
+og_description: Bitcoin'ler, Chainflip'in Ethereum kasası boşaltılmadan dokuz dakika önce tek bir işlemle taşındı. Chainflip pazartesiye kadar %10 ödül teklif ediyor; pazar sabahı coin'ler hâlâ yerinden kıpırdamamıştı.
+label: Güvenlik
+summary: Chainflip artık 21 Kasım'da alınan varlıklar arasında ETH ve stablecoin'lerin yanı sıra 122,86 BTC'yi de sayıyor: toplam yaklaşık 12 milyon dolar. Saldırgana, %90'ı pazartesi ABD Merkezi saatiyle 12.38'e kadar iade ederse %10'u tutmayı teklif ediyor.
+===
+
+Farklı blokzincirler arasında coin takası sunan Chainflip'e yönelik saldırı, ilk bildirilenden daha büyük çıktı. [Chainflip Labs](L1), sitesinde saldırgana hitaben yayımladığı mesajda, saldırganın 21 Kasım cumartesi günü kasalarından <strong>122,86 bitcoin (BTC)</strong> aldığını söyledi. Bu, Ethereum kasasından çıktığı daha önce görülen 520,22 ether (ETH), 3,25 milyon USDC ve 758.141 USDT'ye ek olarak geldi.
+
+[Cumartesi günkü haberimiz](/articles/chainflip-vault-drained-4-86-million-flip-falls-nov-2026) dahil ilk tahminler kaybı yaklaşık 4,86 milyon dolar olarak veriyor ve yalnızca Ethereum kasasını hesaba katıyordu. Bitcoin'lerle birlikte toplam, [Cointelegraph](L5) ve [crypto.news](L6) haberlerine göre yaklaşık <strong>12 milyon dolar</strong>. Chainflip, kalanı iade etmesi karşılığında saldırgana %10 ödül teklif etti.
+
+!takeaways
+- Chainflip, 21 Kasım'da 520,22 ETH, 3,25 milyon USDC ve 758.141 USDT ile birlikte 122,86 BTC'nin de alındığını söylüyor.
+- O andaki fiyatlarla bu yaklaşık 12 milyon dolar ediyor; 4,86 milyon dolarlık ilk tahminin iki katından fazla.
+- Saldırgan, %90'ı 23 Kasım pazartesi 18.38 UTC'ye (ABD Merkezi saatiyle 12.38) kadar iade ederse %10'u tutabilir.
+- Pazar sabahı itibarıyla bitcoin'ler hareket etmemişti ve Chainflip'in iade adresine hiçbir şey gelmemişti.
+
+!figure:chart
+
+## Önce bitcoin'ler çıktı
+
+PlainBTC, Bitcoin blokzincirinin herkese açık verilerini inceledi. Cumartesi ABD Merkezi saatiyle 01.01'de tek bir [işlem](L3), Chainflip'in açıkladığı miktar olan tam 122,86137042 BTC'yi yeni kullanılan bir adrese taşıdı. Bu, Ethereum kasasının 01.10'da boşaltılmasından yaklaşık dokuz dakika önceydi.
+
+Merkezi saatle 01.00'deki Kraken fiyatlarıyla, yani bitcoin başına yaklaşık 57.966 dolar ve ether başına 1.638 dolarla, bitcoin'lerin değeri yaklaşık 7,1 milyon dolar, toplam ganimet ise yaklaşık 12,0 milyon dolardı. Yani kaybın en büyük kısmı bitcoin. The Block cumartesi günü, Chainflip'in Bitcoin gibi diğer ağlardaki kasalarının etkilenmemiş göründüğünü bildirmişti.
+
+## Süreli bir %10 teklifi
+
+Chainflip cumartesi Merkezi saatle 13.22'de [X'te](L2), bitcoin'lerin bulunduğu adrese zincir üstü bir mesaj gönderdiğini duyurdu. Bu mesaj, şu notu taşıyan küçük bir Bitcoin [işlemi](L4): "Chainflip: return 90%, keep 10%. Addresses and terms: chainflip.io/return." (%90'ı iade et, %10'u tut; adresler ve şartlar chainflip.io/return'de).
+
+Şartlar, bitcoin'lerin %90'ı olan 110,57523337 BTC ile 2.618,1 ETH'nin iki iade adresine gönderilmesini istiyor. [Altcoin Reporter](L7), alınan ETH'nin yaklaşık beş katı olan ether miktarının stablecoin'leri de kapsadığı anlaşıldığını belirtti; saldırgan bunları dakikalar içinde ETH'ye çevirmişti. Chainflip bu rakama nasıl ulaştığını açıklamadı. Her iki ödeme de 23 Kasım 18.38 UTC'ye kadar gelirse Chainflip, olayı "beyaz şapkalı iade" olarak değerlendireceğini, başka soru sormayacağını ve yetkililere yaptığı şikâyetleri geri çekeceğini söylüyor. Hırsızlığın kolluk kuvvetlerine bildirildiğini de açıkladı.
+
+!mid_cta
+
+!figure:timeline
+
+## Chainflip ne bulduğunu söylüyor
+
+Chainflip'in kasaları, ağı çalıştıran bilgisayarlar olan doğrulayıcılar arasında paylaşılan bir anahtarla kontrol ediliyor. Chainflip mesajında saldırının nasıl hazırlandığını izlediğini söyledi: 11 Kasım'da Tornado Cash karıştırıcısı üzerinden gelen fonlar, FLIP tokeni alımı ve hırsızlıktan bir gün önce, 20 Kasım'da kaydedilen bir doğrulayıcı hesabı ile "arkasındaki sunucu".
+
+Şirket "anahtarın açığa çıkma mekanizmasını tespit ettiğini" ve benzer saldırıları önlediğini söylüyor, ancak teknik bir rapor yayımlamadı ve anahtarın tam olarak nasıl açığa çıktığını açıklamadı. Ayrıca "sorumlu doğrulayıcı" ve kullanılan web hizmetleri hakkında kimlik belirleyici bilgilere sahip olduğunu, saldırganın adreslerinin büyük blokzincir analiz şirketlerince işaretlendiğini belirtti. Bunlar Chainflip'in kendi iddiaları. Kimsenin adı verilmedi ve bir gözaltı haberi yok.
+
+## Pazar günü durum
+
+Pazar Merkezi saatle 08.00 civarında, PlainBTC'nin incelediği [mempool.space](L3) verilerine göre 122,86 BTC hâlâ onları alan adreste duruyordu ve bitcoin iade adresinde hiç işlem yoktu. Çok imzalı bir cüzdan olan ether iade adresinde ise neredeyse hiçbir şey yoktu.
+
+Chainflip, cumartesi sabahı "tam güvenli mod"u açtığından beri takasların, yatırmaların veya çekimlerin yeniden başladığını duyurmadı ve kullanıcıların zararının karşılanıp karşılanmayacağını söylemedi. Eylül ayında, Tron kasasından 736.442 USDT alınan daha küçük bir saldırının ardından doğrulayıcılar kaybı karşılamak için oy vermişti. Chainflip'in FLIP tokeni, [CoinGecko](L8) verilerine göre pazar sabahı yaklaşık 0,32 dolardan işlem görüyordu; saldırıdan önce yaklaşık 0,48 dolardı.
+
+## Yeni başlayanlar için anlamı
+
+Saldırılardaki kayıplar, araştırmacılar her ağdan çıkanı topladıkça ilk haberlerden sonra sık sık büyür. Yeniyseniz kriptonuzun büyük kısmını [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsada ya da kendi kontrol ettiğiniz bir cüzdanda tutun ve tam anlamadığınız havuzlara para yatırmaktan kaçının. Bir saldırının ardından gelen "iade" veya "talep" bağlantılarına dikkat edin: Chainflip'in teklifi yalnızca saldırgana yönelik ve dolandırıcılar sık sık etkilenen projeyi taklit eder. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra izlenecekler
+
+- Pazartesi Merkezi saatle 12.38'den önce Chainflip'in iade adreslerine coin gelip gelmeyeceği.
+- Chainflip'in ortak anahtarın nasıl açığa çıktığına dair teknik raporu.
+- Likidite sağlayıcıların ve takasları takılan kullanıcıların zararının karşılanıp karşılanmayacağı ve takasların ne zaman yeniden başlayacağı.
+
+!soft: Coin'lerinizi nerede saklayacağınızdan emin değil misiniz? [Kripto cüzdanı nedir: emanetçi ve kendi saklama](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

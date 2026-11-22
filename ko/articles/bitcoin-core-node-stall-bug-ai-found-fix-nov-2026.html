@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="stylesheet" href="/assets/styles.d7a61a8be7.css">
+  <link rel="icon" href="/favicon.ico?v=2" sizes="48x48">
+  <link rel="icon" href="/assets/favicon.svg?v=2" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=2">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
+  <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (한국어)" href="/ko/feed.xml">
+  <title>비트코인 코어, AI가 찾은 버그 CVE-2026-117348 수정… 30.5, 31.3, 32.1로 업데이트해야 | PlainBTC</title>
+  <meta name="description" content="비트코인 코어가 다른 노드가 메시지 하나마다 노드를 십수 초 이상 멈추게 할 수 있던 중간 심각도 버그를 공개했다. 수정은 30.5, 31.3, 32.1에 들어 있으며, 접속 가능한 노드의 약 40%는 아직 영향받는 버전을 쓰고 있다.">
+  <link rel="canonical" href="https://plainbtc.com/ko/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026">
+  <!-- i18n:hreflang -->
+  <link rel="alternate" hreflang="en" href="https://plainbtc.com/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026">
+  <link rel="alternate" hreflang="es" href="https://plainbtc.com/es/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026">
+  <link rel="alternate" hreflang="pt-BR" href="https://plainbtc.com/pt/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026">
+  <link rel="alternate" hreflang="fr" href="https://plainbtc.com/fr/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026">
+  <link rel="alternate" hreflang="de" href="https://plainbtc.com/de/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026">
+  <link rel="alternate" hreflang="ru" href="https://plainbtc.com/ru/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026">
+  <link rel="alternate" hreflang="tr" href="https://plainbtc.com/tr/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026">
+  <link rel="alternate" hreflang="id" href="https://plainbtc.com/id/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026">
+  <link rel="alternate" hreflang="ja" href="https://plainbtc.com/ja/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026">
+  <link rel="alternate" hreflang="ko" href="https://plainbtc.com/ko/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026">
+  <link rel="alternate" hreflang="x-default" href="https://plainbtc.com/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <!-- /i18n:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="비트코인 코어, AI가 찾은 노드 멈춤 버그 수정… 공개 노드 약 40%는 여전히 영향받는 버전 사용">
+  <meta property="og:description" content="거래 ID 하나를 5만 번 반복하면 비트코인 코어 노드를 멈출 수 있다는 사실을 AI 스캔이 찾아냈다. 29.x 버전은 수정되지 않는다. 이 버그로 코인을 가져갈 수는 없지만 노드 운영자는 업데이트해야 한다.">
+  <meta property="og:url" content="https://plainbtc.com/ko/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026">
+  <meta property="og:site_name" content="PlainBTC">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="article:published_time" content="2026-11-22">
+  <meta property="article:modified_time" content="2026-11-22">
+  <meta property="article:section" content="보안">
+  <meta property="og:image" content="https://plainbtc.com/assets/og/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026-v2.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="비트코인 코어, AI가 찾은 노드 멈춤 버그 수정… 공개 노드 약 40%는 여전히 영향받는 버전 사용">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
+  <meta name="twitter:image" content="https://plainbtc.com/assets/og/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026-v2.jpg">
+  <meta name="twitter:title" content="비트코인 코어, AI가 찾은 노드 멈춤 버그 수정… 공개 노드 약 40%는 여전히 영향받는 버전 사용">
+  <meta name="twitter:description" content="거래 ID 하나를 5만 번 반복하면 비트코인 코어 노드를 멈출 수 있다는 사실을 AI 스캔이 찾아냈다. 29.x 버전은 수정되지 않는다. 이 버그로 코인을 가져갈 수는 없지만 노드 운영자는 업데이트해야 한다.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "비트코인 코어, AI가 찾은 노드 멈춤 버그 수정… 공개 노드 약 40%는 여전히 영향받는 버전 사용",
+    "name": "비트코인 코어, AI가 찾은 버그 CVE-2026-117348 수정… 30.5, 31.3, 32.1로 업데이트해야 | PlainBTC",
+    "description": "비트코인 코어가 다른 노드가 메시지 하나마다 노드를 십수 초 이상 멈추게 할 수 있던 중간 심각도 버그를 공개했다. 수정은 30.5, 31.3, 32.1에 들어 있으며, 접속 가능한 노드의 약 40%는 아직 영향받는 버전을 쓰고 있다.",
+    "datePublished": "2026-11-22T14:15:00+00:00",
+    "dateModified": "2026-11-22T14:15:00+00:00",
+    "author": {
+      "@type": "Organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://plainbtc.com/#organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://plainbtc.com/assets/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://discord.gg/EcuGXPDr2d",
+        "https://www.facebook.com/groups/1688106109771364",
+        "https://x.com/lean_redfield"
+      ]
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://plainbtc.com/ko/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026"
+    },
+    "url": "https://plainbtc.com/ko/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/og/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026-v2.jpg",
+      "width": 1200,
+      "height": 630
+    },
+    "articleSection": "보안",
+    "isAccessibleForFree": true,
+    "inLanguage": "ko"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "홈",
+        "item": "https://plainbtc.com/ko/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "비트코인 코어, AI가 찾은 노드 멈춤 버그 수정… 공개 노드 약 40%는 여전히 영향받는 버전 사용",
+        "item": "https://plainbtc.com/ko/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <header class="site-header">
+    <div class="wrap inner">
+      <a class="logo" href="/ko/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="메뉴">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
+      <nav class="nav" aria-label="Primary">
+        <a href="/ko/#articles">기사</a>
+        <a href="/ko/#guides">가이드</a>
+        <a href="/ko/about">소개</a>
+        <a href="/ko/disclosure">공시</a>
+      </nav>
+      <div class="header-tools">
+      <!-- i18n:langmenu -->
+      <details class="lang-menu"><summary aria-label="언어"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">한국어</span><span class="lang-code" aria-hidden="true">KO</span></summary><ul><li><a href="/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="ko" hreflang="ko" aria-current="true">한국어</a></li></ul></details>
+      <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="라이트/다크 테마 전환" title="라이트/다크 테마 전환" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="article-page" id="main" data-toc="이 페이지에서" data-nl="새 글을 이메일로 받아보세요" data-nl-cta="구독하기" data-close="닫기">
+    <article class="content">
+      <!-- i18n:arthead -->
+      <header class="article-head">
+        <!-- i18n:crumbs -->
+        <nav class="crumbs" aria-label="탐색 경로"><a href="/ko/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/ko/#articles">기사</a></nav>
+        <!-- /i18n:crumbs -->
+        <div class="badge">보안</div>
+        <h1>비트코인 코어, AI가 찾은 노드 멈춤 버그 수정… 공개 노드 약 40%는 여전히 영향받는 버전 사용</h1>
+        <div class="meta">게시일 <time datetime="2026-11-22">2026년 11월 22일</time> · PlainBTC · 미국<span class="meta-read"> · 약 5분 소요</span></div>
+        <div class="share" role="group" aria-label="공유">
+          <span class="share-label">공유</span>
+          <a class="share-btn" href="https://x.com/intent/post?url=https%3A%2F%2Fplainbtc.com%2Fko%2Farticles%2Fbitcoin-core-node-stall-bug-ai-found-fix-nov-2026%3Futm_source%3Dx%26utm_medium%3Dsocial&amp;text=%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%20%EC%BD%94%EC%96%B4%2C%20AI%EA%B0%80%20%EC%B0%BE%EC%9D%80%20%EB%85%B8%EB%93%9C%20%EB%A9%88%EC%B6%A4%20%EB%B2%84%EA%B7%B8%20%EC%88%98%EC%A0%95%E2%80%A6%20%EA%B3%B5%EA%B0%9C%20%EB%85%B8%EB%93%9C%20%EC%95%BD%2040%25%EB%8A%94%20%EC%97%AC%EC%A0%84%ED%9E%88%20%EC%98%81%ED%96%A5%EB%B0%9B%EB%8A%94%20%EB%B2%84%EC%A0%84%20%EC%82%AC%EC%9A%A9" target="_blank" rel="noopener nofollow" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplainbtc.com%2Fko%2Farticles%2Fbitcoin-core-node-stall-bug-ai-found-fix-nov-2026%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noopener nofollow" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+          <button class="share-btn share-copy" type="button" data-url="https://plainbtc.com/ko/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" data-copied="링크를 복사했습니다" aria-label="링크 복사" title="링크 복사" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/><path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg></button>
+          <span class="share-status" role="status" aria-live="polite"></span>
+        </div>
+      </header>
+      <img class="og-hero" src="/assets/og/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026-v2.jpg" width="1200" height="630" alt="비트코인 코어, AI가 찾은 노드 멈춤 버그 수정… 공개 노드 약 40%는 여전히 영향받는 버전 사용" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->
+
+      <p>비트코인 네트워크를 운영하는 데 가장 널리 쓰이는 소프트웨어인 비트코인 코어(Bitcoin Core) 개발자들이 11월 20일 금요일, 노드가 한 번에 십수 초 이상 작동을 멈출 수 있는 보안 버그를 공개했다. <a href="https://bitcoincore.org/en/2026/11/20/disclose-orphan-inv-stall/" target="_blank" rel="noopener">공식 보안 권고문</a>에 따르면 <strong>CVE-2026-117348</strong>로 등록된 이 버그를 처음 찾은 것은 인공지능(AI) 스캔이었다.</p>
+      <p>수정은 같은 날 나온 비트코인 코어 <strong>30.5와 31.3</strong>, 그리고 10월 27일 나온 32.1에 들어 있다. 오래된 29.x 시리즈는 지원이 끝나 수정이 제공되지 않는다. 권고문은 심각도를 "중간"으로 분류하고 일시적인 멈춤을 설명한다. 비트코인을 훔치거나 누군가의 잔액을 바꾸는 방법은 언급하지 않았다.</p>
+
+      <div class="takeaways">
+        <h2>핵심 요약</h2>
+        <ul>
+          <li>다른 노드가 거래 ID 하나를 최대 5만 번 반복해 비트코인 코어 노드를 메시지 하나마다 십수 초 이상 멈추게 할 수 있었다.</li>
+          <li>영향받는 버전: 29.0~29.5, 30.0~30.4, 31.0~31.2. 수정 버전: 30.5, 31.3, 32.1. 29.x는 수정되지 않는다.</li>
+          <li>블록의 오픈소스 비트코인 팀인 스파이럴의 프로젝트 루프(Project Loupe) AI 스캔이 7월 이 버그를 보고했다.</li>
+          <li>PlainBTC 확인 결과, 일요일 기준 공개적으로 접속 가능한 노드의 약 40%가 여전히 영향받는 비트코인 코어 버전을 보고했다.</li>
+        </ul>
+      </div>
+
+      <h2>노드란 무엇이고 버그는 어떻게 작동했나</h2>
+      <p>노드는 비트코인 블록체인 사본을 직접 보관하면서 새 결제와 블록을 검증하고 다른 노드에 전달하는 컴퓨터다. 거래소, 채굴자, 지갑 서비스와 많은 개인 이용자가 노드를 운영한다.</p>
+      <p>노드는 어떤 거래를, 그 자금의 출처인 이전 거래보다 먼저 알게 되는 경우가 있다. 이런 "고아" 거래를 보관해 두고 다른 노드에 빠진 부분을 요청한다. 권고문에 따르면 29.0 버전부터 비트코인 코어는 이미 보관 중인 고아 거래를 다른 노드가 알려 오면, 그 고아 거래의 빠진 부모 거래 목록을 만들고 하나하나 확인했다.</p>
+      <p>노드는 거래를 최대 5만 건씩 묶어서 알리는데, 소프트웨어는 중복 항목을 건너뛰지 않았다. 공격자는 빠진 부모 거래가 수천 개인 고아 거래를 먼저 보낸 뒤, 그 ID를 5만 번 반복한 묶음을 보낼 수 있었다. 권고문은 "이런 메시지 하나하나가 노드를 십수 초 이상 멈추게 하며, 그동안 노드는 블록을 포함해 다른 노드의 메시지를 전혀 처리하지 못한다"고 설명했다. 수정 후 노드는 묶음 안에서 알려진 각 거래를 한 번만 처리한다.</p>
+
+      <figure class="article-figure">
+        <img src="/assets/img/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026/timeline-cve-2026-117348.webp" width="1200" height="630" alt="노드를 멈추게 할 수 있던 비트코인 코어 버그 CVE-2026-117348 타임라인: 7월 8일 스파이럴의 프로젝트 루프 AI 스캔이 보고, 8월 4~6일 두 번째 연구자가 보고하고 수정이 작성·병합, 10월 27일 수정이 포함된 비트코인 코어 32.1 출시, 11월 20일 30.5와 31.3 출시 및 버그 공개" loading="lazy" decoding="async">
+        <figcaption>출처: Bitcoin Core security advisory CVE-2026-117348, Nov. 20, 2026</figcaption>
+      </figure>
+
+      <h2>왜 중요한가</h2>
+      <p>멈춘 노드는 해킹된 지갑과는 다르지만, 지연은 기업에 피해를 줄 수 있다. <a href="https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug" target="_blank" rel="noopener">코인데스크</a>는 영향받는 노드에 의존하는 거래소는 입금 반영이 늦어질 수 있고, 채굴자는 낡은 블록체인 상태를 기준으로 작업하며 연산력을 낭비할 수 있다고 짚었다. 메시지를 더 보내면 노드를 더 오래 묶어 둘 수도 있었다.</p>
+      <p>권고문은 이 버그를 "쉽게 발견할 수 있는" 유형으로 분류했다. 코인데스크에 따르면 비트코인 코어가 10월 22일 채택한 보안 정책에 따라 이런 버그는 지원 중인 모든 버전에서 최대한 빨리 수정되고, 공개 전 통상적인 비공개 기간을 기다리지 않고 새 버전 출시와 함께 공개된다. 개발자들은 AI 도구 탓에 이런 결함을 다시 찾아내는 비용이 낮아질까 우려한다.</p>
+      <h2>AI가 먼저, 그다음 사람이 발견</h2>
+      <p>권고문은 발견자로 대규모 언어 모델을 활용한 자동 스캔을 꼽았다. 블록의 오픈소스 비트코인 팀 스파이럴에서 엘리아스 로러가 이끄는 프로젝트 루프의 일부다. 루프는 7월 8일 문제를 보고했다. 비트코인 코어 개발자 그레고리 샌더스가 이를 확인해 보안팀에 전달했다. 두 번째 연구자 스투트쏘(Stutxo)도 8월 4일 같은 버그를 보고했는데, 샌더스가 수정안을 올린 날이다. 수정은 8월 6일 병합돼 10월 27일 32.1에 담겼고, 11월 20일 나온 30.x와 31.x 버전에도 옮겨졌다.</p>
+
+      <figure class="article-figure">
+        <img src="/assets/img/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026/chart-reachable-nodes-by-version.webp" width="1200" height="675" alt="2026년 11월 22일 접속 가능한 비트코인 노드 2만 1,840개의 비트코인 코어 버전별 막대 그래프: 수정된 버전(32.x, 31.3, 30.5) 7,153개, 패치가 나온 영향받는 30.x·31.x 6,138개, 패치가 없는 영향받는 29.x 2,636개, 29.0보다 오래된 버전 2,872개, 기타 또는 자체 소프트웨어 3,041개" loading="lazy" decoding="async">
+        <figcaption>차트: PlainBTC, 데이터: BTC Nodes (btcnodes.io) reachable-node snapshot, 13:24 UTC Nov. 22, 2026; version groups per the Bitcoin Core advisory</figcaption>
+      </figure>
+
+      <h2>아직 업데이트가 필요한 노드는 얼마나 되나</h2>
+      <p>PlainBTC는 일요일 미국 중부시간 오전 7시 24분 <a href="https://btcnodes.io/" target="_blank" rel="noopener">BTC Nodes</a> 스냅숏에 잡힌 공개 접속 가능 노드 2만 1,840개를 보고된 버전별로 분류했다. 약 7,150개는 수정된 비트코인 코어 버전을 쓴다. 약 6,140개는 업데이트가 나온 영향받는 30.x나 31.x를, 약 2,640개는 업데이트가 나오지 않는 29.x를 쓴다. 합치면 약 8,770개, 대략 40%다.</p>
+      <p>이 숫자는 대략적인 참고치다. 버전은 각 노드가 스스로 알리는 것이고, 집계 대상은 외부 접속을 받는 노드뿐이며, 약 3,040개 노드는 다른 소프트웨어나 자체 빌드를 써서 어느 그룹에도 넣지 않았다.</p>
+      <h2>초보자에게 주는 의미</h2>
+      <p>거래소나 휴대폰 지갑에 비트코인을 두고 있다면 따로 할 일은 없다. 가정용 노드 기기 등에서 직접 노드를 운영한다면 비트코인 코어 버전을 확인하고 30.5, 31.3, 32.1 중 하나로 업데이트하자(<a href="https://bitcoincore.org/en/releases/31.3/" target="_blank" rel="noopener">릴리스 노트</a> 참고). 아직 29.x를 쓴다면 지원되는 버전으로 옮겨야 한다. 비트코인 코어는 bitcoincore.org나 사용하는 노드 소프트웨어의 공식 앱 스토어에서만 내려받자. "긴급 업데이트"를 가장한 가짜 링크는 흔한 사기 수법이다. 이제 막 시작해서 코인베이스 같은 대형 규제 거래소를 통해 사고 있다면, 거래소가 자체 노드를 운영하므로 직접 업데이트할 것은 없다. 이 글은 투자 조언이 아니다.</p>
+      <h2>앞으로 지켜볼 점</h2>
+      <ul>
+        <li>앞으로 몇 주 동안 영향받는 버전을 쓰는 노드 비율이 얼마나 빨리 줄어드는지.</li>
+        <li>비트코인 코어의 더 빠른 공개 정책에 따라 드러날, AI가 찾은 새 버그.</li>
+        <li>비트코인 코어를 포함한 노드 소프트웨어 업체들의 업데이트.</li>
+      </ul>
+
+      <p class="soft-guide">직접 환경을 꾸리기 시작했나요? <a href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">암호화폐 지갑이란: 수탁형과 자기 보관형</a>을 읽어 보세요.</p>
+
+      <div class="cta">
+        <h2>초보자를 위한 가이드를 더 보시겠어요?</h2>
+        <p>이 페이지에서 뉴스레터를 구독하거나 아래 PlainBTC 커뮤니티에 참여해 보세요. 관련 기사는 그 아래에 있습니다.</p>
+      </div>
+
+      <div class="disclosure">
+        <strong>투자 조언이 아닙니다.</strong> 이 기사는 정보 제공과 교육만을 목적으로 합니다. 투자, 거래, 법률 또는 세무 조언이 아닙니다. 암호화폐는 변동성이 크며 원금을 잃을 수 있습니다. 직접 조사하시고, 금융 결정을 내리기 전에 필요하면 자격을 갖춘 전문가와 상담하세요.
+      </div>
+
+  <!-- i18n:bmc -->
+      <aside class="bmc-box" aria-label="PlainBTC 후원">
+        <p>도움이 되셨나요? PlainBTC는 유료 장벽과 과장 없이 운영되는 무료 독립 미디어입니다. 응원하고 싶으시다면 커피 한 잔을 사 주세요.</p>
+        <a class="bmc-button" href="https://buymeacoffee.com/LeonRedfield" target="_blank" rel="noopener">☕ 커피 사 주기</a>
+      </aside>
+  <!-- /i18n:bmc -->
+
+
+  <!-- i18n:community -->
+      <aside class="community-box" aria-label="커뮤니티 링크">
+        <h2>커뮤니티에 참여하세요</h2>
+        <p>뉴스, 초보 질문, 설문: Discord·Facebook·X에서 PlainBTC를 팔로우하세요.</p>
+        <div class="community-links"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+      </aside>
+  <!-- /i18n:community -->
+  <!-- i18n:newsletter -->
+      <aside class="newsletter-box" aria-labelledby="nl-title">
+        <h2 id="nl-title">새 글을 이메일로 받아보세요</h2>
+        <p>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스를 글이 올라올 때마다 이메일로 보내드립니다. 스팸 없이, 언제든 구독 해지할 수 있습니다.</p>
+        <form class="newsletter-form" method="post" action="/api/subscribe" novalidate data-ok="거의 끝났습니다. 받은편지함에서 확인 링크를 눌러 주세요." data-invalid="올바른 이메일 주소를 입력해 주세요." data-rate="시도 횟수가 너무 많습니다. 잠시 후 다시 시도해 주세요." data-error="문제가 발생했습니다. 다시 시도해 주세요." data-sending="전송 중…">
+          <input type="hidden" name="lang" value="ko">
+          <input type="hidden" name="source" value="/ko/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026">
+          <div class="nl-hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <label class="nl-label" for="nl-email">이메일 주소</label>
+          <div class="nl-row"><input id="nl-email" type="email" name="email" required maxlength="254" autocomplete="email" inputmode="email" placeholder="you@example.com">
+          <button type="submit">구독하기</button></div>
+        </form>
+        <p class="nl-status" role="status" aria-live="polite"></p>
+        <p class="nl-note">이메일 주소는 PlainBTC 새 글 알림 발송에만 사용합니다. 확인 절차가 필요합니다. <a href="/ko/disclosure">개인정보 안내</a></p>
+      </aside>
+  <!-- /i18n:newsletter -->
+
+<aside class="related" aria-label="관련 기사">
+        <h2>관련 기사</h2>
+        <ul>
+          <li><a href="/ko/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026">룩소르 "해커가 자사 소프트웨어 커맨더 통해 비트코인 채굴기 탈취"</a></li>
+          <li><a href="/ko/articles/binance-warns-iphone-ios-flaw-wallet-keys-nov-2026">바이낸스, 아이폰 사용자에 경고… iOS 취약점으로 암호화폐 지갑 시드 문구 노출 우려</a></li>
+          <li><a href="/ko/articles/chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026">체인플립 "해커가 비트코인 122.86개도 가져가" 피해 약 1,200만 달러로 늘어, 10% 보상금 제시</a></li>
+          <li><a href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">암호화폐 지갑이란? 수탁형과 자기 수탁형, 초보자를 위한 설명</a></li>
+        </ul>
+      </aside>
+
+      <section class="sources" aria-label="출처">
+        <h2>출처</h2>
+        <ol>
+          <li><a href="https://bitcoincore.org/en/2026/11/20/disclose-orphan-inv-stall/" target="_blank" rel="noopener">Bitcoin Core: CVE-2026-117348, node stall through duplicate orphan announcements</a> (2026년 11월 20일)</li>
+          <li><a href="https://bitcoincore.org/en/releases/30.5/" target="_blank" rel="noopener">Bitcoin Core 30.5 release notes</a> (2026년 11월 20일)</li>
+          <li><a href="https://bitcoincore.org/en/releases/31.3/" target="_blank" rel="noopener">Bitcoin Core 31.3 release notes</a> (2026년 11월 20일)</li>
+          <li><a href="https://bitcoincore.org/en/lifecycle/" target="_blank" rel="noopener">Bitcoin Core: software life cycle (supported versions)</a> (Nov 2026)</li>
+          <li><a href="https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug" target="_blank" rel="noopener">CoinDesk: Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug</a> (2026년 11월 21일)</li>
+          <li><a href="https://btcnodes.io/" target="_blank" rel="noopener">BTC Nodes: reachable Bitcoin nodes snapshot, 13:24 UTC</a> (2026년 11월 22일)</li>
+        </ol>
+        <p class="sources-note">출처 제목은 원문 언어로 표시됩니다.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
+    <div class="wrap inner">
+      <div class="footer-brand">
+        <a class="logo" href="/ko/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · 초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/ko/">홈</a>
+        <a href="/ko/about">소개</a>
+        <a href="/ko/disclosure">공시</a>
+        <a href="/ko/feed.xml">RSS</a>
+      </nav>
+    </div>
+  <!-- i18n:footersocial -->
+  <div class="wrap footer-social" aria-label="커뮤니티 링크"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+  <!-- /i18n:footersocial -->
+  <!-- i18n:footerlangs -->
+  <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="en" hreflang="en">English</a> <a href="/es/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="es" hreflang="es">Español</a> <a href="/pt/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026" lang="ko" hreflang="ko">한국어</a></nav></div>
+  <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">맨 위로 <span aria-hidden="true">↑</span></a></div>
+  </footer>
+  <script src="/assets/site.a911afff6c.js" defer></script>
+</body>
+</html>

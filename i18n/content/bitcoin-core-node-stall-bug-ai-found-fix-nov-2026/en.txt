@@ -1,0 +1,63 @@
+title: Bitcoin Core fixes an AI-found bug that could stall nodes; about 40% of public nodes still run affected versions
+page_title: Bitcoin Core fixes AI-found node-stall bug CVE-2026-117348; update to 30.5, 31.3 or 32.1
+description: Bitcoin Core disclosed a medium-severity bug that let a peer stall a node for over a dozen seconds per message. Fixes are in 30.5, 31.3 and 32.1; about 40% of reachable nodes still report affected versions.
+og_description: An AI scan found that repeating one transaction ID 50,000 times could stall a Bitcoin Core node. Version 29.x gets no fix. The bug does not let anyone take coins, but node runners should update.
+label: Security
+summary: Bitcoin Core disclosed CVE-2026-117348, a bug found by an AI scan that let a peer stall a node for over a dozen seconds per message. Fixes are in 30.5, 31.3 and 32.1; about 8,800 public nodes still report affected versions.
+===
+
+The developers of Bitcoin Core, the most widely used software for running the Bitcoin network, disclosed a security bug on Friday, Nov. 20, that could make a node stop working for more than a dozen seconds at a time. The bug, listed as <strong>CVE-2026-117348</strong>, was first found by an artificial intelligence scan, according to the [official advisory](L1).
+
+Fixes are in Bitcoin Core <strong>30.5 and 31.3</strong>, released the same day, and in 32.1, released on Oct. 27. The older 29.x series has reached the end of its support and will not get a fix. The advisory rates the problem "medium" severity and describes a temporary stall. It does not describe any way to steal bitcoin or change anyone's balance.
+
+!takeaways
+- A peer could stall a Bitcoin Core node for over a dozen seconds per message by repeating one transaction ID up to 50,000 times.
+- Affected versions: 29.0 to 29.5, 30.0 to 30.4 and 31.0 to 31.2. Fixed: 30.5, 31.3 and 32.1. 29.x gets no fix.
+- An AI scan from Project Loupe at Spiral, Block's open-source bitcoin team, reported the bug in July.
+- On Sunday, about 40% of publicly reachable nodes still reported an affected Bitcoin Core version, PlainBTC found.
+
+## What a node is, and how the bug worked
+
+A node is a computer that keeps its own copy of the Bitcoin blockchain, checks new payments and blocks, and passes them on to other nodes. Exchanges, miners, wallet services and many individual users run one.
+
+Sometimes a node hears about a transaction before it has seen the earlier transaction that funded it. It holds this "orphan" and asks other nodes for the missing pieces. Since version 29.0, when a peer announces an orphan the node already holds, Bitcoin Core builds a list of the orphan's missing parents and checks each one, the advisory explains.
+
+Nodes announce transactions in batches of up to 50,000 entries, and the software did not skip repeated entries. An attacker could first send an orphan with thousands of missing parents, then send batches repeating its ID 50,000 times. "Each such message stalls the node for over a dozen seconds, during which it processes no messages from other peers, including blocks," the advisory says. The fix makes a node handle each announced transaction only once per batch.
+
+!figure:timeline
+
+## Why it matters
+
+A stalled node is not a hacked wallet, but delays can hurt businesses. [CoinDesk](L2) noted that an exchange relying on an affected node could be slow to credit deposits, and a miner could waste computing power working on an outdated view of the blockchain. Sending more messages could keep the node stuck longer.
+
+The advisory calls the bug "easily discoverable." Under the security policy Bitcoin Core adopted on Oct. 22, CoinDesk reported, such bugs are fixed in all maintained versions as soon as possible and disclosed together with the releases, instead of waiting out the usual quiet period before disclosure. Developers worry that AI tools make this kind of flaw cheap to find again.
+
+## Found by AI, then by a human
+
+The advisory credits an automated scan using a large language model, part of Elias Rohrer's Project Loupe at Spiral, Block's open-source bitcoin team. Loupe reported the issue on July 8. Bitcoin Core developer Gregory Sanders checked the finding and brought it to the security team. A second researcher, Stutxo, reported the same bug on Aug. 4, the day Sanders opened a fix. It was merged on Aug. 6, shipped in 32.1 on Oct. 27, and copied to the 30.x and 31.x versions released on Nov. 20.
+
+!mid_cta
+
+!figure:chart
+
+## How many nodes still need the update
+
+PlainBTC grouped the 21,840 publicly reachable nodes in a [BTC Nodes](L3) snapshot taken at 7:24 a.m. Central time on Sunday by the version they report. About 7,150 run a fixed Bitcoin Core release. About 6,140 run an affected 30.x or 31.x version that has an update available, and about 2,640 run 29.x, which will not get one. Together that is about 8,770 nodes, or roughly 40%.
+
+These numbers are a rough guide. Nodes report their own version, the count covers only nodes that accept outside connections, and about 3,040 nodes run other or custom software that we did not count either way.
+
+## What it means for beginners
+
+If you hold bitcoin on an exchange or in a phone wallet, you do not need to do anything. If you run your own node, for example on a home node box, check your Bitcoin Core version and update to 30.5, 31.3 or 32.1 (see the [release notes](L4)). Users still on 29.x should move to a supported version. Only download Bitcoin Core from bitcoincore.org or your node software's official app store, since fake "urgent update" links are a common scam. If you are just starting out and buy through a large regulated exchange such as [Coinbase](REF), the exchange runs its own nodes, so there is nothing for you to update. This is not investment advice.
+
+## What to watch next
+
+- How quickly the share of nodes on affected versions falls over the coming weeks.
+- More AI-found bugs disclosed under Bitcoin Core's faster policy.
+- Updates from node software makers that bundle Bitcoin Core.
+
+!soft: New to running your own setup? Read [what a crypto wallet is: custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

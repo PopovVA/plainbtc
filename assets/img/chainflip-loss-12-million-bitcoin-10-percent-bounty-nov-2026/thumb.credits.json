@@ -1,0 +1,40 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Bitcoin.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg",
+      "credit": "Bitcoin logo"
+    },
+    {
+      "file": "chainflip-logo.png",
+      "license": "Logo",
+      "url": "https://www.coingecko.com/en/coins/chainflip",
+      "credit": "Chainflip (logo via CoinGecko)"
+    },
+    {
+      "file": "Message from Chainflip Labs",
+      "license": "Figures cited",
+      "url": "https://chainflip.io/return",
+      "credit": "Chainflip Labs"
+    },
+    {
+      "file": "Bitcoin tx ac38a5aea1ed81b84307a3709f502abd4c4d3af5502493f883c6d19624fd2cb4",
+      "license": "Public blockchain data",
+      "url": "https://mempool.space/tx/ac38a5aea1ed81b84307a3709f502abd4c4d3af5502493f883c6d19624fd2cb4",
+      "credit": "mempool.space"
+    }
+  ],
+  "note": "Editorial composite for identification; trademarks belong to their owners.",
+  "slug": "chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026",
+  "generated": "2026-11-22T14:03Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Bitcoin.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg",
+      "credit": "Bitcoin logo"
+    },
+    {
+      "file": "CVE-2026-117348 advisory",
+      "license": "Facts cited",
+      "url": "https://bitcoincore.org/en/2026/11/20/disclose-orphan-inv-stall/",
+      "credit": "Bitcoin Core"
+    }
+  ],
+  "note": "Editorial diagram; no endorsement by Bitcoin Core implied.",
+  "slug": "bitcoin-core-node-stall-bug-ai-found-fix-nov-2026",
+  "generated": "2026-11-22T14:03Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

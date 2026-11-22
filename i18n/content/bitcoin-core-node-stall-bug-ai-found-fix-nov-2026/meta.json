@@ -1,0 +1,45 @@
+{
+ "slug": "bitcoin-core-node-stall-bug-ai-found-fix-nov-2026",
+ "date": "2026-11-22",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026",
+  "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026",
+  "chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {
+   "url": "https://bitcoincore.org/en/2026/11/20/disclose-orphan-inv-stall/",
+   "title": "Bitcoin Core: CVE-2026-117348, node stall through duplicate orphan announcements",
+   "date": "Nov 20, 2026"
+  },
+  {
+   "url": "https://bitcoincore.org/en/releases/30.5/",
+   "title": "Bitcoin Core 30.5 release notes",
+   "date": "Nov 20, 2026"
+  },
+  {
+   "url": "https://bitcoincore.org/en/releases/31.3/",
+   "title": "Bitcoin Core 31.3 release notes",
+   "date": "Nov 20, 2026"
+  },
+  {
+   "url": "https://bitcoincore.org/en/lifecycle/",
+   "title": "Bitcoin Core: software life cycle (supported versions)",
+   "date": "Nov 2026"
+  },
+  {
+   "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
+   "title": "CoinDesk: Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
+   "date": "Nov 21, 2026"
+  },
+  {
+   "url": "https://btcnodes.io/",
+   "title": "BTC Nodes: reachable Bitcoin nodes snapshot, 13:24 UTC",
+   "date": "Nov 22, 2026"
+  }
+ ],
+ "disclosure_variant": "std"
+}

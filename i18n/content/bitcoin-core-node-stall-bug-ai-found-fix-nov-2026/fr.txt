@@ -1,0 +1,63 @@
+title: Bitcoin Core corrige une faille trouvée par une IA qui pouvait bloquer des nœuds ; environ 40 % des nœuds publics tournent encore sur des versions touchées
+page_title: Bitcoin Core corrige la faille CVE-2026-117348 trouvée par une IA ; passez à 30.5, 31.3 ou 32.1
+description: Bitcoin Core a révélé une faille de gravité moyenne qui permettait à un pair de bloquer un nœud plus d'une douzaine de secondes par message. Les correctifs sont dans 30.5, 31.3 et 32.1 ; environ 40 % des nœuds joignables affichent encore une version touchée.
+og_description: Une analyse par IA a montré que répéter un même identifiant de transaction 50 000 fois pouvait bloquer un nœud Bitcoin Core. La version 29.x ne sera pas corrigée. La faille ne permet pas de prendre des cryptos, mais ceux qui gèrent un nœud doivent mettre à jour.
+label: Sécurité
+summary: Bitcoin Core a révélé CVE-2026-117348, une faille trouvée par une analyse par IA qui permettait de bloquer un nœud plus d'une douzaine de secondes par message. Les correctifs sont dans 30.5, 31.3 et 32.1 ; environ 8 800 nœuds publics affichent encore une version touchée.
+===
+
+Les développeurs de Bitcoin Core, le logiciel le plus utilisé pour faire tourner le réseau Bitcoin, ont révélé vendredi 20 novembre une faille de sécurité qui pouvait mettre un nœud à l'arrêt pendant plus d'une douzaine de secondes à chaque fois. Cette faille, référencée <strong>CVE-2026-117348</strong>, a d'abord été repérée par une analyse automatisée par intelligence artificielle, selon l'[avis officiel](L1).
+
+Les correctifs figurent dans Bitcoin Core <strong>30.5 et 31.3</strong>, publiés le même jour, ainsi que dans la 32.1, sortie le 27 octobre. L'ancienne série 29.x n'est plus maintenue et ne sera pas corrigée. L'avis classe le problème en gravité « moyenne » et décrit un blocage temporaire. Il ne décrit aucun moyen de voler des bitcoins ou de modifier le solde de qui que ce soit.
+
+!takeaways
+- Un pair pouvait bloquer un nœud Bitcoin Core plus d'une douzaine de secondes par message en répétant un même identifiant de transaction jusqu'à 50 000 fois.
+- Versions touchées : 29.0 à 29.5, 30.0 à 30.4 et 31.0 à 31.2. Corrigées : 30.5, 31.3 et 32.1. La 29.x ne sera pas corrigée.
+- Une analyse par IA de Project Loupe chez Spiral, l'équipe open source de Block consacrée au bitcoin, a signalé la faille en juillet.
+- Dimanche, environ 40 % des nœuds joignables publiquement affichaient encore une version touchée de Bitcoin Core, selon PlainBTC.
+
+## Ce qu'est un nœud, et comment fonctionnait la faille
+
+Un nœud est un ordinateur qui conserve sa propre copie de la blockchain Bitcoin, vérifie les nouveaux paiements et blocs, puis les transmet aux autres nœuds. Plateformes d'échange, mineurs, services de portefeuille et de nombreux particuliers en font tourner un.
+
+Il arrive qu'un nœud apprenne l'existence d'une transaction avant d'avoir vu la transaction précédente qui l'a financée. Il garde alors cette transaction « orpheline » et demande les morceaux manquants aux autres nœuds. Depuis la version 29.0, quand un pair annonce une orpheline que le nœud détient déjà, Bitcoin Core dresse la liste de ses transactions parentes manquantes et vérifie chacune d'elles, explique l'avis.
+
+Les nœuds annoncent les transactions par lots de 50 000 entrées au maximum, et le logiciel ne sautait pas les doublons. Un attaquant pouvait d'abord envoyer une orpheline avec des milliers de parents manquants, puis des lots répétant son identifiant 50 000 fois. « Chacun de ces messages bloque le nœud pendant plus d'une douzaine de secondes, durant lesquelles il ne traite aucun message des autres pairs, y compris les blocs », indique l'avis. Le correctif fait traiter chaque transaction annoncée une seule fois par lot.
+
+!figure:timeline
+
+## Pourquoi c'est important
+
+Un nœud bloqué n'est pas un portefeuille piraté, mais les retards peuvent coûter cher aux entreprises. [CoinDesk](L2) a souligné qu'une plateforme s'appuyant sur un nœud touché pourrait créditer les dépôts avec retard, et qu'un mineur pourrait gaspiller de la puissance de calcul en travaillant sur une vue dépassée de la blockchain. Envoyer davantage de messages pourrait prolonger le blocage.
+
+L'avis qualifie la faille de « facile à découvrir ». Selon la politique de sécurité adoptée par Bitcoin Core le 22 octobre, rapporte CoinDesk, ce type de faille est corrigé au plus vite dans toutes les versions maintenues et révélé en même temps que les mises à jour, au lieu d'attendre la période de silence habituelle avant publication. Les développeurs craignent que les outils d'IA rendent ce genre de faille peu coûteux à retrouver.
+
+## Trouvée par une IA, puis par un humain
+
+L'avis attribue la découverte à une analyse automatisée utilisant un grand modèle de langage, dans le cadre de Project Loupe, mené par Elias Rohrer chez Spiral, l'équipe open source de Block consacrée au bitcoin. Loupe a signalé le problème le 8 juillet. Le développeur de Bitcoin Core Gregory Sanders a vérifié la découverte et l'a transmise à l'équipe de sécurité. Un second chercheur, Stutxo, a signalé la même faille le 4 août, le jour où Sanders a proposé un correctif. Celui-ci a été intégré le 6 août, livré dans la 32.1 le 27 octobre, puis reporté dans les versions 30.x et 31.x publiées le 20 novembre.
+
+!mid_cta
+
+!figure:chart
+
+## Combien de nœuds doivent encore être mis à jour
+
+PlainBTC a classé selon la version qu'ils affichent les 21 840 nœuds joignables publiquement d'un relevé de [BTC Nodes](L3) effectué dimanche à 7 h 24 (heure du Centre des États-Unis). Environ 7 150 utilisent une version corrigée de Bitcoin Core. Environ 6 140 utilisent une version 30.x ou 31.x touchée pour laquelle une mise à jour existe, et environ 2 640 utilisent la 29.x, qui n'en aura pas. Cela fait environ 8 770 nœuds, soit près de 40 %.
+
+Ces chiffres sont indicatifs. Chaque nœud déclare lui-même sa version, le décompte ne couvre que les nœuds qui acceptent les connexions extérieures, et environ 3 040 nœuds utilisent d'autres logiciels ou des versions personnalisées, que nous n'avons classés dans aucun groupe.
+
+## Ce que cela signifie pour les débutants
+
+Si vous détenez des bitcoins sur une plateforme d'échange ou dans un portefeuille sur téléphone, vous n'avez rien à faire. Si vous faites tourner votre propre nœud, par exemple sur un boîtier de nœud à domicile, vérifiez votre version de Bitcoin Core et passez à 30.5, 31.3 ou 32.1 (voir les [notes de version](L4)). Ceux qui sont encore en 29.x doivent passer à une version maintenue. Ne téléchargez Bitcoin Core que sur bitcoincore.org ou dans la boutique d'applications officielle de votre logiciel de nœud, car les faux liens de « mise à jour urgente » sont une arnaque courante. Si vous débutez et achetez via une grande plateforme régulée comme [Coinbase](REF), la plateforme gère ses propres nœuds, vous n'avez donc rien à mettre à jour. Ceci n'est pas un conseil en investissement.
+
+## Ce qu'il faut surveiller
+
+- La vitesse à laquelle la part des nœuds sur des versions touchées diminuera dans les semaines à venir.
+- D'autres failles trouvées par IA et révélées selon la politique plus rapide de Bitcoin Core.
+- Les mises à jour des éditeurs de logiciels de nœud qui intègrent Bitcoin Core.
+
+!soft: Vous vous lancez dans votre propre installation ? Lisez [ce qu'est un portefeuille crypto : dépositaire ou auto-conservation](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

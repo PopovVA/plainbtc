@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ko/</link>
     <description>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 22 Nov 2026 00:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 14:20:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ko/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>체인플립 "해커가 비트코인 122.86개도 가져가" 피해 약 1,200만 달러로 늘어, 10% 보상금 제시</title>
+      <link>https://plainbtc.com/ko/articles/chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026</guid>
+      <pubDate>Sun, 22 Nov 2026 14:20:00 GMT</pubDate>
+      <category>보안</category>
+      <description>체인플립은 11월 21일 탈취된 자산 목록에 ETH와 스테이블코인 외에 122.86 BTC를 추가했다. 총 약 1,200만 달러다. 공격자에게 월요일 미국 중부시간 오후 12시 38분까지 90%를 돌려주면 10%를 가져도 된다고 제안했다.</description>
+    </item>
+    <item>
+      <title>비트코인 코어, AI가 찾은 노드 멈춤 버그 수정… 공개 노드 약 40%는 여전히 영향받는 버전 사용</title>
+      <link>https://plainbtc.com/ko/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026</guid>
+      <pubDate>Sun, 22 Nov 2026 14:15:00 GMT</pubDate>
+      <category>보안</category>
+      <description>비트코인 코어가 AI 스캔으로 발견된 버그 CVE-2026-117348을 공개했다. 메시지 하나마다 노드가 십수 초 이상 멈출 수 있었다. 수정은 30.5, 31.3, 32.1에 들어 있으며, 공개 노드 약 8,800개는 아직 영향받는 버전을 쓰고 있다.</description>
+    </item>
     <item>
       <title>크라켄 캐나다 달러 시장서 비트코인 2만4250캐나다달러에 체결… 크라켄 "거래는 유효"</title>
       <link>https://plainbtc.com/ko/articles/kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026</link>
