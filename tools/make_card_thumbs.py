@@ -1752,6 +1752,36 @@ def thumb_btc_new_2026_low():
     ]}
 
 
+def thumb_abraxas_withdrawals():
+    """Emerald 'flow' diagram: 17,597 BTC (about $1.04B, average $59,206) withdrawn from Binance and Kraken
+    to wallets Arkham labels Abraxas Capital / Heka Funds (Lookonchain, Nov. 22, 2026), plus Kraken's Sunday high."""
+    base = gradient_bg(top=(6, 78, 59), bottom=(4, 20, 18))
+    d = Draw(base)
+    d.text((30, 52), "17,597 BTC", font=font(FONT_B, 58), fill=(110, 231, 183))
+    d.text((34, 128), "moved off two exchanges in about a day", font=font(FONT_B, 17), fill=WHITE)
+    d.text((34, 153), "≈ $1.04 billion · average price $59,206 · Lookonchain", font=font(FONT_R, 13), fill=(167, 243, 208))
+    # exchanges -> wallet flow
+    fb = font(FONT_B, 17)
+    for i, name in enumerate(("Binance", "Kraken")):
+        y = 200 + i * 62
+        d.rounded_rectangle([30, y, 190, y + 44], radius=12, fill=(6, 40, 34), outline=(52, 211, 153), width=2)
+        tw = d.textlength(name, font=fb); d.text((110 - tw / 2, y + 12), name, font=fb, fill=WHITE)
+        # arrow
+        ay = y + 22; ty = 253
+        d.line([(196, ay), (380, ty)], fill=(247, 147, 26), width=4)
+    d.polygon([(372, 241), (396, 253), (372, 265)], fill=(247, 147, 26))
+    d.rounded_rectangle([400, 214, 610, 292], radius=14, fill=(15, 23, 42), outline=(247, 147, 26), width=3)
+    d.text((416, 226), "Wallets Arkham labels", font=font(FONT_R, 13), fill=(203, 213, 225))
+    d.text((416, 246), "Abraxas Capital", font=font(FONT_B, 18), fill=WHITE)
+    d.text((416, 270), "(Heka Funds)", font=font(FONT_R, 12), fill=(203, 213, 225))
+    d.text((30, 322), "Bitcoin on Kraken: Sunday high $61,590 (6:15 a.m. CT)", font=font(FONT_B, 13), fill=(253, 230, 138))
+    label_chip(base, "On-chain · whale withdrawals")
+    return base, {"kind":"diagram","sources":[
+        {"file":"Lookonchain feed 83499 / Arkham entity abraxas-capital-heka-funds","license":"Figures cited","url":"https://www.lookonchain.com/feeds/83499","credit":"17,597 BTC, $1.04B, average $59,206, Binance and Kraken: Lookonchain (Arkham Intelligence labels)"},
+        {"file":"Kraken OHLC XBTUSD interval=15","license":"Kraken public API","url":"https://docs.kraken.com/api/docs/rest-api/get-ohlc-data","credit":"Nov. 22, 2026 high $61,590 at 6:15 a.m. CST, from Kraken"}
+    ]}
+
+
 def thumb_btc_55100_rebound():
     """Graphite 'V' chart: Kraken XBTUSD 15-minute closes Nov 20 6 p.m. - Nov 21 8 a.m. CST (frozen in chart-data.json),
     the overnight low ($55,100 at 12:17 a.m. CST) and the morning high ($60,883.40 at 8:03 a.m. CST)."""
@@ -1944,6 +1974,7 @@ def thumb_core_node_stall():
 
 
 BUILDERS = {
+    "bitcoin-61500-abraxas-capital-1-billion-btc-off-exchanges-nov-2026": thumb_abraxas_withdrawals,
     "chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026": thumb_chainflip_bounty,
     "bitcoin-core-node-stall-bug-ai-found-fix-nov-2026": thumb_core_node_stall,
     "kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026": thumb_kraken_cad_crash,

@@ -1,0 +1,57 @@
+title: Bitcoin steigt über 61.500 $, Tracker melden: Ein Fonds hat Bitcoin für 1 Milliarde $ von Börsen abgezogen
+page_title: Bitcoin über 61.500 $; Abraxas Capital soll BTC für 1 Milliarde $ von Börsen abgezogen haben
+description: Bitcoin stieg am frühen Sonntag bei Kraken auf 61.590 $, den höchsten Stand seit Freitagmorgen. On-Chain-Tracker berichten, dass mit Abraxas Capital verbundene Wallets während des Kursrutsches 17.597 BTC, rund 1,04 Mrd. $, von Binance und Kraken abgezogen haben.
+og_description: Bitcoin kletterte am Sonntagmorgen auf 61.590 $, mehr als 11 % über dem Samstagstief. Laut Blockchain-Trackern hat eine Investmentfirma Bitcoin im Wert von rund 1,04 Mrd. $ von zwei großen Börsen abgezogen, als die Kurse nahe ihrem Zweijahrestief lagen. Was das aussagt und was nicht.
+label: Marktnews
+summary: Bitcoin erreichte am Sonntag um 6:15 Uhr US-Zentralzeit bei Kraken 61.590 $, 11,8 % über dem Samstagstief. Laut Trackern haben als Abraxas Capital gekennzeichnete Wallets während des Rückgangs 17.597 BTC, rund 1,04 Mrd. $, von Binance und Kraken abgezogen.
+===
+
+Bitcoin ist am Sonntag weiter gestiegen. Um <strong>6:15 Uhr US-Zentralzeit am 22. November</strong> erreichte die Kryptowährung bei Kraken <strong>61.590 $</strong>, wie eine Auswertung öffentlicher Kursdaten von [Kraken](L1) und [Coinbase](L2) durch PlainBTC zeigt; bei Coinbase lag das Hoch bei 61.568 $. Das war der höchste Bitcoin-Kurs seit Freitagmorgen und 11,8 % mehr als das Tief von 55.100 $, das Bitcoin kurz nach Mitternacht am Samstag erreicht hatte – der niedrigste Stand seit September 2024.
+
+Die Erholung verlief nicht geradlinig. Nachdem wir am Samstag berichtet hatten, dass Bitcoin [wieder über 60.000 $ gestiegen](/articles/bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026) war, rutschte der Kurs spät am Samstagabend erneut auf rund 58.650 $ bei Kraken. Am Sonntagmorgen stieg er dann wieder und notierte um 12:45 Uhr Zentralzeit bei etwa 60.670 $, rund 3,2 % über dem Schlusskurs vom Samstag.
+
+!takeaways
+- Bitcoin erreichte am Sonntag, dem 22. November, um 6:15 Uhr US-Zentralzeit bei Kraken 61.590 $, 11,8 % über dem Samstagstief von 55.100 $.
+- Der Blockchain-Tracker Lookonchain berichtet, dass als Abraxas Capital gekennzeichnete Wallets 17.597 BTC, rund 1,04 Mrd. $, zu einem Durchschnittspreis von 59.206 $ von Binance und Kraken abgezogen haben.
+- Coins von einer Börse abzuziehen ist kein Beweis für einen neuen Kauf, und die Firma selbst hat sich öffentlich nicht geäußert.
+- US-Spot-Bitcoin-ETFs verloren in der vergangenen Woche dennoch rund 1,25 Mrd. $, und der Crypto Fear & Greed Index stand bei 11, „extreme Angst“.
+
+!figure:chart
+
+## Was die Tracker gesehen haben
+
+[Lookonchain](L3), ein Unternehmen, das große Wallets auf öffentlichen Blockchains verfolgt, meldete am Sonntag, Abraxas Capital habe Bitcoin „für über 1 Mrd. $ gekauft“, als der Kurs unter 60.000 $ fiel. Demnach zog die Firma insgesamt 17.597 BTC zu einem Durchschnittspreis von 59.206 $ von Binance und Kraken ab, was rund 1,04 Mrd. $ entspricht. Das Blockchain-Datenunternehmen [Arkham](L6) fasst die Wallets unter dem Namen Abraxas Capital / Heka Funds zusammen. Abraxas Capital Management ist eine Investmentfirma mit Sitz in London.
+
+Der Analyst EmberCN nannte ähnliche Zahlen. Laut [TechFlow](L4) zählte EmberCN rund 17.597 BTC, die in etwa 24 Stunden – vom Abend des 20. November bis zum Abend des 21. November – Börsen verließen, darunter rund 11.241 BTC im Wert von etwa 670 Mio. $, die am 21. November von Binance und Kraken abgezogen wurden. Eine frühere Zählung des Trackers Onchain Lens kam auf rund 15.130 BTC oder etwa 897 Mio. $, [wie Is Coin Legit berichtete](L5). Die Tracker haben sich überschneidende Zeiträume gemessen, daher weichen ihre Summen voneinander ab.
+
+!figure:fact
+
+## Warum das wichtig ist – und warum Vorsicht angebracht ist
+
+Wenn ein großer Anleger Bitcoin von einer Börse abzieht, wandern die Coins oft in eine langfristige Verwahrung, statt verkaufsbereit zu bleiben. Deshalb deuten Tracker große Abhebungen als Kaufsignal. Eine Abhebung allein beweist aber keinen neuen Kauf. Ein Fonds kann Coins bewegen, die er bereits besaß, sie zwischen eigenen Konten verschieben oder anderswo als Sicherheit einsetzen. Auch die Wallet-Zuordnungen stammen aus der Analyse von Arkham, nicht aus einer Erklärung des Fonds, und Abraxas hat die Käufe nicht öffentlich bestätigt.
+
+Schwer zu sagen ist auch, wie stark ein einzelner Käufer den Kurs bewegt hat. EmberCN fragte, ob die Käufe die Erholung angetrieben haben, doch gleichzeitig passierte vieles andere. [CoinDesk berichtete](L9), dass beim Ausverkauf rund 1,8 Mrd. $ an gehebelten Positionen liquidiert wurden, überwiegend Wetten auf steigende Kurse. Sind diese Zwangsverkäufer erst einmal weg, können die Kurse schnell zurückspringen. Einige Analysten haben Abraxas mit dem Handelskonto in Verbindung gebracht, das am 16. November vom [Vorfall mit dem geleakten Lighter-Schlüssel](/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026) betroffen war, Lighter nannte den Trader jedoch nicht.
+
+!mid_cta
+
+## Das Gesamtbild bleibt wackelig
+
+Das Plus vom Sonntag folgte auf eine schwierige Woche. US-Spot-Bitcoin-ETFs verzeichneten vom 16. bis 20. November Nettoabflüsse von rund 1,25 Mrd. $, wie Daten von [Farside Investors](L7) zeigen, und darin ist der Freitagswert von BlackRocks IBIT, dem größten Fonds, noch nicht enthalten. Der [Crypto Fear & Greed Index](L8) stand am Sonntag bei 11 von 100, tief im Bereich „extreme Angst“.
+
+CoinDesk zitierte die in Singapur ansässige Handelsfirma QCP Capital, die schrieb, eine nachhaltige Erholung brauche wahrscheinlich ruhigere Technologiewerte, stabilere Zinsen und „Belege dafür, dass institutionelle Gelder zurückkehren“. Bis dahin könnten Erholungen durch Short-Eindeckungen laut QCP „Mühe haben, sich zu einem dauerhaften Aufwärtstrend zu entwickeln“. Der Nasdaq fiel am Freitag um mehr als 4 %, daher ist die Börseneröffnung am Montag der nächste Test.
+
+## Was das für Einsteiger bedeutet
+
+Es kann verlockend sein, großen Käufern aus den Schlagzeilen nachzueifern, aber niemand außerhalb des Fonds kennt dessen Pläne, Kosten oder Haltedauer. Dass ein Fonds Bitcoin für 1 Mrd. $ abzieht, heißt nicht, dass der Kurs seinen Boden gefunden hat. Wer über einen Kauf nachdenkt: Viele Einsteiger verteilen kleine Käufe über Wochen oder Monate, und manche beginnen bei einer großen regulierten Börse wie [Coinbase](REF). Wer jahrelang halten will, sollte den Unterschied zwischen Coins auf einer Börse und in einer eigenen Wallet kennen. Verzichten Sie auf geliehenes Geld und investieren Sie nur, was Sie verlieren können. Dies ist keine Anlageberatung.
+
+## Worauf man jetzt achten sollte
+
+- Ob Bitcoin über 60.000 $ bleibt oder wieder in Richtung des Samstagstiefs bei rund 55.100 $ fällt.
+- Weitere große Abhebungen von Wallets, die mit Abraxas in Verbindung gebracht werden, oder eine öffentliche Stellungnahme der Firma.
+- Den noch fehlenden Freitagswert von BlackRocks IBIT, die ETF-Flüsse der kommenden Woche und die Börseneröffnung am Montag.
+
+!soft: Unsicher, wo Sie Ihre Coins aufbewahren sollen? Lesen Sie [Krypto-Wallets: Verwahrung bei Anbietern oder Selbstverwahrung](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

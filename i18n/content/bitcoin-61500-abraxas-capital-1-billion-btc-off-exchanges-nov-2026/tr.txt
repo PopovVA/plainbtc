@@ -1,0 +1,57 @@
+title: Bitcoin 61.500 doları aştı; izleyicilere göre bir fon borsalardan 1 milyar dolarlık bitcoin çekti
+page_title: Bitcoin 61.500 doları aştı; Abraxas Capital'in borsalardan 1 milyar dolarlık BTC çektiği bildirildi
+description: Bitcoin pazar sabahı erken saatlerde Kraken'de 61.590 dolara çıkarak cuma sabahından bu yana en yüksek seviyesini gördü. Zincir üstü izleyiciler, Abraxas Capital ile ilişkilendirilen cüzdanların düşüş sırasında Binance ve Kraken'den 17.597 BTC, yaklaşık 1,04 milyar dolar çektiğini söylüyor.
+og_description: Bitcoin pazar sabahı 61.590 dolara yükseldi; bu, cumartesi gününün dip seviyesinin yüzde 11'den fazla üzerinde. Blokzincir izleyicilerine göre bir yatırım şirketi, fiyatlar iki yılın en düşük seviyelerine yakınken iki büyük borsadan yaklaşık 1,04 milyar dolarlık bitcoin çekti. Bunun neyi gösterdiğini ve neyi göstermediğini anlatıyoruz.
+label: Piyasa
+summary: Bitcoin pazar günü ABD Merkezi saatiyle 06.15'te Kraken'de 61.590 dolara ulaştı; bu, cumartesi dibinin yüzde 11,8 üzerinde. İzleyicilere göre Abraxas Capital olarak etiketlenen cüzdanlar düşüş sırasında Binance ve Kraken'den 17.597 BTC, yaklaşık 1,04 milyar dolar çekti.
+===
+
+Bitcoin pazar günü yükselişini sürdürdü. PlainBTC'nin [Kraken](L1) ve [Coinbase](L2) kamuya açık fiyat verilerini incelemesine göre bitcoin <strong>22 Kasım'da ABD Merkezi saatiyle 06.15'te</strong> Kraken'de <strong>61.590 dolara</strong> ulaştı; Coinbase'te zirve 61.568 dolar oldu. Bu, bitcoinin cuma sabahından bu yana gördüğü en yüksek fiyat ve cumartesi gece yarısından hemen sonra gördüğü 55.100 dolarlık dibin yüzde 11,8 üzerinde. O dip, Eylül 2024'ten bu yana en düşük seviyeydi.
+
+Toparlanma düz bir çizgide olmadı. Cumartesi günü bitcoinin [yeniden 60.000 doların üzerine çıktığını](/articles/bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026) haber vermemizin ardından fiyat, cumartesi gecesi geç saatlerde Kraken'de yeniden yaklaşık 58.650 dolara geriledi. Ardından pazar sabahı yükseldi ve Merkezi saatle 12.45'te cumartesi kapanış fiyatının yaklaşık yüzde 3,2 üzerinde, 60.670 dolar civarında işlem görüyordu.
+
+!takeaways
+- Bitcoin 22 Kasım pazar günü ABD Merkezi saatiyle 06.15'te Kraken'de 61.590 dolara ulaştı; bu, cumartesi gününün 55.100 dolarlık dibinin yüzde 11,8 üzerinde.
+- Blokzincir izleyicisi Lookonchain, Abraxas Capital olarak etiketlenen cüzdanların Binance ve Kraken'den ortalama 59.206 dolar fiyatla 17.597 BTC, yaklaşık 1,04 milyar dolar çektiğini söylüyor.
+- Coinleri borsadan çekmek yeni bir alımın kanıtı değil ve şirketin kendisi kamuya açık bir yorum yapmadı.
+- ABD spot bitcoin ETF'leri geçen hafta yine de yaklaşık 1,25 milyar dolar kaybetti ve Crypto Fear & Greed Endeksi 11'de, yani "aşırı korku" bölgesindeydi.
+
+!figure:chart
+
+## İzleyiciler ne gördü
+
+Kamuya açık blokzincirlerdeki büyük cüzdanları takip eden [Lookonchain](L3), pazar günü Abraxas Capital'in fiyat 60.000 doların altına düştüğünde "1 milyar dolardan fazla" bitcoin aldığını bildirdi. Lookonchain'e göre şirket, Binance ve Kraken'den ortalama 59.206 dolar fiyatla toplam 17.597 BTC çekti; bu da yaklaşık 1,04 milyar dolar ediyor. Bu cüzdanlar blokzincir veri şirketi [Arkham](L6) tarafından Abraxas Capital / Heka Funds adı altında gruplanıyor. Abraxas Capital Management, Londra merkezli bir yatırım şirketi.
+
+Analist EmberCN de benzer rakamlar verdi. [TechFlow](L4)'a göre EmberCN, 20 Kasım akşamından 21 Kasım akşamına kadar yaklaşık 24 saat içinde borsalardan yaklaşık 17.597 BTC çıktığını saydı; bunun yaklaşık 11.241 BTC'si, yani yaklaşık 670 milyon dolarlık kısmı, 21 Kasım'da Binance ve Kraken'den çekildi. [Is Coin Legit'in aktardığına göre](L5) izleyici Onchain Lens'in daha önceki sayımı yaklaşık 15.130 BTC, yani kabaca 897 milyon dolar idi. İzleyiciler birbiriyle örtüşen zaman aralıklarını ölçtüğü için toplamlar farklı.
+
+!figure:fact
+
+## Neden önemli ve neden dikkatli olmak gerekiyor
+
+Büyük bir yatırımcı bitcoinini borsadan çektiğinde bu, coinlerin satışa hazır bekletilmek yerine çoğu zaman uzun vadeli saklamaya gittiği anlamına gelir. Bu yüzden izleyiciler büyük çekimleri alım işareti olarak yorumlar. Ancak bir çekim tek başına yeni bir alımı kanıtlamaz. Bir fon zaten sahip olduğu coinleri taşıyabilir, kendi hesapları arasında aktarabilir ya da başka bir yerde teminat olarak kullanabilir. Cüzdan etiketleri de fonun açıklamasından değil Arkham'ın analizinden geliyor ve Abraxas alımları kamuoyu önünde doğrulamadı.
+
+Tek bir alıcının fiyatı ne kadar etkilediğini söylemek de zor. EmberCN alımların toparlanmaya yardım edip etmediğini sordu, ancak aynı anda başka birçok şey yaşanıyordu. [CoinDesk'in haberine göre](L9) satış dalgasında, çoğu yükseliş beklentisine dayanan yaklaşık 1,8 milyar dolarlık kaldıraçlı pozisyon tasfiye edildi. Bu zorunlu satıcılar ortadan kalkınca fiyatlar hızla toparlanabilir. Bazı analistler Abraxas'ı 16 Kasım'daki [Lighter sızdırılmış anahtar olayında](/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026) etkilenen işlem hesabıyla ilişkilendirdi, ancak Lighter yatırımcının adını vermedi.
+
+!mid_cta
+
+## Genel tablo hâlâ kırılgan
+
+Pazar günkü yükseliş zorlu bir haftanın ardından geldi. [Farside Investors](L7) verilerine göre ABD spot bitcoin ETF'lerinden 16-20 Kasım arasında yaklaşık 1,25 milyar dolar net çıkış oldu ve bu toplama en büyük fon olan BlackRock'ın IBIT fonunun cuma verisi hâlâ dahil değil. [Crypto Fear & Greed Endeksi](L8) pazar günü 100 üzerinden 11'deydi, yani derin bir "aşırı korku" bölgesinde.
+
+CoinDesk, Singapur merkezli işlem şirketi QCP Capital'den alıntı yaptı. QCP, kalıcı bir toparlanma için büyük olasılıkla teknoloji hisselerinin sakinleşmesi, faiz oranlarının istikrar kazanması ve "kurumsal akışların geri döndüğüne dair kanıt" gerektiğini yazdı. QCP'ye göre o zamana kadar açığa satış pozisyonlarının kapatılmasıyla gelen yükselişler "kalıcı bir yükselişe dönüşmekte zorlanabilir". Nasdaq cuma günü yüzde 4'ten fazla düştü; bu yüzden pazartesi günkü borsa açılışı bir sonraki sınav olacak.
+
+## Yeni başlayanlar için anlamı
+
+Manşetlere çıkan büyük alıcıları taklit etmek cazip gelebilir, ancak fonun dışında kimse onun planlarını, maliyetlerini ya da coinleri ne kadar süre tutacağını bilmiyor. Bir fonun 1 milyar dolarlık bitcoin çekmesi, fiyatın dibi bulduğu anlamına gelmez. Almayı düşünüyorsanız, yeni başlayanların çoğu küçük alımları haftalara ya da aylara yayıyor, bazıları da [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsada başlıyor. Yıllarca tutmayı planlıyorsanız, coinleri borsada tutmakla kendi cüzdanınızda tutmak arasındaki farkı öğrenin. Borç parayla işlem yapmaktan kaçının ve yalnızca kaybetmeyi göze alabileceğiniz parayı yatırın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Bitcoinin 60.000 doların üzerinde kalıp kalmayacağı ya da cumartesi günkü 55.100 dolar civarındaki dibe doğru geri düşüp düşmeyeceği.
+- Abraxas ile ilişkilendirilen cüzdanlardan yeni büyük çekimler ya da şirketten gelecek herhangi bir açıklama.
+- BlackRock'ın IBIT fonunun eksik cuma verisi, gelecek haftanın ETF akışları ve pazartesi günkü borsa açılışı.
+
+!soft: Coinlerinizi nerede saklayacağınızdan emin değil misiniz? [Emanetçi ve kendi kendine saklama kripto cüzdanları](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazımızı okuyun
+
+!end_cta
+
+!disclosure

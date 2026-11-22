@@ -1,0 +1,57 @@
+title: Bitcoin supera los 61.500 dólares mientras rastreadores dicen que un fondo sacó 1.000 millones en bitcoin de los exchanges
+page_title: Bitcoin supera los 61.500 dólares; Abraxas Capital habría retirado 1.000 millones en BTC de los exchanges
+description: Bitcoin subió a 61.590 dólares en Kraken el domingo temprano, su nivel más alto desde el viernes por la mañana. Rastreadores on-chain dicen que carteras vinculadas a Abraxas Capital retiraron 17.597 BTC, unos 1.040 millones de dólares, de Binance y Kraken durante la caída.
+og_description: Bitcoin subió a 61.590 dólares el domingo por la mañana, más de un 11% por encima del mínimo del sábado. Rastreadores de blockchain dicen que una firma de inversión sacó unos 1.040 millones de dólares en bitcoin de dos grandes exchanges con los precios cerca de mínimos de dos años. Esto es lo que eso indica y lo que no.
+label: Mercados
+summary: Bitcoin llegó a 61.590 dólares en Kraken a las 6:15 a. m., hora del centro de EE. UU., el domingo, un 11,8% por encima del mínimo del sábado. Según rastreadores, carteras etiquetadas como Abraxas Capital retiraron 17.597 BTC, unos 1.040 millones de dólares, de Binance y Kraken durante la caída.
+===
+
+Bitcoin siguió subiendo el domingo. A las <strong>6:15 a. m., hora del centro de EE. UU., del 22 de noviembre</strong> tocó los <strong>61.590 dólares</strong> en Kraken, según la revisión de PlainBTC de los datos públicos de precios de [Kraken](L1) y [Coinbase](L2), donde el máximo fue de 61.568 dólares. Fue el precio más alto de bitcoin desde el viernes por la mañana y un 11,8% más que el mínimo de 55.100 dólares que marcó poco después de la medianoche del sábado, el más bajo desde septiembre de 2024.
+
+El rebote no fue en línea recta. Después de que el sábado informáramos de que bitcoin había [vuelto a superar los 60.000 dólares](/articles/bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026), volvió a bajar a última hora del sábado hasta unos 58.650 dólares en Kraken. Luego subió el domingo por la mañana y cotizaba cerca de 60.670 dólares a las 12:45 p. m., hora del centro, alrededor de un 3,2% por encima del precio de cierre del sábado.
+
+!takeaways
+- Bitcoin tocó los 61.590 dólares en Kraken a las 6:15 a. m., hora del centro de EE. UU., del domingo 22 de noviembre, un 11,8% por encima del mínimo del sábado, de 55.100 dólares.
+- El rastreador de blockchain Lookonchain dice que carteras etiquetadas como Abraxas Capital retiraron 17.597 BTC, unos 1.040 millones de dólares, de Binance y Kraken a un precio medio de 59.206 dólares.
+- Sacar monedas de un exchange no es lo mismo que demostrar una compra nueva, y la firma no ha hecho comentarios públicos.
+- Los ETF de bitcoin al contado de EE. UU. perdieron aun así unos 1.250 millones de dólares la semana pasada, y el índice Crypto Fear & Greed estaba en 11, «miedo extremo».
+
+!figure:chart
+
+## Lo que vieron los rastreadores
+
+[Lookonchain](L3), una firma que sigue grandes carteras en blockchains públicas, informó el domingo de que Abraxas Capital «compró más de 1.000 millones de dólares» en bitcoin cuando el precio cayó por debajo de 60.000 dólares. Dijo que la firma retiró un total de 17.597 BTC de Binance y Kraken a un precio medio de 59.206 dólares, lo que equivale a unos 1.040 millones de dólares. La empresa de datos de blockchain [Arkham](L6) agrupa esas carteras bajo el nombre Abraxas Capital / Heka Funds. Abraxas Capital Management es una firma de inversión con sede en Londres.
+
+El analista EmberCN dio cifras similares. Según [TechFlow](L4), EmberCN contó unos 17.597 BTC saliendo de exchanges en unas 24 horas, desde la noche del 20 de noviembre hasta la noche del 21 de noviembre, incluidos unos 11.241 BTC, por valor de unos 670 millones de dólares, retirados de Binance y Kraken el 21 de noviembre. Un recuento anterior del rastreador Onchain Lens situaba la cifra en unos 15.130 BTC, o aproximadamente 897 millones de dólares, [según Is Coin Legit](L5). Los rastreadores midieron periodos que se solapan, por eso sus totales difieren.
+
+!figure:fact
+
+## Por qué importa y por qué hay que ser prudente
+
+Cuando un gran tenedor saca bitcoin de un exchange, a menudo significa que las monedas van a un almacenamiento a largo plazo en lugar de quedarse listas para vender. Por eso los rastreadores interpretan los grandes retiros como una señal de compra. Pero un retiro por sí solo no prueba una compra nueva. Un fondo puede mover monedas que ya tenía, pasarlas entre sus propias cuentas o usarlas como garantía en otro sitio. Las etiquetas de las carteras también provienen del análisis de Arkham, no de un comunicado del fondo, y Abraxas no ha confirmado públicamente las compras.
+
+También es difícil decir cuánto movió el precio un solo comprador. EmberCN se preguntó si las compras ayudaron a impulsar el rebote, pero al mismo tiempo pasaban muchas otras cosas. [CoinDesk informó](L9) de que unos 1.800 millones de dólares en posiciones apalancadas se liquidaron durante la venta masiva, la mayoría apuestas a que el precio subiría. Cuando esos vendedores forzados desaparecen, los precios pueden rebotar rápido. Algunos analistas han vinculado a Abraxas con la cuenta afectada en el [incidente de la clave filtrada de Lighter](/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026) del 16 de noviembre, pero Lighter no nombró al trader.
+
+!mid_cta
+
+## El panorama general sigue siendo frágil
+
+La subida del domingo llegó tras una semana difícil. Los ETF de bitcoin al contado de EE. UU. tuvieron salidas netas de unos 1.250 millones de dólares del 16 al 20 de noviembre, según [Farside Investors](L7), y ese total todavía no incluye la cifra del viernes de IBIT de BlackRock, el mayor fondo. El [índice Crypto Fear & Greed](L8) estaba en 11 sobre 100 el domingo, en pleno «miedo extremo».
+
+CoinDesk citó a la firma de trading QCP Capital, con sede en Singapur, que escribió que una recuperación duradera probablemente necesitaría acciones tecnológicas más tranquilas, tipos de interés más estables y «pruebas de que los flujos institucionales están volviendo». Hasta entonces, según QCP, los rebotes por cierre de posiciones cortas «pueden tener dificultades para convertirse en subidas sostenidas». El Nasdaq cayó más de un 4% el viernes, así que la apertura de la bolsa del lunes es la próxima prueba.
+
+## Qué significa para los principiantes
+
+Puede ser tentador copiar a los grandes compradores que salen en las noticias, pero nadie fuera del fondo conoce sus planes, sus costes ni cuánto tiempo mantendrá sus monedas. Que un fondo retire 1.000 millones de dólares en bitcoin no significa que el precio haya tocado fondo. Si estás pensando en comprar, muchos principiantes reparten compras pequeñas a lo largo de semanas o meses, y algunos empiezan en un gran exchange regulado como [Coinbase](REF). Si piensas mantener durante años, aprende la diferencia entre guardar monedas en un exchange y en tu propia cartera. Evita el dinero prestado e invierte solo lo que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Si bitcoin se mantiene por encima de 60.000 dólares o vuelve hacia el mínimo del sábado, cerca de 55.100 dólares.
+- Nuevos grandes retiros desde carteras vinculadas a Abraxas, o cualquier comentario público de la firma.
+- La cifra pendiente del viernes de IBIT de BlackRock, los flujos de ETF de la próxima semana y la apertura de la bolsa del lunes.
+
+!soft: ¿No sabes dónde guardar tus monedas? Lee [Carteras cripto custodiadas frente a autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

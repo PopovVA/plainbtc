@@ -1,0 +1,26 @@
+{
+ "slug": "bitcoin-61500-abraxas-capital-1-billion-btc-off-exchanges-nov-2026",
+ "date": "2026-11-22",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026",
+  "lighter-dex-10-4-million-leaked-api-key-nov-2026",
+  "blackrock-ibit-record-541-million-outflow-nov-2026",
+  "crypto-fear-greed-index-10-extreme-fear-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody",
+  "how-much-bitcoin-should-a-beginner-buy-dca"
+ ],
+ "sources": [
+  {"url": "https://www.lookonchain.com/feeds/83499", "title": "Lookonchain: Abraxas Capital buys $1.04B in BTC below $60K, withdraws 17,597 coins from exchanges", "date": "Nov 22, 2026"},
+  {"url": "https://arkm.com/explorer/entity/abraxas-capital-heka-funds", "title": "Arkham Intelligence: Abraxas Capital / Heka Funds entity page", "date": "Nov 22, 2026"},
+  {"url": "https://www.techflowpost.com/en-US/newsletter/146187", "title": "TechFlow: EmberCN says Abraxas Capital withdrew about 17,597 BTC within 24 hours", "date": "Nov 22, 2026"},
+  {"url": "https://iscoinlegit.com/abraxas-capital-bitcoin-buys-104-billion-whale-60000-reclaim/", "title": "Is Coin Legit: Abraxas Capital's bitcoin buys top $1.04 billion", "date": "Nov 22, 2026"},
+  {"url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open", "title": "CoinDesk: Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave", "date": "Nov 21, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: public BTC/USD price data (OHLC)", "date": "Nov 22, 2026"},
+  {"url": "https://docs.cdp.coinbase.com/api-reference/exchange-api/rest-api/products/get-product-candles", "title": "Coinbase Exchange: public BTC-USD price data (candles)", "date": "Nov 22, 2026"},
+  {"url": "https://farside.co.uk/btc/", "title": "Farside Investors: Bitcoin ETF flow data", "date": "Nov 22, 2026"},
+  {"url": "https://alternative.me/crypto/fear-and-greed-index/", "title": "Alternative.me: Crypto Fear & Greed Index", "date": "Nov 22, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

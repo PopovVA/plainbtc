@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-15min-nov-21-22.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin's 15-minute closing prices on Kraken from midnight Central time on Saturday, Nov. 21, to 12:45 p.m. on Sunday, Nov. 22, 2026: the price starts near $55,600, just after Saturday's low of $55,100, climbs above $60,000 by Saturday morning, dips back below $59,000 late Saturday night, then rises above $61,000 on Sunday morning and holds near $60,700. A dashed line marks $59,206, the average price of the Abraxas-linked withdrawals",
+      "es": "Gráfico de líneas de los precios de cierre de 15 minutos de bitcoin en Kraken desde la medianoche (hora del centro de EE. UU.) del sábado 21 de noviembre hasta las 12:45 del domingo 22 de noviembre de 2026: el precio parte de unos 55.600 dólares, justo después del mínimo del sábado de 55.100, supera los 60.000 el sábado por la mañana, vuelve por debajo de 59.000 el sábado por la noche y sube por encima de 61.000 el domingo por la mañana para mantenerse cerca de 60.700. Una línea discontinua marca 59.206 dólares, el precio medio de los retiros vinculados a Abraxas",
+      "pt": "Gráfico de linha dos preços de fechamento de 15 minutos do bitcoin na Kraken da meia-noite (horário central dos EUA) de sábado, 21 de novembro, às 12h45 de domingo, 22 de novembro de 2026: o preço começa perto de US$ 55.600, logo após a mínima de sábado, de US$ 55.100, passa de US$ 60.000 na manhã de sábado, volta para baixo de US$ 59.000 no fim da noite de sábado e sobe acima de US$ 61.000 na manhã de domingo, ficando perto de US$ 60.700. Uma linha tracejada marca US$ 59.206, o preço médio dos saques ligados à Abraxas",
+      "fr": "Courbe des cours de clôture sur 15 minutes du bitcoin sur Kraken, de minuit (heure du Centre des États-Unis) le samedi 21 novembre à 12 h 45 le dimanche 22 novembre 2026 : le cours part d'environ 55 600 dollars, juste après le plus bas de samedi à 55 100 dollars, repasse au-dessus de 60 000 dollars samedi matin, redescend sous 59 000 dollars tard samedi soir, puis dépasse 61 000 dollars dimanche matin et se maintient près de 60 700 dollars. Une ligne pointillée marque 59 206 dollars, le prix moyen des retraits liés à Abraxas",
+      "de": "Liniendiagramm der 15-Minuten-Schlusskurse von Bitcoin bei Kraken von Mitternacht (US-Zentralzeit) am Samstag, 21. November, bis 12:45 Uhr am Sonntag, 22. November 2026: Der Kurs beginnt bei rund 55.600 $, kurz nach dem Samstagstief von 55.100 $, steigt bis Samstagmorgen über 60.000 $, rutscht spät am Samstagabend wieder unter 59.000 $ und klettert am Sonntagmorgen über 61.000 $, bevor er sich bei etwa 60.700 $ hält. Eine gestrichelte Linie markiert 59.206 $, den Durchschnittspreis der Abraxas zugeordneten Abhebungen",
+      "ru": "Линейный график 15-минутных цен закрытия биткоина на Kraken с полуночи по центральному времени США в субботу, 21 ноября, до 12:45 в воскресенье, 22 ноября 2026 года: цена начинается около $55 600, сразу после субботнего минимума $55 100, к утру субботы поднимается выше $60 000, поздно вечером в субботу снова опускается ниже $59 000, а в воскресенье утром поднимается выше $61 000 и держится около $60 700. Пунктирная линия отмечает $59 206 — среднюю цену выводов, связанных с Abraxas",
+      "tr": "21 Kasım cumartesi gece yarısından (ABD Merkezi saati) 22 Kasım 2026 pazar 12.45'e kadar Kraken'de bitcoinin 15 dakikalık kapanış fiyatlarının çizgi grafiği: fiyat cumartesi günü görülen 55.100 $'lık dip seviyenin hemen ardından yaklaşık 55.600 $'dan başlıyor, cumartesi sabahı 60.000 $'ın üzerine çıkıyor, cumartesi gecesi geç saatlerde yeniden 59.000 $'ın altına iniyor, pazar sabahı 61.000 $'ın üzerine yükseliyor ve 60.700 $ civarında tutunuyor. Kesikli çizgi, Abraxas ile ilişkilendirilen çekimlerin ortalama fiyatı olan 59.206 $'ı gösteriyor",
+      "id": "Grafik garis harga penutupan 15 menit bitcoin di Kraken dari tengah malam waktu Central AS pada Sabtu, 21 November, hingga pukul 12.45 pada Minggu, 22 November 2026: harga dimulai di sekitar US$55.600, tepat setelah titik terendah Sabtu di US$55.100, naik di atas US$60.000 pada Sabtu pagi, kembali di bawah US$59.000 pada Sabtu larut malam, lalu naik di atas US$61.000 pada Minggu pagi dan bertahan di dekat US$60.700. Garis putus-putus menandai US$59.206, harga rata-rata penarikan yang dikaitkan dengan Abraxas",
+      "ja": "2026年11月21日（土）午前0時（米中部時間）から22日（日）午後0時45分までのKrakenにおけるビットコインの15分足終値の折れ線グラフ：土曜の安値5万5100ドル直後の約5万5600ドルから始まり、土曜朝に6万ドルを回復、土曜深夜に再び5万9000ドルを割り込んだ後、日曜朝に6万1000ドルを上回り、約6万700ドル近辺で推移。破線はAbraxasに関連付けられた引き出しの平均価格5万9206ドルを示す",
+      "ko": "2026년 11월 21일(토) 자정(미국 중부시간)부터 22일(일) 오후 12시 45분까지 크라켄 비트코인 15분 종가 선 그래프: 토요일 저점 5만5,100달러 직후인 약 5만5,600달러에서 시작해 토요일 아침 6만 달러를 넘었다가 토요일 밤늦게 다시 5만9,000달러 아래로 내려간 뒤, 일요일 아침 6만1,000달러를 넘어 약 6만700달러 부근을 유지. 점선은 아브락사스와 연결된 출금의 평균 가격인 5만9,206달러를 표시"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken BTC/USD (15-minute candles); Lookonchain (average withdrawal price)",
+      "es": "Gráfico: PlainBTC, datos: Kraken BTC/USD (15-minute candles); Lookonchain (average withdrawal price)",
+      "pt": "Gráfico: PlainBTC, dados: Kraken BTC/USD (15-minute candles); Lookonchain (average withdrawal price)",
+      "fr": "Graphique : PlainBTC, données : Kraken BTC/USD (15-minute candles); Lookonchain (average withdrawal price)",
+      "de": "Chart: PlainBTC, Daten: Kraken BTC/USD (15-minute candles); Lookonchain (average withdrawal price)",
+      "ru": "График: PlainBTC, данные: Kraken BTC/USD (15-minute candles); Lookonchain (average withdrawal price)",
+      "tr": "Grafik: PlainBTC, veri: Kraken BTC/USD (15-minute candles); Lookonchain (average withdrawal price)",
+      "id": "Grafik: PlainBTC, data: Kraken BTC/USD (15-minute candles); Lookonchain (average withdrawal price)",
+      "ja": "チャート: PlainBTC、データ: Kraken BTC/USD (15-minute candles); Lookonchain (average withdrawal price)",
+      "ko": "차트: PlainBTC, 데이터: Kraken BTC/USD (15-minute candles); Lookonchain (average withdrawal price)"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-17597-btc-withdrawn.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: 17,597 BTC pulled off Binance and Kraken, about $1.04 billion at an average price of $59,206, sent to wallets Arkham labels Abraxas Capital. Source: Lookonchain, Nov. 22, 2026",
+      "es": "Tarjeta de datos: 17.597 BTC retirados de Binance y Kraken, unos 1.040 millones de dólares a un precio medio de 59.206 dólares, enviados a carteras que Arkham atribuye a Abraxas Capital. Fuente: Lookonchain, 22 de noviembre de 2026",
+      "pt": "Cartão de dados: 17.597 BTC retirados da Binance e da Kraken, cerca de US$ 1,04 bilhão a um preço médio de US$ 59.206, enviados a carteiras que a Arkham atribui à Abraxas Capital. Fonte: Lookonchain, 22 de novembro de 2026",
+      "fr": "Fiche chiffrée : 17 597 BTC retirés de Binance et de Kraken, soit environ 1,04 milliard de dollars à un prix moyen de 59 206 dollars, envoyés vers des portefeuilles qu'Arkham attribue à Abraxas Capital. Source : Lookonchain, 22 novembre 2026",
+      "de": "Faktenkarte: 17.597 BTC von Binance und Kraken abgezogen, rund 1,04 Mrd. $ zu einem Durchschnittspreis von 59.206 $, an Wallets, die Arkham Abraxas Capital zuordnet. Quelle: Lookonchain, 22. November 2026",
+      "ru": "Карточка с фактом: 17 597 BTC выведены с Binance и Kraken — около $1,04 млрд по средней цене $59 206 — на кошельки, которые Arkham относит к Abraxas Capital. Источник: Lookonchain, 22 ноября 2026 года",
+      "tr": "Bilgi kartı: Binance ve Kraken'den 17.597 BTC çekildi; ortalama 59.206 $ fiyatla yaklaşık 1,04 milyar $ değerindeki bu bitcoinler, Arkham'ın Abraxas Capital'e ait olarak etiketlediği cüzdanlara gönderildi. Kaynak: Lookonchain, 22 Kasım 2026",
+      "id": "Kartu fakta: 17.597 BTC ditarik dari Binance dan Kraken, sekitar US$1,04 miliar dengan harga rata-rata US$59.206, dikirim ke dompet yang diberi label Abraxas Capital oleh Arkham. Sumber: Lookonchain, 22 November 2026",
+      "ja": "ファクトカード：BinanceとKrakenから1万7597 BTCが引き出され、平均価格5万9206ドルで約10.4億ドル相当。ArkhamがAbraxas Capitalのものとラベル付けしたウォレットへ送られた。出典：Lookonchain、2026年11月22日",
+      "ko": "팩트 카드: 바이낸스와 크라켄에서 1만7,597 BTC 출금, 평균 가격 5만9,206달러 기준 약 10억4,000만 달러 규모로, 아캄이 아브락사스 캐피털로 표시한 지갑으로 이동. 출처: 룩온체인, 2026년 11월 22일"
+    },
+    "caption": {
+      "en": "Source: Lookonchain, citing Arkham Intelligence wallet labels",
+      "es": "Fuente: Lookonchain, citing Arkham Intelligence wallet labels",
+      "pt": "Fonte: Lookonchain, citing Arkham Intelligence wallet labels",
+      "fr": "Source : Lookonchain, citing Arkham Intelligence wallet labels",
+      "de": "Quelle: Lookonchain, citing Arkham Intelligence wallet labels",
+      "ru": "Источник: Lookonchain, citing Arkham Intelligence wallet labels",
+      "tr": "Kaynak: Lookonchain, citing Arkham Intelligence wallet labels",
+      "id": "Sumber: Lookonchain, citing Arkham Intelligence wallet labels",
+      "ja": "出典: Lookonchain, citing Arkham Intelligence wallet labels",
+      "ko": "출처: Lookonchain, citing Arkham Intelligence wallet labels"
+    }
+  }
+]

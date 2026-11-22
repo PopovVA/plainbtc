@@ -1,0 +1,57 @@
+title: Bitcoin tops $61,500 as trackers say one fund pulled $1 billion in bitcoin off exchanges
+page_title: Bitcoin tops $61,500; trackers say Abraxas Capital pulled $1 billion in BTC off exchanges
+description: Bitcoin climbed to $61,590 on Kraken early Sunday, its highest since Friday morning. On-chain trackers say wallets linked to Abraxas Capital withdrew 17,597 BTC, about $1.04 billion, from Binance and Kraken during the drop.
+og_description: Bitcoin rose to $61,590 on Sunday morning, more than 11% above Saturday's low. Blockchain trackers say one investment firm moved about $1.04 billion in bitcoin off two big exchanges while prices were near two-year lows. Here is what that does and does not tell you.
+label: Market news
+summary: Bitcoin reached $61,590 on Kraken at 6:15 a.m. Central time on Sunday, up 11.8% from Saturday's low. Trackers say wallets labeled as Abraxas Capital withdrew 17,597 BTC, about $1.04 billion, from Binance and Kraken during the dip.
+===
+
+Bitcoin kept climbing on Sunday. At <strong>6:15 a.m. Central time on Nov. 22</strong> it touched <strong>$61,590</strong> on Kraken, according to PlainBTC's check of public price data from [Kraken](L1) and [Coinbase](L2), where the high was $61,568. That was bitcoin's highest price since Friday morning, and 11.8% above the $55,100 low it hit just after midnight on Saturday, its lowest since September 2024.
+
+The bounce was not a straight line. After we reported on Saturday that bitcoin had [jumped back above $60,000](/articles/bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026), it slipped again late Saturday night to about $58,650 on Kraken. It then rose on Sunday morning and was trading near $60,670 at 12:45 p.m. Central time, about 3.2% above Saturday's closing price.
+
+!takeaways
+- Bitcoin hit $61,590 on Kraken at 6:15 a.m. Central time on Sunday, Nov. 22, up 11.8% from Saturday's low of $55,100.
+- Blockchain tracker Lookonchain says wallets labeled as Abraxas Capital withdrew 17,597 BTC, about $1.04 billion, from Binance and Kraken at an average price of $59,206.
+- Moving coins off an exchange is not the same as proof of a new purchase, and the firm itself has not commented publicly.
+- U.S. spot bitcoin ETFs still lost about $1.25 billion last week, and the Crypto Fear & Greed Index was at 11, "extreme fear."
+
+!figure:chart
+
+## What the trackers saw
+
+[Lookonchain](L3), a firm that follows large wallets on public blockchains, reported on Sunday that Abraxas Capital "bought over $1B worth" of bitcoin as the price fell below $60,000. It said the firm withdrew a total of 17,597 BTC from Binance and Kraken at an average price of $59,206, which works out to about $1.04 billion. The wallets are grouped under the name Abraxas Capital / Heka Funds by blockchain data company [Arkham](L6). Abraxas Capital Management is a London-based investment firm.
+
+Analyst EmberCN gave similar numbers. According to [TechFlow](L4), EmberCN counted about 17,597 BTC leaving exchanges over roughly 24 hours from the evening of Nov. 20 to the evening of Nov. 21, including about 11,241 BTC, worth about $670 million, pulled from Binance and Kraken on Nov. 21. An earlier tally by tracker Onchain Lens put the figure at about 15,130 BTC, or roughly $897 million, [Is Coin Legit reported](L5). The trackers measured overlapping time windows, so their totals differ.
+
+!figure:fact
+
+## Why it matters, and why to be careful
+
+When a large holder moves bitcoin off an exchange, it often means the coins are going into long-term storage rather than being kept ready to sell. That is why trackers read big withdrawals as a sign of buying. But a withdrawal by itself does not prove a fresh purchase. A fund can move coins it already owned, shift them between its own accounts, or use them as collateral elsewhere. The wallet labels also come from Arkham's analysis, not from a statement by the fund, and Abraxas has not publicly confirmed the purchases.
+
+It is also hard to say how much one buyer moved the price. EmberCN asked whether the purchases helped drive the rebound, but many other things were going on at the same time. [CoinDesk reported](L9) that about $1.8 billion in leveraged positions were wiped out in the selloff, most of them bets on higher prices. Once those forced sellers are gone, prices can bounce quickly. Some analysts have linked Abraxas to the trading account hit in the [Lighter leaked-key incident](/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026) on Nov. 16, but Lighter did not name the trader.
+
+!mid_cta
+
+## The bigger picture is still shaky
+
+Sunday's gain came on top of a rough week. U.S. spot bitcoin ETFs had net outflows of about $1.25 billion from Nov. 16 to Nov. 20, according to [Farside Investors](L7), and that total still does not include Friday's figure for BlackRock's IBIT, the largest fund. The [Crypto Fear & Greed Index](L8) stood at 11 out of 100 on Sunday, deep in "extreme fear."
+
+CoinDesk quoted Singapore-based trading firm QCP Capital, which wrote that a lasting recovery would likely need calmer technology stocks, steadier interest rates and "evidence that institutional flows are returning." Until then, QCP said, short-covering rallies "may struggle to develop into sustained upside." The Nasdaq fell more than 4% on Friday, so Monday's stock market open is the next test.
+
+## What it means for beginners
+
+Big buyers making headlines can be tempting to copy, but nobody outside the fund knows its plans, its costs or how long it will hold. One fund withdrawing $1 billion in bitcoin does not mean the price has found a bottom. If you are thinking about buying, many beginners spread small purchases over weeks or months, and some start on a large regulated exchange such as [Coinbase](REF). If you plan to hold for years, learn the difference between keeping coins on an exchange and in your own wallet. Avoid borrowed money, and only invest what you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Whether bitcoin holds above $60,000 or slides back toward Saturday's low near $55,100.
+- More large withdrawals from wallets linked to Abraxas, or any public comment from the firm.
+- BlackRock's missing IBIT figure for Friday, the next week of ETF flows, and Monday's stock market open.
+
+!soft: Not sure where to keep your coins? Read [Custodial vs. self-custody crypto wallets](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

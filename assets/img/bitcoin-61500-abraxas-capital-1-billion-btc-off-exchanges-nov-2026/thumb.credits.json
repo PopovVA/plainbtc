@@ -1,0 +1,27 @@
+{
+  "kind": "diagram",
+  "sources": [
+    {
+      "file": "Lookonchain feed 83499 / Arkham entity abraxas-capital-heka-funds",
+      "license": "Figures cited",
+      "url": "https://www.lookonchain.com/feeds/83499",
+      "credit": "17,597 BTC, $1.04B, average $59,206, Binance and Kraken: Lookonchain (Arkham Intelligence labels)"
+    },
+    {
+      "file": "Kraken OHLC XBTUSD interval=15",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Nov. 22, 2026 high $61,590 at 6:15 a.m. CST, from Kraken"
+    }
+  ],
+  "slug": "bitcoin-61500-abraxas-capital-1-billion-btc-off-exchanges-nov-2026",
+  "generated": "2026-11-22T19:00Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

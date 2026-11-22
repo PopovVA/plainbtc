@@ -1,0 +1,57 @@
+title: Bitcoin tembus US$61.500 saat pelacak menyebut satu dana menarik bitcoin senilai US$1 miliar dari bursa
+page_title: Bitcoin tembus US$61.500; Abraxas Capital disebut menarik BTC senilai US$1 miliar dari bursa
+description: Bitcoin naik ke US$61.590 di Kraken pada Minggu dini hari, level tertinggi sejak Jumat pagi. Pelacak on-chain menyebut dompet yang terkait dengan Abraxas Capital menarik 17.597 BTC, sekitar US$1,04 miliar, dari Binance dan Kraken selama penurunan.
+og_description: Bitcoin naik ke US$61.590 pada Minggu pagi, lebih dari 11% di atas titik terendah Sabtu. Pelacak blockchain menyebut satu perusahaan investasi memindahkan bitcoin senilai sekitar US$1,04 miliar dari dua bursa besar saat harga dekat level terendah dua tahun. Inilah yang ditunjukkan data itu, dan yang tidak.
+label: Pasar
+summary: Bitcoin mencapai US$61.590 di Kraken pukul 06.15 waktu Central AS pada hari Minggu, naik 11,8% dari titik terendah Sabtu. Menurut pelacak, dompet berlabel Abraxas Capital menarik 17.597 BTC, sekitar US$1,04 miliar, dari Binance dan Kraken selama penurunan.
+===
+
+Bitcoin terus naik pada hari Minggu. Pada <strong>pukul 06.15 waktu Central AS tanggal 22 November</strong>, harganya menyentuh <strong>US$61.590</strong> di Kraken, menurut pengecekan PlainBTC atas data harga publik dari [Kraken](L1) dan [Coinbase](L2), tempat harga tertingginya US$61.568. Itu adalah harga bitcoin tertinggi sejak Jumat pagi, dan 11,8% di atas titik terendah US$55.100 yang dicapai tak lama setelah tengah malam pada Sabtu, level terendah sejak September 2024.
+
+Pemulihannya tidak berjalan lurus. Setelah kami melaporkan pada Sabtu bahwa bitcoin [kembali naik di atas US$60.000](/articles/bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026), harganya kembali turun pada Sabtu larut malam ke sekitar US$58.650 di Kraken. Harga lalu naik pada Minggu pagi dan diperdagangkan di dekat US$60.670 pada pukul 12.45 waktu Central, sekitar 3,2% di atas harga penutupan Sabtu.
+
+!takeaways
+- Bitcoin mencapai US$61.590 di Kraken pada pukul 06.15 waktu Central AS hari Minggu, 22 November, naik 11,8% dari titik terendah Sabtu di US$55.100.
+- Pelacak blockchain Lookonchain menyebut dompet berlabel Abraxas Capital menarik 17.597 BTC, sekitar US$1,04 miliar, dari Binance dan Kraken dengan harga rata-rata US$59.206.
+- Memindahkan koin dari bursa tidak sama dengan bukti pembelian baru, dan perusahaan itu belum berkomentar secara terbuka.
+- ETF bitcoin spot AS tetap kehilangan sekitar US$1,25 miliar pekan lalu, dan Crypto Fear & Greed Index berada di angka 11, "ketakutan ekstrem".
+
+!figure:chart
+
+## Apa yang terlihat oleh pelacak
+
+[Lookonchain](L3), perusahaan yang memantau dompet besar di blockchain publik, melaporkan pada Minggu bahwa Abraxas Capital "membeli bitcoin senilai lebih dari US$1 miliar" ketika harga turun di bawah US$60.000. Menurutnya, perusahaan itu menarik total 17.597 BTC dari Binance dan Kraken dengan harga rata-rata US$59.206, atau sekitar US$1,04 miliar. Dompet-dompet itu dikelompokkan dengan nama Abraxas Capital / Heka Funds oleh perusahaan data blockchain [Arkham](L6). Abraxas Capital Management adalah perusahaan investasi yang berbasis di London.
+
+Analis EmberCN memberikan angka serupa. Menurut [TechFlow](L4), EmberCN menghitung sekitar 17.597 BTC keluar dari bursa dalam kurang lebih 24 jam, dari malam 20 November hingga malam 21 November, termasuk sekitar 11.241 BTC senilai sekitar US$670 juta yang ditarik dari Binance dan Kraken pada 21 November. Hitungan sebelumnya dari pelacak Onchain Lens menyebut sekitar 15.130 BTC, atau kira-kira US$897 juta, [menurut Is Coin Legit](L5). Para pelacak mengukur rentang waktu yang saling tumpang tindih, sehingga totalnya berbeda.
+
+!figure:fact
+
+## Mengapa ini penting, dan mengapa perlu berhati-hati
+
+Ketika pemegang besar memindahkan bitcoin dari bursa, sering kali koin itu dibawa ke penyimpanan jangka panjang alih-alih disiapkan untuk dijual. Karena itu pelacak membaca penarikan besar sebagai tanda pembelian. Namun penarikan saja tidak membuktikan adanya pembelian baru. Sebuah dana bisa memindahkan koin yang sudah dimilikinya, menggesernya antar-akunnya sendiri, atau memakainya sebagai jaminan di tempat lain. Label dompet juga berasal dari analisis Arkham, bukan dari pernyataan dana tersebut, dan Abraxas belum mengonfirmasi pembelian itu secara terbuka.
+
+Sulit juga mengatakan seberapa besar satu pembeli menggerakkan harga. EmberCN mempertanyakan apakah pembelian itu ikut mendorong pemulihan, tetapi banyak hal lain terjadi pada saat yang sama. [CoinDesk melaporkan](L9) bahwa sekitar US$1,8 miliar posisi berleverage dilikuidasi selama aksi jual, sebagian besar taruhan pada kenaikan harga. Begitu para penjual terpaksa itu habis, harga bisa memantul dengan cepat. Beberapa analis mengaitkan Abraxas dengan akun trading yang terkena [insiden kunci Lighter yang bocor](/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026) pada 16 November, tetapi Lighter tidak menyebut nama trader tersebut.
+
+!mid_cta
+
+## Gambaran besarnya masih rapuh
+
+Kenaikan hari Minggu datang setelah pekan yang berat. ETF bitcoin spot AS mencatat arus keluar bersih sekitar US$1,25 miliar dari 16 hingga 20 November, menurut [Farside Investors](L7), dan total itu belum termasuk angka Jumat untuk IBIT milik BlackRock, dana terbesar. [Crypto Fear & Greed Index](L8) berada di 11 dari 100 pada hari Minggu, jauh di zona "ketakutan ekstrem".
+
+CoinDesk mengutip perusahaan trading QCP Capital yang berbasis di Singapura, yang menulis bahwa pemulihan yang bertahan lama kemungkinan membutuhkan saham teknologi yang lebih tenang, suku bunga yang lebih stabil, dan "bukti bahwa arus institusional kembali". Sampai saat itu, menurut QCP, reli akibat penutupan posisi short "mungkin sulit berkembang menjadi kenaikan yang berkelanjutan". Nasdaq turun lebih dari 4% pada Jumat, jadi pembukaan pasar saham hari Senin menjadi ujian berikutnya.
+
+## Artinya bagi pemula
+
+Meniru pembeli besar yang jadi berita mungkin menggoda, tetapi tak seorang pun di luar dana itu tahu rencananya, biayanya, atau berapa lama ia akan menyimpan koinnya. Satu dana menarik bitcoin senilai US$1 miliar tidak berarti harga sudah mencapai dasar. Jika Anda berpikir untuk membeli, banyak pemula membagi pembelian kecil selama beberapa minggu atau bulan, dan sebagian memulai di bursa besar yang teregulasi seperti [Coinbase](REF). Jika Anda berencana menyimpan selama bertahun-tahun, pelajari perbedaan antara menyimpan koin di bursa dan di dompet milik sendiri. Hindari uang pinjaman, dan hanya investasikan dana yang sanggup Anda relakan hilang. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau berikutnya
+
+- Apakah bitcoin bertahan di atas US$60.000 atau turun lagi ke arah titik terendah Sabtu di dekat US$55.100.
+- Penarikan besar lainnya dari dompet yang dikaitkan dengan Abraxas, atau komentar publik dari perusahaan itu.
+- Angka Jumat IBIT BlackRock yang belum keluar, arus ETF pekan depan, dan pembukaan pasar saham hari Senin.
+
+!soft: Bingung di mana menyimpan koin Anda? Baca [Dompet kripto kustodian vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

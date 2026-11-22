@@ -1,0 +1,57 @@
+title: Bitcoin passa de US$ 61.500 enquanto rastreadores dizem que um fundo tirou US$ 1 bilhão em bitcoin das corretoras
+page_title: Bitcoin passa de US$ 61.500; Abraxas Capital teria tirado US$ 1 bilhão em BTC das corretoras
+description: O bitcoin subiu para US$ 61.590 na Kraken no início de domingo, seu nível mais alto desde a manhã de sexta-feira. Rastreadores on-chain dizem que carteiras ligadas à Abraxas Capital sacaram 17.597 BTC, cerca de US$ 1,04 bilhão, da Binance e da Kraken durante a queda.
+og_description: O bitcoin subiu para US$ 61.590 na manhã de domingo, mais de 11% acima da mínima de sábado. Rastreadores de blockchain dizem que uma gestora tirou cerca de US$ 1,04 bilhão em bitcoin de duas grandes corretoras com os preços perto das mínimas de dois anos. Veja o que isso mostra e o que não mostra.
+label: Mercado
+summary: O bitcoin chegou a US$ 61.590 na Kraken às 6h15, horário central dos EUA, no domingo, alta de 11,8% sobre a mínima de sábado. Segundo rastreadores, carteiras identificadas como Abraxas Capital sacaram 17.597 BTC, cerca de US$ 1,04 bilhão, da Binance e da Kraken durante a queda.
+===
+
+O bitcoin continuou subindo no domingo. Às <strong>6h15, horário central dos EUA, de 22 de novembro</strong>, ele tocou <strong>US$ 61.590</strong> na Kraken, segundo a checagem do PlainBTC nos dados públicos de preço da [Kraken](L1) e da [Coinbase](L2), onde a máxima foi de US$ 61.568. Foi o maior preço do bitcoin desde a manhã de sexta-feira e 11,8% acima da mínima de US$ 55.100 registrada logo após a meia-noite de sábado, a menor desde setembro de 2024.
+
+A recuperação não foi em linha reta. Depois que noticiamos no sábado que o bitcoin tinha [voltado a superar US$ 60.000](/articles/bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026), ele recuou de novo no fim da noite de sábado para cerca de US$ 58.650 na Kraken. Depois subiu na manhã de domingo e era negociado perto de US$ 60.670 às 12h45, horário central, cerca de 3,2% acima do preço de fechamento de sábado.
+
+!takeaways
+- O bitcoin chegou a US$ 61.590 na Kraken às 6h15, horário central dos EUA, no domingo, 22 de novembro, alta de 11,8% sobre a mínima de sábado, de US$ 55.100.
+- O rastreador de blockchain Lookonchain diz que carteiras identificadas como Abraxas Capital sacaram 17.597 BTC, cerca de US$ 1,04 bilhão, da Binance e da Kraken a um preço médio de US$ 59.206.
+- Tirar moedas de uma corretora não é o mesmo que provar uma compra nova, e a empresa não comentou publicamente.
+- Os ETFs de bitcoin à vista dos EUA ainda perderam cerca de US$ 1,25 bilhão na semana passada, e o índice Crypto Fear & Greed estava em 11, "medo extremo".
+
+!figure:chart
+
+## O que os rastreadores viram
+
+A [Lookonchain](L3), empresa que acompanha grandes carteiras em blockchains públicas, informou no domingo que a Abraxas Capital "comprou mais de US$ 1 bilhão" em bitcoin quando o preço caiu abaixo de US$ 60.000. Segundo ela, a empresa sacou no total 17.597 BTC da Binance e da Kraken a um preço médio de US$ 59.206, o que dá cerca de US$ 1,04 bilhão. As carteiras são agrupadas sob o nome Abraxas Capital / Heka Funds pela empresa de dados de blockchain [Arkham](L6). A Abraxas Capital Management é uma gestora de investimentos com sede em Londres.
+
+O analista EmberCN apresentou números parecidos. Segundo a [TechFlow](L4), EmberCN contou cerca de 17.597 BTC saindo de corretoras em aproximadamente 24 horas, da noite de 20 de novembro à noite de 21 de novembro, incluindo cerca de 11.241 BTC, no valor de cerca de US$ 670 milhões, sacados da Binance e da Kraken em 21 de novembro. Uma contagem anterior do rastreador Onchain Lens apontava cerca de 15.130 BTC, ou aproximadamente US$ 897 milhões, [segundo o Is Coin Legit](L5). Os rastreadores mediram períodos que se sobrepõem, por isso os totais são diferentes.
+
+!figure:fact
+
+## Por que isso importa e por que ter cautela
+
+Quando um grande investidor tira bitcoin de uma corretora, muitas vezes as moedas estão indo para guarda de longo prazo, em vez de ficarem prontas para venda. Por isso os rastreadores leem grandes saques como sinal de compra. Mas um saque, sozinho, não prova uma compra nova. Um fundo pode mover moedas que já tinha, transferi-las entre as próprias contas ou usá-las como garantia em outro lugar. Os rótulos das carteiras também vêm da análise da Arkham, não de um comunicado do fundo, e a Abraxas não confirmou publicamente as compras.
+
+Também é difícil dizer quanto um único comprador mexeu no preço. EmberCN questionou se as compras ajudaram a impulsionar a recuperação, mas muitas outras coisas aconteciam ao mesmo tempo. O [CoinDesk informou](L9) que cerca de US$ 1,8 bilhão em posições alavancadas foram liquidadas na liquidação do mercado, a maioria apostas em alta. Quando esses vendedores forçados saem do caminho, os preços podem se recuperar rápido. Alguns analistas ligaram a Abraxas à conta atingida no [incidente da chave vazada da Lighter](/articles/lighter-dex-10-4-million-leaked-api-key-nov-2026) em 16 de novembro, mas a Lighter não identificou o trader.
+
+!mid_cta
+
+## O quadro geral ainda é frágil
+
+A alta de domingo veio depois de uma semana difícil. Os ETFs de bitcoin à vista dos EUA tiveram saídas líquidas de cerca de US$ 1,25 bilhão de 16 a 20 de novembro, segundo a [Farside Investors](L7), e esse total ainda não inclui o número de sexta-feira do IBIT da BlackRock, o maior fundo. O [índice Crypto Fear & Greed](L8) estava em 11 de 100 no domingo, em pleno "medo extremo".
+
+O CoinDesk citou a empresa de trading QCP Capital, de Singapura, que escreveu que uma recuperação duradoura provavelmente precisaria de ações de tecnologia mais calmas, juros mais estáveis e "evidências de que os fluxos institucionais estão voltando". Até lá, segundo a QCP, as altas provocadas por recompra de posições vendidas "podem ter dificuldade para virar uma alta sustentada". A Nasdaq caiu mais de 4% na sexta-feira, então a abertura da bolsa na segunda-feira é o próximo teste.
+
+## O que isso significa para iniciantes
+
+Pode ser tentador copiar grandes compradores que viram manchete, mas ninguém fora do fundo conhece seus planos, seus custos ou por quanto tempo ele vai manter as moedas. Um fundo sacar US$ 1 bilhão em bitcoin não significa que o preço encontrou o fundo. Se você pensa em comprar, muitos iniciantes dividem compras pequenas ao longo de semanas ou meses, e alguns começam em uma grande corretora regulamentada, como a [Coinbase](REF). Se pretende manter por anos, entenda a diferença entre deixar as moedas na corretora e em sua própria carteira. Evite dinheiro emprestado e invista só o que pode perder. Isto não é recomendação de investimento.
+
+## O que acompanhar agora
+
+- Se o bitcoin se mantém acima de US$ 60.000 ou volta para perto da mínima de sábado, de cerca de US$ 55.100.
+- Novos grandes saques de carteiras ligadas à Abraxas, ou qualquer comentário público da empresa.
+- O número pendente de sexta-feira do IBIT da BlackRock, os fluxos de ETFs da próxima semana e a abertura da bolsa na segunda-feira.
+
+!soft: Não sabe onde guardar suas moedas? Leia [Carteiras cripto custodiais x autocustódia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

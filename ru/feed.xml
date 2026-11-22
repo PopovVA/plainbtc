@@ -5,8 +5,16 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Sun, 22 Nov 2026 14:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 19:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Биткоин поднялся выше $61 500, а трекеры сообщают, что один фонд вывел с бирж биткоины на $1 млрд</title>
+      <link>https://plainbtc.com/ru/articles/bitcoin-61500-abraxas-capital-1-billion-btc-off-exchanges-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/bitcoin-61500-abraxas-capital-1-billion-btc-off-exchanges-nov-2026</guid>
+      <pubDate>Sun, 22 Nov 2026 19:30:00 GMT</pubDate>
+      <category>Рынок</category>
+      <description>В воскресенье в 6:15 по центральному времени США биткоин достиг на Kraken $61 590, что на 11,8% выше субботнего минимума. По данным трекеров, кошельки с меткой Abraxas Capital во время падения вывели с Binance и Kraken 17 597 BTC, около $1,04 млрд.</description>
+    </item>
     <item>
       <title>Chainflip: хакер также забрал 122,86 биткоина, ущерб вырос примерно до $12 млн; проект предлагает вознаграждение 10%</title>
       <link>https://plainbtc.com/ru/articles/chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026</link>
