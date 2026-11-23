@@ -1,0 +1,27 @@
+{
+  "kind": "chart",
+  "sources": [
+    {
+      "file": "Kraken OHLC TRUMPUSD interval=1440",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "TRUMP/USD daily closes Jan 2025 - Nov 22, 2026, from Kraken"
+    },
+    {
+      "file": "The Block, Nov. 22, 2026",
+      "license": "Figure cited",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828",
+      "credit": "All-time high $73.43; down about 99%"
+    }
+  ],
+  "slug": "trump-memecoin-second-dinner-token-down-99-percent-nov-2026",
+  "generated": "2026-11-23T00:10Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

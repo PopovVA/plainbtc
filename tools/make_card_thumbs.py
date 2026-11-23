@@ -1973,8 +1973,73 @@ def thumb_core_node_stall():
     ], "note": "Editorial diagram; no endorsement by Bitcoin Core implied."}
 
 
+
+def thumb_fusionist_ace():
+    """Indigo 'supply blow-up' diagram: ACE supply on BNB Chain before (about 53.7M) vs after Sunday's unbacked mints
+    (about 10.02 quintillion, read from the BscScan/BNB Chain contract on Nov. 22, 2026) and the bridge reserve (53.7M -> 0.08 ACE, The Block)."""
+    base = gradient_bg(top=(49, 18, 92), bottom=(12, 8, 28))
+    d = Draw(base)
+    d.text((30, 50), "10 quintillion", font=font(FONT_B, 54), fill=(196, 181, 253))
+    d.text((34, 118), "fake ACE tokens minted on BNB Chain on Sunday", font=font(FONT_B, 17), fill=WHITE)
+    d.text((34, 143), "Fusionist bridge exploit · Nov. 22, 2026", font=font(FONT_R, 13), fill=(221, 214, 254))
+    fl, fv = font(FONT_R, 13), font(FONT_B, 14)
+    # before: a sliver; after: full width
+    d.text((30, 180), "Supply before", font=fl, fill=(221, 214, 254))
+    d.rectangle([150, 182, 153, 198], fill=(52, 211, 153))
+    d.text((162, 181), "≈ 53.7 million", font=fv, fill=(167, 243, 208))
+    d.text((30, 214), "Supply after", font=fl, fill=(221, 214, 254))
+    d.rectangle([150, 210, 610, 232], fill=(248, 113, 113))
+    d.text((160, 213), "≈ 10,020,000,000,000,000,000", font=fv, fill=WHITE)
+    # bridge reserve chip
+    d.rounded_rectangle([30, 262, 610, 330], radius=14, fill=(20, 12, 40), outline=(247, 147, 26), width=2)
+    d.text((48, 274), "Bridge reserve of real ACE", font=font(FONT_R, 13), fill=(203, 213, 225))
+    d.text((48, 296), "53.7 million  →  0.08", font=font(FONT_B, 20), fill=(253, 230, 138))
+    d.text((360, 296), "about $3.7M drained", font=font(FONT_B, 15), fill=(254, 202, 202))
+    label_chip(base, "Security · bridge exploit")
+    return base, {"kind": "diagram", "sources": [
+        {"file": "BNB Chain ACE token 0xc27a719105a987b4c34116223cae8bd8f4b5def4 totalSupply()", "license": "Public blockchain data", "url": "https://bscscan.com/token/0xc27a719105a987b4c34116223cae8bd8f4b5def4", "credit": "Total supply about 10.02 quintillion ACE, read Nov. 22, 2026"},
+        {"file": "The Block, Nov. 22, 2026", "license": "Figures cited", "url": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838", "credit": "53.7M ACE bridge reserve, 0.08 ACE left, about $3.7M"}
+    ]}
+
+
+def thumb_trump_dinner():
+    """Gold-on-stone area chart: Kraken TRUMPUSD daily closes Jan 2025 - Nov 22, 2026 (frozen in chart-data.json), log scale,
+    highest close $46.59 (Jan 19, 2025), first-dinner close $14.72 (May 22, 2025), latest about $0.88."""
+    rows = json.loads((I18N / "trump-memecoin-second-dinner-token-down-99-percent-nov-2026" / "chart-data.json").read_text(encoding="utf-8"))
+    xs = [datetime.fromtimestamp(r[0], tz=timezone.utc) for r in rows]; ys = [r[1] for r in rows]
+    bg, ink, gold = "#1c1917", "#fafaf9", "#fbbf24"
+    fig = plt.figure(figsize=(6.4, 3.6), dpi=100 * S); fig.patch.set_facecolor(bg)
+    ax = fig.add_axes([0.08, 0.12, 0.88, 0.50]); ax.set_facecolor(bg)
+    for sp in ("top", "right", "left"): ax.spines[sp].set_visible(False)
+    ax.spines["bottom"].set_color("#57534e")
+    ax.tick_params(colors="#d6d3d1", labelsize=7, length=0)
+    ax.set_yscale("log")
+    ax.grid(True, axis="y", color="#2e2a27", linewidth=0.6)
+    ax.plot(xs, ys, color=gold, linewidth=1.8)
+    ax.fill_between(xs, ys, 0.6, color=gold, alpha=0.16); ax.set_ylim(0.6, 60)
+    d1 = datetime(2025, 5, 22, tzinfo=timezone.utc)
+    ax.scatter([d1], [14.717], s=36, color="#fde68a", zorder=5, edgecolors="white", linewidths=1.1)
+    ax.annotate("1st dinner · $14.72", (d1, 14.717), xytext=(8, 6), textcoords="offset points", color="#fde68a", fontsize=7.5, fontweight="bold")
+    ax.scatter([xs[-1]], [ys[-1]], s=36, color="#f87171", zorder=5, edgecolors="white", linewidths=1.1)
+    ax.annotate(f"Nov. 22 · ${ys[-1]:.2f}", (xs[-1], ys[-1]), xytext=(-12, -1), textcoords="offset points", color="#fca5a5", fontsize=7.5, fontweight="bold", ha="right", va="center")
+    ax.set_yticks([1, 3, 10, 30]); ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"${v:g}"))
+    ax.yaxis.set_minor_formatter(plt.NullFormatter())
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %y"))
+    fig.text(0.95, 0.85, "−99%", color="#f87171", fontsize=34, fontweight="bold", va="center", ha="right")
+    fig.text(0.07, 0.90, "TRUMP memecoin from its peak", color=ink, fontsize=12, fontweight="bold", va="center")
+    fig.text(0.07, 0.82, "as top holders gather for a second dinner", color="#fcd34d", fontsize=10, va="center")
+    fig.text(0.07, 0.70, "Daily close on Kraken, log scale, Jan. 2025 - Nov. 22, 2026", color="#a8a29e", fontsize=7.5, va="center")
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100 * S, facecolor=bg); plt.close(fig); buf.seek(0)
+    im = Image.open(buf).convert("RGB")
+    return im, {"kind": "chart", "sources": [
+        {"file": "Kraken OHLC TRUMPUSD interval=1440", "license": "Kraken public API", "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "credit": "TRUMP/USD daily closes Jan 2025 - Nov 22, 2026, from Kraken"},
+        {"file": "The Block, Nov. 22, 2026", "license": "Figure cited", "url": "https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828", "credit": "All-time high $73.43; down about 99%"}
+    ]}
+
 BUILDERS = {
     "bitcoin-61500-abraxas-capital-1-billion-btc-off-exchanges-nov-2026": thumb_abraxas_withdrawals,
+    "fusionist-ace-bridge-exploit-10-quintillion-tokens-nov-2026": thumb_fusionist_ace,
+    "trump-memecoin-second-dinner-token-down-99-percent-nov-2026": thumb_trump_dinner,
     "chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026": thumb_chainflip_bounty,
     "bitcoin-core-node-stall-bug-ai-found-fix-nov-2026": thumb_core_node_stall,
     "kraken-bitcoin-cad-flash-crash-24250-trades-stand-nov-2026": thumb_kraken_cad_crash,

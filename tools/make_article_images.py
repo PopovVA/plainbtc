@@ -4861,7 +4861,113 @@ def build_core_node_stall():
     ]
 
 
+def build_fusionist_ace():
+    slug = "fusionist-ace-bridge-exploit-10-quintillion-tokens-nov-2026"
+    d = OUT / slug
+    # CoinGecko ACE ("endurance") hourly prices Nov 21 01:00 UTC - Nov 23 00:00 UTC, frozen in chart-data.json:
+    # about $0.086 at 17:00 UTC Nov 22 (before the first mint at 17:55 UTC), $0.0664 at 23:00 UTC, $0.0761 at 00:00 UTC Nov 23.
+    rows = json.loads((I18N / slug / "chart-data.json").read_text(encoding="utf-8"))
+    chart = make_line_chart(
+        d / "chart-ace-hourly-nov-21-22",
+        [r[0] for r in rows], [r[1] for r in rows],
+        title="Fusionist (ACE) hourly price, Nov. 21-22, 2026 (CoinGecko, UTC)",
+        hline=0.0862,
+        hlabel="Before the exploit ≈ $0.086",
+        date_fmt="%b %d %H:%M",
+        yfmt=lambda x, _p: f"${x:.3f}",
+    )
+    fact = make_fact_card(
+        d / "fact-ace-supply-10-quintillion",
+        "ACE supply on BNB Chain · Nov. 22, 2026",
+        "≈10,020,000,000,000,000,000",
+        "ACE tokens after Sunday's unbacked mints, up from about 53.7 million. ACE's maximum supply is 147 million.",
+        footer="BNB Chain ACE contract (BscScan) · The Block · Blockaid",
+    )
+    return [
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: the ACE token's supply on BNB Chain reached about 10,020,000,000,000,000,000 (about 10 quintillion) after unbacked mints on Nov. 22, 2026, up from about 53.7 million; ACE's maximum supply is 147 million", {
+            "es": "Tarjeta de datos: el suministro del token ACE en BNB Chain llegó a unos 10.020.000.000.000.000.000 (unos 10 trillones) tras las emisiones sin respaldo del 22 de noviembre de 2026, frente a unos 53,7 millones antes; el suministro máximo de ACE es de 147 millones",
+            "pt": "Cartão de dados: a oferta do token ACE na BNB Chain chegou a cerca de 10.020.000.000.000.000.000 (cerca de 10 quintilhões) após as emissões sem lastro de 22 de novembro de 2026, ante cerca de 53,7 milhões antes; a oferta máxima de ACE é de 147 milhões",
+            "fr": "Fiche chiffrée : l'offre du jeton ACE sur BNB Chain a atteint environ 10 020 000 000 000 000 000 (environ 10 trillions) après les émissions sans contrepartie du 22 novembre 2026, contre environ 53,7 millions avant ; l'offre maximale d'ACE est de 147 millions",
+            "de": "Faktenkarte: Das Angebot des ACE-Tokens auf der BNB Chain stieg nach ungedeckten Prägungen am 22. November 2026 auf rund 10.020.000.000.000.000.000 (rund 10 Trillionen), zuvor waren es rund 53,7 Millionen; das Höchstangebot von ACE liegt bei 147 Millionen",
+            "ru": "Карточка с фактом: после необеспеченного выпуска 22 ноября 2026 года предложение токена ACE в BNB Chain достигло примерно 10 020 000 000 000 000 000 (около 10 квинтиллионов), тогда как раньше было около 53,7 млн; максимальное предложение ACE — 147 млн",
+            "tr": "Bilgi kartı: ACE tokeninin BNB Chain'deki arzı, 22 Kasım 2026'daki karşılıksız basımların ardından yaklaşık 10.020.000.000.000.000.000'e (yaklaşık 10 kentilyon) çıktı; önceki arz yaklaşık 53,7 milyondu; ACE'nin azami arzı 147 milyon",
+            "id": "Kartu fakta: pasokan token ACE di BNB Chain mencapai sekitar 10.020.000.000.000.000.000 (sekitar 10 kuintiliun) setelah pencetakan tanpa jaminan pada 22 November 2026, naik dari sekitar 53,7 juta; pasokan maksimum ACE adalah 147 juta",
+            "ja": "ファクトカード：2026年11月22日の裏付けのない発行により、BNBチェーン上のACEトークンの供給量は約5370万枚から約1000京枚（10,020,000,000,000,000,000枚）に急増。ACEの最大供給量は1億4700万枚",
+            "ko": "팩트 카드: 2026년 11월 22일 담보 없는 발행 이후 BNB체인의 ACE 토큰 공급량이 약 5,370만 개에서 약 1,002경 개(10,020,000,000,000,000,000개)로 늘어남. ACE의 최대 공급량은 1억 4,700만 개",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="ACE token contract on BNB Chain (BscScan), read Nov. 22, 2026; The Block; Blockaid")},
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of the Fusionist ACE token's hourly price on Nov. 21-22, 2026: steady near $0.086 until about 17:00 UTC on Nov. 22, then a fall to about $0.066 at 23:00 UTC and a partial rebound to about $0.076", {
+            "es": "Gráfico de líneas del precio horario del token ACE de Fusionist del 21 al 22 de noviembre de 2026: estable cerca de 0,086 dólares hasta las 17:00 UTC del 22 de noviembre, luego una caída hasta unos 0,066 dólares a las 23:00 UTC y un rebote parcial hasta unos 0,076",
+            "pt": "Gráfico de linha do preço horário do token ACE da Fusionist de 21 a 22 de novembro de 2026: estável perto de US$ 0,086 até cerca de 17h UTC de 22 de novembro, depois uma queda para cerca de US$ 0,066 às 23h UTC e uma recuperação parcial para cerca de US$ 0,076",
+            "fr": "Courbe du cours horaire du jeton ACE de Fusionist les 21 et 22 novembre 2026 : stable vers 0,086 dollar jusqu'à environ 17 h UTC le 22 novembre, puis une baisse vers 0,066 dollar à 23 h UTC et un rebond partiel vers 0,076 dollar",
+            "de": "Liniendiagramm des stündlichen Kurses des Fusionist-Tokens ACE am 21. und 22. November 2026: stabil bei rund 0,086 $ bis etwa 17:00 UTC am 22. November, dann ein Rückgang auf rund 0,066 $ um 23:00 UTC und eine teilweise Erholung auf rund 0,076 $",
+            "ru": "Линейный график почасовой цены токена ACE проекта Fusionist 21–22 ноября 2026 года: около $0,086 примерно до 17:00 UTC 22 ноября, затем падение примерно до $0,066 к 23:00 UTC и частичный отскок примерно до $0,076",
+            "tr": "Fusionist'in ACE tokeninin 21-22 Kasım 2026 saatlik fiyatının çizgi grafiği: 22 Kasım 17.00 UTC'ye kadar 0,086 $ civarında yatay, ardından 23.00 UTC'de yaklaşık 0,066 $'a düşüş ve yaklaşık 0,076 $'a kısmi toparlanma",
+            "id": "Grafik garis harga per jam token ACE Fusionist pada 21-22 November 2026: stabil di sekitar US$0,086 hingga sekitar pukul 17.00 UTC 22 November, lalu turun ke sekitar US$0,066 pada pukul 23.00 UTC dan pulih sebagian ke sekitar US$0,076",
+            "ja": "2026年11月21〜22日のFusionistのACEトークンの1時間ごとの価格の折れ線グラフ：11月22日17時（UTC）ごろまでは約0.086ドルで安定、その後23時（UTC）に約0.066ドルまで下落し、約0.076ドルまで一部回復",
+            "ko": "2026년 11월 21~22일 퓨저니스트 ACE 토큰의 시간별 가격 선 그래프: 11월 22일 17시(UTC)께까지 약 0.086달러에서 안정, 이후 23시(UTC) 약 0.066달러로 하락했다가 약 0.076달러로 일부 반등",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="CoinGecko, Fusionist (ACE) hourly prices, Nov. 21-22, 2026")},
+    ]
+
+
+def build_trump_dinner():
+    slug = "trump-memecoin-second-dinner-token-down-99-percent-nov-2026"
+    d = OUT / slug
+    # Kraken TRUMPUSD daily closes (00:00 UTC candles) Jan 18, 2025 - Nov 22, 2026, frozen in chart-data.json.
+    # Highest close $46.591 (Jan 19, 2025); May 22, 2025 (first dinner) close $14.717; record low $0.798 (Nov 21, 2026 06:00 UTC hour).
+    rows = json.loads((I18N / slug / "chart-data.json").read_text(encoding="utf-8"))
+    chart = make_line_chart(
+        d / "chart-trump-daily-2025-2026",
+        [r[0] for r in rows], [r[1] for r in rows],
+        title="TRUMP daily close on Kraken, 2025-2026 (dashed line: first dinner, $14.72)",
+        hline=14.717,
+        hlabel=None,
+        date_fmt="%b %Y",
+        yfmt=lambda x, _p: f"${x:,.0f}",
+    )
+    fact = make_fact_card(
+        d / "fact-leaderboard-8-6m-vs-148m",
+        "TRUMP dinner leaderboard wallets",
+        "$8.6M vs. $148M",
+        "Combined holdings listed for the Nov. 22, 2026 dinner versus the first dinner in May 2025. One holder qualified with about $518 of TRUMP.",
+        footer="Reuters · The Block (Washington Post analysis)",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of the TRUMP memecoin's daily closing price on Kraken from January 2025 to Nov. 22, 2026: a spike to about $46.59 in January 2025, about $14.72 on the day of the first holder dinner in May 2025, and a long slide to about $0.88", {
+            "es": "Gráfico de líneas del precio de cierre diario del memecoin TRUMP en Kraken desde enero de 2025 hasta el 22 de noviembre de 2026: un pico de unos 46,59 dólares en enero de 2025, unos 14,72 dólares el día de la primera cena de tenedores en mayo de 2025 y una larga caída hasta unos 0,88 dólares",
+            "pt": "Gráfico de linha do preço de fechamento diário da memecoin TRUMP na Kraken de janeiro de 2025 a 22 de novembro de 2026: um pico de cerca de US$ 46,59 em janeiro de 2025, cerca de US$ 14,72 no dia do primeiro jantar de detentores em maio de 2025 e uma longa queda até cerca de US$ 0,88",
+            "fr": "Courbe du cours de clôture quotidien du memecoin TRUMP sur Kraken de janvier 2025 au 22 novembre 2026 : un pic vers 46,59 dollars en janvier 2025, environ 14,72 dollars le jour du premier dîner des détenteurs en mai 2025, puis une longue glissade jusqu'à environ 0,88 dollar",
+            "de": "Liniendiagramm des täglichen Schlusskurses des TRUMP-Memecoins auf Kraken von Januar 2025 bis 22. November 2026: ein Hoch bei rund 46,59 $ im Januar 2025, rund 14,72 $ am Tag des ersten Halter-Dinners im Mai 2025 und ein langer Abstieg auf rund 0,88 $",
+            "ru": "Линейный график дневной цены закрытия мемкоина TRUMP на Kraken с января 2025 года по 22 ноября 2026 года: всплеск примерно до $46,59 в январе 2025 года, около $14,72 в день первого ужина для держателей в мае 2025 года и долгое падение примерно до $0,88",
+            "tr": "TRUMP memecoin'inin Ocak 2025'ten 22 Kasım 2026'ya Kraken'deki günlük kapanış fiyatının çizgi grafiği: Ocak 2025'te yaklaşık 46,59 $'a sıçrama, Mayıs 2025'teki ilk sahipler yemeği gününde yaklaşık 14,72 $ ve yaklaşık 0,88 $'a uzun bir düşüş",
+            "id": "Grafik garis harga penutupan harian memecoin TRUMP di Kraken dari Januari 2025 hingga 22 November 2026: lonjakan ke sekitar US$46,59 pada Januari 2025, sekitar US$14,72 pada hari makan malam pemegang pertama pada Mei 2025, lalu penurunan panjang ke sekitar US$0,88",
+            "ja": "2025年1月から2026年11月22日までのKrakenにおけるTRUMPミームコインの日次終値の折れ線グラフ：2025年1月に約46.59ドルまで急騰、2025年5月の初回保有者ディナー当日は約14.72ドル、その後約0.88ドルまで長期下落",
+            "ko": "2025년 1월부터 2026년 11월 22일까지 크라켄의 TRUMP 밈코인 일일 종가 선 그래프: 2025년 1월 약 46.59달러로 급등, 2025년 5월 첫 보유자 만찬 당일 약 14.72달러, 이후 약 0.88달러까지 장기 하락",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken, TRUMP/USD daily closes, Jan. 2025 - Nov. 22, 2026")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: wallets on the public leaderboard for the Nov. 22, 2026 TRUMP dinner held a combined $8.6 million, versus $148 million for the first dinner in May 2025; one holder qualified with about $518 of TRUMP", {
+            "es": "Tarjeta de datos: las carteras de la clasificación pública para la cena TRUMP del 22 de noviembre de 2026 sumaban 8,6 millones de dólares, frente a 148 millones en la primera cena de mayo de 2025; un tenedor se clasificó con unos 518 dólares en TRUMP",
+            "pt": "Cartão de dados: as carteiras do ranking público para o jantar TRUMP de 22 de novembro de 2026 somavam US$ 8,6 milhões, contra US$ 148 milhões no primeiro jantar, em maio de 2025; um detentor se classificou com cerca de US$ 518 em TRUMP",
+            "fr": "Fiche chiffrée : les portefeuilles du classement public du dîner TRUMP du 22 novembre 2026 détenaient au total 8,6 millions de dollars, contre 148 millions pour le premier dîner en mai 2025 ; un détenteur s'est qualifié avec environ 518 dollars de TRUMP",
+            "de": "Faktenkarte: Die Wallets auf der öffentlichen Rangliste für das TRUMP-Dinner am 22. November 2026 hielten zusammen 8,6 Mio. $, beim ersten Dinner im Mai 2025 waren es 148 Mio. $; ein Halter qualifizierte sich mit TRUMP im Wert von rund 518 $",
+            "ru": "Карточка с фактом: кошельки из публичного рейтинга ужина TRUMP 22 ноября 2026 года вместе держали $8,6 млн против $148 млн перед первым ужином в мае 2025 года; один держатель прошёл отбор, имея TRUMP примерно на $518",
+            "tr": "Bilgi kartı: 22 Kasım 2026 TRUMP yemeğinin herkese açık sıralamasındaki cüzdanlar toplam 8,6 milyon $ tutuyordu; Mayıs 2025'teki ilk yemekte bu rakam 148 milyon $'dı; bir sahip yaklaşık 518 $'lık TRUMP ile yer kazandı",
+            "id": "Kartu fakta: dompet di papan peringkat publik untuk makan malam TRUMP 22 November 2026 memegang total US$8,6 juta, dibandingkan US$148 juta untuk makan malam pertama pada Mei 2025; satu pemegang lolos dengan TRUMP senilai sekitar US$518",
+            "ja": "ファクトカード：2026年11月22日のTRUMPディナーの公開ランキングに載ったウォレットの保有額は合計860万ドル。2025年5月の初回ディナーでは1億4800万ドルだった。約518ドル分のTRUMPで出席資格を得た保有者もいた",
+            "ko": "팩트 카드: 2026년 11월 22일 TRUMP 만찬 공개 순위표에 오른 지갑들의 보유액 합계는 860만 달러로, 2025년 5월 첫 만찬 때의 1억 4,800만 달러에 크게 못 미침. 약 518달러어치 TRUMP로 자격을 얻은 보유자도 있었음",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Reuters; The Block, citing a Washington Post analysis")},
+    ]
+
+
 BUILDERS = {
+    "fusionist-ace-bridge-exploit-10-quintillion-tokens-nov-2026": "fusionist",
+    "trump-memecoin-second-dinner-token-down-99-percent-nov-2026": "trumpdinner",
     "bitcoin-61500-abraxas-capital-1-billion-btc-off-exchanges-nov-2026": "abraxas",
     "chainflip-loss-12-million-bitcoin-10-percent-bounty-nov-2026": "cfbounty",
     "bitcoin-core-node-stall-bug-ai-found-fix-nov-2026": "corestall",
@@ -4947,7 +5053,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "abraxas":
+    if key == "fusionist":
+        figs = build_fusionist_ace()
+    elif key == "trumpdinner":
+        figs = build_trump_dinner()
+    elif key == "abraxas":
         figs = build_abraxas_withdrawals()
     elif key == "cfbounty":
         figs = build_chainflip_bounty()

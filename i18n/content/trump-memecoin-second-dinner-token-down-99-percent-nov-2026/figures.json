@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-trump-daily-2025-2026.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of the TRUMP memecoin's daily closing price on Kraken from January 2025 to Nov. 22, 2026: a spike to about $46.59 in January 2025, about $14.72 on the day of the first holder dinner in May 2025, and a long slide to about $0.88",
+      "es": "Gráfico de líneas del precio de cierre diario del memecoin TRUMP en Kraken desde enero de 2025 hasta el 22 de noviembre de 2026: un pico de unos 46,59 dólares en enero de 2025, unos 14,72 dólares el día de la primera cena de tenedores en mayo de 2025 y una larga caída hasta unos 0,88 dólares",
+      "pt": "Gráfico de linha do preço de fechamento diário da memecoin TRUMP na Kraken de janeiro de 2025 a 22 de novembro de 2026: um pico de cerca de US$ 46,59 em janeiro de 2025, cerca de US$ 14,72 no dia do primeiro jantar de detentores em maio de 2025 e uma longa queda até cerca de US$ 0,88",
+      "fr": "Courbe du cours de clôture quotidien du memecoin TRUMP sur Kraken de janvier 2025 au 22 novembre 2026 : un pic vers 46,59 dollars en janvier 2025, environ 14,72 dollars le jour du premier dîner des détenteurs en mai 2025, puis une longue glissade jusqu'à environ 0,88 dollar",
+      "de": "Liniendiagramm des täglichen Schlusskurses des TRUMP-Memecoins auf Kraken von Januar 2025 bis 22. November 2026: ein Hoch bei rund 46,59 $ im Januar 2025, rund 14,72 $ am Tag des ersten Halter-Dinners im Mai 2025 und ein langer Abstieg auf rund 0,88 $",
+      "ru": "Линейный график дневной цены закрытия мемкоина TRUMP на Kraken с января 2025 года по 22 ноября 2026 года: всплеск примерно до $46,59 в январе 2025 года, около $14,72 в день первого ужина для держателей в мае 2025 года и долгое падение примерно до $0,88",
+      "tr": "TRUMP memecoin'inin Ocak 2025'ten 22 Kasım 2026'ya Kraken'deki günlük kapanış fiyatının çizgi grafiği: Ocak 2025'te yaklaşık 46,59 $'a sıçrama, Mayıs 2025'teki ilk sahipler yemeği gününde yaklaşık 14,72 $ ve yaklaşık 0,88 $'a uzun bir düşüş",
+      "id": "Grafik garis harga penutupan harian memecoin TRUMP di Kraken dari Januari 2025 hingga 22 November 2026: lonjakan ke sekitar US$46,59 pada Januari 2025, sekitar US$14,72 pada hari makan malam pemegang pertama pada Mei 2025, lalu penurunan panjang ke sekitar US$0,88",
+      "ja": "2025年1月から2026年11月22日までのKrakenにおけるTRUMPミームコインの日次終値の折れ線グラフ：2025年1月に約46.59ドルまで急騰、2025年5月の初回保有者ディナー当日は約14.72ドル、その後約0.88ドルまで長期下落",
+      "ko": "2025년 1월부터 2026년 11월 22일까지 크라켄의 TRUMP 밈코인 일일 종가 선 그래프: 2025년 1월 약 46.59달러로 급등, 2025년 5월 첫 보유자 만찬 당일 약 14.72달러, 이후 약 0.88달러까지 장기 하락"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken, TRUMP/USD daily closes, Jan. 2025 - Nov. 22, 2026",
+      "es": "Gráfico: PlainBTC, datos: Kraken, TRUMP/USD daily closes, Jan. 2025 - Nov. 22, 2026",
+      "pt": "Gráfico: PlainBTC, dados: Kraken, TRUMP/USD daily closes, Jan. 2025 - Nov. 22, 2026",
+      "fr": "Graphique : PlainBTC, données : Kraken, TRUMP/USD daily closes, Jan. 2025 - Nov. 22, 2026",
+      "de": "Chart: PlainBTC, Daten: Kraken, TRUMP/USD daily closes, Jan. 2025 - Nov. 22, 2026",
+      "ru": "График: PlainBTC, данные: Kraken, TRUMP/USD daily closes, Jan. 2025 - Nov. 22, 2026",
+      "tr": "Grafik: PlainBTC, veri: Kraken, TRUMP/USD daily closes, Jan. 2025 - Nov. 22, 2026",
+      "id": "Grafik: PlainBTC, data: Kraken, TRUMP/USD daily closes, Jan. 2025 - Nov. 22, 2026",
+      "ja": "チャート: PlainBTC、データ: Kraken, TRUMP/USD daily closes, Jan. 2025 - Nov. 22, 2026",
+      "ko": "차트: PlainBTC, 데이터: Kraken, TRUMP/USD daily closes, Jan. 2025 - Nov. 22, 2026"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-leaderboard-8-6m-vs-148m.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: wallets on the public leaderboard for the Nov. 22, 2026 TRUMP dinner held a combined $8.6 million, versus $148 million for the first dinner in May 2025; one holder qualified with about $518 of TRUMP",
+      "es": "Tarjeta de datos: las carteras de la clasificación pública para la cena TRUMP del 22 de noviembre de 2026 sumaban 8,6 millones de dólares, frente a 148 millones en la primera cena de mayo de 2025; un tenedor se clasificó con unos 518 dólares en TRUMP",
+      "pt": "Cartão de dados: as carteiras do ranking público para o jantar TRUMP de 22 de novembro de 2026 somavam US$ 8,6 milhões, contra US$ 148 milhões no primeiro jantar, em maio de 2025; um detentor se classificou com cerca de US$ 518 em TRUMP",
+      "fr": "Fiche chiffrée : les portefeuilles du classement public du dîner TRUMP du 22 novembre 2026 détenaient au total 8,6 millions de dollars, contre 148 millions pour le premier dîner en mai 2025 ; un détenteur s'est qualifié avec environ 518 dollars de TRUMP",
+      "de": "Faktenkarte: Die Wallets auf der öffentlichen Rangliste für das TRUMP-Dinner am 22. November 2026 hielten zusammen 8,6 Mio. $, beim ersten Dinner im Mai 2025 waren es 148 Mio. $; ein Halter qualifizierte sich mit TRUMP im Wert von rund 518 $",
+      "ru": "Карточка с фактом: кошельки из публичного рейтинга ужина TRUMP 22 ноября 2026 года вместе держали $8,6 млн против $148 млн перед первым ужином в мае 2025 года; один держатель прошёл отбор, имея TRUMP примерно на $518",
+      "tr": "Bilgi kartı: 22 Kasım 2026 TRUMP yemeğinin herkese açık sıralamasındaki cüzdanlar toplam 8,6 milyon $ tutuyordu; Mayıs 2025'teki ilk yemekte bu rakam 148 milyon $'dı; bir sahip yaklaşık 518 $'lık TRUMP ile yer kazandı",
+      "id": "Kartu fakta: dompet di papan peringkat publik untuk makan malam TRUMP 22 November 2026 memegang total US$8,6 juta, dibandingkan US$148 juta untuk makan malam pertama pada Mei 2025; satu pemegang lolos dengan TRUMP senilai sekitar US$518",
+      "ja": "ファクトカード：2026年11月22日のTRUMPディナーの公開ランキングに載ったウォレットの保有額は合計860万ドル。2025年5月の初回ディナーでは1億4800万ドルだった。約518ドル分のTRUMPで出席資格を得た保有者もいた",
+      "ko": "팩트 카드: 2026년 11월 22일 TRUMP 만찬 공개 순위표에 오른 지갑들의 보유액 합계는 860만 달러로, 2025년 5월 첫 만찬 때의 1억 4,800만 달러에 크게 못 미침. 약 518달러어치 TRUMP로 자격을 얻은 보유자도 있었음"
+    },
+    "caption": {
+      "en": "Source: Reuters; The Block, citing a Washington Post analysis",
+      "es": "Fuente: Reuters; The Block, citing a Washington Post analysis",
+      "pt": "Fonte: Reuters; The Block, citing a Washington Post analysis",
+      "fr": "Source : Reuters; The Block, citing a Washington Post analysis",
+      "de": "Quelle: Reuters; The Block, citing a Washington Post analysis",
+      "ru": "Источник: Reuters; The Block, citing a Washington Post analysis",
+      "tr": "Kaynak: Reuters; The Block, citing a Washington Post analysis",
+      "id": "Sumber: Reuters; The Block, citing a Washington Post analysis",
+      "ja": "出典: Reuters; The Block, citing a Washington Post analysis",
+      "ko": "출처: Reuters; The Block, citing a Washington Post analysis"
+    }
+  }
+]
