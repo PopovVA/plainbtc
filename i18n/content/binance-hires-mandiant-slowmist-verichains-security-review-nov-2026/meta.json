@@ -1,0 +1,24 @@
+{
+ "slug": "binance-hires-mandiant-slowmist-verichains-security-review-nov-2026",
+ "date": "2026-11-23",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026",
+  "binance-reopens-withdrawals-87-networks-nov-2026",
+  "doj-seizes-1-2-billion-binance-hack-north-korea-nov-2026",
+  "binance-hack-north-korea-memecoin-laundering-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody",
+  "is-coinbase-safe-for-beginners"
+ ],
+ "sources": [
+  {"url": "https://www.binance.com/en/blog/security/6305213896361554553", "title": "Binance Blog: Binance Engages Mandiant, SlowMist and Verichains for Independent Security Reviews", "date": "Nov 23, 2026"},
+  {"url": "https://www.prnewswire.com/news-releases/binance-engages-mandiant-slowmist-and-verichains-for-independent-third-party-security-review-302948286.html", "title": "PR Newswire: Binance Engages Mandiant, SlowMist and Verichains for Independent Third-Party Security Review", "date": "Nov 23, 2026"},
+  {"url": "https://www.investing.com/news/economy-news/binance-says-it-has-court-order-to-get-back-crypto-frozen-after-63-billion-heist-5036806", "title": "Reuters (via Investing.com): Binance says it has court order to get back crypto frozen after $6.3 billion heist", "date": "Nov 18, 2026"},
+  {"url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack", "title": "CoinDesk: Binance opens crypto withdrawals in phases, starting with bitcoin, following $6.3 billion hack", "date": "Nov 1, 2026"},
+  {"url": "https://bitcoinmagazine.com/news/binance-covers-6-34-billion-hack", "title": "Bitcoin Magazine: Binance covers $6.34 billion hack", "date": "Nov 12, 2026"},
+  {"url": "https://cryptobriefing.com/binance-hires-cybersecurity-firms-security-review/", "title": "Crypto Briefing: Binance brings in Mandiant, SlowMist and Verichains to review its security", "date": "Nov 23, 2026"},
+  {"url": "https://www.justice.gov/opa/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency", "title": "U.S. Justice Department: actions to disrupt North Korea's massive theft of cryptocurrency", "date": "Nov 12, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

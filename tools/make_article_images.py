@@ -5068,7 +5068,138 @@ def build_strategy_457():
     ]
 
 
+def build_binance_security_review():
+    slug = "binance-hires-mandiant-slowmist-verichains-security-review-nov-2026"
+    d = OUT / slug
+    # Dates/figures: Reuters (Oct. 29 hack ~ $6.3B; Nov. 18 ADGM order), CoinDesk (Nov. 1 phased reopening),
+    # Bitcoin Magazine (Nov. 12 coverage > $6.34B), Binance / PR Newswire (Nov. 23 engagement of three firms).
+    tl = make_timeline_card(
+        d / "timeline-binance-hack-to-security-review",
+        "Binance since the October hack",
+        [
+            ("Oct. 29", "Hackers take about $6.3 billion from Binance hot wallets", (248, 113, 113)),
+            ("Nov. 1", "Withdrawals start reopening in phases", (96, 165, 250)),
+            ("Nov. 12", "Binance says it covered the losses with $6.34B+ of its own money", GREEN),
+            ("Nov. 18", "Abu Dhabi court order to help recover frozen funds", (96, 165, 250)),
+            ("Nov. 23", "Mandiant, SlowMist and Verichains hired to review security", ORANGE),
+        ],
+        footer="Reuters · CoinDesk · Bitcoin Magazine · Binance",
+        margin=150, wrap_w=200,
+    )
+    fact = make_fact_card(
+        d / "fact-binance-three-firms-review",
+        "Binance security chief Jimmy Su · Nov. 23, 2026",
+        "3 outside firms",
+        "\u201cThey will review our systems and tell us where we can be stronger. We are committed to acting on what they find.\u201d",
+        footer="Binance announcement via PR Newswire, Nov. 23, 2026",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "timeline",
+         "alt": alts("Timeline: on Oct. 29 hackers took about $6.3 billion from Binance; on Nov. 1 withdrawals started reopening in phases; on Nov. 12 Binance said it covered the losses with more than $6.34 billion of its own money; on Nov. 18 it got an Abu Dhabi court order to help recover frozen funds; on Nov. 23 it hired Mandiant, SlowMist and Verichains to review its security", {
+            "es": "Cronología: el 29 de octubre unos hackers robaron cerca de 6.300 millones de dólares a Binance; el 1 de noviembre los retiros empezaron a reabrirse por fases; el 12 de noviembre Binance dijo que cubrió las pérdidas con más de 6.340 millones de dólares propios; el 18 de noviembre obtuvo una orden judicial en Abu Dabi para recuperar fondos congelados; el 23 de noviembre contrató a Mandiant, SlowMist y Verichains para revisar su seguridad",
+            "pt": "Linha do tempo: em 29 de outubro hackers levaram cerca de US$ 6,3 bilhões da Binance; em 1º de novembro os saques começaram a reabrir em etapas; em 12 de novembro a Binance disse ter coberto as perdas com mais de US$ 6,34 bilhões próprios; em 18 de novembro obteve uma ordem judicial em Abu Dhabi para recuperar fundos congelados; em 23 de novembro contratou Mandiant, SlowMist e Verichains para revisar sua segurança",
+            "fr": "Chronologie : le 29 octobre, des pirates dérobent environ 6,3 milliards de dollars à Binance ; le 1er novembre, les retraits rouvrent par étapes ; le 12 novembre, Binance dit avoir couvert les pertes avec plus de 6,34 milliards de dollars de ses fonds ; le 18 novembre, elle obtient une ordonnance d'un tribunal d'Abou Dhabi pour récupérer des fonds gelés ; le 23 novembre, elle engage Mandiant, SlowMist et Verichains pour auditer sa sécurité",
+            "de": "Zeitleiste: Am 29. Oktober erbeuten Hacker rund 6,3 Mrd. $ bei Binance; am 1. November öffnen Auszahlungen schrittweise wieder; am 12. November erklärt Binance, die Verluste mit über 6,34 Mrd. $ aus eigenen Mitteln gedeckt zu haben; am 18. November erhält Binance einen Gerichtsbeschluss in Abu Dhabi zur Rückholung eingefrorener Gelder; am 23. November beauftragt Binance Mandiant, SlowMist und Verichains mit einer Sicherheitsprüfung",
+            "ru": "Хронология: 29 октября хакеры похитили у Binance около $6,3 млрд; 1 ноября вывод средств начали поэтапно открывать; 12 ноября Binance заявила, что покрыла потери более чем $6,34 млрд собственных средств; 18 ноября биржа получила судебный приказ в Абу-Даби для возврата замороженных средств; 23 ноября наняла Mandiant, SlowMist и Verichains для проверки безопасности",
+            "tr": "Zaman çizelgesi: 29 Ekim'de hackerlar Binance'ten yaklaşık 6,3 milyar $ çaldı; 1 Kasım'da para çekme işlemleri aşamalı olarak yeniden açılmaya başladı; 12 Kasım'da Binance kayıpları kendi kasasından 6,34 milyar $'ı aşan tutarla karşıladığını söyledi; 18 Kasım'da dondurulan fonları geri almak için Abu Dabi'de mahkeme kararı aldı; 23 Kasım'da güvenliğini incelemeleri için Mandiant, SlowMist ve Verichains'i görevlendirdi",
+            "id": "Linimasa: pada 29 Oktober peretas mengambil sekitar US$6,3 miliar dari Binance; pada 1 November penarikan mulai dibuka kembali bertahap; pada 12 November Binance mengatakan telah menutup kerugian dengan lebih dari US$6,34 miliar dana sendiri; pada 18 November Binance memperoleh perintah pengadilan Abu Dhabi untuk memulihkan dana yang dibekukan; pada 23 November Binance menunjuk Mandiant, SlowMist, dan Verichains untuk meninjau keamanannya",
+            "ja": "時系列：10月29日、ハッカーがバイナンスから約63億ドルを奪う。11月1日、出金が段階的に再開。11月12日、バイナンスが自己資金63億4000万ドル超で損失を補填したと発表。11月18日、凍結資金の回収に向けアブダビの裁判所命令を取得。11月23日、Mandiant、SlowMist、Verichainsにセキュリティ審査を依頼",
+            "ko": "타임라인: 10월 29일 해커가 바이낸스에서 약 63억 달러 탈취; 11월 1일 출금이 단계적으로 재개; 11월 12일 바이낸스가 자체 자금 63억4000만 달러 이상으로 손실을 보전했다고 발표; 11월 18일 동결 자금 회수를 위한 아부다비 법원 명령 확보; 11월 23일 맨디언트, 슬로우미스트, 베리체인스에 보안 점검 의뢰",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Reuters, CoinDesk, Bitcoin Magazine, Binance")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: Binance has hired 3 outside firms. Security chief Jimmy Su: \u201cThey will review our systems and tell us where we can be stronger. We are committed to acting on what they find.\u201d", {
+            "es": "Tarjeta: Binance contrató a 3 firmas externas. El jefe de seguridad Jimmy Su: \u201cRevisarán nuestros sistemas y nos dirán dónde podemos ser más fuertes. Nos comprometemos a actuar según lo que encuentren.\u201d",
+            "pt": "Cartão: a Binance contratou 3 empresas externas. O chefe de segurança Jimmy Su: \u201cElas vão revisar nossos sistemas e nos dizer onde podemos ser mais fortes. Estamos comprometidos a agir com base no que encontrarem.\u201d",
+            "fr": "Fiche : Binance a engagé 3 cabinets extérieurs. Son responsable de la sécurité, Jimmy Su : « Ils examineront nos systèmes et nous diront où nous pouvons être plus solides. Nous nous engageons à agir sur ce qu'ils trouveront. »",
+            "de": "Faktenkarte: Binance hat 3 externe Firmen beauftragt. Sicherheitschef Jimmy Su: \u201eSie werden unsere Systeme prüfen und uns sagen, wo wir stärker werden können. Wir verpflichten uns, auf ihre Ergebnisse zu reagieren.\u201c",
+            "ru": "Карточка: Binance наняла 3 внешние компании. Директор по безопасности Джимми Су: «Они проверят наши системы и скажут, где мы можем стать сильнее. Мы намерены действовать по итогам их выводов».",
+            "tr": "Bilgi kartı: Binance 3 dış firmayla anlaştı. Güvenlik şefi Jimmy Su: \u201cSistemlerimizi inceleyip nerede daha güçlü olabileceğimizi söyleyecekler. Bulduklarına göre harekete geçmeye kararlıyız.\u201d",
+            "id": "Kartu fakta: Binance menunjuk 3 perusahaan luar. Kepala keamanan Jimmy Su: \u201cMereka akan meninjau sistem kami dan memberi tahu di mana kami bisa lebih kuat. Kami berkomitmen menindaklanjuti temuan mereka.\u201d",
+            "ja": "ファクトカード：バイナンスは外部の3社に依頼。最高セキュリティ責任者ジミー・スー氏「彼らは当社のシステムを審査し、どこを強化できるかを教えてくれる。我々は彼らの指摘に基づいて行動することを約束する」",
+            "ko": "팩트 카드: 바이낸스가 외부 업체 3곳에 의뢰. 지미 수 최고보안책임자: \u201c그들이 우리 시스템을 점검하고 어디를 더 강화할 수 있는지 알려줄 것이다. 우리는 그들의 지적에 따라 조치할 것을 약속한다.\u201d",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Binance via PR Newswire, Nov. 23, 2026")},
+    ]
+
+
+def build_ark_withdraws_cd20():
+    slug = "ark-invest-withdraws-coindesk-20-crypto-etfs-nov-2026"
+    d = OUT / slug
+    import datetime as dt
+    # Kraken public daily OHLC (XBTUSD), closed daily candles Jan. 1 to Nov. 22, 2026 (close = next 00:00 UTC).
+    url = "https://api.kraken.com/0/public/OHLC?pair=XBTUSD&interval=1440&since=1767225600"
+    req = urllib.request.Request(url, headers={"User-Agent": "PlainBTC/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        rows = json.loads(resp.read().decode())["result"]["XXBTZUSD"]
+    end = dt.datetime(2026, 11, 22, tzinfo=dt.UTC).timestamp()
+    rows = [r for r in rows if r[0] <= end]
+    xs = [dt.datetime.fromtimestamp(r[0], dt.UTC) for r in rows]
+    ys = [float(r[4]) for r in rows]
+    fig, ax = plt.subplots(figsize=(12, 6.75), dpi=100)
+    style_axes(ax, "Bitcoin from ARK's filing to its withdrawal request (Kraken daily close, US$)")
+    orange = f"#{ORANGE[0]:02x}{ORANGE[1]:02x}{ORANGE[2]:02x}"
+    ax.plot(xs, ys, color=orange, linewidth=2.2)
+    ax.fill_between(xs, ys, min(ys) * 0.97, color=orange, alpha=0.12)
+    for day, label, col in ((dt.datetime(2026, 1, 23, tzinfo=dt.UTC), "Jan. 23: ARK files S-1s", "#38bdf8"),
+                            (dt.datetime(2026, 11, 20, tzinfo=dt.UTC), "Nov. 20: withdrawal requests", "#f87171")):
+        i = xs.index(day)
+        ax.axvline(day, color=col, linestyle="--", linewidth=1.4)
+        ax.scatter([day], [ys[i]], color=col, s=60, zorder=5)
+        ax.annotate(f"{label}\n${ys[i]:,.0f}", (day, ys[i]), xytext=(12 if i < len(xs) / 2 else -12, 30),
+                    textcoords="offset points", ha="left" if i < len(xs) / 2 else "right",
+                    color=col, fontsize=12, fontweight="bold")
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
+    ax.yaxis.set_major_formatter(lambda x, _p: f"${x:,.0f}")
+    plt.tight_layout(pad=1.2)
+    fig.text(0.99, 0.01, "plainbtc.com", color="#64748b", ha="right", fontsize=9)
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100, facecolor=fig.get_facecolor()); plt.close(fig); buf.seek(0)
+    chart = save_image(Image.open(buf).convert("RGB"), d / "chart-bitcoin-ark-filing-to-withdrawal")
+    cmp_ = make_compare_card(
+        d / "compare-ark-two-coindesk-20-funds",
+        "The two ARK funds that will not launch",
+        "Full-index fund",
+        "ex-Bitcoin fund",
+        [
+            ("Goal", "Follow the CoinDesk 20, an index of 20 large cryptos", "Same index, with bitcoin exposure stripped out"),
+            ("How", "Long CoinDesk 20 index futures, no coins held", "Index futures plus short CME bitcoin futures"),
+            ("Status", "Never effective, no shares sold", "Never effective, no shares sold"),
+        ],
+        footer="ARK Form RW filings, Nov. 20, 2026 · CoinDesk",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts(f"Line chart of bitcoin's daily close on Kraken in 2026: about ${ys[xs.index(dt.datetime(2026,1,23,tzinfo=dt.UTC))]:,.0f} on Jan. 23, when ARK filed for its CoinDesk 20 ETFs, and about ${ys[xs.index(dt.datetime(2026,11,20,tzinfo=dt.UTC))]:,.0f} on Nov. 20, when it asked the SEC to withdraw them", {
+            "es": "Gráfico de líneas del cierre diario de bitcoin en Kraken en 2026: unos 89.495 dólares el 23 de enero, cuando ARK registró sus ETF del CoinDesk 20, y unos 58.806 dólares el 20 de noviembre, cuando pidió a la SEC retirarlos",
+            "pt": "Gráfico de linha do fechamento diário do bitcoin na Kraken em 2026: cerca de US$ 89.495 em 23 de janeiro, quando a ARK registrou seus ETFs do CoinDesk 20, e cerca de US$ 58.806 em 20 de novembro, quando pediu à SEC para retirá-los",
+            "fr": "Graphique en courbe de la clôture quotidienne du bitcoin sur Kraken en 2026 : environ 89 495 dollars le 23 janvier, quand ARK a déposé ses ETF CoinDesk 20, et environ 58 806 dollars le 20 novembre, quand elle a demandé à la SEC de les retirer",
+            "de": "Liniendiagramm des täglichen Bitcoin-Schlusskurses bei Kraken 2026: rund 89.495 $ am 23. Januar, als ARK seine CoinDesk-20-ETFs anmeldete, und rund 58.806 $ am 20. November, als ARK die SEC um Rücknahme bat",
+            "ru": "Линейный график дневного закрытия биткоина на Kraken в 2026 году: около $89 495 23 января, когда ARK подала заявки на ETF на CoinDesk 20, и около $58 806 20 ноября, когда она попросила SEC их отозвать",
+            "tr": "Bitcoin'in 2026'da Kraken'deki günlük kapanışını gösteren çizgi grafik: ARK'ın CoinDesk 20 ETF'leri için başvurduğu 23 Ocak'ta yaklaşık 89.495 $, SEC'ten bunları geri çekmeyi istediği 20 Kasım'da yaklaşık 58.806 $",
+            "id": "Grafik garis harga penutupan harian bitcoin di Kraken pada 2026: sekitar US$89.495 pada 23 Januari, saat ARK mendaftarkan ETF CoinDesk 20, dan sekitar US$58.806 pada 20 November, saat ARK meminta SEC menariknya",
+            "ja": "2026年のクラーケンにおけるビットコイン日次終値の折れ線グラフ：ARKがCoinDesk 20 ETFを申請した1月23日は約89,495ドル、SECに取り下げを求めた11月20日は約58,806ドル",
+            "ko": "2026년 크라켄 비트코인 일일 종가 선 차트: ARK가 코인데스크 20 ETF를 신청한 1월 23일 약 89,495달러, SEC에 철회를 요청한 11월 20일 약 58,806달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken")},
+        {"id": "compare", "file": cmp_.name, "w": 1200, "h": 630, "kind": "compare",
+         "alt": alts("Comparison of the two ARK funds that will not launch: the full-index fund would have followed the CoinDesk 20 through index futures; the ex-Bitcoin fund would have added short CME bitcoin futures to strip out bitcoin. Neither became effective or sold shares", {
+            "es": "Comparación de los dos fondos de ARK que no se lanzarán: el fondo del índice completo habría seguido el CoinDesk 20 con futuros sobre el índice; el fondo sin bitcoin habría añadido futuros cortos de bitcoin de CME para quitar el bitcoin. Ninguno entró en vigor ni vendió acciones",
+            "pt": "Comparação dos dois fundos da ARK que não serão lançados: o fundo do índice completo seguiria o CoinDesk 20 com futuros do índice; o fundo sem bitcoin acrescentaria futuros vendidos de bitcoin da CME para tirar o bitcoin. Nenhum entrou em vigor nem vendeu cotas",
+            "fr": "Comparaison des deux fonds d'ARK qui ne verront pas le jour : le fonds sur l'indice complet aurait suivi le CoinDesk 20 via des contrats à terme sur l'indice ; le fonds hors bitcoin y aurait ajouté des positions vendeuses sur les contrats à terme bitcoin du CME pour retirer le bitcoin. Aucun n'est entré en vigueur ni n'a vendu de parts",
+            "de": "Vergleich der zwei ARK-Fonds, die nicht starten: Der Gesamtindex-Fonds hätte den CoinDesk 20 über Indexfutures abgebildet; der Ex-Bitcoin-Fonds hätte zusätzlich CME-Bitcoin-Futures leerverkauft, um Bitcoin herauszurechnen. Keiner wurde wirksam oder verkaufte Anteile",
+            "ru": "Сравнение двух фондов ARK, которые не будут запущены: фонд на полный индекс следовал бы за CoinDesk 20 через фьючерсы на индекс; фонд без биткоина добавлял бы короткие позиции по биткоин-фьючерсам CME, чтобы убрать биткоин. Ни один не вступил в силу и не продал ни одной акции",
+            "tr": "Piyasaya çıkmayacak iki ARK fonunun karşılaştırması: tam endeks fonu CoinDesk 20'yi endeks vadelileriyle izleyecekti; bitcoin hariç fon ise bitcoini çıkarmak için CME bitcoin vadelilerinde kısa pozisyon ekleyecekti. Hiçbiri yürürlüğe girmedi, hisse satmadı",
+            "id": "Perbandingan dua dana ARK yang batal diluncurkan: dana indeks penuh akan mengikuti CoinDesk 20 lewat kontrak berjangka indeks; dana tanpa bitcoin akan menambah posisi short kontrak berjangka bitcoin CME untuk menghapus bitcoin. Keduanya tidak pernah efektif dan tidak menjual saham",
+            "ja": "立ち上げられないARKの2本のファンドの比較：全指数型はCoinDesk 20を指数先物で追う設計、ビットコイン除外型はさらにCMEビットコイン先物を売り建ててビットコイン分を除く設計。どちらも登録は発効せず、株式も販売されていない",
+            "ko": "출시되지 않을 ARK 펀드 2종 비교: 전체 지수 펀드는 지수 선물로 코인데스크 20을 추종하고, 비트코인 제외 펀드는 CME 비트코인 선물 매도를 더해 비트코인을 제외할 계획이었다. 둘 다 효력이 발생하지 않았고 주식도 판매되지 않았다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="ARK Form RW filings (SEC EDGAR), CoinDesk")},
+    ]
+
+
 BUILDERS = {
+    "binance-hires-mandiant-slowmist-verichains-security-review-nov-2026": "bnbreview",
+    "ark-invest-withdraws-coindesk-20-crypto-etfs-nov-2026": "arkcd20",
     "bitcoin-etfs-1-79-billion-weekly-outflow-fourth-week-nov-2026": "etf179",
     "strategy-buys-457-bitcoin-212-million-strc-buyback-nov-2026": "mstr457",
     "fusionist-ace-bridge-exploit-10-quintillion-tokens-nov-2026": "fusionist",
@@ -5158,7 +5289,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "etf179":
+    if key == "bnbreview":
+        figs = build_binance_security_review()
+    elif key == "arkcd20":
+        figs = build_ark_withdraws_cd20()
+    elif key == "etf179":
         figs = build_etf_weekly_179()
     elif key == "mstr457":
         figs = build_strategy_457()

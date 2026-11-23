@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-bitcoin-ark-filing-to-withdrawal.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin's daily close on Kraken in 2026: about $89,495 on Jan. 23, when ARK filed for its CoinDesk 20 ETFs, and about $58,806 on Nov. 20, when it asked the SEC to withdraw them",
+      "es": "Gráfico de líneas del cierre diario de bitcoin en Kraken en 2026: unos 89.495 dólares el 23 de enero, cuando ARK registró sus ETF del CoinDesk 20, y unos 58.806 dólares el 20 de noviembre, cuando pidió a la SEC retirarlos",
+      "pt": "Gráfico de linha do fechamento diário do bitcoin na Kraken em 2026: cerca de US$ 89.495 em 23 de janeiro, quando a ARK registrou seus ETFs do CoinDesk 20, e cerca de US$ 58.806 em 20 de novembro, quando pediu à SEC para retirá-los",
+      "fr": "Graphique en courbe de la clôture quotidienne du bitcoin sur Kraken en 2026 : environ 89 495 dollars le 23 janvier, quand ARK a déposé ses ETF CoinDesk 20, et environ 58 806 dollars le 20 novembre, quand elle a demandé à la SEC de les retirer",
+      "de": "Liniendiagramm des täglichen Bitcoin-Schlusskurses bei Kraken 2026: rund 89.495 $ am 23. Januar, als ARK seine CoinDesk-20-ETFs anmeldete, und rund 58.806 $ am 20. November, als ARK die SEC um Rücknahme bat",
+      "ru": "Линейный график дневного закрытия биткоина на Kraken в 2026 году: около $89 495 23 января, когда ARK подала заявки на ETF на CoinDesk 20, и около $58 806 20 ноября, когда она попросила SEC их отозвать",
+      "tr": "Bitcoin'in 2026'da Kraken'deki günlük kapanışını gösteren çizgi grafik: ARK'ın CoinDesk 20 ETF'leri için başvurduğu 23 Ocak'ta yaklaşık 89.495 $, SEC'ten bunları geri çekmeyi istediği 20 Kasım'da yaklaşık 58.806 $",
+      "id": "Grafik garis harga penutupan harian bitcoin di Kraken pada 2026: sekitar US$89.495 pada 23 Januari, saat ARK mendaftarkan ETF CoinDesk 20, dan sekitar US$58.806 pada 20 November, saat ARK meminta SEC menariknya",
+      "ja": "2026年のクラーケンにおけるビットコイン日次終値の折れ線グラフ：ARKがCoinDesk 20 ETFを申請した1月23日は約89,495ドル、SECに取り下げを求めた11月20日は約58,806ドル",
+      "ko": "2026년 크라켄 비트코인 일일 종가 선 차트: ARK가 코인데스크 20 ETF를 신청한 1월 23일 약 89,495달러, SEC에 철회를 요청한 11월 20일 약 58,806달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken",
+      "es": "Gráfico: PlainBTC, datos: Kraken",
+      "pt": "Gráfico: PlainBTC, dados: Kraken",
+      "fr": "Graphique : PlainBTC, données : Kraken",
+      "de": "Chart: PlainBTC, Daten: Kraken",
+      "ru": "График: PlainBTC, данные: Kraken",
+      "tr": "Grafik: PlainBTC, veri: Kraken",
+      "id": "Grafik: PlainBTC, data: Kraken",
+      "ja": "チャート: PlainBTC、データ: Kraken",
+      "ko": "차트: PlainBTC, 데이터: Kraken"
+    }
+  },
+  {
+    "id": "compare",
+    "file": "compare-ark-two-coindesk-20-funds.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "compare",
+    "alt": {
+      "en": "Comparison of the two ARK funds that will not launch: the full-index fund would have followed the CoinDesk 20 through index futures; the ex-Bitcoin fund would have added short CME bitcoin futures to strip out bitcoin. Neither became effective or sold shares",
+      "es": "Comparación de los dos fondos de ARK que no se lanzarán: el fondo del índice completo habría seguido el CoinDesk 20 con futuros sobre el índice; el fondo sin bitcoin habría añadido futuros cortos de bitcoin de CME para quitar el bitcoin. Ninguno entró en vigor ni vendió acciones",
+      "pt": "Comparação dos dois fundos da ARK que não serão lançados: o fundo do índice completo seguiria o CoinDesk 20 com futuros do índice; o fundo sem bitcoin acrescentaria futuros vendidos de bitcoin da CME para tirar o bitcoin. Nenhum entrou em vigor nem vendeu cotas",
+      "fr": "Comparaison des deux fonds d'ARK qui ne verront pas le jour : le fonds sur l'indice complet aurait suivi le CoinDesk 20 via des contrats à terme sur l'indice ; le fonds hors bitcoin y aurait ajouté des positions vendeuses sur les contrats à terme bitcoin du CME pour retirer le bitcoin. Aucun n'est entré en vigueur ni n'a vendu de parts",
+      "de": "Vergleich der zwei ARK-Fonds, die nicht starten: Der Gesamtindex-Fonds hätte den CoinDesk 20 über Indexfutures abgebildet; der Ex-Bitcoin-Fonds hätte zusätzlich CME-Bitcoin-Futures leerverkauft, um Bitcoin herauszurechnen. Keiner wurde wirksam oder verkaufte Anteile",
+      "ru": "Сравнение двух фондов ARK, которые не будут запущены: фонд на полный индекс следовал бы за CoinDesk 20 через фьючерсы на индекс; фонд без биткоина добавлял бы короткие позиции по биткоин-фьючерсам CME, чтобы убрать биткоин. Ни один не вступил в силу и не продал ни одной акции",
+      "tr": "Piyasaya çıkmayacak iki ARK fonunun karşılaştırması: tam endeks fonu CoinDesk 20'yi endeks vadelileriyle izleyecekti; bitcoin hariç fon ise bitcoini çıkarmak için CME bitcoin vadelilerinde kısa pozisyon ekleyecekti. Hiçbiri yürürlüğe girmedi, hisse satmadı",
+      "id": "Perbandingan dua dana ARK yang batal diluncurkan: dana indeks penuh akan mengikuti CoinDesk 20 lewat kontrak berjangka indeks; dana tanpa bitcoin akan menambah posisi short kontrak berjangka bitcoin CME untuk menghapus bitcoin. Keduanya tidak pernah efektif dan tidak menjual saham",
+      "ja": "立ち上げられないARKの2本のファンドの比較：全指数型はCoinDesk 20を指数先物で追う設計、ビットコイン除外型はさらにCMEビットコイン先物を売り建ててビットコイン分を除く設計。どちらも登録は発効せず、株式も販売されていない",
+      "ko": "출시되지 않을 ARK 펀드 2종 비교: 전체 지수 펀드는 지수 선물로 코인데스크 20을 추종하고, 비트코인 제외 펀드는 CME 비트코인 선물 매도를 더해 비트코인을 제외할 계획이었다. 둘 다 효력이 발생하지 않았고 주식도 판매되지 않았다"
+    },
+    "caption": {
+      "en": "Source: ARK Form RW filings (SEC EDGAR), CoinDesk",
+      "es": "Fuente: ARK Form RW filings (SEC EDGAR), CoinDesk",
+      "pt": "Fonte: ARK Form RW filings (SEC EDGAR), CoinDesk",
+      "fr": "Source : ARK Form RW filings (SEC EDGAR), CoinDesk",
+      "de": "Quelle: ARK Form RW filings (SEC EDGAR), CoinDesk",
+      "ru": "Источник: ARK Form RW filings (SEC EDGAR), CoinDesk",
+      "tr": "Kaynak: ARK Form RW filings (SEC EDGAR), CoinDesk",
+      "id": "Sumber: ARK Form RW filings (SEC EDGAR), CoinDesk",
+      "ja": "出典: ARK Form RW filings (SEC EDGAR), CoinDesk",
+      "ko": "출처: ARK Form RW filings (SEC EDGAR), CoinDesk"
+    }
+  }
+]

@@ -1,0 +1,61 @@
+title: Binance, 6,3 milyar dolarlık saldırının ardından güvenliğini Mandiant, SlowMist ve Verichains'e inceletiyor
+page_title: Binance güvenliğini 3 dış firmaya inceletiyor
+description: Binance, hackerların yaklaşık 6,3 milyar dolar çalmasından neredeyse dört hafta sonra güvenlik prosedürlerini bağımsız olarak incelemeleri için Mandiant, SlowMist ve Verichains ile anlaştı. Henüz bulgu yok. Sade bir dille anlatıyoruz.
+og_description: Binance, 29 Ekim saldırısının ardından sistemlerini incelemek üzere üç dış güvenlik firmasını, Google Cloud bünyesindeki Mandiant'ı, SlowMist'i ve Verichains'i görevlendirdi. Borsa bulgulara göre hareket edeceğini söylüyor, ancak bir takvim vermedi ve sonuçları yayımlama sözü de vermedi.
+label: Güvenlik
+summary: Binance, yaklaşık 6,3 milyar dolarlık 29 Ekim saldırısının ardından prosedürlerini incelemeleri için üç dış güvenlik firmasıyla, Mandiant, SlowMist ve Verichains ile anlaştı. Bulgulara göre hareket edeceğini söylüyor, ancak incelemelerin ne zaman biteceğini ya da sonuçların açıklanıp açıklanmayacağını belirtmedi.
+===
+
+Dünyanın en büyük kripto borsası Binance, kilitlerini dışarıdan uzmanlara kontrol ettiriyor. Şirket 23 Kasım pazartesi günü, güvenlik prosedürlerinin "kapsamlı ve bağımsız incelemelerini" yapmaları için <strong>üç bağımsız siber güvenlik firmasıyla</strong>, Mandiant, SlowMist ve Verichains ile anlaştığını açıkladı. Bu bilgi bir [Binance blog yazısında](L1) ve bir [basın bülteninde](L2) yer aldı.
+
+Bu adım, hackerların 29 Ekim'de borsadan yaklaşık <strong>6,3 milyar dolar</strong> çalmasından neredeyse dört hafta sonra geldi. [Reuters](L3) bu hırsızlığı rekor bir soygun olarak nitelendiriyor. Binance, incelemelerin mevcut güvenlik altyapısını "doğrulayacağını" ve güvenlik duruşunu "ileriye dönük" olarak değerlendireceğini söyledi. Pazartesi günkü haberin bulgularla değil, firmaların görevlendirilmesiyle ilgili olduğunu vurguladı.
+
+!takeaways
+- Binance, güvenlik prosedürlerini bağımsız olarak incelemeleri için Mandiant, SlowMist ve Verichains ile anlaştı.
+- Borsa, firmaların bulgularına göre hareket edeceğini söylüyor, ancak bir bitiş tarihi vermedi.
+- Binance bulguları yayımlayıp yayımlamayacağını açıklamadı.
+- İnceleme, yaklaşık 6,3 milyar dolarlık 29 Ekim saldırısının ardından geliyor. Binance bu kaybı kendi kasasından 6,34 milyar doları aşan tutarla karşıladığını söylüyor.
+
+!figure:timeline
+
+## Üç firma kim
+
+Her firma sorunun farklı bir kısmını üstleniyor. Google Cloud'un parçası olan <strong>Mandiant</strong> en çok olay müdahalesiyle tanınıyor: Bir şirketin, saldırganların içeri nasıl girdiğini bulmak için bir sızmanın ardından çağırdığı ekip. Binance, firmanın devletlerin ve diğer gelişmiş hackerların saldırılarını araştırmada yirmi yılı aşkın deneyimi olduğunu söylüyor.
+
+2018'de kurulan <strong>SlowMist</strong>, blokzincir güvenliği ve tehdit istihbaratına odaklanıyor; yani zincir üzerindeki cüzdanları, işlemleri ve bilinen hacker gruplarını takip ediyor. <strong>Verichains</strong> ise saldırı odaklı güvenlik araştırması yapıyor: Bir saldırgan gibi düşünüp sistemlerdeki zayıf noktaları arıyor. Binance, firmanın Web3'teki en büyük olaylardan bazılarının araştırılmasına yardım ettiğini söylüyor.
+
+Binance Güvenlik Direktörü Jimmy Su, "Güvenlik prosedürlerimizi bağımsız olarak incelemeleri için alandaki en saygın üç firmayla anlaştık" dedi. "Sistemlerimizi inceleyip nerede daha güçlü olabileceğimizi söyleyecekler. Bulduklarına göre harekete geçmeye kararlıyız." Eş CEO Richard Teng ise kullanıcı varlıklarının güvenliğinin şirketin "ilk sorumluluğu" olduğunu söyledi.
+
+## Neden şimdi
+
+29 Ekim saldırısı, Binance'in sıcak cüzdanlarını, yani bir borsanın günlük para çekme işlemlerini yürütmek için kullandığı çevrimiçi cüzdanları vurdu. [CoinDesk'in aktardığına](L4) göre Binance para çekme işlemlerini durdurdu ve 1 Kasım'dan itibaren bitcoinle başlayarak aşamalı olarak yeniden açmaya başladı. [Bitcoin Magazine'e](L5) göre Binance 12 Kasım'da, etkilenen varlıkları şirket kaynaklarından 6,34 milyar doları aşan tutarla karşılamayı tamamladığını açıkladı.
+
+ABD Adalet Bakanlığı hırsızlıktan Kuzey Koreli hackerları sorumlu tuttu ve 12 Kasım'daki [açıklamasında](L7), devlet ve özel sektörün çabalarıyla çalınan paranın 2,7 milyar dolardan fazlasının dondurulduğunu bildirdi. Kuzey Kore suçlamaları reddediyor. [Crypto Briefing](L6), saldırının sosyal mühendisliğe, yani kod kırmak yerine insanları kandırmaya dayandığını ve Binance'e göre çalınan fonların yaklaşık 2,85 milyar dolarının dondurulduğunu ya da durdurulduğunu bildirdi.
+
+!mid_cta
+
+!figure:fact
+
+## Henüz bilmediklerimiz
+
+Binance'in duyurusu birçok soruyu yanıtsız bırakıyor. İncelemeler için bir takvim vermedi, her firmanın hangi sistemleri inceleyeceğini açıklamadı ve raporların, hatta kısa özetlerin bile kamuya açıklanıp açıklanmayacağını söylemedi. Duyuru, ekim ayındaki saldırıdan doğrudan söz etmiyor.
+
+Şirket, neden dışarıdan bir kontrol istediğini ise açıkladı. Blog yazısında "Her şirket kendi güvenliğini güçlü diye tanımlayabilir" denildi ve Binance kullanıcılardan "bize daha fazlasını emanet etmelerini" istedikçe bu güvenin "kendi değerlendirmemizden fazlasına dayanması gerektiği" eklendi.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Coinlerinizi herhangi bir borsada tuttuğunuzda anahtarlar borsadadır ve onun güvenliğine güvenirsiniz. Dış bir inceleme zayıf noktaları bulmaya yardımcı olabilir, ancak yeni bir saldırı olmayacağını garanti etmez. Binance bu kez çalınan fonları kendi rezervlerinden karşıladı, ama hiçbir borsa bunu her durumda yapacağına söz veremez.
+
+İlk bitcoininizi nereden alacağınızı seçiyorsanız, ülkenizde lisanslı olan ve müşteri fonlarını nasıl sakladığını açıklayan bir borsa arayın. [Coinbase](REF) gibi büyük düzenlenmiş platformlar güvenlikleri hakkında ayrıntı yayımlıyor. Pek çok kişi büyük tutarları kendi kontrolündeki kişisel bir cüzdana taşıyor. Yalnızca kaybetmeyi göze alabileceğiniz parayla yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Binance'in üç incelemenin bulgularını ya da özetlerini yayımlayıp yayımlamayacağı ve ne zaman yayımlayacağı.
+- Binance'in incelemelerden sonra hangi güvenlik değişikliklerini yapacağı.
+- Kalan çalıntı paranın ne kadarının hâlâ dondurulabileceği ya da geri alınabileceği.
+
+!soft: Coinleri borsada bırakmakla kendiniz saklamak arasındaki farkı öğrenin: [Kripto cüzdan nedir?](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

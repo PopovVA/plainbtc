@@ -1,0 +1,61 @@
+title: Binance holt Mandiant, SlowMist und Verichains für eine Sicherheitsprüfung nach dem 6,3-Milliarden-Dollar-Hack
+page_title: Binance lässt Sicherheit von 3 externen Firmen prüfen
+description: Binance hat Mandiant, SlowMist und Verichains beauftragt, seine Sicherheitsverfahren unabhängig zu prüfen, fast vier Wochen nachdem Hacker rund 6,3 Mrd. $ erbeutet hatten. Ergebnisse gibt es noch nicht. Einfach erklärt.
+og_description: Binance hat drei externe Sicherheitsfirmen, Mandiant (Google Cloud), SlowMist und Verichains, mit der Prüfung seiner Systeme nach dem Hack vom 29. Oktober beauftragt. Die Börse will auf die Ergebnisse reagieren, nennt aber weder einen Zeitplan noch verspricht sie eine Veröffentlichung.
+label: Sicherheit
+summary: Binance hat drei externe Sicherheitsfirmen, Mandiant, SlowMist und Verichains, mit der Prüfung seiner Verfahren nach dem Hack vom 29. Oktober über rund 6,3 Mrd. $ beauftragt. Die Börse will auf die Ergebnisse reagieren, sagt aber nicht, wann die Prüfungen enden oder ob die Ergebnisse veröffentlicht werden.
+===
+
+Binance, die größte Kryptobörse der Welt, lässt ihre Schlösser von außen prüfen. Am Montag, 23. November, teilte das Unternehmen mit, dass es <strong>drei unabhängige Cybersicherheitsfirmen</strong>, Mandiant, SlowMist und Verichains, mit „umfassenden, unabhängigen Prüfungen“ seiner Sicherheitsverfahren beauftragt hat, wie ein [Blogbeitrag von Binance](L1) und eine [Pressemitteilung](L2) zeigen.
+
+Der Schritt kommt fast vier Wochen, nachdem Hacker am 29. Oktober rund <strong>6,3 Mrd. $</strong> von der Börse erbeutet hatten, ein Diebstahl, den [Reuters](L3) als Rekordraub bezeichnet. Binance erklärte, die Prüfungen sollen die aktuelle Sicherheitsinfrastruktur „validieren“ und die Sicherheitslage „für die Zukunft“ bewerten. Die Börse betonte, dass es am Montag um die Beauftragung der Firmen geht, nicht um Ergebnisse.
+
+!takeaways
+- Binance hat Mandiant, SlowMist und Verichains mit einer unabhängigen Prüfung seiner Sicherheitsverfahren beauftragt.
+- Die Börse will auf die Ergebnisse der Firmen reagieren, nennt aber kein Enddatum.
+- Binance hat nicht gesagt, ob die Ergebnisse veröffentlicht werden.
+- Die Prüfung folgt auf den Hack vom 29. Oktober über rund 6,3 Mrd. $, den Binance nach eigenen Angaben mit mehr als 6,34 Mrd. $ aus eigenen Mitteln gedeckt hat.
+
+!figure:timeline
+
+## Wer die drei Firmen sind
+
+Jede Firma deckt einen anderen Teil des Problems ab. <strong>Mandiant</strong>, Teil von Google Cloud, ist vor allem für Incident Response bekannt: das Team, das ein Unternehmen nach einem Einbruch ruft, um herauszufinden, wie die Angreifer hineingekommen sind. Laut Binance hat Mandiant mehr als zwei Jahrzehnte Erfahrung mit der Aufklärung von Angriffen durch Staaten und andere hochentwickelte Hacker.
+
+<strong>SlowMist</strong>, 2018 gegründet, konzentriert sich auf Blockchain-Sicherheit und Bedrohungsanalyse, verfolgt also Wallets, Transaktionen und bekannte Hackergruppen auf der Blockchain. <strong>Verichains</strong> betreibt offensive Sicherheitsforschung: Die Firma denkt wie ein Angreifer und testet Systeme auf Schwachstellen. Laut Binance hat sie bei der Aufklärung einiger der größten Vorfälle im Web3 geholfen.
+
+„Wir haben drei der angesehensten Firmen der Branche beauftragt, unsere Sicherheitsverfahren unabhängig zu prüfen“, sagte Binance-Sicherheitschef Jimmy Su. „Sie werden unsere Systeme prüfen und uns sagen, wo wir stärker werden können. Wir verpflichten uns, auf ihre Ergebnisse zu reagieren.“ Co-CEO Richard Teng nannte die Sicherheit der Nutzergelder die „erste Verantwortung“ des Unternehmens.
+
+## Warum gerade jetzt
+
+Der Angriff vom 29. Oktober traf die Hot Wallets von Binance, also die Online-Wallets, über die eine Börse alltägliche Auszahlungen abwickelt. Binance stoppte die Auszahlungen und öffnete sie ab dem 1. November schrittweise wieder, zuerst für Bitcoin, wie [CoinDesk berichtete](L4). Am 12. November erklärte Binance laut [Bitcoin Magazine](L5), die betroffenen Vermögenswerte mit mehr als 6,34 Mrd. $ aus Firmenmitteln vollständig gedeckt zu haben.
+
+Das US-Justizministerium macht nordkoreanische Hacker für den Diebstahl verantwortlich und teilte am 12. November mit, dass durch staatliche und private Bemühungen mehr als 2,7 Mrd. $ des gestohlenen Geldes eingefroren wurden, wie aus seiner [Mitteilung](L7) hervorgeht. Nordkorea bestreitet jede Beteiligung. [Crypto Briefing](L6) berichtete, der Angriff habe auf Social Engineering beruht, also auf der Täuschung von Menschen statt dem Knacken von Code, und Binance zufolge seien rund 2,85 Mrd. $ der gestohlenen Gelder eingefroren oder abgefangen worden.
+
+!mid_cta
+
+!figure:fact
+
+## Was wir noch nicht wissen
+
+Die Ankündigung von Binance lässt mehrere Fragen offen. Sie nennt keinen Zeitplan für die Prüfungen, erklärt nicht, welche Systeme jede Firma untersucht, und sagt nicht, ob die Berichte oder wenigstens kurze Zusammenfassungen veröffentlicht werden. Die Ankündigung erwähnt den Hack vom Oktober nicht direkt.
+
+Warum Binance einen Blick von außen will, erklärt das Unternehmen dagegen. „Jedes Unternehmen kann seine eigene Sicherheit als stark beschreiben“, heißt es im Blogbeitrag. Da Binance die Nutzer bitte, „uns mehr anzuvertrauen“, solle dieses Vertrauen „auf mehr beruhen als auf unserer eigenen Einschätzung“.
+
+## Was das für Einsteiger bedeutet
+
+Wer Coins auf einer Börse liegen lässt, überlässt der Börse die Schlüssel und verlässt sich auf ihre Sicherheit. Eine externe Prüfung kann helfen, Schwachstellen zu finden, ist aber keine Garantie, dass es keinen weiteren Hack gibt. Diesmal hat Binance das gestohlene Geld aus eigenen Reserven ersetzt, doch keine Börse kann versprechen, das in jedem Fall zu tun.
+
+Wenn Sie überlegen, wo Sie Ihren ersten Bitcoin kaufen, achten Sie auf eine Börse, die in Ihrem Land zugelassen ist und erklärt, wie sie Kundengelder verwahrt. Große regulierte Plattformen wie [Coinbase](REF) veröffentlichen Angaben zu ihrer Sicherheit. Viele Menschen übertragen größere Beträge auf eine eigene Wallet, die sie selbst kontrollieren. Investieren Sie nur Geld, dessen Verlust Sie verkraften können. Dies ist keine Anlageberatung.
+
+## Worauf man jetzt achten sollte
+
+- Ob und wann Binance Ergebnisse oder Zusammenfassungen der drei Prüfungen veröffentlicht.
+- Welche Sicherheitsänderungen Binance nach den Prüfungen umsetzt.
+- Wie viel des restlichen gestohlenen Geldes Ermittler noch einfrieren oder zurückholen können.
+
+!soft: Der Unterschied zwischen Coins auf der Börse und Coins in eigener Verwahrung: [Was ist eine Krypto-Wallet?](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

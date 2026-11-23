@@ -1,0 +1,61 @@
+title: Binance menunjuk Mandiant, SlowMist, dan Verichains untuk memeriksa keamanannya setelah peretasan US$6,3 miliar
+page_title: Binance menunjuk 3 perusahaan luar untuk meninjau keamanannya
+description: Binance menunjuk Mandiant, SlowMist, dan Verichains untuk meninjau prosedur keamanannya secara independen, hampir empat pekan setelah peretas mengambil sekitar US$6,3 miliar. Belum ada temuan. Penjelasan dengan bahasa sederhana.
+og_description: Binance mendatangkan tiga perusahaan keamanan luar, Mandiant (Google Cloud), SlowMist, dan Verichains, untuk meninjau sistemnya setelah peretasan 29 Oktober. Bursa itu berjanji menindaklanjuti temuan mereka, tetapi tidak memberi jadwal dan tidak berjanji memublikasikan hasilnya.
+label: Keamanan
+summary: Binance menunjuk tiga perusahaan keamanan luar, Mandiant, SlowMist, dan Verichains, untuk meninjau prosedurnya setelah peretasan 29 Oktober senilai sekitar US$6,3 miliar. Binance berjanji menindaklanjuti temuan mereka, tetapi belum menyebut kapan tinjauan selesai atau apakah hasilnya akan dipublikasikan.
+===
+
+Binance, bursa kripto terbesar di dunia, meminta pihak luar memeriksa kuncinya. Pada Senin, 23 November, perusahaan itu mengatakan telah menunjuk <strong>tiga perusahaan keamanan siber independen</strong>, Mandiant, SlowMist, dan Verichains, untuk melakukan "tinjauan menyeluruh dan independen" atas prosedur keamanannya, menurut [unggahan blog Binance](L1) dan [siaran pers](L2).
+
+Langkah ini datang hampir empat pekan setelah peretas mengambil sekitar <strong>US$6,3 miliar</strong> dari bursa itu pada 29 Oktober, pencurian yang disebut [Reuters](L3) sebagai rekor. Binance mengatakan tinjauan itu akan "memvalidasi" infrastruktur keamanannya saat ini dan menilai postur keamanannya "ke depan". Binance menegaskan bahwa berita Senin ini tentang penunjukan perusahaan, bukan tentang hasil apa pun.
+
+!takeaways
+- Binance menunjuk Mandiant, SlowMist, dan Verichains untuk meninjau prosedur keamanannya secara independen.
+- Bursa itu berjanji menindaklanjuti temuan mereka, tetapi tidak memberi tanggal selesai.
+- Binance belum mengatakan apakah akan memublikasikan temuan tersebut.
+- Tinjauan ini menyusul peretasan 29 Oktober senilai sekitar US$6,3 miliar, yang menurut Binance telah ditutup dengan lebih dari US$6,34 miliar dana sendiri.
+
+!figure:timeline
+
+## Siapa ketiga perusahaan itu
+
+Setiap perusahaan menangani bagian masalah yang berbeda. <strong>Mandiant</strong>, bagian dari Google Cloud, paling dikenal di bidang respons insiden: tim yang dipanggil perusahaan setelah pembobolan untuk mencari tahu bagaimana penyerang masuk. Menurut Binance, Mandiant punya pengalaman lebih dari dua dekade menyelidiki serangan oleh negara dan peretas canggih lainnya.
+
+<strong>SlowMist</strong>, didirikan pada 2018, berfokus pada keamanan blockchain dan intelijen ancaman, artinya melacak dompet, transaksi, dan kelompok peretas yang dikenal di jaringan. <strong>Verichains</strong> melakukan riset keamanan ofensif: berpikir seperti penyerang dan menguji sistem untuk mencari titik lemah. Binance mengatakan Verichains pernah membantu menyelidiki sejumlah insiden terbesar di Web3.
+
+"Kami telah menunjuk tiga perusahaan paling dihormati di bidang ini untuk meninjau prosedur keamanan kami secara independen," kata Kepala Keamanan Binance Jimmy Su. "Mereka akan meninjau sistem kami dan memberi tahu di mana kami bisa lebih kuat. Kami berkomitmen menindaklanjuti temuan mereka." Co-CEO Richard Teng mengatakan keamanan aset pengguna adalah "tanggung jawab pertama" perusahaan.
+
+## Mengapa sekarang
+
+Serangan 29 Oktober menyasar hot wallet Binance, yaitu dompet online yang dipakai bursa untuk memproses penarikan sehari-hari. Binance menghentikan penarikan lalu mulai membukanya kembali secara bertahap pada 1 November, dimulai dari bitcoin, [lapor CoinDesk](L4). Pada 12 November, Binance mengatakan telah selesai menutup aset yang terdampak dengan lebih dari US$6,34 miliar dana perusahaan, menurut [Bitcoin Magazine](L5).
+
+Departemen Kehakiman AS menyalahkan peretas Korea Utara atas pencurian itu dan pada 12 November mengatakan lebih dari US$2,7 miliar uang curian telah dibekukan berkat upaya pemerintah dan swasta, menurut [pengumumannya](L7). Korea Utara membantah terlibat. [Crypto Briefing](L6) melaporkan bahwa serangan itu mengandalkan rekayasa sosial, yaitu menipu orang alih-alih membobol kode, dan bahwa menurut Binance sekitar US$2,85 miliar dana curian telah dibekukan atau dicegat.
+
+!mid_cta
+
+!figure:fact
+
+## Yang belum kita ketahui
+
+Pengumuman Binance menyisakan sejumlah pertanyaan. Binance tidak memberi jadwal tinjauan, tidak menjelaskan sistem mana yang akan diperiksa tiap perusahaan, dan tidak mengatakan apakah laporan, atau setidaknya ringkasan singkat, akan dipublikasikan. Pengumuman itu tidak menyebut peretasan Oktober secara langsung.
+
+Perusahaan itu menjelaskan mengapa ingin pemeriksaan dari luar. "Perusahaan mana pun bisa menyebut keamanannya sendiri kuat," tulis unggahan blog itu, seraya menambahkan bahwa karena Binance meminta pengguna "memercayakan lebih banyak kepada kami", kepercayaan itu "harus berdasar pada lebih dari penilaian kami sendiri".
+
+## Apa artinya bagi pemula
+
+Saat Anda menyimpan koin di bursa mana pun, bursa itulah yang memegang kuncinya, dan Anda bergantung pada keamanannya. Tinjauan dari luar bisa membantu menemukan titik lemah, tetapi tidak menjamin peretasan tidak akan terulang. Kali ini Binance mengganti dana curian dari cadangannya sendiri, tetapi tidak ada bursa yang bisa berjanji melakukannya dalam setiap kasus.
+
+Jika Anda sedang memilih tempat membeli bitcoin pertama, carilah bursa yang berizin di negara Anda dan menjelaskan cara menyimpan dana nasabah. Platform besar yang teregulasi seperti [Coinbase](REF) memublikasikan detail tentang keamanannya. Banyak orang memindahkan jumlah besar ke dompet pribadi yang mereka kendalikan. Investasikan hanya uang yang sanggup Anda relakan hilang. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Apakah dan kapan Binance memublikasikan temuan atau ringkasan dari ketiga tinjauan.
+- Perubahan keamanan apa yang dilakukan Binance setelah tinjauan.
+- Berapa banyak sisa uang curian yang masih bisa dibekukan atau dipulihkan penyidik.
+
+!soft: Pahami bedanya menyimpan koin di bursa dan menyimpannya sendiri: [Apa itu dompet kripto?](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

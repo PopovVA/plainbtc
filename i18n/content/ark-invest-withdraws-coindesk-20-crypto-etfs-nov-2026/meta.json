@@ -1,0 +1,22 @@
+{
+ "slug": "ark-invest-withdraws-coindesk-20-crypto-etfs-nov-2026",
+ "date": "2026-11-23",
+ "readtime": 4,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-etfs-1-79-billion-weekly-outflow-fourth-week-nov-2026",
+  "sec-backs-cftc-stock-perps-crypto-etf-options-nov-2026",
+  "blackrock-ibit-record-541-million-outflow-nov-2026",
+  "goldman-wells-fargo-double-bitcoin-etf-holdings-13f-nov-2026",
+  "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026",
+  "bitcoin-etf-vs-buying-bitcoin"
+ ],
+ "sources": [
+  {"url": "https://www.sec.gov/Archives/edgar/data/2106116/000121390026122577/ea0313104-01_rw.htm", "title": "SEC EDGAR: ARK Investment Management Form RW, ARK CoinDesk 20 Crypto ETF (File No. 333-292914)", "date": "Nov 20, 2026"},
+  {"url": "https://www.sec.gov/Archives/edgar/data/2105930/000121390026122580/ea0313104-02_rw.htm", "title": "SEC EDGAR: ARK Investment Management Form RW, ARK CoinDesk 20 ex-Bitcoin Crypto ETF (File No. 333-292915)", "date": "Nov 20, 2026"},
+  {"url": "https://www.coindesk.com/business/2026/11/23/cathie-wood-s-ark-invest-pulls-the-plug-on-two-planned-crypto-etfs", "title": "CoinDesk: Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs", "date": "Nov 23, 2026"},
+  {"url": "https://cryptobriefing.com/ark-withdraws-coindesk-20-crypto-etfs/", "title": "Crypto Briefing: ARK withdraws plans for CoinDesk 20 and ex-Bitcoin ETF products", "date": "Nov 21, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: public BTC/USD price data (OHLC)", "date": "Nov 23, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

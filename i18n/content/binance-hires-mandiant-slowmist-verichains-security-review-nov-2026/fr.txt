@@ -1,0 +1,61 @@
+title: Binance fait appel à Mandiant, SlowMist et Verichains pour auditer sa sécurité après le piratage de 6,3 milliards de dollars
+page_title: Binance engage 3 cabinets extérieurs pour auditer sa sécurité
+description: Binance a engagé Mandiant, SlowMist et Verichains pour examiner de façon indépendante ses procédures de sécurité, près de quatre semaines après le vol d'environ 6,3 milliards de dollars par des pirates. Pas encore de résultats. On vous explique simplement.
+og_description: Binance a fait appel à trois cabinets de sécurité extérieurs, Mandiant (Google Cloud), SlowMist et Verichains, pour examiner ses systèmes après le piratage du 29 octobre. La plateforme promet d'agir sur leurs conclusions, mais sans calendrier ni engagement à les publier.
+label: Sécurité
+summary: Binance a engagé trois cabinets de sécurité extérieurs, Mandiant, SlowMist et Verichains, pour examiner ses procédures après le piratage du 29 octobre, d'environ 6,3 milliards de dollars. Elle dit qu'elle agira sur leurs conclusions, sans préciser quand les audits se termineront ni si les résultats seront publiés.
+===
+
+Binance, la plus grande plateforme d'échange de cryptomonnaies au monde, demande à des experts extérieurs de vérifier ses serrures. Le lundi 23 novembre, l'entreprise a annoncé avoir engagé <strong>trois cabinets indépendants de cybersécurité</strong>, Mandiant, SlowMist et Verichains, pour mener des « examens complets et indépendants » de ses procédures de sécurité, selon un [billet de blog de Binance](L1) et un [communiqué de presse](L2).
+
+Cette décision intervient près de quatre semaines après que des pirates ont dérobé environ <strong>6,3 milliards de dollars</strong> à la plateforme le 29 octobre, un vol que [Reuters](L3) qualifie de record. Binance indique que ces examens « valideront » son dispositif de sécurité actuel et évalueront sa posture de sécurité « pour l'avenir ». Elle a souligné que l'annonce de lundi porte sur l'engagement des cabinets, pas sur des résultats.
+
+!takeaways
+- Binance a engagé Mandiant, SlowMist et Verichains pour examiner de façon indépendante ses procédures de sécurité.
+- La plateforme dit qu'elle agira sur ce que trouveront les cabinets, mais n'a donné aucune date de fin.
+- Binance n'a pas dit si elle publiera les conclusions.
+- L'audit fait suite au piratage du 29 octobre, d'environ 6,3 milliards de dollars, que Binance dit avoir couvert avec plus de 6,34 milliards de dollars de ses propres fonds.
+
+!figure:timeline
+
+## Qui sont les trois cabinets
+
+Chaque cabinet couvre une partie différente du problème. <strong>Mandiant</strong>, filiale de Google Cloud, est surtout connu pour la réponse aux incidents : l'équipe qu'une entreprise appelle après une intrusion pour comprendre comment les attaquants sont entrés. Binance indique qu'il cumule plus de vingt ans d'expérience dans l'enquête sur des attaques menées par des États et d'autres pirates avancés.
+
+<strong>SlowMist</strong>, fondé en 2018, se concentre sur la sécurité blockchain et le renseignement sur les menaces : il suit les portefeuilles, les transactions et les groupes de pirates connus sur la chaîne. <strong>Verichains</strong> fait de la recherche en sécurité offensive : il pense comme un attaquant et teste les systèmes pour y trouver des failles. Binance dit qu'il a aidé à enquêter sur certains des plus gros incidents du Web3.
+
+« Nous avons engagé trois des cabinets les plus respectés du secteur pour examiner de façon indépendante nos procédures de sécurité », a déclaré Jimmy Su, responsable de la sécurité de Binance. « Ils examineront nos systèmes et nous diront où nous pouvons être plus solides. Nous nous engageons à agir sur ce qu'ils trouveront. » Le co-PDG Richard Teng a déclaré que la sécurité des actifs des utilisateurs est la « première responsabilité » de l'entreprise.
+
+## Pourquoi maintenant
+
+L'attaque du 29 octobre a visé les hot wallets de Binance, les portefeuilles en ligne qu'une plateforme utilise pour traiter les retraits courants. Binance a suspendu les retraits puis a commencé à les rouvrir par étapes le 1er novembre, en commençant par le bitcoin, selon [CoinDesk](L4). Le 12 novembre, Binance a annoncé avoir fini de couvrir les actifs touchés avec plus de 6,34 milliards de dollars de fonds de l'entreprise, selon [Bitcoin Magazine](L5).
+
+Le département américain de la Justice attribue le vol à des pirates nord-coréens et a indiqué le 12 novembre que plus de 2,7 milliards de dollars de l'argent volé avaient été gelés grâce aux efforts publics et privés, selon son [communiqué](L7). La Corée du Nord dément toute implication. [Crypto Briefing](L6) rapporte que l'attaque reposait sur l'ingénierie sociale, c'est-à-dire la manipulation de personnes plutôt que le cassage de code, et que Binance dit qu'environ 2,85 milliards de dollars des fonds volés ont été gelés ou interceptés.
+
+!mid_cta
+
+!figure:fact
+
+## Ce que l'on ne sait pas encore
+
+L'annonce de Binance laisse plusieurs questions ouvertes. Elle ne donne pas de calendrier pour les examens, ne précise pas quels systèmes chaque cabinet étudiera et ne dit pas si les rapports, ou même de courts résumés, seront rendus publics. L'annonce ne mentionne pas directement le piratage d'octobre.
+
+L'entreprise a en revanche expliqué pourquoi elle veut un regard extérieur. « N'importe quelle entreprise peut décrire sa propre sécurité comme solide », dit le billet de blog, qui ajoute que, puisque Binance demande aux utilisateurs « de nous confier davantage », cette confiance « devrait reposer sur plus que notre propre évaluation ».
+
+## Ce que cela signifie pour les débutants
+
+Quand vous laissez des cryptomonnaies sur une plateforme, c'est elle qui détient les clés, et vous dépendez de sa sécurité. Un audit externe peut aider à repérer des failles, mais il ne garantit pas qu'un piratage ne se reproduira pas. Cette fois, Binance a remplacé les fonds volés avec ses propres réserves, mais aucune plateforme ne peut promettre de le faire à chaque fois.
+
+Si vous cherchez où acheter votre premier bitcoin, privilégiez une plateforme autorisée dans votre pays et qui explique comment elle conserve les fonds de ses clients. Les grandes plateformes réglementées, comme [Coinbase](REF), publient des informations sur leur sécurité. Beaucoup de gens transfèrent les montants importants vers un portefeuille personnel qu'ils contrôlent. N'investissez que l'argent que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil en investissement.
+
+## Ce qu'il faut surveiller
+
+- Si Binance publie des conclusions ou des résumés des trois examens, et quand.
+- Les changements de sécurité que Binance apportera après les examens.
+- La part de l'argent volé restant que les enquêteurs peuvent encore geler ou récupérer.
+
+!soft: Comprenez la différence entre laisser ses cryptos sur une plateforme et les garder soi-même : [Qu'est-ce qu'un portefeuille crypto ?](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

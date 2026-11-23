@@ -1,0 +1,55 @@
+title: ARK Invest membatalkan rencana dua ETF kripto CoinDesk 20 di tengah pasar bearish yang berlarut
+page_title: ARK Invest menarik dua rencana ETF kripto CoinDesk 20
+description: ARK Invest milik Cathie Wood meminta SEC menarik pendaftaran dua ETF indeks kripto yang terkait CoinDesk 20, salah satunya tanpa bitcoin. Tidak satu pun dana itu pernah diluncurkan. Penjelasan dengan bahasa sederhana.
+og_description: ARK Invest meminta SEC menarik dua ETF indeks kripto yang didaftarkannya pada Januari: dana CoinDesk 20 dan versi tanpa bitcoin. Tidak ada saham yang pernah dijual, ARK tidak memberi alasan, dan ETF bitcoin spot miliknya tidak terdampak.
+label: Pasar
+summary: ARK Invest pada 20 November meminta SEC menarik dua rencana ETF kripto yang terkait indeks CoinDesk 20, termasuk versi yang mengecualikan bitcoin. Tidak satu pun dana itu pernah diluncurkan. Bitcoin sudah turun sekitar sepertiga sejak ARK mendaftar pada Januari.
+===
+
+ARK Invest, manajer investasi milik Cathie Wood, mundur dari dua dana kripto sebelum keduanya sampai ke tangan investor. Dalam dua surat bertanggal <strong>Jumat, 20 November</strong>, ARK meminta Komisi Sekuritas dan Bursa AS (SEC) menarik pendaftaran <strong>ARK CoinDesk 20 Crypto ETF</strong> dan <strong>ARK CoinDesk 20 ex-Bitcoin Crypto ETF</strong>, menurut dokumen di basis data EDGAR milik SEC ([dana pertama](L1), [dana kedua](L2)).
+
+ARK pertama kali mendaftarkan kedua dana yang diperdagangkan di bursa (ETF) itu pada 23 Januari 2026. Dalam suratnya, ARK mengatakan "tidak berniat melanjutkan" penjualan saham kedua dana tersebut. ARK juga menegaskan bahwa tidak satu pun pendaftaran itu pernah dinyatakan efektif dan tidak ada saham yang diterbitkan atau dijual. Perusahaan itu tidak memberi alasan, [lapor CoinDesk](L3) pada Senin.
+
+!takeaways
+- ARK mengajukan permohonan Form RW pada 20 November untuk menarik dua ETF indeks kripto yang terkait CoinDesk 20.
+- Tidak satu pun dana itu pernah diluncurkan, jadi tidak ada investor yang memegang sahamnya.
+- ARK tidak memberi alasan. Langkah ini terjadi saat bitcoin diperdagangkan sekitar sepertiga di bawah harganya ketika ARK mendaftar pada Januari.
+- ETF bitcoin spot milik ARK yang sudah ada, ARKB, tidak terdampak.
+
+!figure:chart
+
+## Apa yang direncanakan ARK
+
+CoinDesk 20 adalah indeks berisi 20 kripto besar dan likuid yang tidak mencakup stablecoin dan memecoin. Bobot bitcoin dalam indeks dibatasi 30%, menurut [Crypto Briefing](L4). Bayangkan ini sebagai versi kripto dari reksa dana indeks saham: satu produk yang berisi sekeranjang aset, bukan satu koin saja.
+
+Dana pertama ARK akan mengikuti indeks lewat kontrak berjangka, yaitu perjanjian untuk membeli atau menjual pada harga tertentu di kemudian hari, alih-alih memegang koinnya. Dana kedua juga akan mengambil posisi berlawanan pada kontrak berjangka bitcoin CME untuk menghapus eksposur indeks terhadap bitcoin dan bitcoin cash, kata CoinDesk. Dengan begitu investor akan mendapat sisa pasar kripto berkapitalisasi besar tanpa bitcoin.
+
+## Pasar yang sulit bagi dana indeks kripto
+
+Penarikan ini terjadi di tengah kemerosotan kripto yang dalam. Bitcoin ditutup di sekitar <strong>US$89.495</strong> di Kraken pada 23 Januari, hari ARK mendaftar, dan di sekitar <strong>US$58.806</strong> pada 20 November, hari ARK meminta penarikan, menurut [data harga publik](L5) Kraken. Itu penurunan sekitar 34%. CoinDesk mencatat bitcoin sempat jatuh hingga US$55.130 dalam beberapa hari terakhir. Pada Senin sore, bitcoin diperdagangkan di dekat US$61.470 di Kraken.
+
+Permintaan untuk produk serupa lemah. ProShares CoinDesk 20 Crypto ETF (KRYP), satu-satunya ETF AS yang melacak indeks secara penuh, hanya memiliki aset bersih <strong>US$1,81 juta</strong> hampir 10 bulan setelah diluncurkan pada Februari, lapor CoinDesk. Angka itu turun dari US$4,88 juta pada akhir Mei. WisdomTree sudah menarik usulan dana CoinDesk 20 miliknya pada 6 Januari, sebelum ARK mendaftar.
+
+!mid_cta
+
+!figure:compare
+
+Tidak semua dana keranjang berukuran kecil. Grayscale CoinDesk Crypto 5 ETF (GDLC), yang memegang langsung keranjang koin yang lebih kecil, mengelola aset US$288 juta, menurut CoinDesk. CoinDesk dan CoinDesk Indices, yang mengelola CoinDesk 20, sama-sama bagian dari Bullish.
+
+## Apa artinya bagi pemula
+
+Bagi investor yang sudah ada, dampak langsungnya kecil: tidak ada yang memiliki dana ini karena dana itu tidak pernah diluncurkan. ETF bitcoin spot ARK, ARKB, tetap beroperasi seperti biasa, lapor Crypto Briefing. Berita ini terutama berarti berkurangnya satu pilihan yang sedang disiapkan bagi orang yang ingin eksposur kripto luas lewat rekening efek biasa.
+
+Jika Anda baru mulai, ingat bahwa dana berbasis kontrak berjangka bisa bergerak berbeda dari koinnya sendiri, dan biaya serta ketepatan pelacakan indeks itu penting. Sebagian pemula lebih memilih ETF bitcoin spot, sementara yang lain membeli bitcoin dalam jumlah kecil langsung di bursa besar yang teregulasi seperti [Coinbase](REF). Investasikan hanya uang yang sanggup Anda relakan hilang. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Apakah SEC menyetujui permohonan penarikan ARK, yang merupakan langkah formal berikutnya.
+- Apakah penerbit lain akan menarik lebih banyak pengajuan ETF kripto selama harga tetap rendah.
+- Arus mingguan ke ETF bitcoin spot AS setelah empat pekan berturut-turut mencatat arus keluar.
+
+!soft: Bingung memilih dana atau koinnya langsung? Baca [ETF bitcoin vs. membeli bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

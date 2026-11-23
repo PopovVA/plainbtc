@@ -1,0 +1,55 @@
+title: ARK Invest, ayı piyasası uzarken iki CoinDesk 20 kripto ETF planından vazgeçti
+page_title: ARK Invest, planladığı iki CoinDesk 20 kripto ETF'ini geri çekiyor
+description: Cathie Wood'un ARK Invest şirketi, biri bitcoinsiz olmak üzere CoinDesk 20'ye bağlı iki kripto endeks ETF'i için SEC'ten başvuruların geri çekilmesini istedi. Fonlardan hiçbiri piyasaya çıkmadı. Sade bir dille anlatıyoruz.
+og_description: ARK Invest, ocakta başvurduğu iki kripto endeks ETF'ini, bir CoinDesk 20 fonu ile bitcoinsiz bir versiyonu, SEC'ten geri çekmek istedi. Hiç hisse satılmadı, ARK gerekçe göstermedi ve şirketin spot bitcoin ETF'i bundan etkilenmiyor.
+label: Piyasalar
+summary: ARK Invest 20 Kasım'da, bitcoinsiz bir versiyon da dahil olmak üzere CoinDesk 20 endeksine bağlı iki planlı kripto ETF'i SEC'ten geri çekmek istedi. Fonlardan hiçbiri piyasaya çıkmadı. Bitcoin, ARK'ın ocaktaki başvurusundan bu yana yaklaşık üçte bir değer kaybetti.
+===
+
+Cathie Wood'un ARK Invest şirketi, iki kripto fonundan yatırımcılara ulaşmadan geri adım atıyor. ARK, <strong>20 Kasım cuma</strong> tarihli iki mektupla ABD Menkul Kıymetler ve Borsa Komisyonu'ndan (SEC) <strong>ARK CoinDesk 20 Crypto ETF</strong> ve <strong>ARK CoinDesk 20 ex-Bitcoin Crypto ETF</strong> kayıtlarının geri çekilmesini istedi. Bu bilgi SEC'in EDGAR veri tabanındaki belgelerde yer alıyor ([birinci fon](L1), [ikinci fon](L2)).
+
+ARK, iki borsa yatırım fonu (ETF) için ilk başvurusunu 23 Ocak 2026'da yapmıştı. ARK mektuplarda, iki fonun da hisselerini satmaya "devam etme niyetinde olmadığını" söyledi. Ayrıca kayıtlardan hiçbirinin yürürlüğe girmediğini ve hiçbir hissenin ihraç edilmediğini ya da satılmadığını teyit etti. [CoinDesk'in pazartesi bildirdiğine](L3) göre şirket bir gerekçe göstermedi.
+
+!takeaways
+- ARK, CoinDesk 20'ye bağlı iki kripto endeks ETF'ini geri çekmek için 20 Kasım'da Form RW başvurusu yaptı.
+- Fonlardan hiçbiri piyasaya çıkmadı, bu yüzden hiçbir yatırımcının elinde bu fonların hissesi yok.
+- ARK gerekçe göstermedi. Karar, bitcoinin ARK'ın ocaktaki başvuru günündeki fiyatının yaklaşık üçte bir altında işlem gördüğü bir dönemde geldi.
+- ARK'ın mevcut spot bitcoin ETF'i ARKB bundan etkilenmiyor.
+
+!figure:chart
+
+## ARK ne planlamıştı
+
+CoinDesk 20, stablecoin ve memecoinleri dışarıda bırakan, 20 büyük ve likit kripto paradan oluşan bir endeks. [Crypto Briefing'e](L4) göre bitcoinin endeksteki ağırlığı %30 ile sınırlı. Bunu bir hisse endeks fonunun kripto versiyonu gibi düşünebilirsiniz: tek bir coin yerine bir sepet tutan tek bir ürün.
+
+ARK'ın ilk fonu, coinlerin kendisini tutmak yerine endeksi vadeli işlem sözleşmeleriyle, yani ileri bir tarihte belirli bir fiyattan alım ya da satım anlaşmalarıyla izleyecekti. CoinDesk'e göre ikinci fon ayrıca, endeksin bitcoin ve bitcoin cash maruziyetini sıfırlamak için CME bitcoin vadelilerine karşı pozisyon alacaktı. Böylece yatırımcılar, bitcoin olmadan büyük ölçekli kripto piyasasının geri kalanına erişecekti.
+
+## Kripto endeks fonları için zor bir piyasa
+
+Geri çekilme, derin bir kripto düşüşünün ortasında geldi. Kraken'in [herkese açık fiyat verilerine](L5) göre bitcoin, ARK'ın başvurduğu 23 Ocak'ta Kraken'de yaklaşık <strong>89.495 dolardan</strong>, geri çekilme talep ettiği 20 Kasım'da ise yaklaşık <strong>58.806 dolardan</strong> kapandı. Bu yaklaşık %34'lük bir düşüş demek. CoinDesk, bitcoinin son günlerde 55.130 dolara kadar indiğini belirtti. Bitcoin pazartesi öğleden sonra Kraken'de 61.470 dolar civarında işlem görüyordu.
+
+Benzer ürünlere talep zayıf. CoinDesk'e göre endeksin tamamını izleyen tek ABD ETF'i olan ProShares CoinDesk 20 Crypto ETF'in (KRYP), şubattaki lansmanından neredeyse 10 ay sonra yalnızca <strong>1,81 milyon dolar</strong> net varlığı vardı. Bu rakam mayıs sonunda 4,88 milyon dolardı. WisdomTree de kendi CoinDesk 20 fonu teklifini, ARK başvurmadan önce, 6 Ocak'ta geri çekmişti.
+
+!mid_cta
+
+!figure:compare
+
+Her sepet fonu küçük değil. CoinDesk'e göre daha küçük bir coin sepetini doğrudan tutan Grayscale CoinDesk Crypto 5 ETF (GDLC), 288 milyon dolarlık varlık yönetiyor. CoinDesk ve CoinDesk 20'yi yöneten CoinDesk Indices, Bullish bünyesinde yer alıyor.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Mevcut yatırımcılar için doğrudan etki küçük: Bu fonlar hiç piyasaya çıkmadığı için kimsenin elinde yok. Crypto Briefing'e göre ARK'ın spot bitcoin ETF'i ARKB eskisi gibi çalışmaya devam ediyor. Haber esas olarak, sıradan bir aracı kurum hesabından geniş kripto maruziyeti isteyenler için yolda bir seçeneğin eksildiği anlamına geliyor.
+
+Yeni başlıyorsanız, vadeli işlemlere dayalı fonların coinlerin kendisinden farklı davranabileceğini, ücretlerin ve endeksi izleme kalitesinin önemli olduğunu unutmayın. Bazı yeni başlayanlar spot bitcoin ETF'ini tercih ederken, bazıları da [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsadan doğrudan küçük miktarlarda bitcoin alıyor. Yalnızca kaybetmeyi göze alabileceğiniz parayla yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- SEC'in, bir sonraki resmi adım olan ARK'ın geri çekme taleplerine onay verip vermeyeceği.
+- Fiyatlar düşük kaldıkça başka ihraççıların da kripto ETF başvurularını geri çekip çekmeyeceği.
+- Üst üste dört haftalık çıkışın ardından ABD spot bitcoin ETF'lerine haftalık para akışları.
+
+!soft: Fon mu, yoksa coinin kendisi mi size uygun, emin değil misiniz? [Bitcoin ETF'i mi, bitcoin almak mı?](/articles/bitcoin-etf-vs-buying-bitcoin) yazımızı okuyun
+
+!end_cta
+
+!disclosure

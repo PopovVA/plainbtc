@@ -1,0 +1,55 @@
+title: ARK Invest drops plans for two CoinDesk 20 crypto ETFs as the bear market drags on
+page_title: ARK Invest withdraws two planned CoinDesk 20 crypto ETFs
+description: Cathie Wood's ARK Invest asked the SEC to withdraw two proposed crypto index ETFs tied to the CoinDesk 20, one of them without bitcoin. Neither fund ever launched. What it means, in plain English.
+og_description: ARK Invest has asked the SEC to withdraw two crypto index ETFs it filed for in January, a CoinDesk 20 fund and an ex-bitcoin version. No shares were ever sold, ARK gave no reason, and its spot bitcoin ETF is not affected.
+label: Markets
+summary: ARK Invest asked the SEC on Nov. 20 to withdraw two planned crypto ETFs tied to the CoinDesk 20 index, including a version that strips out bitcoin. Neither fund ever launched. Bitcoin is down about a third since ARK filed in January.
+===
+
+Cathie Wood's ARK Invest is backing away from two crypto funds before they ever reached investors. In two letters dated <strong>Friday, Nov. 20</strong>, ARK asked the U.S. Securities and Exchange Commission (SEC) to withdraw the registrations for the <strong>ARK CoinDesk 20 Crypto ETF</strong> and the <strong>ARK CoinDesk 20 ex-Bitcoin Crypto ETF</strong>, according to filings on the SEC's EDGAR database ([first fund](L1), [second fund](L2)).
+
+ARK first filed for both exchange-traded funds (ETFs) on Jan. 23, 2026. In the letters, ARK said it "does not intend to proceed" with selling shares of either fund. It also confirmed that neither registration was ever declared effective and that no shares were issued or sold. The company did not give a reason, [CoinDesk reported](L3) on Monday.
+
+!takeaways
+- ARK filed Form RW requests on Nov. 20 to withdraw two proposed crypto index ETFs tied to the CoinDesk 20.
+- Neither fund ever launched, so no investor holds shares in them.
+- ARK gave no reason. The move comes as bitcoin trades about a third below its price when ARK filed in January.
+- ARK's existing spot bitcoin ETF, ARKB, is not affected.
+
+!figure:chart
+
+## What ARK had planned
+
+The CoinDesk 20 is an index of 20 large, liquid cryptocurrencies, and it leaves out stablecoins and memecoins. Bitcoin's weight in the index is capped at 30%, according to [Crypto Briefing](L4). Think of it as a crypto version of a stock index fund: one product that holds a basket instead of a single coin.
+
+ARK's first fund would have followed the index through futures contracts, which are agreements to buy or sell at a set price later, rather than by holding the coins. The second fund would also have bet against CME bitcoin futures to cancel out the index's exposure to bitcoin and bitcoin cash, CoinDesk said. That would have given investors the rest of the large-cap crypto market without bitcoin.
+
+## A tough market for crypto index funds
+
+The withdrawal comes during a deep crypto slump. Bitcoin closed at about <strong>$89,495</strong> on Kraken on Jan. 23, the day ARK filed, and at about <strong>$58,806</strong> on Nov. 20, the day it asked to withdraw, according to Kraken's [public price data](L5). That is a drop of about 34%. CoinDesk noted that bitcoin fell as low as $55,130 in recent days. It was trading near $61,470 on Kraken on Monday afternoon.
+
+Demand for similar products has been weak. ProShares' CoinDesk 20 Crypto ETF (KRYP), the only U.S. ETF that tracks the full index, had just <strong>$1.81 million</strong> in net assets, nearly 10 months after its February launch, CoinDesk reported. That is down from $4.88 million at the end of May. WisdomTree withdrew its own CoinDesk 20 fund proposal on Jan. 6, before ARK filed.
+
+!mid_cta
+
+!figure:compare
+
+Not every basket fund is small. Grayscale's CoinDesk Crypto 5 ETF (GDLC), which holds a smaller basket of coins directly, has $288 million in assets under management, according to CoinDesk. CoinDesk and CoinDesk Indices, which runs the CoinDesk 20, are both part of Bullish.
+
+## What it means for beginners
+
+For existing investors, the direct impact is small: nobody owns these funds, because they never launched. ARK's spot bitcoin ETF, ARKB, keeps operating as before, Crypto Briefing reported. The news mainly means one fewer option in the pipeline for people who want broad crypto exposure in a regular brokerage account.
+
+If you are just starting, remember that funds built on futures can behave differently from the coins themselves, and fees and tracking matter. Some beginners prefer a spot bitcoin ETF, while others buy small amounts of bitcoin directly on a large regulated exchange such as [Coinbase](REF). Only invest money you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Whether the SEC consents to ARK's withdrawal requests, which is the formal next step.
+- Whether other issuers pull more crypto ETF filings while prices stay low.
+- Weekly flows into U.S. spot bitcoin ETFs after four straight losing weeks.
+
+!soft: Not sure whether a fund or the coin itself suits you? Read [Bitcoin ETF vs. buying bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

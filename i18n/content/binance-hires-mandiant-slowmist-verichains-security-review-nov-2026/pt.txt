@@ -1,0 +1,61 @@
+title: Binance contrata Mandiant, SlowMist e Verichains para checar sua segurança após o ataque de US$ 6,3 bilhões
+page_title: Binance contrata 3 empresas externas para revisar sua segurança
+description: A Binance contratou Mandiant, SlowMist e Verichains para revisar de forma independente seus procedimentos de segurança, quase quatro semanas depois de hackers levarem cerca de US$ 6,3 bilhões. Ainda não há resultados. Entenda de forma simples.
+og_description: A Binance chamou três empresas de segurança externas, a Mandiant (do Google Cloud), a SlowMist e a Verichains, para revisar seus sistemas após o ataque de 29 de outubro. A corretora diz que vai agir com base no que encontrarem, mas não deu prazo nem prometeu publicar os resultados.
+label: Segurança
+summary: A Binance contratou três empresas de segurança externas, Mandiant, SlowMist e Verichains, para revisar seus procedimentos após o ataque de 29 de outubro, de cerca de US$ 6,3 bilhões. Ela diz que vai agir com base nas conclusões, mas não informou quando as revisões terminam nem se os resultados serão públicos.
+===
+
+A Binance, maior corretora de criptomoedas do mundo, está pedindo a especialistas de fora que verifiquem suas fechaduras. Na segunda-feira, 23 de novembro, a empresa disse ter contratado <strong>três empresas independentes de cibersegurança</strong>, Mandiant, SlowMist e Verichains, para fazer "revisões abrangentes e independentes" de seus procedimentos de segurança, segundo um [post no blog da Binance](L1) e um [comunicado à imprensa](L2).
+
+A medida vem quase quatro semanas depois de hackers levarem cerca de <strong>US$ 6,3 bilhões</strong> da corretora em 29 de outubro, um roubo que a [Reuters](L3) chamou de recorde. A Binance disse que as revisões vão "validar" sua estrutura de segurança atual e avaliar sua postura de segurança "daqui para frente". Ela ressaltou que a notícia de segunda-feira trata da contratação das empresas, não de resultados.
+
+!takeaways
+- A Binance contratou Mandiant, SlowMist e Verichains para revisar de forma independente seus procedimentos de segurança.
+- A corretora diz que vai agir com base no que as empresas encontrarem, mas não deu data de conclusão.
+- A Binance não disse se vai publicar as conclusões.
+- A revisão vem após o ataque de 29 de outubro, de cerca de US$ 6,3 bilhões, que a Binance diz ter coberto com mais de US$ 6,34 bilhões do próprio caixa.
+
+!figure:timeline
+
+## Quem são as três empresas
+
+Cada empresa cobre uma parte diferente do problema. A <strong>Mandiant</strong>, parte do Google Cloud, é mais conhecida pela resposta a incidentes: a equipe que uma empresa chama depois de uma invasão para descobrir como os atacantes entraram. A Binance diz que ela tem mais de duas décadas de experiência investigando ataques de Estados e de outros hackers avançados.
+
+A <strong>SlowMist</strong>, fundada em 2018, foca em segurança de blockchain e inteligência de ameaças, ou seja, rastreia carteiras, transações e grupos de hackers conhecidos na rede. A <strong>Verichains</strong> faz pesquisa de segurança ofensiva: pensa como um atacante e testa os sistemas em busca de pontos fracos. A Binance diz que ela ajudou a investigar alguns dos maiores incidentes da Web3.
+
+"Contratamos três das empresas mais respeitadas da área para revisar de forma independente nossos procedimentos de segurança", disse Jimmy Su, diretor de segurança da Binance. "Elas vão revisar nossos sistemas e nos dizer onde podemos ser mais fortes. Estamos comprometidos a agir com base no que encontrarem." O co-CEO Richard Teng disse que a segurança dos ativos dos usuários é a "primeira responsabilidade" da empresa.
+
+## Por que agora
+
+O ataque de 29 de outubro atingiu as hot wallets da Binance, as carteiras online que uma corretora usa para processar os saques do dia a dia. A Binance suspendeu os saques e começou a reabri-los em etapas em 1º de novembro, começando pelo bitcoin, segundo a [CoinDesk](L4). Em 12 de novembro, a Binance disse ter terminado de cobrir os ativos afetados com mais de US$ 6,34 bilhões de recursos da empresa, segundo a [Bitcoin Magazine](L5).
+
+O Departamento de Justiça dos EUA atribuiu o roubo a hackers norte-coreanos e disse em 12 de novembro que mais de US$ 2,7 bilhões do dinheiro roubado tinham sido congelados por esforços do governo e do setor privado, segundo seu [anúncio](L7). A Coreia do Norte nega envolvimento. A [Crypto Briefing](L6) informou que o ataque usou engenharia social, ou seja, enganar pessoas em vez de quebrar código, e que a Binance diz que cerca de US$ 2,85 bilhões dos fundos roubados foram congelados ou interceptados.
+
+!mid_cta
+
+!figure:fact
+
+## O que ainda não sabemos
+
+O anúncio da Binance deixa várias perguntas em aberto. Não deu um cronograma para as revisões, não explicou quais sistemas cada empresa vai examinar nem disse se os relatórios, ou ao menos resumos curtos, serão públicos. O anúncio não menciona diretamente o ataque de outubro.
+
+A empresa explicou por que quer uma checagem externa. "Qualquer empresa pode descrever sua própria segurança como forte", dizia o post do blog, acrescentando que, como a Binance pede aos usuários "que nos confiem mais", essa confiança "deve se basear em mais do que a nossa própria avaliação".
+
+## O que isso significa para iniciantes
+
+Quando você deixa moedas em qualquer corretora, é ela quem guarda as chaves, e você depende da segurança dela. Uma revisão externa pode ajudar a achar pontos fracos, mas não garante que um ataque não vá se repetir. Desta vez a Binance repôs os fundos roubados com suas próprias reservas, mas nenhuma corretora pode prometer fazer isso em todos os casos.
+
+Se você está escolhendo onde comprar seu primeiro bitcoin, procure uma corretora autorizada no seu país e que explique como guarda os recursos dos clientes. Grandes plataformas reguladas, como a [Coinbase](REF), publicam detalhes sobre sua segurança. Muita gente transfere valores maiores para uma carteira pessoal que controla. Invista apenas o dinheiro que você pode perder. Isto não é recomendação de investimento.
+
+## O que observar a seguir
+
+- Se a Binance vai publicar conclusões ou resumos das três revisões, e quando.
+- Quais mudanças de segurança a Binance fará depois das revisões.
+- Quanto do dinheiro roubado restante os investigadores ainda conseguem congelar ou recuperar.
+
+!soft: Entenda a diferença entre deixar moedas na corretora e guardá-las você mesmo: [O que é uma carteira cripto?](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

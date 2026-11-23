@@ -1,0 +1,55 @@
+title: ARK Invest gibt zwei geplante CoinDesk-20-Krypto-ETFs auf, während der Bärenmarkt anhält
+page_title: ARK Invest zieht zwei geplante CoinDesk-20-Krypto-ETFs zurück
+description: Cathie Woods ARK Invest hat die SEC gebeten, zwei geplante Krypto-Index-ETFs auf den CoinDesk 20 zurückzuziehen, einer davon ohne Bitcoin. Keiner der Fonds ist je gestartet. Einfach erklärt.
+og_description: ARK Invest hat die SEC gebeten, zwei im Januar angemeldete Krypto-Index-ETFs zurückzuziehen: einen CoinDesk-20-Fonds und eine Version ohne Bitcoin. Es wurden nie Anteile verkauft, ARK nennt keinen Grund, und der Spot-Bitcoin-ETF des Hauses ist nicht betroffen.
+label: Markt
+summary: ARK Invest hat die SEC am 20. November gebeten, zwei geplante Krypto-ETFs auf den CoinDesk-20-Index zurückzuziehen, darunter eine Version ohne Bitcoin. Keiner der Fonds ist je gestartet. Bitcoin hat seit ARKs Anmeldung im Januar rund ein Drittel verloren.
+===
+
+Cathie Woods ARK Invest rückt von zwei Kryptofonds ab, bevor sie überhaupt bei Anlegern ankamen. In zwei Schreiben vom <strong>Freitag, 20. November</strong>, bat ARK die US-Börsenaufsicht SEC, die Registrierungen für den <strong>ARK CoinDesk 20 Crypto ETF</strong> und den <strong>ARK CoinDesk 20 ex-Bitcoin Crypto ETF</strong> zurückzuziehen, wie Unterlagen in der EDGAR-Datenbank der SEC zeigen ([erster Fonds](L1), [zweiter Fonds](L2)).
+
+ARK hatte beide börsengehandelten Fonds (ETFs) am 23. Januar 2026 angemeldet. In den Schreiben erklärte ARK, man beabsichtige „nicht, fortzufahren“ und Anteile an einem der beiden Fonds zu verkaufen. ARK bestätigte zudem, dass keine der Registrierungen je wirksam wurde und keine Anteile ausgegeben oder verkauft wurden. Einen Grund nannte das Unternehmen nicht, [berichtete CoinDesk](L3) am Montag.
+
+!takeaways
+- ARK reichte am 20. November Form-RW-Anträge ein, um zwei geplante Krypto-Index-ETFs auf den CoinDesk 20 zurückzuziehen.
+- Keiner der Fonds ist je gestartet, daher hält kein Anleger Anteile daran.
+- ARK nannte keinen Grund. Bitcoin notiert rund ein Drittel unter seinem Kurs vom Tag der Anmeldung im Januar.
+- ARKs bestehender Spot-Bitcoin-ETF ARKB ist nicht betroffen.
+
+!figure:chart
+
+## Was ARK geplant hatte
+
+Der CoinDesk 20 ist ein Index aus 20 großen, liquiden Kryptowährungen, Stablecoins und Memecoins sind ausgeschlossen. Der Anteil von Bitcoin im Index ist laut [Crypto Briefing](L4) auf 30 % begrenzt. Man kann ihn sich als Krypto-Version eines Aktienindexfonds vorstellen: ein einziges Produkt, das einen Korb statt einer einzelnen Coin enthält.
+
+ARKs erster Fonds hätte den Index über Terminkontrakte (Futures) abgebildet, also Vereinbarungen, später zu einem festgelegten Preis zu kaufen oder zu verkaufen, statt die Coins selbst zu halten. Der zweite Fonds hätte zusätzlich gegen CME-Bitcoin-Futures gewettet, um das Engagement des Index in Bitcoin und Bitcoin Cash aufzuheben, so CoinDesk. Anleger hätten damit den übrigen Kryptomarkt der großen Werte ohne Bitcoin bekommen.
+
+## Ein schwieriger Markt für Krypto-Indexfonds
+
+Der Rückzug fällt in eine tiefe Krypto-Flaute. Bitcoin schloss laut Krakens [öffentlichen Kursdaten](L5) am 23. Januar, dem Tag der Anmeldung, bei rund <strong>89.495 $</strong> und am 20. November, dem Tag des Rückzugsantrags, bei rund <strong>58.806 $</strong>. Das ist ein Minus von etwa 34 %. CoinDesk merkte an, dass Bitcoin in den vergangenen Tagen bis auf 55.130 $ fiel. Am Montagnachmittag notierte er bei Kraken bei rund 61.470 $.
+
+Die Nachfrage nach ähnlichen Produkten ist schwach. Der ProShares CoinDesk 20 Crypto ETF (KRYP), der einzige US-ETF, der den gesamten Index abbildet, hatte fast 10 Monate nach seinem Start im Februar nur <strong>1,81 Mio. $</strong> Nettovermögen, berichtete CoinDesk. Ende Mai waren es noch 4,88 Mio. $. WisdomTree hatte seinen eigenen CoinDesk-20-Fondsantrag bereits am 6. Januar zurückgezogen, noch bevor ARK seine Anträge stellte.
+
+!mid_cta
+
+!figure:compare
+
+Nicht jeder Korbfonds ist klein. Der Grayscale CoinDesk Crypto 5 ETF (GDLC), der einen kleineren Korb von Coins direkt hält, verwaltet laut CoinDesk 288 Mio. $. CoinDesk und CoinDesk Indices, das den CoinDesk 20 betreibt, gehören beide zu Bullish.
+
+## Was das für Einsteiger bedeutet
+
+Für bestehende Anleger sind die direkten Folgen gering: Niemand besitzt diese Fonds, weil sie nie gestartet sind. ARKs Spot-Bitcoin-ETF ARKB läuft laut Crypto Briefing unverändert weiter. Die Nachricht bedeutet vor allem eine Option weniger in der Pipeline für alle, die über ein normales Depot breit in Krypto investieren wollen.
+
+Wenn Sie gerade anfangen: Fonds auf Futures-Basis können sich anders entwickeln als die Coins selbst, und Gebühren sowie die Genauigkeit der Indexabbildung spielen eine Rolle. Manche Einsteiger bevorzugen einen Spot-Bitcoin-ETF, andere kaufen kleine Mengen Bitcoin direkt auf einer großen regulierten Börse wie [Coinbase](REF). Investieren Sie nur Geld, dessen Verlust Sie verkraften können. Dies ist keine Anlageberatung.
+
+## Worauf man jetzt achten sollte
+
+- Ob die SEC den Rückzugsanträgen von ARK zustimmt, der nächste formale Schritt.
+- Ob weitere Anbieter Krypto-ETF-Anträge zurückziehen, solange die Kurse niedrig bleiben.
+- Die wöchentlichen Zuflüsse in US-Spot-Bitcoin-ETFs nach vier Wochen mit Abflüssen in Folge.
+
+!soft: Fonds oder die Coin selbst, was passt zu Ihnen? Lesen Sie [Bitcoin-ETF oder Bitcoin kaufen](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

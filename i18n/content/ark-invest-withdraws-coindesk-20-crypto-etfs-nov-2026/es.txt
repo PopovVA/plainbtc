@@ -1,0 +1,55 @@
+title: ARK Invest abandona sus planes para dos ETF cripto del CoinDesk 20 mientras se alarga el mercado bajista
+page_title: ARK Invest retira dos ETF cripto del CoinDesk 20 que tenía previstos
+description: ARK Invest, de Cathie Wood, pidió a la SEC retirar dos ETF de índices cripto ligados al CoinDesk 20, uno de ellos sin bitcoin. Ninguno llegó a lanzarse. Te lo explicamos en lenguaje sencillo.
+og_description: ARK Invest pidió a la SEC retirar dos ETF de índices cripto que registró en enero: un fondo del CoinDesk 20 y una versión sin bitcoin. Nunca se vendieron acciones, ARK no dio motivos y su ETF de bitcoin al contado no se ve afectado.
+label: Mercados
+summary: ARK Invest pidió a la SEC el 20 de noviembre retirar dos ETF cripto previstos ligados al índice CoinDesk 20, incluida una versión que excluye el bitcoin. Ninguno llegó a lanzarse. El bitcoin ha caído alrededor de un tercio desde que ARK los registró en enero.
+===
+
+ARK Invest, la gestora de Cathie Wood, da marcha atrás con dos fondos cripto antes de que llegaran a los inversores. En dos cartas fechadas el <strong>viernes 20 de noviembre</strong>, ARK pidió a la Comisión de Bolsa y Valores de EE. UU. (SEC) retirar los registros del <strong>ARK CoinDesk 20 Crypto ETF</strong> y del <strong>ARK CoinDesk 20 ex-Bitcoin Crypto ETF</strong>, según documentos de la base de datos EDGAR de la SEC ([primer fondo](L1), [segundo fondo](L2)).
+
+ARK registró por primera vez ambos fondos cotizados (ETF) el 23 de enero de 2026. En las cartas, ARK dijo que "no tiene intención de continuar" con la venta de acciones de ninguno de los dos. También confirmó que ninguno de los registros llegó a ser declarado efectivo y que no se emitieron ni vendieron acciones. La empresa no dio un motivo, [informó CoinDesk](L3) el lunes.
+
+!takeaways
+- ARK presentó el 20 de noviembre solicitudes Form RW para retirar dos ETF de índices cripto ligados al CoinDesk 20.
+- Ninguno de los fondos llegó a lanzarse, así que ningún inversor tiene acciones de ellos.
+- ARK no dio motivos. La decisión llega con el bitcoin cotizando alrededor de un tercio por debajo de su precio cuando ARK los registró en enero.
+- El ETF de bitcoin al contado que ARK ya tiene, ARKB, no se ve afectado.
+
+!figure:chart
+
+## Qué había planeado ARK
+
+El CoinDesk 20 es un índice de 20 criptomonedas grandes y líquidas que excluye las stablecoins y las memecoins. El peso del bitcoin en el índice está limitado al 30%, según [Crypto Briefing](L4). Piensa en él como la versión cripto de un fondo indexado de acciones: un solo producto que contiene una cesta en lugar de una sola moneda.
+
+El primer fondo de ARK habría seguido el índice mediante contratos de futuros, que son acuerdos para comprar o vender a un precio fijado más adelante, en lugar de tener las monedas. El segundo fondo también habría apostado en contra de los futuros de bitcoin de CME para anular la exposición del índice al bitcoin y al bitcoin cash, según CoinDesk. Así, los inversores habrían tenido el resto del mercado cripto de gran capitalización sin bitcoin.
+
+## Un mercado difícil para los fondos de índices cripto
+
+La retirada llega en plena caída del mercado cripto. El bitcoin cerró en unos <strong>89.495 dólares</strong> en Kraken el 23 de enero, el día en que ARK presentó los registros, y en unos <strong>58.806 dólares</strong> el 20 de noviembre, el día en que pidió retirarlos, según los [datos públicos de precios](L5) de Kraken. Es una caída de alrededor del 34%. CoinDesk señaló que el bitcoin llegó a bajar hasta 55.130 dólares en los últimos días. El lunes por la tarde cotizaba cerca de 61.470 dólares en Kraken.
+
+La demanda de productos similares ha sido débil. El ProShares CoinDesk 20 Crypto ETF (KRYP), el único ETF de EE. UU. que sigue el índice completo, tenía apenas <strong>1,81 millones de dólares</strong> en activos netos casi 10 meses después de su lanzamiento en febrero, según CoinDesk. Es menos que los 4,88 millones de dólares de finales de mayo. WisdomTree retiró su propia propuesta de fondo del CoinDesk 20 el 6 de enero, antes de que ARK presentara la suya.
+
+!mid_cta
+
+!figure:compare
+
+No todos los fondos de cesta son pequeños. El Grayscale CoinDesk Crypto 5 ETF (GDLC), que tiene directamente una cesta más pequeña de monedas, gestiona 288 millones de dólares en activos, según CoinDesk. CoinDesk y CoinDesk Indices, que administra el CoinDesk 20, forman parte de Bullish.
+
+## Qué significa para los principiantes
+
+Para los inversores actuales, el impacto directo es pequeño: nadie tiene estos fondos, porque nunca se lanzaron. El ETF de bitcoin al contado de ARK, ARKB, sigue funcionando como antes, según Crypto Briefing. La noticia significa sobre todo una opción menos en camino para quienes quieren una exposición amplia a las criptomonedas desde una cuenta de bolsa normal.
+
+Si estás empezando, recuerda que los fondos basados en futuros pueden comportarse de forma distinta a las propias monedas, y que las comisiones y el seguimiento del índice importan. Algunos principiantes prefieren un ETF de bitcoin al contado, mientras que otros compran pequeñas cantidades de bitcoin directamente en un gran exchange regulado como [Coinbase](REF). Invierte solo el dinero que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar a continuación
+
+- Si la SEC da su consentimiento a las solicitudes de retirada de ARK, que es el siguiente paso formal.
+- Si otras gestoras retiran más solicitudes de ETF cripto mientras los precios sigan bajos.
+- Los flujos semanales de los ETF de bitcoin al contado de EE. UU. tras cuatro semanas seguidas de salidas.
+
+!soft: ¿No sabes si te conviene un fondo o la moneda en sí? Lee [ETF de bitcoin o comprar bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

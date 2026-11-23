@@ -1,0 +1,61 @@
+title: Binance contrata a Mandiant, SlowMist y Verichains para revisar su seguridad tras el hackeo de 6.300 millones de dólares
+page_title: Binance contrata a 3 firmas externas para revisar su seguridad
+description: Binance contrató a Mandiant, SlowMist y Verichains para revisar de forma independiente sus procedimientos de seguridad, casi cuatro semanas después de que unos hackers se llevaran unos 6.300 millones de dólares. Aún no hay resultados. Te lo explicamos en lenguaje sencillo.
+og_description: Binance recurrió a tres firmas de seguridad externas, Mandiant (de Google Cloud), SlowMist y Verichains, para revisar sus sistemas tras el hackeo del 29 de octubre. Dice que actuará según lo que encuentren, pero no dio plazos ni prometió publicar los resultados.
+label: Seguridad
+summary: Binance contrató a tres firmas de seguridad externas, Mandiant, SlowMist y Verichains, para revisar sus procedimientos tras el hackeo del 29 de octubre de unos 6.300 millones de dólares. Dice que actuará según sus hallazgos, pero no ha dicho cuándo terminarán las revisiones ni si los resultados serán públicos.
+===
+
+Binance, el mayor exchange de criptomonedas del mundo, pide a expertos externos que revisen sus cerraduras. El lunes 23 de noviembre, la empresa anunció que contrató a <strong>tres firmas independientes de ciberseguridad</strong>, Mandiant, SlowMist y Verichains, para realizar "revisiones integrales e independientes" de sus procedimientos de seguridad, según una [entrada en el blog de Binance](L1) y un [comunicado de prensa](L2).
+
+La medida llega casi cuatro semanas después de que unos hackers se llevaran unos <strong>6.300 millones de dólares</strong> del exchange el 29 de octubre, un robo que [Reuters](L3) ha calificado de récord. Binance dijo que las revisiones "validarán" su sistema de seguridad actual y evaluarán su postura de seguridad "en adelante". Subrayó que la noticia del lunes trata de la contratación de las firmas, no de resultados.
+
+!takeaways
+- Binance contrató a Mandiant, SlowMist y Verichains para revisar de forma independiente sus procedimientos de seguridad.
+- El exchange dice que actuará según lo que encuentren las firmas, pero no dio una fecha de cierre.
+- Binance no ha dicho si publicará los hallazgos.
+- La revisión llega tras el hackeo del 29 de octubre de unos 6.300 millones de dólares, que Binance dice haber cubierto con más de 6.340 millones de dólares propios.
+
+!figure:timeline
+
+## Quiénes son las tres firmas
+
+Cada firma cubre una parte distinta del problema. <strong>Mandiant</strong>, parte de Google Cloud, es conocida sobre todo por la respuesta a incidentes: el equipo al que una empresa llama tras una intrusión para averiguar cómo entraron los atacantes. Binance dice que tiene más de dos décadas de experiencia investigando ataques de Estados y de otros hackers avanzados.
+
+<strong>SlowMist</strong>, fundada en 2018, se centra en la seguridad blockchain y la inteligencia de amenazas, es decir, rastrea billeteras, transacciones y grupos de hackers conocidos en la cadena. <strong>Verichains</strong> se dedica a la investigación de seguridad ofensiva: piensa como un atacante y pone a prueba los sistemas en busca de puntos débiles. Binance dice que ha ayudado a investigar algunos de los mayores incidentes de la Web3.
+
+"Hemos contratado a tres de las firmas más respetadas del sector para revisar de forma independiente nuestros procedimientos de seguridad", dijo Jimmy Su, director de seguridad de Binance. "Revisarán nuestros sistemas y nos dirán dónde podemos ser más fuertes. Nos comprometemos a actuar según lo que encuentren". El codirector ejecutivo Richard Teng dijo que la seguridad de los activos de los usuarios es la "primera responsabilidad" de la empresa.
+
+## Por qué ahora
+
+El ataque del 29 de octubre afectó a las hot wallets de Binance, las billeteras en línea que un exchange usa para procesar los retiros del día a día. Binance pausó los retiros y empezó a reabrirlos por fases el 1 de noviembre, comenzando por bitcoin, según [CoinDesk](L4). El 12 de noviembre, Binance dijo que había terminado de cubrir los activos afectados con más de 6.340 millones de dólares de fondos de la empresa, según [Bitcoin Magazine](L5).
+
+El Departamento de Justicia de EE. UU. atribuyó el robo a hackers norcoreanos y dijo el 12 de noviembre que más de 2.700 millones de dólares del dinero robado se habían congelado gracias a esfuerzos públicos y privados, según su [anuncio](L7). Corea del Norte niega estar involucrada. [Crypto Briefing](L6) informó de que el ataque se basó en ingeniería social, es decir, en engañar a personas en lugar de romper código, y de que Binance dice que unos 2.850 millones de dólares de los fondos robados se han congelado o interceptado.
+
+!mid_cta
+
+!figure:fact
+
+## Lo que aún no sabemos
+
+El anuncio de Binance deja varias preguntas abiertas. No dio un calendario para las revisiones, no explicó qué sistemas examinará cada firma ni dijo si los informes, o al menos resúmenes breves, se harán públicos. El anuncio no menciona directamente el hackeo de octubre.
+
+La empresa sí explicó por qué quiere una revisión externa. "Cualquier empresa puede describir su propia seguridad como sólida", decía la entrada del blog, que añadía que, como Binance pide a los usuarios "que nos confíen más", esa confianza "debe basarse en algo más que nuestra propia evaluación".
+
+## Qué significa para los principiantes
+
+Cuando guardas monedas en cualquier exchange, el exchange tiene las claves y dependes de su seguridad. Una revisión externa puede ayudar a encontrar puntos débiles, pero no garantiza que no vuelva a haber un hackeo. Esta vez Binance repuso los fondos robados con sus propias reservas, pero ningún exchange puede prometer hacerlo en todos los casos.
+
+Si estás eligiendo dónde comprar tu primer bitcoin, busca un exchange con licencia en tu país que explique cómo guarda los fondos de los clientes. Las grandes plataformas reguladas, como [Coinbase](REF), publican detalles sobre su seguridad. Mucha gente traslada las cantidades grandes a una billetera personal que controla. Invierte solo el dinero que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar a continuación
+
+- Si Binance publica hallazgos o resúmenes de las tres revisiones, y cuándo.
+- Qué cambios de seguridad hace Binance después de las revisiones.
+- Cuánto del dinero robado restante pueden todavía congelar o recuperar los investigadores.
+
+!soft: Aprende la diferencia entre dejar monedas en un exchange y guardarlas tú mismo: [¿Qué es una billetera cripto?](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

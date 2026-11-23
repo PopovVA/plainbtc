@@ -1,0 +1,61 @@
+title: Binance hires Mandiant, SlowMist and Verichains to check its security after the $6.3 billion hack
+page_title: Binance hires 3 outside firms to review its security
+description: Binance has hired Mandiant, SlowMist and Verichains to independently review its security procedures, nearly four weeks after hackers took about $6.3 billion. No findings yet. What it means, in plain English.
+og_description: Binance brought in three outside security firms, Google Cloud's Mandiant plus SlowMist and Verichains, to review its systems after the Oct. 29 hack. The exchange says it will act on what they find, but gave no timeline and no promise to publish results.
+label: Security
+summary: Binance hired three outside security firms, Mandiant, SlowMist and Verichains, to review its security procedures after the Oct. 29 hack of about $6.3 billion. The exchange says it will act on their findings, but it has not said when the reviews will finish or whether results will be made public.
+===
+
+Binance, the world's largest crypto exchange, is asking outsiders to check its locks. On Monday, Nov. 23, the company said it has hired <strong>three independent cybersecurity firms</strong>, Mandiant, SlowMist and Verichains, to run "comprehensive, independent reviews" of its security procedures, according to a [Binance blog post](L1) and a [press release](L2).
+
+The move comes nearly four weeks after hackers took about <strong>$6.3 billion</strong> from the exchange on Oct. 29, a theft [Reuters](L3) has called a record heist. Binance said the reviews will "validate" its current security setup and assess its security "going forward." It stressed that Monday's news is about hiring the firms, not about any results.
+
+!takeaways
+- Binance hired Mandiant, SlowMist and Verichains to independently review its security procedures.
+- The exchange says it will act on what the firms find, but gave no completion date.
+- Binance has not said whether it will publish the findings.
+- The review follows the Oct. 29 hack of about $6.3 billion, which Binance says it covered with more than $6.34 billion of its own money.
+
+!figure:timeline
+
+## Who the three firms are
+
+Each firm covers a different part of the problem. <strong>Mandiant</strong>, part of Google Cloud, is best known for incident response: the team a company calls after a break-in to find out how attackers got in. Binance says it has more than two decades of experience investigating attacks by nation-states and other advanced hackers.
+
+<strong>SlowMist</strong>, founded in 2018, focuses on blockchain security and threat intelligence, meaning it tracks wallets, transactions and known hacker groups on-chain. <strong>Verichains</strong> does offensive security research, which means it thinks like an attacker and probes systems for weak spots. Binance says it has helped investigate some of the largest incidents in Web3.
+
+"We have engaged three of the most respected firms in the field to independently review our security procedures," Binance chief security officer Jimmy Su said. "They will review our systems and tell us where we can be stronger. We are committed to acting on what they find." Co-CEO Richard Teng said the security of users' assets is the company's "first responsibility."
+
+## Why now
+
+The Oct. 29 attack hit Binance's hot wallets, the online wallets an exchange uses to process everyday withdrawals. Binance paused withdrawals and began reopening them in phases on Nov. 1, starting with bitcoin, [CoinDesk reported](L4). On Nov. 12, Binance said it had finished covering the affected assets with more than $6.34 billion of company funds, according to [Bitcoin Magazine](L5).
+
+The U.S. Justice Department has blamed the theft on North Korean hackers and said on Nov. 12 that more than $2.7 billion of the stolen money had been frozen through government and private efforts, according to its [announcement](L7). North Korea denies involvement. [Crypto Briefing](L6) reported that the attack relied on social engineering, meaning tricking people rather than breaking code, and that Binance says about $2.85 billion of the stolen funds has been frozen or intercepted.
+
+!mid_cta
+
+!figure:fact
+
+## What we still do not know
+
+Binance's announcement leaves several questions open. It did not give a timeline for the reviews, explain exactly which systems each firm will examine, or say whether the reports, or even short summaries, will be made public. The announcement does not mention the October hack directly.
+
+The company did explain why it wants an outside check. "Any company can describe its own security as strong," the blog post said, adding that as Binance asks users "to trust us with more," that trust "should rest on more than our own assessment."
+
+## What it means for beginners
+
+When you keep coins on any exchange, the exchange holds the keys, and you rely on its security. An outside review can help find weak spots, but it is not a guarantee that a hack will not happen again. Binance replaced the stolen funds this time from its own reserves, but no exchange can promise to do that in every case.
+
+If you are choosing where to buy your first bitcoin, look for an exchange that is licensed where you live and that explains how it stores customer funds. In the U.S., large regulated platforms such as [Coinbase](REF) publish details about their security. Many people move larger amounts to a personal wallet they control. Only invest money you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Whether Binance publishes findings or summaries from the three reviews, and when.
+- Which security changes Binance makes after the reviews.
+- How much of the remaining stolen money investigators can still freeze or recover.
+
+!soft: Learn the difference between leaving coins on an exchange and holding them yourself: [What is a crypto wallet?](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

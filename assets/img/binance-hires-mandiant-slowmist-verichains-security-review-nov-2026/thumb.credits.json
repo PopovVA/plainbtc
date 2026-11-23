@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Binance_Logo.svg",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Binance_Logo.svg",
+      "credit": "Binance"
+    },
+    {
+      "file": "Mandiant_logo.svg",
+      "license": "Public domain (logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:Mandiant_logo.svg",
+      "credit": "Mandiant"
+    },
+    {
+      "file": "Binance announcement, Nov. 23, 2026",
+      "license": "Facts cited",
+      "url": "https://www.prnewswire.com/news-releases/binance-engages-mandiant-slowmist-and-verichains-for-independent-third-party-security-review-302948286.html",
+      "credit": "Binance / PR Newswire"
+    }
+  ],
+  "note": "Editorial diagram; logos for identification; trademarks belong to their owners.",
+  "slug": "binance-hires-mandiant-slowmist-verichains-security-review-nov-2026",
+  "generated": "2026-11-23T18:59Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

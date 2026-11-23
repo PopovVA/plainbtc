@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-binance-hack-to-security-review.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "timeline",
+    "alt": {
+      "en": "Timeline: on Oct. 29 hackers took about $6.3 billion from Binance; on Nov. 1 withdrawals started reopening in phases; on Nov. 12 Binance said it covered the losses with more than $6.34 billion of its own money; on Nov. 18 it got an Abu Dhabi court order to help recover frozen funds; on Nov. 23 it hired Mandiant, SlowMist and Verichains to review its security",
+      "es": "Cronología: el 29 de octubre unos hackers robaron cerca de 6.300 millones de dólares a Binance; el 1 de noviembre los retiros empezaron a reabrirse por fases; el 12 de noviembre Binance dijo que cubrió las pérdidas con más de 6.340 millones de dólares propios; el 18 de noviembre obtuvo una orden judicial en Abu Dabi para recuperar fondos congelados; el 23 de noviembre contrató a Mandiant, SlowMist y Verichains para revisar su seguridad",
+      "pt": "Linha do tempo: em 29 de outubro hackers levaram cerca de US$ 6,3 bilhões da Binance; em 1º de novembro os saques começaram a reabrir em etapas; em 12 de novembro a Binance disse ter coberto as perdas com mais de US$ 6,34 bilhões próprios; em 18 de novembro obteve uma ordem judicial em Abu Dhabi para recuperar fundos congelados; em 23 de novembro contratou Mandiant, SlowMist e Verichains para revisar sua segurança",
+      "fr": "Chronologie : le 29 octobre, des pirates dérobent environ 6,3 milliards de dollars à Binance ; le 1er novembre, les retraits rouvrent par étapes ; le 12 novembre, Binance dit avoir couvert les pertes avec plus de 6,34 milliards de dollars de ses fonds ; le 18 novembre, elle obtient une ordonnance d'un tribunal d'Abou Dhabi pour récupérer des fonds gelés ; le 23 novembre, elle engage Mandiant, SlowMist et Verichains pour auditer sa sécurité",
+      "de": "Zeitleiste: Am 29. Oktober erbeuten Hacker rund 6,3 Mrd. $ bei Binance; am 1. November öffnen Auszahlungen schrittweise wieder; am 12. November erklärt Binance, die Verluste mit über 6,34 Mrd. $ aus eigenen Mitteln gedeckt zu haben; am 18. November erhält Binance einen Gerichtsbeschluss in Abu Dhabi zur Rückholung eingefrorener Gelder; am 23. November beauftragt Binance Mandiant, SlowMist und Verichains mit einer Sicherheitsprüfung",
+      "ru": "Хронология: 29 октября хакеры похитили у Binance около $6,3 млрд; 1 ноября вывод средств начали поэтапно открывать; 12 ноября Binance заявила, что покрыла потери более чем $6,34 млрд собственных средств; 18 ноября биржа получила судебный приказ в Абу-Даби для возврата замороженных средств; 23 ноября наняла Mandiant, SlowMist и Verichains для проверки безопасности",
+      "tr": "Zaman çizelgesi: 29 Ekim'de hackerlar Binance'ten yaklaşık 6,3 milyar $ çaldı; 1 Kasım'da para çekme işlemleri aşamalı olarak yeniden açılmaya başladı; 12 Kasım'da Binance kayıpları kendi kasasından 6,34 milyar $'ı aşan tutarla karşıladığını söyledi; 18 Kasım'da dondurulan fonları geri almak için Abu Dabi'de mahkeme kararı aldı; 23 Kasım'da güvenliğini incelemeleri için Mandiant, SlowMist ve Verichains'i görevlendirdi",
+      "id": "Linimasa: pada 29 Oktober peretas mengambil sekitar US$6,3 miliar dari Binance; pada 1 November penarikan mulai dibuka kembali bertahap; pada 12 November Binance mengatakan telah menutup kerugian dengan lebih dari US$6,34 miliar dana sendiri; pada 18 November Binance memperoleh perintah pengadilan Abu Dhabi untuk memulihkan dana yang dibekukan; pada 23 November Binance menunjuk Mandiant, SlowMist, dan Verichains untuk meninjau keamanannya",
+      "ja": "時系列：10月29日、ハッカーがバイナンスから約63億ドルを奪う。11月1日、出金が段階的に再開。11月12日、バイナンスが自己資金63億4000万ドル超で損失を補填したと発表。11月18日、凍結資金の回収に向けアブダビの裁判所命令を取得。11月23日、Mandiant、SlowMist、Verichainsにセキュリティ審査を依頼",
+      "ko": "타임라인: 10월 29일 해커가 바이낸스에서 약 63억 달러 탈취; 11월 1일 출금이 단계적으로 재개; 11월 12일 바이낸스가 자체 자금 63억4000만 달러 이상으로 손실을 보전했다고 발표; 11월 18일 동결 자금 회수를 위한 아부다비 법원 명령 확보; 11월 23일 맨디언트, 슬로우미스트, 베리체인스에 보안 점검 의뢰"
+    },
+    "caption": {
+      "en": "Source: Reuters, CoinDesk, Bitcoin Magazine, Binance",
+      "es": "Fuente: Reuters, CoinDesk, Bitcoin Magazine, Binance",
+      "pt": "Fonte: Reuters, CoinDesk, Bitcoin Magazine, Binance",
+      "fr": "Source : Reuters, CoinDesk, Bitcoin Magazine, Binance",
+      "de": "Quelle: Reuters, CoinDesk, Bitcoin Magazine, Binance",
+      "ru": "Источник: Reuters, CoinDesk, Bitcoin Magazine, Binance",
+      "tr": "Kaynak: Reuters, CoinDesk, Bitcoin Magazine, Binance",
+      "id": "Sumber: Reuters, CoinDesk, Bitcoin Magazine, Binance",
+      "ja": "出典: Reuters, CoinDesk, Bitcoin Magazine, Binance",
+      "ko": "출처: Reuters, CoinDesk, Bitcoin Magazine, Binance"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-binance-three-firms-review.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: Binance has hired 3 outside firms. Security chief Jimmy Su: “They will review our systems and tell us where we can be stronger. We are committed to acting on what they find.”",
+      "es": "Tarjeta: Binance contrató a 3 firmas externas. El jefe de seguridad Jimmy Su: “Revisarán nuestros sistemas y nos dirán dónde podemos ser más fuertes. Nos comprometemos a actuar según lo que encuentren.”",
+      "pt": "Cartão: a Binance contratou 3 empresas externas. O chefe de segurança Jimmy Su: “Elas vão revisar nossos sistemas e nos dizer onde podemos ser mais fortes. Estamos comprometidos a agir com base no que encontrarem.”",
+      "fr": "Fiche : Binance a engagé 3 cabinets extérieurs. Son responsable de la sécurité, Jimmy Su : « Ils examineront nos systèmes et nous diront où nous pouvons être plus solides. Nous nous engageons à agir sur ce qu'ils trouveront. »",
+      "de": "Faktenkarte: Binance hat 3 externe Firmen beauftragt. Sicherheitschef Jimmy Su: „Sie werden unsere Systeme prüfen und uns sagen, wo wir stärker werden können. Wir verpflichten uns, auf ihre Ergebnisse zu reagieren.“",
+      "ru": "Карточка: Binance наняла 3 внешние компании. Директор по безопасности Джимми Су: «Они проверят наши системы и скажут, где мы можем стать сильнее. Мы намерены действовать по итогам их выводов».",
+      "tr": "Bilgi kartı: Binance 3 dış firmayla anlaştı. Güvenlik şefi Jimmy Su: “Sistemlerimizi inceleyip nerede daha güçlü olabileceğimizi söyleyecekler. Bulduklarına göre harekete geçmeye kararlıyız.”",
+      "id": "Kartu fakta: Binance menunjuk 3 perusahaan luar. Kepala keamanan Jimmy Su: “Mereka akan meninjau sistem kami dan memberi tahu di mana kami bisa lebih kuat. Kami berkomitmen menindaklanjuti temuan mereka.”",
+      "ja": "ファクトカード：バイナンスは外部の3社に依頼。最高セキュリティ責任者ジミー・スー氏「彼らは当社のシステムを審査し、どこを強化できるかを教えてくれる。我々は彼らの指摘に基づいて行動することを約束する」",
+      "ko": "팩트 카드: 바이낸스가 외부 업체 3곳에 의뢰. 지미 수 최고보안책임자: “그들이 우리 시스템을 점검하고 어디를 더 강화할 수 있는지 알려줄 것이다. 우리는 그들의 지적에 따라 조치할 것을 약속한다.”"
+    },
+    "caption": {
+      "en": "Source: Binance via PR Newswire, Nov. 23, 2026",
+      "es": "Fuente: Binance via PR Newswire, Nov. 23, 2026",
+      "pt": "Fonte: Binance via PR Newswire, Nov. 23, 2026",
+      "fr": "Source : Binance via PR Newswire, Nov. 23, 2026",
+      "de": "Quelle: Binance via PR Newswire, Nov. 23, 2026",
+      "ru": "Источник: Binance via PR Newswire, Nov. 23, 2026",
+      "tr": "Kaynak: Binance via PR Newswire, Nov. 23, 2026",
+      "id": "Sumber: Binance via PR Newswire, Nov. 23, 2026",
+      "ja": "出典: Binance via PR Newswire, Nov. 23, 2026",
+      "ko": "출처: Binance via PR Newswire, Nov. 23, 2026"
+    }
+  }
+]

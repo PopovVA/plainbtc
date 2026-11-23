@@ -2103,7 +2103,92 @@ def thumb_strategy_457_btc():
     ], "note": "Editorial diagram; logo for identification; trademarks belong to their owners."}
 
 
+def thumb_binance_security_review():
+    """Black/yellow 'outside reviewers' diagram: Binance logo (Wikimedia) and the three firms it engaged on Nov. 23, 2026
+    (Binance blog / PR Newswire). Mandiant logo is public domain on Wikimedia; SlowMist and Verichains as text."""
+    binance = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/e/e8/Binance_Logo.svg", CACHE/"binance-logo.svg")).convert("RGBA")
+    mandiant = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/d/d3/Mandiant_logo.svg", CACHE/"mandiant-logo.svg")).convert("RGBA")
+    base = gradient_bg(top=(24, 26, 32), bottom=(6, 7, 9))
+    d = Draw(base)
+    yellow, ink = (240, 185, 11), (30, 32, 38)
+    # faint scan grid
+    for x in range(0, W, 32): d.line([(x, 0), (x, H)], fill=(34, 37, 44), width=1)
+    for y in range(0, H, 32): d.line([(0, y), (W, y)], fill=(34, 37, 44), width=1)
+    # Binance tile on the left
+    d.rounded_rectangle([28, 96, 228, 266], radius=18, fill=ink, outline=yellow, width=3)
+    paste_contain(base, binance, (28, 96, 200, 170), pad=26)
+    d = Draw(base)
+    # magnifier over the tile
+    d.ellipse([170, 58, 250, 138], outline=yellow, width=6)
+    d.line([(240, 128), (270, 158)], fill=yellow, width=9)
+    # three reviewer cards on the right
+    rows = [("Incident response, threat intel", None), ("Blockchain security", "SlowMist"), ("Offensive research, Web3", "Verichains")]
+    y0 = 52
+    for i, (role, name) in enumerate(rows):
+        y = y0 + i * 92
+        d.rounded_rectangle([300, y, 612, y + 76], radius=14, fill=(245, 245, 244) if i == 0 else ink, outline=(70, 74, 84), width=2)
+        if name is None:
+            paste_contain(base, mandiant, (312, y + 4, 170, 46), pad=4)
+            d = Draw(base)
+            d.text((316, y + 50), role, font=font(FONT_R, 13), fill=(68, 64, 60))
+        else:
+            d.text((316, y + 10), name, font=font(FONT_B, 26), fill=WHITE)
+            d.text((316, y + 50), role, font=font(FONT_R, 13), fill=(203, 213, 225))
+        d.line([(270, 181), (300, y + 38)], fill=(120, 110, 60), width=2)
+    d.text((28, 290), "3 outside firms", font=font(FONT_B, 24), fill=yellow)
+    d.text((28, 322), "engaged Nov. 23, 2026 · findings not yet published", font=font(FONT_R, 13), fill=(203, 213, 225))
+    label_chip(base, "Binance · security review")
+    return base, {"kind": "composite", "sources": [
+        {"file": "Binance_Logo.svg", "license": "Logo", "url": "https://commons.wikimedia.org/wiki/File:Binance_Logo.svg", "credit": "Binance"},
+        {"file": "Mandiant_logo.svg", "license": "Public domain (logo)", "url": "https://commons.wikimedia.org/wiki/File:Mandiant_logo.svg", "credit": "Mandiant"},
+        {"file": "Binance announcement, Nov. 23, 2026", "license": "Facts cited", "url": "https://www.prnewswire.com/news-releases/binance-engages-mandiant-slowmist-and-verichains-for-independent-third-party-security-review-302948286.html", "credit": "Binance / PR Newswire"},
+    ], "note": "Editorial diagram; logos for identification; trademarks belong to their owners."}
+
+
+def thumb_ark_withdraws_cd20_etfs():
+    """Light 'filing paper' diagram: ARK Invest logo and SEC seal (both public domain on Wikimedia) with the two Form RW
+    withdrawal requests dated Nov. 20, 2026 (SEC EDGAR, File Nos. 333-292914 and 333-292915, S-1s filed Jan. 23, 2026)."""
+    ark = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/9/90/Ark_Invest_logo.svg", CACHE/"ark-invest-logo.svg")).convert("RGBA")
+    sec = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/1/1c/Seal_of_the_United_States_Securities_and_Exchange_Commission.svg", CACHE/"sec-seal.svg")).convert("RGBA")
+    base = gradient_bg(top=(236, 241, 247), bottom=(214, 223, 234))
+    d = Draw(base)
+    ink, mute, red = (15, 23, 42), (71, 85, 105), (190, 18, 60)
+    paste_contain(base, ark, (24, 22, 150, 56), pad=4)
+    paste_contain(base, sec, (540, 14, 80, 80), pad=2)
+    d = Draw(base)
+    d.text((24, 88), "Form RW · request for withdrawal · Nov. 20, 2026", font=font(FONT_B, 14), fill=mute)
+    docs = [("ARK CoinDesk 20", "Crypto ETF", "File No. 333-292914"), ("ARK CoinDesk 20", "ex-Bitcoin Crypto ETF", "File No. 333-292915")]
+    for i, (a, b, c) in enumerate(docs):
+        x = 24 + i * 302
+        # paper shadow + sheet
+        d.rounded_rectangle([x + 5, 125, x + 290, 315], radius=8, fill=(180, 192, 207))
+        d.rounded_rectangle([x, 120, x + 285, 310], radius=8, fill=WHITE, outline=(203, 213, 225), width=2)
+        d.text((x + 16, 134), "FORM S-1 · filed Jan. 23, 2026", font=font(FONT_R, 11), fill=mute)
+        d.text((x + 16, 156), a, font=font(FONT_B, 19), fill=ink)
+        d.text((x + 16, 182), b, font=font(FONT_B, 17), fill=ink)
+        for k in range(3):
+            d.line([(x + 16, 214 + k * 12), (x + 260 - k * 40, 214 + k * 12)], fill=(226, 232, 240), width=4)
+        d.text((x + 16, 284), c, font=font(FONT_R, 12), fill=mute)
+        # stamp
+        stamp = Image.new("RGBA", sz((176, 56)), (0, 0, 0, 0)); sd = Draw(stamp)
+        sd.rounded_rectangle([2, 2, 173, 53], radius=6, outline=(*red, 230), width=4)
+        sd.text((14, 7), "WITHDRAWAL", font=font(FONT_B, 19), fill=(*red, 235))
+        sd.text((24, 30), "REQUESTED", font=font(FONT_B, 17), fill=(*red, 235))
+        stamp = stamp.rotate(-12, expand=True, resample=Image.Resampling.BICUBIC)
+        base.paste(stamp, sz((x + 86, 196)), stamp)
+        d = Draw(base)
+    d.text((24, 326), "Never effective · no shares ever sold · ARKB not affected", font=font(FONT_B, 14), fill=ink)
+    label_chip(base, "ARK Invest · crypto index ETFs", xy=(200, 30))
+    return base, {"kind": "diagram", "sources": [
+        {"file": "Ark_Invest_logo.svg", "license": "Public domain (logo)", "url": "https://commons.wikimedia.org/wiki/File:Ark_Invest_logo.svg", "credit": "ARK Invest"},
+        {"file": "Seal_of_the_United_States_Securities_and_Exchange_Commission.svg", "license": "Public domain (U.S. government)", "url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Securities_and_Exchange_Commission.svg", "credit": "SEC"},
+        {"file": "ARK Form RW filings, Nov. 20, 2026", "license": "Facts cited", "url": "https://www.sec.gov/Archives/edgar/data/2106116/000121390026122577/ea0313104-01_rw.htm", "credit": "SEC EDGAR"},
+    ], "note": "Editorial diagram; logos for identification; trademarks belong to their owners."}
+
+
 BUILDERS = {
+    "binance-hires-mandiant-slowmist-verichains-security-review-nov-2026": thumb_binance_security_review,
+    "ark-invest-withdraws-coindesk-20-crypto-etfs-nov-2026": thumb_ark_withdraws_cd20_etfs,
     "bitcoin-etfs-1-79-billion-weekly-outflow-fourth-week-nov-2026": thumb_etf_weekly_179,
     "strategy-buys-457-bitcoin-212-million-strc-buyback-nov-2026": thumb_strategy_457_btc,
     "bitcoin-61500-abraxas-capital-1-billion-btc-off-exchanges-nov-2026": thumb_abraxas_withdrawals,
