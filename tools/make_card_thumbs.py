@@ -2036,7 +2036,76 @@ def thumb_trump_dinner():
         {"file": "The Block, Nov. 22, 2026", "license": "Figure cited", "url": "https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828", "credit": "All-time high $73.43; down about 99%"}
     ]}
 
+def thumb_etf_weekly_179():
+    """Cream 'newspaper' chart: U.S. spot bitcoin ETF daily net flows for the week of Nov. 16-20, 2026
+    (Farside Investors, read Nov. 23, 2026) with the week's total of -$1.79B."""
+    days = ["Mon\nNov 16", "Tue\nNov 17", "Wed\nNov 18", "Thu\nNov 19", "Fri\nNov 20"]
+    flows = [7.9, -239.9, -306.5, -582.3, -669.2]
+    bg, ink, red, green = "#f4efe6", "#1c1917", "#b91c1c", "#15803d"
+    fig = plt.figure(figsize=(6.4, 3.6), dpi=100 * S); fig.patch.set_facecolor(bg)
+    ax = fig.add_axes([0.47, 0.17, 0.50, 0.70]); ax.set_facecolor(bg)
+    cols = [green if v > 0 else red for v in flows]
+    ax.bar(range(5), flows, color=cols, width=0.62)
+    ax.axhline(0, color=ink, linewidth=0.9)
+    for i, v in enumerate(flows):
+        ax.text(i, v - 18 if v < 0 else v + 12, (f"+{v:,.1f}" if v > 0 else f"{v:,.0f}"), ha="center",
+                va="top" if v < 0 else "bottom", color=ink, fontsize=7.5, fontweight="bold")
+    ax.set_ylim(-760, 60)
+    ax.set_xticks(range(5)); ax.set_xticklabels(days)
+    for sp in ("top", "right", "left", "bottom"): ax.spines[sp].set_visible(False)
+    ax.tick_params(axis="x", colors="#44403c", labelsize=7, length=0, pad=4)
+    ax.tick_params(axis="y", left=False, labelleft=False)
+    ax.xaxis.set_ticks_position("top")
+    fig.text(0.05, 0.80, "WEEKLY OUTFLOW", color=red, fontsize=9, fontweight="bold", va="center")
+    fig.text(0.05, 0.64, "-$1.79B", color=ink, fontsize=40, fontweight="bold", va="center")
+    fig.text(0.05, 0.47, "U.S. spot bitcoin ETFs", color=ink, fontsize=11, fontweight="bold", va="center")
+    fig.text(0.05, 0.39, "Nov. 16-20, 2026", color="#57534e", fontsize=10, va="center")
+    fig.text(0.05, 0.25, "4th losing week in a row", color=red, fontsize=10, fontweight="bold", va="center")
+    fig.text(0.05, 0.10, "Daily net flows, US$ millions (Farside Investors)", color="#78716c", fontsize=6.8, va="center")
+    fig.add_artist(plt.Line2D([0.43, 0.43], [0.10, 0.90], color="#d6cfc2", linewidth=1))
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100 * S, facecolor=bg); plt.close(fig); buf.seek(0)
+    im = Image.open(buf).convert("RGB")
+    return im, {"kind": "chart", "sources": [
+        {"file": "Farside Investors Bitcoin ETF Flow - All Data", "license": "Public data, cited", "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/", "credit": "Daily U.S. spot bitcoin ETF net flows, Nov. 16-20, 2026 (read Nov. 23, 2026)"}
+    ]}
+
+
+def thumb_strategy_457_btc():
+    """Light 'money flow' diagram from Strategy's Nov. 23, 2026 Form 8-K: $176.7M raised from MSTR sales ->
+    $29.6M bitcoin (457 BTC) vs $147.0M STRC buybacks (+$64.8M from USD Cash = $211.8M). Strategy logo (public domain, Wikimedia)."""
+    logo = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/3/3e/Strategy_logo_%282025%29.svg", CACHE/"strategy-logo-2025.svg")).convert("RGBA")
+    base = gradient_bg(top=(255, 250, 243), bottom=(250, 236, 218))
+    d = Draw(base)
+    ink, mute, orange, blue = (28, 25, 23), (87, 83, 78), (234, 88, 12), (3, 105, 161)
+    paste_contain(base, logo, (22, 18, 170, 52), pad=4)
+    d.text((206, 30), "Form 8-K · week of Nov. 16-22, 2026", font=font(FONT_R, 13), fill=mute)
+    # source box
+    d.rounded_rectangle([24, 120, 214, 236], radius=14, fill=(255, 255, 255), outline=(214, 211, 209), width=2)
+    d.text((40, 134), "MSTR stock sold", font=font(FONT_R, 13), fill=mute)
+    d.text((40, 156), "$176.7M", font=font(FONT_B, 34), fill=ink)
+    d.text((40, 204), "1,925,676 shares", font=font(FONT_R, 12), fill=mute)
+    # arrows
+    d.line([(214, 160), (300, 112)], fill=orange, width=4)
+    d.line([(214, 200), (300, 262)], fill=blue, width=10)
+    # targets
+    d.rounded_rectangle([300, 70, 616, 156], radius=14, fill=(255, 237, 213), outline=orange, width=2)
+    d.text((318, 80), "Bitcoin bought", font=font(FONT_R, 13), fill=mute)
+    d.text((318, 100), "$29.6M", font=font(FONT_B, 30), fill=orange)
+    d.text((462, 108), "= 457 BTC", font=font(FONT_B, 17), fill=ink)
+    d.rounded_rectangle([300, 196, 616, 300], radius=14, fill=(224, 242, 254), outline=blue, width=2)
+    d.text((318, 206), "STRC preferred bought back", font=font(FONT_R, 13), fill=mute)
+    d.text((318, 226), "$147.0M", font=font(FONT_B, 30), fill=blue)
+    d.text((318, 270), "+ $64.8M from cash = $211.8M total", font=font(FONT_B, 13), fill=ink)
+    d.text((24, 322), "Now holds 851,305 BTC · average cost $75,446", font=font(FONT_B, 15), fill=ink)
+    return base, {"kind": "diagram", "sources": [
+        {"file": "Strategy_logo_(2025).svg", "license": "Public domain", "url": "https://commons.wikimedia.org/wiki/File:Strategy_logo_(2025).svg", "credit": "Strategy logo"},
+        {"file": "Strategy Form 8-K, Nov. 23, 2026", "license": "Figures cited", "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526470961/mstr-20261123.htm", "credit": "Strategy Inc"}
+    ], "note": "Editorial diagram; logo for identification; trademarks belong to their owners."}
+
+
 BUILDERS = {
+    "bitcoin-etfs-1-79-billion-weekly-outflow-fourth-week-nov-2026": thumb_etf_weekly_179,
+    "strategy-buys-457-bitcoin-212-million-strc-buyback-nov-2026": thumb_strategy_457_btc,
     "bitcoin-61500-abraxas-capital-1-billion-btc-off-exchanges-nov-2026": thumb_abraxas_withdrawals,
     "fusionist-ace-bridge-exploit-10-quintillion-tokens-nov-2026": thumb_fusionist_ace,
     "trump-memecoin-second-dinner-token-down-99-percent-nov-2026": thumb_trump_dinner,

@@ -1,0 +1,61 @@
+title: Bitcoin ETFs lose $1.79 billion in a week, their fourth straight week of outflows
+page_title: Bitcoin ETFs lose $1.79 billion in a week, fourth week of outflows
+description: U.S. spot bitcoin ETFs lost a net $1.79 billion in the week of Nov. 16 to 20, their biggest weekly outflow since June and fourth losing week in a row. BlackRock's IBIT set a new one-day outflow record of $544.7 million on Friday.
+og_description: Investors pulled about $1.79 billion from U.S. spot bitcoin ETFs last week, the most since June. November outflows now total about $4.14 billion. Bitcoin bounced back near $62,900 on Monday. What the numbers mean, in plain English.
+label: Market news
+summary: U.S. spot bitcoin ETFs lost a net $1.79 billion from Nov. 16 to 20, the fourth losing week in a row and the biggest since June. BlackRock's IBIT lost $544.7 million on Friday alone, a new one-day record. Bitcoin bounced to about $62,900 on Monday.
+===
+
+Big investors kept leaving bitcoin funds last week. U.S. spot bitcoin exchange-traded funds (ETFs) lost a net <strong>$1.79 billion</strong> from Monday, Nov. 16, to Friday, Nov. 20, according to daily data from [Farside Investors](L1). It was the fourth week in a row of net withdrawals.
+
+[The Block reported](L2), citing SoSoValue data, that it was the largest weekly outflow since the week that ended June 26, 2026. About <strong>$4.14 billion</strong> has now left these funds in November, and their total assets fell to about $71.35 billion on Friday, down from roughly $110 billion in mid-September.
+
+!takeaways
+- U.S. spot bitcoin ETFs lost a net $1.79 billion in the week of Nov. 16 to 20, their fourth straight losing week and the biggest weekly outflow since June.
+- BlackRock's IBIT lost $544.7 million on Friday, Nov. 20, a new one-day record, just a day after its previous record of $541.1 million.
+- November outflows total about $4.14 billion, and the funds held about $71.35 billion on Friday, versus roughly $110 billion in mid-September.
+- Bitcoin bounced from a weekend low of $55,100 on Kraken to about $62,900 on Monday morning.
+
+!figure:chart
+
+## A week of withdrawals
+
+Farside's table shows how the week built up. Monday, Nov. 16, ended with a small net inflow of $7.9 million. Then came four losing days in a row: $239.9 million out on Tuesday, $306.5 million on Wednesday, $582.3 million on Thursday and $669.2 million on Friday. Each day was bigger than the one before.
+
+BlackRock's iShares Bitcoin Trust (IBIT), the largest fund, accounted for about $1.37 billion of the week's outflows. On Thursday it lost $541.1 million, its biggest day of withdrawals since it launched in January 2024. On Friday it lost <strong>$544.7 million</strong>, breaking that record a day later, according to Farside's full history.
+
+The selling also hit ether funds. U.S. spot ether ETFs lost about $314 million last week, their eighth losing week in a row, The Block said, citing SoSoValue.
+
+!figure:fact
+
+## Why investors are pulling back
+
+Analysts quoted by The Block pointed to fear and to interest rates. Rick Maeda of Laevitas called the outflows "mostly risk reduction" and noted they came while bitcoin slid from around $80,000 at the start of the month to the low $60,000s. Dan Khus of LVRG Research said this four-week streak "appears more structural" than earlier ones, because it came with steady price pressure and big investors focusing on protecting their money.
+
+Stocks had a rough week too. The Nasdaq Composite fell about 10% and the S&P 500 dropped 8.6%, The Block reported. Many traders also expect the Federal Reserve to raise interest rates again in December. According to [CoinDesk](L4), futures markets now price a quarter-point hike to a range of 4% to 4.25%, and no longer expect a bigger half-point move. Higher rates tend to make risky assets like bitcoin less attractive.
+
+!mid_cta
+
+## Bitcoin bounces on Monday
+
+Prices recovered some ground after a rough weekend. Bitcoin fell as low as <strong>$55,100</strong> on Kraken early Saturday, Nov. 21, according to PlainBTC's check of Kraken's [public price data](L5). On Monday morning it traded near <strong>$62,900</strong> around 8 a.m. Central time, after touching about $63,800 earlier in the day.
+
+[CoinDesk reported](L3) that U.S. stock futures rose about 2% to 3% on Monday, which helped crypto. It said a return to ETF inflows would be a key sign that the bounce has real buyers behind it, and not just traders closing bets against bitcoin.
+
+## What it means for beginners
+
+An ETF outflow means more people sold shares of a fund than bought them, so the fund usually sells some of the bitcoin it holds. Large outflows can add to selling pressure, but they often follow falling prices instead of predicting the next move. Nobody knows when the flows will turn.
+
+If you want bitcoin exposure, you can buy an ETF in a brokerage account or buy bitcoin directly on a large regulated exchange such as [Coinbase](REF). Many beginners start small and spread purchases over time instead of trying to catch the bottom. Only invest money you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Daily ETF flow data this week, to see if the four-week outflow streak ends.
+- The U.S. PCE inflation report on Wednesday, which could shape the Fed's December decision.
+- Whether bitcoin can hold above $60,000 during the short Thanksgiving trading week.
+
+!soft: Not sure whether a fund or the coin itself suits you? Read [Bitcoin ETF vs. buying bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

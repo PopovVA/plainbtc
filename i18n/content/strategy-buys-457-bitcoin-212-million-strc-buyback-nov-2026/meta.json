@@ -1,0 +1,21 @@
+{
+ "slug": "strategy-buys-457-bitcoin-212-million-strc-buyback-nov-2026",
+ "date": "2026-11-23",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "strategy-buys-485-bitcoin-strive-251-nov-2026",
+  "bitcoin-etfs-1-79-billion-weekly-outflow-fourth-week-nov-2026",
+  "msci-drops-strategy-bitcoin-falls-nvidia-nov-2026",
+  "crypto-treasury-firms-loans-nakamoto-btcs-nov-2026",
+  "bitcoin-new-2026-low-57661-strategy-shares-sink-nov-2026",
+  "how-much-bitcoin-should-a-beginner-buy-dca"
+ ],
+ "sources": [
+  {"url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526470961/mstr-20261123.htm", "title": "Strategy Inc Form 8-K, Nov. 23, 2026 (SEC EDGAR)", "date": "Nov 23, 2026"},
+  {"url": "https://www.strategy.com/press/strategy-acquires-457-btc-repurchases-212-million-of-strc-increases-digital-credit-repurchase-program-by-1b-reallocates-1b-from-usd-reserve-to-usd-cash_11-23-2026", "title": "Strategy: Strategy Acquires 457 BTC, Repurchases $212 Million of STRC, Increases Digital Credit Repurchase Program by $1B", "date": "Nov 23, 2026"},
+  {"url": "https://www.theblock.co/news/business/2026-11-23-the-dots-arent-done-michael-saylor-bitcoin-444907", "title": "The Block: 'The dots aren't done,' Michael Saylor says as Strategy buys another 457 BTC for $30 million", "date": "Nov 23, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: public BTC/USD price data (OHLC)", "date": "Nov 23, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

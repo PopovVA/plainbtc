@@ -4965,7 +4965,112 @@ def build_trump_dinner():
     ]
 
 
+def build_etf_weekly_179():
+    slug = "bitcoin-etfs-1-79-billion-weekly-outflow-fourth-week-nov-2026"
+    d = OUT / slug
+    # Weekly sums of Farside's daily "Total" column (US$m), weeks starting Sep 28 - Nov 16, 2026, frozen in chart-data.json.
+    data = json.loads((I18N / slug / "chart-data.json").read_text(encoding="utf-8"))
+    labels = ["Week of " + w[0] if i == 0 else w[0] for i, w in enumerate(data["weeks"])]
+    vals = [w[1] for w in data["weeks"]]
+    cols = ["#34d399" if v > 0 else "#f87171" for v in vals]
+    chart = make_bar_chart(
+        d / "chart-btc-etf-weekly-flows",
+        labels, vals,
+        title="U.S. spot bitcoin ETFs: weekly net flows, Sep. 28 - Nov. 20, 2026 (US$ millions)",
+        colors=cols,
+        value_fmt=lambda v: (f"+${v:,.0f}M" if v > 0 else f"-${-v:,.0f}M"),
+        axis_fmt=lambda x, _p: f"${x:,.0f}M",
+    )
+    fact = make_fact_card(
+        d / "fact-ibit-544-7-million-record",
+        "BlackRock IBIT · Friday, Nov. 20, 2026",
+        "-$544.7 million",
+        "IBIT's biggest one-day outflow since its 2024 launch, beating the $541.1 million record set a day earlier.",
+        footer="Farside Investors, daily IBIT flows since Jan. 2024",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of weekly net flows into U.S. spot bitcoin ETFs from the week of Sep. 28 to the week of Nov. 16, 2026: +$241M, -$679M, -$228M, +$301M, then four straight weeks of outflows: -$202M, -$1,282M, -$1,065M and -$1,790M", {
+            "es": "Gráfico de barras de los flujos netos semanales de los ETF de bitcoin al contado de EE. UU. desde la semana del 28 de septiembre hasta la del 16 de noviembre de 2026: +241 M$, -679 M$, -228 M$, +301 M$ y luego cuatro semanas seguidas de salidas: -202 M$, -1.282 M$, -1.065 M$ y -1.790 M$",
+            "pt": "Gráfico de barras dos fluxos líquidos semanais dos ETFs de bitcoin à vista dos EUA da semana de 28 de setembro à de 16 de novembro de 2026: +US$ 241 mi, -US$ 679 mi, -US$ 228 mi, +US$ 301 mi e depois quatro semanas seguidas de saídas: -US$ 202 mi, -US$ 1.282 mi, -US$ 1.065 mi e -US$ 1.790 mi",
+            "fr": "Graphique en barres des flux nets hebdomadaires des ETF bitcoin au comptant américains, de la semaine du 28 septembre à celle du 16 novembre 2026 : +241 M$, -679 M$, -228 M$, +301 M$, puis quatre semaines de sorties d'affilée : -202 M$, -1 282 M$, -1 065 M$ et -1 790 M$",
+            "de": "Balkendiagramm der wöchentlichen Nettozuflüsse der US-Spot-Bitcoin-ETFs von der Woche ab 28. September bis zur Woche ab 16. November 2026: +241 Mio. $, -679 Mio. $, -228 Mio. $, +301 Mio. $, danach vier Abflusswochen in Folge: -202 Mio. $, -1.282 Mio. $, -1.065 Mio. $ und -1.790 Mio. $",
+            "ru": "Столбчатая диаграмма недельных чистых потоков американских спотовых биткоин-ETF с недели 28 сентября по неделю 16 ноября 2026 года: +$241 млн, -$679 млн, -$228 млн, +$301 млн, затем четыре недели оттока подряд: -$202 млн, -$1282 млн, -$1065 млн и -$1790 млн",
+            "tr": "ABD spot bitcoin ETF'lerinin 28 Eylül haftasından 16 Kasım 2026 haftasına kadar haftalık net akışlarının çubuk grafiği: +241 milyon $, -679 milyon $, -228 milyon $, +301 milyon $, ardından üst üste dört haftalık çıkış: -202 milyon $, -1.282 milyon $, -1.065 milyon $ ve -1.790 milyon $",
+            "id": "Grafik batang arus bersih mingguan ETF bitcoin spot AS dari pekan 28 September hingga pekan 16 November 2026: +US$241 juta, -US$679 juta, -US$228 juta, +US$301 juta, lalu empat pekan arus keluar berturut-turut: -US$202 juta, -US$1.282 juta, -US$1.065 juta, dan -US$1.790 juta",
+            "ja": "米国の現物ビットコインETFの週間純フローの棒グラフ（2026年9月28日の週から11月16日の週まで）：プラス2億4100万ドル、マイナス6億7900万ドル、マイナス2億2800万ドル、プラス3億100万ドルの後、4週連続の流出：マイナス2億200万ドル、マイナス12億8200万ドル、マイナス10億6500万ドル、マイナス17億9000万ドル",
+            "ko": "2026년 9월 28일 주간부터 11월 16일 주간까지 미국 현물 비트코인 ETF의 주간 순흐름 막대 차트: +2억4100만 달러, -6억7900만 달러, -2억2800만 달러, +3억100만 달러, 이후 4주 연속 유출: -2억200만 달러, -12억8200만 달러, -10억6500만 달러, -17억9000만 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Farside Investors")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: BlackRock's IBIT lost a net $544.7 million on Friday, Nov. 20, 2026, its biggest one-day outflow since its 2024 launch, beating the $541.1 million record set a day earlier", {
+            "es": "Tarjeta de datos: el IBIT de BlackRock perdió 544,7 millones de dólares netos el viernes 20 de noviembre de 2026, su mayor salida en un día desde su lanzamiento en 2024, por encima del récord de 541,1 millones fijado un día antes",
+            "pt": "Cartão de dados: o IBIT da BlackRock perdeu US$ 544,7 milhões líquidos na sexta-feira, 20 de novembro de 2026, sua maior saída em um dia desde o lançamento em 2024, superando o recorde de US$ 541,1 milhões do dia anterior",
+            "fr": "Fiche chiffrée : l'IBIT de BlackRock a perdu 544,7 millions de dollars nets le vendredi 20 novembre 2026, sa plus forte sortie sur une journée depuis son lancement en 2024, au-delà du record de 541,1 millions établi la veille",
+            "de": "Faktenkarte: BlackRocks IBIT verlor am Freitag, 20. November 2026, netto 544,7 Mio. $, der größte Tagesabfluss seit dem Start 2024, und übertraf damit den Rekord von 541,1 Mio. $ vom Vortag",
+            "ru": "Карточка с фактом: из IBIT от BlackRock в пятницу, 20 ноября 2026 года, ушло $544,7 млн чистыми, это крупнейший дневной отток с запуска фонда в 2024 году, выше рекорда в $541,1 млн, установленного днём ранее",
+            "tr": "Bilgi kartı: BlackRock'ın IBIT fonundan 20 Kasım 2026 Cuma günü net 544,7 milyon $ çıktı; bu, fonun 2024'teki lansmanından bu yana en büyük günlük çıkış ve bir gün önceki 541,1 milyon $'lık rekoru geride bırakıyor",
+            "id": "Kartu fakta: IBIT milik BlackRock kehilangan bersih US$544,7 juta pada Jumat, 20 November 2026, arus keluar harian terbesar sejak peluncurannya pada 2024, melampaui rekor US$541,1 juta sehari sebelumnya",
+            "ja": "ファクトカード：ブラックロックのIBITは2026年11月20日（金）に純額5億4470万ドルの流出。2024年の上場以来最大の1日の流出で、前日に記録した5億4110万ドルを上回った",
+            "ko": "팩트 카드: 블랙록 IBIT에서 2026년 11월 20일(금) 순 5억4470만 달러가 빠져나가 2024년 출시 이후 최대 일일 유출을 기록, 하루 전 세운 5억4110만 달러 기록을 넘어섬",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Farside Investors")},
+    ]
+
+
+def build_strategy_457():
+    slug = "strategy-buys-457-bitcoin-212-million-strc-buyback-nov-2026"
+    d = OUT / slug
+    # Strategy Form 8-K, Nov. 23, 2026 (period Nov. 16-22): BTC purchases $29.6M, STRC repurchases $211.8M, preferred dividends paid from USD Reserve $17.6M.
+    chart = make_bar_chart(
+        d / "chart-strategy-uses-of-cash-nov-16-22",
+        ["Bitcoin bought\n(457 BTC)", "STRC shares\nbought back", "Preferred dividends\npaid"],
+        [29.6, 211.8, 17.6],
+        title="Where Strategy's money went, Nov. 16-22, 2026 (US$ millions)",
+        colors=["#f7931a", "#38bdf8", "#94a3b8"],
+        value_fmt=lambda v: f"${v:,.1f}M",
+        axis_fmt=lambda x, _p: f"${x:,.0f}M",
+    )
+    fact = make_fact_card(
+        d / "fact-strategy-851305-btc",
+        "Strategy bitcoin holdings · Nov. 22, 2026",
+        "851,305 BTC",
+        "bought for about $64.23 billion, an average of $75,446 per coin. Last week's 457 BTC cost $64,898 each.",
+        footer="Strategy Form 8-K, Nov. 23, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of how Strategy used its money from Nov. 16 to 22, 2026: $29.6 million on 457 bitcoin, $211.8 million buying back STRC preferred shares and $17.6 million on preferred dividends", {
+            "es": "Gráfico de barras de cómo usó Strategy su dinero del 16 al 22 de noviembre de 2026: 29,6 millones de dólares en 457 bitcoins, 211,8 millones en recomprar acciones preferentes STRC y 17,6 millones en dividendos preferentes",
+            "pt": "Gráfico de barras de como a Strategy usou seu dinheiro de 16 a 22 de novembro de 2026: US$ 29,6 milhões em 457 bitcoins, US$ 211,8 milhões na recompra de ações preferenciais STRC e US$ 17,6 milhões em dividendos preferenciais",
+            "fr": "Graphique en barres de l'utilisation de l'argent de Strategy du 16 au 22 novembre 2026 : 29,6 millions de dollars pour 457 bitcoins, 211,8 millions pour racheter des actions privilégiées STRC et 17,6 millions de dividendes privilégiés",
+            "de": "Balkendiagramm, wofür Strategy vom 16. bis 22. November 2026 Geld ausgab: 29,6 Mio. $ für 457 Bitcoin, 211,8 Mio. $ für den Rückkauf von STRC-Vorzugsaktien und 17,6 Mio. $ für Vorzugsdividenden",
+            "ru": "Столбчатая диаграмма расходов Strategy с 16 по 22 ноября 2026 года: $29,6 млн на 457 биткоинов, $211,8 млн на выкуп привилегированных акций STRC и $17,6 млн на дивиденды по привилегированным акциям",
+            "tr": "Strategy'nin 16-22 Kasım 2026 arasında parasını nasıl kullandığını gösteren çubuk grafik: 457 bitcoin için 29,6 milyon $, STRC imtiyazlı hisselerinin geri alımı için 211,8 milyon $ ve imtiyazlı hisse temettüleri için 17,6 milyon $",
+            "id": "Grafik batang penggunaan dana Strategy pada 16-22 November 2026: US$29,6 juta untuk 457 bitcoin, US$211,8 juta untuk membeli kembali saham preferen STRC, dan US$17,6 juta untuk dividen saham preferen",
+            "ja": "2026年11月16日から22日にストラテジーが資金をどう使ったかを示す棒グラフ：457ビットコインの購入に2960万ドル、STRC優先株の買い戻しに2億1180万ドル、優先株配当に1760万ドル",
+            "ko": "2026년 11월 16~22일 스트래티지의 자금 사용처 막대 차트: 비트코인 457개 매수에 2960만 달러, STRC 우선주 재매입에 2억1180만 달러, 우선주 배당에 1760만 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Strategy Form 8-K, Nov. 23, 2026")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: Strategy held 851,305 bitcoin as of Nov. 22, 2026, bought for about $64.23 billion at an average of $75,446 per coin; last week's 457 BTC cost $64,898 each", {
+            "es": "Tarjeta de datos: Strategy tenía 851.305 bitcoins al 22 de noviembre de 2026, comprados por unos 64.230 millones de dólares a un promedio de 75.446 dólares por moneda; los 457 BTC de la semana pasada costaron 64.898 dólares cada uno",
+            "pt": "Cartão de dados: a Strategy tinha 851.305 bitcoins em 22 de novembro de 2026, comprados por cerca de US$ 64,23 bilhões a uma média de US$ 75.446 por moeda; os 457 BTC da semana passada custaram US$ 64.898 cada",
+            "fr": "Fiche chiffrée : Strategy détenait 851 305 bitcoins au 22 novembre 2026, achetés pour environ 64,23 milliards de dollars, soit 75 446 dollars en moyenne par bitcoin ; les 457 BTC de la semaine dernière ont coûté 64 898 dollars pièce",
+            "de": "Faktenkarte: Strategy hielt am 22. November 2026 851.305 Bitcoin, gekauft für rund 64,23 Mrd. $ zu durchschnittlich 75.446 $ je Coin; die 457 BTC der Vorwoche kosteten je 64.898 $",
+            "ru": "Карточка с фактом: на 22 ноября 2026 года у Strategy было 851 305 биткоинов, купленных примерно за $64,23 млрд по средней цене $75 446 за монету; 457 BTC за прошлую неделю обошлись по $64 898 за штуку",
+            "tr": "Bilgi kartı: Strategy 22 Kasım 2026 itibarıyla 851.305 bitcoin tutuyordu; bunları coin başına ortalama 75.446 $'dan yaklaşık 64,23 milyar $'a aldı; geçen haftaki 457 BTC'nin her biri 64.898 $'a mal oldu",
+            "id": "Kartu fakta: Strategy memegang 851.305 bitcoin per 22 November 2026, dibeli sekitar US$64,23 miliar dengan rata-rata US$75.446 per koin; 457 BTC pekan lalu dibeli seharga US$64.898 per koin",
+            "ja": "ファクトカード：ストラテジーは2026年11月22日時点で851,305ビットコインを保有。取得総額は約642億3000万ドル、平均取得価格は1枚75,446ドル。先週の457BTCは1枚64,898ドル",
+            "ko": "팩트 카드: 스트래티지는 2026년 11월 22일 기준 비트코인 851,305개를 보유, 총 약 642억3000만 달러에 개당 평균 75,446달러로 매수. 지난주 457 BTC는 개당 64,898달러",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Strategy Form 8-K, Nov. 23, 2026")},
+    ]
+
+
 BUILDERS = {
+    "bitcoin-etfs-1-79-billion-weekly-outflow-fourth-week-nov-2026": "etf179",
+    "strategy-buys-457-bitcoin-212-million-strc-buyback-nov-2026": "mstr457",
     "fusionist-ace-bridge-exploit-10-quintillion-tokens-nov-2026": "fusionist",
     "trump-memecoin-second-dinner-token-down-99-percent-nov-2026": "trumpdinner",
     "bitcoin-61500-abraxas-capital-1-billion-btc-off-exchanges-nov-2026": "abraxas",
@@ -5053,7 +5158,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "fusionist":
+    if key == "etf179":
+        figs = build_etf_weekly_179()
+    elif key == "mstr457":
+        figs = build_strategy_457()
+    elif key == "fusionist":
         figs = build_fusionist_ace()
     elif key == "trumpdinner":
         figs = build_trump_dinner()

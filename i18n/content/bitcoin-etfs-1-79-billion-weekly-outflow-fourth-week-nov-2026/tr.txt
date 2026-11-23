@@ -1,0 +1,61 @@
+title: Bitcoin ETF'leri bir haftada 1,79 milyar dolar kaybetti, üst üste dördüncü çıkış haftası
+page_title: Bitcoin ETF'leri bir haftada 1,79 milyar dolar kaybetti, dördüncü çıkış haftası
+description: ABD spot bitcoin ETF'leri 16-20 Kasım haftasında net 1,79 milyar dolar kaybetti. Bu, haziran ayından bu yana en büyük haftalık çıkış ve üst üste dördüncü kayıp haftası. BlackRock'ın IBIT fonu cuma günü 544,7 milyon dolarla yeni bir günlük çıkış rekoru kırdı.
+og_description: Yatırımcılar geçen hafta ABD spot bitcoin ETF'lerinden yaklaşık 1,79 milyar dolar çekti; bu, hazirandan bu yana en yüksek rakam. Kasım ayındaki çıkışlar yaklaşık 4,14 milyar dolara ulaştı. Bitcoin pazartesi günü yaklaşık 62.900 dolara toparlandı. Rakamların anlamı, sade bir dille.
+label: Piyasa
+summary: ABD spot bitcoin ETF'leri 16-20 Kasım arasında net 1,79 milyar dolar kaybetti; bu, üst üste dördüncü kayıp haftası ve hazirandan bu yana en kötüsü. BlackRock'ın IBIT fonu yalnızca cuma günü 544,7 milyon dolar kaybederek yeni bir günlük rekor kırdı. Bitcoin pazartesi günü yaklaşık 62.900 dolara toparlandı.
+===
+
+Büyük yatırımcılar geçen hafta da bitcoin fonlarından çıkmaya devam etti. ABD'deki borsada işlem gören spot bitcoin fonları (ETF'ler), [Farside Investors](L1) günlük verilerine göre 16 Kasım pazartesi ile 20 Kasım cuma arasında net <strong>1,79 milyar dolar</strong> kaybetti. Bu, üst üste dördüncü net çıkış haftası oldu.
+
+[The Block](L2), SoSoValue verilerine dayanarak bunun 26 Haziran 2026'da sona eren haftadan bu yana en büyük haftalık çıkış olduğunu bildirdi. Kasım ayında bu fonlardan şimdiden yaklaşık <strong>4,14 milyar dolar</strong> çıktı ve toplam varlıkları cuma günü yaklaşık 71,35 milyar dolara geriledi; eylül ortasında bu rakam yaklaşık 110 milyar dolardı.
+
+!takeaways
+- ABD spot bitcoin ETF'leri 16-20 Kasım haftasında net 1,79 milyar dolar kaybetti; bu, üst üste dördüncü kayıp haftası ve hazirandan bu yana en büyük haftalık çıkış.
+- BlackRock'ın IBIT fonu 20 Kasım cuma günü 544,7 milyon dolar kaybetti; bu, bir gün önceki 541,1 milyon dolarlık rekorun hemen ardından gelen yeni bir günlük rekor.
+- Kasım çıkışları yaklaşık 4,14 milyar dolara ulaştı; fonların cuma günkü varlıkları yaklaşık 71,35 milyar dolar, eylül ortasında ise yaklaşık 110 milyar dolardı.
+- Bitcoin, Kraken'de hafta sonu gördüğü 55.100 dolarlık dipten pazartesi sabahı yaklaşık 62.900 dolara toparlandı.
+
+!figure:chart
+
+## Çıkışlarla geçen bir hafta
+
+Farside'ın tablosu haftanın nasıl geliştiğini gösteriyor. 16 Kasım pazartesi, 7,9 milyon dolarlık küçük bir net girişle kapandı. Ardından üst üste dört kayıp günü geldi: salı 239,9 milyon, çarşamba 306,5 milyon, perşembe 582,3 milyon ve cuma 669,2 milyon dolar çıktı. Her gün bir öncekinden daha büyüktü.
+
+En büyük fon olan BlackRock'ın iShares Bitcoin Trust (IBIT) fonu, haftalık çıkışların yaklaşık 1,37 milyar dolarını oluşturdu. Perşembe günü 541,1 milyon dolar kaybetti; bu, Ocak 2024'teki lansmanından bu yana en büyük çıkış günüydü. Cuma günü ise <strong>544,7 milyon dolar</strong> kaybederek bu rekoru bir gün sonra kırdı; bu bilgi Farside'ın tüm geçmiş verilerine dayanıyor.
+
+Satışlar ether fonlarını da vurdu. The Block'un SoSoValue'ya dayandırdığı habere göre ABD spot ether ETF'leri geçen hafta yaklaşık 314 milyon dolar kaybetti ve üst üste sekizinci kayıp haftasını yaşadı.
+
+!figure:fact
+
+## Yatırımcılar neden geri çekiliyor
+
+The Block'un görüştüğü analistler korkuya ve faiz oranlarına dikkat çekti. Laevitas'tan Rick Maeda çıkışları "çoğunlukla risk azaltma" olarak nitelendirdi ve bunların, bitcoin ay başındaki yaklaşık 80.000 dolardan 60.000'lerin alt kısmına gerilerken yaşandığını belirtti. LVRG Research'ten Dan Khus ise bu dört haftalık serinin öncekilerden "daha yapısal göründüğünü" söyledi; çünkü seri, sürekli fiyat baskısı ve paralarını korumaya odaklanan büyük yatırımcılarla birlikte geliyor.
+
+Hisse senetleri için de zor bir hafta oldu. The Block'a göre Nasdaq Composite yaklaşık yüzde 10, S&P 500 ise yüzde 8,6 düştü. Birçok yatırımcı ayrıca ABD Merkez Bankası Fed'in aralıkta faizleri yeniden artırmasını bekliyor. [CoinDesk](L4)'e göre vadeli işlem piyasaları artık faizin çeyrek puan artırılarak yüzde 4 ile yüzde 4,25 aralığına çıkmasını fiyatlıyor ve yarım puanlık daha büyük bir artış beklemiyor. Daha yüksek faizler genellikle bitcoin gibi riskli varlıkları daha az cazip hâle getirir.
+
+!mid_cta
+
+## Bitcoin pazartesi toparlanıyor
+
+Zor bir hafta sonunun ardından fiyatlar biraz toparlandı. PlainBTC'nin Kraken'in [herkese açık fiyat verileri](L5) üzerindeki kontrolüne göre bitcoin, 21 Kasım cumartesi sabahının erken saatlerinde Kraken'de <strong>55.100 dolara</strong> kadar düştü. Pazartesi sabahı ABD Merkezi saatiyle 8 civarında yaklaşık <strong>62.900 dolardan</strong> işlem görüyordu; gün içinde daha önce yaklaşık 63.800 dolara kadar çıkmıştı.
+
+[CoinDesk](L3), ABD hisse senedi vadeli işlemlerinin pazartesi günü yüzde 2 ile yüzde 3 arasında yükseldiğini ve bunun kriptoya destek olduğunu bildirdi. Habere göre ETF'lere yeniden giriş başlaması, toparlanmanın ardında yalnızca bitcoin aleyhine pozisyonlarını kapatan yatırımcılar değil, gerçek alıcılar olduğunun önemli bir işareti olur.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+ETF çıkışı, fonun paylarının alınandan daha fazla satıldığı anlamına gelir; bu yüzden fon genellikle elindeki bitcoinin bir kısmını satar. Büyük çıkışlar satış baskısını artırabilir, ancak çoğu zaman bir sonraki hareketi öngörmek yerine düşen fiyatların ardından gelir. Akışların ne zaman döneceğini kimse bilmiyor.
+
+Bitcoine yatırım yapmak istiyorsanız, bir aracı kurum hesabında ETF alabilir ya da [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsadan doğrudan bitcoin alabilirsiniz. Birçok yeni başlayan, dibi yakalamaya çalışmak yerine küçük tutarlarla başlar ve alımlarını zamana yayar. Yalnızca kaybetmeyi göze alabileceğiniz parayla yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye dikkat etmeli
+
+- Dört haftalık çıkış serisinin bitip bitmeyeceğini görmek için bu haftaki günlük ETF akış verileri.
+- Fed'in aralık kararını etkileyebilecek çarşamba günkü ABD PCE enflasyon raporu.
+- Bitcoinin kısa Şükran Günü işlem haftasında 60.000 doların üzerinde kalıp kalamayacağı.
+
+!soft: Fon mu yoksa coinin kendisi mi size uygun, emin değil misiniz? Okuyun: [Bitcoin ETF'si mi, bitcoin satın almak mı?](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

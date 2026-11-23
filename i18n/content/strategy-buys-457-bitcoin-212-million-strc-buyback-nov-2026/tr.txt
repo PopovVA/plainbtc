@@ -1,0 +1,61 @@
+title: Strategy 457 bitcoin daha aldı ama STRC hisselerini geri almaya yedi kat fazla harcadı
+page_title: Strategy 457 bitcoin aldı, 212 milyon dolarlık STRC geri aldı
+description: Strategy 16-22 Kasım arasında 29,6 milyon dolara 457 bitcoin aldı ve varlığı 851.305 BTC'ye ulaştı. STRC imtiyazlı hisselerini geri almak için 211,8 milyon dolar harcadı ve geri alım programını 4 milyar dolara çıkardı.
+og_description: Michael Saylor'ın şirketi Strategy geçen hafta tanesi yaklaşık 64.898 dolardan 457 bitcoin aldı ve artık 851.305 BTC tutuyor. Ancak topladığı paranın büyük kısmı kendi STRC imtiyazlı hisselerini geri almaya gitti. Bildirimde neler var, sade bir dille.
+label: Şirketler
+summary: Strategy geçen hafta 29,6 milyon dolara 457 bitcoin aldı ve ortalama 75.446 dolar maliyetle 851.305 BTC'ye ulaştı. Çok daha fazlasını, 211,8 milyon doları, STRC imtiyazlı hisselerini geri almaya harcadı ve bu geri alım programını 3 milyar dolardan 4 milyar dolara çıkardı.
+===
+
+Halka açık şirketler arasında en çok bitcoine sahip olan Strategy, geçen haftaki çöküş sırasında da alım yaptı, ancak çok az. Şirket, [pazartesi günü sunduğu 8-K formunda](L1), 16-22 Kasım arasında coin başına ücretler dahil ortalama 64.898 dolardan yaklaşık <strong>29,6 milyon dolara</strong> <strong>457 bitcoin</strong> aldığını açıkladı.
+
+Böylece varlığı, toplam yaklaşık 64,23 milyar dolara, yani bitcoin başına ortalama <strong>75.446 dolara</strong> alınmış <strong>851.305 BTC'ye</strong> ulaştı. Bildirimdeki asıl dikkat çekici nokta, paranın geri kalanının nereye gittiği: Strategy kendi STRC imtiyazlı hisselerini geri almak için <strong>211,8 milyon dolar</strong> harcadı; bu, bitcoine harcadığının yaklaşık yedi katı.
+
+!takeaways
+- Strategy 16-22 Kasım arasında coin başına ortalama 64.898 dolardan 29,6 milyon dolara 457 BTC aldı. Şu anda 851.305 BTC tutuyor.
+- Ortalama maliyeti bitcoin başına 75.446 dolar; bu, pazartesi günkü yaklaşık 62.900 dolarlık Kraken fiyatının oldukça üzerinde.
+- 211,8 milyon dolara 2.183.747 STRC imtiyazlı hissesini geri aldı ve imtiyazlı hisse geri alım programını 3 milyar dolardan 4 milyar dolara çıkardı.
+- Para, yaklaşık 1,93 milyon MSTR adi hissesinin 176,7 milyon dolara satışından ve 64,8 milyon dolarlık nakitten geldi.
+
+!figure:chart
+
+## Para nereden geldi
+
+Strategy geçen hafta, bir şirketin yeni hisseleri piyasaya yavaş yavaş satmasına olanak tanıyan "at-the-market" programı aracılığıyla 1.925.676 adet A sınıfı adi hisse (kodu MSTR) satarak <strong>176,7 milyon dolar</strong> topladı. Dört imtiyazlı hissesinden hiçbirini satmadı.
+
+Bu 176,7 milyon doların 29,6 milyon doları bitcoin alımına gitti. Kalan 147,0 milyon dolar STRC hisselerini geri almak için kullanıldı. Strategy ayrıca "USD Cash" bakiyesinden 64,8 milyon dolar daha kullanarak STRC geri alımlarını toplam 211,8 milyon dolara çıkardı. Ayrı bir dolar rezervinden de 17,6 milyon dolar imtiyazlı hisse temettüsü ödedi.
+
+## STRC neden geri alınıyor?
+
+Stretch olarak da bilinen STRC, [The Block](L3)'a göre şu anda yıllık yüzde 12 oranında değişken temettü ödeyen bir imtiyazlı hisse. Strategy bu hisseyi bitcoin alımı için para toplamak amacıyla hisse başına 100 dolardan sattı. Son dönemde bu fiyatın altında işlem görüyor.
+
+The Block'un aktardığına göre icra kurulu başkanı Michael Saylor cuma günkü canlı yayında piyasayı bir kredi daralması olarak tanımladı. Saylor, yüzde 12 oranında STRC'ye yönelik doğal talebin muhtemelen 5 milyar dolar ile 7,5 milyar dolar arasında olduğunu ve Strategy'nin dolaşımdaki STRC miktarını piyasanın destekleyeceği bir seviyeye inene kadar azalttığını söyledi. CEO Phong Le ise şirketin 95 ile 99 dolar arasındaki fiyatlardan yaklaşık 3 milyar dolarlık imtiyazlı hisse geri aldığını belirtti.
+
+Yönetim kurulu pazartesi günü bu imtiyazlı hisseler için geri alım programını 3,0 milyar dolardan <strong>4,0 milyar dolara</strong> çıkardı. [Şirketin duyurusuna](L2) göre artışın ardından hâlâ 1,12 milyar dolar kullanılabilir durumda. Kurul ayrıca yönetimin temettü rezervinden genel nakit bakiyesine 1,0 milyar dolara kadar aktarım yapmasına izin verdi. Bunun ardından rezervde 3,73 milyar dolar, nakit bakiyesinde 1,09 milyar dolar bulunuyordu.
+
+!mid_cta
+
+!figure:fact
+
+## Bitcoin, Strategy'nin maliyetinin altında
+
+Kraken'in [herkese açık fiyat verilerine](L4) göre bitcoin cumartesi sabahının erken saatlerinde Kraken'de Eylül 2024'ten bu yana en düşük seviye olan 55.100 dolara kadar düştü, pazartesi sabahı ise yaklaşık <strong>62.900 dolara</strong> toparlandı. Bu fiyatla Strategy'nin 851.305 bitcoini yaklaşık 53,5 milyar dolar ediyor; bu da şirketin ödediğinden yaklaşık 10,7 milyar dolar daha az.
+
+The Block'a göre Saylor, pazar günü "The dots aren't done" (noktalar bitmedi) yazan bir paylaşımla alımın sinyalini vermişti. Geçen haftaki alım, Strategy'nin bir hafta önce açıkladığı 485 BTC'den daha küçük.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Strategy bir hisse senedidir, bitcoin fonu değildir. Hisse fiyatı bitcoinle birlikte hareket eder, ancak şirketin ne kadar yeni hisse sattığına, ne kadar borç ve imtiyazlı hisse taşıdığına ve yatırımcıların planı hakkında ne düşündüğüne de bağlıdır. MSTR almak bitcoine sahip olmakla aynı şey değildir.
+
+Sadece bitcoin istiyorsanız, [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsadan doğrudan küçük bir miktar alabilir ya da bir aracı kurum hesabında spot bitcoin ETF'si tutabilirsiniz. Birçok yeni başlayan, hepsini bir kerede almak yerine alımlarını zamana yayar. Yalnızca kaybetmeyi göze alabileceğiniz parayla yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye dikkat etmeli
+
+- Strategy'nin gelecek hafta bitcoin almaya devam edip etmeyeceği ya da STRC geri alımlarına daha fazla harcayıp harcamayacağı.
+- STRC fiyatının 100 dolarlık ihraç fiyatıyla karşılaştırması.
+- Strategy'nin satış programında hâlâ kullanılabilir olan 17,9 milyar dolarlık MSTR hissesinin ne kadarını kullanacağı.
+
+!soft: Bitcoini adım adım almaya mı başlıyorsunuz? [Yeni başlayan biri ne kadar bitcoin almalı?](/articles/how-much-bitcoin-should-a-beginner-buy-dca) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

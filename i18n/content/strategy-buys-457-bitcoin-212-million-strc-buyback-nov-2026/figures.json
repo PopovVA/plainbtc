@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-strategy-uses-of-cash-nov-16-22.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of how Strategy used its money from Nov. 16 to 22, 2026: $29.6 million on 457 bitcoin, $211.8 million buying back STRC preferred shares and $17.6 million on preferred dividends",
+      "es": "Gráfico de barras de cómo usó Strategy su dinero del 16 al 22 de noviembre de 2026: 29,6 millones de dólares en 457 bitcoins, 211,8 millones en recomprar acciones preferentes STRC y 17,6 millones en dividendos preferentes",
+      "pt": "Gráfico de barras de como a Strategy usou seu dinheiro de 16 a 22 de novembro de 2026: US$ 29,6 milhões em 457 bitcoins, US$ 211,8 milhões na recompra de ações preferenciais STRC e US$ 17,6 milhões em dividendos preferenciais",
+      "fr": "Graphique en barres de l'utilisation de l'argent de Strategy du 16 au 22 novembre 2026 : 29,6 millions de dollars pour 457 bitcoins, 211,8 millions pour racheter des actions privilégiées STRC et 17,6 millions de dividendes privilégiés",
+      "de": "Balkendiagramm, wofür Strategy vom 16. bis 22. November 2026 Geld ausgab: 29,6 Mio. $ für 457 Bitcoin, 211,8 Mio. $ für den Rückkauf von STRC-Vorzugsaktien und 17,6 Mio. $ für Vorzugsdividenden",
+      "ru": "Столбчатая диаграмма расходов Strategy с 16 по 22 ноября 2026 года: $29,6 млн на 457 биткоинов, $211,8 млн на выкуп привилегированных акций STRC и $17,6 млн на дивиденды по привилегированным акциям",
+      "tr": "Strategy'nin 16-22 Kasım 2026 arasında parasını nasıl kullandığını gösteren çubuk grafik: 457 bitcoin için 29,6 milyon $, STRC imtiyazlı hisselerinin geri alımı için 211,8 milyon $ ve imtiyazlı hisse temettüleri için 17,6 milyon $",
+      "id": "Grafik batang penggunaan dana Strategy pada 16-22 November 2026: US$29,6 juta untuk 457 bitcoin, US$211,8 juta untuk membeli kembali saham preferen STRC, dan US$17,6 juta untuk dividen saham preferen",
+      "ja": "2026年11月16日から22日にストラテジーが資金をどう使ったかを示す棒グラフ：457ビットコインの購入に2960万ドル、STRC優先株の買い戻しに2億1180万ドル、優先株配当に1760万ドル",
+      "ko": "2026년 11월 16~22일 스트래티지의 자금 사용처 막대 차트: 비트코인 457개 매수에 2960만 달러, STRC 우선주 재매입에 2억1180만 달러, 우선주 배당에 1760만 달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Strategy Form 8-K, Nov. 23, 2026",
+      "es": "Gráfico: PlainBTC, datos: Strategy Form 8-K, Nov. 23, 2026",
+      "pt": "Gráfico: PlainBTC, dados: Strategy Form 8-K, Nov. 23, 2026",
+      "fr": "Graphique : PlainBTC, données : Strategy Form 8-K, Nov. 23, 2026",
+      "de": "Chart: PlainBTC, Daten: Strategy Form 8-K, Nov. 23, 2026",
+      "ru": "График: PlainBTC, данные: Strategy Form 8-K, Nov. 23, 2026",
+      "tr": "Grafik: PlainBTC, veri: Strategy Form 8-K, Nov. 23, 2026",
+      "id": "Grafik: PlainBTC, data: Strategy Form 8-K, Nov. 23, 2026",
+      "ja": "チャート: PlainBTC、データ: Strategy Form 8-K, Nov. 23, 2026",
+      "ko": "차트: PlainBTC, 데이터: Strategy Form 8-K, Nov. 23, 2026"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-strategy-851305-btc.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: Strategy held 851,305 bitcoin as of Nov. 22, 2026, bought for about $64.23 billion at an average of $75,446 per coin; last week's 457 BTC cost $64,898 each",
+      "es": "Tarjeta de datos: Strategy tenía 851.305 bitcoins al 22 de noviembre de 2026, comprados por unos 64.230 millones de dólares a un promedio de 75.446 dólares por moneda; los 457 BTC de la semana pasada costaron 64.898 dólares cada uno",
+      "pt": "Cartão de dados: a Strategy tinha 851.305 bitcoins em 22 de novembro de 2026, comprados por cerca de US$ 64,23 bilhões a uma média de US$ 75.446 por moeda; os 457 BTC da semana passada custaram US$ 64.898 cada",
+      "fr": "Fiche chiffrée : Strategy détenait 851 305 bitcoins au 22 novembre 2026, achetés pour environ 64,23 milliards de dollars, soit 75 446 dollars en moyenne par bitcoin ; les 457 BTC de la semaine dernière ont coûté 64 898 dollars pièce",
+      "de": "Faktenkarte: Strategy hielt am 22. November 2026 851.305 Bitcoin, gekauft für rund 64,23 Mrd. $ zu durchschnittlich 75.446 $ je Coin; die 457 BTC der Vorwoche kosteten je 64.898 $",
+      "ru": "Карточка с фактом: на 22 ноября 2026 года у Strategy было 851 305 биткоинов, купленных примерно за $64,23 млрд по средней цене $75 446 за монету; 457 BTC за прошлую неделю обошлись по $64 898 за штуку",
+      "tr": "Bilgi kartı: Strategy 22 Kasım 2026 itibarıyla 851.305 bitcoin tutuyordu; bunları coin başına ortalama 75.446 $'dan yaklaşık 64,23 milyar $'a aldı; geçen haftaki 457 BTC'nin her biri 64.898 $'a mal oldu",
+      "id": "Kartu fakta: Strategy memegang 851.305 bitcoin per 22 November 2026, dibeli sekitar US$64,23 miliar dengan rata-rata US$75.446 per koin; 457 BTC pekan lalu dibeli seharga US$64.898 per koin",
+      "ja": "ファクトカード：ストラテジーは2026年11月22日時点で851,305ビットコインを保有。取得総額は約642億3000万ドル、平均取得価格は1枚75,446ドル。先週の457BTCは1枚64,898ドル",
+      "ko": "팩트 카드: 스트래티지는 2026년 11월 22일 기준 비트코인 851,305개를 보유, 총 약 642억3000만 달러에 개당 평균 75,446달러로 매수. 지난주 457 BTC는 개당 64,898달러"
+    },
+    "caption": {
+      "en": "Source: Strategy Form 8-K, Nov. 23, 2026",
+      "es": "Fuente: Strategy Form 8-K, Nov. 23, 2026",
+      "pt": "Fonte: Strategy Form 8-K, Nov. 23, 2026",
+      "fr": "Source : Strategy Form 8-K, Nov. 23, 2026",
+      "de": "Quelle: Strategy Form 8-K, Nov. 23, 2026",
+      "ru": "Источник: Strategy Form 8-K, Nov. 23, 2026",
+      "tr": "Kaynak: Strategy Form 8-K, Nov. 23, 2026",
+      "id": "Sumber: Strategy Form 8-K, Nov. 23, 2026",
+      "ja": "出典: Strategy Form 8-K, Nov. 23, 2026",
+      "ko": "출처: Strategy Form 8-K, Nov. 23, 2026"
+    }
+  }
+]

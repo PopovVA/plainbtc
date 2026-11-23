@@ -1,0 +1,28 @@
+{
+  "kind": "diagram",
+  "sources": [
+    {
+      "file": "Strategy_logo_(2025).svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Strategy_logo_(2025).svg",
+      "credit": "Strategy logo"
+    },
+    {
+      "file": "Strategy Form 8-K, Nov. 23, 2026",
+      "license": "Figures cited",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526470961/mstr-20261123.htm",
+      "credit": "Strategy Inc"
+    }
+  ],
+  "note": "Editorial diagram; logo for identification; trademarks belong to their owners.",
+  "slug": "strategy-buys-457-bitcoin-212-million-strc-buyback-nov-2026",
+  "generated": "2026-11-23T14:10Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}
