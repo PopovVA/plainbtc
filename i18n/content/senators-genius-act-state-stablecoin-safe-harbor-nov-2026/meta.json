@@ -4,17 +4,38 @@
  "readtime": 4,
  "primary_partner": "coinbase",
  "related": [
+  "cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026",
   "banks-270-million-stablecoin-project-faro-nov-2026",
   "coinbase-occ-national-trust-charter-nov-2026",
   "stablecoin-supply-shrinks-usdt-tether-nov-2026",
   "pnc-coinbase-usdc-payments-pilot-nov-2026"
  ],
  "sources": [
-  {"url": "https://www.lummis.senate.gov/press-releases/lummis-gillibrand-colleagues-urge-treasury-to-give-state-stablecoin-issuers-equal-footing-with-federal-issuers/", "title": "Office of Sen. Cynthia Lummis: Lummis, Gillibrand, colleagues urge Treasury to give state stablecoin issuers equal footing with federal issuers", "date": "Nov 18, 2026"},
-  {"url": "https://www.theblock.co/news/regulation/2026-11-18-senators-treasury-must-ensure-equal-footing-for-stablecoin-issuers-in-genius-act-implementation-443501", "title": "The Block: Senators: Treasury must ensure 'equal footing' for stablecoin issuers in GENIUS Act implementation", "date": "Nov 18, 2026"},
-  {"url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html", "title": "OCC Bulletin 2026-50: GENIUS Act regulations, final rule", "date": "Oct 21, 2026"},
-  {"url": "https://www.lummis.senate.gov/wp-content/uploads/GENIUS-State-Implementation-Letter_-.pdf", "title": "Senators' letter to Treasury on GENIUS Act state regulatory regime certification", "date": "Jun 16, 2026"},
-  {"url": "https://www.congress.gov/bill/119th-congress/senate-bill/1582", "title": "Congress.gov: S.1582, GENIUS Act", "date": "Jul 18, 2025"}
+  {
+   "url": "https://www.lummis.senate.gov/press-releases/lummis-gillibrand-colleagues-urge-treasury-to-give-state-stablecoin-issuers-equal-footing-with-federal-issuers/",
+   "title": "Office of Sen. Cynthia Lummis: Lummis, Gillibrand, colleagues urge Treasury to give state stablecoin issuers equal footing with federal issuers",
+   "date": "Nov 18, 2026"
+  },
+  {
+   "url": "https://www.theblock.co/news/regulation/2026-11-18-senators-treasury-must-ensure-equal-footing-for-stablecoin-issuers-in-genius-act-implementation-443501",
+   "title": "The Block: Senators: Treasury must ensure 'equal footing' for stablecoin issuers in GENIUS Act implementation",
+   "date": "Nov 18, 2026"
+  },
+  {
+   "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html",
+   "title": "OCC Bulletin 2026-50: GENIUS Act regulations, final rule",
+   "date": "Oct 21, 2026"
+  },
+  {
+   "url": "https://www.lummis.senate.gov/wp-content/uploads/GENIUS-State-Implementation-Letter_-.pdf",
+   "title": "Senators' letter to Treasury on GENIUS Act state regulatory regime certification",
+   "date": "Jun 16, 2026"
+  },
+  {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1582",
+   "title": "Congress.gov: S.1582, GENIUS Act",
+   "date": "Jul 18, 2025"
+  }
  ],
  "disclosure_variant": "std"
 }
