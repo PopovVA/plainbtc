@@ -4,6 +4,7 @@
  "readtime": 5,
  "primary_partner": "coinbase",
  "related": [
+  "bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026",
   "ark-invest-withdraws-coindesk-20-crypto-etfs-nov-2026",
   "blackrock-ibit-record-541-million-outflow-nov-2026",
   "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026",
@@ -15,11 +16,31 @@
   "how-much-bitcoin-should-a-beginner-buy-dca"
  ],
  "sources": [
-  {"url": "https://farside.co.uk/bitcoin-etf-flow-all-data/", "title": "Farside Investors: Bitcoin ETF flow, all data since January 2024", "date": "Nov 23, 2026"},
-  {"url": "https://www.theblock.co/news/markets/2026-11-23-spot-bitcoin-etfs-shed-1-79-billion-in-past-week-444857", "title": "The Block: Spot bitcoin ETFs shed $1.8 billion in past week as outflows become 'structural': analysts", "date": "Nov 23, 2026"},
-  {"url": "https://www.coindesk.com/markets/2026/11/23/bitcoin-rebounds-from-2-year-low-as-wall-street-futures-recover", "title": "CoinDesk: Bitcoin rebounds from 2-year low as Wall Street futures recover", "date": "Nov 23, 2026"},
-  {"url": "https://www.coindesk.com/markets/2026/11/23/market-rout-kills-50-basis-points-december-fed-rate-hike-bets", "title": "CoinDesk: Traders ditch 50bps December Fed rate hike bets", "date": "Nov 23, 2026"},
-  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: public BTC/USD price data (OHLC)", "date": "Nov 23, 2026"}
+  {
+   "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/",
+   "title": "Farside Investors: Bitcoin ETF flow, all data since January 2024",
+   "date": "Nov 23, 2026"
+  },
+  {
+   "url": "https://www.theblock.co/news/markets/2026-11-23-spot-bitcoin-etfs-shed-1-79-billion-in-past-week-444857",
+   "title": "The Block: Spot bitcoin ETFs shed $1.8 billion in past week as outflows become 'structural': analysts",
+   "date": "Nov 23, 2026"
+  },
+  {
+   "url": "https://www.coindesk.com/markets/2026/11/23/bitcoin-rebounds-from-2-year-low-as-wall-street-futures-recover",
+   "title": "CoinDesk: Bitcoin rebounds from 2-year low as Wall Street futures recover",
+   "date": "Nov 23, 2026"
+  },
+  {
+   "url": "https://www.coindesk.com/markets/2026/11/23/market-rout-kills-50-basis-points-december-fed-rate-hike-bets",
+   "title": "CoinDesk: Traders ditch 50bps December Fed rate hike bets",
+   "date": "Nov 23, 2026"
+  },
+  {
+   "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+   "title": "Kraken: public BTC/USD price data (OHLC)",
+   "date": "Nov 23, 2026"
+  }
  ],
  "disclosure_variant": "std"
 }

@@ -1,0 +1,63 @@
+title: CFTC-Mitarbeiter: Börsen und Clearinghäuser dürfen Bitcoin, Ether und Stablecoins auf ihre Reserven anrechnen
+page_title: CFTC: Bitcoin, Ether und Stablecoins zählen für Börsenreserven
+description: Ein Hinweis von CFTC-Mitarbeitern vom 23. November besagt, dass regulierte Derivatebörsen und Clearinghäuser Bitcoin, Ether und Zahlungs-Stablecoins auf ihre Reserven für 12 Monate Betriebskosten anrechnen dürfen, mit Abschlägen von mindestens 20 % für BTC und ETH und 2 % für Stablecoins.
+og_description: US-Derivatebörsen und Clearinghäuser dürfen Bitcoin, Ether und Zahlungs-Stablecoins nun auf das Geld anrechnen, das sie für ein Jahr Betriebskosten vorhalten müssen, so CFTC-Mitarbeiter. Es gelten Abschläge, und Krypto kann das Bargeldpolster weiterhin nicht ersetzen.
+label: Regulierung
+summary: CFTC-Mitarbeiter erklärten, regulierte Derivatebörsen und Clearinghäuser dürften Bitcoin, Ether und Zahlungs-Stablecoins auf Reserven anrechnen, die 12 Monate Betriebskosten decken müssen, nach Abschlägen von mindestens 20 % für BTC und ETH und 2 % für Stablecoins. Als Bargeld zählt Krypto weiterhin nicht.
+===
+
+Die wichtigste US-Aufsicht für Futures und Derivate öffnet die Tür für Krypto ein Stück weiter. Am Montag, 23. November, [veröffentlichten Mitarbeiter](L1) der Commodity Futures Trading Commission (CFTC) einen Hinweis, wonach regulierte Derivatebörsen und Clearinghäuser <strong>Bitcoin, Ether und Zahlungs-Stablecoins</strong> auf die Finanzreserven anrechnen dürfen, die sie vorhalten müssen.
+
+Es gibt Grenzen. Krypto muss unter dem Marktpreis bewertet werden, mit einem Abschlag von mindestens <strong>20 %</strong> für Bitcoin und Ether und <strong>2 %</strong> für Zahlungs-Stablecoins, und darf weiterhin nicht für den Teil der Reserve verwendet werden, der in Bargeld oder ähnlich sicheren, liquiden Anlagen gehalten werden muss.
+
+!takeaways
+- CFTC-Mitarbeiter erklärten, Swap-Handelsplattformen, zugelassene Terminbörsen und Derivate-Clearinghäuser dürften Bitcoin, Ether und Zahlungs-Stablecoins auf Reserven anrechnen, die mindestens 12 Monate Betriebskosten decken.
+- Bitcoin und Ether erhalten einen „Abschlag“ von mindestens 20 %, Zahlungs-Stablecoins von 2 %. Andere Kryptowerte, die nicht leicht verkäuflich sind, bekämen in der Regel einen Abschlag von 100 % und zählen damit gar nicht.
+- Krypto gilt weder als „Bargeld“ noch als „hochliquide Wertpapiere“ und kann daher das gesonderte Liquiditätspolster von drei Monaten (Swap-Plattformen) oder sechs Monaten (Börsen und Clearinghäuser) nicht abdecken.
+- Der Hinweis gibt nur die Sicht der CFTC-Mitarbeiter wieder. Er ist weder eine neue Regel noch eine Nichtverfolgungszusage.
+
+!figure:fact
+
+## Was die CFTC genau gesagt hat
+
+Die CFTC-Regeln verpflichten drei Arten regulierter Handelsplätze, genug finanzielle Mittel vorzuhalten, um ihre Betriebskosten für mindestens ein Jahr zu decken, laufend berechnet. Das sind Swap-Handelsplattformen (SEFs), zugelassene Terminbörsen (DCMs, an denen Futures gehandelt werden) und Derivate-Clearinghäuser (DCOs, die zwischen Käufern und Verkäufern stehen).
+
+Laut dem vollständigen [Mitarbeiterschreiben](L2), CFTC Letter No. 26-31, halten immer mehr dieser Firmen und Antragsteller inzwischen Krypto im Geschäftsbetrieb und hatten gefragt, ob diese auf die Anforderung angerechnet werden darf. Die Abteilung für Marktaufsicht und die Abteilung für Clearing und Risiko bejahten das für Bitcoin, Ether und Zahlungs-Stablecoins, sofern die Firmen angemessene Abschläge anwenden und die Liquiditätsregeln einhalten. Unterzeichnet ist das Schreiben von den kommissarischen Leitern der beiden Abteilungen, Duncan Hennes und Richard Haynes.
+
+[Cointelegraph wies darauf hin](L3), dass zu den CFTC-regulierten Handelsplätzen Coinbase Derivatives, die North American Derivatives Exchange von Crypto.com, Bitnomial Exchange sowie Prognosemärkte wie Kalshi und Polymarket US gehören.
+
+## Was ein „Abschlag“ bedeutet
+
+Ein Abschlag (englisch haircut) ist ein Abzug vom Marktwert eines Vermögenswerts, wenn er als finanzielles Polster angerechnet wird, um das Risiko eines Kursrückgangs zu berücksichtigen. Die Mitarbeiter erklärten, sie hätten keine Einwände, wenn Firmen dieselben Abschläge nutzen, die CFTC-Mitarbeiter bereits für Krypto akzeptieren, das Futures-Broker für Eigenkapitalzwecke halten: mindestens 20 % für Bitcoin und Ether und 2 % für Zahlungs-Stablecoins.
+
+Praktisch würde Bitcoin im Wert von 1 Mio. $ höchstens mit 800.000 $ auf die Reserve angerechnet, 1 Mio. $ in einem zulässigen Stablecoin dagegen mit 980.000 $. Das Schreiben fordert die Firmen außerdem auf, das „Wrong-Way-Risiko“ zu bedenken, also die Möglichkeit, dass ein Geschäftsverlust und ein Kurseinbruch bei Krypto gleichzeitig eintreten.
+
+!figure:reserve
+
+Das Schreiben definiert Zahlungs-Stablecoins eng. Bis das Stablecoin-Gesetz GENIUS Act in Kraft tritt, sind das Dollar-Stablecoins von bundesstaatlich regulierten Geldübermittlern, bundesstaatlichen Treuhandgesellschaften oder nationalen Treuhandbanken, gedeckt durch Bargeld, US-Staatsanleihen oder Tagesgeld-Repos mit Staatsanleihen, mit monatlichen Berichten über ihre Reserven. Danach sind es Stablecoins von Emittenten, die die Anforderungen des GENIUS Act erfüllen.
+
+!mid_cta
+
+## Was Krypto weiterhin nicht darf
+
+Die Regeln verlangen außerdem, dass ein Teil der Reserve in „unbelasteten, liquiden Finanzanlagen“ gehalten wird, also in Bargeld oder hochliquiden Wertpapieren. Für SEFs muss dieser Teil mindestens drei Monate Betriebskosten entsprechen (oder den Abwicklungskosten, falls diese höher sind). Für Börsen und Clearinghäuser sind es mindestens sechs Monate. Da Krypto nach US-Rechnungslegungsstandards weder Bargeld noch ein hochliquides Wertpapier ist, kann es nach Ansicht der Mitarbeiter nicht auf diesen Teil angerechnet werden.
+
+Das Schreiben gilt auch nicht für die gesonderten „Ausfallressourcen“ eines Clearinghauses, also das Geld für den Fall, dass ein großes Mitglied nicht zahlt. Und es spiegelt nicht unbedingt die Sicht der Kommission selbst wider.
+
+## Warum das für Einsteiger wichtig ist
+
+In Ihrer App werden Sie diese Änderung nicht sehen. Sie betrifft die Unternehmen, die in den USA Futures-, Swap- und Prognosemärkte betreiben, nicht Privatanleger. Aber sie ist ein weiterer Schritt in einer Reihe von Maßnahmen der CFTC-Mitarbeiter, die Krypto tiefer in die regulierte Finanzwelt holen. Im Dezember 2025 sicherten die Mitarbeiter zu, bei der Annahme digitaler Vermögenswerte als Margin-Sicherheit nicht einzuschreiten, und veröffentlichten Leitlinien zu tokenisierten Sicherheiten.
+
+Wenn Sie selbst Krypto kaufen möchten, ist eine große regulierte Börse wie [Coinbase](REF) für Einsteiger in den USA ein gängiger Weg. Kurse können stark schwanken, investieren Sie also nur, was Sie verlieren können. Dies ist keine Anlageberatung.
+
+## Worauf man jetzt achten sollte
+
+- Ob die Kommission als Ganzes Mitarbeiter-Positionen wie diese in formelle Regeln überführt.
+- Wie viele Börsen und Clearinghäuser tatsächlich einen Teil ihrer Reserven in Bitcoin, Ether oder Stablecoins umschichten.
+- Wann die Stablecoin-Regeln des GENIUS Act in Kraft treten, was ändert, welche Coins als Zahlungs-Stablecoins gelten.
+
+!soft: Lieber erst die Grundlagen? Lesen Sie, [was eine Krypto-Wallet ist und wer Ihre Schlüssel verwahrt](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

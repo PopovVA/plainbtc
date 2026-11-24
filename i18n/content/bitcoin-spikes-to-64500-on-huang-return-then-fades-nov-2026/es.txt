@@ -1,0 +1,63 @@
+title: Bitcoin salta a 64.500 dólares con el regreso de Jensen Huang a Nvidia y luego lo devuelve todo mientras las bolsas se disparan
+page_title: Bitcoin sube a 64.500 dólares con el regreso de Huang a Nvidia y luego se desinfla
+description: Bitcoin pasó de unos 61.000 a 64.520 dólares en Kraken minutos después de que Nvidia restituyera a Jensen Huang como CEO el 23 de noviembre, y luego volvió cerca de 61.200 mientras el Nasdaq cerraba con un alza del 6,51%. Qué pasó y por qué, en palabras sencillas.
+og_description: Nvidia recuperó a Jensen Huang y las bolsas vivieron uno de sus mejores días en años: Nasdaq +6,51%, Nvidia cerca de +32%. Bitcoin subió a 64.520 dólares y luego bajó a unos 61.200. Un dólar fuerte y las apuestas por una subida de tipos de la Fed pesaron sobre las criptomonedas.
+label: Mercado
+summary: Bitcoin saltó de unos 61.000 a 64.520 dólares en Kraken después de que Nvidia restituyera a Jensen Huang como CEO, y por la tarde había vuelto a unos 61.200. El Nasdaq cerró con un alza del 6,51% y Nvidia subió cerca de un 32%, pero bitcoin terminó el día casi plano.
+===
+
+El lunes 23 de noviembre fue uno de los mejores días en años para la bolsa estadounidense, y bitcoin apenas participó. El lunes por la mañana, [Nvidia anunció](L1) que su consejo había votado por unanimidad restituir a Jensen Huang como presidente, director ejecutivo y miembro del consejo, con efecto inmediato. Bitcoin se disparó en cuestión de minutos y pasó el resto del día bajando hasta donde había empezado.
+
+Según la revisión de PlainBTC de los [datos públicos de precios](L2) de Kraken, bitcoin cotizaba cerca de <strong>61.020 dólares</strong> a las 7:54 de la mañana, hora del centro de EE. UU. Cinco minutos después estaba en 63.804 dólares, y alcanzó un máximo de <strong>64.520 dólares</strong> en el tramo de las 8:15. Por la tarde cayó hasta un mínimo de 60.680 dólares, y a las 17:45 cotizaba en torno a <strong>61.200 dólares</strong>.
+
+!takeaways
+- Bitcoin saltó de unos 61.020 a 64.520 dólares en Kraken después de que Nvidia restituyera a Jensen Huang como CEO el lunes por la mañana, y luego devolvió toda la subida.
+- El Nasdaq Composite cerró con un alza del 6,51% y el S&P 500 subió un 4,73%, mientras que bitcoin avanzaba solo un 0,08%, hasta unos 61.213 dólares, a primera hora de la noche, según The Motley Fool.
+- Un dólar estadounidense más fuerte y las apuestas por otra subida de tipos de la Reserva Federal en diciembre probablemente pesaron sobre las criptomonedas, señaló CoinDesk.
+- Las liquidaciones de bitcoin alcanzaron unos 321 millones de dólares durante el ida y vuelta, según Bitcoin Magazine.
+
+!figure:chart
+
+## Por qué Nvidia movió todo el mercado
+
+Huang cofundó Nvidia y la convirtió en el principal proveedor de chips para inteligencia artificial. Dimitió el 12 de noviembre tras revelaciones sobre su vida privada, incluida una relación con una empresaria de la que las autoridades de EE. UU. sospechan que espiaba para China, algo que Pekín niega, [informó Reuters](L6). Pocos días antes del lunes, el consejo había descartado su regreso.
+
+El lunes el consejo dio marcha atrás. Su comunicado dice que el consejo quedó satisfecho con la "franqueza y capacidad para dirigir NVIDIA" de Huang y que, tras recibir la opinión de altos niveles del Gobierno de EE. UU., confía en que su regreso "no supone ningún riesgo para la seguridad nacional". Un comité de consejeros independientes seguirá investigando las informaciones de que Huang fue objetivo de una operación de inteligencia extranjera, y Huang dijo que apoya esa investigación. Colette Kress, que ejerció como CEO interina, sigue como directora financiera.
+
+Los inversores lo celebraron. Las acciones de Nvidia subieron cerca de un 32% desde el cierre del viernes, informaron [Bitcoin Magazine](L4) y [CoinDesk](L3), y el S&P 500 cortó una racha de siete días de caídas. La semana anterior el Nasdaq había caído alrededor de un 10%, ya que el escándalo de Huang alimentó las dudas sobre el auge de la inteligencia artificial.
+
+!figure:moves
+
+## Bitcoin se queda fuera del rally
+
+El contraste con las criptomonedas fue evidente. [The Motley Fool](L5) informó de que el Nasdaq Composite cerró con un alza del <strong>6,51%</strong> y el S&P 500 ganó un 4,73%. A primera hora de la noche, bitcoin subía solo un <strong>0,08%</strong>, hasta unos 61.213 dólares; ether bajaba a unos 1.719 dólares y solana ganaba un 2,84%, hasta unos 72,57 dólares.
+
+CoinDesk apuntó al dólar estadounidense como una de las causas probables. El índice del dólar subió un 0,65%, hasta 104,40, su nivel más fuerte desde abril de 2025, porque el rally bursátil volvió a poner sobre la mesa nuevas subidas de tipos de la Reserva Federal. El rendimiento del bono del Tesoro a 10 años subió al 4,95%, y los operadores daban casi por segura una subida de tipos a principios de diciembre. Los precios de las criptomonedas suelen quedarse atrás cuando suben el dólar y los tipos de interés.
+
+El rápido viaje de ida y vuelta fue doloroso para quienes operaban con dinero prestado. Las liquidaciones de bitcoin, es decir, apuestas que los exchanges cierran automáticamente cuando pierden demasiado, alcanzaron unos 321 millones de dólares, de los que 224 millones correspondían a apuestas a la baja, según Bitcoin Magazine. Las liquidaciones en todo el mercado cripto superaron los 762 millones de dólares.
+
+!mid_cta
+
+## Las acciones cripto lo hicieron mejor que las monedas
+
+Las acciones de empresas cripto subieron mucho más que el propio bitcoin. CoinDesk informó de alzas de dos dígitos para Strategy y Galaxy Digital, una subida del 12% para Circle, emisora de stablecoins, y del 8,3% para Coinbase. Las mineras de bitcoin que también gestionan centros de datos de inteligencia artificial registraron algunos de los mayores avances, según Bitcoin Magazine. Aun así, Strategy seguía cayendo cerca de un 40% en el último mes y Coinbase alrededor de un 32,5%, según CoinDesk.
+
+Adam Haeems, de Tesseract Group, dijo a Bitcoin Magazine que bitcoin "ha caído en siete de las ocho sesiones de EE. UU. desde que Huang se fue, incluida la de hoy", y que la semana pasada cada caída diaria coincidió con las salidas de ese día de los fondos cotizados (ETF) de bitcoin.
+
+## Qué significa para principiantes
+
+Las grandes noticias bursátiles no siempre impulsan a bitcoin. El lunes, el mismo titular que llevó a las tecnológicas a uno de sus mejores días en años solo le dio a bitcoin un breve impulso, seguido de una caída. Los precios pueden moverse miles de dólares en minutos, y nadie puede predecir con fiabilidad hacia dónde irá el siguiente movimiento.
+
+Si quieres tener algo de bitcoin, muchos principiantes usan un exchange grande y regulado como [Coinbase](REF) y compran pequeñas cantidades a lo largo del tiempo, en lugar de perseguir subidas repentinas. Evita el dinero prestado e invierte solo lo que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Los flujos de los ETF de bitcoin al contado del lunes, que los analistas consideran la primera prueba real del rebote tras cuatro semanas seguidas de salidas.
+- El informe de inflación PCE de EE. UU. del miércoles y la reunión de la Fed del 8 al 9 de diciembre.
+- El escaso volumen en torno a Acción de Gracias, que puede hacer los movimientos de precio más bruscos.
+
+!soft: ¿Te asustan los altibajos? Lee [cuánto bitcoin debería comprar un principiante](/articles/how-much-bitcoin-should-a-beginner-buy-dca)
+
+!end_cta
+
+!disclosure

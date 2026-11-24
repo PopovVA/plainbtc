@@ -1,0 +1,25 @@
+{
+ "slug": "bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026",
+ "date": "2026-11-23",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-etfs-1-79-billion-weekly-outflow-fourth-week-nov-2026",
+  "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026",
+  "msci-drops-strategy-bitcoin-falls-nvidia-nov-2026",
+  "fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026",
+  "strategy-buys-457-bitcoin-212-million-strc-buyback-nov-2026",
+  "bitcoin-volatility-liquidations-nov-2026",
+  "how-much-bitcoin-should-a-beginner-buy-dca",
+  "bitcoin-etf-vs-buying-bitcoin"
+ ],
+ "sources": [
+  {"url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/", "title": "NVIDIA: NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director", "date": "Nov 23, 2026"},
+  {"url": "https://www.investing.com/news/stock-market-news/nvidia-reinstates-jensen-huang-as-ceo-5045809", "title": "Reuters (via Investing.com): Nvidia reinstates Jensen Huang as CEO", "date": "Nov 23, 2026"},
+  {"url": "https://www.coindesk.com/tech/2026/11/23/live-news-wall-street-rebounds-as-dollar-index-hits-highest-since-march-2025", "title": "CoinDesk: Live updates: Bitcoin climbs only modestly as Nasdaq soars 6% on Huang return", "date": "Nov 23, 2026"},
+  {"url": "https://bitcoinmagazine.com/markets/bitcoin-price-fades-61000-huang", "title": "Bitcoin Magazine: Bitcoin Price Fades Near $61,000 As Stocks Soar On Huang's Return", "date": "Nov 23, 2026"},
+  {"url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/crypto-market-today-nov-23-bitcoin-sits-out-wall-street-s-historic-rally-as-usd1-8-billion-etf-exodus-weighs-on-prices/", "title": "The Motley Fool: Crypto Market Today, Nov. 23: Bitcoin Sits Out Wall Street's Historic Rally", "date": "Nov 23, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: public BTC/USD price data (OHLC)", "date": "Nov 23, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

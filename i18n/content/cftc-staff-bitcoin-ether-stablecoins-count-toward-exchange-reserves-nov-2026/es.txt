@@ -1,0 +1,63 @@
+title: El personal de la CFTC dice que los mercados y las cámaras de compensación pueden contar bitcoin, ether y stablecoins en sus reservas
+page_title: CFTC: bitcoin, ether y stablecoins pueden contar en las reservas de los mercados
+description: Un aviso del personal de la CFTC del 23 de noviembre dice que los mercados de derivados y las cámaras de compensación regulados pueden contar bitcoin, ether y stablecoins de pago en sus reservas para 12 meses de gastos operativos, con descuentos de al menos el 20% para BTC y ETH y del 2% para las stablecoins.
+og_description: Los mercados de derivados y las cámaras de compensación de EE. UU. ya pueden contar bitcoin, ether y stablecoins de pago en el dinero que deben tener para cubrir un año de gastos, según el personal de la CFTC. Se aplican descuentos, y las criptomonedas siguen sin poder sustituir el colchón de efectivo.
+label: Regulación
+summary: El personal de la CFTC dijo que los mercados de derivados y las cámaras de compensación regulados pueden contar bitcoin, ether y stablecoins de pago en las reservas que deben cubrir 12 meses de gastos operativos, tras descuentos de al menos el 20% para BTC y ETH y del 2% para las stablecoins. Las criptomonedas siguen sin contar como efectivo.
+===
+
+El principal regulador estadounidense de futuros y derivados ha abierto un poco más la puerta a las criptomonedas. El lunes 23 de noviembre, el personal de la Commodity Futures Trading Commission (CFTC) [publicó un aviso](L1) según el cual los mercados de derivados y las cámaras de compensación regulados pueden contar <strong>bitcoin, ether y stablecoins de pago</strong> dentro de las reservas financieras que están obligados a mantener.
+
+Hay límites. Las criptomonedas deben valorarse por debajo de su precio de mercado, con un recorte de al menos el <strong>20%</strong> para bitcoin y ether y del <strong>2%</strong> para las stablecoins de pago, y siguen sin poder usarse para la parte de la reserva que debe estar en efectivo o en activos seguros y líquidos similares.
+
+!takeaways
+- El personal de la CFTC dijo que las plataformas de negociación de swaps, los mercados de contratos designados y las cámaras de compensación de derivados pueden contar bitcoin, ether y stablecoins de pago en reservas que cubran al menos 12 meses de gastos operativos.
+- Bitcoin y ether reciben un "descuento" mínimo del 20% y las stablecoins de pago, del 2%. Otras criptomonedas que no se puedan vender con facilidad recibirían en general un descuento del 100%, así que no cuentan en absoluto.
+- Las criptomonedas no cuentan como "efectivo" ni como "valores muy líquidos", por lo que no pueden cubrir el colchón de liquidez aparte de tres meses (plataformas de swaps) o seis meses (mercados y cámaras de compensación).
+- El aviso refleja solo la opinión del personal de la CFTC. No es una norma nueva ni una posición de no acción.
+
+!figure:fact
+
+## Qué dijo exactamente la CFTC
+
+Las normas de la CFTC exigen a tres tipos de plataformas reguladas mantener recursos financieros suficientes para cubrir sus gastos operativos durante al menos un año, calculado de forma continua. Son las plataformas de negociación de swaps (SEF), los mercados de contratos designados (DCM, donde se negocian los futuros) y las cámaras de compensación de derivados (DCO, que se sitúan entre compradores y vendedores).
+
+Según la [carta completa del personal](L2), la CFTC Letter No. 26-31, cada vez más de estas empresas, y de las que solicitan serlo, tienen criptomonedas en su negocio y habían preguntado si podían contar para ese requisito. La División de Supervisión de Mercados y la División de Compensación y Riesgo respondieron que sí para bitcoin, ether y las stablecoins de pago, siempre que las empresas apliquen descuentos adecuados y respeten las normas de liquidez. Firman la carta los directores en funciones de ambas divisiones, Duncan Hennes y Richard Haynes.
+
+[Cointelegraph señaló](L3) que entre las plataformas reguladas por la CFTC están Coinbase Derivatives, North American Derivatives Exchange de Crypto.com, Bitnomial Exchange y mercados de predicción como Kalshi y Polymarket US.
+
+## Qué significa un "descuento"
+
+Un descuento (en inglés, haircut) es una rebaja que se aplica al valor de mercado de un activo cuando se cuenta como colchón financiero, para tener en cuenta el riesgo de que su precio caiga. El personal dijo que no se opondría a que las empresas usaran los mismos descuentos que ya acepta para las criptomonedas que mantienen los intermediarios de futuros a efectos de capital: al menos el 20% para bitcoin y ether, y el 2% para las stablecoins de pago.
+
+En la práctica, 1 millón de dólares en bitcoin contaría como mucho 800.000 dólares en la reserva, mientras que 1 millón de dólares en una stablecoin que cumpla los requisitos contaría 980.000 dólares. La carta también pide a las empresas que tengan en cuenta el "riesgo de correlación adversa", la posibilidad de que una pérdida del negocio y una caída de los precios cripto lleguen a la vez.
+
+!figure:reserve
+
+La carta define las stablecoins de pago de forma estricta. Hasta que entre en vigor la ley de stablecoins GENIUS Act, son stablecoins en dólares emitidas por transmisores de dinero regulados por un estado, sociedades fiduciarias estatales o bancos fiduciarios nacionales, respaldadas por efectivo, bonos del Tesoro de EE. UU. o repos a un día sobre bonos del Tesoro, con informes mensuales sobre sus reservas. Después de esa fecha, serán las stablecoins de emisores que cumplan los requisitos de la GENIUS Act.
+
+!mid_cta
+
+## Lo que las criptomonedas siguen sin poder hacer
+
+Las normas también exigen que parte de la reserva esté en "activos financieros líquidos y libres de cargas", es decir, efectivo o valores muy líquidos. Para las SEF, esa parte debe equivaler al menos a tres meses de gastos operativos (o al coste de cerrar el negocio, si es mayor). Para los mercados y las cámaras de compensación, son al menos seis meses. Como las criptomonedas no son efectivo ni valores muy líquidos según las normas contables de EE. UU., el personal dijo que no pueden contar para esa parte.
+
+La carta tampoco cubre los "recursos para incumplimientos" de una cámara de compensación, el dinero reservado por si un gran miembro no paga. Y no refleja necesariamente la opinión de la propia Comisión.
+
+## Por qué importa a los principiantes
+
+No verás este cambio en tu aplicación. Afecta a las empresas que gestionan los mercados de futuros, swaps y predicción de EE. UU., no a los inversores particulares. Pero es un paso más en una serie de medidas del personal de la CFTC que integran las criptomonedas en las finanzas reguladas. En diciembre de 2025, el personal adoptó una posición de no acción sobre la aceptación de activos digitales como garantía de margen y publicó orientaciones sobre garantías tokenizadas.
+
+Si quieres comprar criptomonedas por tu cuenta, usar un exchange grande y regulado como [Coinbase](REF) es una vía habitual para principiantes en EE. UU. Los precios pueden moverse con fuerza, así que invierte solo lo que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Si la Comisión en pleno convierte opiniones del personal como esta en normas formales.
+- Cuántos mercados y cámaras de compensación trasladan de verdad parte de sus reservas a bitcoin, ether o stablecoins.
+- Cuándo entran en vigor las normas de stablecoins de la GENIUS Act, que cambiarán qué monedas cuentan como stablecoins de pago.
+
+!soft: ¿Prefieres empezar por lo básico? Lee [qué es un monedero cripto y quién guarda tus claves](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

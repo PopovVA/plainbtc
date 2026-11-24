@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 23 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 00:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Биткоин подскочил до $64 500 на возвращении Дженсена Хуанга в Nvidia, а потом отдал весь рост, пока акции взлетали</title>
+      <link>https://plainbtc.com/ru/articles/bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026</guid>
+      <pubDate>Tue, 24 Nov 2026 00:30:00 GMT</pubDate>
+      <category>Рынок</category>
+      <description>Биткоин подскочил примерно с $61 000 до $64 520 на Kraken после того, как Nvidia вернула Дженсена Хуанга на пост CEO, а к вечеру снова стоил около $61 200. Nasdaq закрылся ростом на 6,51%, акции Nvidia прибавили около 32%, но биткоин завершил день почти без изменений.</description>
+    </item>
+    <item>
+      <title>Сотрудники CFTC: биржи и клиринговые палаты могут учитывать биткоин, эфир и стейблкоины в своих резервах</title>
+      <link>https://plainbtc.com/ru/articles/cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026</guid>
+      <pubDate>Tue, 24 Nov 2026 00:25:00 GMT</pubDate>
+      <category>Регулирование</category>
+      <description>Сотрудники CFTC заявили, что регулируемые биржи деривативов и клиринговые палаты могут учитывать биткоин, эфир и платёжные стейблкоины в резервах, которые должны покрывать 12 месяцев операционных расходов, с дисконтом не менее 20% для BTC и ETH и 2% для стейблкоинов. Деньгами криптовалюта по-прежнему не считается.</description>
+    </item>
     <item>
       <title>Binance наняла Mandiant, SlowMist и Verichains для проверки безопасности после взлома на $6,3 млрд</title>
       <link>https://plainbtc.com/ru/articles/binance-hires-mandiant-slowmist-verichains-security-review-nov-2026</link>

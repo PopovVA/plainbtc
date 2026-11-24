@@ -5197,7 +5197,149 @@ def build_ark_withdraws_cd20():
     ]
 
 
+def build_huang_btc_fade():
+    slug = "bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026"
+    d = OUT / slug
+    import datetime as dt
+    # Kraken XBTUSD 15-minute candles Nov 23, 2026 00:00-17:45 CST, frozen in chart-data.json at 6:00 p.m. CST.
+    rows = json.loads((I18N / slug / "chart-data.json").read_text(encoding="utf-8"))["rows"]
+    cst = lambda ts: dt.datetime.fromtimestamp(ts - 6 * 3600, dt.UTC)   # CST wall clock on a UTC axis
+    xs = [cst(r[0]) for r in rows]; ys = [r[1] for r in rows]
+    hi_i = max(range(len(rows)), key=lambda i: rows[i][2]); lo_i = min(range(len(rows)), key=lambda i: rows[i][3] if rows[i][0] > rows[hi_i][0] else 1e9)
+    fig, ax = plt.subplots(figsize=(12, 6.75), dpi=100)
+    style_axes(ax, "Bitcoin on Monday, Nov. 23 (Kraken, 15-minute closes, Central time)")
+    orange = f"#{ORANGE[0]:02x}{ORANGE[1]:02x}{ORANGE[2]:02x}"
+    ax.plot(xs, ys, color=orange, linewidth=2.4)
+    ax.fill_between(xs, ys, 60000, color=orange, alpha=0.12)
+    news = dt.datetime(2026, 11, 23, 7, 55, tzinfo=dt.UTC)
+    ax.axvline(news, color="#38bdf8", linestyle="--", linewidth=1.4)
+    ax.text(news - dt.timedelta(minutes=12), 64650, "Nvidia reinstates\nJensen Huang", color="#38bdf8", fontsize=12, fontweight="bold", ha="right", va="top")
+    hx, hv = xs[hi_i], rows[hi_i][2]; lx, lv = xs[lo_i], rows[lo_i][3]
+    ax.scatter([hx], [hv], color=GREEN and "#34d399", s=70, zorder=5)
+    ax.annotate(f"High ${hv:,.0f}", (hx, hv), xytext=(12, 4), textcoords="offset points", color="#34d399", fontsize=13, fontweight="bold")
+    ax.scatter([lx], [lv], color="#f87171", s=70, zorder=5)
+    ax.annotate(f"Afternoon low ${lv:,.0f}", (lx, lv), xytext=(10, -18), textcoords="offset points", color="#f87171", fontsize=13, fontweight="bold")
+    ax.annotate(f"5:45 p.m. ${ys[-1]:,.0f}", (xs[-1], ys[-1]), xytext=(-8, 22), textcoords="offset points", color="#e2e8f0", fontsize=12, fontweight="bold", ha="right")
+    ax.set_ylim(60000, 65000)
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%-I %p"))
+    ax.yaxis.set_major_formatter(lambda x, _p: f"${x:,.0f}")
+    plt.tight_layout(pad=1.2)
+    fig.text(0.99, 0.01, "plainbtc.com", color="#64748b", ha="right", fontsize=9)
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100, facecolor=fig.get_facecolor()); plt.close(fig); buf.seek(0)
+    chart = save_image(Image.open(buf).convert("RGB"), d / "chart-bitcoin-nov-23-huang-spike-kraken")
+    assert round(hv) == 64520 and round(lv) == 60680, (hv, lv)
+    # Monday's moves, all from The Motley Fool, Nov. 23, 2026 (indexes at the close; bitcoin early evening).
+    labels = ["Nasdaq Composite", "iShares Bitcoin Trust (IBIT)", "S&P 500", "Bitcoin"]
+    vals = [6.51, 4.85, 4.73, 0.08]
+    fig, ax = plt.subplots(figsize=(12, 6.3), dpi=100)
+    style_axes(ax, "Monday, Nov. 23: stocks soar, bitcoin stays flat (% change)")
+    cols = ["#60a5fa", "#a78bfa", "#60a5fa", orange]
+    ax.set_axisbelow(True)
+    ax.barh(range(len(vals))[::-1], vals, color=cols, height=0.55, edgecolor="#0b1630")
+    for i, v in enumerate(vals):
+        ax.text(v + 0.08, len(vals) - 1 - i, f"+{v:.2f}%", va="center", color="#e2e8f0", fontsize=15, fontweight="bold")
+    ax.set_yticks(range(len(vals))[::-1], labels)
+    ax.tick_params(axis="y", labelsize=14, colors="#e2e8f0")
+    ax.set_xlim(0, 7.6); ax.xaxis.set_major_formatter(lambda x, _p: f"{x:.0f}%")
+    ax.grid(True, axis="x"); ax.grid(False, axis="y")
+    plt.tight_layout(pad=1.2)
+    fig.text(0.01, 0.01, "Indexes and IBIT at the close; bitcoin in the early evening. Source: The Motley Fool", color="#94a3b8", ha="left", fontsize=10)
+    fig.text(0.99, 0.01, "plainbtc.com", color="#64748b", ha="right", fontsize=9)
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100, facecolor=fig.get_facecolor()); plt.close(fig); buf.seek(0)
+    bars = save_image(Image.open(buf).convert("RGB"), d / "chart-monday-moves-nasdaq-vs-bitcoin")
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin on Kraken on Nov. 23, 2026, in Central time: flat near $61,200 overnight, a jump right after Nvidia reinstated Jensen Huang, a high of $64,520 around 8:15 a.m., an afternoon low of $60,680 and about $61,214 at 5:45 p.m.", {
+            "es": "Gráfico de líneas de bitcoin en Kraken el 23 de noviembre de 2026, en hora del centro de EE. UU.: estable cerca de 61.200 dólares durante la noche, un salto justo después de que Nvidia restituyera a Jensen Huang, un máximo de 64.520 dólares hacia las 8:15, un mínimo de 60.680 dólares por la tarde y unos 61.214 dólares a las 17:45",
+            "pt": "Gráfico de linha do bitcoin na Kraken em 23 de novembro de 2026, no horário central dos EUA: estável perto de US$ 61.200 durante a madrugada, um salto logo depois de a Nvidia reconduzir Jensen Huang, máxima de US$ 64.520 por volta das 8h15, mínima de US$ 60.680 à tarde e cerca de US$ 61.214 às 17h45",
+            "fr": "Graphique en courbe du bitcoin sur Kraken le 23 novembre 2026, heure du Centre des États-Unis : stable vers 61 200 dollars pendant la nuit, un bond juste après le retour de Jensen Huang chez Nvidia, un plus haut de 64 520 dollars vers 8 h 15, un plus bas de 60 680 dollars l'après-midi et environ 61 214 dollars à 17 h 45",
+            "de": "Liniendiagramm von Bitcoin bei Kraken am 23. November 2026, US-Zentralzeit: über Nacht stabil bei rund 61.200 $, ein Sprung direkt nach der Wiedereinsetzung von Jensen Huang bei Nvidia, ein Hoch von 64.520 $ gegen 8:15 Uhr, ein Tief von 60.680 $ am Nachmittag und rund 61.214 $ um 17:45 Uhr",
+            "ru": "Линейный график биткоина на Kraken 23 ноября 2026 года по центральному времени США: ночью около $61 200, скачок сразу после того, как Nvidia вернула Дженсена Хуанга, максимум $64 520 около 8:15, дневной минимум $60 680 и около $61 214 в 17:45",
+            "tr": "23 Kasım 2026'da Kraken'de bitcoinin ABD Merkez saatine göre çizgi grafiği: gece boyunca 61.200 $ civarında yatay, Nvidia'nın Jensen Huang'ı göreve iade etmesinin hemen ardından sıçrama, 08.15 civarında 64.520 $ zirve, öğleden sonra 60.680 $ dip ve 17.45'te yaklaşık 61.214 $",
+            "id": "Grafik garis bitcoin di Kraken pada 23 November 2026, waktu Central AS: datar di sekitar US$61.200 sepanjang malam, melonjak tepat setelah Nvidia mengangkat kembali Jensen Huang, puncak US$64.520 sekitar pukul 08.15, titik terendah sore US$60.680, dan sekitar US$61.214 pukul 17.45",
+            "ja": "2026年11月23日のクラーケンにおけるビットコインの折れ線グラフ（米中部時間）：夜間は約61,200ドルで横ばい、エヌビディアがジェンスン・フアン氏の復帰を発表した直後に急騰、午前8時15分ごろに高値64,520ドル、午後に安値60,680ドル、午後5時45分は約61,214ドル",
+            "ko": "2026년 11월 23일 크라켄 비트코인 선 차트(미국 중부시간): 밤사이 약 61,200달러에서 횡보, 엔비디아가 젠슨 황을 복귀시킨 직후 급등, 오전 8시 15분경 고점 64,520달러, 오후 저점 60,680달러, 오후 5시 45분 약 61,214달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken")},
+        {"id": "moves", "file": bars.name, "w": 1200, "h": 630, "kind": "chart",
+         "alt": alts("Bar chart of Monday, Nov. 23, 2026 moves: Nasdaq Composite +6.51%, iShares Bitcoin Trust (IBIT) +4.85%, S&P 500 +4.73%, bitcoin +0.08%", {
+            "es": "Gráfico de barras de los movimientos del lunes 23 de noviembre de 2026: Nasdaq Composite +6,51%, iShares Bitcoin Trust (IBIT) +4,85%, S&P 500 +4,73%, bitcoin +0,08%",
+            "pt": "Gráfico de barras das variações de segunda-feira, 23 de novembro de 2026: Nasdaq Composite +6,51%, iShares Bitcoin Trust (IBIT) +4,85%, S&P 500 +4,73%, bitcoin +0,08%",
+            "fr": "Graphique en barres des variations du lundi 23 novembre 2026 : Nasdaq Composite +6,51 %, iShares Bitcoin Trust (IBIT) +4,85 %, S&P 500 +4,73 %, bitcoin +0,08 %",
+            "de": "Balkendiagramm der Bewegungen am Montag, 23. November 2026: Nasdaq Composite +6,51 %, iShares Bitcoin Trust (IBIT) +4,85 %, S&P 500 +4,73 %, Bitcoin +0,08 %",
+            "ru": "Столбчатая диаграмма изменений в понедельник, 23 ноября 2026 года: Nasdaq Composite +6,51%, iShares Bitcoin Trust (IBIT) +4,85%, S&P 500 +4,73%, биткоин +0,08%",
+            "tr": "23 Kasım 2026 Pazartesi günkü değişimlerin çubuk grafiği: Nasdaq Composite +%6,51, iShares Bitcoin Trust (IBIT) +%4,85, S&P 500 +%4,73, bitcoin +%0,08",
+            "id": "Grafik batang pergerakan Senin, 23 November 2026: Nasdaq Composite +6,51%, iShares Bitcoin Trust (IBIT) +4,85%, S&P 500 +4,73%, bitcoin +0,08%",
+            "ja": "2026年11月23日（月）の騰落率の棒グラフ：ナスダック総合指数+6.51%、iシェアーズ・ビットコイン・トラスト（IBIT）+4.85%、S&P500+4.73%、ビットコイン+0.08%",
+            "ko": "2026년 11월 23일(월) 등락률 막대 차트: 나스닥 종합지수 +6.51%, 아이셰어즈 비트코인 트러스트(IBIT) +4.85%, S&P 500 +4.73%, 비트코인 +0.08%",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="The Motley Fool")},
+    ]
+
+
+def build_cftc_crypto_reserves():
+    slug = "cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026"
+    d = OUT / slug
+    fact = make_fact_card(
+        d / "fact-cftc-20-percent-haircut-bitcoin-ether",
+        "CFTC staff advisory · Nov. 23, 2026",
+        "20% / 2% haircuts",
+        "Minimum discount when bitcoin and ether (20%) or payment stablecoins (2%) count toward a year of operating reserves",
+        footer="CFTC Letter No. 26-31 · Release 9331-26",
+    )
+    # Reserve structure from CFTC Letter No. 26-31 (17 CFR 37.1303, 38.1101(e), 39.11(e)(2)).
+    orange = f"#{ORANGE[0]:02x}{ORANGE[1]:02x}{ORANGE[2]:02x}"
+    rows = [("Clearinghouses (DCOs)", 6), ("Futures exchanges (DCMs)", 6), ("Swap facilities (SEFs)", 3)]
+    fig, ax = plt.subplots(figsize=(12, 6.3), dpi=100)
+    style_axes(ax, "12 months of operating costs: where bitcoin, ether and stablecoins can count")
+    ax.set_axisbelow(True)
+    for i, (lab, liq) in enumerate(rows):
+        ax.barh(i, liq, color="#64748b", height=0.55, edgecolor="#0b1630")
+        ax.barh(i, 12 - liq, left=liq, color=orange, height=0.55, edgecolor="#0b1630")
+        ax.text(liq / 2, i, f"at least {liq} mo.\ncash / liquid", ha="center", va="center", color="white", fontsize=12, fontweight="bold")
+        ax.text(liq + (12 - liq) / 2, i, f"up to {12 - liq} mo. may include\ncrypto after haircuts", ha="center", va="center", color="#0b1630", fontsize=12, fontweight="bold")
+    ax.set_yticks(range(len(rows)), [r[0] for r in rows])
+    ax.tick_params(axis="y", labelsize=13, colors="#e2e8f0")
+    ax.set_xlim(0, 12); ax.set_xticks(range(0, 13, 3)); ax.xaxis.set_major_formatter(lambda x, _p: f"{x:.0f} mo.")
+    ax.grid(True, axis="x"); ax.grid(False, axis="y")
+    plt.tight_layout(pad=1.2)
+    fig.text(0.01, 0.01, "SEF cash cushion: 3 months or wind-down costs, whichever is greater. Source: CFTC Letter No. 26-31", color="#94a3b8", ha="left", fontsize=10)
+    fig.text(0.99, 0.01, "plainbtc.com", color="#64748b", ha="right", fontsize=9)
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100, facecolor=fig.get_facecolor()); plt.close(fig); buf.seek(0)
+    res = save_image(Image.open(buf).convert("RGB"), d / "chart-cftc-reserve-where-crypto-counts")
+    return [
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: CFTC staff advisory, Nov. 23, 2026. Haircuts of at least 20% for bitcoin and ether and 2% for payment stablecoins when they count toward a year of operating reserves", {
+            "es": "Tarjeta: aviso del personal de la CFTC, 23 de noviembre de 2026. Descuentos de al menos el 20% para bitcoin y ether y del 2% para las stablecoins de pago cuando cuentan para un año de reservas operativas",
+            "pt": "Cartão: comunicado da equipe da CFTC, 23 de novembro de 2026. Descontos de pelo menos 20% para bitcoin e ether e de 2% para stablecoins de pagamento quando contam para um ano de reservas operacionais",
+            "fr": "Fiche : avis des services de la CFTC, 23 novembre 2026. Décotes d'au moins 20 % pour le bitcoin et l'ether et de 2 % pour les stablecoins de paiement lorsqu'ils comptent dans une année de réserves de fonctionnement",
+            "de": "Faktenkarte: Hinweis der CFTC-Mitarbeiter vom 23. November 2026. Abschläge von mindestens 20 % für Bitcoin und Ether und 2 % für Zahlungs-Stablecoins, wenn sie auf ein Jahr Betriebsreserven angerechnet werden",
+            "ru": "Карточка: разъяснение сотрудников CFTC от 23 ноября 2026 года. Дисконт не менее 20% для биткоина и эфира и 2% для платёжных стейблкоинов, когда они засчитываются в годовой резерв на операционные расходы",
+            "tr": "Bilgi kartı: CFTC personel duyurusu, 23 Kasım 2026. Bitcoin ve ether bir yıllık işletme rezervine sayıldığında en az %20, ödeme stablecoin'leri için %2 kesinti",
+            "id": "Kartu fakta: imbauan staf CFTC, 23 November 2026. Potongan nilai minimal 20% untuk bitcoin dan ether serta 2% untuk stablecoin pembayaran saat dihitung sebagai cadangan operasional satu tahun",
+            "ja": "ファクトカード：CFTCスタッフ勧告（2026年11月23日）。ビットコインとイーサは最低20%、決済用ステーブルコインは2%のヘアカットを適用して1年分の運営資金に算入できる",
+            "ko": "팩트 카드: CFTC 실무진 권고(2026년 11월 23일). 비트코인과 이더는 최소 20%, 결제용 스테이블코인은 2%의 헤어컷을 적용해 1년치 운영 준비금에 산입 가능",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="CFTC Letter No. 26-31, Nov. 23, 2026")},
+        {"id": "reserve", "file": res.name, "w": 1200, "h": 630, "kind": "chart",
+         "alt": alts("Diagram of the 12-month operating reserve: clearinghouses and futures exchanges must keep at least 6 months in cash or highly liquid securities and swap facilities at least 3 months; only the rest may include bitcoin, ether and payment stablecoins after haircuts", {
+            "es": "Diagrama de la reserva operativa de 12 meses: las cámaras de compensación y los mercados de futuros deben mantener al menos 6 meses en efectivo o valores muy líquidos y las plataformas de swaps al menos 3 meses; solo el resto puede incluir bitcoin, ether y stablecoins de pago tras los descuentos",
+            "pt": "Diagrama da reserva operacional de 12 meses: câmaras de compensação e bolsas de futuros devem manter pelo menos 6 meses em dinheiro ou títulos de alta liquidez e plataformas de swaps pelo menos 3 meses; só o restante pode incluir bitcoin, ether e stablecoins de pagamento após os descontos",
+            "fr": "Schéma de la réserve de fonctionnement de 12 mois : les chambres de compensation et les marchés à terme doivent garder au moins 6 mois en liquidités ou titres très liquides, les plateformes de swaps au moins 3 mois ; seul le reste peut inclure du bitcoin, de l'ether et des stablecoins de paiement après décote",
+            "de": "Diagramm der 12-monatigen Betriebsreserve: Clearinghäuser und Terminbörsen müssen mindestens 6 Monate in Bargeld oder hochliquiden Wertpapieren halten, Swap-Handelsplattformen mindestens 3 Monate; nur der Rest darf nach Abschlägen Bitcoin, Ether und Zahlungs-Stablecoins enthalten",
+            "ru": "Схема годового резерва на операционные расходы: клиринговые палаты и фьючерсные биржи должны держать не менее 6 месяцев в деньгах или высоколиквидных бумагах, своп-площадки не менее 3 месяцев; только остаток может включать биткоин, эфир и платёжные стейблкоины с дисконтом",
+            "tr": "12 aylık işletme rezervi şeması: takas kuruluşları ve vadeli işlem borsaları en az 6 aylık tutarı nakit veya yüksek likiditeli menkul kıymetlerde, swap platformları en az 3 aylık tutarı tutmalı; yalnızca kalan kısım kesintilerden sonra bitcoin, ether ve ödeme stablecoin'i içerebilir",
+            "id": "Diagram cadangan operasional 12 bulan: lembaga kliring dan bursa berjangka wajib menyimpan minimal 6 bulan dalam kas atau sekuritas sangat likuid, fasilitas swap minimal 3 bulan; hanya sisanya yang boleh berisi bitcoin, ether, dan stablecoin pembayaran setelah potongan nilai",
+            "ja": "12か月分の運営資金の図：清算機関と先物取引所は少なくとも6か月分、スワップ執行施設は少なくとも3か月分を現金または流動性の高い証券で保有する必要があり、残りの部分にのみヘアカット後のビットコイン、イーサ、決済用ステーブルコインを含められる",
+            "ko": "12개월 운영 준비금 도식: 청산소와 선물거래소는 최소 6개월분, 스와프 거래 플랫폼은 최소 3개월분을 현금이나 고유동성 증권으로 보유해야 하며, 나머지만 헤어컷 적용 후 비트코인, 이더, 결제용 스테이블코인을 포함할 수 있다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="CFTC Letter No. 26-31")},
+    ]
+
+
 BUILDERS = {
+    "bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026": "huangfade",
+    "cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026": "cftcres",
     "binance-hires-mandiant-slowmist-verichains-security-review-nov-2026": "bnbreview",
     "ark-invest-withdraws-coindesk-20-crypto-etfs-nov-2026": "arkcd20",
     "bitcoin-etfs-1-79-billion-weekly-outflow-fourth-week-nov-2026": "etf179",
@@ -5289,7 +5431,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "bnbreview":
+    if key == "huangfade":
+        figs = build_huang_btc_fade()
+    elif key == "cftcres":
+        figs = build_cftc_crypto_reserves()
+    elif key == "bnbreview":
         figs = build_binance_security_review()
     elif key == "arkcd20":
         figs = build_ark_withdraws_cd20()

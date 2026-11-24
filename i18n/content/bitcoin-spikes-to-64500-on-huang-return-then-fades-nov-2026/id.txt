@@ -1,0 +1,63 @@
+title: Bitcoin melonjak ke US$64.500 saat Jensen Huang kembali ke Nvidia, lalu kehilangan semuanya saat saham meroket
+page_title: Bitcoin naik ke US$64.500 saat Huang kembali ke Nvidia, lalu melemah
+description: Bitcoin naik dari sekitar US$61.000 ke US$64.520 di Kraken beberapa menit setelah Nvidia mengangkat kembali Jensen Huang sebagai CEO pada 23 November, lalu turun lagi ke sekitar US$61.200 saat Nasdaq ditutup naik 6,51%. Apa yang terjadi dan mengapa, dalam bahasa sederhana.
+og_description: Nvidia memanggil kembali Jensen Huang dan bursa saham mencatat salah satu hari terbaik dalam beberapa tahun: Nasdaq +6,51%, Nvidia naik sekitar 32%. Bitcoin melonjak ke US$64.520, lalu turun ke sekitar US$61.200. Dolar yang kuat dan taruhan kenaikan suku bunga Fed menekan kripto.
+label: Pasar
+summary: Bitcoin melonjak dari sekitar US$61.000 ke US$64.520 di Kraken setelah Nvidia mengangkat kembali Jensen Huang sebagai CEO, lalu kembali ke sekitar US$61.200 pada malam hari. Nasdaq ditutup naik 6,51% dan Nvidia naik sekitar 32%, tetapi bitcoin mengakhiri hari hampir datar.
+===
+
+Senin, 23 November, menjadi salah satu hari terbaik bagi saham AS dalam beberapa tahun, dan bitcoin nyaris tidak ikut. Pada Senin pagi, [Nvidia mengumumkan](L1) bahwa dewan direksinya secara bulat memutuskan mengangkat kembali Jensen Huang sebagai presiden, chief executive, dan anggota dewan, berlaku segera. Bitcoin melesat dalam hitungan menit, lalu menghabiskan sisa hari dengan turun kembali ke titik awalnya.
+
+Menurut pemeriksaan PlainBTC atas [data harga publik](L2) Kraken, bitcoin diperdagangkan di sekitar <strong>US$61.020</strong> pada pukul 07.54 waktu Central AS. Lima menit kemudian harganya US$63.804, dan mencapai puncak <strong>US$64.520</strong> pada jendela perdagangan pukul 08.15. Pada sore hari harganya turun ke titik terendah US$60.680, dan pada pukul 17.45 diperdagangkan di sekitar <strong>US$61.200</strong>.
+
+!takeaways
+- Bitcoin melonjak dari sekitar US$61.020 ke US$64.520 di Kraken setelah Nvidia mengangkat kembali Jensen Huang sebagai CEO pada Senin pagi, lalu kehilangan seluruh kenaikannya.
+- Nasdaq Composite ditutup naik 6,51% dan S&P 500 naik 4,73%, sementara bitcoin hanya naik 0,08% ke sekitar US$61.213 pada awal malam, lapor The Motley Fool.
+- Dolar AS yang menguat dan taruhan kenaikan suku bunga Federal Reserve lagi pada Desember kemungkinan menekan kripto, kata CoinDesk.
+- Likuidasi bitcoin mencapai sekitar US$321 juta selama naik turun itu, menurut Bitcoin Magazine.
+
+!figure:chart
+
+## Mengapa Nvidia menggerakkan seluruh pasar
+
+Huang ikut mendirikan Nvidia dan menjadikannya pemasok utama chip untuk kecerdasan buatan. Ia mengundurkan diri pada 12 November setelah terungkapnya kehidupan pribadinya, termasuk hubungan dengan seorang pengusaha perempuan yang dicurigai otoritas AS sebagai mata-mata Tiongkok, tuduhan yang dibantah Beijing, [lapor Reuters](L6). Beberapa hari sebelum Senin, dewan sempat menutup kemungkinan ia kembali.
+
+Pada Senin, dewan berbalik arah. Pernyataannya menyebut dewan puas dengan "keterusterangan dan kemampuan Huang memimpin NVIDIA" dan, setelah mendapat masukan dari pejabat tinggi pemerintah AS, yakin kembalinya Huang "tidak menimbulkan risiko keamanan nasional". Komite direktur independen akan terus menyelidiki laporan bahwa Huang menjadi sasaran operasi intelijen asing, dan Huang mengatakan mendukung penyelidikan itu. Colette Kress, yang menjabat CEO sementara, tetap menjadi direktur keuangan.
+
+Investor bersorak. Saham Nvidia naik sekitar 32% dari penutupan Jumat, lapor [Bitcoin Magazine](L4) dan [CoinDesk](L3), dan S&P 500 memutus tren turun tujuh hari berturut-turut. Pekan sebelumnya Nasdaq turun sekitar 10% karena skandal Huang memicu kekhawatiran soal tren kecerdasan buatan.
+
+!figure:moves
+
+## Bitcoin absen dari reli
+
+Kontras dengan kripto sangat mencolok. [The Motley Fool](L5) melaporkan Nasdaq Composite ditutup naik <strong>6,51%</strong> dan S&P 500 naik 4,73%. Pada awal malam, bitcoin hanya naik <strong>0,08%</strong> ke sekitar US$61.213, ether turun ke sekitar US$1.719, dan solana naik 2,84% ke sekitar US$72,57.
+
+CoinDesk menunjuk dolar AS sebagai salah satu penyebab yang mungkin. Indeks dolar naik 0,65% ke 104,40, level terkuat sejak April 2025, karena reli saham membuat kenaikan suku bunga Federal Reserve kembali terbuka. Imbal hasil obligasi Treasury 10 tahun naik ke 4,95%, dan para pedagang memperhitungkan kenaikan suku bunga awal Desember hampir pasti terjadi. Harga kripto cenderung tertinggal saat dolar dan suku bunga naik.
+
+Naik turun yang cepat itu menyakitkan bagi trader yang memakai uang pinjaman. Likuidasi bitcoin, yaitu taruhan yang ditutup otomatis oleh bursa saat rugi terlalu besar, mencapai sekitar US$321 juta, dengan US$224 juta di antaranya taruhan harga turun, kata Bitcoin Magazine. Likuidasi di seluruh pasar kripto melampaui US$762 juta.
+
+!mid_cta
+
+## Saham kripto lebih baik daripada koinnya
+
+Saham perusahaan kripto naik jauh lebih tinggi daripada bitcoin sendiri. CoinDesk melaporkan kenaikan dua digit untuk Strategy dan Galaxy Digital, kenaikan 12% untuk penerbit stablecoin Circle, dan 8,3% untuk Coinbase. Penambang bitcoin yang juga mengelola pusat data kecerdasan buatan mencatat beberapa lonjakan terbesar, kata Bitcoin Magazine. Meski begitu, Strategy masih turun sekitar 40% dalam sebulan terakhir dan Coinbase sekitar 32,5%, menurut CoinDesk.
+
+Adam Haeems dari Tesseract Group mengatakan kepada Bitcoin Magazine bahwa bitcoin "turun dalam tujuh dari delapan sesi perdagangan AS sejak Huang pergi, termasuk hari ini", dan pekan lalu setiap penurunan harian sejalan dengan arus keluar dari dana yang diperdagangkan di bursa (ETF) bitcoin pada hari itu.
+
+## Artinya bagi pemula
+
+Berita besar di pasar saham tidak selalu mengangkat bitcoin. Pada Senin, berita yang sama yang membuat saham teknologi mencatat salah satu hari terbaiknya dalam beberapa tahun hanya memberi bitcoin lonjakan singkat, lalu penurunan. Harga bisa bergerak ribuan dolar dalam hitungan menit, dan tidak ada yang bisa memprediksi arah berikutnya dengan andal.
+
+Jika Anda ingin memiliki sedikit bitcoin, banyak pemula memakai bursa besar yang teregulasi seperti [Coinbase](REF) dan membeli dalam jumlah kecil secara bertahap, alih-alih mengejar lonjakan mendadak. Hindari uang pinjaman dan hanya investasikan dana yang siap Anda relakan. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Arus dana ETF bitcoin spot hari Senin, yang disebut analis sebagai ujian nyata pertama bagi pemulihan setelah empat pekan arus keluar berturut-turut.
+- Laporan inflasi PCE AS pada Rabu dan rapat Fed pada 8 sampai 9 Desember.
+- Perdagangan yang sepi menjelang Thanksgiving, yang bisa membuat pergerakan harga lebih tajam.
+
+!soft: Takut dengan naik turunnya harga? Baca [berapa banyak bitcoin yang sebaiknya dibeli pemula](/articles/how-much-bitcoin-should-a-beginner-buy-dca)
+
+!end_cta
+
+!disclosure

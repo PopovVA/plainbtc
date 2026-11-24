@@ -1,0 +1,63 @@
+title: Pour les services de la CFTC, plateformes et chambres de compensation peuvent compter bitcoin, ether et stablecoins dans leurs réserves
+page_title: CFTC : bitcoin, ether et stablecoins peuvent compter dans les réserves des plateformes
+description: Un avis des services de la CFTC du 23 novembre indique que les marchés de dérivés et chambres de compensation régulés peuvent compter le bitcoin, l'ether et les stablecoins de paiement dans leurs réserves couvrant 12 mois de frais de fonctionnement, avec des décotes d'au moins 20 % pour le BTC et l'ETH et de 2 % pour les stablecoins.
+og_description: Les marchés de dérivés et chambres de compensation américains peuvent désormais compter le bitcoin, l'ether et les stablecoins de paiement dans l'argent qu'ils doivent détenir pour couvrir un an de frais, selon les services de la CFTC. Des décotes s'appliquent et les cryptos ne remplacent toujours pas le coussin de liquidités.
+label: Régulation
+summary: Les services de la CFTC ont indiqué que les marchés de dérivés et chambres de compensation régulés peuvent compter le bitcoin, l'ether et les stablecoins de paiement dans les réserves qui doivent couvrir 12 mois de frais de fonctionnement, après des décotes d'au moins 20 % pour le BTC et l'ETH et de 2 % pour les stablecoins. Les cryptos ne comptent toujours pas comme des liquidités.
+===
+
+Le principal régulateur américain des contrats à terme et des dérivés a entrouvert un peu plus la porte aux cryptos. Le lundi 23 novembre, les services de la Commodity Futures Trading Commission (CFTC) [ont publié un avis](L1) selon lequel les marchés de dérivés et chambres de compensation régulés peuvent compter le <strong>bitcoin, l'ether et les stablecoins de paiement</strong> dans les réserves financières qu'ils sont tenus de détenir.
+
+Il y a des limites. Les cryptos doivent être valorisées sous leur prix de marché, avec une réduction d'au moins <strong>20 %</strong> pour le bitcoin et l'ether et de <strong>2 %</strong> pour les stablecoins de paiement, et elles ne peuvent toujours pas servir pour la partie de la réserve qui doit être détenue en liquidités ou en actifs sûrs et liquides comparables.
+
+!takeaways
+- Les services de la CFTC ont indiqué que les plateformes de négociation de swaps, les marchés à terme désignés et les chambres de compensation de dérivés peuvent compter le bitcoin, l'ether et les stablecoins de paiement dans des réserves couvrant au moins 12 mois de frais de fonctionnement.
+- Le bitcoin et l'ether subissent une « décote » minimale de 20 % et les stablecoins de paiement de 2 %. Les autres cryptos difficiles à vendre subiraient en général une décote de 100 %, donc ne comptent pas du tout.
+- Les cryptos ne sont ni des « liquidités » ni des « titres très liquides » : elles ne peuvent pas couvrir le coussin de liquidité distinct de trois mois (plateformes de swaps) ou de six mois (marchés et chambres de compensation).
+- L'avis reflète uniquement la position des services de la CFTC. Ce n'est ni une nouvelle règle ni une lettre de non-intervention.
+
+!figure:fact
+
+## Ce que la CFTC a vraiment dit
+
+Les règles de la CFTC imposent à trois types de plateformes régulées de détenir assez de ressources financières pour couvrir leurs frais de fonctionnement pendant au moins un an, calculés en continu. Il s'agit des plateformes de négociation de swaps (SEF), des marchés à terme désignés (DCM, les Bourses où s'échangent les contrats à terme) et des chambres de compensation de dérivés (DCO, qui s'interposent entre acheteurs et vendeurs).
+
+D'après la [lettre complète des services](L2), la CFTC Letter No. 26-31, de plus en plus de ces sociétés, et de candidats à ce statut, détiennent des cryptos dans le cadre de leur activité et demandaient si elles pouvaient compter pour cette exigence. La division de la surveillance des marchés et la division de la compensation et des risques ont répondu oui pour le bitcoin, l'ether et les stablecoins de paiement, à condition d'appliquer des décotes appropriées et de respecter les règles de liquidité. La lettre est signée par les directeurs par intérim des deux divisions, Duncan Hennes et Richard Haynes.
+
+[Cointelegraph a noté](L3) que parmi les plateformes régulées par la CFTC figurent Coinbase Derivatives, la North American Derivatives Exchange de Crypto.com, Bitnomial Exchange et des marchés de prédiction comme Kalshi et Polymarket US.
+
+## Ce que signifie une « décote »
+
+Une décote (haircut en anglais) est une réduction appliquée à la valeur de marché d'un actif lorsqu'il est compté comme coussin financier, pour tenir compte du risque de baisse de son prix. Les services ont indiqué qu'ils ne s'opposeraient pas à ce que les sociétés utilisent les mêmes décotes que celles déjà acceptées pour les cryptos détenues par les courtiers en contrats à terme au titre de leurs fonds propres : au moins 20 % pour le bitcoin et l'ether, et 2 % pour les stablecoins de paiement.
+
+Concrètement, 1 million de dollars de bitcoin compterait au maximum pour 800 000 dollars dans la réserve, et 1 million de dollars d'une stablecoin éligible pour 980 000 dollars. La lettre demande aussi aux sociétés de tenir compte du « risque de corrélation défavorable », c'est-à-dire la possibilité qu'une perte d'exploitation et une chute des cours des cryptos surviennent en même temps.
+
+!figure:reserve
+
+La lettre définit les stablecoins de paiement de façon stricte. Jusqu'à l'entrée en vigueur de la loi GENIUS Act sur les stablecoins, il s'agit de stablecoins en dollars émis par des transmetteurs de fonds régulés par un État, des sociétés fiduciaires d'État ou des banques fiduciaires nationales, adossés à des liquidités, des bons du Trésor américain ou des pensions livrées au jour le jour sur bons du Trésor, avec des rapports mensuels sur leurs réserves. Après cette date, ce seront les stablecoins d'émetteurs qui respectent les exigences de la GENIUS Act.
+
+!mid_cta
+
+## Ce que les cryptos ne peuvent toujours pas faire
+
+Les règles exigent aussi qu'une partie de la réserve soit détenue en « actifs financiers liquides et libres de toute charge », c'est-à-dire en liquidités ou en titres très liquides. Pour les SEF, cette part doit représenter au moins trois mois de frais de fonctionnement (ou le coût d'une liquidation ordonnée, s'il est plus élevé). Pour les marchés et les chambres de compensation, c'est au moins six mois. Comme les cryptos ne sont ni des liquidités ni des titres très liquides selon les normes comptables américaines, les services estiment qu'elles ne peuvent pas compter pour cette part.
+
+La lettre ne couvre pas non plus les « ressources en cas de défaut » d'une chambre de compensation, l'argent mis de côté au cas où un gros membre ne paierait pas. Et elle ne reflète pas nécessairement la position de la Commission elle-même.
+
+## Pourquoi c'est important pour les débutants
+
+Vous ne verrez pas ce changement dans votre application. Il concerne les sociétés qui gèrent les marchés américains de contrats à terme, de swaps et de prédiction, pas les particuliers. Mais c'est une étape de plus dans une série de mesures des services de la CFTC qui intègrent les cryptos dans la finance régulée. En décembre 2025, les services avaient adopté une position de non-intervention sur l'acceptation d'actifs numériques comme garantie de marge et publié des orientations sur les garanties tokenisées.
+
+Si vous voulez acheter des cryptos vous-même, passer par une grande plateforme régulée comme [Coinbase](REF) est une voie courante pour les débutants aux États-Unis. Les prix peuvent varier fortement : n'investissez que ce que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Si la Commission en formation plénière transforme des positions de ses services comme celle-ci en règles formelles.
+- Combien de marchés et de chambres de compensation placeront réellement une partie de leurs réserves en bitcoin, en ether ou en stablecoins.
+- La date d'entrée en vigueur des règles de la GENIUS Act sur les stablecoins, qui changera la liste des jetons considérés comme stablecoins de paiement.
+
+!soft: Envie de commencer par les bases ? Lisez [ce qu'est un portefeuille crypto et qui détient vos clés](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

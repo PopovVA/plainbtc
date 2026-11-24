@@ -1,0 +1,40 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Nvidia_logo.svg",
+      "license": "Public domain (logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:Nvidia_logo.svg",
+      "credit": "NVIDIA"
+    },
+    {
+      "file": "Bitcoin.svg",
+      "license": "Public domain (logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg",
+      "credit": "Bitcoin logo"
+    },
+    {
+      "file": "Kraken OHLC XBTUSD interval=15, Nov 23, 2026",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Kraken"
+    },
+    {
+      "file": "Nasdaq +6.51%, bitcoin +0.08%",
+      "license": "Facts cited",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/crypto-market-today-nov-23-bitcoin-sits-out-wall-street-s-historic-rally-as-usd1-8-billion-etf-exodus-weighs-on-prices/",
+      "credit": "The Motley Fool"
+    }
+  ],
+  "note": "Editorial composite; logos for identification; trademarks belong to their owners.",
+  "slug": "bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026",
+  "generated": "2026-11-24T00:06Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

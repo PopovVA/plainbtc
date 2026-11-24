@@ -1,0 +1,22 @@
+{
+ "slug": "cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026",
+ "date": "2026-11-23",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "cftc-approves-backpack-blockchain-derivatives-exchange-nov-2026",
+  "sec-backs-cftc-stock-perps-crypto-etf-options-nov-2026",
+  "trump-nominates-sec-cftc-commissioners-peirce-nov-2026",
+  "senators-genius-act-state-stablecoin-safe-harbor-nov-2026",
+  "senate-passes-death-bets-act-prediction-markets-nov-2026",
+  "bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody",
+  "bitcoin-etf-vs-buying-bitcoin"
+ ],
+ "sources": [
+  {"url": "https://www.cftc.gov/PressRoom/PressReleases/9331-26", "title": "CFTC: CFTC Staff Issues Advisory Concerning the Use of Crypto Assets to Satisfy Financial Resources Requirements (Release 9331-26)", "date": "Nov 23, 2026"},
+  {"url": "https://www.cftc.gov/csl/26-31/download", "title": "CFTC Letter No. 26-31: Staff Advisory Concerning the Use of Crypto Assets to Satisfy the Financial Resources Requirements (PDF)", "date": "Nov 23, 2026"},
+  {"url": "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves", "title": "Cointelegraph: CFTC staff say exchanges can count Bitcoin toward operating reserves", "date": "Nov 23, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

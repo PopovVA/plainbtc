@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Mon, 23 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 00:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bitcoin, Jensen Huang'ın Nvidia'ya dönüşüyle 64.500 $'a fırladı, borsalar uçarken tüm kazancını geri verdi</title>
+      <link>https://plainbtc.com/tr/articles/bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026</guid>
+      <pubDate>Tue, 24 Nov 2026 00:30:00 GMT</pubDate>
+      <category>Piyasa</category>
+      <description>Bitcoin, Nvidia'nın Jensen Huang'ı yeniden CEO yapmasının ardından Kraken'de yaklaşık 61.000 $'dan 64.520 $'a fırladı, akşam saatlerinde ise yeniden yaklaşık 61.200 $'a döndü. Nasdaq %6,51 yükselişle kapandı ve Nvidia yaklaşık %32 değer kazandı, ama bitcoin günü neredeyse yatay bitirdi.</description>
+    </item>
+    <item>
+      <title>CFTC personeli: borsalar ve takas kuruluşları bitcoin, ether ve stablecoin'leri rezervlerine sayabilir</title>
+      <link>https://plainbtc.com/tr/articles/cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026</guid>
+      <pubDate>Tue, 24 Nov 2026 00:25:00 GMT</pubDate>
+      <category>Düzenleme</category>
+      <description>CFTC personeli, düzenlenen türev borsaları ve takas kuruluşlarının 12 aylık işletme giderlerini karşılaması gereken rezervlere bitcoin, ether ve ödeme stablecoin'lerini sayabileceğini söyledi; BTC ve ETH için en az %20, stablecoin'ler için %2 kesinti uygulanacak. Kripto hâlâ nakit sayılmıyor.</description>
+    </item>
     <item>
       <title>Binance, 6,3 milyar dolarlık saldırının ardından güvenliğini Mandiant, SlowMist ve Verichains'e inceletiyor</title>
       <link>https://plainbtc.com/tr/articles/binance-hires-mandiant-slowmist-verichains-security-review-nov-2026</link>

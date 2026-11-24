@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-bitcoin-nov-23-huang-spike-kraken.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin on Kraken on Nov. 23, 2026, in Central time: flat near $61,200 overnight, a jump right after Nvidia reinstated Jensen Huang, a high of $64,520 around 8:15 a.m., an afternoon low of $60,680 and about $61,214 at 5:45 p.m.",
+      "es": "Gráfico de líneas de bitcoin en Kraken el 23 de noviembre de 2026, en hora del centro de EE. UU.: estable cerca de 61.200 dólares durante la noche, un salto justo después de que Nvidia restituyera a Jensen Huang, un máximo de 64.520 dólares hacia las 8:15, un mínimo de 60.680 dólares por la tarde y unos 61.214 dólares a las 17:45",
+      "pt": "Gráfico de linha do bitcoin na Kraken em 23 de novembro de 2026, no horário central dos EUA: estável perto de US$ 61.200 durante a madrugada, um salto logo depois de a Nvidia reconduzir Jensen Huang, máxima de US$ 64.520 por volta das 8h15, mínima de US$ 60.680 à tarde e cerca de US$ 61.214 às 17h45",
+      "fr": "Graphique en courbe du bitcoin sur Kraken le 23 novembre 2026, heure du Centre des États-Unis : stable vers 61 200 dollars pendant la nuit, un bond juste après le retour de Jensen Huang chez Nvidia, un plus haut de 64 520 dollars vers 8 h 15, un plus bas de 60 680 dollars l'après-midi et environ 61 214 dollars à 17 h 45",
+      "de": "Liniendiagramm von Bitcoin bei Kraken am 23. November 2026, US-Zentralzeit: über Nacht stabil bei rund 61.200 $, ein Sprung direkt nach der Wiedereinsetzung von Jensen Huang bei Nvidia, ein Hoch von 64.520 $ gegen 8:15 Uhr, ein Tief von 60.680 $ am Nachmittag und rund 61.214 $ um 17:45 Uhr",
+      "ru": "Линейный график биткоина на Kraken 23 ноября 2026 года по центральному времени США: ночью около $61 200, скачок сразу после того, как Nvidia вернула Дженсена Хуанга, максимум $64 520 около 8:15, дневной минимум $60 680 и около $61 214 в 17:45",
+      "tr": "23 Kasım 2026'da Kraken'de bitcoinin ABD Merkez saatine göre çizgi grafiği: gece boyunca 61.200 $ civarında yatay, Nvidia'nın Jensen Huang'ı göreve iade etmesinin hemen ardından sıçrama, 08.15 civarında 64.520 $ zirve, öğleden sonra 60.680 $ dip ve 17.45'te yaklaşık 61.214 $",
+      "id": "Grafik garis bitcoin di Kraken pada 23 November 2026, waktu Central AS: datar di sekitar US$61.200 sepanjang malam, melonjak tepat setelah Nvidia mengangkat kembali Jensen Huang, puncak US$64.520 sekitar pukul 08.15, titik terendah sore US$60.680, dan sekitar US$61.214 pukul 17.45",
+      "ja": "2026年11月23日のクラーケンにおけるビットコインの折れ線グラフ（米中部時間）：夜間は約61,200ドルで横ばい、エヌビディアがジェンスン・フアン氏の復帰を発表した直後に急騰、午前8時15分ごろに高値64,520ドル、午後に安値60,680ドル、午後5時45分は約61,214ドル",
+      "ko": "2026년 11월 23일 크라켄 비트코인 선 차트(미국 중부시간): 밤사이 약 61,200달러에서 횡보, 엔비디아가 젠슨 황을 복귀시킨 직후 급등, 오전 8시 15분경 고점 64,520달러, 오후 저점 60,680달러, 오후 5시 45분 약 61,214달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken",
+      "es": "Gráfico: PlainBTC, datos: Kraken",
+      "pt": "Gráfico: PlainBTC, dados: Kraken",
+      "fr": "Graphique : PlainBTC, données : Kraken",
+      "de": "Chart: PlainBTC, Daten: Kraken",
+      "ru": "График: PlainBTC, данные: Kraken",
+      "tr": "Grafik: PlainBTC, veri: Kraken",
+      "id": "Grafik: PlainBTC, data: Kraken",
+      "ja": "チャート: PlainBTC、データ: Kraken",
+      "ko": "차트: PlainBTC, 데이터: Kraken"
+    }
+  },
+  {
+    "id": "moves",
+    "file": "chart-monday-moves-nasdaq-vs-bitcoin.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of Monday, Nov. 23, 2026 moves: Nasdaq Composite +6.51%, iShares Bitcoin Trust (IBIT) +4.85%, S&P 500 +4.73%, bitcoin +0.08%",
+      "es": "Gráfico de barras de los movimientos del lunes 23 de noviembre de 2026: Nasdaq Composite +6,51%, iShares Bitcoin Trust (IBIT) +4,85%, S&P 500 +4,73%, bitcoin +0,08%",
+      "pt": "Gráfico de barras das variações de segunda-feira, 23 de novembro de 2026: Nasdaq Composite +6,51%, iShares Bitcoin Trust (IBIT) +4,85%, S&P 500 +4,73%, bitcoin +0,08%",
+      "fr": "Graphique en barres des variations du lundi 23 novembre 2026 : Nasdaq Composite +6,51 %, iShares Bitcoin Trust (IBIT) +4,85 %, S&P 500 +4,73 %, bitcoin +0,08 %",
+      "de": "Balkendiagramm der Bewegungen am Montag, 23. November 2026: Nasdaq Composite +6,51 %, iShares Bitcoin Trust (IBIT) +4,85 %, S&P 500 +4,73 %, Bitcoin +0,08 %",
+      "ru": "Столбчатая диаграмма изменений в понедельник, 23 ноября 2026 года: Nasdaq Composite +6,51%, iShares Bitcoin Trust (IBIT) +4,85%, S&P 500 +4,73%, биткоин +0,08%",
+      "tr": "23 Kasım 2026 Pazartesi günkü değişimlerin çubuk grafiği: Nasdaq Composite +%6,51, iShares Bitcoin Trust (IBIT) +%4,85, S&P 500 +%4,73, bitcoin +%0,08",
+      "id": "Grafik batang pergerakan Senin, 23 November 2026: Nasdaq Composite +6,51%, iShares Bitcoin Trust (IBIT) +4,85%, S&P 500 +4,73%, bitcoin +0,08%",
+      "ja": "2026年11月23日（月）の騰落率の棒グラフ：ナスダック総合指数+6.51%、iシェアーズ・ビットコイン・トラスト（IBIT）+4.85%、S&P500+4.73%、ビットコイン+0.08%",
+      "ko": "2026년 11월 23일(월) 등락률 막대 차트: 나스닥 종합지수 +6.51%, 아이셰어즈 비트코인 트러스트(IBIT) +4.85%, S&P 500 +4.73%, 비트코인 +0.08%"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: The Motley Fool",
+      "es": "Gráfico: PlainBTC, datos: The Motley Fool",
+      "pt": "Gráfico: PlainBTC, dados: The Motley Fool",
+      "fr": "Graphique : PlainBTC, données : The Motley Fool",
+      "de": "Chart: PlainBTC, Daten: The Motley Fool",
+      "ru": "График: PlainBTC, данные: The Motley Fool",
+      "tr": "Grafik: PlainBTC, veri: The Motley Fool",
+      "id": "Grafik: PlainBTC, data: The Motley Fool",
+      "ja": "チャート: PlainBTC、データ: The Motley Fool",
+      "ko": "차트: PlainBTC, 데이터: The Motley Fool"
+    }
+  }
+]

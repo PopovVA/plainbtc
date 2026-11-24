@@ -2186,7 +2186,98 @@ def thumb_ark_withdraws_cd20_etfs():
     ], "note": "Editorial diagram; logos for identification; trademarks belong to their owners."}
 
 
+def thumb_huang_btc_fade():
+    """Cream split card: Nvidia logo (Wikimedia, identification only) with the Nasdaq's +6.51% close (The Motley Fool) vs
+    the Bitcoin logo (Wikimedia) with Kraken XBTUSD 15-minute closes for Nov 23, 2026 (frozen in chart-data.json):
+    the $64,520 high after Huang's reinstatement and the fade back to about $61,200."""
+    nv = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg", CACHE/"nvidia-logo.svg")).convert("RGBA")
+    btc = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg", CACHE/"bitcoin-wiki.svg")).convert("RGBA")
+    data = json.loads((I18N / "bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026" / "chart-data.json").read_text(encoding="utf-8"))["rows"]
+    base = gradient_bg(top=(250, 247, 240), bottom=(238, 232, 220))
+    d = Draw(base)
+    ink, mute, green, orange = (28, 25, 23), (87, 83, 78), (118, 185, 0), (247, 147, 26)
+    # left panel: stocks
+    d.rounded_rectangle([20, 52, 300, 336], radius=16, fill=(255, 255, 255), outline=(214, 211, 209), width=2)
+    paste_contain(base, nv, (40, 70, 240, 90), pad=4)
+    d = Draw(base)
+    d.text((44, 176), "Nasdaq", font=font(FONT_B, 20), fill=mute)
+    d.text((44, 204), "+6.51%", font=font(FONT_B, 54), fill=(77, 124, 15))
+    # small rising bars
+    for k, hgt in enumerate((18, 30, 44, 62)):
+        d.rounded_rectangle([196 + k * 22, 318 - hgt, 212 + k * 22, 318], radius=3, fill=green)
+    d.text((44, 290), "Huang back as CEO", font=font(FONT_R, 13), fill=mute)
+    # right panel: bitcoin round trip
+    d.rounded_rectangle([320, 52, 620, 336], radius=16, fill=(28, 25, 23))
+    paste_contain(base, btc, (336, 64, 52, 52), pad=2)
+    d = Draw(base)
+    d.text((396, 70), "Bitcoin", font=font(FONT_B, 20), fill=(250, 250, 249))
+    d.text((396, 94), "+0.08% on the day", font=font(FONT_R, 13), fill=(214, 211, 209))
+    ys = [r[1] for r in data]; n = len(ys)
+    lo, hi = 60400, 64800
+    x0, x1, y0, y1 = 340, 600, 140, 300
+    pts = [(x0 + (x1 - x0) * i / (n - 1), y1 - (y1 - y0) * (v - lo) / (hi - lo)) for i, v in enumerate(ys)]
+    d.line(pts + [], fill=orange, width=3, joint="curve")
+    hi_i = max(range(n), key=lambda i: data[i][2]); hx = x0 + (x1 - x0) * hi_i / (n - 1); hy = y1 - (y1 - y0) * (data[hi_i][2] - lo) / (hi - lo)
+    d.ellipse([hx - 5, hy - 5, hx + 5, hy + 5], fill=(52, 211, 153))
+    d.text((hx + 8, hy - 8), "$64,520", font=font(FONT_B, 16), fill=(110, 231, 183))
+    d.text((x1 - 70, pts[-1][1] - 26), "$61,2xx".replace("xx", f"{int(ys[-1]) % 100:02d}"), font=font(FONT_B, 15), fill=(253, 186, 116))
+    d.text((340, 310), "Kraken · Nov. 23 · Central time", font=font(FONT_R, 12), fill=(168, 162, 158))
+    label_chip(base, "Nvidia rally vs. bitcoin")
+    return base, {"kind": "composite", "sources": [
+        {"file": "Nvidia_logo.svg", "license": "Public domain (logo)", "url": "https://commons.wikimedia.org/wiki/File:Nvidia_logo.svg", "credit": "NVIDIA"},
+        {"file": "Bitcoin.svg", "license": "Public domain (logo)", "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg", "credit": "Bitcoin logo"},
+        {"file": "Kraken OHLC XBTUSD interval=15, Nov 23, 2026", "license": "Kraken public API", "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "credit": "Kraken"},
+        {"file": "Nasdaq +6.51%, bitcoin +0.08%", "license": "Facts cited", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/crypto-market-today-nov-23-bitcoin-sits-out-wall-street-s-historic-rally-as-usd1-8-billion-etf-exodus-weighs-on-prices/", "credit": "The Motley Fool"},
+    ], "note": "Editorial composite; logos for identification; trademarks belong to their owners."}
+
+
+def thumb_cftc_crypto_reserves():
+    """Light 'reserve ledger': CFTC seal (public domain, Wikimedia) with bitcoin, ether and a generic payment-stablecoin token,
+    each tagged with the minimum haircut from CFTC Letter No. 26-31 (20%, 20%, 2%), over a 12-month reserve bar
+    (6 months cash or liquid for DCMs/DCOs)."""
+    cftc = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/3/3e/Commodity_Futures_Trading_Commission_seal.svg", CACHE/"cftc-seal.svg")).convert("RGBA")
+    btc = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg", CACHE/"bitcoin-wiki.svg")).convert("RGBA")
+    eth = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg", CACHE/"ethereum-logo-2014.svg")).convert("RGBA")
+    base = gradient_bg(top=(232, 240, 248), bottom=(208, 222, 236))
+    d = Draw(base)
+    ink, mute, navy, red = (15, 23, 42), (71, 85, 105), (30, 58, 138), (185, 28, 28)
+    paste_contain(base, cftc, (22, 40, 170, 170), pad=4)
+    d = Draw(base)
+    tiles = [(btc, "BTC", "-20%"), (eth, "ETH", "-20%"), (None, "Stablecoin", "-2%")]
+    for i, (logo, name, cut) in enumerate(tiles):
+        x = 214 + i * 136
+        d.rounded_rectangle([x, 50, x + 120, 196], radius=14, fill=(255, 255, 255), outline=(148, 163, 184), width=2)
+        if logo is not None:
+            paste_contain(base, logo, (x + 22, 58, 76, 76), pad=4)
+            d = Draw(base)
+        else:
+            d.ellipse([x + 26, 62, x + 94, 130], fill=(22, 163, 74))
+            d.text((x + 46, 72), "$", font=font(FONT_B, 40), fill=(255, 255, 255))
+        d.text((x + 60 - d.textlength(name, font=font(FONT_B, 14)) / 2, 140), name, font=font(FONT_B, 14), fill=ink)
+        tag = font(FONT_B, 18); tw = d.textlength(cut, font=tag)
+        d.rounded_rectangle([x + 60 - tw / 2 - 10, 164, x + 60 + tw / 2 + 10, 190], radius=8, fill=red)
+        d.text((x + 60 - tw / 2, 166), cut, font=tag, fill=(255, 255, 255))
+    # 12-month reserve bar
+    d.text((24, 228), "A year of operating costs (futures exchanges and clearinghouses)", font=font(FONT_B, 14), fill=ink)
+    bw = 592 / 12
+    for m in range(12):
+        x = 24 + m * bw
+        d.rounded_rectangle([x + 2, 254, x + bw - 2, 292], radius=5, fill=(100, 116, 139) if m < 6 else (247, 147, 26))
+    d.text((28, 300), "6 months: cash or liquid securities only", font=font(FONT_R, 13), fill=mute)
+    d.text((330, 300), "6 months: may include crypto", font=font(FONT_R, 13), fill=(154, 52, 18))
+    d.text((24, 326), "CFTC staff advisory · Nov. 23, 2026", font=font(FONT_R, 12), fill=mute)
+    label_chip(base, "CFTC · crypto in reserves", xy=(380, 14))
+    return base, {"kind": "composite", "sources": [
+        {"file": "Commodity_Futures_Trading_Commission_seal.svg", "license": "Public domain (U.S. government)", "url": "https://commons.wikimedia.org/wiki/File:Commodity_Futures_Trading_Commission_seal.svg", "credit": "CFTC"},
+        {"file": "Bitcoin.svg", "license": "Public domain (logo)", "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg", "credit": "Bitcoin logo"},
+        {"file": "Ethereum_logo_2014.svg", "license": "CC BY 3.0 (logo)", "url": "https://commons.wikimedia.org/wiki/File:Ethereum_logo_2014.svg", "credit": "Ethereum Foundation"},
+        {"file": "CFTC Letter No. 26-31, Nov. 23, 2026", "license": "Facts cited", "url": "https://www.cftc.gov/csl/26-31/download", "credit": "CFTC"},
+    ], "note": "Editorial diagram; seal and logos for identification; no endorsement by the CFTC implied."}
+
+
 BUILDERS = {
+    "bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026": thumb_huang_btc_fade,
+    "cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026": thumb_cftc_crypto_reserves,
     "binance-hires-mandiant-slowmist-verichains-security-review-nov-2026": thumb_binance_security_review,
     "ark-invest-withdraws-coindesk-20-crypto-etfs-nov-2026": thumb_ark_withdraws_cd20_etfs,
     "bitcoin-etfs-1-79-billion-weekly-outflow-fourth-week-nov-2026": thumb_etf_weekly_179,

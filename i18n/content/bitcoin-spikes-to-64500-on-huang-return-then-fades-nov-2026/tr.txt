@@ -1,0 +1,63 @@
+title: Bitcoin, Jensen Huang'ın Nvidia'ya dönüşüyle 64.500 $'a fırladı, borsalar uçarken tüm kazancını geri verdi
+page_title: Bitcoin, Huang'ın Nvidia'ya dönüşüyle 64.500 $'a çıktı, sonra geriledi
+description: Bitcoin, Nvidia'nın 23 Kasım'da Jensen Huang'ı yeniden CEO yapmasından dakikalar sonra Kraken'de yaklaşık 61.000 $'dan 64.520 $'a çıktı, ardından Nasdaq %6,51 yükselişle kapanırken 61.200 $ civarına geriledi. Ne oldu ve neden, sade bir dille.
+og_description: Nvidia, Jensen Huang'ı geri getirdi ve borsalar yılların en iyi günlerinden birini yaşadı: Nasdaq +%6,51, Nvidia yaklaşık +%32. Bitcoin 64.520 $'a fırladı, sonra yaklaşık 61.200 $'a indi. Güçlü dolar ve Fed faiz artışı beklentileri kriptoyu baskıladı.
+label: Piyasa
+summary: Bitcoin, Nvidia'nın Jensen Huang'ı yeniden CEO yapmasının ardından Kraken'de yaklaşık 61.000 $'dan 64.520 $'a fırladı, akşam saatlerinde ise yeniden yaklaşık 61.200 $'a döndü. Nasdaq %6,51 yükselişle kapandı ve Nvidia yaklaşık %32 değer kazandı, ama bitcoin günü neredeyse yatay bitirdi.
+===
+
+23 Kasım Pazartesi, ABD hisseleri için yılların en iyi günlerinden biri oldu, bitcoin ise bu yükselişe neredeyse hiç katılmadı. Pazartesi sabahı [Nvidia](L1), yönetim kurulunun Jensen Huang'ı başkan, CEO ve yönetim kurulu üyesi olarak derhal geçerli olmak üzere oybirliğiyle göreve iade ettiğini duyurdu. Bitcoin dakikalar içinde fırladı, günün geri kalanında ise başladığı yere doğru geriledi.
+
+PlainBTC'nin Kraken'in [herkese açık fiyat verilerini](L2) incelemesine göre bitcoin, ABD Merkez saatiyle 07.54'te yaklaşık <strong>61.020 $</strong>'dan işlem görüyordu. Beş dakika sonra 63.804 $'a çıktı ve 08.15 işlem diliminde <strong>64.520 $</strong> ile zirve yaptı. Öğleden sonra 60.680 $'lık dibe kadar düştü ve 17.45'te yaklaşık <strong>61.200 $</strong>'dan işlem görüyordu.
+
+!takeaways
+- Bitcoin, Nvidia'nın pazartesi sabahı Jensen Huang'ı yeniden CEO yapmasının ardından Kraken'de yaklaşık 61.020 $'dan 64.520 $'a fırladı, sonra tüm yükselişi geri verdi.
+- The Motley Fool'a göre Nasdaq Composite %6,51, S&P 500 %4,73 yükselişle kapanırken bitcoin akşamın ilk saatlerinde yalnızca %0,08 artışla yaklaşık 61.213 $'daydı.
+- CoinDesk'e göre güçlenen ABD doları ve Fed'in aralıkta yeniden faiz artıracağı beklentisi muhtemelen kriptoyu baskıladı.
+- Bitcoin Magazine'e göre bu iniş çıkışta bitcoin tasfiyeleri yaklaşık 321 milyon $'a ulaştı.
+
+!figure:chart
+
+## Nvidia neden tüm piyasayı hareketlendirdi
+
+Huang, Nvidia'nın kurucu ortağı ve şirketi yapay zekâ çiplerinin ana tedarikçisi hâline getiren isim. [Reuters'ın aktardığına](L6) göre Huang, ABD makamlarının Çin adına casusluk yaptığından şüphelendiği bir iş kadınıyla ilişkisi de dahil özel hayatına dair ifşaatların ardından 12 Kasım'da istifa etmişti; Pekin bu iddiayı reddediyor. Pazartesiden birkaç gün önce yönetim kurulu geri dönüşünü dışlamıştı.
+
+Pazartesi günü yönetim kurulu geri adım attı. Açıklamada kurulun Huang'ın "dürüstlüğünden ve NVIDIA'yı yönetme yeteneğinden" tatmin olduğu ve ABD hükümetinin üst kademelerinin görüşünü aldıktan sonra dönüşünün "ulusal güvenlik riski oluşturmadığından" emin olduğu belirtildi. Bağımsız yöneticilerden oluşan bir komite, Huang'ın yabancı bir istihbarat faaliyetinin hedefi olduğu yönündeki haberleri incelemeyi sürdürecek; Huang da soruşturmayı desteklediğini söyledi. Geçici CEO olarak görev yapan Colette Kress finans direktörlüğüne devam ediyor.
+
+Yatırımcılar kararı alkışladı. [Bitcoin Magazine](L4) ve [CoinDesk](L3)'e göre Nvidia hisseleri cuma kapanışına göre yaklaşık %32 yükseldi ve S&P 500 yedi günlük düşüş serisini kırdı. Bir önceki hafta Huang skandalının yapay zekâ rallisine dair kaygıları artırmasıyla Nasdaq yaklaşık %10 gerilemişti.
+
+!figure:moves
+
+## Bitcoin ralliye katılmadı
+
+Kriptoyla karşıtlık çok belirgindi. [The Motley Fool](L5), Nasdaq Composite'in <strong>%6,51</strong>, S&P 500'ün %4,73 yükselişle kapandığını bildirdi. Akşamın ilk saatlerinde bitcoin yalnızca <strong>%0,08</strong> artışla yaklaşık 61.213 $'daydı; ether yaklaşık 1.719 $'a geriledi, solana ise %2,84 artışla yaklaşık 72,57 $'a çıktı.
+
+CoinDesk, olası nedenlerden biri olarak ABD dolarına dikkat çekti. Hisse rallisi Fed'in yeni faiz artışlarını yeniden gündeme getirince dolar endeksi %0,65 yükselerek Nisan 2025'ten bu yana en güçlü seviyesi olan 104,40'a çıktı. 10 yıllık ABD Hazine tahvili faizi %4,95'e yükseldi ve piyasalar aralık başında faiz artışını neredeyse kesin olarak fiyatladı. Dolar ve faizler yükselirken kripto fiyatları genellikle geride kalır.
+
+Hızlı yükseliş ve düşüş, borç parayla işlem yapanlara pahalıya patladı. Bitcoin Magazine'e göre bitcoin tasfiyeleri, yani borsaların fazla zarar eden pozisyonları otomatik kapatması, yaklaşık 321 milyon $'a ulaştı ve bunun 224 milyon $'ı düşüş yönlü pozisyonlardı. Tüm kripto piyasasında tasfiyeler 762 milyon $'ı aştı.
+
+!mid_cta
+
+## Kripto hisseleri coinlerden iyi performans gösterdi
+
+Kripto şirketlerinin hisseleri bitcoinin kendisinden çok daha fazla yükseldi. CoinDesk, Strategy ve Galaxy Digital'de çift haneli yükselişler, stablecoin ihraççısı Circle'da %12 ve Coinbase'te %8,3 artış bildirdi. Bitcoin Magazine'e göre yapay zekâ veri merkezi de işleten bitcoin madencileri en büyük yükselişlerden bazılarını kaydetti. Yine de CoinDesk'e göre Strategy son bir ayda hâlâ yaklaşık %40, Coinbase yaklaşık %32,5 düşüşteydi.
+
+Tesseract Group'tan Adam Haeems, Bitcoin Magazine'e bitcoinin "Huang gittiğinden beri, bugün dahil, sekiz ABD seansının yedisinde düştüğünü" ve geçen hafta her günkü düşüşün o günkü bitcoin borsa yatırım fonu (ETF) çıkışlarıyla örtüştüğünü söyledi.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Borsadaki büyük haberler bitcoini her zaman yukarı taşımaz. Pazartesi günü teknoloji hisselerine yılların en iyi günlerinden birini yaşatan aynı haber, bitcoine yalnızca kısa bir sıçrama ve ardından bir düşüş getirdi. Fiyatlar dakikalar içinde binlerce dolar oynayabilir ve kimse bir sonraki hareketi güvenilir şekilde tahmin edemez.
+
+Biraz bitcoin sahibi olmak istiyorsanız, birçok yeni başlayan [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsa kullanıyor ve ani yükselişlerin peşinden koşmak yerine zamana yayarak küçük miktarlarda alıyor. Borç parayla işlem yapmaktan kaçının ve yalnızca kaybetmeyi göze alabileceğiniz parayı yatırın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye dikkat etmeli
+
+- Analistlerin dört hafta üst üste süren çıkışların ardından toparlanmanın ilk gerçek sınavı olarak gördüğü pazartesi günkü spot bitcoin ETF akışları.
+- Çarşamba günkü ABD PCE enflasyon raporu ve Fed'in 8 ile 9 Aralık'taki toplantısı.
+- Şükran Günü civarındaki düşük işlem hacmi; bu, fiyat hareketlerini daha sert hâle getirebilir.
+
+!soft: Dalgalanmalar sizi korkutuyor mu? [Yeni başlayanlar ne kadar bitcoin almalı](/articles/how-much-bitcoin-should-a-beginner-buy-dca) yazımızı okuyun
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,63 @@
+title: Staf CFTC: bursa dan lembaga kliring boleh menghitung bitcoin, ether, dan stablecoin sebagai cadangan
+page_title: CFTC: bitcoin, ether, dan stablecoin boleh dihitung sebagai cadangan bursa
+description: Imbauan staf CFTC pada 23 November menyebut bursa derivatif dan lembaga kliring yang teregulasi boleh menghitung bitcoin, ether, dan stablecoin pembayaran sebagai cadangan untuk 12 bulan biaya operasional, dengan potongan nilai minimal 20% untuk BTC dan ETH serta 2% untuk stablecoin.
+og_description: Bursa derivatif dan lembaga kliring AS kini boleh menghitung bitcoin, ether, dan stablecoin pembayaran sebagai bagian dana yang wajib mereka simpan untuk menutup biaya satu tahun, kata staf CFTC. Ada potongan nilai, dan kripto tetap tidak bisa menggantikan bantalan kas.
+label: Regulasi
+summary: Staf CFTC menyatakan bursa derivatif dan lembaga kliring yang teregulasi boleh menghitung bitcoin, ether, dan stablecoin pembayaran sebagai cadangan yang harus menutup 12 bulan biaya operasional, setelah potongan nilai minimal 20% untuk BTC dan ETH serta 2% untuk stablecoin. Kripto tetap tidak dihitung sebagai kas.
+===
+
+Regulator utama AS untuk kontrak berjangka dan derivatif membuka pintu sedikit lebih lebar bagi kripto. Pada Senin, 23 November, staf Commodity Futures Trading Commission (CFTC) [menerbitkan imbauan](L1) yang menyatakan bursa derivatif dan lembaga kliring yang teregulasi boleh menghitung <strong>bitcoin, ether, dan stablecoin pembayaran</strong> sebagai bagian dari cadangan keuangan yang wajib mereka simpan.
+
+Ada batasannya. Kripto harus dinilai di bawah harga pasarnya, dengan potongan minimal <strong>20%</strong> untuk bitcoin dan ether serta <strong>2%</strong> untuk stablecoin pembayaran, dan tetap tidak boleh dipakai untuk bagian cadangan yang wajib disimpan dalam kas atau aset aman dan likuid sejenis.
+
+!takeaways
+- Staf CFTC menyatakan fasilitas perdagangan swap, pasar kontrak yang ditunjuk, dan lembaga kliring derivatif boleh menghitung bitcoin, ether, dan stablecoin pembayaran sebagai cadangan yang menutup minimal 12 bulan biaya operasional.
+- Bitcoin dan ether mendapat "potongan nilai" minimal 20% dan stablecoin pembayaran 2%. Kripto lain yang tidak mudah dijual umumnya mendapat potongan 100%, jadi sama sekali tidak dihitung.
+- Kripto tidak tergolong "kas" atau "sekuritas sangat likuid", sehingga tidak bisa menutup bantalan likuiditas terpisah sebesar tiga bulan (fasilitas swap) atau enam bulan (bursa dan lembaga kliring).
+- Imbauan ini hanya mencerminkan pandangan staf CFTC. Ini bukan aturan baru dan bukan posisi tanpa tindakan.
+
+!figure:fact
+
+## Apa yang sebenarnya dikatakan CFTC
+
+Aturan CFTC mewajibkan tiga jenis tempat perdagangan teregulasi menyimpan sumber daya keuangan yang cukup untuk menutup biaya operasional setidaknya satu tahun, dihitung secara bergulir. Ketiganya adalah fasilitas perdagangan swap (SEF), pasar kontrak yang ditunjuk (DCM, bursa tempat kontrak berjangka diperdagangkan), dan lembaga kliring derivatif (DCO, yang berdiri di antara pembeli dan penjual).
+
+Menurut [surat lengkap staf](L2), CFTC Letter No. 26-31, makin banyak perusahaan semacam ini, juga perusahaan yang sedang mendaftar, kini memegang kripto dalam bisnisnya dan bertanya apakah kripto bisa dihitung untuk kewajiban tersebut. Divisi Pengawasan Pasar dan Divisi Kliring dan Risiko menjawab boleh untuk bitcoin, ether, dan stablecoin pembayaran, selama perusahaan menerapkan potongan nilai yang sesuai dan mematuhi aturan likuiditas. Surat itu ditandatangani pelaksana tugas direktur kedua divisi, Duncan Hennes dan Richard Haynes.
+
+[Cointelegraph mencatat](L3) bahwa tempat perdagangan yang diatur CFTC antara lain Coinbase Derivatives, North American Derivatives Exchange milik Crypto.com, Bitnomial Exchange, serta pasar prediksi seperti Kalshi dan Polymarket US.
+
+## Apa arti "potongan nilai"
+
+Potongan nilai (dalam bahasa Inggris haircut) adalah diskon atas nilai pasar suatu aset saat aset itu dihitung sebagai bantalan keuangan, untuk memperhitungkan risiko harganya turun. Staf mengatakan tidak akan keberatan jika perusahaan memakai potongan nilai yang sama dengan yang sudah diterima staf CFTC untuk kripto milik pialang berjangka dalam perhitungan modal: minimal 20% untuk bitcoin dan ether, serta 2% untuk stablecoin pembayaran.
+
+Dalam praktiknya, bitcoin senilai US$1 juta hanya akan dihitung paling banyak US$800.000 dalam cadangan, sedangkan US$1 juta dalam stablecoin yang memenuhi syarat dihitung US$980.000. Surat itu juga meminta perusahaan memperhitungkan "risiko arah yang salah", yaitu kemungkinan kerugian usaha dan anjloknya harga kripto terjadi bersamaan.
+
+!figure:reserve
+
+Surat itu mendefinisikan stablecoin pembayaran secara sempit. Sampai undang-undang stablecoin GENIUS Act berlaku, yang dimaksud adalah stablecoin dolar yang diterbitkan oleh perusahaan pengiriman uang yang diatur negara bagian, perusahaan trust negara bagian, atau bank trust nasional, yang didukung kas, surat utang Treasury AS, atau repo Treasury semalam, dengan laporan bulanan tentang cadangannya. Setelah tanggal itu, yang dimaksud adalah stablecoin dari penerbit yang memenuhi syarat GENIUS Act.
+
+!mid_cta
+
+## Yang tetap tidak bisa dilakukan kripto
+
+Aturan itu juga mewajibkan sebagian cadangan disimpan dalam "aset keuangan likuid yang tidak dibebani", yaitu kas atau sekuritas sangat likuid. Untuk SEF, bagian itu minimal setara tiga bulan biaya operasional (atau biaya penghentian operasi, jika lebih besar). Untuk bursa dan lembaga kliring, minimal enam bulan. Karena menurut standar akuntansi AS kripto bukan kas maupun sekuritas sangat likuid, staf menyatakan kripto tidak bisa dihitung untuk bagian tersebut.
+
+Surat itu juga tidak mencakup "sumber daya gagal bayar" lembaga kliring, yaitu dana cadangan jika anggota besar gagal membayar. Dan surat itu belum tentu mencerminkan pandangan Komisi sendiri.
+
+## Mengapa ini penting bagi pemula
+
+Anda tidak akan melihat perubahan ini di aplikasi Anda. Aturan ini berdampak pada perusahaan yang menjalankan pasar berjangka, swap, dan prediksi di AS, bukan investor perorangan. Namun ini satu langkah lagi dalam rangkaian kebijakan staf CFTC yang membawa kripto lebih dalam ke keuangan teregulasi. Pada Desember 2025, staf mengambil posisi tanpa tindakan atas penerimaan aset digital sebagai jaminan margin dan menerbitkan panduan tentang jaminan yang ditokenisasi.
+
+Jika Anda ingin membeli kripto sendiri, memakai bursa besar yang teregulasi seperti [Coinbase](REF) adalah jalur umum bagi pemula di AS. Harga bisa bergejolak tajam, jadi hanya investasikan dana yang siap Anda relakan. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Apakah Komisi secara penuh akan mengubah pandangan staf seperti ini menjadi aturan resmi.
+- Berapa banyak bursa dan lembaga kliring yang benar-benar memindahkan sebagian cadangan ke bitcoin, ether, atau stablecoin.
+- Kapan aturan stablecoin GENIUS Act berlaku, yang akan mengubah koin mana yang dihitung sebagai stablecoin pembayaran.
+
+!soft: Ingin mulai dari dasar? Baca [apa itu dompet kripto dan siapa yang memegang kunci Anda](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 23 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 00:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ビットコイン、ジェンスン・フアン氏のエヌビディア復帰で6万4500ドルに急騰、株式が急伸する中で上げ幅をすべて失う</title>
+      <link>https://plainbtc.com/ja/articles/bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026</guid>
+      <pubDate>Tue, 24 Nov 2026 00:30:00 GMT</pubDate>
+      <category>マーケット</category>
+      <description>エヌビディアがジェンスン・フアン氏をCEOに復帰させると、ビットコインはクラーケンで約6万1000ドルから6万4520ドルに急騰したが、夕方には約6万1200ドルに戻った。ナスダックは6.51%高、エヌビディアは約32%高で引けたが、ビットコインはほぼ横ばいで1日を終えた。</description>
+    </item>
+    <item>
+      <title>CFTCスタッフ、取引所と清算機関はビットコイン、イーサ、ステーブルコインを準備金に算入可能と表明</title>
+      <link>https://plainbtc.com/ja/articles/cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026</guid>
+      <pubDate>Tue, 24 Nov 2026 00:25:00 GMT</pubDate>
+      <category>規制</category>
+      <description>CFTCスタッフは、規制下のデリバティブ取引所と清算機関が、12か月分の運営費をまかなう準備金にビットコイン、イーサ、決済用ステーブルコインを算入できると表明した。BTCとETHは最低20%、ステーブルコインは2%のヘアカットを適用する。暗号資産は引き続き現金とはみなされない。</description>
+    </item>
     <item>
       <title>バイナンス、63億ドルのハッキング受けMandiant・SlowMist・Verichainsにセキュリティ審査を依頼</title>
       <link>https://plainbtc.com/ja/articles/binance-hires-mandiant-slowmist-verichains-security-review-nov-2026</link>

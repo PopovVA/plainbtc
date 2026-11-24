@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ko/</link>
     <description>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 23 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 00:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ko/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>비트코인, 젠슨 황의 엔비디아 복귀에 6만4500달러로 급등했다가 증시 급등 속에 상승분 모두 반납</title>
+      <link>https://plainbtc.com/ko/articles/bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026</guid>
+      <pubDate>Tue, 24 Nov 2026 00:30:00 GMT</pubDate>
+      <category>시장</category>
+      <description>엔비디아가 젠슨 황을 CEO로 복귀시키자 비트코인은 크라켄에서 약 6만1000달러에서 6만4520달러로 급등했지만 저녁에는 다시 약 6만1200달러로 돌아왔다. 나스닥은 6.51%, 엔비디아는 약 32% 올랐지만 비트코인은 거의 보합으로 하루를 마쳤다.</description>
+    </item>
+    <item>
+      <title>CFTC 실무진 "거래소·청산소, 비트코인·이더·스테이블코인을 준비금에 산입 가능"</title>
+      <link>https://plainbtc.com/ko/articles/cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026</guid>
+      <pubDate>Tue, 24 Nov 2026 00:25:00 GMT</pubDate>
+      <category>규제</category>
+      <description>CFTC 실무진은 규제 대상 파생상품 거래소와 청산소가 12개월치 운영비를 충당해야 하는 준비금에 비트코인, 이더, 결제용 스테이블코인을 산입할 수 있다고 밝혔다. BTC와 ETH는 최소 20%, 스테이블코인은 2%의 헤어컷을 적용한다. 암호화폐는 여전히 현금으로 인정되지 않는다.</description>
+    </item>
     <item>
       <title>바이낸스, 63억 달러 해킹 이후 맨디언트·슬로우미스트·베리체인스에 보안 점검 의뢰</title>
       <link>https://plainbtc.com/ko/articles/binance-hires-mandiant-slowmist-verichains-security-review-nov-2026</link>

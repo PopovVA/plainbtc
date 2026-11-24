@@ -1,0 +1,63 @@
+title: CFTC personeli: borsalar ve takas kuruluşları bitcoin, ether ve stablecoin'leri rezervlerine sayabilir
+page_title: CFTC: bitcoin, ether ve stablecoin'ler borsa rezervlerine sayılabilir
+description: CFTC personelinin 23 Kasım tarihli duyurusuna göre düzenlenen türev borsaları ve takas kuruluşları, 12 aylık işletme giderlerini karşılayan rezervlerine bitcoin, ether ve ödeme stablecoin'lerini sayabilir; BTC ve ETH için en az %20, stablecoin'ler için %2 kesinti uygulanır.
+og_description: CFTC personeline göre ABD'deki türev borsaları ve takas kuruluşları artık bir yıllık giderleri karşılamak için tutmaları gereken paraya bitcoin, ether ve ödeme stablecoin'lerini sayabilecek. Kesintiler uygulanıyor ve kripto hâlâ nakit tamponunun yerini tutamıyor.
+label: Düzenleme
+summary: CFTC personeli, düzenlenen türev borsaları ve takas kuruluşlarının 12 aylık işletme giderlerini karşılaması gereken rezervlere bitcoin, ether ve ödeme stablecoin'lerini sayabileceğini söyledi; BTC ve ETH için en az %20, stablecoin'ler için %2 kesinti uygulanacak. Kripto hâlâ nakit sayılmıyor.
+===
+
+ABD'nin vadeli işlemler ve türev ürünler alanındaki ana düzenleyicisi kriptoya kapıyı biraz daha araladı. 23 Kasım Pazartesi günü Emtia Vadeli İşlem Ticaret Komisyonu (CFTC) personeli, düzenlenen türev borsaları ve takas kuruluşlarının tutmak zorunda oldukları finansal rezervlere <strong>bitcoin, ether ve ödeme stablecoin'lerini</strong> sayabileceğini belirten [bir duyuru yayımladı](L1).
+
+Bazı sınırlar var. Kripto varlıklar piyasa fiyatının altında değerlenmeli; bitcoin ve ether için en az <strong>%20</strong>, ödeme stablecoin'leri için <strong>%2</strong> kesinti uygulanmalı. Ayrıca rezervin nakit ya da benzeri güvenli ve likit varlıklarda tutulması gereken kısmı için hâlâ kullanılamıyorlar.
+
+!takeaways
+- CFTC personeli, swap işlem platformlarının, yetkili vadeli işlem borsalarının ve türev takas kuruluşlarının en az 12 aylık işletme giderini karşılayan rezervlere bitcoin, ether ve ödeme stablecoin'lerini sayabileceğini söyledi.
+- Bitcoin ve ether için en az %20, ödeme stablecoin'leri için %2 "kesinti" uygulanıyor. Kolayca satılamayan diğer kripto varlıklara genellikle %100 kesinti uygulanır, yani hiç sayılmazlar.
+- Kripto "nakit" ya da "yüksek likiditeli menkul kıymet" sayılmadığı için ayrı tutulan üç aylık (swap platformları) veya altı aylık (borsalar ve takas kuruluşları) likidite tamponunu karşılayamaz.
+- Duyuru yalnızca CFTC personelinin görüşünü yansıtıyor. Yeni bir kural ya da yaptırım uygulamama taahhüdü değil.
+
+!figure:fact
+
+## CFTC tam olarak ne dedi
+
+CFTC kuralları, düzenlenen üç tür işlem platformunun işletme giderlerini en az bir yıl boyunca karşılayacak finansal kaynağı sürekli güncellenen bir hesapla tutmasını şart koşuyor. Bunlar swap işlem platformları (SEF), yetkili vadeli işlem borsaları (DCM, vadeli işlemlerin yapıldığı borsalar) ve alıcılarla satıcılar arasında duran türev takas kuruluşlarıdır (DCO).
+
+Personelin [tam metin mektubuna](L2), yani CFTC Letter No. 26-31'e göre bu şirketlerin ve bu statüye başvuranların giderek artan bir kısmı işlerinde kripto varlık tutuyor ve bunların bu şarta sayılıp sayılamayacağını sormuştu. Piyasa Gözetimi Bölümü ile Takas ve Risk Bölümü, şirketler uygun kesintileri uyguladığı ve likidite kurallarına uyduğu sürece bitcoin, ether ve ödeme stablecoin'leri için yanıtı "evet" olarak verdi. Mektubu iki bölümün vekil direktörleri Duncan Hennes ve Richard Haynes imzaladı.
+
+[Cointelegraph'ın belirttiğine](L3) göre CFTC'nin düzenlediği platformlar arasında Coinbase Derivatives, Crypto.com'un North American Derivatives Exchange'i, Bitnomial Exchange ve Kalshi ile Polymarket US gibi tahmin piyasaları bulunuyor.
+
+## "Kesinti" ne demek
+
+Kesinti (İngilizcesiyle haircut), bir varlık finansal tampon olarak sayılırken fiyatının düşme riskini hesaba katmak için piyasa değerinden yapılan indirimdir. Personel, şirketlerin vadeli işlem aracı kurumlarının sermaye amacıyla tuttuğu kripto varlıklar için CFTC personelinin zaten kabul ettiği kesintileri kullanmasına itiraz etmeyeceğini söyledi: bitcoin ve ether için en az %20, ödeme stablecoin'leri için %2.
+
+Uygulamada 1 milyon $ değerindeki bitcoin rezerve en fazla 800.000 $ olarak sayılırken, şartları karşılayan bir stablecoin'deki 1 milyon $ 980.000 $ olarak sayılır. Mektup ayrıca şirketlerden "ters yönlü riski", yani bir işletme zararı ile kripto fiyatlarındaki düşüşün aynı anda gelme ihtimalini dikkate almalarını istiyor.
+
+!figure:reserve
+
+Mektup, ödeme stablecoin'lerini dar tanımlıyor. GENIUS Act stablecoin yasası yürürlüğe girene kadar bunlar; eyalet düzenlemesine tabi para transfer şirketleri, eyalet tröst şirketleri veya ulusal tröst bankaları tarafından çıkarılan, nakit, ABD Hazine tahvilleri ya da gecelik Hazine repolarıyla desteklenen ve rezervleri hakkında aylık rapor yayımlayan dolar stablecoin'leridir. Bu tarihten sonra ise GENIUS Act şartlarını karşılayan ihraççıların stablecoin'leri olacak.
+
+!mid_cta
+
+## Kriptonun hâlâ yapamadıkları
+
+Kurallar ayrıca rezervin bir kısmının "teminata konu olmayan likit finansal varlıklarda", yani nakit veya yüksek likiditeli menkul kıymetlerde tutulmasını şart koşuyor. SEF'ler için bu kısım en az üç aylık işletme giderine (ya da daha yüksekse faaliyetleri tasfiye etme maliyetine) eşit olmalı. Borsalar ve takas kuruluşları için en az altı ay. Kripto, ABD muhasebe standartlarına göre nakit veya yüksek likiditeli menkul kıymet olmadığından personel bu kısma sayılamayacağını söyledi.
+
+Mektup, bir takas kuruluşunun büyük bir üyesinin ödeme yapamaması durumu için ayrılan "temerrüt kaynaklarını" da kapsamıyor. Ayrıca Komisyon'un kendi görüşünü yansıtmak zorunda değil.
+
+## Yeni başlayanlar için neden önemli
+
+Bu değişikliği uygulamanızda görmeyeceksiniz. Değişiklik bireysel yatırımcıları değil, ABD'de vadeli işlem, swap ve tahmin piyasalarını işleten şirketleri etkiliyor. Ancak bu, kriptoyu düzenlenen finans sistemine daha derinden bağlayan bir dizi CFTC personeli adımından biri. Aralık 2025'te personel, dijital varlıkların teminat olarak kabul edilmesine yaptırım uygulamama tutumu almış ve tokenize teminat konusunda rehber yayımlamıştı.
+
+Kendiniz kripto almak istiyorsanız, [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsa kullanmak ABD'deki yeni başlayanlar için yaygın bir yol. Fiyatlar sert dalgalanabilir, bu yüzden yalnızca kaybetmeyi göze alabileceğiniz parayı yatırın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye dikkat etmeli
+
+- Komisyon'un tam kadrosunun bu tür personel görüşlerini resmî kurallara dönüştürüp dönüştürmeyeceği.
+- Kaç borsa ve takas kuruluşunun rezervlerinin bir kısmını gerçekten bitcoin, ether veya stablecoin'lere kaydıracağı.
+- Hangi coinlerin ödeme stablecoin'i sayılacağını değiştirecek GENIUS Act stablecoin kurallarının ne zaman yürürlüğe gireceği.
+
+!soft: Önce temelleri mi öğrenmek istiyorsunuz? [Kripto cüzdan nedir ve anahtarlarınızı kim tutar](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazımızı okuyun
+
+!end_cta
+
+!disclosure

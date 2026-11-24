@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/es/</link>
     <description>Noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</description>
     <language>es</language>
-    <lastBuildDate>Mon, 23 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 00:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bitcoin salta a 64.500 dólares con el regreso de Jensen Huang a Nvidia y luego lo devuelve todo mientras las bolsas se disparan</title>
+      <link>https://plainbtc.com/es/articles/bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026</guid>
+      <pubDate>Tue, 24 Nov 2026 00:30:00 GMT</pubDate>
+      <category>Mercado</category>
+      <description>Bitcoin saltó de unos 61.000 a 64.520 dólares en Kraken después de que Nvidia restituyera a Jensen Huang como CEO, y por la tarde había vuelto a unos 61.200. El Nasdaq cerró con un alza del 6,51% y Nvidia subió cerca de un 32%, pero bitcoin terminó el día casi plano.</description>
+    </item>
+    <item>
+      <title>El personal de la CFTC dice que los mercados y las cámaras de compensación pueden contar bitcoin, ether y stablecoins en sus reservas</title>
+      <link>https://plainbtc.com/es/articles/cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026</guid>
+      <pubDate>Tue, 24 Nov 2026 00:25:00 GMT</pubDate>
+      <category>Regulación</category>
+      <description>El personal de la CFTC dijo que los mercados de derivados y las cámaras de compensación regulados pueden contar bitcoin, ether y stablecoins de pago en las reservas que deben cubrir 12 meses de gastos operativos, tras descuentos de al menos el 20% para BTC y ETH y del 2% para las stablecoins. Las criptomonedas siguen sin contar como efectivo.</description>
+    </item>
     <item>
       <title>Binance contrata a Mandiant, SlowMist y Verichains para revisar su seguridad tras el hackeo de 6.300 millones de dólares</title>
       <link>https://plainbtc.com/es/articles/binance-hires-mandiant-slowmist-verichains-security-review-nov-2026</link>

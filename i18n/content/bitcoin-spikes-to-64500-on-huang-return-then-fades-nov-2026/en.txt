@@ -1,0 +1,63 @@
+title: Bitcoin jumps to $64,500 on Jensen Huang's return to Nvidia, then gives it all back as stocks soar
+page_title: Bitcoin spikes to $64,500 on Huang's Nvidia return, then fades
+description: Bitcoin leapt from about $61,000 to $64,520 on Kraken minutes after Nvidia reinstated Jensen Huang as CEO on Nov. 23, then slid back near $61,200 while the Nasdaq closed up 6.51%. What happened and why, in plain English.
+og_description: Nvidia brought back Jensen Huang and stocks had one of their best days in years: Nasdaq +6.51%, Nvidia up about 32%. Bitcoin spiked to $64,520, then faded to about $61,200. A strong dollar and Fed hike bets weighed on crypto.
+label: Market news
+summary: Bitcoin jumped from about $61,000 to $64,520 on Kraken after Nvidia reinstated Jensen Huang as CEO, then slipped back to about $61,200 by evening. The Nasdaq closed up 6.51% and Nvidia rose about 32%, but bitcoin ended the day almost flat.
+===
+
+Monday, Nov. 23, was one of the best days for U.S. stocks in years, and bitcoin barely took part. On Monday morning, [Nvidia announced](L1) that its board had voted unanimously to reinstate Jensen Huang as president, chief executive and board member, effective immediately. Bitcoin shot up within minutes, then spent the rest of the day sliding back to where it started.
+
+According to PlainBTC's check of Kraken's [public price data](L2), bitcoin traded near <strong>$61,020</strong> at 7:54 a.m. Central time. Five minutes later it was at $63,804, and it peaked at <strong>$64,520</strong> in the 8:15 a.m. trading window. By the afternoon it had dropped to a low of $60,680, and it was trading around <strong>$61,200</strong> at 5:45 p.m.
+
+!takeaways
+- Bitcoin jumped from about $61,020 to $64,520 on Kraken after Nvidia reinstated Jensen Huang as CEO on Monday morning, then gave back the whole move.
+- The Nasdaq Composite closed up 6.51% and the S&P 500 rose 4.73%, while bitcoin was up just 0.08% at about $61,213 in the early evening, The Motley Fool reported.
+- A stronger U.S. dollar and bets on another Federal Reserve rate hike in December likely weighed on crypto, CoinDesk said.
+- Bitcoin liquidations reached about $321 million during the round trip, according to Bitcoin Magazine.
+
+!figure:chart
+
+## Why Nvidia moved the whole market
+
+Huang co-founded Nvidia and built it into the main supplier of chips for artificial intelligence. He resigned on Nov. 12 after revelations about his private life, including a relationship with a businesswoman U.S. authorities suspect of spying for China, an allegation Beijing denies, [Reuters reported](L6). Days before Monday, the board had ruled out his return.
+
+On Monday the board reversed course. Its statement said the board was satisfied with Huang's "candor and ability to lead NVIDIA" and that, after input from senior levels of the U.S. government, it was confident his return "poses no national security risk." A committee of independent directors will keep investigating reports that Huang was targeted by a foreign intelligence effort, and Huang said he supports that investigation. Colette Kress, who served as interim CEO, stays on as chief financial officer.
+
+Investors cheered. Nvidia shares rose about 32% from Friday's close, [Bitcoin Magazine](L4) and [CoinDesk](L3) reported, and the S&P 500 snapped a seven-day losing streak. Last week the Nasdaq had fallen about 10% as the Huang scandal fed worries about the AI trade.
+
+!figure:moves
+
+## Bitcoin sits out the rally
+
+The contrast with crypto was stark. [The Motley Fool](L5) reported that the Nasdaq Composite closed up <strong>6.51%</strong> and the S&P 500 gained 4.73%. In the early evening, bitcoin was up just <strong>0.08%</strong> at about $61,213, ether slipped to about $1,719 and solana gained 2.84% to about $72.57.
+
+CoinDesk pointed to the U.S. dollar as one likely reason. The dollar index rose 0.65% to 104.40, its strongest level since April 2025, as the stock rally put more Federal Reserve rate hikes back in play. The 10-year Treasury yield climbed to 4.95%, and traders priced in an almost certain rate hike in early December. Crypto prices tend to lag when the dollar and interest rates rise.
+
+The fast move up and back down was painful for traders using borrowed money. Bitcoin liquidations, meaning bets that exchanges close automatically when they lose too much, reached about $321 million, with bets on falling prices making up $224 million of that, Bitcoin Magazine said. Liquidations across the crypto market topped $762 million.
+
+!mid_cta
+
+## Crypto stocks did better than coins
+
+Shares of crypto companies rose much more than bitcoin itself. CoinDesk reported double-digit gains for Strategy and Galaxy Digital, a 12% rise for stablecoin issuer Circle and an 8.3% gain for Coinbase. Bitcoin miners that also run AI data centers posted some of the biggest moves, Bitcoin Magazine said. Even so, Strategy was still down about 40% over the past month and Coinbase about 32.5%, according to CoinDesk.
+
+Adam Haeems of Tesseract Group told Bitcoin Magazine that bitcoin "has fallen in seven of the eight U.S. sessions since Huang went, today's included," and that last week each day's drop lined up with that day's outflow from bitcoin exchange-traded funds (ETFs).
+
+## What it means for beginners
+
+Big news in stocks does not always lift bitcoin. On Monday, the same headline that sent tech shares to one of their best days in years gave bitcoin only a short burst, followed by a fade. Prices can swing by thousands of dollars in minutes, and nobody can reliably predict which way the next move goes.
+
+If you want to own some bitcoin, many beginners use a large regulated exchange such as [Coinbase](REF) and buy small amounts over time instead of chasing sudden spikes. Avoid borrowed money and only invest what you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Monday's spot bitcoin ETF flows, which analysts called the first real test of the bounce after four straight weeks of outflows.
+- The U.S. PCE inflation report on Wednesday, and the Fed's Dec. 8 to 9 meeting.
+- Thin trading around Thanksgiving, which can make price moves sharper.
+
+!soft: New to the ups and downs? Read [how much bitcoin a beginner should buy](/articles/how-much-bitcoin-should-a-beginner-buy-dca)
+
+!end_cta
+
+!disclosure

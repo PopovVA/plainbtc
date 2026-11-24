@@ -1,0 +1,63 @@
+title: CFTC staff say exchanges and clearinghouses can count bitcoin, ether and stablecoins toward their reserves
+page_title: CFTC staff: bitcoin, ether, stablecoins can count toward exchange reserves
+description: A Nov. 23 CFTC staff advisory says regulated derivatives exchanges and clearinghouses may count bitcoin, ether and payment stablecoins toward their 12-month operating reserves, with haircuts of at least 20% for BTC and ETH and 2% for stablecoins.
+og_description: U.S. derivatives exchanges and clearinghouses can now count bitcoin, ether and payment stablecoins toward the money they must hold to cover a year of costs, CFTC staff said. Haircuts apply, and crypto still cannot replace the cash cushion.
+label: Regulation
+summary: CFTC staff said regulated derivatives exchanges and clearinghouses may count bitcoin, ether and payment stablecoins toward the reserves that must cover 12 months of operating costs, after haircuts of at least 20% for BTC and ETH and 2% for stablecoins. Crypto still cannot count as cash.
+===
+
+The main U.S. regulator for futures and derivatives has opened the door a little wider for crypto. On Monday, Nov. 23, staff at the Commodity Futures Trading Commission (CFTC) [issued an advisory](L1) saying that regulated derivatives exchanges and clearinghouses may count <strong>bitcoin, ether and payment stablecoins</strong> toward the financial reserves they are required to hold.
+
+There are limits. The crypto must be valued below its market price, with a cut of at least <strong>20%</strong> for bitcoin and ether and <strong>2%</strong> for payment stablecoins, and it still cannot be used for the part of the reserve that has to be held in cash or similar safe, liquid assets.
+
+!takeaways
+- CFTC staff said swap execution facilities, designated contract markets and derivatives clearing organizations may count bitcoin, ether and payment stablecoins toward reserves covering at least 12 months of operating costs.
+- Bitcoin and ether get a minimum 20% "haircut" and payment stablecoins a 2% haircut. Other crypto that is not readily marketable would generally get a 100% haircut, so it does not count at all.
+- Crypto does not count as "cash" or "highly liquid securities," so it cannot cover the separate liquidity cushion of three months (trading facilities for swaps) or six months (exchanges and clearinghouses).
+- The advisory reflects the views of CFTC staff only. It is not a new rule and not a no-action position.
+
+!figure:fact
+
+## What the CFTC actually said
+
+CFTC rules require three kinds of regulated venues to keep enough financial resources to cover their operating costs for at least one year, calculated on a rolling basis. Those are swap execution facilities (SEFs), designated contract markets (DCMs, the exchanges where futures trade) and derivatives clearing organizations (DCOs, the clearinghouses that stand between buyers and sellers).
+
+According to the full [staff letter](L2), CFTC Letter No. 26-31, a growing number of these firms, and companies applying to become one, now hold crypto in their businesses and had asked whether it could count toward that requirement. The Division of Market Oversight and the Division of Clearing and Risk answered yes for bitcoin, ether and payment stablecoins, as long as the firms apply appropriate haircuts and respect the liquidity rules. The letter is signed by the acting directors of the two divisions, Duncan Hennes and Richard Haynes.
+
+[Cointelegraph noted](L3) that CFTC-regulated venues include Coinbase Derivatives, Crypto.com's North American Derivatives Exchange, Bitnomial Exchange and prediction markets such as Kalshi and Polymarket US.
+
+## What a "haircut" means
+
+A haircut is a discount applied to an asset's market value when it is counted as a financial cushion, to allow for the risk that its price falls. Staff said they would not object if firms used the same haircuts that CFTC staff already accept for crypto held by futures brokers for capital purposes: at least 20% for bitcoin and ether, and 2% for payment stablecoins.
+
+In practice, that means $1 million worth of bitcoin would count as no more than $800,000 toward the reserve, while $1 million in a qualifying stablecoin would count as $980,000. The letter also asks firms to think about "wrong-way risk," the chance that a business loss and a drop in crypto prices hit at the same time.
+
+!figure:reserve
+
+The letter defines payment stablecoins narrowly. Until the GENIUS Act stablecoin law takes effect, that means dollar stablecoins issued by state-regulated money transmitters, state-regulated trust companies or national trust banks, backed by cash, U.S. Treasury securities or overnight Treasury repurchase agreements, with monthly reports on their reserves. After that date, it means stablecoins from issuers that meet the GENIUS Act's requirements.
+
+!mid_cta
+
+## What crypto still cannot do
+
+The rules also require part of the reserve to sit in "unencumbered, liquid financial assets," meaning cash or highly liquid securities. For SEFs, that part must equal at least three months of operating costs (or the cost of winding down, if larger). For exchanges and clearinghouses, it is at least six months. Because crypto is not cash or a highly liquid security under U.S. accounting standards, staff said it cannot count toward that portion.
+
+The letter also does not cover a clearinghouse's separate "default resources," the money set aside in case a big member fails to pay. And it does not necessarily reflect the views of the Commission itself.
+
+## Why it matters for beginners
+
+You will not see this change in your app. It affects the companies that run U.S. futures, swaps and prediction markets, not individual traders. But it is another step in a series of CFTC staff moves that bring crypto deeper into regulated finance. In December 2025, staff took a no-action position on accepting digital assets as margin collateral and issued guidance on tokenized collateral.
+
+If you want to buy crypto yourself, sticking to a large regulated exchange such as [Coinbase](REF) is one common route for U.S. beginners. Prices can swing sharply, so only invest what you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Whether the full Commission turns staff views like this one into formal rules.
+- How many exchanges and clearinghouses actually move part of their reserves into bitcoin, ether or stablecoins.
+- When the GENIUS Act's stablecoin rules take effect, which will change which coins count as payment stablecoins.
+
+!soft: Want the basics first? Read [what a crypto wallet is and who holds your keys](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure
