@@ -5444,7 +5444,63 @@ def build_korea_digital_asset_bill():
     ]
 
 
+def build_krak_credit_cards():
+    slug = "kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026"
+    d = OUT / slug
+    fact = make_fact_card(
+        d / "fact-krak-up-to-4-percent-cashback",
+        "Krak U.S. credit cards · waitlist Nov. 24, 2026",
+        "Up to 4%",
+        "Cashback in U.S. dollars or bitcoin on the Krak Credit Card and Krak Secured Card, expected to ship in early 2027",
+        footer="Payward statement via The Block · APR and fees not yet disclosed",
+    )
+    cmp_ = make_compare_card(
+        d / "compare-krak-credit-vs-secured-card",
+        "Krak's planned U.S. cards: both pay up to 4% cashback",
+        "Krak Credit Card",
+        "Krak Secured Card",
+        [
+            ("Made for", "People with established credit", "People building or rebuilding credit"),
+            ("Backing", "Regular credit line", "$350 to $5,000 USDC deposit"),
+            ("Needs", "Krakpass: $6.29/month, billed yearly", "Krakpass; USDC can earn up to 4% APY"),
+        ],
+        footer="Payward via The Block, Nov. 24, 2026 · ships early 2027",
+    )
+    return [
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: Krak's planned U.S. credit cards, announced with a waitlist on Nov. 24, 2026, offer up to 4% cashback in U.S. dollars or bitcoin and are expected to ship in early 2027; APR and fees are not yet disclosed", KRAK_FACT_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="Payward statement via The Block, Nov. 24, 2026")},
+        {"id": "compare", "file": cmp_.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Comparison card of Krak's two planned U.S. credit cards: the Krak Credit Card is for people with established credit and uses a regular credit line; the Krak Secured Card is for people building or rebuilding credit and is backed by a $350 to $5,000 USDC deposit; both pay up to 4% cashback in dollars or bitcoin and require Krakpass at $6.29 a month billed yearly", KRAK_CMP_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="Payward statement via The Block, Nov. 24, 2026")},
+    ]
+
+KRAK_FACT_ALTS = {
+ "es": "Tarjeta: las tarjetas de crédito de Krak para EE. UU., con lista de espera abierta el 24 de noviembre de 2026, ofrecen hasta un 4% de reembolso en dólares o en bitcoin y deberían enviarse a principios de 2027; la TAE y las comisiones aún no se han publicado",
+ "pt": "Cartão: os cartões de crédito da Krak para os EUA, com lista de espera aberta em 24 de novembro de 2026, oferecem até 4% de cashback em dólares ou em bitcoin e devem ser enviados no início de 2027; juros e tarifas ainda não foram divulgados",
+ "fr": "Fiche : les cartes de crédit américaines de Krak, dont la liste d'attente a ouvert le 24 novembre 2026, offrent jusqu'à 4 % de cashback en dollars ou en bitcoin et doivent être expédiées début 2027 ; le taux d'intérêt et les frais ne sont pas encore publiés",
+ "de": "Faktenkarte: Die geplanten US-Kreditkarten von Krak, Warteliste seit 24. November 2026, bieten bis zu 4 % Cashback in US-Dollar oder Bitcoin und sollen Anfang 2027 verschickt werden; Zinssatz und Gebühren sind noch nicht veröffentlicht",
+ "ru": "Карточка: кредитные карты Krak для США, лист ожидания открыт 24 ноября 2026 года, дают до 4% кэшбэка в долларах или биткоинах, рассылка ожидается в начале 2027 года; ставка и комиссии пока не раскрыты",
+ "tr": "Bilgi kartı: Krak'ın ABD için planladığı kredi kartları, bekleme listesi 24 Kasım 2026'da açıldı, dolar veya bitcoin olarak yüzde 4'e kadar nakit iade sunuyor ve 2027 başında gönderilmesi bekleniyor; faiz oranı ve ücretler henüz açıklanmadı",
+ "id": "Kartu fakta: kartu kredit Krak untuk AS, daftar tunggu dibuka 24 November 2026, menawarkan cashback hingga 4% dalam dolar AS atau bitcoin dan diperkirakan dikirim awal 2027; bunga dan biaya belum diumumkan",
+ "ja": "ファクトカード：2026年11月24日にウェイトリストを開始したKrakの米国向けクレジットカードは、米ドルまたはビットコインで最大4%のキャッシュバックを提供し、2027年初めに発送予定。金利と手数料は未公表",
+ "ko": "팩트 카드: 2026년 11월 24일 대기자 명단을 연 Krak의 미국 신용카드는 미국 달러 또는 비트코인으로 최대 4% 캐시백을 제공하며 2027년 초 발송 예정이다. 금리와 수수료는 아직 공개되지 않았다"
+}
+KRAK_CMP_ALTS = {
+ "es": "Tarjeta comparativa de las dos tarjetas de crédito previstas por Krak en EE. UU.: la Krak Credit Card es para personas con historial crediticio y usa una línea de crédito normal; la Krak Secured Card es para quien construye o reconstruye su crédito y está respaldada por un depósito de 350 a 5.000 dólares en USDC; ambas pagan hasta un 4% en dólares o bitcoin y requieren Krakpass a 6,29 dólares al mes con pago anual",
+ "pt": "Cartão comparativo dos dois cartões de crédito planejados pela Krak nos EUA: o Krak Credit Card é para quem já tem histórico de crédito e usa uma linha de crédito comum; o Krak Secured Card é para quem está construindo ou reconstruindo o crédito e é garantido por um depósito de 350 a 5.000 dólares em USDC; ambos pagam até 4% em dólares ou bitcoin e exigem Krakpass a 6,29 dólares por mês no plano anual",
+ "fr": "Fiche comparative des deux cartes de crédit prévues par Krak aux États-Unis : la Krak Credit Card s'adresse aux personnes ayant déjà un historique de crédit et utilise une ligne de crédit classique ; la Krak Secured Card vise ceux qui construisent ou reconstruisent leur crédit et est garantie par un dépôt de 350 à 5 000 dollars en USDC ; les deux versent jusqu'à 4 % en dollars ou en bitcoin et exigent Krakpass à 6,29 dollars par mois en formule annuelle",
+ "de": "Vergleichskarte der zwei geplanten US-Kreditkarten von Krak: Die Krak Credit Card richtet sich an Menschen mit Kredithistorie und nutzt einen normalen Kreditrahmen; die Krak Secured Card ist für den Auf- oder Wiederaufbau der Bonität gedacht und durch eine USDC-Einlage von 350 bis 5.000 US-Dollar gedeckt; beide zahlen bis zu 4 % in Dollar oder Bitcoin und erfordern Krakpass für 6,29 US-Dollar im Monat bei jährlicher Zahlung",
+ "ru": "Сравнительная карточка двух кредитных карт Krak для США: Krak Credit Card для людей с кредитной историей и обычным кредитным лимитом; Krak Secured Card для тех, кто создаёт или восстанавливает кредитную историю, обеспечена депозитом от 350 до 5000 долларов в USDC; обе дают до 4% в долларах или биткоинах и требуют Krakpass за 6,29 доллара в месяц при оплате за год",
+ "tr": "Krak'ın ABD için planladığı iki kredi kartının karşılaştırma kartı: Krak Credit Card kredi geçmişi olanlar için normal bir kredi limitiyle; Krak Secured Card kredi geçmişi oluşturan veya onaran kişiler için 350 ile 5.000 dolar arası USDC teminatıyla; ikisi de dolar veya bitcoin olarak yüzde 4'e kadar iade öder ve yıllık ödemede aylık 6,29 dolarlık Krakpass gerektirir",
+ "id": "Kartu perbandingan dua kartu kredit Krak yang direncanakan di AS: Krak Credit Card untuk orang yang sudah punya riwayat kredit dengan limit kredit biasa; Krak Secured Card untuk yang sedang membangun atau memperbaiki kredit dan dijamin deposit USDC 350 sampai 5.000 dolar; keduanya memberi hingga 4% dalam dolar atau bitcoin dan mewajibkan Krakpass seharga 6,29 dolar per bulan jika dibayar tahunan",
+ "ja": "Krakが米国で予定する2種類のクレジットカードの比較カード：Krak Credit Cardは信用履歴がある人向けで通常の与信枠、Krak Secured Cardは信用を築く・立て直す人向けで350〜5,000ドルのUSDC預け入れが担保。どちらもドルまたはビットコインで最大4%を還元し、年払いで月6.29ドルのKrakpassが必要",
+ "ko": "Krak이 미국에서 준비 중인 신용카드 2종 비교 카드: Krak Credit Card는 신용 이력이 있는 사람을 위한 일반 신용한도 카드, Krak Secured Card는 신용을 쌓거나 회복하려는 사람을 위한 카드로 350~5,000달러의 USDC 예치금이 담보다. 두 카드 모두 달러 또는 비트코인으로 최대 4%를 돌려주며 연간 결제 시 월 6.29달러의 Krakpass가 필요하다"
+}
+
+
 BUILDERS = {
+    "kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026": "krakcc",
     "bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026": "etfnov471",
     "south-korea-crypto-bill-bank-led-stablecoins-ico-20-percent-exchange-cap-nov-2026": "krbill",
     "bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026": "huangfade",
@@ -5540,7 +5596,9 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "etfnov471":
+    if key == "krakcc":
+        figs = build_krak_credit_cards()
+    elif key == "etfnov471":
         figs = build_etf_nov_record_471()
     elif key == "krbill":
         figs = build_korea_digital_asset_bill()

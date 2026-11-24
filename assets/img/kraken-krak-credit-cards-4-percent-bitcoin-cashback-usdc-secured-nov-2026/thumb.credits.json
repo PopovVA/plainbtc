@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Kraken app icon (SVG)",
+      "license": "Official press asset",
+      "url": "https://www.kraken.com/press/kraken-images",
+      "credit": "Kraken / Payward"
+    },
+    {
+      "file": "Bitcoin.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg",
+      "credit": "Bitcoin logo"
+    },
+    {
+      "file": "Payward statement via The Block, Nov. 24, 2026",
+      "license": "Facts cited",
+      "url": "https://www.theblock.co/news/business/2026-11-24-kraken-krak-early-2027-launch-us-credit-cards-bitcoin-cashback-usdc-collateral-445498",
+      "credit": "Payward / The Block"
+    }
+  ],
+  "note": "Editorial illustration; cards are drawn by PlainBTC and are not the real card design; trademarks belong to their owners.",
+  "slug": "kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026",
+  "generated": "2026-11-24T19:05Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

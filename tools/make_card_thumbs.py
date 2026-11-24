@@ -2371,7 +2371,70 @@ def thumb_korea_digital_asset_bill():
     ], "note": "Editorial diagram; flag for identification; no endorsement by the FSC implied."}
 
 
+def thumb_krak_credit_cards():
+    """Light lavender illustration: two drawn credit cards (generic editorial drawing, not the real card design)
+    with the Kraken app icon (official press asset) and the Bitcoin logo (public domain), plus facts from
+    Payward's Nov. 24, 2026 statement to The Block (up to 4% cashback, $350 to $5,000 USDC deposit, early 2027)."""
+    icon = Image.open(fetch(KRAKEN_ICON, CACHE/"kraken-app-icon-purple.svg")).convert("RGBA")
+    btc = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg", CACHE/"bitcoin-logo.svg")).convert("RGBA")
+    base = gradient_bg(top=(245, 242, 255), bottom=(226, 219, 250))
+    ink, mute, purple, deep = (30, 27, 75), (88, 80, 130), (112, 66, 255), (52, 30, 140)
+
+    def card(box, top, bottom, title, sub, top_title=False):
+        x0, y0, x1, y1 = box
+        w, h = round((x1 - x0) * S), round((y1 - y0) * S)
+        layer = gradient_bg(w, h, top=top, bottom=bottom).convert("RGBA")
+        mask = Image.new("L", (w, h), 0)
+        ImageDraw.Draw(mask).rounded_rectangle([0, 0, w - 1, h - 1], radius=round(14 * S), fill=255)
+        shadow = Image.new("RGBA", base.size, (0, 0, 0, 0))
+        Draw(shadow).rounded_rectangle([x0 + 4, y0 + 8, x1 + 4, y1 + 8], radius=14, fill=(40, 20, 90, 70))
+        b = Image.alpha_composite(base.convert("RGBA"), shadow)
+        b.paste(layer, sz((x0, y0)), mask)
+        base.paste(b.convert("RGB"))
+        d = Draw(base)
+        d.rounded_rectangle([x0 + 22, y0 + 58, x0 + 62, y0 + 88], radius=6, fill=(236, 201, 120), outline=(190, 150, 70))
+        d.line([(x0 + 22, y0 + 73), (x0 + 62, y0 + 73)], fill=(190, 150, 70), width=1)
+        d.text((x0 + 22, y0 + 18), "krak", font=font(FONT_B, 22), fill=WHITE)
+        if top_title:
+            tw = d.textlength(title, font=font(FONT_B, 13))
+            d.text((x1 - 18 - tw, y0 + 24), title, font=font(FONT_B, 13), fill=WHITE)
+            sw = d.textlength(sub, font=font(FONT_R, 10))
+            d.text((x1 - 18 - sw, y0 + 42), sub, font=font(FONT_R, 10), fill=(225, 215, 255))
+        else:
+            d.text((x0 + 22, y1 - 46), title, font=font(FONT_B, 15), fill=WHITE)
+            d.text((x0 + 22, y1 - 26), sub, font=font(FONT_R, 11), fill=(225, 215, 255))
+
+    card((40, 92, 300, 252), (150, 110, 255), (88, 40, 200), "CREDIT CARD", "for established credit", top_title=True)
+    card((96, 150, 356, 310), (60, 40, 120), (24, 16, 60), "SECURED CARD", "backed by a USDC deposit")
+    d = Draw(base)
+    paste_contain(base, icon, (40, 26, 50, 50), pad=0)
+    d = Draw(base)
+    d.text((100, 30), "Krak by Kraken", font=font(FONT_B, 18), fill=ink)
+    d.text((100, 54), "U.S. credit card waitlist · Nov. 24, 2026", font=font(FONT_R, 12), fill=mute)
+    # facts column
+    x = 392
+    disc = Image.new("RGBA", sz((58, 58)), (0, 0, 0, 0)); ImageDraw.Draw(disc).ellipse([0, 0, disc.width - 1, disc.height - 1], fill=(255, 255, 255, 255))
+    base.paste(disc.convert("RGB"), sz((x, 96)), disc)
+    paste_contain(base, btc, (x, 96, 58, 58), pad=4)
+    d = Draw(base)
+    d.text((x + 70, 96), "Up to 4%", font=font(FONT_B, 30), fill=deep)
+    d.text((x + 70, 134), "cashback in USD or BTC", font=font(FONT_R, 12), fill=mute)
+    rows = [("$350 to $5,000", "USDC deposit backs the secured card"), ("$6.29 / month", "Krakpass, billed yearly"), ("Early 2027", "expected shipping; APR not yet set")]
+    for i, (big, small) in enumerate(rows):
+        y = 180 + i * 54
+        d.rounded_rectangle([x, y, x + 6, y + 40], radius=3, fill=purple)
+        d.text((x + 16, y), big, font=font(FONT_B, 18), fill=ink)
+        d.text((x + 16, y + 24), small, font=font(FONT_R, 11), fill=mute)
+    d.text((40, 330), "Illustration, not the actual card design", font=font(FONT_R, 10), fill=mute)
+    return base, {"kind": "composite", "sources": [
+        {"file": "Kraken app icon (SVG)", "license": "Official press asset", "url": "https://www.kraken.com/press/kraken-images", "credit": "Kraken / Payward"},
+        {"file": "Bitcoin.svg", "license": "Public domain", "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg", "credit": "Bitcoin logo"},
+        {"file": "Payward statement via The Block, Nov. 24, 2026", "license": "Facts cited", "url": "https://www.theblock.co/news/business/2026-11-24-kraken-krak-early-2027-launch-us-credit-cards-bitcoin-cashback-usdc-collateral-445498", "credit": "Payward / The Block"},
+    ], "note": "Editorial illustration; cards are drawn by PlainBTC and are not the real card design; trademarks belong to their owners."}
+
+
 BUILDERS = {
+    "kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026": thumb_krak_credit_cards,
     "bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026": thumb_etf_nov_record_471,
     "south-korea-crypto-bill-bank-led-stablecoins-ico-20-percent-exchange-cap-nov-2026": thumb_korea_digital_asset_bill,
     "bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026": thumb_huang_btc_fade,

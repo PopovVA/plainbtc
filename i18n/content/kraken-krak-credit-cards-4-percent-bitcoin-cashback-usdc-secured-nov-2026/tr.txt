@@ -1,0 +1,60 @@
+title: Kraken'in uygulaması Krak, ABD'de yüzde 4'e kadar bitcoin iadeli kredi kartları için bekleme listesi açtı; biri USDC teminatlı
+page_title: Krak kredi kartları: yüzde 4'e kadar bitcoin iadesi ve USDC teminatlı kart
+description: Kraken'in ana şirketi Payward'ın Krak uygulaması 24 Kasım 2026'da ABD'de dolar veya bitcoin olarak yüzde 4'e kadar nakit iade sunan iki Visa kredi kartı için bekleme listesi açtı. Teminatlı kart 350 ile 5.000 dolar arası USDC kullanıyor. Kartlar 2027 başında gönderilecek.
+og_description: Kraken'in ana şirketinin finans uygulaması Krak, 2027 başı için dolar veya bitcoin olarak yüzde 4'e kadar nakit iade sunan iki ABD kredi kartı hazırlıyor. Biri 350 ile 5.000 dolar arası USDC teminatıyla destekleniyor. Faiz ve ücretler henüz açıklanmadı. Bilinenler burada.
+label: İş dünyası
+summary: Kraken'in ana şirketi Payward'ın Krak uygulaması, dolar veya bitcoin olarak yüzde 4'e kadar nakit iade ödeyen iki ABD Visa kredi kartı için bekleme listesi açtı. Teminatlı sürüm 350 ile 5.000 dolar arası USDC'yi teminat olarak kullanıyor. İkisi de Krakpass üyeliği gerektiriyor, 2027 başında geliyor ve faiz ile ücretleri henüz açıklanmadı.
+===
+
+Kraken yalnızca kripto portföyünüzde değil, cüzdanınızda da yer istiyor. 24 Kasım Salı günü, Kraken'in ana şirketi Payward'ın finans uygulaması Krak, ABD'de iki kredi kartı için bekleme listesi açtı: <strong>Krak Credit Card</strong> ve <strong>Krak Secured Card</strong>. İkisi de ABD doları veya bitcoin olarak <strong>yüzde 4'e kadar nakit iade</strong> vaat eden Visa Signature kartları ve [The Block](L1) ile paylaşılan şirket açıklamasına göre <strong>2027 başında</strong> gönderilmeye başlanması bekleniyor.
+
+Kartlar kripto için zor bir ayda geliyor. Bitcoin, [ETF'lerden rekor çıkışların yaşandığı bir ayın](/articles/bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026) ardından Salı günü 60.000 dolar civarında işlem gördü. Bu da bitcoin ile ödül veren bir kartın her alışverişte size küçük ve oynak bir varlık verdiğini hatırlatıyor.
+
+!takeaways
+- Krak, 24 Kasım 2026'da ABD'de standart bir kredi kartı ve teminatlı bir kredi kartı için bekleme listesi açtı. Gönderimin 2027 başında başlaması bekleniyor.
+- İki kart da dolar veya bitcoin olarak yüzde 4'e kadar nakit iade sunuyor; iade puan olarak değil, alışveriş kesinleştiğinde Krak hesabına yatırılıyor.
+- Teminatlı kart, dolara bağlı bir stablecoin olan USDC'den 350 ile 5.000 dolar arasını teminat olarak kullanıyor. Bu USDC, Krakpass ile yıllık yüzde 4'e kadar getiri (APY) sağlayabiliyor.
+- İki kart da Krakpass gerektiriyor: yıllık ödemede aylık 6,29 dolar, ayda 3.000 dolardan fazla maaş yatanlar için ücretsiz.
+- Faiz oranları (APR) ve kart ücretleri henüz açıklanmadı. Kartlar ABD'nin her eyaletinde sunulmayacak.
+
+!figure:fact
+
+## İki kart, iki müşteri tipi
+
+Standart Krak Credit Card, oturmuş bir kredi geçmişi olan kişiler için. Krak Secured Card ise kredi geçmişini oluşturan veya onaran kişilere yönelik; buna Krak'ın kripto yerlisi dediği, birikimlerinin çoğu geleneksel bankaların dışında olan müşteriler de dahil. Krak, kartı kullanmanın bir kredi notu oluşturacağını veya iyileştireceğini garanti etmediğini söyledi.
+
+Teminatlı kart normal bir kredi kartı gibi çalışır, ancak kredi limitinizi destekleyen bir depozito yatırırsınız. Krak'ta bu depozito, her zaman 1 dolar değerinde kalacak şekilde tasarlanmış bir stablecoin olan USDC ile yapılıyor. Bir şirket sözcüsünün The Block'a söylediğine göre müşteriler istedikleri limite göre <strong>350 ile 5.000 dolar</strong> arası USDC yatırabilecek. Coin'ler teminat olarak müşterinin Krak hesabında kalıyor ve Krakpass ile yıllık yüzde 4'e kadar getiri (APY) sağlayabiliyor; alışverişler de yine yüzde 4'e kadar nakit iade kazandırabiliyor.
+
+Nakit iade, alışveriş kesinleştiğinde dolar veya bitcoin olarak yatırılıyor. Bitcoin seçerseniz, ödülün değeri aldıktan sonra piyasayla birlikte yükselip düşer.
+
+!figure:compare
+
+!mid_cta
+
+## Kartların arkasında kim var, maliyeti ne
+
+Kartları Visa U.S.A. lisansıyla First Electronic Bank çıkaracak; markalı kredi kartı programları yürüten fintek şirketi Cardless ise program yönetimi ve müşteri hizmetlerini üstlenecek. Krak'ın ABD'de zaten dolar veya bitcoin olarak [yüzde 2'ye kadar nakit iade](L2) ödeyen bir <strong>banka kartı</strong> var; Krak'ın [destek sayfasına](L3) göre oran, müşterinin Krak ve Kraken'de ne kadar varlık tuttuğuna bağlı. Bu banka kartı New York, Maine, Massachusetts ve Indiana'da sunulmuyor.
+
+İki yeni kredi kartı da Krakpass üyeliği gerektiriyor: yıllık ödemede <strong>aylık 6,29 dolar</strong>, ayda 3.000 dolardan fazla doğrudan maaş yatışı olan müşteriler için ücretsiz. Payward faiz oranını (APR) ve diğer ücretleri açıklamadı; tam koşulların kartlar çıkarılmadan önce yayımlanacağını söyledi. Payward'ın eş CEO'su Arjun Sethi, kart sektörünün "kredi ürünlerini daha erişilebilir kılmaya odaklanmak yerine giderek karmaşıklaşan ödül programlarına onlarca yıl boyunca kaynak aktardığını" söyledi. Krak ayrıca temmuzda yaptırdığı bir Morning Consult anketine değindi: 2.001 ABD'li yetişkinin yüzde 30'u kredi kartı olmadığını, yüzde 57'si puan yerine nakit ödülü tercih ettiğini söyledi.
+
+## Rakiplerle karşılaştırma
+
+Krak, zaten kripto ödüllü kartların olduğu bir alana giriyor. Yine Cardless ile yürütülen ve First Electronic Bank tarafından çıkarılan [Coinbase One Card](L4), müşterinin Coinbase'te tuttuğu varlığa göre bitcoin olarak yüzde 4'e kadar iade veriyor, yılda 49,99 dolardan başlayan ücretli Coinbase One üyeliği gerektiriyor ve 100 dolardan başlayan USDC teminat depozitolu bir seçenek sunuyor.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Kripto ödüllü bir kart da sonuçta bir kredi karttır. Borç bakiyesi bırakırsanız faiz, yüzde 4'lük bir ödülü hızla silebilir ve Krak faiz oranını henüz açıklamadı. Öne çıkan oranlar genellikle "kadar" ifadesiyle verilir ve bakiyelere, üyeliklere veya limitlere bağlıdır; bu yüzden tam koşullar yayımlandığında okuyun. Bitcoin olarak ödenen ödüller değer kaybedebilir ve sonradan satmak vergi doğurabilir.
+
+Asıl amacınız sadece biraz bitcoin sahibi olmaksa, [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsadan doğrudan küçük bir miktar almak yaygın yollardan biri. Yalnızca kaybetmeyi göze alabileceğiniz parayı yatırın. Bu bir finansal tavsiye değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Payward'ın kartlar çıkarılmadan önce yayımlayacağını söylediği APR, ücretler ve tam ödül koşulları.
+- Kartlar 2027 başında gönderildiğinde hangi ABD eyaletlerinin kapsam dışı kalacağı.
+- Payward'ın planladığı gibi Krak'ın önümüzdeki yıl başka ülkelere de benzer kartlar getirip getirmeyeceği.
+
+!soft: Kraken'in işleri nasıl gidiyor? [Payward'ın üçüncü çeyrek sonuçlarına](/articles/kraken-payward-q3-2026-results-nov-2026) dair analizimizi okuyun
+
+!end_cta
+
+!disclosure
