@@ -1,0 +1,64 @@
+title: Südkoreas Krypto-Gesetzentwurf: Won-Stablecoins unter Bankenführung, legale Coin-Angebote und 20-Prozent-Grenze für Börseneigentümer
+page_title: Südkorea: Bank-Stablecoins, ICOs und 20-%-Grenze für Börsen
+description: Südkoreas Finanzaufsicht FSC hat am 24. November 2026 einen Gesetzentwurf für digitale Vermögenswerte vorgestellt: Won-Stablecoins nur von Gruppen mit Bankenmehrheit, legale ICOs mit Whitepaper und eine Obergrenze von 20 % für Börsenaktionäre.
+og_description: Südkorea will, dass Banken mehr als die Hälfte jedes Won-Stablecoin-Emittenten besitzen, erlaubt Coin-Angebote im Inland und plant, Börsenaktionäre auf 20 % (34 % mit Genehmigung) zu begrenzen. Das Parlament muss noch zustimmen. Was das bedeutet, einfach erklärt.
+label: Regulierung
+summary: Südkoreas Finanzaufsicht hat einen Krypto-Gesetzentwurf veröffentlicht: Won-Stablecoins nur von Konsortien, die zu mehr als 50 % Banken gehören, Coin-Angebote mit hinterlegtem Whitepaper, eine 20-%-Grenze für Börsenaktionäre und verschuldensunabhängige Haftung bei Hacks. Nun ist die Nationalversammlung am Zug.
+===
+
+Südkorea hat sein bislang umfassendstes Krypto-Regelwerk vorgelegt. Am Dienstag, dem 24. November, stellte die Financial Services Commission (FSC), die oberste Finanzaufsicht des Landes, laut ihrer [Pressemitteilung](L1) den Entwurf eines „Gesetzes über die Innovation der Digital-Asset-Branche und den Schutz der Nutzer“ vor. Er regelt, wer an den koreanischen Won gekoppelte Stablecoins ausgeben darf, erlaubt erstmals Coin-Angebote im Inland und begrenzt, wie viel einer Börse ein einzelner Aktionär besitzen darf.
+
+Am meisten umstritten sind Stablecoins. Nach dem Entwurf dürften Won-Stablecoins zunächst nur Gruppen ausgeben, an denen <strong>Banken zusammen mehr als 50 %</strong> halten. Ein Fintech oder Technologieunternehmen könnte dennoch größter Einzelaktionär sein, [berichtete Yonhap](L2). Das Gesetz muss noch die Nationalversammlung passieren, bevor es gilt.
+
+!takeaways
+- Südkoreas FSC stellte am 24. November 2026 einen Gesetzentwurf für digitale Vermögenswerte vor. Die Nationalversammlung muss zustimmen.
+- Won-Stablecoins würden zunächst nur von Konsortien ausgegeben, die zu mehr als 50 % Banken gehören; ein Fintech kann trotzdem größter Aktionär sein.
+- Emittenten bräuchten mindestens 5 Milliarden Won Eigenkapital, 100 % Reserven, Rücknahme auf Verlangen und dürften Inhabern keine Zinsen zahlen.
+- Coin-Angebote (ICOs) wären in Korea legal, wenn der Emittent vorher ein Whitepaper bei der FSC einreicht.
+- Ein einzelner Börsenaktionär wäre auf 20 % begrenzt, mit FSC-Genehmigung auf bis zu 34 %, mit drei Jahren Übergangsfrist für bestehende Börsen.
+
+!figure:fact
+
+## Banken zuerst bei Won-Stablecoins
+
+Der Entwurf nennt Stablecoins „digitale Zahlungstoken“: Coins, die einer einzelnen Währung folgen und vor allem zum Bezahlen dienen. Wer sie in Korea ausgeben will, bräuchte eine FSC-Lizenz und mindestens <strong>5 Milliarden Won</strong> Eigenkapital. Der Emittent müsste Reserven von mindestens 100 % der umlaufenden Coins bei einer Bank oder einem anderen zugelassenen Verwahrer halten, Coins auf Verlangen unverzüglich zum Nennwert zurücknehmen und dürfte keine Zinsen zahlen. Die Reserven wären vor Gläubigern geschützt und würden bei Pleite oder Hack zuerst an die Inhaber ausgezahlt.
+
+Die Bankenmehrheit beendet einen langen Streit. Laut [CoinDesk](L4) hatte die Bank of Korea darauf gedrängt, dass Banken mehr als die Hälfte jedes Emittenten besitzen, weil sie fürchtete, Stablecoins könnten zur Umgehung von Devisenkontrollen genutzt werden. Die FSC und einige Abgeordnete wollten Fintechs dagegen nicht ausschließen. Der Kompromiss lässt die Kontrolle bei den Banken, erlaubt aber einem Technologieunternehmen die Führung.
+
+Ausländische Emittenten, etwa die Firmen hinter Dollar-Stablecoins, könnten tätig werden, wenn sie eine lokale Niederlassung eröffnen und sich bei der FSC registrieren. [The Block](L3) merkte an, dass damit Tethers USDT und andere Offshore-Stablecoins zirkulieren könnten, wenn sie die FSC-Standards erfüllen. Coins ohne genehmigten Emissionsplan dürften von lizenzierten koreanischen Kryptofirmen weder gelistet noch gehandelt werden.
+
+## Coin-Angebote kehren zurück
+
+Korea verbietet Initial Coin Offerings (ICOs) seit Langem, deshalb brachten heimische Blockchain-Firmen ihre Token oft über Gesellschaften im Ausland heraus. Der Entwurf würde ICOs im Inland erlauben. Der Emittent müsste zuerst ein Whitepaper bei der FSC einreichen, ähnlich einem Wertpapierprospekt, mit Angaben zur Zahl der Coins, zur Verwendung des Geldes und zu den Risiken. Falsche oder fehlende Angaben könnten Bußgelder und Schadenersatzforderungen nach sich ziehen.
+
+Eines fehlt. Die [Seoul Economic Daily](L5) berichtete, dass der Regierungsentwurf weder Spot-Krypto-ETFs noch Krypto-Futures und -Optionen vorsieht, die koreanische Anleger im Inland weiterhin nicht kaufen können.
+
+!figure:compare
+
+!mid_cta
+
+## Grenzen für Börseneigentümer
+
+Börsen bräuchten drei getrennte Lizenzen, für Handel, Vermittlung und Verwahrung, bevor die FSC sie als „Betreiber einer Plattform für digitale Vermögenswerte“ einstufen könnte. Um ihre Neutralität zu sichern, dürfte kein einzelner Aktionär mehr als <strong>20 %</strong> einer Börse besitzen. Mit Genehmigung der FSC könnte die Grenze auf 34 % steigen. Anteile über der Grenze verlören ihr Stimmrecht. Bestehende Börsen hätten drei Jahre Zeit, kleinere Börsen könnten bis zu drei weitere Jahre bekommen.
+
+Auch bei der Sicherheit zieht der Entwurf an. Kryptofirmen müssten Nutzern Verluste aus Hacks oder Systemausfällen ersetzen, selbst wenn sie kein Verschulden trifft. Verletzt eine Firma ihre IT-Sicherheitspflichten und kommt es zu einem Vorfall, könnte die FSC ein Bußgeld von bis zu 10 % des Umsatzes verhängen.
+
+„Der Gesetzentwurf, den wir heute vorstellen, dürfte das Vertrauen in den koreanischen Markt für digitale Vermögenswerte und dessen Transparenz stärken“, sagte FSC-Chef Lee Eok-won laut The Block. Nicht alle sind überzeugt: The Block zitierte das lokale Medium Newsis, das über Sorgen der Branche berichtete, die Obergrenze und die neuen Lizenzen könnten Nutzer zu ausländischen Plattformen treiben.
+
+## Warum das für Einsteiger wichtig ist
+
+Korea hat einen großen Kryptomarkt für Privatanleger, deshalb wirken seine Regeln weit über die Landesgrenzen hinaus. Das bankengeführte Stablecoin-Modell ist zudem ein Gegenentwurf zu den USA, wo der GENIUS Act zugelassenen Nicht-Banken erlaubt, Dollar-Stablecoins auszugeben.
+
+Für US-Nutzer ändert sich vorerst nichts. Wer in den USA Kryptowährungen kauft, nutzt als Einsteiger häufig eine große regulierte Börse wie [Coinbase](REF). Die Kurse können stark schwanken, investieren Sie also nur, was Sie verlieren können. Dies ist keine Anlageberatung.
+
+## Worauf man jetzt achten sollte
+
+- Wie die Nationalversammlung mit dem Entwurf umgeht und ob die Abgeordneten ihn mit konkurrierenden Krypto-Gesetzen zusammenführen.
+- Die genauen Eigentumsregeln für Stablecoin-Konsortien, die per Präsidialdekret folgen sollen.
+- Wie Koreas große Börsen auf die 20-%-Grenze reagieren.
+
+!soft: Neu bei Stablecoins? So funktionieren die US-Regeln, erklärt in unserem Artikel über [den GENIUS Act und Stablecoin-Emittenten der Bundesstaaten](/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026)
+
+!end_cta
+
+!disclosure

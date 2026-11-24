@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-etf-monthly-flows-2026.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of monthly net flows into U.S. spot bitcoin ETFs in 2026: outflows of $1.60B in January, $0.21B in February, $2.41B in May, $4.51B in June and $0.52B in October, inflows in March, April, July, August and September, and a record $4.71B outflow in November through Nov. 23",
+      "es": "Gráfico de barras de los flujos netos mensuales de los ETF de bitcoin al contado de EE. UU. en 2026: salidas de 1.600 M$ en enero, 210 M$ en febrero, 2.410 M$ en mayo, 4.510 M$ en junio y 520 M$ en octubre, entradas en marzo, abril, julio, agosto y septiembre, y una salida récord de 4.710 M$ en noviembre hasta el día 23",
+      "pt": "Gráfico de barras dos fluxos líquidos mensais dos ETFs de bitcoin à vista dos EUA em 2026: saídas de US$ 1,60 bi em janeiro, US$ 0,21 bi em fevereiro, US$ 2,41 bi em maio, US$ 4,51 bi em junho e US$ 0,52 bi em outubro, entradas em março, abril, julho, agosto e setembro, e saída recorde de US$ 4,71 bi em novembro até o dia 23",
+      "fr": "Graphique en barres des flux nets mensuels des ETF bitcoin au comptant américains en 2026 : sorties de 1,60 Md$ en janvier, 0,21 Md$ en février, 2,41 Md$ en mai, 4,51 Md$ en juin et 0,52 Md$ en octobre, entrées en mars, avril, juillet, août et septembre, et sortie record de 4,71 Md$ en novembre jusqu'au 23",
+      "de": "Balkendiagramm der monatlichen Nettozuflüsse der US-Spot-Bitcoin-ETFs 2026: Abflüsse von 1,60 Mrd. $ im Januar, 0,21 Mrd. $ im Februar, 2,41 Mrd. $ im Mai, 4,51 Mrd. $ im Juni und 0,52 Mrd. $ im Oktober, Zuflüsse im März, April, Juli, August und September und ein Rekordabfluss von 4,71 Mrd. $ im November bis zum 23.",
+      "ru": "Столбчатая диаграмма месячных чистых потоков американских спотовых биткоин-ETF в 2026 году: отток $1,60 млрд в январе, $0,21 млрд в феврале, $2,41 млрд в мае, $4,51 млрд в июне и $0,52 млрд в октябре, приток в марте, апреле, июле, августе и сентябре и рекордный отток $4,71 млрд в ноябре по 23-е число",
+      "tr": "ABD spot bitcoin ETF'lerinin 2026'daki aylık net akışlarının çubuk grafiği: ocakta 1,60 milyar $, şubatta 0,21 milyar $, mayısta 2,41 milyar $, haziranda 4,51 milyar $ ve ekimde 0,52 milyar $ çıkış; mart, nisan, temmuz, ağustos ve eylülde giriş; kasımda 23'üne kadar rekor 4,71 milyar $ çıkış",
+      "id": "Grafik batang arus bersih bulanan ETF bitcoin spot AS pada 2026: arus keluar US$1,60 miliar pada Januari, US$0,21 miliar pada Februari, US$2,41 miliar pada Mei, US$4,51 miliar pada Juni, dan US$0,52 miliar pada Oktober, arus masuk pada Maret, April, Juli, Agustus, dan September, serta arus keluar rekor US$4,71 miliar pada November hingga tanggal 23",
+      "ja": "2026年の米国ビットコイン現物ETFの月間純フローの棒グラフ：1月16億ドル、2月2.1億ドル、5月24.1億ドル、6月45.1億ドル、10月5.2億ドルの流出、3月・4月・7月・8月・9月は流入、11月は23日までで過去最大の47.1億ドルの流出",
+      "ko": "2026년 미국 비트코인 현물 ETF 월간 순유출입 막대그래프: 1월 16억 달러, 2월 2.1억 달러, 5월 24.1억 달러, 6월 45.1억 달러, 10월 5.2억 달러 유출, 3월·4월·7월·8월·9월 유입, 11월은 23일까지 사상 최대 47.1억 달러 유출"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Farside Investors",
+      "es": "Gráfico: PlainBTC, datos: Farside Investors",
+      "pt": "Gráfico: PlainBTC, dados: Farside Investors",
+      "fr": "Graphique : PlainBTC, données : Farside Investors",
+      "de": "Chart: PlainBTC, Daten: Farside Investors",
+      "ru": "График: PlainBTC, данные: Farside Investors",
+      "tr": "Grafik: PlainBTC, veri: Farside Investors",
+      "id": "Grafik: PlainBTC, data: Farside Investors",
+      "ja": "チャート: PlainBTC、データ: Farside Investors",
+      "ko": "차트: PlainBTC, 데이터: Farside Investors"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-november-4-71-billion-record-outflow.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: U.S. spot bitcoin ETFs lost a net $4.71 billion from Nov. 1 to Nov. 23, 2026, the largest monthly outflow since their January 2024 launch, ahead of June 2026's $4.51 billion",
+      "es": "Tarjeta: los ETF de bitcoin al contado de EE. UU. perdieron en neto 4.710 millones de dólares del 1 al 23 de noviembre de 2026, la mayor salida mensual desde su lanzamiento en enero de 2024, por delante de los 4.510 millones de junio de 2026",
+      "pt": "Cartão: os ETFs de bitcoin à vista dos EUA perderam em termos líquidos US$ 4,71 bilhões de 1º a 23 de novembro de 2026, a maior saída mensal desde o lançamento em janeiro de 2024, acima dos US$ 4,51 bilhões de junho de 2026",
+      "fr": "Fiche : les ETF bitcoin au comptant américains ont perdu en net 4,71 milliards de dollars du 1er au 23 novembre 2026, la plus forte sortie mensuelle depuis leur lancement en janvier 2024, devant les 4,51 milliards de juin 2026",
+      "de": "Faktenkarte: US-Spot-Bitcoin-ETFs verloren vom 1. bis 23. November 2026 netto 4,71 Mrd. Dollar, der größte Monatsabfluss seit ihrem Start im Januar 2024, vor den 4,51 Mrd. Dollar im Juni 2026",
+      "ru": "Карточка: американские спотовые биткоин-ETF потеряли в чистом выражении $4,71 млрд с 1 по 23 ноября 2026 года, это крупнейший месячный отток с их запуска в январе 2024 года, больше $4,51 млрд в июне 2026 года",
+      "tr": "Bilgi kartı: ABD spot bitcoin ETF'leri 1-23 Kasım 2026 arasında net 4,71 milyar dolar kaybetti; bu, Ocak 2024'teki lansmanlarından bu yana en büyük aylık çıkış ve Haziran 2026'daki 4,51 milyar doları geride bıraktı",
+      "id": "Kartu fakta: ETF bitcoin spot AS kehilangan bersih US$4,71 miliar pada 1-23 November 2026, arus keluar bulanan terbesar sejak diluncurkan pada Januari 2024, melampaui US$4,51 miliar pada Juni 2026",
+      "ja": "ファクトカード：米国ビットコイン現物ETFは2026年11月1日から23日に差し引き47.1億ドルを失った。2024年1月の上場以来最大の月間流出で、2026年6月の45.1億ドルを上回る",
+      "ko": "팩트 카드: 미국 비트코인 현물 ETF는 2026년 11월 1~23일 순 47.1억 달러가 빠져나갔다. 2024년 1월 출시 이후 최대 월간 유출로, 2026년 6월의 45.1억 달러를 넘어섰다"
+    },
+    "caption": {
+      "en": "Source: Farside Investors",
+      "es": "Fuente: Farside Investors",
+      "pt": "Fonte: Farside Investors",
+      "fr": "Source : Farside Investors",
+      "de": "Quelle: Farside Investors",
+      "ru": "Источник: Farside Investors",
+      "tr": "Kaynak: Farside Investors",
+      "id": "Sumber: Farside Investors",
+      "ja": "出典: Farside Investors",
+      "ko": "출처: Farside Investors"
+    }
+  }
+]

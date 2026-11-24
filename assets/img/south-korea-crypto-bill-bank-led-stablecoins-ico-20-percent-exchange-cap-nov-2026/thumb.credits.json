@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Flag_of_South_Korea.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+      "credit": "Flag of South Korea"
+    },
+    {
+      "file": "FSC press release, Nov. 24, 2026",
+      "license": "Facts cited",
+      "url": "https://www.fsc.go.kr/comm/getFile?fileNo=2&fileTy=ATTACH&srvcId=BBSTY1&upperNo=88199",
+      "credit": "Financial Services Commission (Korea)"
+    }
+  ],
+  "note": "Editorial diagram; flag for identification; no endorsement by the FSC implied.",
+  "slug": "south-korea-crypto-bill-bank-led-stablecoins-ico-20-percent-exchange-cap-nov-2026",
+  "generated": "2026-11-24T14:09Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

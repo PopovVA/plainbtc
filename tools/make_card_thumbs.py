@@ -2275,7 +2275,105 @@ def thumb_cftc_crypto_reserves():
     ], "note": "Editorial diagram; seal and logos for identification; no endorsement by the CFTC implied."}
 
 
+def thumb_etf_nov_record_471():
+    """Warm-paper 'November calendar': one tile per U.S. trading day Nov. 2-23, 2026, red for net outflow and green for
+    inflow (Farside daily Total column, frozen in chart-data.json), the record -$4.71B month total and the Bitcoin logo (Wikimedia)."""
+    btc = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg", CACHE/"bitcoin-wiki.svg")).convert("RGBA")
+    data = json.loads((I18N / "bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026" / "chart-data.json").read_text(encoding="utf-8"))
+    days = data["nov_days"]; assert len(days) == 16
+    base = gradient_bg(top=(253, 246, 236), bottom=(244, 228, 214))
+    d = Draw(base)
+    ink, mute, red, green = (41, 22, 17), (120, 86, 72), (190, 30, 45), (21, 128, 61)
+    paste_contain(base, btc, (24, 54, 64, 64), pad=2)
+    d = Draw(base)
+    d.text((100, 58), "U.S. spot bitcoin ETFs", font=font(FONT_B, 18), fill=ink)
+    d.text((100, 84), "November 2026, day by day", font=font(FONT_R, 14), fill=mute)
+    # weekday header and tiles (Mon-Fri columns, 4 weeks)
+    cols = ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    x0, y0, cw, ch, gap = 24, 138, 64, 38, 6
+    for i, c in enumerate(cols):
+        d.text((x0 + i * (cw + gap) + 16, y0 - 22), c, font=font(FONT_B, 12), fill=mute)
+    import datetime as _dt
+    for lab, v in days:
+        dt_ = _dt.datetime.strptime(lab, "%d %b %Y"); wk = (dt_.day - 2) // 7; wd = dt_.weekday()
+        x = x0 + wd * (cw + gap); y = y0 + wk * (ch + gap)
+        d.rounded_rectangle([x, y, x + cw, y + ch], radius=7, fill=red if v < 0 else green)
+        d.text((x + 6, y + 3), str(dt_.day), font=font(FONT_B, 11), fill=(255, 235, 230))
+        txt = f"{v:+,.0f}"; f = font(FONT_B, 13)
+        d.text((x + cw - 6 - d.textlength(txt, font=f), y + 21), txt, font=f, fill=(255, 255, 255))
+    d.text((x0, y0 + 4 * (ch + gap) + 4), "Daily net flows, US$ millions · Farside Investors", font=font(FONT_R, 11), fill=mute)
+    # right: record total
+    rx = 392
+    d.rounded_rectangle([rx, 54, 620, 336], radius=16, fill=(41, 22, 17))
+    d.text((rx + 20, 74), "RECORD MONTH", font=font(FONT_B, 14), fill=(251, 146, 60))
+    d.text((rx + 18, 100), "-$4.71B", font=font(FONT_B, 46), fill=(255, 255, 255))
+    d.text((rx + 20, 160), "Nov. 1-23 net outflow", font=font(FONT_R, 14), fill=(231, 214, 205))
+    # comparison bars vs prior worst months
+    bars = [("Nov 2026", 4706.7, (239, 68, 68)), ("Jun 2026", 4509.7, (168, 120, 100)), ("Feb 2025", 3560.4, (168, 120, 100))]
+    for k, (lab, v, colr) in enumerate(bars):
+        y = 198 + k * 42
+        d.text((rx + 20, y), lab, font=font(FONT_R, 12), fill=(231, 214, 205))
+        wpx = 188 * v / 4706.7
+        d.rounded_rectangle([rx + 20, y + 17, rx + 20 + wpx, y + 31], radius=4, fill=colr)
+        d.text((rx + 20 + wpx - 50, y), f"-${v/1000:.2f}B", font=font(FONT_B, 12), fill=(255, 255, 255))
+    label_chip(base, "ETF outflows · record month", xy=(392, 14))
+    return base, {"kind": "composite", "sources": [
+        {"file": "Bitcoin.svg", "license": "Public domain (logo)", "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg", "credit": "Bitcoin logo"},
+        {"file": "Farside Investors Bitcoin ETF Flow - All Data", "license": "Public data, cited", "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/", "credit": "Daily U.S. spot bitcoin ETF net flows, Nov. 2-23, 2026, and monthly totals (read Nov. 24, 2026)"},
+    ]}
+
+
+def thumb_korea_digital_asset_bill():
+    """Light diagram: Flag of South Korea (public domain, Wikimedia) with a donut for the bank-majority stablecoin rule
+    (>50% banks) and an ownership bar for the exchange cap (20%, up to 34% with approval), from the FSC's Nov. 24, 2026 press release."""
+    flag = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg", CACHE/"flag-south-korea.svg")).convert("RGBA")
+    base = gradient_bg(top=(246, 248, 252), bottom=(226, 232, 242))
+    d = Draw(base)
+    ink, mute, kred, kblue = (17, 24, 39), (75, 85, 99), (205, 46, 58), (0, 71, 160)
+    d.rounded_rectangle([20, 50, 196, 170], radius=10, fill=(255, 255, 255), outline=(203, 213, 225), width=2)
+    paste_contain(base, flag, (26, 56, 164, 108), pad=2)
+    d = Draw(base)
+    d.text((22, 184), "Draft digital", font=font(FONT_B, 18), fill=ink)
+    d.text((22, 208), "asset law", font=font(FONT_B, 18), fill=ink)
+    d.text((22, 236), "FSC · Nov. 24, 2026", font=font(FONT_R, 13), fill=mute)
+    d.text((22, 300), "Still needs the", font=font(FONT_R, 13), fill=mute)
+    d.text((22, 318), "National Assembly", font=font(FONT_R, 13), fill=mute)
+    # donut: banks > 50%
+    cx, cy, r = 300, 170, 78
+    d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(203, 213, 225))
+    d.pieslice([cx - r, cy - r, cx + r, cy + r], start=-90, end=-90 + 360 * 0.55, fill=kblue)
+    d.ellipse([cx - 44, cy - 44, cx + 44, cy + 44], fill=(240, 243, 249))
+    t1 = ">50%"; f1 = font(FONT_B, 24); d.text((cx - d.textlength(t1, font=f1) / 2, cy - 22), t1, font=f1, fill=kblue)
+    t2 = "banks"; f2 = font(FONT_R, 13); d.text((cx - d.textlength(t2, font=f2) / 2, cy + 8), t2, font=f2, fill=mute)
+    d.text((cx - 92, 264), "Won stablecoin issuers", font=font(FONT_B, 14), fill=ink)
+    d.text((cx - 92, 284), "fintech may be top holder", font=font(FONT_R, 12), fill=mute)
+    # exchange ownership cap bar
+    bx = 420
+    d.text((bx, 64), "Exchange owners", font=font(FONT_B, 16), fill=ink)
+    d.text((bx, 88), "max stake per shareholder", font=font(FONT_R, 12), fill=mute)
+    top, bot = 120, 300
+    d.rounded_rectangle([bx + 40, top, bx + 120, bot], radius=8, fill=(255, 255, 255), outline=(148, 163, 184), width=2)
+    h = bot - top
+    y34 = bot - h * 0.34; y20 = bot - h * 0.20
+    d.rectangle([bx + 42, y34, bx + 118, y20], fill=(252, 165, 165))
+    d.rounded_rectangle([bx + 42, y20, bx + 118, bot - 2], radius=6, fill=kred)
+    d.line([(bx + 34, y20), (bx + 126, y20)], fill=ink, width=2)
+    d.line([(bx + 34, y34), (bx + 126, y34)], fill=ink, width=1)
+    d.text((bx + 132, y20 - 10), "20%", font=font(FONT_B, 20), fill=kred)
+    d.text((bx + 132, y34 - 16), "34%", font=font(FONT_B, 16), fill=(185, 28, 28))
+    d.text((bx + 132, y34 + 4), "with OK", font=font(FONT_R, 11), fill=mute)
+    d.text((bx + 132, top - 4), "100%", font=font(FONT_R, 11), fill=mute)
+    d.text((bx, 312), "3-year grace period", font=font(FONT_R, 12), fill=mute)
+    label_chip(base, "South Korea · crypto bill", xy=(420, 14))
+    return base, {"kind": "composite", "sources": [
+        {"file": "Flag_of_South_Korea.svg", "license": "Public domain", "url": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg", "credit": "Flag of South Korea"},
+        {"file": "FSC press release, Nov. 24, 2026", "license": "Facts cited", "url": "https://www.fsc.go.kr/comm/getFile?fileNo=2&fileTy=ATTACH&srvcId=BBSTY1&upperNo=88199", "credit": "Financial Services Commission (Korea)"},
+    ], "note": "Editorial diagram; flag for identification; no endorsement by the FSC implied."}
+
+
 BUILDERS = {
+    "bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026": thumb_etf_nov_record_471,
+    "south-korea-crypto-bill-bank-led-stablecoins-ico-20-percent-exchange-cap-nov-2026": thumb_korea_digital_asset_bill,
     "bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026": thumb_huang_btc_fade,
     "cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026": thumb_cftc_crypto_reserves,
     "binance-hires-mandiant-slowmist-verichains-security-review-nov-2026": thumb_binance_security_review,

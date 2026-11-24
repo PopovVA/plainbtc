@@ -1,0 +1,64 @@
+title: El proyecto cripto de Corea del Sur: stablecoins en wones con mayoría bancaria, ICO legales y un tope del 20% para los dueños de exchanges
+page_title: Corea del Sur: stablecoins de bancos, ICO y tope del 20% en exchanges
+description: La Comisión de Servicios Financieros de Corea del Sur presentó el 24 de noviembre de 2026 un proyecto de ley de activos digitales: stablecoins en wones solo de grupos con mayoría bancaria, ICO legales con un libro blanco y un tope del 20% para los accionistas de exchanges.
+og_description: Corea del Sur quiere que los bancos tengan más de la mitad de cualquier emisor de stablecoins en wones, permitirá las ofertas de monedas en el país y planea limitar al 20% (34% con aprobación) a los accionistas de exchanges. La ley aún necesita a los legisladores. Qué significa, explicado de forma sencilla.
+label: Regulación
+summary: El regulador financiero de Corea del Sur publicó un proyecto de ley cripto: stablecoins en wones solo de consorcios con más del 50% en manos de bancos, ofertas de monedas con un libro blanco registrado, un tope del 20% para los accionistas de exchanges y responsabilidad sin culpa por hackeos. Ahora pasa a la Asamblea Nacional.
+===
+
+Corea del Sur ha puesto sobre la mesa su reglamento cripto más ambicioso hasta ahora. El martes 24 de noviembre, la Comisión de Servicios Financieros (FSC), el principal regulador financiero del país, presentó un proyecto de "Ley de Innovación de la Industria de Activos Digitales y Protección de los Usuarios", según el [comunicado de la FSC](L1). Define quién puede emitir stablecoins vinculadas al won coreano, permite por primera vez las ofertas de monedas dentro del país y limita la parte de un exchange que puede tener un solo accionista.
+
+El punto más debatido son las stablecoins. Según el proyecto, al principio solo podrían emitir stablecoins en wones los grupos en los que <strong>los bancos juntos tengan más del 50%</strong>. Una fintech o empresa tecnológica podría seguir siendo el mayor accionista individual, [informó Yonhap](L2). La ley aún debe aprobarse en la Asamblea Nacional antes de que entre en vigor.
+
+!takeaways
+- La FSC de Corea del Sur presentó un proyecto de ley de activos digitales el 24 de noviembre de 2026. Necesita la aprobación de la Asamblea Nacional.
+- Al principio, las stablecoins en wones solo las emitirían consorcios con más del 50% en manos de bancos; una fintech puede seguir siendo el mayor accionista.
+- Los emisores necesitarían al menos 5.000 millones de wones de capital, reservas del 100%, reembolso a petición y ningún pago de intereses a los tenedores.
+- Las ofertas de monedas (ICO) serían legales en Corea si el emisor registra antes un libro blanco ante la FSC.
+- Un solo accionista de un exchange tendría un tope del 20%, o de hasta el 34% con aprobación de la FSC, con un periodo de gracia de tres años para los exchanges existentes.
+
+!figure:fact
+
+## Primero los bancos para las stablecoins en wones
+
+El proyecto llama a las stablecoins "tokens de pago digitales": monedas que siguen a una sola divisa y se usan sobre todo para pagar. Cualquier empresa que quiera emitirlas en Corea necesitaría una licencia de la FSC y al menos <strong>5.000 millones de wones</strong> de capital propio. Tendría que depositar en un banco u otro custodio autorizado reservas de al menos el 100% de las monedas en circulación, reembolsarlas a su valor nominal sin demora cuando los tenedores lo pidan y no pagar intereses. Las reservas estarían protegidas frente a los acreedores y se pagarían primero a los tenedores si el emisor quiebra o sufre un hackeo.
+
+La regla de mayoría bancaria zanja una larga disputa. [CoinDesk](L4) informó de que el Banco de Corea había presionado para que los bancos tuvieran más de la mitad de cualquier emisor, preocupado porque las stablecoins se usaran para eludir los controles de cambio, mientras que la FSC y algunos legisladores no querían dejar fuera a las fintech. El acuerdo deja el control a los bancos y permite que una tecnológica lidere.
+
+Los emisores extranjeros, como las empresas detrás de las stablecoins en dólares, podrían operar si abren una sucursal local y se registran ante la FSC. [The Block](L3) señaló que esto podría permitir que USDT de Tether y otras stablecoins extranjeras circulen si cumplen los estándares de la FSC. Las monedas sin un plan de emisión aprobado no podrían cotizar ni ser gestionadas por las empresas cripto coreanas con licencia.
+
+## Las ofertas de monedas vuelven a casa
+
+Corea prohíbe desde hace tiempo las ofertas iniciales de monedas (ICO), así que las empresas blockchain locales solían lanzar sus tokens a través de sociedades en el extranjero. El proyecto permitiría las ICO en el país. El emisor tendría que registrar antes un libro blanco ante la FSC, parecido a un folleto de acciones, con cuántas monedas emitirá, en qué usará el dinero y los riesgos. La información falsa u omitida podría acarrear multas y demandas por daños.
+
+Falta algo. El [Seoul Economic Daily](L5) informó de que el proyecto del Gobierno no incluye ETF cripto al contado ni futuros u opciones sobre cripto, que los inversores coreanos siguen sin poder comprar en su país.
+
+!figure:compare
+
+!mid_cta
+
+## Límites para los dueños de exchanges
+
+Los exchanges necesitarían tres licencias distintas, de negociación, intermediación y custodia, antes de que la FSC pudiera designarlos como "operador de plataforma de activos digitales". Para mantener su neutralidad, ningún accionista podría tener más del <strong>20%</strong> de un exchange. Con aprobación de la FSC, ese límite podría subir al 34%. Las acciones por encima del tope perderían sus derechos de voto. Los exchanges existentes tendrían tres años para cumplir, y los más pequeños podrían recibir hasta tres más.
+
+El proyecto también eleva la exigencia en seguridad. Las empresas cripto tendrían que compensar a los usuarios por pérdidas causadas por hackeos o fallos de sistemas aunque no tuvieran la culpa. Si una empresa incumple sus deberes de seguridad informática y se produce un incidente, la FSC podría multarla con hasta el 10% de sus ingresos.
+
+"Se espera que el proyecto que anunciamos hoy aumente la confianza y la transparencia del mercado de activos digitales de Corea", dijo el presidente de la FSC, Lee Eok-won, según The Block. No todos están de acuerdo: The Block citó al medio local Newsis, que recogió la preocupación del sector de que el tope y las nuevas licencias empujen a los usuarios hacia plataformas extranjeras.
+
+## Por qué importa a los principiantes
+
+Corea tiene un gran mercado cripto minorista, así que sus normas importan mucho más allá de sus fronteras. El modelo de stablecoins liderado por bancos también contrasta con el de EE. UU., donde la Ley GENIUS permite a empresas no bancarias aprobadas emitir stablecoins en dólares.
+
+Para los usuarios de EE. UU. no cambia nada todavía. Si compras cripto en EE. UU., un exchange grande y regulado como [Coinbase](REF) es una vía habitual para principiantes. Los precios pueden moverse con fuerza, así que invierte solo lo que puedas permitirte perder. Esto no es asesoramiento de inversión.
+
+## Qué vigilar ahora
+
+- Cómo tramita la Asamblea Nacional el proyecto y si los legisladores lo fusionan con otras propuestas cripto.
+- Las reglas detalladas de propiedad de los consorcios de stablecoins, que llegarán en un decreto presidencial.
+- Cómo responden los grandes exchanges coreanos al tope de propiedad del 20%.
+
+!soft: ¿Nuevo en las stablecoins? Mira cómo funcionan las reglas de EE. UU. en nuestro artículo sobre [la Ley GENIUS y los emisores estatales de stablecoins](/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026)
+
+!end_cta
+
+!disclosure

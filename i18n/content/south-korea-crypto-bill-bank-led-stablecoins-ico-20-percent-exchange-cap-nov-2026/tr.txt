@@ -1,0 +1,64 @@
+title: Güney Kore'nin kripto yasa tasarısı: bankaların öncülüğünde won stablecoin'leri, yasal coin arzları ve borsa sahiplerine %20 sınır
+page_title: Güney Kore: banka stablecoin'leri, ICO ve borsalara %20 sınır
+description: Güney Kore Finansal Hizmetler Komisyonu 24 Kasım 2026'da dijital varlık yasa tasarısını açıkladı: won stablecoin'leri yalnızca banka çoğunluklu gruplardan, beyaz bültenle yasal ICO'lar ve borsa hissedarlarına %20 sınır.
+og_description: Güney Kore, her won stablecoin ihraççısının yarısından fazlasının bankalara ait olmasını istiyor, ülke içinde coin arzına izin verecek ve borsa hissedarlarını %20 (onayla %34) ile sınırlamayı planlıyor. Tasarı hâlâ meclisten geçmeli. Ne anlama geldiğini sade bir dille anlatıyoruz.
+label: Düzenleme
+summary: Güney Kore'nin finans düzenleyicisi bir kripto yasa tasarısı yayımladı: won stablecoin'leri yalnızca yüzde 50'den fazlası bankalara ait konsorsiyumlardan, beyaz bülten sunularak coin arzları, borsa hissedarlarına %20 sınır ve hack'lerde kusursuz sorumluluk. Tasarı şimdi Ulusal Meclis'e gidiyor.
+===
+
+Güney Kore şimdiye kadarki en kapsamlı kripto kurallarını masaya koydu. Ülkenin en üst finans düzenleyicisi Finansal Hizmetler Komisyonu (FSC), 24 Kasım salı günü "Dijital Varlık Sektöründe İnovasyon ve Kullanıcıların Korunması Hakkında Kanun" tasarısını sundu. Bu bilgi [FSC'nin basın bülteninde](L1) yer alıyor. Tasarı, Kore wonuna sabitlenmiş stablecoin'leri kimin çıkarabileceğini belirliyor, ilk kez ülke içinde coin arzına izin veriyor ve tek bir hissedarın bir borsanın ne kadarına sahip olabileceğini sınırlıyor.
+
+En çok tartışılan konu stablecoin'ler. Tasarıya göre won stablecoin'lerini ilk aşamada yalnızca <strong>bankaların toplamda yüzde 50'den fazlasına</strong> sahip olduğu gruplar çıkarabilecek. [Yonhap'ın haberine](L2) göre bir fintek ya da teknoloji şirketi yine de en büyük tekil hissedar olabilecek. Tasarının yürürlüğe girmesi için önce Ulusal Meclis'ten geçmesi gerekiyor.
+
+!takeaways
+- Güney Kore'nin FSC'si 24 Kasım 2026'da dijital varlık yasa tasarısını açıkladı. Tasarının Ulusal Meclis'te onaylanması gerekiyor.
+- Won stablecoin'lerini ilk aşamada yalnızca yüzde 50'den fazlası bankalara ait konsorsiyumlar çıkarabilecek; bir fintek yine de en büyük hissedar olabilir.
+- İhraççıların en az 5 milyar won sermayesi, %100 rezervi olmalı, talep halinde geri ödeme yapmalı ve sahiplere faiz ödememeli.
+- İhraççı önce FSC'ye beyaz bülten sunarsa coin arzları (ICO) Kore'de yasal olacak.
+- Bir borsanın tek hissedarı %20 ile, FSC onayıyla en fazla %34 ile sınırlanacak; mevcut borsalara üç yıllık geçiş süresi tanınacak.
+
+!figure:fact
+
+## Won stablecoin'lerinde öncelik bankalarda
+
+Tasarı stablecoin'leri "dijital ödeme token'ları" olarak tanımlıyor: tek bir para birimini takip eden ve esas olarak ödeme için kullanılan coin'ler. Bunları Kore'de çıkarmak isteyen her şirketin FSC lisansına ve en az <strong>5 milyar won</strong> özsermayeye ihtiyacı olacak. Dolaşımdaki coin'lerin en az %100'ü değerindeki rezervleri bir bankada ya da onaylı başka bir saklayıcıda tutması, sahipler istediğinde coin'leri gecikmeden itibari değerden geri alması ve faiz ödememesi gerekecek. Rezervler alacaklılara karşı korunacak ve ihraççı iflas ederse ya da hack'lenirse önce sahiplere ödenecek.
+
+Banka çoğunluğu kuralı uzun bir tartışmayı sonlandırıyor. [CoinDesk](L4), Kore Merkez Bankası'nın stablecoin'lerin döviz kontrollerini aşmak için kullanılabileceği endişesiyle her ihraççının yarısından fazlasının bankalara ait olmasını savunduğunu, FSC ve bazı milletvekillerinin ise fintekleri dışarıda bırakmak istemediğini yazdı. Uzlaşma, kontrolü bankalarda tutarken bir teknoloji şirketinin öncülük etmesine izin veriyor.
+
+Dolar stablecoin'lerini çıkaran şirketler gibi yabancı ihraççılar, yerel şube açıp FSC'ye kayıt olurlarsa faaliyet gösterebilecek. [The Block](L3), bunun Tether'in USDT'si ve diğer yurt dışı stablecoin'lerin FSC standartlarını karşılamaları halinde dolaşıma girmesine imkân verebileceğini belirtti. Onaylı bir ihraç planı olmayan coin'ler lisanslı Kore kripto şirketlerinde listelenemeyecek ve işlem göremeyecek.
+
+## Coin arzları yurda dönüyor
+
+Kore uzun süredir ilk coin arzlarını (ICO) yasaklıyor; bu yüzden yerel blokzincir şirketleri token'larını genellikle yurt dışındaki şirketler aracılığıyla çıkarıyordu. Tasarı ICO'lara ülke içinde izin verecek. İhraççı önce FSC'ye, hisse senedi izahnamesine benzer şekilde kaç coin çıkaracağını, parayı nasıl kullanacağını ve riskleri anlatan bir beyaz bülten sunmak zorunda olacak. Yanlış ya da eksik bilgi para cezasına ve tazminat taleplerine yol açabilecek.
+
+Bir şey eksik. [Seoul Economic Daily](L5), hükümet tasarısının spot kripto ETF'lerini ya da kripto vadeli işlem ve opsiyonlarını kapsamadığını, Koreli yatırımcıların bunları hâlâ yurt içinde alamadığını bildirdi.
+
+!figure:compare
+
+!mid_cta
+
+## Borsa sahiplerine sınırlar
+
+Borsaların, FSC'nin onları "dijital varlık platformu işletmecisi" olarak belirleyebilmesi için alım satım, aracılık ve saklama olmak üzere üç ayrı lisansa ihtiyacı olacak. Tarafsızlıklarını korumak için hiçbir hissedar bir borsanın <strong>%20'sinden</strong> fazlasına sahip olamayacak. FSC onayıyla bu sınır %34'e çıkabilecek. Sınırın üzerindeki hisseler oy hakkını kaybedecek. Mevcut borsalara uyum için üç yıl verilecek, küçük borsalar ise üç yıla kadar ek süre alabilecek.
+
+Tasarı güvenlik çıtasını da yükseltiyor. Kripto şirketleri, kusurları olmasa bile hack'ler veya sistem arızaları nedeniyle oluşan kullanıcı kayıplarını tazmin etmek zorunda kalacak. Bir şirket BT güvenliği yükümlülüklerini ihlal eder ve ardından bir olay yaşanırsa FSC ona gelirinin %10'una kadar para cezası verebilecek.
+
+The Block'un aktardığına göre FSC Başkanı Lee Eok-won, "Bugün açıkladığımız tasarının Kore dijital varlık piyasasının güvenilirliğini ve şeffaflığını artırması bekleniyor" dedi. Herkes aynı fikirde değil: The Block, sektörün bu sınırın ve yeni lisansların kullanıcıları yurt dışı platformlara itebileceği endişesini aktaran yerel yayın organı Newsis'e atıf yaptı.
+
+## Yeni başlayanlar için neden önemli
+
+Kore'nin büyük bir bireysel kripto piyasası var, bu yüzden kuralları ülke sınırlarının çok ötesinde önem taşıyor. Bankaların öncülük ettiği stablecoin modeli, GENIUS Yasası'nın onaylı banka dışı şirketlerin dolar stablecoin'i çıkarmasına izin verdiği ABD ile de bir tezat oluşturuyor.
+
+ABD'li kullanıcılar için şimdilik hiçbir şey değişmiyor. ABD'de kripto satın alıyorsanız [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsa, yeni başlayanlar için yaygın yollardan biri. Fiyatlar sert dalgalanabilir, bu yüzden yalnızca kaybetmeyi göze alabileceğiniz kadarını yatırın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neler izlenmeli
+
+- Ulusal Meclis'in tasarıyı nasıl ele alacağı ve milletvekillerinin onu rakip kripto tasarılarıyla birleştirip birleştirmeyeceği.
+- Stablecoin konsorsiyumları için bir cumhurbaşkanlığı kararnamesiyle belirlenecek ayrıntılı ortaklık kuralları.
+- Kore'nin büyük borsalarının %20'lik ortaklık sınırına nasıl tepki vereceği.
+
+!soft: Stablecoin'lerde yeni misiniz? ABD kurallarının nasıl işlediğini [GENIUS Yasası ve eyalet stablecoin ihraççıları](/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026) yazımızda görün
+
+!end_cta
+
+!disclosure

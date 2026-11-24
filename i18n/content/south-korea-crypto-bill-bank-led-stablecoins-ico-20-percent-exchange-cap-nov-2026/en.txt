@@ -1,0 +1,64 @@
+title: South Korea's crypto bill: bank-led won stablecoins, legal coin offerings and a 20% cap on exchange owners
+page_title: South Korea crypto bill: bank-led stablecoins, ICOs, 20% exchange cap
+description: South Korea's Financial Services Commission unveiled a draft digital asset law on Nov. 24, 2026: won stablecoins only from bank-majority groups, legal ICOs with a white paper, and a 20% ownership cap for exchange shareholders.
+og_description: South Korea wants banks to own more than half of any won stablecoin issuer, will allow coin offerings at home, and plans to cap exchange shareholders at 20% (34% with approval). The bill still needs lawmakers. What it means, in plain English.
+label: Regulation
+summary: South Korea's financial regulator released a draft crypto law: won stablecoins only from consortia that are more than 50% bank-owned, domestic coin offerings with a filed white paper, a 20% cap on exchange shareholders and no-fault liability for hacks. It now goes to the National Assembly.
+===
+
+South Korea has put its biggest crypto rulebook yet on the table. On Tuesday, Nov. 24, the Financial Services Commission (FSC), the country's top financial regulator, presented a draft "Act on the Innovation of the Digital Asset Industry and Protection of Users," according to the FSC's [press release](L1). It covers who may issue stablecoins pegged to the Korean won, allows coin offerings at home for the first time, and limits how much of an exchange any one shareholder can own.
+
+The most debated point is stablecoins. Under the draft, won stablecoins could at first only be issued by groups in which <strong>banks together own more than 50%</strong>. A fintech or technology company could still be the single largest shareholder, [Yonhap reported](L2). The bill still has to pass the National Assembly before any of it takes effect.
+
+!takeaways
+- South Korea's FSC unveiled a draft digital asset law on Nov. 24, 2026. It needs approval from the National Assembly.
+- Won stablecoins would first be issued only by consortia that are more than 50% owned by banks; a fintech firm can still be the top shareholder.
+- Issuers would need at least 5 billion won in capital, 100% reserves, redemption on request and no interest payments to holders.
+- Coin offerings (ICOs) would be legal in Korea if issuers file a white paper with the FSC first.
+- A single exchange shareholder would be capped at 20%, or up to 34% with FSC approval, with a grace period of three years for existing exchanges.
+
+!figure:fact
+
+## Banks first for won stablecoins
+
+The bill calls stablecoins "digital payment tokens": coins that track one currency and are mainly used to pay. Any company that wants to issue them in Korea would need an FSC license and at least <strong>5 billion won</strong> in equity capital. It would have to keep reserves worth at least 100% of the coins in circulation with a bank or another approved custodian, redeem coins at face value without delay when holders ask, and pay no interest. The reserves would be shielded from creditors and paid to holders first if the issuer fails or is hacked.
+
+The bank-majority rule settles a long fight. [CoinDesk](L4) reported that the Bank of Korea had pushed for banks to own more than half of any issuer, worried that stablecoins could be used to get around foreign exchange controls, while the FSC and some lawmakers did not want to shut fintech firms out. The compromise keeps banks in control while letting a tech company lead.
+
+Foreign issuers, such as the companies behind dollar stablecoins, could operate if they open a local branch and register with the FSC. [The Block](L3) noted that this could let Tether's USDT and other offshore stablecoins circulate if they meet the FSC's standards. Coins without an approved issuance plan could not be listed or handled by licensed Korean crypto firms.
+
+## Coin offerings come home
+
+Korea has long banned initial coin offerings (ICOs), so local blockchain firms often launched tokens through companies abroad. The draft would allow ICOs at home. An issuer would first have to file a white paper with the FSC, much like a stock prospectus, covering how many coins it will issue, how it will use the money and the risks. False or missing information could lead to fines and damage claims.
+
+One thing is missing. The [Seoul Economic Daily](L5) reported that the government bill does not include spot crypto ETFs or crypto futures and options, which Korean investors still cannot buy at home.
+
+!figure:compare
+
+!mid_cta
+
+## Limits for exchange owners
+
+Exchanges would need three separate licenses, for trading, brokerage and custody, before the FSC could designate them as a "digital asset platform operator." To keep them neutral, no single shareholder could own more than <strong>20%</strong> of an exchange. With FSC approval, that limit could rise to 34%. Shares above the cap would lose their voting rights. Existing exchanges would get three years to comply, and smaller exchanges could get up to three more.
+
+The bill also raises the stakes for security. Crypto firms would have to pay users back for losses from hacks or system failures even if they were not at fault. If a firm breaks its IT safety duties and an accident follows, the FSC could fine it up to 10% of its revenue.
+
+"The bill we are announcing today is expected to raise the trust and transparency of Korea's digital asset market," FSC Chairman Lee Eok-won said, according to The Block. Not everyone agrees: The Block cited local outlet Newsis, which reported industry worries that the cap and new licenses could push users to overseas platforms.
+
+## Why it matters for beginners
+
+Korea has a large retail crypto market, so its rules matter well beyond its borders. The bank-led stablecoin model is also a contrast with the U.S., where the GENIUS Act lets approved non-bank companies issue dollar stablecoins.
+
+Nothing changes yet for U.S. users. If you buy crypto in the U.S., a large regulated exchange such as [Coinbase](REF) is one common route for beginners. Prices can swing sharply, so only invest what you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- How the National Assembly handles the draft, and whether lawmakers merge it with rival crypto bills.
+- The detailed ownership rules for stablecoin consortia, which will come in a presidential decree.
+- How Korea's big exchanges respond to the 20% ownership cap.
+
+!soft: New to stablecoins? See how U.S. rules work in our story on [the GENIUS Act and state stablecoin issuers](/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026)
+
+!end_cta
+
+!disclosure

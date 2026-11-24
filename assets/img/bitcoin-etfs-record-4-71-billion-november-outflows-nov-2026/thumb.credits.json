@@ -1,0 +1,27 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Bitcoin.svg",
+      "license": "Public domain (logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg",
+      "credit": "Bitcoin logo"
+    },
+    {
+      "file": "Farside Investors Bitcoin ETF Flow - All Data",
+      "license": "Public data, cited",
+      "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/",
+      "credit": "Daily U.S. spot bitcoin ETF net flows, Nov. 2-23, 2026, and monthly totals (read Nov. 24, 2026)"
+    }
+  ],
+  "slug": "bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026",
+  "generated": "2026-11-24T14:09Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

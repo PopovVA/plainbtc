@@ -1,0 +1,64 @@
+title: RUU kripto Korea Selatan: stablecoin won dipimpin bank, ICO legal, dan batas 20% untuk pemilik bursa
+page_title: Korea Selatan: stablecoin bank, ICO, dan batas 20% untuk bursa
+description: Komisi Jasa Keuangan Korea Selatan memaparkan RUU aset digital pada 24 November 2026: stablecoin won hanya dari grup dengan mayoritas bank, ICO legal dengan white paper, dan batas kepemilikan 20% untuk pemegang saham bursa.
+og_description: Korea Selatan ingin bank memiliki lebih dari separuh setiap penerbit stablecoin won, akan mengizinkan penawaran koin di dalam negeri, dan berencana membatasi pemegang saham bursa 20% (34% dengan persetujuan). RUU ini masih butuh persetujuan parlemen. Apa artinya, dengan bahasa sederhana.
+label: Regulasi
+summary: Regulator keuangan Korea Selatan merilis RUU kripto: stablecoin won hanya dari konsorsium yang lebih dari 50% dimiliki bank, penawaran koin dengan white paper terdaftar, batas 20% untuk pemegang saham bursa, dan tanggung jawab tanpa kesalahan atas peretasan. Kini RUU itu dibawa ke Majelis Nasional.
+===
+
+Korea Selatan meletakkan aturan kripto paling luasnya sejauh ini di atas meja. Pada Selasa, 24 November, Komisi Jasa Keuangan (FSC), regulator keuangan tertinggi negara itu, memaparkan rancangan "Undang-Undang tentang Inovasi Industri Aset Digital dan Perlindungan Pengguna", menurut [siaran pers FSC](L1). RUU ini mengatur siapa yang boleh menerbitkan stablecoin yang dipatok ke won Korea, untuk pertama kalinya mengizinkan penawaran koin di dalam negeri, dan membatasi porsi bursa yang boleh dimiliki satu pemegang saham.
+
+Poin yang paling diperdebatkan adalah stablecoin. Menurut rancangan ini, stablecoin won awalnya hanya boleh diterbitkan oleh grup yang <strong>lebih dari 50% dimiliki bank secara bersama-sama</strong>. Perusahaan fintech atau teknologi tetap bisa menjadi pemegang saham tunggal terbesar, [lapor Yonhap](L2). RUU ini masih harus disahkan Majelis Nasional sebelum berlaku.
+
+!takeaways
+- FSC Korea Selatan memaparkan RUU aset digital pada 24 November 2026. RUU ini butuh persetujuan Majelis Nasional.
+- Stablecoin won awalnya hanya diterbitkan oleh konsorsium yang lebih dari 50% dimiliki bank; perusahaan fintech tetap bisa menjadi pemegang saham terbesar.
+- Penerbit wajib punya modal minimal 5 miliar won, cadangan 100%, penebusan sesuai permintaan, dan tidak boleh membayar bunga kepada pemegang.
+- Penawaran koin (ICO) akan legal di Korea jika penerbit lebih dulu mendaftarkan white paper ke FSC.
+- Satu pemegang saham bursa dibatasi 20%, atau hingga 34% dengan persetujuan FSC, dengan masa transisi tiga tahun bagi bursa yang sudah ada.
+
+!figure:fact
+
+## Bank lebih dulu untuk stablecoin won
+
+RUU ini menyebut stablecoin sebagai "token pembayaran digital": koin yang mengikuti satu mata uang dan terutama dipakai untuk membayar. Perusahaan yang ingin menerbitkannya di Korea memerlukan izin FSC dan modal sendiri minimal <strong>5 miliar won</strong>. Penerbit wajib menyimpan cadangan senilai minimal 100% dari koin yang beredar di bank atau kustodian lain yang disetujui, menebus koin sesuai nilai nominal tanpa penundaan saat pemegang meminta, dan tidak membayar bunga. Cadangan itu akan dilindungi dari kreditur dan dibayarkan lebih dulu kepada pemegang jika penerbit bangkrut atau diretas.
+
+Aturan mayoritas bank mengakhiri perdebatan panjang. [CoinDesk](L4) melaporkan bahwa Bank of Korea mendorong agar bank memiliki lebih dari separuh setiap penerbit karena khawatir stablecoin dipakai untuk menghindari kontrol devisa, sementara FSC dan sebagian anggota parlemen tidak ingin menyingkirkan perusahaan fintech. Kompromi ini menjaga kendali di tangan bank sambil membiarkan perusahaan teknologi memimpin.
+
+Penerbit asing, seperti perusahaan di balik stablecoin dolar, bisa beroperasi jika membuka cabang lokal dan mendaftar ke FSC. [The Block](L3) mencatat hal ini bisa memungkinkan USDT milik Tether dan stablecoin luar negeri lain beredar jika memenuhi standar FSC. Koin tanpa rencana penerbitan yang disetujui tidak boleh dicatatkan atau ditangani oleh perusahaan kripto Korea berizin.
+
+## Penawaran koin kembali ke dalam negeri
+
+Korea sudah lama melarang penawaran koin perdana (ICO), sehingga perusahaan blockchain lokal sering meluncurkan token lewat perusahaan di luar negeri. Rancangan ini akan mengizinkan ICO di dalam negeri. Penerbit harus lebih dulu mendaftarkan white paper ke FSC, mirip prospektus saham, yang memuat jumlah koin yang diterbitkan, penggunaan dana, dan risikonya. Informasi palsu atau yang dihilangkan bisa berujung denda dan gugatan ganti rugi.
+
+Ada yang tidak termasuk. [Seoul Economic Daily](L5) melaporkan bahwa RUU pemerintah tidak mencakup ETF kripto spot maupun kontrak berjangka dan opsi kripto, yang masih belum bisa dibeli investor Korea di dalam negeri.
+
+!figure:compare
+
+!mid_cta
+
+## Batasan bagi pemilik bursa
+
+Bursa memerlukan tiga izin terpisah, untuk perdagangan, perantara, dan kustodi, sebelum FSC dapat menetapkannya sebagai "operator platform aset digital". Demi menjaga netralitas, tidak ada satu pemegang saham pun yang boleh memiliki lebih dari <strong>20%</strong> sebuah bursa. Dengan persetujuan FSC, batas itu bisa naik menjadi 34%. Saham di atas batas akan kehilangan hak suara. Bursa yang sudah ada diberi waktu tiga tahun untuk menyesuaikan diri, dan bursa yang lebih kecil bisa mendapat tambahan hingga tiga tahun.
+
+RUU ini juga memperketat urusan keamanan. Perusahaan kripto wajib mengganti kerugian pengguna akibat peretasan atau gangguan sistem meski bukan karena kesalahan mereka. Jika perusahaan melanggar kewajiban keamanan TI lalu terjadi insiden, FSC bisa menjatuhkan denda hingga 10% dari pendapatannya.
+
+"RUU yang kami umumkan hari ini diharapkan meningkatkan kepercayaan dan transparansi pasar aset digital Korea," kata Ketua FSC Lee Eok-won, menurut The Block. Tidak semua pihak setuju: The Block mengutip media lokal Newsis yang melaporkan kekhawatiran industri bahwa batas kepemilikan dan izin baru bisa mendorong pengguna ke platform luar negeri.
+
+## Mengapa ini penting bagi pemula
+
+Korea punya pasar kripto ritel yang besar, sehingga aturannya berpengaruh jauh melampaui batas negaranya. Model stablecoin yang dipimpin bank juga berbeda dengan AS, tempat GENIUS Act mengizinkan perusahaan nonbank yang disetujui untuk menerbitkan stablecoin dolar.
+
+Untuk pengguna di AS, belum ada yang berubah. Jika Anda membeli kripto di AS, bursa besar yang teregulasi seperti [Coinbase](REF) adalah salah satu jalur umum bagi pemula. Harga bisa bergejolak tajam, jadi investasikan hanya uang yang sanggup Anda relakan. Ini bukan nasihat investasi.
+
+## Yang perlu dipantau
+
+- Bagaimana Majelis Nasional menangani rancangan ini, dan apakah anggota parlemen menggabungkannya dengan RUU kripto lain.
+- Aturan rinci kepemilikan konsorsium stablecoin, yang akan diatur lewat keputusan presiden.
+- Bagaimana bursa-bursa besar Korea menanggapi batas kepemilikan 20%.
+
+!soft: Baru mengenal stablecoin? Lihat cara kerja aturan AS dalam artikel kami tentang [GENIUS Act dan penerbit stablecoin tingkat negara bagian](/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026)
+
+!end_cta
+
+!disclosure

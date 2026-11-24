@@ -1,0 +1,59 @@
+title: Bitcoin ETFs set a monthly outflow record: $4.71 billion out in November as bitcoin slips back to $60,000
+page_title: Bitcoin ETFs hit record $4.71B November outflow, bitcoin back near $60,000
+description: U.S. spot bitcoin ETFs lost $569.7 million on Nov. 23, a fifth straight day of outflows, pushing November withdrawals to a record $4.71 billion. Bitcoin gave back its Nvidia bounce and slipped near $60,000.
+og_description: November is now the worst month ever for U.S. spot bitcoin ETFs: about $4.71 billion out, beating June's $4.51 billion. BlackRock's IBIT lost $509.3 million on Monday alone. Bitcoin fell back near $60,000. What it means, in plain English.
+label: Market news
+summary: U.S. spot bitcoin ETFs lost $569.7 million on Monday, their fifth losing day in a row, and November outflows reached a record $4.71 billion. Bitcoin dipped to about $59,300 on Kraken overnight and traded near $60,000 Tuesday morning.
+===
+
+The bounce did not bring buyers back. U.S. spot bitcoin exchange-traded funds (ETFs) lost a net <strong>$569.7 million</strong> on Monday, Nov. 23, according to daily data from [Farside Investors](L1). It was their fifth losing day in a row, even though bitcoin briefly jumped above $64,000 that morning.
+
+That pushed November's net withdrawals to about <strong>$4.71 billion</strong> with a week of the month still to go. By PlainBTC's count of Farside's full history, that is the largest monthly outflow since these funds launched in January 2024, ahead of June 2026's roughly $4.51 billion.
+
+!takeaways
+- U.S. spot bitcoin ETFs lost a net $569.7 million on Monday, Nov. 23, their fifth straight day of outflows.
+- November outflows reached about $4.71 billion, a monthly record since the funds launched in January 2024, beating June's $4.51 billion.
+- BlackRock's IBIT lost $509.3 million on Monday and about $3.99 billion so far this month.
+- Bitcoin fell from Monday's $64,520 high to about $59,300 on Kraken overnight and traded near $60,000 on Tuesday morning.
+
+!figure:chart
+
+## A record month for withdrawals
+
+Farside's table shows how steady the selling has been. Of the 16 trading days in November so far, 14 ended with money leaving the funds. Only Nov. 4 and Nov. 16 saw small net inflows. The last five sessions alone, from Nov. 17 to Nov. 23, took out about $2.37 billion.
+
+BlackRock's iShares Bitcoin Trust (IBIT), the largest fund, did most of the damage again. It lost <strong>$509.3 million</strong> on Monday, its third day in a row above $500 million, after record days of $541.1 million on Nov. 19 and $544.7 million on Nov. 20. Its November total is now about $3.99 billion, or roughly 85% of all the money that left. Fidelity's FBTC was the only fund with a notable inflow on Monday, at $13.3 million.
+
+!figure:fact
+
+## Bitcoin gives back its Nvidia jump
+
+On Monday morning, bitcoin leapt to <strong>$64,520</strong> on Kraken minutes after Nvidia reinstated Jensen Huang as chief executive. The move faded within hours. According to PlainBTC's check of Kraken's [public price data](L4), bitcoin fell as low as about <strong>$59,300</strong> around 4:45 a.m. Central time on Tuesday and traded near $60,000 at 8 a.m.
+
+[CoinDesk](L2) quoted Adam Haeems of Tesseract Group, who said bitcoin had fallen in seven of eight U.S. sessions since Huang left Nvidia, with each drop last week matching ETF outflows. He called Monday's flow figure "the first real test of this bounce." It came back negative. CoinDesk said a sustained break below $60,000 could put last week's two-year low under $55,500 back in view.
+
+!mid_cta
+
+## Rates and tariffs weigh on risk
+
+The wider backdrop is not helping. CoinDesk said a quarter-point Federal Reserve rate hike in December looks close to certain, with the two-year Treasury yield near 4.7% and the U.S. dollar at its strongest since March 2025. Higher rates and a strong dollar tend to make riskier assets like bitcoin less attractive.
+
+On Tuesday morning, [CoinDesk's live coverage](L3) also cited a Wall Street Journal report that the Trump administration could announce tariff hikes on China, Japan, South Korea and more than a dozen other countries as soon as this week. Bitcoin slipped about 1% back below $60,000 on the news, and Nasdaq 100 futures fell about 2.4%.
+
+## What it means for beginners
+
+An ETF outflow means more investors sold fund shares than bought them, so the fund usually sells some of the bitcoin it holds. A record month of outflows shows that many large investors are cutting risk. It does not tell you where the price goes next. Flows often follow prices instead of leading them, and they can turn quickly.
+
+If you want bitcoin exposure, you can buy an ETF in a brokerage account or buy bitcoin directly on a large regulated exchange such as [Coinbase](REF). Many beginners start small and spread purchases over time instead of trying to time the bottom. Only invest money you can afford to lose. This is not investment advice.
+
+## What to watch next
+
+- Tuesday's ETF flow data, to see if the five-day outflow streak ends.
+- The U.S. PCE inflation report on Wednesday, which could shape the size of the Fed's December move.
+- Whether bitcoin can hold $60,000 during the short Thanksgiving trading week.
+
+!soft: Not sure whether a fund or the coin itself suits you? Read [Bitcoin ETF vs. buying bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

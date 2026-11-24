@@ -1,0 +1,39 @@
+{
+ "slug": "bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026",
+ "date": "2026-11-24",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-etfs-1-79-billion-weekly-outflow-fourth-week-nov-2026",
+  "bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026",
+  "blackrock-ibit-record-541-million-outflow-nov-2026",
+  "bitcoin-hot-cpi-etf-outflows-nov-2026",
+  "fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026",
+  "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026",
+  "bitcoin-etf-vs-buying-bitcoin",
+  "how-much-bitcoin-should-a-beginner-buy-dca"
+ ],
+ "sources": [
+  {
+   "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/",
+   "title": "Farside Investors: Bitcoin ETF flow, all data since January 2024",
+   "date": "Nov 24, 2026"
+  },
+  {
+   "url": "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion",
+   "title": "CoinDesk: Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
+   "date": "Nov 24, 2026"
+  },
+  {
+   "url": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
+   "title": "CoinDesk: Live updates: Bitcoin pulls back to $60,000, stock rally fades, as tariffs re-enter the picture",
+   "date": "Nov 24, 2026"
+  },
+  {
+   "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+   "title": "Kraken: public BTC/USD price data (OHLC)",
+   "date": "Nov 24, 2026"
+  }
+ ],
+ "disclosure_variant": "std"
+}

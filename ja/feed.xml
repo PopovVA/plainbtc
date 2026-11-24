@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 24 Nov 2026 00:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 14:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ビットコインETF、11月の流出額が過去最大の47億1000万ドルに ビットコインは6万ドル前後に逆戻り</title>
+      <link>https://plainbtc.com/ja/articles/bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026</guid>
+      <pubDate>Tue, 24 Nov 2026 14:30:00 GMT</pubDate>
+      <category>マーケット</category>
+      <description>米国の現物ビットコインETFは月曜日に5億6970万ドルの流出となり5日連続のマイナス、11月の流出額は過去最大の47億1000万ドルに達した。ビットコインは未明にKrakenで約5万9300ドルまで下げ、火曜日朝は6万ドル前後で推移した。</description>
+    </item>
+    <item>
+      <title>韓国の暗号資産法案：ウォン建てステーブルコインは銀行主導、ICOを解禁、取引所の株主は20%上限に</title>
+      <link>https://plainbtc.com/ja/articles/south-korea-crypto-bill-bank-led-stablecoins-ico-20-percent-exchange-cap-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/south-korea-crypto-bill-bank-led-stablecoins-ico-20-percent-exchange-cap-nov-2026</guid>
+      <pubDate>Tue, 24 Nov 2026 14:20:00 GMT</pubDate>
+      <category>規制</category>
+      <description>韓国の金融当局が暗号資産法案を公表した。ウォン建てステーブルコインは銀行が50%超を持つコンソーシアムのみが発行でき、ホワイトペーパーを届け出ればコインの発行・販売が可能に。取引所の株主は20%が上限で、ハッキング時は過失がなくても賠償責任を負う。法案は国会に送られる。</description>
+    </item>
     <item>
       <title>ビットコイン、ジェンスン・フアン氏のエヌビディア復帰で6万4500ドルに急騰、株式が急伸する中で上げ幅をすべて失う</title>
       <link>https://plainbtc.com/ja/articles/bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026</link>

@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Tue, 24 Nov 2026 00:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 14:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bitcoin ETF'lerinde aylık çıkış rekoru: kasımda 4,71 milyar dolar çıktı, bitcoin yeniden 60.000 dolarda</title>
+      <link>https://plainbtc.com/tr/articles/bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026</guid>
+      <pubDate>Tue, 24 Nov 2026 14:30:00 GMT</pubDate>
+      <category>Piyasa</category>
+      <description>ABD spot bitcoin ETF'leri pazartesi günü 569,7 milyon dolar kaybetti; bu üst üste beşinci eksi gündü ve kasım çıkışları rekor 4,71 milyar dolara ulaştı. Bitcoin gece Kraken'da yaklaşık 59.300 dolara indi ve salı sabahı 60.000 dolar civarında işlem gördü.</description>
+    </item>
+    <item>
+      <title>Güney Kore'nin kripto yasa tasarısı: bankaların öncülüğünde won stablecoin'leri, yasal coin arzları ve borsa sahiplerine %20 sınır</title>
+      <link>https://plainbtc.com/tr/articles/south-korea-crypto-bill-bank-led-stablecoins-ico-20-percent-exchange-cap-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/south-korea-crypto-bill-bank-led-stablecoins-ico-20-percent-exchange-cap-nov-2026</guid>
+      <pubDate>Tue, 24 Nov 2026 14:20:00 GMT</pubDate>
+      <category>Düzenleme</category>
+      <description>Güney Kore'nin finans düzenleyicisi bir kripto yasa tasarısı yayımladı: won stablecoin'leri yalnızca yüzde 50'den fazlası bankalara ait konsorsiyumlardan, beyaz bülten sunularak coin arzları, borsa hissedarlarına %20 sınır ve hack'lerde kusursuz sorumluluk. Tasarı şimdi Ulusal Meclis'e gidiyor.</description>
+    </item>
     <item>
       <title>Bitcoin, Jensen Huang'ın Nvidia'ya dönüşüyle 64.500 $'a fırladı, borsalar uçarken tüm kazancını geri verdi</title>
       <link>https://plainbtc.com/tr/articles/bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026</link>

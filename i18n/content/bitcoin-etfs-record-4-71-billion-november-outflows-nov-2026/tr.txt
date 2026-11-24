@@ -1,0 +1,59 @@
+title: Bitcoin ETF'lerinde aylık çıkış rekoru: kasımda 4,71 milyar dolar çıktı, bitcoin yeniden 60.000 dolarda
+page_title: Bitcoin ETF'lerinde kasımda rekor 4,71 milyar $ çıkış
+description: ABD spot bitcoin ETF'leri 23 Kasım'da 569,7 milyon dolar kaybetti. Üst üste beşinci çıkış günüyle kasımdaki çekilişler rekor 4,71 milyar dolara ulaştı. Bitcoin Nvidia kaynaklı yükselişini geri verdi ve 60.000 dolar civarına geriledi.
+og_description: Kasım, ABD spot bitcoin ETF'leri için tarihin en kötü ayı oldu: yaklaşık 4,71 milyar dolar çıkış, haziranın 4,51 milyar dolarının üzerinde. BlackRock'ın IBIT'i yalnızca pazartesi günü 509,3 milyon dolar kaybetti. Bitcoin 60.000 dolar civarına döndü. Ne anlama geldiğini sade bir dille anlatıyoruz.
+label: Piyasa
+summary: ABD spot bitcoin ETF'leri pazartesi günü 569,7 milyon dolar kaybetti; bu üst üste beşinci eksi gündü ve kasım çıkışları rekor 4,71 milyar dolara ulaştı. Bitcoin gece Kraken'da yaklaşık 59.300 dolara indi ve salı sabahı 60.000 dolar civarında işlem gördü.
+===
+
+Toparlanma alıcıları geri getirmedi. ABD'deki spot bitcoin borsa yatırım fonları (ETF'ler) 23 Kasım pazartesi günü net <strong>569,7 milyon dolar</strong> kaybetti; bu bilgi [Farside Investors](L1) verilerine dayanıyor. Bitcoin o sabah kısa süreliğine 64.000 doların üzerine çıksa da fonlar üst üste beşinci gün kayıp yaşadı.
+
+Böylece kasımdaki net çıkışlar, ayın bitmesine daha bir hafta varken yaklaşık <strong>4,71 milyar dolara</strong> ulaştı. PlainBTC'nin Farside'ın tüm geçmişine dayanan hesabına göre bu, fonların Ocak 2024'te piyasaya çıkmasından bu yana en büyük aylık çıkış ve Haziran 2026'daki yaklaşık 4,51 milyar doları geride bırakıyor.
+
+!takeaways
+- ABD spot bitcoin ETF'leri 23 Kasım pazartesi günü net 569,7 milyon dolar kaybetti; bu üst üste beşinci çıkış günüydü.
+- Kasım çıkışları yaklaşık 4,71 milyar dolara ulaştı; bu, fonların Ocak 2024'teki lansmanından bu yana aylık rekor ve haziranın 4,51 milyar dolarını aşıyor.
+- BlackRock'ın IBIT'i pazartesi günü 509,3 milyon dolar, bu ay şimdiye kadar ise yaklaşık 3,99 milyar dolar kaybetti.
+- Bitcoin pazartesi günkü 64.520 dolarlık zirveden gece Kraken'da yaklaşık 59.300 dolara düştü ve salı sabahı 60.000 dolar civarında işlem gördü.
+
+!figure:chart
+
+## Çıkışlarda rekor bir ay
+
+Farside tablosu satışların ne kadar istikrarlı olduğunu gösteriyor. Kasımdaki 16 işlem gününün 14'ü para çıkışıyla kapandı. Yalnızca 4 ve 16 Kasım'da küçük net girişler oldu. Sadece son beş seans, yani 17-23 Kasım arası, yaklaşık 2,37 milyar dolarlık çıkış getirdi.
+
+En büyük fon olan BlackRock'ın iShares Bitcoin Trust'ı (IBIT) yine kayıpların büyük kısmını üstlendi. Pazartesi günü <strong>509,3 milyon dolar</strong> kaybetti; 19 Kasım'daki 541,1 milyon ve 20 Kasım'daki 544,7 milyon dolarlık rekor günlerin ardından üst üste üçüncü kez 500 milyon doların üzerinde çıkış yaşadı. Fonun kasım toplamı yaklaşık 3,99 milyar dolar, yani çıkan tüm paranın yaklaşık %85'i. Fidelity'nin FBTC'si pazartesi günü kayda değer giriş gören tek fon oldu: 13,3 milyon dolar.
+
+!figure:fact
+
+## Bitcoin Nvidia sıçramasını geri verdi
+
+Pazartesi sabahı bitcoin, Nvidia'nın Jensen Huang'ı yeniden CEO yapmasından dakikalar sonra Kraken'da <strong>64.520 dolara</strong> sıçradı. Yükseliş birkaç saat içinde söndü. PlainBTC'nin Kraken'ın [herkese açık fiyat verilerini](L4) incelemesine göre bitcoin salı günü ABD merkez saatiyle 4.45 civarında yaklaşık <strong>59.300 dolara</strong> kadar düştü ve saat 8'de 60.000 dolar civarında işlem gördü.
+
+[CoinDesk](L2), Tesseract Group'tan Adam Haeems'in sözlerine yer verdi. Haeems'e göre bitcoin, Huang'ın Nvidia'dan ayrılmasından bu yana sekiz ABD seansının yedisinde düştü ve geçen haftaki her düşüş ETF çıkışlarıyla örtüştü. Pazartesi günkü akış verisini "bu toparlanmanın ilk gerçek sınavı" olarak nitelendirdi. Veri negatif geldi. CoinDesk, 60.000 doların altında kalıcı bir kırılmanın geçen haftaki 55.500 doların altındaki iki yıllık dibi yeniden gündeme getirebileceğini yazdı.
+
+!mid_cta
+
+## Faiz ve gümrük vergileri riskli varlıkları baskılıyor
+
+Genel tablo da yardımcı olmuyor. CoinDesk'e göre Fed'in aralıkta faizi çeyrek puan artırması neredeyse kesin görülüyor; iki yıllık Hazine tahvili getirisi %4,7 civarında ve dolar Mart 2025'ten bu yana en güçlü seviyesinde. Yüksek faiz ve güçlü dolar genellikle bitcoin gibi riskli varlıkları daha az cazip hale getirir.
+
+Salı sabahı [CoinDesk'in canlı yayını](L3) ayrıca Wall Street Journal'ın bir haberine değindi: Trump yönetimi bu hafta gibi erken bir tarihte Çin, Japonya, Güney Kore ve bir düzineden fazla ülkeye yönelik gümrük vergisi artışları açıklayabilir. Haberin ardından bitcoin yaklaşık %1 düşerek yeniden 60.000 doların altına indi, Nasdaq 100 vadelileri ise yaklaşık %2,4 geriledi.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+ETF çıkışı, yatırımcıların fon paylarını aldıklarından daha fazla sattığı anlamına gelir; bu yüzden fon genellikle elindeki bitcoin'in bir kısmını satar. Rekor bir çıkış ayı, birçok büyük yatırımcının riskini azalttığını gösterir. Ama fiyatın nereye gideceğini söylemez. Akışlar çoğu zaman fiyatı önceden haber vermek yerine onu takip eder ve hızla tersine dönebilir.
+
+Bitcoin'e yatırım yapmak istiyorsanız aracı kurum hesabıyla bir ETF alabilir ya da [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsadan doğrudan bitcoin satın alabilirsiniz. Birçok yeni başlayan dibi yakalamaya çalışmak yerine küçük tutarlarla başlayıp alımlarını zamana yayar. Yalnızca kaybetmeyi göze alabileceğiniz parayla yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neler izlenmeli
+
+- Beş günlük çıkış serisinin bitip bitmediğini görmek için salı günkü ETF akış verileri.
+- Fed'in aralık adımının büyüklüğünü etkileyebilecek çarşamba günkü ABD PCE enflasyon raporu.
+- Bitcoin'in kısa Şükran Günü haftasında 60.000 doları koruyup koruyamayacağı.
+
+!soft: Fon mu yoksa coin'in kendisi mi size uygun, emin değil misiniz? [Bitcoin ETF mi, bitcoin almak mı](/articles/bitcoin-etf-vs-buying-bitcoin) yazımızı okuyun
+
+!end_cta
+
+!disclosure

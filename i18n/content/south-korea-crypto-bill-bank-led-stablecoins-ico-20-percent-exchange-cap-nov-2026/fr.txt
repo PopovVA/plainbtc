@@ -1,0 +1,64 @@
+title: Le projet de loi crypto de la Corée du Sud : stablecoins en wons sous contrôle bancaire, ICO légalisées et plafond de 20 % pour les actionnaires des plateformes
+page_title: Corée du Sud : stablecoins bancaires, ICO et plafond de 20 % sur les plateformes
+description: La Commission des services financiers de Corée du Sud a présenté le 24 novembre 2026 un projet de loi sur les actifs numériques : stablecoins en wons réservés à des groupes à majorité bancaire, ICO légales avec livre blanc et plafond de 20 % pour les actionnaires des plateformes d'échange.
+og_description: La Corée du Sud veut que les banques détiennent plus de la moitié de tout émetteur de stablecoin en wons, va autoriser les offres de jetons sur son sol et prévoit de plafonner les actionnaires des plateformes à 20 % (34 % avec accord). Le texte doit encore passer devant les députés. Ce que cela signifie, en termes simples.
+label: Régulation
+summary: Le régulateur financier sud-coréen a publié un projet de loi crypto : stablecoins en wons réservés à des consortiums détenus à plus de 50 % par des banques, offres de jetons avec livre blanc déposé, plafond de 20 % pour les actionnaires des plateformes et responsabilité sans faute en cas de piratage. Le texte part à l'Assemblée nationale.
+===
+
+La Corée du Sud a mis sur la table son cadre crypto le plus ambitieux à ce jour. Le mardi 24 novembre, la Commission des services financiers (FSC), principal régulateur financier du pays, a présenté un projet de « loi sur l'innovation du secteur des actifs numériques et la protection des utilisateurs », selon le [communiqué de la FSC](L1). Il précise qui peut émettre des stablecoins adossés au won coréen, autorise pour la première fois les offres de jetons dans le pays et limite la part d'une plateforme d'échange qu'un seul actionnaire peut détenir.
+
+Le point le plus débattu concerne les stablecoins. Selon le projet, seuls des groupes dont <strong>les banques détiennent ensemble plus de 50 %</strong> pourraient d'abord émettre des stablecoins en wons. Une fintech ou une entreprise technologique pourrait toutefois rester le premier actionnaire, [a rapporté Yonhap](L2). Le texte doit encore être adopté par l'Assemblée nationale avant de s'appliquer.
+
+!takeaways
+- La FSC sud-coréenne a dévoilé un projet de loi sur les actifs numériques le 24 novembre 2026. Il doit être approuvé par l'Assemblée nationale.
+- Les stablecoins en wons seraient d'abord émis uniquement par des consortiums détenus à plus de 50 % par des banques ; une fintech peut rester premier actionnaire.
+- Les émetteurs devraient disposer d'au moins 5 milliards de wons de capital, de réserves à 100 %, rembourser à la demande et ne verser aucun intérêt aux détenteurs.
+- Les offres de jetons (ICO) deviendraient légales en Corée si l'émetteur dépose d'abord un livre blanc auprès de la FSC.
+- Un actionnaire de plateforme d'échange serait plafonné à 20 %, ou jusqu'à 34 % avec l'accord de la FSC, avec un délai de trois ans pour les plateformes existantes.
+
+!figure:fact
+
+## Les banques d'abord pour les stablecoins en wons
+
+Le projet appelle les stablecoins des « jetons de paiement numériques » : des cryptos qui suivent une seule monnaie et servent surtout à payer. Toute entreprise souhaitant en émettre en Corée aurait besoin d'un agrément de la FSC et d'au moins <strong>5 milliards de wons</strong> de fonds propres. Elle devrait conserver auprès d'une banque ou d'un autre dépositaire agréé des réserves égales à au moins 100 % des jetons en circulation, les rembourser à leur valeur nominale sans délai à la demande des détenteurs et ne verser aucun intérêt. Les réserves seraient protégées des créanciers et versées en priorité aux détenteurs si l'émetteur fait faillite ou est piraté.
+
+La règle de la majorité bancaire tranche un long conflit. [CoinDesk](L4) rapporte que la Banque de Corée réclamait que les banques détiennent plus de la moitié de tout émetteur, craignant que les stablecoins servent à contourner le contrôle des changes, tandis que la FSC et certains élus ne voulaient pas exclure les fintechs. Le compromis laisse le contrôle aux banques tout en permettant à une entreprise technologique de mener le projet.
+
+Les émetteurs étrangers, comme les sociétés derrière les stablecoins en dollars, pourraient opérer en ouvrant une succursale locale et en s'enregistrant auprès de la FSC. [The Block](L3) note que cela pourrait permettre à l'USDT de Tether et à d'autres stablecoins étrangers de circuler s'ils respectent les normes de la FSC. Les jetons sans plan d'émission approuvé ne pourraient être ni listés ni traités par les entreprises crypto coréennes agréées.
+
+## Les offres de jetons reviennent au pays
+
+La Corée interdit depuis longtemps les offres initiales de jetons (ICO), si bien que les entreprises blockchain locales lançaient souvent leurs jetons via des sociétés à l'étranger. Le projet autoriserait les ICO dans le pays. L'émetteur devrait d'abord déposer un livre blanc auprès de la FSC, un peu comme un prospectus boursier, indiquant le nombre de jetons émis, l'usage des fonds et les risques. Des informations fausses ou manquantes pourraient entraîner des amendes et des demandes de dommages et intérêts.
+
+Il manque une chose. Le [Seoul Economic Daily](L5) indique que le projet du gouvernement ne prévoit ni ETF crypto au comptant ni contrats à terme ou options sur crypto, que les investisseurs coréens ne peuvent toujours pas acheter chez eux.
+
+!figure:compare
+
+!mid_cta
+
+## Des limites pour les propriétaires de plateformes
+
+Les plateformes d'échange auraient besoin de trois agréments distincts, pour la négociation, le courtage et la conservation, avant que la FSC puisse les désigner comme « opérateur de plateforme d'actifs numériques ». Pour garantir leur neutralité, aucun actionnaire ne pourrait détenir plus de <strong>20 %</strong> d'une plateforme. Avec l'accord de la FSC, cette limite pourrait monter à 34 %. Les actions au-delà du plafond perdraient leurs droits de vote. Les plateformes existantes auraient trois ans pour se conformer, et les plus petites jusqu'à trois ans de plus.
+
+Le projet renforce aussi les exigences de sécurité. Les entreprises crypto devraient indemniser les utilisateurs des pertes dues à des piratages ou des pannes, même sans faute de leur part. Si une entreprise manque à ses obligations de sécurité informatique et qu'un incident survient, la FSC pourrait lui infliger une amende allant jusqu'à 10 % de son chiffre d'affaires.
+
+« Le projet que nous annonçons aujourd'hui devrait renforcer la confiance et la transparence du marché coréen des actifs numériques », a déclaré le président de la FSC, Lee Eok-won, selon The Block. Tout le monde n'est pas d'accord : The Block cite le média local Newsis, qui fait état d'inquiétudes du secteur, selon lequel le plafond et les nouveaux agréments pourraient pousser les utilisateurs vers des plateformes étrangères.
+
+## Pourquoi c'est important pour les débutants
+
+La Corée compte un vaste marché crypto de particuliers, donc ses règles pèsent bien au-delà de ses frontières. Le modèle de stablecoins piloté par les banques contraste aussi avec celui des États-Unis, où le GENIUS Act permet à des entreprises non bancaires agréées d'émettre des stablecoins en dollars.
+
+Rien ne change encore pour les utilisateurs américains. Si vous achetez des cryptos aux États-Unis, une grande plateforme régulée comme [Coinbase](REF) est une voie courante pour les débutants. Les prix peuvent varier fortement, alors n'investissez que ce que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil en investissement.
+
+## À surveiller
+
+- Le traitement du projet par l'Assemblée nationale, et une éventuelle fusion avec des propositions crypto concurrentes.
+- Les règles détaillées de détention des consortiums de stablecoins, qui seront fixées par décret présidentiel.
+- La réaction des grandes plateformes coréennes au plafond de 20 %.
+
+!soft: Débutant sur les stablecoins ? Découvrez les règles américaines dans notre article sur [le GENIUS Act et les émetteurs de stablecoins agréés par les États](/articles/senators-genius-act-state-stablecoin-safe-harbor-nov-2026)
+
+!end_cta
+
+!disclosure

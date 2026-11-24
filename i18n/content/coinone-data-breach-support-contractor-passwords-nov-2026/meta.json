@@ -4,16 +4,37 @@
  "readtime": 5,
  "primary_partner": "coinbase",
  "related": [
+  "south-korea-crypto-bill-bank-led-stablecoins-ico-20-percent-exchange-cap-nov-2026",
   "kava-lend-hack-3-8-million-kava-falls-nov-2026",
   "unocoin-hack-bitgo-backup-keys-nov-2026",
   "is-coinbase-safe-for-beginners"
  ],
  "sources": [
-  {"url": "https://coinone.co.kr/info/notice/5950", "title": "Coinone: Notice on the personal information leak (in Korean)", "date": "Nov 15, 2026"},
-  {"url": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information", "title": "Cointelegraph: Coinone warns of phishing, identity theft after customer data breach", "date": "Nov 15, 2026"},
-  {"url": "https://crypto.news/coinone-data-breach-customer-support-hack/", "title": "crypto.news: South Korea's Coinone data breach may expose passwords, IDs, wallet addresses", "date": "Nov 15, 2026"},
-  {"url": "https://news.jkn.co.kr/editions/english/post/1095604", "title": "JKN: Coinone consultation server breached, risking exposure of resident registration and bank account numbers", "date": "Nov 15, 2026"},
-  {"url": "https://www.asiae.co.kr/en/article/2026111511161281774", "title": "The Asia Business Daily: Coinone customer data leak", "date": "Nov 15, 2026"}
+  {
+   "url": "https://coinone.co.kr/info/notice/5950",
+   "title": "Coinone: Notice on the personal information leak (in Korean)",
+   "date": "Nov 15, 2026"
+  },
+  {
+   "url": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information",
+   "title": "Cointelegraph: Coinone warns of phishing, identity theft after customer data breach",
+   "date": "Nov 15, 2026"
+  },
+  {
+   "url": "https://crypto.news/coinone-data-breach-customer-support-hack/",
+   "title": "crypto.news: South Korea's Coinone data breach may expose passwords, IDs, wallet addresses",
+   "date": "Nov 15, 2026"
+  },
+  {
+   "url": "https://news.jkn.co.kr/editions/english/post/1095604",
+   "title": "JKN: Coinone consultation server breached, risking exposure of resident registration and bank account numbers",
+   "date": "Nov 15, 2026"
+  },
+  {
+   "url": "https://www.asiae.co.kr/en/article/2026111511161281774",
+   "title": "The Asia Business Daily: Coinone customer data leak",
+   "date": "Nov 15, 2026"
+  }
  ],
  "disclosure_variant": "std"
 }

@@ -5337,7 +5337,116 @@ def build_cftc_crypto_reserves():
     ]
 
 
+def build_etf_nov_record_471():
+    slug = "bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026"
+    d = OUT / slug
+    # Monthly sums of Farside's daily "Total" column (US$m), Jan - Nov 23, 2026, frozen in chart-data.json (read Nov 24, 2026).
+    data = json.loads((I18N / slug / "chart-data.json").read_text(encoding="utf-8"))
+    labels = [m[0] for m in data["months"]]; labels[-1] = "Nov*"
+    vals = [m[1] for m in data["months"]]
+    assert round(vals[-1]) == -4707 and round(vals[5]) == -4510, vals
+    cols = ["#34d399" if v > 0 else "#f87171" for v in vals]
+    cols[-1] = "#dc2626"
+    chart = make_bar_chart(
+        d / "chart-btc-etf-monthly-flows-2026",
+        labels, vals,
+        title="U.S. spot bitcoin ETFs: monthly net flows in 2026 (US$ millions, *Nov. through Nov. 23)",
+        colors=cols,
+        value_fmt=lambda v: (f"+{v/1000:,.2f}B" if v > 0 else f"-{-v/1000:,.2f}B") if abs(v) >= 1000 else (f"+{v:,.0f}M" if v > 0 else f"-{-v:,.0f}M"),
+        axis_fmt=lambda x, _p: f"${x:,.0f}M",
+    )
+    fact = make_fact_card(
+        d / "fact-november-4-71-billion-record-outflow",
+        "U.S. spot bitcoin ETFs · Nov. 1-23, 2026",
+        "-$4.71 billion",
+        "Largest monthly net outflow since the funds launched in January 2024, ahead of June 2026 (-$4.51 billion)",
+        footer="Farside Investors, daily flows since Jan. 2024 (PlainBTC count)",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of monthly net flows into U.S. spot bitcoin ETFs in 2026: outflows of $1.60B in January, $0.21B in February, $2.41B in May, $4.51B in June and $0.52B in October, inflows in March, April, July, August and September, and a record $4.71B outflow in November through Nov. 23", {
+            "es": "Gráfico de barras de los flujos netos mensuales de los ETF de bitcoin al contado de EE. UU. en 2026: salidas de 1.600 M$ en enero, 210 M$ en febrero, 2.410 M$ en mayo, 4.510 M$ en junio y 520 M$ en octubre, entradas en marzo, abril, julio, agosto y septiembre, y una salida récord de 4.710 M$ en noviembre hasta el día 23",
+            "pt": "Gráfico de barras dos fluxos líquidos mensais dos ETFs de bitcoin à vista dos EUA em 2026: saídas de US$ 1,60 bi em janeiro, US$ 0,21 bi em fevereiro, US$ 2,41 bi em maio, US$ 4,51 bi em junho e US$ 0,52 bi em outubro, entradas em março, abril, julho, agosto e setembro, e saída recorde de US$ 4,71 bi em novembro até o dia 23",
+            "fr": "Graphique en barres des flux nets mensuels des ETF bitcoin au comptant américains en 2026 : sorties de 1,60 Md$ en janvier, 0,21 Md$ en février, 2,41 Md$ en mai, 4,51 Md$ en juin et 0,52 Md$ en octobre, entrées en mars, avril, juillet, août et septembre, et sortie record de 4,71 Md$ en novembre jusqu'au 23",
+            "de": "Balkendiagramm der monatlichen Nettozuflüsse der US-Spot-Bitcoin-ETFs 2026: Abflüsse von 1,60 Mrd. $ im Januar, 0,21 Mrd. $ im Februar, 2,41 Mrd. $ im Mai, 4,51 Mrd. $ im Juni und 0,52 Mrd. $ im Oktober, Zuflüsse im März, April, Juli, August und September und ein Rekordabfluss von 4,71 Mrd. $ im November bis zum 23.",
+            "ru": "Столбчатая диаграмма месячных чистых потоков американских спотовых биткоин-ETF в 2026 году: отток $1,60 млрд в январе, $0,21 млрд в феврале, $2,41 млрд в мае, $4,51 млрд в июне и $0,52 млрд в октябре, приток в марте, апреле, июле, августе и сентябре и рекордный отток $4,71 млрд в ноябре по 23-е число",
+            "tr": "ABD spot bitcoin ETF'lerinin 2026'daki aylık net akışlarının çubuk grafiği: ocakta 1,60 milyar $, şubatta 0,21 milyar $, mayısta 2,41 milyar $, haziranda 4,51 milyar $ ve ekimde 0,52 milyar $ çıkış; mart, nisan, temmuz, ağustos ve eylülde giriş; kasımda 23'üne kadar rekor 4,71 milyar $ çıkış",
+            "id": "Grafik batang arus bersih bulanan ETF bitcoin spot AS pada 2026: arus keluar US$1,60 miliar pada Januari, US$0,21 miliar pada Februari, US$2,41 miliar pada Mei, US$4,51 miliar pada Juni, dan US$0,52 miliar pada Oktober, arus masuk pada Maret, April, Juli, Agustus, dan September, serta arus keluar rekor US$4,71 miliar pada November hingga tanggal 23",
+            "ja": "2026年の米国ビットコイン現物ETFの月間純フローの棒グラフ：1月16億ドル、2月2.1億ドル、5月24.1億ドル、6月45.1億ドル、10月5.2億ドルの流出、3月・4月・7月・8月・9月は流入、11月は23日までで過去最大の47.1億ドルの流出",
+            "ko": "2026년 미국 비트코인 현물 ETF 월간 순유출입 막대그래프: 1월 16억 달러, 2월 2.1억 달러, 5월 24.1억 달러, 6월 45.1억 달러, 10월 5.2억 달러 유출, 3월·4월·7월·8월·9월 유입, 11월은 23일까지 사상 최대 47.1억 달러 유출",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Farside Investors")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: U.S. spot bitcoin ETFs lost a net $4.71 billion from Nov. 1 to Nov. 23, 2026, the largest monthly outflow since their January 2024 launch, ahead of June 2026's $4.51 billion", {
+            "es": "Tarjeta: los ETF de bitcoin al contado de EE. UU. perdieron en neto 4.710 millones de dólares del 1 al 23 de noviembre de 2026, la mayor salida mensual desde su lanzamiento en enero de 2024, por delante de los 4.510 millones de junio de 2026",
+            "pt": "Cartão: os ETFs de bitcoin à vista dos EUA perderam em termos líquidos US$ 4,71 bilhões de 1º a 23 de novembro de 2026, a maior saída mensal desde o lançamento em janeiro de 2024, acima dos US$ 4,51 bilhões de junho de 2026",
+            "fr": "Fiche : les ETF bitcoin au comptant américains ont perdu en net 4,71 milliards de dollars du 1er au 23 novembre 2026, la plus forte sortie mensuelle depuis leur lancement en janvier 2024, devant les 4,51 milliards de juin 2026",
+            "de": "Faktenkarte: US-Spot-Bitcoin-ETFs verloren vom 1. bis 23. November 2026 netto 4,71 Mrd. Dollar, der größte Monatsabfluss seit ihrem Start im Januar 2024, vor den 4,51 Mrd. Dollar im Juni 2026",
+            "ru": "Карточка: американские спотовые биткоин-ETF потеряли в чистом выражении $4,71 млрд с 1 по 23 ноября 2026 года, это крупнейший месячный отток с их запуска в январе 2024 года, больше $4,51 млрд в июне 2026 года",
+            "tr": "Bilgi kartı: ABD spot bitcoin ETF'leri 1-23 Kasım 2026 arasında net 4,71 milyar dolar kaybetti; bu, Ocak 2024'teki lansmanlarından bu yana en büyük aylık çıkış ve Haziran 2026'daki 4,51 milyar doları geride bıraktı",
+            "id": "Kartu fakta: ETF bitcoin spot AS kehilangan bersih US$4,71 miliar pada 1-23 November 2026, arus keluar bulanan terbesar sejak diluncurkan pada Januari 2024, melampaui US$4,51 miliar pada Juni 2026",
+            "ja": "ファクトカード：米国ビットコイン現物ETFは2026年11月1日から23日に差し引き47.1億ドルを失った。2024年1月の上場以来最大の月間流出で、2026年6月の45.1億ドルを上回る",
+            "ko": "팩트 카드: 미국 비트코인 현물 ETF는 2026년 11월 1~23일 순 47.1억 달러가 빠져나갔다. 2024년 1월 출시 이후 최대 월간 유출로, 2026년 6월의 45.1억 달러를 넘어섰다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Farside Investors")},
+    ]
+
+
+def build_korea_digital_asset_bill():
+    slug = "south-korea-crypto-bill-bank-led-stablecoins-ico-20-percent-exchange-cap-nov-2026"
+    d = OUT / slug
+    fact = make_fact_card(
+        d / "fact-korea-banks-more-than-50-percent-stablecoin",
+        "South Korea FSC draft bill · Nov. 24, 2026",
+        "Banks > 50%",
+        "Won stablecoins would first come only from consortia majority-owned by banks; a fintech firm can still be the top shareholder",
+        footer="Financial Services Commission press release · Yonhap",
+    )
+    cmp_ = make_compare_card(
+        d / "compare-korea-stablecoin-issuers-vs-exchanges",
+        "South Korea's draft digital asset law",
+        "Stablecoin issuers",
+        "Crypto exchanges",
+        [
+            ("Owners", "Banks together own more than 50%", "Top holder capped at 20% (34% with FSC OK)"),
+            ("Rules", "5 billion won capital, 100% reserves, no interest", "Licenses for trading, brokerage and custody"),
+            ("If hacked", "Reserves kept apart and paid to holders first", "Firms repay users even without fault"),
+        ],
+        footer="FSC press release, Nov. 24, 2026 · needs National Assembly approval",
+    )
+    return [
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: under South Korea's draft digital asset bill of Nov. 24, 2026, won stablecoins would first come only from consortia in which banks own more than 50%, while a fintech firm can still be the largest shareholder", {
+            "es": "Tarjeta: según el proyecto de ley de activos digitales de Corea del Sur del 24 de noviembre de 2026, las stablecoins en wones solo podrían emitirlas al principio consorcios con más del 50% en manos de bancos, aunque una fintech puede ser el mayor accionista",
+            "pt": "Cartão: pelo projeto de lei de ativos digitais da Coreia do Sul de 24 de novembro de 2026, stablecoins em won só poderiam ser emitidas no início por consórcios com mais de 50% nas mãos de bancos, embora uma fintech possa ser a maior acionista",
+            "fr": "Fiche : selon le projet de loi sud-coréen sur les actifs numériques du 24 novembre 2026, les stablecoins en wons ne pourraient d'abord être émis que par des consortiums détenus à plus de 50 % par des banques, une fintech pouvant rester premier actionnaire",
+            "de": "Faktenkarte: Nach Südkoreas Gesetzentwurf für digitale Vermögenswerte vom 24. November 2026 dürften Won-Stablecoins zunächst nur Konsortien ausgeben, die zu mehr als 50 % Banken gehören; ein Fintech kann dennoch größter Einzelaktionär sein",
+            "ru": "Карточка: по законопроекту Южной Кореи о цифровых активах от 24 ноября 2026 года стейблкоины в вонах сначала смогут выпускать только консорциумы, где банкам принадлежит более 50%, при этом финтех-компания может быть крупнейшим акционером",
+            "tr": "Bilgi kartı: Güney Kore'nin 24 Kasım 2026 tarihli dijital varlık yasa tasarısına göre won stablecoin'lerini ilk aşamada yalnızca bankaların yüzde 50'den fazlasına sahip olduğu konsorsiyumlar çıkarabilecek; bir fintek yine de en büyük hissedar olabilir",
+            "id": "Kartu fakta: menurut RUU aset digital Korea Selatan tanggal 24 November 2026, stablecoin won awalnya hanya boleh diterbitkan konsorsium yang lebih dari 50% dimiliki bank, meski perusahaan fintech tetap bisa menjadi pemegang saham terbesar",
+            "ja": "ファクトカード：2026年11月24日の韓国デジタル資産法案では、ウォン建てステーブルコインは当初、銀行が合計50%超を保有するコンソーシアムのみが発行でき、フィンテック企業も筆頭株主になれる",
+            "ko": "팩트 카드: 2026년 11월 24일 한국 디지털자산법안에 따르면 원화 스테이블코인은 초기에 은행이 과반 지분을 보유한 컨소시엄만 발행할 수 있으며, 핀테크 기업도 최대주주로 참여할 수 있다",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Financial Services Commission (Korea), Nov. 24, 2026")},
+        {"id": "compare", "file": cmp_.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Comparison card of South Korea's draft digital asset law: stablecoin issuers need banks to own more than 50%, 5 billion won in capital, 100% reserves and no interest, with reserves paid to holders first; exchanges face a 20% cap per shareholder (34% with approval), three licenses and liability for hacks even without fault", {
+            "es": "Tarjeta comparativa del proyecto de ley de activos digitales de Corea del Sur: los emisores de stablecoins necesitan más del 50% en manos de bancos, 5.000 millones de wones de capital, reservas del 100% y sin intereses, con las reservas pagadas primero a los tenedores; los exchanges tienen un tope del 20% por accionista (34% con aprobación), tres licencias y responsabilidad por hackeos aun sin culpa",
+            "pt": "Cartão comparativo do projeto de lei de ativos digitais da Coreia do Sul: emissores de stablecoins precisam de mais de 50% nas mãos de bancos, 5 bilhões de wons de capital, reservas de 100% e nada de juros, com as reservas pagas primeiro aos detentores; corretoras têm limite de 20% por acionista (34% com aprovação), três licenças e responsabilidade por ataques mesmo sem culpa",
+            "fr": "Fiche comparative du projet de loi sud-coréen sur les actifs numériques : les émetteurs de stablecoins doivent être détenus à plus de 50 % par des banques, avoir 5 milliards de wons de capital, 100 % de réserves et ne verser aucun intérêt, les réserves revenant d'abord aux détenteurs ; les plateformes d'échange ont un plafond de 20 % par actionnaire (34 % avec accord), trois licences et une responsabilité en cas de piratage même sans faute",
+            "de": "Vergleichskarte zu Südkoreas Gesetzentwurf für digitale Vermögenswerte: Stablecoin-Emittenten brauchen Banken mit mehr als 50 %, 5 Mrd. Won Kapital, 100 % Reserven und dürfen keine Zinsen zahlen, die Reserven gehen zuerst an die Inhaber; Börsen haben eine Obergrenze von 20 % je Aktionär (34 % mit Genehmigung), drei Lizenzen und haften bei Hacks auch ohne Verschulden",
+            "ru": "Сравнительная карточка законопроекта Южной Кореи о цифровых активах: эмитентам стейблкоинов нужны банки с долей более 50%, капитал 5 млрд вон, резервы 100% и запрет на проценты, а резервы в первую очередь идут держателям; для бирж лимит 20% на акционера (34% с одобрения), три лицензии и ответственность за взломы даже без вины",
+            "tr": "Güney Kore'nin dijital varlık yasa tasarısı karşılaştırma kartı: stablecoin ihraççılarında bankaların payı yüzde 50'den fazla olmalı, 5 milyar won sermaye, yüzde 100 rezerv ve faiz yok, rezervler önce sahiplere ödenir; borsalarda hissedar başına yüzde 20 sınır (onayla yüzde 34), üç lisans ve kusur olmasa bile hack sorumluluğu",
+            "id": "Kartu perbandingan RUU aset digital Korea Selatan: penerbit stablecoin harus lebih dari 50% dimiliki bank, bermodal 5 miliar won, cadangan 100%, dan tanpa bunga, dengan cadangan dibayarkan lebih dulu ke pemegang; bursa kripto dibatasi 20% per pemegang saham (34% dengan persetujuan), tiga izin, dan tanggung jawab atas peretasan meski tanpa kesalahan",
+            "ja": "韓国デジタル資産法案の比較カード：ステーブルコイン発行体は銀行の合計持ち分50%超、資本金50億ウォン、100%の準備資産、利息支払い禁止で、準備資産は保有者に優先して支払われる。取引所は株主1人あたり20%（承認で34%）の上限、3つの認可、過失がなくてもハッキング時の賠償責任",
+            "ko": "한국 디지털자산법안 비교 카드: 스테이블코인 발행사는 은행 과반 지분, 자기자본 50억 원, 100% 준비자산, 이자 지급 금지이며 준비자산은 보유자에게 우선 지급된다. 거래소는 주주당 20% 상한(승인 시 34%), 3개 인가, 무과실 해킹 배상책임",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Financial Services Commission (Korea), Nov. 24, 2026")},
+    ]
+
+
 BUILDERS = {
+    "bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026": "etfnov471",
+    "south-korea-crypto-bill-bank-led-stablecoins-ico-20-percent-exchange-cap-nov-2026": "krbill",
     "bitcoin-spikes-to-64500-on-huang-return-then-fades-nov-2026": "huangfade",
     "cftc-staff-bitcoin-ether-stablecoins-count-toward-exchange-reserves-nov-2026": "cftcres",
     "binance-hires-mandiant-slowmist-verichains-security-review-nov-2026": "bnbreview",
@@ -5431,7 +5540,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "huangfade":
+    if key == "etfnov471":
+        figs = build_etf_nov_record_471()
+    elif key == "krbill":
+        figs = build_korea_digital_asset_bill()
+    elif key == "huangfade":
         figs = build_huang_btc_fade()
     elif key == "cftcres":
         figs = build_cftc_crypto_reserves()
