@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Seal_of_the_United_States_Department_of_Justice.svg",
+      "license": "Public domain (U.S. government insignia)",
+      "url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Department_of_Justice.svg",
+      "credit": "U.S. Department of Justice"
+    },
+    {
+      "file": "DOJ release, Nov. 24, 2026",
+      "license": "Facts cited",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-largest-ever-crackdown-scammers-targeting-over-800-defendants",
+      "credit": "U.S. Department of Justice"
+    },
+    {
+      "file": "phone illustration",
+      "license": "PlainBTC original",
+      "url": "",
+      "credit": "PlainBTC"
+    }
+  ],
+  "note": "Editorial composite; seal for identification only; no endorsement by DOJ implied. The phone is a generic illustration of a fake trading app.",
+  "slug": "doj-scam-crackdown-800-defendants-1-billion-crypto-frozen-nov-2026",
+  "generated": "2026-11-25T19:03Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

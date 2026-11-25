@@ -1,0 +1,64 @@
+[
+  {
+    "id": "fact",
+    "file": "fact-doj-scam-surge-800-defendants.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: since March 6, 2026 the Justice Department took action in more than 400 scam cases against more than 800 defendants across 85 federal districts, with 30 extradited; U.S.-backed police in Southeast Asia froze more than $1 billion in stolen crypto",
+      "es": "Tarjeta: desde el 6 de marzo de 2026 el Departamento de Justicia actuó en más de 400 casos de estafa contra más de 800 acusados en 85 distritos federales, con 30 extradiciones; policías apoyadas por EE. UU. en el Sudeste Asiático congelaron más de 1.000 millones de dólares en criptomonedas robadas",
+      "pt": "Cartão: desde 6 de março de 2026 o Departamento de Justiça agiu em mais de 400 casos de golpe contra mais de 800 réus em 85 distritos federais, com 30 extradições; polícias apoiadas pelos EUA no Sudeste Asiático congelaram mais de US$ 1 bilhão em criptomoedas roubadas",
+      "fr": "Fiche : depuis le 6 mars 2026, le ministère de la Justice a agi dans plus de 400 affaires d'arnaque visant plus de 800 accusés dans 85 districts fédéraux, avec 30 extraditions ; des polices soutenues par les États-Unis en Asie du Sud-Est ont gelé plus d'un milliard de dollars de cryptos volées",
+      "de": "Faktenkarte: Seit dem 6. März 2026 ging das US-Justizministerium in mehr als 400 Betrugsfällen gegen mehr als 800 Beschuldigte in 85 Bundesbezirken vor, 30 wurden ausgeliefert; von den USA unterstützte Polizeibehörden in Südostasien froren mehr als 1 Milliarde Dollar an gestohlenen Kryptowerten ein",
+      "ru": "Карточка: с 6 марта 2026 года Министерство юстиции США приняло меры по более чем 400 делам о мошенничестве против более чем 800 обвиняемых в 85 федеральных округах, 30 человек экстрадированы; полиция Юго-Восточной Азии при поддержке США заморозила более $1 млрд украденной криптовалюты",
+      "tr": "Bilgi kartı: ABD Adalet Bakanlığı 6 Mart 2026'dan bu yana 85 federal bölgede 800'den fazla sanığa karşı 400'den fazla dolandırıcılık davasında işlem yaptı, 30 kişi iade edildi; ABD destekli Güneydoğu Asya polisi 1 milyar dolardan fazla çalıntı kriptoyu dondurdu",
+      "id": "Kartu fakta: sejak 6 Maret 2026 Departemen Kehakiman AS menindak lebih dari 400 kasus penipuan terhadap lebih dari 800 terdakwa di 85 distrik federal, dengan 30 orang diekstradisi; polisi Asia Tenggara yang didukung AS membekukan lebih dari US$1 miliar kripto curian",
+      "ja": "ファクトカード：2026年3月6日以降、米司法省は85の連邦地区で800人超の被告を相手に400件超の詐欺事件で措置を取り、30人が引き渡された。米国が支援する東南アジアの警察は10億ドル超の盗まれた暗号資産を凍結した",
+      "ko": "팩트 카드: 2026년 3월 6일 이후 미국 법무부는 85개 연방 지구에서 800명 이상의 피고인을 상대로 400건 이상의 사기 사건에 조치를 취했고 30명이 송환됐다. 미국이 지원하는 동남아시아 경찰은 도난 암호화폐 10억 달러 이상을 동결했다"
+    },
+    "caption": {
+      "en": "Source: U.S. Department of Justice, Nov. 24, 2026",
+      "es": "Fuente: U.S. Department of Justice, Nov. 24, 2026",
+      "pt": "Fonte: U.S. Department of Justice, Nov. 24, 2026",
+      "fr": "Source : U.S. Department of Justice, Nov. 24, 2026",
+      "de": "Quelle: U.S. Department of Justice, Nov. 24, 2026",
+      "ru": "Источник: U.S. Department of Justice, Nov. 24, 2026",
+      "tr": "Kaynak: U.S. Department of Justice, Nov. 24, 2026",
+      "id": "Sumber: U.S. Department of Justice, Nov. 24, 2026",
+      "ja": "出典: U.S. Department of Justice, Nov. 24, 2026",
+      "ko": "출처: U.S. Department of Justice, Nov. 24, 2026"
+    }
+  },
+  {
+    "id": "chart",
+    "file": "chart-doj-surge-funds-frozen-by-agency.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of money frozen or restrained during the DOJ anti-scam surge, as reported by each agency: FBI Recovery Asset Team more than $350 million frozen, Secret Service more than $200 million restrained, Homeland Security Investigations more than $120 million seized or frozen",
+      "es": "Gráfico de barras del dinero congelado o retenido durante la ofensiva antiestafas del DOJ, según cada agencia: Equipo de Recuperación de Activos del FBI, más de 350 millones de dólares congelados; Servicio Secreto, más de 200 millones retenidos; Investigaciones de Seguridad Nacional, más de 120 millones incautados o congelados",
+      "pt": "Gráfico de barras do dinheiro congelado ou retido durante a ofensiva antigolpes do DOJ, segundo cada agência: Equipe de Recuperação de Ativos do FBI, mais de US$ 350 milhões congelados; Serviço Secreto, mais de US$ 200 milhões retidos; Investigações de Segurança Interna, mais de US$ 120 milhões apreendidos ou congelados",
+      "fr": "Graphique en barres des fonds gelés ou bloqués pendant l'offensive anti-arnaques du DOJ, selon chaque agence : équipe de recouvrement d'actifs du FBI, plus de 350 millions de dollars gelés ; Secret Service, plus de 200 millions bloqués ; Homeland Security Investigations, plus de 120 millions saisis ou gelés",
+      "de": "Balkendiagramm der während der Anti-Betrugs-Offensive des DOJ eingefrorenen oder gesperrten Gelder laut den einzelnen Behörden: Recovery Asset Team des FBI mehr als 350 Millionen Dollar eingefroren, Secret Service mehr als 200 Millionen gesperrt, Homeland Security Investigations mehr als 120 Millionen beschlagnahmt oder eingefroren",
+      "ru": "Столбчатая диаграмма средств, замороженных или арестованных в ходе кампании Минюста США против мошенников, по данным каждого ведомства: группа ФБР по возврату активов заморозила более $350 млн, Секретная служба арестовала более $200 млн, Служба расследований внутренней безопасности изъяла или заморозила более $120 млн",
+      "tr": "ABD Adalet Bakanlığı'nın dolandırıcılık operasyonunda dondurulan veya el konulan paraları kurum bazında gösteren çubuk grafik: FBI Varlık Kurtarma Ekibi 350 milyon dolardan fazla dondurdu, Gizli Servis 200 milyon dolardan fazla el koydu, İç Güvenlik Soruşturmaları 120 milyon dolardan fazla el koydu veya dondurdu",
+      "id": "Grafik batang dana yang dibekukan atau ditahan selama operasi antipenipuan DOJ menurut tiap lembaga: Tim Pemulihan Aset FBI membekukan lebih dari US$350 juta, Secret Service menahan lebih dari US$200 juta, Homeland Security Investigations menyita atau membekukan lebih dari US$120 juta",
+      "ja": "米司法省の詐欺対策強化期間中に各機関が凍結・差し押さえた資金の棒グラフ：FBI資産回収チームが3億5000万ドル超を凍結、シークレットサービスが2億ドル超を差し押さえ、国土安全保障捜査局が1億2000万ドル超を押収または凍結",
+      "ko": "미국 법무부 사기 단속 기간에 각 기관이 동결하거나 묶어 둔 자금 막대그래프: FBI 자산회수팀 3억5000만 달러 이상 동결, 비밀경호국 2억 달러 이상 동결, 국토안보수사국 1억2000만 달러 이상 압수 또는 동결"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: U.S. Department of Justice release, Nov. 24, 2026 (agency-reported minimums)",
+      "es": "Gráfico: PlainBTC, datos: U.S. Department of Justice release, Nov. 24, 2026 (agency-reported minimums)",
+      "pt": "Gráfico: PlainBTC, dados: U.S. Department of Justice release, Nov. 24, 2026 (agency-reported minimums)",
+      "fr": "Graphique : PlainBTC, données : U.S. Department of Justice release, Nov. 24, 2026 (agency-reported minimums)",
+      "de": "Chart: PlainBTC, Daten: U.S. Department of Justice release, Nov. 24, 2026 (agency-reported minimums)",
+      "ru": "График: PlainBTC, данные: U.S. Department of Justice release, Nov. 24, 2026 (agency-reported minimums)",
+      "tr": "Grafik: PlainBTC, veri: U.S. Department of Justice release, Nov. 24, 2026 (agency-reported minimums)",
+      "id": "Grafik: PlainBTC, data: U.S. Department of Justice release, Nov. 24, 2026 (agency-reported minimums)",
+      "ja": "チャート: PlainBTC、データ: U.S. Department of Justice release, Nov. 24, 2026 (agency-reported minimums)",
+      "ko": "차트: PlainBTC, 데이터: U.S. Department of Justice release, Nov. 24, 2026 (agency-reported minimums)"
+    }
+  }
+]

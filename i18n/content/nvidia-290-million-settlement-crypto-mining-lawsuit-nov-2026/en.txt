@@ -1,0 +1,59 @@
+title: Nvidia agrees to pay $290 million to settle investor lawsuit over crypto mining sales from the 2017-2018 boom
+page_title: Nvidia to pay $290 million to settle crypto mining lawsuit
+description: Nvidia agreed to a $290 million settlement of a class action claiming it hid how much of its 2017-2018 gaming chip sales came from crypto miners. The deal, filed Nov. 24, 2026, still needs court approval.
+og_description: Chipmaker Nvidia will pay $290 million to end a seven-year investor lawsuit over crypto mining demand for its graphics cards in 2017 and 2018, if a judge approves. What the case was about and why crypto booms can hit companies far outside crypto.
+label: Business
+summary: Nvidia agreed to pay $290 million to settle a shareholder class action claiming it played down how much of its gaming chip sales came from crypto miners before the 2018 crypto crash. Lawyers filed the deal on Nov. 24; a federal judge in California still has to approve it.
+===
+
+Nvidia, the world's most valuable company, has agreed to pay <strong>$290 million</strong> to end a lawsuit that goes back to the crypto boom of 2017. Investors claimed the chipmaker and its CEO, <strong>Jensen Huang</strong>, played down how much of its graphics card sales came from crypto miners, then left shareholders exposed when that demand collapsed in 2018.
+
+Lawyers for the investors [asked a federal court to approve the deal](L1) on Tuesday, Nov. 24, in the U.S. District Court for the Northern District of California. If the judge signs off, it would rank as the seventh-largest securities class action settlement in that district since 1995, the law firm Kessler Topaz said.
+
+!takeaways
+- Nvidia agreed to pay $290 million to settle a shareholder class action over crypto mining demand in 2017 and 2018.
+- Investors say Nvidia counted chips sold to crypto miners as "gaming" growth and did not warn about the risk when mining demand fell.
+- The deal still needs court approval. Nvidia says insurers will pay most of it, and the investors' lawyers are asking for up to $62 million in fees.
+- Nvidia already paid a $5.5 million SEC penalty in 2022 over similar disclosures, without admitting or denying the findings.
+
+!figure:fact
+
+## What the lawsuit was about
+
+In 2017, prices of bitcoin and ether soared. At the time, ether could be "mined" with ordinary graphics cards (GPUs), the same chips gamers use. Miners bought them in bulk, and Nvidia's gaming revenue jumped.
+
+The investors, led by the Swedish fund manager Lannebo Kapitalförvaltning, said Nvidia knew a big part of that growth came from miners but described it mainly as gaming demand. When crypto prices crashed in 2018, mining demand dried up and Nvidia was left with excess chips. Plaintiffs said the bad news contributed to a <strong>28.5% drop</strong> in Nvidia's stock over two trading sessions in November 2018, [The Block](L2) reported.
+
+The SEC reached a similar conclusion in 2022. Its [order](L4) found that Nvidia did not disclose that crypto mining was a significant part of its gaming revenue growth in its 2018 fiscal year. Nvidia paid a $5.5 million penalty and did not admit or deny the findings.
+
+## A long road to a deal
+
+The case has bounced through the courts for years. A judge dismissed it in 2021, but an appeals court revived it in 2023. Nvidia took it to the U.S. Supreme Court, which heard arguments and then, in December 2024, dismissed the appeal as "improvidently granted," meaning it should not have taken the case. On March 25, 2026, the judge certified the case as a class action, which opened the door to a settlement.
+
+!figure:timeline
+
+Nvidia said its insurers are funding the majority of the $290 million, and the plaintiffs' lawyers are seeking up to $62 million of it in fees, according to The Block. As [Bloomberg Law](L3) noted, this case is separate from newer shareholder litigation over Huang's personal conduct. Huang was reinstated as CEO by Nvidia's board on Monday.
+
+!mid_cta
+
+## Why it matters for crypto investors
+
+This settlement is about events from eight years ago, and it does not change anything about bitcoin today. But it is a useful reminder of how crypto cycles spill into the wider economy.
+
+When crypto prices boom, companies that sell to the industry, such as chipmakers, miners and exchanges, can see sales surge. When prices fall, that demand can vanish quickly. GPU mining of ether ended entirely in September 2022, when Ethereum switched to proof of stake. Bitcoin mining today uses specialized machines, not gaming cards.
+
+For investors, the lesson is to look at where a company's growth really comes from. Revenue tied to crypto can be real but very volatile, and companies are expected to say so. If you would rather own crypto directly, you can buy small amounts on a regulated U.S. exchange such as [Coinbase](REF), but only with money you can afford to see swing in value.
+
+This is not financial advice.
+
+## What to watch next
+
+- Whether Judge Haywood S. Gilliam Jr. grants preliminary approval and sets a hearing for final approval.
+- How eligible shareholders from the 2017-2018 period can file claims once a notice is sent.
+- How Nvidia stock, which has swung sharply this month, trades as tech stocks stay under pressure.
+
+!soft: Weighing a fund versus owning coins yourself? Read [bitcoin ETF vs. buying bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,59 @@
+title: Nvidia accepte de payer 290 millions de dollars pour clore un procès d'investisseurs sur ses ventes aux mineurs de cryptos lors du boom de 2017-2018
+page_title: Nvidia va payer 290 millions de dollars pour clore le procès sur le minage de cryptos
+description: Nvidia a accepté un accord de 290 millions de dollars dans un recours collectif l'accusant d'avoir caché la part de ses ventes de puces gaming de 2017-2018 venant des mineurs de cryptos. L'accord, déposé le 24 novembre 2026, doit encore être approuvé par le tribunal.
+og_description: Le fabricant de puces Nvidia va payer 290 millions de dollars pour mettre fin à un procès d'investisseurs vieux de sept ans sur la demande des mineurs de cryptos pour ses cartes graphiques en 2017 et 2018, si un juge l'approuve. De quoi parlait l'affaire et pourquoi les booms crypto peuvent toucher des entreprises bien au-delà de la crypto.
+label: Entreprises
+summary: Nvidia a accepté de payer 290 millions de dollars pour clore un recours collectif d'actionnaires l'accusant d'avoir minimisé la part de ses ventes de puces gaming venant des mineurs de cryptos avant le krach de 2018. Les avocats ont déposé l'accord le 24 novembre ; un juge fédéral de Californie doit encore l'approuver.
+===
+
+Nvidia, l'entreprise la plus valorisée au monde, a accepté de payer <strong>290 millions de dollars</strong> pour mettre fin à un procès qui remonte au boom crypto de 2017. Des investisseurs reprochaient au fabricant de puces et à son PDG, <strong>Jensen Huang</strong>, d'avoir minimisé la part de ses ventes de cartes graphiques venant des mineurs de cryptos, puis d'avoir laissé les actionnaires exposés quand cette demande s'est effondrée en 2018.
+
+Les avocats des investisseurs ont [demandé à un tribunal fédéral d'approuver l'accord](L1) le mardi 24 novembre, devant le tribunal fédéral du district nord de Californie. Si le juge l'approuve, ce serait le septième plus important accord de recours collectif en matière boursière dans ce district depuis 1995, selon le cabinet Kessler Topaz.
+
+!takeaways
+- Nvidia a accepté de payer 290 millions de dollars pour clore un recours collectif d'actionnaires lié à la demande du minage de cryptos en 2017 et 2018.
+- Les investisseurs affirment que Nvidia a compté des puces vendues aux mineurs comme de la croissance « gaming » sans prévenir du risque quand la demande des mineurs a chuté.
+- L'accord doit encore être approuvé par le tribunal. Nvidia indique que ses assureurs en paieront la majeure partie, et les avocats des investisseurs demandent jusqu'à 62 millions de dollars d'honoraires.
+- Nvidia a déjà payé en 2022 une amende de 5,5 millions de dollars à la SEC pour des informations similaires, sans reconnaître ni contester les conclusions.
+
+!figure:fact
+
+## De quoi parlait le procès
+
+En 2017, les prix du bitcoin et de l'ether s'envolent. À l'époque, l'ether pouvait être « miné » avec des cartes graphiques ordinaires (GPU), les mêmes puces que celles des joueurs. Les mineurs en achetaient en masse et le chiffre d'affaires gaming de Nvidia a bondi.
+
+Les investisseurs, menés par le gestionnaire suédois Lannebo Kapitalförvaltning, affirment que Nvidia savait qu'une grande partie de cette croissance venait des mineurs, mais la présentait surtout comme de la demande gaming. Quand les cryptos se sont effondrées en 2018, la demande des mineurs a disparu et Nvidia s'est retrouvée avec trop de puces. Les plaignants disent que ces mauvaises nouvelles ont contribué à une <strong>chute de 28,5 %</strong> de l'action Nvidia en deux séances en novembre 2018, selon [The Block](L2).
+
+La SEC est arrivée à une conclusion proche en 2022. Sa [décision](L4) a établi que Nvidia n'avait pas indiqué que le minage de cryptos représentait une part importante de la croissance de son chiffre d'affaires gaming sur son exercice 2018. Nvidia a payé une amende de 5,5 millions de dollars sans reconnaître ni contester les conclusions.
+
+## Un long chemin vers un accord
+
+L'affaire a fait la navette entre les tribunaux pendant des années. Un juge l'a rejetée en 2021, mais une cour d'appel l'a relancée en 2023. Nvidia l'a portée devant la Cour suprême des États-Unis, qui a entendu les parties puis, en décembre 2024, a classé le recours comme « accordé à tort », c'est-à-dire qu'elle n'aurait pas dû se saisir de l'affaire. Le 25 mars 2026, le juge a certifié l'affaire comme recours collectif, ouvrant la voie à un accord.
+
+!figure:timeline
+
+Nvidia indique que ses assureurs financeront la majeure partie des 290 millions, et les avocats des plaignants réclament jusqu'à 62 millions de cette somme en honoraires, selon The Block. Comme l'a noté [Bloomberg Law](L3), cette affaire est distincte de procédures plus récentes d'actionnaires concernant la conduite personnelle de Huang. Le conseil d'administration de Nvidia a rétabli Huang au poste de PDG lundi.
+
+!mid_cta
+
+## Pourquoi c'est utile aux investisseurs crypto
+
+Cet accord porte sur des faits vieux de huit ans et ne change rien pour le bitcoin aujourd'hui. Mais il rappelle bien comment les cycles crypto débordent sur l'économie.
+
+Quand les cryptos flambent, les entreprises qui vendent au secteur, comme les fabricants de puces, les mineurs et les plateformes d'échange, peuvent voir leurs ventes bondir. Quand les prix chutent, cette demande peut disparaître vite. Le minage d'ether par GPU a totalement pris fin en septembre 2022, quand Ethereum est passé à la preuve d'enjeu. Le minage de bitcoin utilise aujourd'hui des machines spécialisées, pas des cartes de jeu.
+
+Pour les investisseurs, la leçon est de regarder d'où vient réellement la croissance d'une entreprise. Des revenus liés à la crypto peuvent être réels mais très volatils, et les entreprises sont censées le dire. Si vous préférez détenir des cryptos directement, vous pouvez en acheter de petites quantités sur une plateforme régulée aux États-Unis comme [Coinbase](REF), mais uniquement avec de l'argent dont vous acceptez de voir la valeur fluctuer.
+
+Ceci n'est pas un conseil financier.
+
+## À surveiller
+
+- Si le juge Haywood S. Gilliam Jr. accorde l'approbation préliminaire et fixe une audience d'approbation finale.
+- Comment les actionnaires concernés de la période 2017-2018 pourront déposer une demande une fois l'avis envoyé.
+- L'évolution de l'action Nvidia, très volatile ce mois-ci, alors que les valeurs technologiques restent sous pression.
+
+!soft: Vous hésitez entre un fonds et détenir vous-même des cryptos ? Lisez [ETF bitcoin ou achat de bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

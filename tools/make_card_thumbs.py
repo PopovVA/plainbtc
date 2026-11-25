@@ -2612,7 +2612,105 @@ def thumb_bullpen_takeover():
     ], "note": "Editorial diagram drawn by PlainBTC; no company logos used."}
 
 
+def thumb_doj_scam_surge():
+    """Deep-teal 'case board': DOJ seal (public domain) beside the anti-scam surge figures from the DOJ's Nov. 24, 2026
+    release (800+ defendants, 400+ cases, 85 districts, 30 extradited, $1B+ stolen crypto frozen in Southeast Asia),
+    plus a drawn phone showing a fake 'trading app' with a withdraw-fee trap. No outlet photos."""
+    doj = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/5/54/Seal_of_the_United_States_Department_of_Justice.svg", CACHE/"doj-seal.svg")).convert("RGBA")
+    base = gradient_bg(top=(6, 78, 89), bottom=(4, 30, 38))
+    d = Draw(base)
+    ink, mute, mint, amber, red = (240, 253, 250), (153, 205, 200), (94, 234, 212), (252, 211, 77), (248, 113, 113)
+    # seal on a white disc
+    disc = Image.new("RGBA", sz((150, 150)), (0, 0, 0, 0)); ImageDraw.Draw(disc).ellipse([0, 0, disc.width - 1, disc.height - 1], fill=(255, 255, 255, 255))
+    base.paste(disc.convert("RGB"), sz((30, 46)), disc)
+    paste_contain(base, doj, (30, 46, 150, 150), pad=6)
+    d = Draw(base)
+    # drawn phone with fake trading app
+    px, py = 62, 214
+    d.rounded_rectangle([px, py, px + 86, py + 132], radius=12, fill=(15, 23, 42), outline=(94, 234, 212), width=2)
+    d.rounded_rectangle([px + 7, py + 12, px + 79, py + 118], radius=6, fill=(30, 41, 59))
+    chart = [(px + 12, py + 70), (px + 24, py + 62), (px + 36, py + 66), (px + 48, py + 46), (px + 60, py + 40), (px + 72, py + 24)]
+    d.line(chart, fill=(52, 211, 153), width=2)
+    d.text((px + 12, py + 16), "\"Profits\"", font=font(FONT_B, 11), fill=(52, 211, 153))
+    d.rounded_rectangle([px + 12, py + 84, px + 74, py + 108], radius=6, fill=red)
+    d.text((px + 17, py + 86), "Withdraw", font=font(FONT_B, 9), fill=WHITE)
+    d.text((px + 17, py + 97), "fee: pay first", font=font(FONT_R, 7), fill=WHITE)
+    # right column: figures
+    x0 = 214
+    d.text((x0, 34), "Largest-ever DOJ scam crackdown", font=font(FONT_B, 19), fill=ink)
+    d.text((x0, 62), "Since March 6, 2026", font=font(FONT_R, 13), fill=mute)
+    d.text((x0, 88), "800+", font=font(FONT_B, 58), fill=mint)
+    bw = d.textlength("800+", font=font(FONT_B, 58)) + 14
+    d.text((x0 + bw, 110), "defendants", font=font(FONT_B, 20), fill=ink)
+    d.text((x0 + bw, 138), "in 400+ cases", font=font(FONT_R, 13), fill=mute)
+    rows = [("$1B+", "stolen crypto frozen in Southeast Asia", amber),
+            ("85", "federal districts took part", mint),
+            ("30", "defendants extradited to the U.S.", mint)]
+    for i, (big, small, col) in enumerate(rows):
+        y = 184 + i * 46
+        d.rounded_rectangle([x0, y, x0 + 5, y + 36], radius=2, fill=col)
+        d.text((x0 + 14, y + 2), big, font=font(FONT_B, 22), fill=col)
+        d.text((x0 + 92, y + 9), small, font=font(FONT_R, 12), fill=ink)
+    d.text((x0, 326), "Source: U.S. Department of Justice, Nov. 24, 2026 · seal: public domain", font=font(FONT_R, 10), fill=mute)
+    return base, {"kind": "composite", "sources": [
+        {"file": "Seal_of_the_United_States_Department_of_Justice.svg", "license": "Public domain (U.S. government insignia)", "url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Department_of_Justice.svg", "credit": "U.S. Department of Justice"},
+        {"file": "DOJ release, Nov. 24, 2026", "license": "Facts cited", "url": "https://www.justice.gov/opa/pr/justice-department-announces-largest-ever-crackdown-scammers-targeting-over-800-defendants", "credit": "U.S. Department of Justice"},
+        {"file": "phone illustration", "license": "PlainBTC original", "url": "", "credit": "PlainBTC"},
+    ], "note": "Editorial composite; seal for identification only; no endorsement by DOJ implied. The phone is a generic illustration of a fake trading app."}
+
+
+def thumb_nvidia_settlement():
+    """Black and green: Nvidia logo (Wikimedia, identification only) on a white plate, a generic graphics card drawn by
+    PlainBTC, the $290M settlement figure and a 2018 to 2026 case strip (The Block; Kessler Topaz, Nov. 25, 2026)."""
+    nv = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg", CACHE/"nvidia-logo.svg")).convert("RGBA")
+    base = gradient_bg(top=(24, 28, 22), bottom=(6, 8, 6))
+    d = Draw(base)
+    green, ink, mute = (118, 185, 0), (244, 247, 240), (163, 176, 150)
+    d.rounded_rectangle([24, 26, 214, 84], radius=12, fill=(255, 255, 255))
+    paste_contain(base, nv, (30, 30, 178, 50), pad=4)
+    d = Draw(base)
+    # generic GPU illustration
+    gx, gy = 30, 118
+    d.rounded_rectangle([gx, gy, gx + 280, gy + 118], radius=10, fill=(38, 44, 36), outline=(90, 100, 84), width=2)
+    for k in range(2):
+        cx = gx + 76 + k * 128; cy = gy + 59
+        d.ellipse([cx - 46, cy - 46, cx + 46, cy + 46], fill=(18, 20, 17), outline=(110, 120, 104), width=2)
+        for a in range(0, 360, 45):
+            import math
+            ex = cx + 38 * math.cos(math.radians(a)); ey = cy + 38 * math.sin(math.radians(a))
+            d.line([(cx, cy), (ex, ey)], fill=(70, 78, 66), width=4)
+        d.ellipse([cx - 12, cy - 12, cx + 12, cy + 12], fill=green)
+    d.rectangle([gx + 30, gy + 118, gx + 200, gy + 130], fill=(196, 160, 60))
+    for k in range(18):
+        d.line([(gx + 36 + k * 9, gy + 120), (gx + 36 + k * 9, gy + 129)], fill=(140, 110, 30), width=2)
+    d.text((gx, gy + 142), "Gaming GPUs sold to crypto miners, 2017-18", font=font(FONT_R, 11), fill=mute)
+    # right: figure
+    x0 = 340
+    d.text((x0, 34), "Proposed settlement", font=font(FONT_B, 17), fill=mute)
+    d.text((x0, 58), "$290M", font=font(FONT_B, 62), fill=green)
+    d.text((x0, 136), "Investor class action over", font=font(FONT_R, 14), fill=ink)
+    d.text((x0, 156), "crypto mining sales", font=font(FONT_R, 14), fill=ink)
+    d.text((x0, 184), "Needs court approval", font=font(FONT_B, 13), fill=(250, 204, 21))
+    # case strip
+    steps = [("2018", "stock -28.5%"), ("2021", "dismissed"), ("2023", "revived"), ("2026", "deal filed")]
+    sx0, sx1, sy = 352, 604, 252
+    d.line([(sx0, sy), (sx1, sy)], fill=(80, 90, 74), width=3)
+    for i, (yr, t) in enumerate(steps):
+        cx = sx0 + (sx1 - sx0) * i / (len(steps) - 1)
+        d.ellipse([cx - 7, sy - 7, cx + 7, sy + 7], fill=green if i == len(steps) - 1 else (163, 176, 150))
+        tw = d.textlength(yr, font=font(FONT_B, 13)); d.text((cx - tw / 2, sy - 30), yr, font=font(FONT_B, 13), fill=ink)
+        tw = d.textlength(t, font=font(FONT_R, 10)); d.text((cx - tw / 2, sy + 14), t, font=font(FONT_R, 10), fill=mute)
+    d.text((30, 326), "Sources: The Block; Kessler Topaz, Nov. 25, 2026 · logo: Wikimedia Commons · GPU: illustration", font=font(FONT_R, 10), fill=(120, 132, 110))
+    return base, {"kind": "composite", "sources": [
+        {"file": "Nvidia_logo.svg", "license": "Public domain (logo)", "url": "https://commons.wikimedia.org/wiki/File:Nvidia_logo.svg", "credit": "NVIDIA"},
+        {"file": "Kessler Topaz, Nov. 25, 2026", "license": "Facts cited", "url": "https://www.ktmc.com/news/kessler-topaz-secures-290-million-settlement-for-nvidia-investors-following-victory-at-u-s-supreme-court", "credit": "Kessler Topaz"},
+        {"file": "The Block, Nov. 25, 2026", "license": "Facts cited", "url": "https://www.theblock.co/news/regulation/2026-11-25-nvidia-290-million-settlement-crypto-mining-class-action-446709", "credit": "The Block"},
+    ], "note": "Editorial composite; logo for identification only; the graphics card is a generic drawing, not an Nvidia product photo."}
+
+
 BUILDERS = {
+    "doj-scam-crackdown-800-defendants-1-billion-crypto-frozen-nov-2026": thumb_doj_scam_surge,
+    "nvidia-290-million-settlement-crypto-mining-lawsuit-nov-2026": thumb_nvidia_settlement,
     "bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026": thumb_btc_58k_pce_month,
     "bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026": thumb_bullpen_takeover,
     "fidelity-crypto-adds-aave-link-uni-nov-2026": thumb_fidelity_defi_tokens,

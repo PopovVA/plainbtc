@@ -5751,7 +5751,121 @@ BULL_FACT_ALTS = {
 }
 
 
+DOJ_SLUG = "doj-scam-crackdown-800-defendants-1-billion-crypto-frozen-nov-2026"
+NVDA_SLUG = "nvidia-290-million-settlement-crypto-mining-lawsuit-nov-2026"
+
+
+def build_doj_scam_surge():
+    d = OUT / DOJ_SLUG
+    fact = make_fact_card(
+        d / "fact-doj-scam-surge-800-defendants",
+        "DOJ anti-scam surge · since March 6, 2026",
+        "800+ defendants",
+        "Action in 400+ cases across 85 federal districts; 30 extradited. U.S.-backed police in Southeast Asia froze over $1 billion in stolen crypto",
+        footer="Source: U.S. Department of Justice, Nov. 24, 2026",
+    )
+    chart = make_bar_chart(
+        d / "chart-doj-surge-funds-frozen-by-agency",
+        ["FBI Recovery\nAsset Team\n(frozen)", "Secret Service\n(restrained)", "Homeland Security\nInvestigations\n(seized or frozen)"],
+        [350, 200, 120],
+        "Money frozen or restrained during the surge (minimums, $ millions)",
+        colors=["#38bdf8", "#f7931a", "#a78bfa"],
+        value_fmt=lambda v: f"${v:,.0f}M+",
+    )
+    return [
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: since March 6, 2026 the Justice Department took action in more than 400 scam cases against more than 800 defendants across 85 federal districts, with 30 extradited; U.S.-backed police in Southeast Asia froze more than $1 billion in stolen crypto", DOJ_FACT_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="U.S. Department of Justice, Nov. 24, 2026")},
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of money frozen or restrained during the DOJ anti-scam surge, as reported by each agency: FBI Recovery Asset Team more than $350 million frozen, Secret Service more than $200 million restrained, Homeland Security Investigations more than $120 million seized or frozen", DOJ_CHART_ALTS),
+         "caption": tr_map(CAPTION_CHART, src="U.S. Department of Justice release, Nov. 24, 2026 (agency-reported minimums)")},
+    ]
+
+
+DOJ_FACT_ALTS = {
+ "es": "Tarjeta: desde el 6 de marzo de 2026 el Departamento de Justicia actuó en más de 400 casos de estafa contra más de 800 acusados en 85 distritos federales, con 30 extradiciones; policías apoyadas por EE. UU. en el Sudeste Asiático congelaron más de 1.000 millones de dólares en criptomonedas robadas",
+ "pt": "Cartão: desde 6 de março de 2026 o Departamento de Justiça agiu em mais de 400 casos de golpe contra mais de 800 réus em 85 distritos federais, com 30 extradições; polícias apoiadas pelos EUA no Sudeste Asiático congelaram mais de US$ 1 bilhão em criptomoedas roubadas",
+ "fr": "Fiche : depuis le 6 mars 2026, le ministère de la Justice a agi dans plus de 400 affaires d'arnaque visant plus de 800 accusés dans 85 districts fédéraux, avec 30 extraditions ; des polices soutenues par les États-Unis en Asie du Sud-Est ont gelé plus d'un milliard de dollars de cryptos volées",
+ "de": "Faktenkarte: Seit dem 6. März 2026 ging das US-Justizministerium in mehr als 400 Betrugsfällen gegen mehr als 800 Beschuldigte in 85 Bundesbezirken vor, 30 wurden ausgeliefert; von den USA unterstützte Polizeibehörden in Südostasien froren mehr als 1 Milliarde Dollar an gestohlenen Kryptowerten ein",
+ "ru": "Карточка: с 6 марта 2026 года Министерство юстиции США приняло меры по более чем 400 делам о мошенничестве против более чем 800 обвиняемых в 85 федеральных округах, 30 человек экстрадированы; полиция Юго-Восточной Азии при поддержке США заморозила более $1 млрд украденной криптовалюты",
+ "tr": "Bilgi kartı: ABD Adalet Bakanlığı 6 Mart 2026'dan bu yana 85 federal bölgede 800'den fazla sanığa karşı 400'den fazla dolandırıcılık davasında işlem yaptı, 30 kişi iade edildi; ABD destekli Güneydoğu Asya polisi 1 milyar dolardan fazla çalıntı kriptoyu dondurdu",
+ "id": "Kartu fakta: sejak 6 Maret 2026 Departemen Kehakiman AS menindak lebih dari 400 kasus penipuan terhadap lebih dari 800 terdakwa di 85 distrik federal, dengan 30 orang diekstradisi; polisi Asia Tenggara yang didukung AS membekukan lebih dari US$1 miliar kripto curian",
+ "ja": "ファクトカード：2026年3月6日以降、米司法省は85の連邦地区で800人超の被告を相手に400件超の詐欺事件で措置を取り、30人が引き渡された。米国が支援する東南アジアの警察は10億ドル超の盗まれた暗号資産を凍結した",
+ "ko": "팩트 카드: 2026년 3월 6일 이후 미국 법무부는 85개 연방 지구에서 800명 이상의 피고인을 상대로 400건 이상의 사기 사건에 조치를 취했고 30명이 송환됐다. 미국이 지원하는 동남아시아 경찰은 도난 암호화폐 10억 달러 이상을 동결했다",
+}
+DOJ_CHART_ALTS = {
+ "es": "Gráfico de barras del dinero congelado o retenido durante la ofensiva antiestafas del DOJ, según cada agencia: Equipo de Recuperación de Activos del FBI, más de 350 millones de dólares congelados; Servicio Secreto, más de 200 millones retenidos; Investigaciones de Seguridad Nacional, más de 120 millones incautados o congelados",
+ "pt": "Gráfico de barras do dinheiro congelado ou retido durante a ofensiva antigolpes do DOJ, segundo cada agência: Equipe de Recuperação de Ativos do FBI, mais de US$ 350 milhões congelados; Serviço Secreto, mais de US$ 200 milhões retidos; Investigações de Segurança Interna, mais de US$ 120 milhões apreendidos ou congelados",
+ "fr": "Graphique en barres des fonds gelés ou bloqués pendant l'offensive anti-arnaques du DOJ, selon chaque agence : équipe de recouvrement d'actifs du FBI, plus de 350 millions de dollars gelés ; Secret Service, plus de 200 millions bloqués ; Homeland Security Investigations, plus de 120 millions saisis ou gelés",
+ "de": "Balkendiagramm der während der Anti-Betrugs-Offensive des DOJ eingefrorenen oder gesperrten Gelder laut den einzelnen Behörden: Recovery Asset Team des FBI mehr als 350 Millionen Dollar eingefroren, Secret Service mehr als 200 Millionen gesperrt, Homeland Security Investigations mehr als 120 Millionen beschlagnahmt oder eingefroren",
+ "ru": "Столбчатая диаграмма средств, замороженных или арестованных в ходе кампании Минюста США против мошенников, по данным каждого ведомства: группа ФБР по возврату активов заморозила более $350 млн, Секретная служба арестовала более $200 млн, Служба расследований внутренней безопасности изъяла или заморозила более $120 млн",
+ "tr": "ABD Adalet Bakanlığı'nın dolandırıcılık operasyonunda dondurulan veya el konulan paraları kurum bazında gösteren çubuk grafik: FBI Varlık Kurtarma Ekibi 350 milyon dolardan fazla dondurdu, Gizli Servis 200 milyon dolardan fazla el koydu, İç Güvenlik Soruşturmaları 120 milyon dolardan fazla el koydu veya dondurdu",
+ "id": "Grafik batang dana yang dibekukan atau ditahan selama operasi antipenipuan DOJ menurut tiap lembaga: Tim Pemulihan Aset FBI membekukan lebih dari US$350 juta, Secret Service menahan lebih dari US$200 juta, Homeland Security Investigations menyita atau membekukan lebih dari US$120 juta",
+ "ja": "米司法省の詐欺対策強化期間中に各機関が凍結・差し押さえた資金の棒グラフ：FBI資産回収チームが3億5000万ドル超を凍結、シークレットサービスが2億ドル超を差し押さえ、国土安全保障捜査局が1億2000万ドル超を押収または凍結",
+ "ko": "미국 법무부 사기 단속 기간에 각 기관이 동결하거나 묶어 둔 자금 막대그래프: FBI 자산회수팀 3억5000만 달러 이상 동결, 비밀경호국 2억 달러 이상 동결, 국토안보수사국 1억2000만 달러 이상 압수 또는 동결",
+}
+
+
+def build_nvidia_settlement():
+    d = OUT / NVDA_SLUG
+    fact = make_fact_card(
+        d / "fact-nvidia-290-million-settlement",
+        "Nvidia crypto mining class action · Nov. 24, 2026",
+        "$290 million",
+        "Proposed settlement, still needs court approval. Nvidia says insurers pay most of it; lawyers seek up to $62 million in fees",
+        footer="Sources: Kessler Topaz; The Block, Nov. 25, 2026",
+    )
+    tl = make_timeline_card(
+        d / "timeline-nvidia-crypto-mining-case-2018-2026",
+        "Nvidia crypto mining case",
+        [
+            ("Nov 2018", "Stock falls 28.5% in two sessions, plaintiffs say", RED),
+            ("2021", "Judge dismisses the case", (148, 163, 184)),
+            ("2023", "Appeals court revives it", ORANGE),
+            ("Dec 2024", "Supreme Court drops Nvidia's appeal", (96, 165, 250)),
+            ("Mar 2026", "Class action certified", (167, 139, 250)),
+            ("Nov 2026", "$290M settlement filed", GREEN),
+        ],
+        footer="Sources: The Block; Kessler Topaz",
+        margin=118, wrap_w=180,
+    )
+    return [
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: Nvidia agreed to a proposed $290 million settlement of a crypto mining class action on Nov. 24, 2026; it still needs court approval, insurers pay most of it, and lawyers seek up to $62 million in fees", NVDA_FACT_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="Kessler Topaz; The Block, Nov. 25, 2026")},
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline of the Nvidia crypto mining case: in November 2018 the stock fell 28.5% over two sessions as mining demand faded, according to plaintiffs; in 2021 a judge dismissed the case; in 2023 an appeals court revived it; in December 2024 the Supreme Court dropped Nvidia's appeal; in March 2026 the class was certified; in November 2026 a $290 million settlement was filed", NVDA_TL_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="The Block; Kessler Topaz, Nov. 25, 2026")},
+    ]
+
+
+NVDA_FACT_ALTS = {
+ "es": "Tarjeta: el 24 de noviembre de 2026 Nvidia aceptó un acuerdo propuesto de 290 millones de dólares en una demanda colectiva por la minería de criptomonedas; aún necesita aprobación judicial, las aseguradoras pagan la mayor parte y los abogados piden hasta 62 millones en honorarios",
+ "pt": "Cartão: em 24 de novembro de 2026 a Nvidia aceitou um acordo proposto de US$ 290 milhões em uma ação coletiva sobre mineração de criptomoedas; ainda precisa de aprovação judicial, as seguradoras pagam a maior parte e os advogados pedem até US$ 62 milhões em honorários",
+ "fr": "Fiche : le 24 novembre 2026, Nvidia a accepté un projet d'accord de 290 millions de dollars dans un recours collectif lié au minage de cryptos ; il doit encore être approuvé par le tribunal, les assureurs en paient la majeure partie et les avocats demandent jusqu'à 62 millions d'honoraires",
+ "de": "Faktenkarte: Am 24. November 2026 stimmte Nvidia einem vorgeschlagenen Vergleich über 290 Millionen Dollar in einer Sammelklage zum Krypto-Mining zu; das Gericht muss noch zustimmen, Versicherer zahlen den Großteil, die Anwälte fordern bis zu 62 Millionen an Honorar",
+ "ru": "Карточка: 24 ноября 2026 года Nvidia согласилась на предложенное мировое соглашение на $290 млн по коллективному иску о майнинге криптовалют; его еще должен одобрить суд, большую часть оплатят страховщики, а юристы просят до $62 млн гонорара",
+ "tr": "Bilgi kartı: Nvidia 24 Kasım 2026'da kripto madenciliğiyle ilgili toplu davada önerilen 290 milyon dolarlık uzlaşmayı kabul etti; mahkeme onayı hâlâ gerekiyor, büyük kısmını sigortacılar ödüyor ve avukatlar 62 milyon dolara kadar ücret istiyor",
+ "id": "Kartu fakta: pada 24 November 2026 Nvidia menyetujui usulan penyelesaian US$290 juta dalam gugatan class action terkait penambangan kripto; masih perlu persetujuan pengadilan, sebagian besar dibayar perusahaan asuransi, dan pengacara meminta biaya hingga US$62 juta",
+ "ja": "ファクトカード：2026年11月24日、Nvidiaは暗号資産マイニングをめぐる集団訴訟で2億9000万ドルの和解案に合意。裁判所の承認がまだ必要で、大半は保険会社が負担し、弁護士は最大6200万ドルの報酬を求めている",
+ "ko": "팩트 카드: 2026년 11월 24일 Nvidia가 암호화폐 채굴 관련 집단소송에서 2억9000만 달러 합의안에 동의했다. 아직 법원 승인이 필요하고, 대부분은 보험사가 내며, 변호인단은 최대 6200만 달러의 수임료를 요구한다",
+}
+NVDA_TL_ALTS = {
+ "es": "Cronología del caso de Nvidia por la minería de criptomonedas: en noviembre de 2018 la acción cayó un 28,5% en dos sesiones al desvanecerse la demanda minera, según los demandantes; en 2021 un juez desestimó el caso; en 2023 un tribunal de apelaciones lo reactivó; en diciembre de 2024 el Tribunal Supremo descartó la apelación de Nvidia; en marzo de 2026 se certificó la demanda colectiva; en noviembre de 2026 se presentó un acuerdo de 290 millones de dólares",
+ "pt": "Linha do tempo do caso da Nvidia sobre mineração de criptomoedas: em novembro de 2018 a ação caiu 28,5% em dois pregões com o fim da demanda dos mineradores, segundo os autores; em 2021 um juiz arquivou o caso; em 2023 um tribunal de apelação o reabriu; em dezembro de 2024 a Suprema Corte descartou o recurso da Nvidia; em março de 2026 a ação coletiva foi certificada; em novembro de 2026 foi apresentado um acordo de US$ 290 milhões",
+ "fr": "Chronologie de l'affaire Nvidia sur le minage de cryptos : en novembre 2018, l'action chute de 28,5 % en deux séances quand la demande des mineurs s'effondre, selon les plaignants ; en 2021, un juge rejette l'affaire ; en 2023, une cour d'appel la relance ; en décembre 2024, la Cour suprême écarte l'appel de Nvidia ; en mars 2026, le recours collectif est certifié ; en novembre 2026, un accord de 290 millions de dollars est déposé",
+ "de": "Zeitleiste des Nvidia-Verfahrens zum Krypto-Mining: Im November 2018 fiel die Aktie laut den Klägern in zwei Handelstagen um 28,5 %, als die Mining-Nachfrage wegbrach; 2021 wies ein Richter die Klage ab; 2023 ließ ein Berufungsgericht sie wieder zu; im Dezember 2024 verwarf der Supreme Court Nvidias Berufung; im März 2026 wurde die Sammelklage zugelassen; im November 2026 wurde ein Vergleich über 290 Millionen Dollar eingereicht",
+ "ru": "Хронология дела Nvidia о майнинге: в ноябре 2018 года, по словам истцов, акции упали на 28,5% за две торговые сессии на фоне падения спроса майнеров; в 2021 году судья отклонил иск; в 2023 году апелляционный суд возобновил дело; в декабре 2024 года Верховный суд отклонил апелляцию Nvidia; в марте 2026 года иск признан коллективным; в ноябре 2026 года подано мировое соглашение на $290 млн",
+ "tr": "Nvidia kripto madenciliği davasının zaman çizelgesi: davacılara göre Kasım 2018'de madenci talebi azalınca hisse iki seansta %28,5 düştü; 2021'de bir hakim davayı düşürdü; 2023'te bir temyiz mahkemesi davayı yeniden açtı; Aralık 2024'te Yüksek Mahkeme Nvidia'nın temyizini reddetti; Mart 2026'da toplu dava onaylandı; Kasım 2026'da 290 milyon dolarlık uzlaşma sunuldu",
+ "id": "Linimasa kasus Nvidia terkait penambangan kripto: pada November 2018 saham turun 28,5% dalam dua sesi saat permintaan penambang memudar, menurut penggugat; pada 2021 hakim menolak gugatan; pada 2023 pengadilan banding menghidupkannya kembali; pada Desember 2024 Mahkamah Agung membatalkan banding Nvidia; pada Maret 2026 gugatan disahkan sebagai class action; pada November 2026 penyelesaian US$290 juta diajukan",
+ "ja": "Nvidiaの暗号資産マイニング訴訟の年表：原告によると2018年11月、マイニング需要の減退で株価が2営業日で28.5%下落。2021年に裁判官が訴えを棄却。2023年に控訴裁判所が審理を復活。2024年12月に最高裁がNvidiaの上訴を退ける。2026年3月に集団訴訟として認定。2026年11月に2億9000万ドルの和解案を提出",
+ "ko": "Nvidia 암호화폐 채굴 소송 타임라인: 원고 측에 따르면 2018년 11월 채굴 수요가 줄면서 주가가 이틀 동안 28.5% 하락했다. 2021년 판사가 소송을 기각했다. 2023년 항소법원이 소송을 되살렸다. 2024년 12월 대법원이 Nvidia의 상고를 각하했다. 2026년 3월 집단소송으로 인정됐다. 2026년 11월 2억9000만 달러 합의안이 제출됐다",
+}
+
+
 BUILDERS = {
+    "doj-scam-crackdown-800-defendants-1-billion-crypto-frozen-nov-2026": "dojscam",
+    "nvidia-290-million-settlement-crypto-mining-lawsuit-nov-2026": "nvdasettle",
     "bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026": "btc58pce",
     "bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026": "bullpen",
     "fidelity-crypto-adds-aave-link-uni-nov-2026": "fiddefi",
@@ -5852,7 +5966,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "btc58pce":
+    if key == "dojscam":
+        figs = build_doj_scam_surge()
+    elif key == "nvdasettle":
+        figs = build_nvidia_settlement()
+    elif key == "btc58pce":
         figs = build_btc_58k_pce()
     elif key == "bullpen":
         figs = build_bullpen_takeover()

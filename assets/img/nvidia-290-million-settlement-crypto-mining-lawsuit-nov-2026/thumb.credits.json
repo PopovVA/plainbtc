@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Nvidia_logo.svg",
+      "license": "Public domain (logo)",
+      "url": "https://commons.wikimedia.org/wiki/File:Nvidia_logo.svg",
+      "credit": "NVIDIA"
+    },
+    {
+      "file": "Kessler Topaz, Nov. 25, 2026",
+      "license": "Facts cited",
+      "url": "https://www.ktmc.com/news/kessler-topaz-secures-290-million-settlement-for-nvidia-investors-following-victory-at-u-s-supreme-court",
+      "credit": "Kessler Topaz"
+    },
+    {
+      "file": "The Block, Nov. 25, 2026",
+      "license": "Facts cited",
+      "url": "https://www.theblock.co/news/regulation/2026-11-25-nvidia-290-million-settlement-crypto-mining-class-action-446709",
+      "credit": "The Block"
+    }
+  ],
+  "note": "Editorial composite; logo for identification only; the graphics card is a generic drawing, not an Nvidia product photo.",
+  "slug": "nvidia-290-million-settlement-crypto-mining-lawsuit-nov-2026",
+  "generated": "2026-11-25T19:03Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

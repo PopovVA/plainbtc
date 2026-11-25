@@ -1,0 +1,59 @@
+title: Nvidia, 2017-2018 patlamasında kripto madencilerine yaptığı satışlarla ilgili yatırımcı davasını kapatmak için 290 milyon dolar ödemeyi kabul etti
+page_title: Nvidia kripto madenciliği davasını kapatmak için 290 milyon dolar ödeyecek
+description: Nvidia, 2017-2018'deki oyun çipi satışlarının ne kadarının kripto madencilerinden geldiğini gizlediği iddia edilen toplu davada 290 milyon dolarlık uzlaşmayı kabul etti. 24 Kasım 2026'da sunulan anlaşma hâlâ mahkeme onayı bekliyor.
+og_description: Çip üreticisi Nvidia, kripto madencilerinin 2017 ve 2018'de ekran kartlarına olan talebiyle ilgili yedi yıllık yatırımcı davasını bitirmek için, hakim onaylarsa, 290 milyon dolar ödeyecek. Dava neyle ilgiliydi ve kripto patlamaları neden sektörün çok dışındaki şirketleri de etkileyebilir?
+label: İş dünyası
+summary: Nvidia, 2018 kripto çöküşünden önce oyun çipi satışlarının ne kadarının kripto madencilerinden geldiğini küçümsediği iddia edilen hissedar toplu davasını kapatmak için 290 milyon dolar ödemeyi kabul etti. Avukatlar anlaşmayı 24 Kasım'da sundu; Kaliforniya'daki federal hakimin onayı hâlâ gerekiyor.
+===
+
+Dünyanın en değerli şirketi Nvidia, 2017 kripto patlamasına uzanan bir davayı bitirmek için <strong>290 milyon dolar</strong> ödemeyi kabul etti. Yatırımcılar, çip üreticisinin ve CEO'su <strong>Jensen Huang</strong>'ın ekran kartı satışlarının ne kadarının kripto madencilerinden geldiğini küçümsediğini ve bu talep 2018'de çökünce hissedarları korumasız bıraktığını iddia etti.
+
+Yatırımcıların avukatları, 24 Kasım Salı günü ABD Kaliforniya Kuzey Bölgesi Federal Mahkemesi'nden [anlaşmanın onaylanmasını istedi](L1). Hakim onaylarsa, Kessler Topaz hukuk bürosuna göre bu, 1995'ten bu yana o bölgedeki yedinci büyük menkul kıymet toplu dava uzlaşması olacak.
+
+!takeaways
+- Nvidia, 2017 ve 2018'deki kripto madenciliği talebiyle ilgili hissedar toplu davasını kapatmak için 290 milyon dolar ödemeyi kabul etti.
+- Yatırımcılar, Nvidia'nın madencilere satılan çipleri "oyun" büyümesi olarak gösterdiğini ve madencilik talebi düştüğünde riski açıklamadığını söylüyor.
+- Anlaşmanın hâlâ mahkeme onayına ihtiyacı var. Nvidia, büyük kısmını sigortacıların ödeyeceğini söylüyor; yatırımcıların avukatları 62 milyon dolara kadar ücret istiyor.
+- Nvidia, benzer açıklamalar nedeniyle 2022'de SEC'e 5,5 milyon dolar ceza ödemişti; bulguları kabul etmedi ve reddetmedi.
+
+!figure:fact
+
+## Dava neyle ilgiliydi
+
+2017'de bitcoin ve ether fiyatları fırladı. O dönemde ether, oyuncuların kullandığı sıradan ekran kartlarıyla (GPU) "madencilikle" üretilebiliyordu. Madenciler bu kartları toplu halde aldı ve Nvidia'nın oyun gelirleri sıçradı.
+
+İsveçli portföy yöneticisi Lannebo Kapitalförvaltning'in öncülük ettiği yatırımcılar, Nvidia'nın bu büyümenin büyük kısmının madencilerden geldiğini bildiğini ama bunu çoğunlukla oyun talebi olarak tanımladığını söyledi. 2018'de kripto fiyatları çökünce madenci talebi kayboldu ve Nvidia'nın elinde fazla çip kaldı. [The Block](L2)'un aktardığına göre davacılar, kötü haberlerin Kasım 2018'de iki işlem gününde Nvidia hissesinde <strong>%28,5 düşüşe</strong> katkıda bulunduğunu söyledi.
+
+SEC de 2022'de benzer bir sonuca vardı. [Kararında](L4), Nvidia'nın 2018 mali yılında kripto madenciliğinin oyun gelirlerindeki büyümenin önemli bir kısmı olduğunu açıklamadığını tespit etti. Nvidia bulguları kabul etmeden veya reddetmeden 5,5 milyon dolar ceza ödedi.
+
+## Anlaşmaya giden uzun yol
+
+Dava yıllarca mahkemeler arasında gidip geldi. Bir hakim 2021'de davayı düşürdü, ancak bir temyiz mahkemesi 2023'te yeniden açtı. Nvidia davayı ABD Yüksek Mahkemesi'ne taşıdı; mahkeme tarafları dinledi ve Aralık 2024'te temyizi "yanlışlıkla kabul edilmiş" sayarak düşürdü, yani davayı hiç almaması gerektiğini söyledi. 25 Mart 2026'da hakim davayı toplu dava olarak onayladı ve bu da uzlaşmanın yolunu açtı.
+
+!figure:timeline
+
+The Block'a göre Nvidia, 290 milyon doların büyük kısmını sigortacılarının karşılayacağını söyledi; davacıların avukatları bu tutardan 62 milyon dolara kadar ücret istiyor. [Bloomberg Law](L3)'un belirttiği gibi bu dava, Huang'ın kişisel davranışlarıyla ilgili daha yeni hissedar davalarından ayrı. Nvidia yönetim kurulu Huang'ı pazartesi günü yeniden CEO olarak göreve getirdi.
+
+!mid_cta
+
+## Kripto yatırımcıları için neden önemli
+
+Bu anlaşma sekiz yıl önceki olaylarla ilgili ve bugünkü bitcoin için hiçbir şeyi değiştirmiyor. Ama kripto döngülerinin genel ekonomiye nasıl taştığını iyi hatırlatıyor.
+
+Kripto fiyatları patladığında, sektöre satış yapan şirketlerin, örneğin çip üreticileri, madenciler ve borsaların satışları sıçrayabilir. Fiyatlar düştüğünde bu talep hızla yok olabilir. Ether'in GPU ile madenciliği, Ethereum'un Eylül 2022'de hisse ispatına (proof of stake) geçmesiyle tamamen sona erdi. Bitcoin madenciliği bugün oyun kartlarıyla değil, özel makinelerle yapılıyor.
+
+Yatırımcılar için ders, bir şirketin büyümesinin gerçekte nereden geldiğine bakmak. Kriptoya bağlı gelir gerçek ama çok oynak olabilir ve şirketlerin bunu açıklaması beklenir. Doğrudan kripto sahibi olmayı tercih ederseniz, [Coinbase](REF) gibi ABD'de düzenlenen bir borsadan küçük miktarlar alabilirsiniz, ama yalnızca değerinin dalgalanmasını göze alabileceğiniz parayla.
+
+Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Hakim Haywood S. Gilliam Jr.'ın ön onay verip vermeyeceği ve nihai onay için duruşma tarihi belirleyip belirlemeyeceği.
+- 2017-2018 dönemindeki hak sahibi hissedarların bildirim gönderildikten sonra nasıl başvuru yapabileceği.
+- Bu ay sert dalgalanan Nvidia hissesinin, teknoloji hisseleri baskı altındayken nasıl işlem göreceği.
+
+!soft: Fon mu, kendi coinleriniz mi diye mi düşünüyorsunuz? Okuyun: [bitcoin ETF mi, bitcoin almak mı](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

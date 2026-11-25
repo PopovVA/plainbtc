@@ -1,0 +1,64 @@
+[
+  {
+    "id": "fact",
+    "file": "fact-nvidia-290-million-settlement.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: Nvidia agreed to a proposed $290 million settlement of a crypto mining class action on Nov. 24, 2026; it still needs court approval, insurers pay most of it, and lawyers seek up to $62 million in fees",
+      "es": "Tarjeta: el 24 de noviembre de 2026 Nvidia aceptó un acuerdo propuesto de 290 millones de dólares en una demanda colectiva por la minería de criptomonedas; aún necesita aprobación judicial, las aseguradoras pagan la mayor parte y los abogados piden hasta 62 millones en honorarios",
+      "pt": "Cartão: em 24 de novembro de 2026 a Nvidia aceitou um acordo proposto de US$ 290 milhões em uma ação coletiva sobre mineração de criptomoedas; ainda precisa de aprovação judicial, as seguradoras pagam a maior parte e os advogados pedem até US$ 62 milhões em honorários",
+      "fr": "Fiche : le 24 novembre 2026, Nvidia a accepté un projet d'accord de 290 millions de dollars dans un recours collectif lié au minage de cryptos ; il doit encore être approuvé par le tribunal, les assureurs en paient la majeure partie et les avocats demandent jusqu'à 62 millions d'honoraires",
+      "de": "Faktenkarte: Am 24. November 2026 stimmte Nvidia einem vorgeschlagenen Vergleich über 290 Millionen Dollar in einer Sammelklage zum Krypto-Mining zu; das Gericht muss noch zustimmen, Versicherer zahlen den Großteil, die Anwälte fordern bis zu 62 Millionen an Honorar",
+      "ru": "Карточка: 24 ноября 2026 года Nvidia согласилась на предложенное мировое соглашение на $290 млн по коллективному иску о майнинге криптовалют; его еще должен одобрить суд, большую часть оплатят страховщики, а юристы просят до $62 млн гонорара",
+      "tr": "Bilgi kartı: Nvidia 24 Kasım 2026'da kripto madenciliğiyle ilgili toplu davada önerilen 290 milyon dolarlık uzlaşmayı kabul etti; mahkeme onayı hâlâ gerekiyor, büyük kısmını sigortacılar ödüyor ve avukatlar 62 milyon dolara kadar ücret istiyor",
+      "id": "Kartu fakta: pada 24 November 2026 Nvidia menyetujui usulan penyelesaian US$290 juta dalam gugatan class action terkait penambangan kripto; masih perlu persetujuan pengadilan, sebagian besar dibayar perusahaan asuransi, dan pengacara meminta biaya hingga US$62 juta",
+      "ja": "ファクトカード：2026年11月24日、Nvidiaは暗号資産マイニングをめぐる集団訴訟で2億9000万ドルの和解案に合意。裁判所の承認がまだ必要で、大半は保険会社が負担し、弁護士は最大6200万ドルの報酬を求めている",
+      "ko": "팩트 카드: 2026년 11월 24일 Nvidia가 암호화폐 채굴 관련 집단소송에서 2억9000만 달러 합의안에 동의했다. 아직 법원 승인이 필요하고, 대부분은 보험사가 내며, 변호인단은 최대 6200만 달러의 수임료를 요구한다"
+    },
+    "caption": {
+      "en": "Source: Kessler Topaz; The Block, Nov. 25, 2026",
+      "es": "Fuente: Kessler Topaz; The Block, Nov. 25, 2026",
+      "pt": "Fonte: Kessler Topaz; The Block, Nov. 25, 2026",
+      "fr": "Source : Kessler Topaz; The Block, Nov. 25, 2026",
+      "de": "Quelle: Kessler Topaz; The Block, Nov. 25, 2026",
+      "ru": "Источник: Kessler Topaz; The Block, Nov. 25, 2026",
+      "tr": "Kaynak: Kessler Topaz; The Block, Nov. 25, 2026",
+      "id": "Sumber: Kessler Topaz; The Block, Nov. 25, 2026",
+      "ja": "出典: Kessler Topaz; The Block, Nov. 25, 2026",
+      "ko": "출처: Kessler Topaz; The Block, Nov. 25, 2026"
+    }
+  },
+  {
+    "id": "timeline",
+    "file": "timeline-nvidia-crypto-mining-case-2018-2026.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline of the Nvidia crypto mining case: in November 2018 the stock fell 28.5% over two sessions as mining demand faded, according to plaintiffs; in 2021 a judge dismissed the case; in 2023 an appeals court revived it; in December 2024 the Supreme Court dropped Nvidia's appeal; in March 2026 the class was certified; in November 2026 a $290 million settlement was filed",
+      "es": "Cronología del caso de Nvidia por la minería de criptomonedas: en noviembre de 2018 la acción cayó un 28,5% en dos sesiones al desvanecerse la demanda minera, según los demandantes; en 2021 un juez desestimó el caso; en 2023 un tribunal de apelaciones lo reactivó; en diciembre de 2024 el Tribunal Supremo descartó la apelación de Nvidia; en marzo de 2026 se certificó la demanda colectiva; en noviembre de 2026 se presentó un acuerdo de 290 millones de dólares",
+      "pt": "Linha do tempo do caso da Nvidia sobre mineração de criptomoedas: em novembro de 2018 a ação caiu 28,5% em dois pregões com o fim da demanda dos mineradores, segundo os autores; em 2021 um juiz arquivou o caso; em 2023 um tribunal de apelação o reabriu; em dezembro de 2024 a Suprema Corte descartou o recurso da Nvidia; em março de 2026 a ação coletiva foi certificada; em novembro de 2026 foi apresentado um acordo de US$ 290 milhões",
+      "fr": "Chronologie de l'affaire Nvidia sur le minage de cryptos : en novembre 2018, l'action chute de 28,5 % en deux séances quand la demande des mineurs s'effondre, selon les plaignants ; en 2021, un juge rejette l'affaire ; en 2023, une cour d'appel la relance ; en décembre 2024, la Cour suprême écarte l'appel de Nvidia ; en mars 2026, le recours collectif est certifié ; en novembre 2026, un accord de 290 millions de dollars est déposé",
+      "de": "Zeitleiste des Nvidia-Verfahrens zum Krypto-Mining: Im November 2018 fiel die Aktie laut den Klägern in zwei Handelstagen um 28,5 %, als die Mining-Nachfrage wegbrach; 2021 wies ein Richter die Klage ab; 2023 ließ ein Berufungsgericht sie wieder zu; im Dezember 2024 verwarf der Supreme Court Nvidias Berufung; im März 2026 wurde die Sammelklage zugelassen; im November 2026 wurde ein Vergleich über 290 Millionen Dollar eingereicht",
+      "ru": "Хронология дела Nvidia о майнинге: в ноябре 2018 года, по словам истцов, акции упали на 28,5% за две торговые сессии на фоне падения спроса майнеров; в 2021 году судья отклонил иск; в 2023 году апелляционный суд возобновил дело; в декабре 2024 года Верховный суд отклонил апелляцию Nvidia; в марте 2026 года иск признан коллективным; в ноябре 2026 года подано мировое соглашение на $290 млн",
+      "tr": "Nvidia kripto madenciliği davasının zaman çizelgesi: davacılara göre Kasım 2018'de madenci talebi azalınca hisse iki seansta %28,5 düştü; 2021'de bir hakim davayı düşürdü; 2023'te bir temyiz mahkemesi davayı yeniden açtı; Aralık 2024'te Yüksek Mahkeme Nvidia'nın temyizini reddetti; Mart 2026'da toplu dava onaylandı; Kasım 2026'da 290 milyon dolarlık uzlaşma sunuldu",
+      "id": "Linimasa kasus Nvidia terkait penambangan kripto: pada November 2018 saham turun 28,5% dalam dua sesi saat permintaan penambang memudar, menurut penggugat; pada 2021 hakim menolak gugatan; pada 2023 pengadilan banding menghidupkannya kembali; pada Desember 2024 Mahkamah Agung membatalkan banding Nvidia; pada Maret 2026 gugatan disahkan sebagai class action; pada November 2026 penyelesaian US$290 juta diajukan",
+      "ja": "Nvidiaの暗号資産マイニング訴訟の年表：原告によると2018年11月、マイニング需要の減退で株価が2営業日で28.5%下落。2021年に裁判官が訴えを棄却。2023年に控訴裁判所が審理を復活。2024年12月に最高裁がNvidiaの上訴を退ける。2026年3月に集団訴訟として認定。2026年11月に2億9000万ドルの和解案を提出",
+      "ko": "Nvidia 암호화폐 채굴 소송 타임라인: 원고 측에 따르면 2018년 11월 채굴 수요가 줄면서 주가가 이틀 동안 28.5% 하락했다. 2021년 판사가 소송을 기각했다. 2023년 항소법원이 소송을 되살렸다. 2024년 12월 대법원이 Nvidia의 상고를 각하했다. 2026년 3월 집단소송으로 인정됐다. 2026년 11월 2억9000만 달러 합의안이 제출됐다"
+    },
+    "caption": {
+      "en": "Source: The Block; Kessler Topaz, Nov. 25, 2026",
+      "es": "Fuente: The Block; Kessler Topaz, Nov. 25, 2026",
+      "pt": "Fonte: The Block; Kessler Topaz, Nov. 25, 2026",
+      "fr": "Source : The Block; Kessler Topaz, Nov. 25, 2026",
+      "de": "Quelle: The Block; Kessler Topaz, Nov. 25, 2026",
+      "ru": "Источник: The Block; Kessler Topaz, Nov. 25, 2026",
+      "tr": "Kaynak: The Block; Kessler Topaz, Nov. 25, 2026",
+      "id": "Sumber: The Block; Kessler Topaz, Nov. 25, 2026",
+      "ja": "出典: The Block; Kessler Topaz, Nov. 25, 2026",
+      "ko": "출처: The Block; Kessler Topaz, Nov. 25, 2026"
+    }
+  }
+]
