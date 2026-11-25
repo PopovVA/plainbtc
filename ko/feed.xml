@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ko/</link>
     <description>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:35:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ko/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>연준이 가장 중시하는 물가 지표 3.8%로 상승, 비트코인은 5만8000달러로 밀리며 8주 연속 하락 눈앞</title>
+      <link>https://plainbtc.com/ko/articles/bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 14:35:00 GMT</pubDate>
+      <category>시장</category>
+      <description>10월 PCE 물가 상승률이 3.8%로 나오고 근원 물가가 예상을 조금 웃돌자 비트코인은 수요일 약 5만8000달러로 떨어졌다. 미국의 새 관세 보도에 주가 선물이 밀렸고, 현물 비트코인 ETF는 6일째 자금이 빠졌으며, 비트코인은 11월에 약 25% 하락했다.</description>
+    </item>
+    <item>
+      <title>암호화폐 앱 Bullpen "해커가 구형 베타 계정 19개 탈취"… 트레이더 Ansem의 가져온 지갑에서 약 257만 달러 빠져나가</title>
+      <link>https://plainbtc.com/ko/articles/bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 14:30:00 GMT</pubDate>
+      <category>보안</category>
+      <description>암호화폐 트레이딩 앱 Bullpen은 공격자가 2024년 베타 시절 계정 19개를 탈취했다고 밝혔다. 공동 창업자이자 트레이더인 Ansem의 계정도 포함됐으며, 개인 키를 앱에 가져온 지갑들이 비워졌다. 약 257만 달러가 옮겨졌고 ANSEM은 약 55% 떨어졌으며 Bullpen은 구형 시스템을 종료했다.</description>
+    </item>
     <item>
       <title>Fidelity Crypto, 첫 DeFi 토큰으로 Aave·Chainlink·Uniswap 추가... 세 코인은 한 달 새 23~32% 하락</title>
       <link>https://plainbtc.com/ko/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</link>

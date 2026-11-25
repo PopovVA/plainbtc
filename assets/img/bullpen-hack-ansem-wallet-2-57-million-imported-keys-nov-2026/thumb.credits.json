@@ -1,0 +1,28 @@
+{
+  "kind": "diagram",
+  "sources": [
+    {
+      "file": "Bullpen posts on X, Nov. 24-25, 2026",
+      "license": "Facts cited",
+      "url": "https://x.com/BullpenFi/status/2125314569136463949",
+      "credit": "Bullpen"
+    },
+    {
+      "file": "The Block, Nov. 24, 2026",
+      "license": "Facts cited",
+      "url": "https://www.theblock.co/news/defi/2026-11-24-ansem-denies-involvement-2-57-million-wallet-drain-black-bull-creator-coin-plummets-55-445705",
+      "credit": "Lookonchain via The Block"
+    }
+  ],
+  "note": "Editorial diagram drawn by PlainBTC; no company logos used.",
+  "slug": "bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026",
+  "generated": "2026-11-25T14:09Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

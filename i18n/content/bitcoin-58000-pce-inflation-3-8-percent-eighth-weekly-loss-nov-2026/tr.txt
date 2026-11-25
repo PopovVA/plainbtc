@@ -1,0 +1,59 @@
+title: Fed'in en çok izlediği enflasyon göstergesi %3,8'e çıkarken bitcoin 58.000 dolara geriledi; üst üste sekizinci haftalık kayba ilerliyor
+page_title: PCE enflasyonu %3,8 olurken bitcoin 58.000 dolara düştü
+description: Bitcoin, ekim ayı PCE enflasyonunun %3,8, çekirdek PCE'nin ise beklentinin üzerinde %3,3 gelmesinin ardından 25 Kasım 2026'da yaklaşık 58.000 dolara düştü. Kasımda yaklaşık %25 değer kaybetti ve üst üste sekizinci haftalık kayba ilerliyor.
+og_description: Fed'in tercih ettiği enflasyon göstergesi ekimde %3,8'e yükseldi, çekirdek PCE beklentinin biraz üzerinde %3,3 oldu. Bitcoin yaklaşık 58.000 dolara geriledi, hisseler yeni gümrük vergisi haberleriyle düştü ve spot bitcoin ETF'leri üst üste altıncı gün para çıkışı yaşadı.
+label: Piyasa
+summary: Ekim ayı PCE enflasyonu %3,8 gelip çekirdek fiyatlar beklentinin biraz üzerinde çıkınca bitcoin çarşamba günü yaklaşık 58.000 dolara düştü. Hisse vadelileri yeni ABD gümrük vergisi haberleriyle geriledi, spot bitcoin ETF'leri altıncı gün para kaybetti ve bitcoin kasımda yaklaşık %25 düştü.
+===
+
+Bitcoin'deki düşüş 25 Kasım çarşamba günü yeniden hızlandı. Fiyat, ABD Merkez saatiyle sabah 8'e kadar Kraken'de yaklaşık <strong>58.000 dolara</strong> indi. Bu, salı kapanışının yaklaşık %3 altı. Düşüş, ABD'de açıklanan yeni bir enflasyon verisinin ve hisse vadelilerindeki yeni bir gerilemenin ardından geldi.
+
+Açıklanan veri, Federal Rezerv'in en yakından izlediği enflasyon göstergesi olan kişisel tüketim harcamaları (PCE) fiyat endeksiydi. [CNBC](L1)'ye göre fiyatlar ekime kadar olan bir yılda <strong>%3,8</strong> arttı. Bu, beklentilerle uyumlu ama eylüldeki %3,6'nın üzerinde. Gıda ve enerjiyi dışarıda bırakan çekirdek PCE ise ekonomistlerin beklediği %3,2'nin biraz üzerinde, <strong>%3,3</strong> arttı.
+
+!takeaways
+- Ekim ayı PCE enflasyonu yıllık %3,8 oldu, Fed'in %2 hedefinin neredeyse iki katı. Çekirdek PCE beklentinin biraz üzerinde %3,3 geldi.
+- Bitcoin çarşamba sabahı Kraken'de yaklaşık 58.000 dolara düştü, ekim sonuna göre yaklaşık %25 aşağıda.
+- CoinDesk'e göre bitcoin üst üste sekizinci haftalık kayba ilerliyor. Yalnızca 2022'deki dokuz haftalık seri daha uzun sürdü.
+- Farside Investors'a göre ABD spot bitcoin ETF'leri salı günü 231,4 milyon dolar kaybetti; bu, üst üste altıncı çıkış günü.
+- CNBC'ye göre piyasalar Fed'in 8-9 Aralık toplantısında çeyrek puanlık faiz artışını tamamen fiyatlıyor.
+
+!figure:chart
+
+## Enflasyon verisi bitcoin'i neden etkiler
+
+Enflasyon yüksek olduğunda Fed faizleri yüksek tutma ya da artırma eğiliminde olur. Faizler yükseldiğinde ABD Hazine tahvilleri gibi güvenli varlıklar daha fazla getiri sağlar; teknoloji hisseleri ve kripto paralar gibi riskli varlıklar ise çoğu zaman alıcı kaybeder. CNBC, piyasanın Fed'in 8 ve 9 Aralık'taki toplantısında çeyrek puanlık artışı zaten tamamen fiyatladığını, çarşamba verilerinin de bunu pek değiştirmediğini söyledi.
+
+Diğer veriler güçlü bir ekonomiye işaret etti; bu da Fed'i tetikte tutabilir. [CoinDesk'in canlı yayınına](L2) göre üçüncü çeyrek büyümesi yıllık %3,4'ten %4,3'e yukarı revize edildi, haftalık işsizlik başvuruları da 186.000'e geriledi. Bitcoin, Doğu saatiyle 8:30'daki açıklamanın hemen ardından yaklaşık 58.500 dolara indi ve düşmeye devam etti.
+
+!figure:fact
+
+## Hisseler ve gümrük vergileri baskıyı artırıyor
+
+Düşen yalnızca kripto değildi. [CoinDesk'in aktardığına](L4) göre, ABD'nin büyük ticaret ortaklarına yeni gümrük vergileri koyacağı haberleriyle Güney Kore'nin ana borsa endeksi %6'dan fazla düştükten sonra Nasdaq-100 vadelileri açılıştan önce %2'den fazla geriledi. CoinDesk'e göre Bloomberg, yönetimin çarşamba günü ilerleyen saatlerde yeni bir gümrük vergisi planını resmen açıklamasının beklendiğini bildirdi.
+
+Diğer büyük coinler bitcoin'den daha fazla düştü. Kraken'de çarşamba sabahı ether yaklaşık 1.628 dolardan, solana yaklaşık 66,60 dolardan, XRP ise yaklaşık 89 sentten işlem gördü; her biri salıya göre yaklaşık %3 ile %4 arasında düşüştü.
+
+!mid_cta
+
+## ETF yatırımcıları para çekmeyi sürdürüyor
+
+Büyük fonlar çıkışa devam ediyor. [Farside Investors](L3)'a göre ABD spot bitcoin ETF'leri 24 Kasım salı günü net 231,4 milyon dolar kaybetti. Bu, üst üste altıncı kayıp günüydü, ancak pazartesi günkü 569,7 milyon doların yarısından azdı. BlackRock'ın iShares Bitcoin Trust (IBIT) fonu 175,3 milyon dolarlık çıkışın sahibiydi. Kasım çıkışları şimdiden yaklaşık 4,94 milyar dolara ulaştı ve bu fonlar için bir [aylık rekor](/articles/bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026) oldu.
+
+Kraken'in günlük kapanışlarına göre bitcoin 31 Ekim'den bu yana yaklaşık %25 değer kaybetti. Ayı bu seviyelerde kapatırsa kasım, haziranın da önünde 2026'nın en kötü ayı olacak. CoinDesk, bunun bitcoin'in %38 düştüğü Haziran 2022'den bu yana en kötü ay olacağını söyledi. Fiyat hâlâ, 21 Kasım cumartesi günü Kraken'de yaşanan [sert çöküş ve toparlanma](/articles/bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026) sırasında görülen yaklaşık 55.100 dolarlık 2026 dibinin üzerinde.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Düşen bir fiyat indirim gibi de görünebilir, uyarı gibi de; hangisi olduğunu önceden kimse bilemez. Bitcoin'e uzun vadede inanan bazı kişiler dibi tahmin etmeye çalışmak yerine düzenli aralıklarla küçük sabit tutarlarda alım yapar. Yeni başlıyorsanız yakında ihtiyaç duymayacağınız parayı kullanın, küçük alımlar yapın ve almadan önce [Coinbase](REF) gibi her uygulamanın ya da borsanın ücretlerini kontrol edin. Kripto fiyatları haftalarca düşmeye devam edebilir. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- ABD piyasaları perşembe günü Şükran Günü nedeniyle kapalı, cuma günü de erken kapanacak; bu yüzden işlemler sığ, fiyatlar oynak olabilir.
+- Yeni ABD gümrük vergisi planının resmi ayrıntıları ve hisselerin tepkisi.
+- Faiz artışının geniş çapta beklendiği 8-9 Aralık Fed toplantısı.
+- Altı günlük serinin ardından ETF çıkışlarının yavaşlayıp yavaşlamayacağı.
+
+!soft: Yeni mi başlıyorsunuz? [Yeni başlayan biri ne kadar bitcoin almalı](/articles/how-much-bitcoin-should-a-beginner-buy-dca) sorusunu anlatan sade rehberimizi okuyun
+
+!end_cta
+
+!disclosure

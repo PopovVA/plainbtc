@@ -1,0 +1,65 @@
+title: Crypto app Bullpen says a hacker took over 19 old beta accounts, draining about $2.57 million from trader Ansem's imported wallet
+page_title: Bullpen hack: Ansem's imported wallet drained of $2.57 million
+description: Trading app Bullpen says an attacker took over 19 early beta accounts on Nov. 24, 2026, including trader Ansem's, and drained wallets imported with private keys. About $2.57 million moved; 99.8% came from one account.
+og_description: A hacker got into 19 old Bullpen beta accounts and emptied wallets whose private keys had been imported into the app. About $2.57 million moved from trader Ansem's wallet and his ANSEM memecoin fell about 55%. What happened and how to protect yourself.
+label: Security
+summary: Bullpen, a crypto trading app, says an attacker took over 19 accounts from its 2024 beta, including that of co-founder and trader Ansem, and drained wallets whose private keys were imported into the app. About $2.57 million moved, ANSEM fell about 55%, and Bullpen has shut the old system down.
+===
+
+A well-known crypto trader's wallet was emptied on Tuesday, Nov. 24, and the trading app he helped start now says it was a break-in. <strong>Bullpen</strong>, a crypto trading terminal, said an attacker took over <strong>19 accounts</strong> opened during its early beta, between April and June 2024, including the account of <strong>Ansem</strong>, the trader whose real name is Zion Thomas and who co-founded the app.
+
+Because those users had imported their wallets into Bullpen using their private keys, the attacker could move their coins too. About <strong>$2.57 million</strong> in USDC ended up at an address on the Arbitrum network, according to blockchain trackers cited by [The Block](L5) and [Decrypt](L6).
+
+!takeaways
+- Bullpen says an attacker took over 19 accounts from its April to June 2024 beta, including Ansem's, and drained wallets imported with private keys.
+- About $2.57 million in USDC was moved to an Arbitrum address. Bullpen says 99.8% of the stolen money came from a single account.
+- Ansem's namesake memecoin, The Black Bull (ANSEM), fell about 55% on the day to under 2 cents.
+- Bullpen says it has permanently shut down the old system the attacker used and is working with the FBI to trace the funds.
+- Bullpen has not said how the accounts were reached, how much was taken in total, or whether victims will be repaid.
+
+!figure:timeline
+
+## What happened
+
+The selling started at about 2:34 a.m. Central time on Tuesday. A Solana wallet that analytics firm Arkham labels as Ansem's made 877 sales across 124 tokens, including about $1.5 million worth of ANSEM, according to [CoinDesk](L4). The money was swapped into the dollar stablecoin USDC and bridged to Arbitrum, another blockchain.
+
+Ansem wrote on X that his wallet was hacked and that he suspected "unauthorized access to my bullpen profile," where he had imported the wallet's private key. At first, some on-chain researchers doubted him. One analyst pointed out that a wallet he had linked to Ansem funded the receiving address an hour before the sales. Ansem denied any part in it, The Block reported.
+
+At 10:35 a.m. Central time, Bullpen confirmed [unauthorized transfers](L1) involving 18 to 19 beta accounts, which it said were less than 0.005% of its registered accounts. It took the affected test service offline.
+
+!figure:fact
+
+## What Bullpen says now
+
+In an [update at 2:44 p.m. Eastern time](L2), Bullpen said the attacker "took over the Bullpen accounts of a small group of legacy beta tester users," and that any wallet imported into those accounts was exposed too. It called it a targeted attack: the hacker tried other accounts but could reach only that group, and 99.8% of the funds came from one account.
+
+On Wednesday morning, Bullpen said the attack [appears to have targeted Ansem](L3). The attacker got in "through a legacy system" tied to his account and 18 other early testers, and Bullpen says it permanently shut that system down on Tuesday. It is hiring an independent security firm to review its systems and is working with the FBI and other authorities to trace and freeze the money. It says all other users' funds are safe.
+
+!mid_cta
+
+## Why an imported key is a risk
+
+A private key is the master password to a crypto wallet. Whoever has it can move the coins, and the blockchain cannot tell a thief from the owner. Many trading apps let you "import" a wallet by pasting its key, which is convenient for fast trading. But it means the wallet is now only as safe as that app and your account on it. If the account is taken over, the wallet goes with it.
+
+The coins also hit other people. ANSEM fell about 55% on Tuesday to under 2 cents, its lowest since it launched in June, The Block reported. Ansem said in July that he held about 58% of the token's supply, CoinDesk noted, so a big sale from his wallet hit every other holder.
+
+## What it means for beginners
+
+- Never paste your recovery phrase or private key into a website, app or chat unless you fully understand why. Real support staff will never ask for it.
+- If you once imported a wallet into an app you no longer use, consider moving the funds to a fresh wallet whose key has never been shared.
+- Keep long-term savings separate from money you trade. A hardware wallet or a large regulated exchange such as [Coinbase](REF) each have their own risks, so learn how each one protects you.
+- Treat "recovery" messages after a hack as scams. Bullpen says it will never message users first.
+
+This is not financial advice.
+
+## What to watch next
+
+- Which flaw the attacker used, and what the outside security review finds.
+- Whether any of the money is frozen or recovered.
+- Whether Bullpen repays affected users.
+
+!soft: Not sure where your coins should live? Read our guide to [custodial vs. self-custody wallets](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

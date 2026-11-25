@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-bullpen-account-takeover-nov-24-25.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline in U.S. Central time: at 2:34 a.m. on Nov. 24, 2026 a wallet labeled as Ansem's starts selling memecoins; at 10:35 a.m. Bullpen confirms unauthorized transfers in 18 to 19 beta accounts; at 1:44 p.m. Bullpen says the accounts were taken over and imported wallets were exposed; at 7:40 a.m. on Nov. 25 Bullpen says the old system is shut down and an outside security review is planned",
+      "es": "Cronología en hora del centro de EE. UU.: a las 2:34 del 24 de noviembre de 2026 una billetera atribuida a Ansem empieza a vender memecoins; a las 10:35 Bullpen confirma transferencias no autorizadas en 18 a 19 cuentas beta; a las 13:44 Bullpen dice que las cuentas fueron tomadas y las billeteras importadas quedaron expuestas; a las 7:40 del 25 de noviembre Bullpen dice que cerró el sistema antiguo y que habrá una revisión de seguridad externa",
+      "pt": "Linha do tempo no horário central dos EUA: às 2h34 de 24 de novembro de 2026 uma carteira atribuída a Ansem começa a vender memecoins; às 10h35 a Bullpen confirma transferências não autorizadas em 18 a 19 contas beta; às 13h44 a Bullpen diz que as contas foram invadidas e as carteiras importadas ficaram expostas; às 7h40 de 25 de novembro a Bullpen diz que desligou o sistema antigo e que haverá uma auditoria de segurança externa",
+      "fr": "Chronologie à l'heure du centre des États-Unis : à 2 h 34 le 24 novembre 2026, un portefeuille attribué à Ansem commence à vendre des memecoins ; à 10 h 35, Bullpen confirme des transferts non autorisés sur 18 à 19 comptes bêta ; à 13 h 44, Bullpen indique que les comptes ont été piratés et que les portefeuilles importés étaient exposés ; à 7 h 40 le 25 novembre, Bullpen annonce l'arrêt de l'ancien système et un audit de sécurité externe",
+      "de": "Zeitleiste in US-Zentralzeit: Um 2:34 Uhr am 24. November 2026 beginnt eine Ansem zugeordnete Wallet, Memecoins zu verkaufen; um 10:35 Uhr bestätigt Bullpen unbefugte Überweisungen bei 18 bis 19 Beta-Konten; um 13:44 Uhr erklärt Bullpen, die Konten seien übernommen und importierte Wallets offengelegt worden; um 7:40 Uhr am 25. November meldet Bullpen, das alte System sei abgeschaltet und eine externe Sicherheitsprüfung geplant",
+      "ru": "Хронология по центральному времени США: в 2:34 24 ноября 2026 года кошелек, приписываемый Ansem, начинает продавать мемкоины; в 10:35 Bullpen подтверждает несанкционированные переводы с 18–19 бета-аккаунтов; в 13:44 Bullpen сообщает, что аккаунты были захвачены, а импортированные кошельки оказались под угрозой; в 7:40 25 ноября Bullpen сообщает, что старая система отключена и запланирован внешний аудит безопасности",
+      "tr": "ABD Merkez saatiyle zaman çizelgesi: 24 Kasım 2026 saat 2.34'te Ansem'e ait olduğu belirtilen bir cüzdan memecoin satmaya başlıyor; 10.35'te Bullpen 18-19 beta hesabında yetkisiz transferleri doğruluyor; 13.44'te Bullpen hesapların ele geçirildiğini ve içe aktarılan cüzdanların açığa çıktığını söylüyor; 25 Kasım 7.40'ta Bullpen eski sistemin kapatıldığını ve dış güvenlik incelemesi yapılacağını açıklıyor",
+      "id": "Linimasa dalam waktu Central AS: pukul 2.34 pada 24 November 2026 dompet yang dikaitkan dengan Ansem mulai menjual memecoin; pukul 10.35 Bullpen mengonfirmasi transfer tanpa izin di 18 hingga 19 akun beta; pukul 13.44 Bullpen menyatakan akun-akun itu diambil alih dan dompet yang diimpor ikut terekspos; pukul 7.40 pada 25 November Bullpen menyatakan sistem lama dimatikan dan audit keamanan eksternal direncanakan",
+      "ja": "米中部時間のタイムライン：2026年11月24日午前2時34分、Ansemのものとされるウォレットがミームコインの売却を開始。午前10時35分、Bullpenが18〜19のベータアカウントでの不正送金を確認。午後1時44分、Bullpenはアカウントが乗っ取られ、インポートされたウォレットも危険にさらされたと説明。11月25日午前7時40分、旧システムの停止と外部セキュリティ監査の実施を発表",
+      "ko": "미국 중부 시간 타임라인: 2026년 11월 24일 오전 2시 34분 Ansem의 것으로 알려진 지갑이 밈코인 매도를 시작한다. 오전 10시 35분 Bullpen이 베타 계정 18~19개의 무단 이체를 확인한다. 오후 1시 44분 Bullpen은 계정이 탈취돼 가져온 지갑도 노출됐다고 밝힌다. 11월 25일 오전 7시 40분 Bullpen은 구형 시스템을 종료하고 외부 보안 점검을 받겠다고 발표한다"
+    },
+    "caption": {
+      "en": "Source: Bullpen posts on X, CoinDesk, Nov. 24-25, 2026",
+      "es": "Fuente: Bullpen posts on X, CoinDesk, Nov. 24-25, 2026",
+      "pt": "Fonte: Bullpen posts on X, CoinDesk, Nov. 24-25, 2026",
+      "fr": "Source : Bullpen posts on X, CoinDesk, Nov. 24-25, 2026",
+      "de": "Quelle: Bullpen posts on X, CoinDesk, Nov. 24-25, 2026",
+      "ru": "Источник: Bullpen posts on X, CoinDesk, Nov. 24-25, 2026",
+      "tr": "Kaynak: Bullpen posts on X, CoinDesk, Nov. 24-25, 2026",
+      "id": "Sumber: Bullpen posts on X, CoinDesk, Nov. 24-25, 2026",
+      "ja": "出典: Bullpen posts on X, CoinDesk, Nov. 24-25, 2026",
+      "ko": "출처: Bullpen posts on X, CoinDesk, Nov. 24-25, 2026"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-bullpen-2-57-million-19-accounts.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: $2.57 million moved to an Arbitrum address after 19 old Bullpen beta accounts were taken over; Bullpen says 99.8% of the funds came from one account",
+      "es": "Tarjeta: 2,57 millones de dólares se movieron a una dirección de Arbitrum después de que se tomaran 19 cuentas beta antiguas de Bullpen; Bullpen dice que el 99,8% de los fondos salió de una sola cuenta",
+      "pt": "Cartão: US$ 2,57 milhões foram movidos para um endereço na Arbitrum depois que 19 contas beta antigas da Bullpen foram invadidas; a Bullpen diz que 99,8% dos fundos saíram de uma única conta",
+      "fr": "Fiche : 2,57 millions de dollars ont été transférés vers une adresse Arbitrum après le piratage de 19 anciens comptes bêta de Bullpen ; selon Bullpen, 99,8 % des fonds venaient d'un seul compte",
+      "de": "Faktenkarte: 2,57 Millionen $ wurden auf eine Arbitrum-Adresse verschoben, nachdem 19 alte Bullpen-Beta-Konten übernommen wurden; laut Bullpen stammten 99,8 % der Gelder von einem einzigen Konto",
+      "ru": "Карточка: $2,57 млн были переведены на адрес в сети Arbitrum после захвата 19 старых бета-аккаунтов Bullpen; по данным Bullpen, 99,8% средств пришлись на один аккаунт",
+      "tr": "Bilgi kartı: 19 eski Bullpen beta hesabı ele geçirildikten sonra 2,57 milyon dolar bir Arbitrum adresine aktarıldı; Bullpen'e göre fonların %99,8'i tek bir hesaptan geldi",
+      "id": "Kartu fakta: US$2,57 juta dipindahkan ke sebuah alamat Arbitrum setelah 19 akun beta lama Bullpen diambil alih; Bullpen menyebut 99,8% dana berasal dari satu akun",
+      "ja": "ファクトカード：Bullpenの旧ベータアカウント19件が乗っ取られた後、257万ドルがArbitrum上のアドレスに移された。Bullpenによると資金の99.8%は1つのアカウントからだった",
+      "ko": "팩트 카드: Bullpen의 구형 베타 계정 19개가 탈취된 뒤 257만 달러가 아비트럼 주소로 옮겨졌다. Bullpen은 자금의 99.8%가 한 계정에서 나왔다고 밝혔다"
+    },
+    "caption": {
+      "en": "Source: Lookonchain via The Block; Bullpen on X, Nov. 24, 2026",
+      "es": "Fuente: Lookonchain via The Block; Bullpen on X, Nov. 24, 2026",
+      "pt": "Fonte: Lookonchain via The Block; Bullpen on X, Nov. 24, 2026",
+      "fr": "Source : Lookonchain via The Block; Bullpen on X, Nov. 24, 2026",
+      "de": "Quelle: Lookonchain via The Block; Bullpen on X, Nov. 24, 2026",
+      "ru": "Источник: Lookonchain via The Block; Bullpen on X, Nov. 24, 2026",
+      "tr": "Kaynak: Lookonchain via The Block; Bullpen on X, Nov. 24, 2026",
+      "id": "Sumber: Lookonchain via The Block; Bullpen on X, Nov. 24, 2026",
+      "ja": "出典: Lookonchain via The Block; Bullpen on X, Nov. 24, 2026",
+      "ko": "출처: Lookonchain via The Block; Bullpen on X, Nov. 24, 2026"
+    }
+  }
+]

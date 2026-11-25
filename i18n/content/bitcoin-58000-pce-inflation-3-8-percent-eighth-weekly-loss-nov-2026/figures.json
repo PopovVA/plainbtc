@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-daily-closes-november-2026.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin's daily closing price on Kraken from Oct. 31 to Nov. 25, 2026: it starts at $77,437, holds near $74,000 to $80,000 in early November, drops sharply from Nov. 12, and reaches about $58,000 on the morning of Nov. 25, about 25% lower",
+      "es": "Gráfico de líneas del precio de cierre diario de bitcoin en Kraken del 31 de octubre al 25 de noviembre de 2026: empieza en 77.437 dólares, se mantiene entre 74.000 y 80.000 a principios de noviembre, cae con fuerza desde el 12 de noviembre y llega a unos 58.000 dólares la mañana del 25 de noviembre, alrededor de un 25% menos",
+      "pt": "Gráfico de linha do preço de fechamento diário do bitcoin na Kraken de 31 de outubro a 25 de novembro de 2026: começa em US$ 77.437, fica entre US$ 74.000 e US$ 80.000 no início de novembro, cai forte a partir de 12 de novembro e chega a cerca de US$ 58.000 na manhã de 25 de novembro, cerca de 25% abaixo",
+      "fr": "Graphique linéaire du cours de clôture quotidien du bitcoin sur Kraken du 31 octobre au 25 novembre 2026 : il part de 77 437 dollars, reste entre 74 000 et 80 000 dollars début novembre, chute nettement à partir du 12 novembre et atteint environ 58 000 dollars le matin du 25 novembre, soit environ 25 % de moins",
+      "de": "Liniendiagramm der täglichen Bitcoin-Schlusskurse auf Kraken vom 31. Oktober bis 25. November 2026: Start bei 77.437 $, Anfang November zwischen 74.000 und 80.000 $, ab dem 12. November ein starker Rückgang und am Morgen des 25. November rund 58.000 $, etwa 25 % weniger",
+      "ru": "Линейный график дневных цен закрытия биткоина на Kraken с 31 октября по 25 ноября 2026 года: старт на $77 437, в начале ноября цена держится между $74 000 и $80 000, с 12 ноября резко падает и утром 25 ноября достигает около $58 000, примерно на 25% ниже",
+      "tr": "Bitcoin'in 31 Ekim - 25 Kasım 2026 arasında Kraken'deki günlük kapanış fiyatını gösteren çizgi grafik: 77.437 dolardan başlıyor, kasım başında 74.000-80.000 dolar arasında kalıyor, 12 Kasım'dan itibaren sert düşüyor ve 25 Kasım sabahı yaklaşık 58.000 dolara, yani yaklaşık %25 aşağıya iniyor",
+      "id": "Grafik garis harga penutupan harian bitcoin di Kraken dari 31 Oktober hingga 25 November 2026: dimulai di US$77.437, bertahan di kisaran US$74.000 hingga US$80.000 pada awal November, turun tajam sejak 12 November, dan mencapai sekitar US$58.000 pada pagi 25 November, sekitar 25% lebih rendah",
+      "ja": "2026年10月31日から11月25日までのクラーケンにおけるビットコインの日次終値の折れ線グラフ。77,437ドルから始まり、11月上旬は74,000〜80,000ドルで推移、11月12日から急落し、11月25日朝には約58,000ドルと約25%下落",
+      "ko": "2026년 10월 31일부터 11월 25일까지 크라켄 비트코인 일일 종가 선 그래프. 77,437달러에서 시작해 11월 초 74,000~80,000달러에 머물다 11월 12일부터 급락해 11월 25일 아침 약 58,000달러로 약 25% 하락"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken BTC/USD daily closes, Oct. 31 to Nov. 25, 2026",
+      "es": "Gráfico: PlainBTC, datos: Kraken BTC/USD daily closes, Oct. 31 to Nov. 25, 2026",
+      "pt": "Gráfico: PlainBTC, dados: Kraken BTC/USD daily closes, Oct. 31 to Nov. 25, 2026",
+      "fr": "Graphique : PlainBTC, données : Kraken BTC/USD daily closes, Oct. 31 to Nov. 25, 2026",
+      "de": "Chart: PlainBTC, Daten: Kraken BTC/USD daily closes, Oct. 31 to Nov. 25, 2026",
+      "ru": "График: PlainBTC, данные: Kraken BTC/USD daily closes, Oct. 31 to Nov. 25, 2026",
+      "tr": "Grafik: PlainBTC, veri: Kraken BTC/USD daily closes, Oct. 31 to Nov. 25, 2026",
+      "id": "Grafik: PlainBTC, data: Kraken BTC/USD daily closes, Oct. 31 to Nov. 25, 2026",
+      "ja": "チャート: PlainBTC、データ: Kraken BTC/USD daily closes, Oct. 31 to Nov. 25, 2026",
+      "ko": "차트: PlainBTC, 데이터: Kraken BTC/USD daily closes, Oct. 31 to Nov. 25, 2026"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-pce-inflation-october-3-8-percent.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: the U.S. PCE price index rose 3.8% in the year to October 2026, up from 3.6% in September; core PCE was 3.3%, above the 3.2% forecast",
+      "es": "Tarjeta: el índice de precios PCE de EE. UU. subió un 3,8% en el año hasta octubre de 2026, frente al 3,6% de septiembre; el PCE subyacente fue del 3,3%, por encima del 3,2% previsto",
+      "pt": "Cartão: o índice de preços PCE dos EUA subiu 3,8% nos 12 meses até outubro de 2026, ante 3,6% em setembro; o PCE núcleo foi de 3,3%, acima dos 3,2% previstos",
+      "fr": "Fiche : l'indice des prix PCE américain a augmenté de 3,8 % sur un an en octobre 2026, contre 3,6 % en septembre ; le PCE sous-jacent était de 3,3 %, au-dessus des 3,2 % attendus",
+      "de": "Faktenkarte: Der US-Preisindex PCE stieg im Jahr bis Oktober 2026 um 3,8 %, nach 3,6 % im September; der Kern-PCE lag bei 3,3 %, über der Prognose von 3,2 %",
+      "ru": "Карточка: индекс цен PCE в США вырос на 3,8% за год по октябрь 2026 года после 3,6% в сентябре; базовый PCE составил 3,3% при прогнозе 3,2%",
+      "tr": "Bilgi kartı: ABD PCE fiyat endeksi Ekim 2026'ya kadar olan bir yılda %3,8 arttı, eylülde bu oran %3,6'ydı; çekirdek PCE %3,2 beklentinin üzerinde %3,3 oldu",
+      "id": "Kartu fakta: indeks harga PCE AS naik 3,8% dalam setahun hingga Oktober 2026, dari 3,6% pada September; PCE inti 3,3%, di atas perkiraan 3,2%",
+      "ja": "ファクトカード：米PCE物価指数は2026年10月までの1年間で3.8%上昇（9月は3.6%）。コアPCEは3.3%で予想の3.2%を上回った",
+      "ko": "팩트 카드: 미국 PCE 물가지수는 2026년 10월까지 1년간 3.8% 올라 9월의 3.6%보다 높아졌다. 근원 PCE는 3.3%로 예상치 3.2%를 웃돌았다"
+    },
+    "caption": {
+      "en": "Source: U.S. Commerce Department via CNBC, Nov. 25, 2026",
+      "es": "Fuente: U.S. Commerce Department via CNBC, Nov. 25, 2026",
+      "pt": "Fonte: U.S. Commerce Department via CNBC, Nov. 25, 2026",
+      "fr": "Source : U.S. Commerce Department via CNBC, Nov. 25, 2026",
+      "de": "Quelle: U.S. Commerce Department via CNBC, Nov. 25, 2026",
+      "ru": "Источник: U.S. Commerce Department via CNBC, Nov. 25, 2026",
+      "tr": "Kaynak: U.S. Commerce Department via CNBC, Nov. 25, 2026",
+      "id": "Sumber: U.S. Commerce Department via CNBC, Nov. 25, 2026",
+      "ja": "出典: U.S. Commerce Department via CNBC, Nov. 25, 2026",
+      "ko": "출처: U.S. Commerce Department via CNBC, Nov. 25, 2026"
+    }
+  }
+]

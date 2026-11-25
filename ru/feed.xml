@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:35:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Биткоин опустился до $58 000, а любимый индикатор инфляции ФРС вырос до 3,8%; монета идет к восьмой подряд убыточной неделе</title>
+      <link>https://plainbtc.com/ru/articles/bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 14:35:00 GMT</pubDate>
+      <category>Рынок</category>
+      <description>В среду биткоин упал примерно до $58 000 после того, как инфляция PCE за октябрь составила 3,8%, а базовые цены оказались чуть выше прогноза. Фьючерсы на акции снизились на сообщениях о новых пошлинах США, спотовые биткоин-ETF теряли деньги шестой день подряд, а с начала ноября биткоин подешевел примерно на 25%.</description>
+    </item>
+    <item>
+      <title>Криптоприложение Bullpen: хакер захватил 19 старых бета-аккаунтов и вывел около $2,57 млн из импортированного кошелька трейдера Ansem</title>
+      <link>https://plainbtc.com/ru/articles/bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 14:30:00 GMT</pubDate>
+      <category>Безопасность</category>
+      <description>Криптотрейдинговое приложение Bullpen сообщило, что злоумышленник захватил 19 аккаунтов из бета-версии 2024 года, включая аккаунт сооснователя и трейдера Ansem, и опустошил кошельки, приватные ключи которых были импортированы в приложение. Выведено около $2,57 млн, ANSEM упал примерно на 55%, а Bullpen отключила старую систему.</description>
+    </item>
     <item>
       <title>Fidelity Crypto добавила Aave, Chainlink и Uniswap, свои первые DeFi-токены, а все три монеты за месяц подешевели на 23–32%</title>
       <link>https://plainbtc.com/ru/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</link>

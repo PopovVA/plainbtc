@@ -1,0 +1,65 @@
+title: Aplikasi kripto Bullpen sebut peretas mengambil alih 19 akun beta lama dan menguras sekitar US$2,57 juta dari dompet impor milik trader Ansem
+page_title: Peretasan Bullpen: dompet impor Ansem dikuras US$2,57 juta
+description: Aplikasi trading Bullpen menyebut penyerang mengambil alih 19 akun dari masa beta awalnya pada 24 November 2026, termasuk milik trader Ansem, dan menguras dompet yang diimpor dengan kunci privat. Sekitar US$2,57 juta dipindahkan; 99,8% berasal dari satu akun.
+og_description: Seorang peretas masuk ke 19 akun beta lama Bullpen dan menguras dompet yang kunci privatnya diimpor ke aplikasi. Sekitar US$2,57 juta keluar dari dompet trader Ansem dan memecoin ANSEM miliknya turun sekitar 55%. Apa yang terjadi dan cara melindungi diri.
+label: Keamanan
+summary: Bullpen, aplikasi trading kripto, menyebut penyerang mengambil alih 19 akun dari masa beta 2024, termasuk milik salah satu pendiri dan trader Ansem, lalu menguras dompet yang kunci privatnya diimpor ke aplikasi. Sekitar US$2,57 juta dipindahkan, ANSEM turun sekitar 55%, dan Bullpen telah mematikan sistem lama tersebut.
+===
+
+Dompet seorang trader kripto terkenal dikuras pada Selasa, 24 November, dan aplikasi trading yang ikut ia dirikan kini menyebutnya sebagai pembobolan. <strong>Bullpen</strong>, terminal trading kripto, mengatakan seorang penyerang mengambil alih <strong>19 akun</strong> yang dibuka selama masa beta awal antara April dan Juni 2024, termasuk akun <strong>Ansem</strong>, trader bernama asli Zion Thomas yang ikut mendirikan aplikasi itu.
+
+Karena para pengguna itu mengimpor dompet mereka ke Bullpen menggunakan kunci privat, penyerang juga bisa memindahkan koin mereka. Sekitar <strong>US$2,57 juta</strong> dalam USDC berakhir di sebuah alamat di jaringan Arbitrum, menurut pelacak blockchain yang dikutip [The Block](L5) dan [Decrypt](L6).
+
+!takeaways
+- Bullpen menyebut penyerang mengambil alih 19 akun dari masa beta April hingga Juni 2024, termasuk milik Ansem, dan menguras dompet yang diimpor dengan kunci privat.
+- Sekitar US$2,57 juta dalam USDC dipindahkan ke sebuah alamat Arbitrum. Bullpen menyebut 99,8% uang yang dicuri berasal dari satu akun.
+- Memecoin yang memakai nama Ansem, The Black Bull (ANSEM), turun sekitar 55% dalam sehari ke bawah 2 sen.
+- Bullpen menyatakan telah mematikan permanen sistem lama yang dipakai penyerang dan bekerja sama dengan FBI untuk melacak dana.
+- Bullpen belum menjelaskan bagaimana akun-akun itu dibobol, berapa total yang dicuri, atau apakah korban akan diganti.
+
+!figure:timeline
+
+## Apa yang terjadi
+
+Penjualan dimulai sekitar pukul 2:34 waktu Central AS pada Selasa. Sebuah dompet Solana yang dilabeli firma analitik Arkham sebagai milik Ansem melakukan 877 penjualan atas 124 token, termasuk ANSEM senilai sekitar US$1,5 juta, menurut [CoinDesk](L4). Uangnya ditukar ke stablecoin dolar USDC lalu dipindahkan lewat bridge ke Arbitrum, blockchain lain.
+
+Ansem menulis di X bahwa dompetnya diretas dan ia menduga ada "akses tanpa izin ke profil bullpen saya", tempat ia mengimpor kunci privat dompet itu. Awalnya, beberapa peneliti on-chain meragukannya. Seorang analis menunjukkan bahwa dompet yang pernah ia kaitkan dengan Ansem mengirim dana ke alamat penerima satu jam sebelum penjualan. Ansem membantah terlibat, lapor The Block.
+
+Pukul 10:35 waktu Central, Bullpen mengonfirmasi [transfer tanpa izin](L1) yang melibatkan 18 hingga 19 akun beta, yang menurutnya kurang dari 0,005% akun terdaftar. Bullpen mematikan layanan uji coba yang terdampak.
+
+!figure:fact
+
+## Apa kata Bullpen sekarang
+
+Dalam [pembaruan pukul 14:44 waktu Timur AS](L2), Bullpen mengatakan penyerang "mengambil alih akun Bullpen milik sekelompok kecil pengguna beta lama", dan setiap dompet yang diimpor ke akun-akun itu ikut terekspos. Bullpen menyebutnya serangan yang terarah: peretas mencoba masuk ke akun lain tetapi hanya bisa menjangkau kelompok itu, dan 99,8% dana berasal dari satu akun.
+
+Pada Rabu pagi, Bullpen menyatakan serangan itu [tampaknya menargetkan Ansem](L3). Penyerang masuk "melalui sistem lama" yang terkait dengan akunnya dan akun 18 penguji awal lainnya, dan Bullpen mengatakan sistem itu telah dimatikan permanen pada Selasa. Bullpen akan melibatkan firma keamanan independen untuk meninjau sistemnya dan bekerja sama dengan FBI serta otoritas lain untuk melacak dan membekukan uang tersebut. Bullpen menyebut dana semua pengguna lain aman.
+
+!mid_cta
+
+## Mengapa kunci yang diimpor berisiko
+
+Kunci privat adalah kata sandi utama dompet kripto. Siapa pun yang memilikinya bisa memindahkan koin, dan blockchain tidak bisa membedakan pencuri dari pemiliknya. Banyak aplikasi trading memungkinkan Anda "mengimpor" dompet dengan menempelkan kuncinya, yang praktis untuk trading cepat. Namun itu berarti dompet kini hanya seaman aplikasi tersebut dan akun Anda di sana. Jika akun diambil alih, dompet ikut hilang.
+
+Penjualan itu juga merugikan orang lain. ANSEM turun sekitar 55% pada Selasa ke bawah 2 sen, level terendah sejak diluncurkan pada Juni, lapor The Block. Ansem pernah mengatakan pada Juli bahwa ia memegang sekitar 58% pasokan token itu, catat CoinDesk, sehingga penjualan besar dari dompetnya memukul semua pemegang lain.
+
+## Apa artinya bagi pemula
+
+- Jangan pernah menempelkan frasa pemulihan atau kunci privat Anda ke situs, aplikasi, atau obrolan kecuali Anda benar-benar paham alasannya. Tim dukungan yang asli tidak akan pernah memintanya.
+- Jika Anda pernah mengimpor dompet ke aplikasi yang tidak lagi Anda pakai, pertimbangkan memindahkan dana ke dompet baru yang kuncinya belum pernah dibagikan.
+- Pisahkan tabungan jangka panjang dari uang untuk trading. Dompet perangkat keras maupun bursa besar yang teregulasi seperti [Coinbase](REF) punya risikonya masing-masing, jadi pelajari bagaimana masing-masing melindungi Anda.
+- Anggap pesan "pemulihan" setelah peretasan sebagai penipuan. Bullpen menyebut tidak akan pernah menghubungi pengguna lebih dulu.
+
+Ini bukan nasihat keuangan.
+
+## Yang perlu dipantau
+
+- Celah apa yang dipakai penyerang, dan apa temuan tinjauan keamanan eksternal.
+- Apakah sebagian uang berhasil dibekukan atau dipulihkan.
+- Apakah Bullpen mengganti kerugian pengguna yang terdampak.
+
+!soft: Bingung harus menyimpan koin di mana? Baca panduan kami tentang [dompet kustodian dan simpan sendiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

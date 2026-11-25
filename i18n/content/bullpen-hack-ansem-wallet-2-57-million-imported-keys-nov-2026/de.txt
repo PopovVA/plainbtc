@@ -1,0 +1,65 @@
+title: Krypto-App Bullpen: Hacker übernahm 19 alte Beta-Konten und räumte rund 2,57 Millionen Dollar aus der importierten Wallet von Trader Ansem ab
+page_title: Bullpen-Hack: Ansems importierte Wallet um 2,57 Mio. $ geleert
+description: Die Trading-App Bullpen sagt, ein Angreifer habe am 24. November 2026 19 Konten aus ihrer frühen Beta übernommen, darunter das von Trader Ansem, und per privatem Schlüssel importierte Wallets geleert. Rund 2,57 Millionen Dollar wurden bewegt; 99,8 % stammten von einem Konto.
+og_description: Ein Hacker drang in 19 alte Bullpen-Beta-Konten ein und leerte Wallets, deren private Schlüssel in die App importiert worden waren. Rund 2,57 Millionen Dollar flossen aus der Wallet von Trader Ansem ab, sein Memecoin ANSEM fiel um etwa 55 %. Was passiert ist und wie Sie sich schützen.
+label: Sicherheit
+summary: Bullpen, eine Krypto-Trading-App, sagt, ein Angreifer habe 19 Konten aus ihrer Beta von 2024 übernommen, darunter das von Mitgründer und Trader Ansem, und Wallets geleert, deren private Schlüssel in die App importiert waren. Rund 2,57 Millionen Dollar wurden bewegt, ANSEM fiel um etwa 55 %, und Bullpen hat das alte System abgeschaltet.
+===
+
+Die Wallet eines bekannten Krypto-Traders wurde am Dienstag, dem 24. November, geleert, und die Trading-App, die er mitgegründet hat, spricht nun von einem Einbruch. <strong>Bullpen</strong>, ein Krypto-Trading-Terminal, erklärte, ein Angreifer habe <strong>19 Konten</strong> übernommen, die während der frühen Beta zwischen April und Juni 2024 eröffnet wurden, darunter das Konto von <strong>Ansem</strong>, dem Trader mit bürgerlichem Namen Zion Thomas, der die App mitgegründet hat.
+
+Weil diese Nutzer ihre Wallets mit ihren privaten Schlüsseln in Bullpen importiert hatten, konnte der Angreifer auch ihre Coins bewegen. Rund <strong>2,57 Millionen Dollar</strong> in USDC landeten auf einer Adresse im Arbitrum-Netzwerk, so Blockchain-Tracker, auf die sich [The Block](L5) und [Decrypt](L6) berufen.
+
+!takeaways
+- Bullpen sagt, ein Angreifer habe 19 Konten aus der Beta von April bis Juni 2024 übernommen, darunter das von Ansem, und mit privaten Schlüsseln importierte Wallets geleert.
+- Rund 2,57 Millionen Dollar in USDC wurden auf eine Arbitrum-Adresse verschoben. Laut Bullpen stammten 99,8 % des gestohlenen Geldes von einem einzigen Konto.
+- Ansems gleichnamiger Memecoin The Black Bull (ANSEM) fiel an dem Tag um etwa 55 % auf unter 2 Cent.
+- Bullpen sagt, das alte System, das der Angreifer nutzte, sei dauerhaft abgeschaltet, und man arbeite mit dem FBI an der Verfolgung der Gelder.
+- Bullpen hat nicht gesagt, wie die Konten erreicht wurden, wie viel insgesamt gestohlen wurde und ob Opfer entschädigt werden.
+
+!figure:timeline
+
+## Was passiert ist
+
+Die Verkäufe begannen am Dienstag gegen 2:34 Uhr US-Zentralzeit. Eine Solana-Wallet, die das Analyseunternehmen Arkham Ansem zuordnet, tätigte 877 Verkäufe in 124 Token, darunter ANSEM im Wert von rund 1,5 Millionen Dollar, wie [CoinDesk](L4) berichtet. Das Geld wurde in den Dollar-Stablecoin USDC getauscht und über eine Bridge nach Arbitrum, eine andere Blockchain, übertragen.
+
+Ansem schrieb auf X, seine Wallet sei gehackt worden, und er vermute einen „unbefugten Zugriff auf mein Bullpen-Profil“, in das er den privaten Schlüssel der Wallet importiert hatte. Anfangs zweifelten einige On-Chain-Analysten an seiner Darstellung. Ein Analyst wies darauf hin, dass eine Wallet, die er Ansem zugeordnet hatte, die Empfängeradresse eine Stunde vor den Verkäufen mit Guthaben versorgt hatte. Ansem bestritt jede Beteiligung, berichtete The Block.
+
+Um 10:35 Uhr Zentralzeit bestätigte Bullpen [unbefugte Überweisungen](L1) bei 18 bis 19 Beta-Konten, nach eigenen Angaben weniger als 0,005 % der registrierten Konten. Der betroffene Testdienst wurde vom Netz genommen.
+
+!figure:fact
+
+## Was Bullpen jetzt sagt
+
+In einem [Update um 14:44 Uhr Ostküstenzeit](L2) erklärte Bullpen, der Angreifer habe „die Bullpen-Konten einer kleinen Gruppe früherer Beta-Tester übernommen“, und jede in diese Konten importierte Wallet sei ebenfalls offengelegt gewesen. Bullpen sprach von einem gezielten Angriff: Der Hacker habe es bei anderen Konten versucht, aber nur diese Gruppe erreicht, und 99,8 % der Gelder stammten von einem Konto.
+
+Am Mittwochmorgen erklärte Bullpen, der Angriff [scheint Ansem gegolten zu haben](L3). Der Angreifer sei „über ein altes System“ eingedrungen, das mit seinem Konto und denen von 18 weiteren frühen Testern verbunden war, und Bullpen habe dieses System am Dienstag dauerhaft abgeschaltet. Das Unternehmen beauftragt eine unabhängige Sicherheitsfirma mit der Prüfung seiner Systeme und arbeitet mit dem FBI und anderen Behörden daran, das Geld aufzuspüren und einzufrieren. Die Gelder aller anderen Nutzer seien sicher.
+
+!mid_cta
+
+## Warum ein importierter Schlüssel ein Risiko ist
+
+Ein privater Schlüssel ist das Master-Passwort einer Krypto-Wallet. Wer ihn hat, kann die Coins bewegen, und die Blockchain kann einen Dieb nicht vom Besitzer unterscheiden. Viele Trading-Apps erlauben es, eine Wallet zu „importieren“, indem man ihren Schlüssel einfügt, was für schnelles Handeln bequem ist. Damit ist die Wallet aber nur noch so sicher wie die App und Ihr Konto dort. Wird das Konto übernommen, geht die Wallet mit.
+
+Die Verkäufe trafen auch andere. ANSEM fiel am Dienstag um etwa 55 % auf unter 2 Cent, den tiefsten Stand seit dem Start im Juni, berichtete The Block. Ansem hatte im Juli gesagt, er halte etwa 58 % des Token-Angebots, wie CoinDesk anmerkte, ein großer Verkauf aus seiner Wallet traf also alle anderen Inhaber.
+
+## Was das für Einsteiger bedeutet
+
+- Fügen Sie Ihre Wiederherstellungsphrase oder Ihren privaten Schlüssel niemals in eine Website, App oder einen Chat ein, wenn Sie nicht genau verstehen, warum. Echter Support wird nie danach fragen.
+- Wenn Sie einmal eine Wallet in eine App importiert haben, die Sie nicht mehr nutzen, sollten Sie die Gelder auf eine neue Wallet verschieben, deren Schlüssel nie weitergegeben wurde.
+- Trennen Sie langfristige Ersparnisse von dem Geld, mit dem Sie handeln. Eine Hardware-Wallet oder eine große regulierte Börse wie [Coinbase](REF) haben jeweils eigene Risiken, informieren Sie sich also, wie Sie jeweils geschützt sind.
+- Behandeln Sie „Wiederherstellungs“-Nachrichten nach einem Hack als Betrug. Bullpen sagt, es werde Nutzer nie zuerst anschreiben.
+
+Dies ist keine Finanzberatung.
+
+## Worauf man jetzt achten sollte
+
+- Welche Schwachstelle der Angreifer genutzt hat und was die externe Sicherheitsprüfung ergibt.
+- Ob ein Teil des Geldes eingefroren oder zurückgeholt wird.
+- Ob Bullpen betroffene Nutzer entschädigt.
+
+!soft: Nicht sicher, wo Ihre Coins am besten liegen? Lesen Sie unseren Leitfaden zu [verwahrten Wallets und Selbstverwahrung](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

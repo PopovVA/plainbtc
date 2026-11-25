@@ -1,0 +1,23 @@
+{
+ "slug": "bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026",
+ "date": "2026-11-25",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026",
+  "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026",
+  "bitcoin-hot-cpi-etf-outflows-nov-2026",
+  "fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026",
+  "stablecoin-supply-shrinks-usdt-tether-nov-2026",
+  "how-much-bitcoin-should-a-beginner-buy-dca",
+  "bitcoin-etf-vs-buying-bitcoin"
+ ],
+ "sources": [
+  {"url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html", "title": "CNBC: Fed's preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike", "date": "Nov 25, 2026"},
+  {"url": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower", "title": "CoinDesk: Live updates: Bitcoin slips back under $59,000, with tech rout continuing", "date": "Nov 25, 2026"},
+  {"url": "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes", "title": "CoinDesk: Bitcoin holds up better than ether as stocks slide, ETF outflows hit sixth day", "date": "Nov 25, 2026"},
+  {"url": "https://farside.co.uk/btc/", "title": "Farside Investors: Bitcoin ETF daily flows", "date": "Nov 25, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: public BTC/USD, ETH/USD, SOL/USD and XRP/USD price data", "date": "Nov 25, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

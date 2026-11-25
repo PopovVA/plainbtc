@@ -1,0 +1,27 @@
+{
+  "kind": "chart",
+  "sources": [
+    {
+      "file": "Kraken OHLC XBTUSD interval=1440 (frozen in chart-data.json)",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Month-end BTC/USD closes Dec. 2025 to Oct. 2026 and the Nov. 25, 2026 08:04 CST price, from Kraken"
+    },
+    {
+      "file": "October 2026 PCE price index",
+      "license": "Facts cited",
+      "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
+      "credit": "U.S. Commerce Department via CNBC"
+    }
+  ],
+  "slug": "bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026",
+  "generated": "2026-11-25T14:09Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

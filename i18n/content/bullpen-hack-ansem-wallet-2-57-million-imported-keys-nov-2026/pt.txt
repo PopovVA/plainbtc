@@ -1,0 +1,65 @@
+title: App de cripto Bullpen diz que hacker invadiu 19 contas beta antigas e esvaziou cerca de US$ 2,57 milhões da carteira importada do trader Ansem
+page_title: Ataque à Bullpen: carteira importada de Ansem perde US$ 2,57 milhões
+description: O app de trading Bullpen diz que um invasor assumiu 19 contas do seu primeiro beta em 24 de novembro de 2026, incluindo a do trader Ansem, e esvaziou carteiras importadas com chave privada. Cerca de US$ 2,57 milhões foram movidos; 99,8% saíram de uma única conta.
+og_description: Um hacker entrou em 19 contas beta antigas da Bullpen e esvaziou carteiras cujas chaves privadas tinham sido importadas no app. Cerca de US$ 2,57 milhões saíram da carteira do trader Ansem, e sua memecoin ANSEM caiu cerca de 55%. O que aconteceu e como se proteger.
+label: Segurança
+summary: A Bullpen, um app de trading de criptomoedas, diz que um invasor assumiu 19 contas do seu beta de 2024, incluindo a do cofundador e trader Ansem, e esvaziou carteiras cujas chaves privadas estavam importadas no app. Cerca de US$ 2,57 milhões foram movidos, a ANSEM caiu cerca de 55% e a Bullpen desligou o sistema antigo.
+===
+
+A carteira de um trader de cripto conhecido foi esvaziada na terça-feira, 24 de novembro, e o app de trading que ele ajudou a criar agora diz que foi uma invasão. A <strong>Bullpen</strong>, um terminal de trading de criptomoedas, disse que um invasor assumiu <strong>19 contas</strong> abertas durante seu primeiro beta, entre abril e junho de 2024, incluindo a conta de <strong>Ansem</strong>, o trader cujo nome verdadeiro é Zion Thomas e que é cofundador do app.
+
+Como esses usuários tinham importado suas carteiras na Bullpen usando as chaves privadas, o invasor também conseguiu mover as moedas deles. Cerca de <strong>US$ 2,57 milhões</strong> em USDC foram parar em um endereço na rede Arbitrum, segundo rastreadores de blockchain citados pelo [The Block](L5) e pelo [Decrypt](L6).
+
+!takeaways
+- A Bullpen diz que um invasor assumiu 19 contas do seu beta de abril a junho de 2024, incluindo a de Ansem, e esvaziou carteiras importadas com chaves privadas.
+- Cerca de US$ 2,57 milhões em USDC foram movidos para um endereço na Arbitrum. A Bullpen diz que 99,8% do dinheiro roubado saiu de uma única conta.
+- A memecoin com o nome de Ansem, The Black Bull (ANSEM), caiu cerca de 55% no dia, para menos de 2 centavos.
+- A Bullpen diz que desligou de vez o sistema antigo usado pelo invasor e trabalha com o FBI para rastrear os fundos.
+- A Bullpen não disse como as contas foram acessadas, quanto foi levado no total nem se vai ressarcir as vítimas.
+
+!figure:timeline
+
+## O que aconteceu
+
+As vendas começaram por volta das 2h34 (horário central dos EUA) de terça-feira. Uma carteira Solana que a empresa de análise Arkham atribui a Ansem fez 877 vendas de 124 tokens, incluindo cerca de US$ 1,5 milhão em ANSEM, segundo o [CoinDesk](L4). O dinheiro foi trocado pela stablecoin em dólar USDC e levado por uma ponte para a Arbitrum, outra blockchain.
+
+Ansem escreveu no X que sua carteira tinha sido hackeada e que suspeitava de um "acesso não autorizado ao meu perfil na bullpen", onde ele tinha importado a chave privada da carteira. No início, alguns pesquisadores on-chain duvidaram dele. Um analista apontou que uma carteira que ele havia ligado a Ansem financiou o endereço de destino uma hora antes das vendas. Ansem negou qualquer participação, informou o The Block.
+
+Às 10h35 (horário central), a Bullpen confirmou [transferências não autorizadas](L1) envolvendo 18 a 19 contas beta, que segundo ela representavam menos de 0,005% das contas registradas. A empresa tirou do ar o serviço de testes afetado.
+
+!figure:fact
+
+## O que a Bullpen diz agora
+
+Em uma [atualização às 14h44 (horário do leste)](L2), a Bullpen disse que o invasor "assumiu as contas Bullpen de um pequeno grupo de antigos usuários do beta" e que qualquer carteira importada nessas contas também ficou exposta. A empresa chamou o caso de ataque direcionado: o hacker tentou acessar outras contas, mas só alcançou esse grupo, e 99,8% dos fundos saíram de uma única conta.
+
+Na manhã de quarta-feira, a Bullpen disse que o ataque [parece ter tido Ansem como alvo](L3). O invasor entrou "por um sistema antigo" ligado à conta dele e às de outros 18 primeiros testadores, e a Bullpen diz que desligou esse sistema de vez na terça-feira. A empresa vai contratar uma firma de segurança independente para revisar seus sistemas e trabalha com o FBI e outras autoridades para rastrear e congelar o dinheiro. Ela diz que os fundos de todos os outros usuários estão seguros.
+
+!mid_cta
+
+## Por que importar uma chave é um risco
+
+Uma chave privada é a senha mestra de uma carteira de cripto. Quem a tem pode mover as moedas, e a blockchain não sabe distinguir um ladrão do dono. Muitos apps de trading deixam você "importar" uma carteira colando a chave, o que é prático para negociar rápido. Mas isso significa que a carteira passa a ser tão segura quanto o app e a sua conta nele. Se a conta for invadida, a carteira vai junto.
+
+As vendas também atingiram outras pessoas. A ANSEM caiu cerca de 55% na terça-feira, para menos de 2 centavos, o menor nível desde o lançamento em junho, informou o The Block. Ansem disse em julho que tinha cerca de 58% da oferta do token, lembrou o CoinDesk, então uma grande venda a partir da carteira dele afetou todos os outros detentores.
+
+## O que isso significa para iniciantes
+
+- Nunca cole sua frase de recuperação ou chave privada em um site, app ou chat, a menos que entenda totalmente o motivo. O suporte de verdade nunca vai pedir isso.
+- Se você já importou uma carteira em um app que não usa mais, considere mover os fundos para uma carteira nova cuja chave nunca foi compartilhada.
+- Separe a poupança de longo prazo do dinheiro que você usa para negociar. Uma carteira física ou uma grande corretora regulada como a [Coinbase](REF) têm riscos próprios, então entenda como cada uma protege você.
+- Trate mensagens de "recuperação" depois de um ataque como golpe. A Bullpen diz que nunca vai procurar os usuários primeiro.
+
+Isto não é recomendação financeira.
+
+## O que observar agora
+
+- Qual falha o invasor usou e o que a revisão de segurança externa vai encontrar.
+- Se parte do dinheiro será congelada ou recuperada.
+- Se a Bullpen vai ressarcir os usuários afetados.
+
+!soft: Não sabe onde guardar suas moedas? Leia nosso guia sobre [carteiras custodiais e autocustódia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:35:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fed'in en çok izlediği enflasyon göstergesi %3,8'e çıkarken bitcoin 58.000 dolara geriledi; üst üste sekizinci haftalık kayba ilerliyor</title>
+      <link>https://plainbtc.com/tr/articles/bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 14:35:00 GMT</pubDate>
+      <category>Piyasa</category>
+      <description>Ekim ayı PCE enflasyonu %3,8 gelip çekirdek fiyatlar beklentinin biraz üzerinde çıkınca bitcoin çarşamba günü yaklaşık 58.000 dolara düştü. Hisse vadelileri yeni ABD gümrük vergisi haberleriyle geriledi, spot bitcoin ETF'leri altıncı gün para kaybetti ve bitcoin kasımda yaklaşık %25 düştü.</description>
+    </item>
+    <item>
+      <title>Kripto uygulaması Bullpen: Bir hacker 19 eski beta hesabını ele geçirdi, trader Ansem'in içe aktarılan cüzdanından yaklaşık 2,57 milyon dolar boşaltıldı</title>
+      <link>https://plainbtc.com/tr/articles/bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 14:30:00 GMT</pubDate>
+      <category>Güvenlik</category>
+      <description>Kripto trading uygulaması Bullpen, bir saldırganın kurucu ortak ve trader Ansem'inki dahil 2024 beta dönemine ait 19 hesabı ele geçirdiğini ve özel anahtarları uygulamaya aktarılmış cüzdanları boşalttığını söylüyor. Yaklaşık 2,57 milyon dolar taşındı, ANSEM yaklaşık %55 düştü ve Bullpen eski sistemi kapattı.</description>
+    </item>
     <item>
       <title>Fidelity Crypto ilk DeFi tokenları Aave, Chainlink ve Uniswap'ı ekledi, üç coin bir ayda yüzde 23 ile 32 arasında değer kaybetti</title>
       <link>https://plainbtc.com/tr/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</link>

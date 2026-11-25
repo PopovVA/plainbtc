@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/es/</link>
     <description>Noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</description>
     <language>es</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:35:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>El bitcoin cae a 58.000 dólares mientras el indicador de inflación favorito de la Fed sube al 3,8%, camino de su octava semana seguida de pérdidas</title>
+      <link>https://plainbtc.com/es/articles/bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 14:35:00 GMT</pubDate>
+      <category>Mercado</category>
+      <description>El bitcoin cayó a unos 58.000 dólares el miércoles después de que la inflación PCE de octubre llegara al 3,8%, con los precios subyacentes algo por encima de lo previsto. Los futuros de bolsa bajaron por informes sobre nuevos aranceles de EE. UU., los ETF de bitcoin al contado perdieron dinero por sexto día y el bitcoin cede un 25% en noviembre.</description>
+    </item>
+    <item>
+      <title>La app de cripto Bullpen dice que un hacker tomó 19 cuentas beta antiguas y vació unos 2,57 millones de dólares de la billetera importada del trader Ansem</title>
+      <link>https://plainbtc.com/es/articles/bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 14:30:00 GMT</pubDate>
+      <category>Seguridad</category>
+      <description>Bullpen, una app de trading de criptomonedas, dice que un atacante tomó 19 cuentas de su beta de 2024, entre ellas la de su cofundador, el trader Ansem, y vació billeteras cuyas claves privadas estaban importadas en la app. Se movieron unos 2,57 millones de dólares, ANSEM cayó cerca de un 55% y Bullpen ha cerrado el sistema antiguo.</description>
+    </item>
     <item>
       <title>Fidelity Crypto añade Aave, Chainlink y Uniswap, sus primeros tokens DeFi, mientras las tres monedas caen entre un 23% y un 32% en un mes</title>
       <link>https://plainbtc.com/es/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</link>

@@ -2532,7 +2532,89 @@ def thumb_coldcard_weak_seeds():
     ], "note": "Editorial illustration drawn by PlainBTC; not the real Coldcard design; trademarks belong to their owners."}
 
 
+def thumb_btc_58k_pce_month():
+    """Sand-colored 'scorecard': bitcoin's 2026 month-by-month change from Kraken daily closes (frozen Nov 25, 2026
+    08:04 CST in chart-data.json), November (to date) highlighted as the worst month of the year, plus the October PCE figure."""
+    data = json.loads((I18N / "bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026" / "chart-data.json").read_text(encoding="utf-8"))
+    months = data["monthly_2026_pct"]
+    labels = [m[0] for m in months]; vals = [m[1] for m in months]
+    bg, ink = "#f5efe3", "#1f2937"
+    fig = plt.figure(figsize=(6.4, 3.6), dpi=100 * S); fig.patch.set_facecolor(bg)
+    ax = fig.add_axes([0.06, 0.10, 0.60, 0.58]); ax.set_facecolor(bg)
+    for s in ("top", "right", "left"): ax.spines[s].set_visible(False)
+    ax.spines["bottom"].set_color("#9ca3af")
+    cols = ["#16a34a" if v > 0 else "#f87171" for v in vals]; cols[-1] = "#b91c1c"
+    ax.bar(labels, vals, color=cols, width=0.68)
+    ax.axhline(0, color="#6b7280", linewidth=0.8)
+    ax.tick_params(colors="#4b5563", labelsize=6.5, length=0)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"{v:+.0f}%"))
+    ax.grid(True, axis="y", color="#e5dccb", linewidth=0.6); ax.set_axisbelow(True)
+    ax.text(len(vals) - 1, vals[-1] - 1.5, f"{vals[-1]:.0f}%", ha="center", va="top", color="#7f1d1d", fontsize=8, fontweight="bold")
+    ax.set_ylim(min(vals) - 7, max(vals) + 5)
+    fig.text(0.06, 0.88, "Bitcoin, month by month in 2026", color=ink, fontsize=12.5, fontweight="bold", va="center")
+    fig.text(0.06, 0.79, "Change in Kraken BTC/USD closes · Nov. through Nov. 25", color="#6b7280", fontsize=7.5, va="center")
+    # right column: PCE + price facts
+    fig.text(0.72, 0.66, "3.8%", color="#b45309", fontsize=30, fontweight="bold", va="center")
+    fig.text(0.72, 0.53, "October PCE inflation", color=ink, fontsize=9, fontweight="bold", va="center")
+    fig.text(0.72, 0.465, "core 3.3% (forecast 3.2%)", color="#6b7280", fontsize=7.5, va="center")
+    fig.text(0.72, 0.33, "$58,000", color="#7f1d1d", fontsize=19, fontweight="bold", va="center")
+    fig.text(0.72, 0.235, "BTC on Kraken, Nov. 25", color="#6b7280", fontsize=7.5, va="center")
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100 * S, facecolor=bg); plt.close(fig); buf.seek(0)
+    im = Image.open(buf).convert("RGB")
+    return im, {"kind": "chart", "sources": [
+        {"file": "Kraken OHLC XBTUSD interval=1440 (frozen in chart-data.json)", "license": "Kraken public API", "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "credit": "Month-end BTC/USD closes Dec. 2025 to Oct. 2026 and the Nov. 25, 2026 08:04 CST price, from Kraken"},
+        {"file": "October 2026 PCE price index", "license": "Facts cited", "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html", "credit": "U.S. Commerce Department via CNBC"},
+    ]}
+
+
+def thumb_bullpen_takeover():
+    """Plum diagram drawn by PlainBTC: a pasted private key -> an app account -> the imported wallet -> $2.57M moved
+    to Arbitrum (Lookonchain via The Block), with Bullpen's own figures (19 beta accounts, 99.8% from one account). No logos."""
+    base = gradient_bg(top=(59, 7, 100), bottom=(17, 6, 33))
+    d = Draw(base)
+    ink, mute, pink, amber, red = (250, 245, 255), (216, 180, 254), (244, 114, 182), (251, 191, 36), (248, 113, 113)
+    d.text((30, 26), "Imported key = shared risk", font=font(FONT_B, 24), fill=ink)
+    d.text((30, 60), "How 19 old Bullpen beta accounts were drained", font=font(FONT_R, 13), fill=mute)
+    # nodes
+    boxes = [(30, "Private key", "pasted into app"), (190, "App account", "taken over"), (350, "Wallet", "emptied")]
+    for i, (x, t1, t2) in enumerate(boxes):
+        d.rounded_rectangle([x, 104, x + 130, 196], radius=14, fill=(46, 16, 72), outline=pink if i == 1 else (126, 87, 194), width=2)
+        tw = d.textlength(t1, font=font(FONT_B, 15)); d.text((x + 65 - tw / 2, 160), t1, font=font(FONT_B, 15), fill=ink)
+        tw = d.textlength(t2, font=font(FONT_R, 11)); d.text((x + 65 - tw / 2, 180), t2, font=font(FONT_R, 11), fill=mute)
+        if i < 2:
+            ax0 = x + 134; ax1 = x + 158
+            d.line([(ax0, 150), (ax1 - 8, 150)], fill=amber, width=3)
+            d.polygon([(ax1 - 10, 143), (ax1, 150), (ax1 - 10, 157)], fill=amber)
+    # icons: key
+    d.ellipse([70, 116, 92, 138], outline=amber, width=4)
+    d.line([(92, 127), (122, 127)], fill=amber, width=4); d.line([(114, 127), (114, 137)], fill=amber, width=3); d.line([(121, 127), (121, 135)], fill=amber, width=3)
+    # person with broken lock
+    d.ellipse([244, 112, 264, 132], fill=(196, 181, 253)); d.pieslice([236, 132, 272, 168], 180, 360, fill=(196, 181, 253))
+    d.rounded_rectangle([270, 128, 290, 146], radius=3, fill=red); d.arc([272, 114, 288, 134], 200, 330, fill=red, width=3)
+    # wallet
+    d.rounded_rectangle([392, 116, 438, 146], radius=6, fill=(126, 87, 194)); d.rounded_rectangle([420, 124, 442, 138], radius=4, fill=(167, 139, 250)); d.ellipse([426, 128, 432, 134], fill=(46, 16, 72))
+    # arrow to amount
+    d.line([(486, 150), (512, 150)], fill=red, width=3); d.polygon([(510, 143), (520, 150), (510, 157)], fill=red)
+    d.text((526, 118), "$2.57M", font=font(FONT_B, 22), fill=red)
+    d.text((526, 148), "to Arbitrum", font=font(FONT_R, 12), fill=mute)
+    d.text((526, 166), "in USDC", font=font(FONT_R, 12), fill=mute)
+    # stats chips
+    px = 30; f = font(FONT_B, 13)
+    for t in ("19 beta accounts (2024)", "99.8% from one account", "ANSEM about \u221255%"):
+        w = d.textlength(t, font=f) + 24
+        d.rounded_rectangle([px, 230, px + w, 260], radius=14, fill=(40, 10, 60), outline=pink, width=2)
+        d.text((px + 12, 237), t, font=f, fill=ink); px += w + 10
+    d.text((30, 290), "Bullpen: \u201cany wallet imported into those accounts was exposed too\u201d", font=font(FONT_R, 13), fill=(233, 213, 255))
+    d.text((30, 330), "Diagram by PlainBTC · figures: Bullpen on X, Lookonchain via The Block", font=font(FONT_R, 10), fill=(167, 139, 250))
+    return base, {"kind": "diagram", "sources": [
+        {"file": "Bullpen posts on X, Nov. 24-25, 2026", "license": "Facts cited", "url": "https://x.com/BullpenFi/status/2125314569136463949", "credit": "Bullpen"},
+        {"file": "The Block, Nov. 24, 2026", "license": "Facts cited", "url": "https://www.theblock.co/news/defi/2026-11-24-ansem-denies-involvement-2-57-million-wallet-drain-black-bull-creator-coin-plummets-55-445705", "credit": "Lookonchain via The Block"},
+    ], "note": "Editorial diagram drawn by PlainBTC; no company logos used."}
+
+
 BUILDERS = {
+    "bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026": thumb_btc_58k_pce_month,
+    "bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026": thumb_bullpen_takeover,
     "fidelity-crypto-adds-aave-link-uni-nov-2026": thumb_fidelity_defi_tokens,
     "coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026": thumb_coldcard_weak_seeds,
     "kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026": thumb_krak_credit_cards,

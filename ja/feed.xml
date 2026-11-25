@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:35:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FRBが重視するインフレ指標が3.8%に上昇、ビットコインは5万8000ドルに下落し8週連続の下げに向かう</title>
+      <link>https://plainbtc.com/ja/articles/bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 14:35:00 GMT</pubDate>
+      <category>マーケット</category>
+      <description>10月のPCEインフレ率が3.8%となり、コア物価も予想をやや上回ったことで、ビットコインは水曜日に約5万8000ドルまで下落した。米国の新たな関税の報道で株価先物が下がり、現物ビットコインETFは6日連続で資金が流出、ビットコインは11月に約25%下落している。</description>
+    </item>
+    <item>
+      <title>暗号資産アプリBullpen、ハッカーが旧ベータアカウント19件を乗っ取り トレーダーAnsemのインポート済みウォレットから約257万ドル流出</title>
+      <link>https://plainbtc.com/ja/articles/bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 14:30:00 GMT</pubDate>
+      <category>セキュリティ</category>
+      <description>暗号資産トレーディングアプリのBullpenによると、攻撃者が2024年のベータ期間のアカウント19件を乗っ取った。共同創業者でトレーダーのAnsemのアカウントも含まれ、アプリに秘密鍵がインポートされていたウォレットが空にされた。約257万ドルが移され、ANSEMは約55%下落、Bullpenは旧システムを停止した。</description>
+    </item>
     <item>
       <title>Fidelity CryptoがAave、Chainlink、Uniswapを追加、初のDeFiトークン、3銘柄は1カ月で23〜32%下落</title>
       <link>https://plainbtc.com/ja/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</link>

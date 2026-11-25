@@ -1,0 +1,65 @@
+title: Kripto uygulaması Bullpen: Bir hacker 19 eski beta hesabını ele geçirdi, trader Ansem'in içe aktarılan cüzdanından yaklaşık 2,57 milyon dolar boşaltıldı
+page_title: Bullpen saldırısı: Ansem'in içe aktarılan cüzdanından 2,57 milyon dolar çekildi
+description: Trading uygulaması Bullpen, 24 Kasım 2026'da bir saldırganın trader Ansem'inki dahil ilk beta dönemine ait 19 hesabı ele geçirdiğini ve özel anahtarla içe aktarılan cüzdanları boşalttığını söylüyor. Yaklaşık 2,57 milyon dolar taşındı; bunun %99,8'i tek bir hesaptan geldi.
+og_description: Bir hacker 19 eski Bullpen beta hesabına girdi ve özel anahtarları uygulamaya aktarılmış cüzdanları boşalttı. Trader Ansem'in cüzdanından yaklaşık 2,57 milyon dolar çıktı ve ANSEM memecoin'i yaklaşık %55 düştü. Ne oldu ve kendinizi nasıl korursunuz?
+label: Güvenlik
+summary: Kripto trading uygulaması Bullpen, bir saldırganın kurucu ortak ve trader Ansem'inki dahil 2024 beta dönemine ait 19 hesabı ele geçirdiğini ve özel anahtarları uygulamaya aktarılmış cüzdanları boşalttığını söylüyor. Yaklaşık 2,57 milyon dolar taşındı, ANSEM yaklaşık %55 düştü ve Bullpen eski sistemi kapattı.
+===
+
+Tanınmış bir kripto trader'ının cüzdanı 24 Kasım salı günü boşaltıldı ve kurulmasına yardım ettiği trading uygulaması şimdi bunun bir saldırı olduğunu söylüyor. Kripto trading terminali <strong>Bullpen</strong>, bir saldırganın Nisan-Haziran 2024 arasındaki ilk beta döneminde açılan <strong>19 hesabı</strong> ele geçirdiğini açıkladı. Bunlar arasında gerçek adı Zion Thomas olan ve uygulamanın kurucu ortaklarından trader <strong>Ansem</strong>'in hesabı da var.
+
+Bu kullanıcılar cüzdanlarını özel anahtarlarıyla Bullpen'e aktardığı için saldırgan onların coin'lerini de taşıyabildi. [The Block](L5) ve [Decrypt](L6)'in aktardığı blokzincir takipçilerine göre yaklaşık <strong>2,57 milyon dolar</strong> değerinde USDC, Arbitrum ağındaki bir adrese gitti.
+
+!takeaways
+- Bullpen, bir saldırganın Ansem'inki dahil Nisan-Haziran 2024 beta dönemine ait 19 hesabı ele geçirdiğini ve özel anahtarla içe aktarılan cüzdanları boşalttığını söylüyor.
+- Yaklaşık 2,57 milyon dolarlık USDC bir Arbitrum adresine taşındı. Bullpen'e göre çalınan paranın %99,8'i tek bir hesaptan geldi.
+- Ansem'in adını taşıyan memecoin The Black Bull (ANSEM) gün içinde yaklaşık %55 düşerek 2 sentin altına indi.
+- Bullpen, saldırganın kullandığı eski sistemi kalıcı olarak kapattığını ve fonları izlemek için FBI ile çalıştığını söylüyor.
+- Bullpen hesaplara nasıl ulaşıldığını, toplamda ne kadar çalındığını ya da mağdurlara ödeme yapılıp yapılmayacağını açıklamadı.
+
+!figure:timeline
+
+## Ne oldu
+
+Satışlar salı günü ABD Merkez saatiyle yaklaşık 2:34'te başladı. [CoinDesk](L4)'e göre analiz şirketi Arkham'ın Ansem'e ait olarak etiketlediği bir Solana cüzdanı, 124 token'da 877 satış yaptı; bunların yaklaşık 1,5 milyon doları ANSEM'di. Para, dolara endeksli stablecoin USDC'ye çevrildi ve bir köprüyle başka bir blokzincir olan Arbitrum'a aktarıldı.
+
+Ansem X'te cüzdanının hacklendiğini ve cüzdanın özel anahtarını aktardığı "bullpen profilime yetkisiz erişim" olduğundan şüphelendiğini yazdı. Başta bazı zincir üstü araştırmacılar ona inanmadı. Bir analist, daha önce Ansem'e bağladığı bir cüzdanın satışlardan bir saat önce alıcı adrese para gönderdiğine dikkat çekti. The Block'un aktardığına göre Ansem herhangi bir ilgisi olduğunu reddetti.
+
+Bullpen Merkez saatiyle 10:35'te 18-19 beta hesabını içeren [yetkisiz transferleri](L1) doğruladı ve bunun kayıtlı hesaplarının %0,005'inden az olduğunu söyledi. Etkilenen test hizmetini kapattı.
+
+!figure:fact
+
+## Bullpen şimdi ne diyor
+
+Bullpen, [Doğu saatiyle 14:44'teki güncellemesinde](L2) saldırganın "küçük bir grup eski beta test kullanıcısının Bullpen hesaplarını ele geçirdiğini" ve bu hesaplara aktarılan her cüzdanın da açığa çıktığını söyledi. Şirket bunu hedefli bir saldırı olarak nitelendirdi: hacker başka hesaplara da girmeye çalıştı ama yalnızca bu gruba ulaşabildi ve fonların %99,8'i tek bir hesaptan geldi.
+
+Bullpen çarşamba sabahı saldırının [Ansem'i hedef almış göründüğünü](L3) açıkladı. Saldırgan, onun ve 18 erken test kullanıcısının hesaplarına bağlı "eski bir sistem üzerinden" girdi; Bullpen bu sistemi salı günü kalıcı olarak kapattığını söylüyor. Şirket sistemlerini incelemesi için bağımsız bir güvenlik firmasıyla çalışacak ve parayı izleyip dondurmak için FBI ve diğer yetkililerle iş birliği yapıyor. Diğer tüm kullanıcıların fonlarının güvende olduğunu belirtiyor.
+
+!mid_cta
+
+## İçe aktarılan anahtar neden risklidir
+
+Özel anahtar, bir kripto cüzdanının ana şifresidir. Ona sahip olan herkes coin'leri taşıyabilir ve blokzincir hırsızı sahibinden ayıramaz. Birçok trading uygulaması, anahtarını yapıştırarak bir cüzdanı "içe aktarmanıza" izin verir; bu hızlı işlem için pratiktir. Ama bu, cüzdanın artık yalnızca o uygulama ve oradaki hesabınız kadar güvenli olduğu anlamına gelir. Hesap ele geçirilirse cüzdan da gider.
+
+Satışlar başka insanları da vurdu. The Block'a göre ANSEM salı günü yaklaşık %55 düşerek 2 sentin altına, haziranda piyasaya çıkışından bu yana en düşük seviyesine indi. CoinDesk'in hatırlattığına göre Ansem temmuzda token arzının yaklaşık %58'ine sahip olduğunu söylemişti; bu yüzden cüzdanından gelen büyük bir satış diğer tüm sahipleri etkiledi.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+- Nedenini tam olarak anlamadıkça kurtarma ifadenizi ya da özel anahtarınızı asla bir siteye, uygulamaya veya sohbete yapıştırmayın. Gerçek destek ekipleri bunu asla istemez.
+- Artık kullanmadığınız bir uygulamaya bir zamanlar cüzdan aktardıysanız, fonları anahtarı hiç paylaşılmamış yeni bir cüzdana taşımayı düşünün.
+- Uzun vadeli birikimlerinizi işlem yaptığınız paradan ayrı tutun. Bir donanım cüzdanının da [Coinbase](REF) gibi büyük ve düzenlenen bir borsanın da kendi riskleri var; her birinin sizi nasıl koruduğunu öğrenin.
+- Bir saldırının ardından gelen "kurtarma" mesajlarını dolandırıcılık sayın. Bullpen kullanıcılara asla ilk mesajı kendisinin atmayacağını söylüyor.
+
+Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Saldırganın hangi açığı kullandığı ve dış güvenlik incelemesinin neler bulacağı.
+- Paranın bir kısmının dondurulup dondurulamayacağı ya da geri alınıp alınamayacağı.
+- Bullpen'in etkilenen kullanıcılara ödeme yapıp yapmayacağı.
+
+!soft: Coin'lerinizi nerede tutacağınızdan emin değil misiniz? [Emanetçili ve kendi kendine saklama cüzdanları](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) rehberimizi okuyun
+
+!end_cta
+
+!disclosure

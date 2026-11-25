@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/fr/</link>
     <description>L’actualité du bitcoin et des cryptos en langage clair, pour les débutants</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:35:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/fr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Le bitcoin glisse à 58 000 dollars alors que l'indicateur d'inflation préféré de la Fed grimpe à 3,8 %, en route vers une huitième semaine de baisse</title>
+      <link>https://plainbtc.com/fr/articles/bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 14:35:00 GMT</pubDate>
+      <category>Marchés</category>
+      <description>Le bitcoin est tombé vers 58 000 dollars mercredi après une inflation PCE d'octobre à 3,8 %, l'inflation sous-jacente dépassant un peu les prévisions. Les contrats à terme sur actions ont reculé sur des informations de nouveaux droits de douane américains, les ETF bitcoin au comptant ont perdu de l'argent pour le sixième jour et le bitcoin cède environ 25 % en novembre.</description>
+    </item>
+    <item>
+      <title>L'appli crypto Bullpen affirme qu'un pirate a pris le contrôle de 19 anciens comptes bêta et vidé environ 2,57 millions de dollars du portefeuille importé du trader Ansem</title>
+      <link>https://plainbtc.com/fr/articles/bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 14:30:00 GMT</pubDate>
+      <category>Sécurité</category>
+      <description>Bullpen, une appli de trading crypto, indique qu'un attaquant a pris le contrôle de 19 comptes de sa bêta de 2024, dont celui de son cofondateur, le trader Ansem, et vidé des portefeuilles dont les clés privées étaient importées dans l'appli. Environ 2,57 millions de dollars ont été déplacés, ANSEM a chuté d'environ 55 % et Bullpen a fermé l'ancien système.</description>
+    </item>
     <item>
       <title>Fidelity Crypto ajoute Aave, Chainlink et Uniswap, ses premiers jetons DeFi, alors que les trois cryptos reculent de 23 % à 32 % en un mois</title>
       <link>https://plainbtc.com/fr/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</link>

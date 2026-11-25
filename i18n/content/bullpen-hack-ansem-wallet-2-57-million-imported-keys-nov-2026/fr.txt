@@ -1,0 +1,65 @@
+title: L'appli crypto Bullpen affirme qu'un pirate a pris le contrôle de 19 anciens comptes bêta et vidé environ 2,57 millions de dollars du portefeuille importé du trader Ansem
+page_title: Piratage de Bullpen : le portefeuille importé d'Ansem vidé de 2,57 M$
+description: L'appli de trading Bullpen indique qu'un attaquant a pris le contrôle de 19 comptes de sa première bêta le 24 novembre 2026, dont celui du trader Ansem, et vidé des portefeuilles importés avec leur clé privée. Environ 2,57 millions de dollars ont été déplacés ; 99,8 % venaient d'un seul compte.
+og_description: Un pirate s'est introduit dans 19 anciens comptes bêta de Bullpen et a vidé des portefeuilles dont les clés privées avaient été importées dans l'appli. Environ 2,57 millions de dollars sont sortis du portefeuille du trader Ansem et son memecoin ANSEM a chuté d'environ 55 %. Ce qui s'est passé et comment se protéger.
+label: Sécurité
+summary: Bullpen, une appli de trading crypto, indique qu'un attaquant a pris le contrôle de 19 comptes de sa bêta de 2024, dont celui de son cofondateur, le trader Ansem, et vidé des portefeuilles dont les clés privées étaient importées dans l'appli. Environ 2,57 millions de dollars ont été déplacés, ANSEM a chuté d'environ 55 % et Bullpen a fermé l'ancien système.
+===
+
+Le portefeuille d'un trader crypto connu a été vidé le mardi 24 novembre, et l'appli de trading qu'il a cofondée parle désormais d'une intrusion. <strong>Bullpen</strong>, un terminal de trading crypto, a indiqué qu'un attaquant avait pris le contrôle de <strong>19 comptes</strong> ouverts pendant sa première bêta, entre avril et juin 2024, dont celui d'<strong>Ansem</strong>, le trader de son vrai nom Zion Thomas, cofondateur de l'appli.
+
+Comme ces utilisateurs avaient importé leurs portefeuilles dans Bullpen à l'aide de leurs clés privées, l'attaquant a aussi pu déplacer leurs cryptos. Environ <strong>2,57 millions de dollars</strong> en USDC ont abouti à une adresse sur le réseau Arbitrum, selon des outils de suivi de la blockchain cités par [The Block](L5) et [Decrypt](L6).
+
+!takeaways
+- Bullpen indique qu'un attaquant a pris le contrôle de 19 comptes de sa bêta d'avril à juin 2024, dont celui d'Ansem, et vidé des portefeuilles importés avec leur clé privée.
+- Environ 2,57 millions de dollars en USDC ont été envoyés vers une adresse Arbitrum. Selon Bullpen, 99,8 % de l'argent volé venait d'un seul compte.
+- Le memecoin portant le nom d'Ansem, The Black Bull (ANSEM), a chuté d'environ 55 % dans la journée, sous les 2 cents.
+- Bullpen affirme avoir définitivement fermé l'ancien système utilisé par l'attaquant et travailler avec le FBI pour suivre les fonds.
+- Bullpen n'a pas dit comment les comptes ont été atteints, combien a été volé au total ni si les victimes seront remboursées.
+
+!figure:timeline
+
+## Ce qui s'est passé
+
+Les ventes ont commencé vers 2 h 34, heure du centre des États-Unis, mardi. Un portefeuille Solana que la société d'analyse Arkham attribue à Ansem a réalisé 877 ventes portant sur 124 jetons, dont environ 1,5 million de dollars d'ANSEM, selon [CoinDesk](L4). L'argent a été converti en USDC, le stablecoin adossé au dollar, puis transféré via un pont vers Arbitrum, une autre blockchain.
+
+Ansem a écrit sur X que son portefeuille avait été piraté et qu'il soupçonnait un « accès non autorisé à mon profil bullpen », où il avait importé la clé privée du portefeuille. Au début, certains analystes on-chain ont douté de lui. L'un d'eux a relevé qu'un portefeuille qu'il associait à Ansem avait alimenté l'adresse de réception une heure avant les ventes. Ansem a nié toute implication, a rapporté The Block.
+
+À 10 h 35, heure du centre, Bullpen a confirmé des [transferts non autorisés](L1) touchant 18 à 19 comptes bêta, soit selon elle moins de 0,005 % de ses comptes enregistrés. L'entreprise a mis hors ligne le service de test concerné.
+
+!figure:fact
+
+## Ce que dit Bullpen aujourd'hui
+
+Dans une [mise à jour à 14 h 44, heure de l'Est](L2), Bullpen a expliqué que l'attaquant avait « pris le contrôle des comptes Bullpen d'un petit groupe d'anciens testeurs de la bêta » et que tout portefeuille importé dans ces comptes était lui aussi exposé. L'entreprise parle d'une attaque ciblée : le pirate a tenté d'accéder à d'autres comptes mais n'a pu atteindre que ce groupe, et 99,8 % des fonds venaient d'un seul compte.
+
+Mercredi matin, Bullpen a indiqué que l'attaque [semble avoir visé Ansem](L3). L'attaquant est entré « par un ancien système » lié à son compte et à ceux de 18 autres premiers testeurs, et Bullpen dit avoir définitivement fermé ce système mardi. Elle va faire appel à une société de sécurité indépendante pour examiner ses systèmes et travaille avec le FBI et d'autres autorités pour suivre et geler l'argent. Elle assure que les fonds de tous les autres utilisateurs sont en sécurité.
+
+!mid_cta
+
+## Pourquoi importer une clé est risqué
+
+Une clé privée est le mot de passe maître d'un portefeuille crypto. Celui qui la détient peut déplacer les cryptos, et la blockchain ne fait pas la différence entre un voleur et le propriétaire. Beaucoup d'applis de trading permettent d'« importer » un portefeuille en collant sa clé, ce qui est pratique pour trader vite. Mais le portefeuille devient alors aussi sûr que l'appli et votre compte sur celle-ci. Si le compte est piraté, le portefeuille part avec.
+
+Les ventes ont aussi touché d'autres personnes. ANSEM a chuté d'environ 55 % mardi, sous les 2 cents, son plus bas niveau depuis son lancement en juin, selon The Block. Ansem avait dit en juillet détenir environ 58 % de l'offre du jeton, a rappelé CoinDesk : une grosse vente depuis son portefeuille a donc frappé tous les autres détenteurs.
+
+## Ce que cela signifie pour les débutants
+
+- Ne collez jamais votre phrase de récupération ou votre clé privée dans un site, une appli ou une discussion sans comprendre parfaitement pourquoi. Un vrai support ne vous la demandera jamais.
+- Si vous avez un jour importé un portefeuille dans une appli que vous n'utilisez plus, envisagez de transférer les fonds vers un nouveau portefeuille dont la clé n'a jamais été partagée.
+- Séparez l'épargne de long terme de l'argent avec lequel vous tradez. Un portefeuille matériel ou une grande plateforme régulée comme [Coinbase](REF) ont chacun leurs risques : renseignez-vous sur la façon dont chacun vous protège.
+- Considérez tout message de « récupération » après un piratage comme une arnaque. Bullpen dit qu'elle ne contactera jamais les utilisateurs en premier.
+
+Ceci n'est pas un conseil financier.
+
+## Ce qu'il faut surveiller
+
+- Quelle faille l'attaquant a utilisée, et ce que révélera l'audit de sécurité externe.
+- Si une partie de l'argent est gelée ou récupérée.
+- Si Bullpen rembourse les utilisateurs touchés.
+
+!soft: Vous ne savez pas où garder vos cryptos ? Lisez notre guide sur les [portefeuilles avec ou sans dépositaire](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

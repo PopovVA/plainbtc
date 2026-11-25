@@ -5637,7 +5637,123 @@ COLD_CHART_ALTS = {
  "ko": "Coldcard 시드의 실제 무작위성에 대한 Coinkite 추정치 막대 그래프: 영향을 받은 Mk2와 Mk3는 약 40비트, Mk4, Mk5, Q는 약 72비트로, 원래 목표는 128비트",
 }
 
+# --- Nov 25, 2026 morning run: bitcoin $58,000 after PCE, Bullpen account takeover --------------
+PCE_SLUG = "bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026"
+BULL_SLUG = "bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026"
+
+
+def build_btc_58k_pce():
+    d = OUT / PCE_SLUG
+    data = json.loads((I18N / PCE_SLUG / "chart-data.json").read_text(encoding="utf-8"))
+    xs = np.array([r[0] for r in data["daily"]], dtype=float)
+    ys = np.array([r[1] for r in data["daily"]])
+    assert round(ys[0]) == 77437 and round(ys[-1]) == 58003, (ys[0], ys[-1])
+    chart = make_line_chart(
+        d / "chart-btc-daily-closes-november-2026",
+        xs, ys,
+        title="Bitcoin in November 2026: Kraken daily closes (Nov. 25: price at 8 a.m. CT)",
+        hline=77437.0,
+        hlabel="Oct. 31 close: $77,437",
+    )
+    fact = make_fact_card(
+        d / "fact-pce-inflation-october-3-8-percent",
+        "U.S. PCE price index · October 2026",
+        "3.8% (core 3.3%)",
+        "Prices rose 3.8% from a year earlier, up from 3.6% in September. Core PCE, without food and energy, was 3.3%, above the 3.2% forecast",
+        footer="Source: Commerce Department via CNBC, Nov. 25, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's daily closing price on Kraken from Oct. 31 to Nov. 25, 2026: it starts at $77,437, holds near $74,000 to $80,000 in early November, drops sharply from Nov. 12, and reaches about $58,000 on the morning of Nov. 25, about 25% lower", PCE_CHART_ALTS),
+         "caption": tr_map(CAPTION_CHART, src="Kraken BTC/USD daily closes, Oct. 31 to Nov. 25, 2026")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: the U.S. PCE price index rose 3.8% in the year to October 2026, up from 3.6% in September; core PCE was 3.3%, above the 3.2% forecast", PCE_FACT_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="U.S. Commerce Department via CNBC, Nov. 25, 2026")},
+    ]
+
+
+PCE_CHART_ALTS = {
+ "es": "Gráfico de líneas del precio de cierre diario de bitcoin en Kraken del 31 de octubre al 25 de noviembre de 2026: empieza en 77.437 dólares, se mantiene entre 74.000 y 80.000 a principios de noviembre, cae con fuerza desde el 12 de noviembre y llega a unos 58.000 dólares la mañana del 25 de noviembre, alrededor de un 25% menos",
+ "pt": "Gráfico de linha do preço de fechamento diário do bitcoin na Kraken de 31 de outubro a 25 de novembro de 2026: começa em US$ 77.437, fica entre US$ 74.000 e US$ 80.000 no início de novembro, cai forte a partir de 12 de novembro e chega a cerca de US$ 58.000 na manhã de 25 de novembro, cerca de 25% abaixo",
+ "fr": "Graphique linéaire du cours de clôture quotidien du bitcoin sur Kraken du 31 octobre au 25 novembre 2026 : il part de 77 437 dollars, reste entre 74 000 et 80 000 dollars début novembre, chute nettement à partir du 12 novembre et atteint environ 58 000 dollars le matin du 25 novembre, soit environ 25 % de moins",
+ "de": "Liniendiagramm der täglichen Bitcoin-Schlusskurse auf Kraken vom 31. Oktober bis 25. November 2026: Start bei 77.437 $, Anfang November zwischen 74.000 und 80.000 $, ab dem 12. November ein starker Rückgang und am Morgen des 25. November rund 58.000 $, etwa 25 % weniger",
+ "ru": "Линейный график дневных цен закрытия биткоина на Kraken с 31 октября по 25 ноября 2026 года: старт на $77 437, в начале ноября цена держится между $74 000 и $80 000, с 12 ноября резко падает и утром 25 ноября достигает около $58 000, примерно на 25% ниже",
+ "tr": "Bitcoin'in 31 Ekim - 25 Kasım 2026 arasında Kraken'deki günlük kapanış fiyatını gösteren çizgi grafik: 77.437 dolardan başlıyor, kasım başında 74.000-80.000 dolar arasında kalıyor, 12 Kasım'dan itibaren sert düşüyor ve 25 Kasım sabahı yaklaşık 58.000 dolara, yani yaklaşık %25 aşağıya iniyor",
+ "id": "Grafik garis harga penutupan harian bitcoin di Kraken dari 31 Oktober hingga 25 November 2026: dimulai di US$77.437, bertahan di kisaran US$74.000 hingga US$80.000 pada awal November, turun tajam sejak 12 November, dan mencapai sekitar US$58.000 pada pagi 25 November, sekitar 25% lebih rendah",
+ "ja": "2026年10月31日から11月25日までのクラーケンにおけるビットコインの日次終値の折れ線グラフ。77,437ドルから始まり、11月上旬は74,000〜80,000ドルで推移、11月12日から急落し、11月25日朝には約58,000ドルと約25%下落",
+ "ko": "2026년 10월 31일부터 11월 25일까지 크라켄 비트코인 일일 종가 선 그래프. 77,437달러에서 시작해 11월 초 74,000~80,000달러에 머물다 11월 12일부터 급락해 11월 25일 아침 약 58,000달러로 약 25% 하락",
+}
+PCE_FACT_ALTS = {
+ "es": "Tarjeta: el índice de precios PCE de EE. UU. subió un 3,8% en el año hasta octubre de 2026, frente al 3,6% de septiembre; el PCE subyacente fue del 3,3%, por encima del 3,2% previsto",
+ "pt": "Cartão: o índice de preços PCE dos EUA subiu 3,8% nos 12 meses até outubro de 2026, ante 3,6% em setembro; o PCE núcleo foi de 3,3%, acima dos 3,2% previstos",
+ "fr": "Fiche : l'indice des prix PCE américain a augmenté de 3,8 % sur un an en octobre 2026, contre 3,6 % en septembre ; le PCE sous-jacent était de 3,3 %, au-dessus des 3,2 % attendus",
+ "de": "Faktenkarte: Der US-Preisindex PCE stieg im Jahr bis Oktober 2026 um 3,8 %, nach 3,6 % im September; der Kern-PCE lag bei 3,3 %, über der Prognose von 3,2 %",
+ "ru": "Карточка: индекс цен PCE в США вырос на 3,8% за год по октябрь 2026 года после 3,6% в сентябре; базовый PCE составил 3,3% при прогнозе 3,2%",
+ "tr": "Bilgi kartı: ABD PCE fiyat endeksi Ekim 2026'ya kadar olan bir yılda %3,8 arttı, eylülde bu oran %3,6'ydı; çekirdek PCE %3,2 beklentinin üzerinde %3,3 oldu",
+ "id": "Kartu fakta: indeks harga PCE AS naik 3,8% dalam setahun hingga Oktober 2026, dari 3,6% pada September; PCE inti 3,3%, di atas perkiraan 3,2%",
+ "ja": "ファクトカード：米PCE物価指数は2026年10月までの1年間で3.8%上昇（9月は3.6%）。コアPCEは3.3%で予想の3.2%を上回った",
+ "ko": "팩트 카드: 미국 PCE 물가지수는 2026년 10월까지 1년간 3.8% 올라 9월의 3.6%보다 높아졌다. 근원 PCE는 3.3%로 예상치 3.2%를 웃돌았다",
+}
+
+
+def build_bullpen_takeover():
+    d = OUT / BULL_SLUG
+    tl = make_timeline_card(
+        d / "timeline-bullpen-account-takeover-nov-24-25",
+        "Bullpen account takeover · Central time",
+        [
+            ("2:34 a.m.", "Nov. 24: a wallet labeled as Ansem's starts selling memecoins", RED),
+            ("10:35 a.m.", "Nov. 24: Bullpen confirms unauthorized transfers in 18 to 19 beta accounts", ORANGE),
+            ("1:44 p.m.", "Nov. 24: Bullpen says accounts were taken over, imported wallets exposed", (96, 165, 250)),
+            ("7:40 a.m.", "Nov. 25: old system shut down; outside security review planned", GREEN),
+        ],
+        footer="Sources: Bullpen posts on X, CoinDesk",
+        margin=170, wrap_w=250,
+    )
+    fact = make_fact_card(
+        d / "fact-bullpen-2-57-million-19-accounts",
+        "Bullpen beta accounts · Nov. 24, 2026",
+        "$2.57 million",
+        "Moved to an Arbitrum address after 19 old beta accounts were taken over. Bullpen says 99.8% of the funds came from one account",
+        footer="Sources: Lookonchain via The Block; Bullpen on X",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline in U.S. Central time: at 2:34 a.m. on Nov. 24, 2026 a wallet labeled as Ansem's starts selling memecoins; at 10:35 a.m. Bullpen confirms unauthorized transfers in 18 to 19 beta accounts; at 1:44 p.m. Bullpen says the accounts were taken over and imported wallets were exposed; at 7:40 a.m. on Nov. 25 Bullpen says the old system is shut down and an outside security review is planned", BULL_TL_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="Bullpen posts on X, CoinDesk, Nov. 24-25, 2026")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: $2.57 million moved to an Arbitrum address after 19 old Bullpen beta accounts were taken over; Bullpen says 99.8% of the funds came from one account", BULL_FACT_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="Lookonchain via The Block; Bullpen on X, Nov. 24, 2026")},
+    ]
+
+
+BULL_TL_ALTS = {
+ "es": "Cronología en hora del centro de EE. UU.: a las 2:34 del 24 de noviembre de 2026 una billetera atribuida a Ansem empieza a vender memecoins; a las 10:35 Bullpen confirma transferencias no autorizadas en 18 a 19 cuentas beta; a las 13:44 Bullpen dice que las cuentas fueron tomadas y las billeteras importadas quedaron expuestas; a las 7:40 del 25 de noviembre Bullpen dice que cerró el sistema antiguo y que habrá una revisión de seguridad externa",
+ "pt": "Linha do tempo no horário central dos EUA: às 2h34 de 24 de novembro de 2026 uma carteira atribuída a Ansem começa a vender memecoins; às 10h35 a Bullpen confirma transferências não autorizadas em 18 a 19 contas beta; às 13h44 a Bullpen diz que as contas foram invadidas e as carteiras importadas ficaram expostas; às 7h40 de 25 de novembro a Bullpen diz que desligou o sistema antigo e que haverá uma auditoria de segurança externa",
+ "fr": "Chronologie à l'heure du centre des États-Unis : à 2 h 34 le 24 novembre 2026, un portefeuille attribué à Ansem commence à vendre des memecoins ; à 10 h 35, Bullpen confirme des transferts non autorisés sur 18 à 19 comptes bêta ; à 13 h 44, Bullpen indique que les comptes ont été piratés et que les portefeuilles importés étaient exposés ; à 7 h 40 le 25 novembre, Bullpen annonce l'arrêt de l'ancien système et un audit de sécurité externe",
+ "de": "Zeitleiste in US-Zentralzeit: Um 2:34 Uhr am 24. November 2026 beginnt eine Ansem zugeordnete Wallet, Memecoins zu verkaufen; um 10:35 Uhr bestätigt Bullpen unbefugte Überweisungen bei 18 bis 19 Beta-Konten; um 13:44 Uhr erklärt Bullpen, die Konten seien übernommen und importierte Wallets offengelegt worden; um 7:40 Uhr am 25. November meldet Bullpen, das alte System sei abgeschaltet und eine externe Sicherheitsprüfung geplant",
+ "ru": "Хронология по центральному времени США: в 2:34 24 ноября 2026 года кошелек, приписываемый Ansem, начинает продавать мемкоины; в 10:35 Bullpen подтверждает несанкционированные переводы с 18–19 бета-аккаунтов; в 13:44 Bullpen сообщает, что аккаунты были захвачены, а импортированные кошельки оказались под угрозой; в 7:40 25 ноября Bullpen сообщает, что старая система отключена и запланирован внешний аудит безопасности",
+ "tr": "ABD Merkez saatiyle zaman çizelgesi: 24 Kasım 2026 saat 2.34'te Ansem'e ait olduğu belirtilen bir cüzdan memecoin satmaya başlıyor; 10.35'te Bullpen 18-19 beta hesabında yetkisiz transferleri doğruluyor; 13.44'te Bullpen hesapların ele geçirildiğini ve içe aktarılan cüzdanların açığa çıktığını söylüyor; 25 Kasım 7.40'ta Bullpen eski sistemin kapatıldığını ve dış güvenlik incelemesi yapılacağını açıklıyor",
+ "id": "Linimasa dalam waktu Central AS: pukul 2.34 pada 24 November 2026 dompet yang dikaitkan dengan Ansem mulai menjual memecoin; pukul 10.35 Bullpen mengonfirmasi transfer tanpa izin di 18 hingga 19 akun beta; pukul 13.44 Bullpen menyatakan akun-akun itu diambil alih dan dompet yang diimpor ikut terekspos; pukul 7.40 pada 25 November Bullpen menyatakan sistem lama dimatikan dan audit keamanan eksternal direncanakan",
+ "ja": "米中部時間のタイムライン：2026年11月24日午前2時34分、Ansemのものとされるウォレットがミームコインの売却を開始。午前10時35分、Bullpenが18〜19のベータアカウントでの不正送金を確認。午後1時44分、Bullpenはアカウントが乗っ取られ、インポートされたウォレットも危険にさらされたと説明。11月25日午前7時40分、旧システムの停止と外部セキュリティ監査の実施を発表",
+ "ko": "미국 중부 시간 타임라인: 2026년 11월 24일 오전 2시 34분 Ansem의 것으로 알려진 지갑이 밈코인 매도를 시작한다. 오전 10시 35분 Bullpen이 베타 계정 18~19개의 무단 이체를 확인한다. 오후 1시 44분 Bullpen은 계정이 탈취돼 가져온 지갑도 노출됐다고 밝힌다. 11월 25일 오전 7시 40분 Bullpen은 구형 시스템을 종료하고 외부 보안 점검을 받겠다고 발표한다",
+}
+BULL_FACT_ALTS = {
+ "es": "Tarjeta: 2,57 millones de dólares se movieron a una dirección de Arbitrum después de que se tomaran 19 cuentas beta antiguas de Bullpen; Bullpen dice que el 99,8% de los fondos salió de una sola cuenta",
+ "pt": "Cartão: US$ 2,57 milhões foram movidos para um endereço na Arbitrum depois que 19 contas beta antigas da Bullpen foram invadidas; a Bullpen diz que 99,8% dos fundos saíram de uma única conta",
+ "fr": "Fiche : 2,57 millions de dollars ont été transférés vers une adresse Arbitrum après le piratage de 19 anciens comptes bêta de Bullpen ; selon Bullpen, 99,8 % des fonds venaient d'un seul compte",
+ "de": "Faktenkarte: 2,57 Millionen $ wurden auf eine Arbitrum-Adresse verschoben, nachdem 19 alte Bullpen-Beta-Konten übernommen wurden; laut Bullpen stammten 99,8 % der Gelder von einem einzigen Konto",
+ "ru": "Карточка: $2,57 млн были переведены на адрес в сети Arbitrum после захвата 19 старых бета-аккаунтов Bullpen; по данным Bullpen, 99,8% средств пришлись на один аккаунт",
+ "tr": "Bilgi kartı: 19 eski Bullpen beta hesabı ele geçirildikten sonra 2,57 milyon dolar bir Arbitrum adresine aktarıldı; Bullpen'e göre fonların %99,8'i tek bir hesaptan geldi",
+ "id": "Kartu fakta: US$2,57 juta dipindahkan ke sebuah alamat Arbitrum setelah 19 akun beta lama Bullpen diambil alih; Bullpen menyebut 99,8% dana berasal dari satu akun",
+ "ja": "ファクトカード：Bullpenの旧ベータアカウント19件が乗っ取られた後、257万ドルがArbitrum上のアドレスに移された。Bullpenによると資金の99.8%は1つのアカウントからだった",
+ "ko": "팩트 카드: Bullpen의 구형 베타 계정 19개가 탈취된 뒤 257만 달러가 아비트럼 주소로 옮겨졌다. Bullpen은 자금의 99.8%가 한 계정에서 나왔다고 밝혔다",
+}
+
+
 BUILDERS = {
+    "bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026": "btc58pce",
+    "bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026": "bullpen",
     "fidelity-crypto-adds-aave-link-uni-nov-2026": "fiddefi",
     "coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026": "coldcard",
     "kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026": "krakcc",
@@ -5736,7 +5852,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "fiddefi":
+    if key == "btc58pce":
+        figs = build_btc_58k_pce()
+    elif key == "bullpen":
+        figs = build_bullpen_takeover()
+    elif key == "fiddefi":
         figs = build_fidelity_defi_tokens()
     elif key == "coldcard":
         figs = build_coldcard_postmortem()

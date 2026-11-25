@@ -1,0 +1,65 @@
+title: La app de cripto Bullpen dice que un hacker tomó 19 cuentas beta antiguas y vació unos 2,57 millones de dólares de la billetera importada del trader Ansem
+page_title: Hackeo a Bullpen: vacían 2,57 millones de la billetera importada de Ansem
+description: La app de trading Bullpen dice que un atacante tomó 19 cuentas de su primera beta el 24 de noviembre de 2026, incluida la del trader Ansem, y vació billeteras importadas con su clave privada. Se movieron unos 2,57 millones de dólares; el 99,8% salió de una sola cuenta.
+og_description: Un hacker entró en 19 cuentas beta antiguas de Bullpen y vació billeteras cuyas claves privadas se habían importado en la app. Unos 2,57 millones de dólares salieron de la billetera del trader Ansem y su memecoin ANSEM cayó cerca de un 55%. Qué pasó y cómo protegerte.
+label: Seguridad
+summary: Bullpen, una app de trading de criptomonedas, dice que un atacante tomó 19 cuentas de su beta de 2024, entre ellas la de su cofundador, el trader Ansem, y vació billeteras cuyas claves privadas estaban importadas en la app. Se movieron unos 2,57 millones de dólares, ANSEM cayó cerca de un 55% y Bullpen ha cerrado el sistema antiguo.
+===
+
+La billetera de un conocido trader de criptomonedas se vació el martes 24 de noviembre, y la app de trading que ayudó a fundar dice ahora que fue un ataque. <strong>Bullpen</strong>, una terminal de trading de criptomonedas, dijo que un atacante tomó el control de <strong>19 cuentas</strong> abiertas durante su primera beta, entre abril y junio de 2024, incluida la cuenta de <strong>Ansem</strong>, el trader cuyo nombre real es Zion Thomas y que cofundó la app.
+
+Como esos usuarios habían importado sus billeteras en Bullpen con sus claves privadas, el atacante también pudo mover sus monedas. Unos <strong>2,57 millones de dólares</strong> en USDC terminaron en una dirección de la red Arbitrum, según rastreadores de blockchain citados por [The Block](L5) y [Decrypt](L6).
+
+!takeaways
+- Bullpen dice que un atacante tomó 19 cuentas de su beta de abril a junio de 2024, incluida la de Ansem, y vació billeteras importadas con claves privadas.
+- Unos 2,57 millones de dólares en USDC se movieron a una dirección de Arbitrum. Bullpen dice que el 99,8% del dinero robado salió de una sola cuenta.
+- La memecoin que lleva el nombre de Ansem, The Black Bull (ANSEM), cayó cerca de un 55% en el día, por debajo de 2 centavos.
+- Bullpen dice que cerró para siempre el sistema antiguo que usó el atacante y que trabaja con el FBI para rastrear los fondos.
+- Bullpen no ha dicho cómo se accedió a las cuentas, cuánto se robó en total ni si devolverá el dinero a las víctimas.
+
+!figure:timeline
+
+## Qué pasó
+
+Las ventas empezaron hacia las 2:34 (hora del centro de EE. UU.) del martes. Una billetera de Solana que la firma de análisis Arkham atribuye a Ansem hizo 877 ventas de 124 tokens, entre ellas unos 1,5 millones de dólares en ANSEM, según [CoinDesk](L4). El dinero se cambió por la stablecoin en dólares USDC y se pasó por un puente a Arbitrum, otra blockchain.
+
+Ansem escribió en X que le habían hackeado la billetera y que sospechaba de un «acceso no autorizado a mi perfil de bullpen», donde había importado la clave privada de la billetera. Al principio, algunos investigadores on-chain dudaron de él. Un analista señaló que una billetera que él había vinculado con Ansem financió la dirección receptora una hora antes de las ventas. Ansem negó tener nada que ver, informó The Block.
+
+A las 10:35 (hora del centro), Bullpen confirmó [transferencias no autorizadas](L1) en 18 a 19 cuentas beta, que según dijo eran menos del 0,005% de sus cuentas registradas. Desconectó el servicio de pruebas afectado.
+
+!figure:fact
+
+## Qué dice Bullpen ahora
+
+En una [actualización a las 2:44 (hora del este)](L2), Bullpen dijo que el atacante «tomó las cuentas de Bullpen de un pequeño grupo de antiguos usuarios de la beta», y que cualquier billetera importada en esas cuentas también quedó expuesta. Lo llamó un ataque dirigido: el hacker intentó entrar en otras cuentas pero solo pudo llegar a ese grupo, y el 99,8% de los fondos salió de una sola cuenta.
+
+El miércoles por la mañana, Bullpen dijo que el ataque [parece haber tenido como objetivo a Ansem](L3). El atacante entró «a través de un sistema antiguo» vinculado a su cuenta y a las de otros 18 primeros probadores, y Bullpen dice que cerró ese sistema para siempre el martes. Va a contratar a una firma de seguridad independiente para revisar sus sistemas y trabaja con el FBI y otras autoridades para rastrear y congelar el dinero. Asegura que los fondos de los demás usuarios están a salvo.
+
+!mid_cta
+
+## Por qué importar una clave es un riesgo
+
+Una clave privada es la contraseña maestra de una billetera de criptomonedas. Quien la tiene puede mover las monedas, y la blockchain no distingue entre un ladrón y el dueño. Muchas apps de trading permiten «importar» una billetera pegando su clave, algo cómodo para operar rápido. Pero eso significa que la billetera pasa a ser tan segura como esa app y tu cuenta en ella. Si alguien toma la cuenta, la billetera se va con ella.
+
+Las ventas también afectaron a otras personas. ANSEM cayó cerca de un 55% el martes, por debajo de 2 centavos, su nivel más bajo desde su lanzamiento en junio, informó The Block. Ansem dijo en julio que tenía alrededor del 58% del suministro del token, recordó CoinDesk, así que una gran venta desde su billetera golpeó a todos los demás tenedores.
+
+## Qué significa para principiantes
+
+- Nunca pegues tu frase de recuperación ni tu clave privada en una web, app o chat salvo que entiendas por completo por qué. El soporte real nunca te la pedirá.
+- Si alguna vez importaste una billetera en una app que ya no usas, plantéate mover los fondos a una billetera nueva cuya clave nunca se haya compartido.
+- Separa los ahorros a largo plazo del dinero con el que operas. Una billetera física o un gran exchange regulado como [Coinbase](REF) tienen cada uno sus propios riesgos, así que aprende cómo te protege cada uno.
+- Trata como estafa cualquier mensaje de «recuperación» tras un hackeo. Bullpen dice que nunca escribirá primero a los usuarios.
+
+Esto no es asesoramiento financiero.
+
+## Qué vigilar ahora
+
+- Qué fallo usó el atacante y qué encuentra la revisión de seguridad externa.
+- Si se congela o recupera parte del dinero.
+- Si Bullpen devuelve el dinero a los usuarios afectados.
+
+!soft: ¿No sabes dónde guardar tus monedas? Lee nuestra guía sobre [billeteras custodiadas y autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure
