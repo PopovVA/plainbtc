@@ -4,6 +4,7 @@
  "readtime": 5,
  "primary_partner": "coinbase",
  "related": [
+  "coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026",
   "bitcoin-core-node-stall-bug-ai-found-fix-nov-2026",
   "optimizely-hack-crypto-address-swap-178-sites-nov-2026",
   "what-is-a-crypto-wallet-custodial-vs-self-custody",
