@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 24 Nov 2026 14:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:45:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fidelity CryptoがAave、Chainlink、Uniswapを追加、初のDeFiトークン、3銘柄は1カ月で23〜32%下落</title>
+      <link>https://plainbtc.com/ja/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:45:00 GMT</pubDate>
+      <category>ビジネス</category>
+      <description>FidelityはAave、Chainlink、UniswapのトークンをFidelity Cryptoと暗号資産IRAに追加した。同社初の分散型金融(DeFi)トークンとなる。取扱いは7銘柄とステーブルコインFIDD、手数料は1%で、新トークンはオレゴン州では利用できない。3銘柄とも過去1カ月で大きく値を下げている。</description>
+    </item>
+    <item>
+      <title>Coldcardのメーカーが事後調査報告書を公表、弱い復元フレーズで約1,779 BTCが盗まれる、端末のハッキングはなし</title>
+      <link>https://plainbtc.com/ja/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:40:00 GMT</pubDate>
+      <category>セキュリティ</category>
+      <description>CoinkiteがColdcardのシード欠陥に関する報告書を公表した。2021年3月から2026年7月まで、ウォレットは弱いソフトウェア生成器で復元フレーズを作り、窃盗犯はオフラインで鍵を再現した。Galaxy Researchは約1,779 BTCの盗難を確認した。ファームウェアを更新しても古いシードは直らず、新しいシードへ資金を移す必要がある。</description>
+    </item>
     <item>
       <title>KrakenのアプリKrak、最大4%のビットコイン還元付き米国クレジットカードのウェイトリストを開始、USDC担保型も</title>
       <link>https://plainbtc.com/ja/articles/kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026</link>

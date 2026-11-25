@@ -1,0 +1,65 @@
+title: Le fabricant de Coldcard publique son rapport : des phrases de récupération trop faibles ont permis de voler environ 1 779 BTC, sans qu'aucun appareil soit piraté
+page_title: Rapport Coldcard : comment des graines trop faibles ont permis des vols de bitcoins
+description: Le rapport de Coinkite de novembre 2026 indique que les portefeuilles Coldcard ont créé des phrases de récupération trop faibles de mars 2021 à juillet 2026. Les voleurs ont reconstruit les clés hors ligne ; Galaxy Research a compté environ 1 779 BTC volés. Les détenteurs de graines touchées doivent déplacer leurs fonds.
+og_description: Pendant plus de cinq ans, les portefeuilles matériels Coldcard ont utilisé un générateur logiciel de nombres aléatoires trop faible pour créer les phrases de récupération. Le nouveau rapport de Coinkite explique comment 15 audits l'ont manqué, pourquoi une mise à jour ne suffit pas et ce que les propriétaires doivent faire.
+label: Sécurité
+summary: Coinkite a publié son rapport sur la faille des graines Coldcard : de mars 2021 à juillet 2026, les portefeuilles ont créé des phrases de récupération avec un générateur logiciel trop faible, et des voleurs ont recréé les clés hors ligne. Galaxy Research a compté environ 1 779 BTC volés. Mettre à jour le firmware ne répare pas une ancienne graine : il faut transférer les fonds vers une nouvelle.
+===
+
+L'entreprise derrière l'un des portefeuilles matériels Bitcoin les plus connus a détaillé, étape par étape, comment une faille cachée a mis en danger l'épargne de ses clients pendant plus de cinq ans. Coinkite, fabricant de <strong>Coldcard</strong>, a publié mardi 24 novembre un [rapport d'incident](L1) détaillé sur le bug qui a conduit certains de ses portefeuilles à créer des phrases de récupération trop faibles. Des voleurs s'en sont servis pour reconstruire des clés privées sur leurs propres ordinateurs et vider des fonds à partir du 29 juillet 2026.
+
+« Les pertes sont réelles et, pour certains clients, elles bouleversent une vie », a écrit Coinkite. « Nous sommes désolés. » Le [rapport](L2) de 18 pages, daté du 23 novembre, suit le modèle d'un rapport d'accident du NTSB et affirme qu'<strong>aucun appareil n'a été consulté ni pris en main à distance</strong>.
+
+!takeaways
+- Du 29 mars 2021 au 30 juillet 2026, le firmware Coldcard a créé les graines avec un générateur logiciel de nombres aléatoires trop faible au lieu de la puce matérielle de l'appareil.
+- Des attaquants ont recréé les clés touchées hors ligne et ont commencé à voler des fonds le 29 juillet 2026. Galaxy Research a fait état de 1 778,84 BTC volés sur plus de 8 600 adresses.
+- Coinkite a corrigé le bug le 31 juillet. Son support a recensé environ 300 tickets liés à des pertes, soit environ 0,2 % de sa base d'utilisateurs estimée.
+- Au moins 15 audits indépendants, dont un assisté par IA, sont passés à côté.
+- Une mise à jour du firmware ne répare pas une ancienne graine. Les détenteurs de graines touchées doivent en créer une nouvelle et y transférer leurs bitcoins.
+
+!figure:timeline
+
+## Ce qui n'a pas fonctionné
+
+Tout portefeuille bitcoin commence par une phrase de récupération (aussi appelée graine), généralement de 12 ou 24 mots. Ces mots proviennent d'un nombre aléatoire, et toute la sécurité repose sur le fait que ce nombre soit impossible à deviner. Coldcard devait le tirer d'un générateur matériel de nombres aléatoires intégré à sa puce.
+
+À cause d'une erreur de configuration et d'édition de liens, le firmware a utilisé à la place, sans que personne ne s'en aperçoive, un générateur logiciel plus simple issu de MicroPython, une boîte à outils de programmation. L'appareil fonctionnait normalement et affichait des mots d'apparence normale. Mais Coinkite estime que les graines touchées ne contenaient qu'environ <strong>40 bits</strong> de vrai hasard sur les anciens Mk2 et Mk3, ou environ <strong>72 bits</strong> sur les Mk4, Mk5 et Q, au lieu des <strong>128 bits</strong> prévus. Chaque bit double le nombre d'essais nécessaires, l'écart est donc énorme : une graine de 72 bits est environ 72 millions de milliards (2 puissance 56) de fois plus facile à deviner qu'une graine de 128 bits.
+
+!figure:chart
+
+!mid_cta
+
+## Quelle est l'ampleur des dégâts ?
+
+Les chiffres dépendent de qui compte. En août, Galaxy Research a fait état de <strong>1 778,84 BTC</strong> volés sur plus de 8 600 adresses, soit environ 106 millions de dollars au cours de mardi, proche de 59 700 dollars. Le propre examen du support de Coinkite a recensé environ <strong>300 tickets liés à des pertes</strong>, rattachés à environ 240 comptes clients (le rapport indique 242, le billet de blog 236), soit environ 0,2 % des utilisateurs estimés. Comme Coldcard est un outil d'autoconservation, Coinkite ne peut compter que les pertes signalées et affirme que « le chiffre réel est probablement plus élevé ».
+
+Coinkite n'a décidé d'aucun plan d'indemnisation ; le rapport classe ce point comme ouvert. L'entreprise a aussi demandé à ceux qui détiennent les bitcoins volés de les rendre via security@coinkite.com, sans promettre d'immunité ni de paiement.
+
+## Pourquoi personne ne l'a vu
+
+Le rapport recense au moins 15 audits et travaux de recherche indépendants entre 2021 et 2026, dont deux audits produits payants réalisés par des tiers. Un audit de deux mois assisté par IA ce printemps a produit 85 constats, mais a manqué le bug. Coinkite explique que ses contrôles confirmaient que le bon générateur existait dans le code, sans jamais vérifier que la création des graines y faisait réellement appel. On ignore toujours qui a découvert et exploité la faille en premier.
+
+## Ce que doivent faire les propriétaires de Coldcard
+
+Selon le rapport et la [page d'état de sécurité](L3) de Coldcard :
+
+- Vérifiez si votre graine a été créée avec un firmware touché (par exemple, les versions Mk4 et Mk5 antérieures à 5.6.0, ou les versions Q antérieures à 1.5.0Q).
+- Si c'est le cas, installez un firmware corrigé et vérifié, créez une toute nouvelle graine, sauvegardez-la et transférez vos fonds. La mise à jour seule ne suffit pas.
+- Les graines créées avec au moins 50 lancers de dés équitables et privés n'ont pas été affaiblies.
+- N'envoyez jamais vos mots de récupération, phrases de passe ou sauvegardes à qui que ce soit, y compris Coinkite, et considérez toute offre non sollicitée de « récupération » ou d'« indemnisation » comme une probable arnaque.
+
+## Ce que cela signifie pour les débutants
+
+L'autoconservation donne un contrôle total, mais aussi une responsabilité totale, et même des appareils très audités peuvent cacher des failles. Des couches supplémentaires, comme une phrase de passe solide ou une configuration multisignature, peuvent aider. Beaucoup de débutants préfèrent commencer par acheter un petit montant sur une grande plateforme régulée comme [Coinbase](REF), puis se former aux portefeuilles avant de déplacer leurs cryptos. Dans tous les cas, n'investissez que de l'argent que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil financier.
+
+## À surveiller
+
+- Si Coinkite annonce une indemnisation ou une aide pour les clients touchés.
+- Toute restitution des bitcoins volés, ou des arrestations liées à ces vols.
+- De nouveaux audits indépendants du firmware corrigé, que Coinkite juge encore nécessaires.
+
+!soft: Débutant avec les portefeuilles ? Commencez par notre guide [portefeuille dépositaire ou autoconservation](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

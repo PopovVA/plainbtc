@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ko/</link>
     <description>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 24 Nov 2026 14:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:45:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ko/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fidelity Crypto, 첫 DeFi 토큰으로 Aave·Chainlink·Uniswap 추가... 세 코인은 한 달 새 23~32% 하락</title>
+      <link>https://plainbtc.com/ko/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:45:00 GMT</pubDate>
+      <category>비즈니스</category>
+      <description>Fidelity가 Aave, Chainlink, Uniswap 토큰을 Fidelity Crypto와 암호화폐 IRA에 추가했다. 플랫폼 최초의 탈중앙화 금융(DeFi) 토큰이다. 이제 코인 7종과 스테이블코인 FIDD를 제공하며, 수수료는 1%이고 새 토큰은 오리건주에서 이용할 수 없다. 세 토큰 모두 지난 한 달 동안 크게 떨어졌다.</description>
+    </item>
+    <item>
+      <title>Coldcard 제조사, 사후 분석 보고서 공개... 약한 복구 문구로 약 1,779 BTC 도난, 해킹된 기기는 없어</title>
+      <link>https://plainbtc.com/ko/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ko/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:40:00 GMT</pubDate>
+      <category>보안</category>
+      <description>Coinkite가 Coldcard 시드 결함에 관한 보고서를 공개했다. 2021년 3월부터 2026년 7월까지 지갑은 약한 소프트웨어 생성기로 복구 문구를 만들었고, 도둑들은 오프라인에서 키를 재구성했다. Galaxy Research는 약 1,779 BTC가 도난당했다고 집계했다. 펌웨어를 업데이트해도 기존 시드는 고쳐지지 않으므로 새 시드로 자금을 옮겨야 한다.</description>
+    </item>
     <item>
       <title>Kraken의 앱 Krak, 최대 4% 비트코인 캐시백 미국 신용카드 대기자 명단 개설… USDC 담보 카드도</title>
       <link>https://plainbtc.com/ko/articles/kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026</link>

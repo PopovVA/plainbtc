@@ -1,0 +1,40 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Aave logo (2024).png",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Aave_logo_(2024).png",
+      "credit": "Aave"
+    },
+    {
+      "file": "Chainlink logo - Blue.svg",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Chainlink_logo_-_Blue.svg",
+      "credit": "Chainlink Foundation"
+    },
+    {
+      "file": "Uniswap Logo.svg",
+      "license": "GPLv3",
+      "url": "https://commons.wikimedia.org/wiki/File:Uniswap_Logo.svg",
+      "credit": "Uniswap Labs"
+    },
+    {
+      "file": "Fidelity Crypto help pages, Nov. 24, 2026",
+      "license": "Facts cited",
+      "url": "https://www.fidelity.com/crypto/help/trading/trading-basics",
+      "credit": "Fidelity Digital Assets"
+    }
+  ],
+  "note": "Editorial composite; logos for identification only; no endorsement by Fidelity, Aave, Chainlink or Uniswap implied.",
+  "slug": "fidelity-crypto-adds-aave-link-uni-nov-2026",
+  "generated": "2026-11-25T00:05Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

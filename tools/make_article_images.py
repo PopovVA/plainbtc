@@ -5499,7 +5499,147 @@ KRAK_CMP_ALTS = {
 }
 
 
+
+# --- Nov 24, 2026 evening run: Fidelity DeFi tokens, Coldcard postmortem -------------------------
+FID_SLUG = "fidelity-crypto-adds-aave-link-uni-nov-2026"
+COLD_SLUG = "coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026"
+
+
+def make_multi_pct_chart(path: Path, series, title: str, w=1200, h=675) -> Path:
+    """Percent change from the first close for several assets (frozen Kraken data)."""
+    import datetime as dt
+    fig, ax = plt.subplots(figsize=(w / 100, h / 100), dpi=100)
+    style_axes(ax, title)
+    for label, pts, col in series:
+        base = pts[0][1]
+        dts = [dt.datetime.fromtimestamp(t, dt.UTC) for t, _ in pts]
+        ys = [(v / base - 1) * 100 for _, v in pts]
+        ax.plot(dts, ys, color=col, linewidth=2.4, label=f"{label}  {ys[-1]:+.0f}%")
+        ax.text(dts[-1], ys[-1], f"  {ys[-1]:+.0f}%", color=col, fontsize=12, fontweight="bold", va="center")
+    ax.axhline(0, color="#475569", linewidth=1)
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %d"))
+    ax.yaxis.set_major_formatter(lambda x, _p: f"{x:+.0f}%")
+    leg = ax.legend(loc="lower left", frameon=False, fontsize=12)
+    for t in leg.get_texts():
+        t.set_color("#e2e8f0")
+    ax.margins(x=0.08)
+    plt.tight_layout(pad=1.2)
+    fig.text(0.99, 0.01, "plainbtc.com", color="#64748b", ha="right", fontsize=9)
+    buf = io.BytesIO()
+    fig.savefig(buf, format="png", dpi=100, facecolor=fig.get_facecolor())
+    plt.close(fig)
+    buf.seek(0)
+    return save_image(Image.open(buf).convert("RGB"), path)
+
+
+def build_fidelity_defi_tokens():
+    d = OUT / FID_SLUG
+    data = json.loads((I18N / FID_SLUG / "chart-data.json").read_text(encoding="utf-8"))["series"]
+    chart = make_multi_pct_chart(
+        d / "chart-aave-link-uni-since-oct-25",
+        [("AAVE", data["AAVEUSD"], "#9896ff"), ("LINK", data["LINKUSD"], "#375bd2"), ("UNI", data["UNIUSD"], "#ff007a")],
+        "AAVE, LINK and UNI: change since Oct. 25, 2026 (USD)",
+    )
+    fact = make_fact_card(
+        d / "fact-fidelity-crypto-seven-coins",
+        "Fidelity Crypto · Nov. 24, 2026",
+        "+AAVE  +LINK  +UNI",
+        "Seven cryptocurrencies plus the FIDD stablecoin. 1% fee per buy or sell, trades from $1, not available in Oregon for the new tokens",
+        footer="Source: Fidelity Crypto help pages and Fidelity post on X",
+    )
+    return [
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: on Nov. 24, 2026 Fidelity Crypto added AAVE, LINK and UNI, bringing it to seven cryptocurrencies plus the FIDD stablecoin; trades cost a 1% fee, start at $1, and the new tokens are not available in Oregon", FID_FACT_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="Fidelity Crypto help pages, Nov. 24, 2026")},
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of AAVE, LINK and UNI prices in U.S. dollars since Oct. 25, 2026: by the evening of Nov. 24 UNI was down about 32%, AAVE about 31% and LINK about 23%", FID_CHART_ALTS),
+         "caption": tr_map(CAPTION_CHART, src="Kraken daily closes, Oct. 25 to Nov. 24, 2026")},
+    ]
+
+
+FID_FACT_ALTS = {
+ "es": "Tarjeta: el 24 de noviembre de 2026 Fidelity Crypto añadió AAVE, LINK y UNI y pasa a ofrecer siete criptomonedas más la stablecoin FIDD; cada operación cuesta un 1%, se puede empezar con 1 dólar y los nuevos tokens no están disponibles en Oregón",
+ "pt": "Cartão: em 24 de novembro de 2026 a Fidelity Crypto adicionou AAVE, LINK e UNI e passou a oferecer sete criptomoedas mais a stablecoin FIDD; cada operação custa 1%, começa em US$ 1 e os novos tokens não estão disponíveis no Oregon",
+ "fr": "Fiche : le 24 novembre 2026, Fidelity Crypto a ajouté AAVE, LINK et UNI et propose désormais sept cryptomonnaies plus le stablecoin FIDD ; chaque transaction coûte 1 %, dès 1 dollar, et les nouveaux jetons ne sont pas disponibles en Oregon",
+ "de": "Faktenkarte: Am 24. November 2026 hat Fidelity Crypto AAVE, LINK und UNI aufgenommen und bietet nun sieben Kryptowährungen plus den Stablecoin FIDD; jeder Kauf und Verkauf kostet 1 %, ab 1 US-Dollar, und die neuen Token sind in Oregon nicht verfügbar",
+ "ru": "Карточка: 24 ноября 2026 года Fidelity Crypto добавила AAVE, LINK и UNI, теперь на платформе семь криптовалют и стейблкоин FIDD; комиссия 1% за покупку или продажу, сделки от 1 доллара, новые токены недоступны в Орегоне",
+ "tr": "Bilgi kartı: Fidelity Crypto 24 Kasım 2026'da AAVE, LINK ve UNI'yi ekledi ve artık yedi kripto para ile FIDD stablecoin'i sunuyor; her alım ve satım yüzde 1 ücretli, işlemler 1 dolardan başlıyor ve yeni tokenlar Oregon'da sunulmuyor",
+ "id": "Kartu fakta: pada 24 November 2026 Fidelity Crypto menambahkan AAVE, LINK, dan UNI sehingga kini menawarkan tujuh kripto plus stablecoin FIDD; setiap beli atau jual dikenai biaya 1%, mulai dari 1 dolar, dan token baru tidak tersedia di Oregon",
+ "ja": "ファクトカード: 2026年11月24日、Fidelity CryptoはAAVE、LINK、UNIを追加し、暗号資産7銘柄とステーブルコインFIDDを扱うようになった。売買ごとに1%の手数料、1ドルから取引可能、新トークンはオレゴン州では利用できない",
+ "ko": "팩트 카드: 2026년 11월 24일 Fidelity Crypto가 AAVE, LINK, UNI를 추가해 암호화폐 7종과 스테이블코인 FIDD를 제공하게 됐다. 매수와 매도마다 1% 수수료, 1달러부터 거래 가능, 새 토큰은 오리건주에서 이용할 수 없다",
+}
+FID_CHART_ALTS = {
+ "es": "Gráfico de líneas de los precios de AAVE, LINK y UNI en dólares desde el 25 de octubre de 2026: en la tarde del 24 de noviembre UNI había caído cerca de un 32%, AAVE cerca de un 31% y LINK cerca de un 23%",
+ "pt": "Gráfico de linhas dos preços de AAVE, LINK e UNI em dólares desde 25 de outubro de 2026: na noite de 24 de novembro o UNI acumulava queda de cerca de 32%, o AAVE de cerca de 31% e o LINK de cerca de 23%",
+ "fr": "Graphique en courbes des prix d'AAVE, LINK et UNI en dollars depuis le 25 octobre 2026 : le soir du 24 novembre, UNI avait perdu environ 32 %, AAVE environ 31 % et LINK environ 23 %",
+ "de": "Liniendiagramm der Kurse von AAVE, LINK und UNI in US-Dollar seit dem 25. Oktober 2026: Am Abend des 24. November lag UNI rund 32 % im Minus, AAVE rund 31 % und LINK rund 23 %",
+ "ru": "Линейный график цен AAVE, LINK и UNI в долларах с 25 октября 2026 года: к вечеру 24 ноября UNI подешевел примерно на 32%, AAVE примерно на 31%, LINK примерно на 23%",
+ "tr": "AAVE, LINK ve UNI'nin 25 Ekim 2026'dan bu yana dolar fiyatlarını gösteren çizgi grafik: 24 Kasım akşamı UNI yaklaşık yüzde 32, AAVE yaklaşık yüzde 31 ve LINK yaklaşık yüzde 23 düşüşteydi",
+ "id": "Grafik garis harga AAVE, LINK, dan UNI dalam dolar AS sejak 25 Oktober 2026: pada malam 24 November UNI turun sekitar 32%, AAVE sekitar 31%, dan LINK sekitar 23%",
+ "ja": "2026年10月25日以降のAAVE、LINK、UNIのドル建て価格の折れ線グラフ。11月24日夜時点でUNIは約32%、AAVEは約31%、LINKは約23%下落",
+ "ko": "2026년 10월 25일 이후 AAVE, LINK, UNI의 달러 가격 꺾은선 그래프: 11월 24일 저녁 기준 UNI는 약 32%, AAVE는 약 31%, LINK는 약 23% 하락",
+}
+
+
+def build_coldcard_postmortem():
+    d = OUT / COLD_SLUG
+    tl = make_timeline_card(
+        d / "timeline-coldcard-weak-seed-2021-2026",
+        "Coldcard seed flaw · timeline",
+        [
+            ("Mar 2021", "Firmware starts making seeds with a weak software generator", ORANGE),
+            ("Jul 29, 2026", "Thieves rebuild keys offline and start draining wallets", RED),
+            ("Jul 31, 2026", "Coinkite ships fixed firmware", GREEN),
+            ("Nov 23, 2026", "Coinkite publishes its postmortem", (96, 165, 250)),
+        ],
+        footer="Source: Coinkite postmortem, Nov. 23, 2026",
+        margin=170, wrap_w=250,
+    )
+    chart = make_bar_chart(
+        d / "chart-coldcard-seed-entropy-bits",
+        ["Mk2 / Mk3\n(affected)", "Mk4 / Mk5 / Q\n(affected)", "Intended\ntarget"],
+        [40, 72, 128],
+        "Real randomness in Coldcard seeds (bits, Coinkite estimate)",
+        colors=["#f87171", "#fb923c", "#34d399"],
+        value_fmt=lambda v: f"{v:.0f} bits",
+        axis_fmt=lambda x, _p: f"{x:.0f}",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: in March 2021 Coldcard firmware started making seeds with a weak software random number generator; on July 29, 2026 thieves began rebuilding keys offline and draining wallets; on July 31, 2026 Coinkite shipped fixed firmware; on Nov. 23, 2026 Coinkite published its postmortem", COLD_TL_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="Coinkite postmortem, Nov. 23, 2026")},
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of Coinkite's estimate of real randomness in Coldcard seeds: about 40 bits on affected Mk2 and Mk3 devices, about 72 bits on affected Mk4, Mk5 and Q devices, versus the intended 128 bits", COLD_CHART_ALTS),
+         "caption": tr_map(CAPTION_CHART, src="Coinkite postmortem, Nov. 23, 2026")},
+    ]
+
+
+COLD_TL_ALTS = {
+ "es": "Cronología: en marzo de 2021 el firmware de Coldcard empezó a crear semillas con un generador de números aleatorios por software débil; el 29 de julio de 2026 los ladrones empezaron a reconstruir claves sin conexión y a vaciar billeteras; el 31 de julio de 2026 Coinkite publicó un firmware corregido; el 23 de noviembre de 2026 Coinkite publicó su análisis posterior",
+ "pt": "Linha do tempo: em março de 2021 o firmware da Coldcard passou a gerar sementes com um gerador de números aleatórios por software fraco; em 29 de julho de 2026 ladrões começaram a reconstruir chaves offline e esvaziar carteiras; em 31 de julho de 2026 a Coinkite lançou o firmware corrigido; em 23 de novembro de 2026 a Coinkite publicou seu relatório pós-incidente",
+ "fr": "Chronologie : en mars 2021, le firmware Coldcard commence à créer des graines avec un générateur logiciel de nombres aléatoires trop faible ; le 29 juillet 2026, des voleurs reconstruisent des clés hors ligne et vident des portefeuilles ; le 31 juillet 2026, Coinkite publie un firmware corrigé ; le 23 novembre 2026, Coinkite publie son rapport d'incident",
+ "de": "Zeitleiste: Im März 2021 begann die Coldcard-Firmware, Seeds mit einem schwachen Software-Zufallszahlengenerator zu erzeugen; am 29. Juli 2026 begannen Diebe, Schlüssel offline nachzubauen und Wallets zu leeren; am 31. Juli 2026 lieferte Coinkite eine korrigierte Firmware; am 23. November 2026 veröffentlichte Coinkite seinen Untersuchungsbericht",
+ "ru": "Хронология: в марте 2021 года прошивка Coldcard начала создавать сид-фразы слабым программным генератором случайных чисел; 29 июля 2026 года воры начали восстанавливать ключи офлайн и опустошать кошельки; 31 июля 2026 года Coinkite выпустила исправленную прошивку; 23 ноября 2026 года Coinkite опубликовала разбор инцидента",
+ "tr": "Zaman çizelgesi: Mart 2021'de Coldcard yazılımı tohumları zayıf bir yazılım rastgele sayı üreteciyle oluşturmaya başladı; 29 Temmuz 2026'da hırsızlar anahtarları çevrimdışı yeniden üretip cüzdanları boşaltmaya başladı; 31 Temmuz 2026'da Coinkite düzeltilmiş yazılımı yayımladı; 23 Kasım 2026'da Coinkite olay sonrası raporunu yayımladı",
+ "id": "Linimasa: pada Maret 2021 firmware Coldcard mulai membuat seed dengan generator angka acak perangkat lunak yang lemah; pada 29 Juli 2026 pencuri mulai membangun ulang kunci secara offline dan menguras dompet; pada 31 Juli 2026 Coinkite merilis firmware perbaikan; pada 23 November 2026 Coinkite menerbitkan laporan pascainsiden",
+ "ja": "年表: 2021年3月、Coldcardのファームウェアが弱いソフトウェア乱数生成器でシードを作り始める。2026年7月29日、窃盗犯がオフラインで鍵を再現しウォレットから資金を抜き始める。2026年7月31日、Coinkiteが修正版ファームウェアを公開。2026年11月23日、Coinkiteが事後調査報告書を公表",
+ "ko": "타임라인: 2021년 3월 Coldcard 펌웨어가 약한 소프트웨어 난수 생성기로 시드를 만들기 시작했다. 2026년 7월 29일 도둑들이 오프라인에서 키를 재구성해 지갑을 털기 시작했다. 2026년 7월 31일 Coinkite가 수정 펌웨어를 배포했다. 2026년 11월 23일 Coinkite가 사후 분석 보고서를 공개했다",
+}
+COLD_CHART_ALTS = {
+ "es": "Gráfico de barras con la estimación de Coinkite sobre la aleatoriedad real de las semillas de Coldcard: unos 40 bits en los Mk2 y Mk3 afectados, unos 72 bits en los Mk4, Mk5 y Q afectados, frente a los 128 bits previstos",
+ "pt": "Gráfico de barras com a estimativa da Coinkite para a aleatoriedade real das sementes da Coldcard: cerca de 40 bits nos Mk2 e Mk3 afetados, cerca de 72 bits nos Mk4, Mk5 e Q afetados, contra os 128 bits previstos",
+ "fr": "Graphique en barres de l'estimation de Coinkite sur le hasard réel des graines Coldcard : environ 40 bits sur les Mk2 et Mk3 touchés, environ 72 bits sur les Mk4, Mk5 et Q touchés, contre 128 bits prévus",
+ "de": "Balkendiagramm mit Coinkites Schätzung der echten Zufälligkeit von Coldcard-Seeds: etwa 40 Bit bei betroffenen Mk2 und Mk3, etwa 72 Bit bei betroffenen Mk4, Mk5 und Q, statt der vorgesehenen 128 Bit",
+ "ru": "Столбчатая диаграмма с оценкой Coinkite реальной случайности сид-фраз Coldcard: около 40 бит у затронутых Mk2 и Mk3, около 72 бит у затронутых Mk4, Mk5 и Q против задуманных 128 бит",
+ "tr": "Coinkite'ın Coldcard tohumlarındaki gerçek rastgelelik tahminini gösteren çubuk grafik: etkilenen Mk2 ve Mk3'te yaklaşık 40 bit, etkilenen Mk4, Mk5 ve Q'da yaklaşık 72 bit, hedeflenen 128 bite karşı",
+ "id": "Grafik batang perkiraan Coinkite tentang keacakan nyata seed Coldcard: sekitar 40 bit pada Mk2 dan Mk3 yang terdampak, sekitar 72 bit pada Mk4, Mk5, dan Q yang terdampak, dibandingkan target 128 bit",
+ "ja": "Coldcardのシードに含まれる実際のランダム性についてのCoinkiteの推定を示す棒グラフ。影響を受けたMk2とMk3は約40ビット、Mk4、Mk5、Qは約72ビットで、本来の目標は128ビット",
+ "ko": "Coldcard 시드의 실제 무작위성에 대한 Coinkite 추정치 막대 그래프: 영향을 받은 Mk2와 Mk3는 약 40비트, Mk4, Mk5, Q는 약 72비트로, 원래 목표는 128비트",
+}
+
 BUILDERS = {
+    "fidelity-crypto-adds-aave-link-uni-nov-2026": "fiddefi",
+    "coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026": "coldcard",
     "kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026": "krakcc",
     "bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026": "etfnov471",
     "south-korea-crypto-bill-bank-led-stablecoins-ico-20-percent-exchange-cap-nov-2026": "krbill",
@@ -5596,7 +5736,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "krakcc":
+    if key == "fiddefi":
+        figs = build_fidelity_defi_tokens()
+    elif key == "coldcard":
+        figs = build_coldcard_postmortem()
+    elif key == "krakcc":
         figs = build_krak_credit_cards()
     elif key == "etfnov471":
         figs = build_etf_nov_record_471()

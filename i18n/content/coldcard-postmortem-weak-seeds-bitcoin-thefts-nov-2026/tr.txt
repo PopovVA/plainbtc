@@ -1,0 +1,65 @@
+title: Coldcard üreticisi olay raporunu yayımladı: zayıf kurtarma ifadeleri yaklaşık 1.779 BTC çalınmasına yol açtı, hiçbir cihaz hacklenmedi
+page_title: Coldcard raporu: zayıf tohumlar bitcoin hırsızlıklarına nasıl yol açtı
+description: Coinkite'ın Kasım 2026 raporuna göre Coldcard cüzdanları Mart 2021'den Temmuz 2026'ya kadar zayıf kurtarma ifadeleri üretti. Hırsızlar anahtarları çevrimdışı yeniden oluşturdu; Galaxy Research yaklaşık 1.779 BTC çalındığını hesapladı. Etkilenen tohum sahipleri fonlarını taşımalı.
+og_description: Beş yıldan uzun süre boyunca Coldcard donanım cüzdanları kurtarma ifadelerini zayıf bir yazılım rastgele sayı üreteciyle oluşturdu. Coinkite'ın yeni raporu 15 incelemenin bunu nasıl kaçırdığını, yazılım güncellemesinin neden yetmediğini ve sahiplerin ne yapması gerektiğini anlatıyor.
+label: Güvenlik
+summary: Coinkite, Coldcard tohum açığına ilişkin raporunu yayımladı: Mart 2021'den Temmuz 2026'ya kadar cüzdanlar kurtarma ifadelerini zayıf bir yazılım üreteciyle oluşturdu ve hırsızlar anahtarları çevrimdışı yeniden üretti. Galaxy Research yaklaşık 1.779 BTC çalındığını hesapladı. Yazılım güncellemesi eski tohumu düzeltmiyor; fonlar yeni bir tohuma taşınmalı.
+===
+
+Bitcoin'in en bilinen donanım cüzdanlarından birinin üreticisi, gizli bir hatanın müşterilerin birikimlerini beş yılı aşkın süre nasıl riske attığını adım adım anlattı. <strong>Coldcard</strong> üreticisi Coinkite, 24 Kasım Salı günü bazı cüzdanlarının zayıf kurtarma ifadeleri oluşturmasına yol açan hatayla ilgili ayrıntılı bir [olay sonrası rapor](L1) yayımladı. Hırsızlar bu açığı kullanarak özel anahtarları kendi bilgisayarlarında yeniden oluşturdu ve 29 Temmuz 2026'dan itibaren fonları boşalttı.
+
+Coinkite, "Kayıplar gerçek ve bazı müşteriler için hayatı değiştirecek boyutta" diye yazdı. "Özür dileriz." 23 Kasım tarihli 18 sayfalık [rapor](L2), ABD Ulusal Ulaşım Güvenliği Kurulu'nun (NTSB) kaza raporu formatında hazırlandı ve <strong>hiçbir cihaza uzaktan erişilmediğini ya da cihazların ele geçirilmediğini</strong> belirtiyor.
+
+!takeaways
+- 29 Mart 2021'den 30 Temmuz 2026'ya kadar Coldcard yazılımı tohumları cihazın donanım çipi yerine zayıf bir yazılım rastgele sayı üreteciyle oluşturdu.
+- Saldırganlar etkilenen anahtarları çevrimdışı yeniden üretti ve 29 Temmuz 2026'da hırsızlığa başladı. Galaxy Research, 8.600'den fazla adresten 1.778,84 BTC çalındığını bildirdi.
+- Coinkite hatayı 31 Temmuz'da düzeltti. Destek ekibi kayıpla ilgili yaklaşık 300 talep saydı; bu, tahmini kullanıcı tabanının yaklaşık yüzde 0,2'si.
+- Yapay zekâ destekli biri dahil en az 15 bağımsız inceleme açığı gözden kaçırdı.
+- Yazılım güncellemesi eski bir tohumu onarmıyor. Etkilenen tohum sahiplerinin yeni bir tohum oluşturup bitcoinlerini taşıması gerekiyor.
+
+!figure:timeline
+
+## Ne ters gitti
+
+Her bitcoin cüzdanı genellikle 12 ya da 24 kelimeden oluşan bir kurtarma ifadesiyle (tohum da denir) başlar. Bu kelimeler rastgele bir sayıdan türetilir ve tüm güvenlik bu sayının tahmin edilemez olmasına dayanır. Coldcard bu sayıyı çipine yerleşik donanım rastgele sayı üretecinden alacak şekilde tasarlanmıştı.
+
+Bir yapılandırma ve bağlama hatası yüzünden yazılım, bunun yerine fark ettirmeden bir programlama araç seti olan MicroPython'daki daha basit bir yazılım üretecini kullandı. Cihaz normal çalıştı ve normal görünen kelimeler gösterdi. Ancak Coinkite'ın tahminine göre etkilenen tohumlarda eski Mk2 ve Mk3 modellerinde yalnızca yaklaşık <strong>40 bit</strong>, Mk4, Mk5 ve Q'da ise yaklaşık <strong>72 bit</strong> gerçek rastgelelik vardı; hedef <strong>128 bit</strong> idi. Her bit gereken tahmin sayısını ikiye katlar, bu yüzden fark devasa: 72 bitlik bir tohumu tahmin etmek, 128 bitlik bir tohuma göre yaklaşık 72 katrilyon (2 üzeri 56) kat daha kolay.
+
+!figure:chart
+
+!mid_cta
+
+## Zarar ne kadar büyük?
+
+Rakamlar kimin saydığına göre değişiyor. Galaxy Research ağustosta 8.600'den fazla adresten <strong>1.778,84 BTC</strong> çalındığını bildirdi; bu, salı günkü yaklaşık 59.700 dolarlık fiyatla kabaca 106 milyon dolar ediyor. Coinkite'ın kendi destek incelemesi, yaklaşık 240 müşteri hesabına bağlı (raporda 242, blog yazısında 236) kayıpla ilgili yaklaşık <strong>300 talep</strong> buldu; bu, tahmini kullanıcıların yaklaşık yüzde 0,2'si. Coldcard bir öz saklama cüzdanı olduğundan Coinkite yalnızca bildirilen kayıpları sayabiliyor ve "gerçek sayının muhtemelen daha yüksek" olduğunu söylüyor.
+
+Coinkite henüz bir tazminat planına karar vermedi; rapor bu maddeyi açık olarak listeliyor. Şirket ayrıca çalınan coinleri elinde tutanlardan, dokunulmazlık ya da ödeme sözü vermeden, bunları security@coinkite.com üzerinden iade etmelerini istedi.
+
+## Neden kimse fark etmedi
+
+Rapor, 2021 ile 2026 arasında ikisi ücretli üçüncü taraf ürün incelemesi olmak üzere en az 15 bağımsız inceleme ve araştırma çalışmasını sıralıyor. Bu bahar yapılan iki aylık yapay zekâ destekli bir inceleme 85 bulgu üretti ama hatayı bulamadı. Coinkite, kontrollerinin doğru üretecin kodda bulunduğunu doğruladığını, ancak tohum oluşturma sürecinin gerçekten ona ulaşıp ulaşmadığını hiç kontrol etmediğini söylüyor. Açığı ilk kimin bulup kullandığı hâlâ bilinmiyor.
+
+## Coldcard sahipleri ne yapmalı
+
+Rapora ve Coldcard'ın [güvenlik durumu sayfasına](L3) göre:
+
+- Tohumunuzun etkilenen bir yazılım sürümüyle oluşturulup oluşturulmadığını kontrol edin (örneğin 5.6.0 öncesi Mk4 ve Mk5 sürümleri ya da 1.5.0Q öncesi Q sürümleri).
+- Öyleyse doğrulanmış düzeltilmiş yazılımı kurun, yepyeni bir tohum oluşturun, yedekleyin ve fonlarınızı taşıyın. Yalnızca güncellemek işe yaramaz.
+- En az 50 adil ve gizli zar atışıyla oluşturulan tohumlar zayıflamadı.
+- Tohum kelimelerinizi, parolalarınızı veya yedeklerinizi Coinkite dahil hiç kimseye göndermeyin; istenmeden gelen "kurtarma" ya da "tazminat" tekliflerini büyük olasılıkla dolandırıcılık olarak görün.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Öz saklama tam kontrol sağlar ama tam sorumluluk da getirir; iyi incelenmiş cihazlar bile gizli kusurlar taşıyabilir. Güçlü bir parola ya da çoklu imza gibi ek katmanlar yardımcı olabilir. Pek çok yeni başlayan, önce [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsadan küçük bir miktar alıp coinlerini taşımadan önce cüzdanları öğrenmeyi tercih ediyor. Her durumda yalnızca kaybetmeyi göze alabileceğiniz parayla yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Coinkite'ın etkilenen müşteriler için tazminat ya da yardım açıklayıp açıklamayacağı.
+- Çalınan bitcoinlerin iadesi ya da hırsızlıklarla ilgili gözaltılar.
+- Coinkite'ın hâlâ gerekli olduğunu söylediği, düzeltilmiş yazılıma yönelik yeni bağımsız incelemeler.
+
+!soft: Cüzdanlara yeni mi başlıyorsunuz? [Saklamalı cüzdanlar ve öz saklama](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) rehberimizle başlayın
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,63 @@
+title: Fidelity Crypto ilk DeFi tokenları Aave, Chainlink ve Uniswap'ı ekledi, üç coin bir ayda yüzde 23 ile 32 arasında değer kaybetti
+page_title: Fidelity Crypto AAVE, LINK ve UNI'yi ekledi: ABD'li yatırımcılar için ne değişiyor
+description: Fidelity, 24 Kasım 2026'da Aave (AAVE), Chainlink (LINK) ve Uniswap'ı (UNI) Fidelity Crypto'ya ekledi; platformda artık yedi kripto para ve FIDD stablecoin'i var. Her işlem yüzde 1 ücretli ve 1 dolardan başlıyor.
+og_description: Fidelity Crypto artık uygun ABD'li müşterilerin AAVE, LINK ve UNI almasına izin veriyor, kripto IRA hesapları dahil. İşlemler yüzde 1 ücretli ve 1 dolardan başlıyor, Oregon kapsam dışı ve üç token ekim sonundan bu yana yüzde 23 ile 32 arasında düştü.
+label: İş dünyası
+summary: Fidelity, Aave, Chainlink ve Uniswap tokenlarını Fidelity Crypto'ya ve kripto IRA hesaplarına ekledi; bunlar platformun ilk merkeziyetsiz finans (DeFi) tokenları. Platformda artık yedi coin ve FIDD stablecoin'i var, işlem ücreti yüzde 1 ve yeni tokenlar Oregon'da sunulmuyor. Üçü de son bir ayda sert düştü.
+===
+
+ABD'de emeklilik birikimi denince akla gelen en büyük isimlerden biri kripto menüsünü genişletti. Fidelity Investments, 24 Kasım Salı günü X'te yaptığı paylaşımda <strong>Fidelity Crypto</strong> üzerinden üç yeni kripto paranın işlem görmeye başladığını duyurdu: <strong>Aave (AAVE)</strong>, <strong>Chainlink (LINK)</strong> ve <strong>Uniswap (UNI)</strong>. Bunlar platformdaki ilk merkeziyetsiz finans, yani DeFi tokenları. DeFi, borç verme ve alım satımı bankalar yerine yazılımla yeniden kurmaya çalışan kripto alanı.
+
+Eklemelerle platformda <strong>yedi kripto para</strong> ve Fidelity'nin kendi stablecoin'i olan <strong>Fidelity Digital Dollar (FIDD)</strong> yer alıyor, Fidelity'nin [işlem yardım sayfasına](L1) göre. Salı gününe kadar müşteriler yalnızca bitcoin, ether, solana, litecoin ve FIDD alıp satabiliyordu.
+
+!takeaways
+- Fidelity, 24 Kasım 2026'da AAVE, LINK ve UNI'yi Fidelity Crypto'ya ekledi. Listede artık yedi kripto para ve FIDD stablecoin'i var.
+- Yeni tokenlar, eyalete göre değişmekle birlikte Fidelity Crypto IRA hesaplarında da işlem görebiliyor.
+- Fidelity her kripto alım ve satımında yüzde 1 ücret alıyor. İşlemler 1 dolardan başlıyor, her yeni token için azami emir 1.000.000 dolar.
+- Oregon'daki müşteriler AAVE, LINK, SOL ve UNI alamıyor, satamıyor ve yatıramıyor; Fidelity Crypto IRA da orada sunulmuyor.
+- Fidelity'ye göre Fidelity'de UNI tutmak yalnızca fiyat getirisi sağlıyor, Uniswap yönetiminde oy hakkı vermiyor.
+
+!figure:fact
+
+## Üç token nedir?
+
+<strong>Aave</strong> bir borç verme protokolü: bazı kullanıcılar faiz kazanmak için kripto yatırıyor, diğerleri kendi kriptolarını teminat göstererek borç alıyor. [CoinMarketCap'e](L3) göre Fidelity'nin açıklama metni Aave'yi bugün DeFi borç verme alanının en büyük oyuncusu olarak tanımlıyor. <strong>Chainlink</strong>, fiyat gibi dış verileri blokzincir uygulamalarına taşıyan bir "kâhin" (oracle) ağı işletiyor. <strong>Uniswap</strong> ise insanların tokenları doğrudan kendi cüzdanlarından takas ettiği merkeziyetsiz bir borsa; Fidelity onu işlem hacmine göre türünün en büyüğü olarak tanımlıyor.
+
+AAVE, LINK ve UNI tokenları bu projelerle bağlantılı, ancak bunları Fidelity'den almak uygulamaları kullanmakla aynı şey değil. Fidelity, salı günü yayımladığı ve CoinMarketCap'in aktardığı açıklamada "Fidelity'de UNI tutmak size yalnızca fiyat getirisi sağlar ve yönetişim gibi diğer işlevlere katılma imkânı içermez" dedi. Kısacası fiyat dalgalanmasına ortak olursunuz, projenin yönetiminde söz sahibi olmazsınız.
+
+## Kötü zamanlama mı, uzun vadeli bahis mi?
+
+Yeni listelemeler zor bir piyasaya denk geldi. Bitcoin, [ETF'lerden rekor çıkışların yaşandığı bir ayın](/articles/bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026) ardından salı günü yeniden 60.000 doların altına indi ve üç yeni token daha da sert düştü. Kraken'in günlük fiyatlarına göre UNI 25 Ekim'den bu yana yaklaşık yüzde 32, AAVE yaklaşık yüzde 31, LINK ise yaklaşık yüzde 23 değer kaybetti. Salı akşamı AAVE yaklaşık 94 dolardan, LINK yaklaşık 8,83 dolardan, UNI ise yaklaşık 4,71 dolardan işlem görüyordu.
+
+!figure:chart
+
+!mid_cta
+
+## Ücretler, limitler ve kimler kullanabilir
+
+Fidelity Crypto'yu ulusal bir güven bankası olan Fidelity Digital Assets işletiyor; hizmet Fidelity uygulamasında ve Fidelity.com'da çalışıyor. Fidelity'nin [yardım sayfalarına](L1) göre:
+
+- Alım ve satımlarda <strong>yüzde 1 ücret</strong> alınıyor (dolarla alınıp satılan FIDD için ücret yok).
+- İşlemler <strong>1 dolar</strong> kadar küçük olabiliyor. Azami emir bitcoin ve ether için 5.000.000 dolar, solana için 2.000.000 dolar, AAVE, LINK, litecoin ve UNI için <strong>1.000.000</strong> dolar.
+- İşlemler günde 23 saat, ABD Doğu saatiyle 01.00'den gece yarısına kadar, piyasa ve limit emirleriyle yapılabiliyor.
+- Müşteriler yalnızca spot kripto tutuyor. Vadeli işlem sunulmuyor, kripto ETF'leri ise normal aracı kurum hesaplarından alınıyor.
+
+Fidelity'nin [eyalet bazında erişim sayfası](L2), Oregon'daki müşterilerin AAVE, LINK, SOL ve UNI alıp satamadığını ve yatıramadığını, kripto IRA'nın da orada bulunmadığını belirtiyor. Fidelity Crypto ayrıca Guam, Porto Riko, ABD Virjin Adaları'nda ve ABD dışında sunulmuyor.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Fidelity kadar büyük bir şirketin bir tokenı listelemesi onay damgası gibi görünebilir. Ancak bu bir kazanç vaadi değil. Fidelity'nin kendi risk uyarısı, kriptonun çok oynak olduğunu, her an likiditesini yitirebileceğini ve FDIC ya da SIPC güvencesi kapsamında olmadığını söylüyor. Son bir ayın da gösterdiği gibi, küçük DeFi tokenları genellikle bitcoinden daha fazla dalgalanıyor.
+
+Ücretler de önemli. Her alımda ve her satışta yüzde 1 ücret, fiyat hiç değişmese bile gidiş dönüşün yaklaşık yüzde 2'ye mal olması demek. [Coinbase](REF) gibi büyük ve düzenlenmiş bir borsa dahil başka alım seçenekleriyle karşılaştırın ve işlem yapmadan önce her platformun güncel ücretlerini kontrol edin. Yalnızca kaybetmeyi göze alabileceğiniz parayla yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Fidelity'nin yeni tokenlar ekleyip eklemeyeceği ya da yenileri Oregon'daki müşterilere açıp açmayacağı.
+- Yeni listelemelerin Fidelity müşterileri arasında ne kadar işlem hacmi yaratacağı.
+- AAVE, LINK ve UNI'nin kasım ayındaki düşüşten sonra toparlanıp toparlanmayacağı.
+
+!soft: Coin'leri doğrudan mı yoksa bir fon aracılığıyla mı tutacağınızdan emin değil misiniz? [Bitcoin ETF'i ile doğrudan bitcoin almak](/articles/bitcoin-etf-vs-buying-bitcoin) rehberimizi okuyun
+
+!end_cta
+
+!disclosure

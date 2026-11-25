@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/de/</link>
     <description>Bitcoin- und Krypto-News in einfacher Sprache für Einsteiger</description>
     <language>de</language>
-    <lastBuildDate>Tue, 24 Nov 2026 14:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:45:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/de/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fidelity Crypto nimmt Aave, Chainlink und Uniswap auf, die ersten DeFi-Token der Plattform, während die drei Coins binnen eines Monats 23 bis 32 % verlieren</title>
+      <link>https://plainbtc.com/de/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:45:00 GMT</pubDate>
+      <category>Wirtschaft</category>
+      <description>Fidelity hat die Token von Aave, Chainlink und Uniswap in Fidelity Crypto und die Krypto-IRAs aufgenommen, die ersten Token aus dem Bereich dezentrale Finanzen (DeFi). Die Plattform listet nun sieben Coins plus den Stablecoin FIDD, verlangt 1 % Gebühr und schließt Oregon für die neuen Token aus. Alle drei sind im vergangenen Monat deutlich gefallen.</description>
+    </item>
+    <item>
+      <title>Coldcard-Hersteller legt Untersuchungsbericht vor: schwache Wiederherstellungsphrasen ermöglichten den Diebstahl von rund 1.779 BTC, gehackt wurde kein Gerät</title>
+      <link>https://plainbtc.com/de/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:40:00 GMT</pubDate>
+      <category>Sicherheit</category>
+      <description>Coinkite hat seinen Bericht zur Seed-Schwachstelle der Coldcard veröffentlicht: Von März 2021 bis Juli 2026 erzeugten die Wallets Wiederherstellungsphrasen mit einem schwachen Software-Generator, Diebe bauten Schlüssel offline nach. Galaxy Research zählte rund 1.779 gestohlene BTC. Ein Firmware-Update repariert keinen alten Seed; Besitzer müssen ihre Coins auf einen neuen übertragen.</description>
+    </item>
     <item>
       <title>Kraken-App Krak öffnet Warteliste für US-Kreditkarten mit bis zu 4 % Bitcoin-Cashback, darunter eine mit USDC besicherte Karte</title>
       <link>https://plainbtc.com/de/articles/kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026</link>

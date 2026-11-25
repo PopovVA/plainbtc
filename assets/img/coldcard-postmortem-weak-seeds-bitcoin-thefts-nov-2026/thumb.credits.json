@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Bitcoin.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg",
+      "credit": "Bitcoin logo"
+    },
+    {
+      "file": "Coinkite postmortem, Nov. 23, 2026",
+      "license": "Facts cited",
+      "url": "https://blog.coinkite.com/reports/coldcard-seed-generation-incident-postmortem-2026-11-23.pdf",
+      "credit": "Coinkite"
+    }
+  ],
+  "note": "Editorial illustration drawn by PlainBTC; not the real Coldcard design; trademarks belong to their owners.",
+  "slug": "coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026",
+  "generated": "2026-11-25T00:05Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

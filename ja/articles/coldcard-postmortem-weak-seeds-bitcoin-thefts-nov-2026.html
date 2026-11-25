@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="stylesheet" href="/assets/styles.d7a61a8be7.css">
+  <link rel="icon" href="/favicon.ico?v=2" sizes="48x48">
+  <link rel="icon" href="/assets/favicon.svg?v=2" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=2">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
+  <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (日本語)" href="/ja/feed.xml">
+  <title>Coldcard報告書: 弱いシードがビットコイン盗難につながった仕組み | PlainBTC</title>
+  <meta name="description" content="Coinkiteが2026年11月に公表した報告書によると、Coldcardのウォレットは2021年3月から2026年7月まで弱い復元フレーズを生成していた。窃盗犯はオフラインで鍵を再現し、Galaxy Researchは約1,779 BTCの盗難を確認した。影響を受けたシードの持ち主は資金を移す必要がある。">
+  <link rel="canonical" href="https://plainbtc.com/ja/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <!-- i18n:hreflang -->
+  <link rel="alternate" hreflang="en" href="https://plainbtc.com/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="es" href="https://plainbtc.com/es/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="pt-BR" href="https://plainbtc.com/pt/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="fr" href="https://plainbtc.com/fr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="de" href="https://plainbtc.com/de/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="ru" href="https://plainbtc.com/ru/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="tr" href="https://plainbtc.com/tr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="id" href="https://plainbtc.com/id/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="ja" href="https://plainbtc.com/ja/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="ko" href="https://plainbtc.com/ko/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="x-default" href="https://plainbtc.com/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <!-- /i18n:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Coldcardのメーカーが事後調査報告書を公表、弱い復元フレーズで約1,779 BTCが盗まれる、端末のハッキングはなし">
+  <meta property="og:description" content="5年以上にわたり、Coldcardのハードウェアウォレットは弱いソフトウェア乱数生成器で復元フレーズを作っていた。Coinkiteの新しい報告書は、15件のレビューがなぜ見逃したのか、なぜファームウェア更新だけでは不十分なのか、持ち主は何をすべきかを説明している。">
+  <meta property="og:url" content="https://plainbtc.com/ja/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <meta property="og:site_name" content="PlainBTC">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="article:published_time" content="2026-11-24">
+  <meta property="article:modified_time" content="2026-11-24">
+  <meta property="article:section" content="セキュリティ">
+  <meta property="og:image" content="https://plainbtc.com/assets/og/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026-v2.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Coldcardのメーカーが事後調査報告書を公表、弱い復元フレーズで約1,779 BTCが盗まれる、端末のハッキングはなし">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
+  <meta name="twitter:image" content="https://plainbtc.com/assets/og/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026-v2.jpg">
+  <meta name="twitter:title" content="Coldcardのメーカーが事後調査報告書を公表、弱い復元フレーズで約1,779 BTCが盗まれる、端末のハッキングはなし">
+  <meta name="twitter:description" content="5年以上にわたり、Coldcardのハードウェアウォレットは弱いソフトウェア乱数生成器で復元フレーズを作っていた。Coinkiteの新しい報告書は、15件のレビューがなぜ見逃したのか、なぜファームウェア更新だけでは不十分なのか、持ち主は何をすべきかを説明している。">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Coldcardのメーカーが事後調査報告書を公表、弱い復元フレーズで約1,779 BTCが盗まれる、端末のハッキングはなし",
+    "name": "Coldcard報告書: 弱いシードがビットコイン盗難につながった仕組み | PlainBTC",
+    "description": "Coinkiteが2026年11月に公表した報告書によると、Coldcardのウォレットは2021年3月から2026年7月まで弱い復元フレーズを生成していた。窃盗犯はオフラインで鍵を再現し、Galaxy Researchは約1,779 BTCの盗難を確認した。影響を受けたシードの持ち主は資金を移す必要がある。",
+    "datePublished": "2026-11-25T00:40:00+00:00",
+    "dateModified": "2026-11-25T00:40:00+00:00",
+    "author": {
+      "@type": "Organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://plainbtc.com/#organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://plainbtc.com/assets/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://discord.gg/EcuGXPDr2d",
+        "https://www.facebook.com/groups/1688106109771364",
+        "https://x.com/lean_redfield"
+      ]
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://plainbtc.com/ja/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026"
+    },
+    "url": "https://plainbtc.com/ja/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/og/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026-v2.jpg",
+      "width": 1200,
+      "height": 630
+    },
+    "articleSection": "セキュリティ",
+    "isAccessibleForFree": true,
+    "inLanguage": "ja"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "ホーム",
+        "item": "https://plainbtc.com/ja/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Coldcardのメーカーが事後調査報告書を公表、弱い復元フレーズで約1,779 BTCが盗まれる、端末のハッキングはなし",
+        "item": "https://plainbtc.com/ja/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へスキップ</a>
+  <header class="site-header">
+    <div class="wrap inner">
+      <a class="logo" href="/ja/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="メニュー">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
+      <nav class="nav" aria-label="Primary">
+        <a href="/ja/#articles">記事</a>
+        <a href="/ja/#guides">ガイド</a>
+        <a href="/ja/about">PlainBTCについて</a>
+        <a href="/ja/disclosure">開示事項</a>
+      </nav>
+      <div class="header-tools">
+      <!-- i18n:langmenu -->
+      <details class="lang-menu"><summary aria-label="言語"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">日本語</span><span class="lang-code" aria-hidden="true">JA</span></summary><ul><li><a href="/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="ja" hreflang="ja" aria-current="true">日本語</a></li><li><a href="/ko/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="ライト／ダークテーマを切り替える" title="ライト／ダークテーマを切り替える" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="article-page" id="main" data-toc="このページの内容" data-nl="新着記事をメールで受け取る" data-nl-cta="購読する" data-close="閉じる">
+    <article class="content">
+      <!-- i18n:arthead -->
+      <header class="article-head">
+        <!-- i18n:crumbs -->
+        <nav class="crumbs" aria-label="パンくずリスト"><a href="/ja/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/ja/#articles">記事</a></nav>
+        <!-- /i18n:crumbs -->
+        <div class="badge">セキュリティ</div>
+        <h1>Coldcardのメーカーが事後調査報告書を公表、弱い復元フレーズで約1,779 BTCが盗まれる、端末のハッキングはなし</h1>
+        <div class="meta">公開日：<time datetime="2026-11-24">2026年11月24日</time> · PlainBTC · 米国<span class="meta-read"> · 約5分で読めます</span></div>
+        <div class="share" role="group" aria-label="共有">
+          <span class="share-label">共有</span>
+          <a class="share-btn" href="https://x.com/intent/post?url=https%3A%2F%2Fplainbtc.com%2Fja%2Farticles%2Fcoldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026%3Futm_source%3Dx%26utm_medium%3Dsocial&amp;text=Coldcard%E3%81%AE%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E3%81%8C%E4%BA%8B%E5%BE%8C%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8%E3%82%92%E5%85%AC%E8%A1%A8%E3%80%81%E5%BC%B1%E3%81%84%E5%BE%A9%E5%85%83%E3%83%95%E3%83%AC%E3%83%BC%E3%82%BA%E3%81%A7%E7%B4%841%2C779%20BTC%E3%81%8C%E7%9B%97%E3%81%BE%E3%82%8C%E3%82%8B%E3%80%81%E7%AB%AF%E6%9C%AB%E3%81%AE%E3%83%8F%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0%E3%81%AF%E3%81%AA%E3%81%97" target="_blank" rel="noopener nofollow" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplainbtc.com%2Fja%2Farticles%2Fcoldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noopener nofollow" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+          <button class="share-btn share-copy" type="button" data-url="https://plainbtc.com/ja/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" data-copied="リンクをコピーしました" aria-label="リンクをコピー" title="リンクをコピー" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/><path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg></button>
+          <span class="share-status" role="status" aria-live="polite"></span>
+        </div>
+      </header>
+      <img class="og-hero" src="/assets/og/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026-v2.jpg" width="1200" height="630" alt="Coldcardのメーカーが事後調査報告書を公表、弱い復元フレーズで約1,779 BTCが盗まれる、端末のハッキングはなし" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->
+
+      <p>ビットコインのハードウェアウォレットとして特に知られる製品のメーカーが、隠れた欠陥が5年以上にわたって顧客の資産を危険にさらした経緯を、段階を追って明らかにした。<strong>Coldcard</strong>を製造するCoinkiteは11月24日(火)、一部のウォレットが弱い復元フレーズを作ってしまったバグについて、詳細な<a href="https://blog.coinkite.com/coldcard-postmortem-published/" target="_blank" rel="noopener">事後調査報告</a>を公表した。窃盗犯はこの欠陥を使って自分のコンピューター上で秘密鍵を再現し、2026年7月29日から資金を抜き取り始めた。</p>
+      <p>Coinkiteは「損失は現実のものであり、一部の顧客にとっては人生を変えるほどのものだ」と書き、「申し訳ない」と謝罪した。11月23日付の18ページの<a href="https://blog.coinkite.com/reports/coldcard-seed-generation-incident-postmortem-2026-11-23.pdf" target="_blank" rel="noopener">報告書</a>は、米国家運輸安全委員会(NTSB)の事故報告書の形式にならっており、<strong>遠隔からアクセスされたり乗っ取られたりした端末はない</strong>としている。</p>
+
+      <div class="takeaways">
+        <h2>この記事のポイント</h2>
+        <ul>
+          <li>2021年3月29日から2026年7月30日まで、Coldcardのファームウェアは端末のハードウェアチップではなく、弱いソフトウェア乱数生成器でシードを作っていた。</li>
+          <li>攻撃者は影響を受けた鍵をオフラインで再現し、2026年7月29日に盗難を始めた。Galaxy Researchは8,600超のアドレスから1,778.84 BTCが盗まれたと報告した。</li>
+          <li>Coinkiteは7月31日にバグを修正した。サポートには損失に関する問い合わせが約300件寄せられ、推定ユーザー数の約0.2%にあたる。</li>
+          <li>AIを使ったものを含め、少なくとも15件の独立したレビューがこの欠陥を見逃した。</li>
+          <li>ファームウェアを更新しても古いシードは直らない。影響を受けたシードの持ち主は新しいシードを作り、ビットコインを移す必要がある。</li>
+        </ul>
+      </div>
+
+      <figure class="article-figure">
+        <img src="/assets/img/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026/timeline-coldcard-weak-seed-2021-2026.webp" width="1200" height="630" alt="年表: 2021年3月、Coldcardのファームウェアが弱いソフトウェア乱数生成器でシードを作り始める。2026年7月29日、窃盗犯がオフラインで鍵を再現しウォレットから資金を抜き始める。2026年7月31日、Coinkiteが修正版ファームウェアを公開。2026年11月23日、Coinkiteが事後調査報告書を公表" loading="lazy" decoding="async">
+        <figcaption>出典: Coinkite postmortem, Nov. 23, 2026</figcaption>
+      </figure>
+
+      <h2>何が起きたのか</h2>
+      <p>ビットコインのウォレットはすべて、通常12語か24語の復元フレーズ(シードとも呼ぶ)から始まる。これらの単語は乱数から作られ、その数字を推測できないことが安全性の土台になっている。Coldcardは、チップに組み込まれたハードウェア乱数生成器からこの数字を得るよう設計されていた。</p>
+      <p>ところが設定とリンクの誤りにより、ファームウェアは気づかれないまま、プログラミング用ツールキットであるMicroPythonの、より単純なソフトウェア生成器を使っていた。端末は普通に動き、見た目にも普通の単語を表示していた。しかしCoinkiteの推定では、影響を受けたシードの本当のランダム性は、旧型のMk2とMk3で約<strong>40ビット</strong>、Mk4、Mk5、Qで約<strong>72ビット</strong>しかなく、本来の目標の<strong>128ビット</strong>に遠く及ばなかった。1ビット増えるごとに必要な推測回数は2倍になるため、差は桁違いだ。72ビットのシードは128ビットのシードより約7.2京倍(2の56乗)推測しやすい。</p>
+
+      <figure class="article-figure">
+        <img src="/assets/img/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026/chart-coldcard-seed-entropy-bits.webp" width="1200" height="675" alt="Coldcardのシードに含まれる実際のランダム性についてのCoinkiteの推定を示す棒グラフ。影響を受けたMk2とMk3は約40ビット、Mk4、Mk5、Qは約72ビットで、本来の目標は128ビット" loading="lazy" decoding="async">
+        <figcaption>チャート: PlainBTC、データ: Coinkite postmortem, Nov. 23, 2026</figcaption>
+      </figure>
+
+      <h2>被害の規模は</h2>
+      <p>数字は誰が数えるかで変わる。Galaxy Researchは8月、8,600超のアドレスから<strong>1,778.84 BTC</strong>が盗まれたと報告した。火曜日の約59,700ドルの価格で換算すると約1億600万ドルになる。Coinkite自身のサポート調査では、約240の顧客アカウント(報告書では242、ブログ記事では236)から<strong>損失に関する問い合わせが約300件</strong>寄せられ、推定ユーザーの約0.2%にあたる。Coldcardは自己管理型のため、Coinkiteが把握できるのは報告された損失だけで、「実際の数はおそらくもっと多い」としている。</p>
+      <p>Coinkiteは補償計画をまだ決めておらず、報告書でもこの項目は未解決とされている。また、盗まれたコインを持つ者に対し、免責や支払いは約束しないとしたうえで、security@coinkite.com を通じて返還するよう呼びかけた。</p>
+      <h2>なぜ誰も気づかなかったのか</h2>
+      <p>報告書は2021年から2026年までに、第三者による有償の製品レビュー2件を含め、少なくとも15件の独立したレビューや調査があったと記している。今年の春に2カ月かけて行われたAI支援のレビューは85件の指摘を出したが、このバグは見つけられなかった。Coinkiteによると、正しい生成器がコード内に存在することは確認していたが、シード作成が実際にそれを使っているかは一度も検証していなかった。誰が最初に欠陥を見つけて悪用したのかは、今も分かっていない。</p>
+      <h2>Coldcardの持ち主がすべきこと</h2>
+      <p>報告書とColdcardの<a href="https://coldcard.com/security/status" target="_blank" rel="noopener">セキュリティ状況ページ</a>によると:</p>
+      <ul>
+        <li>自分のシードが影響を受けたファームウェアで作られたかを確認する(例えばMk4とMk5は5.6.0より前、Qは1.5.0Qより前のバージョン)。</li>
+        <li>該当する場合は、検証済みの修正版ファームウェアを入れ、まったく新しいシードを作ってバックアップし、資金を移す。更新だけでは不十分だ。</li>
+        <li>公正で他人に知られない方法でサイコロを50回以上振って作ったシードは弱くなっていない。</li>
+        <li>シードの単語、パスフレーズ、バックアップは、Coinkiteを含め誰にも送らないこと。頼んでもいない「復旧」や「補償」の申し出は詐欺の可能性が高いと考えよう。</li>
+      </ul>
+      <h2>初心者にとっての意味</h2>
+      <p>自己管理は完全なコントロールを得られる一方、責任もすべて自分が負う。入念にレビューされた端末でも、隠れた欠陥を抱えていることがある。強力なパスフレーズやマルチシグのような追加の防御層は役に立つ。多くの初心者は、まずCoinbaseのような大手の規制下にある取引所で少額を買い、ウォレットについて学んでからコインを移している。いずれにしても、失っても困らない資金だけで投資してほしい。これは投資助言ではない。</p>
+      <h2>今後の注目点</h2>
+      <ul>
+        <li>Coinkiteが影響を受けた顧客への補償や支援を発表するか。</li>
+        <li>盗まれたビットコインの返還や、盗難に関連した逮捕があるか。</li>
+        <li>Coinkiteがまだ必要だとしている、修正版ファームウェアの追加の独立レビュー。</li>
+      </ul>
+
+      <p class="soft-guide">ウォレットは初めてという人は、まずガイド<a href="/ja/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">カストディアル型ウォレットと自己管理型の違い</a>から読んでほしい</p>
+
+      <div class="cta">
+        <h2>初心者向けのガイドをもっと読む</h2>
+        <p>このページのニュースレターに登録するか、下のPlainBTCコミュニティに参加してください。関連記事はその下にあります。</p>
+      </div>
+
+      <div class="disclosure">
+        <strong>投資助言ではありません。</strong>この記事は情報提供と教育のみを目的としています。投資・取引・法律・税務に関する助言ではありません。暗号資産は価格変動が大きく、資金を失う可能性があります。ご自身で調べたうえで、金融に関する判断をする前に、必要に応じて資格のある専門家にご相談ください。
+      </div>
+
+  <!-- i18n:bmc -->
+      <aside class="bmc-box" aria-label="PlainBTCを支援する">
+        <p>役に立ちましたか？PlainBTCは無料で独立したメディアです。課金壁もなく、誇張もありません。応援していただけるなら、コーヒーをおごっていただけます。</p>
+        <a class="bmc-button" href="https://buymeacoffee.com/LeonRedfield" target="_blank" rel="noopener">☕ コーヒーをおごる</a>
+      </aside>
+  <!-- /i18n:bmc -->
+
+
+  <!-- i18n:community -->
+      <aside class="community-box" aria-label="コミュニティリンク">
+        <h2>コミュニティに参加</h2>
+        <p>ニュース、初心者向けQ&amp;A、アンケート：PlainBTCをDiscord・Facebook・Xでフォロー。</p>
+        <div class="community-links"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+      </aside>
+  <!-- /i18n:community -->
+  <!-- i18n:newsletter -->
+      <aside class="newsletter-box" aria-labelledby="nl-title">
+        <h2 id="nl-title">新着記事をメールで受け取る</h2>
+        <p>初心者向けにやさしい言葉で書いたビットコイン・暗号資産ニュースを、公開のたびにメールでお届けします。スパムなし、いつでも配信停止できます。</p>
+        <form class="newsletter-form" method="post" action="/api/subscribe" novalidate data-ok="あと少しです。受信トレイを確認し、確認リンクをクリックしてください。" data-invalid="有効なメールアドレスを入力してください。" data-rate="試行回数が多すぎます。しばらくしてからもう一度お試しください。" data-error="問題が発生しました。もう一度お試しください。" data-sending="送信中…">
+          <input type="hidden" name="lang" value="ja">
+          <input type="hidden" name="source" value="/ja/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+          <div class="nl-hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <label class="nl-label" for="nl-email">メールアドレス</label>
+          <div class="nl-row"><input id="nl-email" type="email" name="email" required maxlength="254" autocomplete="email" inputmode="email" placeholder="you@example.com">
+          <button type="submit">購読する</button></div>
+        </form>
+        <p class="nl-status" role="status" aria-live="polite"></p>
+        <p class="nl-note">メールアドレスは PlainBTC の記事更新の配信のみに使用します。確認が必要です。 <a href="/ja/disclosure">プライバシーの詳細</a></p>
+      </aside>
+  <!-- /i18n:newsletter -->
+
+<aside class="related" aria-label="関連記事">
+        <h2>関連記事</h2>
+        <ul>
+          <li><a href="/ja/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">暗号資産ウォレットとは？カストディアルとセルフカストディを初心者向けに解説</a></li>
+          <li><a href="/ja/articles/ledger-tampered-wallets-berlin-dubai-nov-2026">Ledger、ベルリンで改ざんされたハードウェアウォレットを確認　ドバイでも2台を調査</a></li>
+          <li><a href="/ja/articles/trezor-skladon-shipping-breach-27000-orders-nov-2026">Trezor、配送パートナーの情報流出でハードウェアウォレット注文約27,000件のデータが流出したと発表</a></li>
+          <li><a href="/ja/articles/binance-warns-iphone-ios-flaw-wallet-keys-nov-2026">Binance、iPhoneユーザーに警告　iOSの脆弱性で暗号資産ウォレットのシードフレーズが漏れるおそれ</a></li>
+          <li><a href="/ja/articles/kava-lend-hack-3-8-million-kava-falls-nov-2026">Kava Lendがハッキングで約380万ドル流出、KAVAトークンは40%近く下落</a></li>
+          <li><a href="/ja/articles/is-coinbase-safe-for-beginners">Coinbaseは初心者にとって安全？ 守られるもの、守られないもの、リスクの下げ方</a></li>
+        </ul>
+      </aside>
+
+      <section class="sources" aria-label="出典">
+        <h2>出典</h2>
+        <ol>
+          <li><a href="https://blog.coinkite.com/coldcard-postmortem-published/" target="_blank" rel="noopener">Coinkite: Our COLDCARD seed-generation postmortem is now public</a> (2026年11月24日)</li>
+          <li><a href="https://blog.coinkite.com/reports/coldcard-seed-generation-incident-postmortem-2026-11-23.pdf" target="_blank" rel="noopener">Coinkite: COLDCARD Seed-Generation Incident Postmortem (PDF, report snapshot Nov. 23, 2026)</a> (2026年11月23日)</li>
+          <li><a href="https://coldcard.com/security/status" target="_blank" rel="noopener">COLDCARD: Current security status and fixed releases</a> (2026年11月23日)</li>
+          <li><a href="https://blog.coinkite.com/entropy-technical-backgrounder/" target="_blank" rel="noopener">Coinkite: Technical deep dive into the entropy issue</a> (Nov 2026)</li>
+        </ol>
+        <p class="sources-note">出典のタイトルは原文の言語のまま表示しています。</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
+    <div class="wrap inner">
+      <div class="footer-brand">
+        <a class="logo" href="/ja/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · 初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/ja/">ホーム</a>
+        <a href="/ja/about">PlainBTCについて</a>
+        <a href="/ja/disclosure">開示事項</a>
+        <a href="/ja/feed.xml">RSS</a>
+      </nav>
+    </div>
+  <!-- i18n:footersocial -->
+  <div class="wrap footer-social" aria-label="コミュニティリンク"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+  <!-- /i18n:footersocial -->
+  <!-- i18n:footerlangs -->
+  <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="en" hreflang="en">English</a> <a href="/es/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="es" hreflang="es">Español</a> <a href="/pt/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="ko" hreflang="ko">한국어</a></nav></div>
+  <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">ページの先頭へ <span aria-hidden="true">↑</span></a></div>
+  </footer>
+  <script src="/assets/site.a911afff6c.js" defer></script>
+</body>
+</html>

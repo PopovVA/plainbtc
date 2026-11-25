@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-coldcard-weak-seed-2021-2026.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline: in March 2021 Coldcard firmware started making seeds with a weak software random number generator; on July 29, 2026 thieves began rebuilding keys offline and draining wallets; on July 31, 2026 Coinkite shipped fixed firmware; on Nov. 23, 2026 Coinkite published its postmortem",
+      "es": "Cronología: en marzo de 2021 el firmware de Coldcard empezó a crear semillas con un generador de números aleatorios por software débil; el 29 de julio de 2026 los ladrones empezaron a reconstruir claves sin conexión y a vaciar billeteras; el 31 de julio de 2026 Coinkite publicó un firmware corregido; el 23 de noviembre de 2026 Coinkite publicó su análisis posterior",
+      "pt": "Linha do tempo: em março de 2021 o firmware da Coldcard passou a gerar sementes com um gerador de números aleatórios por software fraco; em 29 de julho de 2026 ladrões começaram a reconstruir chaves offline e esvaziar carteiras; em 31 de julho de 2026 a Coinkite lançou o firmware corrigido; em 23 de novembro de 2026 a Coinkite publicou seu relatório pós-incidente",
+      "fr": "Chronologie : en mars 2021, le firmware Coldcard commence à créer des graines avec un générateur logiciel de nombres aléatoires trop faible ; le 29 juillet 2026, des voleurs reconstruisent des clés hors ligne et vident des portefeuilles ; le 31 juillet 2026, Coinkite publie un firmware corrigé ; le 23 novembre 2026, Coinkite publie son rapport d'incident",
+      "de": "Zeitleiste: Im März 2021 begann die Coldcard-Firmware, Seeds mit einem schwachen Software-Zufallszahlengenerator zu erzeugen; am 29. Juli 2026 begannen Diebe, Schlüssel offline nachzubauen und Wallets zu leeren; am 31. Juli 2026 lieferte Coinkite eine korrigierte Firmware; am 23. November 2026 veröffentlichte Coinkite seinen Untersuchungsbericht",
+      "ru": "Хронология: в марте 2021 года прошивка Coldcard начала создавать сид-фразы слабым программным генератором случайных чисел; 29 июля 2026 года воры начали восстанавливать ключи офлайн и опустошать кошельки; 31 июля 2026 года Coinkite выпустила исправленную прошивку; 23 ноября 2026 года Coinkite опубликовала разбор инцидента",
+      "tr": "Zaman çizelgesi: Mart 2021'de Coldcard yazılımı tohumları zayıf bir yazılım rastgele sayı üreteciyle oluşturmaya başladı; 29 Temmuz 2026'da hırsızlar anahtarları çevrimdışı yeniden üretip cüzdanları boşaltmaya başladı; 31 Temmuz 2026'da Coinkite düzeltilmiş yazılımı yayımladı; 23 Kasım 2026'da Coinkite olay sonrası raporunu yayımladı",
+      "id": "Linimasa: pada Maret 2021 firmware Coldcard mulai membuat seed dengan generator angka acak perangkat lunak yang lemah; pada 29 Juli 2026 pencuri mulai membangun ulang kunci secara offline dan menguras dompet; pada 31 Juli 2026 Coinkite merilis firmware perbaikan; pada 23 November 2026 Coinkite menerbitkan laporan pascainsiden",
+      "ja": "年表: 2021年3月、Coldcardのファームウェアが弱いソフトウェア乱数生成器でシードを作り始める。2026年7月29日、窃盗犯がオフラインで鍵を再現しウォレットから資金を抜き始める。2026年7月31日、Coinkiteが修正版ファームウェアを公開。2026年11月23日、Coinkiteが事後調査報告書を公表",
+      "ko": "타임라인: 2021년 3월 Coldcard 펌웨어가 약한 소프트웨어 난수 생성기로 시드를 만들기 시작했다. 2026년 7월 29일 도둑들이 오프라인에서 키를 재구성해 지갑을 털기 시작했다. 2026년 7월 31일 Coinkite가 수정 펌웨어를 배포했다. 2026년 11월 23일 Coinkite가 사후 분석 보고서를 공개했다"
+    },
+    "caption": {
+      "en": "Source: Coinkite postmortem, Nov. 23, 2026",
+      "es": "Fuente: Coinkite postmortem, Nov. 23, 2026",
+      "pt": "Fonte: Coinkite postmortem, Nov. 23, 2026",
+      "fr": "Source : Coinkite postmortem, Nov. 23, 2026",
+      "de": "Quelle: Coinkite postmortem, Nov. 23, 2026",
+      "ru": "Источник: Coinkite postmortem, Nov. 23, 2026",
+      "tr": "Kaynak: Coinkite postmortem, Nov. 23, 2026",
+      "id": "Sumber: Coinkite postmortem, Nov. 23, 2026",
+      "ja": "出典: Coinkite postmortem, Nov. 23, 2026",
+      "ko": "출처: Coinkite postmortem, Nov. 23, 2026"
+    }
+  },
+  {
+    "id": "chart",
+    "file": "chart-coldcard-seed-entropy-bits.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of Coinkite's estimate of real randomness in Coldcard seeds: about 40 bits on affected Mk2 and Mk3 devices, about 72 bits on affected Mk4, Mk5 and Q devices, versus the intended 128 bits",
+      "es": "Gráfico de barras con la estimación de Coinkite sobre la aleatoriedad real de las semillas de Coldcard: unos 40 bits en los Mk2 y Mk3 afectados, unos 72 bits en los Mk4, Mk5 y Q afectados, frente a los 128 bits previstos",
+      "pt": "Gráfico de barras com a estimativa da Coinkite para a aleatoriedade real das sementes da Coldcard: cerca de 40 bits nos Mk2 e Mk3 afetados, cerca de 72 bits nos Mk4, Mk5 e Q afetados, contra os 128 bits previstos",
+      "fr": "Graphique en barres de l'estimation de Coinkite sur le hasard réel des graines Coldcard : environ 40 bits sur les Mk2 et Mk3 touchés, environ 72 bits sur les Mk4, Mk5 et Q touchés, contre 128 bits prévus",
+      "de": "Balkendiagramm mit Coinkites Schätzung der echten Zufälligkeit von Coldcard-Seeds: etwa 40 Bit bei betroffenen Mk2 und Mk3, etwa 72 Bit bei betroffenen Mk4, Mk5 und Q, statt der vorgesehenen 128 Bit",
+      "ru": "Столбчатая диаграмма с оценкой Coinkite реальной случайности сид-фраз Coldcard: около 40 бит у затронутых Mk2 и Mk3, около 72 бит у затронутых Mk4, Mk5 и Q против задуманных 128 бит",
+      "tr": "Coinkite'ın Coldcard tohumlarındaki gerçek rastgelelik tahminini gösteren çubuk grafik: etkilenen Mk2 ve Mk3'te yaklaşık 40 bit, etkilenen Mk4, Mk5 ve Q'da yaklaşık 72 bit, hedeflenen 128 bite karşı",
+      "id": "Grafik batang perkiraan Coinkite tentang keacakan nyata seed Coldcard: sekitar 40 bit pada Mk2 dan Mk3 yang terdampak, sekitar 72 bit pada Mk4, Mk5, dan Q yang terdampak, dibandingkan target 128 bit",
+      "ja": "Coldcardのシードに含まれる実際のランダム性についてのCoinkiteの推定を示す棒グラフ。影響を受けたMk2とMk3は約40ビット、Mk4、Mk5、Qは約72ビットで、本来の目標は128ビット",
+      "ko": "Coldcard 시드의 실제 무작위성에 대한 Coinkite 추정치 막대 그래프: 영향을 받은 Mk2와 Mk3는 약 40비트, Mk4, Mk5, Q는 약 72비트로, 원래 목표는 128비트"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Coinkite postmortem, Nov. 23, 2026",
+      "es": "Gráfico: PlainBTC, datos: Coinkite postmortem, Nov. 23, 2026",
+      "pt": "Gráfico: PlainBTC, dados: Coinkite postmortem, Nov. 23, 2026",
+      "fr": "Graphique : PlainBTC, données : Coinkite postmortem, Nov. 23, 2026",
+      "de": "Chart: PlainBTC, Daten: Coinkite postmortem, Nov. 23, 2026",
+      "ru": "График: PlainBTC, данные: Coinkite postmortem, Nov. 23, 2026",
+      "tr": "Grafik: PlainBTC, veri: Coinkite postmortem, Nov. 23, 2026",
+      "id": "Grafik: PlainBTC, data: Coinkite postmortem, Nov. 23, 2026",
+      "ja": "チャート: PlainBTC、データ: Coinkite postmortem, Nov. 23, 2026",
+      "ko": "차트: PlainBTC, 데이터: Coinkite postmortem, Nov. 23, 2026"
+    }
+  }
+]

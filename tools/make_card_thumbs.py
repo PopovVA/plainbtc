@@ -2433,7 +2433,108 @@ def thumb_krak_credit_cards():
     ], "note": "Editorial illustration; cards are drawn by PlainBTC and are not the real card design; trademarks belong to their owners."}
 
 
+
+def thumb_fidelity_defi_tokens():
+    """Light green editorial board: official Aave (public domain), Chainlink (CC BY 4.0) and Uniswap (GPLv3)
+    logos from Wikimedia Commons as the three new tokens, plus Fidelity Crypto's coin list and fee facts
+    from Fidelity's help pages (Nov. 24, 2026). No Fidelity logo used."""
+    aave = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/6/6a/Aave_logo_%282024%29.png", CACHE/"aave-logo-2024.png")).convert("RGBA")
+    link = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/2/22/Chainlink_logo_-_Blue.svg", CACHE/"chainlink-logo-blue.svg")).convert("RGBA")
+    uni = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/e/e7/Uniswap_Logo.svg", CACHE/"uniswap-logo.svg")).convert("RGBA")
+    base = gradient_bg(top=(240, 248, 241), bottom=(214, 236, 218))
+    d = Draw(base)
+    ink, mute, green, deep = (20, 40, 28), (70, 95, 80), (54, 135, 39), (25, 85, 30)
+    d.text((28, 22), "Fidelity Crypto", font=font(FONT_B, 24), fill=deep)
+    d.text((28, 54), "New on Nov. 24, 2026", font=font(FONT_R, 13), fill=mute)
+    tiles = [(aave, "AAVE", "lending"), (link, "LINK", "price data"), (uni, "UNI", "token swaps")]
+    for i, (logo, tick, what) in enumerate(tiles):
+        x0 = 28 + i * 140; y0 = 88
+        d.rounded_rectangle([x0, y0, x0 + 126, y0 + 150], radius=14, fill=(255, 255, 255), outline=(190, 215, 195), width=2)
+        d.rounded_rectangle([x0 + 8, y0 - 10, x0 + 52, y0 + 10], radius=9, fill=green)
+        d.text((x0 + 17, y0 - 8), "NEW", font=font(FONT_B, 11), fill=WHITE)
+        paste_contain(base, logo, (x0 + 10, y0 + 22, 106, 72), pad=4)
+        d = Draw(base)
+        tw = d.textlength(tick, font=font(FONT_B, 20))
+        d.text((x0 + 63 - tw / 2, y0 + 100), tick, font=font(FONT_B, 20), fill=ink)
+        ww = d.textlength(what, font=font(FONT_R, 11))
+        d.text((x0 + 63 - ww / 2, y0 + 126), what, font=font(FONT_R, 11), fill=mute)
+    # full coin list chips
+    d.text((28, 262), "Now tradable: 7 coins + FIDD stablecoin", font=font(FONT_B, 13), fill=ink)
+    x = 28
+    for c in ["BTC", "ETH", "SOL", "LTC", "AAVE", "LINK", "UNI", "FIDD"]:
+        f = font(FONT_B, 12); w = d.textlength(c, font=f) + 18
+        new = c in ("AAVE", "LINK", "UNI")
+        d.rounded_rectangle([x, 286, x + w, 310], radius=11, fill=green if new else (255, 255, 255), outline=green, width=1)
+        d.text((x + 9, 291), c, font=f, fill=WHITE if new else deep)
+        x += w + 7
+    # facts column
+    fx = 462
+    rows = [("1%", "fee per buy or sell"), ("$1", "smallest trade"), ("$1M", "max order per new token"), ("Not in OR", "Oregon: no new tokens")]
+    for i, (big, small) in enumerate(rows):
+        y = 40 + i * 70
+        d.rounded_rectangle([fx, y, fx + 6, y + 48], radius=3, fill=green)
+        d.text((fx + 16, y), big, font=font(FONT_B, 24), fill=deep)
+        d.text((fx + 16, y + 30), small, font=font(FONT_R, 11), fill=mute)
+    d.text((fx, 322), "Logos: Wikimedia Commons", font=font(FONT_R, 10), fill=mute)
+    return base, {"kind": "composite", "sources": [
+        {"file": "Aave logo (2024).png", "license": "Public domain", "url": "https://commons.wikimedia.org/wiki/File:Aave_logo_(2024).png", "credit": "Aave"},
+        {"file": "Chainlink logo - Blue.svg", "license": "CC BY 4.0", "url": "https://commons.wikimedia.org/wiki/File:Chainlink_logo_-_Blue.svg", "credit": "Chainlink Foundation"},
+        {"file": "Uniswap Logo.svg", "license": "GPLv3", "url": "https://commons.wikimedia.org/wiki/File:Uniswap_Logo.svg", "credit": "Uniswap Labs"},
+        {"file": "Fidelity Crypto help pages, Nov. 24, 2026", "license": "Facts cited", "url": "https://www.fidelity.com/crypto/help/trading/trading-basics", "credit": "Fidelity Digital Assets"},
+    ], "note": "Editorial composite; logos for identification only; no endorsement by Fidelity, Aave, Chainlink or Uniswap implied."}
+
+
+def thumb_coldcard_weak_seeds():
+    """Dark slate illustration: a generic hardware wallet drawn by PlainBTC (not the real Coldcard design),
+    a die for private dice rolls, and entropy bars (40 / 72 / 128 bits) from Coinkite's Nov. 23, 2026 postmortem."""
+    btc = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg", CACHE/"bitcoin-logo.svg")).convert("RGBA")
+    base = gradient_bg(top=(30, 41, 59), bottom=(10, 14, 22))
+    d = Draw(base)
+    teal, red, amber, green, ink = (45, 212, 191), (248, 113, 113), (251, 146, 60), (52, 211, 153), (226, 232, 240)
+    # device body
+    d.rounded_rectangle([42, 70, 212, 320], radius=18, fill=(51, 65, 85), outline=(100, 116, 139), width=3)
+    d.rounded_rectangle([60, 92, 194, 170], radius=6, fill=(15, 23, 42), outline=(71, 85, 105), width=2)
+    words = ["1 ·····", "2 ·····", "3 ·····", "...", "24 ····"]
+    for i, w in enumerate(words):
+        d.text((70, 98 + i * 14), w, font=font(FONT_R, 10), fill=teal)
+    for r in range(4):
+        for c in range(3):
+            x = 68 + c * 42; y = 186 + r * 31
+            d.rounded_rectangle([x, y, x + 34, y + 24], radius=5, fill=(71, 85, 105))
+            d.text((x + 13, y + 5), str((r * 3 + c + 1) % 10) if r < 3 else ["X", "0", "OK"][c][:2], font=font(FONT_B, 11), fill=ink)
+    # die
+    d.rounded_rectangle([170, 270, 230, 330], radius=10, fill=(248, 250, 252), outline=(148, 163, 184), width=2)
+    for (px, py) in [(184, 284), (216, 284), (200, 300), (184, 316), (216, 316)]:
+        d.ellipse([px - 5, py - 5, px + 5, py + 5], fill=(15, 23, 42))
+    # bitcoin badge
+    disc = Image.new("RGBA", sz((46, 46)), (0, 0, 0, 0)); ImageDraw.Draw(disc).ellipse([0, 0, disc.width - 1, disc.height - 1], fill=(255, 255, 255, 255))
+    base.paste(disc.convert("RGB"), sz((190, 46)), disc)
+    paste_contain(base, btc, (190, 46, 46, 46), pad=3)
+    d = Draw(base)
+    # entropy bars
+    x0 = 270
+    d.text((x0, 40), "Seed randomness", font=font(FONT_B, 22), fill=WHITE)
+    d.text((x0, 70), "Coinkite estimate, bits", font=font(FONT_R, 13), fill=(148, 163, 184))
+    bars = [("Mk2 / Mk3 (affected)", 40, red), ("Mk4 / Mk5 / Q (affected)", 72, amber), ("Intended target", 128, green)]
+    maxw = 300
+    for i, (lab, v, col) in enumerate(bars):
+        y = 110 + i * 64
+        d.text((x0, y), lab, font=font(FONT_R, 12), fill=ink)
+        d.rounded_rectangle([x0, y + 20, x0 + maxw, y + 42], radius=8, fill=(30, 41, 59))
+        d.rounded_rectangle([x0, y + 20, x0 + maxw * v / 128, y + 42], radius=8, fill=col)
+        d.text((x0 + maxw * v / 128 + 8 if v < 128 else x0 + maxw - 70, y + 22), f"{v} bits", font=font(FONT_B, 14), fill=WHITE if v == 128 else col)
+    d.text((x0, 300), "Mar 2021 to Jul 2026 firmware", font=font(FONT_R, 12), fill=(148, 163, 184))
+    d.text((270, 330), "Illustration, not the actual device", font=font(FONT_R, 10), fill=(100, 116, 139))
+    label_chip(base, "Wallet security", xy=(42, 22))
+    return base, {"kind": "composite", "sources": [
+        {"file": "Bitcoin.svg", "license": "Public domain", "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg", "credit": "Bitcoin logo"},
+        {"file": "Coinkite postmortem, Nov. 23, 2026", "license": "Facts cited", "url": "https://blog.coinkite.com/reports/coldcard-seed-generation-incident-postmortem-2026-11-23.pdf", "credit": "Coinkite"},
+    ], "note": "Editorial illustration drawn by PlainBTC; not the real Coldcard design; trademarks belong to their owners."}
+
+
 BUILDERS = {
+    "fidelity-crypto-adds-aave-link-uni-nov-2026": thumb_fidelity_defi_tokens,
+    "coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026": thumb_coldcard_weak_seeds,
     "kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026": thumb_krak_credit_cards,
     "bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026": thumb_etf_nov_record_471,
     "south-korea-crypto-bill-bank-led-stablecoins-ico-20-percent-exchange-cap-nov-2026": thumb_korea_digital_asset_bill,

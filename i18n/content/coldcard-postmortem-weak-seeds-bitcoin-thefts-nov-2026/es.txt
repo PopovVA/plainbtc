@@ -1,0 +1,65 @@
+title: El fabricante de Coldcard publica su análisis: frases de recuperación débiles permitieron robar unos 1.779 BTC, sin que ningún dispositivo fuera hackeado
+page_title: Análisis de Coldcard: cómo semillas débiles llevaron a robos de bitcoin
+description: El análisis de Coinkite de noviembre de 2026 dice que las billeteras Coldcard generaron frases de recuperación débiles de marzo de 2021 a julio de 2026. Los ladrones reconstruyeron claves sin conexión; Galaxy Research contó unos 1.779 BTC robados. Quien tenga una semilla afectada debe mover sus fondos.
+og_description: Durante más de cinco años, las billeteras físicas Coldcard usaron un generador de números aleatorios por software débil para crear frases de recuperación. El nuevo análisis de Coinkite explica cómo 15 revisiones no lo detectaron, por qué actualizar el firmware no basta y qué deben hacer los usuarios.
+label: Seguridad
+summary: Coinkite publicó su análisis sobre el fallo de semillas de Coldcard: de marzo de 2021 a julio de 2026 las billeteras crearon frases de recuperación con un generador por software débil, y los ladrones recrearon claves sin conexión. Galaxy Research contó unos 1.779 BTC robados. Actualizar el firmware no arregla una semilla antigua; hay que mover los fondos a una nueva.
+===
+
+La empresa detrás de una de las billeteras físicas de Bitcoin más conocidas ha explicado, paso a paso, cómo un fallo oculto puso en riesgo los ahorros de sus clientes durante más de cinco años. Coinkite, fabricante de <strong>Coldcard</strong>, publicó el martes 24 de noviembre un detallado [análisis posterior](L1) sobre el error que hizo que algunas de sus billeteras crearan frases de recuperación débiles. Los ladrones lo aprovecharon para reconstruir claves privadas en sus propios ordenadores y vaciar fondos a partir del 29 de julio de 2026.
+
+"Las pérdidas son reales y, para algunos clientes, les cambian la vida", escribió Coinkite. "Lo sentimos". El [informe](L2) de 18 páginas, fechado el 23 de noviembre, sigue el modelo de un informe de accidentes de la NTSB y afirma que <strong>ningún dispositivo fue accedido ni controlado a distancia</strong>.
+
+!takeaways
+- Del 29 de marzo de 2021 al 30 de julio de 2026, el firmware de Coldcard creó semillas con un generador de números aleatorios por software débil en lugar del chip de hardware del dispositivo.
+- Los atacantes recrearon claves afectadas sin conexión y empezaron a robar el 29 de julio de 2026. Galaxy Research informó de 1.778,84 BTC robados de más de 8.600 direcciones.
+- Coinkite corrigió el error el 31 de julio. Su equipo de soporte contó unas 300 incidencias por pérdidas, alrededor del 0,2% de su base estimada de usuarios.
+- Al menos 15 revisiones independientes, incluida una asistida por IA, no detectaron el fallo.
+- Actualizar el firmware no repara una semilla antigua. Quien tenga una semilla afectada debe crear una nueva y mover sus bitcoins.
+
+!figure:timeline
+
+## Qué salió mal
+
+Toda billetera de bitcoin empieza con una frase de recuperación (también llamada semilla), normalmente de 12 o 24 palabras. Esas palabras salen de un número aleatorio, y toda la seguridad depende de que ese número sea imposible de adivinar. Coldcard estaba diseñada para obtenerlo de un generador de números aleatorios por hardware integrado en su chip.
+
+Por un error de configuración y enlazado, el firmware usó en silencio un generador por software más simple de MicroPython, un conjunto de herramientas de programación. El dispositivo funcionaba con normalidad y mostraba palabras de aspecto normal. Pero Coinkite calcula que las semillas afectadas tenían solo unos <strong>40 bits</strong> de aleatoriedad real en los modelos antiguos Mk2 y Mk3, o unos <strong>72 bits</strong> en los Mk4, Mk5 y Q, frente a los <strong>128 bits</strong> previstos. Cada bit duplica el número de intentos necesarios, así que la diferencia es enorme: una semilla de 72 bits es unos 72 mil billones (2 elevado a 56) de veces más fácil de adivinar que una de 128 bits.
+
+!figure:chart
+
+!mid_cta
+
+## ¿Cuál es el alcance del daño?
+
+Las cifras dependen de quién cuente. En agosto, Galaxy Research informó de <strong>1.778,84 BTC</strong> robados de más de 8.600 direcciones, unos 106 millones de dólares al precio del martes, cerca de 59.700 dólares. La revisión de soporte de la propia Coinkite encontró unas <strong>300 incidencias por pérdidas</strong> vinculadas a unas 240 cuentas de clientes (el informe dice 242 y la entrada del blog 236), alrededor del 0,2% de sus usuarios estimados. Como Coldcard es autocustodia, Coinkite solo puede contar las pérdidas que la gente declara, y afirma que "la cifra real probablemente es mayor".
+
+Coinkite no ha decidido ningún plan de compensación; el informe lo deja como punto abierto. También pidió a quien tenga las monedas robadas que las devuelva a través de security@coinkite.com, sin prometer inmunidad ni pagos.
+
+## Por qué nadie lo detectó
+
+El análisis enumera al menos 15 revisiones e investigaciones independientes entre 2021 y 2026, incluidas dos revisiones de producto pagadas a terceros. Una revisión asistida por IA de dos meses esta primavera produjo 85 hallazgos, pero no encontró el error. Coinkite dice que sus controles confirmaban que el generador correcto existía en el código, pero nunca verificaron que la creación de semillas realmente lo usara. Todavía se desconoce quién descubrió y explotó primero el fallo.
+
+## Qué deben hacer los usuarios de Coldcard
+
+Según el informe y la [página de estado de seguridad](L3) de Coldcard:
+
+- Compruebe si su semilla se creó con un firmware afectado (por ejemplo, versiones de Mk4 y Mk5 anteriores a 5.6.0, o versiones de Q anteriores a 1.5.0Q).
+- Si es así, instale un firmware corregido y verificado, cree una semilla totalmente nueva, haga una copia de seguridad y mueva sus fondos. Solo actualizar no sirve.
+- Las semillas creadas con al menos 50 tiradas de dados justas y privadas no se debilitaron.
+- Nunca envíe a nadie, ni siquiera a Coinkite, sus palabras semilla, frases de contraseña o copias de seguridad, y trate cualquier oferta no solicitada de "recuperación" o "compensación" como una probable estafa.
+
+## Qué significa para los principiantes
+
+La autocustodia da control total, pero también responsabilidad total, e incluso los dispositivos más revisados pueden esconder fallos. Capas extra como una frase de contraseña fuerte o una configuración multifirma pueden ayudar. Muchos principiantes prefieren empezar comprando una pequeña cantidad en un gran exchange regulado como [Coinbase](REF) y aprender sobre billeteras antes de mover sus monedas. En cualquier caso, invierta solo dinero que pueda permitirse perder. Esto no es asesoramiento financiero.
+
+## Qué vigilar ahora
+
+- Si Coinkite anuncia una compensación o ayuda para los clientes afectados.
+- Cualquier devolución de los bitcoins robados o detenciones relacionadas con los robos.
+- Nuevas revisiones independientes del firmware corregido, que según Coinkite todavía son necesarias.
+
+!soft: ¿Es nuevo en billeteras? Empiece por nuestra guía sobre [billeteras custodiadas y de autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

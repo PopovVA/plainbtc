@@ -1,0 +1,23 @@
+{
+ "slug": "fidelity-crypto-adds-aave-link-uni-nov-2026",
+ "date": "2026-11-24",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-etf-vs-buying-bitcoin",
+  "coinbase-fees-explained",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody",
+  "kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026",
+  "pnc-coinbase-usdc-payments-pilot-nov-2026",
+  "bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026",
+  "how-to-buy-first-bitcoin-coinbase"
+ ],
+ "sources": [
+  {"url": "https://www.fidelity.com/crypto/help/trading/trading-basics", "title": "Fidelity Crypto Help: Trading basics (supported coins, 1% fee, $1 minimum, order limits)", "date": "Nov 24, 2026"},
+  {"url": "https://www.fidelity.com/crypto/help/account-basics/availability-by-state", "title": "Fidelity Crypto Help: Availability by state", "date": "Nov 24, 2026"},
+  {"url": "https://coinmarketcap.com/academy/article/fidelity-crypto-adds-aave-link-uni", "title": "CoinMarketCap: Fidelity Crypto adds AAVE, LINK and UNI for trading", "date": "Nov 24, 2026"},
+  {"url": "https://finance.yahoo.com/markets/crypto/articles/fidelity-adds-aave-chainlink-uniswap-161100942.html", "title": "Yahoo Finance: Fidelity adds Aave, Chainlink and Uniswap to its crypto trading platform", "date": "Nov 24, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken public market data (AAVE/USD, LINK/USD, UNI/USD daily prices)", "date": "Nov 24, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

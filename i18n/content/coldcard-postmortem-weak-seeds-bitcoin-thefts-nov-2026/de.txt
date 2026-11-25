@@ -1,0 +1,65 @@
+title: Coldcard-Hersteller legt Untersuchungsbericht vor: schwache Wiederherstellungsphrasen ermöglichten den Diebstahl von rund 1.779 BTC, gehackt wurde kein Gerät
+page_title: Coldcard-Bericht: wie schwache Seeds zu Bitcoin-Diebstählen führten
+description: Laut Coinkites Bericht vom November 2026 erzeugten Coldcard-Wallets von März 2021 bis Juli 2026 schwache Wiederherstellungsphrasen. Diebe bauten Schlüssel offline nach; Galaxy Research zählte rund 1.779 gestohlene BTC. Wer einen betroffenen Seed hat, muss seine Coins umziehen.
+og_description: Mehr als fünf Jahre lang nutzten Coldcard-Hardware-Wallets einen schwachen Software-Zufallszahlengenerator für Wiederherstellungsphrasen. Coinkites neuer Bericht erklärt, warum 15 Prüfungen das übersahen, warum ein Firmware-Update nicht reicht und was Besitzer tun sollten.
+label: Sicherheit
+summary: Coinkite hat seinen Bericht zur Seed-Schwachstelle der Coldcard veröffentlicht: Von März 2021 bis Juli 2026 erzeugten die Wallets Wiederherstellungsphrasen mit einem schwachen Software-Generator, Diebe bauten Schlüssel offline nach. Galaxy Research zählte rund 1.779 gestohlene BTC. Ein Firmware-Update repariert keinen alten Seed; Besitzer müssen ihre Coins auf einen neuen übertragen.
+===
+
+Das Unternehmen hinter einer der bekanntesten Bitcoin-Hardware-Wallets hat Schritt für Schritt offengelegt, wie ein versteckter Fehler die Ersparnisse von Kunden mehr als fünf Jahre lang gefährdete. Coinkite, Hersteller der <strong>Coldcard</strong>, veröffentlichte am Dienstag, dem 24. November, einen ausführlichen [Untersuchungsbericht](L1) zu dem Fehler, durch den einige seiner Wallets schwache Wiederherstellungsphrasen erzeugten. Diebe nutzten ihn, um private Schlüssel auf eigenen Computern nachzubauen und ab dem 29. Juli 2026 Guthaben abzuziehen.
+
+„Die Verluste sind real und für manche Kunden lebensverändernd“, schrieb Coinkite. „Es tut uns leid.“ Der 18-seitige [Bericht](L2) vom 23. November orientiert sich an einem Unfallbericht der US-Verkehrssicherheitsbehörde NTSB und hält fest, dass <strong>kein Gerät aus der Ferne angegriffen oder übernommen wurde</strong>.
+
+!takeaways
+- Vom 29. März 2021 bis zum 30. Juli 2026 erzeugte die Coldcard-Firmware Seeds mit einem schwachen Software-Zufallszahlengenerator statt mit dem Hardware-Chip des Geräts.
+- Angreifer bauten betroffene Schlüssel offline nach und begannen am 29. Juli 2026 mit Diebstählen. Galaxy Research meldete 1.778,84 gestohlene BTC von mehr als 8.600 Adressen.
+- Coinkite behob den Fehler am 31. Juli. Der Support zählte rund 300 Tickets wegen Verlusten, etwa 0,2 % der geschätzten Nutzerbasis.
+- Mindestens 15 unabhängige Prüfungen, darunter eine KI-gestützte, übersahen die Schwachstelle.
+- Ein Firmware-Update repariert keinen alten Seed. Wer einen betroffenen Seed hat, muss einen neuen erstellen und seine Bitcoin übertragen.
+
+!figure:timeline
+
+## Was schiefging
+
+Jede Bitcoin-Wallet beginnt mit einer Wiederherstellungsphrase (auch Seed genannt), meist 12 oder 24 Wörter. Diese Wörter stammen aus einer Zufallszahl, und das gesamte Sicherheitskonzept hängt davon ab, dass diese Zahl nicht zu erraten ist. Die Coldcard sollte sie aus einem in ihren Chip eingebauten Hardware-Zufallszahlengenerator beziehen.
+
+Wegen eines Konfigurations- und Linkerfehlers nutzte die Firmware stattdessen unbemerkt einen einfacheren Software-Generator aus MicroPython, einem Programmier-Baukasten. Das Gerät funktionierte normal und zeigte normal aussehende Wörter. Coinkite schätzt aber, dass die betroffenen Seeds auf den älteren Modellen Mk2 und Mk3 nur etwa <strong>40 Bit</strong> echte Zufälligkeit hatten, auf Mk4, Mk5 und Q etwa <strong>72 Bit</strong>, statt der vorgesehenen <strong>128 Bit</strong>. Jedes Bit verdoppelt die Zahl der nötigen Rateversuche, der Abstand ist also gewaltig: Ein 72-Bit-Seed ist etwa 72 Billiarden Mal (2 hoch 56) leichter zu erraten als ein 128-Bit-Seed.
+
+!figure:chart
+
+!mid_cta
+
+## Wie groß ist der Schaden?
+
+Die Zahlen hängen davon ab, wer zählt. Im August meldete Galaxy Research <strong>1.778,84 gestohlene BTC</strong> von mehr als 8.600 Adressen, beim Kurs vom Dienstag von rund 59.700 US-Dollar etwa 106 Millionen US-Dollar. Coinkites eigene Support-Auswertung fand rund <strong>300 Tickets wegen Verlusten</strong> von etwa 240 Kundenkonten (der Bericht nennt 242, der Blogbeitrag 236), etwa 0,2 % der geschätzten Nutzer. Da die Coldcard eine Selbstverwahrungslösung ist, kann Coinkite nur gemeldete Verluste zählen und schreibt, „die tatsächliche Zahl ist wahrscheinlich höher“.
+
+Über einen Entschädigungsplan hat Coinkite noch nicht entschieden; der Bericht führt den Punkt als offen. Das Unternehmen forderte zudem diejenigen, die die gestohlenen Coins kontrollieren, auf, sie über security@coinkite.com zurückzugeben, ohne Straffreiheit oder Zahlungen zu versprechen.
+
+## Warum es niemand bemerkte
+
+Der Bericht listet mindestens 15 unabhängige Prüfungen und Forschungsarbeiten zwischen 2021 und 2026 auf, darunter zwei bezahlte Produktprüfungen durch Dritte. Eine zweimonatige KI-gestützte Prüfung in diesem Frühjahr ergab 85 Befunde, fand den Fehler aber nicht. Coinkite sagt, seine Kontrollen hätten bestätigt, dass der richtige Generator im Code vorhanden war, aber nie geprüft, ob die Seed-Erzeugung ihn tatsächlich nutzte. Wer die Schwachstelle zuerst entdeckt und ausgenutzt hat, ist weiter unbekannt.
+
+## Was Coldcard-Besitzer tun sollten
+
+Laut Bericht und Coldcards [Sicherheitsstatus-Seite](L3):
+
+- Prüfen Sie, ob Ihr Seed mit betroffener Firmware erstellt wurde (zum Beispiel Mk4- und Mk5-Versionen vor 5.6.0 oder Q-Versionen vor 1.5.0Q).
+- Falls ja: verifizierte, korrigierte Firmware installieren, einen ganz neuen Seed erstellen, sichern und das Guthaben übertragen. Ein Update allein hilft nicht.
+- Seeds, die mit mindestens 50 fairen, privaten Würfelwürfen erstellt wurden, sind nicht geschwächt.
+- Schicken Sie Seed-Wörter, Passphrasen oder Backups niemals an irgendwen, auch nicht an Coinkite, und behandeln Sie unaufgeforderte Angebote zur „Wiederherstellung“ oder „Entschädigung“ als wahrscheinlichen Betrug.
+
+## Was das für Einsteiger bedeutet
+
+Selbstverwahrung bedeutet volle Kontrolle, aber auch volle Verantwortung, und selbst gut geprüfte Geräte können versteckte Fehler haben. Zusätzliche Schutzschichten wie eine starke Passphrase oder Multisig können helfen. Viele Einsteiger kaufen zunächst einen kleinen Betrag an einer großen regulierten Börse wie [Coinbase](REF) und beschäftigen sich mit Wallets, bevor sie Coins übertragen. So oder so gilt: Investieren Sie nur Geld, dessen Verlust Sie verkraften können. Dies ist keine Finanzberatung.
+
+## Worauf man achten sollte
+
+- Ob Coinkite eine Entschädigung oder Hilfe für betroffene Kunden ankündigt.
+- Eine mögliche Rückgabe gestohlener Bitcoin oder Festnahmen im Zusammenhang mit den Diebstählen.
+- Weitere unabhängige Prüfungen der korrigierten Firmware, die laut Coinkite noch nötig sind.
+
+!soft: Neu bei Wallets? Starten Sie mit unserem Ratgeber zu [Verwahr-Wallets und Selbstverwahrung](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

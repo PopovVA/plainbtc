@@ -1,0 +1,65 @@
+title: Pembuat Coldcard rilis laporan pascainsiden: frasa pemulihan yang lemah membuat pencuri menggondol sekitar 1.779 BTC, tanpa satu pun perangkat diretas
+page_title: Laporan Coldcard: bagaimana seed lemah berujung pencurian bitcoin
+description: Laporan Coinkite November 2026 menyebut dompet Coldcard membuat frasa pemulihan yang lemah dari Maret 2021 hingga Juli 2026. Pencuri membangun ulang kunci secara offline; Galaxy Research mencatat sekitar 1.779 BTC dicuri. Pemilik seed terdampak harus memindahkan dana.
+og_description: Selama lebih dari lima tahun, dompet perangkat keras Coldcard memakai generator angka acak perangkat lunak yang lemah untuk membuat frasa pemulihan. Laporan baru Coinkite menjelaskan mengapa 15 tinjauan melewatkannya, mengapa pembaruan firmware tidak cukup, dan apa yang harus dilakukan pemilik.
+label: Keamanan
+summary: Coinkite menerbitkan laporan soal celah seed Coldcard: dari Maret 2021 hingga Juli 2026 dompet itu membuat frasa pemulihan dengan generator perangkat lunak yang lemah, dan pencuri membuat ulang kunci secara offline. Galaxy Research mencatat sekitar 1.779 BTC dicuri. Memperbarui firmware tidak memperbaiki seed lama; dana harus dipindahkan ke seed baru.
+===
+
+Perusahaan di balik salah satu dompet perangkat keras Bitcoin paling terkenal menjabarkan, langkah demi langkah, bagaimana celah tersembunyi membahayakan tabungan pelanggan selama lebih dari lima tahun. Coinkite, pembuat <strong>Coldcard</strong>, menerbitkan [laporan pascainsiden](L1) terperinci pada Selasa, 24 November, tentang bug yang membuat sebagian dompetnya menghasilkan frasa pemulihan yang lemah. Pencuri memanfaatkannya untuk membangun ulang kunci privat di komputer mereka sendiri dan menguras dana sejak 29 Juli 2026.
+
+"Kerugiannya nyata dan, bagi sebagian pelanggan, mengubah hidup," tulis Coinkite. "Kami mohon maaf." [Laporan](L2) setebal 18 halaman bertanggal 23 November itu meniru format laporan kecelakaan NTSB dan menyatakan bahwa <strong>tidak ada perangkat yang diakses atau diambil alih dari jarak jauh</strong>.
+
+!takeaways
+- Dari 29 Maret 2021 hingga 30 Juli 2026, firmware Coldcard membuat seed dengan generator angka acak perangkat lunak yang lemah, bukan dengan chip perangkat keras di dalam perangkat.
+- Penyerang membuat ulang kunci terdampak secara offline dan mulai mencuri pada 29 Juli 2026. Galaxy Research melaporkan 1.778,84 BTC dicuri dari lebih dari 8.600 alamat.
+- Coinkite memperbaiki bug itu pada 31 Juli. Tim dukungannya mencatat sekitar 300 tiket terkait kerugian, sekitar 0,2% dari perkiraan basis penggunanya.
+- Setidaknya 15 tinjauan independen, termasuk satu yang dibantu AI, melewatkan celah ini.
+- Pembaruan firmware tidak memperbaiki seed lama. Pemilik seed terdampak harus membuat seed baru dan memindahkan bitcoin mereka.
+
+!figure:timeline
+
+## Apa yang salah
+
+Setiap dompet bitcoin dimulai dengan frasa pemulihan (disebut juga seed), biasanya 12 atau 24 kata. Kata-kata itu berasal dari sebuah angka acak, dan seluruh keamanan bergantung pada angka tersebut yang mustahil ditebak. Coldcard dirancang untuk mengambilnya dari generator angka acak perangkat keras yang tertanam di chip-nya.
+
+Karena kesalahan konfigurasi dan penautan, firmware diam-diam memakai generator perangkat lunak yang lebih sederhana dari MicroPython, sebuah perangkat pemrograman. Perangkat tetap berfungsi normal dan menampilkan kata-kata yang tampak wajar. Namun Coinkite memperkirakan seed terdampak hanya memiliki sekitar <strong>40 bit</strong> keacakan nyata pada model lama Mk2 dan Mk3, atau sekitar <strong>72 bit</strong> pada Mk4, Mk5, dan Q, bukan <strong>128 bit</strong> seperti yang dirancang. Setiap bit melipatgandakan jumlah tebakan yang diperlukan, jadi selisihnya sangat besar: seed 72 bit sekitar 72 kuadriliun (2 pangkat 56) kali lebih mudah ditebak daripada seed 128 bit.
+
+!figure:chart
+
+!mid_cta
+
+## Seberapa besar kerugiannya?
+
+Angkanya tergantung siapa yang menghitung. Pada Agustus, Galaxy Research melaporkan <strong>1.778,84 BTC</strong> dicuri dari lebih dari 8.600 alamat, sekitar 106 juta dolar AS dengan harga Selasa di dekat 59.700 dolar. Tinjauan dukungan Coinkite sendiri menemukan sekitar <strong>300 tiket terkait kerugian</strong> dari sekitar 240 akun pelanggan (laporan menyebut 242, unggahan blog 236), sekitar 0,2% dari perkiraan penggunanya. Karena Coldcard adalah dompet swakelola, Coinkite hanya bisa menghitung kerugian yang dilaporkan, dan menyebut "angka sebenarnya kemungkinan lebih tinggi."
+
+Coinkite belum memutuskan rencana kompensasi apa pun; laporan mencantumkannya sebagai poin yang masih terbuka. Perusahaan juga meminta siapa pun yang menguasai koin curian untuk mengembalikannya melalui security@coinkite.com, tanpa menjanjikan kekebalan hukum atau pembayaran.
+
+## Mengapa tidak ada yang menyadarinya
+
+Laporan itu mencantumkan setidaknya 15 tinjauan dan riset independen antara 2021 dan 2026, termasuk dua tinjauan produk berbayar oleh pihak ketiga. Tinjauan berbantuan AI selama dua bulan pada musim semi ini menghasilkan 85 temuan, tetapi tidak menemukan bug tersebut. Coinkite mengatakan pemeriksaannya memastikan generator yang benar ada di dalam kode, tetapi tidak pernah memverifikasi bahwa pembuatan seed benar-benar memakainya. Siapa yang pertama kali menemukan dan mengeksploitasi celah ini masih belum diketahui.
+
+## Yang harus dilakukan pemilik Coldcard
+
+Menurut laporan dan [halaman status keamanan](L3) Coldcard:
+
+- Periksa apakah seed Anda dibuat dengan firmware terdampak (misalnya versi Mk4 dan Mk5 sebelum 5.6.0, atau versi Q sebelum 1.5.0Q).
+- Jika ya, pasang firmware perbaikan yang terverifikasi, buat seed baru, cadangkan, lalu pindahkan dana Anda. Memperbarui saja tidak cukup.
+- Seed yang dibuat dengan setidaknya 50 lemparan dadu yang adil dan rahasia tidak melemah.
+- Jangan pernah mengirim kata seed, passphrase, atau cadangan kepada siapa pun, termasuk Coinkite, dan anggap tawaran "pemulihan" atau "kompensasi" yang tidak diminta sebagai kemungkinan penipuan.
+
+## Apa artinya bagi pemula
+
+Swakelola memberi kendali penuh, tetapi juga tanggung jawab penuh, dan perangkat yang sudah banyak ditinjau pun bisa menyimpan celah. Lapisan tambahan seperti passphrase yang kuat atau multisig bisa membantu. Banyak pemula memilih mulai dengan membeli sedikit di bursa besar yang teregulasi seperti [Coinbase](REF) dan belajar tentang dompet sebelum memindahkan koin. Apa pun pilihannya, hanya investasikan uang yang sanggup Anda relakan hilang. Ini bukan nasihat keuangan.
+
+## Yang perlu dipantau
+
+- Apakah Coinkite mengumumkan kompensasi atau bantuan bagi pelanggan terdampak.
+- Pengembalian bitcoin curian, atau penangkapan terkait pencurian ini.
+- Tinjauan independen lanjutan atas firmware perbaikan, yang menurut Coinkite masih diperlukan.
+
+!soft: Baru mengenal dompet? Mulailah dari panduan kami tentang [dompet kustodian dan swakelola](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

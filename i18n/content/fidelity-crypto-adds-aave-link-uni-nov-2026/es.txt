@@ -1,0 +1,63 @@
+title: Fidelity Crypto añade Aave, Chainlink y Uniswap, sus primeros tokens DeFi, mientras las tres monedas caen entre un 23% y un 32% en un mes
+page_title: Fidelity Crypto añade AAVE, LINK y UNI: qué cambia para los inversores de EE. UU.
+description: Fidelity añadió Aave (AAVE), Chainlink (LINK) y Uniswap (UNI) a Fidelity Crypto el 24 de noviembre de 2026, con lo que ya ofrece siete criptomonedas más su stablecoin FIDD. Cada operación cuesta un 1% y se puede empezar con 1 dólar.
+og_description: Fidelity Crypto ya permite a los clientes elegibles de EE. UU. comprar AAVE, LINK y UNI, también en cuentas IRA cripto. Las operaciones cuestan un 1% y empiezan en 1 dólar, Oregón queda excluido y los tres tokens caen entre un 23% y un 32% desde finales de octubre.
+label: Negocios
+summary: Fidelity añadió los tokens de Aave, Chainlink y Uniswap a Fidelity Crypto y a sus IRA cripto, sus primeros tokens de finanzas descentralizadas (DeFi). La plataforma ofrece ya siete monedas más su stablecoin FIDD, cobra una comisión del 1% y deja fuera a Oregón para los nuevos tokens. Los tres han caído con fuerza en el último mes.
+===
+
+Uno de los nombres más conocidos del ahorro para la jubilación en Estados Unidos acaba de ampliar su oferta cripto. El martes 24 de noviembre, Fidelity Investments anunció en X que ya se pueden operar tres criptomonedas más con <strong>Fidelity Crypto</strong>: <strong>Aave (AAVE)</strong>, <strong>Chainlink (LINK)</strong> y <strong>Uniswap (UNI)</strong>. Son los primeros tokens de la plataforma ligados a las finanzas descentralizadas, o DeFi, el rincón del mundo cripto que intenta reconstruir los préstamos y el trading con software en lugar de bancos.
+
+Con estas incorporaciones, la plataforma llega a <strong>siete criptomonedas</strong> más el <strong>Fidelity Digital Dollar (FIDD)</strong>, la stablecoin propia de Fidelity, según su [página de ayuda sobre trading](L1). Hasta el martes, los clientes solo podían operar bitcoin, ether, solana, litecoin y FIDD.
+
+!takeaways
+- Fidelity añadió AAVE, LINK y UNI a Fidelity Crypto el 24 de noviembre de 2026. La lista suma ahora siete criptomonedas más la stablecoin FIDD.
+- Los nuevos tokens también se pueden operar en las IRA de Fidelity Crypto, según la disponibilidad de cada estado.
+- Fidelity cobra una comisión del 1% en cada compra y venta de cripto. Las operaciones empiezan en 1 dólar, con una orden máxima de 1.000.000 de dólares para cada nuevo token.
+- Los clientes de Oregón no pueden comprar, vender ni depositar AAVE, LINK, SOL ni UNI, y allí no se ofrecen las IRA de Fidelity Crypto.
+- Tener UNI en Fidelity da solo exposición al precio, no derechos de voto en la gobernanza de Uniswap, según Fidelity.
+
+!figure:fact
+
+## Qué son estos tres tokens
+
+<strong>Aave</strong> es un protocolo de préstamos: unas personas depositan cripto para ganar intereses y otras piden prestado usando su propia cripto como garantía. El texto explicativo de Fidelity lo describe como el mayor actor actual de los préstamos DeFi, según [CoinMarketCap](L3). <strong>Chainlink</strong> opera una red de "oráculos" que lleva datos externos, como precios, a las aplicaciones de blockchain. <strong>Uniswap</strong> es un exchange descentralizado donde la gente intercambia tokens directamente desde sus propias billeteras; Fidelity lo describe como el mayor de su tipo por volumen de operaciones.
+
+Los tokens AAVE, LINK y UNI están vinculados a esos proyectos, pero comprarlos en Fidelity no equivale a usar las aplicaciones. "Tener UNI en Fidelity le da únicamente exposición al precio y no incluye la posibilidad de participar en otras funciones como la gobernanza", dijo Fidelity en un texto explicativo publicado el martes, citado por CoinMarketCap. En pocas palabras: usted se queda con la subida o la bajada del precio, no con voz en la gestión del proyecto.
+
+## ¿Mal momento o apuesta a largo plazo?
+
+Los nuevos listados llegan en un mercado complicado. Bitcoin volvió a caer por debajo de 60.000 dólares el martes tras un [mes récord de salidas de los ETF](/articles/bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026), y los tres nuevos tokens han caído aún más. Según los precios diarios de Kraken, UNI pierde alrededor de un 32% y AAVE cerca de un 31% desde el 25 de octubre, mientras que LINK cede alrededor de un 23%. El martes por la tarde AAVE cotizaba cerca de 94 dólares, LINK cerca de 8,83 dólares y UNI cerca de 4,71 dólares.
+
+!figure:chart
+
+!mid_cta
+
+## Comisiones, límites y quién puede usarlo
+
+Fidelity Crypto lo gestiona Fidelity Digital Assets, un banco fiduciario nacional, y funciona en la app de Fidelity y en Fidelity.com. Según las [páginas de ayuda](L1) de Fidelity:
+
+- Las compras y ventas cuestan una <strong>comisión del 1%</strong> (sin comisión para FIDD comprado o vendido con dólares).
+- Las operaciones pueden ser de solo <strong>1 dólar</strong>. La orden máxima es de 5.000.000 de dólares para bitcoin y ether, 2.000.000 para solana y <strong>1.000.000</strong> para AAVE, LINK, litecoin y UNI.
+- Se puede operar 23 horas al día, de 1 a. m. a medianoche, hora del Este, con órdenes de mercado y limitadas.
+- Los clientes solo tienen cripto al contado. No se ofrecen futuros, y los ETF cripto se compran en cuentas de corretaje normales.
+
+La [página de disponibilidad por estado](L2) de Fidelity indica que los clientes de Oregón no pueden comprar, vender ni depositar AAVE, LINK, SOL ni UNI, y que allí no hay IRA cripto. Fidelity Crypto tampoco se ofrece en Guam, Puerto Rico, las Islas Vírgenes de EE. UU. ni fuera de Estados Unidos.
+
+## Qué significa para los principiantes
+
+Cuando una firma tan grande como Fidelity lista un token, puede parecer un sello de aprobación. No es una promesa de rentabilidad. El propio aviso de riesgos de Fidelity dice que la cripto es muy volátil, puede volverse ilíquida en cualquier momento y no está cubierta por los seguros FDIC ni SIPC. Los tokens DeFi más pequeños suelen moverse más que bitcoin, como demuestra el último mes.
+
+Las comisiones también importan. Un 1% en cada compra y en cada venta significa que ida y vuelta cuesta alrededor de un 2% antes de cualquier cambio de precio. Compare con otros lugares donde comprar, como un gran exchange regulado como [Coinbase](REF), y revise las comisiones vigentes de cada plataforma antes de operar. Invierta solo dinero que pueda permitirse perder. Esto no es asesoramiento financiero.
+
+## Qué vigilar ahora
+
+- Si Fidelity añade más tokens o lleva los nuevos a sus clientes de Oregón.
+- Cuánta actividad generan los nuevos listados entre los clientes de Fidelity.
+- Si AAVE, LINK y UNI se estabilizan tras su caída de noviembre.
+
+!soft: ¿No sabe si tener monedas directamente o a través de un fondo? Lea nuestra guía sobre [ETF de bitcoin frente a comprar bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/es/</link>
     <description>Noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</description>
     <language>es</language>
-    <lastBuildDate>Tue, 24 Nov 2026 14:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:45:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fidelity Crypto añade Aave, Chainlink y Uniswap, sus primeros tokens DeFi, mientras las tres monedas caen entre un 23% y un 32% en un mes</title>
+      <link>https://plainbtc.com/es/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:45:00 GMT</pubDate>
+      <category>Negocios</category>
+      <description>Fidelity añadió los tokens de Aave, Chainlink y Uniswap a Fidelity Crypto y a sus IRA cripto, sus primeros tokens de finanzas descentralizadas (DeFi). La plataforma ofrece ya siete monedas más su stablecoin FIDD, cobra una comisión del 1% y deja fuera a Oregón para los nuevos tokens. Los tres han caído con fuerza en el último mes.</description>
+    </item>
+    <item>
+      <title>El fabricante de Coldcard publica su análisis: frases de recuperación débiles permitieron robar unos 1.779 BTC, sin que ningún dispositivo fuera hackeado</title>
+      <link>https://plainbtc.com/es/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:40:00 GMT</pubDate>
+      <category>Seguridad</category>
+      <description>Coinkite publicó su análisis sobre el fallo de semillas de Coldcard: de marzo de 2021 a julio de 2026 las billeteras crearon frases de recuperación con un generador por software débil, y los ladrones recrearon claves sin conexión. Galaxy Research contó unos 1.779 BTC robados. Actualizar el firmware no arregla una semilla antigua; hay que mover los fondos a una nueva.</description>
+    </item>
     <item>
       <title>Krak, la app de Kraken, abre lista de espera para tarjetas de crédito en EE. UU. con hasta un 4% de reembolso en bitcoin, incluida una garantizada con USDC</title>
       <link>https://plainbtc.com/es/articles/kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026</link>

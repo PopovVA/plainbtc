@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/pt/</link>
     <description>Notícias de Bitcoin e criptomoedas em linguagem simples para iniciantes</description>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 24 Nov 2026 14:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:45:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/pt/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fidelity Crypto adiciona Aave, Chainlink e Uniswap, seus primeiros tokens DeFi, enquanto as três moedas caem de 23% a 32% em um mês</title>
+      <link>https://plainbtc.com/pt/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/pt/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:45:00 GMT</pubDate>
+      <category>Negócios</category>
+      <description>A Fidelity adicionou os tokens de Aave, Chainlink e Uniswap à Fidelity Crypto e às suas IRAs de cripto, seus primeiros tokens de finanças descentralizadas (DeFi). A plataforma agora lista sete moedas mais a stablecoin FIDD, cobra taxa de 1% e exclui o Oregon dos novos tokens. Os três caíram forte no último mês.</description>
+    </item>
+    <item>
+      <title>Fabricante da Coldcard publica relatório: frases de recuperação fracas permitiram roubo de cerca de 1.779 BTC, sem nenhum aparelho hackeado</title>
+      <link>https://plainbtc.com/pt/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/pt/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:40:00 GMT</pubDate>
+      <category>Segurança</category>
+      <description>A Coinkite publicou seu relatório sobre a falha de sementes da Coldcard: de março de 2021 a julho de 2026 as carteiras criaram frases de recuperação com um gerador por software fraco, e ladrões recriaram chaves offline. A Galaxy Research contou cerca de 1.779 BTC roubados. Atualizar o firmware não conserta uma semente antiga; é preciso mover os fundos para uma nova.</description>
+    </item>
     <item>
       <title>Krak, app da Kraken, abre lista de espera para cartões de crédito nos EUA com até 4% de cashback em bitcoin, incluindo um garantido por USDC</title>
       <link>https://plainbtc.com/pt/articles/kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026</link>

@@ -1,0 +1,21 @@
+{
+ "slug": "coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026",
+ "date": "2026-11-24",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "what-is-a-crypto-wallet-custodial-vs-self-custody",
+  "ledger-tampered-wallets-berlin-dubai-nov-2026",
+  "trezor-skladon-shipping-breach-27000-orders-nov-2026",
+  "binance-warns-iphone-ios-flaw-wallet-keys-nov-2026",
+  "kava-lend-hack-3-8-million-kava-falls-nov-2026",
+  "is-coinbase-safe-for-beginners"
+ ],
+ "sources": [
+  {"url": "https://blog.coinkite.com/coldcard-postmortem-published/", "title": "Coinkite: Our COLDCARD seed-generation postmortem is now public", "date": "Nov 24, 2026"},
+  {"url": "https://blog.coinkite.com/reports/coldcard-seed-generation-incident-postmortem-2026-11-23.pdf", "title": "Coinkite: COLDCARD Seed-Generation Incident Postmortem (PDF, report snapshot Nov. 23, 2026)", "date": "Nov 23, 2026"},
+  {"url": "https://coldcard.com/security/status", "title": "COLDCARD: Current security status and fixed releases", "date": "Nov 23, 2026"},
+  {"url": "https://blog.coinkite.com/entropy-technical-backgrounder/", "title": "Coinkite: Technical deep dive into the entropy issue", "date": "Nov 2026"}
+ ],
+ "disclosure_variant": "std"
+}

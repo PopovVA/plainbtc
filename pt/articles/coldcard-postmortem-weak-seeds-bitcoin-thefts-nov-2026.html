@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="preload" href="/assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.d7a61a8be7.css">
+  <link rel="icon" href="/favicon.ico?v=2" sizes="48x48">
+  <link rel="icon" href="/assets/favicon.svg?v=2" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=2">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
+  <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (Português (BR))" href="/pt/feed.xml">
+  <title>Relatório da Coldcard: como sementes fracas levaram a roubos de bitcoin | PlainBTC</title>
+  <meta name="description" content="O relatório da Coinkite de novembro de 2026 diz que as carteiras Coldcard geraram frases de recuperação fracas de março de 2021 a julho de 2026. Ladrões reconstruíram chaves offline; a Galaxy Research contou cerca de 1.779 BTC roubados. Quem tem semente afetada precisa mover os fundos.">
+  <link rel="canonical" href="https://plainbtc.com/pt/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <!-- i18n:hreflang -->
+  <link rel="alternate" hreflang="en" href="https://plainbtc.com/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="es" href="https://plainbtc.com/es/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="pt-BR" href="https://plainbtc.com/pt/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="fr" href="https://plainbtc.com/fr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="de" href="https://plainbtc.com/de/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="ru" href="https://plainbtc.com/ru/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="tr" href="https://plainbtc.com/tr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="id" href="https://plainbtc.com/id/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="ja" href="https://plainbtc.com/ja/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="ko" href="https://plainbtc.com/ko/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <link rel="alternate" hreflang="x-default" href="https://plainbtc.com/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <!-- /i18n:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Fabricante da Coldcard publica relatório: frases de recuperação fracas permitiram roubo de cerca de 1.779 BTC, sem nenhum aparelho hackeado">
+  <meta property="og:description" content="Por mais de cinco anos, as carteiras físicas Coldcard usaram um gerador de números aleatórios por software fraco para criar frases de recuperação. O novo relatório da Coinkite explica como 15 revisões deixaram passar o erro, por que atualizar o firmware não basta e o que os donos devem fazer.">
+  <meta property="og:url" content="https://plainbtc.com/pt/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+  <meta property="og:site_name" content="PlainBTC">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="article:published_time" content="2026-11-24">
+  <meta property="article:modified_time" content="2026-11-24">
+  <meta property="article:section" content="Segurança">
+  <meta property="og:image" content="https://plainbtc.com/assets/og/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026-v2.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Fabricante da Coldcard publica relatório: frases de recuperação fracas permitiram roubo de cerca de 1.779 BTC, sem nenhum aparelho hackeado">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
+  <meta name="twitter:image" content="https://plainbtc.com/assets/og/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026-v2.jpg">
+  <meta name="twitter:title" content="Fabricante da Coldcard publica relatório: frases de recuperação fracas permitiram roubo de cerca de 1.779 BTC, sem nenhum aparelho hackeado">
+  <meta name="twitter:description" content="Por mais de cinco anos, as carteiras físicas Coldcard usaram um gerador de números aleatórios por software fraco para criar frases de recuperação. O novo relatório da Coinkite explica como 15 revisões deixaram passar o erro, por que atualizar o firmware não basta e o que os donos devem fazer.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Fabricante da Coldcard publica relatório: frases de recuperação fracas permitiram roubo de cerca de 1.779 BTC, sem nenhum aparelho hackeado",
+    "name": "Relatório da Coldcard: como sementes fracas levaram a roubos de bitcoin | PlainBTC",
+    "description": "O relatório da Coinkite de novembro de 2026 diz que as carteiras Coldcard geraram frases de recuperação fracas de março de 2021 a julho de 2026. Ladrões reconstruíram chaves offline; a Galaxy Research contou cerca de 1.779 BTC roubados. Quem tem semente afetada precisa mover os fundos.",
+    "datePublished": "2026-11-25T00:40:00+00:00",
+    "dateModified": "2026-11-25T00:40:00+00:00",
+    "author": {
+      "@type": "Organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://plainbtc.com/#organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://plainbtc.com/assets/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://discord.gg/EcuGXPDr2d",
+        "https://www.facebook.com/groups/1688106109771364",
+        "https://x.com/lean_redfield"
+      ]
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://plainbtc.com/pt/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026"
+    },
+    "url": "https://plainbtc.com/pt/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/og/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026-v2.jpg",
+      "width": 1200,
+      "height": 630
+    },
+    "articleSection": "Segurança",
+    "isAccessibleForFree": true,
+    "inLanguage": "pt-BR"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://plainbtc.com/pt/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Fabricante da Coldcard publica relatório: frases de recuperação fracas permitiram roubo de cerca de 1.779 BTC, sem nenhum aparelho hackeado",
+        "item": "https://plainbtc.com/pt/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="wrap inner">
+      <a class="logo" href="/pt/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Menu">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
+      <nav class="nav" aria-label="Primary">
+        <a href="/pt/#articles">Artigos</a>
+        <a href="/pt/#guides">Guias</a>
+        <a href="/pt/about">Sobre</a>
+        <a href="/pt/disclosure">Divulgação</a>
+      </nav>
+      <div class="header-tools">
+      <!-- i18n:langmenu -->
+      <details class="lang-menu"><summary aria-label="Idioma"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">Português (BR)</span><span class="lang-code" aria-hidden="true">PT</span></summary><ul><li><a href="/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="pt-BR" hreflang="pt-BR" aria-current="true">Português (BR)</a></li><li><a href="/fr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="ko" hreflang="ko">한국어</a></li></ul></details>
+      <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="Alternar entre tema claro e escuro" title="Alternar entre tema claro e escuro" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="article-page" id="main" data-toc="Nesta página" data-nl="Receba novos artigos por e-mail" data-nl-cta="Inscrever-se" data-close="Fechar">
+    <article class="content">
+      <!-- i18n:arthead -->
+      <header class="article-head">
+        <!-- i18n:crumbs -->
+        <nav class="crumbs" aria-label="Trilha de navegação"><a href="/pt/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/pt/#articles">Artigos</a></nav>
+        <!-- /i18n:crumbs -->
+        <div class="badge">Segurança</div>
+        <h1>Fabricante da Coldcard publica relatório: frases de recuperação fracas permitiram roubo de cerca de 1.779 BTC, sem nenhum aparelho hackeado</h1>
+        <div class="meta">Publicado em <time datetime="2026-11-24">24 de novembro de 2026</time> · PlainBTC · Estados Unidos<span class="meta-read"> · ~5 min de leitura</span></div>
+        <div class="share" role="group" aria-label="Compartilhar">
+          <span class="share-label">Compartilhar</span>
+          <a class="share-btn" href="https://x.com/intent/post?url=https%3A%2F%2Fplainbtc.com%2Fpt%2Farticles%2Fcoldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026%3Futm_source%3Dx%26utm_medium%3Dsocial&amp;text=Fabricante%20da%20Coldcard%20publica%20relat%C3%B3rio%3A%20frases%20de%20recupera%C3%A7%C3%A3o%20fracas%20permitiram%20roubo%20de%20cerca%20de%201.779%20BTC%2C%20sem%20nenhum%20aparelho%20hackeado" target="_blank" rel="noopener nofollow" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplainbtc.com%2Fpt%2Farticles%2Fcoldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noopener nofollow" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+          <button class="share-btn share-copy" type="button" data-url="https://plainbtc.com/pt/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" data-copied="Link copiado" aria-label="Copiar link" title="Copiar link" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/><path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg></button>
+          <span class="share-status" role="status" aria-live="polite"></span>
+        </div>
+      </header>
+      <img class="og-hero" src="/assets/og/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026-v2.jpg" width="1200" height="630" alt="Fabricante da Coldcard publica relatório: frases de recuperação fracas permitiram roubo de cerca de 1.779 BTC, sem nenhum aparelho hackeado" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->
+
+      <p>A empresa por trás de uma das carteiras físicas de Bitcoin mais conhecidas detalhou, passo a passo, como uma falha escondida colocou em risco as economias de clientes por mais de cinco anos. A Coinkite, fabricante da <strong>Coldcard</strong>, publicou na terça-feira, 24 de novembro, um <a href="https://blog.coinkite.com/coldcard-postmortem-published/" target="_blank" rel="noopener">relatório pós-incidente</a> detalhado sobre o bug que fez algumas de suas carteiras criarem frases de recuperação fracas. Ladrões usaram a falha para reconstruir chaves privadas em seus próprios computadores e esvaziar fundos a partir de 29 de julho de 2026.</p>
+      <p>"As perdas são reais e, para alguns clientes, mudam a vida", escreveu a Coinkite. "Sentimos muito." O <a href="https://blog.coinkite.com/reports/coldcard-seed-generation-incident-postmortem-2026-11-23.pdf" target="_blank" rel="noopener">relatório</a> de 18 páginas, datado de 23 de novembro, segue o modelo de um relatório de acidentes da NTSB e afirma que <strong>nenhum aparelho foi acessado ou controlado remotamente</strong>.</p>
+
+      <div class="takeaways">
+        <h2>Pontos principais</h2>
+        <ul>
+          <li>De 29 de março de 2021 a 30 de julho de 2026, o firmware da Coldcard criou sementes com um gerador de números aleatórios por software fraco em vez do chip de hardware do aparelho.</li>
+          <li>Atacantes recriaram chaves afetadas offline e começaram a roubar em 29 de julho de 2026. A Galaxy Research relatou 1.778,84 BTC roubados de mais de 8.600 endereços.</li>
+          <li>A Coinkite corrigiu o bug em 31 de julho. Sua equipe de suporte contou cerca de 300 chamados por perdas, cerca de 0,2% de sua base estimada de usuários.</li>
+          <li>Pelo menos 15 revisões independentes, incluindo uma com ajuda de IA, não encontraram a falha.</li>
+          <li>Atualizar o firmware não conserta uma semente antiga. Quem tem semente afetada precisa criar uma nova e mover seus bitcoins.</li>
+        </ul>
+      </div>
+
+      <figure class="article-figure">
+        <img src="/assets/img/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026/timeline-coldcard-weak-seed-2021-2026.webp" width="1200" height="630" alt="Linha do tempo: em março de 2021 o firmware da Coldcard passou a gerar sementes com um gerador de números aleatórios por software fraco; em 29 de julho de 2026 ladrões começaram a reconstruir chaves offline e esvaziar carteiras; em 31 de julho de 2026 a Coinkite lançou o firmware corrigido; em 23 de novembro de 2026 a Coinkite publicou seu relatório pós-incidente" loading="lazy" decoding="async">
+        <figcaption>Fonte: Coinkite postmortem, Nov. 23, 2026</figcaption>
+      </figure>
+
+      <h2>O que deu errado</h2>
+      <p>Toda carteira de bitcoin começa com uma frase de recuperação (também chamada de semente), geralmente com 12 ou 24 palavras. Essas palavras vêm de um número aleatório, e toda a segurança depende de esse número ser impossível de adivinhar. A Coldcard foi projetada para obtê-lo de um gerador de números aleatórios por hardware embutido no chip.</p>
+      <p>Por um erro de configuração e de vinculação, o firmware passou a usar, sem aviso, um gerador por software mais simples do MicroPython, um kit de ferramentas de programação. O aparelho funcionava normalmente e exibia palavras de aparência normal. Mas a Coinkite estima que as sementes afetadas tinham só cerca de <strong>40 bits</strong> de aleatoriedade real nos modelos antigos Mk2 e Mk3, ou cerca de <strong>72 bits</strong> no Mk4, Mk5 e Q, em vez dos <strong>128 bits</strong> previstos. Cada bit dobra o número de tentativas necessárias, então a diferença é enorme: uma semente de 72 bits é cerca de 72 quatrilhões (2 elevado a 56) de vezes mais fácil de adivinhar do que uma de 128 bits.</p>
+
+      <figure class="article-figure">
+        <img src="/assets/img/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026/chart-coldcard-seed-entropy-bits.webp" width="1200" height="675" alt="Gráfico de barras com a estimativa da Coinkite para a aleatoriedade real das sementes da Coldcard: cerca de 40 bits nos Mk2 e Mk3 afetados, cerca de 72 bits nos Mk4, Mk5 e Q afetados, contra os 128 bits previstos" loading="lazy" decoding="async">
+        <figcaption>Gráfico: PlainBTC, dados: Coinkite postmortem, Nov. 23, 2026</figcaption>
+      </figure>
+
+      <aside class="mid-cta ref-card" aria-label="Oferta de parceiro" data-partner-cta="uphold">
+        <span class="ref-icon" aria-hidden="true">₿</span>
+        <p class="ref-kicker"><span class="ref-badge">Bônus</span> <span class="ref-label">Oferta de parceiro</span></p>
+        <p class="ref-amount">US$20 <span class="ref-unit">em bitcoin</span></p>
+        <a class="cta-button ref-button" href="https://wallet.uphold.com/signup?referral=91676790e3&amp;campaign=uw_p_d_w_acq_raf&amp;utm_source=raf&amp;utm_medium=referafriend" rel="sponsored noopener" target="_blank" data-partner="uphold">Ganhe US$20 em bitcoin na Uphold</a>
+        <ul class="ref-steps">
+          <li><span class="ref-check" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" fill="currentColor" opacity="0.18"/><path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Verifique sua conta.</span></li>
+          <li><span class="ref-check" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" fill="currentColor" opacity="0.18"/><path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Deposite e compre pelo menos US$100 em cripto nos primeiros 30 dias.</span></li>
+          <li><span class="ref-check" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" fill="currentColor" opacity="0.18"/><path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Ganhe US$20 em bitcoin. Brasil, América Latina e EUA (exceto Nova York). Oferta válida até 31/12/2026.</span></li>
+        </ul>
+        <p class="ref-note">Link de indicação: podemos receber um bônus. <a href="/pt/disclosure">Detalhes</a></p>
+      </aside>
+
+      <h2>Qual o tamanho do estrago?</h2>
+      <p>Os números dependem de quem conta. Em agosto, a Galaxy Research relatou <strong>1.778,84 BTC</strong> roubados de mais de 8.600 endereços, cerca de US$ 106 milhões ao preço de terça, perto de US$ 59.700. A revisão do suporte da própria Coinkite encontrou cerca de <strong>300 chamados por perdas</strong> ligados a cerca de 240 contas de clientes (o relatório diz 242, o post do blog 236), cerca de 0,2% dos usuários estimados. Como a Coldcard é de autocustódia, a Coinkite só consegue contar as perdas informadas, e diz que "o número real provavelmente é maior".</p>
+      <p>A Coinkite ainda não decidiu nenhum plano de compensação; o relatório lista o tema como pendente. A empresa também pediu a quem controla as moedas roubadas que as devolva pelo security@coinkite.com, sem prometer imunidade nem pagamento.</p>
+      <h2>Por que ninguém percebeu</h2>
+      <p>O relatório lista pelo menos 15 revisões e pesquisas independentes entre 2021 e 2026, incluindo duas revisões de produto pagas a terceiros. Uma revisão de dois meses com ajuda de IA nesta primavera no hemisfério norte gerou 85 apontamentos, mas não achou o bug. A Coinkite diz que seus testes confirmavam que o gerador certo existia no código, mas nunca verificaram se a criação de sementes realmente chegava até ele. Ainda não se sabe quem descobriu e explorou a falha primeiro.</p>
+      <h2>O que os donos de Coldcard devem fazer</h2>
+      <p>Segundo o relatório e a <a href="https://coldcard.com/security/status" target="_blank" rel="noopener">página de status de segurança</a> da Coldcard:</p>
+      <ul>
+        <li>Verifique se sua semente foi criada em firmware afetado (por exemplo, versões do Mk4 e Mk5 anteriores à 5.6.0, ou versões do Q anteriores à 1.5.0Q).</li>
+        <li>Se foi, instale um firmware corrigido e verificado, crie uma semente nova, faça backup e mova seus fundos. Só atualizar não resolve.</li>
+        <li>Sementes criadas com pelo menos 50 lançamentos de dados justos e privados não foram enfraquecidas.</li>
+        <li>Nunca envie palavras da semente, senhas adicionais ou backups a ninguém, nem à Coinkite, e trate ofertas não solicitadas de "recuperação" ou "compensação" como provável golpe.</li>
+      </ul>
+      <h2>O que isso significa para iniciantes</h2>
+      <p>A autocustódia dá controle total, mas também responsabilidade total, e até aparelhos muito revisados podem esconder falhas. Camadas extras, como uma senha adicional forte ou uma configuração multiassinatura, podem ajudar. Muitos iniciantes preferem começar comprando um valor pequeno em uma grande corretora regulada como a Coinbase e aprender sobre carteiras antes de mover as moedas. De qualquer forma, invista apenas o que você pode perder. Isto não é recomendação financeira.</p>
+      <h2>O que acompanhar</h2>
+      <ul>
+        <li>Se a Coinkite vai anunciar compensação ou ajuda para os clientes afetados.</li>
+        <li>Qualquer devolução dos bitcoins roubados ou prisões ligadas aos roubos.</li>
+        <li>Novas revisões independentes do firmware corrigido, que a Coinkite diz ainda serem necessárias.</li>
+      </ul>
+
+      <p class="soft-guide">Novo em carteiras? Comece pelo nosso guia sobre <a href="/pt/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">carteiras custodiais e de autocustódia</a></p>
+
+      <div class="cta ref-card" data-partner-cta="uphold">
+        <span class="ref-icon" aria-hidden="true">₿</span>
+        <p class="ref-kicker"><span class="ref-badge">Bônus</span> <span class="ref-label">Oferta de parceiro</span></p>
+        <p class="ref-amount">US$20 <span class="ref-unit">em bitcoin</span></p>
+        <a class="cta-button ref-button" href="https://wallet.uphold.com/signup?referral=91676790e3&amp;campaign=uw_p_d_w_acq_raf&amp;utm_source=raf&amp;utm_medium=referafriend" rel="sponsored noopener" target="_blank" data-partner="uphold">Abra sua conta na Uphold</a>
+        <ul class="ref-steps">
+          <li><span class="ref-check" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" fill="currentColor" opacity="0.18"/><path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Verifique sua conta.</span></li>
+          <li><span class="ref-check" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" fill="currentColor" opacity="0.18"/><path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Deposite e compre pelo menos US$100 em cripto nos primeiros 30 dias.</span></li>
+          <li><span class="ref-check" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" fill="currentColor" opacity="0.18"/><path d="M6 10.2l2.4 2.4L14.2 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Ganhe US$20 em bitcoin. Brasil, América Latina e EUA (exceto Nova York). Oferta válida até 31/12/2026.</span></li>
+        </ul>
+        <p class="ref-note">Link de indicação: podemos receber um bônus. <a href="/pt/disclosure">Detalhes</a></p>
+      </div>
+
+      <div class="disclosure">
+        <strong>Divulgação:</strong> esta página contém um link de indicação da Uphold. Se você se cadastrar por ele e cumprir os termos atuais da Uphold, a PlainBTC pode receber uma recompensa de indicação sem custo extra para você. Veja nossa <a href="/pt/disclosure">divulgação completa de afiliados</a>.<br><br>
+        <strong>Isto não é aconselhamento financeiro.</strong> Este artigo tem finalidade exclusivamente informativa e educacional. Não constitui aconselhamento de investimento, de negociação, jurídico ou tributário. As criptomoedas são voláteis e você pode perder dinheiro. Faça sua própria pesquisa e considere consultar um profissional qualificado antes de tomar decisões financeiras.
+      </div>
+
+  <!-- i18n:bmc -->
+      <aside class="bmc-box" aria-label="Apoiar o PlainBTC">
+        <p>Achou útil? O PlainBTC é gratuito e independente, sem paywalls e sem hype. Se quiser apoiar, você pode me pagar um café.</p>
+        <a class="bmc-button" href="https://buymeacoffee.com/LeonRedfield" target="_blank" rel="noopener">☕ Pague-me um café</a>
+      </aside>
+  <!-- /i18n:bmc -->
+
+
+  <!-- i18n:community -->
+      <aside class="community-box" aria-label="Links da comunidade">
+        <h2>Participe da comunidade</h2>
+        <p>Notícias, dúvidas de iniciantes e enquetes: siga o PlainBTC no Discord, Facebook e X.</p>
+        <div class="community-links"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+      </aside>
+  <!-- /i18n:community -->
+  <!-- i18n:newsletter -->
+      <aside class="newsletter-box" aria-labelledby="nl-title">
+        <h2 id="nl-title">Receba novos artigos por e-mail</h2>
+        <p>Notícias de Bitcoin e cripto em linguagem simples para iniciantes, na sua caixa de entrada quando publicamos. Sem spam, cancele quando quiser.</p>
+        <form class="newsletter-form" method="post" action="/api/subscribe" novalidate data-ok="Quase lá: verifique sua caixa de entrada e clique no link de confirmação." data-invalid="Informe um endereço de e-mail válido." data-rate="Muitas tentativas. Tente novamente mais tarde." data-error="Algo deu errado. Tente novamente." data-sending="Enviando…">
+          <input type="hidden" name="lang" value="pt">
+          <input type="hidden" name="source" value="/pt/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">
+          <div class="nl-hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <label class="nl-label" for="nl-email">Endereço de e-mail</label>
+          <div class="nl-row"><input id="nl-email" type="email" name="email" required maxlength="254" autocomplete="email" inputmode="email" placeholder="voce@exemplo.com">
+          <button type="submit">Inscrever-se</button></div>
+        </form>
+        <p class="nl-status" role="status" aria-live="polite"></p>
+        <p class="nl-note">Usamos seu e-mail apenas para enviar novidades do PlainBTC. É necessário confirmar. <a href="/pt/disclosure">Detalhes de privacidade</a></p>
+      </aside>
+  <!-- /i18n:newsletter -->
+
+<aside class="related" aria-label="Leituras relacionadas">
+        <h2>Leituras relacionadas</h2>
+        <ul>
+          <li><a href="/pt/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">O que é uma carteira cripto? Custódia vs. autocustódia, explicado para iniciantes</a></li>
+          <li><a href="/pt/articles/ledger-tampered-wallets-berlin-dubai-nov-2026">Ledger confirma carteiras físicas adulteradas em Berlim e investiga outras duas em Dubai</a></li>
+          <li><a href="/pt/articles/trezor-skladon-shipping-breach-27000-orders-nov-2026">Trezor diz que vazamento em parceira de entregas expôs dados de cerca de 27.000 pedidos de carteiras físicas</a></li>
+          <li><a href="/pt/articles/binance-warns-iphone-ios-flaw-wallet-keys-nov-2026">Binance alerta usuários de iPhone de que uma falha no iOS pode expor frases-semente de carteiras cripto</a></li>
+          <li><a href="/pt/articles/kava-lend-hack-3-8-million-kava-falls-nov-2026">Kava Lend sofre ataque de cerca de US$ 3,8 milhões e token KAVA cai quase 40%</a></li>
+          <li><a href="/pt/articles/is-coinbase-safe-for-beginners">A Coinbase é segura para iniciantes? O que é protegido, o que não é e como reduzir seu risco</a></li>
+        </ul>
+      </aside>
+
+      <section class="sources" aria-label="Fontes">
+        <h2>Fontes</h2>
+        <ol>
+          <li><a href="https://blog.coinkite.com/coldcard-postmortem-published/" target="_blank" rel="noopener">Coinkite: Our COLDCARD seed-generation postmortem is now public</a> (24 de novembro de 2026)</li>
+          <li><a href="https://blog.coinkite.com/reports/coldcard-seed-generation-incident-postmortem-2026-11-23.pdf" target="_blank" rel="noopener">Coinkite: COLDCARD Seed-Generation Incident Postmortem (PDF, report snapshot Nov. 23, 2026)</a> (23 de novembro de 2026)</li>
+          <li><a href="https://coldcard.com/security/status" target="_blank" rel="noopener">COLDCARD: Current security status and fixed releases</a> (23 de novembro de 2026)</li>
+          <li><a href="https://blog.coinkite.com/entropy-technical-backgrounder/" target="_blank" rel="noopener">Coinkite: Technical deep dive into the entropy issue</a> (Nov 2026)</li>
+        </ol>
+        <p class="sources-note">Os títulos das fontes aparecem no idioma original.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
+    <div class="wrap inner">
+      <div class="footer-brand">
+        <a class="logo" href="/pt/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · notícias de Bitcoin e criptomoedas em linguagem simples para iniciantes</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/pt/">Início</a>
+        <a href="/pt/about">Sobre</a>
+        <a href="/pt/disclosure">Divulgação</a>
+        <a href="/pt/feed.xml">RSS</a>
+      </nav>
+    </div>
+  <!-- i18n:footersocial -->
+  <div class="wrap footer-social" aria-label="Links da comunidade"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+  <!-- /i18n:footersocial -->
+  <!-- i18n:footerlangs -->
+  <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="en" hreflang="en">English</a> <a href="/es/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="es" hreflang="es">Español</a> <a href="/pt/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026" lang="ko" hreflang="ko">한국어</a></nav></div>
+  <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">Voltar ao topo <span aria-hidden="true">↑</span></a></div>
+  </footer>
+  <script src="/assets/site.a911afff6c.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "fact",
+    "file": "fact-fidelity-crypto-seven-coins.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: on Nov. 24, 2026 Fidelity Crypto added AAVE, LINK and UNI, bringing it to seven cryptocurrencies plus the FIDD stablecoin; trades cost a 1% fee, start at $1, and the new tokens are not available in Oregon",
+      "es": "Tarjeta: el 24 de noviembre de 2026 Fidelity Crypto añadió AAVE, LINK y UNI y pasa a ofrecer siete criptomonedas más la stablecoin FIDD; cada operación cuesta un 1%, se puede empezar con 1 dólar y los nuevos tokens no están disponibles en Oregón",
+      "pt": "Cartão: em 24 de novembro de 2026 a Fidelity Crypto adicionou AAVE, LINK e UNI e passou a oferecer sete criptomoedas mais a stablecoin FIDD; cada operação custa 1%, começa em US$ 1 e os novos tokens não estão disponíveis no Oregon",
+      "fr": "Fiche : le 24 novembre 2026, Fidelity Crypto a ajouté AAVE, LINK et UNI et propose désormais sept cryptomonnaies plus le stablecoin FIDD ; chaque transaction coûte 1 %, dès 1 dollar, et les nouveaux jetons ne sont pas disponibles en Oregon",
+      "de": "Faktenkarte: Am 24. November 2026 hat Fidelity Crypto AAVE, LINK und UNI aufgenommen und bietet nun sieben Kryptowährungen plus den Stablecoin FIDD; jeder Kauf und Verkauf kostet 1 %, ab 1 US-Dollar, und die neuen Token sind in Oregon nicht verfügbar",
+      "ru": "Карточка: 24 ноября 2026 года Fidelity Crypto добавила AAVE, LINK и UNI, теперь на платформе семь криптовалют и стейблкоин FIDD; комиссия 1% за покупку или продажу, сделки от 1 доллара, новые токены недоступны в Орегоне",
+      "tr": "Bilgi kartı: Fidelity Crypto 24 Kasım 2026'da AAVE, LINK ve UNI'yi ekledi ve artık yedi kripto para ile FIDD stablecoin'i sunuyor; her alım ve satım yüzde 1 ücretli, işlemler 1 dolardan başlıyor ve yeni tokenlar Oregon'da sunulmuyor",
+      "id": "Kartu fakta: pada 24 November 2026 Fidelity Crypto menambahkan AAVE, LINK, dan UNI sehingga kini menawarkan tujuh kripto plus stablecoin FIDD; setiap beli atau jual dikenai biaya 1%, mulai dari 1 dolar, dan token baru tidak tersedia di Oregon",
+      "ja": "ファクトカード: 2026年11月24日、Fidelity CryptoはAAVE、LINK、UNIを追加し、暗号資産7銘柄とステーブルコインFIDDを扱うようになった。売買ごとに1%の手数料、1ドルから取引可能、新トークンはオレゴン州では利用できない",
+      "ko": "팩트 카드: 2026년 11월 24일 Fidelity Crypto가 AAVE, LINK, UNI를 추가해 암호화폐 7종과 스테이블코인 FIDD를 제공하게 됐다. 매수와 매도마다 1% 수수료, 1달러부터 거래 가능, 새 토큰은 오리건주에서 이용할 수 없다"
+    },
+    "caption": {
+      "en": "Source: Fidelity Crypto help pages, Nov. 24, 2026",
+      "es": "Fuente: Fidelity Crypto help pages, Nov. 24, 2026",
+      "pt": "Fonte: Fidelity Crypto help pages, Nov. 24, 2026",
+      "fr": "Source : Fidelity Crypto help pages, Nov. 24, 2026",
+      "de": "Quelle: Fidelity Crypto help pages, Nov. 24, 2026",
+      "ru": "Источник: Fidelity Crypto help pages, Nov. 24, 2026",
+      "tr": "Kaynak: Fidelity Crypto help pages, Nov. 24, 2026",
+      "id": "Sumber: Fidelity Crypto help pages, Nov. 24, 2026",
+      "ja": "出典: Fidelity Crypto help pages, Nov. 24, 2026",
+      "ko": "출처: Fidelity Crypto help pages, Nov. 24, 2026"
+    }
+  },
+  {
+    "id": "chart",
+    "file": "chart-aave-link-uni-since-oct-25.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of AAVE, LINK and UNI prices in U.S. dollars since Oct. 25, 2026: by the evening of Nov. 24 UNI was down about 32%, AAVE about 31% and LINK about 23%",
+      "es": "Gráfico de líneas de los precios de AAVE, LINK y UNI en dólares desde el 25 de octubre de 2026: en la tarde del 24 de noviembre UNI había caído cerca de un 32%, AAVE cerca de un 31% y LINK cerca de un 23%",
+      "pt": "Gráfico de linhas dos preços de AAVE, LINK e UNI em dólares desde 25 de outubro de 2026: na noite de 24 de novembro o UNI acumulava queda de cerca de 32%, o AAVE de cerca de 31% e o LINK de cerca de 23%",
+      "fr": "Graphique en courbes des prix d'AAVE, LINK et UNI en dollars depuis le 25 octobre 2026 : le soir du 24 novembre, UNI avait perdu environ 32 %, AAVE environ 31 % et LINK environ 23 %",
+      "de": "Liniendiagramm der Kurse von AAVE, LINK und UNI in US-Dollar seit dem 25. Oktober 2026: Am Abend des 24. November lag UNI rund 32 % im Minus, AAVE rund 31 % und LINK rund 23 %",
+      "ru": "Линейный график цен AAVE, LINK и UNI в долларах с 25 октября 2026 года: к вечеру 24 ноября UNI подешевел примерно на 32%, AAVE примерно на 31%, LINK примерно на 23%",
+      "tr": "AAVE, LINK ve UNI'nin 25 Ekim 2026'dan bu yana dolar fiyatlarını gösteren çizgi grafik: 24 Kasım akşamı UNI yaklaşık yüzde 32, AAVE yaklaşık yüzde 31 ve LINK yaklaşık yüzde 23 düşüşteydi",
+      "id": "Grafik garis harga AAVE, LINK, dan UNI dalam dolar AS sejak 25 Oktober 2026: pada malam 24 November UNI turun sekitar 32%, AAVE sekitar 31%, dan LINK sekitar 23%",
+      "ja": "2026年10月25日以降のAAVE、LINK、UNIのドル建て価格の折れ線グラフ。11月24日夜時点でUNIは約32%、AAVEは約31%、LINKは約23%下落",
+      "ko": "2026년 10월 25일 이후 AAVE, LINK, UNI의 달러 가격 꺾은선 그래프: 11월 24일 저녁 기준 UNI는 약 32%, AAVE는 약 31%, LINK는 약 23% 하락"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken daily closes, Oct. 25 to Nov. 24, 2026",
+      "es": "Gráfico: PlainBTC, datos: Kraken daily closes, Oct. 25 to Nov. 24, 2026",
+      "pt": "Gráfico: PlainBTC, dados: Kraken daily closes, Oct. 25 to Nov. 24, 2026",
+      "fr": "Graphique : PlainBTC, données : Kraken daily closes, Oct. 25 to Nov. 24, 2026",
+      "de": "Chart: PlainBTC, Daten: Kraken daily closes, Oct. 25 to Nov. 24, 2026",
+      "ru": "График: PlainBTC, данные: Kraken daily closes, Oct. 25 to Nov. 24, 2026",
+      "tr": "Grafik: PlainBTC, veri: Kraken daily closes, Oct. 25 to Nov. 24, 2026",
+      "id": "Grafik: PlainBTC, data: Kraken daily closes, Oct. 25 to Nov. 24, 2026",
+      "ja": "チャート: PlainBTC、データ: Kraken daily closes, Oct. 25 to Nov. 24, 2026",
+      "ko": "차트: PlainBTC, 데이터: Kraken daily closes, Oct. 25 to Nov. 24, 2026"
+    }
+  }
+]

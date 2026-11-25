@@ -1,0 +1,63 @@
+title: Fidelity Crypto, 첫 DeFi 토큰으로 Aave·Chainlink·Uniswap 추가... 세 코인은 한 달 새 23~32% 하락
+page_title: Fidelity Crypto, AAVE·LINK·UNI 추가: 미국 투자자에게 달라지는 점
+description: Fidelity가 2026년 11월 24일 Aave(AAVE), Chainlink(LINK), Uniswap(UNI)을 Fidelity Crypto에 추가해 암호화폐 7종과 스테이블코인 FIDD를 제공하게 됐다. 거래 수수료는 1%, 최소 거래 금액은 1달러다.
+og_description: 이제 Fidelity Crypto에서 자격을 갖춘 미국 고객은 암호화폐 IRA를 포함해 AAVE, LINK, UNI를 살 수 있다. 수수료는 1%, 거래는 1달러부터, 오리건주는 제외되며 세 토큰은 10월 말 이후 23~32% 떨어졌다.
+label: 비즈니스
+summary: Fidelity가 Aave, Chainlink, Uniswap 토큰을 Fidelity Crypto와 암호화폐 IRA에 추가했다. 플랫폼 최초의 탈중앙화 금융(DeFi) 토큰이다. 이제 코인 7종과 스테이블코인 FIDD를 제공하며, 수수료는 1%이고 새 토큰은 오리건주에서 이용할 수 없다. 세 토큰 모두 지난 한 달 동안 크게 떨어졌다.
+===
+
+미국 은퇴 자산 관리에서 가장 잘 알려진 회사 중 하나가 암호화폐 메뉴를 넓혔다. Fidelity Investments는 11월 24일(화) X를 통해 <strong>Fidelity Crypto</strong>에서 세 가지 암호화폐를 새로 거래할 수 있다고 밝혔다. <strong>Aave(AAVE)</strong>, <strong>Chainlink(LINK)</strong>, <strong>Uniswap(UNI)</strong>이다. 이들은 이 플랫폼에서 처음으로 탈중앙화 금융, 즉 DeFi와 연결된 토큰이다. DeFi는 대출과 거래를 은행 대신 소프트웨어로 구현하려는 암호화폐 분야다.
+
+Fidelity의 [거래 도움말 페이지](L1)에 따르면 이번 추가로 플랫폼은 <strong>암호화폐 7종</strong>과 Fidelity 자체 스테이블코인 <strong>Fidelity Digital Dollar(FIDD)</strong>를 제공하게 됐다. 화요일 전까지 고객은 비트코인, 이더, 솔라나, 라이트코인, FIDD만 거래할 수 있었다.
+
+!takeaways
+- Fidelity는 2026년 11월 24일 AAVE, LINK, UNI를 Fidelity Crypto에 추가했다. 목록은 이제 암호화폐 7종과 스테이블코인 FIDD다.
+- 새 토큰은 주별 이용 가능 여부에 따라 Fidelity Crypto IRA에서도 거래할 수 있다.
+- Fidelity는 암호화폐를 사고팔 때마다 1% 수수료를 받는다. 거래는 1달러부터 가능하고, 새 토큰별 최대 주문은 1,000,000달러다.
+- 오리건주 고객은 AAVE, LINK, SOL, UNI를 사거나 팔거나 입금할 수 없으며, Fidelity Crypto IRA도 제공되지 않는다.
+- Fidelity는 자사에서 UNI를 보유하면 가격 노출만 얻을 뿐 Uniswap 거버넌스 투표권은 없다고 밝혔다.
+
+!figure:fact
+
+## 세 토큰은 무엇인가
+
+<strong>Aave</strong>는 대출 프로토콜이다. 누군가는 암호화폐를 맡기고 이자를 받고, 다른 누군가는 자신의 암호화폐를 담보로 돈을 빌린다. [CoinMarketCap](L3)에 따르면 Fidelity의 설명 자료는 Aave를 현재 DeFi 대출에서 가장 큰 업체로 소개한다. <strong>Chainlink</strong>는 가격 같은 외부 데이터를 블록체인 앱에 공급하는 '오라클' 네트워크를 운영한다. <strong>Uniswap</strong>은 사용자가 자기 지갑에서 바로 토큰을 교환하는 탈중앙화 거래소로, Fidelity는 거래량 기준 같은 종류에서 가장 크다고 설명한다.
+
+AAVE, LINK, UNI 토큰은 이 프로젝트들과 연결돼 있지만, Fidelity에서 사는 것이 앱을 쓰는 것과 같지는 않다. Fidelity는 화요일 공개한 설명 자료에서 "Fidelity에서 UNI를 보유하면 오로지 가격 노출만 얻게 되며, 거버넌스 같은 다른 기능에 참여할 수 있는 권리는 포함되지 않는다"고 밝혔다고 CoinMarketCap은 전했다. 쉽게 말해 가격 등락은 함께하지만 프로젝트 운영에 대한 발언권은 없다.
+
+## 타이밍이 나쁜가, 장기 베팅인가
+
+이번 상장은 어려운 시장에서 이뤄졌다. 비트코인은 [ETF 자금 유출이 사상 최대를 기록한 달](/articles/bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026)을 지나 화요일 다시 60,000달러 아래로 내려갔고, 세 신규 토큰은 더 크게 떨어졌다. Kraken 일별 가격 기준으로 10월 25일 이후 UNI는 약 32%, AAVE는 약 31%, LINK는 약 23% 하락했다. 화요일 저녁 AAVE는 약 94달러, LINK는 약 8.83달러, UNI는 약 4.71달러에 거래됐다.
+
+!figure:chart
+
+!mid_cta
+
+## 수수료, 한도, 이용 대상
+
+Fidelity Crypto는 국법 신탁은행인 Fidelity Digital Assets가 운영하며, Fidelity 앱과 Fidelity.com에서 이용할 수 있다. Fidelity [도움말 페이지](L1)에 따르면:
+
+- 매수와 매도에는 <strong>1% 수수료</strong>가 붙는다(달러로 FIDD를 사고팔 때는 수수료 없음).
+- 거래는 <strong>1달러</strong>부터 가능하다. 최대 주문 금액은 비트코인과 이더 5,000,000달러, 솔라나 2,000,000달러, AAVE, LINK, 라이트코인, UNI는 <strong>1,000,000</strong>달러다.
+- 거래 시간은 하루 23시간, 미 동부시간 오전 1시부터 자정까지이며 시장가와 지정가 주문을 지원한다.
+- 고객은 현물 암호화폐만 보유한다. 선물은 제공되지 않으며, 암호화폐 ETF는 일반 증권 계좌에서 산다.
+
+Fidelity의 [주별 이용 가능 여부 페이지](L2)에 따르면 오리건주 고객은 AAVE, LINK, SOL, UNI를 사거나 팔거나 입금할 수 없고, 암호화폐 IRA도 이용할 수 없다. Fidelity Crypto는 괌, 푸에르토리코, 미국령 버진아일랜드와 미국 밖에서도 제공되지 않는다.
+
+## 초보자에게 주는 의미
+
+Fidelity 같은 대기업이 토큰을 상장하면 품질 보증처럼 느껴질 수 있다. 하지만 수익을 약속하는 것은 아니다. Fidelity의 위험 고지도 암호화폐는 변동성이 매우 크고 언제든 유동성을 잃을 수 있으며 FDIC나 SIPC 보호를 받지 않는다고 밝힌다. 지난 한 달이 보여주듯 규모가 작은 DeFi 토큰은 대개 비트코인보다 더 크게 움직인다.
+
+수수료도 중요하다. 살 때와 팔 때 각각 1%가 붙으면 가격이 그대로여도 한 번 사고파는 데 약 2%가 든다. [Coinbase](REF) 같은 대형 규제 거래소 등 다른 구매처와 비교하고, 거래 전 각 플랫폼의 최신 수수료를 확인하자. 잃어도 감당할 수 있는 돈만 투자하자. 이 글은 투자 조언이 아니다.
+
+## 앞으로 지켜볼 점
+
+- Fidelity가 토큰을 더 추가하거나 새 토큰을 오리건주 고객에게도 열지.
+- 신규 상장 토큰이 Fidelity 고객 사이에서 얼마나 거래를 끌어낼지.
+- AAVE, LINK, UNI가 11월 급락 이후 안정을 찾을지.
+
+!soft: 코인을 직접 보유할지 펀드로 보유할지 고민된다면 [비트코인 ETF와 비트코인 직접 매수 비교](/articles/bitcoin-etf-vs-buying-bitcoin) 가이드를 읽어보자
+
+!end_cta
+
+!disclosure

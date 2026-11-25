@@ -1,0 +1,63 @@
+title: Fidelity CryptoがAave、Chainlink、Uniswapを追加、初のDeFiトークン、3銘柄は1カ月で23〜32%下落
+page_title: Fidelity CryptoがAAVE、LINK、UNIを追加: 米国の投資家にとって何が変わるか
+description: Fidelityは2026年11月24日、Aave(AAVE)、Chainlink(LINK)、Uniswap(UNI)をFidelity Cryptoに追加し、取扱いは暗号資産7銘柄とステーブルコインFIDDになった。手数料は1%、取引は1ドルから。
+og_description: Fidelity Cryptoで、対象となる米国の顧客が暗号資産IRAを含めAAVE、LINK、UNIを買えるようになった。手数料は1%、取引は1ドルから、オレゴン州は対象外。3銘柄は10月末から23〜32%下落している。
+label: ビジネス
+summary: FidelityはAave、Chainlink、UniswapのトークンをFidelity Cryptoと暗号資産IRAに追加した。同社初の分散型金融(DeFi)トークンとなる。取扱いは7銘柄とステーブルコインFIDD、手数料は1%で、新トークンはオレゴン州では利用できない。3銘柄とも過去1カ月で大きく値を下げている。
+===
+
+米国の老後資産づくりで最も知られた企業の一つが、暗号資産の品ぞろえを広げた。Fidelity Investmentsは11月24日(火)、Xへの投稿で、<strong>Fidelity Crypto</strong>で新たに3つの暗号資産を取引できるようになったと発表した。<strong>Aave(AAVE)</strong>、<strong>Chainlink(LINK)</strong>、<strong>Uniswap(UNI)</strong>だ。いずれも同プラットフォームで初めての分散型金融(DeFi)関連トークンとなる。DeFiとは、融資や取引を銀行ではなくソフトウェアで再現しようとする暗号資産の分野を指す。
+
+Fidelityの[取引ヘルプページ](L1)によると、これで取扱いは<strong>暗号資産7銘柄</strong>と、同社独自のステーブルコイン<strong>Fidelity Digital Dollar(FIDD)</strong>になった。火曜日までは、ビットコイン、イーサ、ソラナ、ライトコイン、FIDDしか取引できなかった。
+
+!takeaways
+- Fidelityは2026年11月24日、AAVE、LINK、UNIをFidelity Cryptoに追加した。取扱いは暗号資産7銘柄とステーブルコインFIDD。
+- 新トークンは、州ごとの提供状況に応じてFidelity Crypto IRAでも取引できる。
+- 暗号資産の売買には毎回1%の手数料がかかる。取引は1ドルから、新トークンの1回あたりの上限は1,000,000ドル。
+- オレゴン州の顧客はAAVE、LINK、SOL、UNIの売買や入庫ができず、Fidelity Crypto IRAも提供されていない。
+- FidelityでUNIを持っても得られるのは価格変動へのエクスポージャーだけで、Uniswapのガバナンスでの議決権はないと同社は説明している。
+
+!figure:fact
+
+## 3つのトークンとは
+
+<strong>Aave</strong>は融資プロトコルで、暗号資産を預けて利息を得る人と、自分の暗号資産を担保に借りる人を結びつける。[CoinMarketCap](L3)によると、Fidelityの解説はAaveを現在のDeFi融資で最大の存在としている。<strong>Chainlink</strong>は、価格などの外部データをブロックチェーンのアプリに届ける「オラクル」ネットワークを運営する。<strong>Uniswap</strong>は、利用者が自分のウォレットから直接トークンを交換できる分散型取引所で、Fidelityは取引高で同種最大と説明している。
+
+AAVE、LINK、UNIの各トークンはこれらのプロジェクトと結びついているが、Fidelityで買うことはアプリを使うこととは違う。CoinMarketCapが引用した火曜日公開の解説で、Fidelityは「FidelityでUNIを保有しても得られるのは価格へのエクスポージャーのみで、ガバナンスなどほかの機能に参加する権利は含まれない」と述べた。つまり、値動きの損益は受けるが、プロジェクトの運営には口を出せないということだ。
+
+## タイミングが悪いのか、長期の賭けか
+
+今回の追加は厳しい相場の中で行われた。ビットコインは[ETFからの資金流出が過去最大となった月](/articles/bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026)を経て、火曜日に再び60,000ドルを割り込み、新たな3銘柄はさらに大きく下げている。Krakenの日次価格では、10月25日からUNIは約32%、AAVEは約31%、LINKは約23%下落した。火曜日の夜にはAAVEが約94ドル、LINKが約8.83ドル、UNIが約4.71ドルで取引されていた。
+
+!figure:chart
+
+!mid_cta
+
+## 手数料、上限、使える人
+
+Fidelity Cryptoは国法信託銀行のFidelity Digital Assetsが運営し、FidelityのアプリとウェブサイトFidelity.comで利用できる。Fidelityの[ヘルプページ](L1)によると:
+
+- 売買には<strong>1%の手数料</strong>がかかる(ドルでFIDDを売買する場合は無料)。
+- 取引は<strong>1ドル</strong>から可能。1回の注文の上限はビットコインとイーサが5,000,000ドル、ソラナが2,000,000ドル、AAVE、LINK、ライトコイン、UNIが<strong>1,000,000</strong>ドル。
+- 取引時間は1日23時間、米東部時間の午前1時から深夜0時まで。成行注文と指値注文に対応する。
+- 顧客が持てるのは現物の暗号資産だけ。先物は提供されず、暗号資産ETFは通常の証券口座で買う。
+
+Fidelityの[州別の提供状況ページ](L2)によると、オレゴン州の顧客はAAVE、LINK、SOL、UNIの売買や入庫ができず、暗号資産IRAも利用できない。Fidelity Cryptoはグアム、プエルトリコ、米領バージン諸島、米国外でも提供されていない。
+
+## 初心者にとっての意味
+
+Fidelityほどの大企業がトークンを扱うと、お墨付きのように感じるかもしれない。しかし利益の約束ではない。Fidelity自身のリスク説明でも、暗号資産は値動きが非常に激しく、いつでも流動性を失う可能性があり、FDICやSIPCの保護対象ではないとしている。この1カ月が示すように、小型のDeFiトークンはビットコインより大きく動くことが多い。
+
+手数料も重要だ。買うたび、売るたびに1%かかるので、価格が動かなくても往復で約2%のコストになる。[Coinbase](REF)のような大手の規制下にある取引所など、ほかの購入先とも比べ、取引前に各プラットフォームの最新の手数料を確認しよう。失っても困らない資金だけで投資してほしい。これは投資助言ではない。
+
+## 今後の注目点
+
+- Fidelityがさらにトークンを追加するか、新トークンをオレゴン州の顧客にも開放するか。
+- 新たな取扱い銘柄がFidelityの顧客からどれだけの取引を集めるか。
+- AAVE、LINK、UNIが11月の下落の後に落ち着くかどうか。
+
+!soft: コインを直接持つか、ファンドを通じて持つか迷っているなら、ガイド[ビットコインETFとビットコイン購入の違い](/articles/bitcoin-etf-vs-buying-bitcoin)を読んでほしい
+
+!end_cta
+
+!disclosure

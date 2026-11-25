@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/id/</link>
     <description>Berita Bitcoin dan kripto dengan bahasa sederhana untuk pemula</description>
     <language>id</language>
-    <lastBuildDate>Tue, 24 Nov 2026 14:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:45:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/id/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fidelity Crypto menambahkan Aave, Chainlink, dan Uniswap, token DeFi pertamanya, saat ketiga koin itu turun 23% hingga 32% dalam sebulan</title>
+      <link>https://plainbtc.com/id/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:45:00 GMT</pubDate>
+      <category>Bisnis</category>
+      <description>Fidelity menambahkan token Aave, Chainlink, dan Uniswap ke Fidelity Crypto dan IRA kriptonya, token keuangan terdesentralisasi (DeFi) pertama di platform itu. Kini tersedia tujuh koin plus stablecoin FIDD, dengan biaya 1%, dan token baru tidak tersedia di Oregon. Ketiganya turun tajam dalam sebulan terakhir.</description>
+    </item>
+    <item>
+      <title>Pembuat Coldcard rilis laporan pascainsiden: frasa pemulihan yang lemah membuat pencuri menggondol sekitar 1.779 BTC, tanpa satu pun perangkat diretas</title>
+      <link>https://plainbtc.com/id/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:40:00 GMT</pubDate>
+      <category>Keamanan</category>
+      <description>Coinkite menerbitkan laporan soal celah seed Coldcard: dari Maret 2021 hingga Juli 2026 dompet itu membuat frasa pemulihan dengan generator perangkat lunak yang lemah, dan pencuri membuat ulang kunci secara offline. Galaxy Research mencatat sekitar 1.779 BTC dicuri. Memperbarui firmware tidak memperbaiki seed lama; dana harus dipindahkan ke seed baru.</description>
+    </item>
     <item>
       <title>Aplikasi Krak milik Kraken buka daftar tunggu kartu kredit AS dengan cashback bitcoin hingga 4%, termasuk satu yang dijamin USDC</title>
       <link>https://plainbtc.com/id/articles/kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026</link>

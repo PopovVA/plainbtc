@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/fr/</link>
     <description>L’actualité du bitcoin et des cryptos en langage clair, pour les débutants</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 24 Nov 2026 14:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:45:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/fr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fidelity Crypto ajoute Aave, Chainlink et Uniswap, ses premiers jetons DeFi, alors que les trois cryptos reculent de 23 % à 32 % en un mois</title>
+      <link>https://plainbtc.com/fr/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:45:00 GMT</pubDate>
+      <category>Entreprises</category>
+      <description>Fidelity a ajouté les jetons d'Aave, Chainlink et Uniswap à Fidelity Crypto et à ses IRA crypto, ses premiers jetons de finance décentralisée (DeFi). La plateforme compte désormais sept cryptos plus le stablecoin FIDD, prend 1 % de frais et exclut l'Oregon pour les nouveaux jetons. Les trois ont nettement baissé sur un mois.</description>
+    </item>
+    <item>
+      <title>Le fabricant de Coldcard publique son rapport : des phrases de récupération trop faibles ont permis de voler environ 1 779 BTC, sans qu'aucun appareil soit piraté</title>
+      <link>https://plainbtc.com/fr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:40:00 GMT</pubDate>
+      <category>Sécurité</category>
+      <description>Coinkite a publié son rapport sur la faille des graines Coldcard : de mars 2021 à juillet 2026, les portefeuilles ont créé des phrases de récupération avec un générateur logiciel trop faible, et des voleurs ont recréé les clés hors ligne. Galaxy Research a compté environ 1 779 BTC volés. Mettre à jour le firmware ne répare pas une ancienne graine : il faut transférer les fonds vers une nouvelle.</description>
+    </item>
     <item>
       <title>Krak, l'appli de Kraken, ouvre une liste d'attente pour des cartes de crédit américaines avec jusqu'à 4 % de cashback en bitcoin, dont une garantie par de l'USDC</title>
       <link>https://plainbtc.com/fr/articles/kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026</link>

@@ -1,0 +1,65 @@
+title: Coldcard maker publishes postmortem: weak recovery phrases let thieves take about 1,779 BTC, and no device was hacked
+page_title: Coldcard postmortem: how weak seeds led to bitcoin thefts
+description: Coinkite's Nov. 2026 postmortem says Coldcard wallets made weak recovery phrases from March 2021 to July 2026. Thieves rebuilt keys offline; Galaxy Research counted about 1,779 BTC stolen. Owners of affected seeds must move funds.
+og_description: For more than five years, Coldcard hardware wallets used a weak software random number generator to create recovery phrases. Coinkite's new postmortem explains how 15 reviews missed it, why a firmware update is not enough, and what owners should do.
+label: Security
+summary: Coinkite published its postmortem on the Coldcard seed flaw: from March 2021 to July 2026 the wallets built recovery phrases with a weak software generator, and thieves recreated keys offline. Galaxy Research counted about 1,779 BTC stolen. Updating firmware does not fix an old seed; owners must move funds to a new one.
+===
+
+The company behind one of Bitcoin's best-known hardware wallets has laid out, step by step, how a hidden flaw put customer savings at risk for more than five years. Coinkite, the maker of <strong>Coldcard</strong>, published a detailed [postmortem](L1) on Tuesday, Nov. 24, about the bug that made some of its wallets create weak recovery phrases. Thieves used it to rebuild private keys on their own computers and drain funds, starting on July 29, 2026.
+
+"The losses are real and, for some customers, life-changing," Coinkite wrote. "We are sorry." The 18-page [report](L2), dated Nov. 23, is modeled on an NTSB accident report and says <strong>no device was remotely accessed or taken over</strong>.
+
+!takeaways
+- From March 29, 2021, to July 30, 2026, Coldcard firmware created wallet seeds with a weak software random number generator instead of the device's hardware chip.
+- Attackers recreated affected keys offline and began stealing funds on July 29, 2026. Galaxy Research reported 1,778.84 BTC stolen from more than 8,600 addresses.
+- Coinkite fixed the bug on July 31. Its support team counted about 300 loss-related tickets, roughly 0.2% of its estimated user base.
+- At least 15 independent reviews, including an AI-assisted one, missed the flaw.
+- A firmware update does not repair an old seed. Owners of affected seeds must create a new one and move their bitcoin.
+
+!figure:timeline
+
+## What went wrong
+
+Every bitcoin wallet starts with a recovery phrase (also called a seed), usually 12 or 24 words. Those words come from a random number, and the whole security model depends on that number being impossible to guess. Coldcard was designed to draw it from a hardware random number generator built into its chip.
+
+Because of a configuration and linking error, the firmware quietly used a simpler software generator from MicroPython, a programming toolkit, instead. The device still worked normally and printed normal-looking words. But Coinkite estimates the affected seeds had only about <strong>40 bits</strong> of real randomness on older Mk2 and Mk3 models, or about <strong>72 bits</strong> on the Mk4, Mk5 and Q, instead of the intended <strong>128 bits</strong>. Each bit doubles the number of guesses needed, so the gap is enormous: a 72-bit seed is about 72 quadrillion (2 to the 56th power) times easier to guess than a 128-bit one.
+
+!figure:chart
+
+!mid_cta
+
+## How big is the damage?
+
+The numbers depend on who is counting. In August, Galaxy Research reported <strong>1,778.84 BTC</strong> stolen from more than 8,600 addresses, worth roughly $106 million at Tuesday's price near $59,700. Coinkite's own support review found about <strong>300 loss-related tickets</strong> tied to roughly 240 customer accounts (the report says 242, the blog post 236), about 0.2% of its estimated users. Because Coldcard is self-custody, Coinkite can count only the losses people report, and it says "the true number is likely higher."
+
+Coinkite has not decided on any compensation plan; the report lists that item as open. It also asked whoever holds the stolen coins to return them through security@coinkite.com, without promising immunity or payment.
+
+## Why nobody caught it
+
+The postmortem lists at least 15 independent review and research efforts between 2021 and 2026, including two paid third-party product reviews. A two-month AI-assisted review this spring produced 85 findings but missed the bug. Coinkite says its checks confirmed the right generator existed in the code, but never verified that seed creation actually reached it. Who first found and exploited the flaw is still unknown.
+
+## What Coldcard owners should do
+
+According to the report and Coldcard's [security status page](L3):
+
+- Check whether your seed was created on affected firmware (for example, Mk4 and Mk5 versions before 5.6.0, or Q versions before 1.5.0Q).
+- If it was, install verified fixed firmware, create a brand-new seed, back it up, and move your funds. Updating alone does not help.
+- Seeds made with at least 50 fair, private dice rolls were not weakened.
+- Never send seed words, passphrases or backups to anyone, including Coinkite, and treat unsolicited "recovery" or "compensation" offers as likely scams.
+
+## What it means for beginners
+
+Self-custody gives you full control, but also full responsibility, and even well-reviewed devices can carry hidden flaws. Extra layers such as a strong passphrase or multisig can help. Many beginners instead start by buying a small amount on a large regulated exchange like [Coinbase](REF) and learn about wallets before moving coins. Either way, only invest money you can afford to lose. This is not financial advice.
+
+## What to watch next
+
+- Whether Coinkite announces compensation or help for affected customers.
+- Any return of stolen bitcoin, or arrests tied to the thefts.
+- More independent reviews of the fixed firmware, which Coinkite says are still needed.
+
+!soft: New to wallets? Start with our guide to [custodial versus self-custody wallets](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

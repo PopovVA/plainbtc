@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Tue, 24 Nov 2026 14:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:45:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fidelity Crypto ilk DeFi tokenları Aave, Chainlink ve Uniswap'ı ekledi, üç coin bir ayda yüzde 23 ile 32 arasında değer kaybetti</title>
+      <link>https://plainbtc.com/tr/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/fidelity-crypto-adds-aave-link-uni-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:45:00 GMT</pubDate>
+      <category>İş dünyası</category>
+      <description>Fidelity, Aave, Chainlink ve Uniswap tokenlarını Fidelity Crypto'ya ve kripto IRA hesaplarına ekledi; bunlar platformun ilk merkeziyetsiz finans (DeFi) tokenları. Platformda artık yedi coin ve FIDD stablecoin'i var, işlem ücreti yüzde 1 ve yeni tokenlar Oregon'da sunulmuyor. Üçü de son bir ayda sert düştü.</description>
+    </item>
+    <item>
+      <title>Coldcard üreticisi olay raporunu yayımladı: zayıf kurtarma ifadeleri yaklaşık 1.779 BTC çalınmasına yol açtı, hiçbir cihaz hacklenmedi</title>
+      <link>https://plainbtc.com/tr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 00:40:00 GMT</pubDate>
+      <category>Güvenlik</category>
+      <description>Coinkite, Coldcard tohum açığına ilişkin raporunu yayımladı: Mart 2021'den Temmuz 2026'ya kadar cüzdanlar kurtarma ifadelerini zayıf bir yazılım üreteciyle oluşturdu ve hırsızlar anahtarları çevrimdışı yeniden üretti. Galaxy Research yaklaşık 1.779 BTC çalındığını hesapladı. Yazılım güncellemesi eski tohumu düzeltmiyor; fonlar yeni bir tohuma taşınmalı.</description>
+    </item>
     <item>
       <title>Kraken'in uygulaması Krak, ABD'de yüzde 4'e kadar bitcoin iadeli kredi kartları için bekleme listesi açtı; biri USDC teminatlı</title>
       <link>https://plainbtc.com/tr/articles/kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026</link>

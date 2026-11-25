@@ -1,0 +1,63 @@
+title: Fidelity Crypto adds Aave, Chainlink and Uniswap, its first DeFi tokens, as the three coins slide about 23% to 32% in a month
+page_title: Fidelity Crypto adds AAVE, LINK and UNI: what changes for U.S. investors
+description: Fidelity added Aave (AAVE), Chainlink (LINK) and Uniswap (UNI) to Fidelity Crypto on Nov. 24, 2026, raising its list to seven coins plus its FIDD stablecoin. Trades carry a 1% fee and start at $1.
+og_description: Fidelity Crypto now lets eligible U.S. customers buy AAVE, LINK and UNI, including in crypto IRAs. Trades cost 1% and start at $1, Oregon is excluded, and the three tokens are down about 23% to 32% since late October.
+label: Business
+summary: Fidelity added Aave, Chainlink and Uniswap tokens to Fidelity Crypto and its crypto IRAs, its first decentralized finance (DeFi) tokens. The platform now lists seven coins plus its FIDD stablecoin, charges a 1% trading fee, and excludes Oregon for the new tokens. All three are down sharply over the past month.
+===
+
+One of the biggest names in American retirement saving just widened its crypto menu. On Tuesday, Nov. 24, Fidelity Investments said on X that three more cryptocurrencies are now available to trade with <strong>Fidelity Crypto</strong>: <strong>Aave (AAVE)</strong>, <strong>Chainlink (LINK)</strong> and <strong>Uniswap (UNI)</strong>. They are the first tokens on the platform tied to decentralized finance, or DeFi, the corner of crypto that tries to rebuild lending and trading with software instead of banks.
+
+The additions bring the platform to <strong>seven cryptocurrencies</strong> plus the <strong>Fidelity Digital Dollar (FIDD)</strong>, Fidelity's own stablecoin, according to Fidelity's [trading help page](L1). Until Tuesday, customers could trade only bitcoin, ether, solana, litecoin and FIDD.
+
+!takeaways
+- Fidelity added AAVE, LINK and UNI to Fidelity Crypto on Nov. 24, 2026. The list now holds seven cryptocurrencies plus the FIDD stablecoin.
+- The new tokens can also be traded in Fidelity Crypto IRAs, subject to state availability.
+- Fidelity charges a 1% fee on crypto buys and sells. Trades start at $1, with a $1,000,000 maximum order for each new token.
+- Customers in Oregon cannot buy, sell or deposit AAVE, LINK, SOL or UNI, and Fidelity Crypto IRAs are not offered there.
+- Owning UNI on Fidelity gives price exposure only, not voting rights in Uniswap governance, Fidelity said.
+
+!figure:fact
+
+## What the three tokens are
+
+<strong>Aave</strong> is a lending protocol: people deposit crypto to earn interest, and others borrow against their own crypto. Fidelity's explainer calls it the largest player in DeFi lending today, according to [CoinMarketCap](L3). <strong>Chainlink</strong> runs an "oracle" network that feeds outside data, such as prices, into blockchain apps. <strong>Uniswap</strong> is a decentralized exchange where people swap tokens directly from their own wallets; Fidelity describes it as the largest such exchange by trading volume.
+
+The AAVE, LINK and UNI tokens are linked to those projects, but buying them on Fidelity is not the same as using the apps. "Holding UNI on Fidelity gives you solely price exposure, and does not include the ability to participate in other functions like governance," Fidelity said in an explainer published Tuesday, as quoted by CoinMarketCap. In plain English: you own the price ride, not a say in how the project is run.
+
+## Bad timing, or a long-term bet?
+
+The listings land in a rough market. Bitcoin slipped back below $60,000 on Tuesday after a [record month of ETF outflows](/articles/bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026), and the three new tokens have fallen harder. Based on Kraken daily prices, UNI is down about 32% and AAVE about 31% since Oct. 25, while LINK is down about 23%. On Tuesday evening AAVE traded near $94, LINK near $8.83 and UNI near $4.71.
+
+!figure:chart
+
+!mid_cta
+
+## Fees, limits and who can use it
+
+Fidelity Crypto is run by Fidelity Digital Assets, a national trust bank, and works in the Fidelity app and on Fidelity.com. According to Fidelity's [help pages](L1):
+
+- Buys and sells cost a <strong>1% fee</strong> (no fee on FIDD bought or sold with dollars).
+- Trades can be as small as <strong>$1</strong>. The largest order is $5,000,000 for bitcoin and ether, $2,000,000 for solana and <strong>$1,000,000</strong> for AAVE, LINK, litecoin and UNI.
+- Trading runs 23 hours a day, from 1 a.m. to midnight Eastern time, with market and limit orders.
+- Customers hold spot crypto only. Futures are not offered, and crypto ETFs are bought in regular brokerage accounts instead.
+
+Fidelity's [state availability page](L2) says Oregon customers cannot buy, sell or deposit AAVE, LINK, SOL or UNI, and crypto IRAs are not available there. Fidelity Crypto is also not offered in Guam, Puerto Rico, the U.S. Virgin Islands or outside the United States.
+
+## What it means for beginners
+
+When a firm as large as Fidelity lists a token, it can feel like a seal of approval. It is not a promise of returns. Fidelity's own risk notice says crypto is highly volatile, can become illiquid at any time, and is not covered by FDIC or SIPC insurance. Smaller DeFi tokens usually swing more than bitcoin, as the past month shows.
+
+Fees matter too. A 1% fee on each buy and each sell means a round trip costs about 2% before any price change. Compare that with other places to buy, such as a large regulated exchange like [Coinbase](REF), and check every platform's current fee schedule before you trade. Only invest money you can afford to lose. This is not financial advice.
+
+## What to watch next
+
+- Whether Fidelity adds more tokens, or brings the new ones to Oregon customers.
+- How much trading the new listings draw from Fidelity customers.
+- Whether AAVE, LINK and UNI steady after their November slide.
+
+!soft: Not sure whether to own coins directly or through a fund? Read our guide to [bitcoin ETFs versus buying bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,63 @@
+title: Fidelity Crypto ajoute Aave, Chainlink et Uniswap, ses premiers jetons DeFi, alors que les trois cryptos reculent de 23 % à 32 % en un mois
+page_title: Fidelity Crypto ajoute AAVE, LINK et UNI : ce qui change pour les investisseurs américains
+description: Fidelity a ajouté Aave (AAVE), Chainlink (LINK) et Uniswap (UNI) à Fidelity Crypto le 24 novembre 2026, soit sept cryptomonnaies plus son stablecoin FIDD. Chaque transaction coûte 1 % et démarre à 1 dollar.
+og_description: Fidelity Crypto permet désormais aux clients américains éligibles d'acheter AAVE, LINK et UNI, y compris dans des comptes IRA crypto. Les transactions coûtent 1 % et démarrent à 1 dollar, l'Oregon est exclu et les trois jetons ont perdu de 23 % à 32 % depuis fin octobre.
+label: Entreprises
+summary: Fidelity a ajouté les jetons d'Aave, Chainlink et Uniswap à Fidelity Crypto et à ses IRA crypto, ses premiers jetons de finance décentralisée (DeFi). La plateforme compte désormais sept cryptos plus le stablecoin FIDD, prend 1 % de frais et exclut l'Oregon pour les nouveaux jetons. Les trois ont nettement baissé sur un mois.
+===
+
+L'un des plus grands noms de l'épargne retraite aux États-Unis vient d'élargir son offre crypto. Mardi 24 novembre, Fidelity Investments a annoncé sur X que trois nouvelles cryptomonnaies peuvent désormais être échangées via <strong>Fidelity Crypto</strong> : <strong>Aave (AAVE)</strong>, <strong>Chainlink (LINK)</strong> et <strong>Uniswap (UNI)</strong>. Ce sont les premiers jetons de la plateforme liés à la finance décentralisée, ou DeFi, ce coin de la crypto qui tente de reconstruire le prêt et le trading avec du logiciel plutôt qu'avec des banques.
+
+Avec ces ajouts, la plateforme compte <strong>sept cryptomonnaies</strong> plus le <strong>Fidelity Digital Dollar (FIDD)</strong>, le stablecoin maison, selon sa [page d'aide sur le trading](L1). Jusqu'à mardi, les clients ne pouvaient échanger que du bitcoin, de l'ether, du solana, du litecoin et du FIDD.
+
+!takeaways
+- Fidelity a ajouté AAVE, LINK et UNI à Fidelity Crypto le 24 novembre 2026. La liste compte désormais sept cryptomonnaies plus le stablecoin FIDD.
+- Les nouveaux jetons sont aussi disponibles dans les IRA Fidelity Crypto, selon les États.
+- Fidelity prélève 1 % de frais à chaque achat et à chaque vente. Les ordres démarrent à 1 dollar, avec un maximum de 1 000 000 de dollars par ordre pour chaque nouveau jeton.
+- Les clients de l'Oregon ne peuvent ni acheter, ni vendre, ni déposer d'AAVE, de LINK, de SOL ou d'UNI, et les IRA Fidelity Crypto n'y sont pas proposés.
+- Détenir de l'UNI chez Fidelity donne seulement une exposition au prix, sans droit de vote dans la gouvernance d'Uniswap, selon Fidelity.
+
+!figure:fact
+
+## Que sont ces trois jetons ?
+
+<strong>Aave</strong> est un protocole de prêt : certains déposent des cryptos pour toucher des intérêts, d'autres empruntent en mettant leurs propres cryptos en garantie. La note explicative de Fidelity le présente comme le premier acteur actuel du prêt DeFi, rapporte [CoinMarketCap](L3). <strong>Chainlink</strong> exploite un réseau d'« oracles » qui transmet des données extérieures, comme des prix, aux applications blockchain. <strong>Uniswap</strong> est une plateforme d'échange décentralisée où l'on échange des jetons directement depuis son propre portefeuille ; Fidelity la décrit comme la plus grande du genre en volume.
+
+Les jetons AAVE, LINK et UNI sont liés à ces projets, mais les acheter chez Fidelity ne revient pas à utiliser les applications. « Détenir de l'UNI chez Fidelity vous donne uniquement une exposition au prix et n'inclut pas la possibilité de participer à d'autres fonctions comme la gouvernance », a écrit Fidelity dans une note publiée mardi, citée par CoinMarketCap. Autrement dit : vous profitez (ou souffrez) des variations du prix, sans voix au chapitre dans la gestion du projet.
+
+## Mauvais timing ou pari de long terme ?
+
+Ces ajouts arrivent dans un marché difficile. Le bitcoin est repassé sous les 60 000 dollars mardi après un [mois record de sorties des ETF](/articles/bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026), et les trois nouveaux jetons ont encore plus chuté. D'après les prix quotidiens de Kraken, l'UNI recule d'environ 32 % et l'AAVE d'environ 31 % depuis le 25 octobre, tandis que le LINK perd environ 23 %. Mardi soir, l'AAVE s'échangeait autour de 94 dollars, le LINK autour de 8,83 dollars et l'UNI autour de 4,71 dollars.
+
+!figure:chart
+
+!mid_cta
+
+## Frais, limites et accès
+
+Fidelity Crypto est géré par Fidelity Digital Assets, une banque fiduciaire nationale, et fonctionne dans l'application Fidelity et sur Fidelity.com. Selon les [pages d'aide](L1) de Fidelity :
+
+- Les achats et les ventes coûtent <strong>1 % de frais</strong> (aucun frais sur le FIDD acheté ou vendu contre des dollars).
+- Un ordre peut ne porter que sur <strong>1 dollar</strong>. L'ordre maximal est de 5 000 000 de dollars pour le bitcoin et l'ether, 2 000 000 pour le solana et <strong>1 000 000</strong> pour l'AAVE, le LINK, le litecoin et l'UNI.
+- Le trading est ouvert 23 heures sur 24, de 1 h à minuit, heure de l'Est, avec des ordres au marché et à cours limité.
+- Les clients détiennent uniquement des cryptos au comptant. Les contrats à terme ne sont pas proposés, et les ETF crypto s'achètent dans des comptes-titres classiques.
+
+La [page de disponibilité par État](L2) de Fidelity indique que les clients de l'Oregon ne peuvent ni acheter, ni vendre, ni déposer d'AAVE, de LINK, de SOL ou d'UNI, et que les IRA crypto n'y sont pas disponibles. Fidelity Crypto n'est pas non plus proposé à Guam, à Porto Rico, aux îles Vierges américaines ni hors des États-Unis.
+
+## Ce que cela signifie pour les débutants
+
+Quand une société aussi grande que Fidelity liste un jeton, cela peut ressembler à un label de qualité. Ce n'est pas une promesse de gains. L'avertissement de Fidelity lui-même rappelle que la crypto est très volatile, peut devenir illiquide à tout moment et n'est couverte ni par la FDIC ni par la SIPC. Les petits jetons DeFi bougent en général davantage que le bitcoin, comme le montre le dernier mois.
+
+Les frais comptent aussi. 1 % à l'achat et 1 % à la vente, cela fait environ 2 % pour un aller-retour, avant toute variation de prix. Comparez avec d'autres endroits où acheter, comme une grande plateforme régulée telle que [Coinbase](REF), et vérifiez les frais en vigueur de chaque plateforme avant de vous lancer. N'investissez que de l'argent que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil financier.
+
+## À surveiller
+
+- Si Fidelity ajoute d'autres jetons ou ouvre les nouveaux aux clients de l'Oregon.
+- Le volume d'échanges que ces nouveaux jetons attirent chez les clients de Fidelity.
+- Si AAVE, LINK et UNI se stabilisent après leur chute de novembre.
+
+!soft: Vous hésitez entre détenir des cryptos en direct ou via un fonds ? Lisez notre guide [ETF bitcoin ou achat de bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure
