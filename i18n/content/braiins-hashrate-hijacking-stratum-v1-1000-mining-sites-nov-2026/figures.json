@@ -1,0 +1,95 @@
+[
+  {
+    "id": "fact",
+    "file": "fact-braiins-1-9-ehs-hijacked.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: up to 1.9 exahashes per second of mining power was diverted in one episode on Nov. 20, 2026, when 1,050 to 1,600 mining sites at a time were sent to an impostor pool through forged internet routes",
+      "es": "Tarjeta: hasta 1,9 exahashes por segundo de potencia de minería se desviaron en un episodio el 20 de noviembre de 2026, cuando entre 1.050 y 1.600 sitios de minería a la vez fueron enviados a un pool impostor mediante rutas de internet falsificadas",
+      "pt": "Cartão: até 1,9 exahash por segundo de poder de mineração foi desviado em um episódio em 20 de novembro de 2026, quando de 1.050 a 1.600 locais de mineração de cada vez foram levados a um pool impostor por rotas de internet falsificadas",
+      "fr": "Encadré : jusqu'à 1,9 exahash par seconde de puissance de minage a été détourné lors d'un épisode le 20 novembre 2026, quand 1 050 à 1 600 sites de minage à la fois ont été envoyés vers un faux pool via des routes internet falsifiées",
+      "de": "Faktenkarte: Bis zu 1,9 Exahash pro Sekunde an Mining-Leistung wurden bei einer Episode am 20. November 2026 umgeleitet, als jeweils 1.050 bis 1.600 Mining-Standorte über gefälschte Internetrouten zu einem falschen Pool geschickt wurden",
+      "ru": "Карточка: до 1,9 эксахеша в секунду майнинговой мощности было перехвачено за один эпизод 20 ноября 2026 года, когда от 1050 до 1600 майнинговых площадок одновременно направили в поддельный пул через фальшивые интернет-маршруты",
+      "tr": "Bilgi kartı: 20 Kasım 2026'daki tek bir olayda saniyede 1,9 eksahasha kadar madencilik gücü saptırıldı; o sırada aynı anda 1.050 ile 1.600 madencilik sahası sahte internet rotalarıyla taklitçi bir havuza yönlendirildi",
+      "id": "Kartu fakta: hingga 1,9 exahash per detik daya penambangan dialihkan dalam satu episode pada 20 November 2026, ketika 1.050 sampai 1.600 lokasi penambangan sekaligus diarahkan ke pool palsu melalui rute internet palsu",
+      "ja": "ファクトカード：2026年11月20日の1回のエピソードで最大1.9 EH/sの採掘能力が奪われた。偽のインターネット経路により、一度に1,050〜1,600の採掘拠点が偽プールへ誘導された",
+      "ko": "팩트 카드: 2026년 11월 20일 한 번의 공격에서 최대 1.9 EH/s의 채굴 연산력이 탈취됨. 위조된 인터넷 경로로 한 번에 1,050~1,600곳의 채굴장이 가짜 풀로 유도됨"
+    },
+    "caption": {
+      "en": "Source: Braiins security alert, Nov. 25, 2026",
+      "es": "Fuente: Braiins security alert, Nov. 25, 2026",
+      "pt": "Fonte: Braiins security alert, Nov. 25, 2026",
+      "fr": "Source : Braiins security alert, Nov. 25, 2026",
+      "de": "Quelle: Braiins security alert, Nov. 25, 2026",
+      "ru": "Источник: Braiins security alert, Nov. 25, 2026",
+      "tr": "Kaynak: Braiins security alert, Nov. 25, 2026",
+      "id": "Sumber: Braiins security alert, Nov. 25, 2026",
+      "ja": "出典: Braiins security alert, Nov. 25, 2026",
+      "ko": "출처: Braiins security alert, Nov. 25, 2026"
+    }
+  },
+  {
+    "id": "chart",
+    "file": "chart-braiins-largest-episode-phs.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of the largest single hijacking episode per wave, according to Braiins: up to 174 petahashes per second in the Nov. 7 to 12 wave in Latin America versus 1,900 PH/s (1.9 EH/s) in the Nov. 20 wave, mostly in Europe",
+      "es": "Gráfico de barras del mayor episodio de secuestro de cada oleada, según Braiins: hasta 174 petahashes por segundo en la oleada del 7 al 12 de noviembre en Latinoamérica frente a 1.900 PH/s (1,9 EH/s) en la del 20 de noviembre, sobre todo en Europa",
+      "pt": "Gráfico de barras do maior episódio de sequestro em cada onda, segundo a Braiins: até 174 petahashes por segundo na onda de 7 a 12 de novembro na América Latina contra 1.900 PH/s (1,9 EH/s) na onda de 20 de novembro, principalmente na Europa",
+      "fr": "Graphique en barres du plus gros épisode de détournement par vague, selon Braiins : jusqu'à 174 pétahashs par seconde lors de la vague du 7 au 12 novembre en Amérique latine, contre 1 900 PH/s (1,9 EH/s) lors de celle du 20 novembre, surtout en Europe",
+      "de": "Balkendiagramm der größten einzelnen Hijacking-Episode je Welle laut Braiins: bis zu 174 Petahash pro Sekunde in der Welle vom 7. bis 12. November in Lateinamerika gegenüber 1.900 PH/s (1,9 EH/s) in der Welle vom 20. November, vor allem in Europa",
+      "ru": "Столбчатая диаграмма крупнейшего эпизода перехвата в каждой волне, по данным Braiins: до 174 петахешей в секунду в волне 7–12 ноября в Латинской Америке против 1900 PH/s (1,9 EH/s) в волне 20 ноября, в основном в Европе",
+      "tr": "Braiins'e göre her dalgadaki en büyük tekil ele geçirme olayının çubuk grafiği: Latin Amerika'daki 7-12 Kasım dalgasında saniyede 174 petahasha kadar, çoğunlukla Avrupa'daki 20 Kasım dalgasında ise 1.900 PH/s (1,9 EH/s)",
+      "id": "Grafik batang episode pembajakan terbesar di tiap gelombang menurut Braiins: hingga 174 petahash per detik pada gelombang 7 sampai 12 November di Amerika Latin dibanding 1.900 PH/s (1,9 EH/s) pada gelombang 20 November, sebagian besar di Eropa",
+      "ja": "Braiinsによる各波で最大の乗っ取りエピソードの棒グラフ。中南米の11月7〜12日の波では最大174 PH/s、主に欧州の11月20日の波では1,900 PH/s（1.9 EH/s）",
+      "ko": "Braiins 기준 물결별 최대 단일 하이재킹 규모 막대 그래프. 중남미 11월 7~12일 물결은 최대 174 PH/s, 주로 유럽인 11월 20일 물결은 1,900 PH/s(1.9 EH/s)"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Braiins security alert, Nov. 25, 2026",
+      "es": "Gráfico: PlainBTC, datos: Braiins security alert, Nov. 25, 2026",
+      "pt": "Gráfico: PlainBTC, dados: Braiins security alert, Nov. 25, 2026",
+      "fr": "Graphique : PlainBTC, données : Braiins security alert, Nov. 25, 2026",
+      "de": "Chart: PlainBTC, Daten: Braiins security alert, Nov. 25, 2026",
+      "ru": "График: PlainBTC, данные: Braiins security alert, Nov. 25, 2026",
+      "tr": "Grafik: PlainBTC, veri: Braiins security alert, Nov. 25, 2026",
+      "id": "Grafik: PlainBTC, data: Braiins security alert, Nov. 25, 2026",
+      "ja": "チャート: PlainBTC、データ: Braiins security alert, Nov. 25, 2026",
+      "ko": "차트: PlainBTC, 데이터: Braiins security alert, Nov. 25, 2026"
+    }
+  },
+  {
+    "id": "timeline",
+    "file": "timeline-braiins-hijack-waves.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline of the hijacking: Nov. 7 to 12, 19 episodes hit 120 to 400 sites, mostly in Brazil and Argentina; Nov. 16, one episode in Brazil was captured packet by packet; Nov. 20, four episodes hit 1,050 to 1,600 sites, mostly in Europe; Nov. 25, Braiins published its alert, a firmware fix and a free proxy",
+      "es": "Cronología del secuestro: del 7 al 12 de noviembre, 19 episodios afectaron a entre 120 y 400 sitios, sobre todo en Brasil y Argentina; el 16 de noviembre se capturó paquete a paquete un episodio en Brasil; el 20 de noviembre, cuatro episodios afectaron a entre 1.050 y 1.600 sitios, sobre todo en Europa; el 25 de noviembre, Braiins publicó su alerta, una corrección de firmware y un proxy gratuito",
+      "pt": "Linha do tempo do sequestro: de 7 a 12 de novembro, 19 episódios atingiram de 120 a 400 locais, principalmente no Brasil e na Argentina; em 16 de novembro, um episódio no Brasil foi capturado pacote a pacote; em 20 de novembro, quatro episódios atingiram de 1.050 a 1.600 locais, principalmente na Europa; em 25 de novembro, a Braiins publicou o alerta, uma correção de firmware e um proxy gratuito",
+      "fr": "Chronologie du détournement : du 7 au 12 novembre, 19 épisodes ont touché 120 à 400 sites, surtout au Brésil et en Argentine ; le 16 novembre, un épisode au Brésil a été capturé paquet par paquet ; le 20 novembre, quatre épisodes ont touché 1 050 à 1 600 sites, surtout en Europe ; le 25 novembre, Braiins a publié son alerte, un correctif de firmware et un proxy gratuit",
+      "de": "Zeitleiste des Hijackings: 7. bis 12. November, 19 Episoden mit 120 bis 400 Standorten, vor allem in Brasilien und Argentinien; 16. November, eine Episode in Brasilien Paket für Paket mitgeschnitten; 20. November, vier Episoden mit 1.050 bis 1.600 Standorten, vor allem in Europa; 25. November, Braiins veröffentlicht Warnung, Firmware-Fix und kostenlosen Proxy",
+      "ru": "Хронология перехвата: 7–12 ноября 19 эпизодов затронули от 120 до 400 площадок, в основном в Бразилии и Аргентине; 16 ноября один эпизод в Бразилии записан пакет за пакетом; 20 ноября четыре эпизода затронули от 1050 до 1600 площадок, в основном в Европе; 25 ноября Braiins опубликовала предупреждение, исправление прошивки и бесплатный прокси",
+      "tr": "Ele geçirme zaman çizelgesi: 7-12 Kasım'da 19 olay, çoğu Brezilya ve Arjantin'de 120 ile 400 sahayı etkiledi; 16 Kasım'da Brezilya'daki bir olay paket paket kaydedildi; 20 Kasım'da dört olay, çoğu Avrupa'da 1.050 ile 1.600 sahayı etkiledi; 25 Kasım'da Braiins uyarısını, yazılım düzeltmesini ve ücretsiz bir proxy'yi yayımladı",
+      "id": "Linimasa pembajakan: 7 sampai 12 November, 19 episode mengenai 120 sampai 400 lokasi, sebagian besar di Brasil dan Argentina; 16 November, satu episode di Brasil terekam paket demi paket; 20 November, empat episode mengenai 1.050 sampai 1.600 lokasi, sebagian besar di Eropa; 25 November, Braiins merilis peringatan, perbaikan firmware, dan proxy gratis",
+      "ja": "乗っ取りの経緯：11月7〜12日、主にブラジルとアルゼンチンで19件、各120〜400拠点。11月16日、ブラジルの1件をパケット単位で記録。11月20日、主に欧州で4件、各1,050〜1,600拠点。11月25日、Braiinsが警告、ファームウェア修正、無料プロキシを公開",
+      "ko": "하이재킹 경과: 11월 7~12일 주로 브라질·아르헨티나에서 19건, 건당 120~400곳. 11월 16일 브라질 1건을 패킷 단위로 포착. 11월 20일 주로 유럽에서 4건, 건당 1,050~1,600곳. 11월 25일 Braiins가 경고, 펌웨어 수정, 무료 프록시 공개"
+    },
+    "caption": {
+      "en": "Source: Braiins security alert, Nov. 25, 2026",
+      "es": "Fuente: Braiins security alert, Nov. 25, 2026",
+      "pt": "Fonte: Braiins security alert, Nov. 25, 2026",
+      "fr": "Source : Braiins security alert, Nov. 25, 2026",
+      "de": "Quelle: Braiins security alert, Nov. 25, 2026",
+      "ru": "Источник: Braiins security alert, Nov. 25, 2026",
+      "tr": "Kaynak: Braiins security alert, Nov. 25, 2026",
+      "id": "Sumber: Braiins security alert, Nov. 25, 2026",
+      "ja": "出典: Braiins security alert, Nov. 25, 2026",
+      "ko": "출처: Braiins security alert, Nov. 25, 2026"
+    }
+  }
+]

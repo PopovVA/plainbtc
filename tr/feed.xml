@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:35:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ABD hükümetinin bitcoinlerini 20 yıl kilitleyecek tasarı Temsilciler Meclisi genel kuruluna ulaştı, ama zaman dar</title>
+      <link>https://plainbtc.com/tr/articles/house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026</guid>
+      <pubDate>Thu, 26 Nov 2026 19:10:00 GMT</pubDate>
+      <category>Düzenleme</category>
+      <description>ABD Stratejik Bitcoin Rezervi'ni kalıcı yasa hâline getirecek ve rezervdeki coinlerin en az 20 yıl satılmasını yasaklayacak tasarı artık Temsilciler Meclisi'nde oylanabilir. Tarih belirlenmedi, Kongre 3 Ocak'ta sona eriyor ve Polymarket bu yıl bir rezerv yasası çıkma ihtimalini yaklaşık %4 görüyor.</description>
+    </item>
+    <item>
+      <title>Sahte internet rotaları 1.000'den fazla bitcoin madencilik sahasını bir saldırgan için çalıştırdı, diyor Braiins</title>
+      <link>https://plainbtc.com/tr/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026</guid>
+      <pubDate>Thu, 26 Nov 2026 19:10:00 GMT</pubDate>
+      <category>Güvenlik</category>
+      <description>Braiins'e göre bir saldırgan, eski ve şifrelenmemiş Stratum V1 protokolünü kullanan bitcoin madencilerini sahte bir havuza göndermek için internet rotalarını ele geçirdi. 20 Kasım'da aynı anda 1.000'den fazla saha saptırıldı ve 1,9 EH/s'ye varan madencilik gücü kayboldu. Braiins Stratum V2'ye geçişi öneriyor.</description>
+    </item>
     <item>
       <title>Bitcoin Şükran Günü'nde yeniden 60.000 doların üzerine çıktı, spot bitcoin ETF'leri üst üste yedinci gün çıkış yaşadı</title>
       <link>https://plainbtc.com/tr/articles/bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026</link>

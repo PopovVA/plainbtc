@@ -1,0 +1,64 @@
+title: Le texte qui bloquerait les bitcoins de l'État américain pendant 20 ans arrive devant la Chambre, mais le temps presse
+page_title: La proposition de Réserve stratégique de bitcoins inscrite au calendrier de la Chambre
+description: H.R. 8957, qui inscrirait dans la loi la Réserve stratégique de bitcoins des États-Unis et interdirait de vendre ses bitcoins pendant au moins 20 ans, a été inscrit au calendrier de la Chambre le 24 novembre 2026. Aucun vote n'est prévu et le Congrès s'achève le 3 janvier.
+og_description: Une commission de la Chambre a formellement transmis l'American Reserve Modernization Act à l'assemblée plénière le 24 novembre. Le texte bloquerait les bitcoins fédéraux pendant au moins 20 ans, mais il lui faut encore un vote de la Chambre, le Sénat et une signature avant le 3 janvier.
+label: Réglementation
+summary: Une proposition de loi qui rendrait permanente la Réserve stratégique de bitcoins des États-Unis et interdirait de vendre ses pièces pendant au moins 20 ans peut désormais être votée à la Chambre. Aucune date n'est fixée, le Congrès s'achève le 3 janvier et Polymarket donne environ 4 % de chances à une loi sur la réserve cette année.
+===
+
+Une proposition de loi qui ferait de la réserve de bitcoins de l'État américain une loi permanente a franchi sa dernière étape en commission. Le mardi 24 novembre, la commission des services financiers de la Chambre des représentants a formellement remis son rapport sur H.R. 8957, l'<strong>American Reserve Modernization Act of 2026</strong>, et le texte a été inscrit au Union Calendar de la Chambre sous le numéro 789, selon [Congress.gov](L1). Il peut donc être soumis au vote de l'ensemble de la Chambre.
+
+Aucun vote n'a été programmé, et le calendrier est serré. Le Congrès actuel s'achève le 3 janvier 2027, ce qui laisse environ cinq semaines, en grande partie pendant les fêtes, pour que le texte soit adopté par la Chambre, puis par le Sénat, et signé par le président.
+
+!takeaways
+- H.R. 8957 a été transmis à la Chambre plénière le 24 novembre 2026 et inscrit au Union Calendar sous le numéro 789. Aucune date de vote n'est fixée.
+- Il créerait par la loi une Réserve stratégique de bitcoins au Trésor et interdirait de vendre, d'échanger ou de gager ses bitcoins pendant au moins 20 ans.
+- La commission l'a adopté par 28 voix contre 21 le 16 septembre, selon une ligne partisane.
+- Le Congrès actuel s'achève le 3 janvier 2027. Polymarket affichait environ 4 % de chances d'une loi américaine sur une réserve de bitcoins cette année.
+- Si le texte échoue, la réserve créée par le décret du président Trump de mars 2025 demeure, mais un futur président pourrait la modifier.
+
+!figure:fact
+
+## Ce que prévoit le texte
+
+Le représentant Nick Begich, républicain de l'Alaska, a déposé le texte le 21 mai avec le représentant Jared Golden, démocrate du Maine. Il charge le secrétaire au Trésor de créer une Réserve stratégique de bitcoins, ainsi qu'un stock distinct pour les autres cryptomonnaies, dans les 180 jours suivant son entrée en vigueur.
+
+La règle centrale est un long blocage. Les bitcoins placés dans la réserve ne pourraient être « vendus, échangés, mis aux enchères, grevés ou cédés de quelque autre manière que ce soit » pendant au moins 20 ans, selon le texte cité par [The Block](L2) et [CoinDesk](L3). Ensuite, la version de la commission permettrait au Trésor de proposer des ventes plafonnées à 10 % de la réserve par période de deux ans, a rapporté [Unchained](L4).
+
+Le texte ajoute aussi des règles de transparence. Les agences fédérales auraient 60 jours pour déclarer les bitcoins et autres cryptomonnaies qu'elles détiennent, et ces pièces seraient transférées sous la garde du Trésor. Un auditeur indépendant vérifierait des rapports annuels de preuve de réserves sur le contenu de la réserve.
+
+## Comment on en est arrivé là
+
+La commission a adopté une version réécrite du texte le 16 septembre par 28 voix contre 21. Tous les républicains ont voté pour et tous les démocrates contre. Le rapport formel de la commission a suivi environ dix semaines plus tard, le 24 novembre.
+
+Le texte s'appuie sur le décret du président Donald Trump du 6 mars 2025, qui a créé la Réserve stratégique de bitcoins. Cette réserve est alimentée principalement par des bitcoins que l'État possède déjà à la suite de confiscations pénales et civiles. Les adresses liées au gouvernement américain détenaient environ 306 795 BTC, d'une valeur de plus de 18,7 milliards de dollars, selon des données d'Arkham citées par CoinDesk.
+
+!figure:timeline
+
+!mid_cta
+
+## Pourquoi les chances semblent minces
+
+Pour devenir loi, le texte doit encore franchir trois étapes : un vote en séance plénière à la Chambre, l'approbation du Sénat et la signature du président. Avec seulement quelques semaines de session restantes, peu d'observateurs s'attendent à ce que cela arrive. Sur le marché de prédictions Polymarket, les parieurs donnaient environ 4 % de chances que les États-Unis créent une réserve nationale de bitcoins d'ici la fin de l'année, contre environ 60 % il y a un an et 34 % en mai, a rapporté The Block.
+
+Si le texte n'est pas adopté avant le 3 janvier, il devra être redéposé lors du prochain Congrès. Les démocrates ont remporté le contrôle de la Chambre et du Sénat lors des élections de mi-mandat ce mois-ci et prennent les commandes en janvier, ce qui pourrait compliquer une seconde tentative. La réserve issue du décret resterait en place dans tous les cas, mais sans loi derrière elle, un futur président pourrait la modifier ou y mettre fin.
+
+!figure:chart
+
+## Ce que cela signifie pour les débutants
+
+Une réserve publique ne change pas le fonctionnement du bitcoin et ne fixe pas de prix plancher. Un blocage de 20 ans signifie surtout que les pièces de l'État ne seraient pas vendues sur le marché pendant longtemps, ce que certains investisseurs voient comme un léger facteur de soutien. Le texte n'obligerait pas l'État à acheter davantage de bitcoins ; il demande seulement une étude sur des moyens d'en ajouter sans alourdir la dette nationale.
+
+Le bitcoin s'échangeait autour de 60 000 dollars jeudi, environ la moitié de son record, il reste donc un actif volatil quoi que fasse le Congrès. Si vous décidez d'en acheter, une plateforme réglementée aux États-Unis comme [Coinbase](REF) permet de commencer avec une petite somme. N'investissez que ce que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil financier.
+
+## À surveiller
+
+- Si les dirigeants de la Chambre programment un vote sur H.R. 8957 avant la fin de la session.
+- Si le Sénat se saisit du texte au cas où la Chambre l'adopterait.
+- Les probabilités sur Polymarket et les déclarations des nouvelles majorités démocrates sur la politique crypto en 2027.
+
+!soft: Vous découvrez le volet politique des cryptos ? Lisez [ce que les résultats des élections de mi-mandat changent pour la réglementation crypto](/articles/us-midterms-crypto-regulation-etf-outflows)
+
+!end_cta
+
+!disclosure

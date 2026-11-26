@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/de/</link>
     <description>Bitcoin- und Krypto-News in einfacher Sprache für Einsteiger</description>
     <language>de</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:35:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/de/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Gesetz, das US-Staatsbitcoin 20 Jahre lang sperren würde, erreicht das Plenum des Repräsentantenhauses, doch die Zeit wird knapp</title>
+      <link>https://plainbtc.com/de/articles/house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026</guid>
+      <pubDate>Thu, 26 Nov 2026 19:10:00 GMT</pubDate>
+      <category>Regulierung</category>
+      <description>Ein Gesetzentwurf, der die strategische Bitcoin-Reserve der USA dauerhaft festschreiben und den Verkauf ihrer Coins für mindestens 20 Jahre verbieten würde, kann jetzt im Repräsentantenhaus abgestimmt werden. Ein Termin fehlt, der Kongress endet am 3. Januar, und Polymarket sieht die Chance auf ein Reservegesetz in diesem Jahr bei etwa 4 %.</description>
+    </item>
+    <item>
+      <title>Gefälschte Internetrouten brachten über 1.000 Bitcoin-Mining-Standorte dazu, für einen Angreifer zu arbeiten, sagt Braiins</title>
+      <link>https://plainbtc.com/de/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/de/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026</guid>
+      <pubDate>Thu, 26 Nov 2026 19:10:00 GMT</pubDate>
+      <category>Sicherheit</category>
+      <description>Laut Braiins hat ein Angreifer Internetrouten gekapert, um Bitcoin-Miner mit dem alten, unverschlüsselten Protokoll Stratum V1 zu einem falschen Pool zu schicken. Am 20. November wurden jeweils über 1.000 Standorte umgeleitet, mit bis zu 1,9 EH/s Mining-Leistung. Braiins empfiehlt den Umstieg auf Stratum V2.</description>
+    </item>
     <item>
       <title>Bitcoin steigt an Thanksgiving wieder über 60.000 Dollar, Spot-Bitcoin-ETFs verzeichnen den siebten Abflusstag in Folge</title>
       <link>https://plainbtc.com/de/articles/bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026</link>

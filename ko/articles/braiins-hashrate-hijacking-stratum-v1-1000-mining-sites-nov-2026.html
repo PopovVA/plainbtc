@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <!-- i18n:assets -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4efe4">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#080e1d">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{var t=localStorage.getItem('plainbtc-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t)}catch(e){}})()</script>
+  <link rel="stylesheet" href="/assets/styles.d7a61a8be7.css">
+  <link rel="icon" href="/favicon.ico?v=2" sizes="48x48">
+  <link rel="icon" href="/assets/favicon.svg?v=2" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=2">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- /i18n:assets -->
+  <link rel="alternate" type="application/rss+xml" title="PlainBTC RSS (한국어)" href="/ko/feed.xml">
+  <title>해시레이트 하이재킹, 비트코인 채굴장 1,000곳 이상 피해: Braiins | PlainBTC</title>
+  <meta name="description" content="채굴 풀 운영사 Braiins는 공격자가 위조된 인터넷 경로로 암호화되지 않은 Stratum V1 연결을 쓰는 비트코인 채굴기를 가짜 풀로 유도했다고 밝혔다. 2026년 11월 20일에는 건당 1,050~1,600곳에서 최대 1.9 EH/s가 탈취됐다.">
+  <link rel="canonical" href="https://plainbtc.com/ko/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026">
+  <!-- i18n:hreflang -->
+  <link rel="alternate" hreflang="en" href="https://plainbtc.com/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026">
+  <link rel="alternate" hreflang="es" href="https://plainbtc.com/es/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026">
+  <link rel="alternate" hreflang="pt-BR" href="https://plainbtc.com/pt/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026">
+  <link rel="alternate" hreflang="fr" href="https://plainbtc.com/fr/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026">
+  <link rel="alternate" hreflang="de" href="https://plainbtc.com/de/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026">
+  <link rel="alternate" hreflang="ru" href="https://plainbtc.com/ru/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026">
+  <link rel="alternate" hreflang="tr" href="https://plainbtc.com/tr/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026">
+  <link rel="alternate" hreflang="id" href="https://plainbtc.com/id/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026">
+  <link rel="alternate" hreflang="ja" href="https://plainbtc.com/ja/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026">
+  <link rel="alternate" hreflang="ko" href="https://plainbtc.com/ko/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026">
+  <link rel="alternate" hreflang="x-default" href="https://plainbtc.com/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:locale:alternate" content="id_ID">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <!-- /i18n:hreflang -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="가짜 인터넷 경로에 속아 1,000곳 넘는 비트코인 채굴장이 공격자를 위해 일했다고 Braiins가 밝혀">
+  <meta property="og:description" content="Braiins는 11월 7일부터 20일까지 24건의 하이재킹을 확인했다. 공격자는 풀이나 기계를 해킹하지 않고 인터넷 트래픽을 우회시켜 풀을 사칭했다. Braiins는 채굴자들에게 Stratum V2나 검증된 TLS로 바꾸라고 권고했다.">
+  <meta property="og:url" content="https://plainbtc.com/ko/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026">
+  <meta property="og:site_name" content="PlainBTC">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="article:published_time" content="2026-11-26">
+  <meta property="article:modified_time" content="2026-11-26">
+  <meta property="article:section" content="보안">
+  <meta property="og:image" content="https://plainbtc.com/assets/og/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026-v2.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="가짜 인터넷 경로에 속아 1,000곳 넘는 비트코인 채굴장이 공격자를 위해 일했다고 Braiins가 밝혀">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lean_redfield">
+  <meta name="twitter:image" content="https://plainbtc.com/assets/og/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026-v2.jpg">
+  <meta name="twitter:title" content="가짜 인터넷 경로에 속아 1,000곳 넘는 비트코인 채굴장이 공격자를 위해 일했다고 Braiins가 밝혀">
+  <meta name="twitter:description" content="Braiins는 11월 7일부터 20일까지 24건의 하이재킹을 확인했다. 공격자는 풀이나 기계를 해킹하지 않고 인터넷 트래픽을 우회시켜 풀을 사칭했다. Braiins는 채굴자들에게 Stratum V2나 검증된 TLS로 바꾸라고 권고했다.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "가짜 인터넷 경로에 속아 1,000곳 넘는 비트코인 채굴장이 공격자를 위해 일했다고 Braiins가 밝혀",
+    "name": "해시레이트 하이재킹, 비트코인 채굴장 1,000곳 이상 피해: Braiins | PlainBTC",
+    "description": "채굴 풀 운영사 Braiins는 공격자가 위조된 인터넷 경로로 암호화되지 않은 Stratum V1 연결을 쓰는 비트코인 채굴기를 가짜 풀로 유도했다고 밝혔다. 2026년 11월 20일에는 건당 1,050~1,600곳에서 최대 1.9 EH/s가 탈취됐다.",
+    "datePublished": "2026-11-26T19:10:00+00:00",
+    "dateModified": "2026-11-26T19:10:00+00:00",
+    "author": {
+      "@type": "Organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://plainbtc.com/#organization",
+      "name": "PlainBTC",
+      "url": "https://plainbtc.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://plainbtc.com/assets/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://discord.gg/EcuGXPDr2d",
+        "https://www.facebook.com/groups/1688106109771364",
+        "https://x.com/lean_redfield"
+      ]
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://plainbtc.com/ko/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026"
+    },
+    "url": "https://plainbtc.com/ko/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://plainbtc.com/assets/og/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026-v2.jpg",
+      "width": 1200,
+      "height": 630
+    },
+    "articleSection": "보안",
+    "isAccessibleForFree": true,
+    "inLanguage": "ko"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "홈",
+        "item": "https://plainbtc.com/ko/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "가짜 인터넷 경로에 속아 1,000곳 넘는 비트코인 채굴장이 공격자를 위해 일했다고 Braiins가 밝혀",
+        "item": "https://plainbtc.com/ko/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <header class="site-header">
+    <div class="wrap inner">
+      <a class="logo" href="/ko/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="메뉴">
+      <label class="nav-burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
+      <nav class="nav" aria-label="Primary">
+        <a href="/ko/#articles">기사</a>
+        <a href="/ko/#guides">가이드</a>
+        <a href="/ko/about">소개</a>
+        <a href="/ko/disclosure">공시</a>
+      </nav>
+      <div class="header-tools">
+      <!-- i18n:langmenu -->
+      <details class="lang-menu"><summary aria-label="언어"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.800 3.9 9s-1.300 6.200-3.900 9c-2.600-2.800-3.900-5.800-3.900-9s1.300-6.200 3.900-9z"/></svg><span class="lang-name">한국어</span><span class="lang-code" aria-hidden="true">KO</span></summary><ul><li><a href="/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="en" hreflang="en">English</a></li><li><a href="/es/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="es" hreflang="es">Español</a></li><li><a href="/pt/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a></li><li><a href="/fr/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="fr" hreflang="fr">Français</a></li><li><a href="/de/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="de" hreflang="de">Deutsch</a></li><li><a href="/ru/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="ru" hreflang="ru">Русский</a></li><li><a href="/tr/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="/id/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="/ja/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="ja" hreflang="ja">日本語</a></li><li><a href="/ko/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="ko" hreflang="ko" aria-current="true">한국어</a></li></ul></details>
+      <!-- /i18n:langmenu -->
+        <button class="theme-toggle" type="button" aria-label="라이트/다크 테마 전환" title="라이트/다크 테마 전환" hidden><svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.500M12 19.500V22M2 12h2.500M19.500 12H22M4.900 4.900l1.800 1.800M17.300 17.300l1.800 1.800M4.900 19.100l1.800-1.800M17.300 6.700l1.800-1.800"/></svg><svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4a8.500 8.500 0 1 0 10.500 10.500z"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="article-page" id="main" data-toc="이 페이지에서" data-nl="새 글을 이메일로 받아보세요" data-nl-cta="구독하기" data-close="닫기">
+    <article class="content">
+      <!-- i18n:arthead -->
+      <header class="article-head">
+        <!-- i18n:crumbs -->
+        <nav class="crumbs" aria-label="탐색 경로"><a href="/ko/">PlainBTC</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/ko/#articles">기사</a></nav>
+        <!-- /i18n:crumbs -->
+        <div class="badge">보안</div>
+        <h1>가짜 인터넷 경로에 속아 1,000곳 넘는 비트코인 채굴장이 공격자를 위해 일했다고 Braiins가 밝혀</h1>
+        <div class="meta">게시일 <time datetime="2026-11-26">2026년 11월 26일</time> · PlainBTC · 미국<span class="meta-read"> · 약 5분 소요</span></div>
+        <div class="share" role="group" aria-label="공유">
+          <span class="share-label">공유</span>
+          <a class="share-btn" href="https://x.com/intent/post?url=https%3A%2F%2Fplainbtc.com%2Fko%2Farticles%2Fbraiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026%3Futm_source%3Dx%26utm_medium%3Dsocial&amp;text=%EA%B0%80%EC%A7%9C%20%EC%9D%B8%ED%84%B0%EB%84%B7%20%EA%B2%BD%EB%A1%9C%EC%97%90%20%EC%86%8D%EC%95%84%201%2C000%EA%B3%B3%20%EB%84%98%EB%8A%94%20%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%20%EC%B1%84%EA%B5%B4%EC%9E%A5%EC%9D%B4%20%EA%B3%B5%EA%B2%A9%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%B4%20%EC%9D%BC%ED%96%88%EB%8B%A4%EA%B3%A0%20Braiins%EA%B0%80%20%EB%B0%9D%ED%98%80" target="_blank" rel="noopener nofollow" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplainbtc.com%2Fko%2Farticles%2Fbraiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026%3Futm_source%3Dfacebook%26utm_medium%3Dsocial" target="_blank" rel="noopener nofollow" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+          <button class="share-btn share-copy" type="button" data-url="https://plainbtc.com/ko/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" data-copied="링크를 복사했습니다" aria-label="링크 복사" title="링크 복사" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4.500 4.500 0 0 0 6.400 0l3-3a4.500 4.500 0 0 0-6.400-6.400l-1.200 1.200"/><path d="M14 10a4.500 4.500 0 0 0-6.400 0l-3 3a4.500 4.500 0 0 0 6.400 6.400l1.200-1.200"/></svg></button>
+          <span class="share-status" role="status" aria-live="polite"></span>
+        </div>
+      </header>
+      <img class="og-hero" src="/assets/og/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026-v2.jpg" width="1200" height="630" alt="가짜 인터넷 경로에 속아 1,000곳 넘는 비트코인 채굴장이 공격자를 위해 일했다고 Braiins가 밝혀" loading="eager" fetchpriority="high" decoding="async">
+      <!-- /i18n:arthead -->
+
+      <p>누군가 기계 한 대, 채굴 풀 하나 뚫지 않고 비트코인 채굴자들의 작업을 훔치고 있다. 채굴 기업 Braiins는 11월 25일(수) 발표한 <a href="https://braiins.com/blog/bitcoin-hashrate-hijacking-unencrypted-stratum-v1" target="_blank" rel="noopener">보안 경고</a>에서 공격자가 채굴기와 풀 사이의 인터넷 트래픽을 우회시키고 풀을 사칭해 채굴자들이 한 작업의 보상을 가져갔다고 밝혔다.</p>
+      <p>가장 큰 공격은 11월 20일에 일어났다. 1,000곳이 넘는 채굴장이 같은 1초 안에 풀 연결이 끊긴 뒤 조용히 가짜 서버로 연결됐다. Braiins는 자사 풀도, 채굴자들의 장비도 침해되지 않았다고 했다. 약점은 그 사이의 연결이다.</p>
+
+      <div class="takeaways">
+        <h2>핵심 요약</h2>
+        <ul>
+          <li>Braiins는 2026년 11월 7일부터 20일까지 24건의 하이재킹을 확인했다. 처음엔 중남미, 이후엔 주로 유럽이었다.</li>
+          <li>11월 20일에는 4건이 각각 1,050~1,600곳의 채굴장에 영향을 줬고 6~49분 동안 최대 1.9 EH/s를 빼돌렸다.</li>
+          <li>공격자는 위조된 인터넷 경로(BGP)와, 상대가 진짜 풀인지 확인할 수 없는 암호화되지 않은 Stratum V1 프로토콜을 이용했다.</li>
+          <li>Braiins에 따르면 풀 계정, 잔액, 지급 설정은 영향을 받지 않았다. 도난당한 보상 규모는 공개되지 않았다.</li>
+          <li>해결책은 Stratum V2, 또는 풀의 인증서를 검증하는 펌웨어에서 TLS로 쓰는 Stratum V1이다.</li>
+        </ul>
+      </div>
+
+      <figure class="article-figure">
+        <img src="/assets/img/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026/fact-braiins-1-9-ehs-hijacked.webp" width="1200" height="630" alt="팩트 카드: 2026년 11월 20일 한 번의 공격에서 최대 1.9 EH/s의 채굴 연산력이 탈취됨. 위조된 인터넷 경로로 한 번에 1,050~1,600곳의 채굴장이 가짜 풀로 유도됨" loading="lazy" decoding="async">
+        <figcaption>출처: Braiins security alert, Nov. 25, 2026</figcaption>
+      </figure>
+
+      <h2>공격 방식</h2>
+      <p>대부분의 비트코인 채굴자는 여러 기계의 연산력을 모아 보상을 나누는 서비스인 채굴 풀에 참여한다. 기계는 Stratum이라는 프로토콜로 풀과 통신한다. 최초 버전인 Stratum V1은 2012년에 나왔고 모든 것을 평문으로 보내기 때문에, 채굴자는 응답하는 서버가 정말 자기 풀인지 확인할 방법이 없다.</p>
+      <p>공격자는 BGP라고 불리는 인터넷 경로 체계의 허점을 이용했다. 네트워크들은 자신이 도달할 수 있는 주소 블록을 알리고, 라우터는 가장 구체적인 알림을 따른다. 11월 20일 누군가가 풀의 네트워크 사업자가 소유한 4,096개 주소의 큰 블록 안에서, 풀 주소가 포함된 256개 주소의 작은 블록을 알렸다. 이 가짜 경로를 받아들인 네트워크들은 채굴자들의 트래픽을 공격자에게 보냈다.</p>
+      <p>가짜 서버는 다른 대형 공개 풀에서 가져온 진짜 채굴 작업을 나눠 주고 결과를 자기 계정으로 제출했다. Braiins는 도난당한 작업이 흘러간 풀은 공격과 무관하다고 했다. 기계는 계속 최고 속도로 돌며 정상 연결을 표시했기 때문에, 손실은 풀 대시보드에서만 보였다.</p>
+
+      <figure class="article-figure">
+        <img src="/assets/img/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026/chart-braiins-largest-episode-phs.webp" width="1200" height="675" alt="Braiins 기준 물결별 최대 단일 하이재킹 규모 막대 그래프. 중남미 11월 7~12일 물결은 최대 174 PH/s, 주로 유럽인 11월 20일 물결은 1,900 PH/s(1.9 EH/s)" loading="lazy" decoding="async">
+        <figcaption>차트: PlainBTC, 데이터: Braiins security alert, Nov. 25, 2026</figcaption>
+      </figure>
+
+      <h2>아직은 작지만 커지는 중</h2>
+      <p>11월 7~12일 첫 번째 물결은 주로 브라질과 아르헨티나에서 한 번에 120~400곳에 영향을 줬고, 한 번에 최대 초당 174페타해시(PH/s)가 빼돌려졌다. 11월 20일에는 가장 큰 공격이 초당 1.9엑사해시(EH/s)에 이르러 약 11배로 커졌다. Braiins는 "간을 보는 시험으로 해석한다"고 썼다.</p>
+      <p>비교하자면 <a href="https://cointelegraph.com/news/braiins-warns-bitcoin-mining-attacks-affecting-1000-sites" target="_blank" rel="noopener">Cointelegraph</a>가 인용한 MineOrNot 데이터 기준으로 11월 20일 비트코인 네트워크 전체 해시레이트는 약 1,016 EH/s였다. 가장 큰 공격은 그 약 0.19%에 해당한다. Braiins에 따르면 그날 저녁 네트워크 사업자가 가짜 경로를 퍼뜨린 네트워크를 차단했지만, 공개 경로 데이터에는 11월 22일까지도 다른 대형 풀의 주소 블록을 노린 비슷한 알림이 보였다.</p>
+      <p>이번 경고는 공격자들이 <a href="/ko/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026">룩소르의 Commander 소프트웨어</a>를 악용해 고객 해시레이트를 OCEAN 풀로 돌린 별도 사건이 있은 지 2주도 안 돼 나왔다.</p>
+
+      <figure class="article-figure">
+        <img src="/assets/img/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026/timeline-braiins-hijack-waves.webp" width="1200" height="630" alt="하이재킹 경과: 11월 7~12일 주로 브라질·아르헨티나에서 19건, 건당 120~400곳. 11월 16일 브라질 1건을 패킷 단위로 포착. 11월 20일 주로 유럽에서 4건, 건당 1,050~1,600곳. 11월 25일 Braiins가 경고, 펌웨어 수정, 무료 프록시 공개" loading="lazy" decoding="async">
+        <figcaption>출처: Braiins security alert, Nov. 25, 2026</figcaption>
+      </figure>
+
+      <h2>채굴자에게 권고된 조치</h2>
+      <p>Braiins는 채굴자들에게 예비 주소를 포함해 기계에 설정된 어떤 풀 주소도 "stratum+tcp://"로 시작하지 않는지 확인하라고 촉구했다. 가장 좋은 해결책은 연결을 암호화하고 채굴기가 풀의 신원을 확인할 수 있게 하는 Stratum V2다. 두 번째 선택지는 TLS로 쓰는 Stratum V1이지만, 풀의 인증서를 실제로 검증하는 펌웨어여야 한다. Braiins의 실험실 테스트에서 널리 쓰이는 펌웨어 두 개가 유효하지 않은 인증서를 받아들였다. Braiins는 11월 25일 인증서를 검증하는 펌웨어 업데이트(Braiins OS 26.11)와, 둘 다 할 수 없는 기계를 위한 무료 프록시도 내놓았다. 11월 23일 점검했을 때 대형 풀 대부분은 여전히 암호화되지 않은 Stratum V1만 제공했다.</p>
+      <h2>초보자에게 주는 의미</h2>
+      <p>거래소나 지갑에 비트코인을 보관하고 있다면 이번 공격은 당신의 코인과 관계가 없다. 공격 대상은 채굴 사업의 수입이지 이용자 잔액이 아니며, 비트코인 자체가 뚫린 것도 아니다. 네트워크 주변에 남아 있는 오래되고 암호화되지 않은 기반 시설이 여전히 악용될 수 있다는 점을 보여 준다.</p>
+      <p>기계를 돌리지 않고 비트코인에 투자하고 싶다면 Coinbase 같은 미국의 규제받는 거래소에서 소액을 사는 편이 간단하다. 비트코인은 변동성이 크니 잃어도 감당할 수 있는 만큼만 투자하자. 이 글은 투자 조언이 아니다.</p>
+      <h2>앞으로 지켜볼 점</h2>
+      <ul>
+        <li>대형 풀들이 Stratum V2나 검증된 TLS 접속 지점을 추가하는지.</li>
+        <li>공격자가 얻은 비트코인 규모에 대한 추정이 나오는지.</li>
+        <li>다른 풀의 주소 블록을 노린 새로운 하이재킹 물결.</li>
+      </ul>
+
+      <p class="soft-guide">자기 보관이 처음이라면 <a href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">암호화폐 지갑이란: 수탁형과 자기 보관형의 차이</a>를 읽어 보세요</p>
+
+      <div class="cta">
+        <h2>초보자를 위한 가이드를 더 보시겠어요?</h2>
+        <p>이 페이지에서 뉴스레터를 구독하거나 아래 PlainBTC 커뮤니티에 참여해 보세요. 관련 기사는 그 아래에 있습니다.</p>
+      </div>
+
+      <div class="disclosure">
+        <strong>투자 조언이 아닙니다.</strong> 이 기사는 정보 제공과 교육만을 목적으로 합니다. 투자, 거래, 법률 또는 세무 조언이 아닙니다. 암호화폐는 변동성이 크며 원금을 잃을 수 있습니다. 직접 조사하시고, 금융 결정을 내리기 전에 필요하면 자격을 갖춘 전문가와 상담하세요.
+      </div>
+
+  <!-- i18n:bmc -->
+      <aside class="bmc-box" aria-label="PlainBTC 후원">
+        <p>도움이 되셨나요? PlainBTC는 유료 장벽과 과장 없이 운영되는 무료 독립 미디어입니다. 응원하고 싶으시다면 커피 한 잔을 사 주세요.</p>
+        <a class="bmc-button" href="https://buymeacoffee.com/LeonRedfield" target="_blank" rel="noopener">☕ 커피 사 주기</a>
+      </aside>
+  <!-- /i18n:bmc -->
+
+
+  <!-- i18n:community -->
+      <aside class="community-box" aria-label="커뮤니티 링크">
+        <h2>커뮤니티에 참여하세요</h2>
+        <p>뉴스, 초보 질문, 설문: Discord·Facebook·X에서 PlainBTC를 팔로우하세요.</p>
+        <div class="community-links"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+      </aside>
+  <!-- /i18n:community -->
+  <!-- i18n:newsletter -->
+      <aside class="newsletter-box" aria-labelledby="nl-title">
+        <h2 id="nl-title">새 글을 이메일로 받아보세요</h2>
+        <p>초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스를 글이 올라올 때마다 이메일로 보내드립니다. 스팸 없이, 언제든 구독 해지할 수 있습니다.</p>
+        <form class="newsletter-form" method="post" action="/api/subscribe" novalidate data-ok="거의 끝났습니다. 받은편지함에서 확인 링크를 눌러 주세요." data-invalid="올바른 이메일 주소를 입력해 주세요." data-rate="시도 횟수가 너무 많습니다. 잠시 후 다시 시도해 주세요." data-error="문제가 발생했습니다. 다시 시도해 주세요." data-sending="전송 중…">
+          <input type="hidden" name="lang" value="ko">
+          <input type="hidden" name="source" value="/ko/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026">
+          <div class="nl-hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <label class="nl-label" for="nl-email">이메일 주소</label>
+          <div class="nl-row"><input id="nl-email" type="email" name="email" required maxlength="254" autocomplete="email" inputmode="email" placeholder="you@example.com">
+          <button type="submit">구독하기</button></div>
+        </form>
+        <p class="nl-status" role="status" aria-live="polite"></p>
+        <p class="nl-note">이메일 주소는 PlainBTC 새 글 알림 발송에만 사용합니다. 확인 절차가 필요합니다. <a href="/ko/disclosure">개인정보 안내</a></p>
+      </aside>
+  <!-- /i18n:newsletter -->
+
+<aside class="related" aria-label="관련 기사">
+        <h2>관련 기사</h2>
+        <ul>
+          <li><a href="/ko/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026">룩소르 "해커가 자사 소프트웨어 커맨더 통해 비트코인 채굴기 탈취"</a></li>
+          <li><a href="/ko/articles/bitcoin-core-node-stall-bug-ai-found-fix-nov-2026">비트코인 코어, AI가 찾은 노드 멈춤 버그 수정… 공개 노드 약 40%는 여전히 영향받는 버전 사용</a></li>
+          <li><a href="/ko/articles/nvidia-290-million-settlement-crypto-mining-lawsuit-nov-2026">Nvidia, 2017~2018년 암호화폐 붐 당시 채굴업자 판매 관련 투자자 소송에 2억9000만 달러 합의</a></li>
+          <li><a href="/ko/articles/coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026">Coldcard 제조사, 사후 분석 보고서 공개... 약한 복구 문구로 약 1,779 BTC 도난, 해킹된 기기는 없어</a></li>
+          <li><a href="/ko/articles/what-is-a-crypto-wallet-custodial-vs-self-custody">암호화폐 지갑이란? 수탁형과 자기 수탁형, 초보자를 위한 설명</a></li>
+        </ul>
+      </aside>
+
+      <section class="sources" aria-label="출처">
+        <h2>출처</h2>
+        <ol>
+          <li><a href="https://braiins.com/blog/bitcoin-hashrate-hijacking-unencrypted-stratum-v1" target="_blank" rel="noopener">Braiins: Security alert, bitcoin hashrate hijacking detected on Stratum V1</a> (2026년 11월 25일)</li>
+          <li><a href="https://cointelegraph.com/news/braiins-warns-bitcoin-mining-attacks-affecting-1000-sites" target="_blank" rel="noopener">Cointelegraph: Braiins warns of Bitcoin mining attacks affecting over 1,000 sites</a> (2026년 11월 25일)</li>
+          <li><a href="https://www.theblock.co/newsletters/the-daily/2026-11-26-fidelity-chainlink-etf-musk-x-ruling-alleged-bitcoin-content-farm-case-more-crypto-news-446755" target="_blank" rel="noopener">The Block: The Daily, bitcoin miners said to be hit by widespread hashrate hijacking attack</a> (2026년 11월 26일)</li>
+        </ol>
+        <p class="sources-note">출처 제목은 원문 언어로 표시됩니다.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20l14-11 13 24 12-30 14 26 11-19 13 15 12-22 13 25 12-17 13 13 12-9 12 8 13-5 12 3h958"/></svg>
+    <div class="wrap inner">
+      <div class="footer-brand">
+        <a class="logo" href="/ko/" aria-label="PlainBTC"><svg class="logo-mark" viewBox="0 0 40 20" aria-hidden="true"><path d="M1 10l2.500-6 3 12 3-10 3 7 2.500-5 2.500 2H39"/></svg><span class="logo-word">Plain<span>BTC</span></span></a>
+        <p>© 2026 PlainBTC · 초보자를 위한 쉬운 말 비트코인·암호화폐 뉴스</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/ko/">홈</a>
+        <a href="/ko/about">소개</a>
+        <a href="/ko/disclosure">공시</a>
+        <a href="/ko/feed.xml">RSS</a>
+      </nav>
+    </div>
+  <!-- i18n:footersocial -->
+  <div class="wrap footer-social" aria-label="커뮤니티 링크"><a class="community-link" href="https://discord.gg/EcuGXPDr2d" target="_blank" rel="noopener" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg><span>Discord</span></a><a class="community-link" href="https://www.facebook.com/groups/1688106109771364" target="_blank" rel="noopener" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.174 2.097 15.943 2 14.643 2 11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg><span>Facebook</span></a><a class="community-link" href="https://x.com/lean_redfield" target="_blank" rel="noopener" title="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.251 5.632 5.913-5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+  <!-- /i18n:footersocial -->
+  <!-- i18n:footerlangs -->
+  <div class="wrap footer-langs"><nav aria-label="Languages"><a href="/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="en" hreflang="en">English</a> <a href="/es/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="es" hreflang="es">Español</a> <a href="/pt/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="pt-BR" hreflang="pt-BR">Português (BR)</a> <a href="/fr/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="fr" hreflang="fr">Français</a> <a href="/de/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="de" hreflang="de">Deutsch</a> <a href="/ru/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="ru" hreflang="ru">Русский</a> <a href="/tr/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="tr" hreflang="tr">Türkçe</a> <a href="/id/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="id" hreflang="id">Bahasa Indonesia</a> <a href="/ja/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="ja" hreflang="ja">日本語</a> <a href="/ko/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026" lang="ko" hreflang="ko">한국어</a></nav></div>
+  <!-- /i18n:footerlangs -->
+    <div class="wrap footer-base"><a class="back-top" href="#top">맨 위로 <span aria-hidden="true">↑</span></a></div>
+  </footer>
+  <script src="/assets/site.a911afff6c.js" defer></script>
+</body>
+</html>

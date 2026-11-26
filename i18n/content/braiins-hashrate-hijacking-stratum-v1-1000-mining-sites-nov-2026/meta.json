@@ -1,0 +1,19 @@
+{
+ "slug": "braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026",
+ "date": "2026-11-26",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026",
+  "bitcoin-core-node-stall-bug-ai-found-fix-nov-2026",
+  "nvidia-290-million-settlement-crypto-mining-lawsuit-nov-2026",
+  "coldcard-postmortem-weak-seeds-bitcoin-thefts-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {"url": "https://braiins.com/blog/bitcoin-hashrate-hijacking-unencrypted-stratum-v1", "title": "Braiins: Security alert, bitcoin hashrate hijacking detected on Stratum V1", "date": "Nov 25, 2026"},
+  {"url": "https://cointelegraph.com/news/braiins-warns-bitcoin-mining-attacks-affecting-1000-sites", "title": "Cointelegraph: Braiins warns of Bitcoin mining attacks affecting over 1,000 sites", "date": "Nov 25, 2026"},
+  {"url": "https://www.theblock.co/newsletters/the-daily/2026-11-26-fidelity-chainlink-etf-musk-x-ruling-alleged-bitcoin-content-farm-case-more-crypto-news-446755", "title": "The Block: The Daily, bitcoin miners said to be hit by widespread hashrate hijacking attack", "date": "Nov 26, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

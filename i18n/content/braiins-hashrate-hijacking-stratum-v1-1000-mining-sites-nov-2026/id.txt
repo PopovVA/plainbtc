@@ -1,0 +1,64 @@
+title: Rute internet palsu menipu lebih dari 1.000 lokasi penambangan bitcoin agar bekerja untuk penyerang, kata Braiins
+page_title: Pembajakan hashrate menghantam lebih dari 1.000 lokasi penambangan bitcoin, kata Braiins
+description: Operator pool penambangan Braiins mengatakan seorang penyerang memakai rute internet palsu untuk mengarahkan penambang bitcoin yang memakai koneksi Stratum V1 tanpa enkripsi ke pool palsu. Pada 20 November 2026, hingga 1,9 EH/s dari 1.050 sampai 1.600 lokasi dialihkan per episode.
+og_description: Braiins menemukan 24 episode pembajakan antara 7 dan 20 November. Penyerang tidak meretas pool atau mesin mana pun: ia membelokkan lalu lintas internet dan menyamar sebagai pool. Braiins meminta penambang beralih ke Stratum V2 atau TLS terverifikasi.
+label: Keamanan
+summary: Braiins mengatakan seorang penyerang membajak rute internet untuk mengirim penambang bitcoin yang memakai protokol lama Stratum V1 tanpa enkripsi ke pool palsu. Pada 20 November, lebih dari 1.000 lokasi sekaligus dialihkan, dengan daya penambangan hingga 1,9 EH/s. Braiins menyarankan beralih ke Stratum V2.
+===
+
+Seseorang telah mencuri hasil kerja penambang bitcoin tanpa membobol satu mesin atau pool penambangan pun. Perusahaan penambangan Braiins mengatakan pada Rabu, 25 November, bahwa seorang penyerang membelokkan lalu lintas internet antara penambang dan pool mereka, menyamar sebagai pool, lalu mengambil imbalan atas kerja para penambang, menurut [peringatan keamanannya](L1).
+
+Episode terbesar terjadi pada 20 November, ketika lebih dari seribu lokasi penambangan kehilangan koneksi ke pool pada detik yang sama dan diam-diam diarahkan ke server palsu. Braiins mengatakan pool miliknya maupun perangkat para penambang tidak dibobol. Titik lemahnya ada pada koneksi di antara keduanya.
+
+!takeaways
+- Braiins menemukan 24 episode pembajakan antara 7 dan 20 November 2026, mula-mula di Amerika Latin lalu sebagian besar di Eropa.
+- Pada 20 November, empat episode masing-masing mengenai 1.050 sampai 1.600 lokasi penambangan dan mengalihkan hingga 1,9 EH/s selama 6 sampai 49 menit.
+- Penyerang memakai rute internet palsu (BGP) dan protokol Stratum V1 tanpa enkripsi, yang tidak bisa memverifikasi identitas pool.
+- Braiins mengatakan akun, saldo, dan pengaturan pembayaran di pool tidak terdampak. Nilai imbalan yang dicuri tidak diungkapkan.
+- Solusinya adalah Stratum V2, atau Stratum V1 lewat TLS pada firmware yang memeriksa sertifikat pool.
+
+!figure:fact
+
+## Cara kerja serangan
+
+Sebagian besar penambang bitcoin bergabung dengan pool penambangan, layanan yang menggabungkan daya komputasi banyak mesin dan membagi imbalannya. Mesin berkomunikasi dengan pool lewat protokol bernama Stratum. Versi aslinya, Stratum V1, berasal dari 2012 dan mengirim semuanya dalam teks biasa, sehingga penambang tidak punya cara untuk memastikan server yang menjawab benar-benar pool miliknya.
+
+Penyerang memanfaatkan celah itu dengan trik pada sistem perutean internet yang dikenal sebagai BGP. Jaringan mengumumkan blok alamat mana yang bisa mereka jangkau, dan router mengikuti pengumuman yang paling spesifik. Pada 20 November, seseorang mengumumkan blok kecil berisi 256 alamat yang mencakup alamat pool, di dalam blok lebih besar berisi 4.096 alamat milik penyedia jaringan pool. Jaringan yang menerima rute palsu itu mengirim lalu lintas para penambang ke penyerang.
+
+Server palsu itu mengirim tugas penambangan asli yang diambil dari pool publik besar lain dan menyerahkan hasilnya atas nama akunnya sendiri. Braiins mengatakan pool tempat hasil kerja curian berakhir bukan bagian dari serangan. Mesin tetap berjalan dengan kecepatan penuh dan melaporkan koneksi yang sehat, sehingga kerugiannya hanya terlihat di dasbor pool.
+
+!figure:chart
+
+!mid_cta
+
+## Masih kecil, tetapi terus membesar
+
+Gelombang pertama, 7 sampai 12 November, mengenai 120 sampai 400 lokasi sekaligus, sebagian besar di Brasil dan Argentina, dengan hingga 174 petahash per detik (PH/s) dialihkan dalam satu episode. Pada 20 November, episode terbesar mencapai 1,9 exahash per detik (EH/s), sekitar sebelas kali lipat. "Kami menafsirkan ini sebagai upaya menjajaki keadaan," tulis Braiins.
+
+Sebagai perbandingan, seluruh jaringan bitcoin berjalan sekitar 1.016 EH/s pada 20 November, menurut data MineOrNot yang dikutip [Cointelegraph](L2). Episode terbesar setara sekitar 0,19% dari total itu. Malam itu juga, penyedia jaringan memblokir jaringan yang menyebarkan rute palsu, kata Braiins, meski data perutean publik masih menunjukkan pengumuman serupa yang menyasar blok alamat pool besar lain hingga 22 November.
+
+Peringatan ini muncul kurang dari dua minggu setelah insiden terpisah ketika penyerang menyalahgunakan [perangkat lunak Commander milik Luxor](/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026) untuk mengalihkan hashrate pelanggan ke pool OCEAN.
+
+!figure:timeline
+
+## Yang diminta dari penambang
+
+Braiins mendesak penambang memastikan tidak ada alamat pool di mesin mereka, termasuk cadangan, yang diawali "stratum+tcp://". Solusi terbaik adalah Stratum V2, yang mengenkripsi koneksi dan memungkinkan penambang memeriksa identitas pool. Pilihan kedua adalah Stratum V1 lewat TLS, tetapi hanya pada firmware yang benar-benar memverifikasi sertifikat pool: dalam uji laboratorium Braiins, dua firmware yang banyak dipakai menerima sertifikat yang tidak valid. Pada 25 November, Braiins juga merilis pembaruan firmware (Braiins OS 26.11) yang memeriksa sertifikat, ditambah proxy gratis untuk mesin yang tidak bisa melakukan keduanya. Saat diperiksa pada 23 November, sebagian besar pool besar masih hanya menawarkan Stratum V1 tanpa enkripsi.
+
+## Artinya bagi pemula
+
+Jika Anda menyimpan bitcoin di bursa atau di dompet, serangan ini tidak menyentuh koin Anda. Sasarannya adalah pendapatan operasi penambangan, bukan saldo pengguna, dan serangan ini tidak membobol bitcoin itu sendiri. Ini pengingat bahwa infrastruktur lama tanpa enkripsi di sekitar jaringan masih bisa disalahgunakan.
+
+Jika Anda ingin memiliki bitcoin tanpa menjalankan mesin, membeli dalam jumlah kecil di bursa teregulasi di AS seperti [Coinbase](REF) adalah cara yang lebih sederhana. Bitcoin bergejolak, jadi investasikan hanya yang sanggup Anda relakan hilang. Ini bukan nasihat keuangan.
+
+## Yang perlu dipantau
+
+- Apakah pool besar menambahkan Stratum V2 atau titik koneksi TLS terverifikasi.
+- Perkiraan apa pun tentang berapa banyak bitcoin yang diperoleh penyerang.
+- Gelombang pembajakan baru yang menyasar blok alamat pool lain.
+
+!soft: Baru mengenal penyimpanan mandiri? Baca [apa itu dompet kripto: kustodian vs. penyimpanan mandiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

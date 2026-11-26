@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Seal_of_the_United_States_House_of_Representatives.svg",
+      "license": "Public domain (U.S. government insignia)",
+      "url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_House_of_Representatives.svg",
+      "credit": "U.S. House of Representatives"
+    },
+    {
+      "file": "H.R. 8957 all actions, Congress.gov",
+      "license": "Facts cited",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8957/all-actions",
+      "credit": "Congress.gov"
+    }
+  ],
+  "note": "Editorial composite; seal for identification only; no endorsement implied. Stepper is a PlainBTC illustration of the bill's status.",
+  "slug": "house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026",
+  "generated": "2026-11-26T19:02Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

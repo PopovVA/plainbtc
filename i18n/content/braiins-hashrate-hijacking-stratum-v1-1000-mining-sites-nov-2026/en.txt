@@ -1,0 +1,64 @@
+title: Fake internet routes tricked over 1,000 bitcoin mining sites into working for an attacker, Braiins says
+page_title: Hashrate hijacking hit 1,000+ bitcoin mining sites, Braiins says
+description: Mining pool operator Braiins says an attacker used forged internet routes to steer bitcoin miners on unencrypted Stratum V1 connections to an impostor pool. On Nov. 20, 2026, up to 1.9 EH/s from 1,050 to 1,600 sites was diverted per episode.
+og_description: Braiins found 24 hijacking episodes between Nov. 7 and Nov. 20. The attacker never hacked a pool or a machine: it rerouted internet traffic and impersonated the pool. Braiins urges miners to switch to Stratum V2 or verified TLS.
+label: Security
+summary: Braiins says an attacker hijacked internet routes to send bitcoin miners on the old, unencrypted Stratum V1 protocol to a fake pool. On Nov. 20, more than 1,000 sites at a time were diverted, with up to 1.9 EH/s of mining power. Braiins urges an upgrade to Stratum V2.
+===
+
+Someone has been stealing the work of bitcoin miners without breaking into a single machine or mining pool. Mining company Braiins said on Wednesday, Nov. 25, that an attacker rerouted internet traffic between miners and their pool, pretended to be the pool, and collected the rewards for the miners' work, according to its [security alert](L1).
+
+The largest episodes came on Nov. 20, when more than a thousand mining sites lost their pool connection in the same second and were quietly pointed at an impostor server. Braiins said its own pool and the miners' equipment were not compromised. The weak spot is the connection between them.
+
+!takeaways
+- Braiins found 24 hijacking episodes between Nov. 7 and Nov. 20, 2026, first in Latin America and then mostly in Europe.
+- On Nov. 20, four episodes each hit 1,050 to 1,600 mining sites, diverting up to 1.9 EH/s for 6 to 49 minutes.
+- The attacker used forged internet routes (BGP) and the unencrypted Stratum V1 protocol, which cannot verify who the pool is.
+- Braiins says pool accounts, balances and payout settings were not affected. The value of stolen rewards was not disclosed.
+- The fix is Stratum V2, or Stratum V1 over TLS on firmware that checks the pool's certificate.
+
+!figure:fact
+
+## How the attack worked
+
+Most bitcoin miners join a mining pool, a service that combines the computing power of many machines and shares the rewards. The machines talk to the pool through a protocol called Stratum. The original version, Stratum V1, dates from 2012 and sends everything in plain text, so a miner has no way to check that the server answering is really its pool.
+
+The attacker exploited that gap with a trick on the internet's routing system, known as BGP. Networks announce which blocks of addresses they can reach, and routers follow the most specific announcement. On Nov. 20, someone announced a small block of 256 addresses that contained the pool's address, inside a larger block of 4,096 addresses owned by the pool's network provider. Networks that accepted the fake route sent the miners' traffic to the attacker.
+
+The fake server sent real mining jobs taken from another large public pool and submitted the results under its own account. Braiins said the pool where the stolen work ended up was not part of the attack. The miners kept running at full speed and reported a healthy connection, so the loss showed up only on their pool dashboard.
+
+!figure:chart
+
+!mid_cta
+
+## Small so far, but growing
+
+The first wave, from Nov. 7 to Nov. 12, hit 120 to 400 sites at a time, mostly in Brazil and Argentina, with up to 174 petahashes per second (PH/s) diverted in one episode. By Nov. 20 the largest episode reached 1.9 exahashes per second (EH/s), about eleven times more. "We interpret this as testing the waters," Braiins wrote.
+
+For scale, the whole bitcoin network ran at about 1,016 EH/s on Nov. 20, according to MineOrNot data cited by [Cointelegraph](L2). The biggest episode was equal to roughly 0.19% of that total. That evening, the network provider blocked the network that had spread the forged route, Braiins said, though public routing data showed similar announcements aimed at address blocks of other large pools as late as Nov. 22.
+
+The warning comes less than two weeks after a separate incident in which attackers abused [Luxor's Commander software](/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026) to redirect customers' hashrate to the OCEAN pool.
+
+!figure:timeline
+
+## What miners are told to do
+
+Braiins urged miners to make sure no pool address on their machines, including backups, starts with "stratum+tcp://". The best fix is Stratum V2, which encrypts the connection and lets the miner check the pool's identity. The second option is Stratum V1 over TLS, but only on firmware that actually verifies the pool's certificate: in Braiins' lab tests, two widely used firmwares accepted invalid certificates. On Nov. 25, Braiins also released a firmware update (Braiins OS 26.11) that checks certificates, plus a free proxy for machines that can do neither. When it checked on Nov. 23, most large pools still offered only plain Stratum V1.
+
+## What it means for beginners
+
+If you hold bitcoin on an exchange or in a wallet, this attack does not touch your coins. It targets the income of mining operations, not users' balances, and it does not break bitcoin itself. It is a reminder that old, unencrypted plumbing around the network can still be abused.
+
+If you want exposure to bitcoin without running machines, buying a small amount on a regulated U.S. exchange such as [Coinbase](REF) is the simpler route. Bitcoin is volatile, so only invest what you can afford to lose. This is not financial advice.
+
+## What to watch next
+
+- Whether major pools add Stratum V2 or verified TLS endpoints.
+- Any estimate of how much bitcoin the attacker earned.
+- New hijacking waves aimed at other pools' address blocks.
+
+!soft: New to self-custody? Read [what a crypto wallet is: custodial vs. self-custody](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

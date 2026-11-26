@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/id/</link>
     <description>Berita Bitcoin dan kripto dengan bahasa sederhana untuk pemula</description>
     <language>id</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:35:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/id/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RUU yang mengunci bitcoin pemerintah AS selama 20 tahun sampai ke sidang pleno DPR, tetapi waktunya sempit</title>
+      <link>https://plainbtc.com/id/articles/house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026</guid>
+      <pubDate>Thu, 26 Nov 2026 19:10:00 GMT</pubDate>
+      <category>Regulasi</category>
+      <description>RUU yang akan menjadikan Cadangan Bitcoin Strategis AS undang-undang permanen dan melarang penjualan koinnya setidaknya 20 tahun kini bisa dipungut suara di DPR. Belum ada tanggal, masa Kongres berakhir 3 Januari, dan Polymarket memberi peluang sekitar 4% untuk undang-undang cadangan tahun ini.</description>
+    </item>
+    <item>
+      <title>Rute internet palsu menipu lebih dari 1.000 lokasi penambangan bitcoin agar bekerja untuk penyerang, kata Braiins</title>
+      <link>https://plainbtc.com/id/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/id/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026</guid>
+      <pubDate>Thu, 26 Nov 2026 19:10:00 GMT</pubDate>
+      <category>Keamanan</category>
+      <description>Braiins mengatakan seorang penyerang membajak rute internet untuk mengirim penambang bitcoin yang memakai protokol lama Stratum V1 tanpa enkripsi ke pool palsu. Pada 20 November, lebih dari 1.000 lokasi sekaligus dialihkan, dengan daya penambangan hingga 1,9 EH/s. Braiins menyarankan beralih ke Stratum V2.</description>
+    </item>
     <item>
       <title>Bitcoin kembali di atas US$60.000 saat Thanksgiving, ETF bitcoin spot mencatat arus keluar tujuh hari berturut-turut</title>
       <link>https://plainbtc.com/id/articles/bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026</link>

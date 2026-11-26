@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ru/</link>
     <description>Новости о биткоине и криптовалютах простым языком для новичков</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:35:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ru/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Законопроект о блокировке государственных биткоинов США на 20 лет дошёл до Палаты представителей, но времени мало</title>
+      <link>https://plainbtc.com/ru/articles/house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026</guid>
+      <pubDate>Thu, 26 Nov 2026 19:10:00 GMT</pubDate>
+      <category>Регулирование</category>
+      <description>Законопроект, который сделал бы Стратегический биткоин-резерв США постоянным законом и запретил продавать его монеты как минимум 20 лет, теперь можно выносить на голосование в Палате представителей. Дата не назначена, Конгресс завершает работу 3 января, а Polymarket оценивает шансы на закон о резерве в этом году примерно в 4%.</description>
+    </item>
+    <item>
+      <title>Поддельные интернет-маршруты заставили более 1000 биткоин-майнинговых площадок работать на злоумышленника, сообщает Braiins</title>
+      <link>https://plainbtc.com/ru/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ru/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026</guid>
+      <pubDate>Thu, 26 Nov 2026 19:10:00 GMT</pubDate>
+      <category>Безопасность</category>
+      <description>По данным Braiins, злоумышленник перехватывал интернет-маршруты, чтобы направлять в фальшивый пул биткоин-майнеры, работающие по старому незашифрованному протоколу Stratum V1. 20 ноября одновременно перенаправлялись более 1000 площадок, до 1,9 EH/s майнинговой мощности. Braiins советует перейти на Stratum V2.</description>
+    </item>
     <item>
       <title>Биткоин в День благодарения вернулся выше $60 000, а спотовые биткоин-ETF седьмой день подряд фиксируют отток</title>
       <link>https://plainbtc.com/ru/articles/bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026</link>

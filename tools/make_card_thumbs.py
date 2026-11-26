@@ -2918,7 +2918,95 @@ def thumb_flnk_filing():
     ], "note": "Editorial composite; logo for identification only; no endorsement by Chainlink or Fidelity implied. S-1 drawing is a PlainBTC illustration, not a copy of the filing."}
 
 
+def thumb_sbr_bill_house():
+    """Capitol-style board: official seal of the U.S. House of Representatives (public domain, Wikimedia Commons)
+    on a cream tile, a drawn legislative-path stepper for H.R. 8957 (Congress.gov actions, Nov. 24, 2026) and the
+    20-year lock from the bill text. No price data."""
+    seal = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/1/1a/Seal_of_the_United_States_House_of_Representatives.svg", CACHE/"us-house-seal.svg")).convert("RGBA")
+    base = gradient_bg(top=(18, 32, 74), bottom=(9, 16, 40))
+    d = Draw(base)
+    # faint stripes (flag-like) on the right
+    for i in range(7):
+        y = 20 + i * 22
+        d.rectangle([380, y, 640, y + 10], fill=(24, 40, 88))
+    # seal tile
+    d.ellipse([28, 40, 208, 220], fill=(246, 241, 228))
+    paste_contain(base, seal, (34, 46, 168, 168), pad=4)
+    d = Draw(base)
+    d.text((236, 52), "H.R. 8957", font=font(FONT_B, 34), fill=WHITE)
+    d.text((238, 98), "Strategic Bitcoin Reserve bill", font=font(FONT_R, 16), fill=(203, 213, 225))
+    d.rounded_rectangle([236, 132, 470, 196], radius=12, fill=(178, 34, 52))
+    d.text((252, 140), "20-year lock", font=font(FONT_B, 26), fill=WHITE)
+    d.text((253, 174), "no sales of reserve bitcoin", font=font(FONT_R, 12), fill=(255, 226, 230))
+    # legislative path stepper
+    steps = [("Introduced", "done"), ("Committee", "done"), ("House vote", "next"), ("Senate", "todo"), ("President", "todo")]
+    x0, x1, y = 60, 580, 268
+    d.line([(x0, y), (x1, y)], fill=(71, 85, 105), width=4)
+    d.line([(x0, y), (x0 + (x1 - x0) * 0.5, y)], fill=ORANGE, width=4)
+    for i, (lab, st) in enumerate(steps):
+        cx = x0 + (x1 - x0) * i / (len(steps) - 1)
+        if st == "done":
+            d.ellipse([cx - 13, y - 13, cx + 13, y + 13], fill=ORANGE)
+            d.line([(cx - 6, y), (cx - 1, y + 6), (cx + 7, y - 6)], fill=WHITE, width=3)
+        elif st == "next":
+            d.ellipse([cx - 14, y - 14, cx + 14, y + 14], fill=(18, 32, 74), outline=ORANGE, width=3)
+            d.text((cx - 4, y - 10), "?", font=font(FONT_B, 16), fill=ORANGE)
+        else:
+            d.ellipse([cx - 11, y - 11, cx + 11, y + 11], fill=(51, 65, 85))
+        tw = d.textlength(lab, font=font(FONT_B, 13))
+        d.text((cx - tw / 2, y + 20), lab, font=font(FONT_B, 13), fill=WHITE if st != "todo" else (148, 163, 184))
+    d.text((236, 210), "On the House calendar Nov. 24 · Congress ends Jan. 3", font=font(FONT_R, 11), fill=(203, 213, 225))
+    d.text((28, 328), "Seal: U.S. House of Representatives (public domain) · data: Congress.gov", font=font(FONT_R, 9), fill=(148, 163, 184))
+    return base, {"kind": "composite", "sources": [
+        {"file": "Seal_of_the_United_States_House_of_Representatives.svg", "license": "Public domain (U.S. government insignia)", "url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_House_of_Representatives.svg", "credit": "U.S. House of Representatives"},
+        {"file": "H.R. 8957 all actions, Congress.gov", "license": "Facts cited", "url": "https://www.congress.gov/bill/119th-congress/house-bill/8957/all-actions", "credit": "Congress.gov"},
+    ], "note": "Editorial composite; seal for identification only; no endorsement implied. Stepper is a PlainBTC illustration of the bill's status."}
+
+
+def thumb_braiins_hijack():
+    """Braiins-purple board: Braiins wordmark cropped from Braiins' official share image (identification only) and a
+    drawn diagram of the attack (miner -> forged route -> impostor pool, real pool cut off), with figures from the
+    Braiins security alert of Nov. 25, 2026."""
+    src = fetch("https://cdn.prod.website-files.com/5e5ee6f9b325a6509259421f/6a880fa23b9035b28d2b738c_og-image_braiins.jpg", CACHE/"braiins-og.jpg")
+    mark = Image.open(src).convert("RGB").crop((300, 200, 900, 305))
+    base = gradient_bg(top=(30, 16, 70), bottom=(8, 6, 20))
+    d = Draw(base)
+    d.rounded_rectangle([20, 22, 232, 70], radius=10, fill=(10, 8, 24))
+    paste_contain(base, mark, (24, 24, 204, 44), pad=3)
+    d = Draw(base)
+    d.text((252, 30), "Up to 1.9 EH/s", font=font(FONT_B, 30), fill=ORANGE)
+    d.text((254, 70), "hijacked in one episode, Nov. 20", font=font(FONT_R, 14), fill=(221, 214, 254))
+    # diagram
+    def box(x, y, w, h, title, sub, fill, outline, tcol=WHITE):
+        d.rounded_rectangle([x, y, x + w, y + h], radius=10, fill=fill, outline=outline, width=2)
+        tw = d.textlength(title, font=font(FONT_B, 15))
+        d.text((x + w / 2 - tw / 2, y + 12), title, font=font(FONT_B, 15), fill=tcol)
+        sw = d.textlength(sub, font=font(FONT_R, 11))
+        d.text((x + w / 2 - sw / 2, y + 34), sub, font=font(FONT_R, 11), fill=(196, 181, 253))
+    box(28, 150, 150, 60, "1,000+ sites", "miners on Stratum V1", (40, 28, 90), (139, 92, 246))
+    box(452, 112, 160, 60, "Real pool", "connection cut", (24, 24, 40), (100, 116, 139), (148, 163, 184))
+    box(452, 222, 160, 60, "Impostor pool", "takes the rewards", (90, 20, 36), (248, 113, 113))
+    # cut path to real pool (dashed gray with X)
+    for i in range(10):
+        xa = 182 + i * 27
+        d.line([(xa, 168 - i * 2.4), (xa + 14, 168 - (i + 0.5) * 2.4)], fill=(100, 116, 139), width=3)
+    d.line([(300, 128), (322, 150)], fill=(248, 113, 113), width=4); d.line([(322, 128), (300, 150)], fill=(248, 113, 113), width=4)
+    # forged route to impostor
+    d.line([(182, 194), (446, 250)], fill=(248, 113, 113), width=5)
+    d.polygon([(446, 250), (430, 238), (426, 256)], fill=(248, 113, 113))
+    d.rounded_rectangle([238, 230, 384, 256], radius=8, fill=(15, 10, 30), outline=(248, 113, 113), width=1)
+    d.text((248, 236), "forged BGP route", font=font(FONT_B, 12), fill=(254, 202, 202))
+    d.text((28, 300), "Fix: Stratum V2 or TLS that checks the pool's certificate", font=font(FONT_B, 13), fill=(134, 239, 172))
+    d.text((28, 328), "Logo: Braiins · data: Braiins security alert, Nov. 25, 2026", font=font(FONT_R, 9), fill=(167, 139, 250))
+    return base, {"kind": "composite", "sources": [
+        {"file": "og-image_braiins.jpg (wordmark crop)", "license": "Logo", "url": "https://braiins.com/", "credit": "Braiins"},
+        {"file": "Braiins security alert, Nov. 25, 2026", "license": "Facts cited", "url": "https://braiins.com/blog/bitcoin-hashrate-hijacking-unencrypted-stratum-v1", "credit": "Braiins"},
+    ], "note": "Editorial composite; logo for identification only; no endorsement by Braiins implied. Diagram is a PlainBTC illustration."}
+
+
 BUILDERS = {
+    "house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026": thumb_sbr_bill_house,
+    "braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026": thumb_braiins_hijack,
     "bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026": thumb_btc60_thanksgiving,
     "fidelity-files-spot-chainlink-etf-flnk-nov-2026": thumb_flnk_filing,
     "coinbase-wallet-direct-deposit-paycheck-usdc-base-nov-2026": thumb_cbw_direct_deposit,

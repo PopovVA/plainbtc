@@ -1,0 +1,28 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "og-image_braiins.jpg (wordmark crop)",
+      "license": "Logo",
+      "url": "https://braiins.com/",
+      "credit": "Braiins"
+    },
+    {
+      "file": "Braiins security alert, Nov. 25, 2026",
+      "license": "Facts cited",
+      "url": "https://braiins.com/blog/bitcoin-hashrate-hijacking-unencrypted-stratum-v1",
+      "credit": "Braiins"
+    }
+  ],
+  "note": "Editorial composite; logo for identification only; no endorsement by Braiins implied. Diagram is a PlainBTC illustration.",
+  "slug": "braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026",
+  "generated": "2026-11-26T19:02Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

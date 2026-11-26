@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/es/</link>
     <description>Noticias de Bitcoin y criptomonedas en lenguaje sencillo para principiantes</description>
     <language>es</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:35:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>El proyecto para bloquear el bitcoin del Gobierno de EE. UU. durante 20 años llega al pleno de la Cámara, pero queda poco tiempo</title>
+      <link>https://plainbtc.com/es/articles/house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026</guid>
+      <pubDate>Thu, 26 Nov 2026 19:10:00 GMT</pubDate>
+      <category>Regulación</category>
+      <description>Un proyecto que haría ley permanente la Reserva Estratégica de Bitcoin de EE. UU. y prohibiría vender sus monedas durante al menos 20 años ya puede votarse en la Cámara. No hay fecha, el Congreso termina el 3 de enero y Polymarket da cerca de un 4% de probabilidades a una ley de reserva este año.</description>
+    </item>
+    <item>
+      <title>Rutas de internet falsas engañaron a más de 1.000 sitios de minería de bitcoin para trabajar para un atacante, según Braiins</title>
+      <link>https://plainbtc.com/es/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/es/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026</guid>
+      <pubDate>Thu, 26 Nov 2026 19:10:00 GMT</pubDate>
+      <category>Seguridad</category>
+      <description>Braiins dice que un atacante secuestró rutas de internet para enviar a mineros de bitcoin que usan el viejo protocolo Stratum V1, sin cifrar, a un pool falso. El 20 de noviembre se desviaron más de 1.000 sitios a la vez, con hasta 1,9 EH/s de potencia de minería. Braiins recomienda pasar a Stratum V2.</description>
+    </item>
     <item>
       <title>Bitcoin vuelve a superar los 60.000 dólares en Acción de Gracias mientras los ETF de bitcoin al contado suman siete días seguidos de salidas</title>
       <link>https://plainbtc.com/es/articles/bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026</link>

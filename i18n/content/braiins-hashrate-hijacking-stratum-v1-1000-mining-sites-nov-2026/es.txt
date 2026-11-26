@@ -1,0 +1,64 @@
+title: Rutas de internet falsas engañaron a más de 1.000 sitios de minería de bitcoin para trabajar para un atacante, según Braiins
+page_title: El secuestro de hashrate afectó a más de 1.000 sitios de minería de bitcoin, según Braiins
+description: El operador de pools de minería Braiins dice que un atacante usó rutas de internet falsificadas para desviar a mineros de bitcoin con conexiones Stratum V1 sin cifrar hacia un pool impostor. El 20 de noviembre de 2026 se desviaron hasta 1,9 EH/s de entre 1.050 y 1.600 sitios por episodio.
+og_description: Braiins detectó 24 episodios de secuestro entre el 7 y el 20 de noviembre. El atacante no hackeó ningún pool ni ninguna máquina: desvió el tráfico de internet y se hizo pasar por el pool. Braiins pide a los mineros pasar a Stratum V2 o a TLS verificado.
+label: Seguridad
+summary: Braiins dice que un atacante secuestró rutas de internet para enviar a mineros de bitcoin que usan el viejo protocolo Stratum V1, sin cifrar, a un pool falso. El 20 de noviembre se desviaron más de 1.000 sitios a la vez, con hasta 1,9 EH/s de potencia de minería. Braiins recomienda pasar a Stratum V2.
+===
+
+Alguien ha estado robando el trabajo de mineros de bitcoin sin entrar en una sola máquina ni en un solo pool de minería. La empresa de minería Braiins dijo el miércoles 25 de noviembre que un atacante desvió el tráfico de internet entre los mineros y su pool, se hizo pasar por el pool y se quedó con las recompensas del trabajo de los mineros, según su [alerta de seguridad](L1).
+
+Los episodios más grandes llegaron el 20 de noviembre, cuando más de mil sitios de minería perdieron la conexión con su pool en el mismo segundo y fueron redirigidos en silencio a un servidor impostor. Braiins dijo que ni su propio pool ni los equipos de los mineros fueron comprometidos. El punto débil es la conexión entre ambos.
+
+!takeaways
+- Braiins detectó 24 episodios de secuestro entre el 7 y el 20 de noviembre de 2026, primero en Latinoamérica y luego sobre todo en Europa.
+- El 20 de noviembre, cuatro episodios afectaron cada uno a entre 1.050 y 1.600 sitios de minería y desviaron hasta 1,9 EH/s durante 6 a 49 minutos.
+- El atacante usó rutas de internet falsificadas (BGP) y el protocolo Stratum V1 sin cifrar, que no puede verificar quién es el pool.
+- Braiins dice que las cuentas, los saldos y la configuración de pagos de los pools no se vieron afectados. No se ha revelado el valor de las recompensas robadas.
+- La solución es Stratum V2, o Stratum V1 sobre TLS con un firmware que compruebe el certificado del pool.
+
+!figure:fact
+
+## Cómo funcionó el ataque
+
+La mayoría de los mineros de bitcoin se unen a un pool de minería, un servicio que combina la potencia de cálculo de muchas máquinas y reparte las recompensas. Las máquinas se comunican con el pool mediante un protocolo llamado Stratum. La versión original, Stratum V1, es de 2012 y envía todo en texto plano, así que un minero no tiene forma de comprobar que el servidor que responde es de verdad su pool.
+
+El atacante aprovechó ese hueco con un truco sobre el sistema de enrutamiento de internet, conocido como BGP. Las redes anuncian qué bloques de direcciones pueden alcanzar, y los routers siguen el anuncio más específico. El 20 de noviembre, alguien anunció un bloque pequeño de 256 direcciones que contenía la dirección del pool, dentro de un bloque mayor de 4.096 direcciones propiedad del proveedor de red del pool. Las redes que aceptaron la ruta falsa enviaron el tráfico de los mineros al atacante.
+
+El servidor falso enviaba trabajos de minería reales tomados de otro gran pool público y entregaba los resultados con su propia cuenta. Braiins dijo que el pool donde acabó el trabajo robado no formaba parte del ataque. Las máquinas seguían funcionando a plena velocidad e indicaban una conexión sana, así que la pérdida solo se veía en el panel del pool.
+
+!figure:chart
+
+!mid_cta
+
+## Pequeño por ahora, pero creciendo
+
+La primera oleada, del 7 al 12 de noviembre, afectó a entre 120 y 400 sitios a la vez, sobre todo en Brasil y Argentina, con hasta 174 petahashes por segundo (PH/s) desviados en un episodio. El 20 de noviembre, el mayor episodio alcanzó 1,9 exahashes por segundo (EH/s), unas once veces más. "Lo interpretamos como un tanteo del terreno", escribió Braiins.
+
+Como referencia, toda la red de bitcoin funcionaba a unos 1.016 EH/s el 20 de noviembre, según datos de MineOrNot citados por [Cointelegraph](L2). El mayor episodio equivalió a cerca del 0,19% de ese total. Esa misma tarde, el proveedor de red bloqueó la red que había difundido la ruta falsa, dijo Braiins, aunque los datos públicos de enrutamiento mostraban anuncios similares dirigidos a bloques de direcciones de otros grandes pools todavía el 22 de noviembre.
+
+El aviso llega menos de dos semanas después de un incidente distinto en el que unos atacantes abusaron del [software Commander de Luxor](/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026) para desviar el hashrate de sus clientes al pool OCEAN.
+
+!figure:timeline
+
+## Qué se pide a los mineros
+
+Braiins instó a los mineros a comprobar que ninguna dirección de pool en sus máquinas, incluidas las de respaldo, empiece por "stratum+tcp://". La mejor solución es Stratum V2, que cifra la conexión y permite al minero verificar la identidad del pool. La segunda opción es Stratum V1 sobre TLS, pero solo con un firmware que verifique de verdad el certificado del pool: en las pruebas de laboratorio de Braiins, dos firmwares muy usados aceptaron certificados no válidos. El 25 de noviembre, Braiins también publicó una actualización de firmware (Braiins OS 26.11) que comprueba los certificados, además de un proxy gratuito para las máquinas que no pueden hacer ninguna de las dos cosas. Cuando lo revisó el 23 de noviembre, la mayoría de los grandes pools seguía ofreciendo solo Stratum V1 sin cifrar.
+
+## Qué significa para principiantes
+
+Si tienes bitcoin en un exchange o en una billetera, este ataque no toca tus monedas. Apunta a los ingresos de las operaciones de minería, no a los saldos de los usuarios, y no rompe bitcoin en sí. Es un recordatorio de que la infraestructura antigua y sin cifrar alrededor de la red todavía puede explotarse.
+
+Si quieres exposición a bitcoin sin operar máquinas, comprar una pequeña cantidad en un exchange regulado en EE. UU. como [Coinbase](REF) es el camino más sencillo. Bitcoin es volátil, así que invierte solo lo que puedas permitirte perder. Esto no es asesoramiento financiero.
+
+## Qué vigilar ahora
+
+- Si los grandes pools añaden Stratum V2 o puntos de conexión TLS verificados.
+- Cualquier estimación de cuánto bitcoin ganó el atacante.
+- Nuevas oleadas de secuestro contra los bloques de direcciones de otros pools.
+
+!soft: ¿Nuevo en la autocustodia? Lee [qué es una billetera cripto: custodia frente a autocustodia](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

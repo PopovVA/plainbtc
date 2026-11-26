@@ -1,0 +1,64 @@
+title: ABD hükümetinin bitcoinlerini 20 yıl kilitleyecek tasarı Temsilciler Meclisi genel kuruluna ulaştı, ama zaman dar
+page_title: Stratejik Bitcoin Rezervi tasarısı Temsilciler Meclisi takvimine girdi
+description: ABD Stratejik Bitcoin Rezervi'ni yasaya bağlayacak ve rezervdeki bitcoinlerin en az 20 yıl satılmasını yasaklayacak H.R. 8957, 24 Kasım 2026'da Temsilciler Meclisi takvimine alındı. Oylama tarihi yok ve Kongre 3 Ocak'ta sona eriyor.
+og_description: Bir Temsilciler Meclisi komitesi American Reserve Modernization Act'i 24 Kasım'da resmen genel kurula gönderdi. Tasarı federal bitcoinleri en az 20 yıl kilitleyecek, ancak 3 Ocak'tan önce hâlâ Meclis oylaması, Senato ve bir imza gerekiyor.
+label: Düzenleme
+summary: ABD Stratejik Bitcoin Rezervi'ni kalıcı yasa hâline getirecek ve rezervdeki coinlerin en az 20 yıl satılmasını yasaklayacak tasarı artık Temsilciler Meclisi'nde oylanabilir. Tarih belirlenmedi, Kongre 3 Ocak'ta sona eriyor ve Polymarket bu yıl bir rezerv yasası çıkma ihtimalini yaklaşık %4 görüyor.
+===
+
+ABD hükümetinin bitcoin rezervini kalıcı bir yasaya dönüştürecek tasarı, komitedeki son aşamayı da geçti. 24 Kasım Salı günü Temsilciler Meclisi Finansal Hizmetler Komitesi, <strong>American Reserve Modernization Act of 2026</strong> adlı H.R. 8957 hakkındaki raporunu resmen sundu ve tasarı, [Congress.gov](L1) verilerine göre Meclis'in Union Calendar listesine 789 numarayla girdi. Bu, tasarının tüm Meclis tarafından oylanabileceği anlamına geliyor.
+
+Henüz bir oylama planlanmadı ve süre kısıtlı. Mevcut Kongre 3 Ocak 2027'de sona eriyor. Tasarının Temsilciler Meclisi'nden ve Senato'dan geçip başkan tarafından imzalanması için büyük kısmı tatil dönemine denk gelen yaklaşık beş hafta kalıyor.
+
+!takeaways
+- H.R. 8957, 24 Kasım 2026'da Meclis genel kuruluna gönderildi ve Union Calendar'a 789 numarayla alındı. Oylama tarihi yok.
+- Tasarı, Hazine bünyesinde yasayla bir Stratejik Bitcoin Rezervi kuracak ve rezervdeki bitcoinlerin en az 20 yıl satılmasını, takas edilmesini veya rehin verilmesini yasaklayacak.
+- Komite tasarıyı 16 Eylül'de parti çizgisinde 21'e karşı 28 oyla onayladı.
+- Mevcut Kongre 3 Ocak 2027'de sona eriyor. Polymarket, ABD'de bu yıl bir bitcoin rezervi yasası çıkma ihtimalini yaklaşık %4 gösteriyordu.
+- Tasarı düşerse Başkan Trump'ın Mart 2025 tarihli kararnamesiyle kurulan rezerv kalır, ancak gelecekteki bir başkan onu değiştirebilir.
+
+!figure:fact
+
+## Tasarı neler getiriyor
+
+Alaska'dan Cumhuriyetçi Temsilci Nick Begich, tasarıyı 21 Mayıs'ta Maine'den Demokrat Temsilci Jared Golden ile birlikte sundu. Tasarı, Hazine Bakanı'na yasanın yürürlüğe girmesinden itibaren 180 gün içinde bir Stratejik Bitcoin Rezervi ile diğer kripto paralar için ayrı bir stok oluşturma görevi veriyor.
+
+Temel kural uzun bir kilitleme. [The Block](L2) ve [CoinDesk](L3)'in aktardığı tasarı metnine göre rezerve konan bitcoinler en az 20 yıl boyunca "hiçbir amaçla satılamayacak, takas edilemeyecek, açık artırmaya çıkarılamayacak, üzerine yük konulamayacak veya başka bir şekilde elden çıkarılamayacak". [Unchained](L4)'in haberine göre komite versiyonu, bu sürenin ardından Hazine'nin her iki yıllık dönemde rezervin en fazla %10'u ile sınırlı satışlar önermesine izin verecek.
+
+Tasarı şeffaflık kuralları da içeriyor. Federal kurumların ellerindeki bitcoin ve diğer kripto varlıkları bildirmek için 60 günü olacak ve bu coinler Hazine'nin saklamasına geçecek. Bağımsız bir denetçi, rezervin varlıklarına ilişkin yıllık rezerv kanıtı raporlarını kontrol edecek.
+
+## Buraya nasıl gelindi
+
+Komite, tasarının yeniden yazılmış hâlini 16 Eylül'de 21'e karşı 28 oyla onayladı. Tüm Cumhuriyetçiler evet, tüm Demokratlar hayır oyu verdi. Komitenin resmî raporu yaklaşık on hafta sonra, 24 Kasım'da geldi.
+
+Tasarı, Başkan Donald Trump'ın Stratejik Bitcoin Rezervi'ni kuran 6 Mart 2025 tarihli kararnamesine dayanıyor. Bu rezerv ağırlıklı olarak hükümetin cezai ve hukuki el koymalardan zaten sahip olduğu bitcoinlerle besleniyor. CoinDesk'in aktardığı Arkham verilerine göre ABD hükümetiyle bağlantılı adreslerde değeri 18,7 milyar doları aşan yaklaşık 306.795 BTC bulunuyordu.
+
+!figure:timeline
+
+!mid_cta
+
+## İhtimaller neden düşük
+
+Tasarının yasalaşması için hâlâ üç şey gerekiyor: Temsilciler Meclisi genel kurulunda oylama, Senato onayı ve başkanın imzası. Oturumun bitmesine yalnızca birkaç hafta kala bunun gerçekleşmesini bekleyen pek yok. The Block'un haberine göre tahmin piyasası Polymarket'te yatırımcılar, ABD'nin yıl sonuna kadar ulusal bir bitcoin rezervi kurma ihtimalini yaklaşık %4 görüyordu; bu oran bir yıl önce yaklaşık %60, Mayıs'ta ise %34'tü.
+
+Tasarı 3 Ocak'a kadar geçmezse bir sonraki Kongre'de yeniden sunulması gerekecek. Demokratlar bu ayki ara seçimlerde hem Temsilciler Meclisi'nin hem de Senato'nun kontrolünü kazandı ve Ocak'ta göreve başlıyor; bu da ikinci bir denemeyi zorlaştırabilir. Kararnameyle kurulan rezerv her durumda yerinde kalacak, ancak arkasında bir yasa olmadan gelecekteki bir başkan onu değiştirebilir veya kaldırabilir.
+
+!figure:chart
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Bir devlet rezervi bitcoinin işleyişini değiştirmez ve bir taban fiyat belirlemez. 20 yıllık kilit, esas olarak hükümetin kendi coinlerinin uzun süre piyasaya satılmayacağı anlamına gelir; bazı yatırımcılar bunu küçük bir destekleyici etken olarak görüyor. Tasarı hükümeti daha fazla bitcoin almaya zorlamıyor; yalnızca ulusal borcu artırmadan coin eklemenin yollarına dair bir çalışma istiyor.
+
+Bitcoin Perşembe günü 60.000 dolar civarındaydı, yani zirvesinin yaklaşık yarısında; Kongre ne yaparsa yapsın oynak bir varlık olmaya devam ediyor. Almaya karar verirseniz, [Coinbase](REF) gibi ABD'de düzenlenen bir borsa küçük bir tutarla başlamanıza imkân tanır. Yalnızca kaybetmeyi göze alabileceğiniz parayla yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Meclis liderlerinin oturum bitmeden H.R. 8957 için bir oylama planlayıp planlamayacağı.
+- Meclis onaylarsa Senato'nun tasarıyı ele alıp almayacağı.
+- Polymarket oranları ve yeni Demokrat çoğunlukların 2027'deki kripto politikasına dair açıklamaları.
+
+!soft: Kriptonun siyasi tarafına yeni mi giriyorsunuz? [Ara seçim sonuçlarının kripto düzenlemesi için ne anlama geldiğini](/articles/us-midterms-crypto-regulation-etf-outflows) okuyun
+
+!end_cta
+
+!disclosure

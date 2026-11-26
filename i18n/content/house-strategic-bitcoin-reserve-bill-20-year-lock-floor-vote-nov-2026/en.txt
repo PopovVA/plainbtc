@@ -1,0 +1,64 @@
+title: Bill to lock U.S. government bitcoin for 20 years reaches the full House, but time is short
+page_title: Strategic Bitcoin Reserve bill reaches the House floor calendar
+description: H.R. 8957, which would write the U.S. Strategic Bitcoin Reserve into law and bar selling its bitcoin for at least 20 years, was placed on the House calendar on Nov. 24, 2026. No vote is scheduled and Congress ends Jan. 3.
+og_description: A House committee formally sent the American Reserve Modernization Act to the full House on Nov. 24. It would lock federal bitcoin for at least 20 years, but it still needs a House vote, the Senate and a signature before Jan. 3.
+label: Regulation
+summary: A bill that would make the U.S. Strategic Bitcoin Reserve permanent law and ban selling its coins for at least 20 years is now eligible for a House vote. No date is set, Congress ends on Jan. 3, and Polymarket puts the odds of a reserve law this year at about 4%.
+===
+
+A bill that would turn the U.S. government's bitcoin reserve into permanent law has cleared its last committee step. On Tuesday, Nov. 24, the House Financial Services Committee formally reported H.R. 8957, the <strong>American Reserve Modernization Act of 2026</strong>, and the bill was placed on the House Union Calendar as Calendar No. 789, according to [Congress.gov](L1). That makes it eligible for a vote by the full House.
+
+No floor vote has been scheduled, and the clock is tight. The current Congress ends on Jan. 3, 2027, leaving about five weeks, much of it over the holidays, for the bill to pass the House, pass the Senate and be signed by the president.
+
+!takeaways
+- H.R. 8957 was reported to the full House on Nov. 24, 2026 and placed on the Union Calendar as No. 789. No vote date is set.
+- It would create a Strategic Bitcoin Reserve at the Treasury by law and bar selling, swapping or pledging its bitcoin for at least 20 years.
+- The committee approved it 28 to 21 on Sept. 16, along party lines.
+- The current Congress ends Jan. 3, 2027. Polymarket showed about a 4% chance of a U.S. bitcoin reserve law this year.
+- If the bill dies, the reserve created by President Trump's March 2025 executive order stays, but a future president could change it.
+
+!figure:fact
+
+## What the bill would do
+
+Rep. Nick Begich, a Republican from Alaska, introduced the bill on May 21 with Rep. Jared Golden, a Democrat from Maine. It tells the Treasury secretary to set up a Strategic Bitcoin Reserve, plus a separate stockpile for other cryptocurrencies, within 180 days of becoming law.
+
+The core rule is a long lockup. Bitcoin placed in the reserve could not be "sold, swapped, auctioned, encumbered, or otherwise disposed of for any purpose" for at least 20 years, according to the bill text quoted by [The Block](L2) and [CoinDesk](L3). After that period, the committee version would let the Treasury propose sales capped at 10% of the reserve in any two-year stretch, [Unchained](L4) reported.
+
+The bill also adds transparency rules. Federal agencies would have 60 days to report the bitcoin and other crypto they hold, and those coins would move into Treasury custody. An independent auditor would check yearly proof-of-reserve reports on the reserve's holdings.
+
+## How it got here
+
+The committee approved a rewritten version of the bill on Sept. 16 by a vote of 28 to 21. Every Republican voted yes and every Democrat voted no. The formal committee report followed about ten weeks later, on Nov. 24.
+
+The bill builds on President Donald Trump's March 6, 2025 executive order, which created the Strategic Bitcoin Reserve. That reserve is funded mainly with bitcoin the government already owns from criminal and civil forfeitures. Addresses linked to the U.S. government held about 306,795 BTC, worth over $18.7 billion, based on Arkham data cited by CoinDesk.
+
+!figure:timeline
+
+!mid_cta
+
+## Why the odds look slim
+
+To become law, the bill still needs three things: a House floor vote, Senate approval and the president's signature. With only a few weeks of the session left, few observers expect that to happen. On the prediction market Polymarket, traders gave about a 4% chance that the U.S. establishes a national bitcoin reserve by the end of this year, down from about 60% a year ago and 34% in May, The Block reported.
+
+If the bill does not pass before Jan. 3, it would have to be reintroduced in the next Congress. Democrats won control of both the House and the Senate in this month's midterm elections and take over in January, which could make a second attempt harder. The executive order reserve would stay in place either way, but without a law behind it, a future president could change or end it.
+
+!figure:chart
+
+## What it means for beginners
+
+A government reserve does not change how bitcoin works, and it does not set a price floor. A 20-year lock mainly means the government's own coins would not be sold into the market for a long time, which some investors see as a small supportive factor. The bill would not make the government buy more bitcoin; it only orders a study of ways to add coins without raising the national debt.
+
+Bitcoin's price was near $60,000 on Thursday, about half its peak, so it remains a volatile asset whatever Congress does. If you decide to buy some, a regulated U.S. exchange such as [Coinbase](REF) lets you start with a small amount. Only invest money you can afford to lose. This is not financial advice.
+
+## What to watch next
+
+- Whether House leaders schedule a floor vote on H.R. 8957 before the session ends.
+- Whether the Senate takes up the bill if the House passes it.
+- Polymarket odds and statements from the incoming Democratic majorities about crypto policy in 2027.
+
+!soft: New to the policy side of crypto? Read [what the midterm results mean for crypto regulation](/articles/us-midterms-crypto-regulation-etf-outflows)
+
+!end_cta
+
+!disclosure

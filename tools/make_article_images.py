@@ -6096,7 +6096,162 @@ FLNK_CHART_ALTS = {
 }
 
 
+
+SBR_SLUG = "house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026"
+
+
+def build_sbr_bill():
+    d = OUT / SBR_SLUG
+    card = make_fact_card(
+        d / "fact-hr-8957-20-year-lock",
+        label="H.R. 8957 · Strategic Bitcoin Reserve",
+        big="20 years",
+        sub="Bitcoin in the reserve could not be sold, swapped, auctioned or pledged for at least 20 years. The bill is on the House calendar; no vote is scheduled.",
+        footer="Congress.gov; bill text via The Block and CoinDesk, Nov. 2026",
+    )
+    tl = make_timeline_card(
+        d / "timeline-hr-8957-path",
+        "The bill's path so far",
+        [
+            ("May 21", "Introduced by Reps. Begich and Golden", (96, 165, 250)),
+            ("Sept. 16", "Committee approves it 28 to 21", ORANGE),
+            ("Nov. 24", "Reported to the full House, Calendar No. 789", GREEN),
+            ("Jan. 3", "Current Congress ends; unpassed bills die", RED),
+        ],
+        footer="Congress.gov, H.R. 8957 actions; The Block, CoinDesk",
+        margin=170, wrap_w=250,
+    )
+    chart = make_bar_chart(
+        d / "chart-polymarket-us-bitcoin-reserve-odds",
+        ["About a year ago", "May 2026", "Nov. 25, 2026"],
+        [60, 34, 4],
+        title="Polymarket odds of a U.S. national bitcoin reserve by end of 2026 (as reported by The Block)",
+        colors=["#64748b", "#94a3b8", f"#{ORANGE[0]:02x}{ORANGE[1]:02x}{ORANGE[2]:02x}"],
+        value_fmt=lambda v: f"{v:.0f}%",
+        axis_fmt=lambda x, _p: f"{x:.0f}%",
+    )
+    return [
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: under H.R. 8957, bitcoin in the U.S. Strategic Bitcoin Reserve could not be sold, swapped, auctioned or pledged for at least 20 years; the bill is on the House calendar with no vote scheduled", {
+            "es": "Tarjeta: según el proyecto H.R. 8957, el bitcoin de la Reserva Estratégica de Bitcoin de EE. UU. no podría venderse, intercambiarse, subastarse ni pignorarse durante al menos 20 años; el proyecto está en el calendario de la Cámara sin votación programada",
+            "pt": "Cartão: pelo projeto H.R. 8957, o bitcoin da Reserva Estratégica de Bitcoin dos EUA não poderia ser vendido, trocado, leiloado nem dado em garantia por pelo menos 20 anos; o projeto está no calendário da Câmara, sem votação marcada",
+            "fr": "Encadré : selon la proposition H.R. 8957, les bitcoins de la Réserve stratégique de bitcoins des États-Unis ne pourraient être ni vendus, ni échangés, ni mis aux enchères, ni gagés pendant au moins 20 ans ; le texte est inscrit au calendrier de la Chambre, sans vote prévu",
+            "de": "Faktenkarte: Nach H.R. 8957 dürften Bitcoin in der strategischen Bitcoin-Reserve der USA mindestens 20 Jahre lang weder verkauft, getauscht, versteigert noch verpfändet werden; der Entwurf steht auf dem Kalender des Repräsentantenhauses, ein Abstimmungstermin fehlt",
+            "ru": "Карточка: по законопроекту H.R. 8957 биткоины в Стратегическом биткоин-резерве США нельзя будет продавать, обменивать, выставлять на аукцион или закладывать как минимум 20 лет; законопроект внесён в календарь Палаты, голосование не назначено",
+            "tr": "Bilgi kartı: H.R. 8957'ye göre ABD Stratejik Bitcoin Rezervi'ndeki bitcoinler en az 20 yıl boyunca satılamayacak, takas edilemeyecek, açık artırmaya çıkarılamayacak veya rehin verilemeyecek; tasarı Temsilciler Meclisi takviminde, oylama tarihi yok",
+            "id": "Kartu fakta: menurut RUU H.R. 8957, bitcoin di Cadangan Bitcoin Strategis AS tidak boleh dijual, ditukar, dilelang, atau dijaminkan setidaknya selama 20 tahun; RUU ini sudah masuk kalender DPR AS tanpa jadwal pemungutan suara",
+            "ja": "ファクトカード：H.R. 8957では、米国戦略的ビットコイン準備のビットコインは少なくとも20年間、売却・交換・競売・担保差し入れができない。法案は下院の議事日程に載ったが、採決日は未定",
+            "ko": "팩트 카드: H.R. 8957에 따르면 미국 전략적 비트코인 준비금의 비트코인은 최소 20년간 매각, 교환, 경매, 담보 제공이 금지됨. 법안은 하원 일정표에 올랐지만 표결 일정은 없음",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Congress.gov; H.R. 8957 text via The Block and CoinDesk, Nov. 2026")},
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline of H.R. 8957: introduced May 21, 2026; committee approval 28 to 21 on Sept. 16; reported to the full House as Calendar No. 789 on Nov. 24; the current Congress ends Jan. 3, 2027", {
+            "es": "Cronología del H.R. 8957: presentado el 21 de mayo de 2026; aprobado en comisión por 28 a 21 el 16 de septiembre; remitido al pleno de la Cámara como Calendar No. 789 el 24 de noviembre; el Congreso actual termina el 3 de enero de 2027",
+            "pt": "Linha do tempo do H.R. 8957: apresentado em 21 de maio de 2026; aprovado na comissão por 28 a 21 em 16 de setembro; enviado ao plenário da Câmara como Calendar No. 789 em 24 de novembro; o Congresso atual termina em 3 de janeiro de 2027",
+            "fr": "Chronologie de H.R. 8957 : déposé le 21 mai 2026 ; adopté en commission par 28 voix contre 21 le 16 septembre ; transmis à la Chambre plénière sous le Calendar No. 789 le 24 novembre ; le Congrès actuel prend fin le 3 janvier 2027",
+            "de": "Zeitleiste zu H.R. 8957: eingebracht am 21. Mai 2026; Ausschuss stimmt am 16. September mit 28 zu 21 zu; am 24. November als Calendar No. 789 an das Plenum überwiesen; der aktuelle Kongress endet am 3. Januar 2027",
+            "ru": "Хронология H.R. 8957: внесён 21 мая 2026 года; одобрен комитетом 28 голосами против 21 16 сентября; 24 ноября передан всей Палате как Calendar No. 789; нынешний Конгресс завершает работу 3 января 2027 года",
+            "tr": "H.R. 8957 zaman çizelgesi: 21 Mayıs 2026'da sunuldu; 16 Eylül'de komitede 21'e karşı 28 oyla onaylandı; 24 Kasım'da Calendar No. 789 olarak Meclis genel kuruluna gönderildi; mevcut Kongre 3 Ocak 2027'de sona eriyor",
+            "id": "Linimasa H.R. 8957: diajukan 21 Mei 2026; disetujui komite 28 lawan 21 pada 16 September; diserahkan ke sidang pleno DPR sebagai Calendar No. 789 pada 24 November; Kongres saat ini berakhir 3 Januari 2027",
+            "ja": "H.R. 8957の経緯：2026年5月21日提出、9月16日に委員会が28対21で可決、11月24日にCalendar No. 789として下院本会議へ報告、現議会は2027年1月3日に閉会",
+            "ko": "H.R. 8957 일정: 2026년 5월 21일 발의, 9월 16일 위원회 28대 21 가결, 11월 24일 Calendar No. 789로 하원 본회의 보고, 현 의회는 2027년 1월 3일 종료",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Congress.gov, H.R. 8957 all actions; The Block; CoinDesk")},
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of Polymarket odds that the U.S. establishes a national bitcoin reserve by the end of 2026, as reported by The Block: about 60% a year ago, 34% in May 2026 and 4% on Nov. 25, 2026", {
+            "es": "Gráfico de barras con las probabilidades en Polymarket de que EE. UU. cree una reserva nacional de bitcoin antes de fin de 2026, según The Block: cerca del 60% hace un año, 34% en mayo de 2026 y 4% el 25 de noviembre de 2026",
+            "pt": "Gráfico de barras com as chances no Polymarket de os EUA criarem uma reserva nacional de bitcoin até o fim de 2026, segundo o The Block: cerca de 60% há um ano, 34% em maio de 2026 e 4% em 25 de novembro de 2026",
+            "fr": "Graphique en barres des probabilités sur Polymarket que les États-Unis créent une réserve nationale de bitcoins d'ici fin 2026, selon The Block : environ 60 % il y a un an, 34 % en mai 2026 et 4 % le 25 novembre 2026",
+            "de": "Balkendiagramm der Polymarket-Wahrscheinlichkeit, dass die USA bis Ende 2026 eine nationale Bitcoin-Reserve schaffen, laut The Block: rund 60 % vor einem Jahr, 34 % im Mai 2026 und 4 % am 25. November 2026",
+            "ru": "Столбчатая диаграмма шансов на Polymarket, что США создадут национальный биткоин-резерв до конца 2026 года, по данным The Block: около 60% год назад, 34% в мае 2026 года и 4% 25 ноября 2026 года",
+            "tr": "The Block'a göre ABD'nin 2026 sonuna kadar ulusal bir bitcoin rezervi kurma ihtimaline ilişkin Polymarket oranlarının çubuk grafiği: bir yıl önce yaklaşık %60, Mayıs 2026'da %34, 25 Kasım 2026'da %4",
+            "id": "Grafik batang peluang di Polymarket bahwa AS membentuk cadangan bitcoin nasional sebelum akhir 2026, menurut The Block: sekitar 60% setahun lalu, 34% pada Mei 2026, dan 4% pada 25 November 2026",
+            "ja": "The Blockによる、米国が2026年末までに国家ビットコイン準備を設ける確率（Polymarket）の棒グラフ。約1年前は約60%、2026年5月は34%、2026年11月25日は4%",
+            "ko": "The Block이 전한, 미국이 2026년 말까지 국가 비트코인 준비금을 만들 확률(폴리마켓) 막대 그래프. 약 1년 전 약 60%, 2026년 5월 34%, 2026년 11월 25일 4%",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Polymarket odds as reported by The Block, Nov. 25, 2026")},
+    ]
+
+
+BRAIINS_SLUG = "braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026"
+
+
+def build_braiins_hijack():
+    d = OUT / BRAIINS_SLUG
+    card = make_fact_card(
+        d / "fact-braiins-1-9-ehs-hijacked",
+        label="Stratum V1 hashrate hijacking",
+        big="Up to 1.9 EH/s",
+        sub="was diverted in one episode on Nov. 20, when 1,050 to 1,600 mining sites at a time were sent to an impostor pool through forged internet routes.",
+        footer="Braiins security alert, Nov. 25, 2026",
+    )
+    chart = make_bar_chart(
+        d / "chart-braiins-largest-episode-phs",
+        ["Nov. 7 to 12 wave\n(Latin America)", "Nov. 20 wave\n(mostly Europe)"],
+        [174, 1900],
+        title="Largest single hijacking episode, mining power diverted (PH/s), per Braiins",
+        colors=["#94a3b8", f"#{ORANGE[0]:02x}{ORANGE[1]:02x}{ORANGE[2]:02x}"],
+        value_fmt=lambda v: f"{v:,.0f} PH/s",
+        axis_fmt=lambda x, _p: f"{x:,.0f}",
+    )
+    tl = make_timeline_card(
+        d / "timeline-braiins-hijack-waves",
+        "How the hijacking grew",
+        [
+            ("Nov. 7-12", "19 episodes, 120 to 400 sites, mostly Brazil and Argentina", (96, 165, 250)),
+            ("Nov. 16", "One episode in Brazil captured packet by packet", (148, 163, 184)),
+            ("Nov. 20", "4 episodes, 1,050 to 1,600 sites, mostly Europe", RED),
+            ("Nov. 25", "Braiins alert, firmware fix and free proxy", GREEN),
+        ],
+        footer="Braiins security alert, Nov. 25, 2026",
+        margin=170, wrap_w=250,
+    )
+    return [
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: up to 1.9 exahashes per second of mining power was diverted in one episode on Nov. 20, 2026, when 1,050 to 1,600 mining sites at a time were sent to an impostor pool through forged internet routes", {
+            "es": "Tarjeta: hasta 1,9 exahashes por segundo de potencia de minería se desviaron en un episodio el 20 de noviembre de 2026, cuando entre 1.050 y 1.600 sitios de minería a la vez fueron enviados a un pool impostor mediante rutas de internet falsificadas",
+            "pt": "Cartão: até 1,9 exahash por segundo de poder de mineração foi desviado em um episódio em 20 de novembro de 2026, quando de 1.050 a 1.600 locais de mineração de cada vez foram levados a um pool impostor por rotas de internet falsificadas",
+            "fr": "Encadré : jusqu'à 1,9 exahash par seconde de puissance de minage a été détourné lors d'un épisode le 20 novembre 2026, quand 1 050 à 1 600 sites de minage à la fois ont été envoyés vers un faux pool via des routes internet falsifiées",
+            "de": "Faktenkarte: Bis zu 1,9 Exahash pro Sekunde an Mining-Leistung wurden bei einer Episode am 20. November 2026 umgeleitet, als jeweils 1.050 bis 1.600 Mining-Standorte über gefälschte Internetrouten zu einem falschen Pool geschickt wurden",
+            "ru": "Карточка: до 1,9 эксахеша в секунду майнинговой мощности было перехвачено за один эпизод 20 ноября 2026 года, когда от 1050 до 1600 майнинговых площадок одновременно направили в поддельный пул через фальшивые интернет-маршруты",
+            "tr": "Bilgi kartı: 20 Kasım 2026'daki tek bir olayda saniyede 1,9 eksahasha kadar madencilik gücü saptırıldı; o sırada aynı anda 1.050 ile 1.600 madencilik sahası sahte internet rotalarıyla taklitçi bir havuza yönlendirildi",
+            "id": "Kartu fakta: hingga 1,9 exahash per detik daya penambangan dialihkan dalam satu episode pada 20 November 2026, ketika 1.050 sampai 1.600 lokasi penambangan sekaligus diarahkan ke pool palsu melalui rute internet palsu",
+            "ja": "ファクトカード：2026年11月20日の1回のエピソードで最大1.9 EH/sの採掘能力が奪われた。偽のインターネット経路により、一度に1,050〜1,600の採掘拠点が偽プールへ誘導された",
+            "ko": "팩트 카드: 2026년 11월 20일 한 번의 공격에서 최대 1.9 EH/s의 채굴 연산력이 탈취됨. 위조된 인터넷 경로로 한 번에 1,050~1,600곳의 채굴장이 가짜 풀로 유도됨",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Braiins security alert, Nov. 25, 2026")},
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of the largest single hijacking episode per wave, according to Braiins: up to 174 petahashes per second in the Nov. 7 to 12 wave in Latin America versus 1,900 PH/s (1.9 EH/s) in the Nov. 20 wave, mostly in Europe", {
+            "es": "Gráfico de barras del mayor episodio de secuestro de cada oleada, según Braiins: hasta 174 petahashes por segundo en la oleada del 7 al 12 de noviembre en Latinoamérica frente a 1.900 PH/s (1,9 EH/s) en la del 20 de noviembre, sobre todo en Europa",
+            "pt": "Gráfico de barras do maior episódio de sequestro em cada onda, segundo a Braiins: até 174 petahashes por segundo na onda de 7 a 12 de novembro na América Latina contra 1.900 PH/s (1,9 EH/s) na onda de 20 de novembro, principalmente na Europa",
+            "fr": "Graphique en barres du plus gros épisode de détournement par vague, selon Braiins : jusqu'à 174 pétahashs par seconde lors de la vague du 7 au 12 novembre en Amérique latine, contre 1 900 PH/s (1,9 EH/s) lors de celle du 20 novembre, surtout en Europe",
+            "de": "Balkendiagramm der größten einzelnen Hijacking-Episode je Welle laut Braiins: bis zu 174 Petahash pro Sekunde in der Welle vom 7. bis 12. November in Lateinamerika gegenüber 1.900 PH/s (1,9 EH/s) in der Welle vom 20. November, vor allem in Europa",
+            "ru": "Столбчатая диаграмма крупнейшего эпизода перехвата в каждой волне, по данным Braiins: до 174 петахешей в секунду в волне 7–12 ноября в Латинской Америке против 1900 PH/s (1,9 EH/s) в волне 20 ноября, в основном в Европе",
+            "tr": "Braiins'e göre her dalgadaki en büyük tekil ele geçirme olayının çubuk grafiği: Latin Amerika'daki 7-12 Kasım dalgasında saniyede 174 petahasha kadar, çoğunlukla Avrupa'daki 20 Kasım dalgasında ise 1.900 PH/s (1,9 EH/s)",
+            "id": "Grafik batang episode pembajakan terbesar di tiap gelombang menurut Braiins: hingga 174 petahash per detik pada gelombang 7 sampai 12 November di Amerika Latin dibanding 1.900 PH/s (1,9 EH/s) pada gelombang 20 November, sebagian besar di Eropa",
+            "ja": "Braiinsによる各波で最大の乗っ取りエピソードの棒グラフ。中南米の11月7〜12日の波では最大174 PH/s、主に欧州の11月20日の波では1,900 PH/s（1.9 EH/s）",
+            "ko": "Braiins 기준 물결별 최대 단일 하이재킹 규모 막대 그래프. 중남미 11월 7~12일 물결은 최대 174 PH/s, 주로 유럽인 11월 20일 물결은 1,900 PH/s(1.9 EH/s)",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Braiins security alert, Nov. 25, 2026")},
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline of the hijacking: Nov. 7 to 12, 19 episodes hit 120 to 400 sites, mostly in Brazil and Argentina; Nov. 16, one episode in Brazil was captured packet by packet; Nov. 20, four episodes hit 1,050 to 1,600 sites, mostly in Europe; Nov. 25, Braiins published its alert, a firmware fix and a free proxy", {
+            "es": "Cronología del secuestro: del 7 al 12 de noviembre, 19 episodios afectaron a entre 120 y 400 sitios, sobre todo en Brasil y Argentina; el 16 de noviembre se capturó paquete a paquete un episodio en Brasil; el 20 de noviembre, cuatro episodios afectaron a entre 1.050 y 1.600 sitios, sobre todo en Europa; el 25 de noviembre, Braiins publicó su alerta, una corrección de firmware y un proxy gratuito",
+            "pt": "Linha do tempo do sequestro: de 7 a 12 de novembro, 19 episódios atingiram de 120 a 400 locais, principalmente no Brasil e na Argentina; em 16 de novembro, um episódio no Brasil foi capturado pacote a pacote; em 20 de novembro, quatro episódios atingiram de 1.050 a 1.600 locais, principalmente na Europa; em 25 de novembro, a Braiins publicou o alerta, uma correção de firmware e um proxy gratuito",
+            "fr": "Chronologie du détournement : du 7 au 12 novembre, 19 épisodes ont touché 120 à 400 sites, surtout au Brésil et en Argentine ; le 16 novembre, un épisode au Brésil a été capturé paquet par paquet ; le 20 novembre, quatre épisodes ont touché 1 050 à 1 600 sites, surtout en Europe ; le 25 novembre, Braiins a publié son alerte, un correctif de firmware et un proxy gratuit",
+            "de": "Zeitleiste des Hijackings: 7. bis 12. November, 19 Episoden mit 120 bis 400 Standorten, vor allem in Brasilien und Argentinien; 16. November, eine Episode in Brasilien Paket für Paket mitgeschnitten; 20. November, vier Episoden mit 1.050 bis 1.600 Standorten, vor allem in Europa; 25. November, Braiins veröffentlicht Warnung, Firmware-Fix und kostenlosen Proxy",
+            "ru": "Хронология перехвата: 7–12 ноября 19 эпизодов затронули от 120 до 400 площадок, в основном в Бразилии и Аргентине; 16 ноября один эпизод в Бразилии записан пакет за пакетом; 20 ноября четыре эпизода затронули от 1050 до 1600 площадок, в основном в Европе; 25 ноября Braiins опубликовала предупреждение, исправление прошивки и бесплатный прокси",
+            "tr": "Ele geçirme zaman çizelgesi: 7-12 Kasım'da 19 olay, çoğu Brezilya ve Arjantin'de 120 ile 400 sahayı etkiledi; 16 Kasım'da Brezilya'daki bir olay paket paket kaydedildi; 20 Kasım'da dört olay, çoğu Avrupa'da 1.050 ile 1.600 sahayı etkiledi; 25 Kasım'da Braiins uyarısını, yazılım düzeltmesini ve ücretsiz bir proxy'yi yayımladı",
+            "id": "Linimasa pembajakan: 7 sampai 12 November, 19 episode mengenai 120 sampai 400 lokasi, sebagian besar di Brasil dan Argentina; 16 November, satu episode di Brasil terekam paket demi paket; 20 November, empat episode mengenai 1.050 sampai 1.600 lokasi, sebagian besar di Eropa; 25 November, Braiins merilis peringatan, perbaikan firmware, dan proxy gratis",
+            "ja": "乗っ取りの経緯：11月7〜12日、主にブラジルとアルゼンチンで19件、各120〜400拠点。11月16日、ブラジルの1件をパケット単位で記録。11月20日、主に欧州で4件、各1,050〜1,600拠点。11月25日、Braiinsが警告、ファームウェア修正、無料プロキシを公開",
+            "ko": "하이재킹 경과: 11월 7~12일 주로 브라질·아르헨티나에서 19건, 건당 120~400곳. 11월 16일 브라질 1건을 패킷 단위로 포착. 11월 20일 주로 유럽에서 4건, 건당 1,050~1,600곳. 11월 25일 Braiins가 경고, 펌웨어 수정, 무료 프록시 공개",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Braiins security alert, Nov. 25, 2026")},
+    ]
+
+
 BUILDERS = {
+    "house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026": "sbrbill",
+    "braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026": "braiinshijack",
     "bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026": "btc60tg",
     "fidelity-files-spot-chainlink-etf-flnk-nov-2026": "flnk",
     "coinbase-wallet-direct-deposit-paycheck-usdc-base-nov-2026": "cbwdd",
@@ -6393,6 +6548,10 @@ def build_slug(slug: str, btc=None):
         figs = build_custodia_scotus()
     elif key == "sol10":
         figs = build_solana_1_0()
+    elif key == "sbrbill":
+        figs = build_sbr_bill()
+    elif key == "braiinshijack":
+        figs = build_braiins_hijack()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

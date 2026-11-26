@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/ja/</link>
     <description>初心者向けに、やさしい言葉でお届けするビットコイン＆暗号資産ニュース</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:35:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>米政府のビットコインを20年間封じる法案が下院本会議の議事日程入り、ただし残り時間はわずか</title>
+      <link>https://plainbtc.com/ja/articles/house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026</guid>
+      <pubDate>Thu, 26 Nov 2026 19:10:00 GMT</pubDate>
+      <category>規制</category>
+      <description>米国の戦略的ビットコイン準備を恒久的な法律とし、その保有コインの売却を少なくとも20年間禁じる法案が、下院で採決できる段階に入った。日程は未定で、議会は1月3日に閉会する。Polymarketでは年内に準備法が成立する確率は約4%とされている。</description>
+    </item>
+    <item>
+      <title>偽のインターネット経路で1,000超のビットコイン採掘拠点が攻撃者のために働かされた、Braiinsが報告</title>
+      <link>https://plainbtc.com/ja/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/ja/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026</guid>
+      <pubDate>Thu, 26 Nov 2026 19:10:00 GMT</pubDate>
+      <category>セキュリティ</category>
+      <description>Braiinsによると、攻撃者はインターネット経路を乗っ取り、古く暗号化されていないStratum V1を使うビットコインマイナーを偽プールへ送った。11月20日には一度に1,000超の拠点が誘導され、最大1.9 EH/sの採掘能力が奪われた。BraiinsはStratum V2への移行を勧めている。</description>
+    </item>
     <item>
       <title>感謝祭のビットコインが6万ドル台を回復、米国の現物ビットコインETFは7日連続の資金流出</title>
       <link>https://plainbtc.com/ja/articles/bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026</link>

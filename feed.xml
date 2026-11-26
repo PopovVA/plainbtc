@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/</link>
     <description>Plain-English Bitcoin &amp; crypto news for beginners</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:35:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:10:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bill to lock U.S. government bitcoin for 20 years reaches the full House, but time is short</title>
+      <link>https://plainbtc.com/articles/house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026</guid>
+      <pubDate>Thu, 26 Nov 2026 19:10:00 GMT</pubDate>
+      <category>Regulation</category>
+      <description>A bill that would make the U.S. Strategic Bitcoin Reserve permanent law and ban selling its coins for at least 20 years is now eligible for a House vote. No date is set, Congress ends on Jan. 3, and Polymarket puts the odds of a reserve law this year at about 4%.</description>
+    </item>
+    <item>
+      <title>Fake internet routes tricked over 1,000 bitcoin mining sites into working for an attacker, Braiins says</title>
+      <link>https://plainbtc.com/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/articles/braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026</guid>
+      <pubDate>Thu, 26 Nov 2026 19:10:00 GMT</pubDate>
+      <category>Security</category>
+      <description>Braiins says an attacker hijacked internet routes to send bitcoin miners on the old, unencrypted Stratum V1 protocol to a fake pool. On Nov. 20, more than 1,000 sites at a time were diverted, with up to 1.9 EH/s of mining power. Braiins urges an upgrade to Stratum V2.</description>
+    </item>
     <item>
       <title>Bitcoin climbs back above $60,000 on Thanksgiving as spot bitcoin ETFs log a seventh straight day of outflows</title>
       <link>https://plainbtc.com/articles/bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026</link>

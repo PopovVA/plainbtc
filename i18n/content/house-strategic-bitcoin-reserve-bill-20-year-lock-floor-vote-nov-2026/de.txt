@@ -1,0 +1,64 @@
+title: Gesetz, das US-Staatsbitcoin 20 Jahre lang sperren würde, erreicht das Plenum des Repräsentantenhauses, doch die Zeit wird knapp
+page_title: Gesetzentwurf zur strategischen Bitcoin-Reserve steht auf dem Kalender des Repräsentantenhauses
+description: H.R. 8957, der die strategische Bitcoin-Reserve der USA gesetzlich verankern und den Verkauf ihrer Bitcoin für mindestens 20 Jahre verbieten würde, kam am 24. November 2026 auf den Kalender des Repräsentantenhauses. Eine Abstimmung ist nicht angesetzt, und der Kongress endet am 3. Januar.
+og_description: Ein Ausschuss des Repräsentantenhauses hat den American Reserve Modernization Act am 24. November formell an das Plenum überwiesen. Er würde staatliche Bitcoin mindestens 20 Jahre sperren, braucht aber vor dem 3. Januar noch eine Abstimmung im Haus, den Senat und eine Unterschrift.
+label: Regulierung
+summary: Ein Gesetzentwurf, der die strategische Bitcoin-Reserve der USA dauerhaft festschreiben und den Verkauf ihrer Coins für mindestens 20 Jahre verbieten würde, kann jetzt im Repräsentantenhaus abgestimmt werden. Ein Termin fehlt, der Kongress endet am 3. Januar, und Polymarket sieht die Chance auf ein Reservegesetz in diesem Jahr bei etwa 4 %.
+===
+
+Ein Gesetzentwurf, der die Bitcoin-Reserve der US-Regierung dauerhaft gesetzlich verankern würde, hat seinen letzten Schritt im Ausschuss genommen. Am Dienstag, dem 24. November, legte der Finanzausschuss des Repräsentantenhauses formell seinen Bericht zu H.R. 8957 vor, dem <strong>American Reserve Modernization Act of 2026</strong>, und der Entwurf wurde laut [Congress.gov](L1) als Nummer 789 in den Union Calendar des Hauses aufgenommen. Damit kann das gesamte Repräsentantenhaus darüber abstimmen.
+
+Eine Abstimmung ist nicht angesetzt, und die Zeit ist knapp. Der aktuelle Kongress endet am 3. Januar 2027. Damit bleiben rund fünf Wochen, viele davon über die Feiertage, damit der Entwurf das Repräsentantenhaus und den Senat passiert und vom Präsidenten unterschrieben wird.
+
+!takeaways
+- H.R. 8957 wurde am 24. November 2026 an das Plenum überwiesen und als Nummer 789 in den Union Calendar aufgenommen. Ein Abstimmungstermin fehlt.
+- Der Entwurf würde per Gesetz eine strategische Bitcoin-Reserve beim Finanzministerium schaffen und den Verkauf, Tausch oder die Verpfändung ihrer Bitcoin für mindestens 20 Jahre verbieten.
+- Der Ausschuss billigte ihn am 16. September mit 28 zu 21 Stimmen entlang der Parteigrenzen.
+- Der aktuelle Kongress endet am 3. Januar 2027. Polymarket sah die Chance auf ein US-Gesetz für eine Bitcoin-Reserve in diesem Jahr bei rund 4 %.
+- Scheitert der Entwurf, bleibt die Reserve aus Präsident Trumps Dekret vom März 2025 bestehen, ein künftiger Präsident könnte sie aber ändern.
+
+!figure:fact
+
+## Was der Entwurf vorsieht
+
+Der Abgeordnete Nick Begich, Republikaner aus Alaska, brachte den Entwurf am 21. Mai zusammen mit dem Abgeordneten Jared Golden ein, einem Demokraten aus Maine. Er verpflichtet den Finanzminister, innerhalb von 180 Tagen nach Inkrafttreten eine strategische Bitcoin-Reserve sowie einen getrennten Bestand für andere Kryptowährungen einzurichten.
+
+Kern ist eine lange Sperrfrist. Bitcoin in der Reserve dürften mindestens 20 Jahre lang nicht „verkauft, getauscht, versteigert, belastet oder auf andere Weise veräußert werden, zu welchem Zweck auch immer“, so der Gesetzestext, den [The Block](L2) und [CoinDesk](L3) zitieren. Danach würde die Ausschussfassung dem Finanzministerium erlauben, Verkäufe von höchstens 10 % der Reserve je Zweijahreszeitraum vorzuschlagen, berichtete [Unchained](L4).
+
+Hinzu kommen Transparenzregeln. Bundesbehörden hätten 60 Tage Zeit, ihre Bitcoin und andere Kryptowerte zu melden, die dann in die Verwahrung des Finanzministeriums wandern würden. Ein unabhängiger Prüfer würde jährliche Proof-of-Reserve-Berichte über die Bestände der Reserve kontrollieren.
+
+## Wie es dazu kam
+
+Der Ausschuss billigte eine überarbeitete Fassung am 16. September mit 28 zu 21 Stimmen. Alle Republikaner stimmten dafür, alle Demokraten dagegen. Der formelle Ausschussbericht folgte rund zehn Wochen später, am 24. November.
+
+Der Entwurf baut auf Präsident Donald Trumps Dekret vom 6. März 2025 auf, mit dem die strategische Bitcoin-Reserve geschaffen wurde. Sie speist sich vor allem aus Bitcoin, die der Staat bereits aus straf- und zivilrechtlichen Beschlagnahmungen besitzt. Adressen, die der US-Regierung zugeordnet werden, hielten laut Arkham-Daten, die CoinDesk zitiert, rund 306.795 BTC im Wert von mehr als 18,7 Milliarden Dollar.
+
+!figure:timeline
+
+!mid_cta
+
+## Warum die Chancen gering sind
+
+Um Gesetz zu werden, fehlen dem Entwurf noch drei Schritte: eine Abstimmung im Plenum des Repräsentantenhauses, die Zustimmung des Senats und die Unterschrift des Präsidenten. Bei nur noch wenigen Sitzungswochen rechnen nur wenige Beobachter damit. Auf dem Prognosemarkt Polymarket lag die Chance, dass die USA bis Jahresende eine nationale Bitcoin-Reserve schaffen, bei rund 4 %, nach etwa 60 % vor einem Jahr und 34 % im Mai, berichtete The Block.
+
+Wird der Entwurf nicht vor dem 3. Januar verabschiedet, müsste er im nächsten Kongress neu eingebracht werden. Die Demokraten haben bei den Zwischenwahlen in diesem Monat die Mehrheit in Repräsentantenhaus und Senat gewonnen und übernehmen im Januar, was einen zweiten Anlauf erschweren könnte. Die Reserve aus dem Dekret bliebe so oder so bestehen, doch ohne Gesetz könnte ein künftiger Präsident sie ändern oder abschaffen.
+
+!figure:chart
+
+## Was das für Einsteiger bedeutet
+
+Eine staatliche Reserve ändert nichts an der Funktionsweise von Bitcoin und setzt keinen Mindestpreis. Eine 20-jährige Sperre bedeutet vor allem, dass die eigenen Coins des Staates lange nicht auf den Markt kämen, was manche Anleger als kleinen stützenden Faktor sehen. Der Entwurf würde den Staat nicht zum Kauf weiterer Bitcoin verpflichten; er verlangt nur eine Studie, wie sich Coins ohne neue Staatsschulden hinzufügen ließen.
+
+Bitcoin notierte am Donnerstag bei rund 60.000 Dollar, etwa der Hälfte seines Rekordhochs, und bleibt damit ein schwankungsanfälliger Wert, egal was der Kongress tut. Wer kaufen möchte, kann bei einer regulierten US-Börse wie [Coinbase](REF) mit einem kleinen Betrag anfangen. Investieren Sie nur Geld, dessen Verlust Sie verkraften können. Dies ist keine Finanzberatung.
+
+## Worauf man achten sollte
+
+- Ob die Führung des Repräsentantenhauses vor Sitzungsende eine Abstimmung über H.R. 8957 ansetzt.
+- Ob sich der Senat mit dem Entwurf befasst, falls das Haus ihn verabschiedet.
+- Die Polymarket-Quoten und Aussagen der neuen demokratischen Mehrheiten zur Kryptopolitik 2027.
+
+!soft: Neu in der politischen Seite von Krypto? Lesen Sie, [was die Ergebnisse der Zwischenwahlen für die Kryptoregulierung bedeuten](/articles/us-midterms-crypto-regulation-etf-outflows)
+
+!end_cta
+
+!disclosure

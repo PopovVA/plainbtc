@@ -1,0 +1,64 @@
+title: Sahte internet rotaları 1.000'den fazla bitcoin madencilik sahasını bir saldırgan için çalıştırdı, diyor Braiins
+page_title: Hashrate ele geçirme saldırısı 1.000'den fazla bitcoin madencilik sahasını vurdu, diyor Braiins
+description: Madencilik havuzu operatörü Braiins, bir saldırganın şifrelenmemiş Stratum V1 bağlantısı kullanan bitcoin madencilerini sahte internet rotalarıyla taklitçi bir havuza yönlendirdiğini söylüyor. 20 Kasım 2026'da her olayda 1.050 ile 1.600 sahadan 1,9 EH/s'ye kadar güç saptırıldı.
+og_description: Braiins, 7-20 Kasım arasında 24 ele geçirme olayı tespit etti. Saldırgan hiçbir havuzu ya da makineyi hacklemedi: internet trafiğini yönlendirip havuz kılığına girdi. Braiins madencilere Stratum V2'ye veya doğrulanmış TLS'e geçmelerini öneriyor.
+label: Güvenlik
+summary: Braiins'e göre bir saldırgan, eski ve şifrelenmemiş Stratum V1 protokolünü kullanan bitcoin madencilerini sahte bir havuza göndermek için internet rotalarını ele geçirdi. 20 Kasım'da aynı anda 1.000'den fazla saha saptırıldı ve 1,9 EH/s'ye varan madencilik gücü kayboldu. Braiins Stratum V2'ye geçişi öneriyor.
+===
+
+Biri, tek bir makineye ya da madencilik havuzuna sızmadan bitcoin madencilerinin emeğini çalıyor. Madencilik şirketi Braiins, 25 Kasım Çarşamba günü yayımladığı [güvenlik uyarısında](L1), bir saldırganın madencilerle havuzları arasındaki internet trafiğini yönlendirdiğini, kendini havuz gibi gösterdiğini ve madencilerin emeğinin ödüllerini topladığını açıkladı.
+
+En büyük olaylar 20 Kasım'da yaşandı: binden fazla madencilik sahası aynı saniyede havuz bağlantısını kaybetti ve sessizce taklitçi bir sunucuya yönlendirildi. Braiins, ne kendi havuzunun ne de madencilerin ekipmanının ele geçirildiğini söyledi. Zayıf nokta, ikisi arasındaki bağlantı.
+
+!takeaways
+- Braiins, 7-20 Kasım 2026 arasında 24 ele geçirme olayı tespit etti; olaylar önce Latin Amerika'da, sonra çoğunlukla Avrupa'da yaşandı.
+- 20 Kasım'da dört olayın her biri 1.050 ile 1.600 madencilik sahasını etkiledi ve 6 ila 49 dakika boyunca 1,9 EH/s'ye kadar gücü saptırdı.
+- Saldırgan sahte internet rotaları (BGP) ve havuzun kim olduğunu doğrulayamayan şifrelenmemiş Stratum V1 protokolünü kullandı.
+- Braiins'e göre havuz hesapları, bakiyeler ve ödeme ayarları etkilenmedi. Çalınan ödüllerin değeri açıklanmadı.
+- Çözüm Stratum V2 ya da havuzun sertifikasını kontrol eden bir yazılımla TLS üzerinden Stratum V1.
+
+!figure:fact
+
+## Saldırı nasıl işledi
+
+Bitcoin madencilerinin çoğu, birçok makinenin işlem gücünü birleştirip ödülleri paylaştıran bir hizmet olan madencilik havuzuna katılır. Makineler havuzla Stratum adlı bir protokol üzerinden konuşur. Orijinal sürüm Stratum V1, 2012'den kalmadır ve her şeyi düz metin olarak gönderir; bu yüzden madencinin, yanıt veren sunucunun gerçekten kendi havuzu olup olmadığını kontrol etme imkânı yoktur.
+
+Saldırgan bu açığı, internetin BGP olarak bilinen yönlendirme sistemindeki bir hileyle kullandı. Ağlar hangi adres bloklarına ulaşabildiklerini duyurur ve yönlendiriciler en spesifik duyuruyu izler. 20 Kasım'da biri, havuzun ağ sağlayıcısına ait 4.096 adreslik daha büyük bir bloğun içinde, havuzun adresini de kapsayan 256 adreslik küçük bir blok duyurdu. Sahte rotayı kabul eden ağlar, madencilerin trafiğini saldırgana gönderdi.
+
+Sahte sunucu, başka bir büyük açık havuzdan alınmış gerçek madencilik işleri dağıttı ve sonuçları kendi hesabıyla teslim etti. Braiins, çalınan emeğin ulaştığı havuzun saldırının parçası olmadığını söyledi. Makineler tam hızda çalışmaya ve sağlıklı bir bağlantı göstermeye devam etti; bu yüzden kayıp yalnızca havuz panelinde görünüyordu.
+
+!figure:chart
+
+!mid_cta
+
+## Şimdilik küçük, ama büyüyor
+
+7-12 Kasım arasındaki ilk dalga, çoğu Brezilya ve Arjantin'de olmak üzere aynı anda 120 ile 400 sahayı etkiledi ve tek bir olayda saniyede 174 petahasha (PH/s) kadar güç saptırıldı. 20 Kasım'a gelindiğinde en büyük olay saniyede 1,9 eksahasha (EH/s) ulaştı; bu yaklaşık on bir kat daha fazla. Braiins, "Bunu suyun sıcaklığını yoklamak olarak yorumluyoruz" diye yazdı.
+
+Karşılaştırma için, [Cointelegraph](L2)'ın aktardığı MineOrNot verilerine göre tüm bitcoin ağı 20 Kasım'da yaklaşık 1.016 EH/s ile çalışıyordu. En büyük olay bu toplamın yaklaşık %0,19'una denk geldi. Braiins'e göre ağ sağlayıcısı aynı akşam sahte rotayı yayan ağı engelledi, ancak kamuya açık yönlendirme verileri 22 Kasım'da bile diğer büyük havuzların adres bloklarını hedef alan benzer duyurular gösteriyordu.
+
+Uyarı, saldırganların müşterilerin hashrate'ini OCEAN havuzuna yönlendirmek için [Luxor'un Commander yazılımını](/articles/luxor-commander-hack-bitcoin-miners-hashrate-ocean-nov-2026) kötüye kullandığı ayrı bir olaydan iki haftadan kısa süre sonra geldi.
+
+!figure:timeline
+
+## Madencilere ne öneriliyor
+
+Braiins, madencilerden makinelerindeki hiçbir havuz adresinin, yedekler dahil, "stratum+tcp://" ile başlamadığından emin olmalarını istedi. En iyi çözüm, bağlantıyı şifreleyen ve madencinin havuzun kimliğini doğrulamasını sağlayan Stratum V2. İkinci seçenek TLS üzerinden Stratum V1, ama yalnızca havuzun sertifikasını gerçekten doğrulayan bir yazılımda: Braiins'in laboratuvar testlerinde yaygın kullanılan iki yazılım geçersiz sertifikaları kabul etti. Braiins 25 Kasım'da ayrıca sertifikaları kontrol eden bir yazılım güncellemesi (Braiins OS 26.11) ve ikisini de yapamayan makineler için ücretsiz bir proxy yayımladı. Şirketin 23 Kasım'daki kontrolünde büyük havuzların çoğu hâlâ yalnızca şifrelenmemiş Stratum V1 sunuyordu.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Bitcoininizi bir borsada ya da bir cüzdanda tutuyorsanız bu saldırı coinlerinize dokunmuyor. Hedefi kullanıcı bakiyeleri değil, madencilik işletmelerinin geliri ve bitcoinin kendisini kırmıyor. Ağın çevresindeki eski, şifrelenmemiş altyapının hâlâ kötüye kullanılabileceğini hatırlatıyor.
+
+Makine çalıştırmadan bitcoine yatırım yapmak istiyorsanız, [Coinbase](REF) gibi ABD'de düzenlenen bir borsadan küçük bir miktar almak daha basit yol. Bitcoin oynaktır; yalnızca kaybetmeyi göze alabileceğiniz kadarını yatırın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Büyük havuzların Stratum V2 veya doğrulanmış TLS bağlantı noktaları ekleyip eklemeyeceği.
+- Saldırganın ne kadar bitcoin kazandığına dair herhangi bir tahmin.
+- Diğer havuzların adres bloklarını hedef alan yeni ele geçirme dalgaları.
+
+!soft: Kendi kendine saklamaya yeni mi başlıyorsunuz? [Kripto cüzdan nedir: emanetçili ve kendi kendine saklama](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazısını okuyun
+
+!end_cta
+
+!disclosure
