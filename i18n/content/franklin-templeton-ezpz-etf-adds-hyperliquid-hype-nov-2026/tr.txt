@@ -1,0 +1,59 @@
+title: Franklin Templeton'ın kripto endeks ETF'si 1 Aralık'ta Hyperliquid'in HYPE'ını ekliyor, bitcoin ve ether'in yanında sekizinci coin
+page_title: Franklin Crypto Index ETF (EZPZ), Hyperliquid'in HYPE'ını ekliyor
+description: Franklin Templeton'ın Franklin Crypto Index ETF'si (EZPZ), endeksi coin'i eklediğinde 1 Aralık 2026 civarında Hyperliquid'in HYPE token'ını tutmaya başlayacak; bunu 25 Kasım'da SEC'e sunulan bir belge gösteriyor. Fon bundan sonra sekiz kripto para tutacak.
+og_description: 25 Kasım tarihli izahname eki, Franklin Templeton'ın EZPZ fonunun CF Benchmarks endeksini 1 Aralık'ta yeniden düzenlediğinde HYPE'ı ekleyeceğini söylüyor. Fonun bugün neler tuttuğu, yeni bir coin'in ETF'ye neden bu kadar hızlı girebildiği ve yeni başlayanların bilmesi gerekenler.
+label: Piyasalar
+summary: Franklin Templeton'ın Franklin Crypto Index ETF'si (EZPZ), 25 Kasım'da SEC'e sunulan belgeye göre 1 Aralık 2026 civarında Hyperliquid'in HYPE token'ını ekleyecek. Fon bundan sonra sekiz coin tutacak. 30 Eylül itibarıyla yaklaşık 17 milyon dolar net varlığı vardı ve bunun %76,39'u bitcoin'di.
+===
+
+Franklin Templeton'ın yönettiği küçük bir kripto fonu yeni bir coin almaya hazırlanıyor. <strong>EZPZ</strong> koduyla işlem gören <strong>Franklin Crypto Index ETF</strong>, 25 Kasım Çarşamba günü ABD Menkul Kıymetler ve Borsa Komisyonu'na (SEC) sunulan bir [izahname ekine](L1) göre <strong>1 Aralık 2026</strong> civarında <strong>Hyperliquid (HYPE)</strong> token'ını portföyüne ekleyecek.
+
+HYPE, en çok sürekli vadeli işlemleriyle (perpetual futures), yani fiyatlar üzerine kaldıraçlı bahislerle bilinen bir kripto alım satım platformu etrafında kurulan Hyperliquid blokzincirinin token'ı. Değişiklik yürürlüğe girdiğinde fon sekiz kripto para tutacak: bitcoin, ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens ve HYPE.
+
+!takeaways
+- Franklin Templeton'ın EZPZ fonu, 25 Kasım'da SEC'e sunulan bir belgeye göre 1 Aralık 2026 civarında HYPE tutmaya başlayacak.
+- Değişiklik, 1 Aralık'ta HYPE'ı tek yeni coin olarak ekleyen gösterge endeksi CF Institutional Digital Asset Index'i izliyor.
+- EZPZ küçük bir fon: son çeyrek raporuna göre 30 Eylül itibarıyla yaklaşık 17,02 milyon dolar net varlık, bunun %76,39'u bitcoin.
+- Belge, fonun ne kadar HYPE tutacağını söylemiyor. Ağırlıklar her çeyrekte yeniden dengelenen endeksi izliyor.
+
+!figure:chart
+
+## Fon neden HYPE ekliyor
+
+EZPZ coin'leri kendisi seçmiyor. CF Benchmarks'ın yönettiği <strong>CF Institutional Digital Asset Index</strong>'i izlemeye çalışıyor. CF Benchmarks, [yeniden yapılandırma duyurusunda](L2) HYPE'ın 1 Aralık'ta bu endekse ekleneceğini ve hiçbir coin'in çıkarılmayacağını açıkladı. Belgeye göre fon da aynı coin'leri endeksteki "yaklaşık aynı ağırlıklarla" satın alıyor.
+
+Yeni bir token'ın bu kadar hızlı girebilmesinin nedeni, Cboe BZX borsasının benimsediği ve SEC'in onayladığı <strong>genel listeleme standartları</strong>. Belgeye göre bu kurallar, fonun endeksinde yer alan ek coin'leri her biri için ayrı onay almadan tutmasına izin veriyor. Endeks çeyreklik yeniden dengeleme takvimini sürdürüyor; yani ileride coin'ler yeniden eklenebilir ya da çıkarılabilir.
+
+## EZPZ bugün neler tutuyor
+
+Fon, büyük bitcoin ETF'lerinin yanında çok küçük kalıyor. [Çeyrek raporu](L3), 30 Eylül 2026 itibarıyla yaklaşık <strong>17,02 milyon dolar</strong> net varlık gösteriyor. Fonun <strong>%76,39</strong>'u bitcoin, %12,76'sı ether, %5,37'si XRP ve %3,76'sı Solana'ydı. Dogecoin, Cardano ve Stellar Lumens'in her biri %1'in altındaydı. Bunlara küçük bir HYPE payı eklenecek, ancak belge bir ağırlık vermiyor.
+
+!figure:fact
+
+## HYPE için güçlü bir yıl
+
+HYPE zayıf bir piyasada öne çıktı. [The Block](L4), token'ın 24 Kasım itibarıyla yılbaşından bu yana %120'den fazla yükseldiğini ve yaklaşık 13,6 milyar dolarlık piyasa değeriyle en büyük 10 kripto para arasına girdiğini bildirdi. Kraken'de HYPE'ın günlük kapanışı 22 Eylül'de 97 dolar civarında zirve yaptı ve 25 Kasım'da yaklaşık 61,67 dolardı.
+
+HYPE zaten başka ABD fonlarında da var. The Block'a göre üç spot Hyperliquid ETF'si bu yıl piyasaya çıktığından beri 3,3 milyar doların üzerinde işlem hacmine ulaştı, ancak toplamda 250 milyon doların altında varlık yönetiyor. [crypto.news](L5), Bitwise 10 Crypto Index ETF'nin HYPE'ı temmuzda eklediğini hatırlattı.
+
+!mid_cta
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Bir endeks ETF'si, cüzdan ya da anahtarlarla uğraşmadan, normal bir aracı kurum hesabıyla bir coin sepetine sahip olmanızı sağlar. Karşılığında coin'leri kendiniz tutmazsınız, fon ücretlerini ödersiniz ve endeksin dahil etmeye karar verdiği her şeyi, HYPE gibi daha yeni ve daha oynak token'lar da dahil, almış olursunuz.
+
+EZPZ gibi bir fonda sonucu hâlâ büyük ölçüde bitcoin belirliyor; bu yüzden küçük yeni bir pozisyonun ilk gün çok şey değiştirmesi beklenmez. Yine de HYPE 2026'da sert dalgalandı ve sepetteki her coin keskin şekilde düşebilir. Bitcoin'i doğrudan almayı tercih ediyorsanız, ABD'de düzenlenen [Coinbase](REF) gibi bir borsada küçük tutarlarla başlayabilirsiniz.
+
+Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- 1 Aralık'taki yeniden dengelemeden sonra EZPZ'nin gerçekte ne kadar HYPE tuttuğu.
+- Benzer göstergeleri izleyen diğer endeks fonlarının da HYPE ekleyip eklemeyeceği.
+- Eylül zirvesinden geri çekilmesinin ardından HYPE'ın yıl sonunda nasıl işlem göreceği.
+
+!soft: Fon mu, coin'in kendisi mi? [Bitcoin ETF'si ile bitcoin almayı](/articles/bitcoin-etf-vs-buying-bitcoin) karşılaştırın
+
+!end_cta
+
+!disclosure

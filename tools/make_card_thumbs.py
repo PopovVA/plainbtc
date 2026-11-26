@@ -2708,7 +2708,115 @@ def thumb_nvidia_settlement():
     ], "note": "Editorial composite; logo for identification only; the graphics card is a generic drawing, not an Nvidia product photo."}
 
 
+def thumb_cbw_direct_deposit():
+    """Deep-blue editorial illustration: a phone drawn by PlainBTC (not a Coinbase screenshot) showing the
+    paycheck -> USDC on Base flow, with the official Coinbase icon and Circle USDC logo (Wikimedia Commons,
+    identification only) and the limits from Coinbase Wallet's Nov. 25, 2026 launch post and help page."""
+    cb = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/5/5c/Coinbase_Icon.png", CACHE/"coinbase-icon.png")).convert("RGBA")
+    usdc = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/4/4a/Circle_USDC_Logo.svg", CACHE/"circle-usdc-logo.svg")).convert("RGBA")
+    base = gradient_bg(top=(10, 40, 110), bottom=(6, 14, 38))
+    d = Draw(base)
+    ink, mute, cyan, blue = (235, 242, 255), (160, 180, 215), (34, 211, 238), (0, 82, 255)
+    # phone
+    px, py, pw, ph = 46, 22, 196, 318
+    d.rounded_rectangle([px, py, px + pw, py + ph], radius=28, fill=(14, 20, 34), outline=(70, 90, 130), width=3)
+    d.rounded_rectangle([px + 74, py + 10, px + 122, py + 18], radius=4, fill=(40, 50, 70))
+    d.text((px + 20, py + 34), "Direct Deposit", font=font(FONT_B, 16), fill=ink)
+    # paycheck card
+    d.rounded_rectangle([px + 16, py + 66, px + pw - 16, py + 122], radius=12, fill=(30, 41, 59))
+    d.ellipse([px + 26, py + 76, px + 62, py + 112], fill=(34, 197, 94))
+    tw = d.textlength("$", font=font(FONT_B, 22)); d.text((px + 44 - tw / 2, py + 79), "$", font=font(FONT_B, 22), fill=WHITE)
+    d.text((px + 72, py + 78), "Paycheck", font=font(FONT_B, 13), fill=ink)
+    d.text((px + 72, py + 98), "U.S. dollars", font=font(FONT_R, 11), fill=mute)
+    # arrow
+    ax = px + pw / 2
+    d.line([(ax, py + 130), (ax, py + 160)], fill=cyan, width=4)
+    d.polygon([(ax - 9, py + 156), (ax + 9, py + 156), (ax, py + 170)], fill=cyan)
+    d.text((ax + 14, py + 140), "1 to 1", font=font(FONT_B, 11), fill=cyan)
+    # usdc card
+    d.rounded_rectangle([px + 16, py + 176, px + pw - 16, py + 232], radius=12, fill=(30, 41, 59))
+    paste_contain(base, usdc, (px + 22, py + 180, 46, 48), pad=2)
+    d = Draw(base)
+    d.text((px + 72, py + 188), "USDC", font=font(FONT_B, 13), fill=ink)
+    d.text((px + 72, py + 208), "on Base", font=font(FONT_R, 11), fill=mute)
+    d.rounded_rectangle([px + 16, py + 252, px + pw - 16, py + 284], radius=16, fill=cyan)
+    tw = d.textlength("1 to 3 business days", font=font(FONT_B, 11))
+    d.text((px + pw / 2 - tw / 2, py + 261), "1 to 3 business days", font=font(FONT_B, 11), fill=(8, 20, 40))
+    # right column
+    x0 = 286
+    d.rounded_rectangle([x0, 28, x0 + 54, 82], radius=12, fill=WHITE)
+    paste_contain(base, cb, (x0 + 4, 32, 46, 46), pad=2)
+    d = Draw(base)
+    d.text((x0 + 68, 32), "Coinbase Wallet", font=font(FONT_B, 22), fill=ink)
+    d.text((x0 + 68, 62), "Direct deposit, Nov. 25, 2026", font=font(FONT_R, 12), fill=mute)
+    rows = [("$3,000", "per deposit"), ("$10,000", "daily limit"), ("1", "virtual account per user")]
+    for i, (big, small) in enumerate(rows):
+        y = 110 + i * 66
+        d.rounded_rectangle([x0, y, x0 + 6, y + 48], radius=3, fill=cyan)
+        d.text((x0 + 18, y - 2), big, font=font(FONT_B, 30), fill=WHITE)
+        bw = d.textlength(big, font=font(FONT_B, 30))
+        d.text((x0 + 30 + bw, y + 14), small, font=font(FONT_R, 14), fill=mute)
+    d.text((x0, 316), "Logos: Wikimedia Commons · phone: illustration", font=font(FONT_R, 10), fill=mute)
+    return base, {"kind": "composite", "sources": [
+        {"file": "Coinbase_Icon.png", "license": "Logo", "url": "https://commons.wikimedia.org/wiki/File:Coinbase_Icon.png", "credit": "Coinbase"},
+        {"file": "Circle_USDC_Logo.svg", "license": "Logo", "url": "https://commons.wikimedia.org/wiki/File:Circle_USDC_Logo.svg", "credit": "Circle/USDC"},
+        {"file": "Coinbase Wallet on X, Nov. 25, 2026", "license": "Facts cited", "url": "https://x.com/CoinbaseWallet/status/2125605435097198999", "credit": "Coinbase Wallet"},
+        {"file": "Coinbase Help: Direct deposit in Coinbase Wallet", "license": "Facts cited", "url": "https://help.coinbase.com/en/wallet/managing-account/receive-usd-wallet", "credit": "Coinbase"},
+    ], "note": "Editorial composite; logos for identification only; the phone is a PlainBTC drawing, not a Coinbase app screenshot."}
+
+
+def thumb_ezpz_hype():
+    """Mint Hyperliquid board: official Hyperliquid wordmark (Wikimedia Commons, CC BY-SA 4.0), Kraken HYPEUSD
+    daily closes Jan 28 - Nov 25, 2026, and the eight EZPZ coins from Dec. 1, 2026 (SEC prospectus supplement)."""
+    hl = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/8/8f/Hyperliquid_Logo.png", CACHE/"hyperliquid-logo.png")).convert("RGBA")
+    url = "https://api.kraken.com/0/public/OHLC?pair=HYPEUSD&interval=1440"
+    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60, context=CTX) as r:
+        rows = next(v for k, v in json.load(r)["result"].items() if k != "last")
+    end = datetime(2026, 11, 26, tzinfo=timezone.utc)
+    pts = [(datetime.fromtimestamp(r[0], tz=timezone.utc), float(r[4])) for r in rows]
+    pts = [p for p in pts if p[0] < end]
+    xs, closes = [p[0] for p in pts], [p[1] for p in pts]
+    bg, deep, teal = "#dbfbf6", "#0b3b33", "#0f9f86"
+    fig = plt.figure(figsize=(6.4, 3.6), dpi=100 * S); fig.patch.set_facecolor(bg)
+    ax = fig.add_axes([0.07, 0.10, 0.50, 0.50]); ax.set_facecolor(bg)
+    for s in ("top", "right", "left"): ax.spines[s].set_visible(False)
+    ax.spines["bottom"].set_color("#7fbfb2")
+    ax.tick_params(colors="#2f6b60", labelsize=6.5, length=0)
+    ax.grid(True, axis="y", color="#b8eadf", linewidth=0.6)
+    ax.plot(xs, closes, color=teal, linewidth=1.6)
+    ax.fill_between(xs, closes, min(closes) * 0.9, color=teal, alpha=0.12)
+    ax.set_ylim(min(closes) * 0.9, max(closes) * 1.08)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"${v:.0f}"))
+    ax.xaxis.set_major_locator(mdates.MonthLocator(bymonth=[3, 6, 9]))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
+    fig.text(0.07, 0.66, "HYPE/USD daily close on Kraken, 2026", color="#2f6b60", fontsize=7.5, va="center")
+    fig.text(0.62, 0.84, "Joins Franklin's", color=deep, fontsize=12, fontweight="bold", va="center")
+    fig.text(0.62, 0.77, "EZPZ crypto ETF", color=deep, fontsize=12, fontweight="bold", va="center")
+    fig.text(0.62, 0.69, "on or about Dec. 1, 2026", color="#2f6b60", fontsize=9, va="center")
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100 * S, facecolor=bg); plt.close(fig); buf.seek(0)
+    base = Image.open(buf).convert("RGB")
+    paste_contain(base, hl, (30, 22, 300, 70), pad=2)
+    d = Draw(base)
+    coins = ["BTC", "ETH", "XRP", "SOL", "DOGE", "ADA", "XLM", "HYPE"]
+    d.text((398, 152), "8 coins from Dec. 1", font=font(FONT_B, 13), fill=(11, 59, 51))
+    for i, c in enumerate(coins):
+        cx = 398 + (i % 2) * 104; cy = 178 + (i // 2) * 36
+        new = c == "HYPE"
+        d.rounded_rectangle([cx, cy, cx + 94, cy + 28], radius=13, fill=(15, 159, 134) if new else (255, 255, 255), outline=(15, 159, 134), width=1)
+        t = c + (" new" if new else "")
+        tw = d.textlength(t, font=font(FONT_B, 12))
+        d.text((cx + 47 - tw / 2, cy + 7), t, font=font(FONT_B, 12), fill=WHITE if new else (11, 59, 51))
+    d.text((398, 326), "Logo: Wikimedia Commons · data: Kraken, SEC", font=font(FONT_R, 9), fill=(47, 107, 96))
+    return base, {"kind": "composite", "sources": [
+        {"file": "Hyperliquid Logo.png", "license": "CC BY-SA 4.0", "url": "https://commons.wikimedia.org/wiki/File:Hyperliquid_Logo.png", "credit": "Hyperliquid"},
+        {"file": "Kraken OHLC HYPEUSD interval=1440", "license": "Kraken public API", "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "credit": "Daily HYPE/USD closes Jan 28 - Nov 25, 2026, from Kraken"},
+        {"file": "Franklin Crypto Index ETF prospectus supplement, Nov. 25, 2026", "license": "Facts cited", "url": "https://www.sec.gov/Archives/edgar/data/2033807/000207184426001935/draftezpz424b3nov2026.htm", "credit": "Franklin Templeton / SEC EDGAR"},
+    ], "note": "Editorial composite; logo for identification only; no endorsement by Hyperliquid or Franklin Templeton implied."}
+
+
 BUILDERS = {
+    "coinbase-wallet-direct-deposit-paycheck-usdc-base-nov-2026": thumb_cbw_direct_deposit,
+    "franklin-templeton-ezpz-etf-adds-hyperliquid-hype-nov-2026": thumb_ezpz_hype,
     "doj-scam-crackdown-800-defendants-1-billion-crypto-frozen-nov-2026": thumb_doj_scam_surge,
     "nvidia-290-million-settlement-crypto-mining-lawsuit-nov-2026": thumb_nvidia_settlement,
     "bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026": thumb_btc_58k_pce_month,

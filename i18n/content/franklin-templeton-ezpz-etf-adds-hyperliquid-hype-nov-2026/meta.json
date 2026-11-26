@@ -1,0 +1,23 @@
+{
+ "slug": "franklin-templeton-ezpz-etf-adds-hyperliquid-hype-nov-2026",
+ "date": "2026-11-25",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-etf-vs-buying-bitcoin",
+  "fidelity-crypto-adds-aave-link-uni-nov-2026",
+  "bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026",
+  "ether-solana-xrp-lead-selloff-bitcoin-65000-nov-2026",
+  "ark-invest-withdraws-coindesk-20-crypto-etfs-nov-2026",
+  "how-to-buy-first-bitcoin-coinbase"
+ ],
+ "sources": [
+  {"url": "https://www.sec.gov/Archives/edgar/data/2033807/000207184426001935/draftezpz424b3nov2026.htm", "title": "U.S. SEC (EDGAR): Franklin Crypto Index ETF prospectus supplement No. 1 adding HYPE", "date": "Nov 25, 2026"},
+  {"url": "https://www.cfbenchmarks.com/blog/cf-digital-asset-index-family-multi-asset-series-reconstitution-announcement-11", "title": "CF Benchmarks: CF Digital Asset Index Family reconstitution announcement (HYPE added Dec. 1, 2026)", "date": "Nov 2026"},
+  {"url": "https://www.sec.gov/Archives/edgar/data/2033807/000114036126043713/ef20080540_10q.htm", "title": "U.S. SEC (EDGAR): Franklin Crypto Trust quarterly report (holdings as of Sept. 30, 2026)", "date": "Nov 13, 2026"},
+  {"url": "https://www.theblock.co/news/markets/2026-11-25-franklin-templeton-ezpz-etf-adds-hyperliquid-hype-446686", "title": "The Block: Hyperliquid's HYPE will join bitcoin, ether and more in Franklin Templeton's crypto ETF", "date": "Nov 25, 2026"},
+  {"url": "https://crypto.news/franklin-templeton-to-add-hyperliquid-to-its-crypto-index-etf-in-december/", "title": "crypto.news: Franklin Templeton to add Hyperliquid to its crypto index ETF in December", "date": "Nov 25, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken public market data (HYPE/USD daily prices)", "date": "Nov 25, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Coinbase_Icon.png",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Coinbase_Icon.png",
+      "credit": "Coinbase"
+    },
+    {
+      "file": "Circle_USDC_Logo.svg",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Circle_USDC_Logo.svg",
+      "credit": "Circle/USDC"
+    },
+    {
+      "file": "Coinbase Wallet on X, Nov. 25, 2026",
+      "license": "Facts cited",
+      "url": "https://x.com/CoinbaseWallet/status/2125605435097198999",
+      "credit": "Coinbase Wallet"
+    },
+    {
+      "file": "Coinbase Help: Direct deposit in Coinbase Wallet",
+      "license": "Facts cited",
+      "url": "https://help.coinbase.com/en/wallet/managing-account/receive-usd-wallet",
+      "credit": "Coinbase"
+    }
+  ],
+  "note": "Editorial composite; logos for identification only; the phone is a PlainBTC drawing, not a Coinbase app screenshot.",
+  "slug": "coinbase-wallet-direct-deposit-paycheck-usdc-base-nov-2026",
+  "generated": "2026-11-26T00:04Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

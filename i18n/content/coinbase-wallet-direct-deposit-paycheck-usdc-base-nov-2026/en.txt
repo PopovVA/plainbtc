@@ -1,0 +1,61 @@
+title: Coinbase Wallet now takes paychecks by direct deposit and turns them into USDC on Base, up to $3,000 per deposit
+page_title: Coinbase Wallet direct deposit: get your paycheck in USDC
+description: Coinbase Wallet launched direct deposit on Nov. 25, 2026: eligible U.S. users get account and routing numbers, and pay arrives as USDC on Base at 1 to 1, with limits of $3,000 per deposit and $10,000 a day.
+og_description: Coinbase Wallet users in the U.S. can now route all or part of a paycheck into the wallet, where dollars convert 1 to 1 into the USDC stablecoin on Base. How it works, the limits, and what to think about before you switch.
+label: Business
+summary: Coinbase Wallet launched direct deposit for eligible U.S. users. You get account and routing numbers for your payroll, and your pay arrives as USDC on the Base network at a 1 to 1 rate, with no Coinbase deposit fee. Limits are $3,000 per deposit and $10,000 per day.
+===
+
+Your paycheck can now land in a crypto wallet instead of a bank account. On Wednesday, Nov. 25, <strong>Coinbase Wallet</strong> [announced on X](L1) that <strong>Direct Deposit</strong> is now available in its app: users can "receive all or part of your paycheck as USDC on Base, with zero deposit fees."
+
+USDC is a stablecoin, a crypto token designed to stay worth one U.S. dollar. Base is a blockchain network built by Coinbase. So instead of dollars sitting in a checking account, the money arrives as digital dollars in a wallet that the user controls.
+
+!takeaways
+- Coinbase Wallet launched direct deposit on Nov. 25, 2026, for eligible customers in the United States. Coinbase says the feature is still rolling out.
+- You get an account number and a routing number to give your employer or payroll provider. Dollars convert to USDC at a rate of 1 to 1 when they arrive.
+- The launch graphic lists limits of $3,000 per deposit, $10,000 per day, and one virtual account per user.
+- Coinbase charges no deposit fee, but your payroll provider may charge its own fees. Deposits usually take 1 to 3 business days.
+
+!figure:fact
+
+## How it works
+
+According to Coinbase's [help page](L2), setup takes a few steps. In Coinbase Wallet you open Add Funds and pick Direct Deposit, enter your personal and contact details, and complete an identity check. Coinbase says verification can take up to 24 hours. Once it is done, the app shows an account number and a routing number.
+
+You then hand those numbers to whoever pays you, usually through your employer's payroll system, and choose how much of each paycheck goes to the wallet. Coinbase Wallet's [setup post](L4) says you can send all of it or just part, so you could keep most of your pay in a bank and send a slice to the wallet.
+
+When the money arrives, the dollars are converted into USDC at a rate of 1 to 1 and show up as a received USDC transaction. Deposits typically arrive within 1 to 3 business days. Coinbase says some wallets may still show an older option called Receive USD under Transfer, and if Direct Deposit does not appear under Add Funds, it is not available yet for the selected wallet.
+
+!figure:flow
+
+## The limits and the fine print
+
+The image Coinbase Wallet posted with the launch spells out three limits: deposits of up to <strong>$3,000</strong> at a time, a <strong>$10,000</strong> daily deposit limit, and <strong>one virtual account</strong> per user. Someone whose paycheck is larger than $3,000 may need to split it or send only part to the wallet.
+
+[CoinMarketCap](L3) reported that the identity checks and the dollar-to-USDC conversion are handled by Bridge, a Coinbase partner, and that Coinbase covers the conversion fees. Coinbase did not list which states are eligible.
+
+Coinbase also warns about scams. Share the account and routing numbers only with the bank or payroll provider sending the money, and remember that Coinbase Support will not ask for the full numbers in a chat or on a call.
+
+!mid_cta
+
+## What beginners should think about first
+
+Coinbase Wallet is a self-custody wallet. That means you hold the keys, not Coinbase. It also means that if you lose your recovery phrase, nobody can reset your access for you. Before sending your pay there, make sure you understand how to back up the wallet safely.
+
+USDC aims to stay at $1, but a stablecoin is not a bank deposit, so a USDC balance in a wallet does not come with the FDIC insurance that covers a regular checking account. Many people would keep money for rent and bills in a bank and treat a wallet deposit as an extra, not a replacement.
+
+The USDC arrives on the Base network. If you later send it to another app or exchange, check that the receiving side supports USDC on Base, or the transfer could fail or get stuck. If what you actually want is to buy bitcoin with part of your pay, a regulated U.S. exchange such as [Coinbase](REF) is the more familiar route for beginners, and you can start with small amounts.
+
+This is not financial advice.
+
+## What to watch next
+
+- How quickly the Direct Deposit option reaches all eligible U.S. users, since Coinbase says it is still rolling out.
+- Whether Coinbase changes the $3,000 per-deposit and $10,000 daily limits.
+- Whether banks and other wallets respond with similar paycheck-to-stablecoin features.
+
+!soft: New to wallets? Start with [custodial vs. self-custody wallets, explained](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

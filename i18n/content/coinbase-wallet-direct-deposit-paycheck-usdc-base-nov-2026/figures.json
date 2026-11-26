@@ -1,0 +1,64 @@
+[
+  {
+    "id": "fact",
+    "file": "fact-coinbase-wallet-direct-deposit-limits.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: Coinbase Wallet direct deposit, launched Nov. 25, 2026, allows up to $3,000 per deposit, a $10,000 daily limit and one virtual account per user; pay arrives as USDC on Base at 1 to 1, usually in 1 to 3 business days",
+      "es": "Tarjeta: el depósito directo de Coinbase Wallet, lanzado el 25 de noviembre de 2026, permite hasta 3.000 dólares por depósito, un límite diario de 10.000 dólares y una cuenta virtual por usuario; el sueldo llega como USDC en Base a 1 por 1, normalmente en 1 a 3 días hábiles",
+      "pt": "Cartão: o depósito direto da Coinbase Wallet, lançado em 25 de novembro de 2026, permite até US$ 3.000 por depósito, limite diário de US$ 10.000 e uma conta virtual por usuário; o salário chega como USDC na Base a 1 por 1, normalmente em 1 a 3 dias úteis",
+      "fr": "Fiche : le dépôt direct de Coinbase Wallet, lancé le 25 novembre 2026, autorise jusqu'à 3 000 dollars par dépôt, une limite quotidienne de 10 000 dollars et un compte virtuel par utilisateur ; le salaire arrive en USDC sur Base à 1 pour 1, en général sous 1 à 3 jours ouvrés",
+      "de": "Faktenkarte: Die Direkteinzahlung von Coinbase Wallet, gestartet am 25. November 2026, erlaubt bis zu 3.000 Dollar pro Einzahlung, ein Tageslimit von 10.000 Dollar und ein virtuelles Konto pro Nutzer; der Lohn kommt als USDC auf Base im Verhältnis 1 zu 1 an, meist in 1 bis 3 Werktagen",
+      "ru": "Карточка: прямое зачисление в Coinbase Wallet, запущенное 25 ноября 2026 года, допускает до $3000 за одно зачисление, дневной лимит $10 000 и один виртуальный счет на пользователя; зарплата приходит в USDC в сети Base по курсу 1 к 1, обычно за 1–3 рабочих дня",
+      "tr": "Bilgi kartı: 25 Kasım 2026'da başlatılan Coinbase Wallet doğrudan yatırma özelliği, yatırma başına 3.000 dolara kadar, günlük 10.000 dolar limit ve kullanıcı başına bir sanal hesap sunuyor; maaş Base üzerinde 1'e 1 USDC olarak, genellikle 1 ila 3 iş gününde geliyor",
+      "id": "Kartu fakta: setoran langsung Coinbase Wallet, diluncurkan 25 November 2026, mengizinkan hingga US$3.000 per setoran, batas harian US$10.000, dan satu akun virtual per pengguna; gaji masuk sebagai USDC di Base dengan kurs 1 banding 1, biasanya dalam 1 sampai 3 hari kerja",
+      "ja": "ファクトカード：2026年11月25日に始まったCoinbase Walletの給与振込は、1回3,000ドルまで、1日1万ドルまで、1人1つの仮想口座。給与はBase上のUSDCとして1対1で届き、通常1〜3営業日かかる",
+      "ko": "팩트 카드: 2026년 11월 25일 출시된 Coinbase Wallet 직접 입금은 1회 최대 3,000달러, 하루 1만 달러 한도, 사용자당 가상 계좌 1개다. 급여는 Base 네트워크의 USDC로 1대1 전환돼 보통 영업일 기준 1~3일 안에 들어온다"
+    },
+    "caption": {
+      "en": "Source: Coinbase Wallet on X; Coinbase Help, Nov. 25, 2026",
+      "es": "Fuente: Coinbase Wallet on X; Coinbase Help, Nov. 25, 2026",
+      "pt": "Fonte: Coinbase Wallet on X; Coinbase Help, Nov. 25, 2026",
+      "fr": "Source : Coinbase Wallet on X; Coinbase Help, Nov. 25, 2026",
+      "de": "Quelle: Coinbase Wallet on X; Coinbase Help, Nov. 25, 2026",
+      "ru": "Источник: Coinbase Wallet on X; Coinbase Help, Nov. 25, 2026",
+      "tr": "Kaynak: Coinbase Wallet on X; Coinbase Help, Nov. 25, 2026",
+      "id": "Sumber: Coinbase Wallet on X; Coinbase Help, Nov. 25, 2026",
+      "ja": "出典: Coinbase Wallet on X; Coinbase Help, Nov. 25, 2026",
+      "ko": "출처: Coinbase Wallet on X; Coinbase Help, Nov. 25, 2026"
+    }
+  },
+  {
+    "id": "flow",
+    "file": "flow-coinbase-wallet-direct-deposit-steps.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Four steps of Coinbase Wallet direct deposit: verify your identity in the app, which can take up to 24 hours; give the account and routing numbers to your payroll provider; your employer pays in U.S. dollars; the dollars become USDC on Base at 1 to 1, usually within 1 to 3 business days",
+      "es": "Cuatro pasos del depósito directo de Coinbase Wallet: verificar la identidad en la app, lo que puede tardar hasta 24 horas; dar los números de cuenta y de ruta a la nómina; el empleador paga en dólares; los dólares se convierten en USDC en Base a 1 por 1, normalmente en 1 a 3 días hábiles",
+      "pt": "Quatro passos do depósito direto da Coinbase Wallet: verificar a identidade no app, o que pode levar até 24 horas; passar os números de conta e de roteamento para a folha de pagamento; o empregador paga em dólares; os dólares viram USDC na Base a 1 por 1, normalmente em 1 a 3 dias úteis",
+      "fr": "Quatre étapes du dépôt direct de Coinbase Wallet : vérifier son identité dans l'appli, ce qui peut prendre jusqu'à 24 heures ; donner les numéros de compte et de routage au service de paie ; l'employeur paie en dollars ; les dollars deviennent des USDC sur Base à 1 pour 1, en général sous 1 à 3 jours ouvrés",
+      "de": "Vier Schritte der Direkteinzahlung bei Coinbase Wallet: Identität in der App bestätigen, was bis zu 24 Stunden dauern kann; Konto- und Routing-Nummer an die Lohnabrechnung geben; der Arbeitgeber zahlt in Dollar; die Dollar werden auf Base 1 zu 1 in USDC umgewandelt, meist in 1 bis 3 Werktagen",
+      "ru": "Четыре шага прямого зачисления в Coinbase Wallet: пройти проверку личности в приложении, что может занять до 24 часов; передать номер счета и routing number в бухгалтерию; работодатель платит в долларах; доллары превращаются в USDC в сети Base по курсу 1 к 1, обычно за 1–3 рабочих дня",
+      "tr": "Coinbase Wallet doğrudan yatırma sürecinin dört adımı: uygulamada kimliğinizi doğrulayın (24 saate kadar sürebilir); hesap ve routing numaralarını bordro sağlayıcısına verin; işvereniniz dolar olarak öder; dolarlar Base üzerinde 1'e 1 USDC'ye dönüşür, genellikle 1 ila 3 iş günü içinde",
+      "id": "Empat langkah setoran langsung Coinbase Wallet: verifikasi identitas di aplikasi, yang bisa memakan waktu hingga 24 jam; berikan nomor rekening dan routing ke penyedia penggajian; pemberi kerja membayar dalam dolar AS; dolar berubah menjadi USDC di Base dengan kurs 1 banding 1, biasanya dalam 1 sampai 3 hari kerja",
+      "ja": "Coinbase Walletの給与振込の4ステップ：アプリで本人確認（最大24時間）、口座番号とルーティング番号を給与担当に伝える、雇用主が米ドルで支払う、ドルがBase上のUSDCに1対1で変換され、通常1〜3営業日で届く",
+      "ko": "Coinbase Wallet 직접 입금 4단계: 앱에서 신원 확인(최대 24시간 소요), 계좌번호와 라우팅 번호를 급여 담당에 전달, 고용주가 미국 달러로 지급, 달러가 Base에서 1대1로 USDC로 바뀌어 보통 영업일 기준 1~3일 안에 도착"
+    },
+    "caption": {
+      "en": "Source: Coinbase Help, Nov. 25, 2026",
+      "es": "Fuente: Coinbase Help, Nov. 25, 2026",
+      "pt": "Fonte: Coinbase Help, Nov. 25, 2026",
+      "fr": "Source : Coinbase Help, Nov. 25, 2026",
+      "de": "Quelle: Coinbase Help, Nov. 25, 2026",
+      "ru": "Источник: Coinbase Help, Nov. 25, 2026",
+      "tr": "Kaynak: Coinbase Help, Nov. 25, 2026",
+      "id": "Sumber: Coinbase Help, Nov. 25, 2026",
+      "ja": "出典: Coinbase Help, Nov. 25, 2026",
+      "ko": "출처: Coinbase Help, Nov. 25, 2026"
+    }
+  }
+]

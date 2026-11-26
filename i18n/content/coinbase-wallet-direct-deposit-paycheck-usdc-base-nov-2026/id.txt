@@ -1,0 +1,61 @@
+title: Coinbase Wallet kini menerima gaji lewat setoran langsung dan mengubahnya menjadi USDC di Base, hingga US$3.000 per setoran
+page_title: Setoran langsung Coinbase Wallet: terima gaji dalam USDC
+description: Coinbase Wallet meluncurkan setoran langsung pada 25 November 2026: pengguna AS yang memenuhi syarat mendapat nomor rekening dan nomor routing, dan gaji masuk sebagai USDC di Base dengan kurs 1 banding 1, dengan batas US$3.000 per setoran dan US$10.000 per hari.
+og_description: Pengguna Coinbase Wallet di AS kini bisa mengarahkan seluruh atau sebagian gaji ke dompet, tempat dolar diubah 1 banding 1 menjadi stablecoin USDC di Base. Cara kerjanya, batasnya, dan hal yang perlu dipikirkan sebelum beralih.
+label: Bisnis
+summary: Coinbase Wallet meluncurkan setoran langsung untuk pengguna AS yang memenuhi syarat. Anda mendapat nomor rekening dan nomor routing untuk penggajian, dan gaji masuk sebagai USDC di jaringan Base dengan kurs 1 banding 1, tanpa biaya setoran dari Coinbase. Batasnya US$3.000 per setoran dan US$10.000 per hari.
+===
+
+Gaji Anda kini bisa masuk ke dompet kripto, bukan ke rekening bank. Pada Rabu, 25 November, <strong>Coinbase Wallet</strong> [mengumumkan di X](L1) bahwa <strong>Direct Deposit</strong> (setoran langsung) kini tersedia di aplikasinya: pengguna bisa "menerima seluruh atau sebagian gaji sebagai USDC di Base, tanpa biaya setoran".
+
+USDC adalah stablecoin, token kripto yang dirancang agar selalu bernilai satu dolar AS. Base adalah jaringan blockchain yang dibangun Coinbase. Jadi, alih-alih dolar di rekening giro, uang masuk sebagai dolar digital ke dompet yang dikendalikan sendiri oleh penggunanya.
+
+!takeaways
+- Coinbase Wallet meluncurkan setoran langsung pada 25 November 2026 untuk nasabah yang memenuhi syarat di Amerika Serikat. Coinbase mengatakan fitur ini masih diluncurkan bertahap.
+- Anda mendapat nomor rekening dan nomor routing untuk diberikan ke pemberi kerja atau penyedia penggajian. Dolar diubah menjadi USDC dengan kurs 1 banding 1 saat tiba.
+- Gambar peluncuran mencantumkan batas US$3.000 per setoran, US$10.000 per hari, dan satu akun virtual per pengguna.
+- Coinbase tidak memungut biaya setoran, tetapi penyedia penggajian Anda bisa mengenakan biayanya sendiri. Setoran biasanya memakan waktu 1 sampai 3 hari kerja.
+
+!figure:fact
+
+## Cara kerjanya
+
+Menurut [halaman bantuan](L2) Coinbase, pengaturannya hanya beberapa langkah. Di Coinbase Wallet Anda membuka Add Funds dan memilih Direct Deposit, mengisi data pribadi dan kontak, lalu menyelesaikan verifikasi identitas. Coinbase menyebut verifikasi bisa memakan waktu hingga 24 jam. Setelah selesai, aplikasi menampilkan nomor rekening dan nomor routing.
+
+Selanjutnya Anda memberikan nomor-nomor itu kepada pihak yang membayar Anda, biasanya lewat sistem penggajian perusahaan, lalu memilih berapa bagian dari tiap gaji yang masuk ke dompet. [Unggahan panduan](L4) Coinbase Wallet menyebut Anda bisa mengirim semuanya atau hanya sebagian, jadi sebagian besar gaji bisa tetap di bank dan hanya sebagian kecil dikirim ke dompet.
+
+Saat uang tiba, dolar diubah menjadi USDC dengan kurs 1 banding 1 dan muncul sebagai transaksi USDC yang diterima. Setoran biasanya tiba dalam 1 sampai 3 hari kerja. Coinbase mengingatkan bahwa sebagian dompet mungkin masih menampilkan opsi lama bernama Receive USD di menu Transfer, dan jika Direct Deposit tidak muncul di Add Funds, fitur itu belum tersedia untuk dompet yang dipilih.
+
+!figure:flow
+
+## Batas dan ketentuan kecilnya
+
+Gambar yang diunggah Coinbase Wallet saat peluncuran merinci tiga batas: setoran hingga <strong>US$3.000</strong> sekali kirim, batas harian <strong>US$10.000</strong>, dan <strong>satu akun virtual</strong> per pengguna. Orang yang gajinya lebih dari US$3.000 per pembayaran mungkin perlu memecahnya atau hanya mengirim sebagian ke dompet.
+
+[CoinMarketCap](L3) melaporkan bahwa verifikasi identitas dan konversi dolar ke USDC ditangani oleh Bridge, mitra Coinbase, dan bahwa Coinbase menanggung biaya konversinya. Coinbase tidak merinci negara bagian mana yang memenuhi syarat.
+
+Coinbase juga mengingatkan soal penipuan. Bagikan nomor rekening dan nomor routing hanya kepada bank atau penyedia penggajian yang mengirim uang, dan ingat bahwa Dukungan Coinbase tidak akan meminta nomor lengkap lewat chat atau telepon.
+
+!mid_cta
+
+## Yang perlu dipikirkan pemula lebih dulu
+
+Coinbase Wallet adalah dompet swakelola (self-custody). Artinya kunci dipegang oleh Anda, bukan Coinbase. Artinya juga, jika frasa pemulihan Anda hilang, tidak ada yang bisa memulihkan akses Anda. Sebelum mengirim gaji ke sana, pastikan Anda tahu cara mencadangkan dompet dengan aman.
+
+USDC dirancang untuk tetap di US$1, tetapi stablecoin bukan simpanan bank, sehingga saldo USDC di dompet tidak dilindungi asuransi FDIC yang menjamin rekening giro biasa. Banyak orang akan memilih menyimpan uang untuk sewa dan tagihan di bank dan menganggap setoran ke dompet sebagai tambahan, bukan pengganti.
+
+USDC masuk di jaringan Base. Jika nanti Anda mengirimnya ke aplikasi atau bursa lain, pastikan pihak penerima mendukung USDC di Base, atau transfer bisa gagal atau tertahan. Jika yang sebenarnya Anda inginkan adalah membeli bitcoin dengan sebagian gaji, bursa teregulasi di AS seperti [Coinbase](REF) adalah jalur yang lebih dikenal pemula, dan Anda bisa mulai dengan jumlah kecil.
+
+Ini bukan nasihat keuangan.
+
+## Yang perlu dipantau selanjutnya
+
+- Seberapa cepat opsi setoran langsung menjangkau semua pengguna AS yang memenuhi syarat, karena Coinbase menyebut peluncurannya masih berjalan.
+- Apakah Coinbase mengubah batas US$3.000 per setoran dan US$10.000 per hari.
+- Apakah bank dan dompet lain merespons dengan fitur serupa untuk menerima gaji dalam stablecoin.
+
+!soft: Baru mengenal dompet kripto? Mulai dari [dompet kustodian vs. swakelola, dijelaskan](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

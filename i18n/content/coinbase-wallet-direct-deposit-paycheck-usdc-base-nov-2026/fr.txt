@@ -1,0 +1,61 @@
+title: Coinbase Wallet accepte désormais le salaire par virement direct et le convertit en USDC sur Base, jusqu'à 3 000 dollars par dépôt
+page_title: Dépôt direct dans Coinbase Wallet : recevoir son salaire en USDC
+description: Coinbase Wallet a lancé le dépôt direct le 25 novembre 2026 : les utilisateurs américains éligibles reçoivent un numéro de compte et un numéro de routage, et le salaire arrive en USDC sur Base à 1 pour 1, avec des limites de 3 000 dollars par dépôt et 10 000 dollars par jour.
+og_description: Aux États-Unis, les utilisateurs de Coinbase Wallet peuvent désormais verser tout ou partie de leur salaire sur le portefeuille, où les dollars sont convertis à 1 pour 1 en stablecoin USDC sur Base. Fonctionnement, limites et points à vérifier avant de se lancer.
+label: Entreprises
+summary: Coinbase Wallet a lancé le dépôt direct pour les utilisateurs américains éligibles. Vous obtenez un numéro de compte et un numéro de routage pour votre paie, et le salaire arrive en USDC sur le réseau Base au taux de 1 pour 1, sans frais de dépôt de Coinbase. Les limites sont de 3 000 dollars par dépôt et 10 000 dollars par jour.
+===
+
+Votre salaire peut désormais arriver sur un portefeuille crypto plutôt que sur un compte bancaire. Le mercredi 25 novembre, <strong>Coinbase Wallet</strong> [a annoncé sur X](L1) que le <strong>dépôt direct</strong> est disponible dans son application : les utilisateurs peuvent « recevoir tout ou partie de leur salaire en USDC sur Base, sans frais de dépôt ».
+
+L'USDC est un stablecoin, un jeton crypto conçu pour valoir toujours un dollar américain. Base est un réseau blockchain créé par Coinbase. Au lieu de dollars sur un compte courant, l'argent arrive donc sous forme de dollars numériques dans un portefeuille contrôlé par l'utilisateur lui-même.
+
+!takeaways
+- Coinbase Wallet a lancé le dépôt direct le 25 novembre 2026 pour les clients éligibles aux États-Unis. Coinbase précise que le déploiement est encore en cours.
+- Vous recevez un numéro de compte et un numéro de routage à transmettre à votre employeur ou à votre prestataire de paie. Les dollars sont convertis en USDC au taux de 1 pour 1 à leur arrivée.
+- Le visuel du lancement indique des limites de 3 000 dollars par dépôt, 10 000 dollars par jour et un compte virtuel par utilisateur.
+- Coinbase ne facture pas de frais de dépôt, mais votre prestataire de paie peut appliquer les siens. Les dépôts prennent en général 1 à 3 jours ouvrés.
+
+!figure:fact
+
+## Comment ça marche
+
+D'après la [page d'aide](L2) de Coinbase, la mise en place se fait en quelques étapes. Dans Coinbase Wallet, on ouvre Add Funds, on choisit Direct Deposit, on saisit ses informations personnelles et ses coordonnées, puis on passe une vérification d'identité. Coinbase indique que la vérification peut prendre jusqu'à 24 heures. Une fois terminée, l'application affiche un numéro de compte et un numéro de routage.
+
+Il suffit ensuite de transmettre ces numéros à celui qui vous paie, en général via le système de paie de l'employeur, et de choisir quelle part de chaque salaire va sur le portefeuille. Le [message de configuration](L4) de Coinbase Wallet précise qu'on peut tout envoyer ou seulement une partie : on peut donc garder l'essentiel du salaire à la banque et n'envoyer qu'une tranche sur le portefeuille.
+
+À l'arrivée, les dollars sont convertis en USDC au taux de 1 pour 1 et apparaissent comme une transaction USDC reçue. Les dépôts arrivent en général sous 1 à 3 jours ouvrés. Coinbase prévient que certains portefeuilles affichent encore une ancienne option, Receive USD, sous Transfer, et que si Direct Deposit n'apparaît pas sous Add Funds, la fonction n'est pas encore disponible pour le portefeuille sélectionné.
+
+!figure:flow
+
+## Les limites et les petites lignes
+
+Le visuel publié par Coinbase Wallet au lancement détaille trois limites : des dépôts jusqu'à <strong>3 000 dollars</strong> à la fois, un plafond quotidien de <strong>10 000 dollars</strong> et <strong>un compte virtuel</strong> par utilisateur. Une personne dont la paie dépasse 3 000 dollars devra peut-être la fractionner ou n'en envoyer qu'une partie sur le portefeuille.
+
+[CoinMarketCap](L3) rapporte que la vérification d'identité et la conversion des dollars en USDC sont assurées par Bridge, un partenaire de Coinbase, et que Coinbase prend en charge les frais de conversion. Coinbase n'a pas précisé quels États sont éligibles.
+
+Coinbase met aussi en garde contre les arnaques. Ne communiquez les numéros de compte et de routage qu'à la banque ou au prestataire de paie qui envoie l'argent, et rappelez-vous que le support de Coinbase ne demandera jamais les numéros complets par chat ou par téléphone.
+
+!mid_cta
+
+## Ce qu'un débutant doit considérer d'abord
+
+Coinbase Wallet est un portefeuille en auto-conservation. Ce sont donc vous qui détenez les clés, pas Coinbase. Cela signifie aussi que si vous perdez votre phrase de récupération, personne ne pourra rétablir votre accès. Avant d'y faire verser votre salaire, assurez-vous de savoir sauvegarder le portefeuille en toute sécurité.
+
+L'USDC vise à rester à 1 dollar, mais un stablecoin n'est pas un dépôt bancaire : un solde en USDC sur un portefeuille ne bénéficie pas de l'assurance FDIC qui couvre un compte courant classique. Beaucoup préféreront garder à la banque l'argent du loyer et des factures et considérer le dépôt sur le portefeuille comme un complément, pas comme un remplacement.
+
+L'USDC arrive sur le réseau Base. Si vous l'envoyez ensuite vers une autre application ou une plateforme d'échange, vérifiez que la destination accepte l'USDC sur Base, sinon le transfert peut échouer ou rester bloqué. Si votre but est plutôt d'acheter du bitcoin avec une partie de votre salaire, une plateforme réglementée aux États-Unis comme [Coinbase](REF) est la voie la plus connue des débutants, et l'on peut commencer avec de petits montants.
+
+Ceci n'est pas un conseil financier.
+
+## À surveiller
+
+- La vitesse à laquelle l'option de dépôt direct atteindra tous les utilisateurs américains éligibles, Coinbase indiquant que le déploiement continue.
+- Un éventuel changement des limites de 3 000 dollars par dépôt et de 10 000 dollars par jour.
+- La réaction des banques et des autres portefeuilles, avec des fonctions comparables pour recevoir son salaire en stablecoins.
+
+!soft: Débutant avec les portefeuilles ? Commencez par [portefeuilles dépositaires et en auto-conservation, expliqués](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

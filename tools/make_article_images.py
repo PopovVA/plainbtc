@@ -5863,7 +5863,121 @@ NVDA_TL_ALTS = {
 }
 
 
+CBW_SLUG = "coinbase-wallet-direct-deposit-paycheck-usdc-base-nov-2026"
+EZPZ_SLUG = "franklin-templeton-ezpz-etf-adds-hyperliquid-hype-nov-2026"
+
+
+def build_cbw_direct_deposit():
+    d = OUT / CBW_SLUG
+    fact = make_fact_card(
+        d / "fact-coinbase-wallet-direct-deposit-limits",
+        "Coinbase Wallet direct deposit · Nov. 25, 2026",
+        "$3,000 per deposit",
+        "$10,000 daily limit and one virtual account per user. Pay arrives as USDC on Base at 1 to 1, usually in 1 to 3 business days",
+        footer="Sources: Coinbase Wallet on X; Coinbase Help, Nov. 25, 2026",
+    )
+    flow = make_timeline_card(
+        d / "flow-coinbase-wallet-direct-deposit-steps",
+        "How Coinbase Wallet direct deposit works",
+        [
+            ("Step 1", "Verify your identity in the app (up to 24 hours)", (96, 165, 250)),
+            ("Step 2", "Give the account and routing numbers to payroll", (167, 139, 250)),
+            ("Step 3", "Your employer pays in U.S. dollars", ORANGE),
+            ("Step 4", "Dollars become USDC 1 to 1 on Base in 1 to 3 business days", GREEN),
+        ],
+        footer="Source: Coinbase Help, Nov. 25, 2026",
+        margin=170, wrap_w=250,
+    )
+    return [
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: Coinbase Wallet direct deposit, launched Nov. 25, 2026, allows up to $3,000 per deposit, a $10,000 daily limit and one virtual account per user; pay arrives as USDC on Base at 1 to 1, usually in 1 to 3 business days", CBW_FACT_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="Coinbase Wallet on X; Coinbase Help, Nov. 25, 2026")},
+        {"id": "flow", "file": flow.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Four steps of Coinbase Wallet direct deposit: verify your identity in the app, which can take up to 24 hours; give the account and routing numbers to your payroll provider; your employer pays in U.S. dollars; the dollars become USDC on Base at 1 to 1, usually within 1 to 3 business days", CBW_FLOW_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="Coinbase Help, Nov. 25, 2026")},
+    ]
+
+
+CBW_FACT_ALTS = {
+ "es": "Tarjeta: el depósito directo de Coinbase Wallet, lanzado el 25 de noviembre de 2026, permite hasta 3.000 dólares por depósito, un límite diario de 10.000 dólares y una cuenta virtual por usuario; el sueldo llega como USDC en Base a 1 por 1, normalmente en 1 a 3 días hábiles",
+ "pt": "Cartão: o depósito direto da Coinbase Wallet, lançado em 25 de novembro de 2026, permite até US$ 3.000 por depósito, limite diário de US$ 10.000 e uma conta virtual por usuário; o salário chega como USDC na Base a 1 por 1, normalmente em 1 a 3 dias úteis",
+ "fr": "Fiche : le dépôt direct de Coinbase Wallet, lancé le 25 novembre 2026, autorise jusqu'à 3 000 dollars par dépôt, une limite quotidienne de 10 000 dollars et un compte virtuel par utilisateur ; le salaire arrive en USDC sur Base à 1 pour 1, en général sous 1 à 3 jours ouvrés",
+ "de": "Faktenkarte: Die Direkteinzahlung von Coinbase Wallet, gestartet am 25. November 2026, erlaubt bis zu 3.000 Dollar pro Einzahlung, ein Tageslimit von 10.000 Dollar und ein virtuelles Konto pro Nutzer; der Lohn kommt als USDC auf Base im Verhältnis 1 zu 1 an, meist in 1 bis 3 Werktagen",
+ "ru": "Карточка: прямое зачисление в Coinbase Wallet, запущенное 25 ноября 2026 года, допускает до $3000 за одно зачисление, дневной лимит $10 000 и один виртуальный счет на пользователя; зарплата приходит в USDC в сети Base по курсу 1 к 1, обычно за 1–3 рабочих дня",
+ "tr": "Bilgi kartı: 25 Kasım 2026'da başlatılan Coinbase Wallet doğrudan yatırma özelliği, yatırma başına 3.000 dolara kadar, günlük 10.000 dolar limit ve kullanıcı başına bir sanal hesap sunuyor; maaş Base üzerinde 1'e 1 USDC olarak, genellikle 1 ila 3 iş gününde geliyor",
+ "id": "Kartu fakta: setoran langsung Coinbase Wallet, diluncurkan 25 November 2026, mengizinkan hingga US$3.000 per setoran, batas harian US$10.000, dan satu akun virtual per pengguna; gaji masuk sebagai USDC di Base dengan kurs 1 banding 1, biasanya dalam 1 sampai 3 hari kerja",
+ "ja": "ファクトカード：2026年11月25日に始まったCoinbase Walletの給与振込は、1回3,000ドルまで、1日1万ドルまで、1人1つの仮想口座。給与はBase上のUSDCとして1対1で届き、通常1〜3営業日かかる",
+ "ko": "팩트 카드: 2026년 11월 25일 출시된 Coinbase Wallet 직접 입금은 1회 최대 3,000달러, 하루 1만 달러 한도, 사용자당 가상 계좌 1개다. 급여는 Base 네트워크의 USDC로 1대1 전환돼 보통 영업일 기준 1~3일 안에 들어온다",
+}
+CBW_FLOW_ALTS = {
+ "es": "Cuatro pasos del depósito directo de Coinbase Wallet: verificar la identidad en la app, lo que puede tardar hasta 24 horas; dar los números de cuenta y de ruta a la nómina; el empleador paga en dólares; los dólares se convierten en USDC en Base a 1 por 1, normalmente en 1 a 3 días hábiles",
+ "pt": "Quatro passos do depósito direto da Coinbase Wallet: verificar a identidade no app, o que pode levar até 24 horas; passar os números de conta e de roteamento para a folha de pagamento; o empregador paga em dólares; os dólares viram USDC na Base a 1 por 1, normalmente em 1 a 3 dias úteis",
+ "fr": "Quatre étapes du dépôt direct de Coinbase Wallet : vérifier son identité dans l'appli, ce qui peut prendre jusqu'à 24 heures ; donner les numéros de compte et de routage au service de paie ; l'employeur paie en dollars ; les dollars deviennent des USDC sur Base à 1 pour 1, en général sous 1 à 3 jours ouvrés",
+ "de": "Vier Schritte der Direkteinzahlung bei Coinbase Wallet: Identität in der App bestätigen, was bis zu 24 Stunden dauern kann; Konto- und Routing-Nummer an die Lohnabrechnung geben; der Arbeitgeber zahlt in Dollar; die Dollar werden auf Base 1 zu 1 in USDC umgewandelt, meist in 1 bis 3 Werktagen",
+ "ru": "Четыре шага прямого зачисления в Coinbase Wallet: пройти проверку личности в приложении, что может занять до 24 часов; передать номер счета и routing number в бухгалтерию; работодатель платит в долларах; доллары превращаются в USDC в сети Base по курсу 1 к 1, обычно за 1–3 рабочих дня",
+ "tr": "Coinbase Wallet doğrudan yatırma sürecinin dört adımı: uygulamada kimliğinizi doğrulayın (24 saate kadar sürebilir); hesap ve routing numaralarını bordro sağlayıcısına verin; işvereniniz dolar olarak öder; dolarlar Base üzerinde 1'e 1 USDC'ye dönüşür, genellikle 1 ila 3 iş günü içinde",
+ "id": "Empat langkah setoran langsung Coinbase Wallet: verifikasi identitas di aplikasi, yang bisa memakan waktu hingga 24 jam; berikan nomor rekening dan routing ke penyedia penggajian; pemberi kerja membayar dalam dolar AS; dolar berubah menjadi USDC di Base dengan kurs 1 banding 1, biasanya dalam 1 sampai 3 hari kerja",
+ "ja": "Coinbase Walletの給与振込の4ステップ：アプリで本人確認（最大24時間）、口座番号とルーティング番号を給与担当に伝える、雇用主が米ドルで支払う、ドルがBase上のUSDCに1対1で変換され、通常1〜3営業日で届く",
+ "ko": "Coinbase Wallet 직접 입금 4단계: 앱에서 신원 확인(최대 24시간 소요), 계좌번호와 라우팅 번호를 급여 담당에 전달, 고용주가 미국 달러로 지급, 달러가 Base에서 1대1로 USDC로 바뀌어 보통 영업일 기준 1~3일 안에 도착",
+}
+
+
+def build_ezpz_hype():
+    d = OUT / EZPZ_SLUG
+    labels = ["Bitcoin", "Ether", "XRP", "Solana", "Dogecoin", "Cardano", "Stellar"]
+    vals = [76.39, 12.76, 5.37, 3.76, 0.84, 0.55, 0.35]
+    chart = make_bar_chart(
+        d / "chart-ezpz-holdings-sept-30-2026",
+        labels, vals,
+        "Franklin Crypto Index ETF (EZPZ): holdings on Sept. 30, 2026 (% of net assets)",
+        colors=["#f7931a", "#8b9dc3", "#94a3b8", "#a78bfa", "#facc15", "#38bdf8", "#e2e8f0"],
+        value_fmt=lambda v: f"{v:.2f}%",
+        axis_fmt=lambda x, _p: f"{x:.0f}%",
+    )
+    fact = make_fact_card(
+        d / "fact-ezpz-eight-coins-hype-dec-1",
+        "Franklin Crypto Index ETF (EZPZ) · from Dec. 1, 2026",
+        "8 coins",
+        "Bitcoin, ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens and, new, Hyperliquid (HYPE). Weights follow the CF index",
+        footer="Source: Franklin Crypto Trust prospectus supplement, SEC, Nov. 25, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of Franklin Crypto Index ETF holdings on Sept. 30, 2026, as a share of net assets: bitcoin 76.39%, ether 12.76%, XRP 5.37%, Solana 3.76%, Dogecoin 0.84%, Cardano 0.55%, Stellar Lumens 0.35%", EZPZ_CHART_ALTS),
+         "caption": tr_map(CAPTION_CHART, src="Franklin Crypto Trust quarterly report (SEC), Sept. 30, 2026")},
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: from Dec. 1, 2026 the Franklin Crypto Index ETF (EZPZ) will hold eight coins: bitcoin, ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens and the newly added Hyperliquid (HYPE), weighted like its CF Benchmarks index", EZPZ_FACT_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="Franklin Crypto Trust prospectus supplement, SEC, Nov. 25, 2026")},
+    ]
+
+
+EZPZ_CHART_ALTS = {
+ "es": "Gráfico de barras de las tenencias del Franklin Crypto Index ETF al 30 de septiembre de 2026, como porcentaje del patrimonio neto: bitcoin 76,39%, ether 12,76%, XRP 5,37%, Solana 3,76%, Dogecoin 0,84%, Cardano 0,55%, Stellar Lumens 0,35%",
+ "pt": "Gráfico de barras das posições do Franklin Crypto Index ETF em 30 de setembro de 2026, como fatia do patrimônio líquido: bitcoin 76,39%, ether 12,76%, XRP 5,37%, Solana 3,76%, Dogecoin 0,84%, Cardano 0,55%, Stellar Lumens 0,35%",
+ "fr": "Graphique en barres des avoirs du Franklin Crypto Index ETF au 30 septembre 2026, en part de l'actif net : bitcoin 76,39 %, ether 12,76 %, XRP 5,37 %, Solana 3,76 %, Dogecoin 0,84 %, Cardano 0,55 %, Stellar Lumens 0,35 %",
+ "de": "Balkendiagramm der Bestände des Franklin Crypto Index ETF am 30. September 2026 in Prozent des Nettovermögens: Bitcoin 76,39 %, Ether 12,76 %, XRP 5,37 %, Solana 3,76 %, Dogecoin 0,84 %, Cardano 0,55 %, Stellar Lumens 0,35 %",
+ "ru": "Столбчатая диаграмма активов Franklin Crypto Index ETF на 30 сентября 2026 года в процентах от чистых активов: биткоин 76,39%, эфир 12,76%, XRP 5,37%, Solana 3,76%, Dogecoin 0,84%, Cardano 0,55%, Stellar Lumens 0,35%",
+ "tr": "Franklin Crypto Index ETF'nin 30 Eylül 2026 itibarıyla varlıklarının net varlıklara oranını gösteren çubuk grafik: bitcoin %76,39, ether %12,76, XRP %5,37, Solana %3,76, Dogecoin %0,84, Cardano %0,55, Stellar Lumens %0,35",
+ "id": "Grafik batang kepemilikan Franklin Crypto Index ETF per 30 September 2026 sebagai porsi aset bersih: bitcoin 76,39%, ether 12,76%, XRP 5,37%, Solana 3,76%, Dogecoin 0,84%, Cardano 0,55%, Stellar Lumens 0,35%",
+ "ja": "Franklin Crypto Index ETFの2026年9月30日時点の保有比率（純資産比）を示す棒グラフ：ビットコイン76.39%、イーサ12.76%、XRP 5.37%、ソラナ3.76%、ドージコイン0.84%、カルダノ0.55%、ステラルーメン0.35%",
+ "ko": "2026년 9월 30일 기준 Franklin Crypto Index ETF 보유 비중(순자산 대비) 막대그래프: 비트코인 76.39%, 이더 12.76%, XRP 5.37%, 솔라나 3.76%, 도지코인 0.84%, 카르다노 0.55%, 스텔라루멘 0.35%",
+}
+EZPZ_FACT_ALTS = {
+ "es": "Tarjeta: desde el 1 de diciembre de 2026 el Franklin Crypto Index ETF (EZPZ) tendrá ocho monedas: bitcoin, ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens y la recién añadida Hyperliquid (HYPE), ponderadas como su índice de CF Benchmarks",
+ "pt": "Cartão: a partir de 1º de dezembro de 2026 o Franklin Crypto Index ETF (EZPZ) terá oito moedas: bitcoin, ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens e a recém-incluída Hyperliquid (HYPE), com pesos iguais aos do seu índice da CF Benchmarks",
+ "fr": "Fiche : à partir du 1er décembre 2026, le Franklin Crypto Index ETF (EZPZ) détiendra huit cryptos : bitcoin, ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens et la nouvelle venue Hyperliquid (HYPE), pondérées comme son indice CF Benchmarks",
+ "de": "Faktenkarte: Ab dem 1. Dezember 2026 hält der Franklin Crypto Index ETF (EZPZ) acht Coins: Bitcoin, Ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens und neu Hyperliquid (HYPE), gewichtet wie sein CF-Benchmarks-Index",
+ "ru": "Карточка: с 1 декабря 2026 года Franklin Crypto Index ETF (EZPZ) будет держать восемь монет: биткоин, эфир, XRP, Solana, Dogecoin, Cardano, Stellar Lumens и новую Hyperliquid (HYPE), с весами как в индексе CF Benchmarks",
+ "tr": "Bilgi kartı: 1 Aralık 2026'dan itibaren Franklin Crypto Index ETF (EZPZ) sekiz coin tutacak: bitcoin, ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens ve yeni eklenen Hyperliquid (HYPE); ağırlıklar CF Benchmarks endeksini izliyor",
+ "id": "Kartu fakta: mulai 1 Desember 2026 Franklin Crypto Index ETF (EZPZ) akan memegang delapan koin: bitcoin, ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens, dan Hyperliquid (HYPE) yang baru ditambahkan, dengan bobot mengikuti indeks CF Benchmarks",
+ "ja": "ファクトカード：2026年12月1日からFranklin Crypto Index ETF（EZPZ）は8銘柄を保有：ビットコイン、イーサ、XRP、ソラナ、ドージコイン、カルダノ、ステラルーメン、新たに加わるHyperliquid（HYPE）。比率はCF Benchmarksの指数に連動",
+ "ko": "팩트 카드: 2026년 12월 1일부터 Franklin Crypto Index ETF(EZPZ)는 비트코인, 이더, XRP, 솔라나, 도지코인, 카르다노, 스텔라루멘, 새로 편입되는 하이퍼리퀴드(HYPE) 등 8개 코인을 CF Benchmarks 지수 비중대로 보유한다",
+}
+
+
 BUILDERS = {
+    "coinbase-wallet-direct-deposit-paycheck-usdc-base-nov-2026": "cbwdd",
+    "franklin-templeton-ezpz-etf-adds-hyperliquid-hype-nov-2026": "ezpzhype",
     "doj-scam-crackdown-800-defendants-1-billion-crypto-frozen-nov-2026": "dojscam",
     "nvidia-290-million-settlement-crypto-mining-lawsuit-nov-2026": "nvdasettle",
     "bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026": "btc58pce",
@@ -5966,7 +6080,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "dojscam":
+    if key == "cbwdd":
+        figs = build_cbw_direct_deposit()
+    elif key == "ezpzhype":
+        figs = build_ezpz_hype()
+    elif key == "dojscam":
         figs = build_doj_scam_surge()
     elif key == "nvdasettle":
         figs = build_nvidia_settlement()

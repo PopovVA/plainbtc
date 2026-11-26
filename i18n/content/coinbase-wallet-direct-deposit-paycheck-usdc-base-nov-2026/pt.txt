@@ -1,0 +1,61 @@
+title: Coinbase Wallet agora recebe salário por depósito direto e o converte em USDC na Base, até US$ 3.000 por depósito
+page_title: Depósito direto na Coinbase Wallet: receba o salário em USDC
+description: A Coinbase Wallet lançou o depósito direto em 25 de novembro de 2026: usuários elegíveis nos EUA recebem números de conta e de roteamento, e o salário chega como USDC na Base a 1 por 1, com limites de US$ 3.000 por depósito e US$ 10.000 por dia.
+og_description: Usuários da Coinbase Wallet nos EUA já podem mandar todo ou parte do salário para a carteira, onde os dólares viram a stablecoin USDC na Base a 1 por 1. Como funciona, os limites e o que considerar antes de mudar.
+label: Negócios
+summary: A Coinbase Wallet lançou o depósito direto para usuários elegíveis nos EUA. Você recebe números de conta e de roteamento para a folha de pagamento, e o salário chega como USDC na rede Base a uma taxa de 1 por 1, sem taxa de depósito da Coinbase. Os limites são US$ 3.000 por depósito e US$ 10.000 por dia.
+===
+
+Seu salário agora pode cair numa carteira cripto em vez de numa conta bancária. Na quarta-feira, 25 de novembro, a <strong>Coinbase Wallet</strong> [anunciou no X](L1) que o <strong>depósito direto</strong> já está disponível no app: os usuários podem "receber todo ou parte do salário como USDC na Base, sem taxas de depósito".
+
+USDC é uma stablecoin, um token cripto feito para valer sempre um dólar americano. Base é uma rede blockchain criada pela Coinbase. Assim, em vez de dólares parados numa conta corrente, o dinheiro chega como dólares digitais numa carteira controlada pelo próprio usuário.
+
+!takeaways
+- A Coinbase Wallet lançou o depósito direto em 25 de novembro de 2026 para clientes elegíveis nos Estados Unidos. A Coinbase diz que o recurso ainda está sendo liberado aos poucos.
+- Você recebe um número de conta e um número de roteamento para passar ao empregador ou ao provedor de folha de pagamento. Os dólares viram USDC a uma taxa de 1 por 1 quando chegam.
+- A imagem do lançamento mostra limites de US$ 3.000 por depósito, US$ 10.000 por dia e uma conta virtual por usuário.
+- A Coinbase não cobra taxa de depósito, mas o provedor de folha de pagamento pode cobrar as próprias taxas. Os depósitos costumam levar de 1 a 3 dias úteis.
+
+!figure:fact
+
+## Como funciona
+
+Segundo a [página de ajuda](L2) da Coinbase, a configuração tem poucos passos. Na Coinbase Wallet você abre Add Funds e escolhe Direct Deposit, informa seus dados pessoais e de contato e conclui uma verificação de identidade. A Coinbase diz que a verificação pode levar até 24 horas. Depois disso, o app mostra um número de conta e um número de roteamento.
+
+Em seguida você passa esses números para quem paga você, normalmente pelo sistema de folha da empresa, e escolhe quanto de cada salário vai para a carteira. O [post com o passo a passo](L4) da Coinbase Wallet diz que dá para enviar tudo ou só uma parte, então você pode deixar a maior parte do salário no banco e mandar uma fatia para a carteira.
+
+Quando o dinheiro chega, os dólares são convertidos em USDC a uma taxa de 1 por 1 e aparecem como uma transação de USDC recebida. Os depósitos costumam chegar em 1 a 3 dias úteis. A Coinbase avisa que algumas carteiras ainda podem mostrar uma opção antiga chamada Receive USD em Transfer, e que, se Direct Deposit não aparecer em Add Funds, o recurso ainda não está disponível para a carteira selecionada.
+
+!figure:flow
+
+## Os limites e as letras miúdas
+
+A imagem que a Coinbase Wallet publicou no lançamento traz três limites: depósitos de até <strong>US$ 3.000</strong> por vez, limite diário de <strong>US$ 10.000</strong> e <strong>uma conta virtual</strong> por usuário. Quem recebe mais de US$ 3.000 por pagamento talvez precise dividir o valor ou mandar só uma parte para a carteira.
+
+A [CoinMarketCap](L3) informou que a verificação de identidade e a conversão de dólares em USDC ficam a cargo da Bridge, parceira da Coinbase, e que a Coinbase cobre as taxas de conversão. A Coinbase não informou quais estados são elegíveis.
+
+A Coinbase também alerta para golpes. Passe os números de conta e de roteamento só para o banco ou o provedor de folha que envia o dinheiro, e lembre que o suporte da Coinbase não pede os números completos por chat nem por telefone.
+
+!mid_cta
+
+## O que o iniciante deve pensar antes
+
+A Coinbase Wallet é uma carteira de autocustódia. Isso quer dizer que as chaves ficam com você, não com a Coinbase. Também quer dizer que, se você perder a frase de recuperação, ninguém consegue restaurar seu acesso. Antes de mandar o salário para lá, garanta que sabe fazer um backup seguro da carteira.
+
+O USDC busca se manter em US$ 1, mas uma stablecoin não é um depósito bancário, então um saldo em USDC numa carteira não tem o seguro da FDIC que protege uma conta corrente comum. Muita gente vai preferir deixar no banco o dinheiro do aluguel e das contas e tratar o depósito na carteira como um extra, não como substituto.
+
+O USDC chega pela rede Base. Se depois você enviar para outro app ou corretora, confira se o destino aceita USDC na Base, ou a transferência pode falhar ou ficar travada. Se o que você quer mesmo é comprar bitcoin com parte do salário, uma corretora regulada nos EUA como a [Coinbase](REF) é o caminho mais conhecido para iniciantes, e dá para começar com valores pequenos.
+
+Isto não é aconselhamento financeiro.
+
+## O que acompanhar agora
+
+- A rapidez com que a opção de depósito direto chega a todos os usuários elegíveis nos EUA, já que a Coinbase diz que ainda está liberando o recurso.
+- Se a Coinbase muda os limites de US$ 3.000 por depósito e US$ 10.000 por dia.
+- Se bancos e outras carteiras respondem com recursos parecidos para receber salário em stablecoins.
+
+!soft: Novo em carteiras? Comece por [carteiras custodiais e de autocustódia, explicadas](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

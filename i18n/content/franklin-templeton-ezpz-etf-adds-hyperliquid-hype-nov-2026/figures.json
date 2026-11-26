@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-ezpz-holdings-sept-30-2026.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of Franklin Crypto Index ETF holdings on Sept. 30, 2026, as a share of net assets: bitcoin 76.39%, ether 12.76%, XRP 5.37%, Solana 3.76%, Dogecoin 0.84%, Cardano 0.55%, Stellar Lumens 0.35%",
+      "es": "Gráfico de barras de las tenencias del Franklin Crypto Index ETF al 30 de septiembre de 2026, como porcentaje del patrimonio neto: bitcoin 76,39%, ether 12,76%, XRP 5,37%, Solana 3,76%, Dogecoin 0,84%, Cardano 0,55%, Stellar Lumens 0,35%",
+      "pt": "Gráfico de barras das posições do Franklin Crypto Index ETF em 30 de setembro de 2026, como fatia do patrimônio líquido: bitcoin 76,39%, ether 12,76%, XRP 5,37%, Solana 3,76%, Dogecoin 0,84%, Cardano 0,55%, Stellar Lumens 0,35%",
+      "fr": "Graphique en barres des avoirs du Franklin Crypto Index ETF au 30 septembre 2026, en part de l'actif net : bitcoin 76,39 %, ether 12,76 %, XRP 5,37 %, Solana 3,76 %, Dogecoin 0,84 %, Cardano 0,55 %, Stellar Lumens 0,35 %",
+      "de": "Balkendiagramm der Bestände des Franklin Crypto Index ETF am 30. September 2026 in Prozent des Nettovermögens: Bitcoin 76,39 %, Ether 12,76 %, XRP 5,37 %, Solana 3,76 %, Dogecoin 0,84 %, Cardano 0,55 %, Stellar Lumens 0,35 %",
+      "ru": "Столбчатая диаграмма активов Franklin Crypto Index ETF на 30 сентября 2026 года в процентах от чистых активов: биткоин 76,39%, эфир 12,76%, XRP 5,37%, Solana 3,76%, Dogecoin 0,84%, Cardano 0,55%, Stellar Lumens 0,35%",
+      "tr": "Franklin Crypto Index ETF'nin 30 Eylül 2026 itibarıyla varlıklarının net varlıklara oranını gösteren çubuk grafik: bitcoin %76,39, ether %12,76, XRP %5,37, Solana %3,76, Dogecoin %0,84, Cardano %0,55, Stellar Lumens %0,35",
+      "id": "Grafik batang kepemilikan Franklin Crypto Index ETF per 30 September 2026 sebagai porsi aset bersih: bitcoin 76,39%, ether 12,76%, XRP 5,37%, Solana 3,76%, Dogecoin 0,84%, Cardano 0,55%, Stellar Lumens 0,35%",
+      "ja": "Franklin Crypto Index ETFの2026年9月30日時点の保有比率（純資産比）を示す棒グラフ：ビットコイン76.39%、イーサ12.76%、XRP 5.37%、ソラナ3.76%、ドージコイン0.84%、カルダノ0.55%、ステラルーメン0.35%",
+      "ko": "2026년 9월 30일 기준 Franklin Crypto Index ETF 보유 비중(순자산 대비) 막대그래프: 비트코인 76.39%, 이더 12.76%, XRP 5.37%, 솔라나 3.76%, 도지코인 0.84%, 카르다노 0.55%, 스텔라루멘 0.35%"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Franklin Crypto Trust quarterly report (SEC), Sept. 30, 2026",
+      "es": "Gráfico: PlainBTC, datos: Franklin Crypto Trust quarterly report (SEC), Sept. 30, 2026",
+      "pt": "Gráfico: PlainBTC, dados: Franklin Crypto Trust quarterly report (SEC), Sept. 30, 2026",
+      "fr": "Graphique : PlainBTC, données : Franklin Crypto Trust quarterly report (SEC), Sept. 30, 2026",
+      "de": "Chart: PlainBTC, Daten: Franklin Crypto Trust quarterly report (SEC), Sept. 30, 2026",
+      "ru": "График: PlainBTC, данные: Franklin Crypto Trust quarterly report (SEC), Sept. 30, 2026",
+      "tr": "Grafik: PlainBTC, veri: Franklin Crypto Trust quarterly report (SEC), Sept. 30, 2026",
+      "id": "Grafik: PlainBTC, data: Franklin Crypto Trust quarterly report (SEC), Sept. 30, 2026",
+      "ja": "チャート: PlainBTC、データ: Franklin Crypto Trust quarterly report (SEC), Sept. 30, 2026",
+      "ko": "차트: PlainBTC, 데이터: Franklin Crypto Trust quarterly report (SEC), Sept. 30, 2026"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-ezpz-eight-coins-hype-dec-1.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: from Dec. 1, 2026 the Franklin Crypto Index ETF (EZPZ) will hold eight coins: bitcoin, ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens and the newly added Hyperliquid (HYPE), weighted like its CF Benchmarks index",
+      "es": "Tarjeta: desde el 1 de diciembre de 2026 el Franklin Crypto Index ETF (EZPZ) tendrá ocho monedas: bitcoin, ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens y la recién añadida Hyperliquid (HYPE), ponderadas como su índice de CF Benchmarks",
+      "pt": "Cartão: a partir de 1º de dezembro de 2026 o Franklin Crypto Index ETF (EZPZ) terá oito moedas: bitcoin, ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens e a recém-incluída Hyperliquid (HYPE), com pesos iguais aos do seu índice da CF Benchmarks",
+      "fr": "Fiche : à partir du 1er décembre 2026, le Franklin Crypto Index ETF (EZPZ) détiendra huit cryptos : bitcoin, ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens et la nouvelle venue Hyperliquid (HYPE), pondérées comme son indice CF Benchmarks",
+      "de": "Faktenkarte: Ab dem 1. Dezember 2026 hält der Franklin Crypto Index ETF (EZPZ) acht Coins: Bitcoin, Ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens und neu Hyperliquid (HYPE), gewichtet wie sein CF-Benchmarks-Index",
+      "ru": "Карточка: с 1 декабря 2026 года Franklin Crypto Index ETF (EZPZ) будет держать восемь монет: биткоин, эфир, XRP, Solana, Dogecoin, Cardano, Stellar Lumens и новую Hyperliquid (HYPE), с весами как в индексе CF Benchmarks",
+      "tr": "Bilgi kartı: 1 Aralık 2026'dan itibaren Franklin Crypto Index ETF (EZPZ) sekiz coin tutacak: bitcoin, ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens ve yeni eklenen Hyperliquid (HYPE); ağırlıklar CF Benchmarks endeksini izliyor",
+      "id": "Kartu fakta: mulai 1 Desember 2026 Franklin Crypto Index ETF (EZPZ) akan memegang delapan koin: bitcoin, ether, XRP, Solana, Dogecoin, Cardano, Stellar Lumens, dan Hyperliquid (HYPE) yang baru ditambahkan, dengan bobot mengikuti indeks CF Benchmarks",
+      "ja": "ファクトカード：2026年12月1日からFranklin Crypto Index ETF（EZPZ）は8銘柄を保有：ビットコイン、イーサ、XRP、ソラナ、ドージコイン、カルダノ、ステラルーメン、新たに加わるHyperliquid（HYPE）。比率はCF Benchmarksの指数に連動",
+      "ko": "팩트 카드: 2026년 12월 1일부터 Franklin Crypto Index ETF(EZPZ)는 비트코인, 이더, XRP, 솔라나, 도지코인, 카르다노, 스텔라루멘, 새로 편입되는 하이퍼리퀴드(HYPE) 등 8개 코인을 CF Benchmarks 지수 비중대로 보유한다"
+    },
+    "caption": {
+      "en": "Source: Franklin Crypto Trust prospectus supplement, SEC, Nov. 25, 2026",
+      "es": "Fuente: Franklin Crypto Trust prospectus supplement, SEC, Nov. 25, 2026",
+      "pt": "Fonte: Franklin Crypto Trust prospectus supplement, SEC, Nov. 25, 2026",
+      "fr": "Source : Franklin Crypto Trust prospectus supplement, SEC, Nov. 25, 2026",
+      "de": "Quelle: Franklin Crypto Trust prospectus supplement, SEC, Nov. 25, 2026",
+      "ru": "Источник: Franklin Crypto Trust prospectus supplement, SEC, Nov. 25, 2026",
+      "tr": "Kaynak: Franklin Crypto Trust prospectus supplement, SEC, Nov. 25, 2026",
+      "id": "Sumber: Franklin Crypto Trust prospectus supplement, SEC, Nov. 25, 2026",
+      "ja": "出典: Franklin Crypto Trust prospectus supplement, SEC, Nov. 25, 2026",
+      "ko": "출처: Franklin Crypto Trust prospectus supplement, SEC, Nov. 25, 2026"
+    }
+  }
+]

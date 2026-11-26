@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Hyperliquid Logo.png",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Hyperliquid_Logo.png",
+      "credit": "Hyperliquid"
+    },
+    {
+      "file": "Kraken OHLC HYPEUSD interval=1440",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Daily HYPE/USD closes Jan 28 - Nov 25, 2026, from Kraken"
+    },
+    {
+      "file": "Franklin Crypto Index ETF prospectus supplement, Nov. 25, 2026",
+      "license": "Facts cited",
+      "url": "https://www.sec.gov/Archives/edgar/data/2033807/000207184426001935/draftezpz424b3nov2026.htm",
+      "credit": "Franklin Templeton / SEC EDGAR"
+    }
+  ],
+  "note": "Editorial composite; logo for identification only; no endorsement by Hyperliquid or Franklin Templeton implied.",
+  "slug": "franklin-templeton-ezpz-etf-adds-hyperliquid-hype-nov-2026",
+  "generated": "2026-11-26T00:04Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

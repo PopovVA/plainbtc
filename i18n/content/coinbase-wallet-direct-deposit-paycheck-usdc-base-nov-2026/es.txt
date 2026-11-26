@@ -1,0 +1,61 @@
+title: Coinbase Wallet ya acepta el sueldo por depósito directo y lo convierte en USDC en Base, hasta 3.000 dólares por depósito
+page_title: Depósito directo en Coinbase Wallet: cobra tu sueldo en USDC
+description: Coinbase Wallet lanzó el depósito directo el 25 de noviembre de 2026: los usuarios elegibles de EE. UU. reciben números de cuenta y de ruta, y el sueldo llega como USDC en Base a 1 por 1, con límites de 3.000 dólares por depósito y 10.000 dólares al día.
+og_description: Los usuarios de Coinbase Wallet en EE. UU. ya pueden enviar todo o parte de su sueldo a la billetera, donde los dólares se convierten 1 por 1 en la stablecoin USDC en Base. Cómo funciona, los límites y qué conviene pensar antes de cambiarse.
+label: Negocios
+summary: Coinbase Wallet lanzó el depósito directo para usuarios elegibles de EE. UU. Recibes números de cuenta y de ruta para tu nómina, y el sueldo llega como USDC en la red Base a una tasa de 1 por 1, sin comisión de depósito de Coinbase. Los límites son 3.000 dólares por depósito y 10.000 dólares al día.
+===
+
+Tu sueldo ya puede llegar a una billetera cripto en lugar de a una cuenta bancaria. El miércoles 25 de noviembre, <strong>Coinbase Wallet</strong> [anunció en X](L1) que el <strong>depósito directo</strong> ya está disponible en su app: los usuarios pueden "recibir todo o parte de su sueldo como USDC en Base, sin comisiones de depósito".
+
+USDC es una stablecoin, un token cripto diseñado para valer siempre un dólar estadounidense. Base es una red blockchain creada por Coinbase. Así, en vez de dólares en una cuenta corriente, el dinero llega como dólares digitales a una billetera que controla el propio usuario.
+
+!takeaways
+- Coinbase Wallet lanzó el depósito directo el 25 de noviembre de 2026 para clientes elegibles en Estados Unidos. Coinbase dice que la función todavía se está desplegando.
+- Recibes un número de cuenta y un número de ruta para dárselos a tu empleador o a tu proveedor de nóminas. Los dólares se convierten en USDC a una tasa de 1 por 1 al llegar.
+- La imagen del lanzamiento indica límites de 3.000 dólares por depósito, 10.000 dólares al día y una cuenta virtual por usuario.
+- Coinbase no cobra comisión de depósito, pero tu proveedor de nóminas puede cobrar las suyas. Los depósitos suelen tardar de 1 a 3 días hábiles.
+
+!figure:fact
+
+## Cómo funciona
+
+Según la [página de ayuda](L2) de Coinbase, la configuración lleva unos pocos pasos. En Coinbase Wallet abres Add Funds y eliges Direct Deposit, introduces tus datos personales y de contacto y completas una verificación de identidad. Coinbase dice que la verificación puede tardar hasta 24 horas. Cuando termina, la app muestra un número de cuenta y un número de ruta.
+
+Después entregas esos números a quien te paga, normalmente a través del sistema de nóminas de tu empresa, y eliges qué parte de cada sueldo va a la billetera. La [publicación con los pasos](L4) de Coinbase Wallet dice que puedes enviar todo o solo una parte, así que podrías dejar la mayor parte del sueldo en el banco y mandar una porción a la billetera.
+
+Cuando llega el dinero, los dólares se convierten en USDC a una tasa de 1 por 1 y aparecen como una transacción de USDC recibida. Los depósitos suelen llegar en 1 a 3 días hábiles. Coinbase advierte que algunas billeteras todavía pueden mostrar una opción anterior llamada Receive USD en Transfer, y que si Direct Deposit no aparece en Add Funds, aún no está disponible para la billetera seleccionada.
+
+!figure:flow
+
+## Los límites y la letra pequeña
+
+La imagen que Coinbase Wallet publicó con el lanzamiento detalla tres límites: depósitos de hasta <strong>3.000 dólares</strong> cada vez, un límite diario de <strong>10.000 dólares</strong> y <strong>una cuenta virtual</strong> por usuario. Quien cobre más de 3.000 dólares por nómina quizá tenga que dividir el pago o enviar solo una parte a la billetera.
+
+[CoinMarketCap](L3) informó de que la verificación de identidad y la conversión de dólares a USDC las gestiona Bridge, un socio de Coinbase, y de que Coinbase cubre las comisiones de conversión. Coinbase no detalló qué estados son elegibles.
+
+Coinbase también advierte sobre estafas. Comparte los números de cuenta y de ruta solo con el banco o el proveedor de nóminas que envía el dinero, y recuerda que el soporte de Coinbase no te pedirá los números completos en un chat ni por teléfono.
+
+!mid_cta
+
+## Qué debe pensar primero un principiante
+
+Coinbase Wallet es una billetera de autocustodia. Eso significa que las claves las guardas tú, no Coinbase. También significa que, si pierdes tu frase de recuperación, nadie puede restablecerte el acceso. Antes de enviar tu sueldo allí, asegúrate de saber cómo hacer una copia de seguridad segura de la billetera.
+
+USDC busca mantenerse en 1 dólar, pero una stablecoin no es un depósito bancario, así que un saldo en USDC en una billetera no tiene el seguro de la FDIC que cubre una cuenta corriente normal. Mucha gente preferirá dejar en el banco el dinero del alquiler y las facturas y tratar el depósito en la billetera como un extra, no como un sustituto.
+
+El USDC llega en la red Base. Si después lo envías a otra app o exchange, comprueba que el destino admite USDC en Base, o la transferencia podría fallar o quedarse atascada. Si lo que de verdad quieres es comprar bitcoin con parte de tu sueldo, un exchange regulado en EE. UU. como [Coinbase](REF) es el camino más conocido para principiantes, y puedes empezar con cantidades pequeñas.
+
+Esto no es asesoramiento financiero.
+
+## Qué vigilar ahora
+
+- La rapidez con que la opción de depósito directo llegue a todos los usuarios elegibles de EE. UU., ya que Coinbase dice que aún se está desplegando.
+- Si Coinbase cambia los límites de 3.000 dólares por depósito y 10.000 dólares al día.
+- Si bancos y otras billeteras responden con funciones parecidas para cobrar el sueldo en stablecoins.
+
+!soft: ¿Nuevo en billeteras? Empieza por [billeteras custodiadas y de autocustodia, explicadas](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure

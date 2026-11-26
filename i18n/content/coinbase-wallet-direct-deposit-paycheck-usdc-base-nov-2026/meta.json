@@ -1,0 +1,21 @@
+{
+ "slug": "coinbase-wallet-direct-deposit-paycheck-usdc-base-nov-2026",
+ "date": "2026-11-25",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "what-is-a-crypto-wallet-custodial-vs-self-custody",
+  "pnc-coinbase-usdc-payments-pilot-nov-2026",
+  "stablecoin-supply-shrinks-usdt-tether-nov-2026",
+  "kraken-krak-credit-cards-4-percent-bitcoin-cashback-usdc-secured-nov-2026",
+  "is-coinbase-safe-for-beginners",
+  "how-to-cash-out-bitcoin-coinbase-to-bank"
+ ],
+ "sources": [
+  {"url": "https://x.com/CoinbaseWallet/status/2125605435097198999", "title": "Coinbase Wallet on X: Direct Deposit is now available in Coinbase Wallet (launch post and graphic with limits)", "date": "Nov 25, 2026"},
+  {"url": "https://x.com/CoinbaseWallet/status/2125605437177479656", "title": "Coinbase Wallet on X: how to set up Direct Deposit", "date": "Nov 25, 2026"},
+  {"url": "https://help.coinbase.com/en/wallet/managing-account/receive-usd-wallet", "title": "Coinbase Help: Direct deposit in Coinbase Wallet", "date": "Nov 25, 2026"},
+  {"url": "https://coinmarketcap.com/academy/article/coinbase-wallet-direct-deposit-usdc-base", "title": "CoinMarketCap: Coinbase Wallet launches direct deposit for paychecks in USDC on Base", "date": "Nov 25, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

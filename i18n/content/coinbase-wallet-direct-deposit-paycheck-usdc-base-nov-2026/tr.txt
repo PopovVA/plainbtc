@@ -1,0 +1,61 @@
+title: Coinbase Wallet artık maaşı doğrudan yatırma ile alıp Base üzerinde USDC'ye çeviriyor, yatırma başına 3.000 dolara kadar
+page_title: Coinbase Wallet doğrudan yatırma: maaşınızı USDC olarak alın
+description: Coinbase Wallet 25 Kasım 2026'da doğrudan yatırma özelliğini başlattı: uygun ABD'li kullanıcılar hesap ve routing numarası alıyor, maaş Base üzerinde 1'e 1 USDC olarak geliyor; limitler yatırma başına 3.000 dolar ve günlük 10.000 dolar.
+og_description: ABD'deki Coinbase Wallet kullanıcıları artık maaşlarının tamamını ya da bir kısmını cüzdana yönlendirebiliyor; dolarlar Base üzerinde 1'e 1 oranında USDC stablecoin'ine dönüşüyor. Nasıl çalıştığı, limitler ve geçiş öncesi düşünülmesi gerekenler.
+label: İş dünyası
+summary: Coinbase Wallet, uygun ABD'li kullanıcılar için doğrudan yatırma özelliğini başlattı. Bordronuz için hesap ve routing numarası alıyorsunuz, maaşınız Base ağında 1'e 1 oranında USDC olarak geliyor ve Coinbase yatırma ücreti almıyor. Limitler yatırma başına 3.000 dolar ve günlük 10.000 dolar.
+===
+
+Maaşınız artık banka hesabı yerine bir kripto cüzdanına yatabilir. <strong>Coinbase Wallet</strong>, 25 Kasım Çarşamba günü [X'te duyurdu](L1): <strong>Direct Deposit</strong> (doğrudan yatırma) artık uygulamada kullanılabiliyor ve kullanıcılar "maaşlarının tamamını ya da bir kısmını, yatırma ücreti olmadan Base üzerinde USDC olarak alabiliyor".
+
+USDC bir stablecoin, yani değeri her zaman bir ABD doları olacak şekilde tasarlanmış bir kripto token. Base ise Coinbase'in kurduğu bir blokzincir ağı. Böylece para vadesiz bir hesaptaki dolar yerine, kullanıcının kendi kontrol ettiği bir cüzdana dijital dolar olarak geliyor.
+
+!takeaways
+- Coinbase Wallet, doğrudan yatırma özelliğini 25 Kasım 2026'da ABD'deki uygun müşteriler için başlattı. Coinbase, özelliğin hâlâ kademeli olarak açıldığını söylüyor.
+- İşvereninize ya da bordro sağlayıcınıza vereceğiniz bir hesap numarası ve bir routing numarası alıyorsunuz. Dolarlar geldiğinde 1'e 1 oranında USDC'ye çevriliyor.
+- Lansman görselinde yatırma başına 3.000 dolar, günlük 10.000 dolar ve kullanıcı başına bir sanal hesap limiti yer alıyor.
+- Coinbase yatırma ücreti almıyor, ancak bordro sağlayıcınız kendi ücretini alabilir. Yatırmalar genellikle 1 ila 3 iş günü sürüyor.
+
+!figure:fact
+
+## Nasıl çalışıyor
+
+Coinbase'in [yardım sayfasına](L2) göre kurulum birkaç adımdan oluşuyor. Coinbase Wallet'ta Add Funds'ı açıp Direct Deposit'i seçiyor, kişisel ve iletişim bilgilerinizi giriyor ve bir kimlik doğrulamasını tamamlıyorsunuz. Coinbase, doğrulamanın 24 saate kadar sürebileceğini belirtiyor. İşlem bitince uygulama bir hesap numarası ve bir routing numarası gösteriyor.
+
+Ardından bu numaraları size ödeme yapan tarafa, genellikle işvereninizin bordro sistemine veriyor ve her maaşın ne kadarının cüzdana gideceğini seçiyorsunuz. Coinbase Wallet'ın [kurulum paylaşımı](L4), tamamını ya da yalnızca bir kısmını gönderebileceğinizi söylüyor. Yani maaşın büyük bölümünü bankada tutup küçük bir kısmını cüzdana yönlendirebilirsiniz.
+
+Para geldiğinde dolarlar 1'e 1 oranında USDC'ye çevriliyor ve alınan bir USDC işlemi olarak görünüyor. Yatırmalar genellikle 1 ila 3 iş günü içinde ulaşıyor. Coinbase, bazı cüzdanlarda Transfer altında Receive USD adlı eski seçeneğin hâlâ görünebileceğini, Direct Deposit Add Funds altında yoksa seçili cüzdan için henüz kullanılamadığını belirtiyor.
+
+!figure:flow
+
+## Limitler ve ince ayrıntılar
+
+Coinbase Wallet'ın lansmanla paylaştığı görsel üç limiti sıralıyor: tek seferde en fazla <strong>3.000 dolar</strong> yatırma, günlük <strong>10.000 dolar</strong> limit ve kullanıcı başına <strong>bir sanal hesap</strong>. Maaşı tek ödemede 3.000 dolardan fazla olanlar ödemeyi bölmek ya da cüzdana yalnızca bir kısmını göndermek zorunda kalabilir.
+
+[CoinMarketCap](L3), kimlik doğrulamanın ve dolardan USDC'ye dönüşümün Coinbase'in iş ortağı Bridge tarafından yapıldığını ve dönüşüm ücretlerini Coinbase'in karşıladığını bildirdi. Coinbase hangi eyaletlerin uygun olduğunu açıklamadı.
+
+Coinbase dolandırıcılığa karşı da uyarıyor. Hesap ve routing numaralarını yalnızca parayı gönderen bankayla ya da bordro sağlayıcısıyla paylaşın ve Coinbase Destek ekibinin sohbette ya da telefonda tam numaraları istemeyeceğini unutmayın.
+
+!mid_cta
+
+## Yeni başlayanların önce düşünmesi gerekenler
+
+Coinbase Wallet bir kendi kendine saklama (self-custody) cüzdanı. Yani anahtarlar Coinbase'de değil, sizde. Bu aynı zamanda kurtarma ifadenizi kaybederseniz kimsenin erişiminizi geri getiremeyeceği anlamına geliyor. Maaşınızı oraya göndermeden önce cüzdanı güvenli şekilde nasıl yedekleyeceğinizi bildiğinizden emin olun.
+
+USDC 1 dolarda kalmayı hedefliyor, ancak bir stablecoin banka mevduatı değildir; bu yüzden cüzdandaki USDC bakiyesi, normal bir vadesiz hesabı kapsayan FDIC sigortasından yararlanmaz. Pek çok kişi kira ve faturalar için gereken parayı bankada tutmayı ve cüzdana yapılan yatırmayı bir yedek değil, bir ek olarak görmeyi tercih edecektir.
+
+USDC, Base ağında geliyor. Daha sonra başka bir uygulamaya ya da borsaya gönderirseniz, alıcı tarafın Base üzerindeki USDC'yi desteklediğini kontrol edin; aksi halde transfer başarısız olabilir ya da takılabilir. Asıl amacınız maaşınızın bir kısmıyla bitcoin almaksa, yeni başlayanlar için ABD'de düzenlenen [Coinbase](REF) gibi bir borsa daha tanıdık bir yoldur ve küçük tutarlarla başlayabilirsiniz.
+
+Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Coinbase özelliğin hâlâ açıldığını söylediği için, doğrudan yatırmanın tüm uygun ABD'li kullanıcılara ne kadar hızlı ulaşacağı.
+- Coinbase'in yatırma başına 3.000 dolar ve günlük 10.000 dolar limitlerini değiştirip değiştirmeyeceği.
+- Bankaların ve diğer cüzdanların maaşı stablecoin olarak alma konusunda benzer özelliklerle karşılık verip vermeyeceği.
+
+!soft: Cüzdanlarda yeni misiniz? Önce [saklamalı ve kendi kendine saklama cüzdanları](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazımızı okuyun
+
+!end_cta
+
+!disclosure

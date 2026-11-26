@@ -1,0 +1,61 @@
+title: Coinbase Wallet nimmt jetzt Gehälter per Direkteinzahlung an und wandelt sie in USDC auf Base um, bis zu 3.000 Dollar pro Einzahlung
+page_title: Direkteinzahlung bei Coinbase Wallet: Gehalt in USDC erhalten
+description: Coinbase Wallet hat am 25. November 2026 die Direkteinzahlung gestartet: Berechtigte US-Nutzer erhalten Konto- und Routing-Nummer, und der Lohn kommt im Verhältnis 1 zu 1 als USDC auf Base an, mit Limits von 3.000 Dollar pro Einzahlung und 10.000 Dollar pro Tag.
+og_description: Nutzer von Coinbase Wallet in den USA können jetzt ihr ganzes Gehalt oder einen Teil davon in die Wallet leiten, wo die Dollar 1 zu 1 in den Stablecoin USDC auf Base umgewandelt werden. So funktioniert es, das sind die Limits, und darauf sollte man vor dem Wechsel achten.
+label: Wirtschaft
+summary: Coinbase Wallet hat die Direkteinzahlung für berechtigte US-Nutzer gestartet. Sie erhalten Konto- und Routing-Nummer für die Lohnabrechnung, und das Gehalt kommt im Verhältnis 1 zu 1 als USDC im Base-Netzwerk an, ohne Einzahlungsgebühr von Coinbase. Die Limits liegen bei 3.000 Dollar pro Einzahlung und 10.000 Dollar pro Tag.
+===
+
+Das Gehalt kann jetzt auf einer Krypto-Wallet statt auf einem Bankkonto landen. Am Mittwoch, dem 25. November, gab <strong>Coinbase Wallet</strong> [auf X bekannt](L1), dass die <strong>Direkteinzahlung</strong> (Direct Deposit) in der App verfügbar ist: Nutzer können „ihr ganzes Gehalt oder einen Teil davon als USDC auf Base erhalten, ohne Einzahlungsgebühren“.
+
+USDC ist ein Stablecoin, also ein Krypto-Token, der stets einen US-Dollar wert sein soll. Base ist ein von Coinbase aufgebautes Blockchain-Netzwerk. Statt Dollar auf einem Girokonto kommt das Geld also als digitale Dollar in einer Wallet an, die der Nutzer selbst kontrolliert.
+
+!takeaways
+- Coinbase Wallet hat die Direkteinzahlung am 25. November 2026 für berechtigte Kunden in den USA gestartet. Laut Coinbase wird die Funktion noch schrittweise eingeführt.
+- Sie erhalten eine Kontonummer und eine Routing-Nummer, die Sie Ihrem Arbeitgeber oder Lohnabrechnungsdienst geben. Die Dollar werden beim Eingang im Verhältnis 1 zu 1 in USDC umgewandelt.
+- Die Grafik zum Start nennt Limits von 3.000 Dollar pro Einzahlung, 10.000 Dollar pro Tag und ein virtuelles Konto pro Nutzer.
+- Coinbase verlangt keine Einzahlungsgebühr, Ihr Lohnabrechnungsdienst kann aber eigene Gebühren erheben. Einzahlungen dauern meist 1 bis 3 Werktage.
+
+!figure:fact
+
+## So funktioniert es
+
+Laut der [Hilfeseite](L2) von Coinbase ist die Einrichtung in wenigen Schritten erledigt. In Coinbase Wallet öffnet man Add Funds, wählt Direct Deposit, gibt persönliche Daten und Kontaktdaten ein und durchläuft eine Identitätsprüfung. Coinbase zufolge kann die Prüfung bis zu 24 Stunden dauern. Danach zeigt die App eine Kontonummer und eine Routing-Nummer an.
+
+Diese Nummern gibt man dann an denjenigen weiter, der zahlt, meist über das Lohnabrechnungssystem des Arbeitgebers, und legt fest, welcher Anteil jedes Gehalts in die Wallet fließt. Laut dem [Einrichtungs-Post](L4) von Coinbase Wallet kann man alles oder nur einen Teil schicken. Man kann also den Großteil des Gehalts auf der Bank lassen und nur einen Teil in die Wallet leiten.
+
+Beim Eingang werden die Dollar im Verhältnis 1 zu 1 in USDC umgewandelt und erscheinen als empfangene USDC-Transaktion. Einzahlungen kommen meist innerhalb von 1 bis 3 Werktagen an. Coinbase weist darauf hin, dass manche Wallets noch eine ältere Option namens Receive USD unter Transfer anzeigen. Erscheint Direct Deposit nicht unter Add Funds, ist die Funktion für die gewählte Wallet noch nicht verfügbar.
+
+!figure:flow
+
+## Die Limits und das Kleingedruckte
+
+Die Grafik, die Coinbase Wallet zum Start veröffentlicht hat, nennt drei Limits: Einzahlungen von bis zu <strong>3.000 Dollar</strong> auf einmal, ein Tageslimit von <strong>10.000 Dollar</strong> und <strong>ein virtuelles Konto</strong> pro Nutzer. Wer mehr als 3.000 Dollar pro Gehaltszahlung bekommt, muss die Zahlung womöglich aufteilen oder nur einen Teil in die Wallet schicken.
+
+[CoinMarketCap](L3) berichtete, dass die Identitätsprüfung und die Umwandlung von Dollar in USDC von Bridge abgewickelt werden, einem Partner von Coinbase, und dass Coinbase die Umwandlungsgebühren übernimmt. Welche Bundesstaaten berechtigt sind, hat Coinbase nicht genannt.
+
+Coinbase warnt außerdem vor Betrug. Geben Sie Konto- und Routing-Nummer nur an die Bank oder den Lohnabrechnungsdienst weiter, der das Geld schickt. Der Coinbase-Support fragt nie im Chat oder am Telefon nach den vollständigen Nummern.
+
+!mid_cta
+
+## Was Einsteiger vorher bedenken sollten
+
+Coinbase Wallet ist eine Wallet mit Selbstverwahrung. Die Schlüssel liegen also bei Ihnen, nicht bei Coinbase. Das heißt auch: Wer seine Wiederherstellungsphrase verliert, dem kann niemand den Zugang zurückgeben. Bevor Sie Ihr Gehalt dorthin leiten, sollten Sie wissen, wie Sie die Wallet sicher sichern.
+
+USDC soll bei 1 Dollar bleiben, aber ein Stablecoin ist keine Bankeinlage. Ein USDC-Guthaben in einer Wallet ist daher nicht durch die FDIC-Einlagensicherung geschützt, die ein normales Girokonto abdeckt. Viele werden das Geld für Miete und Rechnungen lieber auf der Bank lassen und die Einzahlung in die Wallet als Ergänzung sehen, nicht als Ersatz.
+
+Die USDC kommen im Base-Netzwerk an. Wer sie später an eine andere App oder Börse schickt, sollte prüfen, ob die Gegenseite USDC auf Base unterstützt, sonst kann die Überweisung scheitern oder hängen bleiben. Wer eigentlich mit einem Teil des Gehalts Bitcoin kaufen will, für den ist eine in den USA regulierte Börse wie [Coinbase](REF) der für Einsteiger vertrautere Weg, und man kann mit kleinen Beträgen anfangen.
+
+Dies ist keine Finanzberatung.
+
+## Worauf man jetzt achten sollte
+
+- Wie schnell die Direkteinzahlung alle berechtigten US-Nutzer erreicht, denn laut Coinbase läuft die Einführung noch.
+- Ob Coinbase die Limits von 3.000 Dollar pro Einzahlung und 10.000 Dollar pro Tag ändert.
+- Ob Banken und andere Wallets mit ähnlichen Funktionen für Gehälter in Stablecoins nachziehen.
+
+!soft: Neu bei Wallets? Starten Sie mit [verwahrte Wallets und Selbstverwahrung, einfach erklärt](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody)
+
+!end_cta
+
+!disclosure
