@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-hourly-nov-24-26-2026.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin's hourly closing price on Kraken from Nov. 24 to the morning of Nov. 26, 2026: it slides from about $60,400 to an hourly close near $58,000 on Nov. 25 (intraday low near $57,200), then climbs back above $60,000 to about $60,800",
+      "es": "Gráfico de líneas del cierre horario de bitcoin en Kraken del 24 a la mañana del 26 de noviembre de 2026: baja de unos 60.400 dólares a un cierre horario cerca de 58.000 el 25 de noviembre (mínimo intradía cerca de 57.200) y luego vuelve por encima de 60.000, hasta unos 60.800 dólares",
+      "pt": "Gráfico de linha do fechamento por hora do bitcoin na Kraken de 24 de novembro à manhã de 26 de novembro de 2026: cai de cerca de US$ 60.400 para um fechamento por hora perto de US$ 58.000 em 25 de novembro (mínima intradiária perto de US$ 57.200) e depois volta acima de US$ 60.000, para cerca de US$ 60.800",
+      "fr": "Graphique linéaire des clôtures horaires du bitcoin sur Kraken du 24 au matin du 26 novembre 2026 : il glisse d'environ 60 400 dollars à une clôture horaire proche de 58 000 dollars le 25 novembre (plus bas intrajournalier vers 57 200 dollars), puis repasse au-dessus de 60 000 dollars, vers 60 800 dollars",
+      "de": "Liniendiagramm der stündlichen Bitcoin-Schlusskurse auf Kraken vom 24. bis zum Morgen des 26. November 2026: Der Kurs fällt von rund 60.400 $ auf einen Stundenschluss nahe 58.000 $ am 25. November (Tagestief nahe 57.200 $) und steigt dann wieder über 60.000 $ auf etwa 60.800 $",
+      "ru": "Линейный график часовых цен закрытия биткоина на Kraken с 24 ноября до утра 26 ноября 2026 года: цена снижается примерно с $60 400 до часового закрытия около $58 000 25 ноября (внутридневной минимум около $57 200), затем возвращается выше $60 000, примерно к $60 800",
+      "tr": "Bitcoin'in 24 Kasım'dan 26 Kasım 2026 sabahına kadar Kraken'deki saatlik kapanış fiyatlarını gösteren çizgi grafik: yaklaşık 60.400 dolardan 25 Kasım'da 58.000 dolar civarındaki saatlik kapanışa iniyor (gün içi dip yaklaşık 57.200 dolar), ardından 60.000 doların üzerine çıkarak yaklaşık 60.800 dolara yükseliyor",
+      "id": "Grafik garis harga penutupan per jam bitcoin di Kraken dari 24 November hingga pagi 26 November 2026: turun dari sekitar US$60.400 ke penutupan per jam dekat US$58.000 pada 25 November (terendah intrahari dekat US$57.200), lalu naik kembali di atas US$60.000 ke sekitar US$60.800",
+      "ja": "2026年11月24日から26日朝までのクラーケンにおけるビットコインの1時間足終値の折れ線グラフ。約60,400ドルから11月25日に1時間足終値で約58,000ドル（日中安値は約57,200ドル）まで下げ、その後60,000ドルを回復して約60,800ドルに",
+      "ko": "2026년 11월 24일부터 26일 아침까지 크라켄 비트코인 시간별 종가 선 그래프. 약 60,400달러에서 11월 25일 시간별 종가 약 58,000달러(장중 저점 약 57,200달러)까지 내려간 뒤 60,000달러 위로 회복해 약 60,800달러에 도달"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken BTC/USD hourly closes, Nov. 24 to Nov. 26, 2026",
+      "es": "Gráfico: PlainBTC, datos: Kraken BTC/USD hourly closes, Nov. 24 to Nov. 26, 2026",
+      "pt": "Gráfico: PlainBTC, dados: Kraken BTC/USD hourly closes, Nov. 24 to Nov. 26, 2026",
+      "fr": "Graphique : PlainBTC, données : Kraken BTC/USD hourly closes, Nov. 24 to Nov. 26, 2026",
+      "de": "Chart: PlainBTC, Daten: Kraken BTC/USD hourly closes, Nov. 24 to Nov. 26, 2026",
+      "ru": "График: PlainBTC, данные: Kraken BTC/USD hourly closes, Nov. 24 to Nov. 26, 2026",
+      "tr": "Grafik: PlainBTC, veri: Kraken BTC/USD hourly closes, Nov. 24 to Nov. 26, 2026",
+      "id": "Grafik: PlainBTC, data: Kraken BTC/USD hourly closes, Nov. 24 to Nov. 26, 2026",
+      "ja": "チャート: PlainBTC、データ: Kraken BTC/USD hourly closes, Nov. 24 to Nov. 26, 2026",
+      "ko": "차트: PlainBTC, 데이터: Kraken BTC/USD hourly closes, Nov. 24 to Nov. 26, 2026"
+    }
+  },
+  {
+    "id": "flows",
+    "file": "chart-btc-etf-daily-flows-nov-16-25-2026.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of daily net flows of U.S. spot bitcoin ETFs: a small $7.9 million inflow on Nov. 16, then seven outflow days from Nov. 17 to Nov. 25, 2026, of $239.9M, $306.5M, $582.3M, $669.2M, $569.7M, $231.4M and $453.0M",
+      "es": "Gráfico de barras de los flujos netos diarios de los ETF de bitcoin al contado de EE. UU.: una pequeña entrada de 7,9 millones de dólares el 16 de noviembre y luego siete días de salidas del 17 al 25 de noviembre de 2026, de 239,9; 306,5; 582,3; 669,2; 569,7; 231,4 y 453,0 millones",
+      "pt": "Gráfico de barras dos fluxos líquidos diários dos ETFs de bitcoin à vista dos EUA: uma pequena entrada de US$ 7,9 milhões em 16 de novembro e depois sete dias de saídas de 17 a 25 de novembro de 2026, de US$ 239,9; 306,5; 582,3; 669,2; 569,7; 231,4 e 453,0 milhões",
+      "fr": "Graphique en barres des flux nets quotidiens des ETF bitcoin au comptant américains : une petite entrée de 7,9 millions de dollars le 16 novembre, puis sept jours de sorties du 17 au 25 novembre 2026, de 239,9, 306,5, 582,3, 669,2, 569,7, 231,4 et 453,0 millions",
+      "de": "Balkendiagramm der täglichen Nettozuflüsse der US-Spot-Bitcoin-ETFs: ein kleiner Zufluss von 7,9 Mio. $ am 16. November, dann sieben Abflusstage vom 17. bis 25. November 2026 mit 239,9, 306,5, 582,3, 669,2, 569,7, 231,4 und 453,0 Mio. $",
+      "ru": "Столбчатая диаграмма дневных чистых потоков американских спотовых биткоин-ETF: небольшой приток $7,9 млн 16 ноября, затем семь дней оттока с 17 по 25 ноября 2026 года: $239,9 млн, $306,5 млн, $582,3 млн, $669,2 млн, $569,7 млн, $231,4 млн и $453,0 млн",
+      "tr": "ABD spot bitcoin ETF'lerinin günlük net akışlarını gösteren çubuk grafik: 16 Kasım'da 7,9 milyon dolarlık küçük bir giriş, ardından 17-25 Kasım 2026 arasında 239,9, 306,5, 582,3, 669,2, 569,7, 231,4 ve 453,0 milyon dolarlık yedi çıkış günü",
+      "id": "Grafik batang arus bersih harian ETF bitcoin spot AS: arus masuk kecil US$7,9 juta pada 16 November, lalu tujuh hari arus keluar dari 17 hingga 25 November 2026 sebesar US$239,9 juta, 306,5 juta, 582,3 juta, 669,2 juta, 569,7 juta, 231,4 juta, dan 453,0 juta",
+      "ja": "米国ビットコイン現物ETFの日次純フローの棒グラフ：11月16日は790万ドルの小幅流入、その後2026年11月17日から25日まで7日連続の流出（2億3990万、3億650万、5億8230万、6億6920万、5億6970万、2億3140万、4億5300万ドル）",
+      "ko": "미국 비트코인 현물 ETF 일일 순유출입 막대그래프: 11월 16일 790만 달러 소폭 유입 후 2026년 11월 17~25일 7거래일 연속 유출(2억3990만, 3억650만, 5억8230만, 6억6920만, 5억6970만, 2억3140만, 4억5300만 달러)"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Farside Investors",
+      "es": "Gráfico: PlainBTC, datos: Farside Investors",
+      "pt": "Gráfico: PlainBTC, dados: Farside Investors",
+      "fr": "Graphique : PlainBTC, données : Farside Investors",
+      "de": "Chart: PlainBTC, Daten: Farside Investors",
+      "ru": "График: PlainBTC, данные: Farside Investors",
+      "tr": "Grafik: PlainBTC, veri: Farside Investors",
+      "id": "Grafik: PlainBTC, data: Farside Investors",
+      "ja": "チャート: PlainBTC、データ: Farside Investors",
+      "ko": "차트: PlainBTC, 데이터: Farside Investors"
+    }
+  }
+]

@@ -1,0 +1,64 @@
+title: Fidelity dépose un dossier pour un ETF Chainlink au comptant qui serait coté sur le Nasdaq sous FLNK et ne placerait pas ses LINK en staking
+page_title: Fidelity dépose un dossier pour un ETF Chainlink au comptant (FLNK)
+description: Fidelity a déposé un formulaire S-1 auprès de la SEC le 25 novembre 2026 pour le Fidelity Chainlink Fund, un ETF LINK au comptant qui serait coté sur le Nasdaq sous le symbole FLNK. Il ne ferait pas de staking, et les frais comme la date de lancement ne sont pas encore fixés.
+og_description: Fidelity veut lancer un ETF Chainlink au comptant. Le fonds détiendrait des LINK en direct, serait coté sur le Nasdaq sous FLNK, confierait ses jetons à Anchorage, BitGo et Coinbase Custody et ne verserait aucune récompense de staking. Les frais et la date de lancement restent vides.
+label: Entreprises
+summary: Fidelity a déposé le 25 novembre auprès de la SEC une demande pour lancer un ETF Chainlink au comptant. Le Fidelity Chainlink Fund détiendrait des LINK en direct et serait coté sur le Nasdaq sous FLNK, mais il ne ferait pas de staking, et le dossier laisse en blanc les frais et la date de lancement.
+===
+
+Fidelity, l'un des plus grands gestionnaires d'actifs américains, veut proposer un fonds coté (ETF) qui détient le jeton LINK de Chainlink. La société a déposé une déclaration d'enregistrement, appelée formulaire S-1, auprès de la Securities and Exchange Commission (SEC) le mercredi 25 novembre pour le <strong>Fidelity Chainlink Fund</strong>, d'après le [document publié sur SEC EDGAR](L1).
+
+Le fonds achèterait et conserverait des LINK en direct et chercherait à suivre leur cours, après déduction des frais. Ses parts devraient être cotées sur le Nasdaq sous le symbole <strong>FLNK</strong>. Le dossier ne précise pas quand la cotation pourrait commencer, et il s'agit d'un document préliminaire qui peut encore changer.
+
+!takeaways
+- Fidelity a déposé un S-1 auprès de la SEC le 25 novembre 2026 pour un ETF Chainlink au comptant, le Fidelity Chainlink Fund.
+- Les parts devraient être cotées sur le Nasdaq sous le symbole FLNK. Aucune date de lancement n'est donnée.
+- Le fonds détiendrait des LINK en direct mais ne ferait pas de staking, donc les porteurs ne toucheraient aucune récompense de staking.
+- Anchorage Digital Bank, BitGo Bank & Trust et Coinbase Custody conserveraient les LINK du fonds.
+- Les frais de gestion sont laissés en blanc dans le dossier. Grayscale et Bitwise proposent déjà des ETF Chainlink au comptant aux États-Unis.
+
+!figure:fact
+
+## Ce que sont Chainlink et LINK
+
+Chainlink est un réseau qui fournit des informations extérieures, comme les prix des actifs, aux applications blockchain. Beaucoup d'applications de prêt et de trading dépendent de ces flux de prix pour fonctionner. LINK est le jeton qui sert à payer les services de Chainlink, et ses détenteurs peuvent bloquer, ou staker, des LINK dans certains de ces services pour aider à les sécuriser et gagner des récompenses.
+
+Le LINK s'échangeait vers 9,24 dollars sur Kraken le jeudi 26 novembre au matin. C'est environ 24 % de moins que son niveau de fin 2025, d'après les [données de prix quotidiennes de Kraken](L3).
+
+## Comment le fonds fonctionnerait
+
+Un ETF permet d'être exposé au prix via un compte-titres classique, sans acheter la crypto sur une plateforme d'échange ni gérer un portefeuille. Selon le dossier, le fonds évaluerait ses parts chaque jour à l'aide d'un taux de référence Chainlink de Fidelity, calculé à partir des prix de plusieurs plateformes où s'échange le LINK.
+
+Trois sociétés conserveraient les jetons du fonds : Anchorage Digital Bank, BitGo Bank & Trust et Coinbase Custody Trust Company. De grandes sociétés de trading appelées participants autorisés créeraient et rachèteraient des parts par blocs, en payant en LINK ou en espèces.
+
+Le fonds ne ferait pas de staking. « Le fonds ne placera pas ses LINK en staking, et les porteurs de parts ne recevront aucune récompense de staking par l'intermédiaire du fonds », a écrit Fidelity, cité par [The Block](L2). Le dossier précise que le staking de Chainlink est limité et actuellement plafonné à environ 4 % de l'offre totale de LINK.
+
+!figure:chart
+
+!mid_cta
+
+## Fidelity ne serait pas la première
+
+Deux ETF Chainlink au comptant existent déjà aux États-Unis. Au 24 novembre, le Grayscale Chainlink Trust ETF (GLNK) gérait environ 112 millions de dollars et le Bitwise Chainlink ETF (CLNK) environ 42 millions, selon The Block.
+
+Fidelity gère déjà des ETF bitcoin, ether et Solana au comptant aux États-Unis (FBTC, FETH et FSOL), d'après The Block. Le nouveau dossier arrive un jour après l'ajout de LINK, AAVE et UNI à sa [plateforme de trading Fidelity Crypto](/articles/fidelity-crypto-adds-aave-link-uni-nov-2026).
+
+Des détails importants restent vides dans le dossier, notamment les frais annuels et le capital de départ qu'apporterait Fidelity. Ces blancs sont normaux dans un premier S-1 et sont en général complétés dans des amendements ultérieurs. Le fonds ne pourra vendre des parts qu'une fois l'enregistrement déclaré effectif par la SEC.
+
+## Ce que cela signifie pour les débutants
+
+Un ETF Chainlink permettrait de suivre les variations du LINK depuis un compte-titres ou un compte retraite, avec une conservation assurée par de grandes sociétés. Cela ne rendrait pas le LINK moins risqué. Le LINK est un actif petit et volatil comparé au bitcoin, et son cours a baissé cette année. Un ETF prélève aussi des frais annuels, et comme celui-ci ne ferait pas de staking, ses porteurs passeraient à côté des récompenses que touchent certains détenteurs directs de LINK.
+
+Si vous préférez détenir les jetons vous-même, une plateforme américaine réglementée comme [Coinbase](REF) propose le LINK, et vous pouvez commencer petit. Comparez d'abord les frais et demandez-vous si un [ETF bitcoin ou l'achat direct](/articles/bitcoin-etf-vs-buying-bitcoin) vous convient mieux. Ceci n'est pas un conseil financier.
+
+## À surveiller
+
+- Les amendements au S-1 qui ajouteront les frais, le capital de départ et les autres informations manquantes.
+- Le moment où la SEC déclarera l'enregistrement effectif, ce qui permettrait à FLNK de commencer à coter.
+- Si les flux vers les ETF Chainlink de Grayscale et de Bitwise augmentent après le dépôt de Fidelity.
+
+!soft: Envie de comparer ETF et détention directe ? Lisez [ETF bitcoin ou achat de bitcoin, expliqué](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

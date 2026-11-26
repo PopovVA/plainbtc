@@ -1,0 +1,64 @@
+title: Fidelity solicita un ETF de Chainlink al contado que cotizaría en Nasdaq como FLNK y no haría staking de sus LINK
+page_title: Fidelity solicita un ETF de Chainlink al contado (FLNK)
+description: Fidelity presentó un formulario S-1 ante la SEC el 25 de noviembre de 2026 para el Fidelity Chainlink Fund, un ETF de LINK al contado que cotizaría en Nasdaq como FLNK. No haría staking de sus tokens, y la comisión y la fecha de lanzamiento aún no están fijadas.
+og_description: Fidelity quiere lanzar un ETF de Chainlink al contado. El fondo tendría LINK directamente, cotizaría en Nasdaq como FLNK, guardaría sus monedas con Anchorage, BitGo y Coinbase Custody y no pagaría recompensas de staking. La comisión y la fecha de lanzamiento siguen en blanco.
+label: Negocios
+summary: Fidelity presentó el 25 de noviembre ante la SEC una solicitud para lanzar un ETF de Chainlink al contado. El Fidelity Chainlink Fund tendría LINK directamente y cotizaría en Nasdaq como FLNK, pero no haría staking de sus tokens, y el documento deja en blanco la comisión y la fecha de lanzamiento.
+===
+
+Fidelity, una de las mayores gestoras de dinero de EE. UU., quiere ofrecer un fondo cotizado (ETF) que tenga el token LINK de Chainlink. La firma presentó una declaración de registro, conocida como formulario S-1, ante la Comisión de Bolsa y Valores (SEC) el miércoles 25 de noviembre para el <strong>Fidelity Chainlink Fund</strong>, según el [documento en SEC EDGAR](L1).
+
+El fondo compraría y mantendría LINK directamente y buscaría seguir su precio, descontados los gastos. Se espera que sus participaciones coticen en la bolsa Nasdaq con el símbolo <strong>FLNK</strong>. El documento no dice cuándo podría empezar a cotizar, y es un documento preliminar que todavía puede cambiar.
+
+!takeaways
+- Fidelity presentó un S-1 ante la SEC el 25 de noviembre de 2026 para un ETF de Chainlink al contado, el Fidelity Chainlink Fund.
+- Se espera que cotice en Nasdaq con el símbolo FLNK. No hay fecha de lanzamiento.
+- El fondo tendría LINK directamente, pero no haría staking, así que los partícipes no recibirían recompensas de staking.
+- Anchorage Digital Bank, BitGo Bank & Trust y Coinbase Custody custodiarían los LINK del fondo.
+- La comisión del gestor queda en blanco en el documento. Grayscale y Bitwise ya tienen ETF de Chainlink al contado en EE. UU.
+
+!figure:fact
+
+## Qué son Chainlink y LINK
+
+Chainlink es una red que lleva información externa, como precios de activos, a las aplicaciones de blockchain. Muchas aplicaciones de préstamos y de trading dependen de estos datos de precios para funcionar. LINK es el token con el que se pagan los servicios de Chainlink, y sus tenedores pueden bloquear, o hacer staking de, LINK en algunos de esos servicios para ayudar a protegerlos y ganar recompensas.
+
+LINK cotizaba cerca de 9,24 dólares en Kraken el jueves 26 de noviembre por la mañana. Eso es alrededor de un 24% menos que su cierre de 2025, según los [datos diarios de precios de Kraken](L3).
+
+## Cómo funcionaría el fondo
+
+Un ETF permite exponerse al precio a través de una cuenta de bolsa normal, sin comprar la moneda en un exchange de criptomonedas ni gestionar una billetera. Según el documento, el fondo valoraría sus participaciones cada día con una tasa de referencia de Chainlink de Fidelity, calculada con precios de varias plataformas donde se negocia LINK.
+
+Tres empresas custodiarían las monedas del fondo: Anchorage Digital Bank, BitGo Bank & Trust y Coinbase Custody Trust Company. Grandes firmas de trading conocidas como participantes autorizados crearían y reembolsarían participaciones en bloques, pagando con LINK o con efectivo.
+
+El fondo no participaría en el staking. "El fideicomiso no hará staking de sus LINK, y los partícipes no recibirán recompensas de staking a través del fideicomiso", escribió Fidelity, según cita [The Block](L2). El documento señala que el staking de Chainlink es limitado y actualmente tiene un tope de alrededor del 4% del suministro total de LINK.
+
+!figure:chart
+
+!mid_cta
+
+## Fidelity no sería la primera
+
+Ya existen dos ETF de Chainlink al contado en EE. UU. Al 24 de noviembre, el Grayscale Chainlink Trust ETF (GLNK) tenía unos 112 millones de dólares en activos y el Bitwise Chainlink ETF (CLNK) unos 42 millones, informó The Block.
+
+Fidelity ya gestiona ETF de bitcoin, ether y Solana al contado en EE. UU. (FBTC, FETH y FSOL), según The Block. La nueva solicitud llegó un día después de que Fidelity añadiera LINK, AAVE y UNI a su [plataforma de trading Fidelity Crypto](/articles/fidelity-crypto-adds-aave-link-uni-nov-2026).
+
+Detalles importantes siguen en blanco en el documento, como la comisión anual y el capital inicial que aportaría Fidelity. Esos huecos son normales en un primer S-1 y suelen completarse en modificaciones posteriores. El fondo solo podrá empezar a vender participaciones cuando la SEC declare efectivo el registro.
+
+## Qué significa para quienes empiezan
+
+Un ETF de Chainlink sería una forma de tener los movimientos de precio de LINK dentro de una cuenta de bolsa o de jubilación, con la custodia a cargo de grandes empresas. No haría que LINK fuera menos arriesgado. LINK es un activo pequeño y volátil comparado con bitcoin, y su precio ha caído este año. Un ETF además cobra una comisión anual, y como este no haría staking, sus partícipes se perderían recompensas que ganan algunos tenedores directos de LINK.
+
+Si prefieres tener las monedas directamente, un exchange regulado de EE. UU. como [Coinbase](REF) ofrece LINK, y puedes empezar con poco. Compara antes las comisiones y piensa si te conviene más un [ETF de bitcoin o comprar las monedas directamente](/articles/bitcoin-etf-vs-buying-bitcoin). Esto no es asesoramiento financiero.
+
+## Qué vigilar ahora
+
+- Modificaciones del S-1 que añadan la comisión, el capital inicial y otros datos que faltan.
+- Cuándo la SEC declare efectivo el registro, lo que permitiría que FLNK empiece a cotizar.
+- Si aumenta la entrada de dinero en los ETF de Chainlink de Grayscale y Bitwise tras la solicitud de Fidelity.
+
+!soft: ¿Quieres comparar los ETF con tener criptomonedas? Lee [ETF de bitcoin o comprar bitcoin, explicado](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

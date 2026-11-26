@@ -1,0 +1,64 @@
+title: Fidelity beantragt einen Spot-Chainlink-ETF, der an der Nasdaq als FLNK gehandelt würde und seine LINK nicht staken soll
+page_title: Fidelity beantragt Spot-Chainlink-ETF (FLNK)
+description: Fidelity hat am 25. November 2026 bei der SEC ein Formular S-1 für den Fidelity Chainlink Fund eingereicht, einen Spot-LINK-ETF, der an der Nasdaq als FLNK gehandelt werden soll. Er würde seine Token nicht staken, Gebühr und Starttermin stehen noch nicht fest.
+og_description: Fidelity will einen Spot-Chainlink-ETF auflegen. Der Fonds würde LINK direkt halten, an der Nasdaq als FLNK gehandelt werden, seine Coins bei Anchorage, BitGo und Coinbase Custody verwahren und keine Staking-Erträge zahlen. Gebühr und Starttermin sind noch leer.
+label: Wirtschaft
+summary: Fidelity hat am 25. November bei der SEC einen Antrag für einen Spot-Chainlink-ETF eingereicht. Der Fidelity Chainlink Fund würde LINK direkt halten und an der Nasdaq als FLNK gehandelt werden, seine Token aber nicht staken, und der Antrag lässt Gebühr und Starttermin offen.
+===
+
+Fidelity, einer der größten US-Vermögensverwalter, will einen börsengehandelten Fonds (ETF) anbieten, der Chainlinks Token LINK hält. Das Unternehmen reichte am Mittwoch, dem 25. November, bei der US-Börsenaufsicht SEC eine Registrierungserklärung, das sogenannte Formular S-1, für den <strong>Fidelity Chainlink Fund</strong> ein, wie aus dem [Dokument auf SEC EDGAR](L1) hervorgeht.
+
+Der Fonds würde LINK direkt kaufen und halten und dessen Kurs abzüglich der Kosten abbilden. Seine Anteile sollen an der Nasdaq unter dem Kürzel <strong>FLNK</strong> gehandelt werden. Wann der Handel beginnen könnte, steht nicht im Antrag, und es handelt sich um ein vorläufiges Dokument, das sich noch ändern kann.
+
+!takeaways
+- Fidelity hat am 25. November 2026 bei der SEC ein S-1 für einen Spot-Chainlink-ETF eingereicht, den Fidelity Chainlink Fund.
+- Die Anteile sollen an der Nasdaq unter dem Kürzel FLNK gehandelt werden. Ein Starttermin wird nicht genannt.
+- Der Fonds würde LINK direkt halten, aber nicht staken, Anleger bekämen also keine Staking-Erträge.
+- Anchorage Digital Bank, BitGo Bank & Trust und Coinbase Custody würden die LINK des Fonds verwahren.
+- Die Verwaltungsgebühr ist im Antrag noch leer. Grayscale und Bitwise betreiben in den USA bereits Spot-Chainlink-ETFs.
+
+!figure:fact
+
+## Was Chainlink und LINK sind
+
+Chainlink ist ein Netzwerk, das Informationen von außen, etwa Kurse von Vermögenswerten, in Blockchain-Anwendungen einspeist. Viele Kredit- und Handels-Apps sind auf diese Kursdaten angewiesen. LINK ist der Token, mit dem Chainlinks Dienste bezahlt werden, und Besitzer können LINK in einigen dieser Dienste sperren, also staken, um sie abzusichern und Erträge zu erhalten.
+
+LINK notierte am Donnerstagmorgen, dem 26. November, auf Kraken bei etwa 9,24 Dollar. Das sind rund 24 % weniger als zum Ende des Jahres 2025, laut den [täglichen Kursdaten von Kraken](L3).
+
+## Wie der Fonds funktionieren würde
+
+Mit einem ETF kann man über ein normales Wertpapierdepot am Kurs teilhaben, ohne die Kryptowährung an einer Krypto-Börse zu kaufen oder eine Wallet zu verwalten. Laut Antrag würde der Fonds seine Anteile täglich anhand eines Fidelity-Chainlink-Referenzkurses bewerten, der aus Preisen mehrerer LINK-Handelsplätze berechnet wird.
+
+Drei Unternehmen würden die Coins des Fonds verwahren: Anchorage Digital Bank, BitGo Bank & Trust und Coinbase Custody Trust Company. Große Handelshäuser, sogenannte autorisierte Teilnehmer, würden Fondsanteile in Blöcken schaffen und zurückgeben und dabei in LINK oder in bar zahlen.
+
+Am Staking würde sich der Fonds nicht beteiligen. „Der Trust wird seine LINK nicht staken, und Anteilseigner erhalten über den Trust keine Staking-Erträge“, schrieb Fidelity, wie [The Block](L2) zitiert. Der Antrag weist darauf hin, dass Chainlink-Staking begrenzt ist und derzeit bei etwa 4 % des gesamten LINK-Angebots gedeckelt ist.
+
+!figure:chart
+
+!mid_cta
+
+## Fidelity wäre nicht der Erste
+
+In den USA gibt es bereits zwei Spot-Chainlink-ETFs. Zum 24. November verwaltete der Grayscale Chainlink Trust ETF (GLNK) rund 112 Millionen Dollar und der Bitwise Chainlink ETF (CLNK) rund 42 Millionen Dollar, berichtete The Block.
+
+Fidelity betreibt in den USA bereits Spot-ETFs auf Bitcoin, Ether und Solana (FBTC, FETH und FSOL), so The Block. Der neue Antrag kam einen Tag, nachdem Fidelity LINK, AAVE und UNI auf seine [Handelsplattform Fidelity Crypto](/articles/fidelity-crypto-adds-aave-link-uni-nov-2026) aufgenommen hatte.
+
+Wichtige Angaben sind im Antrag noch leer, darunter die jährliche Gebühr und das Startkapital, das Fidelity einbringen würde. Solche Lücken sind bei einem ersten S-1 üblich und werden meist in späteren Änderungen gefüllt. Der Fonds darf erst Anteile verkaufen, wenn die SEC die Registrierung für wirksam erklärt.
+
+## Was das für Einsteiger bedeutet
+
+Ein Chainlink-ETF wäre eine Möglichkeit, die Kursbewegungen von LINK in einem Depot oder Altersvorsorgekonto abzubilden, wobei große Firmen die Verwahrung übernehmen. LINK würde dadurch nicht weniger riskant. LINK ist im Vergleich zu Bitcoin ein kleiner, schwankungsanfälliger Wert, und sein Kurs ist in diesem Jahr gefallen. Ein ETF verlangt zudem eine jährliche Gebühr, und weil dieser nicht staken würde, entgingen Anlegern Erträge, die manche direkte LINK-Besitzer erhalten.
+
+Wer die Coins lieber direkt besitzen möchte: Eine regulierte US-Börse wie [Coinbase](REF) bietet LINK an, und man kann klein anfangen. Vergleichen Sie zuerst die Gebühren und überlegen Sie, ob ein [Bitcoin-ETF oder der Direktkauf](/articles/bitcoin-etf-vs-buying-bitcoin) besser zu Ihnen passt. Dies ist keine Finanzberatung.
+
+## Worauf man jetzt achten sollte
+
+- Geänderte S-1-Fassungen, die Gebühr, Startkapital und weitere fehlende Angaben nachtragen.
+- Wann die SEC die Registrierung für wirksam erklärt, womit FLNK den Handel aufnehmen könnte.
+- Ob nach Fidelitys Antrag mehr Geld in die bestehenden Chainlink-ETFs von Grayscale und Bitwise fließt.
+
+!soft: Sie möchten ETFs und Direktbesitz vergleichen? Lesen Sie [Bitcoin-ETF oder Bitcoin kaufen, einfach erklärt](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

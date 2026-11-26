@@ -1,0 +1,64 @@
+title: Fidelity ajukan ETF Chainlink spot yang akan diperdagangkan di Nasdaq sebagai FLNK dan tidak akan men-stake LINK-nya
+page_title: Fidelity ajukan ETF Chainlink spot (FLNK)
+description: Fidelity mengajukan formulir S-1 ke SEC pada 25 November 2026 untuk Fidelity Chainlink Fund, ETF LINK spot yang diperkirakan diperdagangkan di Nasdaq sebagai FLNK. Dana ini tidak akan men-stake tokennya, dan biaya serta tanggal peluncuran belum ditetapkan.
+og_description: Fidelity ingin meluncurkan ETF Chainlink spot. Dana ini akan memegang LINK secara langsung, diperdagangkan di Nasdaq sebagai FLNK, menyimpan koinnya di Anchorage, BitGo, dan Coinbase Custody, serta tidak membayar imbalan staking. Biaya dan tanggal peluncuran masih kosong.
+label: Bisnis
+summary: Fidelity mengajukan permohonan ke SEC pada 25 November untuk meluncurkan ETF Chainlink spot. Fidelity Chainlink Fund akan memegang LINK secara langsung dan diperdagangkan di Nasdaq sebagai FLNK, tetapi tidak akan men-stake tokennya, dan dokumen itu mengosongkan biaya serta tanggal peluncuran.
+===
+
+Fidelity, salah satu manajer investasi terbesar di AS, ingin menawarkan dana yang diperdagangkan di bursa (ETF) yang memegang token LINK milik Chainlink. Perusahaan itu mengajukan pernyataan pendaftaran, yang dikenal sebagai Formulir S-1, ke Komisi Sekuritas dan Bursa AS (SEC) pada Rabu, 25 November, untuk <strong>Fidelity Chainlink Fund</strong>, menurut [dokumen di SEC EDGAR](L1).
+
+Dana ini akan membeli dan memegang LINK secara langsung dan berupaya mengikuti harganya setelah dikurangi biaya. Sahamnya diperkirakan diperdagangkan di bursa Nasdaq dengan kode <strong>FLNK</strong>. Dokumen itu tidak menyebut kapan perdagangan bisa dimulai, dan masih berupa dokumen awal yang bisa berubah.
+
+!takeaways
+- Fidelity mengajukan S-1 ke SEC pada 25 November 2026 untuk ETF Chainlink spot, Fidelity Chainlink Fund.
+- Sahamnya diperkirakan diperdagangkan di Nasdaq dengan kode FLNK. Belum ada tanggal peluncuran.
+- Dana ini akan memegang LINK secara langsung tetapi tidak akan men-stake-nya, sehingga pemegang saham tidak mendapat imbalan staking.
+- Anchorage Digital Bank, BitGo Bank & Trust, dan Coinbase Custody akan menyimpan LINK milik dana ini.
+- Biaya pengelolaan masih kosong dalam dokumen. Grayscale dan Bitwise sudah menjalankan ETF Chainlink spot di AS.
+
+!figure:fact
+
+## Apa itu Chainlink dan LINK
+
+Chainlink adalah jaringan yang menyalurkan informasi dari luar, seperti harga aset, ke aplikasi blockchain. Banyak aplikasi pinjaman dan perdagangan bergantung pada data harga ini agar bisa berjalan. LINK adalah token untuk membayar layanan Chainlink, dan pemegangnya bisa mengunci, atau men-stake, LINK di beberapa layanan itu untuk membantu mengamankannya dan mendapatkan imbalan.
+
+LINK diperdagangkan di sekitar US$9,24 di Kraken pada Kamis pagi, 26 November. Itu sekitar 24% di bawah posisinya pada akhir 2025, berdasarkan [data harga harian Kraken](L3).
+
+## Cara kerja dana ini
+
+ETF memungkinkan orang mendapat eksposur harga lewat rekening efek biasa, tanpa membeli koin di bursa kripto atau mengelola dompet. Menurut dokumen itu, dana ini akan menilai sahamnya setiap hari menggunakan kurs acuan Chainlink dari Fidelity yang dihitung dari harga di beberapa platform perdagangan LINK.
+
+Tiga perusahaan akan menyimpan koin milik dana ini: Anchorage Digital Bank, BitGo Bank & Trust, dan Coinbase Custody Trust Company. Perusahaan perdagangan besar yang disebut peserta resmi akan membuat dan menebus saham dana dalam blok, dengan membayar dalam LINK atau uang tunai.
+
+Dana ini tidak akan ikut staking. "Trust tidak akan men-stake LINK-nya, dan pemegang saham tidak akan menerima imbalan staking melalui Trust," tulis Fidelity, seperti dikutip [The Block](L2). Dokumen itu mencatat bahwa staking Chainlink terbatas dan saat ini dibatasi sekitar 4% dari total pasokan LINK.
+
+!figure:chart
+
+!mid_cta
+
+## Fidelity bukan yang pertama
+
+Sudah ada dua ETF Chainlink spot di AS. Per 24 November, Grayscale Chainlink Trust ETF (GLNK) mengelola sekitar US$112 juta aset dan Bitwise Chainlink ETF (CLNK) sekitar US$42 juta, lapor The Block.
+
+Fidelity sudah menjalankan ETF bitcoin, ether, dan Solana spot di AS (FBTC, FETH, dan FSOL), menurut The Block. Pengajuan baru ini datang sehari setelah Fidelity menambahkan LINK, AAVE, dan UNI ke [platform perdagangan Fidelity Crypto](/articles/fidelity-crypto-adds-aave-link-uni-nov-2026).
+
+Detail penting masih kosong dalam dokumen, termasuk biaya tahunan dan modal awal yang akan disetor Fidelity. Kekosongan seperti itu biasa pada S-1 pertama dan umumnya diisi dalam perubahan berikutnya. Dana ini baru boleh menjual saham setelah SEC menyatakan pendaftarannya efektif.
+
+## Artinya bagi pemula
+
+ETF Chainlink akan menjadi cara untuk memiliki pergerakan harga LINK di dalam rekening efek atau rekening pensiun, dengan penyimpanan ditangani perusahaan besar. Itu tidak membuat LINK menjadi kurang berisiko. LINK adalah aset kecil dan bergejolak dibandingkan bitcoin, dan harganya turun tahun ini. ETF juga memungut biaya tahunan, dan karena dana ini tidak akan men-stake, pemegang sahamnya akan kehilangan imbalan yang didapat sebagian pemegang LINK langsung.
+
+Jika Anda lebih suka memiliki koinnya langsung, bursa AS yang diatur seperti [Coinbase](REF) menyediakan LINK, dan Anda bisa mulai dengan jumlah kecil. Bandingkan biayanya terlebih dahulu, dan pertimbangkan apakah [ETF bitcoin atau membeli koin langsung](/articles/bitcoin-etf-vs-buying-bitcoin) lebih cocok untuk Anda. Ini bukan nasihat keuangan.
+
+## Yang perlu dipantau berikutnya
+
+- Perubahan S-1 yang menambahkan biaya, modal awal, dan detail lain yang belum ada.
+- Kapan SEC menyatakan pendaftaran efektif, yang akan membuka jalan bagi FLNK untuk mulai diperdagangkan.
+- Apakah arus dana ke ETF Chainlink milik Grayscale dan Bitwise meningkat setelah pengajuan Fidelity.
+
+!soft: Ingin membandingkan ETF dengan memiliki kripto langsung? Baca [ETF bitcoin vs membeli bitcoin, dijelaskan](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

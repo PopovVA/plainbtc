@@ -1,0 +1,61 @@
+title: Bitcoin Şükran Günü'nde yeniden 60.000 doların üzerine çıktı, spot bitcoin ETF'leri üst üste yedinci gün çıkış yaşadı
+page_title: Bitcoin Şükran Günü'nde yeniden 60.000 dolarda, ETF'lerde 7 günlük çıkış
+description: Bitcoin, 26 Kasım 2026 Şükran Günü sabahı, bir gün önce Kraken'de 57.200 dolar civarındaki dipten sonra yaklaşık 60.800 dolara toparlandı. ABD spot bitcoin ETF'leri çarşamba günü 453 milyon dolar kaybetti; bu, üst üste yedinci çıkış günü oldu.
+og_description: Bitcoin, hisse senetlerinin toparlanmasıyla bir günde yaklaşık 57.200 dolardan 60.800 dolar civarına yükseldi. Yine de spot bitcoin ETF'leri çarşamba günü 453 milyon dolar kaybetti, üst üste yedinci çıkış günü yaşandı ve kasımdaki çıkışlar yaklaşık 5,39 milyar dolara ulaştı.
+label: Piyasa
+summary: Bitcoin Şükran Günü sabahı yeniden 60.800 dolar civarındaydı; bu, çarşambanın Kraken'deki 57.200 dolar civarındaki dibinin yaklaşık %6 üzerinde. ABD spot bitcoin ETF'leri çarşamba günü 453 milyon dolar kaybetti, üst üste yedinci çıkış günü yaşandı ve kasımdaki çıkışlar yaklaşık 5,39 milyar dolar oldu.
+===
+
+Bitcoin Şükran Günü'nde biraz nefes aldı. Fiyat, 26 Kasım perşembe günü ABD merkezi saatiyle sabah 8'de Kraken'de yaklaşık <strong>60.800 dolar</strong> seviyesindeydi; bu, çarşamba sabahı görülen yaklaşık <strong>57.200 dolarlık</strong> dibin yaklaşık %6 üzerinde. ABD borsaları tatil nedeniyle kapalı, bu yüzden kripto işlem gören az sayıdaki piyasadan biri.
+
+Toparlanma çarşamba öğleden sonra, ABD hisseleri güne sert bir düşüşle başladıktan sonra toparlanınca başladı. Nasdaq Composite bir ara %4,6'ya kadar düştü ve günü yalnızca %0,62 kayıpla kapattı, [CoinDesk'in haberine göre](L1). Ardından bitcoin perşembe günkü Asya seansında %2,2'ye kadar yükseldi ve 60.000 doları aştı, [Bloomberg](L2) bildirdi.
+
+!takeaways
+- Bitcoin perşembe sabahı Kraken'de yaklaşık 60.800 dolardan işlem gördü; bu, çarşambanın yaklaşık 57.200 dolarlık dibinin yaklaşık %6 üzerinde.
+- ABD spot bitcoin ETF'leri çarşamba günü net 453 milyon dolar kaybetti; Farside Investors'a göre bu, üst üste yedinci çıkış günü.
+- Kasım ayındaki ETF çıkışları yaklaşık 5,39 milyar dolara ulaştı; bu fonlar için kayıtlardaki en büyük aylık çıkış.
+- Daha riskli coinler daha sert toparlandı: CoinDesk'in DeFi endeksi 24 saatte %6,3 yükseldi, bu bitcoin'in yaklaşık iki katı.
+- Piyasa duyarlılığını ölçen bir gösterge hâlâ "aşırı korku" seviyesinde ve cuma günü yaklaşık 7 milyar dolarlık bitcoin opsiyonunun vadesi doluyor.
+
+!figure:chart
+
+## Fiyat neden döndü
+
+Kripto bu ay teknoloji hisseleriyle çok yakın hareket ediyor. Nasdaq çarşamba günkü düşüşünün büyük kısmını geri alınca bitcoin de onu izledi. CoinDesk, dönüşün yatırımcı Michael Burry'nin Substack abonelerine Nasdaq-100 üzerindeki son düşüş bahislerini sattığını ve artık neredeyse tamamen yükselişe göre konumlandığını söylemesiyle aynı zamana denk geldiğini belirtti.
+
+Çarşamba günü açıklanan ABD enflasyon raporu genel tabloyu değiştirmedi. Federal Rezerv'in tercih ettiği ölçü olan çekirdek PCE enflasyonu ekimde %3,3 oldu, %3,2'lik beklentinin biraz üzerinde, ve CoinDesk'e göre piyasalar aralıkta çeyrek puanlık faiz artışı beklemeye devam ediyor. Daha yüksek faizler genellikle kripto gibi riskli varlıkları daha az cazip kılar.
+
+Diğer coinler de yükseldi. Kraken'de perşembe sabahı ether yaklaşık 1.702 dolar, solana ise yaklaşık 71 dolardı. CoinDesk, CoinDesk 100 endeksindeki 100 coinden 93'ünün 24 saatte yükseldiğini, DeFi ve altyapı endekslerinin ise %6,3 ve %6,6 kazandığını, bunun aynı dönemde bitcoin'in %3,2'lik artışının yaklaşık iki katı olduğunu söyledi.
+
+## ETF yatırımcıları satmaya devam ediyor
+
+Toparlanma büyük fonları henüz geri getirmedi. ABD spot bitcoin borsa yatırım fonları (ETF'ler), [Farside Investors](L3) verilerine göre 25 Kasım çarşamba günü net <strong>453 milyon dolar</strong> kaybetti. Bu, üst üste yedinci kayıp günü ve ayın dördüncü en büyük günlük çıkışıydı. Bunun 329,7 milyon doları BlackRock'ın iShares Bitcoin Trust (IBIT) fonundan geldi.
+
+Farside'ın günlük toplamlarına göre 17-25 Kasım arasındaki bu yedi işlem gününde fonlar toplam 3,05 milyar dolar kaybetti. Kasım çıkışları şimdi yaklaşık 5,39 milyar dolara ulaştı ve zaten [kayıtlardaki en büyük aylık çıkış](/articles/bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026) olan rakamı büyüttü. CoinDesk, fonların net varlıklarının 29 Ekim'deki 104,27 milyar dolardan 72,03 milyar dolara düştüğünü belirtti.
+
+!figure:flows
+
+!mid_cta
+
+## Hava hâlâ korku dolu
+
+Toparlanma yatırımcıların tedirginliğini değiştirmedi. CoinDesk'e göre CoinMarketCap'in Korku ve Açgözlülük Endeksi perşembe günü 10'du, yani "aşırı korku" bölgesinde, bir gün önceki 8'in yalnızca biraz üzerinde. Opsiyon yatırımcıları da yükseliş bahislerinden çok düşüşe karşı korunmaya para ödemeye devam etti: 24 saatte en çok işlem gören altı bitcoin opsiyonunun tamamı, fiyat düşerse kazandıran put sözleşmeleriydi.
+
+Büyük resimde trend hâlâ aşağı yönlü. Bitcoin kasıma Kraken'de yaklaşık 77.400 dolardan başladı; yani bu haftaki toparlanmaya rağmen ayı yaklaşık %21 kayıpla geçiriyor. Yine de 21 Kasım cumartesi günü yaşanan [sert çöküş ve toparlanma](/articles/bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026) sırasında gördüğü yaklaşık 55.100 dolarlık 2026 dibinin üzerinde kalıyor.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+İyi geçen bir gün, düşüş trendinin bittiği anlamına gelmez; tatil günlerinde alıcı ve satıcı az olduğu için fiyatlar daha oynak olabilir. Yeniyseniz ve biraz bitcoin almak istiyorsanız, birçok kişi tam dibi yakalamaya çalışmak yerine zamana yayarak küçük ve sabit tutarlarda almayı tercih ediyor. Yalnızca yakında ihtiyaç duymayacağınız parayı kullanın ve satın almadan önce [Coinbase](REF) gibi düzenlenmiş platformların ücretlerini karşılaştırın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- ABD'de New York saatiyle 13.00'te sona erecek kısaltılmış cuma seansı ve aynı gün vadesi dolacak yaklaşık 7 milyar dolarlık bitcoin opsiyonu.
+- Bitcoin'in, CoinDesk'e göre Galaxy Digital araştırma başkanı Alex Thorn'un 58.525 dolar (günlük) ve 59.517 dolar (haftalık) olarak belirttiği haziran diplerini kapanış bazında koruyup korumadığı.
+- Yedi günlük çıkışın ardından ETF akışlarının yeniden pozitife dönüp dönmeyeceği.
+- Faiz artışının geniş çapta beklendiği aralık ayındaki Fed toplantısı.
+
+!soft: Yeni misiniz? [Yeni başlayanların ne kadar bitcoin alması gerektiğine](/articles/how-much-bitcoin-should-a-beginner-buy-dca) dair sade rehberimizi okuyun
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,64 @@
+title: フィデリティがChainlink現物ETFを申請、ナスダックでFLNKとして取引予定でLINKのステーキングは行わず
+page_title: フィデリティがChainlink現物ETF（FLNK）を申請
+description: フィデリティは2026年11月25日、Fidelity Chainlink FundのフォームS-1をSECに提出した。ナスダックでFLNKとして取引される見通しのLINK現物ETFで、トークンのステーキングは行わない。手数料と開始日はまだ決まっていない。
+og_description: フィデリティがChainlink現物ETFの立ち上げを目指している。ファンドはLINKを直接保有し、ナスダックでFLNKとして取引され、コインはAnchorage、BitGo、Coinbase Custodyが保管し、ステーキング報酬は支払わない。手数料と開始日は空欄のままだ。
+label: ビジネス
+summary: フィデリティは11月25日、Chainlink現物ETFの立ち上げに向けてSECに申請した。Fidelity Chainlink FundはLINKを直接保有し、ナスダックでFLNKとして取引される見通しだが、トークンのステーキングは行わず、申請書では手数料と開始日が空欄になっている。
+===
+
+米大手資産運用会社のフィデリティが、ChainlinkのトークンLINKを保有する上場投資信託（ETF）の提供を目指している。[SEC EDGARの書類](L1)によると、同社は11月25日（水）、<strong>Fidelity Chainlink Fund</strong>について、フォームS-1と呼ばれる登録届出書を米証券取引委員会（SEC）に提出した。
+
+ファンドはLINKを直接購入・保有し、経費を差し引いたうえでその価格に連動することを目指す。株式はナスダックで<strong>FLNK</strong>のティッカーで取引される見通しだ。取引開始の時期は書かれておらず、内容が変わる可能性のある予備的な書類である。
+
+!takeaways
+- フィデリティは2026年11月25日、Chainlink現物ETF「Fidelity Chainlink Fund」のS-1をSECに提出した。
+- ナスダックでFLNKとして取引される見通し。開始日は示されていない。
+- ファンドはLINKを直接保有するがステーキングはしないため、投資家はステーキング報酬を受け取れない。
+- ファンドのLINKはAnchorage Digital Bank、BitGo Bank & Trust、Coinbase Custodyが保管する。
+- 運用会社の手数料は申請書で空欄。米国ではすでにグレースケールとビットワイズがChainlink現物ETFを運用している。
+
+!figure:fact
+
+## ChainlinkとLINKとは
+
+Chainlinkは、資産価格などの外部情報をブロックチェーンのアプリに届けるネットワークだ。多くのレンディングや取引のアプリが、この価格データに頼って動いている。LINKはChainlinkのサービスの支払いに使うトークンで、保有者は一部のサービスでLINKをロック（ステーキング）して安全性を支え、報酬を得ることができる。
+
+LINKは11月26日（木）朝、クラーケンで約9.24ドルで取引された。[クラーケンの日次価格データ](L3)によると、2025年末の水準から約24%低い。
+
+## ファンドの仕組み
+
+ETFを使えば、暗号資産取引所でコインを買ったりウォレットを管理したりせずに、通常の証券口座で価格に投資できる。申請書によると、ファンドは複数のLINK取引所の価格から算出するフィデリティのChainlink参照レートを使い、毎日株式を評価する。
+
+ファンドのコインは3社が保管する。Anchorage Digital Bank、BitGo Bank & Trust、Coinbase Custody Trust Companyだ。指定参加者と呼ばれる大手取引会社が、LINKまたは現金を使ってファンド株式をまとまった単位で設定・償還する。
+
+ファンドはステーキングを行わない。[The Block](L2)が引用したところによると、フィデリティは「トラストはLINKをステーキングせず、株主はトラストを通じてステーキング報酬を受け取らない」と記した。申請書は、Chainlinkのステーキングは限定的で、現在はLINKの総供給量の約4%が上限だと説明している。
+
+!figure:chart
+
+!mid_cta
+
+## フィデリティは最初ではない
+
+米国にはすでに2本のChainlink現物ETFがある。The Blockによると、11月24日時点でGrayscale Chainlink Trust ETF（GLNK）の運用資産は約1億1200万ドル、Bitwise Chainlink ETF（CLNK）は約4200万ドルだった。
+
+The Blockによると、フィデリティは米国でビットコイン、イーサ、ソラナの現物ETF（FBTC、FETH、FSOL）をすでに運用している。今回の申請は、フィデリティが[取引プラットフォームFidelity Crypto](/articles/fidelity-crypto-adds-aave-link-uni-nov-2026)にLINK、AAVE、UNIを追加した翌日だった。
+
+年間手数料やフィデリティが拠出する当初資金など、重要な項目は申請書でまだ空欄だ。こうした空欄は最初のS-1では普通で、通常は後の修正版で埋められる。ファンドが株式を販売できるのは、SECが登録の発効を宣言した後になる。
+
+## 初心者にとっての意味
+
+Chainlink ETFが実現すれば、保管は大手企業に任せたまま、証券口座や退職口座の中でLINKの値動きに投資できるようになる。ただし、LINKのリスクが下がるわけではない。LINKはビットコインに比べて規模が小さく値動きも激しい資産で、今年は価格が下がっている。ETFには年間手数料もかかり、このファンドはステーキングをしないため、直接LINKを持つ一部の人が得ている報酬も受け取れない。
+
+コインを直接持ちたい場合は、[Coinbase](REF)など規制を受けた米国の取引所でLINKを扱っており、少額から始められる。まず手数料を比べ、[ビットコインETFと直接購入](/articles/bitcoin-etf-vs-buying-bitcoin)のどちらが自分に合うかを考えよう。これは投資助言ではない。
+
+## 今後の注目点
+
+- 手数料や当初資金など、不足している情報を加えたS-1の修正版。
+- SECが登録の発効を宣言する時期。これによりFLNKの取引開始への道が開ける。
+- フィデリティの申請後、グレースケールとビットワイズの既存のChainlink ETFへの資金流入が増えるか。
+
+!soft: ETFと暗号資産の直接保有を比べたい方は、[ビットコインETFとビットコイン購入の違い](/articles/bitcoin-etf-vs-buying-bitcoin)の解説をどうぞ
+
+!end_cta
+
+!disclosure

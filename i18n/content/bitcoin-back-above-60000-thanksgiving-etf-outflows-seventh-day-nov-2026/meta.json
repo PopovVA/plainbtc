@@ -1,0 +1,21 @@
+{
+ "slug": "bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026",
+ "date": "2026-11-26",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-58000-pce-inflation-3-8-percent-eighth-weekly-loss-nov-2026",
+  "bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026",
+  "bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026",
+  "fed-minutes-more-rate-hikes-bitcoin-below-63000-nov-2026",
+  "how-much-bitcoin-should-a-beginner-buy-dca",
+  "bitcoin-etf-vs-buying-bitcoin"
+ ],
+ "sources": [
+  {"url": "https://www.coindesk.com/markets/2026/11/26/bitcoin-little-changed-defi-tokens-lead-the-bounce-as-u-s-marks-thanksgiving", "title": "CoinDesk: Bitcoin little changed, DeFi tokens lead the bounce as U.S. marks Thanksgiving", "date": "Nov 26, 2026"},
+  {"url": "https://www.bloomberg.com/news/articles/2026-11-26/bitcoin-tops-60-000-as-risk-assets-rise-in-holiday-trading", "title": "Bloomberg: Bitcoin tops $60,000 as risk assets rise in holiday trading", "date": "Nov 26, 2026"},
+  {"url": "https://farside.co.uk/btc/", "title": "Farside Investors: Bitcoin ETF daily flows", "date": "Nov 26, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: public BTC/USD price data", "date": "Nov 26, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

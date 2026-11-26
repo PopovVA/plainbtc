@@ -1,0 +1,64 @@
+title: Fidelity files for a spot Chainlink ETF that would trade on Nasdaq as FLNK and would not stake its LINK
+page_title: Fidelity files for spot Chainlink ETF (FLNK)
+description: Fidelity filed an S-1 with the SEC on Nov. 25, 2026 for the Fidelity Chainlink Fund, a spot LINK ETF expected to trade on Nasdaq as FLNK. It would not stake its tokens, and the fee and launch date are not set yet.
+og_description: Fidelity wants to launch a spot Chainlink ETF. The fund would hold LINK directly, trade on Nasdaq as FLNK, keep its coins with Anchorage, BitGo and Coinbase Custody, and pay no staking rewards. The fee and launch date are still blank.
+label: Business
+summary: Fidelity filed with the SEC on Nov. 25 to launch a spot Chainlink ETF. The Fidelity Chainlink Fund would hold LINK directly and trade on Nasdaq as FLNK, but it would not stake its tokens, and the filing leaves the fee and launch date blank.
+===
+
+Fidelity, one of the largest U.S. money managers, wants to offer an exchange-traded fund that holds Chainlink's LINK token. The firm filed a registration statement, known as a Form S-1, with the Securities and Exchange Commission on Wednesday, Nov. 25, for the <strong>Fidelity Chainlink Fund</strong>, according to the [filing on SEC EDGAR](L1).
+
+The fund would buy and hold LINK directly and aim to track its price, minus expenses. Its shares are expected to trade on the Nasdaq stock market under the ticker <strong>FLNK</strong>. The filing does not say when trading could begin, and it is a preliminary document that can still change.
+
+!takeaways
+- Fidelity filed an S-1 with the SEC on Nov. 25, 2026 for a spot Chainlink ETF, the Fidelity Chainlink Fund.
+- Shares are expected to trade on Nasdaq under the ticker FLNK. No launch date is given.
+- The fund would hold LINK directly but would not stake it, so shareholders would get no staking rewards.
+- Anchorage Digital Bank, BitGo Bank & Trust and Coinbase Custody would hold the fund's LINK.
+- The sponsor fee is left blank in the filing. Grayscale and Bitwise already run U.S. spot Chainlink ETFs.
+
+!figure:fact
+
+## What Chainlink and LINK are
+
+Chainlink is a network that feeds outside information, such as asset prices, into blockchain apps. Many lending and trading apps rely on these price feeds to work. LINK is the token used to pay for Chainlink's services, and holders can lock up, or stake, LINK in some of those services to help secure them and earn rewards.
+
+LINK traded near $9.24 on Kraken on Thursday morning, Nov. 26. That is about 24% below where it ended 2025, based on [Kraken's daily price data](L3).
+
+## How the fund would work
+
+An ETF lets people get price exposure through a regular brokerage account, without buying the coin on a crypto exchange or managing a wallet. According to the filing, the fund would value its shares every day using a Fidelity Chainlink reference rate built from prices on several LINK trading venues.
+
+Three companies would hold the fund's coins: Anchorage Digital Bank, BitGo Bank & Trust and Coinbase Custody Trust Company. Large trading firms known as authorized participants would create and redeem fund shares in blocks, paying in either LINK or cash.
+
+The fund would not take part in staking. "The Trust will not stake its LINK, and Shareholders will not receive staking rewards through the Trust," Fidelity wrote, as quoted by [The Block](L2). The filing notes that Chainlink staking is limited and currently capped at about 4% of LINK's total supply.
+
+!figure:chart
+
+!mid_cta
+
+## Fidelity would not be first
+
+Two U.S. spot Chainlink ETFs already exist. As of Nov. 24, the Grayscale Chainlink Trust ETF (GLNK) held about $112 million in assets and the Bitwise Chainlink ETF (CLNK) about $42 million, The Block reported.
+
+Fidelity already runs spot bitcoin, ether and Solana ETFs in the U.S. (FBTC, FETH and FSOL), according to The Block. The new filing came one day after Fidelity added LINK, AAVE and UNI to its [Fidelity Crypto trading platform](/articles/fidelity-crypto-adds-aave-link-uni-nov-2026).
+
+Important details are still blank in the filing, including the annual fee and the amount of starting money Fidelity would put in. Those blanks are normal for a first S-1 and are usually filled in later amendments. The fund can only start selling shares after the SEC declares the registration effective.
+
+## What it means for beginners
+
+A Chainlink ETF would be a way to own LINK's price moves inside a brokerage or retirement account, with the custody handled by large firms. It would not make LINK less risky. LINK is a small, volatile asset compared with bitcoin, and its price has fallen this year. An ETF also charges a yearly fee, and because this one would not stake, holders would miss rewards that some direct LINK holders earn.
+
+If you would rather own coins directly, a regulated U.S. exchange such as [Coinbase](REF) lists LINK, and you can start small. Compare fees first, and consider whether a [bitcoin ETF or buying coins directly](/articles/bitcoin-etf-vs-buying-bitcoin) fits you better. This is not financial advice.
+
+## What to watch next
+
+- Amended S-1 filings that add the fee, the seed money and other missing details.
+- When the SEC declares the registration effective, which would clear the way for FLNK to start trading.
+- Whether money flows into the existing Grayscale and Bitwise Chainlink ETFs pick up after Fidelity's filing.
+
+!soft: Curious how ETFs compare with owning crypto? Read [bitcoin ETF vs. buying bitcoin, explained](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

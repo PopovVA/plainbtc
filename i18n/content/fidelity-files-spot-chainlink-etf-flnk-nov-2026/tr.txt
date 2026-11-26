@@ -1,0 +1,64 @@
+title: Fidelity, Nasdaq'ta FLNK koduyla işlem görecek ve LINK'lerini stake etmeyecek bir spot Chainlink ETF'si için başvurdu
+page_title: Fidelity spot Chainlink ETF'si (FLNK) için başvurdu
+description: Fidelity, 25 Kasım 2026'da SEC'e Fidelity Chainlink Fund için S-1 formu sundu. Spot LINK ETF'sinin Nasdaq'ta FLNK koduyla işlem görmesi bekleniyor. Fon tokenlerini stake etmeyecek; ücret ve başlangıç tarihi henüz belirlenmedi.
+og_description: Fidelity bir spot Chainlink ETF'si başlatmak istiyor. Fon LINK'i doğrudan tutacak, Nasdaq'ta FLNK koduyla işlem görecek, coinlerini Anchorage, BitGo ve Coinbase Custody'de saklayacak ve staking ödülü ödemeyecek. Ücret ve başlangıç tarihi hâlâ boş.
+label: İş dünyası
+summary: Fidelity, 25 Kasım'da SEC'e spot Chainlink ETF'si başlatmak için başvurdu. Fidelity Chainlink Fund LINK'i doğrudan tutacak ve Nasdaq'ta FLNK koduyla işlem görecek, ancak tokenlerini stake etmeyecek; başvuruda ücret ve başlangıç tarihi boş bırakıldı.
+===
+
+ABD'nin en büyük varlık yöneticilerinden Fidelity, Chainlink'in LINK tokenini tutan bir borsa yatırım fonu (ETF) sunmak istiyor. Şirket, [SEC EDGAR'daki başvuruya](L1) göre 25 Kasım çarşamba günü ABD Menkul Kıymetler ve Borsa Komisyonu'na (SEC) <strong>Fidelity Chainlink Fund</strong> için S-1 formu olarak bilinen bir kayıt beyanı sundu.
+
+Fon LINK'i doğrudan satın alıp tutacak ve giderler düşüldükten sonra fiyatını takip etmeyi hedefleyecek. Payların Nasdaq borsasında <strong>FLNK</strong> koduyla işlem görmesi bekleniyor. Başvuruda işlemlerin ne zaman başlayabileceği yazmıyor ve bu belge hâlâ değişebilecek bir ön taslak.
+
+!takeaways
+- Fidelity, 25 Kasım 2026'da SEC'e bir spot Chainlink ETF'si olan Fidelity Chainlink Fund için S-1 sundu.
+- Payların Nasdaq'ta FLNK koduyla işlem görmesi bekleniyor. Bir başlangıç tarihi verilmedi.
+- Fon LINK'i doğrudan tutacak ama stake etmeyecek, bu yüzden pay sahipleri staking ödülü almayacak.
+- Fonun LINK'lerini Anchorage Digital Bank, BitGo Bank & Trust ve Coinbase Custody saklayacak.
+- Yönetim ücreti başvuruda boş bırakıldı. Grayscale ve Bitwise'ın ABD'de zaten spot Chainlink ETF'leri var.
+
+!figure:fact
+
+## Chainlink ve LINK nedir
+
+Chainlink, varlık fiyatları gibi dış bilgileri blokzincir uygulamalarına aktaran bir ağdır. Birçok borç verme ve alım satım uygulaması çalışmak için bu fiyat verilerine dayanır. LINK, Chainlink hizmetlerinin ödemesinde kullanılan tokendir ve sahipleri bu hizmetlerin bazılarını güvence altına almaya yardım edip ödül kazanmak için LINK'lerini kilitleyebilir, yani stake edebilir.
+
+LINK, 26 Kasım perşembe sabahı Kraken'de yaklaşık 9,24 dolardan işlem görüyordu. [Kraken'in günlük fiyat verilerine](L3) göre bu, 2025 yılını kapattığı seviyenin yaklaşık %24 altında.
+
+## Fon nasıl çalışacak
+
+ETF'ler, kripto borsasından coin almadan ya da cüzdan yönetmeden, normal bir aracı kurum hesabı üzerinden fiyata yatırım yapmayı sağlar. Başvuruya göre fon, paylarını her gün birkaç LINK işlem platformundaki fiyatlardan hesaplanan bir Fidelity Chainlink referans kuruyla değerleyecek.
+
+Fonun coinlerini üç şirket saklayacak: Anchorage Digital Bank, BitGo Bank & Trust ve Coinbase Custody Trust Company. Yetkili katılımcı adı verilen büyük alım satım firmaları, fon paylarını bloklar halinde LINK ya da nakitle oluşturup itfa edecek.
+
+Fon staking'e katılmayacak. [The Block](L2)'un aktardığına göre Fidelity, "Fon LINK'lerini stake etmeyecek ve pay sahipleri fon aracılığıyla staking ödülü almayacak" diye yazdı. Başvuruda, Chainlink staking'inin sınırlı olduğu ve şu anda toplam LINK arzının yaklaşık %4'ü ile sınırlandığı belirtiliyor.
+
+!figure:chart
+
+!mid_cta
+
+## Fidelity ilk olmayacak
+
+ABD'de halihazırda iki spot Chainlink ETF'si var. The Block'un haberine göre 24 Kasım itibarıyla Grayscale Chainlink Trust ETF (GLNK) yaklaşık 112 milyon dolar, Bitwise Chainlink ETF (CLNK) ise yaklaşık 42 milyon dolar varlık yönetiyordu.
+
+The Block'a göre Fidelity ABD'de zaten spot bitcoin, ether ve Solana ETF'leri (FBTC, FETH ve FSOL) yönetiyor. Yeni başvuru, Fidelity'nin [Fidelity Crypto alım satım platformuna](/articles/fidelity-crypto-adds-aave-link-uni-nov-2026) LINK, AAVE ve UNI eklemesinden bir gün sonra geldi.
+
+Yıllık ücret ve Fidelity'nin koyacağı başlangıç sermayesi gibi önemli ayrıntılar başvuruda hâlâ boş. Bu boşluklar ilk S-1 için olağandır ve genellikle sonraki değişikliklerde doldurulur. Fon, ancak SEC kaydı yürürlüğe girmiş ilan ettikten sonra pay satmaya başlayabilir.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Bir Chainlink ETF'si, saklamayı büyük şirketlere bırakarak LINK'in fiyat hareketlerine bir aracı kurum veya emeklilik hesabından yatırım yapmanın bir yolu olur. Bu, LINK'i daha az riskli yapmaz. LINK, bitcoin'e kıyasla küçük ve oynak bir varlıktır ve fiyatı bu yıl düştü. ETF'ler ayrıca yıllık ücret alır ve bu fon stake etmeyeceği için pay sahipleri, bazı doğrudan LINK sahiplerinin kazandığı ödülleri kaçırır.
+
+Coinleri doğrudan tutmayı tercih ediyorsanız, [Coinbase](REF) gibi düzenlenmiş bir ABD borsasında LINK var ve küçük tutarlarla başlayabilirsiniz. Önce ücretleri karşılaştırın ve sizin için [bitcoin ETF'si mi yoksa doğrudan satın almak mı](/articles/bitcoin-etf-vs-buying-bitcoin) daha uygun, düşünün. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Ücreti, başlangıç sermayesini ve diğer eksik ayrıntıları ekleyecek S-1 değişiklikleri.
+- SEC'in kaydı yürürlüğe girmiş ilan etmesi; bu, FLNK'nin işlem görmeye başlamasının yolunu açar.
+- Fidelity'nin başvurusundan sonra Grayscale ve Bitwise'ın mevcut Chainlink ETF'lerine para girişinin artıp artmayacağı.
+
+!soft: ETF'leri doğrudan kripto sahipliğiyle karşılaştırmak mı istiyorsunuz? [Bitcoin ETF'si mi, bitcoin almak mı: sade anlatım](/articles/bitcoin-etf-vs-buying-bitcoin) yazımızı okuyun
+
+!end_cta
+
+!disclosure

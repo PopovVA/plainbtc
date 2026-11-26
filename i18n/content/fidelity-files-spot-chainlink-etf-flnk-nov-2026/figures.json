@@ -1,0 +1,64 @@
+[
+  {
+    "id": "fact",
+    "file": "fact-fidelity-chainlink-fund-flnk.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: the Fidelity Chainlink Fund, filed with the SEC on Nov. 25, 2026, is expected to trade on Nasdaq as FLNK; it would hold LINK directly without staking, with Anchorage Digital Bank, BitGo Bank & Trust and Coinbase Custody as custodians; the fee and launch date are not set",
+      "es": "Tarjeta: el Fidelity Chainlink Fund, registrado ante la SEC el 25 de noviembre de 2026, cotizaría en Nasdaq como FLNK; tendría LINK directamente sin hacer staking, con Anchorage Digital Bank, BitGo Bank & Trust y Coinbase Custody como custodios; la comisión y la fecha de lanzamiento no están fijadas",
+      "pt": "Cartão: o Fidelity Chainlink Fund, registrado na SEC em 25 de novembro de 2026, deve ser negociado na Nasdaq como FLNK; teria LINK diretamente, sem staking, com Anchorage Digital Bank, BitGo Bank & Trust e Coinbase Custody como custodiantes; a taxa e a data de lançamento não foram definidas",
+      "fr": "Fiche : le Fidelity Chainlink Fund, déposé auprès de la SEC le 25 novembre 2026, devrait être coté sur le Nasdaq sous le symbole FLNK ; il détiendrait des LINK en direct, sans staking, conservés par Anchorage Digital Bank, BitGo Bank & Trust et Coinbase Custody ; les frais et la date de lancement ne sont pas fixés",
+      "de": "Faktenkarte: Der am 25. November 2026 bei der SEC eingereichte Fidelity Chainlink Fund soll an der Nasdaq als FLNK gehandelt werden; er würde LINK direkt halten, ohne Staking, verwahrt von Anchorage Digital Bank, BitGo Bank & Trust und Coinbase Custody; Gebühr und Starttermin stehen noch nicht fest",
+      "ru": "Карточка: Fidelity Chainlink Fund, заявка на который подана в SEC 25 ноября 2026 года, должен торговаться на Nasdaq под тикером FLNK; фонд будет напрямую держать LINK без стейкинга, кастодианы: Anchorage Digital Bank, BitGo Bank & Trust и Coinbase Custody; комиссия и дата запуска не указаны",
+      "tr": "Bilgi kartı: SEC'e 25 Kasım 2026'da başvurusu yapılan Fidelity Chainlink Fund'ın Nasdaq'ta FLNK koduyla işlem görmesi bekleniyor; fon LINK'i stake etmeden doğrudan tutacak, saklayıcılar Anchorage Digital Bank, BitGo Bank & Trust ve Coinbase Custody; ücret ve başlangıç tarihi belirlenmedi",
+      "id": "Kartu fakta: Fidelity Chainlink Fund, yang didaftarkan ke SEC pada 25 November 2026, diperkirakan diperdagangkan di Nasdaq dengan kode FLNK; dana ini akan memegang LINK secara langsung tanpa staking, dengan kustodian Anchorage Digital Bank, BitGo Bank & Trust, dan Coinbase Custody; biaya dan tanggal peluncuran belum ditetapkan",
+      "ja": "ファクトカード：2026年11月25日にSECへ届け出たFidelity Chainlink Fundは、ナスダックでFLNKとして取引される見通し。LINKを直接保有しステーキングはしない。カストディアンはAnchorage Digital Bank、BitGo Bank & Trust、Coinbase Custody。手数料と開始日は未定",
+      "ko": "팩트 카드: 2026년 11월 25일 SEC에 신청한 Fidelity Chainlink Fund는 나스닥에서 FLNK로 거래될 예정. LINK를 직접 보유하되 스테이킹은 하지 않으며 수탁기관은 Anchorage Digital Bank, BitGo Bank & Trust, Coinbase Custody. 수수료와 출시일은 미정"
+    },
+    "caption": {
+      "en": "Source: Fidelity Chainlink Fund Form S-1, SEC EDGAR, Nov. 25, 2026",
+      "es": "Fuente: Fidelity Chainlink Fund Form S-1, SEC EDGAR, Nov. 25, 2026",
+      "pt": "Fonte: Fidelity Chainlink Fund Form S-1, SEC EDGAR, Nov. 25, 2026",
+      "fr": "Source : Fidelity Chainlink Fund Form S-1, SEC EDGAR, Nov. 25, 2026",
+      "de": "Quelle: Fidelity Chainlink Fund Form S-1, SEC EDGAR, Nov. 25, 2026",
+      "ru": "Источник: Fidelity Chainlink Fund Form S-1, SEC EDGAR, Nov. 25, 2026",
+      "tr": "Kaynak: Fidelity Chainlink Fund Form S-1, SEC EDGAR, Nov. 25, 2026",
+      "id": "Sumber: Fidelity Chainlink Fund Form S-1, SEC EDGAR, Nov. 25, 2026",
+      "ja": "出典: Fidelity Chainlink Fund Form S-1, SEC EDGAR, Nov. 25, 2026",
+      "ko": "출처: Fidelity Chainlink Fund Form S-1, SEC EDGAR, Nov. 25, 2026"
+    }
+  },
+  {
+    "id": "chart",
+    "file": "chart-link-daily-closes-2026.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of Chainlink's LINK token daily closing price on Kraken from Dec. 31, 2025 to Nov. 26, 2026: it starts at $12.18 and ends near $9.24, about 24% lower",
+      "es": "Gráfico de líneas del precio de cierre diario del token LINK de Chainlink en Kraken del 31 de diciembre de 2025 al 26 de noviembre de 2026: empieza en 12,18 dólares y termina cerca de 9,24, alrededor de un 24% menos",
+      "pt": "Gráfico de linha do preço de fechamento diário do token LINK da Chainlink na Kraken de 31 de dezembro de 2025 a 26 de novembro de 2026: começa em US$ 12,18 e termina perto de US$ 9,24, cerca de 24% abaixo",
+      "fr": "Graphique linéaire du cours de clôture quotidien du jeton LINK de Chainlink sur Kraken du 31 décembre 2025 au 26 novembre 2026 : il part de 12,18 dollars et finit vers 9,24 dollars, soit environ 24 % de moins",
+      "de": "Liniendiagramm der täglichen Schlusskurse des Chainlink-Tokens LINK auf Kraken vom 31. Dezember 2025 bis 26. November 2026: Start bei 12,18 $, Ende nahe 9,24 $, etwa 24 % weniger",
+      "ru": "Линейный график дневных цен закрытия токена LINK сети Chainlink на Kraken с 31 декабря 2025 года по 26 ноября 2026 года: старт на $12,18, финиш около $9,24, примерно на 24% ниже",
+      "tr": "Chainlink'in LINK tokeninin 31 Aralık 2025 - 26 Kasım 2026 arasında Kraken'deki günlük kapanış fiyatını gösteren çizgi grafik: 12,18 dolardan başlıyor ve yaklaşık %24 düşüşle 9,24 dolar civarında bitiyor",
+      "id": "Grafik garis harga penutupan harian token LINK milik Chainlink di Kraken dari 31 Desember 2025 hingga 26 November 2026: dimulai di US$12,18 dan berakhir di sekitar US$9,24, sekitar 24% lebih rendah",
+      "ja": "2025年12月31日から2026年11月26日までのクラーケンにおけるChainlinkのLINKトークン日次終値の折れ線グラフ。12.18ドルから始まり、約24%安い9.24ドル前後で終わる",
+      "ko": "2025년 12월 31일부터 2026년 11월 26일까지 크라켄에서 체인링크 LINK 토큰 일일 종가 선 그래프. 12.18달러에서 시작해 약 24% 낮은 9.24달러 부근에서 마감"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken LINK/USD daily closes, Dec. 31, 2025 to Nov. 26, 2026",
+      "es": "Gráfico: PlainBTC, datos: Kraken LINK/USD daily closes, Dec. 31, 2025 to Nov. 26, 2026",
+      "pt": "Gráfico: PlainBTC, dados: Kraken LINK/USD daily closes, Dec. 31, 2025 to Nov. 26, 2026",
+      "fr": "Graphique : PlainBTC, données : Kraken LINK/USD daily closes, Dec. 31, 2025 to Nov. 26, 2026",
+      "de": "Chart: PlainBTC, Daten: Kraken LINK/USD daily closes, Dec. 31, 2025 to Nov. 26, 2026",
+      "ru": "График: PlainBTC, данные: Kraken LINK/USD daily closes, Dec. 31, 2025 to Nov. 26, 2026",
+      "tr": "Grafik: PlainBTC, veri: Kraken LINK/USD daily closes, Dec. 31, 2025 to Nov. 26, 2026",
+      "id": "Grafik: PlainBTC, data: Kraken LINK/USD daily closes, Dec. 31, 2025 to Nov. 26, 2026",
+      "ja": "チャート: PlainBTC、データ: Kraken LINK/USD daily closes, Dec. 31, 2025 to Nov. 26, 2026",
+      "ko": "차트: PlainBTC, 데이터: Kraken LINK/USD daily closes, Dec. 31, 2025 to Nov. 26, 2026"
+    }
+  }
+]

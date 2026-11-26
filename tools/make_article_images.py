@@ -5975,7 +5975,130 @@ EZPZ_FACT_ALTS = {
 }
 
 
+BTC60_SLUG = "bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026"
+FLNK_SLUG = "fidelity-files-spot-chainlink-etf-flnk-nov-2026"
+
+
+def build_btc60_thanksgiving():
+    d = OUT / BTC60_SLUG
+    data = json.loads((I18N / BTC60_SLUG / "chart-data.json").read_text(encoding="utf-8"))
+    xs = np.array([r[0] for r in data["hourly"]], dtype=float)
+    ys = np.array([r[1] for r in data["hourly"]])
+    assert round(min(r[2] for r in data["hourly"])) == 57211, "low changed"
+    chart = make_line_chart(
+        d / "chart-btc-hourly-nov-24-26-2026",
+        xs, ys,
+        title="Bitcoin, hourly closes on Kraken, Nov. 24 to Nov. 26, 2026 (UTC)",
+        hline=60000.0,
+        hlabel="$60,000",
+        date_fmt="%b %d %H:%M",
+    )
+    labels = [f[0] for f in data["etf_flows"]]
+    vals = [f[1] for f in data["etf_flows"]]
+    assert vals[-1] == -453.0 and round(sum(vals[1:]), 1) == -3052.0, vals
+    cols = ["#34d399" if v > 0 else "#f87171" for v in vals]
+    cols[-1] = "#dc2626"
+    flows = make_bar_chart(
+        d / "chart-btc-etf-daily-flows-nov-16-25-2026",
+        labels, vals,
+        title="U.S. spot bitcoin ETFs: daily net flows, Nov. 16 to Nov. 25, 2026 (US$ millions)",
+        colors=cols,
+        value_fmt=lambda v: f"+{v:,.1f}M" if v > 0 else f"-{-v:,.1f}M",
+        axis_fmt=lambda x, _p: f"${x:,.0f}M",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's hourly closing price on Kraken from Nov. 24 to the morning of Nov. 26, 2026: it slides from about $60,400 to an hourly close near $58,000 on Nov. 25 (intraday low near $57,200), then climbs back above $60,000 to about $60,800", BTC60_CHART_ALTS),
+         "caption": tr_map(CAPTION_CHART, src="Kraken BTC/USD hourly closes, Nov. 24 to Nov. 26, 2026")},
+        {"id": "flows", "file": flows.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of daily net flows of U.S. spot bitcoin ETFs: a small $7.9 million inflow on Nov. 16, then seven outflow days from Nov. 17 to Nov. 25, 2026, of $239.9M, $306.5M, $582.3M, $669.2M, $569.7M, $231.4M and $453.0M", BTC60_FLOWS_ALTS),
+         "caption": tr_map(CAPTION_CHART, src="Farside Investors")},
+    ]
+
+
+BTC60_CHART_ALTS = {
+ "es": "Gráfico de líneas del cierre horario de bitcoin en Kraken del 24 a la mañana del 26 de noviembre de 2026: baja de unos 60.400 dólares a un cierre horario cerca de 58.000 el 25 de noviembre (mínimo intradía cerca de 57.200) y luego vuelve por encima de 60.000, hasta unos 60.800 dólares",
+ "pt": "Gráfico de linha do fechamento por hora do bitcoin na Kraken de 24 de novembro à manhã de 26 de novembro de 2026: cai de cerca de US$ 60.400 para um fechamento por hora perto de US$ 58.000 em 25 de novembro (mínima intradiária perto de US$ 57.200) e depois volta acima de US$ 60.000, para cerca de US$ 60.800",
+ "fr": "Graphique linéaire des clôtures horaires du bitcoin sur Kraken du 24 au matin du 26 novembre 2026 : il glisse d'environ 60 400 dollars à une clôture horaire proche de 58 000 dollars le 25 novembre (plus bas intrajournalier vers 57 200 dollars), puis repasse au-dessus de 60 000 dollars, vers 60 800 dollars",
+ "de": "Liniendiagramm der stündlichen Bitcoin-Schlusskurse auf Kraken vom 24. bis zum Morgen des 26. November 2026: Der Kurs fällt von rund 60.400 $ auf einen Stundenschluss nahe 58.000 $ am 25. November (Tagestief nahe 57.200 $) und steigt dann wieder über 60.000 $ auf etwa 60.800 $",
+ "ru": "Линейный график часовых цен закрытия биткоина на Kraken с 24 ноября до утра 26 ноября 2026 года: цена снижается примерно с $60 400 до часового закрытия около $58 000 25 ноября (внутридневной минимум около $57 200), затем возвращается выше $60 000, примерно к $60 800",
+ "tr": "Bitcoin'in 24 Kasım'dan 26 Kasım 2026 sabahına kadar Kraken'deki saatlik kapanış fiyatlarını gösteren çizgi grafik: yaklaşık 60.400 dolardan 25 Kasım'da 58.000 dolar civarındaki saatlik kapanışa iniyor (gün içi dip yaklaşık 57.200 dolar), ardından 60.000 doların üzerine çıkarak yaklaşık 60.800 dolara yükseliyor",
+ "id": "Grafik garis harga penutupan per jam bitcoin di Kraken dari 24 November hingga pagi 26 November 2026: turun dari sekitar US$60.400 ke penutupan per jam dekat US$58.000 pada 25 November (terendah intrahari dekat US$57.200), lalu naik kembali di atas US$60.000 ke sekitar US$60.800",
+ "ja": "2026年11月24日から26日朝までのクラーケンにおけるビットコインの1時間足終値の折れ線グラフ。約60,400ドルから11月25日に1時間足終値で約58,000ドル（日中安値は約57,200ドル）まで下げ、その後60,000ドルを回復して約60,800ドルに",
+ "ko": "2026년 11월 24일부터 26일 아침까지 크라켄 비트코인 시간별 종가 선 그래프. 약 60,400달러에서 11월 25일 시간별 종가 약 58,000달러(장중 저점 약 57,200달러)까지 내려간 뒤 60,000달러 위로 회복해 약 60,800달러에 도달",
+}
+BTC60_FLOWS_ALTS = {
+ "es": "Gráfico de barras de los flujos netos diarios de los ETF de bitcoin al contado de EE. UU.: una pequeña entrada de 7,9 millones de dólares el 16 de noviembre y luego siete días de salidas del 17 al 25 de noviembre de 2026, de 239,9; 306,5; 582,3; 669,2; 569,7; 231,4 y 453,0 millones",
+ "pt": "Gráfico de barras dos fluxos líquidos diários dos ETFs de bitcoin à vista dos EUA: uma pequena entrada de US$ 7,9 milhões em 16 de novembro e depois sete dias de saídas de 17 a 25 de novembro de 2026, de US$ 239,9; 306,5; 582,3; 669,2; 569,7; 231,4 e 453,0 milhões",
+ "fr": "Graphique en barres des flux nets quotidiens des ETF bitcoin au comptant américains : une petite entrée de 7,9 millions de dollars le 16 novembre, puis sept jours de sorties du 17 au 25 novembre 2026, de 239,9, 306,5, 582,3, 669,2, 569,7, 231,4 et 453,0 millions",
+ "de": "Balkendiagramm der täglichen Nettozuflüsse der US-Spot-Bitcoin-ETFs: ein kleiner Zufluss von 7,9 Mio. $ am 16. November, dann sieben Abflusstage vom 17. bis 25. November 2026 mit 239,9, 306,5, 582,3, 669,2, 569,7, 231,4 und 453,0 Mio. $",
+ "ru": "Столбчатая диаграмма дневных чистых потоков американских спотовых биткоин-ETF: небольшой приток $7,9 млн 16 ноября, затем семь дней оттока с 17 по 25 ноября 2026 года: $239,9 млн, $306,5 млн, $582,3 млн, $669,2 млн, $569,7 млн, $231,4 млн и $453,0 млн",
+ "tr": "ABD spot bitcoin ETF'lerinin günlük net akışlarını gösteren çubuk grafik: 16 Kasım'da 7,9 milyon dolarlık küçük bir giriş, ardından 17-25 Kasım 2026 arasında 239,9, 306,5, 582,3, 669,2, 569,7, 231,4 ve 453,0 milyon dolarlık yedi çıkış günü",
+ "id": "Grafik batang arus bersih harian ETF bitcoin spot AS: arus masuk kecil US$7,9 juta pada 16 November, lalu tujuh hari arus keluar dari 17 hingga 25 November 2026 sebesar US$239,9 juta, 306,5 juta, 582,3 juta, 669,2 juta, 569,7 juta, 231,4 juta, dan 453,0 juta",
+ "ja": "米国ビットコイン現物ETFの日次純フローの棒グラフ：11月16日は790万ドルの小幅流入、その後2026年11月17日から25日まで7日連続の流出（2億3990万、3億650万、5億8230万、6億6920万、5億6970万、2億3140万、4億5300万ドル）",
+ "ko": "미국 비트코인 현물 ETF 일일 순유출입 막대그래프: 11월 16일 790만 달러 소폭 유입 후 2026년 11월 17~25일 7거래일 연속 유출(2억3990만, 3억650만, 5억8230만, 6억6920만, 5억6970만, 2억3140만, 4억5300만 달러)",
+}
+
+
+def build_flnk_filing():
+    d = OUT / FLNK_SLUG
+    data = json.loads((I18N / FLNK_SLUG / "chart-data.json").read_text(encoding="utf-8"))
+    xs = np.array([r[0] for r in data["daily"]], dtype=float)
+    ys = np.array([r[1] for r in data["daily"]])
+    assert round(ys[0], 2) == 12.18 and round(ys[-1], 2) == 9.24, (ys[0], ys[-1])
+    chart = make_line_chart(
+        d / "chart-link-daily-closes-2026",
+        xs, ys,
+        title="Chainlink (LINK) in 2026: Kraken daily closes (Nov. 26: price at 8 a.m. CT)",
+        hline=float(ys[0]),
+        hlabel="Dec. 31, 2025 close: $12.18",
+        date_fmt="%b",
+        yfmt=lambda x, _p: f"${x:,.0f}",
+    )
+    fact = make_fact_card(
+        d / "fact-fidelity-chainlink-fund-flnk",
+        "Fidelity Chainlink Fund · S-1 filed Nov. 25, 2026",
+        "FLNK on Nasdaq",
+        "Holds LINK directly, no staking. Custodians: Anchorage Digital Bank, BitGo Bank & Trust, Coinbase Custody. Fee and launch date not set",
+        footer="Source: Form S-1, SEC EDGAR, Nov. 25, 2026",
+    )
+    return [
+        {"id": "fact", "file": fact.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: the Fidelity Chainlink Fund, filed with the SEC on Nov. 25, 2026, is expected to trade on Nasdaq as FLNK; it would hold LINK directly without staking, with Anchorage Digital Bank, BitGo Bank & Trust and Coinbase Custody as custodians; the fee and launch date are not set", FLNK_FACT_ALTS),
+         "caption": tr_map(CAPTION_SOURCE, src="Fidelity Chainlink Fund Form S-1, SEC EDGAR, Nov. 25, 2026")},
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of Chainlink's LINK token daily closing price on Kraken from Dec. 31, 2025 to Nov. 26, 2026: it starts at $12.18 and ends near $9.24, about 24% lower", FLNK_CHART_ALTS),
+         "caption": tr_map(CAPTION_CHART, src="Kraken LINK/USD daily closes, Dec. 31, 2025 to Nov. 26, 2026")},
+    ]
+
+
+FLNK_FACT_ALTS = {
+ "es": "Tarjeta: el Fidelity Chainlink Fund, registrado ante la SEC el 25 de noviembre de 2026, cotizaría en Nasdaq como FLNK; tendría LINK directamente sin hacer staking, con Anchorage Digital Bank, BitGo Bank & Trust y Coinbase Custody como custodios; la comisión y la fecha de lanzamiento no están fijadas",
+ "pt": "Cartão: o Fidelity Chainlink Fund, registrado na SEC em 25 de novembro de 2026, deve ser negociado na Nasdaq como FLNK; teria LINK diretamente, sem staking, com Anchorage Digital Bank, BitGo Bank & Trust e Coinbase Custody como custodiantes; a taxa e a data de lançamento não foram definidas",
+ "fr": "Fiche : le Fidelity Chainlink Fund, déposé auprès de la SEC le 25 novembre 2026, devrait être coté sur le Nasdaq sous le symbole FLNK ; il détiendrait des LINK en direct, sans staking, conservés par Anchorage Digital Bank, BitGo Bank & Trust et Coinbase Custody ; les frais et la date de lancement ne sont pas fixés",
+ "de": "Faktenkarte: Der am 25. November 2026 bei der SEC eingereichte Fidelity Chainlink Fund soll an der Nasdaq als FLNK gehandelt werden; er würde LINK direkt halten, ohne Staking, verwahrt von Anchorage Digital Bank, BitGo Bank & Trust und Coinbase Custody; Gebühr und Starttermin stehen noch nicht fest",
+ "ru": "Карточка: Fidelity Chainlink Fund, заявка на который подана в SEC 25 ноября 2026 года, должен торговаться на Nasdaq под тикером FLNK; фонд будет напрямую держать LINK без стейкинга, кастодианы: Anchorage Digital Bank, BitGo Bank & Trust и Coinbase Custody; комиссия и дата запуска не указаны",
+ "tr": "Bilgi kartı: SEC'e 25 Kasım 2026'da başvurusu yapılan Fidelity Chainlink Fund'ın Nasdaq'ta FLNK koduyla işlem görmesi bekleniyor; fon LINK'i stake etmeden doğrudan tutacak, saklayıcılar Anchorage Digital Bank, BitGo Bank & Trust ve Coinbase Custody; ücret ve başlangıç tarihi belirlenmedi",
+ "id": "Kartu fakta: Fidelity Chainlink Fund, yang didaftarkan ke SEC pada 25 November 2026, diperkirakan diperdagangkan di Nasdaq dengan kode FLNK; dana ini akan memegang LINK secara langsung tanpa staking, dengan kustodian Anchorage Digital Bank, BitGo Bank & Trust, dan Coinbase Custody; biaya dan tanggal peluncuran belum ditetapkan",
+ "ja": "ファクトカード：2026年11月25日にSECへ届け出たFidelity Chainlink Fundは、ナスダックでFLNKとして取引される見通し。LINKを直接保有しステーキングはしない。カストディアンはAnchorage Digital Bank、BitGo Bank & Trust、Coinbase Custody。手数料と開始日は未定",
+ "ko": "팩트 카드: 2026년 11월 25일 SEC에 신청한 Fidelity Chainlink Fund는 나스닥에서 FLNK로 거래될 예정. LINK를 직접 보유하되 스테이킹은 하지 않으며 수탁기관은 Anchorage Digital Bank, BitGo Bank & Trust, Coinbase Custody. 수수료와 출시일은 미정",
+}
+FLNK_CHART_ALTS = {
+ "es": "Gráfico de líneas del precio de cierre diario del token LINK de Chainlink en Kraken del 31 de diciembre de 2025 al 26 de noviembre de 2026: empieza en 12,18 dólares y termina cerca de 9,24, alrededor de un 24% menos",
+ "pt": "Gráfico de linha do preço de fechamento diário do token LINK da Chainlink na Kraken de 31 de dezembro de 2025 a 26 de novembro de 2026: começa em US$ 12,18 e termina perto de US$ 9,24, cerca de 24% abaixo",
+ "fr": "Graphique linéaire du cours de clôture quotidien du jeton LINK de Chainlink sur Kraken du 31 décembre 2025 au 26 novembre 2026 : il part de 12,18 dollars et finit vers 9,24 dollars, soit environ 24 % de moins",
+ "de": "Liniendiagramm der täglichen Schlusskurse des Chainlink-Tokens LINK auf Kraken vom 31. Dezember 2025 bis 26. November 2026: Start bei 12,18 $, Ende nahe 9,24 $, etwa 24 % weniger",
+ "ru": "Линейный график дневных цен закрытия токена LINK сети Chainlink на Kraken с 31 декабря 2025 года по 26 ноября 2026 года: старт на $12,18, финиш около $9,24, примерно на 24% ниже",
+ "tr": "Chainlink'in LINK tokeninin 31 Aralık 2025 - 26 Kasım 2026 arasında Kraken'deki günlük kapanış fiyatını gösteren çizgi grafik: 12,18 dolardan başlıyor ve yaklaşık %24 düşüşle 9,24 dolar civarında bitiyor",
+ "id": "Grafik garis harga penutupan harian token LINK milik Chainlink di Kraken dari 31 Desember 2025 hingga 26 November 2026: dimulai di US$12,18 dan berakhir di sekitar US$9,24, sekitar 24% lebih rendah",
+ "ja": "2025年12月31日から2026年11月26日までのクラーケンにおけるChainlinkのLINKトークン日次終値の折れ線グラフ。12.18ドルから始まり、約24%安い9.24ドル前後で終わる",
+ "ko": "2025년 12월 31일부터 2026년 11월 26일까지 크라켄에서 체인링크 LINK 토큰 일일 종가 선 그래프. 12.18달러에서 시작해 약 24% 낮은 9.24달러 부근에서 마감",
+}
+
+
 BUILDERS = {
+    "bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026": "btc60tg",
+    "fidelity-files-spot-chainlink-etf-flnk-nov-2026": "flnk",
     "coinbase-wallet-direct-deposit-paycheck-usdc-base-nov-2026": "cbwdd",
     "franklin-templeton-ezpz-etf-adds-hyperliquid-hype-nov-2026": "ezpzhype",
     "doj-scam-crackdown-800-defendants-1-billion-crypto-frozen-nov-2026": "dojscam",
@@ -6080,7 +6203,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "cbwdd":
+    if key == "btc60tg":
+        figs = build_btc60_thanksgiving()
+    elif key == "flnk":
+        figs = build_flnk_filing()
+    elif key == "cbwdd":
         figs = build_cbw_direct_deposit()
     elif key == "ezpzhype":
         figs = build_ezpz_hype()

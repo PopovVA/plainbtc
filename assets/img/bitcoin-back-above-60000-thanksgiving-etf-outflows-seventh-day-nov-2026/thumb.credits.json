@@ -1,0 +1,33 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Kraken OHLC XBTUSD interval=60 (frozen in chart-data.json)",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Hourly BTC/USD closes Nov. 24 to Nov. 26, 2026, from Kraken"
+    },
+    {
+      "file": "Farside Investors bitcoin ETF flows",
+      "license": "Facts cited",
+      "url": "https://farside.co.uk/btc/",
+      "credit": "Daily net flows Nov. 17 to Nov. 25, 2026"
+    },
+    {
+      "file": "Bitcoin.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg",
+      "credit": "Bitcoin logo"
+    }
+  ],
+  "slug": "bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026",
+  "generated": "2026-11-26T14:04Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

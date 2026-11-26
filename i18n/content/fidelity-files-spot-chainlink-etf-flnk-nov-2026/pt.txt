@@ -1,0 +1,64 @@
+title: Fidelity pede ETF de Chainlink à vista que seria negociado na Nasdaq como FLNK e não faria staking dos seus LINK
+page_title: Fidelity pede ETF de Chainlink à vista (FLNK)
+description: A Fidelity protocolou um formulário S-1 na SEC em 25 de novembro de 2026 para o Fidelity Chainlink Fund, um ETF de LINK à vista que deve ser negociado na Nasdaq como FLNK. O fundo não faria staking dos tokens, e a taxa e a data de lançamento ainda não foram definidas.
+og_description: A Fidelity quer lançar um ETF de Chainlink à vista. O fundo teria LINK diretamente, seria negociado na Nasdaq como FLNK, guardaria as moedas com Anchorage, BitGo e Coinbase Custody e não pagaria recompensas de staking. A taxa e a data de lançamento seguem em branco.
+label: Negócios
+summary: A Fidelity protocolou na SEC em 25 de novembro um pedido para lançar um ETF de Chainlink à vista. O Fidelity Chainlink Fund teria LINK diretamente e seria negociado na Nasdaq como FLNK, mas não faria staking dos tokens, e o documento deixa em branco a taxa e a data de lançamento.
+===
+
+A Fidelity, uma das maiores gestoras de recursos dos EUA, quer oferecer um fundo negociado em bolsa (ETF) que tenha o token LINK, da Chainlink. A empresa protocolou uma declaração de registro, conhecida como formulário S-1, na Comissão de Valores Mobiliários dos EUA (SEC) na quarta-feira, 25 de novembro, para o <strong>Fidelity Chainlink Fund</strong>, segundo o [documento no SEC EDGAR](L1).
+
+O fundo compraria e manteria LINK diretamente e buscaria acompanhar o seu preço, descontadas as despesas. As cotas devem ser negociadas na bolsa Nasdaq com o código <strong>FLNK</strong>. O documento não diz quando as negociações poderiam começar, e é um texto preliminar que ainda pode mudar.
+
+!takeaways
+- A Fidelity protocolou um S-1 na SEC em 25 de novembro de 2026 para um ETF de Chainlink à vista, o Fidelity Chainlink Fund.
+- As cotas devem ser negociadas na Nasdaq com o código FLNK. Não há data de lançamento.
+- O fundo teria LINK diretamente, mas não faria staking, então os cotistas não receberiam recompensas de staking.
+- Anchorage Digital Bank, BitGo Bank & Trust e Coinbase Custody guardariam os LINK do fundo.
+- A taxa do gestor está em branco no documento. Grayscale e Bitwise já têm ETFs de Chainlink à vista nos EUA.
+
+!figure:fact
+
+## O que são Chainlink e LINK
+
+A Chainlink é uma rede que leva informações externas, como preços de ativos, para aplicativos de blockchain. Muitos aplicativos de empréstimo e de negociação dependem desses dados de preço para funcionar. LINK é o token usado para pagar pelos serviços da Chainlink, e quem tem LINK pode travar, ou fazer staking, em alguns desses serviços para ajudar a protegê-los e ganhar recompensas.
+
+O LINK estava perto de US$ 9,24 na Kraken na manhã de quinta-feira, 26 de novembro. Isso é cerca de 24% abaixo do fechamento de 2025, com base nos [dados diários de preço da Kraken](L3).
+
+## Como o fundo funcionaria
+
+Um ETF permite ter exposição ao preço por meio de uma conta comum de corretora, sem comprar a moeda em uma corretora de cripto nem cuidar de uma carteira. Segundo o documento, o fundo avaliaria as cotas todos os dias com uma taxa de referência de Chainlink da Fidelity, calculada com preços de várias plataformas onde o LINK é negociado.
+
+Três empresas guardariam as moedas do fundo: Anchorage Digital Bank, BitGo Bank & Trust e Coinbase Custody Trust Company. Grandes empresas de negociação, chamadas de participantes autorizados, criariam e resgatariam cotas em blocos, pagando com LINK ou com dinheiro.
+
+O fundo não participaria de staking. "O fundo não fará staking dos seus LINK, e os cotistas não receberão recompensas de staking por meio do fundo", escreveu a Fidelity, conforme citado pelo [The Block](L2). O documento observa que o staking da Chainlink é limitado e hoje tem um teto de cerca de 4% da oferta total de LINK.
+
+!figure:chart
+
+!mid_cta
+
+## A Fidelity não seria a primeira
+
+Já existem dois ETFs de Chainlink à vista nos EUA. Em 24 de novembro, o Grayscale Chainlink Trust ETF (GLNK) tinha cerca de US$ 112 milhões em ativos e o Bitwise Chainlink ETF (CLNK) cerca de US$ 42 milhões, informou o The Block.
+
+A Fidelity já administra ETFs de bitcoin, ether e Solana à vista nos EUA (FBTC, FETH e FSOL), segundo o The Block. O novo pedido veio um dia depois de a Fidelity adicionar LINK, AAVE e UNI à sua [plataforma de negociação Fidelity Crypto](/articles/fidelity-crypto-adds-aave-link-uni-nov-2026).
+
+Detalhes importantes ainda estão em branco no documento, como a taxa anual e o capital inicial que a Fidelity colocaria. Essas lacunas são normais em um primeiro S-1 e costumam ser preenchidas em alterações posteriores. O fundo só pode começar a vender cotas depois que a SEC declarar o registro efetivo.
+
+## O que isso significa para iniciantes
+
+Um ETF de Chainlink seria uma forma de ter as variações de preço do LINK dentro de uma conta de corretora ou de aposentadoria, com a custódia feita por grandes empresas. Isso não tornaria o LINK menos arriscado. O LINK é um ativo pequeno e volátil perto do bitcoin, e o seu preço caiu neste ano. Um ETF também cobra uma taxa anual, e como este não faria staking, os cotistas perderiam recompensas que alguns donos diretos de LINK recebem.
+
+Se você prefere ter as moedas diretamente, uma corretora regulada dos EUA como a [Coinbase](REF) oferece LINK, e dá para começar com pouco. Compare as taxas antes e pense se um [ETF de bitcoin ou comprar as moedas diretamente](/articles/bitcoin-etf-vs-buying-bitcoin) combina mais com você. Isto não é aconselhamento financeiro.
+
+## O que acompanhar agora
+
+- Alterações no S-1 que incluam a taxa, o capital inicial e outros detalhes que faltam.
+- Quando a SEC declarar o registro efetivo, o que abriria caminho para o FLNK começar a ser negociado.
+- Se a entrada de dinheiro nos ETFs de Chainlink da Grayscale e da Bitwise aumenta depois do pedido da Fidelity.
+
+!soft: Quer comparar ETFs com ter cripto? Leia [ETF de bitcoin ou comprar bitcoin, explicado](/articles/bitcoin-etf-vs-buying-bitcoin)
+
+!end_cta
+
+!disclosure

@@ -2814,7 +2814,113 @@ def thumb_ezpz_hype():
     ], "note": "Editorial composite; logo for identification only; no endorsement by Hyperliquid or Franklin Templeton implied."}
 
 
+def thumb_btc60_thanksgiving():
+    """Warm autumn (Thanksgiving) board: Kraken BTC/USD hourly closes Nov 24-26, 2026 (frozen in chart-data.json)
+    with the $60,000 line, the Nov. 25 intraday low and the 8 a.m. CT price, plus Farside's seven straight
+    daily ETF outflows as mini bars. Bitcoin logo from Wikimedia Commons (public domain)."""
+    data = json.loads((I18N / "bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026" / "chart-data.json").read_text(encoding="utf-8"))
+    hrs = data["hourly"]
+    xs = [datetime.fromtimestamp(r[0], tz=timezone.utc) for r in hrs]
+    closes = [r[1] for r in hrs]
+    lo = min(hrs, key=lambda r: r[2])
+    btc = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg", CACHE/"bitcoin-logo.svg")).convert("RGBA")
+    bg, deep, rust, mute = "#fbf1e1", "#4a2511", "#c2410c", "#8a5a3c"
+    fig = plt.figure(figsize=(6.4, 3.6), dpi=100 * S); fig.patch.set_facecolor(bg)
+    ax = fig.add_axes([0.07, 0.12, 0.56, 0.56]); ax.set_facecolor(bg)
+    for s in ("top", "right", "left"): ax.spines[s].set_visible(False)
+    ax.spines["bottom"].set_color("#d6b48c")
+    ax.tick_params(colors=mute, labelsize=6.5, length=0)
+    ax.grid(True, axis="y", color="#efd9b8", linewidth=0.6)
+    ax.plot(xs, closes, color=rust, linewidth=1.8)
+    ax.fill_between(xs, closes, 56500, color="#f59e0b", alpha=0.16)
+    ax.axhline(60000, color="#92400e", linestyle="--", linewidth=0.9)
+    ax.text(xs[-14], 59700, "$60,000", color="#92400e", fontsize=6.5, fontweight="bold")
+    lx = datetime.fromtimestamp(lo[0], tz=timezone.utc)
+    ax.scatter([lx], [lo[2]], color="#7f1d1d", s=14 * S, zorder=3)
+    ax.annotate(f"intraday low ${lo[2]:,.0f}", (lx, lo[2]), xytext=(6, -2), textcoords="offset points", color="#7f1d1d", fontsize=6.5, fontweight="bold", va="center")
+    ax.set_ylim(56500, 62000)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"${v/1000:.0f}K"))
+    ax.xaxis.set_major_locator(mdates.DayLocator())
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %d"))
+    fig.text(0.07, 0.85, "Back above $60K", color=deep, fontsize=15, fontweight="bold", va="center")
+    fig.text(0.07, 0.765, "BTC/USD hourly closes on Kraken, Nov. 24 to 26", color=mute, fontsize=7.5, va="center")
+    fig.text(0.70, 0.87, f"${closes[-1]:,.0f}", color=rust, fontsize=19, fontweight="bold", va="center")
+    fig.text(0.70, 0.79, "Thanksgiving, 8 a.m. CT", color=mute, fontsize=7.5, va="center")
+    # ETF outflow mini bars
+    flows = data["etf_flows"][1:]
+    bx = fig.add_axes([0.70, 0.17, 0.26, 0.40]); bx.set_facecolor(bg)
+    bx.bar(range(len(flows)), [f[1] for f in flows], color=["#ef4444"] * (len(flows) - 1) + ["#991b1b"], width=0.7)
+    bx.axhline(0, color=mute, linewidth=0.7)
+    for s in ("top", "right", "left", "bottom"): bx.spines[s].set_visible(False)
+    bx.set_xticks([]); bx.set_yticks([])
+    fig.text(0.70, 0.63, "7 days of ETF outflows", color=deep, fontsize=8, fontweight="bold", va="center")
+    fig.text(0.70, 0.12, "Nov. 25: -$453M (Farside)", color=mute, fontsize=7, va="center")
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100 * S, facecolor=bg); plt.close(fig); buf.seek(0)
+    base = Image.open(buf).convert("RGB")
+    paste_contain(base, btc, (566, 14, 58, 58), pad=2)
+    return base, {"kind": "composite", "sources": [
+        {"file": "Kraken OHLC XBTUSD interval=60 (frozen in chart-data.json)", "license": "Kraken public API", "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "credit": "Hourly BTC/USD closes Nov. 24 to Nov. 26, 2026, from Kraken"},
+        {"file": "Farside Investors bitcoin ETF flows", "license": "Facts cited", "url": "https://farside.co.uk/btc/", "credit": "Daily net flows Nov. 17 to Nov. 25, 2026"},
+        {"file": "Bitcoin.svg", "license": "Public domain", "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg", "credit": "Bitcoin logo"},
+    ]}
+
+
+def thumb_flnk_filing():
+    """Chainlink-blue board: official Chainlink logo (Wikimedia Commons, CC BY 4.0) on a white tile, a drawn
+    'Form S-1' document with the FLNK ticker chip and key filing facts (SEC EDGAR, Nov. 25, 2026), and LINK/USD
+    daily closes in 2026 from Kraken (frozen in chart-data.json). No Fidelity logo used."""
+    link = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/2/22/Chainlink_logo_-_Blue.svg", CACHE/"chainlink-logo-blue.svg")).convert("RGBA")
+    data = json.loads((I18N / "fidelity-files-spot-chainlink-etf-flnk-nov-2026" / "chart-data.json").read_text(encoding="utf-8"))
+    xs = [datetime.fromtimestamp(r[0], tz=timezone.utc) for r in data["daily"]]
+    ys = [r[1] for r in data["daily"]]
+    bg = "#1a2b6b"
+    fig = plt.figure(figsize=(6.4, 3.6), dpi=100 * S); fig.patch.set_facecolor(bg)
+    ax = fig.add_axes([0.53, 0.19, 0.42, 0.29]); ax.set_facecolor(bg)
+    for s in ("top", "right", "left"): ax.spines[s].set_visible(False)
+    ax.spines["bottom"].set_color("#4f66b8")
+    ax.tick_params(colors="#b9c6f2", labelsize=6, length=0)
+    ax.plot(xs, ys, color="#7fa2ff", linewidth=1.4)
+    ax.fill_between(xs, ys, min(ys) * 0.9, color="#7fa2ff", alpha=0.15)
+    ax.set_ylim(min(ys) * 0.9, max(ys) * 1.05)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"${v:.0f}"))
+    ax.xaxis.set_major_locator(mdates.MonthLocator(bymonth=[1, 4, 7, 10]))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
+    fig.text(0.53, 0.545, f"LINK ${ys[-1]:.2f} on Kraken, Nov. 26", color="#e6ecff", fontsize=8, fontweight="bold", va="center")
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100 * S, facecolor=bg); plt.close(fig); buf.seek(0)
+    base = Image.open(buf).convert("RGB")
+    d = Draw(base)
+    # S-1 document illustration
+    d.rounded_rectangle([30, 34, 300, 330], radius=10, fill=(250, 251, 255), outline=(200, 210, 240), width=2)
+    d.polygon([(262, 34), (300, 72), (262, 72)], fill=(214, 222, 246))
+    d.text((48, 52), "FORM S-1", font=font(FONT_B, 22), fill=(26, 43, 107))
+    d.text((48, 82), "Filed with the SEC, Nov. 25, 2026", font=font(FONT_R, 11), fill=(90, 105, 150))
+    d.text((48, 108), "Fidelity Chainlink Fund", font=font(FONT_B, 14), fill=(20, 30, 70))
+    for i, w_ in enumerate([210, 180, 200, 150]):
+        d.rounded_rectangle([48, 136 + i * 14, 48 + w_, 142 + i * 14], radius=3, fill=(222, 228, 245))
+    d.rounded_rectangle([48, 200, 158, 236], radius=17, fill=(55, 91, 210))
+    tw = d.textlength("FLNK", font=font(FONT_B, 20))
+    d.text((103 - tw / 2, 206), "FLNK", font=font(FONT_B, 20), fill=(255, 255, 255))
+    d.text((168, 210), "on Nasdaq", font=font(FONT_B, 14), fill=(26, 43, 107))
+    facts = ["Holds LINK directly", "No staking", "Fee: not yet set"]
+    for i, t in enumerate(facts):
+        y = 250 + i * 24
+        d.ellipse([50, y + 4, 60, y + 14], fill=(55, 91, 210))
+        d.text((68, y), t, font=font(FONT_R, 13), fill=(30, 40, 80))
+    # Chainlink logo tile
+    d.rounded_rectangle([340, 34, 610, 150], radius=12, fill=(255, 255, 255))
+    paste_contain(base, link, (350, 44, 250, 96), pad=6)
+    d = Draw(base)
+    d.text((340, 322), "Logo: Chainlink (Wikimedia Commons) · data: SEC, Kraken", font=font(FONT_R, 9), fill=(185, 198, 242))
+    return base, {"kind": "composite", "sources": [
+        {"file": "Chainlink logo - Blue.svg", "license": "CC BY 4.0", "url": "https://commons.wikimedia.org/wiki/File:Chainlink_logo_-_Blue.svg", "credit": "Chainlink Foundation"},
+        {"file": "Fidelity Chainlink Fund Form S-1, Nov. 25, 2026", "license": "Facts cited", "url": "https://www.sec.gov/Archives/edgar/data/2166611/000119312526477751/d85304ds1.htm", "credit": "SEC EDGAR"},
+        {"file": "Kraken OHLC LINKUSD interval=1440 (frozen in chart-data.json)", "license": "Kraken public API", "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "credit": "Daily LINK/USD closes Dec. 31, 2025 to Nov. 26, 2026, from Kraken"},
+    ], "note": "Editorial composite; logo for identification only; no endorsement by Chainlink or Fidelity implied. S-1 drawing is a PlainBTC illustration, not a copy of the filing."}
+
+
 BUILDERS = {
+    "bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026": thumb_btc60_thanksgiving,
+    "fidelity-files-spot-chainlink-etf-flnk-nov-2026": thumb_flnk_filing,
     "coinbase-wallet-direct-deposit-paycheck-usdc-base-nov-2026": thumb_cbw_direct_deposit,
     "franklin-templeton-ezpz-etf-adds-hyperliquid-hype-nov-2026": thumb_ezpz_hype,
     "doj-scam-crackdown-800-defendants-1-billion-crypto-frozen-nov-2026": thumb_doj_scam_surge,

@@ -1,0 +1,61 @@
+title: Bitcoin climbs back above $60,000 on Thanksgiving as spot bitcoin ETFs log a seventh straight day of outflows
+page_title: Bitcoin back above $60,000 on Thanksgiving, ETF outflows hit 7 days
+description: Bitcoin rebounded to about $60,800 on Thanksgiving morning, Nov. 26, 2026, after a low near $57,200 on Kraken a day earlier. U.S. spot bitcoin ETFs lost $453 million on Wednesday, a seventh straight day of outflows.
+og_description: Bitcoin bounced from about $57,200 to roughly $60,800 in a day as stocks recovered. Spot bitcoin ETFs still lost $453 million on Wednesday, their seventh outflow day in a row, and November withdrawals reached about $5.39 billion.
+label: Market news
+summary: Bitcoin was back near $60,800 on Thanksgiving morning, about 6% above Wednesday's low near $57,200 on Kraken. U.S. spot bitcoin ETFs lost $453 million on Wednesday, their seventh straight day of outflows, and November withdrawals now total about $5.39 billion.
+===
+
+Bitcoin got a breather on Thanksgiving. The price was about <strong>$60,800</strong> on Kraken at 8 a.m. Central time on Thursday, Nov. 26, up about 6% from a low near <strong>$57,200</strong> on Wednesday morning. U.S. stock markets are closed for the holiday, so crypto is one of the few markets trading.
+
+The bounce started on Wednesday afternoon, when U.S. stocks recovered from a steep early drop. The Nasdaq Composite had been down as much as 4.6% and closed with a loss of only 0.62%, [CoinDesk reported](L1). Bitcoin then rose as much as 2.2% during Asian trading on Thursday and moved above $60,000, according to [Bloomberg](L2).
+
+!takeaways
+- Bitcoin traded near $60,800 on Kraken on Thursday morning, about 6% above Wednesday's low near $57,200.
+- U.S. spot bitcoin ETFs lost a net $453 million on Wednesday, their seventh straight day of outflows, per Farside Investors.
+- November ETF outflows now total about $5.39 billion, the largest monthly withdrawal on record for these funds.
+- Riskier coins bounced harder: CoinDesk's DeFi index rose 6.3% in 24 hours, about double bitcoin's gain.
+- A market mood gauge still reads "extreme fear," and about $7 billion of bitcoin options expire on Friday.
+
+!figure:chart
+
+## Why the price turned around
+
+Crypto has been trading closely with tech stocks this month. When the Nasdaq reversed most of its Wednesday plunge, bitcoin followed. CoinDesk noted that the turn came as investor Michael Burry told his Substack subscribers that he had sold his remaining bearish bets on the Nasdaq-100 and was now almost entirely positioned for gains.
+
+Wednesday's U.S. inflation report did not change the bigger picture. Core PCE inflation, the Federal Reserve's preferred measure, was 3.3% in October, slightly above the 3.2% forecast, and markets still expect a quarter-point rate hike in December, according to CoinDesk. Higher rates usually make riskier assets such as crypto less attractive.
+
+Other coins rose too. On Kraken, ether was near $1,702 and solana near $71 on Thursday morning. CoinDesk said 93 of the 100 coins in its CoinDesk 100 index were higher over 24 hours, and its DeFi and infrastructure indexes gained 6.3% and 6.6%, roughly twice bitcoin's 3.2% advance in that window.
+
+## ETF investors are still selling
+
+The rebound did not bring big funds back yet. U.S. spot bitcoin exchange-traded funds lost a net <strong>$453 million</strong> on Wednesday, Nov. 25, according to [Farside Investors](L3). That was the seventh losing day in a row and the fourth-largest daily outflow of the month. BlackRock's iShares Bitcoin Trust (IBIT) accounted for $329.7 million of it.
+
+Over those seven trading days, from Nov. 17 to Nov. 25, the funds lost a combined $3.05 billion, based on Farside's daily totals. November outflows now come to about $5.39 billion, extending what was already the [largest monthly withdrawal on record](/articles/bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026). CoinDesk said the funds' net assets have fallen to $72.03 billion from $104.27 billion on Oct. 29.
+
+!figure:flows
+
+!mid_cta
+
+## Mood is still fearful
+
+The bounce has not changed how nervous traders feel. CoinMarketCap's Fear and Greed Index stood at 10 on Thursday, in "extreme fear," up only slightly from 8 a day earlier, CoinDesk reported. Options traders were also still paying more for protection against falls than for bets on gains: all six of the most traded bitcoin options over 24 hours were puts, contracts that pay off if the price drops.
+
+The bigger trend is still down. Bitcoin started November near $77,400 on Kraken, so even after this week's rebound it is about 21% lower for the month. It also remains above the 2026 low near $55,100 that it hit on Saturday, Nov. 21, during a [sharp crash and recovery](/articles/bitcoin-crashes-to-55100-rebounds-above-60000-nov-2026).
+
+## What it means for beginners
+
+One good day does not mean a downtrend is over, and holiday trading can make prices jumpy because fewer people are buying and selling. If you are new and want some bitcoin, many people prefer to buy small, fixed amounts over time rather than trying to catch the exact bottom. Only use money you will not need soon, and compare fees on regulated U.S. platforms, such as [Coinbase](REF), before you buy. This is not financial advice.
+
+## What to watch next
+
+- Friday's shortened U.S. trading session, which ends at 1 p.m. Eastern, and about $7 billion of bitcoin options expiring the same day.
+- Whether bitcoin holds its June lows on a closing basis, which Galaxy Digital research head Alex Thorn put at $58,525 (daily) and $59,517 (weekly), per CoinDesk.
+- Whether ETF flows turn positive after seven straight days of outflows.
+- The Fed's December meeting, where a rate hike is widely expected.
+
+!soft: New to this? Read our plain-English guide on [how much bitcoin a beginner should buy](/articles/how-much-bitcoin-should-a-beginner-buy-dca)
+
+!end_cta
+
+!disclosure

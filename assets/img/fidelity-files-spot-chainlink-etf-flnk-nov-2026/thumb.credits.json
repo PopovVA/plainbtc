@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Chainlink logo - Blue.svg",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Chainlink_logo_-_Blue.svg",
+      "credit": "Chainlink Foundation"
+    },
+    {
+      "file": "Fidelity Chainlink Fund Form S-1, Nov. 25, 2026",
+      "license": "Facts cited",
+      "url": "https://www.sec.gov/Archives/edgar/data/2166611/000119312526477751/d85304ds1.htm",
+      "credit": "SEC EDGAR"
+    },
+    {
+      "file": "Kraken OHLC LINKUSD interval=1440 (frozen in chart-data.json)",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Daily LINK/USD closes Dec. 31, 2025 to Nov. 26, 2026, from Kraken"
+    }
+  ],
+  "note": "Editorial composite; logo for identification only; no endorsement by Chainlink or Fidelity implied. S-1 drawing is a PlainBTC illustration, not a copy of the filing.",
+  "slug": "fidelity-files-spot-chainlink-etf-flnk-nov-2026",
+  "generated": "2026-11-26T14:04Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

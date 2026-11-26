@@ -1,0 +1,21 @@
+{
+ "slug": "fidelity-files-spot-chainlink-etf-flnk-nov-2026",
+ "date": "2026-11-26",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "fidelity-crypto-adds-aave-link-uni-nov-2026",
+  "franklin-templeton-ezpz-etf-adds-hyperliquid-hype-nov-2026",
+  "ark-invest-withdraws-coindesk-20-crypto-etfs-nov-2026",
+  "bitcoin-etf-vs-buying-bitcoin",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody",
+  "coinbase-fees-explained"
+ ],
+ "sources": [
+  {"url": "https://www.sec.gov/Archives/edgar/data/2166611/000119312526477751/d85304ds1.htm", "title": "SEC EDGAR: Fidelity Chainlink Fund, Form S-1 registration statement (preliminary prospectus)", "date": "Nov 25, 2026"},
+  {"url": "https://www.theblock.co/news/business/2026-11-25-fidelity-chainlink-etf-nasdaq-listing-446735", "title": "The Block: Fidelity files for spot Chainlink ETF with planned Nasdaq listing", "date": "Nov 25, 2026"},
+  {"url": "https://cryptobriefing.com/fidelity-chainlink-fund-s1-link-trading/", "title": "Crypto Briefing: Fidelity files for spot Chainlink ETF with proposed FLNK ticker", "date": "Nov 25, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken: public LINK/USD price data", "date": "Nov 26, 2026"}
+ ],
+ "disclosure_variant": "std"
+}
