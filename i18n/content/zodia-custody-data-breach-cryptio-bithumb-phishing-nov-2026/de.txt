@@ -1,0 +1,58 @@
+title: Standard Chartereds Zodia Custody meldet Datenleck, der dritte Krypto-Sicherheitsvorfall dieser Woche
+page_title: Datenleck bei Zodia Custody: Kundennamen und E-Mails offengelegt, keine Gelder bewegt
+description: Zodia Custody, der Krypto-Verwahrer von Standard Chartered, meldet, dass Unbefugte am 24. November 2026 auf begrenzte Kunden- und Mitarbeiterdaten zugriffen, aber keine unautorisierten Transaktionen stattfanden. Auch Cryptio und Bithumb meldeten diese Woche Vorfälle.
+og_description: Zodia Custody meldet, dass geschäftliche Kontaktnamen und E-Mails offengelegt wurden, nachdem Angreifer am 23. November die Plattform ausgespäht hatten. Die Buchhaltungsplattform Cryptio sagt, ein KI-gestützter Angreifer habe erfolglos versucht, Krypto zu bewegen, und Bithumb meldet, das Oktober-Leck sei größer als bekannt.
+label: Sicherheit
+summary: Zodia Custody, der Krypto-Verwahrer von Standard Chartered, meldet, dass Unbefugte auf begrenzte Kontaktdaten von Kunden und Mitarbeitern zugriffen, ohne unautorisierte Transaktionen. Es ist einer von drei Krypto-Sicherheitsvorfällen dieser Woche, neben Cryptio und Bithumb. Das größte Risiko für Kunden ist jetzt Phishing.
+===
+
+Zodia Custody, die Krypto-Verwahrfirma der britischen Bank Standard Chartered, teilte am Donnerstag, 26. November, mit, dass Unbefugte Anfang der Woche auf einige Kunden- und Mitarbeiterdaten zugegriffen haben. In einer [Stellungnahme](L1) erklärte CEO Richard Clark, es habe keine unautorisierten Transaktionen gegeben.
+
+Die Meldung kam am selben Tag, an dem die Krypto-Buchhaltungsplattform Cryptio einen Diebstahlsversuch bestätigte, und einen Tag nachdem die südkoreanische Börse Bithumb mitteilte, ein Datenleck vom Oktober habe mehr Kundendaten offengelegt als zunächst gemeldet. Keines der drei Unternehmen meldete gestohlene Kryptowerte. Alle drei warnen vor demselben nächsten Schritt: Phishing.
+
+!takeaways
+- Zodia bemerkte am 23. November Versuche, seine Plattform auszuspähen, und schaltete vorsorglich seine Business-to-Business-API (B2B) ab.
+- Am 24. November stellte es fest, dass Unbefugte auf begrenzte Kundendaten zugegriffen hatten, darunter bei einer kleinen Zahl von Kunden und Mitarbeitern ein geschäftlicher Kontaktname und eine E-Mail-Adresse.
+- Zodia sagt, es habe Kunden und Aufsichtsbehörden informiert und keine unautorisierten Transaktionen gefunden.
+- Cryptio sagt, ein Angreifer habe mit „Frontier-KI-Werkzeugen“ Zugang zur Plattform erlangt und versucht, mit Kundenzugangsdaten Krypto zu bewegen, doch alle erkannten Versuche seien gescheitert.
+- Bithumb meldet, das Oktober-Leck habe auch Passnummern, Bankdaten und Wallet-Adressen offengelegt. Kryptowerte wurden nicht gestohlen.
+
+!figure:fact
+
+## Was bei Zodia passiert ist
+
+Zodia Custody verwahrt Krypto für Institutionen wie Fonds und Unternehmen, nicht für Privatanleger. Laut Clarks Stellungnahme bemerkte das Unternehmen am Montag, 23. November, dass jemand seine Plattform ausspähte, schaltete die B2B-API ab, über die sich Kundensysteme direkt verbinden, ergriff zusätzliche Sicherheitsmaßnahmen und stellte den Dienst danach wieder her.
+
+Am nächsten Tag ergab die Überwachung, dass Unbefugte auf „begrenzte Kundeninformationen“ zugegriffen hatten: öffentlich verfügbare Angaben zu Organisationen und bei einer kleinen Zahl von Kunden und Mitarbeitern einen geschäftlichen Kontaktnamen und eine E-Mail-Adresse. Zodia kontaktierte die Kunden und informierte die Aufsichtsbehörden.
+
+Der Zeitpunkt ist unglücklich für die Bank. [Reuters](L2) berichtete, das Leck komme wenige Wochen, nachdem Standard Chartered seinen Anteil an Zodia auf 100 % erhöht habe, um sein Kryptogeschäft auszubauen. Die in London notierte Aktie von Standard Chartered stieg an dem Tag um 2,6 %, so Reuters.
+
+!figure:timeline
+
+!mid_cta
+
+## Zwei weitere Vorfälle diese Woche
+
+Cryptio, eine Buchhaltungsplattform, die für Unternehmen Daten von Börsen und Verwahrern zusammenführt, sagte [crypto.news](L3) am 26. November, ein Angreifer habe mit KI-Werkzeugen Zugang zur Plattform erlangt und dann versucht, mit einigen gespeicherten Zugangsdaten digitale Vermögenswerte zu bewegen. „Nach unserem Kenntnisstand sind alle erkannten Versuche gescheitert, und es wurde kein Verlust von Vermögenswerten festgestellt“, sagte ein Sprecher. Cryptio forderte Kunden auf, alle verbundenen API-Schlüssel zu widerrufen, auch reine Leseschlüssel, und ihre Konten auf nicht genehmigte Abhebungen zu prüfen.
+
+In Südkorea teilte Bithumb am 25. November mit, die Hacker hinter einem Leck im Oktober hätten mehr erbeutet als zunächst angegeben, darunter Passnummern, Bankkontodaten, Transaktionsverläufe und Krypto-Wallet-Adressen, berichtete [CoinDesk](L4). Bithumb hatte zunächst von rund 7.100 betroffenen Kunden und Mitarbeitern gesprochen und nannte keine neue Gesamtzahl.
+
+## Was das für Einsteiger bedeutet
+
+Ein Leck von Namen und E-Mails klingt harmlos, ist aber genau das, was Betrüger für überzeugende gefälschte Nachrichten brauchen. Identitätsbetrug nahm 2025 um 1.400 % zu, laut Chainalysis-Daten, die [CoinDesk](L5) zitiert.
+
+Ein paar Gewohnheiten helfen: Geben Sie Passwort, Zwei-Faktor-Codes oder Wiederherstellungsphrase niemals an jemanden weiter, der Sie kontaktiert, selbst wenn er Ihren Namen und Ihre Börse kennt. Öffnen Sie die App der Börse oder tippen Sie die Adresse selbst ein, statt auf Links in E-Mails oder SMS zu klicken. Aktivieren Sie App-basierte Zwei-Faktor-Authentifizierung und Whitelists für Auszahlungsadressen, wo verfügbar.
+
+Wer gerade erst anfängt, kann einen kleinen Betrag bei einer regulierten US-Börse wie [Coinbase](REF) kaufen und sich zuerst mit den Sicherheitseinstellungen vertraut machen. Krypto schwankt stark, investieren Sie also nur, was Sie verlieren können. Dies ist keine Finanzberatung.
+
+## Worauf man jetzt achten sollte
+
+- Ob Zodia, Cryptio oder Bithumb im Laufe der Ermittlungen Verluste melden.
+- Phishing-Kampagnen, die die geleakten Kontaktdaten nutzen.
+- Weitere Details dazu, wie der Angreifer KI-Werkzeuge gegen Cryptio einsetzte.
+
+!soft: Die Grundlagen zur Sicherung Ihrer Coins: [Verwahrung durch Dritte oder Selbstverwahrung, einfach erklärt](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,21 @@
+{
+ "slug": "zodia-custody-data-breach-cryptio-bithumb-phishing-nov-2026",
+ "date": "2026-11-26",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "lighter-dex-10-4-million-leaked-api-key-nov-2026",
+  "across-protocol-domain-hijack-phishing-nov-2026",
+  "bullpen-hack-ansem-wallet-2-57-million-imported-keys-nov-2026",
+  "is-coinbase-safe-for-beginners",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {"url": "https://zodia-custody.com/statement-on-recent-security-incident/", "title": "Zodia Custody: Statement on recent security incident", "date": "Nov 26, 2026"},
+  {"url": "https://www.investing.com/news/stock-market-news/exclusivestancharts-crypto-unit-zodia-custody-hit-by-security-breach-some-client-data-exposed-5052481", "title": "Reuters (via Investing.com): StanChart's crypto unit Zodia Custody hit by security breach, some client data exposed", "date": "Nov 26, 2026"},
+  {"url": "https://www.coindesk.com/tech/2026/11/26/standard-chartered-s-zodia-custody-suffers-data-breach-exposing-client-information", "title": "CoinDesk: Standard Chartered's Zodia Custody suffers data breach, exposing client information", "date": "Nov 26, 2026"},
+  {"url": "https://crypto.news/cryptio-ai-attack-attempted-crypto-transfers/", "title": "crypto.news: Cryptio says attacker used AI tools and tried to move crypto", "date": "Nov 26, 2026"},
+  {"url": "https://www.coindesk.com/tech/2026/11/25/south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe", "title": "CoinDesk: South Korean crypto exchange Bithumb warns of phishing after deeper October breach probe", "date": "Nov 25, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

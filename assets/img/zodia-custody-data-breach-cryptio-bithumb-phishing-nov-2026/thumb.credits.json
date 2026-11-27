@@ -1,0 +1,40 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "logo-white.svg",
+      "license": "Logo",
+      "url": "https://zodia-custody.com/",
+      "credit": "Zodia Custody"
+    },
+    {
+      "file": "Zodia Custody statement, Nov. 26, 2026",
+      "license": "Facts cited",
+      "url": "https://zodia-custody.com/statement-on-recent-security-incident/",
+      "credit": "Zodia Custody"
+    },
+    {
+      "file": "crypto.news, Nov. 26, 2026",
+      "license": "Facts cited",
+      "url": "https://crypto.news/cryptio-ai-attack-attempted-crypto-transfers/",
+      "credit": "crypto.news"
+    },
+    {
+      "file": "CoinDesk, Nov. 25, 2026",
+      "license": "Facts cited",
+      "url": "https://www.coindesk.com/tech/2026/11/25/south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe",
+      "credit": "CoinDesk"
+    }
+  ],
+  "note": "Editorial composite; logo for identification only; no endorsement by Zodia Custody implied. Cards are PlainBTC illustrations.",
+  "slug": "zodia-custody-data-breach-cryptio-bithumb-phishing-nov-2026",
+  "generated": "2026-11-27T00:05Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

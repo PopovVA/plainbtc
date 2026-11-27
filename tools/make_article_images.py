@@ -6249,7 +6249,112 @@ def build_braiins_hijack():
     ]
 
 
+NOVATECH_SLUG = "novatech-founders-ordered-to-pay-1-37-billion-new-york-crypto-ponzi-nov-2026"
+ZODIA_SLUG = "zodia-custody-data-breach-cryptio-bithumb-phishing-nov-2026"
+
+
+def build_novatech_judgment():
+    d = OUT / NOVATECH_SLUG
+    card = make_fact_card(
+        d / "fact-novatech-1-37-billion-judgment",
+        label="NovaTech judgment · New York",
+        big="$1,367,023,585",
+        sub="ordered from NovaTech founders Cynthia and Eddy Petion and three NovaTech companies, jointly, for a crypto Ponzi scheme.",
+        footer="Source: New York Supreme Court order and judgment, Nov. 24, 2026",
+    )
+    chart = make_bar_chart(
+        d / "chart-novatech-judgment-vs-recovered",
+        ["Disgorgement\n(NovaTech judgment)", "Interest at 9%\n(NovaTech judgment)", "Secured so far from\n4 promoters (nearly)"],
+        [1134.5, 232.5, 6],
+        title="New York's NovaTech case, in $ millions",
+        colors=[f"#{ORANGE[0]:02x}{ORANGE[1]:02x}{ORANGE[2]:02x}", "#fbbf24", "#34d399"],
+        value_fmt=lambda v: f"${v:,.1f}M" if v >= 100 else f"~${v:,.0f}M",
+        axis_fmt=lambda x, _p: f"{x:,.0f}",
+    )
+    return [
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: a New York court ordered NovaTech founders Cynthia and Eddy Petion and three NovaTech companies to pay $1,367,023,585, jointly, for a crypto Ponzi scheme", {
+            "es": "Tarjeta: un tribunal de Nueva York ordenó a los fundadores de NovaTech, Cynthia y Eddy Petion, y a tres empresas de NovaTech pagar solidariamente 1.367.023.585 dólares por un esquema Ponzi con criptomonedas",
+            "pt": "Cartão: um tribunal de Nova York condenou os fundadores da NovaTech, Cynthia e Eddy Petion, e três empresas da NovaTech a pagar solidariamente US$ 1.367.023.585 por um esquema Ponzi com criptomoedas",
+            "fr": "Encadré : un tribunal de New York a condamné les fondateurs de NovaTech, Cynthia et Eddy Petion, et trois sociétés NovaTech à payer solidairement 1 367 023 585 dollars pour une chaîne de Ponzi en cryptomonnaies",
+            "de": "Faktenkarte: Ein New Yorker Gericht verurteilte die NovaTech-Gründer Cynthia und Eddy Petion und drei NovaTech-Firmen gesamtschuldnerisch zur Zahlung von 1.367.023.585 Dollar wegen eines Krypto-Schneeballsystems",
+            "ru": "Карточка: суд Нью-Йорка обязал основателей NovaTech Синтию и Эдди Петион и три компании NovaTech солидарно выплатить $1 367 023 585 за криптовалютную финансовую пирамиду",
+            "tr": "Bilgi kartı: Bir New York mahkemesi, NovaTech kurucuları Cynthia ve Eddy Petion ile üç NovaTech şirketine bir kripto Ponzi düzeni nedeniyle müteselsilen 1.367.023.585 dolar ödeme emri verdi",
+            "id": "Kartu fakta: pengadilan New York memerintahkan pendiri NovaTech, Cynthia dan Eddy Petion, serta tiga perusahaan NovaTech membayar secara tanggung renteng 1.367.023.585 dolar AS atas skema Ponzi kripto",
+            "ja": "ファクトカード：ニューヨーク州の裁判所は、暗号資産ポンジ・スキームをめぐり、NovaTech創業者のシンシア・ペティオン氏とエディ・ペティオン氏およびNovaTech関連3社に連帯で1,367,023,585ドルの支払いを命じた",
+            "ko": "팩트 카드: 뉴욕 법원은 암호화폐 폰지 사기와 관련해 NovaTech 창업자 신시아·에디 페티온 부부와 NovaTech 3개사에 연대하여 1,367,023,585달러를 지급하라고 명령함",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="New York Supreme Court order and judgment, Nov. 24, 2026")},
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Bar chart of New York's NovaTech case in millions of dollars: $1,134.5 million in disgorgement and $232.5 million in interest ordered against the Petions and NovaTech companies, compared with nearly $6 million secured so far from four promoters", {
+            "es": "Gráfico de barras del caso NovaTech de Nueva York en millones de dólares: 1.134,5 millones en restitución y 232,5 millones en intereses ordenados contra los Petion y las empresas de NovaTech, frente a casi 6 millones obtenidos hasta ahora de cuatro promotores",
+            "pt": "Gráfico de barras do caso NovaTech de Nova York em milhões de dólares: US$ 1.134,5 milhões em restituição e US$ 232,5 milhões em juros determinados contra os Petion e as empresas da NovaTech, contra quase US$ 6 milhões obtidos até agora de quatro promotores",
+            "fr": "Graphique en barres de l'affaire NovaTech à New York, en millions de dollars : 1 134,5 millions de restitution et 232,5 millions d'intérêts ordonnés contre les Petion et les sociétés NovaTech, contre près de 6 millions obtenus jusqu'ici de quatre promoteurs",
+            "de": "Balkendiagramm zum New Yorker NovaTech-Fall in Millionen Dollar: 1.134,5 Millionen Gewinnabschöpfung und 232,5 Millionen Zinsen gegen die Petions und die NovaTech-Firmen, gegenüber knapp 6 Millionen, die bisher von vier Promotern gesichert wurden",
+            "ru": "Столбчатая диаграмма по делу NovaTech в Нью-Йорке, в миллионах долларов: $1134,5 млн возврата незаконных доходов и $232,5 млн процентов, присуждённых Петионам и компаниям NovaTech, против почти $6 млн, полученных пока от четырёх промоутеров",
+            "tr": "New York'un NovaTech davasının milyon dolar cinsinden çubuk grafiği: Petion çifti ve NovaTech şirketlerine hükmedilen 1.134,5 milyon dolar iade ve 232,5 milyon dolar faiz, buna karşılık dört tanıtımcıdan şimdiye kadar sağlanan yaklaşık 6 milyon dolar",
+            "id": "Grafik batang kasus NovaTech di New York dalam juta dolar AS: 1.134,5 juta pengembalian keuntungan dan 232,5 juta bunga yang dijatuhkan kepada pasangan Petion dan perusahaan NovaTech, dibanding hampir 6 juta yang sejauh ini didapat dari empat promotor",
+            "ja": "ニューヨーク州のNovaTech訴訟（百万ドル）の棒グラフ：ペティオン夫妻とNovaTech各社に命じられた不当利得返還11億3,450万ドルと利息2億3,250万ドルに対し、これまで4人のプロモーターから確保したのは約600万ドル",
+            "ko": "뉴욕주 NovaTech 사건 막대 그래프(백만 달러): 페티온 부부와 NovaTech 회사들에 명령된 부당이득 반환 11억 3,450만 달러와 이자 2억 3,250만 달러, 반면 지금까지 프로모터 4명에게서 확보한 금액은 약 600만 달러",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="New York Supreme Court judgment, Nov. 24, 2026; New York Attorney General, Nov. 25, 2026")},
+    ]
+
+
+def build_zodia_breach():
+    d = OUT / ZODIA_SLUG
+    card = make_fact_card(
+        d / "fact-zodia-no-unauthorized-transactions",
+        label="Zodia Custody security incident",
+        big="No funds moved",
+        sub="\"Based on our investigation to date, there have been no unauthorised transactions.\" Some client and staff contact names and emails were accessed.",
+        footer="Source: Zodia Custody CEO Richard Clark, statement, Nov. 26, 2026",
+    )
+    tl = make_timeline_card(
+        d / "timeline-zodia-cryptio-bithumb-week",
+        "A week of crypto data scares",
+        [
+            ("Nov. 23", "Zodia spots probing, takes its B2B API offline", (96, 165, 250)),
+            ("Nov. 24", "Zodia finds limited client contact data accessed", RED),
+            ("Nov. 25", "Bithumb: October leak included passport and bank data", (251, 191, 36)),
+            ("Nov. 26", "Zodia: no unauthorized transactions. Cryptio: AI-assisted theft attempts failed", GREEN),
+        ],
+        footer="Zodia Custody; Reuters; CoinDesk; crypto.news, Nov. 25 to 26, 2026",
+        margin=170, wrap_w=250,
+    )
+    return [
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card quoting Zodia Custody CEO Richard Clark: based on the investigation to date, there have been no unauthorized transactions; some client and staff business contact names and email addresses were accessed", {
+            "es": "Tarjeta con la cita del CEO de Zodia Custody, Richard Clark: según la investigación hasta la fecha, no hubo transacciones no autorizadas; se accedió a algunos nombres y correos de contacto profesional de clientes y empleados",
+            "pt": "Cartão com a citação do CEO da Zodia Custody, Richard Clark: com base na investigação até agora, não houve transações não autorizadas; alguns nomes e e-mails de contato profissional de clientes e funcionários foram acessados",
+            "fr": "Encadré citant le PDG de Zodia Custody, Richard Clark : selon l'enquête à ce jour, il n'y a eu aucune transaction non autorisée ; des noms et e-mails de contacts professionnels de certains clients et employés ont été consultés",
+            "de": "Faktenkarte mit einem Zitat von Zodia-Custody-CEO Richard Clark: Nach bisherigen Ermittlungen gab es keine unautorisierten Transaktionen; auf geschäftliche Kontaktnamen und E-Mail-Adressen einiger Kunden und Mitarbeiter wurde zugegriffen",
+            "ru": "Карточка с цитатой гендиректора Zodia Custody Ричарда Кларка: по итогам расследования на данный момент несанкционированных транзакций не было; посторонние получили доступ к рабочим контактным именам и адресам электронной почты некоторых клиентов и сотрудников",
+            "tr": "Zodia Custody CEO'su Richard Clark'tan alıntı içeren bilgi kartı: bugüne kadarki soruşturmaya göre yetkisiz işlem olmadı; bazı müşteri ve çalışanların iş iletişim adları ve e-posta adreslerine erişildi",
+            "id": "Kartu fakta berisi kutipan CEO Zodia Custody Richard Clark: berdasarkan investigasi sejauh ini, tidak ada transaksi tanpa izin; nama kontak bisnis dan alamat email sebagian klien dan karyawan sempat diakses",
+            "ja": "Zodia Custodyのリチャード・クラークCEOの発言を引用したファクトカード：これまでの調査では不正な取引はない。一部の顧客と従業員の業務上の連絡先氏名とメールアドレスが閲覧された",
+            "ko": "Zodia Custody 리처드 클라크 CEO 발언을 인용한 팩트 카드: 현재까지 조사 결과 무단 거래는 없었음. 일부 고객과 직원의 업무용 연락처 이름과 이메일 주소가 열람됨",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Zodia Custody statement, Nov. 26, 2026")},
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: Nov. 23, Zodia Custody detects probing and takes its B2B API offline; Nov. 24, Zodia finds limited client contact data was accessed; Nov. 25, Bithumb says its October leak included passport numbers and bank details; Nov. 26, Zodia reports no unauthorized transactions and Cryptio says AI-assisted theft attempts failed", {
+            "es": "Cronología: 23 de noviembre, Zodia Custody detecta sondeos y desconecta su API B2B; 24 de noviembre, Zodia descubre un acceso a datos limitados de contacto de clientes; 25 de noviembre, Bithumb dice que su filtración de octubre incluyó números de pasaporte y datos bancarios; 26 de noviembre, Zodia informa de que no hubo transacciones no autorizadas y Cryptio dice que fallaron los intentos de robo asistidos por IA",
+            "pt": "Linha do tempo: 23 de novembro, a Zodia Custody detecta sondagens e desliga sua API B2B; 24 de novembro, a Zodia descobre acesso a dados limitados de contato de clientes; 25 de novembro, a Bithumb diz que o vazamento de outubro incluiu números de passaporte e dados bancários; 26 de novembro, a Zodia informa que não houve transações não autorizadas e a Cryptio diz que as tentativas de roubo com ajuda de IA falharam",
+            "fr": "Chronologie : 23 novembre, Zodia Custody détecte des sondages et coupe son API B2B ; 24 novembre, Zodia constate un accès à des données de contact limitées de clients ; 25 novembre, Bithumb indique que sa fuite d'octobre incluait des numéros de passeport et des données bancaires ; 26 novembre, Zodia ne signale aucune transaction non autorisée et Cryptio affirme que les tentatives de vol assistées par IA ont échoué",
+            "de": "Zeitleiste: 23. November, Zodia Custody bemerkt Ausspähversuche und schaltet seine B2B-API ab; 24. November, Zodia stellt Zugriff auf begrenzte Kundenkontaktdaten fest; 25. November, Bithumb meldet, dass das Datenleck vom Oktober Passnummern und Bankdaten umfasste; 26. November, Zodia meldet keine unautorisierten Transaktionen, Cryptio sagt, KI-gestützte Diebstahlsversuche seien gescheitert",
+            "ru": "Хронология: 23 ноября Zodia Custody замечает попытки зондирования и отключает B2B API; 24 ноября Zodia обнаруживает доступ к ограниченным контактным данным клиентов; 25 ноября Bithumb сообщает, что октябрьская утечка включала номера паспортов и банковские данные; 26 ноября Zodia сообщает об отсутствии несанкционированных транзакций, а Cryptio заявляет, что попытки кражи с помощью ИИ провалились",
+            "tr": "Zaman çizelgesi: 23 Kasım, Zodia Custody yoklama girişimlerini fark edip B2B API'sini kapatır; 24 Kasım, Zodia sınırlı müşteri iletişim verilerine erişildiğini tespit eder; 25 Kasım, Bithumb ekim sızıntısının pasaport numaraları ve banka bilgilerini de içerdiğini söyler; 26 Kasım, Zodia yetkisiz işlem olmadığını bildirir, Cryptio yapay zeka destekli hırsızlık girişimlerinin başarısız olduğunu söyler",
+            "id": "Linimasa: 23 November, Zodia Custody mendeteksi upaya penyelidikan dan mematikan API B2B; 24 November, Zodia menemukan akses ke data kontak klien yang terbatas; 25 November, Bithumb menyatakan kebocoran Oktober mencakup nomor paspor dan data bank; 26 November, Zodia melaporkan tidak ada transaksi tanpa izin dan Cryptio menyatakan upaya pencurian berbantuan AI gagal",
+            "ja": "経緯：11月23日、Zodia Custodyが探索行為を検知しB2B APIを停止。11月24日、限定的な顧客連絡先データへのアクセスを確認。11月25日、Bithumbが10月の流出にパスポート番号や銀行情報が含まれていたと発表。11月26日、Zodiaは不正取引なしと報告し、CryptioはAIを使った窃取の試みは失敗したと発表",
+            "ko": "경과: 11월 23일 Zodia Custody가 탐색 시도를 감지하고 B2B API 중단. 11월 24일 제한된 고객 연락처 데이터 접근 확인. 11월 25일 빗썸이 10월 유출에 여권 번호와 은행 정보가 포함됐다고 발표. 11월 26일 Zodia는 무단 거래 없음, Cryptio는 AI를 활용한 탈취 시도가 실패했다고 밝힘",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Zodia Custody; Reuters; CoinDesk; crypto.news, Nov. 25 to 26, 2026")},
+    ]
+
+
 BUILDERS = {
+    "novatech-founders-ordered-to-pay-1-37-billion-new-york-crypto-ponzi-nov-2026": "novatech",
+    "zodia-custody-data-breach-cryptio-bithumb-phishing-nov-2026": "zodia",
     "house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026": "sbrbill",
     "braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026": "braiinshijack",
     "bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026": "btc60tg",
@@ -6552,6 +6657,10 @@ def build_slug(slug: str, btc=None):
         figs = build_sbr_bill()
     elif key == "braiinshijack":
         figs = build_braiins_hijack()
+    elif key == "novatech":
+        figs = build_novatech_judgment()
+    elif key == "zodia":
+        figs = build_zodia_breach()
     else:
         raise ValueError(slug)
     meta_path = I18N / slug / "figures.json"

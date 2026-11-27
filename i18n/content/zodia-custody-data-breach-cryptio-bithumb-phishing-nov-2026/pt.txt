@@ -1,0 +1,58 @@
+title: Zodia Custody, do Standard Chartered, relata vazamento de dados, o terceiro susto de segurança cripto da semana
+page_title: Vazamento na Zodia Custody: nomes e e-mails de clientes expostos, sem movimentação de fundos
+description: A Zodia Custody, custodiante cripto do Standard Chartered, diz que um terceiro acessou dados limitados de clientes e funcionários em 24 de novembro de 2026, mas não houve transações não autorizadas. Cryptio e Bithumb também revelaram incidentes nesta semana.
+og_description: A Zodia Custody diz que nomes e e-mails de contato profissional foram expostos depois que atacantes sondaram sua plataforma em 23 de novembro. A plataforma contábil Cryptio diz que um atacante com ajuda de IA tentou mover cripto e falhou, e a Bithumb diz que seu vazamento de outubro foi maior do que o informado.
+label: Segurança
+summary: A Zodia Custody, custodiante cripto do Standard Chartered, diz que um terceiro acessou dados de contato limitados de clientes e funcionários, sem transações não autorizadas. É uma de três revelações de segurança cripto nesta semana, ao lado de Cryptio e Bithumb. O principal risco agora para os clientes é o phishing.
+===
+
+A Zodia Custody, empresa de custódia cripto do banco britânico Standard Chartered, disse na quinta-feira, 26 de novembro, que um terceiro não autorizado acessou algumas informações de clientes e funcionários no início desta semana. Em um [comunicado](L1), o CEO Richard Clark afirmou que não houve transações não autorizadas.
+
+O anúncio veio no mesmo dia em que a plataforma contábil cripto Cryptio confirmou uma tentativa de roubo, e um dia depois de a corretora sul-coreana Bithumb dizer que um vazamento de outubro expôs mais dados de clientes do que ela havia informado. Nenhuma das três relatou cripto roubada. As três alertam para o mesmo próximo passo: phishing.
+
+!takeaways
+- A Zodia detectou tentativas de sondar sua plataforma em 23 de novembro e tirou do ar, por precaução, sua API entre empresas (B2B).
+- Em 24 de novembro, descobriu que um terceiro havia acessado dados limitados de clientes, incluindo, para um pequeno número de clientes e funcionários, um nome de contato profissional e um e-mail.
+- A Zodia diz que avisou clientes e reguladores e não encontrou transações não autorizadas.
+- A Cryptio diz que um atacante usou "ferramentas de IA de fronteira" para entrar em sua plataforma e tentou mover cripto com credenciais de clientes, mas todas as tentativas identificadas falharam.
+- A Bithumb diz que seu vazamento de outubro também expôs números de passaporte, dados bancários e endereços de carteiras. Nenhuma cripto foi roubada.
+
+!figure:fact
+
+## O que aconteceu na Zodia
+
+A Zodia Custody guarda cripto para instituições como fundos e empresas, não para usuários comuns. Segundo o comunicado de Clark, a empresa percebeu alguém sondando sua plataforma na segunda-feira, 23 de novembro, desligou a API B2B que permite que os sistemas dos clientes se conectem diretamente, adicionou medidas de segurança e depois restabeleceu o serviço.
+
+No dia seguinte, seu monitoramento descobriu que um terceiro não autorizado havia acessado "informações limitadas de clientes": dados públicos de organizações e, para um pequeno número de clientes e funcionários, um nome de contato profissional e um e-mail. A Zodia contatou os clientes e informou os reguladores.
+
+O momento é ruim para o banco. A [Reuters](L2) informou que o vazamento veio semanas depois de o Standard Chartered elevar para 100% sua participação na Zodia ao expandir seu negócio cripto. As ações do Standard Chartered em Londres subiram 2,6% no dia, segundo a Reuters.
+
+!figure:timeline
+
+!mid_cta
+
+## Mais dois incidentes nesta semana
+
+A Cryptio, plataforma contábil que reúne registros de corretoras e custodiantes para empresas, disse ao [crypto.news](L3) em 26 de novembro que um atacante usou ferramentas de IA para acessar sua plataforma e depois tentou mover ativos digitais com algumas das credenciais armazenadas. "Até onde sabemos, todas as tentativas identificadas falharam e nenhuma perda de ativos foi identificada", disse um porta-voz. A Cryptio pediu aos clientes que revogassem todas as chaves de API conectadas, até as somente leitura, e verificassem suas contas em busca de saques não aprovados.
+
+Na Coreia do Sul, a Bithumb disse em 25 de novembro que os hackers por trás de um vazamento de outubro levaram mais do que ela revelou inicialmente, incluindo números de passaporte, dados de contas bancárias, históricos de transações e endereços de carteiras cripto, informou o [CoinDesk](L4). A Bithumb havia dito no início que cerca de 7.100 clientes e funcionários foram afetados, e não deu um novo total.
+
+## O que isso significa para iniciantes
+
+Um vazamento de nomes e e-mails parece pouco, mas é exatamente o que golpistas precisam para enviar mensagens falsas convincentes. Golpes de falsificação de identidade dispararam 1.400% em 2025, segundo dados da Chainalysis citados pelo [CoinDesk](L5).
+
+Alguns hábitos ajudam: nunca compartilhe sua senha, códigos de dois fatores ou frase de recuperação com quem entrar em contato com você, mesmo que use seu nome e saiba qual corretora você usa. Abra o app da corretora ou digite o endereço você mesmo em vez de clicar em links de e-mails ou mensagens. Ative a autenticação de dois fatores por aplicativo e as listas de endereços de saque permitidos quando disponíveis.
+
+Se você está começando, comprar uma pequena quantia em uma corretora regulada nos EUA como a [Coinbase](REF) e aprender primeiro suas configurações de segurança é um caminho razoável. Cripto é volátil, então invista apenas o que pode perder. Isto não é recomendação financeira.
+
+## O que acompanhar
+
+- Se Zodia, Cryptio ou Bithumb relatarem perdas com o avanço das investigações.
+- Campanhas de phishing que usem os dados de contato vazados.
+- Mais detalhes sobre como o atacante usou ferramentas de IA contra a Cryptio.
+
+!soft: Aprenda o básico para proteger suas moedas: [carteiras custodiais e autocustódia explicadas](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

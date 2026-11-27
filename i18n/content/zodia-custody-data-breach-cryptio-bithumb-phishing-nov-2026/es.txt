@@ -1,0 +1,58 @@
+title: Zodia Custody, de Standard Chartered, informa de una filtración de datos, el tercer susto de seguridad cripto de la semana
+page_title: Filtración en Zodia Custody: expuestos nombres y correos de clientes, sin movimiento de fondos
+description: Zodia Custody, el custodio cripto de Standard Chartered, dice que un tercero accedió a datos limitados de clientes y empleados el 24 de noviembre de 2026, pero no hubo transacciones no autorizadas. Cryptio y Bithumb también revelaron incidentes esta semana.
+og_description: Zodia Custody dice que quedaron expuestos nombres y correos de contacto profesional tras sondeos a su plataforma el 23 de noviembre. La plataforma contable Cryptio dice que un atacante con ayuda de IA intentó mover cripto sin éxito, y Bithumb dice que su filtración de octubre fue mayor de lo informado.
+label: Seguridad
+summary: Zodia Custody, el custodio cripto de Standard Chartered, dice que un tercero accedió a datos de contacto limitados de clientes y empleados, sin transacciones no autorizadas. Es una de tres revelaciones de seguridad cripto esta semana, junto con Cryptio y Bithumb. El riesgo principal ahora para los clientes es el phishing.
+===
+
+Zodia Custody, la empresa de custodia cripto del banco británico Standard Chartered, dijo el jueves 26 de noviembre que un tercero no autorizado accedió a cierta información de clientes y empleados a principios de esta semana. En un [comunicado](L1), su CEO, Richard Clark, afirmó que no hubo transacciones no autorizadas.
+
+El anuncio llegó el mismo día en que la plataforma contable cripto Cryptio confirmó un intento de robo, y un día después de que el exchange surcoreano Bithumb dijera que una filtración de octubre expuso más datos de clientes de lo que informó al principio. Ninguno de los tres reportó cripto robada. Los tres advierten del mismo paso siguiente: el phishing.
+
+!takeaways
+- Zodia detectó intentos de sondear su plataforma el 23 de noviembre y desconectó por precaución su API de empresa a empresa (B2B).
+- El 24 de noviembre descubrió que un tercero había accedido a datos limitados de clientes, incluidos, para un pequeño número de clientes y empleados, un nombre de contacto profesional y un correo electrónico.
+- Zodia dice que avisó a clientes y reguladores y no encontró transacciones no autorizadas.
+- Cryptio dice que un atacante usó "herramientas de IA de frontera" para entrar en su plataforma e intentó mover cripto con credenciales de clientes, pero todos los intentos identificados fallaron.
+- Bithumb dice que su filtración de octubre también expuso números de pasaporte, datos bancarios y direcciones de billeteras. No se robó cripto.
+
+!figure:fact
+
+## Qué pasó en Zodia
+
+Zodia Custody guarda cripto para instituciones como fondos y empresas, no para usuarios minoristas. Según el comunicado de Clark, la empresa detectó a alguien sondeando su plataforma el lunes 23 de noviembre, apagó la API B2B que permite que los sistemas de los clientes se conecten directamente, añadió medidas de seguridad y luego restableció el servicio.
+
+Al día siguiente, su monitoreo descubrió que un tercero no autorizado había accedido a "información limitada de clientes": datos públicos de organizaciones y, para un pequeño número de clientes y empleados, un nombre de contacto profesional y un correo electrónico. Zodia contactó a los clientes e informó a los reguladores.
+
+El momento es incómodo para el banco. [Reuters](L2) informó que la filtración llegó semanas después de que Standard Chartered elevara al 100% su participación en Zodia para ampliar su negocio cripto. Las acciones de Standard Chartered en Londres subieron un 2,6% ese día, según Reuters.
+
+!figure:timeline
+
+!mid_cta
+
+## Dos incidentes más esta semana
+
+Cryptio, una plataforma contable que reúne registros de exchanges y custodios para empresas, dijo a [crypto.news](L3) el 26 de noviembre que un atacante usó herramientas de IA para acceder a su plataforma y luego intentó mover activos digitales con algunas de las credenciales guardadas. "Hasta donde sabemos, todos los intentos identificados fallaron y no se ha identificado ninguna pérdida de activos", dijo un portavoz. Cryptio pidió a sus clientes revocar todas las claves API conectadas, incluso las de solo lectura, y revisar sus cuentas en busca de retiros no aprobados.
+
+En Corea del Sur, Bithumb dijo el 25 de noviembre que los hackers detrás de una filtración de octubre se llevaron más de lo que reveló al principio, incluidos números de pasaporte, datos de cuentas bancarias, historiales de transacciones y direcciones de billeteras cripto, informó [CoinDesk](L4). Bithumb había dicho al principio que unos 7.100 clientes y empleados estaban afectados, y no dio un nuevo total.
+
+## Qué significa para principiantes
+
+Una filtración de nombres y correos suena menor, pero es justo lo que necesitan los estafadores para enviar mensajes falsos convincentes. Las estafas de suplantación se dispararon un 1.400% en 2025, según datos de Chainalysis citados por [CoinDesk](L5).
+
+Algunos hábitos ayudan: nunca compartas tu contraseña, códigos de doble factor o frase de recuperación con nadie que te contacte, aunque use tu nombre y sepa qué exchange usas. Abre la app del exchange o escribe tú mismo su dirección en lugar de hacer clic en enlaces de correos o mensajes. Activa la autenticación de doble factor por app y las listas de direcciones de retiro permitidas cuando estén disponibles.
+
+Si estás empezando, comprar una pequeña cantidad en un exchange regulado en EE. UU. como [Coinbase](REF) y aprender primero sus ajustes de seguridad es un camino razonable. Las criptomonedas son volátiles, así que invierte solo lo que puedas permitirte perder. Esto no es asesoramiento financiero.
+
+## Qué vigilar ahora
+
+- Si Zodia, Cryptio o Bithumb reportan pérdidas a medida que avanzan sus investigaciones.
+- Campañas de phishing que usen los datos de contacto filtrados.
+- Más detalles sobre cómo el atacante usó herramientas de IA contra Cryptio.
+
+!soft: Aprende lo básico para proteger tus monedas: [billeteras con custodia frente a autocustodia, explicadas](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

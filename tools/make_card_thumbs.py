@@ -3004,7 +3004,84 @@ def thumb_braiins_hijack():
     ], "note": "Editorial composite; logo for identification only; no endorsement by Braiins implied. Diagram is a PlainBTC illustration."}
 
 
+def thumb_novatech_judgment():
+    """Courtroom-navy board: Great Seal of the State of New York (public domain, Wikimedia Commons) beside the figures
+    from the New York Supreme Court order and judgment filed Nov. 24, 2026 and the Attorney General's Nov. 25 release,
+    plus a drawn group-chat bubble illustrating how affinity scams spread. No outlet photos."""
+    seal = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/c/ca/Seal_of_New_York.svg", CACHE/"ny-state-seal.svg")).convert("RGBA")
+    base = gradient_bg(top=(17, 24, 64), bottom=(6, 9, 26))
+    d = Draw(base)
+    ink, mute, gold, mint, red = (241, 245, 249), (165, 180, 252), (252, 211, 77), (94, 234, 212), (248, 113, 113)
+    paste_contain(base, seal, (24, 30, 160, 160), pad=2)
+    d = Draw(base)
+    # drawn group-chat bubble
+    bx, by = 30, 214
+    d.rounded_rectangle([bx, by, bx + 150, by + 92], radius=14, fill=(30, 41, 59), outline=(100, 116, 139), width=2)
+    d.polygon([(bx + 20, by + 92), (bx + 36, by + 92), (bx + 18, by + 108)], fill=(30, 41, 59))
+    d.text((bx + 12, by + 10), "Group chat", font=font(FONT_B, 11), fill=mute)
+    d.text((bx + 12, by + 30), "\"Steady high", font=font(FONT_B, 13), fill=ink)
+    d.text((bx + 12, by + 48), "returns, invite", font=font(FONT_B, 13), fill=ink)
+    d.text((bx + 12, by + 66), "your family!\"", font=font(FONT_B, 13), fill=ink)
+    d.line([(bx + 118, by + 40), (bx + 142, by + 64)], fill=red, width=4); d.line([(bx + 142, by + 40), (bx + 118, by + 64)], fill=red, width=4)
+    x0 = 206
+    d.text((x0, 32), "NovaTech crypto Ponzi judgment", font=font(FONT_B, 18), fill=ink)
+    d.text((x0, 58), "New York Supreme Court, filed Nov. 24, 2026", font=font(FONT_R, 12), fill=mute)
+    d.text((x0, 80), "$1.37B", font=font(FONT_B, 60), fill=gold)
+    bw = d.textlength("$1.37B", font=font(FONT_B, 60)) + 12
+    d.text((x0 + bw, 98), "ordered", font=font(FONT_B, 20), fill=ink)
+    d.text((x0 + bw, 126), "from the founders", font=font(FONT_R, 13), fill=mute)
+    rows = [("$1.13B", "disgorgement", gold), ("$232M", "interest at 9% a year", gold), ("~$6M", "secured so far from 4 promoters", mint)]
+    for i, (big, small, col) in enumerate(rows):
+        y = 172 + i * 46
+        d.rounded_rectangle([x0, y, x0 + 5, y + 36], radius=2, fill=col)
+        d.text((x0 + 14, y + 4), big, font=font(FONT_B, 22), fill=col)
+        d.text((x0 + 112, y + 11), small, font=font(FONT_R, 13), fill=ink)
+    d.text((x0, 324), "Sources: NY court judgment; NY Attorney General · seal: public domain", font=font(FONT_R, 10), fill=mute)
+    return base, {"kind": "composite", "sources": [
+        {"file": "Seal_of_New_York.svg", "license": "Public domain", "url": "https://commons.wikimedia.org/wiki/File:Seal_of_New_York.svg", "credit": "State of New York"},
+        {"file": "Order and judgment, People v. Nova Tech Ltd et al., Nov. 24, 2026", "license": "Facts cited", "url": "https://ag.ny.gov/sites/default/files/decisions/new-york-v-nova-tech-ltd-et-al-order-and-judgement-2026.pdf", "credit": "New York Supreme Court"},
+        {"file": "NY Attorney General release, Nov. 25, 2026", "license": "Facts cited", "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-wins-13-billion-judgment-against-crypto-scammers-who", "credit": "Office of the New York Attorney General"},
+        {"file": "group chat illustration", "license": "PlainBTC original", "url": "", "credit": "PlainBTC"},
+    ], "note": "Editorial composite; seal for identification only; no endorsement by the State of New York implied."}
+
+
+def thumb_zodia_breach():
+    """Zodia-green board: Zodia Custody white logo from zodia-custody.com (identification only) and three drawn
+    incident cards (Zodia, Cryptio, Bithumb) with facts from Zodia's statement, crypto.news and CoinDesk, Nov. 25-26, 2026."""
+    logo = Image.open(fetch("https://zodia-custody.com/wp-content/themes/zodia/images/logo-white.svg", CACHE/"zodia-logo-white.svg")).convert("RGBA")
+    base = gradient_bg(top=(6, 52, 48), bottom=(4, 16, 22))
+    d = Draw(base)
+    ink, mute, mint, amber, red = (236, 253, 245), (153, 211, 196), (110, 231, 183), (252, 211, 77), (248, 113, 113)
+    paste_contain(base, logo, (24, 20, 150, 68), pad=2)
+    d = Draw(base)
+    d.text((196, 28), "Client contact data accessed", font=font(FONT_B, 19), fill=ink)
+    d.text((196, 56), "No unauthorized transactions, Zodia says", font=font(FONT_R, 13), fill=mint)
+    cards = [
+        ("Zodia Custody", ["Nov. 23: probing,", "B2B API offline", "Names + emails seen"], (96, 165, 250), "No funds moved"),
+        ("Cryptio", ["AI-assisted break-in", "Tried to move crypto", "with stored keys"], amber, "Attempts failed"),
+        ("Bithumb", ["October leak bigger:", "passport numbers,", "bank details"], red, "No crypto stolen"),
+    ]
+    for i, (name, lines, col, verdict) in enumerate(cards):
+        x = 24 + i * 202
+        d.rounded_rectangle([x, 104, x + 188, 262], radius=12, fill=(8, 30, 34), outline=col, width=2)
+        d.text((x + 14, 116), name, font=font(FONT_B, 16), fill=col)
+        for j, ln in enumerate(lines):
+            d.text((x + 14, 146 + j * 22), ln, font=font(FONT_R, 13), fill=ink)
+        d.text((x + 14, 230), verdict, font=font(FONT_B, 13), fill=mint)
+    d.rounded_rectangle([24, 280, 616, 314], radius=10, fill=(69, 26, 3))
+    d.text((38, 288), "Next risk: phishing. Never share passwords, 2FA codes or keys.", font=font(FONT_B, 13), fill=amber)
+    d.text((24, 328), "Logo: Zodia Custody · facts: Zodia statement; crypto.news; CoinDesk, Nov. 25-26, 2026", font=font(FONT_R, 9), fill=mute)
+    return base, {"kind": "composite", "sources": [
+        {"file": "logo-white.svg", "license": "Logo", "url": "https://zodia-custody.com/", "credit": "Zodia Custody"},
+        {"file": "Zodia Custody statement, Nov. 26, 2026", "license": "Facts cited", "url": "https://zodia-custody.com/statement-on-recent-security-incident/", "credit": "Zodia Custody"},
+        {"file": "crypto.news, Nov. 26, 2026", "license": "Facts cited", "url": "https://crypto.news/cryptio-ai-attack-attempted-crypto-transfers/", "credit": "crypto.news"},
+        {"file": "CoinDesk, Nov. 25, 2026", "license": "Facts cited", "url": "https://www.coindesk.com/tech/2026/11/25/south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe", "credit": "CoinDesk"},
+    ], "note": "Editorial composite; logo for identification only; no endorsement by Zodia Custody implied. Cards are PlainBTC illustrations."}
+
+
 BUILDERS = {
+    "novatech-founders-ordered-to-pay-1-37-billion-new-york-crypto-ponzi-nov-2026": thumb_novatech_judgment,
+    "zodia-custody-data-breach-cryptio-bithumb-phishing-nov-2026": thumb_zodia_breach,
     "house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026": thumb_sbr_bill_house,
     "braiins-hashrate-hijacking-stratum-v1-1000-mining-sites-nov-2026": thumb_braiins_hijack,
     "bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026": thumb_btc60_thanksgiving,

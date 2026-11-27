@@ -1,0 +1,58 @@
+title: Zodia Custody, filiale de Standard Chartered, signale une fuite de données, troisième alerte de sécurité crypto de la semaine
+page_title: Fuite chez Zodia Custody : noms et e-mails de clients exposés, aucun fonds déplacé
+description: Zodia Custody, le dépositaire crypto de Standard Chartered, indique qu'un tiers a accédé à des données limitées de clients et d'employés le 24 novembre 2026, sans aucune transaction non autorisée. Cryptio et Bithumb ont aussi révélé des incidents cette semaine.
+og_description: Zodia Custody indique que des noms et e-mails de contacts professionnels ont été exposés après des sondages de sa plateforme le 23 novembre. La plateforme comptable Cryptio affirme qu'un attaquant aidé par l'IA a tenté en vain de déplacer des cryptos, et Bithumb dit que sa fuite d'octobre était plus grave qu'annoncé.
+label: Sécurité
+summary: Zodia Custody, le dépositaire crypto de Standard Chartered, indique qu'un tiers a accédé à des coordonnées limitées de clients et d'employés, sans transaction non autorisée. C'est l'une des trois révélations de sécurité crypto de la semaine, avec Cryptio et Bithumb. Le principal risque pour les clients est désormais l'hameçonnage.
+===
+
+Zodia Custody, la société de conservation de cryptos de la banque britannique Standard Chartered, a indiqué le jeudi 26 novembre qu'un tiers non autorisé avait accédé à certaines informations de clients et d'employés en début de semaine. Dans un [communiqué](L1), son PDG Richard Clark affirme qu'il n'y a eu aucune transaction non autorisée.
+
+L'annonce est tombée le jour même où la plateforme comptable crypto Cryptio a confirmé une tentative de vol, et un jour après que la plateforme sud-coréenne Bithumb a déclaré qu'une fuite d'octobre avait exposé plus de données clients qu'annoncé au départ. Aucune des trois n'a signalé de cryptos volées. Toutes trois mettent en garde contre la même suite : l'hameçonnage.
+
+!takeaways
+- Zodia a détecté des tentatives de sondage de sa plateforme le 23 novembre et a coupé par précaution son API interentreprises (B2B).
+- Le 24 novembre, elle a constaté qu'un tiers avait accédé à des données clients limitées, dont, pour un petit nombre de clients et d'employés, un nom de contact professionnel et une adresse e-mail.
+- Zodia dit avoir prévenu ses clients et les régulateurs et n'avoir trouvé aucune transaction non autorisée.
+- Cryptio affirme qu'un attaquant a utilisé des « outils d'IA de pointe » pour entrer dans sa plateforme et a tenté de déplacer des cryptos avec des identifiants de clients, mais toutes les tentatives identifiées ont échoué.
+- Bithumb indique que sa fuite d'octobre a aussi exposé des numéros de passeport, des coordonnées bancaires et des adresses de portefeuilles. Aucune crypto n'a été volée.
+
+!figure:fact
+
+## Ce qui s'est passé chez Zodia
+
+Zodia Custody conserve des cryptos pour des institutions comme des fonds et des entreprises, pas pour des particuliers. Selon le communiqué de M. Clark, la société a repéré quelqu'un en train de sonder sa plateforme le lundi 23 novembre, a coupé l'API B2B qui permet aux systèmes des clients de se connecter directement, a ajouté des mesures de sécurité puis a rétabli le service.
+
+Le lendemain, sa surveillance a révélé qu'un tiers non autorisé avait accédé à des « informations clients limitées » : des données publiques sur des organisations et, pour un petit nombre de clients et d'employés, un nom de contact professionnel et une adresse e-mail. Zodia a contacté ses clients et informé les régulateurs.
+
+Le moment tombe mal pour la banque. [Reuters](L2) rapporte que la fuite survient quelques semaines après que Standard Chartered a porté sa participation dans Zodia à 100 % pour développer ses activités crypto. L'action Standard Chartered cotée à Londres a gagné 2,6 % dans la journée, selon Reuters.
+
+!figure:timeline
+
+!mid_cta
+
+## Deux autres incidents cette semaine
+
+Cryptio, une plateforme comptable qui rassemble pour les entreprises les données de plateformes d'échange et de dépositaires, a indiqué à [crypto.news](L3) le 26 novembre qu'un attaquant avait utilisé des outils d'IA pour accéder à sa plateforme, puis tenté de déplacer des actifs numériques avec certains identifiants enregistrés. « À notre connaissance, toutes les tentatives identifiées ont échoué et aucune perte d'actifs n'a été constatée », a déclaré un porte-parole. Cryptio a demandé à ses clients de révoquer toutes les clés API connectées, même en lecture seule, et de vérifier leurs comptes pour repérer des retraits non approuvés.
+
+En Corée du Sud, Bithumb a indiqué le 25 novembre que les pirates à l'origine d'une fuite d'octobre avaient dérobé plus que ce qu'elle avait d'abord révélé, notamment des numéros de passeport, des coordonnées bancaires, des historiques de transactions et des adresses de portefeuilles crypto, selon [CoinDesk](L4). Bithumb avait d'abord parlé d'environ 7 100 clients et employés touchés, sans donner de nouveau total.
+
+## Ce que cela signifie pour les débutants
+
+Une fuite de noms et d'e-mails semble mineure, mais c'est exactement ce dont les escrocs ont besoin pour envoyer de faux messages convaincants. Les arnaques à l'usurpation d'identité ont bondi de 1 400 % en 2025, selon des données de Chainalysis citées par [CoinDesk](L5).
+
+Quelques réflexes aident : ne communiquez jamais votre mot de passe, vos codes de double authentification ou votre phrase de récupération à quelqu'un qui vous contacte, même s'il connaît votre nom et votre plateforme. Ouvrez l'application de la plateforme ou tapez vous-même son adresse au lieu de cliquer sur les liens reçus par e-mail ou SMS. Activez la double authentification par application et les listes d'adresses de retrait autorisées lorsqu'elles existent.
+
+Si vous débutez, acheter une petite somme sur une plateforme réglementée aux États-Unis comme [Coinbase](REF) et apprendre d'abord ses réglages de sécurité est une voie raisonnable. Les cryptos sont volatiles : n'investissez que ce que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil financier.
+
+## À surveiller
+
+- Si Zodia, Cryptio ou Bithumb signalent des pertes au fil de leurs enquêtes.
+- Des campagnes d'hameçonnage utilisant les coordonnées divulguées.
+- Plus de détails sur la façon dont l'attaquant a utilisé l'IA contre Cryptio.
+
+!soft: Apprenez les bases pour protéger vos cryptos : [portefeuille dépositaire ou autoconservation, expliqué](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

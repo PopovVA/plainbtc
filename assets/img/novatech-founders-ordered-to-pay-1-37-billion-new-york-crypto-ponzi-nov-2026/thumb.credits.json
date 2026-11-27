@@ -1,0 +1,40 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Seal_of_New_York.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Seal_of_New_York.svg",
+      "credit": "State of New York"
+    },
+    {
+      "file": "Order and judgment, People v. Nova Tech Ltd et al., Nov. 24, 2026",
+      "license": "Facts cited",
+      "url": "https://ag.ny.gov/sites/default/files/decisions/new-york-v-nova-tech-ltd-et-al-order-and-judgement-2026.pdf",
+      "credit": "New York Supreme Court"
+    },
+    {
+      "file": "NY Attorney General release, Nov. 25, 2026",
+      "license": "Facts cited",
+      "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-wins-13-billion-judgment-against-crypto-scammers-who",
+      "credit": "Office of the New York Attorney General"
+    },
+    {
+      "file": "group chat illustration",
+      "license": "PlainBTC original",
+      "url": "",
+      "credit": "PlainBTC"
+    }
+  ],
+  "note": "Editorial composite; seal for identification only; no endorsement by the State of New York implied.",
+  "slug": "novatech-founders-ordered-to-pay-1-37-billion-new-york-crypto-ponzi-nov-2026",
+  "generated": "2026-11-27T00:05Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

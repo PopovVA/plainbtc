@@ -1,0 +1,58 @@
+title: Standard Chartered'ın Zodia Custody'si veri ihlali bildirdi, bu haftanın üçüncü kripto güvenlik olayı
+page_title: Zodia Custody veri ihlali: müşteri adları ve e-postaları açığa çıktı, fon hareketi yok
+description: Standard Chartered'ın kripto saklama şirketi Zodia Custody, 24 Kasım 2026'da yetkisiz birinin sınırlı müşteri ve çalışan verilerine eriştiğini, ancak yetkisiz işlem olmadığını söylüyor. Cryptio ve Bithumb da bu hafta olay bildirdi.
+og_description: Zodia Custody, saldırganların 23 Kasım'da platformunu yoklamasının ardından iş iletişim adları ve e-postalarının açığa çıktığını söylüyor. Muhasebe platformu Cryptio, yapay zeka destekli bir saldırganın kripto taşımayı denediğini ve başarısız olduğunu, Bithumb ise ekim sızıntısının bildirilenden büyük olduğunu açıkladı.
+label: Güvenlik
+summary: Standard Chartered'ın kripto saklama şirketi Zodia Custody, yetkisiz birinin sınırlı müşteri ve çalışan iletişim verilerine eriştiğini, ancak yetkisiz işlem olmadığını söylüyor. Bu, Cryptio ve Bithumb ile birlikte bu haftaki üç kripto güvenlik açıklamasından biri. Müşteriler için asıl risk artık oltalama.
+===
+
+İngiliz bankası Standard Chartered'ın kripto saklama şirketi Zodia Custody, 26 Kasım Perşembe günü yaptığı açıklamada, bu haftanın başında yetkisiz birinin bazı müşteri ve çalışan bilgilerine eriştiğini söyledi. CEO Richard Clark bir [açıklamada](L1) yetkisiz işlem olmadığını belirtti.
+
+Açıklama, kripto muhasebe platformu Cryptio'nun bir hırsızlık girişimini doğruladığı gün ve Güney Kore borsası Bithumb'ın ekimdeki bir sızıntının ilk bildirilenden fazla müşteri verisini açığa çıkardığını söylemesinden bir gün sonra geldi. Üçü de kripto çalındığını bildirmedi. Üçü de aynı sonraki adıma karşı uyarıyor: oltalama.
+
+!takeaways
+- Zodia, 23 Kasım'da platformunu yoklama girişimlerini fark etti ve önlem olarak işletmeden işletmeye (B2B) API'sini kapattı.
+- 24 Kasım'da yetkisiz birinin sınırlı müşteri verilerine eriştiğini, bunlar arasında az sayıda müşteri ve çalışan için bir iş iletişim adı ve e-posta adresi bulunduğunu tespit etti.
+- Zodia, müşterileri ve düzenleyicileri bilgilendirdiğini ve yetkisiz işlem bulmadığını söylüyor.
+- Cryptio, bir saldırganın "öncü yapay zeka araçları" kullanarak platformuna girdiğini ve müşteri kimlik bilgileriyle kripto taşımayı denediğini, ancak tespit edilen tüm girişimlerin başarısız olduğunu söylüyor.
+- Bithumb, ekim sızıntısının pasaport numaralarını, banka bilgilerini ve cüzdan adreslerini de açığa çıkardığını söylüyor. Kripto çalınmadı.
+
+!figure:fact
+
+## Zodia'da ne oldu
+
+Zodia Custody, bireysel kullanıcılar için değil, fonlar ve şirketler gibi kurumlar için kripto saklıyor. Clark'ın açıklamasına göre şirket, 23 Kasım Pazartesi günü birinin platformunu yokladığını fark etti, müşteri sistemlerinin doğrudan bağlanmasını sağlayan B2B API'yi kapattı, ek güvenlik önlemleri aldı ve ardından hizmeti yeniden başlattı.
+
+Ertesi gün izleme sistemi, yetkisiz birinin "sınırlı müşteri bilgilerine" eriştiğini ortaya çıkardı: kamuya açık kuruluş bilgileri ve az sayıda müşteri ile çalışan için bir iş iletişim adı ve e-posta adresi. Zodia müşterilerle iletişime geçti ve düzenleyicileri bilgilendirdi.
+
+Zamanlama banka için talihsiz. [Reuters](L2), ihlalin Standard Chartered'ın kripto işini büyütürken Zodia'daki payını %100'e çıkarmasından haftalar sonra geldiğini bildirdi. Reuters'a göre Standard Chartered'ın Londra'da işlem gören hisseleri o gün %2,6 yükseldi.
+
+!figure:timeline
+
+!mid_cta
+
+## Bu hafta iki olay daha
+
+Şirketler için borsalardan ve saklama kuruluşlarından kayıt toplayan muhasebe platformu Cryptio, 26 Kasım'da [crypto.news](L3)'e bir saldırganın yapay zeka araçlarıyla platformuna eriştiğini ve ardından saklanan bazı kimlik bilgileriyle dijital varlık taşımayı denediğini söyledi. Bir sözcü, "Bildiğimiz kadarıyla tespit edilen tüm girişimler başarısız oldu ve herhangi bir varlık kaybı tespit edilmedi" dedi. Cryptio, müşterilerinden salt okunur olanlar dahil bağlı tüm API anahtarlarını iptal etmelerini ve hesaplarını onaylanmamış çekimler için kontrol etmelerini istedi.
+
+Güney Kore'de Bithumb, 25 Kasım'da ekimdeki sızıntının arkasındaki bilgisayar korsanlarının ilk açıklanandan fazlasını aldığını, bunlar arasında pasaport numaraları, banka hesap bilgileri, işlem geçmişleri ve kripto cüzdan adresleri bulunduğunu söyledi; bunu [CoinDesk](L4) aktardı. Bithumb ilk başta yaklaşık 7.100 müşteri ve çalışanın etkilendiğini söylemişti ve yeni bir toplam vermedi.
+
+## Yeni başlayanlar için anlamı
+
+Ad ve e-posta sızıntısı küçük görünebilir, ama dolandırıcıların ikna edici sahte mesajlar göndermek için tam da ihtiyaç duyduğu şey budur. [CoinDesk](L5)'in aktardığı Chainalysis verilerine göre kimliğe bürünme dolandırıcılıkları 2025'te %1.400 arttı.
+
+Birkaç alışkanlık işe yarar: sizinle iletişime geçen kimseyle, adınızı ve hangi borsayı kullandığınızı bilse bile şifrenizi, iki aşamalı doğrulama kodlarınızı veya kurtarma ifadenizi asla paylaşmayın. E-posta veya mesajlardaki bağlantılara tıklamak yerine borsanın uygulamasını açın ya da adresini kendiniz yazın. Mümkünse uygulama tabanlı iki aşamalı doğrulamayı ve çekim adresi izin listelerini açın.
+
+Yeni başlıyorsanız, [Coinbase](REF) gibi ABD'de düzenlenen bir borsadan küçük bir miktar alıp önce güvenlik ayarlarını öğrenmek makul bir yoldur. Kripto oynaktır; yalnızca kaybetmeyi göze alabileceğiniz kadarını yatırın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra izlenecekler
+
+- Soruşturmalar sürerken Zodia, Cryptio veya Bithumb'ın kayıp bildirip bildirmeyeceği.
+- Sızan iletişim bilgilerini kullanan oltalama kampanyaları.
+- Saldırganın Cryptio'ya karşı yapay zeka araçlarını nasıl kullandığına dair ayrıntılar.
+
+!soft: Coinlerinizi korumanın temelleri: [emanetçili ve kendi kendine saklama cüzdanları](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazısını okuyun.
+
+!end_cta
+
+!disclosure

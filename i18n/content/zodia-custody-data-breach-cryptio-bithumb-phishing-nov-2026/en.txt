@@ -1,0 +1,58 @@
+title: Standard Chartered's Zodia Custody reports data breach, the third crypto security scare this week
+page_title: Zodia Custody data breach: client names and emails exposed, no funds moved
+description: Zodia Custody, the crypto custodian owned by Standard Chartered, says an outsider accessed limited client and staff data on Nov. 24, 2026, but no unauthorized transactions took place. Cryptio and Bithumb also disclosed incidents this week.
+og_description: Zodia Custody says business contact names and emails were exposed after attackers probed its platform on Nov. 23. Accounting platform Cryptio says an AI-assisted attacker tried and failed to move crypto, and Bithumb says its October leak was bigger than first reported.
+label: Security
+summary: Zodia Custody, Standard Chartered's crypto custodian, says an outsider accessed limited client and staff contact data, with no unauthorized transactions. It is one of three crypto security disclosures this week, alongside Cryptio and Bithumb. The main risk for customers now is phishing.
+===
+
+Zodia Custody, the crypto custody company owned by British bank Standard Chartered, said on Thursday, Nov. 26, that an unauthorized party accessed some client and employee information earlier this week. In a [statement](L1), CEO Richard Clark said there had been no unauthorized transactions.
+
+The disclosure came the same day crypto accounting platform Cryptio confirmed an attempted theft, and a day after South Korean exchange Bithumb said an October breach exposed more customer data than it first reported. None of the three reported stolen crypto. All three warn of the same next step: phishing.
+
+!takeaways
+- Zodia detected attempts to probe its platform on Nov. 23 and took its business-to-business (B2B) API offline as a precaution.
+- On Nov. 24 it found that an outsider had accessed limited client data, including, for a small number of clients and staff, a business contact name and email address.
+- Zodia says it notified clients and regulators and found no unauthorized transactions.
+- Cryptio says an attacker used "frontier AI tools" to get into its platform and tried to move crypto with customers' credentials, but all identified attempts failed.
+- Bithumb says its October breach also exposed passport numbers, bank details and wallet addresses. No crypto was stolen.
+
+!figure:fact
+
+## What happened at Zodia
+
+Zodia Custody holds crypto for institutions such as funds and companies, not everyday retail users. According to Clark's statement, the company spotted someone probing its platform on Monday, Nov. 23, switched off the B2B API that lets clients' systems connect directly, added security measures and then restored the service.
+
+The next day, its monitoring found that an unauthorized party had accessed "limited client information": publicly available organization details and, for a small number of clients and employees, a business contact name and email address. Zodia contacted clients and informed regulators.
+
+The timing is awkward for the bank. [Reuters](L2) reported that the breach came weeks after Standard Chartered raised its stake in Zodia to 100% as it expands its crypto business. Standard Chartered's London-listed shares were up 2.6% on the day, Reuters said.
+
+!figure:timeline
+
+!mid_cta
+
+## Two more incidents this week
+
+Cryptio, an accounting platform that pulls records from exchanges and custodians for businesses, told [crypto.news](L3) on Nov. 26 that an attacker used AI tools to access its platform and then tried to move digital assets with some of the stored credentials. "To our knowledge, all identified attempts failed and no loss of assets has been identified," a spokesperson said. Cryptio told customers to revoke every API key they had connected to it, even read-only ones, and to check their accounts for unapproved withdrawals.
+
+In South Korea, Bithumb said on Nov. 25 that hackers behind an October breach took more than it first disclosed, including passport numbers, bank account details, transaction histories and crypto wallet addresses, [CoinDesk](L4) reported. Bithumb had first said about 7,100 customers and employees were affected, and did not give a new total.
+
+## What it means for beginners
+
+A leak of names and emails sounds minor, but it is exactly what scammers need to send convincing fake messages. Impersonation scams surged 1,400% in 2025, according to Chainalysis data cited by [CoinDesk](L5).
+
+A few habits help: never share your password, two-factor codes or recovery phrase with anyone who contacts you, even if they use your name and know which exchange you use. Open the exchange's app or type its address yourself instead of clicking links in emails or texts. Turn on app-based two-factor authentication and withdrawal address allowlists where available.
+
+If you are just starting out, buying a small amount through a regulated U.S. exchange such as [Coinbase](REF) and learning its security settings first is a reasonable path. Crypto is volatile, so only invest what you can afford to lose. This is not financial advice.
+
+## What to watch next
+
+- Whether Zodia, Cryptio or Bithumb report any losses as their investigations continue.
+- Phishing campaigns that use the leaked contact details.
+- More details on how the attacker used AI tools against Cryptio.
+
+!soft: Learn the basics of keeping coins safe: [custodial vs. self-custody wallets explained](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "fact",
+    "file": "fact-zodia-no-unauthorized-transactions.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card quoting Zodia Custody CEO Richard Clark: based on the investigation to date, there have been no unauthorized transactions; some client and staff business contact names and email addresses were accessed",
+      "es": "Tarjeta con la cita del CEO de Zodia Custody, Richard Clark: según la investigación hasta la fecha, no hubo transacciones no autorizadas; se accedió a algunos nombres y correos de contacto profesional de clientes y empleados",
+      "pt": "Cartão com a citação do CEO da Zodia Custody, Richard Clark: com base na investigação até agora, não houve transações não autorizadas; alguns nomes e e-mails de contato profissional de clientes e funcionários foram acessados",
+      "fr": "Encadré citant le PDG de Zodia Custody, Richard Clark : selon l'enquête à ce jour, il n'y a eu aucune transaction non autorisée ; des noms et e-mails de contacts professionnels de certains clients et employés ont été consultés",
+      "de": "Faktenkarte mit einem Zitat von Zodia-Custody-CEO Richard Clark: Nach bisherigen Ermittlungen gab es keine unautorisierten Transaktionen; auf geschäftliche Kontaktnamen und E-Mail-Adressen einiger Kunden und Mitarbeiter wurde zugegriffen",
+      "ru": "Карточка с цитатой гендиректора Zodia Custody Ричарда Кларка: по итогам расследования на данный момент несанкционированных транзакций не было; посторонние получили доступ к рабочим контактным именам и адресам электронной почты некоторых клиентов и сотрудников",
+      "tr": "Zodia Custody CEO'su Richard Clark'tan alıntı içeren bilgi kartı: bugüne kadarki soruşturmaya göre yetkisiz işlem olmadı; bazı müşteri ve çalışanların iş iletişim adları ve e-posta adreslerine erişildi",
+      "id": "Kartu fakta berisi kutipan CEO Zodia Custody Richard Clark: berdasarkan investigasi sejauh ini, tidak ada transaksi tanpa izin; nama kontak bisnis dan alamat email sebagian klien dan karyawan sempat diakses",
+      "ja": "Zodia Custodyのリチャード・クラークCEOの発言を引用したファクトカード：これまでの調査では不正な取引はない。一部の顧客と従業員の業務上の連絡先氏名とメールアドレスが閲覧された",
+      "ko": "Zodia Custody 리처드 클라크 CEO 발언을 인용한 팩트 카드: 현재까지 조사 결과 무단 거래는 없었음. 일부 고객과 직원의 업무용 연락처 이름과 이메일 주소가 열람됨"
+    },
+    "caption": {
+      "en": "Source: Zodia Custody statement, Nov. 26, 2026",
+      "es": "Fuente: Zodia Custody statement, Nov. 26, 2026",
+      "pt": "Fonte: Zodia Custody statement, Nov. 26, 2026",
+      "fr": "Source : Zodia Custody statement, Nov. 26, 2026",
+      "de": "Quelle: Zodia Custody statement, Nov. 26, 2026",
+      "ru": "Источник: Zodia Custody statement, Nov. 26, 2026",
+      "tr": "Kaynak: Zodia Custody statement, Nov. 26, 2026",
+      "id": "Sumber: Zodia Custody statement, Nov. 26, 2026",
+      "ja": "出典: Zodia Custody statement, Nov. 26, 2026",
+      "ko": "출처: Zodia Custody statement, Nov. 26, 2026"
+    }
+  },
+  {
+    "id": "timeline",
+    "file": "timeline-zodia-cryptio-bithumb-week.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline: Nov. 23, Zodia Custody detects probing and takes its B2B API offline; Nov. 24, Zodia finds limited client contact data was accessed; Nov. 25, Bithumb says its October leak included passport numbers and bank details; Nov. 26, Zodia reports no unauthorized transactions and Cryptio says AI-assisted theft attempts failed",
+      "es": "Cronología: 23 de noviembre, Zodia Custody detecta sondeos y desconecta su API B2B; 24 de noviembre, Zodia descubre un acceso a datos limitados de contacto de clientes; 25 de noviembre, Bithumb dice que su filtración de octubre incluyó números de pasaporte y datos bancarios; 26 de noviembre, Zodia informa de que no hubo transacciones no autorizadas y Cryptio dice que fallaron los intentos de robo asistidos por IA",
+      "pt": "Linha do tempo: 23 de novembro, a Zodia Custody detecta sondagens e desliga sua API B2B; 24 de novembro, a Zodia descobre acesso a dados limitados de contato de clientes; 25 de novembro, a Bithumb diz que o vazamento de outubro incluiu números de passaporte e dados bancários; 26 de novembro, a Zodia informa que não houve transações não autorizadas e a Cryptio diz que as tentativas de roubo com ajuda de IA falharam",
+      "fr": "Chronologie : 23 novembre, Zodia Custody détecte des sondages et coupe son API B2B ; 24 novembre, Zodia constate un accès à des données de contact limitées de clients ; 25 novembre, Bithumb indique que sa fuite d'octobre incluait des numéros de passeport et des données bancaires ; 26 novembre, Zodia ne signale aucune transaction non autorisée et Cryptio affirme que les tentatives de vol assistées par IA ont échoué",
+      "de": "Zeitleiste: 23. November, Zodia Custody bemerkt Ausspähversuche und schaltet seine B2B-API ab; 24. November, Zodia stellt Zugriff auf begrenzte Kundenkontaktdaten fest; 25. November, Bithumb meldet, dass das Datenleck vom Oktober Passnummern und Bankdaten umfasste; 26. November, Zodia meldet keine unautorisierten Transaktionen, Cryptio sagt, KI-gestützte Diebstahlsversuche seien gescheitert",
+      "ru": "Хронология: 23 ноября Zodia Custody замечает попытки зондирования и отключает B2B API; 24 ноября Zodia обнаруживает доступ к ограниченным контактным данным клиентов; 25 ноября Bithumb сообщает, что октябрьская утечка включала номера паспортов и банковские данные; 26 ноября Zodia сообщает об отсутствии несанкционированных транзакций, а Cryptio заявляет, что попытки кражи с помощью ИИ провалились",
+      "tr": "Zaman çizelgesi: 23 Kasım, Zodia Custody yoklama girişimlerini fark edip B2B API'sini kapatır; 24 Kasım, Zodia sınırlı müşteri iletişim verilerine erişildiğini tespit eder; 25 Kasım, Bithumb ekim sızıntısının pasaport numaraları ve banka bilgilerini de içerdiğini söyler; 26 Kasım, Zodia yetkisiz işlem olmadığını bildirir, Cryptio yapay zeka destekli hırsızlık girişimlerinin başarısız olduğunu söyler",
+      "id": "Linimasa: 23 November, Zodia Custody mendeteksi upaya penyelidikan dan mematikan API B2B; 24 November, Zodia menemukan akses ke data kontak klien yang terbatas; 25 November, Bithumb menyatakan kebocoran Oktober mencakup nomor paspor dan data bank; 26 November, Zodia melaporkan tidak ada transaksi tanpa izin dan Cryptio menyatakan upaya pencurian berbantuan AI gagal",
+      "ja": "経緯：11月23日、Zodia Custodyが探索行為を検知しB2B APIを停止。11月24日、限定的な顧客連絡先データへのアクセスを確認。11月25日、Bithumbが10月の流出にパスポート番号や銀行情報が含まれていたと発表。11月26日、Zodiaは不正取引なしと報告し、CryptioはAIを使った窃取の試みは失敗したと発表",
+      "ko": "경과: 11월 23일 Zodia Custody가 탐색 시도를 감지하고 B2B API 중단. 11월 24일 제한된 고객 연락처 데이터 접근 확인. 11월 25일 빗썸이 10월 유출에 여권 번호와 은행 정보가 포함됐다고 발표. 11월 26일 Zodia는 무단 거래 없음, Cryptio는 AI를 활용한 탈취 시도가 실패했다고 밝힘"
+    },
+    "caption": {
+      "en": "Source: Zodia Custody; Reuters; CoinDesk; crypto.news, Nov. 25 to 26, 2026",
+      "es": "Fuente: Zodia Custody; Reuters; CoinDesk; crypto.news, Nov. 25 to 26, 2026",
+      "pt": "Fonte: Zodia Custody; Reuters; CoinDesk; crypto.news, Nov. 25 to 26, 2026",
+      "fr": "Source : Zodia Custody; Reuters; CoinDesk; crypto.news, Nov. 25 to 26, 2026",
+      "de": "Quelle: Zodia Custody; Reuters; CoinDesk; crypto.news, Nov. 25 to 26, 2026",
+      "ru": "Источник: Zodia Custody; Reuters; CoinDesk; crypto.news, Nov. 25 to 26, 2026",
+      "tr": "Kaynak: Zodia Custody; Reuters; CoinDesk; crypto.news, Nov. 25 to 26, 2026",
+      "id": "Sumber: Zodia Custody; Reuters; CoinDesk; crypto.news, Nov. 25 to 26, 2026",
+      "ja": "出典: Zodia Custody; Reuters; CoinDesk; crypto.news, Nov. 25 to 26, 2026",
+      "ko": "출처: Zodia Custody; Reuters; CoinDesk; crypto.news, Nov. 25 to 26, 2026"
+    }
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "fact",
+    "file": "fact-novatech-1-37-billion-judgment.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: a New York court ordered NovaTech founders Cynthia and Eddy Petion and three NovaTech companies to pay $1,367,023,585, jointly, for a crypto Ponzi scheme",
+      "es": "Tarjeta: un tribunal de Nueva York ordenó a los fundadores de NovaTech, Cynthia y Eddy Petion, y a tres empresas de NovaTech pagar solidariamente 1.367.023.585 dólares por un esquema Ponzi con criptomonedas",
+      "pt": "Cartão: um tribunal de Nova York condenou os fundadores da NovaTech, Cynthia e Eddy Petion, e três empresas da NovaTech a pagar solidariamente US$ 1.367.023.585 por um esquema Ponzi com criptomoedas",
+      "fr": "Encadré : un tribunal de New York a condamné les fondateurs de NovaTech, Cynthia et Eddy Petion, et trois sociétés NovaTech à payer solidairement 1 367 023 585 dollars pour une chaîne de Ponzi en cryptomonnaies",
+      "de": "Faktenkarte: Ein New Yorker Gericht verurteilte die NovaTech-Gründer Cynthia und Eddy Petion und drei NovaTech-Firmen gesamtschuldnerisch zur Zahlung von 1.367.023.585 Dollar wegen eines Krypto-Schneeballsystems",
+      "ru": "Карточка: суд Нью-Йорка обязал основателей NovaTech Синтию и Эдди Петион и три компании NovaTech солидарно выплатить $1 367 023 585 за криптовалютную финансовую пирамиду",
+      "tr": "Bilgi kartı: Bir New York mahkemesi, NovaTech kurucuları Cynthia ve Eddy Petion ile üç NovaTech şirketine bir kripto Ponzi düzeni nedeniyle müteselsilen 1.367.023.585 dolar ödeme emri verdi",
+      "id": "Kartu fakta: pengadilan New York memerintahkan pendiri NovaTech, Cynthia dan Eddy Petion, serta tiga perusahaan NovaTech membayar secara tanggung renteng 1.367.023.585 dolar AS atas skema Ponzi kripto",
+      "ja": "ファクトカード：ニューヨーク州の裁判所は、暗号資産ポンジ・スキームをめぐり、NovaTech創業者のシンシア・ペティオン氏とエディ・ペティオン氏およびNovaTech関連3社に連帯で1,367,023,585ドルの支払いを命じた",
+      "ko": "팩트 카드: 뉴욕 법원은 암호화폐 폰지 사기와 관련해 NovaTech 창업자 신시아·에디 페티온 부부와 NovaTech 3개사에 연대하여 1,367,023,585달러를 지급하라고 명령함"
+    },
+    "caption": {
+      "en": "Source: New York Supreme Court order and judgment, Nov. 24, 2026",
+      "es": "Fuente: New York Supreme Court order and judgment, Nov. 24, 2026",
+      "pt": "Fonte: New York Supreme Court order and judgment, Nov. 24, 2026",
+      "fr": "Source : New York Supreme Court order and judgment, Nov. 24, 2026",
+      "de": "Quelle: New York Supreme Court order and judgment, Nov. 24, 2026",
+      "ru": "Источник: New York Supreme Court order and judgment, Nov. 24, 2026",
+      "tr": "Kaynak: New York Supreme Court order and judgment, Nov. 24, 2026",
+      "id": "Sumber: New York Supreme Court order and judgment, Nov. 24, 2026",
+      "ja": "出典: New York Supreme Court order and judgment, Nov. 24, 2026",
+      "ko": "출처: New York Supreme Court order and judgment, Nov. 24, 2026"
+    }
+  },
+  {
+    "id": "chart",
+    "file": "chart-novatech-judgment-vs-recovered.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Bar chart of New York's NovaTech case in millions of dollars: $1,134.5 million in disgorgement and $232.5 million in interest ordered against the Petions and NovaTech companies, compared with nearly $6 million secured so far from four promoters",
+      "es": "Gráfico de barras del caso NovaTech de Nueva York en millones de dólares: 1.134,5 millones en restitución y 232,5 millones en intereses ordenados contra los Petion y las empresas de NovaTech, frente a casi 6 millones obtenidos hasta ahora de cuatro promotores",
+      "pt": "Gráfico de barras do caso NovaTech de Nova York em milhões de dólares: US$ 1.134,5 milhões em restituição e US$ 232,5 milhões em juros determinados contra os Petion e as empresas da NovaTech, contra quase US$ 6 milhões obtidos até agora de quatro promotores",
+      "fr": "Graphique en barres de l'affaire NovaTech à New York, en millions de dollars : 1 134,5 millions de restitution et 232,5 millions d'intérêts ordonnés contre les Petion et les sociétés NovaTech, contre près de 6 millions obtenus jusqu'ici de quatre promoteurs",
+      "de": "Balkendiagramm zum New Yorker NovaTech-Fall in Millionen Dollar: 1.134,5 Millionen Gewinnabschöpfung und 232,5 Millionen Zinsen gegen die Petions und die NovaTech-Firmen, gegenüber knapp 6 Millionen, die bisher von vier Promotern gesichert wurden",
+      "ru": "Столбчатая диаграмма по делу NovaTech в Нью-Йорке, в миллионах долларов: $1134,5 млн возврата незаконных доходов и $232,5 млн процентов, присуждённых Петионам и компаниям NovaTech, против почти $6 млн, полученных пока от четырёх промоутеров",
+      "tr": "New York'un NovaTech davasının milyon dolar cinsinden çubuk grafiği: Petion çifti ve NovaTech şirketlerine hükmedilen 1.134,5 milyon dolar iade ve 232,5 milyon dolar faiz, buna karşılık dört tanıtımcıdan şimdiye kadar sağlanan yaklaşık 6 milyon dolar",
+      "id": "Grafik batang kasus NovaTech di New York dalam juta dolar AS: 1.134,5 juta pengembalian keuntungan dan 232,5 juta bunga yang dijatuhkan kepada pasangan Petion dan perusahaan NovaTech, dibanding hampir 6 juta yang sejauh ini didapat dari empat promotor",
+      "ja": "ニューヨーク州のNovaTech訴訟（百万ドル）の棒グラフ：ペティオン夫妻とNovaTech各社に命じられた不当利得返還11億3,450万ドルと利息2億3,250万ドルに対し、これまで4人のプロモーターから確保したのは約600万ドル",
+      "ko": "뉴욕주 NovaTech 사건 막대 그래프(백만 달러): 페티온 부부와 NovaTech 회사들에 명령된 부당이득 반환 11억 3,450만 달러와 이자 2억 3,250만 달러, 반면 지금까지 프로모터 4명에게서 확보한 금액은 약 600만 달러"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: New York Supreme Court judgment, Nov. 24, 2026; New York Attorney General, Nov. 25, 2026",
+      "es": "Gráfico: PlainBTC, datos: New York Supreme Court judgment, Nov. 24, 2026; New York Attorney General, Nov. 25, 2026",
+      "pt": "Gráfico: PlainBTC, dados: New York Supreme Court judgment, Nov. 24, 2026; New York Attorney General, Nov. 25, 2026",
+      "fr": "Graphique : PlainBTC, données : New York Supreme Court judgment, Nov. 24, 2026; New York Attorney General, Nov. 25, 2026",
+      "de": "Chart: PlainBTC, Daten: New York Supreme Court judgment, Nov. 24, 2026; New York Attorney General, Nov. 25, 2026",
+      "ru": "График: PlainBTC, данные: New York Supreme Court judgment, Nov. 24, 2026; New York Attorney General, Nov. 25, 2026",
+      "tr": "Grafik: PlainBTC, veri: New York Supreme Court judgment, Nov. 24, 2026; New York Attorney General, Nov. 25, 2026",
+      "id": "Grafik: PlainBTC, data: New York Supreme Court judgment, Nov. 24, 2026; New York Attorney General, Nov. 25, 2026",
+      "ja": "チャート: PlainBTC、データ: New York Supreme Court judgment, Nov. 24, 2026; New York Attorney General, Nov. 25, 2026",
+      "ko": "차트: PlainBTC, 데이터: New York Supreme Court judgment, Nov. 24, 2026; New York Attorney General, Nov. 25, 2026"
+    }
+  }
+]

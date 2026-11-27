@@ -1,0 +1,58 @@
+title: Zodia Custody milik Standard Chartered laporkan kebocoran data, insiden keamanan kripto ketiga pekan ini
+page_title: Kebocoran data Zodia Custody: nama dan email klien terekspos, tidak ada dana berpindah
+description: Zodia Custody, kustodian kripto milik Standard Chartered, menyatakan pihak luar mengakses data terbatas klien dan staf pada 24 November 2026, tetapi tidak ada transaksi tanpa izin. Cryptio dan Bithumb juga mengungkap insiden pekan ini.
+og_description: Zodia Custody menyatakan nama kontak bisnis dan email terekspos setelah penyerang menyelidiki platformnya pada 23 November. Platform akuntansi Cryptio menyatakan penyerang berbantuan AI mencoba memindahkan kripto dan gagal, sementara Bithumb menyatakan kebocoran Oktober lebih besar dari yang dilaporkan.
+label: Keamanan
+summary: Zodia Custody, kustodian kripto milik Standard Chartered, menyatakan pihak luar mengakses data kontak terbatas milik klien dan staf, tanpa transaksi tanpa izin. Ini satu dari tiga pengungkapan keamanan kripto pekan ini, bersama Cryptio dan Bithumb. Risiko utama bagi pelanggan sekarang adalah phishing.
+===
+
+Zodia Custody, perusahaan kustodi kripto milik bank Inggris Standard Chartered, menyatakan pada Kamis, 26 November, bahwa pihak tanpa izin mengakses sebagian informasi klien dan karyawan awal pekan ini. Dalam [pernyataan](L1), CEO Richard Clark mengatakan tidak ada transaksi tanpa izin.
+
+Pengungkapan ini muncul pada hari yang sama ketika platform akuntansi kripto Cryptio mengonfirmasi upaya pencurian, dan sehari setelah bursa Korea Selatan Bithumb menyatakan kebocoran Oktober mengekspos lebih banyak data pelanggan daripada yang pertama dilaporkan. Tidak satu pun dari ketiganya melaporkan kripto yang dicuri. Ketiganya memperingatkan langkah berikutnya yang sama: phishing.
+
+!takeaways
+- Zodia mendeteksi upaya menyelidiki platformnya pada 23 November dan, sebagai langkah pencegahan, mematikan API antarbisnis (B2B).
+- Pada 24 November, Zodia menemukan pihak luar telah mengakses data klien yang terbatas, termasuk, untuk sejumlah kecil klien dan karyawan, nama kontak bisnis dan alamat email.
+- Zodia menyatakan telah memberi tahu klien dan regulator serta tidak menemukan transaksi tanpa izin.
+- Cryptio menyatakan seorang penyerang memakai "alat AI mutakhir" untuk masuk ke platformnya dan mencoba memindahkan kripto dengan kredensial pelanggan, tetapi semua upaya yang teridentifikasi gagal.
+- Bithumb menyatakan kebocoran Oktober juga mengekspos nomor paspor, data bank, dan alamat dompet. Tidak ada kripto yang dicuri.
+
+!figure:fact
+
+## Apa yang terjadi di Zodia
+
+Zodia Custody menyimpan kripto untuk institusi seperti dana dan perusahaan, bukan untuk pengguna ritel. Menurut pernyataan Clark, perusahaan mendapati ada pihak yang menyelidiki platformnya pada Senin, 23 November, lalu mematikan API B2B yang memungkinkan sistem klien terhubung langsung, menambah langkah keamanan, dan kemudian memulihkan layanan.
+
+Keesokan harinya, pemantauan menemukan bahwa pihak tanpa izin telah mengakses "informasi klien yang terbatas": detail organisasi yang tersedia untuk publik dan, untuk sejumlah kecil klien dan karyawan, nama kontak bisnis dan alamat email. Zodia menghubungi klien dan memberi tahu regulator.
+
+Waktunya kurang tepat bagi bank tersebut. [Reuters](L2) melaporkan kebocoran ini terjadi beberapa pekan setelah Standard Chartered menaikkan kepemilikannya di Zodia menjadi 100% untuk memperluas bisnis kriptonya. Saham Standard Chartered yang tercatat di London naik 2,6% pada hari itu, menurut Reuters.
+
+!figure:timeline
+
+!mid_cta
+
+## Dua insiden lain pekan ini
+
+Cryptio, platform akuntansi yang menghimpun catatan dari bursa dan kustodian untuk perusahaan, mengatakan kepada [crypto.news](L3) pada 26 November bahwa penyerang memakai alat AI untuk mengakses platformnya lalu mencoba memindahkan aset digital dengan sebagian kredensial yang tersimpan. "Sepengetahuan kami, semua upaya yang teridentifikasi gagal dan tidak ada kehilangan aset yang teridentifikasi," kata seorang juru bicara. Cryptio meminta pelanggan mencabut semua kunci API yang terhubung, termasuk yang hanya-baca, dan memeriksa akun mereka untuk penarikan yang tidak disetujui.
+
+Di Korea Selatan, Bithumb menyatakan pada 25 November bahwa peretas di balik kebocoran Oktober mengambil lebih banyak dari yang pertama diungkapkan, termasuk nomor paspor, data rekening bank, riwayat transaksi, dan alamat dompet kripto, lapor [CoinDesk](L4). Bithumb awalnya menyebut sekitar 7.100 pelanggan dan karyawan terdampak, dan tidak memberikan total baru.
+
+## Artinya bagi pemula
+
+Kebocoran nama dan email terdengar sepele, tetapi justru itulah yang dibutuhkan penipu untuk mengirim pesan palsu yang meyakinkan. Penipuan dengan menyamar sebagai pihak lain melonjak 1.400% pada 2025, menurut data Chainalysis yang dikutip [CoinDesk](L5).
+
+Beberapa kebiasaan membantu: jangan pernah membagikan kata sandi, kode autentikasi dua faktor, atau frasa pemulihan kepada siapa pun yang menghubungi Anda, meski ia tahu nama Anda dan bursa yang Anda pakai. Buka aplikasi bursa atau ketik alamatnya sendiri alih-alih mengklik tautan di email atau pesan. Aktifkan autentikasi dua faktor berbasis aplikasi dan daftar alamat penarikan yang diizinkan jika tersedia.
+
+Jika Anda baru mulai, membeli dalam jumlah kecil di bursa teregulasi di AS seperti [Coinbase](REF) dan mempelajari pengaturan keamanannya terlebih dahulu adalah jalan yang masuk akal. Kripto bergejolak, jadi investasikan hanya yang sanggup Anda relakan hilang. Ini bukan nasihat keuangan.
+
+## Yang perlu dipantau
+
+- Apakah Zodia, Cryptio, atau Bithumb melaporkan kerugian seiring berjalannya investigasi.
+- Kampanye phishing yang memakai data kontak yang bocor.
+- Detail lebih lanjut tentang cara penyerang memakai alat AI terhadap Cryptio.
+
+!soft: Pelajari dasar menjaga koin Anda tetap aman: [dompet kustodian vs. penyimpanan mandiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure
