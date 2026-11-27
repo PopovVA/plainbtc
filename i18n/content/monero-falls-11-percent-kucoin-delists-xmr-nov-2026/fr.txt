@@ -1,0 +1,59 @@
+title: Le Monero chute d'environ 11 % après l'annonce du retrait du XMR par KuCoin le 30 novembre
+page_title: Le Monero plonge de 11 % : KuCoin retire le XMR le 30 novembre
+description: Le Monero (XMR) a connu sa plus forte baisse journalière depuis juin après l'annonce par KuCoin de la fin des échanges de XMR le 30 novembre 2026. Ce qui change, la date limite de retrait et pourquoi les plateformes abandonnent les cryptos de confidentialité.
+og_description: KuCoin arrêtera les échanges de XMR le 30 novembre à 08:00 UTC et fermera les retraits le 31 décembre. Le Monero a chuté de plus de 11 % jeudi, sa pire journée depuis le 4 juin.
+label: Marchés
+summary: Le Monero a chuté de plus de 11 % jeudi après l'annonce par KuCoin du retrait du XMR le 30 novembre, quelques semaines après MEXC. Les utilisateurs de KuCoin ont jusqu'au 31 décembre pour retirer leurs fonds. Les règles européennes qui entrent en vigueur en juillet 2027 éloignent les plateformes régulées des cryptos de confidentialité.
+===
+
+Le Monero (XMR), la crypto de confidentialité la plus connue, a vécu sa pire journée depuis plus de cinq mois le jeudi 26 novembre, après que la plateforme KuCoin a annoncé qu'elle cesserait de le coter la semaine prochaine. Le XMR a perdu plus de 11 % sur la journée, sa plus forte baisse quotidienne depuis le 4 juin, selon [CoinDesk](L2).
+
+Sur Kraken, le XMR a ouvert la séance de jeudi (UTC) à environ 517 $, touché un plus bas proche de 429 $ et clôturé vers 458 $. Vendredi matin (heure des États-Unis), il s'échangeait près de 440 $, soit environ 31 % sous sa clôture du 4 novembre, d'environ 641 $.
+
+!takeaways
+- KuCoin retirera le XMR le lundi 30 novembre à 08:00 UTC et fermera ses paires XMR/USDT, XMR/USDC, XMR/ETH et XMR/BTC.
+- Les dépôts de XMR sur KuCoin sont déjà fermés et ne rouvriront pas. Les retraits restent possibles jusqu'au 31 décembre à 08:00 UTC, même si KuCoin dit pouvoir les fermer plus tôt.
+- MEXC a arrêté les échanges au comptant de XMR début novembre. Binance, OKX, Bitget et Coinbase International ne proposent déjà plus d'échanges de XMR, selon CoinDesk.
+- À partir du 10 juillet 2027, les règles européennes de lutte contre le blanchiment interdiront aux entreprises crypto de tenir des comptes utilisant des « cryptoactifs renforçant l'anonymat ».
+
+!figure:chart
+
+## Ce qu'a annoncé KuCoin
+
+Dans son [annonce](L1), KuCoin n'a donné aucune autre raison que ses « politiques de la plateforme ». En plus des échanges au comptant, elle ferme tous les autres produits liés au XMR selon un calendrier précis. Flexible Savings de KuCoin Earn a pris fin le 27 novembre à 12:00 UTC, et les soldes ont été transférés vers les comptes de financement des utilisateurs. Convert s'arrête le 30 novembre à 03:00 UTC, et les robots de trading utilisant le XMR seront coupés à 06:00 UTC le même jour. Le XMR cessera aussi d'être accepté comme garantie pour les prêts VIP le 30 novembre.
+
+KuCoin prévient que si des XMR restent sur un compte après la fermeture des retraits, elle pourrait les convertir en stablecoins pour l'utilisateur. Cette conversion n'est pas garantie, et la plateforme souligne qu'un jeton retiré peut fortement perdre de sa valeur, voire n'en avoir plus aucune.
+
+La décision compte, car KuCoin était devenue l'un des principaux marchés du XMR. Sa paire XMR/USDT a échangé 73,8 millions de dollars jeudi, soit environ 47 % de tout le volume au comptant du XMR, selon des données de CoinMarketCap publiées par U.Today et citées par [Coindaro](L3).
+
+!figure:fact
+
+!mid_cta
+
+## Pourquoi les plateformes abandonnent les cryptos de confidentialité
+
+Le Monero masque par défaut l'expéditeur, le destinataire et le montant de chaque transaction. Ses partisans y voient une confidentialité financière élémentaire. Les régulateurs craignent qu'il complique la traque du blanchiment. KuCoin est la deuxième grande plateforme à abandonner cette crypto ce mois-ci, après le retrait des paires au comptant de XMR par MEXC le 13 novembre, a rapporté [CoinDesk](L2). Selon des données de TRM Labs citées par CoinDesk, 73 plateformes ont retiré le jeton rien qu'en 2025.
+
+L'Europe accentue la pression. À partir du 10 juillet 2027, le règlement européen de lutte contre le blanchiment interdira aux prestataires de services crypto de tenir des comptes utilisant des cryptoactifs renforçant l'anonymat, a rapporté [Cointelegraph](L4). La règle n'empêche pas les particuliers de détenir des cryptos de confidentialité dans leurs propres portefeuilles.
+
+Toutes les cryptos de confidentialité ne suivent pas la même trajectoire. Le Zcash (ZEC), qui permet de choisir entre transactions publiques et protégées, reste coté sur KuCoin. Il gagnait environ 11 % vendredi matin après avoir reculé jeudi, selon un autre [point de marché de CoinDesk](L5). Le responsable de la recherche de Grayscale, Zach Pandl, a déclaré à Cointelegraph que l'engagement de la société envers Zcash se poursuivra « pendant de nombreuses années ».
+
+## Ce que peuvent faire les détenteurs de Monero
+
+Si vous détenez du XMR sur KuCoin, les dates clés sont simples. Vous pouvez vendre avant la fin des échanges le 30 novembre à 08:00 UTC (3 h du matin, heure de la côte Est des États-Unis) ou retirer vos jetons vers un portefeuille que vous contrôlez avant le 31 décembre. Retirer vers votre propre portefeuille signifie que vous gardez vous-même les clés : notez la phrase de récupération et conservez-la hors ligne. KuCoin indique que les retraits pourraient fermer plus tôt si le réseau Monero lui-même rencontre des problèmes.
+
+Moins de plateformes, c'est aussi des marchés moins liquides, ce qui peut amplifier les variations de prix. Les développeurs de Monero préparent une mise à jour appelée FCMP++, conçue pour rendre les transactions encore plus difficiles à tracer. Elle passe des audits de sécurité après le lancement d'un réseau de test public en octobre, selon CoinDesk.
+
+Pour les débutants, la leçon générale est qu'une crypto peut perdre rapidement l'accès aux grandes plateformes. Beaucoup commencent avec des actifs largement cotés comme le bitcoin, achetés sur une plateforme américaine régulée comme [Coinbase](REF). Les cryptos sont volatiles : n'investissez que ce que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil financier.
+
+## À surveiller
+
+- Le volume d'échanges et le prix du XMR après la fermeture des paires de KuCoin le 30 novembre.
+- Si d'autres grandes plateformes suivent KuCoin et MEXC avant l'entrée en vigueur de la règle européenne en juillet 2027.
+- L'avancement de la mise à jour FCMP++ de Monero.
+
+!soft: Vous découvrez les portefeuilles ? Lisez [portefeuilles custodial et en auto-garde expliqués](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

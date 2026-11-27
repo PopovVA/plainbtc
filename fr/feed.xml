@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/fr/</link>
     <description>L’actualité du bitcoin et des cryptos en langage clair, pour les débutants</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 26 Nov 2026 19:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 14:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/fr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Le Monero chute d'environ 11 % après l'annonce du retrait du XMR par KuCoin le 30 novembre</title>
+      <link>https://plainbtc.com/fr/articles/monero-falls-11-percent-kucoin-delists-xmr-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/monero-falls-11-percent-kucoin-delists-xmr-nov-2026</guid>
+      <pubDate>Fri, 27 Nov 2026 14:30:00 GMT</pubDate>
+      <category>Marchés</category>
+      <description>Le Monero a chuté de plus de 11 % jeudi après l'annonce par KuCoin du retrait du XMR le 30 novembre, quelques semaines après MEXC. Les utilisateurs de KuCoin ont jusqu'au 31 décembre pour retirer leurs fonds. Les règles européennes qui entrent en vigueur en juillet 2027 éloignent les plateformes régulées des cryptos de confidentialité.</description>
+    </item>
+    <item>
+      <title>Binance affirme que les retraits sont entièrement rétablis, quatre semaines après son piratage de 6,3 milliards de dollars</title>
+      <link>https://plainbtc.com/fr/articles/binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/fr/articles/binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026</guid>
+      <pubDate>Fri, 27 Nov 2026 14:30:00 GMT</pubDate>
+      <category>Entreprises</category>
+      <description>Binance affirme que la suspension des retraits liée au piratage du 29 octobre est entièrement levée, ce qui clôt une réouverture progressive de quatre semaines. Quelques réseaux restent en pause pour une maintenance que la plateforme dit sans rapport avec l'attaque. Elle met aussi en garde contre les escrocs qui proposent d'« accélérer les retraits ».</description>
+    </item>
     <item>
       <title>Les fondateurs de NovaTech condamnés à payer 1,37 milliard de dollars pour une chaîne de Ponzi crypto visant des familles haïtiennes</title>
       <link>https://plainbtc.com/fr/articles/novatech-founders-ordered-to-pay-1-37-billion-new-york-crypto-ponzi-nov-2026</link>

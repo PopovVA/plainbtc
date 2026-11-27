@@ -1,0 +1,57 @@
+title: Binance diz que os saques foram totalmente restabelecidos, quatro semanas após o hack de US$ 6,3 bilhões
+page_title: Binance encerra de vez a suspensão de saques após o hack de US$ 6,3 bilhões
+description: A Binance disse em 26 de novembro de 2026 que concluiu o trabalho de recuperação dos saques e que a suspensão causada pelo hack de outubro foi totalmente encerrada. Algumas redes seguem pausadas para manutenção de rotina.
+og_description: Quatro semanas depois de um hack recorde de US$ 6,3 bilhões, a Binance diz que os saques estão abertos em quase todas as redes. Veja o que mudou e os golpes que merecem atenção.
+label: Negócios
+summary: A Binance diz que a suspensão de saques causada pelo hack de 29 de outubro foi totalmente encerrada, concluindo uma reabertura gradual de quatro semanas. Algumas redes continuam pausadas por uma manutenção que, segundo a corretora, não tem relação com o ataque. Ela também alertou para golpistas que oferecem "acelerar os saques".
+===
+
+A Binance, maior corretora de cripto do mundo, diz que os clientes podem voltar a sacar moedas em quase todas as redes que ela suporta, quatro semanas depois de um hack recorde que a obrigou a congelá-las. "Nosso trabalho de recuperação dos saques foi concluído e a suspensão dos saques causada pelo incidente de segurança de outubro foi totalmente encerrada", disse a empresa em uma [atualização de serviço](L1) na quinta-feira, 26 de novembro.
+
+Um saque é a forma de tirar cripto de uma corretora, seja para uma carteira que você controla, seja para outra plataforma. Para alguns usuários da Binance, certas redes estavam indisponíveis desde o fim de outubro.
+
+!takeaways
+- A Binance diz que concluiu o trabalho de recuperação dos saques e que a suspensão ligada ao hack de 29 de outubro foi totalmente encerrada.
+- Algumas redes seguem pausadas para manutenção ou atualizações programadas. A Binance diz que isso não tem relação com o hack, afeta "uma porcentagem muito pequena" do tráfego normal, e não informou quais são as redes.
+- A corretora diz que todos os ativos dos usuários continuam totalmente lastreados e indica sua página de prova de reservas.
+- A Binance alertou que nunca vai contatar usuários para "acelerar saques", oferecer "processamento prioritário" ou mover ativos para um "cofre da Binance".
+
+!figure:timeline
+
+## Quatro semanas do hack à reabertura total
+
+O problema começou em 29 de outubro, quando a Binance disse que um hack afetou cerca de US$ 6,3 bilhões em ativos, o maior roubo de cripto já registrado, informou o [CoinDesk](L2). Os saques foram suspensos, e a corretora começou a reativá-los por etapas em 1º de novembro, a partir do bitcoin e de uma lista curta de outras moedas e redes. Quando os saques reabriram, os clientes retiraram em termos líquidos US$ 4,7 bilhões da plataforma, disse a Binance em 2 de novembro, segundo a [Reuters](L3).
+
+Em 14 de novembro, a Binance disse ter reaberto 87 redes em uma semana e que pretendia restabelecer todas as redes e ativos restantes até o fim da semana seguinte, observou o [Exchange.news](L4). A atualização de quinta-feira encerra esse processo. A Binance repetiu a notícia no X, dizendo que os saques "estão abertos em quase todas as redes".
+
+A primeira análise da Binance indicou que o notebook de um engenheiro havia sido comprometido. Em um relatório de 3 de novembro, a empresa disse que os invasores usaram entrevistas de emprego falsas, software malicioso e ferramentas internas de IA comprometidas para chegar aos sistemas que controlam suas carteiras, segundo o CoinDesk. A empresa de análise de blockchain TRM Labs ligou o ataque a um grupo hacker norte-coreano conhecido como TraderTraitor, e o FBI também apontou a Coreia do Norte.
+
+!figure:fact
+
+!mid_cta
+
+## Quem cobriu as perdas
+
+A Binance prometeu desde o início cobrir sozinha as perdas dos clientes. Até 31 de outubro, disse ter reposto 90% das criptomoedas roubadas, usando dinheiro da empresa e seu fundo SAFU, uma reserva de emergência para casos como este. Até 3 de novembro, o número chegou a 98% dos US$ 6,34 bilhões afetados, informou o CoinDesk.
+
+Recuperar as moedas roubadas é outra tarefa. Cerca de US$ 2,85 bilhões dos fundos roubados foram congelados remotamente pelas empresas que emitem esses tokens, disse a Reuters, enquanto pesquisadores afirmam que o restante está sendo movimentado por serviços de cripto pouco conhecidos, numa operação de lavagem que pode levar meses ou até anos.
+
+## O que isso significa para os usuários
+
+A Binance disse que alguns atrasos podem começar nas próprias blockchains e indicou aos usuários sua página de status das redes. Se um saque não for concluído, verificar essa página primeiro é o passo mais simples.
+
+O maior risco agora é a fraude. Grandes incidentes de segurança atraem golpistas que se passam por suporte e prometem "liberar" fundos mediante uma taxa. A Binance disse que nunca vai pedir senha, código de dois fatores ou frase-semente (a lista de palavras que desbloqueia uma carteira de cripto), e pediu que os usuários confiem apenas nos canais oficiais.
+
+O episódio também lembra o dilema entre deixar moedas numa corretora e guardá-las você mesmo. Uma corretora cuida da segurança por você, mas, quando pausa os saques, você precisa esperar. A autocustódia elimina essa espera, mas deixa você responsável pelas próprias chaves. Muitos iniciantes começam com um valor pequeno em uma corretora regulamentada dos EUA como a [Coinbase](REF) e aprendem como os saques funcionam antes de levar moedas para a própria carteira. Cripto é volátil, então invista apenas o que você pode perder. Isto não é recomendação financeira.
+
+## O que acompanhar
+
+- Quando a Binance vai reabrir as redes ainda pausadas para manutenção.
+- Novos congelamentos ou apreensões dos fundos roubados.
+- Um eventual relatório final da Binance sobre como os invasores entraram.
+
+!soft: Leia nossa cobertura anterior: [Binance reabre saques em 87 redes](/articles/binance-reopens-withdrawals-87-networks-nov-2026).
+
+!end_cta
+
+!disclosure

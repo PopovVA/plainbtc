@@ -1,0 +1,57 @@
+title: Binance, 6,3 milyar dolarlık hack'ten dört hafta sonra çekimlerin tamamen geri geldiğini açıkladı
+page_title: Binance, 6,3 milyar dolarlık hack sonrası çekim askıya almasını tamamen kaldırdı
+description: Binance, 26 Kasım 2026'da çekimleri geri getirme çalışmasının tamamlandığını ve ekim ayındaki hack nedeniyle uygulanan askıya almanın tamamen kaldırıldığını açıkladı. Birkaç ağ rutin bakım nedeniyle hâlâ duraklatılmış durumda.
+og_description: 6,3 milyar dolarlık rekor hack'ten dört hafta sonra Binance, çekimlerin neredeyse tüm ağlarda açık olduğunu söylüyor. Neler değişti ve hangi dolandırıcılıklara dikkat etmeli?
+label: İş dünyası
+summary: Binance, 29 Ekim hack'i nedeniyle uygulanan çekim askıya almasının tamamen kaldırıldığını söylüyor; böylece dört haftalık aşamalı yeniden açılış tamamlandı. Birkaç ağ, borsanın saldırıyla ilgisi olmadığını söylediği bakım çalışmaları nedeniyle duraklatılmış durumda. Binance ayrıca "çekimleri hızlandırmayı" teklif eden dolandırıcılara karşı uyardı.
+===
+
+Dünyanın en büyük kripto borsası Binance, rekor bir hack'in çekimleri dondurmasından dört hafta sonra müşterilerin desteklenen ağların neredeyse tamamında yeniden coin çekebildiğini söylüyor. Şirket 26 Kasım perşembe günü yayımladığı [hizmet güncellemesinde](L1) "Çekimleri geri getirme çalışmamız tamamlandı ve ekim ayındaki güvenlik olayı nedeniyle uygulanan çekim askıya alması tamamen kaldırıldı" dedi.
+
+Çekim, kriptoyu bir borsadan kontrol ettiğiniz bir cüzdana ya da başka bir platforma taşımanın yoludur. Bazı Binance kullanıcıları için belirli ağlar ekim sonundan beri kullanılamıyordu.
+
+!takeaways
+- Binance, çekimleri geri getirme çalışmasının tamamlandığını ve 29 Ekim hack'ine bağlı askıya almanın tamamen kaldırıldığını söylüyor.
+- Birkaç ağ, bakım veya planlı güncellemeler nedeniyle hâlâ duraklatılmış durumda. Binance'e göre bunun hack'le ilgisi yok ve normal trafiğin "çok küçük bir yüzdesini" etkiliyor; borsa bu ağların adını vermedi.
+- Borsa, tüm kullanıcı varlıklarının hâlâ tamamen karşılandığını söylüyor ve kullanıcıları rezerv kanıtı sayfasına yönlendiriyor.
+- Binance, kullanıcılarla asla "çekimleri hızlandırmak", "öncelikli işlem" sunmak ya da varlıkları bir "Binance kasasına" taşımak için iletişime geçmeyeceği uyarısında bulundu.
+
+!figure:timeline
+
+## Hack'ten tam açılışa dört hafta
+
+Sorun 29 Ekim'de başladı. [CoinDesk](L2)'in aktardığına göre Binance o gün bir hack'in yaklaşık 6,3 milyar dolarlık varlığı etkilediğini açıkladı; bu, kayıtlara geçen en büyük kripto hırsızlığı. Çekimler durduruldu ve borsa 1 Kasım'dan itibaren bitcoin ve kısa bir coin ve ağ listesiyle başlayarak çekimleri aşamalı olarak yeniden açtı. [Reuters](L3)'ın haberine göre Binance 2 Kasım'da, çekimler yeniden açıldığında müşterilerin platformdan net 4,7 milyar dolar çektiğini söyledi.
+
+[Exchange.news](L4)'in belirttiğine göre Binance 14 Kasım'da bir haftada 87 ağı yeniden açtığını ve kalan tüm ağları ve varlıkları sonraki haftanın sonuna kadar geri getirmeyi hedeflediğini söylemişti. Perşembe günkü güncelleme bu süreci tamamlıyor. Binance haberi X'te de paylaşarak çekimlerin "neredeyse tüm ağlarda açık" olduğunu yazdı.
+
+Binance'in ilk incelemesi, bir mühendisin dizüstü bilgisayarının ele geçirildiğine işaret ediyordu. CoinDesk'e göre borsa 3 Kasım tarihli raporunda saldırganların sahte iş görüşmeleri, kötü amaçlı yazılımlar ve ele geçirilmiş dahili yapay zeka araçlarıyla cüzdanlarını kontrol eden sistemlere ulaştığını açıkladı. Blokzincir analiz şirketi TRM Labs saldırıyı TraderTraitor olarak bilinen Kuzey Koreli bir hacker grubuna bağladı; FBI da Kuzey Kore'yi işaret etti.
+
+!figure:fact
+
+!mid_cta
+
+## Kayıpları kim karşıladı?
+
+Binance, müşterilerin kayıplarını kendisinin karşılayacağına en baştan söz verdi. Borsa 31 Ekim itibarıyla çalınan kriptonun %90'ını şirket parası ve bu tür durumlar için tutulan acil durum rezervi SAFU fonuyla yerine koyduğunu söyledi. CoinDesk'e göre 3 Kasım'da bu oran etkilenen 6,34 milyar doların %98'ine ulaştı.
+
+Çalınan coinleri geri almak ayrı bir iş. Reuters'a göre çalınan fonların yaklaşık 2,85 milyar doları, bu token'ları çıkaran şirketler tarafından uzaktan donduruldu. Araştırmacılar ise geri kalanın az bilinen kripto hizmetleri üzerinden aktarıldığını ve bu aklama sürecinin aylar, hatta yıllar sürebileceğini söylüyor.
+
+## Kullanıcılar için ne anlama geliyor?
+
+Binance, bazı gecikmelerin blokzincirlerin kendisinden kaynaklanabileceğini belirterek kullanıcıları ağ durumu sayfasına yönlendirdi. Bir çekim gerçekleşmezse önce bu sayfaya bakmak en basit adım.
+
+Şu anda asıl risk dolandırıcılık. Büyük güvenlik olayları, destek ekibi kılığına girip ücret karşılığında fonları "serbest bırakmayı" vaat eden dolandırıcıları çeker. Binance asla şifre, iki faktörlü doğrulama kodu ya da kurtarma ifadesi (bir kripto cüzdanının kilidini açan kelime listesi) istemeyeceğini söyledi ve kullanıcılardan yalnızca resmi kanallarına güvenmelerini istedi.
+
+Bu olay, coinleri borsada tutmakla kendiniz saklamak arasındaki dengeyi de hatırlatıyor. Borsa güvenliği sizin yerinize üstlenir, ancak çekimleri durdurduğunda beklemeniz gerekir. Kendi kendine saklama bu beklemeyi ortadan kaldırır ama anahtarlarınızın sorumluluğunu size yükler. Pek çok yeni başlayan, [Coinbase](REF) gibi düzenlemeye tabi bir ABD borsasında küçük bir tutarla başlıyor ve coinleri kendi cüzdanına taşımadan önce çekimlerin nasıl işlediğini öğreniyor. Kripto paralar oynaktır, bu yüzden yalnızca kaybetmeyi göze alabileceğiniz kadar yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neler izlenmeli?
+
+- Binance'in bakım nedeniyle hâlâ duraklatılmış ağları ne zaman yeniden açacağı.
+- Çalınan fonlarla ilgili yeni dondurma veya el koyma işlemleri.
+- Binance'in saldırganların nasıl içeri girdiğine dair olası nihai raporu.
+
+!soft: Önceki haberimizi okuyun: [Binance 87 ağda çekimleri yeniden açtı](/articles/binance-reopens-withdrawals-87-networks-nov-2026).
+
+!end_cta
+
+!disclosure

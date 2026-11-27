@@ -5,8 +5,24 @@
     <link>https://plainbtc.com/tr/</link>
     <description>Yeni başlayanlar için sade bir dille Bitcoin ve kripto haberleri</description>
     <language>tr</language>
-    <lastBuildDate>Thu, 26 Nov 2026 19:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 14:30:00 GMT</lastBuildDate>
     <atom:link href="https://plainbtc.com/tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>KuCoin'in XMR'yi 30 Kasım'da listeden çıkaracağını açıklamasının ardından Monero yaklaşık %11 düştü</title>
+      <link>https://plainbtc.com/tr/articles/monero-falls-11-percent-kucoin-delists-xmr-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/monero-falls-11-percent-kucoin-delists-xmr-nov-2026</guid>
+      <pubDate>Fri, 27 Nov 2026 14:30:00 GMT</pubDate>
+      <category>Piyasalar</category>
+      <description>KuCoin'in XMR'yi 30 Kasım'da listeden çıkaracağını açıklamasının ardından Monero perşembe günü %11'den fazla düştü. MEXC de birkaç hafta önce aynı adımı atmıştı. KuCoin kullanıcılarının çekim yapmak için 31 Aralık'a kadar süresi var. Temmuz 2027'de yürürlüğe girecek AB kuralları, düzenlemeye tabi platformları gizlilik coinlerinden uzaklaştırıyor.</description>
+    </item>
+    <item>
+      <title>Binance, 6,3 milyar dolarlık hack'ten dört hafta sonra çekimlerin tamamen geri geldiğini açıkladı</title>
+      <link>https://plainbtc.com/tr/articles/binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026</link>
+      <guid isPermaLink="true">https://plainbtc.com/tr/articles/binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026</guid>
+      <pubDate>Fri, 27 Nov 2026 14:30:00 GMT</pubDate>
+      <category>İş dünyası</category>
+      <description>Binance, 29 Ekim hack'i nedeniyle uygulanan çekim askıya almasının tamamen kaldırıldığını söylüyor; böylece dört haftalık aşamalı yeniden açılış tamamlandı. Birkaç ağ, borsanın saldırıyla ilgisi olmadığını söylediği bakım çalışmaları nedeniyle duraklatılmış durumda. Binance ayrıca "çekimleri hızlandırmayı" teklif eden dolandırıcılara karşı uyardı.</description>
+    </item>
     <item>
       <title>NovaTech kurucularına Haitili aileleri hedef alan kripto Ponzi düzeni nedeniyle 1,37 milyar dolar ödeme emri</title>
       <link>https://plainbtc.com/tr/articles/novatech-founders-ordered-to-pay-1-37-billion-new-york-crypto-ponzi-nov-2026</link>

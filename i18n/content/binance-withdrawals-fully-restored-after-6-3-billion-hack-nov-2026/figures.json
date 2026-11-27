@@ -1,0 +1,64 @@
+[
+  {
+    "id": "timeline",
+    "file": "timeline-binance-hack-to-full-withdrawals.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline: Oct. 29, a hack affects about $6.3 billion in Binance assets; Nov. 1, a staged withdrawal restart begins with bitcoin and a few networks; Nov. 14, Binance says 87 networks reopened in one week; Nov. 26, the withdrawal suspension is fully lifted",
+      "es": "Cronología: 29 de octubre, un hackeo afecta a unos 6.300 millones de dólares en activos de Binance; 1 de noviembre, empieza la reapertura escalonada de retiros con bitcoin y algunas redes; 14 de noviembre, Binance dice que reabrió 87 redes en una semana; 26 de noviembre, la suspensión de retiros se levanta por completo",
+      "pt": "Linha do tempo: 29 de outubro, um ataque hacker afeta cerca de US$ 6,3 bilhões em ativos da Binance; 1º de novembro, começa a reabertura gradual dos saques com bitcoin e algumas redes; 14 de novembro, a Binance diz ter reaberto 87 redes em uma semana; 26 de novembro, a suspensão dos saques é totalmente encerrada",
+      "fr": "Chronologie : 29 octobre, un piratage touche environ 6,3 milliards de dollars d'actifs de Binance ; 1er novembre, reprise progressive des retraits avec le bitcoin et quelques réseaux ; 14 novembre, Binance indique avoir rouvert 87 réseaux en une semaine ; 26 novembre, la suspension des retraits est entièrement levée",
+      "de": "Zeitleiste: 29. Oktober, ein Hack betrifft Binance-Vermögenswerte von rund 6,3 Milliarden Dollar; 1. November, schrittweiser Neustart der Auszahlungen beginnt mit Bitcoin und einigen Netzwerken; 14. November, Binance meldet 87 wieder geöffnete Netzwerke in einer Woche; 26. November, die Auszahlungssperre ist vollständig aufgehoben",
+      "ru": "Хронология: 29 октября взлом затрагивает активы Binance примерно на $6,3 млрд; 1 ноября начинается поэтапное восстановление вывода с биткоина и нескольких сетей; 14 ноября Binance сообщает, что за неделю открыла 87 сетей; 26 ноября приостановка вывода полностью снята",
+      "tr": "Zaman çizelgesi: 29 Ekim, bir saldırı Binance'te yaklaşık 6,3 milyar dolarlık varlığı etkiler; 1 Kasım, çekimlerin aşamalı yeniden açılışı bitcoin ve birkaç ağla başlar; 14 Kasım, Binance bir haftada 87 ağı yeniden açtığını söyler; 26 Kasım, çekim askıya alması tamamen kaldırılır",
+      "id": "Linimasa: 29 Oktober, peretasan memengaruhi sekitar US$6,3 miliar aset Binance; 1 November, pembukaan kembali penarikan secara bertahap dimulai dengan bitcoin dan beberapa jaringan; 14 November, Binance menyatakan 87 jaringan dibuka kembali dalam sepekan; 26 November, penangguhan penarikan dicabut sepenuhnya",
+      "ja": "経緯：10月29日、ハッキングでBinanceの約63億ドル相当の資産が影響を受ける。11月1日、ビットコインと一部ネットワークから出金の段階的再開が始まる。11月14日、1週間で87ネットワークを再開したと発表。11月26日、出金停止が完全に解除",
+      "ko": "경과: 10월 29일 해킹으로 바이낸스 자산 약 63억 달러가 영향을 받음. 11월 1일 비트코인과 일부 네트워크부터 출금 단계적 재개 시작. 11월 14일 일주일 동안 87개 네트워크를 재개했다고 발표. 11월 26일 출금 중단 완전 해제"
+    },
+    "caption": {
+      "en": "Source: Binance; CoinDesk; Exchange.news, Nov. 26 to 27, 2026",
+      "es": "Fuente: Binance; CoinDesk; Exchange.news, Nov. 26 to 27, 2026",
+      "pt": "Fonte: Binance; CoinDesk; Exchange.news, Nov. 26 to 27, 2026",
+      "fr": "Source : Binance; CoinDesk; Exchange.news, Nov. 26 to 27, 2026",
+      "de": "Quelle: Binance; CoinDesk; Exchange.news, Nov. 26 to 27, 2026",
+      "ru": "Источник: Binance; CoinDesk; Exchange.news, Nov. 26 to 27, 2026",
+      "tr": "Kaynak: Binance; CoinDesk; Exchange.news, Nov. 26 to 27, 2026",
+      "id": "Sumber: Binance; CoinDesk; Exchange.news, Nov. 26 to 27, 2026",
+      "ja": "出典: Binance; CoinDesk; Exchange.news, Nov. 26 to 27, 2026",
+      "ko": "출처: Binance; CoinDesk; Exchange.news, Nov. 26 to 27, 2026"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-binance-suspension-fully-lifted.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card quoting Binance: our withdrawal recovery work is completed and the withdrawal suspension from the October security incident has been fully lifted",
+      "es": "Tarjeta con la cita de Binance: nuestro trabajo de recuperación de retiros ha terminado y la suspensión de retiros por el incidente de seguridad de octubre se ha levantado por completo",
+      "pt": "Cartão com a citação da Binance: nosso trabalho de recuperação dos saques foi concluído e a suspensão dos saques causada pelo incidente de segurança de outubro foi totalmente encerrada",
+      "fr": "Encadré citant Binance : notre travail de rétablissement des retraits est terminé et la suspension des retraits liée à l'incident de sécurité d'octobre est entièrement levée",
+      "de": "Faktenkarte mit einem Binance-Zitat: Unsere Arbeit zur Wiederherstellung der Auszahlungen ist abgeschlossen, und die Auszahlungssperre wegen des Sicherheitsvorfalls im Oktober ist vollständig aufgehoben",
+      "ru": "Карточка с цитатой Binance: работа по восстановлению вывода завершена, приостановка вывода из-за октябрьского инцидента безопасности полностью снята",
+      "tr": "Binance'ten alıntı içeren bilgi kartı: çekimleri geri getirme çalışmamız tamamlandı ve ekim ayındaki güvenlik olayı nedeniyle uygulanan çekim askıya alması tamamen kaldırıldı",
+      "id": "Kartu fakta berisi kutipan Binance: pekerjaan pemulihan penarikan kami telah selesai dan penangguhan penarikan akibat insiden keamanan Oktober telah dicabut sepenuhnya",
+      "ja": "Binanceの発表を引用したファクトカード：出金の復旧作業は完了し、10月のセキュリティインシデントによる出金停止は完全に解除された",
+      "ko": "바이낸스 발표를 인용한 팩트 카드: 출금 복구 작업이 완료됐으며 10월 보안 사고로 인한 출금 중단이 완전히 해제됨"
+    },
+    "caption": {
+      "en": "Source: Binance announcement, Nov. 26, 2026",
+      "es": "Fuente: Binance announcement, Nov. 26, 2026",
+      "pt": "Fonte: Binance announcement, Nov. 26, 2026",
+      "fr": "Source : Binance announcement, Nov. 26, 2026",
+      "de": "Quelle: Binance announcement, Nov. 26, 2026",
+      "ru": "Источник: Binance announcement, Nov. 26, 2026",
+      "tr": "Kaynak: Binance announcement, Nov. 26, 2026",
+      "id": "Sumber: Binance announcement, Nov. 26, 2026",
+      "ja": "出典: Binance announcement, Nov. 26, 2026",
+      "ko": "출처: Binance announcement, Nov. 26, 2026"
+    }
+  }
+]

@@ -1,0 +1,57 @@
+title: Binance: Auszahlungen vier Wochen nach dem 6,3-Milliarden-Dollar-Hack wieder vollständig möglich
+page_title: Binance hebt Auszahlungssperre nach dem 6,3-Milliarden-Hack vollständig auf
+description: Binance erklärte am 26. November 2026, die Wiederherstellung der Auszahlungen sei abgeschlossen und die Sperre nach dem Hack im Oktober vollständig aufgehoben. Einige Netzwerke pausieren noch wegen routinemäßiger Wartung.
+og_description: Vier Wochen nach einem Rekord-Hack über 6,3 Milliarden Dollar sind Auszahlungen bei Binance laut Börse in fast allen Netzwerken wieder offen. Was sich geändert hat und vor welchen Betrugsmaschen man sich hüten sollte.
+label: Wirtschaft
+summary: Binance zufolge ist die Auszahlungssperre nach dem Hack vom 29. Oktober vollständig aufgehoben, damit endet ein vierwöchiger schrittweiser Neustart. Einige Netzwerke pausieren noch wegen Wartungsarbeiten, die laut Börse nichts mit dem Angriff zu tun haben. Zudem warnte Binance vor Betrügern, die anbieten, „Auszahlungen zu beschleunigen“.
+===
+
+Binance, die größte Kryptobörse der Welt, sagt, dass Kunden ihre Coins wieder in fast allen unterstützten Netzwerken auszahlen können, vier Wochen nachdem ein Rekord-Hack die Börse zum Einfrieren gezwungen hatte. „Unsere Arbeit zur Wiederherstellung der Auszahlungen ist abgeschlossen, und die Auszahlungssperre wegen des Sicherheitsvorfalls im Oktober ist vollständig aufgehoben“, teilte das Unternehmen am Donnerstag, dem 26. November, in einem [Service-Update](L1) mit.
+
+Mit einer Auszahlung verschiebt man Krypto von einer Börse, entweder in eine selbst verwaltete Wallet oder auf eine andere Plattform. Für manche Binance-Nutzer waren bestimmte Netzwerke seit Ende Oktober nicht verfügbar.
+
+!takeaways
+- Binance zufolge ist die Wiederherstellung der Auszahlungen abgeschlossen und die Sperre nach dem Hack vom 29. Oktober vollständig aufgehoben.
+- Einige wenige Netzwerke pausieren noch wegen Wartung oder geplanter Upgrades. Laut Binance hat das nichts mit dem Hack zu tun und betrifft „einen sehr kleinen Prozentsatz“ des normalen Verkehrs. Welche Netzwerke betroffen sind, nannte die Börse nicht.
+- Die Börse erklärt, alle Nutzervermögen seien weiterhin vollständig gedeckt, und verweist auf ihre Proof-of-Reserves-Seite.
+- Binance warnte, sie werde Nutzer niemals kontaktieren, um „Auszahlungen zu beschleunigen“, eine „bevorzugte Bearbeitung“ anzubieten oder Vermögen in einen „Binance-Tresor“ zu verschieben.
+
+!figure:timeline
+
+## Vier Wochen vom Hack bis zum vollständigen Neustart
+
+Die Probleme begannen am 29. Oktober, als Binance mitteilte, ein Hack betreffe Vermögenswerte von rund 6,3 Milliarden Dollar, der größte bisher erfasste Kryptodiebstahl, berichtete [CoinDesk](L2). Auszahlungen wurden gestoppt, und ab dem 1. November nahm die Börse sie schrittweise wieder auf, beginnend mit Bitcoin und einer kurzen Liste weiterer Coins und Netzwerke. Als die Auszahlungen wieder möglich waren, zogen Kunden netto 4,7 Milliarden Dollar von der Plattform ab, wie Binance am 2. November laut [Reuters](L3) mitteilte.
+
+Am 14. November erklärte Binance, binnen einer Woche 87 Netzwerke wieder geöffnet zu haben, und wollte alle übrigen Netzwerke und Vermögenswerte bis Ende der Folgewoche wiederherstellen, wie [Exchange.news](L4) festhielt. Das Update vom Donnerstag schließt diesen Prozess ab. Auf X wiederholte Binance die Nachricht und schrieb, Auszahlungen seien „in fast allen Netzwerken offen“.
+
+Binances erste Prüfung deutete darauf hin, dass der Laptop eines Ingenieurs kompromittiert worden war. In einem Bericht vom 3. November erklärte die Börse laut CoinDesk, die Angreifer hätten gefälschte Bewerbungsgespräche, Schadsoftware und kompromittierte interne KI-Werkzeuge genutzt, um an die Systeme zu gelangen, die ihre Wallets steuern. Das Blockchain-Analysehaus TRM Labs ordnete den Angriff der nordkoreanischen Hackergruppe TraderTraitor zu, auch das FBI verweist auf Nordkorea.
+
+!figure:fact
+
+!mid_cta
+
+## Wer die Verluste übernommen hat
+
+Binance versprach früh, die Verluste der Kunden selbst zu tragen. Bis zum 31. Oktober hatte die Börse nach eigenen Angaben 90 % der gestohlenen Kryptowerte ersetzt, mit Firmengeld und ihrem SAFU-Fonds, einer Notreserve für solche Fälle. Bis zum 3. November lag der Anteil bei 98 % der betroffenen 6,34 Milliarden Dollar, berichtete CoinDesk.
+
+Die gestohlenen Coins zurückzuholen, ist eine andere Aufgabe. Rund 2,85 Milliarden Dollar der gestohlenen Mittel wurden laut Reuters von den Herausgebern dieser Token aus der Ferne eingefroren. Den Rest schleusen die Täter nach Angaben von Forschern über wenig bekannte Kryptodienste, eine Geldwäsche, die Monate oder sogar Jahre dauern könnte.
+
+## Was das für Nutzer bedeutet
+
+Binance zufolge können manche Verzögerungen von den Blockchains selbst ausgehen, die Börse verweist auf ihre Netzwerk-Statusseite. Klappt eine Auszahlung nicht, ist ein Blick auf diese Seite der einfachste erste Schritt.
+
+Das größere Risiko ist jetzt Betrug. Große Sicherheitsvorfälle locken Betrüger an, die sich als Support ausgeben und versprechen, Guthaben gegen eine Gebühr „freizugeben“. Binance betonte, niemals nach Passwort, Zwei-Faktor-Code oder Seed-Phrase (der Wortliste, mit der sich eine Krypto-Wallet entsperren lässt) zu fragen, und rief dazu auf, nur offiziellen Kanälen zu vertrauen.
+
+Die Episode erinnert auch an den Zielkonflikt zwischen Coins auf einer Börse und Coins in eigener Verwahrung. Eine Börse kümmert sich um die Sicherheit, doch wenn sie Auszahlungen pausiert, muss man warten. Selbstverwahrung erspart dieses Warten, macht einen aber für die eigenen Schlüssel verantwortlich. Viele Einsteiger beginnen mit einem kleinen Betrag bei einer regulierten US-Börse wie [Coinbase](REF) und lernen, wie Auszahlungen funktionieren, bevor sie Coins in die eigene Wallet übertragen. Kryptowerte sind volatil, investieren Sie also nur, was Sie sich leisten können zu verlieren. Dies ist keine Finanzberatung.
+
+## Worauf man jetzt achten sollte
+
+- Wann Binance die noch wegen Wartung pausierten Netzwerke wieder öffnet.
+- Weitere Sperrungen oder Beschlagnahmen der gestohlenen Mittel.
+- Ein möglicher Abschlussbericht von Binance dazu, wie die Angreifer eingedrungen sind.
+
+!soft: Lesen Sie unseren früheren Bericht: [Binance öffnet Auszahlungen in 87 Netzwerken wieder](/articles/binance-reopens-withdrawals-87-networks-nov-2026).
+
+!end_cta
+
+!disclosure

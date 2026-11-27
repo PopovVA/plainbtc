@@ -1,0 +1,59 @@
+title: KuCoin'in XMR'yi 30 Kasım'da listeden çıkaracağını açıklamasının ardından Monero yaklaşık %11 düştü
+page_title: KuCoin XMR'yi 30 Kasım'da listeden çıkarıyor, Monero %11 değer kaybetti
+description: KuCoin'in XMR işlemlerini 30 Kasım 2026'da sonlandıracağını duyurmasının ardından Monero (XMR) haziran ayından bu yana en büyük günlük düşüşünü yaşadı. Neler değişiyor, çekim için son tarih ne ve borsalar neden gizlilik coinlerini bırakmaya devam ediyor?
+og_description: KuCoin, XMR işlemlerini 30 Kasım saat 08:00 UTC'de durduracak ve çekimleri 31 Aralık'ta kapatacak. Monero perşembe günü %11'den fazla düşerek 4 Haziran'dan bu yana en kötü gününü yaşadı.
+label: Piyasalar
+summary: KuCoin'in XMR'yi 30 Kasım'da listeden çıkaracağını açıklamasının ardından Monero perşembe günü %11'den fazla düştü. MEXC de birkaç hafta önce aynı adımı atmıştı. KuCoin kullanıcılarının çekim yapmak için 31 Aralık'a kadar süresi var. Temmuz 2027'de yürürlüğe girecek AB kuralları, düzenlemeye tabi platformları gizlilik coinlerinden uzaklaştırıyor.
+===
+
+En bilinen gizlilik coini Monero (XMR), kripto borsası KuCoin'in token'ı gelecek hafta işlemden kaldıracağını açıklamasının ardından 26 Kasım perşembe günü beş aydan uzun süredir yaşadığı en kötü günü geçirdi. [CoinDesk](L2)'e göre XMR gün içinde %11'den fazla değer kaybetti; bu, 4 Haziran'dan bu yana en büyük günlük düşüş oldu.
+
+Kraken'de XMR perşembe gününe (UTC) yaklaşık 517 $'dan başladı, 429 $ civarına kadar geriledi ve 458 $ dolayında kapandı. Cuma sabahı (ABD saatiyle) 440 $ civarında işlem görüyordu; bu, 4 Kasım'daki yaklaşık 641 $'lık kapanışının kabaca %31 altında.
+
+!takeaways
+- KuCoin, XMR'yi 30 Kasım pazartesi saat 08:00 UTC'de listeden çıkaracak ve XMR/USDT, XMR/USDC, XMR/ETH ve XMR/BTC paritelerini kapatacak.
+- KuCoin'de XMR yatırma işlemleri zaten kapalı ve yeniden açılmayacak. Çekimler 31 Aralık saat 08:00 UTC'ye kadar açık kalacak, ancak KuCoin bunları daha erken kapatabileceğini söylüyor.
+- MEXC kasım başında XMR spot işlemlerini sonlandırdı. CoinDesk'e göre Binance, OKX, Bitget ve Coinbase International zaten XMR işlemi sunmuyor.
+- 10 Temmuz 2027'den itibaren AB'nin kara para aklamayla mücadele kuralları, kripto şirketlerinin "anonimliği artıran coinler" kullanan hesaplar tutmasını yasaklayacak.
+
+!figure:chart
+
+## KuCoin ne açıkladı?
+
+KuCoin [duyurusunda](L1) "platform politikaları" dışında bir gerekçe göstermedi. Borsa, spot işlemlerin yanı sıra diğer tüm XMR ürünlerini de belirli bir takvimle kapatıyor. KuCoin Earn'deki Flexible Savings 27 Kasım saat 12:00 UTC'de sona erdi ve bakiyeler kullanıcıların fon hesaplarına aktarıldı. Convert 30 Kasım saat 03:00 UTC'de duruyor, XMR kullanan alım satım botları da aynı gün 06:00 UTC'de kapatılıyor. XMR, 30 Kasım'dan itibaren VIP kredilerde teminat olarak da kabul edilmeyecek.
+
+KuCoin, çekimler kapandıktan sonra hesapta XMR kalırsa bunları kullanıcı adına stablecoin'e çevirebileceği uyarısında bulundu. Bu dönüşüm garanti değil ve borsaya göre listeden çıkarılan bir token ciddi biçimde değer kaybedebilir ya da tamamen değersiz hale gelebilir.
+
+Karar önemli, çünkü KuCoin XMR'nin en büyük işlem yerlerinden biri haline gelmişti. U.Today'in yayımladığı ve [Coindaro](L3)'nun aktardığı CoinMarketCap verilerine göre borsanın XMR/USDT paritesinde perşembe günü 73,8 milyon dolarlık işlem yapıldı; bu, tüm XMR spot hacminin yaklaşık %47'si.
+
+!figure:fact
+
+!mid_cta
+
+## Borsalar neden gizlilik coinlerini bırakıyor?
+
+Monero, her işlemin göndericisini, alıcısını ve tutarını varsayılan olarak gizler. Destekçileri bunu temel finansal mahremiyet olarak görüyor. Düzenleyiciler ise bunun kara para aklamanın izini sürmeyi zorlaştırdığından endişe ediyor. [CoinDesk](L2)'in bildirdiğine göre KuCoin, MEXC'nin XMR spot paritelerini 13 Kasım'da kaldırmasının ardından bu ay coini bırakan ikinci büyük borsa oldu. CoinDesk'in aktardığı TRM Labs verilerine göre yalnızca 2025'te 73 borsa token'ı listeden çıkardı.
+
+Avrupa baskıyı artırıyor. [Cointelegraph](L4)'ın haberine göre 10 Temmuz 2027'den itibaren AB'nin Kara Paranın Aklanmasının Önlenmesi Tüzüğü, kripto hizmet sağlayıcılarının anonimliği artıran coinler kullanan hesaplar tutmasını yasaklayacak. Kural, bireylerin gizlilik coinlerini kendi cüzdanlarında tutmasını engellemiyor.
+
+Tüm gizlilik coinleri aynı yönde ilerlemiyor. Kullanıcıların açık ve korumalı işlemler arasında seçim yapabildiği Zcash (ZEC), KuCoin'de kalmaya devam ediyor. CoinDesk'in ayrı bir [piyasa raporuna](L5) göre perşembe günkü düşüşün ardından cuma sabahı yaklaşık %11 yükseldi. Grayscale araştırma başkanı Zach Pandl, Cointelegraph'a şirketin Zcash'e bağlılığının "uzun yıllar boyunca" süreceğini söyledi.
+
+## Monero sahipleri ne yapabilir?
+
+KuCoin'de XMR tutuyorsanız önemli tarihler basit. İşlemler 30 Kasım saat 08:00 UTC'de (ABD Doğu saatiyle sabah 3) sona ermeden satabilir ya da coinleri 31 Aralık'tan önce kontrolünüzdeki bir cüzdana çekebilirsiniz. Kendi cüzdanınıza çekmek anahtarları kendinizin saklaması demek; bu yüzden kurtarma ifadesini yazın ve çevrimdışı saklayın. KuCoin, Monero ağının kendisinde sorun çıkarsa çekimlerin daha erken kapanabileceğini söylüyor.
+
+Daha az borsa, daha sığ piyasalar demek; bu da fiyatların daha sert dalgalanmasına yol açabilir. Monero geliştiricileri, işlemlerin izini sürmeyi daha da zorlaştırmak için tasarlanan FCMP++ adlı bir güncelleme üzerinde çalışıyor. CoinDesk'e göre güncelleme, ekim ayında herkese açık bir test ağının devreye alınmasının ardından güvenlik denetimlerinden geçiyor.
+
+Yeni başlayanlar için genel ders şu: Bir coin büyük borsalara erişimini hızla kaybedebilir. Pek çok kişi, bitcoin gibi yaygın olarak listelenen varlıklarla, [Coinbase](REF) gibi düzenlemeye tabi bir ABD borsasından alarak başlıyor. Kripto paralar oynaktır, bu yüzden yalnızca kaybetmeyi göze alabileceğiniz kadar yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neler izlenmeli?
+
+- KuCoin'deki pariteler 30 Kasım'da kapandıktan sonra XMR işlem hacmi ve fiyatı.
+- AB kuralı Temmuz 2027'de yürürlüğe girmeden önce başka büyük borsaların KuCoin ve MEXC'yi izleyip izlemeyeceği.
+- Monero'nun FCMP++ güncellemesindeki ilerleme.
+
+!soft: Cüzdanlarda yeni misiniz? [Saklamalı ve kendi kendine saklama cüzdanları açıklandı](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazısını okuyun.
+
+!end_cta
+
+!disclosure

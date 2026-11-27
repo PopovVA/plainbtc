@@ -6352,7 +6352,125 @@ def build_zodia_breach():
     ]
 
 
+MONERO_SLUG = "monero-falls-11-percent-kucoin-delists-xmr-nov-2026"
+BINANCE_RESTORED_SLUG = "binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026"
+
+
+def fetch_kraken_daily(start_ts: int, end_ts: int, pair="XMRUSD"):
+    url = f"https://api.kraken.com/0/public/OHLC?pair={pair}&interval=1440&since={start_ts - 86400}"
+    req = urllib.request.Request(url, headers={"User-Agent": "PlainBTC/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read().decode())
+    rows = next(v for k, v in data["result"].items() if k != "last")
+    xs, ys = [], []
+    for r in rows:
+        if start_ts <= int(r[0]) < end_ts:
+            xs.append(float(r[0]))
+            ys.append(float(r[4]))
+    return np.array(xs), np.array(ys)
+
+
+def build_monero_kucoin():
+    d = OUT / MONERO_SLUG
+    # Kraken XMR/USD daily closes, Nov 1 to Nov 26, 2026 (UTC days; Nov 26 close $457.57, Nov 4 close $641.40)
+    xs, ys = fetch_kraken_daily(1793491200, 1795737600)
+    chart = make_line_chart(
+        d / "chart-xmr-daily-closes-nov-2026",
+        xs, ys,
+        title="Monero (XMR) daily closes on Kraken, Nov. 1 to 26, 2026 (UTC)",
+        date_fmt="%b %d",
+    )
+    card = make_fact_card(
+        d / "fact-kucoin-xmr-delisting-nov-30",
+        label="KuCoin delists Monero (XMR)",
+        big="Nov. 30, 08:00 UTC",
+        sub="XMR trading ends on KuCoin's four spot pairs. Deposits are already closed; withdrawals stay open until Dec. 31, 08:00 UTC.",
+        footer="Source: KuCoin announcement, Nov. 26, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of Monero's daily closing price on Kraken from Nov. 1 to Nov. 26, 2026: it peaked near $641 on Nov. 4, slid through the month and closed about $458 on Nov. 26 after KuCoin's delisting notice", {
+            "es": "Gráfico de líneas del precio de cierre diario de Monero en Kraken del 1 al 26 de noviembre de 2026: tocó un máximo cerca de 641 $ el 4 de noviembre, bajó durante el mes y cerró en unos 458 $ el 26 de noviembre tras el aviso de exclusión de KuCoin",
+            "pt": "Gráfico de linha do preço de fechamento diário do Monero na Kraken de 1º a 26 de novembro de 2026: atingiu o pico perto de US$ 641 em 4 de novembro, caiu ao longo do mês e fechou em cerca de US$ 458 em 26 de novembro após o aviso de deslistagem da KuCoin",
+            "fr": "Courbe des clôtures quotidiennes du Monero sur Kraken du 1er au 26 novembre 2026 : sommet vers 641 $ le 4 novembre, puis baisse au fil du mois et clôture vers 458 $ le 26 novembre après l'annonce du retrait de KuCoin",
+            "de": "Liniendiagramm der täglichen Monero-Schlusskurse bei Kraken vom 1. bis 26. November 2026: Hoch bei rund 641 $ am 4. November, danach Rückgang über den Monat und Schluss bei etwa 458 $ am 26. November nach KuCoins Delisting-Ankündigung",
+            "ru": "Линейный график дневных цен закрытия Monero на Kraken с 1 по 26 ноября 2026 года: пик около $641 4 ноября, затем снижение в течение месяца и закрытие около $458 26 ноября после объявления KuCoin о делистинге",
+            "tr": "Kraken'de 1-26 Kasım 2026 arası Monero günlük kapanış fiyatı çizgi grafiği: 4 Kasım'da yaklaşık 641 $ ile zirve yaptı, ay boyunca geriledi ve KuCoin'in listeden çıkarma duyurusunun ardından 26 Kasım'da yaklaşık 458 $'dan kapandı",
+            "id": "Grafik garis harga penutupan harian Monero di Kraken dari 1 hingga 26 November 2026: puncaknya sekitar US$641 pada 4 November, lalu turun sepanjang bulan dan ditutup sekitar US$458 pada 26 November setelah pengumuman delisting KuCoin",
+            "ja": "2026年11月1日〜26日のKrakenにおけるモネロ日次終値の折れ線グラフ：11月4日に約641ドルで高値をつけた後、月を通じて下落し、KuCoinの上場廃止発表を受けて11月26日は約458ドルで終了",
+            "ko": "2026년 11월 1일~26일 크라켄 모네로 일별 종가 선 차트: 11월 4일 약 641달러로 고점을 찍은 뒤 한 달 내내 하락했고, 쿠코인의 상장 폐지 공지 후 11월 26일 약 458달러로 마감",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken XMR/USD daily closes (UTC)")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: KuCoin ends Monero (XMR) trading on its four spot pairs at 08:00 UTC on Nov. 30, 2026; deposits are already closed and withdrawals stay open until 08:00 UTC on Dec. 31", {
+            "es": "Tarjeta: KuCoin pone fin a la negociación de Monero (XMR) en sus cuatro pares al contado a las 08:00 UTC del 30 de noviembre de 2026; los depósitos ya están cerrados y los retiros siguen abiertos hasta las 08:00 UTC del 31 de diciembre",
+            "pt": "Cartão: a KuCoin encerra a negociação de Monero (XMR) em seus quatro pares à vista às 08:00 UTC de 30 de novembro de 2026; os depósitos já estão fechados e os saques ficam abertos até as 08:00 UTC de 31 de dezembro",
+            "fr": "Encadré : KuCoin met fin aux échanges de Monero (XMR) sur ses quatre paires au comptant le 30 novembre 2026 à 08:00 UTC ; les dépôts sont déjà fermés et les retraits restent ouverts jusqu'au 31 décembre à 08:00 UTC",
+            "de": "Faktenkarte: KuCoin beendet den Handel mit Monero (XMR) auf seinen vier Spot-Paaren am 30. November 2026 um 08:00 UTC; Einzahlungen sind bereits geschlossen, Auszahlungen bleiben bis 31. Dezember, 08:00 UTC, möglich",
+            "ru": "Карточка: KuCoin прекращает торговлю Monero (XMR) на четырёх спотовых парах 30 ноября 2026 года в 08:00 UTC; депозиты уже закрыты, вывод открыт до 08:00 UTC 31 декабря",
+            "tr": "Bilgi kartı: KuCoin, 30 Kasım 2026 saat 08:00 UTC'de dört spot paritesinde Monero (XMR) işlemlerini sonlandırıyor; yatırmalar zaten kapalı, çekimler 31 Aralık 08:00 UTC'ye kadar açık",
+            "id": "Kartu fakta: KuCoin menghentikan perdagangan Monero (XMR) di empat pasangan spotnya pada 30 November 2026 pukul 08:00 UTC; setoran sudah ditutup dan penarikan tetap dibuka hingga 31 Desember pukul 08:00 UTC",
+            "ja": "ファクトカード：KuCoinは2026年11月30日08:00（UTC）に4つの現物ペアでモネロ（XMR）の取引を終了。入金はすでに停止し、出金は12月31日08:00（UTC）まで可能",
+            "ko": "팩트 카드: 쿠코인은 2026년 11월 30일 08:00(UTC)에 4개 현물 페어에서 모네로(XMR) 거래를 종료. 입금은 이미 막혔고 출금은 12월 31일 08:00(UTC)까지 가능",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="KuCoin announcement, Nov. 26, 2026")},
+    ]
+
+
+def build_binance_restored():
+    d = OUT / BINANCE_RESTORED_SLUG
+    tl = make_timeline_card(
+        d / "timeline-binance-hack-to-full-withdrawals",
+        "From hack to full withdrawals",
+        [
+            ("Oct. 29", "Hack affects about $6.3 billion in assets", RED),
+            ("Nov. 1", "Staged restart begins with bitcoin and a few networks", (96, 165, 250)),
+            ("Nov. 14", "87 networks reopened in one week", (251, 191, 36)),
+            ("Nov. 26", "Withdrawal suspension fully lifted", GREEN),
+        ],
+        footer="Binance; CoinDesk; Exchange.news, Nov. 26 to 27, 2026",
+        margin=170, wrap_w=250,
+    )
+    card = make_fact_card(
+        d / "fact-binance-suspension-fully-lifted",
+        label="Binance service recovery update",
+        big="Fully lifted",
+        sub="\"Our withdrawal recovery work is completed and the withdrawal suspension from the October security incident has been fully lifted.\"",
+        footer="Source: Binance announcement, Nov. 26, 2026",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: Oct. 29, a hack affects about $6.3 billion in Binance assets; Nov. 1, a staged withdrawal restart begins with bitcoin and a few networks; Nov. 14, Binance says 87 networks reopened in one week; Nov. 26, the withdrawal suspension is fully lifted", {
+            "es": "Cronología: 29 de octubre, un hackeo afecta a unos 6.300 millones de dólares en activos de Binance; 1 de noviembre, empieza la reapertura escalonada de retiros con bitcoin y algunas redes; 14 de noviembre, Binance dice que reabrió 87 redes en una semana; 26 de noviembre, la suspensión de retiros se levanta por completo",
+            "pt": "Linha do tempo: 29 de outubro, um ataque hacker afeta cerca de US$ 6,3 bilhões em ativos da Binance; 1º de novembro, começa a reabertura gradual dos saques com bitcoin e algumas redes; 14 de novembro, a Binance diz ter reaberto 87 redes em uma semana; 26 de novembro, a suspensão dos saques é totalmente encerrada",
+            "fr": "Chronologie : 29 octobre, un piratage touche environ 6,3 milliards de dollars d'actifs de Binance ; 1er novembre, reprise progressive des retraits avec le bitcoin et quelques réseaux ; 14 novembre, Binance indique avoir rouvert 87 réseaux en une semaine ; 26 novembre, la suspension des retraits est entièrement levée",
+            "de": "Zeitleiste: 29. Oktober, ein Hack betrifft Binance-Vermögenswerte von rund 6,3 Milliarden Dollar; 1. November, schrittweiser Neustart der Auszahlungen beginnt mit Bitcoin und einigen Netzwerken; 14. November, Binance meldet 87 wieder geöffnete Netzwerke in einer Woche; 26. November, die Auszahlungssperre ist vollständig aufgehoben",
+            "ru": "Хронология: 29 октября взлом затрагивает активы Binance примерно на $6,3 млрд; 1 ноября начинается поэтапное восстановление вывода с биткоина и нескольких сетей; 14 ноября Binance сообщает, что за неделю открыла 87 сетей; 26 ноября приостановка вывода полностью снята",
+            "tr": "Zaman çizelgesi: 29 Ekim, bir saldırı Binance'te yaklaşık 6,3 milyar dolarlık varlığı etkiler; 1 Kasım, çekimlerin aşamalı yeniden açılışı bitcoin ve birkaç ağla başlar; 14 Kasım, Binance bir haftada 87 ağı yeniden açtığını söyler; 26 Kasım, çekim askıya alması tamamen kaldırılır",
+            "id": "Linimasa: 29 Oktober, peretasan memengaruhi sekitar US$6,3 miliar aset Binance; 1 November, pembukaan kembali penarikan secara bertahap dimulai dengan bitcoin dan beberapa jaringan; 14 November, Binance menyatakan 87 jaringan dibuka kembali dalam sepekan; 26 November, penangguhan penarikan dicabut sepenuhnya",
+            "ja": "経緯：10月29日、ハッキングでBinanceの約63億ドル相当の資産が影響を受ける。11月1日、ビットコインと一部ネットワークから出金の段階的再開が始まる。11月14日、1週間で87ネットワークを再開したと発表。11月26日、出金停止が完全に解除",
+            "ko": "경과: 10월 29일 해킹으로 바이낸스 자산 약 63억 달러가 영향을 받음. 11월 1일 비트코인과 일부 네트워크부터 출금 단계적 재개 시작. 11월 14일 일주일 동안 87개 네트워크를 재개했다고 발표. 11월 26일 출금 중단 완전 해제",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Binance; CoinDesk; Exchange.news, Nov. 26 to 27, 2026")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card quoting Binance: our withdrawal recovery work is completed and the withdrawal suspension from the October security incident has been fully lifted", {
+            "es": "Tarjeta con la cita de Binance: nuestro trabajo de recuperación de retiros ha terminado y la suspensión de retiros por el incidente de seguridad de octubre se ha levantado por completo",
+            "pt": "Cartão com a citação da Binance: nosso trabalho de recuperação dos saques foi concluído e a suspensão dos saques causada pelo incidente de segurança de outubro foi totalmente encerrada",
+            "fr": "Encadré citant Binance : notre travail de rétablissement des retraits est terminé et la suspension des retraits liée à l'incident de sécurité d'octobre est entièrement levée",
+            "de": "Faktenkarte mit einem Binance-Zitat: Unsere Arbeit zur Wiederherstellung der Auszahlungen ist abgeschlossen, und die Auszahlungssperre wegen des Sicherheitsvorfalls im Oktober ist vollständig aufgehoben",
+            "ru": "Карточка с цитатой Binance: работа по восстановлению вывода завершена, приостановка вывода из-за октябрьского инцидента безопасности полностью снята",
+            "tr": "Binance'ten alıntı içeren bilgi kartı: çekimleri geri getirme çalışmamız tamamlandı ve ekim ayındaki güvenlik olayı nedeniyle uygulanan çekim askıya alması tamamen kaldırıldı",
+            "id": "Kartu fakta berisi kutipan Binance: pekerjaan pemulihan penarikan kami telah selesai dan penangguhan penarikan akibat insiden keamanan Oktober telah dicabut sepenuhnya",
+            "ja": "Binanceの発表を引用したファクトカード：出金の復旧作業は完了し、10月のセキュリティインシデントによる出金停止は完全に解除された",
+            "ko": "바이낸스 발표를 인용한 팩트 카드: 출금 복구 작업이 완료됐으며 10월 보안 사고로 인한 출금 중단이 완전히 해제됨",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Binance announcement, Nov. 26, 2026")},
+    ]
+
+
 BUILDERS = {
+    "monero-falls-11-percent-kucoin-delists-xmr-nov-2026": "xmrkucoin",
+    "binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026": "bnbrestored",
     "novatech-founders-ordered-to-pay-1-37-billion-new-york-crypto-ponzi-nov-2026": "novatech",
     "zodia-custody-data-breach-cryptio-bithumb-phishing-nov-2026": "zodia",
     "house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026": "sbrbill",
@@ -6463,7 +6581,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "btc60tg":
+    if key == "xmrkucoin":
+        figs = build_monero_kucoin()
+    elif key == "bnbrestored":
+        figs = build_binance_restored()
+    elif key == "btc60tg":
         figs = build_btc60_thanksgiving()
     elif key == "flnk":
         figs = build_flnk_filing()

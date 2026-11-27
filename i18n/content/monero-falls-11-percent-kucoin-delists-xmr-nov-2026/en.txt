@@ -1,0 +1,59 @@
+title: Monero falls about 11% after KuCoin says it will delist XMR on Nov. 30
+page_title: Monero drops 11% as KuCoin moves to delist XMR on Nov. 30
+description: Monero (XMR) had its biggest one-day drop since June after KuCoin said it will end XMR trading on Nov. 30, 2026. Here is what changes, the withdrawal deadline, and why exchanges keep dropping privacy coins.
+og_description: KuCoin will stop XMR trading at 08:00 UTC on Nov. 30 and close withdrawals on Dec. 31. Monero fell more than 11% on Thursday, its worst day since June 4.
+label: Markets
+summary: Monero fell more than 11% on Thursday after KuCoin said it will delist XMR on Nov. 30, weeks after MEXC did the same. KuCoin users have until Dec. 31 to withdraw. EU rules that start in July 2027 are pushing regulated platforms away from privacy coins.
+===
+
+Monero (XMR), the best-known privacy coin, had its worst day in more than five months on Thursday, Nov. 26, after crypto exchange KuCoin said it will stop trading the token next week. XMR fell more than 11% on the day, its biggest one-day drop since June 4, according to [CoinDesk](L2).
+
+On Kraken, XMR opened Thursday (UTC) at about $517, touched a low near $429 and closed around $458. It traded near $440 on Friday morning U.S. time, roughly 31% below its Nov. 4 close of about $641.
+
+!takeaways
+- KuCoin will delist XMR at 08:00 UTC on Monday, Nov. 30, closing its XMR/USDT, XMR/USDC, XMR/ETH and XMR/BTC trading pairs.
+- XMR deposits on KuCoin are already closed and will not reopen. Withdrawals stay open until 08:00 UTC on Dec. 31, though KuCoin says it may close them earlier.
+- MEXC dropped XMR spot trading earlier in November. Binance, OKX, Bitget and Coinbase International already do not offer XMR trading, according to CoinDesk.
+- From July 10, 2027, EU anti-money-laundering rules will bar crypto firms from keeping accounts that use "anonymity-enhancing coins."
+
+!figure:chart
+
+## What KuCoin announced
+
+In its [announcement](L1), KuCoin gave no reason beyond "platform policies." Besides spot trading, it is winding down every other XMR product on a fixed schedule. Flexible Savings in KuCoin Earn ended at 12:00 UTC on Nov. 27, with balances moved to users' funding accounts. Convert stops at 03:00 UTC on Nov. 30, and trading bots that use XMR shut down at 06:00 UTC that day. XMR also stops counting as collateral for VIP loans on Nov. 30.
+
+KuCoin warned that if XMR is still in an account after withdrawals close, it may convert the coins into stablecoins for the user. That conversion is not guaranteed, and the exchange said a delisted token can fall sharply in value or become worthless.
+
+The move matters because KuCoin had become one of the biggest places to trade XMR. Its XMR/USDT market traded $73.8 million on Thursday, about 47% of all XMR spot volume, according to CoinMarketCap figures reported by U.Today and cited by [Coindaro](L3).
+
+!figure:fact
+
+!mid_cta
+
+## Why exchanges keep dropping privacy coins
+
+Monero hides the sender, the receiver and the amount of every transaction by default. Supporters see that as basic financial privacy. Regulators worry it makes money laundering harder to trace. KuCoin is the second major exchange to drop the coin this month, after MEXC delisted its XMR spot pairs on Nov. 13, [CoinDesk](L2) reported. According to TRM Labs data cited by CoinDesk, 73 exchanges delisted the token in 2025 alone.
+
+Europe is adding pressure. Starting July 10, 2027, the EU's Anti-Money Laundering Regulation will prohibit crypto service providers from maintaining accounts that use anonymity-enhancing coins, [Cointelegraph](L4) reported. The rule does not stop individuals from holding privacy coins in their own wallets.
+
+Not every privacy coin is moving the same way. Zcash (ZEC), which lets users choose between public and shielded transactions, is staying on KuCoin. It was up about 11% early Friday after sliding on Thursday, according to a separate [CoinDesk market report](L5). Grayscale research head Zach Pandl told Cointelegraph that the firm's commitment to Zcash will continue "for many years to come."
+
+## What Monero holders can do
+
+If you hold XMR on KuCoin, the key dates are simple. You can sell before trading ends at 08:00 UTC on Nov. 30 (3 a.m. U.S. Eastern), or withdraw the coins to a wallet you control before Dec. 31. Withdrawing to your own wallet means you hold the keys yourself, so write down the recovery phrase and keep it offline. KuCoin says withdrawals could close sooner if the Monero network itself runs into problems.
+
+Fewer exchanges also means thinner markets, which can make prices swing harder. Monero developers are working on an upgrade called FCMP++, designed to make transactions harder to trace. It is going through security audits after a public test network launched in October, CoinDesk said.
+
+For beginners, the broader lesson is that a coin can lose access to major exchanges quickly. Many people start with widely listed assets such as bitcoin, bought on a regulated U.S. exchange like [Coinbase](REF). Crypto is volatile, so only invest what you can afford to lose. This is not financial advice.
+
+## What to watch next
+
+- XMR trading volume and price after KuCoin's pairs close on Nov. 30.
+- Whether other large exchanges follow KuCoin and MEXC before the EU rule starts in July 2027.
+- Progress on Monero's FCMP++ upgrade.
+
+!soft: New to wallets? Read [custodial vs. self-custody wallets explained](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,57 @@
+title: Binance sebut penarikan sudah pulih sepenuhnya, empat minggu setelah peretasan senilai US$6,3 miliar
+page_title: Binance cabut penuh penangguhan penarikan setelah peretasan US$6,3 miliar
+description: Binance menyatakan pada 26 November 2026 bahwa pemulihan penarikan telah selesai dan penangguhan akibat peretasan Oktober telah dicabut sepenuhnya. Beberapa jaringan masih dijeda untuk pemeliharaan rutin.
+og_description: Empat minggu setelah peretasan rekor senilai US$6,3 miliar, Binance menyatakan penarikan sudah dibuka di hampir semua jaringan. Apa yang berubah dan penipuan apa yang perlu diwaspadai.
+label: Bisnis
+summary: Binance menyatakan penangguhan penarikan akibat peretasan 29 Oktober telah dicabut sepenuhnya, mengakhiri pembukaan kembali bertahap selama empat minggu. Beberapa jaringan masih dijeda karena pemeliharaan yang menurut bursa itu tidak berkaitan dengan serangan. Binance juga memperingatkan penipu yang menawarkan untuk "mempercepat penarikan".
+===
+
+Binance, bursa kripto terbesar di dunia, menyatakan pelanggan kini bisa kembali menarik koin di hampir semua jaringan yang didukungnya, empat minggu setelah peretasan rekor memaksa bursa itu membekukan penarikan. "Pekerjaan pemulihan penarikan kami telah selesai dan penangguhan penarikan akibat insiden keamanan Oktober telah dicabut sepenuhnya," kata perusahaan itu dalam [pembaruan layanan](L1) pada Kamis, 26 November.
+
+Penarikan adalah cara memindahkan kripto keluar dari bursa, baik ke dompet yang Anda kendalikan sendiri maupun ke platform lain. Bagi sebagian pengguna Binance, beberapa jaringan tidak bisa digunakan sejak akhir Oktober.
+
+!takeaways
+- Binance menyatakan pekerjaan pemulihan penarikan telah selesai dan penangguhan terkait peretasan 29 Oktober telah dicabut sepenuhnya.
+- Beberapa jaringan masih dijeda untuk pemeliharaan atau pembaruan terjadwal. Menurut Binance, hal ini tidak berkaitan dengan peretasan dan hanya memengaruhi "persentase yang sangat kecil" dari lalu lintas normal. Binance tidak menyebutkan jaringan mana saja.
+- Bursa itu menyatakan seluruh aset pengguna tetap didukung penuh dan mengarahkan pengguna ke halaman bukti cadangannya.
+- Binance memperingatkan bahwa mereka tidak akan pernah menghubungi pengguna untuk "mempercepat penarikan", menawarkan "pemrosesan prioritas", atau memindahkan aset ke "brankas Binance".
+
+!figure:timeline
+
+## Empat minggu dari peretasan hingga pemulihan penuh
+
+Masalah dimulai pada 29 Oktober, ketika Binance menyatakan sebuah peretasan memengaruhi aset senilai sekitar US$6,3 miliar, pencurian kripto terbesar yang pernah tercatat, lapor [CoinDesk](L2). Penarikan dihentikan, lalu bursa mulai membukanya kembali secara bertahap pada 1 November, dimulai dengan bitcoin dan sejumlah kecil koin serta jaringan lain. Saat penarikan dibuka kembali, pelanggan menarik bersih US$4,7 miliar dari platform, kata Binance pada 2 November, menurut [Reuters](L3).
+
+Pada 14 November, Binance menyatakan telah membuka kembali 87 jaringan dalam sepekan dan menargetkan pemulihan semua jaringan dan aset yang tersisa paling lambat akhir pekan berikutnya, catat [Exchange.news](L4). Pembaruan hari Kamis menutup proses itu. Binance mengulang kabar tersebut di X dan menyebut penarikan "sudah dibuka di hampir semua jaringan".
+
+Tinjauan awal Binance menunjukkan laptop seorang insinyur telah disusupi. Dalam laporan 3 November, Binance menyatakan para penyerang memakai wawancara kerja palsu, perangkat lunak berbahaya, dan alat AI internal yang telah disusupi untuk menjangkau sistem yang mengendalikan dompetnya, menurut CoinDesk. Perusahaan analitik blockchain TRM Labs mengaitkan serangan itu dengan kelompok peretas Korea Utara yang dikenal sebagai TraderTraitor, dan FBI juga menunjuk Korea Utara.
+
+!figure:fact
+
+!mid_cta
+
+## Siapa yang menanggung kerugian
+
+Sejak awal Binance berjanji menanggung sendiri kerugian pelanggan. Hingga 31 Oktober, Binance menyatakan telah mengganti 90% kripto yang dicuri dengan dana perusahaan dan dana SAFU, cadangan darurat untuk kasus seperti ini. Pada 3 November angkanya mencapai 98% dari US$6,34 miliar yang terdampak, lapor CoinDesk.
+
+Mendapatkan kembali koin yang dicuri adalah pekerjaan lain. Sekitar US$2,85 miliar dari dana curian telah dibekukan dari jarak jauh oleh perusahaan penerbit token tersebut, kata Reuters, sementara para peneliti menyebut sisanya dipindahkan melalui layanan kripto yang kurang dikenal dalam upaya pencucian uang yang bisa memakan waktu berbulan-bulan, bahkan bertahun-tahun.
+
+## Apa artinya bagi pengguna
+
+Binance menyatakan sebagian keterlambatan bisa berasal dari blockchain itu sendiri dan mengarahkan pengguna ke halaman status jaringannya. Jika penarikan gagal, memeriksa halaman itu lebih dulu adalah langkah paling sederhana.
+
+Risiko terbesar sekarang adalah penipuan. Insiden keamanan besar menarik penipu yang menyamar sebagai staf dukungan dan menjanjikan untuk "membuka" dana dengan imbalan biaya. Binance menyatakan tidak akan pernah meminta kata sandi, kode autentikasi dua faktor, atau frasa pemulihan (daftar kata yang membuka dompet kripto), dan meminta pengguna hanya memercayai saluran resminya.
+
+Peristiwa ini juga mengingatkan pada pilihan antara menyimpan koin di bursa dan menyimpannya sendiri. Bursa mengurus keamanan untuk Anda, tetapi ketika bursa menjeda penarikan, Anda harus menunggu. Penyimpanan mandiri menghilangkan penantian itu, tetapi membuat Anda bertanggung jawab atas kunci Anda sendiri. Banyak pemula memulai dengan jumlah kecil di bursa AS yang teregulasi seperti [Coinbase](REF) dan mempelajari cara kerja penarikan sebelum memindahkan koin ke dompet sendiri. Kripto sangat fluktuatif, jadi investasikan hanya dana yang sanggup Anda relakan hilang. Ini bukan nasihat keuangan.
+
+## Yang perlu dipantau
+
+- Kapan Binance membuka kembali jaringan yang masih dijeda untuk pemeliharaan.
+- Pembekuan atau penyitaan lanjutan atas dana curian.
+- Kemungkinan laporan akhir Binance tentang cara para penyerang masuk.
+
+!soft: Baca liputan kami sebelumnya: [Binance membuka kembali penarikan di 87 jaringan](/articles/binance-reopens-withdrawals-87-networks-nov-2026).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,20 @@
+{
+ "slug": "binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026",
+ "date": "2026-11-27",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "binance-reopens-withdrawals-87-networks-nov-2026",
+  "doj-seizes-1-2-billion-binance-hack-north-korea-nov-2026",
+  "binance-hires-mandiant-slowmist-verichains-security-review-nov-2026",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody",
+  "is-coinbase-safe-for-beginners"
+ ],
+ "sources": [
+  {"url": "https://www.binance.com/en/support/announcement/detail/95c463396a034f1ab3994814225e6d69", "title": "Binance: Service Recovery Update: Withdrawals Recovery Work Complete (2026-11-26)", "date": "Nov 26, 2026"},
+  {"url": "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack", "title": "CoinDesk: Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack", "date": "Nov 27, 2026"},
+  {"url": "https://www.channelnewsasia.com/business/binance-says-withdrawal-recovery-work-complete-after-63-billion-crypto-heist-6585911", "title": "Reuters (via CNA): Binance says 'withdrawal recovery work' complete after $6.3 billion crypto heist", "date": "Nov 27, 2026"},
+  {"url": "https://exchange.news/news/binance-withdrawal-recovery-complete-suspension-fully-lifted-security-incident/", "title": "Exchange.news: Binance says withdrawal recovery is complete and the security-incident suspension is fully lifted", "date": "Nov 26, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

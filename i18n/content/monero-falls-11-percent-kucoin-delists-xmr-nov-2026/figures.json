@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-xmr-daily-closes-nov-2026.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of Monero's daily closing price on Kraken from Nov. 1 to Nov. 26, 2026: it peaked near $641 on Nov. 4, slid through the month and closed about $458 on Nov. 26 after KuCoin's delisting notice",
+      "es": "Gráfico de líneas del precio de cierre diario de Monero en Kraken del 1 al 26 de noviembre de 2026: tocó un máximo cerca de 641 $ el 4 de noviembre, bajó durante el mes y cerró en unos 458 $ el 26 de noviembre tras el aviso de exclusión de KuCoin",
+      "pt": "Gráfico de linha do preço de fechamento diário do Monero na Kraken de 1º a 26 de novembro de 2026: atingiu o pico perto de US$ 641 em 4 de novembro, caiu ao longo do mês e fechou em cerca de US$ 458 em 26 de novembro após o aviso de deslistagem da KuCoin",
+      "fr": "Courbe des clôtures quotidiennes du Monero sur Kraken du 1er au 26 novembre 2026 : sommet vers 641 $ le 4 novembre, puis baisse au fil du mois et clôture vers 458 $ le 26 novembre après l'annonce du retrait de KuCoin",
+      "de": "Liniendiagramm der täglichen Monero-Schlusskurse bei Kraken vom 1. bis 26. November 2026: Hoch bei rund 641 $ am 4. November, danach Rückgang über den Monat und Schluss bei etwa 458 $ am 26. November nach KuCoins Delisting-Ankündigung",
+      "ru": "Линейный график дневных цен закрытия Monero на Kraken с 1 по 26 ноября 2026 года: пик около $641 4 ноября, затем снижение в течение месяца и закрытие около $458 26 ноября после объявления KuCoin о делистинге",
+      "tr": "Kraken'de 1-26 Kasım 2026 arası Monero günlük kapanış fiyatı çizgi grafiği: 4 Kasım'da yaklaşık 641 $ ile zirve yaptı, ay boyunca geriledi ve KuCoin'in listeden çıkarma duyurusunun ardından 26 Kasım'da yaklaşık 458 $'dan kapandı",
+      "id": "Grafik garis harga penutupan harian Monero di Kraken dari 1 hingga 26 November 2026: puncaknya sekitar US$641 pada 4 November, lalu turun sepanjang bulan dan ditutup sekitar US$458 pada 26 November setelah pengumuman delisting KuCoin",
+      "ja": "2026年11月1日〜26日のKrakenにおけるモネロ日次終値の折れ線グラフ：11月4日に約641ドルで高値をつけた後、月を通じて下落し、KuCoinの上場廃止発表を受けて11月26日は約458ドルで終了",
+      "ko": "2026년 11월 1일~26일 크라켄 모네로 일별 종가 선 차트: 11월 4일 약 641달러로 고점을 찍은 뒤 한 달 내내 하락했고, 쿠코인의 상장 폐지 공지 후 11월 26일 약 458달러로 마감"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken XMR/USD daily closes (UTC)",
+      "es": "Gráfico: PlainBTC, datos: Kraken XMR/USD daily closes (UTC)",
+      "pt": "Gráfico: PlainBTC, dados: Kraken XMR/USD daily closes (UTC)",
+      "fr": "Graphique : PlainBTC, données : Kraken XMR/USD daily closes (UTC)",
+      "de": "Chart: PlainBTC, Daten: Kraken XMR/USD daily closes (UTC)",
+      "ru": "График: PlainBTC, данные: Kraken XMR/USD daily closes (UTC)",
+      "tr": "Grafik: PlainBTC, veri: Kraken XMR/USD daily closes (UTC)",
+      "id": "Grafik: PlainBTC, data: Kraken XMR/USD daily closes (UTC)",
+      "ja": "チャート: PlainBTC、データ: Kraken XMR/USD daily closes (UTC)",
+      "ko": "차트: PlainBTC, 데이터: Kraken XMR/USD daily closes (UTC)"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-kucoin-xmr-delisting-nov-30.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: KuCoin ends Monero (XMR) trading on its four spot pairs at 08:00 UTC on Nov. 30, 2026; deposits are already closed and withdrawals stay open until 08:00 UTC on Dec. 31",
+      "es": "Tarjeta: KuCoin pone fin a la negociación de Monero (XMR) en sus cuatro pares al contado a las 08:00 UTC del 30 de noviembre de 2026; los depósitos ya están cerrados y los retiros siguen abiertos hasta las 08:00 UTC del 31 de diciembre",
+      "pt": "Cartão: a KuCoin encerra a negociação de Monero (XMR) em seus quatro pares à vista às 08:00 UTC de 30 de novembro de 2026; os depósitos já estão fechados e os saques ficam abertos até as 08:00 UTC de 31 de dezembro",
+      "fr": "Encadré : KuCoin met fin aux échanges de Monero (XMR) sur ses quatre paires au comptant le 30 novembre 2026 à 08:00 UTC ; les dépôts sont déjà fermés et les retraits restent ouverts jusqu'au 31 décembre à 08:00 UTC",
+      "de": "Faktenkarte: KuCoin beendet den Handel mit Monero (XMR) auf seinen vier Spot-Paaren am 30. November 2026 um 08:00 UTC; Einzahlungen sind bereits geschlossen, Auszahlungen bleiben bis 31. Dezember, 08:00 UTC, möglich",
+      "ru": "Карточка: KuCoin прекращает торговлю Monero (XMR) на четырёх спотовых парах 30 ноября 2026 года в 08:00 UTC; депозиты уже закрыты, вывод открыт до 08:00 UTC 31 декабря",
+      "tr": "Bilgi kartı: KuCoin, 30 Kasım 2026 saat 08:00 UTC'de dört spot paritesinde Monero (XMR) işlemlerini sonlandırıyor; yatırmalar zaten kapalı, çekimler 31 Aralık 08:00 UTC'ye kadar açık",
+      "id": "Kartu fakta: KuCoin menghentikan perdagangan Monero (XMR) di empat pasangan spotnya pada 30 November 2026 pukul 08:00 UTC; setoran sudah ditutup dan penarikan tetap dibuka hingga 31 Desember pukul 08:00 UTC",
+      "ja": "ファクトカード：KuCoinは2026年11月30日08:00（UTC）に4つの現物ペアでモネロ（XMR）の取引を終了。入金はすでに停止し、出金は12月31日08:00（UTC）まで可能",
+      "ko": "팩트 카드: 쿠코인은 2026년 11월 30일 08:00(UTC)에 4개 현물 페어에서 모네로(XMR) 거래를 종료. 입금은 이미 막혔고 출금은 12월 31일 08:00(UTC)까지 가능"
+    },
+    "caption": {
+      "en": "Source: KuCoin announcement, Nov. 26, 2026",
+      "es": "Fuente: KuCoin announcement, Nov. 26, 2026",
+      "pt": "Fonte: KuCoin announcement, Nov. 26, 2026",
+      "fr": "Source : KuCoin announcement, Nov. 26, 2026",
+      "de": "Quelle: KuCoin announcement, Nov. 26, 2026",
+      "ru": "Источник: KuCoin announcement, Nov. 26, 2026",
+      "tr": "Kaynak: KuCoin announcement, Nov. 26, 2026",
+      "id": "Sumber: KuCoin announcement, Nov. 26, 2026",
+      "ja": "出典: KuCoin announcement, Nov. 26, 2026",
+      "ko": "출처: KuCoin announcement, Nov. 26, 2026"
+    }
+  }
+]

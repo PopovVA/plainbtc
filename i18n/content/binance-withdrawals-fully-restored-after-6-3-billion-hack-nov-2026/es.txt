@@ -1,0 +1,57 @@
+title: Binance dice que los retiros están totalmente restablecidos, cuatro semanas después de su hackeo de 6.300 millones de dólares
+page_title: Binance levanta por completo la suspensión de retiros tras el hackeo de 6.300 millones
+description: Binance dijo el 26 de noviembre de 2026 que ha terminado el trabajo de recuperación de retiros y que la suspensión por el hackeo de octubre se ha levantado por completo. Algunas redes siguen en pausa por mantenimiento rutinario.
+og_description: Cuatro semanas después de un hackeo récord de 6.300 millones de dólares, Binance dice que los retiros están abiertos en casi todas las redes. Qué cambió y qué estafas vigilar.
+label: Negocios
+summary: Binance dice que la suspensión de retiros por el hackeo del 29 de octubre se ha levantado por completo, lo que cierra una reapertura escalonada de cuatro semanas. Unas pocas redes siguen en pausa por un mantenimiento que, según el exchange, no tiene relación con el ataque. También advirtió de estafadores que ofrecen "acelerar los retiros".
+===
+
+Binance, el mayor exchange de criptomonedas del mundo, dice que sus clientes pueden volver a retirar monedas en casi todas las redes que admite, cuatro semanas después de que un hackeo récord le obligara a congelarlas. "Nuestro trabajo de recuperación de retiros ha terminado y la suspensión de retiros por el incidente de seguridad de octubre se ha levantado por completo", dijo la empresa en una [actualización de servicio](L1) el jueves 26 de noviembre.
+
+Un retiro es la forma de sacar cripto de un exchange, ya sea a un monedero que controlas o a otra plataforma. Para algunos usuarios de Binance, ciertas redes no estaban disponibles desde finales de octubre.
+
+!takeaways
+- Binance dice que ha terminado el trabajo de recuperación de retiros y que la suspensión ligada al hackeo del 29 de octubre se ha levantado por completo.
+- Unas pocas redes siguen en pausa por mantenimiento o actualizaciones programadas. Binance dice que esto no tiene relación con el hackeo, que afecta a "un porcentaje muy pequeño" del tráfico habitual, y no nombró las redes.
+- El exchange dice que todos los activos de los usuarios siguen totalmente respaldados y remite a su página de prueba de reservas.
+- Binance advirtió que nunca contactará a los usuarios para "acelerar los retiros", ofrecer "procesamiento prioritario" ni mover activos a una "bóveda de Binance".
+
+!figure:timeline
+
+## Cuatro semanas del hackeo a la reapertura total
+
+Los problemas empezaron el 29 de octubre, cuando Binance dijo que un hackeo afectó a unos 6.300 millones de dólares en activos, el mayor robo de cripto registrado, informó [CoinDesk](L2). Los retiros se detuvieron, y el exchange empezó a reactivarlos por etapas el 1 de noviembre, comenzando por bitcoin y una lista corta de otras monedas y redes. Cuando los retiros se reabrieron, los clientes sacaron en neto 4.700 millones de dólares de la plataforma, según dijo Binance el 2 de noviembre, de acuerdo con [Reuters](L3).
+
+El 14 de noviembre, Binance dijo que había reabierto 87 redes en una semana y que su objetivo era restablecer todas las redes y activos restantes antes del final de la semana siguiente, señaló [Exchange.news](L4). La actualización del jueves cierra ese proceso. Binance repitió la noticia en X y dijo que los retiros "están abiertos en casi todas las redes".
+
+La primera revisión de Binance apuntó a que el portátil de un ingeniero había sido comprometido. En un informe del 3 de noviembre, dijo que los atacantes usaron entrevistas de trabajo falsas, software malicioso y herramientas internas de IA comprometidas para llegar a los sistemas que controlan sus monederos, según CoinDesk. La firma de análisis blockchain TRM Labs vinculó el ataque con un grupo de hackers norcoreano conocido como TraderTraitor, y el FBI también ha señalado a Corea del Norte.
+
+!figure:fact
+
+!mid_cta
+
+## Quién cubrió las pérdidas
+
+Binance prometió desde el principio cubrir por su cuenta las pérdidas de los clientes. Para el 31 de octubre dijo que había repuesto el 90% de las criptomonedas robadas con dinero de la empresa y su fondo SAFU, una reserva de emergencia para casos así. Para el 3 de noviembre la cifra era el 98% de los 6.340 millones de dólares afectados, informó CoinDesk.
+
+Recuperar las monedas robadas es otra tarea. Unos 2.850 millones de dólares de los fondos robados han sido congelados a distancia por las empresas que emiten esos tokens, dijo Reuters, mientras que los investigadores afirman que el resto se mueve a través de servicios cripto poco conocidos en una operación de blanqueo que podría durar meses o incluso años.
+
+## Qué significa para los usuarios
+
+Binance dijo que algunos retrasos pueden originarse en las propias blockchains y remitió a los usuarios a su página de estado de redes. Si un retiro no se completa, revisar primero esa página es el paso más sencillo.
+
+El mayor riesgo ahora es el fraude. Los grandes incidentes de seguridad atraen a estafadores que se hacen pasar por soporte y prometen "liberar" fondos a cambio de una comisión. Binance dijo que nunca pedirá una contraseña, un código de doble factor ni una frase semilla (la lista de palabras que desbloquea un monedero cripto), y pidió confiar solo en sus canales oficiales.
+
+El episodio también recuerda el dilema entre dejar las monedas en un exchange y guardarlas uno mismo. Un exchange se encarga de la seguridad por ti, pero cuando pausa los retiros tienes que esperar. La autocustodia elimina esa espera, pero te hace responsable de tus propias claves. Muchos principiantes empiezan con una cantidad pequeña en un exchange regulado de EE. UU. como [Coinbase](REF) y aprenden cómo funcionan los retiros antes de pasar monedas a su propio monedero. Las criptomonedas son volátiles, así que invierte solo lo que puedas permitirte perder. Esto no es asesoramiento financiero.
+
+## Qué vigilar ahora
+
+- Cuándo reabre Binance las redes que siguen en pausa por mantenimiento.
+- Nuevos congelamientos o incautaciones de los fondos robados.
+- Un posible informe final de Binance sobre cómo entraron los atacantes.
+
+!soft: Lee nuestra cobertura anterior: [Binance reabre los retiros en 87 redes](/articles/binance-reopens-withdrawals-87-networks-nov-2026).
+
+!end_cta
+
+!disclosure

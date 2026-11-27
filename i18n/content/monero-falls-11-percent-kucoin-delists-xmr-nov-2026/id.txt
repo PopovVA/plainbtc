@@ -1,0 +1,59 @@
+title: Monero turun sekitar 11% setelah KuCoin umumkan akan delisting XMR pada 30 November
+page_title: Monero anjlok 11% karena KuCoin akan delisting XMR pada 30 November
+description: Monero (XMR) mencatat penurunan harian terbesar sejak Juni setelah KuCoin mengumumkan akan menghentikan perdagangan XMR pada 30 November 2026. Apa yang berubah, batas waktu penarikan, dan mengapa bursa terus meninggalkan koin privasi.
+og_description: KuCoin akan menghentikan perdagangan XMR pada 30 November pukul 08:00 UTC dan menutup penarikan pada 31 Desember. Monero turun lebih dari 11% pada hari Kamis, hari terburuknya sejak 4 Juni.
+label: Pasar
+summary: Monero turun lebih dari 11% pada hari Kamis setelah KuCoin mengumumkan akan delisting XMR pada 30 November, beberapa minggu setelah MEXC melakukan hal yang sama. Pengguna KuCoin punya waktu hingga 31 Desember untuk menarik koin. Aturan Uni Eropa yang berlaku mulai Juli 2027 mendorong platform teregulasi menjauhi koin privasi.
+===
+
+Monero (XMR), koin privasi paling terkenal, mengalami hari terburuknya dalam lebih dari lima bulan pada Kamis, 26 November, setelah bursa kripto KuCoin mengumumkan akan menghentikan perdagangan token itu pekan depan. XMR turun lebih dari 11% dalam sehari, penurunan harian terbesar sejak 4 Juni, menurut [CoinDesk](L2).
+
+Di Kraken, XMR dibuka pada hari Kamis (UTC) di sekitar US$517, sempat menyentuh titik terendah dekat US$429, dan ditutup di sekitar US$458. Pada Jumat pagi waktu AS, XMR diperdagangkan di dekat US$440, sekitar 31% di bawah harga penutupan 4 November yang sekitar US$641.
+
+!takeaways
+- KuCoin akan melakukan delisting XMR pada Senin, 30 November, pukul 08:00 UTC dan menutup pasangan XMR/USDT, XMR/USDC, XMR/ETH, dan XMR/BTC.
+- Setoran XMR di KuCoin sudah ditutup dan tidak akan dibuka lagi. Penarikan tetap dibuka hingga 31 Desember pukul 08:00 UTC, meski KuCoin menyatakan bisa menutupnya lebih awal.
+- MEXC menghentikan perdagangan spot XMR pada awal November. Binance, OKX, Bitget, dan Coinbase International sudah tidak menawarkan perdagangan XMR, menurut CoinDesk.
+- Mulai 10 Juli 2027, aturan antipencucian uang Uni Eropa akan melarang perusahaan kripto mengelola akun yang menggunakan "koin peningkat anonimitas".
+
+!figure:chart
+
+## Apa yang diumumkan KuCoin
+
+Dalam [pengumumannya](L1), KuCoin tidak memberi alasan selain "kebijakan platform". Selain perdagangan spot, KuCoin juga menutup semua produk XMR lainnya sesuai jadwal tetap. Flexible Savings di KuCoin Earn berakhir pada 27 November pukul 12:00 UTC, dan saldo dipindahkan ke akun dana pengguna. Convert berhenti pada 30 November pukul 03:00 UTC, dan bot trading yang memakai XMR dimatikan pukul 06:00 UTC pada hari yang sama. Mulai 30 November, XMR juga tidak lagi diterima sebagai jaminan pinjaman VIP.
+
+KuCoin memperingatkan bahwa jika masih ada XMR di akun setelah penarikan ditutup, KuCoin dapat mengonversinya menjadi stablecoin atas nama pengguna. Konversi itu tidak dijamin, dan menurut bursa tersebut token yang sudah di-delisting bisa kehilangan banyak nilainya atau bahkan tidak bernilai sama sekali.
+
+Keputusan ini penting karena KuCoin telah menjadi salah satu tempat terbesar untuk memperdagangkan XMR. Pasangan XMR/USDT di KuCoin mencatat transaksi US$73,8 juta pada hari Kamis, sekitar 47% dari seluruh volume spot XMR, menurut data CoinMarketCap yang dilaporkan U.Today dan dikutip [Coindaro](L3).
+
+!figure:fact
+
+!mid_cta
+
+## Mengapa bursa terus meninggalkan koin privasi
+
+Monero secara bawaan menyembunyikan pengirim, penerima, dan jumlah setiap transaksi. Pendukungnya melihat hal itu sebagai privasi keuangan dasar. Regulator khawatir hal itu menyulitkan pelacakan pencucian uang. KuCoin adalah bursa besar kedua yang meninggalkan koin ini bulan ini, setelah MEXC melakukan delisting pasangan spot XMR pada 13 November, lapor [CoinDesk](L2). Menurut data TRM Labs yang dikutip CoinDesk, 73 bursa melakukan delisting token ini sepanjang 2025 saja.
+
+Eropa menambah tekanan. Mulai 10 Juli 2027, Regulasi Antipencucian Uang Uni Eropa akan melarang penyedia layanan kripto mengelola akun yang menggunakan koin peningkat anonimitas, lapor [Cointelegraph](L4). Aturan ini tidak melarang individu menyimpan koin privasi di dompet mereka sendiri.
+
+Tidak semua koin privasi bergerak ke arah yang sama. Zcash (ZEC), yang memungkinkan pengguna memilih antara transaksi publik dan terlindungi, tetap diperdagangkan di KuCoin. ZEC naik sekitar 11% pada Jumat pagi setelah melemah pada hari Kamis, menurut [laporan pasar CoinDesk](L5) yang terpisah. Kepala riset Grayscale, Zach Pandl, mengatakan kepada Cointelegraph bahwa komitmen perusahaan terhadap Zcash akan berlanjut "selama bertahun-tahun ke depan".
+
+## Apa yang bisa dilakukan pemegang Monero
+
+Jika Anda memegang XMR di KuCoin, tanggal pentingnya sederhana. Anda bisa menjual sebelum perdagangan berakhir pada 30 November pukul 08:00 UTC (pukul 3 pagi waktu Pantai Timur AS) atau menarik koin ke dompet yang Anda kendalikan sendiri sebelum 31 Desember. Menarik ke dompet sendiri berarti Anda menyimpan kuncinya sendiri, jadi catat frasa pemulihan dan simpan secara offline. KuCoin menyatakan penarikan bisa ditutup lebih awal jika jaringan Monero sendiri bermasalah.
+
+Lebih sedikit bursa juga berarti pasar yang lebih tipis, sehingga harga bisa bergerak lebih liar. Pengembang Monero sedang menyiapkan pembaruan bernama FCMP++ yang dirancang agar transaksi makin sulit dilacak. Pembaruan itu sedang menjalani audit keamanan setelah jaringan uji publik diluncurkan pada Oktober, kata CoinDesk.
+
+Bagi pemula, pelajaran umumnya adalah sebuah koin bisa cepat kehilangan akses ke bursa-bursa besar. Banyak orang memulai dengan aset yang terdaftar luas seperti bitcoin, yang dibeli di bursa AS yang teregulasi seperti [Coinbase](REF). Kripto sangat fluktuatif, jadi investasikan hanya dana yang sanggup Anda relakan hilang. Ini bukan nasihat keuangan.
+
+## Yang perlu dipantau
+
+- Volume perdagangan dan harga XMR setelah pasangan di KuCoin ditutup pada 30 November.
+- Apakah bursa besar lain akan mengikuti KuCoin dan MEXC sebelum aturan Uni Eropa berlaku pada Juli 2027.
+- Perkembangan pembaruan FCMP++ milik Monero.
+
+!soft: Baru mengenal dompet kripto? Baca [penjelasan dompet kustodian dan dompet mandiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

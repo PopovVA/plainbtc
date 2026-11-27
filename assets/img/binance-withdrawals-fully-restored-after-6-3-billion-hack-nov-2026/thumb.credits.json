@@ -1,0 +1,40 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Binance_Logo.svg",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Binance_Logo.svg",
+      "credit": "Binance"
+    },
+    {
+      "file": "Service Recovery Update: Withdrawals Recovery Work Complete (2026-11-26)",
+      "license": "Facts cited",
+      "url": "https://www.binance.com/en/support/announcement/detail/95c463396a034f1ab3994814225e6d69",
+      "credit": "Binance"
+    },
+    {
+      "file": "CoinDesk, Nov. 27, 2026",
+      "license": "Facts cited",
+      "url": "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack",
+      "credit": "CoinDesk"
+    },
+    {
+      "file": "progress track illustration",
+      "license": "PlainBTC original",
+      "url": "",
+      "credit": "PlainBTC"
+    }
+  ],
+  "note": "Editorial composite; logo for identification only; no endorsement by Binance implied.",
+  "slug": "binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026",
+  "generated": "2026-11-27T14:04Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

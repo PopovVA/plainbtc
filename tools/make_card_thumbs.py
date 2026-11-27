@@ -3079,7 +3079,99 @@ def thumb_zodia_breach():
     ], "note": "Editorial composite; logo for identification only; no endorsement by Zodia Custody implied. Cards are PlainBTC illustrations."}
 
 
+def thumb_monero_kucoin():
+    """Monero-orange board: Monero logo (Wikimedia Commons) and KuCoin logo (Wikimedia Commons), identification only,
+    with a mini chart of Kraken XMR/USD daily closes Nov 1 to 26, 2026 and the KuCoin delisting date from KuCoin's notice."""
+    monero = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/2/2d/Monero-Logo.svg", CACHE/"monero-logo.svg")).convert("RGBA")
+    kucoin = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/3/39/KUCOIN.svg", CACHE/"kucoin-logo.svg")).convert("RGBA")
+    url = "https://api.kraken.com/0/public/OHLC?pair=XMRUSD&interval=1440&since=1793404800"
+    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60, context=CTX) as r:
+        rows = next(v for k, v in json.load(r)["result"].items() if k != "last")
+    start = datetime(2026, 11, 1, tzinfo=timezone.utc); end = datetime(2026, 11, 27, tzinfo=timezone.utc)
+    pts = [(datetime.fromtimestamp(r[0], tz=timezone.utc), float(r[4])) for r in rows]
+    pts = [p for p in pts if start <= p[0] < end]
+    xs, ys = [p[0] for p in pts], [p[1] for p in pts]
+    base = gradient_bg(top=(58, 24, 6), bottom=(18, 10, 6))
+    d = Draw(base)
+    xmr_or, ink, mute, kc = (255, 102, 0), (255, 247, 237), (253, 186, 116), (36, 174, 143)
+    # logo tiles
+    d.rounded_rectangle([22, 22, 222, 78], radius=12, fill=(255, 255, 255))
+    paste_contain(base, monero, (22, 22, 200, 56), pad=8)
+    d = Draw(base)
+    d.rounded_rectangle([22, 90, 222, 140], radius=12, fill=(14, 22, 20), outline=kc, width=2)
+    paste_contain(base, kucoin, (22, 90, 200, 50), pad=10)
+    d = Draw(base)
+    d.text((248, 24), "XMR trading ends on KuCoin", font=font(FONT_B, 21), fill=ink)
+    d.text((248, 54), "Nov. 30, 08:00 UTC", font=font(FONT_B, 30), fill=xmr_or)
+    d.text((248, 96), "Withdrawals open until Dec. 31, 08:00 UTC", font=font(FONT_R, 13), fill=mute)
+    d.text((248, 116), "Deposits already closed", font=font(FONT_R, 13), fill=mute)
+    # mini chart
+    fig = plt.figure(figsize=(6.0, 1.6), dpi=100 * S); fig.patch.set_facecolor("#1a0e06")
+    ax = fig.add_axes([0.08, 0.16, 0.9, 0.7]); ax.set_facecolor("#1a0e06")
+    for s in ("top", "right"): ax.spines[s].set_visible(False)
+    for s in ("left", "bottom"): ax.spines[s].set_color("#7c4a20")
+    ax.tick_params(colors="#fdba74", labelsize=6.5, length=0)
+    ax.grid(True, axis="y", color="#4a2a12", linewidth=0.6)
+    ax.plot(xs, ys, color="#ff6600", linewidth=2.2)
+    ax.fill_between(xs, ys, min(ys) * 0.96, color="#ff6600", alpha=0.15)
+    ax.scatter([xs[-1]], [ys[-1]], s=28, color="#f87171", zorder=5, edgecolors="white", linewidths=1)
+    ax.set_ylim(min(ys) * 0.96, max(ys) * 1.04)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"${v:,.0f}"))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %d"))
+    ax.set_title("XMR daily close on Kraken, Nov. 1 to 26 (UTC)", color="#fed7aa", fontsize=7.5, loc="left", pad=4)
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100 * S, facecolor=fig.get_facecolor()); plt.close(fig); buf.seek(0)
+    ch = Image.open(buf).convert("RGB")
+    base.paste(ch, sz((20, 156)))
+    d = Draw(base)
+    d.text((24, 324), "Logos: Monero, KuCoin (Wikimedia Commons) · prices: Kraken · date: KuCoin notice, Nov. 26, 2026", font=font(FONT_R, 9), fill=(251, 146, 60))
+    return base, {"kind": "composite", "sources": [
+        {"file": "Monero-Logo.svg", "license": "Logo", "url": "https://commons.wikimedia.org/wiki/File:Monero-Logo.svg", "credit": "The Monero Project"},
+        {"file": "KUCOIN.svg", "license": "Logo", "url": "https://commons.wikimedia.org/wiki/File:KUCOIN.svg", "credit": "KuCoin"},
+        {"file": "Kraken OHLC XMRUSD interval=1440", "license": "Kraken public API", "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "credit": "Daily XMR/USD closes Nov 1 to 26, 2026, from Kraken"},
+        {"file": "KuCoin Will Delist Monero (XMR) on 2026-11-30", "license": "Facts cited", "url": "https://www.kucoin.com/announcement/en-kucoin-will-delist-xmr-on-2026-11-30", "credit": "KuCoin"},
+    ], "note": "Editorial composite; logos for identification only; no endorsement implied."}
+
+
+def thumb_binance_restored():
+    """Binance-black board: Binance logo (Wikimedia Commons, identification only) over a drawn four-step progress track
+    (Oct. 29 hack to Nov. 26 full lift), dates and figures from Binance's Nov. 26 update, CoinDesk and Exchange.news."""
+    binance = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/e/e8/Binance_Logo.svg", CACHE/"binance-logo.svg")).convert("RGBA")
+    base = gradient_bg(top=(30, 32, 38), bottom=(11, 14, 17))
+    d = Draw(base)
+    yel, ink, mute, green, red = (240, 185, 11), (234, 236, 239), (132, 142, 156), (14, 203, 129), (246, 70, 93)
+    paste_contain(base, binance, (22, 20, 64, 56), pad=2)
+    d = Draw(base)
+    d.text((96, 34), "BINANCE", font=font(FONT_B, 24), fill=yel)
+    d.text((26, 92), "Withdrawals fully restored", font=font(FONT_B, 32), fill=ink)
+    d.text((28, 136), "Suspension from the October hack lifted, Binance says", font=font(FONT_R, 15), fill=mute)
+    steps = [("Oct. 29", "Hack: ~$6.3B", red), ("Nov. 1", "Restart begins", yel), ("Nov. 14", "87 networks", yel), ("Nov. 26", "Fully lifted", green)]
+    x0, x1, y = 70, 570, 222
+    d.rounded_rectangle([x0, y - 5, x1, y + 5], radius=5, fill=(43, 49, 57))
+    d.rounded_rectangle([x0, y - 5, x1, y + 5], radius=5, fill=yel)
+    for i, (dt_, lab, col) in enumerate(steps):
+        cx = x0 + i * (x1 - x0) / 3
+        d.ellipse([cx - 14, y - 14, cx + 14, y + 14], fill=col, outline=(11, 14, 17), width=3)
+        if i == 3:
+            d.line([(cx - 7, y), (cx - 2, y + 6), (cx + 8, y - 6)], fill=(11, 14, 17), width=3)
+        tw = d.textlength(dt_, font=font(FONT_B, 15))
+        d.text((cx - tw / 2, y - 44), dt_, font=font(FONT_B, 15), fill=ink)
+        lw = d.textlength(lab, font=font(FONT_R, 13))
+        d.text((cx - lw / 2, y + 24), lab, font=font(FONT_R, 13), fill=col if i in (0, 3) else mute)
+    d.rounded_rectangle([26, 276, 614, 312], radius=10, fill=(24, 26, 32), outline=(71, 77, 87), width=1)
+    d.text((40, 286), "A few networks still paused for maintenance, which Binance says is unrelated", font=font(FONT_R, 12), fill=ink)
+    d.text((26, 324), "Logo: Binance (Wikimedia Commons) · sources: Binance, CoinDesk, Exchange.news", font=font(FONT_R, 9), fill=mute)
+    return base, {"kind": "composite", "sources": [
+        {"file": "Binance_Logo.svg", "license": "Logo", "url": "https://commons.wikimedia.org/wiki/File:Binance_Logo.svg", "credit": "Binance"},
+        {"file": "Service Recovery Update: Withdrawals Recovery Work Complete (2026-11-26)", "license": "Facts cited", "url": "https://www.binance.com/en/support/announcement/detail/95c463396a034f1ab3994814225e6d69", "credit": "Binance"},
+        {"file": "CoinDesk, Nov. 27, 2026", "license": "Facts cited", "url": "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack", "credit": "CoinDesk"},
+        {"file": "progress track illustration", "license": "PlainBTC original", "url": "", "credit": "PlainBTC"},
+    ], "note": "Editorial composite; logo for identification only; no endorsement by Binance implied."}
+
+
+
 BUILDERS = {
+    "monero-falls-11-percent-kucoin-delists-xmr-nov-2026": thumb_monero_kucoin,
+    "binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026": thumb_binance_restored,
     "novatech-founders-ordered-to-pay-1-37-billion-new-york-crypto-ponzi-nov-2026": thumb_novatech_judgment,
     "zodia-custody-data-breach-cryptio-bithumb-phishing-nov-2026": thumb_zodia_breach,
     "house-strategic-bitcoin-reserve-bill-20-year-lock-floor-vote-nov-2026": thumb_sbr_bill_house,

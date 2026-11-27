@@ -1,0 +1,57 @@
+title: Binance says withdrawals are fully restored, four weeks after its $6.3 billion hack
+page_title: Binance fully lifts withdrawal suspension after the $6.3 billion hack
+description: Binance said on Nov. 26, 2026 that its withdrawal recovery work is complete and the suspension from the October hack is fully lifted. A few networks are still paused for routine maintenance.
+og_description: Four weeks after a record $6.3 billion hack, Binance says withdrawals are open across nearly all networks. Here is what changed and the scams to watch for.
+label: Business
+summary: Binance says the withdrawal suspension from its Oct. 29 hack is fully lifted, ending a four-week phased restart. A small number of networks remain paused for maintenance that the exchange says is unrelated. It also warned about scammers offering to "speed up withdrawals."
+===
+
+Binance, the world's largest crypto exchange, says customers can once again withdraw coins on nearly every network it supports, four weeks after a record hack forced it to freeze them. "Our withdrawal recovery work is completed and the withdrawal suspension from the October security incident has been fully lifted," the company said in a [service update](L1) on Thursday, Nov. 26.
+
+A withdrawal is how you move crypto off an exchange, either to a wallet you control or to another platform. For some Binance users, certain networks had been unavailable since late October.
+
+!takeaways
+- Binance says its withdrawal recovery work is complete and the suspension tied to the Oct. 29 hack is fully lifted.
+- A small number of networks are still paused for maintenance or planned upgrades. Binance says this is unrelated to the hack, affects "a very small percentage" of regular traffic, and did not name the networks.
+- The exchange says all user assets remain fully backed and points users to its Proof of Reserves page.
+- Binance warned it will never contact users to "speed up withdrawals," offer "priority processing" or move assets into a "Binance vault."
+
+!figure:timeline
+
+## Four weeks from hack to full restart
+
+The trouble began on Oct. 29, when Binance said a hack affected about $6.3 billion in assets, the largest crypto theft on record, [CoinDesk](L2) reported. Withdrawals were halted, and the exchange began bringing them back in stages on Nov. 1, starting with bitcoin and a short list of other coins and networks. When withdrawals first reopened, customers pulled a net $4.7 billion off the platform, Binance said on Nov. 2, according to [Reuters](L3).
+
+On Nov. 14, Binance said it had reopened 87 networks in one week and aimed to restore all remaining networks and assets by the end of the following week, [Exchange.news](L4) noted. Thursday's update closes that process. Binance repeated the news on X, saying withdrawals "are open across nearly all networks."
+
+Binance's first review suggested that an engineer's laptop had been compromised. In a Nov. 3 report, it said the attackers used fake job interviews, malicious software and compromised internal AI tools to reach systems that control its wallets, according to CoinDesk. Blockchain analytics firm TRM Labs tied the attack to a North Korean hacking group known as TraderTraitor, and the FBI has also pointed to North Korea.
+
+!figure:fact
+
+!mid_cta
+
+## Who covered the losses
+
+Binance promised early on to cover customers' losses itself. By Oct. 31 it said it had replaced 90% of the stolen crypto, using company money and its SAFU fund, an emergency reserve kept for cases like this. By Nov. 3 the figure was 98% of the $6.34 billion affected, CoinDesk reported.
+
+Getting the stolen coins back is a separate job. About $2.85 billion of the stolen funds has been frozen remotely by the companies that issue those tokens, Reuters said, while researchers say the rest is being moved through little-known crypto services in a laundering effort that could take months or even years.
+
+## What it means for users
+
+Binance said some delays can start on the blockchains themselves and pointed users to its network status page. If a withdrawal does not go through, checking that page first is the simplest step.
+
+The bigger risk now is fraud. Large security incidents attract scammers who pose as support staff and promise to "release" funds for a fee. Binance said it will never ask for a password, a two-factor code or a seed phrase (the list of words that unlocks a crypto wallet), and asked users to trust only its official channels.
+
+The episode is also a reminder of the trade-off between keeping coins on an exchange and holding them yourself. An exchange handles security for you, but when it pauses withdrawals you have to wait. Self-custody removes that wait but makes you responsible for your own keys. Many beginners start with a small amount on a regulated U.S. exchange such as [Coinbase](REF) and learn how withdrawals work before moving coins to their own wallet. Crypto is volatile, so only invest what you can afford to lose. This is not financial advice.
+
+## What to watch next
+
+- When Binance reopens the networks still paused for maintenance.
+- Further freezes or seizures of the stolen funds.
+- Any final report from Binance on how the attackers got in.
+
+!soft: Read our earlier coverage: [Binance reopens withdrawals on 87 networks](/articles/binance-reopens-withdrawals-87-networks-nov-2026).
+
+!end_cta
+
+!disclosure

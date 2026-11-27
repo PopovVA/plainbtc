@@ -1,0 +1,57 @@
+title: Binance affirme que les retraits sont entièrement rétablis, quatre semaines après son piratage de 6,3 milliards de dollars
+page_title: Binance lève totalement la suspension des retraits après le piratage de 6,3 milliards
+description: Binance a déclaré le 26 novembre 2026 que le rétablissement des retraits était terminé et que la suspension liée au piratage d'octobre était entièrement levée. Quelques réseaux restent en pause pour une maintenance de routine.
+og_description: Quatre semaines après un piratage record de 6,3 milliards de dollars, Binance indique que les retraits sont ouverts sur presque tous les réseaux. Ce qui a changé et les arnaques à surveiller.
+label: Entreprises
+summary: Binance affirme que la suspension des retraits liée au piratage du 29 octobre est entièrement levée, ce qui clôt une réouverture progressive de quatre semaines. Quelques réseaux restent en pause pour une maintenance que la plateforme dit sans rapport avec l'attaque. Elle met aussi en garde contre les escrocs qui proposent d'« accélérer les retraits ».
+===
+
+Binance, la plus grande plateforme d'échange de cryptos au monde, affirme que ses clients peuvent de nouveau retirer leurs cryptos sur presque tous les réseaux pris en charge, quatre semaines après un piratage record qui l'avait obligée à les geler. « Notre travail de rétablissement des retraits est terminé et la suspension des retraits liée à l'incident de sécurité d'octobre est entièrement levée », a indiqué l'entreprise dans une [mise à jour de service](L1) le jeudi 26 novembre.
+
+Un retrait permet de sortir des cryptos d'une plateforme, vers un portefeuille que vous contrôlez ou vers un autre service. Pour certains utilisateurs de Binance, certains réseaux étaient indisponibles depuis fin octobre.
+
+!takeaways
+- Binance affirme avoir terminé le rétablissement des retraits et que la suspension liée au piratage du 29 octobre est entièrement levée.
+- Quelques réseaux restent en pause pour maintenance ou mises à niveau prévues. Binance dit que c'est sans rapport avec le piratage, que cela touche « un très faible pourcentage » du trafic habituel, et n'a pas nommé ces réseaux.
+- La plateforme affirme que tous les actifs des utilisateurs restent entièrement couverts et renvoie à sa page de preuve de réserves.
+- Binance prévient qu'elle ne contactera jamais ses utilisateurs pour « accélérer les retraits », proposer un « traitement prioritaire » ou transférer des actifs vers un « coffre Binance ».
+
+!figure:timeline
+
+## Quatre semaines entre le piratage et la réouverture complète
+
+Tout a commencé le 29 octobre, quand Binance a indiqué qu'un piratage touchait environ 6,3 milliards de dollars d'actifs, le plus gros vol de cryptos jamais enregistré, a rapporté [CoinDesk](L2). Les retraits ont été stoppés, puis la plateforme a commencé à les rétablir par étapes le 1er novembre, en commençant par le bitcoin et une courte liste d'autres cryptos et réseaux. À la réouverture des retraits, les clients ont retiré en net 4,7 milliards de dollars de la plateforme, a déclaré Binance le 2 novembre, selon [Reuters](L3).
+
+Le 14 novembre, Binance a indiqué avoir rouvert 87 réseaux en une semaine et viser le rétablissement de tous les réseaux et actifs restants d'ici la fin de la semaine suivante, a noté [Exchange.news](L4). La mise à jour de jeudi clôt ce processus. Binance a relayé l'annonce sur X, en précisant que les retraits « sont ouverts sur presque tous les réseaux ».
+
+Le premier examen de Binance suggérait que l'ordinateur portable d'un ingénieur avait été compromis. Dans un rapport du 3 novembre, la plateforme a indiqué que les attaquants avaient utilisé de faux entretiens d'embauche, des logiciels malveillants et des outils d'IA internes compromis pour atteindre les systèmes qui contrôlent ses portefeuilles, selon CoinDesk. La société d'analyse blockchain TRM Labs a attribué l'attaque à un groupe de pirates nord-coréen appelé TraderTraitor, et le FBI a lui aussi désigné la Corée du Nord.
+
+!figure:fact
+
+!mid_cta
+
+## Qui a couvert les pertes
+
+Binance a promis dès le départ de couvrir elle-même les pertes des clients. Au 31 octobre, elle disait avoir remplacé 90 % des cryptos volées, grâce à des fonds de l'entreprise et à son fonds SAFU, une réserve d'urgence prévue pour ce type de cas. Au 3 novembre, le chiffre atteignait 98 % des 6,34 milliards de dollars concernés, a rapporté CoinDesk.
+
+Récupérer les cryptos volées est une autre affaire. Environ 2,85 milliards de dollars des fonds volés ont été gelés à distance par les sociétés qui émettent ces jetons, selon Reuters, tandis que des chercheurs affirment que le reste transite par des services crypto peu connus dans une opération de blanchiment qui pourrait durer des mois, voire des années.
+
+## Ce que cela change pour les utilisateurs
+
+Binance indique que certains retards peuvent venir des blockchains elles-mêmes et renvoie vers sa page d'état des réseaux. Si un retrait n'aboutit pas, consulter d'abord cette page est le réflexe le plus simple.
+
+Le principal risque est désormais la fraude. Les grands incidents de sécurité attirent des escrocs qui se font passer pour le support et promettent de « débloquer » des fonds contre des frais. Binance rappelle qu'elle ne demandera jamais de mot de passe, de code de double authentification ni de phrase de récupération (la liste de mots qui déverrouille un portefeuille crypto), et invite à ne se fier qu'à ses canaux officiels.
+
+L'épisode rappelle aussi l'arbitrage entre laisser ses cryptos sur une plateforme et les garder soi-même. Une plateforme gère la sécurité pour vous, mais quand elle suspend les retraits, il faut attendre. L'auto-garde supprime cette attente, mais vous rend responsable de vos propres clés. Beaucoup de débutants commencent avec une petite somme sur une plateforme américaine régulée comme [Coinbase](REF) et apprennent le fonctionnement des retraits avant de transférer des cryptos vers leur propre portefeuille. Les cryptos sont volatiles : n'investissez que ce que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil financier.
+
+## À surveiller
+
+- La date de réouverture des réseaux encore en pause pour maintenance.
+- De nouveaux gels ou saisies des fonds volés.
+- Un éventuel rapport final de Binance sur la manière dont les attaquants sont entrés.
+
+!soft: Lisez notre article précédent : [Binance rouvre les retraits sur 87 réseaux](/articles/binance-reopens-withdrawals-87-networks-nov-2026).
+
+!end_cta
+
+!disclosure

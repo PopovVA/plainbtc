@@ -1,0 +1,59 @@
+title: Monero fällt um rund 11 %, nachdem KuCoin das Delisting von XMR zum 30. November ankündigt
+page_title: Monero bricht um 11 % ein: KuCoin nimmt XMR am 30. November von der Börse
+description: Monero (XMR) erlebte den größten Tagesverlust seit Juni, nachdem KuCoin angekündigt hat, den XMR-Handel am 30. November 2026 einzustellen. Was sich ändert, bis wann Auszahlungen möglich sind und warum Börsen Privacy Coins weiter aussortieren.
+og_description: KuCoin stellt den XMR-Handel am 30. November um 08:00 UTC ein und schließt Auszahlungen am 31. Dezember. Monero fiel am Donnerstag um mehr als 11 %, der schlechteste Tag seit dem 4. Juni.
+label: Märkte
+summary: Monero fiel am Donnerstag um mehr als 11 %, nachdem KuCoin das Delisting von XMR zum 30. November angekündigt hatte, wenige Wochen nach MEXC. KuCoin-Nutzer haben bis zum 31. Dezember Zeit für Auszahlungen. EU-Regeln, die im Juli 2027 greifen, drängen regulierte Plattformen weg von Privacy Coins.
+===
+
+Monero (XMR), der bekannteste Privacy Coin, erlebte am Donnerstag, dem 26. November, den schlechtesten Tag seit mehr als fünf Monaten, nachdem die Kryptobörse KuCoin angekündigt hatte, den Token nächste Woche vom Handel zu nehmen. XMR verlor an diesem Tag mehr als 11 %, der größte Tagesverlust seit dem 4. Juni, wie [CoinDesk](L2) berichtet.
+
+Bei Kraken eröffnete XMR den Donnerstag (UTC) bei rund 517 $, fiel bis auf etwa 429 $ und schloss bei rund 458 $. Am Freitagmorgen (US-Zeit) notierte der Coin bei etwa 440 $, rund 31 % unter seinem Schlusskurs vom 4. November von etwa 641 $.
+
+!takeaways
+- KuCoin nimmt XMR am Montag, dem 30. November, um 08:00 UTC vom Handel und schließt die Paare XMR/USDT, XMR/USDC, XMR/ETH und XMR/BTC.
+- XMR-Einzahlungen bei KuCoin sind bereits geschlossen und werden nicht wieder geöffnet. Auszahlungen bleiben bis 31. Dezember, 08:00 UTC, möglich, wobei KuCoin sie nach eigenen Angaben auch früher schließen kann.
+- MEXC hat den XMR-Spothandel Anfang November eingestellt. Binance, OKX, Bitget und Coinbase International bieten laut CoinDesk schon jetzt keinen XMR-Handel an.
+- Ab dem 10. Juli 2027 verbieten EU-Geldwäscheregeln Kryptofirmen, Konten mit „anonymitätsfördernden Kryptowerten“ zu führen.
+
+!figure:chart
+
+## Was KuCoin angekündigt hat
+
+In seiner [Ankündigung](L1) nannte KuCoin keinen anderen Grund als die „Plattformrichtlinien“. Neben dem Spothandel stellt die Börse nach festem Zeitplan auch alle anderen XMR-Produkte ein. Flexible Savings in KuCoin Earn endete am 27. November um 12:00 UTC, die Guthaben wurden auf die Funding-Konten der Nutzer übertragen. Convert stoppt am 30. November um 03:00 UTC, Trading-Bots mit XMR werden am selben Tag um 06:00 UTC abgeschaltet. Außerdem zählt XMR ab dem 30. November nicht mehr als Sicherheit für VIP-Kredite.
+
+KuCoin warnte, dass XMR, die nach Schließung der Auszahlungen noch auf einem Konto liegen, für den Nutzer in Stablecoins umgetauscht werden können. Eine solche Umwandlung ist nicht garantiert, und ein delisteter Token kann laut Börse stark an Wert verlieren oder wertlos werden.
+
+Der Schritt ist bedeutsam, weil KuCoin zu einem der größten Handelsplätze für XMR geworden war. Das XMR/USDT-Paar der Börse setzte am Donnerstag 73,8 Millionen Dollar um, rund 47 % des gesamten XMR-Spotvolumens, laut CoinMarketCap-Daten, die U.Today veröffentlichte und [Coindaro](L3) zitierte.
+
+!figure:fact
+
+!mid_cta
+
+## Warum Börsen Privacy Coins aussortieren
+
+Monero verbirgt standardmäßig Absender, Empfänger und Betrag jeder Transaktion. Befürworter sehen darin grundlegende finanzielle Privatsphäre. Aufseher befürchten, dass sich Geldwäsche so schwerer nachverfolgen lässt. KuCoin ist in diesem Monat bereits die zweite große Börse, die den Coin streicht, nachdem MEXC seine XMR-Spotpaare am 13. November delistet hatte, berichtete [CoinDesk](L2). Laut von CoinDesk zitierten Daten von TRM Labs haben allein 2025 insgesamt 73 Börsen den Token delistet.
+
+Europa erhöht den Druck. Ab dem 10. Juli 2027 verbietet die EU-Geldwäscheverordnung Krypto-Dienstleistern, Konten mit anonymitätsfördernden Kryptowerten zu führen, berichtete [Cointelegraph](L4). Privatpersonen dürfen Privacy Coins weiterhin in ihren eigenen Wallets halten.
+
+Nicht alle Privacy Coins entwickeln sich gleich. Zcash (ZEC), bei dem Nutzer zwischen öffentlichen und abgeschirmten Transaktionen wählen können, bleibt bei KuCoin gelistet. Der Coin lag am frühen Freitag rund 11 % im Plus, nachdem er am Donnerstag gefallen war, so ein weiterer [Marktbericht von CoinDesk](L5). Grayscale-Forschungschef Zach Pandl sagte Cointelegraph, das Engagement des Unternehmens für Zcash werde „noch viele Jahre“ andauern.
+
+## Was Monero-Besitzer tun können
+
+Wer XMR bei KuCoin hält, muss sich zwei Termine merken. Man kann vor dem Handelsende am 30. November um 08:00 UTC verkaufen (3 Uhr morgens an der US-Ostküste) oder die Coins vor dem 31. Dezember auf eine eigene Wallet auszahlen. Mit einer eigenen Wallet verwaltet man die Schlüssel selbst, also die Wiederherstellungsphrase aufschreiben und offline aufbewahren. KuCoin zufolge könnten Auszahlungen früher schließen, falls das Monero-Netzwerk selbst Probleme bekommt.
+
+Weniger Börsen bedeuten auch dünnere Märkte, was die Kurse stärker schwanken lassen kann. Die Monero-Entwickler arbeiten an einem Upgrade namens FCMP++, das Transaktionen noch schwerer nachverfolgbar machen soll. Es durchläuft Sicherheitsprüfungen, nachdem im Oktober ein öffentliches Testnetz gestartet ist, so CoinDesk.
+
+Für Einsteiger lautet die Lehre: Ein Coin kann den Zugang zu großen Börsen schnell verlieren. Viele beginnen mit breit gelisteten Werten wie Bitcoin, gekauft bei einer regulierten US-Börse wie [Coinbase](REF). Kryptowerte sind volatil, investieren Sie also nur, was Sie sich leisten können zu verlieren. Dies ist keine Finanzberatung.
+
+## Worauf man jetzt achten sollte
+
+- Handelsvolumen und Kurs von XMR, nachdem die KuCoin-Paare am 30. November schließen.
+- Ob weitere große Börsen KuCoin und MEXC folgen, bevor die EU-Regel im Juli 2027 greift.
+- Fortschritte beim Monero-Upgrade FCMP++.
+
+!soft: Neu bei Wallets? Lesen Sie [verwahrte und selbstverwahrte Wallets einfach erklärt](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,59 @@
+title: Monero cai cerca de 11% depois que a KuCoin anunciou que vai deslistar o XMR em 30 de novembro
+page_title: Monero despenca 11% com a KuCoin prestes a deslistar o XMR em 30 de novembro
+description: O Monero (XMR) teve sua maior queda diária desde junho depois que a KuCoin anunciou que vai encerrar a negociação de XMR em 30 de novembro de 2026. Veja o que muda, o prazo para saque e por que as corretoras continuam abandonando as moedas de privacidade.
+og_description: A KuCoin vai encerrar a negociação de XMR às 08:00 UTC de 30 de novembro e fechar os saques em 31 de dezembro. O Monero caiu mais de 11% na quinta-feira, seu pior dia desde 4 de junho.
+label: Mercados
+summary: O Monero caiu mais de 11% na quinta-feira depois que a KuCoin anunciou que vai deslistar o XMR em 30 de novembro, semanas depois de a MEXC fazer o mesmo. Os usuários da KuCoin têm até 31 de dezembro para sacar. Regras da UE que começam em julho de 2027 estão afastando as plataformas reguladas das moedas de privacidade.
+===
+
+O Monero (XMR), a moeda de privacidade mais conhecida, teve seu pior dia em mais de cinco meses na quinta-feira, 26 de novembro, depois que a corretora KuCoin anunciou que vai parar de negociar o token na próxima semana. O XMR caiu mais de 11% no dia, sua maior queda diária desde 4 de junho, segundo o [CoinDesk](L2).
+
+Na Kraken, o XMR abriu a quinta-feira (UTC) em cerca de US$ 517, tocou uma mínima perto de US$ 429 e fechou em torno de US$ 458. Na manhã de sexta-feira (horário dos EUA), era negociado perto de US$ 440, cerca de 31% abaixo do fechamento de 4 de novembro, de aproximadamente US$ 641.
+
+!takeaways
+- A KuCoin vai deslistar o XMR às 08:00 UTC da segunda-feira, 30 de novembro, encerrando os pares XMR/USDT, XMR/USDC, XMR/ETH e XMR/BTC.
+- Os depósitos de XMR na KuCoin já estão fechados e não serão reabertos. Os saques continuam abertos até as 08:00 UTC de 31 de dezembro, embora a KuCoin diga que pode fechá-los antes.
+- A MEXC encerrou a negociação à vista de XMR no início de novembro. Binance, OKX, Bitget e Coinbase International já não oferecem negociação de XMR, segundo o CoinDesk.
+- A partir de 10 de julho de 2027, as regras da UE contra lavagem de dinheiro vão proibir empresas de cripto de manter contas que usem "moedas que reforçam o anonimato".
+
+!figure:chart
+
+## O que a KuCoin anunciou
+
+No [comunicado](L1), a KuCoin não deu outro motivo além das "políticas da plataforma". Além da negociação à vista, ela está encerrando todos os outros produtos de XMR em um cronograma fixo. O Flexible Savings do KuCoin Earn terminou às 12:00 UTC de 27 de novembro, e os saldos foram transferidos para as contas de fundos dos usuários. O Convert para às 03:00 UTC de 30 de novembro, e os robôs de negociação que usam XMR são desligados às 06:00 UTC do mesmo dia. O XMR também deixa de valer como garantia para empréstimos VIP em 30 de novembro.
+
+A KuCoin avisou que, se ainda houver XMR em uma conta depois do fechamento dos saques, ela pode convertê-los em stablecoins para o usuário. Essa conversão não é garantida, e a corretora disse que um token deslistado pode perder muito valor ou ficar sem valor nenhum.
+
+A decisão pesa porque a KuCoin tinha se tornado um dos maiores mercados de XMR. O par XMR/USDT da corretora movimentou US$ 73,8 milhões na quinta-feira, cerca de 47% de todo o volume à vista de XMR, segundo dados do CoinMarketCap publicados pelo U.Today e citados pelo [Coindaro](L3).
+
+!figure:fact
+
+!mid_cta
+
+## Por que as corretoras continuam abandonando as moedas de privacidade
+
+O Monero esconde por padrão o remetente, o destinatário e o valor de cada transação. Os defensores veem isso como privacidade financeira básica. Os reguladores temem que isso dificulte o rastreamento de lavagem de dinheiro. A KuCoin é a segunda grande corretora a abandonar a moeda neste mês, depois que a MEXC deslistou seus pares à vista de XMR em 13 de novembro, informou o [CoinDesk](L2). Segundo dados da TRM Labs citados pelo CoinDesk, 73 corretoras deslistaram o token só em 2025.
+
+A Europa aumenta a pressão. A partir de 10 de julho de 2027, o Regulamento Antilavagem de Dinheiro da UE vai proibir prestadores de serviços de cripto de manter contas que usem moedas que reforçam o anonimato, informou o [Cointelegraph](L4). A regra não impede que pessoas físicas guardem moedas de privacidade em suas próprias carteiras.
+
+Nem todas as moedas de privacidade seguem o mesmo rumo. A Zcash (ZEC), que permite escolher entre transações públicas e protegidas, continua na KuCoin. Ela subia cerca de 11% no início da sexta-feira depois de cair na quinta, segundo outro [relatório de mercado do CoinDesk](L5). O chefe de pesquisa da Grayscale, Zach Pandl, disse ao Cointelegraph que o compromisso da empresa com a Zcash vai continuar "por muitos anos".
+
+## O que os detentores de Monero podem fazer
+
+Se você tem XMR na KuCoin, as datas principais são simples. Dá para vender antes de a negociação terminar às 08:00 UTC de 30 de novembro (3h da manhã no horário da costa leste dos EUA) ou sacar as moedas para uma carteira que você controla antes de 31 de dezembro. Sacar para a sua própria carteira significa guardar as chaves você mesmo, então anote a frase de recuperação e guarde-a offline. A KuCoin diz que os saques podem fechar antes se a própria rede do Monero tiver problemas.
+
+Menos corretoras também significam mercados mais rasos, o que pode deixar os preços mais instáveis. Os desenvolvedores do Monero trabalham em uma atualização chamada FCMP++, criada para tornar as transações ainda mais difíceis de rastrear. Ela está passando por auditorias de segurança depois do lançamento de uma rede de testes pública em outubro, segundo o CoinDesk.
+
+Para quem está começando, a lição mais ampla é que uma moeda pode perder rapidamente o acesso às grandes corretoras. Muita gente começa com ativos amplamente listados, como o bitcoin, comprados em uma corretora regulamentada dos EUA como a [Coinbase](REF). Cripto é volátil, então invista apenas o que você pode perder. Isto não é recomendação financeira.
+
+## O que acompanhar
+
+- O volume de negociação e o preço do XMR depois que os pares da KuCoin forem encerrados em 30 de novembro.
+- Se outras grandes corretoras vão seguir a KuCoin e a MEXC antes de a regra da UE começar em julho de 2027.
+- O avanço da atualização FCMP++ do Monero.
+
+!soft: Novo em carteiras? Leia [carteiras custodiais e de autocustódia explicadas](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure
