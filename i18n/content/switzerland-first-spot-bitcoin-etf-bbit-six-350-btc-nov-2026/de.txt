@@ -1,0 +1,61 @@
+title: Erster Spot-Bitcoin-ETF der Schweiz: BBIT startet an der SIX mit 350 Bitcoin
+page_title: BBIT, erster Spot-Bitcoin-ETF der Schweiz, startet an der SIX
+description: Der Bitcoin Fund ETF (BBIT) von BIT Asset Management wird seit dem 26. November 2026 mit 350 BTC an der SIX Swiss Exchange gehandelt. Er hält Bitcoin direkt als regulierter Schweizer Fonds, zielt auf 0,19 % Gebühren pro Jahr und wird öffentlich nur in der Schweiz angeboten.
+og_description: BBIT verwahrt seine Bitcoin offline bei der AMINA Bank, wird in Franken und US-Dollar gehandelt und zielt auf 0,19 % Gebühren pro Jahr. Laut BIT ist er derzeit Europas einziger Spot-Bitcoin-ETF.
+label: Wirtschaft
+summary: Der erste Spot-Bitcoin-ETF der Schweiz wird seit dem 26. November mit 350 BTC an der SIX Swiss Exchange gehandelt. Anders als die meisten europäischen Bitcoin-Produkte ist BBIT ein Fonds und keine Schuldverschreibung. Er zielt auf 0,19 % Gebühren pro Jahr und wird öffentlich nur in der Schweiz angeboten, nicht für US-Personen.
+===
+
+Die Schweiz hat jetzt einen Spot-Bitcoin-ETF. Der Bitcoin Fund ETF mit dem Kürzel BBIT wird seit Donnerstag, 26. November, an der SIX Swiss Exchange gehandelt und startete mit 350 Bitcoin, [teilte](L1) Sponsor BIT Asset Management mit. Die SIX nannte ihn in ihrer eigenen [Mitteilung](L2) den ersten Bitcoin-ETF der Schweiz. Zu den Kursen vom Donnerstag war der Anfangsbestand mehr als 20 Millionen US-Dollar wert, berichtete [The Block](L3).
+
+BIT Asset Management ist die Zürcher Tochter von BIT, einem Digital-Asset-Unternehmen mit Sitz in Singapur, das 2019 als Matrixport gegründet wurde. Sie ist Sponsor und Vermögensverwalter des Fonds. Pernet von Ballmoos AG (PvB) ist Emittentin und Fondsleitung, die AMINA Bank, eine Schweizer Bank, verwahrt die Coins.
+
+!takeaways
+- BBIT wird an der SIX in Franken und US-Dollar unter der ISIN CH1593447597 gehandelt. Er hält Bitcoin direkt und nutzt weder Derivate noch Wertpapierleihe.
+- Die Schweizer Aufsicht FINMA genehmigte den Fonds am 20. Oktober nach 18-monatiger Prüfung, einschließlich einer Ausnahme von der üblichen Pflicht zur Diversifikation.
+- Die angestrebte Gesamtkostenquote beträgt 0,19 % pro Jahr. Market Maker ist Flow Traders.
+- Der Fonds wird öffentlich nur in der Schweiz angeboten und steht US-Personen nicht offen.
+
+!figure:fact
+
+## Ein Fonds, keine Schuldverschreibung
+
+In der Schweiz werden seit Jahren Bitcoin-Produkte gehandelt, doch das waren börsengehandelte Produkte (ETPs) in Form von Schuldtiteln. Wer eines kauft, hat eine Forderung gegen den Emittenten und trägt dessen Kreditrisiko. BBIT ist ein Schweizer Anlagefonds nach dem Kollektivanlagengesetz. Seine Bitcoin sind rechtlich abgesondert, und Anleger halten Fondsanteile statt einer Forderung gegen den Emittenten, so BIT.
+
+„Das wirtschaftliche Exposure eines Fonds und einer Note kann sehr ähnlich aussehen, solange alles gut läuft. Der Unterschied zeigt sich, wenn es nicht gut läuft“, sagte Friedrich Herzog, Chief Investment Officer von BIT Asset Management.
+
+Laut SIX wurden die ersten strukturierten Produkte auf Bitcoin 2016 an ihrer Börse gehandelt, und im November 2018 notierte sie als weltweit erste regulierte Börse ein physisch besichertes Krypto-Korb-ETP. Mit BBIT steigt die Zahl der ETF-Emittenten an der SIX auf 41.
+
+## So funktioniert BBIT
+
+Der Fonds verfolgt eine passive Strategie und bildet den SIX Reference Rate Bitcoin Index ab. Die AMINA Bank verwahrt die Coins in Offline-Wallets („Cold Storage“) mit Multi-Signatur-Kontrollen, auf Adressen im Namen des Fonds, heißt es in den [FAQ](L4) des Fonds. Gehandelt wird über Schweizer Banken und Broker zu den SIX-Handelszeiten, 09:00 bis 17:30 Uhr mitteleuropäischer Zeit, Montag bis Freitag. Berechtigte Anleger können auch zeichnen, indem sie Bitcoin statt Bargeld einbringen.
+
+Beim Handel über die Börse fallen keine Ausgabe- oder Rücknahmekommissionen an, Brokergebühren, Schweizer Stempelsteuer und die Geld-Brief-Spanne gelten aber weiterhin, [so](L5) die Fondsleitung PvB.
+
+!figure:chart
+
+!mid_cta
+
+## Europas einziger Spot-Bitcoin-ETF, vorerst
+
+Laut BIT ist BBIT derzeit Europas einziger Spot-Bitcoin-ETF. Europa hatte schon einmal einen: Der Jacobi FT Wilshire Bitcoin ETF startete im August 2023 an der Euronext Amsterdam, doch Euronext führt ihn seit dem 2. Februar 2026 als inaktiv, und am 26. Februar wurde ein Liquidator bestellt, berichtete The Block. Bei der Genehmigung von BBIT erklärte die FINMA, dass auch andere Anbieter Bitcoin-ETFs beantragt oder angekündigt hätten, so [The Block](L6).
+
+Der Start fällt in ein schwieriges Marktumfeld. Zwischen der FINMA-Genehmigung am 20. Oktober und der Notierung fiel der Bitcoin-Tagesschlusskurs bei Kraken von rund 82.900 $ auf rund 60.500 $, ein Minus von etwa 27 %. BIT-Mitgründerin Cynthia Wu sagte, der Fonds biete Anlegern außerhalb der USA „einen regulierten, liquiden Weg, Bitcoin über die Bank oder den Broker zu halten, den sie bereits nutzen“.
+
+Die FINMA betonte zudem, dass die Genehmigung des ETF nichts an den Risiken von Bitcoin ändert. Der Kurs ist sehr volatil, und Anleger könnten einen erheblichen Teil ihres Geldes verlieren, so die Aufsicht.
+
+## Was das für Anleger anderswo bedeutet
+
+BBIT wird öffentlich nur in der Schweiz angeboten und steht US-Personen nicht offen. Anderswo gibt es Alternativen: Die USA haben eigene Spot-Bitcoin-ETFs, und [Malaysias erster Bitcoin-ETF](/articles/malaysia-halogen-shariah-bitcoin-etf-bursa-listing-dec-2-nov-2026) soll am 2. Dezember starten. Wer die Coins lieber selbst besitzen will, kann bei einer regulierten Plattform wie [Coinbase](REF) mit kleinen Beträgen beginnen. Bitcoin ist volatil, investieren Sie nur, was Sie sich leisten können zu verlieren. Dies ist keine Finanzberatung.
+
+## Worauf man jetzt achten sollte
+
+- Wie viele Bitcoin BBIT nach den ersten Handelswochen hält, verglichen mit den anfänglichen 350 BTC.
+- Ob die FINMA Spot-Bitcoin-ETFs weiterer Anbieter genehmigt.
+- Ob BIT die Zulassung erhält, den Fonds auch außerhalb der Schweiz anzubieten, was laut FAQ geplant ist.
+
+!soft: Fonds oder eigene Coins? Lesen Sie [Bitcoin-ETF oder Bitcoin direkt kaufen](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

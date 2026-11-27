@@ -1,0 +1,23 @@
+{
+ "slug": "switzerland-first-spot-bitcoin-etf-bbit-six-350-btc-nov-2026",
+ "date": "2026-11-27",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "malaysia-halogen-shariah-bitcoin-etf-bursa-listing-dec-2-nov-2026",
+  "bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026",
+  "ark-invest-withdraws-coindesk-20-crypto-etfs-nov-2026",
+  "bitcoin-etf-vs-buying-bitcoin",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {"url": "https://www.bit.com/pressroom/six-listing", "title": "BIT: BIT AM lists Switzerland's first spot Bitcoin ETF on SIX Exchange", "date": "Nov 26, 2026"},
+  {"url": "https://www.six-group.com/en/newsroom/media-releases/2026/20261126-bit-etf-issuer.html", "title": "SIX: BIT Asset Management brings Switzerland's first spot Bitcoin ETF to SIX Swiss Exchange", "date": "Nov 26, 2026"},
+  {"url": "https://www.theblock.co/news/markets/2026-11-26-swiss-bitcoin-etf-bbit-begins-trading-europes-only-446724", "title": "The Block: Europe's only spot bitcoin ETF starts trading in Switzerland, BIT says", "date": "Nov 26, 2026"},
+  {"url": "https://www.bit-am.com/bbit/faq", "title": "BIT Asset Management: BBIT frequently asked questions", "date": "Nov 27, 2026"},
+  {"url": "https://www.pvbswiss.com/en/bitcoin-etf/", "title": "PvB Pernet von Ballmoos: Bitcoin Fund ETF key facts", "date": "Nov 27, 2026"},
+  {"url": "https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127", "title": "The Block: Swiss regulator FINMA approves country's first spot bitcoin ETF for retail investors", "date": "Oct 20, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken public API: BTC/USD daily OHLC data", "date": "Nov 27, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

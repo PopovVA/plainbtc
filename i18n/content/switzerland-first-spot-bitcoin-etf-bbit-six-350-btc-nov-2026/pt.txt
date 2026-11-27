@@ -1,0 +1,61 @@
+title: O primeiro ETF de bitcoin à vista da Suíça, o BBIT, começa a ser negociado na SIX com 350 bitcoins
+page_title: BBIT, primeiro ETF de bitcoin à vista da Suíça, estreia na SIX
+description: O Bitcoin Fund ETF (BBIT), da BIT Asset Management, começou a ser negociado na SIX Swiss Exchange em 26 de novembro de 2026 com 350 BTC. Ele detém bitcoin diretamente como fundo suíço regulado, mira uma taxa de 0,19% ao ano e só é oferecido publicamente na Suíça.
+og_description: O BBIT guarda seus bitcoins em armazenamento a frio no AMINA Bank, é negociado em francos suíços e dólares e mira uma taxa de 0,19% ao ano. A BIT diz que hoje ele é o único ETF de bitcoin à vista da Europa.
+label: Negócios
+summary: O primeiro ETF de bitcoin à vista da Suíça começou a ser negociado na SIX Swiss Exchange em 26 de novembro com 350 BTC. Ao contrário da maioria dos produtos europeus de bitcoin, o BBIT é um fundo, e não uma nota de dívida. Mira uma taxa de 0,19% ao ano e só é oferecido publicamente na Suíça, não a pessoas dos EUA.
+===
+
+A Suíça agora tem um ETF de bitcoin à vista. O Bitcoin Fund ETF, de código BBIT, começou a ser negociado na SIX Swiss Exchange na quinta-feira, 26 de novembro, com 350 bitcoins em ativos, [informou](L1) sua patrocinadora, a BIT Asset Management. A SIX o chamou de primeiro ETF de bitcoin da Suíça em seu próprio [comunicado](L2). Pelos preços de quinta-feira, a carteira inicial valia mais de US$ 20 milhões, informou o [The Block](L3).
+
+A BIT Asset Management é a subsidiária de Zurique da BIT, empresa de ativos digitais sediada em Singapura e fundada em 2019 como Matrixport. Ela patrocina e administra o fundo. A Pernet von Ballmoos AG (PvB) é a emissora e gestora do fundo, e o AMINA Bank, um banco suíço, guarda as moedas.
+
+!takeaways
+- O BBIT é negociado na SIX em francos suíços e dólares sob o ISIN CH1593447597. Detém bitcoin diretamente e não usa derivativos nem empréstimos.
+- O regulador suíço FINMA aprovou o fundo em 20 de outubro após uma análise de 18 meses, que incluiu uma exceção à regra usual de que fundos devem diversificar.
+- A taxa total de despesas almejada é de 0,19% ao ano. A Flow Traders é a formadora de mercado.
+- O fundo só é oferecido publicamente na Suíça e não está disponível para pessoas dos EUA.
+
+!figure:fact
+
+## Um fundo, não uma nota
+
+A Suíça lista produtos de bitcoin há anos, mas eram produtos negociados em bolsa (ETPs) estruturados como títulos de dívida. Comprar um significa que o emissor lhe deve dinheiro, então você corre o risco de crédito dele. O BBIT é um fundo de investimento suíço sob a Lei de Investimentos Coletivos. Seus bitcoins ficam legalmente separados, e os investidores têm cotas do fundo em vez de um crédito contra o emissor, segundo a BIT.
+
+"A exposição econômica de um fundo e de uma nota pode parecer muito semelhante quando tudo vai bem. A diferença é o que acontece quando não vai", disse Friedrich Herzog, diretor de investimentos da BIT Asset Management.
+
+A SIX lembrou que os primeiros produtos estruturados de bitcoin foram negociados em sua bolsa em 2016 e que, em novembro de 2018, ela se tornou a primeira bolsa regulada do mundo a listar um ETP de cesta de criptomoedas com lastro físico. Com o BBIT, o número de emissores de ETF na SIX sobe para 41.
+
+## Como o BBIT funciona
+
+O fundo segue uma estratégia passiva e acompanha o SIX Reference Rate Bitcoin Index. O AMINA Bank guarda as moedas em carteiras offline ("armazenamento a frio") com controles multiassinatura, em endereços em nome do fundo, segundo as [perguntas frequentes](L4) do fundo. É possível negociar as cotas por bancos e corretoras suíços no horário da SIX, das 09:00 às 17:30 no horário da Europa Central, de segunda a sexta. Investidores elegíveis também podem subscrever entregando bitcoin em vez de dinheiro.
+
+Não há taxas de emissão ou resgate na negociação em bolsa, mas corretagem, imposto de selo suíço e o spread entre compra e venda continuam valendo, [diz](L5) a gestora PvB.
+
+!figure:chart
+
+!mid_cta
+
+## O único ETF de bitcoin à vista da Europa, por enquanto
+
+A BIT diz que o BBIT é hoje o único ETF de bitcoin à vista da Europa. A Europa já teve um: o Jacobi FT Wilshire Bitcoin ETF estreou na Euronext Amsterdã em agosto de 2023, mas a Euronext o lista como inativo desde 2 de fevereiro de 2026, e um liquidante foi nomeado em 26 de fevereiro, informou o The Block. Quando a FINMA aprovou o BBIT, disse que outros fornecedores também haviam pedido ou anunciado ETFs de bitcoin, segundo o [The Block](L6).
+
+O lançamento acontece num mercado difícil. Entre a aprovação da FINMA em 20 de outubro e a listagem, o fechamento diário do bitcoin na Kraken caiu de cerca de US$ 82.900 para cerca de US$ 60.500, uma queda de aproximadamente 27%. A cofundadora da BIT Cynthia Wu disse que o fundo dá a investidores de fora dos EUA "uma forma regulada e líquida de ter bitcoin pelo banco ou pela corretora que já usam".
+
+A FINMA também ressaltou que aprovar o ETF não muda os riscos do bitcoin. O preço é muito volátil, e os investidores podem perder uma parte significativa do dinheiro, afirmou o regulador.
+
+## O que isso significa para investidores de outros países
+
+O BBIT só é oferecido publicamente na Suíça e não está disponível para pessoas dos EUA. Em outros lugares há alternativas: os Estados Unidos têm seus próprios ETFs de bitcoin à vista, e o [primeiro ETF de bitcoin da Malásia](/articles/malaysia-halogen-shariah-bitcoin-etf-bursa-listing-dec-2-nov-2026) deve estrear em 2 de dezembro. Se preferir ter as moedas você mesmo, uma corretora regulada como a [Coinbase](REF) permite começar com pouco. O bitcoin é volátil: invista apenas o que pode perder. Isto não é recomendação financeira.
+
+## O que observar agora
+
+- Quantos bitcoins o BBIT terá após as primeiras semanas de negociação, em comparação com os 350 BTC iniciais.
+- Se a FINMA aprova ETFs de bitcoin à vista de outros fornecedores.
+- Se a BIT obtém autorização para oferecer o fundo fora da Suíça, algo que suas perguntas frequentes dizem que ela pretende buscar.
+
+!soft: Em dúvida entre um fundo e as próprias moedas? Leia [ETF de bitcoin ou comprar bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

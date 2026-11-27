@@ -1,0 +1,40 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Flag_of_Switzerland.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Switzerland.svg",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "file": "SIX_Swiss_Exchange_logo.svg",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:SIX_Swiss_Exchange_logo.svg",
+      "credit": "SIX Group"
+    },
+    {
+      "file": "BIT AM lists Switzerland's first spot Bitcoin ETF on SIX (Nov. 26, 2026)",
+      "license": "Facts cited",
+      "url": "https://www.bit.com/pressroom/six-listing",
+      "credit": "BIT"
+    },
+    {
+      "file": "Kraken OHLC XBTUSD interval=1440",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Daily BTC/USD closes Oct 20 to Nov 26, 2026, from Kraken"
+    }
+  ],
+  "note": "Editorial composite; logo for identification only; no endorsement by SIX or BIT implied.",
+  "slug": "switzerland-first-spot-bitcoin-etf-bbit-six-350-btc-nov-2026",
+  "generated": "2026-11-27T19:05Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

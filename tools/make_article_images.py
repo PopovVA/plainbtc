@@ -6468,7 +6468,116 @@ def build_binance_restored():
     ]
 
 
+HALOGEN_SLUG = "malaysia-halogen-shariah-bitcoin-etf-bursa-listing-dec-2-nov-2026"
+BBIT_SLUG = "switzerland-first-spot-bitcoin-etf-bbit-six-350-btc-nov-2026"
+
+
+def build_halogen_etf():
+    d = OUT / HALOGEN_SLUG
+    tl = make_timeline_card(
+        d / "timeline-halogen-shariah-bitcoin-etf-to-listing",
+        "Road to Bursa Malaysia",
+        [
+            ("Oct. 26", "Securities Commission approves the fund", (96, 165, 250)),
+            ("Nov. 16", "Bursa approves up to 1 billion units", (96, 165, 250)),
+            ("Nov. 27", "Prospectus issued", (251, 191, 36)),
+            ("Nov. 30", "Initial subscription by the dealer", (251, 191, 36)),
+            ("Dec. 2", "Scheduled listing in MYR and USD", GREEN),
+        ],
+        footer="Halogen Shariah Bitcoin ETF prospectus, Nov. 27, 2026",
+        margin=150, wrap_w=200,
+    )
+    card = make_fact_card(
+        d / "fact-halogen-95-percent-spot-bitcoin",
+        label="Halogen Shariah Bitcoin ETF",
+        big="At least 95%",
+        sub="of net assets in physical spot bitcoin. Units start at US$1.00; management fee up to 0.60% a year; counters BTCETF-MYR and BTCETF-USD.",
+        footer="Source: prospectus, Nov. 27, 2026; Halogen Capital",
+    )
+    return [
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: Oct. 26, the Securities Commission Malaysia approves the Halogen Shariah Bitcoin ETF; Nov. 16, Bursa Malaysia approves up to 1 billion units; Nov. 27, the prospectus is issued; Nov. 30, the participating dealer makes the initial subscription; Dec. 2, scheduled listing in ringgit and U.S. dollars", {
+            "es": "Cronología: 26 de octubre, la Comisión de Valores de Malasia aprueba el Halogen Shariah Bitcoin ETF; 16 de noviembre, Bursa Malaysia aprueba hasta 1.000 millones de participaciones; 27 de noviembre, se publica el folleto; 30 de noviembre, el operador participante hace la suscripción inicial; 2 de diciembre, salida a bolsa prevista en ringgit y dólares",
+            "pt": "Linha do tempo: 26 de outubro, a Comissão de Valores Mobiliários da Malásia aprova o Halogen Shariah Bitcoin ETF; 16 de novembro, a Bursa Malaysia aprova até 1 bilhão de cotas; 27 de novembro, o prospecto é publicado; 30 de novembro, o dealer participante faz a subscrição inicial; 2 de dezembro, listagem prevista em ringgit e dólares",
+            "fr": "Chronologie : 26 octobre, la Securities Commission Malaysia approuve le Halogen Shariah Bitcoin ETF ; 16 novembre, Bursa Malaysia approuve jusqu'à 1 milliard de parts ; 27 novembre, publication du prospectus ; 30 novembre, souscription initiale par le teneur participant ; 2 décembre, cotation prévue en ringgits et en dollars",
+            "de": "Zeitleiste: 26. Oktober, die malaysische Wertpapierkommission genehmigt den Halogen Shariah Bitcoin ETF; 16. November, Bursa Malaysia genehmigt bis zu 1 Milliarde Anteile; 27. November, der Prospekt erscheint; 30. November, Erstzeichnung durch den teilnehmenden Händler; 2. Dezember, geplante Notierung in Ringgit und US-Dollar",
+            "ru": "Хронология: 26 октября Комиссия по ценным бумагам Малайзии одобряет Halogen Shariah Bitcoin ETF; 16 ноября Bursa Malaysia одобряет до 1 млрд паёв; 27 ноября выходит проспект; 30 ноября первичная подписка участвующего дилера; 2 декабря запланирован листинг в ринггитах и долларах США",
+            "tr": "Zaman çizelgesi: 26 Ekim'de Malezya Menkul Kıymetler Komisyonu Halogen Shariah Bitcoin ETF'yi onaylıyor; 16 Kasım'da Bursa Malaysia 1 milyara kadar payı onaylıyor; 27 Kasım'da izahname yayımlanıyor; 30 Kasım'da katılımcı aracı kurum ilk aboneliği yapıyor; 2 Aralık'ta ringgit ve ABD doları cinsinden planlanan kotasyon",
+            "id": "Linimasa: 26 Oktober, Komisi Sekuritas Malaysia menyetujui Halogen Shariah Bitcoin ETF; 16 November, Bursa Malaysia menyetujui hingga 1 miliar unit; 27 November, prospektus diterbitkan; 30 November, dealer peserta melakukan langganan awal; 2 Desember, jadwal pencatatan dalam ringgit dan dolar AS",
+            "ja": "時系列：10月26日、マレーシア証券委員会がHalogen Shariah Bitcoin ETFを承認。11月16日、ブルサ・マレーシアが最大10億口を承認。11月27日、目論見書を公表。11月30日、参加ディーラーが当初申込み。12月2日、リンギットと米ドルで上場予定",
+            "ko": "타임라인: 10월 26일 말레이시아 증권위원회가 Halogen Shariah Bitcoin ETF 승인. 11월 16일 부르사 말레이시아가 최대 10억 좌 승인. 11월 27일 투자설명서 발행. 11월 30일 참여 딜러의 최초 청약. 12월 2일 링깃과 미국 달러로 상장 예정",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Halogen Shariah Bitcoin ETF prospectus, Nov. 27, 2026")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: the Halogen Shariah Bitcoin ETF puts at least 95% of its net assets in physical spot bitcoin; units start at US$1.00, the management fee is up to 0.60% a year, and it trades on the BTCETF-MYR and BTCETF-USD counters", {
+            "es": "Tarjeta: el Halogen Shariah Bitcoin ETF invierte al menos el 95% de su patrimonio neto en bitcoin al contado físico; las participaciones parten de 1,00 dólar, la comisión de gestión es de hasta el 0,60% anual y cotiza en los códigos BTCETF-MYR y BTCETF-USD",
+            "pt": "Cartão: o Halogen Shariah Bitcoin ETF aplica pelo menos 95% do patrimônio líquido em bitcoin à vista físico; as cotas começam em US$ 1,00, a taxa de administração é de até 0,60% ao ano e ele é negociado nos códigos BTCETF-MYR e BTCETF-USD",
+            "fr": "Encadré : le Halogen Shariah Bitcoin ETF place au moins 95 % de son actif net en bitcoins physiques au comptant ; les parts démarrent à 1,00 $, les frais de gestion vont jusqu'à 0,60 % par an et il se négocie sous BTCETF-MYR et BTCETF-USD",
+            "de": "Faktenkarte: Der Halogen Shariah Bitcoin ETF legt mindestens 95 % seines Nettovermögens in physischen Spot-Bitcoin an; Anteile starten bei 1,00 US-Dollar, die Verwaltungsgebühr beträgt bis zu 0,60 % pro Jahr, gehandelt wird unter BTCETF-MYR und BTCETF-USD",
+            "ru": "Карточка: Halogen Shariah Bitcoin ETF вкладывает не менее 95% чистых активов в физический спотовый биткоин; цена пая на старте 1,00 доллара США, комиссия за управление до 0,60% в год, торги под тикерами BTCETF-MYR и BTCETF-USD",
+            "tr": "Bilgi kartı: Halogen Shariah Bitcoin ETF net varlıklarının en az %95'ini fiziksel spot bitcoine yatırıyor; paylar 1,00 ABD dolarından başlıyor, yönetim ücreti yıllık en fazla %0,60 ve BTCETF-MYR ile BTCETF-USD kodlarıyla işlem görüyor",
+            "id": "Kartu fakta: Halogen Shariah Bitcoin ETF menaruh setidaknya 95% aset bersihnya di bitcoin spot fisik; harga unit mulai US$1,00, biaya pengelolaan hingga 0,60% per tahun, dan diperdagangkan di konter BTCETF-MYR dan BTCETF-USD",
+            "ja": "ファクトカード：Halogen Shariah Bitcoin ETFは純資産の95%以上を現物ビットコインに投資。当初価格は1口1.00米ドル、運用報酬は年最大0.60%、銘柄コードはBTCETF-MYRとBTCETF-USD",
+            "ko": "팩트 카드: Halogen Shariah Bitcoin ETF는 순자산의 95% 이상을 실물 현물 비트코인에 투자. 최초 가격은 1좌당 1.00달러, 운용보수는 연 최대 0.60%, BTCETF-MYR와 BTCETF-USD로 거래",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Halogen Shariah Bitcoin ETF prospectus, Nov. 27, 2026; Halogen Capital")},
+    ]
+
+
+def build_bbit_six():
+    d = OUT / BBIT_SLUG
+    data = json.loads((I18N / BBIT_SLUG / "chart-data.json").read_text(encoding="utf-8"))
+    xs = np.array([r[0] for r in data["daily"]], dtype=float)
+    ys = np.array([r[1] for r in data["daily"]])
+    assert round(ys[0]) == 82936 and round(ys[-1]) == 60499, (ys[0], ys[-1])
+    chart = make_line_chart(
+        d / "chart-btc-finma-approval-to-bbit-listing",
+        xs, ys,
+        title="Bitcoin from FINMA approval (Oct. 20) to BBIT listing (Nov. 26): Kraken daily closes (UTC)",
+        hline=float(ys[0]),
+        hlabel="Oct. 20 close: about $82,900",
+        date_fmt="%b %d",
+    )
+    card = make_fact_card(
+        d / "fact-bbit-350-btc-six",
+        label="Bitcoin Fund ETF (BBIT) · SIX Swiss Exchange",
+        big="350 BTC at launch",
+        sub="Trading since Nov. 26, 2026 in CHF and USD. Cold storage at AMINA Bank. Target fee 0.19% a year. Public offering in Switzerland only.",
+        footer="Source: BIT Asset Management; SIX, Nov. 26, 2026",
+    )
+    return [
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: the Bitcoin Fund ETF (BBIT) launched on SIX Swiss Exchange with 350 BTC; it trades since Nov. 26, 2026 in Swiss francs and U.S. dollars, keeps its bitcoin in cold storage at AMINA Bank, targets a 0.19% yearly fee and is publicly offered only in Switzerland", {
+            "es": "Tarjeta: el Bitcoin Fund ETF (BBIT) arrancó en SIX Swiss Exchange con 350 BTC; cotiza desde el 26 de noviembre de 2026 en francos suizos y dólares, guarda sus bitcoins en almacenamiento en frío en AMINA Bank, apunta a una comisión del 0,19% anual y solo se ofrece públicamente en Suiza",
+            "pt": "Cartão: o Bitcoin Fund ETF (BBIT) estreou na SIX Swiss Exchange com 350 BTC; é negociado desde 26 de novembro de 2026 em francos suíços e dólares, guarda seus bitcoins em armazenamento a frio no AMINA Bank, mira uma taxa de 0,19% ao ano e só é oferecido publicamente na Suíça",
+            "fr": "Encadré : le Bitcoin Fund ETF (BBIT) a démarré sur SIX Swiss Exchange avec 350 BTC ; il se négocie depuis le 26 novembre 2026 en francs suisses et en dollars, conserve ses bitcoins hors ligne chez AMINA Bank, vise des frais de 0,19 % par an et n'est offert au public qu'en Suisse",
+            "de": "Faktenkarte: Der Bitcoin Fund ETF (BBIT) startete an der SIX Swiss Exchange mit 350 BTC; er wird seit dem 26. November 2026 in Franken und US-Dollar gehandelt, verwahrt seine Bitcoin offline bei der AMINA Bank, zielt auf 0,19 % Gebühren pro Jahr und wird öffentlich nur in der Schweiz angeboten",
+            "ru": "Карточка: Bitcoin Fund ETF (BBIT) стартовал на SIX Swiss Exchange с 350 BTC; торгуется с 26 ноября 2026 года в швейцарских франках и долларах США, хранит биткоины в холодном хранилище AMINA Bank, целевая комиссия 0,19% в год, публичное предложение только в Швейцарии",
+            "tr": "Bilgi kartı: Bitcoin Fund ETF (BBIT), SIX Swiss Exchange'te 350 BTC ile başladı; 26 Kasım 2026'dan beri İsviçre frangı ve ABD doları ile işlem görüyor, bitcoinlerini AMINA Bank'ta soğuk depolamada tutuyor, yıllık %0,19 ücret hedefliyor ve yalnızca İsviçre'de halka arz ediliyor",
+            "id": "Kartu fakta: Bitcoin Fund ETF (BBIT) dimulai di SIX Swiss Exchange dengan 350 BTC; diperdagangkan sejak 26 November 2026 dalam franc Swiss dan dolar AS, menyimpan bitcoinnya di penyimpanan dingin AMINA Bank, menargetkan biaya 0,19% per tahun, dan hanya ditawarkan secara publik di Swiss",
+            "ja": "ファクトカード：Bitcoin Fund ETF（BBIT）は350 BTCでSIXスイス取引所に上場。2026年11月26日からスイスフランと米ドルで取引され、ビットコインはAMINA Bankのコールドストレージで保管。目標経費率は年0.19%、公募はスイス国内のみ",
+            "ko": "팩트 카드: Bitcoin Fund ETF(BBIT)는 350 BTC로 SIX 스위스 거래소에서 출발. 2026년 11월 26일부터 스위스 프랑과 미국 달러로 거래되며 비트코인은 AMINA Bank 콜드 스토리지에 보관. 목표 보수는 연 0.19%, 공모는 스위스에서만",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="BIT Asset Management; SIX Swiss Exchange, Nov. 26, 2026")},
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's daily closing price on Kraken from Oct. 20 to Nov. 26, 2026: it starts near $82,900 on the day FINMA approved BBIT, slides through November and ends near $60,500 on the listing day, about 27% lower", {
+            "es": "Gráfico de líneas del precio de cierre diario de bitcoin en Kraken del 20 de octubre al 26 de noviembre de 2026: empieza cerca de 82.900 $ el día en que FINMA aprobó BBIT, cae durante noviembre y termina cerca de 60.500 $ el día de la salida a bolsa, alrededor de un 27% menos",
+            "pt": "Gráfico de linha do preço de fechamento diário do bitcoin na Kraken de 20 de outubro a 26 de novembro de 2026: começa perto de US$ 82.900 no dia em que a FINMA aprovou o BBIT, cai ao longo de novembro e termina perto de US$ 60.500 no dia da listagem, cerca de 27% abaixo",
+            "fr": "Courbe des clôtures quotidiennes du bitcoin sur Kraken du 20 octobre au 26 novembre 2026 : départ vers 82 900 $ le jour où la FINMA a approuvé BBIT, baisse en novembre et fin vers 60 500 $ le jour de la cotation, soit environ 27 % de moins",
+            "de": "Liniendiagramm der täglichen Bitcoin-Schlusskurse bei Kraken vom 20. Oktober bis 26. November 2026: Start bei rund 82.900 $ am Tag der FINMA-Genehmigung für BBIT, Rückgang im November und Schluss bei rund 60.500 $ am Tag der Notierung, etwa 27 % tiefer",
+            "ru": "Линейный график дневных цен закрытия биткоина на Kraken с 20 октября по 26 ноября 2026 года: старт около $82 900 в день одобрения BBIT регулятором FINMA, снижение в ноябре и около $60 500 в день листинга, примерно на 27% ниже",
+            "tr": "Kraken'de 20 Ekim-26 Kasım 2026 arası bitcoin günlük kapanış fiyatı çizgi grafiği: FINMA'nın BBIT'i onayladığı gün yaklaşık 82.900 $ ile başlıyor, Kasım boyunca geriliyor ve kotasyon gününde yaklaşık 60.500 $ ile, yaklaşık %27 aşağıda bitiyor",
+            "id": "Grafik garis harga penutupan harian bitcoin di Kraken dari 20 Oktober hingga 26 November 2026: dimulai sekitar US$82.900 pada hari FINMA menyetujui BBIT, turun sepanjang November, dan berakhir sekitar US$60.500 pada hari pencatatan, sekitar 27% lebih rendah",
+            "ja": "2026年10月20日〜11月26日のKrakenにおけるビットコイン日次終値の折れ線グラフ：FINMAがBBITを承認した日の約82,900ドルから11月にかけて下落し、上場日には約60,500ドルと約27%低い水準で終了",
+            "ko": "2026년 10월 20일~11월 26일 크라켄 비트코인 일별 종가 선 차트: FINMA가 BBIT를 승인한 날 약 82,900달러에서 시작해 11월 내내 하락했고, 상장일에는 약 60,500달러로 약 27% 낮게 마감",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken BTC/USD daily closes (UTC), Oct. 20 to Nov. 26, 2026")},
+    ]
+
+
 BUILDERS = {
+    "malaysia-halogen-shariah-bitcoin-etf-bursa-listing-dec-2-nov-2026": "halogenetf",
+    "switzerland-first-spot-bitcoin-etf-bbit-six-350-btc-nov-2026": "bbitsix",
     "monero-falls-11-percent-kucoin-delists-xmr-nov-2026": "xmrkucoin",
     "binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026": "bnbrestored",
     "novatech-founders-ordered-to-pay-1-37-billion-new-york-crypto-ponzi-nov-2026": "novatech",
@@ -6581,7 +6690,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "xmrkucoin":
+    if key == "halogenetf":
+        figs = build_halogen_etf()
+    elif key == "bbitsix":
+        figs = build_bbit_six()
+    elif key == "xmrkucoin":
         figs = build_monero_kucoin()
     elif key == "bnbrestored":
         figs = build_binance_restored()

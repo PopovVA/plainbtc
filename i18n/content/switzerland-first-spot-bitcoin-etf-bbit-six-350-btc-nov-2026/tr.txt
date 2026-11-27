@@ -1,0 +1,61 @@
+title: İsviçre'nin ilk spot bitcoin ETF'si BBIT, 350 bitcoin ile SIX'te işlem görmeye başladı
+page_title: İsviçre'nin ilk spot bitcoin ETF'si BBIT SIX'te
+description: BIT Asset Management'ın Bitcoin Fund ETF'si (BBIT), 26 Kasım 2026'da 350 BTC ile SIX Swiss Exchange'te işlem görmeye başladı. Düzenlenmiş bir İsviçre fonu olarak doğrudan bitcoin tutuyor, yıllık %0,19 ücret hedefliyor ve yalnızca İsviçre'de halka arz ediliyor.
+og_description: BBIT bitcoinlerini AMINA Bank'ta soğuk depolamada tutuyor, İsviçre frangı ve ABD doları ile işlem görüyor ve yıllık %0,19 ücret hedefliyor. BIT'e göre şu anda Avrupa'nın tek spot bitcoin ETF'si.
+label: İş dünyası
+summary: İsviçre'nin ilk spot bitcoin ETF'si 26 Kasım'da 350 BTC ile SIX Swiss Exchange'te işlem görmeye başladı. Avrupa'daki çoğu bitcoin ürününün aksine BBIT bir borç senedi değil, bir fon. Yıllık %0,19 ücret hedefliyor ve yalnızca İsviçre'de halka arz ediliyor; ABD'li kişilere açık değil.
+===
+
+İsviçre artık bir spot bitcoin ETF'sine sahip. BBIT koduyla işlem gören Bitcoin Fund ETF, 26 Kasım Perşembe günü 350 bitcoinlik varlıkla SIX Swiss Exchange'te işlem görmeye başladı; bunu fonun sponsoru BIT Asset Management [duyurdu](L1). SIX de kendi [açıklamasında](L2) fonu İsviçre'nin ilk bitcoin ETF'si olarak tanımladı. [The Block](L3)'un aktardığına göre başlangıç varlıkları perşembe fiyatlarıyla 20 milyon dolardan fazla ediyordu.
+
+BIT Asset Management, merkezi Singapur'da bulunan ve 2019'da Matrixport adıyla kurulan dijital varlık şirketi BIT'in Zürih merkezli yan kuruluşu. Fonun sponsoru ve yöneticisi. Pernet von Ballmoos AG (PvB) ihraççı ve fon yönetim şirketi, coinleri ise bir İsviçre bankası olan AMINA Bank saklıyor.
+
+!takeaways
+- BBIT, SIX'te CH1593447597 ISIN koduyla İsviçre frangı ve ABD doları cinsinden işlem görüyor. Doğrudan bitcoin tutuyor; türev ürün ya da ödünç verme kullanmıyor.
+- İsviçre düzenleyicisi FINMA fonu, fonların çeşitlendirme yapmasını gerektiren olağan kuraldan muafiyet de dahil olmak üzere 18 aylık bir incelemenin ardından 20 Ekim'de onayladı.
+- Hedeflenen toplam gider oranı yıllık %0,19. Piyasa yapıcı Flow Traders.
+- Fon yalnızca İsviçre'de halka arz ediliyor ve ABD'li kişilere açık değil.
+
+!figure:fact
+
+## Borç senedi değil, fon
+
+İsviçre'de yıllardır bitcoin ürünleri listeleniyor, ancak bunlar borç senedi olarak yapılandırılmış borsada işlem gören ürünlerdi (ETP). Bunlardan birini almak, ihraççının size borçlu olması demek; yani ihraççının kredi riskini taşırsınız. BBIT ise Kolektif Yatırım Planları Kanunu'na tabi bir İsviçre yatırım fonu. BIT'e göre fonun bitcoinleri hukuken ayrılmış durumda ve yatırımcılar ihraççıya karşı bir alacak yerine fon payı tutuyor.
+
+BIT Asset Management'ın yatırım direktörü Friedrich Herzog, "Her şey yolunda giderken bir fonun ve bir notun ekonomik getirisi birbirine çok benzeyebilir. Fark, işler ters gittiğinde ortaya çıkar" dedi.
+
+SIX, ilk bitcoin yapılandırılmış ürünlerinin borsasında 2016'da işlem gördüğünü ve Kasım 2018'de fiziksel varlık destekli bir kripto sepeti ETP'sini listeleyen dünyanın ilk düzenlenmiş borsası olduğunu hatırlattı. BBIT ile birlikte SIX'teki ETF ihraççısı sayısı 41'e çıkıyor.
+
+## BBIT nasıl çalışıyor
+
+Fon pasif bir strateji izliyor ve SIX Reference Rate Bitcoin Index'i takip ediyor. Fonun [SSS](L4) sayfasına göre AMINA Bank coinleri, fon adına açılmış adreslerde, çoklu imza kontrollü çevrimdışı ("soğuk depolama") cüzdanlarda tutuyor. Paylar, SIX işlem saatlerinde (Orta Avrupa saatiyle 09:00 ile 17:30 arası, pazartesiden cumaya) İsviçre bankaları ve aracı kurumları üzerinden alınıp satılabiliyor. Uygun yatırımcılar nakit yerine bitcoin vererek de abone olabiliyor.
+
+Borsada işlem yaparken ihraç veya geri alım komisyonu yok, ancak aracı kurum ücretleri, İsviçre damga vergisi ve alış-satış farkı yine geçerli; bunu fon yöneticisi [PvB belirtiyor](L5).
+
+!figure:chart
+
+!mid_cta
+
+## Şimdilik Avrupa'nın tek spot bitcoin ETF'si
+
+BIT, BBIT'in şu anda Avrupa'nın tek spot bitcoin ETF'si olduğunu söylüyor. Avrupa'da daha önce bir tane vardı: Jacobi FT Wilshire Bitcoin ETF, Ağustos 2023'te Euronext Amsterdam'da işlem görmeye başladı, ancak Euronext onu 2 Şubat 2026'dan beri pasif olarak listeliyor ve 26 Şubat'ta bir tasfiye memuru atandı; bunu The Block bildirdi. [The Block](L6)'a göre FINMA, BBIT'i onaylarken başka sağlayıcıların da bitcoin ETF'leri için başvurduğunu veya bunları duyurduğunu söylemişti.
+
+Lansman zorlu bir piyasaya denk geldi. FINMA'nın 20 Ekim'deki onayı ile kotasyon arasında bitcoinin Kraken'deki günlük kapanışı yaklaşık 82.900 $'dan yaklaşık 60.500 $'a, yani yaklaşık %27 düştü. BIT'in kurucu ortağı Cynthia Wu, fonun ABD dışındaki yatırımcılara "zaten kullandıkları banka veya aracı kurum üzerinden bitcoin tutmanın düzenlenmiş ve likit bir yolunu" sunduğunu söyledi.
+
+FINMA ayrıca ETF'yi onaylamanın bitcoinin risklerini değiştirmediğini vurguladı. Düzenleyiciye göre fiyat son derece oynak ve yatırımcılar paralarının önemli bir kısmını kaybedebilir.
+
+## Diğer ülkelerdeki yatırımcılar için anlamı
+
+BBIT yalnızca İsviçre'de halka arz ediliyor ve ABD'li kişilere açık değil. Başka yerlerde alternatifler var: ABD'nin kendi spot bitcoin ETF'leri bulunuyor ve [Malezya'nın ilk bitcoin ETF'sinin](/articles/malaysia-halogen-shariah-bitcoin-etf-bursa-listing-dec-2-nov-2026) 2 Aralık'ta kote olması planlanıyor. Coinlere kendiniz sahip olmayı tercih ederseniz [Coinbase](REF) gibi düzenlenmiş bir platformda küçük bir tutarla başlayabilirsiniz. Bitcoin oynaktır; yalnızca kaybetmeyi göze alabileceğiniz kadarını yatırın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- İlk işlem haftalarının ardından BBIT'in, başlangıçtaki 350 BTC'ye kıyasla ne kadar bitcoin tutacağı.
+- FINMA'nın başka sağlayıcıların spot bitcoin ETF'lerini onaylayıp onaylamayacağı.
+- BIT'in, SSS sayfasında başvurmayı planladığını söylediği İsviçre dışı satış iznini alıp alamayacağı.
+
+!soft: Fon mu yoksa coinlerin kendisi mi size uygun, emin değil misiniz? [Bitcoin ETF mi, bitcoin almak mı](/articles/bitcoin-etf-vs-buying-bitcoin) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

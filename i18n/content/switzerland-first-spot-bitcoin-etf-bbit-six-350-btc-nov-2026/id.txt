@@ -1,0 +1,61 @@
+title: ETF bitcoin spot pertama Swiss, BBIT, mulai diperdagangkan di SIX dengan 350 bitcoin
+page_title: BBIT, ETF bitcoin spot pertama Swiss, melantai di SIX
+description: Bitcoin Fund ETF (BBIT) milik BIT Asset Management mulai diperdagangkan di SIX Swiss Exchange pada 26 November 2026 dengan 350 BTC. ETF ini memegang bitcoin langsung sebagai reksa dana Swiss teregulasi, menargetkan biaya 0,19% per tahun, dan hanya ditawarkan secara publik di Swiss.
+og_description: BBIT menyimpan bitcoinnya di penyimpanan dingin AMINA Bank, diperdagangkan dalam franc Swiss dan dolar AS, serta menargetkan biaya 0,19% per tahun. BIT menyebutnya satu-satunya ETF bitcoin spot di Eropa saat ini.
+label: Bisnis
+summary: ETF bitcoin spot pertama Swiss mulai diperdagangkan di SIX Swiss Exchange pada 26 November dengan 350 BTC. Berbeda dengan kebanyakan produk bitcoin di Eropa, BBIT adalah reksa dana, bukan surat utang. Biaya yang ditargetkan 0,19% per tahun, dan hanya ditawarkan secara publik di Swiss, tidak untuk warga AS.
+===
+
+Swiss kini punya ETF bitcoin spot. Bitcoin Fund ETF dengan kode BBIT mulai diperdagangkan di SIX Swiss Exchange pada Kamis, 26 November, dengan aset 350 bitcoin, [kata](L1) sponsornya, BIT Asset Management. SIX menyebutnya ETF bitcoin pertama Swiss dalam [pengumumannya](L2) sendiri. Dengan harga hari Kamis, kepemilikan awal itu bernilai lebih dari US$20 juta, lapor [The Block](L3).
+
+BIT Asset Management adalah anak usaha BIT di Zurich. BIT adalah perusahaan aset digital yang berkantor pusat di Singapura dan didirikan pada 2019 dengan nama Matrixport. Anak usaha ini menjadi sponsor sekaligus pengelola dana. Pernet von Ballmoos AG (PvB) adalah penerbit dan perusahaan manajemen dana, sedangkan AMINA Bank, sebuah bank Swiss, menyimpan koinnya.
+
+!takeaways
+- BBIT diperdagangkan di SIX dalam franc Swiss dan dolar AS dengan ISIN CH1593447597. ETF ini memegang bitcoin secara langsung tanpa derivatif maupun peminjaman.
+- Regulator Swiss FINMA menyetujui dana ini pada 20 Oktober setelah peninjauan selama 18 bulan, termasuk pengecualian dari aturan umum bahwa reksa dana harus terdiversifikasi.
+- Rasio biaya total yang ditargetkan adalah 0,19% per tahun. Flow Traders bertindak sebagai market maker.
+- Dana ini hanya ditawarkan secara publik di Swiss dan tidak tersedia bagi warga AS.
+
+!figure:fact
+
+## Reksa dana, bukan surat utang
+
+Swiss sudah bertahun-tahun mencatatkan produk bitcoin, tetapi bentuknya produk yang diperdagangkan di bursa (ETP) berupa surat utang. Membeli ETP berarti penerbit berutang kepada Anda, sehingga Anda menanggung risiko kredit penerbit. BBIT adalah reksa dana Swiss di bawah Undang-Undang Skema Investasi Kolektif. Bitcoinnya dipisahkan secara hukum, dan investor memegang unit dana, bukan klaim terhadap penerbit, menurut BIT.
+
+"Eksposur ekonomi sebuah reksa dana dan sebuah surat utang bisa terlihat sangat mirip saat semuanya berjalan baik. Bedanya terlihat saat keadaan memburuk," kata Friedrich Herzog, kepala investasi BIT Asset Management.
+
+SIX menyebut produk terstruktur bitcoin pertama diperdagangkan di bursanya pada 2016, dan pada November 2018 SIX menjadi bursa teregulasi pertama di dunia yang mencatatkan ETP keranjang kripto berbasis aset fisik. Dengan BBIT, jumlah penerbit ETF di SIX naik menjadi 41.
+
+## Cara kerja BBIT
+
+Dana ini mengikuti strategi pasif dan melacak SIX Reference Rate Bitcoin Index. AMINA Bank menyimpan koin di dompet offline ("penyimpanan dingin") dengan kontrol multi-tanda tangan, di alamat atas nama dana, menurut [FAQ](L4) dana. Unit bisa diperdagangkan lewat bank dan pialang Swiss selama jam SIX, pukul 09:00 hingga 17:30 waktu Eropa Tengah, Senin sampai Jumat. Investor yang memenuhi syarat juga bisa berlangganan dengan menyerahkan bitcoin, bukan uang tunai.
+
+Tidak ada komisi penerbitan atau penebusan saat bertransaksi di bursa, tetapi biaya pialang, bea meterai Swiss, dan selisih harga beli dan jual tetap berlaku, [kata](L5) manajer dana PvB.
+
+!figure:chart
+
+!mid_cta
+
+## Satu-satunya ETF bitcoin spot di Eropa, untuk saat ini
+
+BIT menyebut BBIT saat ini satu-satunya ETF bitcoin spot di Eropa. Eropa pernah punya satu: Jacobi FT Wilshire Bitcoin ETF melantai di Euronext Amsterdam pada Agustus 2023, tetapi Euronext mencatatnya tidak aktif sejak 2 Februari 2026, dan likuidator ditunjuk pada 26 Februari, lapor The Block. Saat menyetujui BBIT, FINMA menyatakan bahwa penyedia lain juga telah mengajukan atau mengumumkan ETF bitcoin, menurut [The Block](L6).
+
+Peluncuran ini terjadi di pasar yang sulit. Antara persetujuan FINMA pada 20 Oktober dan pencatatan, harga penutupan harian bitcoin di Kraken turun dari sekitar US$82.900 menjadi sekitar US$60.500, atau turun sekitar 27%. Salah satu pendiri BIT, Cynthia Wu, mengatakan dana ini memberi investor di luar AS "cara yang teregulasi dan likuid untuk memegang bitcoin melalui bank atau pialang yang sudah mereka gunakan."
+
+FINMA juga menegaskan bahwa persetujuan ETF tidak mengubah risiko bitcoin. Harganya sangat fluktuatif, dan investor bisa kehilangan sebagian besar uangnya, kata regulator.
+
+## Artinya bagi investor di negara lain
+
+BBIT hanya ditawarkan secara publik di Swiss dan tidak tersedia bagi warga AS. Di tempat lain ada alternatif: Amerika Serikat punya ETF bitcoin spot sendiri, dan [ETF bitcoin pertama Malaysia](/articles/malaysia-halogen-shariah-bitcoin-etf-bursa-listing-dec-2-nov-2026) dijadwalkan tercatat pada 2 Desember. Jika Anda lebih suka memegang koin sendiri, platform teregulasi seperti [Coinbase](REF) memungkinkan Anda mulai dengan jumlah kecil. Bitcoin sangat fluktuatif, jadi investasikan hanya dana yang siap Anda tanggung kerugiannya. Ini bukan nasihat keuangan.
+
+## Yang perlu dipantau
+
+- Berapa bitcoin yang dimiliki BBIT setelah minggu-minggu pertama perdagangan, dibandingkan 350 BTC di awal.
+- Apakah FINMA menyetujui ETF bitcoin spot dari penyedia lain.
+- Apakah BIT memperoleh izin untuk menawarkan dana ini di luar Swiss, yang menurut FAQ-nya memang direncanakan.
+
+!soft: Ragu memilih reksa dana atau koin langsung? Baca [ETF bitcoin vs membeli bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

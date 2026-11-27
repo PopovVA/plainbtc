@@ -1,0 +1,63 @@
+title: Malezya'nın ilk bitcoin ETF'si, Halogen'in İslami kurallara uygun fonu, 2 Aralık'ta Bursa Malaysia'da işlem görmeye başlayacak
+page_title: Halogen Shariah Bitcoin ETF 2 Aralık'ta Malezya borsasında
+description: Halogen Capital, Halogen Shariah Bitcoin ETF'nin izahnamesini 27 Kasım 2026'da yayımladı. Fon spot bitcoin tutacak, ringgit ve ABD doları ile işlem görecek ve 2 Aralık'ta Bursa Malaysia'da kote olacak. Nasıl çalıştığı ve maliyeti.
+og_description: Malezya'nın ilk spot bitcoin ETF'sinin 2 Aralık'ta Bursa Malaysia'da işlem görmeye başlaması planlanıyor. Fonun en az %95'i fiziksel bitcoine gidiyor, paylar 1 ABD dolarından başlıyor ve yönetim ücreti yıllık en fazla %0,60.
+label: İş dünyası
+summary: Halogen Capital'in, şirketin dünyanın ilk şeriata uygun bitcoin ETF'si olarak tanımladığı Shariah Bitcoin ETF'nin 2 Aralık'ta Bursa Malaysia'da kote olması planlanıyor. 27 Kasım tarihli izahname tanesi 1 ABD doları olan 1 milyara kadar paya izin veriyor; varlıkların en az %95'i spot bitcoinde.
+===
+
+Malezya ilk bitcoin borsa yatırım fonuna (ETF) kavuşmak üzere. Halogen Capital, Halogen Shariah Bitcoin ETF'nin izahnamesini 27 Kasım Cuma günü yayımladı ve fonun 2 Aralık Çarşamba günü ülkenin borsası Bursa Malaysia'nın Main Market'inde işlem görmeye başlaması planlanıyor. [EconoTimes](L3)'a göre Halogen, fonu dünyanın ilk şeriata uygun bitcoin ETF'si ve Bursa Malaysia'daki ilk dijital para ETF'si olarak tanımlıyor.
+
+İzahnameye göre Malezya Menkul Kıymetler Komisyonu fonun kuruluşunu ve kotasyonunu 26 Ekim'de onayladı, Bursa Malaysia da 16 Kasım'da 1 milyara kadar payın kotasyonuna izin verdi. Halogen'in [web sitesi](L1) iki işlem kodu gösteriyor: Malezya ringgiti cinsinden BTCETF-MYR ve ABD doları cinsinden BTCETF-USD.
+
+!takeaways
+- Bursa Malaysia Main Market'te kotasyon, 30 Kasım'daki ilk abonelik ve 1 Aralık'taki tahsisin ardından 2 Aralık 2026 için planlanıyor. Tarihler hâlâ değişebilir.
+- Fonun net varlıklarının en az %95'i fiziksel spot bitcoine yatırılıyor. Kalanı likidite için İslami para piyasası araçlarında, İslami mevduatlarda veya İslami fonlarda tutulabiliyor.
+- İzahname, tanesi 1,00 ABD doları ilk fiyatla 1 milyara kadar paya izin veriyor. Yönetim ücreti yıllık net varlık değerinin en fazla %0,60'ı.
+- Şeriat danışmanı Amanie Advisors, yediemin Universal Trustee (Malaysia), bitcoinleri alt saklayıcı olarak tutan kurum ise BitGo.
+
+!figure:timeline
+
+## Fon nasıl çalışıyor
+
+ETF, borsada hisse senedi gibi alınıp satılan bir fondur. Yatırımcı bir kripto borsasından bitcoin alıp cüzdanında saklamak yerine sıradan bir aracı kurum hesabıyla fonun paylarını alır, coinleri ise fon tutar. [İzahnameye](L2) göre Halogen'in ETF'si FTSE Bitcoin Index'i yakından takip etmeyi hedefliyor.
+
+[CoinMarketCap](L4)'in aktardığına göre Malezya merkezli DagangNews, payların 100'lük lotlarla işlem göreceğini ve yatırımcıların satışı alım yaptıkları para biriminde yapmak zorunda olacağını bildirdi. 30 Kasım'daki ilk abonelik, katılımcı aracı kurum CGS International Securities Malaysia ile yapılan özel bir yerleştirme. Diğer yatırımcılar paylar kote olduktan sonra lisanslı aracı kurumlar üzerinden alım yapabilecek.
+
+1 milyar payın tamamı 1 dolardan satılsaydı fon 1 milyar ABD doları, yani yaklaşık 4,12 milyar ringgit toplardı. CoinMarketCap, izahnamenin başlangıçta kaç pay oluşturulacağını belirtmediğini kaydetti.
+
+## Fonu şeriata uygun kılan ne
+
+İslami finans, diğer şeylerin yanı sıra faiz kazanmayı yasaklayan şeriat ilkelerine uyar. Bu yüzden fonun küçük nakit kısmı faizli mevduatlar yerine yalnızca İslami araçlarla sınırlı. CoinMarketCap'in aktardığı haberlere göre fonun şeriat danışmanı Amanie Advisors fonu şeriata uygun olarak onayladı ve fon gelir dağıtmayacak.
+
+Halogen'in borsada işlem görmeyen, şeriata uygun bir bitcoin fonu zaten var. Şirketin sitesine göre Halogen Shariah Bitcoin Fund 23 Ağustos 2023'te faaliyete başladı. ETF aynı fikri borsaya taşıyor; burada fon, piyasa saatlerinde kote herhangi bir hisse gibi alınıp satılabiliyor.
+
+!figure:fact
+
+!mid_cta
+
+## Maliyetler ve riskler
+
+İzahnameyi inceleyen [EconoTimes](L3)'a göre yıllık giderler arasında net varlık değerinin en fazla %0,60'ı yönetim ücreti, en fazla %0,05 yediemin ücreti (saklama ücretleri hariç) ve en fazla %0,15 alt saklama ücreti bulunuyor. Alıcılar ve satıcılar ayrıca aracı kurum komisyonu, işlem tutarının %0,03'ü oranında Bursa takas ücreti (en fazla 1.000 ringgit) ve damga vergisi ödüyor.
+
+İzahname, başlıca riskler arasında bitcoinin sert fiyat dalgalanmalarını ve kur riskini sayıyor. Paylar, fonun tuttuğu bitcoinlerin değerinin üzerinde veya altında da işlem görebilir; bunun bir nedeni Bursa Malaysia'nın işlem saatlerinin sınırlı olması, bitcoinin ise günün her saati işlem görmesi.
+
+Karşılaştırma için, 26 Kasım'da işlem görmeye başlayan yeni İsviçre spot bitcoin fonu yıllık %0,19 toplam gider oranı hedefliyor. [İsviçre'nin ilk spot bitcoin ETF'si](/articles/switzerland-first-spot-bitcoin-etf-bbit-six-350-btc-nov-2026) hakkındaki haberimizi okuyun.
+
+## Neden önemli
+
+Fon, ABD dışında bitcoin sahibi olmanın düzenlenmiş yollarına bir yenisini ekliyor ve piyasanın zayıf olduğu bir döneme denk geliyor. ABD spot bitcoin ETF'leri [kasımda rekor çıkışlar](/articles/bitcoin-etfs-record-4-71-billion-november-outflows-nov-2026) yaşadı ve bitcoin cuma günü 60.000 $ civarında işlem gördü. [Blockonomi](L5), Malezya'daki onayın yatırımcılar ABD fonlarından para çekerken geldiğine dikkat çekti.
+
+Fon Malezya'da kote ve oradaki yatırımcılar için tasarlandı. Başka bir ülkede yaşıyorsanız borsanızın veya bankanızın hangi düzenlenmiş bitcoin ürünlerini sunduğuna bakabilir ya da bitcoini doğrudan [Coinbase](REF) gibi düzenlenmiş bir platformdan alabilirsiniz. Hangi yolu seçerseniz seçin, bitcoin oynaktır; yalnızca kaybetmeyi göze alabileceğiniz kadarını yatırın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neyi izlemeli
+
+- Fonun planlandığı gibi 2 Aralık'ta kote olup olmayacağı ve ilk abonelikten sonra kaç bitcoin tutacağı.
+- İlk haftalarda ringgit ve dolar kodlarındaki işlem hacmi.
+- Başka Malezyalı fon yöneticilerinin Bursa Malaysia'ya dijital para ETF'leri getirip getirmeyeceği.
+
+!soft: Fon mu, coinlerin kendisi mi? [Bitcoin ETF mi, bitcoin almak mı](/articles/bitcoin-etf-vs-buying-bitcoin) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,40 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Flag_of_Malaysia.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Malaysia.svg",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "file": "Bursa_Malaysia_logo.svg",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Bursa_Malaysia_logo.svg",
+      "credit": "Bursa Malaysia"
+    },
+    {
+      "file": "Halogen Shariah Bitcoin ETF prospectus (Nov. 27, 2026)",
+      "license": "Facts cited",
+      "url": "https://www.sc.com.my/api/documentms/download.ashx?id=30814a4c-8089-4105-b07b-1d36963c4017",
+      "credit": "Halogen Capital / Securities Commission Malaysia"
+    },
+    {
+      "file": "halogen.my (BTCETF-MYR, BTCETF-USD)",
+      "license": "Facts cited",
+      "url": "https://halogen.my/",
+      "credit": "Halogen Capital"
+    }
+  ],
+  "note": "Editorial composite; logo for identification only; no endorsement by Bursa Malaysia or Halogen implied.",
+  "slug": "malaysia-halogen-shariah-bitcoin-etf-bursa-listing-dec-2-nov-2026",
+  "generated": "2026-11-27T19:05Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

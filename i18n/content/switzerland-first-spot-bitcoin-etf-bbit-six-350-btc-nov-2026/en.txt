@@ -1,0 +1,61 @@
+title: Switzerland's first spot bitcoin ETF, BBIT, starts trading on SIX with 350 bitcoin
+page_title: Switzerland's first spot bitcoin ETF BBIT debuts on SIX
+description: BIT Asset Management's Bitcoin Fund ETF (BBIT) began trading on SIX Swiss Exchange on Nov. 26, 2026 with 350 BTC. It holds bitcoin directly as a regulated Swiss fund, targets a 0.19% yearly fee and is offered publicly only in Switzerland.
+og_description: BBIT holds bitcoin directly in cold storage at AMINA Bank, trades in Swiss francs and U.S. dollars, and targets a 0.19% yearly fee. BIT says it is Europe's only spot bitcoin ETF right now.
+label: Business
+summary: Switzerland's first spot bitcoin ETF began trading on SIX Swiss Exchange on Nov. 26 with 350 BTC. Unlike most European bitcoin products, BBIT is a fund rather than a debt note. It targets a 0.19% yearly fee and is offered publicly only in Switzerland, not to U.S. persons.
+===
+
+Switzerland now has a spot bitcoin ETF. The Bitcoin Fund ETF, ticker BBIT, began trading on SIX Swiss Exchange on Thursday, Nov. 26, with 350 bitcoin in assets, its sponsor BIT Asset Management [said](L1). SIX called it Switzerland's first bitcoin ETF in its own [announcement](L2). At Thursday's prices, the starting holdings were worth more than $20 million, [The Block](L3) reported.
+
+BIT Asset Management is the Zurich-based subsidiary of BIT, a digital asset company headquartered in Singapore that was founded in 2019 as Matrixport. It sponsors and manages the fund. Pernet von Ballmoos AG (PvB) is the issuer and fund management company, and AMINA Bank, a Swiss bank, holds the coins.
+
+!takeaways
+- BBIT trades on SIX in Swiss francs and U.S. dollars under ISIN CH1593447597. It holds bitcoin directly and uses no derivatives or lending.
+- Swiss regulator FINMA approved the fund on Oct. 20 after an 18-month review, including an exception from the usual rule that funds must diversify.
+- The target total expense ratio is 0.19% a year. Flow Traders is the market maker.
+- The fund is publicly offered only in Switzerland and is not available to U.S. persons.
+
+!figure:fact
+
+## A fund, not a note
+
+Switzerland has listed bitcoin products for years, but they were exchange-traded products (ETPs) built as debt securities. Buying one means the issuer owes you money, so you carry the issuer's credit risk. BBIT is a Swiss investment fund under the Collective Investment Schemes Act. Its bitcoin is legally ring-fenced, and investors hold fund units rather than a claim against the issuer, according to BIT.
+
+"The economic exposure of a fund and a note can look very similar when everything goes well. The difference is what happens when it doesn't," said Friedrich Herzog, BIT Asset Management's chief investment officer.
+
+SIX said the first bitcoin structured products traded on its exchange in 2016, and that in November 2018 it became the first regulated exchange in the world to list a physically backed crypto-basket ETP. With BBIT, the number of ETF issuers on SIX rises to 41.
+
+## How BBIT works
+
+The fund follows a passive strategy and tracks the SIX Reference Rate Bitcoin Index. AMINA Bank keeps the coins in offline "cold storage" wallets with multi-signature controls, in addresses held in the fund's name, according to the fund's [FAQ](L4). Investors can trade units through Swiss banks and brokers during SIX hours, 09:00 to 17:30 Central European Time, Monday to Friday. Eligible investors can also subscribe by handing over bitcoin instead of cash.
+
+There are no issue or redemption commissions when trading on the exchange, but brokerage fees, Swiss stamp duty and the bid-ask spread still apply, fund manager [PvB says](L5).
+
+!figure:chart
+
+!mid_cta
+
+## Europe's only spot bitcoin ETF, for now
+
+BIT says BBIT is currently Europe's only spot bitcoin ETF. Europe did have one before: the Jacobi FT Wilshire Bitcoin ETF debuted on Euronext Amsterdam in August 2023, but Euronext has listed it as inactive since Feb. 2, 2026, and a liquidator was appointed on Feb. 26, The Block reported. When FINMA approved BBIT, it said other providers had also applied for or announced bitcoin ETFs, according to [The Block](L6).
+
+The launch comes in a rough market. Between FINMA's approval on Oct. 20 and the listing, bitcoin's daily close on Kraken fell from about $82,900 to about $60,500, a drop of roughly 27%. BIT co-founder Cynthia Wu said the fund gives investors outside the U.S. "a regulated, liquid way to hold Bitcoin through the bank or broker they already use."
+
+FINMA also stressed that approving the ETF does not change the risks of bitcoin. The price is highly volatile, and investors could lose a significant portion of their money, the regulator said.
+
+## What it means for U.S. readers
+
+You cannot buy BBIT from the U.S.: its public offering is limited to Switzerland, and it is not available to U.S. persons. Americans already have spot bitcoin ETFs on U.S. exchanges, and [Malaysia's first bitcoin ETF](/articles/malaysia-halogen-shariah-bitcoin-etf-bursa-listing-dec-2-nov-2026) is scheduled to list on Dec. 2. If you would rather own the coins yourself, a regulated U.S. exchange such as [Coinbase](REF) lets you start with a small amount. Bitcoin is volatile, so only invest what you can afford to lose. This is not financial advice.
+
+## What to watch next
+
+- How much bitcoin BBIT holds after its first weeks of trading, compared with the starting 350 BTC.
+- Whether FINMA approves spot bitcoin ETFs from other providers.
+- Whether BIT wins approval to offer the fund outside Switzerland, which its FAQ says it plans to seek.
+
+!soft: Not sure whether a fund or the coins themselves suit you? Read [bitcoin ETF vs. buying bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

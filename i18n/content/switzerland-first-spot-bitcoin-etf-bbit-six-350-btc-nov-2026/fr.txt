@@ -1,0 +1,61 @@
+title: Le premier ETF bitcoin au comptant de Suisse, BBIT, débute sur SIX avec 350 bitcoins
+page_title: BBIT, premier ETF bitcoin au comptant suisse, débute sur SIX
+description: Le Bitcoin Fund ETF (BBIT) de BIT Asset Management se négocie sur SIX Swiss Exchange depuis le 26 novembre 2026 avec 350 BTC. Il détient directement du bitcoin en tant que fonds suisse réglementé, vise des frais de 0,19 % par an et n'est offert au public qu'en Suisse.
+og_description: BBIT conserve ses bitcoins hors ligne chez AMINA Bank, se négocie en francs suisses et en dollars et vise des frais de 0,19 % par an. BIT affirme qu'il s'agit actuellement du seul ETF bitcoin au comptant d'Europe.
+label: Entreprises
+summary: Le premier ETF bitcoin au comptant de Suisse se négocie sur SIX Swiss Exchange depuis le 26 novembre avec 350 BTC. Contrairement à la plupart des produits bitcoin européens, BBIT est un fonds et non un titre de créance. Il vise des frais de 0,19 % par an et n'est offert au public qu'en Suisse, pas aux personnes américaines.
+===
+
+La Suisse a désormais un ETF bitcoin au comptant. Le Bitcoin Fund ETF, sous le symbole BBIT, a commencé à se négocier sur SIX Swiss Exchange le jeudi 26 novembre avec 350 bitcoins d'actifs, a [indiqué](L1) son promoteur BIT Asset Management. SIX l'a présenté comme le premier ETF bitcoin de Suisse dans son propre [communiqué](L2). Aux cours de jeudi, la dotation de départ valait plus de 20 millions de dollars, selon [The Block](L3).
+
+BIT Asset Management est la filiale zurichoise de BIT, une société d'actifs numériques basée à Singapour, fondée en 2019 sous le nom de Matrixport. Elle promeut et gère le fonds. Pernet von Ballmoos AG (PvB) est l'émetteur et la direction du fonds, et AMINA Bank, une banque suisse, conserve les coins.
+
+!takeaways
+- BBIT se négocie sur SIX en francs suisses et en dollars sous l'ISIN CH1593447597. Il détient directement du bitcoin, sans produits dérivés ni prêt de titres.
+- Le régulateur suisse FINMA a approuvé le fonds le 20 octobre après un examen de 18 mois, avec une dérogation à la règle habituelle de diversification des fonds.
+- Le ratio de frais totaux visé est de 0,19 % par an. Flow Traders est teneur de marché.
+- Le fonds n'est offert au public qu'en Suisse et n'est pas accessible aux personnes américaines.
+
+!figure:fact
+
+## Un fonds, pas un titre de créance
+
+La Suisse cote des produits bitcoin depuis des années, mais il s'agissait de produits négociés en Bourse (ETP) construits comme des titres de dette. En acheter un signifie que l'émetteur vous doit de l'argent : vous portez donc son risque de crédit. BBIT est un fonds de placement suisse soumis à la loi sur les placements collectifs. Ses bitcoins sont juridiquement cantonnés, et les investisseurs détiennent des parts du fonds plutôt qu'une créance sur l'émetteur, selon BIT.
+
+« L'exposition économique d'un fonds et d'un titre de créance peut sembler très similaire quand tout va bien. La différence, c'est ce qui se passe quand ça va mal », a déclaré Friedrich Herzog, directeur des investissements de BIT Asset Management.
+
+SIX rappelle que les premiers produits structurés sur le bitcoin se sont négociés sur sa Bourse en 2016 et qu'en novembre 2018 elle est devenue la première Bourse réglementée au monde à coter un ETP sur un panier de cryptos adossé à des actifs physiques. Avec BBIT, le nombre d'émetteurs d'ETF sur SIX passe à 41.
+
+## Comment fonctionne BBIT
+
+Le fonds suit une stratégie passive et réplique le SIX Reference Rate Bitcoin Index. AMINA Bank conserve les coins dans des portefeuilles hors ligne (« stockage à froid ») protégés par multisignature, sur des adresses au nom du fonds, selon la [FAQ](L4) du fonds. Les parts se négocient via les banques et courtiers suisses pendant les heures de SIX, de 09:00 à 17:30 heure d'Europe centrale, du lundi au vendredi. Les investisseurs éligibles peuvent aussi souscrire en apportant des bitcoins plutôt que des liquidités.
+
+Il n'y a pas de commission d'émission ni de rachat en Bourse, mais les frais de courtage, le droit de timbre suisse et l'écart entre cours acheteur et vendeur s'appliquent, [précise](L5) la direction du fonds PvB.
+
+!figure:chart
+
+!mid_cta
+
+## Le seul ETF bitcoin au comptant d'Europe, pour l'instant
+
+BIT affirme que BBIT est actuellement le seul ETF bitcoin au comptant d'Europe. L'Europe en a déjà eu un : le Jacobi FT Wilshire Bitcoin ETF a fait ses débuts sur Euronext Amsterdam en août 2023, mais Euronext le classe comme inactif depuis le 2 février 2026, et un liquidateur a été nommé le 26 février, selon The Block. En approuvant BBIT, la FINMA avait indiqué que d'autres fournisseurs avaient aussi déposé ou annoncé des ETF bitcoin, rapporte [The Block](L6).
+
+Le lancement intervient dans un marché difficile. Entre l'approbation de la FINMA le 20 octobre et la cotation, la clôture quotidienne du bitcoin sur Kraken est passée d'environ 82 900 $ à environ 60 500 $, soit une baisse d'environ 27 %. La cofondatrice de BIT Cynthia Wu a déclaré que le fonds offre aux investisseurs hors des États-Unis « un moyen réglementé et liquide de détenir du bitcoin via la banque ou le courtier qu'ils utilisent déjà ».
+
+La FINMA a aussi souligné qu'approuver l'ETF ne change rien aux risques du bitcoin. Son cours est très volatil et les investisseurs peuvent perdre une part importante de leur argent, a indiqué le régulateur.
+
+## Ce que cela change pour les investisseurs ailleurs
+
+BBIT n'est offert au public qu'en Suisse et n'est pas accessible aux personnes américaines. Ailleurs, il existe d'autres options : les États-Unis ont leurs propres ETF bitcoin au comptant et le [premier ETF bitcoin de Malaisie](/articles/malaysia-halogen-shariah-bitcoin-etf-bursa-listing-dec-2-nov-2026) doit être coté le 2 décembre. Si vous préférez détenir les coins vous-même, une plateforme réglementée comme [Coinbase](REF) permet de commencer avec une petite somme. Le bitcoin est volatil : n'investissez que ce que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil financier.
+
+## À surveiller
+
+- Combien de bitcoins BBIT détiendra après ses premières semaines de cotation, par rapport aux 350 BTC de départ.
+- Si la FINMA approuve des ETF bitcoin au comptant d'autres fournisseurs.
+- Si BIT obtient l'autorisation de proposer le fonds hors de Suisse, ce que sa FAQ dit vouloir demander.
+
+!soft: Fonds ou coins en direct ? Lisez [ETF bitcoin ou achat direct de bitcoin](/articles/bitcoin-etf-vs-buying-bitcoin).
+
+!end_cta
+
+!disclosure

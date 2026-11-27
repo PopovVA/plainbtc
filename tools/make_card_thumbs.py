@@ -3169,7 +3169,104 @@ def thumb_binance_restored():
 
 
 
+def thumb_halogen_etf():
+    """Malaysia board: flag of Malaysia (Wikimedia Commons, public domain) and Bursa Malaysia logo (Wikimedia Commons,
+    identification only), the two trading counters from Halogen's website and a drawn five-step track to the Dec. 2 listing
+    with dates from the Halogen Shariah Bitcoin ETF prospectus (Nov. 27, 2026)."""
+    flag = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg", CACHE/"flag-malaysia.svg")).convert("RGBA")
+    bursa = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/2/27/Bursa_Malaysia_logo.svg", CACHE/"bursa-malaysia-logo.svg")).convert("RGBA")
+    base = gradient_bg(top=(1, 33, 105), bottom=(4, 12, 40))
+    d = Draw(base)
+    yel, ink, mute, green, sky = (255, 204, 0), (241, 245, 249), (165, 180, 252), (52, 211, 153), (96, 165, 250)
+    paste_contain(base, flag, (22, 22, 120, 62), pad=0)
+    d = Draw(base)
+    d.rounded_rectangle([22, 96, 142, 140], radius=10, fill=(255, 255, 255))
+    paste_contain(base, bursa, (22, 96, 120, 44), pad=6)
+    d = Draw(base)
+    d.text((168, 22), "Halogen Shariah Bitcoin ETF", font=font(FONT_B, 22), fill=ink)
+    d.text((168, 54), "Listing Dec. 2", font=font(FONT_B, 40), fill=yel)
+    d.text((168, 106), "At least 95% in physical spot bitcoin", font=font(FONT_R, 14), fill=mute)
+    d.text((168, 126), "Units from US$1.00 · fee up to 0.60% a year", font=font(FONT_R, 14), fill=mute)
+    # two counters
+    for i, (tk, cur) in enumerate((("BTCETF-MYR", "ringgit"), ("BTCETF-USD", "U.S. dollar"))):
+        x = 26 + i * 298
+        d.rounded_rectangle([x, 166, x + 286, 210], radius=10, fill=(10, 24, 70), outline=yel, width=2)
+        d.text((x + 14, 176), tk, font=font(FONT_B, 20), fill=yel)
+        tw = d.textlength(cur, font=font(FONT_R, 13))
+        d.text((x + 272 - tw, 182), cur, font=font(FONT_R, 13), fill=mute)
+    steps = [("Oct. 26", "SC approval", sky), ("Nov. 16", "Bursa approval", sky), ("Nov. 27", "Prospectus", yel), ("Nov. 30", "Subscription", yel), ("Dec. 2", "Listing", green)]
+    x0, x1, y = 62, 578, 262
+    d.rounded_rectangle([x0, y - 4, x1, y + 4], radius=4, fill=(51, 65, 120))
+    for i, (dt_, lab, col) in enumerate(steps):
+        cx = x0 + i * (x1 - x0) / 4
+        d.ellipse([cx - 10, y - 10, cx + 10, y + 10], fill=col, outline=(4, 12, 40), width=3)
+        tw = d.textlength(dt_, font=font(FONT_B, 13))
+        d.text((cx - tw / 2, y - 34), dt_, font=font(FONT_B, 13), fill=ink)
+        lw = d.textlength(lab, font=font(FONT_R, 12))
+        d.text((cx - lw / 2, y + 18), lab, font=font(FONT_R, 12), fill=col if i == 4 else mute)
+    d.text((24, 324), "Flag: Wikimedia Commons (public domain) · logo: Bursa Malaysia (Wikimedia Commons) · dates: prospectus, Nov. 27, 2026", font=font(FONT_R, 9), fill=(147, 160, 220))
+    return base, {"kind": "composite", "sources": [
+        {"file": "Flag_of_Malaysia.svg", "license": "Public domain", "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Malaysia.svg", "credit": "Wikimedia Commons"},
+        {"file": "Bursa_Malaysia_logo.svg", "license": "Logo", "url": "https://commons.wikimedia.org/wiki/File:Bursa_Malaysia_logo.svg", "credit": "Bursa Malaysia"},
+        {"file": "Halogen Shariah Bitcoin ETF prospectus (Nov. 27, 2026)", "license": "Facts cited", "url": "https://www.sc.com.my/api/documentms/download.ashx?id=30814a4c-8089-4105-b07b-1d36963c4017", "credit": "Halogen Capital / Securities Commission Malaysia"},
+        {"file": "halogen.my (BTCETF-MYR, BTCETF-USD)", "license": "Facts cited", "url": "https://halogen.my/", "credit": "Halogen Capital"},
+    ], "note": "Editorial composite; logo for identification only; no endorsement by Bursa Malaysia or Halogen implied."}
+
+
+def thumb_bbit_six():
+    """Swiss-red board: flag of Switzerland (Wikimedia Commons, public domain) and SIX Swiss Exchange logo (Wikimedia Commons,
+    identification only), key fund facts from BIT/SIX (Nov. 26, 2026) and a mini chart of Kraken BTC/USD daily closes
+    from FINMA approval (Oct. 20) to listing (Nov. 26), frozen in chart-data.json."""
+    flag = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg", CACHE/"flag-switzerland.svg")).convert("RGBA")
+    six = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/0/01/SIX_Swiss_Exchange_logo.svg", CACHE/"six-swiss-exchange-logo.svg")).convert("RGBA")
+    data = json.loads((I18N / "switzerland-first-spot-bitcoin-etf-bbit-six-350-btc-nov-2026" / "chart-data.json").read_text(encoding="utf-8"))
+    xs = [datetime.fromtimestamp(r[0], tz=timezone.utc) for r in data["daily"]]
+    ys = [r[1] for r in data["daily"]]
+    base = gradient_bg(top=(120, 10, 18), bottom=(28, 6, 10))
+    d = Draw(base)
+    ink, mute, gold = (255, 245, 245), (252, 165, 165), (247, 147, 26)
+    paste_contain(base, flag, (22, 22, 64, 64), pad=0)
+    d = Draw(base)
+    d.rounded_rectangle([98, 22, 238, 86], radius=10, fill=(255, 255, 255))
+    paste_contain(base, six, (98, 22, 140, 64), pad=8)
+    d = Draw(base)
+    d.text((260, 22), "BBIT · Switzerland's first", font=font(FONT_B, 18), fill=ink)
+    d.text((260, 44), "spot bitcoin ETF", font=font(FONT_B, 18), fill=ink)
+    d.text((260, 70), "Trading on SIX since Nov. 26", font=font(FONT_R, 13), fill=mute)
+    tiles = [("350 BTC", "at launch"), ("0.19%", "target fee a year"), ("CHF + USD", "trading lines")]
+    for i, (big, small) in enumerate(tiles):
+        x = 22 + i * 202
+        d.rounded_rectangle([x, 102, x + 190, 160], radius=10, fill=(60, 8, 14), outline=(220, 38, 38), width=2)
+        d.text((x + 12, 108), big, font=font(FONT_B, 24), fill=gold if i == 0 else ink)
+        d.text((x + 12, 140), small, font=font(FONT_R, 12), fill=mute)
+    fig = plt.figure(figsize=(6.0, 1.5), dpi=100 * S); fig.patch.set_facecolor("#1f070b")
+    ax = fig.add_axes([0.1, 0.16, 0.88, 0.68]); ax.set_facecolor("#1f070b")
+    for s_ in ("top", "right"): ax.spines[s_].set_visible(False)
+    for s_ in ("left", "bottom"): ax.spines[s_].set_color("#7f1d1d")
+    ax.tick_params(colors="#fca5a5", labelsize=6.5, length=0)
+    ax.grid(True, axis="y", color="#4c0f16", linewidth=0.6)
+    ax.plot(xs, ys, color="#f7931a", linewidth=2.2)
+    ax.fill_between(xs, ys, min(ys) * 0.96, color="#f7931a", alpha=0.15)
+    ax.scatter([xs[0], xs[-1]], [ys[0], ys[-1]], s=26, color=["#ffffff", "#f87171"], zorder=5, edgecolors="white", linewidths=1)
+    ax.set_ylim(min(ys) * 0.96, max(ys) * 1.05)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"${v/1000:,.0f}k"))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %d"))
+    ax.set_title("BTC daily close on Kraken, FINMA approval (Oct. 20) to listing (Nov. 26), UTC", color="#fecaca", fontsize=7.5, loc="left", pad=4)
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100 * S, facecolor=fig.get_facecolor()); plt.close(fig); buf.seek(0)
+    base.paste(Image.open(buf).convert("RGB"), sz((20, 172)))
+    d = Draw(base)
+    d.text((24, 324), "Flag: Wikimedia Commons (public domain) · logo: SIX (Wikimedia Commons) · facts: BIT, SIX · prices: Kraken", font=font(FONT_R, 9), fill=(252, 165, 165))
+    return base, {"kind": "composite", "sources": [
+        {"file": "Flag_of_Switzerland.svg", "license": "Public domain", "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Switzerland.svg", "credit": "Wikimedia Commons"},
+        {"file": "SIX_Swiss_Exchange_logo.svg", "license": "Logo", "url": "https://commons.wikimedia.org/wiki/File:SIX_Swiss_Exchange_logo.svg", "credit": "SIX Group"},
+        {"file": "BIT AM lists Switzerland's first spot Bitcoin ETF on SIX (Nov. 26, 2026)", "license": "Facts cited", "url": "https://www.bit.com/pressroom/six-listing", "credit": "BIT"},
+        {"file": "Kraken OHLC XBTUSD interval=1440", "license": "Kraken public API", "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "credit": "Daily BTC/USD closes Oct 20 to Nov 26, 2026, from Kraken"},
+    ], "note": "Editorial composite; logo for identification only; no endorsement by SIX or BIT implied."}
+
+
 BUILDERS = {
+    "malaysia-halogen-shariah-bitcoin-etf-bursa-listing-dec-2-nov-2026": thumb_halogen_etf,
+    "switzerland-first-spot-bitcoin-etf-bbit-six-350-btc-nov-2026": thumb_bbit_six,
     "monero-falls-11-percent-kucoin-delists-xmr-nov-2026": thumb_monero_kucoin,
     "binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026": thumb_binance_restored,
     "novatech-founders-ordered-to-pay-1-37-billion-new-york-crypto-ponzi-nov-2026": thumb_novatech_judgment,

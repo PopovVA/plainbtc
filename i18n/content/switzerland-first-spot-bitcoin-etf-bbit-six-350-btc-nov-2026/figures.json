@@ -1,0 +1,64 @@
+[
+  {
+    "id": "fact",
+    "file": "fact-bbit-350-btc-six.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: the Bitcoin Fund ETF (BBIT) launched on SIX Swiss Exchange with 350 BTC; it trades since Nov. 26, 2026 in Swiss francs and U.S. dollars, keeps its bitcoin in cold storage at AMINA Bank, targets a 0.19% yearly fee and is publicly offered only in Switzerland",
+      "es": "Tarjeta: el Bitcoin Fund ETF (BBIT) arrancó en SIX Swiss Exchange con 350 BTC; cotiza desde el 26 de noviembre de 2026 en francos suizos y dólares, guarda sus bitcoins en almacenamiento en frío en AMINA Bank, apunta a una comisión del 0,19% anual y solo se ofrece públicamente en Suiza",
+      "pt": "Cartão: o Bitcoin Fund ETF (BBIT) estreou na SIX Swiss Exchange com 350 BTC; é negociado desde 26 de novembro de 2026 em francos suíços e dólares, guarda seus bitcoins em armazenamento a frio no AMINA Bank, mira uma taxa de 0,19% ao ano e só é oferecido publicamente na Suíça",
+      "fr": "Encadré : le Bitcoin Fund ETF (BBIT) a démarré sur SIX Swiss Exchange avec 350 BTC ; il se négocie depuis le 26 novembre 2026 en francs suisses et en dollars, conserve ses bitcoins hors ligne chez AMINA Bank, vise des frais de 0,19 % par an et n'est offert au public qu'en Suisse",
+      "de": "Faktenkarte: Der Bitcoin Fund ETF (BBIT) startete an der SIX Swiss Exchange mit 350 BTC; er wird seit dem 26. November 2026 in Franken und US-Dollar gehandelt, verwahrt seine Bitcoin offline bei der AMINA Bank, zielt auf 0,19 % Gebühren pro Jahr und wird öffentlich nur in der Schweiz angeboten",
+      "ru": "Карточка: Bitcoin Fund ETF (BBIT) стартовал на SIX Swiss Exchange с 350 BTC; торгуется с 26 ноября 2026 года в швейцарских франках и долларах США, хранит биткоины в холодном хранилище AMINA Bank, целевая комиссия 0,19% в год, публичное предложение только в Швейцарии",
+      "tr": "Bilgi kartı: Bitcoin Fund ETF (BBIT), SIX Swiss Exchange'te 350 BTC ile başladı; 26 Kasım 2026'dan beri İsviçre frangı ve ABD doları ile işlem görüyor, bitcoinlerini AMINA Bank'ta soğuk depolamada tutuyor, yıllık %0,19 ücret hedefliyor ve yalnızca İsviçre'de halka arz ediliyor",
+      "id": "Kartu fakta: Bitcoin Fund ETF (BBIT) dimulai di SIX Swiss Exchange dengan 350 BTC; diperdagangkan sejak 26 November 2026 dalam franc Swiss dan dolar AS, menyimpan bitcoinnya di penyimpanan dingin AMINA Bank, menargetkan biaya 0,19% per tahun, dan hanya ditawarkan secara publik di Swiss",
+      "ja": "ファクトカード：Bitcoin Fund ETF（BBIT）は350 BTCでSIXスイス取引所に上場。2026年11月26日からスイスフランと米ドルで取引され、ビットコインはAMINA Bankのコールドストレージで保管。目標経費率は年0.19%、公募はスイス国内のみ",
+      "ko": "팩트 카드: Bitcoin Fund ETF(BBIT)는 350 BTC로 SIX 스위스 거래소에서 출발. 2026년 11월 26일부터 스위스 프랑과 미국 달러로 거래되며 비트코인은 AMINA Bank 콜드 스토리지에 보관. 목표 보수는 연 0.19%, 공모는 스위스에서만"
+    },
+    "caption": {
+      "en": "Source: BIT Asset Management; SIX Swiss Exchange, Nov. 26, 2026",
+      "es": "Fuente: BIT Asset Management; SIX Swiss Exchange, Nov. 26, 2026",
+      "pt": "Fonte: BIT Asset Management; SIX Swiss Exchange, Nov. 26, 2026",
+      "fr": "Source : BIT Asset Management; SIX Swiss Exchange, Nov. 26, 2026",
+      "de": "Quelle: BIT Asset Management; SIX Swiss Exchange, Nov. 26, 2026",
+      "ru": "Источник: BIT Asset Management; SIX Swiss Exchange, Nov. 26, 2026",
+      "tr": "Kaynak: BIT Asset Management; SIX Swiss Exchange, Nov. 26, 2026",
+      "id": "Sumber: BIT Asset Management; SIX Swiss Exchange, Nov. 26, 2026",
+      "ja": "出典: BIT Asset Management; SIX Swiss Exchange, Nov. 26, 2026",
+      "ko": "출처: BIT Asset Management; SIX Swiss Exchange, Nov. 26, 2026"
+    }
+  },
+  {
+    "id": "chart",
+    "file": "chart-btc-finma-approval-to-bbit-listing.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin's daily closing price on Kraken from Oct. 20 to Nov. 26, 2026: it starts near $82,900 on the day FINMA approved BBIT, slides through November and ends near $60,500 on the listing day, about 27% lower",
+      "es": "Gráfico de líneas del precio de cierre diario de bitcoin en Kraken del 20 de octubre al 26 de noviembre de 2026: empieza cerca de 82.900 $ el día en que FINMA aprobó BBIT, cae durante noviembre y termina cerca de 60.500 $ el día de la salida a bolsa, alrededor de un 27% menos",
+      "pt": "Gráfico de linha do preço de fechamento diário do bitcoin na Kraken de 20 de outubro a 26 de novembro de 2026: começa perto de US$ 82.900 no dia em que a FINMA aprovou o BBIT, cai ao longo de novembro e termina perto de US$ 60.500 no dia da listagem, cerca de 27% abaixo",
+      "fr": "Courbe des clôtures quotidiennes du bitcoin sur Kraken du 20 octobre au 26 novembre 2026 : départ vers 82 900 $ le jour où la FINMA a approuvé BBIT, baisse en novembre et fin vers 60 500 $ le jour de la cotation, soit environ 27 % de moins",
+      "de": "Liniendiagramm der täglichen Bitcoin-Schlusskurse bei Kraken vom 20. Oktober bis 26. November 2026: Start bei rund 82.900 $ am Tag der FINMA-Genehmigung für BBIT, Rückgang im November und Schluss bei rund 60.500 $ am Tag der Notierung, etwa 27 % tiefer",
+      "ru": "Линейный график дневных цен закрытия биткоина на Kraken с 20 октября по 26 ноября 2026 года: старт около $82 900 в день одобрения BBIT регулятором FINMA, снижение в ноябре и около $60 500 в день листинга, примерно на 27% ниже",
+      "tr": "Kraken'de 20 Ekim-26 Kasım 2026 arası bitcoin günlük kapanış fiyatı çizgi grafiği: FINMA'nın BBIT'i onayladığı gün yaklaşık 82.900 $ ile başlıyor, Kasım boyunca geriliyor ve kotasyon gününde yaklaşık 60.500 $ ile, yaklaşık %27 aşağıda bitiyor",
+      "id": "Grafik garis harga penutupan harian bitcoin di Kraken dari 20 Oktober hingga 26 November 2026: dimulai sekitar US$82.900 pada hari FINMA menyetujui BBIT, turun sepanjang November, dan berakhir sekitar US$60.500 pada hari pencatatan, sekitar 27% lebih rendah",
+      "ja": "2026年10月20日〜11月26日のKrakenにおけるビットコイン日次終値の折れ線グラフ：FINMAがBBITを承認した日の約82,900ドルから11月にかけて下落し、上場日には約60,500ドルと約27%低い水準で終了",
+      "ko": "2026년 10월 20일~11월 26일 크라켄 비트코인 일별 종가 선 차트: FINMA가 BBIT를 승인한 날 약 82,900달러에서 시작해 11월 내내 하락했고, 상장일에는 약 60,500달러로 약 27% 낮게 마감"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken BTC/USD daily closes (UTC), Oct. 20 to Nov. 26, 2026",
+      "es": "Gráfico: PlainBTC, datos: Kraken BTC/USD daily closes (UTC), Oct. 20 to Nov. 26, 2026",
+      "pt": "Gráfico: PlainBTC, dados: Kraken BTC/USD daily closes (UTC), Oct. 20 to Nov. 26, 2026",
+      "fr": "Graphique : PlainBTC, données : Kraken BTC/USD daily closes (UTC), Oct. 20 to Nov. 26, 2026",
+      "de": "Chart: PlainBTC, Daten: Kraken BTC/USD daily closes (UTC), Oct. 20 to Nov. 26, 2026",
+      "ru": "График: PlainBTC, данные: Kraken BTC/USD daily closes (UTC), Oct. 20 to Nov. 26, 2026",
+      "tr": "Grafik: PlainBTC, veri: Kraken BTC/USD daily closes (UTC), Oct. 20 to Nov. 26, 2026",
+      "id": "Grafik: PlainBTC, data: Kraken BTC/USD daily closes (UTC), Oct. 20 to Nov. 26, 2026",
+      "ja": "チャート: PlainBTC、データ: Kraken BTC/USD daily closes (UTC), Oct. 20 to Nov. 26, 2026",
+      "ko": "차트: PlainBTC, 데이터: Kraken BTC/USD daily closes (UTC), Oct. 20 to Nov. 26, 2026"
+    }
+  }
+]
