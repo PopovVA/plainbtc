@@ -6680,8 +6680,120 @@ def build_open_brl():
          "caption": tr_map(CAPTION_SOURCE, src="B3; Valor Econômico; CoinDesk, Nov. 27, 2026")},
     ]
 
+SAFU_SLUG = "binance-safu-swaps-7500-bitcoin-for-500-million-usdc-nov-2026"
+WLFI_SLUG = "wlfi-token-plunges-50-percent-record-low-eth-sale-usd1-depeg-nov-2026"
+
+
+def build_safu_usdc_swap():
+    d = OUT / SAFU_SLUG
+    cmp_ = make_compare_card(
+        d / "compare-safu-btc-out-usdc-in",
+        "Binance SAFU swap, Nov. 28, 2026",
+        "Moving out",
+        "Moving in",
+        [
+            ("Asset", "7,500 BTC", "500 million USDC"),
+            ("Direction", "SAFU address to Binance treasury", "Binance treasury to SAFU"),
+            ("On-chain", "Sent 09:33 UTC, block 977,920", "Address not disclosed by Binance"),
+        ],
+        footer="Sources: Binance announcement; mempool.space, Nov. 28, 2026",
+    )
+    tl = make_timeline_card(
+        d / "timeline-safu-bitcoin-2026",
+        "SAFU's bitcoin in 2026",
+        [
+            ("Feb. 12", "Conversion done: fund holds 15,000 BTC", (96, 165, 250)),
+            ("Oct. 29", "Hack of about $6.3 billion hits Binance", RED),
+            ("Oct. 31", "7,500 BTC leave the SAFU address", (251, 191, 36)),
+            ("Nov. 28", "Last 7,500 BTC swapped for 500M USDC", GREEN),
+        ],
+        footer="Sources: Binance; CoinDesk; mempool.space",
+        margin=170, wrap_w=250,
+    )
+    return [
+        {"id": "compare", "file": cmp_.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Comparison card of Binance's Nov. 28, 2026 SAFU swap: 7,500 BTC move out from the SAFU address to Binance's treasury and were sent at 09:33 UTC in block 977,920; 500 million USDC move in from the treasury to SAFU, at an address Binance has not disclosed", {
+            "es": "Tarjeta comparativa del cambio en el SAFU de Binance del 28 de noviembre de 2026: salen 7.500 BTC de la dirección del SAFU hacia la tesorería de Binance, enviados a las 09:33 UTC en el bloque 977.920; entran 500 millones de USDC desde la tesorería al SAFU, en una dirección que Binance no ha revelado",
+            "pt": "Cartão comparativo da troca no SAFU da Binance em 28 de novembro de 2026: saem 7.500 BTC do endereço do SAFU para a tesouraria da Binance, enviados às 09:33 UTC no bloco 977.920; entram 500 milhões de USDC da tesouraria para o SAFU, em um endereço que a Binance não divulgou",
+            "fr": "Encadré comparatif de l'échange du fonds SAFU de Binance du 28 novembre 2026 : 7 500 BTC sortent de l'adresse SAFU vers la trésorerie de Binance, envoyés à 09:33 UTC dans le bloc 977 920 ; 500 millions d'USDC entrent dans le SAFU depuis la trésorerie, à une adresse que Binance n'a pas communiquée",
+            "de": "Vergleichskarte zum SAFU-Tausch von Binance am 28. November 2026: 7.500 BTC gehen von der SAFU-Adresse an die Binance-Treasury und wurden um 09:33 UTC in Block 977.920 gesendet; 500 Millionen USDC kommen aus der Treasury in den SAFU, an eine Adresse, die Binance nicht genannt hat",
+            "ru": "Карточка сравнения обмена в фонде SAFU Binance 28 ноября 2026 года: 7500 BTC уходят с адреса SAFU в казну Binance и отправлены в 09:33 UTC в блоке 977 920; 500 млн USDC поступают из казны в SAFU на адрес, который Binance не раскрыла",
+            "tr": "Binance'in 28 Kasım 2026 SAFU takasının karşılaştırma kartı: 7.500 BTC SAFU adresinden Binance hazinesine çıkıyor ve 09:33 UTC'de 977.920 numaralı blokta gönderildi; 500 milyon USDC hazineden SAFU'ya giriyor, Binance'in açıklamadığı bir adrese",
+            "id": "Kartu perbandingan pertukaran SAFU Binance pada 28 November 2026: 7.500 BTC keluar dari alamat SAFU ke kas Binance dan dikirim pukul 09:33 UTC di blok 977.920; 500 juta USDC masuk dari kas ke SAFU, di alamat yang belum diungkap Binance",
+            "ja": "2026年11月28日のBinance SAFU入れ替えの比較カード：7,500 BTCがSAFUアドレスからBinanceの自己資金口座へ移り、UTC 09:33にブロック977,920で送金済み。5億USDCが自己資金口座からSAFUへ入るが、受け取りアドレスはBinanceが未公表",
+            "ko": "2026년 11월 28일 바이낸스 SAFU 교체 비교 카드: 7,500 BTC가 SAFU 주소에서 바이낸스 자체 자금 계정으로 나가며 UTC 09:33 블록 977,920에서 전송됨. 5억 USDC가 자체 자금 계정에서 SAFU로 들어오지만 수령 주소는 바이낸스가 공개하지 않음",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Binance announcement; mempool.space, Nov. 28, 2026")},
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline of SAFU's bitcoin in 2026: Feb. 12, the conversion is done and the fund holds 15,000 BTC; Oct. 29, a hack of about $6.3 billion hits Binance; Oct. 31, 7,500 BTC leave the SAFU address; Nov. 28, the last 7,500 BTC are swapped for 500 million USDC", {
+            "es": "Cronología del bitcoin del SAFU en 2026: 12 de febrero, termina la conversión y el fondo tiene 15.000 BTC; 29 de octubre, un hackeo de unos 6.300 millones de dólares golpea a Binance; 31 de octubre, salen 7.500 BTC de la dirección del SAFU; 28 de noviembre, los últimos 7.500 BTC se cambian por 500 millones de USDC",
+            "pt": "Linha do tempo do bitcoin do SAFU em 2026: 12 de fevereiro, a conversão termina e o fundo tem 15.000 BTC; 29 de outubro, um ataque de cerca de US$ 6,3 bilhões atinge a Binance; 31 de outubro, 7.500 BTC saem do endereço do SAFU; 28 de novembro, os últimos 7.500 BTC são trocados por 500 milhões de USDC",
+            "fr": "Chronologie du bitcoin du SAFU en 2026 : 12 février, la conversion est terminée et le fonds détient 15 000 BTC ; 29 octobre, un piratage d'environ 6,3 milliards de dollars frappe Binance ; 31 octobre, 7 500 BTC quittent l'adresse SAFU ; 28 novembre, les 7 500 derniers BTC sont échangés contre 500 millions d'USDC",
+            "de": "Zeitleiste der SAFU-Bitcoin im Jahr 2026: 12. Februar, Umstellung abgeschlossen, der Fonds hält 15.000 BTC; 29. Oktober, ein Hack von rund 6,3 Milliarden Dollar trifft Binance; 31. Oktober, 7.500 BTC verlassen die SAFU-Adresse; 28. November, die letzten 7.500 BTC werden gegen 500 Millionen USDC getauscht",
+            "ru": "Хронология биткоинов SAFU в 2026 году: 12 февраля конвертация завершена, в фонде 15 000 BTC; 29 октября взлом примерно на $6,3 млрд бьёт по Binance; 31 октября 7500 BTC уходят с адреса SAFU; 28 ноября последние 7500 BTC обменены на 500 млн USDC",
+            "tr": "2026'da SAFU'nun bitcoin'leri zaman çizelgesi: 12 Şubat, dönüşüm tamamlanır ve fonda 15.000 BTC olur; 29 Ekim, yaklaşık 6,3 milyar dolarlık bir saldırı Binance'i vurur; 31 Ekim, 7.500 BTC SAFU adresinden çıkar; 28 Kasım, son 7.500 BTC 500 milyon USDC ile takas edilir",
+            "id": "Linimasa bitcoin SAFU pada 2026: 12 Februari, konversi selesai dan dana memegang 15.000 BTC; 29 Oktober, peretasan sekitar US$6,3 miliar menghantam Binance; 31 Oktober, 7.500 BTC keluar dari alamat SAFU; 28 November, 7.500 BTC terakhir ditukar dengan 500 juta USDC",
+            "ja": "2026年のSAFUのビットコインの時系列：2月12日、転換が完了し基金は15,000 BTCを保有。10月29日、約63億ドルのハッキングがBinanceを襲う。10月31日、7,500 BTCがSAFUアドレスから流出。11月28日、残る7,500 BTCを5億USDCと入れ替え",
+            "ko": "2026년 SAFU 비트코인 타임라인: 2월 12일 전환 완료, 기금 15,000 BTC 보유. 10월 29일 약 63억 달러 규모 해킹이 바이낸스를 덮침. 10월 31일 7,500 BTC가 SAFU 주소에서 빠져나감. 11월 28일 남은 7,500 BTC를 5억 USDC로 교체",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="Binance; CoinDesk; mempool.space")},
+    ]
+
+
+def build_wlfi_crash():
+    d = OUT / WLFI_SLUG
+    data = json.loads((I18N / WLFI_SLUG / "chart-data.json").read_text(encoding="utf-8"))
+    xs = np.array([r[0] for r in data["hourly"]], dtype=float)
+    ys = np.array([r[1] for r in data["hourly"]])
+    assert abs(min(r[2] for r in data["hourly"]) - 0.0182) < 1e-9, "range changed"
+    chart = make_line_chart(
+        d / "chart-wlfi-hourly-nov-26-28-2026",
+        xs, ys,
+        title="WLFI, hourly closes on Kraken, Nov. 26 to Nov. 28, 2026 (UTC)",
+        date_fmt="%b %d %H:%M",
+        yfmt=lambda x, _p: f"${x:.3f}",
+    )
+    card = make_fact_card(
+        d / "fact-wlfi-reserve-sold-12121-eth",
+        label="WLFI strategic reserve wallet · Nov. 27",
+        big="12,121 ETH sold",
+        sub="About $20.06 million at roughly $1,655 per ether. The coins cost about $3,244 each, a realized loss of about $19.26 million.",
+        footer="Source: EmberCN (Arkham data), via CoinDesk, Nov. 28, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of WLFI's hourly closing price on Kraken from Nov. 26 to Nov. 28, 2026 (UTC): it holds around $0.042 to $0.043, eases to about $0.035 by late Nov. 27, then plunges in the 04:00 UTC hour on Nov. 28 to about $0.019", {
+            "es": "Gráfico de líneas del cierre horario de WLFI en Kraken del 26 al 28 de noviembre de 2026 (UTC): se mantiene entre unos 0,042 y 0,043 dólares, baja a cerca de 0,035 a última hora del 27 y se desploma en la hora de las 04:00 UTC del 28 hasta unos 0,019",
+            "pt": "Gráfico de linha do fechamento por hora do WLFI na Kraken de 26 a 28 de novembro de 2026 (UTC): fica entre cerca de US$ 0,042 e US$ 0,043, recua para perto de US$ 0,035 no fim do dia 27 e despenca na hora das 04:00 UTC do dia 28 para cerca de US$ 0,019",
+            "fr": "Courbe des clôtures horaires du WLFI sur Kraken du 26 au 28 novembre 2026 (UTC) : autour de 0,042 à 0,043 $, repli vers 0,035 $ en fin de journée le 27, puis chute dans l'heure de 04:00 UTC le 28 jusqu'à environ 0,019 $",
+            "de": "Liniendiagramm der stündlichen WLFI-Schlusskurse bei Kraken vom 26. bis 28. November 2026 (UTC): um 0,042 bis 0,043 $, bis zum späten 27. Rückgang auf etwa 0,035 $, dann Absturz in der Stunde ab 04:00 UTC am 28. auf rund 0,019 $",
+            "ru": "Линейный график почасовых цен закрытия WLFI на Kraken с 26 по 28 ноября 2026 года (UTC): около $0,042–0,043, к концу 27-го снижение примерно до $0,035, затем обвал в час с 04:00 UTC 28 ноября примерно до $0,019",
+            "tr": "Kraken'de 26-28 Kasım 2026 arası WLFI saatlik kapanış fiyatı çizgi grafiği (UTC): 0,042-0,043 $ civarında seyrediyor, 27 Kasım'ın sonlarına doğru yaklaşık 0,035 $'a geriliyor, ardından 28 Kasım 04:00 UTC saatinde yaklaşık 0,019 $'a çöküyor",
+            "id": "Grafik garis harga penutupan per jam WLFI di Kraken dari 26 hingga 28 November 2026 (UTC): bertahan di sekitar US$0,042 hingga US$0,043, turun ke sekitar US$0,035 menjelang akhir 27 November, lalu anjlok pada jam 04:00 UTC tanggal 28 ke sekitar US$0,019",
+            "ja": "2026年11月26日〜28日（UTC）のKrakenにおけるWLFI時間足終値の折れ線グラフ：0.042〜0.043ドル前後で推移し、27日遅くに約0.035ドルまで下げた後、28日UTC 4時台に約0.019ドルまで急落",
+            "ko": "2026년 11월 26일~28일(UTC) 크라켄 WLFI 시간별 종가 선 차트: 0.042~0.043달러 부근에서 움직이다 27일 늦게 약 0.035달러로 내려간 뒤, 28일 UTC 04시대에 약 0.019달러로 급락",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken WLFI/USD hourly closes (UTC)")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: the WLFI strategic reserve wallet sold 12,121 ETH on Nov. 27 for about $20.06 million at roughly $1,655 per ether; the coins cost about $3,244 each, a realized loss of about $19.26 million, per EmberCN using Arkham data", {
+            "es": "Tarjeta: la cartera de reserva estratégica de WLFI vendió 12.121 ETH el 27 de noviembre por unos 20,06 millones de dólares, a cerca de 1.655 dólares por ether; las monedas costaron unos 3.244 dólares cada una, una pérdida realizada de unos 19,26 millones, según EmberCN con datos de Arkham",
+            "pt": "Cartão: a carteira de reserva estratégica do WLFI vendeu 12.121 ETH em 27 de novembro por cerca de US$ 20,06 milhões, a aproximadamente US$ 1.655 por ether; as moedas custaram cerca de US$ 3.244 cada, um prejuízo realizado de cerca de US$ 19,26 milhões, segundo o EmberCN com dados da Arkham",
+            "fr": "Encadré : le portefeuille de réserve stratégique de WLFI a vendu 12 121 ETH le 27 novembre pour environ 20,06 millions de dollars, à près de 1 655 $ l'ether ; les jetons avaient coûté environ 3 244 $ chacun, soit une perte réalisée d'environ 19,26 millions de dollars, selon EmberCN à partir de données Arkham",
+            "de": "Faktenkarte: Die strategische Reserve-Wallet von WLFI verkaufte am 27. November 12.121 ETH für rund 20,06 Millionen Dollar zu etwa 1.655 $ je Ether; gekauft wurden sie zu etwa 3.244 $ je Stück, ein realisierter Verlust von rund 19,26 Millionen Dollar, laut EmberCN mit Arkham-Daten",
+            "ru": "Карточка: кошелёк стратегического резерва WLFI 27 ноября продал 12 121 ETH примерно за $20,06 млн по цене около $1655 за эфир; монеты обошлись примерно в $3244 каждая, зафиксированный убыток около $19,26 млн, по данным EmberCN на основе Arkham",
+            "tr": "Bilgi kartı: WLFI stratejik rezerv cüzdanı 27 Kasım'da 12.121 ETH'yi ether başına yaklaşık 1.655 $'dan, toplam yaklaşık 20,06 milyon dolara sattı; coinlerin maliyeti tanesi yaklaşık 3.244 $'dı, yani yaklaşık 19,26 milyon dolarlık gerçekleşmiş zarar, EmberCN'in Arkham verilerine göre",
+            "id": "Kartu fakta: dompet cadangan strategis WLFI menjual 12.121 ETH pada 27 November senilai sekitar US$20,06 juta di harga sekitar US$1.655 per ether; koin itu dibeli sekitar US$3.244 per keping, rugi terealisasi sekitar US$19,26 juta, menurut EmberCN dengan data Arkham",
+            "ja": "ファクトカード：WLFIの戦略準備ウォレットが11月27日に12,121 ETHを1ETHあたり約1,655ドル、計約2,006万ドルで売却。取得単価は約3,244ドルで、実現損失は約1,926万ドル（EmberCN、Arkhamデータ）",
+            "ko": "팩트 카드: WLFI 전략 준비금 지갑이 11월 27일 12,121 ETH를 개당 약 1,655달러, 총 약 2,006만 달러에 매도. 매입 단가는 개당 약 3,244달러로 실현 손실은 약 1,926만 달러(EmberCN, 아컴 데이터)",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="EmberCN (Arkham data), via CoinDesk, Nov. 28, 2026")},
+    ]
+
+
 
 BUILDERS = {
+    "binance-safu-swaps-7500-bitcoin-for-500-million-usdc-nov-2026": "safuusdc",
+    "wlfi-token-plunges-50-percent-record-low-eth-sale-usd1-depeg-nov-2026": "wlficrash",
     "bitcoin-slips-below-60000-as-stocks-rally-november-down-20-percent-nov-2026": "btc60slip",
     "brazil-b3-six-banks-open-brl-real-stablecoin-nov-2026": "openbrl",
     "malaysia-halogen-shariah-bitcoin-etf-bursa-listing-dec-2-nov-2026": "halogenetf",
@@ -6798,7 +6910,11 @@ def build_slug(slug: str, btc=None):
     ):
         btc = fetch_btc_prices(90)
     key = BUILDERS[slug]
-    if key == "halogenetf":
+    if key == "safuusdc":
+        figs = build_safu_usdc_swap()
+    elif key == "wlficrash":
+        figs = build_wlfi_crash()
+    elif key == "halogenetf":
         figs = build_halogen_etf()
     elif key == "bbitsix":
         figs = build_bbit_six()

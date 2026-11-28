@@ -1,0 +1,21 @@
+{
+ "slug": "binance-safu-swaps-7500-bitcoin-for-500-million-usdc-nov-2026",
+ "date": "2026-11-28",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026",
+  "binance-abu-dhabi-court-order-frozen-hack-funds-nov-2026",
+  "is-coinbase-safe-for-beginners",
+  "what-is-a-crypto-wallet-custodial-vs-self-custody"
+ ],
+ "sources": [
+  {"url": "https://www.binance.com/en/support/announcement/detail/33056fdf133147dd9bcae473ad6623cc", "title": "Binance: SAFU Update: Adjusting Fund Holdings", "date": "Nov 28, 2026"},
+  {"url": "https://mempool.space/tx/bb88f23e8eeab3c5fefe8a2b069ef54628a979baffd65a2ae2d0006418bafb08", "title": "mempool.space: 7,500 BTC transaction from the SAFU address (block 977,920)", "date": "Nov 28, 2026"},
+  {"url": "https://crypto.news/binance-safu-500-million-usdc-7500-btc/", "title": "crypto.news: Binance to add 500 million USDC to SAFU, move 7,500 BTC", "date": "Nov 28, 2026"},
+  {"url": "https://www.coindesk.com/business/2026/02/12/binance-converts-its-usd1-billion-safu-fund-into-15-000-btc", "title": "CoinDesk: Binance converts its $1 billion safety net into 15,000 BTC", "date": "Feb 12, 2026"},
+  {"url": "https://mempool.space/address/1BAuq7Vho2CEkVkUxbfU26LhwQjbCmWQkD", "title": "mempool.space: Binance SAFU bitcoin address history", "date": "Nov 28, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken public API: BTC/USD OHLC data", "date": "Nov 28, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

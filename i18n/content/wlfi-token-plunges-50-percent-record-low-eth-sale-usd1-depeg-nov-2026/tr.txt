@@ -1,0 +1,57 @@
+title: Trump ailesinin desteklediği WLFI token'ı, 20 milyon dolarlık ether satışının ardından yaklaşık %50 düşüşle rekor dibe indi
+page_title: WLFI token'ı ETH satışı sonrası %50 düşüşle rekor dipte
+description: World Liberty Financial'ın WLFI token'ı, projeyle bağlantılı bir cüzdanın yaklaşık 20 milyon dolarlık ether'i zararına satmasının ardından bir gecede değerinin yaklaşık yarısını kaybetti, USD1 stablecoin'i ise kısa süreliğine 94 sente indi. İşte yaşananlar.
+og_description: WLFI, Kraken'de birkaç saat içinde yaklaşık 0,035 dolardan 0,018 dolar civarındaki rekor dibe indi. Projeyle bağlantılı bir cüzdan öncesinde yaklaşık 12.000 ETH'yi zararına satmıştı, USD1 de kısa süre 94 sentten işlem gördü.
+label: Piyasalar
+summary: Trump ailesinin desteklediği World Liberty Financial'ın token'ı WLFI, bir gecede yaklaşık %50 düşerek 0,018 dolar civarında rekor dibe indi. Birkaç saat önce projenin stratejik rezervi olarak etiketlenen bir cüzdan yaklaşık 20 milyon dolarlık ether'i zararına sattı, USD1 stablecoin'i de kısa süreliğine dolara sabitini kaybetti.
+===
+
+Başkan Donald Trump'ın ailesinin desteklediği kripto girişimi World Liberty Financial'ın yönetişim token'ı WLFI, bir gecede değerinin yaklaşık yarısını kaybederek rekor dibe indi. Kraken'de WLFI, ABD saatiyle cuma gecesi geç saatlerde 0,035 dolar civarında işlem görüyordu, ardından 28 Kasım cumartesi sabahı erken saatlerde (UTC) üç saatten kısa sürede yaklaşık 0,018 dolara düştü. Cumartesi sabahı 0,019 dolar civarındaydı.
+
+[CoinDesk](L1) habere göre WLFI, Eylül 2025'teki 0,33 dolarlık zirvesinin yaklaşık %95 altında. World Liberty, CoinDesk'in düşüşle ilgili yorum talebine yanıt vermemişti.
+
+!takeaways
+- CoinDesk'e göre WLFI 24 saatte %50'den fazla düşerek rekor dibe indi.
+- Zincir üstü takipçilere göre birkaç saat önce "World Liberty Financial: Strategic Reserve" etiketli bir cüzdan yaklaşık 12.000 ETH'yi yaklaşık 20 milyon dolara sattı ve yaklaşık 19 milyon dolarlık zararı realize etti.
+- World Liberty'nin dolar stablecoin'i USD1, kısa süreliğine 94 sente kadar indi, ardından 1 dolara yakın seviyeye döndü.
+- World Liberty, Binance'in gece boyunca WLFI süresiz vadeli işlem pozisyonlarını otomatik olarak kapattığını ve bu kapanışlarda hiçbir rolü olmadığını söyledi.
+
+!figure:chart
+
+## Önce ether satışı geldi
+
+Blokzincir takipçilerine göre projeyle bağlantılı rezerv cüzdanı 27 Kasım cuma günü ether'i borsa toplayıcısı CoW Swap üzerinden sattı. Arkham Intelligence verilerine dayanan [EmberCN](L2), 12.121 ETH'nin ortalama yaklaşık 1.655 dolardan satıldığını ve karşılığında 17,58 milyon dolar USDC ile 2,48 milyon dolar USD1 alındığını hesapladı. Coinlerin geçen yıl ortalama yaklaşık 3.244 dolardan alındığını, dolayısıyla satışın yaklaşık 19,26 milyon dolarlık zararı realize ettiğini söyledi. [Lookonchain](L3) aynı satışı 10.600 ETH ve stake edilmiş bir ether türü olan 1.378 mETH olarak tanımladı.
+
+Takipçilerin hiçbiri resmi bir neden belirtmedi, World Liberty de satışı duyurmadı. CoinDesk'in aktardığına göre X'teki paylaşımlar satışı, World Liberty'nin kendi WLFI token'larından yaklaşık 5 milyarını teminat göstererek Dolomite borç verme platformunda aldığı bir krediyle ilişkilendirdi. WLFI fiyatındaki düşüş bu krediyi zorunlu tasfiyeye yaklaştıracağından, teminat eklemek için ether satmak bu riski uzaklaştırırdı. Şirket bu açıklamayı doğrulamadı.
+
+!figure:fact
+
+!mid_cta
+
+## Çöküş ve stablecoin'deki sarsıntı
+
+Kraken'in saatlik verilerine göre WLFI satıştan sonra birkaç saat 0,035 dolar civarında kaldı, ardından cumartesi 04:00 UTC saatinde (ABD Orta saatiyle cuma 22:00) sert düştü. Yükseliş beklentisiyle borç alarak pozisyon açan yatırımcılar pozisyonlarından atıldı. [PANews](L6), CoinGlass verilerine dayanarak WLFI vadeli işlem tasfiyelerinin dört saatte yaklaşık 15,4 milyon dolara ulaştığını, bunların neredeyse %90'ının yükseliş pozisyonları olduğunu bildirdi.
+
+Baskı, tam olarak 1 dolardan işlem görmesi gereken USD1'e de yayıldı. CoinDesk'in aktardığı TradingView verilerine göre USD1, cumartesi sabahı erken saatlerde kısa süreliğine 94 sente kadar indi, ardından 1 dolara yakın seviyeye döndü. CoinGecko'da USD1, ABD saatiyle cumartesi sabahının ortasında 0,998 dolar civarındaydı.
+
+World Liberty, [X'teki bir paylaşımında](L4), Binance'in gece boyunca "WLFI süresiz vadeli işlem pozisyonlarını hem uzun hem kısa tarafta otomatik olarak kapattığını" söyledi. Binance'in bu piyasaları kendi başına yönettiğini ve "WLFI'nin bu işlemlerde hiçbir müdahalesi olmadığını" belirtti. Etkilenen kullanıcılara Binance destek ekibiyle iletişime geçmelerini önerdi.
+
+## Kamuoyu önündeki kavga yeniden alevlendi
+
+Bir zamanlar World Liberty'nin en büyük yatırımcılarından olan Tron'un kurucusu Justin Sun, [X'teki bir paylaşımında](L5) yaşananları "yatırımcı dolandırıcılığı" olarak nitelendirdi ve borsalarla düzenleyicileri, listeden çıkarma dahil WLFI ve USD1'e karşı harekete geçmeye çağırdı. Bunlar onun iddiaları; World Liberty kamuoyu önünde yanıt vermedi. CoinDesk, Sun'ın token'ları dondurulduktan sonra Nisan 2026'da şirkete dolandırıcılık ve şantaj iddiasıyla dava açtığını, World Liberty'nin de mayısta karşı dava açtığını hatırlattı.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Tek bir şirkete bağlı küçük token'lar, özellikle ihraççının kendi cüzdanları satış yaptığında veya token'ı teminat göstererek borç aldığında, birkaç saat içinde değerinin yarısını kaybedebilir. Stablecoin'ler de stres anlarında 1 doların altına inebilir. Pek çok yeni başlayan, bitcoin gibi yoğun işlem gören varlıklarla, [Coinbase](REF) gibi düzenlemeye tabi bir ABD borsasından alarak başlıyor. Kripto paralar oynaktır, bu yüzden yalnızca kaybetmeyi göze alabileceğiniz kadar yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- World Liberty'den ether satışı ve Dolomite kredisi hakkında gelecek herhangi bir açıklama.
+- USD1'in 1 dolarlık sabitini koruyup korumayacağı.
+- Borsaların Justin Sun'ın WLFI ve USD1'i listeden çıkarma çağrılarına yanıt verip vermeyeceği.
+
+!soft: Kripto saklama konusunda yeni misiniz? [Saklamalı ve kendi kendine saklama cüzdanları açıklandı](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody) yazısını okuyun.
+
+!end_cta
+
+!disclosure

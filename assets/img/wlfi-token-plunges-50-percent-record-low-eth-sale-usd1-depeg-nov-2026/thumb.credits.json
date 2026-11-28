@@ -1,0 +1,34 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Kraken OHLC WLFIUSD interval=60",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Hourly WLFI/USD closes Nov 26 to 28, 2026, from Kraken (frozen in chart-data.json)"
+    },
+    {
+      "file": "Ethereum_logo_2014.svg",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ethereum_logo_2014.svg",
+      "credit": "Ethereum Foundation"
+    },
+    {
+      "file": "CoinDesk, Nov. 28, 2026",
+      "license": "Facts cited",
+      "url": "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
+      "credit": "CoinDesk"
+    }
+  ],
+  "note": "Editorial composite; no endorsement implied.",
+  "slug": "wlfi-token-plunges-50-percent-record-low-eth-sale-usd1-depeg-nov-2026",
+  "generated": "2026-11-28T14:08Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

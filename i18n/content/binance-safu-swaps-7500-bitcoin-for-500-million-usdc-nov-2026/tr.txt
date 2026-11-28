@@ -1,0 +1,65 @@
+title: Binance, SAFU fonundaki son 7.500 bitcoin'i 500 milyon USDC ile takas ediyor
+page_title: Binance, SAFU'daki 7.500 BTC'yi 500 milyon USDC ile değiştiriyor
+description: Binance, acil durum fonu SAFU'dan 7.500 BTC çekiyor ve fona 500 milyon USDC ekliyor. Borsa bunun bir düzenleyici gereklilik olduğunu ve satış olmadığını söylüyor. Neyin değiştiği ve kullanıcılar için ne anlama geldiği.
+og_description: Binance 28 Kasım'da 7.500 BTC'nin SAFU koruma fonundan çıkacağını ve yerine 500 milyon USDC konacağını duyurdu. Bitcoin'ler birkaç saat sonra fonun herkese açık adresinden ayrıldı.
+label: İş dünyası
+summary: Binance, acil durum fonu SAFU'da kalan 7.500 bitcoin'i kendi hazinesinden 500 milyon USDC ile takas ediyor. Borsa, değişikliğin bir düzenleyici gerekliliği karşıladığını ve hiç bitcoin satılmadığını söylüyor. Coinler cumartesi sabahı fonun herkese açık adresinden çıktı.
+===
+
+İşlem hacmine göre dünyanın en büyük kripto borsası Binance, kullanıcıları korumak için tuttuğu acil durum fonunun içeriğini değiştiriyor. Borsa, 28 Kasım tarihli bir [duyuruda](L1), 7.500 bitcoin'in Secure Asset Fund for Users (SAFU) fonundan çıkarak Binance'in kendi hazinesine döneceğini söyledi. Karşılığında fona, dolara sabitlenmiş bir stablecoin olan 500 milyon USDC eklenecek.
+
+Binance, "Bu bir satış değil, şirket içi bir yeniden dağıtım" diye yazdı. "Hiçbir BTC piyasada satılmayacak veya alınıp satılmayacak."
+
+!takeaways
+- Binance, SAFU'dan 7.500 BTC'yi hazinesine aktarıyor ve hazineden SAFU'ya 500 milyon USDC ekliyor.
+- Borsa, değişikliğin "bir düzenleyici gerekliliği karşıladığını" söyledi ancak düzenleyiciyi ya da kuralı belirtmedi.
+- Blokzincir verilerine göre SAFU'nun bitcoin adresi cumartesi 09:33 UTC'de tek bir işlemle tam 7.500 BTC gönderdi ve neredeyse boşaldı.
+- Binance şubatta SAFU'nun tamamını bitcoin'e çevirmeyi bitirmiş ve 15.000 BTC'ye ulaşmıştı. Bunun yaklaşık yarısı ekimdeki saldırının ardından kullanıldı.
+
+!figure:compare
+
+## Binance ne duyurdu
+
+SAFU, Binance'in Temmuz 2018'de kullanıcıları bir saldırı gibi "aşırı durumlarda" korumak için kurduğu acil durum sigorta fonu. 28 Kasım tarihli duyuruya göre fon yeniden dolduruluyor ve bileşimi değişiyor, stablecoin payı artıyor.
+
+Binance iki gerekçe gösterdi. Birincisi, "bu değişiklik bir düzenleyici gerekliliği karşılıyor." İkincisi, daha büyük bir stablecoin payı "SAFU'yu daha istikrarlı ve gerektiğinde hemen kullanılabilir kılıyor." USDC gibi bir stablecoin 1 dolarda kalacak şekilde tasarlandığından fonun dolar değeri artık bitcoin fiyatıyla birlikte dalgalanmıyor.
+
+Borsa, SAFU'nun Abu Dhabi Global Market (ADGM) tarafından düzenlenen tanınmış bir takas kurumu olarak tanımladığı Nest Clearing and Custody Limited tarafından tutulmaya ve yönetilmeye devam ettiğini söyledi. Değişiklikten sonraki toplam fon büyüklüğünü açıklamadı.
+
+## Blokzincir ne gösteriyor
+
+Takasın bitcoin tarafını doğrulamak kolay. [mempool.space](L2) verilerine göre Binance'in kamuya açıkladığı SAFU adresi, cumartesi 09:33 UTC'de (ABD Orta saatiyle 3:33) onaylanan 977.920 numaralı blokta tek bir yeni adrese 7.500 BTC gönderdi. Geride yalnızca çok küçük bir miktar bitcoin kaldı.
+
+[crypto.news](L3) sitesinin belirttiği gibi USDC tarafı yalnızca duyuruyla doğrulanamıyor, çünkü Binance stablecoin'lerin hangi adreste ve hangi blokzincirde tutulacağını söylemedi.
+
+Cumartesi sabahı Kraken'de bitcoin başına yaklaşık 59.100 dolarlık fiyatla 7.500 BTC kabaca 443 milyon dolar ediyor. Bu, fona giren 500 milyon dolarlık USDC'den az, yani fonun dolar değeri kağıt üzerinde biraz artıyor.
+
+!figure:timeline
+
+!mid_cta
+
+## Yılın başındaki karardan geri dönüş
+
+Bu adım, çok konuşulan bir bahsin büyük kısmını geri alıyor. Binance ocak sonunda SAFU'daki 1 milyar dolarlık stablecoin'i 30 gün içinde bitcoin'e çevireceğini söylemişti. [CoinDesk](L4) habere göre 12 Şubat'ta 4.545 BTC'lik son alımla işlemi tamamladı ve fon 15.000 BTC'ye, o tarihte yaklaşık 1 milyar dolara ulaştı. Binance o zaman bitcoin'deki düşüş fonu 800 milyon doların altına çekerse fonu yeniden 1 milyar dolara tamamlama sözü verdi.
+
+O tarihten bu yana bitcoin'deki düşüş bu planı zorladı. Cumartesi fiyatıyla 15.000 BTC 900 milyon doların altında ederdi. Ardından 29 Ekim saldırısı geldi. Binance 31 Ekim'de çalınan yaklaşık 6,3 milyar doların %90'ını SAFU'nun bir kısmı, vadeli işlem sigorta fonunun bir kısmı ve hazinesiyle karşıladığını söyledi. Blokzincir kayıtlarına göre aynı gün SAFU adresi bitcoin'lerinin yarısı olan 7.500 BTC'yi gönderdi. Cumartesi günkü transfer diğer yarısını da çıkardı.
+
+## Binance kullanıcıları için ne anlama geliyor
+
+Sıradan kullanıcılar için alım satım ya da para çekme şeklinde hiçbir şey değişmiyor. Binance, SAFU'nun amacının aynı kaldığını ve fonu yeniden doldurma taahhüdünün değişmediğini söylüyor.
+
+Asıl mesaj, borsa güvenlik ağlarının nasıl işlediğine dair bir hatırlatma. SAFU, ABD'deki banka mevduatlarına yönelik FDIC güvencesi gibi bir devlet sigortası değil, Binance'in kendi sözü. Büyüklüğü ve içeriği, bu yıl iki kez olduğu gibi değişebilir.
+
+Kriptoya yeniyseniz, coinlerinizi [Coinbase](REF) gibi düzenlemeye tabi büyük bir borsada tutmak bir seçenek, onları kontrolü sizde olan bir cüzdana taşımak başka bir seçenek. Her birinin artıları ve eksileri var. Kripto paralar oynaktır, bu yüzden yalnızca kaybetmeyi göze alabileceğiniz kadar yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra neye bakmalı
+
+- Binance'in USDC adresini ve fonun yeni toplamını yayımlayıp yayımlamayacağı.
+- Değişikliği hangi düzenleyicinin veya hangi kuralın gerektirdiği.
+- Binance fonu doldurmaya devam edeceğini söylediğine göre SAFU'nun 500 milyon USDC'nin üzerine çıkarılıp çıkarılmayacağı.
+
+!soft: Arka planı mı merak ediyorsunuz? [Binance'in 6,3 milyar dolarlık saldırının ardından para çekimlerini tamamen nasıl yeniden açtığını](/articles/binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026) okuyun.
+
+!end_cta
+
+!disclosure

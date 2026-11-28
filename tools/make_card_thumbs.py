@@ -3371,7 +3371,101 @@ def thumb_open_brl():
     ], "note": "Editorial composite; logo for identification only; no endorsement by B3 or the participating banks implied."}
 
 
+def thumb_safu_usdc_swap():
+    """Binance-black board: Binance logo (Wikimedia Commons, identification only), Bitcoin logo and Circle USDC logo
+    (Wikimedia Commons) in a drawn two-way swap diagram: 7,500 BTC out of SAFU, 500 million USDC in.
+    Facts: Binance SAFU update, Nov. 28, 2026; on-chain transfer per mempool.space (block 977,920, 09:33 UTC)."""
+    binance = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/e/e8/Binance_Logo.svg", CACHE/"binance-logo.svg")).convert("RGBA")
+    btc = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg", CACHE/"bitcoin-logo.svg")).convert("RGBA")
+    usdc = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/4/4a/Circle_USDC_Logo.svg", CACHE/"circle-usdc-logo.svg")).convert("RGBA")
+    base = gradient_bg(top=(24, 26, 32), bottom=(8, 10, 14))
+    d = Draw(base)
+    yel, ink, mute, blue, btcor = (240, 185, 11), (234, 236, 239), (132, 142, 156), (39, 117, 202), (247, 147, 26)
+    paste_contain(base, binance, (22, 18, 48, 44), pad=2)
+    d = Draw(base)
+    d.text((80, 26), "BINANCE · SAFU", font=font(FONT_B, 20), fill=yel)
+    d.text((26, 74), "Emergency fund swaps bitcoin for stablecoins", font=font(FONT_B, 20), fill=ink)
+    # central SAFU vault
+    d.rounded_rectangle([250, 128, 390, 268], radius=18, fill=(30, 33, 40), outline=yel, width=3)
+    d.ellipse([290, 150, 350, 210], outline=yel, width=4)
+    d.line([(320, 160), (320, 200)], fill=yel, width=3); d.line([(300, 180), (340, 180)], fill=yel, width=3)
+    tw = d.textlength("SAFU", font=font(FONT_B, 20)); d.text((320 - tw / 2, 226), "SAFU", font=font(FONT_B, 20), fill=ink)
+    # left: BTC leaving (arrow from vault to left)
+    paste_contain(base, btc, (36, 140, 84, 84), pad=0)
+    d = Draw(base)
+    d.polygon([(240, 176), (150, 176), (150, 164), (128, 184), (150, 204), (150, 192), (240, 192)], fill=btcor)
+    d.text((30, 236), "7,500 BTC out", font=font(FONT_B, 20), fill=btcor)
+    d.text((30, 262), "to Binance treasury", font=font(FONT_R, 12), fill=mute)
+    # right: USDC arriving (arrow from right into vault)
+    paste_contain(base, usdc, (520, 140, 84, 84), pad=0)
+    d = Draw(base)
+    d.polygon([(510, 176), (420, 176), (420, 164), (398, 184), (420, 204), (420, 192), (510, 192)], fill=blue)
+    d.text((440, 236), "500M USDC in", font=font(FONT_B, 20), fill=(96, 165, 250))
+    d.text((440, 262), "from Binance treasury", font=font(FONT_R, 12), fill=mute)
+    d.rounded_rectangle([26, 290, 614, 318], radius=9, fill=(24, 26, 32), outline=(71, 77, 87), width=1)
+    d.text((38, 297), "BTC sent on-chain Nov. 28, 09:33 UTC · Binance: \"not a sale\", meets a regulatory requirement", font=font(FONT_R, 11), fill=ink)
+    d.text((26, 330), "Logos: Binance, Bitcoin, Circle USDC (Wikimedia Commons) · sources: Binance, mempool.space", font=font(FONT_R, 9), fill=mute)
+    return base, {"kind": "composite", "sources": [
+        {"file": "Binance_Logo.svg", "license": "Logo", "url": "https://commons.wikimedia.org/wiki/File:Binance_Logo.svg", "credit": "Binance"},
+        {"file": "Bitcoin.svg", "license": "Public domain", "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg", "credit": "Wikimedia Commons"},
+        {"file": "Circle_USDC_Logo.svg", "license": "Logo", "url": "https://commons.wikimedia.org/wiki/File:Circle_USDC_Logo.svg", "credit": "Circle"},
+        {"file": "SAFU Update: Adjusting Fund Holdings (2026-11-28)", "license": "Facts cited", "url": "https://www.binance.com/en/support/announcement/detail/33056fdf133147dd9bcae473ad6623cc", "credit": "Binance"},
+        {"file": "tx bb88f23e...afb08, block 977,920", "license": "Facts cited", "url": "https://mempool.space/tx/bb88f23e8eeab3c5fefe8a2b069ef54628a979baffd65a2ae2d0006418bafb08", "credit": "mempool.space"},
+    ], "note": "Editorial composite; logos for identification only; no endorsement by Binance or Circle implied."}
+
+
+def thumb_wlfi_crash():
+    """Red/black crash board: drawn WLFI hourly price line from Kraken WLFI/USD closes Nov. 26 to 28, 2026 (frozen in
+    i18n/content/<slug>/chart-data.json), Ethereum logo (Wikimedia Commons) beside the ether-sale chip, and a USD1 chip.
+    No WLFI logo (none on Commons); facts from CoinDesk, EmberCN and Kraken."""
+    slug = "wlfi-token-plunges-50-percent-record-low-eth-sale-usd1-depeg-nov-2026"
+    eth = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg", CACHE/"ethereum-logo-2014.svg")).convert("RGBA")
+    data = json.loads((ROOT/"i18n"/"content"/slug/"chart-data.json").read_text(encoding="utf-8"))["hourly"]
+    xs = [datetime.fromtimestamp(r[0], tz=timezone.utc) for r in data]; ys = [r[1] for r in data]
+    base = gradient_bg(top=(46, 10, 14), bottom=(10, 6, 8))
+    d = Draw(base)
+    red, ink, mute, gold = (248, 113, 113), (254, 242, 242), (252, 165, 165), (212, 175, 55)
+    d.text((24, 20), "WLFI", font=font(FONT_B, 40), fill=gold)
+    d.text((140, 24), "World Liberty Financial token", font=font(FONT_R, 15), fill=mute)
+    d.text((140, 46), "record low, about -50% in a day", font=font(FONT_B, 17), fill=ink)
+    fig = plt.figure(figsize=(4.2, 2.3), dpi=100 * S); fig.patch.set_facecolor("#14080a")
+    ax = fig.add_axes([0.16, 0.14, 0.81, 0.76]); ax.set_facecolor("#14080a")
+    for s_ in ("top", "right"): ax.spines[s_].set_visible(False)
+    for s_ in ("left", "bottom"): ax.spines[s_].set_color("#5b1d22")
+    ax.tick_params(colors="#fca5a5", labelsize=6.5, length=0)
+    ax.grid(True, axis="y", color="#3b1417", linewidth=0.6)
+    ax.plot(xs, ys, color="#f87171", linewidth=2.2)
+    ax.fill_between(xs, ys, min(ys) * 0.9, color="#f87171", alpha=0.15)
+    ax.set_ylim(min(ys) * 0.9, max(ys) * 1.05)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"${v:.3f}"))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %d"))
+    ax.xaxis.set_major_locator(mdates.DayLocator())
+    ax.set_title("WLFI hourly close on Kraken, Nov. 26 to 28 (UTC)", color="#fecaca", fontsize=7.5, loc="left", pad=4)
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100 * S, facecolor=fig.get_facecolor()); plt.close(fig); buf.seek(0)
+    base.paste(Image.open(buf).convert("RGB"), sz((14, 86)))
+    d = Draw(base)
+    # right column chips
+    d.rounded_rectangle([440, 96, 618, 188], radius=12, fill=(36, 14, 18), outline=red, width=2)
+    paste_contain(base, eth, (446, 104, 40, 40), pad=0)
+    d = Draw(base)
+    d.text((492, 106), "~12,000 ETH", font=font(FONT_B, 16), fill=ink)
+    d.text((492, 128), "sold for ~$20M", font=font(FONT_R, 12), fill=mute)
+    d.text((452, 156), "by a project-linked wallet", font=font(FONT_R, 11), fill=mute)
+    d.rounded_rectangle([440, 200, 618, 292], radius=12, fill=(36, 14, 18), outline=gold, width=2)
+    d.text((454, 210), "USD1 stablecoin", font=font(FONT_B, 14), fill=gold)
+    d.text((454, 234), "$0.94", font=font(FONT_B, 28), fill=ink)
+    d.text((454, 270), "brief low, then near $1", font=font(FONT_R, 11), fill=mute)
+    d.text((24, 330), "Prices: Kraken WLFI/USD · ether sale: EmberCN, Lookonchain · USD1 low: TradingView via CoinDesk · logo: Ethereum (Wikimedia Commons)", font=font(FONT_R, 8), fill=mute)
+    return base, {"kind": "composite", "sources": [
+        {"file": "Kraken OHLC WLFIUSD interval=60", "license": "Kraken public API", "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "credit": "Hourly WLFI/USD closes Nov 26 to 28, 2026, from Kraken (frozen in chart-data.json)"},
+        {"file": "Ethereum_logo_2014.svg", "license": "CC BY 3.0", "url": "https://commons.wikimedia.org/wiki/File:Ethereum_logo_2014.svg", "credit": "Ethereum Foundation"},
+        {"file": "CoinDesk, Nov. 28, 2026", "license": "Facts cited", "url": "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50", "credit": "CoinDesk"},
+    ], "note": "Editorial composite; no endorsement implied."}
+
+
 BUILDERS = {
+    "binance-safu-swaps-7500-bitcoin-for-500-million-usdc-nov-2026": thumb_safu_usdc_swap,
+    "wlfi-token-plunges-50-percent-record-low-eth-sale-usd1-depeg-nov-2026": thumb_wlfi_crash,
     "bitcoin-slips-below-60000-as-stocks-rally-november-down-20-percent-nov-2026": thumb_btc_slip_stocks_rally,
     "brazil-b3-six-banks-open-brl-real-stablecoin-nov-2026": thumb_open_brl,
     "malaysia-halogen-shariah-bitcoin-etf-bursa-listing-dec-2-nov-2026": thumb_halogen_etf,

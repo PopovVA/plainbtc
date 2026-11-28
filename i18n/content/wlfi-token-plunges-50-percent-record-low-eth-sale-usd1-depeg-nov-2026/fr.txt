@@ -1,0 +1,57 @@
+title: Le jeton WLFI, soutenu par la famille Trump, chute d'environ 50 % à un plus bas historique après une vente d'ether de 20 millions de dollars
+page_title: Le jeton WLFI chute de 50 % à un plus bas après une vente d'ETH
+description: Le jeton WLFI de World Liberty Financial a perdu environ la moitié de sa valeur en une nuit, après qu'un portefeuille lié au projet a vendu à perte environ 20 millions de dollars d'ether, et son stablecoin USD1 est brièvement tombé à 94 cents. Voici ce qui s'est passé.
+og_description: Sur Kraken, le WLFI est passé d'environ 0,035 $ à un plus bas historique proche de 0,018 $ en quelques heures. Un portefeuille lié au projet avait vendu à perte environ 12 000 ETH, et l'USD1 s'est brièvement échangé à 94 cents.
+label: Marchés
+summary: Le WLFI, jeton de World Liberty Financial, soutenu par la famille Trump, a chuté d'environ 50 % pendant la nuit jusqu'à un plus bas historique proche de 0,018 $. Quelques heures plus tôt, un portefeuille identifié comme la réserve stratégique du projet avait vendu à perte environ 20 millions de dollars d'ether, et le stablecoin USD1 a brièvement perdu sa parité avec le dollar.
+===
+
+Le WLFI, jeton de gouvernance de World Liberty Financial, l'entreprise crypto soutenue par la famille du président Donald Trump, a perdu environ la moitié de sa valeur pendant la nuit et touché un plus bas historique. Sur Kraken, le WLFI s'échangeait vers 0,035 $ vendredi soir, heure américaine, puis il est tombé à environ 0,018 $ en moins de trois heures au petit matin du samedi 28 novembre (UTC). Il évoluait vers 0,019 $ samedi matin.
+
+Selon [CoinDesk](L1), le WLFI a désormais perdu environ 95 % depuis son sommet de septembre 2025, à 0,33 $. World Liberty n'avait pas répondu à la demande de commentaire de CoinDesk sur cette chute.
+
+!takeaways
+- Le WLFI a chuté de plus de 50 % en 24 heures jusqu'à un plus bas historique, selon CoinDesk.
+- Quelques heures plus tôt, un portefeuille identifié comme « World Liberty Financial: Strategic Reserve » avait vendu environ 12 000 ETH pour près de 20 millions de dollars, en réalisant une perte d'environ 19 millions, selon des outils de suivi on-chain.
+- L'USD1, le stablecoin en dollars de World Liberty, s'est brièvement échangé à 94 cents avant de revenir près de 1 $.
+- World Liberty a indiqué que Binance avait clôturé automatiquement pendant la nuit des positions sur les contrats perpétuels WLFI et qu'elle n'avait joué aucun rôle dans ces clôtures.
+
+!figure:chart
+
+## La vente d'ether, en amont
+
+Le vendredi 27 novembre, le portefeuille de réserve lié au projet a vendu de l'ether via l'agrégateur de plateformes CoW Swap, selon des outils de suivi de la blockchain. [EmberCN](L2), s'appuyant sur des données d'Arkham Intelligence, a compté 12 121 ETH vendus à un prix moyen d'environ 1 655 $, contre 17,58 millions de dollars en USDC et 2,48 millions en USD1. Selon lui, ces jetons avaient été achetés l'an dernier à environ 3 244 $ en moyenne, si bien que la vente a matérialisé une perte d'environ 19,26 millions de dollars. [Lookonchain](L3) a décrit la même vente comme 10 600 ETH et 1 378 mETH, une forme d'ether mis en staking.
+
+Aucun des deux n'a donné de raison officielle, et World Liberty n'a pas annoncé la vente. Des messages sur X l'ont reliée à un prêt contracté par World Liberty sur la plateforme de prêt Dolomite, avec environ 5 milliards de ses propres jetons WLFI en garantie, rapporte CoinDesk. Une baisse du WLFI rapprocherait ce prêt d'une liquidation forcée : vendre de l'ether pour ajouter de la garantie éloignerait donc ce risque. L'entreprise n'a pas confirmé cette explication.
+
+!figure:fact
+
+!mid_cta
+
+## La chute et le décrochage du stablecoin
+
+Le WLFI s'est maintenu vers 0,035 $ pendant plusieurs heures après la vente, puis il a plongé dans l'heure de 04:00 UTC samedi (22 h vendredi, heure du Centre des États-Unis), selon les données horaires de Kraken. Les traders qui avaient emprunté pour parier sur une hausse ont été éjectés. Les liquidations de contrats à terme sur le WLFI ont atteint environ 15,4 millions de dollars en quatre heures, dont près de 90 % de paris à la hausse, a rapporté [PANews](L6), citant des données de CoinGlass.
+
+La tension a gagné l'USD1, censé valoir exactement 1 $. Il est brièvement tombé à 94 cents samedi au petit matin, selon des données TradingView citées par CoinDesk, avant de revenir près de 1 $. Sur CoinGecko, l'USD1 s'échangeait autour de 0,998 $ en milieu de matinée samedi, heure américaine.
+
+Dans un [message sur X](L4), World Liberty a indiqué que Binance avait « clôturé automatiquement des positions sur les contrats perpétuels WLFI, à l'achat comme à la vente » pendant la nuit. Elle précise que Binance gère ces marchés seule et que « WLFI n'a eu aucune implication dans ces actions ». Elle invite les utilisateurs concernés à contacter le support de Binance.
+
+## Une querelle publique relancée
+
+Le fondateur de Tron, Justin Sun, autrefois l'un des plus gros investisseurs de World Liberty, a qualifié l'épisode de « fraude envers les investisseurs » dans un [message sur X](L5) et appelé plateformes et régulateurs à agir contre le WLFI et l'USD1, y compris par un retrait de la cote. Ce sont ses accusations ; World Liberty n'y a pas répondu publiquement. CoinDesk rappelle que Sun a poursuivi l'entreprise en avril 2026 pour fraude et extorsion, après le gel de ses jetons, et que World Liberty a contre-attaqué en justice en mai.
+
+## Ce que cela signifie pour les débutants
+
+Les petits jetons liés à une seule entreprise peuvent perdre la moitié de leur valeur en quelques heures, surtout lorsque les portefeuilles de l'émetteur vendent ou empruntent en donnant le jeton en garantie. Les stablecoins peuvent aussi passer sous 1 $ en période de tension. Beaucoup de débutants commencent par des actifs très échangés comme le bitcoin, achetés sur une plateforme américaine régulée comme [Coinbase](REF). Les cryptos sont volatiles : n'investissez que ce que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil financier.
+
+## Ce qu'il faut surveiller
+
+- Toute déclaration de World Liberty sur la vente d'ether et son prêt sur Dolomite.
+- Si l'USD1 tient sa parité à 1 $.
+- Si les plateformes répondent aux appels de Justin Sun à retirer le WLFI et l'USD1 de la cote.
+
+!soft: Vous découvrez la conservation des cryptos ? Lisez [portefeuilles custodial et en auto-garde expliqués](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

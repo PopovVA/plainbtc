@@ -1,0 +1,57 @@
+title: Token WLFI, apoiado pela família Trump, despenca cerca de 50% e renova mínima histórica após venda de US$ 20 milhões em ether
+page_title: Token WLFI cai 50% e renova mínima após venda de ETH
+description: O token WLFI, da World Liberty Financial, perdeu cerca de metade do valor da noite para o dia depois que uma carteira ligada ao projeto vendeu cerca de US$ 20 milhões em ether no prejuízo, e a stablecoin USD1 caiu brevemente para 94 centavos. Veja o que aconteceu.
+og_description: O WLFI caiu de cerca de US$ 0,035 para uma mínima histórica perto de US$ 0,018 em poucas horas na Kraken. Uma carteira ligada ao projeto tinha vendido cerca de 12.000 ETH no prejuízo, e o USD1 chegou a valer 94 centavos.
+label: Mercados
+summary: O WLFI, token da World Liberty Financial, apoiada pela família Trump, despencou cerca de 50% durante a noite, até uma mínima histórica perto de US$ 0,018. Horas antes, uma carteira identificada como reserva estratégica do projeto vendeu cerca de US$ 20 milhões em ether no prejuízo, e a stablecoin USD1 perdeu brevemente a paridade com o dólar.
+===
+
+O WLFI, token de governança da World Liberty Financial, o empreendimento cripto apoiado pela família do presidente Donald Trump, perdeu cerca de metade do valor durante a noite e atingiu uma mínima histórica. Na Kraken, o WLFI era negociado perto de US$ 0,035 no fim da sexta-feira, no horário dos EUA, e caiu para cerca de US$ 0,018 em menos de três horas na madrugada de sábado, 28 de novembro (UTC). Na manhã de sábado, estava perto de US$ 0,019.
+
+Segundo o [CoinDesk](L1), o WLFI já acumula queda de cerca de 95% desde o pico de setembro de 2025, de US$ 0,33. A World Liberty não tinha respondido ao pedido de comentário do CoinDesk sobre a queda.
+
+!takeaways
+- O WLFI caiu mais de 50% em 24 horas e atingiu uma mínima histórica, informou o CoinDesk.
+- Horas antes, uma carteira identificada como "World Liberty Financial: Strategic Reserve" vendeu cerca de 12.000 ETH por aproximadamente US$ 20 milhões, realizando um prejuízo de cerca de US$ 19 milhões, segundo rastreadores on-chain.
+- O USD1, stablecoin em dólar da World Liberty, chegou a ser negociado a 94 centavos antes de voltar para perto de US$ 1.
+- A World Liberty disse que a Binance fechou automaticamente posições em futuros perpétuos de WLFI durante a noite e que não teve nenhum papel nesses fechamentos.
+
+!figure:chart
+
+## A venda de ether que veio antes
+
+Na sexta-feira, 27 de novembro, a carteira de reserva ligada ao projeto vendeu ether pelo agregador de corretoras CoW Swap, segundo rastreadores da blockchain. O [EmberCN](L2), com dados da Arkham Intelligence, contou 12.121 ETH vendidos a um preço médio de cerca de US$ 1.655, em troca de US$ 17,58 milhões em USDC e US$ 2,48 milhões em USD1. Segundo ele, as moedas tinham sido compradas no ano passado a uma média de cerca de US$ 3.244, então a venda realizou um prejuízo de cerca de US$ 19,26 milhões. O [Lookonchain](L3) descreveu a mesma venda como 10.600 ETH e 1.378 mETH, uma forma de ether em staking.
+
+Nenhum dos rastreadores deu um motivo oficial, e a World Liberty não anunciou a venda. Posts no X ligaram a operação a um empréstimo que a World Liberty tomou na plataforma de empréstimos Dolomite usando cerca de 5 bilhões dos seus próprios tokens WLFI como garantia, informou o CoinDesk. Uma queda no preço do WLFI aproximaria esse empréstimo de uma liquidação forçada, então vender ether para reforçar a garantia afastaria esse risco. A empresa não confirmou essa explicação.
+
+!figure:fact
+
+!mid_cta
+
+## O tombo e a oscilação da stablecoin
+
+O WLFI ficou perto de US$ 0,035 por várias horas depois da venda e então despencou na hora das 04:00 UTC de sábado (22h de sexta-feira no horário central dos EUA), mostram os dados por hora da Kraken. Traders que tinham pegado dinheiro emprestado para apostar na alta foram forçados a sair. As liquidações de futuros de WLFI chegaram a cerca de US$ 15,4 milhões em quatro horas, quase 90% delas apostas na alta, informou o [PANews](L6), citando dados da CoinGlass.
+
+A pressão chegou ao USD1, que deveria valer exatamente US$ 1. Ele caiu brevemente para 94 centavos na madrugada de sábado, segundo dados da TradingView citados pelo CoinDesk, antes de voltar para perto de US$ 1. Na CoinGecko, o USD1 estava em torno de US$ 0,998 no meio da manhã de sábado, no horário dos EUA.
+
+Em um [post no X](L4), a World Liberty disse que a Binance "fechou automaticamente posições em futuros perpétuos de WLFI, tanto compradas quanto vendidas" durante a noite. Afirmou que a Binance opera esses mercados por conta própria e que "a WLFI não teve envolvimento nessas ações". Orientou os usuários afetados a procurar o suporte da Binance.
+
+## Uma briga pública volta à tona
+
+O fundador da Tron, Justin Sun, que já foi um dos maiores investidores da World Liberty, chamou o episódio de "fraude contra investidores" em um [post no X](L5) e pediu que corretoras e reguladores ajam contra o WLFI e o USD1, inclusive com a deslistagem. São acusações dele; a World Liberty não respondeu publicamente. O CoinDesk lembrou que Sun processou a empresa em abril de 2026 por fraude e extorsão, depois de ter seus tokens congelados, e que a World Liberty entrou com um contraprocesso em maio.
+
+## O que isso significa para iniciantes
+
+Tokens pequenos ligados a uma única empresa podem perder metade do valor em horas, sobretudo quando as carteiras do próprio emissor estão vendendo ou tomando empréstimos com o token como garantia. Stablecoins também podem cair abaixo de US$ 1 em momentos de estresse. Muitos iniciantes começam com ativos muito negociados, como o bitcoin, comprados em uma corretora regulamentada dos EUA como a [Coinbase](REF). Cripto é volátil, então invista apenas o que você pode perder. Isto não é recomendação financeira.
+
+## O que acompanhar
+
+- Qualquer comunicado da World Liberty sobre a venda de ether e o empréstimo na Dolomite.
+- Se o USD1 mantém a paridade de US$ 1.
+- Se as corretoras respondem aos pedidos de Justin Sun para deslistar o WLFI e o USD1.
+
+!soft: Novo no armazenamento de cripto? Leia [carteiras custodiais e de autocustódia explicadas](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

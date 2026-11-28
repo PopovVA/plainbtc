@@ -1,0 +1,46 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Binance_Logo.svg",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Binance_Logo.svg",
+      "credit": "Binance"
+    },
+    {
+      "file": "Bitcoin.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "file": "Circle_USDC_Logo.svg",
+      "license": "Logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Circle_USDC_Logo.svg",
+      "credit": "Circle"
+    },
+    {
+      "file": "SAFU Update: Adjusting Fund Holdings (2026-11-28)",
+      "license": "Facts cited",
+      "url": "https://www.binance.com/en/support/announcement/detail/33056fdf133147dd9bcae473ad6623cc",
+      "credit": "Binance"
+    },
+    {
+      "file": "tx bb88f23e...afb08, block 977,920",
+      "license": "Facts cited",
+      "url": "https://mempool.space/tx/bb88f23e8eeab3c5fefe8a2b069ef54628a979baffd65a2ae2d0006418bafb08",
+      "credit": "mempool.space"
+    }
+  ],
+  "note": "Editorial composite; logos for identification only; no endorsement by Binance or Circle implied.",
+  "slug": "binance-safu-swaps-7500-bitcoin-for-500-million-usdc-nov-2026",
+  "generated": "2026-11-28T14:08Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

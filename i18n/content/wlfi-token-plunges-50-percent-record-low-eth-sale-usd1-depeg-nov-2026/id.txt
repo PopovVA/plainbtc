@@ -1,0 +1,57 @@
+title: Token WLFI yang didukung keluarga Trump anjlok sekitar 50% ke rekor terendah setelah penjualan ether US$20 juta
+page_title: Token WLFI anjlok 50% ke rekor terendah usai penjualan ETH
+description: Token WLFI milik World Liberty Financial kehilangan sekitar separuh nilainya dalam semalam setelah dompet yang terkait proyek menjual ether senilai sekitar US$20 juta dengan rugi, dan stablecoin USD1 sempat turun ke 94 sen. Inilah yang terjadi.
+og_description: Di Kraken, WLFI turun dari sekitar US$0,035 ke rekor terendah di dekat US$0,018 hanya dalam beberapa jam. Dompet terkait proyek sebelumnya menjual sekitar 12.000 ETH dengan rugi, dan USD1 sempat diperdagangkan di 94 sen.
+label: Pasar
+summary: WLFI, token World Liberty Financial yang didukung keluarga Trump, anjlok sekitar 50% dalam semalam ke rekor terendah di dekat US$0,018. Beberapa jam sebelumnya, dompet berlabel cadangan strategis proyek menjual ether senilai sekitar US$20 juta dengan rugi, dan stablecoin USD1 sempat lepas dari patokan dolarnya.
+===
+
+WLFI, token tata kelola World Liberty Financial, usaha kripto yang didukung keluarga Presiden Donald Trump, kehilangan sekitar separuh nilainya dalam semalam dan mencetak rekor terendah. Di Kraken, WLFI diperdagangkan di dekat US$0,035 pada Jumat larut malam waktu AS, lalu jatuh ke sekitar US$0,018 dalam waktu kurang dari tiga jam pada dini hari Sabtu, 28 November (UTC). Pada Sabtu pagi, harganya di dekat US$0,019.
+
+Menurut [CoinDesk](L1), WLFI kini sudah turun sekitar 95% dari puncaknya pada September 2025 di US$0,33. World Liberty belum menanggapi permintaan komentar CoinDesk soal penurunan harga ini.
+
+!takeaways
+- WLFI turun lebih dari 50% dalam 24 jam ke rekor terendah, lapor CoinDesk.
+- Beberapa jam sebelumnya, dompet berlabel "World Liberty Financial: Strategic Reserve" menjual sekitar 12.000 ETH senilai kira-kira US$20 juta dan merealisasikan rugi sekitar US$19 juta, menurut pelacak on-chain.
+- USD1, stablecoin dolar milik World Liberty, sempat diperdagangkan serendah 94 sen sebelum pulih mendekati US$1.
+- World Liberty menyatakan Binance secara otomatis menutup posisi kontrak berjangka perpetual WLFI semalam dan bahwa pihaknya tidak berperan dalam penutupan itu.
+
+!figure:chart
+
+## Penjualan ether yang datang lebih dulu
+
+Pada Jumat, 27 November, dompet cadangan yang terkait proyek menjual ether melalui agregator bursa CoW Swap, menurut pelacak blockchain. [EmberCN](L2), mengutip data Arkham Intelligence, menghitung 12.121 ETH terjual di harga rata-rata sekitar US$1.655, ditukar dengan US$17,58 juta dalam USDC dan US$2,48 juta dalam USD1. Menurutnya, koin itu dibeli tahun lalu di harga rata-rata sekitar US$3.244, sehingga penjualan ini merealisasikan rugi sekitar US$19,26 juta. [Lookonchain](L3) menggambarkan penjualan yang sama sebagai 10.600 ETH dan 1.378 mETH, bentuk ether yang di-stake.
+
+Tidak satu pun pelacak memberi alasan resmi, dan World Liberty tidak mengumumkan penjualan itu. Unggahan di X mengaitkannya dengan pinjaman yang diambil World Liberty di platform pinjaman Dolomite dengan jaminan sekitar 5 miliar token WLFI miliknya sendiri, lapor CoinDesk. Penurunan harga WLFI akan membuat pinjaman itu makin dekat ke likuidasi paksa, sehingga menjual ether untuk menambah jaminan akan menjauhkan risiko itu. Perusahaan belum mengonfirmasi penjelasan ini.
+
+!figure:fact
+
+!mid_cta
+
+## Kejatuhan dan goyahnya stablecoin
+
+WLFI bertahan di dekat US$0,035 selama beberapa jam setelah penjualan, lalu jatuh tajam pada jam 04:00 UTC hari Sabtu (pukul 22.00 Jumat waktu Central AS), menurut data per jam Kraken. Trader yang meminjam dana untuk bertaruh harga naik terpaksa keluar. Likuidasi kontrak berjangka WLFI mencapai sekitar US$15,4 juta dalam empat jam, hampir 90% di antaranya taruhan harga naik, lapor [PANews](L6) dengan mengutip data CoinGlass.
+
+Tekanan merembet ke USD1, yang seharusnya selalu bernilai tepat US$1. Stablecoin ini sempat turun hingga 94 sen pada Sabtu dini hari, menurut data TradingView yang dikutip CoinDesk, sebelum pulih mendekati US$1. Di CoinGecko, USD1 diperdagangkan di sekitar US$0,998 pada Sabtu menjelang siang waktu AS.
+
+Dalam sebuah [unggahan di X](L4), World Liberty menyatakan Binance telah "secara otomatis menutup posisi kontrak berjangka perpetual WLFI, baik posisi long maupun short" semalam. World Liberty menyebut Binance mengelola pasar itu sendiri dan "WLFI tidak terlibat dalam tindakan ini". Pengguna yang terdampak diminta menghubungi layanan pelanggan Binance.
+
+## Perseteruan publik kembali memanas
+
+Pendiri Tron, Justin Sun, yang dulu termasuk investor terbesar World Liberty, menyebut kejadian ini "penipuan terhadap investor" dalam sebuah [unggahan di X](L5) dan mendesak bursa serta regulator bertindak terhadap WLFI dan USD1, termasuk dengan delisting. Itu adalah tuduhannya; World Liberty belum menanggapinya secara publik. CoinDesk mencatat Sun menggugat perusahaan itu pada April 2026 atas tuduhan penipuan dan pemerasan setelah tokennya dibekukan, dan World Liberty mengajukan gugatan balik pada Mei.
+
+## Artinya bagi pemula
+
+Token kecil yang terikat pada satu perusahaan bisa kehilangan separuh nilainya dalam hitungan jam, terutama ketika dompet milik penerbitnya sendiri menjual atau meminjam dengan token itu sebagai jaminan. Stablecoin juga bisa turun di bawah US$1 saat pasar tertekan. Banyak pemula memulai dengan aset yang banyak diperdagangkan seperti bitcoin, yang dibeli di bursa AS yang teregulasi seperti [Coinbase](REF). Kripto sangat fluktuatif, jadi investasikan hanya dana yang sanggup Anda relakan hilang. Ini bukan nasihat keuangan.
+
+## Yang perlu dipantau
+
+- Pernyataan apa pun dari World Liberty tentang penjualan ether dan pinjamannya di Dolomite.
+- Apakah USD1 bisa mempertahankan patokan US$1.
+- Apakah bursa menanggapi seruan Justin Sun untuk melakukan delisting WLFI dan USD1.
+
+!soft: Baru belajar menyimpan kripto? Baca [penjelasan dompet kustodian dan dompet mandiri](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

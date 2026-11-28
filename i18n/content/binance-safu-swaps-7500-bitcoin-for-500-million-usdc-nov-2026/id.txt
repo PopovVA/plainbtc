@@ -1,0 +1,65 @@
+title: Binance menukar 7.500 bitcoin terakhir di dana SAFU dengan 500 juta USDC
+page_title: Binance tukar 7.500 BTC milik SAFU dengan 500 juta USDC
+description: Binance memindahkan 7.500 BTC dari dana darurat SAFU dan menambahkan 500 juta USDC. Bursa ini menyebutnya untuk memenuhi ketentuan regulator dan bukan penjualan. Inilah yang berubah dan artinya bagi pengguna.
+og_description: Binance mengumumkan pada 28 November bahwa 7.500 BTC akan keluar dari dana perlindungan SAFU dan diganti 500 juta USDC. Bitcoin itu meninggalkan alamat publik dana tersebut beberapa jam kemudian.
+label: Bisnis
+summary: Binance menukar 7.500 bitcoin yang tersisa di dana darurat SAFU dengan 500 juta USDC dari kas perusahaan sendiri. Binance menyebut perubahan ini memenuhi ketentuan regulator dan tidak ada bitcoin yang dijual. Koin-koin itu keluar dari alamat publik dana pada Sabtu pagi.
+===
+
+Binance, bursa kripto terbesar di dunia berdasarkan volume perdagangan, mengubah isi dana daruratnya untuk melindungi pengguna. Dalam [pengumuman](L1) bertanggal 28 November, bursa itu menyatakan 7.500 bitcoin akan keluar dari Secure Asset Fund for Users (SAFU) dan kembali ke kas Binance sendiri. Sebagai gantinya, 500 juta USDC, stablecoin yang dipatok ke dolar AS, akan ditambahkan ke dana tersebut.
+
+"Ini adalah realokasi internal, bukan penjualan," tulis Binance. "Tidak ada BTC yang akan dijual atau diperdagangkan di pasar."
+
+!takeaways
+- Binance memindahkan 7.500 BTC dari SAFU ke kasnya dan menambahkan 500 juta USDC dari kas ke SAFU.
+- Bursa itu mengatakan perubahan ini "memenuhi ketentuan regulator", tetapi tidak menyebut regulator maupun aturannya.
+- Alamat bitcoin SAFU mengirim tepat 7.500 BTC dalam satu transaksi pada pukul 09:33 UTC hari Sabtu sehingga hampir kosong, menurut data blockchain.
+- Pada Februari, Binance telah selesai mengonversi seluruh SAFU ke bitcoin hingga mencapai 15.000 BTC. Sekitar separuhnya terpakai setelah peretasan Oktober.
+
+!figure:compare
+
+## Apa yang diumumkan Binance
+
+SAFU adalah dana asuransi darurat yang dibentuk Binance pada Juli 2018 untuk melindungi pengguna "dalam situasi ekstrem", misalnya peretasan. Pemberitahuan 28 November menyebut dana ini sedang diisi kembali dan komposisinya berubah, dengan porsi stablecoin yang lebih besar.
+
+Binance memberi dua alasan. Pertama, "perubahan ini memenuhi ketentuan regulator." Kedua, porsi stablecoin yang lebih besar "membuat SAFU lebih stabil dan bisa langsung dipakai bila suatu saat dibutuhkan." Stablecoin seperti USDC dirancang untuk tetap bernilai US$1, sehingga nilai dana dalam dolar tidak lagi naik turun mengikuti harga bitcoin.
+
+Bursa itu menyatakan SAFU tetap dipegang dan dikelola oleh Nest Clearing and Custody Limited, yang disebutnya sebagai lembaga kliring yang diakui dan diatur di Abu Dhabi Global Market (ADGM). Binance tidak mengumumkan total dana setelah perubahan.
+
+## Apa yang terlihat di blockchain
+
+Sisi bitcoin dari pertukaran ini mudah diperiksa. Alamat SAFU yang diumumkan Binance secara publik mengirim 7.500 BTC ke satu alamat baru di blok 977.920, yang terkonfirmasi pukul 09:33 UTC hari Sabtu (pukul 3:33 waktu Central AS), menurut [mempool.space](L2). Yang tersisa hanya sedikit sekali bitcoin.
+
+Sisi USDC tidak bisa dipastikan hanya dari pemberitahuan itu, karena Binance tidak menyebut alamat atau blockchain mana yang akan menyimpan stablecoin tersebut, catat [crypto.news](L3).
+
+Dengan harga sekitar US$59.100 per bitcoin di Kraken pada Sabtu pagi, 7.500 BTC bernilai kira-kira US$443 juta. Itu lebih kecil dari US$500 juta dalam USDC yang masuk, sehingga nilai dana dalam dolar sedikit naik di atas kertas.
+
+!figure:timeline
+
+!mid_cta
+
+## Berbalik dari awal tahun
+
+Langkah ini membatalkan sebagian besar taruhan yang sempat ramai dibicarakan. Pada akhir Januari, Binance menyatakan akan mengonversi stablecoin SAFU senilai US$1 miliar menjadi bitcoin dalam 30 hari. Proses itu selesai pada 12 Februari dengan pembelian terakhir 4.545 BTC, sehingga dana mencapai 15.000 BTC, sekitar US$1 miliar saat itu, lapor [CoinDesk](L4). Binance lalu berjanji mengisi kembali dana hingga US$1 miliar jika penurunan bitcoin membuatnya di bawah US$800 juta.
+
+Penurunan bitcoin sejak itu memukul rencana tersebut. Dengan harga hari Sabtu, 15.000 BTC bernilai di bawah US$900 juta. Kemudian terjadi peretasan 29 Oktober. Pada 31 Oktober, Binance menyatakan telah menutup 90% dari sekitar US$6,3 miliar yang dicuri, memakai sebagian SAFU, sebagian dana asuransi futures, dan kasnya. Pada hari yang sama, alamat SAFU mengirim 7.500 BTC, separuh bitcoinnya, menurut catatan blockchain. Transfer hari Sabtu mengeluarkan separuh sisanya.
+
+## Artinya bagi pengguna Binance
+
+Bagi pengguna biasa, tidak ada yang berubah dalam cara berdagang atau menarik dana. Binance mengatakan tujuan SAFU tetap sama dan komitmennya untuk mengisi kembali dana tidak berubah.
+
+Poin yang lebih besar adalah pengingat tentang cara kerja jaring pengaman bursa. SAFU adalah janji Binance sendiri, bukan asuransi pemerintah seperti perlindungan FDIC untuk simpanan bank di AS. Ukuran dan isinya bisa berubah, seperti yang sudah terjadi dua kali tahun ini.
+
+Jika Anda baru di kripto, menyimpan koin di bursa besar yang teregulasi seperti [Coinbase](REF) adalah satu pilihan, dan memindahkannya ke dompet yang Anda kendalikan sendiri adalah pilihan lain. Masing-masing punya untung dan rugi. Kripto sangat fluktuatif, jadi investasikan hanya dana yang sanggup Anda relakan hilang. Ini bukan nasihat keuangan.
+
+## Yang perlu dipantau
+
+- Apakah Binance mengumumkan alamat USDC dan total dana yang baru.
+- Regulator atau aturan mana yang mewajibkan perubahan ini.
+- Apakah SAFU diisi lebih dari 500 juta USDC, karena Binance mengatakan akan terus mengisinya kembali.
+
+!soft: Ingin latar belakangnya? Baca bagaimana [Binance memulihkan penuh penarikan setelah peretasan US$6,3 miliar](/articles/binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026).
+
+!end_cta
+
+!disclosure

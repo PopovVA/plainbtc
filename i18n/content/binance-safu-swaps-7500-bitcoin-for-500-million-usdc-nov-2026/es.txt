@@ -1,0 +1,65 @@
+title: Binance cambia los últimos 7.500 bitcoins de su fondo SAFU por 500 millones de USDC
+page_title: Binance cambia los 7.500 BTC del SAFU por 500 millones de USDC
+description: Binance retira 7.500 BTC de su fondo de emergencia SAFU y añade 500 millones de USDC. Dice que cumple un requisito regulatorio y que no es una venta. Qué cambió y qué significa para los usuarios.
+og_description: Binance anunció el 28 de noviembre que 7.500 BTC saldrán de su fondo de protección SAFU y que 500 millones de USDC ocuparán su lugar. Los bitcoins salieron de la dirección pública del fondo horas después.
+label: Empresas
+summary: Binance cambia los 7.500 bitcoins que quedaban en su fondo de emergencia SAFU por 500 millones de USDC de su propia tesorería. Dice que el cambio cumple un requisito regulatorio y que no vende ningún bitcoin. Las monedas salieron de la dirección pública del fondo el sábado por la mañana.
+===
+
+Binance, el mayor exchange de criptomonedas del mundo por volumen de operaciones, está cambiando lo que guarda su fondo de emergencia para proteger a los usuarios. En un [anuncio](L1) fechado el 28 de noviembre, el exchange dijo que 7.500 bitcoins saldrán de su Secure Asset Fund for Users (SAFU) y volverán a la tesorería de Binance. A cambio, el fondo recibirá 500 millones de USDC, una stablecoin vinculada al dólar.
+
+"Es una reasignación interna, no una venta", escribió Binance. "No se venderá ni se negociará ningún BTC en el mercado".
+
+!takeaways
+- Binance traslada 7.500 BTC del SAFU a su tesorería y añade al SAFU 500 millones de USDC procedentes de la tesorería.
+- El exchange dice que el cambio "cumple un requisito regulatorio", pero no nombró al regulador ni la norma.
+- La dirección de bitcoin del SAFU envió exactamente 7.500 BTC en una sola transacción a las 09:33 UTC del sábado y quedó casi vacía, según los datos de la cadena de bloques.
+- En febrero, Binance había terminado de convertir todo el SAFU en bitcoin y llegó a 15.000 BTC. Cerca de la mitad se usó tras el hackeo de octubre.
+
+!figure:compare
+
+## Qué anunció Binance
+
+El SAFU es un fondo de seguro de emergencia que Binance creó en julio de 2018 para proteger a los usuarios "en caso de situaciones extremas", como un hackeo. El aviso del 28 de noviembre dice que el fondo se está reponiendo y que su composición cambia, con una mayor parte en stablecoins.
+
+Binance dio dos motivos. Primero, "este cambio cumple un requisito regulatorio". Segundo, una mayor proporción de stablecoins "hace que el SAFU sea más estable y se pueda usar de inmediato si alguna vez hace falta". Una stablecoin como USDC está diseñada para mantenerse en 1 dólar, así que el valor en dólares del fondo ya no sube y baja con el precio del bitcoin.
+
+El exchange dijo que el SAFU sigue en manos de Nest Clearing and Custody Limited, que describe como una cámara de compensación reconocida y regulada en el Abu Dhabi Global Market (ADGM). No publicó el total del fondo tras el cambio.
+
+## Qué muestra la cadena de bloques
+
+La parte en bitcoin del intercambio es fácil de comprobar. La dirección del SAFU que Binance ha hecho pública envió 7.500 BTC a una única dirección nueva en el bloque 977.920, confirmado a las 09:33 UTC del sábado (3:33 a. m. hora del centro de EE. UU.), según [mempool.space](L2). Solo quedó una cantidad diminuta de bitcoin.
+
+La parte en USDC no se puede confirmar solo con el aviso, porque Binance no dijo qué dirección ni qué blockchain guardará las stablecoins, señaló [crypto.news](L3).
+
+A unos 59.100 dólares por bitcoin en Kraken el sábado por la mañana, 7.500 BTC valen unos 443 millones de dólares. Es menos que los 500 millones de dólares en USDC que entran, así que el valor en dólares del fondo sube un poco sobre el papel.
+
+!figure:timeline
+
+!mid_cta
+
+## Un giro respecto a principios de año
+
+La medida deshace buena parte de una apuesta muy sonada. A finales de enero, Binance dijo que convertiría en bitcoin 1.000 millones de dólares en stablecoins del SAFU en un plazo de 30 días. Terminó el 12 de febrero con una última compra de 4.545 BTC, que llevó el fondo a 15.000 BTC, por un valor de unos 1.000 millones de dólares en ese momento, informó [CoinDesk](L4). Binance prometió entonces reponer el fondo hasta 1.000 millones si la caída del bitcoin lo dejaba por debajo de 800 millones.
+
+La caída del bitcoin desde entonces ha golpeado ese plan. Al precio del sábado, 15.000 BTC valdrían menos de 900 millones de dólares. Luego llegó el hackeo del 29 de octubre. El 31 de octubre, Binance dijo que había cubierto el 90% de los cerca de 6.300 millones de dólares robados, con parte del SAFU, parte de su fondo de seguro de futuros y su tesorería. Ese mismo día, la dirección del SAFU envió 7.500 BTC, la mitad de sus bitcoins, según los registros de la cadena de bloques. La transferencia del sábado sacó la otra mitad.
+
+## Qué significa para los usuarios de Binance
+
+Para los usuarios de a pie no cambia nada en cómo operan o retiran fondos. Binance dice que el propósito del SAFU es el mismo y que su compromiso de reponer el fondo no cambia.
+
+Lo más importante es recordar cómo funcionan las redes de seguridad de los exchanges. El SAFU es una promesa de la propia Binance, no un seguro público como la cobertura de la FDIC para los depósitos bancarios en EE. UU. Su tamaño y su contenido pueden cambiar, como ya ocurrió dos veces este año.
+
+Si eres nuevo en las criptomonedas, guardar tus monedas en un gran exchange regulado como [Coinbase](REF) es una opción, y pasarlas a una billetera que controles tú es otra. Cada una tiene sus ventajas e inconvenientes. Las criptomonedas son volátiles, así que invierte solo lo que puedas permitirte perder. Esto no es asesoramiento financiero.
+
+## Qué vigilar ahora
+
+- Si Binance publica la dirección de los USDC y el nuevo total del fondo.
+- Qué regulador o qué norma exigió el cambio.
+- Si el SAFU se recarga por encima de los 500 millones de USDC, ya que Binance dice que seguirá reponiéndolo.
+
+!soft: ¿Quieres el contexto? Lee cómo [Binance restableció por completo los retiros tras el hackeo de 6.300 millones de dólares](/articles/binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026).
+
+!end_cta
+
+!disclosure

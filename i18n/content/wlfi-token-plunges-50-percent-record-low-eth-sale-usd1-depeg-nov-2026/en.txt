@@ -1,0 +1,57 @@
+title: Trump-backed WLFI token plunges about 50% to a record low after a $20 million ether sale
+page_title: WLFI token plunges 50% to record low after ETH sale
+description: World Liberty Financial's WLFI token lost about half its value overnight after a project-linked wallet sold about $20 million of ether at a loss, and its USD1 stablecoin briefly slipped to 94 cents. Here is what happened.
+og_description: WLFI fell from about $0.035 to a record low near $0.018 in hours on Kraken. A project-linked wallet had sold about 12,000 ETH at a loss, and USD1 briefly traded at 94 cents.
+label: Markets
+summary: WLFI, the token of Trump family-backed World Liberty Financial, crashed about 50% overnight to a record low near $0.018. A wallet labeled as the project's strategic reserve sold about $20 million of ether at a loss hours earlier, and the USD1 stablecoin briefly lost its $1 peg.
+===
+
+WLFI, the governance token of World Liberty Financial, the crypto venture backed by President Donald Trump's family, lost about half its value overnight and hit a record low. On Kraken, WLFI traded near $0.035 late on Friday, U.S. time, then fell to about $0.018 within three hours early on Saturday, Nov. 28 (UTC). It was trading near $0.019 on Saturday morning.
+
+According to [CoinDesk](L1), WLFI is now down roughly 95% from its September 2025 peak of $0.33. World Liberty had not responded to CoinDesk's request for comment on the price drop.
+
+!takeaways
+- WLFI fell more than 50% in 24 hours to a record low, CoinDesk reported.
+- Hours earlier, a wallet labeled "World Liberty Financial: Strategic Reserve" sold about 12,000 ETH for roughly $20 million, locking in a loss of about $19 million, on-chain trackers said.
+- USD1, World Liberty's dollar stablecoin, briefly traded as low as 94 cents before recovering close to $1.
+- World Liberty said Binance automatically closed WLFI perpetual futures positions overnight and that it had no role in those closures.
+
+!figure:chart
+
+## The ether sale that came first
+
+On Friday, Nov. 27, the project-linked reserve wallet sold ether through the CoW Swap exchange aggregator, blockchain trackers reported. [EmberCN](L2), citing Arkham Intelligence data, counted 12,121 ETH sold at an average price of about $1,655, for $17.58 million in USDC and $2.48 million in USD1. It said the coins had been bought last year at an average of about $3,244, so the sale locked in a loss of about $19.26 million. [Lookonchain](L3) described the same sale as 10,600 ETH and 1,378 mETH, a staked form of ether.
+
+Neither tracker gave an official reason, and World Liberty did not announce the sale. Posts on X linked it to a loan World Liberty took on the Dolomite lending platform using about 5 billion of its own WLFI tokens as collateral, CoinDesk reported. A falling WLFI price would bring that loan closer to forced liquidation, so selling ether to add collateral would push that risk further away. This explanation has not been confirmed by the company.
+
+!figure:fact
+
+!mid_cta
+
+## The crash and the stablecoin wobble
+
+WLFI held near $0.035 for several hours after the sale, then dropped sharply in the 04:00 UTC hour on Saturday (10 p.m. Friday, Central time), Kraken's hourly data shows. Traders who had borrowed to bet on a higher price were forced out. WLFI futures liquidations reached about $15.4 million over four hours, almost 90% of them bets on a rising price, [PANews](L6) reported, citing CoinGlass data.
+
+The stress spread to USD1, which is meant to trade at exactly $1. It briefly fell as low as 94 cents early Saturday, according to TradingView data cited by CoinDesk, before recovering to near $1. On CoinGecko, USD1 traded around $0.998 by mid-morning Saturday, U.S. time.
+
+In a [post on X](L4), World Liberty said Binance had "automatically closed WLFI perpetual futures positions on both the long and short sides" overnight. It said Binance runs those markets on its own and that "WLFI had no involvement in these actions." It told affected users to contact Binance support.
+
+## A public feud flares again
+
+Tron founder Justin Sun, once one of World Liberty's biggest investors, called the episode "investor fraud" in a [post on X](L5) and urged exchanges and regulators to act against WLFI and USD1, including delisting. These are his allegations; World Liberty has not responded to them publicly. CoinDesk noted that Sun sued the company in April 2026, alleging fraud and extortion, after his tokens were frozen, and that World Liberty countersued in May.
+
+## What it means for beginners
+
+Small tokens tied to a single company can lose half their value in hours, especially when the issuer's own wallets are selling or borrowing against the token. Stablecoins can also slip below $1 under stress. Many beginners start with widely traded assets such as bitcoin, bought on a regulated U.S. exchange like [Coinbase](REF). Crypto is volatile, so only invest what you can afford to lose. This is not financial advice.
+
+## What to watch next
+
+- Any statement from World Liberty about the ether sale and its Dolomite loan.
+- Whether USD1 holds its $1 peg.
+- Whether exchanges respond to Justin Sun's calls to delist WLFI and USD1.
+
+!soft: New to crypto storage? Read [custodial vs. self-custody wallets explained](/articles/what-is-a-crypto-wallet-custodial-vs-self-custody).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "compare",
+    "file": "compare-safu-btc-out-usdc-in.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Comparison card of Binance's Nov. 28, 2026 SAFU swap: 7,500 BTC move out from the SAFU address to Binance's treasury and were sent at 09:33 UTC in block 977,920; 500 million USDC move in from the treasury to SAFU, at an address Binance has not disclosed",
+      "es": "Tarjeta comparativa del cambio en el SAFU de Binance del 28 de noviembre de 2026: salen 7.500 BTC de la dirección del SAFU hacia la tesorería de Binance, enviados a las 09:33 UTC en el bloque 977.920; entran 500 millones de USDC desde la tesorería al SAFU, en una dirección que Binance no ha revelado",
+      "pt": "Cartão comparativo da troca no SAFU da Binance em 28 de novembro de 2026: saem 7.500 BTC do endereço do SAFU para a tesouraria da Binance, enviados às 09:33 UTC no bloco 977.920; entram 500 milhões de USDC da tesouraria para o SAFU, em um endereço que a Binance não divulgou",
+      "fr": "Encadré comparatif de l'échange du fonds SAFU de Binance du 28 novembre 2026 : 7 500 BTC sortent de l'adresse SAFU vers la trésorerie de Binance, envoyés à 09:33 UTC dans le bloc 977 920 ; 500 millions d'USDC entrent dans le SAFU depuis la trésorerie, à une adresse que Binance n'a pas communiquée",
+      "de": "Vergleichskarte zum SAFU-Tausch von Binance am 28. November 2026: 7.500 BTC gehen von der SAFU-Adresse an die Binance-Treasury und wurden um 09:33 UTC in Block 977.920 gesendet; 500 Millionen USDC kommen aus der Treasury in den SAFU, an eine Adresse, die Binance nicht genannt hat",
+      "ru": "Карточка сравнения обмена в фонде SAFU Binance 28 ноября 2026 года: 7500 BTC уходят с адреса SAFU в казну Binance и отправлены в 09:33 UTC в блоке 977 920; 500 млн USDC поступают из казны в SAFU на адрес, который Binance не раскрыла",
+      "tr": "Binance'in 28 Kasım 2026 SAFU takasının karşılaştırma kartı: 7.500 BTC SAFU adresinden Binance hazinesine çıkıyor ve 09:33 UTC'de 977.920 numaralı blokta gönderildi; 500 milyon USDC hazineden SAFU'ya giriyor, Binance'in açıklamadığı bir adrese",
+      "id": "Kartu perbandingan pertukaran SAFU Binance pada 28 November 2026: 7.500 BTC keluar dari alamat SAFU ke kas Binance dan dikirim pukul 09:33 UTC di blok 977.920; 500 juta USDC masuk dari kas ke SAFU, di alamat yang belum diungkap Binance",
+      "ja": "2026年11月28日のBinance SAFU入れ替えの比較カード：7,500 BTCがSAFUアドレスからBinanceの自己資金口座へ移り、UTC 09:33にブロック977,920で送金済み。5億USDCが自己資金口座からSAFUへ入るが、受け取りアドレスはBinanceが未公表",
+      "ko": "2026년 11월 28일 바이낸스 SAFU 교체 비교 카드: 7,500 BTC가 SAFU 주소에서 바이낸스 자체 자금 계정으로 나가며 UTC 09:33 블록 977,920에서 전송됨. 5억 USDC가 자체 자금 계정에서 SAFU로 들어오지만 수령 주소는 바이낸스가 공개하지 않음"
+    },
+    "caption": {
+      "en": "Source: Binance announcement; mempool.space, Nov. 28, 2026",
+      "es": "Fuente: Binance announcement; mempool.space, Nov. 28, 2026",
+      "pt": "Fonte: Binance announcement; mempool.space, Nov. 28, 2026",
+      "fr": "Source : Binance announcement; mempool.space, Nov. 28, 2026",
+      "de": "Quelle: Binance announcement; mempool.space, Nov. 28, 2026",
+      "ru": "Источник: Binance announcement; mempool.space, Nov. 28, 2026",
+      "tr": "Kaynak: Binance announcement; mempool.space, Nov. 28, 2026",
+      "id": "Sumber: Binance announcement; mempool.space, Nov. 28, 2026",
+      "ja": "出典: Binance announcement; mempool.space, Nov. 28, 2026",
+      "ko": "출처: Binance announcement; mempool.space, Nov. 28, 2026"
+    }
+  },
+  {
+    "id": "timeline",
+    "file": "timeline-safu-bitcoin-2026.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline of SAFU's bitcoin in 2026: Feb. 12, the conversion is done and the fund holds 15,000 BTC; Oct. 29, a hack of about $6.3 billion hits Binance; Oct. 31, 7,500 BTC leave the SAFU address; Nov. 28, the last 7,500 BTC are swapped for 500 million USDC",
+      "es": "Cronología del bitcoin del SAFU en 2026: 12 de febrero, termina la conversión y el fondo tiene 15.000 BTC; 29 de octubre, un hackeo de unos 6.300 millones de dólares golpea a Binance; 31 de octubre, salen 7.500 BTC de la dirección del SAFU; 28 de noviembre, los últimos 7.500 BTC se cambian por 500 millones de USDC",
+      "pt": "Linha do tempo do bitcoin do SAFU em 2026: 12 de fevereiro, a conversão termina e o fundo tem 15.000 BTC; 29 de outubro, um ataque de cerca de US$ 6,3 bilhões atinge a Binance; 31 de outubro, 7.500 BTC saem do endereço do SAFU; 28 de novembro, os últimos 7.500 BTC são trocados por 500 milhões de USDC",
+      "fr": "Chronologie du bitcoin du SAFU en 2026 : 12 février, la conversion est terminée et le fonds détient 15 000 BTC ; 29 octobre, un piratage d'environ 6,3 milliards de dollars frappe Binance ; 31 octobre, 7 500 BTC quittent l'adresse SAFU ; 28 novembre, les 7 500 derniers BTC sont échangés contre 500 millions d'USDC",
+      "de": "Zeitleiste der SAFU-Bitcoin im Jahr 2026: 12. Februar, Umstellung abgeschlossen, der Fonds hält 15.000 BTC; 29. Oktober, ein Hack von rund 6,3 Milliarden Dollar trifft Binance; 31. Oktober, 7.500 BTC verlassen die SAFU-Adresse; 28. November, die letzten 7.500 BTC werden gegen 500 Millionen USDC getauscht",
+      "ru": "Хронология биткоинов SAFU в 2026 году: 12 февраля конвертация завершена, в фонде 15 000 BTC; 29 октября взлом примерно на $6,3 млрд бьёт по Binance; 31 октября 7500 BTC уходят с адреса SAFU; 28 ноября последние 7500 BTC обменены на 500 млн USDC",
+      "tr": "2026'da SAFU'nun bitcoin'leri zaman çizelgesi: 12 Şubat, dönüşüm tamamlanır ve fonda 15.000 BTC olur; 29 Ekim, yaklaşık 6,3 milyar dolarlık bir saldırı Binance'i vurur; 31 Ekim, 7.500 BTC SAFU adresinden çıkar; 28 Kasım, son 7.500 BTC 500 milyon USDC ile takas edilir",
+      "id": "Linimasa bitcoin SAFU pada 2026: 12 Februari, konversi selesai dan dana memegang 15.000 BTC; 29 Oktober, peretasan sekitar US$6,3 miliar menghantam Binance; 31 Oktober, 7.500 BTC keluar dari alamat SAFU; 28 November, 7.500 BTC terakhir ditukar dengan 500 juta USDC",
+      "ja": "2026年のSAFUのビットコインの時系列：2月12日、転換が完了し基金は15,000 BTCを保有。10月29日、約63億ドルのハッキングがBinanceを襲う。10月31日、7,500 BTCがSAFUアドレスから流出。11月28日、残る7,500 BTCを5億USDCと入れ替え",
+      "ko": "2026년 SAFU 비트코인 타임라인: 2월 12일 전환 완료, 기금 15,000 BTC 보유. 10월 29일 약 63억 달러 규모 해킹이 바이낸스를 덮침. 10월 31일 7,500 BTC가 SAFU 주소에서 빠져나감. 11월 28일 남은 7,500 BTC를 5억 USDC로 교체"
+    },
+    "caption": {
+      "en": "Source: Binance; CoinDesk; mempool.space",
+      "es": "Fuente: Binance; CoinDesk; mempool.space",
+      "pt": "Fonte: Binance; CoinDesk; mempool.space",
+      "fr": "Source : Binance; CoinDesk; mempool.space",
+      "de": "Quelle: Binance; CoinDesk; mempool.space",
+      "ru": "Источник: Binance; CoinDesk; mempool.space",
+      "tr": "Kaynak: Binance; CoinDesk; mempool.space",
+      "id": "Sumber: Binance; CoinDesk; mempool.space",
+      "ja": "出典: Binance; CoinDesk; mempool.space",
+      "ko": "출처: Binance; CoinDesk; mempool.space"
+    }
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-wlfi-hourly-nov-26-28-2026.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of WLFI's hourly closing price on Kraken from Nov. 26 to Nov. 28, 2026 (UTC): it holds around $0.042 to $0.043, eases to about $0.035 by late Nov. 27, then plunges in the 04:00 UTC hour on Nov. 28 to about $0.019",
+      "es": "Gráfico de líneas del cierre horario de WLFI en Kraken del 26 al 28 de noviembre de 2026 (UTC): se mantiene entre unos 0,042 y 0,043 dólares, baja a cerca de 0,035 a última hora del 27 y se desploma en la hora de las 04:00 UTC del 28 hasta unos 0,019",
+      "pt": "Gráfico de linha do fechamento por hora do WLFI na Kraken de 26 a 28 de novembro de 2026 (UTC): fica entre cerca de US$ 0,042 e US$ 0,043, recua para perto de US$ 0,035 no fim do dia 27 e despenca na hora das 04:00 UTC do dia 28 para cerca de US$ 0,019",
+      "fr": "Courbe des clôtures horaires du WLFI sur Kraken du 26 au 28 novembre 2026 (UTC) : autour de 0,042 à 0,043 $, repli vers 0,035 $ en fin de journée le 27, puis chute dans l'heure de 04:00 UTC le 28 jusqu'à environ 0,019 $",
+      "de": "Liniendiagramm der stündlichen WLFI-Schlusskurse bei Kraken vom 26. bis 28. November 2026 (UTC): um 0,042 bis 0,043 $, bis zum späten 27. Rückgang auf etwa 0,035 $, dann Absturz in der Stunde ab 04:00 UTC am 28. auf rund 0,019 $",
+      "ru": "Линейный график почасовых цен закрытия WLFI на Kraken с 26 по 28 ноября 2026 года (UTC): около $0,042–0,043, к концу 27-го снижение примерно до $0,035, затем обвал в час с 04:00 UTC 28 ноября примерно до $0,019",
+      "tr": "Kraken'de 26-28 Kasım 2026 arası WLFI saatlik kapanış fiyatı çizgi grafiği (UTC): 0,042-0,043 $ civarında seyrediyor, 27 Kasım'ın sonlarına doğru yaklaşık 0,035 $'a geriliyor, ardından 28 Kasım 04:00 UTC saatinde yaklaşık 0,019 $'a çöküyor",
+      "id": "Grafik garis harga penutupan per jam WLFI di Kraken dari 26 hingga 28 November 2026 (UTC): bertahan di sekitar US$0,042 hingga US$0,043, turun ke sekitar US$0,035 menjelang akhir 27 November, lalu anjlok pada jam 04:00 UTC tanggal 28 ke sekitar US$0,019",
+      "ja": "2026年11月26日〜28日（UTC）のKrakenにおけるWLFI時間足終値の折れ線グラフ：0.042〜0.043ドル前後で推移し、27日遅くに約0.035ドルまで下げた後、28日UTC 4時台に約0.019ドルまで急落",
+      "ko": "2026년 11월 26일~28일(UTC) 크라켄 WLFI 시간별 종가 선 차트: 0.042~0.043달러 부근에서 움직이다 27일 늦게 약 0.035달러로 내려간 뒤, 28일 UTC 04시대에 약 0.019달러로 급락"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken WLFI/USD hourly closes (UTC)",
+      "es": "Gráfico: PlainBTC, datos: Kraken WLFI/USD hourly closes (UTC)",
+      "pt": "Gráfico: PlainBTC, dados: Kraken WLFI/USD hourly closes (UTC)",
+      "fr": "Graphique : PlainBTC, données : Kraken WLFI/USD hourly closes (UTC)",
+      "de": "Chart: PlainBTC, Daten: Kraken WLFI/USD hourly closes (UTC)",
+      "ru": "График: PlainBTC, данные: Kraken WLFI/USD hourly closes (UTC)",
+      "tr": "Grafik: PlainBTC, veri: Kraken WLFI/USD hourly closes (UTC)",
+      "id": "Grafik: PlainBTC, data: Kraken WLFI/USD hourly closes (UTC)",
+      "ja": "チャート: PlainBTC、データ: Kraken WLFI/USD hourly closes (UTC)",
+      "ko": "차트: PlainBTC, 데이터: Kraken WLFI/USD hourly closes (UTC)"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-wlfi-reserve-sold-12121-eth.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: the WLFI strategic reserve wallet sold 12,121 ETH on Nov. 27 for about $20.06 million at roughly $1,655 per ether; the coins cost about $3,244 each, a realized loss of about $19.26 million, per EmberCN using Arkham data",
+      "es": "Tarjeta: la cartera de reserva estratégica de WLFI vendió 12.121 ETH el 27 de noviembre por unos 20,06 millones de dólares, a cerca de 1.655 dólares por ether; las monedas costaron unos 3.244 dólares cada una, una pérdida realizada de unos 19,26 millones, según EmberCN con datos de Arkham",
+      "pt": "Cartão: a carteira de reserva estratégica do WLFI vendeu 12.121 ETH em 27 de novembro por cerca de US$ 20,06 milhões, a aproximadamente US$ 1.655 por ether; as moedas custaram cerca de US$ 3.244 cada, um prejuízo realizado de cerca de US$ 19,26 milhões, segundo o EmberCN com dados da Arkham",
+      "fr": "Encadré : le portefeuille de réserve stratégique de WLFI a vendu 12 121 ETH le 27 novembre pour environ 20,06 millions de dollars, à près de 1 655 $ l'ether ; les jetons avaient coûté environ 3 244 $ chacun, soit une perte réalisée d'environ 19,26 millions de dollars, selon EmberCN à partir de données Arkham",
+      "de": "Faktenkarte: Die strategische Reserve-Wallet von WLFI verkaufte am 27. November 12.121 ETH für rund 20,06 Millionen Dollar zu etwa 1.655 $ je Ether; gekauft wurden sie zu etwa 3.244 $ je Stück, ein realisierter Verlust von rund 19,26 Millionen Dollar, laut EmberCN mit Arkham-Daten",
+      "ru": "Карточка: кошелёк стратегического резерва WLFI 27 ноября продал 12 121 ETH примерно за $20,06 млн по цене около $1655 за эфир; монеты обошлись примерно в $3244 каждая, зафиксированный убыток около $19,26 млн, по данным EmberCN на основе Arkham",
+      "tr": "Bilgi kartı: WLFI stratejik rezerv cüzdanı 27 Kasım'da 12.121 ETH'yi ether başına yaklaşık 1.655 $'dan, toplam yaklaşık 20,06 milyon dolara sattı; coinlerin maliyeti tanesi yaklaşık 3.244 $'dı, yani yaklaşık 19,26 milyon dolarlık gerçekleşmiş zarar, EmberCN'in Arkham verilerine göre",
+      "id": "Kartu fakta: dompet cadangan strategis WLFI menjual 12.121 ETH pada 27 November senilai sekitar US$20,06 juta di harga sekitar US$1.655 per ether; koin itu dibeli sekitar US$3.244 per keping, rugi terealisasi sekitar US$19,26 juta, menurut EmberCN dengan data Arkham",
+      "ja": "ファクトカード：WLFIの戦略準備ウォレットが11月27日に12,121 ETHを1ETHあたり約1,655ドル、計約2,006万ドルで売却。取得単価は約3,244ドルで、実現損失は約1,926万ドル（EmberCN、Arkhamデータ）",
+      "ko": "팩트 카드: WLFI 전략 준비금 지갑이 11월 27일 12,121 ETH를 개당 약 1,655달러, 총 약 2,006만 달러에 매도. 매입 단가는 개당 약 3,244달러로 실현 손실은 약 1,926만 달러(EmberCN, 아컴 데이터)"
+    },
+    "caption": {
+      "en": "Source: EmberCN (Arkham data), via CoinDesk, Nov. 28, 2026",
+      "es": "Fuente: EmberCN (Arkham data), via CoinDesk, Nov. 28, 2026",
+      "pt": "Fonte: EmberCN (Arkham data), via CoinDesk, Nov. 28, 2026",
+      "fr": "Source : EmberCN (Arkham data), via CoinDesk, Nov. 28, 2026",
+      "de": "Quelle: EmberCN (Arkham data), via CoinDesk, Nov. 28, 2026",
+      "ru": "Источник: EmberCN (Arkham data), via CoinDesk, Nov. 28, 2026",
+      "tr": "Kaynak: EmberCN (Arkham data), via CoinDesk, Nov. 28, 2026",
+      "id": "Sumber: EmberCN (Arkham data), via CoinDesk, Nov. 28, 2026",
+      "ja": "出典: EmberCN (Arkham data), via CoinDesk, Nov. 28, 2026",
+      "ko": "출처: EmberCN (Arkham data), via CoinDesk, Nov. 28, 2026"
+    }
+  }
+]

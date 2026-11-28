@@ -1,0 +1,65 @@
+title: Binance swaps its SAFU fund's last 7,500 bitcoin for 500 million USDC
+page_title: Binance swaps SAFU's 7,500 BTC for 500 million USDC
+description: Binance is moving 7,500 BTC out of its SAFU emergency fund and adding 500 million USDC, saying it meets a regulatory requirement and is not a sale. Here is what changed and what it means for users.
+og_description: Binance said on Nov. 28 that 7,500 BTC will leave its SAFU user protection fund and 500 million USDC will replace it. The bitcoin left the fund's public address hours later.
+label: Business
+summary: Binance is swapping the 7,500 bitcoin left in its SAFU emergency fund for 500 million USDC from its own treasury. It says the change meets a regulatory requirement and that no bitcoin is being sold. The coins left the fund's public address on Saturday morning.
+===
+
+Binance, the world's largest crypto exchange by trading volume, is changing what its emergency user protection fund holds. In an [announcement](L1) dated Nov. 28, the exchange said 7,500 bitcoin will move out of its Secure Asset Fund for Users (SAFU) and back to Binance's own treasury. In exchange, 500 million USDC, a dollar-pegged stablecoin, will be added to the fund.
+
+"This is an internal reallocation, not a sale," Binance wrote. "No BTC will be sold or traded on the market."
+
+!takeaways
+- Binance is moving 7,500 BTC from SAFU to its treasury and adding 500 million USDC from the treasury to SAFU.
+- The exchange says the change "meets a regulatory requirement" but did not name the regulator or the rule.
+- The SAFU bitcoin address sent exactly 7,500 BTC in one transaction at 09:33 UTC on Saturday, leaving it almost empty, blockchain data shows.
+- In February, Binance had finished converting SAFU entirely into bitcoin, reaching 15,000 BTC. About half was used after the October hack.
+
+!figure:compare
+
+## What Binance announced
+
+SAFU is an emergency insurance fund that Binance set up in July 2018 to protect users "in the event of extreme situations," such as a hack. The Nov. 28 notice says the fund is being replenished and that its make-up is changing, with a larger share in stablecoins.
+
+Binance gave two reasons. First, "this change meets a regulatory requirement." Second, a bigger stablecoin share "makes SAFU more stable and immediately usable if it is ever needed." A stablecoin like USDC is designed to stay at $1, so the fund's dollar value no longer swings with the price of bitcoin.
+
+The exchange said SAFU is still held and managed by Nest Clearing and Custody Limited, which it describes as a Recognised Clearing House regulated in Abu Dhabi Global Market (ADGM). It did not publish a total for the fund after the change.
+
+## What the blockchain shows
+
+The bitcoin side of the swap is easy to check. The SAFU address Binance has named publicly sent 7,500 BTC to a single new address in block 977,920, confirmed at 09:33 UTC on Saturday (3:33 a.m. Central), according to [mempool.space](L2). Only a tiny amount of bitcoin was left behind.
+
+The USDC side cannot be confirmed from the notice alone, because Binance did not say which address or blockchain will hold the stablecoins, [crypto.news](L3) noted.
+
+At about $59,100 per bitcoin on Kraken on Saturday morning, 7,500 BTC is worth roughly $443 million. That is less than the $500 million in USDC going in, so the fund's dollar value rises slightly on paper.
+
+!figure:timeline
+
+!mid_cta
+
+## A reversal from earlier this year
+
+The move undoes much of a high-profile bet. In late January, Binance said it would convert $1 billion of SAFU's stablecoins into bitcoin within 30 days. It finished on Feb. 12 with a final purchase of 4,545 BTC, bringing the fund to 15,000 BTC, worth about $1 billion at the time, [CoinDesk](L4) reported. Binance then pledged to top the fund back up to $1 billion if bitcoin's fall pushed it below $800 million.
+
+Bitcoin's slide since then has hurt that plan. At Saturday's price, 15,000 BTC would be worth under $900 million. Then came the Oct. 29 hack. On Oct. 31, Binance said it had covered 90% of the roughly $6.3 billion stolen, using part of SAFU, part of its futures insurance fund and its treasury. That same day the SAFU address sent out 7,500 BTC, half of its bitcoin, blockchain records show. Saturday's transfer moved out the other half.
+
+## What it means for Binance users
+
+For everyday users, nothing changes in how they trade or withdraw. Binance says SAFU's purpose is the same, and that its commitment to replenish the fund is unchanged.
+
+The bigger point is a reminder about how exchange safety nets work. SAFU is Binance's own promise, not government insurance like the FDIC cover on U.S. bank deposits. Its size and contents can change, as they did twice this year.
+
+If you are new to crypto, keeping your coins on a large regulated exchange such as [Coinbase](REF) is one option, and moving them to a wallet you control is another. Each has trade-offs. Crypto is volatile, so only invest what you can afford to lose. This is not financial advice.
+
+## What to watch next
+
+- Whether Binance publishes the USDC address and the fund's new total.
+- Which regulator or rule required the change.
+- Whether SAFU is topped up beyond 500 million USDC, which Binance says it will keep replenishing.
+
+!soft: Want the background? Read how [Binance fully restored withdrawals after the $6.3 billion hack](/articles/binance-withdrawals-fully-restored-after-6-3-billion-hack-nov-2026).
+
+!end_cta
+
+!disclosure
