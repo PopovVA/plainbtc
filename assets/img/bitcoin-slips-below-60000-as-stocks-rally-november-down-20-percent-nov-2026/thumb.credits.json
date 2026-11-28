@@ -1,0 +1,45 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Kraken OHLC XBTUSD interval=60 (frozen in chart-data.json)",
+      "license": "Kraken public API",
+      "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data",
+      "credit": "Hourly BTC/USD closes, high and low, Nov. 27, 2026, from Kraken"
+    },
+    {
+      "file": "Bloomberg: Bitcoin bucks Wall Street rally (S&P 500 +1.6%)",
+      "license": "Facts cited",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/bitcoin-bounces-as-optimism-returns-to-markets-after-holiday",
+      "credit": "Bloomberg"
+    },
+    {
+      "file": "CoinMarketCap: Crypto news today, Nov. 27, 2026 (CoinGlass liquidations)",
+      "license": "Facts cited",
+      "url": "https://coinmarketcap.com/academy/article/crypto-news-today-nov-27-2026",
+      "credit": "CoinMarketCap / CoinGlass"
+    },
+    {
+      "file": "CoinDesk: bitcoin down around 20% in November",
+      "license": "Facts cited",
+      "url": "https://www.coindesk.com/markets/2026/11/27/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound",
+      "credit": "CoinDesk"
+    },
+    {
+      "file": "Bitcoin.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg",
+      "credit": "Bitcoin logo"
+    }
+  ],
+  "slug": "bitcoin-slips-below-60000-as-stocks-rally-november-down-20-percent-nov-2026",
+  "generated": "2026-11-28T00:03Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

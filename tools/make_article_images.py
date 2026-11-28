@@ -6575,7 +6575,115 @@ def build_bbit_six():
     ]
 
 
+BTC60SLIP_SLUG = "bitcoin-slips-below-60000-as-stocks-rally-november-down-20-percent-nov-2026"
+OPENBRL_SLUG = "brazil-b3-six-banks-open-brl-real-stablecoin-nov-2026"
+
+
+def build_btc60_slip():
+    d = OUT / BTC60SLIP_SLUG
+    data = json.loads((I18N / BTC60SLIP_SLUG / "chart-data.json").read_text(encoding="utf-8"))
+    xs = np.array([r[0] for r in data["hourly"]], dtype=float)
+    ys = np.array([r[1] for r in data["hourly"]])
+    assert round(max(r[3] for r in data["hourly"])) == 62139 and round(min(r[2] for r in data["hourly"])) == 58729, "range changed"
+    chart = make_line_chart(
+        d / "chart-btc-hourly-nov-26-27-2026",
+        xs, ys,
+        title="Bitcoin, hourly closes on Kraken, Nov. 26 to Nov. 27, 2026 (UTC)",
+        hline=60000.0,
+        hlabel="$60,000",
+        date_fmt="%b %d %H:%M",
+    )
+    card = make_fact_card(
+        d / "fact-btc-long-liquidations-100-million",
+        label="Bitcoin liquidations · Friday morning, Nov. 27",
+        big="$100M+ longs vs. $8M shorts",
+        sub="Leveraged bets on higher bitcoin prices were wiped out as BTC slid from about $61,350 to near $59,000 in the half hour after the U.S. open.",
+        footer="Source: CoinGlass data via CoinMarketCap, Nov. 27, 2026",
+    )
+    return [
+        {"id": "chart", "file": chart.name, "w": 1200, "h": 675, "kind": "chart",
+         "alt": alts("Line chart of bitcoin's hourly closing price on Kraken from Nov. 26 to the evening of Nov. 27, 2026 (UTC): it holds around $60,500 on Nov. 26, rises above $61,500 early on Nov. 27, then drops below the $60,000 line around the U.S. stock market open and ends near $59,700", {
+            "es": "Gráfico de líneas del cierre horario de bitcoin en Kraken del 26 a la tarde del 27 de noviembre de 2026 (UTC): se mantiene cerca de 60.500 dólares el 26, sube por encima de 61.500 a primera hora del 27, cae por debajo de la línea de 60.000 en torno a la apertura de la bolsa de EE. UU. y termina cerca de 59.700",
+            "pt": "Gráfico de linha do fechamento por hora do bitcoin na Kraken de 26 até a noite de 27 de novembro de 2026 (UTC): fica perto de US$ 60.500 no dia 26, sobe acima de US$ 61.500 no início do dia 27, cai abaixo da linha de US$ 60.000 perto da abertura da bolsa americana e termina perto de US$ 59.700",
+            "fr": "Courbe des clôtures horaires du bitcoin sur Kraken du 26 au soir du 27 novembre 2026 (UTC) : autour de 60 500 $ le 26, au-dessus de 61 500 $ tôt le 27, puis passage sous la ligne des 60 000 $ vers l'ouverture de Wall Street et fin vers 59 700 $",
+            "de": "Liniendiagramm der stündlichen Bitcoin-Schlusskurse bei Kraken vom 26. bis zum Abend des 27. November 2026 (UTC): um 60.500 $ am 26., früh am 27. über 61.500 $, dann rund um die Eröffnung der US-Börse unter die 60.000-$-Linie und Schluss bei etwa 59.700 $",
+            "ru": "Линейный график почасовых цен закрытия биткоина на Kraken с 26 по вечер 27 ноября 2026 года (UTC): около $60 500 26 ноября, рост выше $61 500 рано утром 27-го, затем падение ниже линии $60 000 около открытия фондового рынка США и около $59 700 в конце",
+            "tr": "Kraken'de 26 Kasım'dan 27 Kasım 2026 akşamına kadar bitcoin saatlik kapanış fiyatı çizgi grafiği (UTC): 26 Kasım'da 60.500 $ civarında, 27 Kasım sabahı erken saatlerde 61.500 $'ın üzerine çıkıyor, ABD borsasının açılışı civarında 60.000 $ çizgisinin altına iniyor ve yaklaşık 59.700 $'da bitiyor",
+            "id": "Grafik garis harga penutupan per jam bitcoin di Kraken dari 26 hingga malam 27 November 2026 (UTC): bertahan di sekitar US$60.500 pada 26 November, naik di atas US$61.500 pada awal 27 November, lalu turun di bawah garis US$60.000 sekitar pembukaan bursa saham AS dan berakhir di sekitar US$59.700",
+            "ja": "2026年11月26日〜27日夜（UTC）のKrakenにおけるビットコイン1時間足終値の折れ線グラフ：26日は約60,500ドル前後、27日早朝に61,500ドルを超えた後、米国株式市場の取引開始前後に60,000ドルのラインを割り込み、約59,700ドルで終了",
+            "ko": "2026년 11월 26일~27일 저녁(UTC) 크라켄 비트코인 시간별 종가 선 차트: 26일 약 60,500달러 부근, 27일 새벽 61,500달러 위로 올랐다가 미국 증시 개장 무렵 60,000달러 선 아래로 떨어져 약 59,700달러로 마감",
+         }),
+         "caption": tr_map(CAPTION_CHART, src="Kraken BTC/USD hourly closes (UTC), Nov. 26 to Nov. 27, 2026")},
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: on Friday morning, Nov. 27, 2026, more than $100 million in leveraged long bitcoin positions were liquidated, against about $8 million in shorts, as bitcoin slid from about $61,350 to near $59,000 in the half hour after the U.S. stock market opened", {
+            "es": "Tarjeta: la mañana del viernes 27 de noviembre de 2026 se liquidaron más de 100 millones de dólares en posiciones largas apalancadas en bitcoin, frente a unos 8 millones en cortas, mientras bitcoin caía de unos 61.350 a cerca de 59.000 dólares en la media hora posterior a la apertura de la bolsa de EE. UU.",
+            "pt": "Cartão: na manhã de sexta-feira, 27 de novembro de 2026, mais de US$ 100 milhões em posições compradas alavancadas em bitcoin foram liquidadas, contra cerca de US$ 8 milhões em vendidas, enquanto o bitcoin caía de cerca de US$ 61.350 para perto de US$ 59.000 na meia hora após a abertura da bolsa americana",
+            "fr": "Encadré : le vendredi 27 novembre 2026 au matin, plus de 100 millions de dollars de positions longues à effet de levier sur le bitcoin ont été liquidés, contre environ 8 millions de positions courtes, alors que le bitcoin passait d'environ 61 350 $ à près de 59 000 $ dans la demi-heure suivant l'ouverture de Wall Street",
+            "de": "Faktenkarte: Am Freitagmorgen, 27. November 2026, wurden gehebelte Long-Positionen auf Bitcoin im Wert von mehr als 100 Millionen Dollar liquidiert, gegenüber rund 8 Millionen bei Shorts, während Bitcoin in der halben Stunde nach Eröffnung der US-Börse von etwa 61.350 $ auf fast 59.000 $ fiel",
+            "ru": "Карточка: утром в пятницу, 27 ноября 2026 года, были ликвидированы длинные позиции с плечом по биткоину более чем на $100 млн против примерно $8 млн коротких, пока биткоин за полчаса после открытия фондового рынка США падал примерно с $61 350 почти до $59 000",
+            "tr": "Bilgi kartı: 27 Kasım 2026 Cuma sabahı, bitcoin ABD borsasının açılışından sonraki yarım saatte yaklaşık 61.350 $'dan 59.000 $ civarına düşerken 100 milyon doları aşan kaldıraçlı uzun pozisyon tasfiye edildi; kısa pozisyonlarda bu rakam yaklaşık 8 milyon dolardı",
+            "id": "Kartu fakta: pada Jumat pagi, 27 November 2026, lebih dari US$100 juta posisi long bitcoin dengan leverage dilikuidasi, dibandingkan sekitar US$8 juta posisi short, saat bitcoin turun dari sekitar US$61.350 ke dekat US$59.000 dalam setengah jam setelah bursa saham AS dibuka",
+            "ja": "ファクトカード：2026年11月27日（金）朝、米国株式市場の取引開始から30分でビットコインが約61,350ドルから59,000ドル近くまで下落し、レバレッジをかけたロング（買い）ポジション1億ドル超が清算された。ショート（売り）は約800万ドル",
+            "ko": "팩트 카드: 2026년 11월 27일(금) 아침 미국 증시 개장 후 30분 동안 비트코인이 약 61,350달러에서 59,000달러 부근까지 밀리면서 레버리지 롱 포지션 1억 달러 이상이 청산됐다. 숏 포지션 청산은 약 800만 달러",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="CoinGlass data cited by CoinMarketCap, Nov. 27, 2026")},
+    ]
+
+
+def build_open_brl():
+    d = OUT / OPENBRL_SLUG
+    card = make_fact_card(
+        d / "fact-open-brl-one-real-one-token",
+        label="Open BRL · B3 and six financial firms",
+        big="R$1 = 1 Open BRL",
+        sub="Banco B3 would issue the token and hold one real in reserve for each unit, convertible back into reais at any time. Planned start: first quarter of 2027.",
+        footer="Source: B3 press release; Valor Econômico, Nov. 27, 2026",
+    )
+    tl = make_timeline_card(
+        d / "timeline-open-brl-road-to-launch",
+        "Road to Open BRL",
+        [
+            ("Feb. 2026", "Central bank crypto rules take effect", (96, 165, 250)),
+            ("About Aug.", "B3 and the banks begin talks", (96, 165, 250)),
+            ("Nov. 27", "Seven firms announce Open BRL", ORANGE),
+            ("Q1 2027", "Planned start of operations", GREEN),
+        ],
+        footer="Sources: B3; Valor Econômico; CoinDesk, Nov. 27, 2026",
+        margin=150, wrap_w=220,
+    )
+    return [
+        {"id": "fact", "file": card.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Fact card: one Brazilian real equals one Open BRL. Banco B3 would issue the token and hold one real in reserve for each unit, convertible back into reais at any time; the planned start is the first quarter of 2027", {
+            "es": "Tarjeta: un real brasileño equivale a un Open BRL. Banco B3 emitiría el token y mantendría un real en reserva por cada unidad, convertible de nuevo en reales en cualquier momento; el inicio previsto es el primer trimestre de 2027",
+            "pt": "Cartão: um real equivale a um Open BRL. O Banco B3 emitiria o token e manteria um real em reserva para cada unidade, conversível de volta em reais a qualquer momento; o início previsto é o primeiro trimestre de 2027",
+            "fr": "Encadré : un réal brésilien égale un Open BRL. Banco B3 émettrait le jeton et conserverait un réal en réserve pour chaque unité, reconvertible en reais à tout moment ; démarrage prévu au premier trimestre 2027",
+            "de": "Faktenkarte: Ein brasilianischer Real entspricht einem Open BRL. Banco B3 würde den Token ausgeben und für jede Einheit einen Real als Reserve halten, jederzeit in Real zurücktauschbar; geplanter Start im ersten Quartal 2027",
+            "ru": "Карточка: один бразильский реал равен одному Open BRL. Banco B3 будет выпускать токен и держать по одному реалу в резерве на каждую единицу, с обменом обратно на реалы в любой момент; запуск запланирован на первый квартал 2027 года",
+            "tr": "Bilgi kartı: bir Brezilya reali bir Open BRL'ye eşit. Banco B3 tokeni ihraç edecek ve her birim için bir reali rezervde tutacak, istenildiği an reale geri çevrilebilecek; planlanan başlangıç 2027'nin ilk çeyreği",
+            "id": "Kartu fakta: satu real Brasil sama dengan satu Open BRL. Banco B3 akan menerbitkan token dan menyimpan satu real sebagai cadangan untuk setiap unit, yang bisa ditukar kembali ke real kapan saja; rencana mulai pada kuartal pertama 2027",
+            "ja": "ファクトカード：1ブラジルレアル＝1 Open BRL。Banco B3がトークンを発行し、1単位ごとに1レアルを準備金として保有、いつでもレアルに戻せる。稼働開始は2027年第1四半期の予定",
+            "ko": "팩트 카드: 1 브라질 헤알 = 1 Open BRL. Banco B3가 토큰을 발행하고 1단위마다 1헤알을 준비금으로 보유하며 언제든 헤알로 되바꿀 수 있다. 출범 예정 시기는 2027년 1분기",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="B3 press release; Valor Econômico, Nov. 27, 2026")},
+        {"id": "timeline", "file": tl.name, "w": 1200, "h": 630, "kind": "fact",
+         "alt": alts("Timeline: February 2026, Brazil's central bank crypto rules take effect; about August, B3 and the banks begin talks; Nov. 27, seven firms announce Open BRL; first quarter of 2027, planned start of operations", {
+            "es": "Cronología: febrero de 2026, entran en vigor las reglas cripto del banco central de Brasil; hacia agosto, B3 y los bancos empiezan a negociar; 27 de noviembre, siete empresas anuncian Open BRL; primer trimestre de 2027, inicio previsto de operaciones",
+            "pt": "Linha do tempo: fevereiro de 2026, entram em vigor as regras cripto do Banco Central; por volta de agosto, B3 e os bancos começam a conversar; 27 de novembro, sete empresas anunciam a Open BRL; primeiro trimestre de 2027, início previsto das operações",
+            "fr": "Chronologie : février 2026, entrée en vigueur des règles crypto de la banque centrale du Brésil ; vers août, début des discussions entre B3 et les banques ; 27 novembre, sept sociétés annoncent Open BRL ; premier trimestre 2027, démarrage prévu",
+            "de": "Zeitleiste: Februar 2026, die Krypto-Regeln der brasilianischen Zentralbank treten in Kraft; etwa August, B3 und die Banken beginnen Gespräche; 27. November, sieben Unternehmen kündigen Open BRL an; erstes Quartal 2027, geplanter Start",
+            "ru": "Хронология: февраль 2026 года, вступают в силу криптоправила центробанка Бразилии; примерно август, B3 и банки начинают переговоры; 27 ноября семь компаний объявляют об Open BRL; первый квартал 2027 года, планируемый запуск",
+            "tr": "Zaman çizelgesi: Şubat 2026'da Brezilya merkez bankasının kripto kuralları yürürlüğe giriyor; Ağustos civarında B3 ve bankalar görüşmelere başlıyor; 27 Kasım'da yedi şirket Open BRL'yi duyuruyor; 2027'nin ilk çeyreğinde faaliyetlerin başlaması planlanıyor",
+            "id": "Linimasa: Februari 2026, aturan kripto bank sentral Brasil berlaku; sekitar Agustus, B3 dan bank-bank mulai berunding; 27 November, tujuh perusahaan mengumumkan Open BRL; kuartal pertama 2027, rencana mulai beroperasi",
+            "ja": "年表：2026年2月、ブラジル中央銀行の暗号資産ルールが施行。8月ごろ、B3と銀行が協議を開始。11月27日、7社がOpen BRLを発表。2027年第1四半期、稼働開始予定",
+            "ko": "타임라인: 2026년 2월 브라질 중앙은행 암호화폐 규정 시행, 8월경 B3와 은행들 논의 시작, 11월 27일 7개사가 Open BRL 발표, 2027년 1분기 운영 시작 예정",
+         }),
+         "caption": tr_map(CAPTION_SOURCE, src="B3; Valor Econômico; CoinDesk, Nov. 27, 2026")},
+    ]
+
+
 BUILDERS = {
+    "bitcoin-slips-below-60000-as-stocks-rally-november-down-20-percent-nov-2026": "btc60slip",
+    "brazil-b3-six-banks-open-brl-real-stablecoin-nov-2026": "openbrl",
     "malaysia-halogen-shariah-bitcoin-etf-bursa-listing-dec-2-nov-2026": "halogenetf",
     "switzerland-first-spot-bitcoin-etf-bbit-six-350-btc-nov-2026": "bbitsix",
     "monero-falls-11-percent-kucoin-delists-xmr-nov-2026": "xmrkucoin",
@@ -6698,6 +6806,10 @@ def build_slug(slug: str, btc=None):
         figs = build_monero_kucoin()
     elif key == "bnbrestored":
         figs = build_binance_restored()
+    elif key == "btc60slip":
+        figs = build_btc60_slip()
+    elif key == "openbrl":
+        figs = build_open_brl()
     elif key == "btc60tg":
         figs = build_btc60_thanksgiving()
     elif key == "flnk":

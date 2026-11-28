@@ -1,0 +1,57 @@
+title: La bolsa de Brasil y seis grandes bancos preparan Open BRL, una stablecoin respaldada uno a uno por el real
+page_title: B3 y seis bancos de Brasil preparan la stablecoin Open BRL
+description: B3, operadora de la bolsa de Brasil, junto con Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander y XP, anunció el 27 de noviembre de 2026 Open BRL: una stablecoin respaldada uno a uno por reales brasileños que debería empezar a operar en el primer trimestre de 2027.
+og_description: Banco B3 emitiría el token y guardaría un real en reserva por cada Open BRL. La idea es un real digital común que los bancos rivales acepten. Así funcionaría.
+label: Negocios
+summary: B3 y seis de las mayores firmas financieras de Brasil preparan una stablecoin compartida llamada Open BRL. Cada token estaría respaldado por un real brasileño en manos de Banco B3, y la plataforma debería arrancar en el primer trimestre de 2027. Otras instituciones podrían sumarse desde el inicio.
+===
+
+La operadora de la bolsa de Brasil quiere dar a los bancos del país un único real digital que todos puedan usar. B3, junto con Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander y XP, anunció el viernes 27 de noviembre que está desarrollando una stablecoin llamada Open BRL y una infraestructura compartida para usarla, según un [comunicado](L1) de B3.
+
+Una stablecoin es una criptomoneda diseñada para mantener un valor estable siguiendo a una moneda tradicional. La mayoría de las grandes, como USDT y USDC, siguen al dólar estadounidense. Open BRL seguiría al real brasileño.
+
+!takeaways
+- Siete empresas están detrás de Open BRL: B3, Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander y XP.
+- Banco B3 emitiría el token y mantendría un real en reserva por cada unidad, de modo que se pueda volver a convertir en reales en cualquier momento, explicó Luiz Masagão, de B3, a Valor Econômico.
+- La plataforma debería empezar a operar en el primer trimestre de 2027, y otras instituciones financieras podrían sumarse desde el inicio.
+- Las empresas no dijeron cuánto dinero van a invertir en el proyecto.
+
+!figure:fact
+
+## Cómo funcionaría Open BRL
+
+La idea es sencilla: un cliente entrega R$1 y recibe un token Open BRL en una blockchain. Ese real queda depositado como respaldo, listo para volver a convertirse en efectivo, explicó a [Valor](L2) Masagão, vicepresidente de productos de B3. "Hay un factor de confianza importante en una stablecoin. Estoy garantizando que, por cada stablecoin emitida, tendré R$1 depositado", dijo.
+
+Al principio, B3 operará la tecnología y Banco B3 emitirá la stablecoin, mientras los bancos socios desarrollan integraciones y prueban cómo usarla, según el comunicado de B3. Un comité directivo definirá la gobernanza, las reglas de operación, la tecnología y los precios, informó Valor. Si el proyecto crece, los socios podrían convertirlo en una empresa totalmente independiente, dijo Masagão.
+
+!figure:timeline
+
+!mid_cta
+
+## Por qué bancos rivales quieren una moneda común
+
+Varios bancos brasileños ya tienen sus propios proyectos de stablecoin, y B3 también tenía uno. El problema, explicó Masagão, es que el token de un banco puede no ser aceptado por otro cuando hay que mover dinero entre ellos. Las conversaciones empezaron hace unos tres meses para resolverlo. Los bancos mantendrán sus tokens propios para uso interno, mientras que Open BRL pretende ser una moneda neutral que todos acepten, con B3 en el medio, informó [CoinDesk](L3).
+
+Un uso clave es la tokenización, es decir, registrar activos como acciones en una blockchain. B3 está construyendo una plataforma para acciones digitales, y esas operaciones necesitan una forma digital de dinero para liquidarse. "Cuando tokenizas, tokenizas los activos, pero necesitas algún medio de intercambio para que esa liquidación ocurra", dijo Masagão. Como el token vive en una blockchain, una transferencia entre billeteras también puede activar un contrato inteligente, un pequeño programa que completa automáticamente los siguientes pasos de una operación.
+
+## Un rincón pequeño de un mercado grande
+
+Los brasileños usan mucho las stablecoins, pero sobre todo las de dólares. Declararon 404.800 millones de reales en operaciones con stablecoins en 2025, cerca del 80% de toda la actividad cripto declarada, según la autoridad tributaria Receita Federal, informó CoinDesk. El USDT de Tether representó casi el 90% de ese volumen. Las monedas ligadas al real son mucho más pequeñas: la consultora Fintrender calculó en mayo que su oferta total superaba los 140 millones de dólares, repartida en más de 10 tokens.
+
+Masagão dijo que el proyecto se está construyendo dentro de las reglas vigentes. El banco central de Brasil ha sido informado, y el regulador de valores CVM lo apoya porque está ligado a la tokenización, dijo. Las reglas cripto del banco central, en vigor desde febrero, obligan a las plataformas cripto a obtener una licencia, pero los reguladores aún no han fijado reglas de licencia específicas para emisores locales de stablecoins, señaló CoinDesk.
+
+## Qué significa para los lectores
+
+Open BRL está pensada para el sistema financiero de Brasil, no para consumidores de otros países, y todavía no existe. Forma parte de una tendencia más amplia: bancos de todo el mundo están probando sus propias stablecoins en lugar de dejar ese mercado a las empresas cripto. Si te interesan las stablecoins en dólares que ya se usan, como USDC, puedes encontrarlas en plataformas reguladas como [Coinbase](REF). En casos poco frecuentes una stablecoin puede perder su paridad, así que revisa cómo está respaldada antes de usarla. Esto no es asesoramiento financiero.
+
+## Qué vigilar ahora
+
+- Qué otros bancos y corredoras se suman antes del lanzamiento previsto para el primer trimestre de 2027.
+- Qué blockchain usará Open BRL y si los clientes comunes podrán tenerla directamente.
+- Si los reguladores de Brasil publican reglas de licencia específicas para emisores de stablecoins.
+
+!soft: ¿Quieres ver el panorama completo? Lee por qué [la oferta de stablecoins se está reduciendo](/articles/stablecoin-supply-shrinks-usdt-tether-nov-2026).
+
+!end_cta
+
+!disclosure

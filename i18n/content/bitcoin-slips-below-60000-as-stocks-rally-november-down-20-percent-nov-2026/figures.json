@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chart",
+    "file": "chart-btc-hourly-nov-26-27-2026.webp",
+    "w": 1200,
+    "h": 675,
+    "kind": "chart",
+    "alt": {
+      "en": "Line chart of bitcoin's hourly closing price on Kraken from Nov. 26 to the evening of Nov. 27, 2026 (UTC): it holds around $60,500 on Nov. 26, rises above $61,500 early on Nov. 27, then drops below the $60,000 line around the U.S. stock market open and ends near $59,700",
+      "es": "Gráfico de líneas del cierre horario de bitcoin en Kraken del 26 a la tarde del 27 de noviembre de 2026 (UTC): se mantiene cerca de 60.500 dólares el 26, sube por encima de 61.500 a primera hora del 27, cae por debajo de la línea de 60.000 en torno a la apertura de la bolsa de EE. UU. y termina cerca de 59.700",
+      "pt": "Gráfico de linha do fechamento por hora do bitcoin na Kraken de 26 até a noite de 27 de novembro de 2026 (UTC): fica perto de US$ 60.500 no dia 26, sobe acima de US$ 61.500 no início do dia 27, cai abaixo da linha de US$ 60.000 perto da abertura da bolsa americana e termina perto de US$ 59.700",
+      "fr": "Courbe des clôtures horaires du bitcoin sur Kraken du 26 au soir du 27 novembre 2026 (UTC) : autour de 60 500 $ le 26, au-dessus de 61 500 $ tôt le 27, puis passage sous la ligne des 60 000 $ vers l'ouverture de Wall Street et fin vers 59 700 $",
+      "de": "Liniendiagramm der stündlichen Bitcoin-Schlusskurse bei Kraken vom 26. bis zum Abend des 27. November 2026 (UTC): um 60.500 $ am 26., früh am 27. über 61.500 $, dann rund um die Eröffnung der US-Börse unter die 60.000-$-Linie und Schluss bei etwa 59.700 $",
+      "ru": "Линейный график почасовых цен закрытия биткоина на Kraken с 26 по вечер 27 ноября 2026 года (UTC): около $60 500 26 ноября, рост выше $61 500 рано утром 27-го, затем падение ниже линии $60 000 около открытия фондового рынка США и около $59 700 в конце",
+      "tr": "Kraken'de 26 Kasım'dan 27 Kasım 2026 akşamına kadar bitcoin saatlik kapanış fiyatı çizgi grafiği (UTC): 26 Kasım'da 60.500 $ civarında, 27 Kasım sabahı erken saatlerde 61.500 $'ın üzerine çıkıyor, ABD borsasının açılışı civarında 60.000 $ çizgisinin altına iniyor ve yaklaşık 59.700 $'da bitiyor",
+      "id": "Grafik garis harga penutupan per jam bitcoin di Kraken dari 26 hingga malam 27 November 2026 (UTC): bertahan di sekitar US$60.500 pada 26 November, naik di atas US$61.500 pada awal 27 November, lalu turun di bawah garis US$60.000 sekitar pembukaan bursa saham AS dan berakhir di sekitar US$59.700",
+      "ja": "2026年11月26日〜27日夜（UTC）のKrakenにおけるビットコイン1時間足終値の折れ線グラフ：26日は約60,500ドル前後、27日早朝に61,500ドルを超えた後、米国株式市場の取引開始前後に60,000ドルのラインを割り込み、約59,700ドルで終了",
+      "ko": "2026년 11월 26일~27일 저녁(UTC) 크라켄 비트코인 시간별 종가 선 차트: 26일 약 60,500달러 부근, 27일 새벽 61,500달러 위로 올랐다가 미국 증시 개장 무렵 60,000달러 선 아래로 떨어져 약 59,700달러로 마감"
+    },
+    "caption": {
+      "en": "Chart: PlainBTC, data: Kraken BTC/USD hourly closes (UTC), Nov. 26 to Nov. 27, 2026",
+      "es": "Gráfico: PlainBTC, datos: Kraken BTC/USD hourly closes (UTC), Nov. 26 to Nov. 27, 2026",
+      "pt": "Gráfico: PlainBTC, dados: Kraken BTC/USD hourly closes (UTC), Nov. 26 to Nov. 27, 2026",
+      "fr": "Graphique : PlainBTC, données : Kraken BTC/USD hourly closes (UTC), Nov. 26 to Nov. 27, 2026",
+      "de": "Chart: PlainBTC, Daten: Kraken BTC/USD hourly closes (UTC), Nov. 26 to Nov. 27, 2026",
+      "ru": "График: PlainBTC, данные: Kraken BTC/USD hourly closes (UTC), Nov. 26 to Nov. 27, 2026",
+      "tr": "Grafik: PlainBTC, veri: Kraken BTC/USD hourly closes (UTC), Nov. 26 to Nov. 27, 2026",
+      "id": "Grafik: PlainBTC, data: Kraken BTC/USD hourly closes (UTC), Nov. 26 to Nov. 27, 2026",
+      "ja": "チャート: PlainBTC、データ: Kraken BTC/USD hourly closes (UTC), Nov. 26 to Nov. 27, 2026",
+      "ko": "차트: PlainBTC, 데이터: Kraken BTC/USD hourly closes (UTC), Nov. 26 to Nov. 27, 2026"
+    }
+  },
+  {
+    "id": "fact",
+    "file": "fact-btc-long-liquidations-100-million.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: on Friday morning, Nov. 27, 2026, more than $100 million in leveraged long bitcoin positions were liquidated, against about $8 million in shorts, as bitcoin slid from about $61,350 to near $59,000 in the half hour after the U.S. stock market opened",
+      "es": "Tarjeta: la mañana del viernes 27 de noviembre de 2026 se liquidaron más de 100 millones de dólares en posiciones largas apalancadas en bitcoin, frente a unos 8 millones en cortas, mientras bitcoin caía de unos 61.350 a cerca de 59.000 dólares en la media hora posterior a la apertura de la bolsa de EE. UU.",
+      "pt": "Cartão: na manhã de sexta-feira, 27 de novembro de 2026, mais de US$ 100 milhões em posições compradas alavancadas em bitcoin foram liquidadas, contra cerca de US$ 8 milhões em vendidas, enquanto o bitcoin caía de cerca de US$ 61.350 para perto de US$ 59.000 na meia hora após a abertura da bolsa americana",
+      "fr": "Encadré : le vendredi 27 novembre 2026 au matin, plus de 100 millions de dollars de positions longues à effet de levier sur le bitcoin ont été liquidés, contre environ 8 millions de positions courtes, alors que le bitcoin passait d'environ 61 350 $ à près de 59 000 $ dans la demi-heure suivant l'ouverture de Wall Street",
+      "de": "Faktenkarte: Am Freitagmorgen, 27. November 2026, wurden gehebelte Long-Positionen auf Bitcoin im Wert von mehr als 100 Millionen Dollar liquidiert, gegenüber rund 8 Millionen bei Shorts, während Bitcoin in der halben Stunde nach Eröffnung der US-Börse von etwa 61.350 $ auf fast 59.000 $ fiel",
+      "ru": "Карточка: утром в пятницу, 27 ноября 2026 года, были ликвидированы длинные позиции с плечом по биткоину более чем на $100 млн против примерно $8 млн коротких, пока биткоин за полчаса после открытия фондового рынка США падал примерно с $61 350 почти до $59 000",
+      "tr": "Bilgi kartı: 27 Kasım 2026 Cuma sabahı, bitcoin ABD borsasının açılışından sonraki yarım saatte yaklaşık 61.350 $'dan 59.000 $ civarına düşerken 100 milyon doları aşan kaldıraçlı uzun pozisyon tasfiye edildi; kısa pozisyonlarda bu rakam yaklaşık 8 milyon dolardı",
+      "id": "Kartu fakta: pada Jumat pagi, 27 November 2026, lebih dari US$100 juta posisi long bitcoin dengan leverage dilikuidasi, dibandingkan sekitar US$8 juta posisi short, saat bitcoin turun dari sekitar US$61.350 ke dekat US$59.000 dalam setengah jam setelah bursa saham AS dibuka",
+      "ja": "ファクトカード：2026年11月27日（金）朝、米国株式市場の取引開始から30分でビットコインが約61,350ドルから59,000ドル近くまで下落し、レバレッジをかけたロング（買い）ポジション1億ドル超が清算された。ショート（売り）は約800万ドル",
+      "ko": "팩트 카드: 2026년 11월 27일(금) 아침 미국 증시 개장 후 30분 동안 비트코인이 약 61,350달러에서 59,000달러 부근까지 밀리면서 레버리지 롱 포지션 1억 달러 이상이 청산됐다. 숏 포지션 청산은 약 800만 달러"
+    },
+    "caption": {
+      "en": "Source: CoinGlass data cited by CoinMarketCap, Nov. 27, 2026",
+      "es": "Fuente: CoinGlass data cited by CoinMarketCap, Nov. 27, 2026",
+      "pt": "Fonte: CoinGlass data cited by CoinMarketCap, Nov. 27, 2026",
+      "fr": "Source : CoinGlass data cited by CoinMarketCap, Nov. 27, 2026",
+      "de": "Quelle: CoinGlass data cited by CoinMarketCap, Nov. 27, 2026",
+      "ru": "Источник: CoinGlass data cited by CoinMarketCap, Nov. 27, 2026",
+      "tr": "Kaynak: CoinGlass data cited by CoinMarketCap, Nov. 27, 2026",
+      "id": "Sumber: CoinGlass data cited by CoinMarketCap, Nov. 27, 2026",
+      "ja": "出典: CoinGlass data cited by CoinMarketCap, Nov. 27, 2026",
+      "ko": "출처: CoinGlass data cited by CoinMarketCap, Nov. 27, 2026"
+    }
+  }
+]

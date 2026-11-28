@@ -1,0 +1,57 @@
+title: Brasiliens Börse und sechs Großbanken planen Open BRL, einen Stablecoin, der eins zu eins durch den Real gedeckt ist
+page_title: B3 und sechs Banken planen Stablecoin Open BRL
+description: B3, Betreiberin der brasilianischen Börse, sowie Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander und XP kündigten am 27. November 2026 Open BRL an: einen Stablecoin, der eins zu eins durch brasilianische Real gedeckt ist und im ersten Quartal 2027 starten soll.
+og_description: Banco B3 würde den Token ausgeben und für jeden Open BRL einen Real als Reserve halten. Ziel ist ein gemeinsamer digitaler Real, den konkurrierende Banken akzeptieren. So soll er funktionieren.
+label: Wirtschaft
+summary: B3 und sechs der größten Finanzhäuser Brasiliens planen einen gemeinsamen Stablecoin namens Open BRL. Jeder Token wäre durch einen Real gedeckt, den Banco B3 hält, und die Plattform soll im ersten Quartal 2027 starten. Weitere Institute könnten von Anfang an mitmachen.
+===
+
+Brasiliens Börsenbetreiberin will den Banken des Landes einen einzigen digitalen Real geben, den alle nutzen können. B3 kündigte zusammen mit Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander und XP am Freitag, dem 27. November, an, einen Stablecoin namens Open BRL und eine gemeinsame Infrastruktur dafür zu entwickeln, so eine [Mitteilung](L1) von B3.
+
+Ein Stablecoin ist eine Kryptowährung, die ihren Wert stabil halten soll, indem sie einer normalen Währung folgt. Die meisten großen, etwa USDT und USDC, folgen dem US-Dollar. Open BRL würde dem brasilianischen Real folgen.
+
+!takeaways
+- Sieben Unternehmen stehen hinter Open BRL: B3, Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander und XP.
+- Banco B3 würde den Token ausgeben und für jede Einheit einen Real als Reserve halten, sodass er jederzeit in Real zurückgetauscht werden kann, sagte Luiz Masagão von B3 der Zeitung Valor Econômico.
+- Die Plattform soll im ersten Quartal 2027 starten, und weitere Finanzinstitute könnten von Anfang an beitreten.
+- Wie viel Geld die Unternehmen in das Projekt stecken, sagten sie nicht.
+
+!figure:fact
+
+## So soll Open BRL funktionieren
+
+Die Idee ist einfach: Ein Kunde gibt R$1 ab und erhält einen Open-BRL-Token auf einer Blockchain. Dieser Real bleibt als Deckung hinterlegt und kann jederzeit wieder in Bargeld getauscht werden, erklärte Masagão, Vizepräsident für Produkte bei B3, gegenüber [Valor](L2). „Bei einem Stablecoin spielt Vertrauen eine wichtige Rolle. Ich garantiere, dass ich für jeden ausgegebenen Stablecoin R$1 hinterlegt habe“, sagte er.
+
+Zunächst wird B3 die Technik betreiben und Banco B3 den Stablecoin ausgeben, während die Partnerbanken Anbindungen entwickeln und Einsatzmöglichkeiten testen, so die Mitteilung von B3. Ein Lenkungsausschuss soll Governance, Betriebsregeln, Technik und Preise festlegen, berichtete Valor. Wächst das Projekt, könnten die Partner daraus ein völlig unabhängiges Unternehmen machen, sagte Masagão.
+
+!figure:timeline
+
+!mid_cta
+
+## Warum konkurrierende Banken eine gemeinsame Münze wollen
+
+Mehrere brasilianische Banken haben bereits eigene Stablecoin-Projekte, und auch B3 hatte eines. Das Problem, so Masagão: Der Token einer Bank wird von einer anderen Bank womöglich nicht akzeptiert, wenn Geld zwischen ihnen fließen soll. Um das zu lösen, begannen die Gespräche vor etwa drei Monaten. Die Banken behalten ihre eigenen Token für interne Zwecke, während Open BRL eine neutrale Münze sein soll, die alle akzeptieren, mit B3 in der Mitte, berichtete [CoinDesk](L3).
+
+Ein wichtiger Einsatzzweck ist die Tokenisierung, also die Erfassung von Vermögenswerten wie Aktien auf einer Blockchain. B3 baut eine Plattform für digitale Aktien, und diese Geschäfte brauchen eine digitale Form von Geld zur Abwicklung. „Wenn man tokenisiert, tokenisiert man die Vermögenswerte, aber man braucht ein Tauschmittel, damit die Abwicklung stattfinden kann“, sagte Masagão. Weil der Token auf einer Blockchain läuft, kann eine Überweisung zwischen Wallets auch einen Smart Contract auslösen, ein kleines Programm, das die nächsten Schritte eines Geschäfts automatisch erledigt.
+
+## Eine kleine Ecke eines großen Markts
+
+Brasilianer nutzen Stablecoins viel, aber vor allem Dollar-Stablecoins. Sie meldeten 2025 Stablecoin-Geschäfte über 404,8 Milliarden Real, etwa 80 % aller gemeldeten Krypto-Aktivität, laut der Steuerbehörde Receita Federal, berichtete CoinDesk. Tethers USDT machte fast 90 % dieses Volumens aus. An den Real gekoppelte Coins sind viel kleiner: Das Beratungsunternehmen Fintrender bezifferte ihr gesamtes Angebot im Mai auf über 140 Millionen Dollar, verteilt auf mehr als 10 Token.
+
+Masagão sagte, das Projekt werde im Rahmen der bestehenden Regeln aufgebaut. Die brasilianische Zentralbank sei informiert, und die Wertpapieraufsicht CVM unterstütze es wegen der Verbindung zur Tokenisierung. Die Krypto-Regeln der Zentralbank, die seit Februar gelten, verlangen von Krypto-Plattformen eine Lizenz, aber für lokale Stablecoin-Emittenten haben die Aufseher noch keine eigenen Lizenzregeln festgelegt, so CoinDesk.
+
+## Was das für Leser bedeutet
+
+Open BRL richtet sich an Brasiliens Finanzsystem, nicht an Privatkunden in anderen Ländern, und existiert noch nicht. Es gehört zu einem größeren Trend: Banken weltweit testen eigene Stablecoins, statt den Markt Kryptofirmen zu überlassen. Wer sich für bereits genutzte Dollar-Stablecoins wie USDC interessiert, findet sie auf regulierten Plattformen wie [Coinbase](REF). In seltenen Fällen kann ein Stablecoin seine Kopplung verlieren, prüfen Sie also vor der Nutzung, wie er gedeckt ist. Dies ist keine Finanzberatung.
+
+## Worauf es jetzt ankommt
+
+- Welche weiteren Banken und Broker vor dem geplanten Start im ersten Quartal 2027 beitreten.
+- Welche Blockchain Open BRL nutzt und ob normale Kunden den Token direkt halten können.
+- Ob Brasiliens Aufseher eigene Lizenzregeln für Stablecoin-Emittenten veröffentlichen.
+
+!soft: Sie wollen das große Bild? Lesen Sie, warum [das Stablecoin-Angebot schrumpft](/articles/stablecoin-supply-shrinks-usdt-tether-nov-2026).
+
+!end_cta
+
+!disclosure

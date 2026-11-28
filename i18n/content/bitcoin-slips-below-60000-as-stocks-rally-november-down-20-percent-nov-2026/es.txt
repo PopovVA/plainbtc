@@ -1,0 +1,58 @@
+title: Bitcoin vuelve a caer por debajo de 60.000 dólares mientras las bolsas suben tras Acción de Gracias
+page_title: Bitcoin cae por debajo de 60.000 dólares mientras suben las bolsas
+description: Bitcoin superó los 62.000 dólares a primera hora del viernes 27 de noviembre de 2026 y luego bajó a unos 58.700 tras la apertura de Wall Street, aunque el S&P 500 subió un 1,6%. Se liquidaron más de 100 millones de dólares en apuestas largas y bitcoin pierde cerca de un 20% en noviembre.
+og_description: Bitcoin subió por encima de 62.000 dólares de madrugada y luego cayó unos 3.000 dólares en la hora posterior a la apertura de Wall Street. Las acciones y el oro subieron. Esto es lo que pasó y lo que conviene vigilar.
+label: Mercado
+summary: Bitcoin tocó unos 62.100 dólares en Kraken a primera hora del viernes y luego cayó a unos 58.700 tras la apertura de la bolsa de EE. UU., aunque el S&P 500 ganó un 1,6%. Se liquidaron más de 100 millones de dólares en apuestas largas apalancadas y bitcoin va camino de su peor mes desde junio.
+===
+
+Bitcoin no pudo mantener su rebote festivo. La mayor criptomoneda superó los 62.000 dólares a primera hora del viernes 27 de noviembre y luego volvió a caer por debajo de 60.000 cuando las bolsas de EE. UU. reabrieron tras Acción de Gracias, informó [Bloomberg](L1). La caída llegó en un buen día para las acciones: el S&P 500 subió un 1,6%, según Bloomberg.
+
+En Kraken, el precio horario más alto de bitcoin fue de unos 62.100 dólares, hacia las 2 de la madrugada, hora del centro de EE. UU. El más bajo fue de unos 58.700, en la hora posterior a la apertura de Wall Street a las 8:30 hora del centro. A última hora de la tarde cotizaba cerca de 59.700 dólares.
+
+!takeaways
+- Bitcoin subió hasta un 2,3% y superó los 62.000 dólares, y luego tocó un mínimo de 24 horas de unos 58.760, informó Bloomberg.
+- La mayor parte de la caída fue rápida: bitcoin pasó de unos 61.350 a cerca de 59.000 dólares en la media hora posterior a la apertura en EE. UU., según datos de CoinMarketCap.
+- Las liquidaciones de posiciones largas en bitcoin superaron los 100 millones de dólares por la mañana, frente a unos 8 millones en posiciones cortas, según datos de CoinGlass citados por CoinMarketCap.
+- Bitcoin pierde alrededor de un 20% en noviembre, su mayor caída mensual desde junio, según datos de CoinDesk.
+
+!figure:chart
+
+## Acciones arriba, bitcoin abajo
+
+El viernes hubo media sesión en Wall Street. Las acciones subieron, impulsadas por empresas de infraestructura de inteligencia artificial y de chips de memoria, informó [CoinDesk](L3). La plata y el oro también subieron. CoinMarketCap dijo que el oro ganó alrededor de un 2% en el día.
+
+Bitcoin fue en la dirección contraria. Eso llama la atención porque muchos operadores tratan a bitcoin como un "activo de riesgo" que suele moverse junto a las acciones tecnológicas. Cuando las acciones suben y bitcoin baja, puede indicar presión vendedora dentro del propio mundo cripto más que un ánimo general del mercado. Otras criptomonedas también cayeron: ether bajó un 1,5%, hasta unos 1.667 dólares, según [CoinMarketCap](L2).
+
+## El apalancamiento hizo la caída más brusca
+
+Gran parte del movimiento vino de ventas forzadas. Muchos operadores de cripto usan dinero prestado, lo que se llama apalancamiento, para apostar a que los precios subirán (una posición "larga") o bajarán (una "corta"). Si el precio se mueve demasiado en su contra, la plataforma cierra la posición de forma automática. Eso es una liquidación, y añade más ventas (o compras) al mercado.
+
+El viernes por la mañana, quienes apostaban a precios más altos se llevaron la peor parte. Se liquidaron más de 100 millones de dólares en posiciones largas en bitcoin, frente a unos 8 millones en cortas, dijo CoinMarketCap citando a CoinGlass. Antes, ese mismo día, habían vencido opciones sobre bitcoin por unos 7.000 millones de dólares en la plataforma Deribit a las 08:00 UTC (las 2 de la madrugada, hora del centro), con los operadores en posición defensiva, según CoinDesk.
+
+!figure:fact
+
+!mid_cta
+
+## El ánimo sigue en "miedo extremo"
+
+El índice Fear and Greed de CoinMarketCap, un indicador de sentimiento basado en datos de mercado, estaba en 9 en una escala de 0 a 100, de lleno en "miedo extremo". El valor total de todas las criptomonedas rondaba los 2,06 billones de dólares, un 0,8% menos en 24 horas, según los datos del sitio.
+
+La presión también se nota en las empresas que guardan bitcoin. Las acciones de Strategy, la mayor tenedora corporativa de bitcoin, cotizaron el miércoles con un descuento récord frente al valor de los bitcoins que posee la compañía, con un mNAV de 0,88x, informó CoinMarketCap. Analistas de JPMorgan lo calificaron como señal de capitulación, el momento en que los inversores cansados se rinden y venden.
+
+## Qué significa para los principiantes
+
+Un día como este viernes recuerda que bitcoin puede moverse miles de dólares en menos de una hora, aunque el resto del mercado esté tranquilo. Si estás pensando en comprar, muchos principiantes reparten sus compras en el tiempo en lugar de intentar adivinar el suelo. Una plataforma regulada como [Coinbase](REF) permite empezar con una cantidad pequeña. Evita el apalancamiento hasta entender bien cómo funcionan las liquidaciones. Invierte solo lo que puedas permitirte perder. Esto no es asesoramiento financiero.
+
+## Qué vigilar ahora
+
+- El proveedor de índices MSCI saca a Strategy de dos índices de EE. UU. al cierre del lunes 30 de noviembre.
+- El informe de empleo de noviembre en EE. UU. se publica el viernes 4 de diciembre.
+- La Reserva Federal anuncia su próxima decisión de tipos de interés el 9 de diciembre.
+- Si bitcoin logra volver por encima de 60.000 dólares y mantenerse antes de que termine el mes, el lunes.
+
+!soft: ¿Te asustan los vaivenes? Lee [cuánto bitcoin debería comprar un principiante](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

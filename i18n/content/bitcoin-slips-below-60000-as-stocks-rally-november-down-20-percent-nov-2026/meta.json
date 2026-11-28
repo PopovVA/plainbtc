@@ -1,0 +1,20 @@
+{
+ "slug": "bitcoin-slips-below-60000-as-stocks-rally-november-down-20-percent-nov-2026",
+ "date": "2026-11-27",
+ "readtime": 5,
+ "primary_partner": "coinbase",
+ "related": [
+  "bitcoin-back-above-60000-thanksgiving-etf-outflows-seventh-day-nov-2026",
+  "msci-drops-strategy-bitcoin-falls-nvidia-nov-2026",
+  "bitcoin-volatility-liquidations-nov-2026",
+  "how-much-bitcoin-should-a-beginner-buy-dca",
+  "bitcoin-etf-vs-buying-bitcoin"
+ ],
+ "sources": [
+  {"url": "https://www.bloomberg.com/news/articles/2026-11-27/bitcoin-bounces-as-optimism-returns-to-markets-after-holiday", "title": "Bloomberg: Bitcoin bucks Wall Street rally as it slips back below $60,000", "date": "Nov 27, 2026"},
+  {"url": "https://coinmarketcap.com/academy/article/crypto-news-today-nov-27-2026", "title": "CoinMarketCap: Crypto news today, Nov. 27, 2026", "date": "Nov 27, 2026"},
+  {"url": "https://www.coindesk.com/markets/2026/11/27/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound", "title": "CoinDesk: Bitcoin on course to end seven-week losing streak while trailing stock rebound", "date": "Nov 27, 2026"},
+  {"url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "title": "Kraken public API: BTC/USD hourly OHLC data", "date": "Nov 27, 2026"}
+ ],
+ "disclosure_variant": "std"
+}

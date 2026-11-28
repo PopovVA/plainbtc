@@ -1,0 +1,58 @@
+title: Bitcoin, Şükran Günü sonrası hisseler yükselirken yeniden 60.000 doların altına indi
+page_title: Hisseler yükselirken Bitcoin 60.000 doların altına indi
+description: Bitcoin 27 Kasım 2026 Cuma sabahı erken saatlerde 62.000 doları aştı, ardından Wall Street açıldıktan sonra yaklaşık 58.700 dolara geriledi; S&P 500 ise %1,6 yükseldi. 100 milyon doları aşan uzun pozisyon tasfiye edildi ve bitcoin Kasım'da yaklaşık %20 değer kaybetti.
+og_description: Bitcoin gece 62.000 doların üzerine çıktı, ardından Wall Street açıldıktan sonraki bir saatte yaklaşık 3.000 dolar kaybetti. Hisseler ve altın yükseldi. Neler olduğunu ve bundan sonra nelere bakmak gerektiğini anlatıyoruz.
+label: Piyasa
+summary: Bitcoin Cuma sabahı erken saatlerde Kraken'de yaklaşık 62.100 dolara ulaştı, ABD borsası açıldıktan sonra ise yaklaşık 58.700 dolara düştü; oysa S&P 500 %1,6 yükseldi. 100 milyon doları aşan kaldıraçlı uzun pozisyon silindi ve bitcoin Haziran'dan bu yana en kötü ayına doğru gidiyor.
+===
+
+Bitcoin bayram toparlanmasını koruyamadı. En büyük kripto para 27 Kasım Cuma sabahı erken saatlerde 62.000 doları aştı, ardından ABD borsaları Şükran Günü sonrasında yeniden açılınca tekrar 60.000 doların altına indi, diye bildirdi [Bloomberg](L1). Düşüş hisseler için iyi geçen bir güne denk geldi: Bloomberg'e göre S&P 500 %1,6 yükseldi.
+
+Kraken'de bitcoinin en yüksek saatlik fiyatı, ABD merkez saatiyle gece 2 civarında yaklaşık 62.100 dolar oldu. En düşük seviye ise Wall Street'in merkez saatiyle 8:30'da açılmasının ardından gelen saatte yaklaşık 58.700 dolardı. Akşamüstü bitcoin 59.700 dolar civarında işlem görüyordu.
+
+!takeaways
+- Bitcoin %2,3'e kadar yükselerek 62.000 doları aştı, ardından yaklaşık 58.760 dolarla 24 saatin en düşük seviyesini gördü, diye bildirdi Bloomberg.
+- Düşüşün büyük kısmı hızlı yaşandı: CoinMarketCap verilerine göre bitcoin, ABD açılışından sonraki yarım saatte yaklaşık 61.350 dolardan 59.000 dolar civarına indi.
+- CoinMarketCap'in aktardığı CoinGlass verilerine göre sabah saatlerinde bitcoin uzun pozisyon tasfiyeleri 100 milyon doları aştı; kısa pozisyonlarda bu rakam yaklaşık 8 milyon dolardı.
+- CoinDesk verilerine göre bitcoin Kasım'da yaklaşık %20 düştü; bu, Haziran'dan bu yana en büyük aylık kayıp.
+
+!figure:chart
+
+## Hisseler yukarı, bitcoin aşağı
+
+Cuma günü Wall Street'te yarım gün işlem yapıldı. Hisseler, yapay zekâ altyapısı ve bellek çipi şirketlerinin öncülüğünde yükseldi, diye bildirdi [CoinDesk](L3). Gümüş ve altın da yükseldi. CoinMarketCap'e göre altın gün içinde yaklaşık %2 değer kazandı.
+
+Bitcoin ise ters yöne gitti. Bu dikkat çekici, çünkü birçok yatırımcı bitcoini genellikle teknoloji hisseleriyle birlikte hareket eden bir "riskli varlık" olarak görüyor. Hisseler yükselirken bitcoin düşüyorsa, bu genel piyasa havasından çok kripto piyasasının kendi içindeki satış baskısına işaret edebilir. Diğer kripto paralar da düştü: [CoinMarketCap](L2) verilerine göre ether %1,5 gerileyerek yaklaşık 1.667 dolara indi.
+
+## Kaldıraç düşüşü sertleştirdi
+
+Hareketin büyük kısmı zorunlu satışlardan geldi. Birçok kripto yatırımcısı, fiyatın yükseleceğine ("uzun" pozisyon) ya da düşeceğine ("kısa" pozisyon) bahis oynamak için kaldıraç denen borç parayı kullanıyor. Fiyat aleyhlerine fazla hareket ederse borsa pozisyonu otomatik olarak kapatıyor. Buna tasfiye deniyor ve piyasaya ek satış (ya da alış) getiriyor.
+
+Cuma sabahı en çok yükselişe oynayanlar zarar gördü. CoinMarketCap'in CoinGlass'a dayanarak aktardığına göre 100 milyon doları aşan bitcoin uzun pozisyonu tasfiye edildi; kısa pozisyonlarda bu tutar yaklaşık 8 milyon dolardı. CoinDesk'e göre gün içinde daha önce, 08:00 UTC'de (merkez saatiyle gece 2) Deribit borsasında yaklaşık 7 milyar dolarlık bitcoin opsiyonunun vadesi dolmuştu ve yatırımcılar savunmacı pozisyondaydı.
+
+!figure:fact
+
+!mid_cta
+
+## Piyasa havası hâlâ "aşırı korku"
+
+Piyasa verilerinden hesaplanan bir duyarlılık göstergesi olan CoinMarketCap Fear and Greed Index, 0 ile 100 arasındaki ölçekte 9'daydı, yani tam "aşırı korku" bölgesindeydi. Sitenin verilerine göre tüm kripto paraların toplam değeri yaklaşık 2,06 trilyon dolardı ve 24 saatte %0,8 azaldı.
+
+Baskı, bitcoin tutan şirketlerde de görülüyor. En büyük kurumsal bitcoin sahibi Strategy'nin hisseleri çarşamba günü, şirketin sahip olduğu bitcoinlerin değerine göre rekor bir iskontoyla işlem gördü ve mNAV 0,88x oldu, diye bildirdi CoinMarketCap. JPMorgan analistleri bunu, yorgun yatırımcıların pes edip sattığı an anlamına gelen bir teslimiyet işareti olarak nitelendirdi.
+
+## Yeni başlayanlar için ne anlama geliyor
+
+Bu cuma gibi bir gün, piyasanın geri kalanı sakin olsa bile bitcoinin bir saatten kısa sürede binlerce dolar oynayabileceğini hatırlatıyor. Almayı düşünüyorsanız, birçok yeni başlayan dibi yakalamaya çalışmak yerine alımlarını zamana yayıyor. [Coinbase](REF) gibi düzenlemeye tabi bir platformla küçük bir tutarla başlayabilirsiniz. Tasfiyelerin nasıl işlediğini tam olarak anlayana kadar kaldıraçtan uzak durun. Yalnızca kaybetmeyi göze alabileceğiniz kadar yatırım yapın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra nelere bakmalı
+
+- Endeks sağlayıcısı MSCI, Strategy'yi 30 Kasım Pazartesi kapanışında iki ABD endeksinden çıkarıyor.
+- ABD'nin Kasım ayı istihdam raporu 4 Aralık Cuma günü açıklanacak.
+- ABD Merkez Bankası (Fed) bir sonraki faiz kararını 9 Aralık'ta açıklayacak.
+- Bitcoinin pazartesi ay bitmeden yeniden 60.000 doların üzerine çıkıp orada kalıp kalamayacağı.
+
+!soft: Dalgalanmalar sizi kaygılandırıyor mu? [Yeni başlayan biri ne kadar bitcoin almalı](/articles/how-much-bitcoin-should-a-beginner-buy-dca) yazımızı okuyun.
+
+!end_cta
+
+!disclosure

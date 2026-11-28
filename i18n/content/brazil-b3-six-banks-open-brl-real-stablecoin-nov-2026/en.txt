@@ -1,0 +1,57 @@
+title: Brazil's stock exchange and six big banks plan Open BRL, a stablecoin backed one-to-one by the real
+page_title: Brazil's B3 and six banks plan Open BRL stablecoin
+description: B3, Brazil's stock exchange operator, and Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander and XP announced Open BRL on Nov. 27, 2026: a stablecoin backed one-to-one by Brazilian reais, expected to start operating in the first quarter of 2027.
+og_description: Banco B3 would issue the token and hold one real in reserve for each Open BRL. The goal is one shared digital real that rival banks all accept. Here is how it would work.
+label: Business
+summary: B3 and six of Brazil's biggest financial firms plan a shared stablecoin called Open BRL. Each token would be backed by one Brazilian real held by Banco B3, and the platform is expected to start in the first quarter of 2027. Other institutions could join from the start.
+===
+
+Brazil's stock exchange operator wants to give the country's banks one digital real they can all use. B3, together with Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander and XP, announced on Friday, Nov. 27, that they are developing a stablecoin called Open BRL and shared infrastructure to use it, B3 said in a [press release](L1).
+
+A stablecoin is a cryptocurrency designed to keep a steady value by tracking a regular currency. Most of the big ones, like USDT and USDC, track the U.S. dollar. Open BRL would track the Brazilian real.
+
+!takeaways
+- Seven firms are behind Open BRL: B3, Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander and XP.
+- Banco B3 would issue the token and hold one real in reserve for each unit, so holders can convert back into reais at any time, B3's Luiz Masagão told Valor Econômico.
+- The platform is expected to start operating in the first quarter of 2027, and other financial institutions could join from the start.
+- The firms did not say how much money they are putting into the project.
+
+!figure:fact
+
+## How Open BRL would work
+
+The idea is simple: a customer hands over R$1 and receives one Open BRL token on a blockchain. That real is held on deposit as backing, ready to be turned back into cash, Masagão, B3's vice president of products, told [Valor](L2). "There is an important trust factor in a stablecoin. I am guaranteeing that for every stablecoin issued, I will have R$1 on deposit," he said.
+
+At first, B3 will run the technology and Banco B3 will issue the stablecoin, while the partner banks build connections and test how they can use it, according to B3's release. A steering committee will set governance, operating rules, technology and pricing, Valor reported. If the project grows, the partners may turn it into a fully independent company, Masagão said.
+
+!figure:timeline
+
+!mid_cta
+
+## Why rival banks want a shared coin
+
+Several Brazilian banks already have their own stablecoin projects, and B3 had one too. The problem, Masagão explained, is that one bank's token may not be accepted by another bank when money needs to move between them. Talks started about three months ago to fix that. The banks will keep their in-house tokens for internal use, while Open BRL is meant to be a neutral coin that everyone accepts, with B3 in the middle, [CoinDesk](L3) reported.
+
+A big use case is tokenization, which means recording assets like shares on a blockchain. B3 is building a platform for digital shares, and those trades need a digital form of money to settle. "When you tokenize, you tokenize the assets, but you need some medium of exchange for that settlement to take place," Masagão said. Because the token lives on a blockchain, a transfer between wallets can also trigger a smart contract, a small program that completes the next steps of a deal automatically.
+
+## A small corner of a big market
+
+Brazilians use stablecoins a lot, but mostly dollar ones. They declared 404.8 billion reais in stablecoin trades in 2025, about 80% of all reported crypto activity, according to the tax authority Receita Federal, CoinDesk reported. Tether's USDT made up nearly 90% of that volume. Coins pegged to the real are much smaller: consultancy Fintrender put their total supply above $140 million in May, across more than 10 tokens.
+
+Masagão said the project is being built within the existing rules. Brazil's central bank has been informed, and the securities regulator CVM supports it because it ties into tokenization, he said. The central bank's crypto rules, which took effect in February, require crypto platforms to get a license, but regulators have not yet set separate licensing rules for local stablecoin issuers, CoinDesk noted.
+
+## What it means for U.S. readers
+
+Open BRL is aimed at Brazil's financial system, not at U.S. consumers, and it does not exist yet. It is part of a wider trend: banks around the world are testing their own stablecoins instead of leaving the market to crypto companies. If you are curious about the dollar stablecoins Americans already use, such as USDC, you can buy them on a regulated U.S. exchange like [Coinbase](REF). Stablecoins can lose their peg in rare cases, so read how a coin is backed before using it. This is not financial advice.
+
+## What to watch next
+
+- Which other banks and brokers sign up before the planned launch in the first quarter of 2027.
+- Which blockchain Open BRL will use, and whether ordinary customers will be able to hold it directly.
+- Whether Brazil's regulators publish specific licensing rules for stablecoin issuers.
+
+!soft: Want the bigger picture? Read why [stablecoin supply is shrinking](/articles/stablecoin-supply-shrinks-usdt-tether-nov-2026).
+
+!end_cta
+
+!disclosure

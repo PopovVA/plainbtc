@@ -1,0 +1,57 @@
+title: Bolsa brasileira e seis grandes bancos preparam a Open BRL, stablecoin lastreada um para um em reais
+page_title: B3 e seis bancos preparam a stablecoin Open BRL
+description: A B3, operadora da bolsa brasileira, e Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander e XP anunciaram em 27 de novembro de 2026 a Open BRL: uma stablecoin lastreada um para um em reais, com início das operações previsto para o primeiro trimestre de 2027.
+og_description: O Banco B3 emitiria o token e manteria R$ 1 em reserva para cada Open BRL. A ideia é ter um real digital comum que bancos concorrentes aceitem. Veja como funcionaria.
+label: Negócios
+summary: A B3 e seis das maiores instituições financeiras do Brasil preparam uma stablecoin compartilhada chamada Open BRL. Cada token seria lastreado por R$ 1 mantido pelo Banco B3, e a plataforma deve começar a operar no primeiro trimestre de 2027. Outras instituições poderão aderir desde o início.
+===
+
+A operadora da bolsa brasileira quer dar aos bancos do país um único real digital que todos possam usar. A B3, ao lado de Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander e XP, anunciou na sexta-feira, 27 de novembro, que está desenvolvendo uma stablecoin chamada Open BRL e uma infraestrutura compartilhada para usá-la, segundo [comunicado](L1) da B3.
+
+Uma stablecoin é uma criptomoeda criada para manter um valor estável acompanhando uma moeda tradicional. A maioria das grandes, como USDT e USDC, acompanha o dólar americano. A Open BRL acompanharia o real.
+
+!takeaways
+- Sete empresas estão por trás da Open BRL: B3, Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander e XP.
+- O Banco B3 emitiria o token e manteria R$ 1 em reserva para cada unidade, de modo que ela possa ser convertida de volta em reais a qualquer momento, disse Luiz Masagão, da B3, ao Valor Econômico.
+- A plataforma deve começar a operar no primeiro trimestre de 2027, e outras instituições financeiras poderão aderir desde o início.
+- As empresas não informaram quanto vão investir no projeto.
+
+!figure:fact
+
+## Como a Open BRL funcionaria
+
+A ideia é simples: o cliente entrega R$ 1 e recebe um token Open BRL em uma blockchain. Esse real fica depositado como lastro, pronto para voltar a ser dinheiro, explicou ao [Valor](L2) Masagão, vice-presidente de produtos da B3. "Tem um fator de confiança importante numa stablecoin. Eu estou garantindo que, para cada stablecoin emitida, eu vou ter R$ 1 depositado", afirmou.
+
+Na etapa inicial, a B3 cuidará da operação tecnológica e o Banco B3 emitirá a stablecoin, enquanto os bancos parceiros desenvolvem integrações e avaliam casos de uso, segundo o comunicado da B3. Um comitê gestor vai definir governança, regras de operação, tecnologia e preços, informou o Valor. Se o projeto crescer, os parceiros podem transformá-lo em uma empresa totalmente independente, disse Masagão.
+
+!figure:timeline
+
+!mid_cta
+
+## Por que bancos concorrentes querem uma moeda comum
+
+Vários bancos brasileiros já têm seus próprios projetos de stablecoin, e a B3 também tinha o seu. O problema, explicou Masagão, é que o token de um banco pode não ser aceito por outro quando é preciso movimentar dinheiro entre eles. As conversas começaram há cerca de três meses para resolver isso. Os bancos vão manter seus tokens próprios para uso interno, enquanto a Open BRL pretende ser uma moeda neutra aceita por todos, com a B3 no meio, informou a [CoinDesk](L3).
+
+Um uso importante é a tokenização, ou seja, registrar ativos como ações em uma blockchain. A B3 está construindo uma plataforma para ações digitais, e essas negociações precisam de uma forma digital de dinheiro para a liquidação. "Quando você tokeniza, você tokeniza os ativos, mas você precisa ter alguma moeda de troca para que essa liquidação aconteça", disse Masagão. Como o token circula em uma blockchain, uma transferência entre carteiras também pode acionar um contrato inteligente, um pequeno programa que executa automaticamente as próximas etapas de uma operação.
+
+## Um canto pequeno de um mercado grande
+
+Os brasileiros usam muito stablecoins, mas principalmente as atreladas ao dólar. Eles declararam R$ 404,8 bilhões em operações com stablecoins em 2025, cerca de 80% de toda a atividade cripto declarada, segundo a Receita Federal, informou a CoinDesk. O USDT, da Tether, respondeu por quase 90% desse volume. As moedas atreladas ao real são bem menores: a consultoria Fintrender estimou em maio que a oferta total delas passava de US$ 140 milhões, em mais de 10 tokens.
+
+Masagão disse que o projeto está sendo construído dentro das regras atuais. O Banco Central foi informado, e a CVM apoia a iniciativa por causa da ligação com a tokenização, segundo ele. As regras cripto do Banco Central, em vigor desde fevereiro, exigem que as plataformas cripto tenham licença, mas os reguladores ainda não definiram regras de licenciamento específicas para emissores locais de stablecoins, observou a CoinDesk.
+
+## O que isso significa para os leitores
+
+A Open BRL é voltada ao sistema financeiro brasileiro e ainda não existe; por enquanto, não há como comprá-la. Ela faz parte de uma tendência maior: bancos do mundo todo estão testando suas próprias stablecoins em vez de deixar esse mercado só para empresas cripto. Se você tem curiosidade sobre stablecoins em dólar que já circulam, como a USDC, elas estão disponíveis em plataformas reguladas como a [Coinbase](REF). Em casos raros uma stablecoin pode perder a paridade, então verifique como ela é lastreada antes de usar. Isto não é aconselhamento financeiro.
+
+## O que acompanhar
+
+- Quais outros bancos e corretoras vão aderir antes do lançamento previsto para o primeiro trimestre de 2027.
+- Qual blockchain a Open BRL vai usar e se clientes comuns poderão tê-la diretamente.
+- Se os reguladores brasileiros vão publicar regras de licenciamento específicas para emissores de stablecoins.
+
+!soft: Quer ver o quadro geral? Leia por que [a oferta de stablecoins está encolhendo](/articles/stablecoin-supply-shrinks-usdt-tether-nov-2026).
+
+!end_cta
+
+!disclosure

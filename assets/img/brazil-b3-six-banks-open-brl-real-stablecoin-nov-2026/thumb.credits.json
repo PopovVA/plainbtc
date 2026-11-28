@@ -1,0 +1,40 @@
+{
+  "kind": "composite",
+  "sources": [
+    {
+      "file": "Flag_of_Brazil.svg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg",
+      "credit": "Wikimedia Commons"
+    },
+    {
+      "file": "B3_logo.svg",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:B3_logo.svg",
+      "credit": "B3"
+    },
+    {
+      "file": "B3 press release: Bolsa e seis instituições financeiras se unem para criar stablecoin em reais (Nov. 27, 2026)",
+      "license": "Facts cited",
+      "url": "https://www.b3.com.br/pt_br/noticias/bolsa-e-seis-instituicoes-financeiras-se-unem-para-criar-stablecoin-em-reais.htm",
+      "credit": "B3"
+    },
+    {
+      "file": "Valor International: B3 and banks team up to launch real-backed stablecoin",
+      "license": "Facts cited",
+      "url": "https://valorinternational.globo.com/markets/news/2026/11/27/b3-and-banks-team-up-to-launch-real-backed-stablecoin.ghtml",
+      "credit": "Valor Econômico"
+    }
+  ],
+  "note": "Editorial composite; logo for identification only; no endorsement by B3 or the participating banks implied.",
+  "slug": "brazil-b3-six-banks-open-brl-real-stablecoin-nov-2026",
+  "generated": "2026-11-28T00:03Z",
+  "size": [
+    640,
+    360
+  ],
+  "files": [
+    "thumb.webp",
+    "thumb.jpg"
+  ]
+}

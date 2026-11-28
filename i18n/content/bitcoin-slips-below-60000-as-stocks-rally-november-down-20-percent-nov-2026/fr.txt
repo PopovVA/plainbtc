@@ -1,0 +1,58 @@
+title: Le bitcoin repasse sous les 60 000 dollars alors que les actions montent après Thanksgiving
+page_title: Le bitcoin repasse sous 60 000 dollars, les actions montent
+description: Le bitcoin a dépassé 62 000 dollars tôt le vendredi 27 novembre 2026, puis est tombé vers 58 700 dollars après l'ouverture de Wall Street, alors que le S&P 500 gagnait 1,6 %. Plus de 100 millions de dollars de paris à la hausse ont été liquidés, et le bitcoin recule d'environ 20 % en novembre.
+og_description: Le bitcoin est monté au-dessus de 62 000 dollars dans la nuit, puis a perdu environ 3 000 dollars dans l'heure suivant l'ouverture de Wall Street. Les actions et l'or ont progressé. Voici ce qui s'est passé et ce qu'il faut surveiller.
+label: Marchés
+summary: Le bitcoin a touché environ 62 100 dollars sur Kraken tôt vendredi, puis est tombé vers 58 700 dollars après l'ouverture de la Bourse américaine, alors que le S&P 500 gagnait 1,6 %. Plus de 100 millions de dollars de paris à la hausse avec effet de levier ont été liquidés, et le bitcoin se dirige vers son pire mois depuis juin.
+===
+
+Le bitcoin n'a pas réussi à conserver son rebond des fêtes. La première cryptomonnaie a dépassé 62 000 dollars tôt le vendredi 27 novembre, puis est repassée sous 60 000 dollars à la réouverture des marchés américains après Thanksgiving, a rapporté [Bloomberg](L1). La baisse est intervenue lors d'une bonne séance pour les actions : le S&P 500 a gagné 1,6 %, selon Bloomberg.
+
+Sur Kraken, le plus haut cours horaire du bitcoin a été d'environ 62 100 dollars, vers 2 h du matin, heure du centre des États-Unis. Le plus bas a été d'environ 58 700 dollars, dans l'heure suivant l'ouverture de Wall Street à 8 h 30, heure du centre. En fin d'après-midi, il s'échangeait près de 59 700 dollars.
+
+!takeaways
+- Le bitcoin a grimpé jusqu'à 2,3 % pour dépasser 62 000 dollars, puis a touché un plus bas sur 24 heures d'environ 58 760 dollars, selon Bloomberg.
+- L'essentiel de la baisse a été rapide : le bitcoin est passé d'environ 61 350 à près de 59 000 dollars dans la demi-heure suivant l'ouverture américaine, selon les données de CoinMarketCap.
+- Les liquidations de positions longues sur le bitcoin ont dépassé 100 millions de dollars dans la matinée, contre environ 8 millions pour les positions courtes, selon des données de CoinGlass citées par CoinMarketCap.
+- Le bitcoin recule d'environ 20 % en novembre, sa plus forte baisse mensuelle depuis juin, selon les données de CoinDesk.
+
+!figure:chart
+
+## Les actions montent, le bitcoin baisse
+
+Vendredi, Wall Street n'a ouvert qu'une demi-séance. Les actions ont progressé, portées par les valeurs des infrastructures d'intelligence artificielle et des puces mémoire, a rapporté [CoinDesk](L3). L'argent et l'or ont aussi grimpé. Selon CoinMarketCap, l'or a gagné environ 2 % sur la journée.
+
+Le bitcoin est allé dans l'autre sens. C'est notable, car beaucoup de traders considèrent le bitcoin comme un « actif risqué » qui évolue souvent avec les valeurs technologiques. Quand les actions montent et que le bitcoin baisse, cela peut signaler une pression vendeuse propre à la crypto plutôt qu'un sentiment général du marché. Les autres cryptomonnaies ont aussi reculé : l'ether a cédé 1,5 %, à environ 1 667 dollars, selon [CoinMarketCap](L2).
+
+## L'effet de levier a accentué la chute
+
+Une grande partie du mouvement est venue de ventes forcées. Beaucoup de traders crypto utilisent de l'argent emprunté, ce qu'on appelle l'effet de levier, pour parier sur une hausse (une position « longue ») ou une baisse (une position « courte »). Si le prix va trop loin dans le mauvais sens, la plateforme ferme automatiquement la position. C'est une liquidation, et elle ajoute des ventes (ou des achats) sur le marché.
+
+Vendredi matin, ce sont les parieurs à la hausse qui ont le plus souffert. Plus de 100 millions de dollars de positions longues sur le bitcoin ont été liquidés, contre environ 8 millions de positions courtes, a indiqué CoinMarketCap en citant CoinGlass. Plus tôt dans la journée, environ 7 milliards de dollars d'options sur le bitcoin étaient arrivés à échéance sur la plateforme Deribit à 08:00 UTC (2 h du matin, heure du centre), avec des traders positionnés de manière défensive, selon CoinDesk.
+
+!figure:fact
+
+!mid_cta
+
+## Le moral reste à la « peur extrême »
+
+L'indice Fear and Greed de CoinMarketCap, un baromètre du sentiment construit à partir de données de marché, était à 9 sur une échelle de 0 à 100, en pleine « peur extrême ». La valeur totale de toutes les cryptomonnaies était d'environ 2 060 milliards de dollars, en baisse de 0,8 % sur 24 heures, selon les données du site.
+
+La pression se voit aussi chez les entreprises qui détiennent du bitcoin. L'action Strategy, premier détenteur de bitcoin parmi les entreprises, s'est échangée mercredi avec une décote record par rapport à la valeur des bitcoins que possède la société, avec un mNAV de 0,88x, a rapporté CoinMarketCap. Des analystes de JPMorgan y ont vu un signe de capitulation, le moment où des investisseurs épuisés abandonnent et vendent.
+
+## Ce que cela signifie pour les débutants
+
+Une journée comme ce vendredi rappelle que le bitcoin peut varier de plusieurs milliers de dollars en moins d'une heure, même quand le reste du marché est calme. Si vous envisagez d'acheter, beaucoup de débutants étalent leurs achats dans le temps au lieu d'essayer de deviner le point bas. Une plateforme réglementée comme [Coinbase](REF) permet de commencer avec une petite somme. Évitez l'effet de levier tant que vous ne comprenez pas bien le fonctionnement des liquidations. N'investissez que ce que vous pouvez vous permettre de perdre. Ceci n'est pas un conseil financier.
+
+## À surveiller
+
+- Le fournisseur d'indices MSCI retire Strategy de deux indices américains à la clôture du lundi 30 novembre.
+- Le rapport sur l'emploi américain de novembre est attendu le vendredi 4 décembre.
+- La Réserve fédérale annonce sa prochaine décision sur les taux le 9 décembre.
+- Si le bitcoin parvient à repasser au-dessus de 60 000 dollars et à s'y maintenir avant la fin du mois, lundi.
+
+!soft: Les montagnes russes vous inquiètent ? Lisez [combien de bitcoin un débutant devrait acheter](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

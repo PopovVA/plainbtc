@@ -1,0 +1,57 @@
+title: Brezilya borsası ve altı büyük banka, reale bire bir bağlı stablecoin Open BRL'yi hazırlıyor
+page_title: B3 ve altı Brezilya bankası Open BRL stablecoin'ini hazırlıyor
+description: Brezilya borsasının işletmecisi B3 ile Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander ve XP, 27 Kasım 2026'da Open BRL'yi duyurdu: Brezilya reali ile bire bir desteklenen ve 2027'nin ilk çeyreğinde faaliyete geçmesi beklenen bir stablecoin.
+og_description: Banco B3 tokeni ihraç edecek ve her Open BRL için bir reali rezervde tutacak. Amaç, rakip bankaların hepsinin kabul edeceği ortak bir dijital real. İşte nasıl çalışacağı.
+label: İş Dünyası
+summary: B3 ve Brezilya'nın en büyük altı finans kuruluşu, Open BRL adlı ortak bir stablecoin hazırlıyor. Her token, Banco B3'ün tuttuğu bir real ile desteklenecek ve platformun 2027'nin ilk çeyreğinde başlaması bekleniyor. Diğer kurumlar da en baştan katılabilecek.
+===
+
+Brezilya borsasının işletmecisi, ülkedeki bankalara hepsinin kullanabileceği tek bir dijital real sunmak istiyor. B3'ün [basın açıklamasına](L1) göre şirket, Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander ve XP ile birlikte 27 Kasım Cuma günü Open BRL adlı bir stablecoin ve bunu kullanmak için ortak bir altyapı geliştirdiklerini duyurdu.
+
+Stablecoin, normal bir para birimini takip ederek değerini sabit tutmak üzere tasarlanmış bir kripto paradır. USDT ve USDC gibi büyüklerin çoğu ABD dolarını takip ediyor. Open BRL ise Brezilya realini takip edecek.
+
+!takeaways
+- Open BRL'nin arkasında yedi şirket var: B3, Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander ve XP.
+- B3'ten Luiz Masagão'nun Valor Econômico'ya anlattığına göre Banco B3 tokeni ihraç edecek ve her birim için bir reali rezervde tutacak; böylece token istenildiği an yeniden reale çevrilebilecek.
+- Platformun 2027'nin ilk çeyreğinde faaliyete geçmesi bekleniyor ve diğer finans kuruluşları en baştan katılabilecek.
+- Şirketler projeye ne kadar para ayırdıklarını açıklamadı.
+
+!figure:fact
+
+## Open BRL nasıl çalışacak
+
+Fikir basit: Müşteri R$1 veriyor ve bir blokzincirde bir Open BRL tokeni alıyor. Bu real, teminat olarak mevduatta tutuluyor ve yeniden nakde çevrilmeye hazır bekliyor, diye açıkladı B3'ün ürünlerden sorumlu başkan yardımcısı Masagão [Valor](L2)'a. "Bir stablecoin'de önemli bir güven unsuru var. İhraç edilen her stablecoin için R$1'in mevduatta olacağını garanti ediyorum" dedi.
+
+B3'ün açıklamasına göre ilk aşamada teknolojiyi B3 işletecek, stablecoin'i Banco B3 ihraç edecek, ortak bankalar ise entegrasyonlar geliştirip kullanım alanlarını test edecek. Valor'un haberine göre bir yönlendirme komitesi yönetişimi, işletim kurallarını, teknolojiyi ve fiyatlamayı belirleyecek. Masagão, proje büyürse ortakların onu tamamen bağımsız bir şirkete dönüştürebileceğini söyledi.
+
+!figure:timeline
+
+!mid_cta
+
+## Rakip bankalar neden ortak bir coin istiyor
+
+Brezilya'daki birkaç bankanın zaten kendi stablecoin projesi var, B3'ün de bir projesi vardı. Masagão'nun açıkladığı sorun şu: Bankalar arasında para aktarılması gerektiğinde bir bankanın tokeni diğer banka tarafından kabul edilmeyebiliyor. Bunu çözmek için görüşmeler yaklaşık üç ay önce başladı. [CoinDesk](L3)'in haberine göre bankalar kendi tokenlerini iç kullanım için koruyacak, Open BRL ise ortada B3'ün bulunduğu ve herkesin kabul ettiği tarafsız bir coin olacak.
+
+Önemli bir kullanım alanı tokenizasyon, yani hisse gibi varlıkların bir blokzincire kaydedilmesi. B3 dijital hisseler için bir platform kuruyor ve bu işlemlerin takası için dijital bir para biçimi gerekiyor. "Tokenize ettiğinizde varlıkları tokenize edersiniz, ama bu takasın gerçekleşmesi için bir değişim aracına ihtiyacınız var" dedi Masagão. Token bir blokzincirde yaşadığı için cüzdanlar arası bir transfer, bir işlemin sonraki adımlarını otomatik tamamlayan küçük bir program olan akıllı sözleşmeyi de tetikleyebilir.
+
+## Büyük bir pazarın küçük bir köşesi
+
+Brezilyalılar stablecoin'leri çok kullanıyor, ama çoğunlukla dolar bazlı olanları. CoinDesk'in vergi idaresi Receita Federal'e dayandırdığı habere göre Brezilyalılar 2025'te 404,8 milyar reallik stablecoin işlemi beyan etti; bu, beyan edilen tüm kripto faaliyetinin yaklaşık %80'i. Tether'in USDT'si bu hacmin yaklaşık %90'ını oluşturdu. Reale bağlı coinler çok daha küçük: danışmanlık şirketi Fintrender, Mayıs'ta bunların toplam arzının 10'dan fazla tokende 140 milyon doları aştığını hesapladı.
+
+Masagão, projenin mevcut kurallar çerçevesinde kurulduğunu söyledi. Brezilya merkez bankası bilgilendirildi ve sermaye piyasası düzenleyicisi CVM, tokenizasyonla bağlantısı nedeniyle girişimi destekliyor. CoinDesk'in belirttiğine göre merkez bankasının Şubat'ta yürürlüğe giren kripto kuralları kripto platformlarının lisans almasını şart koşuyor, ancak düzenleyiciler yerel stablecoin ihraççıları için henüz ayrı lisans kuralları belirlemedi.
+
+## Okurlar için ne anlama geliyor
+
+Open BRL, başka ülkelerdeki bireysel kullanıcılara değil Brezilya'nın finans sistemine yönelik ve henüz mevcut değil. Daha geniş bir eğilimin parçası: Dünyanın dört bir yanında bankalar, bu pazarı kripto şirketlerine bırakmak yerine kendi stablecoin'lerini test ediyor. USDC gibi halihazırda kullanılan dolar stablecoin'lerini merak ediyorsanız, bunları [Coinbase](REF) gibi düzenlemeye tabi platformlarda bulabilirsiniz. Nadir durumlarda bir stablecoin sabitini kaybedebilir, bu yüzden kullanmadan önce neyle desteklendiğine bakın. Bu bir yatırım tavsiyesi değildir.
+
+## Bundan sonra nelere bakmalı
+
+- 2027'nin ilk çeyreğinde planlanan lansmandan önce başka hangi banka ve aracı kurumların katılacağı.
+- Open BRL'nin hangi blokzinciri kullanacağı ve sıradan müşterilerin onu doğrudan tutup tutamayacağı.
+- Brezilyalı düzenleyicilerin stablecoin ihraççıları için ayrı lisans kuralları yayımlayıp yayımlamayacağı.
+
+!soft: Büyük resmi görmek ister misiniz? [Stablecoin arzının neden daraldığını](/articles/stablecoin-supply-shrinks-usdt-tether-nov-2026) okuyun.
+
+!end_cta
+
+!disclosure

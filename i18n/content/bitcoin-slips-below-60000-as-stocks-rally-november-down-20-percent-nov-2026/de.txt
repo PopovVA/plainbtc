@@ -1,0 +1,58 @@
+title: Bitcoin fällt wieder unter 60.000 Dollar, während Aktien nach Thanksgiving steigen
+page_title: Bitcoin fällt unter 60.000 Dollar, Aktien legen zu
+description: Bitcoin stieg früh am Freitag, dem 27. November 2026, über 62.000 Dollar und fiel nach der Eröffnung der Wall Street auf rund 58.700 Dollar, obwohl der S&P 500 um 1,6 % zulegte. Long-Wetten von über 100 Millionen Dollar wurden liquidiert, und im November liegt Bitcoin rund 20 % im Minus.
+og_description: Bitcoin kletterte über Nacht über 62.000 Dollar und verlor dann in der Stunde nach Börsenstart an der Wall Street rund 3.000 Dollar. Aktien und Gold stiegen. Was passiert ist und worauf es jetzt ankommt.
+label: Marktnews
+summary: Bitcoin erreichte früh am Freitag auf Kraken rund 62.100 Dollar und fiel nach der Eröffnung der US-Börse auf etwa 58.700 Dollar, obwohl der S&P 500 um 1,6 % stieg. Gehebelte Long-Wetten von über 100 Millionen Dollar wurden ausgelöscht, und Bitcoin steuert auf seinen schwächsten Monat seit Juni zu.
+===
+
+Bitcoin konnte seine Feiertagserholung nicht halten. Die größte Kryptowährung stieg früh am Freitag, dem 27. November, über 62.000 Dollar und fiel dann wieder unter 60.000 Dollar, als die US-Börsen nach Thanksgiving wieder öffneten, berichtete [Bloomberg](L1). Der Rückgang kam an einem guten Tag für Aktien: Der S&P 500 legte laut Bloomberg um 1,6 % zu.
+
+Auf Kraken lag der höchste Stundenkurs von Bitcoin bei rund 62.100 Dollar, gegen 2 Uhr US-Central-Time. Der tiefste lag bei rund 58.700 Dollar, in der Stunde nach der Eröffnung der Wall Street um 8:30 Uhr Central Time. Am späten Nachmittag notierte Bitcoin bei etwa 59.700 Dollar.
+
+!takeaways
+- Bitcoin stieg um bis zu 2,3 % auf über 62.000 Dollar und erreichte dann ein 24-Stunden-Tief von rund 58.760 Dollar, berichtete Bloomberg.
+- Der Großteil des Rückgangs ging schnell: Bitcoin fiel in der halben Stunde nach dem US-Börsenstart von etwa 61.350 auf fast 59.000 Dollar, wie Daten von CoinMarketCap zeigen.
+- Liquidationen von Long-Positionen auf Bitcoin überstiegen am Morgen 100 Millionen Dollar, gegenüber rund 8 Millionen bei Short-Positionen, laut CoinGlass-Daten, die CoinMarketCap zitiert.
+- Bitcoin liegt im November rund 20 % im Minus, der größte Monatsverlust seit Juni, wie Daten von CoinDesk zeigen.
+
+!figure:chart
+
+## Aktien rauf, Bitcoin runter
+
+Am Freitag gab es an der Wall Street nur einen halben Handelstag. Aktien stiegen, angeführt von Unternehmen für KI-Infrastruktur und Speicherchips, berichtete [CoinDesk](L3). Auch Silber und Gold legten zu. Laut CoinMarketCap gewann Gold an dem Tag rund 2 %.
+
+Bitcoin ging in die andere Richtung. Das fällt auf, weil viele Trader Bitcoin als „Risikoanlage“ sehen, die sich oft mit Technologieaktien bewegt. Wenn Aktien steigen und Bitcoin fällt, kann das auf Verkaufsdruck innerhalb des Kryptomarkts hindeuten statt auf eine allgemeine Marktstimmung. Auch andere Kryptowährungen fielen: Ether gab um 1,5 % auf rund 1.667 Dollar nach, so [CoinMarketCap](L2).
+
+## Hebel verschärfte den Absturz
+
+Ein großer Teil der Bewegung kam von Zwangsverkäufen. Viele Krypto-Trader setzen geliehenes Geld ein, den sogenannten Hebel, um auf steigende (eine „Long“-Position) oder fallende Kurse (eine „Short“-Position) zu wetten. Läuft der Kurs zu weit gegen sie, schließt die Börse die Position automatisch. Das ist eine Liquidation, und sie bringt zusätzliche Verkäufe (oder Käufe) in den Markt.
+
+Am Freitagmorgen traf es vor allem die Wetten auf steigende Kurse. Long-Positionen auf Bitcoin von mehr als 100 Millionen Dollar wurden liquidiert, gegenüber rund 8 Millionen Dollar bei Shorts, so CoinMarketCap unter Berufung auf CoinGlass. Früher am Tag waren um 08:00 UTC (2 Uhr Central Time) Bitcoin-Optionen im Wert von rund 7 Milliarden Dollar an der Börse Deribit verfallen, wobei die Trader defensiv aufgestellt waren, laut CoinDesk.
+
+!figure:fact
+
+!mid_cta
+
+## Stimmung weiter bei „extremer Angst“
+
+Der Fear and Greed Index von CoinMarketCap, ein Stimmungsbarometer auf Basis von Marktdaten, stand bei 9 auf einer Skala von 0 bis 100, tief im Bereich „extreme Angst“. Der Gesamtwert aller Kryptowährungen lag bei rund 2,06 Billionen Dollar, 0,8 % weniger als 24 Stunden zuvor, wie die Daten der Seite zeigen.
+
+Der Druck zeigt sich auch bei Unternehmen, die Bitcoin halten. Die Aktie von Strategy, dem größten Bitcoin-Halter unter den Unternehmen, wurde am Mittwoch mit einem Rekordabschlag zum Wert der Bitcoin des Unternehmens gehandelt, bei einem mNAV von 0,88x, berichtete CoinMarketCap. Analysten von JPMorgan nannten das ein Zeichen von Kapitulation, also dem Punkt, an dem erschöpfte Anleger aufgeben und verkaufen.
+
+## Was das für Einsteiger bedeutet
+
+Ein Tag wie dieser Freitag zeigt, dass Bitcoin in weniger als einer Stunde um Tausende Dollar schwanken kann, selbst wenn der Rest des Markts ruhig ist. Wenn Sie über einen Kauf nachdenken: Viele Einsteiger verteilen ihre Käufe über die Zeit, statt den Tiefpunkt erwischen zu wollen. Eine regulierte Plattform wie [Coinbase](REF) ermöglicht den Einstieg mit kleinen Beträgen. Meiden Sie Hebel, bis Sie genau verstehen, wie Liquidationen funktionieren. Investieren Sie nur, was Sie verlieren können. Dies ist keine Finanzberatung.
+
+## Worauf es jetzt ankommt
+
+- Der Indexanbieter MSCI nimmt Strategy zum Handelsschluss am Montag, dem 30. November, aus zwei US-Indizes.
+- Der US-Arbeitsmarktbericht für November erscheint am Freitag, dem 4. Dezember.
+- Die US-Notenbank Fed verkündet ihre nächste Zinsentscheidung am 9. Dezember.
+- Ob Bitcoin vor Monatsende am Montag wieder über 60.000 Dollar steigen und sich dort halten kann.
+
+!soft: Die Schwankungen machen Ihnen Sorgen? Lesen Sie, [wie viel Bitcoin ein Einsteiger kaufen sollte](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

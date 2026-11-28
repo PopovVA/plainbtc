@@ -1,0 +1,58 @@
+title: Bitcoin slips back below $60,000 as stocks rally after Thanksgiving
+page_title: Bitcoin slips below $60,000 while stocks rally
+description: Bitcoin topped $62,000 early Friday, Nov. 27, 2026, then fell to about $58,700 after U.S. stock markets opened, even as the S&P 500 rose 1.6%. More than $100 million in long bets were liquidated, and bitcoin is down about 20% in November.
+og_description: Bitcoin climbed above $62,000 overnight, then dropped about $3,000 in the hour after Wall Street opened. Stocks and gold rose. Here is what happened and what to watch next.
+label: Market News
+summary: Bitcoin touched about $62,100 on Kraken early Friday, then fell to about $58,700 after the U.S. stock market opened, even though the S&P 500 gained 1.6%. Over $100 million in leveraged long bets were wiped out, and bitcoin is on track for its worst month since June.
+===
+
+Bitcoin could not hold on to its holiday bounce. The largest cryptocurrency climbed above $62,000 early on Friday, Nov. 27, then fell back below $60,000 as U.S. stock markets reopened after Thanksgiving, [Bloomberg](L1) reported. The drop came on a good day for stocks: the S&P 500 rallied 1.6%, according to Bloomberg.
+
+On Kraken, bitcoin's highest hourly price was about $62,100, reached around 2 a.m. Central time. Its lowest was about $58,700, in the hour after Wall Street opened at 8:30 a.m. Central. By late afternoon it was trading near $59,700.
+
+!takeaways
+- Bitcoin rose as much as 2.3% to top $62,000, then hit a 24-hour low of around $58,760, Bloomberg reported.
+- Most of the drop happened fast: bitcoin slid from about $61,350 to near $59,000 in the half hour after the U.S. open, CoinMarketCap data show.
+- Bitcoin long liquidations topped $100 million in the morning, against about $8 million for short positions, according to CoinGlass data cited by CoinMarketCap.
+- Bitcoin is down around 20% in November, its biggest monthly decline since June, CoinDesk data show.
+
+!figure:chart
+
+## Stocks up, bitcoin down
+
+Friday was a shortened half-day session on Wall Street. Stocks rose, led by AI infrastructure and memory-chip companies, [CoinDesk](L3) reported. Silver and gold also climbed. CoinMarketCap said gold rose about 2% on the day.
+
+Bitcoin went the other way. That stands out because many traders treat bitcoin as a "risk asset" that often moves with technology stocks. When stocks rise and bitcoin falls, it can point to selling pressure inside crypto itself rather than a broad market mood. Other cryptocurrencies fell too: ether slipped 1.5% to about $1,667, according to [CoinMarketCap](L2).
+
+## Leverage made the drop sharper
+
+A big part of the move came from forced selling. Many crypto traders use borrowed money, called leverage, to bet that prices will rise (a "long") or fall (a "short"). If the price moves too far against them, the exchange automatically closes the position. That is a liquidation, and it adds more selling (or buying) to the market.
+
+On Friday morning, traders betting on higher prices took most of the hit. More than $100 million in bitcoin long positions were liquidated, compared with about $8 million in shorts, CoinMarketCap said, citing CoinGlass. Earlier in the day, about $7 billion of bitcoin options had expired on the Deribit exchange at 08:00 UTC (2 a.m. Central), with traders positioned defensively, according to CoinDesk.
+
+!figure:fact
+
+!mid_cta
+
+## Mood is still "extreme fear"
+
+The CoinMarketCap Fear and Greed Index, a sentiment gauge built from market data, stood at 9 on a scale of 0 to 100, deep in "extreme fear." The total value of all cryptocurrencies was about $2.06 trillion, down 0.8% in 24 hours, the site's data show.
+
+The pressure also shows up in companies that hold bitcoin. Shares of Strategy, the largest corporate bitcoin holder, traded on Wednesday at a record discount to the value of the bitcoin the company owns, with its mNAV at 0.88x, CoinMarketCap reported. JPMorgan analysts called that a sign of capitulation, the point where tired investors give up and sell.
+
+## What it means for beginners
+
+A day like Friday is a reminder that bitcoin can swing by thousands of dollars in less than an hour, even when the rest of the market is calm. If you are thinking about buying, many beginners spread purchases over time instead of trying to pick the bottom. A regulated U.S. exchange such as [Coinbase](REF) lets you start with a small amount. Avoid leverage until you fully understand how liquidations work. Only invest what you can afford to lose. This is not financial advice.
+
+## What to watch next
+
+- Index provider MSCI removes Strategy from two U.S. indexes at the close on Monday, Nov. 30.
+- The U.S. November jobs report is due on Friday, Dec. 4.
+- The Federal Reserve announces its next interest rate decision on Dec. 9.
+- Whether bitcoin can get back above $60,000 and stay there before the month ends on Monday.
+
+!soft: New to the ups and downs? Read [how much bitcoin a beginner should buy](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "fact",
+    "file": "fact-open-brl-one-real-one-token.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Fact card: one Brazilian real equals one Open BRL. Banco B3 would issue the token and hold one real in reserve for each unit, convertible back into reais at any time; the planned start is the first quarter of 2027",
+      "es": "Tarjeta: un real brasileño equivale a un Open BRL. Banco B3 emitiría el token y mantendría un real en reserva por cada unidad, convertible de nuevo en reales en cualquier momento; el inicio previsto es el primer trimestre de 2027",
+      "pt": "Cartão: um real equivale a um Open BRL. O Banco B3 emitiria o token e manteria um real em reserva para cada unidade, conversível de volta em reais a qualquer momento; o início previsto é o primeiro trimestre de 2027",
+      "fr": "Encadré : un réal brésilien égale un Open BRL. Banco B3 émettrait le jeton et conserverait un réal en réserve pour chaque unité, reconvertible en reais à tout moment ; démarrage prévu au premier trimestre 2027",
+      "de": "Faktenkarte: Ein brasilianischer Real entspricht einem Open BRL. Banco B3 würde den Token ausgeben und für jede Einheit einen Real als Reserve halten, jederzeit in Real zurücktauschbar; geplanter Start im ersten Quartal 2027",
+      "ru": "Карточка: один бразильский реал равен одному Open BRL. Banco B3 будет выпускать токен и держать по одному реалу в резерве на каждую единицу, с обменом обратно на реалы в любой момент; запуск запланирован на первый квартал 2027 года",
+      "tr": "Bilgi kartı: bir Brezilya reali bir Open BRL'ye eşit. Banco B3 tokeni ihraç edecek ve her birim için bir reali rezervde tutacak, istenildiği an reale geri çevrilebilecek; planlanan başlangıç 2027'nin ilk çeyreği",
+      "id": "Kartu fakta: satu real Brasil sama dengan satu Open BRL. Banco B3 akan menerbitkan token dan menyimpan satu real sebagai cadangan untuk setiap unit, yang bisa ditukar kembali ke real kapan saja; rencana mulai pada kuartal pertama 2027",
+      "ja": "ファクトカード：1ブラジルレアル＝1 Open BRL。Banco B3がトークンを発行し、1単位ごとに1レアルを準備金として保有、いつでもレアルに戻せる。稼働開始は2027年第1四半期の予定",
+      "ko": "팩트 카드: 1 브라질 헤알 = 1 Open BRL. Banco B3가 토큰을 발행하고 1단위마다 1헤알을 준비금으로 보유하며 언제든 헤알로 되바꿀 수 있다. 출범 예정 시기는 2027년 1분기"
+    },
+    "caption": {
+      "en": "Source: B3 press release; Valor Econômico, Nov. 27, 2026",
+      "es": "Fuente: B3 press release; Valor Econômico, Nov. 27, 2026",
+      "pt": "Fonte: B3 press release; Valor Econômico, Nov. 27, 2026",
+      "fr": "Source : B3 press release; Valor Econômico, Nov. 27, 2026",
+      "de": "Quelle: B3 press release; Valor Econômico, Nov. 27, 2026",
+      "ru": "Источник: B3 press release; Valor Econômico, Nov. 27, 2026",
+      "tr": "Kaynak: B3 press release; Valor Econômico, Nov. 27, 2026",
+      "id": "Sumber: B3 press release; Valor Econômico, Nov. 27, 2026",
+      "ja": "出典: B3 press release; Valor Econômico, Nov. 27, 2026",
+      "ko": "출처: B3 press release; Valor Econômico, Nov. 27, 2026"
+    }
+  },
+  {
+    "id": "timeline",
+    "file": "timeline-open-brl-road-to-launch.webp",
+    "w": 1200,
+    "h": 630,
+    "kind": "fact",
+    "alt": {
+      "en": "Timeline: February 2026, Brazil's central bank crypto rules take effect; about August, B3 and the banks begin talks; Nov. 27, seven firms announce Open BRL; first quarter of 2027, planned start of operations",
+      "es": "Cronología: febrero de 2026, entran en vigor las reglas cripto del banco central de Brasil; hacia agosto, B3 y los bancos empiezan a negociar; 27 de noviembre, siete empresas anuncian Open BRL; primer trimestre de 2027, inicio previsto de operaciones",
+      "pt": "Linha do tempo: fevereiro de 2026, entram em vigor as regras cripto do Banco Central; por volta de agosto, B3 e os bancos começam a conversar; 27 de novembro, sete empresas anunciam a Open BRL; primeiro trimestre de 2027, início previsto das operações",
+      "fr": "Chronologie : février 2026, entrée en vigueur des règles crypto de la banque centrale du Brésil ; vers août, début des discussions entre B3 et les banques ; 27 novembre, sept sociétés annoncent Open BRL ; premier trimestre 2027, démarrage prévu",
+      "de": "Zeitleiste: Februar 2026, die Krypto-Regeln der brasilianischen Zentralbank treten in Kraft; etwa August, B3 und die Banken beginnen Gespräche; 27. November, sieben Unternehmen kündigen Open BRL an; erstes Quartal 2027, geplanter Start",
+      "ru": "Хронология: февраль 2026 года, вступают в силу криптоправила центробанка Бразилии; примерно август, B3 и банки начинают переговоры; 27 ноября семь компаний объявляют об Open BRL; первый квартал 2027 года, планируемый запуск",
+      "tr": "Zaman çizelgesi: Şubat 2026'da Brezilya merkez bankasının kripto kuralları yürürlüğe giriyor; Ağustos civarında B3 ve bankalar görüşmelere başlıyor; 27 Kasım'da yedi şirket Open BRL'yi duyuruyor; 2027'nin ilk çeyreğinde faaliyetlerin başlaması planlanıyor",
+      "id": "Linimasa: Februari 2026, aturan kripto bank sentral Brasil berlaku; sekitar Agustus, B3 dan bank-bank mulai berunding; 27 November, tujuh perusahaan mengumumkan Open BRL; kuartal pertama 2027, rencana mulai beroperasi",
+      "ja": "年表：2026年2月、ブラジル中央銀行の暗号資産ルールが施行。8月ごろ、B3と銀行が協議を開始。11月27日、7社がOpen BRLを発表。2027年第1四半期、稼働開始予定",
+      "ko": "타임라인: 2026년 2월 브라질 중앙은행 암호화폐 규정 시행, 8월경 B3와 은행들 논의 시작, 11월 27일 7개사가 Open BRL 발표, 2027년 1분기 운영 시작 예정"
+    },
+    "caption": {
+      "en": "Source: B3; Valor Econômico; CoinDesk, Nov. 27, 2026",
+      "es": "Fuente: B3; Valor Econômico; CoinDesk, Nov. 27, 2026",
+      "pt": "Fonte: B3; Valor Econômico; CoinDesk, Nov. 27, 2026",
+      "fr": "Source : B3; Valor Econômico; CoinDesk, Nov. 27, 2026",
+      "de": "Quelle: B3; Valor Econômico; CoinDesk, Nov. 27, 2026",
+      "ru": "Источник: B3; Valor Econômico; CoinDesk, Nov. 27, 2026",
+      "tr": "Kaynak: B3; Valor Econômico; CoinDesk, Nov. 27, 2026",
+      "id": "Sumber: B3; Valor Econômico; CoinDesk, Nov. 27, 2026",
+      "ja": "出典: B3; Valor Econômico; CoinDesk, Nov. 27, 2026",
+      "ko": "출처: B3; Valor Econômico; CoinDesk, Nov. 27, 2026"
+    }
+  }
+]

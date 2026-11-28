@@ -1,0 +1,57 @@
+title: Bursa Brasil dan enam bank besar siapkan Open BRL, stablecoin yang dijamin satu banding satu dengan real
+page_title: B3 dan enam bank Brasil siapkan stablecoin Open BRL
+description: B3, operator bursa saham Brasil, bersama Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander, dan XP mengumumkan Open BRL pada 27 November 2026: stablecoin yang dijamin satu banding satu dengan real Brasil dan diperkirakan mulai beroperasi pada kuartal pertama 2027.
+og_description: Banco B3 akan menerbitkan token dan menyimpan satu real sebagai cadangan untuk setiap Open BRL. Tujuannya satu real digital bersama yang diterima bank-bank pesaing. Begini cara kerjanya.
+label: Bisnis
+summary: B3 dan enam perusahaan keuangan terbesar Brasil menyiapkan stablecoin bersama bernama Open BRL. Setiap token akan dijamin satu real yang disimpan Banco B3, dan platform ini diperkirakan mulai pada kuartal pertama 2027. Lembaga lain bisa bergabung sejak awal.
+===
+
+Operator bursa saham Brasil ingin memberi bank-bank di negaranya satu real digital yang bisa dipakai semua pihak. B3, bersama Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander, dan XP, mengumumkan pada Jumat, 27 November, bahwa mereka sedang mengembangkan stablecoin bernama Open BRL beserta infrastruktur bersama untuk memakainya, menurut [siaran pers](L1) B3.
+
+Stablecoin adalah mata uang kripto yang dirancang untuk menjaga nilainya tetap stabil dengan mengikuti mata uang biasa. Sebagian besar stablecoin besar, seperti USDT dan USDC, mengikuti dolar AS. Open BRL akan mengikuti real Brasil.
+
+!takeaways
+- Tujuh perusahaan berada di balik Open BRL: B3, Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander, dan XP.
+- Banco B3 akan menerbitkan token dan menyimpan satu real sebagai cadangan untuk setiap unit, sehingga token bisa ditukar kembali ke real kapan saja, kata Luiz Masagão dari B3 kepada Valor Econômico.
+- Platform ini diperkirakan mulai beroperasi pada kuartal pertama 2027, dan lembaga keuangan lain bisa bergabung sejak awal.
+- Perusahaan-perusahaan itu tidak menyebut berapa dana yang mereka tanamkan dalam proyek ini.
+
+!figure:fact
+
+## Cara kerja Open BRL
+
+Idenya sederhana: nasabah menyerahkan R$1 dan menerima satu token Open BRL di sebuah blockchain. Real itu disimpan sebagai jaminan dan siap ditukar kembali menjadi uang tunai, jelas Masagão, wakil presiden produk B3, kepada [Valor](L2). "Ada faktor kepercayaan yang penting dalam stablecoin. Saya menjamin bahwa untuk setiap stablecoin yang diterbitkan, saya akan memiliki R$1 yang disimpan," katanya.
+
+Pada tahap awal, B3 akan menjalankan teknologinya dan Banco B3 akan menerbitkan stablecoin, sementara bank-bank mitra membangun integrasi dan menguji cara memakainya, menurut siaran pers B3. Sebuah komite pengarah akan menetapkan tata kelola, aturan operasional, teknologi, dan harga, lapor Valor. Jika proyek ini berkembang, para mitra bisa menjadikannya perusahaan yang sepenuhnya independen, kata Masagão.
+
+!figure:timeline
+
+!mid_cta
+
+## Mengapa bank-bank pesaing ingin koin bersama
+
+Beberapa bank Brasil sudah punya proyek stablecoin sendiri, dan B3 juga punya. Masalahnya, jelas Masagão, token satu bank bisa saja tidak diterima bank lain ketika uang perlu dipindahkan di antara mereka. Pembicaraan dimulai sekitar tiga bulan lalu untuk mengatasi hal itu. Bank-bank akan tetap memakai token internal mereka, sementara Open BRL dimaksudkan sebagai koin netral yang diterima semua pihak, dengan B3 di tengah, lapor [CoinDesk](L3).
+
+Salah satu kegunaan utamanya adalah tokenisasi, yaitu mencatat aset seperti saham di blockchain. B3 sedang membangun platform untuk saham digital, dan transaksi tersebut membutuhkan bentuk uang digital untuk penyelesaiannya. "Ketika Anda melakukan tokenisasi, Anda men-tokenisasi aset, tetapi Anda butuh alat tukar agar penyelesaian itu bisa terjadi," kata Masagão. Karena token ini berada di blockchain, transfer antardompet juga bisa memicu kontrak pintar, program kecil yang menyelesaikan langkah berikutnya dari sebuah transaksi secara otomatis.
+
+## Sudut kecil dari pasar yang besar
+
+Orang Brasil banyak memakai stablecoin, tetapi kebanyakan yang berbasis dolar. Mereka melaporkan transaksi stablecoin senilai 404,8 miliar real pada 2025, sekitar 80% dari seluruh aktivitas kripto yang dilaporkan, menurut otoritas pajak Receita Federal, lapor CoinDesk. USDT milik Tether menyumbang hampir 90% dari volume itu. Koin yang dipatok ke real jauh lebih kecil: konsultan Fintrender memperkirakan pada Mei total pasokannya di atas US$140 juta, tersebar di lebih dari 10 token.
+
+Masagão mengatakan proyek ini dibangun dalam kerangka aturan yang ada. Bank sentral Brasil sudah diberi tahu, dan regulator pasar modal CVM mendukungnya karena terkait dengan tokenisasi, katanya. Aturan kripto bank sentral, yang berlaku sejak Februari, mewajibkan platform kripto memiliki izin, tetapi regulator belum menetapkan aturan perizinan khusus untuk penerbit stablecoin lokal, catat CoinDesk.
+
+## Artinya bagi pembaca
+
+Open BRL ditujukan untuk sistem keuangan Brasil, bukan untuk konsumen di negara lain, dan belum ada. Ini bagian dari tren yang lebih luas: bank-bank di seluruh dunia menguji stablecoin sendiri alih-alih menyerahkan pasar ini kepada perusahaan kripto. Jika Anda penasaran dengan stablecoin dolar yang sudah dipakai, seperti USDC, Anda bisa menemukannya di platform teregulasi seperti [Coinbase](REF). Dalam kasus yang jarang, stablecoin bisa kehilangan patokannya, jadi periksa bagaimana koin itu dijamin sebelum memakainya. Ini bukan nasihat keuangan.
+
+## Yang perlu dipantau
+
+- Bank dan perusahaan sekuritas mana lagi yang bergabung sebelum peluncuran yang direncanakan pada kuartal pertama 2027.
+- Blockchain apa yang akan dipakai Open BRL, dan apakah nasabah biasa bisa memegangnya secara langsung.
+- Apakah regulator Brasil menerbitkan aturan perizinan khusus untuk penerbit stablecoin.
+
+!soft: Ingin melihat gambaran besarnya? Baca mengapa [pasokan stablecoin menyusut](/articles/stablecoin-supply-shrinks-usdt-tether-nov-2026).
+
+!end_cta
+
+!disclosure

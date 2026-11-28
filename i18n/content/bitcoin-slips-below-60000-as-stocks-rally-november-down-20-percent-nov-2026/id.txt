@@ -1,0 +1,58 @@
+title: Bitcoin kembali turun di bawah US$60.000 saat saham menguat setelah Thanksgiving
+page_title: Bitcoin turun di bawah US$60.000 saat saham menguat
+description: Bitcoin menembus US$62.000 pada Jumat dini hari, 27 November 2026, lalu turun ke sekitar US$58.700 setelah Wall Street dibuka, padahal S&P 500 naik 1,6%. Lebih dari US$100 juta taruhan long dilikuidasi, dan bitcoin turun sekitar 20% pada November.
+og_description: Bitcoin naik di atas US$62.000 semalam, lalu turun sekitar US$3.000 dalam satu jam setelah Wall Street dibuka. Saham dan emas naik. Inilah yang terjadi dan apa yang perlu dipantau.
+label: Pasar
+summary: Bitcoin menyentuh sekitar US$62.100 di Kraken pada Jumat dini hari, lalu turun ke sekitar US$58.700 setelah bursa saham AS dibuka, meski S&P 500 naik 1,6%. Lebih dari US$100 juta taruhan long dengan leverage tersapu, dan bitcoin menuju bulan terburuknya sejak Juni.
+===
+
+Bitcoin gagal mempertahankan kenaikan saat libur. Mata uang kripto terbesar ini menembus US$62.000 pada Jumat dini hari, 27 November, lalu kembali turun di bawah US$60.000 ketika bursa saham AS dibuka lagi setelah Thanksgiving, lapor [Bloomberg](L1). Penurunan ini terjadi pada hari yang baik bagi saham: S&P 500 naik 1,6%, menurut Bloomberg.
+
+Di Kraken, harga per jam tertinggi bitcoin sekitar US$62.100, dicapai sekitar pukul 2 dini hari waktu Central AS. Harga terendahnya sekitar US$58.700, dalam satu jam setelah Wall Street dibuka pukul 8:30 waktu Central. Menjelang sore, bitcoin diperdagangkan di sekitar US$59.700.
+
+!takeaways
+- Bitcoin naik hingga 2,3% dan menembus US$62.000, lalu menyentuh level terendah 24 jam di sekitar US$58.760, lapor Bloomberg.
+- Sebagian besar penurunan terjadi cepat: bitcoin turun dari sekitar US$61.350 ke dekat US$59.000 dalam setengah jam setelah pembukaan bursa AS, menurut data CoinMarketCap.
+- Likuidasi posisi long bitcoin melampaui US$100 juta pada pagi hari, dibandingkan sekitar US$8 juta untuk posisi short, menurut data CoinGlass yang dikutip CoinMarketCap.
+- Bitcoin turun sekitar 20% pada November, penurunan bulanan terbesar sejak Juni, menurut data CoinDesk.
+
+!figure:chart
+
+## Saham naik, bitcoin turun
+
+Jumat adalah sesi setengah hari di Wall Street. Saham naik, dipimpin perusahaan infrastruktur kecerdasan buatan dan chip memori, lapor [CoinDesk](L3). Perak dan emas juga naik. CoinMarketCap menyebut emas naik sekitar 2% hari itu.
+
+Bitcoin bergerak ke arah sebaliknya. Ini mencolok karena banyak trader memperlakukan bitcoin sebagai "aset berisiko" yang sering bergerak bersama saham teknologi. Ketika saham naik dan bitcoin turun, itu bisa menandakan tekanan jual di dalam pasar kripto sendiri, bukan suasana pasar secara umum. Kripto lain juga turun: ether melemah 1,5% ke sekitar US$1.667, menurut [CoinMarketCap](L2).
+
+## Leverage membuat penurunan lebih tajam
+
+Sebagian besar pergerakan berasal dari penjualan paksa. Banyak trader kripto memakai uang pinjaman, yang disebut leverage, untuk bertaruh harga akan naik (posisi "long") atau turun (posisi "short"). Jika harga bergerak terlalu jauh melawan mereka, bursa menutup posisi itu secara otomatis. Itulah likuidasi, dan likuidasi menambah penjualan (atau pembelian) di pasar.
+
+Pada Jumat pagi, pihak yang bertaruh harga naik paling terpukul. Lebih dari US$100 juta posisi long bitcoin dilikuidasi, dibandingkan sekitar US$8 juta posisi short, kata CoinMarketCap mengutip CoinGlass. Sebelumnya pada hari yang sama, opsi bitcoin senilai sekitar US$7 miliar jatuh tempo di bursa Deribit pada pukul 08:00 UTC (pukul 2 dini hari waktu Central), dengan para trader dalam posisi defensif, menurut CoinDesk.
+
+!figure:fact
+
+!mid_cta
+
+## Suasana masih "ketakutan ekstrem"
+
+Indeks Fear and Greed CoinMarketCap, pengukur sentimen yang dihitung dari data pasar, berada di angka 9 pada skala 0 sampai 100, jauh di zona "ketakutan ekstrem". Nilai total semua mata uang kripto sekitar US$2,06 triliun, turun 0,8% dalam 24 jam, menurut data situs itu.
+
+Tekanan juga terlihat pada perusahaan yang menyimpan bitcoin. Saham Strategy, pemegang bitcoin korporat terbesar, pada hari Rabu diperdagangkan dengan diskon rekor dibandingkan nilai bitcoin milik perusahaan, dengan mNAV 0,88x, lapor CoinMarketCap. Analis JPMorgan menyebutnya tanda kapitulasi, yaitu saat investor yang lelah menyerah dan menjual.
+
+## Artinya bagi pemula
+
+Hari seperti Jumat ini mengingatkan bahwa bitcoin bisa bergerak ribuan dolar dalam waktu kurang dari satu jam, bahkan ketika pasar lain tenang. Jika Anda berpikir untuk membeli, banyak pemula menyebar pembelian dari waktu ke waktu alih-alih mencoba menebak titik terendah. Platform teregulasi seperti [Coinbase](REF) memungkinkan Anda mulai dengan jumlah kecil. Hindari leverage sampai Anda benar-benar paham cara kerja likuidasi. Investasikan hanya uang yang sanggup Anda relakan. Ini bukan nasihat keuangan.
+
+## Yang perlu dipantau
+
+- Penyedia indeks MSCI mengeluarkan Strategy dari dua indeks AS saat penutupan Senin, 30 November.
+- Laporan ketenagakerjaan AS untuk November dirilis pada Jumat, 4 Desember.
+- Federal Reserve mengumumkan keputusan suku bunga berikutnya pada 9 Desember.
+- Apakah bitcoin bisa kembali di atas US$60.000 dan bertahan sebelum bulan berakhir pada hari Senin.
+
+!soft: Cemas dengan naik turunnya harga? Baca [berapa banyak bitcoin yang sebaiknya dibeli pemula](/articles/how-much-bitcoin-should-a-beginner-buy-dca).
+
+!end_cta
+
+!disclosure

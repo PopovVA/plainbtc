@@ -3264,7 +3264,116 @@ def thumb_bbit_six():
     ], "note": "Editorial composite; logo for identification only; no endorsement by SIX or BIT implied."}
 
 
+def thumb_btc_slip_stocks_rally():
+    """Light 'market screen' board: Kraken BTC/USD hourly closes for Nov. 27, 2026 (UTC, frozen in chart-data.json)
+    with the U.S. open (14:30 UTC) marked and the day's Kraken high/low, next to tiles with Bloomberg's S&P 500 gain,
+    CoinGlass/CoinMarketCap liquidations and CoinDesk's November drop. Bitcoin logo from Wikimedia Commons (public domain)."""
+    data = json.loads((I18N / "bitcoin-slips-below-60000-as-stocks-rally-november-down-20-percent-nov-2026" / "chart-data.json").read_text(encoding="utf-8"))
+    day0 = datetime(2026, 11, 27, tzinfo=timezone.utc).timestamp()
+    hrs = [r for r in data["hourly"] if r[0] >= day0]
+    xs = [datetime.fromtimestamp(r[0], tz=timezone.utc) for r in hrs]
+    closes = [r[1] for r in hrs]
+    hi = max(hrs, key=lambda r: r[3]); lo = min(hrs, key=lambda r: r[2])
+    btc = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg", CACHE/"bitcoin-logo.svg")).convert("RGBA")
+    bg, ink, mute, red, green = "#eef2f7", "#0f172a", "#64748b", "#dc2626", "#059669"
+    fig = plt.figure(figsize=(6.4, 3.6), dpi=100 * S); fig.patch.set_facecolor(bg)
+    ax = fig.add_axes([0.08, 0.13, 0.55, 0.58]); ax.set_facecolor("#ffffff")
+    for s_ in ("top", "right"): ax.spines[s_].set_visible(False)
+    for s_ in ("left", "bottom"): ax.spines[s_].set_color("#cbd5e1")
+    ax.tick_params(colors=mute, labelsize=6.5, length=0)
+    ax.grid(True, axis="y", color="#e2e8f0", linewidth=0.6)
+    opn = datetime(2026, 11, 27, 14, 30, tzinfo=timezone.utc)
+    pre = [(x, c) for x, c in zip(xs, closes) if x <= opn]
+    post = [(xs[len(pre) - 1], closes[len(pre) - 1])] + [(x, c) for x, c in zip(xs, closes) if x > opn]
+    ax.plot([p[0] for p in pre], [p[1] for p in pre], color="#f7931a", linewidth=2.0)
+    ax.plot([p[0] for p in post], [p[1] for p in post], color=red, linewidth=2.0)
+    ax.axvline(opn, color=ink, linestyle=":", linewidth=0.9)
+    ax.text(opn, 62250, " U.S. open", color=ink, fontsize=6.5, fontweight="bold", va="bottom")
+    ax.axhline(60000, color="#94a3b8", linestyle="--", linewidth=0.8)
+    ax.text(xs[0], 60060, "$60,000", color=mute, fontsize=6, va="bottom")
+    hx = datetime.fromtimestamp(hi[0], tz=timezone.utc); lx = datetime.fromtimestamp(lo[0], tz=timezone.utc)
+    ax.scatter([hx], [hi[3]], color=green, s=12 * S, zorder=3)
+    ax.annotate(f"high ${hi[3]:,.0f}", (hx, hi[3]), xytext=(-4, 5), textcoords="offset points", color=green, fontsize=6.3, fontweight="bold", ha="right")
+    ax.scatter([lx], [lo[2]], color=red, s=12 * S, zorder=3)
+    ax.annotate(f"low ${lo[2]:,.0f}", (lx, lo[2]), xytext=(6, -1), textcoords="offset points", color=red, fontsize=6.3, fontweight="bold", va="center")
+    ax.set_ylim(58300, 62700)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f"${v/1000:.1f}K"))
+    ax.xaxis.set_major_locator(mdates.HourLocator(byhour=[0, 6, 12, 18]))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%H:%M"))
+    fig.text(0.18, 0.88, "Stocks up, bitcoin down", color=ink, fontsize=15, fontweight="bold", va="center")
+    fig.text(0.18, 0.80, "BTC/USD hourly closes on Kraken, Nov. 27, 2026 (UTC)", color=mute, fontsize=7.5, va="center")
+    tiles = [("S&P 500", "+1.6%", green, "Friday (Bloomberg)"),
+             ("BTC longs liquidated", "$100M+", red, "morning (CoinGlass)"),
+             ("BTC in November", "about -20%", red, "CoinDesk data")]
+    for i, (lab, big, col, src) in enumerate(tiles):
+        y = 0.72 - i * 0.215
+        fig.patches.append(matplotlib.patches.FancyBboxPatch((0.68, y - 0.16), 0.29, 0.18, boxstyle="round,pad=0.004,rounding_size=0.015",
+                           transform=fig.transFigure, facecolor="#ffffff", edgecolor="#cbd5e1", linewidth=0.8))
+        fig.text(0.70, y - 0.005, lab, color=mute, fontsize=6.8, va="center")
+        fig.text(0.70, y - 0.075, big, color=col, fontsize=13, fontweight="bold", va="center")
+        fig.text(0.70, y - 0.135, src, color=mute, fontsize=5.8, va="center")
+    buf = io.BytesIO(); fig.savefig(buf, format="png", dpi=100 * S, facecolor=bg); plt.close(fig); buf.seek(0)
+    base = Image.open(buf).convert("RGB")
+    paste_contain(base, btc, (46, 14, 60, 60), pad=2)
+    return base, {"kind": "composite", "sources": [
+        {"file": "Kraken OHLC XBTUSD interval=60 (frozen in chart-data.json)", "license": "Kraken public API", "url": "https://docs.kraken.com/api/docs/rest-api/get-ohlc-data", "credit": "Hourly BTC/USD closes, high and low, Nov. 27, 2026, from Kraken"},
+        {"file": "Bloomberg: Bitcoin bucks Wall Street rally (S&P 500 +1.6%)", "license": "Facts cited", "url": "https://www.bloomberg.com/news/articles/2026-11-27/bitcoin-bounces-as-optimism-returns-to-markets-after-holiday", "credit": "Bloomberg"},
+        {"file": "CoinMarketCap: Crypto news today, Nov. 27, 2026 (CoinGlass liquidations)", "license": "Facts cited", "url": "https://coinmarketcap.com/academy/article/crypto-news-today-nov-27-2026", "credit": "CoinMarketCap / CoinGlass"},
+        {"file": "CoinDesk: bitcoin down around 20% in November", "license": "Facts cited", "url": "https://www.coindesk.com/markets/2026/11/27/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound", "credit": "CoinDesk"},
+        {"file": "Bitcoin.svg", "license": "Public domain", "url": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg", "credit": "Bitcoin logo"},
+    ]}
+
+
+def thumb_open_brl():
+    """Brazil green/gold board: flag of Brazil (Wikimedia Commons, public domain) and the B3 logo (Wikimedia Commons, CC0,
+    identification only), a drawn 'R$1 -> 1 Open BRL' token diagram and the seven participants as text chips
+    (no bank logos). Facts: B3 press release and Valor Econômico, Nov. 27, 2026."""
+    flag = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg", CACHE/"flag-brazil.svg")).convert("RGBA")
+    b3 = Image.open(fetch("https://upload.wikimedia.org/wikipedia/commons/2/25/B3_logo.svg", CACHE/"b3-logo.svg")).convert("RGBA")
+    base = gradient_bg(top=(0, 92, 52), bottom=(0, 38, 26))
+    ink, mute, gold, blue = (255, 255, 255), (187, 247, 208), (254, 221, 0), (0, 39, 118)
+    paste_contain(base, flag, (22, 22, 92, 64), pad=0)
+    d = Draw(base)
+    d.rounded_rectangle([126, 22, 236, 86], radius=10, fill=(255, 255, 255))
+    paste_contain(base, b3, (126, 22, 110, 64), pad=10)
+    d = Draw(base)
+    d.text((256, 24), "Open BRL", font=font(FONT_B, 26), fill=gold)
+    d.text((256, 58), "A shared stablecoin for Brazil's banks", font=font(FONT_R, 13), fill=mute)
+    # token diagram: R$1 note -> coin
+    d.rounded_rectangle([30, 112, 186, 196], radius=10, fill=(22, 101, 52), outline=(134, 239, 172), width=2)
+    d.text((50, 124), "R$1", font=font(FONT_B, 34), fill=ink)
+    d.text((50, 168), "deposited", font=font(FONT_R, 13), fill=mute)
+    d.polygon([(204, 144), (240, 144), (240, 132), (262, 154), (240, 176), (240, 164), (204, 164)], fill=gold)
+    d.ellipse([276, 104, 376, 204], fill=gold, outline=(255, 255, 255), width=3)
+    d.ellipse([288, 116, 364, 192], outline=blue, width=3)
+    for txt, yy, fs in (("1", 122, 30), ("Open BRL", 162, 11)):
+        tw = d.textlength(txt, font=font(FONT_B, fs))
+        d.text((326 - tw / 2, yy), txt, font=font(FONT_B, fs), fill=blue)
+    d.text((396, 116), "Issued by Banco B3", font=font(FONT_B, 14), fill=ink)
+    d.text((396, 138), "1 real held in reserve", font=font(FONT_R, 13), fill=mute)
+    d.text((396, 156), "per token, redeemable", font=font(FONT_R, 13), fill=mute)
+    d.rounded_rectangle([396, 178, 552, 204], radius=8, fill=gold)
+    d.text((406, 182), "Planned: Q1 2027", font=font(FONT_B, 13), fill=blue)
+    names = ["B3", "Bradesco", "BTG Pactual", "Itaú Unibanco", "Safra", "Santander", "XP"]
+    x, y = 30, 232
+    for n in names:
+        tw = d.textlength(n, font=font(FONT_B, 13))
+        if x + tw + 24 > 610: x, y = 30, y + 36
+        d.rounded_rectangle([x, y, x + tw + 22, y + 28], radius=14, fill=(255, 255, 255) if n == "B3" else (6, 78, 45), outline=(134, 239, 172), width=1)
+        d.text((x + 11, y + 6), n, font=font(FONT_B, 13), fill=blue if n == "B3" else ink)
+        x += tw + 32
+    d.text((24, 330), "Flag: Wikimedia Commons (public domain) · B3 logo: Wikimedia Commons (CC0) · facts: B3, Valor Econômico, Nov. 27, 2026", font=font(FONT_R, 9), fill=mute)
+    return base, {"kind": "composite", "sources": [
+        {"file": "Flag_of_Brazil.svg", "license": "Public domain", "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg", "credit": "Wikimedia Commons"},
+        {"file": "B3_logo.svg", "license": "CC0", "url": "https://commons.wikimedia.org/wiki/File:B3_logo.svg", "credit": "B3"},
+        {"file": "B3 press release: Bolsa e seis instituições financeiras se unem para criar stablecoin em reais (Nov. 27, 2026)", "license": "Facts cited", "url": "https://www.b3.com.br/pt_br/noticias/bolsa-e-seis-instituicoes-financeiras-se-unem-para-criar-stablecoin-em-reais.htm", "credit": "B3"},
+        {"file": "Valor International: B3 and banks team up to launch real-backed stablecoin", "license": "Facts cited", "url": "https://valorinternational.globo.com/markets/news/2026/11/27/b3-and-banks-team-up-to-launch-real-backed-stablecoin.ghtml", "credit": "Valor Econômico"},
+    ], "note": "Editorial composite; logo for identification only; no endorsement by B3 or the participating banks implied."}
+
+
 BUILDERS = {
+    "bitcoin-slips-below-60000-as-stocks-rally-november-down-20-percent-nov-2026": thumb_btc_slip_stocks_rally,
+    "brazil-b3-six-banks-open-brl-real-stablecoin-nov-2026": thumb_open_brl,
     "malaysia-halogen-shariah-bitcoin-etf-bursa-listing-dec-2-nov-2026": thumb_halogen_etf,
     "switzerland-first-spot-bitcoin-etf-bbit-six-350-btc-nov-2026": thumb_bbit_six,
     "monero-falls-11-percent-kucoin-delists-xmr-nov-2026": thumb_monero_kucoin,
